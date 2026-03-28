@@ -7,6 +7,7 @@ import {
   PingUserResponse,
   WelcomeUserPayload,
   WelcomeUserResponse,
+  LoggerService,
 } from '@app/common';
 import { UserServiceService } from './user-service.service';
 
@@ -15,6 +16,7 @@ export class UserServiceController {
   constructor(
     private readonly userServiceService: UserServiceService,
     private readonly rmqService: RmqService,
+    private readonly logger: LoggerService,
   ) {}
 
   @MessagePattern({ cmd: USER_COMMANDS.PING })
@@ -33,6 +35,14 @@ export class UserServiceController {
     @Ctx() context: RmqContext,
   ): WelcomeUserResponse {
     this.rmqService.ack(context);
+    
+    // Auto-detects service name: 'user-service'
+    this.logger.business(`Received welcome pattern from user: ${data.name || 'Guest'}`, {
+      action: 'process_welcome',
+      entityId: `usr-${Date.now()}`,
+      status: 'PROCESSED',
+    });
+
     return {
       success: true,
       service: 'user-service',

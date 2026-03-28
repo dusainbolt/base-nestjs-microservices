@@ -1,6 +1,6 @@
 import { Module } from '@nestjs/common';
 import { ConfigModule } from '@nestjs/config';
-import { RmqModule } from '@app/common';
+import { RmqModule, LoggerModule, USER_SERVICE } from '@app/common';
 import { UserServiceController } from './user-service.controller';
 import { UserServiceService } from './user-service.service';
 
@@ -10,6 +10,7 @@ import { UserServiceService } from './user-service.service';
       isGlobal: true,
       envFilePath: '.env',
     }),
+    LoggerModule.forRoot({ name: USER_SERVICE }),
     RmqModule,
   ],
   controllers: [UserServiceController],
