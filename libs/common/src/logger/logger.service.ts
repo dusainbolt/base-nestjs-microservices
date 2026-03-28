@@ -61,7 +61,7 @@ export class LoggerService {
     this.emitLog(level, message, LogType.AUTH, context);
   }
 
-  system(level: 'warn' | 'error', message: string, context: SystemLogContext) {
+  system(level: 'info' | 'warn' | 'error', message: string, context: SystemLogContext) {
     this.emitLog(level, message, LogType.SYSTEM, context);
   }
 

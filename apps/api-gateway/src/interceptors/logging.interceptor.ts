@@ -41,14 +41,18 @@ export class LoggingInterceptor implements NestInterceptor {
       tap(() => {
         const latencyMs = Date.now() - now;
         const statusCode = response.statusCode;
-
-        this.logger.http(`HTTP Request: ${method} ${url}`, {
+        this.logger.http(`HTTP ${method} ${url} ${statusCode}`, {
           method,
           url,
           statusCode,
           latencyMs,
           ip,
           userId: (request as any).user?.id || 'anonymous',
+          inputPayload: {
+            body: request.body ?? {},
+            query: request.query ?? {},
+            params: request.params ?? {},
+          },
         });
       }),
     );

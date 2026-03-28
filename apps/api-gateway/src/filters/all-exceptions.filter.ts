@@ -41,7 +41,7 @@ export class AllExceptionsFilter implements ExceptionFilter {
 
     // Log as HTTP_API_LOG — same channel as successful requests
     this.logger.http(
-      `HTTP Error: ${method} ${url} ${status}`,
+      `HTTP ${method} ${url} ${status}`,
       {
         method,
         url,
@@ -50,6 +50,11 @@ export class AllExceptionsFilter implements ExceptionFilter {
         ip,
         userId: (request as any).user?.id || 'anonymous',
         errorMessage: exception instanceof Error ? exception.message : 'Unknown Error',
+        inputPayload: {
+          body: request.body ?? {},
+          query: request.query ?? {},
+          params: request.params ?? {},
+        },
         ...(status !== HttpStatus.NOT_FOUND && exception instanceof Error
           ? { errorStack: exception.stack }
           : {}),

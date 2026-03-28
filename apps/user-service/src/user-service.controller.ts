@@ -4,7 +4,6 @@ import { ClsService } from 'nestjs-cls';
 import {
   RmqService,
   USER_COMMANDS,
-  USER_SERVICE,
   PingUserPayload,
   PingUserResponse,
   WelcomeUserPayload,
@@ -29,7 +28,8 @@ export class UserServiceController {
    * Wrapper dùng chung cho mọi @MessagePattern handler:
    * 1. Ack message
    * 2. Tạo CLS context mới → set _traceId từ payload (propagate từ gateway)
-   * 3. Chạy handler, log lỗi nếu throw
+   * 3. Log rpc_handler_start / rpc_handler_end với durationMs
+   * 4. Catch lỗi + log đầy đủ nếu throw
    */
   private wrapHandler<T>(
     context: RmqContext,
@@ -38,17 +38,31 @@ export class UserServiceController {
   ): Promise<T> {
     this.rmqService.ack(context);
 
+    // Lấy cmd từ pattern để log rõ handler nào đang chạy
+    const rawPattern: any = context.getPattern();
+    const cmd: string =
+      typeof rawPattern === 'string'
+        ? (JSON.parse(rawPattern)?.cmd ?? rawPattern)
+        : (rawPattern?.cmd ?? 'unknown');
+
     return this.cls.run(async () => {
       if (data?._traceId) {
         this.cls.set('_traceId', data._traceId);
       }
+
+      const rpcStart = Date.now();
 
       try {
         return await Promise.resolve(fn());
       } catch (err: any) {
         this.logger.error(
           `${err.name}: ${err.message}`,
-          { errorCode: 'RPC_HANDLER_ERROR', errorName: err.name },
+          {
+            errorCode: 'RPC_HANDLER_ERROR',
+            errorName: err.name,
+            cmd,
+            durationMs: Date.now() - rpcStart,
+          },
           err.stack,
         );
         throw err;
