@@ -1,0 +1,32 @@
+services:
+  postgres:
+    image: postgres:16-alpine
+    container_name: nestjs_db
+    ports:
+      - "5432:5432"
+    environment:
+      POSTGRES_USER: user
+      POSTGRES_PASSWORD: password
+      POSTGRES_DB: nestjs_db
+    volumes:
+      - postgres_data:/var/lib/postgresql/data
+    networks:
+      - nestjs_network
+
+  redis:
+    image: redis:7-alpine
+    container_name: nestjs_redis
+    ports:
+      - "6379:6379"
+    volumes:
+      - redis_data:/data
+    networks:
+      - nestjs_network
+
+networks:
+  nestjs_network:
+    driver: bridge
+
+volumes:
+  postgres_data:
+  redis_data:
