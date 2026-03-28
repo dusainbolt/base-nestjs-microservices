@@ -10,4 +10,5 @@ export * from './interfaces/user.interface';
 export * from './interfaces/log.interface';
 export * from './logger/logger.module';
 export * from './logger/logger.service';
+export * from './filters/rpc-exception.filter';
 

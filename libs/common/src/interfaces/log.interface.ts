@@ -10,7 +10,7 @@ export interface HttpLogContext {
   method: string;
   url: string;
   statusCode: number;
-  latencyMs: number;
+  latencyMs?: number;
   userId?: string;
   ip: string;
   [key: string]: any;

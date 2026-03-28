@@ -23,8 +23,10 @@ export class LoggerService {
   ) {}
 
   private getTraceId(): string {
-    // Tự động kéo traceId từ request hiện tại nếu có
-    return this.cls.getId() || `sys-${Date.now()}`;
+    // HTTP context  : cls.getId() → traceId từ x-trace-id header
+    // RMQ context   : cls.get('_traceId') → traceId propagate từ gateway qua payload
+    // Fallback      : sys-timestamp nếu không có context nào
+    return this.cls.getId() || this.cls.get<string>('_traceId') || `sys-${Date.now()}`;
   }
 
   private emitLog(
@@ -63,7 +65,7 @@ export class LoggerService {
     this.emitLog(level, message, LogType.SYSTEM, context);
   }
 
-  error(message: string, context: ErrorLogContext, stack?: string) {
-    this.emitLog('error', message, LogType.ERROR, context, stack ? { stack } : undefined);
+  error(message: string, context: ErrorLogContext, stack?: string, level: 'error' | 'warn' = 'error') {
+    this.emitLog(level, message, LogType.ERROR, context, stack ? { stack } : undefined);
   }
 }

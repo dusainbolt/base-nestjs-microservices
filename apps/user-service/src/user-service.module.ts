@@ -6,10 +6,7 @@ import { UserServiceService } from './user-service.service';
 
 @Module({
   imports: [
-    ConfigModule.forRoot({
-      isGlobal: true,
-      envFilePath: '.env',
-    }),
+    ConfigModule.forRoot({ isGlobal: true, envFilePath: '.env' }),
     LoggerModule.forRoot({ name: USER_SERVICE }),
     RmqModule,
   ],
