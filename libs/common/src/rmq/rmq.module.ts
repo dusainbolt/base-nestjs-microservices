@@ -2,6 +2,7 @@ import { DynamicModule, Module } from '@nestjs/common';
 import { ConfigService } from '@nestjs/config';
 import { ClientsModule, Transport } from '@nestjs/microservices';
 import { RmqService } from './rmq.service';
+import { EnvironmentVariables } from '../interfaces/env.interface';
 
 interface RmqModuleOptions {
   name: string;
@@ -19,12 +20,12 @@ export class RmqModule {
         ClientsModule.registerAsync([
           {
             name,
-            useFactory: (configService: ConfigService) => ({
+            useFactory: (configService: ConfigService<EnvironmentVariables, true>) => ({
               transport: Transport.RMQ,
               options: {
-                urls: [configService.get<string>('RABBIT_MQ_URI') as string],
-                queue: configService.get<string>(
-                  `RABBIT_MQ_${name}_QUEUE`,
+                urls: [configService.get('RABBIT_MQ_URI') as string],
+                queue: configService.get(
+                  `RABBIT_MQ_${name}_QUEUE` as keyof EnvironmentVariables,
                 ) as string,
               },
             }),

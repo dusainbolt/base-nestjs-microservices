@@ -3,3 +3,6 @@ export * from './common.service';
 export * from './rmq/rmq.module';
 export * from './rmq/rmq.service';
 export * from './constants/services';
+export * from './constants/user.constants';
+export * from './interfaces/env.interface';
+export * from './interfaces/user.interface';
