@@ -1,8 +1,8 @@
 import { Inject, Injectable } from '@nestjs/common';
 import { ClientProxy } from '@nestjs/microservices';
 import { ClsService } from 'nestjs-cls';
-import { LOG_SERVICE } from '../constants/services';
-import { LOG_EVENTS } from '../constants/log.events';
+import { LOG_SERVICE } from '../constants/services.constants';
+import { LOG_EVENTS } from '../constants/log.constants';
 import {
   StandardLogPayload,
   LogType,
@@ -26,7 +26,13 @@ export class LoggerService {
     // HTTP context  : cls.getId() → traceId từ x-trace-id header
     // RMQ context   : cls.get('_traceId') → traceId propagate từ gateway qua payload
     // Fallback      : sys-timestamp nếu không có context nào
-    return this.cls.getId() || this.cls.get<string>('_traceId') || `sys-${Date.now()}`;
+    // RMQ context: ưu tiên _traceId propagate từ gateway qua payload
+    // HTTP context: cls.getId() → traceId từ x-trace-id header
+    return (
+      this.cls.get<string>('_traceId') ||
+      this.cls.getId() ||
+      `sys-${Date.now()}`
+    );
   }
 
   private emitLog(
@@ -35,12 +41,13 @@ export class LoggerService {
     logType: LogType,
     context?: LogContextVariant,
     exception?: { stack: string },
+    traceId?: string,
   ) {
     const payload: StandardLogPayload = {
       timestamp: new Date().toISOString(),
       level,
-      service: this.serviceName, // Auto detect service name
-      traceId: this.getTraceId(), // Auto detect traceId
+      service: this.serviceName,
+      traceId: traceId ?? this.getTraceId(),
       message,
       logType,
       context,
@@ -49,23 +56,42 @@ export class LoggerService {
     this.logClient.emit(LOG_EVENTS.SYSTEM_LOG, payload);
   }
 
-  http(message: string, context: HttpLogContext) {
-    this.emitLog('info', message, LogType.HTTP, context);
+  http(message: string, context: HttpLogContext, traceId?: string) {
+    this.emitLog('info', message, LogType.HTTP, context, undefined, traceId);
   }
 
   business(message: string, context: BusinessLogContext) {
     this.emitLog('info', message, LogType.BUSINESS, context);
   }
 
-  auth(level: 'info' | 'warn' | 'error', message: string, context: AuthLogContext) {
+  auth(
+    level: 'info' | 'warn' | 'error',
+    message: string,
+    context: AuthLogContext,
+  ) {
     this.emitLog(level, message, LogType.AUTH, context);
   }
 
-  system(level: 'info' | 'warn' | 'error', message: string, context: SystemLogContext) {
+  system(
+    level: 'info' | 'warn' | 'error',
+    message: string,
+    context: SystemLogContext,
+  ) {
     this.emitLog(level, message, LogType.SYSTEM, context);
   }
 
-  error(message: string, context: ErrorLogContext, stack?: string, level: 'error' | 'warn' = 'error') {
-    this.emitLog(level, message, LogType.ERROR, context, stack ? { stack } : undefined);
+  error(
+    message: string,
+    context: ErrorLogContext,
+    stack?: string,
+    level: 'error' | 'warn' = 'error',
+  ) {
+    this.emitLog(
+      level,
+      message,
+      LogType.ERROR,
+      context,
+      stack ? { stack } : undefined,
+    );
   }
 }

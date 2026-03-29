@@ -1,4 +1,12 @@
-import { Controller, Get, Inject } from '@nestjs/common';
+import {
+  Body,
+  Controller,
+  Get,
+  Inject,
+  Param,
+  Post,
+  Query,
+} from '@nestjs/common';
 import { ClientProxy } from '@nestjs/microservices';
 import { ClsService } from 'nestjs-cls';
 import {
@@ -21,7 +29,11 @@ export class ApiGatewayController {
 
   /** Đính traceId vào mọi RMQ payload để service nhận biết trace cùng request */
   private withTrace<T extends object>(payload: T): T & { _traceId: string } {
-    return { ...payload, _traceId: this.cls.getId() };
+    // Ưu tiên _traceId đã set bởi LoggingInterceptor (cùng source)
+    return {
+      ...payload,
+      _traceId: this.cls.get<string>('_traceId') || this.cls.getId(),
+    };
   }
 
   @Get()
@@ -30,7 +42,7 @@ export class ApiGatewayController {
   }
 
   @Get('ping-user')
-  pingUser() {
+  pingUser(): any {
     return this.userClient.send<any, PingUserPayload>(
       { cmd: USER_COMMANDS.PING },
       this.withTrace({ message: 'Hello from Gateway' }),
@@ -67,7 +79,8 @@ export class ApiGatewayController {
 
     return {
       success: true,
-      message: 'Fired 4 different log scenarios directly using generic LoggerService!',
+      message:
+        'Fired 4 different log scenarios directly using generic LoggerService!',
     };
   }
 
@@ -78,10 +91,22 @@ export class ApiGatewayController {
   }
 
   @Get('trigger-user-error')
-  triggerUserError() {
+  triggerUserError(): any {
     return this.userClient.send<any, any>(
       { cmd: 'trigger_error' },
       this.withTrace({}),
+    );
+  }
+
+  @Post('users/:userId/message')
+  sendUserMessage(
+    @Param('userId') userId: string,
+    @Query('lang') lang: string,
+    @Body() body: { content: string; priority?: number },
+  ): any {
+    return this.userClient.send<any, any>(
+      { cmd: USER_COMMANDS.SEND_MESSAGE },
+      this.withTrace({ userId, lang, ...body }),
     );
   }
 }

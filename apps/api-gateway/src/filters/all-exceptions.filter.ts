@@ -35,9 +35,13 @@ export class AllExceptionsFilter implements ExceptionFilter {
     const requestStart = this.cls.get<number>('_requestStart');
     const latencyMs = requestStart != null ? Date.now() - requestStart : undefined;
 
-    const method = this.cls.get<string>('_requestMethod') || request.method;
-    const url = this.cls.get<string>('_requestUrl') || request.url;
-    const ip = this.cls.get<string>('_requestIp') || request.ip || 'unknown';
+    const method = request.method;
+    const url = request.url;
+    const ip = request.ip || 'unknown';
+
+    // Đọc traceId từ request object (set bởi LoggingInterceptor)
+    // Không dùng CLS vì filter có thể chạy ngoài CLS context
+    const traceId = (request as any).__traceId;
 
     // Log as HTTP_API_LOG — same channel as successful requests
     this.logger.http(
@@ -59,6 +63,7 @@ export class AllExceptionsFilter implements ExceptionFilter {
           ? { errorStack: exception.stack }
           : {}),
       },
+      traceId,
     );
 
     // Chuẩn hoá Response trả về cho client/frontend

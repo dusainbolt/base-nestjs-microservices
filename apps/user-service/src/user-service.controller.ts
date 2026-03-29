@@ -1,5 +1,10 @@
 import { Controller } from '@nestjs/common';
-import { Ctx, MessagePattern, Payload, RmqContext } from '@nestjs/microservices';
+import {
+  Ctx,
+  MessagePattern,
+  Payload,
+  RmqContext,
+} from '@nestjs/microservices';
 import { ClsService } from 'nestjs-cls';
 import {
   RmqService,
@@ -53,7 +58,13 @@ export class UserServiceController {
       const rpcStart = Date.now();
 
       try {
-        return await Promise.resolve(fn());
+        const result = await Promise.resolve(fn());
+        this.logger.system('info', `RPC success: ${cmd}`, {
+          action: 'rpc_success',
+          cmd,
+          durationMs: Date.now() - rpcStart,
+        });
+        return result;
       } catch (err: any) {
         this.logger.error(
           `${err.name}: ${err.message}`,
@@ -71,7 +82,10 @@ export class UserServiceController {
   }
 
   @MessagePattern({ cmd: USER_COMMANDS.PING })
-  ping(@Payload() data: WithTrace<PingUserPayload>, @Ctx() context: RmqContext): Promise<PingUserResponse> {
+  ping(
+    @Payload() data: WithTrace<PingUserPayload>,
+    @Ctx() context: RmqContext,
+  ): Promise<PingUserResponse> {
     return this.wrapHandler(context, data, () => ({
       success: true,
       service: 'user-service',
@@ -80,25 +94,43 @@ export class UserServiceController {
   }
 
   @MessagePattern({ cmd: USER_COMMANDS.WELCOME })
-  welcome(@Payload() data: WithTrace<WelcomeUserPayload>, @Ctx() context: RmqContext): Promise<WelcomeUserResponse> {
-    return this.wrapHandler(context, data, () => {
-      this.logger.business(`Received welcome from: ${data.name || 'Guest'}`, {
-        action: 'process_welcome',
-        entityId: `usr-${Date.now()}`,
-        status: 'PROCESSED',
-      });
+  welcome(
+    @Payload() data: WithTrace<WelcomeUserPayload>,
+    @Ctx() context: RmqContext,
+  ): Promise<WelcomeUserResponse> {
+    return this.wrapHandler(context, data, () => ({
+      success: true,
+      service: 'user-service',
+      message: `Chào mừng ${data.name || 'bạn'} đến với hệ thống Microservices NestJS!`,
+      timestamp: new Date().toISOString(),
+    }));
+  }
 
-      return {
-        success: true,
-        service: 'user-service',
-        message: `Chào mừng ${data.name || 'bạn'} đến với hệ thống Microservices NestJS!`,
-        timestamp: new Date().toISOString(),
-      };
-    });
+  @MessagePattern({ cmd: USER_COMMANDS.SEND_MESSAGE })
+  sendMessage(
+    @Payload()
+    data: WithTrace<{
+      userId: string;
+      lang?: string;
+      content: string;
+      priority?: number;
+    }>,
+    @Ctx() context: RmqContext,
+  ): Promise<any> {
+    return this.wrapHandler(context, data, () => ({
+      success: true,
+      userId: data.userId,
+      message: `Message delivered: "${data.content}"`,
+      lang: data.lang || 'en',
+      timestamp: new Date().toISOString(),
+    }));
   }
 
   @MessagePattern({ cmd: 'trigger_error' })
-  triggerError(@Payload() data: WithTrace<any>, @Ctx() context: RmqContext): Promise<any> {
+  triggerError(
+    @Payload() data: WithTrace<any>,
+    @Ctx() context: RmqContext,
+  ): Promise<any> {
     return this.wrapHandler(context, data, () => {
       const fakeUserData: any = null;
       return fakeUserData.propertyThatDoesNotExist;

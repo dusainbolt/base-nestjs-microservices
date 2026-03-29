@@ -2,7 +2,7 @@ import { DynamicModule, Global, Module } from '@nestjs/common';
 import { ClsModule } from 'nestjs-cls';
 import { v4 as uuidv4 } from 'uuid';
 import { RmqModule } from '../rmq/rmq.module';
-import { LOG_SERVICE } from '../constants/services';
+import { LOG_SERVICE } from '../constants/services.constants';
 import { LoggerService } from './logger.service';
 
 interface LoggerModuleOptions {
