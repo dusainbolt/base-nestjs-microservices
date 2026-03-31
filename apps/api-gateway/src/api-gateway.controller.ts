@@ -35,4 +35,12 @@ export class ApiGatewayController {
       { name: 'Dusainbolt' },
     );
   }
+
+  @Get('trigger-error')
+  triggerError() {
+    return this.userClient.send(
+      { cmd: USER_COMMANDS.TRIGGER_ERROR },
+      { time: new Date().toISOString() },
+    );
+  }
 }

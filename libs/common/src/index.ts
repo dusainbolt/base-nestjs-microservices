@@ -6,3 +6,4 @@ export * from './constants/services';
 export * from './constants/user.constants';
 export * from './interfaces/env.interface';
 export * from './interfaces/user.interface';
+export * from './rmq/rmq.interceptor';
