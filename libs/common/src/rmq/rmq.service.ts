@@ -28,6 +28,10 @@ export class RmqService {
         persistent: true,
         queueOptions: {
           durable: true,
+          arguments: {
+            'x-dead-letter-exchange': '', // Dùng default exchange
+            'x-dead-letter-routing-key': '_dlq', // Chuyển thẳng vào queue tên '_dlq'
+          },
         },
       },
     };

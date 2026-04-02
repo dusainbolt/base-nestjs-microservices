@@ -1,0 +1,28 @@
+// Prisma 7: datasource URL được inject qua prisma.config.ts (không khai báo url ở đây)
+generator client {
+  provider = "prisma-client"
+  output   = "../src/generated/prisma"
+}
+
+datasource db {
+  provider = "postgresql"
+}
+
+model Product {
+  id          String  @id @default(uuid())
+  name        String
+  description String?
+  price       Decimal @db.Decimal(10, 2)
+  stock       Int     @default(0)
+  isActive    Boolean @default(true)
+
+  // Nullable: set null khi user bị xoá (Reassign strategy)
+  createdByUserId String?
+
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+
+  @@index([createdByUserId])
+  @@index([isActive])
+  @@map("products")
+}

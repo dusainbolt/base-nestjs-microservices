@@ -4,6 +4,7 @@ import {
   CommonRedisModule,
   JwtAuthGuard,
   LOG_SERVICE,
+  PRODUCT_SERVICE,
   RmqModule,
   USER_SERVICE,
 } from '@app/common';
@@ -14,6 +15,7 @@ import { ApiGatewayController } from './api-gateway.controller';
 import { ApiGatewayService } from './api-gateway.service';
 import { AuthController } from './api/auth.controller';
 import { UserController } from './api/user.controller';
+import { ProductController } from './api/product.controller';
 
 @Module({
   imports: [
@@ -28,8 +30,9 @@ import { UserController } from './api/user.controller';
     RmqModule.register({ name: USER_SERVICE }),
     RmqModule.register({ name: LOG_SERVICE }),
     RmqModule.register({ name: AUTH_SERVICE }),
+    RmqModule.register({ name: PRODUCT_SERVICE }),
   ],
-  controllers: [ApiGatewayController, AuthController, UserController],
+  controllers: [ApiGatewayController, AuthController, UserController, ProductController],
   providers: [
     ApiGatewayService,
     { provide: APP_GUARD, useClass: JwtAuthGuard },

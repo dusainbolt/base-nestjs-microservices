@@ -2,6 +2,7 @@ import { Module } from '@nestjs/common';
 import { ConfigModule } from '@nestjs/config';
 import {
   RmqModule,
+  DomainEventsModule,
   EMAIL_SERVICE,
   USER_SERVICE,
   CommonRedisModule,
@@ -23,7 +24,8 @@ import { RedisService } from './redis/redis.service';
     // RabbitMQ: queue của chính auth-service + client tới các service khác
     RmqModule,
     RmqModule.register({ name: EMAIL_SERVICE }), // emit email events
-    RmqModule.register({ name: USER_SERVICE }),  // emit user.registered event
+    RmqModule.register({ name: USER_SERVICE }), // emit CREATE_PROFILE event (register flow)
+    DomainEventsModule, // DomainEventPublisher — publish lên exchange trực tiếp qua amqplib
 
     // Redis Shared infrastructure
     CommonRedisModule,

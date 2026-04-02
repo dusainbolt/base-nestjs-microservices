@@ -34,6 +34,10 @@ export class RmqModule {
                   // để tránh lỗi PRECONDITION_FAILED khi cả 2 bên cùng declare queue.
                   queueOptions: {
                     durable: true,
+                    arguments: {
+                      'x-dead-letter-exchange': '',
+                      'x-dead-letter-routing-key': '_dlq',
+                    },
                   },
                 },
               };

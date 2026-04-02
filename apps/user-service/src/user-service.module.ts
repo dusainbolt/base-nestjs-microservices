@@ -9,6 +9,7 @@ import { PrismaService } from './prisma/prisma.service';
   imports: [
     ConfigModule.forRoot({ isGlobal: true, envFilePath: '.env' }),
     RmqModule,
+    // Không cần DomainEventsModule — user-service là SUBSCRIBER, không publish gì thêm
   ],
   controllers: [UserServiceController],
   providers: [UserServiceService, PrismaService],

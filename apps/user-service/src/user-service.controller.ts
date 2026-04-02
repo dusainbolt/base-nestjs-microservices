@@ -1,11 +1,13 @@
 import {
   CreateProfilePayload,
+  DOMAIN_EVENTS,
   GetProfilePayload,
   PingUserPayload,
   PingUserResponse,
   RmqInterceptor,
   UpdateProfilePayload,
   USER_COMMANDS,
+  UserDeletedEvent,
   WelcomeUserPayload,
   WelcomeUserResponse,
 } from '@app/common';
@@ -63,8 +65,15 @@ export class UserServiceController {
     return this.userService.updateProfile(data);
   }
 
-  @EventPattern({ cmd: USER_COMMANDS.DELETE_PROFILE })
-  deleteProfile(@Payload() data: { userId: string }) {
-    return this.userService.deleteProfile(data.userId);
+  // ─── Domain Event Handlers (Exchange Pub/Sub) ─────────────────────────────
+
+  /**
+   * Lắng nghe event user.deleted từ Exchange 'domain.events'.
+   * auth-service emit 1 lần → user-service và product-service xử lý song song.
+   * Handler này PHẢI idempotent.
+   */
+  @EventPattern(DOMAIN_EVENTS.USER_DELETED)
+  handleUserDeleted(@Payload() event: UserDeletedEvent) {
+    return this.userService.deleteProfile(event.userId);
   }
 }

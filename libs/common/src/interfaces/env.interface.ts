@@ -9,10 +9,12 @@ export interface EnvironmentVariables {
   RABBIT_MQ_LOG_SERVICE_QUEUE: string;
   RABBIT_MQ_AUTH_SERVICE_QUEUE: string;
   RABBIT_MQ_EMAIL_SERVICE_QUEUE: string;
+  RABBIT_MQ_PRODUCT_SERVICE_QUEUE: string;
 
   // PostgreSQL — tách riêng Database cho từng Service
   AUTH_DATABASE_URL: string;
   USER_DATABASE_URL: string;
+  PRODUCT_DATABASE_URL: string;
 
   // Redis
   REDIS_HOST: string;

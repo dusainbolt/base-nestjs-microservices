@@ -2,6 +2,8 @@ import {
   AuthTokenResponse,
   AuthUserResponse,
   ChangePasswordPayload,
+  DOMAIN_EVENTS,
+  DomainEventPublisher,
   EMAIL_COMMANDS,
   EMAIL_SERVICE,
   EnvironmentVariables,
@@ -53,6 +55,7 @@ export class AuthServiceService {
     private readonly config: ConfigService<EnvironmentVariables, true>,
     @Inject(EMAIL_SERVICE) private readonly emailClient: ClientProxy,
     @Inject(USER_SERVICE) private readonly userClient: ClientProxy,
+    private readonly domainEvents: DomainEventPublisher,
   ) {}
 
   // ═══════════════════════════════════════════════════════════════════════════
@@ -366,19 +369,31 @@ export class AuthServiceService {
   // ═══════════════════════════════════════════════════════════════════════════
 
   async deleteAccount(userId: string): Promise<{ message: string }> {
-    // 1. Xóa khỏi cơ sở dữ liệu Auth 
+    // 1. Xóa khỏi cơ sở dữ liệu Auth
     // (Lưu ý: Prisma tự xử lý ném lỗi nếu không tồn tại hoặc tùy bạn)
-    await this.prisma.user.delete({
-      where: { id: userId },
-    }).catch(() => { /* Bỏ qua nếu đã bị xóa trước đó */ });
+    await this.prisma.user
+      .delete({
+        where: { id: userId },
+      })
+      .catch(() => {
+        /* Bỏ qua nếu đã bị xóa trước đó */
+      });
 
     // 2. Chặn Request ngay lập tức bằng cách Xóa Redis Cache Profile
     await this.redis.deleteUserProfileCache(userId);
 
-    // 3. Kích hoạt Saga: Bắn tín hiệu sang User Service để dọn nốt tàn dư
-    this.userClient.emit({ cmd: USER_COMMANDS.DELETE_PROFILE }, { userId });
+    // 3. Bắn 1 domain event lên Exchange — tất cả service tự xử lý độc lập
+    //    user-service: xoá profile
+    //    product-service: soft-delete products
+    //    order-service, ...: tự subscribe, auth-service không cần biết
+    await this.domainEvents.publish(DOMAIN_EVENTS.USER_DELETED, {
+      userId,
+      timestamp: Date.now(),
+    });
 
-    this.logger.log(`Account deleted completely for userId=${userId}`);
+    this.logger.log(
+      `Account deleted for userId=${userId}. Domain event [user.deleted] emitted.`,
+    );
     return { message: 'Account deleted successfully' };
   }
 

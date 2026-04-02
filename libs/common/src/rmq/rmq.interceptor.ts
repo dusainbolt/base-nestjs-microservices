@@ -35,10 +35,16 @@ export class RmqInterceptor implements NestInterceptor {
           `${isRequestResponse ? 'RPC' : 'Event'} Error (${statusCode}): ${message}`,
         );
 
-        // Lỗi xảy ra nhưng đã bắt được -> Vẫn phải ACK để không bị kẹt ở trạng thái Unacked
-        channel.ack(originalMessage);
+        if (statusCode >= 500) {
+          // Lỗi hệ thống (500) -> Đưa về Dead Letter Queue (DLQ) để trace/retry
+          // false, false -> không requeue lại queue cũ, bắt buộc đẩy đi hướng khác (DLQ)
+          channel.nack(originalMessage, false, false);
+        } else {
+          // Lỗi nghiệp vụ (400, 401, 404...) -> ACK để xóa message, không nhét vào DLQ
+          channel.ack(originalMessage);
+        }
 
-        // Trả về Object lỗi cho Gateway
+        // Trả về Object lỗi cho Gateway (nếu là RPC request thì client vẫn nhận được lỗi ngay)
         return of({
           __isRpcError: true,
           statusCode,

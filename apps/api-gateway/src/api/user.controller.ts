@@ -1,6 +1,4 @@
 import {
-  AUTH_COMMANDS,
-  AUTH_SERVICE,
   CurrentUser,
   JwtPayload,
   rpcToHttp,
@@ -11,7 +9,6 @@ import {
 import {
   Body,
   Controller,
-  Delete,
   Get,
   HttpCode,
   HttpStatus,
@@ -20,13 +17,9 @@ import {
   Patch,
 } from '@nestjs/common';
 import { ClientProxy } from '@nestjs/microservices';
-import { firstValueFrom } from 'rxjs';
 @Controller('users')
 export class UserController {
-  constructor(
-    @Inject(USER_SERVICE) private readonly userClient: ClientProxy,
-    @Inject(AUTH_SERVICE) private readonly authClient: ClientProxy,
-  ) {}
+  constructor(@Inject(USER_SERVICE) private readonly userClient: ClientProxy) {}
 
   /** GET /users/me — lấy profile đầy đủ của user hiện tại */
   @Get('me')

@@ -77,16 +77,14 @@ export class UserServiceService {
     return this.toResponse(updated);
   }
 
-  // ─── DELETE PROFILE  (idempotent — dùng khi xóa tài khoản) ───────────────
+  // ─── DELETE PROFILE  (idempotent — subscribe từ domain exchange) ─────────
+  //  auth-service đã emit user.deleted lên exchange,
+  //  user-service chỉ cần xử lý phần của mình: xoá profile. Không relay gì thêm.
 
   async deleteProfile(userId: string): Promise<void> {
     await this.prisma.userProfile
-      .delete({
-        where: { id: userId },
-      })
-      .catch(() => {
-        /* không throw lỗi nếu bản ghi không tồn tại */
-      });
+      .delete({ where: { id: userId } })
+      .catch(() => { /* idempotent: bỏ qua nếu không tồn tại */ });
 
     this.logger.log(`Profile deleted for userId=${userId}`);
   }
