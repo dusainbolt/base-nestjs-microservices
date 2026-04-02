@@ -1,0 +1,492 @@
+import {
+  AuthTokenResponse,
+  AuthUserResponse,
+  ChangePasswordPayload,
+  EMAIL_COMMANDS,
+  EMAIL_SERVICE,
+  EnvironmentVariables,
+  ForgotPasswordPayload,
+  GetAuthProfilePayload,
+  JwtPayload,
+  LoginPayload,
+  LogoutPayload,
+  RefreshTokenPayload,
+  RegisterPayload,
+  ResendVerificationPayload,
+  ResetPasswordPayload,
+  USER_COMMANDS,
+  USER_SERVICE,
+  ValidateTokenPayload,
+  VerifyEmailPayload,
+  UserRole,
+  REDIS_KEYS,
+  REDIS_TTL,
+} from '@app/common';
+import {
+  BadRequestException,
+  ConflictException,
+  ForbiddenException,
+  Inject,
+  Injectable,
+  Logger,
+  NotFoundException,
+  UnauthorizedException,
+} from '@nestjs/common';
+import { ConfigService } from '@nestjs/config';
+import { JwtService } from '@nestjs/jwt';
+import { ClientProxy } from '@nestjs/microservices';
+import * as bcrypt from 'bcryptjs';
+import { randomUUID } from 'crypto';
+import { PrismaService } from './prisma/prisma.service';
+import { RedisService } from './redis/redis.service';
+
+const BCRYPT_ROUNDS = 12;
+
+@Injectable()
+export class AuthServiceService {
+  private readonly logger = new Logger(AuthServiceService.name);
+
+  constructor(
+    private readonly prisma: PrismaService,
+    private readonly redis: RedisService,
+    private readonly jwt: JwtService,
+    private readonly config: ConfigService<EnvironmentVariables, true>,
+    @Inject(EMAIL_SERVICE) private readonly emailClient: ClientProxy,
+    @Inject(USER_SERVICE) private readonly userClient: ClientProxy,
+  ) {}
+
+  // ═══════════════════════════════════════════════════════════════════════════
+  //  REGISTER
+  // ═══════════════════════════════════════════════════════════════════════════
+
+  async register(payload: RegisterPayload) {
+    const {
+      email,
+      password,
+      username,
+      firstName = '',
+      lastName = '',
+    } = payload;
+
+    const existing = await this.prisma.user.findFirst({
+      where: { OR: [{ email }, { username }] },
+      select: { email: true, username: true },
+    });
+
+    if (existing) {
+      throw new ConflictException(
+        existing.email === email
+          ? 'Email already registered'
+          : 'Username already taken',
+      );
+    }
+
+    const passwordHash = await bcrypt.hash(password, BCRYPT_ROUNDS);
+    const user = await this.prisma.user.create({
+      data: { email, username, password: passwordHash, firstName, lastName },
+    });
+
+    // Tạo OTP → Redis TTL 15m
+    const otp = this.generateOtp();
+    await this.redis.setEmailVerifyOtp(user.id, otp);
+
+    // Emit tới email-service (fire-and-forget qua RMQ, không block)
+    this.emailClient.emit(
+      { cmd: EMAIL_COMMANDS.SEND_VERIFICATION },
+      { to: user.email, username: user.username, code: otp },
+    );
+
+    // Emit tới user-service để tạo profile rỗng (event-driven)
+    this.userClient.emit(
+      { cmd: USER_COMMANDS.CREATE_PROFILE },
+      {
+        id: user.id,
+        email: user.email,
+        username: user.username,
+        firstName,
+        lastName,
+      },
+    );
+
+    this.logger.log(`User registered: ${user.email} (id=${user.id})`);
+
+    return {
+      message:
+        'Registration successful! Please check your email for the verification code.',
+      userId: user.id,
+      email: user.email,
+    };
+  }
+
+  // ═══════════════════════════════════════════════════════════════════════════
+  //  VERIFY EMAIL
+  // ═══════════════════════════════════════════════════════════════════════════
+
+  async verifyEmail(payload: VerifyEmailPayload) {
+    const { email, code } = payload;
+
+    const user = await this.prisma.user.findUnique({
+      where: { email },
+      select: { id: true, isEmailVerified: true, username: true },
+    });
+
+    if (!user) throw new NotFoundException('User not found');
+    if (user.isEmailVerified)
+      throw new BadRequestException('Email is already verified');
+
+    const storedOtp = await this.redis.getEmailVerifyOtp(user.id);
+
+    if (!storedOtp)
+      throw new BadRequestException(
+        'Verification code has expired. Please request a new one.',
+      );
+
+    if (storedOtp !== code)
+      throw new BadRequestException('Invalid verification code');
+
+    await this.prisma.user.update({
+      where: { id: user.id },
+      data: { isEmailVerified: true },
+    });
+
+    await this.redis.deleteEmailVerifyOtp(user.id);
+
+    // Gửi welcome email sau khi verify thành công
+    this.emailClient.emit(
+      { cmd: EMAIL_COMMANDS.SEND_WELCOME },
+      { to: email, username: user.username },
+    );
+
+    this.logger.log(`Email verified: ${email}`);
+    return { message: 'Email verified successfully. You can now log in.' };
+  }
+
+  // ═══════════════════════════════════════════════════════════════════════════
+  //  RESEND VERIFICATION
+  // ═══════════════════════════════════════════════════════════════════════════
+
+  async resendVerification(payload: ResendVerificationPayload) {
+    const user = await this.prisma.user.findUnique({
+      where: { email: payload.email },
+      select: { id: true, isEmailVerified: true, email: true, username: true },
+    });
+
+    if (!user) throw new NotFoundException('User not found');
+    if (user.isEmailVerified)
+      throw new BadRequestException('Email is already verified');
+
+    // Rate-limit: Chỉ cho phép gửi lại sau 1 phút
+    const ttl = await this.redis.getEmailVerifyTtl(user.id);
+    if (ttl > REDIS_TTL.EMAIL_VERIFY - 60)
+      throw new BadRequestException(
+        'Please wait 1 minute before requesting another code.',
+      );
+
+    const otp = this.generateOtp();
+    await this.redis.setEmailVerifyOtp(user.id, otp);
+
+    this.emailClient.emit(
+      { cmd: EMAIL_COMMANDS.SEND_VERIFICATION },
+      { to: user.email, username: user.username, code: otp },
+    );
+
+    return { message: 'Verification code sent. Please check your email.' };
+  }
+
+  // ═══════════════════════════════════════════════════════════════════════════
+  //  LOGIN
+  // ═══════════════════════════════════════════════════════════════════════════
+
+  async login(payload: LoginPayload): Promise<AuthTokenResponse> {
+    const { email, password } = payload;
+
+    const user = await this.prisma.user.findUnique({ where: { email } });
+
+    if (!user || !(await bcrypt.compare(password, user.password)))
+      throw new UnauthorizedException('Invalid email or password');
+
+    if (!user.isActive)
+      throw new ForbiddenException(
+        'Account is disabled. Please contact support.',
+      );
+
+    if (!user.isEmailVerified)
+      throw new ForbiddenException(
+        'Email not verified. Please check your inbox for the verification code.',
+      );
+
+    this.logger.log(`User logged in: ${email}`);
+    return this.generateTokenPair(user);
+  }
+
+  // ═══════════════════════════════════════════════════════════════════════════
+  //  REFRESH TOKEN  (Rotation)
+  // ═══════════════════════════════════════════════════════════════════════════
+
+  async refreshToken(payload: RefreshTokenPayload): Promise<AuthTokenResponse> {
+    const tokenData = await this.redis.getRefreshToken(payload.refreshToken);
+
+    if (!tokenData)
+      throw new UnauthorizedException(
+        'Refresh token is invalid or has expired. Please log in again.',
+      );
+
+    const user = await this.prisma.user.findUnique({
+      where: { id: tokenData.userId },
+    });
+
+    if (!user || !user.isActive)
+      throw new UnauthorizedException('User account is no longer active');
+
+    // Rotation: xóa token cũ, cấp cặp mới
+    await this.redis.deleteRefreshToken(payload.refreshToken);
+    this.logger.log(`Token rotated for userId=${user.id}`);
+    return this.generateTokenPair(user);
+  }
+
+  // ═══════════════════════════════════════════════════════════════════════════
+  //  LOGOUT
+  // ═══════════════════════════════════════════════════════════════════════════
+
+  async logout(payload: LogoutPayload) {
+    const { refreshToken, accessToken } = payload as LogoutPayload & {
+      accessToken?: string;
+    };
+
+    await this.redis.deleteRefreshToken(refreshToken);
+
+    // Blacklist access token nếu có
+    if (accessToken) {
+      try {
+        const decoded = this.jwt.decode(accessToken) as JwtPayload & {
+          jti?: string;
+          exp?: number;
+        };
+        if (decoded?.jti && decoded?.exp) {
+          const remaining = decoded.exp - Math.floor(Date.now() / 1000);
+          await this.redis.blacklistToken(decoded.jti, remaining);
+        }
+      } catch {
+        /* bỏ qua */
+      }
+    }
+
+    this.logger.log('User logged out');
+    return { message: 'Logged out successfully' };
+  }
+
+  // ═══════════════════════════════════════════════════════════════════════════
+  //  FORGOT PASSWORD
+  // ═══════════════════════════════════════════════════════════════════════════
+
+  async forgotPassword(payload: ForgotPasswordPayload) {
+    const SAFE_MSG =
+      'If this email is registered, you will receive a password reset link shortly.';
+
+    const user = await this.prisma.user.findUnique({
+      where: { email: payload.email },
+      select: { id: true, email: true, username: true, isActive: true },
+    });
+
+    if (!user || !user.isActive) return { message: SAFE_MSG };
+
+    // Rate Limit Check
+    const isRateLimited = await this.redis.isForgotPasswordRateLimited(user.id);
+    if (isRateLimited) {
+      throw new BadRequestException(
+        'Please wait a moment before requesting another link.',
+      );
+    }
+
+    const resetTokenId = randomUUID();
+    await this.redis.setPasswordResetToken(resetTokenId, user.id);
+    await this.redis.setForgotPasswordRateLimit(user.id);
+    this.emailClient.emit(
+      { cmd: EMAIL_COMMANDS.SEND_PASSWORD_RESET },
+      { to: user.email, username: user.username, resetToken: resetTokenId },
+    );
+
+    this.logger.log(`Password reset requested: ${user.email}`);
+    return { message: SAFE_MSG };
+  }
+
+  // ═══════════════════════════════════════════════════════════════════════════
+  //  RESET PASSWORD
+  // ═══════════════════════════════════════════════════════════════════════════
+
+  async resetPassword(payload: ResetPasswordPayload) {
+    const userId = await this.redis.getPasswordResetToken(payload.token);
+
+    if (!userId)
+      throw new BadRequestException(
+        'Reset link is invalid or has expired. Please request a new one.',
+      );
+
+    const passwordHash = await bcrypt.hash(payload.newPassword, BCRYPT_ROUNDS);
+
+    await this.prisma.user.update({
+      where: { id: userId },
+      data: { password: passwordHash },
+    });
+
+    await this.redis.deletePasswordResetToken(payload.token);
+
+    this.logger.log(`Password reset for userId=${userId}`);
+    return { message: 'Password has been reset successfully. Please log in.' };
+  }
+
+  // ═══════════════════════════════════════════════════════════════════════════
+  //  CHANGE PASSWORD
+  // ═══════════════════════════════════════════════════════════════════════════
+
+  async changePassword(payload: ChangePasswordPayload) {
+    const { userId, currentPassword, newPassword } = payload;
+    const user = await this.prisma.user.findUnique({ where: { id: userId } });
+
+    if (!user) throw new NotFoundException('User not found');
+    if (!(await bcrypt.compare(currentPassword, user.password)))
+      throw new UnauthorizedException('Current password is incorrect');
+    if (currentPassword === newPassword)
+      throw new BadRequestException(
+        'New password must be different from the current one',
+      );
+
+    const passwordHash = await bcrypt.hash(newPassword, BCRYPT_ROUNDS);
+    await this.prisma.user.update({
+      where: { id: userId },
+      data: { password: passwordHash },
+    });
+
+    this.logger.log(`Password changed for userId=${userId}`);
+    return { message: 'Password changed successfully.' };
+  }
+
+  // ═══════════════════════════════════════════════════════════════════════════
+  //  DELETE ACCOUNT (Saga phase 1: Delete credentials & clear cache)
+  // ═══════════════════════════════════════════════════════════════════════════
+
+  async deleteAccount(userId: string): Promise<{ message: string }> {
+    // 1. Xóa khỏi cơ sở dữ liệu Auth 
+    // (Lưu ý: Prisma tự xử lý ném lỗi nếu không tồn tại hoặc tùy bạn)
+    await this.prisma.user.delete({
+      where: { id: userId },
+    }).catch(() => { /* Bỏ qua nếu đã bị xóa trước đó */ });
+
+    // 2. Chặn Request ngay lập tức bằng cách Xóa Redis Cache Profile
+    await this.redis.deleteUserProfileCache(userId);
+
+    // 3. Kích hoạt Saga: Bắn tín hiệu sang User Service để dọn nốt tàn dư
+    this.userClient.emit({ cmd: USER_COMMANDS.DELETE_PROFILE }, { userId });
+
+    this.logger.log(`Account deleted completely for userId=${userId}`);
+    return { message: 'Account deleted successfully' };
+  }
+
+  // ═══════════════════════════════════════════════════════════════════════════
+  //  GET PROFILE  (auth data only — thông tin đầy đủ lấy từ user-service)
+  // ═══════════════════════════════════════════════════════════════════════════
+
+  async getProfile(payload: GetAuthProfilePayload): Promise<AuthUserResponse> {
+    const user = await this.prisma.user.findUnique({
+      where: { id: payload.userId },
+      select: {
+        id: true,
+        email: true,
+        username: true,
+        firstName: true,
+        lastName: true,
+        role: true,
+        isEmailVerified: true,
+        isActive: true,
+        createdAt: true,
+      },
+    });
+
+    if (!user) throw new NotFoundException('User not found');
+
+    return {
+      id: user.id,
+      email: user.email,
+      username: user.username,
+      firstName: user.firstName,
+      lastName: user.lastName,
+      role: user.role as unknown as UserRole,
+      isEmailVerified: user.isEmailVerified,
+      isActive: user.isActive,
+      createdAt: user.createdAt,
+    };
+  }
+
+  // ═══════════════════════════════════════════════════════════════════════════
+  //  VALIDATE TOKEN  (online check — api-gateway dùng local verify là chính)
+  // ═══════════════════════════════════════════════════════════════════════════
+
+  async validateToken(payload: ValidateTokenPayload): Promise<JwtPayload> {
+    try {
+      const decoded = await this.jwt.verifyAsync<JwtPayload & { jti?: string }>(
+        payload.accessToken,
+      );
+      if (decoded.jti && (await this.redis.isTokenBlacklisted(decoded.jti)))
+        throw new UnauthorizedException('Token has been revoked');
+      return decoded;
+    } catch {
+      throw new UnauthorizedException('Access token is invalid or expired');
+    }
+  }
+
+  // ═══════════════════════════════════════════════════════════════════════════
+  //  PRIVATE HELPERS
+  // ═══════════════════════════════════════════════════════════════════════════
+
+  private async generateTokenPair(user: {
+    id: string;
+    email: string;
+    username: string;
+    role: string;
+  }): Promise<AuthTokenResponse> {
+    const jti = randomUUID();
+
+    const accessToken = await this.jwt.signAsync(
+      {
+        sub: user.id,
+        email: user.email,
+        username: user.username,
+        role: user.role,
+        jti,
+      },
+      { expiresIn: this.config.get('JWT_EXPIRES_IN') },
+    );
+
+    const refreshTokenId = randomUUID();
+    await this.redis.setRefreshToken(refreshTokenId, {
+      userId: user.id,
+      email: user.email,
+      username: user.username,
+      role: user.role as UserRole,
+      jti,
+    });
+
+    return {
+      accessToken,
+      refreshToken: refreshTokenId,
+      expiresIn: this.parseExpiresIn(this.config.get('JWT_EXPIRES_IN')),
+      tokenType: 'Bearer',
+    };
+  }
+
+  private generateOtp(): string {
+    return String(Math.floor(100000 + Math.random() * 900000));
+  }
+
+  private parseExpiresIn(value: string): number {
+    const match = value.match(/^(\d+)([smhd])$/);
+    if (!match) return 900;
+    const multipliers: Record<string, number> = {
+      s: 1,
+      m: 60,
+      h: 3600,
+      d: 86400,
+    };
+    return parseInt(match[1], 10) * (multipliers[match[2]] ?? 1);
+  }
+}

@@ -1,0 +1,39 @@
+// Prisma 7:
+//  - provider = "prisma-client" (bỏ -js)
+//  - url KHÔNG còn khai báo ở đây → chuyển sang prisma.config.ts
+//  - multiSchema là stable trong Prisma 7, không cần khai báo previewFeatures nữa
+
+generator client {
+  provider = "prisma-client"
+  output   = "../src/generated/prisma"
+}
+
+datasource db {
+  provider = "postgresql"
+  // url được cấu hình trong prisma.config.ts (Prisma 7)
+}
+
+// ─── Enums ────────────────────────────────────────────────────────────────────
+
+enum UserRole {
+  user
+  admin
+}
+
+// ─── Models ───────────────────────────────────────────────────────────────────
+
+model User {
+  id              String   @id @default(uuid())
+  email           String   @unique
+  username        String   @unique
+  password        String
+  firstName       String   @default("")
+  lastName        String   @default("")
+  role            UserRole @default(user)
+  isEmailVerified Boolean  @default(false)
+  isActive        Boolean  @default(true)
+  createdAt       DateTime @default(now())
+  updatedAt       DateTime @updatedAt
+
+  @@map("users")
+}

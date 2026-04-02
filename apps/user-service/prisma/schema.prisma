@@ -1,0 +1,37 @@
+// Prisma 7:
+//  - provider = "prisma-client" (bỏ -js)
+//  - url KHÔNG còn khai báo ở đây → chuyển sang prisma.config.ts
+//  - multiSchema là stable trong Prisma 7, không cần khai báo previewFeatures nữa
+
+generator client {
+  provider = "prisma-client"
+  output   = "../src/generated/prisma"
+}
+
+datasource db {
+  provider = "postgresql"
+  // url được cấu hình trong prisma.config.ts (Prisma 7)
+}
+
+// ─── Models ───────────────────────────────────────────────────────────────────
+
+// id = UUID từ auth-service — KHÔNG dùng FK thực,
+// đồng bộ qua RabbitMQ events (CREATE_PROFILE event)
+model UserProfile {
+  id        String  @id
+  email     String  @unique
+  username  String  @unique
+  firstName String  @default("")
+  lastName  String  @default("")
+  avatar    String?
+  bio       String? @db.Text
+  phone     String?
+  address   String?
+  timezone  String  @default("UTC")
+  locale    String  @default("en")
+
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+
+  @@map("user_profiles")
+}

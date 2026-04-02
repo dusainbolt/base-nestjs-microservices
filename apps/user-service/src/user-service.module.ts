@@ -3,16 +3,14 @@ import { ConfigModule } from '@nestjs/config';
 import { RmqModule } from '@app/common';
 import { UserServiceController } from './user-service.controller';
 import { UserServiceService } from './user-service.service';
+import { PrismaService } from './prisma/prisma.service';
 
 @Module({
   imports: [
-    ConfigModule.forRoot({
-      isGlobal: true,
-      envFilePath: '.env',
-    }),
+    ConfigModule.forRoot({ isGlobal: true, envFilePath: '.env' }),
     RmqModule,
   ],
   controllers: [UserServiceController],
-  providers: [UserServiceService],
+  providers: [UserServiceService, PrismaService],
 })
 export class UserServiceModule {}

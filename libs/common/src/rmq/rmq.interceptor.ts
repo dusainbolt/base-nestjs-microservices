@@ -1,6 +1,7 @@
 import {
   CallHandler,
   ExecutionContext,
+  HttpException,
   Injectable,
   Logger,
   NestInterceptor,
@@ -8,48 +9,42 @@ import {
 import { RmqContext } from '@nestjs/microservices';
 import { Observable, of } from 'rxjs';
 import { catchError, tap } from 'rxjs/operators';
-import { RmqService } from './rmq.service';
 
 @Injectable()
 export class RmqInterceptor implements NestInterceptor {
   private readonly logger = new Logger(RmqInterceptor.name);
 
-  constructor(private readonly rmqService: RmqService) {}
-
   intercept(context: ExecutionContext, next: CallHandler): Observable<any> {
-    const rmqContext = context.switchToRpc().getContext<RmqContext>();
+    if (context.getType() !== 'rpc') return next.handle();
 
-    // Nếu không phải RMQ request thì bỏ qua
-    if (!rmqContext || typeof rmqContext.getArgByIndex !== 'function') {
-      return next.handle();
-    }
+    const rmqContext = context.switchToRpc().getContext<RmqContext>();
+    const channel = rmqContext.getChannelRef();
+    const originalMessage = rmqContext.getMessage();
+    const isRequestResponse = !!originalMessage?.properties?.replyTo;
 
     return next.handle().pipe(
       tap(() => {
-        // Nếu thành công -> Tự động ACK
-        this.rmqService.ack(rmqContext);
+        // Xử lý thành công -> Chủ động gửi lệnh ACK để xóa tin nhắn
+        channel.ack(originalMessage);
       }),
       catchError((err) => {
-        // Nếu thất bại -> Gọi logic retry
-        this.logger.error(`Error processing RMQ message: ${err.message}`);
-        this.handleRetry(rmqContext, err);
-        return of(null); // Trả về null để không crash gateway (nếu là request-response)
+        const statusCode = err instanceof HttpException ? err.getStatus() : 500;
+        const message = err.message || 'Internal server error';
+
+        this.logger.error(
+          `${isRequestResponse ? 'RPC' : 'Event'} Error (${statusCode}): ${message}`,
+        );
+
+        // Lỗi xảy ra nhưng đã bắt được -> Vẫn phải ACK để không bị kẹt ở trạng thái Unacked
+        channel.ack(originalMessage);
+
+        // Trả về Object lỗi cho Gateway
+        return of({
+          __isRpcError: true,
+          statusCode,
+          message,
+        });
       }),
     );
-  }
-
-  private handleRetry(context: RmqContext, error: any) {
-    const message = context.getMessage();
-    const headers = message.properties.headers || {};
-    const retryCount = (headers['x-retry-count'] || 0) + 1;
-
-    // Retry 3 lần
-    if (retryCount <= 3) {
-      this.rmqService.retry(context, retryCount);
-    } else {
-      // Quá 3 lần -> Chuyển vào DLQ
-      this.logger.warn(`Max retries reached. Moving to DLQ.`);
-      this.rmqService.moveToDlq(context, error);
-    }
   }
 }

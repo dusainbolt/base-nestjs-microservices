@@ -1,8 +1,11 @@
 import { Controller, Get, Inject } from '@nestjs/common';
 import { ClientProxy } from '@nestjs/microservices';
 import {
-  USER_SERVICE,
+  CurrentUser,
+  JwtPayload,
+  Public,
   USER_COMMANDS,
+  USER_SERVICE,
   WelcomeUserPayload,
   PingUserPayload,
 } from '@app/common';
@@ -15,10 +18,47 @@ export class ApiGatewayController {
     @Inject(USER_SERVICE) private readonly userClient: ClientProxy,
   ) {}
 
+  // ─── Public ───────────────────────────────────────────────────────────────
+
+  @Public()
   @Get()
   getHello(): string {
     return this.apiGatewayService.getHello();
   }
+
+  @Public()
+  @Get('public')
+  publicEndpoint() {
+    return {
+      message: 'This is a PUBLIC endpoint, no token required.',
+      status: 'success',
+    };
+  }
+
+  // ─── Protected ────────────────────────────────────────────────────────────
+
+  @Get('private')
+  privateEndpoint() {
+    return {
+      message: 'This is a PRIVATE endpoint, a valid JWT is required.',
+      status: 'authenticated',
+    };
+  }
+
+  @Get('profile')
+  getProfile(@CurrentUser() user: JwtPayload) {
+    return {
+      message: 'Your Profile (from JWT)',
+      user: {
+        id: user.sub,
+        email: user.email,
+        username: user.username,
+        role: user.role,
+      },
+    };
+  }
+
+  // ─── User Service ─────────────────────────────────────────────────────────
 
   @Get('ping-user')
   pingUser() {

@@ -20,15 +20,24 @@ export class RmqModule {
         ClientsModule.registerAsync([
           {
             name,
-            useFactory: (configService: ConfigService<EnvironmentVariables, true>) => ({
-              transport: Transport.RMQ,
-              options: {
-                urls: [configService.get('RABBIT_MQ_URI') as string],
-                queue: configService.get(
-                  `RABBIT_MQ_${name}_QUEUE` as keyof EnvironmentVariables,
-                ) as string,
-              },
-            }),
+            useFactory: (configService: ConfigService<EnvironmentVariables, true>) => {
+              const queueName = configService.get(
+                `RABBIT_MQ_${name}_QUEUE` as keyof EnvironmentVariables,
+              ) as string;
+
+              return {
+                transport: Transport.RMQ,
+                options: {
+                  urls: [configService.get('RABBIT_MQ_URI') as string],
+                  queue: queueName,
+                  // Phải khai báo queueOptions giống với server (RmqService.getOptions)
+                  // để tránh lỗi PRECONDITION_FAILED khi cả 2 bên cùng declare queue.
+                  queueOptions: {
+                    durable: true,
+                  },
+                },
+              };
+            },
             inject: [ConfigService],
           },
         ]),

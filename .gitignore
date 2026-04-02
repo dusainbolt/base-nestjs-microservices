@@ -3,6 +3,9 @@
 /node_modules
 /build
 
+# Prisma generated clients (tự generate bằng pnpm prisma:generate)
+apps/**/src/generated/
+
 # Logs
 logs
 *.log
