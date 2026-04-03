@@ -52,7 +52,7 @@ export class ProductServiceService {
       where: { id: payload.id },
     });
 
-    if (!product || !product.isActive) {
+    if (!product) {
       throw new NotFoundException('Product not found');
     }
 
@@ -69,7 +69,7 @@ export class ProductServiceService {
     const skip = (page - 1) * limit;
 
     const where = {
-      isActive: payload.isActive ?? true,
+      ...(payload.isActive !== undefined && { isActive: payload.isActive }),
       ...(payload.createdByUserId && {
         createdByUserId: payload.createdByUserId,
       }),
@@ -102,7 +102,7 @@ export class ProductServiceService {
       where: { id: payload.id },
     });
 
-    if (!product || !product.isActive)
+    if (!product)
       throw new NotFoundException('Product not found');
 
     // Chỉ owner mới được sửa
@@ -137,7 +137,7 @@ export class ProductServiceService {
       where: { id: payload.id },
     });
 
-    if (!product || !product.isActive)
+    if (!product)
       throw new NotFoundException('Product not found');
 
     if (product.createdByUserId !== payload.requesterId) {
@@ -146,9 +146,8 @@ export class ProductServiceService {
       );
     }
 
-    await this.prisma.product.update({
+    await this.prisma.product.delete({
       where: { id: payload.id },
-      data: { isActive: false },
     });
 
     this.logger.log(`Product soft-deleted: id=${payload.id}`);
@@ -161,14 +160,11 @@ export class ProductServiceService {
   // ═══════════════════════════════════════════════════════════════════════════
 
   async handleUserDeleted(event: UserDeletedEvent): Promise<void> {
-    // Soft delete toàn bộ sản phẩm của user
-    // updateMany idempotent: lần 2 không có row active nào → no-op
-    const result = await this.prisma.product.updateMany({
+    // Soft delete toàn bộ sản phẩm của user qua extension deleteMany
+    const result = await this.prisma.product.deleteMany({
       where: {
         createdByUserId: event.userId,
-        isActive: true,
       },
-      data: { isActive: false },
     });
 
     this.logger.log(

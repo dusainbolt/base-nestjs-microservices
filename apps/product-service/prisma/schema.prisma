@@ -21,8 +21,10 @@ model Product {
 
   createdAt DateTime @default(now())
   updatedAt DateTime @updatedAt
+  deletedAt DateTime?
 
   @@index([createdByUserId])
   @@index([isActive])
+  @@index([deletedAt])
   @@map("products")
 }

@@ -38,3 +38,6 @@ export * from './decorators/current-user.decorator';
 
 // Utils
 export * from './utils/rpc-to-http.util';
+
+// Prisma
+export * from './prisma/soft-delete';
