@@ -1,13 +1,13 @@
 import { NestFactory } from '@nestjs/core';
 import { MicroserviceOptions, Transport } from '@nestjs/microservices';
-import { RmqService, USER_SERVICE, DOMAIN_EXCHANGE } from '@app/common';
+import { RmqService, USER_SERVICE, DOMAIN_EXCHANGE, EnvironmentVariables } from '@app/common';
 import { UserServiceModule } from './user-service.module';
 import { ConfigService } from '@nestjs/config';
 
 async function bootstrap() {
   const app = await NestFactory.create(UserServiceModule);
   const rmqService = app.get<RmqService>(RmqService);
-  const config = app.get(ConfigService);
+  const config = app.get(ConfigService<EnvironmentVariables, true>);
 
   // ── 1. RPC Queue — nhận commands từ api-gateway (GET_PROFILE, UPDATE_PROFILE...)
   app.connectMicroservice(rmqService.getOptions(USER_SERVICE, false));

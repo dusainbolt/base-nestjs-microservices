@@ -1,18 +1,10 @@
 import {
   AUTH_COMMANDS,
   AUTH_SERVICE,
-  ChangePasswordPayload,
+  ApiHandleResponse,
   CurrentUser,
-  ForgotPasswordPayload,
   JwtPayload,
-  LoginPayload,
-  LogoutPayload,
   Public,
-  RefreshTokenPayload,
-  RegisterPayload,
-  ResendVerificationPayload,
-  ResetPasswordPayload,
-  VerifyEmailPayload,
   rpcToHttp,
 } from '@app/common';
 import {
@@ -21,13 +13,27 @@ import {
   Delete,
   Get,
   Headers,
-  HttpCode,
   HttpStatus,
   Inject,
   Post,
+  Req,
 } from '@nestjs/common';
 import { ClientProxy } from '@nestjs/microservices';
+import { ApiTags, ApiBearerAuth } from '@nestjs/swagger';
+import {
+  ChangePasswordDto,
+  ForgotPasswordDto,
+  LoginDto,
+  LoginResponseDto,
+  LogoutDto,
+  RefreshTokenDto,
+  RegisterDto,
+  ResendVerificationDto,
+  ResetPasswordDto,
+  VerifyEmailDto,
+} from '@app/common/dto/auth.dto';
 
+@ApiTags('Auth')
 @Controller('auth')
 export class AuthController {
   constructor(@Inject(AUTH_SERVICE) private readonly authClient: ClientProxy) {}
@@ -36,9 +42,12 @@ export class AuthController {
 
   @Public()
   @Post('register')
-  @HttpCode(HttpStatus.CREATED)
-  register(@Body() body: RegisterPayload) {
-    console.log('register', body);
+  @ApiHandleResponse({
+    summary: 'Register a new account',
+    type: Object,
+    httpStatus: HttpStatus.CREATED,
+  })
+  register(@Body() body: RegisterDto) {
     return this.authClient
       .send({ cmd: AUTH_COMMANDS.REGISTER }, body)
       .pipe(rpcToHttp());
@@ -48,8 +57,11 @@ export class AuthController {
 
   @Public()
   @Post('verify-email')
-  @HttpCode(HttpStatus.OK)
-  verifyEmail(@Body() body: VerifyEmailPayload) {
+  @ApiHandleResponse({
+    summary: 'Verify email using token',
+    type: Object,
+  })
+  verifyEmail(@Body() body: VerifyEmailDto) {
     return this.authClient
       .send({ cmd: AUTH_COMMANDS.VERIFY_EMAIL }, body)
       .pipe(rpcToHttp());
@@ -57,8 +69,11 @@ export class AuthController {
 
   @Public()
   @Post('resend-verification')
-  @HttpCode(HttpStatus.OK)
-  resendVerification(@Body() body: ResendVerificationPayload) {
+  @ApiHandleResponse({
+    summary: 'Resend verification email',
+    type: Object,
+  })
+  resendVerification(@Body() body: ResendVerificationDto) {
     return this.authClient
       .send({ cmd: AUTH_COMMANDS.RESEND_VERIFICATION }, body)
       .pipe(rpcToHttp());
@@ -68,8 +83,11 @@ export class AuthController {
 
   @Public()
   @Post('login')
-  @HttpCode(HttpStatus.OK)
-  login(@Body() body: LoginPayload) {
+  @ApiHandleResponse({
+    summary: 'Login with email and password',
+    type: LoginResponseDto,
+  })
+  login(@Body() body: LoginDto) {
     return this.authClient
       .send({ cmd: AUTH_COMMANDS.LOGIN }, body)
       .pipe(rpcToHttp());
@@ -79,8 +97,11 @@ export class AuthController {
 
   @Public()
   @Post('refresh')
-  @HttpCode(HttpStatus.OK)
-  refreshToken(@Body() body: RefreshTokenPayload) {
+  @ApiHandleResponse({
+    summary: 'Refresh access token using refresh token',
+    type: Object,
+  })
+  refreshToken(@Body() body: RefreshTokenDto) {
     return this.authClient
       .send({ cmd: AUTH_COMMANDS.REFRESH_TOKEN }, body)
       .pipe(rpcToHttp());
@@ -88,13 +109,14 @@ export class AuthController {
 
   // ─── Logout  (gửi kèm accessToken để blacklist) ───────────────────────────
 
+  @ApiBearerAuth('JWT')
   @Post('logout')
-  @HttpCode(HttpStatus.OK)
-  logout(
-    @Body() body: LogoutPayload,
-    @Headers('authorization') authHeader?: string,
-  ) {
-    const accessToken = authHeader?.split(' ')[1];
+  @ApiHandleResponse({
+    summary: 'Logout and invalidate refresh token',
+    type: Object,
+  })
+  logout(@Body() body: LogoutDto, @Req() req: any) {
+    const accessToken = req.headers['authorization']?.split(' ')[1];
     return this.authClient
       .send({ cmd: AUTH_COMMANDS.LOGOUT }, { ...body, accessToken })
       .pipe(rpcToHttp());
@@ -104,8 +126,11 @@ export class AuthController {
 
   @Public()
   @Post('forgot-password')
-  @HttpCode(HttpStatus.OK)
-  forgotPassword(@Body() body: ForgotPasswordPayload) {
+  @ApiHandleResponse({
+    summary: 'Request password reset email',
+    type: Object,
+  })
+  forgotPassword(@Body() body: ForgotPasswordDto) {
     return this.authClient
       .send({ cmd: AUTH_COMMANDS.FORGOT_PASSWORD }, body)
       .pipe(rpcToHttp());
@@ -113,17 +138,24 @@ export class AuthController {
 
   @Public()
   @Post('reset-password')
-  @HttpCode(HttpStatus.OK)
-  resetPassword(@Body() body: ResetPasswordPayload) {
+  @ApiHandleResponse({
+    summary: 'Reset password using token',
+    type: Object,
+  })
+  resetPassword(@Body() body: ResetPasswordDto) {
     return this.authClient
       .send({ cmd: AUTH_COMMANDS.RESET_PASSWORD }, body)
       .pipe(rpcToHttp());
   }
 
+  @ApiBearerAuth('JWT')
   @Post('change-password')
-  @HttpCode(HttpStatus.OK)
+  @ApiHandleResponse({
+    summary: 'Change password while logged in',
+    type: Object,
+  })
   changePassword(
-    @Body() body: Omit<ChangePasswordPayload, 'userId'>,
+    @Body() body: ChangePasswordDto,
     @CurrentUser() user: JwtPayload,
   ) {
     return this.authClient
@@ -139,16 +171,24 @@ export class AuthController {
 
   // ─── Profile ──────────────────────────────────────────────────────────────
 
+  @ApiBearerAuth('JWT')
   @Get('me')
-  @HttpCode(HttpStatus.OK)
+  @ApiHandleResponse({
+    summary: 'Get current user profile',
+    type: Object,
+  })
   getProfile(@CurrentUser() user: JwtPayload) {
     return this.authClient
       .send({ cmd: AUTH_COMMANDS.GET_PROFILE }, { userId: user.sub })
       .pipe(rpcToHttp());
   }
 
+  @ApiBearerAuth('JWT')
   @Delete('me')
-  @HttpCode(HttpStatus.OK)
+  @ApiHandleResponse({
+    summary: 'Permanently delete user account',
+    type: Object,
+  })
   deleteAccount(@CurrentUser() user: JwtPayload) {
     return this.authClient
       .send({ cmd: AUTH_COMMANDS.DELETE_ACCOUNT }, { userId: user.sub })

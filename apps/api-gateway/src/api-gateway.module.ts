@@ -7,6 +7,8 @@ import {
   PRODUCT_SERVICE,
   RmqModule,
   USER_SERVICE,
+  EnvironmentVariables,
+  validateEnv,
 } from '@app/common';
 import { Module } from '@nestjs/common';
 import { ConfigModule } from '@nestjs/config';
@@ -19,7 +21,11 @@ import { ProductController } from './api/product.controller';
 
 @Module({
   imports: [
-    ConfigModule.forRoot({ isGlobal: true, envFilePath: '.env' }),
+    ConfigModule.forRoot({
+      isGlobal: true,
+      envFilePath: '.env',
+      validate: validateEnv(EnvironmentVariables),
+    }),
 
     // JWT verify local — không gọi auth-service mỗi request
     CommonJwtModule,
@@ -32,7 +38,12 @@ import { ProductController } from './api/product.controller';
     RmqModule.register({ name: AUTH_SERVICE }),
     RmqModule.register({ name: PRODUCT_SERVICE }),
   ],
-  controllers: [ApiGatewayController, AuthController, UserController, ProductController],
+  controllers: [
+    ApiGatewayController,
+    AuthController,
+    UserController,
+    ProductController,
+  ],
   providers: [
     ApiGatewayService,
     { provide: APP_GUARD, useClass: JwtAuthGuard },

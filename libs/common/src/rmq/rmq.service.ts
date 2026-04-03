@@ -1,12 +1,15 @@
 import { Injectable, Logger } from '@nestjs/common';
 import { ConfigService } from '@nestjs/config';
+import { EnvironmentVariables } from '../interfaces/env.interface';
 import { RmqContext, RmqOptions, Transport } from '@nestjs/microservices';
 
 @Injectable()
 export class RmqService {
   private readonly logger = new Logger(RmqService.name);
 
-  constructor(private readonly configService: ConfigService) {}
+  constructor(
+    private readonly configService: ConfigService<EnvironmentVariables, true>,
+  ) {}
 
   /**
    * Trả về cấu hình kết nối RabbitMQ
@@ -16,7 +19,7 @@ export class RmqService {
   getOptions(queueName: string, noAck = false): RmqOptions {
     // Luôn map từ hằng số sang giá trị thực trong .env
     const resolvedQueue = this.configService.get<string>(
-      `RABBIT_MQ_${queueName}_QUEUE`,
+      `RABBIT_MQ_${queueName}_QUEUE` as any,
     );
 
     return {

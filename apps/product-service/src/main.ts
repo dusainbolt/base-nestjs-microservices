@@ -1,13 +1,18 @@
-import { NestFactory } from '@nestjs/core';
+import {
+  DOMAIN_EXCHANGE,
+  EnvironmentVariables,
+  PRODUCT_SERVICE,
+  RmqService,
+} from '@app/common';
 import { ConfigService } from '@nestjs/config';
+import { NestFactory } from '@nestjs/core';
 import { MicroserviceOptions, Transport } from '@nestjs/microservices';
-import { RmqService, PRODUCT_SERVICE, DOMAIN_EXCHANGE } from '@app/common';
 import { ProductServiceModule } from './product-service.module';
 
 async function bootstrap() {
   const app = await NestFactory.create(ProductServiceModule);
   const rmqService = app.get<RmqService>(RmqService);
-  const config = app.get(ConfigService);
+  const config = app.get(ConfigService<EnvironmentVariables, true>);
 
   // ── 1. RPC Queue — nhận CRUD commands từ api-gateway ──────────────────────
   app.connectMicroservice(rmqService.getOptions(PRODUCT_SERVICE, false));
@@ -18,12 +23,12 @@ async function bootstrap() {
   app.connectMicroservice<MicroserviceOptions>({
     transport: Transport.RMQ,
     options: {
-      urls: [config.get('RABBIT_MQ_URI')],
+      urls: [config.get('RABBIT_MQ_URI') || ''],
       exchange: DOMAIN_EXCHANGE,
       exchangeType: 'topic',
       // Queue riêng: mỗi service tạo queue riêng để nhận event độc lập
       queue: 'product_domain_events_queue',
-      routingKey: 'user.*',         // wildcard: nhận tất cả user.* events
+      routingKey: 'user.*', // wildcard: nhận tất cả user.* events
       wildcardPattern: true,
       noAck: false,
       persistent: true,

@@ -1,4 +1,6 @@
 import {
+  ApiHandleResponse,
+  ApiPaginatedResponse,
   CurrentUser,
   JwtPayload,
   PRODUCT_COMMANDS,
@@ -11,7 +13,6 @@ import {
   Controller,
   Delete,
   Get,
-  HttpCode,
   HttpStatus,
   Inject,
   Param,
@@ -20,7 +21,15 @@ import {
   Query,
 } from '@nestjs/common';
 import { ClientProxy } from '@nestjs/microservices';
+import { ApiTags } from '@nestjs/swagger';
+import {
+  CreateProductDto,
+  ProductQueryDto,
+  ProductResponseDto,
+  UpdateProductDto,
+} from '@app/common/dto/product.dto';
 
+@ApiTags('Products')
 @Controller('products')
 export class ProductController {
   constructor(
@@ -30,9 +39,13 @@ export class ProductController {
   // ─── Create ───────────────────────────────────────────────────────────────
 
   @Post()
-  @HttpCode(HttpStatus.CREATED)
+  @ApiHandleResponse({
+    summary: 'Create a new product',
+    type: ProductResponseDto,
+    httpStatus: HttpStatus.CREATED,
+  })
   create(
-    @Body() body: { name: string; description?: string; price: number; stock?: number },
+    @Body() body: CreateProductDto,
     @CurrentUser() user: JwtPayload,
   ) {
     return this.productClient
@@ -44,17 +57,15 @@ export class ProductController {
 
   @Public()
   @Get()
-  @HttpCode(HttpStatus.OK)
-  getList(
-    @Query('page') page?: string,
-    @Query('limit') limit?: string,
-    @Query('userId') createdByUserId?: string,
-  ) {
+  @ApiPaginatedResponse(ProductResponseDto, 'Get paginated list of products')
+  getList(@Query() query: ProductQueryDto) {
     return this.productClient
       .send({ cmd: PRODUCT_COMMANDS.GET_LIST }, {
-        page: page ? Number(page) : 1,
-        limit: limit ? Number(limit) : 20,
-        ...(createdByUserId && { createdByUserId }),
+        page: query.page,
+        limit: query.take,
+        orderBy: query.orderBy,
+        sortBy: query.sortBy,
+        ...(query.createdByUserId && { createdByUserId: query.createdByUserId }),
       })
       .pipe(rpcToHttp());
   }
@@ -63,7 +74,10 @@ export class ProductController {
 
   @Public()
   @Get(':id')
-  @HttpCode(HttpStatus.OK)
+  @ApiHandleResponse({
+    summary: 'Get product by ID',
+    type: ProductResponseDto,
+  })
   getById(@Param('id') id: string) {
     return this.productClient
       .send({ cmd: PRODUCT_COMMANDS.GET_BY_ID }, { id })
@@ -73,10 +87,13 @@ export class ProductController {
   // ─── Update ───────────────────────────────────────────────────────────────
 
   @Patch(':id')
-  @HttpCode(HttpStatus.OK)
+  @ApiHandleResponse({
+    summary: 'Update product listing (Owner only)',
+    type: ProductResponseDto,
+  })
   update(
     @Param('id') id: string,
-    @Body() body: { name?: string; description?: string; price?: number; stock?: number },
+    @Body() body: UpdateProductDto,
     @CurrentUser() user: JwtPayload,
   ) {
     return this.productClient
@@ -87,7 +104,10 @@ export class ProductController {
   // ─── Delete ───────────────────────────────────────────────────────────────
 
   @Delete(':id')
-  @HttpCode(HttpStatus.OK)
+  @ApiHandleResponse({
+    summary: 'Soft-remove product listing (Owner only)',
+    type: Object, // Return result object
+  })
   delete(
     @Param('id') id: string,
     @CurrentUser() user: JwtPayload,
@@ -100,17 +120,17 @@ export class ProductController {
   // ─── My Products ──────────────────────────────────────────────────────────
 
   @Get('me/list')
-  @HttpCode(HttpStatus.OK)
+  @ApiPaginatedResponse(ProductResponseDto, 'Get list of products owned by current user')
   getMyProducts(
     @CurrentUser() user: JwtPayload,
-    @Query('page') page?: string,
-    @Query('limit') limit?: string,
+    @Query() query: ProductQueryDto,
   ) {
     return this.productClient
       .send({ cmd: PRODUCT_COMMANDS.GET_LIST }, {
+        ...query,
+        page: query.page,
+        limit: query.take,
         createdByUserId: user.sub,
-        page: page ? Number(page) : 1,
-        limit: limit ? Number(limit) : 20,
       })
       .pipe(rpcToHttp());
   }

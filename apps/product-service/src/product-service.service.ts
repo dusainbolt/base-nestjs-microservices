@@ -64,7 +64,7 @@ export class ProductServiceService {
   // ═══════════════════════════════════════════════════════════════════════════
 
   async getList(payload: GetProductListPayload): Promise<ProductListResponse> {
-    const page = payload.page ?? 1;
+    const page = Math.max(payload.page ?? 1, 1);
     const limit = Math.min(payload.limit ?? 20, 100); // max 100 per page
     const skip = (page - 1) * limit;
 
