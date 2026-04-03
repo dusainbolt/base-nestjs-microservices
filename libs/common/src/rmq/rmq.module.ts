@@ -20,7 +20,9 @@ export class RmqModule {
         ClientsModule.registerAsync([
           {
             name,
-            useFactory: (configService: ConfigService<EnvironmentVariables, true>) => {
+            useFactory: (
+              configService: ConfigService<EnvironmentVariables, true>,
+            ) => {
               const queueName = configService.get(
                 `RABBIT_MQ_${name}_QUEUE` as keyof EnvironmentVariables,
               ) as string;

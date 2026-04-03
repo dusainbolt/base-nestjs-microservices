@@ -38,9 +38,7 @@ export class EmailServiceService {
     this.logger.log(`[VERIFICATION] Sent to ${payload.to}`);
   }
 
-  async sendPasswordReset(
-    payload: SendPasswordResetEmailDto,
-  ): Promise<void> {
+  async sendPasswordReset(payload: SendPasswordResetEmailDto): Promise<void> {
     const appUrl = this.config.get('APP_URL');
     const link = `${appUrl}/auth/reset-password?token=${payload.resetToken}`;
     await this.send({

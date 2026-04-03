@@ -25,7 +25,9 @@ import { REDIS_CLIENT } from './redis.constants';
         });
 
         client.on('connect', () => console.log('[Redis Shared] Connected'));
-        client.on('error', (err) => console.error('[Redis Shared] Error:', err.message));
+        client.on('error', (err) =>
+          console.error('[Redis Shared] Error:', err.message),
+        );
 
         return client;
       },

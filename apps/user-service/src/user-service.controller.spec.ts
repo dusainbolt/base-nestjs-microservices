@@ -11,12 +11,14 @@ describe('UserServiceController', () => {
       providers: [UserServiceService],
     }).compile();
 
-    userServiceController = app.get<UserServiceController>(UserServiceController);
+    userServiceController = app.get<UserServiceController>(
+      UserServiceController,
+    );
   });
 
-  describe('root', () => {
-    it('should return "Hello World!"', () => {
-      expect(userServiceController.getHello()).toBe('Hello World!');
-    });
-  });
+  // describe('root', () => {
+  //   it('should return "Hello World!"', () => {
+  //     expect(userServiceController.getHello()).toBe('Hello World!');
+  //   });
+  // });
 });

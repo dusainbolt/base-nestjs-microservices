@@ -32,7 +32,7 @@ export function initTracing(serviceName: string): NodeSDK {
     }),
     traceExporter: exporter as any,
     // SỬ DỤNG CONTEXT MANAGER NÀY ĐỂ LIÊN KẾT REDIS VÀO HTTP REQUEST
-    contextManager: new AsyncLocalStorageContextManager(), 
+    contextManager: new AsyncLocalStorageContextManager(),
     instrumentations: [
       new HttpInstrumentation(),
       new ExpressInstrumentation() as any,
@@ -40,7 +40,8 @@ export function initTracing(serviceName: string): NodeSDK {
       new AmqplibInstrumentation() as any,
       new IORedisInstrumentation({
         requireParentSpan: true, // Chỉnh lại true để nó bắt buộc phải theo span cha
-        dbStatementSerializer: (cmdName, args) => `${cmdName} ${args.join(' ')}`,
+        dbStatementSerializer: (cmdName, args) =>
+          `${cmdName} ${args.join(' ')}`,
       } as any),
       new PgInstrumentation() as any,
       new PrismaInstrumentation(),

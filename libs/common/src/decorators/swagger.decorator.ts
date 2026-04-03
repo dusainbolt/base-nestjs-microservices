@@ -70,7 +70,12 @@ export function SwaggerBoolean(options: ApiPropertyOptions = {}) {
     IsBoolean(),
     Transform(({ value }: { value: unknown }) => {
       if (value === undefined || value === null) return value;
-      if (value === false || value === 'false' || value === 0 || value === '0') {
+      if (
+        value === false ||
+        value === 'false' ||
+        value === 0 ||
+        value === '0'
+      ) {
         return false;
       }
       if (value === true || value === 'true' || value === 1 || value === '1') {
@@ -88,10 +93,7 @@ export function SwaggerEnum(options: ApiPropertyOptions = {}) {
   );
 }
 
-export function SwaggerInterface(
-  type: any,
-  options: ApiPropertyOptions = {},
-) {
+export function SwaggerInterface(type: any, options: ApiPropertyOptions = {}) {
   const isRequired = options?.required !== false;
   return applyDecorators(
     ApiProperty({ ...options, type, required: isRequired } as any),

@@ -1,8 +1,4 @@
-import {
-  PRODUCT_COMMANDS,
-  RmqInterceptor,
-  DOMAIN_EVENTS,
-} from '@app/common';
+import { PRODUCT_COMMANDS, RmqInterceptor, DOMAIN_EVENTS } from '@app/common';
 import {
   CreateProductDto,
   ProductQueryDto,
@@ -38,7 +34,9 @@ export class ProductServiceController {
   }
 
   @MessagePattern({ cmd: PRODUCT_COMMANDS.UPDATE })
-  update(@Payload() data: UpdateProductDto & { requesterId: string; id: string }) {
+  update(
+    @Payload() data: UpdateProductDto & { requesterId: string; id: string },
+  ) {
     return this.productService.update(data);
   }
 

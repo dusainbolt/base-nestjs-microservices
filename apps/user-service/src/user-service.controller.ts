@@ -1,8 +1,4 @@
-import {
-  DOMAIN_EVENTS,
-  RmqInterceptor,
-  USER_COMMANDS,
-} from '@app/common';
+import { DOMAIN_EVENTS, RmqInterceptor, USER_COMMANDS } from '@app/common';
 import {
   CreateProfileDto,
   UpdateProfileDto,

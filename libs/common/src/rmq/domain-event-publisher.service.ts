@@ -54,9 +54,7 @@ export class DomainEventPublisher implements OnModuleInit, OnModuleDestroy {
       return;
     }
 
-    const message = Buffer.from(
-      JSON.stringify({ pattern: eventName, data }),
-    );
+    const message = Buffer.from(JSON.stringify({ pattern: eventName, data }));
 
     this.channel.publish(DOMAIN_EXCHANGE, eventName, message, {
       persistent: true,
@@ -114,11 +112,15 @@ export class DomainEventPublisher implements OnModuleInit, OnModuleDestroy {
       this.connection = null;
     });
     this.connection.on('close', () => {
-      this.logger.warn('RabbitMQ connection closed, will reconnect on next publish');
+      this.logger.warn(
+        'RabbitMQ connection closed, will reconnect on next publish',
+      );
       this.channel = null;
       this.connection = null;
     });
 
-    this.logger.log(`Connected to RabbitMQ exchange [${DOMAIN_EXCHANGE}] (topic)`);
+    this.logger.log(
+      `Connected to RabbitMQ exchange [${DOMAIN_EXCHANGE}] (topic)`,
+    );
   }
 }

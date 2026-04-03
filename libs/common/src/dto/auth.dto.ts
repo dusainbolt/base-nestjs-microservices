@@ -1,7 +1,4 @@
-import {
-  SwaggerEmail,
-  SwaggerString,
-} from '../decorators/swagger.decorator';
+import { SwaggerEmail, SwaggerString } from '../decorators/swagger.decorator';
 import { IsNotEmpty, IsString } from 'class-validator';
 import { ApiProperty } from '@nestjs/swagger';
 
@@ -15,8 +12,8 @@ export enum UserRole {
 // ─── JWT PAYLOAD ─────────────────────────────────────────────────────────────
 
 export interface JwtPayload {
-  sub: string;        // userId (compatibility)
-  id: string;         // userId (standard)
+  sub: string; // userId (compatibility)
+  id: string; // userId (standard)
   email: string;
   username: string;
   role: UserRole;

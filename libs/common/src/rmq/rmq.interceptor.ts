@@ -27,8 +27,7 @@ export class RmqInterceptor implements NestInterceptor {
         channel.ack(originalMessage);
       }),
       catchError((err) => {
-        const statusCode =
-          err instanceof HttpException ? err.getStatus() : 500;
+        const statusCode = err instanceof HttpException ? err.getStatus() : 500;
         const response =
           err instanceof HttpException ? err.getResponse() : null;
 

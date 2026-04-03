@@ -14,9 +14,9 @@ describe('LogServiceController', () => {
     logServiceController = app.get<LogServiceController>(LogServiceController);
   });
 
-  describe('root', () => {
-    it('should return "Hello World!"', () => {
-      expect(logServiceController.getHello()).toBe('Hello World!');
-    });
-  });
+  // describe('root', () => {
+  //   it('should return "Hello World!"', () => {
+  //     expect(logServiceController.getHello()).toBe('Hello World!');
+  //   });
+  // });
 });

@@ -1,7 +1,4 @@
-import {
-  AUTH_COMMANDS,
-  RmqInterceptor,
-} from '@app/common';
+import { AUTH_COMMANDS, RmqInterceptor } from '@app/common';
 import {
   RegisterDto,
   LoginDto,

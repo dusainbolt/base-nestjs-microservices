@@ -1,4 +1,10 @@
-import { ArgumentsHost, Catch, ExceptionFilter, HttpStatus, Logger } from '@nestjs/common';
+import {
+  ArgumentsHost,
+  Catch,
+  ExceptionFilter,
+  HttpStatus,
+  Logger,
+} from '@nestjs/common';
 import { RpcException } from '@nestjs/microservices';
 import { Response } from 'express';
 
@@ -25,7 +31,8 @@ export class RpcExceptionFilter implements ExceptionFilter {
     let message: string;
 
     if (typeof error === 'object' && error !== null) {
-      statusCode = (error as any).statusCode ?? HttpStatus.INTERNAL_SERVER_ERROR;
+      statusCode =
+        (error as any).statusCode ?? HttpStatus.INTERNAL_SERVER_ERROR;
       message = (error as any).message ?? 'Internal server error';
     } else {
       statusCode = HttpStatus.INTERNAL_SERVER_ERROR;
