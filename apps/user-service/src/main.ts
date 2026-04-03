@@ -1,3 +1,6 @@
+import { initTracing } from '../../../libs/common/src/tracing/tracing';
+initTracing('user-service');
+
 import { NestFactory } from '@nestjs/core';
 import { MicroserviceOptions, Transport } from '@nestjs/microservices';
 import {

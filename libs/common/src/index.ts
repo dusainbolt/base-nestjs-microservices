@@ -55,3 +55,6 @@ export * from './constants/pagination.constants';
 
 // Enrich
 export * from './enrich/user.enrich';
+
+// Tracing
+export * from './tracing/tracing';

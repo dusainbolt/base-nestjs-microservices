@@ -1,3 +1,6 @@
+import { initTracing } from '../../../libs/common/src/tracing/tracing';
+initTracing('api-gateway');
+
 import { NestFactory } from '@nestjs/core';
 import { ApiGatewayModule } from './api-gateway.module';
 import { ValidationPipe } from '@nestjs/common';

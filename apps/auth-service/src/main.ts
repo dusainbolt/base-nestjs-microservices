@@ -1,3 +1,6 @@
+import { initTracing } from '../../../libs/common/src/tracing/tracing';
+initTracing('auth-service');
+
 import { AUTH_SERVICE, RmqService } from '@app/common';
 import { NestFactory } from '@nestjs/core';
 import { AuthServiceModule } from './auth-service.module';

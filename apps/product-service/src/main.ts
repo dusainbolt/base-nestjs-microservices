@@ -1,3 +1,6 @@
+import { initTracing } from '../../../libs/common/src/tracing/tracing';
+initTracing('product-service');
+
 import {
   DOMAIN_EXCHANGE,
   EnvironmentVariables,
