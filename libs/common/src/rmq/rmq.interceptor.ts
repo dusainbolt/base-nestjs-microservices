@@ -24,31 +24,41 @@ export class RmqInterceptor implements NestInterceptor {
 
     return next.handle().pipe(
       tap(() => {
-        // Xử lý thành công -> Chủ động gửi lệnh ACK để xóa tin nhắn
         channel.ack(originalMessage);
       }),
       catchError((err) => {
-        const statusCode = err instanceof HttpException ? err.getStatus() : 500;
-        const message = err.message || 'Internal server error';
+        const statusCode =
+          err instanceof HttpException ? err.getStatus() : 500;
+        const response =
+          err instanceof HttpException ? err.getResponse() : null;
+
+        // Lấy chi tiết lỗi đầy đủ (validation errors, custom message, v.v.)
+        const errorBody =
+          typeof response === 'object' && response !== null
+            ? response
+            : { message: err.message || 'Internal server error' };
 
         this.logger.error(
-          `${isRequestResponse ? 'RPC' : 'Event'} Error (${statusCode}): ${message}`,
+          `${isRequestResponse ? 'RPC' : 'Event'} Error (${statusCode}): ${
+            typeof errorBody === 'object'
+              ? JSON.stringify(errorBody)
+              : errorBody
+          }`,
         );
 
         if (statusCode >= 500) {
-          // Lỗi hệ thống (500) -> Đưa về Dead Letter Queue (DLQ) để trace/retry
-          // false, false -> không requeue lại queue cũ, bắt buộc đẩy đi hướng khác (DLQ)
           channel.nack(originalMessage, false, false);
         } else {
-          // Lỗi nghiệp vụ (400, 401, 404...) -> ACK để xóa message, không nhét vào DLQ
           channel.ack(originalMessage);
         }
 
-        // Trả về Object lỗi cho Gateway (nếu là RPC request thì client vẫn nhận được lỗi ngay)
+        // Trả về full error body để Gateway có thể reconstruct chính xác
         return of({
           __isRpcError: true,
           statusCode,
-          message,
+          ...(typeof errorBody === 'string'
+            ? { message: errorBody }
+            : errorBody),
         });
       }),
     );

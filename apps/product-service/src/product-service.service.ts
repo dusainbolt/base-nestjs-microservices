@@ -25,7 +25,9 @@ export class ProductServiceService {
   //  CREATE
   // ═══════════════════════════════════════════════════════════════════════════
 
-  async create(payload: CreateProductDto & { createdByUserId: string }): Promise<ProductResponseDto> {
+  async create(
+    payload: CreateProductDto & { createdByUserId: string },
+  ): Promise<ProductResponseDto> {
     const product = await this.prisma.product.create({
       data: {
         name: payload.name,
@@ -103,8 +105,7 @@ export class ProductServiceService {
       where: { id: payload.id },
     });
 
-    if (!product)
-      throw new NotFoundException('Product not found');
+    if (!product) throw new NotFoundException('Product not found');
 
     if (product.createdByUserId !== payload.requesterId) {
       throw new ForbiddenException(
@@ -137,8 +138,7 @@ export class ProductServiceService {
       where: { id: payload.id },
     });
 
-    if (!product)
-      throw new NotFoundException('Product not found');
+    if (!product) throw new NotFoundException('Product not found');
 
     if (product.createdByUserId !== payload.requesterId) {
       throw new ForbiddenException(

@@ -28,6 +28,9 @@ export * from './interfaces/env.interface';
 // Guards
 export * from './guards/jwt-auth.guard';
 
+// Filters
+export * from './filters/global-exception.filter';
+
 // Decorators
 export * from './decorators/public.decorator';
 export * from './decorators/current-user.decorator';

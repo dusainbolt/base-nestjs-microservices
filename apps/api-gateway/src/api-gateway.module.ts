@@ -2,6 +2,7 @@ import {
   AUTH_SERVICE,
   CommonJwtModule,
   CommonRedisModule,
+  GlobalExceptionFilter,
   JwtAuthGuard,
   LOG_SERVICE,
   PRODUCT_SERVICE,
@@ -13,7 +14,7 @@ import {
 } from '@app/common';
 import { Module } from '@nestjs/common';
 import { ConfigModule } from '@nestjs/config';
-import { APP_GUARD } from '@nestjs/core';
+import { APP_FILTER, APP_GUARD } from '@nestjs/core';
 import { ApiGatewayController } from './api-gateway.controller';
 import { ApiGatewayService } from './api-gateway.service';
 import { AuthController } from './api/auth.controller';
@@ -49,6 +50,7 @@ import { ProductController } from './api/product.controller';
     ApiGatewayService,
     UserEnrichService,
     { provide: APP_GUARD, useClass: JwtAuthGuard },
+    { provide: APP_FILTER, useClass: GlobalExceptionFilter },
   ],
 })
 export class ApiGatewayModule {}
