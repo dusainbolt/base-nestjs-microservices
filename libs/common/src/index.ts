@@ -49,3 +49,6 @@ export * from './dto/email.dto';
 
 // Pagination Constants
 export * from './constants/pagination.constants';
+
+// Enrich
+export * from './enrich/user.enrich';

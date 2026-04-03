@@ -4,6 +4,7 @@ import { Transform, Type } from 'class-transformer';
 import {
   Allow,
   ArrayNotEmpty,
+  IsArray,
   IsBoolean,
   IsDate,
   IsDefined,
@@ -120,6 +121,53 @@ export function SwaggerArray(options: ApiPropertyOptions = {}) {
       required: isRequired,
     } as any),
     isRequired ? ArrayNotEmpty() : IsOptional(),
+  );
+}
+
+/**
+ * Dùng cho các field date trong response DTO (createdAt, updatedAt...).
+ * Không gắn validator vì đây là output field.
+ */
+export function SwaggerDate(options: ApiPropertyOptions = {}) {
+  const isRequired = options?.required !== false;
+  return applyDecorators(
+    ApiProperty({
+      type: String,
+      format: 'date-time',
+      example: '2026-04-03T00:00:00.000Z',
+      required: isRequired,
+      ...options,
+    } as any),
+    isRequired ? IsDefined() : IsOptional(),
+  );
+}
+
+/**
+ * Dùng cho field enum array (thường là query params).
+ * Tự động parse chuỗi "a,b,c" thành array, validate từng phần tử theo enum.
+ */
+export function SwaggerEnumArray(
+  options: ApiPropertyOptions & { enum: object },
+) {
+  const isRequired = options?.required !== false;
+  return applyDecorators(
+    ApiProperty({
+      ...options,
+      isArray: true,
+      required: isRequired,
+    } as any),
+    isRequired ? ArrayNotEmpty() : IsOptional(),
+    Transform(({ value }) => {
+      if (!value) return value;
+      return Array.isArray(value)
+        ? value
+        : String(value)
+            .split(',')
+            .map((s: string) => s.trim())
+            .filter(Boolean);
+    }),
+    IsEnum(options.enum as any, { each: true }),
+    IsArray(),
   );
 }
 

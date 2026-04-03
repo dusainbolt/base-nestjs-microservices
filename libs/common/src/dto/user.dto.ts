@@ -1,9 +1,21 @@
 import {
+  SwaggerArray,
   SwaggerBoolean,
+  SwaggerDate,
   SwaggerEmail,
   SwaggerString,
 } from '../decorators/swagger.decorator';
-import { ApiProperty } from '@nestjs/swagger';
+
+// ─── ENUMS ────────────────────────────────────────────────────────────────
+
+/**
+ * Các quan hệ user có thể include khi query resource.
+ * Dùng làm giá trị cho query param ?include=createdBy,updatedBy
+ */
+export enum UserRelation {
+  CREATED_BY = 'createdBy',
+  UPDATED_BY = 'updatedBy',
+}
 
 // ─── SYSTEM / DEMO PAYLOADS ───────────────────────────────────────────────
 
@@ -18,6 +30,11 @@ export class WelcomeUserDto {
 }
 
 // ─── PAYLOADS ───────────────────────────────────────────────────────────────
+
+export class GetProfilesByIdsDto {
+  @SwaggerArray({ type: String, example: ['user-123', 'user-456'] })
+  userIds: string[];
+}
 
 export class CreateProfileDto {
   @SwaggerString({ example: 'user-123' })
@@ -64,6 +81,26 @@ export class UpdateProfileDto {
 
 // ─── RESPONSES ───────────────────────────────────────────────────────────────
 
+export class UserBasicInfoDto {
+  @SwaggerString({ example: 'user-123' })
+  id: string;
+
+  @SwaggerEmail({ example: 'user@example.com' })
+  email: string;
+
+  @SwaggerString({ example: 'johndoe' })
+  username: string;
+
+  @SwaggerString({ example: 'John' })
+  firstName: string;
+
+  @SwaggerString({ example: 'Doe' })
+  lastName: string;
+
+  @SwaggerString({ required: false, example: 'https://example.com/avatar.png' })
+  avatar?: string;
+}
+
 export class BaseResponseDto {
   @SwaggerBoolean({ example: true })
   success: boolean;
@@ -109,9 +146,9 @@ export class UserProfileResponseDto {
   @SwaggerString({ example: 'vi' })
   locale: string;
 
-  @ApiProperty({ example: '2026-04-03T00:00:00Z' })
+  @SwaggerDate()
   createdAt: Date;
 
-  @ApiProperty({ example: '2026-04-03T00:00:00Z' })
+  @SwaggerDate()
   updatedAt: Date;
 }

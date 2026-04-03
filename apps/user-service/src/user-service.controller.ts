@@ -8,6 +8,7 @@ import {
   UpdateProfileDto,
   PingUserDto,
   WelcomeUserDto,
+  GetProfilesByIdsDto,
 } from '@app/common/dto/user.dto';
 import { UserDeletedEvent } from '@app/common/dto/auth.dto';
 import { Controller, UseInterceptors } from '@nestjs/common';
@@ -53,6 +54,11 @@ export class UserServiceController {
   @MessagePattern({ cmd: USER_COMMANDS.GET_PROFILE })
   getProfile(@Payload() data: { userId: string }) {
     return this.userService.getProfile(data);
+  }
+
+  @MessagePattern({ cmd: USER_COMMANDS.GET_PROFILES_BY_IDS })
+  getProfilesByIds(@Payload() data: GetProfilesByIdsDto) {
+    return this.userService.getProfilesByIds(data);
   }
 
   @MessagePattern({ cmd: USER_COMMANDS.UPDATE_PROFILE })

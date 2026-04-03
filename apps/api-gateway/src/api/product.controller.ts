@@ -2,12 +2,23 @@ import {
   ApiHandleResponse,
   ApiPaginatedResponse,
   CurrentUser,
+  enrichListWithUser,
+  enrichSingleWithUser,
   JwtPayload,
   PRODUCT_COMMANDS,
   PRODUCT_SERVICE,
   Public,
+  resolveUserFields,
   rpcToHttp,
+  USER_SERVICE,
 } from '@app/common';
+import {
+  CreateProductDto,
+  ProductIncludeQueryDto,
+  ProductQueryDto,
+  ProductResponseDto,
+  UpdateProductDto,
+} from '@app/common/dto/product.dto';
 import {
   Body,
   Controller,
@@ -22,18 +33,13 @@ import {
 } from '@nestjs/common';
 import { ClientProxy } from '@nestjs/microservices';
 import { ApiTags } from '@nestjs/swagger';
-import {
-  CreateProductDto,
-  ProductQueryDto,
-  ProductResponseDto,
-  UpdateProductDto,
-} from '@app/common/dto/product.dto';
 
 @ApiTags('Products')
 @Controller('products')
 export class ProductController {
   constructor(
     @Inject(PRODUCT_SERVICE) private readonly productClient: ClientProxy,
+    @Inject(USER_SERVICE) private readonly userClient: ClientProxy,
   ) {}
 
   // ─── Create ───────────────────────────────────────────────────────────────
@@ -44,12 +50,12 @@ export class ProductController {
     type: ProductResponseDto,
     httpStatus: HttpStatus.CREATED,
   })
-  create(
-    @Body() body: CreateProductDto,
-    @CurrentUser() user: JwtPayload,
-  ) {
+  create(@Body() body: CreateProductDto, @CurrentUser() user: JwtPayload) {
     return this.productClient
-      .send({ cmd: PRODUCT_COMMANDS.CREATE }, { ...body, createdByUserId: user.sub })
+      .send(
+        { cmd: PRODUCT_COMMANDS.CREATE },
+        { ...body, createdByUserId: user.sub },
+      )
       .pipe(rpcToHttp());
   }
 
@@ -59,25 +65,33 @@ export class ProductController {
   @Get()
   @ApiPaginatedResponse(ProductResponseDto, 'Get paginated list of products')
   getList(@Query() query: ProductQueryDto) {
-    return this.productClient
-      .send({ cmd: PRODUCT_COMMANDS.GET_LIST }, {
-        ...query,
-      })
+    const { include, ...productQuery } = query;
+    const userFields = resolveUserFields(include ?? []);
+
+    const products$ = this.productClient
+      .send({ cmd: PRODUCT_COMMANDS.GET_LIST }, productQuery)
       .pipe(rpcToHttp());
+
+    return userFields.length
+      ? products$.pipe(enrichListWithUser(this.userClient, userFields))
+      : products$;
   }
 
   // ─── Get By Id ────────────────────────────────────────────────────────────
 
   @Public()
   @Get(':id')
-  @ApiHandleResponse({
-    summary: 'Get product by ID',
-    type: ProductResponseDto,
-  })
-  getById(@Param('id') id: string) {
-    return this.productClient
+  @ApiHandleResponse({ summary: 'Get product by ID', type: ProductResponseDto })
+  getById(@Param('id') id: string, @Query() query: ProductIncludeQueryDto) {
+    const userFields = resolveUserFields(query.include ?? []);
+
+    const product$ = this.productClient
       .send({ cmd: PRODUCT_COMMANDS.GET_BY_ID }, { id })
       .pipe(rpcToHttp());
+
+    return userFields.length
+      ? product$.pipe(enrichSingleWithUser(this.userClient, userFields))
+      : product$;
   }
 
   // ─── Update ───────────────────────────────────────────────────────────────
@@ -93,7 +107,10 @@ export class ProductController {
     @CurrentUser() user: JwtPayload,
   ) {
     return this.productClient
-      .send({ cmd: PRODUCT_COMMANDS.UPDATE }, { id, ...body, requesterId: user.sub })
+      .send(
+        { cmd: PRODUCT_COMMANDS.UPDATE },
+        { id, ...body, requesterId: user.sub },
+      )
       .pipe(rpcToHttp());
   }
 
@@ -102,12 +119,9 @@ export class ProductController {
   @Delete(':id')
   @ApiHandleResponse({
     summary: 'Soft-remove product listing (Owner only)',
-    type: Object, // Return result object
+    type: Object,
   })
-  delete(
-    @Param('id') id: string,
-    @CurrentUser() user: JwtPayload,
-  ) {
+  delete(@Param('id') id: string, @CurrentUser() user: JwtPayload) {
     return this.productClient
       .send({ cmd: PRODUCT_COMMANDS.DELETE }, { id, requesterId: user.sub })
       .pipe(rpcToHttp());
@@ -116,16 +130,26 @@ export class ProductController {
   // ─── My Products ──────────────────────────────────────────────────────────
 
   @Get('me/list')
-  @ApiPaginatedResponse(ProductResponseDto, 'Get list of products owned by current user')
+  @ApiPaginatedResponse(
+    ProductResponseDto,
+    'Get list of products owned by current user',
+  )
   getMyProducts(
     @CurrentUser() user: JwtPayload,
     @Query() query: ProductQueryDto,
   ) {
-    return this.productClient
-      .send({ cmd: PRODUCT_COMMANDS.GET_LIST }, {
-        ...query,
-        createdByUserId: user.sub,
-      })
+    const { include, ...productQuery } = query;
+    const userFields = resolveUserFields(include ?? []);
+
+    const products$ = this.productClient
+      .send(
+        { cmd: PRODUCT_COMMANDS.GET_LIST },
+        { ...productQuery, createdByUserId: user.sub },
+      )
       .pipe(rpcToHttp());
+
+    return userFields.length
+      ? products$.pipe(enrichListWithUser(this.userClient, userFields))
+      : products$;
   }
 }

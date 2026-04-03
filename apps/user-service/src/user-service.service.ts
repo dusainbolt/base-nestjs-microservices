@@ -2,6 +2,7 @@ import {
   CreateProfileDto,
   UserProfileResponseDto,
   UpdateProfileDto,
+  UserBasicInfoDto,
 } from '@app/common/dto/user.dto';
 import { Injectable, Logger, NotFoundException } from '@nestjs/common';
 import { PrismaService } from './prisma/prisma.service';
@@ -42,7 +43,9 @@ export class UserServiceService {
 
   // ─── GET PROFILE ──────────────────────────────────────────────────────────
 
-  async getProfile(payload: { userId: string }): Promise<UserProfileResponseDto> {
+  async getProfile(payload: {
+    userId: string;
+  }): Promise<UserProfileResponseDto> {
     const profile = await this.prisma.userProfile.findUnique({
       where: { id: payload.userId },
     });
@@ -73,6 +76,39 @@ export class UserServiceService {
 
     this.logger.log(`Profile updated for userId=${userId}`);
     return this.toResponse(updated);
+  }
+
+  // ─── GET PROFILES BY IDS (batch — dùng cho relation enrichment) ──────────
+
+  async getProfilesByIds(payload: {
+    userIds: string[];
+  }): Promise<UserBasicInfoDto[]> {
+    const { userIds } = payload;
+
+    if (!userIds || userIds.length === 0) return [];
+
+    const profiles = await this.prisma.userProfile.findMany({
+      where: {
+        id: { in: userIds },
+      },
+      select: {
+        id: true,
+        email: true,
+        username: true,
+        firstName: true,
+        lastName: true,
+        avatar: true,
+      },
+    });
+
+    return profiles.map((p) => ({
+      id: p.id,
+      email: p.email,
+      username: p.username,
+      firstName: p.firstName,
+      lastName: p.lastName,
+      avatar: p.avatar ?? undefined,
+    }));
   }
 
   // ─── DELETE PROFILE ───────────────────────────────────────────────────────

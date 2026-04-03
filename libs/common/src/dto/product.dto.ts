@@ -1,9 +1,12 @@
 import {
   SwaggerBoolean,
+  SwaggerDate,
+  SwaggerEnumArray,
   SwaggerNumber,
   SwaggerString,
 } from '../decorators/swagger.decorator';
 import { PageOptionsDto } from '../decorators/pagination.decorator';
+import { UserBasicInfoDto, UserRelation } from './user.dto';
 import { ApiProperty } from '@nestjs/swagger';
 
 // ─── PAYLOADS ────────────────────────────────────────────────────────────────
@@ -46,11 +49,29 @@ export class ProductQueryDto extends PageOptionsDto {
 
   @SwaggerBoolean({ required: false, description: 'Filter by active status' })
   isActive?: boolean;
+
+  @SwaggerEnumArray({
+    required: false,
+    enum: UserRelation,
+    description: 'Relations to include. Supported: createdBy, updatedBy',
+    example: [UserRelation.CREATED_BY],
+  })
+  include?: UserRelation[];
 }
 
 export class GetProductByIdDto {
   @SwaggerString({ example: 'prod-123' })
   id: string;
+}
+
+export class ProductIncludeQueryDto {
+  @SwaggerEnumArray({
+    required: false,
+    enum: UserRelation,
+    description: 'Relations to include. Supported: createdBy, updatedBy',
+    example: [UserRelation.CREATED_BY],
+  })
+  include?: UserRelation[];
 }
 
 export class DeleteProductDto {
@@ -85,10 +106,17 @@ export class ProductResponseDto {
   @SwaggerString({ example: 'user-123' })
   createdByUserId: string;
 
-  @ApiProperty({ example: '2026-04-03T00:00:00Z' })
+  @ApiProperty({
+    required: false,
+    type: () => UserBasicInfoDto,
+    description: 'Populated when include=createdBy is requested',
+  })
+  createdByUser?: UserBasicInfoDto;
+
+  @SwaggerDate()
   createdAt: Date;
 
-  @ApiProperty({ example: '2026-04-03T00:00:00Z' })
+  @SwaggerDate()
   updatedAt: Date;
 }
 
@@ -96,12 +124,12 @@ export class ProductListDto {
   @ApiProperty({ type: [ProductResponseDto] })
   items: ProductResponseDto[];
 
-  @ApiProperty()
+  @SwaggerNumber({ description: 'Total number of items' })
   total: number;
 
-  @ApiProperty()
+  @SwaggerNumber({ description: 'Current page number' })
   page: number;
 
-  @ApiProperty()
+  @SwaggerNumber({ description: 'Items per page' })
   limit: number;
 }
