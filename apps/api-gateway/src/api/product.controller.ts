@@ -2,15 +2,13 @@ import {
   ApiHandleResponse,
   ApiPaginatedResponse,
   CurrentUser,
-  enrichListWithUser,
-  enrichSingleWithUser,
   JwtPayload,
   PRODUCT_COMMANDS,
   PRODUCT_SERVICE,
   Public,
   resolveUserFields,
   rpcToHttp,
-  USER_SERVICE,
+  UserEnrichService,
 } from '@app/common';
 import {
   CreateProductDto,
@@ -39,7 +37,7 @@ import { ApiTags } from '@nestjs/swagger';
 export class ProductController {
   constructor(
     @Inject(PRODUCT_SERVICE) private readonly productClient: ClientProxy,
-    @Inject(USER_SERVICE) private readonly userClient: ClientProxy,
+    private readonly userEnrich: UserEnrichService,
   ) {}
 
   // ─── Create ───────────────────────────────────────────────────────────────
@@ -66,14 +64,14 @@ export class ProductController {
   @ApiPaginatedResponse(ProductResponseDto, 'Get paginated list of products')
   getList(@Query() query: ProductQueryDto) {
     const { include, ...productQuery } = query;
-    const userFields = resolveUserFields(include ?? []);
+    const fields = resolveUserFields(include ?? []);
 
     const products$ = this.productClient
       .send({ cmd: PRODUCT_COMMANDS.GET_LIST }, productQuery)
       .pipe(rpcToHttp());
 
-    return userFields.length
-      ? products$.pipe(enrichListWithUser(this.userClient, userFields))
+    return fields.length
+      ? products$.pipe(this.userEnrich.list(fields))
       : products$;
   }
 
@@ -83,14 +81,14 @@ export class ProductController {
   @Get(':id')
   @ApiHandleResponse({ summary: 'Get product by ID', type: ProductResponseDto })
   getById(@Param('id') id: string, @Query() query: ProductIncludeQueryDto) {
-    const userFields = resolveUserFields(query.include ?? []);
+    const fields = resolveUserFields(query.include ?? []);
 
     const product$ = this.productClient
       .send({ cmd: PRODUCT_COMMANDS.GET_BY_ID }, { id })
       .pipe(rpcToHttp());
 
-    return userFields.length
-      ? product$.pipe(enrichSingleWithUser(this.userClient, userFields))
+    return fields.length
+      ? product$.pipe(this.userEnrich.single(fields))
       : product$;
   }
 
@@ -139,7 +137,7 @@ export class ProductController {
     @Query() query: ProductQueryDto,
   ) {
     const { include, ...productQuery } = query;
-    const userFields = resolveUserFields(include ?? []);
+    const fields = resolveUserFields(include ?? []);
 
     const products$ = this.productClient
       .send(
@@ -148,8 +146,8 @@ export class ProductController {
       )
       .pipe(rpcToHttp());
 
-    return userFields.length
-      ? products$.pipe(enrichListWithUser(this.userClient, userFields))
+    return fields.length
+      ? products$.pipe(this.userEnrich.list(fields))
       : products$;
   }
 }

@@ -7,6 +7,7 @@ import {
   PRODUCT_SERVICE,
   RmqModule,
   USER_SERVICE,
+  UserEnrichService,
   EnvironmentVariables,
   validateEnv,
 } from '@app/common';
@@ -46,6 +47,7 @@ import { ProductController } from './api/product.controller';
   ],
   providers: [
     ApiGatewayService,
+    UserEnrichService,
     { provide: APP_GUARD, useClass: JwtAuthGuard },
   ],
 })

@@ -16,8 +16,6 @@ export interface RefreshTokenData {
 
 @Injectable()
 export class RedisService {
-  private readonly logger = new Logger(RedisService.name);
-
   constructor(@Inject(REDIS_CLIENT) private readonly redis: Redis) {}
 
   /** Expose raw client for special cases (like TTL check) if needed,

@@ -23,10 +23,11 @@ export const REDIS_KEYS = {
     // Cached User Profile: auth:user:profile:<userId>
     USER_PROFILE: (userId: string) => `auth:user:profile:${userId}`,
   },
-  
-  // Bạn có thể thêm các service khác ở đây sau này
-  // USER: { ... },
-  // CACHE: { ... },
+
+  ENRICH: {
+    // Cached user basic info for enrichment: enrich:user:<userId>
+    USER_BASIC: (userId: string) => `enrich:user:${userId}`,
+  },
 };
 
 export const REDIS_TTL = {
@@ -34,4 +35,5 @@ export const REDIS_TTL = {
   EMAIL_VERIFY: 15 * 60,             // 15 minutes
   PASSWORD_RESET: 60 * 60,           // 1 hour
   FORGOT_PASSWORD_RATE_LIMIT: 60,    // 1 minute
+  ENRICH_USER: 30 * 60,              // 30 minutes
 };
