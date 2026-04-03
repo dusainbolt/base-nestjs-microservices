@@ -1,4 +1,7 @@
 export const PRODUCT_COMMANDS = {
+  // Health
+  PING: 'PING',
+
   // CRUD via RPC
   CREATE: 'PRODUCT_CREATE',
   GET_BY_ID: 'PRODUCT_GET_BY_ID',

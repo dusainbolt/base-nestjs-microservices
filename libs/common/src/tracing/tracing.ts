@@ -39,7 +39,7 @@ export function initTracing(serviceName: string): NodeSDK {
       new NestInstrumentation() as any,
       new AmqplibInstrumentation() as any,
       new IORedisInstrumentation({
-        requireParentSpan: true, // Chỉnh lại true để nó bắt buộc phải theo span cha
+        requireParentSpan: true,
         dbStatementSerializer: (cmdName, args) =>
           `${cmdName} ${args.join(' ')}`,
       } as any),

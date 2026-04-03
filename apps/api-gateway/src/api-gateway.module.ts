@@ -11,8 +11,10 @@ import {
   UserEnrichService,
   EnvironmentVariables,
   validateEnv,
+  CommonHealthController,
 } from '@app/common';
 import { Module } from '@nestjs/common';
+import { TerminusModule } from '@nestjs/terminus';
 import { ConfigModule } from '@nestjs/config';
 import { APP_FILTER, APP_GUARD } from '@nestjs/core';
 import { ApiGatewayController } from './api-gateway.controller';
@@ -39,12 +41,14 @@ import { ProductController } from './api/product.controller';
     RmqModule.register({ name: LOG_SERVICE }),
     RmqModule.register({ name: AUTH_SERVICE }),
     RmqModule.register({ name: PRODUCT_SERVICE }),
+    TerminusModule,
   ],
   controllers: [
     ApiGatewayController,
     AuthController,
     UserController,
     ProductController,
+    CommonHealthController, // <--- Register Aggregator here
   ],
   providers: [
     ApiGatewayService,

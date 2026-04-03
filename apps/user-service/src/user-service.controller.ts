@@ -10,17 +10,30 @@ import { UserDeletedEvent } from '@app/common/dto/auth.dto';
 import { Controller, UseInterceptors } from '@nestjs/common';
 import { EventPattern, MessagePattern, Payload } from '@nestjs/microservices';
 import { UserServiceService } from './user-service.service';
+import { PrismaService } from './prisma/prisma.service';
 
 @Controller()
 @UseInterceptors(RmqInterceptor)
 export class UserServiceController {
-  constructor(private readonly userService: UserServiceService) {}
+  constructor(
+    private readonly userService: UserServiceService,
+    private readonly prisma: PrismaService,
+  ) {}
 
   // ─── System / Demo ────────────────────────────────────────────────────────
 
   @MessagePattern({ cmd: USER_COMMANDS.PING })
-  ping(@Payload() data: PingUserDto) {
-    return { success: true, service: 'user-service', messageReceived: data };
+  async ping(@Payload() data: PingUserDto) {
+    let dbStatus = 'up';
+    try {
+      await this.prisma.$queryRaw`SELECT 1`;
+    } catch (e) {
+      dbStatus = 'down';
+    }
+
+    return {
+      db: dbStatus,
+    };
   }
 
   @MessagePattern({ cmd: USER_COMMANDS.WELCOME })

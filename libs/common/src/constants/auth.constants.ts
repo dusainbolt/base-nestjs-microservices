@@ -1,4 +1,7 @@
 export const AUTH_COMMANDS = {
+  // Demo / Health
+  PING: 'PING',
+
   // Core Auth
   LOGIN: 'LOGIN',
   REGISTER: 'REGISTER',

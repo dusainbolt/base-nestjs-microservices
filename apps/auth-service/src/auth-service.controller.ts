@@ -13,11 +13,26 @@ import {
 import { Controller, UseInterceptors } from '@nestjs/common';
 import { MessagePattern, Payload } from '@nestjs/microservices';
 import { AuthServiceService } from './auth-service.service';
+import { PrismaService } from './prisma/prisma.service';
 
 @Controller()
 @UseInterceptors(RmqInterceptor)
 export class AuthServiceController {
-  constructor(private readonly authServiceService: AuthServiceService) {}
+  constructor(
+    private readonly authServiceService: AuthServiceService,
+    private readonly prisma: PrismaService,
+  ) {}
+
+  @MessagePattern({ cmd: AUTH_COMMANDS.PING })
+  async ping() {
+    let dbStatus = 'up';
+    try {
+      await this.prisma.$queryRaw`SELECT 1`;
+    } catch (e) {
+      dbStatus = 'down';
+    }
+    return { db: dbStatus };
+  }
 
   // ─── Core Auth ────────────────────────────────────────────────────────────
 

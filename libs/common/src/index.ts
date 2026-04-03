@@ -58,3 +58,7 @@ export * from './enrich/user.enrich';
 
 // Tracing
 export * from './tracing/tracing';
+
+// Health
+export * from './health/health.module';
+export * from './health/health.controller';
