@@ -1,14 +1,16 @@
 import {
-  CreateProductPayload,
-  DeleteProductPayload,
-  GetProductByIdPayload,
-  GetProductListPayload,
   PRODUCT_COMMANDS,
   RmqInterceptor,
-  UpdateProductPayload,
-  UserDeletedEvent,
   DOMAIN_EVENTS,
 } from '@app/common';
+import {
+  CreateProductDto,
+  ProductQueryDto,
+  UpdateProductDto,
+  GetProductByIdDto,
+  DeleteProductDto,
+} from '@app/common/dto/product.dto';
+import { UserDeletedEvent } from '@app/common/dto/auth.dto';
 import { Controller, UseInterceptors } from '@nestjs/common';
 import { EventPattern, MessagePattern, Payload } from '@nestjs/microservices';
 import { ProductServiceService } from './product-service.service';
@@ -21,37 +23,32 @@ export class ProductServiceController {
   // ─── RPC Handlers (api-gateway → product-service) ─────────────────────────
 
   @MessagePattern({ cmd: PRODUCT_COMMANDS.CREATE })
-  create(@Payload() data: CreateProductPayload) {
+  create(@Payload() data: CreateProductDto & { createdByUserId: string }) {
     return this.productService.create(data);
   }
 
   @MessagePattern({ cmd: PRODUCT_COMMANDS.GET_BY_ID })
-  getById(@Payload() data: GetProductByIdPayload) {
+  getById(@Payload() data: GetProductByIdDto) {
     return this.productService.getById(data);
   }
 
   @MessagePattern({ cmd: PRODUCT_COMMANDS.GET_LIST })
-  getList(@Payload() data: GetProductListPayload) {
+  getList(@Payload() data: ProductQueryDto) {
     return this.productService.getList(data);
   }
 
   @MessagePattern({ cmd: PRODUCT_COMMANDS.UPDATE })
-  update(@Payload() data: UpdateProductPayload) {
+  update(@Payload() data: UpdateProductDto & { requesterId: string; id: string }) {
     return this.productService.update(data);
   }
 
   @MessagePattern({ cmd: PRODUCT_COMMANDS.DELETE })
-  delete(@Payload() data: DeleteProductPayload) {
+  delete(@Payload() data: DeleteProductDto) {
     return this.productService.delete(data);
   }
 
   // ─── Domain Event Handlers (Exchange Pub/Sub) ──────────────────────────────
 
-  /**
-   * Lắng nghe event user.deleted từ RabbitMQ Topic Exchange 'domain.events'.
-   * Soft-delete toàn bộ sản phẩm của user bị xoá.
-   * Handler này PHẢI idempotent.
-   */
   @EventPattern(DOMAIN_EVENTS.USER_DELETED)
   handleUserDeleted(@Payload() event: UserDeletedEvent) {
     return this.productService.handleUserDeleted(event);

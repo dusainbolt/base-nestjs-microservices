@@ -1,9 +1,8 @@
 import {
-  CreateProfilePayload,
-  GetProfilePayload,
-  UpdateProfilePayload,
-  UserProfileResponse,
-} from '@app/common';
+  CreateProfileDto,
+  UserProfileResponseDto,
+  UpdateProfileDto,
+} from '@app/common/dto/user.dto';
 import { Injectable, Logger, NotFoundException } from '@nestjs/common';
 import { PrismaService } from './prisma/prisma.service';
 
@@ -13,12 +12,11 @@ export class UserServiceService {
 
   constructor(private readonly prisma: PrismaService) {}
 
-  // ─── CREATE PROFILE  (event từ auth-service sau register) ─────────────────
+  // ─── CREATE PROFILE ───────────────────────────────────────────────────────
 
-  async createProfile(payload: CreateProfilePayload): Promise<void> {
+  async createProfile(payload: CreateProfileDto): Promise<void> {
     const { id, email, username, firstName = '', lastName = '' } = payload;
 
-    // Idempotent: nếu profile đã tồn tại thì bỏ qua (tránh lỗi khi retry message)
     const exists = await this.prisma.userProfile.findUnique({
       where: { id },
       select: { id: true },
@@ -44,7 +42,7 @@ export class UserServiceService {
 
   // ─── GET PROFILE ──────────────────────────────────────────────────────────
 
-  async getProfile(payload: GetProfilePayload): Promise<UserProfileResponse> {
+  async getProfile(payload: { userId: string }): Promise<UserProfileResponseDto> {
     const profile = await this.prisma.userProfile.findUnique({
       where: { id: payload.userId },
     });
@@ -57,8 +55,8 @@ export class UserServiceService {
   // ─── UPDATE PROFILE ───────────────────────────────────────────────────────
 
   async updateProfile(
-    payload: UpdateProfilePayload,
-  ): Promise<UserProfileResponse> {
+    payload: UpdateProfileDto & { userId: string },
+  ): Promise<UserProfileResponseDto> {
     const { userId, ...data } = payload;
 
     const exists = await this.prisma.userProfile.findUnique({
@@ -77,25 +75,17 @@ export class UserServiceService {
     return this.toResponse(updated);
   }
 
-  // ─── DELETE PROFILE  (idempotent — subscribe từ domain exchange) ─────────
-  //  auth-service đã emit user.deleted lên exchange,
-  //  user-service chỉ cần xử lý phần của mình: xoá profile. Không relay gì thêm.
+  // ─── DELETE PROFILE ───────────────────────────────────────────────────────
 
   async deleteProfile(userId: string): Promise<void> {
     await this.prisma.userProfile
       .delete({ where: { id: userId } })
-      .catch(() => { /* idempotent: bỏ qua nếu không tồn tại */ });
+      .catch(() => {});
 
     this.logger.log(`Profile deleted for userId=${userId}`);
   }
 
-  // ─── Mapper ───────────────────────────────────────────────────────────────
-
-  /**
-   * Chuyển đổi từ Prisma Entity sang Common Response Interface.
-   * Điều này đảm bảo tính đóng gói (encapsulation).
-   */
-  private toResponse(p: UserProfileResponse): UserProfileResponse {
+  private toResponse(p: any): UserProfileResponseDto {
     return {
       id: p.id,
       email: p.email,

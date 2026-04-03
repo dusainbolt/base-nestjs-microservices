@@ -1,16 +1,15 @@
 import {
-  CreateProfilePayload,
   DOMAIN_EVENTS,
-  GetProfilePayload,
-  PingUserPayload,
-  PingUserResponse,
   RmqInterceptor,
-  UpdateProfilePayload,
   USER_COMMANDS,
-  UserDeletedEvent,
-  WelcomeUserPayload,
-  WelcomeUserResponse,
 } from '@app/common';
+import {
+  CreateProfileDto,
+  UpdateProfileDto,
+  PingUserDto,
+  WelcomeUserDto,
+} from '@app/common/dto/user.dto';
+import { UserDeletedEvent } from '@app/common/dto/auth.dto';
 import { Controller, UseInterceptors } from '@nestjs/common';
 import { EventPattern, MessagePattern, Payload } from '@nestjs/microservices';
 import { UserServiceService } from './user-service.service';
@@ -23,12 +22,12 @@ export class UserServiceController {
   // ─── System / Demo ────────────────────────────────────────────────────────
 
   @MessagePattern({ cmd: USER_COMMANDS.PING })
-  ping(@Payload() data: PingUserPayload): PingUserResponse {
+  ping(@Payload() data: PingUserDto) {
     return { success: true, service: 'user-service', messageReceived: data };
   }
 
   @MessagePattern({ cmd: USER_COMMANDS.WELCOME })
-  welcome(@Payload() data: WelcomeUserPayload): WelcomeUserResponse {
+  welcome(@Payload() data: WelcomeUserDto) {
     return {
       success: true,
       service: 'user-service',
@@ -44,34 +43,25 @@ export class UserServiceController {
 
   // ─── Profile — Events (fire-and-forget từ auth-service) ───────────────────
 
-  /**
-   * @EventPattern: auth-service emit() tới đây sau khi register.
-   * Không cần trả về response, idempotent.
-   */
   @EventPattern({ cmd: USER_COMMANDS.CREATE_PROFILE })
-  createProfile(@Payload() data: CreateProfilePayload): Promise<void> {
+  createProfile(@Payload() data: CreateProfileDto): Promise<void> {
     return this.userService.createProfile(data);
   }
 
   // ─── Profile — Request/Response (từ api-gateway) ──────────────────────────
 
   @MessagePattern({ cmd: USER_COMMANDS.GET_PROFILE })
-  getProfile(@Payload() data: GetProfilePayload) {
+  getProfile(@Payload() data: { userId: string }) {
     return this.userService.getProfile(data);
   }
 
   @MessagePattern({ cmd: USER_COMMANDS.UPDATE_PROFILE })
-  updateProfile(@Payload() data: UpdateProfilePayload) {
+  updateProfile(@Payload() data: UpdateProfileDto & { userId: string }) {
     return this.userService.updateProfile(data);
   }
 
   // ─── Domain Event Handlers (Exchange Pub/Sub) ─────────────────────────────
 
-  /**
-   * Lắng nghe event user.deleted từ Exchange 'domain.events'.
-   * auth-service emit 1 lần → user-service và product-service xử lý song song.
-   * Handler này PHẢI idempotent.
-   */
   @EventPattern(DOMAIN_EVENTS.USER_DELETED)
   handleUserDeleted(@Payload() event: UserDeletedEvent) {
     return this.userService.deleteProfile(event.userId);

@@ -1,5 +1,5 @@
 import { createParamDecorator, ExecutionContext } from '@nestjs/common';
-import { JwtPayload } from '../interfaces/auth.interface';
+import { JwtPayload } from '../dto/auth.dto';
 
 /**
  * Lấy thông tin user từ JWT đã được decode bởi JwtAuthGuard.

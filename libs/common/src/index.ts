@@ -24,10 +24,6 @@ export * from './constants/product.constants';
 
 // Interfaces
 export * from './interfaces/env.interface';
-export * from './interfaces/user.interface';
-export * from './interfaces/auth.interface';
-export * from './interfaces/email.interface';
-export * from './interfaces/product.interface';
 
 // Guards
 export * from './guards/jwt-auth.guard';
@@ -48,6 +44,8 @@ export * from './prisma/soft-delete';
 // DTOs
 export * from './dto/auth.dto';
 export * from './dto/product.dto';
+export * from './dto/user.dto';
+export * from './dto/email.dto';
 
 // Pagination Constants
 export * from './constants/pagination.constants';

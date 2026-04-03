@@ -1,19 +1,18 @@
 import {
-  CreateProductPayload,
-  DeleteProductPayload,
-  GetProductByIdPayload,
-  GetProductListPayload,
-  ProductListResponse,
-  ProductResponse,
-  UpdateProductPayload,
-  UserDeletedEvent,
-} from '@app/common';
-import {
   ForbiddenException,
   Injectable,
   Logger,
   NotFoundException,
 } from '@nestjs/common';
+import {
+  CreateProductDto,
+  ProductQueryDto,
+  ProductResponseDto,
+  ProductListDto,
+  GetProductByIdDto,
+  DeleteProductDto,
+} from '@app/common/dto/product.dto';
+import { UserDeletedEvent } from '@app/common/dto/auth.dto';
 import { PrismaService } from './prisma/prisma.service';
 
 @Injectable()
@@ -26,7 +25,7 @@ export class ProductServiceService {
   //  CREATE
   // ═══════════════════════════════════════════════════════════════════════════
 
-  async create(payload: CreateProductPayload): Promise<ProductResponse> {
+  async create(payload: CreateProductDto & { createdByUserId: string }): Promise<ProductResponseDto> {
     const product = await this.prisma.product.create({
       data: {
         name: payload.name,
@@ -47,7 +46,7 @@ export class ProductServiceService {
   //  GET BY ID
   // ═══════════════════════════════════════════════════════════════════════════
 
-  async getById(payload: GetProductByIdPayload): Promise<ProductResponse> {
+  async getById(payload: GetProductByIdDto): Promise<ProductResponseDto> {
     const product = await this.prisma.product.findUnique({
       where: { id: payload.id },
     });
@@ -63,10 +62,12 @@ export class ProductServiceService {
   //  GET LIST (với pagination và filter)
   // ═══════════════════════════════════════════════════════════════════════════
 
-  async getList(payload: GetProductListPayload): Promise<ProductListResponse> {
+  async getList(payload: ProductQueryDto): Promise<ProductListDto> {
     const page = Math.max(payload.page ?? 1, 1);
-    const limit = Math.min(payload.limit ?? 20, 100); // max 100 per page
-    const skip = (page - 1) * limit;
+    const take = Math.min(payload.take ?? 20, 100);
+    const skip = (page - 1) * take;
+    const orderByField = payload.orderBy || 'createdAt';
+    const sortOrder = payload.sortBy || 'desc';
 
     const where = {
       ...(payload.isActive !== undefined && { isActive: payload.isActive }),
@@ -79,8 +80,8 @@ export class ProductServiceService {
       this.prisma.product.findMany({
         where,
         skip,
-        take: limit,
-        orderBy: { createdAt: 'desc' },
+        take: take,
+        orderBy: { [orderByField]: sortOrder },
       }),
       this.prisma.product.count({ where }),
     ]);
@@ -89,7 +90,7 @@ export class ProductServiceService {
       items: items.map(this.toResponse),
       total,
       page,
-      limit,
+      limit: take,
     };
   }
 
@@ -97,7 +98,7 @@ export class ProductServiceService {
   //  UPDATE
   // ═══════════════════════════════════════════════════════════════════════════
 
-  async update(payload: UpdateProductPayload): Promise<ProductResponse> {
+  async update(payload: any): Promise<ProductResponseDto> {
     const product = await this.prisma.product.findUnique({
       where: { id: payload.id },
     });
@@ -105,7 +106,6 @@ export class ProductServiceService {
     if (!product)
       throw new NotFoundException('Product not found');
 
-    // Chỉ owner mới được sửa
     if (product.createdByUserId !== payload.requesterId) {
       throw new ForbiddenException(
         'You do not have permission to update this product',
@@ -132,7 +132,7 @@ export class ProductServiceService {
   //  DELETE (soft delete)
   // ═══════════════════════════════════════════════════════════════════════════
 
-  async delete(payload: DeleteProductPayload): Promise<{ message: string }> {
+  async delete(payload: DeleteProductDto): Promise<{ message: string }> {
     const product = await this.prisma.product.findUnique({
       where: { id: payload.id },
     });
@@ -154,13 +154,7 @@ export class ProductServiceService {
     return { message: 'Product deleted successfully' };
   }
 
-  // ═══════════════════════════════════════════════════════════════════════════
-  //  HANDLE USER DELETED (Domain Event — Pub/Sub)
-  //  Idempotent: chạy lại nhiều lần vẫn cho kết quả đúng
-  // ═══════════════════════════════════════════════════════════════════════════
-
   async handleUserDeleted(event: UserDeletedEvent): Promise<void> {
-    // Soft delete toàn bộ sản phẩm của user qua extension deleteMany
     const result = await this.prisma.product.deleteMany({
       where: {
         createdByUserId: event.userId,
@@ -172,11 +166,7 @@ export class ProductServiceService {
     );
   }
 
-  // ═══════════════════════════════════════════════════════════════════════════
-  //  PRIVATE HELPERS
-  // ═══════════════════════════════════════════════════════════════════════════
-
-  private toResponse(product: any): ProductResponse {
+  private toResponse(product: any): ProductResponseDto {
     return {
       id: product.id,
       name: product.name,

@@ -1,18 +1,18 @@
 import {
   AUTH_COMMANDS,
-  ChangePasswordPayload,
-  ForgotPasswordPayload,
-  GetAuthProfilePayload,
-  LoginPayload,
-  LogoutPayload,
-  RefreshTokenPayload,
-  RegisterPayload,
-  ResendVerificationPayload,
-  ResetPasswordPayload,
   RmqInterceptor,
-  ValidateTokenPayload,
-  VerifyEmailPayload,
 } from '@app/common';
+import {
+  RegisterDto,
+  LoginDto,
+  VerifyEmailDto,
+  ResendVerificationDto,
+  RefreshTokenDto,
+  LogoutDto,
+  ForgotPasswordDto,
+  ResetPasswordDto,
+  ChangePasswordDto,
+} from '@app/common/dto/auth.dto';
 import { Controller, UseInterceptors } from '@nestjs/common';
 import { MessagePattern, Payload } from '@nestjs/microservices';
 import { AuthServiceService } from './auth-service.service';
@@ -25,65 +25,65 @@ export class AuthServiceController {
   // ─── Core Auth ────────────────────────────────────────────────────────────
 
   @MessagePattern({ cmd: AUTH_COMMANDS.REGISTER })
-  register(@Payload() data: RegisterPayload) {
+  register(@Payload() data: RegisterDto) {
     return this.authServiceService.register(data);
   }
 
   @MessagePattern({ cmd: AUTH_COMMANDS.LOGIN })
-  login(@Payload() data: LoginPayload) {
+  login(@Payload() data: LoginDto) {
     return this.authServiceService.login(data);
   }
 
   @MessagePattern({ cmd: AUTH_COMMANDS.LOGOUT })
-  logout(@Payload() data: LogoutPayload) {
+  logout(@Payload() data: LogoutDto & { accessToken?: string }) {
     return this.authServiceService.logout(data);
   }
 
   // ─── Email Verification ───────────────────────────────────────────────────
 
   @MessagePattern({ cmd: AUTH_COMMANDS.VERIFY_EMAIL })
-  verifyEmail(@Payload() data: VerifyEmailPayload) {
+  verifyEmail(@Payload() data: VerifyEmailDto) {
     return this.authServiceService.verifyEmail(data);
   }
 
   @MessagePattern({ cmd: AUTH_COMMANDS.RESEND_VERIFICATION })
-  resendVerification(@Payload() data: ResendVerificationPayload) {
+  resendVerification(@Payload() data: ResendVerificationDto) {
     return this.authServiceService.resendVerification(data);
   }
 
   // ─── Token ────────────────────────────────────────────────────────────────
 
   @MessagePattern({ cmd: AUTH_COMMANDS.REFRESH_TOKEN })
-  refreshToken(@Payload() data: RefreshTokenPayload) {
+  refreshToken(@Payload() data: RefreshTokenDto) {
     return this.authServiceService.refreshToken(data);
   }
 
   @MessagePattern({ cmd: AUTH_COMMANDS.VALIDATE_TOKEN })
-  validateToken(@Payload() data: ValidateTokenPayload) {
+  validateToken(@Payload() data: { accessToken: string }) {
     return this.authServiceService.validateToken(data);
   }
 
   // ─── Password ─────────────────────────────────────────────────────────────
 
   @MessagePattern({ cmd: AUTH_COMMANDS.FORGOT_PASSWORD })
-  forgotPassword(@Payload() data: ForgotPasswordPayload) {
+  forgotPassword(@Payload() data: ForgotPasswordDto) {
     return this.authServiceService.forgotPassword(data);
   }
 
   @MessagePattern({ cmd: AUTH_COMMANDS.RESET_PASSWORD })
-  resetPassword(@Payload() data: ResetPasswordPayload) {
+  resetPassword(@Payload() data: ResetPasswordDto) {
     return this.authServiceService.resetPassword(data);
   }
 
   @MessagePattern({ cmd: AUTH_COMMANDS.CHANGE_PASSWORD })
-  changePassword(@Payload() data: ChangePasswordPayload) {
+  changePassword(@Payload() data: ChangePasswordDto & { userId: string }) {
     return this.authServiceService.changePassword(data);
   }
 
   // ─── Profile ──────────────────────────────────────────────────────────────
 
   @MessagePattern({ cmd: AUTH_COMMANDS.GET_PROFILE })
-  getProfile(@Payload() data: GetAuthProfilePayload) {
+  getProfile(@Payload() data: { userId: string }) {
     return this.authServiceService.getProfile(data);
   }
 

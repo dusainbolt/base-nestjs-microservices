@@ -61,11 +61,7 @@ export class ProductController {
   getList(@Query() query: ProductQueryDto) {
     return this.productClient
       .send({ cmd: PRODUCT_COMMANDS.GET_LIST }, {
-        page: query.page,
-        limit: query.take,
-        orderBy: query.orderBy,
-        sortBy: query.sortBy,
-        ...(query.createdByUserId && { createdByUserId: query.createdByUserId }),
+        ...query,
       })
       .pipe(rpcToHttp());
   }
@@ -128,8 +124,6 @@ export class ProductController {
     return this.productClient
       .send({ cmd: PRODUCT_COMMANDS.GET_LIST }, {
         ...query,
-        page: query.page,
-        limit: query.take,
         createdByUserId: user.sub,
       })
       .pipe(rpcToHttp());

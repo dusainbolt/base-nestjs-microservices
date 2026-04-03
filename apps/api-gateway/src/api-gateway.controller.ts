@@ -6,8 +6,8 @@ import {
   Public,
   USER_COMMANDS,
   USER_SERVICE,
-  WelcomeUserPayload,
-  PingUserPayload,
+  WelcomeUserDto,
+  PingUserDto,
 } from '@app/common';
 import { ApiGatewayService } from './api-gateway.service';
 
@@ -62,7 +62,7 @@ export class ApiGatewayController {
 
   @Get('ping-user')
   pingUser() {
-    return this.userClient.send<any, PingUserPayload>(
+    return this.userClient.send<any, PingUserDto>(
       { cmd: USER_COMMANDS.PING },
       { message: 'Hello from Gateway' },
     );
@@ -70,7 +70,7 @@ export class ApiGatewayController {
 
   @Get('welcome')
   getWelcome() {
-    return this.userClient.send<any, WelcomeUserPayload>(
+    return this.userClient.send<any, WelcomeUserDto>(
       { cmd: USER_COMMANDS.WELCOME },
       { name: 'Dusainbolt' },
     );

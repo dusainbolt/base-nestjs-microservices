@@ -1,29 +1,29 @@
 import {
-  AuthTokenResponse,
-  AuthUserResponse,
-  ChangePasswordPayload,
   DOMAIN_EVENTS,
   DomainEventPublisher,
   EMAIL_COMMANDS,
   EMAIL_SERVICE,
   EnvironmentVariables,
-  ForgotPasswordPayload,
-  GetAuthProfilePayload,
-  JwtPayload,
-  LoginPayload,
-  LogoutPayload,
-  RefreshTokenPayload,
-  RegisterPayload,
-  ResendVerificationPayload,
-  ResetPasswordPayload,
   USER_COMMANDS,
   USER_SERVICE,
-  ValidateTokenPayload,
-  VerifyEmailPayload,
-  UserRole,
   REDIS_KEYS,
   REDIS_TTL,
 } from '@app/common';
+import {
+  RegisterDto,
+  LoginDto,
+  VerifyEmailDto,
+  ResendVerificationDto,
+  RefreshTokenDto,
+  LogoutDto,
+  ForgotPasswordDto,
+  ResetPasswordDto,
+  ChangePasswordDto,
+  LoginResponseDto,
+  AuthUserResponseDto,
+  JwtPayload,
+  UserRole,
+} from '@app/common/dto/auth.dto';
 import {
   BadRequestException,
   ConflictException,
@@ -62,7 +62,7 @@ export class AuthServiceService {
   //  REGISTER
   // ═══════════════════════════════════════════════════════════════════════════
 
-  async register(payload: RegisterPayload) {
+  async register(payload: RegisterDto) {
     const {
       email,
       password,
@@ -125,7 +125,7 @@ export class AuthServiceService {
   //  VERIFY EMAIL
   // ═══════════════════════════════════════════════════════════════════════════
 
-  async verifyEmail(payload: VerifyEmailPayload) {
+  async verifyEmail(payload: VerifyEmailDto) {
     const { email, code } = payload;
 
     const user = await this.prisma.user.findUnique({
@@ -168,7 +168,7 @@ export class AuthServiceService {
   //  RESEND VERIFICATION
   // ═══════════════════════════════════════════════════════════════════════════
 
-  async resendVerification(payload: ResendVerificationPayload) {
+  async resendVerification(payload: ResendVerificationDto) {
     const user = await this.prisma.user.findUnique({
       where: { email: payload.email },
       select: { id: true, isEmailVerified: true, email: true, username: true },
@@ -200,7 +200,7 @@ export class AuthServiceService {
   //  LOGIN
   // ═══════════════════════════════════════════════════════════════════════════
 
-  async login(payload: LoginPayload): Promise<AuthTokenResponse> {
+  async login(payload: LoginDto): Promise<LoginResponseDto> {
     const { email, password } = payload;
 
     const user = await this.prisma.user.findUnique({ where: { email } });
@@ -223,10 +223,10 @@ export class AuthServiceService {
   }
 
   // ═══════════════════════════════════════════════════════════════════════════
-  //  REFRESH TOKEN  (Rotation)
+  //  REFRESH TOKEN
   // ═══════════════════════════════════════════════════════════════════════════
 
-  async refreshToken(payload: RefreshTokenPayload): Promise<AuthTokenResponse> {
+  async refreshToken(payload: RefreshTokenDto): Promise<LoginResponseDto> {
     const tokenData = await this.redis.getRefreshToken(payload.refreshToken);
 
     if (!tokenData)
@@ -241,7 +241,6 @@ export class AuthServiceService {
     if (!user || !user.isActive)
       throw new UnauthorizedException('User account is no longer active');
 
-    // Rotation: xóa token cũ, cấp cặp mới
     await this.redis.deleteRefreshToken(payload.refreshToken);
     this.logger.log(`Token rotated for userId=${user.id}`);
     return this.generateTokenPair(user);
@@ -251,14 +250,11 @@ export class AuthServiceService {
   //  LOGOUT
   // ═══════════════════════════════════════════════════════════════════════════
 
-  async logout(payload: LogoutPayload) {
-    const { refreshToken, accessToken } = payload as LogoutPayload & {
-      accessToken?: string;
-    };
+  async logout(payload: LogoutDto & { accessToken?: string }) {
+    const { refreshToken, accessToken } = payload;
 
     await this.redis.deleteRefreshToken(refreshToken);
 
-    // Blacklist access token nếu có
     if (accessToken) {
       try {
         const decoded = this.jwt.decode(accessToken) as JwtPayload & {
@@ -282,7 +278,7 @@ export class AuthServiceService {
   //  FORGOT PASSWORD
   // ═══════════════════════════════════════════════════════════════════════════
 
-  async forgotPassword(payload: ForgotPasswordPayload) {
+  async forgotPassword(payload: ForgotPasswordDto) {
     const SAFE_MSG =
       'If this email is registered, you will receive a password reset link shortly.';
 
@@ -293,7 +289,6 @@ export class AuthServiceService {
 
     if (!user || !user.isActive) return { message: SAFE_MSG };
 
-    // Rate Limit Check
     const isRateLimited = await this.redis.isForgotPasswordRateLimited(user.id);
     if (isRateLimited) {
       throw new BadRequestException(
@@ -317,7 +312,7 @@ export class AuthServiceService {
   //  RESET PASSWORD
   // ═══════════════════════════════════════════════════════════════════════════
 
-  async resetPassword(payload: ResetPasswordPayload) {
+  async resetPassword(payload: ResetPasswordDto) {
     const userId = await this.redis.getPasswordResetToken(payload.token);
 
     if (!userId)
@@ -342,7 +337,7 @@ export class AuthServiceService {
   //  CHANGE PASSWORD
   // ═══════════════════════════════════════════════════════════════════════════
 
-  async changePassword(payload: ChangePasswordPayload) {
+  async changePassword(payload: ChangePasswordDto & { userId: string }) {
     const { userId, currentPassword, newPassword } = payload;
     const user = await this.prisma.user.findUnique({ where: { id: userId } });
 
@@ -364,28 +359,15 @@ export class AuthServiceService {
     return { message: 'Password changed successfully.' };
   }
 
-  // ═══════════════════════════════════════════════════════════════════════════
-  //  DELETE ACCOUNT (Saga phase 1: Delete credentials & clear cache)
-  // ═══════════════════════════════════════════════════════════════════════════
-
   async deleteAccount(userId: string): Promise<{ message: string }> {
-    // 1. Xóa khỏi cơ sở dữ liệu Auth
-    // (Lưu ý: Prisma tự xử lý ném lỗi nếu không tồn tại hoặc tùy bạn)
     await this.prisma.user
       .delete({
         where: { id: userId },
       })
-      .catch(() => {
-        /* Bỏ qua nếu đã bị xóa trước đó */
-      });
+      .catch(() => {});
 
-    // 2. Chặn Request ngay lập tức bằng cách Xóa Redis Cache Profile
     await this.redis.deleteUserProfileCache(userId);
 
-    // 3. Bắn 1 domain event lên Exchange — tất cả service tự xử lý độc lập
-    //    user-service: xoá profile
-    //    product-service: soft-delete products
-    //    order-service, ...: tự subscribe, auth-service không cần biết
     await this.domainEvents.publish(DOMAIN_EVENTS.USER_DELETED, {
       userId,
       timestamp: Date.now(),
@@ -397,11 +379,7 @@ export class AuthServiceService {
     return { message: 'Account deleted successfully' };
   }
 
-  // ═══════════════════════════════════════════════════════════════════════════
-  //  GET PROFILE  (auth data only — thông tin đầy đủ lấy từ user-service)
-  // ═══════════════════════════════════════════════════════════════════════════
-
-  async getProfile(payload: GetAuthProfilePayload): Promise<AuthUserResponse> {
+  async getProfile(payload: { userId: string }): Promise<AuthUserResponseDto> {
     const user = await this.prisma.user.findUnique({
       where: { id: payload.userId },
       select: {
@@ -432,11 +410,7 @@ export class AuthServiceService {
     };
   }
 
-  // ═══════════════════════════════════════════════════════════════════════════
-  //  VALIDATE TOKEN  (online check — api-gateway dùng local verify là chính)
-  // ═══════════════════════════════════════════════════════════════════════════
-
-  async validateToken(payload: ValidateTokenPayload): Promise<JwtPayload> {
+  async validateToken(payload: { accessToken: string }): Promise<JwtPayload> {
     try {
       const decoded = await this.jwt.verifyAsync<JwtPayload & { jti?: string }>(
         payload.accessToken,
@@ -449,16 +423,12 @@ export class AuthServiceService {
     }
   }
 
-  // ═══════════════════════════════════════════════════════════════════════════
-  //  PRIVATE HELPERS
-  // ═══════════════════════════════════════════════════════════════════════════
-
   private async generateTokenPair(user: {
     id: string;
     email: string;
     username: string;
     role: string;
-  }): Promise<AuthTokenResponse> {
+  }): Promise<LoginResponseDto> {
     const jti = randomUUID();
 
     const accessToken = await this.jwt.signAsync(
@@ -486,6 +456,7 @@ export class AuthServiceService {
       refreshToken: refreshTokenId,
       expiresIn: this.parseExpiresIn(this.config.get('JWT_EXPIRES_IN')),
       tokenType: 'Bearer',
+      userId: user.id,
     };
   }
 

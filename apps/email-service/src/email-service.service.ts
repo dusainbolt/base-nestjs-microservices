@@ -3,9 +3,9 @@ import { ConfigService } from '@nestjs/config';
 import * as nodemailer from 'nodemailer';
 import {
   EnvironmentVariables,
-  SendPasswordResetEmailPayload,
-  SendVerificationEmailPayload,
-  SendWelcomeEmailPayload,
+  SendPasswordResetEmailDto,
+  SendVerificationEmailDto,
+  SendWelcomeEmailDto,
 } from '@app/common';
 
 @Injectable()
@@ -29,7 +29,7 @@ export class EmailServiceService {
 
   // ─── Public send methods ──────────────────────────────────────────────────
 
-  async sendVerification(payload: SendVerificationEmailPayload): Promise<void> {
+  async sendVerification(payload: SendVerificationEmailDto): Promise<void> {
     await this.send({
       to: payload.to,
       subject: 'Verify your email address',
@@ -39,7 +39,7 @@ export class EmailServiceService {
   }
 
   async sendPasswordReset(
-    payload: SendPasswordResetEmailPayload,
+    payload: SendPasswordResetEmailDto,
   ): Promise<void> {
     const appUrl = this.config.get('APP_URL');
     const link = `${appUrl}/auth/reset-password?token=${payload.resetToken}`;
@@ -51,7 +51,7 @@ export class EmailServiceService {
     this.logger.log(`[PASSWORD_RESET] Sent to ${payload.to}`);
   }
 
-  async sendWelcome(payload: SendWelcomeEmailPayload): Promise<void> {
+  async sendWelcome(payload: SendWelcomeEmailDto): Promise<void> {
     await this.send({
       to: payload.to,
       subject: `Welcome to ${this.config.get('MAIL_FROM_NAME')}!`,

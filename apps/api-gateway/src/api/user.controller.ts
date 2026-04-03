@@ -2,9 +2,9 @@ import {
   CurrentUser,
   JwtPayload,
   rpcToHttp,
-  UpdateProfilePayload,
   USER_COMMANDS,
   USER_SERVICE,
+  UpdateProfileDto,
 } from '@app/common';
 import {
   Body,
@@ -17,6 +17,7 @@ import {
   Patch,
 } from '@nestjs/common';
 import { ClientProxy } from '@nestjs/microservices';
+
 @Controller('users')
 export class UserController {
   constructor(@Inject(USER_SERVICE) private readonly userClient: ClientProxy) {}
@@ -34,7 +35,7 @@ export class UserController {
   @Patch('me')
   @HttpCode(HttpStatus.OK)
   updateMyProfile(
-    @Body() body: Omit<UpdateProfilePayload, 'userId'>,
+    @Body() body: UpdateProfileDto,
     @CurrentUser() user: JwtPayload,
   ) {
     return this.userClient

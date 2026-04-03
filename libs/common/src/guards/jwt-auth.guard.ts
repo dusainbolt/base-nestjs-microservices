@@ -13,7 +13,7 @@ import Redis from 'ioredis';
 import { ClientProxy } from '@nestjs/microservices';
 import { firstValueFrom } from 'rxjs';
 import { IS_PUBLIC_KEY } from '../decorators/public.decorator';
-import { JwtPayload } from '../interfaces/auth.interface';
+import { JwtPayload } from '../dto/auth.dto';
 import { REDIS_CLIENT, REDIS_KEYS } from '../redis/redis.constants';
 import { AUTH_SERVICE } from '../constants/services';
 import { AUTH_COMMANDS } from '../constants/auth.constants';

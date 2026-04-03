@@ -10,44 +10,36 @@ import {
 import { SwaggerEnum, SwaggerNumber, SwaggerString } from './swagger.decorator';
 
 export class PageOptionsDto {
-  @IsOptional()
   @SwaggerString({
+    required: false,
     default: 'createdAt',
     description: 'Field to order results by (e.g., createdAt, updatedAt)',
   })
   readonly orderBy?: string = 'createdAt';
 
-  @IsOptional()
-  @IsEnum(SortOrder)
   @SwaggerEnum({
+    required: false,
     enum: SortOrder,
     default: SortOrder.DESC,
     description: 'Sort order direction (asc or desc)',
   })
   readonly sortBy?: SortOrder = SortOrder.DESC;
 
-  @IsOptional()
   @SwaggerNumber({
+    required: false,
     minimum: 1,
     default: DEFAULT_PAGE,
     description: 'Page number',
   })
-  @Type(() => Number)
-  @IsInt()
-  @Min(1)
   readonly page: number = DEFAULT_PAGE;
 
-  @IsOptional()
   @SwaggerNumber({
+    required: false,
     minimum: 1,
     maximum: MAX_TAKE,
     default: DEFAULT_TAKE,
     description: 'Number of items per page',
   })
-  @Type(() => Number)
-  @IsInt()
-  @Min(1)
-  @Max(MAX_TAKE)
   readonly take: number = DEFAULT_TAKE;
 
   get skip(): number {
@@ -63,7 +55,7 @@ export interface PageMetaDtoParameters {
 }
 
 export class PageMetaDto {
-  @ApiProperty({ description: 'Current page number (zero-based)' })
+  @ApiProperty({ description: 'Current page number' })
   readonly page: number;
 
   @ApiProperty({ description: 'Number of items per page' })

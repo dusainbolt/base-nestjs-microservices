@@ -1,12 +1,12 @@
-import { Controller, UseInterceptors } from '@nestjs/common';
-import { MessagePattern, Payload } from '@nestjs/microservices';
 import {
   EMAIL_COMMANDS,
   RmqInterceptor,
-  SendPasswordResetEmailPayload,
-  SendVerificationEmailPayload,
-  SendWelcomeEmailPayload,
+  SendPasswordResetEmailDto,
+  SendVerificationEmailDto,
+  SendWelcomeEmailDto,
 } from '@app/common';
+import { Controller, UseInterceptors } from '@nestjs/common';
+import { MessagePattern, Payload } from '@nestjs/microservices';
 import { EmailServiceService } from './email-service.service';
 
 @Controller()
@@ -15,17 +15,17 @@ export class EmailServiceController {
   constructor(private readonly emailService: EmailServiceService) {}
 
   @MessagePattern({ cmd: EMAIL_COMMANDS.SEND_VERIFICATION })
-  sendVerification(@Payload() data: SendVerificationEmailPayload) {
+  sendVerification(@Payload() data: SendVerificationEmailDto) {
     return this.emailService.sendVerification(data);
   }
 
   @MessagePattern({ cmd: EMAIL_COMMANDS.SEND_PASSWORD_RESET })
-  sendPasswordReset(@Payload() data: SendPasswordResetEmailPayload) {
+  sendPasswordReset(@Payload() data: SendPasswordResetEmailDto) {
     return this.emailService.sendPasswordReset(data);
   }
 
   @MessagePattern({ cmd: EMAIL_COMMANDS.SEND_WELCOME })
-  sendWelcome(@Payload() data: SendWelcomeEmailPayload) {
+  sendWelcome(@Payload() data: SendWelcomeEmailDto) {
     return this.emailService.sendWelcome(data);
   }
 }
