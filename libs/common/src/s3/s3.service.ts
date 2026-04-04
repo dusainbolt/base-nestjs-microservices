@@ -11,7 +11,8 @@ import { ConfigService } from '@nestjs/config';
 import { randomUUID } from 'crypto';
 import * as path from 'path';
 import { EnvironmentVariables } from '../interfaces/env.interface';
-import { MediaType } from '../dto/media.dto';
+import { ReferType } from '../dto/media.dto';
+
 
 export interface UploadResult {
   path: string; // S3 key (không có URL)
@@ -93,7 +94,7 @@ export class S3Service {
       mimetype: string;
       size: number;
     },
-    type: string | MediaType = MediaType.TEMP,
+    type: string | ReferType = ReferType.TEMP,
     isPublic = true,
   ): Promise<UploadResult> {
     const ext = path.extname(file.originalname);
@@ -102,13 +103,13 @@ export class S3Service {
 
     // Logic đặt tên path theo yêu cầu thực tế
     switch (type) {
-      case MediaType.USER_AVATAR:
+      case ReferType.USER_AVATAR:
         key = `user-avatar/${uuid}${ext}`;
         break;
-      case MediaType.POST_THUMBNAIL:
+      case ReferType.POST_THUMBNAIL:
         key = `post-thumbnail/${uuid}${ext}`;
         break;
-      case MediaType.PRODUCT_IMAGE:
+      case ReferType.PRODUCT_IMAGE:
         key = `product-image/${uuid}${ext}`;
         break;
       default:

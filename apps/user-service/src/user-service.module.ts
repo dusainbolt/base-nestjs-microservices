@@ -1,6 +1,6 @@
 import { Module } from '@nestjs/common';
 import { ConfigModule } from '@nestjs/config';
-import { RmqModule } from '@app/common';
+import { MEDIA_SERVICE, RmqModule } from '@app/common';
 import { UserServiceController } from './user-service.controller';
 import { UserServiceService } from './user-service.service';
 import { PrismaService } from './prisma/prisma.service';
@@ -8,7 +8,7 @@ import { PrismaService } from './prisma/prisma.service';
 @Module({
   imports: [
     ConfigModule.forRoot({ isGlobal: true, envFilePath: '.env' }),
-    RmqModule,
+    RmqModule.register({ name: MEDIA_SERVICE }),
   ],
   controllers: [UserServiceController],
   providers: [UserServiceService, PrismaService],

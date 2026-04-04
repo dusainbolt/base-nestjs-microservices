@@ -60,6 +60,11 @@ export class UserServiceController {
 
   // ─── Profile — Request/Response (từ api-gateway) ──────────────────────────
 
+  @MessagePattern({ cmd: USER_COMMANDS.UPDATE_AVATAR })
+  updateAvatar(@Payload() data: { userId: string; mediaId: string }) {
+    return this.userService.updateAvatar(data);
+  }
+
   @MessagePattern({ cmd: USER_COMMANDS.GET_PROFILE })
   getProfile(@Payload() data: { userId: string }) {
     return this.userService.getProfile(data);

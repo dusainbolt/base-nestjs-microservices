@@ -1,6 +1,9 @@
 -- CreateEnum
 CREATE TYPE "MediaStatus" AS ENUM ('PENDING', 'USED', 'UNUSED');
 
+-- CreateEnum
+CREATE TYPE "ReferType" AS ENUM ('USER_AVATAR', 'POST_THUMBNAIL', 'PRODUCT_IMAGE', 'TEMP');
+
 -- CreateTable
 CREATE TABLE "media" (
     "id" TEXT NOT NULL,
@@ -9,7 +12,8 @@ CREATE TABLE "media" (
     "mimeType" TEXT NOT NULL,
     "size" INTEGER NOT NULL,
     "status" "MediaStatus" NOT NULL DEFAULT 'PENDING',
-    "referPath" TEXT,
+    "referType" "ReferType",
+    "referId" TEXT,
     "uploadedByUserId" TEXT NOT NULL,
     "createdAt" TIMESTAMP(3) NOT NULL DEFAULT CURRENT_TIMESTAMP,
     "updatedAt" TIMESTAMP(3) NOT NULL,

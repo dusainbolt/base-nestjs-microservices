@@ -7,7 +7,7 @@ import {
   MEDIA_SERVICE,
   rpcToHttp,
 } from '@app/common';
-import { MarkMediaUsedDto, MediaResponseDto, MediaType } from '@app/common/dto/media.dto';
+import { MarkMediaUsedDto, MediaResponseDto, ReferType } from '@app/common/dto/media.dto';
 import { S3Service, UploadResult } from '@app/common/s3/s3.service';
 import {
   BadRequestException,
@@ -72,8 +72,9 @@ export class MediaController {
   async uploadFile(
     @UploadedFile() file: Express.Multer.File,
     @CurrentUser() user: JwtPayload,
-    @Query('type') type: MediaType = MediaType.TEMP,
+    @Query('type') type: ReferType = ReferType.TEMP,
   ) {
+
     if (!file) throw new BadRequestException('File is required');
     const maxSize = getMaxSize(file.mimetype);
     if (file.size > maxSize) {
@@ -125,8 +126,9 @@ export class MediaController {
   async uploadFiles(
     @UploadedFiles() files: Express.Multer.File[],
     @CurrentUser() user: JwtPayload,
-    @Query('type') type: MediaType = MediaType.TEMP,
+    @Query('type') type: ReferType = ReferType.TEMP,
   ) {
+
     if (!files || files.length === 0) {
       throw new BadRequestException('At least one file is required');
     }

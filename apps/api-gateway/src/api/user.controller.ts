@@ -1,11 +1,17 @@
 import {
+  ApiHandleResponse,
   CurrentUser,
   JwtPayload,
   rpcToHttp,
+  UpdateProfileDto,
   USER_COMMANDS,
   USER_SERVICE,
-  UpdateProfileDto,
 } from '@app/common';
+
+import {
+  UpdateAvatarDto,
+  UserProfileResponseDto,
+} from '@app/common/dto/user.dto';
 import {
   Body,
   Controller,
@@ -17,10 +23,34 @@ import {
   Patch,
 } from '@nestjs/common';
 import { ClientProxy } from '@nestjs/microservices';
+import { ApiTags } from '@nestjs/swagger';
 
+@ApiTags('User')
 @Controller('users')
 export class UserController {
   constructor(@Inject(USER_SERVICE) private readonly userClient: ClientProxy) {}
+
+  @Patch('me/avatar')
+  @ApiHandleResponse({
+    summary: 'Update current user avatar using an existing media ID',
+    type: UserProfileResponseDto,
+  })
+  async updateMyAvatar(
+    @Body() body: UpdateAvatarDto,
+    @CurrentUser() user: JwtPayload,
+  ) {
+    return this.userClient
+      .send(
+        { cmd: USER_COMMANDS.UPDATE_AVATAR },
+        {
+          userId: user.sub,
+          mediaId: body.mediaId,
+        },
+      )
+      .pipe(rpcToHttp());
+  }
+
+  /** GET /users/me — lấy profile đầy đủ của user hiện tại */
 
   /** GET /users/me — lấy profile đầy đủ của user hiện tại */
   @Get('me')

@@ -16,8 +16,9 @@ model Media {
   size            Int
   status          MediaStatus @default(PENDING)
   
-  // referPath: service.table.id (ví dụ: product-service.products.123)
-  referPath       String?                        
+  // Quan hệ với resource bên ngoài
+  referType       ReferType?                         
+  referId         String?                        
   
   uploadedByUserId String
 
@@ -37,6 +38,14 @@ enum MediaStatus {
   USED
   UNUSED
 }
+
+enum ReferType {
+  USER_AVATAR
+  POST_THUMBNAIL
+  PRODUCT_IMAGE
+  TEMP
+}
+
 
 
 

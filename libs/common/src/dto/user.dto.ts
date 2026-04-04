@@ -78,6 +78,13 @@ export class UpdateProfileDto {
   @SwaggerString({ required: false, example: 'vi' })
   locale?: string;
 }
+export class UpdateAvatarDto {
+  @SwaggerString({
+    description: 'ID của media record đã upload thành công',
+    example: 'uuid-media-123',
+  })
+  mediaId: string;
+}
 
 // ─── RESPONSES ───────────────────────────────────────────────────────────────
 

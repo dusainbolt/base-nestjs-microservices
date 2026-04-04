@@ -4,14 +4,56 @@ import {
   UpdateProfileDto,
   UserBasicInfoDto,
 } from '@app/common/dto/user.dto';
-import { Injectable, Logger, NotFoundException } from '@nestjs/common';
+import { Inject, Injectable, Logger, NotFoundException } from '@nestjs/common';
 import { PrismaService } from './prisma/prisma.service';
+import { MEDIA_COMMANDS, MEDIA_SERVICE } from '@app/common';
+import { ClientProxy } from '@nestjs/microservices';
+import { lastValueFrom } from 'rxjs';
+import { MediaResponseDto, ReferType } from '@app/common/dto/media.dto';
 
 @Injectable()
 export class UserServiceService {
   private readonly logger = new Logger(UserServiceService.name);
 
-  constructor(private readonly prisma: PrismaService) {}
+  constructor(
+    private readonly prisma: PrismaService,
+    @Inject(MEDIA_SERVICE) private readonly mediaClient: ClientProxy,
+  ) {}
+
+  // ─── UPDATE AVATAR (Orchestration) ──────────────────────────────────────────
+
+  async updateAvatar(payload: {
+    userId: string;
+    mediaId: string;
+  }): Promise<UserProfileResponseDto> {
+    const { userId, mediaId } = payload;
+
+    // 1. Sang Media Service lấy path
+    const media: MediaResponseDto = await lastValueFrom(
+      this.mediaClient.send({ cmd: MEDIA_COMMANDS.GET_BY_ID }, { id: mediaId }),
+    );
+
+    // 2. Cập nhật database của chính nó
+    const updated = await this.prisma.userProfile.update({
+      where: { id: userId },
+      data: { avatar: media.path },
+    });
+
+    // 3. Quay lại Media Service chốt hạ mark used
+    await lastValueFrom(
+      this.mediaClient.send(
+        { cmd: MEDIA_COMMANDS.MARK_USED },
+        {
+          id: media.id,
+          referType: ReferType.USER_AVATAR,
+          referId: userId,
+        },
+      ),
+    );
+
+    this.logger.log(`Avatar updated for userId=${userId}, mediaId=${mediaId}`);
+    return this.toResponse(updated);
+  }
 
   // ─── CREATE PROFILE ───────────────────────────────────────────────────────
 

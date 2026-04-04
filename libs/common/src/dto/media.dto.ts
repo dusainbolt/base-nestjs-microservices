@@ -15,7 +15,7 @@ export enum MediaStatus {
 }
 
 
-export enum MediaType {
+export enum ReferType {
   USER_AVATAR = 'USER_AVATAR',
   POST_THUMBNAIL = 'POST_THUMBNAIL',
   PRODUCT_IMAGE = 'PRODUCT_IMAGE',
@@ -48,12 +48,11 @@ export class MarkMediaUsedDto {
   @SwaggerString({ example: 'media-123' })
   id: string;
 
-  @SwaggerString({
-    required: true,
-    description: 'Path định danh resource (format: service.table.id)',
-    example: 'user-service.users.123',
-  })
-  referPath: string;
+  @ApiProperty({ enum: ReferType, example: ReferType.USER_AVATAR })
+  referType: ReferType;
+
+  @SwaggerString({ example: 'prod-123' })
+  referId: string;
 }
 
 
@@ -78,8 +77,11 @@ export class MediaResponseDto {
   @ApiProperty({ enum: MediaStatus, example: MediaStatus.PENDING })
   status: MediaStatus;
 
-  @SwaggerString({ required: false, example: 'user-service.users.123' })
-  referPath?: string;
+  @ApiProperty({ enum: ReferType, example: ReferType.TEMP, required: false })
+  referType?: ReferType;
+
+  @SwaggerString({ required: false, example: 'prod-123' })
+  referId?: string;
 
   @SwaggerString({ example: 'user-123' })
   uploadedByUserId: string;
@@ -91,4 +93,3 @@ export class MediaResponseDto {
   @SwaggerDate()
   updatedAt: Date;
 }
-
