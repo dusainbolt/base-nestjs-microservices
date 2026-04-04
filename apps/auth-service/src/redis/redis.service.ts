@@ -1,6 +1,6 @@
-import { Inject, Injectable, Logger } from '@nestjs/common';
-import Redis from 'ioredis';
 import { REDIS_CLIENT, REDIS_KEYS, REDIS_TTL, UserRole } from '@app/common';
+import { Inject, Injectable } from '@nestjs/common';
+import Redis from 'ioredis';
 
 // ─── Stored Shapes ────────────────────────────────────────────────────────────
 

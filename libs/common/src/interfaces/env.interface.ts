@@ -42,11 +42,13 @@ export class EnvironmentVariables {
   @IsOptional() @IsString() RABBIT_MQ_AUTH_SERVICE_QUEUE?: string;
   @IsOptional() @IsString() RABBIT_MQ_EMAIL_SERVICE_QUEUE?: string;
   @IsOptional() @IsString() RABBIT_MQ_PRODUCT_SERVICE_QUEUE?: string;
+  @IsOptional() @IsString() RABBIT_MQ_MEDIA_SERVICE_QUEUE?: string;
 
   // PostgreSQL
   @IsOptional() @IsString() AUTH_DATABASE_URL?: string;
   @IsOptional() @IsString() USER_DATABASE_URL?: string;
   @IsOptional() @IsString() PRODUCT_DATABASE_URL?: string;
+  @IsOptional() @IsString() MEDIA_DATABASE_URL?: string;
 
   // Redis
   @IsOptional() @IsString() REDIS_HOST?: string;
@@ -66,6 +68,13 @@ export class EnvironmentVariables {
   @IsOptional() @IsString() MAIL_PASS?: string;
   @IsOptional() @IsString() MAIL_FROM?: string;
   @IsOptional() @IsString() MAIL_FROM_NAME?: string;
+
+  // S3 / S3-compatible
+  @IsOptional() @IsString() AWS_S3_BUCKET_NAME?: string;
+  @IsOptional() @IsString() AWS_REGION?: string;
+  @IsOptional() @IsString() AWS_ENDPOINT?: string; // Custom endpoint cho S3-compatible (MinIO, DO Spaces, ...)
+  @IsOptional() @IsString() AWS_ACCESS_KEY_ID?: string;
+  @IsOptional() @IsString() AWS_SECRET_KEY?: string;
 
   // Swagger and Branding
   @IsOptional() @IsString() APP_LOGO_URL?: string;

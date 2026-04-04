@@ -1,0 +1,42 @@
+// Prisma 7: datasource URL được inject qua prisma.config.ts (không khai báo url ở đây)
+generator client {
+  provider = "prisma-client"
+  output   = "../src/generated/prisma"
+}
+
+datasource db {
+  provider = "postgresql"
+}
+
+model Media {
+  id              String      @id @default(uuid())
+  path            String      @unique            // S3 key
+  originalName    String
+  mimeType        String
+  size            Int
+  status          MediaStatus @default(PENDING)
+  
+  // referPath: service.table.id (ví dụ: product-service.products.123)
+  referPath       String?                        
+  
+  uploadedByUserId String
+
+  createdAt       DateTime    @default(now())
+  updatedAt       DateTime    @updatedAt
+  deletedAt       DateTime?
+
+  @@index([path])
+  @@index([status])
+  @@index([uploadedByUserId])
+  @@index([deletedAt])
+  @@map("media")
+}
+
+enum MediaStatus {
+  PENDING
+  USED
+  UNUSED
+}
+
+
+

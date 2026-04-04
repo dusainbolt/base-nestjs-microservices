@@ -21,6 +21,7 @@ export * from './constants/user.constants';
 export * from './constants/auth.constants';
 export * from './constants/email.constants';
 export * from './constants/product.constants';
+export * from './constants/media.constants';
 
 // Interfaces
 export * from './interfaces/env.interface';
@@ -44,11 +45,16 @@ export * from './utils/rpc-to-http.util';
 // Prisma
 export * from './prisma/soft-delete';
 
+// S3
+export * from './s3/s3.module';
+export * from './s3/s3.service';
+
 // DTOs
 export * from './dto/auth.dto';
 export * from './dto/product.dto';
 export * from './dto/user.dto';
 export * from './dto/email.dto';
+export * from './dto/media.dto';
 
 // Pagination Constants
 export * from './constants/pagination.constants';

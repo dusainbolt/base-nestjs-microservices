@@ -47,18 +47,6 @@ export const initSwagger = (app: INestApplication<any>): void => {
 
   const document = SwaggerModule.createDocument(app as any, config);
 
-  console.log(
-    "configService.get('ENABLE_SWAGGER'): ",
-    configService.get('ENABLE_SWAGGER'),
-  );
-
-  console.log("configService.get('PORT'): ", configService.get('PORT'));
-
-  console.log(
-    "configService.get('APP_LOGO_URL'): ",
-    configService.get('APP_LOGO_URL'),
-  );
-
   SwaggerModule.setup(swaggerEndpoint, app as any, document, {
     customSiteTitle: title,
     customCss: customCss(logoUrl),

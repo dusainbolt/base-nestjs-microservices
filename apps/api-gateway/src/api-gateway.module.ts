@@ -5,6 +5,7 @@ import {
   GlobalExceptionFilter,
   JwtAuthGuard,
   LOG_SERVICE,
+  MEDIA_SERVICE,
   PRODUCT_SERVICE,
   RmqModule,
   USER_SERVICE,
@@ -13,6 +14,7 @@ import {
   validateEnv,
   CommonHealthController,
 } from '@app/common';
+import { S3Module } from '@app/common/s3/s3.module';
 import { Module } from '@nestjs/common';
 import { TerminusModule } from '@nestjs/terminus';
 import { ConfigModule } from '@nestjs/config';
@@ -22,6 +24,7 @@ import { ApiGatewayService } from './api-gateway.service';
 import { AuthController } from './api/auth.controller';
 import { UserController } from './api/user.controller';
 import { ProductController } from './api/product.controller';
+import { MediaController } from './api/media.controller';
 
 @Module({
   imports: [
@@ -41,6 +44,8 @@ import { ProductController } from './api/product.controller';
     RmqModule.register({ name: LOG_SERVICE }),
     RmqModule.register({ name: AUTH_SERVICE }),
     RmqModule.register({ name: PRODUCT_SERVICE }),
+    RmqModule.register({ name: MEDIA_SERVICE }),
+    S3Module,
     TerminusModule,
   ],
   controllers: [
@@ -48,6 +53,7 @@ import { ProductController } from './api/product.controller';
     AuthController,
     UserController,
     ProductController,
+    MediaController,
     CommonHealthController, // <--- Register Aggregator here
   ],
   providers: [
