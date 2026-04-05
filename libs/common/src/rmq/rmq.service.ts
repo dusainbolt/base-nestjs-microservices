@@ -1,7 +1,7 @@
 import { Injectable, Logger } from '@nestjs/common';
 import { ConfigService } from '@nestjs/config';
-import { EnvironmentVariables } from '../interfaces/env.interface';
 import { RmqContext, RmqOptions, Transport } from '@nestjs/microservices';
+import { EnvironmentVariables } from '../interfaces/env.interface';
 
 @Injectable()
 export class RmqService {
@@ -15,8 +15,13 @@ export class RmqService {
    * Trả về cấu hình kết nối RabbitMQ
    * @param queueName Tên hằng số định danh (ví dụ: 'AUTH_SERVICE')
    * @param noAck Có tự động Ack không
+   * @param prefetchCount Số lượng message xử lý song song (mặc định là 1)
    */
-  getOptions(queueName: string, noAck = false): RmqOptions {
+  getOptions(
+    queueName: string,
+    noAck = false,
+    prefetchCount?: number,
+  ): RmqOptions {
     // Luôn map từ hằng số sang giá trị thực trong .env
     const resolvedQueue = this.configService.get<string>(
       `RABBIT_MQ_${queueName}_QUEUE` as any,
@@ -28,6 +33,10 @@ export class RmqService {
         urls: [this.configService.get<string>('RABBIT_MQ_URI') as string],
         queue: resolvedQueue || queueName,
         noAck,
+        prefetchCount:
+          prefetchCount ||
+          this.configService.get<number>('RABBIT_MQ_PREFETCH_COUNT') ||
+          1,
         persistent: true,
         queueOptions: {
           durable: true,

@@ -43,6 +43,7 @@ export class EnvironmentVariables {
   @IsOptional() @IsString() RABBIT_MQ_EMAIL_SERVICE_QUEUE?: string;
   @IsOptional() @IsString() RABBIT_MQ_PRODUCT_SERVICE_QUEUE?: string;
   @IsOptional() @IsString() RABBIT_MQ_MEDIA_SERVICE_QUEUE?: string;
+  @IsOptional() @IsNumberEnv() RABBIT_MQ_PREFETCH_COUNT?: number;
 
   // PostgreSQL
   @IsOptional() @IsString() AUTH_DATABASE_URL?: string;

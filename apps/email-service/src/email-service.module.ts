@@ -1,6 +1,6 @@
+import { EnvironmentVariables, RmqModule, validateEnv } from '@app/common';
 import { Module } from '@nestjs/common';
 import { ConfigModule } from '@nestjs/config';
-import { RmqModule } from '@app/common';
 import { EmailServiceController } from './email-service.controller';
 import { EmailServiceService } from './email-service.service';
 
@@ -9,6 +9,7 @@ import { EmailServiceService } from './email-service.service';
     ConfigModule.forRoot({
       isGlobal: true,
       envFilePath: '.env',
+      validate: validateEnv(EnvironmentVariables),
     }),
     RmqModule,
   ],

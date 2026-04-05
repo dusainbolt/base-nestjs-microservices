@@ -1,13 +1,17 @@
+import { EnvironmentVariables, RmqModule, validateEnv } from '@app/common';
 import { Module } from '@nestjs/common';
 import { ConfigModule } from '@nestjs/config';
-import { RmqModule } from '@app/common';
+import { PrismaService } from './prisma/prisma.service';
 import { ProductServiceController } from './product-service.controller';
 import { ProductServiceService } from './product-service.service';
-import { PrismaService } from './prisma/prisma.service';
 
 @Module({
   imports: [
-    ConfigModule.forRoot({ isGlobal: true, envFilePath: '.env' }),
+    ConfigModule.forRoot({
+      isGlobal: true,
+      envFilePath: '.env',
+      validate: validateEnv(EnvironmentVariables),
+    }),
     RmqModule,
   ],
   controllers: [ProductServiceController],

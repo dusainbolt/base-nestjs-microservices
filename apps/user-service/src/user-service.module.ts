@@ -1,13 +1,22 @@
+import {
+  EnvironmentVariables,
+  MEDIA_SERVICE,
+  RmqModule,
+  validateEnv,
+} from '@app/common';
 import { Module } from '@nestjs/common';
 import { ConfigModule } from '@nestjs/config';
-import { MEDIA_SERVICE, RmqModule } from '@app/common';
+import { PrismaService } from './prisma/prisma.service';
 import { UserServiceController } from './user-service.controller';
 import { UserServiceService } from './user-service.service';
-import { PrismaService } from './prisma/prisma.service';
 
 @Module({
   imports: [
-    ConfigModule.forRoot({ isGlobal: true, envFilePath: '.env' }),
+    ConfigModule.forRoot({
+      isGlobal: true,
+      envFilePath: '.env',
+      validate: validateEnv(EnvironmentVariables),
+    }),
     RmqModule.register({ name: MEDIA_SERVICE }),
   ],
   controllers: [UserServiceController],

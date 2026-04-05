@@ -1,13 +1,15 @@
-import { Module } from '@nestjs/common';
-import { ConfigModule } from '@nestjs/config';
 import {
-  RmqModule,
+  CommonJwtModule,
+  CommonRedisModule,
   DomainEventsModule,
   EMAIL_SERVICE,
+  EnvironmentVariables,
+  RmqModule,
   USER_SERVICE,
-  CommonRedisModule,
-  CommonJwtModule,
+  validateEnv,
 } from '@app/common';
+import { Module } from '@nestjs/common';
+import { ConfigModule } from '@nestjs/config';
 import { AuthServiceController } from './auth-service.controller';
 import { AuthServiceService } from './auth-service.service';
 import { PrismaService } from './prisma/prisma.service';
@@ -15,7 +17,11 @@ import { RedisService } from './redis/redis.service';
 
 @Module({
   imports: [
-    ConfigModule.forRoot({ isGlobal: true, envFilePath: '.env' }),
+    ConfigModule.forRoot({
+      isGlobal: true,
+      envFilePath: '.env',
+      validate: validateEnv(EnvironmentVariables),
+    }),
 
     // Shared infrastructure from @app/common
     CommonJwtModule,
