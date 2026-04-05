@@ -22,6 +22,7 @@ export * from './constants/auth.constants';
 export * from './constants/email.constants';
 export * from './constants/product.constants';
 export * from './constants/media.constants';
+export * from './constants/content.constants';
 
 // Interfaces
 export * from './interfaces/env.interface';

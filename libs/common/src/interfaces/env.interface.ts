@@ -43,6 +43,7 @@ export class EnvironmentVariables {
   @IsOptional() @IsString() RABBIT_MQ_EMAIL_SERVICE_QUEUE?: string;
   @IsOptional() @IsString() RABBIT_MQ_PRODUCT_SERVICE_QUEUE?: string;
   @IsOptional() @IsString() RABBIT_MQ_MEDIA_SERVICE_QUEUE?: string;
+  @IsOptional() @IsString() RABBIT_MQ_CONTENT_SERVICE_QUEUE?: string;
   @IsOptional() @IsNumberEnv() RABBIT_MQ_PREFETCH_COUNT?: number;
 
   // PostgreSQL
@@ -50,6 +51,7 @@ export class EnvironmentVariables {
   @IsOptional() @IsString() USER_DATABASE_URL?: string;
   @IsOptional() @IsString() PRODUCT_DATABASE_URL?: string;
   @IsOptional() @IsString() MEDIA_DATABASE_URL?: string;
+  @IsOptional() @IsString() CONTENT_DATABASE_URL?: string;
 
   // Redis
   @IsOptional() @IsString() REDIS_HOST?: string;

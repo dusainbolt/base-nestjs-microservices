@@ -1,0 +1,146 @@
+{
+  "levels": [
+    {
+      "level": 1,
+      "code": "BEGINNER",
+      "description": "Người mới bắt đầu, chỉ nói được câu đơn rất cơ bản",
+      "outputRequirements": {
+        "sentenceCount": "1 câu",
+        "grammar": ["S + be (am/is/are)", "S + can + V", "S + V(s/es)"],
+        "vocabulary": "Từ vựng cơ bản: nghề nghiệp, gia đình, hoạt động hàng ngày",
+        "connectors": "Không yêu cầu",
+        "tense": ["Present Simple"],
+        "fluency": "Có thể ngập ngừng, nói từng từ",
+        "complexity": "Rất thấp"
+      },
+      "examples": [
+        {
+          "context": "Everyday",
+          "vi": "Tôi là học sinh.",
+          "en": "I am a student."
+        },
+        {
+          "context": "Daily Action",
+          "vi": "Tôi đi làm mỗi ngày.",
+          "en": "I go to work every day."
+        },
+        {
+          "context": "Niche - Medical",
+          "vi": "Tôi là bác sĩ khoa nội.",
+          "en": "I am an internal medicine doctor."
+        }
+      ]
+    },
+    {
+      "level": 2,
+      "code": "ELEMENTARY",
+      "description": "Có thể nói nhiều câu đơn, bắt đầu có liên kết đơn giản",
+      "outputRequirements": {
+        "sentenceCount": "2-3 câu",
+        "grammar": [
+          "Present Simple",
+          "Present continuous",
+          "S + be + adjective",
+          "S + V(s/es)"
+        ],
+        "vocabulary": "Từ vựng phổ biến + tính từ cơ bản",
+        "connectors": ["and", "but"],
+        "adverbs": ["always", "often", "usually", "sometimes"],
+        "fluency": "Có thể ngập ngừng nhẹ, nhưng nói được thành câu",
+        "complexity": "Thấp"
+      },
+      "examples": [
+        {
+          "context": "Office",
+          "vi": "Tôi đi làm bằng xe máy. Tôi thường bắt đầu làm việc lúc 8 giờ sáng.",
+          "en": "I go to work by motorbike. I usually start work at 8 AM."
+        },
+        {
+          "context": "Lifestyle",
+          "vi": "Tôi thích cà phê. Nó rất ngon.",
+          "en": "I like coffee. It is very good."
+        },
+        {
+          "context": "Niche - IT",
+          "vi": "Tôi dùng laptop Macbook. Nó rất nhanh và nhẹ.",
+          "en": "I use a Macbook laptop. It is very fast and light."
+        }
+      ]
+    },
+    {
+      "level": 3,
+      "code": "PRE_INTERMEDIATE",
+      "description": "Có thể kể lại sự kiện, có logic và liên kết rõ ràng",
+      "outputRequirements": {
+        "sentenceCount": "3-4 câu",
+        "grammar": [
+          "Present Simple",
+          "Present continuous",
+          "Past Simple (bắt buộc)",
+          "Future simple",
+          "Basic compound sentences"
+        ],
+        "connectors": ["and", "but", "so", "because"],
+        "timeExpressions": ["yesterday", "last week", "last weekend"],
+        "structure": "Có trình tự: thời gian → hành động → kết quả",
+        "fluency": "Ít ngập ngừng hơn, nói thành đoạn ngắn",
+        "complexity": "Trung bình thấp"
+      },
+      "examples": [
+        {
+          "context": "Everyday",
+          "vi": "Cuối tuần trước tôi đi Đà Lạt. Thời tiết hơi lạnh nhưng đồ ăn rất ngon.",
+          "en": "Last weekend, I went to Da Lat. The weather was a bit cold but the food was delicious."
+        },
+        {
+          "context": "Daily Story",
+          "vi": "Hôm qua tôi đi siêu thị. Tôi mua nhiều đồ vì đang giảm giá.",
+          "en": "Yesterday, I went to the supermarket. I bought many things because they were on sale."
+        },
+        {
+          "context": "Niche - HR",
+          "vi": "Hôm qua tôi đã phỏng vấn 3 ứng viên. Một người trong số họ rất tiềm năng.",
+          "en": "I interviewed three candidates yesterday. One of them was very promising."
+        }
+      ]
+    },
+    {
+      "level": 4,
+      "code": "INTERMEDIATE",
+      "description": "Có thể nói đoạn văn có cấu trúc, diễn đạt quan điểm cá nhân",
+      "outputRequirements": {
+        "sentenceCount": "4-5 câu",
+        "grammar": [
+          "Complex sentences",
+          "If (condition)",
+          "When (time clause)",
+          "Relative clause (who, which)",
+          "Although / However"
+        ],
+        "connectors": ["because", "so", "however", "although"],
+        "comparison": ["better", "more ... than"],
+        "structure": "Mở đầu → phát triển → kết luận",
+        "opinion": "Phải có quan điểm cá nhân + lý do",
+        "fluency": "Nói tương đối trôi chảy, ít ngập ngừng",
+        "complexity": "Trung bình"
+      },
+      "examples": [
+        {
+          "context": "Office",
+          "vi": "Tôi thích làm việc nhóm hơn làm việc độc lập. Nó giúp chúng tôi giải quyết vấn đề nhanh hơn và học hỏi lẫn nhau.",
+          "en": "I prefer teamwork to working independently. It helps us solve problems faster and learn from each other."
+        },
+        {
+          "context": "Opinion",
+          "vi": "Nếu tôi có thời gian, tôi sẽ học thêm tiếng Anh vì nó rất quan trọng cho công việc của tôi.",
+          "en": "If I have time, I will study English more because it is very important for my job."
+        },
+        {
+          "context": "Niche - Finance",
+          "vi": "Do doanh thu giảm, chúng ta cần cắt giảm chi phí. Tôi đề xuất giảm ngân sách marketing cho tháng tới.",
+          "en": "Due to the decrease in revenue, we need to cut costs. I suggest reducing the marketing budget for next month."
+        }
+      ]
+    }
+  ]
+}

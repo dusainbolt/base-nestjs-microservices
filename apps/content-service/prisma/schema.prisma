@@ -1,0 +1,125 @@
+// Prisma 7: datasource URL được inject qua prisma.config.ts
+generator client {
+  provider = "prisma-client"
+  output   = "../src/generated/prisma"
+}
+
+datasource db {
+  provider = "postgresql"
+}
+
+/// Phân loại chủ đề lớn (Ví dụ: Everyday, Office, Niche)
+enum CategoryType {
+  EVERYDAY
+  OFFICE
+  NICHE
+}
+
+/// Trạng thái hiển thị của một bộ bài tập
+enum PackStatus {
+  DRAFT // Đang soạn thảo, chưa hiện cho người dùng
+  PUBLISHED // Đã xuất bản, người dùng có thể học
+  ARCHIVED // Đã lưu trữ, không hiển thị nữa
+}
+
+/// Trạng thái hiển thị của một bộ bài tập
+enum LevelCode {
+  BEGINNER // Người mới bắt đầu: nói từ/cụm từ đơn giản, phát âm cơ bản, cần nhiều hỗ trợ
+  ELEMENTARY // Cơ bản: nói được câu ngắn, giao tiếp đơn giản, phát âm còn lỗi
+  PRE_INTERMEDIATE // Trung cấp thấp: nói câu đầy đủ, diễn đạt ý đơn giản, bắt đầu cải thiện ngữ điệu
+  INTERMEDIATE // Trung cấp: nói trôi chảy hơn, diễn đạt ý rõ ràng, phát âm và ngữ điệu tương đối tốt
+}
+
+/// Danh mục chính của nội dung học tập
+model Category {
+  id          String       @id @default(uuid())
+  name        String /// Tên danh mục (Ví dụ: Tiếng Anh Giao Tiếp)
+  type        CategoryType /// Loại danh mục (Hàng ngày, Công sở...)
+  description String? /// Mô tả chi tiết về danh mục
+
+  topics      Topic[]
+  lessonPacks LessonPack[]
+
+  @@map("categories")
+}
+
+/// Định nghĩa các cấp độ học thuật (1-Beginner, 2-Elementary, ...)
+model Level {
+  id                 String    @id @default(uuid())
+  levelNumber        Int       @unique /// Số thứ tự cấp độ (1, 2, 3, 4)
+  code               LevelCode
+  description        String? /// Mô tả cấp độ (ví dụ: Người mới bắt đầu...)
+  passThresholdScore Int /// Điểm tối thiểu để coi là hoàn thành (Ví dụ: 60)
+  outputRequirements Json /// Cấu trúc yêu cầu đầu ra phức tạp (ngữ pháp, từ vựng...)
+  examples           Json      @default("[]") /// Danh sách ví dụ minh họa (mảng object)
+
+  topics      Topic[]
+  lessonPacks LessonPack[]
+
+  @@map("levels")
+}
+
+/// Chủ đề cụ thể thuộc một Category và Level (Ví dụ: Hospital Basics)
+model Topic {
+  id          String  @id @default(uuid())
+  categoryId  String /// Liên kết tới Category
+  levelId     String /// Liên kết tới Level
+  name        String /// Tên chủ đề
+  description String? /// Mô tả về chủ đề
+
+  category    Category     @relation(fields: [categoryId], references: [id], onDelete: Restrict)
+  level       Level        @relation(fields: [levelId], references: [id], onDelete: Restrict)
+  lessonPacks LessonPack[]
+
+  @@index([categoryId])
+  @@index([levelId])
+  @@map("topics")
+}
+
+/// Một bộ bài tập gồm 5 câu (Exercise)
+model LessonPack {
+  id          String     @id @default(uuid())
+  creatorId   String /// ID người tạo (Liên kết tới User Service)
+  categoryId  String /// Thuộc Category nào
+  levelId     String /// Thuộc Level nào
+  topicId     String /// Thuộc Topic nào
+  title       String /// Tiêu đề bộ bài tập
+  description String? /// Mô tả nội dung bộ bài tập
+  isOfficial  Boolean    @default(false) /// Có phải bài tập do hệ thống tạo hay không
+  status      PackStatus @default(DRAFT) /// Trạng thái (Draft/Published/Archived)
+
+  totalPlays    Int   @default(0) /// Tổng số lượt người dùng đã học
+  averageRating Float @default(0.0) /// Đánh giá trung bình từ người dùng
+
+  createdAt DateTime  @default(now())
+  updatedAt DateTime  @updatedAt
+  deletedAt DateTime? /// Hỗ trợ soft-delete
+
+  category  Category   @relation(fields: [categoryId], references: [id], onDelete: Restrict)
+  level     Level      @relation(fields: [levelId], references: [id], onDelete: Restrict)
+  topic     Topic      @relation(fields: [topicId], references: [id], onDelete: Restrict)
+  exercises Exercise[]
+
+  @@index([creatorId])
+  @@index([categoryId, levelId, status])
+  @@index([topicId, status])
+  @@index([deletedAt])
+  @@map("lesson_packs")
+}
+
+/// Một câu bài tập cụ thể trong Lesson Pack
+model Exercise {
+  id             String  @id @default(uuid())
+  lessonPackId   String /// Liên kết tới Lesson Pack cha
+  sequenceOrder  Int /// Thứ tự câu (1 đến 5)
+  promptText     String /// Nội dung văn bản người dùng cần nói
+  promptImageUrl String? /// Hình ảnh minh họa cho câu hỏi (nếu có)
+  audioSampleUrl String? /// File âm thanh mẫu của giáo viên (nếu có)
+  levelHint      String? /// Gợi ý hoặc ghi chú về ngữ pháp/từ vựng
+
+  lessonPack LessonPack @relation(fields: [lessonPackId], references: [id], onDelete: Cascade)
+
+  @@unique([lessonPackId, sequenceOrder])
+  @@index([lessonPackId])
+  @@map("exercises")
+}
