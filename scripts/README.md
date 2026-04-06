@@ -2,6 +2,14 @@
 
 Thư mục này chứa các script (.mjs) để quản lý microservices và Prisma database, giúp file `package.json` gọn gàng hơn.
 
+## 🛠️ Tích hợp với `package.json`
+
+File `package.json` ở root đã được cập nhật để sử dụng các script này thông qua các alias rút gọn:
+
+- `pnpm start:svc auth` -> nhanh gọn hơn việc gõ lệnh node dài dòng.
+- `pnpm prisma:op migrate auth --name init`
+- `pnpm seed:svc content`
+
 ## 🚀 Quản lý Microservices (`services.mjs`)
 
 Dùng để khởi động các microservice ở chế độ watch mode.
@@ -10,6 +18,7 @@ Dùng để khởi động các microservice ở chế độ watch mode.
 - **Các service hỗ trợ**: `gateway`, `auth`, `user`, `email`, `log`, `product`, `media`, `content`
 
 **VD:**
+
 ```bash
 node scripts/services.mjs auth
 node scripts/services.mjs content
@@ -26,6 +35,7 @@ Quản lý generate, migrate, studio và deploy cho từng service có database 
 - **Các service hỗ trợ**: `auth`, `user`, `product`, `media`, `content`
 
 **VD:**
+
 ```bash
 # Generate Client (Toàn bộ)
 node scripts/prisma.mjs generate
@@ -54,16 +64,11 @@ Dùng để nạp dữ liệu mẫu vào database.
 - **Các service hỗ trợ**: `content` (seeding levels)
 
 **VD:**
+
 ```bash
-node scripts/seed.mjs content
+pnpm seed:svc content:levels
+pnpm seed:svc content:categories
+pnpm seed:svc content:lesson-packs
 ```
 
 ---
-
-## 🛠️ Tích hợp với `package.json`
-
-File `package.json` ở root đã được cập nhật để sử dụng các script này thông qua các alias rút gọn:
-
-- `pnpm start:svc auth` -> nhanh gọn hơn việc gõ lệnh node dài dòng.
-- `pnpm prisma:op migrate auth --name init`
-- `pnpm seed:svc content`

@@ -23,19 +23,17 @@ enum UserRole {
 // ─── Models ───────────────────────────────────────────────────────────────────
 
 model User {
-  id              String    @id @default(uuid())
-  email           String    @unique
-  username        String    @unique
+  id              String   @id @default(uuid())
+  email           String   @unique
+  username        String   @unique
   password        String
-  firstName       String    @default("")
-  lastName        String    @default("")
-  role            UserRole  @default(user)
-  isEmailVerified Boolean   @default(false)
-  isActive        Boolean   @default(true)
-  createdAt       DateTime  @default(now())
-  updatedAt       DateTime  @updatedAt
-  deletedAt       DateTime?
+  firstName       String   @default("")
+  lastName        String   @default("")
+  role            UserRole @default(user)
+  isEmailVerified Boolean  @default(false)
+  isActive        Boolean  @default(true)
+  createdAt       DateTime @default(now())
+  updatedAt       DateTime @updatedAt
 
-  @@index([deletedAt])
   @@map("users")
 }

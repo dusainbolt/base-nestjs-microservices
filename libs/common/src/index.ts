@@ -56,6 +56,7 @@ export * from './dto/product.dto';
 export * from './dto/user.dto';
 export * from './dto/email.dto';
 export * from './dto/media.dto';
+export * from './dto/content.dto';
 
 // Pagination Constants
 export * from './constants/pagination.constants';

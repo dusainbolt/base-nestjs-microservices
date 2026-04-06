@@ -53,7 +53,6 @@ CREATE TABLE "lesson_packs" (
     "averageRating" DOUBLE PRECISION NOT NULL DEFAULT 0.0,
     "createdAt" TIMESTAMP(3) NOT NULL DEFAULT CURRENT_TIMESTAMP,
     "updatedAt" TIMESTAMP(3) NOT NULL,
-    "deletedAt" TIMESTAMP(3),
 
     CONSTRAINT "lesson_packs_pkey" PRIMARY KEY ("id")
 );
@@ -90,9 +89,6 @@ CREATE INDEX "lesson_packs_categoryId_levelId_status_idx" ON "lesson_packs"("cat
 
 -- CreateIndex
 CREATE INDEX "lesson_packs_topicId_status_idx" ON "lesson_packs"("topicId", "status");
-
--- CreateIndex
-CREATE INDEX "lesson_packs_deletedAt_idx" ON "lesson_packs"("deletedAt");
 
 -- CreateIndex
 CREATE INDEX "exercises_lessonPackId_idx" ON "exercises"("lessonPackId");

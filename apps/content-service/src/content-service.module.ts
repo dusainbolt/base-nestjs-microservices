@@ -1,8 +1,7 @@
 import { EnvironmentVariables, RmqModule, validateEnv } from '@app/common';
 import { Module } from '@nestjs/common';
 import { ConfigModule } from '@nestjs/config';
-import { ContentServiceController } from './content-service.controller';
-import { ContentServiceService } from './content-service.service';
+import { CategoryModule } from './category/category.module';
 
 @Module({
   imports: [
@@ -12,8 +11,9 @@ import { ContentServiceService } from './content-service.service';
       validate: validateEnv(EnvironmentVariables),
     }),
     RmqModule,
+    CategoryModule,
   ],
-  controllers: [ContentServiceController],
-  providers: [ContentServiceService],
+  controllers: [],
+  providers: [],
 })
 export class ContentServiceModule {}

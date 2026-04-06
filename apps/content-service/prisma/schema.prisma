@@ -87,7 +87,6 @@ model LessonPack {
 
   createdAt DateTime  @default(now())
   updatedAt DateTime  @updatedAt
-  deletedAt DateTime? /// Hỗ trợ soft-delete
 
   category  Category   @relation(fields: [categoryId], references: [id], onDelete: Cascade)
   level     Level      @relation(fields: [levelId], references: [id], onDelete: Cascade)
@@ -97,7 +96,6 @@ model LessonPack {
   @@index([creatorId])
   @@index([categoryId, levelId, status])
   @@index([topicId, status])
-  @@index([deletedAt])
   @@map("lesson_packs")
 }
 

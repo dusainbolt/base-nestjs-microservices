@@ -17,7 +17,6 @@ CREATE TABLE "media" (
     "uploadedByUserId" TEXT NOT NULL,
     "createdAt" TIMESTAMP(3) NOT NULL DEFAULT CURRENT_TIMESTAMP,
     "updatedAt" TIMESTAMP(3) NOT NULL,
-    "deletedAt" TIMESTAMP(3),
 
     CONSTRAINT "media_pkey" PRIMARY KEY ("id")
 );
@@ -33,6 +32,3 @@ CREATE INDEX "media_status_idx" ON "media"("status");
 
 -- CreateIndex
 CREATE INDEX "media_uploadedByUserId_idx" ON "media"("uploadedByUserId");
-
--- CreateIndex
-CREATE INDEX "media_deletedAt_idx" ON "media"("deletedAt");

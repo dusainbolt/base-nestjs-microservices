@@ -1,4 +1,4 @@
-import { EnvironmentVariables, softDeleteExtension } from '@app/common';
+import { EnvironmentVariables } from '@app/common';
 import {
   Injectable,
   Logger,
@@ -7,7 +7,7 @@ import {
 } from '@nestjs/common';
 import { ConfigService } from '@nestjs/config';
 import { PrismaPg } from '@prisma/adapter-pg';
-import { Prisma, PrismaClient } from '../generated/prisma/client';
+import { PrismaClient } from '../generated/prisma/client';
 
 @Injectable()
 export class PrismaService
@@ -21,8 +21,6 @@ export class PrismaService
       connectionString: config.get('CONTENT_DATABASE_URL'),
     });
     super({ adapter });
-
-    return this.$extends(softDeleteExtension(Prisma)) as any;
   }
 
   async onModuleInit() {

@@ -2,6 +2,7 @@ import {
   AUTH_SERVICE,
   CommonJwtModule,
   CommonRedisModule,
+  CONTENT_SERVICE,
   GlobalExceptionFilter,
   JwtAuthGuard,
   LOG_SERVICE,
@@ -25,6 +26,7 @@ import { AuthController } from './api/auth.controller';
 import { UserController } from './api/user.controller';
 import { ProductController } from './api/product.controller';
 import { MediaController } from './api/media.controller';
+import { CategoryController } from './api/category.controller';
 
 @Module({
   imports: [
@@ -45,6 +47,7 @@ import { MediaController } from './api/media.controller';
     RmqModule.register({ name: AUTH_SERVICE }),
     RmqModule.register({ name: PRODUCT_SERVICE }),
     RmqModule.register({ name: MEDIA_SERVICE }),
+    RmqModule.register({ name: CONTENT_SERVICE }),
     S3Module,
     TerminusModule,
   ],
@@ -54,6 +57,7 @@ import { MediaController } from './api/media.controller';
     UserController,
     ProductController,
     MediaController,
+    CategoryController,
     CommonHealthController, // <--- Register Aggregator here
   ],
   providers: [

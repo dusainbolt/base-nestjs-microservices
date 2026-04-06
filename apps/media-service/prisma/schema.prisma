@@ -9,27 +9,25 @@ datasource db {
 }
 
 model Media {
-  id              String      @id @default(uuid())
-  path            String      @unique            // S3 key
-  originalName    String
-  mimeType        String
-  size            Int
-  status          MediaStatus @default(PENDING)
-  
+  id           String      @id @default(uuid())
+  path         String      @unique // S3 key
+  originalName String
+  mimeType     String
+  size         Int
+  status       MediaStatus @default(PENDING)
+
   // Quan hệ với resource bên ngoài
-  referType       ReferType?                         
-  referId         String?                        
-  
+  referType ReferType?
+  referId   String?
+
   uploadedByUserId String
 
-  createdAt       DateTime    @default(now())
-  updatedAt       DateTime    @updatedAt
-  deletedAt       DateTime?
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
 
   @@index([path])
   @@index([status])
   @@index([uploadedByUserId])
-  @@index([deletedAt])
   @@map("media")
 }
 
@@ -45,7 +43,3 @@ enum ReferType {
   PRODUCT_IMAGE
   TEMP
 }
-
-
-
-

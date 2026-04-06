@@ -1,3 +1,4 @@
+import { EnvironmentVariables } from '@app/common';
 import {
   Injectable,
   Logger,
@@ -5,11 +6,8 @@ import {
   OnModuleInit,
 } from '@nestjs/common';
 import { ConfigService } from '@nestjs/config';
-// Prisma 7: import từ output đã generate riêng cho auth-service
-import { Prisma, PrismaClient } from '../generated/prisma/client';
-// Prisma 7: dùng adapter-pg thay vì url trong datasource
-import { EnvironmentVariables, softDeleteExtension } from '@app/common';
 import { PrismaPg } from '@prisma/adapter-pg';
+import { PrismaClient } from '../generated/prisma/client';
 
 @Injectable()
 export class PrismaService
@@ -24,8 +22,6 @@ export class PrismaService
       connectionString: config.get('AUTH_DATABASE_URL'),
     });
     super({ adapter });
-
-    return this.$extends(softDeleteExtension(Prisma)) as any;
   }
 
   async onModuleInit() {
