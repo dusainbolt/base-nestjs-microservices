@@ -1,0 +1,775 @@
+{
+  "l": 2,
+  "d": [
+    {
+      "t": "Chào hỏi ngắn",
+      "e": [
+        {
+          "p": "Hi!",
+          "m": "Chào lại người kia bằng một câu ngắn",
+          "h": "Hi / Hello + !",
+          "s": "Hi! Nice to meet you."
+        },
+        {
+          "p": "Good morning. How are you?",
+          "m": "Chào lại và nói bạn đang ổn (1 câu)",
+          "h": "I am + adj / I'm + adj",
+          "s": "Good morning. I am fine, thank you."
+        },
+        {
+          "p": "Hello. Are you okay today?",
+          "m": "Trả lời trạng thái hiện tại và dùng trạng từ (always/often/sometimes)",
+          "h": "I am + adv + adj",
+          "s": "Hello. I am usually fine today."
+        },
+        {
+          "p": "Hi there. You look tired. Are you all right?",
+          "m": "Trả lời rằng bạn hơi mệt nhưng vẫn ổn (2 câu)",
+          "h": "I am + a little + adj. But I + V",
+          "s": "Hi. I am a little tired, but I am okay."
+        },
+        {
+          "p": "Good afternoon. It's nice to see you.",
+          "m": "Chào lại, nói bạn vui khi gặp và hỏi lại người kia (2 câu)",
+          "h": "I am + happy to + V. How about you?",
+          "s": "Good afternoon. I am happy to see you. How are you?"
+        }
+      ]
+    },
+    {
+      "t": "Hỏi tên",
+      "e": [
+        {
+          "p": "What is your name?",
+          "m": "Trả lời tên của bạn là [Your Name] (1 câu)",
+          "h": "My name is + [Your Name]",
+          "s": "My name is [Your Name]."
+        },
+        {
+          "p": "Can I have your name, please?",
+          "m": "Cho biết tên và nói họ nếu muốn (1-2 câu)",
+          "h": "My name is + [Your Name]. I am + family name?",
+          "s": "My name is [Your Name]. My last name is Nguyen."
+        },
+        {
+          "p": "Who are you?",
+          "m": "Giới thiệu tên và nói bạn đang làm gì (2 câu)",
+          "h": "I am + [Your Name]. I + V(s) / I am + V-ing",
+          "s": "I am [Your Name]. I am a student."
+        },
+        {
+          "p": "May I know your full name?",
+          "m": "Nói tên đầy đủ và thêm câu ngắn về bạn (2 câu)",
+          "h": "My full name is + [Your Name] + Last. I + V(s)",
+          "s": "My full name is [Your Name] Tran. I study at a college."
+        },
+        {
+          "p": "What should I call you?",
+          "m": "Nói tên thân mật/biệt danh và lý do ngắn (2 câu)",
+          "h": "Call me + nickname. I + V(s) / because + S + V",
+          "s": "Call me [Your Name]. I like this name because it is short."
+        }
+      ]
+    },
+    {
+      "t": "Hỏi tuổi",
+      "e": [
+        {
+          "p": "How old are you?",
+          "m": "Trả lời tuổi của bạn (1 câu)",
+          "h": "I am + number + years old",
+          "s": "I am 20 years old."
+        },
+        {
+          "p": "What's your age?",
+          "m": "Trả lời tuổi và thêm 'years old' (1 câu)",
+          "h": "I am + number + years old",
+          "s": "I am 20 years old."
+        },
+        {
+          "p": "Are you a teenager?",
+          "m": "Trả lời có hoặc không và nêu tuổi (1-2 câu)",
+          "h": "No, I am not. I am + number",
+          "s": "No, I am not a teenager. I am 20 years old."
+        },
+        {
+          "p": "When is your birthday? How old will you be?",
+          "m": "Nói tháng sinh và tuổi hiện tại (2 câu)",
+          "h": "My birthday is in + month. I am + number",
+          "s": "My birthday is in July. I am 20 years old."
+        },
+        {
+          "p": "Do you feel older than your age?",
+          "m": "Nói cảm giác của bạn về tuổi và lý do ngắn (2 câu)",
+          "h": "I feel + adj. Because + S + V",
+          "s": "I feel a little older. Because I work a lot."
+        }
+      ]
+    },
+    {
+      "t": "Hỏi sức khỏe",
+      "e": [
+        {
+          "p": "How are you today?",
+          "m": "Trả lời ngắn về tình trạng sức khỏe (1 câu)",
+          "h": "I am + adj",
+          "s": "I am fine today."
+        },
+        {
+          "p": "Are you feeling well?",
+          "m": "Nói bạn khỏe hoặc không và thêm trạng từ (1-2 câu)",
+          "h": "I am + adv + adj",
+          "s": "I am usually well, thank you."
+        },
+        {
+          "p": "Do you have a fever?",
+          "m": "Trả lời không có hoặc có và nói thêm (1-2 câu)",
+          "h": "No, I don't. / Yes, I do. I + V",
+          "s": "No, I don't have a fever. I feel a little tired."
+        },
+        {
+          "p": "How do you feel after work?",
+          "m": "Mô tả cảm giác sau giờ làm (2 câu)",
+          "h": "I feel + adj. I usually + V",
+          "s": "I feel tired after work. I usually rest at home."
+        },
+        {
+          "p": "What do you do when you are sick?",
+          "m": "Nói bạn làm gì khi ốm (2 câu)",
+          "h": "I + V. I also + V",
+          "s": "I stay at home. I also take medicine and rest."
+        }
+      ]
+    },
+    {
+      "t": "Giới thiệu bản thân ngắn",
+      "e": [
+        {
+          "p": "Tell me about yourself.",
+          "m": "Nói 1 câu về bạn (tên + nghề/học)",
+          "h": "I am + [Your Name]. I am a/an + job/student",
+          "s": "I am [Your Name]. I am a student."
+        },
+        {
+          "p": "Can you introduce yourself?",
+          "m": "Giới thiệu tên và nơi làm hoặc học (2 câu)",
+          "h": "My name is + [Your Name]. I + V(s)",
+          "s": "My name is [Your Name]. I work at a small cafe."
+        },
+        {
+          "p": "Who are you and what do you do?",
+          "m": "Nói tên và nghề, thêm một hoạt động hàng ngày (2 câu)",
+          "h": "I am + [Your Name]. I + V(s) + and I + V",
+          "s": "I am [Your Name]. I teach English and I often study in the evening."
+        },
+        {
+          "p": "Please give a short personal profile.",
+          "m": "Viết 2 câu: tên + một sở thích đơn giản",
+          "h": "I am + [Your Name]. I like + V-ing",
+          "s": "I am [Your Name]. I like reading books in my free time."
+        },
+        {
+          "p": "Describe yourself in two sentences.",
+          "m": "Nói tên và nói tính cách ngắn (2 câu)",
+          "h": "I am + [Your Name]. I am + adj",
+          "s": "I am [Your Name]. I am friendly and sometimes shy."
+        }
+      ]
+    },
+    {
+      "t": "Nghề nghiệp",
+      "e": [
+        {
+          "p": "What is your job?",
+          "m": "Nói nghề nghiệp hiện tại (1 câu)",
+          "h": "I am a/an + job",
+          "s": "I am a teacher."
+        },
+        {
+          "p": "Do you work or study?",
+          "m": "Trả lời và nói nơi bạn làm hoặc học (1-2 câu)",
+          "h": "I work/study at + place",
+          "s": "I work at a small office. I often go there by bus."
+        },
+        {
+          "p": "What do you do at work?",
+          "m": "Nói một nhiệm vụ hàng ngày (2 câu)",
+          "h": "I + V(s) every day. I also + V",
+          "s": "I answer emails every day. I also meet with clients."
+        },
+        {
+          "p": "Are you happy with your job?",
+          "m": "Nói bạn hài lòng hay không và lý do ngắn (2 câu)",
+          "h": "I am + adj because + S + V",
+          "s": "I am happy because my colleagues are kind. I often enjoy my work."
+        },
+        {
+          "p": "What job do you want in the future?",
+          "m": "Nói nghề mong muốn và lý do đơn giản (2 câu)",
+          "h": "I want to be + job. Because + S + V",
+          "s": "I want to be a designer. Because I like drawing and I am creative."
+        }
+      ]
+    },
+    {
+      "t": "Gia đình - số lượng",
+      "e": [
+        {
+          "p": "How many people are in your family?",
+          "m": "Nói số thành viên trong gia đình (1 câu)",
+          "h": "There are + number + people in my family",
+          "s": "There are four people in my family."
+        },
+        {
+          "p": "Do you have siblings?",
+          "m": "Nói có anh/chị/em không và số lượng (1 câu)",
+          "h": "I have + number + brother(s)/sister(s) / I don't have",
+          "s": "I have one older sister."
+        },
+        {
+          "p": "Who lives with you?",
+          "m": "Nói những ai sống cùng bạn (1-2 câu)",
+          "h": "My + relation + lives with me. / I live with + who",
+          "s": "My parents and my sister live with me. We are a small family."
+        },
+        {
+          "p": "Do you have children?",
+          "m": "Trả lời có hay không và nêu số nếu có (1-2 câu)",
+          "h": "No, I don't. / Yes, I have + number",
+          "s": "No, I don't have children. I am still young."
+        },
+        {
+          "p": "Tell me about your family size and your favorite family member.",
+          "m": "Nói số thành viên và chọn một người yêu thích + lý do ngắn (2 câu)",
+          "h": "There are + number. My favorite is + relation because + reason",
+          "s": "There are four people in my family. My favorite is my mother because she is kind."
+        }
+      ]
+    },
+    {
+      "t": "Người thân",
+      "e": [
+        {
+          "p": "Who is in your family?",
+          "m": "Nói tên người thân chính (bố/mẹ/anh/chị) (1 câu)",
+          "h": "My + relation + is + name/relation",
+          "s": "My mother and father are in my family."
+        },
+        {
+          "p": "Do you have a brother or sister?",
+          "m": "Nói có anh/chị/em và một tính từ mô tả (1-2 câu)",
+          "h": "I have a + adj + brother/sister",
+          "s": "I have a younger brother. He is friendly."
+        },
+        {
+          "p": "What does your mother do?",
+          "m": "Nói nghề của mẹ và một hoạt động ngắn (2 câu)",
+          "h": "She is a + job. She + V(s)",
+          "s": "She is a nurse. She works at the hospital."
+        },
+        {
+          "p": "Describe your father in one sentence.",
+          "m": "Mô tả bố bằng một tính từ và một hành động (1-2 câu)",
+          "h": "He is + adj. He + V(s)",
+          "s": "He is hardworking. He always helps our family."
+        },
+        {
+          "p": "Who do you talk with the most at home?",
+          "m": "Nói người bạn nói chuyện nhiều nhất và lý do ngắn (2 câu)",
+          "h": "I talk with + relation the most because + reason",
+          "s": "I talk with my sister the most because she understands me."
+        }
+      ]
+    },
+    {
+      "t": "Sở thích - chung",
+      "e": [
+        {
+          "p": "What do you like to do?",
+          "m": "Nói một sở thích ngắn (1 câu)",
+          "h": "I like + V-ing / I like + noun",
+          "s": "I like reading."
+        },
+        {
+          "p": "Do you like music?",
+          "m": "Trả lời có/không và nêu loại nhạc bạn thích (1-2 câu)",
+          "h": "Yes, I do. I like + type of music",
+          "s": "Yes, I do. I like pop music."
+        },
+        {
+          "p": "What is your favorite hobby?",
+          "m": "Nói sở thích yêu thích và một lý do ngắn (2 câu)",
+          "h": "My favorite hobby is + V-ing. Because + S + V",
+          "s": "My favorite hobby is painting. Because it makes me happy."
+        },
+        {
+          "p": "How often do you read books?",
+          "m": "Nói tần suất và ví dụ sách (2 câu)",
+          "h": "I + adv + V. I read + type of book",
+          "s": "I often read books. I read novels and short stories."
+        },
+        {
+          "p": "Why do you like your hobby?",
+          "m": "Nói lý do đơn giản và cảm nhận (2 câu)",
+          "h": "I like it because + reason. It makes me + adj",
+          "s": "I like it because it relaxes me. It makes me calm."
+        }
+      ]
+    },
+    {
+      "t": "Sở thích hàng ngày",
+      "e": [
+        {
+          "p": "What do you do after school/work?",
+          "m": "Nói một hoạt động bạn thường làm (1 câu)",
+          "h": "I usually + V",
+          "s": "I usually watch TV after work."
+        },
+        {
+          "p": "Do you exercise?",
+          "m": "Trả lời có/không và tần suất (1-2 câu)",
+          "h": "Yes, I do. I + adv + V / No, I don't",
+          "s": "Yes, I do. I often exercise in the morning."
+        },
+        {
+          "p": "What do you do on weekends?",
+          "m": "Nói 1-2 hoạt động làm vào cuối tuần (2 câu)",
+          "h": "I + V on weekends. I also + V",
+          "s": "I visit my friends on weekends. I also clean my room."
+        },
+        {
+          "p": "Do you cook at home?",
+          "m": "Nói bạn có nấu ăn không và món đơn giản bạn hay làm (2 câu)",
+          "h": "Yes, I do. I cook + dish. / No, I don't",
+          "s": "Yes, I do. I often cook simple soup at home."
+        },
+        {
+          "p": "How do you spend your free time normally?",
+          "m": "Mô tả 2 hoạt động bạn làm khi rảnh (2 câu)",
+          "h": "I + V and I + V. / I usually + V",
+          "s": "I read books and listen to music. I usually rest at home."
+        }
+      ]
+    },
+    {
+      "t": "Thói quen buổi sáng",
+      "e": [
+        {
+          "p": "What do you do in the morning?",
+          "m": "Nói 1 hoạt động buổi sáng (1 câu)",
+          "h": "I + V in the morning",
+          "s": "I drink coffee in the morning."
+        },
+        {
+          "p": "Do you get up early?",
+          "m": "Trả lời và nêu giờ nếu có (1-2 câu)",
+          "h": "Yes, I do. I get up at + time / No, I don't",
+          "s": "Yes, I do. I get up at 6 AM."
+        },
+        {
+          "p": "How do you go to work/school in the morning?",
+          "m": "Nói phương tiện bạn dùng (1-2 câu)",
+          "h": "I go by + transport. It takes + time",
+          "s": "I go by motorbike. It takes 20 minutes."
+        },
+        {
+          "p": "Do you eat breakfast every day?",
+          "m": "Nói có hay không và món bạn ăn (2 câu)",
+          "h": "I usually / sometimes + V. I eat + food",
+          "s": "I usually eat breakfast every day. I eat bread and eggs."
+        },
+        {
+          "p": "Describe your morning routine in two sentences.",
+          "m": "Nói 2 câu về thói quen buổi sáng (2 câu)",
+          "h": "I + V in the morning. Then I + V",
+          "s": "I wake up early and exercise. Then I have breakfast and go to work."
+        }
+      ]
+    },
+    {
+      "t": "Lịch làm việc",
+      "e": [
+        {
+          "p": "When do you start work?",
+          "m": "Nói giờ bạn bắt đầu làm việc (1 câu)",
+          "h": "I start work at + time",
+          "s": "I start work at 8 AM."
+        },
+        {
+          "p": "How long is your work day?",
+          "m": "Nói thời gian bạn làm việc mỗi ngày (1-2 câu)",
+          "h": "I work for + number + hours / I finish at + time",
+          "s": "I work for eight hours. I finish at 5 PM."
+        },
+        {
+          "p": "Do you work on weekends?",
+          "m": "Nói có hay không và tần suất (1-2 câu)",
+          "h": "No, I don't. / Yes, I do. I sometimes + V",
+          "s": "No, I don't work on weekends. I usually rest."
+        },
+        {
+          "p": "What do you do during your break?",
+          "m": "Nói một hoạt động bạn làm trong giờ giải lao (1-2 câu)",
+          "h": "I + V during break. I often + V",
+          "s": "I eat lunch during my break. I often talk with friends."
+        },
+        {
+          "p": "Describe a typical workday.",
+          "m": "Nói 2-3 câu về một ngày làm việc điển hình (2-3 câu)",
+          "h": "I + V in the morning. Then I + V. I also + V",
+          "s": "I start work at 8 AM and answer emails. Then I have meetings in the afternoon. I finish at 5 PM."
+        }
+      ]
+    },
+    {
+      "t": "Nơi ở",
+      "e": [
+        {
+          "p": "Where do you live?",
+          "m": "Nói thành phố hoặc khu vực bạn sống (1 câu)",
+          "h": "I live in + city/place",
+          "s": "I live in Hanoi."
+        },
+        {
+          "p": "Do you live in a house or an apartment?",
+          "m": "Nói loại nhà và một mô tả ngắn (1-2 câu)",
+          "h": "I live in a + house/apartment. It is + adj",
+          "s": "I live in an apartment. It is small but comfortable."
+        },
+        {
+          "p": "How long have you lived there?",
+          "m": "Nói thời gian bạn sống ở đó (1-2 câu)",
+          "h": "I have lived here for + number + years / I moved here + time",
+          "s": "I have lived here for three years. I moved here in 2020."
+        },
+        {
+          "p": "Do you like your neighborhood?",
+          "m": "Nói bạn thích hay không và lý do ngắn (2 câu)",
+          "h": "I like it because + reason. It is + adj",
+          "s": "I like my neighborhood because it is quiet. It is clean and friendly."
+        },
+        {
+          "p": "Describe your home in two sentences.",
+          "m": "Mô tả nhà bạn 2 câu: một chi tiết và một cảm nhận",
+          "h": "My home has + feature. It is + adj",
+          "s": "My home has a small balcony. It is cozy and bright."
+        }
+      ]
+    },
+    {
+      "t": "Địa điểm yêu thích",
+      "e": [
+        {
+          "p": "What is your favorite place?",
+          "m": "Nói một địa điểm yêu thích (1 câu)",
+          "h": "My favorite place is + place",
+          "s": "My favorite place is the park."
+        },
+        {
+          "p": "Why do you like that place?",
+          "m": "Nói một lý do ngắn (1-2 câu)",
+          "h": "I like it because + reason",
+          "s": "I like it because it is peaceful and green."
+        },
+        {
+          "p": "How often do you go there?",
+          "m": "Nói tần suất bạn đến đó (1 câu)",
+          "h": "I + adv + go there",
+          "s": "I often go there on weekends."
+        },
+        {
+          "p": "Who do you go with to that place?",
+          "m": "Nói bạn đi với ai và một hoạt động ngắn (2 câu)",
+          "h": "I go with + person. We + V",
+          "s": "I go with my friends. We walk and talk together."
+        },
+        {
+          "p": "Describe your favorite place and what you do there.",
+          "m": "Nói 2 câu: mô tả và hoạt động bạn làm ở đó",
+          "h": "It is + adj. I usually + V",
+          "s": "The park is quiet and green. I usually read or walk there."
+        }
+      ]
+    },
+    {
+      "t": "Mua sắm đơn giản",
+      "e": [
+        {
+          "p": "Do you like shopping?",
+          "m": "Trả lời có/không (1 câu)",
+          "h": "Yes, I do. / No, I don't.",
+          "s": "Yes, I do."
+        },
+        {
+          "p": "Where do you buy clothes?",
+          "m": "Nói nơi bạn thường mua quần áo (1 câu)",
+          "h": "I buy clothes at + place",
+          "s": "I buy clothes at the market."
+        },
+        {
+          "p": "How often do you go shopping?",
+          "m": "Nói tần suất mua sắm (1 câu)",
+          "h": "I + adv + go shopping",
+          "s": "I sometimes go shopping on weekends."
+        },
+        {
+          "p": "What do you usually buy?",
+          "m": "Nói các món bạn thường mua (1-2 câu)",
+          "h": "I usually buy + items",
+          "s": "I usually buy food and small clothes."
+        },
+        {
+          "p": "Do you prefer online or in-store shopping?",
+          "m": "Nói lựa chọn của bạn và lý do ngắn (2 câu)",
+          "h": "I prefer + option because + reason",
+          "s": "I prefer in-store shopping because I can try clothes. It is more convenient for me."
+        }
+      ]
+    },
+    {
+      "t": "Khả năng và kỹ năng",
+      "e": [
+        {
+          "p": "Can you swim?",
+          "m": "Trả lời có/không (1 câu)",
+          "h": "Yes, I can. / No, I can't.",
+          "s": "Yes, I can swim."
+        },
+        {
+          "p": "Can you play a musical instrument?",
+          "m": "Nói bạn có thể chơi hay không và tên nhạc cụ (1-2 câu)",
+          "h": "I can + V / I can't + V",
+          "s": "No, I can't play a musical instrument. I wish I could play the guitar."
+        },
+        {
+          "p": "Are you good at cooking?",
+          "m": "Nói bạn giỏi hay không và ví dụ món đơn giản (2 câu)",
+          "h": "I am + adj at + V-ing. I can cook + dish",
+          "s": "I am not very good at cooking. I can cook simple soup."
+        },
+        {
+          "p": "What skills do you have?",
+          "m": "Nói 2 kỹ năng ngắn (2 câu)",
+          "h": "I can + V and I can + V",
+          "s": "I can use a computer and I can speak some English."
+        },
+        {
+          "p": "Do you want to learn a new skill?",
+          "m": "Nói kỹ năng muốn học và lý do (2 câu)",
+          "h": "I want to learn + skill because + reason",
+          "s": "I want to learn photography because I like taking pictures."
+        }
+      ]
+    },
+    {
+      "t": "Cảm xúc hiện tại",
+      "e": [
+        {
+          "p": "How do you feel now?",
+          "m": "Nói cảm xúc hiện tại (1 câu)",
+          "h": "I feel + adj",
+          "s": "I feel happy now."
+        },
+        {
+          "p": "Are you tired today?",
+          "m": "Trả lời và nêu lý do ngắn (1-2 câu)",
+          "h": "Yes, I am. Because + S + V. / No, I am not.",
+          "s": "Yes, I am tired because I worked late last night."
+        },
+        {
+          "p": "What makes you happy?",
+          "m": "Nói 1 điều làm bạn vui (1-2 câu)",
+          "h": "It makes me happy because + reason",
+          "s": "Spending time with family makes me happy because we talk and laugh."
+        },
+        {
+          "p": "Are you nervous about the exam?",
+          "m": "Trả lời có/không và nêu lý do (2 câu)",
+          "h": "I am + adj because + reason",
+          "s": "I am a little nervous because I did not study enough. But I try to relax."
+        },
+        {
+          "p": "Describe your mood today and why.",
+          "m": "Nói cảm xúc hôm nay và lý do (2 câu)",
+          "h": "I feel + adj because + reason",
+          "s": "I feel calm today because I had a good sleep. I am ready to work."
+        }
+      ]
+    },
+    {
+      "t": "Kế hoạch cuối tuần",
+      "e": [
+        {
+          "p": "What are you doing this weekend?",
+          "m": "Nói một kế hoạch đơn giản (1 câu)",
+          "h": "I am going to + V / I will + V",
+          "s": "I am going to visit my parents this weekend."
+        },
+        {
+          "p": "Do you have any plans for Saturday?",
+          "m": "Nói kế hoạch cho Thứ Bảy (1-2 câu)",
+          "h": "I plan to + V. I might + V",
+          "s": "I plan to clean my room on Saturday. I might go out with friends."
+        },
+        {
+          "p": "Will you travel this weekend?",
+          "m": "Trả lời có/không và nêu điểm đến nếu có (1-2 câu)",
+          "h": "No, I won't. / Yes, I will. I will go to + place",
+          "s": "No, I will not travel. I will stay in the city."
+        },
+        {
+          "p": "How do you usually spend weekends?",
+          "m": "Nói 2 hoạt động thường làm cuối tuần (2 câu)",
+          "h": "I usually + V and I + V",
+          "s": "I usually visit my family and I rest at home."
+        },
+        {
+          "p": "Do you prefer relaxing or going out on weekends?",
+          "m": "Nói sở thích và một lý do ngắn (2 câu)",
+          "h": "I prefer + V-ing because + reason",
+          "s": "I prefer relaxing at home because I am often busy during the week."
+        }
+      ]
+    },
+    {
+      "t": "Sở thích và tần suất",
+      "e": [
+        {
+          "p": "How often do you play sports?",
+          "m": "Nói tần suất (always/often/sometimes/never) (1 câu)",
+          "h": "I + adv + play sports",
+          "s": "I often play sports."
+        },
+        {
+          "p": "Do you always study in the evening?",
+          "m": "Trả lời và nêu thói quen (1-2 câu)",
+          "h": "Yes, I do. I usually + V / No, I don't. I sometimes + V",
+          "s": "No, I don't always study in the evening. I sometimes study in the morning."
+        },
+        {
+          "p": "How often do you visit your friends?",
+          "m": "Nói tần suất và ví dụ hoạt động (2 câu)",
+          "h": "I + adv + visit my friends. We + V",
+          "s": "I usually visit my friends on weekends. We often have coffee together."
+        },
+        {
+          "p": "Do you often watch movies at home?",
+          "m": "Trả lời và nêu thể loại phim bạn thích (2 câu)",
+          "h": "Yes, I do. I often watch + type. / No, I don't",
+          "s": "Yes, I often watch movies at home. I like comedies."
+        },
+        {
+          "p": "How often do you cook at home?",
+          "m": "Nói tần suất nấu ăn và ví dụ món bạn nấu (2 câu)",
+          "h": "I + adv + cook at home. I cook + dish",
+          "s": "I usually cook at home three times a week. I cook simple noodles."
+        }
+      ]
+    },
+    {
+      "t": "So sánh đơn giản",
+      "e": [
+        {
+          "p": "Do you like tea or coffee?",
+          "m": "Nói lựa chọn của bạn (1 câu)",
+          "h": "I prefer + tea/coffee",
+          "s": "I prefer coffee."
+        },
+        {
+          "p": "Which do you like more, summer or winter?",
+          "m": "Chọn một mùa và nêu lý do ngắn (1-2 câu)",
+          "h": "I like + season more because + reason",
+          "s": "I like summer more because I enjoy sunny days."
+        },
+        {
+          "p": "Is your city bigger than your hometown?",
+          "m": "So sánh ngắn và nêu ví dụ (1-2 câu)",
+          "h": "It is bigger/smaller than + place",
+          "s": "Yes, my city is bigger than my hometown. There are more shops here."
+        },
+        {
+          "p": "Do you think staying in the city is better than the countryside?",
+          "m": "Nói ý kiến đơn giản với 1 lý do (2 câu)",
+          "h": "I think + opinion because + reason",
+          "s": "I think city life is better for work because there are more jobs."
+        },
+        {
+          "p": "Which is easier for you, cooking or cleaning?",
+          "m": "Chọn một việc và giải thích ngắn (2 câu)",
+          "h": "Cooking/Cleaning is easier because + reason",
+          "s": "Cleaning is easier for me because it takes less time than cooking."
+        }
+      ]
+    },
+    {
+      "t": "Gặp gỡ bạn mới",
+      "e": [
+        {
+          "p": "Nice to meet you. What's your name?",
+          "m": "Chào lại và nói tên [Your Name] (1 câu)",
+          "h": "Nice to meet you. My name is + [Your Name]",
+          "s": "Nice to meet you. My name is [Your Name]."
+        },
+        {
+          "p": "Where are you from?",
+          "m": "Nói nơi bạn đến và một câu ngắn về đó (1-2 câu)",
+          "h": "I am from + place. It is + adj",
+          "s": "I am from Da Nang. It is a beautiful city."
+        },
+        {
+          "p": "What do you do in your free time?",
+          "m": "Nói một sở thích và tần suất (2 câu)",
+          "h": "I like + V-ing. I + adv + do it",
+          "s": "I like listening to music. I often do it in the evening."
+        },
+        {
+          "p": "Do you have any plans to meet again?",
+          "m": "Đề xuất một thời gian gặp lại (1-2 câu)",
+          "h": "Let's meet + time/place. I am free + day",
+          "s": "Let's meet next Saturday at the cafe. I am free in the afternoon."
+        },
+        {
+          "p": "Can we be friends?",
+          "m": "Đồng ý làm bạn và nói một điều ngắn về bạn (2 câu)",
+          "h": "Yes, let's be friends. I am + adj",
+          "s": "Yes, let's be friends. I am friendly and I like to help others."
+        }
+      ]
+    },
+    {
+      "t": "Tổng hợp: Gia đình và sở thích",
+      "e": [
+        {
+          "p": "Tell me about your family and hobbies.",
+          "m": "Nói 2 câu: một câu về gia đình, một câu về sở thích",
+          "h": "There are + number in my family. I like + V-ing",
+          "s": "There are four people in my family. I like reading books."
+        },
+        {
+          "p": "Do your family members have the same hobbies?",
+          "m": "Nói có hay không và ví dụ ngắn (2 câu)",
+          "h": "No, they don't. My + relation + likes + V-ing",
+          "s": "No, they don't. My father likes gardening and my sister likes music."
+        },
+        {
+          "p": "How do you spend time with your family?",
+          "m": "Nói 2 hoạt động bạn làm cùng gia đình (2 câu)",
+          "h": "We + V and we + V",
+          "s": "We eat dinner together and we sometimes watch movies."
+        },
+        {
+          "p": "Does your family support your hobbies?",
+          "m": "Trả lời có/không và nêu ví dụ (2 câu)",
+          "h": "Yes, they do because + reason. / No, they don't",
+          "s": "Yes, they support me because they know hobbies make me happy."
+        },
+        {
+          "p": "Describe one weekend plan with your family.",
+          "m": "Nói 2-3 câu về kế hoạch cuối tuần với gia đình",
+          "h": "On weekends we + V. Then we + V",
+          "s": "On weekends we visit my grandparents. Then we have lunch together and talk."
+        }
+      ]
+    }
+  ]
+}

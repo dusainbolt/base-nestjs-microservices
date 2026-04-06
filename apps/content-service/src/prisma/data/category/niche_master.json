@@ -1,0 +1,464 @@
+{
+  "HEALTHCARE": [
+    {
+      "title": "Hospital Basics",
+      "description": "Giới thiệu bản thân trong môi trường bệnh viện, bao gồm tên, vị trí công việc, khoa/phòng đang làm việc và mô tả cơ bản về các bộ phận trong bệnh viện."
+    },
+    {
+      "title": "Body & Symptoms",
+      "description": "Mô tả các bộ phận cơ thể và các triệu chứng phổ biến như đau đầu, sốt, ho, hoặc mệt mỏi trong giao tiếp hàng ngày với bệnh nhân."
+    },
+    {
+      "title": "Medical History",
+      "description": "Hỏi và ghi nhận thông tin về tiền sử bệnh, các loại thuốc đã sử dụng và các vấn đề sức khỏe trước đây của bệnh nhân."
+    },
+    {
+      "title": "Diagnosis",
+      "description": "Giải thích tình trạng bệnh cho bệnh nhân, đưa ra nhận định dựa trên triệu chứng và có thể so sánh các phương pháp chẩn đoán khác nhau."
+    },
+    {
+      "title": "Treatment Plan",
+      "description": "Trình bày và thảo luận về kế hoạch điều trị, bao gồm lợi ích, rủi ro và tác dụng phụ của thuốc hoặc phương pháp điều trị."
+    },
+    {
+      "title": "Medical Research",
+      "description": "Phân tích các nghiên cứu y khoa, đánh giá mức độ hiệu quả và rủi ro của các phương pháp điều trị hoặc ca phẫu thuật."
+    },
+    {
+      "title": "Ethics & Empathy",
+      "description": "Giao tiếp với bệnh nhân trong các tình huống nhạy cảm, thể hiện sự đồng cảm, thông báo tin xấu hoặc xử lý các vấn đề đạo đức trong y khoa."
+    },
+    {
+      "title": "Patient Instructions",
+      "description": "Hướng dẫn bệnh nhân cách sử dụng thuốc, chế độ ăn uống và các lưu ý sau khi điều trị hoặc xuất viện."
+    },
+    {
+      "title": "Emergency Situations",
+      "description": "Giao tiếp trong các tình huống cấp cứu, mô tả nhanh tình trạng bệnh nhân và đưa ra hướng xử lý khẩn cấp."
+    },
+    {
+      "title": "Appointment Scheduling",
+      "description": "Sắp xếp lịch khám, xác nhận thời gian và hướng dẫn bệnh nhân chuẩn bị trước khi đến bệnh viện."
+    }
+  ],
+  "HUMAN_RESOURCES": [
+    {
+      "title": "Job Titles",
+      "description": "Giới thiệu về cấu trúc tổ chức, các phòng ban và chức danh công việc trong công ty."
+    },
+    {
+      "title": "Recruitment Process",
+      "description": "Mô tả quy trình tuyển dụng từ đăng tin, sàng lọc hồ sơ đến phỏng vấn và đề xuất offer cho ứng viên."
+    },
+    {
+      "title": "Interviewing",
+      "description": "Kể lại quá trình phỏng vấn ứng viên, bao gồm đánh giá kỹ năng, thái độ và ấn tượng tổng quan."
+    },
+    {
+      "title": "Job Descriptions",
+      "description": "Giải thích yêu cầu công việc, trách nhiệm chính và so sánh mức độ phù hợp giữa các ứng viên."
+    },
+    {
+      "title": "Employee Relations",
+      "description": "Thảo luận về các chính sách giữ chân nhân viên, môi trường làm việc và văn hóa doanh nghiệp."
+    },
+    {
+      "title": "Labor Law & Policy",
+      "description": "Phân tích các quy định pháp luật lao động, chính sách nội bộ và các rủi ro liên quan đến nhân sự."
+    },
+    {
+      "title": "Organizational Change",
+      "description": "Diễn đạt các thay đổi trong tổ chức như tái cấu trúc, thay đổi nhân sự và cách quản lý tâm lý nhân viên."
+    },
+    {
+      "title": "Onboarding",
+      "description": "Hướng dẫn nhân viên mới về quy trình làm việc, văn hóa công ty và các quy định cơ bản."
+    },
+    {
+      "title": "Performance Review",
+      "description": "Đánh giá hiệu suất làm việc của nhân viên, đưa ra nhận xét và đề xuất cải thiện."
+    },
+    {
+      "title": "Conflict Resolution",
+      "description": "Xử lý mâu thuẫn giữa các nhân viên và đưa ra giải pháp phù hợp để duy trì môi trường làm việc tích cực."
+    },
+    {
+      "title": "Reservations",
+      "description": "Tiếp nhận và xác nhận đặt phòng hoặc dịch vụ, xử lý thay đổi hoặc hủy đặt chỗ."
+    },
+    {
+      "title": "Local Recommendations",
+      "description": "Gợi ý cho khách hàng về địa điểm du lịch, nhà hàng hoặc hoạt động giải trí tại địa phương."
+    },
+    {
+      "title": "Check-in & Check-out",
+      "description": "Thực hiện quy trình nhận phòng và trả phòng, xác nhận thông tin và hỗ trợ khách hàng."
+    }
+  ],
+  "HOSPITALITY": [
+    {
+      "title": "Welcoming",
+      "description": "Chào đón khách hàng, xác nhận thông tin đặt chỗ và tạo ấn tượng ban đầu thân thiện, chuyên nghiệp."
+    },
+    {
+      "title": "Services & Facilities",
+      "description": "Giới thiệu các dịch vụ và tiện ích như wifi, bữa sáng, hồ bơi, phòng gym hoặc dịch vụ phòng."
+    },
+    {
+      "title": "Customer Requests",
+      "description": "Tiếp nhận và xử lý các yêu cầu đặc biệt của khách hàng một cách lịch sự và hiệu quả."
+    },
+    {
+      "title": "Handling Complaints",
+      "description": "Giải quyết khiếu nại của khách hàng, giải thích nguyên nhân vấn đề và đưa ra phương án xử lý phù hợp."
+    },
+    {
+      "title": "Service Quality",
+      "description": "Thảo luận về cách cải thiện chất lượng dịch vụ và nâng cao trải nghiệm khách hàng."
+    },
+    {
+      "title": "Crisis Management",
+      "description": "Xử lý các tình huống khẩn cấp hoặc sự cố nghiêm trọng và đánh giá mức độ hài lòng của khách hàng."
+    },
+    {
+      "title": "VIP Relations",
+      "description": "Giao tiếp với khách hàng cao cấp bằng ngôn ngữ tinh tế, chuyên nghiệp và mang tính cá nhân hóa cao."
+    }
+  ],
+  "IT": [
+    {
+      "title": "Tech Roles",
+      "description": "Giới thiệu vai trò công việc trong ngành công nghệ như Developer, Tester, BA và dự án đang tham gia."
+    },
+    {
+      "title": "Hardware & Software",
+      "description": "Mô tả các thiết bị, phần mềm đang sử dụng hoặc các vấn đề kỹ thuật cơ bản gặp phải."
+    },
+    {
+      "title": "Bug Reporting",
+      "description": "Trình bày quá trình phát hiện lỗi, mô tả chi tiết và các bước để tái hiện lỗi."
+    },
+    {
+      "title": "Technical Explanation",
+      "description": "Giải thích các khái niệm kỹ thuật, luồng xử lý dữ liệu hoặc so sánh giữa các công nghệ."
+    },
+    {
+      "title": "System Architecture",
+      "description": "Thảo luận về kiến trúc hệ thống, cách các thành phần tương tác và lựa chọn công nghệ phù hợp."
+    },
+    {
+      "title": "Tech Strategy",
+      "description": "Phân tích các quyết định kỹ thuật dài hạn như technical debt, bảo mật và khả năng mở rộng hệ thống."
+    },
+    {
+      "title": "Tech Vision",
+      "description": "Diễn đạt quan điểm về xu hướng công nghệ như AI, Blockchain và tương lai của ngành."
+    },
+    {
+      "title": "Code Review",
+      "description": "Nhận xét và góp ý về code của đồng nghiệp, đề xuất cải thiện về logic, hiệu suất và coding convention."
+    },
+    {
+      "title": "Deployment & CI/CD",
+      "description": "Mô tả quy trình deploy hệ thống, pipeline CI/CD và cách xử lý khi có lỗi trong quá trình release."
+    },
+    {
+      "title": "Team Collaboration",
+      "description": "Giao tiếp trong team về task, tiến độ công việc, blockers và phối hợp giữa các thành viên."
+    }
+  ],
+  "FINANCE": [
+    {
+      "title": "Basic Finance",
+      "description": "Giới thiệu các khái niệm tài chính cơ bản như tiền tệ, ngân hàng và các con số trong đời sống hàng ngày."
+    },
+    {
+      "title": "Expenses & Income",
+      "description": "Mô tả các khoản thu nhập, chi tiêu cá nhân hoặc doanh nghiệp và các giao dịch tài chính đơn giản."
+    },
+    {
+      "title": "Financial Report",
+      "description": "Tóm tắt tình hình tài chính trong một khoảng thời gian như tháng hoặc quý."
+    },
+    {
+      "title": "Comparison & Budget",
+      "description": "So sánh ngân sách giữa các bộ phận hoặc thời kỳ và giải thích sự khác biệt."
+    },
+    {
+      "title": "Investment Analysis",
+      "description": "Đánh giá các cơ hội đầu tư, phân tích lợi nhuận và rủi ro của dự án."
+    },
+    {
+      "title": "Market Volatility",
+      "description": "Phân tích sự biến động của thị trường và các yếu tố ảnh hưởng như lãi suất hoặc kinh tế vĩ mô."
+    },
+    {
+      "title": "Strategic Finance",
+      "description": "Thảo luận các chiến lược tài chính cấp cao như sáp nhập, mua lại và quản trị tài chính doanh nghiệp."
+    },
+    {
+      "title": "Banking Services",
+      "description": "Giao tiếp với ngân hàng về các dịch vụ như mở tài khoản, chuyển tiền hoặc vay vốn."
+    },
+    {
+      "title": "Tax & Compliance",
+      "description": "Thảo luận về thuế, quy định pháp lý và đảm bảo tuân thủ các chính sách tài chính."
+    },
+    {
+      "title": "Cash Flow Management",
+      "description": "Quản lý dòng tiền vào và ra, đảm bảo doanh nghiệp có đủ thanh khoản để vận hành."
+    }
+  ],
+  "EDUCATION": [
+    {
+      "title": "School Life",
+      "description": "Mô tả cuộc sống học đường, lớp học, môn học yêu thích và hoạt động hàng ngày của học sinh hoặc sinh viên."
+    },
+    {
+      "title": "Teaching & Learning",
+      "description": "Giải thích cách giảng dạy, phương pháp học tập và cách cải thiện kỹ năng học."
+    },
+    {
+      "title": "Assignments & Exams",
+      "description": "Nói về bài tập, kỳ thi, cách chuẩn bị và cảm nhận về kết quả học tập."
+    },
+    {
+      "title": "Online Learning",
+      "description": "Thảo luận về việc học online, các nền tảng học tập và ưu nhược điểm."
+    },
+    {
+      "title": "Classroom Interaction",
+      "description": "Giao tiếp giữa giáo viên và học sinh trong lớp, bao gồm đặt câu hỏi, trả lời và hướng dẫn bài học."
+    },
+    {
+      "title": "Group Projects",
+      "description": "Làm việc nhóm trong học tập, phân công nhiệm vụ và trình bày kết quả."
+    },
+    {
+      "title": "Study Habits",
+      "description": "Mô tả thói quen học tập, cách quản lý thời gian và cải thiện hiệu quả học."
+    },
+    {
+      "title": "Academic Goals",
+      "description": "Nói về mục tiêu học tập ngắn hạn và dài hạn, cũng như kế hoạch لتحقيق chúng."
+    },
+    {
+      "title": "Teacher Feedback",
+      "description": "Nhận xét của giáo viên về học sinh và cách học sinh cải thiện dựa trên feedback."
+    },
+    {
+      "title": "Extracurricular Activities",
+      "description": "Mô tả các hoạt động ngoại khóa như câu lạc bộ, thể thao hoặc sự kiện trường học."
+    }
+  ],
+  "SALES": [
+    {
+      "title": "Product Introduction",
+      "description": "Giới thiệu sản phẩm hoặc dịch vụ, nêu bật các tính năng và lợi ích chính."
+    },
+    {
+      "title": "Customer Needs",
+      "description": "Tìm hiểu nhu cầu của khách hàng và đề xuất giải pháp phù hợp."
+    },
+    {
+      "title": "Negotiation",
+      "description": "Thương lượng giá cả, điều khoản hợp đồng và thuyết phục khách hàng."
+    },
+    {
+      "title": "Closing Deals",
+      "description": "Chốt đơn hàng, xác nhận thỏa thuận và xử lý các bước cuối cùng trong bán hàng."
+    },
+    {
+      "title": "Lead Generation",
+      "description": "Tìm kiếm và thu hút khách hàng tiềm năng thông qua các kênh khác nhau."
+    },
+    {
+      "title": "Product Comparison",
+      "description": "So sánh sản phẩm với đối thủ để làm nổi bật lợi thế cạnh tranh."
+    },
+    {
+      "title": "Handling Objections",
+      "description": "Xử lý các phản đối hoặc lo ngại từ khách hàng trong quá trình bán hàng."
+    },
+    {
+      "title": "Upselling & Cross-selling",
+      "description": "Đề xuất thêm sản phẩm hoặc dịch vụ liên quan để tăng giá trị đơn hàng."
+    },
+    {
+      "title": "Sales Follow-up",
+      "description": "Liên hệ lại với khách hàng sau khi tư vấn hoặc bán hàng để duy trì mối quan hệ."
+    },
+    {
+      "title": "Sales Targets",
+      "description": "Thảo luận về mục tiêu doanh số, kết quả đạt được và chiến lược cải thiện."
+    }
+  ],
+  "MARKETING": [
+    {
+      "title": "Marketing Basics",
+      "description": "Giới thiệu các khái niệm marketing cơ bản như sản phẩm, khách hàng mục tiêu và kênh truyền thông."
+    },
+    {
+      "title": "Campaign Planning",
+      "description": "Lên kế hoạch cho chiến dịch marketing, xác định mục tiêu và chiến lược triển khai."
+    },
+    {
+      "title": "Content Creation",
+      "description": "Tạo nội dung cho mạng xã hội, blog hoặc quảng cáo để thu hút khách hàng."
+    },
+    {
+      "title": "Performance Analysis",
+      "description": "Phân tích hiệu quả chiến dịch dựa trên số liệu như reach, conversion và ROI."
+    },
+    {
+      "title": "Brand Positioning",
+      "description": "Xác định vị trí thương hiệu trên thị trường và cách khác biệt với đối thủ."
+    },
+    {
+      "title": "Target Audience",
+      "description": "Phân tích khách hàng mục tiêu dựa trên hành vi, độ tuổi và nhu cầu."
+    },
+    {
+      "title": "Social Media Strategy",
+      "description": "Lập kế hoạch nội dung và chiến lược phát triển trên các nền tảng mạng xã hội."
+    },
+    {
+      "title": "Email Marketing",
+      "description": "Tạo và gửi chiến dịch email để tiếp cận và giữ chân khách hàng."
+    },
+    {
+      "title": "SEO & Traffic",
+      "description": "Tối ưu hóa công cụ tìm kiếm để tăng lượng truy cập website."
+    },
+    {
+      "title": "Customer Journey",
+      "description": "Phân tích hành trình khách hàng từ nhận biết đến mua hàng và sau mua."
+    }
+  ],
+  "CUSTOMER_SERVICE": [
+    {
+      "title": "Basic Support",
+      "description": "Trả lời các câu hỏi cơ bản của khách hàng và cung cấp thông tin cần thiết."
+    },
+    {
+      "title": "Handling Issues",
+      "description": "Xử lý các vấn đề hoặc khiếu nại của khách hàng một cách chuyên nghiệp."
+    },
+    {
+      "title": "Follow-up",
+      "description": "Theo dõi sau khi hỗ trợ để đảm bảo khách hàng hài lòng với dịch vụ."
+    },
+    {
+      "title": "Customer Satisfaction",
+      "description": "Đánh giá và cải thiện mức độ hài lòng của khách hàng thông qua phản hồi."
+    },
+    {
+      "title": "Live Chat Support",
+      "description": "Hỗ trợ khách hàng qua chat trực tuyến với phản hồi nhanh và chính xác."
+    },
+    {
+      "title": "Call Center Communication",
+      "description": "Giao tiếp qua điện thoại với khách hàng, xử lý yêu cầu và vấn đề."
+    },
+    {
+      "title": "Service Recovery",
+      "description": "Khắc phục lỗi dịch vụ và lấy lại sự hài lòng của khách hàng."
+    },
+    {
+      "title": "Customer Retention",
+      "description": "Xây dựng chiến lược giữ chân khách hàng và tăng sự trung thành."
+    },
+    {
+      "title": "Escalation Handling",
+      "description": "Xử lý các vấn đề phức tạp cần chuyển cấp cao hơn."
+    },
+    {
+      "title": "Feedback Collection",
+      "description": "Thu thập và phân tích phản hồi từ khách hàng để cải thiện dịch vụ."
+    }
+  ],
+  "TRAVEL": [
+    {
+      "title": "Travel Planning",
+      "description": "Lên kế hoạch chuyến đi, đặt vé, khách sạn và chuẩn bị hành lý."
+    },
+    {
+      "title": "At the Airport",
+      "description": "Giao tiếp tại sân bay như check-in, boarding và hỏi thông tin chuyến bay."
+    },
+    {
+      "title": "Transportation",
+      "description": "Sử dụng các phương tiện di chuyển như taxi, bus hoặc tàu điện."
+    },
+    {
+      "title": "Sightseeing",
+      "description": "Mô tả trải nghiệm tham quan, địa điểm du lịch và hoạt động giải trí."
+    },
+    {
+      "title": "Hotel Booking",
+      "description": "Đặt phòng khách sạn, hỏi giá và xác nhận thông tin lưu trú."
+    },
+    {
+      "title": "Travel Problems",
+      "description": "Xử lý các vấn đề như trễ chuyến bay, mất hành lý hoặc sai thông tin đặt chỗ."
+    },
+    {
+      "title": "Tour Guide Communication",
+      "description": "Giao tiếp với hướng dẫn viên du lịch và hiểu thông tin về địa điểm."
+    },
+    {
+      "title": "Cultural Experiences",
+      "description": "Mô tả trải nghiệm văn hóa địa phương, ẩm thực và phong tục."
+    },
+    {
+      "title": "Travel Budget",
+      "description": "Lập kế hoạch chi tiêu cho chuyến đi và quản lý ngân sách."
+    },
+    {
+      "title": "Travel Safety",
+      "description": "Thảo luận về các biện pháp an toàn khi du lịch."
+    }
+  ],
+  "E_COMMERCE": [
+    {
+      "title": "Online Shopping",
+      "description": "Mô tả quá trình mua hàng online, tìm kiếm sản phẩm và đặt hàng."
+    },
+    {
+      "title": "Product Reviews",
+      "description": "Đánh giá sản phẩm dựa trên trải nghiệm sử dụng thực tế."
+    },
+    {
+      "title": "Order Management",
+      "description": "Theo dõi đơn hàng, giao hàng và xử lý các vấn đề liên quan."
+    },
+    {
+      "title": "Returns & Refunds",
+      "description": "Xử lý việc đổi trả hàng và hoàn tiền cho khách hàng."
+    },
+    {
+      "title": "Seller Communication",
+      "description": "Trao đổi với người bán về sản phẩm, giá cả và thông tin chi tiết."
+    },
+    {
+      "title": "Discounts & Promotions",
+      "description": "Thảo luận về mã giảm giá, chương trình khuyến mãi và ưu đãi đặc biệt."
+    },
+    {
+      "title": "Shipping & Delivery",
+      "description": "Theo dõi quá trình giao hàng và xử lý các vấn đề liên quan."
+    },
+    {
+      "title": "Customer Reviews Analysis",
+      "description": "Phân tích đánh giá của khách hàng để đưa ra quyết định mua hàng."
+    },
+    {
+      "title": "Product Listing",
+      "description": "Tạo và tối ưu thông tin sản phẩm để thu hút người mua."
+    },
+    {
+      "title": "Marketplace Platforms",
+      "description": "Mô tả cách hoạt động của các nền tảng như Shopee, Amazon hoặc Lazada."
+    }
+  ]
+}

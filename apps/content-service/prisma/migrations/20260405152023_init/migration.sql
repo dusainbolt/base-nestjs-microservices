@@ -4,14 +4,14 @@ CREATE TYPE "CategoryType" AS ENUM ('EVERYDAY', 'OFFICE', 'NICHE');
 -- CreateEnum
 CREATE TYPE "PackStatus" AS ENUM ('DRAFT', 'PUBLISHED', 'ARCHIVED');
 
--- CreateEnum
-CREATE TYPE "LevelCode" AS ENUM ('BEGINNER', 'ELEMENTARY', 'PRE_INTERMEDIATE', 'INTERMEDIATE');
-
 -- CreateTable
 CREATE TABLE "categories" (
     "id" TEXT NOT NULL,
+    "code" TEXT,
     "name" TEXT NOT NULL,
     "type" "CategoryType" NOT NULL,
+    "subCategory" TEXT,
+    "order" INTEGER NOT NULL DEFAULT 0,
     "description" TEXT,
 
     CONSTRAINT "categories_pkey" PRIMARY KEY ("id")
@@ -19,9 +19,7 @@ CREATE TABLE "categories" (
 
 -- CreateTable
 CREATE TABLE "levels" (
-    "id" TEXT NOT NULL,
-    "levelNumber" INTEGER NOT NULL,
-    "code" "LevelCode" NOT NULL,
+    "id" INTEGER NOT NULL,
     "description" TEXT,
     "passThresholdScore" INTEGER NOT NULL,
     "outputRequirements" JSONB NOT NULL,
@@ -34,9 +32,8 @@ CREATE TABLE "levels" (
 CREATE TABLE "topics" (
     "id" TEXT NOT NULL,
     "categoryId" TEXT NOT NULL,
-    "levelId" TEXT NOT NULL,
-    "name" TEXT NOT NULL,
-    "description" TEXT,
+    "levelId" INTEGER NOT NULL,
+    "order" INTEGER NOT NULL DEFAULT 0,
 
     CONSTRAINT "topics_pkey" PRIMARY KEY ("id")
 );
@@ -46,7 +43,7 @@ CREATE TABLE "lesson_packs" (
     "id" TEXT NOT NULL,
     "creatorId" TEXT NOT NULL,
     "categoryId" TEXT NOT NULL,
-    "levelId" TEXT NOT NULL,
+    "levelId" INTEGER NOT NULL,
     "topicId" TEXT NOT NULL,
     "title" TEXT NOT NULL,
     "description" TEXT,
@@ -66,22 +63,24 @@ CREATE TABLE "exercises" (
     "id" TEXT NOT NULL,
     "lessonPackId" TEXT NOT NULL,
     "sequenceOrder" INTEGER NOT NULL,
-    "promptText" TEXT NOT NULL,
-    "promptImageUrl" TEXT,
-    "audioSampleUrl" TEXT,
+    "previousPrompt" TEXT,
+    "myPrompt" TEXT NOT NULL,
     "levelHint" TEXT,
 
     CONSTRAINT "exercises_pkey" PRIMARY KEY ("id")
 );
 
 -- CreateIndex
-CREATE UNIQUE INDEX "levels_levelNumber_key" ON "levels"("levelNumber");
+CREATE UNIQUE INDEX "categories_name_type_subCategory_key" ON "categories"("name", "type", "subCategory");
 
 -- CreateIndex
 CREATE INDEX "topics_categoryId_idx" ON "topics"("categoryId");
 
 -- CreateIndex
 CREATE INDEX "topics_levelId_idx" ON "topics"("levelId");
+
+-- CreateIndex
+CREATE UNIQUE INDEX "topics_categoryId_levelId_key" ON "topics"("categoryId", "levelId");
 
 -- CreateIndex
 CREATE INDEX "lesson_packs_creatorId_idx" ON "lesson_packs"("creatorId");
@@ -102,19 +101,19 @@ CREATE INDEX "exercises_lessonPackId_idx" ON "exercises"("lessonPackId");
 CREATE UNIQUE INDEX "exercises_lessonPackId_sequenceOrder_key" ON "exercises"("lessonPackId", "sequenceOrder");
 
 -- AddForeignKey
-ALTER TABLE "topics" ADD CONSTRAINT "topics_categoryId_fkey" FOREIGN KEY ("categoryId") REFERENCES "categories"("id") ON DELETE RESTRICT ON UPDATE CASCADE;
+ALTER TABLE "topics" ADD CONSTRAINT "topics_categoryId_fkey" FOREIGN KEY ("categoryId") REFERENCES "categories"("id") ON DELETE CASCADE ON UPDATE CASCADE;
 
 -- AddForeignKey
-ALTER TABLE "topics" ADD CONSTRAINT "topics_levelId_fkey" FOREIGN KEY ("levelId") REFERENCES "levels"("id") ON DELETE RESTRICT ON UPDATE CASCADE;
+ALTER TABLE "topics" ADD CONSTRAINT "topics_levelId_fkey" FOREIGN KEY ("levelId") REFERENCES "levels"("id") ON DELETE CASCADE ON UPDATE CASCADE;
 
 -- AddForeignKey
-ALTER TABLE "lesson_packs" ADD CONSTRAINT "lesson_packs_categoryId_fkey" FOREIGN KEY ("categoryId") REFERENCES "categories"("id") ON DELETE RESTRICT ON UPDATE CASCADE;
+ALTER TABLE "lesson_packs" ADD CONSTRAINT "lesson_packs_categoryId_fkey" FOREIGN KEY ("categoryId") REFERENCES "categories"("id") ON DELETE CASCADE ON UPDATE CASCADE;
 
 -- AddForeignKey
-ALTER TABLE "lesson_packs" ADD CONSTRAINT "lesson_packs_levelId_fkey" FOREIGN KEY ("levelId") REFERENCES "levels"("id") ON DELETE RESTRICT ON UPDATE CASCADE;
+ALTER TABLE "lesson_packs" ADD CONSTRAINT "lesson_packs_levelId_fkey" FOREIGN KEY ("levelId") REFERENCES "levels"("id") ON DELETE CASCADE ON UPDATE CASCADE;
 
 -- AddForeignKey
-ALTER TABLE "lesson_packs" ADD CONSTRAINT "lesson_packs_topicId_fkey" FOREIGN KEY ("topicId") REFERENCES "topics"("id") ON DELETE RESTRICT ON UPDATE CASCADE;
+ALTER TABLE "lesson_packs" ADD CONSTRAINT "lesson_packs_topicId_fkey" FOREIGN KEY ("topicId") REFERENCES "topics"("id") ON DELETE CASCADE ON UPDATE CASCADE;
 
 -- AddForeignKey
 ALTER TABLE "exercises" ADD CONSTRAINT "exercises_lessonPackId_fkey" FOREIGN KEY ("lessonPackId") REFERENCES "lesson_packs"("id") ON DELETE CASCADE ON UPDATE CASCADE;

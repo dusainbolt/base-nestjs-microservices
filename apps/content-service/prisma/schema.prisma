@@ -22,36 +22,30 @@ enum PackStatus {
   ARCHIVED // Đã lưu trữ, không hiển thị nữa
 }
 
-/// Trạng thái hiển thị của một bộ bài tập
-enum LevelCode {
-  BEGINNER // Người mới bắt đầu: nói từ/cụm từ đơn giản, phát âm cơ bản, cần nhiều hỗ trợ
-  ELEMENTARY // Cơ bản: nói được câu ngắn, giao tiếp đơn giản, phát âm còn lỗi
-  PRE_INTERMEDIATE // Trung cấp thấp: nói câu đầy đủ, diễn đạt ý đơn giản, bắt đầu cải thiện ngữ điệu
-  INTERMEDIATE // Trung cấp: nói trôi chảy hơn, diễn đạt ý rõ ràng, phát âm và ngữ điệu tương đối tốt
-}
-
 /// Danh mục chính của nội dung học tập
 model Category {
   id          String       @id @default(uuid())
+  code        String? /// Mã danh mục (nếu có)
   name        String /// Tên danh mục (Ví dụ: Tiếng Anh Giao Tiếp)
   type        CategoryType /// Loại danh mục (Hàng ngày, Công sở...)
+  subCategory String? /// Phân loại con cho Niche (Ví dụ: HEALTHCARE, IT...)
+  order       Int          @default(0) /// Thứ tự hiển thị trong Type/subCategory
   description String? /// Mô tả chi tiết về danh mục
 
   topics      Topic[]
   lessonPacks LessonPack[]
 
+  @@unique([name, type, subCategory])
   @@map("categories")
 }
 
 /// Định nghĩa các cấp độ học thuật (1-Beginner, 2-Elementary, ...)
 model Level {
-  id                 String    @id @default(uuid())
-  levelNumber        Int       @unique /// Số thứ tự cấp độ (1, 2, 3, 4)
-  code               LevelCode
+  id                 Int     @id /// Số thứ tự cấp độ (1, 2, 3, 4)
   description        String? /// Mô tả cấp độ (ví dụ: Người mới bắt đầu...)
   passThresholdScore Int /// Điểm tối thiểu để coi là hoàn thành (Ví dụ: 60)
   outputRequirements Json /// Cấu trúc yêu cầu đầu ra phức tạp (ngữ pháp, từ vựng...)
-  examples           Json      @default("[]") /// Danh sách ví dụ minh họa (mảng object)
+  examples           Json    @default("[]") /// Danh sách ví dụ minh họa (mảng object)
 
   topics      Topic[]
   lessonPacks LessonPack[]
@@ -61,16 +55,16 @@ model Level {
 
 /// Chủ đề cụ thể thuộc một Category và Level (Ví dụ: Hospital Basics)
 model Topic {
-  id          String  @id @default(uuid())
-  categoryId  String /// Liên kết tới Category
-  levelId     String /// Liên kết tới Level
-  name        String /// Tên chủ đề
-  description String? /// Mô tả về chủ đề
+  id         String @id @default(uuid())
+  categoryId String /// Liên kết tới Category
+  levelId    Int /// Liên kết tới Level (id)
+  order      Int    @default(0) /// Thứ tự hiển thị chủ đề
 
-  category    Category     @relation(fields: [categoryId], references: [id], onDelete: Restrict)
-  level       Level        @relation(fields: [levelId], references: [id], onDelete: Restrict)
+  category    Category     @relation(fields: [categoryId], references: [id], onDelete: Cascade)
+  level       Level        @relation(fields: [levelId], references: [id], onDelete: Cascade)
   lessonPacks LessonPack[]
 
+  @@unique([categoryId, levelId])
   @@index([categoryId])
   @@index([levelId])
   @@map("topics")
@@ -81,7 +75,7 @@ model LessonPack {
   id          String     @id @default(uuid())
   creatorId   String /// ID người tạo (Liên kết tới User Service)
   categoryId  String /// Thuộc Category nào
-  levelId     String /// Thuộc Level nào
+  levelId     Int /// Thuộc Level nào
   topicId     String /// Thuộc Topic nào
   title       String /// Tiêu đề bộ bài tập
   description String? /// Mô tả nội dung bộ bài tập
@@ -95,9 +89,9 @@ model LessonPack {
   updatedAt DateTime  @updatedAt
   deletedAt DateTime? /// Hỗ trợ soft-delete
 
-  category  Category   @relation(fields: [categoryId], references: [id], onDelete: Restrict)
-  level     Level      @relation(fields: [levelId], references: [id], onDelete: Restrict)
-  topic     Topic      @relation(fields: [topicId], references: [id], onDelete: Restrict)
+  category  Category   @relation(fields: [categoryId], references: [id], onDelete: Cascade)
+  level     Level      @relation(fields: [levelId], references: [id], onDelete: Cascade)
+  topic     Topic      @relation(fields: [topicId], references: [id], onDelete: Cascade)
   exercises Exercise[]
 
   @@index([creatorId])
@@ -112,9 +106,8 @@ model Exercise {
   id             String  @id @default(uuid())
   lessonPackId   String /// Liên kết tới Lesson Pack cha
   sequenceOrder  Int /// Thứ tự câu (1 đến 5)
-  promptText     String /// Nội dung văn bản người dùng cần nói
-  promptImageUrl String? /// Hình ảnh minh họa cho câu hỏi (nếu có)
-  audioSampleUrl String? /// File âm thanh mẫu của giáo viên (nếu có)
+  previousPrompt String? /// Nội dung đối phương nói (English)
+  myPrompt       String /// Nội dung người dùng cần diễn tả (Vietnamese)
   levelHint      String? /// Gợi ý hoặc ghi chú về ngữ pháp/từ vựng
 
   lessonPack LessonPack @relation(fields: [lessonPackId], references: [id], onDelete: Cascade)

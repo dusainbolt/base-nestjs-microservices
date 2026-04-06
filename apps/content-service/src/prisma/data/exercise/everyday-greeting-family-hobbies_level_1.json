@@ -1,0 +1,915 @@
+{
+  "l": 1,
+  "d": [
+    {
+      "t": "Chào hỏi cơ bản",
+      "e": [
+        {
+          "p": "Hi!",
+          "m": "Chào lại bằng một câu ngắn",
+          "h": "S + am/is/are + ...",
+          "s": "Hello!"
+        },
+        {
+          "p": "Good morning!",
+          "m": "Chào lại phù hợp với buổi sáng",
+          "h": "S + am/is/are + ...",
+          "s": "Good morning!"
+        },
+        {
+          "p": "Hey, how are you?",
+          "m": "Trả lời ngắn về tình trạng của bạn",
+          "h": "S + am/is/are + adj",
+          "s": "I am fine."
+        },
+        {
+          "p": "Hello, nice to meet you.",
+          "m": "Chào lại và nói rằng bạn vui khi gặp họ",
+          "h": "S + am/is/are + adj",
+          "s": "I am happy to meet you."
+        },
+        {
+          "p": "Hi there, it's good to see you.",
+          "m": "Chào lại và nói một câu ngắn về cảm xúc của bạn",
+          "h": "S + am/is/are + adj",
+          "s": "I am glad."
+        }
+      ]
+    },
+    {
+      "t": "Hỏi tên",
+      "e": [
+        {
+          "p": "What's your name?",
+          "m": "Giới thiệu tên của bạn dùng [Your Name]",
+          "h": "S + am/is/are + [name]",
+          "s": "I am [Your Name]."
+        },
+        {
+          "p": "Can you tell me your name?",
+          "m": "Trả lời rằng bạn tên gì với một câu ngắn",
+          "h": "S + am/is/are + [name]",
+          "s": "My name is [Your Name]."
+        },
+        {
+          "p": "Who are you?",
+          "m": "Giới thiệu tên và nói bạn là ai (một từ nghề nghiệp hoặc học sinh)",
+          "h": "S + am/is/are + [role/name]",
+          "s": "I am [Your Name]."
+        },
+        {
+          "p": "May I know your name, please?",
+          "m": "Lịch sự trả lời tên của bạn",
+          "h": "S + am/is/are + [name]",
+          "s": "I am [Your Name]."
+        },
+        {
+          "p": "Tell me your full name.",
+          "m": "Nói tên đầy đủ của bạn (dùng [Your Name] nếu cần)",
+          "h": "S + am/is/are + [full name]",
+          "s": "I am [Your Name]."
+        }
+      ]
+    },
+    {
+      "t": "Giới thiệu tuổi",
+      "e": [
+        {
+          "p": "How old are you?",
+          "m": "Nói tuổi của bạn (một số) bằng tiếng Anh",
+          "h": "S + am/is/are + number + years old",
+          "s": "I am 20 years old."
+        },
+        {
+          "p": "Are you twenty?",
+          "m": "Trả lời có hoặc không và nêu tuổi nếu khác",
+          "h": "S + am/is/are + number + years old",
+          "s": "No, I am 19 years old."
+        },
+        {
+          "p": "What's your age?",
+          "m": "Nói tuổi của bạn bằng một câu đơn",
+          "h": "S + am/is/are + number + years old",
+          "s": "I am 18 years old."
+        },
+        {
+          "p": "Do you have a birthday this year?",
+          "m": "Trả lời rằng bạn có sinh nhật trong năm nay hay không (ngắn)",
+          "h": "S + V(s) hoặc S + am/is/are + adj",
+          "s": "Yes, I am 20 this year."
+        },
+        {
+          "p": "When is your birthday?",
+          "m": "Nói tháng hoặc một ngày ngắn gọn (ví dụ: March, July)",
+          "h": "S + am/is/are + in + month OR S + V(s)",
+          "s": "My birthday is in July."
+        }
+      ]
+    },
+    {
+      "t": "Hỏi về sức khỏe",
+      "e": [
+        {
+          "p": "How are you today?",
+          "m": "Nói ngắn về trạng thái của bạn hôm nay",
+          "h": "S + am/is/are + adj",
+          "s": "I am fine."
+        },
+        {
+          "p": "Are you okay?",
+          "m": "Trả lời có/không và nói cảm giác ngắn",
+          "h": "Yes, S + am/is/are + adj / No, S + am/is/are + adj",
+          "s": "Yes, I am okay."
+        },
+        {
+          "p": "Do you feel sick?",
+          "m": "Nói rằng bạn có bị ốm hay không",
+          "h": "S + am/is/are + adj (sick) OR S + do/does + not + V",
+          "s": "No, I am not sick."
+        },
+        {
+          "p": "Are you tired after work?",
+          "m": "Nói ngắn về việc bạn có mệt sau khi làm việc hay không",
+          "h": "S + am/is/are + adj",
+          "s": "Yes, I am tired."
+        },
+        {
+          "p": "How do you feel now?",
+          "m": "Mô tả cảm giác hiện tại bằng một từ (vui, mệt, buồn)",
+          "h": "S + am/is/are + adj",
+          "s": "I am happy."
+        }
+      ]
+    },
+    {
+      "t": "Chào tạm biệt và hẹn gặp",
+      "e": [
+        {
+          "p": "Goodbye!",
+          "m": "Chào tạm biệt ngắn",
+          "h": "S + am/is/are + ... OR single word",
+          "s": "Goodbye!"
+        },
+        {
+          "p": "See you later.",
+          "m": "Trả lời rằng bạn sẽ gặp lại họ",
+          "h": "S + V(s) + adverb",
+          "s": "See you later."
+        },
+        {
+          "p": "Bye, take care.",
+          "m": "Chào và nói bạn giữ gìn sức khỏe",
+          "h": "S + V(s) + object",
+          "s": "You take care too."
+        },
+        {
+          "p": "See you tomorrow.",
+          "m": "Xác nhận bạn sẽ gặp họ vào ngày mai",
+          "h": "S + V(s) + time",
+          "s": "Yes, I will see you tomorrow."
+        },
+        {
+          "p": "Have a nice day!",
+          "m": "Cám ơn và chúc người kia cũng vậy",
+          "h": "S + am/is/are + adj OR S + wish",
+          "s": "Thank you, have a nice day."
+        }
+      ]
+    },
+    {
+      "t": "Nghề nghiệp - hỏi và trả lời",
+      "e": [
+        {
+          "p": "What do you do?",
+          "m": "Nói nghề nghiệp của bạn (student, teacher, worker...) bằng một từ",
+          "h": "S + am/is/are + job OR S + V(s) as + job",
+          "s": "I am a student."
+        },
+        {
+          "p": "Are you a teacher?",
+          "m": "Trả lời có/không và nêu nghề thật nếu khác",
+          "h": "Yes, S + am/is/are + job / No, S + am/is/are + job",
+          "s": "No, I am a student."
+        },
+        {
+          "p": "Where do you work?",
+          "m": "Nói nơi bạn làm việc/ngôi trường ngắn gọn",
+          "h": "S + work + at/in + place OR S + am/is/are + at + place",
+          "s": "I work at a school."
+        },
+        {
+          "p": "Do you like your job?",
+          "m": "Nói ngắn rằng bạn có thích công việc hay không",
+          "h": "S + like/does not like + noun/verb-ing",
+          "s": "Yes, I like my job."
+        },
+        {
+          "p": "How often do you work?",
+          "m": "Nói tần suất làm việc đơn giản (every day, sometimes)",
+          "h": "S + V(s) + adverb (every day/sometimes)",
+          "s": "I work every day."
+        }
+      ]
+    },
+    {
+      "t": "Nói về nghề nghiệp của người thân",
+      "e": [
+        {
+          "p": "What does your father do?",
+          "m": "Nói nghề nghiệp của cha bạn bằng một câu ngắn",
+          "h": "S + V(s) + noun OR He/She + is + job",
+          "s": "He is a doctor."
+        },
+        {
+          "p": "Is your mother a teacher?",
+          "m": "Trả lời có/không và nói nghề mẹ nếu khác",
+          "h": "Yes/No, He/She + is + job",
+          "s": "No, she is a nurse."
+        },
+        {
+          "p": "Where does your brother work?",
+          "m": "Nói nơi anh/chị/em bạn làm việc",
+          "h": "He/She + works + at/in + place",
+          "s": "He works at a bank."
+        },
+        {
+          "p": "Do your parents work?",
+          "m": "Nói ngắn về việc cha mẹ bạn có đi làm hay không",
+          "h": "Yes/No + He/She + works/does not work",
+          "s": "Yes, they work."
+        },
+        {
+          "p": "What is your sister's job?",
+          "m": "Nói nghề của chị/em gái bằng một câu ngắn",
+          "h": "She + is + job",
+          "s": "She is a nurse."
+        }
+      ]
+    },
+    {
+      "t": "Số lượng thành viên trong gia đình",
+      "e": [
+        {
+          "p": "How many people are in your family?",
+          "m": "Nói tổng số thành viên trong gia đình (số)",
+          "h": "S + have/has + number + people OR There + are + number",
+          "s": "There are four people in my family."
+        },
+        {
+          "p": "Do you have brothers or sisters?",
+          "m": "Nói có anh/chị/em hay không và số lượng nếu có",
+          "h": "Yes/No, I have + number + brothers/sisters",
+          "s": "Yes, I have one sister."
+        },
+        {
+          "p": "Who is in your family?",
+          "m": "Liệt kê ngắn các thành viên (father, mother, sister...)",
+          "h": "I have + father/mother/sister/brother",
+          "s": "I have a father, a mother, and one sister."
+        },
+        {
+          "p": "Is your family big?",
+          "m": "Trả lời rằng gia đình bạn lớn hay nhỏ",
+          "h": "S + am/is/are + adj (big/small)",
+          "s": "No, my family is small."
+        },
+        {
+          "p": "Do you live with your family?",
+          "m": "Nói bạn có sống cùng gia đình hay không",
+          "h": "Yes/No, I + live/ do not live + with + family",
+          "s": "Yes, I live with my family."
+        }
+      ]
+    },
+    {
+      "t": "Nói về bố mẹ và anh chị em",
+      "e": [
+        {
+          "p": "Is your father at home?",
+          "m": "Trả lời có/không về việc cha bạn có ở nhà",
+          "h": "Yes/No, He + is/ is not + at home",
+          "s": "No, he is not at home."
+        },
+        {
+          "p": "Does your mother cook?",
+          "m": "Nói ngắn về việc mẹ bạn có nấu ăn hay không",
+          "h": "Yes/No, She + does/does not + V",
+          "s": "Yes, she cooks."
+        },
+        {
+          "p": "How old is your sister?",
+          "m": "Nói tuổi của chị/em gái",
+          "h": "She + is + number + years old",
+          "s": "She is 15 years old."
+        },
+        {
+          "p": "Do you have a brother?",
+          "m": "Trả lời có/không và nêu tuổi nếu có",
+          "h": "Yes/No, I have + a brother who is + number",
+          "s": "Yes, I have a brother who is 10."
+        },
+        {
+          "p": "Who cooks in your family?",
+          "m": "Nói ai nấu ăn trong gia đình (một người)",
+          "h": "My + mother/father + cooks OR Someone + cooks",
+          "s": "My mother cooks."
+        }
+      ]
+    },
+    {
+      "t": "Bạn có anh chị em không?",
+      "e": [
+        {
+          "p": "Do you have siblings?",
+          "m": "Nói có hay không có anh chị em",
+          "h": "Yes/No, I have/ do not have + siblings",
+          "s": "Yes, I have one brother."
+        },
+        {
+          "p": "Are you the oldest child?",
+          "m": "Trả lời bạn có phải con lớn nhất không",
+          "h": "Yes/No, I am/ I am not + the + position",
+          "s": "No, I am not the oldest."
+        },
+        {
+          "p": "How many brothers do you have?",
+          "m": "Nói số anh em trai bạn có",
+          "h": "I have + number + brothers",
+          "s": "I have one brother."
+        },
+        {
+          "p": "Do you play with your sister?",
+          "m": "Nói ngắn bạn có chơi với chị/em gái không",
+          "h": "Yes/No, I + V(s) / I do not + V",
+          "s": "Yes, I play with my sister."
+        },
+        {
+          "p": "Is your family close?",
+          "m": "Nói ngắn về mức độ thân thiết của gia đình",
+          "h": "My family + is + adj",
+          "s": "My family is close."
+        }
+      ]
+    },
+    {
+      "t": "Sở thích đơn giản - hoạt động",
+      "e": [
+        {
+          "p": "What do you like to do?",
+          "m": "Nói một sở thích đơn giản (read, play, watch...)",
+          "h": "I + like + to + V OR I + like + V-ing",
+          "s": "I like to read."
+        },
+        {
+          "p": "Do you like reading?",
+          "m": "Trả lời có/không về việc bạn thích đọc sách",
+          "h": "Yes/No, I + like/ do not like + V-ing",
+          "s": "Yes, I like reading."
+        },
+        {
+          "p": "What do you do in your free time?",
+          "m": "Nói một hoạt động bạn làm lúc rảnh",
+          "h": "I + V(s) + in my free time",
+          "s": "I watch TV in my free time."
+        },
+        {
+          "p": "Do you play games?",
+          "m": "Nói bạn có chơi trò chơi hay không",
+          "h": "Yes/No, I + play/ do not play + games",
+          "s": "No, I do not play games."
+        },
+        {
+          "p": "Which hobby do you like more?",
+          "m": "Chọn một sở thích và nói bạn thích nó hơn",
+          "h": "I prefer + hobby OR I like + hobby",
+          "s": "I like reading more."
+        }
+      ]
+    },
+    {
+      "t": "Thể thao yêu thích",
+      "e": [
+        {
+          "p": "Do you like football?",
+          "m": "Nói có/không về việc bạn thích bóng đá",
+          "h": "Yes/No, I + like/ do not like + football",
+          "s": "No, I do not like football."
+        },
+        {
+          "p": "What sport do you play?",
+          "m": "Nói một môn thể thao bạn chơi",
+          "h": "I play + sport",
+          "s": "I play badminton."
+        },
+        {
+          "p": "Can you swim?",
+          "m": "Trả lời khả năng bơi của bạn (can/can't)",
+          "h": "S + can/can't + V",
+          "s": "Yes, I can swim."
+        },
+        {
+          "p": "How often do you exercise?",
+          "m": "Nói tần suất bạn tập thể dục",
+          "h": "I + V(s) + every day/sometimes",
+          "s": "I exercise every day."
+        },
+        {
+          "p": "Do you play sports with friends?",
+          "m": "Nói ngắn bạn có chơi thể thao với bạn bè không",
+          "h": "Yes/No, I + V(s) + with + friends",
+          "s": "Yes, I play with my friends."
+        }
+      ]
+    },
+    {
+      "t": "Âm nhạc và giải trí",
+      "e": [
+        {
+          "p": "Do you like music?",
+          "m": "Trả lời rằng bạn có thích âm nhạc hay không",
+          "h": "Yes/No, I + like/ do not like + music",
+          "s": "Yes, I like music."
+        },
+        {
+          "p": "What kind of music do you like?",
+          "m": "Nói một thể loại nhạc bạn thích (pop, rock...)",
+          "h": "I like + genre",
+          "s": "I like pop music."
+        },
+        {
+          "p": "Do you listen to music every day?",
+          "m": "Nói tần suất bạn nghe nhạc",
+          "h": "Yes/No, I + V(s) + every day/sometimes",
+          "s": "Yes, I listen every day."
+        },
+        {
+          "p": "Can you play an instrument?",
+          "m": "Nói ngắn bạn có thể chơi nhạc cụ hay không",
+          "h": "S + can/can't + V",
+          "s": "No, I can't play an instrument."
+        },
+        {
+          "p": "What do you watch in the evening?",
+          "m": "Nói một chương trình hoặc hoạt động bạn xem vào buổi tối",
+          "h": "I watch + TV/program OR I + V(s) + in the evening",
+          "s": "I watch TV in the evening."
+        }
+      ]
+    },
+    {
+      "t": "Thói quen hàng ngày",
+      "e": [
+        {
+          "p": "What time do you get up?",
+          "m": "Nói giờ bạn thức dậy (ví dụ: seven o'clock)",
+          "h": "I + get up + at + time",
+          "s": "I get up at seven o'clock."
+        },
+        {
+          "p": "Do you go to school in the morning?",
+          "m": "Trả lời có/không và nêu thời điểm nếu cần",
+          "h": "Yes/No, I + go/ do not go + to school in the morning",
+          "s": "Yes, I go to school in the morning."
+        },
+        {
+          "p": "What do you eat for breakfast?",
+          "m": "Nói một món bạn ăn sáng",
+          "h": "I eat + food for breakfast",
+          "s": "I eat bread for breakfast."
+        },
+        {
+          "p": "Do you study every day?",
+          "m": "Nói tần suất bạn học hằng ngày",
+          "h": "Yes/No, I + study + every day/sometimes",
+          "s": "Yes, I study every day."
+        },
+        {
+          "p": "When do you go to bed?",
+          "m": "Nói giờ bạn đi ngủ",
+          "h": "I go to bed at + time",
+          "s": "I go to bed at ten o'clock."
+        }
+      ]
+    },
+    {
+      "t": "Lịch làm việc đơn giản",
+      "e": [
+        {
+          "p": "Do you work today?",
+          "m": "Nói bạn có làm việc hôm nay không",
+          "h": "Yes/No, I + work/ do not work + today",
+          "s": "No, I do not work today."
+        },
+        {
+          "p": "What time do you start work?",
+          "m": "Nói giờ bạn bắt đầu làm việc",
+          "h": "I start work at + time",
+          "s": "I start work at eight o'clock."
+        },
+        {
+          "p": "How many hours do you work?",
+          "m": "Nói số giờ bạn làm việc mỗi ngày",
+          "h": "I work + number + hours",
+          "s": "I work eight hours."
+        },
+        {
+          "p": "Do you finish work at five?",
+          "m": "Trả lời có/không và nêu giờ kết thúc nếu khác",
+          "h": "Yes/No, I + finish/ do not finish + at + time",
+          "s": "No, I finish at six o'clock."
+        },
+        {
+          "p": "Where do you work every day?",
+          "m": "Nói địa điểm bạn làm việc hàng ngày",
+          "h": "I work at/in + place",
+          "s": "I work at a school."
+        }
+      ]
+    },
+    {
+      "t": "Địa điểm yêu thích",
+      "e": [
+        {
+          "p": "Where do you like to go?",
+          "m": "Nói một nơi bạn thích đến (park, home, school)",
+          "h": "I like to go to + place",
+          "s": "I like to go to the park."
+        },
+        {
+          "p": "Is the park near your house?",
+          "m": "Trả lời có/không về vị trí công viên",
+          "h": "Yes/No, It + is/ is not + near + my house",
+          "s": "Yes, it is near my house."
+        },
+        {
+          "p": "Do you study at the library?",
+          "m": "Nói có/không bạn học ở thư viện",
+          "h": "Yes/No, I + study/ do not study + at the library",
+          "s": "No, I do not study at the library."
+        },
+        {
+          "p": "Which place do you like best?",
+          "m": "Chọn một nơi và nói bạn thích nhất",
+          "h": "I like + place + best",
+          "s": "I like my home best."
+        },
+        {
+          "p": "Do you go to the market?",
+          "m": "Nói bạn có đi chợ hay không",
+          "h": "Yes/No, I + go/ do not go + to the market",
+          "s": "Yes, I go to the market."
+        }
+      ]
+    },
+    {
+      "t": "Khả năng đơn giản",
+      "e": [
+        {
+          "p": "Can you ride a bike?",
+          "m": "Trả lời khả năng đi xe đạp (can/can't)",
+          "h": "S + can/can't + V",
+          "s": "Yes, I can ride a bike."
+        },
+        {
+          "p": "Can you speak English?",
+          "m": "Nói bạn có thể nói tiếng Anh hay không ngắn gọn",
+          "h": "S + can/can't + V",
+          "s": "I can speak a little English."
+        },
+        {
+          "p": "Can you cook?",
+          "m": "Nói bạn có thể nấu ăn hay không",
+          "h": "S + can/can't + V",
+          "s": "Yes, I can cook."
+        },
+        {
+          "p": "Can you sing?",
+          "m": "Trả lời khả năng hát của bạn",
+          "h": "S + can/can't + V",
+          "s": "No, I can't sing."
+        },
+        {
+          "p": "Can you play football well?",
+          "m": "Nói bạn có chơi giỏi hay không (ngắn)",
+          "h": "S + can/can't + V OR S + play(s) + well",
+          "s": "No, I can't play football well."
+        }
+      ]
+    },
+    {
+      "t": "Kỹ năng hàng ngày",
+      "e": [
+        {
+          "p": "Can you cook rice?",
+          "m": "Nói bạn có thể nấu cơm hay không",
+          "h": "S + can/can't + V",
+          "s": "Yes, I can cook rice."
+        },
+        {
+          "p": "Do you know how to use a phone?",
+          "m": "Trả lời bạn có biết sử dụng điện thoại không",
+          "h": "Yes/No, I + know/ do not know + how to + V",
+          "s": "Yes, I know how to use a phone."
+        },
+        {
+          "p": "Can you drive a car?",
+          "m": "Nói bạn có lái xe hơi được không",
+          "h": "S + can/can't + V",
+          "s": "No, I can't drive a car."
+        },
+        {
+          "p": "Can you type on a computer?",
+          "m": "Nói khả năng gõ máy tính của bạn",
+          "h": "S + can/can't + V",
+          "s": "Yes, I can type on a computer."
+        },
+        {
+          "p": "Do you help at home?",
+          "m": "Nói ngắn bạn có giúp việc nhà không",
+          "h": "Yes/No, I + help/ do not help + at home",
+          "s": "Yes, I help at home."
+        }
+      ]
+    },
+    {
+      "t": "Cảm xúc đơn giản",
+      "e": [
+        {
+          "p": "Are you happy?",
+          "m": "Trả lời bạn có hạnh phúc không",
+          "h": "Yes/No, S + am/is/are + adj",
+          "s": "Yes, I am happy."
+        },
+        {
+          "p": "Are you sad today?",
+          "m": "Trả lời bạn có buồn hôm nay không",
+          "h": "Yes/No, S + am/is/are + adj",
+          "s": "No, I am not sad today."
+        },
+        {
+          "p": "Do you feel tired now?",
+          "m": "Nói bạn có mệt bây giờ không",
+          "h": "Yes/No, S + am/is/are + adj",
+          "s": "Yes, I am tired."
+        },
+        {
+          "p": "Is your friend happy?",
+          "m": "Nói ngắn về cảm xúc của bạn bè (vui/ buồn)",
+          "h": "He/She + is + adj",
+          "s": "Yes, he is happy."
+        },
+        {
+          "p": "How do you feel today?",
+          "m": "Mô tả cảm xúc hiện tại bằng một từ",
+          "h": "S + am/is/are + adj",
+          "s": "I am excited."
+        }
+      ]
+    },
+    {
+      "t": "Quan điểm đơn giản - thích/không thích",
+      "e": [
+        {
+          "p": "Do you like vegetables?",
+          "m": "Nói bạn có thích rau hay không",
+          "h": "Yes/No, I + like/ do not like + vegetables",
+          "s": "No, I do not like vegetables."
+        },
+        {
+          "p": "Do you like dogs or cats?",
+          "m": "Chọn và nói bạn thích chó hay mèo",
+          "h": "I like + dogs/cats",
+          "s": "I like dogs."
+        },
+        {
+          "p": "What do you think about this food?",
+          "m": "Nói ngắn bạn nghĩ món ăn này thế nào (good/bad)",
+          "h": "It + is + adj",
+          "s": "It is good."
+        },
+        {
+          "p": "Do you prefer tea or coffee?",
+          "m": "Nói bạn thích trà hay cà phê hơn",
+          "h": "I prefer + tea/coffee",
+          "s": "I prefer tea."
+        },
+        {
+          "p": "Do you like rainy days?",
+          "m": "Nói bạn có thích ngày mưa hay không",
+          "h": "Yes/No, I + like/ do not like + rainy days",
+          "s": "Yes, I like rainy days."
+        }
+      ]
+    },
+    {
+      "t": "Ôn tập: Giới thiệu cơ bản",
+      "e": [
+        {
+          "p": "Hello, introduce yourself.",
+          "m": "Chào và giới thiệu tên của bạn bằng [Your Name]",
+          "h": "I am + [Your Name]",
+          "s": "Hello, I am [Your Name]."
+        },
+        {
+          "p": "What's your name and age?",
+          "m": "Nói tên với [Your Name] và tuổi bạn",
+          "h": "I am + [Your Name]. I am + number + years old.",
+          "s": "I am [Your Name]. I am 18 years old."
+        },
+        {
+          "p": "Where are you from?",
+          "m": "Nói nơi bạn đến (thành phố hoặc quốc gia ngắn)",
+          "h": "I am from + place OR I + come from + place",
+          "s": "I am from Hanoi."
+        },
+        {
+          "p": "Tell me your name, age and job.",
+          "m": "Nói tên (dùng [Your Name]), tuổi và nghề bằng một câu mỗi phần (3 câu tổng)",
+          "h": "I am + [Your Name]. I am + number. I am a + job",
+          "s": "I am [Your Name]. I am 19 years old. I am a student."
+        },
+        {
+          "p": "Nice to meet you. Say something about yourself.",
+          "m": "Nói ngắn về bản thân: tên và một sở thích",
+          "h": "I am + [Your Name]. I like + V-ing",
+          "s": "I am [Your Name]. I like reading."
+        }
+      ]
+    },
+    {
+      "t": "Ôn tập: Gia đình và nghề nghiệp",
+      "e": [
+        {
+          "p": "Who is in your family?",
+          "m": "Nói các thành viên chính trong gia đình",
+          "h": "I have + father/mother/ brother/sister",
+          "s": "I have a father, a mother, and one brother."
+        },
+        {
+          "p": "What does your father do?",
+          "m": "Nói nghề nghiệp của cha bạn",
+          "h": "He + is + job",
+          "s": "He is a teacher."
+        },
+        {
+          "p": "Do your parents work?",
+          "m": "Trả lời cha mẹ bạn có đi làm không",
+          "h": "Yes/No, They + work/ do not work",
+          "s": "Yes, they work."
+        },
+        {
+          "p": "Do you help your family at home?",
+          "m": "Nói một việc bạn giúp ở nhà",
+          "h": "I + help + with + housework OR I + do + task",
+          "s": "I help with cooking."
+        },
+        {
+          "p": "Tell me your job and your father's job.",
+          "m": "Nói nghề của bạn và nghề của cha bằng hai câu ngắn",
+          "h": "I am a + job. He is a + job.",
+          "s": "I am a student. He is a doctor."
+        }
+      ]
+    },
+    {
+      "t": "Ôn tập: Sở thích và khả năng",
+      "e": [
+        {
+          "p": "What do you like to do in free time?",
+          "m": "Nói một hoạt động bạn thích làm lúc rảnh",
+          "h": "I like to + V OR I like + V-ing",
+          "s": "I like to watch movies."
+        },
+        {
+          "p": "Can you play any instrument?",
+          "m": "Nói bạn có thể chơi nhạc cụ nào hay không",
+          "h": "S + can/can't + V",
+          "s": "No, I can't play an instrument."
+        },
+        {
+          "p": "Do you like sports and can you play one?",
+          "m": "Nói bạn có thích thể thao không và có thể chơi môn nào",
+          "h": "I like sports. I can play + sport",
+          "s": "Yes, I like sports. I can play badminton."
+        },
+        {
+          "p": "Which hobby do you do every day?",
+          "m": "Nói một sở thích bạn làm mỗi ngày",
+          "h": "I + V(s) + every day",
+          "s": "I read every day."
+        },
+        {
+          "p": "Can you swim and do you like swimming?",
+          "m": "Trả lời cả hai: có thể bơi và có thích bơi không",
+          "h": "S + can/can't + V. Yes/No, I + like/ do not like + V-ing",
+          "s": "Yes, I can swim. Yes, I like swimming."
+        }
+      ]
+    },
+    {
+      "t": "Ôn tập: Thói quen và nơi chốn",
+      "e": [
+        {
+          "p": "What time do you go to school?",
+          "m": "Nói giờ bạn đến trường",
+          "h": "I go to school at + time",
+          "s": "I go to school at seven thirty."
+        },
+        {
+          "p": "Do you study at home or at school?",
+          "m": "Nói nơi bạn học thường xuyên",
+          "h": "I study at + place",
+          "s": "I study at home."
+        },
+        {
+          "p": "Where do you eat lunch?",
+          "m": "Nói nơi bạn ăn trưa",
+          "h": "I eat lunch at + place",
+          "s": "I eat lunch at school."
+        },
+        {
+          "p": "Do you go to the park on weekends?",
+          "m": "Nói bạn có đi công viên cuối tuần hay không",
+          "h": "Yes/No, I + go/ do not go + to the park on weekends",
+          "s": "Yes, I go to the park on weekends."
+        },
+        {
+          "p": "Tell me your daily routine in one sentence.",
+          "m": "Nói một câu về thói quen hàng ngày (ví dụ: wake up, go to school, study)",
+          "h": "S + V(s) + and + V(s)",
+          "s": "I get up, go to school, and study."
+        }
+      ]
+    },
+    {
+      "t": "Ôn tập tổng hợp 1",
+      "e": [
+        {
+          "p": "Hello, who are you?",
+          "m": "Chào và giới thiệu tên của bạn bằng [Your Name]",
+          "h": "I am + [Your Name]",
+          "s": "Hello, I am [Your Name]."
+        },
+        {
+          "p": "How old are you and where do you live?",
+          "m": "Nói tuổi và nơi bạn sống mỗi thông tin một câu",
+          "h": "I am + number + years old. I live in + place",
+          "s": "I am 18 years old. I live in Hanoi."
+        },
+        {
+          "p": "Do you have a family?",
+          "m": "Nói ngắn bạn có gia đình không và số thành viên",
+          "h": "Yes/No, There are + number + people in my family",
+          "s": "Yes, there are four people in my family."
+        },
+        {
+          "p": "What do you do after school?",
+          "m": "Nói một hoạt động bạn làm sau khi tan học",
+          "h": "I + V(s) + after school",
+          "s": "I do my homework after school."
+        },
+        {
+          "p": "Can you help me? Tell your name and one skill.",
+          "m": "Nói tên (dùng [Your Name]) và một kỹ năng bạn có",
+          "h": "I am + [Your Name]. I can + V",
+          "s": "I am [Your Name]. I can cook."
+        }
+      ]
+    },
+    {
+      "t": "Ôn tập tổng hợp 2",
+      "e": [
+        {
+          "p": "Hi, tell me about your family and job.",
+          "m": "Nói về gia đình (một câu) và nghề của bạn (một câu)",
+          "h": "There are + number + people. I am a + job",
+          "s": "There are four people in my family. I am a student."
+        },
+        {
+          "p": "Do you like your town?",
+          "m": "Nói bạn có thích nơi bạn sống không",
+          "h": "Yes/No, I + like/ do not like + my town",
+          "s": "Yes, I like my town."
+        },
+        {
+          "p": "What is your favorite hobby and can you do it well?",
+          "m": "Nói sở thích yêu thích và khả năng làm nó (ngắn)",
+          "h": "My favorite hobby is + hobby. I can/can't + V",
+          "s": "My favorite hobby is reading. I can read well."
+        },
+        {
+          "p": "When do you study English?",
+          "m": "Nói thời gian bạn học tiếng Anh (mỗi ngày/sometimes)",
+          "h": "I study English + every day/sometimes",
+          "s": "I study English every day."
+        },
+        {
+          "p": "Say three short facts about you.",
+          "m": "Nói ba thông tin ngắn: tên, tuổi, sở thích",
+          "h": "I am + [Your Name]. I am + number. I like + V-ing",
+          "s": "I am [Your Name]. I am 17 years old. I like football."
+        }
+      ]
+    }
+  ]
+}

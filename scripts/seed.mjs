@@ -2,7 +2,8 @@ import { spawnSync } from 'node:child_process';
 import process from 'node:process';
 
 const seeds = {
-  content: 'apps/content-service/src/prisma/seed-levels.ts',
+  'content:levels': 'apps/content-service/src/prisma/seed-levels.ts',
+  'content:categories': 'apps/content-service/src/prisma/seed-categories.ts',
 };
 
 const serviceKey = process.argv[2];
