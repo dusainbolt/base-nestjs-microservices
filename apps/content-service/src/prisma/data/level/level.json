@@ -1,144 +1,113 @@
 {
   "levels": [
     {
-      "level": 1,
+      "lvl": 1,
       "code": "BEGINNER",
-      "description": "Người mới bắt đầu, chỉ nói được câu đơn rất cơ bản",
-      "outputRequirements": {
-        "sentenceCount": "1 câu",
-        "grammar": ["S + be (am/is/are)", "S + can + V", "S + V(s/es)"],
-        "vocabulary": "Từ vựng cơ bản: nghề nghiệp, gia đình, hoạt động hàng ngày",
-        "connectors": "Không yêu cầu",
-        "tense": ["Present Simple"],
-        "fluency": "Có thể ngập ngừng, nói từng từ",
-        "complexity": "Rất thấp"
+      "desc": "Câu đơn rất cơ bản, chỉ truyền đạt 1 ý",
+      "req": {
+        "gram": "S + be (am/is/are) + N/Adj, S + V(s/es) + O, S + can/can't + V, There is/are, What/Who/Where + be...?, Do/Does + S + V?",
+        "vocab": "Nghề nghiệp, gia đình, đồ vật, số đếm, màu sắc, hàng ngày",
+        "vocabCap": {
+          "cefr": "A1",
+          "maxWords": 300,
+          "allowed": [
+            "Danh từ cơ bản: mother, father, sister, brother, friend, school, house, book, food, water, dog, cat",
+            "Động từ phổ biến nhất: be, have, go, come, like, want, eat, drink, play, study, work, live, see",
+            "Tính từ đơn giản (1 âm tiết): big, small, good, bad, hot, cold, happy, sad, old, young, tall, short",
+            "Số đếm: 1-100",
+            "Màu sắc cơ bản: red, blue, green, yellow, white, black",
+            "Thời gian đơn giản: today, now, every day, morning, night"
+          ],
+          "avoid": [
+            "Từ nhiều âm tiết phức tạp (ví dụ: independent, environment, professional)",
+            "Phrasal verbs (ví dụ: get up, look after)",
+            "Idioms, thành ngữ",
+            "Từ chuyên ngành hoặc từ hiếm gặp"
+          ]
+        },
+        "conn": "Không yêu cầu",
+        "tense": "Present Simple",
+        "cmplx": "Rất thấp"
       },
-      "examples": [
+      "ex": [
         {
-          "context": "Everyday",
-          "vi": "Tôi là học sinh.",
-          "en": "I am a student."
-        },
-        {
-          "context": "Daily Action",
-          "vi": "Tôi đi làm mỗi ngày.",
-          "en": "I go to work every day."
-        },
-        {
-          "context": "Niche - Medical",
-          "vi": "Tôi là bác sĩ khoa nội.",
-          "en": "I am an internal medicine doctor."
+          "vi": "Tôi là sinh viên và tôi có thể nói tiếng Anh.",
+          "en": "I am a student and I can speak English."
         }
       ]
     },
     {
-      "level": 2,
+      "lvl": 2,
       "code": "ELEMENTARY",
-      "description": "Có thể nói nhiều câu đơn, bắt đầu có liên kết đơn giản",
-      "outputRequirements": {
-        "sentenceCount": "2-3 câu",
-        "grammar": [
-          "Present Simple",
-          "Present continuous",
-          "S + be + adjective",
-          "S + V(s/es)"
-        ],
-        "vocabulary": "Từ vựng phổ biến + tính từ cơ bản",
-        "connectors": ["and", "but"],
-        "adverbs": ["always", "often", "usually", "sometimes"],
-        "fluency": "Có thể ngập ngừng nhẹ, nhưng nói được thành câu",
-        "complexity": "Thấp"
+      "desc": "2 câu đơn liên tiếp, có liên kết cơ bản",
+      "req": {
+        "gram": "S + be + V-ing, S + V(s/es) + adv of freq (always/often/sometimes), How much/many...?, I like/want/need + N/to V, There are + số + N, Prepositions (in/on/at/to)",
+        "vocab": "Thông dụng + tính từ đơn giản (big, small, good, bad, hot, cold)",
+        "vocabCap": {
+          "cefr": "A1–A2",
+          "maxWords": 600,
+          "allowed": [
+            "Tất cả từ Level 1, mở rộng thêm:",
+            "Tính từ 2 âm tiết phổ biến: happy, hungry, tired, busy, pretty, funny, angry, lucky",
+            "Trạng từ tần suất: always, often, usually, sometimes, never, still",
+            "Giới từ: in, on, at, to, from, with, near, next to, behind, in front of",
+            "Phrasal verbs cực kỳ phổ biến: get up, go out, come back, wake up",
+            "Từ về cảm xúc đơn giản: love, hate, enjoy, miss, feel",
+            "Từ về thời gian: yesterday, tomorrow, last week, next week, every morning"
+          ],
+          "avoid": [
+            "Từ trừu tượng (ví dụ: opportunity, responsibility, achievement)",
+            "Phrasal verbs ít gặp (ví dụ: put off, bring up, carry out)",
+            "Idioms, thành ngữ",
+            "Từ học thuật hoặc chuyên ngành"
+          ]
+        },
+        "conn": "and, but",
+        "tense": "Present Simple, Present Continuous",
+        "cmplx": "Thấp"
       },
-      "examples": [
+      "ex": [
         {
-          "context": "Office",
-          "vi": "Tôi đi làm bằng xe máy. Tôi thường bắt đầu làm việc lúc 8 giờ sáng.",
-          "en": "I go to work by motorbike. I usually start work at 8 AM."
-        },
-        {
-          "context": "Lifestyle",
-          "vi": "Tôi thích cà phê. Nó rất ngon.",
-          "en": "I like coffee. It is very good."
-        },
-        {
-          "context": "Niche - IT",
-          "vi": "Tôi dùng laptop Macbook. Nó rất nhanh và nhẹ.",
-          "en": "I use a Macbook laptop. It is very fast and light."
+          "vi": "Tôi đang học tiếng Anh. Tôi thường luyện tập mỗi tối.",
+          "en": "I am learning English. I usually practice every evening."
         }
       ]
     },
     {
-      "level": 3,
+      "lvl": 3,
       "code": "PRE_INTERMEDIATE",
-      "description": "Có thể kể lại sự kiện, có logic và liên kết rõ ràng",
-      "outputRequirements": {
-        "sentenceCount": "3-4 câu",
-        "grammar": [
-          "Present Simple",
-          "Present continuous",
-          "Past Simple (bắt buộc)",
-          "Future simple",
-          "Basic compound sentences"
-        ],
-        "connectors": ["and", "but", "so", "because"],
-        "timeExpressions": ["yesterday", "last week", "last weekend"],
-        "structure": "Có trình tự: thời gian → hành động → kết quả",
-        "fluency": "Ít ngập ngừng hơn, nói thành đoạn ngắn",
-        "complexity": "Trung bình thấp"
+      "desc": "2-3 câu đơn Kể lại sự kiện, có trình tự thời gian và logic nhân quả",
+      "req": {
+        "gram": "S + V-ed/V2 (Past Simple regular/irregular), S + will/going to + V, Comparatives (more/adj-er + than), Should/Must/Have to + V, Compound sentences (2 clause nối bằng connector)",
+        "vocab": "Đa dạng: cảm xúc, thời tiết, du lịch, mua sắm, công việc",
+        "vocabCap": {
+          "cefr": "A2–B1",
+          "maxWords": 1200,
+          "allowed": [
+            "Tất cả từ Level 1–2, mở rộng thêm:",
+            "Cảm xúc và tâm trạng: excited, nervous, disappointed, surprised, proud, worried, relaxed",
+            "Du lịch & địa điểm: airport, hotel, station, market, restaurant, beach, mountain, ticket, luggage",
+            "Mua sắm: cheap, expensive, price, sale, discount, pay, cash, card, try on, size",
+            "Công việc & học tập: office, meeting, deadline, project, exam, grade, practice, improve",
+            "Thời tiết: sunny, cloudy, rainy, windy, cold, warm, temperature, forecast",
+            "Phrasal verbs phổ biến: look for, find out, take care of, give up, look forward to",
+            "Từ so sánh: better, worse, more comfortable, less expensive, the best, the most"
+          ],
+          "avoid": [
+            "Từ học thuật cao (ví dụ: consequently, nevertheless, furthermore)",
+            "Từ chuyên ngành sâu (luật, y tế, kỹ thuật...)",
+            "Idioms phức tạp hoặc ít gặp",
+            "Từ có quá 4 âm tiết trừ khi rất phổ biến (ví dụ: information thì OK, nhưng tránh: approximately, sophisticated)"
+          ]
+        },
+        "conn": "and, but, so, because, then",
+        "tense": "Present Simple, Present Continuous, Past Simple, Future Simple (will/going to)",
+        "cmplx": "Trung bình thấp"
       },
-      "examples": [
+      "ex": [
         {
-          "context": "Everyday",
-          "vi": "Cuối tuần trước tôi đi Đà Lạt. Thời tiết hơi lạnh nhưng đồ ăn rất ngon.",
-          "en": "Last weekend, I went to Da Lat. The weather was a bit cold but the food was delicious."
-        },
-        {
-          "context": "Daily Story",
-          "vi": "Hôm qua tôi đi siêu thị. Tôi mua nhiều đồ vì đang giảm giá.",
-          "en": "Yesterday, I went to the supermarket. I bought many things because they were on sale."
-        },
-        {
-          "context": "Niche - HR",
-          "vi": "Hôm qua tôi đã phỏng vấn 3 ứng viên. Một người trong số họ rất tiềm năng.",
-          "en": "I interviewed three candidates yesterday. One of them was very promising."
-        }
-      ]
-    },
-    {
-      "level": 4,
-      "code": "INTERMEDIATE",
-      "description": "Có thể nói đoạn văn có cấu trúc, diễn đạt quan điểm cá nhân",
-      "outputRequirements": {
-        "sentenceCount": "4-5 câu",
-        "grammar": [
-          "Complex sentences",
-          "If (condition)",
-          "When (time clause)",
-          "Relative clause (who, which)",
-          "Although / However"
-        ],
-        "connectors": ["because", "so", "however", "although"],
-        "comparison": ["better", "more ... than"],
-        "structure": "Mở đầu → phát triển → kết luận",
-        "opinion": "Phải có quan điểm cá nhân + lý do",
-        "fluency": "Nói tương đối trôi chảy, ít ngập ngừng",
-        "complexity": "Trung bình"
-      },
-      "examples": [
-        {
-          "context": "Office",
-          "vi": "Tôi thích làm việc nhóm hơn làm việc độc lập. Nó giúp chúng tôi giải quyết vấn đề nhanh hơn và học hỏi lẫn nhau.",
-          "en": "I prefer teamwork to working independently. It helps us solve problems faster and learn from each other."
-        },
-        {
-          "context": "Opinion",
-          "vi": "Nếu tôi có thời gian, tôi sẽ học thêm tiếng Anh vì nó rất quan trọng cho công việc của tôi.",
-          "en": "If I have time, I will study English more because it is very important for my job."
-        },
-        {
-          "context": "Niche - Finance",
-          "vi": "Do doanh thu giảm, chúng ta cần cắt giảm chi phí. Tôi đề xuất giảm ngân sách marketing cho tháng tới.",
-          "en": "Due to the decrease in revenue, we need to cut costs. I suggest reducing the marketing budget for next month."
+          "vi": "Hôm qua tôi đi siêu thị vì đang giảm giá. Tôi sẽ quay lại tuần sau.",
+          "en": "Yesterday I went to the supermarket because it was on sale. I will go back next week."
         }
       ]
     }

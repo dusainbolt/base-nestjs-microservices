@@ -22,21 +22,21 @@ async function main() {
   console.log('--- 🌱 Starting seeding levels from level.json ---');
 
   for (const item of data.levels) {
-    // Upsert dựa trên id (bây giờ là @id)
+    // Mapping abbreviated keys: lvl→id, desc→description, req→outputRequirements, ex→examples
     const level = await prisma.level.upsert({
-      where: { id: item.level },
+      where: { id: item.lvl },
       update: {
-        description: item.description,
+        description: item.desc,
         passThresholdScore: item.passThresholdScore || 60,
-        outputRequirements: item.outputRequirements,
-        examples: item.examples || [],
+        outputRequirements: item.req,
+        examples: item.ex || [],
       },
       create: {
-        id: item.level,
-        description: item.description,
+        id: item.lvl,
+        description: item.desc,
         passThresholdScore: item.passThresholdScore || 60,
-        outputRequirements: item.outputRequirements,
-        examples: item.examples || [],
+        outputRequirements: item.req,
+        examples: item.ex || [],
       },
     });
     console.log(`✅ Upserted Level ${level.id}`);

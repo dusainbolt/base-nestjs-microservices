@@ -1,0 +1,740 @@
+{
+  "l": 1,
+  "d": [
+    {
+      "t": "Gặp người địa phương",
+      "e": [
+        {
+          "p": "Where do you go when you travel?",
+          "m": "Nói nơi bạn thường đi trong chuyến đi này.",
+          "h": "S + V(s) (place)",
+          "s": "I go to the beach."
+        },
+        {
+          "p": "Do you talk with local people?",
+          "m": "Trả lời có hoặc không bằng một câu ngắn.",
+          "h": "S + can/can't + V",
+          "s": "I can talk with local people."
+        },
+        {
+          "p": "Who is with you on the trip?",
+          "m": "Nói người cùng bạn đi (một từ nếu có thể).",
+          "h": "S + be + N",
+          "s": "My friend is with me."
+        },
+        {
+          "p": "Is the place friendly?",
+          "m": "Nói nơi đó có thân thiện hay không bằng một câu.",
+          "h": "S + be + Adj",
+          "s": "The place is friendly."
+        },
+        {
+          "p": "Can you recommend a local spot?",
+          "m": "Nói một nơi bạn thích ở địa phương.",
+          "h": "S + like + N",
+          "s": "I like the small cafe."
+        }
+      ]
+    },
+    {
+      "t": "Kể về điểm đến",
+      "e": [
+        {
+          "p": "What is the place like?",
+          "m": "Mô tả một tính từ về nơi bạn đến.",
+          "h": "S + be + Adj",
+          "s": "The city is beautiful."
+        },
+        {
+          "p": "Is there a beach or a mountain?",
+          "m": "Nói có bãi biển hoặc núi không bằng một câu.",
+          "h": "There is / There are",
+          "s": "There is a beach."
+        },
+        {
+          "p": "Do you like the food there?",
+          "m": "Nói bạn thích hay không thích ẩm thực ở đó.",
+          "h": "S + like / don't like + N",
+          "s": "I like the food."
+        },
+        {
+          "p": "How is the city at night?",
+          "m": "Mô tả ngắn về thành phố lúc tối.",
+          "h": "S + be + Adj",
+          "s": "The city is quiet at night."
+        },
+        {
+          "p": "Do you visit the famous place?",
+          "m": "Nói bạn có đến nơi nổi tiếng không bằng một câu.",
+          "h": "S + do/does + V? or S + V(s)",
+          "s": "I visit the famous park."
+        }
+      ]
+    },
+    {
+      "t": "Nói về thời tiết khi đi",
+      "e": [
+        {
+          "p": "How is the weather?",
+          "m": "Nói một từ về thời tiết (ví dụ: sunny).",
+          "h": "S + be + Adj",
+          "s": "It is sunny."
+        },
+        {
+          "p": "Is it hot or cold?",
+          "m": "Trả lời hot hoặc cold bằng một câu.",
+          "h": "It + be + Adj",
+          "s": "It is hot."
+        },
+        {
+          "p": "Do you need an umbrella?",
+          "m": "Nói có cần ô không bằng một câu có can/can't.",
+          "h": "S + can/can't + V",
+          "s": "I cannot need an umbrella." 
+        },
+        {
+          "p": "Can you swim in that weather?",
+          "m": "Nói có thể bơi hay không bằng một câu ngắn.",
+          "h": "S + can/can't + V",
+          "s": "I can swim in warm weather."
+        },
+        {
+          "p": "Does the weather make you happy?",
+          "m": "Nói thời tiết có làm bạn vui hay không bằng một câu.",
+          "h": "S + be + Adj / S + feel + Adj",
+          "s": "The weather makes me happy."
+        }
+      ]
+    },
+    {
+      "t": "Đồ mang theo",
+      "e": [
+        {
+          "p": "What do you pack?",
+          "m": "Nói một đồ bạn mang theo (một từ đủ).",
+          "h": "S + V(s) + O",
+          "s": "I pack a camera."
+        },
+        {
+          "p": "Do you bring a hat?",
+          "m": "Trả lời yes hoặc no bằng một câu ngắn.",
+          "h": "Yes: I do / No: I don't",
+          "s": "I bring a hat."
+        },
+        {
+          "p": "Is there a map in your bag?",
+          "m": "Nói có bản đồ trong túi không bằng một câu.",
+          "h": "There is / There isn't",
+          "s": "There is a map in my bag."
+        },
+        {
+          "p": "Can you carry heavy luggage?",
+          "m": "Nói bạn có thể mang hành lý nặng không bằng một câu.",
+          "h": "S + can/can't + V",
+          "s": "I cannot carry heavy luggage."
+        },
+        {
+          "p": "What is one useful item?",
+          "m": "Nói một đồ hữu ích bạn mang theo.",
+          "h": "S + have + N",
+          "s": "I have a water bottle."
+        }
+      ]
+    },
+    {
+      "t": "Bạn đồng hành",
+      "e": [
+        {
+          "p": "Who is your travel friend?",
+          "m": "Nói một người bạn đi cùng (một từ).",
+          "h": "S + be + N",
+          "s": "My sister is my travel friend."
+        },
+        {
+          "p": "Do you like to travel with family?",
+          "m": "Trả lời thích hoặc không thích bằng một câu.",
+          "h": "S + like / don't like + V-ing",
+          "s": "I like to travel with family."
+        },
+        {
+          "p": "Can your friend cook on the trip?",
+          "m": "Nói bạn có thể nấu ăn không bằng một câu.",
+          "h": "S + can/can't + V",
+          "s": "My friend can cook."
+        },
+        {
+          "p": "Is your friend funny?",
+          "m": "Nói bạn đó có vui tính hay không bằng một câu.",
+          "h": "S + be + Adj",
+          "s": "My friend is funny."
+        },
+        {
+          "p": "Do you share photos with them?",
+          "m": "Nói bạn có chia sẻ ảnh không bằng một câu.",
+          "h": "S + V(s) + O",
+          "s": "I share photos with my friend."
+        }
+      ]
+    },
+    {
+      "t": "Món ăn khi du lịch",
+      "e": [
+        {
+          "p": "What do you eat there?",
+          "m": "Nói một món bạn ăn ở chỗ đó.",
+          "h": "S + V(s) + O",
+          "s": "I eat seafood."
+        },
+        {
+          "p": "Do you like local food?",
+          "m": "Nói bạn có thích ăn địa phương không.",
+          "h": "S + like / don't like + N",
+          "s": "I like local food."
+        },
+        {
+          "p": "Is the food spicy?",
+          "m": "Trả lời món ăn có cay hay không bằng một câu.",
+          "h": "S + be + Adj",
+          "s": "The food is spicy."
+        },
+        {
+          "p": "Can you cook local dishes?",
+          "m": "Nói bạn có thể nấu món địa phương không bằng một câu.",
+          "h": "S + can/can't + V",
+          "s": "I cannot cook local dishes."
+        },
+        {
+          "p": "Do you buy snacks for the trip?",
+          "m": "Nói bạn có mua đồ ăn nhẹ không bằng một câu.",
+          "h": "S + V(s) + O",
+          "s": "I buy snacks for the trip."
+        }
+      ]
+    },
+    {
+      "t": "Hoạt động cuối tuần",
+      "e": [
+        {
+          "p": "What activity do you do?",
+          "m": "Nói một hoạt động bạn làm cuối tuần đó.",
+          "h": "S + V(s) + O",
+          "s": "I swim at the beach."
+        },
+        {
+          "p": "Do you rest or walk more?",
+          "m": "Nói bạn nghỉ hay đi bộ nhiều hơn bằng một câu.",
+          "h": "S + V(s) (rest/walk)",
+          "s": "I walk more."
+        },
+        {
+          "p": "Is the activity easy?",
+          "m": "Nói hoạt động có dễ hay không bằng một câu.",
+          "h": "S + be + Adj",
+          "s": "The activity is easy."
+        },
+        {
+          "p": "Can you do this activity alone?",
+          "m": "Nói bạn có thể làm một mình không bằng một câu.",
+          "h": "S + can/can't + V",
+          "s": "I can do this alone."
+        },
+        {
+          "p": "Do you like this activity?",
+          "m": "Nói bạn có thích hoạt động này không bằng một câu.",
+          "h": "S + like / don't like + N",
+          "s": "I like this activity."
+        }
+      ]
+    },
+    {
+      "t": "Một bức ảnh kỷ niệm",
+      "e": [
+        {
+          "p": "Do you have a travel photo?",
+          "m": "Trả lời có hoặc không bằng một câu ngắn.",
+          "h": "S + have / don't have + N",
+          "s": "I have a travel photo."
+        },
+        {
+          "p": "What is in the photo?",
+          "m": "Nói một vật hoặc người trong ảnh.",
+          "h": "There is + N / S + V(s) + O",
+          "s": "There is the sea in the photo."
+        },
+        {
+          "p": "Is the photo colorful?",
+          "m": "Nói ảnh có nhiều màu hay không bằng một câu.",
+          "h": "S + be + Adj",
+          "s": "The photo is colorful."
+        },
+        {
+          "p": "Do you keep the photo in your bag?",
+          "m": "Nói bạn có giữ ảnh trong túi không bằng một câu.",
+          "h": "S + V(s) + O",
+          "s": "I keep the photo in my bag."
+        },
+        {
+          "p": "Do you share the photo online?",
+          "m": "Nói bạn có chia sẻ ảnh lên mạng không bằng một câu.",
+          "h": "S + V(s) + O",
+          "s": "I share the photo online."
+        }
+      ]
+    },
+    {
+      "t": "Kỷ niệm vui",
+      "e": [
+        {
+          "p": "Is the trip fun?",
+          "m": "Nói chuyến đi có vui không bằng một câu.",
+          "h": "S + be + Adj",
+          "s": "The trip is fun."
+        },
+        {
+          "p": "What makes you smile?",
+          "m": "Nói một lý do làm bạn cười (một từ).",
+          "h": "S + V(s) + O",
+          "s": "The food makes me smile."
+        },
+        {
+          "p": "Do you laugh with friends?",
+          "m": "Nói bạn có cười với bạn bè không bằng một câu.",
+          "h": "S + V(s) + O",
+          "s": "I laugh with my friends."
+        },
+        {
+          "p": "Can you dance at the trip?",
+          "m": "Nói bạn có thể nhảy không bằng một câu.",
+          "h": "S + can/can't + V",
+          "s": "I can dance at the trip."
+        },
+        {
+          "p": "Do you remember this happy day?",
+          "m": "Nói bạn có nhớ ngày đó không bằng một câu.",
+          "h": "S + V(s) + O",
+          "s": "I remember this happy day."
+        }
+      ]
+    },
+    {
+      "t": "Ghé thăm công viên",
+      "e": [
+        {
+          "p": "Is there a park near your hotel?",
+          "m": "Nói có công viên gần khách sạn không bằng một câu.",
+          "h": "There is / There isn't",
+          "s": "There is a park near my hotel."
+        },
+        {
+          "p": "Do you walk in the park?",
+          "m": "Trả lời bạn có đi bộ trong công viên không.",
+          "h": "S + V(s) + O",
+          "s": "I walk in the park."
+        },
+        {
+          "p": "What do you see there?",
+          "m": "Nói một vật bạn thấy trong công viên.",
+          "h": "There is + N",
+          "s": "There is a big tree."
+        },
+        {
+          "p": "Is the park clean?",
+          "m": "Nói công viên có sạch hay không bằng một câu.",
+          "h": "S + be + Adj",
+          "s": "The park is clean."
+        },
+        {
+          "p": "Can children play there?",
+          "m": "Nói trẻ em có thể chơi không bằng một câu.",
+          "h": "S + can/can't + V",
+          "s": "Children can play there."
+        }
+      ]
+    },
+    {
+      "t": "Kinh nghiệm đặt phòng",
+      "e": [
+        {
+          "p": "Do you book a room online?",
+          "m": "Nói bạn có đặt phòng trực tuyến không bằng một câu.",
+          "h": "S + V(s) + O",
+          "s": "I book a room online."
+        },
+        {
+          "p": "Is the room small or big?",
+          "m": "Nói phòng nhỏ hay lớn bằng một câu.",
+          "h": "S + be + Adj",
+          "s": "The room is small."
+        },
+        {
+          "p": "Do you like the hotel bed?",
+          "m": "Nói bạn có thích giường khách sạn không.",
+          "h": "S + like / don't like + N",
+          "s": "I like the hotel bed."
+        },
+        {
+          "p": "Can you sleep well there?",
+          "m": "Nói bạn có ngủ ngon không bằng một câu.",
+          "h": "S + can/can't + V",
+          "s": "I can sleep well there."
+        },
+        {
+          "p": "Is the hotel near the beach?",
+          "m": "Nói khách sạn có gần biển không bằng một câu.",
+          "h": "There is / There are / S + be + Adj",
+          "s": "The hotel is near the beach."
+        }
+      ]
+    },
+    {
+      "t": "Giao thông khi đi lại",
+      "e": [
+        {
+          "p": "How do you travel there?",
+          "m": "Nói một phương tiện bạn dùng (bus, car...).",
+          "h": "S + V(s) + O",
+          "s": "I travel by bus."
+        },
+        {
+          "p": "Is the road busy?",
+          "m": "Nói đường có đông không bằng một câu.",
+          "h": "S + be + Adj",
+          "s": "The road is busy."
+        },
+        {
+          "p": "Do you wait long for transport?",
+          "m": "Nói bạn có chờ lâu không bằng một câu.",
+          "h": "S + V(s) + O",
+          "s": "I wait long for transport."
+        },
+        {
+          "p": "Can you take a taxi easily?",
+          "m": "Nói bạn có thể gọi taxi dễ không bằng một câu.",
+          "h": "S + can/can't + V",
+          "s": "I can take a taxi easily."
+        },
+        {
+          "p": "Do you like walking in the city?",
+          "m": "Nói bạn có thích đi bộ trong thành phố không.",
+          "h": "S + like / don't like + V-ing",
+          "s": "I like walking in the city."
+        }
+      ]
+    },
+    {
+      "t": "Mua quà lưu niệm",
+      "e": [
+        {
+          "p": "Do you buy a souvenir?",
+          "m": "Trả lời bạn có mua quà lưu niệm không bằng một câu.",
+          "h": "S + V(s) + O",
+          "s": "I buy a souvenir."
+        },
+        {
+          "p": "What is the souvenir?",
+          "m": "Nói một món quà bạn mua.",
+          "h": "S + V(s) + O",
+          "s": "I buy a keychain."
+        },
+        {
+          "p": "Is the price cheap or expensive?",
+          "m": "Nói giá rẻ hay đắt bằng một câu.",
+          "h": "S + be + Adj",
+          "s": "The price is cheap."
+        },
+        {
+          "p": "Do you pay cash or card?",
+          "m": "Nói bạn trả bằng tiền mặt hay thẻ bằng một câu.",
+          "h": "S + pay + N",
+          "s": "I pay by cash."
+        },
+        {
+          "p": "Can you wrap the gift?",
+          "m": "Nói có thể gói quà không bằng một câu.",
+          "h": "S + can/can't + V",
+          "s": "They can wrap the gift."
+        }
+      ]
+    },
+    {
+      "t": "Cảm xúc khi về nhà",
+      "e": [
+        {
+          "p": "Do you feel happy after the trip?",
+          "m": "Trả lời bạn có vui không bằng một câu.",
+          "h": "S + feel + Adj",
+          "s": "I feel happy after the trip."
+        },
+        {
+          "p": "Is your house comfortable now?",
+          "m": "Nói nhà bạn có thoải mái không bằng một câu.",
+          "h": "S + be + Adj",
+          "s": "My house is comfortable now."
+        },
+        {
+          "p": "Do you miss the place?",
+          "m": "Nói bạn có nhớ nơi đó không bằng một câu.",
+          "h": "S + miss + N",
+          "s": "I miss the place."
+        },
+        {
+          "p": "Can you relax at home?",
+          "m": "Nói bạn có thể thư giãn ở nhà không bằng một câu.",
+          "h": "S + can/can't + V",
+          "s": "I can relax at home."
+        },
+        {
+          "p": "Do you plan another trip?",
+          "m": "Nói bạn có dự định chuyến đi khác không bằng một câu.",
+          "h": "S + V(s) + O",
+          "s": "I plan another trip."
+        }
+      ]
+    },
+    {
+      "t": "Mất đồ nhỏ",
+      "e": [
+        {
+          "p": "Did you lose a small item?",
+          "m": "Trả lời có hoặc không bằng một câu ngắn.",
+          "h": "S + V(s) + O",
+          "s": "I lose a small item."
+        },
+        {
+          "p": "What did you lose?",
+          "m": "Nói một đồ nhỏ bạn mất (một từ).",
+          "h": "S + V(s) + O",
+          "s": "I lose a wallet."
+        },
+        {
+          "p": "Is the item important?",
+          "m": "Nói đồ đó có quan trọng không bằng một câu.",
+          "h": "S + be + Adj",
+          "s": "The item is important."
+        },
+        {
+          "p": "Can someone help you?",
+          "m": "Nói có ai giúp bạn không bằng một câu.",
+          "h": "S + can/can't + V",
+          "s": "Someone can help me."
+        },
+        {
+          "p": "Do you find it later?",
+          "m": "Nói bạn có tìm thấy sau đó không bằng một câu.",
+          "h": "S + V(s) + O",
+          "s": "I find it later."
+        }
+      ]
+    },
+    {
+      "t": "So sánh hai chuyến đi",
+      "e": [
+        {
+          "p": "Is this trip better than the last?",
+          "m": "Nói chuyến đi này tốt hơn hay không bằng một câu.",
+          "h": "This trip is / is not + Adj",
+          "s": "This trip is better."
+        },
+        {
+          "p": "Which place is bigger?",
+          "m": "Nói nơi lớn hơn bằng một câu ngắn.",
+          "h": "S + be + bigger",
+          "s": "The city is bigger."
+        },
+        {
+          "p": "Do you like the first or second trip more?",
+          "m": "Nói bạn thích chuyến nào hơn bằng một câu.",
+          "h": "I like + N more",
+          "s": "I like the second trip more."
+        },
+        {
+          "p": "Is the food here more tasty?",
+          "m": "Nói thức ăn ở đây có ngon hơn không bằng một câu.",
+          "h": "S + be + Adj",
+          "s": "The food here is more tasty."
+        },
+        {
+          "p": "Can you stay longer next time?",
+          "m": "Nói bạn có thể ở lâu hơn không bằng một câu.",
+          "h": "S + can/can't + V",
+          "s": "I can stay longer next time."
+        }
+      ]
+    },
+    {
+      "t": "Lời khuyên cho bạn",
+      "e": [
+        {
+          "p": "Do you give travel tips?",
+          "m": "Nói bạn có đưa lời khuyên không bằng một câu.",
+          "h": "S + do/does + V? or S + V(s) + O",
+          "s": "I give travel tips."
+        },
+        {
+          "p": "What is one tip?",
+          "m": "Nói một mẹo ngắn cho chuyến đi.",
+          "h": "S + V(s) + O",
+          "s": "Pack light bags."
+        },
+        {
+          "p": "Is safety important?",
+          "m": "Nói an toàn có quan trọng không bằng một câu.",
+          "h": "S + be + Adj",
+          "s": "Safety is important."
+        },
+        {
+          "p": "Can you share a useful app?",
+          "m": "Nói một app hữu ích bằng một câu.",
+          "h": "S + V(s) + O",
+          "s": "I use a map app."
+        },
+        {
+          "p": "Do you tell friends about your tips?",
+          "m": "Nói bạn có nói mẹo với bạn bè không bằng một câu.",
+          "h": "S + V(s) + O",
+          "s": "I tell friends about my tips."
+        }
+      ]
+    },
+    {
+      "t": "Sở thích khi đi du lịch",
+      "e": [
+        {
+          "p": "Do you like relaxing or exploring?",
+          "m": "Nói bạn thích thư giãn hay khám phá (một từ).",
+          "h": "S + like + V-ing",
+          "s": "I like exploring."
+        },
+        {
+          "p": "Is shopping a hobby for you?",
+          "m": "Nói mua sắm có phải sở thích không bằng một câu.",
+          "h": "S + be + N/Adj",
+          "s": "Shopping is a hobby for me."
+        },
+        {
+          "p": "Do you take photos often?",
+          "m": "Nói bạn có chụp ảnh thường xuyên không bằng một câu.",
+          "h": "S + V(s) + O",
+          "s": "I take photos often."
+        },
+        {
+          "p": "Can you try local music?",
+          "m": "Nói bạn có thể thử âm nhạc địa phương không bằng một câu.",
+          "h": "S + can/can't + V",
+          "s": "I can try local music."
+        },
+        {
+          "p": "Do you enjoy walking in new places?",
+          "m": "Nói bạn có thích đi bộ ở nơi mới không bằng một câu.",
+          "h": "S + enjoy + V-ing",
+          "s": "I enjoy walking in new places."
+        }
+      ]
+    },
+    {
+      "t": "Kế hoạch cuối tuần",
+      "e": [
+        {
+          "p": "Do you plan your weekend trip?",
+          "m": "Nói bạn có lên kế hoạch không bằng một câu.",
+          "h": "S + V(s) + O",
+          "s": "I plan my weekend trip."
+        },
+        {
+          "p": "What time do you leave?",
+          "m": "Nói giờ bạn đi (dùng từ đơn giản như morning).",
+          "h": "I leave in the + time",
+          "s": "I leave in the morning."
+        },
+        {
+          "p": "Is the plan simple?",
+          "m": "Nói kế hoạch có đơn giản không bằng một câu.",
+          "h": "S + be + Adj",
+          "s": "The plan is simple."
+        },
+        {
+          "p": "Can you change the plan easily?",
+          "m": "Nói bạn có thể thay đổi kế hoạch dễ không bằng một câu.",
+          "h": "S + can/can't + V",
+          "s": "I can change the plan easily."
+        },
+        {
+          "p": "Do you pack before the day?",
+          "m": "Nói bạn có gói đồ trước ngày đi không bằng một câu.",
+          "h": "S + V(s) + O",
+          "s": "I pack before the day."
+        }
+      ]
+    },
+    {
+      "t": "Nói về lịch trình",
+      "e": [
+        {
+          "p": "Is your schedule full?",
+          "m": "Nói lịch trình có đầy không bằng một câu.",
+          "h": "S + be + Adj",
+          "s": "My schedule is full."
+        },
+        {
+          "p": "What do you do first?",
+          "m": "Nói việc bạn làm trước tiên (một hành động).",
+          "h": "S + V(s) + O",
+          "s": "I visit the museum first."
+        },
+        {
+          "p": "Do you rest in the afternoon?",
+          "m": "Nói bạn có nghỉ trưa không bằng một câu.",
+          "h": "S + V(s) + O",
+          "s": "I rest in the afternoon."
+        },
+        {
+          "p": "Can you follow the schedule?",
+          "m": "Nói bạn có thể theo lịch không bằng một câu.",
+          "h": "S + can/can't + V",
+          "s": "I can follow the schedule."
+        },
+        {
+          "p": "Do you change the plan later?",
+          "m": "Nói bạn có thay đổi kế hoạch sau không bằng một câu.",
+          "h": "S + V(s) + O",
+          "s": "I change the plan later."
+        }
+      ]
+    },
+    {
+      "t": "Ôn tập: Đoạn hội thoại ngắn",
+      "e": [
+        {
+          "p": "Where do you go on the weekend?",
+          "m": "Nói nơi bạn đi cuối tuần (một câu).",
+          "h": "S + V(s) + O",
+          "s": "I go to the mountains."
+        },
+        {
+          "p": "Do you enjoy the trip?",
+          "m": "Nói bạn có thích chuyến đi không bằng một câu.",
+          "h": "S + like / don't like + N",
+          "s": "I enjoy the trip."
+        },
+        {
+          "p": "Is there a nice hotel?",
+          "m": "Nói có khách sạn đẹp không bằng một câu.",
+          "h": "There is / S + be + Adj",
+          "s": "There is a nice hotel."
+        },
+        {
+          "p": "Can you swim or relax more?",
+          "m": "Nói bạn có thể bơi hay thư giãn hơn bằng một câu.",
+          "h": "S + can/can't + V or S + V(s) + O",
+          "s": "I can swim more."
+        },
+        {
+          "p": "Do you take many photos?",
+          "m": "Nói bạn có chụp nhiều ảnh không bằng một câu.",
+          "h": "S + V(s) + O",
+          "s": "I take many photos."
+        }
+      ]
+    }
+  ]
+}
