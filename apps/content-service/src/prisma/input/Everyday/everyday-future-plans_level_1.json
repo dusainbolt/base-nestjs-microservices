@@ -1,0 +1,530 @@
+{
+  "l": 1,
+  "d": [
+    {
+      "t": "Gặp gỡ người mới",
+      "e": [
+        {
+          "p": "What do you want to be?",
+          "m": "Nói nghề nghiệp bạn muốn trong tương lai.",
+          "h": "Use 'I want to be + a/an + nghề'.",
+          "s": "I want to be a [studentJob]."
+        },
+        {
+          "p": "Do you want to study more?",
+          "m": "Trả lời có/không và nói lý do ngắn.",
+          "h": "Use 'Yes, I want...' or 'No, I don't...' + short reason.",
+          "s": "Yes, I want to study more because I like to learn."
+        },
+        {
+          "p": "Where do you want to live?",
+          "m": "Nói nơi bạn muốn sống (thành phố hoặc nơi ngắn).",
+          "h": "Use 'I want to live in + place' or use [studentCity].",
+          "s": "I want to live in [studentCity]."
+        },
+        {
+          "p": "When do you start your new class?",
+          "m": "Nói thời gian bạn bắt đầu (ví dụ: next month).",
+          "h": "Use 'I start + time'.",
+          "s": "I start next month."
+        },
+        {
+          "p": "Can you move to a new city?",
+          "m": "Trả lời có/không và cách bạn đi (1 câu).",
+          "h": "Use 'Yes, I can' or 'No, I can't' + 'I go by + car/bus'.",
+          "s": "Yes, I can; I go by bus."
+        }
+      ]
+    },
+    {
+      "t": "Nói với gia đình về kế hoạch",
+      "e": [
+        {
+          "p": "What do you do next year?",
+          "m": "Nói một việc chính bạn làm năm tới (học/đi làm...).",
+          "h": "Use 'I + verb' (present simple) + time word.",
+          "s": "I study more next year."
+        },
+        {
+          "p": "Can you help at home?",
+          "m": "Trả lời có/không và nêu một việc bạn làm để giúp nhà.",
+          "h": "Use 'Yes, I can' or 'No, I can't' + 'I + V'.",
+          "s": "Yes, I can; I wash the dishes."
+        },
+        {
+          "p": "Who do you live with now?",
+          "m": "Nói người sống cùng bạn (mẹ, bố, anh, chị...).",
+          "h": "Use 'I live with + my + family'.",
+          "s": "I live with my mother and father."
+        },
+        {
+          "p": "What time do you go to bed to study?",
+          "m": "Nói giờ bạn đi ngủ (một cụm như 'at 10 pm').",
+          "h": "Use 'I go to bed at + time'.",
+          "s": "I go to bed at 10 pm."
+        },
+        {
+          "p": "Do you want to change your house?",
+          "m": "Trả lời có/không và một lý do ngắn.",
+          "h": "Use 'No, I don't' or 'Yes, I do' + reason.",
+          "s": "No, I don't want to change my house because I like it."
+        }
+      ]
+    },
+    {
+      "t": "Kế hoạch ở trường",
+      "e": [
+        {
+          "p": "What subject do you want to study?",
+          "m": "Nói môn bạn muốn học ở trường (1 từ).",
+          "h": "Use 'I want to study + subject'.",
+          "s": "I want to study English."
+        },
+        {
+          "p": "Do you go to school every day?",
+          "m": "Trả lời có/không và nói một ngày bạn đi học.",
+          "h": "Use 'Yes, I go' or 'No, I don't' + day.",
+          "s": "Yes, I go to school every day."
+        },
+        {
+          "p": "Where do you study after school?",
+          "m": "Nói nơi bạn học sau giờ chính (nhà, thư viện...).",
+          "h": "Use 'I study at + place' or 'I study at home'.",
+          "s": "I study at home after school."
+        },
+        {
+          "p": "Can you join the school club?",
+          "m": "Nói có/không và tên câu lạc bộ bạn tham gia (nếu có).",
+          "h": "Use 'Yes, I can; I join + club' or 'No, I can't'.",
+          "s": "Yes, I can; I join the music club."
+        },
+        {
+          "p": "Who helps you with study plans?",
+          "m": "Nói một người giúp bạn (teacher/mother/friend).",
+          "h": "Use 'My + person + helps me' or 'My teacher helps me'.",
+          "s": "My teacher helps me."
+        }
+      ]
+    },
+    {
+      "t": "Kế hoạch nghề nghiệp nhỏ",
+      "e": [
+        {
+          "p": "What job do you want next?",
+          "m": "Nói một công việc bạn muốn làm (1 câu).",
+          "h": "Use 'I want to be a + job'.",
+          "s": "I want to be a doctor."
+        },
+        {
+          "p": "Do you have a small job now?",
+          "m": "Trả lời có/không và nêu công việc ngắn nếu có.",
+          "h": "Use 'Yes, I work as + job' or 'No, I don't'.",
+          "s": "No, I don't have a job now."
+        },
+        {
+          "p": "Can you work on weekends?",
+          "m": "Nói có/không và một lý do ngắn.",
+          "h": "Use 'Yes, I can' or 'No, I can't' + reason.",
+          "s": "Yes, I can because I am free on weekends."
+        },
+        {
+          "p": "Where do you want to work?",
+          "m": "Nói nơi bạn muốn làm việc (trong thành phố, ở trường...).",
+          "h": "Use 'I want to work in/at + place'.",
+          "s": "I want to work in my city."
+        },
+        {
+          "p": "How do you learn the job skills?",
+          "m": "Nói cách bạn học kỹ năng (học, xem, làm).",
+          "h": "Use 'I learn by + verb (study/watch/do)'.",
+          "s": "I learn by practice and study."
+        }
+      ]
+    },
+    {
+      "t": "Kế hoạch cuối tuần",
+      "e": [
+        {
+          "p": "What do you do on Saturday?",
+          "m": "Nói một hoạt động bạn làm vào thứ bảy.",
+          "h": "Use 'I + verb (play/go/study)'.",
+          "s": "I play with my friend on Saturday."
+        },
+        {
+          "p": "Do you want to go out this weekend?",
+          "m": "Trả lời có/không và nói một nơi bạn muốn đến.",
+          "h": "Use 'Yes, I want to go to...' or 'No, I don't'.",
+          "s": "Yes, I want to go to the park."
+        },
+        {
+          "p": "Can you meet your friend on Sunday?",
+          "m": "Nói có/không và thời gian ngắn nếu có.",
+          "h": "Use 'Yes, I can at + time' or 'No, I can't'.",
+          "s": "Yes, I can at 3 pm."
+        },
+        {
+          "p": "Who do you visit on weekend?",
+          "m": "Nói một người bạn hoặc gia đình bạn thăm.",
+          "h": "Use 'I visit + person' or 'I visit my + family'.",
+          "s": "I visit my grandmother."
+        },
+        {
+          "p": "How do you go to the park?",
+          "m": "Nói cách bạn đi (walk, bike, bus) trong 1 câu.",
+          "h": "Use 'I go by + walk/bike/bus/car'.",
+          "s": "I go by bike."
+        }
+      ]
+    },
+    {
+      "t": "Kế hoạch du lịch ngắn",
+      "e": [
+        {
+          "p": "Where do you want to go on holiday?",
+          "m": "Nói một nơi bạn muốn đi nghỉ ngắn (1 câu).",
+          "h": "Use 'I want to go to + place'.",
+          "s": "I want to go to the beach."
+        },
+        {
+          "p": "Do you travel with family?",
+          "m": "Trả lời có/không và nêu người nếu có.",
+          "h": "Use 'Yes, I travel with + person' or 'No, I don't'.",
+          "s": "Yes, I travel with my family."
+        },
+        {
+          "p": "How do you go to the beach?",
+          "m": "Nói phương tiện bạn dùng để đi (car/bus).",
+          "h": "Use 'I go by + car/bus'.",
+          "s": "I go by car."
+        },
+        {
+          "p": "When do you go on holiday?",
+          "m": "Nói thời gian ngắn (ví dụ: next week).",
+          "h": "Use 'I go next + time' or 'I go in + month'.",
+          "s": "I go next week."
+        },
+        {
+          "p": "What do you pack for the trip?",
+          "m": "Nói một vật bạn mang (1 item).",
+          "h": "Use 'I pack + a/an + item'.",
+          "s": "I pack a hat."
+        }
+      ]
+    },
+    {
+      "t": "Kế hoạch tiết kiệm và mua sắm",
+      "e": [
+        {
+          "p": "Do you save money now?",
+          "m": "Trả lời có/không và một lý do ngắn.",
+          "h": "Use 'Yes, I save' or 'No, I don't' + reason.",
+          "s": "Yes, I save money for a new bag."
+        },
+        {
+          "p": "What do you want to buy?",
+          "m": "Nói một đồ bạn muốn mua (1 từ).",
+          "h": "Use 'I want to buy + item'.",
+          "s": "I want to buy a bicycle."
+        },
+        {
+          "p": "How much money do you need?",
+          "m": "Nói một số (ví dụ: 100).",
+          "h": "Use a number: 'I need + number'.",
+          "s": "I need 100."
+        },
+        {
+          "p": "Where do you buy your things?",
+          "m": "Nói một nơi bạn mua đồ (shop/market).",
+          "h": "Use 'I buy at + place' or 'I buy at the market'.",
+          "s": "I buy at the market."
+        },
+        {
+          "p": "Can you save money every month?",
+          "m": "Trả lời có/không và cách bạn làm (1 câu).",
+          "h": "Use 'Yes, I can; I + V' or 'No, I can't'.",
+          "s": "Yes, I can; I save a little money each month."
+        }
+      ]
+    },
+    {
+      "t": "Kế hoạch sức khỏe và thể thao",
+      "e": [
+        {
+          "p": "Do you want to exercise?",
+          "m": "Trả lời có/không và nói một môn bạn thích.",
+          "h": "Use 'Yes, I want to + V' or 'No, I don't' + sport.",
+          "s": "Yes, I want to play football."
+        },
+        {
+          "p": "How often do you exercise?",
+          "m": "Nói tần suất ngắn (every day/once a week).",
+          "h": "Use 'I exercise + frequency' (every day/once a week).",
+          "s": "I exercise every day."
+        },
+        {
+          "p": "What do you eat for health?",
+          "m": "Nói một đồ ăn lành mạnh bạn ăn.",
+          "h": "Use 'I eat + food' (fruit/vegetable).",
+          "s": "I eat fruit."
+        },
+        {
+          "p": "Can you wake up early to run?",
+          "m": "Trả lời có/không và giờ ngắn nếu có.",
+          "h": "Use 'Yes, I can at + time' or 'No, I can't'.",
+          "s": "Yes, I can at 6 am."
+        },
+        {
+          "p": "Who exercises with you?",
+          "m": "Nói một người cùng tập (friend/family).",
+          "h": "Use 'My + person + exercises with me'.",
+          "s": "My friend exercises with me."
+        }
+      ]
+    },
+    {
+      "t": "Kế hoạch cho sở thích",
+      "e": [
+        {
+          "p": "What hobby do you want to do?",
+          "m": "Nói một sở thích bạn muốn làm (1 từ).",
+          "h": "Use 'I want to + verb' or 'I want to have + hobby'.",
+          "s": "I want to play the guitar."
+        },
+        {
+          "p": "Do you practice your hobby every day?",
+          "m": "Trả lời có/không và nói tần suất ngắn.",
+          "h": "Use 'Yes, I practice every day' or 'No, I don't'.",
+          "s": "No, I don't practice every day."
+        },
+        {
+          "p": "Where do you do your hobby?",
+          "m": "Nói nơi bạn làm sở thích (home/park).",
+          "h": "Use 'I do my hobby at + place'.",
+          "s": "I do my hobby at home."
+        },
+        {
+          "p": "Can you teach your friend your hobby?",
+          "m": "Trả lời có/không và một cách ngắn (1 câu).",
+          "h": "Use 'Yes, I can; I show them' or 'No, I can't'.",
+          "s": "Yes, I can; I show them at home."
+        },
+        {
+          "p": "How long do you practice each day?",
+          "m": "Nói thời gian ngắn (ví dụ: 1 hour).",
+          "h": "Use 'I practice for + time' (minutes/hours).",
+          "s": "I practice for 1 hour."
+        }
+      ]
+    },
+    {
+      "t": "Kế hoạch chuyển nhà / sống riêng",
+      "e": [
+        {
+          "p": "Do you want to live alone?",
+          "m": "Trả lời có/không và lý do ngắn.",
+          "h": "Use 'Yes, I want' or 'No, I don't' + reason.",
+          "s": "No, I don't want to live alone because I like my family."
+        },
+        {
+          "p": "Where do you want to live later?",
+          "m": "Nói một nơi bạn muốn sống sau này (1 câu).",
+          "h": "Use 'I want to live in + place'.",
+          "s": "I want to live in a small house."
+        },
+        {
+          "p": "Can you cook when you live alone?",
+          "m": "Trả lời có/không và nêu một món bạn nấu.",
+          "h": "Use 'Yes, I can; I cook + food' or 'No, I can't'.",
+          "s": "Yes, I can; I cook rice and soup."
+        },
+        {
+          "p": "Who will help you move?",
+          "m": "Nói một người sẽ giúp (friend/family).",
+          "h": "Use 'My + person + helps me' or 'My friend helps me'.",
+          "s": "My brother helps me."
+        },
+        {
+          "p": "How do you get your new house?",
+          "m": "Nói cách bạn đến nhà mới (walk/drive/bus).",
+          "h": "Use 'I go by + car/walk/bus'.",
+          "s": "I go by car."
+        }
+      ]
+    },
+    {
+      "t": "Kế hoạch cho sự kiện (sinh nhật)",
+      "e": [
+        {
+          "p": "What do you want for your birthday?",
+          "m": "Nói một món bạn muốn nhận (1 item).",
+          "h": "Use 'I want + a/an + item'.",
+          "s": "I want a new book."
+        },
+        {
+          "p": "Do you have a birthday party?",
+          "m": "Trả lời có/không và nói nơi nếu có.",
+          "h": "Use 'Yes, I have at + place' or 'No, I don't'.",
+          "s": "Yes, I have a party at home."
+        },
+        {
+          "p": "Who do you invite?",
+          "m": "Nói một người bạn mời (friend/family).",
+          "h": "Use 'I invite + person'.",
+          "s": "I invite my friends."
+        },
+        {
+          "p": "Can you make a cake?",
+          "m": "Trả lời có/không và nói bạn làm gì (1 câu).",
+          "h": "Use 'Yes, I can; I + V' or 'No, I can't'.",
+          "s": "Yes, I can; I bake a small cake."
+        },
+        {
+          "p": "When is your birthday?",
+          "m": "Nói tháng hoặc ngày sinh ngắn (ví dụ: in May).",
+          "h": "Use 'My birthday is in + month' or 'on + date'.",
+          "s": "My birthday is in May."
+        }
+      ]
+    },
+    {
+      "t": "Kế hoạch giúp đỡ người khác",
+      "e": [
+        {
+          "p": "Do you help your friend next week?",
+          "m": "Trả lời có/không và nói việc bạn làm (1 câu).",
+          "h": "Use 'Yes, I help' or 'No, I don't' + action.",
+          "s": "Yes, I help my friend with homework."
+        },
+        {
+          "p": "Can you visit the old person?",
+          "m": "Trả lời có/không và nêu khi nào (1 cụm).",
+          "h": "Use 'Yes, I can on + day' or 'No, I can't'.",
+          "s": "Yes, I can on Sunday."
+        },
+        {
+          "p": "Who do you help in your town?",
+          "m": "Nói một người bạn giúp (neighbor/friend).",
+          "h": "Use 'I help my + person' or 'I help my neighbor'.",
+          "s": "I help my neighbor."
+        },
+        {
+          "p": "What do you do to help at school?",
+          "m": "Nói một việc bạn làm ở trường để giúp (1 câu).",
+          "h": "Use 'I + V' (clean/organize/teach).",
+          "s": "I help clean the classroom."
+        },
+        {
+          "p": "How often do you help others?",
+          "m": "Nói tần suất ngắn (every week/once a week).",
+          "h": "Use 'I help others + frequency'.",
+          "s": "I help others once a week."
+        }
+      ]
+    },
+    {
+      "t": "Ôn tập: Gặp và chia sẻ kế hoạch",
+      "e": [
+        {
+          "p": "What is your name and what do you want to be?",
+          "m": "Nói tên và nghề bạn muốn (2 ý trong 1 câu ngắn).",
+          "h": "Use 'My name is [studentName]. I want to be a [studentJob].' but keep one sentence.",
+          "s": "My name is [studentName] and I want to be a [studentJob]."
+        },
+        {
+          "p": "How old are you and where do you want to live?",
+          "m": "Nói tuổi và nơi bạn muốn sống trong một câu.",
+          "h": "Use 'I am [studentAge] and I want to live in [studentCity]'.",
+          "s": "I am [studentAge] and I want to live in [studentCity]."
+        },
+        {
+          "p": "Do you study and what subject do you like?",
+          "m": "Trả lời có/không và nêu môn bạn thích trong 1 câu.",
+          "h": "Use 'Yes, I study + and I like + subject' or 'No, I don't study'.",
+          "s": "Yes, I study and I like English."
+        },
+        {
+          "p": "Can you help at home and when do you start?",
+          "m": "Trả lời có/không + việc bạn làm và thời gian bắt đầu (1 câu).",
+          "h": "Use 'Yes, I can; I + V and I start + time'.",
+          "s": "Yes, I can; I clean the room and I start next week."
+        },
+        {
+          "p": "Where do you go on holiday and how do you go?",
+          "m": "Nói nơi đi và phương tiện trong 1 câu.",
+          "h": "Use 'I go to + place and I go by + transport'.",
+          "s": "I go to the beach and I go by car."
+        }
+      ]
+    },
+    {
+      "t": "Ôn tập: Kế hoạch ở nhà và đi học",
+      "e": [
+        {
+          "p": "What time do you go to school and who goes with you?",
+          "m": "Nói giờ đi học và người đi cùng trong 1 câu.",
+          "h": "Use 'I go to school at + time and + person'.",
+          "s": "I go to school at 7 am and my brother goes with me."
+        },
+        {
+          "p": "Do you want to study more and what do you learn?",
+          "m": "Trả lời có/không và nêu môn học trong 1 câu.",
+          "h": "Use 'Yes, I want to study + subject' or 'No, I don't'.",
+          "s": "Yes, I want to study English more."
+        },
+        {
+          "p": "Can you cook and what do you cook for dinner?",
+          "m": "Trả lời có/không và nêu một món bạn nấu trong 1 câu.",
+          "h": "Use 'Yes, I can; I cook + food' or 'No, I can't'.",
+          "s": "Yes, I can; I cook rice for dinner."
+        },
+        {
+          "p": "Where do you do homework and how long?",
+          "m": "Nói nơi làm bài và thời gian trong 1 câu.",
+          "h": "Use 'I do homework at + place and I do it for + time'.",
+          "s": "I do homework at my desk and I do it for 1 hour."
+        },
+        {
+          "p": "Who helps you with home study and when?",
+          "m": "Nói người giúp bạn và thời gian (1 câu).",
+          "h": "Use 'My + person + helps me at + time'.",
+          "s": "My mother helps me at night."
+        }
+      ]
+    },
+    {
+      "t": "Ôn tập: Kế hoạch nghề & tương lai",
+      "e": [
+        {
+          "p": "What job do you want and where do you work?",
+          "m": "Nói nghề bạn muốn và nơi làm trong 1 câu.",
+          "h": "Use 'I want to be a [studentJob] and I work in/at + place'.",
+          "s": "I want to be a [studentJob] and I work in a hospital."
+        },
+        {
+          "p": "Do you save money for your job training?",
+          "m": "Trả lời có/không và nêu cách bạn tiết kiệm (1 câu).",
+          "h": "Use 'Yes, I save by + action' or 'No, I don't'.",
+          "s": "Yes, I save by keeping a little money each week."
+        },
+        {
+          "p": "Can you study and work at the same time?",
+          "m": "Trả lời có/không và nêu một cách bạn làm điều đó (1 câu).",
+          "h": "Use 'Yes, I can; I + V' or 'No, I can't'.",
+          "s": "Yes, I can; I study in the morning and work in the evening."
+        },
+        {
+          "p": "Who is your role model at work?",
+          "m": "Nói một người bạn theo làm mẫu (teacher/parent).",
+          "h": "Use 'My + person + is my role model'.",
+          "s": "My father is my role model."
+        },
+        {
+          "p": "How do you learn new job skills?",
+          "m": "Nói một cách bạn học kỹ năng (1 câu).",
+          "h": "Use 'I learn by + verb' (study/do/watch).",
+          "s": "I learn by practice and study."
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,530 @@
+{
+  "l": 2,
+  "d": [
+    {
+      "t": "Món ăn yêu thích",
+      "e": [
+        {
+          "p": "What's your favorite food?",
+          "m": "1) Nói tên món ăn bạn thích. 2) Nêu 1 lý do ngắn (vì ngon/nhanh/đơn giản).",
+          "h": "I like + N. / It is + adj.",
+          "s": "I like pizza. It is tasty."
+        },
+        {
+          "p": "Do you eat it often?",
+          "m": "1) Nói tần suất bạn ăn món đó (always/often/sometimes/never). 2) Nói nơi bạn thường ăn nó.",
+          "h": "Use frequency adverb + present simple; at/in/at home.",
+          "s": "I often eat it. I eat it at home."
+        },
+        {
+          "p": "How do you usually eat it?",
+          "m": "1) Mô tả cách bạn ăn (ví dụ: with hands/with fork). 2) Nói nó nóng hay lạnh.",
+          "h": "Use 'I eat it with...' và 'It is hot/cold.'",
+          "s": "I eat it with a fork. It is hot."
+        },
+        {
+          "p": "How much does a portion cost?",
+          "m": "1) Nói giá bằng một con số ví dụ (a few dollars). 2) Nói bạn có đủ tiền để mua không (yes/no).",
+          "h": "Use 'It costs...' và 'I can/cannot buy it.'",
+          "s": "It costs three dollars. I can buy it."
+        },
+        {
+          "p": "Would you like to recommend it to a friend?",
+          "m": "1) Nói nếu bạn muốn giới thiệu (yes/no). 2) Nói lý do ngắn cho quyết định đó.",
+          "h": "Use 'Yes, I would.' or 'No, I would not.' + because...",
+          "s": "Yes, I would. Because it tastes good."
+        }
+      ]
+    },
+    {
+      "t": "Đồ uống buổi sáng",
+      "e": [
+        {
+          "p": "What do you drink in the morning?",
+          "m": "1) Nói tên đồ uống sáng bạn thường uống. 2) Nói bạn thích nóng hay lạnh.",
+          "h": "I drink + N. / I like it hot/cold.",
+          "s": "I drink tea. I like it hot."
+        },
+        {
+          "p": "Do you make it at home or buy it?",
+          "m": "1) Nói bạn làm ở nhà hay mua ngoài. 2) Nói tần suất (always/often/sometimes).",
+          "h": "Use 'I make it at home' or 'I buy it'. + frequency adverb.",
+          "s": "I make it at home. I always make it."
+        },
+        {
+          "p": "How much sugar do you add?",
+          "m": "1) Nói lượng đường (no sugar/a little/more). 2) Nói nếu bạn prefer milk or not.",
+          "h": "Use 'I add...' and 'I like/don't like milk.'",
+          "s": "I add a little sugar. I do not like milk."
+        },
+        {
+          "p": "Who do you drink with in the morning?",
+          "m": "1) Nói người bạn thường uống cùng (family/friend). 2) Nói nơi (in the kitchen/at work).",
+          "h": "Use 'with my...' and 'in/at...' ",
+          "s": "I drink with my family. We drink in the kitchen."
+        },
+        {
+          "p": "Do you want another cup now?",
+          "m": "1) Nói bạn có muốn thêm một cốc hay không (yes/no). 2) Nói lý do ngắn.",
+          "h": "Use 'Yes, I want...' or 'No, I do not want...' + reason.",
+          "s": "Yes, I want another cup. Because I am still thirsty."
+        }
+      ]
+    },
+    {
+      "t": "Ăn trưa ở trường",
+      "e": [
+        {
+          "p": "What do you eat for lunch at school?",
+          "m": "1) Nói tên đồ ăn bạn ăn ở trường. 2) Nói nếu bạn like it or not.",
+          "h": "I eat + N. / I like it / I do not like it.",
+          "s": "I eat a sandwich. I like it."
+        },
+        {
+          "p": "How many students eat in the canteen?",
+          "m": "1) Nói số lượng (a few/two/many). 2) Nói if it is crowded or not.",
+          "h": "Use 'There are + number + N' and 'It is + adj.'",
+          "s": "There are many students. It is crowded."
+        },
+        {
+          "p": "Who prepares your lunch?",
+          "m": "1) Nói người chuẩn bị (mother/father/school). 2) Nói if you help or not.",
+          "h": "Use 'My... prepares it.' and 'I help / I do not help.'",
+          "s": "My mother prepares it. I do not help."
+        },
+        {
+          "p": "Do you eat fast or slowly?",
+          "m": "1) Nói bạn ăn nhanh hay chậm. 2) Nói lý do ngắn (because of time/homework...).",
+          "h": "Use 'I eat fast/slowly.' + because...",
+          "s": "I eat fast. Because I have little time."
+        },
+        {
+          "p": "Can you buy drinks at school?",
+          "m": "1) Nói có thể mua hay không (yes/no). 2) Nói đồ uống bạn mua nếu có.",
+          "h": "Use 'Yes, I can.' or 'No, I cannot.' and 'I buy...' ",
+          "s": "Yes, I can. I buy water."
+        }
+      ]
+    },
+    {
+      "t": "Mua đồ ăn nhanh",
+      "e": [
+        {
+          "p": "What snack would you like?",
+          "m": "1) Nói tên đồ ăn vặt bạn muốn. 2) Nói bạn want it now or later.",
+          "h": "I want + N. / I want it now/later.",
+          "s": "I want a cookie. I want it now."
+        },
+        {
+          "p": "How much is the snack?",
+          "m": "1) Nói giá (a dollar/three dollars). 2) Nói bạn have enough money or not.",
+          "h": "Use 'It costs...' and 'I have / I do not have ...'.",
+          "s": "It costs two dollars. I have enough money."
+        },
+        {
+          "p": "Do you eat it on the way?",
+          "m": "1) Nói bạn có ăn khi đi hay không. 2) Nói nơi bạn will eat it.",
+          "h": "Use 'I eat it on the way.' or 'I do not eat it.' + place.",
+          "s": "I eat it on the way. I eat it on the bus."
+        },
+        {
+          "p": "Would you like a drink with it?",
+          "m": "1) Nói bạn có muốn đồ uống kèm hay không. 2) Nói loại đồ uống bạn chọn.",
+          "h": "Yes/No + I want + N.",
+          "s": "Yes, I want a drink. I want water."
+        },
+        {
+          "p": "Do you share snacks with friends?",
+          "m": "1) Nói bạn có chia sẻ hay không. 2) Nói who you share with.",
+          "h": "Use 'I share / I do not share.' + with my friend/mother.",
+          "s": "I share snacks. I share with my friend."
+        }
+      ]
+    },
+    {
+      "t": "Đặt món ở nhà hàng",
+      "e": [
+        {
+          "p": "Can I take your order?",
+          "m": "1) Nói bạn muốn món nào. 2) Nói bạn want it spicy or not.",
+          "h": "Use 'I want + N.' and 'I want it spicy / not spicy.'",
+          "s": "I want chicken. I do not want it spicy."
+        },
+        {
+          "p": "Do you want a drink with that?",
+          "m": "1) Nói có muốn đồ uống hay không. 2) Nói loại đồ uống bạn muốn.",
+          "h": "Yes/No + I want + N.",
+          "s": "Yes, I want a drink. I want orange juice."
+        },
+        {
+          "p": "How many people are eating?",
+          "m": "1) Nói số người (one/two/three). 2) Nói if a child is with you or not.",
+          "h": "Use 'There are + number + people' and 'There is a child / There is no child.'",
+          "s": "There are three people. There is no child."
+        },
+        {
+          "p": "Do you want dessert after the meal?",
+          "m": "1) Nói bạn có muốn tráng miệng hay không. 2) Nói loại tráng miệng nếu có.",
+          "h": "Use 'Yes, I want...' or 'No, I do not want...'.",
+          "s": "No, I do not want dessert. I am full."
+        },
+        {
+          "p": "Is everything ok with your food?",
+          "m": "1) Nói món ăn có ổn không (ok/not ok). 2) Nói bạn want a change or help.",
+          "h": "Use 'It is ok.' or 'It is not ok.' + 'I want...' ",
+          "s": "It is not ok. I want a new dish."
+        }
+      ]
+    },
+    {
+      "t": "Nấu ăn ở nhà",
+      "e": [
+        {
+          "p": "What are you cooking now?",
+          "m": "1) Nói món bạn đang nấu (present continuous). 2) Nói if it smells good.",
+          "h": "Use 'I am cooking + N.' and 'It smells + adj.'",
+          "s": "I am cooking soup. It smells good."
+        },
+        {
+          "p": "Do you need any help in the kitchen?",
+          "m": "1) Nói bạn cần giúp hay không. 2) Nói việc bạn cần giúp (cut vegetables/wash dishes).",
+          "h": "Use 'I need help / I do not need help.' + to V or noun.",
+          "s": "I need help. Please cut the vegetables."
+        },
+        {
+          "p": "How many eggs do you use?",
+          "m": "1) Nói số trứng bạn dùng. 2) Nói if you want more or less.",
+          "h": "Use 'I use + number + eggs.' and 'I want more/less.'",
+          "s": "I use two eggs. I want no more."
+        },
+        {
+          "p": "Do you prefer cooking alone or with family?",
+          "m": "1) Nói bạn thích nấu một mình hay với gia đình. 2) Nói lý do ngắn.",
+          "h": "Use 'I prefer...' + reason.",
+          "s": "I prefer cooking with my family. Because it is fun."
+        },
+        {
+          "p": "What time do you usually start cooking?",
+          "m": "1) Nói giờ bạn bắt đầu nấu ăn (present simple). 2) Nói how often (every day/sometimes).",
+          "h": "Use 'I start cooking at...' and frequency adverb.",
+          "s": "I start cooking at six. I cook every day."
+        }
+      ]
+    },
+    {
+      "t": "Ăn cùng bạn bè",
+      "e": [
+        {
+          "p": "Do you like eating out with friends?",
+          "m": "1) Nói bạn có thích đi ăn cùng bạn hay không. 2) Nói lý do ngắn.",
+          "h": "Use 'I like / I do not like.' + because...",
+          "s": "I like eating out with friends. Because we talk a lot."
+        },
+        {
+          "p": "Who pays the bill usually?",
+          "m": "1) Nói ai thường trả tiền. 2) Nói if you share the cost or not.",
+          "h": "Use 'My friend / I / We' + 'pay(s)' and 'We share / We do not share.'",
+          "s": "My friend pays the bill. We do not share the cost."
+        },
+        {
+          "p": "What time do you meet your friends for dinner?",
+          "m": "1) Nói giờ bạn hẹn gặp (e.g., at seven). 2) Nói frequency (often/sometimes).",
+          "h": "Use 'We meet at...' and frequency adverb.",
+          "s": "We meet at seven. We often meet on Friday."
+        },
+        {
+          "p": "Do you order for the group or each person orders?",
+          "m": "1) Nói nhóm gọi chung hay mỗi người gọi. 2) Nói which option you prefer.",
+          "h": "Use 'We order together / Each person orders.' and 'I prefer...' ",
+          "s": "Each person orders. I prefer this option."
+        },
+        {
+          "p": "Is someone allergic to food in your group?",
+          "m": "1) Nói có ai dị ứng hay không. 2) Nói what food they avoid if yes.",
+          "h": "Use 'Yes, there is / No, there is not.' + 'They avoid...' ",
+          "s": "No, there is not. They avoid peanuts."
+        }
+      ]
+    },
+    {
+      "t": "Thói quen ăn uống hàng ngày",
+      "e": [
+        {
+          "p": "What do you eat every morning?",
+          "m": "1) Nói thức ăn bạn ăn mỗi sáng. 2) Nói if you always eat it or sometimes.",
+          "h": "Use 'I eat...' and frequency adverb.",
+          "s": "I eat cereal every morning. I always eat it."
+        },
+        {
+          "p": "Do you skip meals sometimes?",
+          "m": "1) Nói bạn có bỏ bữa không. 2) Nói which meal you skip and why.",
+          "h": "Use 'I skip...' and 'Because...' ",
+          "s": "Yes, I skip breakfast sometimes. Because I am busy."
+        },
+        {
+          "p": "How many times do you eat out in a week?",
+          "m": "1) Nói số lần bạn ăn ngoài trong tuần. 2) Nói if this is more or less than before.",
+          "h": "Use 'I eat out + number + times.' and 'It is more/less.'",
+          "s": "I eat out three times a week. It is more than before."
+        },
+        {
+          "p": "Do you drink water during meals?",
+          "m": "1) Nói bạn có uống nước khi ăn hay không. 2) Nói amount (a little/a lot).",
+          "h": "Use 'I drink water.' and 'a little / a lot.'",
+          "s": "Yes, I drink water during meals. I drink a lot."
+        },
+        {
+          "p": "What do you need for a healthy meal?",
+          "m": "1) Nói 1 món bạn cần (vegetable/protein). 2) Nói if you eat it every day.",
+          "h": "Use 'We need...' and 'I eat it every day / sometimes.'",
+          "s": "We need vegetables. I eat them every day."
+        }
+      ]
+    },
+    {
+      "t": "Ăn khi du lịch",
+      "e": [
+        {
+          "p": "Do you try local food when you travel?",
+          "m": "1) Nói bạn có thử đồ ăn địa phương hay không. 2) Nói lý do ngắn.",
+          "h": "Use 'I try / I do not try.' + because...",
+          "s": "Yes, I try local food. Because it is new."
+        },
+        {
+          "p": "Where do you usually eat in a new city?",
+          "m": "1) Nói bạn ăn ở nhà hàng hay quán nhỏ. 2) Nói if you prefer street food or restaurant.",
+          "h": "Use 'I eat at...' and 'I prefer...' ",
+          "s": "I eat at small local restaurants. I prefer street food."
+        },
+        {
+          "p": "How many days do you eat local food on a trip?",
+          "m": "1) Nói số ngày bạn ăn đồ địa phương. 2) Nói if you like the food there.",
+          "h": "Use 'I eat local food for + number + days.' and 'I like / I do not like.'",
+          "s": "I eat local food for three days. I like the food there."
+        },
+        {
+          "p": "Do you worry about food safety abroad?",
+          "m": "1) Nói bạn có lo lắng hay không. 2) Nói what you do to be safe (drink bottled water/avoid raw).",
+          "h": "Use 'I am worried / I am not worried.' and 'I drink / I avoid...' ",
+          "s": "I am a little worried. I drink bottled water."
+        },
+        {
+          "p": "Can you eat the same food as at home on a trip?",
+          "m": "1) Nói bạn có thể ăn đồ giống ở nhà hay không. 2) Nói if you miss home food.",
+          "h": "Use 'I can / I cannot.' and 'I miss / I do not miss...' ",
+          "s": "I cannot eat the same food as at home. I miss home food."
+        }
+      ]
+    },
+    {
+      "t": "Ăn chay và ăn mặn",
+      "e": [
+        {
+          "p": "Are you vegetarian or not?",
+          "m": "1) Nói bạn có ăn chay hay không. 2) Nói lý do ngắn.",
+          "h": "Use 'I am vegetarian.' or 'I am not vegetarian.' + because...",
+          "s": "I am not vegetarian. Because I like meat."
+        },
+        {
+          "p": "What foods do vegetarians avoid?",
+          "m": "1) Nói 1 loại thực phẩm họ tránh (meat/fish). 2) Nói if you eat that food.",
+          "h": "Use 'They avoid...' and 'I eat / I do not eat it.'",
+          "s": "They avoid meat. I eat meat."
+        },
+        {
+          "p": "Do you want vegetarian options at restaurants?",
+          "m": "1) Nói bạn có muốn món chay hay không. 2) Nói if restaurants often have them.",
+          "h": "Use 'Yes, I want...' or 'No, I do not want...' and frequency adverb.",
+          "s": "Yes, I want vegetarian options. They sometimes have them."
+        },
+        {
+          "p": "How many vegetarian dishes are on the menu?",
+          "m": "1) Nói số món chay (one/two/many). 2) Nói if you try them.",
+          "h": "Use 'There are + number + dishes.' and 'I try / I do not try.'",
+          "s": "There are two vegetarian dishes. I try them."
+        },
+        {
+          "p": "Would you like to try a vegetarian meal now?",
+          "m": "1) Nói bạn có muốn thử hay không. 2) Nói lý do ngắn.",
+          "h": "Use 'Yes, I would like...' or 'No, I would not like...' + reason.",
+          "s": "Yes, I would like to try a vegetarian meal. Because I want to try new food."
+        }
+      ]
+    },
+    {
+      "t": "Vấn đề với món ăn",
+      "e": [
+        {
+          "p": "The soup is cold. What do you say?",
+          "m": "1) Nói món không ổn (cold). 2) Yêu cầu đổi hoặc hâm nóng.",
+          "h": "Use 'It is not ok.' and 'Please...' ",
+          "s": "It is cold. Please heat it."
+        },
+        {
+          "p": "I am allergic to nuts. Can you help?",
+          "m": "1) Nói bạn có dị ứng hoặc không. 2) Nói bạn need a new dish or information.",
+          "h": "Use 'I am allergic to...' and 'I need...' ",
+          "s": "I am allergic to nuts. I need a new dish."
+        },
+        {
+          "p": "The food is too salty. What do you do?",
+          "m": "1) Nói phản ứng của bạn (ask for change/stop eating). 2) Nói lý do ngắn.",
+          "h": "Use 'I ask for...' or 'I stop eating.' + reason.",
+          "s": "I ask for a new dish. Because it is too salty."
+        },
+        {
+          "p": "There is hair in the food. How do you respond?",
+          "m": "1) Nói bạn thấy vấn đề. 2) Nói bạn want the staff to fix it.",
+          "h": "Use 'I see...' and 'Please...' ",
+          "s": "I see hair in my food. Please change it."
+        },
+        {
+          "p": "You ordered a vegetarian dish but it has meat.",
+          "m": "1) Nói món không đúng. 2) Nói bạn want a refund or a correct dish.",
+          "h": "Use 'It is not correct.' and 'I want...' ",
+          "s": "The dish is not correct. I want a refund."
+        }
+      ]
+    },
+    {
+      "t": "Món ăn trong lễ hội",
+      "e": [
+        {
+          "p": "What food do you eat at festivals?",
+          "m": "1) Nói 1 món bạn ăn ở lễ hội. 2) Nói if you eat it often during the festival.",
+          "h": "Use 'I eat...' and frequency adverb.",
+          "s": "I eat sweet rice at festivals. I eat it often."
+        },
+        {
+          "p": "Do you cook special food for celebrations?",
+          "m": "1) Nói bạn có nấu món đặc biệt hay không. 2) Nói what you cook if yes.",
+          "h": "Use 'Yes, I cook...' or 'No, I do not cook.'",
+          "s": "Yes, I cook special food. I cook sticky rice."
+        },
+        {
+          "p": "How many people join your festival meal?",
+          "m": "1) Nói số người tham gia. 2) Nói if everyone eats together or in groups.",
+          "h": "Use 'There are + number + people.' and 'We eat together / in groups.'",
+          "s": "There are ten people. We eat together."
+        },
+        {
+          "p": "Do you like sweet or salty festival food?",
+          "m": "1) Nói bạn thích ngọt hay mặn. 2) Nói ví dụ một món bạn thích.",
+          "h": "Use 'I like sweet/salty.' and 'For example...' ",
+          "s": "I like sweet food. For example, sticky rice."
+        },
+        {
+          "p": "Will you bring food to the festival next week?",
+          "m": "1) Nói bạn có mang thức ăn đến hay không. 2) Nói what you will bring.",
+          "h": "Use 'I will bring...' and 'Yes/No.'",
+          "s": "Yes, I will bring food. I will bring fruit."
+        }
+      ]
+    },
+    {
+      "t": "Ôn tập: Món ăn và đồ uống",
+      "e": [
+        {
+          "p": "What is your favorite meal and why?",
+          "m": "1) Nói tên bữa ăn yêu thích (breakfast/lunch/dinner). 2) Nói lý do ngắn (taste/time/family).",
+          "h": "I like + meal. Because + reason.",
+          "s": "I like dinner. Because I eat with my family."
+        },
+        {
+          "p": "How many meals do you eat a day?",
+          "m": "1) Nói số bữa bạn ăn. 2) Nói if you sometimes skip a meal.",
+          "h": "Use 'I eat + number + meals.' and 'sometimes / always.'",
+          "s": "I eat three meals a day. I sometimes skip dinner."
+        },
+        {
+          "p": "Do you prefer hot or cold drinks?",
+          "m": "1) Nói bạn thích nóng hay lạnh. 2) Nói ví dụ một đồ uống bạn thích.",
+          "h": "I prefer + hot/cold. For example...",
+          "s": "I prefer hot drinks. For example, tea."
+        },
+        {
+          "p": "Where do you usually buy food?",
+          "m": "1) Nói nơi bạn thường mua đồ ăn (market/supermarket/store). 2) Nói if you go there often.",
+          "h": "Use 'I buy food at...' and frequency adverb.",
+          "s": "I buy food at the market. I go there often."
+        },
+        {
+          "p": "What do you do if you do not like a dish?",
+          "m": "1) Nói phản ứng của bạn (ask for change/stop eating). 2) Nói lý do ngắn.",
+          "h": "Use 'I ask for...' or 'I stop eating.' + because...",
+          "s": "I stop eating the dish. Because it tastes bad."
+        }
+      ]
+    },
+    {
+      "t": "Ôn tập: Nhà hàng và mua đồ",
+      "e": [
+        {
+          "p": "Do you prefer to order or cook at home?",
+          "m": "1) Nói bạn thích gọi đồ hay nấu ở nhà. 2) Nói lý do ngắn.",
+          "h": "I prefer + to V / noun. Because...",
+          "s": "I prefer to cook at home. Because it is cheap."
+        },
+        {
+          "p": "How much does a meal usually cost where you live?",
+          "m": "1) Nói giá trung bình cho một bữa. 2) Nói if it is expensive or cheap.",
+          "h": "Use 'It costs...' and 'It is expensive/cheap.'",
+          "s": "A meal costs five dollars. It is cheap."
+        },
+        {
+          "p": "Who cooks in your family usually?",
+          "m": "1) Nói ai thường nấu ăn. 2) Nói if you help them or not.",
+          "h": "Use 'My... cooks.' and 'I help / I do not help.'",
+          "s": "My mother cooks usually. I help sometimes."
+        },
+        {
+          "p": "Do you like trying new restaurants?",
+          "m": "1) Nói bạn có thích thử nhà hàng mới hay không. 2) Nói how often you try.",
+          "h": "Use 'I like / I do not like.' and frequency adverb.",
+          "s": "Yes, I like trying new restaurants. I try them sometimes."
+        },
+        {
+          "p": "Can you list two foods you do not eat?",
+          "m": "1) Nói hai món bạn không ăn. 2) Nói lý do ngắn cho mỗi món.",
+          "h": "Use 'I do not eat...' + because...",
+          "s": "I do not eat fish. Because I do not like it. I do not eat mushrooms. Because I am allergic."
+        }
+      ]
+    },
+    {
+      "t": "Ôn tập: Vấn đề và lễ hội",
+      "e": [
+        {
+          "p": "What do you do if food is cold at a party?",
+          "m": "1) Nói phản ứng của bạn (ask to heat/change). 2) Nói lý do ngắn.",
+          "h": "Use 'I ask...' and 'Because...' ",
+          "s": "I ask them to heat the food. Because I want warm food."
+        },
+        {
+          "p": "Do you bring food to a party?",
+          "m": "1) Nói bạn có mang thức ăn hay không. 2) Nói what you bring.",
+          "h": "Use 'I bring...' and Yes/No.",
+          "s": "Yes, I bring food to a party. I bring salad."
+        },
+        {
+          "p": "How many people eat at your family festival?",
+          "m": "1) Nói số người tham gia. 2) Nói if you cook for all or buy food.",
+          "h": "Use 'There are + number + people.' and 'I cook / I buy.'",
+          "s": "There are twelve people. We buy some food."
+        },
+        {
+          "p": "Do you like sweet festival food more than normal food?",
+          "m": "1) Nói bạn thích hơn hay không. 2) Nói ví dụ một món ăn lễ hội.",
+          "h": "Use 'I like it more / less.' and 'For example...' ",
+          "s": "I like sweet festival food more. For example, sweet rice."
+        },
+        {
+          "p": "What should you do if someone is allergic at a party?",
+          "m": "1) Nói việc bạn nên làm (tell host/avoid nuts). 2) Nói if you help find safe food.",
+          "h": "Use 'Tell...' and 'I will help / I will not help.'",
+          "s": "Tell the host about the allergy. I will help find safe food."
+        }
+      ]
+    }
+  ]
+}

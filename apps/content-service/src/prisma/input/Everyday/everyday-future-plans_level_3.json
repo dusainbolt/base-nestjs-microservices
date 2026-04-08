@@ -1,0 +1,561 @@
+{
+  "l": {
+    "lvl": 3,
+    "code": "PRE_INTERMEDIATE",
+    "desc": "2-3 câu đơn Kể lại sự kiện, có trình tự thời gian và logic nhân quả",
+    "req": {
+      "gram": "S + V-ed/V2 (Past Simple regular/irregular), S + will/going to + V, Comparatives (more/adj-er + than), Should/Must/Have to + V, Compound sentences (2 clause nối bằng connector)",
+      "vocab": "Đa dạng: cảm xúc, thời tiết, du lịch, mua sắm, công việc",
+      "vocabCap": {
+        "cefr": "A2–B1",
+        "maxWords": 1200,
+        "allowed": [
+          "Tất cả từ Level 1–2, mở rộng thêm:",
+          "Cảm xúc và tâm trạng: excited, nervous, disappointed, surprised, proud, worried, relaxed",
+          "Du lịch & địa điểm: airport, hotel, station, market, restaurant, beach, mountain, ticket, luggage",
+          "Mua sắm: cheap, expensive, price, sale, discount, pay, cash, card, try on, size",
+          "Công việc & học tập: office, meeting, deadline, project, exam, grade, practice, improve",
+          "Thời tiết: sunny, cloudy, rainy, windy, cold, warm, temperature, forecast",
+          "Phrasal verbs phổ biến: look for, find out, take care of, give up, look forward to",
+          "Từ so sánh: better, worse, more comfortable, less expensive, the best, the most"
+        ],
+        "avoid": [
+          "Từ học thuật cao (ví dụ: consequently, nevertheless, furthermore)",
+          "Từ chuyên ngành sâu (luật, y tế, kỹ thuật...)",
+          "Idioms phức tạp hoặc ít gặp",
+          "Từ có quá 4 âm tiết trừ khi rất phổ biến (ví dụ: information thì OK, nhưng tránh: approximately, sophisticated)"
+        ]
+      }
+    },
+    "conn": "and, but, so, because, then",
+    "tense": "Present Simple, Present Continuous, Past Simple, Future Simple (will/going to)",
+    "cmplx": "Trung bình thấp"
+  },
+  "d": [
+    {
+      "t": "Giới thiệu kế hoạch ngắn hạn",
+      "e": [
+        {
+          "p": "What are you doing this weekend?",
+          "m": "Nói hoạt động bạn sẽ làm; Nói ngày hoặc thời gian cụ thể.",
+          "h": "Dùng 'I'm going to...' hoặc 'I will...' cho kế hoạch gần.",
+          "s": "I'm going to visit my parents on Saturday. I will help them with shopping."
+        },
+        {
+          "p": "Do you plan to study English soon?",
+          "m": "Nói có/không; Nói phương pháp học bạn sẽ dùng.",
+          "h": "Dùng 'I am going to...' + động từ hoặc 'I will...'.",
+          "s": "Yes, I'm going to study English every evening. I will practice speaking with a friend twice a week."
+        },
+        {
+          "p": "Why do you want to learn English?",
+          "m": "Nêu lý do chính; Nói lợi ích bạn hy vọng đạt được.",
+          "h": "Dùng 'because' và 'It will...' để nêu lý do và kết quả.",
+          "s": "I want to learn English because I need it for my job. It will help me communicate with foreign customers."
+        },
+        {
+          "p": "How will you remember your plans?",
+          "m": "Nói cách bạn ghi chú; Nói tần suất bạn kiểm tra kế hoạch.",
+          "h": "Dùng 'I will' + động từ; dùng hiện tại đơn cho thói quen.",
+          "s": "I will write my plans in a small notebook. I check it every morning."
+        },
+        {
+          "p": "Can you tell me three things you will do next month?",
+          "m": "Nêu việc 1 bạn sẽ làm; Nêu việc 2 bạn sẽ làm; Nêu việc 3 bạn sẽ làm.",
+          "h": "Viết 3 câu ngắn, dùng 'I will' hoặc 'I'm going to'.",
+          "s": "I will start a new English course next month. I will finish an important project at work. I am going to visit my sister in another city."
+        }
+      ]
+    },
+    {
+      "t": "Kế hoạch cuối tuần",
+      "e": [
+        {
+          "p": "Do you have any plans for Saturday morning?",
+          "m": "Nói rõ hoạt động; Nói nơi bạn sẽ đến.",
+          "h": "Dùng 'I'm going to' hoặc present continuous cho lịch đã sắp xếp.",
+          "s": "I'm going to go to the market on Saturday morning. I will buy vegetables and fruit there."
+        },
+        {
+          "p": "Who are you going with?",
+          "m": "Nói người cùng đi; Nói lý do chọn người đó.",
+          "h": "Dùng 'with' và 'because' để giải thích.",
+          "s": "I'm going with my friend. I chose her because she likes the same food as me."
+        },
+        {
+          "p": "What time will you leave home?",
+          "m": "Nêu giờ rời nhà; Nói cách bạn sẽ đi (phương tiện).",
+          "h": "Dùng 'I will' cho quyết định về thời gian và phương tiện.",
+          "s": "I will leave home at eight in the morning. I will take a bus to the market."
+        },
+        {
+          "p": "If it rains, what will you do?",
+          "m": "Nêu kế hoạch nếu trời mưa; Nói lý do bạn chọn kế hoạch đó.",
+          "h": "Dùng 'If' + present simple, kết quả dùng 'will'.",
+          "s": "If it rains, I will stay at home and cook. I prefer to avoid the market when it is wet."
+        },
+        {
+          "p": "Describe one perfect weekend plan for you.",
+          "m": "Nói hoạt động chính; Nói lý do bạn thích kế hoạch đó.",
+          "h": "Dùng present simple/continuous cho thói quen và 'because' cho lý do.",
+          "s": "My perfect weekend is going to the beach with friends. I like it because I can relax and swim."
+        }
+      ]
+    },
+    {
+      "t": "Mục tiêu học tập",
+      "e": [
+        {
+          "p": "What is your main study goal this year?",
+          "m": "Nêu mục tiêu chính; Nói thời hạn bạn đặt ra.",
+          "h": "Dùng 'My goal is to...' và 'by + time' nếu cần.",
+          "s": "My main study goal this year is to improve my English listening. I want to reach this by December."
+        },
+        {
+          "p": "How often will you practice?",
+          "m": "Nói tần suất; Nói thời lượng mỗi lần tập.",
+          "h": "Dùng 'I will' hoặc present simple cho thói quen.",
+          "s": "I will practice five times a week. Each time I will study for thirty minutes."
+        },
+        {
+          "p": "Which skills do you need to improve first?",
+          "m": "Nói kỹ năng 1; Nói lý do ưu tiên.",
+          "h": "Dùng comparatives nếu so sánh, hoặc 'because' để giải thích.",
+          "s": "I need to improve my speaking first because it is the weakest skill. Speaking practice will help me in work meetings."
+        },
+        {
+          "p": "Who can help you with study plans?",
+          "m": "Nêu một người có thể giúp; Nói cách họ giúp bạn.",
+          "h": "Dùng 'can' hoặc 'will' để nói khả năng trợ giúp.",
+          "s": "My colleague can help me with speaking practice. He will correct my mistakes during conversation."
+        },
+        {
+          "p": "Make a simple 2-step study plan for next week.",
+          "m": "Nêu bước 1 cụ thể; Nêu bước 2 cụ thể (mỗi bước một câu).",
+          "h": "Dùng 'First, I will...' và 'Then, I will...' cho thứ tự.",
+          "s": "First, I will join an online speaking class on Monday evening. Then, I will practice vocabulary for thirty minutes every day."
+        }
+      ]
+    },
+    {
+      "t": "Kế hoạch du lịch",
+      "e": [
+        {
+          "p": "Do you want to travel soon?",
+          "m": "Nói có/không; Nói lý do ngắn cho quyết định.",
+          "h": "Dùng 'I want to...' hoặc 'I don't want to...' và 'because'.",
+          "s": "Yes, I want to travel soon because I need a short break. A trip will help me relax."
+        },
+        {
+          "p": "Where are you going to go?",
+          "m": "Nêu điểm đến; Nói một hoạt động bạn sẽ làm ở đó.",
+          "h": "Dùng 'I'm going to' + nơi; 'I will' cho hoạt động.",
+          "s": "I'm going to the beach next month. I will swim and walk on the sand."
+        },
+        {
+          "p": "How will you travel there?",
+          "m": "Nêu phương tiện; Nói thời gian chuyến đi (khoảng bao lâu).",
+          "h": "Dùng 'I will take' hoặc 'I am going to take' và 'it will take...'.",
+          "s": "I will take a bus to the coast. It will take about three hours."
+        },
+        {
+          "p": "Do you prefer a hotel or a small guesthouse?",
+          "m": "Nói lựa chọn của bạn; Nói lý do (so sánh ngắn).",
+          "h": "Dùng comparatives như 'more comfortable' hoặc 'cheaper' và 'because'.",
+          "s": "I prefer a small guesthouse because it is cheaper and more friendly. It feels more comfortable than a big hotel."
+        },
+        {
+          "p": "Make a short packed list for the trip.",
+          "m": "Nêu 3 món đồ quan trọng bạn sẽ mang (mỗi món một câu).",
+          "h": "Viết 3 câu ngắn, dùng 'I will bring...' cho mỗi món.",
+          "s": "I will bring my passport and ID. I will bring a small bag with clothes. I will bring sunscreen for the beach."
+        }
+      ]
+    },
+    {
+      "t": "Lên kế hoạch công việc",
+      "e": [
+        {
+          "p": "What is your main task at work this week?",
+          "m": "Nêu nhiệm vụ chính; Nêu thời hạn hoàn thành.",
+          "h": "Dùng present simple cho nhiệm vụ hiện tại và 'by' cho hạn.",
+          "s": "My main task this week is to finish a project report. I must complete it by Friday."
+        },
+        {
+          "p": "How will you organize your day?",
+          "m": "Nói một bước bạn sẽ làm buổi sáng; Nói một bước buổi chiều.",
+          "h": "Dùng 'In the morning, I will...' và 'In the afternoon, I will...'.",
+          "s": "In the morning, I will check emails and plan tasks. In the afternoon, I will attend a meeting and write the report."
+        },
+        {
+          "p": "If you have too much work, what should you do?",
+          "m": "Đưa 1 lời khuyên cụ thể; Nói lý do lời khuyên đó.",
+          "h": "Dùng 'You should...' hoặc 'I should...' và 'because'.",
+          "s": "You should prioritize tasks and say no to small requests. This helps you finish the most important work first."
+        },
+        {
+          "p": "Compare doing the task at home or at the office.",
+          "m": "Nêu nơi bạn nghĩ tốt hơn; Nêu lý do (so sánh ngắn).",
+          "h": "Dùng comparatives như 'better' hoặc 'more productive' và 'because'.",
+          "s": "I think doing the task at the office is better because I have fewer distractions. The office is more productive than home for focused work."
+        },
+        {
+          "p": "Give a two-step plan if a deadline moves earlier.",
+          "m": "Nêu hành động 1 cụ thể; Nêu hành động 2 cụ thể (mỗi hành động một câu).",
+          "h": "Dùng 'First, I will...' và 'Then, I will...' với 'must' nếu cần.",
+          "s": "First, I will rearrange my schedule and move less important tasks later. Then, I must ask for help from a colleague to finish on time."
+        }
+      ]
+    },
+    {
+      "t": "Lập kế hoạch tiết kiệm",
+      "e": [
+        {
+          "p": "Why do you want to save money?",
+          "m": "Nêu mục đích tiết kiệm; Nói khoảng thời gian bạn muốn đạt mục tiêu.",
+          "h": "Dùng 'I am saving for...' và 'in + time' hoặc 'by + time'.",
+          "s": "I am saving for a small trip next year. I want to reach my goal in twelve months."
+        },
+        {
+          "p": "How much will you save each month?",
+          "m": "Nêu số tiền bạn định để dành; Nói cách bạn sẽ giữ tiền đó (tài khoản, tiền mặt...).",
+          "h": "Dùng 'I will save...' và 'I will put it in...' hoặc 'I will keep it in...'.",
+          "s": "I will save fifty dollars each month. I will put it in a separate bank account."
+        },
+        {
+          "p": "What will you cut to save more?",
+          "m": "Nói một chi tiêu bạn sẽ giảm; Nói lý do vì sao giảm.",
+          "h": "Dùng 'I will give up...' hoặc 'I will stop buying...' và 'because'.",
+          "s": "I will give up eating out twice a week. This will save money because restaurant meals are expensive."
+        },
+        {
+          "p": "Is saving at home better than a bank? Why?",
+          "m": "Nêu lựa chọn của bạn; Nêu một lý do an toàn hoặc lợi ích.",
+          "h": "Dùng comparatives và 'because' để giải thích.",
+          "s": "Saving in a bank is better because it is safer and you can track your money. The bank is more reliable than keeping cash at home."
+        },
+        {
+          "p": "Make a short monthly budget with two categories.",
+          "m": "Nêu category 1 và số tiền; Nêu category 2 và số tiền (mỗi dòng một câu).",
+          "h": "Viết hai câu: 'I will spend/save X on Y.'",
+          "s": "I will spend one hundred dollars on food each month. I will save fifty dollars for my trip each month."
+        }
+      ]
+    },
+    {
+      "t": "Nói về ước mơ nghề nghiệp",
+      "e": [
+        {
+          "p": "What is your dream job?",
+          "m": "Nêu nghề mơ ước; Nói lý do ngắn vì sao bạn thích nghề đó.",
+          "h": "Dùng 'My dream job is...' và 'because'.",
+          "s": "My dream job is to be a teacher. I like it because I enjoy helping people learn."
+        },
+        {
+          "p": "How will you prepare for that job?",
+          "m": "Nêu 1 hoạt động chuẩn bị; Nói thời gian bạn dự định làm việc đó.",
+          "h": "Dùng 'I will' + động từ và 'for + thời gian' nếu cần.",
+          "s": "I will take training courses to improve my skills. I plan to study for six months."
+        },
+        {
+          "p": "Who inspired you to choose this job?",
+          "m": "Nêu người; Nói cách họ truyền cảm hứng (một câu).",
+          "h": "Dùng past simple nếu nói về quá khứ, chẳng hạn 'inspired me'.",
+          "s": "My old teacher inspired me because she was patient and kind. She helped me love learning."
+        },
+        {
+          "p": "If the job requires moving, would you do it?",
+          "m": "Trả lời có/không; Nêu lý do ngắn cho quyết định.",
+          "h": "Dùng 'Yes, I would...' hoặc 'No, I would not...' và 'because'.",
+          "s": "Yes, I would move if the job is good because it is a great opportunity. I think new places help me grow."
+        },
+        {
+          "p": "Give two skills you need and how you will gain them.",
+          "m": "Nêu skill 1 và cách học nó (1 câu); Nêu skill 2 và cách học nó (1 câu).",
+          "h": "Viết hai câu, dùng 'I will learn/practice...' cho mỗi skill.",
+          "s": "I need better communication skills, so I will join a speaking club. I also need computer skills, so I will take an online course."
+        }
+      ]
+    },
+    {
+      "t": "Kế hoạch chuyển nhà",
+      "e": [
+        {
+          "p": "When are you moving to the new place?",
+          "m": "Nói ngày hoặc tháng; Nói lý do chọn thời gian đó.",
+          "h": "Dùng 'I am moving on/in...' và 'because'.",
+          "s": "I am moving next month because my lease ends soon. The timing is good for me."
+        },
+        {
+          "p": "Who will help you with the move?",
+          "m": "Nêu một người/nhóm giúp; Nói việc họ sẽ làm (ví dụ: đóng gói).",
+          "h": "Dùng 'My friend will...' hoặc 'My family will...' + động từ.",
+          "s": "My brother will help me with packing. He will also drive the car on moving day."
+        },
+        {
+          "p": "How will you transport your furniture?",
+          "m": "Nêu phương tiện chuyển; Nói một việc bạn sẽ thuê hoặc làm.",
+          "h": "Dùng 'I will rent...' hoặc 'I will hire...' cho dịch vụ.",
+          "s": "I will rent a small truck to move my furniture. I will hire two helpers to load and unload."
+        },
+        {
+          "p": "If you had to move farther, what would change?",
+          "m": "Nói điều 1 sẽ thay đổi (ví dụ: thời gian đi lại); Nói điều 2 (ví dụ: chi phí).",
+          "h": "Dùng comparatives hoặc 'would' cho tình huống giả định.",
+          "s": "If I moved farther, my commute would be longer and I would spend more time traveling. It would also cost more for transport."
+        },
+        {
+          "p": "List two important things to do before moving.",
+          "m": "Nêu việc 1 và lý do ngắn; Nêu việc 2 và lý do ngắn (mỗi việc một câu).",
+          "h": "Viết hai câu: 'I will...' + lý do với 'because'.",
+          "s": "I will sort and donate old things because it reduces moving boxes. I will update my address online because I need to receive mail."
+        }
+      ]
+    },
+    {
+      "t": "Chuẩn bị cho kỳ thi",
+      "e": [
+        {
+          "p": "When is your next exam?",
+          "m": "Nêu ngày hoặc thời gian; Nói bạn cảm thấy thế nào về kỳ thi (một từ).",
+          "h": "Dùng 'My exam is on...' và một tính từ cảm xúc.",
+          "s": "My exam is on the 20th of next month. I feel a bit nervous."
+        },
+        {
+          "p": "How will you study this week?",
+          "m": "Nêu 1 hoạt động học cụ thể; Nói thời gian bạn sẽ dành cho nó.",
+          "h": "Dùng 'I will study...' và 'for + thời lượng'.",
+          "s": "I will review my notes every evening. I will study for two hours each night."
+        },
+        {
+          "p": "What did you do last week to get ready?",
+          "m": "Nói 1 việc bạn đã làm (quá khứ); Nói kết quả ngắn từ hành động đó.",
+          "h": "Dùng past simple cho hành động đã xảy ra và kết quả.",
+          "s": "Last week I practiced past exam papers. I improved my speed and confidence."
+        },
+        {
+          "p": "If you feel tired, what should you do?",
+          "m": "Đưa lời khuyên 1; Nói lý do lời khuyên đó.",
+          "h": "Dùng 'You should...' hoặc 'I should...' và 'because'.",
+          "s": "You should take short breaks to rest because tiredness reduces focus. Short rest helps you study better."
+        },
+        {
+          "p": "Make a two-day revision plan before the exam.",
+          "m": "Nêu kế hoạch ngày 1 (một câu); Nêu kế hoạch ngày 2 (một câu).",
+          "h": "Dùng 'On day one, I will...' và 'On day two, I will...'.",
+          "s": "On day one, I will review vocabulary and do practice questions. On day two, I will do a mock test and check my answers."
+        }
+      ]
+    },
+    {
+      "t": "Giải quyết xung đột về kế hoạch",
+      "e": [
+        {
+          "p": "Someone booked the meeting at the same time as your appointment. What will you do?",
+          "m": "Nói hành động bạn sẽ làm đầu tiên; Nói cách bạn sẽ thông báo cho người khác.",
+          "h": "Dùng 'I will' và 'I will tell...' cho hành động và thông báo.",
+          "s": "I will check which event is more important first. Then I will tell the meeting host that I need to change the time."
+        },
+        {
+          "p": "Can you change your plan easily?",
+          "m": "Trả lời có/không; Nói lý do tại sao dễ hoặc khó.",
+          "h": "Dùng 'Yes, I can...' hoặc 'No, I can't...' và 'because'.",
+          "s": "No, I can't change it easily because the appointment is fixed. It would be difficult to find another time."
+        },
+        {
+          "p": "Suggest a new time for the meeting.",
+          "m": "Đưa ra một thời gian mới; Nói lý do thời gian đó tốt.",
+          "h": "Dùng 'How about...' hoặc 'What about...' và giải thích bằng 'because'.",
+          "s": "How about moving the meeting to Thursday at 3 pm? That time is good because I will be free then."
+        },
+        {
+          "p": "If the other person can't move, what should you do?",
+          "m": "Nêu một giải pháp thay thế; Nói lý do giải pháp đó hợp lý.",
+          "h": "Dùng 'I should...' hoặc 'I will...' và 'because'.",
+          "s": "I should ask a colleague to attend the meeting for me because I cannot change my appointment. This keeps work on track."
+        },
+        {
+          "p": "Explain briefly which plan you choose and why.",
+          "m": "Nói kế hoạch bạn chọn; Nói hai lý do ngắn cho lựa chọn (hai câu tổng cộng: 1 câu cho chọn, 1 câu cho hai lý do).",
+          "h": "Dùng một câu 'I will choose...' và một câu 'because...' với 2 lý do ngắn.",
+          "s": "I will choose to keep my appointment because it is the only fixed time and it is important for my family. The meeting can be rescheduled more easily than the appointment."
+        }
+      ]
+    },
+    {
+      "t": "So sánh hai lựa chọn tương lai",
+      "e": [
+        {
+          "p": "You can study more or start working. Which do you prefer now?",
+          "m": "Chọn một lựa chọn; Nói một lý do ngắn cho lựa chọn.",
+          "h": "Dùng 'I prefer...' hoặc 'I would rather...' và 'because'.",
+          "s": "I prefer to study more now because I need better qualifications. Studying will help my future job chances."
+        },
+        {
+          "p": "Is studying full-time more comfortable than working?",
+          "m": "Trả lời yes/no; Nói một so sánh ngắn.",
+          "h": "Dùng comparatives như 'more comfortable' hoặc 'less stressful' với 'because'.",
+          "s": "Studying full-time is more comfortable in terms of time because I have fewer work responsibilities. Work can be more stressful than study sometimes."
+        },
+        {
+          "p": "Which option will earn more money soon?",
+          "m": "Nêu lựa chọn kiếm tiền hơn; Nói lý do ngắn.",
+          "h": "Dùng 'will' cho dự đoán và 'because' để giải thích.",
+          "s": "Working will earn more money soon because you get a salary immediately. Studying usually pays off later."
+        },
+        {
+          "p": "If you choose both study and part-time work, how will you balance them?",
+          "m": "Đưa 1 điều bạn sẽ làm để cân bằng; Nói lý do chọn cách đó.",
+          "h": "Dùng 'I will' và 'so that' hoặc 'because' để giải thích mục đích.",
+          "s": "I will create a strict schedule and study in the evenings so that I can work during the day. This helps me keep both tasks on track."
+        },
+        {
+          "p": "Summarize your final decision and one main reason.",
+          "m": "Nêu quyết định cuối cùng (một câu); Nêu một lý do chính (một câu).",
+          "h": "Viết hai câu ngắn: 'I will/I'm going to...' và 'Because...'.",
+          "s": "I will start part-time work and continue studying part-time. Because I need income now and still want to improve my skills."
+        }
+      ]
+    },
+    {
+      "t": "Phản hồi lịch trình họp",
+      "e": [
+        {
+          "p": "The manager asked if you can join a meeting on Monday. Can you attend?",
+          "m": "Trả lời có/không; Nêu thời gian bạn có thể tham gia nếu không được.",
+          "h": "Dùng 'Yes, I can' hoặc 'No, I can't' và 'I can attend at...' nếu đề xuất thời gian khác.",
+          "s": "No, I can't attend on Monday morning. I can attend on Monday afternoon at 3 pm instead."
+        },
+        {
+          "p": "What topics will you prepare for the meeting?",
+          "m": "Nêu một chủ đề bạn sẽ chuẩn bị; Nói một tài liệu bạn sẽ mang theo.",
+          "h": "Dùng 'I will prepare...' và 'I will bring...' cho hai ý.",
+          "s": "I will prepare the project progress update. I will bring the latest report and slides."
+        },
+        {
+          "p": "How long will your part of the talk last?",
+          "m": "Nêu thời lượng; Nói một hoạt động bạn sẽ làm trong thời gian đó.",
+          "h": "Dùng 'It will be...' cho thời lượng và 'I will...' cho hoạt động.",
+          "s": "It will be about ten minutes. I will present the main results and answer one question."
+        },
+        {
+          "p": "If the meeting is too long, what should the chair do?",
+          "m": "Đưa một đề xuất ngắn; Nêu lý do đề xuất đó.",
+          "h": "Dùng 'should' cho đề xuất và 'because' để giải thích.",
+          "s": "The chair should limit each speaker to their time because it keeps the meeting focused. This helps finish on time."
+        },
+        {
+          "p": "Confirm your final availability and one thing you need from the organizer.",
+          "m": "Nói rõ bạn có thể tham dự khi nào; Nêu một yêu cầu bạn cần (ví dụ: tài liệu trước).",
+          "h": "Viết hai câu: 'I can attend...' và 'Please send...' hoặc 'I need...'.",
+          "s": "I can attend the meeting on Monday at 3 pm. Please send the agenda before the meeting so I can prepare."
+        }
+      ]
+    },
+    {
+      "t": "Ôn tập: Tổng hợp kế hoạch cá nhân",
+      "e": [
+        {
+          "p": "Tell me two main goals you have for this year.",
+          "m": "Nêu goal 1 (một câu); Nêu goal 2 (một câu).",
+          "h": "Dùng 'My goal is to...' hoặc 'I want to...'.",
+          "s": "My first goal is to improve my English speaking. My second goal is to save money for a short trip."
+        },
+        {
+          "p": "Describe one recent plan you made and one result.",
+          "m": "Nói kế hoạch (quá khứ đơn hoặc present perfect nếu muốn); Nói kết quả ngắn (một câu).",
+          "h": "Dùng past simple cho plan đã thực hiện và 'so' hoặc 'therefore' không cần — dùng 'so' nếu muốn logic.",
+          "s": "I planned to study every evening last month. As a result, I passed a small English test."
+        },
+        {
+          "p": "What will you do next week to reach your goals?",
+          "m": "Nêu một hành động cụ thể cho mục tiêu 1; Nói một hành động cho mục tiêu 2 (mỗi hành động một câu).",
+          "h": "Dùng 'I will...' cho các hành động tương lai gần.",
+          "s": "I will join a speaking club twice next week to practice English. I will also set aside fifty dollars to save for my trip."
+        },
+        {
+          "p": "Give one short piece of advice to a friend who has no plan.",
+          "m": "Đưa một lời khuyên cụ thể; Nói lý do lời khuyên đó hữu ích (một câu).",
+          "h": "Dùng 'You should...' và 'because'.",
+          "s": "You should write small weekly goals because they make big tasks easier. Small steps help you start quickly."
+        },
+        {
+          "p": "Summarize your top priority and why it matters in two sentences.",
+          "m": "Nêu ưu tiên số 1 (một câu); Nêu lý do chính (một câu).",
+          "h": "Viết hai câu, dùng 'My top priority is...' và 'because...'.",
+          "s": "My top priority is improving my English because it helps my career. Good English opens more job opportunities."
+        }
+      ]
+    },
+    {
+      "t": "Ôn tập: Kế hoạch công việc và học tập",
+      "e": [
+        {
+          "p": "What project will you finish this month?",
+          "m": "Nêu dự án; Nói trạng thái hiện tại (một câu).",
+          "h": "Dùng present continuous hoặc 'I will' cho dự án tương lai và present simple cho trạng thái.",
+          "s": "I will finish the client report this month. It is half done now."
+        },
+        {
+          "p": "How will learning help your work performance?",
+          "m": "Nêu 1 cách học; Nêu 1 kết quả cụ thể cho công việc.",
+          "h": "Dùng 'I will' và 'It will...' để nối học và kết quả.",
+          "s": "I will practice speaking with colleagues every week. It will help me speak better in meetings."
+        },
+        {
+          "p": "If your boss asks you to start earlier, what will you say?",
+          "m": "Trả lời (đồng ý/không); Nêu lý do hoặc điều kiện nếu cần (một câu).",
+          "h": "Dùng 'Yes, I will...' hoặc 'No, I can't...' và 'because' hoặc 'if'.",
+          "s": "Yes, I will start earlier if it helps the team. I can come at eight am instead of nine."
+        },
+        {
+          "p": "Compare studying alone and joining a group class.",
+          "m": "Nêu lợi ích của học một mình; Nêu lợi ích của học nhóm (hai câu).",
+          "h": "Dùng 'Alone...' và 'In a group...' hoặc comparatives.",
+          "s": "Studying alone is good because I can go at my own speed. In a group, I get feedback and practice speaking with others."
+        },
+        {
+          "p": "Make a two-step action to improve at work this month.",
+          "m": "Nêu bước 1 (một câu); Nêu bước 2 (một câu).",
+          "h": "Dùng 'First, I will...' và 'Then, I will...'.",
+          "s": "First, I will list my tasks and set daily goals. Then, I will ask for feedback from my manager every week."
+        }
+      ]
+    },
+    {
+      "t": "Ôn tập: Quyết định và lời khuyên",
+      "e": [
+        {
+          "p": "You must choose between two courses. What will you consider first?",
+          "m": "Nêu yếu tố 1 bạn sẽ xem xét; Nêu yếu tố 2 bạn sẽ xem xét (hai câu).",
+          "h": "Dùng 'I will consider...' cho mỗi yếu tố.",
+          "s": "I will consider the course content to see if it fits my goals. I will also check the schedule to make sure it fits my time."
+        },
+        {
+          "p": "Give short advice to someone who wants to change careers.",
+          "m": "Đưa 1 lời khuyên cụ thể; Nói lý do ngắn (một câu).",
+          "h": "Dùng 'You should...' và 'because'.",
+          "s": "You should learn basic skills for the new career first because it makes the change easier. Small steps reduce risk."
+        },
+        {
+          "p": "What will you do if you fail a plan?",
+          "m": "Nêu một hành động sửa chữa; Nói một cách bạn sẽ học từ thất bại (một câu).",
+          "h": "Dùng past simple cho thất bại đã xảy ra hoặc 'If I fail' cho giả định, dùng 'I will...' cho hành động.",
+          "s": "If I fail a plan, I will review what went wrong and make a new plan. I will learn from mistakes and try again."
+        },
+        {
+          "p": "How do you decide between saving money or spending on learning?",
+          "m": "Nói tiêu chí bạn dùng để quyết định; Nói quyết định của bạn (một câu).",
+          "h": "Dùng 'I decide by...' và 'so' hoặc 'because' cho kết luận.",
+          "s": "I decide by checking urgency and long-term benefit because important learning can increase income later. So I choose learning if it helps my career."
+        },
+        {
+          "p": "Summarize one final plan and one reason why you will follow it.",
+          "m": "Nêu kế hoạch (một câu); Nói lý do chính (một câu).",
+          "h": "Viết hai câu: 'I will...' và 'Because...'.",
+          "s": "I will study English for thirty minutes every day. Because small regular practice will bring steady improvement."
+        }
+      ]
+    }
+  ]
+}

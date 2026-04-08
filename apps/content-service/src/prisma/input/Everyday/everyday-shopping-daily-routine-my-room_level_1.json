@@ -1,0 +1,530 @@
+{
+  "l": 1,
+  "d": [
+    {
+      "t": "Ở cửa hàng quần áo",
+      "e": [
+        {
+          "p": "How much is this shirt?",
+          "m": "Nói giá của áo.",
+          "h": "S + be + số + dollars.",
+          "s": "It is five dollars."
+        },
+        {
+          "p": "Do you have this shirt in blue?",
+          "m": "Trả lời có hoặc không về việc có màu xanh hay không.",
+          "h": "Yes, we have it. / No, we don't.",
+          "s": "Yes, we have it."
+        },
+        {
+          "p": "What size is the shirt?",
+          "m": "Nói kích thước áo (S, M hoặc L).",
+          "h": "It is size + S/M/L.",
+          "s": "It is size M."
+        },
+        {
+          "p": "Can I try this on?",
+          "m": "Trả lời bằng can hoặc can't.",
+          "h": "Yes, you can. / No, you can't.",
+          "s": "Yes, you can."
+        },
+        {
+          "p": "I want to buy this shirt. How do I pay?",
+          "m": "Nói một cách ngắn gọn cách trả tiền (cash hoặc card).",
+          "h": "Use 'You can pay by ...' or 'Pay by ...'.",
+          "s": "You can pay by cash."
+        }
+      ]
+    },
+    {
+      "t": "Hỏi giá và giảm giá",
+      "e": [
+        {
+          "p": "Is there a discount on these pants?",
+          "m": "Trả lời có hoặc không về giảm giá.",
+          "h": "Use 'Yes, there is.' or 'No, there isn't.'",
+          "s": "Yes, there is."
+        },
+        {
+          "p": "How much are the pants?",
+          "m": "Nói giá quần (dùng số).",
+          "h": "They are + số + dollars.",
+          "s": "They are twenty dollars."
+        },
+        {
+          "p": "Do you give a student discount?",
+          "m": "Trả lời có hoặc không về giảm giá cho học sinh.",
+          "h": "Use 'Yes, we do.' or 'No, we don't.'",
+          "s": "No, we don't."
+        },
+        {
+          "p": "What is the price after discount?",
+          "m": "Nói giá mới sau giảm (một số).",
+          "h": "It is + số + dollars.",
+          "s": "It is fifteen dollars."
+        },
+        {
+          "p": "Can I use a coupon for this item?",
+          "m": "Trả lời có hoặc không bằng can/can't.",
+          "h": "Use 'Yes, you can.' or 'No, you can't.'",
+          "s": "No, you can't."
+        }
+      ]
+    },
+    {
+      "t": "Thanh toán và hóa đơn",
+      "e": [
+        {
+          "p": "Do you accept card?",
+          "m": "Trả lời có hoặc không về việc nhận thẻ.",
+          "h": "Use 'Yes, we accept.' or 'No, we don't.'",
+          "s": "Yes, we accept."
+        },
+        {
+          "p": "How many shirts do you want?",
+          "m": "Nói số lượng áo bạn muốn mua.",
+          "h": "Use a number (one, two, three...).",
+          "s": "I want two shirts."
+        },
+        {
+          "p": "Is tax included?",
+          "m": "Trả lời có hoặc không về việc đã có thuế chưa.",
+          "h": "Use 'Yes, it is.' or 'No, it isn't.'",
+          "s": "No, it isn't."
+        },
+        {
+          "p": "Can I get a receipt?",
+          "m": "Trả lời có hoặc không bằng can/can't.",
+          "h": "Yes, you can. / No, you can't.",
+          "s": "Yes, you can."
+        },
+        {
+          "p": "I pay by card. Is it okay?",
+          "m": "Xác nhận hoặc từ chối ngắn gọn.",
+          "h": "Use 'Yes, that's fine.' or 'No, not here.'",
+          "s": "Yes, that's fine."
+        }
+      ]
+    },
+    {
+      "t": "Mua sắm trực tuyến đơn giản",
+      "e": [
+        {
+          "p": "Can I order this online?",
+          "m": "Trả lời có hoặc không về việc có thể đặt hàng online.",
+          "h": "Use 'Yes, you can.' or 'No, you can't.'",
+          "s": "Yes, you can."
+        },
+        {
+          "p": "How much is delivery?",
+          "m": "Nói phí giao hàng (một số đơn giản).",
+          "h": "Delivery is + số + dollars.",
+          "s": "Delivery is three dollars."
+        },
+        {
+          "p": "Do you ship to my city?",
+          "m": "Trả lời có hoặc không về việc giao đến thành phố người hỏi.",
+          "h": "Use 'Yes, we do.' or 'No, we don't.'",
+          "s": "Yes, we do."
+        },
+        {
+          "p": "What size should I pick?",
+          "m": "Đưa một gợi ý kích thước ngắn (S/M/L).",
+          "h": "Use 'Pick size ...' or 'Choose ...'.",
+          "s": "Pick size M."
+        },
+        {
+          "p": "Can I return the item?",
+          "m": "Trả lời bằng can/can't về trả hàng.",
+          "h": "Use 'Yes, you can.' or 'No, you can't.'",
+          "s": "Yes, you can."
+        }
+      ]
+    },
+    {
+      "t": "Lịch trình buổi sáng",
+      "e": [
+        {
+          "p": "What time do you wake up?",
+          "m": "Nói giờ bạn thức dậy (ví dụ: 7).",
+          "h": "Use 'I wake up at ...'.",
+          "s": "I wake up at seven."
+        },
+        {
+          "p": "Do you eat breakfast every day?",
+          "m": "Trả lời có hoặc không về việc ăn sáng mỗi ngày.",
+          "h": "Use 'Yes, I do.' or 'No, I don't.'",
+          "s": "Yes, I do."
+        },
+        {
+          "p": "What do you wear in the morning?",
+          "m": "Nói một món quần áo bạn mặc buổi sáng.",
+          "h": "Use 'I wear a ...' or 'I wear ...'.",
+          "s": "I wear a blue shirt."
+        },
+        {
+          "p": "Can you go to school by bus?",
+          "m": "Trả lời can hoặc can't về việc đi bằng xe buýt.",
+          "h": "Use 'Yes, I can.' or 'No, I can't.'",
+          "s": "Yes, I can."
+        },
+        {
+          "p": "Do you brush your teeth every morning?",
+          "m": "Trả lời có hoặc không về thói quen đánh răng.",
+          "h": "Use 'Yes, I do.' or 'No, I don't.'",
+          "s": "Yes, I do."
+        }
+      ]
+    },
+    {
+      "t": "Công việc buổi tối",
+      "e": [
+        {
+          "p": "What time do you go to bed?",
+          "m": "Nói giờ bạn đi ngủ.",
+          "h": "Use 'I go to bed at ...'.",
+          "s": "I go to bed at ten."
+        },
+        {
+          "p": "Do you watch TV at night?",
+          "m": "Trả lời có hoặc không về việc xem TV.",
+          "h": "Use 'Yes, I do.' or 'No, I don't.'",
+          "s": "No, I don't."
+        },
+        {
+          "p": "What do you do after dinner?",
+          "m": "Nói một hoạt động ngắn sau bữa tối.",
+          "h": "Use 'I + verb' (present simple).",
+          "s": "I read a book."
+        },
+        {
+          "p": "Can you study at night?",
+          "m": "Trả lời can hoặc can't về việc học đêm.",
+          "h": "Use 'Yes, I can.' or 'No, I can't.'",
+          "s": "Yes, I can."
+        },
+        {
+          "p": "Do you clean your room every week?",
+          "m": "Trả lời có hoặc không về việc dọn phòng hàng tuần.",
+          "h": "Use 'Yes, I do.' or 'No, I don't.'",
+          "s": "Yes, I do."
+        }
+      ]
+    },
+    {
+      "t": "Lịch học và làm việc",
+      "e": [
+        {
+          "p": "When do you go to school?",
+          "m": "Nói ngày hoặc giờ bạn đi học (ngày hay giờ đơn giản).",
+          "h": "Use 'I go to school at ...' or 'I go on ...'.",
+          "s": "I go to school at eight."
+        },
+        {
+          "p": "Do you do homework every day?",
+          "m": "Trả lời có hoặc không về việc làm bài tập mỗi ngày.",
+          "h": "Use 'Yes, I do.' or 'No, I don't.'",
+          "s": "Yes, I do."
+        },
+        {
+          "p": "What clothes do you wear to school?",
+          "m": "Nói một món quần áo bạn mặc đến trường.",
+          "h": "Use 'I wear a ...' or 'I wear ...'.",
+          "s": "I wear a white shirt."
+        },
+        {
+          "p": "Can you finish your homework today?",
+          "m": "Trả lời can hoặc can't về hoàn thành bài tập hôm nay.",
+          "h": "Use 'Yes, I can.' or 'No, I can't.'",
+          "s": "Yes, I can."
+        },
+        {
+          "p": "Do you go to school on Saturday?",
+          "m": "Trả lời có hoặc không về việc đi học thứ Bảy.",
+          "h": "Use 'Yes, I do.' or 'No, I don't.'",
+          "s": "No, I don't."
+        }
+      ]
+    },
+    {
+      "t": "Mô tả phòng của tôi",
+      "e": [
+        {
+          "p": "Is there a bed in your room?",
+          "m": "Trả lời có hoặc không về giường trong phòng.",
+          "h": "Use 'Yes, there is.' or 'No, there isn't.'",
+          "s": "Yes, there is."
+        },
+        {
+          "p": "How many chairs are in your room?",
+          "m": "Nói số lượng ghế trong phòng.",
+          "h": "Use 'There are ... chairs.' or 'There is ... chair.'",
+          "s": "There is one chair."
+        },
+        {
+          "p": "What color is your bed?",
+          "m": "Nói màu của giường.",
+          "h": "Use 'My bed is + color.' or 'It is + color.'",
+          "s": "My bed is white."
+        },
+        {
+          "p": "Do you have a desk in your room?",
+          "m": "Trả lời có hoặc không về bàn học.",
+          "h": "Use 'Yes, I do.' or 'No, I don't.' or 'There is a desk.'",
+          "s": "Yes, I do."
+        },
+        {
+          "p": "Can you find your book on the shelf?",
+          "m": "Trả lời can hoặc can't về việc tìm sách.",
+          "h": "Use 'Yes, I can.' or 'No, I can't.'",
+          "s": "Yes, I can."
+        }
+      ]
+    },
+    {
+      "t": "Đồ vật trong phòng",
+      "e": [
+        {
+          "p": "What is on your desk?",
+          "m": "Nói một đồ vật có trên bàn (ví dụ: book).",
+          "h": "Use 'There is a ...' or 'There are ...'.",
+          "s": "There is a book."
+        },
+        {
+          "p": "Is there a lamp in the room?",
+          "m": "Trả lời có hoặc không về đèn bàn.",
+          "h": "Use 'Yes, there is.' or 'No, there isn't.'",
+          "s": "Yes, there is."
+        },
+        {
+          "p": "Where is your bag?",
+          "m": "Nói vị trí ngắn của cặp (on, under, next to).",
+          "h": "Use 'It is on/under/next to ...'.",
+          "s": "It is under the bed."
+        },
+        {
+          "p": "Do you have a poster on the wall?",
+          "m": "Trả lời có hoặc không về poster trên tường.",
+          "h": "Use 'Yes, I do.' or 'No, I don't.'",
+          "s": "No, I don't."
+        },
+        {
+          "p": "Can you open the window?",
+          "m": "Trả lời can hoặc can't về việc mở cửa sổ.",
+          "h": "Use 'Yes, I can.' or 'No, I can't.'",
+          "s": "Yes, I can."
+        }
+      ]
+    },
+    {
+      "t": "Mua quần áo cho mùa",
+      "e": [
+        {
+          "p": "Do you wear a coat in winter?",
+          "m": "Trả lời có hoặc không về việc mặc áo khoác mùa đông.",
+          "h": "Use 'Yes, I do.' or 'No, I don't.'",
+          "s": "Yes, I do."
+        },
+        {
+          "p": "What color is your coat?",
+          "m": "Nói màu áo khoác.",
+          "h": "Use 'My coat is + color.'",
+          "s": "My coat is black."
+        },
+        {
+          "p": "How much is a hat?",
+          "m": "Nói giá một chiếc mũ (một số).",
+          "h": "Use 'It is + số + dollars.'",
+          "s": "It is eight dollars."
+        },
+        {
+          "p": "Can I buy a small hat?",
+          "m": "Trả lời can hoặc can't về mua mũ nhỏ.",
+          "h": "Use 'Yes, you can.' or 'No, you can't.'",
+          "s": "Yes, you can."
+        },
+        {
+          "p": "Do you like this red scarf?",
+          "m": "Trả lời thích hoặc không thích bằng like/ don't like.",
+          "h": "Use 'I like it.' or 'I don't like it.'",
+          "s": "I like it."
+        }
+      ]
+    },
+    {
+      "t": "Chuẩn bị đi học / đi làm",
+      "e": [
+        {
+          "p": "Do you pack your bag at night?",
+          "m": "Trả lời có hoặc không về việc chuẩn bị cặp tối hôm trước.",
+          "h": "Use 'Yes, I do.' or 'No, I don't.'",
+          "s": "No, I don't."
+        },
+        {
+          "p": "What do you put in your bag?",
+          "m": "Nói một đồ vật bạn để trong cặp (book, pen...).",
+          "h": "Use 'I put a ... in my bag.'",
+          "s": "I put a book in my bag."
+        },
+        {
+          "p": "Do you wear shoes to school?",
+          "m": "Trả lời có hoặc không về việc mang giày đến trường.",
+          "h": "Use 'Yes, I do.' or 'No, I don't.'",
+          "s": "Yes, I do."
+        },
+        {
+          "p": "Can you tie your shoes?",
+          "m": "Trả lời can hoặc can't về việc buộc dây giày.",
+          "h": "Use 'Yes, I can.' or 'No, I can't.'",
+          "s": "Yes, I can."
+        },
+        {
+          "p": "Do you lock your door before you leave?",
+          "m": "Trả lời có hoặc không về việc khóa cửa khi đi.",
+          "h": "Use 'Yes, I do.' or 'No, I don't.'",
+          "s": "Yes, I do."
+        }
+      ]
+    },
+    {
+      "t": "Mua quà và lựa chọn kích thước",
+      "e": [
+        {
+          "p": "Is this shirt small or large?",
+          "m": "Nói nhỏ hoặc lớn (small/large).",
+          "h": "Use 'It is small.' or 'It is large.'",
+          "s": "It is small."
+        },
+        {
+          "p": "Do you want a blue or a red shirt?",
+          "m": "Chọn một màu (blue hoặc red).",
+          "h": "Use 'I want ...' or 'I choose ...'.",
+          "s": "I want a red shirt."
+        },
+        {
+          "p": "How many socks do you need?",
+          "m": "Nói số tất bạn cần.",
+          "h": "Use a number: 'I need ... socks.'",
+          "s": "I need three socks."
+        },
+        {
+          "p": "Can I buy one pair of shoes?",
+          "m": "Trả lời can hoặc can't về việc mua một đôi giày.",
+          "h": "Use 'Yes, you can.' or 'No, you can't.'",
+          "s": "Yes, you can."
+        },
+        {
+          "p": "Do you like this gift for your friend?",
+          "m": "Trả lời thích hoặc không thích bằng like/ don't like.",
+          "h": "Use 'I like it.' or 'I don't like it.'",
+          "s": "I like it."
+        }
+      ]
+    },
+    {
+      "t": "Ôn tập: Mua sắm và phòng",
+      "e": [
+        {
+          "p": "How much is the hat on the shelf?",
+          "m": "Nói giá chiếc mũ trên kệ.",
+          "h": "It is + số + dollars.",
+          "s": "It is ten dollars."
+        },
+        {
+          "p": "Is there a shirt on your bed?",
+          "m": "Trả lời có hoặc không về áo trên giường.",
+          "h": "Use 'Yes, there is.' or 'No, there isn't.'",
+          "s": "Yes, there is."
+        },
+        {
+          "p": "Do you have a blue coat?",
+          "m": "Trả lời có hoặc không về áo khoác màu xanh.",
+          "h": "Use 'Yes, I do.' or 'No, I don't.'",
+          "s": "No, I don't."
+        },
+        {
+          "p": "Can I pay by card at your shop?",
+          "m": "Trả lời can hoặc can't về thanh toán bằng thẻ.",
+          "h": "Use 'Yes, you can.' or 'No, you can't.'",
+          "s": "Yes, you can."
+        },
+        {
+          "p": "What is in your room now?",
+          "m": "Nói một đồ vật hiện có trong phòng.",
+          "h": "Use 'There is a ...' or 'There are ...'.",
+          "s": "There is a chair."
+        }
+      ]
+    },
+    {
+      "t": "Ôn tập: Lịch hàng ngày",
+      "e": [
+        {
+          "p": "What time do you have breakfast?",
+          "m": "Nói giờ bạn ăn sáng.",
+          "h": "I have breakfast at ...",
+          "s": "I have breakfast at seven."
+        },
+        {
+          "p": "Do you study in the evening?",
+          "m": "Trả lời có hoặc không về việc học buổi tối.",
+          "h": "Use 'Yes, I do.' or 'No, I don't.'",
+          "s": "Yes, I do."
+        },
+        {
+          "p": "Can you walk to school?",
+          "m": "Trả lời can hoặc can't về việc đi bộ đến trường.",
+          "h": "Use 'Yes, I can.' or 'No, I can't.'",
+          "s": "No, I can't."
+        },
+        {
+          "p": "What do you wear to bed?",
+          "m": "Nói một món bạn mặc khi đi ngủ.",
+          "h": "Use 'I wear a ...' or 'I wear ...'.",
+          "s": "I wear pajamas."
+        },
+        {
+          "p": "Do you clean your room today?",
+          "m": "Trả lời có hoặc không về việc dọn phòng hôm nay.",
+          "h": "Use 'Yes, I do.' or 'No, I don't.'",
+          "s": "No, I don't."
+        }
+      ]
+    },
+    {
+      "t": "Ôn tập: Tổng hợp mua sắm, lịch và phòng",
+      "e": [
+        {
+          "p": "Where do you put your new shirt?",
+          "m": "Nói vị trí bạn để áo mới trong phòng.",
+          "h": "Use 'I put it on/in/under ...'.",
+          "s": "I put it on the bed."
+        },
+        {
+          "p": "How much do you pay for your shoes?",
+          "m": "Nói giá bạn trả cho đôi giày.",
+          "h": "Use 'I pay ... dollars.' or 'They are ... dollars.'",
+          "s": "They are thirty dollars."
+        },
+        {
+          "p": "Do you go shopping every week?",
+          "m": "Trả lời có hoặc không về việc đi mua sắm hàng tuần.",
+          "h": "Use 'Yes, I do.' or 'No, I don't.'",
+          "s": "No, I don't."
+        },
+        {
+          "p": "Can you move the chair in your room?",
+          "m": "Trả lời can hoặc can't về việc di chuyển ghế.",
+          "h": "Use 'Yes, I can.' or 'No, I can't.'",
+          "s": "Yes, I can."
+        },
+        {
+          "p": "What do you wear when it is cold?",
+          "m": "Nói một món bạn mặc khi trời lạnh.",
+          "h": "Use 'I wear a ...' or 'I wear ...'.",
+          "s": "I wear a coat."
+        }
+      ]
+    }
+  ]
+}

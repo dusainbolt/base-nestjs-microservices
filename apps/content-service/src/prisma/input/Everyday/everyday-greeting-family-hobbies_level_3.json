@@ -1,0 +1,530 @@
+{
+  "l": 3,
+  "d": [
+    {
+      "t": "Gặp gỡ người lạ ở phòng chờ",
+      "e": [
+        {
+          "p": "What's your name?",
+          "m": "Nói tên của bạn. Nói tuổi của bạn.",
+          "h": "Cấu trúc: My name is [studentName]. I am [studentAge] years old.",
+          "s": "My name is [studentName]. I am [studentAge] years old."
+        },
+        {
+          "p": "Where are you from?",
+          "m": "Nói thành phố bạn đến từ. Nói bạn có sống ở đó không.",
+          "h": "Cấu trúc: I'm from [studentCity]. / I live there / I don't live there.",
+          "s": "I'm from [studentCity]. I still live there."
+        },
+        {
+          "p": "Do you have any brothers or sisters?",
+          "m": "Nói có mấy anh/chị/em. Nói ai sống cùng bạn (parents/alone/with siblings).",
+          "h": "Use: I have + number + brother(s)/sister(s). I live with + people.",
+          "s": "I have one brother. I live with my parents."
+        },
+        {
+          "p": "What do you do in your free time?",
+          "m": "Nói 1-2 sở thích. Nói khi bạn thường làm chúng (evening/weekend).",
+          "h": "Use: I like + V-ing. I usually + V (in the evening/on weekends).",
+          "s": "I like reading and walking. I usually do them in the evening."
+        },
+        {
+          "p": "Are you going to stay here long?",
+          "m": "Nói bạn sẽ ở đây lâu hay không. Nói một kế hoạch sắp tới (will/going to). Nói lý do ngắn.",
+          "h": "Use: I will / I'm going to + V. Add because + reason.",
+          "s": "I will stay for one hour. I'm going to meet a friend later because we will catch a bus together."
+        }
+      ]
+    },
+    {
+      "t": "Làm quen trong lớp học",
+      "e": [
+        {
+          "p": "Hi, what do your friends call you?",
+          "m": "Nói tên thân mật nếu có. Nói một từ mô tả tính cách ngắn (1 từ).",
+          "h": "Use: They call me + name. Use adj (e.g., friendly, shy).",
+          "s": "They call me Sam. I'm friendly."
+        },
+        {
+          "p": "Which grade are you in?",
+          "m": "Nói bạn học lớp mấy / năm học nào. Nói trường bạn học (tên hoặc loại).",
+          "h": "Use: I'm in + grade / I study at + [studentSchool] or school type.",
+          "s": "I'm in grade 8. I study at [studentSchool]."
+        },
+        {
+          "p": "How many people are in your family?",
+          "m": "Nói tổng số thành viên trong gia đình. Nói ai là người bạn thích nhất trong gia đình (one person).",
+          "h": "Use: There are + number + people in my family. I like + person (mother/father/sibling).",
+          "s": "There are four people in my family. I like my mother the most."
+        },
+        {
+          "p": "Do you play any sports after school?",
+          "m": "Nói có chơi thể thao không. Nói tần suất (often/sometimes/never).",
+          "h": "Use: I play / I don't play + sport. Use: often / sometimes / never.",
+          "s": "I play football sometimes. I don't play every day."
+        },
+        {
+          "p": "Can we meet for a study group this week?",
+          "m": "Nói bạn có thể tham gia không. Nói ngày hoặc buổi bạn rảnh. Nói một lý do ngắn nếu không thể.",
+          "h": "Use: I can / I can't. Use: on + day or in the + morning/afternoon.",
+          "s": "I can join on Friday afternoon. I can't come on Wednesday because I have a test."
+        }
+      ]
+    },
+    {
+      "t": "Nói chuyện với hàng xóm",
+      "e": [
+        {
+          "p": "Good morning, are you new here?",
+          "m": "Nói có phải bạn mới chuyển đến hay không. Nói bạn đến từ đâu (thành phố).",
+          "h": "Use: Yes, I am / No, I moved here from + city.",
+          "s": "Yes, I just moved here. I'm from [studentCity]."
+        },
+        {
+          "p": "How many people live in your home?",
+          "m": "Nói số người trong nhà. Nói nếu bạn có con hoặc đang sống với ai.",
+          "h": "Use: There are + number + people. I live with + people.",
+          "s": "There are five people at home. I live with my parents and two siblings."
+        },
+        {
+          "p": "Do you need any help with furniture or boxes?",
+          "m": "Nói bạn có cần giúp đỡ không. Nếu cần, nói bạn cần gì (carry/move).",
+          "h": "Use: Yes, please. I need help to + V. Or: No, thanks.",
+          "s": "Yes, please. I need help to move some boxes."
+        },
+        {
+          "p": "What do you usually do on weekends here?",
+          "m": "Nói 1-2 hoạt động bạn thường làm cuối tuần. Nói bạn có đi ra ngoài hay ở nhà.",
+          "h": "Use: I usually + V. I often + V (go out/stay at home).",
+          "s": "I usually go to the market and relax at home. I often go out on Saturday."
+        },
+        {
+          "p": "Would you like to come to a small welcome tea on Sunday?",
+          "m": "Nói bạn có đi được không. Nói thời gian phù hợp hoặc lý do nếu không thể.",
+          "h": "Use: I can / I can't. Give time or reason.",
+          "s": "I can come at 3 PM on Sunday. I can't come earlier because I have work."
+        }
+      ]
+    },
+    {
+      "t": "Gặp đồng nghiệp mới",
+      "e": [
+        {
+          "p": "Hi, what's your role here?",
+          "m": "Nói chức vụ hoặc công việc của bạn. Nói bạn làm việc ở phòng nào hoặc mảng nào.",
+          "h": "Use: I'm a + job / I work in the + department.",
+          "s": "I'm a junior designer. I work in the marketing department."
+        },
+        {
+          "p": "How long have you worked here?",
+          "m": "Nói bạn đã làm ở công ty bao lâu (thời gian ngắn). Nói nếu bạn đã làm ở nơi khác trước đó (yes/no + where).",
+          "h": "Use: I've worked here for + time / I used to work at + place.",
+          "s": "I've worked here for three months. I used to work at a small shop."
+        },
+        {
+          "p": "Do you have any family nearby?",
+          "m": "Nói có gia đình sống gần không. Nói ai sống gần bạn (parents/siblings).",
+          "h": "Use: Yes, my + person lives nearby / No, they live far.",
+          "s": "Yes, my parents live nearby. My sister lives in another city."
+        },
+        {
+          "p": "What do you do after work to relax?",
+          "m": "Nói một sở thích sau giờ làm. Nói tần suất bạn làm việc đó (every day/sometimes).",
+          "h": "Use: I + V to relax. I + V + frequency.",
+          "s": "I watch movies to relax. I do that sometimes after work."
+        },
+        {
+          "p": "Will you join the team dinner tomorrow?",
+          "m": "Nói bạn sẽ tham gia hay không. Nói lý do ngắn (plan/other work).",
+          "h": "Use: I will / I won't. Give a short reason like: because + reason.",
+          "s": "I will join the team dinner. I want to meet everyone."
+        }
+      ]
+    },
+    {
+      "t": "Nói về gia đình nhỏ",
+      "e": [
+        {
+          "p": "Tell me about your parents.",
+          "m": "Nói nghề hoặc công việc của cha/mẹ (one sentence). Nói tính cách ngắn (one word mỗi người).",
+          "h": "Use: My father/mother is a + job. He/She is + adj.",
+          "s": "My father is a teacher and my mother is a nurse. My father is patient and my mother is friendly."
+        },
+        {
+          "p": "How old is your youngest sibling?",
+          "m": "Nói tuổi của em/chị út. Nói em/chị đó thích làm gì (1 sở thích).",
+          "h": "Use: He/She is + age years old. He/She likes + V-ing.",
+          "s": "He is eight years old. He likes drawing."
+        },
+        {
+          "p": "Do grandparents live with you?",
+          "m": "Nói có ông bà sống cùng không. Nếu có, nói họ thường làm gì ở nhà.",
+          "h": "Use: Yes, they live with us / No, they don't. Use: They usually + V.",
+          "s": "No, my grandparents don't live with us. They usually visit on weekends."
+        },
+        {
+          "p": "Who cooks at home usually?",
+          "m": "Nói ai thường nấu ăn. Nói bạn có giúp không và làm gì.",
+          "h": "Use: My + person usually cooks. I sometimes + V.",
+          "s": "My mother usually cooks. I sometimes help by washing dishes."
+        },
+        {
+          "p": "Do you think family time is important?",
+          "m": "Nói ý kiến của bạn (yes/no + short reason). Nói một hoạt động gia đình bạn thích.",
+          "h": "Use: Yes, because + reason. I like + family activity.",
+          "s": "Yes, because family time makes us close. I like having dinner together."
+        }
+      ]
+    },
+    {
+      "t": "Miêu tả một thành viên trong gia đình",
+      "e": [
+        {
+          "p": "Describe your mother in one sentence.",
+          "m": "Nói nghề hoặc một hoạt động mẹ làm. Nói một tính từ mô tả mẹ.",
+          "h": "Use: She is a + job. She is + adj.",
+          "s": "She is a nurse. She is caring."
+        },
+        {
+          "p": "What does your father do on weekends?",
+          "m": "Nói hoạt động cha thường làm vào cuối tuần. Nói tần suất (often/sometimes).",
+          "h": "Use: He usually + V. Use: often / sometimes.",
+          "s": "He usually goes fishing on weekends. He does it often."
+        },
+        {
+          "p": "How old is your sister and what is she like?",
+          "m": "Nói tuổi của chị/em. Nói một tính cách ngắn (1 từ) và một sở thích.",
+          "h": "Use: She is + age. She is + adj. She likes + V-ing.",
+          "s": "She is twelve. She is shy. She likes playing the piano."
+        },
+        {
+          "p": "Did your family do anything special last weekend?",
+          "m": "Mô tả một việc đã làm cuối tuần trước (Past Simple). Nói một cảm xúc ngắn sau đó.",
+          "h": "Use Past Simple: We + V-ed. Use: I felt + adj.",
+          "s": "We visited my aunt last weekend. I felt happy."
+        },
+        {
+          "p": "What will you do with your family next holiday?",
+          "m": "Nói kế hoạch ngắn với gia đình (will/going to). Nói lý do bạn thích kế hoạch đó.",
+          "h": "Use: We will / We're going to + V. Add because + reason.",
+          "s": "We are going to visit the beach next holiday. We want to relax together because we are busy now."
+        }
+      ]
+    },
+    {
+      "t": "Sở thích buổi tối",
+      "e": [
+        {
+          "p": "What do you usually do after dinner?",
+          "m": "Nói 1 hoạt động buổi tối. Nói bạn làm việc đó một mình hay với ai.",
+          "h": "Use: I usually + V. I do it + alone/with + person.",
+          "s": "I usually read a book after dinner. I do it alone."
+        },
+        {
+          "p": "Do you watch TV or read before bed?",
+          "m": "Nói bạn thường làm gì trước khi ngủ (TV/read). Nói tần suất.",
+          "h": "Use: I watch TV / I read before bed. Use: often / sometimes.",
+          "s": "I read before bed often. I watch TV sometimes."
+        },
+        {
+          "p": "How long do you spend on your hobby each night?",
+          "m": "Nói thời gian trung bình (minutes/hours). Nói bạn có theo kế hoạch cụ thể hay không.",
+          "h": "Use: I spend + time. Use: I usually / I don't usually.",
+          "s": "I spend about one hour. I usually follow a small plan."
+        },
+        {
+          "p": "Have you tried a new hobby recently?",
+          "m": "Nói bạn có thử hobby mới gần đây không (Past Simple). Nói bạn cảm thấy thế nào.",
+          "h": "Use Past Simple: I tried + V-ing. Use: I felt + adj.",
+          "s": "I tried painting last month. I felt excited."
+        },
+        {
+          "p": "Should you practice your hobby more or less?",
+          "m": "Nói ý kiến ngắn (should). Nói một hành động cụ thể bạn sẽ làm.",
+          "h": "Use: I should + V. Use: I will + V to change habit.",
+          "s": "I should practice more. I will spend thirty minutes every night."
+        }
+      ]
+    },
+    {
+      "t": "Cuối tuần làm gì?",
+      "e": [
+        {
+          "p": "What are your plans for this weekend?",
+          "m": "Nói 1-2 hoạt động bạn dự định làm (going to/will). Nói bạn đi một mình hay với ai.",
+          "h": "Use: I'm going to / I will + V. Add: with + person.",
+          "s": "I'm going to visit my friend on Saturday. I'll go with my sister."
+        },
+        {
+          "p": "Do you prefer quiet weekends or busy weekends?",
+          "m": "Nói sở thích của bạn (quiet/busy). Nói một lý do ngắn.",
+          "h": "Use: I prefer + noun or adj. Because + reason.",
+          "s": "I prefer quiet weekends because I can relax and read."
+        },
+        {
+          "p": "How often do you go out with your family on weekends?",
+          "m": "Nói tần suất (every week/sometimes/rarely). Nói một hoạt động bạn làm khi đi ra ngoài.",
+          "h": "Use: We go out + frequency. We usually + V (activity).",
+          "s": "We go out sometimes. We usually eat at a restaurant."
+        },
+        {
+          "p": "What did you do last weekend?",
+          "m": "Kể 1 việc bạn đã làm (Past Simple). Nói bạn có thích hoạt động đó không.",
+          "h": "Use Past Simple: I + V-ed. Say: I liked it / I didn't like it.",
+          "s": "I visited the market last weekend. I liked it."
+        },
+        {
+          "p": "Will you try a new activity next weekend?",
+          "m": "Nói bạn có định thử hoạt động mới không (will/going to). Nói lý do bạn muốn thử hoặc không.",
+          "h": "Use: I will / I'm not going to + V. Give short reason.",
+          "s": "I will try roller skating next weekend because I want to learn something new."
+        }
+      ]
+    },
+    {
+      "t": "So sánh sở thích với bạn",
+      "e": [
+        {
+          "p": "Do you like reading more than watching TV?",
+          "m": "Nói bạn thích đọc hơn xem TV hay không. Nói lý do ngắn.",
+          "h": "Use comparatives: I like A more than B because + reason.",
+          "s": "I like reading more than watching TV because reading is quiet."
+        },
+        {
+          "p": "Is your friend more active than you?",
+          "m": "So sánh bạn và bạn bè về hoạt động (more/less). Nói ví dụ ngắn rõ ràng.",
+          "h": "Use: He/She is more/less + adj than me. Give example.",
+          "s": "She is more active than me. She goes jogging every day."
+        },
+        {
+          "p": "Who cooks better in your family?",
+          "m": "Nói ai nấu ăn giỏi hơn (comparative). Nói món họ nấu tốt.",
+          "h": "Use: My + person cooks better than + person. Name a dish.",
+          "s": "My mother cooks better than my father. She makes the best soup."
+        },
+        {
+          "p": "Would you say sports are more important than studying?",
+          "m": "Nói ý kiến ngắn (more important or not). Nói một lý do cân bằng (short).",
+          "h": "Use: I think A is more/less important than B because + reason.",
+          "s": "I think studying is more important than sports because school matters for the future."
+        },
+        {
+          "p": "Should people try more than one hobby?",
+          "m": "Nói ý kiến dùng should. Nói một hành động bạn đề xuất.",
+          "h": "Use: People should + V. Suggest: try + hobby / spend time.",
+          "s": "People should try more than one hobby. I suggest trying a new hobby once a month."
+        }
+      ]
+    },
+    {
+      "t": "Kể về sở thích trong quá khứ",
+      "e": [
+        {
+          "p": "What hobby did you have when you were a child?",
+          "m": "Nói hobby thời thơ ấu (Past Simple). Nói bạn làm nó bao lâu hoặc tần suất.",
+          "h": "Use Past Simple: I used to + V / I played + hobby. Add: often / for + time.",
+          "s": "I used to collect stickers when I was a child. I did it every week."
+        },
+        {
+          "p": "Did you stop any hobby recently?",
+          "m": "Nói bạn có bỏ hobby nào gần đây không (Past Simple). Nói lý do ngắn.",
+          "h": "Use Past Simple: I stopped + V-ing because + reason.",
+          "s": "I stopped playing badminton recently because I was busy with school."
+        },
+        {
+          "p": "How did your family spend free time when you were young?",
+          "m": "Mô tả 1-2 hoạt động gia đình trong quá khứ (Past Simple). Nói cảm xúc ngắn.",
+          "h": "Use Past Simple: We used to + V. Say: I felt + adj.",
+          "s": "We used to go to the park together. I felt happy."
+        },
+        {
+          "p": "When did you learn your favorite hobby?",
+          "m": "Nói khi nào bạn học hobby (time in past). Nói ai dạy bạn nếu có.",
+          "h": "Use Past Simple: I learned + hobby + when I was + age. Use: My + person taught me.",
+          "s": "I learned painting when I was ten. My art teacher taught me."
+        },
+        {
+          "p": "Would you do that hobby again?",
+          "m": "Nói bạn sẽ làm lại hobby không (will). Nói lý do ngắn.",
+          "h": "Use: I will / I won't + V because + reason.",
+          "s": "I will do that hobby again because it makes me calm."
+        }
+      ]
+    },
+    {
+      "t": "Lên kế hoạch cho hoạt động gia đình",
+      "e": [
+        {
+          "p": "We want to plan a family picnic. Can you come?",
+          "m": "Nói bạn có thể tham gia không. Nói một ngày phù hợp hoặc lý do nếu không thể.",
+          "h": "Use: I can / I can't. Give day or reason.",
+          "s": "I can come on Sunday. I can't come on Saturday because I have class."
+        },
+        {
+          "p": "Who will bring food to the picnic?",
+          "m": "Nói ai sẽ mang đồ ăn (will). Nói bạn sẽ mang gì nếu được giao.",
+          "h": "Use: My + person will + V. I will bring + food.",
+          "s": "My mother will bring rice and salad. I will bring fruit."
+        },
+        {
+          "p": "Should we go to the beach or the park?",
+          "m": "Đưa ý kiến ngắn (should). So sánh 2 địa điểm ngắn (1 câu).",
+          "h": "Use: We should + V. Use comparatives or short reason.",
+          "s": "We should go to the park because it is quieter than the beach."
+        },
+        {
+          "p": "How long will we stay outside?",
+          "m": "Nói khoảng thời gian dự kiến (hours). Nói bạn cần chuẩn bị gì (one item).",
+          "h": "Use: We will stay for + time. I need to prepare + item.",
+          "s": "We will stay for three hours. I need to prepare a blanket."
+        },
+        {
+          "p": "What if it rains on the picnic day?",
+          "m": "Đề xuất một kế hoạch dự phòng (if + sẽ). Nói bạn nghĩ nên làm gì.",
+          "h": "Use: If it rains, we will + V. Suggest: we can + V.",
+          "s": "If it rains, we will move to my aunt's house. We can have dinner there instead."
+        }
+      ]
+    },
+    {
+      "t": "Giữ liên lạc về sự kiện gia đình",
+      "e": [
+        {
+          "p": "Our family party is next week, will you come?",
+          "m": "Nói bạn sẽ tham gia hay không. Nói thời gian bạn có thể đến (hour/day).",
+          "h": "Use: I will / I won't. Give time: at + hour / on + day.",
+          "s": "I will come on Saturday evening. I can arrive at 6 PM."
+        },
+        {
+          "p": "Can you bring photos from last year?",
+          "m": "Nói bạn có thể mang ảnh không. Nói bạn sẽ mang bằng cách nào (print/email).",
+          "h": "Use: I can bring + noun. Use: I will + method (print/email).",
+          "s": "I can bring photos. I will print them."
+        },
+        {
+          "p": "Who will take care of the cake?",
+          "m": "Gợi ý ai phụ trách cake (suggest someone). Nói bạn có thể giúp gì ngắn.",
+          "h": "Use: Maybe + person will + V. I can + V to help.",
+          "s": "Maybe my sister will take care of the cake. I can help by buying it."
+        },
+        {
+          "p": "Did you enjoy the last family event?",
+          "m": "Nói bạn có thích sự kiện trước không (Past Simple). Nói một điều bạn thích nhất.",
+          "h": "Use Past Simple: I enjoyed + noun. Say: I liked + detail.",
+          "s": "I enjoyed the last family event. I liked the music the most."
+        },
+        {
+          "p": "Should we invite neighbors too?",
+          "m": "Nói ý kiến của bạn (should). Nói một lợi ích hoặc rủi ro ngắn.",
+          "h": "Use: We should / We shouldn't + V. Give short reason.",
+          "s": "We should invite neighbors because it will be friendly. But it may be noisy."
+        }
+      ]
+    },
+    {
+      "t": "Ôn tập: Gặp gỡ và giới thiệu",
+      "e": [
+        {
+          "p": "Hello, can you tell me your name and where you live?",
+          "m": "Nói tên bạn. Nói thành phố bạn sống.",
+          "h": "Use: My name is [studentName]. I live in [studentCity].",
+          "s": "My name is [studentName]. I live in [studentCity]."
+        },
+        {
+          "p": "How old are you and what grade are you in?",
+          "m": "Nói tuổi của bạn. Nói lớp hoặc công việc bạn đang làm.",
+          "h": "Use: I am [studentAge] years old. I am in grade / I work as + job.",
+          "s": "I am [studentAge] years old. I am in grade 9."
+        },
+        {
+          "p": "Do you have siblings and who do you live with?",
+          "m": "Nói có mấy anh chị em. Nói ai sống cùng bạn.",
+          "h": "Use: I have + number + siblings. I live with + people.",
+          "s": "I have two siblings. I live with my parents."
+        },
+        {
+          "p": "What do you do in free time and when?",
+          "m": "Nói 1-2 sở thích. Nói thời gian bạn làm chúng.",
+          "h": "Use: I like + V-ing. I usually + V + in the evening/on weekends.",
+          "s": "I like playing guitar and reading. I usually do them in the evening."
+        },
+        {
+          "p": "Will you join a club at school next term?",
+          "m": "Nói bạn sẽ tham gia hay không (will/going to). Nói lý do ngắn.",
+          "h": "Use: I will / I'm going to + V because + reason.",
+          "s": "I will join the music club because I want to improve my guitar."
+        }
+      ]
+    },
+    {
+      "t": "Ôn tập: Gia đình và miêu tả",
+      "e": [
+        {
+          "p": "Describe one family member and their job.",
+          "m": "Nói một thành viên và nghề của họ. Nói một tính từ mô tả họ.",
+          "h": "Use: My + person is a + job. He/She is + adj.",
+          "s": "My father is a teacher. He is patient."
+        },
+        {
+          "p": "How many people are in your family and who is oldest?",
+          "m": "Nói tổng số thành viên. Nói ai là người lớn tuổi nhất.",
+          "h": "Use: There are + number + people. The oldest is + person.",
+          "s": "There are four people in my family. The oldest is my mother."
+        },
+        {
+          "p": "What did your family do last holiday?",
+          "m": "Nói một hoạt động gia đình đã làm (Past Simple). Nói cảm xúc ngắn.",
+          "h": "Use Past Simple: We + V-ed. I felt + adj.",
+          "s": "We went to the countryside last holiday. I felt relaxed."
+        },
+        {
+          "p": "Who should cook if we have a small party?",
+          "m": "Đề xuất ai nên nấu (should). Nói lý do ngắn.",
+          "h": "Use: My + person should + V because + reason.",
+          "s": "My mother should cook because she cooks well."
+        },
+        {
+          "p": "Will your family travel next year?",
+          "m": "Nói dự định đi du lịch hay không (will/going to). Nói nơi hoặc lý do.",
+          "h": "Use: We will / We're going to + V. Say place or reason.",
+          "s": "We will travel to the beach next year because we want rest."
+        }
+      ]
+    },
+    {
+      "t": "Ôn tập: Sở thích và kế hoạch",
+      "e": [
+        {
+          "p": "What is your favorite hobby and why?",
+          "m": "Nói hobby yêu thích. Nói một lý do ngắn vì sao.",
+          "h": "Use: My favorite hobby is + noun. Because + reason.",
+          "s": "My favorite hobby is painting because it helps me relax."
+        },
+        {
+          "p": "How often do you practice it and when?",
+          "m": "Nói tần suất (often/sometimes). Nói thời gian bạn làm nó.",
+          "h": "Use: I practice + frequency. I do it in the + time.",
+          "s": "I practice twice a week. I do it in the evening."
+        },
+        {
+          "p": "Did you start this hobby recently or long ago?",
+          "m": "Nói bắt đầu khi nào (Past Simple). Nói ai dạy bạn nếu có.",
+          "h": "Use Past Simple: I started + time ago. My + person taught me.",
+          "s": "I started three years ago. My teacher taught me."
+        },
+        {
+          "p": "Will you try a new hobby next month?",
+          "m": "Nói kế hoạch (will/going to). Nói lý do bạn muốn thử.",
+          "h": "Use: I will / I'm going to + V because + reason.",
+          "s": "I will try photography next month because I want new skills."
+        },
+        {
+          "p": "Compare two hobbies you know: which is better for health?",
+          "m": "So sánh ngắn (comparative). Nói lý do chọn hobby tốt hơn cho sức khỏe.",
+          "h": "Use: A is better than B because + reason. Use: more / -er.",
+          "s": "Running is better than watching TV because it is more active."
+        }
+      ]
+    }
+  ]
+}

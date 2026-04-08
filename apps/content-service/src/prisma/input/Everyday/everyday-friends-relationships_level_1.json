@@ -1,0 +1,530 @@
+{
+  "l": 1,
+  "d": [
+    {
+      "t": "Gặp gỡ người mới",
+      "e": [
+        {
+          "p": "What's your name?",
+          "m": "Nói tên của bạn.",
+          "h": "My name is + tên.",
+          "s": "My name is [studentName]."
+        },
+        {
+          "p": "How old are you?",
+          "m": "Nói tuổi của bạn.",
+          "h": "I am + số + years old.",
+          "s": "I am [studentAge] years old."
+        },
+        {
+          "p": "Where do you live?",
+          "m": "Nói thành phố bạn sống.",
+          "h": "I live in + tên thành phố.",
+          "s": "I live in [studentCity]."
+        },
+        {
+          "p": "Do you have a friend here?",
+          "m": "Nói có bạn ở đây hay không.",
+          "h": "Yes, I have / No, I don't have.",
+          "s": "Yes, I have a friend here."
+        },
+        {
+          "p": "What do you like to do with friends?",
+          "m": "Nói một hoạt động bạn thích làm với bạn bè.",
+          "h": "I like to + động từ.",
+          "s": "I like to play with my friends."
+        }
+      ]
+    },
+    {
+      "t": "Nói về bạn thân",
+      "e": [
+        {
+          "p": "Who is your best friend?",
+          "m": "Nói quan hệ hoặc vai trò của người bạn thân (ví dụ: bạn học).",
+          "h": "My best friend is + vị trí/quan hệ.",
+          "s": "My best friend is my classmate."
+        },
+        {
+          "p": "Is your friend tall?",
+          "m": "Trả lời có hay không về chiều cao của bạn.",
+          "h": "Yes, my friend is + tính từ / No, my friend is not + tính từ.",
+          "s": "Yes, my friend is tall."
+        },
+        {
+          "p": "Does your friend play football?",
+          "m": "Nói có hay không bạn ấy chơi bóng đá.",
+          "h": "Yes, my friend plays / No, my friend doesn't play.",
+          "s": "No, my friend doesn't play football."
+        },
+        {
+          "p": "Can your friend cook?",
+          "m": "Nói bạn ấy có thể nấu ăn hay không.",
+          "h": "Yes, my friend can / No, my friend can't.",
+          "s": "Yes, my friend can cook."
+        },
+        {
+          "p": "When do you meet your friend?",
+          "m": "Nói thời điểm bạn gặp bạn (một cụm từ ngắn).",
+          "h": "I meet my friend + tần suất/thời gian.",
+          "s": "I meet my friend every day."
+        }
+      ]
+    },
+    {
+      "t": "Giới thiệu bạn trong lớp",
+      "e": [
+        {
+          "p": "Tell me about a classmate.",
+          "m": "Nói một câu mô tả ngắn về một bạn trong lớp.",
+          "h": "My friend is + danh từ/tính từ.",
+          "s": "My friend is a good student."
+        },
+        {
+          "p": "How old is your classmate?",
+          "m": "Nói tuổi của bạn đó.",
+          "h": "My friend is + số + years old.",
+          "s": "My friend is 12 years old."
+        },
+        {
+          "p": "Where does your classmate live?",
+          "m": "Nói nơi bạn đó sống (một ý).",
+          "h": "My friend lives in + nơi.",
+          "s": "My friend lives in the same city."
+        },
+        {
+          "p": "What does your classmate like?",
+          "m": "Nói một sở thích của bạn đó.",
+          "h": "My friend likes to + V.",
+          "s": "My friend likes to play football."
+        },
+        {
+          "p": "Do you study with him/her?",
+          "m": "Trả lời có hay không về việc học cùng.",
+          "h": "Yes, I study with him/her / No, I don't.",
+          "s": "Yes, I study with my classmate."
+        }
+      ]
+    },
+    {
+      "t": "Gặp bạn ở công viên",
+      "e": [
+        {
+          "p": "Is anyone sitting here?",
+          "m": "Trả lời có/không và nói ai đó ngồi ở đó nếu có.",
+          "h": "Yes, there is + người / No, there isn't.",
+          "s": "Yes, there is my friend sitting here."
+        },
+        {
+          "p": "Who is that boy?",
+          "m": "Nói mối quan hệ với người đó (ví dụ: bạn).",
+          "h": "He is + quan hệ.",
+          "s": "He is my friend."
+        },
+        {
+          "p": "What do you do in the park?",
+          "m": "Nói một hoạt động bạn làm ở công viên.",
+          "h": "I + V with my friend.",
+          "s": "I walk with my friend in the park."
+        },
+        {
+          "p": "Can we meet tomorrow?",
+          "m": "Trả lời có/không và nói đồng ý hoặc không (một ý).",
+          "h": "Yes, we can / No, we can't.",
+          "s": "Yes, we can meet tomorrow."
+        },
+        {
+          "p": "How often do you come to the park?",
+          "m": "Nói tần suất bạn tới công viên (một ý).",
+          "h": "I come + tần suất.",
+          "s": "I come to the park every week."
+        }
+      ]
+    },
+    {
+      "t": "Lên kế hoạch đi chơi cùng bạn",
+      "e": [
+        {
+          "p": "Do you want to go to the cinema?",
+          "m": "Trả lời có hay không về việc muốn đi xem phim.",
+          "h": "Yes, I want / No, I don't want.",
+          "s": "Yes, I want to go to the cinema."
+        },
+        {
+          "p": "When is good for you?",
+          "m": "Nói một thời gian phù hợp (một ý).",
+          "h": "Use: Tonight / Tomorrow / This weekend.",
+          "s": "Tomorrow is good for me."
+        },
+        {
+          "p": "Who will come with you?",
+          "m": "Nói một người sẽ đi cùng bạn.",
+          "h": "My friend + comes/comes with me.",
+          "s": "My friend comes with me."
+        },
+        {
+          "p": "How do you go to the cinema?",
+          "m": "Nói cách di chuyển (một từ ngắn).",
+          "h": "I go by + bus/car/walking.",
+          "s": "I go by bus."
+        },
+        {
+          "p": "Do you buy tickets online?",
+          "m": "Trả lời có hay không ngắn.",
+          "h": "Yes, I do / No, I don't.",
+          "s": "No, I don't buy tickets online."
+        }
+      ]
+    },
+    {
+      "t": "Hoạt động hàng ngày với bạn bè",
+      "e": [
+        {
+          "p": "What do you do after school?",
+          "m": "Nói một hoạt động bạn làm với bạn bè sau giờ học.",
+          "h": "I + V with my friends after school.",
+          "s": "I play with my friends after school."
+        },
+        {
+          "p": "Do you eat lunch with friends?",
+          "m": "Trả lời có hay không về ăn trưa cùng bạn bè.",
+          "h": "Yes, I eat with my friends / No, I don't.",
+          "s": "Yes, I eat lunch with my friends."
+        },
+        {
+          "p": "Where do you meet after class?",
+          "m": "Nói nơi bạn gặp bạn bè sau giờ học.",
+          "h": "We meet at + place.",
+          "s": "We meet at school."
+        },
+        {
+          "p": "Who helps you with homework?",
+          "m": "Nói ai giúp bạn làm bài tập (một ý).",
+          "h": "My friend helps me / My sister helps me.",
+          "s": "My friend helps me with homework."
+        },
+        {
+          "p": "Do you play games every day?",
+          "m": "Trả lời có/không về tần suất chơi game.",
+          "h": "Yes, I play every day / No, I don't.",
+          "s": "No, I don't play games every day."
+        }
+      ]
+    },
+    {
+      "t": "Sở thích chung của bạn bè",
+      "e": [
+        {
+          "p": "What games do you play with friends?",
+          "m": "Nói một trò chơi bạn chơi với bạn bè.",
+          "h": "I play + game.",
+          "s": "I play football with my friends."
+        },
+        {
+          "p": "Do your friends like music?",
+          "m": "Trả lời có/không về việc bạn bè có thích âm nhạc không.",
+          "h": "Yes, they like music / No, they don't.",
+          "s": "Yes, my friends like music."
+        },
+        {
+          "p": "Can your friends sing?",
+          "m": "Trả lời có/không về khả năng hát của bạn bè.",
+          "h": "Yes, they can / No, they can't.",
+          "s": "Yes, my friends can sing."
+        },
+        {
+          "p": "When do you play football?",
+          "m": "Nói thời điểm bạn chơi bóng đá (một ý).",
+          "h": "I play on + time (weekend / evening).",
+          "s": "I play football on the weekend."
+        },
+        {
+          "p": "Who is good at music in your group?",
+          "m": "Nói một người giỏi âm nhạc trong nhóm.",
+          "h": "My friend is good at music.",
+          "s": "My friend is good at music."
+        }
+      ]
+    },
+    {
+      "t": "Giúp đỡ bạn bè",
+      "e": [
+        {
+          "p": "Can you help me?",
+          "m": "Trả lời có hoặc không ngắn gọn.",
+          "h": "Yes, I can / No, I can't.",
+          "s": "Yes, I can help you."
+        },
+        {
+          "p": "Who helps you when you are sick?",
+          "m": "Nói ai giúp bạn khi bạn ốm (một ý).",
+          "h": "My friend helps me / My mother helps me.",
+          "s": "My friend helps me when I am sick."
+        },
+        {
+          "p": "Do you help your friends with homework?",
+          "m": "Trả lời có/không về việc giúp bạn bè làm bài tập.",
+          "h": "Yes, I help / No, I don't help.",
+          "s": "Yes, I help my friends with homework."
+        },
+        {
+          "p": "What can you do to help a friend?",
+          "m": "Nói một việc bạn có thể làm để giúp bạn bè.",
+          "h": "I can + V.",
+          "s": "I can listen to my friend."
+        },
+        {
+          "p": "Where do you help your friend?",
+          "m": "Nói nơi bạn giúp bạn bè (một ý).",
+          "h": "I help my friend at + nơi.",
+          "s": "I help my friend at school."
+        }
+      ]
+    },
+    {
+      "t": "Gặp bạn ở quán",
+      "e": [
+        {
+          "p": "Do you sit together?",
+          "m": "Trả lời có hay không về việc ngồi cùng nhau.",
+          "h": "Yes, we sit together / No, we don't.",
+          "s": "Yes, we sit together."
+        },
+        {
+          "p": "What do you drink with friends?",
+          "m": "Nói một đồ uống bạn uống cùng bạn bè.",
+          "h": "I drink water / juice / tea with my friends.",
+          "s": "I drink juice with my friends."
+        },
+        {
+          "p": "How many friends are with you?",
+          "m": "Nói số người bạn đang ở cùng (một số).",
+          "h": "There are + số + friends with me.",
+          "s": "There are three friends with me."
+        },
+        {
+          "p": "Who pays the bill?",
+          "m": "Nói ai trả tiền (một ý).",
+          "h": "My friend pays / I pay.",
+          "s": "My friend pays the bill."
+        },
+        {
+          "p": "Do you talk about school?",
+          "m": "Trả lời có/không về việc nói về trường học.",
+          "h": "Yes, we talk about school / No, we don't.",
+          "s": "Yes, we talk about school."
+        }
+      ]
+    },
+    {
+      "t": "Mối quan hệ trong nhóm",
+      "e": [
+        {
+          "p": "Who is the leader of your group?",
+          "m": "Nói ai là nhóm trưởng (một người).",
+          "h": "My friend is the leader.",
+          "s": "My friend is the leader of my group."
+        },
+        {
+          "p": "Do you like your group?",
+          "m": "Trả lời có/không và nêu một lý do ngắn.",
+          "h": "Yes, because + lý do ngắn / No, because + lý do.",
+          "s": "Yes, because my group is friendly."
+        },
+        {
+          "p": "How do you help the group?",
+          "m": "Nói một việc bạn làm để giúp nhóm.",
+          "h": "I + V + for the group.",
+          "s": "I help the group with work."
+        },
+        {
+          "p": "Can your group play together?",
+          "m": "Trả lời có/không về việc nhóm chơi cùng nhau.",
+          "h": "Yes, we can / No, we can't.",
+          "s": "Yes, my group can play together."
+        },
+        {
+          "p": "Where does your group meet?",
+          "m": "Nói nơi nhóm gặp nhau (một ý).",
+          "h": "We meet at + place.",
+          "s": "We meet at school."
+        }
+      ]
+    },
+    {
+      "t": "Khen ngợi và cảm ơn bạn bè",
+      "e": [
+        {
+          "p": "Thank you for your help.",
+          "m": "Trả lời ngắn: 'Bạn được chào đón' hoặc tương tự.",
+          "h": "You're welcome / No problem.",
+          "s": "You're welcome."
+        },
+        {
+          "p": "Nice job, friend!",
+          "m": "Trả lời nhận lời khen bằng một câu ngắn (cảm ơn).",
+          "h": "Thank you.",
+          "s": "Thank you."
+        },
+        {
+          "p": "You are a good friend.",
+          "m": "Trả lời nhận lời khen và nói cảm xúc ngắn (một ý).",
+          "h": "I am + happy / I am + adj.",
+          "s": "I am happy."
+        },
+        {
+          "p": "I like your help.",
+          "m": "Cảm ơn và nói bạn thích giúp đỡ (một ý).",
+          "h": "Thank you. I like to help.",
+          "s": "Thank you, I like to help."
+        },
+        {
+          "p": "Can I help you?",
+          "m": "Trả lời có/không ngắn gọn.",
+          "h": "Yes, please / No, thank you.",
+          "s": "No, thank you."
+        }
+      ]
+    },
+    {
+      "t": "Tổ chức sinh nhật cho bạn",
+      "e": [
+        {
+          "p": "Is it your birthday?",
+          "m": "Trả lời có hay không ngắn.",
+          "h": "Yes, it is / No, it is not.",
+          "s": "No, it is not my birthday."
+        },
+        {
+          "p": "Do you want a birthday party?",
+          "m": "Trả lời có hay không về việc muốn tiệc.",
+          "h": "Yes, I want / No, I don't want.",
+          "s": "Yes, I want a birthday party."
+        },
+        {
+          "p": "Who comes to your party?",
+          "m": "Nói một nhóm người sẽ đến (một ý).",
+          "h": "My friends / My family come.",
+          "s": "My friends come to my party."
+        },
+        {
+          "p": "What do you eat at a party?",
+          "m": "Nói một món ăn bạn ăn ở tiệc.",
+          "h": "We eat cake / We eat pizza.",
+          "s": "We eat cake at the party."
+        },
+        {
+          "p": "How do you invite friends?",
+          "m": "Viết một câu mời đơn giản.",
+          "h": "Please come to my party / Will you come?",
+          "s": "Please come to my birthday party."
+        }
+      ]
+    },
+    {
+      "t": "Ôn tập: Gặp gỡ và giới thiệu",
+      "e": [
+        {
+          "p": "What's your name?",
+          "m": "Nói tên của bạn.",
+          "h": "My name is + tên.",
+          "s": "My name is [studentName]."
+        },
+        {
+          "p": "Where do you live?",
+          "m": "Nói thành phố bạn sống.",
+          "h": "I live in + nơi.",
+          "s": "I live in [studentCity]."
+        },
+        {
+          "p": "Who is your friend?",
+          "m": "Nói vai trò hoặc quan hệ của người bạn.",
+          "h": "My friend is + quan hệ.",
+          "s": "My friend is my neighbor."
+        },
+        {
+          "p": "Do you like your friend?",
+          "m": "Trả lời có/không về việc bạn có thích bạn đó không.",
+          "h": "Yes, I like my friend / No, I don't like my friend.",
+          "s": "Yes, I like my friend."
+        },
+        {
+          "p": "Can your friend help you?",
+          "m": "Trả lời có/không về việc bạn bè có thể giúp bạn.",
+          "h": "Yes, my friend can / No, my friend can't.",
+          "s": "Yes, my friend can help me."
+        }
+      ]
+    },
+    {
+      "t": "Ôn tập: Hoạt động và thói quen",
+      "e": [
+        {
+          "p": "What do you do with friends after school?",
+          "m": "Nói một hoạt động bạn làm với bạn bè sau giờ học.",
+          "h": "I + V with my friends after school.",
+          "s": "I play football with my friends after school."
+        },
+        {
+          "p": "Do you study with friends?",
+          "m": "Trả lời có hay không về việc học cùng bạn bè.",
+          "h": "Yes, I study with my friends / No, I don't.",
+          "s": "Yes, I study with my friends."
+        },
+        {
+          "p": "When do you play?",
+          "m": "Nói thời điểm bạn chơi (một ý).",
+          "h": "I play on the weekend / in the evening.",
+          "s": "I play on the weekend."
+        },
+        {
+          "p": "Who brings food?",
+          "m": "Nói ai mang đồ ăn (một ý).",
+          "h": "My friend brings food / I bring food.",
+          "s": "My friend brings food."
+        },
+        {
+          "p": "How many friends do you have?",
+          "m": "Nói số bạn của bạn (một số).",
+          "h": "I have + number + friends.",
+          "s": "I have three friends."
+        }
+      ]
+    },
+    {
+      "t": "Ôn tập: Kế hoạch và giúp đỡ",
+      "e": [
+        {
+          "p": "Do you want to go out tomorrow?",
+          "m": "Trả lời có hay không về việc đi chơi ngày mai.",
+          "h": "Yes, I want / No, I don't want.",
+          "s": "Yes, I want to go out tomorrow."
+        },
+        {
+          "p": "Who will come with you?",
+          "m": "Nói ai sẽ đi cùng bạn (một ý).",
+          "h": "My friend comes with me.",
+          "s": "My friend comes with me."
+        },
+        {
+          "p": "Can you help me with my homework?",
+          "m": "Trả lời có/không và nói bạn có thể giúp không.",
+          "h": "Yes, I can / No, I can't.",
+          "s": "Yes, I can help you with your homework."
+        },
+        {
+          "p": "Where do you meet your friends?",
+          "m": "Nói nơi bạn gặp bạn bè (một ý).",
+          "h": "We meet at + place.",
+          "s": "We meet at school."
+        },
+        {
+          "p": "What do you do when a friend is sad?",
+          "m": "Nói một hành động bạn làm để giúp bạn buồn.",
+          "h": "I + V to help my friend.",
+          "s": "I listen to my friend when they are sad."
+        }
+      ]
+    }
+  ]
+}

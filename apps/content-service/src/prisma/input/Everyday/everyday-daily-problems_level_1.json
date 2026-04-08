@@ -1,0 +1,530 @@
+{
+  "l": 1,
+  "d": [
+    {
+      "t": "Mất chìa khóa",
+      "e": [
+        {
+          "p": "Where are your keys?",
+          "m": "Nói nơi bạn nghĩ chìa khóa của bạn ở đó (1 câu).",
+          "h": "S + be/in + place",
+          "s": "My keys are in the kitchen."
+        },
+        {
+          "p": "Can you open the door?",
+          "m": "Nói bạn có mở cửa được hay không (1 câu).",
+          "h": "S + can/can't + V",
+          "s": "I can't open the door."
+        },
+        {
+          "p": "Do you have a spare key?",
+          "m": "Nói bạn có chìa khóa dự phòng hay không (1 câu).",
+          "h": "S + have/has + N",
+          "s": "I don't have a spare key."
+        },
+        {
+          "p": "Who has a key for your house?",
+          "m": "Nói ai có chìa khóa nhà bạn (1 câu).",
+          "h": "S + have + N / N + has + N",
+          "s": "My sister has a key."
+        },
+        {
+          "p": "What can you do now?",
+          "m": "Nêu một giải pháp đơn giản bạn làm ngay (1 câu).",
+          "h": "S + can + V",
+          "s": "I can call my sister."
+        }
+      ]
+    },
+    {
+      "t": "Không có nước ở bồn rửa",
+      "e": [
+        {
+          "p": "Is there water in the sink?",
+          "m": "Nói có nước ở bồn rửa hay không (1 câu).",
+          "h": "There is/are + N",
+          "s": "There is no water in the sink."
+        },
+        {
+          "p": "Do you have a water bottle?",
+          "m": "Nói bạn có chai nước hay không (1 câu).",
+          "h": "S + have/has + N",
+          "s": "I don't have a water bottle."
+        },
+        {
+          "p": "Can you wash the dishes?",
+          "m": "Nói bạn có thể rửa chén không (1 câu).",
+          "h": "S + can/can't + V",
+          "s": "I can't wash the dishes."
+        },
+        {
+          "p": "Where do you buy water?",
+          "m": "Nói nơi bạn thường mua nước (1 câu).",
+          "h": "S + buy + N + at/in + place",
+          "s": "I buy water at the shop."
+        },
+        {
+          "p": "What can you do now?",
+          "m": "Nêu một cách giải quyết hiện tại (1 câu).",
+          "h": "S + can + V",
+          "s": "I can go to the shop."
+        }
+      ]
+    },
+    {
+      "t": "Mất điện trong nhà",
+      "e": [
+        {
+          "p": "Is the light on?",
+          "m": "Nói đèn có sáng hay không (1 câu).",
+          "h": "S + be + on/off",
+          "s": "The light is off."
+        },
+        {
+          "p": "Do you have a candle?",
+          "m": "Nói bạn có cây nến hay không (1 câu).",
+          "h": "S + have/has + N",
+          "s": "I have a candle."
+        },
+        {
+          "p": "Can you use your phone light?",
+          "m": "Nói bạn có thể dùng đèn điện thoại không (1 câu).",
+          "h": "S + can/can't + V",
+          "s": "I can use my phone light."
+        },
+        {
+          "p": "Who is at home now?",
+          "m": "Nói ai đang ở nhà (1 câu).",
+          "h": "S + be + N / There is/are + N",
+          "s": "My father is at home."
+        },
+        {
+          "p": "What do you need now?",
+          "m": "Nêu một thứ bạn cần ngay (1 câu).",
+          "h": "I need + N / S + want + N",
+          "s": "I need a candle."
+        }
+      ]
+    },
+    {
+      "t": "Điện thoại hỏng",
+      "e": [
+        {
+          "p": "Can you use your phone?",
+          "m": "Nói bạn có dùng điện thoại được không (1 câu).",
+          "h": "S + can/can't + V",
+          "s": "I can't use my phone."
+        },
+        {
+          "p": "Is your phone charged?",
+          "m": "Nói pin điện thoại của bạn còn hay không (1 câu).",
+          "h": "S + be + adj",
+          "s": "My phone is not charged."
+        },
+        {
+          "p": "Do you have a charger?",
+          "m": "Nói bạn có sạc điện thoại hay không (1 câu).",
+          "h": "S + have/has + N",
+          "s": "I don't have a charger."
+        },
+        {
+          "p": "Who can help you?",
+          "m": "Nói ai có thể giúp bạn (1 câu).",
+          "h": "S + can + V",
+          "s": "My friend can help me."
+        },
+        {
+          "p": "What can you do now to call your mother?",
+          "m": "Nói một cách bạn gọi mẹ ngay bây giờ (1 câu).",
+          "h": "S + can + use + N",
+          "s": "I can use my friend's phone."
+        }
+      ]
+    },
+    {
+      "t": "Trễ giờ buổi sáng",
+      "e": [
+        {
+          "p": "Are you late today?",
+          "m": "Nói bạn hôm nay có trễ không (1 câu).",
+          "h": "S + be + adj",
+          "s": "I am late today."
+        },
+        {
+          "p": "Do you take the bus to school?",
+          "m": "Nói bạn có đi xe buýt đến trường không (1 câu).",
+          "h": "S + V + O",
+          "s": "I take the bus to school."
+        },
+        {
+          "p": "What time do you leave home?",
+          "m": "Nói giờ bạn rời nhà (1 câu).",
+          "h": "S + leave + at + time",
+          "s": "I leave home at 7."
+        },
+        {
+          "p": "Can you run to the bus stop?",
+          "m": "Nói bạn có thể chạy đến bến xe buýt không (1 câu).",
+          "h": "S + can/can't + V",
+          "s": "I can run to the bus stop."
+        },
+        {
+          "p": "What do you do if you miss the bus?",
+          "m": "Nêu một hành động bạn làm khi lỡ xe buýt (1 câu).",
+          "h": "S + call/go + N",
+          "s": "I call my father."
+        }
+      ]
+    },
+    {
+      "t": "Thức ăn bị đổ",
+      "e": [
+        {
+          "p": "Is there food on the floor?",
+          "m": "Nói có thức ăn trên sàn không (1 câu).",
+          "h": "There is/are + N",
+          "s": "There is food on the floor."
+        },
+        {
+          "p": "Do you have a cloth?",
+          "m": "Nói bạn có khăn lau không (1 câu).",
+          "h": "S + have/has + N",
+          "s": "I have a cloth."
+        },
+        {
+          "p": "Can you clean it now?",
+          "m": "Nói bạn có thể lau ngay bây giờ hay không (1 câu).",
+          "h": "S + can/can't + V",
+          "s": "I can clean it now."
+        },
+        {
+          "p": "What color is the shirt?",
+          "m": "Nói màu áo (1 câu).",
+          "h": "S + be + color",
+          "s": "The shirt is white."
+        },
+        {
+          "p": "What do you do with the food now?",
+          "m": "Nêu một việc bạn làm với thức ăn bây giờ (1 câu).",
+          "h": "S + put + N + in + place",
+          "s": "I put the food in the bin."
+        }
+      ]
+    },
+    {
+      "t": "Hàng xóm ồn ào",
+      "e": [
+        {
+          "p": "Is the neighbor noisy now?",
+          "m": "Nói hàng xóm có ồn không (1 câu).",
+          "h": "S + be + adj",
+          "s": "The neighbor is noisy."
+        },
+        {
+          "p": "Do you hear music?",
+          "m": "Nói bạn có nghe nhạc không (1 câu).",
+          "h": "S + hear + N",
+          "s": "I hear music."
+        },
+        {
+          "p": "Can you close your window?",
+          "m": "Nói bạn có thể đóng cửa sổ không (1 câu).",
+          "h": "S + can/can't + V",
+          "s": "I can close my window."
+        },
+        {
+          "p": "Who do you call?",
+          "m": "Nói ai bạn gọi (1 câu).",
+          "h": "S + call + N",
+          "s": "I call the neighbor."
+        },
+        {
+          "p": "What do you want them to do?",
+          "m": "Nói một yêu cầu ngắn với họ (1 câu).",
+          "h": "S + want + them + to + V",
+          "s": "I want them to be quiet."
+        }
+      ]
+    },
+    {
+      "t": "Bị đói ở trường",
+      "e": [
+        {
+          "p": "Are you hungry?",
+          "m": "Nói bạn có đói không (1 câu).",
+          "h": "S + be + adj",
+          "s": "I am hungry."
+        },
+        {
+          "p": "Do you have food?",
+          "m": "Nói bạn có đồ ăn không (1 câu).",
+          "h": "S + have/has + N",
+          "s": "I don't have food."
+        },
+        {
+          "p": "Can you buy food now?",
+          "m": "Nói bạn có thể mua thức ăn ngay không (1 câu).",
+          "h": "S + can/can't + V",
+          "s": "I can buy food at the shop."
+        },
+        {
+          "p": "What food do you like?",
+          "m": "Nói một món bạn thích (1 câu).",
+          "h": "S + like + N",
+          "s": "I like rice."
+        },
+        {
+          "p": "Who can give you food?",
+          "m": "Nói ai có thể cho bạn đồ ăn (1 câu).",
+          "h": "S + can + give + O",
+          "s": "My friend can give me an apple."
+        }
+      ]
+    },
+    {
+      "t": "Quên ô khi trời mưa",
+      "e": [
+        {
+          "p": "Do you have an umbrella?",
+          "m": "Nói bạn có ô hay không (1 câu).",
+          "h": "S + have/has + N",
+          "s": "I don't have an umbrella."
+        },
+        {
+          "p": "Is it wet outside?",
+          "m": "Nói ngoài trời có ướt không (1 câu).",
+          "h": "It + be + adj",
+          "s": "It is wet outside."
+        },
+        {
+          "p": "Can you share your umbrella?",
+          "m": "Nói bạn có thể chia ô không (1 câu).",
+          "h": "S + can/can't + V",
+          "s": "I can share my umbrella."
+        },
+        {
+          "p": "Where do you go now?",
+          "m": "Nói bạn đi đâu ngay bây giờ (1 câu).",
+          "h": "S + go + to + place",
+          "s": "I go to the shop."
+        },
+        {
+          "p": "What do you do in rain without an umbrella?",
+          "m": "Nêu một việc bạn làm khi không có ô (1 câu).",
+          "h": "S + run/go + place",
+          "s": "I run home."
+        }
+      ]
+    },
+    {
+      "t": "Thú cưng làm bẩn",
+      "e": [
+        {
+          "p": "Is your dog here?",
+          "m": "Nói chó của bạn có ở đây không (1 câu).",
+          "h": "S + be + adv/place",
+          "s": "My dog is here."
+        },
+        {
+          "p": "Is the floor dirty?",
+          "m": "Nói sàn có bẩn không (1 câu).",
+          "h": "S + be + adj / There is + N",
+          "s": "The floor is dirty."
+        },
+        {
+          "p": "Do you have a towel?",
+          "m": "Nói bạn có khăn tắm hay khăn lau không (1 câu).",
+          "h": "S + have/has + N",
+          "s": "I have a towel."
+        },
+        {
+          "p": "Can you clean the floor?",
+          "m": "Nói bạn có thể lau sàn không (1 câu).",
+          "h": "S + can/can't + V",
+          "s": "I can clean the floor."
+        },
+        {
+          "p": "What do you give the dog?",
+          "m": "Nói một món bạn cho chó (1 câu).",
+          "h": "S + give + N",
+          "s": "I give the dog food."
+        }
+      ]
+    },
+    {
+      "t": "Khóa cửa không mở",
+      "e": [
+        {
+          "p": "Is the door open?",
+          "m": "Nói cửa có mở hay không (1 câu).",
+          "h": "S + be + adj",
+          "s": "The door is closed."
+        },
+        {
+          "p": "Do you have a key?",
+          "m": "Nói bạn có chìa khóa hay không (1 câu).",
+          "h": "S + have/has + N",
+          "s": "I don't have a key."
+        },
+        {
+          "p": "Can you open the door now?",
+          "m": "Nói bạn có thể mở cửa ngay bây giờ không (1 câu).",
+          "h": "S + can/can't + V",
+          "s": "I can't open the door."
+        },
+        {
+          "p": "Who can help you?",
+          "m": "Nói ai có thể giúp bạn (1 câu).",
+          "h": "S + can + V",
+          "s": "My mother can help me."
+        },
+        {
+          "p": "What do you do if the door is stuck?",
+          "m": "Nêu một hành động bạn làm khi cửa bị kẹt (1 câu).",
+          "h": "S + call/go + N",
+          "s": "I call a friend."
+        }
+      ]
+    },
+    {
+      "t": "Mất sạc điện thoại",
+      "e": [
+        {
+          "p": "Do you have a charger?",
+          "m": "Nói bạn có sạc điện thoại không (1 câu).",
+          "h": "S + have/has + N",
+          "s": "I don't have a charger."
+        },
+        {
+          "p": "Is your phone charged?",
+          "m": "Nói pin điện thoại của bạn còn hay không (1 câu).",
+          "h": "S + be + adj",
+          "s": "My phone is not charged."
+        },
+        {
+          "p": "Can you charge your phone now?",
+          "m": "Nói bạn có thể sạc điện thoại ngay không (1 câu).",
+          "h": "S + can/can't + V",
+          "s": "I can't charge my phone."
+        },
+        {
+          "p": "Who has a charger?",
+          "m": "Nói ai có sạc (1 câu).",
+          "h": "S + have/has + N",
+          "s": "My friend has a charger."
+        },
+        {
+          "p": "What can you do to charge your phone?",
+          "m": "Nêu một cách bạn dùng để sạc điện thoại (1 câu).",
+          "h": "S + can + use + N",
+          "s": "I can use my friend's charger."
+        }
+      ]
+    },
+    {
+      "t": "Ôn tập: Vấn đề nhỏ ở nhà",
+      "e": [
+        {
+          "p": "Where are your keys?",
+          "m": "Nói nơi đặt chìa khóa (1 câu).",
+          "h": "S + be/in + place",
+          "s": "My keys are on the table."
+        },
+        {
+          "p": "Is there water in the sink?",
+          "m": "Nói có nước ở bồn rửa hay không (1 câu).",
+          "h": "There is/are + N",
+          "s": "There is no water in the sink."
+        },
+        {
+          "p": "Can you use the light?",
+          "m": "Nói bạn có thể dùng đèn hay không (1 câu).",
+          "h": "S + can/can't + V",
+          "s": "I can use a candle."
+        },
+        {
+          "p": "Do you have a phone charger?",
+          "m": "Nói bạn có sạc điện thoại không (1 câu).",
+          "h": "S + have/has + N",
+          "s": "I don't have a charger."
+        },
+        {
+          "p": "What do you do when the door is closed and you have no key?",
+          "m": "Nêu một hành động bạn làm (1 câu).",
+          "h": "S + call/go + N",
+          "s": "I call my friend."
+        }
+      ]
+    },
+    {
+      "t": "Ôn tập: Vấn đề khi ra ngoài",
+      "e": [
+        {
+          "p": "Do you take the bus?",
+          "m": "Nói bạn có đi xe buýt không (1 câu).",
+          "h": "S + V + O",
+          "s": "I take the bus."
+        },
+        {
+          "p": "Is it raining?",
+          "m": "Nói có mưa hay không (1 câu).",
+          "h": "It + be + V (or it + be + adj)",
+          "s": "It is raining."
+        },
+        {
+          "p": "Do you have an umbrella?",
+          "m": "Nói bạn có ô không (1 câu).",
+          "h": "S + have/has + N",
+          "s": "I don't have an umbrella."
+        },
+        {
+          "p": "Can you run to the stop?",
+          "m": "Nói bạn có thể chạy đến bến xe không (1 câu).",
+          "h": "S + can/can't + V",
+          "s": "I can run to the stop."
+        },
+        {
+          "p": "What do you do if you miss the bus?",
+          "m": "Nêu một hành động bạn làm khi lỡ xe buýt (1 câu).",
+          "h": "S + call/go + N",
+          "s": "I call my father."
+        }
+      ]
+    },
+    {
+      "t": "Ôn tập: Các vấn đề với người khác",
+      "e": [
+        {
+          "p": "Is your neighbor noisy?",
+          "m": "Nói hàng xóm có ồn không (1 câu).",
+          "h": "S + be + adj",
+          "s": "The neighbor is noisy."
+        },
+        {
+          "p": "Can your friend help you?",
+          "m": "Nói bạn của bạn có thể giúp không (1 câu).",
+          "h": "S + can + V",
+          "s": "My friend can help me."
+        },
+        {
+          "p": "Do you have food now?",
+          "m": "Nói bạn có thức ăn hay không (1 câu).",
+          "h": "S + have/has + N",
+          "s": "I have food."
+        },
+        {
+          "p": "Can you clean the table?",
+          "m": "Nói bạn có thể lau bàn không (1 câu).",
+          "h": "S + can/can't + V",
+          "s": "I can clean the table."
+        },
+        {
+          "p": "Where do you live?",
+          "m": "Nói nơi bạn sống (1 câu).",
+          "h": "S + live + in + place",
+          "s": "I live in [studentCity]."
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,525 @@
+{
+  "l": {
+    "lvl": 2,
+    "code": "ELEMENTARY",
+    "desc": "2 câu đơn liên tiếp, có liên kết cơ bản",
+    "req": {
+      "gram": "S + be + V-ing, S + V(s/es) + adv of freq (always/often/sometimes), How much/many...?, I like/want/need + N/to V, There are + số + N, Prepositions (in/on/at/to)",
+      "vocab": "Thông dụng + tính từ đơn giản (big, small, good, bad, hot, cold)",
+      "vocabCap": {
+        "cefr": "A1–A2",
+        "maxWords": 600,
+        "allowed": [
+          "Tất cả từ Level 1, mở rộng thêm:",
+          "Tính từ 2 âm tiết phổ biến: happy, hungry, tired, busy, pretty, funny, angry, lucky",
+          "Trạng từ tần suất: always, often, usually, sometimes, never, still",
+          "Giới từ: in, on, at, to, from, with, near, next to, behind, in front of",
+          "Phrasal verbs cực kỳ phổ biến: get up, go out, come back, wake up",
+          "Từ về cảm xúc đơn giản: love, hate, enjoy, miss, feel",
+          "Từ về thời gian: yesterday, tomorrow, last week, next week, every morning"
+        ],
+        "avoid": [
+          "Từ trừu tượng (ví dụ: opportunity, responsibility, achievement)",
+          "Phrasal verbs ít gặp (ví dụ: put off, bring up, carry out)",
+          "Idioms, thành ngữ",
+          "Từ học thuật hoặc chuyên ngành"
+        ]
+      }
+    },
+    "conn": "and, but",
+    "tense": "Present Simple, Present Continuous",
+    "cmplx": "Thấp"
+  },
+  "d": [
+    {
+      "t": "Thời tiết hôm nay",
+      "e": [
+        {
+          "p": "How is the weather today?",
+          "m": "1. Nói thời tiết hiện tại (một câu). 2. Nói bạn muốn làm gì bây giờ (một câu).",
+          "h": "It is + adj. / I want to + V.",
+          "s": "It is sunny and warm. I want to go outside."
+        },
+        {
+          "p": "Is it raining now?",
+          "m": "1. Nói có đang mưa hay không (một câu). 2. Nói bạn đang mặc gì hoặc cần gì (một câu).",
+          "h": "S + be + V-ing; I am wearing / I need + N.",
+          "s": "It is raining. I am wearing a raincoat."
+        },
+        {
+          "p": "Do you like cold weather?",
+          "m": "1. Nói thích hay không (một câu). 2. Nói lý do ngắn (một câu).",
+          "h": "I like / I don't like + N. / because + clause.",
+          "s": "I don't like cold weather. It is too cold for me."
+        },
+        {
+          "p": "How often is it sunny here?",
+          "m": "1. Nói tần suất (một câu). 2. Nói mùa nào thường nắng (một câu).",
+          "h": "Adv of freq + V(s). / in + season.",
+          "s": "It is often sunny here. It is usually sunny in summer."
+        },
+        {
+          "p": "How many seasons are there in your country?",
+          "m": "1. Nói có bao nhiêu mùa (một câu). 2. Nói một mùa và bạn làm gì vào mùa đó (một câu).",
+          "h": "There are + number + seasons. / In + season, I + V.",
+          "s": "There are four seasons. In summer, I go swimming."
+        }
+      ]
+    },
+    {
+      "t": "Bạn thích mùa nào?",
+      "e": [
+        {
+          "p": "Which season do you like best?",
+          "m": "1. Nói bạn thích mùa nào (một câu). 2. Nói một lý do đơn giản (một câu).",
+          "h": "I like + season. / because + reason.",
+          "s": "I like spring. Because the weather is nice."
+        },
+        {
+          "p": "Do you enjoy hot weather?",
+          "m": "1. Nói bạn có thích trời nóng hay không (một câu). 2. Nói bạn làm gì khi trời nóng (một câu).",
+          "h": "I enjoy / I don't enjoy + N. / I + V (when it's hot).",
+          "s": "I enjoy hot weather. I swim and drink cold water."
+        },
+        {
+          "p": "Are you busy in winter?",
+          "m": "1. Nói bạn có bận mùa đông không (một câu). 2. Nói bạn thường làm gì vào mùa đông (một câu).",
+          "h": "S + be + adv. / I usually + V.",
+          "s": "I am not busy in winter. I rest and read books."
+        },
+        {
+          "p": "How many sunny days do you like?",
+          "m": "1. Nói bạn thích nhiều hay ít ngày nắng (một câu). 2. Nói bạn làm gì vào ngày nắng (một câu).",
+          "h": "I like + many/few + N. / I + V on sunny days.",
+          "s": "I like many sunny days. I go to the park on sunny days."
+        },
+        {
+          "p": "What season do you miss when you are away?",
+          "m": "1. Nói một mùa bạn nhớ (một câu). 2. Nói lý do ngắn (một câu).",
+          "h": "I miss + season. / because + reason.",
+          "s": "I miss autumn. Because the weather is cool and pretty."
+        }
+      ]
+    },
+    {
+      "t": "Kế hoạch vào cuối tuần theo thời tiết",
+      "e": [
+        {
+          "p": "It will be sunny on Saturday. What will you do?",
+          "m": "1. Nói bạn sẽ làm gì (một câu, dùng ý hiện tại gần). 2. Nói nơi bạn sẽ đi (một câu).",
+          "h": "I want to / I am going to + V. / to + place.",
+          "s": "I am going to have a picnic. I will go to the park."
+        },
+        {
+          "p": "It is raining and cold. Can you go out?",
+          "m": "1. Nói bạn có thể ra ngoài không (một câu). 2. Nếu không, nói bạn làm gì ở nhà (một câu).",
+          "h": "I can't / I can. / I will + V at home.",
+          "s": "I can't go out. I will stay home and read."
+        },
+        {
+          "p": "The forecast says windy tomorrow. Any plan?",
+          "m": "1. Nói kế hoạch của bạn (một câu). 2. Nói bạn cần điều gì vì gió (một câu).",
+          "h": "I will + V. / I need + N / to + V.",
+          "s": "I will clean the house. I need a strong coat because it's windy."
+        },
+        {
+          "p": "Is it good to have a beach day now?",
+          "m": "1. Nói có nên hay không (một câu). 2. Nói lý do ngắn (một câu).",
+          "h": "It is good / not good + to + V. / because + clause.",
+          "s": "It is good to have a beach day. Because the weather is warm."
+        },
+        {
+          "p": "Are you going out this evening?",
+          "m": "1. Trả lời có/không (một câu). 2. Nói bạn sẽ mặc gì hoặc cần gì (một câu).",
+          "h": "Yes, I am. / No, I am not. / I will wear / I need + N.",
+          "s": "No, I am not. I will wear warm clothes at home."
+        }
+      ]
+    },
+    {
+      "t": "Ăn mặc theo thời tiết",
+      "e": [
+        {
+          "p": "It's very cold today. What do you wear?",
+          "m": "1. Nói bạn mặc gì (một câu). 2. Nói bạn có cần thêm gì không (một câu).",
+          "h": "I am wearing + N. / I need + N.",
+          "s": "I am wearing a warm coat and boots. I need a hat."
+        },
+        {
+          "p": "Is a light jacket enough in spring?",
+          "m": "1. Trả lời có/không (một câu). 2. Nói lý do ngắn (một câu).",
+          "h": "Yes, it is. / No, it is not. / because + clause.",
+          "s": "Yes, it is. Because spring is not very cold."
+        },
+        {
+          "p": "Do you often wear sunglasses?",
+          "m": "1. Nói tần suất (một câu). 2. Nói khi nào bạn dùng kính râm (một câu).",
+          "h": "I often / sometimes / never + V. / when + clause.",
+          "s": "I often wear sunglasses. When the sun is bright, I put them on."
+        },
+        {
+          "p": "What do you need for a rainy day?",
+          "m": "1. Nêu một vật cần (một câu). 2. Nói bạn dùng vật đó như thế nào (một câu).",
+          "h": "I need + N. / I use it to + V.",
+          "s": "I need an umbrella. I use it to stay dry."
+        },
+        {
+          "p": "Are you wearing a hat now?",
+          "m": "1. Trả lời có/không (một câu). 2. Nói vì sao (một câu).",
+          "h": "Yes, I am. / No, I am not. / because + reason.",
+          "s": "No, I am not. Because it is not cold now."
+        }
+      ]
+    },
+    {
+      "t": "Hoạt động ngoài trời theo mùa",
+      "e": [
+        {
+          "p": "What do you do in summer?",
+          "m": "1. Nói một hoạt động bạn thường làm (một câu). 2. Nói nơi hoặc với ai (một câu).",
+          "h": "I + V (often). / with + person / at + place.",
+          "s": "I go swimming. I go with my friends at the beach."
+        },
+        {
+          "p": "Do you go skiing in winter?",
+          "m": "1. Nói có/không (một câu). 2. Nói nếu có, bạn đi bao lâu hoặc ở đâu (một câu).",
+          "h": "Yes, I do. / No, I don't. / I go for + time / at + place.",
+          "s": "No, I don't. I usually stay home in winter."
+        },
+        {
+          "p": "Are you planting flowers this spring?",
+          "m": "1. Trả lời có/không (một câu). 2. Nói bạn làm gì với hoa (một câu).",
+          "h": "Yes, I am. / No, I am not. / I + V + N.",
+          "s": "Yes, I am. I plant flowers in my garden."
+        },
+        {
+          "p": "How often do you go for a walk in autumn?",
+          "m": "1. Nói tần suất (một câu). 2. Nói bạn thấy gì khi đi bộ (một câu).",
+          "h": "I often / sometimes / never + V. / I see + N.",
+          "s": "I often go for a walk. I see pretty leaves on the ground."
+        },
+        {
+          "p": "Do you watch thunderstorms or avoid them?",
+          "m": "1. Nói bạn xem bão hay tránh (một câu). 2. Nói lý do ngắn (một câu).",
+          "h": "I watch / I avoid + N. / because + reason.",
+          "s": "I avoid thunderstorms. Because they are loud and scary."
+        }
+      ]
+    },
+    {
+      "t": "Hỏi và trả lời về dự báo thời tiết",
+      "e": [
+        {
+          "p": "What's the weather forecast for tomorrow?",
+          "m": "1. Nói dự báo ngắn (một câu). 2. Nói bạn có kế hoạch gì (một câu).",
+          "h": "It will be / It is going to be + adj. / I will + V.",
+          "s": "It will be cloudy and cool. I will stay home."
+        },
+        {
+          "p": "Will it rain later today?",
+          "m": "1. Trả lời có/không (một câu). 2. Nói bạn làm gì để chuẩn bị (một câu).",
+          "h": "Yes, it will. / No, it won't. / I will + V / I need + N.",
+          "s": "Yes, it will. I will take an umbrella."
+        },
+        {
+          "p": "How much wind is expected?",
+          "m": "1. Nói mức độ gió ngắn (một câu). 2. Nói bạn có thích gió mạnh không (một câu).",
+          "h": "It is windy / a little windy. / I like / I don't like + N.",
+          "s": "It is very windy. I don't like strong wind."
+        },
+        {
+          "p": "Is it sunny in the north this week?",
+          "m": "1. Nói có/không (một câu). 2. Nói bạn biết điều đó bằng cách nào (một câu).",
+          "h": "Yes, it is. / No, it isn't. / I saw the forecast / I checked the weather app.",
+          "s": "No, it isn't. I checked the weather app."
+        },
+        {
+          "p": "Do we need coats this evening?",
+          "m": "1. Trả lời có/không (một câu). 2. Nói bạn sẽ mặc gì (một câu).",
+          "h": "Yes, we do. / No, we don't. / I will wear + N.",
+          "s": "Yes, we do. I will wear a warm jacket."
+        }
+      ]
+    },
+    {
+      "t": "Thời tiết và sức khỏe",
+      "e": [
+        {
+          "p": "I have a cold because of the weather. Any advice?",
+          "m": "1. Nói một lời khuyên đơn giản (một câu). 2. Nói bạn phải làm gì (một câu).",
+          "h": "You should + V. / I must + V / I need + N.",
+          "s": "You should rest and drink warm tea. You must wear warm clothes."
+        },
+        {
+          "p": "Does hot weather make you tired?",
+          "m": "1. Nói có/không (một câu). 2. Nói bạn làm gì khi mệt (một câu).",
+          "h": "Yes, it does. / No, it doesn't. / I + V when + clause.",
+          "s": "Yes, it does. I rest and drink water when I'm tired."
+        },
+        {
+          "p": "Is it safe to run when it's very windy?",
+          "m": "1. Trả lời có/không (một câu). 2. Nói bạn làm gì nếu gió mạnh (một câu).",
+          "h": "No, it isn't. / Yes, it is. / I will + V / I avoid + V.",
+          "s": "No, it isn't. I avoid running in strong wind."
+        },
+        {
+          "p": "How do you feel in cold rain?",
+          "m": "1. Nói cảm giác (một câu). 2. Nói bạn làm gì để ấm lại (một câu).",
+          "h": "I feel + adj. / I + V to + V / I wear + N.",
+          "s": "I feel cold and wet. I drink hot soup to warm up."
+        },
+        {
+          "p": "Do you still go out when it's snowy?",
+          "m": "1. Trả lời có/không (một câu). 2. Nói nếu có, bạn làm gì (một câu).",
+          "h": "Yes, I do. / No, I don't. / I + V when + weather.",
+          "s": "Sometimes I go out when it's snowy. I walk carefully and wear boots."
+        }
+      ]
+    },
+    {
+      "t": "Thời tiết và công việc/học tập",
+      "e": [
+        {
+          "p": "Is school closed because of the storm?",
+          "m": "1. Trả lời có/không (một câu). 2. Nói bạn làm bài tập như thế nào (một câu).",
+          "h": "Yes, it is. / No, it isn't. / I will + V / I study at + place.",
+          "s": "Yes, it is. I will study at home."
+        },
+        {
+          "p": "Do you work from home when it's hot?",
+          "m": "1. Nói có/không (một câu). 2. Nói bạn làm gì khác (một câu).",
+          "h": "I do / I don't. / I + V at home.",
+          "s": "I sometimes work from home. I drink cold water and rest more."
+        },
+        {
+          "p": "Are meetings often outside in summer?",
+          "m": "1. Nói tần suất (một câu). 2. Nói bạn thích hay không (một câu).",
+          "h": "They often / sometimes + V. / I like / I don't like + N.",
+          "s": "They sometimes hold meetings outside. I like outdoor meetings."
+        },
+        {
+          "p": "How do you go to work when it's snowy?",
+          "m": "1. Nói phương tiện (một câu). 2. Nói bạn đi lâu hay nhanh (một câu).",
+          "h": "I go by + transport. / It takes me + time / I go slowly.",
+          "s": "I go by bus. It takes longer when the roads are snowy."
+        },
+        {
+          "p": "Does rain change your study plan?",
+          "m": "1. Trả lời có/không (một câu). 2. Nói bạn làm gì khi kế hoạch thay đổi (một câu).",
+          "h": "Yes, it does. / No, it doesn't. / I + V instead.",
+          "s": "Yes, it does. I study at home instead of the library."
+        }
+      ]
+    },
+    {
+      "t": "Du lịch và thời tiết",
+      "e": [
+        {
+          "p": "Is it a good time to travel to the mountains now?",
+          "m": "1. Nói có/không (một câu). 2. Nói lý do ngắn (một câu).",
+          "h": "Yes, it is. / No, it isn't. / because + reason.",
+          "s": "No, it isn't. Because it's too rainy now."
+        },
+        {
+          "p": "How many sunny days do you want for a beach trip?",
+          "m": "1. Nói số hoặc nhiều/ít (một câu). 2. Nói bạn làm gì trên biển (một câu).",
+          "h": "I want + many/a few + sunny days. / I + V on the beach.",
+          "s": "I want many sunny days. I swim and relax on the sand."
+        },
+        {
+          "p": "Do you check the weather before a trip?",
+          "m": "1. Nói có/không (một câu). 2. Nói bạn kiểm tra bằng cách nào (một câu).",
+          "h": "Yes, I do. / No, I don't. / I check + app / website.",
+          "s": "Yes, I do. I check the weather app on my phone."
+        },
+        {
+          "p": "Is it safe to drive in heavy snow?",
+          "m": "1. Trả lời có/không (một câu). 2. Nói bạn sẽ làm gì để an toàn (một câu).",
+          "h": "No, it isn't. / Yes, it is. / I will + V / I need + N.",
+          "s": "No, it isn't. I will wait until the road is clear."
+        },
+        {
+          "p": "Are there many tourists in summer?",
+          "m": "1. Nói có nhiều khách du lịch không (một câu). 2. Nói bạn thích hay không thích điều đó (một câu).",
+          "h": "There are + many/few + tourists. / I like / I don't like + N.",
+          "s": "There are many tourists in summer. I don't like big crowds."
+        }
+      ]
+    },
+    {
+      "t": "Thời tiết bất thường và giải quyết",
+      "e": [
+        {
+          "p": "The weather changed suddenly. What do you do?",
+          "m": "1. Nói ngay bạn làm gì (một câu). 2. Nói bạn cần mang theo gì (một câu).",
+          "h": "I + V now. / I need + N.",
+          "s": "I go inside now. I need a warm sweater."
+        },
+        {
+          "p": "A storm is coming. Can you travel?",
+          "m": "1. Trả lời có/không (một câu). 2. Nói bạn sẽ làm gì với kế hoạch (một câu).",
+          "h": "No, I can't. / Yes, I can. / I will + V / I cancel + N.",
+          "s": "No, I can't. I will cancel the trip."
+        },
+        {
+          "p": "There is fog this morning. Is it safe to walk?",
+          "m": "1. Trả lời có/không (một câu). 2. Nói bạn làm gì để an toàn (một câu).",
+          "h": "It is safe / not safe. / I will + V / I wear + N.",
+          "s": "It is not safe. I will walk slowly and wear bright clothes."
+        },
+        {
+          "p": "How many warm layers do you wear in cold weather?",
+          "m": "1. Nói số lớp hoặc nhiều/ít (một câu). 2. Nói một ví dụ bạn mặc (một câu).",
+          "h": "I wear + number + layers. / I wear + N and + N.",
+          "s": "I wear three layers. I wear a shirt, sweater, and coat."
+        },
+        {
+          "p": "Is it still safe to play outside in light rain?",
+          "m": "1. Trả lời có/không (một câu). 2. Nói bạn làm gì nếu tiếp tục mưa (một câu).",
+          "h": "Yes, it is. / No, it isn't. / I will + V if + weather.",
+          "s": "Yes, it is. I will stop if the rain gets heavy."
+        }
+      ]
+    },
+    {
+      "t": "Dự báo dài hạn và thói quen",
+      "e": [
+        {
+          "p": "Is summer usually hot here?",
+          "m": "1. Trả lời có/không (một câu). 2. Nói thói quen của bạn vào mùa hè (một câu).",
+          "h": "Yes, it is. / No, it isn't. / I usually + V in summer.",
+          "s": "Yes, it is. I usually go to the beach in summer."
+        },
+        {
+          "p": "How often does it snow in your city?",
+          "m": "1. Nói tần suất (một câu). 2. Nói bạn làm gì khi tuyết đến (một câu).",
+          "h": "It often / sometimes / rarely + snows. / I + V when it snows.",
+          "s": "It rarely snows in my city. I stay home when it snows."
+        },
+        {
+          "p": "Do you usually wake up early in summer?",
+          "m": "1. Nói tần suất (một câu). 2. Nói bạn làm gì buổi sáng (một câu).",
+          "h": "Yes, I do. / No, I don't. / I + V every morning.",
+          "s": "Yes, I do. I go for a short walk every morning."
+        },
+        {
+          "p": "How many rainy days are there this month?",
+          "m": "1. Nói số ngày mưa (một câu). 2. Nói bạn làm gì vào những ngày đó (một câu).",
+          "h": "There are + number + rainy days. / I + V on rainy days.",
+          "s": "There are five rainy days this month. I watch movies on rainy days."
+        },
+        {
+          "p": "Are you still enjoying the season now?",
+          "m": "1. Trả lời có/không (một câu). 2. Nói một lý do ngắn (một câu).",
+          "h": "Yes, I am. / No, I am not. / because + reason.",
+          "s": "Yes, I am. Because the weather is nice and calm."
+        }
+      ]
+    },
+    {
+      "t": "Ôn tập: Thời tiết hàng ngày",
+      "e": [
+        {
+          "p": "What's the weather like this morning?",
+          "m": "1. Mô tả thời tiết sáng nay (một câu). 2. Nói bạn sẽ làm việc gì (một câu).",
+          "h": "It is + adj. / I will / I am going to + V.",
+          "s": "It is cloudy and cool this morning. I will drink hot tea and study."
+        },
+        {
+          "p": "Do you often check the weather app?",
+          "m": "1. Nói tần suất (một câu). 2. Nói lý do bạn kiểm tra (một câu).",
+          "h": "I often / sometimes / never + V. / because + reason.",
+          "s": "I often check the weather app. Because I plan my day by the forecast."
+        },
+        {
+          "p": "Is it too hot to cook now?",
+          "m": "1. Trả lời có/không (một câu). 2. Nói bạn làm gì thay thế (một câu).",
+          "h": "Yes, it is. / No, it isn't. / I will + V instead.",
+          "s": "Yes, it is. I will make a cold salad instead."
+        },
+        {
+          "p": "How many umbrellas are there in the house?",
+          "m": "1. Nói số ô (một câu). 2. Nói ai thường dùng ô đó (một câu).",
+          "h": "There are + number + umbrellas. / + Person + often uses them.",
+          "s": "There are two umbrellas in the house. My mother often uses them."
+        },
+        {
+          "p": "Are you still cold after wearing a coat?",
+          "m": "1. Trả lời có/không (một câu). 2. Nói bạn cần thêm gì (một câu).",
+          "h": "Yes, I am. / No, I am not. / I need + N.",
+          "s": "No, I am not. I need warm gloves sometimes."
+        }
+      ]
+    },
+    {
+      "t": "Ôn tập: Kế hoạch theo mùa",
+      "e": [
+        {
+          "p": "Which season is best for a picnic?",
+          "m": "1. Nói mùa tốt nhất (một câu). 2. Nói bạn mang gì (một câu).",
+          "h": "I think + season. / I bring + N.",
+          "s": "I think spring is best for a picnic. I bring sandwiches and water."
+        },
+        {
+          "p": "Do you like walking in the rain?",
+          "m": "1. Trả lời có/không (một câu). 2. Nói bạn làm gì khi đi bộ (một câu).",
+          "h": "Yes, I do. / No, I don't. / I + V when + weather.",
+          "s": "No, I don't. I use an umbrella when I walk in the rain."
+        },
+        {
+          "p": "How often do you travel in winter?",
+          "m": "1. Nói tần suất (một câu). 2. Nói nơi bạn đi (một câu).",
+          "h": "I often / sometimes / never + V. / I go to + place.",
+          "s": "I sometimes travel in winter. I go to nearby towns."
+        },
+        {
+          "p": "Are there many flowers in spring?",
+          "m": "1. Trả lời có/không (một câu). 2. Nói bạn thấy hoa ở đâu (một câu).",
+          "h": "Yes, there are. / No, there aren't. / I see + N at + place.",
+          "s": "Yes, there are many flowers in spring. I see them in the park."
+        },
+        {
+          "p": "Will you enjoy a snowy holiday?",
+          "m": "1. Trả lời có/không (một câu). 2. Nói bạn làm gì trong kỳ nghỉ (một câu).",
+          "h": "Yes, I will. / No, I won't. / I will + V.",
+          "s": "Yes, I will. I will build a snowman and drink hot chocolate."
+        }
+      ]
+    },
+    {
+      "t": "Ôn tập: Vấn đề và giải pháp về thời tiết",
+      "e": [
+        {
+          "p": "Your event is cancelled by rain. What do you say?",
+          "m": "1. Nói bạn buồn hay không (một câu). 2. Nói bạn làm gì tiếp theo (một câu).",
+          "h": "I am + adj. / I will + V / I will plan + N.",
+          "s": "I am disappointed. I will plan the event indoors."
+        },
+        {
+          "p": "There is heavy fog on the road. What is your advice?",
+          "m": "1. Đưa lời khuyên ngắn (một câu). 2. Nói bạn sẽ làm gì (một câu).",
+          "h": "You should + V. / I will + V.",
+          "s": "You should drive slowly and use lights. I will wait until it clears."
+        },
+        {
+          "p": "Power is out due to a storm. How do you respond?",
+          "m": "1. Nói bạn làm điều gì ngay (một câu). 2. Nói bạn cần gì (một câu).",
+          "h": "I will + V now. / I need + N.",
+          "s": "I will use a flashlight now. I need warm blankets."
+        },
+        {
+          "p": "Too many rainy days spoil your plans. What can you do?",
+          "m": "1. Nói một kế hoạch thay thế (một câu). 2. Nói bạn làm thế nào để chuẩn bị (một câu).",
+          "h": "I will + V instead. / I will bring + N / I will check + N.",
+          "s": "I will plan indoor activities instead. I will check the forecast and bring an umbrella."
+        },
+        {
+          "p": "A friend is cold and wet. What do you offer?",
+          "m": "1. Nói bạn đề nghị gì (một câu). 2. Nói bạn sẽ làm gì để giúp (một câu).",
+          "h": "I offer + N. / I will + V to help.",
+          "s": "I offer a warm blanket. I will make hot tea to help them warm up."
+        }
+      ]
+    }
+  ]
+}

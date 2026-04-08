@@ -1,0 +1,565 @@
+{
+  "l": 2,
+  "d": [
+    {
+      "t": "Sáng bận rộn",
+      "e": [
+        {
+          "p": "You're running late this morning.",
+          "m": "1. Nói lý do bạn đến muộn. 2. Nói bạn cần gì bây giờ.",
+          "h": "Dùng 'I'm late because...' và 'I need + N/to V'.",
+          "s": "I'm late because I missed the bus. I need to catch a taxi now."
+        },
+        {
+          "p": "Oh no, your coffee spilled on your shirt.",
+          "m": "1. Mô tả vấn đề (áo bị bẩn). 2. Nói bạn sẽ làm gì tiếp theo.",
+          "h": "Dùng 'Coffee spilled...' và 'I need to/ I will...'.",
+          "s": "Coffee spilled on my shirt and I'm embarrassed. I need to change my shirt."
+        },
+        {
+          "p": "You can't find your house keys.",
+          "m": "1. Nói vấn đề (không tìm thấy chìa khóa). 2. Nói bạn đang làm gì để tìm.",
+          "h": "Dùng 'I can't find...' và 'I am looking for...'.",
+          "s": "I can't find my keys. I am looking under the sofa now."
+        },
+        {
+          "p": "You skipped breakfast and feel hungry.",
+          "m": "1. Nói cảm giác hiện tại. 2. Nói bạn muốn ăn gì ngay bây giờ.",
+          "h": "Dùng 'I am + adj' và 'I want to + V' hoặc 'I need + N'.",
+          "s": "I'm hungry because I skipped breakfast. I want to eat a sandwich now."
+        },
+        {
+          "p": "Your bag feels very heavy this morning.",
+          "m": "1. Nói có bao nhiêu đồ trong túi (không cần số chính xác). 2. Nói bạn cần giúp gì.",
+          "h": "Dùng 'There are + many/a few + N' và 'I need help to...'.",
+          "s": "There are many books in my bag and it is heavy. I need help to carry it."
+        }
+      ]
+    },
+    {
+      "t": "Quên chìa khóa",
+      "e": [
+        {
+          "p": "You forgot your keys at home.",
+          "m": "1. Nói bạn đang ở đâu. 2. Nói bạn muốn làm gì (ví dụ gọi ai).",
+          "h": "Dùng 'I am at...' và 'I will/can + V' hoặc 'I need someone to...'.",
+          "s": "I am at the front door and I have no keys. I need to call my roommate to open it."
+        },
+        {
+          "p": "The door is locked and you don't have a spare key.",
+          "m": "1. Nói vấn đề ngắn. 2. Nói một giải pháp bạn chọn.",
+          "h": "Dùng 'The door is...' và 'I will/can + V'.",
+          "s": "The door is locked and I don't have a spare. I will ask the neighbor for help."
+        },
+        {
+          "p": "You see a locksmith van nearby.",
+          "m": "1. Nói bạn sẽ làm gì ngay. 2. Nói bạn có lo lắng về chi phí hay không.",
+          "h": "Dùng 'I will + V' và 'I am worried/about + N' hoặc 'It is expensive?'.",
+          "s": "I will call the locksmith for help. I am worried about the cost but I need to get inside."
+        },
+        {
+          "p": "Your roommate is at work far away.",
+          "m": "1. Nói vị trí của người đó. 2. Nói bạn muốn họ làm gì khi họ đến nhà.",
+          "h": "Dùng 'He/She is at...' và 'Please + V' hoặc 'I want you to...'.",
+          "s": "My roommate is at work in the office. I want them to bring a spare key when they come back."
+        },
+        {
+          "p": "You often forget small things like keys.",
+          "m": "1. Nói thói quen của bạn. 2. Nói một cách bạn sẽ thay đổi thói quen đó.",
+          "h": "Dùng 'I often/usually/sometimes + V' và 'I will + V/to + V'.",
+          "s": "I often forget my keys and it is annoying. I will put my keys by the door every night."
+        }
+      ]
+    },
+    {
+      "t": "Điện thoại hết pin",
+      "e": [
+        {
+          "p": "Your phone battery is almost dead.",
+          "m": "1. Nói tình trạng pin. 2. Nói bạn cần làm gì ngay bây giờ.",
+          "h": "Dùng 'My phone is + adj' và 'I need to charge / to find a charger'.",
+          "s": "My phone battery is almost dead. I need to find a charger now."
+        },
+        {
+          "p": "You don't have a charger with you.",
+          "m": "1. Nói vấn đề. 2. Nói một giải pháp bạn chọn (mượn hoặc mua).",
+          "h": "Dùng 'I don't have...' và 'I will borrow/buy + N'.",
+          "s": "I don't have a charger with me. I will borrow one from a friend."
+        },
+        {
+          "p": "There is a charging station in the cafe.",
+          "m": "1. Nói bạn đang ở đâu. 2. Nói bạn làm gì tiếp theo.",
+          "h": "Dùng 'There is/are...' và 'I am going to/ I will + V'.",
+          "s": "There is a charging station in the cafe. I am going to charge my phone there."
+        },
+        {
+          "p": "You are waiting for an important call.",
+          "m": "1. Nói tình huống (gọi quan trọng). 2. Nói cách bạn giữ pin lâu hơn.",
+          "h": "Dùng 'I am waiting for...' và 'I will turn off/close + N or app'.",
+          "s": "I am waiting for an important call. I will turn off some apps to save battery."
+        },
+        {
+          "p": "Your phone is charging but very slowly.",
+          "m": "1. Nói vấn đề sạc chậm. 2. Nói bạn sẽ làm gì để tăng tốc sạc.",
+          "h": "Dùng 'It is + adj' và 'I will unplug/restart/close apps'.",
+          "s": "The phone is charging slowly and I am worried. I will unplug it and try another charger."
+        }
+      ]
+    },
+    {
+      "t": "Mất Wi-Fi",
+      "e": [
+        {
+          "p": "The Wi-Fi is not working at home.",
+          "m": "1. Nói vấn đề ngắn. 2. Nói bạn làm gì đầu tiên để kiểm tra.",
+          "h": "Dùng 'The Wi-Fi is not/doesn't...' và 'I will + V / I am going to + V'.",
+          "s": "The Wi‑Fi is not working at home. I will check the router now."
+        },
+        {
+          "p": "You see the router light is off.",
+          "m": "1. Mô tả trạng thái đèn. 2. Nói giải pháp đơn giản bạn làm.",
+          "h": "Dùng 'The light is...' và 'I will restart/turn on the router'.",
+          "s": "The router light is off and it looks dead. I will restart the router."
+        },
+        {
+          "p": "Your neighbor says the internet works for them.",
+          "m": "1. Nói so sánh ngắn. 2. Nói bạn nghĩ vấn đề là gì.",
+          "h": "Dùng 'It works for...' và 'I think the problem is...' hoặc 'maybe...'.",
+          "s": "It works for my neighbor but not for me. I think the problem is my modem."
+        },
+        {
+          "p": "You need internet for an online class now.",
+          "m": "1. Nói nhu cầu khẩn cấp. 2. Nói kế hoạch tạm thời của bạn.",
+          "h": "Dùng 'I need + N/ to + V' và 'I will/because/so...'.",
+          "s": "I need internet for my online class now. I will go to a cafe to join the class."
+        },
+        {
+          "p": "You call the service provider.",
+          "m": "1. Nói bạn đang làm gì. 2. Nói kết quả ngắn (ví dụ: họ sẽ đến hoặc hẹn giờ).",
+          "h": "Dùng 'I am calling...' và 'They will/They said + clause'.",
+          "s": "I am calling the service provider for help. They said a technician will come today."
+        }
+      ]
+    },
+    {
+      "t": "Bếp bẩn",
+      "e": [
+        {
+          "p": "The sink is full of dirty dishes.",
+          "m": "1. Nói vấn đề. 2. Nói bạn sẽ làm gì ngay bây giờ.",
+          "h": "Dùng 'The sink is...' và 'I will/I need to + V'.",
+          "s": "The sink is full of dirty dishes and it smells bad. I will wash the dishes now."
+        },
+        {
+          "p": "You have many tasks but the kitchen is messy.",
+          "m": "1. Nói số lượng việc (nhiều/ít). 2. Nói bạn sắp xếp thời gian thế nào.",
+          "h": "Dùng 'I have many/a few...' và 'I will do... first/after'.",
+          "s": "I have many tasks and the kitchen is messy. I will clean the kitchen after I finish work."
+        },
+        {
+          "p": "There is a stain on the stove.",
+          "m": "1. Mô tả vết bẩn. 2. Nói bạn dùng gì để lau sạch.",
+          "h": "Dùng 'There is a stain...' và 'I will use + N / to + V'.",
+          "s": "There is a big stain on the stove and it is sticky. I will use a cloth and soap to clean it."
+        },
+        {
+          "p": "You cook often and the kitchen gets dirty quickly.",
+          "m": "1. Nói thói quen nấu ăn. 2. Nói một cách để giữ bếp sạch hơn.",
+          "h": "Dùng 'I often/usually + V' và 'I will + V / I need to + V'.",
+          "s": "I often cook and the kitchen gets dirty quickly. I will clean a little after each meal."
+        },
+        {
+          "p": "A friend offers to help you clean.",
+          "m": "1. Nói bạn cảm thấy thế nào. 2. Nói bạn sẽ làm cùng họ ra sao.",
+          "h": "Dùng 'I am + adj' và 'Let's + V / We can + V'.",
+          "s": "I am happy because my friend offers help. Let's wash the dishes together now."
+        }
+      ]
+    },
+    {
+      "t": "Thiếu đồ khi đi chợ",
+      "e": [
+        {
+          "p": "You forgot to buy milk at the store.",
+          "m": "1. Nói vấn đề ngắn. 2. Nói bạn sẽ làm gì (quay lại hay đổi món).",
+          "h": "Dùng 'I forgot to + V' và 'I will/go back or I will buy another'.",
+          "s": "I forgot to buy milk at the store. I will go back later to buy it."
+        },
+        {
+          "p": "The bread shelf is almost empty.",
+          "m": "1. Mô tả tình trạng kệ. 2. Nói bạn chọn thay thế gì.",
+          "h": "Dùng 'The shelf is...' và 'I will choose/buy + N'.",
+          "s": "The bread shelf is almost empty. I will buy rolls instead."
+        },
+        {
+          "p": "You have little money left.",
+          "m": "1. Nói số lượng tiền (ít). 2. Nói bạn sẽ ưu tiên mua gì.",
+          "h": "Dùng 'I have little/few...' và 'I will buy + N first'.",
+          "s": "I have little money left today. I will buy only eggs and rice first."
+        },
+        {
+          "p": "There is a long line at the checkout.",
+          "m": "1. Mô tả tình huống. 2. Nói bạn làm gì để tiết kiệm thời gian.",
+          "h": "Dùng 'There is a long line' và 'I will choose + N or I will wait'.",
+          "s": "There is a long line at the checkout and it is slow. I will use the self‑checkout to save time."
+        },
+        {
+          "p": "You need many vegetables for a recipe.",
+          "m": "1. Nói số lượng chung (nhiều). 2. Nói bạn mua ở đâu hoặc hỏi ai giúp.",
+          "h": "Dùng 'I need many/more + N' và 'I will go to/ask + someone'.",
+          "s": "I need many vegetables for the recipe. I will go to the market to buy them now."
+        }
+      ]
+    },
+    {
+      "t": "Xe đạp/máy hỏng",
+      "e": [
+        {
+          "p": "Your bike tire is flat.",
+          "m": "1. Nói vấn đề ngắn. 2. Nói bạn sẽ làm gì (bơm hoặc đi bộ).",
+          "h": "Dùng 'My tire is flat' và 'I will + V / I need to + V'.",
+          "s": "My bike tire is flat and I can't ride. I will walk the bike home."
+        },
+        {
+          "p": "You hear a strange sound from the engine.",
+          "m": "1. Mô tả âm thanh ngắn. 2. Nói bạn có lo lắng không và hành động tiếp theo.",
+          "h": "Dùng 'I hear...' và 'I am worried / I will take it to...'.",
+          "s": "I hear a strange sound from the engine and it is loud. I am worried and I will take the bike to the shop."
+        },
+        {
+          "p": "There is oil on the garage floor.",
+          "m": "1. Mô tả vết dầu. 2. Nói bạn sẽ làm gì để dọn hoặc báo ai.",
+          "h": "Dùng 'There is/are...' và 'I will clean / I will tell + someone'.",
+          "s": "There is oil on the garage floor and it is slippery. I will clean it and tell my neighbor."
+        },
+        {
+          "p": "You need a quick ride to the station.",
+          "m": "1. Nói nhu cầu (đi nhanh). 2. Nói giải pháp bạn chọn (taxi/nhờ ai).",
+          "h": "Dùng 'I need + N/to + V' và 'I will + V / I will ask + someone'.",
+          "s": "I need a quick ride to the station now. I will call a taxi to go there."
+        },
+        {
+          "p": "The repair shop is closed today.",
+          "m": "1. Nói tình huống. 2. Nói bạn sẽ làm gì tạm thời với phương tiện hỏng.",
+          "h": "Dùng 'is closed' và 'I will + V / I will wait until...'.",
+          "s": "The repair shop is closed today so I can't fix it. I will ride slowly and go tomorrow."
+        }
+      ]
+    },
+    {
+      "t": "Tắc đường",
+      "e": [
+        {
+          "p": "There is heavy traffic on your way.",
+          "m": "1. Mô tả tình huống (tắc đường). 2. Nói bạn làm gì để đến nơi đúng giờ.",
+          "h": "Dùng 'There is/are...' và 'I will take/ I will leave earlier'.",
+          "s": "There is heavy traffic on my way and it is slow. I will leave earlier tomorrow to arrive on time."
+        },
+        {
+          "p": "You are late for a meeting because of traffic.",
+          "m": "1. Nói lý do bạn trễ. 2. Nói bạn đã làm để xin lỗi hoặc thông báo.",
+          "h": "Dùng 'I am late because...' và 'I called / I sent a message'.",
+          "s": "I am late because of the traffic jam. I called the office to say I will be ten minutes late."
+        },
+        {
+          "p": "The bus is stuck and people are impatient.",
+          "m": "1. Nói cảm giác của bạn. 2. Nói bạn có kế hoạch thay thế không.",
+          "h": "Dùng 'I am + adj' và 'I will + V / I might + V'.",
+          "s": "I am frustrated because the bus is stuck. I might get off and walk to the next stop."
+        },
+        {
+          "p": "You usually drive at 8 am but today it's worse.",
+          "m": "1. Nói thói quen (thường lái lúc mấy giờ). 2. Nói bạn sẽ thay đổi thói quen như thế nào.",
+          "h": "Dùng 'I usually + V' và 'I will + V / I will try to...'.",
+          "s": "I usually drive at eight in the morning and today the traffic is worse. I will try to take the train tomorrow."
+        },
+        {
+          "p": "There is a road accident ahead.",
+          "m": "1. Nói tình huống ngắn. 2. Nói bạn làm gì để an toàn hoặc tránh chỗ đó.",
+          "h": "Dùng 'There is/are...' và 'I will avoid/ I will wait'.",
+          "s": "There is a road accident ahead and the road is blocked. I will take a different route to avoid the delay."
+        }
+      ]
+    },
+    {
+      "t": "Tiếng ồn phòng bên",
+      "e": [
+        {
+          "p": "Your neighbor is playing loud music.",
+          "m": "1. Nói vấn đề ngắn. 2. Nói bạn muốn họ làm gì (giảm tiếng).",
+          "h": "Dùng 'They are playing...' và 'Please + V / Can you + V?'.",
+          "s": "My neighbor is playing loud music and it is noisy. Please turn the music down."
+        },
+        {
+          "p": "You are trying to study and it's noisy.",
+          "m": "1. Nói bạn đang làm gì. 2. Nói giải pháp bạn chọn để tập trung.",
+          "h": "Dùng 'I am + V-ing' và 'I will + V / I need + N'.",
+          "s": "I am studying and it is noisy next door. I will use headphones to focus."
+        },
+        {
+          "p": "The noise continues late at night.",
+          "m": "1. Nói thời gian vấn đề xảy ra. 2. Nói bạn sẽ làm gì (nhắc nhở hoặc báo quản lý).",
+          "h": "Dùng 'It continues late at night' và 'I will + V / I need to + V'.",
+          "s": "The noise continues late at night and I cannot sleep. I will talk to the neighbor or call the manager."
+        },
+        {
+          "p": "You are annoyed but want to be polite.",
+          "m": "1. Nói cảm xúc ngắn. 2. Nói lời đề nghị lịch sự bạn sẽ nói.",
+          "h": "Dùng 'I am + adj' và 'Could you please + V / Would you mind + V-ing?'.",
+          "s": "I am annoyed but I want to be polite. Could you please lower the music?"
+        },
+        {
+          "p": "Other neighbors also complain.",
+          "m": "1. Nói tình huống (nhiều người phàn nàn). 2. Nói bạn mong muốn kết quả gì.",
+          "h": "Dùng 'Many people/others + V' và 'I hope/We want + N'.",
+          "s": "Other neighbors are also complaining about the noise. We hope they will play music more quietly."
+        }
+      ]
+    },
+    {
+      "t": "Bị ốm nhẹ",
+      "e": [
+        {
+          "p": "You have a small headache today.",
+          "m": "1. Nói triệu chứng ngắn. 2. Nói bạn cần làm gì để cảm thấy tốt hơn.",
+          "h": "Dùng 'I have + N' và 'I need to/rest/take + N'.",
+          "s": "I have a small headache today. I need to rest and drink water."
+        },
+        {
+          "p": "You are still working but feel tired.",
+          "m": "1. Nói trạng thái. 2. Nói bạn muốn tạm dừng hay giảm công việc không.",
+          "h": "Dùng 'I am + adj' và 'I want to/ I need to + V'.",
+          "s": "I am tired but still working. I want to stop for a short break."
+        },
+        {
+          "p": "You need medicine for a sore throat.",
+          "m": "1. Nói vấn đề (đau họng). 2. Nói bạn sẽ làm gì (mua thuốc hoặc uống nước ấm).",
+          "h": "Dùng 'I have + N' và 'I will buy/ drink/ see a doctor'.",
+          "s": "I have a sore throat and it hurts when I speak. I will drink warm tea and buy medicine."
+        },
+        {
+          "p": "You usually feel better after sleep.",
+          "m": "1. Nói thói quen giúp khá hơn. 2. Nói khi nào bạn sẽ ngủ hoặc nghỉ.",
+          "h": "Dùng 'I usually + V' và 'I will + V / tonight/tomorrow morning'.",
+          "s": "I usually feel better after sleep. I will sleep early tonight to feel better tomorrow."
+        },
+        {
+          "p": "A friend offers to bring soup.",
+          "m": "1. Nói cảm xúc của bạn (vui/biết ơn). 2. Nói bạn muốn họ mang gì và khi nào.",
+          "h": "Dùng 'I am + adj' và 'Please bring + N at/this/now'.",
+          "s": "I am grateful that my friend offers help. Please bring some chicken soup this afternoon."
+        }
+      ]
+    },
+    {
+      "t": "Thanh toán lỗi",
+      "e": [
+        {
+          "p": "You see an extra charge on your bill.",
+          "m": "1. Nói vấn đề ngắn. 2. Nói bạn muốn họ làm gì (kiểm tra hoàn tiền).",
+          "h": "Dùng 'There is an extra charge' và 'Please check / I want a refund'.",
+          "s": "There is an extra charge on my bill and it is wrong. Please check it and give me a refund."
+        },
+        {
+          "p": "The cashier gave you wrong change.",
+          "m": "1. Nói lỗi (nhận thiếu tiền thối). 2. Nói bạn muốn nhận lại bao nhiêu.",
+          "h": "Dùng 'You gave me...' và 'I need/Please give me + amount'.",
+          "s": "The cashier gave me wrong change and I am short ten dollars. Please give me the ten dollars back."
+        },
+        {
+          "p": "You paid online but the order is not confirmed.",
+          "m": "1. Nói vấn đề thanh toán không rõ. 2. Nói bạn sẽ làm gì (liên hệ hỗ trợ).",
+          "h": "Dùng 'I paid...' và 'I will contact/support will check'.",
+          "s": "I paid online but my order is not confirmed. I will contact customer support now."
+        },
+        {
+          "p": "They say the card was declined earlier.",
+          "m": "1. Nói tình huống (thẻ bị từ chối). 2. Nói bạn có giải pháp thay thế nào.",
+          "h": "Dùng 'The card was declined' và 'I will use another card / cash'.",
+          "s": "The card was declined earlier and I need to pay. I will use another card to finish the payment."
+        },
+        {
+          "p": "You want a receipt for your records.",
+          "m": "1. Nói yêu cầu (muốn hóa đơn). 2. Nói bạn muốn nhận nó bằng cách nào (in/ email).",
+          "h": "Dùng 'I want/need a receipt' và 'Please send/print it'.",
+          "s": "I need a receipt for my records. Please email the receipt to me."
+        }
+      ]
+    },
+    {
+      "t": "Thời tiết bất ngờ",
+      "e": [
+        {
+          "p": "It suddenly started raining.",
+          "m": "1. Nói tình trạng thời tiết. 2. Nói bạn sẽ làm gì ngay bây giờ.",
+          "h": "Dùng 'It started + V-ing' và 'I will + V / I need an umbrella'.",
+          "s": "It suddenly started raining and I am getting wet. I need an umbrella now."
+        },
+        {
+          "p": "You are outside without a coat and it's cold.",
+          "m": "1. Nói cảm giác (lạnh). 2. Nói bạn muốn làm gì để ấm hơn.",
+          "h": "Dùng 'I am + adj' và 'I will wear/ I need to + V'.",
+          "s": "I am cold because I have no coat. I will go inside to get warm."
+        },
+        {
+          "p": "The weather is very hot today.",
+          "m": "1. Nói tình trạng (nóng). 2. Nói cách bạn giữ mát (uống nước, ở trong bóng râm...).",
+          "h": "Dùng 'It is very hot' và 'I will + V / I need to + V'.",
+          "s": "It is very hot today and I feel tired. I will drink cold water and stay in the shade."
+        },
+        {
+          "p": "You usually go for a walk in the morning.",
+          "m": "1. Nói thói quen. 2. Nói hôm nay bạn có thay đổi vì thời tiết không.",
+          "h": "Dùng 'I usually + V' và 'Today I will/might + V'.",
+          "s": "I usually go for a walk in the morning. Today I will stay home because it is raining."
+        },
+        {
+          "p": "There is a sudden wind and leaves are everywhere.",
+          "m": "1. Mô tả tình huống ngoại cảnh. 2. Nói bạn cần làm gì để dọn hoặc tránh lá bay vào nhà.",
+          "h": "Dùng 'There is/are...' và 'I will + V / I need to + V'.",
+          "s": "There is a sudden wind and leaves are everywhere. I will sweep the yard to keep the leaves away from the door."
+        }
+      ]
+    },
+    {
+      "t": "Thiếu đồ ở nhà (đồ dùng hàng ngày)",
+      "e": [
+        {
+          "p": "You ran out of toilet paper.",
+          "m": "1. Nói vấn đề ngắn. 2. Nói bạn sẽ làm gì (mượn hoặc ra cửa hàng).",
+          "h": "Dùng 'I ran out of...' và 'I will borrow/ I will go to the store'.",
+          "s": "I ran out of toilet paper and I need some now. I will ask my neighbor to borrow one."
+        },
+        {
+          "p": "There is no soap in the bathroom.",
+          "m": "1. Mô tả tình trạng. 2. Nói bạn làm gì tiếp theo (mua hoặc dùng gì khác).",
+          "h": "Dùng 'There is no...' và 'I will buy/ use another'.",
+          "s": "There is no soap in the bathroom and hands feel dirty. I will use shampoo for now and buy soap later."
+        },
+        {
+          "p": "You have little milk left for your child.",
+          "m": "1. Nói số lượng chung (ít). 2. Nói bạn sẽ mua khi nào hoặc hỏi ai giúp.",
+          "h": "Dùng 'I have little/few...' và 'I will buy/ Please buy + N'.",
+          "s": "I have little milk left for my child. I will go to the store this afternoon to buy more."
+        },
+        {
+          "p": "You often forget small items when leaving home.",
+          "m": "1. Nói thói quen. 2. Nói một cách đơn giản để tránh quên.",
+          "h": "Dùng 'I often/sometimes + V' và 'I will + V / I need to + V'.",
+          "s": "I often forget small items when I leave home. I will make a simple checklist by the door."
+        },
+        {
+          "p": "A friend says they can bring the missing items.",
+          "m": "1. Nói cảm xúc của bạn. 2. Nói bạn muốn họ mang món gì và khi nào.",
+          "h": "Dùng 'I am + adj' và 'Please bring + N at/now/this evening'.",
+          "s": "I am relieved that my friend can help. Please bring toilet paper and soap this evening."
+        }
+      ]
+    },
+    {
+      "t": "Ôn tập: Vấn đề buổi sáng",
+      "e": [
+        {
+          "p": "You woke up late and missed the bus.",
+          "m": "1. Nói vấn đề chính. 2. Nói giải pháp ngay lập tức bạn chọn.",
+          "h": "Dùng 'I missed the bus' và 'I will + V / I need to + V'.",
+          "s": "I woke up late and missed the bus. I will take a taxi to work."
+        },
+        {
+          "p": "Your phone died so you cannot call a taxi.",
+          "m": "1. Nói vấn đề (không gọi được). 2. Nói giải pháp thay thế.",
+          "h": "Dùng 'My phone died' và 'I will ask/ use a public phone/borrow'.",
+          "s": "My phone died and I cannot call a taxi. I will ask a store clerk to call one for me."
+        },
+        {
+          "p": "You spilled coffee and need to change quickly.",
+          "m": "1. Nói vấn đề. 2. Nói cách bạn đổi đồ hoặc xử lý vết bẩn.",
+          "h": "Dùng 'I spilled...' và 'I need to change / I will clean with...'.",
+          "s": "I spilled coffee on my shirt this morning. I need to change into a clean shirt now."
+        },
+        {
+          "p": "There is heavy traffic on the road to work.",
+          "m": "1. Nói điều bạn thấy. 2. Nói bạn dự định thay đổi lịch trình hay phương tiện.",
+          "h": "Dùng 'There is heavy traffic' và 'I will + V / I will take + N'.",
+          "s": "There is heavy traffic on the road to work. I will take the subway tomorrow to avoid it."
+        },
+        {
+          "p": "You have many things to carry and feel tired.",
+          "m": "1. Nói số lượng hoặc cảm giác. 2. Nói bạn cần giúp đỡ hay cách giảm tải.",
+          "h": "Dùng 'There are many...' và 'I need help / I will remove some items'.",
+          "s": "There are many bags and I feel tired. I need help to carry them to the car."
+        }
+      ]
+    },
+    {
+      "t": "Ôn tập: Thiết bị và kết nối",
+      "e": [
+        {
+          "p": "Your laptop battery is low during an online meeting.",
+          "m": "1. Nói vấn đề ngắn. 2. Nói bạn làm gì để không bị mất kết nối.",
+          "h": "Dùng 'My battery is low' và 'I will + V / I need to + V'.",
+          "s": "My laptop battery is low during the meeting. I will connect the charger now."
+        },
+        {
+          "p": "The Wi-Fi drops and the meeting freezes.",
+          "m": "1. Mô tả vấn đề. 2. Nói giải pháp tạm thời bạn dùng.",
+          "h": "Dùng 'The Wi‑Fi drops' và 'I will use/ I will go to...'.",
+          "s": "The Wi‑Fi drops and my screen freezes. I will join the meeting from my phone's hotspot."
+        },
+        {
+          "p": "Your headphones are broken suddenly.",
+          "m": "1. Nói sự cố. 2. Nói bạn làm gì để tiếp tục nghe (loa/ mượn).",
+          "h": "Dùng 'My headphones are broken' và 'I will use/ I will borrow + N'.",
+          "s": "My headphones are broken and I can't hear the audio. I will use the laptop speakers instead."
+        },
+        {
+          "p": "You often forget to charge devices at night.",
+          "m": "1. Nói thói quen. 2. Nói cách bạn thay đổi thói quen đó.",
+          "h": "Dùng 'I often forget' và 'I will + V / I need to + V'.",
+          "s": "I often forget to charge my devices at night. I will plug them in before bed every evening."
+        },
+        {
+          "p": "A friend offers to share their charger.",
+          "m": "1. Nói cảm xúc. 2. Nói bạn sẽ làm gì tiếp theo (nhận và cảm ơn).",
+          "h": "Dùng 'I am + adj' và 'Thank you / I will + V'.",
+          "s": "I am grateful that my friend shares a charger. I will borrow it now and thank them."
+        }
+      ]
+    },
+    {
+      "t": "Ôn tập: Giải quyết sự cố hàng ngày",
+      "e": [
+        {
+          "p": "You woke up with a sore throat and have an important call.",
+          "m": "1. Nói vấn đề sức khỏe ngắn. 2. Nói bạn làm gì để tham gia cuộc gọi.",
+          "h": "Dùng 'I have a sore throat' và 'I will + V / I need to + V'.",
+          "s": "I woke up with a sore throat and I feel weak. I will join the call quietly and drink warm tea after."
+        },
+        {
+          "p": "Your grocery list is missing one key ingredient for dinner.",
+          "m": "1. Nói thiếu món gì. 2. Nói giải pháp (thay thế hoặc chạy ra mua).",
+          "h": "Dùng 'I am missing...' và 'I will use/ I will go to the store'.",
+          "s": "I am missing tomatoes for dinner. I will use canned tomatoes instead."
+        },
+        {
+          "p": "You arrived and the meeting room is noisy.",
+          "m": "1. Mô tả tình huống. 2. Nói bạn muốn di chuyển hay đề nghị im lặng.",
+          "h": "Dùng 'The room is noisy' và 'I will move/ Please be quiet'.",
+          "s": "The meeting room is noisy and we cannot hear well. I will move us to a quieter room."
+        },
+        {
+          "p": "You spilled water on important papers.",
+          "m": "1. Nói vấn đề. 2. Nói bạn sẽ làm gì để cứu tài liệu hoặc làm lại.",
+          "h": "Dùng 'I spilled...' và 'I will dry / I need to reprint'.",
+          "s": "I spilled water on important papers and they are wet. I will dry them with a towel and reprint the pages if needed."
+        },
+        {
+          "p": "Someone asks if you need help with your small daily problems.",
+          "m": "1. Nói bạn có cần giúp không. 2. Nói bạn muốn họ giúp việc gì.",
+          "h": "Dùng 'I need/don't need help' và 'Please help me with + N / to + V'.",
+          "s": "I need help with small daily problems sometimes. Please help me carry these bags now."
+        }
+      ]
+    }
+  ]
+}

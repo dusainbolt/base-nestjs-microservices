@@ -1,0 +1,565 @@
+{
+  "l": 1,
+  "d": [
+    {
+      "t": "Thời tiết hôm nay",
+      "e": [
+        {
+          "p": "What's the weather like today?",
+          "m": "Nói một câu mô tả thời tiết hôm nay (ví dụ: nắng, mưa, lạnh).",
+          "h": "It is + adjective.",
+          "s": "It is sunny."
+        },
+        {
+          "p": "Is it cold today?",
+          "m": "Trả lời bằng một câu: nói có lạnh hay không (It is cold / It is not cold).",
+          "h": "It is + cold / It is not + cold.",
+          "s": "It is not cold."
+        },
+        {
+          "p": "Do you see clouds now?",
+          "m": "Nói một câu ngắn: có mây hay không (There are clouds / There are no clouds).",
+          "h": "There are + noun / There are no + noun.",
+          "s": "There are clouds."
+        },
+        {
+          "p": "Can you go outside now?",
+          "m": "Nói một câu: bạn có thể ra ngoài bây giờ hay không (I can / I can't).",
+          "h": "I can / I can't + (go out).",
+          "s": "I can go outside."
+        },
+        {
+          "p": "How is the sky this morning?",
+          "m": "Mô tả bầu trời sáng nay trong một câu (clear, cloudy, blue...).",
+          "h": "It is + adjective.",
+          "s": "It is clear."
+        }
+      ]
+    },
+    {
+      "t": "Nói về mùa yêu thích",
+      "e": [
+        {
+          "p": "Which season do you like?",
+          "m": "Nói một câu: chọn mùa bạn thích (spring/summer/autumn/winter).",
+          "h": "I like + season.",
+          "s": "I like summer."
+        },
+        {
+          "p": "Why do you like that season?",
+          "m": "Nói một câu nguyên nhân đơn giản (ví dụ: warm, no school, snow).",
+          "h": "Because + short reason (no complex phrases).",
+          "s": "Because it is warm."
+        },
+        {
+          "p": "Do you wear a coat in that season?",
+          "m": "Trả lời một câu: có mặc áo khoác hay không (Yes, I do / No, I don't).",
+          "h": "Yes, I do / No, I don't.",
+          "s": "No, I don't."
+        },
+        {
+          "p": "Can you swim in your favorite season?",
+          "m": "Nói một câu: có thể bơi hay không (I can / I can't).",
+          "h": "I can / I can't + verb.",
+          "s": "I can swim."
+        },
+        {
+          "p": "Is it hot or cold in that season?",
+          "m": "Nói một câu: thời tiết nóng hay lạnh (It is hot / It is cold).",
+          "h": "It is + hot / cold.",
+          "s": "It is hot."
+        }
+      ]
+    },
+    {
+      "t": "Kế hoạch cuối tuần theo thời tiết",
+      "e": [
+        {
+          "p": "It's sunny this weekend.",
+          "m": "Nói một câu kế hoạch ngắn với 'go' hoặc 'stay' (go out / stay home).",
+          "h": "I will / I + present for plan (I go / I stay).",
+          "s": "I will go out."
+        },
+        {
+          "p": "It might rain on Sunday.",
+          "m": "Nói một câu: bạn sẽ làm gì nếu mưa (stay home / bring an umbrella).",
+          "h": "I will + verb / I will bring + noun.",
+          "s": "I will stay home."
+        },
+        {
+          "p": "Do you go to the park when it's sunny?",
+          "m": "Trả lời một câu: có hay không (Yes, I do / No, I don't).",
+          "h": "Yes, I do / No, I don't.",
+          "s": "Yes, I do."
+        },
+        {
+          "p": "Can your friend come with you on Saturday?",
+          "m": "Trả lời một câu: bạn bè có thể đi cùng hay không (He/She can / He/She can't).",
+          "h": "He / She can / He / She can't + verb.",
+          "s": "She can come with me."
+        },
+        {
+          "p": "What will you do if it is very hot?",
+          "m": "Nói một câu hoạt động đơn giản bạn làm khi nóng (drink water, stay in shade...).",
+          "h": "I + verb (present simple for routine).",
+          "s": "I drink water."
+        }
+      ]
+    },
+    {
+      "t": "Hỏi về thời tiết ở chỗ khác",
+      "e": [
+        {
+          "p": "How is the weather in your city?",
+          "m": "Nói một câu: mô tả thời tiết tại nơi bạn sống (use [studentCity] nếu cần).",
+          "h": "It is + adjective; mention city with 'in [studentCity]' if used.",
+          "s": "In [studentCity], it is rainy."
+        },
+        {
+          "p": "Is it snowy there now?",
+          "m": "Trả lời một câu: nói có tuyết hay không (Yes, there is / No, there is not).",
+          "h": "Yes, there is / No, there is not + snow.",
+          "s": "No, there is not."
+        },
+        {
+          "p": "Do you have hot days in your town?",
+          "m": "Trả lời một câu: có những ngày nóng không (Yes, we do / No, we don't).",
+          "h": "Yes, we do / No, we don't.",
+          "s": "Yes, we do."
+        },
+        {
+          "p": "Can people swim in lakes near you?",
+          "m": "Trả lời một câu: có thể bơi ở hồ không (People can / People can't).",
+          "h": "People can / People can't + verb.",
+          "s": "People can swim."
+        },
+        {
+          "p": "What is the temperature there now?",
+          "m": "Nói một câu ngắn: nhiệt độ hiện tại (use a number).",
+          "h": "It is + number + degrees (simple number).",
+          "s": "It is 20 degrees."
+        }
+      ]
+    },
+    {
+      "t": "Trang phục theo thời tiết",
+      "e": [
+        {
+          "p": "It's very cold today.",
+          "m": "Nói một câu bạn mặc gì (coat, hat, scarf...).",
+          "h": "I wear + noun / I have + noun.",
+          "s": "I wear a coat."
+        },
+        {
+          "p": "Is a hat necessary now?",
+          "m": "Trả lời một câu: cần mũ hay không (Yes, it is / No, it is not).",
+          "h": "Yes, it is / No, it is not.",
+          "s": "Yes, it is necessary."
+        },
+        {
+          "p": "Do you wear shorts in summer?",
+          "m": "Trả lời một câu: có mặc quần đùi vào mùa hè không (Yes, I do / No, I don't).",
+          "h": "Yes, I do / No, I don't.",
+          "s": "Yes, I do."
+        },
+        {
+          "p": "Can you wear sandals when it rains?",
+          "m": "Nói một câu: có thể hay không (I can / I can't).",
+          "h": "I can / I can't + wear + noun.",
+          "s": "I can't wear sandals."
+        },
+        {
+          "p": "What do you put on when it is sunny?",
+          "m": "Nói một câu: bạn dùng gì khi trời nắng (sunglasses, hat...).",
+          "h": "I wear / I put on + noun.",
+          "s": "I wear sunglasses."
+        }
+      ]
+    },
+    {
+      "t": "Hoạt động theo mùa",
+      "e": [
+        {
+          "p": "What do you do in winter?",
+          "m": "Nói một câu: một hoạt động bạn làm vào mùa đông (play, stay, drink...).",
+          "h": "I + verb (present simple).",
+          "s": "I drink hot tea."
+        },
+        {
+          "p": "Do you play outside in autumn?",
+          "m": "Trả lời một câu: có chơi ngoài trời không (Yes, I do / No, I don't).",
+          "h": "Yes, I do / No, I don't.",
+          "s": "No, I don't."
+        },
+        {
+          "p": "Can you go hiking in spring?",
+          "m": "Nói một câu: có thể đi bộ đường dài hay không (I can / I can't).",
+          "h": "I can / I can't + verb.",
+          "s": "I can go hiking."
+        },
+        {
+          "p": "Do you swim a lot in summer?",
+          "m": "Trả lời một câu: có bơi nhiều không (Yes, I do / No, I don't).",
+          "h": "Yes, I do / No, I don't.",
+          "s": "Yes, I do."
+        },
+        {
+          "p": "What season do you pick fruit?",
+          "m": "Nói một câu: mùa bạn hái quả (name one season).",
+          "h": "I pick fruit in + season.",
+          "s": "I pick fruit in autumn."
+        }
+      ]
+    },
+    {
+      "t": "Cảm giác về thời tiết",
+      "e": [
+        {
+          "p": "It is very windy today.",
+          "m": "Nói một câu cảm nhận về gió (I feel cold / I feel warm...).",
+          "h": "I feel + adjective.",
+          "s": "I feel cold."
+        },
+        {
+          "p": "Are you hot now?",
+          "m": "Trả lời một câu: có nóng không (Yes, I am / No, I am not).",
+          "h": "Yes, I am / No, I am not.",
+          "s": "No, I am not."
+        },
+        {
+          "p": "Do you like rainy days?",
+          "m": "Trả lời một câu: có thích ngày mưa không (Yes, I do / No, I don't).",
+          "h": "Yes, I do / No, I don't.",
+          "s": "No, I don't."
+        },
+        {
+          "p": "Can you sleep well when it is hot?",
+          "m": "Nói một câu: bạn có thể ngủ tốt khi nóng không (I can / I can't).",
+          "h": "I can / I can't + sleep.",
+          "s": "I can't sleep well."
+        },
+        {
+          "p": "How do you feel on a sunny morning?",
+          "m": "Nói một câu ngắn cảm xúc (happy, good, tired...).",
+          "h": "I feel + adjective.",
+          "s": "I feel happy."
+        }
+      ]
+    },
+    {
+      "t": "Dự báo thời tiết đơn giản",
+      "e": [
+        {
+          "p": "It will rain tomorrow.",
+          "m": "Nói một câu: bạn có kế hoạch thay đổi vì mưa hay không (stay home / bring umbrella).",
+          "h": "I will + verb.",
+          "s": "I will bring an umbrella."
+        },
+        {
+          "p": "The weather is hot next week.",
+          "m": "Nói một câu kế hoạch ngắn cho tuần tới (go swimming / rest).",
+          "h": "I will + verb.",
+          "s": "I will go swimming."
+        },
+        {
+          "p": "Do you check the weather forecast?",
+          "m": "Trả lời một câu: bạn có xem dự báo không (Yes, I do / No, I don't).",
+          "h": "Yes, I do / No, I don't.",
+          "s": "Yes, I do."
+        },
+        {
+          "p": "Can the weather change in one day?",
+          "m": "Trả lời một câu: có thể thay đổi hay không (Yes, it can / No, it can't).",
+          "h": "Yes, it can / No, it can't.",
+          "s": "Yes, it can."
+        },
+        {
+          "p": "What do you do if a storm comes?",
+          "m": "Nói một câu: hành động bạn làm khi bão đến (stay inside, close windows...).",
+          "h": "I + verb (present simple for routine).",
+          "s": "I stay inside."
+        }
+      ]
+    },
+    {
+      "t": "Thời tiết và sức khỏe",
+      "e": [
+        {
+          "p": "I have a cold because it is cold outside.",
+          "m": "Nói một câu: bạn làm gì khi bị cảm (drink tea, rest...).",
+          "h": "I + verb (drink/rest).",
+          "s": "I drink hot tea."
+        },
+        {
+          "p": "Is the sun good for you?",
+          "m": "Trả lời một câu: có tốt hay không (Yes, it is / No, it is not).",
+          "h": "Yes, it is / No, it is not.",
+          "s": "Yes, it is good."
+        },
+        {
+          "p": "Do you wear sunscreen in summer?",
+          "m": "Trả lời một câu: có thoa kem chống nắng không (Yes, I do / No, I don't).",
+          "h": "Yes, I do / No, I don't.",
+          "s": "Yes, I do."
+        },
+        {
+          "p": "Can cold weather make you tired?",
+          "m": "Trả lời một câu: có thể làm mệt không (Yes, it can / No, it can't).",
+          "h": "Yes, it can / No, it can't.",
+          "s": "Yes, it can."
+        },
+        {
+          "p": "What do you do to stay warm?",
+          "m": "Nói một câu: làm gì để giữ ấm (wear coat, drink soup...).",
+          "h": "I + verb + noun.",
+          "s": "I wear a warm coat."
+        }
+      ]
+    },
+    {
+      "t": "Hoạt động ngoài trời và thời tiết",
+      "e": [
+        {
+          "p": "We plan a picnic tomorrow.",
+          "m": "Nói một câu: có thể đi picnic hay không vì thời tiết (We can / We can't).",
+          "h": "We can / We can't + go + picnic.",
+          "s": "We can go on a picnic."
+        },
+        {
+          "p": "It is windy for kite flying.",
+          "m": "Nói một câu: bạn có thể thả diều không (I can / I can't).",
+          "h": "I can / I can't + verb.",
+          "s": "I can fly a kite."
+        },
+        {
+          "p": "Do you play sports when it rains?",
+          "m": "Trả lời một câu: có chơi thể thao khi mưa không (Yes, I do / No, I don't).",
+          "h": "Yes, I do / No, I don't.",
+          "s": "No, I don't."
+        },
+        {
+          "p": "Can you have a barbeque in autumn?",
+          "m": "Trả lời một câu: có thể tổ chức nướng ngoài trời không (We can / We can't).",
+          "h": "We can / We can't + have + noun.",
+          "s": "We can have a barbecue."
+        },
+        {
+          "p": "What do you bring to the beach on a sunny day?",
+          "m": "Nói một câu: đồ bạn mang (towel, hat, water...).",
+          "h": "I bring + noun.",
+          "s": "I bring a towel."
+        }
+      ]
+    },
+    {
+      "t": "Giao tiếp khi đi du lịch theo mùa",
+      "e": [
+        {
+          "p": "Is it hot in July here?",
+          "m": "Trả lời một câu: có nóng vào tháng 7 không (Yes, it is / No, it is not).",
+          "h": "Yes, it is / No, it is not.",
+          "s": "Yes, it is hot in July."
+        },
+        {
+          "p": "Do you need a jacket in the evening?",
+          "m": "Trả lời một câu: có cần áo khoác buổi tối không (Yes, you do / No, you don't).",
+          "h": "Yes, you do / No, you don't.",
+          "s": "Yes, you do need a jacket."
+        },
+        {
+          "p": "Can I swim in the sea in November?",
+          "m": "Trả lời một câu: có thể bơi biển tháng 11 không (You can / You can't).",
+          "h": "You can / You can't + verb.",
+          "s": "You can't swim in the sea in November."
+        },
+        {
+          "p": "What season is best to visit this island?",
+          "m": "Nói một câu: chọn mùa thích hợp (summer/spring...).",
+          "h": "It is best in + season.",
+          "s": "It is best in summer."
+        },
+        {
+          "p": "Do local people celebrate a festival in winter?",
+          "m": "Trả lời một câu: có lễ hội vào mùa đông không (Yes, they do / No, they don't).",
+          "h": "Yes, they do / No, they don't.",
+          "s": "Yes, they do."
+        }
+      ]
+    },
+    {
+      "t": "An toàn khi thời tiết xấu",
+      "e": [
+        {
+          "p": "There is a storm warning today.",
+          "m": "Nói một câu: bạn làm gì khi có cảnh báo (stay inside, close windows...).",
+          "h": "I + verb (stay/close).",
+          "s": "I stay inside."
+        },
+        {
+          "p": "Is it safe to drive now?",
+          "m": "Trả lời một câu: có an toàn lái xe không (Yes, it is / No, it is not).",
+          "h": "Yes, it is / No, it is not.",
+          "s": "No, it is not safe."
+        },
+        {
+          "p": "Can you turn off the lights during the thunderstorm?",
+          "m": "Trả lời một câu: có thể tắt đèn không (I can / I can't).",
+          "h": "I can / I can't + verb.",
+          "s": "I can turn off the lights."
+        },
+        {
+          "p": "Do you have a flashlight at home?",
+          "m": "Trả lời một câu: có đèn pin ở nhà không (Yes, I do / No, I don't).",
+          "h": "Yes, I do / No, I don't.",
+          "s": "Yes, I do have a flashlight."
+        },
+        {
+          "p": "What is one safe action when it snows a lot?",
+          "m": "Nói một câu: một hành động an toàn (stay home, clear snow...).",
+          "h": "I + verb / We + verb.",
+          "s": "I stay home."
+        }
+      ]
+    },
+    {
+      "t": "Thời tiết và công việc hàng ngày",
+      "e": [
+        {
+          "p": "It is raining this morning.",
+          "m": "Nói một câu: bạn đi làm như thế nào (take bus, drive, stay).",
+          "h": "I + verb (take the bus / drive).",
+          "s": "I take the bus."
+        },
+        {
+          "p": "Do you work outside when it is hot?",
+          "m": "Trả lời một câu: có làm ngoài trời khi nóng không (Yes, I do / No, I don't).",
+          "h": "Yes, I do / No, I don't.",
+          "s": "No, I don't."
+        },
+        {
+          "p": "Can you finish outdoor work today?",
+          "m": "Trả lời một câu: có thể hoàn thành công việc ngoài trời không (I can / I can't).",
+          "h": "I can / I can't + finish + noun.",
+          "s": "I can't finish it today."
+        },
+        {
+          "p": "Is the market open in bad weather?",
+          "m": "Trả lời một câu: chợ có mở không (Yes, it is / No, it is not).",
+          "h": "Yes, it is / No, it is not.",
+          "s": "No, it is not open."
+        },
+        {
+          "p": "What do you do for work when it's snowy?",
+          "m": "Nói một câu: công việc bạn làm khi có tuyết (work from home, clear snow...).",
+          "h": "I + verb (work from home).",
+          "s": "I work from home."
+        }
+      ]
+    },
+    {
+      "t": "Ôn tập: Thời tiết và hoạt động hàng ngày",
+      "e": [
+        {
+          "p": "It's cloudy and cool today.",
+          "m": "Nói một câu: bạn làm gì hôm nay (stay home, go out).",
+          "h": "I + verb.",
+          "s": "I stay home today."
+        },
+        {
+          "p": "Do you like summer or winter?",
+          "m": "Nói một câu: chọn một mùa bạn thích (summer/winter).",
+          "h": "I like + season.",
+          "s": "I like winter."
+        },
+        {
+          "p": "Can you go to the beach now?",
+          "m": "Trả lời một câu: có thể đi biển hay không (I can / I can't).",
+          "h": "I can / I can't + go.",
+          "s": "I can't go to the beach now."
+        },
+        {
+          "p": "Is it safe to walk in the rain?",
+          "m": "Trả lời một câu: an toàn hay không (Yes, it is / No, it is not).",
+          "h": "Yes, it is / No, it is not.",
+          "s": "No, it is not safe."
+        },
+        {
+          "p": "What do you wear when it is cold and windy?",
+          "m": "Nói một câu: đồ mặc phù hợp (coat, hat...).",
+          "h": "I wear + noun.",
+          "s": "I wear a warm coat."
+        }
+      ]
+    },
+    {
+      "t": "Ôn tập: Mùa và cảm xúc",
+      "e": [
+        {
+          "p": "I love spring flowers.",
+          "m": "Nói một câu: bạn có thích mùa xuân không (Yes, I do / No, I don't).",
+          "h": "Yes, I do / No, I don't.",
+          "s": "Yes, I do."
+        },
+        {
+          "p": "Is winter cold in your town?",
+          "m": "Trả lời một câu: có lạnh không (Yes, it is / No, it is not).",
+          "h": "Yes, it is / No, it is not.",
+          "s": "Yes, it is cold."
+        },
+        {
+          "p": "Do you feel happy on sunny days?",
+          "m": "Trả lời một câu: có cảm thấy vui không (Yes, I do / No, I don't).",
+          "h": "Yes, I do / No, I don't.",
+          "s": "Yes, I do feel happy."
+        },
+        {
+          "p": "Can children play outside in autumn?",
+          "m": "Trả lời một câu: có thể chơi ngoài không (They can / They can't).",
+          "h": "They can / They can't + verb.",
+          "s": "They can play outside."
+        },
+        {
+          "p": "What season makes you tired?",
+          "m": "Nói một câu: chọn mùa khiến bạn mệt (summer/spring...).",
+          "h": "I feel tired in + season.",
+          "s": "I feel tired in summer."
+        }
+      ]
+    },
+    {
+      "t": "Ôn tập: Dự báo và an toàn",
+      "e": [
+        {
+          "p": "A heavy rain is coming.",
+          "m": "Nói một câu: hành động bạn làm (bring umbrella, stay inside).",
+          "h": "I will / I + verb.",
+          "s": "I will bring an umbrella."
+        },
+        {
+          "p": "Do you check the forecast before travel?",
+          "m": "Trả lời một câu: có kiểm tra không (Yes, I do / No, I don't).",
+          "h": "Yes, I do / No, I don't.",
+          "s": "Yes, I do."
+        },
+        {
+          "p": "Can the wind break trees?",
+          "m": "Trả lời một câu: có thể không (Yes, it can / No, it can't).",
+          "h": "Yes, it can / No, it can't.",
+          "s": "Yes, it can."
+        },
+        {
+          "p": "Is it safe to swim during a storm?",
+          "m": "Trả lời một câu: an toàn hay không (No, it is not).",
+          "h": "No, it is not safe.",
+          "s": "No, it is not safe to swim."
+        },
+        {
+          "p": "What do you tell friends when bad weather comes?",
+          "m": "Nói một câu ngắn: lời khuyên (stay home, be careful...).",
+          "h": "Tell them: verb + short phrase.",
+          "s": "Stay home and be careful."
+        }
+      ]
+    }
+  ]
+}

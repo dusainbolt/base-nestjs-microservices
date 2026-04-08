@@ -1,0 +1,530 @@
+{
+  "l": 1,
+  "d": [
+    {
+      "t": "Gặp hàng xóm mới",
+      "e": [
+        {
+          "p": "Which place do you live in?",
+          "m": "Nói nơi bạn sống (city hoặc country) trong 1 câu.",
+          "h": "S + live + in + place",
+          "s": "I live in the city."
+        },
+        {
+          "p": "Do you prefer the city or the country?",
+          "m": "Nói bạn thích city hay country trong 1 câu.",
+          "h": "S + like(s) + the + place",
+          "s": "I prefer the country."
+        },
+        {
+          "p": "Can you walk to school or work?",
+          "m": "Nói có thể đi bộ tới trường/làm việc trong 1 câu.",
+          "h": "S + can / can't + V",
+          "s": "I can walk to school."
+        },
+        {
+          "p": "What do you eat for breakfast?",
+          "m": "Nói một món bạn ăn sáng lành mạnh trong 1 câu.",
+          "h": "S + eat(s) + food",
+          "s": "I eat fruit and bread for breakfast."
+        },
+        {
+          "p": "Tell one healthy habit you have.",
+          "m": "Nói một thói quen lành mạnh của bạn trong 1 câu.",
+          "h": "S + V(s) + O",
+          "s": "I drink water every day."
+        }
+      ]
+    },
+    {
+      "t": "Nói về nơi bạn sống",
+      "e": [
+        {
+          "p": "Is there a park near your house?",
+          "m": "Trả lời có/không về công viên gần nhà trong 1 câu.",
+          "h": "There is / There is not + a + place",
+          "s": "There is a park near my house."
+        },
+        {
+          "p": "How many people live in your home?",
+          "m": "Nói số người trong nhà bằng 1 câu.",
+          "h": "There are + number + people / S + have + number + people",
+          "s": "There are four people in my home."
+        },
+        {
+          "p": "Do you drink water every day?",
+          "m": "Trả lời có/không về uống nước hàng ngày trong 1 câu.",
+          "h": "S + do/does + not + V / S + V",
+          "s": "I drink water every day."
+        },
+        {
+          "p": "What time do you sleep?",
+          "m": "Nói giờ bạn đi ngủ (ví dụ: 10 pm) trong 1 câu.",
+          "h": "S + sleep + at + time",
+          "s": "I sleep at 10 pm."
+        },
+        {
+          "p": "Describe your house in one sentence.",
+          "m": "Mô tả ngôi nhà (màu hoặc kích thước) trong 1 câu.",
+          "h": "My house is + adj / S + have + a + adj + house",
+          "s": "My house is small and white."
+        }
+      ]
+    },
+    {
+      "t": "Thói quen buổi sáng",
+      "e": [
+        {
+          "p": "What do you do every morning?",
+          "m": "Nói một việc bạn làm mỗi sáng trong 1 câu.",
+          "h": "S + V(s) + O",
+          "s": "I eat breakfast every morning."
+        },
+        {
+          "p": "Do you eat fruit in the morning?",
+          "m": "Trả lời có/không về ăn trái cây buổi sáng trong 1 câu.",
+          "h": "S + do/does + not + V / S + V",
+          "s": "I eat fruit in the morning."
+        },
+        {
+          "p": "Can you run in the morning?",
+          "m": "Trả lời có/không về chạy buổi sáng trong 1 câu.",
+          "h": "S + can / can't + V",
+          "s": "I can run in the morning."
+        },
+        {
+          "p": "Where do you go in the morning?",
+          "m": "Nói nơi bạn đi buổi sáng (school/work) trong 1 câu.",
+          "h": "S + go + to + place",
+          "s": "I go to school in the morning."
+        },
+        {
+          "p": "Say one healthy morning habit.",
+          "m": "Nói một thói quen tốt buổi sáng trong 1 câu.",
+          "h": "S + V(s) + O",
+          "s": "I drink water in the morning."
+        }
+      ]
+    },
+    {
+      "t": "Mua đồ ăn lành mạnh",
+      "e": [
+        {
+          "p": "Do you buy fruit at the market?",
+          "m": "Trả lời có/không về việc mua trái cây trong 1 câu.",
+          "h": "S + V(s) + O / S + do/does + not + V",
+          "s": "I buy fruit at the market."
+        },
+        {
+          "p": "What food do you like?",
+          "m": "Nói một món ăn bạn thích trong 1 câu.",
+          "h": "S + like(s) + N",
+          "s": "I like rice and vegetables."
+        },
+        {
+          "p": "Is there a market near your home?",
+          "m": "Trả lời có/không về chợ gần nhà trong 1 câu.",
+          "h": "There is / There is not + a + place",
+          "s": "There is a market near my home."
+        },
+        {
+          "p": "How many apples do you eat?",
+          "m": "Nói số táo bạn ăn trong 1 câu.",
+          "h": "S + eat(s) + number + apples",
+          "s": "I eat two apples."
+        },
+        {
+          "p": "Say a healthy meal you eat.",
+          "m": "Nói một bữa ăn lành mạnh bạn ăn trong 1 câu.",
+          "h": "S + eat(s) + O",
+          "s": "I eat rice and fish for a healthy meal."
+        }
+      ]
+    },
+    {
+      "t": "Tập thể dục cùng bạn",
+      "e": [
+        {
+          "p": "Do you play with your friends after school?",
+          "m": "Trả lời có/không về việc chơi với bạn sau giờ học trong 1 câu.",
+          "h": "S + V(s) + with + people / S + do/does + not + V",
+          "s": "I play with my friends after school."
+        },
+        {
+          "p": "Can you walk every day?",
+          "m": "Trả lời có/không về việc đi bộ hàng ngày trong 1 câu.",
+          "h": "S + can / can't + V",
+          "s": "I can walk every day."
+        },
+        {
+          "p": "Where do you exercise?",
+          "m": "Nói nơi bạn tập thể dục trong 1 câu.",
+          "h": "S + exercise + in/at + place / S + go + to + place",
+          "s": "I exercise in the park."
+        },
+        {
+          "p": "How often do you exercise?",
+          "m": "Nói tần suất bạn tập (ví dụ: every day) trong 1 câu.",
+          "h": "S + V + every day / S + V + twice a week",
+          "s": "I exercise every day."
+        },
+        {
+          "p": "Say a sport you can do.",
+          "m": "Nói một môn thể thao bạn có thể làm trong 1 câu.",
+          "h": "S + can + V",
+          "s": "I can play football."
+        }
+      ]
+    },
+    {
+      "t": "So sánh thành phố và nông thôn",
+      "e": [
+        {
+          "p": "Where do you live, city or country?",
+          "m": "Nói nơi bạn sống (city hoặc country) trong 1 câu.",
+          "h": "S + live + in + place",
+          "s": "I live in the country."
+        },
+        {
+          "p": "Is the city noisy?",
+          "m": "Nói có/không về việc thành phố ồn ào trong 1 câu.",
+          "h": "S + be (is/are) + adj",
+          "s": "The city is noisy."
+        },
+        {
+          "p": "Is the country quiet?",
+          "m": "Nói có/không về việc nông thôn yên tĩnh trong 1 câu.",
+          "h": "S + be + adj",
+          "s": "The country is quiet."
+        },
+        {
+          "p": "Can you walk in the field?",
+          "m": "Trả lời có/không về việc đi bộ trên cánh đồng trong 1 câu.",
+          "h": "S + can / can't + V",
+          "s": "I can walk in the field."
+        },
+        {
+          "p": "Say one good thing about your place.",
+          "m": "Nói một điều tốt về nơi bạn sống trong 1 câu.",
+          "h": "S + have / S + be + adj",
+          "s": "My place has fresh air."
+        }
+      ]
+    },
+    {
+      "t": "Giữ sức khỏe khi đi làm/học",
+      "e": [
+        {
+          "p": "Do you drink water at school or work?",
+          "m": "Trả lời có/không về uống nước ở trường/ chỗ làm trong 1 câu.",
+          "h": "S + V(s) + O / S + do/does + not + V",
+          "s": "I drink water at school."
+        },
+        {
+          "p": "What do you eat at lunch?",
+          "m": "Nói một món bạn ăn trưa trong 1 câu.",
+          "h": "S + eat(s) + O",
+          "s": "I eat rice and vegetables at lunch."
+        },
+        {
+          "p": "Do you go to school by bus or walk?",
+          "m": "Nói cách bạn đi học trong 1 câu.",
+          "h": "S + go + by + bus / S + walk",
+          "s": "I go to school by bus."
+        },
+        {
+          "p": "Is your school near your home?",
+          "m": "Trả lời có/không về việc trường gần nhà trong 1 câu.",
+          "h": "S + be + near + place",
+          "s": "My school is near my home."
+        },
+        {
+          "p": "Say one thing you do to stay healthy at school.",
+          "m": "Nói một việc bạn làm ở trường để khỏe trong 1 câu.",
+          "h": "S + V(s) + O",
+          "s": "I eat fruit at school."
+        }
+      ]
+    },
+    {
+      "t": "Cuộc sống hàng ngày và sức khỏe",
+      "e": [
+        {
+          "p": "What time do you wake up?",
+          "m": "Nói giờ bạn thức dậy trong 1 câu.",
+          "h": "S + wake(s) up + at + time",
+          "s": "I wake up at 6 am."
+        },
+        {
+          "p": "Do you eat breakfast every day?",
+          "m": "Trả lời có/không về ăn sáng hàng ngày trong 1 câu.",
+          "h": "S + do/does + not + V / S + V",
+          "s": "I eat breakfast every day."
+        },
+        {
+          "p": "How many hours do you sleep?",
+          "m": "Nói số giờ bạn ngủ trong 1 câu.",
+          "h": "S + sleep + number + hours",
+          "s": "I sleep eight hours."
+        },
+        {
+          "p": "Do you sit a lot during the day?",
+          "m": "Trả lời có/không về việc ngồi nhiều trong 1 câu.",
+          "h": "S + do/does + not + V / S + V",
+          "s": "I sit a lot during the day."
+        },
+        {
+          "p": "Say one habit you want to stop.",
+          "m": "Nói một thói quen xấu bạn muốn bỏ trong 1 câu.",
+          "h": "S + don't + V / I don't + V",
+          "s": "I don't eat too many sweets."
+        }
+      ]
+    },
+    {
+      "t": "Đi dạo và hít thở không khí",
+      "e": [
+        {
+          "p": "Do you walk in the park near your home?",
+          "m": "Trả lời có/không về đi bộ công viên gần nhà trong 1 câu.",
+          "h": "S + V(s) + in + place",
+          "s": "I walk in the park."
+        },
+        {
+          "p": "Is there a park in your city?",
+          "m": "Trả lời có/không về công viên trong thành phố trong 1 câu.",
+          "h": "There is / There is not + a + place",
+          "s": "There is a park in my city."
+        },
+        {
+          "p": "Can you go for a walk today?",
+          "m": "Trả lời có/không về khả năng đi bộ hôm nay trong 1 câu.",
+          "h": "S + can / can't + V",
+          "s": "I can go for a walk today."
+        },
+        {
+          "p": "Where do you usually walk?",
+          "m": "Nói nơi bạn thường đi bộ trong 1 câu.",
+          "h": "S + walk + in/at + place",
+          "s": "I walk in the park near my home."
+        },
+        {
+          "p": "How do you feel after a walk?",
+          "m": "Nói cảm giác bạn sau khi đi bộ trong 1 câu.",
+          "h": "S + feel + adj",
+          "s": "I feel good after a walk."
+        }
+      ]
+    },
+    {
+      "t": "Chăm sóc bản thân buổi tối",
+      "e": [
+        {
+          "p": "What do you do at night before sleep?",
+          "m": "Nói một việc bạn làm buổi tối trước khi ngủ trong 1 câu.",
+          "h": "S + V(s) + O",
+          "s": "I read a book at night."
+        },
+        {
+          "p": "Do you go to bed early?",
+          "m": "Trả lời có/không về việc ngủ sớm trong 1 câu.",
+          "h": "S + sleep + early / S + do/does + not + V",
+          "s": "I go to bed early."
+        },
+        {
+          "p": "Do you watch TV before you sleep?",
+          "m": "Trả lời có/không về xem TV trước khi ngủ trong 1 câu.",
+          "h": "S + do/does + V? / S + V",
+          "s": "I watch TV before sleep."
+        },
+        {
+          "p": "Do you eat late at night?",
+          "m": "Trả lời có/không về ăn đêm trong 1 câu.",
+          "h": "S + do/does + not + V / S + V",
+          "s": "I don't eat at night."
+        },
+        {
+          "p": "Say one healthy night habit.",
+          "m": "Nói một thói quen lành mạnh buổi tối trong 1 câu.",
+          "h": "S + V(s) + O",
+          "s": "I go to bed on time."
+        }
+      ]
+    },
+    {
+      "t": "Nói về gia đình và sức khỏe",
+      "e": [
+        {
+          "p": "Who cooks at home?",
+          "m": "Nói ai nấu ăn ở nhà trong 1 câu.",
+          "h": "Who + V + ... / S + cook(s)",
+          "s": "My mother cooks at home."
+        },
+        {
+          "p": "Do your parents eat healthy food?",
+          "m": "Trả lời có/không về bố mẹ ăn lành mạnh trong 1 câu.",
+          "h": "S + do/does + not + V / S + V",
+          "s": "My parents eat healthy food."
+        },
+        {
+          "p": "Is there a garden at your home?",
+          "m": "Trả lời có/không về vườn ở nhà trong 1 câu.",
+          "h": "There is / There is not + a + place",
+          "s": "There is a small garden at home."
+        },
+        {
+          "p": "Do you help with house work?",
+          "m": "Trả lời có/không về giúp việc nhà trong 1 câu.",
+          "h": "S + do/does + not + V / S + V",
+          "s": "I help with house work."
+        },
+        {
+          "p": "Say one family habit for health.",
+          "m": "Nói một thói quen gia đình để khỏe trong 1 câu.",
+          "h": "We + V / S + V(s) + O",
+          "s": "We eat dinner together."
+        }
+      ]
+    },
+    {
+      "t": "Kế hoạch thay đổi sống khỏe",
+      "e": [
+        {
+          "p": "Do you want to be healthy?",
+          "m": "Trả lời có/không về mong muốn khỏe mạnh trong 1 câu.",
+          "h": "S + want(s) + to + V",
+          "s": "I want to be healthy."
+        },
+        {
+          "p": "Can you start walking more?",
+          "m": "Trả lời có/không về bắt đầu đi bộ nhiều hơn trong 1 câu.",
+          "h": "S + can / can't + V",
+          "s": "I can start walking more."
+        },
+        {
+          "p": "What do you do now to be healthy?",
+          "m": "Nói một việc bạn làm để khỏe hiện tại trong 1 câu.",
+          "h": "S + V(s) + O",
+          "s": "I eat vegetables to be healthy."
+        },
+        {
+          "p": "Can you stop a bad habit?",
+          "m": "Trả lời có/không về khả năng bỏ thói xấu trong 1 câu.",
+          "h": "S + can / can't + V",
+          "s": "I can stop eating many sweets."
+        },
+        {
+          "p": "Say one new habit you can do.",
+          "m": "Nói một thói quen mới bạn có thể làm trong 1 câu.",
+          "h": "S + can + V",
+          "s": "I can walk every morning."
+        }
+      ]
+    },
+    {
+      "t": "Ôn tập: Nói về nơi sống và thói quen",
+      "e": [
+        {
+          "p": "Do you live in a city or the country?",
+          "m": "Nói nơi bạn sống (city hoặc country) trong 1 câu.",
+          "h": "S + live + in + place",
+          "s": "I live in the city."
+        },
+        {
+          "p": "Do you eat breakfast at home?",
+          "m": "Trả lời có/không về ăn sáng ở nhà trong 1 câu.",
+          "h": "S + do/does + not + V / S + V",
+          "s": "I eat breakfast at home."
+        },
+        {
+          "p": "What healthy food do you eat?",
+          "m": "Nói một món ăn lành mạnh bạn ăn trong 1 câu.",
+          "h": "S + eat(s) + food",
+          "s": "I eat fruit and rice."
+        },
+        {
+          "p": "Can you walk to the park today?",
+          "m": "Trả lời có/không về khả năng đi bộ tới công viên hôm nay trong 1 câu.",
+          "h": "S + can / can't + V",
+          "s": "I can walk to the park today."
+        },
+        {
+          "p": "Say one healthy habit you do every day.",
+          "m": "Nói một thói quen lành mạnh bạn làm hàng ngày trong 1 câu.",
+          "h": "S + V(s) + O",
+          "s": "I drink water every day."
+        }
+      ]
+    },
+    {
+      "t": "Ôn tập: Ăn uống và hoạt động",
+      "e": [
+        {
+          "p": "Do you buy vegetables?",
+          "m": "Trả lời có/không về mua rau trong 1 câu.",
+          "h": "S + do/does + not + V / S + V",
+          "s": "I buy vegetables."
+        },
+        {
+          "p": "How many times do you exercise each week?",
+          "m": "Nói số lần bạn tập trong tuần trong 1 câu.",
+          "h": "S + V + number + times a week",
+          "s": "I exercise three times a week."
+        },
+        {
+          "p": "Where do you buy food for home?",
+          "m": "Nói nơi bạn mua đồ ăn cho nhà trong 1 câu.",
+          "h": "S + buy(s) + at + place",
+          "s": "I buy food at the market."
+        },
+        {
+          "p": "Do you cook meals at home?",
+          "m": "Trả lời có/không về nấu ăn ở nhà trong 1 câu.",
+          "h": "S + do/does + V? / S + V",
+          "s": "I cook meals at home."
+        },
+        {
+          "p": "Give one simple tip for healthy living.",
+          "m": "Nói một mẹo đơn giản để sống khỏe trong 1 câu.",
+          "h": "S + V(s) + O",
+          "s": "I drink water every day."
+        }
+      ]
+    },
+    {
+      "t": "Ôn tập: Thay đổi thói quen sống",
+      "e": [
+        {
+          "p": "Do you want to change a habit?",
+          "m": "Trả lời có/không về muốn thay đổi một thói quen trong 1 câu.",
+          "h": "S + want(s) + to + V",
+          "s": "I want to change my habit."
+        },
+        {
+          "p": "What new habit can you start?",
+          "m": "Nói một thói quen mới bạn có thể bắt đầu trong 1 câu.",
+          "h": "S + can + V",
+          "s": "I can walk every morning."
+        },
+        {
+          "p": "Do you sleep enough at night?",
+          "m": "Trả lời có/không về ngủ đủ giấc vào ban đêm trong 1 câu.",
+          "h": "S + do/does + not + V / S + V",
+          "s": "I sleep eight hours."
+        },
+        {
+          "p": "Is it good to eat vegetables?",
+          "m": "Trả lời có/không về việc ăn rau tốt không trong 1 câu.",
+          "h": "Yes/No, + S + V / S + be + adj",
+          "s": "Yes, it is good to eat vegetables."
+        },
+        {
+          "p": "Say one small step you do to be healthy.",
+          "m": "Nói một bước nhỏ bạn làm để khỏe trong 1 câu.",
+          "h": "S + V(s) + O",
+          "s": "I walk for ten minutes every day."
+        }
+      ]
+    }
+  ]
+}

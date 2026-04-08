@@ -1,0 +1,530 @@
+{
+  "l": 2,
+  "d": [
+    {
+      "t": "Gặp gỡ người mới",
+      "e": [
+        {
+          "p": "What's your name?",
+          "m": "1) Nói tên của bạn. 2) Nói bạn đến từ đâu.",
+          "h": "Dùng 'My name is ...' và 'I am from ...'.",
+          "s": "My name is [studentName]. I am from [studentCity]."
+        },
+        {
+          "p": "How old are you?",
+          "m": "1) Nói tuổi của bạn. 2) Nói bạn học hay đi làm.",
+          "h": "Dùng 'I am ... years old.' và 'I study...' hoặc 'I work...'.",
+          "s": "I am [studentAge] years old. I study at [studentSchool]."
+        },
+        {
+          "p": "Where do you live?",
+          "m": "1) Nói tên thành phố. 2) Nói bạn sống với ai (gia đình/alone).",
+          "h": "Dùng 'I live in ...' và 'I live with ...' hoặc 'I live alone'.",
+          "s": "I live in [studentCity]. I live with my family."
+        },
+        {
+          "p": "What do you like to do with friends?",
+          "m": "1) Nói một hoạt động bạn thích. 2) Nói tần suất (always/often/sometimes).",
+          "h": "Dùng 'I like to + V' và trạng từ tần suất trước động từ chính.",
+          "s": "I like to play football with my friends. We often play on weekends."
+        },
+        {
+          "p": "Do you have any brothers or sisters?",
+          "m": "1) Nói số anh chị em. 2) Nói bạn có thường chơi với họ không.",
+          "h": "Dùng 'There are + số + ...' và 'I often/ sometimes + V'.",
+          "s": "There are two brothers in my family. I often play with them."
+        }
+      ]
+    },
+    {
+      "t": "Nói về nghề nghiệp của bạn bè",
+      "e": [
+        {
+          "p": "What does your friend do?",
+          "m": "1) Nói nghề của bạn ấy. 2) Nói họ làm gì hàng ngày (1 việc).",
+          "h": "Dùng 'He/She is a ...' và 'He/She + V(s) + ...'.",
+          "s": "She is a teacher. She teaches English at school."
+        },
+        {
+          "p": "Is your friend working now?",
+          "m": "1) Nói họ đang làm việc hay không. 2) Nói họ đang làm gì ở hiện tại (V-ing).",
+          "h": "Dùng 'Yes/No, he/she is/ is not' và 'He/She is + V-ing'.",
+          "s": "Yes, he is working now. He is talking to a customer."
+        },
+        {
+          "p": "Where does your friend work?",
+          "m": "1) Nói nơi làm việc. 2) Nói bạn có thường đến đó không (often/sometimes).",
+          "h": "Dùng 'He/She works at/in ...' và 'I often/sometimes go there'.",
+          "s": "She works at a café near my house. I sometimes visit her at work."
+        },
+        {
+          "p": "Does your friend like his job?",
+          "m": "1) Nói có/không. 2) Nói lý do ngắn (happy/tired).",
+          "h": "Dùng 'Yes/No, he/she likes/doesn't like...' và một tính từ đơn giản.",
+          "s": "Yes, he likes his job. He feels happy when he helps people."
+        },
+        {
+          "p": "Who helps your friend at work?",
+          "m": "1) Nói người giúp (a coworker). 2) Nói họ làm gì cùng nhau.",
+          "h": "Dùng 'His/Her coworker is ...' và 'They + V(s) together'.",
+          "s": "His coworker is Tom. They work together and share tasks."
+        }
+      ]
+    },
+    {
+      "t": "Nói về sở thích chung",
+      "e": [
+        {
+          "p": "What's your favourite hobby?",
+          "m": "1) Nói sở thích chính. 2) Nói bạn có làm nó với bạn bè không.",
+          "h": "Dùng 'My favourite hobby is ...' và 'I + V + with my friends'.",
+          "s": "My favourite hobby is drawing. I sometimes draw with my friends."
+        },
+        {
+          "p": "How often do you play games with friends?",
+          "m": "1) Nói tần suất (always/often/sometimes). 2) Nói lúc nào (time).",
+          "h": "Dùng 'We often/sometimes ...' và 'on + time'.",
+          "s": "We often play games together. We play on Saturday evenings."
+        },
+        {
+          "p": "Do you like music?",
+          "m": "1) Nói có/không. 2) Nói bạn và bạn bè thường làm gì nghe nhạc.",
+          "h": "Dùng 'Yes/No, I like ...' và 'We + V + together'.",
+          "s": "Yes, I like music. We listen to songs together in the car."
+        },
+        {
+          "p": "What sport do you and your friends do?",
+          "m": "1) Nói một môn thể thao. 2) Nói bạn chơi ở đâu.",
+          "h": "Dùng 'We play ...' và 'at/in/on + place'.",
+          "s": "We play basketball. We play at the school court."
+        },
+        {
+          "p": "How much time do you spend on hobbies each week?",
+          "m": "1) Nói số giờ mỗi tuần. 2) Nói bạn có thường rủ bạn bè không.",
+          "h": "Dùng 'I spend ... hours a week' và 'I often/sometimes invite friends'.",
+          "s": "I spend three hours a week on my hobby. I sometimes invite friends to join."
+        }
+      ]
+    },
+    {
+      "t": "Mô tả một người bạn",
+      "e": [
+        {
+          "p": "Can you describe your friend?",
+          "m": "1) Nói một tính từ về tính cách. 2) Nói một tính từ về ngoại hình.",
+          "h": "Dùng 'He/She is + tính từ' cho cả hai câu.",
+          "s": "She is funny. She is pretty and tall."
+        },
+        {
+          "p": "What is your friend wearing now?",
+          "m": "1) Nói một món đồ đang mặc (V-ing). 2) Nói màu hoặc kiểu.",
+          "h": "Dùng 'He/She is wearing ...' và mô tả màu/kiểu ngắn.",
+          "s": "He is wearing a blue shirt. It is simple and comfortable."
+        },
+        {
+          "p": "Does your friend look tired today?",
+          "m": "1) Nói có/không. 2) Nói bạn nghĩ vì sao (reason short).",
+          "h": "Dùng 'Yes/No, he/she looks ...' và 'because ...'.",
+          "s": "Yes, she looks tired. She is busy with work these days."
+        },
+        {
+          "p": "Is your friend friendly with others?",
+          "m": "1) Nói có/không. 2) Nói ví dụ ngắn về hành động thân thiện.",
+          "h": "Dùng 'He/She is friendly' và 'He/She + V(s) to others'.",
+          "s": "Yes, he is friendly. He always helps new students."
+        },
+        {
+          "p": "How does your friend feel now?",
+          "m": "1) Nói cảm xúc hiện tại (happy/sad). 2) Nói lý do ngắn.",
+          "h": "Dùng 'He/She feels ...' và 'because ...'.",
+          "s": "She feels happy now. She is with her good friends."
+        }
+      ]
+    },
+    {
+      "t": "Kế hoạch đi chơi cùng bạn",
+      "e": [
+        {
+          "p": "Do you want to go to the park tomorrow?",
+          "m": "1) Trả lời có/không. 2) Nói một lý do ngắn.",
+          "h": "Dùng 'Yes/No, I want to ...' và 'because ...'.",
+          "s": "Yes, I want to go to the park. It is a nice place to relax."
+        },
+        {
+          "p": "What time shall we meet?",
+          "m": "1) Đề nghị thời gian. 2) Nói nơi gặp.",
+          "h": "Dùng 'Let's meet at ...' và 'at/in/on + place'.",
+          "s": "Let's meet at 3 pm. We can meet at the café near school."
+        },
+        {
+          "p": "Who will come with you?",
+          "m": "1) Nói tên hoặc 'my friend(s)'. 2) Nói số người (if any).",
+          "h": "Dùng 'My friend(s) + V(s)' và 'There are + number'.",
+          "s": "My friends will come with me. There are three people."
+        },
+        {
+          "p": "What will you bring?",
+          "m": "1) Nói một vật bạn mang. 2) Nói vì sao mang vật đó.",
+          "h": "Dùng 'I will bring ...' và 'because ...'.",
+          "s": "I will bring snacks. I bring them to share with friends."
+        },
+        {
+          "p": "Are you going by car or by bus?",
+          "m": "1) Nói phương tiện. 2) Nói thời gian đi hoặc tần suất đi phương tiện đó.",
+          "h": "Dùng 'I will go by ...' và 'I often/sometimes go by ...'.",
+          "s": "I will go by bus. I often take the bus on weekends."
+        }
+      ]
+    },
+    {
+      "t": "Hoạt động buổi tối cùng bạn bè",
+      "e": [
+        {
+          "p": "What are you doing tonight?",
+          "m": "1) Nói kế hoạch tối nay (V-ing). 2) Nói bạn làm cùng ai.",
+          "h": "Dùng 'I am + V-ing' và 'with + person'.",
+          "s": "I am watching a movie tonight. I am with my friends."
+        },
+        {
+          "p": "Do you usually eat out with friends?",
+          "m": "1) Trả lời có/không. 2) Nói tần suất (often/sometimes).",
+          "h": "Dùng 'Yes/No, I usually/often/sometimes ...'.",
+          "s": "Yes, I usually eat out with friends. We often go to a small restaurant."
+        },
+        {
+          "p": "What food do you like to eat together?",
+          "m": "1) Nói một món ăn. 2) Nói bạn có thường chia sẻ không.",
+          "h": "Dùng 'We like to eat ...' và 'We often share ...'.",
+          "s": "We like to eat pizza together. We often share a big pizza."
+        },
+        {
+          "p": "Do your friends like to watch movies?",
+          "m": "1) Nói có/không. 2) Nói thể loại phim họ thích.",
+          "h": "Dùng 'Yes/No, they like ...' và 'They like + genre'.",
+          "s": "Yes, my friends like to watch movies. They like comedy films."
+        },
+        {
+          "p": "Who pays when you eat out?",
+          "m": "1) Nói ai trả tiền. 2) Nói bạn có thường trả cùng nhau không.",
+          "h": "Dùng 'We pay together' hoặc 'He/She pays' và 'We often/sometimes ...'.",
+          "s": "We usually pay together. Sometimes one friend pays for everyone."
+        }
+      ]
+    },
+    {
+      "t": "Thói quen hàng ngày của bạn và bạn bè",
+      "e": [
+        {
+          "p": "What time do you get up every morning?",
+          "m": "1) Nói giờ bạn thức dậy. 2) Nói bạn có rủ bạn bè cùng dậy không (always/often).",
+          "h": "Dùng 'I get up at ...' và 'I often/sometimes ... with my friends'.",
+          "s": "I get up at 6 am every morning. I sometimes wake up early with my friend."
+        },
+        {
+          "p": "Do you and your friends study together?",
+          "m": "1) Trả lời có/không. 2) Nói tần suất (often/sometimes).",
+          "h": "Dùng 'Yes/No, we study together' và 'We often/sometimes ...'.",
+          "s": "Yes, we study together. We often study at the library."
+        },
+        {
+          "p": "What time do you finish school or work?",
+          "m": "1) Nói giờ kết thúc. 2) Nói bạn có thường đi chơi sau đó không.",
+          "h": "Dùng 'I finish at ...' và 'I often/sometimes + V after that'.",
+          "s": "I finish at 4 pm. I often go to the park with friends after school."
+        },
+        {
+          "p": "Do you and your friends exercise?",
+          "m": "1) Nói có/không. 2) Nói khi nào (every morning/weekly).",
+          "h": "Dùng 'Yes/No, we exercise' và 'every ... / once a week'.",
+          "s": "Yes, we exercise together. We exercise every morning at the school yard."
+        },
+        {
+          "p": "How do you go to school or work every day?",
+          "m": "1) Nói phương tiện. 2) Nói bạn có đi cùng bạn bè không.",
+          "h": "Dùng 'I go by ...' và 'I go with + person(s)'.",
+          "s": "I go to school by bike. I go with my best friend."
+        }
+      ]
+    },
+    {
+      "t": "Mời và từ chối lời mời",
+      "e": [
+        {
+          "p": "Would you like to go out tonight?",
+          "m": "1) Trả lời lời mời (yes/no). 2) Nói lý do ngắn hoặc đề nghị khác.",
+          "h": "Dùng 'Yes, I would like to...' hoặc 'No, I can't because ...' và 'How about ...?'.",
+          "s": "Yes, I would like to go out tonight. How about meeting at 7 pm?"
+        },
+        {
+          "p": "Can you come to my party on Sunday?",
+          "m": "1) Trả lời có/không. 2) Nếu không, đưa ra lý do và một ngày khác.",
+          "h": "Dùng 'No, I can't because ...' và 'Let's meet on ...'.",
+          "s": "No, I can't because I have family plans. Let's meet on Saturday instead."
+        },
+        {
+          "p": "Do you want to join our study group?",
+          "m": "1) Trả lời có/không. 2) Nói tần suất bạn có thể tham gia.",
+          "h": "Dùng 'Yes, I want to join and I can ...' hoặc 'No, I am busy ...'.",
+          "s": "Yes, I want to join. I can join twice a week."
+        },
+        {
+          "p": "Will you come with us to the cinema?",
+          "m": "1) Trả lời có/không. 2) Nói bạn có thích loại phim đó không (short reason).",
+          "h": "Dùng 'Yes/No, I will/ won't' và 'I like/don't like ... because ...'.",
+          "s": "Yes, I will come with you. I like that movie because it's funny."
+        },
+        {
+          "p": "How about a coffee after class?",
+          "m": "1) Đưa ra đồng ý hoặc từ chối ngắn. 2) Nói thời gian phù hợp (if agree).",
+          "h": "Dùng 'Okay, let's ... at ...' hoặc 'Sorry, I can't ...'.",
+          "s": "Okay, let's have coffee after class. We can meet at 4 pm."
+        }
+      ]
+    },
+    {
+      "t": "Bạn bè ở trường",
+      "e": [
+        {
+          "p": "How many friends do you have in your class?",
+          "m": "1) Nói số bạn bè. 2) Nói bạn thân nhất trong lớp là ai (1 từ).",
+          "h": "Dùng 'I have ... friends' và 'My best friend is ...'.",
+          "s": "I have five friends in my class. My best friend is Linh."
+        },
+        {
+          "p": "Who sits next to you in class?",
+          "m": "1) Nói tên người ngồi cạnh. 2) Nói họ có hay giúp bạn không.",
+          "h": "Dùng 'He/She sits next to me' và 'He/She often helps me'.",
+          "s": "She sits next to me. She often helps me with homework."
+        },
+        {
+          "p": "Do you and your classmates work on projects together?",
+          "m": "1) Trả lời có/không. 2) Nói tần suất (sometimes/often).",
+          "h": "Dùng 'Yes/No, we work together' và 'We often/sometimes ...'.",
+          "s": "Yes, we work on projects together. We often meet after school."
+        },
+        {
+          "p": "Is there a teacher you like?",
+          "m": "1) Nói có/không. 2) Nói lý do ngắn (kind/good).",
+          "h": "Dùng 'Yes/No, I like ...' và 'because he/she is ...'.",
+          "s": "Yes, I like Mr. Nam. He is kind and helpful."
+        },
+        {
+          "p": "Do you study with your friends at the library?",
+          "m": "1) Trả lời có/không. 2) Nói tần suất và thời gian học (e.g., every week).",
+          "h": "Dùng 'Yes/No, we study there' và 'We often/sometimes ...'.",
+          "s": "Yes, we study at the library. We often go there on weekends."
+        }
+      ]
+    },
+    {
+      "t": "Chuẩn bị cho sinh nhật bạn",
+      "e": [
+        {
+          "p": "When is your friend's birthday?",
+          "m": "1) Nói ngày/tháng đơn giản. 2) Nói bạn có tổ chức không (yes/no).",
+          "h": "Dùng 'His/Her birthday is on ...' và 'Yes/No, I will organize it'.",
+          "s": "Her birthday is on May 10th. Yes, I will organize a small party."
+        },
+        {
+          "p": "What will you buy for the party?",
+          "m": "1) Nói một món quà. 2) Nói lý do chọn món đó.",
+          "h": "Dùng 'I will buy ...' và 'because ...'.",
+          "s": "I will buy a new bag. I choose it because she needs one."
+        },
+        {
+          "p": "Who will help you prepare the party?",
+          "m": "1) Nói một người bạn giúp. 2) Nói họ làm gì để giúp (decorate/cook).",
+          "h": "Dùng 'My friend will help' và 'He/She will + V'.",
+          "s": "My friend Mai will help me. She will decorate the room."
+        },
+        {
+          "p": "Will you cook or buy food?",
+          "m": "1) Nói mua hay nấu. 2) Nói bạn có thường làm bữa tiệc như vậy không (sometimes).",
+          "h": "Dùng 'I will buy/cook' và 'We sometimes ...'.",
+          "s": "I will buy food for the party. We sometimes cook for small events."
+        },
+        {
+          "p": "What time does the party start?",
+          "m": "1) Nói giờ bắt đầu. 2) Nói bạn có đến sớm để giúp không.",
+          "h": "Dùng 'The party starts at ...' và 'I will come early to ...'.",
+          "s": "The party starts at 6 pm. I will come early to help set up."
+        }
+      ]
+    },
+    {
+      "t": "Giúp bạn khi họ có vấn đề",
+      "e": [
+        {
+          "p": "My friend is sad. What can I do?",
+          "m": "1) Nói một việc bạn làm để an ủi. 2) Nói bạn có thể làm cùng họ không.",
+          "h": "Dùng 'I can ...' và 'I will stay with him/her' hoặc 'I will + V with him/her'.",
+          "s": "I can listen to them. I will stay with them until they feel better."
+        },
+        {
+          "p": "A friend has a problem with homework.",
+          "m": "1) Nói bạn có giúp học bài không. 2) Nói cách giúp (explain/practice).",
+          "h": "Dùng 'I help by ...' và 'I explain/practice with them'.",
+          "s": "I help my friend with homework. I explain the lesson and practice together."
+        },
+        {
+          "p": "Your friend is sick. Can you visit?",
+          "m": "1) Trả lời có/không. 2) Nói bạn sẽ làm gì khi đến thăm.",
+          "h": "Dùng 'Yes/No, I can visit' và 'I will bring ... / I will help ...'.",
+          "s": "Yes, I can visit. I will bring some soup and help them rest."
+        },
+        {
+          "p": "Do you give advice to your friends?",
+          "m": "1) Trả lời có/không. 2) Nói bạn thường nói gì ngắn (try/stay calm).",
+          "h": "Dùng 'Yes/No, I give advice' và 'I say ...'.",
+          "s": "Yes, I give advice to my friends. I tell them to stay calm and try again."
+        },
+        {
+          "p": "How do you feel when your friend is happy again?",
+          "m": "1) Nói cảm xúc của bạn. 2) Nói bạn làm gì để chúc mừng họ.",
+          "h": "Dùng 'I feel ...' và 'I + V to celebrate'.",
+          "s": "I feel very happy. I take them out for a small treat."
+        }
+      ]
+    },
+    {
+      "t": "Lên kế hoạch cuối tuần",
+      "e": [
+        {
+          "p": "What are your plans for the weekend?",
+          "m": "1) Nói một hoạt động. 2) Nói bạn có đi cùng ai không.",
+          "h": "Dùng 'I will ...' và 'I will go with ...'.",
+          "s": "I will visit the park this weekend. I will go with my friends."
+        },
+        {
+          "p": "Shall we meet on Sunday morning?",
+          "m": "1) Trả lời có/không. 2) Nếu đồng ý, nêu thời gian cụ thể.",
+          "h": "Dùng 'Yes, let's meet at ...' hoặc 'No, I can't because ...'.",
+          "s": "Yes, let's meet at 9 am on Sunday. That time is good for me."
+        },
+        {
+          "p": "Do you prefer a small trip or stay at home?",
+          "m": "1) Nói sở thích của bạn. 2) Nói lý do ngắn.",
+          "h": "Dùng 'I prefer ...' và 'because ...'.",
+          "s": "I prefer a small trip. I like to see new places and relax."
+        },
+        {
+          "p": "Can you bring snacks for our trip?",
+          "m": "1) Trả lời có/không. 2) Nói bạn sẽ mang cái gì.",
+          "h": "Dùng 'Yes/No, I can bring ...' và liệt kê ngắn.",
+          "s": "Yes, I can bring snacks. I will bring fruits and sandwiches."
+        },
+        {
+          "p": "How will we go there?",
+          "m": "1) Nói phương tiện. 2) Nói thời gian đi (e.g., in the morning).",
+          "h": "Dùng 'We will go by ...' và 'in the morning/afternoon'.",
+          "s": "We will go by train. We will go in the morning."
+        }
+      ]
+    },
+    {
+      "t": "Ôn tập: Gặp gỡ và sở thích",
+      "e": [
+        {
+          "p": "Hello, tell me about yourself and your hobbies.",
+          "m": "1) Nói tên và nơi bạn sống. 2) Nói một sở thích và tần suất bạn làm nó.",
+          "h": "Dùng 'My name is ...', 'I live in ...', 'I like to ...', 'I often/sometimes ...'.",
+          "s": "My name is [studentName]. I live in [studentCity]. I like to play guitar. I often practice with my friends."
+        },
+        {
+          "p": "Who is your best friend and what do you do together?",
+          "m": "1) Nói tên bạn thân. 2) Nói một hoạt động bạn làm cùng nhau và tần suất.",
+          "h": "Dùng 'My best friend is ...' và 'We + V + often/sometimes'.",
+          "s": "My best friend is An. We study and play football together. We often meet after school."
+        },
+        {
+          "p": "Do you like sports or music more?",
+          "m": "1) Chọn một (sports/music). 2) Nói hoạt động cụ thể và bạn có thường làm với bạn bè không.",
+          "h": "Dùng 'I prefer ...' và 'I + V with my friends'.",
+          "s": "I prefer music more. I like singing with friends. We sometimes go to music class."
+        },
+        {
+          "p": "Where do you meet your friends usually?",
+          "m": "1) Nói một địa điểm (school/café/park). 2) Nói tần suất gặp ở đó.",
+          "h": "Dùng 'We meet at ...' và 'We often/sometimes meet there'.",
+          "s": "We meet at the café near school. We often meet there after class."
+        },
+        {
+          "p": "How many friends do you play sports with?",
+          "m": "1) Nói số người. 2) Nói bao lâu một lần các bạn chơi (weekly).",
+          "h": "Dùng 'There are ...' và 'We + V once a week / every week'.",
+          "s": "There are four friends I play sports with. We play every weekend."
+        }
+      ]
+    },
+    {
+      "t": "Ôn tập: Kế hoạch và thói quen",
+      "e": [
+        {
+          "p": "We plan to go to the beach. Can you join?",
+          "m": "1) Trả lời có/không. 2) Nêu thời gian bạn rảnh hoặc không rảnh.",
+          "h": "Dùng 'Yes/No, I can/can't' và 'I am free at ...' hoặc 'I am busy'.",
+          "s": "Yes, I can join. I am free on Saturday morning."
+        },
+        {
+          "p": "What do you usually do after school with friends?",
+          "m": "1) Nói một hoạt động. 2) Nói tần suất (often/sometimes).",
+          "h": "Dùng 'We usually ...' và 'We often/sometimes ...'.",
+          "s": "We usually go to the library. We sometimes go to the café too."
+        },
+        {
+          "p": "Let's meet and study. Is that ok?",
+          "m": "1) Trả lời đồng ý hay không. 2) Nói nơi và thời gian gặp nếu đồng ý.",
+          "h": "Dùng 'Okay, let's meet at ...' và 'at ...' để nói giờ.",
+          "s": "Okay, let's meet at the library. We can meet at 5 pm."
+        },
+        {
+          "p": "Do you often help your friends with homework?",
+          "m": "1) Trả lời có/không. 2) Nói bạn giúp như thế nào (explain/practice).",
+          "h": "Dùng 'Yes/No, I often/sometimes ...' và 'I explain/practice with them'.",
+          "s": "Yes, I often help my friends. I explain tasks and we practice together."
+        },
+        {
+          "p": "Are you busy this weekend?",
+          "m": "1) Trả lời có/không. 2) Nói kế hoạch nếu bận hoặc rảnh làm gì nếu không bận.",
+          "h": "Dùng 'Yes, I am busy because ...' hoặc 'No, I am free. I will ...'.",
+          "s": "No, I am free this weekend. I will visit my friend and relax."
+        }
+      ]
+    },
+    {
+      "t": "Ôn tập: Mối quan hệ và hỗ trợ",
+      "e": [
+        {
+          "p": "My friend needs help with a project. Can you assist?",
+          "m": "1) Trả lời có/không. 2) Nói bạn sẽ làm gì để giúp (one action).",
+          "h": "Dùng 'Yes/No, I can ...' và 'I will ... with him/her'.",
+          "s": "Yes, I can help. I will explain the project and work with them."
+        },
+        {
+          "p": "A friend is moving to a new house. What can you do?",
+          "m": "1) Nói một việc bạn làm để giúp. 2) Nói bạn có đi cùng họ không (yes/no).",
+          "h": "Dùng 'I can ...' và 'I will go with him/her' hoặc 'I can't go but ...'.",
+          "s": "I can help carry boxes. I will go with them on the moving day."
+        },
+        {
+          "p": "Do you agree to share study notes with friends?",
+          "m": "1) Trả lời có/không. 2) Nói tần suất bạn chia sẻ (often/sometimes).",
+          "h": "Dùng 'Yes/No, I share notes' và 'I often/sometimes ...'.",
+          "s": "Yes, I agree to share my notes. I often share them after class."
+        },
+        {
+          "p": "How do you cheer up a friend who is tired?",
+          "m": "1) Nói một hành động để làm họ vui. 2) Nói bạn có làm cùng họ không.",
+          "h": "Dùng 'I make them ...' và 'I do it with them' hoặc 'I do it alone'.",
+          "s": "I make them laugh with a joke. I do it together with other friends."
+        },
+        {
+          "p": "Your friend thanks you. How do you reply?",
+          "m": "1) Nói câu trả lời ngắn (You are welcome/No problem). 2) Nói bạn có muốn giúp nữa không.",
+          "h": "Dùng 'You are welcome/No problem.' và 'I can help again.'",
+          "s": "You are welcome. I can help again if you need me."
+        }
+      ]
+    }
+  ]
+}

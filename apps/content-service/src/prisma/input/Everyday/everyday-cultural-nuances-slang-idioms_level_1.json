@@ -1,0 +1,530 @@
+{
+  "l": 1,
+  "d": [
+    {
+      "t": "Gặp gỡ: Nói về từ lóng",
+      "e": [
+        {
+          "p": "Do you use the word 'cool'?",
+          "m": "Nói 'Yes' hoặc 'No' nếu bạn dùng từ này.",
+          "h": "Yes/No + I use / I don't use",
+          "s": "Yes, I use the word cool."
+        },
+        {
+          "p": "What does 'cool' mean here?",
+          "m": "Nói một nghĩa đơn giản cho 'cool'.",
+          "h": "It means + adjective/noun",
+          "s": "It means good."
+        },
+        {
+          "p": "Is 'cool' a polite word?",
+          "m": "Trả lời 'Yes' hoặc 'No' cho tính lịch sự.",
+          "h": "Yes/No + it is / it is not",
+          "s": "No, it is not very formal."
+        },
+        {
+          "p": "Who says 'cool' more, kids or adults?",
+          "m": "Nói 'kids' hoặc 'adults'.",
+          "h": "Say one word: kids / adults",
+          "s": "Kids say it more."
+        },
+        {
+          "p": "Can you teach me one slang word?",
+          "m": "Viết một từ lóng ngắn bạn biết.",
+          "h": "One short word",
+          "s": "Cool is a simple slang word."
+        }
+      ]
+    },
+    {
+      "t": "Hỏi nghĩa một từ",
+      "e": [
+        {
+          "p": "What does 'mate' mean?",
+          "m": "Nói một nghĩa ngắn cho 'mate'.",
+          "h": "It means + noun",
+          "s": "It means friend."
+        },
+        {
+          "p": "Is 'mate' only for men?",
+          "m": "Trả lời 'Yes' hoặc 'No'.",
+          "h": "Yes/No + it is / it is not",
+          "s": "No, it is not only for men."
+        },
+        {
+          "p": "Do people say 'mate' at school?",
+          "m": "Nói 'Yes' hoặc 'No' nếu bạn thấy đúng.",
+          "h": "Yes/No + people say / people do not say",
+          "s": "Yes, people say it at school."
+        },
+        {
+          "p": "How do you use 'mate' in one sentence?",
+          "m": "Viết một câu đơn dùng từ 'mate'.",
+          "h": "Use 'I' or 'You' + verb + mate",
+          "s": "I call my friend mate."
+        },
+        {
+          "p": "Is 'mate' formal or informal?",
+          "m": "Nói 'formal' hoặc 'informal'.",
+          "h": "One word: formal / informal",
+          "s": "It is informal."
+        }
+      ]
+    },
+    {
+      "t": "Xin làm rõ cách dùng",
+      "e": [
+        {
+          "p": "Do you understand this slang word?",
+          "m": "Nói 'Yes' hoặc 'No' nếu bạn hiểu.",
+          "h": "Yes/No + I understand / I do not understand",
+          "s": "No, I do not understand."
+        },
+        {
+          "p": "Can you say it again slowly?",
+          "m": "Trả lời 'Yes' hoặc 'No' nếu bạn có thể lặp lại.",
+          "h": "Yes/No + I can / I cannot",
+          "s": "Yes, I can say it again slowly."
+        },
+        {
+          "p": "Do you want a simple word instead?",
+          "m": "Nói 'Yes' hoặc 'No' nếu bạn muốn từ đơn giản.",
+          "h": "Yes/No + I want / I don't want",
+          "s": "Yes, I want a simple word."
+        },
+        {
+          "p": "Is the word easy to say?",
+          "m": "Trả lời 'Yes' hoặc 'No' theo ý bạn.",
+          "h": "Yes/No + it is / it is not",
+          "s": "Yes, it is easy to say."
+        },
+        {
+          "p": "Do you know a similar simple word?",
+          "m": "Viết một từ đơn giản tương tự.",
+          "h": "One simple word",
+          "s": "Good is a similar simple word."
+        }
+      ]
+    },
+    {
+      "t": "Nói bạn có dùng từ lóng không",
+      "e": [
+        {
+          "p": "Do you use slang with your friends?",
+          "m": "Nói 'Yes' hoặc 'No'.",
+          "h": "Yes/No + I use / I don't use",
+          "s": "Yes, I use slang with my friends."
+        },
+        {
+          "p": "When do you use slang?",
+          "m": "Nói một nơi hoặc thời điểm ngắn (ví dụ: at school, at home).",
+          "h": "Use 'at' + place or time",
+          "s": "I use slang at home."
+        },
+        {
+          "p": "Do your parents like slang?",
+          "m": "Nói 'Yes' hoặc 'No'.",
+          "h": "Yes/No + they like / they do not like",
+          "s": "No, they do not like slang."
+        },
+        {
+          "p": "Do you use slang in class?",
+          "m": "Trả lời 'Yes' hoặc 'No'.",
+          "h": "Yes/No + I use / I don't use",
+          "s": "No, I do not use slang in class."
+        },
+        {
+          "p": "Who do you teach a slang word to?",
+          "m": "Nói một người bạn hoặc gia đình ngắn gọn.",
+          "h": "My friend / my brother",
+          "s": "I teach it to my friend."
+        }
+      ]
+    },
+    {
+      "t": "Ở trường: Từ lóng trẻ em",
+      "e": [
+        {
+          "p": "Do kids say 'wow' at school?",
+          "m": "Nói 'Yes' hoặc 'No'.",
+          "h": "Yes/No + kids say / kids do not say",
+          "s": "Yes, kids say wow at school."
+        },
+        {
+          "p": "Is 'wow' a happy word?",
+          "m": "Trả lời 'Yes' hoặc 'No'.",
+          "h": "Yes/No + it is / it is not",
+          "s": "Yes, it is a happy word."
+        },
+        {
+          "p": "Do teachers use 'wow' in class?",
+          "m": "Nói 'Yes' hoặc 'No'.",
+          "h": "Yes/No + teachers use / teachers do not use",
+          "s": "No, teachers do not use it much."
+        },
+        {
+          "p": "Can you say 'wow' now?",
+          "m": "Viết một câu ngắn có 'wow'.",
+          "h": "Use 'wow' in one short sentence",
+          "s": "Wow, this is good."
+        },
+        {
+          "p": "Is 'wow' used to show surprise?",
+          "m": "Trả lời 'Yes' hoặc 'No'.",
+          "h": "Yes/No + it shows + noun",
+          "s": "Yes, it shows surprise."
+        }
+      ]
+    },
+    {
+      "t": "Nơi làm việc: Lời nói lịch sự",
+      "e": [
+        {
+          "p": "Do people use slang at work?",
+          "m": "Nói 'Yes' hoặc 'No' nếu bạn thấy đúng.",
+          "h": "Yes/No + people use / people do not use",
+          "s": "No, people do not use slang at work."
+        },
+        {
+          "p": "Is formal speech better at the office?",
+          "m": "Trả lời 'Yes' hoặc 'No'.",
+          "h": "Yes/No + it is / it is not",
+          "s": "Yes, formal speech is better at the office."
+        },
+        {
+          "p": "Do you say 'thanks' or a slang word?",
+          "m": "Nói bạn dùng 'thanks' hay từ lóng.",
+          "h": "Use one word: thanks / slang",
+          "s": "I use thanks."
+        },
+        {
+          "p": "Can you teach a polite phrase?",
+          "m": "Viết một cụm từ lịch sự ngắn.",
+          "h": "One short phrase",
+          "s": "Please, may I help?"
+        },
+        {
+          "p": "Do you feel good when people are polite?",
+          "m": "Trả lời 'Yes' hoặc 'No'.",
+          "h": "Yes/No + I feel + adjective",
+          "s": "Yes, I feel good."
+        }
+      ]
+    },
+    {
+      "t": "Trò chuyện trên mạng",
+      "e": [
+        {
+          "p": "Do you use short words online?",
+          "m": "Nói 'Yes' hoặc 'No'.",
+          "h": "Yes/No + I use / I don't use",
+          "s": "Yes, I use short words online."
+        },
+        {
+          "p": "Do you use emoji when you chat?",
+          "m": "Trả lời 'Yes' hoặc 'No'.",
+          "h": "Yes/No + I use / I don't use",
+          "s": "Yes, I use emoji when I chat."
+        },
+        {
+          "p": "Is online slang easy to learn?",
+          "m": "Nói 'Yes' hoặc 'No'.",
+          "h": "Yes/No + it is / it is not",
+          "s": "Yes, it is easy to learn."
+        },
+        {
+          "p": "Do you say 'lol' or 'haha'?",
+          "m": "Chọn một trong hai để trả lời.",
+          "h": "One short option: lol / haha",
+          "s": "I say haha."
+        },
+        {
+          "p": "Do you use slang in a message to a teacher?",
+          "m": "Nói 'Yes' hoặc 'No'.",
+          "h": "Yes/No + I use / I don't use",
+          "s": "No, I do not use slang to a teacher."
+        }
+      ]
+    },
+    {
+      "t": "Bạn bè bình luận về ngôn ngữ",
+      "e": [
+        {
+          "p": "Does your friend use many slang words?",
+          "m": "Nói 'Yes' hoặc 'No'.",
+          "h": "Yes/No + my friend uses / does not use",
+          "s": "Yes, my friend uses many slang words."
+        },
+        {
+          "p": "Do you like your friend's words?",
+          "m": "Trả lời 'Yes' hoặc 'No'.",
+          "h": "Yes/No + I like / I don't like",
+          "s": "Yes, I like my friend's words."
+        },
+        {
+          "p": "Do you laugh when a friend uses slang?",
+          "m": "Nói 'Yes' hoặc 'No'.",
+          "h": "Yes/No + I laugh / I do not laugh",
+          "s": "Yes, I laugh when my friend uses slang."
+        },
+        {
+          "p": "Do you tell a friend a new slang word?",
+          "m": "Nói 'Yes' hoặc 'No'.",
+          "h": "Yes/No + I tell / I do not tell",
+          "s": "Yes, I tell my friend a new word."
+        },
+        {
+          "p": "Is your friend happy with slang learning?",
+          "m": "Trả lời 'Yes' hoặc 'No'.",
+          "h": "Yes/No + they are / they are not",
+          "s": "Yes, they are happy."
+        }
+      ]
+    },
+    {
+      "t": "Khen ai đó bằng lời lóng",
+      "e": [
+        {
+          "p": "Can you say 'Nice' to a friend?",
+          "m": "Trả lời 'Yes' hoặc 'No'.",
+          "h": "Yes/No + I can / I cannot",
+          "s": "Yes, I can say nice to a friend."
+        },
+        {
+          "p": "Do you say 'Nice job' after help?",
+          "m": "Nói 'Yes' hoặc 'No'.",
+          "h": "Yes/No + I say / I don't say",
+          "s": "Yes, I say nice job after help."
+        },
+        {
+          "p": "Is 'nice' a friendly word?",
+          "m": "Trả lời 'Yes' hoặc 'No'.",
+          "h": "Yes/No + it is / it is not",
+          "s": "Yes, it is a friendly word."
+        },
+        {
+          "p": "Who do you say 'nice' to?",
+          "m": "Nói một người ngắn (ví dụ: friend).",
+          "h": "One noun: friend / teacher",
+          "s": "I say it to my friend."
+        },
+        {
+          "p": "Do you use 'nice' online or face to face?",
+          "m": "Nói một nơi: online hoặc face to face.",
+          "h": "One short place",
+          "s": "I use it online."
+        }
+      ]
+    },
+    {
+      "t": "Khi ai đó dùng từ thô lỗ",
+      "e": [
+        {
+          "p": "Do you hear rude words sometimes?",
+          "m": "Nói 'Yes' hoặc 'No'.",
+          "h": "Yes/No + I hear / I do not hear",
+          "s": "Yes, I hear rude words sometimes."
+        },
+        {
+          "p": "Do you feel bad when someone is rude?",
+          "m": "Trả lời 'Yes' hoặc 'No'.",
+          "h": "Yes/No + I feel + adjective",
+          "s": "Yes, I feel sad."
+        },
+        {
+          "p": "Do you tell them to stop?",
+          "m": "Nói 'Yes' hoặc 'No'.",
+          "h": "Yes/No + I tell / I do not tell",
+          "s": "No, I do not tell them to stop."
+        },
+        {
+          "p": "Is it okay to use rude words at home?",
+          "m": "Trả lời 'Yes' hoặc 'No'.",
+          "h": "Yes/No + it is / it is not",
+          "s": "No, it is not okay at home."
+        },
+        {
+          "p": "Who uses rude words more, friends or strangers?",
+          "m": "Chọn 'friends' hoặc 'strangers'.",
+          "h": "One word: friends / strangers",
+          "s": "Strangers use them more."
+        }
+      ]
+    },
+    {
+      "t": "Hỏi cách nói thân mật",
+      "e": [
+        {
+          "p": "Do you call your friend by a short name?",
+          "m": "Nói 'Yes' hoặc 'No'.",
+          "h": "Yes/No + I call / I do not call",
+          "s": "Yes, I call my friend by a short name."
+        },
+        {
+          "p": "Do you use a pet name for family?",
+          "m": "Trả lời 'Yes' hoặc 'No'.",
+          "h": "Yes/No + I use / I don't use",
+          "s": "No, I do not use a pet name for family."
+        },
+        {
+          "p": "Is short name a slang?",
+          "m": "Trả lời 'Yes' hoặc 'No'.",
+          "h": "Yes/No + it is / it is not",
+          "s": "No, it is not slang."
+        },
+        {
+          "p": "Do you like when people use short names?",
+          "m": "Nói 'Yes' hoặc 'No'.",
+          "h": "Yes/No + I like / I don't like",
+          "s": "Yes, I like it."
+        },
+        {
+          "p": "Who do you call by short name?",
+          "m": "Nói một người ngắn gọn.",
+          "h": "One noun: my friend / my brother",
+          "s": "I call my friend by a short name."
+        }
+      ]
+    },
+    {
+      "t": "Nói bạn không hiểu và cần lặp lại",
+      "e": [
+        {
+          "p": "I used a new slang word. Do you understand?",
+          "m": "Nói 'Yes' hoặc 'No'.",
+          "h": "Yes/No + I understand / I do not understand",
+          "s": "No, I do not understand."
+        },
+        {
+          "p": "Can you say it again slowly?",
+          "m": "Trả lời 'Yes' hoặc 'No'.",
+          "h": "Yes/No + I can / I cannot",
+          "s": "Yes, I can say it again slowly."
+        },
+        {
+          "p": "Do you want a simple word?",
+          "m": "Nói 'Yes' hoặc 'No'.",
+          "h": "Yes/No + I want / I don't want",
+          "s": "Yes, I want a simple word."
+        },
+        {
+          "p": "Is the word hard to say?",
+          "m": "Trả lời 'Yes' hoặc 'No'.",
+          "h": "Yes/No + it is / it is not",
+          "s": "Yes, it is hard to say."
+        },
+        {
+          "p": "Please write one simple word for me.",
+          "m": "Viết một từ đơn giản thay cho từ mới.",
+          "h": "One simple word",
+          "s": "Good is a simple word."
+        }
+      ]
+    },
+    {
+      "t": "Ôn tập: Giao tiếp đơn giản về từ lóng",
+      "e": [
+        {
+          "p": "Do you know the slang 'cool' and 'mate'?",
+          "m": "Nói 'Yes' hoặc 'No' nếu bạn biết cả hai.",
+          "h": "Yes/No + I know / I don't know",
+          "s": "Yes, I know both words."
+        },
+        {
+          "p": "Do you use slang with friends and not with teachers?",
+          "m": "Trả lời 'Yes' hoặc 'No'.",
+          "h": "Yes/No + I use / I don't use",
+          "s": "Yes, I use slang with friends and not with teachers."
+        },
+        {
+          "p": "Is 'cool' a happy or sad word?",
+          "m": "Chọn 'happy' hoặc 'sad'.",
+          "h": "One word: happy / sad",
+          "s": "It is a happy word."
+        },
+        {
+          "p": "Do you feel good when people are polite online?",
+          "m": "Trả lời 'Yes' hoặc 'No'.",
+          "h": "Yes/No + I feel + adjective",
+          "s": "Yes, I feel good."
+        },
+        {
+          "p": "Who do you teach slang to, friend or stranger?",
+          "m": "Chọn 'friend' hoặc 'stranger'.",
+          "h": "One word: friend / stranger",
+          "s": "I teach slang to my friend."
+        }
+      ]
+    },
+    {
+      "t": "Ôn tập: Lịch sự và không lịch sự",
+      "e": [
+        {
+          "p": "Is a polite word better at work?",
+          "m": "Nói 'Yes' hoặc 'No'.",
+          "h": "Yes/No + it is / it is not",
+          "s": "Yes, a polite word is better at work."
+        },
+        {
+          "p": "Do you say 'please' and 'thanks' here?",
+          "m": "Nói 'Yes' hoặc 'No'.",
+          "h": "Yes/No + I say / I don't say",
+          "s": "Yes, I say please and thanks here."
+        },
+        {
+          "p": "Do rude words make you sad?",
+          "m": "Trả lời 'Yes' hoặc 'No'.",
+          "h": "Yes/No + I feel + adjective",
+          "s": "Yes, they make me sad."
+        },
+        {
+          "p": "Can you use polite phrase with a teacher?",
+          "m": "Trả lời 'Yes' hoặc 'No'.",
+          "h": "Yes/No + I can / I cannot",
+          "s": "Yes, I can use a polite phrase."
+        },
+        {
+          "p": "Do you stop someone who is rude to you?",
+          "m": "Nói 'Yes' hoặc 'No'.",
+          "h": "Yes/No + I stop / I do not stop",
+          "s": "No, I do not stop them."
+        }
+      ]
+    },
+    {
+      "t": "Ôn tập: Trò chuyện hàng ngày",
+      "e": [
+        {
+          "p": "Do you use short words and emoji with friends?",
+          "m": "Nói 'Yes' hoặc 'No'.",
+          "h": "Yes/No + I use / I don't use",
+          "s": "Yes, I use short words and emoji with friends."
+        },
+        {
+          "p": "Do you teach a simple slang word to a friend now?",
+          "m": "Trả lời 'Yes' hoặc 'No'.",
+          "h": "Yes/No + I teach / I do not teach",
+          "s": "Yes, I teach a simple slang word now."
+        },
+        {
+          "p": "Is 'good' a simple word to use for praise?",
+          "m": "Trả lời 'Yes' hoặc 'No'.",
+          "h": "Yes/No + it is / it is not",
+          "s": "Yes, it is a simple word for praise."
+        },
+        {
+          "p": "Do you use slang more at home or at school?",
+          "m": "Chọn 'home' hoặc 'school'.",
+          "h": "One word: home / school",
+          "s": "I use slang more at home."
+        },
+        {
+          "p": "Do you understand new slang when a friend says it?",
+          "m": "Nói 'Yes' hoặc 'No'.",
+          "h": "Yes/No + I understand / I do not understand",
+          "s": "Yes, I understand new slang from a friend."
+        }
+      ]
+    }
+  ]
+}

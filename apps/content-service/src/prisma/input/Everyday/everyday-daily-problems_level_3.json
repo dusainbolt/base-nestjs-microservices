@@ -1,0 +1,530 @@
+{
+  "l": 3,
+  "d": [
+    {
+      "t": "Gặp người mới ở quán cà phê",
+      "e": [
+        {
+          "p": "Hi, what's your name?",
+          "m": "Nói tên của bạn.\nNói bạn đến từ đâu.\nNói một sở thích ngắn.",
+          "h": "Present Simple; dùng [studentName] và [studentCity] nếu cần.",
+          "s": "My name is [studentName]. I'm from [studentCity]. I like reading."
+        },
+        {
+          "p": "Are you visiting this city?",
+          "m": "Nói bạn đang sống hay chỉ thăm.\nNói khi bạn đến (Past Simple).\nNói một kế hoạch cho ngày mai (will/going to).",
+          "h": "Past Simple + will/going to.",
+          "s": "I'm visiting for a week. I arrived two days ago. I will see the museum tomorrow."
+        },
+        {
+          "p": "What do you do for work?",
+          "m": "Nói nghề nghiệp hiện tại.\nNói một việc bạn làm mỗi ngày.\nNói bạn có thích công việc không và vì sao (because).",
+          "h": "Present Simple + because.",
+          "s": "I work as a chef. I cook for a small restaurant every day. I like it because I enjoy making food."
+        },
+        {
+          "p": "Do you come here often?",
+          "m": "Nói tần suất bạn đến quán (Present Simple).\nNói lý do bạn đến thường xuyên hoặc không.\nSo sánh quán này với nơi khác (comparative).",
+          "h": "Present Simple; hơn + comparative (more ... than).",
+          "s": "I come here twice a week. I come because the coffee is quiet. This cafe is more comfortable than the one near my home."
+        },
+        {
+          "p": "Oh no, I spilled my drink. Can you help?",
+          "m": "Nói bạn đã làm gì ngay trước đó (Past Simple).\nĐưa một lời khuyên ngắn (should).\nNói bạn sẽ làm gì để giúp (will).",
+          "h": "Past Simple + should + will.",
+          "s": "I just knocked it with my bag. You should wipe it with a napkin. I will get some water to clean the table."
+        }
+      ]
+    },
+    {
+      "t": "Nói về một buổi sáng tồi tệ",
+      "e": [
+        {
+          "p": "You look tired. What happened this morning?",
+          "m": "Mô tả ngắn điều đã xảy ra (Past Simple).\nNói cảm xúc hiện tại.\nNói bạn sẽ làm gì để cải thiện (will/going to).",
+          "h": "Past Simple; use will/going to.",
+          "s": "My alarm didn't ring this morning. I'm really tired now. I will drink coffee and rest later."
+        },
+        {
+          "p": "Did you miss the bus?",
+          "m": "Trả lời có/không và giải thích bằng Past Simple.\nNói bạn đã làm gì sau đó.\nNói một điều bạn sẽ làm khác lần sau (should/going to).",
+          "h": "Past Simple + should/going to.",
+          "s": "Yes, I missed the bus because I woke up late. I took a taxi to work. Next time I will set two alarms."
+        },
+        {
+          "p": "Was your breakfast ok?",
+          "m": "Nói bạn đã ăn gì (Past Simple).\nNói nếu bữa ăn ngon hay không.\nNói bạn sẽ ăn gì tối nay (will/going to).",
+          "h": "Past Simple; future will/going to.",
+          "s": "I had toast and eggs this morning. It was not very good because the eggs were cold. I am going to cook soup for dinner."
+        },
+        {
+          "p": "Is your phone fine now?",
+          "m": "Nói ngắn tình trạng trước (Past Simple).\nNói tình trạng hiện tại.\nĐề xuất một việc cần làm (should/must).",
+          "h": "Past Simple + Present Simple + should/must.",
+          "s": "My phone fell and the screen cracked. Now it's working but slow. I should buy a new screen soon."
+        },
+        {
+          "p": "Do you want help with anything today?",
+          "m": "Nói một việc bạn cần giúp (Present Simple).\nNói lý do bạn cần giúp (because).\nNói bạn sẽ làm gì nếu không có ai giúp (will/compound sentence).",
+          "h": "Present Simple + because + will; use and/but/so.",
+          "s": "I need help with my report today because the deadline is close. If no one helps, I will stay late and finish it. It's stressful but I can manage."
+        }
+      ]
+    },
+    {
+      "t": "Mua đồ ở chợ",
+      "e": [
+        {
+          "p": "How much is this fruit?",
+          "m": "Nói giá hoặc khoảng giá.\nNói bạn có muốn mua không.\nNói số lượng bạn muốn mua (use comparatives if needed).",
+          "h": "Present Simple; use numbers and comparatives (more/less).",
+          "s": "The fruit costs three dollars per kilo. I want to buy some. I will take one kilo because it's less than last time."
+        },
+        {
+          "p": "Can I try it before buying?",
+          "m": "Trả lời có/không.\nNói bạn đã thử cái gì (Past Simple) hoặc sẽ thử.\nNói cảm nhận ngắn về đồ thử (good/bad).",
+          "h": "Use Past Simple or will + adjective.",
+          "s": "Yes, please try the mango. I tried a sample earlier and it was sweet. It tasted better than I expected."
+        },
+        {
+          "p": "Do you accept card or cash?",
+          "m": "Nói cách bạn sẽ trả (cash/card).\nNói nếu bạn cần thay đổi tiền (have to).\nNói một câu yêu cầu ngắn (compound sentence).",
+          "h": "Present Simple; use have to and compound sentence with and/but.",
+          "s": "I will pay by card. If they don't accept it, I have to get cash from the ATM. Please tell me if you need exact change."
+        },
+        {
+          "p": "I think this is expensive.",
+          "m": "Nói bạn có đồng ý hay không.\nSo sánh giá với nơi khác (comparative).\nĐề nghị thương lượng hoặc chọn hàng khác (should/offer).",
+          "h": "Use comparative and should.",
+          "s": "I agree that it's expensive. It's more expensive than the supermarket near my home. You should ask for a small discount or choose a cheaper one."
+        },
+        {
+          "p": "Can you carry these bags to my car?",
+          "m": "Nói bạn có thể giúp hay không.\nNói bạn đã làm gì trước đó (Past Simple) hoặc sẽ làm (will).\nKết luận ngắn về cảm ơn hoặc điều tiếp theo.",
+          "h": "Past Simple or will + polite phrase.",
+          "s": "Yes, I can help carry them. I moved the small boxes earlier and I will bring the bags now. Thank you, I will follow you."
+        }
+      ]
+    },
+    {
+      "t": "Một ngày làm việc tại văn phòng",
+      "e": [
+        {
+          "p": "What time did you start work today?",
+          "m": "Nói thời gian bạn bắt đầu (Past Simple).\nNói bạn làm gì đầu tiên.\nNói cảm giác hiện tại (tired/ok).",
+          "h": "Past Simple; short Present Simple sentence for feeling.",
+          "s": "I started work at eight this morning. I checked my emails first. I'm a bit tired now."
+        },
+        {
+          "p": "Do you have a meeting this afternoon?",
+          "m": "Nói có hay không.\nNói khi cuộc họp diễn ra và với ai.\nNói bạn sẽ chuẩn bị gì (will/going to).",
+          "h": "Present Simple + will/going to.",
+          "s": "Yes, I have a meeting at three. It's with my manager and the team. I am going to prepare the report before then."
+        },
+        {
+          "p": "The printer is not working.",
+          "m": "Mô tả ngắn bạn đã thử làm gì (Past Simple).\nĐưa lời khuyên ngắn (should/must).\nNói bạn sẽ làm gì tiếp theo (will).",
+          "h": "Past Simple + should + will.",
+          "s": "I tried to turn it off and on but it still failed. You should check the paper and cables. I will call IT to fix it."
+        },
+        {
+          "p": "Can you finish this task by tomorrow?",
+          "m": "Trả lời có/không và nêu lý do.\nNói bạn sẽ cần bao lâu (use comparatives if compare time).\nNói điều bạn phải làm để hoàn thành (have to/compound).",
+          "h": "Use will/have to and comparatives like faster/slower.",
+          "s": "I can finish it by tomorrow because I have time tonight. It will take about two hours, which is faster than the last task. I have to focus and avoid interruptions."
+        },
+        {
+          "p": "There is a new project coming next week.",
+          "m": "Nói bạn biết thông tin hay không.\nNói bạn sẽ chuẩn bị gì (going to).\nNói bạn nghĩ nhóm sẽ tốt hay gặp vấn đề và lý do ngắn (because).",
+          "h": "Present Simple + going to + because.",
+          "s": "I knew about the project from the email. I'm going to read the plan this evening. I think the team will do well because everyone is experienced."
+        }
+      ]
+    },
+    {
+      "t": "Lên kế hoạch cuối tuần",
+      "e": [
+        {
+          "p": "Do you have any plans for the weekend?",
+          "m": "Nói có hay không.\nNói bạn sẽ làm gì chính (will/going to).\nNói bạn có mời ai không hoặc đi một mình.",
+          "h": "Use will/going to and Present Simple for invitations.",
+          "s": "Yes, I have plans. I am going to visit the beach on Saturday. I will go with my friend."
+        },
+        {
+          "p": "Would you like to join a trip to the mountain?",
+          "m": "Trả lời có/không.\nNói lý do bạn tham gia hoặc từ chối (because).\nNói một việc bạn sẽ làm nếu đi (prepare/have to).",
+          "h": "Use will/should/have to and because.",
+          "s": "I would like to join because I love hiking. I will prepare warm clothes and food. I have to check my schedule first."
+        },
+        {
+          "p": "The weather forecast says rain on Sunday.",
+          "m": "Nói bạn sẽ làm gì nếu mưa (will/going to).\nSo sánh hai lựa chọn nếu cần (better/worse).\nNói quyết định cuối cùng ngắn.",
+          "h": "Use will and comparative (better than/worse than).",
+          "s": "If it rains, I will stay at home and read. Staying inside is better than getting wet. So I will plan an indoor activity."
+        },
+        {
+          "p": "Can you book the tickets for the trip?",
+          "m": "Nói bạn có thể làm việc này hay không.\nNói bạn đã làm gì trước đó liên quan đến vé (Past Simple) hoặc sẽ làm.\nNói thời gian bạn sẽ hoàn thành việc đặt vé (will).",
+          "h": "Past Simple or will + time phrase.",
+          "s": "Yes, I can book the tickets. I booked tickets for a similar trip last month. I will finish the booking tonight."
+        },
+        {
+          "p": "Do you prefer the beach or the mountain?",
+          "m": "Nêu sở thích chính (beach/mountain).\nSo sánh ngắn lý do (comparative).\nNói một hoạt động bạn sẽ làm ở nơi đó (will).",
+          "h": "Use comparative and will.",
+          "s": "I prefer the beach because it's more relaxing. The sand is softer and the air is warmer than the mountain. I will swim and walk along the shore."
+        }
+      ]
+    },
+    {
+      "t": "Nhờ giúp đỡ với hành lý",
+      "e": [
+        {
+          "p": "Could you help me with this suitcase?",
+          "m": "Trả lời bạn có giúp không.\nNói bạn đã thử gì trước đó (Past Simple).\nNói bạn sẽ làm tiếp theo để giúp (will).",
+          "h": "Past Simple + will; polite offer.",
+          "s": "Yes, I can help. I already moved a small bag for you. I will carry the suitcase to your car now."
+        },
+        {
+          "p": "It's very heavy, I can't lift it.",
+          "m": "Mô tả bạn đã cố nâng ra sao (Past Simple).\nNói bạn cần giúp như thế nào (two short actions).\nĐưa lời khuyên ngắn (should/must).",
+          "h": "Past Simple + should/must.",
+          "s": "I tried to lift it but it was too heavy. Please let me hold one side and you push from the other. You should use the trolley."
+        },
+        {
+          "p": "Do you have a cart nearby?",
+          "m": "Nói có hay không.\nNói bạn sẽ làm gì nếu có/không (will).\nNói nơi bạn sẽ đặt hành lý (short).",
+          "h": "Use will + location phrase.",
+          "s": "Yes, there is a cart near the entrance. I will bring it and load your bags. Then we can put them in the car."
+        },
+        {
+          "p": "I worry my bag will get damaged.",
+          "m": "Nói bạn lo điều gì cụ thể.\nĐưa một gợi ý bảo vệ hành lý (should/must).\nNói bạn sẽ làm gì để an toàn hơn (will).",
+          "h": "Use should/must + will; simple reason.",
+          "s": "I'm worried the strap might break. You should lock fragile items inside and use padding. I will carry the bag carefully."
+        },
+        {
+          "p": "Thanks, I can't carry it up the stairs.",
+          "m": "Nói bạn đã cảm ơn ngắn.\nNói bạn đã làm gì sau đó (Past Simple) hoặc sẽ làm (going to).\nNói cảm xúc ngắn (relieved/grateful).",
+          "h": "Past Simple or going to + feeling adjective.",
+          "s": "Thanks for your help. We carried it up the stairs together and put it in my apartment. I'm really relieved and grateful."
+        }
+      ]
+    },
+    {
+      "t": "Vấn đề với đơn hàng online",
+      "e": [
+        {
+          "p": "My package hasn't arrived yet.",
+          "m": "Nói bạn đã làm gì để kiểm tra (Past Simple).\nNói bạn mong đợi gì (present expectation).\nNói bạn sẽ làm tiếp (will/should).",
+          "h": "Past Simple + present + will/should.",
+          "s": "I checked the tracking and it shows delayed. I expect it to come tomorrow. I will call customer service if it doesn't arrive."
+        },
+        {
+          "p": "The product is damaged. What can I do?",
+          "m": "Nói ngắn bạn đã thấy hư hỏng gì (Past Simple).\nYêu cầu đổi trả hoặc hoàn tiền ngắn.\nNói bạn sẽ làm gì tiếp (must/going to).",
+          "h": "Past Simple + must/going to.",
+          "s": "The screen was cracked when I opened the box. I want a replacement or a refund. I am going to send photos to customer support."
+        },
+        {
+          "p": "You ordered the wrong size.",
+          "m": "Thừa nhận hay phủ nhận bằng Past Simple.\nNói bạn sẽ đổi hay giữ.\nNói một bước bạn phải làm (have to/should).",
+          "h": "Past Simple + have to/should.",
+          "s": "Yes, I ordered the wrong size by mistake. I will exchange it for a larger one. I have to fill the return form online."
+        },
+        {
+          "p": "The seller says it was delivered.",
+          "m": "Nói bạn đã kiểm tra nơi nhận (Past Simple).\nNói bạn nghĩ gì hiện tại (doubt/assure).\nNói bạn sẽ làm để giải quyết (will/compound).",
+          "h": "Past Simple + will; use but/so.",
+          "s": "I checked with my neighbor and they did not get it. I think the delivery was incorrect. I will contact the seller and the courier, so we can find it."
+        },
+        {
+          "p": "Can I get a faster refund?",
+          "m": "Trả lời có/không và nêu lý do.\nNói bạn đã làm gì để yêu cầu nhanh hơn (Past Simple) hoặc sẽ làm.\nNói kết quả bạn mong muốn ngắn.",
+          "h": "Use will/should and Past Simple if needed.",
+          "s": "Maybe yes if you explain the problem. I already emailed support and provided photos. I hope they will process the refund quickly."
+        }
+      ]
+    },
+    {
+      "t": "Thời tiết thay đổi khi đi ra ngoài",
+      "e": [
+        {
+          "p": "It looks cloudy today.",
+          "m": "Nói bạn thấy thời tiết thế nào hiện tại.\nNói bạn đã mặc gì sáng nay (Past Simple).\nNói kế hoạch bạn sẽ thay đổi nếu mưa (will).",
+          "h": "Present Simple + Past Simple + will.",
+          "s": "It is cloudy and cool today. I wore a light jacket this morning. If it rains, I will take an umbrella."
+        },
+        {
+          "p": "Should I take a coat?",
+          "m": "Đưa lời khuyên ngắn (should).\nNói bạn sẽ làm gì nếu lạnh hơn (will).\nSo sánh hai lựa chọn ngắn (better than).",
+          "h": "Use should + will + comparative.",
+          "s": "You should take a light coat. If it gets colder, you will be more comfortable. It's better than getting cold later."
+        },
+        {
+          "p": "The forecast said sunny all day.",
+          "m": "Nói nếu dự báo đúng hay không dựa trên hiện tại.\nNói bạn đã làm gì dựa vào dự báo (Past Simple).\nNói bạn sẽ làm nếu dự báo thay đổi (going to).",
+          "h": "Past Simple + going to.",
+          "s": "The forecast said sunny but now it's cloudy. I packed sunglasses this morning because of the forecast. If it rains, I'm going to stay inside."
+        },
+        {
+          "p": "My shoes are wet from the rain.",
+          "m": "Nói bạn đã làm gì sau khi giày ướt (Past Simple).\nNói bạn sẽ làm để làm khô chúng (will/should).\nNói cảm giác hiện tại ngắn (annoyed/ok).",
+          "h": "Past Simple + should/will + feeling adjective.",
+          "s": "I took off my shoes and wiped them with a towel. I will put them near the heater to dry. I'm a bit annoyed but it's okay."
+        },
+        {
+          "p": "Do you prefer rainy or sunny days?",
+          "m": "Nói sở thích của bạn.\nSo sánh ngắn lý do (comparative).\nNói một hoạt động bạn sẽ làm trong ngày thích (will).",
+          "h": "Use comparative and will.",
+          "s": "I prefer sunny days because they are brighter than rainy days. I feel more active on sunny days. I will go for a walk when it's sunny."
+        }
+      ]
+    },
+    {
+      "t": "Trục trặc khi đi du lịch",
+      "e": [
+        {
+          "p": "Your flight was delayed.",
+          "m": "Nói bạn đã biết hay không và cảm xúc (Past Simple/Present).\nNói bạn đã làm gì ở sân bay (Past Simple).\nNói kế hoạch mới của bạn (will/going to).",
+          "h": "Past Simple + will/going to.",
+          "s": "I knew the flight was delayed and I'm a bit tired. I waited at the gate and read a book. I will try to rest on the plane."
+        },
+        {
+          "p": "You lost your reservation at the hotel.",
+          "m": "Nói bạn có bằng chứng đặt phòng hay không.\nNói bạn sẽ làm gì để giải quyết (will/contact).\nNói bạn mong muốn kết quả ngắn.",
+          "h": "Use will and contact + because.",
+          "s": "I have my booking confirmation email. I will show it at the front desk and contact the booking site. I hope they will find my room."
+        },
+        {
+          "p": "The taxi driver says the meter was broken.",
+          "m": "Mô tả bạn đã trả bao nhiêu (Past Simple).\nSo sánh nếu giá đó hợp lý hay không (comparative).\nNói bạn sẽ làm gì tiếp theo (will/should).",
+          "h": "Past Simple + comparative + will/should.",
+          "s": "I paid twenty dollars for the ride. That is more expensive than the usual fare. I will ask for a receipt and should report the problem."
+        },
+        {
+          "p": "My luggage didn't arrive with me.",
+          "m": "Nói bạn đã làm gì khi nhận biết (Past Simple).\nNói bạn đã báo hay chưa và với ai (Past Simple).\nNói bạn sẽ làm tiếp (will/must).",
+          "h": "Past Simple + will/must.",
+          "s": "I noticed my luggage missing at the carousel. I reported it to the airline desk right away. They must find it and I will wait for their call."
+        },
+        {
+          "p": "Can you recommend a cheaper hotel nearby?",
+          "m": "Nói bạn có đề xuất không.\nSo sánh ngắn giữa hai lựa chọn (cheaper/more comfortable).\nNói bạn sẽ làm nếu chọn nơi rẻ hơn (will/compound).",
+          "h": "Use comparative words and will.",
+          "s": "Yes, I can recommend a small guesthouse nearby. It's cheaper but less comfortable than the main hotel. If you choose it, I will give you the address and phone number."
+        }
+      ]
+    },
+    {
+      "t": "Sắp xếp công việc và deadline",
+      "e": [
+        {
+          "p": "I have too many tasks and one deadline is tomorrow.",
+          "m": "Nói bạn có nhiệm vụ nào quan trọng nhất (Present Simple).\nNói bạn đã làm gì để ưu tiên (Past Simple).\nNói bạn sẽ làm tiếp để hoàn thành (will/have to).",
+          "h": "Present Simple + Past Simple + will/have to.",
+          "s": "The report is the most important task. I already finished the data section yesterday. I have to focus now and I will finish the conclusion tonight."
+        },
+        {
+          "p": "Can you help me finish the slides?",
+          "m": "Trả lời có/không.\nNói bạn sẽ giúp như thế nào (two short actions).\nNói khi bạn sẽ hoàn thành phần giúp (time, will).",
+          "h": "Use will and simple verbs (edit, add, check).",
+          "s": "Yes, I can help. I will edit the layout and add a conclusion slide. I will finish my part by this evening."
+        },
+        {
+          "p": "We need a better plan to meet the deadline.",
+          "m": "Đề xuất một bước ngắn (should).\nSo sánh hai phương án nếu cần (more efficient/less time).\nNói bạn sẽ làm gì để hỗ trợ (will).",
+          "h": "Use should + comparative + will.",
+          "s": "We should divide the tasks among the team. That is more efficient than one person doing everything. I will take the charts and finish them today."
+        },
+        {
+          "p": "I think we need to work late.",
+          "m": "Nói bạn đồng ý hay không và lý do ngắn.\nNói bạn sẽ làm để chuẩn bị (have to/should).\nNói bạn cảm thấy thế nào về việc làm muộn (short feeling).",
+          "h": "Use will/have to and a feeling adjective.",
+          "s": "I agree because the deadline is close. We have to finish the main parts first and then review. I'm tired but ready to help."
+        },
+        {
+          "p": "What if a team member is absent tomorrow?",
+          "m": "Đưa kế hoạch thay thế ngắn (will/should).\nNói phân công ngắn ai làm gì nếu vắng.\nNói bạn sẽ làm gì là bổ sung (will).",
+          "h": "Use will/should and simple names or roles.",
+          "s": "If someone is absent, we should reassign their tasks for today. I will cover the presentation part and Anna will finish the charts. That way we will still meet the deadline."
+        }
+      ]
+    },
+    {
+      "t": "So sánh nơi ở",
+      "e": [
+        {
+          "p": "Do you like your apartment?",
+          "m": "Nói bạn có thích nơi ở hiện tại không.\nNêu một điểm tốt ngắn.\nSo sánh ngắn với nơi trước (comparative).",
+          "h": "Present Simple + comparative.",
+          "s": "Yes, I like my apartment. It has a big window and good light. It's more comfortable than my old place."
+        },
+        {
+          "p": "Is the new house cheaper than the old one?",
+          "m": "Trả lời có/không.\nNói giá cả ngắn (cheaper/expensive).\nNói bạn sẽ tiết kiệm hay tiêu nhiều hơn (will/compound).",
+          "h": "Use comparative and will.",
+          "s": "Yes, the new house is cheaper. The rent is less than before. I will save some money each month."
+        },
+        {
+          "p": "Which is better for work, a small room or a big room?",
+          "m": "Nói sở thích của bạn.\nSo sánh ngắn lý do (more/less ... than).\nNói một điều bạn sẽ làm ở phòng tốt hơn (will).",
+          "h": "Use comparative and will.",
+          "s": "A big room is better for work because it's more quiet and comfortable than a small one. I will set up a desk near the window."
+        },
+        {
+          "p": "My neighbor makes too much noise.",
+          "m": "Nói bạn đã cố gắng làm gì (Past Simple).\nĐưa lời khuyên ngắn (should/must).\nNói bạn sẽ làm tiếp (will/compound).",
+          "h": "Past Simple + should/must + will.",
+          "s": "I talked to them last week but it didn't change. You should tell the landlord or use earplugs. I will contact the building manager if it continues."
+        },
+        {
+          "p": "Can we move to a quieter area?",
+          "m": "Nói bạn có thể chuyển hay không.\nNói lợi ích khi chuyển (comparative).\nNói bạn sẽ làm gì để tìm nơi mới (will/have to).",
+          "h": "Use comparative and will/have to.",
+          "s": "We can move if we find a good place. A quieter area is better for sleep and work than here. I will search online and we have to visit two places this weekend."
+        }
+      ]
+    },
+    {
+      "t": "Giải quyết mâu thuẫn nhỏ",
+      "e": [
+        {
+          "p": "You were late for our meeting again.",
+          "m": "Nhận lỗi hoặc giải thích ngắn (Past Simple).\nNói bạn sẽ làm gì để sửa lỗi (will/should).\nNói một cam kết ngắn cho lần sau.",
+          "h": "Past Simple + will/should; promise phrase.",
+          "s": "I was late because my bus broke down. I will leave earlier next time and should check transport updates. I promise I will be on time next meeting."
+        },
+        {
+          "p": "He says you took his book.",
+          "m": "Phủ nhận hoặc nhận và giải thích (Past Simple).\nNói bạn đã làm gì với cuốn sách.\nNói bạn sẽ làm gì để giải quyết (will/return/compensate).",
+          "h": "Past Simple + will/return/compound.",
+          "s": "I didn't take his book, I only borrowed a similar one. I returned it to the shelf after reading. I will check again and return it if I have it."
+        },
+        {
+          "p": "She is upset because of your comment.",
+          "m": "Thừa nhận hoặc xin lỗi ngắn (Past Simple).\nNói bạn sẽ làm gì để xin lỗi (will/should).\nNói bạn sẽ tránh điều đó thế nào lần sau.",
+          "h": "Use Past Simple + should + will.",
+          "s": "I'm sorry my comment upset her. I will apologize and explain I didn't mean to hurt anyone. I should think before I speak next time."
+        },
+        {
+          "p": "We disagree about who should clean the kitchen.",
+          "m": "Nói quan điểm ngắn của bạn.\nĐề xuất giải pháp ngắn (should/compromise).\nNói bạn sẽ làm phần của mình (will).",
+          "h": "Use should and will; simple compromise phrase.",
+          "s": "I think we should share the chores equally. We can take turns, which is fair for both. I will clean tonight and you can clean tomorrow."
+        },
+        {
+          "p": "Can we talk and fix this problem now?",
+          "m": "Đồng ý hoặc đề nghị thời gian ngắn.\nNói bạn sẽ nói gì chính (one sentence).\nKết luận bạn mong muốn (short result).",
+          "h": "Use Present Simple + will; clear short sentence.",
+          "s": "Yes, let's talk now for ten minutes. I will explain my view calmly and listen to yours. I hope we can agree and move on."
+        }
+      ]
+    },
+    {
+      "t": "Ôn tập: Tình huống hàng ngày 1",
+      "e": [
+        {
+          "p": "Hi, where are you from and what do you do?",
+          "m": "Nói bạn đến từ đâu.\nNói nghề nghiệp ngắn.\nNói một sở thích liên quan đến công việc hoặc nơi ở.",
+          "h": "Present Simple; use [studentCity] or [studentJob] if needed.",
+          "s": "I'm from [studentCity]. I work as [studentJob]. I enjoy city walks on weekends."
+        },
+        {
+          "p": "I heard you had a problem with an online order.",
+          "m": "Mô tả ngắn vấn đề (Past Simple).\nNói bạn đã làm gì để giải quyết.\nNói kết quả bạn mong đợi (will/hope).",
+          "h": "Past Simple + will/hope.",
+          "s": "My package arrived damaged. I sent photos to support and asked for a refund. I hope they will reply soon."
+        },
+        {
+          "p": "The weather changed and you got wet, right?",
+          "m": "Xác nhận ngắn (Past Simple).\nNói bạn đã làm gì ngay sau đó.\nNói bạn sẽ làm để tránh lần sau (should/going to).",
+          "h": "Past Simple + should/going to.",
+          "s": "Yes, it started raining suddenly. I bought a cheap umbrella and dried my shoes. I am going to check the forecast earlier next time."
+        },
+        {
+          "p": "Do you prefer shopping online or in the market?",
+          "m": "Nói sở thích của bạn.\nSo sánh ngắn lý do (comparative).\nNói một hành động bạn sẽ làm khi mua sắm (will).",
+          "h": "Comparative + will.",
+          "s": "I prefer the market because products are fresher than online. It's more personal and I can ask the seller. I will visit the market this weekend."
+        },
+        {
+          "p": "Someone spilled coffee on your desk at work.",
+          "m": "Mô tả bạn đã làm gì (Past Simple).\nĐưa lời khuyên ngắn (should).\nNói bạn sẽ làm tiếp (will).",
+          "h": "Past Simple + should + will.",
+          "s": "I cleaned the spills with a towel. You should cover important papers and use a coaster. I will tell the team to be careful."
+        }
+      ]
+    },
+    {
+      "t": "Ôn tập: Tình huống hàng ngày 2",
+      "e": [
+        {
+          "p": "Can you tell me about your worst morning this month?",
+          "m": "Mô tả ngắn chuyện đã xảy ra (2 câu: what happened, result).\nNói bạn đã học được gì (short).",
+          "h": "Past Simple; short reflective sentence.",
+          "s": "My alarm failed and I missed the bus, so I was late for work. I had to take a taxi and pay more. I learned to set two alarms."
+        },
+        {
+          "p": "There is a noise at night from upstairs.",
+          "m": "Nói bạn đã làm gì trước đó (Past Simple).\nNói lời đề nghị ngắn để giải quyết (should/must).\nNói bạn sẽ làm tiếp (will).",
+          "h": "Past Simple + should/must + will.",
+          "s": "I knocked on their door but they didn't stop. You should speak to the building manager about quiet hours. I will report it if it continues."
+        },
+        {
+          "p": "Your friend wants to cancel plans because of rain.",
+          "m": "Trả lời đồng ý hay đề xuất thay thế.\nNói bạn sẽ làm gì thay thế (will).\nNói cảm nhận ngắn về thay đổi kế hoạch.",
+          "h": "Use will and short emotion word.",
+          "s": "I understand and it's okay to cancel. We will watch a movie at home instead. I'm fine with the change."
+        },
+        {
+          "p": "The small shop closed early today.",
+          "m": "Nói bạn đã làm gì khi biết.\nSo sánh với lựa chọn khác (better/worse).\nNói bạn sẽ làm lần sau để tránh vấn đề (will/should).",
+          "h": "Past Simple + comparative + will/should.",
+          "s": "I went to a supermarket instead and bought what I needed. That was better than waiting. Next time I will check opening hours."
+        },
+        {
+          "p": "A colleague praised your work in a meeting.",
+          "m": "Nói bạn đã làm gì trong dự án (Past Simple).\nNói phản ứng ngắn (thank/feel proud).\nNói bạn sẽ làm để cải thiện hơn (will).",
+          "h": "Past Simple + thank + will.",
+          "s": "I prepared the slides and the data last week. I thanked them and felt proud. I will keep improving my work."
+        }
+      ]
+    },
+    {
+      "t": "Ôn tập: Tình huống hàng ngày 3",
+      "e": [
+        {
+          "p": "You found a lost wallet on the street.",
+          "m": "Mô tả bạn đã làm ngay lập tức (Past Simple).\nNói bạn đã tìm chủ nhân hay nộp ở đâu.\nNói bạn sẽ làm nếu việc tương tự xảy ra lại (will/should).",
+          "h": "Past Simple + will/should.",
+          "s": "I picked it up and looked for ID inside. I gave it to the nearby police station. I should always do the same and will report found items."
+        },
+        {
+          "p": "A friend asked you to pick up their order.",
+          "m": "Trả lời bạn có thể hay không.\nNói bạn đã làm gì khi lấy hàng (Past Simple) hoặc sẽ làm.\nNói bạn sẽ giao cho họ khi nào (time, will).",
+          "h": "Present/Past Simple + will + time phrase.",
+          "s": "Yes, I can pick it up. I collected the package this morning. I will bring it to them after work."
+        },
+        {
+          "p": "You need to choose between two job offers.",
+          "m": "Nói hai điểm chính của từng offer ngắn.\nSo sánh ngắn (better/more/less).\nNói quyết định của bạn hoặc bạn sẽ làm gì để quyết định (will/should).",
+          "h": "Use comparative and will/should.",
+          "s": "Job A has higher pay but longer hours. Job B is closer and more flexible than A. I will choose B because it's better for my family, but I should think more."
+        },
+        {
+          "p": "Someone sent you a wrong message.",
+          "m": "Mô tả ngắn nội dung tin nhắn (Past Simple).\nNói bạn đã trả lời hay không và sao (Past Simple).\nNói bạn sẽ làm lần sau để tránh hiểu nhầm (will/should).",
+          "h": "Past Simple + will/should.",
+          "s": "They sent a message meant for someone else asking about a meeting. I replied saying they had the wrong number. I will check names before replying next time."
+        },
+        {
+          "p": "A child in the park lost their toy.",
+          "m": "Nói bạn có giúp không.\nMô tả việc bạn đã làm để tìm đồ (Past Simple).\nNói cảm xúc ngắn khi trả lại đồ (happy/relieved).",
+          "h": "Past Simple + feeling adjective.",
+          "s": "I helped the child look for the toy. We found it under a bench after searching. The child was happy and I felt relieved."
+        }
+      ]
+    }
+  ]
+}

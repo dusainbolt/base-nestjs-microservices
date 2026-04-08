@@ -1,0 +1,530 @@
+{
+  "l": 2,
+  "d": [
+    {
+      "t": "Mua áo mới",
+      "e": [
+        {
+          "p": "How much is this shirt?",
+          "m": "Nói giá tiền của chiếc áo. Nói bạn có muốn mua nó hay không.",
+          "h": "Use 'It is + price.' and 'I want / I don't want'.",
+          "s": "It is ten dollars. I want it."
+        },
+        {
+          "p": "Do you like this color?",
+          "m": "Nói bạn có thích màu này hay không. Nói lý do ngắn (tốt/xấu/đẹp).",
+          "h": "Use 'I like / I don't like' and 'because + adjective'.",
+          "s": "I like this color. It is pretty."
+        },
+        {
+          "p": "What size do you wear?",
+          "m": "Nói kích cỡ bạn mặc. Nói chiếc áo này có vừa bạn hay không.",
+          "h": "Use 'I wear + size' and 'It is / It is too + adjective'.",
+          "s": "I wear medium. It is too small."
+        },
+        {
+          "p": "Can you try the shirt?",
+          "m": "Nói bạn đang thử áo ngay bây giờ. Nói bạn thích hay không thích sau khi thử.",
+          "h": "Use 'I am trying it on.' and 'I like / I don't like'.",
+          "s": "I am trying it on. I don't like it."
+        },
+        {
+          "p": "Will you buy this shirt now?",
+          "m": "Nói quyết định mua hay không. Nói lý do ngắn (giá hoặc kích cỡ).",
+          "h": "Use 'I will / I won't' + reason like 'because it is cheap / too small'.",
+          "s": "I will buy it because it is cheap."
+        }
+      ]
+    },
+    {
+      "t": "Ở cửa hàng quần áo",
+      "e": [
+        {
+          "p": "Excuse me, where is the fitting room?",
+          "m": "Nói vị trí phòng thử đồ trong cửa hàng. Nói cách bạn đi đến đó (ví dụ: next to...).",
+          "h": "Use 'It is + preposition' and 'It is next to / behind...'.",
+          "s": "It is at the back. It is next to the shoes."
+        },
+        {
+          "p": "Do you have this in blue?",
+          "m": "Nói có hay không có màu xanh. Nói nếu có số lượng hay không.",
+          "h": "Use 'Yes, we have / No, we don't' and 'There is/are + number'.",
+          "s": "Yes, we have it in blue. There are two left."
+        },
+        {
+          "p": "How do you pay, by cash or card?",
+          "m": "Nói bạn trả bằng tiền mặt hay thẻ. Nói nếu bạn cần hóa đơn hay không.",
+          "h": "Use 'I pay by + cash/card' and 'I need / don't need + invoice'.",
+          "s": "I pay by card. I don't need an invoice."
+        },
+        {
+          "p": "Can I get a discount?",
+          "m": "Nói bạn có thể xin giảm giá hay không (đồng ý/không). Nói lý do ngắn nếu có.",
+          "h": "Use 'Yes, you can / No, you can't' and 'because + reason'.",
+          "s": "No, you can't. It is on sale already."
+        },
+        {
+          "p": "Is there a size small for this jacket?",
+          "m": "Nói có hay không có size small. Nói bạn muốn thử hoặc lấy hàng.",
+          "h": "Use 'There is / There isn't' and 'I want to try / take it'.",
+          "s": "There is a size small. I want to try it."
+        }
+      ]
+    },
+    {
+      "t": "Giá cả và thanh toán",
+      "e": [
+        {
+          "p": "How much is the dress?",
+          "m": "Nói giá của chiếc váy. Nói bạn có nghĩ giá đó rẻ hay đắt.",
+          "h": "Use 'It is + price.' and 'It is cheap/expensive.'",
+          "s": "It is twenty dollars. It is expensive."
+        },
+        {
+          "p": "Do you often buy clothes on sale?",
+          "m": "Nói tần suất bạn mua đồ giảm giá. Nói nơi bạn thường mua.",
+          "h": "Use frequency adverbs: 'always/often/sometimes' + 'I buy' and 'at + place'.",
+          "s": "I often buy clothes on sale. I buy at the mall."
+        },
+        {
+          "p": "Can I pay in cash?",
+          "m": "Nói bạn trả bằng tiền mặt hay không. Nói nếu bạn có đủ tiền hiện có.",
+          "h": "Use 'I will pay by cash / card' and 'I have / don't have enough money'.",
+          "s": "I will pay by cash. I don't have enough money."
+        },
+        {
+          "p": "How many items do you want to buy?",
+          "m": "Nói số lượng món đồ bạn muốn mua. Nói nếu bạn cần hộp hay túi đựng.",
+          "h": "Use 'I want + number + items' and 'I need / don't need + bag/box'.",
+          "s": "I want two items. I need a bag."
+        },
+        {
+          "p": "Is tax included in the price?",
+          "m": "Nói thuế đã bao gồm hay chưa. Nói bạn có muốn xem tổng tiền hay không.",
+          "h": "Use 'Yes/No, it is included.' and 'I want / don't want + total'.",
+          "s": "No, tax is not included. I want to see the total."
+        }
+      ]
+    },
+    {
+      "t": "Thói quen mua sắm",
+      "e": [
+        {
+          "p": "Where do you usually shop?",
+          "m": "Nói nơi bạn thường mua sắm. Nói tần suất bạn đến đó.",
+          "h": "Use 'I usually shop at...' and 'I always/often/sometimes + verb'.",
+          "s": "I usually shop at the mall. I often go there on weekends."
+        },
+        {
+          "p": "Do you like shopping with friends?",
+          "m": "Nói bạn có thích đi cùng bạn bè hay không. Nói lý do ngắn (vui/tiết kiệm...).",
+          "h": "Use 'I like / I don't like' and 'because + short reason'.",
+          "s": "I like shopping with friends. It is fun."
+        },
+        {
+          "p": "How much do you spend on clothes each month?",
+          "m": "Nói số tiền bạn chi cho quần áo mỗi tháng. Nói nếu bạn có ngân sách hay không.",
+          "h": "Use 'I spend + amount + each month.' and 'I have / don't have a budget.'",
+          "s": "I spend twenty dollars each month. I don't have a budget."
+        },
+        {
+          "p": "Do you try new styles often?",
+          "m": "Nói bạn có thử phong cách mới thường xuyên không. Nói ví dụ ngắn (ví dụ: màu, kiểu).",
+          "h": "Use frequency adverb + 'I try' and 'for example...'.",
+          "s": "Sometimes I try new styles. For example, I try bright colors."
+        },
+        {
+          "p": "Would you like help choosing an outfit?",
+          "m": "Nói bạn có nhận giúp chọn đồ hay không. Nói bạn cần giúp việc gì (màu/kích cỡ).",
+          "h": "Use 'Yes, I would / No, I wouldn't' and 'I need help with...'.",
+          "s": "Yes, I would like help. I need help with the size."
+        }
+      ]
+    },
+    {
+      "t": "Lịch trình buổi sáng",
+      "e": [
+        {
+          "p": "What time do you wake up?",
+          "m": "Nói bạn thức dậy lúc mấy giờ. Nói bạn có thức dậy ngay hay không (still in bed).",
+          "h": "Use 'I wake up at + time.' and 'I still + verb' or 'I get up'.",
+          "s": "I wake up at seven. I still stay in bed for five minutes."
+        },
+        {
+          "p": "Do you eat breakfast every morning?",
+          "m": "Nói bạn có ăn sáng mỗi sáng hay không. Nói bạn thường ăn gì ngắn gọn.",
+          "h": "Use 'I always/sometimes/never + eat' and 'I eat + food'.",
+          "s": "I always eat breakfast. I eat bread and milk."
+        },
+        {
+          "p": "Are you brushing your teeth now?",
+          "m": "Nói bạn có đang đánh răng ngay bây giờ hay không. Nói nếu bạn thường làm việc đó mỗi sáng.",
+          "h": "Use present continuous 'I am + V-ing' and present simple 'I usually...'.",
+          "s": "I am not brushing my teeth now. I usually brush in the morning."
+        },
+        {
+          "p": "How do you go to school or work?",
+          "m": "Nói bạn đi đến trường/việc bằng phương tiện gì. Nói thời gian đi (every morning).",
+          "h": "Use 'I go by + transport' and 'every morning / usually'.",
+          "s": "I go by bus. I go every morning at eight."
+        },
+        {
+          "p": "Do you pack your bag the night before?",
+          "m": "Nói bạn có chuẩn bị túi đựng đồ tối trước hay không. Nói lý do ngắn (tiết kiệm thời gian).",
+          "h": "Use 'I always/sometimes/never + do' and 'because + reason'.",
+          "s": "I sometimes pack my bag the night before. It saves time."
+        }
+      ]
+    },
+    {
+      "t": "Buổi tối trước khi ngủ",
+      "e": [
+        {
+          "p": "What do you do before bed?",
+          "m": "Nói một việc bạn làm trước khi ngủ. Nói bạn làm việc đó thường xuyên hay không.",
+          "h": "Use 'I + verb' and frequency adverb (usually/sometimes).",
+          "s": "I read a book before bed. I usually read for thirty minutes."
+        },
+        {
+          "p": "Are you studying now?",
+          "m": "Nói bạn có đang học ngay bây giờ hay không. Nói bạn thường học buổi tối hay không.",
+          "h": "Use 'I am + V-ing' and 'I often / sometimes + V'.",
+          "s": "I am studying now. I often study in the evening."
+        },
+        {
+          "p": "Do you change into pajamas at home?",
+          "m": "Nói bạn có thay đồ ngủ ở nhà hay không. Nói vị trí bạn để đồ ngủ trong phòng.",
+          "h": "Use 'I change into pajamas' and 'It is in/on/near...'.",
+          "s": "I change into pajamas at home. They are on my bed."
+        },
+        {
+          "p": "How many hours do you sleep?",
+          "m": "Nói số giờ bạn ngủ mỗi đêm. Nói nếu bạn cảm thấy mệt hay tỉnh táo sau khi ngủ.",
+          "h": "Use 'I sleep + number + hours.' and 'I feel + adjective'.",
+          "s": "I sleep eight hours. I feel rested."
+        },
+        {
+          "p": "Do you turn off the lights before sleeping?",
+          "m": "Nói bạn có tắt đèn trước khi ngủ hay không. Nói nếu bạn để đèn nhỏ hoặc tắt hoàn toàn.",
+          "h": "Use 'I turn off / I leave on' and 'a small light / all lights'.",
+          "s": "I turn off all the lights. I don't leave a small light on."
+        }
+      ]
+    },
+    {
+      "t": "Trong phòng của tôi - đồ vật",
+      "e": [
+        {
+          "p": "What is on your desk?",
+          "m": "Nói một đồ vật trên bàn của bạn. Nói số lượng của đồ vật đó nếu có.",
+          "h": "Use 'There is/There are + number + noun' and 'on my desk'.",
+          "s": "There is a lamp on my desk. There are two books."
+        },
+        {
+          "p": "Do you have a closet in your room?",
+          "m": "Nói có tủ quần áo hay không. Nói đồ bạn để trong tủ ngắn gọn.",
+          "h": "Use 'I have / I don't have' and 'I keep + items'.",
+          "s": "I have a closet in my room. I keep my clothes there."
+        },
+        {
+          "p": "Is your bed near the window?",
+          "m": "Nói giường của bạn có ở gần cửa sổ không. Nói vị trí khác của đồ trong phòng (ví dụ: next to).",
+          "h": "Use 'It is near / It is next to' and 'the window / the door'.",
+          "s": "My bed is near the window. My desk is next to the bed."
+        },
+        {
+          "p": "How many chairs are in your room?",
+          "m": "Nói số ghế trong phòng. Nói bạn dùng ghế cho việc gì.",
+          "h": "Use 'There are + number + chairs' and 'I use them for...'.",
+          "s": "There are two chairs in my room. I use them for study and guests."
+        },
+        {
+          "p": "Do you like the color of your room?",
+          "m": "Nói bạn có thích màu phòng hay không. Nói lý do ngắn (vui/tĩnh).",
+          "h": "Use 'I like / I don't like' and 'because + adjective'.",
+          "s": "I like the color of my room. It is calm."
+        }
+      ]
+    },
+    {
+      "t": "Vị trí đồ trong phòng",
+      "e": [
+        {
+          "p": "Where is your lamp?",
+          "m": "Nói vị trí của đèn trong phòng. Nói nếu đèn đang sáng hay tắt.",
+          "h": "Use 'It is + preposition' and 'It is on/off'.",
+          "s": "It is on my desk. It is off now."
+        },
+        {
+          "p": "Is your backpack under the bed?",
+          "m": "Nói có hay không có ba lô dưới giường. Nói nơi khác bạn để ba lô nếu không ở đó.",
+          "h": "Use 'Yes, it is / No, it isn't' and 'It is in/near...'.",
+          "s": "No, it isn't under the bed. It is next to the door."
+        },
+        {
+          "p": "Are your shoes in the closet?",
+          "m": "Nói giày có trong tủ hay không. Nói bạn có giữ chúng gọn hay không.",
+          "h": "Use 'They are / They aren't' and 'I keep them + adjective'.",
+          "s": "They are in the closet. I keep them tidy."
+        },
+        {
+          "p": "What is in your drawer?",
+          "m": "Nói một đồ vật trong ngăn kéo. Nói bạn dùng nó cho việc gì.",
+          "h": "Use 'There is + noun' and 'I use it for...'.",
+          "s": "There is a notebook in my drawer. I use it for notes."
+        },
+        {
+          "p": "Do you put posters on the wall?",
+          "m": "Nói bạn có dán poster lên tường hay không. Nói loại poster ngắn gọn (music/sport).",
+          "h": "Use 'I put / I don't put' and 'a music/sport poster'.",
+          "s": "Yes, I put posters on the wall. I put a music poster."
+        }
+      ]
+    },
+    {
+      "t": "Mua sắm trực tuyến",
+      "e": [
+        {
+          "p": "Do you shop online?",
+          "m": "Nói bạn có mua sắm trực tuyến hay không. Nói tần suất bạn làm việc đó.",
+          "h": "Use 'I do / I don't' and frequency adverb (often/sometimes).",
+          "s": "I shop online. I sometimes buy clothes online."
+        },
+        {
+          "p": "How much is the shipping fee?",
+          "m": "Nói phí vận chuyển là bao nhiêu. Nói nếu bạn có chọn giao hàng nhanh hay chậm.",
+          "h": "Use 'It is + price.' and 'I choose + fast/slow shipping.'",
+          "s": "It is five dollars. I choose slow shipping."
+        },
+        {
+          "p": "Can I return this item?",
+          "m": "Nói bạn có thể đổi trả hay không. Nói điều kiện ngắn (in 7 days / with receipt).",
+          "h": "Use 'Yes/No' and 'in + number + days / with + noun'.",
+          "s": "Yes, you can return it. You must return it within seven days."
+        },
+        {
+          "p": "Do you check reviews before buying?",
+          "m": "Nói bạn có đọc đánh giá trước khi mua không. Nói bạn tin đánh giá hay không.",
+          "h": "Use 'I always/sometimes/never + V' and 'I trust / I don't trust'.",
+          "s": "I always check reviews before buying. I trust good reviews."
+        },
+        {
+          "p": "Will the package arrive tomorrow?",
+          "m": "Nói gói hàng có đến ngày mai hay không. Nói bạn sẽ làm gì nếu không đến.",
+          "h": "Use 'It will / It won't arrive' and 'I will + verb if not'.",
+          "s": "It will arrive tomorrow. I will call customer service if not."
+        }
+      ]
+    },
+    {
+      "t": "Thay quần áo & thử đồ",
+      "e": [
+        {
+          "p": "Where is the mirror?",
+          "m": "Nói vị trí gương. Nói bạn cần gương để làm gì (thử đồ).",
+          "h": "Use 'It is + preposition' and 'I need it to + verb'.",
+          "s": "It is near the door. I need it to try clothes."
+        },
+        {
+          "p": "Does this dress fit me?",
+          "m": "Nói chiếc váy có vừa bạn hay không. Nói bạn có muốn một kích cỡ khác không.",
+          "h": "Use 'It fits / It doesn't fit' and 'I want + size'.",
+          "s": "It doesn't fit me. I want a larger size."
+        },
+        {
+          "p": "Are you wearing the new jeans now?",
+          "m": "Nói bạn có đang mặc quần jean mới hay không. Nói cảm giác về nó (comfortable/uncomfortable).",
+          "h": "Use 'I am wearing' and 'It is + adjective'.",
+          "s": "I am wearing the new jeans now. They are comfortable."
+        },
+        {
+          "p": "Do you need a different color?",
+          "m": "Nói bạn có cần màu khác không. Nói màu bạn muốn nếu có.",
+          "h": "Use 'I need / I don't need' and 'I want + color'.",
+          "s": "I need a different color. I want blue."
+        },
+        {
+          "p": "Will you keep the clothes you tried?",
+          "m": "Nói bạn sẽ giữ hay trả lại đồ đã thử. Nói lý do ngắn (vừa/tốt/không vừa).",
+          "h": "Use 'I will keep / I will return' and 'because + reason'.",
+          "s": "I will return the clothes because they are too small."
+        }
+      ]
+    },
+    {
+      "t": "Nhu cầu và sở thích",
+      "e": [
+        {
+          "p": "What do you need to buy today?",
+          "m": "Nói một món bạn cần mua hôm nay. Nói lý do ngắn cho nhu cầu đó.",
+          "h": "Use 'I need + noun' and 'because + short reason'.",
+          "s": "I need a new shirt today. I need it for work."
+        },
+        {
+          "p": "Do you like bright or dark colors?",
+          "m": "Nói bạn thích màu sáng hay tối. Nói ví dụ một màu bạn thích.",
+          "h": "Use 'I like + bright/dark colors' and 'for example + color'.",
+          "s": "I like bright colors. For example, I like yellow."
+        },
+        {
+          "p": "How often do you change your bed sheets?",
+          "m": "Nói tần suất bạn thay ga giường. Nói nếu bạn cảm thấy phòng sạch hay bẩn liên quan.",
+          "h": "Use 'I change + object + every + time' and 'I feel + adjective'.",
+          "s": "I change my bed sheets every week. I feel my room is clean."
+        },
+        {
+          "p": "Would you like a small or big bag?",
+          "m": "Nói bạn muốn túi nhỏ hay lớn. Nói lý do ngắn (mang nhiều đồ/nhẹ nhàng).",
+          "h": "Use 'I want a small / big bag' and 'because + reason'.",
+          "s": "I want a big bag. I carry many things."
+        },
+        {
+          "p": "Do you need help with your shopping list?",
+          "m": "Nói bạn có cần giúp với danh sách mua sắm hay không. Nói nếu bạn muốn ai đó mua hộ một món.",
+          "h": "Use 'I need / I don't need help' and 'Please buy + item' if yes.",
+          "s": "I need help with my shopping list. Please buy milk if you go."
+        }
+      ]
+    },
+    {
+      "t": "Gặp sự cố khi mua sắm",
+      "e": [
+        {
+          "p": "The shirt has a hole. What do you do?",
+          "m": "Nói bạn sẽ làm gì khi áo có lỗ. Nói bạn muốn đổi hay trả tiền lại.",
+          "h": "Use 'I will + verb' and 'I want to + verb'.",
+          "s": "I will ask the seller. I want to return it."
+        },
+        {
+          "p": "You lost your receipt. Can you get a refund?",
+          "m": "Nói có thể hoàn tiền khi mất hóa đơn hay không. Nói bạn sẽ làm gì tiếp theo.",
+          "h": "Use 'Yes/No, you can/can't' and 'I will + verb'.",
+          "s": "No, you can't get a refund without a receipt. I will ask for store help."
+        },
+        {
+          "p": "The online order is late. Who do you contact?",
+          "m": "Nói bạn sẽ liên hệ ai khi đơn hàng chậm. Nói bạn sẽ làm gì (call/email).",
+          "h": "Use 'I will contact + customer service' and 'by phone / by email'.",
+          "s": "I will contact customer service. I will call them by phone."
+        },
+        {
+          "p": "The color is not as pictured. Do you accept it?",
+          "m": "Nói bạn có chấp nhận màu khác hay không. Nói bạn muốn đổi hay trả.",
+          "h": "Use 'I accept / I don't accept' and 'I want to exchange / return'.",
+          "s": "I don't accept it. I want to exchange for the right color."
+        },
+        {
+          "p": "You paid twice by mistake. What do you say to the cashier?",
+          "m": "Viết câu bạn nói với thu ngân để xin hoàn trả. Nói bạn muốn làm gì tiếp theo (refund).",
+          "h": "Use 'I paid twice' and 'Please give me a refund.'",
+          "s": "I paid twice by mistake. Please give me a refund."
+        }
+      ]
+    },
+    {
+      "t": "Ôn tập: Mua sắm - phòng",
+      "e": [
+        {
+          "p": "How many shirts are on your bed?",
+          "m": "Nói số áo trên giường. Nói bạn sẽ làm gì với các áo đó (gấp/treo).",
+          "h": "Use 'There are + number' and 'I will + verb'.",
+          "s": "There are three shirts on my bed. I will fold them."
+        },
+        {
+          "p": "Is the price for the jacket cheap?",
+          "m": "Nói giá áo khoác có rẻ không. Nói bạn sẽ mua hay đợi giảm giá.",
+          "h": "Use 'It is + adjective' and 'I will / I will wait'.",
+          "s": "It is cheap. I will buy it now."
+        },
+        {
+          "p": "Where do you put your shoes at home?",
+          "m": "Nói nơi bạn để giày ở nhà. Nói bạn có giữ gọn hay không.",
+          "h": "Use 'I put them + preposition' and 'I keep them + adjective'.",
+          "s": "I put my shoes in the closet. I keep them tidy."
+        },
+        {
+          "p": "Do you buy pajamas online or in a store?",
+          "m": "Nói bạn mua đồ ngủ online hay ở cửa hàng. Nói tần suất bạn mua theo cách đó.",
+          "h": "Use 'I buy + online/in the store' and frequency adverb.",
+          "s": "I buy pajamas in the store. I sometimes buy online."
+        },
+        {
+          "p": "Can you show me the blue shirt?",
+          "m": "Nói bạn có thể lấy chiếc áo xanh không. Nói nếu bạn muốn thử nó.",
+          "h": "Use 'I can / I can't' and 'I want to try it.'",
+          "s": "I can show you the blue shirt. I want to try it on."
+        }
+      ]
+    },
+    {
+      "t": "Ôn tập: Thói quen - lịch trình",
+      "e": [
+        {
+          "p": "What do you do every morning before shopping?",
+          "m": "Nói một thói quen buổi sáng trước khi đi mua sắm. Nói tần suất bạn làm điều đó.",
+          "h": "Use 'I + verb' and frequency adverb (usually/sometimes).",
+          "s": "I eat breakfast before shopping. I usually do it every morning."
+        },
+        {
+          "p": "Are you packing your shopping list now?",
+          "m": "Nói bạn có đang làm danh sách mua sắm ngay bây giờ hay không. Nói bạn thường viết tay hay dùng điện thoại.",
+          "h": "Use 'I am + V-ing' and 'I usually write / use my phone'.",
+          "s": "I am not packing my shopping list now. I usually write it by hand."
+        },
+        {
+          "p": "How often do you clean your room each week?",
+          "m": "Nói tần suất bạn dọn phòng mỗi tuần. Nói một việc bạn làm khi dọn phòng.",
+          "h": "Use 'I clean + number + times' and 'I + verb' for one task.",
+          "s": "I clean my room two times each week. I wash the floor when I clean."
+        },
+        {
+          "p": "Do you try clothes more than once before buying?",
+          "m": "Nói bạn có thử đồ nhiều lần trước khi mua hay không. Nói lý do ngắn (vừa/tốt).",
+          "h": "Use 'I do / I don't' and 'because + reason'.",
+          "s": "Yes, I try clothes more than once before buying. Because I want a good fit."
+        },
+        {
+          "p": "Will you go shopping after work today?",
+          "m": "Nói bạn có đi mua sắm sau khi tan làm hay không. Nói bạn sẽ đi cùng ai hoặc một mình.",
+          "h": "Use 'I will / I won't' and 'with + person / alone'.",
+          "s": "I will go shopping after work. I will go with a friend."
+        }
+      ]
+    },
+    {
+      "t": "Ôn tập: Tổng hợp",
+      "e": [
+        {
+          "p": "Can you tell me three things in your room?",
+          "m": "Liệt kê ba đồ vật có trong phòng (mỗi đồ một câu). Tổng cộng phải là hai câu, vậy ghép 3 ý thành 2 câu hợp lý.",
+          "h": "Use 'There is/There are' and join items in one sentence if cần.",
+          "s": "There is a bed and a desk in my room. There are two chairs and a lamp."
+        },
+        {
+          "p": "How much do you spend when you shop with friends?",
+          "m": "Nói khoảng tiền bạn chi tiêu khi đi cùng bạn bè. Nói tần suất đi cùng bạn bè.",
+          "h": "Use 'I spend + amount' and 'I often/sometimes go with friends'.",
+          "s": "I spend fifteen dollars when I shop with friends. I often go with friends."
+        },
+        {
+          "p": "Are you cleaning your room and buying new towels today?",
+          "m": "Trả lời có đang làm hai việc cùng lúc hay không. Nói bạn có cần mua nhiều khăn không hoặc chỉ một.",
+          "h": "Use present continuous 'I am + V-ing' and 'I need + number'.",
+          "s": "I am cleaning my room now but not buying towels yet. I need two towels."
+        },
+        {
+          "p": "Do you like the items you bought online last week?",
+          "m": "Nói bạn có thích hàng mua online tuần trước hay không. Nói nếu bạn sẽ giữ hay trả.",
+          "h": "Use 'I like / I don't like' and 'I will keep / I will return'.",
+          "s": "I like the items I bought online last week. I will keep them."
+        },
+        {
+          "p": "Will you put your new clothes in the closet or on the chair?",
+          "m": "Nói bạn sẽ để quần áo mới ở đâu. Nói lý do ngắn cho lựa chọn.",
+          "h": "Use 'I will put + object + in/on + place' and 'because + reason'.",
+          "s": "I will put my new clothes in the closet. Because it is neat."
+        }
+      ]
+    }
+  ]
+}

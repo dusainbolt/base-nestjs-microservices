@@ -1,0 +1,530 @@
+{
+  "l": 2,
+  "d": [
+    {
+      "t": "Gặp bạn mới ở lớp",
+      "e": [
+        {
+          "p": "Hi, what's your name?",
+          "m": "Nói tên của bạn. Nói nơi bạn sống (thành phố).",
+          "h": "My name is + tên. I live in + thành phố.",
+          "s": "My name is [studentName]. I live in [studentCity]."
+        },
+        {
+          "p": "How old are you?",
+          "m": "Nói tuổi của bạn. Nói bạn là học sinh hay đi làm.",
+          "h": "I am + tuổi. I am a + nghề/học sinh.",
+          "s": "I am [studentAge] years old. I am a [studentJob]."
+        },
+        {
+          "p": "Do you like learning new words?",
+          "m": "Nói bạn thích hay không. Nói lý do ngắn (1 câu).",
+          "h": "I like / I don't like + N. Because + clause.",
+          "s": "I like learning new words. It helps me speak better."
+        },
+        {
+          "p": "Do you use slang with friends?",
+          "m": "Nói có hay không. Nói khi nào bạn dùng (ví dụ: với bạn bè).",
+          "h": "Yes/No, I (don't) use slang. I use it + with + people.",
+          "s": "Yes, I use slang. I use it with my friends."
+        },
+        {
+          "p": "What is one slang word you know?",
+          "m": "Nói một từ lóng đơn giản. Nói nghĩa ngắn (một cụm từ).",
+          "h": "Say the word. Say its simple meaning.",
+          "s": "The word is cool. It means good."
+        }
+      ]
+    },
+    {
+      "t": "Nói về sở thích ngôn ngữ",
+      "e": [
+        {
+          "p": "What do you like about English?",
+          "m": "Nói một điều bạn thích. Nói lý do ngắn gọn.",
+          "h": "I like + N/V-ing. Because + clause.",
+          "s": "I like English words. They make me happy."
+        },
+        {
+          "p": "Do you often use new words?",
+          "m": "Nói tần suất (always/often/sometimes). Nói ví dụ khi bạn dùng.",
+          "h": "I (always/often/sometimes) + V. I use them + when + clause.",
+          "s": "I often use new words. I use them when I chat."
+        },
+        {
+          "p": "Do you want to learn slang?",
+          "m": "Nói bạn có muốn hay không. Nói lý do ngắn.",
+          "h": "I want / I don't want + to V. Because + clause.",
+          "s": "I want to learn slang. It is fun to use."
+        },
+        {
+          "p": "How many new words do you learn each week?",
+          "m": "Nói số từ (one/two/three...). Nói bạn học ở đâu (ví dụ: lớp, app).",
+          "h": "There are / I learn + số + words. I learn them + where.",
+          "s": "I learn three words each week. I learn them in class."
+        },
+        {
+          "p": "Who do you talk with in English?",
+          "m": "Nói người bạn thường nói (friend/teacher). Nói nơi bạn nói (home/class).",
+          "h": "I talk with + person. I talk at + place.",
+          "s": "I talk with my friend. I talk at school."
+        }
+      ]
+    },
+    {
+      "t": "Ở quán cà phê: Từ ngữ thân mật",
+      "e": [
+        {
+          "p": "Can I join your table?",
+          "m": "Trả lời có hoặc không. Nói lý do ngắn (ví dụ: tôi đang chờ bạn).",
+          "h": "Yes/No. Because + clause.",
+          "s": "Yes, you can join. I am with a friend."
+        },
+        {
+          "p": "Do you say 'cool' often?",
+          "m": "Nói tần suất (always/often/sometimes). Nói ví dụ khi bạn nói.",
+          "h": "I (always/often/sometimes) say + word. I say it + when + clause.",
+          "s": "I sometimes say cool. I say it with friends."
+        },
+        {
+          "p": "What word do you use when something is funny?",
+          "m": "Nói một từ bạn dùng. Nói khi nào bạn dùng (ví dụ: at a joke).",
+          "h": "Say the word. Say the situation.",
+          "s": "I use the word funny. I use it at a joke."
+        },
+        {
+          "p": "Is this word polite here?",
+          "m": "Nói có hay không. Nói nơi nào nên dùng từ đó (ví dụ: with friends).",
+          "h": "Yes/No. Use it with + people/place.",
+          "s": "No, it is not polite here. Use it with friends."
+        },
+        {
+          "p": "How do you feel when people use slang?",
+          "m": "Nói cảm xúc ngắn (like/enjoy/feel strange). Nói lý do 1 câu.",
+          "h": "I feel + adjective. Because + clause.",
+          "s": "I feel happy. Because slang is fun."
+        }
+      ]
+    },
+    {
+      "t": "Chào hỏi theo văn hoá",
+      "e": [
+        {
+          "p": "How do people greet in your country?",
+          "m": "Nói một cách chào phổ biến. Nói nơi (ví dụ: at home, at school).",
+          "h": "Say the greeting. Say the place.",
+          "s": "People say hello. They say it at school."
+        },
+        {
+          "p": "Do you use informal words with elders?",
+          "m": "Nói có hay không. Nói nơi bạn làm điều đó (ví dụ: never/rarely).",
+          "h": "I (never/often) use + informal words. I do this + where.",
+          "s": "No, I never use informal words with elders. I talk politely at home."
+        },
+        {
+          "p": "What is a polite phrase you know?",
+          "m": "Nói một câu lịch sự ngắn. Nói khi nào dùng (ví dụ: when asking).",
+          "h": "Say a polite phrase. Say the situation.",
+          "s": "Please help me. I use it when asking."
+        },
+        {
+          "p": "Do people say slang in formal events?",
+          "m": "Nói có hay không. Nói nơi thích hợp cho slang (ví dụ: with friends).",
+          "h": "Yes/No. Use slang with + people/place.",
+          "s": "No, people do not say slang at formal events. They use it with friends."
+        },
+        {
+          "p": "How do you greet a teacher?",
+          "m": "Nói một câu chào đơn giản. Nói tần suất bạn làm điều đó.",
+          "h": "Say greeting. Say frequency (always/often).",
+          "s": "I say good morning. I always say it."
+        }
+      ]
+    },
+    {
+      "t": "Giải thích một từ lạ",
+      "e": [
+        {
+          "p": "What does 'cool' mean?",
+          "m": "Nói nghĩa đơn giản bằng tiếng Anh (1 câu). Nói một ví dụ khi dùng (1 câu).",
+          "h": "It means + simple. Use it + when/situation.",
+          "s": "It means good. I use it when I like something."
+        },
+        {
+          "p": "I heard 'awesome' today. Explain it.",
+          "m": "Nói nghĩa ngắn. Nói cảm xúc khi nghe từ đó.",
+          "h": "It means + simple. I feel + adjective.",
+          "s": "It means very good. I feel happy."
+        },
+        {
+          "p": "Is 'hey' formal or informal?",
+          "m": "Trả lời formal/informal. Nói nơi dùng (1 câu).",
+          "h": "It is + formal/informal. Use it + place/people.",
+          "s": "It is informal. Use it with friends."
+        },
+        {
+          "p": "Say one word that is informal.",
+          "m": "Nói một từ. Nói nghĩa ngắn gọn.",
+          "h": "Say word. Say meaning.",
+          "s": "The word is buddy. It means friend."
+        },
+        {
+          "p": "Why do people use slang?",
+          "m": "Nói một lý do. Nói kết quả ngắn (1 câu).",
+          "h": "People use slang to + V. Result: + clause.",
+          "s": "People use slang to feel close. It makes talk friendly."
+        }
+      ]
+    },
+    {
+      "t": "Kể chuyện ngắn về một câu nói",
+      "e": [
+        {
+          "p": "Tell me about a funny phrase you heard.",
+          "m": "Nói câu nói đó (1 câu). Nói nơi bạn nghe (1 câu).",
+          "h": "Say the phrase. Say the place.",
+          "s": "I heard the phrase cool. I heard it at school."
+        },
+        {
+          "p": "Who said it?",
+          "m": "Nói người (friend/teacher). Nói cảm xúc bạn có (1 câu).",
+          "h": "Say person. Say feeling.",
+          "s": "My friend said it. I felt happy."
+        },
+        {
+          "p": "Is the phrase common in your town?",
+          "m": "Trả lời yes/no. Nói tần suất bạn nghe (always/often/sometimes).",
+          "h": "Yes/No. Use frequency word.",
+          "s": "Yes, it is common. I hear it often."
+        },
+        {
+          "p": "Do you use that phrase now?",
+          "m": "Nói có hay không. Nói khi bạn dùng (1 câu).",
+          "h": "I (don't) use + phrase. I use it + when.",
+          "s": "No, I don't use that phrase now. I use it with friends."
+        },
+        {
+          "p": "How does that phrase make you feel?",
+          "m": "Nói cảm xúc (happy/strange). Nói lý do ngắn.",
+          "h": "I feel + adjective. Because + clause.",
+          "s": "I feel happy. Because it sounds fun."
+        }
+      ]
+    },
+    {
+      "t": "So sánh lời nói trang trọng và thân mật",
+      "e": [
+        {
+          "p": "Say a formal greeting and an informal one.",
+          "m": "Nói một câu chào trang trọng. Nói một câu chào thân mật.",
+          "h": "Give two greetings: formal / informal.",
+          "s": "Good morning. Hey."
+        },
+        {
+          "p": "Which one do you use with teachers?",
+          "m": "Nói bạn dùng formal hay informal. Nói tần suất (always/often).",
+          "h": "I use + formal/informal. Use frequency word.",
+          "s": "I use formal greetings. I always use them."
+        },
+        {
+          "p": "Which one do you use with friends?",
+          "m": "Nói bạn dùng formal hay informal. Nói ví dụ ngắn nơi dùng.",
+          "h": "I use + formal/informal. Example: + place.",
+          "s": "I use informal greetings. I use them with friends."
+        },
+        {
+          "p": "Is 'bye' formal?",
+          "m": "Trả lời yes/no. Nói nơi dùng phù hợp.",
+          "h": "Yes/No. Use it + where.",
+          "s": "No, bye is not formal. Use it with friends."
+        },
+        {
+          "p": "Do you feel comfortable with formal words?",
+          "m": "Nói cảm xúc (comfortable/strange). Nói lý do ngắn.",
+          "h": "I feel + adjective. Because + clause.",
+          "s": "I feel comfortable. Because teachers use them."
+        }
+      ]
+    },
+    {
+      "t": "Hỏi về tần suất dùng từ lóng",
+      "e": [
+        {
+          "p": "How often do you say 'cool'?",
+          "m": "Nói tần suất (always/often/sometimes/never). Nói một nơi bạn nói.",
+          "h": "I (always/often/sometimes/never) say + word. I say it + place.",
+          "s": "I sometimes say cool. I say it at school."
+        },
+        {
+          "p": "Do your parents use slang?",
+          "m": "Trả lời có hay không. Nói tần suất ngắn.",
+          "h": "Yes/No. They (always/often/sometimes/never) + V.",
+          "s": "No, my parents do not use slang. They rarely use it."
+        },
+        {
+          "p": "Do you use informal words on social media?",
+          "m": "Nói có hay không. Nói khi nào (ví dụ: every day).",
+          "h": "Yes/No. Use time word.",
+          "s": "Yes, I use informal words. I use them every day."
+        },
+        {
+          "p": "How many slang words do you know?",
+          "m": "Nói số từ (one/two/three). Nói bạn học chúng ở đâu.",
+          "h": "I know + number + words. I learn them + where.",
+          "s": "I know two slang words. I learn them from friends."
+        },
+        {
+          "p": "Do you still learn new informal words?",
+          "m": "Nói có hay không. Nói cách bạn học (1 câu).",
+          "h": "I still + V / I don't + V. I learn by + way.",
+          "s": "Yes, I still learn new words. I learn by listening."
+        }
+      ]
+    },
+    {
+      "t": "Tình huống hiểu nhầm từ ngữ",
+      "e": [
+        {
+          "p": "I don't understand this word. Can you explain?",
+          "m": "Nói nghĩa đơn giản (1 câu). Nói ví dụ ngắn (1 câu).",
+          "h": "It means + simple. Example: + short sentence.",
+          "s": "It means small. For example, a small cat."
+        },
+        {
+          "p": "They said 'right' and I was confused.",
+          "m": "Nói một nghĩa có thể. Nói khi người ta dùng (1 câu).",
+          "h": "One meaning: + clause. Use it + when.",
+          "s": "Right can mean correct. People say it when they agree."
+        },
+        {
+          "p": "How do you ask for a meaning politely?",
+          "m": "Nói câu hỏi ngắn (1 câu). Nói tần suất bạn hỏi (1 câu).",
+          "h": "Use 'What does ... mean?'. Say frequency word.",
+          "s": "What does this word mean? I often ask this."
+        },
+        {
+          "p": "Did you ever feel shy to ask?",
+          "m": "Trả lời có/không. Nói lý do ngắn.",
+          "h": "Yes/No. Because + clause.",
+          "s": "Yes, I felt shy. Because I was new."
+        },
+        {
+          "p": "Who helps you understand new words?",
+          "m": "Nói người giúp (friend/teacher). Nói nơi họ giúp bạn (1 câu).",
+          "h": "Say person. Say place.",
+          "s": "My teacher helps me. She helps me at school."
+        }
+      ]
+    },
+    {
+      "t": "Làm việc: dùng lời lịch sự",
+      "e": [
+        {
+          "p": "Can you say that more politely?",
+          "m": "Viết một câu lịch sự thay thế (1 câu). Nói khi dùng (1 câu).",
+          "h": "Give polite sentence. Say the situation.",
+          "s": "Could you please help me? I use it at work."
+        },
+        {
+          "p": "Do you use slang with coworkers?",
+          "m": "Trả lời có hay không. Nói nơi làm việc bạn dùng (1 câu).",
+          "h": "Yes/No. Use place/time.",
+          "s": "No, I do not use slang with coworkers. I use formal words at work."
+        },
+        {
+          "p": "How many polite phrases do you know?",
+          "m": "Nói số (one/two/three). Nói ví dụ một câu.",
+          "h": "I know + number. Give one example.",
+          "s": "I know two polite phrases. One is please."
+        },
+        {
+          "p": "Say 'thank you' in a formal way.",
+          "m": "Viết câu 'thank you' trang trọng (1 câu). Nói tần suất bạn dùng (1 câu).",
+          "h": "Give formal thank you. Use frequency word.",
+          "s": "Thank you very much. I often say it."
+        },
+        {
+          "p": "Do you feel different using formal words?",
+          "m": "Nói cảm xúc (comfortable/awkward). Nói lý do ngắn.",
+          "h": "I feel + adjective. Because + clause.",
+          "s": "I feel comfortable. Because people are polite."
+        }
+      ]
+    },
+    {
+      "t": "Mạng xã hội: bình luận đơn giản",
+      "e": [
+        {
+          "p": "Your photo is great!",
+          "m": "Phản hồi lời khen (1 câu). Nói cảm ơn và ai đã chụp (1 câu).",
+          "h": "Say thanks. Say who took it.",
+          "s": "Thank you. My friend took it."
+        },
+        {
+          "p": "Do you write short comments online?",
+          "m": "Nói có hay không. Nói ví dụ một câu bạn viết.",
+          "h": "Yes/No. Give one example comment.",
+          "s": "Yes, I write short comments. I write Nice photo."
+        },
+        {
+          "p": "Is it okay to use slang online?",
+          "m": "Trả lời yes/no. Nói nơi phù hợp (1 câu).",
+          "h": "Yes/No. Use place/people.",
+          "s": "Yes, it is okay online. Use it with friends."
+        },
+        {
+          "p": "How often do you post?",
+          "m": "Nói tần suất (always/often/sometimes/never). Nói nội dung bạn đăng (1 câu).",
+          "h": "I (always/often/sometimes/never) post. I post + content.",
+          "s": "I sometimes post. I post photos."
+        },
+        {
+          "p": "Do you read comments from others?",
+          "m": "Nói có hay không. Nói cảm xúc khi đọc (1 câu).",
+          "h": "Yes/No. I feel + adjective.",
+          "s": "Yes, I read comments. I feel happy."
+        }
+      ]
+    },
+    {
+      "t": "Kế hoạch học từ mới",
+      "e": [
+        {
+          "p": "Do you plan to learn slang this month?",
+          "m": "Trả lời có hay không. Nói cách bạn học (1 câu).",
+          "h": "Yes/No. I will learn by + way.",
+          "s": "Yes, I plan to learn slang. I will learn with friends."
+        },
+        {
+          "p": "How many words will you learn each week?",
+          "m": "Nói số từ. Nói nơi bạn học (class/app/friend).",
+          "h": "I will learn + number. I learn at + place.",
+          "s": "I will learn two words each week. I learn in class."
+        },
+        {
+          "p": "Do you want a study partner?",
+          "m": "Nói có hay không. Nói lý do ngắn.",
+          "h": "Yes/No. Because + clause.",
+          "s": "Yes, I want a study partner. Because it is fun."
+        },
+        {
+          "p": "When do you study new words?",
+          "m": "Nói thời điểm (every morning/evening). Nói tần suất (always/often).",
+          "h": "I study + time. I (always/often/sometimes) do this.",
+          "s": "I study every morning. I often do this."
+        },
+        {
+          "p": "Do you like learning from songs?",
+          "m": "Trả lời có hay không. Nói lý do ngắn (1 câu).",
+          "h": "Yes/No. Because + clause.",
+          "s": "Yes, I like learning from songs. Because songs are fun."
+        }
+      ]
+    },
+    {
+      "t": "Ôn tập: Giao tiếp hàng ngày",
+      "e": [
+        {
+          "p": "Hello, can you tell me your name and city?",
+          "m": "Nói tên bạn (1 câu). Nói bạn sống ở đâu (thành phố) (1 câu).",
+          "h": "My name is + name. I live in + city.",
+          "s": "My name is [studentName]. I live in [studentCity]."
+        },
+        {
+          "p": "Do you like informal words and why?",
+          "m": "Trả lời thích hay không (1 câu). Nói một lý do ngắn (1 câu).",
+          "h": "I like / I don't like + N. Because + clause.",
+          "s": "I like informal words. Because they are friendly."
+        },
+        {
+          "p": "How often do you use slang and where?",
+          "m": "Nói tần suất (always/often/sometimes). Nói nơi bạn dùng (1 câu).",
+          "h": "I (always/often/sometimes) + V. I use it + place.",
+          "s": "I often use slang. I use it with friends."
+        },
+        {
+          "p": "Give one polite and one informal greeting.",
+          "m": "Nói một câu lịch sự. Nói một câu thân mật.",
+          "h": "Formal greeting. Informal greeting.",
+          "s": "Good evening. Hi."
+        },
+        {
+          "p": "Who helps you learn new words and where?",
+          "m": "Nói người giúp (1 câu). Nói nơi họ giúp bạn (1 câu).",
+          "h": "Say person. Say place.",
+          "s": "My teacher helps me. She helps me at school."
+        }
+      ]
+    },
+    {
+      "t": "Ôn tập: Ở nơi làm việc và trường học",
+      "e": [
+        {
+          "p": "Do you use formal words at work or school?",
+          "m": "Nói nơi bạn dùng formal (work/school). Nói tần suất (always/often).",
+          "h": "I use formal words at + place. I (always/often) do this.",
+          "s": "I use formal words at school. I always do this."
+        },
+        {
+          "p": "Say a polite sentence for asking help.",
+          "m": "Viết câu lịch sự (1 câu). Nói khi bạn dùng (1 câu).",
+          "h": "Give polite sentence. Say the situation.",
+          "s": "Could you help me please? I use it in class."
+        },
+        {
+          "p": "Is slang okay with teachers?",
+          "m": "Trả lời yes/no. Nói lý do ngắn (1 câu).",
+          "h": "Yes/No. Because + clause.",
+          "s": "No, slang is not okay with teachers. Because it is informal."
+        },
+        {
+          "p": "How many polite phrases do you use each day?",
+          "m": "Nói số (one/two/three). Nói ví dụ một câu bạn dùng.",
+          "h": "I use + number. Give one example.",
+          "s": "I use two polite phrases. One is thank you."
+        },
+        {
+          "p": "Do you feel different speaking formally?",
+          "m": "Nói cảm xúc (comfortable/awkward). Nói lý do ngắn (1 câu).",
+          "h": "I feel + adjective. Because + clause.",
+          "s": "I feel comfortable. Because people are polite."
+        }
+      ]
+    },
+    {
+      "t": "Ôn tập: Mạng xã hội và văn hoá",
+      "e": [
+        {
+          "p": "Do you post informal comments online?",
+          "m": "Trả lời có hay không. Nói ví dụ một comment (1 câu).",
+          "h": "Yes/No. Give example comment.",
+          "s": "Yes, I post informal comments. I write Nice photo."
+        },
+        {
+          "p": "How often do you read cultural posts?",
+          "m": "Nói tần suất (always/often/sometimes). Nói nơi bạn đọc (1 câu).",
+          "h": "I (always/often/sometimes) read them. I read on + place.",
+          "s": "I sometimes read cultural posts. I read them on social media."
+        },
+        {
+          "p": "Is it polite to use slang about culture?",
+          "m": "Trả lời yes/no. Nói nơi phù hợp (1 câu).",
+          "h": "Yes/No. Use place/people.",
+          "s": "No, it is not polite about culture. Use respectful words."
+        },
+        {
+          "p": "Who do you follow for language tips?",
+          "m": "Nói người/nguồn (friend/teacher/page). Nói vì sao bạn theo dõi (1 câu).",
+          "h": "Say person/source. Say reason.",
+          "s": "I follow my teacher. She gives short tips."
+        },
+        {
+          "p": "Do you still learn about expressions online?",
+          "m": "Trả lời có hay không. Nói cách bạn học (1 câu).",
+          "h": "Yes/No. I learn by + way.",
+          "s": "Yes, I still learn online. I learn by watching videos."
+        }
+      ]
+    }
+  ]
+}

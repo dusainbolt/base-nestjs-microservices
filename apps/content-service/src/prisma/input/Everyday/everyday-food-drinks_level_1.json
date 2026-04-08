@@ -1,0 +1,635 @@
+{
+  "l": 1,
+  "d": [
+    {
+      "t": "Ăn sáng ở nhà",
+      "e": [
+        {
+          "p": "What do you eat for breakfast?",
+          "m": "Nói 1 câu: bạn ăn gì vào bữa sáng.",
+          "h": "Use 'I eat ...'.",
+          "s": "I eat bread."
+        },
+        {
+          "p": "Do you drink milk in the morning?",
+          "m": "Nói 1 câu: bạn có uống sữa vào buổi sáng không.",
+          "h": "Use 'I drink ...' or 'I don't drink ...'.",
+          "s": "I drink milk."
+        },
+        {
+          "p": "Can you cook an egg?",
+          "m": "Nói 1 câu: bạn có thể nấu trứng không.",
+          "h": "Use 'I can ...' or 'I can't ...'.",
+          "s": "I can cook an egg."
+        },
+        {
+          "p": "There is a cup on the table.",
+          "m": "Nói 1 câu: nói về đồ ăn/đồ uống trên bàn.",
+          "h": "Use 'There is ...' or 'There are ...'.",
+          "s": "There is a cup on the table."
+        },
+        {
+          "p": "Where do you have breakfast?",
+          "m": "Nói 1 câu: bạn ăn sáng ở đâu.",
+          "h": "Use 'I have breakfast at ...'.",
+          "s": "I have breakfast at home."
+        }
+      ]
+    },
+    {
+      "t": "Gọi đồ ở quán cà phê nhỏ",
+      "e": [
+        {
+          "p": "What do you want to drink?",
+          "m": "Nói 1 câu: bạn muốn uống gì.",
+          "h": "Use 'I want ...' or 'I want to drink ...'.",
+          "s": "I want tea."
+        },
+        {
+          "p": "Do you want coffee or tea?",
+          "m": "Nói 1 câu: chọn giữa cà phê và trà.",
+          "h": "Use 'I want ...' (one word).",
+          "s": "I want coffee."
+        },
+        {
+          "p": "Can I have a small coffee?",
+          "m": "Nói 1 câu: trả lời nếu bạn muốn cốc nhỏ.",
+          "h": "Use 'Yes, I want ...' or 'No, I want ...'.",
+          "s": "Yes, I want a small coffee."
+        },
+        {
+          "p": "Is there milk in the coffee?",
+          "m": "Nói 1 câu: có sữa trong cà phê không.",
+          "h": "Use 'There is ...' or 'There is no ...'.",
+          "s": "There is milk in the coffee."
+        },
+        {
+          "p": "Do you like sugar in your drink?",
+          "m": "Nói 1 câu: bạn có thích đường trong đồ uống không.",
+          "h": "Use 'I like ...' or 'I don't like ...'.",
+          "s": "I don't like sugar in my drink."
+        }
+      ]
+    },
+    {
+      "t": "Mô tả món ăn yêu thích",
+      "e": [
+        {
+          "p": "What is your favorite food?",
+          "m": "Nói 1 câu: món ăn yêu thích của bạn là gì.",
+          "h": "Use 'My favorite food is ...'.",
+          "s": "My favorite food is rice."
+        },
+        {
+          "p": "Do you like soup?",
+          "m": "Nói 1 câu: bạn có thích súp không.",
+          "h": "Use 'I like ...' or 'I don't like ...'.",
+          "s": "I like soup."
+        },
+        {
+          "p": "What do you eat with rice?",
+          "m": "Nói 1 câu: bạn ăn gì kèm với cơm.",
+          "h": "Use 'I eat ... with rice.'",
+          "s": "I eat chicken with rice."
+        },
+        {
+          "p": "Can you eat spicy food?",
+          "m": "Nói 1 câu: bạn có ăn được đồ cay không.",
+          "h": "Use 'I can ...' or 'I can't ...'.",
+          "s": "I can eat spicy food."
+        },
+        {
+          "p": "Where do you eat your favorite food?",
+          "m": "Nói 1 câu: bạn ăn món yêu thích ở đâu.",
+          "h": "Use 'I eat ... at ...'.",
+          "s": "I eat my favorite food at home."
+        }
+      ]
+    },
+    {
+      "t": "Mua thức ăn ở siêu thị",
+      "e": [
+        {
+          "p": "What do you buy at the market?",
+          "m": "Nói 1 câu: bạn mua gì ở chợ/siêu thị.",
+          "h": "Use 'I buy ...'.",
+          "s": "I buy fruit."
+        },
+        {
+          "p": "Do you buy water?",
+          "m": "Nói 1 câu: bạn có mua nước không.",
+          "h": "Use 'I buy ...' or 'I don't buy ...'.",
+          "s": "I buy water."
+        },
+        {
+          "p": "There are apples in the bag.",
+          "m": "Nói 1 câu: mô tả đồ bạn có trong túi.",
+          "h": "Use 'There are ...' or 'There is ...'.",
+          "s": "There are apples in the bag."
+        },
+        {
+          "p": "Can you find bread here?",
+          "m": "Nói 1 câu: trả lời nếu bạn tìm thấy bánh mì ở đây.",
+          "h": "Use 'You can find ...' or 'You can't find ...'.",
+          "s": "You can find bread here."
+        },
+        {
+          "p": "Do you like to buy fresh fruit?",
+          "m": "Nói 1 câu: bạn có thích mua trái cây tươi không.",
+          "h": "Use 'I like ...' or 'I don't like ...'.",
+          "s": "I like to buy fresh fruit."
+        }
+      ]
+    },
+    {
+      "t": "Ăn trưa ở trường",
+      "e": [
+        {
+          "p": "What do you eat for lunch at school?",
+          "m": "Nói 1 câu: bạn ăn gì vào bữa trưa ở trường.",
+          "h": "Use 'I eat ...' or 'I have ...'.",
+          "s": "I eat rice at lunch."
+        },
+        {
+          "p": "Do you bring a drink from home?",
+          "m": "Nói 1 câu: bạn có mang đồ uống từ nhà không.",
+          "h": "Use 'I bring ...' or 'I don't bring ...'.",
+          "s": "I bring water from home."
+        },
+        {
+          "p": "Who do you eat with?",
+          "m": "Nói 1 câu: bạn ăn cùng ai.",
+          "h": "Use 'I eat with ...'.",
+          "s": "I eat with my friend."
+        },
+        {
+          "p": "There is a sandwich in my box.",
+          "m": "Nói 1 câu: mô tả đồ ăn trong hộp của bạn.",
+          "h": "Use 'There is ...' or 'There are ...'.",
+          "s": "There is a sandwich in my box."
+        },
+        {
+          "p": "Do you like the school food?",
+          "m": "Nói 1 câu: bạn có thích đồ ăn ở trường không.",
+          "h": "Use 'I like ...' or 'I don't like ...'.",
+          "s": "I like the school food."
+        }
+      ]
+    },
+    {
+      "t": "Chuẩn bị bữa tối đơn giản",
+      "e": [
+        {
+          "p": "What do you cook for dinner?",
+          "m": "Nói 1 câu: bạn nấu gì cho bữa tối.",
+          "h": "Use 'I cook ...'.",
+          "s": "I cook rice and soup."
+        },
+        {
+          "p": "Can you make a salad?",
+          "m": "Nói 1 câu: bạn có thể làm món salad không.",
+          "h": "Use 'I can ...' or 'I can't ...'.",
+          "s": "I can make a salad."
+        },
+        {
+          "p": "Do you cook every night?",
+          "m": "Nói 1 câu: bạn có nấu ăn mỗi tối không.",
+          "h": "Use 'I cook every night.' or 'I don't cook every night.'",
+          "s": "I don't cook every night."
+        },
+        {
+          "p": "There is fish on the plate.",
+          "m": "Nói 1 câu: mô tả món ăn trên đĩa.",
+          "h": "Use 'There is ... on the ...'.",
+          "s": "There is fish on the plate."
+        },
+        {
+          "p": "Who helps you in the kitchen?",
+          "m": "Nói 1 câu: ai giúp bạn trong bếp.",
+          "h": "Use 'My ... helps me.' or 'I help myself.'",
+          "s": "My mother helps me in the kitchen."
+        }
+      ]
+    },
+    {
+      "t": "Ăn ngoài cùng bạn bè",
+      "e": [
+        {
+          "p": "What do you want to eat with friends?",
+          "m": "Nói 1 câu: bạn muốn ăn gì cùng bạn bè.",
+          "h": "Use 'I want to eat ...'.",
+          "s": "I want to eat noodles."
+        },
+        {
+          "p": "Do you like to share food?",
+          "m": "Nói 1 câu: bạn có thích chia sẻ đồ ăn không.",
+          "h": "Use 'I like ...' or 'I don't like ...'.",
+          "s": "I like to share food."
+        },
+        {
+          "p": "Can you order for the table?",
+          "m": "Nói 1 câu: bạn có thể gọi món cho cả bàn không.",
+          "h": "Use 'I can ...' or 'I can't ...'.",
+          "s": "I can order for the table."
+        },
+        {
+          "p": "There are five people at the table.",
+          "m": "Nói 1 câu: mô tả số người ở bàn.",
+          "h": "Use 'There are ... people at the table.'",
+          "s": "There are five people at the table."
+        },
+        {
+          "p": "Who pays the bill today?",
+          "m": "Nói 1 câu: ai trả tiền hôm nay.",
+          "h": "Use 'My ... pays.' or 'I pay.'",
+          "s": "My father pays the bill today."
+        }
+      ]
+    },
+    {
+      "t": "Đề nghị chia đồ ăn",
+      "e": [
+        {
+          "p": "Do you want some cake?",
+          "m": "Nói 1 câu: bạn có muốn một ít bánh ngọt không.",
+          "h": "Use 'Yes, I want ...' or 'No, I don't want ...'.",
+          "s": "Yes, I want some cake."
+        },
+        {
+          "p": "Can I have a piece?",
+          "m": "Nói 1 câu: bạn có thể nhận một miếng không.",
+          "h": "Use 'You can ...' or 'You can't ...'.",
+          "s": "You can have a piece."
+        },
+        {
+          "p": "Do you like this drink?",
+          "m": "Nói 1 câu: bạn có thích đồ uống này không.",
+          "h": "Use 'I like ...' or 'I don't like ...'.",
+          "s": "I like this drink."
+        },
+        {
+          "p": "There is a big cake on the table.",
+          "m": "Nói 1 câu: mô tả đồ ăn ở giữa bàn.",
+          "h": "Use 'There is ...' or 'There are ...'.",
+          "s": "There is a big cake on the table."
+        },
+        {
+          "p": "Who wants more rice?",
+          "m": "Nói 1 câu: ai muốn thêm cơm.",
+          "h": "Use 'I want more ...' or 'I don't want more ...'.",
+          "s": "I want more rice."
+        }
+      ]
+    },
+    {
+      "t": "Mô tả đồ uống hàng ngày",
+      "e": [
+        {
+          "p": "What do you drink every day?",
+          "m": "Nói 1 câu: bạn uống gì mỗi ngày.",
+          "h": "Use 'I drink ... every day.'",
+          "s": "I drink water every day."
+        },
+        {
+          "p": "Do you drink juice in the morning?",
+          "m": "Nói 1 câu: bạn có uống nước ép vào buổi sáng không.",
+          "h": "Use 'I drink ...' or 'I don't drink ...'.",
+          "s": "I drink juice in the morning."
+        },
+        {
+          "p": "Can you drink hot tea?",
+          "m": "Nói 1 câu: bạn có uống trà nóng được không.",
+          "h": "Use 'I can ...' or 'I can't ...'.",
+          "s": "I can drink hot tea."
+        },
+        {
+          "p": "There is water in my bottle.",
+          "m": "Nói 1 câu: mô tả chai nước của bạn.",
+          "h": "Use 'There is ... in my ...'.",
+          "s": "There is water in my bottle."
+        },
+        {
+          "p": "Do you like cold drinks now?",
+          "m": "Nói 1 câu: bây giờ bạn có thích đồ uống lạnh không.",
+          "h": "Use 'I like ...' or 'I don't like ...'.",
+          "s": "I like cold drinks now."
+        }
+      ]
+    },
+    {
+      "t": "Ăn vặt buổi chiều",
+      "e": [
+        {
+          "p": "What snack do you want?",
+          "m": "Nói 1 câu: bạn muốn ăn vặt gì.",
+          "h": "Use 'I want ...' or 'I want to eat ...'.",
+          "s": "I want fruit."
+        },
+        {
+          "p": "Do you eat snacks after school?",
+          "m": "Nói 1 câu: bạn có ăn vặt sau giờ học không.",
+          "h": "Use 'I eat ...' or 'I don't eat ...'.",
+          "s": "I eat snacks after school."
+        },
+        {
+          "p": "Can you share your snack?",
+          "m": "Nói 1 câu: bạn có thể chia đồ ăn vặt không.",
+          "h": "Use 'I can ...' or 'I can't ...'.",
+          "s": "I can share my snack."
+        },
+        {
+          "p": "There are two cookies on the plate.",
+          "m": "Nói 1 câu: mô tả số lượng trên đĩa.",
+          "h": "Use 'There are ...' or 'There is ...'.",
+          "s": "There are two cookies on the plate."
+        },
+        {
+          "p": "Who eats the snack first?",
+          "m": "Nói 1 câu: ai ăn đồ ăn vặt trước.",
+          "h": "Use 'My ... eats first.' or 'I eat first.'",
+          "s": "My brother eats the snack first."
+        }
+      ]
+    },
+    {
+      "t": "Ăn tối với gia đình",
+      "e": [
+        {
+          "p": "What do you eat for dinner with your family?",
+          "m": "Nói 1 câu: bạn ăn gì cho bữa tối cùng gia đình.",
+          "h": "Use 'I eat ... with my family.'",
+          "s": "I eat chicken with my family."
+        },
+        {
+          "p": "Do you help to set the table?",
+          "m": "Nói 1 câu: bạn có giúp dọn bàn ăn không.",
+          "h": "Use 'I help ...' or 'I don't help ...'.",
+          "s": "I help set the table."
+        },
+        {
+          "p": "Can you cook rice tonight?",
+          "m": "Nói 1 câu: bạn có thể nấu cơm tối nay không.",
+          "h": "Use 'I can ...' or 'I can't ...'.",
+          "s": "I can cook rice tonight."
+        },
+        {
+          "p": "There is soup for dinner.",
+          "m": "Nói 1 câu: mô tả món trong bữa tối.",
+          "h": "Use 'There is ...' or 'There are ...'.",
+          "s": "There is soup for dinner."
+        },
+        {
+          "p": "Who sits next to you at dinner?",
+          "m": "Nói 1 câu: ai ngồi bên cạnh bạn khi ăn tối.",
+          "h": "Use 'My ... sits next to me.' or 'I sit next to ...'.",
+          "s": "My sister sits next to me at dinner."
+        }
+      ]
+    },
+    {
+      "t": "Ăn khi đi du lịch ngắn",
+      "e": [
+        {
+          "p": "What do you eat on the trip?",
+          "m": "Nói 1 câu: bạn ăn gì khi đi du lịch.",
+          "h": "Use 'I eat ...' or 'I have ...'.",
+          "s": "I eat fruit on the trip."
+        },
+        {
+          "p": "Do you drink water when you travel?",
+          "m": "Nói 1 câu: bạn có uống nước khi đi không.",
+          "h": "Use 'I drink ...' or 'I don't drink ...'.",
+          "s": "I drink water when I travel."
+        },
+        {
+          "p": "Can you find a shop here?",
+          "m": "Nói 1 câu: bạn có thể tìm cửa hàng ở đây không.",
+          "h": "Use 'You can ...' or 'You can't ...'.",
+          "s": "You can find a shop here."
+        },
+        {
+          "p": "There is a small cafe near the bus stop.",
+          "m": "Nói 1 câu: mô tả chỗ ăn gần đây.",
+          "h": "Use 'There is ... near ...'.",
+          "s": "There is a small cafe near the bus stop."
+        },
+        {
+          "p": "Who buys the food on the trip?",
+          "m": "Nói 1 câu: ai mua đồ ăn khi đi du lịch.",
+          "h": "Use 'My ... buys ...' or 'I buy ...'.",
+          "s": "My mother buys the food on the trip."
+        }
+      ]
+    },
+    {
+      "t": "Nói về sở thích đồ ngọt vs đồ mặn",
+      "e": [
+        {
+          "p": "Do you like sweet food?",
+          "m": "Nói 1 câu: bạn có thích đồ ngọt không.",
+          "h": "Use 'I like ...' or 'I don't like ...'.",
+          "s": "I like sweet food."
+        },
+        {
+          "p": "Do you prefer salty food?",
+          "m": "Nói 1 câu: bạn có thích đồ mặn không.",
+          "h": "Use 'I prefer ...' or 'I don't prefer ...'.",
+          "s": "I prefer salty food."
+        },
+        {
+          "p": "Can you eat sweet and salty together?",
+          "m": "Nói 1 câu: bạn có thể ăn ngọt và mặn cùng nhau không.",
+          "h": "Use 'I can ...' or 'I can't ...'.",
+          "s": "I can eat sweet and salty together."
+        },
+        {
+          "p": "There is sweet sauce on the table.",
+          "m": "Nói 1 câu: mô tả nước chấm hoặc sốt trên bàn.",
+          "h": "Use 'There is ... on the table.'",
+          "s": "There is sweet sauce on the table."
+        },
+        {
+          "p": "Who likes sweet food in your family?",
+          "m": "Nói 1 câu: ai trong gia đình bạn thích đồ ngọt.",
+          "h": "Use 'My ... likes ...' or 'I like ...'.",
+          "s": "My sister likes sweet food in my family."
+        }
+      ]
+    },
+    {
+      "t": "Ăn sáng khi vội",
+      "e": [
+        {
+          "p": "What quick food do you eat in the morning?",
+          "m": "Nói 1 câu: bạn ăn nhanh gì khi vội.",
+          "h": "Use 'I eat ...' or 'I have ...'.",
+          "s": "I have a banana."
+        },
+        {
+          "p": "Do you drink coffee when you are late?",
+          "m": "Nói 1 câu: bạn có uống cà phê khi trễ không.",
+          "h": "Use 'I drink ...' or 'I don't drink ...'.",
+          "s": "I drink coffee when I am late."
+        },
+        {
+          "p": "Can you eat while you walk?",
+          "m": "Nói 1 câu: bạn có thể ăn khi đi bộ không.",
+          "h": "Use 'I can ...' or 'I can't ...'.",
+          "s": "I can eat while I walk."
+        },
+        {
+          "p": "There is a sandwich in my bag.",
+          "m": "Nói 1 câu: mô tả đồ ăn nhanh trong túi.",
+          "h": "Use 'There is ... in my ...'.",
+          "s": "There is a sandwich in my bag."
+        },
+        {
+          "p": "Who eats fast in the morning?",
+          "m": "Nói 1 câu: ai ăn nhanh vào buổi sáng.",
+          "h": "Use 'My ... eats fast.' or 'I eat fast.'",
+          "s": "I eat fast in the morning."
+        }
+      ]
+    },
+    {
+      "t": "Ăn chay đơn giản",
+      "e": [
+        {
+          "p": "Do you eat vegetables every day?",
+          "m": "Nói 1 câu: bạn có ăn rau mỗi ngày không.",
+          "h": "Use 'I eat ...' or 'I don't eat ...'.",
+          "s": "I eat vegetables every day."
+        },
+        {
+          "p": "What fruit do you like?",
+          "m": "Nói 1 câu: bạn thích trái cây nào.",
+          "h": "Use 'I like ...'.",
+          "s": "I like apples."
+        },
+        {
+          "p": "Can you make a vegetarian meal?",
+          "m": "Nói 1 câu: bạn có thể làm một bữa chay không.",
+          "h": "Use 'I can ...' or 'I can't ...'.",
+          "s": "I can make a vegetarian meal."
+        },
+        {
+          "p": "There is salad on the plate.",
+          "m": "Nói 1 câu: mô tả món chay trên đĩa.",
+          "h": "Use 'There is ... on the ...'.",
+          "s": "There is salad on the plate."
+        },
+        {
+          "p": "Who cooks vegetables at home?",
+          "m": "Nói 1 câu: ai nấu rau ở nhà.",
+          "h": "Use 'My ... cooks ...' or 'I cook ...'.",
+          "s": "My mother cooks vegetables at home."
+        }
+      ]
+    },
+    {
+      "t": "Ôn tập: Bữa ăn hàng ngày",
+      "e": [
+        {
+          "p": "What do you eat today?",
+          "m": "Nói 1 câu: bạn ăn gì hôm nay.",
+          "h": "Use 'I eat ...' or 'I had ...'.",
+          "s": "I eat rice and soup today."
+        },
+        {
+          "p": "Do you drink tea every day?",
+          "m": "Nói 1 câu: bạn có uống trà mỗi ngày không.",
+          "h": "Use 'I drink ...' or 'I don't drink ...'.",
+          "s": "I drink tea every day."
+        },
+        {
+          "p": "Can you cook your lunch?",
+          "m": "Nói 1 câu: bạn có thể nấu bữa trưa của mình không.",
+          "h": "Use 'I can ...' or 'I can't ...'.",
+          "s": "I can cook my lunch."
+        },
+        {
+          "p": "There are three dishes on the table.",
+          "m": "Nói 1 câu: mô tả số món trên bàn.",
+          "h": "Use 'There are ...' or 'There is ...'.",
+          "s": "There are three dishes on the table."
+        },
+        {
+          "p": "Who eats with you every day?",
+          "m": "Nói 1 câu: ai ăn cùng bạn mỗi ngày.",
+          "h": "Use 'My ... eats with me.'",
+          "s": "My father eats with me every day."
+        }
+      ]
+    },
+    {
+      "t": "Ôn tập: Ở quán ăn",
+      "e": [
+        {
+          "p": "What do you order at a restaurant?",
+          "m": "Nói 1 câu: bạn gọi món gì ở quán ăn.",
+          "h": "Use 'I order ...' or 'I want ...'.",
+          "s": "I order chicken and rice."
+        },
+        {
+          "p": "Do you like the menu here?",
+          "m": "Nói 1 câu: bạn có thích thực đơn ở đây không.",
+          "h": "Use 'I like ...' or 'I don't like ...'.",
+          "s": "I like the menu here."
+        },
+        {
+          "p": "Can you pay by card?",
+          "m": "Nói 1 câu: bạn có thể trả bằng thẻ không.",
+          "h": "Use 'I can ...' or 'I can't ...'.",
+          "s": "I can pay by card."
+        },
+        {
+          "p": "There is a small table near the window.",
+          "m": "Nói 1 câu: mô tả chỗ ngồi ở quán.",
+          "h": "Use 'There is ... near ...'.",
+          "s": "There is a small table near the window."
+        },
+        {
+          "p": "Who brings the food to the table?",
+          "m": "Nói 1 câu: ai mang đồ ăn lên bàn.",
+          "h": "Use 'The ... brings ...' or 'A ... brings ...'.",
+          "s": "The waiter brings the food to the table."
+        }
+      ]
+    },
+    {
+      "t": "Ôn tập: Sở thích ăn uống",
+      "e": [
+        {
+          "p": "What food do you like best?",
+          "m": "Nói 1 câu: bạn thích món ăn nào nhất.",
+          "h": "Use 'I like ... best.'",
+          "s": "I like rice best."
+        },
+        {
+          "p": "Do you prefer tea or coffee?",
+          "m": "Nói 1 câu: bạn thích trà hay cà phê hơn.",
+          "h": "Use 'I prefer ...' or 'I like ... more.'",
+          "s": "I prefer tea."
+        },
+        {
+          "p": "Can you eat fish every day?",
+          "m": "Nói 1 câu: bạn có thể ăn cá mỗi ngày không.",
+          "h": "Use 'I can ...' or 'I can't ...'.",
+          "s": "I can eat fish every day."
+        },
+        {
+          "p": "There are many fruits on the table.",
+          "m": "Nói 1 câu: mô tả số lượng trái cây trên bàn.",
+          "h": "Use 'There are ...' or 'There is ...'.",
+          "s": "There are many fruits on the table."
+        },
+        {
+          "p": "Who cooks your favorite meal?",
+          "m": "Nói 1 câu: ai nấu bữa ăn yêu thích của bạn.",
+          "h": "Use 'My ... cooks ...' or 'I cook ...'.",
+          "s": "My mother cooks my favorite meal."
+        }
+      ]
+    }
+  ]
+}

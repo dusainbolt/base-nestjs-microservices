@@ -1,0 +1,530 @@
+{
+  "l": 1,
+  "d": [
+    {
+      "t": "Gặp người mới sau chuyến đi",
+      "e": [
+        {
+          "p": "Where did you go?",
+          "m": "Nói nơi bạn đến (ví dụ: beach, park).",
+          "h": "Use 'I went to ...'.",
+          "s": "I went to the beach."
+        },
+        {
+          "p": "When did you go?",
+          "m": "Nói thời gian đơn giản (ví dụ: last weekend).",
+          "h": "Use 'I went last ...' or 'I went yesterday.'",
+          "s": "I went last weekend."
+        },
+        {
+          "p": "Who did you go with?",
+          "m": "Nói một người đi cùng (mother, father, friend).",
+          "h": "Use 'I went with my ...'.",
+          "s": "I went with my brother."
+        },
+        {
+          "p": "How did you go there?",
+          "m": "Nói phương tiện đơn giản (by car, by bus, on foot).",
+          "h": "Use 'I went by ...' or past 'I went by ...'.",
+          "s": "I went by bus."
+        },
+        {
+          "p": "Did you like the place?",
+          "m": "Nói yes/no và 1 từ mô tả (good/bad).",
+          "h": "Use 'Yes, it was ...' or 'No, it was ...'.",
+          "s": "Yes, it was good."
+        }
+      ]
+    },
+    {
+      "t": "Nói về nơi đi chơi cuối tuần",
+      "e": [
+        {
+          "p": "Is the place near your home?",
+          "m": "Nói gần hay xa (near/far).",
+          "h": "Use 'It is near.' or 'It is far.'",
+          "s": "It is near my home."
+        },
+        {
+          "p": "What is the place like?",
+          "m": "Mô tả ngắn: big/small/beautiful.",
+          "h": "Use 'It is + adj.'",
+          "s": "It is small."
+        },
+        {
+          "p": "Are there many people?",
+          "m": "Nói có nhiều người hay không.",
+          "h": "Use 'There are many people.' or 'There are few people.'",
+          "s": "There are many people."
+        },
+        {
+          "p": "Is it clean?",
+          "m": "Trả lời yes/no và một tính từ (clean/dirty).",
+          "h": "Use 'Yes, it is clean.' or 'No, it is dirty.'",
+          "s": "Yes, it is clean."
+        },
+        {
+          "p": "Do you go there often?",
+          "m": "Nói yes/no về tần suất.",
+          "h": "Use 'Yes, I go there often.' or 'No, I do not.'",
+          "s": "No, I do not go there often."
+        }
+      ]
+    },
+    {
+      "t": "Mô tả ai đi cùng",
+      "e": [
+        {
+          "p": "Who is your travel companion?",
+          "m": "Nói quan hệ người đi cùng (brother, friend, mother).",
+          "h": "Use 'I went with my ...'.",
+          "s": "I went with my brother."
+        },
+        {
+          "p": "How many people were there?",
+          "m": "Nói số người (one, two, three).",
+          "h": "Use 'There were + number of us.'",
+          "s": "There were three of us."
+        },
+        {
+          "p": "Is your companion older or younger?",
+          "m": "Nói older hoặc younger.",
+          "h": "Use 'He/She is older/younger.'",
+          "s": "He is younger."
+        },
+        {
+          "p": "Does your family like to travel?",
+          "m": "Nói yes/no cho thói quen gia đình.",
+          "h": "Use 'Yes, they like to travel.' or 'No, they do not.'",
+          "s": "Yes, they like to travel."
+        },
+        {
+          "p": "Who paid for the trip?",
+          "m": "Nói người trả tiền (I, my parents, my friend).",
+          "h": "Use 'My parents paid.' or 'I paid.'",
+          "s": "My parents paid."
+        }
+      ]
+    },
+    {
+      "t": "Nói về hoạt động khi đi",
+      "e": [
+        {
+          "p": "What did you do there?",
+          "m": "Nói một hoạt động bạn đã làm (swim, eat, walk).",
+          "h": "Use past verb: 'I + past verb'.",
+          "s": "I swam."
+        },
+        {
+          "p": "Did you take photos?",
+          "m": "Trả lời yes/no về việc chụp ảnh.",
+          "h": "Use 'Yes, I took photos.' or 'No, I did not.'",
+          "s": "Yes, I took photos."
+        },
+        {
+          "p": "What food did you eat?",
+          "m": "Nói một món ăn (rice, fish).",
+          "h": "Use 'I ate + food.'",
+          "s": "I ate rice."
+        },
+        {
+          "p": "Did you play games there?",
+          "m": "Trả lời yes/no về chơi game.",
+          "h": "Use 'Yes, we played games.' or 'No, we did not.'",
+          "s": "No, we did not play games."
+        },
+        {
+          "p": "How long did you stay?",
+          "m": "Nói thời lượng đơn giản (one day, two days).",
+          "h": "Use 'I stayed for + time.'",
+          "s": "I stayed for two days."
+        }
+      ]
+    },
+    {
+      "t": "Ăn uống khi đi",
+      "e": [
+        {
+          "p": "What did you eat there?",
+          "m": "Nói một món bạn đã ăn.",
+          "h": "Use 'I ate + food.'",
+          "s": "I ate fish."
+        },
+        {
+          "p": "Did you drink water?",
+          "m": "Trả lời yes/no về uống nước.",
+          "h": "Use 'Yes, I drank water.' or 'No, I did not.'",
+          "s": "Yes, I drank water."
+        },
+        {
+          "p": "Was the food good?",
+          "m": "Nói good hoặc bad về đồ ăn.",
+          "h": "Use 'It was good.' or 'It was bad.'",
+          "s": "It was good."
+        },
+        {
+          "p": "Do you like local food?",
+          "m": "Nói yes/no về thích đồ ăn địa phương.",
+          "h": "Use 'Yes, I like local food.' or 'No, I do not.'",
+          "s": "Yes, I like local food."
+        },
+        {
+          "p": "Who paid for the meal?",
+          "m": "Nói người trả tiền cho bữa ăn.",
+          "h": "Use 'My friend paid.' or 'My parents paid.'",
+          "s": "My friend paid."
+        }
+      ]
+    },
+    {
+      "t": "Thời tiết và đồ dùng",
+      "e": [
+        {
+          "p": "How was the weather there?",
+          "m": "Nói một tính từ mô tả thời tiết (sunny, rainy, cold).",
+          "h": "Use 'It was + adj.'",
+          "s": "It was sunny."
+        },
+        {
+          "p": "Did you wear a coat?",
+          "m": "Trả lời yes/no về mặc áo khoác.",
+          "h": "Use 'Yes, I wore a coat.' or 'No, I did not.'",
+          "s": "No, I did not wear a coat."
+        },
+        {
+          "p": "Did you take an umbrella?",
+          "m": "Trả lời yes/no về mang ô.",
+          "h": "Use 'Yes, I took an umbrella.' or 'No, I did not.'",
+          "s": "Yes, I took an umbrella."
+        },
+        {
+          "p": "Was it hot or cold?",
+          "m": "Chọn hot hoặc cold.",
+          "h": "Use 'It was hot.' or 'It was cold.'",
+          "s": "It was hot."
+        },
+        {
+          "p": "Did you bring a camera?",
+          "m": "Trả lời yes/no về mang máy ảnh.",
+          "h": "Use 'Yes, I brought a camera.' or 'No, I did not.'",
+          "s": "Yes, I brought a camera."
+        }
+      ]
+    },
+    {
+      "t": "Thói quen du lịch",
+      "e": [
+        {
+          "p": "Do you travel every weekend?",
+          "m": "Nói yes/no về thói quen đi du lịch.",
+          "h": "Use 'Yes, I do.' or 'No, I do not.'",
+          "s": "No, I do not travel every weekend."
+        },
+        {
+          "p": "Do you like to plan trips?",
+          "m": "Nói yes/no về việc thích lên kế hoạch.",
+          "h": "Use 'Yes, I like to plan trips.' or 'No, I do not.'",
+          "s": "Yes, I like to plan trips."
+        },
+        {
+          "p": "Can you drive to trips?",
+          "m": "Nói can hoặc can't về lái xe.",
+          "h": "Use 'I can ...' or 'I cannot ...'.",
+          "s": "I cannot drive."
+        },
+        {
+          "p": "Do you pack clothes first?",
+          "m": "Nói yes/no về gói đồ trước.",
+          "h": "Use 'Yes, I pack clothes first.' or 'No, I do not.'",
+          "s": "Yes, I pack clothes first."
+        },
+        {
+          "p": "Where do you sleep when you travel?",
+          "m": "Nói nơi ngủ (hotel, house).",
+          "h": "Use 'I sleep in a hotel.' or 'I sleep at home.'",
+          "s": "I sleep in a hotel."
+        }
+      ]
+    },
+    {
+      "t": "Mua sắm và quà lưu niệm",
+      "e": [
+        {
+          "p": "Do you buy souvenirs?",
+          "m": "Nói yes/no về mua quà lưu niệm.",
+          "h": "Use 'Yes, I buy souvenirs.' or 'No, I do not.'",
+          "s": "Yes, I buy souvenirs."
+        },
+        {
+          "p": "What did you buy?",
+          "m": "Nói một món bạn đã mua (a hat, a bag).",
+          "h": "Use 'I bought a ...'.",
+          "s": "I bought a hat."
+        },
+        {
+          "p": "Is the gift expensive?",
+          "m": "Nói cheap hoặc expensive.",
+          "h": "Use 'It is cheap.' or 'It is expensive.'",
+          "s": "No, it is cheap."
+        },
+        {
+          "p": "Who did you give the gift to?",
+          "m": "Nói người nhận quà (mother, father, friend).",
+          "h": "Use 'I gave it to my ...'.",
+          "s": "I gave it to my mother."
+        },
+        {
+          "p": "Did you pay by cash?",
+          "m": "Trả lời yes/no về thanh toán tiền mặt.",
+          "h": "Use 'Yes, I paid by cash.' or 'No, I did not.'",
+          "s": "Yes, I paid by cash."
+        }
+      ]
+    },
+    {
+      "t": "Vấn đề nhỏ khi đi",
+      "e": [
+        {
+          "p": "Did you lose anything?",
+          "m": "Trả lời yes/no về việc mất đồ.",
+          "h": "Use 'No, I did not lose anything.' or 'Yes, I lost + item.'",
+          "s": "No, I did not lose anything."
+        },
+        {
+          "p": "Was there traffic on the way?",
+          "m": "Trả lời yes/no về tắc đường.",
+          "h": "Use 'Yes, there was traffic.' or 'No, there was not.'",
+          "s": "Yes, there was traffic."
+        },
+        {
+          "p": "Did you get sick?",
+          "m": "Trả lời yes/no về ốm đau.",
+          "h": "Use 'No, I did not get sick.' or 'Yes, I was sick.'",
+          "s": "No, I did not get sick."
+        },
+        {
+          "p": "Did you ask for help?",
+          "m": "Trả lời yes/no về việc nhờ giúp.",
+          "h": "Use 'Yes, I asked for help.' or 'No, I did not.'",
+          "s": "Yes, I asked for help."
+        },
+        {
+          "p": "Who helped you?",
+          "m": "Nói một người đã giúp bạn.",
+          "h": "Use 'A friend helped me.' or 'My parents helped me.'",
+          "s": "A friend helped me."
+        }
+      ]
+    },
+    {
+      "t": "Kế hoạch và ý định cho chuyến tới",
+      "e": [
+        {
+          "p": "Do you want to go again next weekend?",
+          "m": "Nói yes/no về mong muốn đi lại.",
+          "h": "Use 'Yes, I want to go.' or 'No, I do not want to.'",
+          "s": "Yes, I want to go."
+        },
+        {
+          "p": "Where do you want to go next?",
+          "m": "Nói một nơi bạn muốn đến (park, beach).",
+          "h": "Use 'I want to go to the ...'.",
+          "s": "I want to go to the park."
+        },
+        {
+          "p": "Who will come with you?",
+          "m": "Nói người bạn muốn đi cùng (friend, family).",
+          "h": "Use 'My friend will come.' or 'My family will come.'",
+          "s": "My friend will come."
+        },
+        {
+          "p": "Can you go by car next time?",
+          "m": "Nói can/can't về đi bằng ôtô.",
+          "h": "Use 'I can go by car.' or 'I cannot go by car.'",
+          "s": "I can go by car."
+        },
+        {
+          "p": "Do you need a ticket for that place?",
+          "m": "Trả lời yes/no về cần vé.",
+          "h": "Use 'Yes, I need a ticket.' or 'No, I do not.'",
+          "s": "No, I do not need a ticket."
+        }
+      ]
+    },
+    {
+      "t": "So sánh hai chuyến đi",
+      "e": [
+        {
+          "p": "Which is better, the beach or the city?",
+          "m": "Chọn một nơi và nói 'better'.",
+          "h": "Use 'The beach is better.' or 'The city is better.'",
+          "s": "The beach is better."
+        },
+        {
+          "p": "Is the new place bigger?",
+          "m": "Trả lời yes/no về kích thước.",
+          "h": "Use 'Yes, it is bigger.' or 'No, it is not.'",
+          "s": "Yes, it is bigger."
+        },
+        {
+          "p": "Do you like long trips or short trips?",
+          "m": "Chọn loại chuyến đi bạn thích.",
+          "h": "Use 'I like long trips.' or 'I like short trips.'",
+          "s": "I like short trips."
+        },
+        {
+          "p": "Is this trip more fun than the last one?",
+          "m": "Trả lời yes/no so sánh niềm vui.",
+          "h": "Use 'Yes, it is more fun.' or 'No, it is not.'",
+          "s": "Yes, it is more fun."
+        },
+        {
+          "p": "Which place is cheaper, the beach or the city?",
+          "m": "Nói nơi rẻ hơn.",
+          "h": "Use 'The city is cheaper.' or 'The beach is cheaper.'",
+          "s": "The city is cheaper."
+        }
+      ]
+    },
+    {
+      "t": "Cảm xúc về kỷ niệm",
+      "e": [
+        {
+          "p": "Do you feel happy about the trip?",
+          "m": "Trả lời yes/no về cảm xúc (happy).",
+          "h": "Use 'Yes, I am happy.' or 'No, I am not.'",
+          "s": "Yes, I am happy."
+        },
+        {
+          "p": "Are you tired after the trip?",
+          "m": "Trả lời yes/no về sự mệt mỏi.",
+          "h": "Use 'Yes, I am tired.' or 'No, I am not.'",
+          "s": "Yes, I am tired."
+        },
+        {
+          "p": "Is the memory special?",
+          "m": "Trả lời yes/no và 1 từ mô tả.",
+          "h": "Use 'Yes, it is special.' or 'No, it is not.'",
+          "s": "Yes, it is special."
+        },
+        {
+          "p": "Do you want to remember it?",
+          "m": "Trả lời yes/no về muốn nhớ kỷ niệm.",
+          "h": "Use 'Yes, I want to remember it.' or 'No, I do not.'",
+          "s": "Yes, I want to remember it."
+        },
+        {
+          "p": "Do you tell the story to your friends?",
+          "m": "Trả lời yes/no về kể chuyện cho bạn bè.",
+          "h": "Use 'Yes, I tell my friends.' or 'No, I do not.'",
+          "s": "Yes, I tell my friends."
+        }
+      ]
+    },
+    {
+      "t": "Ôn tập: Kể lại một chuyến đi ngắn",
+      "e": [
+        {
+          "p": "Where did you go last weekend?",
+          "m": "Nói nơi bạn đến lần trước.",
+          "h": "Use 'I went to ...'.",
+          "s": "I went to the lake."
+        },
+        {
+          "p": "Who did you go with?",
+          "m": "Nói người bạn đã đi cùng.",
+          "h": "Use 'I went with my ...'.",
+          "s": "I went with my friend."
+        },
+        {
+          "p": "What did you do there?",
+          "m": "Nói một hoạt động chính bạn làm.",
+          "h": "Use past verb: 'I + past verb'.",
+          "s": "We walked and ate."
+        },
+        {
+          "p": "How was the weather?",
+          "m": "Nói một tính từ mô tả thời tiết.",
+          "h": "Use 'It was + adj.'",
+          "s": "It was sunny."
+        },
+        {
+          "p": "Do you want to go again?",
+          "m": "Nói yes/no về muốn đi lại.",
+          "h": "Use 'Yes, I want to go again.' or 'No, I do not.'",
+          "s": "Yes, I want to go again."
+        }
+      ]
+    },
+    {
+      "t": "Ôn tập: Cuối tuần gần nhất",
+      "e": [
+        {
+          "p": "What day did you go?",
+          "m": "Nói một ngày đơn giản (Saturday/Sunday).",
+          "h": "Use 'I went on Saturday/Sunday.'",
+          "s": "I went on Sunday."
+        },
+        {
+          "p": "How long was the trip?",
+          "m": "Nói thời lượng ngắn (one day, two days).",
+          "h": "Use 'I stayed for + time.'",
+          "s": "I stayed for one day."
+        },
+        {
+          "p": "Did you buy food there?",
+          "m": "Trả lời yes/no và nêu món ăn nếu có.",
+          "h": "Use 'Yes, I bought + food.' or 'No, I did not.'",
+          "s": "Yes, I bought bread."
+        },
+        {
+          "p": "Was it expensive?",
+          "m": "Trả lời yes/no về giá cả.",
+          "h": "Use 'Yes, it was expensive.' or 'No, it was not.'",
+          "s": "No, it was not expensive."
+        },
+        {
+          "p": "Who did you tell about the trip?",
+          "m": "Nói một người bạn đã kể (mother, friend).",
+          "h": "Use 'I told my ...'.",
+          "s": "I told my mother."
+        }
+      ]
+    },
+    {
+      "t": "Ôn tập: Kỷ niệm du lịch",
+      "e": [
+        {
+          "p": "What is your favorite travel memory?",
+          "m": "Nói một kỷ niệm yêu thích ngắn gọn.",
+          "h": "Use 'My favorite memory is ...'.",
+          "s": "My favorite memory is a beach trip."
+        },
+        {
+          "p": "Why is it special?",
+          "m": "Nói một lý do ngắn (family, fun).",
+          "h": "Use 'Because + reason.'",
+          "s": "Because I was with my family."
+        },
+        {
+          "p": "Do you take photos of memories?",
+          "m": "Trả lời yes/no về chụp ảnh.",
+          "h": "Use 'Yes, I take photos.' or 'No, I do not.'",
+          "s": "Yes, I take photos."
+        },
+        {
+          "p": "Where do you keep the photos?",
+          "m": "Nói nơi lưu trữ ảnh (phone, album).",
+          "h": "Use 'I keep them on my phone.' or 'I keep them in an album.'",
+          "s": "I keep them on my phone."
+        },
+        {
+          "p": "Do you show the photos to friends?",
+          "m": "Trả lời yes/no về cho bạn bè xem ảnh.",
+          "h": "Use 'Yes, I show them.' or 'No, I do not.'",
+          "s": "Yes, I show them to my friends."
+        }
+      ]
+    }
+  ]
+}

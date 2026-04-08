@@ -1,0 +1,530 @@
+{
+  "l": 2,
+  "d": [
+    {
+      "t": "Gặp hàng xóm mới",
+      "e": [
+        {
+          "p": "Hi, what's your name?",
+          "m": "Nói tên của bạn. Nói bạn sống ở đâu (thành phố).",
+          "h": "My name is ... / I live in ...",
+          "s": "My name is [studentName]. I live in [studentCity]."
+        },
+        {
+          "p": "How old are you?",
+          "m": "Nói tuổi của bạn. Nói bạn là học sinh hay đi làm.",
+          "h": "I am ... years old. I am a student / I work as ...",
+          "s": "I am [studentAge] years old. I am a student at [studentSchool]."
+        },
+        {
+          "p": "Do you have a big family?",
+          "m": "Nói có bao nhiêu người trong gia đình (kể cả bạn). Nói một người trong gia đình (mối quan hệ).",
+          "h": "There are + number + people. My ... is ...",
+          "s": "There are four people in my family. My father is one of them."
+        },
+        {
+          "p": "What do you like to do after school?",
+          "m": "Nói một sở thích cụ thể. Nói tần suất bạn làm việc đó.",
+          "h": "I like ... / I often / sometimes ...",
+          "s": "I like drawing. I often draw in the evening."
+        },
+        {
+          "p": "Where do your parents come from?",
+          "m": "Nói quê quán của bố mẹ. Nói bạn vẫn sống với bố mẹ hay không.",
+          "h": "My parents are from ... / I live with / without ...",
+          "s": "My parents are from Hanoi. I still live with my parents."
+        }
+      ]
+    },
+    {
+      "t": "Ngày đầu ở trường",
+      "e": [
+        {
+          "p": "What's your first class today?",
+          "m": "Nói một môn học bạn có hôm nay. Nói bạn cảm thấy thế nào về môn đó (tính từ).",
+          "h": "I have ... / It is ...",
+          "s": "I have English class today. It is interesting."
+        },
+        {
+          "p": "Who is in your class?",
+          "m": "Nói một người trong lớp (ví dụ: bạn/bạn cùng lớp). Nói mối quan hệ ngắn (friend/classmate).",
+          "h": "There is / There are ... / He/She is my ...",
+          "s": "There is my friend Linh in my class. She is my classmate."
+        },
+        {
+          "p": "How do you go to school?",
+          "m": "Nói cách bạn đi học (walk/bus/by car). Nói tần suất bạn đi theo cách đó.",
+          "h": "I go to school by ... / I usually / sometimes ...",
+          "s": "I go to school by bus. I usually go by bus."
+        },
+        {
+          "p": "Do you play with classmates?",
+          "m": "Nói một hoạt động bạn làm với bạn cùng lớp. Nói tần suất (always/often/sometimes).",
+          "h": "I play ... / I often/sometimes ...",
+          "s": "I play football with my classmates. We often play after school."
+        },
+        {
+          "p": "Who helps you with homework?",
+          "m": "Nói một người giúp bạn (ví dụ: mẹ/bạn). Nói họ giúp như thế nào (ví dụ: explain/read).",
+          "h": "My ... helps me. They help by ...",
+          "s": "My mother helps me with homework. She explains difficult parts."
+        }
+      ]
+    },
+    {
+      "t": "Tiệc gia đình",
+      "e": [
+        {
+          "p": "Is your family coming to the party?",
+          "m": "Nói có bao nhiêu người sẽ tới tiệc. Nói bạn có vui không.",
+          "h": "There are ... / I am / I feel ...",
+          "s": "There are five people coming to the party. I am very happy."
+        },
+        {
+          "p": "Who will make the food?",
+          "m": "Nói ai nấu ăn. Nói một món đơn giản họ sẽ làm.",
+          "h": "My ... will cook. They will make ...",
+          "s": "My mother will cook. She will make fried rice."
+        },
+        {
+          "p": "Can you help me set the table?",
+          "m": "Nói bạn có thể giúp hay không. Nói bạn sẽ làm gì cụ thể.",
+          "h": "I can / I can't. I will ...",
+          "s": "I can help. I will put plates and cups on the table."
+        },
+        {
+          "p": "What games do you play with family?",
+          "m": "Nói một trò chơi bạn chơi với gia đình. Nói tần suất bạn chơi trò đó.",
+          "h": "I play ... / We sometimes/often ...",
+          "s": "I play card games with my family. We sometimes play after dinner."
+        },
+        {
+          "p": "Do you bring a gift to the party?",
+          "m": "Nói bạn có mang quà không. Nói bạn mua quà cho ai (thành viên gia đình).",
+          "h": "I do / I don't. I buy a gift for ...",
+          "s": "I will bring a gift. I buy a gift for my grandmother."
+        }
+      ]
+    },
+    {
+      "t": "Sinh nhật nhỏ",
+      "e": [
+        {
+          "p": "Whose birthday is it?",
+          "m": "Nói sinh nhật của ai (mối quan hệ). Nói tuổi của người đó nếu biết.",
+          "h": "It's ...'s birthday. He/She is ... years old.",
+          "s": "It's my sister's birthday. She is 12 years old."
+        },
+        {
+          "p": "Do you sing a song for them?",
+          "m": "Nói bạn có hát không. Nói bạn thường hát bài gì hoặc how (short).",
+          "h": "I sing / I don't sing. I sing ...",
+          "s": "I sing for her. I sing a happy birthday song."
+        },
+        {
+          "p": "What do you eat on birthdays?",
+          "m": "Nói một món ăn hoặc đồ ngọt bạn ăn. Nói tần suất bạn ăn món đó on birthdays.",
+          "h": "We eat ... / We usually ...",
+          "s": "We eat cake on birthdays. We usually eat it with family."
+        },
+        {
+          "p": "Who decorates the room?",
+          "m": "Nói ai trang trí phòng. Nói họ trang trí như thế nào (simple).",
+          "h": "My ... decorates. They put ...",
+          "s": "My parents decorate the room. They put balloons and a banner."
+        },
+        {
+          "p": "Do you give a card or a present?",
+          "m": "Nói bạn tặng gì. Nói bạn đưa quà cho ai.",
+          "h": "I give ... to ...",
+          "s": "I give a card to my sister. I also give a small present."
+        }
+      ]
+    },
+    {
+      "t": "Sở thích buổi tối",
+      "e": [
+        {
+          "p": "What do you do in the evening?",
+          "m": "Nói một việc bạn thường làm buổi tối. Nói bạn có làm điều đó mỗi ngày hay không.",
+          "h": "I ... / I usually/sometimes ...",
+          "s": "I read books in the evening. I usually read every night."
+        },
+        {
+          "p": "Do you watch TV with your family?",
+          "m": "Nói bạn có xem TV cùng gia đình không. Nói một chương trình bạn thích.",
+          "h": "I do / I don't. I like ...",
+          "s": "I watch TV with my family. I like a funny show."
+        },
+        {
+          "p": "Who cooks dinner in your house?",
+          "m": "Nói ai nấu bữa tối. Nói bạn có giúp họ không.",
+          "h": "My ... cooks. I help by ...",
+          "s": "My father cooks dinner. I help him by setting the table."
+        },
+        {
+          "p": "How often do you practice a hobby at night?",
+          "m": "Nói bạn thực hành sở thích bao lâu một lần. Nói một sở thích bạn làm.",
+          "h": "I practice ... / I often/sometimes ...",
+          "s": "I practice the piano twice a week. I often practice at night."
+        },
+        {
+          "p": "Do you talk to your family before bed?",
+          "m": "Nói bạn có nói chuyện trước khi đi ngủ không. Nói bạn thường nói về điều gì.",
+          "h": "I do / I don't. We talk about ...",
+          "s": "I talk to my family before bed. We talk about our day."
+        }
+      ]
+    },
+    {
+      "t": "Hoạt động cuối tuần",
+      "e": [
+        {
+          "p": "What do you do on Saturdays?",
+          "m": "Nói một hoạt động bạn làm vào thứ bảy. Nói bạn đi với ai (family/friends).",
+          "h": "I ... / I go with ...",
+          "s": "I go to the park on Saturdays. I go with my family."
+        },
+        {
+          "p": "Does your family go out often?",
+          "m": "Nói gia đình bạn có hay đi chơi không. Nói một nơi gia đình hay đến.",
+          "h": "We often/sometimes/never go out. We go to ...",
+          "s": "My family often goes out. We often go to the market."
+        },
+        {
+          "p": "Who cooks on weekend mornings?",
+          "m": "Nói ai nấu ăn sáng cuối tuần. Nói bạn ăn gì.",
+          "h": "My ... cooks. I eat ...",
+          "s": "My mother cooks on weekend mornings. I eat pancakes."
+        },
+        {
+          "p": "Do you have a hobby on Sunday?",
+          "m": "Nói một sở thích bạn làm chủ nhật. Nói tần suất bạn làm nó.",
+          "h": "I have ... / I always/often/sometimes ...",
+          "s": "I ride a bicycle on Sunday. I sometimes ride with my friends."
+        },
+        {
+          "p": "Can your family visit relatives this weekend?",
+          "m": "Nói có thể đi thăm họ hàng không. Nói ai sẽ đi (ví dụ: bố/mẹ/bạn).",
+          "h": "We can / We can't. ... will go.",
+          "s": "We can visit relatives this weekend. My parents will go."
+        }
+      ]
+    },
+    {
+      "t": "Đồ chơi và hoạt động trẻ con",
+      "e": [
+        {
+          "p": "What's your favorite toy?",
+          "m": "Nói tên đồ chơi ưa thích. Nói bạn chơi nó khi nào.",
+          "h": "My favorite toy is ... / I play it ...",
+          "s": "My favorite toy is a red car. I play with it every afternoon."
+        },
+        {
+          "p": "Do your friends come to play at your house?",
+          "m": "Nói có bạn đến chơi nhà bạn không. Nói bạn làm gì khi họ đến.",
+          "h": "Yes, they come / No, they don't. We ...",
+          "s": "Yes, my friends come to play. We play board games together."
+        },
+        {
+          "p": "Who buys your toys?",
+          "m": "Nói ai mua đồ chơi cho bạn. Nói họ mua đồ chơi khi nào (ví dụ: birthday).",
+          "h": "My ... buys me toys. They buy them on ...",
+          "s": "My parents buy my toys. They buy them on my birthday."
+        },
+        {
+          "p": "How many toys are in your room?",
+          "m": "Nói có bao nhiêu món đồ chơi trong phòng. Nói một ví dụ về đồ chơi đó.",
+          "h": "There are ... toys. One is a ...",
+          "s": "There are ten toys in my room. One is a soft bear."
+        },
+        {
+          "p": "Do you like drawing or singing more?",
+          "m": "Nói bạn thích vẽ hay hát hơn. Nói tần suất bạn làm hoạt động đó.",
+          "h": "I prefer ... / I often/sometimes ...",
+          "s": "I prefer drawing to singing. I draw every evening."
+        }
+      ]
+    },
+    {
+      "t": "Gọi điện cho bố mẹ",
+      "e": [
+        {
+          "p": "Hi, can I call you later?",
+          "m": "Nói bạn có thể gọi sau không. Nói bạn sẽ gọi vào khoảng nào (thời gian, ví dụ: tonight/morning).",
+          "h": "Yes, I can / No, I can't. I will call ...",
+          "s": "Yes, you can call me later. I will call you tonight."
+        },
+        {
+          "p": "How is grandma doing?",
+          "m": "Nói tình trạng bà (tốt/xấu). Nói bạn sẽ tới thăm bà hay không.",
+          "h": "She is ... / I will / I won't ...",
+          "s": "She is fine today. I will visit her this weekend."
+        },
+        {
+          "p": "Do you need money for school?",
+          "m": "Nói bạn có cần tiền hay không. Nói bạn cần bao nhiêu nếu có.",
+          "h": "I need / I don't need. I need ...",
+          "s": "I need some money. I need twenty dollars."
+        },
+        {
+          "p": "What do you do after you get home?",
+          "m": "Nói một việc bạn làm sau khi về nhà. Nói bạn làm việc đó thường xuyên hay không.",
+          "h": "I ... / I usually/often/sometimes ...",
+          "s": "I do my homework after I get home. I usually do it right away."
+        },
+        {
+          "p": "Can we have dinner together tomorrow?",
+          "m": "Nói bạn có thể ăn tối cùng không. Nói bạn muốn ăn ở nhà hay đi ra ngoài.",
+          "h": "I can / I can't. I want to eat at home / go out.",
+          "s": "I can have dinner together tomorrow. I want to eat at home."
+        }
+      ]
+    },
+    {
+      "t": "Mua quà cho thành viên gia đình",
+      "e": [
+        {
+          "p": "What should I buy for mom?",
+          "m": "Đề xuất một món quà cho mẹ. Nói lý do ngắn vì sao mẹ thích món đó.",
+          "h": "Buy ... / Because ...",
+          "s": "Buy flowers for mom. She likes flowers and smiles."
+        },
+        {
+          "p": "How much is the toy?",
+          "m": "Nói giá một món đồ chơi đơn giản (use number). Nói bạn có đủ tiền không.",
+          "h": "It is ... dollars. I have / don't have enough money.",
+          "s": "The toy is five dollars. I don't have enough money."
+        },
+        {
+          "p": "Do you want to buy something for your brother?",
+          "m": "Nói bạn có muốn mua quà không. Nói bạn chọn quà gì.",
+          "h": "I want / I don't want. I choose ...",
+          "s": "I want to buy something for my brother. I choose a new ball."
+        },
+        {
+          "p": "Who will wrap the gift?",
+          "m": "Nói ai gói quà. Nói họ gói bằng giấy hay túi.",
+          "h": "My ... will wrap it. They use ...",
+          "s": "My sister will wrap the gift. She wraps it in colorful paper."
+        },
+        {
+          "p": "When will you give the present?",
+          "m": "Nói bạn tặng quà vào lúc nào (ngày/occasion or time). Nói bạn tặng cho ai.",
+          "h": "I will give it on ... / to ...",
+          "s": "I will give the present on her birthday. I will give it to my mother."
+        }
+      ]
+    },
+    {
+      "t": "Lên kế hoạch cuối tuần với gia đình",
+      "e": [
+        {
+          "p": "Shall we go to the park on Sunday?",
+          "m": "Trả lời đồng ý hoặc không. Nói ai sẽ đi cùng bạn.",
+          "h": "Yes, we will / No, we won't. ... will go with me.",
+          "s": "Yes, we will go to the park. My family will go with me."
+        },
+        {
+          "p": "What time do we leave on Sunday?",
+          "m": "Nói thời gian bạn sẽ rời nhà. Nói bạn đến đó bằng gì (by car/bus/walk).",
+          "h": "We leave at ... / We go by ...",
+          "s": "We leave at nine o'clock. We go by car."
+        },
+        {
+          "p": "Do children need snacks for the trip?",
+          "m": "Nói có cần đồ ăn vặt không. Nói bạn sẽ chuẩn bị gì (one item).",
+          "h": "Yes, they need / No, they don't. I will prepare ...",
+          "s": "Yes, children need snacks. I will prepare some sandwiches."
+        },
+        {
+          "p": "Can grandma come with us?",
+          "m": "Nói bà có thể đi không. Nói bạn sẽ giúp bà như thế nào.",
+          "h": "She can / can't. I will help her by ...",
+          "s": "She can come with us. I will help her get in the car."
+        },
+        {
+          "p": "How many people will join the picnic?",
+          "m": "Nói có bao nhiêu người tham gia. Nói một hoạt động bạn sẽ làm ở picnic.",
+          "h": "There will be ... people. We will ...",
+          "s": "There will be six people. We will play games."
+        }
+      ]
+    },
+    {
+      "t": "Mô tả phòng và đồ trong nhà",
+      "e": [
+        {
+          "p": "Describe your bedroom.",
+          "m": "Nói một đặc điểm của phòng (big/small/clean). Nói có đồ chơi hoặc bàn học trong phòng không.",
+          "h": "My room is ... / There is ...",
+          "s": "My bedroom is small. There is a study desk in my room."
+        },
+        {
+          "p": "Where is the TV in your house?",
+          "m": "Nói vị trí TV (in/on/next to). Nói ai thường xem TV ở đó.",
+          "h": "The TV is ... / My ... watches TV there.",
+          "s": "The TV is in the living room next to the sofa. My family watches TV there."
+        },
+        {
+          "p": "How many chairs are in the dining room?",
+          "m": "Nói có bao nhiêu ghế ở phòng ăn. Nói liệu gia đình bạn ngồi đủ hay không.",
+          "h": "There are ... chairs. We have enough / not enough.",
+          "s": "There are six chairs in the dining room. We have enough chairs."
+        },
+        {
+          "p": "Who cleans your room?",
+          "m": "Nói ai dọn phòng của bạn. Nói bạn có giúp họ không.",
+          "h": "My ... cleans. I help by ...",
+          "s": "My mother cleans my room. I help by putting toys away."
+        },
+        {
+          "p": "Do you keep toys on the shelf or the floor?",
+          "m": "Nói bạn để đồ chơi ở đâu. Nói bạn có dọn gọn sau khi chơi không.",
+          "h": "I keep toys on ... / I always/sometimes ...",
+          "s": "I keep toys on the shelf. I always tidy them after playing."
+        }
+      ]
+    },
+    {
+      "t": "Thói quen ăn uống gia đình",
+      "e": [
+        {
+          "p": "What do you have for breakfast?",
+          "m": "Nói một món ăn bạn ăn sáng. Nói bạn ăn sáng ở nhà hay ngoài.",
+          "h": "I have ... / I eat at home / outside",
+          "s": "I have bread for breakfast. I eat breakfast at home."
+        },
+        {
+          "p": "Who cooks lunch in your family?",
+          "m": "Nói ai nấu bữa trưa. Nói bạn có ăn cùng gia đình hay một mình.",
+          "h": "My ... cooks lunch. I eat with / alone.",
+          "s": "My mother cooks lunch. I eat with my family."
+        },
+        {
+          "p": "Do you like vegetables?",
+          "m": "Nói bạn có thích rau không. Nói tần suất bạn ăn rau.",
+          "h": "I like / I don't like. I always/often/sometimes eat ...",
+          "s": "I like vegetables. I often eat them at dinner."
+        },
+        {
+          "p": "How many meals do you eat a day?",
+          "m": "Nói bạn ăn mấy bữa mỗi ngày. Nói một bữa bạn thích nhất.",
+          "h": "I eat ... meals a day. My favorite meal is ...",
+          "s": "I eat three meals a day. My favorite meal is dinner."
+        },
+        {
+          "p": "Does your family eat together every night?",
+          "m": "Nói gia đình bạn có ăn cùng nhau mỗi tối hay không. Nói một lý do ngắn nếu không.",
+          "h": "We do / We don't. Because ...",
+          "s": "We usually eat together every night. Because our parents are at home."
+        }
+      ]
+    },
+    {
+      "t": "Ôn tập: Gặp gỡ và giới thiệu",
+      "e": [
+        {
+          "p": "Nice to meet you. Tell me about yourself.",
+          "m": "Nói tên của bạn. Nói bạn bao nhiêu tuổi.",
+          "h": "My name is ... / I am ... years old",
+          "s": "My name is [studentName]. I am [studentAge] years old."
+        },
+        {
+          "p": "Where do you live and who do you live with?",
+          "m": "Nói nơi bạn sống (thành phố). Nói có bao nhiêu người trong gia đình bạn (kể cả bạn).",
+          "h": "I live in ... / There are ... people in my family",
+          "s": "I live in [studentCity]. There are four people in my family."
+        },
+        {
+          "p": "What is your daily routine at home?",
+          "m": "Nói một việc bạn làm mỗi ngày ở nhà. Nói một sở thích bạn thường làm ở nhà.",
+          "h": "I ... every day. I like ...",
+          "s": "I do homework every day. I like watching TV in the evening."
+        },
+        {
+          "p": "Who is your best family member and why?",
+          "m": "Nói một thành viên bạn thích nhất. Nói một lý do ngắn (kind/helpful).",
+          "h": "My ... is my favorite. Because ...",
+          "s": "My mother is my favorite family member. Because she is very kind."
+        },
+        {
+          "p": "How do you usually spend weekends with family?",
+          "m": "Nói một hoạt động cuối tuần bạn làm với gia đình. Nói tần suất bạn làm hoạt động đó.",
+          "h": "We ... / We often/sometimes ...",
+          "s": "We go to the park with family. We often go on Sundays."
+        }
+      ]
+    },
+    {
+      "t": "Ôn tập: Gia đình và số lượng",
+      "e": [
+        {
+          "p": "How many people are in your family now?",
+          "m": "Nói số người trong gia đình hiện tại. Nói bạn có anh/chị/em không (yes/no).",
+          "h": "There are ... people. I have / don't have siblings",
+          "s": "There are five people in my family. I have one brother."
+        },
+        {
+          "p": "Who are they and what do they do?",
+          "m": "Nói tên một thành viên và nghề/nghề nghiệp hoặc việc họ làm. Nói họ ở nhà hay đi làm.",
+          "h": "My ... is a ... / He/She is at home / at work",
+          "s": "My father is a teacher. He goes to work every day."
+        },
+        {
+          "p": "Do you live near your grandparents?",
+          "m": "Nói có sống gần ông bà không. Nói bạn thăm họ thường xuyên hay không.",
+          "h": "I live near / far from them. I visit them often/sometimes.",
+          "s": "I live near my grandparents. I visit them often."
+        },
+        {
+          "p": "Can your family cook together?",
+          "m": "Nói gia đình bạn có thể nấu cùng nhau không. Nói một món bạn nấu cùng họ.",
+          "h": "We can / can't. We cook ... together",
+          "s": "We can cook together. We cook soup together."
+        },
+        {
+          "p": "Who helps with housework?",
+          "m": "Nói ai giúp làm việc nhà. Nói bạn làm việc nhà gì.",
+          "h": "My ... helps. I ...",
+          "s": "My sister helps with housework. I wash the dishes."
+        }
+      ]
+    },
+    {
+      "t": "Ôn tập: Sở thích và tần suất",
+      "e": [
+        {
+          "p": "What hobbies do you have?",
+          "m": "Nói hai sở thích của bạn (two different). Mỗi sở thích một câu.",
+          "h": "I like ... / I like ...",
+          "s": "I like swimming. I also like reading books."
+        },
+        {
+          "p": "How often do you play sports?",
+          "m": "Nói tần suất bạn chơi thể thao. Nói một môn bạn chơi.",
+          "h": "I play ... often/sometimes/never. I play ...",
+          "s": "I play sports twice a week. I play football."
+        },
+        {
+          "p": "Do your parents support your hobbies?",
+          "m": "Nói cha mẹ bạn có ủng hộ không. Nói cách họ ủng hộ (help/buy time).",
+          "h": "They do / They don't. They ...",
+          "s": "My parents support my hobbies. They buy me books and instruments."
+        },
+        {
+          "p": "Where do you practice your hobby?",
+          "m": "Nói nơi bạn thường thực hành sở thích. Nói bạn đi một mình hay với ai.",
+          "h": "I practice at ... / I go with ...",
+          "s": "I practice my hobby at the community center. I go with my friends."
+        },
+        {
+          "p": "Would you like to teach your hobby to a family member?",
+          "m": "Nói bạn có muốn dạy người nhà không. Nói bạn sẽ dạy ai và dạy gì.",
+          "h": "I would like / I wouldn't like. I will teach ... to ...",
+          "s": "I would like to teach my hobby to my little brother. I will teach him drawing."
+        }
+      ]
+    }
+  ]
+}

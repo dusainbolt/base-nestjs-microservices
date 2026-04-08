@@ -1,0 +1,530 @@
+{
+  "l": 3,
+  "d": [
+    {
+      "t": "Gặp gỡ người mới",
+      "e": [
+        {
+          "p": "What's your name?",
+          "m": "Nói tên. Nói tuổi. Nói nơi bạn đang sống.",
+          "h": "I am / I'm + tên. I'm + age. I live in + place.",
+          "s": "I'm [studentName]. I'm [studentAge] years old. I live in [studentCity]."
+        },
+        {
+          "p": "Where are you from?",
+          "m": "Nói quê quán. Nói nơi bạn hiện sống. Nói bạn có về quê thường không.",
+          "h": "Use 'I'm from...' và 'I live in...' + frequency (often/rarely).",
+          "s": "I'm from a small town. I live in [studentCity] now. I visit home about twice a year."
+        },
+        {
+          "p": "What do you do?",
+          "m": "Nói bạn học hay đi làm. Nói trường hoặc công ty. Nói bạn có thích việc đó không.",
+          "h": "Use 'I study at...' or 'I work as...' + like/don't like.",
+          "s": "I study at [studentSchool]. I study business there. I like it because it's useful."
+        },
+        {
+          "p": "What are your hobbies?",
+          "m": "Nói hai sở thích. Nói bạn thường làm lúc nào. Nói bạn làm cùng ai hay một mình.",
+          "h": "Use 'I like...' and 'I usually...' + 'with friends' or 'alone'.",
+          "s": "I like reading and cycling. I usually do them on weekends. I often do them with my friends."
+        },
+        {
+          "p": "How often do you go out with friends?",
+          "m": "Nói tần suất (ví dụ: every week). Nói hoạt động bạn thường làm. Nói cảm xúc khi đi chơi.",
+          "h": "Use frequency (twice a week, every weekend) + present simple.",
+          "s": "I go out with friends twice a week. We usually eat at a cafe or watch a movie. I feel happy when we meet."
+        }
+      ]
+    },
+    {
+      "t": "Giới thiệu bạn thân",
+      "e": [
+        {
+          "p": "Who is your best friend?",
+          "m": "Nói tên bạn thân. Nói mối quan hệ (school/work/family friend). Nói họ tốt ở điểm nào.",
+          "h": "Use 'My best friend is...' and 'He/She is a...' + adjective.",
+          "s": "My best friend is [studentName]. She is my classmate. She is kind and funny."
+        },
+        {
+          "p": "How did you meet them?",
+          "m": "Nói nơi gặp lần đầu. Nói khi nào gặp. Nói ngắn nguyên nhân bạn thân nhau.",
+          "h": "Use Past Simple (met, was) and because + reason.",
+          "s": "We met at school two years ago. We sat next to each other in class. We became close because we like the same music."
+        },
+        {
+          "p": "What do you like about your friend?",
+          "m": "Nói một tính cách tốt. Nói một điều họ thường làm cho bạn. Nói bạn nghĩ họ có thể giúp bạn khi nào.",
+          "h": "Use 'He/She is...' and 'He/She often...' and 'They can...' (modal).",
+          "s": "She is very caring. She often helps me with homework. She can help when I am stressed."
+        },
+        {
+          "p": "Do you have similar hobbies?",
+          "m": "Nói một sở thích chung. Nói tần suất làm cùng nhau. Nói bạn có kế hoạch làm gì sắp tới.",
+          "h": "Use Present Simple for habits and 'going to' for plans.",
+          "s": "Yes, we both like hiking. We go hiking once a month. We are going to hike next Saturday."
+        },
+        {
+          "p": "Would you introduce your friend to my friend?",
+          "m": "Nói có hay không. Nói lý do. Nói bạn sẽ làm gì tiếp theo (plan).",
+          "h": "Use 'Yes/No, because...' and 'I will/won't + V' or 'I'm going to...'.",
+          "s": "Yes, because they have similar interests. I will invite both to a cafe next week. I'm going to text them today."
+        }
+      ]
+    },
+    {
+      "t": "Mối quan hệ ở trường",
+      "e": [
+        {
+          "p": "Who do you sit with in class?",
+          "m": "Nói tên hoặc mô tả người ngồi cùng. Nói bạn có trò chuyện không. Nói bạn giúp nhau học không.",
+          "h": "Use Present Simple: I sit with... / We often ...",
+          "s": "I sit with a girl from my class. We talk sometimes during breaks. We help each other with homework."
+        },
+        {
+          "p": "Do you study together?",
+          "m": "Nói có hay không. Nói tần suất học nhóm. Nói chủ đề bạn học cùng.",
+          "h": "Use 'Yes, we...' or 'No, we don't...' + frequency.",
+          "s": "Yes, we study together twice a week. We usually study English and math. It helps us prepare for tests."
+        },
+        {
+          "p": "Who is the most helpful friend in class?",
+          "m": "Nói tên hoặc mô tả. So sánh ngắn (more + adj). Nói ví dụ họ giúp bạn thế nào.",
+          "h": "Use comparatives: more + adj + than. Use a short past example.",
+          "s": "My friend Linh is the most helpful. She is more patient than others. She helped me explain a difficult lesson yesterday."
+        },
+        {
+          "p": "What do you do when you have a group project?",
+          "m": "Nói vai trò bạn thường làm. Nói cách bạn phân công công việc. Nói thời hạn bạn làm xong thường thế nào.",
+          "h": "Use Present Simple and 'have to' for duties.",
+          "s": "I usually organize the plan. We divide tasks and each person has to finish their part. We usually finish the project two days before the deadline."
+        },
+        {
+          "p": "How do you feel about group work?",
+          "m": "Nói cảm xúc chung. Nói một lợi ích. Nói một khó khăn và cách giải quyết.",
+          "h": "Use present simple: I enjoy / I find ... Use 'so' or 'because'.",
+          "s": "I enjoy group work because it's social. It helps me learn from others. Sometimes time is a problem, so we make a schedule."
+        }
+      ]
+    },
+    {
+      "t": "Nói về bạn cùng phòng",
+      "e": [
+        {
+          "p": "Do you have a roommate?",
+          "m": "Nói có hay không. Nói họ là ai (friend/classmate). Nói bạn sống cùng được bao lâu.",
+          "h": "Use 'Yes, I do' or 'No, I don't' + past simple for duration.",
+          "s": "Yes, I have a roommate. She is my friend from university. We have lived together for six months."
+        },
+        {
+          "p": "What is your roommate like?",
+          "m": "Mô tả 2 tính cách. Nói ví dụ nhỏ hành động thể hiện tính cách. Nói bạn thích điểm nào nhất.",
+          "h": "Use 'She/He is...' + present simple and an example sentence.",
+          "s": "She is friendly and tidy. She often cleans the kitchen after cooking. I like her helpful attitude the most."
+        },
+        {
+          "p": "Do you share chores?",
+          "m": "Nói việc bạn chia. Nói ai làm gì. Nói nếu có vấn đề, bạn sẽ làm gì.",
+          "h": "Use 'We share...' and 'If... I will...' (conditional simple).",
+          "s": "We share cleaning and shopping. I cook and she cleans sometimes. If problems come, we talk and make a plan."
+        },
+        {
+          "p": "What rules do you have at home?",
+          "m": "Nói một quy tắc chính. Nói lý do có quy tắc đó. Nói hậu quả nếu ai vi phạm.",
+          "h": "Use present simple: 'We don't...' or 'We must...' and 'because'.",
+          "s": "We must keep quiet after 10 pm. This is because we need sleep for work. If someone breaks it, they apologize and change the schedule."
+        },
+        {
+          "p": "Would you recommend living with a roommate?",
+          "m": "Nói có hay không. Nói hai lợi ích. Nói một lưu ý cho người mới.",
+          "h": "Use 'I would' or 'I wouldn't' + because; use should for advice.",
+          "s": "I would recommend it because it is cheaper and fun. New people should talk about rules first."
+        }
+      ]
+    },
+    {
+      "t": "Hoạt động cuối tuần với bạn",
+      "e": [
+        {
+          "p": "What do you do on weekends with friends?",
+          "m": "Nói 2-3 hoạt động thường làm. Nói nơi bạn thường đi. Nói tần suất.",
+          "h": "Use 'We + verb' in present simple and frequency words.",
+          "s": "We go to cafes and watch movies. We often go to the city center. We do this every weekend."
+        },
+        {
+          "p": "Where is your favorite place to meet?",
+          "m": "Nói tên địa điểm. Nói vì sao bạn thích nó. Nói khoảng cách từ nhà bạn.",
+          "h": "Use 'It's' and 'because' and 'near/far from'.",
+          "s": "My favorite place is a small cafe near my house. It's cozy and quiet. It's about a ten-minute walk from my home."
+        },
+        {
+          "p": "How do you plan a trip with friends?",
+          "m": "Nói bước đầu bạn làm. Nói ai lo vé hoặc chỗ ở. Nói bạn có dùng app hay gọi điện không.",
+          "h": "Use present simple and 'will' or 'going to' for plans.",
+          "s": "First, we decide the date and place. One friend books tickets and another finds accommodation. We usually use an app to check options."
+        },
+        {
+          "p": "What happened on your last weekend outing?",
+          "m": "Kể ngắn nơi bạn đi. Nói bạn đã làm gì. Nói cảm xúc hoặc kết quả.",
+          "h": "Use Past Simple to tell events in order.",
+          "s": "Last weekend we went to the beach. We swam and had a picnic. I felt relaxed and happy."
+        },
+        {
+          "p": "Would you rather go out or stay home with friends?",
+          "m": "Nói bạn thích gì hơn. Nói lý do. Nói khi nào bạn sẽ chọn ở nhà.",
+          "h": "Use 'I prefer...' and comparatives or 'when' + condition.",
+          "s": "I prefer going out because I like meeting people. But I stay home when I'm tired or it's rainy."
+        }
+      ]
+    },
+    {
+      "t": "Kế hoạch đi chơi cùng bạn",
+      "e": [
+        {
+          "p": "Are you free this Saturday?",
+          "m": "Trả lời có hay không. Nói lý do nếu bận. Nói bạn có đề nghị khác không.",
+          "h": "Use 'Yes, I am' or 'No, I am not' + because; offer 'How about...'.",
+          "s": "Yes, I am free this Saturday. I don't have plans. How about meeting at 3 pm?"
+        },
+        {
+          "p": "What time should we meet?",
+          "m": "Đề xuất giờ. Nói địa điểm. Nói cách di chuyển.",
+          "h": "Use 'Let's meet at...' and 'at/in' + transport 'by bus/by car'.",
+          "s": "Let's meet at 3 pm at the main square. We can go by bus together. It takes about twenty minutes."
+        },
+        {
+          "p": "Who will bring snacks?",
+          "m": "Nói ai mang. Nói họ sẽ mang gì. Nói nếu cần bạn sẽ mang gì thêm.",
+          "h": "Use 'I will...' or 'He/She will...' and 'I'll bring...' for offers.",
+          "s": "Anna will bring snacks. She will bring fruit and chips. I will bring water and cups."
+        },
+        {
+          "p": "What if it rains?",
+          "m": "Đưa ra phương án thay thế. Nói nơi trong nhà bạn đề xuất. Nói bạn sẽ thông báo thế nào.",
+          "h": "Use 'If it rains, we will...' and 'I will call/text'.",
+          "s": "If it rains, we will go to the cafe nearby. The cafe is cozy and has big tables. I will text everyone in the morning."
+        },
+        {
+          "p": "Can we change the plan later?",
+          "m": "Nói có thể hay không. Nói điều kiện thay đổi. Nói bạn sẽ làm gì nếu thay đổi.",
+          "h": "Use 'Yes, we can if...' and 'I will...' for actions.",
+          "s": "Yes, we can if everyone agrees. If plans change, I will send a message with the new time. We will confirm one day before."
+        }
+      ]
+    },
+    {
+      "t": "So sánh bạn bè",
+      "e": [
+        {
+          "p": "Who is taller, you or your friend?",
+          "m": "Nói ai cao hơn. Nói chênh lệch (a little/much). Nói bạn thấy điều đó thế nào.",
+          "h": "Use comparative: taller than + 'a little' or 'much'.",
+          "s": "My friend is taller than me. She is a little taller. It doesn't matter to me."
+        },
+        {
+          "p": "Who studies more, you or your friend?",
+          "m": "So sánh tần suất học. Nói ví dụ thời lượng học mỗi ngày. Nói kết quả (ai thường đạt điểm cao hơn?).",
+          "h": "Use 'more than' and Present Simple for habits.",
+          "s": "My classmate studies more than me. She studies about three hours a day. She often gets higher grades."
+        },
+        {
+          "p": "Is your friend more outgoing than you?",
+          "m": "Trả lời yes/no. Nói ví dụ hành động chứng tỏ. Nói bạn có muốn thay đổi điều gì không.",
+          "h": "Use 'Yes, she is' or 'No, she isn't' and give an example.",
+          "s": "Yes, she is more outgoing. She talks to new people at parties. I want to be more confident, so I try to join small groups."
+        },
+        {
+          "p": "Who is the best cook among your friends?",
+          "m": "Nói người đó là ai. Nói món họ nấu ngon. Nói bạn có thể học từ họ thế nào.",
+          "h": "Use 'the best' + 'can' or 'teach me'.",
+          "s": "Linh is the best cook among my friends. She makes great pasta. She can teach me simple recipes."
+        },
+        {
+          "p": "Would you rather have a funny friend or a serious friend?",
+          "m": "Chọn một. Nói lý do chính. Nói một tình huống bạn cần người bạn đó.",
+          "h": "Use 'I would rather...' and 'because'.",
+          "s": "I would rather have a funny friend because they make me laugh. I need them when I'm stressed or sad."
+        }
+      ]
+    },
+    {
+      "t": "Giúp đỡ bạn bè",
+      "e": [
+        {
+          "p": "Can you help me with this task?",
+          "m": "Trả lời có thể hay không. Nói bạn sẽ giúp như thế nào. Nói khi nào bạn có thể giúp.",
+          "h": "Use 'Yes, I can' or 'No, I can't' and 'I will...' for help.",
+          "s": "Yes, I can help. I will explain the steps and do an example. I can help tonight after 7 pm."
+        },
+        {
+          "p": "How do you support a friend who is sad?",
+          "m": "Nói một hành động bạn làm. Nói lời bạn nói với họ. Nói bạn có theo dõi sau không.",
+          "h": "Use Present Simple and 'I will...' for follow-up.",
+          "s": "I listen to them and spend time together. I tell them it's okay and offer help. I will check on them again next day."
+        },
+        {
+          "p": "Did you help a friend last week?",
+          "m": "Nói gì bạn đã làm (Past Simple). Nói kết quả. Nói bạn học được gì.",
+          "h": "Use Past Simple: I helped / We finished / I learned.",
+          "s": "I helped a friend with her presentation. We finished it in one evening. I learned how to check time management."
+        },
+        {
+          "p": "Should friends share money when going out?",
+          "m": "Nói ý kiến của bạn (should/shouldn't). Nói lý do. Nói cách chia tiền bạn đề xuất.",
+          "h": "Use 'should' + reason and suggest a method (split equally).",
+          "s": "I think friends should share money to be fair. It avoids problems and is polite. I suggest splitting the bill equally."
+        },
+        {
+          "p": "If your friend forgets an important date, what will you do?",
+          "m": "Nói phản ứng đầu tiên. Nói bạn có nhắc họ không. Nói cách bạn sửa chữa tình huống.",
+          "h": "Use 'If... will...' and polite language.",
+          "s": "If my friend forgets, I will remind them gently. I will help them prepare a small gift. We will celebrate another day."
+        }
+      ]
+    },
+    {
+      "t": "Giải quyết xích mích nhỏ",
+      "e": [
+        {
+          "p": "My friend ignored my message. What should I do?",
+          "m": "Đưa lời khuyên ngắn. Nói bước đầu bạn nên làm. Nói khi nào nên nói trực tiếp.",
+          "h": "Use 'You should...' and 'wait' or 'talk in person'.",
+          "s": "You should wait a little time first. Then send a polite follow-up message. Talk in person if it continues."
+        },
+        {
+          "p": "We had an argument. How can I apologize?",
+          "m": "Nói câu xin lỗi ngắn. Nói lý do bạn xin lỗi. Nói bạn sẽ làm gì để sửa lỗi.",
+          "h": "Use 'I'm sorry' + reason and 'I will...' for fix.",
+          "s": "I'm sorry for what I said earlier. I regret hurting you because I didn't think. I will listen more and be kinder."
+        },
+        {
+          "p": "What if your friend is always late?",
+          "m": "Nói cách bạn sẽ nói chuyện. Nói một giải pháp. Nói nếu họ thay đổi bạn sẽ phản ứng sao.",
+          "h": "Use 'I would say...' and 'we can...' and future result.",
+          "s": "I would say it's a problem kindly. We can set a meeting time and a buffer. If they change, I will thank them and be on time too."
+        },
+        {
+          "p": "Is it OK to share a friend's secret?",
+          "m": "Nói ý kiến (Yes/No). Nói lý do. Nói hậu quả nếu chia sẻ.",
+          "h": "Use present simple and 'because' and 'so' for consequence.",
+          "s": "No, it's not okay to share a friend's secret. It breaks trust because secrets are private. So the friendship may get worse."
+        },
+        {
+          "p": "How do you forgive and move on?",
+          "m": "Nói bước bạn làm để tha thứ. Nói cách tránh lặp lại lỗi. Nói bạn có cần thời gian không.",
+          "h": "Use 'I will...' and 'to avoid...' and 'need time'.",
+          "s": "I will talk and forgive if they apologize. To avoid the same mistake, we set clear rules. Sometimes I need time to feel fully okay."
+        }
+      ]
+    },
+    {
+      "t": "Giữ liên lạc khi xa nhau",
+      "e": [
+        {
+          "p": "How do you keep in touch with friends far away?",
+          "m": "Nói 2-3 kênh liên lạc bạn dùng. Nói tần suất liên lạc. Nói bạn thích gọi hay nhắn tin hơn.",
+          "h": "Use 'I use...' and frequency words and preference 'prefer'.",
+          "s": "I use calls, messages, and social media. We talk or message about once a week. I prefer video calls because it's more personal."
+        },
+        {
+          "p": "Do you send photos to your friends?",
+          "m": "Trả lời có hay không. Nói loại ảnh bạn gửi. Nói vì sao bạn gửi ảnh.",
+          "h": "Use Present Simple and 'because'.",
+          "s": "Yes, I send photos of places I visit. I also send funny photos. I send them to share moments and memories."
+        },
+        {
+          "p": "What should you do if you lose contact with a friend?",
+          "m": "Đưa một bước tìm lại. Nói cách bạn tìm thông tin (phone/social). Nói gì bạn sẽ nói khi liên lạc lại.",
+          "h": "Use 'I would...' and 'I will...' and polite language.",
+          "s": "I would search for their profile on social media or ask mutual friends. I will send a friendly message asking how they are. I will apologize if needed."
+        },
+        {
+          "p": "Will technology help friendships in the future?",
+          "m": "Nói có hay không. Nói một lợi ích. Nói một rủi ro.",
+          "h": "Use 'Yes/No, because...' and 'may' or 'can' for risk.",
+          "s": "Yes, because technology can connect people easily. It helps us talk often and share moments. But it may make conversations less personal sometimes."
+        },
+        {
+          "p": "How do you celebrate a friend's success from far away?",
+          "m": "Nói một cách chúc mừng từ xa. Nói bạn sẽ gửi gì (tin nhắn/quà). Nói bạn có gặp trực tiếp sau không.",
+          "h": "Use future 'I will...' and present simple for choices.",
+          "s": "I will send a congratulation message and call them. I might send a small gift or e-card. If possible, we will meet later to celebrate."
+        }
+      ]
+    },
+    {
+      "t": "Lời mời và hủy hẹn",
+      "e": [
+        {
+          "p": "Would you like to join our picnic?",
+          "m": "Trả lời có/không. Nói lý do nếu không. Nói bạn sẽ mang gì nếu đi.",
+          "h": "Use 'Yes, I'd like to' or 'No, I can't' and 'I will bring...'.",
+          "s": "Yes, I'd like to join the picnic. I will bring a fruit salad and drinks."
+        },
+        {
+          "p": "I'm sorry, I have to cancel.",
+          "m": "Phản hồi lịch sự. Nói có hiểu không. Nói bạn đề xuất thời gian khác.",
+          "h": "Use 'I understand' and 'How about...' for new plan.",
+          "s": "I understand. It's okay. How about we meet next Sunday instead?"
+        },
+        {
+          "p": "Can you come to my birthday party next month?",
+          "m": "Trả lời có hay không. Nói bạn dự định tặng gì. Nói bạn có cần hỏi thêm thông tin không.",
+          "h": "Use 'I will come' or 'I can't' and 'I will give...' and offer to ask details.",
+          "s": "I will come to your birthday. I plan to give a book as a gift. Please tell me the time and place."
+        },
+        {
+          "p": "I might be late tomorrow.",
+          "m": "Trả lời đồng ý/không. Nói bạn sẽ chờ bao lâu. Nói bạn có làm gì trong lúc chờ.",
+          "h": "Use 'I can wait...' and 'I'll...' for actions.",
+          "s": "I can wait for about thirty minutes. While waiting, I'll read or check messages. Call me if you'll be later."
+        },
+        {
+          "p": "Let's meet earlier next time.",
+          "m": "Đồng ý hoặc đề xuất khác. Nói lý do chọn giờ mới. Nói nếu giờ mới không hợp bạn sẽ làm gì.",
+          "h": "Use 'Okay' or 'I prefer...' and 'If not, I will...'.",
+          "s": "Okay, I agree to meet earlier. I prefer 2 pm because I finish work then. If that doesn't work, I will suggest another day."
+        }
+      ]
+    },
+    {
+      "t": "Kỷ niệm đặc biệt với bạn",
+      "e": [
+        {
+          "p": "Tell me about a special day with a friend.",
+          "m": "Kể nơi bạn đi. Nói hoạt động chính. Nói cảm xúc của bạn.",
+          "h": "Use Past Simple in short sentences.",
+          "s": "We went to a mountain last summer. We hiked and watched the sunset. I felt very happy and proud."
+        },
+        {
+          "p": "What gift did you give to a friend recently?",
+          "m": "Nói món quà. Nói lý do chọn món quà. Nói phản ứng của bạn bè.",
+          "h": "Use Past Simple and 'because'.",
+          "s": "I gave a handmade notebook. I chose it because she likes writing. She smiled and thanked me."
+        },
+        {
+          "p": "How do you plan a surprise for a friend?",
+          "m": "Nói bước đầu bạn làm. Nói ai bạn nhờ giúp. Nói cách giữ bí mật.",
+          "h": "Use present simple and 'will' for actions.",
+          "s": "First, I choose a date and invite others secretly. I ask two mutual friends to help. We keep messages private and meet early to prepare."
+        },
+        {
+          "p": "Do you celebrate friend anniversaries?",
+          "m": "Nói có hay không. Nói cách bạn kỷ niệm. Nói tần suất bạn tổ chức.",
+          "h": "Use Present Simple and frequency words.",
+          "s": "Yes, we celebrate our friendship each year. We meet for dinner or a small trip. We do it once a year."
+        },
+        {
+          "p": "What is the best memory with your friends?",
+          "m": "Nói một kỷ niệm ngắn. Nói tại sao nó đặc biệt. Nói điều bạn học được từ nó.",
+          "h": "Use Past Simple and 'because' and 'I learned...'.",
+          "s": "The best memory is our trip to the beach. It was special because we laughed a lot and helped each other. I learned how much we support each other."
+        }
+      ]
+    },
+    {
+      "t": "Ôn tập: Gặp gỡ và giới thiệu",
+      "e": [
+        {
+          "p": "Hi, can you introduce yourself?",
+          "m": "Nói tên. Nói nghề hoặc học. Nói một sở thích ngắn.",
+          "h": "Use 'I'm...' and 'I study/work as...' and 'I like...'.",
+          "s": "I'm [studentName]. I study at [studentSchool]. I like playing football."
+        },
+        {
+          "p": "Who is your closest friend?",
+          "m": "Nói tên hoặc mô tả họ. Nói bạn thân ở đâu (school/work). Nói một điều bạn quý ở họ.",
+          "h": "Use 'My closest friend is...' and 'because'.",
+          "s": "My closest friend is my classmate, Mai. We met at university. I appreciate her honesty."
+        },
+        {
+          "p": "How did you two become friends?",
+          "m": "Nói nơi gặp. Nói hoạt động chung ban đầu. Nói kết quả (bạn thân nhau như thế nào).",
+          "h": "Use Past Simple for sequence.",
+          "s": "We met in class last year. We worked on a project together. After that, we talked more and became good friends."
+        },
+        {
+          "p": "What do you usually say when you meet new people?",
+          "m": "Nói câu chào đơn giản. Nói một câu hỏi bạn hay hỏi. Nói cách kết thúc cuộc trò chuyện ngắn.",
+          "h": "Use Present Simple: 'Hi, I'm...' and 'Where are you from?' and 'Nice to meet you.'",
+          "s": "Hi, I'm [studentName]. Where are you from? Nice to meet you."
+        },
+        {
+          "p": "Would you like to introduce your friend to me?",
+          "m": "Nói có hay không. Nói thời điểm giới thiệu. Nói nơi bạn sẽ gặp để giới thiệu.",
+          "h": "Use 'I will...' or 'I can...' and 'at/on' for time/place.",
+          "s": "Yes, I can introduce her. I will introduce her next weekend. We will meet at the cafe near the station."
+        }
+      ]
+    },
+    {
+      "t": "Ôn tập: Hoạt động và kế hoạch",
+      "e": [
+        {
+          "p": "What do you and your friends do after work?",
+          "m": "Nói 2 hoạt động. Nói tần suất. Nói nơi thường đi.",
+          "h": "Use Present Simple and frequency adverbs.",
+          "s": "We usually go to a cafe and sometimes watch a movie. We do this twice a week. We often go to the mall."
+        },
+        {
+          "p": "Let's plan a weekend trip. Any ideas?",
+          "m": "Đề xuất một địa điểm. Nói cách di chuyển. Nói thời gian đi lại phù hợp.",
+          "h": "Use 'Let's...' and 'We can go by...' and time suggestion.",
+          "s": "Let's go to the beach. We can go by bus. Two days is a good time for a short trip."
+        },
+        {
+          "p": "Who will organize the tickets?",
+          "m": "Đề xuất người làm. Nói họ sẽ làm gì. Nói thời hạn họ nên xong vé.",
+          "h": "Use 'He/She will...' and 'by + time'.",
+          "s": "Anna will organize the tickets. She will check schedules and buy online. She should finish by Thursday."
+        },
+        {
+          "p": "How do you decide on activities with many friends?",
+          "m": "Nói một cách quyết định (vote/discuss). Nói công cụ bạn dùng (chat/app). Nói cách xử lý khi ai đó không đồng ý.",
+          "h": "Use 'We vote' or 'We discuss' and 'if... then...'.",
+          "s": "We discuss options and then vote. We use a chat group to share ideas. If someone disagrees, we try to find a compromise."
+        },
+        {
+          "p": "What will you do if the weather is bad?",
+          "m": "Đưa phương án trong nhà. Nói hoạt động thay thế. Nói bạn sẽ thông báo mọi người thế nào.",
+          "h": "Use 'If... will...' and 'I will...' for actions.",
+          "s": "If the weather is bad, we will stay at a cafe. We can play board games or watch a movie. I will send a message to everyone."
+        }
+      ]
+    },
+    {
+      "t": "Ôn tập: Vấn đề và giải pháp",
+      "e": [
+        {
+          "p": "My friend forgot our meeting time. What should I do?",
+          "m": "Nói bước đầu bạn làm. Nói bạn có giận không. Nói cách bạn sắp xếp lại.",
+          "h": "Use 'You should...' and 'I will...' for rearrange.",
+          "s": "You should call or message them first. I won't be angry if they apologize. I will suggest a new time."
+        },
+        {
+          "p": "We had a small fight. How to fix it?",
+          "m": "Nói lời bạn sẽ nói. Nói hành động bạn làm để xin lỗi. Nói bạn sẽ làm gì để tránh lặp lại.",
+          "h": "Use 'I'm sorry' and 'I will...' and 'to avoid...'.",
+          "s": "Say 'I'm sorry' and explain calmly. I will do something nice like bring a small gift. To avoid it, we will talk more honestly."
+        },
+        {
+          "p": "One friend always borrows things and doesn't return them.",
+          "m": "Nói bạn phản ánh thế nào. Nói giới hạn bạn đặt. Nói hậu quả nếu họ vẫn không thay đổi.",
+          "h": "Use 'I would tell...' and 'you must/should' and 'if... then...'.",
+          "s": "I would tell them politely that it's a problem. I will set a rule: ask before borrowing and return in three days. If they don't change, I will stop lending items."
+        },
+        {
+          "p": "How to help a friend with exam stress?",
+          "m": "Nói một cách hỗ trợ tinh thần. Nói một cách giúp học tập. Nói bạn có theo dõi sau không.",
+          "h": "Use present simple and 'will' for follow-up.",
+          "s": "I will listen and encourage them. I can help by studying together and making a plan. I will check on them after the exam."
+        },
+        {
+          "p": "What advice for a friend who wants to make new friends?",
+          "m": "Đưa hai lời khuyên cụ thể. Nói ví dụ hành động nhỏ. Nói khuyến khích thử trong hoàn cảnh nào.",
+          "h": "Use 'You should...' and give simple examples.",
+          "s": "You should join a club to meet people. Talk to someone about a shared interest, like music. Try this at school or community events."
+        }
+      ]
+    }
+  ]
+}

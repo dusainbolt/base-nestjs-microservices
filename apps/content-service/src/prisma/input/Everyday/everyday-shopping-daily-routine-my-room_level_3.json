@@ -1,0 +1,530 @@
+{
+  "l": 3,
+  "d": [
+    {
+      "t": "Mua áo mới ở cửa hàng",
+      "e": [
+        {
+          "p": "What are you looking for today?",
+          "m": "Nói món đồ bạn cần. Nêu kích cỡ hoặc màu mong muốn.",
+          "h": "Use 'I'm looking for ...' + size/color.",
+          "s": "I'm looking for a blue T-shirt. I need a medium size."
+        },
+        {
+          "p": "Do you want to try it on?",
+          "m": "Nói có thử đồ hay không. Nói dự định mua hay xem thêm.",
+          "h": "Use 'Yes, I will' or 'No, I want to...'; use 'I'm going to...'.",
+          "s": "Yes, I will try it on. If it fits, I'm going to buy it."
+        },
+        {
+          "p": "How does it feel on you?",
+          "m": "Mô tả cảm giác vừa/tight/loose. Nói sẽ làm gì tiếp theo (đổi size hoặc mua).",
+          "h": "Use 'It fits...' and 'I'll ...' or 'I'm going to ...'.",
+          "s": "It fits well but the sleeves are a bit tight. I'll try a larger size."
+        },
+        {
+          "p": "This T-shirt costs $25. Will you pay by card or cash?",
+          "m": "Nói giá theo lời người bán. Nói cách bạn sẽ thanh toán.",
+          "h": "Use 'It costs ...' and 'I'll pay with ...'.",
+          "s": "It costs twenty-five dollars and I'll pay by card. I will keep the receipt for returns."
+        },
+        {
+          "p": "We have a membership with extra discounts this month. Do you want to join?",
+          "m": "Nói bạn có thích chương trình giảm giá không. Nói có đăng ký membership không. Nói kế hoạch mua sắm nếu đăng ký.",
+          "h": "Use 'I like ...' and 'Yes, I will ...' or 'No, I won't ...' plus future 'I'm going to...'.",
+          "s": "I like the discount and I'm going to buy two T-shirts this weekend. Yes, I will sign up for the membership. I think it will save me money."
+        }
+      ]
+    },
+    {
+      "t": "Hỏi giá và săn khuyến mãi ở chợ",
+      "e": [
+        {
+          "p": "How much is this bag?",
+          "m": "Nói tên món đồ. Nói giá bạn nghe được.",
+          "h": "Use 'It is/It's ... dollars' and item name.",
+          "s": "That bag is thirty dollars. It's a bit expensive for me."
+        },
+        {
+          "p": "There is a discount today, twenty percent off. Do you want a lower price?",
+          "m": "Nói bạn có muốn mua khi giảm giá không. Nói bạn sẵn sàng trả bao nhiêu hoặc đề nghị giá.",
+          "h": "Use 'Yes, I will' or 'I can pay ...' and numbers.",
+          "s": "Yes, I will buy it with the discount. I can pay twenty-four dollars."
+        },
+        {
+          "p": "Can I try the shoes before I pay?",
+          "m": "Nói có thử hay không. Nêu kích cỡ hoặc cảm giác vừa vặn.",
+          "h": "Use 'I want to try' and 'They are ...' or 'They fit ...'.",
+          "s": "I want to try them on. They feel comfortable and they fit well."
+        },
+        {
+          "p": "Do you accept card or only cash?",
+          "m": "Hỏi phương thức thanh toán. Nói bạn sẽ dùng card hoặc tiền mặt.",
+          "h": "Use 'Do you accept ...?' and answer with 'I will pay with ...'.",
+          "s": "Do you accept cards or only cash? I will pay with cash because I don't have a card."
+        },
+        {
+          "p": "If I buy two items, can you give a better price?",
+          "m": "Hỏi xin giảm thêm khi mua hai món. Nêu bạn sẽ mua nếu được giảm.",
+          "h": "Use 'If I buy ... will you ...?' and 'I'll buy if ...'.",
+          "s": "If I buy two items, will you give a better price? I'll buy both if you can give a small discount."
+        }
+      ]
+    },
+    {
+      "t": "Thử đồ và chọn kích cỡ",
+      "e": [
+        {
+          "p": "Which size are you usually?",
+          "m": "Nói kích cỡ bạn thường mặc. Nêu một lựa chọn nếu size đó không có.",
+          "h": "Use 'I'm usually ... size' and 'If not, I want ...'.",
+          "s": "I'm usually a medium size. If there is no medium, I want a large."
+        },
+        {
+          "p": "The small is tight and the large is loose. What do you prefer?",
+          "m": "So sánh small và large. Nói lựa chọn cuối cùng và lý do ngắn.",
+          "h": "Use comparatives: 'smaller/tighter than' or 'more comfortable'.",
+          "s": "The small is tighter than the large, and the large is more comfortable. I prefer the large because it's more comfortable."
+        },
+        {
+          "p": "Do you need a fitting room?",
+          "m": "Nói có muốn vào phòng thử không. Nói bạn sẽ thử những món nào.",
+          "h": "Use 'Yes, please' or 'No, thanks' and 'I will try ...'.",
+          "s": "Yes, please, I need a fitting room. I will try the T-shirt and the jacket."
+        },
+        {
+          "p": "The jacket looks good, but the shoulders are tight. Would you like another style?",
+          "m": "Mô tả vấn đề với áo (vai chật). Hỏi bạn muốn đổi kiểu khác hay kích cỡ khác.",
+          "h": "Use 'The shoulders are ...' and 'I want a different ...' or 'I want a bigger size.'",
+          "s": "The shoulders are too tight for me. I want a bigger size or a different style with looser shoulders."
+        },
+        {
+          "p": "If you buy online later, do you know how to return it if it doesn't fit?",
+          "m": "Nói bạn sẽ làm gì nếu hàng online không vừa. Nêu bạn sẽ giữ hay trả và cách trả.",
+          "h": "Use 'If it doesn't fit, I will ...' and 'I will return by ...' or 'I'll keep it if ...'.",
+          "s": "If it doesn't fit, I will return it to the store. I will keep it only if the size is okay."
+        }
+      ]
+    },
+    {
+      "t": "Thanh toán và chính sách đổi trả",
+      "e": [
+        {
+          "p": "Do you want a paper receipt?",
+          "m": "Nói có cần hóa đơn giấy không. Nói bạn sẽ giữ hóa đơn để làm gì.",
+          "h": "Use 'Yes, please' or 'No, thank you' and 'I will keep it for ...'.",
+          "s": "Yes, please, I need a paper receipt. I will keep it for a possible return."
+        },
+        {
+          "p": "You can return items within 30 days with the receipt.",
+          "m": "Lặp lại điều kiện đổi trả bằng câu của bạn. Nói bạn có thể hoặc không thể tuân theo điều kiện đó.",
+          "h": "Use 'You can/must ... within ... days with ...' or 'I can/can't ...'.",
+          "s": "You can return items within thirty days with the receipt. I can return it if I change my mind."
+        },
+        {
+          "p": "We accept card and cash, but no checks. Do you have a card?",
+          "m": "Nói bạn có thẻ hay chỉ có tiền mặt. Nêu kế hoạch thanh toán.",
+          "h": "Use 'I have ...' and 'I will pay with ...'.",
+          "s": "I have a card and some cash. I will pay with my card."
+        },
+        {
+          "p": "If you pay by card, we will need your signature.",
+          "m": "Nói bạn có ký thẻ không. Nói nếu bạn đồng ý hoặc muốn dùng tiền mặt.",
+          "h": "Use 'I will sign' or 'I prefer to pay with cash'.",
+          "s": "I will sign for the card payment. Thank you."
+        },
+        {
+          "p": "You bought this last week and now want to exchange it. Can I check the receipt?",
+          "m": "Nói bạn có hóa đơn hay không. Nêu bạn muốn đổi hay trả và lý do ngắn.",
+          "h": "Use 'I have/ don't have' and 'I want to exchange/return because ...' in past or present.",
+          "s": "I have the receipt from last week. I want to exchange it because the shirt has a small tear."
+        }
+      ]
+    },
+    {
+      "t": "Nói về thói quen buổi sáng",
+      "e": [
+        {
+          "p": "What time do you usually wake up?",
+          "m": "Nói giờ bạn thường dậy. Nói bạn thức dậy bằng gì (alarm/phone).",
+          "h": "Use Present Simple: 'I usually wake up at ...' and 'with ...'.",
+          "s": "I usually wake up at seven o'clock. I wake up with an alarm on my phone."
+        },
+        {
+          "p": "Do you have breakfast every day?",
+          "m": "Nói bạn có ăn sáng hàng ngày không. Nêu món bạn thường ăn sáng.",
+          "h": "Use 'Yes, I ...' or 'No, I ...' and 'I usually eat ...'.",
+          "s": "Yes, I have breakfast every day. I usually eat toast and fruit."
+        },
+        {
+          "p": "How do you get to work or school in the morning?",
+          "m": "Nói phương tiện bạn sử dụng. Nêu thời gian di chuyển (khoảng bao lâu).",
+          "h": "Use 'I go by ...' and 'It takes me ... minutes/hours.'",
+          "s": "I go to work by bus. It takes me about thirty minutes."
+        },
+        {
+          "p": "Sometimes I am late because of traffic. What do you do if you are late?",
+          "m": "Nói bạn làm gì khi đi trễ. Nêu một hành động bạn có thể làm (gọi, xin lỗi, làm bù).",
+          "h": "Use 'If I am late, I ...' and 'I will ...' for future actions.",
+          "s": "If I am late, I call my manager and say sorry. I will make up the time later."
+        },
+        {
+          "p": "Are you going to change your morning routine this week to have more exercise?",
+          "m": "Nói bạn có kế hoạch thay đổi thói quen không. Nêu thay đổi cụ thể (tập gì, khi nào). Nói dự định sẽ giữ thói quen lâu dài hay thử một tuần.",
+          "h": "Use 'I'm going to ...' and 'I will ...' or 'I'll try ... for ...'.",
+          "s": "I'm going to wake up earlier to exercise. I will do a twenty-minute run every morning and I'll try this for a week."
+        }
+      ]
+    },
+    {
+      "t": "Lịch học và công việc hàng ngày",
+      "e": [
+        {
+          "p": "When do you start work or classes?",
+          "m": "Nói giờ bạn bắt đầu. Nói bạn bắt đầu bằng hoạt động nào (check email, study).",
+          "h": "Use Present Simple: 'I start at ...' and 'I usually ... first.'",
+          "s": "I start work at nine o'clock. I usually check my email first."
+        },
+        {
+          "p": "How many breaks do you have during the day?",
+          "m": "Nói số lần nghỉ. Nêu thời lượng mỗi lần nghỉ.",
+          "h": "Use numbers and 'for ... minutes' or 'for ... hours'.",
+          "s": "I have two short breaks during the day. Each break is about fifteen minutes."
+        },
+        {
+          "p": "Do you have homework or tasks after work?",
+          "m": "Nói bạn có việc phải làm sau giờ làm/ học không. Nêu một ví dụ cụ thể.",
+          "h": "Use 'I have to ...' or 'I need to ...' and examples.",
+          "s": "I have to study English homework after work. I need to practice vocabulary for thirty minutes."
+        },
+        {
+          "p": "Some days are busier than others. Which day is the busiest for you and why?",
+          "m": "Nêu ngày bận nhất. Giải thích lý do ngắn (meeting, test, deadline).",
+          "h": "Use comparatives: 'busier than' and 'because ...'.",
+          "s": "Friday is busier than other days because we have many meetings. I also have project deadlines on Friday."
+        },
+        {
+          "p": "Do you think you should change your schedule to be more relaxed?",
+          "m": "Nói bạn có nên thay đổi không. Nêu một thay đổi bạn sẽ làm và lý do ngắn.",
+          "h": "Use 'I should/shouldn't ...' and 'so that ...' or 'because ...'.",
+          "s": "I should change my schedule to relax more. I will stop work earlier so that I can sleep more."
+        }
+      ]
+    },
+    {
+      "t": "Thói quen buổi tối và kế hoạch cuối tuần",
+      "e": [
+        {
+          "p": "What do you usually do in the evening?",
+          "m": "Nói 2 hoạt động bạn thường làm buổi tối.",
+          "h": "Use Present Simple: 'I usually ... and ...'.",
+          "s": "I usually cook dinner and watch a short TV show. Then I read a book before bed."
+        },
+        {
+          "p": "Do you exercise in the evening or morning?",
+          "m": "Nói bạn tập khi nào. Nêu loại bài tập ngắn.",
+          "h": "Use 'I exercise in the ...' and 'I do ...'.",
+          "s": "I exercise in the morning sometimes, but I prefer evening walks. I do a thirty-minute walk."
+        },
+        {
+          "p": "Are you going to meet friends this weekend?",
+          "m": "Nói bạn có kế hoạch gặp bạn bè không. Nêu nơi hoặc hoạt động ngắn.",
+          "h": "Use 'I'm going to ...' and 'we will ...' for plans.",
+          "s": "I'm going to meet friends on Saturday. We will go to a small cafe near the park."
+        },
+        {
+          "p": "Last weekend I stayed home and relaxed. What did you do last weekend?",
+          "m": "Hỏi và trả lời về hoạt động cuối tuần trước (past simple). Nêu 2 việc bạn đã làm.",
+          "h": "Use Past Simple: 'I stayed/visited/... and ...ed.'",
+          "s": "Last weekend I visited my parents and cooked dinner for them. I also watched a movie at home."
+        },
+        {
+          "p": "How do you balance work and rest on busy weeks?",
+          "m": "Nêu một cách bạn cân bằng (một hành động cụ thể). Nói bạn sẽ làm gì trong tuần bận rộn tiếp theo.",
+          "h": "Use 'I try to ...' and future 'I will ...' or 'I'll ...'.",
+          "s": "I try to schedule short breaks and sleep early. Next busy week I'll stop checking emails after eight and I'll rest more."
+        }
+      ]
+    },
+    {
+      "t": "So sánh ngày làm việc và ngày nghỉ",
+      "e": [
+        {
+          "p": "Which day do you prefer, workday or weekend?",
+          "m": "Nêu bạn thích ngày nào. Nói một lý do ngắn.",
+          "h": "Use comparatives and 'because ...'.",
+          "s": "I prefer the weekend because it's quieter. I can relax and see my friends."
+        },
+        {
+          "p": "On workdays I wake up early and have little free time. What about you?",
+          "m": "So sánh thời gian rảnh giữa ngày làm việc và ngày nghỉ. Nêu ví dụ một hoạt động bạn chỉ làm vào ngày nghỉ.",
+          "h": "Use 'I have more/less free time on ...' and 'I only ... on ...'.",
+          "s": "I have less free time on workdays than on weekends. I only go hiking on weekends."
+        },
+        {
+          "p": "My weekend is more relaxed and I sleep longer. Do you sleep more on weekends?",
+          "m": "Trả lời có hoặc không. Nêu khoảng thời gian ngủ hơn/ít hơn và một lý do.",
+          "h": "Use 'Yes, I sleep ...' or 'No, I ...' and comparatives.",
+          "s": "Yes, I sleep longer on weekends; I sleep two more hours than on workdays. I need rest after busy days."
+        },
+        {
+          "p": "I work better in the morning, so I finish tasks early. What time of day are you most productive?",
+          "m": "Nêu thời điểm bạn làm việc tốt nhất. Nêu một tác vụ bạn làm vào thời điểm đó.",
+          "h": "Use 'I'm most productive in the ...' and 'I do ... then.'",
+          "s": "I'm most productive in the afternoon. I do my writing and planning then."
+        },
+        {
+          "p": "If you could change one thing about your workweek, what would it be?",
+          "m": "Nêu một điều bạn muốn thay đổi. Giải thích ngắn tại sao và nói bạn sẽ làm gì để thay đổi.",
+          "h": "Use 'I would ... because ...' and 'I will ...' or 'I'm going to ...'.",
+          "s": "I would like shorter meetings because they take too much time. I will suggest a shorter agenda next week."
+        }
+      ]
+    },
+    {
+      "t": "Mô tả đồ dùng trong phòng riêng",
+      "e": [
+        {
+          "p": "Can you describe your bed?",
+          "m": "Nói màu và kích thước giường. Nêu một đặc điểm (comfortable/old/new).",
+          "h": "Use 'My bed is ...' and 'It is ...' or 'It has ...'.",
+          "s": "My bed is white and it's a double size. It is very comfortable and soft."
+        },
+        {
+          "p": "What furniture do you have near the window?",
+          "m": "Liệt kê 2 món đồ cạnh cửa sổ. Mô tả ngắn chúng (small/wooden).",
+          "h": "Use 'There is/are ...' and adjectives.",
+          "s": "There is a small desk and a wooden chair near the window. The desk is tidy and the chair is comfortable."
+        },
+        {
+          "p": "Where do you keep your clothes?",
+          "m": "Nêu vị trí (wardrobe/closet/drawer). Nêu nếu phòng ngăn nắp hay lộn xộn.",
+          "h": "Use 'I keep ... in ...' and 'It is ...' or 'They are ...'.",
+          "s": "I keep my clothes in a wardrobe and some shirts in a drawer. My room is usually tidy."
+        },
+        {
+          "p": "There is a lamp on your desk. Do you use it for studying?",
+          "m": "Nói bạn có dùng đèn để học không. Nêu lúc nào bạn dùng và lý do ngắn.",
+          "h": "Use 'I use it to ...' and time words like 'in the evening'.",
+          "s": "I use the lamp to study in the evening. It helps me see my books clearly."
+        },
+        {
+          "p": "If you could change one thing in your room, what would you change?",
+          "m": "Nêu một đồ vật hoặc vị trí bạn muốn thay đổi. Giải thích ngắn tại sao và bạn sẽ làm gì (buy/move).",
+          "h": "Use 'I would change ... because ...' and 'I will buy/move ...'.",
+          "s": "I would change the old carpet because it's worn out. I will buy a new small rug next month."
+        }
+      ]
+    },
+    {
+      "t": "Sắp xếp phòng và dọn dẹp",
+      "e": [
+        {
+          "p": "Is your room clean now?",
+          "m": "Trả lời có hoặc không. Nêu một việc bạn vừa làm hoặc cần làm.",
+          "h": "Use Present Simple or Present Perfect: 'Yes, it is.' or 'No, I need to ...' or 'I have ...'.",
+          "s": "No, my room is not clean now. I need to put away clothes and vacuum."
+        },
+        {
+          "p": "How often do you clean your room?",
+          "m": "Nói tần suất dọn dẹp (daily/weekly). Nêu một hoạt động bạn làm khi dọn.",
+          "h": "Use 'I clean ...' with frequency words and 'I ...' for activity.",
+          "s": "I clean my room once a week. I usually dust and change the sheets."
+        },
+        {
+          "p": "I can help you tidy if you want. What should I do first?",
+          "m": "Nói việc nên làm trước (pick up clothes, make bed). Nêu hai việc theo thứ tự.",
+          "h": "Use imperatives or 'First, then ...' and verbs.",
+          "s": "First, pick up the clothes from the floor. Then make the bed and put books on the shelf."
+        },
+        {
+          "p": "I lost a sock under the bed. Can you check there?",
+          "m": "Nói bạn sẽ làm gì (nhìn dưới giường). Nêu nếu bạn tìm được hoặc không và kế tiếp.",
+          "h": "Use 'I will check ...' and 'If I find it, I will ...' or 'I can't find it.'",
+          "s": "I will check under the bed now. If I find the sock, I will wash it and put it with the other socks."
+        },
+        {
+          "p": "Do you plan to rearrange your room next month?",
+          "m": "Nói bạn có kế hoạch thay đổi không. Nêu hai thay đổi cụ thể và mục đích (more space/comfortable).",
+          "h": "Use 'I'm going to ...' and 'so that ...' or 'to ...'.",
+          "s": "I'm going to move the desk near the window and add a small shelf. I want more space and better light for study."
+        }
+      ]
+    },
+    {
+      "t": "Mời bạn vào phòng và giới thiệu vật dụng",
+      "e": [
+        {
+          "p": "Welcome to my room. Do you want a seat?",
+          "m": "Mời khách ngồi. Hỏi nếu họ muốn uống nước hoặc để túi ở đâu.",
+          "h": "Use 'Please sit' and 'Would you like ...?'",
+          "s": "Please sit on the chair. Would you like some water or can I put your bag on the table?"
+        },
+        {
+          "p": "Your room looks cozy. What is your favorite thing here?",
+          "m": "Nói đồ bạn thích nhất trong phòng. Giải thích ngắn vì sao.",
+          "h": "Use 'My favorite thing is ... because ...'.",
+          "s": "My favorite thing is my small bookshelf because it has all my favorite novels. It makes me relaxed."
+        },
+        {
+          "p": "I like your posters. Where did you get them?",
+          "m": "Nói nơi bạn mua hoặc nhận poster. Nêu một chi tiết về poster (band/movie).",
+          "h": "Use 'I bought/received ... at/from ...' and describe briefly.",
+          "s": "I bought the posters online from a music store. One poster is of my favorite band."
+        },
+        {
+          "p": "Can I charge my phone here?",
+          "m": "Cho phép hay không và chỉ chỗ cắm. Nêu điều kiện ngắn nếu cần (after asking).",
+          "h": "Use 'Yes, you can ...' or 'No, you should ...' and location 'on the desk'.",
+          "s": "Yes, you can charge your phone on the desk. Please use the charger next to the lamp."
+        },
+        {
+          "p": "If I stay overnight, where can I sleep?",
+          "m": "Nói chỗ ngủ cho khách. Nêu nếu có chăn/gối và bạn sẽ làm gì để chuẩn bị.",
+          "h": "Use 'You can sleep on ...' and 'I will prepare ...' or 'I'll get ...'.",
+          "s": "You can sleep on the sofa bed. I will prepare a blanket and a pillow for you."
+        }
+      ]
+    },
+    {
+      "t": "Vấn đề trong phòng và xin phép sửa chữa",
+      "e": [
+        {
+          "p": "The light bulb in my room is broken. Can you help?",
+          "m": "Mô tả vấn đề (bóng đèn hỏng). Hỏi có thể sửa không hoặc ai sửa.",
+          "h": "Use 'The ... is broken' and 'Can you ...?' or 'Who will ...?'.",
+          "s": "The light bulb in my room is broken. Can you help me change it or tell who will fix it?"
+        },
+        {
+          "p": "My window doesn't close properly and it's cold. What should I do?",
+          "m": "Mô tả vấn đề ngắn. Hỏi lời khuyên hoặc hành động bạn phải làm (should/must).",
+          "h": "Use 'You should ...' or 'I must ...' and simple verbs.",
+          "s": "The window doesn't close properly and it's cold. I should call the maintenance and they must fix the latch."
+        },
+        {
+          "p": "There is a small leak under the sink. I will report it to the landlord.",
+          "m": "Xác nhận bạn sẽ báo cáo. Nêu hai việc bạn làm tiếp theo (turn off water, move things).",
+          "h": "Use 'I will ...' and 'I turned off ...' or 'I will move ...'.",
+          "s": "I will report the leak to the landlord now. I turned off the water and I will move the boxes away from the sink."
+        },
+        {
+          "p": "Can I repaint one wall in my room?",
+          "m": "Hỏi xin phép repaint. Nêu màu bạn muốn và nếu bạn sẽ trả tiền hoặc làm việc với landlord.",
+          "h": "Use 'Can I ...?' and 'I want ...' and 'I will pay ...' or 'I will ask ...'.",
+          "s": "Can I repaint one wall in my room? I want a light blue color and I will pay for the paint."
+        },
+        {
+          "p": "If you fix the heater next week, will the room be warm enough?",
+          "m": "Hỏi điều kiện và mong muốn. Trả lời nếu bạn tin rằng việc sửa sẽ đủ và nêu kế hoạch nếu không đủ (buy heater).",
+          "h": "Use 'If ... will ...?' and 'I think ...' or 'I will ...' future forms.",
+          "s": "If you fix the heater next week, I think the room will be warm enough. If it's not, I will buy a small electric heater."
+        }
+      ]
+    },
+    {
+      "t": "Ôn tập: Mua sắm và thanh toán",
+      "e": [
+        {
+          "p": "I want to buy a jacket. Can you tell me the price?",
+          "m": "Nói giá của món đồ. Nói bạn sẽ thanh toán bằng cách nào.",
+          "h": "Use 'It costs ...' and 'I will pay with ...'.",
+          "s": "The jacket costs fifty dollars. I will pay with my card."
+        },
+        {
+          "p": "Do you accept returns if the jacket doesn't fit?",
+          "m": "Nói điều kiện đổi trả ngắn (có/không và bao lâu). Nêu bạn sẽ làm gì nếu không vừa.",
+          "h": "Use 'You can return ... within ...' and 'I will ... if ...'.",
+          "s": "You can return it within thirty days with the receipt. I will return it if the size doesn't fit."
+        },
+        {
+          "p": "Can I try the jacket and maybe buy another size later online?",
+          "m": "Nói bạn có thể thử không. Nêu kế hoạch mua online nếu cần và cách đổi trả.",
+          "h": "Use 'I will try ...' and 'I'm going to buy ... online if ...'.",
+          "s": "I will try the jacket now. If it doesn't fit, I'm going to buy a different size online."
+        },
+        {
+          "p": "What is the best payment method here during a sale?",
+          "m": "Hỏi phương thức thanh toán tốt nhất khi giảm giá. Nói lựa chọn của bạn và lý do ngắn.",
+          "h": "Use 'The best is ... because ...' and 'I prefer ...'.",
+          "s": "The best payment method is card because it's fast and secure. I prefer to pay with card during a sale."
+        },
+        {
+          "p": "If you buy two jackets and get a discount, will you keep both?",
+          "m": "Nói bạn có mua cả hai nếu được giảm. Nêu lý do ngắn và dự định (give one away/keep both).",
+          "h": "Use 'I'll buy both if ...' and 'I will ...' or 'I might ...'.",
+          "s": "I'll buy both if the discount is good. I will keep one and give the other to my friend."
+        }
+      ]
+    },
+    {
+      "t": "Ôn tập: Thói quen hàng ngày",
+      "e": [
+        {
+          "p": "Describe your typical weekday in two sentences.",
+          "m": "Nói giờ bạn dậy và một hoạt động chính trong ngày. Nói thời gian bạn đi ngủ hoặc làm gì buổi tối.",
+          "h": "Use Present Simple and time expressions.",
+          "s": "I usually wake up at six thirty and I go to work by bus. In the evening I cook dinner and I go to bed at ten."
+        },
+        {
+          "p": "What did you do yesterday evening?",
+          "m": "Mô tả hai việc bạn đã làm tối qua (past simple).",
+          "h": "Use Past Simple: 'I ...ed' for two actions.",
+          "s": "Yesterday evening I cooked pasta and I watched a movie. Then I studied English for thirty minutes."
+        },
+        {
+          "p": "Will you change your routine next week to study more?",
+          "m": "Nói có kế hoạch thay đổi không. Nêu một thay đổi cụ thể và thời gian bạn sẽ làm.",
+          "h": "Use 'I'm going to ...' or 'I will ...' for plans.",
+          "s": "I'm going to study one hour every evening next week. I will stop watching TV during study time."
+        },
+        {
+          "p": "Which day last week was the busiest and why?",
+          "m": "Nêu ngày bận nhất (past). Giải thích một lý do ngắn.",
+          "h": "Use Past Simple and 'because ...'.",
+          "s": "Last Wednesday was the busiest because I had three meetings and a deadline. I worked late that night."
+        },
+        {
+          "p": "Give one piece of advice to someone who sleeps late every night.",
+          "m": "Đưa một lời khuyên ngắn sử dụng 'should'. Nêu lý do ngắn vì sao.",
+          "h": "Use 'You should ...' and 'because ...'.",
+          "s": "You should go to bed earlier to sleep more. It will help you feel more energetic during the day."
+        }
+      ]
+    },
+    {
+      "t": "Ôn tập: Phòng và vật dụng",
+      "e": [
+        {
+          "p": "Can you list three items in your room?",
+          "m": "Liệt kê ba món đồ. Mỗi món kèm một tính từ ngắn.",
+          "h": "Use 'I have ...' or 'There is/are ...' and adjectives.",
+          "s": "I have a small desk, a comfortable chair, and a big wardrobe."
+        },
+        {
+          "p": "Where do you study in your room?",
+          "m": "Nêu vị trí bạn học (desk/near window). Nêu một lý do bạn thích chỗ đó.",
+          "h": "Use 'I study at ...' and 'because ...'.",
+          "s": "I study at my desk near the window because the light is good. It helps me concentrate."
+        },
+        {
+          "p": "My room is messy. How can I organize it quickly?",
+          "m": "Đưa hai bước nhanh để dọn phòng. Mỗi bước một câu.",
+          "h": "Use imperatives or 'First, then ...'.",
+          "s": "First, pick up clothes and put them in the laundry basket. Then put books on the shelf and wipe the desk."
+        },
+        {
+          "p": "If you could buy one thing for your room this month, what would it be?",
+          "m": "Nói bạn sẽ mua gì. Nêu lý do ngắn và bạn sẽ đặt nó ở đâu.",
+          "h": "Use 'I will buy ...' and 'I will put it ... because ...'.",
+          "s": "I will buy a new lamp because my light is weak. I will put it on the desk for better study light."
+        },
+        {
+          "p": "Do you prefer a small tidy room or a big messy room?",
+          "m": "Nói sở thích của bạn (small tidy or big messy). Giải thích hai lý do ngắn.",
+          "h": "Use comparatives and 'because ...' twice.",
+          "s": "I prefer a small tidy room because it's calm and easy to clean. It also helps me find things quickly."
+        }
+      ]
+    }
+  ]
+}
