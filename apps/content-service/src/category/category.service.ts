@@ -104,7 +104,6 @@ export class CategoryService {
     }
 
     // Đếm exercises song song cho cả 3 types
-    // Đếm exercises song song cho cả 3 types
     const [everydayExercises, officeExercises, nicheExercises] =
       await this.prisma.$transaction([
         this.prisma.exercise.count({

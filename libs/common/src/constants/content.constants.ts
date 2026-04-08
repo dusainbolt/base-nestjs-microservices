@@ -1,15 +1,34 @@
 export const CONTENT_COMMANDS = {
-  // ── Category ────────────────────────────────────────────────────────────────
+  // ── Category ─────────────────────────────────────────────────────────────────
   GET_CATEGORIES: 'get_categories',
   GET_CATEGORY_BY_ID: 'get_category_by_id',
   GET_TOTAL_EXERCISES_PER_CATEGORY: 'get_total_exercises_per_category',
+  // Trả về { type, totalPacks, totalExercises } × 3 types — mẫu số cho Section 1
   GET_CATEGORIES_CONTENT_SUMMARY: 'get_categories_content_summary',
 
-  // ── Level (phase 2) ─────────────────────────────────────────────────────────
+  // ── Level ─────────────────────────────────────────────────────────────────────
   GET_LEVELS: 'get_levels',
+  GET_LEVEL_BY_ID: 'get_level_by_id',
+  // Đếm totalExercises trong level × categoryType — mẫu số cho Section 2
+  GET_TOTAL_EXERCISES_PER_LEVEL: 'get_total_exercises_per_level',
 
-  // ── LessonPack (phase 2) ────────────────────────────────────────────────────
+  // ── LessonPack ────────────────────────────────────────────────────────────────
+  // List packs có filter (categoryId | levelId | categoryType | status)
+  // Dùng cho màn "Xem tất cả" bài học trong level
   GET_PACKS: 'get_packs',
+
+  // Chi tiết 1 pack — dùng khi user bấm play
+  GET_PACK_BY_ID: 'get_pack_by_id',
+
+  // Batch fetch nhiều packs theo IDs (max 50)
+  // Dùng cho Section 4: user-service trả packIds → content-service trả pack info
+  // Thứ tự response giữ nguyên thứ tự ids truyền vào
+  GET_PACKS_BY_IDS: 'get_packs_by_ids',
+
+  // Đếm totalPacks + totalExercises trong category × level — mẫu số cho Section 3
+  // completionPercent = completedPacks / totalPacks × 100
+  GET_PACK_STATS_BY_CATEGORY_AND_LEVEL: 'get_pack_stats_by_category_and_level',
+
+  // Lấy tất cả exercises trong 1 pack — dùng khi bắt đầu làm bài
   GET_PACK_EXERCISES: 'get_pack_exercises',
-  CREATE_PACK: 'create_pack',
 };

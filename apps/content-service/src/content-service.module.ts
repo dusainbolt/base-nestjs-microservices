@@ -2,6 +2,8 @@ import { EnvironmentVariables, RmqModule, validateEnv } from '@app/common';
 import { Module } from '@nestjs/common';
 import { ConfigModule } from '@nestjs/config';
 import { CategoryModule } from './category/category.module';
+import { LevelModule } from './level/level.module';
+import { LessonPackModule } from './lesson-pack/lesson-pack.module';
 
 @Module({
   imports: [
@@ -12,6 +14,8 @@ import { CategoryModule } from './category/category.module';
     }),
     RmqModule,
     CategoryModule,
+    LevelModule,
+    LessonPackModule,
   ],
   controllers: [],
   providers: [],
