@@ -35,9 +35,9 @@
       "e": [
         {
           "p": "Hello, I want to ask a question.",
-          "m": "Chào khách hàng. Nói tên và bộ phận của bạn.",
-          "h": "Sử dụng 'Hello' và 'My name is...'",
-          "s": "Hello. My name is [studentName]. I am from support."
+          "m": "Chào khách hàng, giới thiệu bộ phận và mời giúp.",
+          "h": "Hello. I am from + bộ phận. How can I help you?",
+          "s": "Hello. I am from support. How can I help you?"
         },
         {
           "p": "Is this the customer service?",
@@ -47,9 +47,9 @@
         },
         {
           "p": "My name is John. I need help.",
-          "m": "Nói tên bạn. Xác nhận bạn có thể giúp.",
-          "h": "Dùng 'My name is...' và 'I can help.'",
-          "s": "My name is [studentName]. I can help."
+          "m": "Xác nhận bạn có thể giúp khách hàng.",
+          "h": "Dùng 'I am here to help you.'",
+          "s": "I am here to help you."
         },
         {
           "p": "I have a problem with my phone.",
@@ -59,9 +59,9 @@
         },
         {
           "p": "Hello, I need to talk to someone.",
-          "m": "Nói tên và vai trò của bạn. Nói bạn có thể giúp.",
-          "h": "Dùng 'My name is...' và 'I can help.'",
-          "s": "My name is [studentName]. I am an agent. I can help."
+          "m": "Xác nhận vai trò và sẵn sàng giúp đỡ.",
+          "h": "Dùng 'I am an agent. I can help.'",
+          "s": "I am an agent. I can help you."
         }
       ]
     },
@@ -210,9 +210,9 @@
       "e": [
         {
           "p": "What is your name?",
-          "m": "Nói tên bạn và bộ phận của bạn.",
-          "h": "Dùng 'My name is...' và 'I am from...'",
-          "s": "My name is [studentName]. I am from support."
+          "m": "Nói bộ phận của bạn và sẵn sàng giúp đỡ.",
+          "h": "Dùng 'I am from... I can help you.'",
+          "s": "I am from the support team. How can I help?"
         },
         {
           "p": "Can you tell me your department?",
@@ -444,9 +444,9 @@
         },
         {
           "p": "I am finished. Thank you.",
-          "m": "Nói tên bạn. Cảm ơn khách hàng và chào tạm biệt.",
-          "h": "Dùng 'My name is...' và 'Thank you, goodbye.'",
-          "s": "My name is [studentName]. Thank you. Goodbye."
+          "m": "Cảm ơn khách hàng và chào tạm biệt chuyên nghiệp.",
+          "h": "Dùng 'Thank you for calling. Have a good day.'",
+          "s": "Thank you for calling. Have a good day."
         }
       ]
     },
@@ -455,9 +455,9 @@
       "e": [
         {
           "p": "Hello, I need help with my new service.",
-          "m": "Chào khách hàng. Nói tên và bộ phận của bạn.",
-          "h": "Sử dụng 'Hello' và 'My name is...'",
-          "s": "Hello. My name is [studentName]. I am from support."
+          "m": "Chào khách hàng. Giới thiệu bộ phận và hỏi vấn đề.",
+          "h": "Dùng 'Hello. I am from support. How can I help you?'",
+          "s": "Hello. I am from support. How can I help you?"
         },
         {
           "p": "My name is Ben. My internet is very slow.",
@@ -525,9 +525,9 @@
       "e": [
         {
           "p": "Hello, I need help with my payment.",
-          "m": "Chào khách hàng. Nói tên và bộ phận của bạn. Hỏi tên khách hàng.",
-          "h": "Dùng 'Hello.' và 'My name is...' và 'What is your name?'",
-          "s": "Hello. My name is [studentName]. I am from billing. What is your name?"
+          "m": "Chào khách hàng, giới thiệu bộ phận và hỏi cách giúp.",
+          "h": "Dùng 'Hello. I am from... How can I help you?'",
+          "s": "Hello. I am from billing. How can I help you today?"
         },
         {
           "p": "My name is Sarah. My bill is wrong.",

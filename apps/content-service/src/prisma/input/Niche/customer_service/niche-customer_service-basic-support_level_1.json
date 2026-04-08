@@ -5,10 +5,10 @@
       "t": "Tiếp tân: Đón khách",
       "e": [
         {
-          "p": "What's your name?",
-          "m": "Nói tên của bạn.",
-          "h": "My name is / I am",
-          "s": "My name is [studentName]."
+          "p": "Good evening! Do you have a reservation?",
+          "m": "Nói bạn không có đặt chỗ trước.",
+          "h": "No, we don't. Can we get a table?",
+          "s": "No, we don't have a reservation."
         },
         {
           "p": "Do you have a reservation?",
@@ -145,10 +145,10 @@
       "t": "Đặt chỗ bàn ăn",
       "e": [
         {
-          "p": "I would like to book a table.",
-          "m": "Cho tên cho đặt chỗ.",
-          "h": "My name is + name",
-          "s": "My name is [studentName]."
+          "p": "Good evening! How can I help you?",
+          "m": "Nói bạn muốn đặt bàn.",
+          "h": "I would like to book a table + for + số người.",
+          "s": "I would like to book a table for two, please."
         },
         {
           "p": "How many people will come?",
@@ -426,9 +426,9 @@
       "e": [
         {
           "p": "Can I make a booking?",
-          "m": "Cho tên cho đặt chỗ.",
-          "h": "My name is + name",
-          "s": "My name is [studentName]."
+          "m": "Hỏi số người và giờ (vai trò nhân viên).",
+          "h": "Dùng 'Yes, for how many people?'",
+          "s": "Yes, for how many people?"
         },
         {
           "p": "How many people will come with you?",

@@ -5,10 +5,10 @@
       "t": "Gặp đồng nghiệp mới",
       "e": [
         {
-          "p": "What's your name?",
-          "m": "Nói tên của bạn.",
-          "h": "S + be + tên",
-          "s": "My name is [studentName]."
+          "p": "Are you new here?",
+          "m": "Xác nhận bạn là người mới và bắt đầu khi nào.",
+          "h": "Yes, I started + time.",
+          "s": "Yes, I started this week."
         },
         {
           "p": "What do you do?",
@@ -41,9 +41,9 @@
       "e": [
         {
           "p": "Who is speaking, please?",
-          "m": "Nói tên của bạn ngắn gọn.",
-          "h": "My name is + tên",
-          "s": "My name is [studentName]."
+          "m": "Giới thiệu bộ phận và sẵn sàng giúp đỡ.",
+          "h": "This is + bộ phận. How can I help you?",
+          "s": "This is the support team. How can I help you?"
         },
         {
           "p": "Can you tell me your job?",
@@ -75,10 +75,10 @@
       "t": "Giới thiệu với khách hàng",
       "e": [
         {
-          "p": "May I have your name?",
-          "m": "Nói tên của bạn.",
-          "h": "My name is + tên",
-          "s": "My name is [studentName]."
+          "p": "Welcome! How can I help you today?",
+          "m": "Nói bạn cần giúp đỡ với tài khoản.",
+          "h": "I need help with + vấn đề.",
+          "s": "I need help with my account."
         },
         {
           "p": "What is your role at the company?",
@@ -355,10 +355,10 @@
       "t": "Phỏng vấn ngắn: giới thiệu bản thân",
       "e": [
         {
-          "p": "Tell me your name.",
-          "m": "Nói tên của bạn (một câu).",
-          "h": "My name is + tên",
-          "s": "My name is [studentName]."
+          "p": "Tell me about yourself.",
+          "m": "Nói nghề và một điểm mạnh ngắn gọn.",
+          "h": "I am a + nghề. I + điểm mạnh.",
+          "s": "I am a [studentJob]. I work hard and like helping people."
         },
         {
           "p": "What is your job here?",
