@@ -1,0 +1,559 @@
+{
+  "l": {
+    "lvl": 1,
+    "code": "BEGINNER",
+    "desc": "Câu đơn rất cơ bản, chỉ truyền đạt 1 ý",
+    "req": {
+      "gram": "S + be (am/is/are) + N/Adj, S + V(s/es) + O, S + can/can't + V, There is/are, What/Who/Where + be...?, Do/Does + S + V?",
+      "vocab": "Nghề nghiệp, gia đình, đồ vật, số đếm, màu sắc, hàng ngày",
+      "vocabCap": {
+        "cefr": "A1",
+        "maxWords": 300,
+        "allowed": [
+          "Danh từ cơ bản: mother, father, sister, brother, friend, school, house, book, food, water, dog, cat",
+          "Động từ phổ biến nhất: be, have, go, come, like, want, eat, drink, play, study, work, live, see",
+          "Tính từ đơn giản (1 âm tiết): big, small, good, bad, hot, cold, happy, sad, old, young, tall, short",
+          "Số đếm: 1-100",
+          "Màu sắc cơ bản: red, blue, green, yellow, white, black",
+          "Thời gian đơn giản: today, now, every day, morning, night"
+        ],
+        "avoid": [
+          "Từ nhiều âm tiết phức tạp (ví dụ: independent, environment, professional)",
+          "Phrasal verbs (ví dụ: get up, look after)",
+          "Idioms, thành ngữ",
+          "Từ chuyên ngành hoặc từ hiếm gặp"
+        ]
+      },
+      "conn": "Không yêu cầu",
+      "tense": "Present Simple",
+      "cmplx": "Rất thấp"
+    }
+  },
+  "d": [
+    {
+      "t": "Kể về một món đồ yêu thích",
+      "e": [
+        {
+          "p": "Hello! What is this? Is it good?",
+          "m": "Nói đây là một cuốn sách. Nói cuốn sách này tốt.",
+          "h": "Dùng 'This is a...' và 'It is...'",
+          "s": "This is a book. It is good."
+        },
+        {
+          "p": "What color is your book? Do you like it?",
+          "m": "Nói cuốn sách màu xanh. Nói bạn thích nó.",
+          "h": "Dùng 'It is...' và 'I like...'",
+          "s": "It is blue. I like it."
+        },
+        {
+          "p": "Is your book big or small?",
+          "m": "Nói cuốn sách này nhỏ.",
+          "h": "Dùng 'It is...'",
+          "s": "It is small."
+        },
+        {
+          "p": "Whose book is it? Is it your book?",
+          "m": "Nói đây là cuốn sách của bạn.",
+          "h": "Dùng 'It is my...'",
+          "s": "It is my book."
+        },
+        {
+          "p": "Can you read your book every day?",
+          "m": "Nói bạn có thể đọc sách này mỗi ngày.",
+          "h": "Dùng 'I can...'",
+          "s": "I can read it every day."
+        }
+      ]
+    },
+    {
+      "t": "Miêu tả đồ vật xung quanh",
+      "e": [
+        {
+          "p": "Where is your bag? What color is it?",
+          "m": "Nói cái túi ở trong phòng. Nói nó màu đen.",
+          "h": "Dùng 'It is in...' và 'It is...'",
+          "s": "It is in my room. It is black."
+        },
+        {
+          "p": "Is your phone new or old? Do you like your phone?",
+          "m": "Nói điện thoại của bạn mới. Nói bạn thích nó.",
+          "h": "Dùng 'My phone is...' và 'I like...'",
+          "s": "My phone is new. I like it."
+        },
+        {
+          "p": "There is a chair in the room. Is it big?",
+          "m": "Nói cái ghế nhỏ.",
+          "h": "Dùng 'It is...'",
+          "s": "It is small."
+        },
+        {
+          "p": "What is this food? Is it good for you?",
+          "m": "Nói đây là một quả táo. Nói nó tốt cho bạn.",
+          "h": "Dùng 'This is a...' và 'It is good for...'",
+          "s": "This is an apple. It is good for me."
+        },
+        {
+          "p": "Do you have a big TV in your house? Is it black?",
+          "m": "Nói bạn có một chiếc TV lớn. Nói nó màu đen.",
+          "h": "Dùng 'I have a...' và 'It is...'",
+          "s": "I have a big TV. It is black."
+        }
+      ]
+    },
+    {
+      "t": "Nói về món đồ mới mua",
+      "e": [
+        {
+          "p": "You have a new pen. Is it good?",
+          "m": "Nói cây bút mới. Nói nó rất tốt.",
+          "h": "Dùng 'It is...' và 'It is very...'",
+          "s": "It is new. It is very good."
+        },
+        {
+          "p": "What color is your new car? Is it red?",
+          "m": "Nói xe ô tô mới màu xanh.",
+          "h": "Dùng 'My new car is...'",
+          "s": "My new car is blue."
+        },
+        {
+          "p": "Your new book is here. Is it good?",
+          "m": "Nói cuốn sách mới tốt.",
+          "h": "Dùng 'My new book is...'",
+          "s": "My new book is good."
+        },
+        {
+          "p": "Can you play with your new toy? Do you like it?",
+          "m": "Nói bạn có thể chơi với nó. Nói bạn thích nó.",
+          "h": "Dùng 'I can...' và 'I like...'",
+          "s": "I can play with it. I like it."
+        },
+        {
+          "p": "Do you like your new shoes? Are they red?",
+          "m": "Nói bạn thích đôi giày mới. Nói chúng màu đen.",
+          "h": "Dùng 'I like...' và 'They are...'",
+          "s": "I like my new shoes. They are black."
+        }
+      ]
+    },
+    {
+      "t": "Chia sẻ về thức ăn và đồ uống",
+      "e": [
+        {
+          "p": "Do you like this food? Is it good?",
+          "m": "Nói bạn thích món ăn này. Nói nó rất ngon.",
+          "h": "Dùng 'I like...' và 'It is very...'",
+          "s": "I like this food. It is very good."
+        },
+        {
+          "p": "What drink is this? Is it cold?",
+          "m": "Nói đây là nước cam. Nói nó lạnh.",
+          "h": "Dùng 'This is...' và 'It is...'",
+          "s": "This is orange juice. It is cold."
+        },
+        {
+          "p": "Is this apple big or small? Is it good?",
+          "m": "Nói quả táo to. Nói nó ngon.",
+          "h": "Dùng 'It is...' và 'It is...'",
+          "s": "It is big. It is good."
+        },
+        {
+          "p": "Do you want more water? Is the water good?",
+          "m": "Nói bạn muốn thêm nước. Nói nước tốt.",
+          "h": "Dùng 'I want...' và 'It is...'",
+          "s": "I want more water. It is good."
+        },
+        {
+          "p": "This is a cake. Do you like cake?",
+          "m": "Nói bạn thích bánh ngọt.",
+          "h": "Dùng 'I like...'",
+          "s": "I like cake."
+        }
+      ]
+    },
+    {
+      "t": "Kể về đồ dùng hàng ngày",
+      "e": [
+        {
+          "p": "What is your shirt? What color is it?",
+          "m": "Nói đây là áo sơ mi của bạn. Nói nó màu trắng.",
+          "h": "Dùng 'This is my...' và 'It is...'",
+          "s": "This is my shirt. It is white."
+        },
+        {
+          "p": "Do you use your computer every day? Is your computer good?",
+          "m": "Nói bạn dùng máy tính mỗi ngày. Nói nó tốt.",
+          "h": "Dùng 'I use...' và 'It is...'",
+          "s": "I use my computer every day. It is good."
+        },
+        {
+          "p": "Is your bed big? Do you like your bed?",
+          "m": "Nói giường của bạn to. Nói bạn thích nó.",
+          "h": "Dùng 'My bed is...' và 'I like...'",
+          "s": "My bed is big. I like it."
+        },
+        {
+          "p": "What time do you use your phone? Is it a good phone?",
+          "m": "Nói bạn dùng điện thoại vào buổi sáng. Nói nó là một điện thoại tốt.",
+          "h": "Dùng 'I use...' và 'It is a...'",
+          "s": "I use my phone in the morning. It is a good phone."
+        },
+        {
+          "p": "Do you have a bag for school? Is it black?",
+          "m": "Nói bạn có một cái túi đi học. Nói nó màu xanh.",
+          "h": "Dùng 'I have a...' và 'It is...'",
+          "s": "I have a bag for school. It is blue."
+        }
+      ]
+    },
+    {
+      "t": "So sánh đơn giản giữa hai đồ vật",
+      "e": [
+        {
+          "p": "You have two books. Is this book big? Is that book small?",
+          "m": "Nói cuốn sách này to. Nói cuốn sách kia nhỏ.",
+          "h": "Dùng 'This book is...' và 'That book is...'",
+          "s": "This book is big. That book is small."
+        },
+        {
+          "p": "I have a red car and a blue car. Which car is good?",
+          "m": "Nói xe ô tô màu đỏ tốt.",
+          "h": "Dùng 'The red car is...'",
+          "s": "The red car is good."
+        },
+        {
+          "p": "My pen is old. Your pen is new. Is your pen good?",
+          "m": "Nói bút của bạn tốt.",
+          "h": "Dùng 'Your pen is...'",
+          "s": "Your pen is good."
+        },
+        {
+          "p": "Do you like water or milk? Which one is good?",
+          "m": "Nói bạn thích sữa. Nói sữa tốt.",
+          "h": "Dùng 'I like...' và 'Milk is...'",
+          "s": "I like milk. Milk is good."
+        },
+        {
+          "p": "This toy is small. My toy is big. Do you like the small toy?",
+          "m": "Nói bạn thích đồ chơi nhỏ.",
+          "h": "Dùng 'I like...'",
+          "s": "I like the small toy."
+        }
+      ]
+    },
+    {
+      "t": "Đồ vật trong gia đình",
+      "e": [
+        {
+          "p": "Is your table big? What color is it?",
+          "m": "Nói bàn của bạn to. Nói nó màu nâu.",
+          "h": "Dùng 'My table is...' và 'It is...'",
+          "s": "My table is big. It is brown."
+        },
+        {
+          "p": "Do you have a chair in your room? Is it good?",
+          "m": "Nói bạn có một cái ghế. Nói nó tốt.",
+          "h": "Dùng 'I have a...' và 'It is...'",
+          "s": "I have a chair. It is good."
+        },
+        {
+          "p": "What is in the kitchen? Is it good for cooking?",
+          "m": "Nói có một cái nồi trong bếp. Nói nó tốt để nấu ăn.",
+          "h": "Dùng 'There is a...' và 'It is good for...'",
+          "s": "There is a pot in the kitchen. It is good for cooking."
+        },
+        {
+          "p": "My TV is old. Your TV is new. Is your TV good?",
+          "m": "Nói TV của bạn mới. Nói nó rất tốt.",
+          "h": "Dùng 'Your TV is...' và 'It is very...'",
+          "s": "Your TV is new. It is very good."
+        },
+        {
+          "p": "Is there a big sofa in your living room? Do you like it?",
+          "m": "Nói có một chiếc ghế sofa lớn. Nói bạn thích nó.",
+          "h": "Dùng 'There is a...' và 'I like...'",
+          "s": "There is a big sofa. I like it."
+        }
+      ]
+    },
+    {
+      "t": "Mua sắm đơn giản",
+      "e": [
+        {
+          "p": "I want a red apple. Do you have a big red apple?",
+          "m": "Nói bạn có một quả táo đỏ lớn.",
+          "h": "Dùng 'I have a...'",
+          "s": "I have a big red apple."
+        },
+        {
+          "p": "This shirt is blue. Is it a good shirt?",
+          "m": "Nói chiếc áo này tốt.",
+          "h": "Dùng 'It is a...'",
+          "s": "It is a good shirt."
+        },
+        {
+          "p": "Do you have a small, black bag?",
+          "m": "Nói bạn có một cái túi nhỏ màu đen.",
+          "h": "Dùng 'I have a...'",
+          "s": "I have a small, black bag."
+        },
+        {
+          "p": "Can I buy this book? Is it new?",
+          "m": "Nói bạn có thể mua nó. Nói nó mới.",
+          "h": "Dùng 'You can...' và 'It is...'",
+          "s": "You can buy it. It is new."
+        },
+        {
+          "p": "I like this toy. Is it good for my friend?",
+          "m": "Nói đồ chơi này tốt cho bạn của bạn.",
+          "h": "Dùng 'It is good for...'",
+          "s": "It is good for my friend."
+        }
+      ]
+    },
+    {
+      "t": "Nói về việc dùng đồ vật hàng ngày",
+      "e": [
+        {
+          "p": "I use my phone to talk. What do you use your phone for?",
+          "m": "Nói bạn dùng điện thoại để chơi game.",
+          "h": "Dùng 'I use my phone to...'",
+          "s": "I use my phone to play games."
+        },
+        {
+          "p": "I eat rice with a spoon. What do you eat with?",
+          "m": "Nói bạn ăn bằng đũa.",
+          "h": "Dùng 'I eat with...'",
+          "s": "I eat with chopsticks."
+        },
+        {
+          "p": "You have a bike. Can you ride it? Is it good?",
+          "m": "Nói bạn có thể đạp xe. Nói nó tốt.",
+          "h": "Dùng 'I can...' và 'It is...'",
+          "s": "I can ride it. It is good."
+        },
+        {
+          "p": "I like to read books. Do you like to read this book?",
+          "m": "Nói bạn thích đọc cuốn sách này.",
+          "h": "Dùng 'I like to read...'",
+          "s": "I like to read this book."
+        },
+        {
+          "p": "My computer is good. Is your computer good?",
+          "m": "Nói máy tính của bạn tốt.",
+          "h": "Dùng 'My computer is...'",
+          "s": "My computer is good."
+        }
+      ]
+    },
+    {
+      "t": "Chia sẻ trải nghiệm về sản phẩm đã dùng",
+      "e": [
+        {
+          "p": "You use this pen. Is it good? Do you like it?",
+          "m": "Nói cây bút này tốt. Nói bạn thích nó.",
+          "h": "Dùng 'This pen is...' và 'I like...'",
+          "s": "This pen is good. I like it."
+        },
+        {
+          "p": "You drink this water. Is it cold? Is it good?",
+          "m": "Nói nước này lạnh. Nói nó tốt.",
+          "h": "Dùng 'This water is...' và 'It is...'",
+          "s": "This water is cold. It is good."
+        },
+        {
+          "p": "You watch TV a lot. Is your TV big? Is the movie good?",
+          "m": "Nói TV của bạn to. Nói bộ phim hay.",
+          "h": "Dùng 'My TV is...' và 'The movie is...'",
+          "s": "My TV is big. The movie is good."
+        },
+        {
+          "p": "You play with this toy. Is it a good toy? What color is it?",
+          "m": "Nói đây là một đồ chơi tốt. Nói nó màu vàng.",
+          "h": "Dùng 'It is a...' và 'It is...'",
+          "s": "It is a good toy. It is yellow."
+        },
+        {
+          "p": "This food is good. Do you eat it every day?",
+          "m": "Nói bạn ăn nó mỗi ngày.",
+          "h": "Dùng 'I eat...'",
+          "s": "I eat it every day."
+        }
+      ]
+    },
+    {
+      "t": "Đánh giá một món quà",
+      "e": [
+        {
+          "p": "You got a gift! What is it? Do you like it?",
+          "m": "Nói đó là một chiếc áo. Nói bạn thích nó.",
+          "h": "Dùng 'It is a...' và 'I like...'",
+          "s": "It is a shirt. I like it."
+        },
+        {
+          "p": "Is your new toy car big or small? What color is it?",
+          "m": "Nói ô tô đồ chơi mới nhỏ. Nói nó màu đỏ.",
+          "h": "Dùng 'My new toy car is...' và 'It is...'",
+          "s": "My new toy car is small. It is red."
+        },
+        {
+          "p": "Your friend gave you a book. Is it a good book?",
+          "m": "Nói đây là một cuốn sách tốt.",
+          "h": "Dùng 'It is a...'",
+          "s": "It is a good book."
+        },
+        {
+          "p": "This is a shirt. Is it good for you?",
+          "m": "Nói chiếc áo này tốt cho bạn.",
+          "h": "Dùng 'It is good for...'",
+          "s": "It is good for me."
+        },
+        {
+          "p": "Do you like this new pen? Can you write with it good?",
+          "m": "Nói bạn thích cây bút này. Nói bạn có thể viết tốt bằng nó.",
+          "h": "Dùng 'I like...' và 'I can write...'",
+          "s": "I like this pen. I can write good with it."
+        }
+      ]
+    },
+    {
+      "t": "Đồ vật và cảm xúc đơn giản",
+      "e": [
+        {
+          "p": "This toy makes me happy. Does this toy make you happy?",
+          "m": "Nói đồ chơi này làm bạn vui.",
+          "h": "Dùng 'This toy makes me...'",
+          "s": "This toy makes me happy."
+        },
+        {
+          "p": "My new phone is good. I am happy. Are you happy with your phone?",
+          "m": "Nói bạn vui với điện thoại của mình.",
+          "h": "Dùng 'I am happy with...'",
+          "s": "I am happy with my phone."
+        },
+        {
+          "p": "This food is bad. I am sad. Is this food bad for you?",
+          "m": "Nói món ăn này tệ với bạn.",
+          "h": "Dùng 'It is bad for...'",
+          "s": "It is bad for me."
+        },
+        {
+          "p": "My bed is big and good. I can sleep well. Can you sleep well in your bed?",
+          "m": "Nói bạn có thể ngủ ngon trên giường của mình.",
+          "h": "Dùng 'I can sleep...'",
+          "s": "I can sleep well in my bed."
+        },
+        {
+          "p": "This book is good. I like to read it. Do you like reading good books?",
+          "m": "Nói bạn thích đọc sách hay.",
+          "h": "Dùng 'I like reading...'",
+          "s": "I like reading good books."
+        }
+      ]
+    },
+    {
+      "t": "Ôn tập: Nói về sở hữu và sử dụng đồ vật",
+      "e": [
+        {
+          "p": "What is your favorite item? What color is it?",
+          "m": "Nói máy tính là món đồ yêu thích của bạn. Nói nó màu đen.",
+          "h": "Dùng 'My favorite item is...' và 'It is...'",
+          "s": "My favorite item is my computer. It is black."
+        },
+        {
+          "p": "Do you use a computer every day? Is it good for school?",
+          "m": "Nói bạn dùng máy tính mỗi ngày. Nói nó tốt cho việc học.",
+          "h": "Dùng 'I use...' và 'It is good for...'",
+          "s": "I use a computer every day. It is good for school."
+        },
+        {
+          "p": "Tell me about your bag. Is it big? Is it new?",
+          "m": "Nói túi của bạn to. Nói nó mới.",
+          "h": "Dùng 'My bag is...' và 'It is...'",
+          "s": "My bag is big. It is new."
+        },
+        {
+          "p": "Do you like this food? Is it hot or cold?",
+          "m": "Nói bạn thích món ăn này. Nói nó nóng.",
+          "h": "Dùng 'I like...' và 'It is...'",
+          "s": "I like this food. It is hot."
+        },
+        {
+          "p": "What can you do with your phone? Is it a good phone?",
+          "m": "Nói bạn có thể gọi điện với điện thoại của mình. Nói nó là một điện thoại tốt.",
+          "h": "Dùng 'I can make calls with...' và 'It is a...'",
+          "s": "I can make calls with my phone. It is a good phone."
+        }
+      ]
+    },
+    {
+      "t": "Ôn tập: Miêu tả và đưa ra ý kiến",
+      "e": [
+        {
+          "p": "There is a red car. Is it a big car? Do you like it?",
+          "m": "Nói đó là một chiếc xe ô tô lớn. Nói bạn thích nó.",
+          "h": "Dùng 'It is a...' và 'I like...'",
+          "s": "It is a big car. I like it."
+        },
+        {
+          "p": "What is your new book about? Is it good?",
+          "m": "Nói cuốn sách của bạn về một con chó. Nói nó hay.",
+          "h": "Dùng 'My book is about...' và 'It is...'",
+          "s": "My book is about a dog. It is good."
+        },
+        {
+          "p": "Is your chair small? What color is it? Do you like it?",
+          "m": "Nói ghế của bạn nhỏ. Nói nó màu trắng. Nói bạn thích nó.",
+          "h": "Dùng 'My chair is...', 'It is...' và 'I like...'",
+          "s": "My chair is small. It is white. I like it."
+        },
+        {
+          "p": "I have a blue pen. My friend has a black pen. Which pen is good?",
+          "m": "Nói bút màu xanh tốt.",
+          "h": "Dùng 'The blue pen is...'",
+          "s": "The blue pen is good."
+        },
+        {
+          "p": "You eat dinner every night. Is your dinner good? Do you like it?",
+          "m": "Nói bữa tối của bạn ngon. Nói bạn thích nó.",
+          "h": "Dùng 'My dinner is...' và 'I like...'",
+          "s": "My dinner is good. I like it."
+        }
+      ]
+    },
+    {
+      "t": "Ôn tập: Chia sẻ trải nghiệm và cảm nhận",
+      "e": [
+        {
+          "p": "You have a new toy. What is it? Is it fun?",
+          "m": "Nói đó là một con robot. Nói nó vui.",
+          "h": "Dùng 'It is a...' và 'It is...'",
+          "s": "It is a robot. It is fun."
+        },
+        {
+          "p": "Tell me about your water bottle. Is it big? Is it good for school?",
+          "m": "Nói bình nước của bạn nhỏ. Nói nó tốt cho việc đi học.",
+          "h": "Dùng 'My water bottle is...' và 'It is good for...'",
+          "s": "My water bottle is small. It is good for school."
+        },
+        {
+          "p": "My old TV is small. My new TV is big. Which one is good?",
+          "m": "Nói TV mới tốt hơn.",
+          "h": "Dùng 'The new TV is...'",
+          "s": "The new TV is good."
+        },
+        {
+          "p": "Do you like to drink milk? Is cold milk good?",
+          "m": "Nói bạn thích uống sữa. Nói sữa lạnh tốt.",
+          "h": "Dùng 'I like to drink...' và 'Cold milk is...'",
+          "s": "I like to drink milk. Cold milk is good."
+        },
+        {
+          "p": "What is your favorite thing in your room? Is it big? Do you like it?",
+          "m": "Nói giường là thứ yêu thích của bạn. Nói nó to. Nói bạn thích nó.",
+          "h": "Dùng 'My favorite thing is...', 'It is...' và 'I like...'",
+          "s": "My favorite thing is my bed. It is big. I like it."
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,559 @@
+{
+  "l": {
+    "lvl": 1,
+    "code": "BEGINNER",
+    "desc": "Câu đơn rất cơ bản, chỉ truyền đạt 1 ý",
+    "req": {
+      "gram": "S + be (am/is/are) + N/Adj, S + V(s/es) + O, S + can/can't + V, There is/are, What/Who/Where + be...?, Do/Does + S + V?",
+      "vocab": "Nghề nghiệp, gia đình, đồ vật, số đếm, màu sắc, hàng ngày",
+      "vocabCap": {
+        "cefr": "A1",
+        "maxWords": 300,
+        "allowed": [
+          "Danh từ cơ bản: mother, father, sister, brother, friend, school, house, book, food, water, dog, cat",
+          "Động từ phổ biến nhất: be, have, go, come, like, want, eat, drink, play, study, work, live, see",
+          "Tính từ đơn giản (1 âm tiết): big, small, good, bad, hot, cold, happy, sad, old, young, tall, short",
+          "Số đếm: 1-100",
+          "Màu sắc cơ bản: red, blue, green, yellow, white, black",
+          "Thời gian đơn giản: today, now, every day, morning, night"
+        ],
+        "avoid": [
+          "Từ nhiều âm tiết phức tạp (ví dụ: independent, environment, professional)",
+          "Phrasal verbs (ví dụ: get up, look after)",
+          "Idioms, thành ngữ",
+          "Từ chuyên ngành hoặc từ hiếm gặp"
+        ]
+      },
+      "conn": "Không yêu cầu",
+      "tense": "Present Simple",
+      "cmplx": "Rất thấp"
+    }
+  },
+  "d": [
+    {
+      "t": "Nhận cuộc gọi đầu tiên",
+      "e": [
+        {
+          "p": "Hello, I want to ask a question.",
+          "m": "Chào khách hàng. Nói tên và bộ phận của bạn.",
+          "h": "Sử dụng 'Hello' và 'My name is...'",
+          "s": "Hello. My name is [studentName]. I am from support."
+        },
+        {
+          "p": "Is this the customer service?",
+          "m": "Xác nhận đúng dịch vụ. Hỏi khách hàng cần gì.",
+          "h": "Dùng 'Yes, it is.' và 'What do you need?'",
+          "s": "Yes, it is. What do you need?"
+        },
+        {
+          "p": "My name is John. I need help.",
+          "m": "Nói tên bạn. Xác nhận bạn có thể giúp.",
+          "h": "Dùng 'My name is...' và 'I can help.'",
+          "s": "My name is [studentName]. I can help."
+        },
+        {
+          "p": "I have a problem with my phone.",
+          "m": "Hỏi tên khách hàng. Hỏi số điện thoại của họ.",
+          "h": "Dùng 'What is your name?' và 'What is your number?'",
+          "s": "What is your name? What is your phone number?"
+        },
+        {
+          "p": "Hello, I need to talk to someone.",
+          "m": "Nói tên và vai trò của bạn. Nói bạn có thể giúp.",
+          "h": "Dùng 'My name is...' và 'I can help.'",
+          "s": "My name is [studentName]. I am an agent. I can help."
+        }
+      ]
+    },
+    {
+      "t": "Hỏi thông tin cơ bản",
+      "e": [
+        {
+          "p": "This is Anna. I have a question.",
+          "m": "Chào Anna. Hỏi Anna đến từ thành phố nào.",
+          "h": "Dùng 'Hello' và 'Where are you from?'",
+          "s": "Hello, Anna. Where are you from?"
+        },
+        {
+          "p": "My name is Mark. I call about my internet.",
+          "m": "Hỏi Mark số tài khoản của anh ấy.",
+          "h": "Dùng 'What is your account number?'",
+          "s": "What is your account number?"
+        },
+        {
+          "p": "I am here. My name is Lisa.",
+          "m": "Xác nhận tên Lisa. Hỏi cô ấy cần gì.",
+          "h": "Dùng 'Hello, Lisa.' và 'What do you need?'",
+          "s": "Hello, Lisa. What do you need?"
+        },
+        {
+          "p": "I want to ask about my bill.",
+          "m": "Hỏi tên của khách hàng.",
+          "h": "Dùng 'What is your name?'",
+          "s": "What is your name?"
+        },
+        {
+          "p": "My name is Tom. My TV is not working.",
+          "m": "Xác nhận Tom. Hỏi địa chỉ của Tom.",
+          "h": "Dùng 'Hello, Tom.' và 'What is your address?'",
+          "s": "Hello, Tom. What is your address?"
+        }
+      ]
+    },
+    {
+      "t": "Xác nhận thông tin",
+      "e": [
+        {
+          "p": "My name is Emily. My account number is 1234.",
+          "m": "Xác nhận tên Emily. Xác nhận số tài khoản.",
+          "h": "Dùng 'Okay, Emily.' và 'Your account number is 1234.'",
+          "s": "Okay, Emily. Your account number is 1234. Is that right?"
+        },
+        {
+          "p": "I live in Hanoi. My name is David.",
+          "m": "Xác nhận tên David. Xác nhận thành phố.",
+          "h": "Dùng 'Okay, David.' và 'You live in Hanoi.'",
+          "s": "Okay, David. You live in Hanoi. Yes?"
+        },
+        {
+          "p": "My phone number is 0123456.",
+          "m": "Nói 'Okay'. Xác nhận số điện thoại.",
+          "h": "Dùng 'Okay' và 'Your phone number is...'",
+          "s": "Okay. Your phone number is 0123456."
+        },
+        {
+          "p": "My name is Sarah. I need help with my new computer.",
+          "m": "Xác nhận tên Sarah. Hỏi Sarah cần gì cụ thể.",
+          "h": "Dùng 'Okay, Sarah.' và 'What do you need?'",
+          "s": "Okay, Sarah. What do you need?"
+        },
+        {
+          "p": "This is my problem: my internet is slow.",
+          "m": "Xác nhận vấn đề. Hỏi tên của khách hàng.",
+          "h": "Dùng 'Okay, your internet is slow.' và 'What is your name?'",
+          "s": "Okay, your internet is slow. What is your name?"
+        }
+      ]
+    },
+    {
+      "t": "Chuyển cuộc gọi đơn giản",
+      "e": [
+        {
+          "p": "I want to talk to the manager.",
+          "m": "Nói 'Okay'. Hỏi tên của khách hàng.",
+          "h": "Dùng 'Okay' và 'What is your name?'",
+          "s": "Okay. What is your name?"
+        },
+        {
+          "p": "My name is Chris. Can you help me?",
+          "m": "Xác nhận Chris. Nói bạn có thể chuyển cuộc gọi.",
+          "h": "Dùng 'Okay, Chris.' và 'I can transfer you.'",
+          "s": "Okay, Chris. I can transfer you."
+        },
+        {
+          "p": "I need to talk to someone about sales.",
+          "m": "Nói bạn sẽ chuyển cuộc gọi. Yêu cầu khách hàng đợi.",
+          "h": "Dùng 'I can transfer you.' và 'Please wait.'",
+          "s": "I can transfer you. Please wait."
+        },
+        {
+          "p": "Can I talk to the billing department?",
+          "m": "Xác nhận bạn có thể chuyển. Hỏi tên của khách hàng.",
+          "h": "Dùng 'Yes, I can transfer you.' và 'What is your name?'",
+          "s": "Yes, I can transfer you. What is your name?"
+        },
+        {
+          "p": "It is urgent. I need help now.",
+          "m": "Nói bạn hiểu. Nói bạn có thể giúp hoặc chuyển cuộc gọi.",
+          "h": "Dùng 'I understand.' và 'I can help you.'",
+          "s": "I understand. I can help you."
+        }
+      ]
+    },
+    {
+      "t": "Hiểu yêu cầu đơn giản",
+      "e": [
+        {
+          "p": "My light bill is high.",
+          "m": "Xác nhận vấn đề. Hỏi tên của khách hàng.",
+          "h": "Dùng 'Okay, your bill is high.' và 'What is your name?'",
+          "s": "Okay, your bill is high. What is your name?"
+        },
+        {
+          "p": "I want to buy a new phone.",
+          "m": "Hỏi khách hàng thích điện thoại màu gì.",
+          "h": "Dùng 'What color phone do you like?'",
+          "s": "What color phone do you like?"
+        },
+        {
+          "p": "My internet is not working today.",
+          "m": "Nói 'Okay'. Xác nhận vấn đề.",
+          "h": "Dùng 'Okay.' và 'Your internet is not working.'",
+          "s": "Okay. Your internet is not working today."
+        },
+        {
+          "p": "I need to change my address.",
+          "m": "Hỏi tên khách hàng. Hỏi địa chỉ mới của họ.",
+          "h": "Dùng 'What is your name?' và 'What is your new address?'",
+          "s": "What is your name? What is your new address?"
+        },
+        {
+          "p": "Can I ask about my service plan?",
+          "m": "Nói 'Yes, you can'. Hỏi tên của khách hàng.",
+          "h": "Dùng 'Yes, you can.' và 'What is your name?'",
+          "s": "Yes, you can. What is your name?"
+        }
+      ]
+    },
+    {
+      "t": "Cung cấp thông tin cơ bản",
+      "e": [
+        {
+          "p": "What is your name?",
+          "m": "Nói tên bạn và bộ phận của bạn.",
+          "h": "Dùng 'My name is...' và 'I am from...'",
+          "s": "My name is [studentName]. I am from support."
+        },
+        {
+          "p": "Can you tell me your department?",
+          "m": "Nói bộ phận của bạn. Nói bạn có thể giúp.",
+          "h": "Dùng 'I am from...' và 'I can help.'",
+          "s": "I am from billing. I can help you."
+        },
+        {
+          "p": "Is the store open now?",
+          "m": "Nói cửa hàng mở cửa. Nói giờ mở cửa.",
+          "h": "Dùng 'Yes, it is.' và 'We open at 9 AM.'",
+          "s": "Yes, it is. We open at 9 AM."
+        },
+        {
+          "p": "How many staff are there?",
+          "m": "Nói có 5 người làm việc ở đây.",
+          "h": "Dùng 'There are...' và số đếm.",
+          "s": "There are 5 people working here."
+        },
+        {
+          "p": "What is my account balance?",
+          "m": "Nói số dư tài khoản của khách hàng là 100 đô la.",
+          "h": "Dùng 'Your account balance is...' và số đếm.",
+          "s": "Your account balance is 100 dollars."
+        }
+      ]
+    },
+    {
+      "t": "Xin lỗi và cảm ơn",
+      "e": [
+        {
+          "p": "I waited for a long time.",
+          "m": "Xin lỗi khách hàng. Nói bạn có thể giúp bây giờ.",
+          "h": "Dùng 'I am sorry.' và 'I can help now.'",
+          "s": "I am sorry. I can help now."
+        },
+        {
+          "p": "Thank you for your help.",
+          "m": "Cảm ơn khách hàng. Nói 'You are welcome'.",
+          "h": "Dùng 'Thank you' và 'You are welcome.'",
+          "s": "Thank you. You are welcome."
+        },
+        {
+          "p": "My phone call dropped.",
+          "m": "Xin lỗi khách hàng. Hỏi tên khách hàng.",
+          "h": "Dùng 'I am sorry.' và 'What is your name?'",
+          "s": "I am sorry. What is your name?"
+        },
+        {
+          "p": "I am happy with your service.",
+          "m": "Cảm ơn khách hàng. Hỏi có cần thêm giúp đỡ không.",
+          "h": "Dùng 'Thank you.' và 'Do you need more help?'",
+          "s": "Thank you. Do you need more help?"
+        },
+        {
+          "p": "The internet is still slow.",
+          "m": "Xin lỗi về vấn đề. Nói bạn sẽ kiểm tra.",
+          "h": "Dùng 'I am sorry about the problem.' và 'I can check.'",
+          "s": "I am sorry about the problem. I can check."
+        }
+      ]
+    },
+    {
+      "t": "Đưa ra chỉ dẫn ngắn",
+      "e": [
+        {
+          "p": "What should I do now?",
+          "m": "Nói khách hàng hãy đợi một lát.",
+          "h": "Dùng 'Please wait a moment.'",
+          "s": "Please wait a moment."
+        },
+        {
+          "p": "My computer is off. What is wrong?",
+          "m": "Nói khách hàng hãy khởi động máy tính. Hỏi nó có hoạt động không.",
+          "h": "Dùng 'You can start your computer.' và 'Does it work?'",
+          "s": "You can start your computer. Does it work?"
+        },
+        {
+          "p": "I cannot find the reset button.",
+          "m": "Nói nút màu đỏ. Nói nó ở phía sau.",
+          "h": "Dùng 'It is red.' và 'It is on the back.'",
+          "s": "It is red. It is on the back."
+        },
+        {
+          "p": "The TV screen is black.",
+          "m": "Nói 'Kiểm tra cáp'. Hỏi 'Cáp có ổn không?'",
+          "h": "Dùng 'Check the cable.' và 'Is the cable okay?'",
+          "s": "Check the cable. Is the cable okay?"
+        },
+        {
+          "p": "What time can I call again?",
+          "m": "Nói bạn làm việc đến 5 giờ chiều. Nói có thể gọi lại sau.",
+          "h": "Dùng 'I work until 5 PM.' và 'You can call later.'",
+          "s": "I work until 5 PM. You can call later."
+        }
+      ]
+    },
+    {
+      "t": "Xác nhận vấn đề",
+      "e": [
+        {
+          "p": "My internet is very slow.",
+          "m": "Xác nhận 'Internet chậm'. Hỏi 'Nó có luôn chậm không?'",
+          "h": "Dùng 'Your internet is slow.' và 'Is it always slow?'",
+          "s": "Your internet is slow. Is it always slow?"
+        },
+        {
+          "p": "My TV has no sound.",
+          "m": "Xác nhận 'Không có tiếng'. Hỏi 'Nó có màu không?'",
+          "h": "Dùng 'No sound.' và 'Does it have color?'",
+          "s": "No sound. Does it have color?"
+        },
+        {
+          "p": "I cannot log in to my account.",
+          "m": "Xác nhận 'Không đăng nhập được'. Hỏi tên khách hàng.",
+          "h": "Dùng 'You cannot log in.' và 'What is your name?'",
+          "s": "You cannot log in. What is your name?"
+        },
+        {
+          "p": "My computer does not turn on.",
+          "m": "Xác nhận 'Máy tính không bật được'. Hỏi 'Nó có cắm điện không?'",
+          "h": "Dùng 'Your computer does not turn on.' và 'Is it plugged in?'",
+          "s": "Your computer does not turn on. Is it plugged in?"
+        },
+        {
+          "p": "I need help with my new phone settings.",
+          "m": "Xác nhận 'Cài đặt điện thoại'. Hỏi tên khách hàng.",
+          "h": "Dùng 'Phone settings.' và 'What is your name?'",
+          "s": "Phone settings. What is your name?"
+        }
+      ]
+    },
+    {
+      "t": "Nói về thời gian làm việc",
+      "e": [
+        {
+          "p": "Are you open on Sunday?",
+          "m": "Nói bạn không làm việc vào Chủ Nhật. Nói bạn làm việc vào Thứ Hai.",
+          "h": "Dùng 'No, I am not.' và 'I work on Monday.'",
+          "s": "No, I am not. I work on Monday."
+        },
+        {
+          "p": "What time do you close today?",
+          "m": "Nói bạn đóng cửa lúc 6 giờ tối.",
+          "h": "Dùng 'We close at 6 PM.'",
+          "s": "We close at 6 PM."
+        },
+        {
+          "p": "Can I call tomorrow morning?",
+          "m": "Nói 'Vâng, bạn có thể'. Nói bạn làm việc vào buổi sáng.",
+          "h": "Dùng 'Yes, you can.' và 'I work in the morning.'",
+          "s": "Yes, you can. I work in the morning."
+        },
+        {
+          "p": "Is your office open now?",
+          "m": "Nói 'Vâng, nó mở cửa'. Nói 'Chúng tôi mở cửa'.",
+          "h": "Dùng 'Yes, it is open.' và 'We are open.'",
+          "s": "Yes, it is open. We are open."
+        },
+        {
+          "p": "I want to call at 8 PM.",
+          "m": "Nói 'Không, chúng tôi đóng cửa lúc đó'. Nói 'Bạn có thể gọi vào buổi sáng'.",
+          "h": "Dùng 'No, we are closed.' và 'You can call in the morning.'",
+          "s": "No, we are closed then. You can call in the morning."
+        }
+      ]
+    },
+    {
+      "t": "Đề nghị giúp đỡ",
+      "e": [
+        {
+          "p": "My payment is a problem.",
+          "m": "Nói 'Tôi có thể giúp'. Hỏi tên khách hàng.",
+          "h": "Dùng 'I can help you.' và 'What is your name?'",
+          "s": "I can help you. What is your name?"
+        },
+        {
+          "p": "I need to reset my password.",
+          "m": "Nói 'Tôi có thể giúp bạn'. Hỏi 'Tên tài khoản của bạn là gì?'",
+          "h": "Dùng 'I can help you.' và 'What is your account name?'",
+          "s": "I can help you. What is your account name?"
+        },
+        {
+          "p": "My product is broken.",
+          "m": "Nói 'Tôi có thể kiểm tra'. Hỏi 'Số sản phẩm là gì?'",
+          "h": "Dùng 'I can check.' và 'What is the product number?'",
+          "s": "I can check. What is the product number?"
+        },
+        {
+          "p": "I lost my card.",
+          "m": "Nói 'Tôi có thể giúp bạn tìm'. Hỏi tên khách hàng.",
+          "h": "Dùng 'I can help you find it.' và 'What is your name?'",
+          "s": "I can help you find it. What is your name?"
+        },
+        {
+          "p": "I want to know my bill total.",
+          "m": "Nói 'Tôi có thể xem'. Hỏi số tài khoản của khách hàng.",
+          "h": "Dùng 'I can see.' và 'What is your account number?'",
+          "s": "I can see. What is your account number?"
+        }
+      ]
+    },
+    {
+      "t": "Kết thúc cuộc gọi",
+      "e": [
+        {
+          "p": "Thank you for your help. I understand now.",
+          "m": "Nói 'Bạn rất hoan nghênh'. Chúc khách hàng một ngày tốt lành.",
+          "h": "Dùng 'You are welcome.' và 'Have a good day.'",
+          "s": "You are welcome. Have a good day."
+        },
+        {
+          "p": "Okay, I will call again tomorrow.",
+          "m": "Nói 'Okay'. Chào tạm biệt khách hàng.",
+          "h": "Dùng 'Okay.' và 'Goodbye.'",
+          "s": "Okay. Goodbye."
+        },
+        {
+          "p": "I have no more questions.",
+          "m": "Cảm ơn khách hàng đã gọi. Chào tạm biệt.",
+          "h": "Dùng 'Thank you for calling.' và 'Goodbye.'",
+          "s": "Thank you for calling. Goodbye."
+        },
+        {
+          "p": "I hope my problem is fixed.",
+          "m": "Nói 'Tôi hy vọng vậy'. Hỏi 'Có cần thêm giúp đỡ không?'",
+          "h": "Dùng 'I hope so.' và 'Do you need more help?'",
+          "s": "I hope so. Do you need more help?"
+        },
+        {
+          "p": "I am finished. Thank you.",
+          "m": "Nói tên bạn. Cảm ơn khách hàng và chào tạm biệt.",
+          "h": "Dùng 'My name is...' và 'Thank you, goodbye.'",
+          "s": "My name is [studentName]. Thank you. Goodbye."
+        }
+      ]
+    },
+    {
+      "t": "Ôn tập: Cuộc gọi hỗ trợ ban đầu",
+      "e": [
+        {
+          "p": "Hello, I need help with my new service.",
+          "m": "Chào khách hàng. Nói tên và bộ phận của bạn.",
+          "h": "Sử dụng 'Hello' và 'My name is...'",
+          "s": "Hello. My name is [studentName]. I am from support."
+        },
+        {
+          "p": "My name is Ben. My internet is very slow.",
+          "m": "Xác nhận tên Ben. Xác nhận vấn đề. Hỏi Ben ở thành phố nào.",
+          "h": "Dùng 'Okay, Ben.' và 'Where are you from?'",
+          "s": "Okay, Ben. Your internet is very slow. Where are you from?"
+        },
+        {
+          "p": "I am from New York. My account number is 5678.",
+          "m": "Xác nhận thành phố và số tài khoản. Hỏi Ben cần giúp gì.",
+          "h": "Dùng 'Okay, New York.' và 'What do you need?'",
+          "s": "Okay, New York. Your account number is 5678. What do you need?"
+        },
+        {
+          "p": "I need to reset my password. Can you help me?",
+          "m": "Nói 'Vâng, tôi có thể giúp'. Hỏi tên của Ben một lần nữa.",
+          "h": "Dùng 'Yes, I can help you.' và 'What is your name again?'",
+          "s": "Yes, I can help you. What is your name again?"
+        },
+        {
+          "p": "My name is Ben. Thank you.",
+          "m": "Xác nhận tên Ben. Cảm ơn Ben đã gọi. Chào tạm biệt.",
+          "h": "Dùng 'Okay, Ben.' và 'Thank you for calling. Goodbye.'",
+          "s": "Okay, Ben. Thank you for calling. Goodbye."
+        }
+      ]
+    },
+    {
+      "t": "Ôn tập: Xác nhận và hỗ trợ đơn giản",
+      "e": [
+        {
+          "p": "I have a problem with my TV. No picture.",
+          "m": "Xác nhận vấn đề 'không có hình'. Hỏi tên khách hàng.",
+          "h": "Dùng 'No picture.' và 'What is your name?'",
+          "s": "No picture. What is your name?"
+        },
+        {
+          "p": "My name is Kelly. My TV is off.",
+          "m": "Chào Kelly. Hỏi 'TV của cô ấy có cắm điện không?'",
+          "h": "Dùng 'Hello, Kelly.' và 'Is your TV plugged in?'",
+          "s": "Hello, Kelly. Is your TV plugged in?"
+        },
+        {
+          "p": "Yes, it is plugged in. Still no picture.",
+          "m": "Nói 'Tôi xin lỗi'. Hỏi 'Cáp có tốt không?'",
+          "h": "Dùng 'I am sorry.' và 'Is the cable good?'",
+          "s": "I am sorry. Is the cable good?"
+        },
+        {
+          "p": "The cable is good. What can I do?",
+          "m": "Nói 'Bạn có thể đợi một chút'. Nói 'Tôi kiểm tra ngay'.",
+          "h": "Dùng 'You can wait a moment.' và 'I check now.'",
+          "s": "You can wait a moment. I check now."
+        },
+        {
+          "p": "Okay, I will wait. Thank you.",
+          "m": "Cảm ơn Kelly. Chúc cô ấy một ngày tốt lành.",
+          "h": "Dùng 'Thank you, Kelly.' và 'Have a good day.'",
+          "s": "Thank you, Kelly. Have a good day."
+        }
+      ]
+    },
+    {
+      "t": "Ôn tập: Giao tiếp tổng hợp",
+      "e": [
+        {
+          "p": "Hello, I need help with my payment.",
+          "m": "Chào khách hàng. Nói tên và bộ phận của bạn. Hỏi tên khách hàng.",
+          "h": "Dùng 'Hello.' và 'My name is...' và 'What is your name?'",
+          "s": "Hello. My name is [studentName]. I am from billing. What is your name?"
+        },
+        {
+          "p": "My name is Sarah. My bill is wrong.",
+          "m": "Xác nhận tên Sarah. Xác nhận vấn đề. Hỏi số tài khoản của cô ấy.",
+          "h": "Dùng 'Okay, Sarah.' và 'What is your account number?'",
+          "s": "Okay, Sarah. Your bill is wrong. What is your account number?"
+        },
+        {
+          "p": "My account number is 9012. I live in London.",
+          "m": "Xác nhận số tài khoản và thành phố. Nói 'Tôi có thể giúp bạn'.",
+          "h": "Dùng 'Okay.' và 'I can help you.'",
+          "s": "Okay. Your account number is 9012. You live in London. I can help you."
+        },
+        {
+          "p": "Thank you. What time do you close today?",
+          "m": "Nói 'Chúng tôi đóng cửa lúc 7 giờ tối'. Hỏi 'Bạn có cần thêm giúp đỡ không?'",
+          "h": "Dùng 'We close at 7 PM.' và 'Do you need more help?'",
+          "s": "We close at 7 PM. Do you need more help?"
+        },
+        {
+          "p": "No, that is all. Thank you for your time.",
+          "m": "Cảm ơn Sarah. Chúc cô ấy một ngày tốt lành.",
+          "h": "Dùng 'Thank you, Sarah.' và 'Have a good day.'",
+          "s": "Thank you, Sarah. Have a good day."
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,530 @@
+{
+  "l": 1,
+  "d": [
+    {
+      "t": "Đánh giá sản phẩm mới",
+      "e": [
+        {
+          "p": "How is the product?",
+          "m": "Nói nếu sản phẩm tốt hay không.",
+          "h": "The product is + adj / I am + adj",
+          "s": "The product is good."
+        },
+        {
+          "p": "Do you like the color?",
+          "m": "Nói bạn có thích màu hay không.",
+          "h": "I like / I do not like + the color",
+          "s": "I like the color."
+        },
+        {
+          "p": "Is the product easy to use?",
+          "m": "Nói nếu sản phẩm dễ dùng hay không.",
+          "h": "It is easy / It is not easy",
+          "s": "It is easy to use."
+        },
+        {
+          "p": "How is the price?",
+          "m": "Nói nếu giá hợp lý hay không.",
+          "h": "The price is + adj (good/expensive/cheap/okay)",
+          "s": "The price is okay."
+        },
+        {
+          "p": "Do you want to buy it again?",
+          "m": "Nói bạn có muốn mua lại hay không.",
+          "h": "I want / I do not want + to buy",
+          "s": "I want to buy it again."
+        }
+      ]
+    },
+    {
+      "t": "Phản hồi về dịch vụ nhà hàng",
+      "e": [
+        {
+          "p": "How is the food?",
+          "m": "Nói thức ăn có ngon hay không.",
+          "h": "The food is + adj",
+          "s": "The food is tasty."
+        },
+        {
+          "p": "Is the staff polite?",
+          "m": "Nói nhân viên có lịch sự hay không.",
+          "h": "They are polite / They are not polite",
+          "s": "They are polite."
+        },
+        {
+          "p": "Do you like the place?",
+          "m": "Nói bạn có thích nơi này hay không.",
+          "h": "I like / I do not like + this place",
+          "s": "I like this place."
+        },
+        {
+          "p": "Is the wait time long?",
+          "m": "Nói thời gian chờ có dài không.",
+          "h": "The wait time is + adj",
+          "s": "The wait time is long."
+        },
+        {
+          "p": "Do you recommend this restaurant?",
+          "m": "Nói bạn có giới thiệu nhà hàng này không.",
+          "h": "I recommend / I do not recommend + this restaurant",
+          "s": "I recommend this restaurant."
+        }
+      ]
+    },
+    {
+      "t": "Giao hàng và thời gian nhận",
+      "e": [
+        {
+          "p": "Is your package here?",
+          "m": "Nói nếu gói hàng đã đến hay chưa.",
+          "h": "It is here / It is not here",
+          "s": "The package is here."
+        },
+        {
+          "p": "Is the delivery on time?",
+          "m": "Nói giao hàng có đúng hẹn hay không.",
+          "h": "It is on time / It is late",
+          "s": "The delivery is on time."
+        },
+        {
+          "p": "Do you like the delivery service?",
+          "m": "Nói bạn có thích dịch vụ giao hàng không.",
+          "h": "I like / I do not like + the service",
+          "s": "I like the delivery service."
+        },
+        {
+          "p": "Where do you want the delivery?",
+          "m": "Nói nơi bạn muốn nhận hàng (một cụm từ).",
+          "h": "I want it at + place",
+          "s": "I want it at my house."
+        },
+        {
+          "p": "Can the driver call you first?",
+          "m": "Nói nếu tài xế có thể gọi bạn trước hay không.",
+          "h": "Yes, he can / No, he cannot",
+          "s": "Yes, he can call me first."
+        }
+      ]
+    },
+    {
+      "t": "Hỗ trợ khách hàng qua điện thoại",
+      "e": [
+        {
+          "p": "Can I help you?",
+          "m": "Nói bạn có cần giúp hay không.",
+          "h": "Yes, I need help / No, I do not",
+          "s": "Yes, I need help."
+        },
+        {
+          "p": "What is the problem?",
+          "m": "Nói vấn đề chính trong một câu.",
+          "h": "My order + verb (is late / does not work / is broken)",
+          "s": "My product does not work."
+        },
+        {
+          "p": "Do you want a refund?",
+          "m": "Nói bạn có muốn hoàn tiền không.",
+          "h": "I want / I do not want + a refund",
+          "s": "I want a refund."
+        },
+        {
+          "p": "When do you need help?",
+          "m": "Nói khi nào bạn cần giúp (một từ: now/today).",
+          "h": "I need help + time word",
+          "s": "I need help now."
+        },
+        {
+          "p": "How do you feel about our help?",
+          "m": "Nói bạn có hài lòng với sự hỗ trợ hay không.",
+          "h": "I am + adj / I am happy / I am not happy",
+          "s": "I am happy with the help."
+        }
+      ]
+    },
+    {
+      "t": "Phiếu khảo sát ngắn",
+      "e": [
+        {
+          "p": "What is your rating?",
+          "m": "Nói điểm của bạn từ 1 đến 5 (một câu).",
+          "h": "My rating is + number",
+          "s": "My rating is five."
+        },
+        {
+          "p": "Do you use our app?",
+          "m": "Nói bạn có dùng ứng dụng của chúng tôi hay không.",
+          "h": "I use / I do not use + the app",
+          "s": "I use the app."
+        },
+        {
+          "p": "Do you buy from us every week?",
+          "m": "Nói bạn có mua mỗi tuần hay không.",
+          "h": "I buy / I do not buy + every week",
+          "s": "I do not buy every week."
+        },
+        {
+          "p": "What do you like most?",
+          "m": "Nói một điều bạn thích nhất (một cụm từ).",
+          "h": "I like + the + noun + most",
+          "s": "I like the service most."
+        },
+        {
+          "p": "What should we improve?",
+          "m": "Nói một điều cần cải thiện (một cụm từ ngắn).",
+          "h": "Improve the + noun",
+          "s": "Improve the delivery."
+        }
+      ]
+    },
+    {
+      "t": "Phản hồi về chủng loại sản phẩm",
+      "e": [
+        {
+          "p": "Which product did you buy?",
+          "m": "Nói tên sản phẩm ngắn (ví dụ: phone, shirt).",
+          "h": "I bought a + noun",
+          "s": "I bought a phone."
+        },
+        {
+          "p": "Is the size correct?",
+          "m": "Nói kích thước có đúng hay không.",
+          "h": "It is correct / It is not correct",
+          "s": "The size is correct."
+        },
+        {
+          "p": "Do you like the material?",
+          "m": "Nói bạn có thích chất liệu hay không.",
+          "h": "I like / I do not like + the material",
+          "s": "I like the material."
+        },
+        {
+          "p": "Is the product clean?",
+          "m": "Nói sản phẩm có sạch hay không.",
+          "h": "It is clean / It is not clean",
+          "s": "The product is clean."
+        },
+        {
+          "p": "Do you choose this model again?",
+          "m": "Nói bạn có chọn mẫu này nữa không.",
+          "h": "I choose / I do not choose + this model",
+          "s": "I do not choose this model again."
+        }
+      ]
+    },
+    {
+      "t": "Giải quyết khiếu nại đơn giản",
+      "e": [
+        {
+          "p": "What is your name?",
+          "m": "Nói tên của bạn (dùng placeholder).",
+          "h": "My name is [studentName]",
+          "s": "My name is [studentName]."
+        },
+        {
+          "p": "What is the issue?",
+          "m": "Nói vấn đề chính một câu.",
+          "h": "My order is late / My item is broken",
+          "s": "My order is late."
+        },
+        {
+          "p": "Do you want a replacement?",
+          "m": "Nói bạn có muốn đổi hàng hay không.",
+          "h": "I want / I do not want + a replacement",
+          "s": "I want a replacement."
+        },
+        {
+          "p": "Where is your order?",
+          "m": "Nói nơi hàng hiện ở (một cụm từ).",
+          "h": "It is at + place",
+          "s": "It is at my house."
+        },
+        {
+          "p": "Can you wait one day?",
+          "m": "Nói bạn có thể chờ một ngày hay không.",
+          "h": "I can / I cannot + wait",
+          "s": "I can wait one day."
+        }
+      ]
+    },
+    {
+      "t": "Đánh giá ứng dụng/website",
+      "e": [
+        {
+          "p": "Is the app easy?",
+          "m": "Nói ứng dụng có dễ dùng hay không.",
+          "h": "It is easy / It is not easy",
+          "s": "The app is easy."
+        },
+        {
+          "p": "Do you find bugs?",
+          "m": "Nói bạn có thấy lỗi trong ứng dụng không.",
+          "h": "I find bugs / I do not find bugs",
+          "s": "I do not find bugs."
+        },
+        {
+          "p": "Which feature do you like?",
+          "m": "Nói tính năng bạn thích (một cụm từ).",
+          "h": "I like the + feature",
+          "s": "I like the search feature."
+        },
+        {
+          "p": "Do you use the chat help?",
+          "m": "Nói bạn có dùng chat hỗ trợ không.",
+          "h": "I use / I do not use + the chat help",
+          "s": "I use the chat help."
+        },
+        {
+          "p": "Is the app fast?",
+          "m": "Nói ứng dụng có nhanh hay không.",
+          "h": "It is fast / It is not fast",
+          "s": "The app is fast."
+        }
+      ]
+    },
+    {
+      "t": "Ý kiến về chính sách hoàn tiền",
+      "e": [
+        {
+          "p": "Do you get a refund?",
+          "m": "Nói bạn có nhận hoàn tiền hay không.",
+          "h": "I get / I do not get + a refund",
+          "s": "I get a refund."
+        },
+        {
+          "p": "Is the refund full?",
+          "m": "Nói hoàn tiền có đầy đủ hay không.",
+          "h": "It is full / It is not full",
+          "s": "The refund is full."
+        },
+        {
+          "p": "How long is the refund time?",
+          "m": "Nói thời gian hoàn tiền (một cụm từ: two days, one week).",
+          "h": "It is + time",
+          "s": "It is two days."
+        },
+        {
+          "p": "Do you read the policy?",
+          "m": "Nói bạn có đọc chính sách hay không.",
+          "h": "I read / I do not read + the policy",
+          "s": "I do not read the policy."
+        },
+        {
+          "p": "Is the policy clear?",
+          "m": "Nói chính sách có rõ ràng hay không.",
+          "h": "It is clear / It is not clear",
+          "s": "The policy is clear."
+        }
+      ]
+    },
+    {
+      "t": "Phản hồi về nhân viên cửa hàng",
+      "e": [
+        {
+          "p": "Is the staff friendly?",
+          "m": "Nói nhân viên có thân thiện hay không.",
+          "h": "They are friendly / They are not friendly",
+          "s": "They are friendly."
+        },
+        {
+          "p": "Do the staff help you?",
+          "m": "Nói nhân viên có giúp bạn hay không.",
+          "h": "They help me / They do not help me",
+          "s": "They help me."
+        },
+        {
+          "p": "Who helped you?",
+          "m": "Nói ai giúp bạn (the man / the woman).",
+          "h": "The man / The woman helped me",
+          "s": "The woman helped me."
+        },
+        {
+          "p": "Are the staff on time?",
+          "m": "Nói nhân viên có đúng giờ hay không.",
+          "h": "They are on time / They are not on time",
+          "s": "They are on time."
+        },
+        {
+          "p": "Do you feel welcome?",
+          "m": "Nói bạn có cảm thấy được chào đón hay không.",
+          "h": "I feel welcome / I do not feel welcome",
+          "s": "I feel welcome."
+        }
+      ]
+    },
+    {
+      "t": "Ý kiến về vệ sinh cửa hàng",
+      "e": [
+        {
+          "p": "Is the shop clean?",
+          "m": "Nói cửa hàng có sạch hay không.",
+          "h": "It is clean / It is not clean",
+          "s": "The shop is clean."
+        },
+        {
+          "p": "Are the toilets clean?",
+          "m": "Nói nhà vệ sinh có sạch hay không.",
+          "h": "They are clean / They are not clean",
+          "s": "The toilets are clean."
+        },
+        {
+          "p": "Do you like the smell?",
+          "m": "Nói bạn có thích mùi trong cửa hàng không.",
+          "h": "I like / I do not like + the smell",
+          "s": "I like the smell."
+        },
+        {
+          "p": "Is the table tidy?",
+          "m": "Nói bàn có gọn gàng hay không.",
+          "h": "It is tidy / It is not tidy",
+          "s": "The table is tidy."
+        },
+        {
+          "p": "Do you return because of cleanliness?",
+          "m": "Nói bạn có quay lại vì cửa hàng sạch hay không.",
+          "h": "I return / I do not return + because it is clean",
+          "s": "I return because it is clean."
+        }
+      ]
+    },
+    {
+      "t": "Phản hồi về giá trị và khuyến mãi",
+      "e": [
+        {
+          "p": "Is the discount good?",
+          "m": "Nói giảm giá có tốt hay không.",
+          "h": "It is good / It is not good",
+          "s": "The discount is good."
+        },
+        {
+          "p": "Do you use the coupon?",
+          "m": "Nói bạn có dùng phiếu giảm giá hay không.",
+          "h": "I use / I do not use + the coupon",
+          "s": "I use the coupon."
+        },
+        {
+          "p": "Is the product good value?",
+          "m": "Nói sản phẩm có xứng với giá hay không.",
+          "h": "It is good value / It is not good value",
+          "s": "The product is good value."
+        },
+        {
+          "p": "Do you like our sale?",
+          "m": "Nói bạn có thích chương trình khuyến mãi không.",
+          "h": "I like / I do not like + the sale",
+          "s": "I like the sale."
+        },
+        {
+          "p": "Do price changes affect your choice?",
+          "m": "Nói giá thay đổi có ảnh hưởng đến quyết định mua không.",
+          "h": "It affects / It does not affect + my choice",
+          "s": "Price changes do not affect my choice."
+        }
+      ]
+    },
+    {
+      "t": "Ôn tập: Tổng hợp 1",
+      "e": [
+        {
+          "p": "How do you rate our service?",
+          "m": "Nói điểm của bạn từ 1 đến 5 (một câu).",
+          "h": "My rating is + number",
+          "s": "My rating is five."
+        },
+        {
+          "p": "Do you like the product and the staff?",
+          "m": "Nói nếu bạn thích cả sản phẩm và nhân viên (dùng 'and').",
+          "h": "I like + the product and + the staff",
+          "s": "I like the product and the staff."
+        },
+        {
+          "p": "Is the shop clean and the price good?",
+          "m": "Nói sạch và giá tốt trong một câu (dùng 'and').",
+          "h": "It is + adj and the price is + adj",
+          "s": "The shop is clean and the price is good."
+        },
+        {
+          "p": "Do you recommend and buy again?",
+          "m": "Nói bạn có giới thiệu và mua lại hay không (hai ý trong một câu).",
+          "h": "I recommend and I buy again / I do not recommend and I do not buy again",
+          "s": "I recommend and I buy again."
+        },
+        {
+          "p": "How can we improve the delivery and app?",
+          "m": "Nói hai điều cần cải thiện ngắn (delivery, app) trong một câu.",
+          "h": "Improve the + noun and improve the + noun",
+          "s": "Improve the delivery and improve the app."
+        }
+      ]
+    },
+    {
+      "t": "Ôn tập: Tổng hợp 2",
+      "e": [
+        {
+          "p": "Do you get a refund and are you happy?",
+          "m": "Nói nếu bạn nhận hoàn tiền và có hài lòng hay không (hai ý).",
+          "h": "I get a refund and I am happy / I do not get and I am not happy",
+          "s": "I get a refund and I am happy."
+        },
+        {
+          "p": "Who helped you and was the staff friendly?",
+          "m": "Nói ai giúp bạn và nhân viên có thân thiện không (hai ý).",
+          "h": "The man/the woman helped me and they are friendly",
+          "s": "The man helped me and they are friendly."
+        },
+        {
+          "p": "Is the product clean and do you like the material?",
+          "m": "Nói sản phẩm có sạch và bạn có thích chất liệu không (hai ý).",
+          "h": "It is clean and I like the material",
+          "s": "It is clean and I like the material."
+        },
+        {
+          "p": "Where do you want delivery and can the driver call?",
+          "m": "Nói nơi nhận hàng và nếu tài xế có thể gọi bạn (hai ý).",
+          "h": "I want it at + place and Yes, he can / No, he cannot",
+          "s": "I want it at my house and yes, he can call me."
+        },
+        {
+          "p": "Do you use the app and is it fast?",
+          "m": "Nói bạn có dùng app và app có nhanh hay không (hai ý).",
+          "h": "I use the app and it is fast / I do not use and it is not fast",
+          "s": "I use the app and it is fast."
+        }
+      ]
+    },
+    {
+      "t": "Ôn tập: Tổng hợp 3",
+      "e": [
+        {
+          "p": "What is the problem and do you want a replacement?",
+          "m": "Nói vấn đề và nếu bạn muốn đổi hàng (hai ý trong một câu).",
+          "h": "My order is late and I want a replacement",
+          "s": "My order is late and I want a replacement."
+        },
+        {
+          "p": "How is the food and do you recommend the restaurant?",
+          "m": "Nói thức ăn như thế nào và bạn có giới thiệu nhà hàng không (hai ý).",
+          "h": "The food is + adj and I recommend / I do not recommend",
+          "s": "The food is tasty and I recommend this restaurant."
+        },
+        {
+          "p": "Is the policy clear and do you read it?",
+          "m": "Nói chính sách có rõ không và bạn có đọc không (hai ý).",
+          "h": "It is clear and I read / I do not read",
+          "s": "The policy is clear and I do not read it."
+        },
+        {
+          "p": "Do price changes affect your choice and do you return because of cleanliness?",
+          "m": "Nói giá thay đổi có ảnh hưởng và bạn có quay lại vì sạch sẽ không (hai ý).",
+          "h": "Price changes affect / do not affect my choice and I return because it is clean",
+          "s": "Price changes do not affect my choice and I return because it is clean."
+        },
+        {
+          "p": "How is our app, the delivery, and the staff?",
+          "m": "Nói ngắn 3 ý: app nhanh, giao hàng đúng giờ, nhân viên thân thiện (một câu).",
+          "h": "The app is fast, the delivery is on time, the staff are friendly",
+          "s": "The app is fast, the delivery is on time, and the staff are friendly."
+        }
+      ]
+    }
+  ]
+}

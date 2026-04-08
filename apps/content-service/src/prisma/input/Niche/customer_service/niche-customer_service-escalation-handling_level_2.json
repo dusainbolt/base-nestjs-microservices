@@ -1,0 +1,560 @@
+{
+  "l": {
+    "lvl": 2,
+    "code": "ELEMENTARY",
+    "desc": "2 câu đơn liên tiếp, có liên kết cơ bản",
+    "req": {
+      "gram": "S + be + V-ing, S + V(s/es) + adv of freq (always/often/sometimes), How much/many...?, I like/want/need + N/to V, There are + số + N, Prepositions (in/on/at/to)",
+      "vocab": "Thông dụng + tính từ đơn giản (big, small, good, bad, hot, cold)",
+      "vocabCap": {
+        "cefr": "A1–A2",
+        "maxWords": 600,
+        "allowed": [
+          "Tất cả từ Level 1, mở rộng thêm:",
+          "Tính từ 2 âm tiết phổ biến: happy, hungry, tired, busy, pretty, funny, angry, lucky",
+          "Trạng từ tần suất: always, often, usually, sometimes, never, still",
+          "Giới từ: in, on, at, to, from, with, near, next to, behind, in front of",
+          "Phrasal verbs cực kỳ phổ biến: get up, go out, come back, wake up",
+          "Từ về cảm xúc đơn giản: love, hate, enjoy, miss, feel",
+          "Từ về thời gian: yesterday, tomorrow, last week, next week, every morning"
+        ],
+        "avoid": [
+          "Từ trừu tượng (ví dụ: opportunity, responsibility, achievement)",
+          "Phrasal verbs ít gặp (ví dụ: put off, bring up, carry out)",
+          "Idioms, thành ngữ",
+          "Từ học thuật hoặc chuyên ngành"
+        ]
+      },
+      "conn": "and, but",
+      "tense": "Present Simple, Present Continuous",
+      "cmplx": "Thấp"
+    }
+  },
+  "d": [
+    {
+      "t": "Nhận diện vấn đề đơn giản",
+      "e": [
+        {
+          "p": "Good morning. Is everything okay with the new machine?",
+          "m": "Nói rằng máy không hoạt động. Yêu cầu ai đó kiểm tra nó.",
+          "h": "Sử dụng 'not working'. Sử dụng 'please check'.",
+          "s": "No, it is not working. Please check it."
+        },
+        {
+          "p": "I see you are still here. Do you have a small problem?",
+          "m": "Xác nhận bạn có một vấn đề nhỏ. Nói rằng bạn cần giúp đỡ.",
+          "h": "Sử dụng 'a small problem'. Sử dụng 'need help'.",
+          "s": "Yes, I have a small problem. I need help."
+        },
+        {
+          "p": "The report is due soon. Are you almost finished?",
+          "m": "Nói rằng bạn chưa hoàn thành báo cáo. Giải thích rằng nó rất khó.",
+          "h": "Sử dụng 'not finished'. Sử dụng 'very difficult'.",
+          "s": "I am not finished. It is very difficult."
+        },
+        {
+          "p": "The customer is waiting. Is her order ready?",
+          "m": "Nói rằng đơn hàng chưa sẵn sàng. Giải thích rằng có một lỗi.",
+          "h": "Sử dụng 'not ready'. Sử dụng 'a mistake'.",
+          "s": "The order is not ready. There is a mistake."
+        },
+        {
+          "p": "I am looking for the main document. Do you know where it is?",
+          "m": "Nói rằng bạn không biết tài liệu ở đâu. Gợi ý rằng nó có thể ở trên bàn của [studentName].",
+          "h": "Sử dụng 'don't know'. Sử dụng 'on [studentName]'s desk'.",
+          "s": "I don't know. Maybe it is on [studentName]'s desk."
+        }
+      ]
+    },
+    {
+      "t": "Khi công việc gặp khó khăn",
+      "e": [
+        {
+          "p": "How is your task going today?",
+          "m": "Nói rằng công việc quá khó. Bạn cần sự giúp đỡ.",
+          "h": "Sử dụng 'too difficult'. Sử dụng 'need help'.",
+          "s": "This task is too difficult. I need help."
+        },
+        {
+          "p": "I hope you understand the new instructions.",
+          "m": "Nói rằng bạn không hiểu các hướng dẫn mới. Yêu cầu giải thích.",
+          "h": "Sử dụng 'don't understand'. Sử dụng 'please explain'.",
+          "s": "I don't understand the new instructions. Please explain it."
+        },
+        {
+          "p": "Are you busy? Can you help me for a minute?",
+          "m": "Xác nhận bạn rất bận. Nói rằng bạn không có thời gian bây giờ.",
+          "h": "Sử dụng 'very busy'. Sử dụng 'no time now'.",
+          "s": "Yes, I am very busy. I have no time now."
+        },
+        {
+          "p": "The computer is slow today. Is it working for you?",
+          "m": "Nói rằng máy tính của bạn cũng chậm. Bạn không thể làm việc nhanh.",
+          "h": "Sử dụng 'also slow'. Sử dụng 'cannot work fast'.",
+          "s": "My computer is also slow. I cannot work fast."
+        },
+        {
+          "p": "The manager is asking about your progress. What should I tell him?",
+          "m": "Nói rằng bạn vẫn đang làm việc. Bạn cần thêm thời gian để hoàn thành.",
+          "h": "Sử dụng 'still working'. Sử dụng 'need more time'.",
+          "s": "I am still working. I need more time to finish."
+        }
+      ]
+    },
+    {
+      "t": "Thông báo về sự cố với đồ vật",
+      "e": [
+        {
+          "p": "Excuse me, the light in the meeting room is off.",
+          "m": "Xác nhận đèn bị tắt. Nói rằng phòng họp rất tối.",
+          "h": "Sử dụng 'is off'. Sử dụng 'very dark'.",
+          "s": "Yes, the light is off. It is very dark."
+        },
+        {
+          "p": "I tried to print the documents, but nothing happened.",
+          "m": "Nói rằng máy in không hoạt động. Nó luôn bị hỏng.",
+          "h": "Sử dụng 'not working'. Sử dụng 'always broken'.",
+          "s": "The printer is not working. It is always broken."
+        },
+        {
+          "p": "The coffee machine is empty again. Do you know who uses it?",
+          "m": "Nói rằng bạn không biết. Bạn cần cà phê bây giờ.",
+          "h": "Sử dụng 'don't know'. Sử dụng 'need coffee now'.",
+          "s": "I don't know. But I need coffee now."
+        },
+        {
+          "p": "There is a strange noise coming from the server room.",
+          "m": "Nói rằng bạn cũng nghe thấy tiếng ồn. Nó nghe có vẻ không ổn.",
+          "h": "Sử dụng 'also hear'. Sử dụng 'not good'.",
+          "s": "I also hear the noise. It is not good."
+        },
+        {
+          "p": "The front door is not closing properly. It is a security issue.",
+          "m": "Xác nhận cửa không đóng. Nói rằng ai đó cần sửa nó nhanh chóng.",
+          "h": "Sử dụng 'not closing'. Sử dụng 'fix it fast'.",
+          "s": "Yes, the door is not closing. Someone needs to fix it fast."
+        }
+      ]
+    },
+    {
+      "t": "Xác định tình huống cấp bách",
+      "e": [
+        {
+          "p": "Mr. Smith is waiting for a long time. Is he angry?",
+          "m": "Xác nhận ông ấy rất tức giận. Ông ấy cần nói chuyện với quản lý.",
+          "h": "Sử dụng 'very angry'. Sử dụng 'needs to talk'.",
+          "s": "Yes, he is very angry. He needs to talk to the manager."
+        },
+        {
+          "p": "The delivery was for yesterday, but it is not here.",
+          "m": "Nói rằng hàng vẫn chưa đến. Chúng ta cần gọi cho công ty vận chuyển.",
+          "h": "Sử dụng 'still not here'. Sử dụng 'need to call'.",
+          "s": "It is still not here. We need to call the company."
+        },
+        {
+          "p": "I see a big water leak in the kitchen.",
+          "m": "Nói rằng đó là một vấn đề lớn. Bạn cần ai đó đến và xem xét.",
+          "h": "Sử dụng 'a big problem'. Sử dụng 'come and look'.",
+          "s": "Oh, that is a big problem. I need someone to come and look."
+        },
+        {
+          "p": "The alarm is ringing upstairs. What is happening?",
+          "m": "Nói rằng bạn không biết. Bạn sẽ đi kiểm tra ngay lập tức.",
+          "h": "Sử dụng 'don't know'. Sử dụng 'go check now'.",
+          "s": "I don't know. I am going to check it now."
+        },
+        {
+          "p": "We have too many customers today. My team is very busy.",
+          "m": "Nói rằng bạn cũng bận rộn. Bạn cần thêm một người giúp đỡ.",
+          "h": "Sử dụng 'also busy'. Sử dụng 'need one more person'.",
+          "s": "I am also busy. We need one more person to help."
+        }
+      ]
+    },
+    {
+      "t": "Yêu cầu hỗ trợ từ đồng nghiệp",
+      "e": [
+        {
+          "p": "Hi [studentName], are you free for a moment?",
+          "m": "Nói rằng bạn có một vấn đề nhỏ. Hỏi xem đồng nghiệp có thể giúp được không.",
+          "h": "Sử dụng 'a small problem'. Sử dụng 'can you help?'.",
+          "s": "Yes, I have a small problem. Can you help me?"
+        },
+        {
+          "p": "I am trying to finish this report, but it is difficult.",
+          "m": "Nói rằng bạn cần giúp đỡ với báo cáo. Bạn không hiểu phần này.",
+          "h": "Sử dụng 'need help with the report'. Sử dụng 'don't understand this part'.",
+          "s": "I need help with the report. I don't understand this part."
+        },
+        {
+          "p": "The new software is quite complex. Are you using it well?",
+          "m": "Nói rằng nó rất khó sử dụng. Bạn thường mắc lỗi.",
+          "h": "Sử dụng 'very hard to use'. Sử dụng 'often make mistakes'.",
+          "s": "It is very hard to use. I often make mistakes."
+        },
+        {
+          "p": "I cannot find the client's file. Do you remember where it is?",
+          "m": "Nói rằng bạn không thể tìm thấy. Bạn cần tệp ngay bây giờ.",
+          "h": "Sử dụng 'cannot find it'. Sử dụng 'need the file now'.",
+          "s": "I cannot find it. I need the file now."
+        },
+        {
+          "p": "We have to prepare for the meeting tomorrow. Do you have everything ready?",
+          "m": "Nói rằng bạn cần thêm thông tin. Hỏi xem đồng nghiệp có thể tìm nó không.",
+          "h": "Sử dụng 'need more information'. Sử dụng 'can you find it?'.",
+          "s": "I need more information. Can you find it?"
+        }
+      ]
+    },
+    {
+      "t": "Thông báo cho cấp trên về vấn đề",
+      "e": [
+        {
+          "p": "Good morning [studentName]. How is your work today?",
+          "m": "Nói rằng bạn có một vấn đề. Bạn cần nói chuyện với quản lý.",
+          "h": "Sử dụng 'have a problem'. Sử dụng 'need to talk to you'.",
+          "s": "Good morning. I have a problem. I need to talk to you."
+        },
+        {
+          "p": "I heard a customer is unhappy. Is that true?",
+          "m": "Xác nhận rằng một khách hàng rất tức giận. Bạn đã cố gắng giúp đỡ.",
+          "h": "Sử dụng 'very angry'. Sử dụng 'tried to help'.",
+          "s": "Yes, a customer is very angry. I tried to help her."
+        },
+        {
+          "p": "The report shows some mistakes. Did you check it carefully?",
+          "m": "Thừa nhận có lỗi. Nói rằng bạn sẽ kiểm tra lại ngay bây giờ.",
+          "h": "Sử dụng 'a mistake'. Sử dụng 'check it again now'.",
+          "s": "Yes, there is a mistake. I will check it again now."
+        },
+        {
+          "p": "The new project seems difficult. Are you managing it?",
+          "m": "Nói rằng dự án rất khó. Bạn cần một lời khuyên từ quản lý.",
+          "h": "Sử dụng 'very difficult'. Sử dụng 'need your advice'.",
+          "s": "The project is very difficult. I need your advice."
+        },
+        {
+          "p": "Is everything on schedule for the big presentation next week?",
+          "m": "Nói rằng một phần vẫn chưa sẵn sàng. Bạn cần thêm một ngày để hoàn thành.",
+          "h": "Sử dụng 'not ready'. Sử dụng 'need one more day'.",
+          "s": "One part is not ready. I need one more day to finish it."
+        }
+      ]
+    },
+    {
+      "t": "Mô tả một vấn đề cần giải quyết",
+      "e": [
+        {
+          "p": "What is the problem with the new client's order?",
+          "m": "Nói rằng đơn hàng bị sai. Nó là một vấn đề lớn.",
+          "h": "Sử dụng 'is wrong'. Sử dụng 'a big problem'.",
+          "s": "The order is wrong. It is a big problem."
+        },
+        {
+          "p": "The data file is not opening. Is it broken?",
+          "m": "Xác nhận tệp bị hỏng. Bạn không thể sử dụng nó.",
+          "h": "Sử dụng 'is broken'. Sử dụng 'cannot use it'.",
+          "s": "Yes, the file is broken. I cannot use it."
+        },
+        {
+          "p": "I see you are still working on the inventory. Is there an issue?",
+          "m": "Nói rằng một số mặt hàng bị thiếu. Bạn không thể tìm thấy chúng.",
+          "h": "Sử dụng 'some items are missing'. Sử dụng 'cannot find them'.",
+          "s": "Some items are missing. I cannot find them."
+        },
+        {
+          "p": "The meeting room is always booked. We need it today.",
+          "m": "Xác nhận phòng họp luôn bận. Bạn cần một phòng khác bây giờ.",
+          "h": "Sử dụng 'always busy'. Sử dụng 'need another room now'.",
+          "s": "Yes, the meeting room is always busy. We need another room now."
+        },
+        {
+          "p": "The project deadline is tomorrow. Are we ready to submit?",
+          "m": "Nói rằng một số phần chưa được kiểm tra. Chúng ta cần thêm thời gian để hoàn thành tốt.",
+          "h": "Sử dụng 'not checked'. Sử dụng 'need more time to finish well'.",
+          "s": "Some parts are not checked. We need more time to finish well."
+        }
+      ]
+    },
+    {
+      "t": "Giải thích sự cố nhỏ hàng ngày",
+      "e": [
+        {
+          "p": "Your computer screen is blinking. Is something wrong?",
+          "m": "Nói rằng nó luôn nhấp nháy. Nó rất khó chịu.",
+          "h": "Sử dụng 'always blinking'. Sử dụng 'very annoying'.",
+          "s": "Yes, it is always blinking. It is very annoying."
+        },
+        {
+          "p": "The internet connection is really slow today. Are you having problems?",
+          "m": "Xác nhận kết nối chậm. Bạn không thể gửi email lớn.",
+          "h": "Sử dụng 'also slow'. Sử dụng 'cannot send big emails'.",
+          "s": "Yes, it is also slow. I cannot send big emails."
+        },
+        {
+          "p": "I heard the office phone is ringing a lot. What is happening?",
+          "m": "Nói rằng điện thoại đang đổ chuông rất nhiều. Nhiều khách hàng đang gọi.",
+          "h": "Sử dụng 'ringing a lot'. Sử dụng 'many customers are calling'.",
+          "s": "The phone is ringing a lot. Many customers are calling."
+        },
+        {
+          "p": "The office temperature is too cold today. Don't you think so?",
+          "m": "Xác nhận nó quá lạnh. Bạn cảm thấy không khỏe.",
+          "h": "Sử dụng 'too cold'. Sử dụng 'feel not good'.",
+          "s": "Yes, it is too cold. I feel not good."
+        },
+        {
+          "p": "The new coffee machine is not working well. The coffee tastes bad.",
+          "m": "Nói rằng bạn cũng nghĩ vậy. Bạn cần một máy mới.",
+          "h": "Sử dụng 'also think so'. Sử dụng 'need a new machine'.",
+          "s": "I also think so. We need a new machine."
+        }
+      ]
+    },
+    {
+      "t": "Khi bạn không hiểu điều gì đó",
+      "e": [
+        {
+          "p": "Did you read the new policy? Is it clear?",
+          "m": "Nói rằng nó không rõ ràng. Bạn không hiểu phần này.",
+          "h": "Sử dụng 'not clear'. Sử dụng 'don't understand this part'.",
+          "s": "No, it is not clear. I don't understand this part."
+        },
+        {
+          "p": "The instructions for the new task are simple. Are they okay for you?",
+          "m": "Nói rằng chúng không đơn giản. Bạn cần thêm giải thích.",
+          "h": "Sử dụng 'not simple'. Sử dụng 'need more explanation'.",
+          "s": "They are not simple. I need more explanation."
+        },
+        {
+          "p": "Are you familiar with the new client's requirements?",
+          "m": "Nói rằng bạn không quen thuộc. Bạn cần ai đó nói cho bạn biết.",
+          "h": "Sử dụng 'not familiar'. Sử dụng 'need someone to tell me'.",
+          "s": "I am not familiar. I need someone to tell me."
+        },
+        {
+          "p": "The manager explained the process. Do you understand what to do?",
+          "m": "Nói rằng bạn vẫn còn một câu hỏi. Bạn cần hỏi quản lý.",
+          "h": "Sử dụng 'still have a question'. Sử dụng 'need to ask the manager'.",
+          "s": "I still have a question. I need to ask the manager."
+        },
+        {
+          "p": "We are getting a lot of new information today. Is it too much?",
+          "m": "Xác nhận nó quá nhiều. Bạn cảm thấy hơi bối rối.",
+          "h": "Sử dụng 'too much'. Sử dụng 'feel a little confused'.",
+          "s": "Yes, it is too much. I feel a little confused."
+        }
+      ]
+    },
+    {
+      "t": "Nói về một vấn đề chưa giải quyết",
+      "e": [
+        {
+          "p": "Did you get the payment from ABC company?",
+          "m": "Nói rằng khoản thanh toán vẫn chưa đến. Đó là một vấn đề.",
+          "h": "Sử dụng 'still not here'. Sử dụng 'a problem'.",
+          "s": "The payment is still not here. It is a problem."
+        },
+        {
+          "p": "The broken chair is still here. Is it fixed?",
+          "m": "Nói rằng nó vẫn chưa được sửa. Bạn đang chờ đợi.",
+          "h": "Sử dụng 'still not fixed'. Sử dụng 'waiting for it'.",
+          "s": "No, it is still not fixed. I am waiting for it."
+        },
+        {
+          "p": "The customer is calling again about her delivery problem.",
+          "m": "Nói rằng vấn đề này vẫn tiếp diễn. Bạn cần một giải pháp.",
+          "h": "Sử dụng 'still happening'. Sử dụng 'need a solution'.",
+          "s": "This problem is still happening. I need a solution."
+        },
+        {
+          "p": "We need to send the report by the end of the day. Is it finished?",
+          "m": "Nói rằng nó vẫn chưa hoàn thành. Bạn cần giúp đỡ để đẩy nhanh tiến độ.",
+          "h": "Sử dụng 'still not finished'. Sử dụng 'need help to speed up'.",
+          "s": "It is still not finished. I need help to speed up."
+        },
+        {
+          "p": "I tried to call the supplier about the missing items, but no answer.",
+          "m": "Nói rằng bạn cũng đã thử. Bạn nghĩ đây là một vấn đề lớn.",
+          "h": "Sử dụng 'also tried'. Sử dụng 'a big problem'.",
+          "s": "I also tried. I think this is a big problem."
+        }
+      ]
+    },
+    {
+      "t": "Đề xuất ai đó kiểm tra vấn đề",
+      "e": [
+        {
+          "p": "The internet is not working in the main office.",
+          "m": "Nói rằng bộ phận IT cần kiểm tra nó. Đó là một vấn đề quan trọng.",
+          "h": "Sử dụng 'IT needs to check it'. Sử dụng 'an important problem'.",
+          "s": "IT needs to check it. It is an important problem."
+        },
+        {
+          "p": "The new employee is making many mistakes.",
+          "m": "Nói rằng quản lý cần nói chuyện với anh ấy. Anh ấy cần giúp đỡ.",
+          "h": "Sử dụng 'manager needs to talk to him'. Sử dụng 'needs help'.",
+          "s": "The manager needs to talk to him. He needs help."
+        },
+        {
+          "p": "The air conditioning is broken again in my room.",
+          "m": "Nói rằng bạn cần đội bảo trì. Phòng của bạn rất nóng.",
+          "h": "Sử dụng 'need maintenance team'. Sử dụng 'very hot'.",
+          "s": "I need the maintenance team. My room is very hot."
+        },
+        {
+          "p": "I think there is a problem with the new project's budget.",
+          "m": "Nói rằng bạn nghĩ bộ phận tài chính nên xem xét. Đó là tiền của công ty.",
+          "h": "Sử dụng 'finance team should look'. Sử dụng 'company's money'.",
+          "s": "I think the finance team should look. It is the company's money."
+        },
+        {
+          "p": "A customer is threatening to cancel their order because of the delay.",
+          "m": "Nói rằng bạn cần sự giúp đỡ của quản lý. Tình huống này rất cấp bách.",
+          "h": "Sử dụng 'need the manager's help'. Sử dụng 'very urgent'.",
+          "s": "I need the manager's help. This situation is very urgent."
+        }
+      ]
+    },
+    {
+      "t": "Phản hồi về một sự cố bất ngờ",
+      "e": [
+        {
+          "p": "The delivery truck just arrived, but it's the wrong order!",
+          "m": "Nói rằng đó là một vấn đề. Bạn cần gọi cho công ty vận chuyển ngay.",
+          "h": "Sử dụng 'a problem'. Sử dụng 'call the delivery company now'.",
+          "s": "That is a problem. I need to call the delivery company now."
+        },
+        {
+          "p": "The new meeting is tomorrow, not today.",
+          "m": "Nói rằng bạn không biết. Bạn sẽ thay đổi lịch trình của mình.",
+          "h": "Sử dụng 'don't know'. Sử dụng 'change my schedule'.",
+          "s": "Oh, I don't know. I will change my schedule."
+        },
+        {
+          "p": "My computer just shut down suddenly and I lost my work.",
+          "m": "Nói rằng đó là một vấn đề lớn. Bạn cần sự giúp đỡ của IT.",
+          "h": "Sử dụng 'a big problem'. Sử dụng 'need IT's help'.",
+          "s": "That is a big problem. I need IT's help."
+        },
+        {
+          "p": "There's an urgent call for the manager, but he is not here.",
+          "m": "Nói rằng quản lý không ở đây. Bạn sẽ cố gắng liên lạc với anh ấy.",
+          "h": "Sử dụng 'not here'. Sử dụng 'try to contact him'.",
+          "s": "The manager is not here. I will try to contact him."
+        },
+        {
+          "p": "The fire alarm is ringing, but there is no fire outside.",
+          "m": "Nói rằng nó có thể là một lỗi. Bạn cần kiểm tra nó với bảo vệ.",
+          "h": "Sử dụng 'maybe a mistake'. Sử dụng 'check with security'.",
+          "s": "It is maybe a mistake. I need to check it with security."
+        }
+      ]
+    },
+    {
+      "t": "Ôn tập: Xử lý vấn đề ban đầu",
+      "e": [
+        {
+          "p": "Is your printer working today? Mine is not.",
+          "m": "Nói rằng máy in của bạn cũng không hoạt động. Nó luôn bị hỏng.",
+          "h": "Sử dụng 'also not working'. Sử dụng 'always broken'.",
+          "s": "Mine is also not working. It is always broken."
+        },
+        {
+          "p": "I cannot open this file. Do you have the password?",
+          "m": "Nói rằng bạn không có mật khẩu. Bạn không thể giúp đỡ.",
+          "h": "Sử dụng 'don't have the password'. Sử dụng 'cannot help'.",
+          "s": "I don't have the password. I cannot help."
+        },
+        {
+          "p": "The customer is waiting for a response. Did you send the email?",
+          "m": "Nói rằng bạn đã gửi email. Nhưng khách hàng rất tức giận.",
+          "h": "Sử dụng 'sent the email'. Sử dụng 'very angry'.",
+          "s": "I sent the email. But the customer is very angry."
+        },
+        {
+          "p": "The manager needs the project update soon. Is it ready?",
+          "m": "Nói rằng nó vẫn chưa sẵn sàng. Bạn cần thêm một chút thời gian.",
+          "h": "Sử dụng 'still not ready'. Sử dụng 'need a little more time'.",
+          "s": "It is still not ready. I need a little more time."
+        },
+        {
+          "p": "There is a big line of people at the reception. What is the problem?",
+          "m": "Nói rằng hệ thống đang gặp sự cố. Bạn cần giúp đỡ để giải quyết vấn đề này.",
+          "h": "Sử dụng 'the system is down'. Sử dụng 'need help to fix this'.",
+          "s": "The system is down. I need help to fix this."
+        }
+      ]
+    },
+    {
+      "t": "Ôn tập: Khi cần giúp đỡ",
+      "e": [
+        {
+          "p": "You look busy. Can I help you with something?",
+          "m": "Xác nhận bạn rất bận. Bạn cần giúp đỡ với công việc này.",
+          "h": "Sử dụng 'very busy'. Sử dụng 'need help with this work'.",
+          "s": "Yes, I am very busy. I need help with this work."
+        },
+        {
+          "p": "I don't understand these figures in the report. What do they mean?",
+          "m": "Nói rằng bạn cũng không hiểu chúng. Bạn nghĩ quản lý biết.",
+          "h": "Sử dụng 'also don't understand'. Sử dụng 'manager knows'.",
+          "s": "I also don't understand them. I think the manager knows."
+        },
+        {
+          "p": "The deadline is today, and the task is still not finished.",
+          "m": "Nói rằng bạn cần ai đó giúp đỡ bạn bây giờ. Đó là một vấn đề lớn.",
+          "h": "Sử dụng 'need someone to help me now'. Sử dụng 'a big problem'.",
+          "s": "I need someone to help me now. It is a big problem."
+        },
+        {
+          "p": "The new employee made a mistake with a client's information.",
+          "m": "Nói rằng đó là một vấn đề nhạy cảm. Bạn cần quản lý nói chuyện với anh ấy.",
+          "h": "Sử dụng 'a sensitive problem'. Sử dụng 'manager needs to talk to him'.",
+          "s": "That is a sensitive problem. The manager needs to talk to him."
+        },
+        {
+          "p": "The server room is making a strange sound again, like yesterday.",
+          "m": "Nói rằng tiếng ồn này là không bình thường. Bạn cần bộ phận IT kiểm tra ngay bây giờ.",
+          "h": "Sử dụng 'not normal'. Sử dụng 'IT needs to check it now'.",
+          "s": "This noise is not normal. IT needs to check it now."
+        }
+      ]
+    },
+    {
+      "t": "Ôn tập: Các tình huống cần chuyển cấp",
+      "e": [
+        {
+          "p": "Did you finish the urgent task from Mr. Jones?",
+          "m": "Nói rằng bạn chưa hoàn thành. Nó rất khó khăn và bạn cần giúp đỡ.",
+          "h": "Sử dụng 'not finished'. Sử dụng 'very difficult and I need help'.",
+          "s": "I am not finished. It is very difficult and I need help."
+        },
+        {
+          "p": "A very important customer is angry because his order is wrong again.",
+          "m": "Nói rằng đó là một vấn đề lớn. Bạn cần quản lý nói chuyện với anh ấy.",
+          "h": "Sử dụng 'a big problem'. Sử dụng 'manager needs to talk to him'.",
+          "s": "That is a big problem. The manager needs to talk to him."
+        },
+        {
+          "p": "The machine in the factory stopped working suddenly. What should we do?",
+          "m": "Nói rằng bạn không biết cách sửa nó. Bạn cần gọi kỹ sư.",
+          "h": "Sử dụng 'don't know how to fix it'. Sử dụng 'need to call the engineer'.",
+          "s": "I don't know how to fix it. We need to call the engineer."
+        },
+        {
+          "p": "We have a big problem with the new software. It is losing data.",
+          "m": "Nói rằng điều đó thật tồi tệ. Chúng ta cần nói chuyện với bộ phận IT ngay lập tức.",
+          "h": "Sử dụng 'that is bad'. Sử dụng 'need to talk to IT right now'.",
+          "s": "Oh, that is bad. We need to talk to IT right now."
+        },
+        {
+          "p": "The delivery for the urgent client did not arrive. It is a serious issue.",
+          "m": "Xác nhận đó là một vấn đề nghiêm trọng. Bạn cần thông báo cho quản lý ngay và gọi cho công ty vận chuyển.",
+          "h": "Sử dụng 'a serious problem'. Sử dụng 'inform the manager and call the delivery company'.",
+          "s": "Yes, it is a serious problem. I need to inform the manager and call the delivery company."
+        }
+      ]
+    }
+  ]
+}

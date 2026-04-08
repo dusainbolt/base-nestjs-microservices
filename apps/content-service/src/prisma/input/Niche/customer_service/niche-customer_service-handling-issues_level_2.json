@@ -1,0 +1,530 @@
+{
+  "l": "ELEMENTARY",
+  "d": [
+    {
+      "t": "Khách hàng báo lỗi đơn hàng",
+      "e": [
+        {
+          "p": "There is a problem with my order.",
+          "m": "Nói rõ vấn đề với đơn hàng. Nói bạn muốn gì (đổi hoặc hoàn tiền).",
+          "h": "It is / The item is + trạng từ/tính từ. I want / I need + N.",
+          "s": "The item is missing from my order. I want a replacement."
+        },
+        {
+          "p": "I ordered a red shirt but I got a blue one.",
+          "m": "Nói cái bạn nhận và cái bạn đặt. Nói bạn cần gì để sửa lỗi.",
+          "h": "Use 'I ordered...' và 'I got...'. Use 'I need / I want + to + V'.",
+          "s": "I ordered a red shirt but I got a blue one. I need a new red shirt."
+        },
+        {
+          "p": "Can you check my order number?",
+          "m": "Nói số đơn hàng hoặc nói bạn không nhớ. Nói bạn muốn nhân viên làm gì tiếp theo.",
+          "h": "Say the number or 'I don't remember'. Then 'Please + V' hoặc 'I want + N'.",
+          "s": "My order number is 12345. Please check the status."
+        },
+        {
+          "p": "The package is late.",
+          "m": "Nói đơn hàng đến trễ hay chưa đến. Hỏi khi nào được giao.",
+          "h": "Use 'It is late / It has not arrived' and 'When will it + V?'.",
+          "s": "My package has not arrived. When will it be delivered?"
+        },
+        {
+          "p": "I want to cancel my order.",
+          "m": "Xác nhận bạn muốn hủy đơn. Nói lý do ngắn gọn (ví dụ: change mind/have problem).",
+          "h": "Use 'I want to + V' and a short reason 'because + clause'.",
+          "s": "I want to cancel my order. I want a refund because I changed my mind."
+        }
+      ]
+    },
+    {
+      "t": "Sản phẩm bị hỏng khi nhận",
+      "e": [
+        {
+          "p": "The product is broken.",
+          "m": "Mô tả phần hỏng ngắn. Nói bạn cần gì (đổi hoặc sửa).",
+          "h": "Use 'It is + broken' và 'I want / I need + N'.",
+          "s": "The product is broken at the screen. I need a replacement."
+        },
+        {
+          "p": "Is the damage big?",
+          "m": "Nói mức độ hỏng (small/big). Nói bạn có muốn đổi hay không.",
+          "h": "Use 'It is + small/big' and 'I want + to + V'.",
+          "s": "The damage is small on the corner. I want to exchange it."
+        },
+        {
+          "p": "Can you send a photo of the damage?",
+          "m": "Nói bạn có ảnh hay không. Nếu có, nói bạn đã gửi hay sẽ gửi.",
+          "h": "'I have a photo' / 'I will send a photo' và 'already / now'.",
+          "s": "I have a photo of the damage. I will send it now."
+        },
+        {
+          "p": "We can replace it next week.",
+          "m": "Nói bạn có đồng ý thời gian đó hay không. Nếu không, đề xuất thời gian khác.",
+          "h": "Answer with 'Yes, I agree' or 'No, I need + time'.",
+          "s": "Yes, I agree to next week. I need it on Monday if possible."
+        },
+        {
+          "p": "I am sorry for the trouble.",
+          "m": "Nói bạn cảm thấy thế nào (bực mình/không vui). Nói bạn muốn công ty làm gì để tốt hơn.",
+          "h": "Use 'I am + adjective' and 'I want + N' or 'Please + V'.",
+          "s": "I am unhappy about the broken item. Please send a free replacement."
+        }
+      ]
+    },
+    {
+      "t": "Gặp vấn đề khi thanh toán",
+      "e": [
+        {
+          "p": "My card was declined.",
+          "m": "Nói vấn đề với thẻ (bị từ chối). Nói bạn muốn làm gì tiếp theo.",
+          "h": "'My card was declined' và 'I want to + V' hoặc 'Please help'.",
+          "s": "My card was declined at checkout. Please help me pay with another method."
+        },
+        {
+          "p": "Do you have another card?",
+          "m": "Nói bạn có thẻ khác hay không. Nếu có, nói bạn muốn dùng gì.",
+          "h": "Use 'I have' / 'I don't have' and 'I want to use + N'.",
+          "s": "I don't have another card. I want to pay by cash."
+        },
+        {
+          "p": "The price is wrong on the receipt.",
+          "m": "Nói giá trên hóa đơn là sai hay đúng. Yêu cầu sửa hoặc hoàn tiền.",
+          "h": "Use 'It is wrong' and 'I want a refund' or 'Please correct it'.",
+          "s": "The price is wrong on the receipt. Please correct it and give me a refund."
+        },
+        {
+          "p": "We can refund to your card.",
+          "m": "Nói bạn có muốn hoàn tiền về thẻ không. Nếu không, nói phương án khác.",
+          "h": "Answer with 'Yes, please' or 'No, I want + N'.",
+          "s": "No, I want cash refund. I need the money now."
+        },
+        {
+          "p": "I am checking the payment now.",
+          "m": "Nói bạn có thể chờ hay không. Nói bạn sẽ làm gì khi xong.",
+          "h": "Use 'I can / I cannot wait' and 'I will + V'.",
+          "s": "I can wait for a few minutes. I will call back if the payment fails."
+        }
+      ]
+    },
+    {
+      "t": "Đặt chỗ bị hủy hoặc thay đổi",
+      "e": [
+        {
+          "p": "Your reservation is cancelled.",
+          "m": "Xác nhận bạn nhận thông báo hủy hay chưa. Nói bạn muốn đặt lại hay không.",
+          "h": "Use 'I received / I did not receive' and 'I want to + V'.",
+          "s": "Yes, I received the cancellation message. I want to book another time."
+        },
+        {
+          "p": "We can offer a new date on Friday.",
+          "m": "Nói bạn có đồng ý ngày mới hay không. Nếu không, đưa ra ngày khác.",
+          "h": "Use 'Yes, I agree' or 'No, I need + day'.",
+          "s": "No, I cannot come on Friday. I need Monday instead."
+        },
+        {
+          "p": "How many people are in your party?",
+          "m": "Nói số người. Nói nếu có nhu cầu đặc biệt (ví dụ: table near window).",
+          "h": "Use 'There are + number' and 'I want + N' for requests.",
+          "s": "There are four people in my party. I want a table near the window."
+        },
+        {
+          "p": "Do you need a reminder call?",
+          "m": "Nói bạn có cần cuộc gọi nhắc nhở hay không. Nếu cần, cho thời gian thích hợp.",
+          "h": "Use 'Yes, please' or 'No, thank you' and time 'in the morning / at 9am'.",
+          "s": "Yes, please call me one day before. Call me in the morning."
+        },
+        {
+          "p": "I want to change my reservation time.",
+          "m": "Nói thời gian cũ và thời gian mới bạn muốn. Nói nếu thay đổi là vĩnh viễn hay tạm thời.",
+          "h": "Use 'My reservation is at...' and 'I want to change to...'.",
+          "s": "My reservation is at 6pm today. I want to change it to 8pm."
+        }
+      ]
+    },
+    {
+      "t": "Gửi trả hàng",
+      "e": [
+        {
+          "p": "I want to return this item.",
+          "m": "Nói lý do trả hàng ngắn. Nói bạn muốn hoàn tiền hay đổi hàng.",
+          "h": "Use 'I want to return' and 'because...' and 'I want a refund / an exchange'.",
+          "s": "I want to return this item because it is too small. I want a refund."
+        },
+        {
+          "p": "Is the item unopened?",
+          "m": "Nói tình trạng sản phẩm (opened/unopened). Nói bạn đã mở hay chưa.",
+          "h": "Use 'It is opened' or 'It is unopened' and 'I opened / I did not open'.",
+          "s": "The item is unopened. I did not open the box."
+        },
+        {
+          "p": "Please send the return label.",
+          "m": "Nói bạn đã nhận nhãn trả chưa. Nói bạn cần hướng dẫn gửi trả hay tự gửi.",
+          "h": "Use 'I have received' or 'I have not received' and 'I will / I want to + V'.",
+          "s": "I have not received the return label. I want instructions to send it myself."
+        },
+        {
+          "p": "Do you have the receipt?",
+          "m": "Nói bạn có hóa đơn hay không. Nếu có, nói bạn sẽ gửi nó như thế nào.",
+          "h": "Use 'I have' / 'I don't have' and 'I will send + by email'.",
+          "s": "I have the receipt. I will send it by email now."
+        },
+        {
+          "p": "We will process your refund in 5 days.",
+          "m": "Nói bạn có đồng ý thời gian xử lý hay không. Nếu không, yêu cầu nhanh hơn.",
+          "h": "Use 'Yes, I agree' or 'No, I need it sooner' and 'in + number + days'.",
+          "s": "No, I need the refund sooner. I want it in two days."
+        }
+      ]
+    },
+    {
+      "t": "Sản phẩm không giống mô tả trên web",
+      "e": [
+        {
+          "p": "The item is different from the website.",
+          "m": "Nói điểm khác chính (màu/kích thước). Nói bạn muốn đổi hay hoàn tiền.",
+          "h": "Use 'It is different' and 'I want + N' or 'I want to + V'.",
+          "s": "The color is different from the website. I want an exchange."
+        },
+        {
+          "p": "We show a red dress on the site.",
+          "m": "Xác nhận màu hoặc mẫu bạn thấy. Nói bạn nhận màu gì thực tế.",
+          "h": "Use 'I saw / I received' and 'It is + color'.",
+          "s": "I saw a red dress on the site. I received a pink dress."
+        },
+        {
+          "p": "Can you return it for free?",
+          "m": "Nói bạn có muốn trả hàng miễn phí không. Nếu có, hỏi cách gửi trả.",
+          "h": "Use 'Yes, I want' or 'No, I will pay' and 'How do I + V?'.",
+          "s": "Yes, I want a free return. How do I send it back?"
+        },
+        {
+          "p": "We will pick up the item tomorrow.",
+          "m": "Nói bạn có ở nhà ngày mai hay không. Nếu không, đề xuất ngày khác.",
+          "h": "Use 'I will be home' or 'I will not be home' and 'I need + day'.",
+          "s": "I will not be home tomorrow. I need pickup on Saturday."
+        },
+        {
+          "p": "I am sorry for the mistake.",
+          "m": "Nói bạn muốn công ty làm gì để sửa lỗi. Nói mong đợi thời gian xử lý ngắn gọn.",
+          "h": "Use 'Please + V' and 'I want it in + time'.",
+          "s": "Please send the correct item quickly. I want it within three days."
+        }
+      ]
+    },
+    {
+      "t": "Muốn đổi kích cỡ hoặc mẫu",
+      "e": [
+        {
+          "p": "I need a bigger size.",
+          "m": "Nói kích cỡ hiện tại và kích cỡ bạn muốn. Nói bạn có muốn đổi ngay hay đặt trước.",
+          "h": "Use 'I have size...' and 'I want size...' and 'I want to + V'.",
+          "s": "I have size M now. I want size L and I want to exchange it."
+        },
+        {
+          "p": "Do you still have size L?",
+          "m": "Trả lời có hay không. Nếu có, nói bạn muốn giữ hay đặt chờ.",
+          "h": "Use 'Yes, we have' or 'No, we do not have' and 'I want to + V'.",
+          "s": "Yes, you have size L in stock. I want to reserve it."
+        },
+        {
+          "p": "Can I change the color too?",
+          "m": "Nói bạn có muốn đổi màu không. Nếu muốn, nói màu mới.",
+          "h": "Use 'I want + color' or 'I do not want to change'.",
+          "s": "Yes, I want to change the color to black. I want the black size L."
+        },
+        {
+          "p": "We can hold the item for 2 days.",
+          "m": "Nói bạn có cần giữ lâu hơn không. Nếu cần, đề nghị ngày cụ thể.",
+          "h": "Use 'I need + number + days' and 'until + day'.",
+          "s": "I need it held for four days. Please keep it until next Monday."
+        },
+        {
+          "p": "Please bring the item to the store.",
+          "m": "Nói bạn sẽ đến lấy hay muốn giao đến nhà. Nếu giao, cho địa chỉ ngắn (city ok).",
+          "h": "Use 'I will pick it up' or 'Please deliver to + place'.",
+          "s": "I will pick it up at the store. I live in [studentCity]."
+        }
+      ]
+    },
+    {
+      "t": "Gặp nhân viên hỗ trợ qua điện thoại",
+      "e": [
+        {
+          "p": "Hello, how can I help you?",
+          "m": "Nói vấn đề chính ngắn. Nói bạn muốn nhân viên làm gì cho bạn.",
+          "h": "Start with 'I have a problem with...' and 'I want + N' or 'Please + V'.",
+          "s": "I have a problem with my delivery. I want you to check the address."
+        },
+        {
+          "p": "Please tell me your order name.",
+          "m": "Cho tên để nhân viên kiểm tra (dùng placeholder nếu là tên bạn). Nói thêm thông tin nếu cần.",
+          "h": "Use 'My name is [studentName]' and 'My order number is...'.",
+          "s": "My name is [studentName]. My order number is 67890."
+        },
+        {
+          "p": "We are checking your account now.",
+          "m": "Nói bạn có thể chờ ngắn không. Nói bạn sẽ làm gì trong lúc chờ.",
+          "h": "Use 'I can wait' or 'I cannot wait' and 'I will + V'.",
+          "s": "I can wait for a few minutes. I will check my email while I wait."
+        },
+        {
+          "p": "The problem is fixed now.",
+          "m": "Xác nhận bạn thấy vấn đề đã được sửa hay chưa. Nói cảm nhận ngắn (vui/không).",
+          "h": "Use 'Yes, it is fixed' or 'No, it is still...' and 'I am + adjective'.",
+          "s": "Yes, it is fixed now. I am happy with the help."
+        },
+        {
+          "p": "Do you need any other help?",
+          "m": "Nói bạn còn cần gì khác không. Nếu còn, nêu yêu cầu cuối cùng.",
+          "h": "Use 'No, thank you' or 'Yes, I need + N / to + V'.",
+          "s": "Yes, I need a refund confirmation email. Please send it now."
+        }
+      ]
+    },
+    {
+      "t": "Yêu cầu hoàn tiền",
+      "e": [
+        {
+          "p": "I want a refund for my order.",
+          "m": "Nói lý do hoàn tiền ngắn. Nói bạn muốn hoàn tiền bằng cách nào (card/cash).",
+          "h": "Use 'because + clause' and 'I want + refund to + method'.",
+          "s": "I want a refund because the product is damaged. I want the refund to my card."
+        },
+        {
+          "p": "We will refund in 7 days.",
+          "m": "Nói bạn có đồng ý thời gian đó không. Nếu không, đề nghị thời gian khác.",
+          "h": "Use 'Yes, I agree' or 'No, I need + time'.",
+          "s": "No, I need the refund sooner. I want it in three days."
+        },
+        {
+          "p": "Do you have your receipt?",
+          "m": "Nói bạn có hóa đơn không. Nếu có, nói bạn sẽ gửi bằng cách nào.",
+          "h": "Use 'I have / I don't have' and 'I will send + by email'.",
+          "s": "I have the receipt. I will send a picture by email."
+        },
+        {
+          "p": "We need your bank details for the refund.",
+          "m": "Nói bạn có cung cấp thông tin ngân hàng không. Nếu có, dùng placeholder cho city/job? (không cần).",
+          "h": "Use 'I will give' or 'I cannot give' and 'Please + V'.",
+          "s": "I will give my bank details. Please send a secure form to fill."
+        },
+        {
+          "p": "Your refund is processed now.",
+          "m": "Xác nhận bạn đã nhận tin hay chưa. Nói bạn sẽ kiểm tra tài khoản khi nào.",
+          "h": "Use 'I received' or 'I did not receive' and 'I will check + time'.",
+          "s": "I received the refund message. I will check my account today."
+        }
+      ]
+    },
+    {
+      "t": "Phàn nàn về dịch vụ tại cửa hàng",
+      "e": [
+        {
+          "p": "The staff was rude to me.",
+          "m": "Nói sự việc ngắn (nhân viên làm gì). Nói bạn muốn cửa hàng phản ứng thế nào.",
+          "h": "Use 'They + V-ed' and 'I want + N' or 'Please + V'.",
+          "s": "The staff spoke loudly and was rude to me. I want an apology and better service."
+        },
+        {
+          "p": "We are sorry to hear that.",
+          "m": "Nói bạn có muốn gặp quản lý không. Nếu có, đề nghị thời gian.",
+          "h": "Use 'Yes, I want' or 'No, thank you' and 'on + day/time'.",
+          "s": "Yes, I want to meet the manager. I can come on Friday morning."
+        },
+        {
+          "p": "Did you pay for your order?",
+          "m": "Nói bạn có đã trả tiền hay chưa. Nếu đã, nói phương thức thanh toán.",
+          "h": "Use 'Yes, I paid' or 'No, I did not pay' and 'by card / by cash'.",
+          "s": "Yes, I paid for my order. I paid by card."
+        },
+        {
+          "p": "We will speak with the team today.",
+          "m": "Nói bạn có mong đợi gì sau cuộc nói chuyện đó. Nói thời gian bạn muốn cửa hàng trả lời.",
+          "h": "Use 'I want + N' and 'Please reply in + time'.",
+          "s": "I want a formal apology email. Please reply in two days."
+        },
+        {
+          "p": "Can I get a discount for the trouble?",
+          "m": "Hỏi về mong muốn giảm giá. Nói bạn chấp nhận mức giảm nào ngắn (ví dụ: small/half/free).",
+          "h": "Use 'I would like' and 'a small discount' or 'a full refund'.",
+          "s": "I would like a small discount for my next visit. I accept a 10 percent discount."
+        }
+      ]
+    },
+    {
+      "t": "Thắc mắc về thời gian giao hàng",
+      "e": [
+        {
+          "p": "When will my order arrive?",
+          "m": "Hỏi ngày/giờ giao hàng. Nói bạn có cần giao gấp không.",
+          "h": "Use 'When will it arrive?' and 'I need it + time'.",
+          "s": "When will my order arrive? I need it by tomorrow."
+        },
+        {
+          "p": "Delivery is scheduled for Tuesday.",
+          "m": "Xác nhận bạn có ở nhà vào ngày đó không. Nếu không, đề xuất ngày khác.",
+          "h": "Use 'I will be home' or 'I will not be home' and 'I need + day'.",
+          "s": "I will not be home on Tuesday. I need delivery on Wednesday."
+        },
+        {
+          "p": "We are running late today.",
+          "m": "Nói bạn có thể chờ thêm bao lâu. Nói nếu bạn muốn hủy hay tiếp tục chờ.",
+          "h": "Use 'I can wait + time' or 'I want to cancel'.",
+          "s": "I can wait for 30 minutes. If late more, I want to cancel."
+        },
+        {
+          "p": "Can you leave it at my neighbor?",
+          "m": "Nói bạn có đồng ý để giao cho hàng xóm không. Nếu đồng ý, nói vị trí ngắn.",
+          "h": "Use 'Yes, please' and 'Leave it with + person / at + place'.",
+          "s": "Yes, please leave it with my neighbor. Leave it at number 12 next door."
+        },
+        {
+          "p": "Your package is out for delivery now.",
+          "m": "Nói bạn sẽ làm gì khi nhận được hàng. Nói bạn có cần hóa đơn nữa không.",
+          "h": "Use 'I will + V' and 'I need / I don't need + N'.",
+          "s": "I will check the package when it arrives. I need the paper receipt, please."
+        }
+      ]
+    },
+    {
+      "t": "Sản phẩm thiếu phụ kiện",
+      "e": [
+        {
+          "p": "The box has no charger.",
+          "m": "Nói phụ kiện thiếu là gì. Nói bạn muốn cửa hàng gửi phụ kiện hay đổi sản phẩm.",
+          "h": "Use 'There is no + N' and 'I want + N' or 'I want to + V'.",
+          "s": "There is no charger in the box. I want the charger sent to me."
+        },
+        {
+          "p": "Do you have the accessory number?",
+          "m": "Cho mã phụ kiện hoặc nói bạn không biết. Nói bạn muốn nhân viên làm gì.",
+          "h": "Use 'It is number...' or 'I don't know' and 'Please + V'.",
+          "s": "I don't know the accessory number. Please send the correct charger."
+        },
+        {
+          "p": "We can send it by express mail.",
+          "m": "Nói bạn có đồng ý gửi nhanh không. Nếu không, đề xuất cách khác.",
+          "h": "Use 'Yes, I agree' or 'No, I prefer + N'.",
+          "s": "Yes, I agree to express mail. I prefer next-day delivery."
+        },
+        {
+          "p": "I am sending a replacement part today.",
+          "m": "Hỏi bạn có cần hướng dẫn lắp hay không. Nếu cần, yêu cầu video hoặc mô tả đơn giản.",
+          "h": "Use 'Yes, I need' or 'No, I don't need' and 'Please send + N'.",
+          "s": "Yes, I need a short video to install it. Please send the video link."
+        },
+        {
+          "p": "We apologize for the mistake.",
+          "m": "Nói bạn mong muốn bồi thường (discount/free accessory) hay không. Nếu có, nêu ngắn.",
+          "h": "Use 'I want + N' and simple words like 'a discount' or 'a free item'.",
+          "s": "I want a free accessory as compensation. A small discount is okay too."
+        }
+      ]
+    },
+    {
+      "t": "Ôn tập: Xử lý khi hàng giao sai",
+      "e": [
+        {
+          "p": "You received the wrong item, right?",
+          "m": "Xác nhận bạn nhận hàng sai hay không. Nói bạn muốn đổi sang hàng đúng hay hoàn tiền.",
+          "h": "Use 'Yes, I received' / 'No, I did not' and 'I want + N'.",
+          "s": "Yes, I received the wrong item. I want the correct item sent to me."
+        },
+        {
+          "p": "We can collect the wrong item tomorrow.",
+          "m": "Nói bạn có ở nhà ngày mai hay không. Nếu không, đề xuất ngày khác.",
+          "h": "Use 'I will be' / 'I will not be' and 'I need + day'.",
+          "s": "I will be home tomorrow. If not, please come on Saturday."
+        },
+        {
+          "p": "Do you want a refund or a replacement?",
+          "m": "Chọn hoàn tiền hoặc đổi hàng. Nói lý do ngắn nếu chọn hoàn tiền.",
+          "h": "Use 'I want a refund' or 'I want a replacement' and 'because...'.",
+          "s": "I want a refund because I need the money now. Please process it quickly."
+        },
+        {
+          "p": "Please send a photo of the wrong item.",
+          "m": "Nói bạn có ảnh hay không. Nếu có, nói bạn sẽ gửi bằng cách nào.",
+          "h": "Use 'I have a photo' and 'I will send by email' or 'I will send now'.",
+          "s": "I have a photo of the wrong item. I will send it by email now."
+        },
+        {
+          "p": "Thank you, we will fix this issue.",
+          "m": "Nói bạn mong muốn công ty làm gì tiếp theo. Nói thời gian bạn muốn nhận phản hồi.",
+          "h": "Use 'Please + V' and 'in + number + days' or 'today/tomorrow'.",
+          "s": "Please send the correct item within three days. I want a confirmation email today."
+        }
+      ]
+    },
+    {
+      "t": "Ôn tập: Khách hàng không hài lòng với dịch vụ",
+      "e": [
+        {
+          "p": "Many customers complained about slow service.",
+          "m": "Nói bạn có trải nghiệm chậm không. Nói bạn muốn cửa hàng cải thiện gì.",
+          "h": "Use 'I had' and 'I want + N' or 'Please + V'.",
+          "s": "I had slow service yesterday. I want faster service and better staff training."
+        },
+        {
+          "p": "We can offer you a free drink next time.",
+          "m": "Chọn nhận quà hay không. Nói bạn có chấp nhận lời xin lỗi này không.",
+          "h": "Use 'Yes, I accept' or 'No, thank you' and short reason.",
+          "s": "Yes, I accept the free drink. Thank you, but I also want an apology."
+        },
+        {
+          "p": "Would you like to write a short review?",
+          "m": "Nói bạn có muốn viết đánh giá hay không. Nếu có, nói bạn sẽ viết ngắn về gì.",
+          "h": "Use 'Yes, I will' or 'No, I will not' and 'about + N'.",
+          "s": "Yes, I will write a short review. I will write about the slow service."
+        },
+        {
+          "p": "We will train our team this week.",
+          "m": "Nói bạn có muốn quay lại cửa hàng không sau khi đào tạo. Nếu có, cho thời gian ngắn.",
+          "h": "Use 'I will come back' or 'I will not come back' and 'in + time'.",
+          "s": "I will come back after the training. I can come in one week."
+        },
+        {
+          "p": "Can we contact you for more details?",
+          "m": "Nói bạn có cho phép liên hệ không. Nếu có, cho thời gian hoặc cách liên hệ.",
+          "h": "Use 'Yes, you can' and 'Call me at + number' or 'Email me'.",
+          "s": "Yes, you can contact me. Please call me in the afternoon."
+        }
+      ]
+    },
+    {
+      "t": "Ôn tập: Ghi nhận thông tin và hẹn lịch sửa",
+      "e": [
+        {
+          "p": "Please tell me your full name.",
+          "m": "Cho tên đầy đủ (dùng placeholder nếu tên bạn). Nói thêm số điện thoại ngắn nếu cần.",
+          "h": "Use 'My name is [studentName]' and 'My phone number is...'.",
+          "s": "My name is [studentName]. My phone number is 0901234567."
+        },
+        {
+          "p": "We will send a technician on Tuesday morning.",
+          "m": "Nói bạn có thể ở nhà buổi sáng không. Nếu không, đề nghị thời gian khác.",
+          "h": "Use 'I will be home' or 'I cannot be home' and 'I need + time'.",
+          "s": "I cannot be home Tuesday morning. I need the technician on Wednesday afternoon."
+        },
+        {
+          "p": "Can you describe the problem again?",
+          "m": "Mô tả vấn đề ngắn gọn (what happens/where). Nói bạn có thấy vấn đề thường xuyên không.",
+          "h": "Use 'It is + broken / It is not working' and 'It happens often / sometimes'.",
+          "s": "The machine is not working in the morning. It happens every day."
+        },
+        {
+          "p": "We noted your address and problem.",
+          "m": "Xác nhận thông tin đã đúng hay chưa. Nếu sai, sửa thông tin ngắn.",
+          "h": "Use 'Yes, it is correct' or 'No, it should be...' and give correction.",
+          "s": "No, the address is not correct. It should be 12 Nguyen Street."
+        },
+        {
+          "p": "Our technician will fix it and call you after.",
+          "m": "Nói bạn muốn nhân viên gọi trước khi đến hay không. Nếu có, cho thời gian gọi phù hợp.",
+          "h": "Use 'Yes, please call' or 'No, no need' and 'in the morning / at 9am'.",
+          "s": "Yes, please call me before arriving. Call me at 9am, please."
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,530 @@
+{
+  "l": 2,
+  "d": [
+    {
+      "t": "Gặp giáo viên mới",
+      "e": [
+        {
+          "p": "What's your name?",
+          "m": "Nói tên của bạn. Nói bạn học trường nào.",
+          "h": "My name is + tên. I study at + trường.",
+          "s": "My name is [studentName]. I study at [studentSchool]."
+        },
+        {
+          "p": "How old are you?",
+          "m": "Nói tuổi của bạn. Nói bạn học lớp mấy.",
+          "h": "I am + tuổi. I am in + lớp.",
+          "s": "I am [studentAge] years old. I am in class 6."
+        },
+        {
+          "p": "Where are you from?",
+          "m": "Nói thành phố bạn sống. Nói cách bạn đến trường.",
+          "h": "I am from + nơi. I go to school by + phương tiện.",
+          "s": "I am from [studentCity]. I go to school by bike."
+        },
+        {
+          "p": "Do you like this class?",
+          "m": "Nói bạn có thích lớp không. Nói một lý do đơn giản.",
+          "h": "Yes/No + because + lý do ngắn hoặc S + V(s).",
+          "s": "Yes, I like this class. It is fun."
+        },
+        {
+          "p": "What are you doing now in class?",
+          "m": "Nói bạn đang làm gì bây giờ. Nói bạn có thường làm việc này không.",
+          "h": "S + am/is/are + V-ing. S + V(s) + adv of freq.",
+          "s": "I am reading a book. I often read in class."
+        }
+      ]
+    },
+    {
+      "t": "Giới thiệu bản thân trước lớp",
+      "e": [
+        {
+          "p": "Can you tell us your name and age?",
+          "m": "Nói tên. Nói tuổi.",
+          "h": "My name is + tên. I am + tuổi years old.",
+          "s": "My name is [studentName]. I am [studentAge] years old."
+        },
+        {
+          "p": "Where do you study?",
+          "m": "Nói trường bạn học. Nói bạn học môn nào thích nhất.",
+          "h": "I study at + trường. I like + môn.",
+          "s": "I study at [studentSchool]. I like English."
+        },
+        {
+          "p": "What do you like to do after school?",
+          "m": "Nói một hoạt động bạn thích. Nói bạn làm việc đó thường xuyên hay không.",
+          "h": "I like + V-ing/N. S + V(s) + adv of freq.",
+          "s": "I like to play football. I usually play after school."
+        },
+        {
+          "p": "Do you have brothers or sisters?",
+          "m": "Nói bạn có anh/chị/em không. Nói họ lớn hay nhỏ hơn bạn.",
+          "h": "I have + số + brother/sister. He/She is + older/younger.",
+          "s": "I have one sister. She is younger than me."
+        },
+        {
+          "p": "What are you doing this morning?",
+          "m": "Nói bạn đang làm gì sáng nay. Nói bạn có thường làm điều đó vào buổi sáng không.",
+          "h": "S + am/is/are + V-ing. S + V(s) + adv of freq.",
+          "s": "I am doing my homework. I always do it in the morning."
+        }
+      ]
+    },
+    {
+      "t": "Hỏi về bài tập về nhà",
+      "e": [
+        {
+          "p": "Is there any homework today?",
+          "m": "Nói có hay không có bài tập. Nói bạn sẽ làm bài tập khi nào.",
+          "h": "There is/There is not + homework. I will + V / I will do it + thời gian.",
+          "s": "There is homework today. I will do it after school."
+        },
+        {
+          "p": "What is the homework?",
+          "m": "Nói tên bài tập. Nói bạn cần bao nhiêu thời gian.",
+          "h": "It is + bài tập. I need + số + minutes/hours.",
+          "s": "It is a reading exercise. I need thirty minutes."
+        },
+        {
+          "p": "Can you help me with question three?",
+          "m": "Nói bạn có thể giúp không. Nói bạn sẽ làm gì để giúp.",
+          "h": "Yes, I can/No, I can't. I will + V / I can show + cách.",
+          "s": "Yes, I can help. I will explain the answer."
+        },
+        {
+          "p": "How often do you check homework online?",
+          "m": "Nói bạn có thường kiểm tra bài online không. Nói khi nào bạn kiểm tra.",
+          "h": "S + V(s) + adv of freq. I check + when/time.",
+          "s": "I often check homework online. I check it every evening."
+        },
+        {
+          "p": "Where should we submit the homework?",
+          "m": "Nói nơi nộp bài. Nói bạn sẽ nộp bằng cách nào.",
+          "h": "Submit at/on + nơi. I will + V to submit.",
+          "s": "Submit it online on the class site. I will upload the file."
+        }
+      ]
+    },
+    {
+      "t": "Hỏi về thời khóa biểu",
+      "e": [
+        {
+          "p": "What time does class start?",
+          "m": "Nói giờ bắt đầu lớp. Nói bạn thường đến lớp trễ hay đúng giờ.",
+          "h": "Class starts at + giờ. I usually + adv of freq + arrive + time.",
+          "s": "Class starts at 8 o'clock. I usually arrive on time."
+        },
+        {
+          "p": "Which days do we have English?",
+          "m": "Nói ngày có môn tiếng Anh. Nói bạn có thường học tiếng Anh các ngày đó không.",
+          "h": "We have English on + days. I + adv of freq + study on those days.",
+          "s": "We have English on Monday and Wednesday. I usually study on those days."
+        },
+        {
+          "p": "How long is each lesson?",
+          "m": "Nói thời lượng mỗi tiết. Nói bạn có nghỉ giữa giờ hay không.",
+          "h": "Each lesson is + số + minutes. There is/There is not + break.",
+          "s": "Each lesson is forty-five minutes. There is a short break."
+        },
+        {
+          "p": "Do we have art class every week?",
+          "m": "Nói có hay không. Nói bạn có thích art class không và vì sao ngắn gọn.",
+          "h": "Yes/No, we + V. I like/dislike + art because + lý do ngắn.",
+          "s": "No, we don't have art every week. I like art because it is creative."
+        },
+        {
+          "p": "Where is the timetable on the wall?",
+          "m": "Nói vị trí của thời khóa biểu. Nói có bao nhiêu cột/ô trên đó nếu biết.",
+          "h": "It is + preposition + place. There are + số + columns/boxes.",
+          "s": "It is next to the notice board. There are six columns."
+        }
+      ]
+    },
+    {
+      "t": "Xin phép rời lớp",
+      "e": [
+        {
+          "p": "May I go to the bathroom?",
+          "m": "Xin phép rời lớp. Nêu bạn sẽ đi ngay hay trở lại sau.",
+          "h": "May I + V? I will + V / I will come back + soon.",
+          "s": "May I go to the bathroom? I will come back soon."
+        },
+        {
+          "p": "Can I go out for a phone call?",
+          "m": "Xin phép ra ngoài. Nói bạn ra ngoài bao lâu.",
+          "h": "Can I + V? I will be + thời gian.",
+          "s": "Can I go out for a phone call? I will be back in five minutes."
+        },
+        {
+          "p": "I feel sick. Can I go home?",
+          "m": "Xin phép về nhà. Nói bạn sẽ làm gì khi về.",
+          "h": "Can I + V? I will + V when I get home.",
+          "s": "Can I go home? I will rest and drink water."
+        },
+        {
+          "p": "Is it OK if I leave early today?",
+          "m": "Xin phép về sớm. Nói lý do ngắn gọn.",
+          "h": "Is it OK if I + V? Because + lý do.",
+          "s": "Is it OK if I leave early today? Because I have a dentist appointment."
+        },
+        {
+          "p": "Who should I tell if I leave the classroom?",
+          "m": "Hỏi ai cần báo. Nói bạn sẽ báo cho người đó như thế nào.",
+          "h": "Ask 'Who should I tell?'. I will tell + người + by + cách.",
+          "s": "You should tell the teacher. I will tell her before I leave."
+        }
+      ]
+    },
+    {
+      "t": "Nhờ giúp khi không hiểu",
+      "e": [
+        {
+          "p": "I don't understand this word. Can you explain?",
+          "m": "Nói bạn có hiểu hay không. Yêu cầu giải thích một cách ngắn gọn.",
+          "h": "I don't understand + từ. Can you explain + short?",
+          "s": "I don't understand this word. Please explain it simply."
+        },
+        {
+          "p": "Can you show me how to do number two?",
+          "m": "Hỏi nhờ chỉ bài số hai. Nói bạn sẽ làm gì sau khi hiểu.",
+          "h": "Can you show me + how to + V? I will + V after that.",
+          "s": "Can you show me how to do number two? I will finish the exercise then."
+        },
+        {
+          "p": "What does this sentence mean?",
+          "m": "Hỏi nghĩa câu. Nói một cách ngắn bạn hiểu được hay chưa.",
+          "h": "What does + câu + mean? I understand / I don't understand + lý do ngắn.",
+          "s": "What does this sentence mean? I don't understand it well."
+        },
+        {
+          "p": "Could you repeat the instructions, please?",
+          "m": "Yêu cầu lặp lại hướng dẫn. Nói bạn cần nghe chậm hơn hay ví dụ.",
+          "h": "Could you repeat + noun? I need + to hear slowly / an example.",
+          "s": "Could you repeat the instructions, please? Please speak slowly."
+        },
+        {
+          "p": "I need more practice on this. Any tips?",
+          "m": "Nói bạn cần luyện thêm. Hỏi một tip ngắn để luyện.",
+          "h": "I need + N. Ask for one short tip: Try + V-ing / Read + N.",
+          "s": "I need more practice on this. Try reading the examples every day."
+        }
+      ]
+    },
+    {
+      "t": "Mô tả đồ dùng trong lớp",
+      "e": [
+        {
+          "p": "Where is the teacher's desk?",
+          "m": "Nói vị trí bàn giáo viên. Nói có gì trên bàn (1 vật).",
+          "h": "It is + preposition + place. There is + a/an + object on it.",
+          "s": "It is at the front of the room. There is a book on it."
+        },
+        {
+          "p": "How many chairs are in the classroom?",
+          "m": "Nói số ghế. Nói có ghế trống hay không.",
+          "h": "There are + số + chairs. There is/are + empty + chair(s).",
+          "s": "There are twenty chairs. There are some empty chairs."
+        },
+        {
+          "p": "Is the whiteboard clean?",
+          "m": "Trả lời có hay không. Nói bạn sẽ làm gì nếu nó bẩn.",
+          "h": "Yes/No, it is/it isn't. I will + V to clean it / I will tell + someone.",
+          "s": "No, it isn't clean. I will clean it after class."
+        },
+        {
+          "p": "What color are the classroom walls?",
+          "m": "Nói màu tường. Nói bạn có thích màu đó không và vì sao ngắn.",
+          "h": "The walls are + color. I like/don't like + because + short reason.",
+          "s": "The walls are white. I like it because it is bright."
+        },
+        {
+          "p": "Where do you put your school bag?",
+          "m": "Nói nơi bạn để cặp. Nói bạn có thường để nó trên ghế hay dưới đất.",
+          "h": "I put my bag + preposition + place. I usually + adv of freq + place.",
+          "s": "I put my bag under my desk. I usually leave it there."
+        }
+      ]
+    },
+    {
+      "t": "Nói về thói quen học",
+      "e": [
+        {
+          "p": "Do you study English every day?",
+          "m": "Nói bạn có học mỗi ngày không. Nói bạn học lúc nào.",
+          "h": "Yes/No. I + adv of freq + study + time.",
+          "s": "Yes, I study English every day. I study in the evening."
+        },
+        {
+          "p": "How do you study for tests?",
+          "m": "Nói một cách bạn ôn. Nói bạn có thường ôn cùng bạn bè không.",
+          "h": "I + V (study) by + method. I often/sometimes study with friends.",
+          "s": "I study by reading notes. I sometimes study with friends."
+        },
+        {
+          "p": "What do you need for class every day?",
+          "m": "Nói một đồ vật bạn cần. Nói bạn có luôn mang theo không.",
+          "h": "I need + N. I always/often/sometimes + bring it.",
+          "s": "I need a notebook. I always bring it."
+        },
+        {
+          "p": "Do you wake up early for school?",
+          "m": "Nói có hay không. Nói bạn thường dậy mấy giờ.",
+          "h": "Yes/No. I usually wake up at + time.",
+          "s": "Yes, I wake up early. I usually wake up at 6:30."
+        },
+        {
+          "p": "How often do you do homework with classmates?",
+          "m": "Nói tần suất. Nói bạn làm với họ ở đâu.",
+          "h": "S + V(s) + adv of freq. We do it + place.",
+          "s": "We often do homework together. We do it at school after class."
+        }
+      ]
+    },
+    {
+      "t": "Làm việc nhóm",
+      "e": [
+        {
+          "p": "Can we work in pairs for this task?",
+          "m": "Trả lời có hoặc không. Nói bạn muốn làm với ai (1 người).",
+          "h": "Yes/No. I want to work with + person/name/peer.",
+          "s": "Yes, we can work in pairs. I want to work with my friend next to me."
+        },
+        {
+          "p": "Who will read the instructions aloud?",
+          "m": "Chỉ một người. Nói người đó sẽ làm gì tiếp theo.",
+          "h": "Name or 'I will'. He/She will + V next.",
+          "s": "I will read the instructions aloud. Then I will explain them to the group."
+        },
+        {
+          "p": "How many minutes do we have for the activity?",
+          "m": "Nói số phút. Nói bạn sẽ dùng thời gian như thế nào ngắn gọn.",
+          "h": "We have + số + minutes. I will + V during that time.",
+          "s": "We have ten minutes. I will write the answers quickly."
+        },
+        {
+          "p": "Can you help me with this part?",
+          "m": "Yêu cầu giúp phần cụ thể. Nói bạn sẽ làm phần nào sau khi được giúp.",
+          "h": "Can you help me with + phần? I will + V afterwards.",
+          "s": "Can you help me with this part? I will check the other answers."
+        },
+        {
+          "p": "Should we present our work to the class?",
+          "m": "Trả lời nên hay không. Nói ai sẽ nói phần giới thiệu.",
+          "h": "Yes/No. Name + will + V for introduction.",
+          "s": "Yes, we should present our work. John will give the introduction."
+        }
+      ]
+    },
+    {
+      "t": "Nói về sở thích học môn",
+      "e": [
+        {
+          "p": "Which subject do you like most?",
+          "m": "Nói môn bạn thích nhất. Nói vì sao ngắn gọn.",
+          "h": "I like + môn. Because + lý do ngắn.",
+          "s": "I like math the most. Because it is interesting."
+        },
+        {
+          "p": "Do you enjoy group projects?",
+          "m": "Nói bạn có thích làm nhóm không. Nói một lý do ngắn.",
+          "h": "Yes/No. I like/dislike them because + short reason.",
+          "s": "Yes, I enjoy group projects. They are fun and helpful."
+        },
+        {
+          "p": "How often do you practice speaking English?",
+          "m": "Nói tần suất. Nói bạn thực hành ở đâu.",
+          "h": "S + V(s) + adv of freq. I practice + place.",
+          "s": "I often practice speaking English. I practice in class and at home."
+        },
+        {
+          "p": "What do you want to learn next in class?",
+          "m": "Nói một chủ đề bạn muốn học. Nói vì sao bạn muốn học nó.",
+          "h": "I want to learn + topic. Because + lý do ngắn.",
+          "s": "I want to learn more vocabulary. Because it helps me speak better."
+        },
+        {
+          "p": "Do you usually finish classwork in class?",
+          "m": "Nói bạn có thường hoàn thành không. Nói bạn làm gì nếu không xong.",
+          "h": "I usually/sometimes/never + V. If not, I will + V later.",
+          "s": "I usually finish classwork in class. If not, I will finish it at home."
+        }
+      ]
+    },
+    {
+      "t": "Hỏi về số lượng và vật trong lớp",
+      "e": [
+        {
+          "p": "How many windows are there in the room?",
+          "m": "Nói số lượng cửa sổ. Nói cửa sổ ở đâu (trước/sau/bên).",
+          "h": "There are + số + windows. They are + vị trí.",
+          "s": "There are three windows. They are on the left side."
+        },
+        {
+          "p": "Are there any computers in our class?",
+          "m": "Trả lời có hay không. Nói có bao nhiêu nếu có.",
+          "h": "Yes, there are + số / No, there aren't any.",
+          "s": "Yes, there are two computers. They are on the teacher's desk."
+        },
+        {
+          "p": "How many students are in your group?",
+          "m": "Nói số thành viên nhóm. Nói bạn có phải là trưởng nhóm không.",
+          "h": "There are + số + students. I am / I am not the leader.",
+          "s": "There are four students in my group. I am not the leader."
+        },
+        {
+          "p": "Is there any water in the bottle?",
+          "m": "Trả lời có hay không. Nói bạn sẽ làm gì với chai nước.",
+          "h": "Yes/No, there is/there isn't. I will + V (drink/put away).",
+          "s": "No, there isn't any water in the bottle. I will fill it later."
+        },
+        {
+          "p": "Where are the pencils?",
+          "m": "Nói vị trí bút chì. Nói có đủ cho mọi người không.",
+          "h": "They are + preposition + place. There are enough / not enough + for everyone.",
+          "s": "The pencils are in the box on the table. There are enough for everyone."
+        }
+      ]
+    },
+    {
+      "t": "Mô tả hoạt động trong lớp hôm nay",
+      "e": [
+        {
+          "p": "What are we doing in class today?",
+          "m": "Nói hoạt động chính hôm nay. Nói bạn có thích hoạt động không.",
+          "h": "We are + V-ing. I like/don't like + it because + short reason.",
+          "s": "We are doing a reading activity today. I like it because it is easy."
+        },
+        {
+          "p": "Who is leading the activity now?",
+          "m": "Nói ai đang dẫn. Nói họ đang làm gì cụ thể.",
+          "h": "Name + is + V-ing. He/She is + V-ing + cụ thể.",
+          "s": "Mr. Tran is leading the activity. He is explaining the task."
+        },
+        {
+          "p": "Are students working quietly?",
+          "m": "Trả lời có hay không. Nói bạn làm gì nếu lớp ồn.",
+          "h": "Yes/No, they are/are not. I will + V if it's noisy.",
+          "s": "No, they are not working quietly. I will ask them to be quiet."
+        },
+        {
+          "p": "What do we need for this lesson?",
+          "m": "Nói hai vật cần thiết. Nói bạn có cả hai không.",
+          "h": "We need + item1 and + item2. I have/don't have them.",
+          "s": "We need a notebook and a pencil. I have both."
+        },
+        {
+          "p": "Will we have a quiz after this activity?",
+          "m": "Nói có hay không. Nói bạn sẽ làm gì để chuẩn bị.",
+          "h": "Yes/No, we will/won't. I will + V to prepare.",
+          "s": "No, we won't have a quiz today. I will review my notes anyway."
+        }
+      ]
+    },
+    {
+      "t": "Ôn tập: Giao tiếp cơ bản với giáo viên",
+      "e": [
+        {
+          "p": "Can you repeat your name, please?",
+          "m": "Nói lại tên. Nói bạn có thích tên đó không và vì sao ngắn.",
+          "h": "My name is + tên. I like/don't like it because + short reason.",
+          "s": "My name is [studentName]. I like it because it is simple."
+        },
+        {
+          "p": "Do you understand today's homework?",
+          "m": "Trả lời có hay không. Nói bạn sẽ làm bài như thế nào.",
+          "h": "Yes/No. I will + V to do it.",
+          "s": "Yes, I understand today's homework. I will do it after dinner."
+        },
+        {
+          "p": "What time will you come to class tomorrow?",
+          "m": "Nói giờ bạn sẽ đến. Nói bạn có thường đến giờ đó không.",
+          "h": "I will come at + time. I usually/always/sometimes come at that time.",
+          "s": "I will come at 7:50. I usually come at that time."
+        },
+        {
+          "p": "Who can I ask if I have a problem with the lesson?",
+          "m": "Nói người bạn sẽ hỏi. Nói bạn sẽ hỏi họ ngay hay sau giờ học.",
+          "h": "Ask + person. I will ask + them + now/after class.",
+          "s": "I can ask the teacher. I will ask her after class."
+        },
+        {
+          "p": "Should I bring any book for tomorrow?",
+          "m": "Hỏi có cần mang sách không. Nói sách nào nếu cần.",
+          "h": "Yes/No. Bring + tên sách.",
+          "s": "Yes, bring your English book. Bring book number two."
+        }
+      ]
+    },
+    {
+      "t": "Ôn tập: Hỏi & trả lời về lớp học",
+      "e": [
+        {
+          "p": "Where is the library?",
+          "m": "Nêu vị trí thư viện. Nói bạn có đi thường xuyên không.",
+          "h": "It is + preposition + place. I often/sometimes/never go there.",
+          "s": "It is next to the sports hall. I often go there."
+        },
+        {
+          "p": "How many lessons do we have on Friday?",
+          "m": "Nói số tiết. Nói tiết nào bạn thích nhất trong ngày đó.",
+          "h": "We have + số + lessons. I like + tiết + because + short reason.",
+          "s": "We have five lessons on Friday. I like the last lesson because it is fun."
+        },
+        {
+          "p": "Is the music teacher here today?",
+          "m": "Trả lời có hay không. Nói bạn sẽ làm gì nếu thầy/cô vắng.",
+          "h": "Yes/No, he/she is/is not here. I will + V if absent.",
+          "s": "No, the music teacher is not here today. I will read quietly."
+        },
+        {
+          "p": "Can I borrow a pencil?",
+          "m": "Xin mượn bút chì. Nói bạn sẽ trả lại khi nào.",
+          "h": "Can I borrow + N? I will return it + time.",
+          "s": "Can I borrow a pencil? I will return it after class."
+        },
+        {
+          "p": "What do we do if we finish early?",
+          "m": "Hỏi việc làm khi xong sớm. Nói bạn có thường làm gì.",
+          "h": "If we finish early, we + V. I usually + V.",
+          "s": "If we finish early, we read a book. I usually read quietly."
+        }
+      ]
+    },
+    {
+      "t": "Ôn tập: Các tình huống thực tế trong lớp",
+      "e": [
+        {
+          "p": "Excuse me, where is my desk?",
+          "m": "Hỏi vị trí bàn của bạn. Nói bàn có gì trên đó.",
+          "h": "It is + preposition + place. There is + an object on it.",
+          "s": "Your desk is near the window. There is a pencil case on it."
+        },
+        {
+          "p": "Can you speak slower, please?",
+          "m": "Yêu cầu nói chậm. Nói bạn hiểu được đến mức nào (yes/no).",
+          "h": "Please speak slower. I understand / I don't understand well.",
+          "s": "Please speak slower. I don't understand well."
+        },
+        {
+          "p": "Who is absent today?",
+          "m": "Nói ai vắng. Nói bạn có lo lắng cho họ không ngắn gọn.",
+          "h": "Name + is absent. I am / I am not worried because + short reason.",
+          "s": "Linh is absent today. I am a little worried because she is sick."
+        },
+        {
+          "p": "Do we need to bring our project tomorrow?",
+          "m": "Trả lời có hay không. Nói bạn đã chuẩn bị xong hay chưa.",
+          "h": "Yes/No. I have / I haven't finished it yet.",
+          "s": "Yes, we need to bring our project tomorrow. I haven't finished it yet."
+        },
+        {
+          "p": "May I turn on the fan?",
+          "m": "Xin phép bật quạt. Nói bạn sẽ tắt khi rời đi hay không.",
+          "h": "May I + V? I will turn it off when I leave / I won't.",
+          "s": "May I turn on the fan? I will turn it off when I leave."
+        }
+      ]
+    }
+  ]
+}

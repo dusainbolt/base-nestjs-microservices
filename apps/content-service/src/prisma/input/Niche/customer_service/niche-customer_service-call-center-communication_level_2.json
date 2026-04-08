@@ -1,0 +1,565 @@
+{
+  "l": 2,
+  "d": [
+    {
+      "t": "Chào hỏi và xác nhận thông tin cơ bản",
+      "e": [
+        {
+          "p": "Hello, thank you for calling. How can I help you?",
+          "m": "Cho biết bạn [studentName] đang gọi và cần trợ giúp với dịch vụ internet.",
+          "h": "S + be + V-ing, I need + N",
+          "s": "This is [studentName]. I need help with my internet service."
+        },
+        {
+          "p": "Okay, [studentName]. What is the problem?",
+          "m": "Mô tả rằng internet của bạn đang rất chậm và đôi khi không hoạt động.",
+          "h": "S + be + adj, S + V(s/es)",
+          "s": "My internet is very slow. Sometimes it does not work."
+        },
+        {
+          "p": "I see. Can I have your account number, please?",
+          "m": "Nói rằng bạn không có số tài khoản ngay bây giờ và hỏi có thể dùng tên và địa chỉ không.",
+          "h": "I do not have, Can I use + N?",
+          "s": "I do not have my account number now. Can I use my name and address?"
+        },
+        {
+          "p": "Yes, you can. What is your address?",
+          "m": "Cho biết địa chỉ của bạn là [studentCity] và hỏi cô ấy có đang ghi lại không.",
+          "h": "S + be + V-ing, My address is + N",
+          "s": "My address is [studentCity]. Are you writing it down?"
+        },
+        {
+          "p": "Thank you, I have it. I am checking your account now. Please wait a moment.",
+          "m": "Xác nhận bạn đang đợi và hỏi có cần làm gì khác không.",
+          "h": "I am waiting, Do you need...?",
+          "s": "I am waiting. Do you need anything else from me?"
+        }
+      ]
+    },
+    {
+      "t": "Hiểu và giải quyết các yêu cầu đơn giản",
+      "e": [
+        {
+          "p": "Hello, thank you for calling. How can I help you today?",
+          "m": "Nói bạn muốn biết hóa đơn tháng này của mình là bao nhiêu và nó có đúng không.",
+          "h": "I want to know + N, Is it + adj?",
+          "s": "I want to know my bill this month. Is it correct?"
+        },
+        {
+          "p": "Okay. What is your account number?",
+          "m": "Cho biết số tài khoản của bạn là 12345 và bạn cần biết tổng số tiền.",
+          "h": "My account number is + số, I need to know + N",
+          "s": "My account number is 12345. I need to know the total amount."
+        },
+        {
+          "p": "Thank you. I am checking your bill now. It is 50 dollars this month.",
+          "m": "Xác nhận hóa đơn là 50 đô la và hỏi tại sao nó lại cao.",
+          "h": "It is + số + N, Why is it + adj?",
+          "s": "It is 50 dollars. Why is it high?"
+        },
+        {
+          "p": "You used more data this month. Your normal bill is 40 dollars.",
+          "m": "Nói rằng bạn hiểu và sẽ cố gắng dùng ít dữ liệu hơn vào tháng tới.",
+          "h": "I understand, I will try to + V",
+          "s": "I understand. I will try to use less data next month."
+        },
+        {
+          "p": "Is there anything else I can help you with today?",
+          "m": "Cảm ơn và nói không còn gì khác nữa. Chúc họ một ngày tốt lành.",
+          "h": "Thank you, nothing else, Have a good day",
+          "s": "Thank you, nothing else. Have a good day!"
+        }
+      ]
+    },
+    {
+      "t": "Xử lý phàn nàn về dịch vụ",
+      "e": [
+        {
+          "p": "Thank you for calling. How may I help you?",
+          "m": "Nói bạn có một vấn đề với TV của mình và nó không hoạt động.",
+          "h": "I have a problem with + N, It is not working",
+          "s": "I have a problem with my TV. It is not working."
+        },
+        {
+          "p": "I'm sorry to hear that. Is it completely black or does it show something?",
+          "m": "Mô tả TV hoàn toàn màu đen và bạn không thể xem bất cứ thứ gì.",
+          "h": "It is + adj, I cannot + V",
+          "s": "It is completely black. I cannot watch anything."
+        },
+        {
+          "p": "Okay. When did this problem start?",
+          "m": "Nói rằng vấn đề bắt đầu vào tối hôm qua và bạn đã thử bật/tắt.",
+          "h": "The problem started + time, I tried to + V",
+          "s": "The problem started last night. I tried to turn it on and off."
+        },
+        {
+          "p": "I see. Are there any loose cables behind the TV?",
+          "m": "Nói rằng bạn đang kiểm tra và không thấy dây cáp nào bị lỏng.",
+          "h": "I am checking, I do not see + N",
+          "s": "I am checking now. I do not see any loose cables."
+        },
+        {
+          "p": "Thank you for checking. I will send a technician to your house tomorrow. Is that okay?",
+          "m": "Xác nhận ngày mai là được và hỏi technician sẽ đến vào khoảng mấy giờ.",
+          "h": "Tomorrow is okay, What time will...?",
+          "s": "Tomorrow is okay. What time will he come?"
+        }
+      ]
+    },
+    {
+      "t": "Đặt lịch hẹn hoặc yêu cầu thông tin",
+      "e": [
+        {
+          "p": "Customer service, this is Sarah. How can I help you?",
+          "m": "Nói bạn muốn đặt lịch hẹn cho việc sửa điều hòa và nó đang tạo ra tiếng ồn lớn.",
+          "h": "I want to + V, It is making + N",
+          "s": "I want to make an appointment for AC repair. It is making a loud noise."
+        },
+        {
+          "p": "Okay, I can help you with that. When is a good time for the technician to visit?",
+          "m": "Nói thứ Ba tuần tới là tốt và bạn thường rảnh vào buổi sáng.",
+          "h": "Next Tuesday is good, I am usually free + time",
+          "s": "Next Tuesday is good. I am usually free in the morning."
+        },
+        {
+          "p": "How about next Tuesday at 10 AM?",
+          "m": "Xác nhận 10 AM là hoàn hảo và hỏi kỹ thuật viên có cần dụng cụ gì đặc biệt không.",
+          "h": "10 AM is perfect, Does he need + N?",
+          "s": "10 AM is perfect. Does he need any special tools?"
+        },
+        {
+          "p": "No, he brings all the necessary tools. Can I confirm your address and phone number?",
+          "m": "Xác nhận địa chỉ là [studentCity] và số điện thoại là 0123456789. Bạn cũng hỏi tên kỹ thuật viên.",
+          "h": "My address is + N, My phone number is + N, What is his name?",
+          "s": "My address is [studentCity] and my phone is 0123456789. What is the technician's name?"
+        },
+        {
+          "p": "His name is Mark. Is there anything else, [studentName]?",
+          "m": "Cảm ơn và nói không có gì khác. Bạn rất vui vì họ đã giúp đỡ.",
+          "h": "Thank you, nothing else, I am happy",
+          "s": "Thank you, nothing else. I am happy you helped me."
+        }
+      ]
+    },
+    {
+      "t": "Cung cấp thông tin sản phẩm/dịch vụ",
+      "e": [
+        {
+          "p": "Thank you for calling. How can I assist you?",
+          "m": "Nói bạn muốn hỏi về gói internet mới và bạn cần gói nhanh.",
+          "h": "I want to ask about + N, I need + N",
+          "s": "I want to ask about the new internet package. I need a fast package."
+        },
+        {
+          "p": "We have a great new package. It offers 100 Mbps for 30 dollars a month.",
+          "m": "Hỏi 100 Mbps có nhanh không và bạn có thể tải phim không.",
+          "h": "Is it fast?, Can I + V?",
+          "s": "Is 100 Mbps fast? Can I download movies with it?"
+        },
+        {
+          "p": "Yes, 100 Mbps is very fast. You can download movies easily.",
+          "m": "Nói rằng nghe có vẻ tốt và hỏi liệu có hợp đồng dài hạn nào không.",
+          "h": "That sounds good, Is there + N?",
+          "s": "That sounds good. Is there a long-term contract?"
+        },
+        {
+          "p": "No, there is no long-term contract. You can cancel any time.",
+          "m": "Hỏi bạn cần làm gì để đăng ký gói này và có cần đến văn phòng không.",
+          "h": "What do I need to do?, Do I need to + V?",
+          "s": "What do I need to do to sign up for this? Do I need to come to the office?"
+        },
+        {
+          "p": "No, you do not need to come to the office. I can set it up for you now. Just confirm your address.",
+          "m": "Xác nhận bạn muốn đăng ký và cung cấp địa chỉ của bạn ở [studentCity].",
+          "h": "I want to sign up, My address is + N",
+          "s": "I want to sign up. My address is [studentCity]."
+        }
+      ]
+    },
+    {
+      "t": "Xử lý các câu hỏi về thanh toán",
+      "e": [
+        {
+          "p": "Customer service, this is Tom. How may I help you?",
+          "m": "Nói bạn muốn hỏi về một khoản phí lạ trên hóa đơn của mình. Nó là 15 đô la.",
+          "h": "I want to ask about + N, It is + số + N",
+          "s": "I want to ask about a strange charge on my bill. It is 15 dollars."
+        },
+        {
+          "p": "Okay, I see a 15-dollar charge here. It is for a movie you rented last week.",
+          "m": "Nói bạn không nhớ thuê phim và hỏi bạn có thể kiểm tra ở đâu.",
+          "h": "I do not remember + V-ing, Where can I + V?",
+          "s": "I do not remember renting a movie. Where can I check it?"
+        },
+        {
+          "p": "You can check your rental history on our website. Do you have an online account?",
+          "m": "Xác nhận bạn có tài khoản trực tuyến và sẽ kiểm tra ngay sau cuộc gọi này.",
+          "h": "I have + N, I will check + adv of time",
+          "s": "I have an online account. I will check it after this call."
+        },
+        {
+          "p": "Great. If you still have questions, you can call us back. Anything else today?",
+          "m": "Hỏi bạn có thể trả hóa đơn của mình bằng thẻ tín dụng không.",
+          "h": "Can I + V + N + by + N?",
+          "s": "Can I pay my bill by credit card?"
+        },
+        {
+          "p": "Yes, you can pay by credit card. You can do it online or over the phone with me.",
+          "m": "Nói bạn muốn trả ngay bây giờ và hỏi làm thế nào để thực hiện. Bạn hỏi bạn có thể đọc số thẻ.",
+          "h": "I want to pay now, How can I do it?, Can I read + N?",
+          "s": "I want to pay now. Can I read you my card number?"
+        }
+      ]
+    },
+    {
+      "t": "Giải đáp thắc mắc về cài đặt hoặc lỗi kỹ thuật",
+      "e": [
+        {
+          "p": "Tech support, this is Emily. How can I help you?",
+          "m": "Nói bạn đang cài đặt một thiết bị mới và cần giúp đỡ. Bạn hỏi cách kết nối với Wi-Fi.",
+          "h": "I am installing + N, I need help, How do I + V?",
+          "s": "I am installing a new device and I need help. How do I connect it to Wi-Fi?"
+        },
+        {
+          "p": "Okay. First, you need to find the Wi-Fi button on the device. Do you see it?",
+          "m": "Xác nhận bạn thấy nút và nó nhỏ. Bạn cũng hỏi có cần nhấn giữ nó không.",
+          "h": "I see + N, It is + adj, Do I need to + V?",
+          "s": "I see the button, and it is small. Do I need to hold it?"
+        },
+        {
+          "p": "Yes, please press and hold it for three seconds. What happens then?",
+          "m": "Mô tả một đèn xanh nhấp nháy và màn hình hiển thị \"Connecting...\".",
+          "h": "A light is + V-ing, The screen shows + N",
+          "s": "A green light is flashing. The screen shows 'Connecting...'."
+        },
+        {
+          "p": "Good! Now, please open the Wi-Fi settings on your phone. Do you see a new network name?",
+          "m": "Nói bạn thấy một tên mới \"MyNewDevice\" và bạn đang chọn nó. Bạn hỏi mật khẩu là gì.",
+          "h": "I see + N, I am selecting it, What is + N?",
+          "s": "I see a new network name 'MyNewDevice'. I am selecting it now. What is the password?"
+        },
+        {
+          "p": "The password is 'password123'. Please enter it and tell me what happens.",
+          "m": "Nói bạn đã nhập mật khẩu và thiết bị đang kết nối. Bạn hỏi bây giờ bạn có thể dùng nó không.",
+          "h": "I entered + N, It is connecting, Can I use + N?",
+          "s": "I entered the password and the device is connecting. Can I use it now?"
+        }
+      ]
+    },
+    {
+      "t": "Thay đổi hoặc cập nhật thông tin tài khoản",
+      "e": [
+        {
+          "p": "Hello, thank you for calling. How can I assist you?",
+          "m": "Nói bạn muốn cập nhật số điện thoại của mình và số cũ không còn dùng được.",
+          "h": "I want to update + N, It is not working",
+          "s": "I want to update my phone number. My old number is not working."
+        },
+        {
+          "p": "Okay. What is your account number and old phone number?",
+          "m": "Cho biết số tài khoản là 98765, số cũ là 0987654321 và số mới là 0123456789.",
+          "h": "My account number is + N, My old number is + N, My new number is + N",
+          "s": "My account number is 98765. My old number is 0987654321, and my new number is 0123456789."
+        },
+        {
+          "p": "Thank you. I am updating your information now. Is your email address still [studentName]@email.com?",
+          "m": "Xác nhận địa chỉ email của bạn vẫn đúng và hỏi quá trình cập nhật mất bao lâu.",
+          "h": "My email address is correct, How long does it take?",
+          "s": "My email address is correct. How long does the update take?"
+        },
+        {
+          "p": "It is updated instantly. You can start using your new number now.",
+          "m": "Nói điều đó thật tuyệt và bạn có một câu hỏi khác. Bạn hỏi bạn có thể thay đổi địa chỉ thanh toán không.",
+          "h": "That is great, I have another question, Can I change + N?",
+          "s": "That is great. I have another question. Can I change my billing address?"
+        },
+        {
+          "p": "Yes, you can change your billing address. What is your new billing address?",
+          "m": "Cho biết địa chỉ thanh toán mới của bạn là [studentCity] và hỏi cô ấy có thể thay đổi nó ngay bây giờ không.",
+          "h": "My new billing address is + N, Can you change it now?",
+          "s": "My new billing address is [studentCity]. Can you change it now?"
+        }
+      ]
+    },
+    {
+      "t": "Thắc mắc về giờ làm việc và địa điểm",
+      "e": [
+        {
+          "p": "Hello, this is customer support. How can I help you?",
+          "m": "Nói bạn muốn đến văn phòng để trả tiền mặt và hỏi giờ làm việc của họ.",
+          "h": "I want to go to + N, I want to pay + N, What are the opening hours?",
+          "s": "I want to go to your office to pay cash. What are your opening hours?"
+        },
+        {
+          "p": "Our offices are open from 9 AM to 5 PM, Monday to Friday.",
+          "m": "Hỏi họ có mở cửa vào cuối tuần không và có văn phòng nào gần [studentCity] không.",
+          "h": "Are you open on + N?, Is there an office near + N?",
+          "s": "Are you open on the weekend? Is there an office near [studentCity]?"
+        },
+        {
+          "p": "No, we are not open on weekends. There is an office on Main Street in [studentCity].",
+          "m": "Xác nhận văn phòng ở Main Street và hỏi có xe buýt nào đi đến đó không.",
+          "h": "The office is on + N, Is there a bus to + N?",
+          "s": "The office is on Main Street. Is there a bus to that street?"
+        },
+        {
+          "p": "Yes, bus number 12 stops right in front of our office.",
+          "m": "Nói điều đó thật tiện lợi và bạn sẽ đến đó vào sáng mai. Bạn cũng hỏi có cần mang theo ID không.",
+          "h": "That is convenient, I will go + adv of time, Do I need to bring + N?",
+          "s": "That is convenient. I will go there tomorrow morning. Do I need to bring my ID?"
+        },
+        {
+          "p": "Yes, please bring your ID for identification. Is there anything else, [studentName]?",
+          "m": "Cảm ơn và nói không có gì khác. Bạn mong muốn được đến thăm.",
+          "h": "Thank you, nothing else, I am looking forward to + V-ing",
+          "s": "Thank you, nothing else. I am looking forward to visiting."
+        }
+      ]
+    },
+    {
+      "t": "Yêu cầu hủy dịch vụ hoặc thay đổi gói",
+      "e": [
+        {
+          "p": "Hello, customer support. How can I help you?",
+          "m": "Nói bạn muốn hủy dịch vụ internet của mình và bạn đang chuyển đi nơi khác.",
+          "h": "I want to cancel + N, I am moving + N",
+          "s": "I want to cancel my internet service. I am moving to another place."
+        },
+        {
+          "p": "I understand. What is your account number?",
+          "m": "Cho biết số tài khoản là 24680 và bạn muốn hủy vào cuối tháng.",
+          "h": "My account number is + N, I want to cancel + time",
+          "s": "My account number is 24680. I want to cancel at the end of the month."
+        },
+        {
+          "p": "Okay, I am processing your cancellation. Is there a reason you are moving?",
+          "m": "Nói rằng bạn có một công việc mới ở một thành phố khác và bạn rất vui.",
+          "h": "I have + N, I am + adj",
+          "s": "I have a new job in another city. I am very happy."
+        },
+        {
+          "p": "That's great news! Will you need our service in your new city?",
+          "m": "Nói rằng bạn không biết và bạn sẽ kiểm tra sau khi bạn đến đó. Bạn hỏi khi nào hóa đơn cuối cùng sẽ đến.",
+          "h": "I do not know, I will check + time, When will + N + come?",
+          "s": "I do not know. I will check after I get there. When will the last bill come?"
+        },
+        {
+          "p": "Your final bill will arrive next week. We wish you good luck with your new job!",
+          "m": "Cảm ơn vì đã giúp đỡ và bạn cũng chúc họ một ngày tốt lành.",
+          "h": "Thank you for + V-ing, Have a good day",
+          "s": "Thank you for your help. You have a good day too!"
+        }
+      ]
+    },
+    {
+      "t": "Báo cáo sự cố bảo mật hoặc lừa đảo",
+      "e": [
+        {
+          "p": "Fraud department, this is David. How can I help you?",
+          "m": "Nói bạn nhận được một email lạ và nó trông giống như một trò lừa đảo.",
+          "h": "I received + N, It looks like + N",
+          "s": "I received a strange email. It looks like a scam."
+        },
+        {
+          "p": "I see. What does the email say?",
+          "m": "Mô tả email yêu cầu thông tin cá nhân của bạn và có một liên kết xấu.",
+          "h": "It asks for + N, It has + N",
+          "s": "It asks for my personal information. It has a bad link."
+        },
+        {
+          "p": "Did you click on the link or provide any information?",
+          "m": "Nói bạn không nhấp vào liên kết và bạn rất cẩn thận. Bạn cũng hỏi có cần làm gì khác không.",
+          "h": "I did not click + N, I am careful, Do I need to do + N?",
+          "s": "I did not click the link, and I am careful. Do I need to do anything else?"
+        },
+        {
+          "p": "That's good. Please delete the email. We often send important notices, but we never ask for your password.",
+          "m": "Nói bạn hiểu và sẽ xóa nó ngay. Bạn cũng hỏi email của họ là gì cho các thông báo chính thức.",
+          "h": "I understand, I will delete it + adv, What is + N?",
+          "s": "I understand. I will delete it now. What is your official email for notices?"
+        },
+        {
+          "p": "Our official email is info@company.com. Is there anything else you are worried about?",
+          "m": "Nói rằng bạn không lo lắng gì khác và bạn cảm ơn sự giúp đỡ của họ. Bạn cảm thấy an toàn hơn bây giờ.",
+          "h": "I am not worried about + N, I thank you for + N, I feel + adj",
+          "s": "I am not worried about anything else. I thank you for your help. I feel safer now."
+        }
+      ]
+    },
+    {
+      "t": "Thắc mắc về dịch vụ di động hoặc gói cước",
+      "e": [
+        {
+          "p": "Mobile support, this is Alex. How can I help you?",
+          "m": "Nói bạn muốn nâng cấp gói cước di động của mình và bạn cần nhiều dữ liệu hơn.",
+          "h": "I want to upgrade + N, I need + N",
+          "s": "I want to upgrade my mobile plan. I need more data."
+        },
+        {
+          "p": "Okay. How much data do you need? We have plans with 10 GB, 20 GB, and unlimited.",
+          "m": "Nói 20 GB nghe có vẻ tốt và hỏi giá bao nhiêu một tháng.",
+          "h": "20 GB sounds good, How much is it + time?",
+          "s": "20 GB sounds good. How much is it a month?"
+        },
+        {
+          "p": "The 20 GB plan is 45 dollars per month. It also includes unlimited calls.",
+          "m": "Nói rằng đó là một mức giá tốt và bạn muốn thay đổi ngay bây giờ. Bạn hỏi nó sẽ bắt đầu khi nào.",
+          "h": "That is a good price, I want to change it now, When will it start?",
+          "s": "That is a good price, and I want to change it now. When will it start?"
+        },
+        {
+          "p": "It will start immediately. Your old plan stops today.",
+          "m": "Xác nhận gói cũ dừng hôm nay và hỏi bạn có cần khởi động lại điện thoại không.",
+          "h": "My old plan stops + time, Do I need to + V + N?",
+          "s": "My old plan stops today. Do I need to restart my phone?"
+        },
+        {
+          "p": "Yes, please restart your phone. Then you can enjoy your new data!",
+          "m": "Cảm ơn vì đã giúp đỡ nhanh chóng và bạn rất vui vì gói cước mới.",
+          "h": "Thank you for + V-ing, I am happy about + N",
+          "s": "Thank you for the quick help. I am very happy about the new plan."
+        }
+      ]
+    },
+    {
+      "t": "Hỗ trợ khách hàng với các yêu cầu đặc biệt",
+      "e": [
+        {
+          "p": "Hello, customer support. How can I assist you?",
+          "m": "Nói bạn muốn tạm dừng dịch vụ của mình vì bạn đi du lịch và sẽ quay lại sau một tháng.",
+          "h": "I want to pause + N, I am traveling + N",
+          "s": "I want to pause my service because I am traveling. I will come back in one month."
+        },
+        {
+          "p": "Okay, we can pause your service for up to three months. When do you want it to start again?",
+          "m": "Nói bạn muốn nó bắt đầu lại vào ngày 15 tháng tới và hỏi có mất phí không.",
+          "h": "I want it to start again + time, Is there a fee?",
+          "s": "I want it to start again on the 15th next month. Is there a fee?"
+        },
+        {
+          "p": "No, there is no fee for pausing. Just confirm your account number, please.",
+          "m": "Cho biết số tài khoản là 13579 và bạn hỏi có cần thanh toán trước cho tháng tới không.",
+          "h": "My account number is + N, Do I need to pay for + N?",
+          "s": "My account number is 13579. Do I need to pay for next month?"
+        },
+        {
+          "p": "No, you do not pay while your service is paused. You will receive a bill when it starts again.",
+          "m": "Nói rằng điều đó thật tốt và bạn sẽ tận hưởng chuyến đi của mình. Bạn hỏi liệu bạn có thể liên hệ với họ qua email không nếu cần.",
+          "h": "That is good, I will enjoy + N, Can I contact you by + N?",
+          "s": "That is good. I will enjoy my trip. Can I contact you by email if I need to?"
+        },
+        {
+          "p": "Yes, you can email us at support@company.com. Have a safe trip!",
+          "m": "Cảm ơn và nói bạn sẽ liên hệ nếu có bất kỳ vấn đề nào. Bạn rất vui vì dịch vụ này.",
+          "h": "Thank you, I will contact + N, I am happy about + N",
+          "s": "Thank thank you. I will contact you if there are any problems. I am happy about this service."
+        }
+      ]
+    },
+    {
+      "t": "Ôn tập: Xử lý nhiều yêu cầu cùng lúc",
+      "e": [
+        {
+          "p": "Hello, this is customer service. How can I help you?",
+          "m": "Nói bạn có một vài câu hỏi. Đầu tiên, bạn muốn biết về một gói cước internet mới, và thứ hai, bạn có một vấn đề với TV của mình.",
+          "h": "I have some questions, First, I want to know about + N, Second, I have a problem with + N",
+          "s": "I have some questions. First, I want to know about a new internet package, and second, I have a problem with my TV."
+        },
+        {
+          "p": "Okay, let's start with your TV problem. What is happening with it?",
+          "m": "Mô tả TV đang hiển thị màn hình xanh và bạn không thể thay đổi kênh.",
+          "h": "My TV is showing + N, I cannot + V",
+          "s": "My TV is showing a blue screen. I cannot change the channels."
+        },
+        {
+          "p": "I see. Have you tried unplugging it and plugging it back in?",
+          "m": "Xác nhận bạn đã thử rồi và nó vẫn như cũ. Bạn hỏi bạn có cần đợi bao lâu.",
+          "h": "I tried it, It is still the same, How long do I need to wait?",
+          "s": "Yes, I tried it, but it is still the same. How long do I need to wait?"
+        },
+        {
+          "p": "Please wait for two minutes. While you wait, let's talk about your internet package.",
+          "m": "Nói bạn đang đợi và bạn muốn một gói cước nhanh với nhiều dữ liệu. Bạn thường dùng internet rất nhiều.",
+          "h": "I am waiting, I want + N + with + N, I often use + N",
+          "s": "I am waiting. I want a fast internet package with much data. I often use the internet a lot."
+        },
+        {
+          "p": "We have a 200 Mbps package for 50 dollars a month. It is very fast. Does that sound good?",
+          "m": "Nói rằng nghe có vẻ tốt và bạn sẽ cân nhắc nó. Bạn cũng hỏi TV của bạn bây giờ ổn không.",
+          "h": "That sounds good, I will consider it, Is my TV okay now?",
+          "s": "That sounds good, and I will consider it. Is my TV okay now?"
+        }
+      ]
+    },
+    {
+      "t": "Ôn tập: Giải quyết sự cố thường gặp",
+      "e": [
+        {
+          "p": "Hello, customer support. How can I assist you?",
+          "m": "Nói bạn có hai vấn đề. Một là internet của bạn chậm, và hai là bạn có một câu hỏi về hóa đơn.",
+          "h": "I have two problems, One is + N + adj, Two is + N + N",
+          "s": "I have two problems. One is my internet is slow, and two is I have a question about my bill."
+        },
+        {
+          "p": "Okay, let's look at your internet first. When is it slow?",
+          "m": "Nói nó thường chậm vào buổi tối và bạn không thể xem video.",
+          "h": "It is often slow + time, I cannot + V + N",
+          "s": "It is often slow in the evening. I cannot watch videos."
+        },
+        {
+          "p": "I see. Please restart your modem. It often helps. Now, what is your question about the bill?",
+          "m": "Nói bạn đang khởi động lại modem. Về hóa đơn, bạn hỏi tại sao nó lại cao hơn tháng trước.",
+          "h": "I am restarting + N, Why is it + adj + than + N?",
+          "s": "I am restarting the modem now. Why is my bill higher than last month?"
+        },
+        {
+          "p": "Your bill is higher because of a late payment fee last month. Did you forget to pay?",
+          "m": "Xác nhận bạn đã quên và bạn xin lỗi. Bạn nói bạn sẽ đặt nhắc nhở cho tháng tới.",
+          "h": "I forgot, I am sorry, I will set + N",
+          "s": "Yes, I forgot, and I am sorry. I will set a reminder for next month."
+        },
+        {
+          "p": "That's okay, [studentName]. Is your internet working better now?",
+          "m": "Nói rằng internet của bạn bây giờ nhanh hơn và bạn rất vui. Bạn cũng cảm ơn cô ấy đã giúp đỡ.",
+          "h": "My internet is + adj + now, I am happy, Thank you for + V-ing",
+          "s": "My internet is faster now, and I am happy. Thank you for your help!"
+        }
+      ]
+    },
+    {
+      "t": "Ôn tập: Giao tiếp tổng hợp",
+      "e": [
+        {
+          "p": "Hello, how can I help you today?",
+          "m": "Nói tên bạn là [studentName] và bạn có một vài câu hỏi về tài khoản của mình. Bạn cần số tài khoản.",
+          "h": "My name is + N, I have some questions about + N, I need + N",
+          "s": "My name is [studentName] and I have some questions about my account. I need my account number."
+        },
+        {
+          "p": "Sure, I can help you with that. What is your account number?",
+          "m": "Cho biết số tài khoản là 54321 và bạn thường xuyên kiểm tra nó. Bạn hỏi về thời gian làm việc.",
+          "h": "My account number is + N, I often check + N, What are + N?",
+          "s": "My account number is 54321, and I often check it. What are your working hours?"
+        },
+        {
+          "p": "We are open Monday to Friday, 9 AM to 5 PM. What is your first question about your account?",
+          "m": "Hỏi bạn có thể thay đổi địa chỉ email của mình không và bạn muốn thay đổi nó ngay bây giờ.",
+          "h": "Can I change + N?, I want to change + N + now",
+          "s": "Can I change my email address? I want to change it now."
+        },
+        {
+          "p": "Yes, you can. What is your new email address?",
+          "m": "Cho biết địa chỉ email mới là [studentName]@newmail.com. Bạn cũng nói rằng internet của bạn đôi khi chậm vào buổi tối.",
+          "h": "My new email address is + N, My internet is sometimes slow + time",
+          "s": "My new email address is [studentName]@newmail.com. My internet is sometimes slow in the evening."
+        },
+        {
+          "p": "Thank you, I updated your email. For your internet, please restart your router. Is there anything else?",
+          "m": "Cảm ơn vì đã cập nhật và bạn sẽ khởi động lại router. Bạn chúc họ một ngày tốt lành và cảm thấy hài lòng.",
+          "h": "Thank you for + V-ing, I will restart + N, Have a good day, I feel + adj",
+          "s": "Thank you for updating it, and I will restart the router. Have a good day! I feel good."
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,600 @@
+{
+  "l": 3,
+  "d": [
+    {
+      "t": "Khi khách hàng than phiền",
+      "e": [
+        {
+          "p": "Hello, I think there's a mistake on my bill. It's too expensive.",
+          "m": "Nói bạn xin lỗi. Hỏi khách hàng về khoản mục cụ thể có vấn đề.",
+          "h": "Sử dụng 'I'm sorry' và 'Can you tell me about...?'",
+          "s": "I'm sorry about the mistake on your bill. Can you tell me which item is too expensive?"
+        },
+        {
+          "p": "Excuse me, I ordered a burger, but this is chicken. I don't eat chicken.",
+          "m": "Xin lỗi khách hàng. Đề nghị đổi món ăn mới ngay lập tức.",
+          "h": "Dùng 'I apologize' và 'I will change...'",
+          "s": "I apologize for the wrong order. I will change it to a burger for you right away."
+        },
+        {
+          "p": "The Wi-Fi in my hotel room is not working. I need it for my work.",
+          "m": "Thể hiện sự hiểu vấn đề. Hỏi số phòng của khách để kỹ thuật viên kiểm tra.",
+          "h": "Sử dụng 'I understand' và câu hỏi thông tin.",
+          "s": "I understand the Wi-Fi is not working. What is your room number so I can send someone to check it?"
+        },
+        {
+          "p": "I waited 30 minutes for my appointment, but the doctor was not here. This is bad service.",
+          "m": "Nói bạn rất tiếc về sự chậm trễ. Hỏi khách muốn đợi thêm hay đặt lịch hẹn khác.",
+          "h": "Dùng 'I am very sorry about...' và câu hỏi lựa chọn.",
+          "s": "I am very sorry about the delay. Would you like to wait or book another appointment?"
+        },
+        {
+          "p": "My new phone arrived broken this morning. I am very disappointed with this purchase.",
+          "m": "Thể hiện sự tiếc nuối về sản phẩm bị hỏng. Hỏi khách hàng muốn đổi sản phẩm mới hay hoàn tiền.",
+          "h": "Sử dụng 'I am sorry to hear that...' và câu hỏi 'Do you want... or...?'",
+          "s": "I am sorry to hear that your new phone is broken. Do you want a new one or a refund?"
+        }
+      ]
+    },
+    {
+      "t": "Thừa nhận lỗi và xin lỗi",
+      "e": [
+        {
+          "p": "My package was supposed to arrive yesterday, but it's still not here.",
+          "m": "Xin lỗi vì sự chậm trễ. Nói bạn sẽ kiểm tra tình trạng đơn hàng ngay.",
+          "h": "Dùng 'I apologize for...' và 'I will check...'",
+          "s": "I apologize for the delay with your package. I will check its status right now."
+        },
+        {
+          "p": "I booked a non-smoking room, but my room smells like smoke. I can't stay here.",
+          "m": "Nói bạn xin lỗi vì sự nhầm lẫn. Đề nghị chuyển khách sang phòng không hút thuốc khác.",
+          "h": "Sử dụng 'I'm sorry for...' và 'I can move you to...'",
+          "s": "I'm sorry for the mistake with your room. I can move you to another non-smoking room."
+        },
+        {
+          "p": "The bus was 20 minutes late, so I missed my meeting. This made me very worried.",
+          "m": "Thể hiện sự hối tiếc về việc xe buýt trễ. Giải thích rằng điều đó không nên xảy ra.",
+          "h": "Dùng 'I regret that...' và 'That should not happen.'",
+          "s": "I regret that the bus was late and you missed your meeting. That should not happen."
+        },
+        {
+          "p": "This dish is too spicy for me. I asked for a mild one.",
+          "m": "Nói bạn rất tiếc món ăn quá cay. Hỏi xem khách muốn một món mới ít cay hơn không.",
+          "h": "Dùng 'I am very sorry that...' và 'Would you like...?'",
+          "s": "I am very sorry that the dish is too spicy. Would you like a new one that is milder?"
+        },
+        {
+          "p": "I tried to call your customer service yesterday, but nobody answered for a long time. I was disappointed.",
+          "m": "Xin lỗi khách hàng vì trải nghiệm kém. Hứa sẽ cải thiện dịch vụ để không lặp lại.",
+          "h": "Sử dụng 'I apologize for...' và 'We will improve...'",
+          "s": "I apologize for your bad experience yesterday. We will improve our service so this does not happen again."
+        }
+      ]
+    },
+    {
+      "t": "Tìm hiểu nguyên nhân vấn đề",
+      "e": [
+        {
+          "p": "My car repair took two days longer than you promised. Why was it so slow?",
+          "m": "Nói bạn xin lỗi về sự chậm trễ. Hỏi nguyên nhân khách hàng được thông báo.",
+          "h": "Dùng 'I'm sorry about...' và 'What reason did they give you?'",
+          "s": "I'm sorry about the repair delay. What reason did they give you for it?"
+        },
+        {
+          "p": "I paid extra for fast shipping, but my item arrived late. I want to know what happened.",
+          "m": "Thừa nhận vấn đề giao hàng muộn. Hỏi khách hàng đã đặt hàng khi nào.",
+          "h": "Sử dụng 'I understand...' và 'When did you order...?'",
+          "s": "I understand the item arrived late. When did you order it, please?"
+        },
+        {
+          "p": "The tour guide did not show up for our trip this morning. We waited for an hour.",
+          "m": "Xin lỗi vì hướng dẫn viên không đến. Nói bạn sẽ tìm hiểu nguyên nhân ngay bây giờ.",
+          "h": "Dùng 'I apologize that...' và 'I will find out...'",
+          "s": "I apologize that the tour guide did not come. I will find out why right now."
+        },
+        {
+          "p": "I reserved a table by the window, but we got a table in the back. This is not what I expected.",
+          "m": "Thể hiện sự hiểu sự việc. Hỏi khách hàng đã đặt bàn bằng cách nào.",
+          "h": "Dùng 'I see that...' và 'How did you reserve...?'",
+          "s": "I see that you did not get the window table. How did you reserve it?"
+        },
+        {
+          "p": "My flight was delayed, and I missed an important business meeting. I am very upset.",
+          "m": "Nói bạn rất tiếc về chuyến bay trễ. Hỏi số chuyến bay của khách để kiểm tra thông tin.",
+          "h": "Sử dụng 'I am sorry about...' và câu hỏi thông tin cụ thể.",
+          "s": "I am very sorry about your delayed flight. What is your flight number so I can check?"
+        }
+      ]
+    },
+    {
+      "t": "Đề xuất giải pháp khắc phục",
+      "e": [
+        {
+          "p": "My drink tasted strange, and I couldn't finish it. It was too sweet.",
+          "m": "Xin lỗi về đồ uống. Đề nghị làm một đồ uống mới hoặc hoàn tiền cho khách.",
+          "h": "Dùng 'I'm sorry for...' và 'Would you like... or...?'",
+          "s": "I'm sorry for the strange drink. Would you like a new one or a refund?"
+        },
+        {
+          "p": "This shirt I bought online is too small. I need a bigger size.",
+          "m": "Thừa nhận vấn đề về kích cỡ. Nói bạn có thể đổi size lớn hơn hoặc hoàn tiền.",
+          "h": "Sử dụng 'I understand...' và 'I can give you... or...'",
+          "s": "I understand the shirt is too small. I can give you a bigger size or a refund."
+        },
+        {
+          "p": "My car wasn't cleaned properly after the service. There are still dirt marks.",
+          "m": "Xin lỗi về việc xe chưa sạch. Đề nghị rửa xe lại miễn phí ngay bây giờ.",
+          "h": "Dùng 'I apologize that...' và 'We can clean... for free.'",
+          "s": "I apologize that your car is not clean. We can clean it again for you for free right now."
+        },
+        {
+          "p": "The hair stylist cut my hair much shorter than I wanted. I am quite unhappy.",
+          "m": "Thể hiện sự tiếc nuối về mái tóc. Đề nghị giảm giá cho lần cắt tóc tiếp theo.",
+          "h": "Dùng 'I am sorry about...' và 'We can offer... for your next visit.'",
+          "s": "I am sorry about your hair. We can offer you a discount for your next haircut."
+        },
+        {
+          "p": "The food arrived cold, and it took a very long time. I am not satisfied.",
+          "m": "Xin lỗi về đồ ăn lạnh và chậm trễ. Đề nghị giao lại món mới và tặng một món tráng miệng miễn phí.",
+          "h": "Sử dụng 'I'm very sorry that...' và 'We will send... and a free dessert.'",
+          "s": "I'm very sorry that the food was cold and late. We will send you new food and a free dessert."
+        }
+      ]
+    },
+    {
+      "t": "Xử lý thông tin phản hồi",
+      "e": [
+        {
+          "p": "I filled out a complaint form online, but I haven't heard anything back.",
+          "m": "Xin lỗi vì sự chậm trễ phản hồi. Hỏi bạn có thể giúp khách hàng kiểm tra không.",
+          "h": "Dùng 'I apologize for...' và 'Can I check... for you?'",
+          "s": "I apologize for the slow response. Can I check your complaint for you?"
+        },
+        {
+          "p": "The customer service representative I spoke to yesterday was quite rude.",
+          "m": "Thừa nhận thái độ không tốt. Hỏi tên của nhân viên đó để bạn có thể xem xét.",
+          "h": "Sử dụng 'I'm sorry that...' và 'Can you tell me the name...?'",
+          "s": "I'm sorry that our representative was rude. Can you tell me their name?"
+        },
+        {
+          "p": "I love your products, but sometimes the delivery is very slow. You should improve this.",
+          "m": "Cảm ơn khách hàng đã góp ý. Nói rằng bạn sẽ báo cáo điều này cho đội ngũ giao hàng.",
+          "h": "Dùng 'Thank you for...' và 'I will report...'",
+          "s": "Thank you for your feedback. I will report this to our delivery team."
+        },
+        {
+          "p": "I tried to use my discount code, but it didn't work. The website showed an error.",
+          "m": "Thể hiện sự hiểu vấn đề. Hỏi mã giảm giá của khách hàng để bạn kiểm tra.",
+          "h": "Dùng 'I see that...' và 'What is your discount code?'",
+          "s": "I see that your discount code did not work. What is your discount code?"
+        },
+        {
+          "p": "The quality of the product I bought last month is not as good as before. I am quite disappointed.",
+          "m": "Xin lỗi khách hàng vì chất lượng sản phẩm. Nói rằng bạn sẽ ghi nhận ý kiến này để cải thiện.",
+          "h": "Sử dụng 'I am sorry that...' và 'We will note this...'",
+          "s": "I am sorry that the product quality is not good. We will note this to improve next time."
+        }
+      ]
+    },
+    {
+      "t": "Đền bù và khuyến mãi",
+      "e": [
+        {
+          "p": "My package arrived a week late. This is not acceptable.",
+          "m": "Xin lỗi về sự chậm trễ. Đề nghị một phiếu giảm giá 10% cho lần mua hàng tiếp theo.",
+          "h": "Dùng 'I apologize for...' và 'We can offer you...'",
+          "s": "I apologize for the late package. We can offer you a 10% discount for your next purchase."
+        },
+        {
+          "p": "The hotel room I stayed in was very noisy. I couldn't sleep well.",
+          "m": "Nói bạn xin lỗi vì phòng ồn ào. Đề nghị một đêm nghỉ miễn phí vào lần tới.",
+          "h": "Sử dụng 'I'm sorry about...' và 'We can give you... for free.'",
+          "s": "I'm sorry about the noisy room. We can give you one night for free next time."
+        },
+        {
+          "p": "I received the wrong size jacket. I had to send it back, which was a lot of trouble.",
+          "m": "Thể hiện sự hiểu phiền phức. Đề nghị miễn phí vận chuyển cho đơn hàng mới của khách.",
+          "h": "Dùng 'I understand...' và 'We will give you free shipping.'",
+          "s": "I understand it was a lot of trouble. We will give you free shipping for your new order."
+        },
+        {
+          "p": "My dinner reservation was mixed up, and we had to wait 45 minutes for a table.",
+          "m": "Nói bạn rất tiếc về sự nhầm lẫn. Đề nghị một bữa ăn miễn phí cho lần ghé thăm tiếp theo.",
+          "h": "Sử dụng 'I am very sorry for...' và 'We would like to offer...'",
+          "s": "I am very sorry for the reservation mix-up. We would like to offer you a free meal on your next visit."
+        },
+        {
+          "p": "My internet service was down for two days last week. I couldn't work from home.",
+          "m": "Xin lỗi về sự cố internet. Đề nghị giảm giá hóa đơn tháng này và tặng thêm một tháng dịch vụ miễn phí.",
+          "h": "Dùng 'I apologize for...' và 'We will give you a discount and a free month.'",
+          "s": "I apologize for the internet outage. We will give you a discount on this month's bill and a free month of service."
+        }
+      ]
+    },
+    {
+      "t": "Kiểm tra sự hài lòng của khách hàng",
+      "e": [
+        {
+          "p": "So, how was your new coffee? Was it better?",
+          "m": "Trả lời cà phê rất ngon. Cảm ơn vì sự giúp đỡ.",
+          "h": "Dùng 'It was great.' và 'Thank you.'",
+          "s": "It was great, thank you. This one is much better."
+        },
+        {
+          "p": "We fixed your car, and it's running perfectly now. Are you happy with the service?",
+          "m": "Nói bạn hài lòng với dịch vụ. Cảm ơn đã sửa chữa nhanh chóng.",
+          "h": "Sử dụng 'I am happy with...' và 'Thank you for...' ",
+          "s": "Yes, I am happy with the service. Thank you for fixing it quickly."
+        },
+        {
+          "p": "We delivered your new item today. Did it arrive safely and is it correct?",
+          "m": "Trả lời hàng đã đến an toàn và đúng. Thể hiện sự nhẹ nhõm.",
+          "h": "Dùng 'It arrived safely' và 'I am relieved.'",
+          "s": "Yes, it arrived safely and it is correct. I am relieved."
+        },
+        {
+          "p": "You got a refund for the broken phone. Are you satisfied with this solution?",
+          "m": "Nói bạn hài lòng với giải pháp hoàn tiền. Giải thích bạn sẽ mua sản phẩm khác.",
+          "h": "Dùng 'I am satisfied with...' và 'I will buy...'",
+          "s": "Yes, I am satisfied with the refund. I will buy another phone from you."
+        },
+        {
+          "p": "We sent you a discount code as an apology for the late delivery. Did you receive it and are you happy with it?",
+          "m": "Trả lời bạn đã nhận được mã giảm giá. Nói bạn rất vui và sẽ sử dụng nó sớm.",
+          "h": "Sử dụng 'Yes, I received it.' và 'I am happy and will use it soon.'",
+          "s": "Yes, I received it. I am very happy with the discount and I will use it soon."
+        }
+      ]
+    },
+    {
+      "t": "Thái độ tích cực sau sự cố",
+      "e": [
+        {
+          "p": "We are very sorry for the problems you had. We hope you will give us another chance.",
+          "m": "Nói bạn sẽ cho cơ hội khác. Giải thích bạn hiểu mọi người đều có lỗi.",
+          "h": "Dùng 'Yes, I will.' và 'I understand that mistakes happen.'",
+          "s": "Yes, I will give you another chance. I understand that mistakes can happen sometimes."
+        },
+        {
+          "p": "Thank you for being so patient with us. Your feedback is very important.",
+          "m": "Nói không sao. Giải thích bạn tin rằng dịch vụ sẽ tốt hơn.",
+          "h": "Dùng 'It's okay.' và 'I believe it will be better.'",
+          "s": "It's okay. I believe that your service will be much better now."
+        },
+        {
+          "p": "We really appreciate your understanding. We are working hard to improve.",
+          "m": "Nói bạn rất vui khi nghe điều đó. Chúc họ may mắn.",
+          "h": "Sử dụng 'I am happy to hear that.' và 'Good luck.'",
+          "s": "I am happy to hear that. Good luck with your improvements."
+        },
+        {
+          "p": "We hope our apology and the discount made you feel better about the experience.",
+          "m": "Trả lời bạn cảm thấy tốt hơn nhiều. Cảm ơn vì đã giải quyết vấn đề nhanh chóng.",
+          "h": "Dùng 'Yes, I feel better.' và 'Thank you for solving... quickly.'",
+          "s": "Yes, I feel much better now. Thank you for solving the problem quickly."
+        },
+        {
+          "p": "It was a difficult situation, but we are glad we could help. We hope to see you again soon!",
+          "m": "Nói bạn cũng rất vui. Hứa sẽ quay lại vào tuần tới.",
+          "h": "Sử dụng 'I am happy too.' và 'I will come back next week.'",
+          "s": "I am happy too. I will come back again next week."
+        }
+      ]
+    },
+    {
+      "t": "Phản ứng với thái độ tiêu cực",
+      "e": [
+        {
+          "p": "This is ridiculous! I'm leaving right now!",
+          "m": "Xin lỗi về tình hình. Hỏi khách hàng liệu bạn có thể giúp gì nữa không.",
+          "h": "Dùng 'I am sorry about...' và 'Can I help you anymore?'",
+          "s": "I am sorry about the situation. Can I help you with anything else?"
+        },
+        {
+          "p": "I'm never coming back here again! Your service is terrible!",
+          "m": "Thể hiện sự hối tiếc khi khách hàng cảm thấy như vậy. Hỏi bạn có thể làm gì để thay đổi suy nghĩ của họ.",
+          "h": "Sử dụng 'I regret that...' và 'What can I do to change your mind?'",
+          "s": "I regret that you feel this way. What can I do to change your mind?"
+        },
+        {
+          "p": "This is the third time this has happened! I want to speak to your manager!",
+          "m": "Xin lỗi vì sự cố lặp lại. Nói bạn sẽ gọi quản lý của bạn ngay lập tức.",
+          "h": "Dùng 'I apologize for...' và 'I will call my manager.'",
+          "s": "I apologize that this happened again. I will call my manager for you right away."
+        },
+        {
+          "p": "You people don't care about your customers! This is unacceptable!",
+          "m": "Thể hiện sự hiểu cảm xúc của khách. Nói rằng bạn thực sự muốn giúp đỡ.",
+          "h": "Dùng 'I understand you are upset.' và 'I really want to help.'",
+          "s": "I understand you are upset right now. I really want to help you with this problem."
+        },
+        {
+          "p": "I have been waiting for an answer for too long! Just give me a solution!",
+          "m": "Xin lỗi khách hàng vì thời gian chờ đợi. Nói rằng bạn đang cố gắng tìm giải pháp tốt nhất.",
+          "h": "Sử dụng 'I'm sorry for...' và 'I am trying to find...'",
+          "s": "I'm sorry for the long wait. I am trying to find the best solution for you."
+        }
+      ]
+    },
+    {
+      "t": "Học hỏi từ lỗi sai",
+      "e": [
+        {
+          "p": "What do you think we can do better next time to avoid such issues?",
+          "m": "Nói rằng việc kiểm tra kỹ hơn là quan trọng. Giải thích sẽ giúp tránh lỗi.",
+          "h": "Dùng 'I think we should check...' và 'It will help avoid mistakes.'",
+          "s": "I think we should check everything more carefully. It will help us avoid mistakes."
+        },
+        {
+          "p": "We got a lot of complaints about late deliveries last month. How can we improve this?",
+          "m": "Đề xuất cải thiện quy trình đóng gói. Giải thích điều này có thể giúp hàng đến nhanh hơn.",
+          "h": "Sử dụng 'We should improve...' và 'This can make deliveries faster.'",
+          "s": "We should improve our packaging process. This can make deliveries faster, I think."
+        },
+        {
+          "p": "Customers are saying our prices are too high compared to other stores. What do you suggest?",
+          "m": "Đề xuất tổ chức chương trình giảm giá thường xuyên hơn. Giải thích điều này sẽ thu hút khách hàng.",
+          "h": "Dùng 'We could have more discounts.' và 'It will attract more customers.'",
+          "s": "We could have more discounts and sales more often. It will attract more customers."
+        },
+        {
+          "p": "Some staff members are not handling complaints well. What training do they need?",
+          "m": "Nói họ cần học cách lắng nghe tốt hơn. Giải thích điều đó sẽ giúp khách hàng cảm thấy được quan tâm.",
+          "h": "Sử dụng 'They need to learn...' và 'It will make customers feel cared for.'",
+          "s": "They need to learn how to listen better. It will make customers feel more cared for."
+        },
+        {
+          "p": "Our new website is slow, and customers are leaving. How can we fix this problem quickly?",
+          "m": "Đề xuất thuê thêm chuyên gia IT. Giải thích họ có thể làm cho trang web hoạt động tốt hơn.",
+          "h": "Dùng 'We should hire more IT experts.' và 'They can make the website better.'",
+          "s": "We should hire more IT experts. They can make the website faster and better."
+        }
+      ]
+    },
+    {
+      "t": "Lời hứa và cam kết",
+      "e": [
+        {
+          "p": "Can you promise this won't happen again?",
+          "m": "Nói bạn sẽ cố gắng hết sức để không lặp lại lỗi. Giải thích bạn sẽ học hỏi từ lỗi này.",
+          "h": "Dùng 'I will try my best.' và 'I will learn from this mistake.'",
+          "s": "I will try my best to ensure this does not happen again. I will learn from this mistake."
+        },
+        {
+          "p": "What are you going to do to make sure the delivery is on time next time?",
+          "m": "Nói bạn sẽ kiểm tra đơn hàng cẩn thận hơn. Giải thích bạn sẽ theo dõi từng bước.",
+          "h": "Sử dụng 'I will check orders more carefully.' và 'I will follow every step.'",
+          "s": "I will check all orders more carefully. I will follow every step to make sure."
+        },
+        {
+          "p": "Will your customer service be better in the future?",
+          "m": "Hứa sẽ làm cho dịch vụ tốt hơn. Giải thích bạn sẽ đào tạo nhân viên.",
+          "h": "Dùng 'We promise to make it better.' và 'We will train our staff.'",
+          "s": "We promise to make our customer service better. We will train our staff more."
+        },
+        {
+          "p": "I hope you will take my feedback seriously.",
+          "m": "Nói bạn sẽ xem xét phản hồi rất nghiêm túc. Giải thích nó rất quan trọng với bạn.",
+          "h": "Dùng 'We will take your feedback seriously.' và 'It is important to us.'",
+          "s": "We will take your feedback very seriously. It is very important to us."
+        },
+        {
+          "p": "So, how can I trust your company again after this bad experience?",
+          "m": "Hứa rằng bạn sẽ làm tốt hơn nhiều. Giải thích bạn sẽ làm mọi thứ để lấy lại niềm tin.",
+          "h": "Sử dụng 'We will do much better.' và 'We will do everything to earn back your trust.'",
+          "s": "We promise that we will do much better. We will do everything to earn back your trust."
+        }
+      ]
+    },
+    {
+      "t": "Theo dõi và chăm sóc khách hàng",
+      "e": [
+        {
+          "p": "We sent you a new product. Did it arrive okay?",
+          "m": "Nói sản phẩm đã đến ổn. Cảm ơn vì đã gửi một cái mới.",
+          "h": "Dùng 'Yes, it arrived okay.' và 'Thank you for sending a new one.'",
+          "s": "Yes, it arrived okay. Thank you for sending a new product."
+        },
+        {
+          "p": "How is the Wi-Fi in your room now after our technician fixed it?",
+          "m": "Trả lời Wi-Fi hoạt động tốt. Thể hiện sự hài lòng.",
+          "h": "Sử dụng 'It works well.' và 'I am happy now.'",
+          "s": "It works well now. I am happy that it is fixed."
+        },
+        {
+          "p": "We gave you a discount on your last bill. Was everything correct?",
+          "m": "Nói mọi thứ đều đúng. Cảm ơn vì giảm giá.",
+          "h": "Dùng 'Everything was correct.' và 'Thank you for the discount.'",
+          "s": "Everything was correct on my last bill. Thank you for the discount."
+        },
+        {
+          "p": "We hope you enjoyed your free meal at our restaurant. Please tell us if everything was good.",
+          "m": "Nói bạn rất thích bữa ăn miễn phí. Giải thích đồ ăn rất ngon và dịch vụ tốt.",
+          "h": "Dùng 'I enjoyed it very much.' và 'The food was great and service was good.'",
+          "s": "I enjoyed the free meal very much. The food was great and the service was good."
+        },
+        {
+          "p": "We fixed the issue with your internet. Did it help you work from home better this week?",
+          "m": "Trả lời có, đã giúp làm việc tốt hơn. Giải thích giờ đây bạn có thể hoàn thành công việc đúng hạn.",
+          "h": "Sử dụng 'Yes, it helped a lot.' và 'I can finish my work on time.'",
+          "s": "Yes, it helped a lot. Now I can finish my work from home on time."
+        }
+      ]
+    },
+    {
+      "t": "Khi sự cố ngoài tầm kiểm soát",
+      "e": [
+        {
+          "p": "My flight was canceled because of bad weather. I am stuck at the airport.",
+          "m": "Thừa nhận đây là tình huống khó khăn. Đề nghị giúp khách tìm khách sạn gần đó.",
+          "h": "Dùng 'I understand this is difficult.' và 'I can help you find a hotel.'",
+          "s": "I understand this is a difficult situation. I can help you find a hotel near the airport."
+        },
+        {
+          "p": "The electricity is out in my whole neighborhood, so I can't use my computer.",
+          "m": "Xin lỗi vì sự bất tiện. Giải thích đây là vấn đề bên ngoài và bạn không thể kiểm soát.",
+          "h": "Sử dụng 'I'm sorry for the inconvenience.' và 'This is an external problem.'",
+          "s": "I'm sorry for the inconvenience. This is an external problem we cannot control."
+        },
+        {
+          "p": "My package is delayed because of a national holiday. I really need it soon!",
+          "m": "Thể hiện sự hiểu nhu cầu của khách. Giải thích bạn sẽ theo dõi và thông báo khi có thông tin mới.",
+          "h": "Dùng 'I understand you need it.' và 'I will track it and let you know.'",
+          "s": "I understand you need it soon. I will track it for you and let you know when there is new information."
+        },
+        {
+          "p": "The train was delayed because of a broken track. I'm going to be late for work.",
+          "m": "Xin lỗi về sự chậm trễ của tàu. Đề nghị viết một thư xác nhận cho công ty của khách.",
+          "h": "Sử dụng 'I apologize for the train delay.' và 'I can write a letter.'",
+          "s": "I apologize for the train delay. I can write a letter for your company."
+        },
+        {
+          "p": "There was a big accident on the road, so my delivery is very late. I hope it's not broken.",
+          "m": "Thể hiện sự hiểu tình hình giao thông. Hứa sẽ kiểm tra xem hàng hóa có ổn không khi đến nơi.",
+          "h": "Dùng 'I understand the traffic problem.' và 'We will check the item when it arrives.'",
+          "s": "I understand the traffic problem. We will check your item to make sure it is okay when it arrives."
+        }
+      ]
+    },
+    {
+      "t": "Đảm bảo trải nghiệm tốt hơn",
+      "e": [
+        {
+          "p": "What will you do to make sure this problem with my bill doesn't happen again?",
+          "m": "Nói bạn sẽ kiểm tra kỹ các hóa đơn. Giải thích bạn sẽ cẩn thận hơn trong tương lai.",
+          "h": "Dùng 'I will check bills carefully.' và 'I will be more careful.'",
+          "s": "I will check all bills very carefully. I will be much more careful in the future."
+        },
+        {
+          "p": "How can I be sure my next online order will arrive on time?",
+          "m": "Hứa bạn sẽ ưu tiên đơn hàng tiếp theo. Giải thích bạn sẽ theo dõi nó cá nhân.",
+          "h": "Sử dụng 'We will prioritize your next order.' và 'I will personally follow it.'",
+          "s": "We will prioritize your next online order. I will personally follow it to make sure it arrives on time."
+        },
+        {
+          "p": "I was very upset about the noisy room. How will you prevent this for other guests?",
+          "m": "Nói bạn sẽ kiểm tra các phòng thường xuyên. Giải thích để đảm bảo chúng yên tĩnh hơn.",
+          "h": "Dùng 'We will check rooms regularly.' và 'To ensure they are quieter.'",
+          "s": "We will check rooms regularly now. This is to ensure they are quieter for our guests."
+        },
+        {
+          "p": "I had a bad experience with your customer service. How will you improve your team?",
+          "m": "Nói rằng bạn sẽ cung cấp thêm khóa đào tạo. Giải thích để nhân viên phục vụ tốt hơn.",
+          "h": "Sử dụng 'We will provide more training.' và 'So staff can serve better.'",
+          "s": "We will provide more training for our staff. This is so they can serve you better."
+        },
+        {
+          "p": "After my flight delay, I am worried about booking with you again. Can you convince me?",
+          "m": "Nói bạn hiểu nỗi lo. Giải thích bạn sẽ đảm bảo chuyến đi tiếp theo của khách suôn sẻ nhất.",
+          "h": "Dùng 'I understand your worry.' và 'We will ensure your next trip is smooth.'",
+          "s": "I understand your worry. We will ensure your next trip with us is the smoothest one."
+        }
+      ]
+    },
+    {
+      "t": "Ôn tập: Giải quyết sự cố chung",
+      "e": [
+        {
+          "p": "My coffee was cold, and I waited a long time for it.",
+          "m": "Xin lỗi vì cà phê lạnh và thời gian chờ. Đề nghị làm lại đồ uống mới cho khách.",
+          "h": "Dùng 'I'm sorry that...' và 'I will make a new one.'",
+          "s": "I'm sorry that your coffee was cold and you waited long. I will make a new one for you."
+        },
+        {
+          "p": "My internet is still not working after you sent a technician. I am very frustrated.",
+          "m": "Thừa nhận vấn đề vẫn tồn tại. Hỏi số phòng hoặc địa chỉ để kiểm tra lại.",
+          "h": "Sử dụng 'I understand it's still not working.' và câu hỏi thông tin.",
+          "s": "I understand your internet is still not working. What is your room number or address so I can check again?"
+        },
+        {
+          "p": "I was promised a refund for the damaged product, but I haven't received it yet.",
+          "m": "Xin lỗi vì sự chậm trễ hoàn tiền. Nói bạn sẽ kiểm tra trạng thái hoàn tiền và thông báo cho khách.",
+          "h": "Dùng 'I apologize for the delay.' và 'I will check and let you know.'",
+          "s": "I apologize for the refund delay. I will check its status and let you know about it."
+        },
+        {
+          "p": "My reservation for the restaurant was lost. We drove a long way for this dinner.",
+          "m": "Thể hiện sự hối tiếc về việc mất đặt chỗ. Đề nghị tìm một bàn khác và tặng một món tráng miệng miễn phí.",
+          "h": "Sử dụng 'I regret that...' và 'We can find a table and offer free dessert.'",
+          "s": "I regret that your reservation was lost. We can find a table for you and offer a free dessert."
+        },
+        {
+          "p": "I spent a lot of money here, but the service was terrible. I feel like my money was wasted.",
+          "m": "Xin lỗi về trải nghiệm kém. Hứa sẽ cố gắng hết sức để khách hàng hài lòng hơn và đề nghị một ưu đãi đặc biệt.",
+          "h": "Sử dụng 'I apologize for...' và 'We will try our best to make you happy with a special offer.'",
+          "s": "I apologize for your terrible experience here. We will try our best to make you happier with a special offer."
+        }
+      ]
+    },
+    {
+      "t": "Ôn tập: Phản hồi khách hàng khó tính",
+      "e": [
+        {
+          "p": "I have been waiting for 15 minutes! This is unacceptable!",
+          "m": "Xin lỗi về thời gian chờ đợi. Hỏi khách hàng đang chờ đợi điều gì.",
+          "h": "Dùng 'I'm sorry for the wait.' và 'What are you waiting for?'",
+          "s": "I'm sorry for the long wait. What are you waiting for, please?"
+        },
+        {
+          "p": "You always have problems with your online system! It's never working correctly.",
+          "m": "Thừa nhận vấn đề hệ thống. Nói bạn đang cố gắng cải thiện nó mỗi ngày.",
+          "h": "Sử dụng 'I understand our system has problems.' và 'We are working to improve it.'",
+          "s": "I understand our online system has problems. We are working to improve it every day."
+        },
+        {
+          "p": "I want a full refund and I want it now! This is the worst service ever!",
+          "m": "Xin lỗi về trải nghiệm kém. Giải thích bạn cần kiểm tra thông tin để xử lý hoàn tiền.",
+          "h": "Dùng 'I apologize for...' và 'I need to check details to process the refund.'",
+          "s": "I apologize for your bad experience. I need to check some details to process your refund."
+        },
+        {
+          "p": "This is a waste of my time! I demand to speak to someone who can actually help!",
+          "m": "Thể hiện sự hiểu sự tức giận của khách. Nói bạn sẽ kết nối khách với một chuyên gia có thể giúp đỡ tốt hơn.",
+          "h": "Sử dụng 'I understand your anger.' và 'I will connect you to an expert.'",
+          "s": "I understand your anger. I will connect you to an expert who can help you better."
+        },
+        {
+          "p": "You ruined my vacation! I will never recommend your company to anyone!",
+          "m": "Xin lỗi khách hàng vì chuyến đi bị hủy hoại. Hứa sẽ cố gắng tìm cách đền bù để làm khách hàng vui trở lại.",
+          "h": "Sử dụng 'I am truly sorry that...' và 'We will try to find a way to make you happy again.'",
+          "s": "I am truly sorry that we ruined your vacation. We will try to find a way to make you happy again."
+        }
+      ]
+    },
+    {
+      "t": "Ôn tập: Cung cấp giải pháp và cam kết",
+      "e": [
+        {
+          "p": "What can you do to fix this broken product for me?",
+          "m": "Đề xuất đổi sản phẩm mới. Giải thích điều này nhanh hơn sửa chữa.",
+          "h": "Dùng 'We can replace it with a new one.' và 'It is faster than repair.'",
+          "s": "We can replace it with a new one for you. This is faster than repairing it."
+        },
+        {
+          "p": "I am worried about booking a hotel with you again because of my last bad experience.",
+          "m": "Hứa sẽ đảm bảo một phòng tốt hơn vào lần tới. Giải thích bạn sẽ tự mình kiểm tra.",
+          "h": "Sử dụng 'We will ensure a better room next time.' và 'I will check it myself.'",
+          "s": "We will ensure you have a better room next time. I will check it myself for you."
+        },
+        {
+          "p": "I still feel very disappointed about the long flight delay. What will your company do?",
+          "m": "Xin lỗi về sự thất vọng. Đề nghị phiếu giảm giá cho chuyến bay tiếp theo và một phiếu ăn uống.",
+          "h": "Dùng 'I am sorry for your disappointment.' và 'We can offer a discount and a food voucher.'",
+          "s": "I am sorry for your disappointment. We can offer you a discount on your next flight and a food voucher."
+        },
+        {
+          "p": "How can I trust that your delivery service will be better in the future?",
+          "m": "Nói rằng bạn sẽ cải thiện hệ thống theo dõi. Giải thích bạn sẽ thông báo cho khách hàng thường xuyên hơn.",
+          "h": "Sử dụng 'We will improve our tracking system.' và 'We will inform customers more often.'",
+          "s": "We will improve our tracking system. We will also inform customers more often about their delivery."
+        },
+        {
+          "p": "This issue has caused me a lot of stress. I need a clear plan on how you will prevent it.",
+          "m": "Xin lỗi về căng thẳng đã gây ra. Giải thích bạn sẽ đào tạo nhân viên lại và thực hiện kiểm tra chất lượng hàng tuần.",
+          "h": "Sử dụng 'I apologize for the stress.' và 'We will retrain staff and do weekly quality checks.'",
+          "s": "I apologize for the stress this caused. We will retrain our staff and do weekly quality checks."
+        }
+      ]
+    }
+  ]
+}

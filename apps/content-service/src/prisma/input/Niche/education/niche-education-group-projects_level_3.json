@@ -1,0 +1,635 @@
+{
+  "l": 3,
+  "d": [
+    {
+      "t": "Lập nhóm lần đầu",
+      "e": [
+        {
+          "p": "Can you tell us your name and class?",
+          "m": "1) Nói tên của bạn. 2) Nói lớp hoặc năm học bạn đang học.",
+          "h": "Dùng Present Simple: My name is ... / I am in + class/year.",
+          "s": "My name is [studentName]. I am in year 2 at [studentSchool]."
+        },
+        {
+          "p": "What job do you want to do in the project?",
+          "m": "1) Nói vai trò bạn thích (ví dụ: researcher, writer). 2) Nói lý do ngắn (1 câu).",
+          "h": "Dùng 'I want to' hoặc 'I can' + V; nối ý bằng 'because' hoặc 'and'.",
+          "s": "I want to be the writer because I like writing. I can check grammar and make slides."
+        },
+        {
+          "p": "When can you meet this week?",
+          "m": "1) Nói một ngày hoặc hai ngày bạn rảnh. 2) Nói thời gian buổi sáng/afternoon/evening.",
+          "h": "Dùng Present Simple cho lịch cố định: I am free on ... / in the morning/afternoon.",
+          "s": "I am free on Tuesday and Thursday. I prefer the afternoon after 3 pm."
+        },
+        {
+          "p": "Do you have any skills we need?",
+          "m": "1) Nói 1–2 kỹ năng bạn có (ví dụ: research, PowerPoint). 2) Nói bạn có thể giúp việc gì.",
+          "h": "Dùng 'I can' + V hoặc 'I have' + noun.",
+          "s": "I can do good research and I know PowerPoint. I can make slides and find sources."
+        },
+        {
+          "p": "Is there anything you cannot do?",
+          "m": "1) Nói 1 việc bạn không làm được. 2) Gợi ý bạn sẽ làm gì thay thế hoặc ai nên làm việc đó.",
+          "h": "Dùng 'I can't' hoặc 'I am not good at' và 'so' hoặc 'maybe'.",
+          "s": "I can't edit videos because I don't have software. So maybe someone else can do it or I will write the script."
+        }
+      ]
+    },
+    {
+      "t": "Phân công nhiệm vụ",
+      "e": [
+        {
+          "p": "Who will write the introduction?",
+          "m": "1) Nói ai sẽ viết phần intro (có thể là bạn). 2) Nói khi nào họ sẽ xong (ngày/ thời gian ngắn).",
+          "h": "Dùng 'will' cho tương lai: He/She/ I will + V; thêm 'by' hoặc 'on' để chỉ thời hạn.",
+          "s": "I will write the introduction. I will finish it by Friday evening."
+        },
+        {
+          "p": "Can you collect the research sources?",
+          "m": "1) Trả lời có thể hay không. 2) Nếu có, nói số nguồn hoặc thời hạn; nếu không, gợi ý ai khác.",
+          "h": "Dùng 'Yes, I can' hoặc 'No, I can't' + because / but + alternative.",
+          "s": "Yes, I can collect five sources by Thursday. If I am busy, Tom can help."
+        },
+        {
+          "p": "Should someone make the slides?",
+          "m": "1) Đưa ý kiến: ai nên làm slides hoặc nói bạn sẽ làm. 2) Nói lý do ngắn (1 câu).",
+          "h": "Dùng 'should' + V / 'I should' hoặc 'We should' + lý do with 'because'.",
+          "s": "We should ask Linh to make the slides because she is good at design. She will save us time."
+        },
+        {
+          "p": "Who will check the final draft?",
+          "m": "1) Nói ai kiểm tra bản cuối. 2) Nói bạn/chúng ta cần kiểm tra những gì (grammar, facts...).",
+          "h": "Dùng Present Simple cho phân công: He checks / We must check + nouns.",
+          "s": "Mai will check the final draft. We need to check grammar and facts."
+        },
+        {
+          "p": "If someone is late, what should we do?",
+          "m": "1) Đề xuất một quy tắc ngắn (ví dụ: báo trước). 2) Nói hậu quả ngắn nếu không làm (ví dụ: thay đổi lịch).",
+          "h": "Dùng 'should' hoặc 'must' + V; dùng 'or'/'so' để nối hậu quả.",
+          "s": "They should tell the team before the meeting. If not, we will change the schedule or start without them."
+        }
+      ]
+    },
+    {
+      "t": "Thảo luận ý tưởng cho bài thuyết trình",
+      "e": [
+        {
+          "p": "What topic can we choose?",
+          "m": "1) Đề xuất một chủ đề ngắn. 2) Nói lý do chính vì sao chủ đề tốt (1 câu).",
+          "h": "Dùng Present Simple: I suggest + noun/verb-ing; nối bằng 'because'.",
+          "s": "I suggest we choose 'Plastic Waste' because many students know the issue."
+        },
+        {
+          "p": "Can we compare two options?",
+          "m": "1) Nói một cặp để so sánh (ví dụ: online vs. offline). 2) Nói cái nào tốt hơn ngắn gọn và tại sao (comparative).",
+          "h": "Dùng comparatives: more + adj / adj-er + than.",
+          "s": "We can compare online learning and classroom learning. Classroom learning is more interactive than online learning."
+        },
+        {
+          "p": "Should we include statistics?",
+          "m": "1) Trả lời yes/no. 2) Nếu yes, nói nguồn hoặc số liệu ngắn bạn sẽ tìm.",
+          "h": "Dùng 'Yes, we should' + reason; dùng tương lai gần 'I will find' hoặc 'I can find'.",
+          "s": "Yes, we should include statistics. I will find recent data from government websites."
+        },
+        {
+          "p": "Who will make an outline?",
+          "m": "1) Đưa tên người làm outline hoặc bạn nhận làm. 2) Nói số phần chính của outline (ví dụ: 3 parts).",
+          "h": "Dùng 'will' cho tương lai: I will / He will + V; dùng số với 'parts'.",
+          "s": "I will make an outline. It will have three main parts: introduction, data, and conclusion."
+        },
+        {
+          "p": "If the topic is too big, what will we do?",
+          "m": "1) Đề xuất cách chia nhỏ chủ đề. 2) Nói ai làm phần nhỏ đó (assign).",
+          "h": "Dùng 'will' hoặc 'going to' cho kế hoạch; dùng 'divide' hoặc 'focus on'.",
+          "s": "We will divide the topic into smaller parts and each person focuses on one part. Tom will handle data and I will do solutions."
+        }
+      ]
+    },
+    {
+      "t": "Chia sẻ tiến độ công việc",
+      "e": [
+        {
+          "p": "How is your part going?",
+          "m": "1) Nói bạn đã làm đến đâu (ví dụ: started, half done, finished). 2) Nói khi nào bạn hoàn thành phần còn lại.",
+          "h": "Dùng Past Simple/Present Perfect: I have started / I finished; dùng 'by' cho hạn chót.",
+          "s": "I have finished the research part. I will finish the slides by Wednesday."
+        },
+        {
+          "p": "Did you find enough sources?",
+          "m": "1) Trả lời yes/no. 2) Nếu yes, nói số nguồn; nếu không, nói bạn cần bao nhiêu hơn.",
+          "h": "Dùng Past Simple cho hành động đã làm: I found ... / I didn't find ...",
+          "s": "Yes, I found six good sources. They are from recent articles and reports."
+        },
+        {
+          "p": "Are there any problems?",
+          "m": "1) Nói một vấn đề hiện có (ví dụ: file lost, thiếu thông tin). 2) Đề xuất một giải pháp ngắn.",
+          "h": "Dùng Present Simple hoặc Present Continuous; dùng 'so' hoặc 'we should' cho giải pháp.",
+          "s": "I have a problem with one file; it was corrupted. We should ask for the backup or rewrite that part."
+        },
+        {
+          "p": "Do you need help with editing?",
+          "m": "1) Trả lời có/không. 2) Nếu có, nói bạn cần giúp gì cụ thể (ví dụ: grammar, slide design).",
+          "h": "Dùng 'Yes, I need' hoặc 'No, I don't need' + noun or to-infinitive.",
+          "s": "Yes, I need help with grammar and slide design. Can someone check sentences and choose images?"
+        },
+        {
+          "p": "When will we review the whole draft?",
+          "m": "1) Đề xuất thời gian họp review. 2) Nói mục tiêu của buổi review (ví dụ: finish final edit).",
+          "h": "Dùng 'Let's' hoặc 'We will' + V; mục tiêu ngắn với 'to' + V.",
+          "s": "Let's review the draft on Friday evening. We will finish the final edit and prepare the presentation."
+        }
+      ]
+    },
+    {
+      "t": "Chuẩn bị tài liệu và slide",
+      "e": [
+        {
+          "p": "What information should be on slide 1?",
+          "m": "1) Nói nội dung chính của slide 1 (title, names). 2) Nói ai sẽ làm slide này.",
+          "h": "Dùng Present Simple: Slide 1 has ... / I will do it.",
+          "s": "Slide 1 has the title and all group member names. I will make slide 1."
+        },
+        {
+          "p": "How many slides do we need?",
+          "m": "1) Đưa số slides tổng (con số hợp lý). 2) Nói số slides cho phần chính (ví dụ: introduction, data, solution).",
+          "h": "Dùng 'We need' + number; nêu phần bằng 'for' hoặc ':'",
+          "s": "We need about eight slides in total. Three slides are for data and two for solutions."
+        },
+        {
+          "p": "Can someone make simple images?",
+          "m": "1) Trả lời bạn có thể hay không. 2) Nói loại hình ảnh bạn sẽ làm (chart, photo) và khi xong.",
+          "h": "Dùng 'I can' or 'I can't' + V; dùng 'by' cho thời hạn.",
+          "s": "I can make simple charts and add photos. I will finish them by Thursday."
+        },
+        {
+          "p": "Should we use bullet points or full sentences?",
+          "m": "1) Đưa ý kiến ngắn (bullet points or sentences). 2) Nói lý do ngắn để thuyết phục.",
+          "h": "Dùng 'should' + V và 'because' cho lý do.",
+          "s": "We should use bullet points because they are clearer and faster to read."
+        },
+        {
+          "p": "If a slide is too long, what will we do?",
+          "m": "1) Đề xuất cách rút ngắn (split, move to notes). 2) Nói ai sẽ chỉnh sửa slide đó.",
+          "h": "Dùng 'will' cho kế hoạch: We will split / move + to + notes.",
+          "s": "We will split the slide into two slides and move extra detail to notes. Mai will edit it."
+        }
+      ]
+    },
+    {
+      "t": "Tìm và kiểm tra thông tin",
+      "e": [
+        {
+          "p": "Where did you get that statistic?",
+          "m": "1) Nói nguồn (website, report). 2) Nói năm hoặc thời gian của nguồn ngắn gọn.",
+          "h": "Dùng Past Simple: I got it from ... in + year/date.",
+          "s": "I got it from a government website. It is from a 2022 report."
+        },
+        {
+          "p": "Is the source reliable?",
+          "m": "1) Trả lời yes/no. 2) Nói lý do ngắn (ví dụ: official site, author).",
+          "h": "Dùng 'Yes, it is' hoặc 'No, it isn't' + because ...",
+          "s": "Yes, it is reliable because it is an official government source. The author is a research institute."
+        },
+        {
+          "p": "Can you find a recent article about this?",
+          "m": "1) Trả lời bạn sẽ làm hay không. 2) Nếu làm, nói bạn sẽ tìm bài trong khoảng thời gian nào (last year, last month).",
+          "h": "Dùng 'I will' + V and time expressions like 'from last year' or 'recent'.",
+          "s": "I will find a recent article from the last year. I will bring it to the meeting on Wednesday."
+        },
+        {
+          "p": "What if we cannot find numbers?",
+          "m": "1) Đề xuất giải pháp (use estimates, compare countries). 2) Nói ai sẽ làm phần này.",
+          "h": "Dùng 'should' hoặc 'can' + V; dùng 'so' cho hậu quả.",
+          "s": "We should use estimates and compare with nearby countries. Tom can do this comparison."
+        },
+        {
+          "p": "Do we need to cite every fact?",
+          "m": "1) Trả lời yes/no. 2) Nêu cách đơn giản để trích dẫn (short note, link in notes).",
+          "h": "Dùng Present Simple: Yes, we must / No, we can; dùng 'by' hoặc 'in' để chỉ cách.",
+          "s": "Yes, we must cite facts. We can add short links in the slide notes."
+        }
+      ]
+    },
+    {
+      "t": "Gặp thầy/cô hướng dẫn",
+      "e": [
+        {
+          "p": "Can we meet you for feedback tomorrow?",
+          "m": "1) Hỏi có thể gặp ngày mai. 2) Nếu được, đề xuất thời gian ngắn (morning/afternoon).",
+          "h": "Dùng 'Can we' + V và 'tomorrow' + time of day.",
+          "s": "Can we meet tomorrow afternoon at 3 pm? That time works for our group."
+        },
+        {
+          "p": "Do you think our topic is suitable?",
+          "m": "1) Hỏi ý kiến thầy/cô. 2) Nếu không, hỏi gợi ý thay thế ngắn.",
+          "h": "Dùng Present Simple: Do you think ...? / If not, can you suggest ...?",
+          "s": "Do you think our topic is suitable or too broad? If it is broad, can you suggest a narrower focus?"
+        },
+        {
+          "p": "Should we use more data or more examples?",
+          "m": "1) Hỏi nên tăng data hay ví dụ. 2) Nói bạn sẽ điều chỉnh phần nào theo lời khuyên.",
+          "h": "Dùng 'should' + V; dùng 'I will' để nêu hành động tiếp theo.",
+          "s": "Should we use more data than examples? I will add more statistics if you suggest data."
+        },
+        {
+          "p": "Can we send the draft by email?",
+          "m": "1) Hỏi có thể gửi draft qua email. 2) Nêu khi nào bạn sẽ gửi (sớm nhất).",
+          "h": "Dùng 'Can we' + V và 'by' + time for deadline.",
+          "s": "Can we send the draft by email tonight? We will send it before 9 pm."
+        },
+        {
+          "p": "What is the most important thing to improve?",
+          "m": "1) Hỏi điều cần cải thiện nhất. 2) Hứa làm việc đó và ghi thời hạn ngắn.",
+          "h": "Dùng 'What is' + noun phrase; dùng 'I will' + V and 'by' + time.",
+          "s": "What is the most important thing to improve in our draft? I will fix it by Friday."
+        }
+      ]
+    },
+    {
+      "t": "Làm việc nhóm trực tuyến",
+      "e": [
+        {
+          "p": "Which app will we use for meetings?",
+          "m": "1) Chọn tên ứng dụng (Zoom, Teams...). 2) Nói lý do ngắn (easy, free).",
+          "h": "Dùng Future Simple hoặc Present Simple: We will use / We use ... because ...",
+          "s": "We will use Zoom because it is easy and free for our group."
+        },
+        {
+          "p": "Can you share the document link?",
+          "m": "1) Trả lời bạn sẽ chia sẻ hay không. 2) Nói bạn sẽ gửi link ở đâu (chat, email) và khi nào.",
+          "h": "Dùng 'I will' + V; dùng 'in' để chỉ vị trí: in the chat/email.",
+          "s": "I will share the document link in the group chat after this meeting."
+        },
+        {
+          "p": "Are you comfortable working late online?",
+          "m": "1) Nói có thoải mái hay không. 2) Nếu không, nêu thời gian bạn sẵn sàng làm (ví dụ: before 9 pm).",
+          "h": "Dùng 'I am' + adjective or 'I can't' and 'I can' with time.",
+          "s": "I am not comfortable working late online. I can work until 9 pm."
+        },
+        {
+          "p": "Should we record the meeting?",
+          "m": "1) Trả lời yes/no. 2) Nói lý do ngắn (review, absent members).",
+          "h": "Dùng 'should' + V; nối bằng 'because'.",
+          "s": "Yes, we should record the meeting because absent members can watch it later."
+        },
+        {
+          "p": "What will we do if someone has connection problems?",
+          "m": "1) Đề xuất cách xử lý (share notes, reschedule). 2) Nói ai sẽ gửi notes hoặc lo việc reschedule.",
+          "h": "Dùng 'will' cho kế hoạch; dùng 'so' hoặc 'or' cho lựa chọn.",
+          "s": "We will share meeting notes and a recording so they can catch up. I will send the notes."
+        }
+      ]
+    },
+    {
+      "t": "Xử lý xung đột nhóm",
+      "e": [
+        {
+          "p": "One member is not doing their work. What do you think?",
+          "m": "1) Nêu một cảm xúc ngắn (worried, surprised). 2) Đề xuất bước đầu giải quyết (talk to them).",
+          "h": "Dùng Present Simple hoặc Past Simple: I am worried / I was surprised; dùng 'we should' + V.",
+          "s": "I am worried because the work is late. We should talk to them and ask if they need help."
+        },
+        {
+          "p": "Should we change roles if someone is busy?",
+          "m": "1) Trả lời yes/no. 2) Nêu ai sẽ nhận thêm phần việc hoặc cách chia nhỏ phần việc.",
+          "h": "Dùng 'Yes, we should' or 'No, we can' + suggestion with 'so' or 'and'.",
+          "s": "Yes, we should change roles if someone is busy. Linh can take the research and I will do editing."
+        },
+        {
+          "p": "If someone disagrees with the idea, how will we decide?",
+          "m": "1) Đề xuất cách quyết định (vote, teacher decide). 2) Nói bạn đồng ý với cách đó hay không và vì sao.",
+          "h": "Dùng 'will' or 'should'; dùng 'because' cho lý do.",
+          "s": "We will vote and the majority chooses the idea. I agree because it is fair."
+        },
+        {
+          "p": "What if two people want the same job?",
+          "m": "1) Đưa giải pháp (share task, try both, teacher decide). 2) Nói bạn sẽ làm gì trong tình huống đó.",
+          "h": "Dùng 'can' hoặc 'should' + V; dùng 'so' cho kế hoạch của bạn.",
+          "s": "They can share the task and each do part of it. I will offer to do the second part if needed."
+        },
+        {
+          "p": "How do we keep the group motivated?",
+          "m": "1) Đề xuất 1–2 cách cụ thể (small rewards, clear deadlines). 2) Nói ai sẽ theo dõi tiến độ.",
+          "h": "Dùng 'should' + V và 'will' cho ai làm nhiệm vụ theo dõi.",
+          "s": "We should set clear deadlines and give small praise for good work. Tom will track the progress."
+        }
+      ]
+    },
+    {
+      "t": "Sắp xếp lịch trình và deadline",
+      "e": [
+        {
+          "p": "When is the project due?",
+          "m": "1) Nói ngày nộp. 2) Nói còn bao nhiêu thời gian (days/weeks).",
+          "h": "Dùng Present Simple cho lịch cố định: It is due on ... / There are ... days left.",
+          "s": "The project is due on May 10. There are two weeks left."
+        },
+        {
+          "p": "Can we set internal deadlines?",
+          "m": "1) Trả lời có/không. 2) Nếu có, đề xuất một deadline ngắn cho draft (ví dụ: next Monday).",
+          "h": "Dùng 'Yes, we can' + propose with 'by' + time.",
+          "s": "Yes, we can set internal deadlines. Let's finish the first draft by next Monday."
+        },
+        {
+          "p": "Who will remind the team before a deadline?",
+          "m": "1) Chỉ người nhắc nhở. 2) Nói cách họ sẽ nhắc (message, email) và khi nào (one day before).",
+          "h": "Dùng 'will' cho hành động trong tương lai: He will + V; dùng 'by' or 'one day before'.",
+          "s": "Mai will remind the team by message one day before the deadline."
+        },
+        {
+          "p": "If we miss a deadline, what must we do?",
+          "m": "1) Nêu việc cần làm (inform teacher, ask extension). 2) Nói ai sẽ làm việc đó.",
+          "h": "Dùng 'must' hoặc 'have to' + V and 'will' for who does it.",
+          "s": "We must inform the teacher and ask for an extension. Tom will send the email."
+        },
+        {
+          "p": "Is it better to finish early or just on time?",
+          "m": "1) Chọn tốt hơn (early/on time). 2) Nói lý do ngắn (more time to fix / no rush).",
+          "h": "Dùng comparatives hoặc 'better' + because.",
+          "s": "It is better to finish early because we have more time to fix mistakes. We will avoid last-minute rush."
+        }
+      ]
+    },
+    {
+      "t": "Thực hành thuyết trình trước nhóm",
+      "e": [
+        {
+          "p": "Can you practice your part now?",
+          "m": "1) Nói bạn có thể trình bày ngay hay không. 2) Nếu có, nêu bạn cần bao nhiêu phút.",
+          "h": "Dùng 'I can' + V and time with 'for' or 'in'.",
+          "s": "I can practice my part now. It will take about five minutes."
+        },
+        {
+          "p": "How will you start your presentation?",
+          "m": "1) Viết câu mở đầu ngắn cho phần bạn. 2) Nói mục tiêu bạn muốn khán giả nhớ (1 idea).",
+          "h": "Dùng Present Simple for opening sentence and 'I want people to remember...' for goal.",
+          "s": "Good morning. Today I will talk about plastic waste. I want people to remember simple solutions."
+        },
+        {
+          "p": "Can you speak louder or slower?",
+          "m": "1) Trả lời bạn sẽ nói to hơn hoặc chậm hơn. 2) Nêu một cách bạn sẽ cải thiện (practice, breathe).",
+          "h": "Dùng 'I will' + V (speak louder, speak more slowly) and reason with 'by' or 'with'.",
+          "s": "I will speak more slowly and louder. I will practice breathing and rehearse twice."
+        },
+        {
+          "p": "Should we use notes or memorize?",
+          "m": "1) Đưa lựa chọn ngắn (use notes or memorize). 2) Nói tại sao phương án đó tốt cho nhóm.",
+          "h": "Dùng 'should' + V and 'because' for reason.",
+          "s": "We should use short notes because they help us stay on track and reduce mistakes."
+        },
+        {
+          "p": "If someone forgets a line, what will you do?",
+          "m": "1) Đề xuất hành động (help them, skip). 2) Nói ai sẽ hỗ trợ ngay lập tức.",
+          "h": "Dùng 'will' for future action and 'we can' for suggestions.",
+          "s": "We will help them by giving a quick cue or moving to the next slide. I will give the cue if needed."
+        }
+      ]
+    },
+    {
+      "t": "Phản hồi và chỉnh sửa nhóm",
+      "e": [
+        {
+          "p": "Can you give feedback on my slides?",
+          "m": "1) Nói bạn có thể đưa feedback hay không. 2) Nêu 1 điểm bạn sẽ kiểm tra (design, content).",
+          "h": "Dùng 'Yes, I can' hoặc 'No, I can't' + reason; nêu point with 'about' or 'on'.",
+          "s": "Yes, I can give feedback. I will check the design and the clarity of each slide."
+        },
+        {
+          "p": "Do we need to change the conclusion?",
+          "m": "1) Trả lời yes/no. 2) Nếu có, đề xuất cách thay đổi ngắn (shorter, clearer).",
+          "h": "Dùng Present Simple: Yes, we should / No, we don't need; dùng adjective + 'er'.",
+          "s": "Yes, we should make the conclusion shorter and clearer. It will be easier to remember."
+        },
+        {
+          "p": "Who will correct language mistakes?",
+          "m": "1) Chỉ người sửa lỗi ngôn ngữ. 2) Nói khi họ sẽ xong sửa (deadline ngắn).",
+          "h": "Dùng 'will' cho phân công và 'by' cho thời hạn.",
+          "s": "I will correct the language mistakes. I will finish by Friday morning."
+        },
+        {
+          "p": "Is the data explanation clear enough?",
+          "m": "1) Trả lời rõ ràng hay không. 2) Nếu không, nêu 1 cách làm rõ (add example, explain graph).",
+          "h": "Dùng 'It is' hoặc 'It isn't' + reason; đề xuất với 'by' hoặc 'with'.",
+          "s": "It isn't clear enough because the graph has many numbers. We can add a simple example to explain it."
+        },
+        {
+          "p": "After edits, when will we finalize?",
+          "m": "1) Đưa thời hạn hoàn tất chỉnh sửa. 2) Nói ai sẽ kiểm tra lần cuối trước khi nộp.",
+          "h": "Dùng 'We will' + V and 'by' + time; nêu person with 'and' or 'who'.",
+          "s": "We will finalize the slides by Sunday night. Mai will check them one last time before submission."
+        }
+      ]
+    },
+    {
+      "t": "Trình bày trước lớp và trả lời câu hỏi",
+      "e": [
+        {
+          "p": "Can you present slide 3?",
+          "m": "1) Nói bạn sẽ trình bày slide 3 hay không. 2) Nêu 1 điểm chính bạn sẽ nói về slide đó.",
+          "h": "Dùng 'I will' + V and simple summary sentence.",
+          "s": "I will present slide 3. It explains the main causes of plastic pollution."
+        },
+        {
+          "p": "A student asks: Why is this important?",
+          "m": "1) Trả lời lý do ngắn. 2) Nêu một ví dụ thực tế ngắn (one sentence).",
+          "h": "Dùng Present Simple and 'for example' for example sentence.",
+          "s": "It is important because it affects health and the environment. For example, animals can eat plastic and get sick."
+        },
+        {
+          "p": "The teacher asks: What can students do?",
+          "m": "1) Đưa 2 cách cụ thể học sinh có thể làm. 2) Nói cách bạn sẽ khuyến khích họ (one sentence).",
+          "h": "Dùng 'They can' hoặc 'We can' + V; khuyến khích với 'I will' or 'You can'.",
+          "s": "Students can reduce plastic use and join clean-up events. I will encourage them by sharing simple tips."
+        },
+        {
+          "p": "Someone asks for more data. How will you answer?",
+          "m": "1) Nói bạn có thể cung cấp data không. 2) Nếu có, nói bạn sẽ gửi link hoặc show slide with data.",
+          "h": "Dùng 'I can' + V and future 'I will send' or 'I will show'.",
+          "s": "I can provide more data. I will send the links after the class."
+        },
+        {
+          "p": "What will you say if you don't know the answer?",
+          "m": "1) Nói câu lịch sự rằng bạn không biết. 2) Nói bạn sẽ tìm câu trả lời và khi nào gửi lại.",
+          "h": "Dùng 'I don't know' + but 'I will' + V and time 'by'.",
+          "s": "I don't know the exact answer, but I will find out and send it by tomorrow."
+        }
+      ]
+    },
+    {
+      "t": "Đánh giá kết quả và học từ trải nghiệm",
+      "e": [
+        {
+          "p": "How do you feel after the presentation?",
+          "m": "1) Nói cảm xúc ngắn (proud, tired). 2) Nói một điều bạn học được.",
+          "h": "Dùng Present Simple: I feel ...; dùng Past Simple hoặc Present Perfect for learning.",
+          "s": "I feel proud and a bit tired. I learned to manage time better."
+        },
+        {
+          "p": "What was the best part of our teamwork?",
+          "m": "1) Nói phần tốt nhất (communication, support). 2) Nói lý do ngắn vì sao nó tốt.",
+          "h": "Dùng Past Simple/Present Simple and 'because' for reason.",
+          "s": "The best part was our communication. It helped us finish tasks on time."
+        },
+        {
+          "p": "What should we do differently next time?",
+          "m": "1) Đưa 1 việc cần làm khác (start earlier). 2) Nói ai sẽ đảm nhận phần thay đổi đó.",
+          "h": "Dùng 'should' + V and 'will' for who does it.",
+          "s": "We should start earlier next time to avoid rush. I will make a timeline for the team."
+        },
+        {
+          "p": "Did the audience understand our main message?",
+          "m": "1) Trả lời yes/no. 2) Nếu không, nêu 1 cách để làm rõ hơn (simpler language, more examples).",
+          "h": "Dùng 'Yes, they did' hoặc 'No, they didn't' + suggestion with 'by' or 'with'.",
+          "s": "Yes, they understood our main message. If not, we can use simpler language and more examples."
+        },
+        {
+          "p": "Will you work with this group again?",
+          "m": "1) Nói có muốn hay không. 2) Nói lý do ngắn (experience, people).",
+          "h": "Dùng 'I will' hoặc 'I won't' + V and 'because' for reason.",
+          "s": "I will work with this group again because we cooperated well."
+        }
+      ]
+    },
+    {
+      "t": "Chuẩn bị cho nộp bài cuối cùng",
+      "e": [
+        {
+          "p": "Have we included all required parts?",
+          "m": "1) Trả lời yes/no. 2) Nếu không, nêu phần còn thiếu ngắn.",
+          "h": "Dùng Present Perfect/Present Simple: We have included / We haven't included ...",
+          "s": "Yes, we have included all required parts. The bibliography and appendix are ready."
+        },
+        {
+          "p": "Who will compile the final file?",
+          "m": "1) Chỉ người tổng hợp file. 2) Nói khi họ sẽ nộp (date/time).",
+          "h": "Dùng 'will' cho phân công và 'by' cho hạn chót.",
+          "s": "Tom will compile the final file. He will submit it by Monday morning."
+        },
+        {
+          "p": "Do we need a cover page?",
+          "m": "1) Trả lời có/không. 2) Nếu có, nêu nội dung trên cover (title, names, date).",
+          "h": "Dùng Present Simple: Yes, we do / No, we don't and list items with commas.",
+          "s": "Yes, we need a cover page with the title, group member names, and the date."
+        },
+        {
+          "p": "Can someone check the final format?",
+          "m": "1) Hỏi ai đó kiểm tra định dạng. 2) Nêu 1 việc họ cần kiểm tra (font, spacing).",
+          "h": "Dùng 'Can' + subject + V and list check items with 'and'.",
+          "s": "Can you check the final format? Please check the font and spacing."
+        },
+        {
+          "p": "After submission, what will we do?",
+          "m": "1) Đề xuất 1 việc sau nộp (rest, review feedback). 2) Nói khi nào bạn sẽ làm việc đó.",
+          "h": "Dùng 'We will' hoặc 'I will' + V and 'after' or 'then' time phrase.",
+          "s": "After submission, we will rest and then review feedback when it arrives next week."
+        }
+      ]
+    },
+    {
+      "t": "Ôn tập: Tạo nhóm và phân công",
+      "e": [
+        {
+          "p": "How did we choose our group roles originally?",
+          "m": "1) Nói cách nhóm phân công ban đầu (volunteer, decide together). 2) Nói một điểm tiện lợi của cách đó.",
+          "h": "Dùng Past Simple: We chose / We decided and 'because' for advantage.",
+          "s": "We decided roles together by volunteering. This was good because everyone did what they liked."
+        },
+        {
+          "p": "What tasks did each person take?",
+          "m": "1) Nói ngắn nhiệm vụ của một người (e.g., research). 2) Nói nhiệm vụ của một người khác (e.g., slides).",
+          "h": "Dùng Past Simple hoặc Present Simple for ongoing roles.",
+          "s": "Mai did the research. Tom made the slides."
+        },
+        {
+          "p": "Did we meet our internal deadlines?",
+          "m": "1) Trả lời yes/no. 2) Nếu không, nêu lý do ngắn và sửa lỗi cho lần sau.",
+          "h": "Dùng Past Simple: Yes, we met / No, we didn't; dùng 'because' and 'next time' for fix.",
+          "s": "No, we didn't meet one internal deadline because of connection problems. Next time we will set earlier dates."
+        },
+        {
+          "p": "What should we remember when assigning tasks next time?",
+          "m": "1) Đưa 1 tip ngắn (clear tasks). 2) Nói ai sẽ đảm bảo tip đó được thực hiện.",
+          "h": "Dùng 'should' + V and 'will' for who ensures it.",
+          "s": "We should write clear tasks with deadlines. I will make a simple task list next time."
+        },
+        {
+          "p": "How will we improve our first meeting?",
+          "m": "1) Nêu 1 thay đổi cho cuộc họp đầu (agenda, time). 2) Nói ai sẽ chuẩn bị thay đổi đó.",
+          "h": "Dùng 'will' cho kế hoạch and 'by' for who prepares.",
+          "s": "We will prepare a short agenda before the meeting. Tom will write and share it."
+        }
+      ]
+    },
+    {
+      "t": "Ôn tập: Thuyết trình và trả lời câu hỏi",
+      "e": [
+        {
+          "p": "What opening worked best in our talk?",
+          "m": "1) Nói 1 câu mở đầu tốt. 2) Nêu lý do nó hiệu quả (one short reason).",
+          "h": "Dùng Past Simple: It worked because ...",
+          "s": "The simple question opening worked best. It caught the audience's attention."
+        },
+        {
+          "p": "Which slide drew the most questions?",
+          "m": "1) Chỉ slide cụ thể ngắn. 2) Nói chủ đề của slide đó.",
+          "h": "Dùng Past Simple: Slide X drew ... and name the topic.",
+          "s": "Slide 4 drew the most questions. It showed the data on local waste."
+        },
+        {
+          "p": "How did we handle a difficult question?",
+          "m": "1) Mô tả 1 hành động bạn làm (ask for time, admit unknown). 2) Nêu điều theo sau (find answer later).",
+          "h": "Dùng Past Simple and 'we' or 'I' + future plan with 'will'.",
+          "s": "We asked for a moment to think and admitted we did not have the exact number. We will find the answer and send it later."
+        },
+        {
+          "p": "Would using more examples help?",
+          "m": "1) Trả lời yes/no. 2) Nêu 1 ví dụ bạn sẽ thêm.",
+          "h": "Dùng 'Yes, it would' or 'No, it wouldn't' and 'for example' to give example.",
+          "s": "Yes, it would help. For example, we can add a local case about a beach clean-up."
+        },
+        {
+          "p": "How will we prepare for Q&A next time?",
+          "m": "1) Đưa 1 bước chuẩn bị (list possible questions). 2) Nói ai sẽ làm bước đó.",
+          "h": "Dùng 'We will' + V and 'by' for who does it.",
+          "s": "We will list possible questions and short answers. Mai will prepare the list."
+        }
+      ]
+    },
+    {
+      "t": "Ôn tập: Giải quyết vấn đề và hoàn thiện bài",
+      "e": [
+        {
+          "p": "What problem caused the biggest delay?",
+          "m": "1) Nêu vấn đề chính (technical, absent member). 2) Nói một hậu quả ngắn (late tasks).",
+          "h": "Dùng Past Simple: The problem was ... and use 'so' for consequence.",
+          "s": "The problem was a team member's illness. So some tasks were late."
+        },
+        {
+          "p": "How did we fix the issue quickly?",
+          "m": "1) Mô tả 1 hành động đã làm (reassign tasks). 2) Nêu kết quả ngắn (task finished).",
+          "h": "Dùng Past Simple for actions and results.",
+          "s": "We reassigned tasks to other members. The work was finished on time."
+        },
+        {
+          "p": "What final checks did we do before submission?",
+          "m": "1) Liệt kê 1–2 việc đã kiểm tra (format, references). 2) Nói ai kiểm tra mỗi phần.",
+          "h": "Dùng Past Simple or Present Perfect and name persons with short roles.",
+          "s": "We checked the format and references. Tom checked the format and I checked the references."
+        },
+        {
+          "p": "If we get feedback, what will we do next?",
+          "m": "1) Nói hành động sẽ làm (revise, discuss). 2) Nêu thời hạn ngắn để làm việc đó.",
+          "h": "Dùng 'We will' + V and 'by' + time.",
+          "s": "We will revise the report and discuss changes in one meeting. We will finish revisions within three days."
+        },
+        {
+          "p": "What is one thing we are proud of in this project?",
+          "m": "1) Nói một thành tựu ngắn (good teamwork, clear slides). 2) Nói lý do ngắn vì sao bạn tự hào.",
+          "h": "Dùng Present Simple and 'because' for reason.",
+          "s": "I am proud of our teamwork because everyone helped and finished tasks well."
+        }
+      ]
+    }
+  ]
+}

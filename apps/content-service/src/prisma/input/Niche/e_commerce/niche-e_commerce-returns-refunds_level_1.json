@@ -1,0 +1,530 @@
+{
+  "l": 1,
+  "d": [
+    {
+      "t": "Yêu cầu trả hàng",
+      "e": [
+        {
+          "p": "Hello. How can I help you today?",
+          "m": "Nói rằng bạn muốn trả lại một món đồ.",
+          "h": "Dùng 'I want to return...' và một danh từ cơ bản.",
+          "s": "I want to return a book."
+        },
+        {
+          "p": "Okay. What is the item?",
+          "m": "Nêu tên một món đồ bạn muốn trả lại.",
+          "h": "Sử dụng 'It is a...'",
+          "s": "It is a red hat."
+        },
+        {
+          "p": "Is there a problem with it?",
+          "m": "Mô tả vấn đề đơn giản: nó bị hỏng.",
+          "h": "Dùng 'It is broken.'",
+          "s": "Yes, it is broken."
+        },
+        {
+          "p": "Do you have the receipt?",
+          "m": "Xác nhận bạn có hóa đơn.",
+          "h": "Dùng 'Yes, I do.' hoặc 'No, I don't.'",
+          "s": "Yes, I do. It is here."
+        },
+        {
+          "p": "What is your name?",
+          "m": "Nêu tên của bạn.",
+          "h": "Dùng 'My name is [studentName].'",
+          "s": "My name is [studentName]."
+        }
+      ]
+    },
+    {
+      "t": "Nói về sản phẩm bị lỗi",
+      "e": [
+        {
+          "p": "Hi there. What can I help you with?",
+          "m": "Nói rằng bạn cần giúp đỡ với một chiếc áo.",
+          "h": "Dùng 'I need help with a shirt.'",
+          "s": "I need help with a shirt."
+        },
+        {
+          "p": "What is wrong with the shirt?",
+          "m": "Nói rằng chiếc áo quá nhỏ.",
+          "h": "Dùng 'It is too small.'",
+          "s": "It is too small."
+        },
+        {
+          "p": "Can you show me the shirt?",
+          "m": "Xác nhận bạn có thể cho xem chiếc áo.",
+          "h": "Dùng 'Yes, I can.'",
+          "s": "Yes, I can. Here it is."
+        },
+        {
+          "p": "Is it a new shirt?",
+          "m": "Xác nhận chiếc áo là mới.",
+          "h": "Dùng 'Yes, it is new.'",
+          "s": "Yes, it is new."
+        },
+        {
+          "p": "When did you get this shirt?",
+          "m": "Nói bạn lấy chiếc áo này hôm nay.",
+          "h": "Dùng 'I get it today.'",
+          "s": "I get it today."
+        }
+      ]
+    },
+    {
+      "t": "Hỏi về quy định đổi trả",
+      "e": [
+        {
+          "p": "I see the problem. Do you want another one?",
+          "m": "Hỏi xem bạn có thể đổi lấy một chiếc áo màu xanh không.",
+          "h": "Dùng 'Can I get a blue one?'",
+          "s": "Can I get a blue one?"
+        },
+        {
+          "p": "We have blue shirts. Do you have the tag?",
+          "m": "Xác nhận bạn có tag (nhãn mác).",
+          "h": "Dùng 'Yes, I have the tag.'",
+          "s": "Yes, I have the tag."
+        },
+        {
+          "p": "Is this a gift?",
+          "m": "Nói rằng đây là một món quà.",
+          "h": "Dùng 'Yes, it is a gift.'",
+          "s": "Yes, it is a gift."
+        },
+        {
+          "p": "Okay. The price is ten dollars. Is that correct?",
+          "m": "Xác nhận giá là mười đô la.",
+          "h": "Dùng 'Yes, it is ten dollars.'",
+          "s": "Yes, it is ten dollars."
+        },
+        {
+          "p": "Do you need a bag for the new shirt?",
+          "m": "Nói rằng bạn không cần túi.",
+          "h": "Dùng 'No, I do not need a bag.'",
+          "s": "No, I do not need a bag."
+        }
+      ]
+    },
+    {
+      "t": "Các vấn đề thường gặp",
+      "e": [
+        {
+          "p": "Hello. What is wrong?",
+          "m": "Nói rằng chiếc giày quá lớn.",
+          "h": "Dùng 'The shoe is too big.'",
+          "s": "The shoe is too big."
+        },
+        {
+          "p": "Which shoe is it? Left or right?",
+          "m": "Nói rằng đó là chiếc giày bên trái.",
+          "h": "Dùng 'It is the left shoe.'",
+          "s": "It is the left shoe."
+        },
+        {
+          "p": "Is it a children's shoe or an adult's shoe?",
+          "m": "Nói đó là giày của trẻ em.",
+          "h": "Dùng 'It is a children's shoe.'",
+          "s": "It is a children's shoe."
+        },
+        {
+          "p": "Do you want to try a smaller size?",
+          "m": "Xác nhận bạn muốn thử một cỡ nhỏ hơn.",
+          "h": "Dùng 'Yes, I want to try a smaller size.'",
+          "s": "Yes, I want to try a smaller size."
+        },
+        {
+          "p": "Okay. We have size six. Is that good?",
+          "m": "Xác nhận kích cỡ sáu là tốt.",
+          "h": "Dùng 'Yes, size six is good.'",
+          "s": "Yes, size six is good."
+        }
+      ]
+    },
+    {
+      "t": "Trả lại đồ chơi",
+      "e": [
+        {
+          "p": "Hi. Can I help you with this toy?",
+          "m": "Nói rằng bạn muốn trả lại món đồ chơi này.",
+          "h": "Dùng 'I want to return this toy.'",
+          "s": "I want to return this toy."
+        },
+        {
+          "p": "What is the problem?",
+          "m": "Nói rằng món đồ chơi không hoạt động.",
+          "h": "Dùng 'It does not work.'",
+          "s": "It does not work."
+        },
+        {
+          "p": "Is it new? Or is it old?",
+          "m": "Nói rằng món đồ chơi là mới.",
+          "h": "Dùng 'It is new.'",
+          "s": "It is new."
+        },
+        {
+          "p": "Do you want your money back?",
+          "m": "Xác nhận bạn muốn lấy lại tiền.",
+          "h": "Dùng 'Yes, I want my money back.'",
+          "s": "Yes, I want my money back."
+        },
+        {
+          "p": "The toy costs five dollars. Is that right?",
+          "m": "Xác nhận giá năm đô la là đúng.",
+          "h": "Dùng 'Yes, it costs five dollars.'",
+          "s": "Yes, it costs five dollars."
+        }
+      ]
+    },
+    {
+      "t": "Đổi màu sản phẩm",
+      "e": [
+        {
+          "p": "Hello. What is the issue with this cup?",
+          "m": "Nói rằng bạn muốn một chiếc cốc màu xanh.",
+          "h": "Dùng 'I want a blue cup.'",
+          "s": "I want a blue cup."
+        },
+        {
+          "p": "This cup is red. Do you not like red?",
+          "m": "Nói rằng bạn không thích màu đỏ.",
+          "h": "Dùng 'No, I do not like red.'",
+          "s": "No, I do not like red."
+        },
+        {
+          "p": "We have blue, green, and yellow cups. Which one?",
+          "m": "Nói rằng bạn muốn chiếc cốc màu xanh.",
+          "h": "Dùng 'I want the blue cup.'",
+          "s": "I want the blue cup."
+        },
+        {
+          "p": "Do you want to exchange it now?",
+          "m": "Xác nhận bạn muốn đổi nó ngay bây giờ.",
+          "h": "Dùng 'Yes, I want to exchange it now.'",
+          "s": "Yes, I want to exchange it now."
+        },
+        {
+          "p": "Okay. Here is your blue cup. Is it good?",
+          "m": "Xác nhận chiếc cốc mới là tốt.",
+          "h": "Dùng 'Yes, it is good. Thank you.'",
+          "s": "Yes, it is good. Thank you."
+        }
+      ]
+    },
+    {
+      "t": "Hỏi về số lượng",
+      "e": [
+        {
+          "p": "Hi. You want to return some pens?",
+          "m": "Xác nhận bạn muốn trả lại một số bút.",
+          "h": "Dùng 'Yes, I want to return some pens.'",
+          "s": "Yes, I want to return some pens."
+        },
+        {
+          "p": "How many pens do you have?",
+          "m": "Nói rằng bạn có ba cây bút.",
+          "h": "Dùng 'I have three pens.'",
+          "s": "I have three pens."
+        },
+        {
+          "p": "Are the pens broken?",
+          "m": "Nói rằng những cây bút không hoạt động.",
+          "h": "Dùng 'No, they do not work.'",
+          "s": "No, they do not work."
+        },
+        {
+          "p": "Do you have the box for the pens?",
+          "m": "Xác nhận bạn có hộp đựng bút.",
+          "h": "Dùng 'Yes, I have the box.'",
+          "s": "Yes, I have the box."
+        },
+        {
+          "p": "What color are the pens?",
+          "m": "Nói rằng những cây bút có màu đen.",
+          "h": "Dùng 'They are black.'",
+          "s": "They are black."
+        }
+      ]
+    },
+    {
+      "t": "Trả lại thực phẩm",
+      "e": [
+        {
+          "p": "Hello. Is there a problem with this food?",
+          "m": "Nói rằng món ăn không ngon.",
+          "h": "Dùng 'It is not good.'",
+          "s": "No, it is not good."
+        },
+        {
+          "p": "What kind of food is it?",
+          "m": "Nói rằng đó là một chiếc bánh mì.",
+          "h": "Dùng 'It is bread.'",
+          "s": "It is bread."
+        },
+        {
+          "p": "When did you buy the bread?",
+          "m": "Nói rằng bạn mua nó hôm nay.",
+          "h": "Dùng 'I buy it today.'",
+          "s": "I buy it today."
+        },
+        {
+          "p": "Do you want other food?",
+          "m": "Xác nhận bạn không muốn đồ ăn khác.",
+          "h": "Dùng 'No, I do not want other food.'",
+          "s": "No, I do not want other food."
+        },
+        {
+          "p": "Okay. We can give your money back. Is that good?",
+          "m": "Xác nhận việc hoàn tiền là tốt.",
+          "h": "Dùng 'Yes, that is good. Thank you.'",
+          "s": "Yes, that is good. Thank you."
+        }
+      ]
+    },
+    {
+      "t": "Hoàn tiền hoặc đổi sản phẩm khác",
+      "e": [
+        {
+          "p": "So, the book is broken. What do you want?",
+          "m": "Hỏi xem bạn có thể lấy một cuốn sách khác không.",
+          "h": "Dùng 'Can I get another book?'",
+          "s": "Can I get another book?"
+        },
+        {
+          "p": "Yes, you can. Do you want the same book?",
+          "m": "Nói rằng bạn muốn một cuốn sách khác.",
+          "h": "Dùng 'No, I want a different book.'",
+          "s": "No, I want a different book."
+        },
+        {
+          "p": "What kind of book do you like?",
+          "m": "Nói rằng bạn thích sách lớn.",
+          "h": "Dùng 'I like big books.'",
+          "s": "I like big books."
+        },
+        {
+          "p": "Okay. Here is a big book. Is this good?",
+          "m": "Xác nhận cuốn sách này tốt.",
+          "h": "Dùng 'Yes, this is good.'",
+          "s": "Yes, this is good."
+        },
+        {
+          "p": "Do you need a new receipt for this book?",
+          "m": "Xác nhận bạn không cần hóa đơn mới.",
+          "h": "Dùng 'No, I do not need a new receipt.'",
+          "s": "No, I do not need a new receipt."
+        }
+      ]
+    },
+    {
+      "t": "Trả lại sản phẩm không mong muốn",
+      "e": [
+        {
+          "p": "Hi. You want to return this toy car?",
+          "m": "Xác nhận bạn muốn trả lại chiếc ô tô đồ chơi.",
+          "h": "Dùng 'Yes, I want to return this toy car.'",
+          "s": "Yes, I want to return this toy car."
+        },
+        {
+          "p": "Is it broken?",
+          "m": "Nói rằng nó không bị hỏng, nhưng bạn không thích nó.",
+          "h": "Dùng 'No, it is not broken. I do not like it.'",
+          "s": "No, it is not broken. I do not like it."
+        },
+        {
+          "p": "Did you buy it today?",
+          "m": "Nói rằng bạn mua nó hôm nay.",
+          "h": "Dùng 'Yes, I buy it today.'",
+          "s": "Yes, I buy it today."
+        },
+        {
+          "p": "Do you want to look for another toy?",
+          "m": "Nói rằng bạn không muốn đồ chơi khác.",
+          "h": "Dùng 'No, I do not want another toy.'",
+          "s": "No, I do not want another toy."
+        },
+        {
+          "p": "We can give you store credit. Is that okay?",
+          "m": "Xác nhận phiếu mua hàng là được.",
+          "h": "Dùng 'Yes, store credit is okay.'",
+          "s": "Yes, store credit is okay."
+        }
+      ]
+    },
+    {
+      "t": "Xác nhận thông tin trả hàng",
+      "e": [
+        {
+          "p": "Hello. I need some details for your return.",
+          "m": "Nói rằng bạn hiểu.",
+          "h": "Dùng 'Okay, I understand.'",
+          "s": "Okay, I understand."
+        },
+        {
+          "p": "What is the item you return?",
+          "m": "Nêu tên món đồ: một chiếc điện thoại (phone).",
+          "h": "Dùng 'It is a phone.'",
+          "s": "It is a phone."
+        },
+        {
+          "p": "What color is the phone?",
+          "m": "Nói rằng chiếc điện thoại có màu đen.",
+          "h": "Dùng 'It is black.'",
+          "s": "It is black."
+        },
+        {
+          "p": "Is the phone good? Or is it bad?",
+          "m": "Nói rằng chiếc điện thoại không tốt.",
+          "h": "Dùng 'It is not good.'",
+          "s": "It is not good."
+        },
+        {
+          "p": "Do you want a refund or a new phone?",
+          "m": "Nói rằng bạn muốn một chiếc điện thoại mới.",
+          "h": "Dùng 'I want a new phone.'",
+          "s": "I want a new phone."
+        }
+      ]
+    },
+    {
+      "t": "Hoàn tiền cho khách hàng",
+      "e": [
+        {
+          "p": "Okay. The refund is for a small hat.",
+          "m": "Xác nhận bạn muốn hoàn tiền cho một chiếc mũ nhỏ.",
+          "h": "Dùng 'Yes, a small hat.'",
+          "s": "Yes, a small hat."
+        },
+        {
+          "p": "The hat is five dollars. Is that correct?",
+          "m": "Xác nhận giá năm đô la.",
+          "h": "Dùng 'Yes, five dollars.'",
+          "s": "Yes, five dollars."
+        },
+        {
+          "p": "Is your name [studentName]?",
+          "m": "Xác nhận tên của bạn.",
+          "h": "Dùng 'Yes, it is [studentName].'",
+          "s": "Yes, it is [studentName]."
+        },
+        {
+          "p": "Do you want the money on your card?",
+          "m": "Xác nhận bạn muốn tiền vào thẻ của bạn.",
+          "h": "Dùng 'Yes, on my card.'",
+          "s": "Yes, on my card."
+        },
+        {
+          "p": "The refund is complete. Do you need a receipt?",
+          "m": "Nói rằng bạn cần hóa đơn.",
+          "h": "Dùng 'Yes, I need a receipt.'",
+          "s": "Yes, I need a receipt."
+        }
+      ]
+    },
+    {
+      "t": "Ôn tập: Xử lý đổi hàng",
+      "e": [
+        {
+          "p": "Hello. What can I do for you?",
+          "m": "Nói rằng bạn muốn đổi một chiếc váy.",
+          "h": "Dùng 'I want to exchange a dress.'",
+          "s": "I want to exchange a dress."
+        },
+        {
+          "p": "What is the problem with the dress?",
+          "m": "Nói rằng chiếc váy quá dài.",
+          "h": "Dùng 'It is too long.'",
+          "s": "It is too long."
+        },
+        {
+          "p": "Do you have the receipt and the tag?",
+          "m": "Xác nhận bạn có cả hóa đơn và tag.",
+          "h": "Dùng 'Yes, I have the receipt and the tag.'",
+          "s": "Yes, I have the receipt and the tag."
+        },
+        {
+          "p": "What color dress do you want?",
+          "m": "Nói rằng bạn muốn một chiếc váy màu xanh lá cây.",
+          "h": "Dùng 'I want a green dress.'",
+          "s": "I want a green dress."
+        },
+        {
+          "p": "Okay. Here is the green dress. Is it good?",
+          "m": "Xác nhận chiếc váy mới rất đẹp.",
+          "h": "Dùng 'Yes, it is very good. Thank you.'",
+          "s": "Yes, it is very good. Thank you."
+        }
+      ]
+    },
+    {
+      "t": "Ôn tập: Hoàn tiền sản phẩm lỗi",
+      "e": [
+        {
+          "p": "Good morning. What can I help you with?",
+          "m": "Nói rằng bạn muốn hoàn tiền cho một chiếc máy ảnh.",
+          "h": "Dùng 'I want a refund for a camera.'",
+          "s": "I want a refund for a camera."
+        },
+        {
+          "p": "Is the camera broken?",
+          "m": "Xác nhận chiếc máy ảnh bị hỏng.",
+          "h": "Dùng 'Yes, it is broken.'",
+          "s": "Yes, it is broken."
+        },
+        {
+          "p": "Did you buy the camera today?",
+          "m": "Nói rằng bạn mua nó hôm nay.",
+          "h": "Dùng 'Yes, I buy it today.'",
+          "s": "Yes, I buy it today."
+        },
+        {
+          "p": "Do you have the box for the camera?",
+          "m": "Xác nhận bạn có hộp.",
+          "h": "Dùng 'Yes, I have the box.'",
+          "s": "Yes, I have the box."
+        },
+        {
+          "p": "The camera is twenty dollars. Is that okay?",
+          "m": "Xác nhận hai mươi đô la là được.",
+          "h": "Dùng 'Yes, twenty dollars is okay.'",
+          "s": "Yes, twenty dollars is okay."
+        }
+      ]
+    },
+    {
+      "t": "Ôn tập: Vấn đề với kích cỡ",
+      "e": [
+        {
+          "p": "Hi there. What is the problem with your new pants?",
+          "m": "Nói rằng chiếc quần quá lớn.",
+          "h": "Dùng 'The pants are too big.'",
+          "s": "The pants are too big."
+        },
+        {
+          "p": "Do you want a smaller size?",
+          "m": "Xác nhận bạn muốn một cỡ nhỏ hơn.",
+          "h": "Dùng 'Yes, I want a smaller size.'",
+          "s": "Yes, I want a smaller size."
+        },
+        {
+          "p": "What color are your pants?",
+          "m": "Nói rằng quần của bạn có màu xanh dương.",
+          "h": "Dùng 'They are blue.'",
+          "s": "They are blue."
+        },
+        {
+          "p": "Do you have your receipt?",
+          "m": "Xác nhận bạn có hóa đơn.",
+          "h": "Dùng 'Yes, I have my receipt.'",
+          "s": "Yes, I have my receipt."
+        },
+        {
+          "p": "Okay. We have size eight. Is that good?",
+          "m": "Nói rằng cỡ tám là tốt.",
+          "h": "Dùng 'Yes, size eight is good.'",
+          "s": "Yes, size eight is good."
+        }
+      ]
+    }
+  ]
+}

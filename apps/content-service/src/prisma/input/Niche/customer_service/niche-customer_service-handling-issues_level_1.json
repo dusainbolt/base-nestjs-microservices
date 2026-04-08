@@ -1,0 +1,530 @@
+{
+  "l": 1,
+  "d": [
+    {
+      "t": "Mua đồ mới",
+      "e": [
+        {
+          "p": "Is this new?",
+          "m": "Nói 'Yes, I want to buy it.'",
+          "h": "S + want + to + V",
+          "s": "Yes, I want to buy it."
+        },
+        {
+          "p": "How much is this?",
+          "m": "Nói giá bằng số, ví dụ 'It is 50.'",
+          "h": "It + be + number",
+          "s": "It is 50."
+        },
+        {
+          "p": "Can I try this?",
+          "m": "Nói 'Yes, I can.' hoặc 'No, I can't.' (chọn 1)",
+          "h": "S + can/can't + V",
+          "s": "Yes, I can."
+        },
+        {
+          "p": "What color do you want?",
+          "m": "Nói một màu đơn giản (red/blue/green).",
+          "h": "I + want + color",
+          "s": "I want red."
+        },
+        {
+          "p": "Do you need a bag?",
+          "m": "Nói 'Yes, please.' hoặc 'No, thanks.' (chọn 1)",
+          "h": "Yes/no + please/thanks",
+          "s": "Yes, please."
+        }
+      ]
+    },
+    {
+      "t": "Sản phẩm không hoạt động",
+      "e": [
+        {
+          "p": "Is it working?",
+          "m": "Nói 'No, it does not work.'",
+          "h": "S + do/does + not + V",
+          "s": "No, it does not work."
+        },
+        {
+          "p": "Can you show the problem?",
+          "m": "Nói 'It is not on.'",
+          "h": "S + be + not + adj",
+          "s": "It is not on."
+        },
+        {
+          "p": "Do you want help?",
+          "m": "Nói 'Yes, I want help.' hoặc 'No, thanks.' (chọn 1)",
+          "h": "I + want + N",
+          "s": "Yes, I want help."
+        },
+        {
+          "p": "Can I test it now?",
+          "m": "Nói 'Yes, you can.' hoặc 'No, you can't.' (chọn 1)",
+          "h": "S + can/can't + V",
+          "s": "Yes, you can."
+        },
+        {
+          "p": "Do you need a new one?",
+          "m": "Nói 'I want a new one.'",
+          "h": "I + want + a + new + one",
+          "s": "I want a new one."
+        }
+      ]
+    },
+    {
+      "t": "Gọi điện cho cửa hàng",
+      "e": [
+        {
+          "p": "Hello, can I help you?",
+          "m": "Nói 'I have a problem with my item.'",
+          "h": "I + have + a + N",
+          "s": "I have a problem with my item."
+        },
+        {
+          "p": "What is your name?",
+          "m": "Nói tên của bạn (dùng [studentName] nếu cần).",
+          "h": "My name + be + [studentName]",
+          "s": "My name is [studentName]."
+        },
+        {
+          "p": "When did you buy it?",
+          "m": "Nói 'I buy it today.'",
+          "h": "S + buy + O",
+          "s": "I buy it today."
+        },
+        {
+          "p": "Can you come to the store?",
+          "m": "Nói 'No, I can't come.' hoặc 'Yes, I can.' (chọn 1)",
+          "h": "S + can/can't + V",
+          "s": "No, I can't come."
+        },
+        {
+          "p": "Do you want a refund or a new item?",
+          "m": "Chọn một: nói 'I want money back.' hoặc 'I want a new item.'",
+          "h": "I + want + N",
+          "s": "I want money back."
+        }
+      ]
+    },
+    {
+      "t": "Trả hàng và yêu cầu đổi",
+      "e": [
+        {
+          "p": "Can I return this?",
+          "m": "Nói 'Yes, you can.' hoặc 'No, you can't.' (chọn 1)",
+          "h": "S + can/can't + V",
+          "s": "Yes, you can."
+        },
+        {
+          "p": "Do you have the receipt?",
+          "m": "Nói 'Yes, I have it.' hoặc 'No, I do not have it.' (chọn 1)",
+          "h": "S + have / do not have + O",
+          "s": "Yes, I have it."
+        },
+        {
+          "p": "What is wrong with it?",
+          "m": "Nói 'It does not work.'",
+          "h": "It + does not + V",
+          "s": "It does not work."
+        },
+        {
+          "p": "Do you want to exchange for the same item?",
+          "m": "Nói 'Yes, I want the same.' hoặc 'No, I want a new one.' (chọn 1)",
+          "h": "I + want + the + same / a + new + one",
+          "s": "No, I want a new one."
+        },
+        {
+          "p": "Do you want help to choose?",
+          "m": "Nói 'Yes, please.' hoặc 'No, thanks.' (chọn 1)",
+          "h": "Yes/no + please/thanks",
+          "s": "Yes, please."
+        }
+      ]
+    },
+    {
+      "t": "Đặt lịch sửa chữa",
+      "e": [
+        {
+          "p": "Hello, can we fix it?",
+          "m": "Nói 'Yes, please fix it.' hoặc 'No, I don't want to fix.' (chọn 1)",
+          "h": "Yes/no + please + V",
+          "s": "Yes, please fix it."
+        },
+        {
+          "p": "When can you bring it?",
+          "m": "Nói 'I can bring it today.' hoặc 'I can bring it tomorrow.' (chọn 1)",
+          "h": "I + can + V + time",
+          "s": "I can bring it today."
+        },
+        {
+          "p": "How long is the repair?",
+          "m": "Nói 'It is one day.'",
+          "h": "It + be + number + day(s)",
+          "s": "It is one day."
+        },
+        {
+          "p": "Can you wait in the shop?",
+          "m": "Nói 'No, I can't wait.' hoặc 'Yes, I can wait.' (chọn 1)",
+          "h": "S + can/can't + V",
+          "s": "No, I can't wait."
+        },
+        {
+          "p": "Do you want the item back or a new one?",
+          "m": "Nói 'No, I want it back.'",
+          "h": "I + want + it + back",
+          "s": "No, I want it back."
+        }
+      ]
+    },
+    {
+      "t": "Yêu cầu hoàn tiền",
+      "e": [
+        {
+          "p": "Can I get my money back?",
+          "m": "Nói 'Yes, you can.' hoặc 'No, you can't.' (chọn 1)",
+          "h": "S + can/can't + V",
+          "s": "Yes, you can."
+        },
+        {
+          "p": "Do you have the card?",
+          "m": "Nói 'Yes, I have the card.' hoặc 'No, I don't have it.' (chọn 1)",
+          "h": "I + have / I + do not + have",
+          "s": "Yes, I have the card."
+        },
+        {
+          "p": "How do you want the money?",
+          "m": "Nói 'I want cash.'",
+          "h": "I + want + N",
+          "s": "I want cash."
+        },
+        {
+          "p": "Did you pay by card?",
+          "m": "Nói 'Yes, I pay by card.' hoặc 'No, I pay cash.' (chọn 1)",
+          "h": "S + pay + by + N",
+          "s": "Yes, I pay by card."
+        },
+        {
+          "p": "Can we give you the money now?",
+          "m": "Nói 'Yes, give me the money now.'",
+          "h": "Yes + give + me + the + N",
+          "s": "Yes, give me the money now."
+        }
+      ]
+    },
+    {
+      "t": "Sản phẩm bị hỏng khi giao",
+      "e": [
+        {
+          "p": "Is the box broken?",
+          "m": "Nói 'Yes, the box is broken.' hoặc 'No, it is OK.' (chọn 1)",
+          "h": "The + N + be + adj",
+          "s": "Yes, the box is broken."
+        },
+        {
+          "p": "Is the item inside OK?",
+          "m": "Nói 'No, it does not work.'",
+          "h": "It + does not + V",
+          "s": "No, it does not work."
+        },
+        {
+          "p": "Can you take a photo?",
+          "m": "Nói 'Yes, I take a photo.' hoặc 'No, I do not.' (chọn 1)",
+          "h": "I + take + a + photo / I + do not + V",
+          "s": "Yes, I take a photo."
+        },
+        {
+          "p": "Can we replace it now?",
+          "m": "Nói 'Yes, I want a new one.'",
+          "h": "I + want + a + new + one",
+          "s": "Yes, I want a new one."
+        },
+        {
+          "p": "Do you want a refund?",
+          "m": "Nói 'I want money back.'",
+          "h": "I + want + money + back",
+          "s": "I want money back."
+        }
+      ]
+    },
+    {
+      "t": "Dịch vụ khách hàng thân thiện",
+      "e": [
+        {
+          "p": "How can I help you?",
+          "m": "Nói 'I have a problem.'",
+          "h": "I + have + a + N",
+          "s": "I have a problem."
+        },
+        {
+          "p": "Do you like our service?",
+          "m": "Nói 'Yes, it is good.' hoặc 'No, it is bad.' (chọn 1)",
+          "h": "It + be + adj",
+          "s": "Yes, it is good."
+        },
+        {
+          "p": "Can we call you later?",
+          "m": "Nói 'Yes, you can call me.'",
+          "h": "You + can + V + me",
+          "s": "Yes, you can call me."
+        },
+        {
+          "p": "Do you need help now?",
+          "m": "Nói 'Yes, I need help now.'",
+          "h": "I + need + N + time",
+          "s": "Yes, I need help now."
+        },
+        {
+          "p": "Do you want a phone number?",
+          "m": "Nói 'Yes, I want the number.'",
+          "h": "I + want + the + N",
+          "s": "Yes, I want the number."
+        }
+      ]
+    },
+    {
+      "t": "Vấn đề với hóa đơn",
+      "e": [
+        {
+          "p": "Is the price right?",
+          "m": "Nói 'No, the price is wrong.'",
+          "h": "The + N + be + adj",
+          "s": "No, the price is wrong."
+        },
+        {
+          "p": "Do you have the bill?",
+          "m": "Nói 'Yes, I have the bill.'",
+          "h": "I + have + the + N",
+          "s": "Yes, I have the bill."
+        },
+        {
+          "p": "Can you show the bill?",
+          "m": "Nói 'Here is the bill.'",
+          "h": "Here + be + the + N",
+          "s": "Here is the bill."
+        },
+        {
+          "p": "Do you want a new bill?",
+          "m": "Nói 'Yes, I want a new bill.'",
+          "h": "I + want + a + new + N",
+          "s": "Yes, I want a new bill."
+        },
+        {
+          "p": "Do you want money for the extra price?",
+          "m": "Nói 'I want money back.'",
+          "h": "I + want + money + back",
+          "s": "I want money back."
+        }
+      ]
+    },
+    {
+      "t": "Phản hồi về chất lượng",
+      "e": [
+        {
+          "p": "Is the product good?",
+          "m": "Nói 'No, it is bad.'",
+          "h": "It + be + adj",
+          "s": "No, it is bad."
+        },
+        {
+          "p": "Do you like the color?",
+          "m": "Nói 'I like red.'",
+          "h": "I + like + color",
+          "s": "I like red."
+        },
+        {
+          "p": "Can you tell one problem?",
+          "m": "Nói 'It is small.'",
+          "h": "It + be + adj",
+          "s": "It is small."
+        },
+        {
+          "p": "Do you want a new one because of quality?",
+          "m": "Nói 'Yes, I want a new one.'",
+          "h": "I + want + a + new + one",
+          "s": "Yes, I want a new one."
+        },
+        {
+          "p": "Will you buy again?",
+          "m": "Nói 'No, I do not buy again.'",
+          "h": "S + do/does + not + V",
+          "s": "No, I do not buy again."
+        }
+      ]
+    },
+    {
+      "t": "Sự chậm trễ trong giao hàng",
+      "e": [
+        {
+          "p": "Is your item late?",
+          "m": "Nói 'Yes, it is late.'",
+          "h": "It + be + adj",
+          "s": "Yes, it is late."
+        },
+        {
+          "p": "Do you know the delivery day?",
+          "m": "Nói 'I do not know.'",
+          "h": "I + do not + know",
+          "s": "I do not know."
+        },
+        {
+          "p": "Can we give you a new date?",
+          "m": "Nói 'Yes, give me the new date.'",
+          "h": "Give + me + the + N",
+          "s": "Yes, give me the new date."
+        },
+        {
+          "p": "Do you need it today?",
+          "m": "Nói 'Yes, I need it today.'",
+          "h": "I + need + O + time",
+          "s": "Yes, I need it today."
+        },
+        {
+          "p": "Do you want money back for delay?",
+          "m": "Nói 'I want money back.'",
+          "h": "I + want + money + back",
+          "s": "I want money back."
+        }
+      ]
+    },
+    {
+      "t": "Trợ giúp tại cửa hàng",
+      "e": [
+        {
+          "p": "Can I help you find something?",
+          "m": "Nói 'I need a new book.'",
+          "h": "I + need + a + new + N",
+          "s": "I need a new book."
+        },
+        {
+          "p": "Do you want a small or big size?",
+          "m": "Nói 'I want big size.'",
+          "h": "I + want + adj + N",
+          "s": "I want big size."
+        },
+        {
+          "p": "Can you pay now?",
+          "m": "Nói 'Yes, I can pay now.'",
+          "h": "S + can + V + now",
+          "s": "Yes, I can pay now."
+        },
+        {
+          "p": "Do you have a card?",
+          "m": "Nói 'Yes, I have a card.'",
+          "h": "I + have + a + N",
+          "s": "Yes, I have a card."
+        },
+        {
+          "p": "Do you want help to carry it?",
+          "m": "Nói 'No, I can carry it.'",
+          "h": "I + can + V + O",
+          "s": "No, I can carry it."
+        }
+      ]
+    },
+    {
+      "t": "Ôn tập: Trả hàng và hoàn tiền",
+      "e": [
+        {
+          "p": "Can I return this item?",
+          "m": "Nói 'Yes, you can return it.'",
+          "h": "Yes + you + can + V + O",
+          "s": "Yes, you can return it."
+        },
+        {
+          "p": "Do you have the receipt and the card?",
+          "m": "Nói 'Yes, I have the receipt and the card.'",
+          "h": "I + have + N and N",
+          "s": "Yes, I have the receipt and the card."
+        },
+        {
+          "p": "Is the item not working?",
+          "m": "Nói 'No, it does not work.'",
+          "h": "It + does not + V",
+          "s": "No, it does not work."
+        },
+        {
+          "p": "Do you want a new one or money?",
+          "m": "Nói 'I want a new one.'",
+          "h": "I + want + a + new + one",
+          "s": "I want a new one."
+        },
+        {
+          "p": "Can we give you money now?",
+          "m": "Nói 'Yes, give me the money now.'",
+          "h": "Yes + give + me + the + N",
+          "s": "Yes, give me the money now."
+        }
+      ]
+    },
+    {
+      "t": "Ôn tập: Sửa chữa và hỗ trợ",
+      "e": [
+        {
+          "p": "Do you need repair?",
+          "m": "Nói 'Yes, I need repair.'",
+          "h": "I + need + N",
+          "s": "Yes, I need repair."
+        },
+        {
+          "p": "When can you bring it to us?",
+          "m": "Nói 'I can bring it today.'",
+          "h": "I + can + V + time",
+          "s": "I can bring it today."
+        },
+        {
+          "p": "Can we keep it one day?",
+          "m": "Nói 'It is one day.'",
+          "h": "It + be + number + day(s)",
+          "s": "It is one day."
+        },
+        {
+          "p": "Do you want a loan item now?",
+          "m": "Nói 'No, I do not want a new item now.'",
+          "h": "I + do not + want + a + new + item",
+          "s": "No, I do not want a new item now."
+        },
+        {
+          "p": "Can we call you when it is ready?",
+          "m": "Nói 'Yes, you can call me.'",
+          "h": "You + can + V + me",
+          "s": "Yes, you can call me."
+        }
+      ]
+    },
+    {
+      "t": "Ôn tập: Giao tiếp với khách hàng",
+      "e": [
+        {
+          "p": "How can I help?",
+          "m": "Nói 'I have a problem with my item.'",
+          "h": "I + have + a + N",
+          "s": "I have a problem with my item."
+        },
+        {
+          "p": "What do you want?",
+          "m": "Nói 'I want money back.'",
+          "h": "I + want + money + back",
+          "s": "I want money back."
+        },
+        {
+          "p": "Do you have the receipt?",
+          "m": "Nói 'No, I do not have it.'",
+          "h": "I + do not + have + O",
+          "s": "No, I do not have it."
+        },
+        {
+          "p": "Can you wait in the store now?",
+          "m": "Nói 'No, I can't wait now.'",
+          "h": "I + can't + V + now",
+          "s": "No, I can't wait now."
+        },
+        {
+          "p": "Do you like our help?",
+          "m": "Nói 'Yes, I like your help.'",
+          "h": "I + like + N",
+          "s": "Yes, I like your help."
+        }
+      ]
+    }
+  ]
+}

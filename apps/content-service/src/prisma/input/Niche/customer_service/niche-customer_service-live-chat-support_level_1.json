@@ -1,0 +1,559 @@
+{
+  "l": {
+    "lvl": 1,
+    "code": "BEGINNER",
+    "desc": "Câu đơn rất cơ bản, chỉ truyền đạt 1 ý",
+    "req": {
+      "gram": "S + be (am/is/are) + N/Adj, S + V(s/es) + O, S + can/can't + V, There is/are, What/Who/Where + be...?, Do/Does + S + V?",
+      "vocab": "Nghề nghiệp, gia đình, đồ vật, số đếm, màu sắc, hàng ngày",
+      "vocabCap": {
+        "cefr": "A1",
+        "maxWords": 300,
+        "allowed": [
+          "Danh từ cơ bản: mother, father, sister, brother, friend, school, house, book, food, water, dog, cat",
+          "Động từ phổ biến nhất: be, have, go, come, like, want, eat, drink, play, study, work, live, see",
+          "Tính từ đơn giản (1 âm tiết): big, small, good, bad, hot, cold, happy, sad, old, young, tall, short",
+          "Số đếm: 1-100",
+          "Màu sắc cơ bản: red, blue, green, yellow, white, black",
+          "Thời gian đơn giản: today, now, every day, morning, night"
+        ],
+        "avoid": [
+          "Từ nhiều âm tiết phức tạp (ví dụ: independent, environment, professional)",
+          "Phrasal verbs (ví dụ: get up, look after)",
+          "Idioms, thành ngữ",
+          "Từ chuyên ngành hoặc từ hiếm gặp"
+        ]
+      },
+      "conn": "Không yêu cầu",
+      "tense": "Present Simple",
+      "cmplx": "Rất thấp"
+    }
+  },
+  "d": [
+    {
+      "t": "Chào hỏi khách hàng",
+      "e": [
+        {
+          "p": "Hello. I need help.",
+          "m": "Chào lại và hỏi bạn có thể giúp gì.",
+          "h": "Dùng 'Hello' và 'How can I help you?'",
+          "s": "Hello. How can I help you?"
+        },
+        {
+          "p": "Good morning. I have a question.",
+          "m": "Chào lại và nói bạn sẵn sàng giúp đỡ.",
+          "h": "Dùng 'Good morning' và 'I can help.'",
+          "s": "Good morning. I can help."
+        },
+        {
+          "p": "Hi there. Are you available?",
+          "m": "Xác nhận bạn đang ở đây và hỏi khách hàng muốn gì.",
+          "h": "Dùng 'Yes, I am here.' và 'What do you want?'",
+          "s": "Yes, I am here. What do you want?"
+        },
+        {
+          "p": "Hello. My computer is slow.",
+          "m": "Chào lại và nói bạn sẽ xem xét vấn đề.",
+          "h": "Dùng 'Hello.' và 'I can look at it.'",
+          "s": "Hello. I can look at it."
+        },
+        {
+          "p": "Good afternoon. I want to buy a book.",
+          "m": "Chào lại và hỏi tên của khách hàng.",
+          "h": "Dùng 'Good afternoon.' và 'What is your name?'",
+          "s": "Good afternoon. What is your name?"
+        }
+      ]
+    },
+    {
+      "t": "Hỏi về yêu cầu đơn giản",
+      "e": [
+        {
+          "p": "I need to know about a product.",
+          "m": "Hỏi tên sản phẩm đó là gì.",
+          "h": "Dùng 'What is the product name?'",
+          "s": "What is the product name?"
+        },
+        {
+          "p": "My order is late.",
+          "m": "Hỏi số đơn hàng của khách hàng.",
+          "h": "Dùng 'What is your order number?'",
+          "s": "What is your order number?"
+        },
+        {
+          "p": "I want to return an item.",
+          "m": "Hỏi mặt hàng đó là gì.",
+          "h": "Dùng 'What is the item?'",
+          "s": "What is the item?"
+        },
+        {
+          "p": "Can you help me find a store?",
+          "m": "Hỏi tên thành phố của cửa hàng.",
+          "h": "Dùng 'What is the city name?'",
+          "s": "What is the city name?"
+        },
+        {
+          "p": "I need to talk to someone.",
+          "m": "Hỏi khách hàng muốn nói chuyện với ai (tên người).",
+          "h": "Dùng 'Who do you want to talk to?'",
+          "s": "Who do you want to talk to?"
+        }
+      ]
+    },
+    {
+      "t": "Xác định vấn đề cơ bản",
+      "e": [
+        {
+          "p": "My internet is not working.",
+          "m": "Hỏi internet có bị chậm không.",
+          "h": "Dùng 'Is your internet slow?'",
+          "s": "Is your internet slow?"
+        },
+        {
+          "p": "I cannot log in.",
+          "m": "Hỏi tên người dùng có đúng không.",
+          "h": "Dùng 'Is your username correct?'",
+          "s": "Is your username correct?"
+        },
+        {
+          "p": "My phone is black.",
+          "m": "Hỏi điện thoại có bật nguồn không.",
+          "h": "Dùng 'Is your phone on?'",
+          "s": "Is your phone on?"
+        },
+        {
+          "p": "I want to change my password.",
+          "m": "Hỏi khách hàng có biết mật khẩu cũ không.",
+          "h": "Dùng 'Do you know your old password?'",
+          "s": "Do you know your old password?"
+        },
+        {
+          "p": "The website does not open.",
+          "m": "Hỏi bạn có thể kiểm tra trang web này không.",
+          "h": "Dùng 'Can I check the website?'",
+          "s": "Can I check the website?"
+        }
+      ]
+    },
+    {
+      "t": "Cung cấp thông tin trực tiếp",
+      "e": [
+        {
+          "p": "Is the store open now?",
+          "m": "Xác nhận cửa hàng đang mở.",
+          "h": "Dùng 'Yes, it is open.'",
+          "s": "Yes, it is open."
+        },
+        {
+          "p": "Can I buy tickets here?",
+          "m": "Xác nhận rằng họ có thể mua vé ở đây.",
+          "h": "Dùng 'Yes, you can buy tickets here.'",
+          "s": "Yes, you can buy tickets here."
+        },
+        {
+          "p": "Do you have blue shirts?",
+          "m": "Xác nhận cửa hàng có áo sơ mi màu xanh.",
+          "h": "Dùng 'Yes, we have blue shirts.'",
+          "s": "Yes, we have blue shirts."
+        },
+        {
+          "p": "Is my package ready?",
+          "m": "Nói gói hàng chưa sẵn sàng.",
+          "h": "Dùng 'No, it is not ready.'",
+          "s": "No, it is not ready."
+        },
+        {
+          "p": "Can I speak to a manager?",
+          "m": "Nói người quản lý không có ở đây bây giờ.",
+          "h": "Dùng 'The manager is not here now.'",
+          "s": "The manager is not here now."
+        }
+      ]
+    },
+    {
+      "t": "Hỏi và trả lời về giờ mở cửa",
+      "e": [
+        {
+          "p": "What time do you open today?",
+          "m": "Nói cửa hàng mở cửa lúc 9 giờ sáng.",
+          "h": "Dùng 'We open at 9 AM.'",
+          "s": "We open at 9 AM."
+        },
+        {
+          "p": "What time do you close?",
+          "m": "Nói cửa hàng đóng cửa lúc 6 giờ chiều.",
+          "h": "Dùng 'We close at 6 PM.'",
+          "s": "We close at 6 PM."
+        },
+        {
+          "p": "Is the shop open on Sunday?",
+          "m": "Nói cửa hàng không mở cửa vào Chủ nhật.",
+          "h": "Dùng 'No, it is not open on Sunday.'",
+          "s": "No, it is not open on Sunday."
+        },
+        {
+          "p": "When is your store open?",
+          "m": "Nói cửa hàng mở cửa từ thứ Hai đến thứ Bảy.",
+          "h": "Dùng 'We are open from Monday to Saturday.'",
+          "s": "We are open from Monday to Saturday."
+        },
+        {
+          "p": "I want to visit on Friday. Is it open?",
+          "m": "Xác nhận cửa hàng mở cửa vào thứ Sáu.",
+          "h": "Dùng 'Yes, it is open on Friday.'",
+          "s": "Yes, it is open on Friday."
+        }
+      ]
+    },
+    {
+      "t": "Xác nhận thông tin liên hệ",
+      "e": [
+        {
+          "p": "Can I give you my email?",
+          "m": "Hỏi địa chỉ email của khách hàng.",
+          "h": "Dùng 'What is your email address?'",
+          "s": "What is your email address?"
+        },
+        {
+          "p": "My phone number is 123-4567.",
+          "m": "Xác nhận lại số điện thoại đó.",
+          "h": "Dùng 'Is this your phone number?'",
+          "s": "Is this your phone number?"
+        },
+        {
+          "p": "I need to update my address.",
+          "m": "Hỏi địa chỉ mới là gì.",
+          "h": "Dùng 'What is your new address?'",
+          "s": "What is your new address?"
+        },
+        {
+          "p": "My name is [studentName].",
+          "m": "Xác nhận lại tên khách hàng.",
+          "h": "Dùng 'Is your name [studentName]?'",
+          "s": "Is your name [studentName]?"
+        },
+        {
+          "p": "Is your name [studentName]?",
+          "m": "Xác nhận tên bạn là [studentName].",
+          "h": "Dùng 'Yes, my name is [studentName].'",
+          "s": "Yes, my name is [studentName]."
+        }
+      ]
+    },
+    {
+      "t": "Giới thiệu dịch vụ cơ bản",
+      "e": [
+        {
+          "p": "What services do you have?",
+          "m": "Nói bạn có dịch vụ sửa máy tính.",
+          "h": "Dùng 'We have computer repair service.'",
+          "s": "We have computer repair service."
+        },
+        {
+          "p": "Can you help with phone problems?",
+          "m": "Xác nhận bạn có thể giúp với các vấn đề về điện thoại.",
+          "h": "Dùng 'Yes, we can help with phone problems.'",
+          "s": "Yes, we can help with phone problems."
+        },
+        {
+          "p": "I want to learn English. Do you teach?",
+          "m": "Nói bạn có các lớp học tiếng Anh.",
+          "h": "Dùng 'We have English classes.'",
+          "s": "We have English classes."
+        },
+        {
+          "p": "Do you sell books?",
+          "m": "Nói bạn bán sách mới và cũ.",
+          "h": "Dùng 'We sell new and old books.'",
+          "s": "We sell new and old books."
+        },
+        {
+          "p": "Is there a cost for help?",
+          "m": "Nói giúp đỡ là miễn phí.",
+          "h": "Dùng 'Help is free.'",
+          "s": "Help is free."
+        }
+      ]
+    },
+    {
+      "t": "Hướng dẫn hành động đơn giản",
+      "e": [
+        {
+          "p": "What should I do first?",
+          "m": "Yêu cầu khách hàng nhấp vào đây.",
+          "h": "Dùng 'Please click here.'",
+          "s": "Please click here."
+        },
+        {
+          "p": "I cannot find the button.",
+          "m": "Yêu cầu khách hàng nhìn ở phía trên.",
+          "h": "Dùng 'Please look at the top.'",
+          "s": "Please look at the top."
+        },
+        {
+          "p": "How do I open the app?",
+          "m": "Yêu cầu khách hàng nhấp vào biểu tượng.",
+          "h": "Dùng 'Please click the icon.'",
+          "s": "Please click the icon."
+        },
+        {
+          "p": "Where do I type my name?",
+          "m": "Yêu cầu khách hàng viết tên vào đây.",
+          "h": "Dùng 'Please write your name here.'",
+          "s": "Please write your name here."
+        },
+        {
+          "p": "I want to check my email.",
+          "m": "Hướng dẫn khách hàng mở trình duyệt và truy cập trang web email.",
+          "h": "Dùng 'Open your browser. Go to your email website.'",
+          "s": "Open your browser. Go to your email website."
+        }
+      ]
+    },
+    {
+      "t": "Nói về khả năng hỗ trợ",
+      "e": [
+        {
+          "p": "Can you fix my computer now?",
+          "m": "Nói bạn có thể giúp sửa máy tính nhưng không phải bây giờ.",
+          "h": "Dùng 'I can help with your computer. But not now.'",
+          "s": "I can help with your computer. But not now."
+        },
+        {
+          "p": "I need a new battery. Can you send one?",
+          "m": "Nói bạn không thể gửi pin nhưng có thể giúp tìm cửa hàng.",
+          "h": "Dùng 'I cannot send a battery. I can help find a store.'",
+          "s": "I cannot send a battery. I can help find a store."
+        },
+        {
+          "p": "My internet is very slow. Can you make it fast?",
+          "m": "Nói bạn có thể kiểm tra internet nhưng không thể làm nó nhanh ngay lập tức.",
+          "h": "Dùng 'I can check your internet. I cannot make it fast now.'",
+          "s": "I can check your internet. I cannot make it fast now."
+        },
+        {
+          "p": "Can I pay with cash?",
+          "m": "Nói bạn không chấp nhận tiền mặt.",
+          "h": "Dùng 'We cannot take cash.'",
+          "s": "We cannot take cash."
+        },
+        {
+          "p": "I want to talk to a person.",
+          "m": "Nói bạn là người hỗ trợ và bạn có thể giúp.",
+          "h": "Dùng 'I am the support person. I can help you.'",
+          "s": "I am the support person. I can help you."
+        }
+      ]
+    },
+    {
+      "t": "Xử lý yêu cầu mua sắm nhỏ",
+      "e": [
+        {
+          "p": "Do you have this shirt in red?",
+          "m": "Xác nhận bạn có áo màu đỏ.",
+          "h": "Dùng 'Yes, we have the red shirt.'",
+          "s": "Yes, we have the red shirt."
+        },
+        {
+          "p": "How much is this book?",
+          "m": "Nói cuốn sách giá 10 đô la.",
+          "h": "Dùng 'The book is 10 dollars.'",
+          "s": "The book is 10 dollars."
+        },
+        {
+          "p": "Can I buy a gift card?",
+          "m": "Xác nhận bạn có thẻ quà tặng.",
+          "h": "Dùng 'Yes, we have gift cards.'",
+          "s": "Yes, we have gift cards."
+        },
+        {
+          "p": "Do you have a discount?",
+          "m": "Nói bạn không có giảm giá bây giờ.",
+          "h": "Dùng 'No, we do not have a discount now.'",
+          "s": "No, we do not have a discount now."
+        },
+        {
+          "p": "I want to buy a small cup.",
+          "m": "Hỏi khách hàng muốn màu gì.",
+          "h": "Dùng 'What color do you want?'",
+          "s": "What color do you want?"
+        }
+      ]
+    },
+    {
+      "t": "Thông báo tình trạng đơn hàng",
+      "e": [
+        {
+          "p": "Is my order here?",
+          "m": "Nói đơn hàng của bạn đang trên đường.",
+          "h": "Dùng 'Your order is on the way.'",
+          "s": "Your order is on the way."
+        },
+        {
+          "p": "When will my order arrive?",
+          "m": "Nói nó sẽ đến vào ngày mai.",
+          "h": "Dùng 'It will arrive tomorrow.'",
+          "s": "It will arrive tomorrow."
+        },
+        {
+          "p": "I need to change my order.",
+          "m": "Hỏi số đơn hàng.",
+          "h": "Dùng 'What is your order number?'",
+          "s": "What is your order number?"
+        },
+        {
+          "p": "My order is not correct.",
+          "m": "Nói bạn có thể kiểm tra đơn hàng.",
+          "h": "Dùng 'I can check your order.'",
+          "s": "I can check your order."
+        },
+        {
+          "p": "Can I track my package?",
+          "m": "Nói bạn có thể gửi cho khách hàng một liên kết.",
+          "h": "Dùng 'I can send you a link.'",
+          "s": "I can send you a link."
+        }
+      ]
+    },
+    {
+      "t": "Giúp tìm kiếm thông tin",
+      "e": [
+        {
+          "p": "Where can I find information about returns?",
+          "m": "Hướng dẫn khách hàng tìm thông tin trên trang web.",
+          "h": "Dùng 'You can find information on the website.'",
+          "s": "You can find information on the website."
+        },
+        {
+          "p": "I need the product manual.",
+          "m": "Nói khách hàng có thể tìm thấy nó trực tuyến.",
+          "h": "Dùng 'You can find it online.'",
+          "s": "You can find it online."
+        },
+        {
+          "p": "What is your phone number?",
+          "m": "Yêu cầu khách hàng xem ở cuối trang.",
+          "h": "Dùng 'Please look at the bottom of the page.'",
+          "s": "Please look at the bottom of the page."
+        },
+        {
+          "p": "Is there a list of stores?",
+          "m": "Xác nhận có một danh sách các cửa hàng.",
+          "h": "Dùng 'Yes, there is a list of stores.'",
+          "s": "Yes, there is a list of stores."
+        },
+        {
+          "p": "How do I contact you?",
+          "m": "Nói khách hàng có thể gửi email cho bạn.",
+          "h": "Dùng 'You can send us an email.'",
+          "s": "You can send us an email."
+        }
+      ]
+    },
+    {
+      "t": "Ôn tập: Hỗ trợ khách hàng cơ bản",
+      "e": [
+        {
+          "p": "Hello. My printer is not working.",
+          "m": "Chào lại, hỏi tên khách hàng và bạn có thể giúp gì.",
+          "h": "Dùng 'Hello, what is your name? How can I help you?'",
+          "s": "Hello. What is your name? How can I help you?"
+        },
+        {
+          "p": "My name is [studentName]. I want to fix my printer.",
+          "m": "Xác nhận bạn có thể giúp sửa máy in.",
+          "h": "Dùng 'Yes, I can help fix your printer.'",
+          "s": "Yes, I can help fix your printer."
+        },
+        {
+          "p": "Is your store open on Saturday?",
+          "m": "Xác nhận cửa hàng mở cửa vào thứ Bảy và hỏi bạn có thể giúp gì khác không.",
+          "h": "Dùng 'Yes, it is open on Saturday. What else can I help you with?'",
+          "s": "Yes, it is open on Saturday. What else can I help you with?"
+        },
+        {
+          "p": "I need to return this blue shirt.",
+          "m": "Hỏi số đơn hàng của áo sơ mi.",
+          "h": "Dùng 'What is the order number for the blue shirt?'",
+          "s": "What is the order number for the blue shirt?"
+        },
+        {
+          "p": "My order number is 123. Can you check it?",
+          "m": "Nói bạn sẽ kiểm tra đơn hàng và yêu cầu đợi một chút.",
+          "h": "Dùng 'I can check your order. Please wait a moment.'",
+          "s": "I can check your order. Please wait a moment."
+        }
+      ]
+    },
+    {
+      "t": "Ôn tập: Phản hồi nhanh chóng",
+      "e": [
+        {
+          "p": "Good morning. I want to ask a question.",
+          "m": "Chào lại và hỏi câu hỏi là gì.",
+          "h": "Dùng 'Good morning. What is your question?'",
+          "s": "Good morning. What is your question?"
+        },
+        {
+          "p": "My account is locked. What can I do?",
+          "m": "Nói bạn có thể giúp mở khóa tài khoản.",
+          "h": "Dùng 'I can help unlock your account.'",
+          "s": "I can help unlock your account."
+        },
+        {
+          "p": "Is there a phone number for support?",
+          "m": "Nói bạn là hỗ trợ trực tuyến và có thể giúp ở đây.",
+          "h": "Dùng 'I am online support. I can help here.'",
+          "s": "I am online support. I can help here."
+        },
+        {
+          "p": "My package is late. Is it still coming?",
+          "m": "Nói gói hàng vẫn đang trên đường và sẽ đến vào ngày mai.",
+          "h": "Dùng 'Yes, your package is still on the way. It will arrive tomorrow.'",
+          "s": "Yes, your package is still on the way. It will arrive tomorrow."
+        },
+        {
+          "p": "Thank you for your help!",
+          "m": "Nói bạn rất vui được giúp đỡ.",
+          "h": "Dùng 'You are welcome. I am happy to help.'",
+          "s": "You are welcome. I am happy to help."
+        }
+      ]
+    },
+    {
+      "t": "Ôn tập: Giao tiếp trực tuyến",
+      "e": [
+        {
+          "p": "Hi, I need some information about your store.",
+          "m": "Chào lại, hỏi tên khách hàng và thông tin gì.",
+          "h": "Dùng 'Hi, what is your name? What information do you want?'",
+          "s": "Hi. What is your name? What information do you want?"
+        },
+        {
+          "p": "My name is [studentName]. I want to know your address.",
+          "m": "Cung cấp địa chỉ (ví dụ: 123 Main Street, [studentCity]).",
+          "h": "Dùng 'Our address is 123 Main Street, [studentCity].'",
+          "s": "Our address is 123 Main Street, [studentCity]."
+        },
+        {
+          "p": "Can I buy a red hat there?",
+          "m": "Xác nhận bạn có mũ màu đỏ.",
+          "h": "Dùng 'Yes, we have a red hat.'",
+          "s": "Yes, we have a red hat."
+        },
+        {
+          "p": "My internet is bad. Can you help me fix it?",
+          "m": "Nói bạn có thể kiểm tra cài đặt internet.",
+          "h": "Dùng 'I can check your internet settings.'",
+          "s": "I can check your internet settings."
+        },
+        {
+          "p": "Thank you. You are a great help!",
+          "m": "Cảm ơn và chúc khách hàng một ngày tốt lành.",
+          "h": "Dùng 'You are welcome. Have a good day!'",
+          "s": "You are welcome. Have a good day!"
+        }
+      ]
+    }
+  ]
+}

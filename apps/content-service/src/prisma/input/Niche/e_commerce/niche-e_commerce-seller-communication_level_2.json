@@ -1,0 +1,530 @@
+{
+  "l": 2,
+  "d": [
+    {
+      "t": "Hỏi về món đồ và giá cả",
+      "e": [
+        {
+          "p": "Hello! How can I help you today?",
+          "m": "Hỏi đây là cái gì. Hỏi nó có màu gì.",
+          "h": "Dùng 'What is this?' và 'What color is it?'",
+          "s": "What is this? What color is it?"
+        },
+        {
+          "p": "This is a blue cup. It is very nice.",
+          "m": "Hỏi cái cốc này giá bao nhiêu. Nói bạn thích nó.",
+          "h": "Dùng 'How much is it?' và 'I like it.'",
+          "s": "How much is it? I like it."
+        },
+        {
+          "p": "It is five dollars. Do you want it?",
+          "m": "Nói bạn muốn một cái cốc màu đỏ. Hỏi cửa hàng có cốc màu đỏ không.",
+          "h": "Dùng 'I want a red cup' và 'Do you have red cups?'",
+          "s": "I want a red cup. Do you have red cups?"
+        },
+        {
+          "p": "Sorry, we only have blue cups now. This blue one is big.",
+          "m": "Nói bạn không thích màu xanh. Hỏi cửa hàng có cốc nhỏ hơn không.",
+          "h": "Dùng 'I don't like blue' và 'Do you have a smaller cup?'",
+          "s": "I don't like blue. Do you have a smaller cup?"
+        },
+        {
+          "p": "No, this is our smallest cup. It is very good for coffee.",
+          "m": "Nói bạn không cần cốc. Cảm ơn người bán.",
+          "h": "Dùng 'I don't need a cup' và 'Thank you.'",
+          "s": "I don't need a cup. Thank you."
+        }
+      ]
+    },
+    {
+      "t": "Mua sắm đồ ăn hàng ngày",
+      "e": [
+        {
+          "p": "Welcome! What are you looking for?",
+          "m": "Nói bạn cần sữa. Hỏi sữa ở đâu.",
+          "h": "Dùng 'I need milk' và 'Where is the milk?'",
+          "s": "I need milk. Where is the milk?"
+        },
+        {
+          "p": "The milk is over there, next to the bread. Do you need anything else?",
+          "m": "Nói bạn cần trứng. Hỏi trứng có tươi không.",
+          "h": "Dùng 'I need eggs' và 'Are they fresh?'",
+          "s": "I need eggs. Are they fresh?"
+        },
+        {
+          "p": "Yes, they are very fresh. How many eggs do you want?",
+          "m": "Nói bạn muốn 6 quả trứng. Hỏi giá của chúng.",
+          "h": "Dùng 'I want six eggs' và 'How much are they?'",
+          "s": "I want six eggs. How much are they?"
+        },
+        {
+          "p": "Six eggs are two dollars. Are you buying fruit today?",
+          "m": "Nói bạn thích táo. Hỏi táo có to không.",
+          "h": "Dùng 'I like apples' và 'Are they big?'",
+          "s": "I like apples. Are they big?"
+        },
+        {
+          "p": "Yes, these red apples are very big and sweet. I think you will enjoy them.",
+          "m": "Nói bạn sẽ mua 2 quả táo. Cảm ơn người bán.",
+          "h": "Dùng 'I will buy two apples' và 'Thank you.'",
+          "s": "I will buy two apples. Thank you."
+        }
+      ]
+    },
+    {
+      "t": "Tìm kiếm quần áo mới",
+      "e": [
+        {
+          "p": "Hi! Are you looking for a new shirt?",
+          "m": "Nói bạn cần một chiếc áo phông. Hỏi cửa hàng có áo phông màu xanh không.",
+          "h": "Dùng 'I need a T-shirt' và 'Do you have blue T-shirts?'",
+          "s": "I need a T-shirt. Do you have blue T-shirts?"
+        },
+        {
+          "p": "Yes, we have many blue T-shirts. They are over here.",
+          "m": "Hỏi cái áo phông này giá bao nhiêu. Nói bạn thích nó.",
+          "h": "Dùng 'How much is this T-shirt?' và 'I like it.'",
+          "s": "How much is this T-shirt? I like it."
+        },
+        {
+          "p": "It is ten dollars. This T-shirt is very soft and comfortable.",
+          "m": "Nói bạn muốn một chiếc áo phông to hơn. Hỏi có chiếc nào to hơn không.",
+          "h": "Dùng 'I want a bigger T-shirt' và 'Do you have a bigger one?'",
+          "s": "I want a bigger T-shirt. Do you have a bigger one?"
+        },
+        {
+          "p": "Yes, we have bigger sizes in the back. Do you like this red jacket?",
+          "m": "Nói bạn không thích áo khoác đỏ. Hỏi cửa hàng có áo khoác đen không.",
+          "h": "Dùng 'I don't like the red jacket' và 'Do you have a black jacket?'",
+          "s": "I don't like the red jacket. Do you have a black jacket?"
+        },
+        {
+          "p": "Sorry, we only have red and brown jackets now. Our black jackets are sold out.",
+          "m": "Nói bạn không cần áo khoác. Nói bạn sẽ quay lại sau.",
+          "h": "Dùng 'I don't need a jacket' và 'I will come back later.'",
+          "s": "I don't need a jacket. I will come back later."
+        }
+      ]
+    },
+    {
+      "t": "Hỏi thông tin về đồ điện tử",
+      "e": [
+        {
+          "p": "Good morning! Are you looking for a new phone?",
+          "m": "Nói bạn đang tìm một chiếc máy tính nhỏ. Hỏi cửa hàng có cái nào không.",
+          "h": "Dùng 'I am looking for a small computer' và 'Do you have any?'",
+          "s": "I am looking for a small computer. Do you have any?"
+        },
+        {
+          "p": "Yes, we have a very small computer here. It is good and fast.",
+          "m": "Hỏi chiếc máy tính giá bao nhiêu. Hỏi nó có màu gì.",
+          "h": "Dùng 'How much is the computer?' và 'What color is it?'",
+          "s": "How much is the computer? What color is it?"
+        },
+        {
+          "p": "It is four hundred dollars, and it is black. This one is very popular.",
+          "m": "Nói bạn thích màu đen. Hỏi máy tính có nặng không.",
+          "h": "Dùng 'I like black' và 'Is the computer heavy?'",
+          "s": "I like black. Is the computer heavy?"
+        },
+        {
+          "p": "No, it is not heavy; it is very light. We also have nice headphones.",
+          "m": "Hỏi tai nghe giá bao nhiêu. Hỏi chúng có tốt không.",
+          "h": "Dùng 'How much are the headphones?' và 'Are they good?'",
+          "s": "How much are the headphones? Are they good?"
+        },
+        {
+          "p": "These headphones are thirty dollars. They are very good for music. Many people love them.",
+          "m": "Nói bạn muốn mua tai nghe. Cảm ơn người bán.",
+          "h": "Dùng 'I want to buy the headphones' và 'Thank you.'",
+          "s": "I want to buy the headphones. Thank you."
+        }
+      ]
+    },
+    {
+      "t": "Tìm kiếm quà tặng",
+      "e": [
+        {
+          "p": "Hello! Do you need help finding a gift?",
+          "m": "Nói bạn cần một món quà cho em gái. Hỏi có sách nào hay không.",
+          "h": "Dùng 'I need a gift for my sister' và 'Do you have good books?'",
+          "s": "I need a gift for my sister. Do you have good books?"
+        },
+        {
+          "p": "Yes, we have many good books. What kind of books does she like?",
+          "m": "Nói em gái bạn thích sách về động vật. Hỏi có sách nào về mèo không.",
+          "h": "Dùng 'She likes animal books' và 'Do you have books about cats?'",
+          "s": "She likes animal books. Do you have books about cats?"
+        },
+        {
+          "p": "Yes, we have some funny books about cats. This one is very popular.",
+          "m": "Hỏi cuốn sách đó giá bao nhiêu. Nói bạn muốn xem nó.",
+          "h": "Dùng 'How much is that book?' và 'I want to see it.'",
+          "s": "How much is that book? I want to see it."
+        },
+        {
+          "p": "It is fifteen dollars. It has many pretty pictures. Do you think she will like it?",
+          "m": "Nói bạn nghĩ em gái sẽ thích nó. Hỏi có giấy gói quà không.",
+          "h": "Dùng 'I think she will like it' và 'Do you have gift paper?'",
+          "s": "I think she will like it. Do you have gift paper?"
+        },
+        {
+          "p": "Yes, we always have gift paper. It is free with the book. Is there anything else?",
+          "m": "Nói không có gì nữa. Cảm ơn người bán và nói tạm biệt.",
+          "h": "Dùng 'No, that is all' và 'Thank you, goodbye.'",
+          "s": "No, that is all. Thank you, goodbye."
+        }
+      ]
+    },
+    {
+      "t": "Đặt món tại quán cà phê",
+      "e": [
+        {
+          "p": "Good afternoon! What can I get for you?",
+          "m": "Nói bạn muốn một ly cà phê nóng. Hỏi có bánh ngọt nào không.",
+          "h": "Dùng 'I want a hot coffee' và 'Do you have any cake?'",
+          "s": "I want a hot coffee. Do you have any cake?"
+        },
+        {
+          "p": "Yes, we have chocolate cake and apple cake. They are very delicious.",
+          "m": "Nói bạn thích bánh táo. Hỏi giá của một miếng bánh.",
+          "h": "Dùng 'I like apple cake' và 'How much is one piece?'",
+          "s": "I like apple cake. How much is one piece?"
+        },
+        {
+          "p": "One piece is four dollars. So, one hot coffee and one apple cake?",
+          "m": "Xác nhận đó là đúng. Hỏi đồ uống có nhanh không.",
+          "h": "Dùng 'Yes, that's right' và 'Is the drink fast?'",
+          "s": "Yes, that's right. Is the drink fast?"
+        },
+        {
+          "p": "Yes, your coffee will be ready in two minutes. Are you hungry now?",
+          "m": "Nói bạn không đói. Nói bạn chỉ muốn cà phê và bánh.",
+          "h": "Dùng 'I am not hungry' và 'I only want coffee and cake.'",
+          "s": "I am not hungry. I only want coffee and cake."
+        },
+        {
+          "p": "Okay, that's nine dollars in total. Your order is coming soon.",
+          "m": "Nói bạn đang đợi. Cảm ơn người bán.",
+          "h": "Dùng 'I am waiting' và 'Thank you.'",
+          "s": "I am waiting. Thank you."
+        }
+      ]
+    },
+    {
+      "t": "Hỏi về chất lượng sản phẩm",
+      "e": [
+        {
+          "p": "Hello! This new laptop is very strong. Is it good for students?",
+          "m": "Nói bạn cần một chiếc máy tính tốt để học. Hỏi nó có đắt không.",
+          "h": "Dùng 'I need a good computer for studying' và 'Is it expensive?'",
+          "s": "I need a good computer for studying. Is it expensive?"
+        },
+        {
+          "p": "It is seven hundred dollars. But it is very fast and works well. You will like it.",
+          "m": "Nói bạn nghĩ nó quá đắt. Hỏi có chiếc máy tính nào rẻ hơn không.",
+          "h": "Dùng 'I think it is too expensive' và 'Do you have a cheaper computer?'",
+          "s": "I think it is too expensive. Do you have a cheaper computer?"
+        },
+        {
+          "p": "Yes, we have some older models. This one is five hundred dollars. It is still very good.",
+          "m": "Hỏi chiếc máy tính này có màn hình to không. Hỏi nó có bền không.",
+          "h": "Dùng 'Does this computer have a big screen?' và 'Is it strong?'",
+          "s": "Does this computer have a big screen? Is it strong?"
+        },
+        {
+          "p": "Yes, the screen is big, and it is very durable. Many people often buy this model.",
+          "m": "Nói bạn thích cái đó. Hỏi bạn có thể mua nó hôm nay không.",
+          "h": "Dùng 'I like that one' và 'Can I buy it today?'",
+          "s": "I like that one. Can I buy it today?"
+        },
+        {
+          "p": "Of course! We have it in stock now. Do you need any accessories?",
+          "m": "Nói bạn không cần phụ kiện. Nói bạn sẽ quay lại vào tuần tới.",
+          "h": "Dùng 'I don't need accessories' và 'I will come back next week.'",
+          "s": "I don't need accessories. I will come back next week."
+        }
+      ]
+    },
+    {
+      "t": "Hỏi về các chương trình khuyến mãi",
+      "e": [
+        {
+          "p": "Welcome! We have many special offers today.",
+          "m": "Hỏi có chương trình giảm giá cho giày không. Nói bạn cần một đôi giày mới.",
+          "h": "Dùng 'Are the shoes on sale?' và 'I need new shoes.'",
+          "s": "Are the shoes on sale? I need new shoes."
+        },
+        {
+          "p": "Yes, these red shoes are on sale. They are often very popular.",
+          "m": "Hỏi giày đỏ giá bao nhiêu. Hỏi có size lớn hơn không.",
+          "h": "Dùng 'How much are the red shoes?' và 'Do you have a bigger size?'",
+          "s": "How much are the red shoes? Do you have a bigger size?"
+        },
+        {
+          "p": "They are twenty dollars. Yes, we have bigger sizes in the back. Do you like this bag?",
+          "m": "Nói bạn thích cái túi. Hỏi cái túi có được giảm giá không.",
+          "h": "Dùng 'I like this bag' và 'Is the bag on sale?'",
+          "s": "I like this bag. Is the bag on sale?"
+        },
+        {
+          "p": "No, the bag is not on sale today. But it is a very good bag.",
+          "m": "Nói bạn không muốn mua túi. Nói bạn sẽ quay lại vào ngày mai.",
+          "h": "Dùng 'I don't want to buy the bag' và 'I will come back tomorrow.'",
+          "s": "I don't want to buy the bag. I will come back tomorrow."
+        },
+        {
+          "p": "Okay, come back tomorrow. We often have new sales every week.",
+          "m": "Nói bạn sẽ quay lại. Cảm ơn người bán.",
+          "h": "Dùng 'I will come back' và 'Thank you.'",
+          "s": "I will come back. Thank you."
+        }
+      ]
+    },
+    {
+      "t": "Xử lý vấn đề đơn giản với sản phẩm",
+      "e": [
+        {
+          "p": "Hello! How can I help you?",
+          "m": "Nói bạn mua chiếc bút này hôm qua. Nói nó không hoạt động.",
+          "h": "Dùng 'I bought this pen yesterday' và 'It is not working.'",
+          "s": "I bought this pen yesterday. It is not working."
+        },
+        {
+          "p": "Oh, I am sorry about that. Do you want another pen?",
+          "m": "Nói bạn muốn một chiếc bút mới. Hỏi cửa hàng có chiếc bút màu xanh không.",
+          "h": "Dùng 'I want a new pen' và 'Do you have a blue pen?'",
+          "s": "I want a new pen. Do you have a blue pen?"
+        },
+        {
+          "p": "Yes, we have many blue pens. This one is very good. It writes smoothly.",
+          "m": "Nói bạn thích chiếc bút đó. Hỏi giá của nó.",
+          "h": "Dùng 'I like that pen' và 'How much is it?'",
+          "s": "I like that pen. How much is it?"
+        },
+        {
+          "p": "It is two dollars. We can exchange it for your old pen. Do you need anything else?",
+          "m": "Nói bạn cần một cuốn sổ tay. Hỏi có cuốn sổ tay nhỏ không.",
+          "h": "Dùng 'I need a notebook' và 'Do you have a small notebook?'",
+          "s": "I need a notebook. Do you have a small notebook?"
+        },
+        {
+          "p": "Yes, we have small notebooks here. They are very pretty. They are three dollars.",
+          "m": "Nói bạn sẽ lấy một cuốn. Cảm ơn người bán.",
+          "h": "Dùng 'I will take one' và 'Thank you.'",
+          "s": "I will take one. Thank you."
+        }
+      ]
+    },
+    {
+      "t": "Lập kế hoạch mua sắm",
+      "e": [
+        {
+          "p": "Good morning! What are you planning to buy today?",
+          "m": "Nói bạn cần mua thức ăn cho bữa tiệc. Hỏi có nhiều rau tươi không.",
+          "h": "Dùng 'I need to buy food for a party' và 'Do you have many fresh vegetables?'",
+          "s": "I need to buy food for a party. Do you have many fresh vegetables?"
+        },
+        {
+          "p": "Yes, we always have fresh vegetables every morning. What kind do you need?",
+          "m": "Nói bạn cần cà chua và khoai tây. Hỏi giá của chúng.",
+          "h": "Dùng 'I need tomatoes and potatoes' và 'How much are they?'",
+          "s": "I need tomatoes and potatoes. How much are they?"
+        },
+        {
+          "p": "Tomatoes are two dollars a pound, and potatoes are one dollar a pound. Are you often here?",
+          "m": "Nói bạn thường đến đây mua sắm. Hỏi cửa hàng có mở cửa vào chủ nhật không.",
+          "h": "Dùng 'I often shop here' và 'Are you open on Sunday?'",
+          "s": "I often shop here. Are you open on Sunday?"
+        },
+        {
+          "p": "Yes, we are open every day, from 8 AM to 9 PM. We are always busy on Sundays.",
+          "m": "Nói bạn sẽ đến vào chủ nhật. Cảm ơn người bán.",
+          "h": "Dùng 'I will come on Sunday' và 'Thank you.'",
+          "s": "I will come on Sunday. Thank you."
+        },
+        {
+          "p": "You are welcome. We hope to see you then!",
+          "m": "Nói bạn rất vui. Nói tạm biệt.",
+          "h": "Dùng 'I am happy' và 'Goodbye.'",
+          "s": "I am happy. Goodbye."
+        }
+      ]
+    },
+    {
+      "t": "Mua sắm đồ dùng học tập",
+      "e": [
+        {
+          "p": "Hello there! Are you ready for school?",
+          "m": "Nói bạn cần một cái cặp sách mới. Hỏi có cái cặp nào màu xanh không.",
+          "h": "Dùng 'I need a new school bag' và 'Do you have a blue bag?'",
+          "s": "I need a new school bag. Do you have a blue bag?"
+        },
+        {
+          "p": "Yes, we have many blue school bags. This one is very big and strong.",
+          "m": "Hỏi cái cặp sách giá bao nhiêu. Hỏi nó có bền không.",
+          "h": "Dùng 'How much is the school bag?' và 'Is it strong?'",
+          "s": "How much is the school bag? Is it strong?"
+        },
+        {
+          "p": "It is twenty-five dollars. Yes, it is very strong; you can use it for a long time.",
+          "m": "Nói bạn thích cái cặp sách đó. Hỏi cửa hàng có bút chì không.",
+          "h": "Dùng 'I like that school bag' và 'Do you have pencils?'",
+          "s": "I like that school bag. Do you have pencils?"
+        },
+        {
+          "p": "Yes, we always have pencils. They are next to the notebooks. Do you need a pen too?",
+          "m": "Nói bạn không cần bút. Nói bạn có bút rồi.",
+          "h": "Dùng 'I don't need a pen' và 'I have pens already.'",
+          "s": "I don't need a pen. I have pens already."
+        },
+        {
+          "p": "Okay. So, one blue school bag and some pencils. That will be twenty-eight dollars.",
+          "m": "Nói bạn sẽ mua. Cảm ơn người bán.",
+          "h": "Dùng 'I will buy them' và 'Thank you.'",
+          "s": "I will buy them. Thank you."
+        }
+      ]
+    },
+    {
+      "t": "Đánh giá và phản hồi dịch vụ",
+      "e": [
+        {
+          "p": "Hello! Did you enjoy your new coffee machine?",
+          "m": "Nói bạn thích máy pha cà phê. Nói nó hoạt động tốt.",
+          "h": "Dùng 'I like the coffee machine' và 'It works well.'",
+          "s": "I like the coffee machine. It works well."
+        },
+        {
+          "p": "That's great to hear! Many customers often say it is a good product.",
+          "m": "Nói bạn nghĩ nó hơi to. Hỏi có máy nhỏ hơn không.",
+          "h": "Dùng 'I think it is a little big' và 'Do you have a smaller machine?'",
+          "s": "I think it is a little big. Do you have a smaller machine?"
+        },
+        {
+          "p": "Yes, we have a smaller one, but it is not as fast. Are you still happy with this one?",
+          "m": "Nói bạn vẫn vui. Nói dịch vụ ở đây rất tốt.",
+          "h": "Dùng 'I am still happy' và 'The service here is very good.'",
+          "s": "I am still happy. The service here is very good."
+        },
+        {
+          "p": "Thank you very much for your kind words! We always try our best.",
+          "m": "Nói bạn sẽ quay lại cửa hàng. Nói bạn sẽ giới thiệu cửa hàng cho bạn bè.",
+          "h": "Dùng 'I will come back to your shop' và 'I will tell my friends.'",
+          "s": "I will come back to your shop. I will tell my friends."
+        },
+        {
+          "p": "That is wonderful! We love to see our customers happy. Have a great day!",
+          "m": "Nói bạn cũng chúc người bán một ngày tốt lành. Nói tạm biệt.",
+          "h": "Dùng 'You have a great day too' và 'Goodbye.'",
+          "s": "You have a great day too. Goodbye."
+        }
+      ]
+    },
+    {
+      "t": "Ôn tập: Hỏi và đáp về sản phẩm",
+      "e": [
+        {
+          "p": "Good morning! What are you looking for today?",
+          "m": "Hỏi chiếc xe đạp này giá bao nhiêu. Hỏi nó có nhanh không.",
+          "h": "Dùng 'How much is this bike?' và 'Is it fast?'",
+          "s": "How much is this bike? Is it fast?"
+        },
+        {
+          "p": "It is one hundred dollars. Yes, it is very fast and good for daily use.",
+          "m": "Nói bạn thích nó. Hỏi có chiếc xe đạp nào màu đỏ không.",
+          "h": "Dùng 'I like it' và 'Do you have a red bike?'",
+          "s": "I like it. Do you have a red bike?"
+        },
+        {
+          "p": "Sorry, we only have blue and black bikes right now. This blue one is big.",
+          "m": "Nói bạn không thích màu xanh. Hỏi có chiếc nào nhỏ hơn không.",
+          "h": "Dùng 'I don't like blue' và 'Do you have a smaller one?'",
+          "s": "I don't like blue. Do you have a smaller one?"
+        },
+        {
+          "p": "Yes, we have a small black bike over there. It is thirty dollars cheaper.",
+          "m": "Nói bạn sẽ mua chiếc xe đạp màu đen. Cảm ơn người bán.",
+          "h": "Dùng 'I will buy the black bike' và 'Thank you.'",
+          "s": "I will buy the black bike. Thank you."
+        },
+        {
+          "p": "Great! Do you need a helmet? They are on sale today.",
+          "m": "Nói bạn không cần mũ bảo hiểm. Nói bạn đã có một cái rồi.",
+          "h": "Dùng 'I don't need a helmet' và 'I have one already.'",
+          "s": "I don't need a helmet. I have one already."
+        }
+      ]
+    },
+    {
+      "t": "Ôn tập: Mua sắm và lựa chọn",
+      "e": [
+        {
+          "p": "Hello! How many oranges do you want?",
+          "m": "Nói bạn muốn 4 quả cam. Hỏi chúng có tươi không.",
+          "h": "Dùng 'I want four oranges' và 'Are they fresh?'",
+          "s": "I want four oranges. Are they fresh?"
+        },
+        {
+          "p": "Yes, they are very fresh. One orange is fifty cents. Do you need any bread?",
+          "m": "Nói bạn cần bánh mì. Hỏi bánh mì có mới không.",
+          "h": "Dùng 'I need bread' và 'Is the bread new?'",
+          "s": "I need bread. Is the bread new?"
+        },
+        {
+          "p": "Yes, the bread is very new and warm. It is two dollars for one loaf.",
+          "m": "Nói bạn sẽ mua một ổ bánh mì. Hỏi có đồ uống lạnh không.",
+          "h": "Dùng 'I will buy one loaf of bread' và 'Do you have cold drinks?'",
+          "s": "I will buy one loaf of bread. Do you have cold drinks?"
+        },
+        {
+          "p": "Yes, the drinks are in the fridge, near the milk. We have water and juice.",
+          "m": "Nói bạn thích nước ép. Hỏi giá của một chai.",
+          "h": "Dùng 'I like juice' và 'How much is one bottle?'",
+          "s": "I like juice. How much is one bottle?"
+        },
+        {
+          "p": "One bottle of juice is three dollars. Is there anything else I can get for you?",
+          "m": "Nói bạn không cần gì nữa. Cảm ơn người bán.",
+          "h": "Dùng 'I don't need anything else' và 'Thank you.'",
+          "s": "I don't need anything else. Thank you."
+        }
+      ]
+    },
+    {
+      "t": "Ôn tập: Giao tiếp tổng hợp với người bán",
+      "e": [
+        {
+          "p": "Welcome! Are you looking for a gift for someone?",
+          "m": "Nói bạn đang tìm một chiếc đồng hồ. Hỏi có chiếc nào đẹp không.",
+          "h": "Dùng 'I am looking for a watch' và 'Do you have a pretty one?'",
+          "s": "I am looking for a watch. Do you have a pretty one?"
+        },
+        {
+          "p": "Yes, this silver watch is very pretty. Many people love it. It is fifty dollars.",
+          "m": "Nói bạn thích chiếc đồng hồ đó. Hỏi nó có hoạt động tốt không.",
+          "h": "Dùng 'I like that watch' và 'Does it work well?'",
+          "s": "I like that watch. Does it work well?"
+        },
+        {
+          "p": "Yes, it always works perfectly. It is a very good watch. Do you want it?",
+          "m": "Nói bạn muốn nó. Hỏi cửa hàng có mở cửa vào tối nay không.",
+          "h": "Dùng 'I want it' và 'Are you open tonight?'",
+          "s": "I want it. Are you open tonight?"
+        },
+        {
+          "p": "Yes, we are open until 8 PM. You can pick it up later.",
+          "m": "Nói bạn sẽ quay lại vào lúc 6 giờ. Cảm ơn người bán.",
+          "h": "Dùng 'I will come back at six o'clock' và 'Thank you.'",
+          "s": "I will come back at six o'clock. Thank you."
+        },
+        {
+          "p": "You are welcome. We are happy to help!",
+          "m": "Nói bạn cũng rất vui. Nói tạm biệt.",
+          "h": "Dùng 'I am happy too' và 'Goodbye.'",
+          "s": "I am happy too. Goodbye."
+        }
+      ]
+    }
+  ]
+}

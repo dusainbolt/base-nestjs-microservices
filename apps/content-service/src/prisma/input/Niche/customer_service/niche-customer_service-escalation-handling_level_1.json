@@ -1,0 +1,530 @@
+{
+  "l": 1,
+  "d": [
+    {
+      "t": "Nhận diện vấn đề",
+      "e": [
+        {
+          "p": "Hello. What is wrong?",
+          "m": "Nói rằng bạn có một vấn đề.",
+          "h": "Dùng 'I have a problem.'",
+          "s": "I have a problem."
+        },
+        {
+          "p": "Is it a big problem?",
+          "m": "Nói rằng đó là một vấn đề lớn.",
+          "h": "Dùng 'It is a big problem.'",
+          "s": "It is a big problem."
+        },
+        {
+          "p": "Can you fix this problem?",
+          "m": "Nói bạn không thể sửa vấn đề này.",
+          "h": "Dùng 'I cannot fix it.'",
+          "s": "I cannot fix it."
+        },
+        {
+          "p": "Who is your boss?",
+          "m": "Nói tên sếp của bạn.",
+          "h": "Dùng 'My boss is [Name].'",
+          "s": "My boss is [studentName]."
+        },
+        {
+          "p": "Do you need help now?",
+          "m": "Nói bạn cần giúp đỡ bây giờ.",
+          "h": "Dùng 'I need help now.'",
+          "s": "I need help now."
+        }
+      ]
+    },
+    {
+      "t": "Tìm kiếm sự giúp đỡ",
+      "e": [
+        {
+          "p": "You look sad. What is it?",
+          "m": "Nói rằng bạn cần sự giúp đỡ.",
+          "h": "Dùng 'I need help.'",
+          "s": "I need help."
+        },
+        {
+          "p": "What kind of help do you need?",
+          "m": "Nói bạn cần giúp với công việc.",
+          "h": "Dùng 'I need help with my work.'",
+          "s": "I need help with my work."
+        },
+        {
+          "p": "Can I talk to your manager?",
+          "m": "Nói bạn muốn nói chuyện với quản lý.",
+          "h": "Dùng 'I want to talk to my manager.'",
+          "s": "I want to talk to my manager."
+        },
+        {
+          "p": "Where is your manager?",
+          "m": "Nói quản lý của bạn ở văn phòng.",
+          "h": "Dùng 'My manager is in the office.'",
+          "s": "My manager is in the office."
+        },
+        {
+          "p": "Is your problem small?",
+          "m": "Nói vấn đề của bạn không nhỏ.",
+          "h": "Dùng 'My problem is not small.'",
+          "s": "My problem is not small."
+        }
+      ]
+    },
+    {
+      "t": "Ai có thể giúp?",
+      "e": [
+        {
+          "p": "I see a problem here. What is it?",
+          "m": "Nói rằng bạn không hiểu nhiệm vụ.",
+          "h": "Dùng 'I do not understand the task.'",
+          "s": "I do not understand the task."
+        },
+        {
+          "p": "Can your friend help you?",
+          "m": "Nói bạn của bạn không thể giúp.",
+          "h": "Dùng 'My friend cannot help.'",
+          "s": "My friend cannot help."
+        },
+        {
+          "p": "Who is good at this work?",
+          "m": "Nói sếp của bạn giỏi việc này.",
+          "h": "Dùng 'My boss is good at this.'",
+          "s": "My boss is good at this."
+        },
+        {
+          "p": "Do you want to see the manager?",
+          "m": "Nói bạn muốn gặp quản lý.",
+          "h": "Dùng 'I want to see the manager.'",
+          "s": "I want to see the manager."
+        },
+        {
+          "p": "Is it okay to wait for help?",
+          "m": "Nói không tốt khi chờ đợi.",
+          "h": "Dùng 'It is not good to wait.'",
+          "s": "It is not good to wait."
+        }
+      ]
+    },
+    {
+      "t": "Khi vấn đề lớn",
+      "e": [
+        {
+          "p": "You have a bad day. What is wrong?",
+          "m": "Nói bạn có một vấn đề lớn.",
+          "h": "Dùng 'I have a big problem.'",
+          "s": "I have a big problem."
+        },
+        {
+          "p": "Is this a new problem?",
+          "m": "Nói đây là một vấn đề mới.",
+          "h": "Dùng 'This is a new problem.'",
+          "s": "This is a new problem."
+        },
+        {
+          "p": "Can you do this task alone?",
+          "m": "Nói bạn không thể làm việc này một mình.",
+          "h": "Dùng 'I cannot do this alone.'",
+          "s": "I cannot do this alone."
+        },
+        {
+          "p": "Do you need a quick answer?",
+          "m": "Nói bạn cần một câu trả lời nhanh.",
+          "h": "Dùng 'I need a quick answer.'",
+          "s": "I need a quick answer."
+        },
+        {
+          "p": "Your manager is busy. What do you say?",
+          "m": "Nói bạn vẫn cần nói chuyện với quản lý.",
+          "h": "Dùng 'I still need to talk to my manager.'",
+          "s": "I still need to talk to my manager."
+        }
+      ]
+    },
+    {
+      "t": "Mô tả vấn đề của bạn",
+      "e": [
+        {
+          "p": "Tell me about your problem.",
+          "m": "Nói vấn đề là về máy tính của bạn.",
+          "h": "Dùng 'My problem is about my computer.'",
+          "s": "My problem is about my computer."
+        },
+        {
+          "p": "What is wrong with your computer?",
+          "m": "Nói máy tính của bạn rất chậm.",
+          "h": "Dùng 'My computer is very slow.'",
+          "s": "My computer is very slow."
+        },
+        {
+          "p": "Can a technician help?",
+          "m": "Nói bạn cần một chuyên gia máy tính.",
+          "h": "Dùng 'I need a computer specialist.'",
+          "s": "I need a computer specialist."
+        },
+        {
+          "p": "Do you want to report this?",
+          "m": "Nói bạn muốn báo cáo vấn đề này.",
+          "h": "Dùng 'I want to report this problem.'",
+          "s": "I want to report this problem."
+        },
+        {
+          "p": "Is this a problem for all?",
+          "m": "Nói đây là vấn đề cho nhiều người.",
+          "h": "Dùng 'This is a problem for many people.'",
+          "s": "This is a problem for many people."
+        }
+      ]
+    },
+    {
+      "t": "Cần sự giúp đỡ khẩn cấp",
+      "e": [
+        {
+          "p": "I see you are worried. What is up?",
+          "m": "Nói bạn có một vấn đề khẩn cấp.",
+          "h": "Dùng 'I have an urgent problem.'",
+          "s": "I have an urgent problem."
+        },
+        {
+          "p": "When do you need help?",
+          "m": "Nói bạn cần giúp đỡ ngay bây giờ.",
+          "h": "Dùng 'I need help right now.'",
+          "s": "I need help right now."
+        },
+        {
+          "p": "Can your colleague help?",
+          "m": "Nói đồng nghiệp không thể giúp với việc này.",
+          "h": "Dùng 'My colleague cannot help with this.'",
+          "s": "My colleague cannot help with this."
+        },
+        {
+          "p": "Is the boss available?",
+          "m": "Nói sếp của bạn có rảnh không.",
+          "h": "Dùng 'Is my boss available?'",
+          "s": "Is my boss available?"
+        },
+        {
+          "p": "What can I do for you?",
+          "m": "Nói bạn muốn nói chuyện với sếp của bạn.",
+          "h": "Dùng 'I want to talk to my boss.'",
+          "s": "I want to talk to my boss."
+        }
+      ]
+    },
+    {
+      "t": "Vấn đề với công việc",
+      "e": [
+        {
+          "p": "How is your work today?",
+          "m": "Nói công việc của bạn có vấn đề.",
+          "h": "Dùng 'My work has a problem.'",
+          "s": "My work has a problem."
+        },
+        {
+          "p": "What is the specific problem?",
+          "m": "Nói bạn không có tài liệu.",
+          "h": "Dùng 'I do not have the document.'",
+          "s": "I do not have the document."
+        },
+        {
+          "p": "Can you find the document?",
+          "m": "Nói bạn không thể tìm tài liệu.",
+          "h": "Dùng 'I cannot find the document.'",
+          "s": "I cannot find the document."
+        },
+        {
+          "p": "Who has the document?",
+          "m": "Nói quản lý có tài liệu.",
+          "h": "Dùng 'The manager has the document.'",
+          "s": "The manager has the document."
+        },
+        {
+          "p": "Do you need the document today?",
+          "m": "Nói bạn cần tài liệu hôm nay.",
+          "h": "Dùng 'I need the document today.'",
+          "s": "I need the document today."
+        }
+      ]
+    },
+    {
+      "t": "Hỏi xin lời khuyên",
+      "e": [
+        {
+          "p": "I think you need help. What is it?",
+          "m": "Nói bạn cần lời khuyên.",
+          "h": "Dùng 'I need advice.'",
+          "s": "I need advice."
+        },
+        {
+          "p": "Who can give you good advice?",
+          "m": "Nói sếp có thể cho lời khuyên tốt.",
+          "h": "Dùng 'My boss can give good advice.'",
+          "s": "My boss can give good advice."
+        },
+        {
+          "p": "Is this a big choice?",
+          "m": "Nói đây là một lựa chọn lớn.",
+          "h": "Dùng 'This is a big choice.'",
+          "s": "This is a big choice."
+        },
+        {
+          "p": "Do you want to meet your boss?",
+          "m": "Nói bạn muốn gặp sếp của bạn.",
+          "h": "Dùng 'I want to meet my boss.'",
+          "s": "I want to meet my boss."
+        },
+        {
+          "p": "What time is good for you?",
+          "m": "Nói bây giờ là tốt cho bạn.",
+          "h": "Dùng 'Now is good for me.'",
+          "s": "Now is good for me."
+        }
+      ]
+    },
+    {
+      "t": "Đề xuất nói chuyện với sếp",
+      "e": [
+        {
+          "p": "Your work is not good. Why?",
+          "m": "Nói bạn có một vấn đề.",
+          "h": "Dùng 'I have a problem.'",
+          "s": "I have a problem."
+        },
+        {
+          "p": "What is the problem?",
+          "m": "Nói bạn cần nhiều thời gian hơn.",
+          "h": "Dùng 'I need more time.'",
+          "s": "I need more time."
+        },
+        {
+          "p": "Can I help you?",
+          "m": "Nói bạn nghĩ sếp có thể giúp.",
+          "h": "Dùng 'I think my boss can help.'",
+          "s": "I think my boss can help."
+        },
+        {
+          "p": "Do you want me to call your boss?",
+          "m": "Nói bạn có thể gọi sếp.",
+          "h": "Dùng 'I can call my boss.'",
+          "s": "I can call my boss."
+        },
+        {
+          "p": "Is it urgent?",
+          "m": "Nói nó rất khẩn cấp.",
+          "h": "Dùng 'It is very urgent.'",
+          "s": "It is very urgent."
+        }
+      ]
+    },
+    {
+      "t": "Sếp có thể làm gì?",
+      "e": [
+        {
+          "p": "You need a manager. Why?",
+          "m": "Nói quản lý có thể giúp bạn.",
+          "h": "Dùng 'The manager can help me.'",
+          "s": "The manager can help me."
+        },
+        {
+          "p": "How can the manager help?",
+          "m": "Nói quản lý có thể cho bạn một tài liệu.",
+          "h": "Dùng 'The manager can give me a document.'",
+          "s": "The manager can give me a document."
+        },
+        {
+          "p": "Can you do the next step?",
+          "m": "Nói bạn không thể làm bước tiếp theo.",
+          "h": "Dùng 'I cannot do the next step.'",
+          "s": "I cannot do the next step."
+        },
+        {
+          "p": "Is it a big task?",
+          "m": "Nói đây là một nhiệm vụ lớn.",
+          "h": "Dùng 'This is a big task.'",
+          "s": "This is a big task."
+        },
+        {
+          "p": "Do you want to see your manager now?",
+          "m": "Nói bạn muốn gặp quản lý bây giờ.",
+          "h": "Dùng 'I want to see my manager now.'",
+          "s": "I want to see my manager now."
+        }
+      ]
+    },
+    {
+      "t": "Vấn đề cần giải quyết ngay",
+      "e": [
+        {
+          "p": "This is important. What is wrong?",
+          "m": "Nói rằng bạn có một vấn đề nghiêm trọng.",
+          "h": "Dùng 'I have a serious problem.'",
+          "s": "I have a serious problem."
+        },
+        {
+          "p": "Why is it serious?",
+          "m": "Nói nó có thể làm hỏng công việc.",
+          "h": "Dùng 'It can damage the work.'",
+          "s": "It can damage the work."
+        },
+        {
+          "p": "Can we wait until tomorrow?",
+          "m": "Nói chúng ta không thể chờ đợi.",
+          "h": "Dùng 'We cannot wait.'",
+          "s": "We cannot wait."
+        },
+        {
+          "p": "Who must know about this?",
+          "m": "Nói sếp phải biết về điều này.",
+          "h": "Dùng 'My boss must know about this.'",
+          "s": "My boss must know about this."
+        },
+        {
+          "p": "Do you need to call the boss?",
+          "m": "Nói bạn cần gọi cho sếp.",
+          "h": "Dùng 'I need to call the boss.'",
+          "s": "I need to call the boss."
+        }
+      ]
+    },
+    {
+      "t": "Yêu cầu cuộc họp",
+      "e": [
+        {
+          "p": "What do you want to do about the problem?",
+          "m": "Nói bạn muốn có một cuộc họp.",
+          "h": "Dùng 'I want a meeting.'",
+          "s": "I want a meeting."
+        },
+        {
+          "p": "Who do you want to meet?",
+          "m": "Nói bạn muốn gặp quản lý.",
+          "h": "Dùng 'I want to meet the manager.'",
+          "s": "I want to meet the manager."
+        },
+        {
+          "p": "When is a good time?",
+          "m": "Nói hôm nay là thời gian tốt.",
+          "h": "Dùng 'Today is a good time.'",
+          "s": "Today is a good time."
+        },
+        {
+          "p": "Is it about a task?",
+          "m": "Nói đó là về một nhiệm vụ lớn.",
+          "h": "Dùng 'It is about a big task.'",
+          "s": "It is about a big task."
+        },
+        {
+          "p": "Can you prepare for the meeting?",
+          "m": "Nói bạn có thể chuẩn bị.",
+          "h": "Dùng 'I can prepare.'",
+          "s": "I can prepare."
+        }
+      ]
+    },
+    {
+      "t": "Ôn tập: Xử lý tình huống",
+      "e": [
+        {
+          "p": "Hey, what is on your mind?",
+          "m": "Nói bạn có một vấn đề lớn.",
+          "h": "Dùng 'I have a big problem.'",
+          "s": "I have a big problem."
+        },
+        {
+          "p": "Can you fix it yourself?",
+          "m": "Nói bạn không thể sửa nó một mình.",
+          "h": "Dùng 'I cannot fix it alone.'",
+          "s": "I cannot fix it alone."
+        },
+        {
+          "p": "Do you need to talk to someone higher?",
+          "m": "Nói bạn cần nói chuyện với quản lý.",
+          "h": "Dùng 'I need to talk to my manager.'",
+          "s": "I need to talk to my manager."
+        },
+        {
+          "p": "Is it urgent or can it wait?",
+          "m": "Nói nó rất khẩn cấp.",
+          "h": "Dùng 'It is very urgent.'",
+          "s": "It is very urgent."
+        },
+        {
+          "p": "What can the manager do?",
+          "m": "Nói quản lý có thể giúp với tài liệu.",
+          "h": "Dùng 'The manager can help with the document.'",
+          "s": "The manager can help with the document."
+        }
+      ]
+    },
+    {
+      "t": "Ôn tập: Hỏi và nhờ giúp",
+      "e": [
+        {
+          "p": "You look like you need help. What's wrong?",
+          "m": "Nói bạn cần sự giúp đỡ với công việc.",
+          "h": "Dùng 'I need help with my work.'",
+          "s": "I need help with my work."
+        },
+        {
+          "p": "Is your problem small or big?",
+          "m": "Nói vấn đề của bạn không nhỏ.",
+          "h": "Dùng 'My problem is not small.'",
+          "s": "My problem is not small."
+        },
+        {
+          "p": "Who is your manager?",
+          "m": "Nói tên quản lý của bạn.",
+          "h": "Dùng 'My manager is [Name].'",
+          "s": "My manager is [studentName]."
+        },
+        {
+          "p": "Do you want to see your manager today?",
+          "m": "Nói bạn muốn gặp quản lý hôm nay.",
+          "h": "Dùng 'I want to see my manager today.'",
+          "s": "I want to see my manager today."
+        },
+        {
+          "p": "What is the problem with your work?",
+          "m": "Nói bạn không có đủ thời gian.",
+          "h": "Dùng 'I do not have enough time.'",
+          "s": "I do not have enough time."
+        }
+      ]
+    },
+    {
+      "t": "Ôn tập: Các vấn đề hàng ngày",
+      "e": [
+        {
+          "p": "Tell me about your day. Any issues?",
+          "m": "Nói bạn có một vấn đề với máy tính.",
+          "h": "Dùng 'I have a problem with my computer.'",
+          "s": "I have a problem with my computer."
+        },
+        {
+          "p": "Is your computer very slow?",
+          "m": "Nói máy tính của bạn rất chậm.",
+          "h": "Dùng 'My computer is very slow.'",
+          "s": "My computer is very slow."
+        },
+        {
+          "p": "Can your friend fix it?",
+          "m": "Nói bạn của bạn không thể sửa.",
+          "h": "Dùng 'My friend cannot fix it.'",
+          "s": "My friend cannot fix it."
+        },
+        {
+          "p": "Who can help with a computer problem?",
+          "m": "Nói sếp có thể giúp.",
+          "h": "Dùng 'My boss can help.'",
+          "s": "My boss can help."
+        },
+        {
+          "p": "Do you need a meeting about this problem?",
+          "m": "Nói bạn muốn có một cuộc họp ngay bây giờ.",
+          "h": "Dùng 'I want a meeting now.'",
+          "s": "I want a meeting now."
+        }
+      ]
+    }
+  ]
+}

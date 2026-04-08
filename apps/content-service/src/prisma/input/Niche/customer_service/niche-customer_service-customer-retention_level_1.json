@@ -1,0 +1,559 @@
+{
+  "l": {
+    "lvl": 1,
+    "code": "BEGINNER",
+    "desc": "Câu đơn rất cơ bản, chỉ truyền đạt 1 ý",
+    "req": {
+      "gram": "S + be (am/is/are) + N/Adj, S + V(s/es) + O, S + can/can't + V, There is/are, What/Who/Where + be...?, Do/Does + S + V?",
+      "vocab": "Nghề nghiệp, gia đình, đồ vật, số đếm, màu sắc, hàng ngày",
+      "vocabCap": {
+        "cefr": "A1",
+        "maxWords": 300,
+        "allowed": [
+          "Danh từ cơ bản: mother, father, sister, brother, friend, school, house, book, food, water, dog, cat",
+          "Động từ phổ biến nhất: be, have, go, come, like, want, eat, drink, play, study, work, live, see",
+          "Tính từ đơn giản (1 âm tiết): big, small, good, bad, hot, cold, happy, sad, old, young, tall, short",
+          "Số đếm: 1-100",
+          "Màu sắc cơ bản: red, blue, green, yellow, white, black",
+          "Thời gian đơn giản: today, now, every day, morning, night"
+        ],
+        "avoid": [
+          "Từ nhiều âm tiết phức tạp (ví dụ: independent, environment, professional)",
+          "Phrasal verbs (ví dụ: get up, look after)",
+          "Idioms, thành ngữ",
+          "Từ chuyên ngành hoặc từ hiếm gặp"
+        ]
+      },
+      "conn": "Không yêu cầu",
+      "tense": "Present Simple",
+      "cmplx": "Rất thấp"
+    }
+  },
+  "d": [
+    {
+      "t": "Khách hàng là ai?",
+      "e": [
+        {
+          "p": "Hello! What is a customer?",
+          "m": "Trả lời khách hàng là một người mua đồ. Nói họ là quan trọng.",
+          "h": "S + is/are + N. Sử dụng 'important'.",
+          "s": "A customer is a person who buys. They are important."
+        },
+        {
+          "p": "Do you know our customers?",
+          "m": "Trả lời bạn biết khách hàng. Nói họ đến mỗi ngày.",
+          "h": "Do/Does + S + V? S + V(s/es) + N.",
+          "s": "Yes, I know our customers. They come every day."
+        },
+        {
+          "p": "What do customers want from our shop?",
+          "m": "Trả lời khách hàng muốn sản phẩm tốt. Nói họ muốn sự giúp đỡ.",
+          "h": "S + want + N. Sử dụng 'help'.",
+          "s": "Customers want good products. They want help."
+        },
+        {
+          "p": "Who helps our customers?",
+          "m": "Trả lời [studentName] giúp khách hàng. Nói bạn thích giúp đỡ.",
+          "h": "S + V(s/es) + O. S + like + V-ing.",
+          "s": "[studentName] helps our customers. I like helping."
+        },
+        {
+          "p": "Are loyal customers good for a shop?",
+          "m": "Trả lời khách hàng trung thành là tốt. Nói họ mua nhiều đồ.",
+          "h": "S + be + Adj. S + V(s/es) + O.",
+          "s": "Yes, loyal customers are good. They buy many things."
+        }
+      ]
+    },
+    {
+      "t": "Sản phẩm tốt làm khách hàng vui",
+      "e": [
+        {
+          "p": "What product is good here?",
+          "m": "Trả lời sản phẩm A rất tốt. Nói nhiều người thích nó.",
+          "h": "S + be + Adj. Many + N + like + it.",
+          "s": "Product A is very good. Many people like it."
+        },
+        {
+          "p": "Can customers find new things here?",
+          "m": "Trả lời khách hàng có thể tìm đồ mới. Nói bạn có đồ chơi mới.",
+          "h": "S + can + V. S + have + N.",
+          "s": "Yes, customers can find new things. We have new toys."
+        },
+        {
+          "p": "Do happy customers come back?",
+          "m": "Trả lời khách hàng vui vẻ quay lại. Nói họ thích shop của bạn.",
+          "h": "Do/Does + S + V? S + V(s/es) + O.",
+          "s": "Yes, happy customers come back. They like our shop."
+        },
+        {
+          "p": "Why do customers choose our product?",
+          "m": "Trả lời sản phẩm của bạn là tốt. Nói nó không đắt.",
+          "h": "S + Adj + N + be + Adj. It + be + not + Adj.",
+          "s": "Our product is good. It is not expensive."
+        },
+        {
+          "p": "What is good service?",
+          "m": "Trả lời dịch vụ tốt là giúp khách hàng. Nói bạn luôn thân thiện.",
+          "h": "S + be + V-ing + O. S + be + always + Adj.",
+          "s": "Good service is helping customers. I am always friendly."
+        }
+      ]
+    },
+    {
+      "t": "Giúp đỡ khách hàng",
+      "e": [
+        {
+          "p": "Hello! Can I help you?",
+          "m": "Trả lời bạn có thể giúp một khách hàng. Nói bạn vui khi giúp đỡ.",
+          "h": "S + can + V + O. S + be + Adj + V-ing.",
+          "s": "Yes, I can help a customer. I am happy helping."
+        },
+        {
+          "p": "Where can a customer find a red book?",
+          "m": "Trả lời họ có thể tìm sách màu đỏ ở đó. Nói có nhiều sách.",
+          "h": "S + can + V + O. There is/are + N.",
+          "s": "They can find a red book there. There are many books."
+        },
+        {
+          "p": "Does our shop listen to customers?",
+          "m": "Trả lời shop lắng nghe khách hàng. Nói điều đó là quan trọng.",
+          "h": "S + V(s/es) + O. That + be + Adj.",
+          "s": "Yes, our shop listens to customers. That is important."
+        },
+        {
+          "p": "What do customers say about our staff?",
+          "m": "Trả lời khách hàng nói nhân viên tốt. Nói nhân viên là người giúp đỡ giỏi.",
+          "h": "S + say + S + be + Adj. S + be + N.",
+          "s": "Customers say staff is good. Staff are good helpers."
+        },
+        {
+          "p": "How can we make customers happy?",
+          "m": "Trả lời bạn có thể cười. Nói bạn có thể nói 'cảm ơn'.",
+          "h": "S + can + V. S + can + say + N.",
+          "s": "I can smile. I can say 'thank you'."
+        }
+      ]
+    },
+    {
+      "t": "Tại sao khách hàng quay lại?",
+      "e": [
+        {
+          "p": "Why do customers like our shop?",
+          "m": "Trả lời khách hàng thích shop của bạn vì sản phẩm tốt. Nói giá cả tốt.",
+          "h": "S + like + N + because + S + V. N + be + Adj.",
+          "s": "Customers like our shop because products are good. Prices are good."
+        },
+        {
+          "p": "Do customers remember good experiences?",
+          "m": "Trả lời khách hàng nhớ trải nghiệm tốt. Nói họ muốn quay lại.",
+          "h": "S + V(s/es) + O. S + want + to + V.",
+          "s": "Yes, customers remember good experiences. They want to come back."
+        },
+        {
+          "p": "Is a small gift good for customers?",
+          "m": "Trả lời một món quà nhỏ là tốt. Nói nó làm họ vui.",
+          "h": "S + be + Adj. It + V(s/es) + O + Adj.",
+          "s": "Yes, a small gift is good. It makes them happy."
+        },
+        {
+          "p": "Who tells friends about our shop?",
+          "m": "Trả lời khách hàng vui vẻ nói với bạn bè. Nói họ thích chia sẻ.",
+          "h": "S + V(s/es) + O. S + like + V-ing.",
+          "s": "Happy customers tell friends. They like sharing."
+        },
+        {
+          "p": "What can make a customer a loyal customer?",
+          "m": "Trả lời dịch vụ tốt có thể làm khách hàng trung thành. Nói sản phẩm của bạn cũng giúp.",
+          "h": "N + can + V + N. N + also + V(s/es).",
+          "s": "Good service can make a loyal customer. Our product also helps."
+        }
+      ]
+    },
+    {
+      "t": "Tạo ra những trải nghiệm tốt",
+      "e": [
+        {
+          "p": "What is important for a happy customer visit?",
+          "m": "Trả lời một nụ cười là quan trọng. Nói sự giúp đỡ nhanh chóng cũng vậy.",
+          "h": "N + be + Adj. S + be + also + Adj.",
+          "s": "A smile is important. Quick help is also important."
+        },
+        {
+          "p": "Can customers ask questions?",
+          "m": "Trả lời khách hàng có thể hỏi. Nói bạn ở đây để giúp.",
+          "h": "S + can + V. S + be + here + to + V.",
+          "s": "Yes, customers can ask questions. I am here to help."
+        },
+        {
+          "p": "Do customers like clean shops?",
+          "m": "Trả lời khách hàng thích cửa hàng sạch sẽ. Nói họ thích không gian rộng.",
+          "h": "S + like + Adj + N. S + like + N.",
+          "s": "Yes, customers like clean shops. They like big space."
+        },
+        {
+          "p": "What can make a customer feel special?",
+          "m": "Trả lời một lời 'cảm ơn' đơn giản có thể giúp. Nói một món quà nhỏ cũng vậy.",
+          "h": "Adj + N + can + V. Adj + N + also + V(s/es).",
+          "s": "A simple 'thank you' can help. A small gift also helps."
+        },
+        {
+          "p": "How do we remember our best customers?",
+          "m": "Trả lời bạn nhớ tên khách hàng. Nói bạn ghi chú nhỏ.",
+          "h": "S + remember + N. S + make + Adj + N.",
+          "s": "I remember customer names. I make small notes."
+        }
+      ]
+    },
+    {
+      "t": "Khi khách hàng cần giúp đỡ",
+      "e": [
+        {
+          "p": "Hello. My book is old. Can you help?",
+          "m": "Trả lời bạn có thể giúp khách hàng. Nói bạn có sách mới.",
+          "h": "S + can + V + O. S + have + Adj + N.",
+          "s": "Yes, I can help you. We have new books."
+        },
+        {
+          "p": "I like this toy, but it is too big.",
+          "m": "Trả lời bạn có một món đồ chơi nhỏ. Hỏi liệu khách hàng có muốn nó không.",
+          "h": "S + have + Adj + N. Do/Does + S + want + it?",
+          "s": "We have a small toy. Do you want it?"
+        },
+        {
+          "p": "This color is not good for me.",
+          "m": "Trả lời bạn có màu xanh. Hỏi liệu khách hàng thích màu xanh không.",
+          "h": "S + have + N. Do/Does + S + like + N?",
+          "s": "We have blue. Do you like blue?"
+        },
+        {
+          "p": "I do not know this new food. What is it?",
+          "m": "Trả lời đó là một loại thức ăn mới. Nói nó rất ngon.",
+          "h": "That + be + N. It + be + very + Adj.",
+          "s": "That is new food. It is very good."
+        },
+        {
+          "p": "I want to come back next week. Are you open?",
+          "m": "Trả lời bạn mở cửa mỗi ngày. Nói bạn vui khi gặp lại khách hàng.",
+          "h": "S + be + open + N. S + be + Adj + to + V + O.",
+          "s": "Yes, we are open every day. I am happy to see you again."
+        }
+      ]
+    },
+    {
+      "t": "Khuyến khích khách hàng quay lại",
+      "e": [
+        {
+          "p": "This is my first time here. Do you have a special offer?",
+          "m": "Trả lời bạn có một ưu đãi tốt. Nói đó là giảm giá 10 phần trăm.",
+          "h": "S + have + Adj + N. That + be + N + N.",
+          "s": "Yes, we have a good offer. That is ten percent off."
+        },
+        {
+          "p": "I come here often. Do you remember me?",
+          "m": "Trả lời bạn nhớ khách hàng. Nói khách hàng là một người bạn tốt.",
+          "h": "S + remember + O. S + be + Adj + N.",
+          "s": "Yes, I remember you. You are a good friend."
+        },
+        {
+          "p": "What can I get for my next visit?",
+          "m": "Trả lời bạn có thể nhận một món đồ nhỏ. Nói đó là một cây bút mới.",
+          "h": "S + can + get + Adj + N. It + be + Adj + N.",
+          "s": "You can get a small thing. It is a new pen."
+        },
+        {
+          "p": "Do you have a loyalty card for customers?",
+          "m": "Trả lời bạn có thẻ khách hàng thân thiết. Nói khách hàng có thể có nó bây giờ.",
+          "h": "S + have + N. S + can + have + it + now.",
+          "s": "Yes, we have a loyalty card. You can have it now."
+        },
+        {
+          "p": "I like your shop very much. What can I do to help you?",
+          "m": "Trả lời khách hàng có thể nói với bạn bè. Nói điều đó giúp shop của bạn.",
+          "h": "S + can + tell + N. That + V(s/es) + O.",
+          "s": "You can tell your friends. That helps our shop."
+        }
+      ]
+    },
+    {
+      "t": "Chia sẻ trải nghiệm tích cực",
+      "e": [
+        {
+          "p": "My friend said your shop is good. Is it true?",
+          "m": "Trả lời điều đó là đúng. Nói shop của bạn là tốt.",
+          "h": "That + be + true. S + be + Adj.",
+          "s": "Yes, that is true. Our shop is good."
+        },
+        {
+          "p": "Do your customers share their good stories?",
+          "m": "Trả lời khách hàng chia sẻ những câu chuyện tốt. Nói họ vui vẻ.",
+          "h": "S + V(s/es) + O. S + be + Adj.",
+          "s": "Yes, customers share good stories. They are happy."
+        },
+        {
+          "p": "What do customers say about [studentName]'s service?",
+          "m": "Trả lời khách hàng nói [studentName] là người giúp đỡ tốt. Nói bạn thích công việc của mình.",
+          "h": "S + say + S + be + N. S + like + S + N.",
+          "s": "Customers say [studentName] is a good helper. I like my work."
+        },
+        {
+          "p": "Can I write a review for your shop?",
+          "m": "Trả lời bạn có thể viết một đánh giá. Nói bạn rất vui.",
+          "h": "S + can + V + N. S + be + very + Adj.",
+          "s": "Yes, you can write a review. I am very happy."
+        },
+        {
+          "p": "What is the best part of our shop for customers?",
+          "m": "Trả lời phần tốt nhất là nhân viên thân thiện. Nói sản phẩm cũng rất tốt.",
+          "h": "The best part + be + N. N + be + also + very + Adj.",
+          "s": "The best part is friendly staff. Products are also very good."
+        }
+      ]
+    },
+    {
+      "t": "Chúng tôi cần gì từ khách hàng?",
+      "e": [
+        {
+          "p": "What do you need from us, the customers?",
+          "m": "Trả lời bạn cần một nụ cười. Nói điều đó là miễn phí.",
+          "h": "S + need + N. It + be + free.",
+          "s": "I need a smile. It is free."
+        },
+        {
+          "p": "Can customers tell us about problems?",
+          "m": "Trả lời khách hàng có thể nói về vấn đề. Nói điều đó giúp bạn cải thiện.",
+          "h": "S + can + tell + O + about + N. That + V(s/es) + O.",
+          "s": "Yes, customers can tell about problems. That helps us."
+        },
+        {
+          "p": "Do you want customer ideas for new products?",
+          "m": "Trả lời bạn muốn ý tưởng mới. Nói ý tưởng của khách hàng là tốt.",
+          "h": "S + want + Adj + N. N + be + Adj.",
+          "s": "Yes, I want new ideas. Customer ideas are good."
+        },
+        {
+          "p": "What color do you like for a new book?",
+          "m": "Trả lời bạn thích màu xanh. Nói màu xanh là màu yêu thích của bạn.",
+          "h": "S + like + N. N + be + S + Adj + N.",
+          "s": "I like blue. Blue is my favorite color."
+        },
+        {
+          "p": "How can we make your shop better?",
+          "m": "Trả lời bạn có thể có thêm đồ chơi. Nói trẻ em thích đồ chơi.",
+          "h": "S + can + have + more + N. N + like + N.",
+          "s": "We can have more toys. Kids like toys."
+        }
+      ]
+    },
+    {
+      "t": "Mang lại lợi ích cho khách hàng",
+      "e": [
+        {
+          "p": "What is a good benefit for a loyal customer?",
+          "m": "Trả lời một món quà nhỏ là tốt. Nói một ly nước miễn phí cũng vậy.",
+          "h": "Adj + N + be + Adj. Adj + N + also + be + Adj.",
+          "s": "A small gift is good. A free water is also good."
+        },
+        {
+          "p": "Can I get a discount today?",
+          "m": "Trả lời bạn có thể có giảm giá. Nói đó là cho tất cả khách hàng.",
+          "h": "S + can + have + N. That + be + for + all + N.",
+          "s": "Yes, you can have a discount. That is for all customers."
+        },
+        {
+          "p": "Do you have a special event for loyal customers?",
+          "m": "Trả lời bạn có một sự kiện đặc biệt. Nói đó là vào tháng tới.",
+          "h": "S + have + Adj + N. That + be + in + N.",
+          "s": "Yes, we have a special event. That is next month."
+        },
+        {
+          "p": "I like this shirt. Can I buy it online?",
+          "m": "Trả lời bạn có thể mua nó trực tuyến. Nói bạn mang nó đến nhà nhanh.",
+          "h": "S + can + V + it + online. S + V + O + to + N + Adj.",
+          "s": "Yes, you can buy it online. We bring it to your house fast."
+        },
+        {
+          "p": "How can I always get new information?",
+          "m": "Trả lời bạn có thể có email của bạn. Nói bạn gửi tin tức mỗi tuần.",
+          "h": "S + can + have + S + N. S + V(s/es) + N + N.",
+          "s": "I can have your email. I send news every week."
+        }
+      ]
+    },
+    {
+      "t": "Cảm ơn những khách hàng thân thiết",
+      "e": [
+        {
+          "p": "Thank you for shopping here! Is there anything else?",
+          "m": "Trả lời bạn vui khi mua sắm ở đây. Nói shop là tốt.",
+          "h": "S + be + Adj + to + V + here. S + be + Adj.",
+          "s": "I am happy to shop here. Your shop is good."
+        },
+        {
+          "p": "We appreciate your loyal business. Do you have feedback?",
+          "m": "Trả lời bạn thích dịch vụ. Nói nhân viên luôn thân thiện.",
+          "h": "S + like + N. N + be + always + Adj.",
+          "s": "I like the service. Staff is always friendly."
+        },
+        {
+          "p": "As a valued customer, what product do you like most?",
+          "m": "Trả lời bạn thích thức ăn của bạn. Nói đó là món tốt nhất.",
+          "h": "S + like + S + N. It + be + the + best + N.",
+          "s": "I like your food. It is the best food."
+        },
+        {
+          "p": "Thank you for your repeat visit. What makes you come back?",
+          "m": "Trả lời sản phẩm tốt làm bạn quay lại. Nói giá cả tốt cũng vậy.",
+          "h": "Adj + N + V(s/es) + S + back. N + be + also + Adj.",
+          "s": "Good products bring me back. Good price is also good."
+        },
+        {
+          "p": "You are a special customer! What is your favorite color?",
+          "m": "Trả lời màu yêu thích của bạn là màu xanh. Nói bạn thích một chiếc bút màu xanh.",
+          "h": "S + Adj + N + be + N. S + like + Adj + N.",
+          "s": "My favorite color is blue. I like a blue pen."
+        }
+      ]
+    },
+    {
+      "t": "Lắng nghe để cải thiện",
+      "e": [
+        {
+          "p": "Is there anything we can improve in our shop?",
+          "m": "Trả lời bạn có thể có thêm ghế. Nói khách hàng muốn ngồi.",
+          "h": "S + can + have + more + N. N + want + to + V.",
+          "s": "We can have more chairs. Customers want to sit."
+        },
+        {
+          "p": "Do you have new ideas for our service?",
+          "m": "Trả lời bạn có một ý tưởng mới. Nói bạn có thể giúp khách hàng mang đồ.",
+          "h": "S + have + Adj + N. S + can + V + O + V + N.",
+          "s": "Yes, I have a new idea. You can help customers carry things."
+        },
+        {
+          "p": "What time is good for new events?",
+          "m": "Trả lời buổi tối là tốt. Nói nhiều người có thể đến.",
+          "h": "N + be + Adj. Many + N + can + V.",
+          "s": "Evening is good. Many people can come."
+        },
+        {
+          "p": "Are our prices good for you?",
+          "m": "Trả lời giá của bạn là tốt. Nói nó không đắt.",
+          "h": "S + Adj + N + be + Adj. It + be + not + Adj.",
+          "s": "Yes, your prices are good. It is not expensive."
+        },
+        {
+          "p": "Tell me one thing that makes you unhappy here.",
+          "m": "Trả lời bạn không thích chỗ đậu xe nhỏ. Nói đó là một vấn đề nhỏ.",
+          "h": "S + do not + like + Adj + N. That + be + Adj + N.",
+          "s": "I do not like small parking. That is a small problem."
+        }
+      ]
+    },
+    {
+      "t": "Ôn tập: Cửa hàng và Khách hàng",
+      "e": [
+        {
+          "p": "Hello, who is a loyal customer?",
+          "m": "Trả lời khách hàng trung thành là một người tốt. Nói họ đến mỗi ngày.",
+          "h": "N + be + Adj + N. S + V(s/es) + N.",
+          "s": "A loyal customer is a good person. They come every day."
+        },
+        {
+          "p": "What do customers buy here?",
+          "m": "Trả lời khách hàng mua đồ ăn và sách. Nói họ cũng mua đồ chơi.",
+          "h": "S + V(s/es) + N + and + N. S + also + V(s/es) + N.",
+          "s": "Customers buy food and books. They also buy toys."
+        },
+        {
+          "p": "Why do customers like our shop?",
+          "m": "Trả lời họ thích shop vì nó sạch sẽ. Nói nó có nhiều đồ.",
+          "h": "S + like + N + because + S + be + Adj. It + has + many + N.",
+          "s": "They like our shop because it is clean. It has many things."
+        },
+        {
+          "p": "Can we help our loyal customers more?",
+          "m": "Trả lời bạn có thể giúp nhiều hơn. Nói bạn có thể giảm giá.",
+          "h": "S + can + V + more. S + can + have + N.",
+          "s": "Yes, we can help more. We can have discounts."
+        },
+        {
+          "p": "What makes a customer happy in our shop?",
+          "m": "Trả lời sản phẩm tốt làm khách hàng vui. Nói nhân viên thân thiện cũng vậy.",
+          "h": "Adj + N + V(s/es) + O + Adj. Adj + N + also + V(s/es) + O + Adj.",
+          "s": "Good products make customers happy. Friendly staff also make them happy."
+        }
+      ]
+    },
+    {
+      "t": "Ôn tập: Sản phẩm tốt và Dịch vụ",
+      "e": [
+        {
+          "p": "Is our product good for customers?",
+          "m": "Trả lời sản phẩm của bạn rất tốt. Nói nó giúp khách hàng.",
+          "h": "S + Adj + N + be + very + Adj. It + V(s/es) + O.",
+          "s": "Yes, our product is very good. It helps customers."
+        },
+        {
+          "p": "Do you offer good service?",
+          "m": "Trả lời bạn cung cấp dịch vụ tốt. Nói bạn cười và nói 'cảm ơn'.",
+          "h": "S + V(s/es) + Adj + N. S + V + and + V + N.",
+          "s": "Yes, I offer good service. I smile and say 'thank you'."
+        },
+        {
+          "p": "Who does [studentName] help every day?",
+          "m": "Trả lời [studentName] giúp khách hàng. Nói bạn thích công việc của mình.",
+          "h": "S + V(s/es) + O. S + like + S + N.",
+          "s": "[studentName] helps customers. I like my work."
+        },
+        {
+          "p": "What do customers say about our prices?",
+          "m": "Trả lời khách hàng nói giá cả tốt. Nói họ thích giá cả.",
+          "h": "S + say + N + be + Adj. S + like + N.",
+          "s": "Customers say prices are good. They like the prices."
+        },
+        {
+          "p": "How can we make a customer choose our shop again?",
+          "m": "Trả lời bạn có thể đưa ra một ưu đãi đặc biệt. Nói bạn có thể giúp họ nhanh chóng.",
+          "h": "S + can + V + Adj + N. S + can + V + O + Adj.",
+          "s": "We can give a special offer. We can help them fast."
+        }
+      ]
+    },
+    {
+      "t": "Ôn tập: Giữ chân khách hàng vui vẻ",
+      "e": [
+        {
+          "p": "What is the best way to keep a customer happy?",
+          "m": "Trả lời cách tốt nhất là giúp đỡ. Nói bạn luôn giúp đỡ.",
+          "h": "The best way + be + to + V. S + be + always + V-ing.",
+          "s": "The best way is to help. I am always helping."
+        },
+        {
+          "p": "Do customers like new products?",
+          "m": "Trả lời khách hàng thích sản phẩm mới. Nói họ thích tìm kiếm.",
+          "h": "S + like + Adj + N. S + like + V-ing.",
+          "s": "Yes, customers like new products. They like looking."
+        },
+        {
+          "p": "Can customers give ideas for the shop?",
+          "m": "Trả lời khách hàng có thể cho ý tưởng. Nói ý tưởng của họ là tốt.",
+          "h": "S + can + V + N. S + N + be + Adj.",
+          "s": "Yes, customers can give ideas. Their ideas are good."
+        },
+        {
+          "p": "What are your ideas for a loyal customer gift?",
+          "m": "Trả lời bạn có ý tưởng. Nói đó là một chiếc bút đỏ hoặc một cuốn sách nhỏ.",
+          "h": "S + have + N. That + be + N + or + Adj + N.",
+          "s": "I have ideas. That is a red pen or a small book."
+        },
+        {
+          "p": "How can we make customers tell their friends about us?",
+          "m": "Trả lời bạn có thể có dịch vụ rất tốt. Nói họ sẽ nói với bạn bè.",
+          "h": "S + can + have + very + Adj + N. S + will + V + O.",
+          "s": "We can have very good service. They will tell friends."
+        }
+      ]
+    }
+  ]
+}

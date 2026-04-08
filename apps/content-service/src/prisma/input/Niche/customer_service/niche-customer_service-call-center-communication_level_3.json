@@ -1,0 +1,530 @@
+{
+  "l": 3,
+  "d": [
+    {
+      "t": "Chào hỏi và xác nhận thông tin khách hàng",
+      "e": [
+        {
+          "p": "Good morning! Thank you for calling Tech Support. How can I help you today?",
+          "m": "Chào lại và nói rằng bạn muốn kiểm tra trạng thái đơn hàng của mình.",
+          "h": "Sử dụng 'I would like to...' hoặc 'I want to...'",
+          "s": "Good morning. I would like to check the status of my recent order, please."
+        },
+        {
+          "p": "Okay, I can help with that. Can I please have your full name and order number?",
+          "m": "Cung cấp tên đầy đủ của bạn và số đơn hàng là 12345.",
+          "h": "Sử dụng 'My name is...' và 'My order number is...'",
+          "s": "My name is [studentName] and my order number is 12345."
+        },
+        {
+          "p": "Thank you, [studentName]. And can you also confirm your email address for me?",
+          "m": "Xác nhận địa chỉ email của bạn là [studentName]@example.com.",
+          "h": "Sử dụng 'My email is...' và đọc địa chỉ email.",
+          "s": "Yes, my email is [studentName]@example.com."
+        },
+        {
+          "p": "Great, I've found your order. It shows here that it was placed last Monday. Is that correct?",
+          "m": "Xác nhận là đúng và hỏi khi nào đơn hàng sẽ được giao.",
+          "h": "Sử dụng 'Yes, that's right.' và 'When will it be delivered?'",
+          "s": "Yes, that's right. When will my order be delivered?"
+        },
+        {
+          "p": "Let me check the delivery date for you. Is there anything else I can help you with today while I'm looking?",
+          "m": "Nói không và cảm ơn họ đã giúp đỡ.",
+          "h": "Sử dụng 'No, thank you.' và 'I appreciate your help.'",
+          "s": "No, thank you. I appreciate your help with my order."
+        }
+      ]
+    },
+    {
+      "t": "Lắng nghe vấn đề cơ bản",
+      "e": [
+        {
+          "p": "Hello, this is Customer Service. What's the problem?",
+          "m": "Cho biết bạn không thể đăng nhập vào tài khoản của mình.",
+          "h": "Sử dụng 'I cannot...' hoặc 'I am unable to...'",
+          "s": "Hello. I cannot log in to my account."
+        },
+        {
+          "p": "I see. What happens when you try to log in?",
+          "m": "Giải thích rằng bạn nhập mật khẩu nhưng nó báo sai.",
+          "h": "Sử dụng thì quá khứ đơn và liên từ 'but'.",
+          "s": "I entered my password, but it said 'incorrect password'."
+        },
+        {
+          "p": "Okay, I understand. Have you tried resetting your password before calling us?",
+          "m": "Nói rằng bạn đã thử nhưng không nhận được email đặt lại mật khẩu.",
+          "h": "Sử dụng 'I tried, but...' và thì quá khứ đơn.",
+          "s": "Yes, I tried to reset it, but I did not receive an email."
+        },
+        {
+          "p": "I see. And what is the email address linked to your account?",
+          "m": "Cung cấp địa chỉ email của bạn là [studentName]@example.com và hỏi xem họ có thể giúp được không.",
+          "h": "Sử dụng 'My email is...' và 'Can you help me?'",
+          "s": "My email is [studentName]@example.com. Can you help me with this?"
+        },
+        {
+          "p": "Yes, I can definitely help. I will send a new password reset link to your email now. Please check your inbox in a few minutes.",
+          "m": "Cảm ơn và nói bạn sẽ kiểm tra email của mình.",
+          "h": "Sử dụng 'Thank you' và 'I will check my email.'",
+          "s": "Thank you very much. I will check my email now."
+        }
+      ]
+    },
+    {
+      "t": "Thu thập chi tiết vấn đề",
+      "e": [
+        {
+          "p": "Good afternoon. How may I assist you?",
+          "m": "Nói bạn gặp sự cố với Internet ở nhà.",
+          "h": "Sử dụng 'I have a problem with...' hoặc 'My Internet is not working.'",
+          "s": "Good afternoon. I have a problem with my Internet at home."
+        },
+        {
+          "p": "I'm sorry to hear that. Can you describe the problem in more detail?",
+          "m": "Giải thích rằng Internet ngừng hoạt động tối qua và vẫn chưa có.",
+          "h": "Sử dụng thì quá khứ đơn và hiện tại hoàn thành đơn giản.",
+          "s": "My Internet stopped working last night, and it is still off today."
+        },
+        {
+          "p": "Okay. Have you tried restarting your router?",
+          "m": "Nói rằng bạn đã khởi động lại nhưng nó không có tác dụng.",
+          "h": "Sử dụng 'Yes, I did, but it didn't work.'",
+          "s": "Yes, I did restart it, but it did not work."
+        },
+        {
+          "p": "I understand. Is the power light on your router green or red?",
+          "m": "Mô tả rằng đèn báo nguồn màu xanh lá cây nhưng đèn Internet màu đỏ.",
+          "h": "Sử dụng 'The power light is green, but...' và 'is red.'",
+          "s": "The power light is green, but the Internet light is red."
+        },
+        {
+          "p": "Thank you for that information. I will check for outages in your area. Can you tell me your address, please?",
+          "m": "Cung cấp địa chỉ của bạn là [studentAddress] và hỏi khi nào vấn đề có thể được khắc phục.",
+          "h": "Sử dụng 'My address is...' và 'When will it be fixed?'",
+          "s": "My address is [studentAddress]. When do you think it will be fixed?"
+        }
+      ]
+    },
+    {
+      "t": "Xác nhận yêu cầu",
+      "e": [
+        {
+          "p": "Thank you for calling. How can I help?",
+          "m": "Nói bạn muốn thay đổi ngày đặt vé máy bay của mình.",
+          "h": "Sử dụng 'I want to change...' hoặc 'I need to change...'",
+          "s": "Hello. I want to change the date of my flight booking."
+        },
+        {
+          "p": "Okay, I can assist you with that. What is your booking reference number?",
+          "m": "Cung cấp số tham chiếu đặt vé là ABC789.",
+          "h": "Sử dụng 'My booking reference is...'",
+          "s": "My booking reference is ABC789."
+        },
+        {
+          "p": "Thank you. And what new date would you like for your flight?",
+          "m": "Nói bạn muốn bay vào ngày 15 tháng sau thay vì ngày ban đầu.",
+          "h": "Sử dụng 'I want to fly on...' và 'instead of...'",
+          "s": "I want to fly on the 15th of next month instead of the original date."
+        },
+        {
+          "p": "Alright, so you want to change your flight ABC789 to the 15th of next month. Is that correct?",
+          "m": "Xác nhận là đúng và hỏi có mất phí nào không.",
+          "h": "Sử dụng 'Yes, that's correct.' và 'Are there any fees?'",
+          "s": "Yes, that's correct. Are there any fees for this change?"
+        },
+        {
+          "p": "There is a small change fee of $20. Do you want to proceed with the change?",
+          "m": "Xác nhận rằng bạn muốn tiếp tục và hỏi tổng số tiền cần thanh toán.",
+          "h": "Sử dụng 'Yes, please proceed.' và 'What is the total cost?'",
+          "s": "Yes, please proceed with the change. What is the total cost for this?"
+        }
+      ]
+    },
+    {
+      "t": "Giải thích giải pháp đơn giản",
+      "e": [
+        {
+          "p": "Hello, I'm calling about my new washing machine. It's not starting.",
+          "m": "Hỏi xem khách hàng đã cắm điện đúng cách và đóng cửa chưa.",
+          "h": "Sử dụng thì quá khứ đơn cho câu hỏi và liên từ 'and'.",
+          "s": "Did you plug in the machine and close the door correctly?"
+        },
+        {
+          "p": "Yes, I checked both. The power is on, and the door is closed, but it still won't start.",
+          "m": "Gợi ý khách hàng kiểm tra xem chế độ giặt đã được chọn chưa.",
+          "h": "Sử dụng 'You should check...' hoặc 'Please check if...'",
+          "s": "You should check if you selected a wash program. Sometimes people forget that."
+        },
+        {
+          "p": "Oh, you're right! I didn't select a program. Thank you!",
+          "m": "Nói không có gì và hỏi xem có cần giúp gì thêm không.",
+          "h": "Sử dụng 'You're welcome.' và 'Do you need more help?'",
+          "s": "You're welcome. Do you need any more help with your washing machine today?"
+        },
+        {
+          "p": "No, that was it. Thanks again!",
+          "m": "Kết thúc cuộc gọi một cách lịch sự.",
+          "h": "Sử dụng các cụm từ lịch sự như 'Have a good day.'",
+          "s": "Okay, great. Have a good day!"
+        },
+        {
+          "p": "Thank you, you too!",
+          "m": "Xác nhận đã kết thúc cuộc gọi.",
+          "h": "Không cần gợi ý ngữ pháp phức tạp, chỉ là phản hồi lịch sự.",
+          "s": "Thank you for calling. Goodbye."
+        }
+      ]
+    },
+    {
+      "t": "Sắp xếp lịch hẹn",
+      "e": [
+        {
+          "p": "Good morning, Customer Service. How can I help you?",
+          "m": "Nói bạn muốn sắp xếp lịch sửa chữa tủ lạnh của mình.",
+          "h": "Sử dụng 'I want to schedule...' hoặc 'I need to arrange...'",
+          "s": "Good morning. I want to schedule a repair for my refrigerator."
+        },
+        {
+          "p": "Okay. What day and time would be good for the technician to visit?",
+          "m": "Đề xuất chiều thứ Năm hoặc sáng thứ Sáu.",
+          "h": "Sử dụng 'How about...' hoặc 'I prefer...'",
+          "s": "How about Thursday afternoon or Friday morning?"
+        },
+        {
+          "p": "Let me check. Thursday afternoon is busy. We have an opening on Friday at 9 AM. Does that work for you?",
+          "m": "Xác nhận 9 giờ sáng thứ Sáu là tốt và hỏi mất bao lâu.",
+          "h": "Sử dụng 'Yes, 9 AM on Friday is good.' và 'How long will it take?'",
+          "s": "Yes, 9 AM on Friday is good. How long will the repair take?"
+        },
+        {
+          "p": "It usually takes about 1 to 2 hours. The technician will call you before arrival. Is your address still [studentAddress]?",
+          "m": "Xác nhận địa chỉ là đúng và cảm ơn họ đã sắp xếp.",
+          "h": "Sử dụng 'Yes, that's correct.' và 'Thank you for arranging this.'",
+          "s": "Yes, that's correct. Thank you for arranging the appointment."
+        },
+        {
+          "p": "You're welcome. We will see you on Friday. Is there anything else?",
+          "m": "Nói không và chúc họ một ngày tốt lành.",
+          "h": "Sử dụng 'No, thank you.' và 'Have a good day!'",
+          "s": "No, thank you. Have a good day!"
+        }
+      ]
+    },
+    {
+      "t": "Cung cấp thông tin sản phẩm/dịch vụ",
+      "e": [
+        {
+          "p": "Hi, I'm interested in your new internet plan. Can you tell me about it?",
+          "m": "Nói kế hoạch mới có tốc độ nhanh hơn và giá tốt hơn.",
+          "h": "Sử dụng so sánh 'faster' và 'better price'.",
+          "s": "The new plan has faster speed and a better price than the old one."
+        },
+        {
+          "p": "That sounds good. How much does it cost per month?",
+          "m": "Cho biết chi phí là 50 đô la mỗi tháng và nó bao gồm cài đặt miễn phí.",
+          "h": "Sử dụng 'It costs...' và 'It also includes...'",
+          "s": "It costs 50 dollars per month. It also includes free installation."
+        },
+        {
+          "p": "Free installation is great! And what is the internet speed?",
+          "m": "Giải thích tốc độ là 100 Mbps, đủ tốt để xem phim.",
+          "h": "Sử dụng 'The speed is...' và 'It is good for...'",
+          "s": "The speed is 100 Mbps. It is good for watching movies and working from home."
+        },
+        {
+          "p": "That's fast enough for me. Are there any contracts or can I cancel anytime?",
+          "m": "Nói không có hợp đồng và bạn có thể hủy bất cứ lúc nào.",
+          "h": "Sử dụng 'There is no contract.' và 'You can cancel anytime.'",
+          "s": "There is no contract. You can cancel it anytime, so it is flexible."
+        },
+        {
+          "p": "Excellent! I think I want to switch to this plan. What should I do next?",
+          "m": "Hướng dẫn khách hàng truy cập trang web để đăng ký hoặc nói chuyện với một nhân viên bán hàng.",
+          "h": "Sử dụng 'You can go to...' hoặc 'You should speak to...'",
+          "s": "You can go to our website to sign up, or I can transfer you to a sales agent."
+        }
+      ]
+    },
+    {
+      "t": "Theo dõi và cập nhật",
+      "e": [
+        {
+          "p": "Hello, I'm calling about my recent complaint. Has there been any update?",
+          "m": "Xác nhận đã có cập nhật và vấn đề đang được xem xét.",
+          "h": "Sử dụng thì hiện tại hoàn thành và thì hiện tại tiếp diễn.",
+          "s": "Yes, we have an update. Your issue is currently being reviewed by our team."
+        },
+        {
+          "p": "Okay, that's good. When can I expect a full solution?",
+          "m": "Giải thích bạn sẽ nhận được một cuộc gọi trong 24 giờ tới với giải pháp.",
+          "h": "Sử dụng thì tương lai đơn và 'within...hours'.",
+          "s": "You will receive a call within the next 24 hours with a solution."
+        },
+        {
+          "p": "24 hours, got it. Is there anything I need to do on my end?",
+          "m": "Nói không cần làm gì nữa, chỉ cần đợi cuộc gọi.",
+          "h": "Sử dụng 'No, you don't need to...' và 'You just need to...'",
+          "s": "No, you don't need to do anything. You just need to wait for our call."
+        },
+        {
+          "p": "Alright. Thank you for the update.",
+          "m": "Hỏi xem có cần giúp gì thêm hôm nay không.",
+          "h": "Sử dụng 'Is there anything else...?'",
+          "s": "You're welcome. Is there anything else I can help you with today?"
+        },
+        {
+          "p": "No, that's all for now. Bye.",
+          "m": "Chào tạm biệt và cảm ơn khách hàng đã gọi điện.",
+          "h": "Sử dụng 'Thank you for calling.'",
+          "s": "Okay. Thank you for calling. Goodbye."
+        }
+      ]
+    },
+    {
+      "t": "Xử lý khiếu nại nhỏ",
+      "e": [
+        {
+          "p": "I'm calling about my last bill. It seems higher than usual.",
+          "m": "Xin lỗi về sự bất tiện và nói bạn sẽ kiểm tra chi tiết hóa đơn.",
+          "h": "Sử dụng 'I apologize for...' và 'I will check...'",
+          "s": "I apologize for the inconvenience. I will check your bill details for you."
+        },
+        {
+          "p": "Thanks. I don't understand why it's so expensive this month.",
+          "m": "Giải thích rằng có một khoản phí bổ sung cho dịch vụ cao cấp mà khách hàng đã đăng ký vào tháng trước.",
+          "h": "Sử dụng thì quá khứ đơn và hiện tại đơn.",
+          "s": "There is an additional charge for a premium service that you signed up for last month."
+        },
+        {
+          "p": "Premium service? I don't remember signing up for that!",
+          "m": "Giải thích bạn có thể gỡ bỏ dịch vụ đó và hoàn lại tiền nếu khách hàng không muốn.",
+          "h": "Sử dụng 'I can remove...' và 'and refund you'.",
+          "s": "I can remove that service and refund you the extra charge if you don't want it."
+        },
+        {
+          "p": "Yes, please remove it and process the refund. I only want the basic service.",
+          "m": "Xác nhận sẽ gỡ bỏ dịch vụ và tiền sẽ được hoàn lại trong 3-5 ngày làm việc.",
+          "h": "Sử dụng thì tương lai đơn và 'within...business days'.",
+          "s": "Okay, I will remove the premium service now. Your refund will appear in 3-5 business days."
+        },
+        {
+          "p": "Thank you for fixing this. I'm much happier now.",
+          "m": "Bày tỏ niềm vui khi khách hàng hài lòng và hỏi xem có cần giúp gì thêm không.",
+          "h": "Sử dụng 'I am glad...' và 'Is there anything else...?'",
+          "s": "I am glad I could help you. Is there anything else I can assist you with today?"
+        }
+      ]
+    },
+    {
+      "t": "Đề xuất phương án thay thế",
+      "e": [
+        {
+          "p": "Hi, I ordered a red shirt, but you sent me a blue one. I'm very disappointed.",
+          "m": "Xin lỗi về lỗi và đề xuất gửi một chiếc áo mới hoặc hoàn lại tiền.",
+          "h": "Sử dụng 'I apologize for...' và 'We can send you...' hoặc 'We can give you...'",
+          "s": "I apologize for the mistake. We can send you a new red shirt, or we can give you a full refund."
+        },
+        {
+          "p": "I really need a red shirt for an event this weekend. Can you send it quickly?",
+          "m": "Nói rằng chúng tôi có thể gửi nhanh nhưng nó có thể không đến kịp cuối tuần, nên đề xuất hoàn lại tiền nếu họ muốn mua cái khác ở cửa hàng.",
+          "h": "Sử dụng 'We can send it quickly, but...' và 'So, you can get a refund.'",
+          "s": "We can send it quickly, but it might not arrive by the weekend. So, you can get a refund if you want to buy one at a store."
+        },
+        {
+          "p": "Hmm, a refund might be better then. How long will that take?",
+          "m": "Giải thích tiền hoàn lại sẽ mất 3-5 ngày nhưng bạn có thể cho họ một mã giảm giá 10% cho lần mua hàng tiếp theo.",
+          "h": "Sử dụng 'A refund will take...' và 'but I can give you a discount code.'",
+          "s": "A refund will take 3-5 business days. But, I can give you a 10% discount code for your next purchase."
+        },
+        {
+          "p": "A discount code sounds good. Please process the refund and give me the code.",
+          "m": "Xác nhận sẽ làm theo yêu cầu và cung cấp mã giảm giá là SAVE10.",
+          "h": "Sử dụng 'I will do that.' và 'The code is...'",
+          "s": "I will do that for you now. The discount code is SAVE10. You can use it next time."
+        },
+        {
+          "p": "Thank you so much for your help!",
+          "m": "Nói không có gì và cảm ơn khách hàng đã liên hệ.",
+          "h": "Sử dụng 'You're welcome.' và 'Thank you for calling.'",
+          "s": "You're welcome. Thank you for calling and letting us know about the issue."
+        }
+      ]
+    },
+    {
+      "t": "Chuyển tiếp cuộc gọi",
+      "e": [
+        {
+          "p": "Hello, I need to talk to someone about a technical issue with my new laptop.",
+          "m": "Nói bạn có thể chuyển cuộc gọi đến bộ phận hỗ trợ kỹ thuật.",
+          "h": "Sử dụng 'I can transfer you to...' hoặc 'I will connect you with...'",
+          "s": "Okay. I can transfer you to our technical support department for that."
+        },
+        {
+          "p": "Great, please do. Will I have to explain everything again?",
+          "m": "Nói rằng bạn sẽ ghi chú các thông tin bạn đã có để khách hàng không phải lặp lại nhiều.",
+          "h": "Sử dụng 'I will make notes so you don't have to...' hoặc 'I will tell them...'",
+          "s": "I will make some notes so you don't have to repeat everything. They will have your basic information."
+        },
+        {
+          "p": "That's very helpful, thank you.",
+          "m": "Hỏi xem khách hàng có sẵn sàng đợi một chút không.",
+          "h": "Sử dụng 'Are you ready to wait...?' hoặc 'Can you hold for a moment?'",
+          "s": "You're welcome. Can you hold for a moment while I connect you?"
+        },
+        {
+          "p": "Yes, I can wait.",
+          "m": "Nói rằng bạn đang chuyển cuộc gọi và cảm ơn khách hàng đã đợi.",
+          "h": "Sử dụng 'I am transferring your call now.' và 'Thank you for holding.'",
+          "s": "Okay, I am transferring your call now. Thank you for holding."
+        },
+        {
+          "p": "Hello? Is anyone there?",
+          "m": "Nói xin lỗi nếu khách hàng bị đợi lâu và xác nhận họ đã được kết nối với bộ phận kỹ thuật.",
+          "h": "Sử dụng 'I apologize if...' và 'You are now connected to...'",
+          "s": "I apologize if you waited a long time. You are now connected to Technical Support. Please speak with them."
+        }
+      ]
+    },
+    {
+      "t": "Tổng kết và xác nhận cuối cùng",
+      "e": [
+        {
+          "p": "So, just to confirm, you want to cancel your gym membership, right?",
+          "m": "Xác nhận là đúng và nói rằng bạn muốn hủy vì chuyển nhà.",
+          "h": "Sử dụng 'Yes, that's correct.' và 'because I am moving.'",
+          "s": "Yes, that's correct. I want to cancel it because I am moving to a new city."
+        },
+        {
+          "p": "I understand. Your membership will be canceled at the end of this month. You won't be charged again. Is that okay?",
+          "m": "Xác nhận đó là tốt và hỏi có cần làm gì nữa không.",
+          "h": "Sử dụng 'Yes, that is fine.' và 'Do I need to do anything else?'",
+          "s": "Yes, that is fine. Do I need to do anything else to complete the cancellation?"
+        },
+        {
+          "p": "No, everything is done on our side. You will receive an email confirmation shortly.",
+          "m": "Cảm ơn họ và hỏi khi nào email sẽ đến.",
+          "h": "Sử dụng 'Thank you.' và 'When will the email arrive?'",
+          "s": "Thank you. When will the email confirmation arrive?"
+        },
+        {
+          "p": "It should be in your inbox within an hour. Please check your spam folder too.",
+          "m": "Nói bạn sẽ kiểm tra email của mình.",
+          "h": "Sử dụng 'I will check my email.'",
+          "s": "Okay, I will check my email and my spam folder."
+        },
+        {
+          "p": "Perfect. Is there anything else I can help you with today, [studentName]?",
+          "m": "Nói không và cảm ơn họ một lần nữa.",
+          "h": "Sử dụng 'No, that's all.' và 'Thank you again.'",
+          "s": "No, that's all. Thank you again for your help."
+        }
+      ]
+    },
+    {
+      "t": "Ôn tập: Giải quyết các yêu cầu thường gặp",
+      "e": [
+        {
+          "p": "Good morning. My name is Mark. How can I assist you?",
+          "m": "Chào lại và nói bạn muốn hỏi về một sản phẩm bạn đã thấy trên trang web.",
+          "h": "Sử dụng 'I would like to ask about...' và thì quá khứ đơn.",
+          "s": "Good morning. I would like to ask about a product I saw on your website yesterday."
+        },
+        {
+          "p": "Okay, what product are you interested in?",
+          "m": "Nói bạn quan tâm đến 'Smartwatch X' và hỏi nó có màu đen không.",
+          "h": "Sử dụng 'I am interested in...' và 'Is it available in...?'",
+          "s": "I am interested in the Smartwatch X. Is it available in black?"
+        },
+        {
+          "p": "Yes, it is available in black. The price is $150. Would you like to buy it?",
+          "m": "Nói bạn sẽ mua nó nhưng hỏi có thể nhận được giảm giá không vì bạn là khách hàng thân thiết.",
+          "h": "Sử dụng 'I will buy it, but...' và 'Can I get a discount because...?'",
+          "s": "I will buy it, but can I get a discount because I am a loyal customer?"
+        },
+        {
+          "p": "Let me see. Yes, I can offer you a 10% discount for being a loyal customer. So the total will be $135.",
+          "m": "Cảm ơn và nói rằng bạn sẽ thanh toán bằng thẻ tín dụng.",
+          "h": "Sử dụng 'Thank you.' và 'I will pay by...'",
+          "s": "Thank you very much! I will pay by credit card."
+        },
+        {
+          "p": "Great. Please provide your card details when I transfer you to our secure payment system. Is there anything else?",
+          "m": "Nói không và cảm ơn sự giúp đỡ của họ.",
+          "h": "Sử dụng 'No, that's all.' và 'Thank you for your help.'",
+          "s": "No, that's all. Thank you for your help today."
+        }
+      ]
+    },
+    {
+      "t": "Ôn tập: Hỗ trợ kỹ thuật cơ bản",
+      "e": [
+        {
+          "p": "Hello, this is tech support. What seems to be the issue?",
+          "m": "Nói máy tính của bạn rất chậm và bạn không biết tại sao.",
+          "h": "Sử dụng 'My computer is very slow.' và 'I don't know why.'",
+          "s": "Hello. My computer is very slow, and I don't know why."
+        },
+        {
+          "p": "I see. Have you restarted it recently?",
+          "m": "Nói bạn đã khởi động lại nó sáng nay nhưng nó vẫn chậm.",
+          "h": "Sử dụng thì quá khứ đơn và liên từ 'but'.",
+          "s": "Yes, I restarted it this morning, but it is still very slow."
+        },
+        {
+          "p": "Okay. You should also check for any running programs that you are not using. Sometimes too many programs make it slow.",
+          "m": "Hỏi bạn nên kiểm tra những chương trình nào và cảm ơn gợi ý của họ.",
+          "h": "Sử dụng 'What programs should I check?' và 'Thank you for the suggestion.'",
+          "s": "What programs should I check? Thank you for the suggestion."
+        },
+        {
+          "p": "You should check programs like games or video editing software. They use a lot of memory. Then, you can close them.",
+          "m": "Nói bạn sẽ thử điều đó và hy vọng nó sẽ giúp ích.",
+          "h": "Sử dụng 'I will try that.' và 'I hope it helps.'",
+          "s": "Okay, I will try that now. I hope it helps my computer get faster."
+        },
+        {
+          "p": "I hope so too. If the problem continues, please call us again.",
+          "m": "Cảm ơn và nói bạn sẽ làm như vậy nếu vấn đề vẫn còn.",
+          "h": "Sử dụng 'Thank you.' và 'I will do that if...' hoặc 'I will call again if...'",
+          "s": "Thank you. I will call again if the problem continues."
+        }
+      ]
+    },
+    {
+      "t": "Ôn tập: Chăm sóc khách hàng toàn diện",
+      "e": [
+        {
+          "p": "Welcome to our customer support. My name is Sophie. How can I assist you today?",
+          "m": "Chào Sophie và nói bạn muốn hỏi về một chuyến đi bạn đã đặt vào tháng trước.",
+          "h": "Sử dụng 'Hello Sophie.' và thì quá khứ đơn.",
+          "s": "Hello Sophie. I want to ask about a trip I booked last month."
+        },
+        {
+          "p": "Of course. What is your booking reference number?",
+          "m": "Cung cấp số tham chiếu là XZY987 và hỏi nó có bao gồm bữa sáng không.",
+          "h": "Sử dụng 'My booking reference is...' và 'Does it include...?'",
+          "s": "My booking reference is XZY987. Does it include breakfast?"
+        },
+        {
+          "p": "Let me check for you. Yes, your booking includes breakfast every morning. Is there anything else you want to know about your trip?",
+          "m": "Nói bạn muốn nâng cấp phòng lên phòng lớn hơn nếu có thể và hỏi giá.",
+          "h": "Sử dụng 'I want to upgrade my room to a bigger one if possible.' và 'What is the price?'",
+          "s": "I want to upgrade my room to a bigger one if possible. What is the price difference?"
+        },
+        {
+          "p": "A room upgrade costs an extra $50 per night. If you want a bigger room, I can arrange that for you.",
+          "m": "Xác nhận bạn muốn nâng cấp và hỏi có thể thanh toán khi nhận phòng không.",
+          "h": "Sử dụng 'Yes, I want to upgrade.' và 'Can I pay at check-in?'",
+          "s": "Yes, I want to upgrade. Can I pay for the upgrade when I check in at the hotel?"
+        },
+        {
+          "p": "Yes, you can pay at check-in. So, to summarize, your trip XZY987 includes breakfast, and you will get a bigger room with an extra $50 per night, payable at the hotel. Is that all correct?",
+          "m": "Xác nhận mọi thứ là đúng và cảm ơn sự giúp đỡ tuyệt vời của họ.",
+          "h": "Sử dụng 'Yes, everything is correct.' và 'Thank you for your great help.'",
+          "s": "Yes, everything is correct. Thank you for your great help today, Sophie!"
+        }
+      ]
+    }
+  ]
+}

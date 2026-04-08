@@ -1,0 +1,560 @@
+{
+  "l": {
+    "lvl": 2,
+    "code": "ELEMENTARY",
+    "desc": "2 câu đơn liên tiếp, có liên kết cơ bản",
+    "req": {
+      "gram": "S + be + V-ing, S + V(s/es) + adv of freq (always/often/sometimes), How much/many...?, I like/want/need + N/to V, There are + số + N, Prepositions (in/on/at/to)",
+      "vocab": "Thông dụng + tính từ đơn giản (big, small, good, bad, hot, cold)",
+      "vocabCap": {
+        "cefr": "A1–A2",
+        "maxWords": 600,
+        "allowed": [
+          "Tất cả từ Level 1, mở rộng thêm:",
+          "Tính từ 2 âm tiết phổ biến: happy, hungry, tired, busy, pretty, funny, angry, lucky",
+          "Trạng từ tần suất: always, often, usually, sometimes, never, still",
+          "Giới từ: in, on, at, to, from, with, near, next to, behind, in front of",
+          "Phrasal verbs cực kỳ phổ biến: get up, go out, come back, wake up",
+          "Từ về cảm xúc đơn giản: love, hate, enjoy, miss, feel",
+          "Từ về thời gian: yesterday, tomorrow, last week, next week, every morning"
+        ],
+        "avoid": [
+          "Từ trừu tượng (ví dụ: opportunity, responsibility, achievement)",
+          "Phrasal verbs ít gặp (ví dụ: put off, bring up, carry out)",
+          "Idioms, thành ngữ",
+          "Từ học thuật hoặc chuyên ngành"
+        ]
+      },
+      "conn": "and, but",
+      "tense": "Present Simple, Present Continuous",
+      "cmplx": "Thấp"
+    }
+  },
+  "d": [
+    {
+      "t": "Khách hàng muốn trả hàng",
+      "e": [
+        {
+          "p": "Hello. How can I help you today?",
+          "m": "Nói rằng bạn muốn trả lại một món đồ. Nói món đồ đó là một chiếc áo sơ mi.",
+          "h": "Dùng 'I want to return...' và 'It is a...'.",
+          "s": "I want to return an item. It is a shirt."
+        },
+        {
+          "p": "Okay, you want to return a shirt. Is the shirt new?",
+          "m": "Xác nhận rằng chiếc áo còn mới. Nói bạn không thích màu của nó.",
+          "h": "Dùng 'Yes, it is new.' và 'I don't like...'",
+          "s": "Yes, it is new. I don't like the color."
+        },
+        {
+          "p": "I see. When did you buy this shirt?",
+          "m": "Nói bạn mua nó tuần trước. Nói bạn mua nó vào thứ Hai.",
+          "h": "Dùng 'I bought it...' và 'It was on...'",
+          "s": "I bought it last week. It was on Monday."
+        },
+        {
+          "p": "Do you have the receipt for the shirt? It is important.",
+          "m": "Xác nhận bạn có biên lai. Nói biên lai đang ở trong túi của bạn.",
+          "h": "Dùng 'Yes, I have...' và giới từ chỉ vị trí.",
+          "s": "Yes, I have the receipt. It is in my bag."
+        },
+        {
+          "p": "Great. Can you show me the receipt now? I need it for the return.",
+          "m": "Nói bạn đang tìm biên lai. Hỏi xem quy trình hoàn tiền sẽ mất bao lâu.",
+          "h": "Dùng 'I am looking for...' và 'How long...?'",
+          "s": "I am looking for it now. How long is the refund process?"
+        }
+      ]
+    },
+    {
+      "t": "Hỏi lý do trả hàng",
+      "e": [
+        {
+          "p": "What is the reason for your return?",
+          "m": "Nói rằng món đồ không vừa. Nói nó quá nhỏ.",
+          "h": "Dùng 'It does not fit.' và 'It is too small.'",
+          "s": "It does not fit. It is too small."
+        },
+        {
+          "p": "I see. And what about the color? Do you like the color?",
+          "m": "Nói rằng màu không phải là vấn đề. Nói bạn thích màu sắc của nó.",
+          "h": "Dùng 'The color is not...' và 'I like...'",
+          "s": "The color is not the problem. I like its color."
+        },
+        {
+          "p": "Okay. Are you still using the shirt?",
+          "m": "Nói bạn không còn sử dụng nó. Nói nó vẫn còn nhãn mác.",
+          "h": "Dùng 'No, I am not...' và 'It still has...'",
+          "s": "No, I am not using it. It still has the tag."
+        },
+        {
+          "p": "Thank you. Do you often buy clothes online?",
+          "m": "Nói rằng bạn thỉnh thoảng mua đồ online. Nói bạn thích mua ở cửa hàng hơn.",
+          "h": "Dùng trạng từ tần suất và 'I like... better.'",
+          "s": "I sometimes buy clothes online. I like to buy in the store better."
+        },
+        {
+          "p": "So, you want to return this shirt. Is there anything wrong with it?",
+          "m": "Nói rằng không có gì sai. Nói bạn chỉ muốn một kích cỡ khác.",
+          "h": "Dùng 'There is nothing wrong.' và 'I just want...'",
+          "s": "There is nothing wrong with it. I just want a different size."
+        }
+      ]
+    },
+    {
+      "t": "Xác nhận thông tin sản phẩm",
+      "e": [
+        {
+          "p": "This is a blue shirt, correct?",
+          "m": "Xác nhận đó là một chiếc áo màu xanh. Nói kích cỡ của nó là M.",
+          "h": "Dùng 'Yes, it is...' và 'Its size is...'",
+          "s": "Yes, it is a blue shirt. Its size is M."
+        },
+        {
+          "p": "And the tag is still on it. Is it clean?",
+          "m": "Xác nhận nó sạch. Nói bạn chỉ mới mặc thử nó một lần.",
+          "h": "Dùng 'Yes, it is clean.' và 'I only tried it on once.'",
+          "s": "Yes, it is clean. I only tried it on once."
+        },
+        {
+          "p": "Okay. You bought it last Monday. Did you pay with cash or card?",
+          "m": "Nói bạn trả bằng thẻ. Nói bạn thường trả bằng thẻ.",
+          "h": "Dùng 'I paid with...' và trạng từ tần suất.",
+          "s": "I paid with card. I usually pay with card."
+        },
+        {
+          "p": "Is this shirt for you, or is it a gift for someone?",
+          "m": "Nói nó dành cho bạn. Nói bạn muốn nó cho bản thân.",
+          "h": "Dùng 'It is for me.' và 'I want it for myself.'",
+          "s": "It is for me. I want it for myself."
+        },
+        {
+          "p": "So, you need a different size. Which size do you want?",
+          "m": "Nói bạn cần size L. Hỏi liệu cửa hàng có size L không.",
+          "h": "Dùng 'I need size L.' và 'Do you have...?'",
+          "s": "I need size L. Do you have size L here?"
+        }
+      ]
+    },
+    {
+      "t": "Tìm biên lai/hóa đơn",
+      "e": [
+        {
+          "p": "Do you have the receipt with you today?",
+          "m": "Nói rằng bạn có. Nói nó đang ở trong túi của bạn.",
+          "h": "Dùng 'Yes, I have it.' và giới từ chỉ vị trí.",
+          "s": "Yes, I have it. It is in my bag."
+        },
+        {
+          "p": "Can you find it for me, please? We need it to process the return.",
+          "m": "Nói bạn đang tìm nó bây giờ. Nói nó có thể ở dưới điện thoại của bạn.",
+          "h": "Dùng 'I am looking for it.' và giới từ 'under.'",
+          "s": "I am looking for it now. It is maybe under my phone."
+        },
+        {
+          "p": "Take your time. Is it a paper receipt or an email receipt?",
+          "m": "Nói nó là biên lai giấy. Nói bạn không có biên lai điện tử.",
+          "h": "Dùng 'It is a paper receipt.' và 'I don't have...'",
+          "s": "It is a paper receipt. I don't have an email receipt."
+        },
+        {
+          "p": "Okay, I see. What if you cannot find the receipt?",
+          "m": "Hỏi liệu bạn có thể sử dụng thông tin thẻ không. Nói bạn đã trả bằng thẻ.",
+          "h": "Dùng 'Can I use...?' và 'I paid with...'",
+          "s": "Can I use my card information? I paid with card."
+        },
+        {
+          "p": "Yes, sometimes we can. Do you remember the date you bought it?",
+          "m": "Nói bạn mua nó tuần trước. Nói bạn không nhớ ngày chính xác.",
+          "h": "Dùng 'I bought it...' và 'I don't remember...'",
+          "s": "I bought it last week. I don't remember the exact date."
+        }
+      ]
+    },
+    {
+      "t": "Hàng bị lỗi hoặc hỏng",
+      "e": [
+        {
+          "p": "Hello, I can help you. What are you bringing back?",
+          "m": "Nói bạn đang mang trả một chiếc đèn. Nói nó không hoạt động.",
+          "h": "Dùng 'I am returning a...' và 'It does not work.'",
+          "s": "I am returning a lamp. It does not work."
+        },
+        {
+          "p": "Oh, I'm sorry to hear that. When did it stop working?",
+          "m": "Nói nó dừng hoạt động hôm qua. Nói nó mới được mua tuần trước.",
+          "h": "Dùng 'It stopped working...' và 'I bought it...'",
+          "s": "It stopped working yesterday. I bought it last week."
+        },
+        {
+          "p": "Did you drop it, or was it like this when you bought it?",
+          "m": "Nói bạn không làm rơi nó. Nói nó đã bị hỏng khi bạn mở hộp.",
+          "h": "Dùng 'I did not drop it.' và 'It was broken when I opened it.'",
+          "s": "I did not drop it. It was broken when I opened it."
+        },
+        {
+          "p": "I see. Do you still have the box and all the parts?",
+          "m": "Xác nhận bạn có hộp. Nói tất cả các bộ phận đều ở bên trong.",
+          "h": "Dùng 'Yes, I have the box.' và 'All the parts are...'",
+          "s": "Yes, I have the box. All the parts are inside."
+        },
+        {
+          "p": "Would you like a new lamp, or do you want a refund?",
+          "m": "Nói bạn muốn một chiếc đèn mới. Nói bạn không muốn hoàn tiền.",
+          "h": "Dùng 'I want a new lamp.' và 'I don't want...'",
+          "s": "I want a new lamp. I don't want a refund."
+        }
+      ]
+    },
+    {
+      "t": "Khách hàng muốn đổi sản phẩm",
+      "e": [
+        {
+          "p": "Hi there. Are you returning this jacket?",
+          "m": "Nói bạn muốn đổi chiếc áo khoác này. Nói bạn cần một chiếc lớn hơn.",
+          "h": "Dùng 'I want to exchange...' và 'I need a bigger one.'",
+          "s": "I want to exchange this jacket. I need a bigger one."
+        },
+        {
+          "p": "Okay, you need a bigger size. Do you have the receipt?",
+          "m": "Xác nhận bạn có biên lai. Nói biên lai ở đây.",
+          "h": "Dùng 'Yes, I have it.' và 'The receipt is here.'",
+          "s": "Yes, I have it. The receipt is here."
+        },
+        {
+          "p": "Great. What color is the jacket you want to exchange for?",
+          "m": "Nói bạn muốn màu đen. Hỏi liệu họ có màu đen size lớn không.",
+          "h": "Dùng 'I want the black one.' và 'Do you have...?'",
+          "s": "I want the black one. Do you have black in a large size?"
+        },
+        {
+          "p": "Let me check for you. Is this jacket clean and unworn?",
+          "m": "Xác nhận nó sạch sẽ. Nói bạn chỉ mới mặc thử.",
+          "h": "Dùng 'Yes, it is clean.' và 'I only tried it on.'",
+          "s": "Yes, it is clean. I only tried it on."
+        },
+        {
+          "p": "Okay, we have a large black jacket. Would you like to try it on?",
+          "m": "Nói bạn muốn thử nó. Cảm ơn nhân viên.",
+          "h": "Dùng 'Yes, I want to try it.' và 'Thank you.'",
+          "s": "Yes, I want to try it on. Thank you very much."
+        }
+      ]
+    },
+    {
+      "t": "Hỏi về tình trạng sản phẩm",
+      "e": [
+        {
+          "p": "Hello. What is the item you are returning today?",
+          "m": "Nói bạn đang trả lại một chiếc đồng hồ. Nói nó bị lỗi.",
+          "h": "Dùng 'I am returning a...' và 'It is broken.'",
+          "s": "I am returning a watch. It is broken."
+        },
+        {
+          "p": "I see. Can you show me what is wrong with it?",
+          "m": "Chỉ vào màn hình. Nói màn hình không hiển thị gì.",
+          "h": "Dùng 'The screen is not...' và 'It shows nothing.'",
+          "s": "The screen is not working. It shows nothing."
+        },
+        {
+          "p": "Was it like this when you bought it, or did it happen later?",
+          "m": "Nói nó xảy ra sau đó. Nói nó đã hoạt động tốt lúc đầu.",
+          "h": "Dùng 'It happened later.' và 'It was working fine at first.'",
+          "s": "It happened later. It was working fine at first."
+        },
+        {
+          "p": "Do you still have the original packaging for the watch?",
+          "m": "Xác nhận bạn vẫn còn bao bì. Nói nó ở nhà.",
+          "h": "Dùng 'Yes, I still have it.' và 'It is at home.'",
+          "s": "Yes, I still have it. It is at home now."
+        },
+        {
+          "p": "Do you want a full refund, or do you want to exchange it for a new one?",
+          "m": "Nói bạn muốn hoàn tiền đầy đủ. Nói bạn không muốn chiếc đồng hồ này nữa.",
+          "h": "Dùng 'I want a full refund.' và 'I don't want this watch anymore.'",
+          "s": "I want a full refund. I don't want this watch anymore."
+        }
+      ]
+    },
+    {
+      "t": "Nói về chính sách đổi trả",
+      "e": [
+        {
+          "p": "Hi. I want to return this dress. What is your return policy?",
+          "m": "Hỏi về thời hạn trả hàng. Hỏi bạn có bao nhiêu ngày để trả hàng.",
+          "h": "Dùng 'What is the return period?' và 'How many days...?'",
+          "s": "What is the return period? How many days do I have?"
+        },
+        {
+          "p": "You have 30 days to return an item. Did you buy it within 30 days?",
+          "m": "Xác nhận bạn mua nó tuần trước. Nói nó nằm trong 30 ngày.",
+          "h": "Dùng 'Yes, I bought it...' và 'It is within 30 days.'",
+          "s": "Yes, I bought it last week. It is within 30 days."
+        },
+        {
+          "p": "Good. Do I need the receipt to return it?",
+          "m": "Xác nhận bạn cần biên lai. Nói đó là quy tắc của cửa hàng.",
+          "h": "Dùng 'Yes, you need...' và 'It is the store's rule.'",
+          "s": "Yes, you need the receipt. It is the store's rule."
+        },
+        {
+          "p": "Okay. And what if the item is on sale? Can I still return it?",
+          "m": "Nói rằng bạn có thể trả lại hàng sale. Nhưng bạn sẽ nhận được một thẻ quà tặng.",
+          "h": "Dùng 'Yes, you can return sale items.' và 'But you get a gift card.'",
+          "s": "Yes, you can return sale items. But you get a gift card."
+        },
+        {
+          "p": "I understand. Can I get cash back for a return?",
+          "m": "Nói bạn có thể nhận tiền mặt nếu bạn có biên lai. Hỏi liệu hoàn tiền mất bao lâu.",
+          "h": "Dùng 'You can get cash if...' và 'How long does a refund take?'",
+          "s": "You can get cash if you have the receipt. How long does a refund take?"
+        }
+      ]
+    },
+    {
+      "t": "Quy trình hoàn tiền",
+      "e": [
+        {
+          "p": "Hello. I want to return this toy. How does the refund work?",
+          "m": "Nói bạn cần biên lai. Nói bạn đang xử lý hoàn tiền cho bạn.",
+          "h": "Dùng 'I need the receipt.' và 'I am processing...'",
+          "s": "I need your receipt. I am processing your refund now."
+        },
+        {
+          "p": "Okay, here is my receipt. Will the money go back to my card?",
+          "m": "Xác nhận tiền sẽ về thẻ của bạn. Nói nó thường mất 3-5 ngày làm việc.",
+          "h": "Dùng 'Yes, it goes back...' và 'It usually takes...'",
+          "s": "Yes, it goes back to your card. It usually takes 3-5 days."
+        },
+        {
+          "p": "So, 3 to 5 days. What if I paid with cash? How do I get my money?",
+          "m": "Nói bạn sẽ nhận được tiền mặt ngay bây giờ. Nói bạn cần ký vào đây.",
+          "h": "Dùng 'You get cash now.' và 'You need to sign here.'",
+          "s": "You get cash now. You need to sign here."
+        },
+        {
+          "p": "Thank you. Is there a refund limit for today?",
+          "m": "Nói rằng không có giới hạn. Nói bạn có thể trả lại bất kỳ món đồ nào.",
+          "h": "Dùng 'No, there is no limit.' và 'You can return any item.'",
+          "s": "No, there is no limit. You can return any item today."
+        },
+        {
+          "p": "Can I get a store credit instead of a refund?",
+          "m": "Nói rằng bạn có thể nhận tín dụng cửa hàng. Nói nó luôn là một lựa chọn tốt.",
+          "h": "Dùng 'Yes, you can get store credit.' và 'It is always a good option.'",
+          "s": "Yes, you can get store credit. It is always a good option."
+        }
+      ]
+    },
+    {
+      "t": "Xử lý khi không có biên lai",
+      "e": [
+        {
+          "p": "I want to return these shoes. But I don't have the receipt.",
+          "m": "Hỏi bạn đã mua chúng khi nào. Nói bạn cần biết ngày.",
+          "h": "Dùng 'When did you buy them?' và 'I need the date.'",
+          "s": "When did you buy them? I need the date."
+        },
+        {
+          "p": "I bought them about two weeks ago. Do you still need the receipt?",
+          "m": "Nói bạn cần nó để hoàn tiền. Hỏi bạn có thông tin thẻ tín dụng không.",
+          "h": "Dùng 'I need it for a refund.' và 'Do you have card information?'",
+          "s": "I need it for a refund. Do you have your card information?"
+        },
+        {
+          "p": "Yes, I paid with my card. Can you find it with my card?",
+          "m": "Xác nhận bạn có thể thử. Nói bạn đang kiểm tra hệ thống.",
+          "h": "Dùng 'Yes, I can try.' và 'I am checking the system.'",
+          "s": "Yes, I can try. I am checking the system now."
+        },
+        {
+          "p": "What if you cannot find the purchase? Can I still return them?",
+          "m": "Nói bạn có thể nhận tín dụng cửa hàng. Nhưng bạn không thể hoàn tiền mặt.",
+          "h": "Dùng 'You can get store credit.' và 'But you cannot get cash.'",
+          "s": "You can get store credit. But you cannot get cash back."
+        },
+        {
+          "p": "Okay, I understand. So, no cash without the receipt. Is that right?",
+          "m": "Xác nhận điều đó đúng. Nói đó là chính sách của cửa hàng.",
+          "h": "Dùng 'That is correct.' và 'It is the store policy.'",
+          "s": "That is correct. It is the store policy."
+        }
+      ]
+    },
+    {
+      "t": "Thời gian hoàn tiền",
+      "e": [
+        {
+          "p": "Hello. I just returned a book. When will I get my money back?",
+          "m": "Hỏi bạn đã trả bằng gì. Nói thời gian chờ đợi khác nhau.",
+          "h": "Dùng 'How did you pay?' và 'The waiting time is different.'",
+          "s": "How did you pay? The waiting time is different."
+        },
+        {
+          "p": "I paid with my credit card. How long will it take for card refunds?",
+          "m": "Nói nó thường mất 3-5 ngày làm việc. Nói tiền sẽ về tài khoản của bạn.",
+          "h": "Dùng 'It usually takes...' và 'The money goes to your account.'",
+          "s": "It usually takes 3-5 business days. The money goes to your account."
+        },
+        {
+          "p": "What about if I paid with cash? Is it faster?",
+          "m": "Xác nhận nó nhanh hơn. Nói bạn nhận tiền mặt ngay lập tức.",
+          "h": "Dùng 'Yes, it is faster.' và 'You get cash instantly.'",
+          "s": "Yes, it is faster. You get cash instantly."
+        },
+        {
+          "p": "So, 3-5 days for card, instant for cash. What about online returns?",
+          "m": "Nói bạn sẽ nhận được email xác nhận. Nói hoàn tiền mất nhiều thời gian hơn một chút.",
+          "h": "Dùng 'You get an email.' và 'Refunds take a little longer.'",
+          "s": "You get an email confirmation. Refunds take a little longer."
+        },
+        {
+          "p": "I see. And what if I still don't see my refund after 5 days?",
+          "m": "Nói bạn có thể gọi cho cửa hàng. Nói bạn có thể kiểm tra cho bạn.",
+          "h": "Dùng 'You can call the store.' và 'We can check it for you.'",
+          "s": "You can call the store. We can check it for you."
+        }
+      ]
+    },
+    {
+      "t": "Đồ sale/khuyến mãi có đổi trả không",
+      "e": [
+        {
+          "p": "Hi. I bought this shirt on sale. Can I still return it?",
+          "m": "Hỏi bạn có biên lai không. Nói rằng bạn cần nó.",
+          "h": "Dùng 'Do you have the receipt?' và 'We need it.'",
+          "s": "Do you have the receipt? We need it."
+        },
+        {
+          "p": "Yes, I have it here. So, what is the policy for sale items?",
+          "m": "Nói bạn có thể trả lại hàng sale. Nói bạn sẽ nhận được tín dụng cửa hàng.",
+          "h": "Dùng 'You can return sale items.' và 'You get store credit.'",
+          "s": "You can return sale items. You get store credit."
+        },
+        {
+          "p": "So, no cash refund for sale items? Only store credit?",
+          "m": "Xác nhận điều đó đúng. Nói bạn có thể dùng nó cho món đồ khác.",
+          "h": "Dùng 'That is correct.' và 'You can use it for another item.'",
+          "s": "That is correct. You can use it for another item."
+        },
+        {
+          "p": "I understand. What if the sale item is damaged? Can I get a full refund then?",
+          "m": "Nói bạn có thể nhận được hoàn tiền đầy đủ. Nói bạn sẽ kiểm tra món đồ.",
+          "h": "Dùng 'Yes, you can get a full refund.' và 'We will check the item.'",
+          "s": "Yes, you can get a full refund. We will check the item first."
+        },
+        {
+          "p": "Okay, that's good to know. And can I exchange a sale item for a different size?",
+          "m": "Xác nhận bạn có thể đổi. Nhưng nó phụ thuộc vào tình trạng còn hàng.",
+          "h": "Dùng 'Yes, you can exchange it.' và 'But we need to check if the size is here.'",
+          "s": "Yes, you can exchange it. But we need to check if the size is here."
+        }
+      ]
+    },
+    {
+      "t": "Ôn tập: Một trường hợp đổi trả phức tạp",
+      "e": [
+        {
+          "p": "I am here to return this tablet. It is not turning on.",
+          "m": "Hỏi bạn có biên lai không. Hỏi nó bao nhiêu ngày tuổi.",
+          "h": "Dùng 'Do you have the receipt?' và 'How old is it?'",
+          "s": "Do you have the receipt? How old is it?"
+        },
+        {
+          "p": "I bought it three months ago. I don't have the paper receipt, but I have the email.",
+          "m": "Nói ba tháng là quá 30 ngày. Hỏi bạn có muốn đổi nó không.",
+          "h": "Dùng 'Three months is over 30 days.' và 'Do you want to exchange it?'",
+          "s": "Three months is over 30 days. Do you want to exchange it?"
+        },
+        {
+          "p": "Can I still exchange it if it is broken? It has a warranty, I think.",
+          "m": "Xác nhận bạn có thể. Nói bạn sẽ kiểm tra chính sách bảo vệ sản phẩm cho bạn.",
+          "h": "Dùng 'Yes, you can.' và 'We will check the product protection.'",
+          "s": "Yes, you can. We will check the product protection for you."
+        },
+        {
+          "p": "Okay, thank you. So, if it is covered, I can get a new one?",
+          "m": "Xác nhận nếu nó được bảo hiểm, bạn sẽ nhận được một cái mới. Nói bạn cần đưa tất cả các phụ kiện.",
+          "h": "Dùng 'If it is covered, you get a new one.' và 'You need all accessories.'",
+          "s": "If it is covered, you get a new one. You need all accessories with it."
+        },
+        {
+          "p": "Yes, I have all the accessories. How long will the exchange process take?",
+          "m": "Nói nó mất khoảng 15 phút. Nói bạn sẽ giúp bạn ngay bây giờ.",
+          "h": "Dùng 'It takes about 15 minutes.' và 'I will help you now.'",
+          "s": "It takes about 15 minutes. I will help you now."
+        }
+      ]
+    },
+    {
+      "t": "Ôn tập: Các câu hỏi và phản hồi về đổi trả",
+      "e": [
+        {
+          "p": "What is the store's policy for returns without a receipt?",
+          "m": "Nói bạn có thể nhận tín dụng cửa hàng. Nhưng không có tiền mặt.",
+          "h": "Dùng 'You can get store credit.' và 'But no cash.'",
+          "s": "You can get store credit. But no cash refund."
+        },
+        {
+          "p": "How many days do I have to return an item?",
+          "m": "Nói bạn có 30 ngày. Nói nó bắt đầu từ ngày mua.",
+          "h": "Dùng 'You have 30 days.' và 'It starts from the purchase date.'",
+          "s": "You have 30 days. It starts from the purchase date."
+        },
+        {
+          "p": "Can I return a gift that I don't like?",
+          "m": "Xác nhận bạn có thể. Nói bạn cần biên lai quà tặng.",
+          "h": "Dùng 'Yes, you can.' và 'You need the gift receipt.'",
+          "s": "Yes, you can. You need the gift receipt."
+        },
+        {
+          "p": "What if the item is opened but not used? Can I still return it?",
+          "m": "Xác nhận bạn có thể. Nói nó phải còn trong tình trạng tốt.",
+          "h": "Dùng 'Yes, you can.' và 'It must be in good condition.'",
+          "s": "Yes, you can. It must be in good condition."
+        },
+        {
+          "p": "How long does it usually take for the money to come back to my card?",
+          "m": "Nói nó mất khoảng 3 đến 5 ngày. Hỏi bạn có cần biên lai không.",
+          "h": "Dùng 'It takes about 3 to 5 days.' và 'Do you need a receipt?'",
+          "s": "It takes about 3 to 5 days. Do you need a receipt for this?"
+        }
+      ]
+    },
+    {
+      "t": "Ôn tập: Xử lý tình huống đổi hàng",
+      "e": [
+        {
+          "p": "I want to exchange these shoes. They are too small.",
+          "m": "Hỏi bạn đã mua chúng khi nào. Hỏi bạn có biên lai không.",
+          "h": "Dùng 'When did you buy them?' và 'Do you have the receipt?'",
+          "s": "When did you buy them? Do you have the receipt?"
+        },
+        {
+          "p": "I bought them last week. Here is the receipt. I need size 8.",
+          "m": "Nói bạn sẽ kiểm tra size 8. Nói bạn đang tìm nó ở phía sau.",
+          "h": "Dùng 'I will check for size 8.' và 'I am looking for it now.'",
+          "s": "I will check for size 8. I am looking for it in the back."
+        },
+        {
+          "p": "What if you don't have size 8? Can I get a refund instead?",
+          "m": "Xác nhận bạn có thể nhận hoàn tiền. Nói đó là một lựa chọn tốt.",
+          "h": "Dùng 'Yes, you can get a refund.' và 'It is a good option.'",
+          "s": "Yes, you can get a refund. It is a good option if we don't have your size."
+        },
+        {
+          "p": "Okay. And what about the condition of the shoes? They are clean.",
+          "m": "Xác nhận chúng sạch. Hỏi bạn đã mang chúng ra ngoài chưa.",
+          "h": "Dùng 'Yes, they are clean.' và 'Did you wear them outside?'",
+          "s": "Yes, they are clean. Did you wear them outside?"
+        },
+        {
+          "p": "No, I only tried them on inside. So, when can I expect the exchange to be done?",
+          "m": "Nói nó sẽ được thực hiện ngay bây giờ. Cảm ơn khách hàng.",
+          "h": "Dùng 'It will be done now.' và 'Thank you.'",
+          "s": "It will be done now. Thank you for your patience."
+        }
+      ]
+    }
+  ]
+}

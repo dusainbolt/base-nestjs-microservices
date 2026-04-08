@@ -1,0 +1,530 @@
+{
+  "l": 2,
+  "d": [
+    {
+      "t": "Gặp giáo viên mới",
+      "e": [
+        {
+          "p": "What's your name?",
+          "m": "1. Nói tên của bạn. 2. Nói tuổi của bạn.",
+          "h": "My name is / I am + age",
+          "s": "My name is [studentName]. I am [studentAge] years old."
+        },
+        {
+          "p": "Where are you from?",
+          "m": "1. Nói thành phố bạn sống. 2. Nói bạn học ở đâu hoặc làm nghề gì.",
+          "h": "I live in + place; I study at / I work as + job",
+          "s": "I live in [studentCity]. I study at [studentSchool]."
+        },
+        {
+          "p": "What subject do you teach or learn?",
+          "m": "1. Nói môn bạn dạy hoặc đang học. 2. Nói bạn thích môn đó hay không.",
+          "h": "I teach/learn + subject; I like/don't like + it",
+          "s": "I learn English. I like it."
+        },
+        {
+          "p": "When is your class?",
+          "m": "1. Nói ngày bạn có lớp. 2. Nói lớp bắt đầu mấy giờ.",
+          "h": "Every/On + day; It starts at + time",
+          "s": "I have class on Monday. It starts at 8 o'clock."
+        },
+        {
+          "p": "How often do you study English?",
+          "m": "1. Nói tần suất bạn học. 2. Nói bạn học vào buổi sáng hay tối.",
+          "h": "Use adverb of frequency + time of day",
+          "s": "I usually study English. I study in the evening."
+        }
+      ]
+    },
+    {
+      "t": "Bắt đầu một lớp học",
+      "e": [
+        {
+          "p": "Can you repeat that, please?",
+          "m": "1. Lặp lại một câu ngắn giáo viên nói. 2. Nói bạn đã hiểu hay chưa.",
+          "h": "Use Present Simple; I understand / I don't understand",
+          "s": "You say: 'Open your book.' I understand."
+        },
+        {
+          "p": "Please open your book.",
+          "m": "1. Nói bạn đã mở sách hay chưa. 2. Nói bạn có bút hay vở không.",
+          "h": "I have / I don't have; I open my book",
+          "s": "I open my book. I have a notebook."
+        },
+        {
+          "p": "Listen and repeat.",
+          "m": "1. Nói bạn đang nghe hay không. 2. Nói bạn lặp lại hay chưa.",
+          "h": "I am listening; I repeat (or I don't)",
+          "s": "I am listening now. I repeat the word."
+        },
+        {
+          "p": "Do you have a question?",
+          "m": "1. Nói bạn có câu hỏi hay không. 2. Nếu có, nêu câu hỏi ngắn.",
+          "h": "Yes, I have / No, I don't; Ask using What/How/When",
+          "s": "Yes, I have a question. What is the new word?"
+        },
+        {
+          "p": "Work with your partner.",
+          "m": "1. Nói bạn đang làm việc nhóm hay một mình. 2. Nói việc bạn làm với bạn cùng lớp là gì.",
+          "h": "I am working with / alone; We + V (present simple)",
+          "s": "I am working with my partner. We practice a dialogue."
+        }
+      ]
+    },
+    {
+      "t": "Nói về môn học yêu thích",
+      "e": [
+        {
+          "p": "Which subject do you like?",
+          "m": "1. Nói tên môn bạn thích. 2. Nói lý do ngắn vì sao bạn thích.",
+          "h": "I like + subject; Because + simple reason",
+          "s": "I like math. Because it is clear and easy."
+        },
+        {
+          "p": "Who is your teacher?",
+          "m": "1. Nói tên hoặc 'my teacher'. 2. Nói bạn nghĩ giáo viên tốt hay không.",
+          "h": "My teacher is + name or 'my teacher'; I think + adjective",
+          "s": "My teacher is Ms. Linh. I think she is very kind."
+        },
+        {
+          "p": "Do you have homework for this subject?",
+          "m": "1. Nói có bài tập về nhà hay không. 2. Nói bạn làm bài tập lúc nào.",
+          "h": "Yes/No; I do homework in the evening / morning",
+          "s": "Yes, I have homework. I do it in the evening."
+        },
+        {
+          "p": "How do you study this subject?",
+          "m": "1. Nói bạn học bằng cách nào (đọc, viết, nghe). 2. Nói bạn có giúp bạn bè hay không.",
+          "h": "I + V (read/write/listen); I help / I don't help",
+          "s": "I read the book and do exercises. I sometimes help my friend."
+        },
+        {
+          "p": "What do you find difficult in this subject?",
+          "m": "1. Nói phần khó bạn gặp. 2. Nói bạn làm gì để cải thiện.",
+          "h": "Use 'I find' + noun; I practice / I ask the teacher",
+          "s": "I find grammar difficult. I practice every day."
+        }
+      ]
+    },
+    {
+      "t": "Nói về trường học",
+      "e": [
+        {
+          "p": "How many students are in your class?",
+          "m": "1. Nói số học sinh trong lớp. 2. Nói lớp có lớn hay nhỏ.",
+          "h": "There are + number; It is big / small",
+          "s": "There are 20 students in my class. It is small."
+        },
+        {
+          "p": "Where is your school?",
+          "m": "1. Nói vị trí trường của bạn (thành phố/near something). 2. Nói bạn đi học bằng cách nào.",
+          "h": "My school is in/near + place; I go to school by + transport",
+          "s": "My school is in the city center. I go to school by bus."
+        },
+        {
+          "p": "What time does school finish?",
+          "m": "1. Nói mấy giờ tan trường. 2. Nói bạn thường làm gì sau giờ học.",
+          "h": "School finishes at + time; I + V (play/do homework)",
+          "s": "School finishes at 3 o'clock. I do my homework after school."
+        },
+        {
+          "p": "Do you like your school canteen?",
+          "m": "1. Nói bạn có thích căng tin không. 2. Nói món ăn bạn thường ăn.",
+          "h": "I like/don't like + it; I usually eat + food",
+          "s": "I like the canteen. I usually eat rice and vegetables."
+        },
+        {
+          "p": "Is your classroom near the library?",
+          "m": "1. Nói lớp bạn có gần thư viện hay không. 2. Nói bạn có thường đi thư viện không.",
+          "h": "It is near / not near; I often/sometimes/never go",
+          "s": "My classroom is near the library. I sometimes go to the library."
+        }
+      ]
+    },
+    {
+      "t": "Thói quen học hàng ngày",
+      "e": [
+        {
+          "p": "What time do you get up on weekdays?",
+          "m": "1. Nói bạn thức dậy mấy giờ. 2. Nói bạn có học ngay sau khi thức dậy không.",
+          "h": "I get up at + time; I + study/not study after get up",
+          "s": "I get up at 6 o'clock. I study a little after I get up."
+        },
+        {
+          "p": "Do you study every day?",
+          "m": "1. Nói bạn học mỗi ngày hay không. 2. Nói bạn học bao lâu mỗi ngày.",
+          "h": "I always/often/sometimes/never + study; I study + time duration",
+          "s": "I often study every day. I study for one hour."
+        },
+        {
+          "p": "Where do you usually study?",
+          "m": "1. Nói nơi bạn thường học (nhà, thư viện). 2. Nói vì sao bạn chọn nơi đó.",
+          "h": "I study at + place; Because + reason",
+          "s": "I usually study at home. Because it is quiet."
+        },
+        {
+          "p": "What do you do when you don't understand?",
+          "m": "1. Nói việc bạn làm khi không hiểu. 2. Nói bạn hỏi ai để giúp.",
+          "h": "I ask / I look in the book; I ask the teacher / friend",
+          "s": "I ask the teacher. I also ask my friend."
+        },
+        {
+          "p": "Do you review your lessons every week?",
+          "m": "1. Nói bạn có ôn bài mỗi tuần không. 2. Nói bạn ôn bằng cách nào.",
+          "h": "I usually/sometimes review; I review by reading/practicing",
+          "s": "I sometimes review every week. I review by reading my notes."
+        }
+      ]
+    },
+    {
+      "t": "Kế hoạch làm bài tập",
+      "e": [
+        {
+          "p": "When do you do your homework?",
+          "m": "1. Nói bạn làm bài tập vào ngày nào hoặc mấy giờ. 2. Nói bạn làm liền hay để sau.",
+          "h": "I do homework + time; I do it now / later",
+          "s": "I do my homework in the evening. I usually do it right away."
+        },
+        {
+          "p": "How long do you spend on homework?",
+          "m": "1. Nói bạn dành bao lâu cho bài tập. 2. Nói bạn nghỉ giải lao khi cần không.",
+          "h": "I spend + time; I take a break / I don't",
+          "s": "I spend one hour on homework. I take a short break."
+        },
+        {
+          "p": "Do you do homework with friends?",
+          "m": "1. Nói bạn làm bài tập với bạn hay một mình. 2. Nói lợi ích khi làm cùng bạn.",
+          "h": "I do it with / alone; It is helpful because + reason",
+          "s": "I do homework with my friend. It is helpful because we share ideas."
+        },
+        {
+          "p": "What do you do first: reading or writing?",
+          "m": "1. Nói việc bạn làm trước. 2. Nói vì sao bạn làm như vậy.",
+          "h": "I read first / I write first; Because + simple reason",
+          "s": "I read first. Because reading helps me understand."
+        },
+        {
+          "p": "Do you check your answers after you finish?",
+          "m": "1. Nói bạn có kiểm tra đáp án không. 2. Nói bạn sửa lỗi hay không.",
+          "h": "Yes/No; I correct mistakes / I don't",
+          "s": "Yes, I check my answers. I correct my mistakes."
+        }
+      ]
+    },
+    {
+      "t": "Hỏi về bài học hôm nay",
+      "e": [
+        {
+          "p": "What did we learn today?",
+          "m": "1. Nói một nội dung chính của bài học hôm nay. 2. Nói bạn có hiểu nội dung đó không.",
+          "h": "We learned + topic; I understand / I don't understand",
+          "s": "We learned new vocabulary. I understand most of it."
+        },
+        {
+          "p": "Can you give an example?",
+          "m": "1. Nêu một ví dụ ngắn từ bài học. 2. Nói ví dụ đó đúng hay sai với bạn.",
+          "h": "Use a simple example sentence; It is correct / not correct for me",
+          "s": "An example is 'I like apples.' It is correct."
+        },
+        {
+          "p": "Is the exercise easy?",
+          "m": "1. Nói bài tập có dễ không. 2. Nói bạn làm xong hay chưa.",
+          "h": "It is easy / difficult; I finished / I haven't finished",
+          "s": "The exercise is easy. I finished it."
+        },
+        {
+          "p": "Who can help me with this question?",
+          "m": "1. Gợi ý ai có thể giúp (giáo viên/bạn). 2. Nói bạn có cần giúp không.",
+          "h": "The teacher / my friend; I need help / I don't",
+          "s": "The teacher can help. I need help with one question."
+        },
+        {
+          "p": "Do you understand the homework instructions?",
+          "m": "1. Nói bạn có hiểu hướng dẫn không. 2. Nói bạn sẽ làm bài thế nào.",
+          "h": "I understand / I don't; I will + verb (do/finish/start)",
+          "s": "I understand the instructions. I will finish the homework tonight."
+        }
+      ]
+    },
+    {
+      "t": "Thảo luận về bài tập nhóm",
+      "e": [
+        {
+          "p": "Who is in your group?",
+          "m": "1. Nói vài người trong nhóm (ví dụ 'my friend'). 2. Nói bạn vai trò gì trong nhóm.",
+          "h": "My group has + people; I am the + role (leader/member)",
+          "s": "My group has three people. I am the leader."
+        },
+        {
+          "p": "What will your group do?",
+          "m": "1. Nói nhiệm vụ nhóm. 2. Nói bạn dự định bắt đầu khi nào.",
+          "h": "We will + verb; We will start at + time",
+          "s": "We will prepare a short presentation. We will start tomorrow."
+        },
+        {
+          "p": "Do you like working in a group?",
+          "m": "1. Nói bạn có thích làm nhóm không. 2. Nói lý do ngắn.",
+          "h": "I like/don't like + it; Because + reason",
+          "s": "I like working in a group. Because we share the work."
+        },
+        {
+          "p": "How do you divide the tasks?",
+          "m": "1. Nói cách bạn chia việc. 2. Nói bạn làm phần gì.",
+          "h": "We divide tasks by + method; I do + specific task",
+          "s": "We divide tasks by skills. I write the introduction."
+        },
+        {
+          "p": "When will you meet to practice?",
+          "m": "1. Nói khi nào nhóm họp luyện tập. 2. Nói bạn có thể tham gia không.",
+          "h": "We meet on + day / at + time; I can / cannot join",
+          "s": "We will meet on Saturday at 4. I can join the meeting."
+        }
+      ]
+    },
+    {
+      "t": "Chuẩn bị cho bài kiểm tra",
+      "e": [
+        {
+          "p": "When is the test?",
+          "m": "1. Nói ngày hoặc ngày trong tuần của bài kiểm tra. 2. Nói bạn có chuẩn bị chưa.",
+          "h": "The test is on + day/date; I have prepared / not prepared",
+          "s": "The test is on Friday. I have prepared a little."
+        },
+        {
+          "p": "What will be on the test?",
+          "m": "1. Nói chủ đề sẽ có trong bài kiểm tra. 2. Nói phần bạn lo lắng nhất.",
+          "h": "The test will have + topics; I worry about + part",
+          "s": "The test will have reading and grammar. I worry about grammar."
+        },
+        {
+          "p": "How do you study for tests?",
+          "m": "1. Nói cách bạn ôn (làm bài tập, đọc). 2. Nói tần suất bạn ôn trước test.",
+          "h": "I study by + V-ing; I study often/sometimes before tests",
+          "s": "I study by doing exercises. I study often before tests."
+        },
+        {
+          "p": "Do you sleep well before tests?",
+          "m": "1. Nói bạn ngủ đủ trước kỳ thi hay không. 2. Nói bạn làm gì để ngủ tốt hơn.",
+          "h": "I sleep well / not well; I + action (go to bed early/read)",
+          "s": "I don't sleep well before tests. I go to bed earlier to sleep better."
+        },
+        {
+          "p": "Who do you ask for help when you study for tests?",
+          "m": "1. Nói bạn hỏi ai (giáo viên/bạn). 2. Nói vì sao họ giúp bạn.",
+          "h": "I ask the teacher / my friend; Because + reason",
+          "s": "I ask my teacher. Because she explains clearly."
+        }
+      ]
+    },
+    {
+      "t": "Nói về việc dạy học",
+      "e": [
+        {
+          "p": "Do you want to be a teacher?",
+          "m": "1. Nói bạn có muốn làm giáo viên hay không. 2. Nói lý do ngắn.",
+          "h": "I want/don't want to be + job; Because + reason",
+          "s": "I don't want to be a teacher. Because I prefer another job."
+        },
+        {
+          "p": "How do teachers help students?",
+          "m": "1. Nói một việc giáo viên làm để giúp. 2. Nói bạn cảm thấy thế nào về việc đó.",
+          "h": "Teachers + verb (explain, show); I feel + adjective",
+          "s": "Teachers explain lessons clearly. I feel happy about that."
+        },
+        {
+          "p": "What makes a good lesson?",
+          "m": "1. Nêu một yếu tố của buổi học hay. 2. Nói bạn có thích buổi học như vậy không.",
+          "h": "A good lesson has + feature; I like / don't like it",
+          "s": "A good lesson has clear examples. I like that kind of lesson."
+        },
+        {
+          "p": "Do teachers give too much homework?",
+          "m": "1. Nói bạn có nghĩ bài tập nhiều hay không. 2. Nói bạn làm sao khi có nhiều bài.",
+          "h": "I think + adjective; I + action (manage/prioritize)",
+          "s": "I think there is sometimes too much homework. I plan my time to finish it."
+        },
+        {
+          "p": "How can teachers make learning fun?",
+          "m": "1. Nói một cách ngắn để giáo viên làm cho bài học vui. 2. Nói bạn có thích cách đó không.",
+          "h": "Use 'by' or 'with'; I like / don't like",
+          "s": "Teachers can use games in class. I like games because they are fun."
+        }
+      ]
+    },
+    {
+      "t": "Lên lịch giờ học thêm",
+      "e": [
+        {
+          "p": "When can you join extra classes?",
+          "m": "1. Nói bạn rảnh ngày nào. 2. Nói buổi sáng hay tối bạn thích học thêm.",
+          "h": "I am free on + day; I prefer morning/evening",
+          "s": "I am free on Saturday. I prefer the afternoon."
+        },
+        {
+          "p": "How many extra lessons do you want?",
+          "m": "1. Nói bạn muốn học thêm mấy buổi mỗi tuần. 2. Nói tại sao bạn muốn số đó.",
+          "h": "I want + number lessons; Because + reason",
+          "s": "I want two extra lessons a week. Because I want more practice."
+        },
+        {
+          "p": "Do you prefer online or in-person classes?",
+          "m": "1. Nói bạn thích học online hay trực tiếp. 2. Nói lý do ngắn.",
+          "h": "I prefer online / in-person; Because + reason",
+          "s": "I prefer online classes. Because they are convenient."
+        },
+        {
+          "p": "Can you pay for extra lessons?",
+          "m": "1. Nói bạn có thể trả tiền cho lớp thêm hay không. 2. Nói bạn cần lớp miễn phí hay hỗ trợ.",
+          "h": "I can / cannot pay; I need free classes / help",
+          "s": "I cannot pay for many lessons. I need some free help."
+        },
+        {
+          "p": "Who will teach the extra classes?",
+          "m": "1. Nói người dạy là giáo viên hay trợ giảng. 2. Nói bạn nghĩ họ có tốt không.",
+          "h": "A teacher / assistant will teach; I think they are + adjective",
+          "s": "A teacher will teach the extra classes. I think she is good."
+        }
+      ]
+    },
+    {
+      "t": "Nhận xét về phương pháp học",
+      "e": [
+        {
+          "p": "Do you like learning with videos?",
+          "m": "1. Nói bạn có thích học qua video hay không. 2. Nói vì sao hoặc vì sao không.",
+          "h": "I like/don't like + it; Because + reason",
+          "s": "I like learning with videos. Because videos are interesting."
+        },
+        {
+          "p": "Is it useful to practice speaking every day?",
+          "m": "1. Nói việc luyện nói hàng ngày có hữu ích không. 2. Nói bạn làm thế nào để luyện nói.",
+          "h": "Yes/No; I + practice by + activity",
+          "s": "Yes, it is useful to practice speaking every day. I practice by talking with friends."
+        },
+        {
+          "p": "Do you use flashcards to learn words?",
+          "m": "1. Nói bạn có dùng flashcards không. 2. Nói bạn học bao nhiêu từ mỗi ngày.",
+          "h": "I use / I don't use; I learn + number words a day",
+          "s": "I use flashcards sometimes. I learn five words a day."
+        },
+        {
+          "p": "What helps you remember new words?",
+          "m": "1. Nói một cách giúp nhớ từ mới. 2. Nói bạn áp dụng cách đó ra sao.",
+          "h": "Use 'by' or 'with'; I + present simple",
+          "s": "I remember new words by making sentences. I write one sentence for each word."
+        },
+        {
+          "p": "Do you prefer study alone or with others?",
+          "m": "1. Nói bạn thích học một mình hay cùng người khác. 2. Nói lý do ngắn.",
+          "h": "I prefer + alone/with others; Because + reason",
+          "s": "I prefer to study with others. Because learning is more fun."
+        }
+      ]
+    },
+    {
+      "t": "Ôn tập: Tổng hợp 1",
+      "e": [
+        {
+          "p": "Introduce yourself in two sentences.",
+          "m": "1. Nói tên và tuổi. 2. Nói bạn học ở đâu.",
+          "h": "My name is + [studentName]; I study at + [studentSchool]",
+          "s": "My name is [studentName]. I study at [studentSchool]."
+        },
+        {
+          "p": "Describe your daily study habit.",
+          "m": "1. Nói bạn học bao lâu mỗi ngày. 2. Nói bạn học vào buổi sáng hay tối.",
+          "h": "I study + duration; I study in the morning/evening",
+          "s": "I study for one hour every day. I study in the evening."
+        },
+        {
+          "p": "Talk about your favourite subject.",
+          "m": "1. Nói tên môn bạn thích. 2. Nói một lý do ngắn.",
+          "h": "I like + subject; Because + reason",
+          "s": "I like English. Because I enjoy learning new words."
+        },
+        {
+          "p": "Say where your school is and how you go there.",
+          "m": "1. Nói nơi trường. 2. Nói bạn đi bằng gì.",
+          "h": "My school is in + place; I go by + transport",
+          "s": "My school is near my house. I go there by bike."
+        },
+        {
+          "p": "Tell one thing teachers do to help you.",
+          "m": "1. Nêu một việc giáo viên làm. 2. Nói bạn cảm thấy thế nào về điều đó.",
+          "h": "Teachers + verb; I feel + adjective",
+          "s": "Teachers explain homework clearly. I feel confident."
+        }
+      ]
+    },
+    {
+      "t": "Ôn tập: Tổng hợp 2",
+      "e": [
+        {
+          "p": "Say what you do when you don't understand a lesson.",
+          "m": "1. Nói việc bạn làm ngay. 2. Nói bạn hỏi ai để giúp đỡ.",
+          "h": "I ask / I read again; I ask the teacher/friend",
+          "s": "I read the lesson again. I ask the teacher for help."
+        },
+        {
+          "p": "Describe your group work plan.",
+          "m": "1. Nói số người và công việc chính. 2. Nói khi nào nhóm họp.",
+          "h": "We have + number people; We meet on + day/time",
+          "s": "We have four people in the group. We meet on Sunday at 3."
+        },
+        {
+          "p": "Explain how you prepare for a test.",
+          "m": "1. Nói một hoạt động ôn bạn làm. 2. Nói tần suất bạn ôn trước test.",
+          "h": "I + V (do exercises/read); I often/sometimes review",
+          "s": "I do exercises to prepare. I often review one week before."
+        },
+        {
+          "p": "Say if you like online classes and why.",
+          "m": "1. Nói bạn thích hay không. 2. Nói lý do ngắn.",
+          "h": "I like/don't like + it; Because + reason",
+          "s": "I like online classes. Because they save travel time."
+        },
+        {
+          "p": "Tell when you usually study with friends.",
+          "m": "1. Nói ngày hoặc buổi bạn học cùng bạn. 2. Nói bạn học gì cùng nhau.",
+          "h": "On + day / In the + time; We study + subject or practice",
+          "s": "We study together on Saturday afternoon. We practice speaking."
+        }
+      ]
+    },
+    {
+      "t": "Ôn tập: Tổng hợp 3",
+      "e": [
+        {
+          "p": "Give two tips to learn vocabulary.",
+          "m": "1. Nói tip đầu tiên ngắn. 2. Nói tip thứ hai ngắn.",
+          "h": "Use 'by' or 'with'; Use simple imperatives",
+          "s": "Learn words by making sentences. Use flashcards every day."
+        },
+        {
+          "p": "Talk about your favourite teacher in two sentences.",
+          "m": "1. Nói ai là giáo viên bạn thích (tên hoặc 'my teacher'). 2. Nói một lý do bạn thích người đó.",
+          "h": "My teacher is + name; Because + reason",
+          "s": "My favorite teacher is Mr. Nam. Because he explains lessons well."
+        },
+        {
+          "p": "Describe your normal school day.",
+          "m": "1. Nói bạn bắt đầu học mấy giờ. 2. Nói bạn tan học mấy giờ và làm gì sau đó.",
+          "h": "School starts/finishes at + time; I + do (activity) after school",
+          "s": "School starts at 7 o'clock. School finishes at 3 and I go home."
+        },
+        {
+          "p": "Say how often you practice English speaking.",
+          "m": "1. Nói tần suất bạn luyện nói. 2. Nói bạn luyện ở đâu (nhà/lớp).",
+          "h": "I always/often/sometimes/never + practice; I practice at + place",
+          "s": "I often practice English speaking. I practice at school and at home."
+        },
+        {
+          "p": "Explain one thing you will do to improve your learning.",
+          "m": "1. Nói việc bạn sẽ làm. 2. Nói khi nào bạn bắt đầu làm điều đó.",
+          "h": "I will + verb; I will start + time",
+          "s": "I will study vocabulary every day. I will start from tomorrow."
+        }
+      ]
+    }
+  ]
+}

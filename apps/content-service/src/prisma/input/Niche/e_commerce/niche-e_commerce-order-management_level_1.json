@@ -1,0 +1,559 @@
+{
+  "l": {
+    "lvl": 1,
+    "code": "BEGINNER",
+    "desc": "Câu đơn rất cơ bản, chỉ truyền đạt 1 ý",
+    "req": {
+      "gram": "S + be (am/is/are) + N/Adj, S + V(s/es) + O, S + can/can't + V, There is/are, What/Who/Where + be...?, Do/Does + S + V?",
+      "vocab": "Nghề nghiệp, gia đình, đồ vật, số đếm, màu sắc, hàng ngày",
+      "vocabCap": {
+        "cefr": "A1",
+        "maxWords": 300,
+        "allowed": [
+          "Danh từ cơ bản: mother, father, sister, brother, friend, school, house, book, food, water, dog, cat",
+          "Động từ phổ biến nhất: be, have, go, come, like, want, eat, drink, play, study, work, live, see",
+          "Tính từ đơn giản (1 âm tiết): big, small, good, bad, hot, cold, happy, sad, old, young, tall, short",
+          "Số đếm: 1-100",
+          "Màu sắc cơ bản: red, blue, green, yellow, white, black",
+          "Thời gian đơn giản: today, now, every day, morning, night"
+        ],
+        "avoid": [
+          "Từ nhiều âm tiết phức tạp (ví dụ: independent, environment, professional)",
+          "Phrasal verbs (ví dụ: get up, look after)",
+          "Idioms, thành ngữ",
+          "Từ chuyên ngành hoặc từ hiếm gặp"
+        ]
+      },
+      "conn": "Không yêu cầu",
+      "tense": "Present Simple",
+      "cmplx": "Rất thấp"
+    }
+  },
+  "d": [
+    {
+      "t": "Tìm hiểu về đơn hàng",
+      "e": [
+        {
+          "p": "Hello. What is your name?",
+          "m": "Nói tên của bạn.",
+          "h": "Sử dụng 'My name is...'",
+          "s": "My name is [studentName]."
+        },
+        {
+          "p": "Good. What is your order number?",
+          "m": "Nêu số đơn hàng.",
+          "h": "Sử dụng 'My order number is...'",
+          "s": "My order number is 12345."
+        },
+        {
+          "p": "Number 12345. Is this a new order?",
+          "m": "Xác nhận đơn hàng mới.",
+          "h": "Sử dụng 'Yes, it is new.'",
+          "s": "Yes, it is new."
+        },
+        {
+          "p": "Okay. What item is in this order?",
+          "m": "Nói tên món đồ trong đơn hàng.",
+          "h": "Sử dụng 'It is a...'",
+          "s": "It is a book."
+        },
+        {
+          "p": "A book. Is it a good book?",
+          "m": "Đánh giá cuốn sách.",
+          "h": "Sử dụng 'It is good/bad.'",
+          "s": "It is a good book."
+        }
+      ]
+    },
+    {
+      "t": "Trạng thái đơn hàng của tôi",
+      "e": [
+        {
+          "p": "Can I help you?",
+          "m": "Trả lời 'Có' và nói bạn cần giúp.",
+          "h": "Sử dụng 'Yes, I can...'",
+          "s": "Yes, I need help."
+        },
+        {
+          "p": "What is the order number?",
+          "m": "Nêu số đơn hàng của bạn.",
+          "h": "Sử dụng 'My order is...'",
+          "s": "My order is 67890."
+        },
+        {
+          "p": "Thank you. Is your order sent?",
+          "m": "Trả lời trạng thái đơn hàng.",
+          "h": "Sử dụng 'It is sent/not sent.'",
+          "s": "No, it is not sent."
+        },
+        {
+          "p": "Is your package big or small?",
+          "m": "Miêu tả kích thước gói hàng.",
+          "h": "Sử dụng 'It is big/small.'",
+          "s": "It is small."
+        },
+        {
+          "p": "Okay. And is your order here now?",
+          "m": "Trả lời đơn hàng có ở đây không.",
+          "h": "Sử dụng 'Yes, it is here.' hoặc 'No, it is not here.'",
+          "s": "No, it is not here."
+        }
+      ]
+    },
+    {
+      "t": "Địa chỉ giao hàng",
+      "e": [
+        {
+          "p": "Hello. I am the delivery person. Is this [studentName]'s house?",
+          "m": "Xác nhận đây là nhà của bạn.",
+          "h": "Sử dụng 'Yes, it is my house.'",
+          "s": "Yes, it is my house."
+        },
+        {
+          "p": "I have a package for order 11223. What is the address?",
+          "m": "Nêu địa chỉ nhà bạn.",
+          "h": "Sử dụng 'My address is...'",
+          "s": "My address is 10 Main Street."
+        },
+        {
+          "p": "Okay, 10 Main Street. Is this address correct?",
+          "m": "Xác nhận địa chỉ đúng.",
+          "h": "Sử dụng 'Yes, it is correct.'",
+          "s": "Yes, it is correct."
+        },
+        {
+          "p": "Is your address 10 Main Street, [studentCity]?",
+          "m": "Xác nhận tên thành phố.",
+          "h": "Sử dụng 'Yes, it is [city name].'",
+          "s": "Yes, it is [studentCity]."
+        },
+        {
+          "p": "Great. Can you receive the package now?",
+          "m": "Trả lời bạn có thể nhận gói hàng bây giờ không.",
+          "h": "Sử dụng 'Yes, I can.' hoặc 'No, I cannot.'",
+          "s": "Yes, I can."
+        }
+      ]
+    },
+    {
+      "t": "Có bao nhiêu món đồ?",
+      "e": [
+        {
+          "p": "Hi. Can you tell me your order number?",
+          "m": "Nêu số đơn hàng.",
+          "h": "Sử dụng 'My order is...'",
+          "s": "My order is 33445."
+        },
+        {
+          "p": "Order 33445. How many items are in this order?",
+          "m": "Nêu số lượng món đồ.",
+          "h": "Sử dụng 'There is/are...'",
+          "s": "There are two items."
+        },
+        {
+          "p": "Two items. What are the items?",
+          "m": "Nêu tên các món đồ.",
+          "h": "Sử dụng 'They are a... and a...'",
+          "s": "They are a shirt and a book."
+        },
+        {
+          "p": "A shirt and a book. What color is the shirt?",
+          "m": "Nêu màu sắc của chiếc áo.",
+          "h": "Sử dụng 'It is [color].'",
+          "s": "It is blue."
+        },
+        {
+          "p": "Blue shirt, good. And is the book big?",
+          "m": "Trả lời cuốn sách có to không.",
+          "h": "Sử dụng 'Yes, it is big.' hoặc 'No, it is not big.'",
+          "s": "No, it is not big."
+        }
+      ]
+    },
+    {
+      "t": "Kiểm tra thông tin liên hệ",
+      "e": [
+        {
+          "p": "Hello. I need your order number.",
+          "m": "Nêu số đơn hàng.",
+          "h": "Sử dụng 'My order number is...'",
+          "s": "My order number is 55667."
+        },
+        {
+          "p": "Thank you. What is your phone number?",
+          "m": "Nêu số điện thoại của bạn.",
+          "h": "Sử dụng 'My phone number is...'",
+          "s": "My phone number is 123-4567."
+        },
+        {
+          "p": "Okay. Is your email address [studentName]@email.com?",
+          "m": "Xác nhận địa chỉ email.",
+          "h": "Sử dụng 'Yes, it is.' hoặc 'No, it is not.'",
+          "s": "Yes, it is."
+        },
+        {
+          "p": "Can I call you about the order?",
+          "m": "Trả lời bạn có thể nhận cuộc gọi không.",
+          "h": "Sử dụng 'Yes, you can call me.' hoặc 'No, you cannot call me.'",
+          "s": "Yes, you can call me."
+        },
+        {
+          "p": "Great. Your package is here. Is it for you?",
+          "m": "Xác nhận gói hàng là của bạn.",
+          "h": "Sử dụng 'Yes, it is for me.'",
+          "s": "Yes, it is for me."
+        }
+      ]
+    },
+    {
+      "t": "Đơn hàng có đúng không?",
+      "e": [
+        {
+          "p": "Hi. What is your order ID?",
+          "m": "Nêu mã đơn hàng.",
+          "h": "Sử dụng 'My order ID is...'",
+          "s": "My order ID is 77889."
+        },
+        {
+          "p": "Order 77889. The item is a red shirt. Is this correct?",
+          "m": "Xác nhận món đồ có đúng không.",
+          "h": "Sử dụng 'Yes, it is correct.' hoặc 'No, it is not correct.'",
+          "s": "Yes, it is correct."
+        },
+        {
+          "p": "Good. And the quantity is one. Is this right?",
+          "m": "Xác nhận số lượng có đúng không.",
+          "h": "Sử dụng 'Yes, it is right.' hoặc 'No, it is not right.'",
+          "s": "Yes, it is right."
+        },
+        {
+          "p": "The delivery address is 20 Park Road. Is that your address?",
+          "m": "Xác nhận địa chỉ giao hàng.",
+          "h": "Sử dụng 'Yes, it is my address.' hoặc 'No, it is not my address.'",
+          "s": "Yes, it is my address."
+        },
+        {
+          "p": "Can you check your order now?",
+          "m": "Trả lời bạn có thể kiểm tra đơn hàng bây giờ không.",
+          "h": "Sử dụng 'Yes, I can.' hoặc 'No, I cannot.'",
+          "s": "Yes, I can check now."
+        }
+      ]
+    },
+    {
+      "t": "Ngày giao hàng dự kiến",
+      "e": [
+        {
+          "p": "Hello. I am here to help. What is your order number?",
+          "m": "Nêu số đơn hàng.",
+          "h": "Sử dụng 'My order number is...'",
+          "s": "My order number is 99001."
+        },
+        {
+          "p": "Order 99001. When is the delivery day?",
+          "m": "Nêu ngày giao hàng.",
+          "h": "Sử dụng 'It is today/tomorrow.'",
+          "s": "It is today."
+        },
+        {
+          "p": "Is the package coming in the morning or at night?",
+          "m": "Nêu thời gian giao hàng.",
+          "h": "Sử dụng 'It is in the morning/at night.'",
+          "s": "It is in the morning."
+        },
+        {
+          "p": "Do you need the package fast?",
+          "m": "Trả lời bạn có cần gói hàng nhanh không.",
+          "h": "Sử dụng 'Yes, I do.' hoặc 'No, I do not.'",
+          "s": "Yes, I do."
+        },
+        {
+          "p": "Okay. Can you wait for the delivery?",
+          "m": "Trả lời bạn có thể chờ giao hàng không.",
+          "h": "Sử dụng 'Yes, I can wait.' hoặc 'No, I cannot wait.'",
+          "s": "Yes, I can wait."
+        }
+      ]
+    },
+    {
+      "t": "Khi nào đơn hàng đến?",
+      "e": [
+        {
+          "p": "Good morning. What can I do for you?",
+          "m": "Nói bạn muốn biết về đơn hàng của mình.",
+          "h": "Sử dụng 'I want to know about my order.'",
+          "s": "I want to know about my order."
+        },
+        {
+          "p": "Okay. What is the order number?",
+          "m": "Nêu số đơn hàng.",
+          "h": "Sử dụng 'My number is...'",
+          "s": "My number is 22334."
+        },
+        {
+          "p": "Order 22334. When will it arrive?",
+          "m": "Trả lời khi nào đơn hàng sẽ đến.",
+          "h": "Sử dụng 'It will arrive today/tomorrow.'",
+          "s": "It will arrive today."
+        },
+        {
+          "p": "Is the package big?",
+          "m": "Trả lời gói hàng có to không.",
+          "h": "Sử dụng 'Yes, it is big.' hoặc 'No, it is not big.'",
+          "s": "No, it is not big."
+        },
+        {
+          "p": "Can I get my package at my office?",
+          "m": "Trả lời bạn có thể lấy gói hàng ở văn phòng không.",
+          "h": "Sử dụng 'Yes, you can.' hoặc 'No, you cannot.'",
+          "s": "Yes, I can get it at my office."
+        }
+      ]
+    },
+    {
+      "t": "Vấn đề với đơn hàng",
+      "e": [
+        {
+          "p": "Hello. Do you have a problem?",
+          "m": "Trả lời 'Có' và nói bạn có vấn đề.",
+          "h": "Sử dụng 'Yes, I have a problem.'",
+          "s": "Yes, I have a problem."
+        },
+        {
+          "p": "What is your order number?",
+          "m": "Nêu số đơn hàng.",
+          "h": "Sử dụng 'My order is...'",
+          "s": "My order is 44556."
+        },
+        {
+          "p": "Order 44556. What is the problem?",
+          "m": "Nêu vấn đề của đơn hàng.",
+          "h": "Sử dụng 'The item is missing/wrong.'",
+          "s": "The item is missing."
+        },
+        {
+          "p": "Oh, a missing item. Is the box open?",
+          "m": "Trả lời hộp có mở không.",
+          "h": "Sử dụng 'Yes, it is open.' hoặc 'No, it is not open.'",
+          "s": "No, it is not open."
+        },
+        {
+          "p": "Can I help you find the item?",
+          "m": "Trả lời bạn có thể giúp tìm món đồ không.",
+          "h": "Sử dụng 'Yes, you can help me.'",
+          "s": "Yes, you can help me."
+        }
+      ]
+    },
+    {
+      "t": "Đơn hàng bị thiếu",
+      "e": [
+        {
+          "p": "Hi. What is your order ID?",
+          "m": "Nêu mã đơn hàng.",
+          "h": "Sử dụng 'My order ID is...'",
+          "s": "My order ID is 66778."
+        },
+        {
+          "p": "Order 66778. Your order has two items. Is one item missing?",
+          "m": "Xác nhận có một món đồ bị thiếu.",
+          "h": "Sử dụng 'Yes, one item is missing.'",
+          "s": "Yes, one item is missing."
+        },
+        {
+          "p": "What item is missing?",
+          "m": "Nêu tên món đồ bị thiếu.",
+          "h": "Sử dụng 'The [item] is missing.'",
+          "s": "The blue shirt is missing."
+        },
+        {
+          "p": "Is the package here with you?",
+          "m": "Trả lời gói hàng có ở đây với bạn không.",
+          "h": "Sử dụng 'Yes, it is here.' hoặc 'No, it is not here.'",
+          "s": "Yes, it is here."
+        },
+        {
+          "p": "Can you open the box again and check?",
+          "m": "Trả lời bạn có thể mở hộp và kiểm tra lại không.",
+          "h": "Sử dụng 'Yes, I can check again.'",
+          "s": "Yes, I can check again."
+        }
+      ]
+    },
+    {
+      "t": "Đơn hàng không đúng",
+      "e": [
+        {
+          "p": "Hello. I need your order number.",
+          "m": "Nêu số đơn hàng.",
+          "h": "Sử dụng 'My order number is...'",
+          "s": "My order number is 88990."
+        },
+        {
+          "p": "Order 88990. The item is a red book. Is it a red book?",
+          "m": "Xác nhận đó có phải là sách đỏ không.",
+          "h": "Sử dụng 'No, it is not.'",
+          "s": "No, it is not a red book."
+        },
+        {
+          "p": "Oh, what color is the book?",
+          "m": "Nêu màu sắc của cuốn sách.",
+          "h": "Sử dụng 'It is [color].'",
+          "s": "It is a blue book."
+        },
+        {
+          "p": "Okay. And what about the size? Is it a big book?",
+          "m": "Trả lời cuốn sách có to không.",
+          "h": "Sử dụng 'No, it is not big.'",
+          "s": "No, it is not big."
+        },
+        {
+          "p": "So, the item is wrong. Can I send a new one?",
+          "m": "Trả lời bạn có thể gửi món đồ mới không.",
+          "h": "Sử dụng 'Yes, you can send a new one.'",
+          "s": "Yes, you can send a new one."
+        }
+      ]
+    },
+    {
+      "t": "Cần trợ giúp với đơn hàng",
+      "e": [
+        {
+          "p": "Good afternoon. How can I help you?",
+          "m": "Nói bạn cần giúp đỡ với đơn hàng.",
+          "h": "Sử dụng 'I need help with my order.'",
+          "s": "I need help with my order."
+        },
+        {
+          "p": "What is the order number?",
+          "m": "Nêu số đơn hàng của bạn.",
+          "h": "Sử dụng 'It is...'",
+          "s": "It is 00112."
+        },
+        {
+          "p": "Order 00112. Is the package damaged?",
+          "m": "Trả lời gói hàng có bị hỏng không.",
+          "h": "Sử dụng 'Yes, it is damaged.' hoặc 'No, it is not damaged.'",
+          "s": "Yes, it is damaged."
+        },
+        {
+          "p": "Is the item okay or is it bad?",
+          "m": "Trả lời món đồ có ổn không.",
+          "h": "Sử dụng 'It is okay.' hoặc 'It is bad.'",
+          "s": "It is bad."
+        },
+        {
+          "p": "Can I call you back later?",
+          "m": "Trả lời bạn có thể gọi lại sau không.",
+          "h": "Sử dụng 'Yes, you can call me later.'",
+          "s": "Yes, you can call me later."
+        }
+      ]
+    },
+    {
+      "t": "Ôn tập: Trao đổi về đơn hàng",
+      "e": [
+        {
+          "p": "Hello. I am here for your order. What is your name?",
+          "m": "Nói tên của bạn.",
+          "h": "Sử dụng 'My name is...'",
+          "s": "My name is [studentName]."
+        },
+        {
+          "p": "And what is the order number?",
+          "m": "Nêu số đơn hàng.",
+          "h": "Sử dụng 'My order is...'",
+          "s": "My order is 12345."
+        },
+        {
+          "p": "Order 12345. How many items are in the package?",
+          "m": "Nêu số lượng món đồ trong gói hàng.",
+          "h": "Sử dụng 'There are...'",
+          "s": "There are three items."
+        },
+        {
+          "p": "Three items. Are they books or shirts?",
+          "m": "Nêu tên các món đồ.",
+          "h": "Sử dụng 'They are...'",
+          "s": "They are books and shirts."
+        },
+        {
+          "p": "Okay. Can you check your order now?",
+          "m": "Trả lời bạn có thể kiểm tra đơn hàng bây giờ không.",
+          "h": "Sử dụng 'Yes, I can check now.'",
+          "s": "Yes, I can check now."
+        }
+      ]
+    },
+    {
+      "t": "Ôn tập: Tình trạng giao hàng",
+      "e": [
+        {
+          "p": "Hi. I need to know about my delivery. What is your order number?",
+          "m": "Nêu số đơn hàng.",
+          "h": "Sử dụng 'My order is...'",
+          "s": "My order is 67890."
+        },
+        {
+          "p": "Order 67890. Is your package sent?",
+          "m": "Trả lời gói hàng của bạn đã được gửi chưa.",
+          "h": "Sử dụng 'Yes, it is sent.' hoặc 'No, it is not sent.'",
+          "s": "Yes, it is sent."
+        },
+        {
+          "p": "When will it arrive at your home?",
+          "m": "Nêu thời gian gói hàng sẽ đến nhà bạn.",
+          "h": "Sử dụng 'It will arrive today/tomorrow.'",
+          "s": "It will arrive tomorrow."
+        },
+        {
+          "p": "Is your address correct? It is 10 Main Street.",
+          "m": "Xác nhận địa chỉ của bạn.",
+          "h": "Sử dụng 'Yes, it is correct.'",
+          "s": "Yes, it is correct."
+        },
+        {
+          "p": "Can you receive the package tomorrow morning?",
+          "m": "Trả lời bạn có thể nhận gói hàng sáng mai không.",
+          "h": "Sử dụng 'Yes, I can receive it.'",
+          "s": "Yes, I can receive it."
+        }
+      ]
+    },
+    {
+      "t": "Ôn tập: Các sự cố đơn giản",
+      "e": [
+        {
+          "p": "Hello. I have a problem with my order. Can you help?",
+          "m": "Trả lời 'Có' và nói bạn có thể giúp.",
+          "h": "Sử dụng 'Yes, I can help you.'",
+          "s": "Yes, I can help you."
+        },
+        {
+          "p": "What is the order number?",
+          "m": "Nêu số đơn hàng của khách hàng.",
+          "h": "Sử dụng 'What is your order number?'",
+          "s": "What is your order number?"
+        },
+        {
+          "p": "It is 33445. The item is a blue shirt, but it is red. Is the item wrong?",
+          "m": "Xác nhận món đồ bị sai.",
+          "h": "Sử dụng 'Yes, it is wrong.'",
+          "s": "Yes, it is wrong."
+        },
+        {
+          "p": "And the order has two items, but one is missing. Is one item missing?",
+          "m": "Xác nhận có một món đồ bị thiếu.",
+          "h": "Sử dụng 'Yes, one item is missing.'",
+          "s": "Yes, one item is missing."
+        },
+        {
+          "p": "Okay. Can I send a new package to you?",
+          "m": "Trả lời bạn có thể gửi gói hàng mới không.",
+          "h": "Sử dụng 'Yes, you can send it.'",
+          "s": "Yes, you can send it."
+        }
+      ]
+    }
+  ]
+}

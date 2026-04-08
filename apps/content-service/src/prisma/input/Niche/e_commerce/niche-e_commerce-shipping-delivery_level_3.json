@@ -1,0 +1,530 @@
+{
+  "l": 3,
+  "d": [
+    {
+      "t": "Hỏi về trạng thái đơn hàng",
+      "e": [
+        {
+          "p": "Hello, I ordered a book yesterday. Can you tell me its status?",
+          "m": "Cho biết bạn đã đặt một cuốn sách ngày hôm qua và muốn biết tình trạng đơn hàng.",
+          "h": "Dùng Past Simple để nói về việc đặt hàng, sau đó hỏi về tình trạng.",
+          "s": "Yes, I ordered a book yesterday. Could you please check the status for me?"
+        },
+        {
+          "p": "Okay, your order number is #12345. Let me check for you. Ah, it's currently being processed.",
+          "m": "Cảm ơn và hỏi khi nào đơn hàng dự kiến được giao.",
+          "h": "Sử dụng 'Thank you' và hỏi về thời gian giao hàng dự kiến với 'when will'.",
+          "s": "Thank you for checking. When will it be delivered, do you know?"
+        },
+        {
+          "p": "It should arrive within 3-5 business days. You will get an email with a tracking number soon.",
+          "m": "Nói rằng bạn hiểu và sẽ kiểm tra email. Cho biết bạn rất hào hứng.",
+          "h": "Sử dụng 'I understand' và 'look forward to' hoặc 'excited'.",
+          "s": "I understand, thank you. I will check my email for the tracking number. I am very excited to receive it."
+        },
+        {
+          "p": "Excuse me, I need to track my package. I have the tracking number: ABC123DEF.",
+          "m": "Xác nhận số theo dõi và hỏi bạn có thể theo dõi đơn hàng trên trang web nào.",
+          "h": "Xác nhận thông tin và hỏi về website.",
+          "s": "Okay, the tracking number is ABC123DEF. Which website can I use to track my package?"
+        },
+        {
+          "p": "You can track it on our website. What did you order? Is it a gift?",
+          "m": "Cho biết bạn đã đặt một chiếc áo mới. Hỏi liệu đơn hàng có đến vào cuối tuần không. Nêu lý do bạn muốn mặc nó đi chơi.",
+          "h": "Nói về món đồ đã đặt, hỏi thời gian giao hàng và nêu lý do bằng 'because'.",
+          "s": "I ordered a new shirt. Will it arrive by the weekend? I want to wear it out then."
+        }
+      ]
+    },
+    {
+      "t": "Xác nhận địa chỉ và thời gian giao hàng",
+      "e": [
+        {
+          "p": "Hi, I'm calling about your order. Can you confirm your delivery address please?",
+          "m": "Xác nhận địa chỉ giao hàng của bạn là [studentCity] và [studentName] Apartment.",
+          "h": "Sử dụng 'My address is...' để xác nhận.",
+          "s": "Yes, my delivery address is [studentName] Apartment in [studentCity]."
+        },
+        {
+          "p": "Thank you. And is there a specific time you prefer for delivery?",
+          "m": "Nói rằng bạn có thể nhận hàng sau 2 giờ chiều. Hỏi liệu đó có phải là vấn đề không.",
+          "h": "Sử dụng 'I can receive it after...' và hỏi 'Is that okay?'",
+          "s": "I can receive it after 2 PM. Is that okay for the delivery?"
+        },
+        {
+          "p": "That should be fine. We'll try to deliver it then. What is your phone number in case the driver needs to call you?",
+          "m": "Cung cấp số điện thoại của bạn là 0901234567. Nói rằng bạn sẽ giữ điện thoại bên mình.",
+          "h": "Nói số điện thoại và sử dụng 'I will keep my phone with me'.",
+          "s": "My phone number is 0901234567. I will keep my phone with me."
+        },
+        {
+          "p": "Great, thanks! Your package is scheduled for delivery tomorrow. Is there anything else you need to know?",
+          "m": "Hỏi liệu có ai khác có thể nhận hàng giúp bạn không. Nói rằng bạn có thể không ở nhà.",
+          "h": "Hỏi 'Can someone else receive it?' và nêu lý do 'because I might not be home'.",
+          "s": "Can someone else receive the package? I might not be home tomorrow."
+        },
+        {
+          "p": "Yes, someone else can sign for it. Just make sure they know about it. Have a good day!",
+          "m": "Cảm ơn người giao hàng. Nói rằng bạn sẽ thông báo cho người nhà. Khen dịch vụ tốt.",
+          "h": "Sử dụng 'Thank you', 'I will inform' và 'good service'.",
+          "s": "Thank you for the information. I will inform my family about it. Your service is very good."
+        }
+      ]
+    },
+    {
+      "t": "Nhận bưu kiện và ký xác nhận",
+      "e": [
+        {
+          "p": "Hello, I have a package for [studentName]. Can you please sign here?",
+          "m": "Xác nhận bạn là [studentName] và đồng ý ký.",
+          "h": "Sử dụng 'Yes, I am' và 'I can sign'.",
+          "s": "Yes, I am [studentName]. I can sign for it."
+        },
+        {
+          "p": "Great, thank you. This package looks a bit heavy. Do you need help carrying it?",
+          "m": "Nói rằng bạn không cần giúp đỡ. Cảm ơn người giao hàng.",
+          "h": "Sử dụng 'No, thank you' và 'I don't need help'.",
+          "s": "No, thank you. I don't need help. I can carry it myself."
+        },
+        {
+          "p": "Okay. Just make sure to check the box for any damage when you open it.",
+          "m": "Nói rằng bạn sẽ kiểm tra hộp cẩn thận. Hỏi nếu có vấn đề gì thì phải làm gì.",
+          "h": "Sử dụng 'I will check' và 'What should I do if...'.",
+          "s": "I will check the box carefully. What should I do if I find any damage?"
+        },
+        {
+          "p": "If it's damaged, please call our customer service number. It's on the label.",
+          "m": "Nói rằng bạn đã hiểu. Cho biết bạn sẽ gọi nếu cần. Cảm ơn người giao hàng.",
+          "h": "Sử dụng 'I understand', 'I will call if needed' và 'Thank you'.",
+          "s": "I understand. I will call customer service if needed. Thank you very much."
+        },
+        {
+          "p": "You're welcome. Have a nice day! Do you often receive packages here?",
+          "m": "Nói rằng bạn nhận rất nhiều gói hàng. Cho biết bạn mua sắm trực tuyến rất nhiều vì nó tiện lợi và có nhiều ưu đãi tốt.",
+          "h": "Sử dụng 'I receive many packages', 'I shop online a lot' và 'because it's convenient and has good deals'.",
+          "s": "I receive many packages here. I shop online a lot because it's convenient and there are good deals."
+        }
+      ]
+    },
+    {
+      "t": "Trao đổi về thông tin sản phẩm hoặc dịch vụ giao hàng",
+      "e": [
+        {
+          "p": "Hi, I just received my order, but I think the size is wrong. It's too big.",
+          "m": "Cho biết bạn cũng gặp vấn đề về kích thước. Hỏi liệu có thể trả lại hàng và nhận một kích thước nhỏ hơn không.",
+          "h": "Sử dụng 'I also have a problem' và 'Can I return it and get a smaller size?'.",
+          "s": "I also have a problem with the size. Can I return it and get a smaller size?"
+        },
+        {
+          "p": "Yes, you can return it. Please fill out the return form online. What item is it?",
+          "m": "Cho biết đó là một chiếc áo sơ mi màu xanh. Hỏi nó có đắt không để gửi lại.",
+          "h": "Nói tên món đồ và hỏi 'Is it expensive to send back?'.",
+          "s": "It's a blue shirt. Is it expensive to send it back?"
+        },
+        {
+          "p": "No, it's free if you use our return label. Do you have any other questions about the product?",
+          "m": "Nói rằng bạn không có câu hỏi khác về sản phẩm. Khen ngợi dịch vụ trả hàng dễ dàng.",
+          "h": "Sử dụng 'No, I don't have' và 'easy return service'.",
+          "s": "No, I don't have other questions about the product. Your return service is very easy."
+        },
+        {
+          "p": "We are happy to help! Some customers also ask if we have faster delivery. Do you prefer express delivery?",
+          "m": "Nói rằng bạn thích giao hàng tiêu chuẩn vì nó rẻ hơn. Hỏi liệu giao hàng nhanh có đắt hơn nhiều không.",
+          "h": "Sử dụng 'I prefer standard delivery because it's cheaper' và 'Is express delivery much more expensive?'.",
+          "s": "I prefer standard delivery because it's cheaper. Is express delivery much more expensive?"
+        },
+        {
+          "p": "Yes, express delivery is usually a bit more expensive, but it's faster. It depends on your needs.",
+          "m": "Nói rằng bạn hiểu. Cảm ơn thông tin. Cho biết bạn sẽ chọn giao hàng tiêu chuẩn lần này.",
+          "h": "Sử dụng 'I understand', 'Thank you for the information' và 'I will choose standard delivery this time'.",
+          "s": "I understand. Thank you for the information. I will choose standard delivery this time."
+        }
+      ]
+    },
+    {
+      "t": "Gửi một bưu kiện",
+      "e": [
+        {
+          "p": "Good morning! I want to send a package to my friend in Da Nang. What do I need to do?",
+          "m": "Hỏi trọng lượng và kích thước gói hàng. Hỏi liệu có cần đóng gói đặc biệt không.",
+          "h": "Hỏi 'What is the weight and size?' và 'Does it need special packing?'.",
+          "s": "What is the weight and size of your package? Does it need special packing?"
+        },
+        {
+          "p": "It's a small box, about 1kg. I have a shirt inside. Do I need to write the address clearly?",
+          "m": "Xác nhận rằng bạn cần viết địa chỉ rõ ràng. Cho biết bạn cần tên, địa chỉ và số điện thoại người nhận.",
+          "h": "Sử dụng 'Yes, you need to write' và 'You need the receiver's name, address, and phone number'.",
+          "s": "Yes, you need to write the address clearly. We need the receiver's name, address, and phone number."
+        },
+        {
+          "p": "Okay, I have all the details. How much will it cost to send this package?",
+          "m": "Cho biết chi phí gửi phụ thuộc vào loại dịch vụ. Hỏi liệu bạn muốn giao hàng tiêu chuẩn hay nhanh.",
+          "h": "Sử dụng 'The cost depends on the service type' và hỏi 'Do you want standard or express delivery?'.",
+          "s": "The cost depends on the service type. Do you want standard or express delivery?"
+        },
+        {
+          "p": "Hmm, standard delivery is fine. How long will it take for the package to arrive in Da Nang?",
+          "m": "Cho biết giao hàng tiêu chuẩn thường mất 3-5 ngày làm việc. Nói rằng bạn sẽ nhận được số theo dõi.",
+          "h": "Sử dụng 'Standard delivery usually takes' và 'You will get a tracking number'.",
+          "s": "Standard delivery usually takes 3-5 business days. You will get a tracking number for it."
+        },
+        {
+          "p": "That's good. I will tell my friend to expect it next week. Thank you for your help!",
+          "m": "Nói rằng bạn rất vui được giúp đỡ. Hỏi liệu có muốn thêm bảo hiểm cho gói hàng không.",
+          "h": "Sử dụng 'You're welcome' và 'Do you want to add insurance?'.",
+          "s": "You're welcome. Do you want to add insurance for your package? It's extra protection."
+        }
+      ]
+    },
+    {
+      "t": "Than phiền về đơn hàng bị trễ",
+      "e": [
+        {
+          "p": "Hello, I'm calling about order #67890. It was supposed to arrive last Friday, but it's not here yet.",
+          "m": "Cho biết bạn cũng có một đơn hàng bị trễ. Hỏi liệu có thể kiểm tra giúp bạn không.",
+          "h": "Sử dụng 'I also have a delayed order' và 'Can you check for me?'.",
+          "s": "I also have a delayed order. Can you please check it for me?"
+        },
+        {
+          "p": "Okay, what is your order number? And what did you order?",
+          "m": "Cung cấp số đơn hàng của bạn là #98765. Cho biết bạn đã đặt một chiếc đồng hồ.",
+          "h": "Nói 'My order number is...' và 'I ordered a watch'.",
+          "s": "My order number is #98765. I ordered a watch last week."
+        },
+        {
+          "p": "Let me see... Ah, it seems there was a small delay because of bad weather. We are sorry.",
+          "m": "Nói rằng bạn thất vọng nhưng hiểu. Hỏi khi nào đơn hàng sẽ đến.",
+          "h": "Sử dụng 'I am disappointed but I understand' và 'When will it arrive?'.",
+          "s": "I am disappointed, but I understand. When will my order arrive now?"
+        },
+        {
+          "p": "It should arrive within the next two days. We will send you an update by email. Is that okay?",
+          "m": "Nói rằng hai ngày là chấp nhận được. Yêu cầu một số bồi thường cho sự chậm trễ.",
+          "h": "Sử dụng 'Two days is acceptable' và 'Can I get some compensation?'.",
+          "s": "Two days is acceptable. Can I get some compensation for this delay?"
+        },
+        {
+          "p": "We can offer you a 10% discount on your next purchase. How does that sound?",
+          "m": "Nói rằng điều đó nghe có vẻ tốt. Cảm ơn vì đã giúp đỡ. Cho biết bạn hy vọng gói hàng sẽ đến đúng hẹn lần này.",
+          "h": "Sử dụng 'That sounds good', 'Thank you for your help' và 'I hope it arrives on time'.",
+          "s": "That sounds good. Thank you for your help. I hope the package arrives on time this time."
+        }
+      ]
+    },
+    {
+      "t": "Xử lý sản phẩm bị hỏng khi nhận",
+      "e": [
+        {
+          "p": "Hello, I just opened my package and the item inside is broken. What should I do?",
+          "m": "Nói rằng bạn rất tiếc khi nghe điều đó. Hỏi liệu bạn có chụp ảnh sản phẩm bị hỏng không.",
+          "h": "Sử dụng 'I am sorry to hear that' và 'Did you take photos?'.",
+          "s": "I am sorry to hear that. Did you take photos of the broken item?"
+        },
+        {
+          "p": "Yes, I have some photos. It's a glass vase and it's completely shattered.",
+          "m": "Yêu cầu gửi ảnh qua email. Giải thích bạn cần xem thiệt hại để giúp đỡ.",
+          "h": "Sử dụng 'Please send the photos by email' và 'I need to see the damage'.",
+          "s": "Please send the photos by email. I need to see the damage to help you."
+        },
+        {
+          "p": "Okay, I will send them now. Will I get a refund or a new item?",
+          "m": "Cho biết bạn sẽ nhận được một món đồ mới. Giải thích rằng bạn sẽ sắp xếp việc gửi món đồ thay thế miễn phí.",
+          "h": "Sử dụng 'You will get a new item' và 'I will arrange to send a replacement for free'.",
+          "s": "You will get a new item. I will arrange to send a replacement for free."
+        },
+        {
+          "p": "That's great news! Do I need to send the broken vase back to you?",
+          "m": "Nói rằng bạn không cần gửi trả lại món đồ bị hỏng. Yêu cầu vứt nó đi cẩn thận.",
+          "h": "Sử dụng 'No, you don't need to send it back' và 'Please throw it away carefully'.",
+          "s": "No, you don't need to send the broken vase back. Please throw it away carefully."
+        },
+        {
+          "p": "Thank you so much! This is very helpful. I was worried about this.",
+          "m": "Nói rằng bạn rất vui được giúp đỡ. Đảm bảo rằng món đồ mới sẽ được đóng gói cẩn thận hơn. Chúc một ngày tốt lành.",
+          "h": "Sử dụng 'You're welcome', 'The new item will be packed more carefully' và 'Have a good day'.",
+          "s": "You're welcome. The new item will be packed more carefully. Have a good day!"
+        }
+      ]
+    },
+    {
+      "t": "So sánh các lựa chọn giao hàng",
+      "e": [
+        {
+          "p": "Good afternoon. I want to send a birthday gift to my sister. What are my options for delivery?",
+          "m": "Cho biết bạn có các lựa chọn giao hàng tiêu chuẩn và giao hàng nhanh. Giải thích giao hàng nhanh đắt hơn nhưng nhanh hơn.",
+          "h": "Sử dụng 'We have standard and express delivery' và 'Express is more expensive but faster'.",
+          "s": "We have standard and express delivery options. Express is more expensive but faster."
+        },
+        {
+          "p": "How much more expensive is express delivery? And how many days does standard delivery take?",
+          "m": "Cho biết giao hàng nhanh đắt hơn khoảng 50.000 VND. Giải thích giao hàng tiêu chuẩn mất 3-5 ngày.",
+          "h": "Sử dụng 'Express delivery is about...' và 'Standard delivery takes...'.",
+          "s": "Express delivery is about 50,000 VND more expensive. Standard delivery takes 3-5 days."
+        },
+        {
+          "p": "My sister's birthday is in two days. Standard delivery might be too slow. What do you think?",
+          "m": "Đồng ý rằng giao hàng tiêu chuẩn có thể quá chậm. Gợi ý chọn giao hàng nhanh để đảm bảo.",
+          "h": "Sử dụng 'Standard delivery might be too slow' và 'You should choose express delivery'.",
+          "s": "Yes, standard delivery might be too slow. You should choose express delivery to be sure."
+        },
+        {
+          "p": "Okay, I will choose express delivery then. Is it more reliable than standard delivery?",
+          "m": "Xác nhận rằng giao hàng nhanh thường đáng tin cậy hơn. Giải thích nó có ưu tiên cao hơn.",
+          "h": "Sử dụng 'Express delivery is more reliable' và 'It has a higher priority'.",
+          "s": "Yes, express delivery is usually more reliable. It has a higher priority in our system."
+        },
+        {
+          "p": "That's good to know. I want the gift to arrive on time. Will I get a tracking number for express delivery?",
+          "m": "Xác nhận rằng bạn sẽ nhận được số theo dõi. Giải thích bạn có thể theo dõi nó trực tuyến để biết thông tin cập nhật.",
+          "h": "Sử dụng 'Yes, you will get a tracking number' và 'You can track it online for updates'.",
+          "s": "Yes, you will get a tracking number for it. You can track it online for updates."
+        }
+      ]
+    },
+    {
+      "t": "Yêu cầu thay đổi địa chỉ giao hàng",
+      "e": [
+        {
+          "p": "Excuse me, I need to change the delivery address for my order #11223. Is that possible?",
+          "m": "Hỏi liệu đơn hàng đã được gửi đi chưa. Giải thích việc thay đổi địa chỉ có thể khó nếu nó đã được gửi.",
+          "h": "Sử dụng 'Has the order been shipped yet?' và 'It might be difficult if it has been shipped'.",
+          "s": "Has the order been shipped yet? It might be difficult to change the address if it has."
+        },
+        {
+          "p": "I don't think so. I just placed the order this morning. The current address is 123 Main Street.",
+          "m": "Hỏi địa chỉ mới. Cho biết bạn sẽ cố gắng thay đổi nó trong hệ thống.",
+          "h": "Sử dụng 'What is the new address?' và 'I will try to change it in the system'.",
+          "s": "What is the new address? I will try to change it in our system now."
+        },
+        {
+          "p": "The new address is 456 Oak Avenue. My old address was wrong because I moved last week.",
+          "m": "Xác nhận địa chỉ mới là 456 Oak Avenue. Nói rằng bạn đã thay đổi thành công. Hỏi liệu có cần xác nhận lại tên không.",
+          "h": "Xác nhận địa chỉ, nói 'I have changed it successfully' và hỏi 'Do I need to confirm the name?'.",
+          "s": "Okay, the new address is 456 Oak Avenue. I have changed it successfully. Do I need to confirm the name?"
+        },
+        {
+          "p": "No, the name is correct. Thank you very much! You saved me a lot of trouble.",
+          "m": "Nói rằng bạn rất vui được giúp đỡ. Cho biết đơn hàng sẽ được giao đến địa chỉ mới. Hỏi liệu có cần gì khác không.",
+          "h": "Sử dụng 'You're welcome', 'The order will be delivered to the new address' và 'Do you need anything else?'.",
+          "s": "You're welcome! The order will be delivered to the new address. Do you need anything else?"
+        },
+        {
+          "p": "That's all for now. I am happy with your service. Have a good day!",
+          "m": "Cảm ơn và chúc một ngày tốt lành. Cho biết bạn hy vọng gói hàng sẽ đến nhanh chóng và an toàn.",
+          "h": "Sử dụng 'Thank you and have a good day' và 'I hope the package arrives quickly and safely'.",
+          "s": "Thank you, you too! I hope the package arrives quickly and safely to the new address."
+        }
+      ]
+    },
+    {
+      "t": "Hỏi về chính sách trả hàng",
+      "e": [
+        {
+          "p": "Hi, I bought a shirt last month, but it doesn't fit well. Can I still return it?",
+          "m": "Hỏi bạn đã mua nó khi nào. Giải thích rằng chính sách trả hàng của bạn là 30 ngày.",
+          "h": "Hỏi 'When did you buy it?' và 'Our return policy is 30 days'.",
+          "s": "When did you buy it? Our return policy is 30 days from the purchase date."
+        },
+        {
+          "p": "I bought it on January 5th. Today is February 10th. So, it's more than 30 days.",
+          "m": "Cho biết bạn rất tiếc, nhưng bạn không thể chấp nhận trả lại hàng. Giải thích rằng nó đã quá thời hạn.",
+          "h": "Sử dụng 'I'm sorry, we cannot accept it' và 'It's past the deadline'.",
+          "s": "I'm sorry, but we cannot accept the return. It's past the 30-day deadline."
+        },
+        {
+          "p": "Oh, that's disappointing. I really wanted a different size. Is there any exception?",
+          "m": "Cho biết không có ngoại lệ cho chính sách trả hàng. Gợi ý bạn có thể bán nó cho bạn bè.",
+          "h": "Sử dụng 'There is no exception' và 'You could try selling it to a friend'.",
+          "s": "I'm sorry, but there is no exception for the return policy. Maybe you could try selling it to a friend?"
+        },
+        {
+          "p": "Okay, I understand. Maybe I will do that. Thank you for checking for me.",
+          "m": "Nói rằng bạn rất vui được giúp đỡ. Hỏi liệu có câu hỏi nào khác về các sản phẩm khác không.",
+          "h": "Sử dụng 'You're welcome' và 'Do you have any other questions about our products?'.",
+          "s": "You're welcome. Do you have any other questions about our products?"
+        },
+        {
+          "p": "No, that's all for now. I should check the policy carefully next time before buying.",
+          "m": "Đồng ý rằng việc kiểm tra chính sách là tốt. Cho biết bạn hy vọng bạn sẽ có trải nghiệm tốt hơn trong tương lai.",
+          "h": "Sử dụng 'It's good to check the policy' và 'I hope you have a better experience next time'.",
+          "s": "Yes, it's good to check the policy carefully. I hope you have a better experience next time."
+        }
+      ]
+    },
+    {
+      "t": "Theo dõi nhiều đơn hàng cùng lúc",
+      "e": [
+        {
+          "p": "Hi, I have three orders and I want to track all of them. Is there an easier way?",
+          "m": "Xác nhận bạn có thể theo dõi nhiều đơn hàng. Yêu cầu cung cấp tất cả các số theo dõi.",
+          "h": "Sử dụng 'Yes, you can track multiple orders' và 'Please provide all tracking numbers'.",
+          "s": "Yes, you can track multiple orders. Please provide all the tracking numbers."
+        },
+        {
+          "p": "Okay, here they are: TRK123, TRK456, and TRK789. What are their statuses?",
+          "m": "Nói rằng TRK123 đang được vận chuyển, TRK456 đã đến trung tâm phân loại và TRK789 đang chờ lấy hàng.",
+          "h": "Nêu rõ tình trạng của từng mã theo dõi.",
+          "s": "TRK123 is in transit. TRK456 has arrived at the sorting center. TRK789 is waiting for pickup."
+        },
+        {
+          "p": "Oh, TRK789 is waiting for pickup? Where can I pick it up? I live in [studentCity].",
+          "m": "Cho biết bạn có thể lấy hàng tại văn phòng của chúng tôi ở trung tâm [studentCity]. Cung cấp địa chỉ cụ thể.",
+          "h": "Sử dụng 'You can pick it up at our office' và cung cấp địa chỉ.",
+          "s": "You can pick it up at our office in downtown [studentCity]. The address is 100 Main Street."
+        },
+        {
+          "p": "Thank you! And for TRK123 and TRK456, when do you think they will be delivered?",
+          "m": "Ước tính TRK123 sẽ đến trong 2 ngày và TRK456 trong 3 ngày. Giải thích thời gian có thể thay đổi một chút.",
+          "h": "Nói thời gian dự kiến giao hàng và giải thích 'times might change a little'.",
+          "s": "TRK123 should arrive in 2 days and TRK456 in 3 days. However, times might change a little."
+        },
+        {
+          "p": "I understand. This tracking service is very helpful. I don't need to check each one separately now.",
+          "m": "Nói rằng bạn rất vui khi dịch vụ hữu ích. Gợi ý bạn có thể đăng ký nhận thông báo email để theo dõi dễ dàng hơn.",
+          "h": "Sử dụng 'I'm glad the service is helpful' và 'You can sign up for email notifications'.",
+          "s": "I'm glad our service is helpful for you. You can sign up for email notifications for easier tracking."
+        }
+      ]
+    },
+    {
+      "t": "Đánh giá dịch vụ giao hàng",
+      "e": [
+        {
+          "p": "Hello, we are doing a survey about our delivery service. How would you rate your last experience?",
+          "m": "Nói rằng bạn đã có một trải nghiệm tốt. Đánh giá nó là 4 trên 5 sao.",
+          "h": "Sử dụng 'I had a good experience' và 'I would rate it 4 out of 5 stars'.",
+          "s": "I had a good experience with your delivery service. I would rate it 4 out of 5 stars."
+        },
+        {
+          "p": "That's great! What did you like most about the service?",
+          "m": "Cho biết bạn thích tốc độ giao hàng nhanh. Giải thích người giao hàng thân thiện.",
+          "h": "Sử dụng 'I liked the fast delivery' và 'The delivery person was friendly'.",
+          "s": "I liked the fast delivery the most. Also, the delivery person was very friendly."
+        },
+        {
+          "p": "Thank you for the feedback. Is there anything we could improve?",
+          "m": "Gợi ý bạn có thể nhận thông báo giao hàng sớm hơn. Giải thích bạn đã nhận được thông báo ngay trước khi giao hàng.",
+          "h": "Sử dụng 'Maybe earlier delivery notifications' và 'I received it right before delivery'.",
+          "s": "Maybe you could send delivery notifications earlier. I received it right before the delivery."
+        },
+        {
+          "p": "That's a good point. We will consider that. Did you feel the price was fair for the service?",
+          "m": "Nói rằng giá cả là hợp lý. So sánh nó với các dịch vụ khác và nói rằng nó không quá đắt.",
+          "h": "Sử dụng 'The price was fair' và 'It was not too expensive compared to other services'.",
+          "s": "Yes, the price was fair for the service. It was not too expensive compared to other services."
+        },
+        {
+          "p": "Great! Your feedback is very important to us. Would you use our service again?",
+          "m": "Xác nhận bạn chắc chắn sẽ sử dụng lại dịch vụ. Cảm ơn người hỏi.",
+          "h": "Sử dụng 'Yes, I will definitely use it again' và 'Thank you'.",
+          "s": "Yes, I will definitely use your service again. Thank you for asking!"
+        }
+      ]
+    },
+    {
+      "t": "Ôn tập: Các vấn đề giao hàng thường gặp",
+      "e": [
+        {
+          "p": "My order still hasn't arrived, and the tracking status says 'delivered'. What happened?",
+          "m": "Nói rằng bạn rất tiếc khi nghe điều đó. Hỏi bạn đã kiểm tra hàng xóm hoặc khu vực nhận hàng chưa.",
+          "h": "Sử dụng 'I'm sorry to hear that' và 'Did you check with neighbors?'.",
+          "s": "I'm sorry to hear that. Did you check with your neighbors or around the delivery area?"
+        },
+        {
+          "p": "Yes, I asked everyone, but nobody saw it. I think it's lost. Can you help me find it?",
+          "m": "Cho biết bạn sẽ mở một cuộc điều tra. Giải thích bạn sẽ liên hệ với người giao hàng và tìm hiểu thêm.",
+          "h": "Sử dụng 'I will open an investigation' và 'I will contact the driver and find out more'.",
+          "s": "I will open an investigation for you. I will contact the driver and find out more."
+        },
+        {
+          "p": "That sounds good. How long will the investigation take? I need the item soon.",
+          "m": "Ước tính cuộc điều tra sẽ mất 2-3 ngày làm việc. Nói rằng bạn sẽ gọi điện với thông tin cập nhật.",
+          "h": "Sử dụng 'It will take 2-3 business days' và 'I will call you with updates'.",
+          "s": "The investigation will take 2-3 business days. I will call you with updates then."
+        },
+        {
+          "p": "Okay. If you can't find it, will I get a refund or a new item?",
+          "m": "Xác nhận bạn sẽ nhận được một món đồ mới hoặc hoàn tiền. Giải thích tùy thuộc vào lựa chọn của bạn.",
+          "h": "Sử dụng 'You will get a new item or a refund' và 'It depends on your choice'.",
+          "s": "You will get a new item or a refund. It depends on your choice, after our investigation."
+        },
+        {
+          "p": "Thank you for being so helpful. I feel better now. I was very worried before.",
+          "m": "Nói rằng bạn rất vui khi bạn cảm thấy tốt hơn. Đảm bảo bạn sẽ làm tốt nhất có thể. Chúc một ngày tốt lành.",
+          "h": "Sử dụng 'I'm glad you feel better', 'We will do our best' và 'Have a good day'.",
+          "s": "I'm glad you feel better. We will do our best to solve this problem for you. Have a good day!"
+        }
+      ]
+    },
+    {
+      "t": "Ôn tập: Lập kế hoạch gửi và nhận",
+      "e": [
+        {
+          "p": "I want to send some clothes to my family for Tet. What's the best way to do it?",
+          "m": "Hỏi trọng lượng và kích thước gói hàng. Gợi ý gói hàng lớn có thể cần dịch vụ đặc biệt.",
+          "h": "Hỏi 'What's the weight and size?' và 'Large packages might need special service'.",
+          "s": "What is the weight and size of the package? Large packages might need special service."
+        },
+        {
+          "p": "It's a big box, maybe 5kg. I want it to arrive before Tet, which is in two weeks.",
+          "m": "Gợi ý bạn nên sử dụng dịch vụ giao hàng nhanh. Giải thích giao hàng tiêu chuẩn có thể không kịp.",
+          "h": "Sử dụng 'You should use express delivery' và 'Standard might not be on time'.",
+          "s": "You should use express delivery. Standard delivery might not be on time for Tet."
+        },
+        {
+          "p": "Okay, express delivery it is. How much will it cost to send a 5kg box with express delivery?",
+          "m": "Ước tính chi phí sẽ khoảng 250.000 VND. Cho biết đó là giá cao hơn vì trọng lượng và thời gian nhanh.",
+          "h": "Sử dụng 'It will cost about...' và 'It's a higher price because of weight and speed'.",
+          "s": "It will cost about 250,000 VND. It's a higher price because of the weight and faster speed."
+        },
+        {
+          "p": "That's quite a lot, but I want my family to receive it on time. When should I drop it off?",
+          "m": "Gợi ý bạn nên gửi nó vào thứ Hai tới. Giải thích điều đó sẽ cho nó đủ thời gian để đến nơi.",
+          "h": "Sử dụng 'You should drop it off next Monday' và 'That will give it enough time'.",
+          "s": "You should drop it off next Monday. That will give it enough time to arrive before Tet."
+        },
+        {
+          "p": "Great, I will do that. I also have a package coming to me. Can I choose a specific delivery time for it?",
+          "m": "Nói rằng bạn có thể yêu cầu thời gian giao hàng cụ thể. Giải thích điều đó phụ thuộc vào tuyến đường của người giao hàng.",
+          "h": "Sử dụng 'You can request a specific time' và 'It depends on the delivery person's route'.",
+          "s": "You can request a specific delivery time. However, it depends on the delivery person's route."
+        }
+      ]
+    },
+    {
+      "t": "Ôn tập: Trải nghiệm mua sắm trực tuyến",
+      "e": [
+        {
+          "p": "What do you enjoy most about shopping online for things like clothes or books?",
+          "m": "Nói rằng bạn thích sự tiện lợi. Giải thích bạn có thể mua sắm bất cứ lúc nào và từ bất cứ đâu.",
+          "h": "Sử dụng 'I enjoy the convenience' và 'I can shop anytime and anywhere'.",
+          "s": "I enjoy the convenience of online shopping. I can buy things anytime and from anywhere."
+        },
+        {
+          "p": "That's true. Do you think online shopping is better than shopping in physical stores?",
+          "m": "So sánh mua sắm trực tuyến tốt hơn cho một số thứ và cửa hàng tốt hơn cho những thứ khác. Giải thích bạn có thể so sánh giá trực tuyến dễ dàng hơn.",
+          "h": "Sử dụng 'Online is better for some things, stores for others' và 'I can compare prices online more easily'.",
+          "s": "Online is better for some things, and stores are better for others. I can compare prices online more easily."
+        },
+        {
+          "p": "I agree, price comparison is easy. Have you ever had a bad experience with online delivery?",
+          "m": "Nói rằng bạn đã có một vài trải nghiệm tồi. Kể về một lần gói hàng của bạn bị hỏng.",
+          "h": "Sử dụng 'Yes, I've had a few bad experiences' và 'Once my package was damaged'.",
+          "s": "Yes, I've had a few bad experiences. Once my package was damaged when it arrived."
+        },
+        {
+          "p": "Oh, that's terrible! What did you do then? Did you get a refund?",
+          "m": "Nói rằng bạn đã gọi dịch vụ khách hàng ngay lập tức. Cho biết bạn đã nhận được một món đồ thay thế miễn phí.",
+          "h": "Sử dụng 'I called customer service immediately' và 'I received a free replacement'.",
+          "s": "I called customer service immediately. They sent me a free replacement item."
+        },
+        {
+          "p": "That's good they fixed it for you. Do you still shop online a lot, even with the bad experiences?",
+          "m": "Xác nhận bạn vẫn mua sắm trực tuyến rất nhiều. Giải thích lợi ích vượt trội so với rủi ro nhỏ.",
+          "h": "Sử dụng 'Yes, I still shop online a lot' và 'The benefits are better than the small risks'.",
+          "s": "Yes, I still shop online a lot. The benefits are much better than the small risks."
+        }
+      ]
+    }
+  ]
+}

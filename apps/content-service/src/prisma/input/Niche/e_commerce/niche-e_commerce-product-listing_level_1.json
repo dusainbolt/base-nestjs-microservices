@@ -1,0 +1,530 @@
+{
+  "l": 1,
+  "d": [
+    {
+      "t": "Nhận diện sản phẩm",
+      "e": [
+        {
+          "p": "What is this? It looks interesting.",
+          "m": "Nói tên của vật này.",
+          "h": "Dùng 'This is a...'",
+          "s": "This is a book."
+        },
+        {
+          "p": "Is this a new phone?",
+          "m": "Trả lời có hoặc không.",
+          "h": "Dùng 'Yes, it is.' hoặc 'No, it is not.'",
+          "s": "Yes, it is."
+        },
+        {
+          "p": "Tell me about this shirt. What color is it?",
+          "m": "Nói màu sắc của chiếc áo.",
+          "h": "Dùng 'It is [color].'",
+          "s": "It is red."
+        },
+        {
+          "p": "I see a bag. Is it big or small?",
+          "m": "Nói kích thước của chiếc túi.",
+          "h": "Dùng 'It is [size].'",
+          "s": "It is big."
+        },
+        {
+          "p": "What about this toy? Is it for a boy or a girl?",
+          "m": "Trả lời nó dành cho ai.",
+          "h": "Dùng 'It is for...'",
+          "s": "It is for a boy."
+        }
+      ]
+    },
+    {
+      "t": "Mô tả màu sắc và kích thước sản phẩm",
+      "e": [
+        {
+          "p": "Look at this car. What color is it?",
+          "m": "Nêu màu sắc của chiếc xe.",
+          "h": "Dùng 'It is [color].'",
+          "s": "It is blue."
+        },
+        {
+          "p": "Is that a small table?",
+          "m": "Trả lời có hoặc không.",
+          "h": "Dùng 'Yes, it is.' hoặc 'No, it is not.'",
+          "s": "No, it is not."
+        },
+        {
+          "p": "I need a pen. What color is your pen?",
+          "m": "Nêu màu của cây bút.",
+          "h": "Dùng 'My pen is [color].'",
+          "s": "My pen is black."
+        },
+        {
+          "p": "There are many books here. Are they big books?",
+          "m": "Trả lời có hoặc không và nói kích thước của chúng.",
+          "h": "Dùng 'Yes/No, they are... They are [size].'",
+          "s": "Yes, they are. They are big."
+        },
+        {
+          "p": "I want to buy a new house. Is your house big or small? And what color is it?",
+          "m": "Nói kích thước và màu sắc của ngôi nhà của bạn.",
+          "h": "Dùng 'My house is [size]. It is [color].'",
+          "s": "My house is small. It is white."
+        }
+      ]
+    },
+    {
+      "t": "Hỏi về số lượng sản phẩm",
+      "e": [
+        {
+          "p": "How many books do you have?",
+          "m": "Nêu số lượng sách bạn có.",
+          "h": "Dùng 'I have [number] books.'",
+          "s": "I have three books."
+        },
+        {
+          "p": "There is one apple here. Is there another apple?",
+          "m": "Trả lời có hoặc không.",
+          "h": "Dùng 'Yes, there is.' hoặc 'No, there is not.'",
+          "s": "No, there is not."
+        },
+        {
+          "p": "How many pens are on the table?",
+          "m": "Nói số lượng bút có trên bàn.",
+          "h": "Dùng 'There are [number] pens.'",
+          "s": "There are two pens."
+        },
+        {
+          "p": "I see two cats. Do you have a dog too?",
+          "m": "Trả lời có hoặc không về việc có chó.",
+          "h": "Dùng 'Yes, I have.' hoặc 'No, I do not have.'",
+          "s": "Yes, I have."
+        },
+        {
+          "p": "I want to buy food. How many types of food do you like? Name two.",
+          "m": "Kể tên hai loại đồ ăn bạn thích.",
+          "h": "Dùng 'I like [food 1] and [food 2].'",
+          "s": "I like rice and bread."
+        }
+      ]
+    },
+    {
+      "t": "Sản phẩm yêu thích",
+      "e": [
+        {
+          "p": "Do you like this toy?",
+          "m": "Trả lời có hoặc không.",
+          "h": "Dùng 'Yes, I like it.' hoặc 'No, I do not like it.'",
+          "s": "Yes, I like it."
+        },
+        {
+          "p": "What is your favorite color for a car?",
+          "m": "Nêu màu sắc yêu thích cho xe hơi.",
+          "h": "Dùng 'My favorite color is [color].'",
+          "s": "My favorite color is red."
+        },
+        {
+          "p": "Does your friend like books?",
+          "m": "Trả lời có hoặc không.",
+          "h": "Dùng 'Yes, he/she likes books.' hoặc 'No, he/she does not like books.'",
+          "s": "Yes, she likes books."
+        },
+        {
+          "p": "I like to drink water. Do you like to drink water or milk?",
+          "m": "Trả lời bạn thích uống gì.",
+          "h": "Dùng 'I like to drink [drink].'",
+          "s": "I like to drink water."
+        },
+        {
+          "p": "What is your favorite product in your room? And what color is it?",
+          "m": "Nói về sản phẩm yêu thích trong phòng của bạn và màu sắc của nó.",
+          "h": "Dùng 'My favorite product is [product]. It is [color].'",
+          "s": "My favorite product is my bed. It is blue."
+        }
+      ]
+    },
+    {
+      "t": "Tìm kiếm sản phẩm đơn giản",
+      "e": [
+        {
+          "p": "Where is the blue pen?",
+          "m": "Nêu vị trí của cây bút màu xanh.",
+          "h": "Dùng 'It is [location].'",
+          "s": "It is here."
+        },
+        {
+          "p": "Is the book on the table?",
+          "m": "Trả lời có hoặc không.",
+          "h": "Dùng 'Yes, it is.' hoặc 'No, it is not.'",
+          "s": "Yes, it is."
+        },
+        {
+          "p": "I need a big bag. Where can I see a big bag?",
+          "m": "Nêu một nơi mà bạn có thể thấy một chiếc túi lớn.",
+          "h": "Dùng 'You can see one in the [place].'",
+          "s": "You can see one in the store."
+        },
+        {
+          "p": "My phone is small. Where is your phone? Is it on the chair?",
+          "m": "Trả lời vị trí điện thoại của bạn và nói kích thước của nó.",
+          "h": "Dùng 'My phone is [location]. It is [size].'",
+          "s": "My phone is here. It is big."
+        },
+        {
+          "p": "We need food for dinner. Where is the food store? Is it near here?",
+          "m": "Trả lời có hoặc không về việc cửa hàng đồ ăn có gần đây không.",
+          "h": "Dùng 'Yes, it is.' hoặc 'No, it is not.'",
+          "s": "Yes, it is."
+        }
+      ]
+    },
+    {
+      "t": "Sản phẩm dành cho ai",
+      "e": [
+        {
+          "p": "This toy is for a child. Is it for a boy or a girl?",
+          "m": "Trả lời nó dành cho bé trai hay bé gái.",
+          "h": "Dùng 'It is for a [gender].'",
+          "s": "It is for a boy."
+        },
+        {
+          "p": "I want to buy a present. Is this book good for my mother?",
+          "m": "Trả lời có hoặc không.",
+          "h": "Dùng 'Yes, it is.' hoặc 'No, it is not.'",
+          "s": "Yes, it is."
+        },
+        {
+          "p": "This is a big car. Who is this car for?",
+          "m": "Nêu đối tượng sở hữu chiếc xe này.",
+          "h": "Dùng 'It is for my [family member].'",
+          "s": "It is for my father."
+        },
+        {
+          "p": "My brother needs a new bag for school. Is this bag for school?",
+          "m": "Trả lời có hoặc không về việc chiếc túi này có phải dùng cho trường học không.",
+          "h": "Dùng 'Yes, it is.' hoặc 'No, it is not.'",
+          "s": "Yes, it is."
+        },
+        {
+          "p": "I see a small red dress. Who is this dress for? Is it for a baby or an adult?",
+          "m": "Trả lời chiếc váy dành cho ai.",
+          "h": "Dùng 'It is for a [person].'",
+          "s": "It is for a baby."
+        }
+      ]
+    },
+    {
+      "t": "Công dụng đơn giản của sản phẩm",
+      "e": [
+        {
+          "p": "What can this phone do?",
+          "m": "Nêu một công dụng của điện thoại.",
+          "h": "Dùng 'It can [verb].'",
+          "s": "It can call."
+        },
+        {
+          "p": "This is a pen. Can you write with it?",
+          "m": "Trả lời có hoặc không.",
+          "h": "Dùng 'Yes, I can.' hoặc 'No, I cannot.'",
+          "s": "Yes, I can."
+        },
+        {
+          "p": "I have a big TV. Can your TV play games?",
+          "m": "Trả lời có hoặc không.",
+          "h": "Dùng 'Yes, it can.' hoặc 'No, it cannot.'",
+          "s": "Yes, it can."
+        },
+        {
+          "p": "This is a camera. Can it take good pictures?",
+          "m": "Trả lời có hoặc không.",
+          "h": "Dùng 'Yes, it can.' hoặc 'No, it cannot.'",
+          "s": "Yes, it can."
+        },
+        {
+          "p": "My sister likes music. What product can play music in your house? And what color is it?",
+          "m": "Nêu tên sản phẩm có thể phát nhạc và màu sắc của nó.",
+          "h": "Dùng 'My [product] can play music. It is [color].'",
+          "s": "My phone can play music. It is black."
+        }
+      ]
+    },
+    {
+      "t": "Nói về sản phẩm có sẵn",
+      "e": [
+        {
+          "p": "There is a red ball. Is it new?",
+          "m": "Trả lời có hoặc không.",
+          "h": "Dùng 'Yes, it is.' hoặc 'No, it is not.'",
+          "s": "No, it is not."
+        },
+        {
+          "p": "Do you have a big computer?",
+          "m": "Trả lời có hoặc không.",
+          "h": "Dùng 'Yes, I have.' hoặc 'No, I do not have.'",
+          "s": "Yes, I have."
+        },
+        {
+          "p": "My friend wants a small car. What color is your car?",
+          "m": "Nêu màu sắc của chiếc xe của bạn.",
+          "h": "Dùng 'My car is [color].'",
+          "s": "My car is blue."
+        },
+        {
+          "p": "I need to buy a bag. Are there many bags in the store?",
+          "m": "Trả lời có hoặc không về số lượng túi trong cửa hàng.",
+          "h": "Dùng 'Yes, there are.' hoặc 'No, there are not.'",
+          "s": "Yes, there are."
+        },
+        {
+          "p": "What products do you have in your bag right now? Name two.",
+          "m": "Kể tên hai sản phẩm bạn có trong túi.",
+          "h": "Dùng 'I have a [product 1] and a [product 2].'",
+          "s": "I have a phone and a book."
+        }
+      ]
+    },
+    {
+      "t": "Mua sắm đơn giản",
+      "e": [
+        {
+          "p": "Do you want to buy this red apple?",
+          "m": "Trả lời có hoặc không.",
+          "h": "Dùng 'Yes, I want.' hoặc 'No, I do not want.'",
+          "s": "Yes, I want."
+        },
+        {
+          "p": "I need a new book. What kind of book do you like?",
+          "m": "Nêu loại sách bạn thích.",
+          "h": "Dùng 'I like [type] books.'",
+          "s": "I like big books."
+        },
+        {
+          "p": "How much is this toy car?",
+          "m": "Nêu giá của chiếc xe đồ chơi.",
+          "h": "Dùng 'It is [number] dollars.'",
+          "s": "It is five dollars."
+        },
+        {
+          "p": "My friend wants a new shirt. What color shirt does she like?",
+          "m": "Nêu màu áo cô ấy thích.",
+          "h": "Dùng 'She likes [color] shirts.'",
+          "s": "She likes blue shirts."
+        },
+        {
+          "p": "You are in a store. You want a big, red ball. How do you ask for it?",
+          "m": "Hỏi để mua một quả bóng lớn màu đỏ.",
+          "h": "Dùng 'I want a big, red ball, please.'",
+          "s": "I want a big, red ball, please."
+        }
+      ]
+    },
+    {
+      "t": "Giới thiệu sản phẩm mới",
+      "e": [
+        {
+          "p": "This is a new product. What is it?",
+          "m": "Nêu tên sản phẩm.",
+          "h": "Dùng 'It is a [product].'",
+          "s": "It is a TV."
+        },
+        {
+          "p": "Is this new product good?",
+          "m": "Trả lời có hoặc không.",
+          "h": "Dùng 'Yes, it is good.' hoặc 'No, it is not good.'",
+          "s": "Yes, it is good."
+        },
+        {
+          "p": "This new book is big. What is its color?",
+          "m": "Nêu màu sắc của quyển sách mới.",
+          "h": "Dùng 'It is [color].'",
+          "s": "It is green."
+        },
+        {
+          "p": "I like this new phone. Can it take good photos?",
+          "m": "Trả lời có hoặc không.",
+          "h": "Dùng 'Yes, it can.' hoặc 'No, it cannot.'",
+          "s": "Yes, it can."
+        },
+        {
+          "p": "Tell me about your new product. What is it and what color is it?",
+          "m": "Nêu tên sản phẩm mới của bạn và màu sắc của nó.",
+          "h": "Dùng 'It is a new [product]. It is [color].'",
+          "s": "It is a new bag. It is black."
+        }
+      ]
+    },
+    {
+      "t": "Sản phẩm cá nhân của bạn",
+      "e": [
+        {
+          "p": "Is this your book?",
+          "m": "Trả lời có hoặc không.",
+          "h": "Dùng 'Yes, it is my book.' hoặc 'No, it is not my book.'",
+          "s": "Yes, it is my book."
+        },
+        {
+          "p": "What is your favorite product for daily use?",
+          "m": "Nêu tên sản phẩm yêu thích dùng hàng ngày của bạn.",
+          "h": "Dùng 'My favorite product is my [product].'",
+          "s": "My favorite product is my phone."
+        },
+        {
+          "p": "Do you have a big bed in your room?",
+          "m": "Trả lời có hoặc không.",
+          "h": "Dùng 'Yes, I have.' hoặc 'No, I do not have.'",
+          "s": "Yes, I have."
+        },
+        {
+          "p": "I need to buy a pen. What color is your pen? And is it new or old?",
+          "m": "Nêu màu sắc và tình trạng (mới/cũ) của cây bút của bạn.",
+          "h": "Dùng 'My pen is [color]. It is [new/old].'",
+          "s": "My pen is blue. It is old."
+        },
+        {
+          "p": "What products do you always take to school? Name two.",
+          "m": "Kể tên hai sản phẩm bạn luôn mang theo đến trường.",
+          "h": "Dùng 'I always take a [product 1] and a [product 2].'",
+          "s": "I always take a book and a pen."
+        }
+      ]
+    },
+    {
+      "t": "Sản phẩm trong gia đình",
+      "e": [
+        {
+          "p": "What is this? Is it a chair?",
+          "m": "Trả lời có hoặc không.",
+          "h": "Dùng 'Yes, it is.' hoặc 'No, it is not.'",
+          "s": "Yes, it is."
+        },
+        {
+          "p": "How many TVs are in your house?",
+          "m": "Nêu số lượng TV trong nhà bạn.",
+          "h": "Dùng 'There is [number] TV.' hoặc 'There are [number] TVs.'",
+          "s": "There is one TV."
+        },
+        {
+          "p": "My family likes to eat food together. What food does your family like?",
+          "m": "Nêu một loại đồ ăn gia đình bạn thích.",
+          "h": "Dùng 'My family likes [food].'",
+          "s": "My family likes chicken."
+        },
+        {
+          "p": "Is your kitchen big or small? And what color is your table?",
+          "m": "Nêu kích thước của nhà bếp và màu sắc của bàn ăn.",
+          "h": "Dùng 'My kitchen is [size]. My table is [color].'",
+          "s": "My kitchen is small. My table is brown."
+        },
+        {
+          "p": "Tell me about a big product in your house. What is it and what color is it?",
+          "m": "Nêu tên một sản phẩm lớn trong nhà và màu sắc của nó.",
+          "h": "Dùng 'A big product is my [product]. It is [color].'",
+          "s": "A big product is my sofa. It is grey."
+        }
+      ]
+    },
+    {
+      "t": "Ôn tập: Mô tả cơ bản sản phẩm",
+      "e": [
+        {
+          "p": "What is this product? And what color is it?",
+          "m": "Nêu tên sản phẩm và màu sắc của nó.",
+          "h": "Dùng 'It is a [product]. It is [color].'",
+          "s": "It is a book. It is red."
+        },
+        {
+          "p": "Is this a big table or a small table?",
+          "m": "Trả lời kích thước của chiếc bàn.",
+          "h": "Dùng 'It is a [size] table.'",
+          "s": "It is a big table."
+        },
+        {
+          "p": "How many chairs are in your room?",
+          "m": "Nêu số lượng ghế trong phòng bạn.",
+          "h": "Dùng 'There is [number] chair.' hoặc 'There are [number] chairs.'",
+          "s": "There is one chair."
+        },
+        {
+          "p": "This product is for cooking. What is it?",
+          "m": "Nêu tên sản phẩm.",
+          "h": "Dùng 'It is a [product].'",
+          "s": "It is a pot."
+        },
+        {
+          "p": "Look at this new product. Tell me its name, color, and if it is big or small.",
+          "m": "Nêu tên, màu sắc và kích thước của sản phẩm mới này.",
+          "h": "Dùng 'It is a new [product]. It is [color] and it is [size].'",
+          "s": "It is a new bag. It is yellow and it is small."
+        }
+      ]
+    },
+    {
+      "t": "Ôn tập: Hỏi và đáp về sản phẩm",
+      "e": [
+        {
+          "p": "Do you like this new pen?",
+          "m": "Trả lời có hoặc không.",
+          "h": "Dùng 'Yes, I like it.' hoặc 'No, I do not like it.'",
+          "s": "Yes, I like it."
+        },
+        {
+          "p": "Where is my blue shirt? Is it on the chair?",
+          "m": "Trả lời có hoặc không về việc áo sơ mi xanh có ở trên ghế không.",
+          "h": "Dùng 'Yes, it is.' hoặc 'No, it is not.'",
+          "s": "Yes, it is."
+        },
+        {
+          "p": "Who is this small toy for?",
+          "m": "Trả lời nó dành cho ai.",
+          "h": "Dùng 'It is for [person].'",
+          "s": "It is for my baby sister."
+        },
+        {
+          "p": "I want to buy some food. What food do you have in your kitchen right now?",
+          "m": "Kể tên một loại đồ ăn bạn có trong bếp.",
+          "h": "Dùng 'I have [food].'",
+          "s": "I have rice."
+        },
+        {
+          "p": "My friend wants to buy a big, red car. What product do you want to buy next? And what color is it?",
+          "m": "Nêu tên sản phẩm bạn muốn mua tiếp theo và màu sắc của nó.",
+          "h": "Dùng 'I want to buy a [product]. It is [color].'",
+          "s": "I want to buy a new phone. It is black."
+        }
+      ]
+    },
+    {
+      "t": "Ôn tập: Lựa chọn sản phẩm",
+      "e": [
+        {
+          "p": "Do you want the red book or the blue book?",
+          "m": "Nêu màu sắc của quyển sách bạn muốn.",
+          "h": "Dùng 'I want the [color] book.'",
+          "s": "I want the red book."
+        },
+        {
+          "p": "Is this phone good or bad?",
+          "m": "Trả lời nó tốt hay xấu.",
+          "h": "Dùng 'It is [good/bad].'",
+          "s": "It is good."
+        },
+        {
+          "p": "I have a big dog. Do you like big animals or small animals?",
+          "m": "Trả lời bạn thích động vật lớn hay nhỏ.",
+          "h": "Dùng 'I like [size] animals.'",
+          "s": "I like small animals."
+        },
+        {
+          "p": "You need a pen for school. Do you want a new pen or an old pen?",
+          "m": "Trả lời bạn muốn một cây bút mới hay cũ.",
+          "h": "Dùng 'I want a [new/old] pen.'",
+          "s": "I want a new pen."
+        },
+        {
+          "p": "We need food for a big party. Tell me what food your family likes and what drink they like.",
+          "m": "Nêu một loại đồ ăn và một loại đồ uống gia đình bạn thích.",
+          "h": "Dùng 'My family likes [food] and [drink].'",
+          "s": "My family likes pizza and water."
+        }
+      ]
+    }
+  ]
+}

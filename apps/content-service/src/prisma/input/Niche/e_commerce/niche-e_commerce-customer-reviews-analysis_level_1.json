@@ -1,0 +1,530 @@
+{
+  "l": 1,
+  "d": [
+    {
+      "t": "Xem xét đánh giá sản phẩm tốt",
+      "e": [
+        {
+          "p": "This book is good. I like it.",
+          "m": "Xác nhận đây là đánh giá tốt.",
+          "h": "Dùng 'It is good.'",
+          "s": "It is good."
+        },
+        {
+          "p": "This phone is new. It is very good.",
+          "m": "Nói loại sản phẩm này là gì.",
+          "h": "Sử dụng 'It is a + danh từ.'",
+          "s": "It is a phone."
+        },
+        {
+          "p": "The customer writes: 'This shirt is red. I like it a lot!'",
+          "m": "Cho biết khách hàng có thích chiếc áo không.",
+          "h": "Trả lời 'Yes, they like it.'",
+          "s": "Yes, they like it."
+        },
+        {
+          "p": "I read: 'This car is big. It is very good for family.'",
+          "m": "Nói chiếc xe có kích thước như thế nào.",
+          "h": "Dùng 'It is + tính từ.'",
+          "s": "It is big."
+        },
+        {
+          "p": "The review says: 'This food is fresh. I buy it again.'",
+          "m": "Nói bạn có muốn mua sản phẩm này không.",
+          "h": "Sử dụng 'Yes, I want to buy it.'",
+          "s": "Yes, I want to buy it."
+        }
+      ]
+    },
+    {
+      "t": "Hiểu đánh giá sản phẩm xấu",
+      "e": [
+        {
+          "p": "This toy is broken. I don't like it.",
+          "m": "Xác nhận đây là đánh giá xấu.",
+          "h": "Dùng 'It is bad.'",
+          "s": "It is bad."
+        },
+        {
+          "p": "This bag is small. It is not good for school.",
+          "m": "Nói sản phẩm này là gì.",
+          "h": "Sử dụng 'It is a + danh từ.'",
+          "s": "It is a bag."
+        },
+        {
+          "p": "The customer says: 'This water tastes bad. I do not drink it.'",
+          "m": "Cho biết khách hàng có thích loại nước này không.",
+          "h": "Trả lời 'No, they don't like it.'",
+          "s": "No, they don't like it."
+        },
+        {
+          "p": "I see a review: 'This pencil is short. It is not good.'",
+          "m": "Nói cây bút chì có kích thước như thế nào.",
+          "h": "Dùng 'It is + tính từ.'",
+          "s": "It is short."
+        },
+        {
+          "p": "A person writes: 'This new game is very hard. I don't play it.'",
+          "m": "Nói bạn có muốn chơi trò chơi này không.",
+          "h": "Sử dụng 'No, I don't want to play it.'",
+          "s": "No, I don't want to play it."
+        }
+      ]
+    },
+    {
+      "t": "Xác định loại sản phẩm từ đánh giá",
+      "e": [
+        {
+          "p": "This is a new phone. It is fast.",
+          "m": "Cho biết đây là sản phẩm gì.",
+          "h": "Dùng 'It is a + danh từ.'",
+          "s": "It is a phone."
+        },
+        {
+          "p": "The review says: 'This blue shirt is very soft. I wear it every day.'",
+          "m": "Nói về màu sắc của chiếc áo.",
+          "h": "Sử dụng 'It is + màu sắc.'",
+          "s": "It is blue."
+        },
+        {
+          "p": "I read: 'This small red car is fun. My child plays with it.'",
+          "m": "Sản phẩm này là gì?",
+          "h": "Trả lời 'It is a car.'",
+          "s": "It is a car."
+        },
+        {
+          "p": "A customer writes: 'This big table is for my house. It is strong.'",
+          "m": "Nói kích thước của chiếc bàn.",
+          "h": "Dùng 'It is + tính từ.'",
+          "s": "It is big."
+        },
+        {
+          "p": "My friend sent: 'This sweet food is good. I eat it for lunch.'",
+          "m": "Bạn có nghĩ món ăn này tốt không?",
+          "h": "Trả lời 'Yes, it is good.'",
+          "s": "Yes, it is good."
+        }
+      ]
+    },
+    {
+      "t": "Hỏi và nói về sự thích thú sản phẩm",
+      "e": [
+        {
+          "p": "Do you like this new book?",
+          "m": "Nói bạn thích cuốn sách này.",
+          "h": "Dùng 'Yes, I like it.'",
+          "s": "Yes, I like it."
+        },
+        {
+          "p": "This old computer is slow. Do you like it?",
+          "m": "Nói bạn không thích chiếc máy tính cũ này.",
+          "h": "Dùng 'No, I don't like it.'",
+          "s": "No, I don't like it."
+        },
+        {
+          "p": "A review says: 'I like this big chair. It is comfortable.'",
+          "m": "Khách hàng có thích chiếc ghế này không?",
+          "h": "Trả lời 'Yes, they like it.'",
+          "s": "Yes, they like it."
+        },
+        {
+          "p": "I see a toy car. It is small and red. Do you like it?",
+          "m": "Cho biết bạn thích màu sắc của đồ chơi này.",
+          "h": "Dùng 'I like + màu sắc.'",
+          "s": "I like red."
+        },
+        {
+          "p": "My sister asks: 'This dress is blue. Do you like this color?'",
+          "m": "Nói bạn thích màu xanh này.",
+          "h": "Sử dụng 'Yes, I like blue.'",
+          "s": "Yes, I like blue."
+        }
+      ]
+    },
+    {
+      "t": "Mô tả màu sắc và kích thước sản phẩm",
+      "e": [
+        {
+          "p": "This pen is blue. It is good.",
+          "m": "Nói màu của cây bút này.",
+          "h": "Dùng 'It is + màu sắc.'",
+          "s": "It is blue."
+        },
+        {
+          "p": "I have a big table. It is brown.",
+          "m": "Nói kích thước của chiếc bàn.",
+          "h": "Dùng 'It is + tính từ.'",
+          "s": "It is big."
+        },
+        {
+          "p": "A customer wrote: 'This yellow shirt is small. It is for a child.'",
+          "m": "Chiếc áo này có màu gì?",
+          "h": "Trả lời 'It is yellow.'",
+          "s": "It is yellow."
+        },
+        {
+          "p": "My friend shows a new car. It is black and very big.",
+          "m": "Nói màu sắc của chiếc xe.",
+          "h": "Dùng 'It is + màu sắc.'",
+          "s": "It is black."
+        },
+        {
+          "p": "The review is about a new bag. It is green and small. I like green.",
+          "m": "Bạn có thích màu của chiếc túi không?",
+          "h": "Sử dụng 'Yes, I like green.'",
+          "s": "Yes, I like green."
+        }
+      ]
+    },
+    {
+      "t": "Đánh giá giá cả đơn giản",
+      "e": [
+        {
+          "p": "This book is 5 dollars. It is cheap.",
+          "m": "Nói cuốn sách này có rẻ không.",
+          "h": "Dùng 'It is cheap.'",
+          "s": "It is cheap."
+        },
+        {
+          "p": "The phone is 500 dollars. It is not cheap.",
+          "m": "Nói chiếc điện thoại này có rẻ không.",
+          "h": "Dùng 'It is not cheap.'",
+          "s": "It is not cheap."
+        },
+        {
+          "p": "A customer says: 'This food is good and cheap. I buy it every day.'",
+          "m": "Khách hàng có nghĩ đồ ăn này rẻ không?",
+          "h": "Trả lời 'Yes, it is cheap.'",
+          "s": "Yes, it is cheap."
+        },
+        {
+          "p": "I see a big toy. It is 100 dollars. Is it cheap?",
+          "m": "Nói đồ chơi này không rẻ.",
+          "h": "Dùng 'No, it is not cheap.'",
+          "s": "No, it is not cheap."
+        },
+        {
+          "p": "Your friend wants a new shirt. This shirt is 15 dollars. Is it a good price?",
+          "m": "Nói đây là một mức giá tốt.",
+          "h": "Sử dụng 'Yes, it is a good price.'",
+          "s": "Yes, it is a good price."
+        }
+      ]
+    },
+    {
+      "t": "Quyết định mua sản phẩm",
+      "e": [
+        {
+          "p": "This phone is good. Do you want to buy it?",
+          "m": "Nói bạn muốn mua chiếc điện thoại này.",
+          "h": "Dùng 'Yes, I want to buy it.'",
+          "s": "Yes, I want to buy it."
+        },
+        {
+          "p": "The shirt is bad. Do you buy it?",
+          "m": "Nói bạn không mua chiếc áo này.",
+          "h": "Dùng 'No, I don't buy it.'",
+          "s": "No, I don't buy it."
+        },
+        {
+          "p": "A customer wrote: 'This food is fresh. I buy it.'",
+          "m": "Khách hàng có mua đồ ăn không?",
+          "h": "Trả lời 'Yes, they buy it.'",
+          "s": "Yes, they buy it."
+        },
+        {
+          "p": "This book is very interesting. Do you buy this book?",
+          "m": "Nói bạn mua cuốn sách này.",
+          "h": "Dùng 'Yes, I buy this book.'",
+          "s": "Yes, I buy this book."
+        },
+        {
+          "p": "Your brother asks: 'This new car is too big. Do you still buy it?'",
+          "m": "Nói bạn không mua chiếc xe này.",
+          "h": "Sử dụng 'No, I don't buy it.'",
+          "s": "No, I don't buy it."
+        }
+      ]
+    },
+    {
+      "t": "Tìm sản phẩm trong cửa hàng",
+      "e": [
+        {
+          "p": "Where is the book?",
+          "m": "Nói cuốn sách ở đây.",
+          "h": "Dùng 'It is here.'",
+          "s": "It is here."
+        },
+        {
+          "p": "Is the red shirt in this store?",
+          "m": "Nói chiếc áo màu đỏ có ở trong cửa hàng này.",
+          "h": "Dùng 'Yes, it is in this store.'",
+          "s": "Yes, it is in this store."
+        },
+        {
+          "p": "A customer asks: 'Can I find a big toy here?'",
+          "m": "Nói có một món đồ chơi lớn ở đây.",
+          "h": "Trả lời 'Yes, there is a big toy here.'",
+          "s": "Yes, there is a big toy here."
+        },
+        {
+          "p": "My mom asks: 'Where is the food for dinner?'",
+          "m": "Nói đồ ăn có ở trong cửa hàng.",
+          "h": "Dùng 'It is in the store.'",
+          "s": "It is in the store."
+        },
+        {
+          "p": "Your friend wants a blue pen. He asks: 'Is a blue pen here?'",
+          "m": "Nói có một cây bút màu xanh ở đây.",
+          "h": "Sử dụng 'Yes, there is a blue pen here.'",
+          "s": "Yes, there is a blue pen here."
+        }
+      ]
+    },
+    {
+      "t": "So sánh hai đánh giá đơn giản",
+      "e": [
+        {
+          "p": "Review 1: 'This bag is good.' Review 2: 'This bag is bad.'",
+          "m": "Nói đánh giá đầu tiên là tốt.",
+          "h": "Dùng 'The first review is good.'",
+          "s": "The first review is good."
+        },
+        {
+          "p": "Product A: 'It is a small car.' Product B: 'It is a big car.'",
+          "m": "Nói sản phẩm B có kích thước lớn.",
+          "h": "Dùng 'Product B is big.'",
+          "s": "Product B is big."
+        },
+        {
+          "p": "Customer 1: 'I like this red shirt.' Customer 2: 'I don't like this red shirt.'",
+          "m": "Khách hàng thứ nhất có thích chiếc áo không?",
+          "h": "Trả lời 'Yes, the first customer likes it.'",
+          "s": "Yes, the first customer likes it."
+        },
+        {
+          "p": "Review 1: 'The book is cheap.' Review 2: 'The book is not cheap.'",
+          "m": "Nói đánh giá thứ hai nói cuốn sách không rẻ.",
+          "h": "Dùng 'The second review says it is not cheap.'",
+          "s": "The second review says it is not cheap."
+        },
+        {
+          "p": "Product X: 'This phone is fast.' Product Y: 'This phone is slow.' Do you buy Product X?",
+          "m": "Nói bạn mua sản phẩm X.",
+          "h": "Sử dụng 'Yes, I buy Product X.'",
+          "s": "Yes, I buy Product X."
+        }
+      ]
+    },
+    {
+      "t": "Chia sẻ ý kiến cá nhân về sản phẩm",
+      "e": [
+        {
+          "p": "What do you think about this new book? Is it good?",
+          "m": "Nói bạn nghĩ cuốn sách này tốt.",
+          "h": "Dùng 'I think it is good.'",
+          "s": "I think it is good."
+        },
+        {
+          "p": "This old TV is not good. What do you think?",
+          "m": "Nói bạn nghĩ chiếc TV này không tốt.",
+          "h": "Dùng 'I think it is not good.'",
+          "s": "I think it is not good."
+        },
+        {
+          "p": "Your friend asks: 'This small red bag is cute. Do you like it?'",
+          "m": "Nói bạn thích chiếc túi nhỏ màu đỏ này.",
+          "h": "Trả lời 'Yes, I like this small red bag.'",
+          "s": "Yes, I like this small red bag."
+        },
+        {
+          "p": "I am looking at a blue pen. It is 2 dollars. What do you think about the price?",
+          "m": "Nói bạn nghĩ giá này rẻ.",
+          "h": "Dùng 'I think it is cheap.'",
+          "s": "I think it is cheap."
+        },
+        {
+          "p": "Your mother shows a big green car. She asks: 'Is this car good?'",
+          "m": "Nói bạn nghĩ chiếc xe này tốt.",
+          "h": "Sử dụng 'Yes, I think this car is good.'",
+          "s": "Yes, I think this car is good."
+        }
+      ]
+    },
+    {
+      "t": "Đề xuất mua sắm đơn giản",
+      "e": [
+        {
+          "p": "I need a new book. This one is good. Should I buy it?",
+          "m": "Đề xuất mua cuốn sách này.",
+          "h": "Dùng 'Yes, buy this book.'",
+          "s": "Yes, buy this book."
+        },
+        {
+          "p": "This shirt is blue. It is cheap. Do you want it?",
+          "m": "Nói bạn muốn chiếc áo này.",
+          "h": "Dùng 'Yes, I want it.'",
+          "s": "Yes, I want it."
+        },
+        {
+          "p": "My sister wants a new phone. This phone is very fast. What do you say?",
+          "m": "Đề xuất chị bạn mua chiếc điện thoại này.",
+          "h": "Trả lời 'Buy this phone.'",
+          "s": "Buy this phone."
+        },
+        {
+          "p": "I see a small yellow toy. It is for a child. Is it good?",
+          "m": "Nói món đồ chơi này tốt.",
+          "h": "Dùng 'Yes, it is good.'",
+          "s": "Yes, it is good."
+        },
+        {
+          "p": "My friend asks: 'I need food. This food is fresh. Should I buy it?'",
+          "m": "Đề xuất mua đồ ăn này.",
+          "h": "Sử dụng 'Yes, buy this food.'",
+          "s": "Yes, buy this food."
+        }
+      ]
+    },
+    {
+      "t": "Nói về trải nghiệm mua sắm",
+      "e": [
+        {
+          "p": "Did you buy the new book?",
+          "m": "Nói bạn đã mua cuốn sách mới.",
+          "h": "Dùng 'Yes, I buy the new book.' (Lưu ý: level hiện tại chỉ dùng thì hiện tại đơn)",
+          "s": "Yes, I buy the new book."
+        },
+        {
+          "p": "This shirt is good. Are you happy with it?",
+          "m": "Nói bạn vui với chiếc áo này.",
+          "h": "Dùng 'Yes, I am happy with it.'",
+          "s": "Yes, I am happy with it."
+        },
+        {
+          "p": "A customer shares: 'I buy this phone. It is very fast. I like it.'",
+          "m": "Khách hàng có thích chiếc điện thoại này không?",
+          "h": "Trả lời 'Yes, they like it.'",
+          "s": "Yes, they like it."
+        },
+        {
+          "p": "My friend asks: 'You buy a new car. Is it big?'",
+          "m": "Nói chiếc xe mới của bạn lớn.",
+          "h": "Dùng 'Yes, it is big.'",
+          "s": "Yes, it is big."
+        },
+        {
+          "p": "You bought some food. Is it good?",
+          "m": "Nói đồ ăn bạn mua tốt.",
+          "h": "Sử dụng 'Yes, it is good.'",
+          "s": "Yes, it is good."
+        }
+      ]
+    },
+    {
+      "t": "Ôn tập: Phân tích đánh giá chung",
+      "e": [
+        {
+          "p": "I read a review: 'This pen is blue and good.' Is it a good product?",
+          "m": "Xác nhận đây là sản phẩm tốt.",
+          "h": "Dùng 'Yes, it is a good product.'",
+          "s": "Yes, it is a good product."
+        },
+        {
+          "p": "A customer says: 'This big table is bad.' What is the problem?",
+          "m": "Nói chiếc bàn này không tốt.",
+          "h": "Dùng 'It is not good.'",
+          "s": "It is not good."
+        },
+        {
+          "p": "This small car is red. The review says: 'I like it!'",
+          "m": "Màu sắc của chiếc xe là gì?",
+          "h": "Trả lời 'It is red.'",
+          "s": "It is red."
+        },
+        {
+          "p": "My friend saw this: 'This food is cheap and fresh. I buy it every day.'",
+          "m": "Bạn có muốn mua đồ ăn này không?",
+          "h": "Dùng 'Yes, I want to buy it.'",
+          "s": "Yes, I want to buy it."
+        },
+        {
+          "p": "The review for this phone says it is fast. Do you think it is good?",
+          "m": "Nói bạn nghĩ chiếc điện thoại này tốt.",
+          "h": "Sử dụng 'Yes, I think it is good.'",
+          "s": "Yes, I think it is good."
+        }
+      ]
+    },
+    {
+      "t": "Ôn tập: Đưa ra quyết định mua hàng",
+      "e": [
+        {
+          "p": "This book is 10 dollars. It is good. Do you buy it?",
+          "m": "Nói bạn mua cuốn sách này.",
+          "h": "Dùng 'Yes, I buy it.'",
+          "s": "Yes, I buy it."
+        },
+        {
+          "p": "The shirt is green. It is not good. Should I buy it?",
+          "m": "Nói bạn không nên mua chiếc áo này.",
+          "h": "Dùng 'No, don't buy it.'",
+          "s": "No, don't buy it."
+        },
+        {
+          "p": "A customer says: 'This phone is too slow. I don't buy it.'",
+          "m": "Khách hàng có mua điện thoại không?",
+          "h": "Trả lời 'No, they don't buy it.'",
+          "s": "No, they don't buy it."
+        },
+        {
+          "p": "This small toy is cheap. It is for a child. Do you buy it for a child?",
+          "m": "Nói bạn mua đồ chơi này cho một đứa trẻ.",
+          "h": "Dùng 'Yes, I buy it for a child.'",
+          "s": "Yes, I buy it for a child."
+        },
+        {
+          "p": "Your friend asks: 'This big red car is expensive. Do you still want it?'",
+          "m": "Nói bạn không muốn chiếc xe này.",
+          "h": "Sử dụng 'No, I don't want it.'",
+          "s": "No, I don't want it."
+        }
+      ]
+    },
+    {
+      "t": "Ôn tập: Chia sẻ trải nghiệm sản phẩm",
+      "e": [
+        {
+          "p": "You bought a new black bag. Is it good?",
+          "m": "Nói chiếc túi mới màu đen của bạn tốt.",
+          "h": "Dùng 'Yes, it is good.'",
+          "s": "Yes, it is good."
+        },
+        {
+          "p": "Your friend asks about your new phone. 'Is it fast?'",
+          "m": "Nói chiếc điện thoại của bạn nhanh.",
+          "h": "Dùng 'Yes, it is fast.'",
+          "s": "Yes, it is fast."
+        },
+        {
+          "p": "A customer wrote: 'I buy this food. I like it. It is fresh.'",
+          "m": "Khách hàng có thích đồ ăn không?",
+          "h": "Trả lời 'Yes, they like it.'",
+          "s": "Yes, they like it."
+        },
+        {
+          "p": "You have a new book. It is interesting. Are you happy?",
+          "m": "Nói bạn vui.",
+          "h": "Dùng 'Yes, I am happy.'",
+          "s": "Yes, I am happy."
+        },
+        {
+          "p": "Your sister asks: 'Is your new red shirt good for work?'",
+          "m": "Nói chiếc áo sơ mi màu đỏ mới của bạn tốt cho công việc.",
+          "h": "Sử dụng 'Yes, it is good for work.'",
+          "s": "Yes, it is good for work."
+        }
+      ]
+    }
+  ]
+}

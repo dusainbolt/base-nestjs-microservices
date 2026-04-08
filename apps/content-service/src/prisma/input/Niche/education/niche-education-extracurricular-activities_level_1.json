@@ -1,0 +1,530 @@
+{
+  "l": 1,
+  "d": [
+    {
+      "t": "Giới thiệu về câu lạc bộ",
+      "e": [
+        {
+          "p": "What club are you in?",
+          "m": "Nói tên câu lạc bộ bạn tham gia.",
+          "h": "S + be + N",
+          "s": "I am in the art club."
+        },
+        {
+          "p": "Do you like this club?",
+          "m": "Nói bạn có thích câu lạc bộ đó hay không.",
+          "h": "S + V(s) (like) / S + don't/doesn't like",
+          "s": "Yes, I like this club."
+        },
+        {
+          "p": "When is the club meeting?",
+          "m": "Nói ngày hoặc thời gian họp câu lạc bộ (ví dụ: today, after school).",
+          "h": "S + V(s) + time / There is",
+          "s": "The club meets after school."
+        },
+        {
+          "p": "Where does the club meet?",
+          "m": "Nói địa điểm họp của câu lạc bộ.",
+          "h": "Where + be...? / S + be + place",
+          "s": "It meets in the art room."
+        },
+        {
+          "p": "Can you join the club now?",
+          "m": "Nói bạn có thể tham gia bây giờ hay không.",
+          "h": "S + can/can't + V",
+          "s": "I can join the club now."
+        }
+      ]
+    },
+    {
+      "t": "Nói về thể thao yêu thích",
+      "e": [
+        {
+          "p": "What sport do you like?",
+          "m": "Nói tên môn thể thao bạn thích.",
+          "h": "S + V(s) + O",
+          "s": "I like football."
+        },
+        {
+          "p": "Do you play this sport?",
+          "m": "Nói bạn có chơi môn thể thao đó hay không.",
+          "h": "Do + S + V?",
+          "s": "Yes, I play football."
+        },
+        {
+          "p": "How often do you play?",
+          "m": "Nói tần suất bạn chơi (ví dụ: every day, twice a week).",
+          "h": "S + V(s) + time",
+          "s": "I play twice a week."
+        },
+        {
+          "p": "Who is your coach?",
+          "m": "Nói ai là huấn luyện viên của bạn (teacher, coach...).",
+          "h": "Who + be...?",
+          "s": "My coach is the PE teacher."
+        },
+        {
+          "p": "Can you run fast?",
+          "m": "Nói bạn có thể chạy nhanh hay không.",
+          "h": "S + can/can't + V",
+          "s": "I can run fast."
+        }
+      ]
+    },
+    {
+      "t": "Thảo luận về ban nhạc và sân khấu",
+      "e": [
+        {
+          "p": "Do you play an instrument?",
+          "m": "Nói bạn có chơi nhạc cụ hay không.",
+          "h": "Do + S + V?",
+          "s": "Yes, I play the piano."
+        },
+        {
+          "p": "What instrument do you play?",
+          "m": "Nói tên nhạc cụ bạn chơi.",
+          "h": "S + V(s) + O",
+          "s": "I play the piano."
+        },
+        {
+          "p": "When is the music practice?",
+          "m": "Nói thời gian tập nhạc (ví dụ: after school, today).",
+          "h": "S + V(s) + time / There is",
+          "s": "Practice is after school."
+        },
+        {
+          "p": "Where is the music room?",
+          "m": "Nói vị trí phòng nhạc.",
+          "h": "Where + be...?",
+          "s": "It is next to the library."
+        },
+        {
+          "p": "Do you sing in the band?",
+          "m": "Nói bạn có hát trong ban nhạc hay không.",
+          "h": "S + V(s) / S + don't/doesn't",
+          "s": "No, I don't sing in the band."
+        }
+      ]
+    },
+    {
+      "t": "Hoạt động nghệ thuật",
+      "e": [
+        {
+          "p": "Do you like painting?",
+          "m": "Nói bạn có thích vẽ hay không.",
+          "h": "S + V(s) (like) / S + don't/doesn't like",
+          "s": "Yes, I like painting."
+        },
+        {
+          "p": "What do you make in art class?",
+          "m": "Nói một đồ vật bạn làm ở lớp mỹ thuật (a picture, a mask).",
+          "h": "S + V + O",
+          "s": "I make a picture."
+        },
+        {
+          "p": "Is there an art teacher?",
+          "m": "Nói có giáo viên mỹ thuật ở trường hay không.",
+          "h": "There is/are",
+          "s": "Yes, there is an art teacher."
+        },
+        {
+          "p": "Where do you keep your art?",
+          "m": "Nói nơi bạn để tranh hoặc đồ nghệ thuật của bạn.",
+          "h": "S + be + place",
+          "s": "My art is in my bag."
+        },
+        {
+          "p": "Can you draw a big tree?",
+          "m": "Nói bạn có thể vẽ một cây lớn hay không.",
+          "h": "S + can/can't + V",
+          "s": "I can draw a big tree."
+        }
+      ]
+    },
+    {
+      "t": "Lịch tập hàng tuần",
+      "e": [
+        {
+          "p": "When do you practice?",
+          "m": "Nói thời gian chung bạn tập (ví dụ: in the morning, in the afternoon).",
+          "h": "S + V(s) + time",
+          "s": "I practice in the afternoon."
+        },
+        {
+          "p": "Do you practice every day?",
+          "m": "Nói bạn có tập mỗi ngày hay không.",
+          "h": "Do + S + V?",
+          "s": "No, I do not practice every day."
+        },
+        {
+          "p": "How long is each practice?",
+          "m": "Nói thời lượng mỗi buổi tập (ví dụ: one hour).",
+          "h": "S + be + time",
+          "s": "Each practice is one hour."
+        },
+        {
+          "p": "Where do you practice?",
+          "m": "Nói địa điểm bạn tập (gym, field, room).",
+          "h": "S + V + place",
+          "s": "We practice in the gym."
+        },
+        {
+          "p": "Who practices with you?",
+          "m": "Nói ai cùng bạn luyện tập (friends, teammates).",
+          "h": "S + V + with + O",
+          "s": "My friends practice with me."
+        }
+      ]
+    },
+    {
+      "t": "Khả năng và sở trường",
+      "e": [
+        {
+          "p": "Can you play the guitar?",
+          "m": "Nói bạn có thể chơi guitar hay không.",
+          "h": "S + can/can't + V",
+          "s": "I can't play the guitar."
+        },
+        {
+          "p": "What can you do well?",
+          "m": "Nói một việc bạn làm tốt (draw, sing, run...).",
+          "h": "S + can + V",
+          "s": "I can draw well."
+        },
+        {
+          "p": "Are you good at sports?",
+          "m": "Nói bạn có giỏi thể thao hay không.",
+          "h": "S + be + Adj",
+          "s": "Yes, I am good at sports."
+        },
+        {
+          "p": "Who is good at singing in your class?",
+          "m": "Nói một người trong lớp giỏi hát.",
+          "h": "S + be + Adj / Who + be...?",
+          "s": "My friend is good at singing."
+        },
+        {
+          "p": "Can your team win tomorrow?",
+          "m": "Nói đội bạn có thể thắng vào ngày mai hay không.",
+          "h": "S + can/can't + V",
+          "s": "Yes, my team can win."
+        }
+      ]
+    },
+    {
+      "t": "Tham gia sự kiện trường",
+      "e": [
+        {
+          "p": "Is there a school fair today?",
+          "m": "Nói có hội chợ trường hôm nay hay không.",
+          "h": "There is/are",
+          "s": "Yes, there is a school fair today."
+        },
+        {
+          "p": "Do you go to the fair?",
+          "m": "Nói bạn có đi hội chợ hay không.",
+          "h": "Do + S + V?",
+          "s": "I go to the fair."
+        },
+        {
+          "p": "What do you do at the fair?",
+          "m": "Nói một hoạt động bạn làm ở hội chợ (buy food, play games).",
+          "h": "S + V + O",
+          "s": "I buy food."
+        },
+        {
+          "p": "Who helps at the event?",
+          "m": "Nói ai giúp tổ chức sự kiện (teachers, parents).",
+          "h": "Who + V + ?",
+          "s": "Teachers help at the event."
+        },
+        {
+          "p": "Can you help this afternoon?",
+          "m": "Nói bạn có thể giúp vào chiều nay hay không.",
+          "h": "S + can/can't + V",
+          "s": "I can help this afternoon."
+        }
+      ]
+    },
+    {
+      "t": "Dự án tình nguyện",
+      "e": [
+        {
+          "p": "Do you do volunteer work?",
+          "m": "Nói bạn có làm việc tình nguyện hay không.",
+          "h": "Do + S + V?",
+          "s": "Yes, I do volunteer work."
+        },
+        {
+          "p": "Where do you volunteer?",
+          "m": "Nói nơi bạn làm tình nguyện (park, school...).",
+          "h": "Where + do + S + V?",
+          "s": "I volunteer at the park."
+        },
+        {
+          "p": "How often do you volunteer?",
+          "m": "Nói tần suất bạn tình nguyện (once a month, every week...).",
+          "h": "S + V + time",
+          "s": "I volunteer once a month."
+        },
+        {
+          "p": "Who organizes the project?",
+          "m": "Nói ai tổ chức dự án (school, teacher).",
+          "h": "Who + V + ?",
+          "s": "The school organizes the project."
+        },
+        {
+          "p": "Can your friends join you?",
+          "m": "Nói bạn bè của bạn có thể tham gia hay không.",
+          "h": "S + can/can't + V",
+          "s": "Yes, my friends can join me."
+        }
+      ]
+    },
+    {
+      "t": "Bạn cùng nhóm và vai trò",
+      "e": [
+        {
+          "p": "Who is in your team?",
+          "m": "Nói ai là thành viên trong đội của bạn (một người).",
+          "h": "Who + be...?",
+          "s": "My friend is in my team."
+        },
+        {
+          "p": "What is your role in the team?",
+          "m": "Nói vai trò của bạn (leader, player...).",
+          "h": "S + be + N",
+          "s": "I am the leader."
+        },
+        {
+          "p": "Do you work with others on tasks?",
+          "m": "Nói bạn có làm việc với người khác hay không.",
+          "h": "Do + S + V?",
+          "s": "Yes, I work with others."
+        },
+        {
+          "p": "Where do you meet your team?",
+          "m": "Nói nơi bạn gặp đội (classroom, field...).",
+          "h": "S + V + place",
+          "s": "We meet in the classroom."
+        },
+        {
+          "p": "Can you explain your task?",
+          "m": "Nói nhiệm vụ chính của bạn trong một câu ngắn.",
+          "h": "S + V + O",
+          "s": "I organize the materials."
+        }
+      ]
+    },
+    {
+      "t": "Vấn đề khi tập luyện",
+      "e": [
+        {
+          "p": "Do you have a problem with practice?",
+          "m": "Nói có vấn đề khi tập hay không.",
+          "h": "Do + S + V?",
+          "s": "Yes, I have a problem with practice."
+        },
+        {
+          "p": "What is the problem?",
+          "m": "Nói một mô tả ngắn về vấn đề (one sentence).",
+          "h": "S + be + N/Adj",
+          "s": "The room is small."
+        },
+        {
+          "p": "Who fixes the problem?",
+          "m": "Nói ai giải quyết hoặc sửa vấn đề.",
+          "h": "Who + V + ?",
+          "s": "The teacher fixes the problem."
+        },
+        {
+          "p": "Can you change the practice time?",
+          "m": "Nói bạn có thể đổi giờ tập hay không.",
+          "h": "S + can/can't + V",
+          "s": "I can't change the time."
+        },
+        {
+          "p": "Do you need help now?",
+          "m": "Nói bạn có cần giúp ngay bây giờ hay không.",
+          "h": "Do + S + V?",
+          "s": "No, I do not need help now."
+        }
+      ]
+    },
+    {
+      "t": "Đăng ký và chi phí",
+      "e": [
+        {
+          "p": "How do you sign up for the club?",
+          "m": "Nói cách bạn đăng ký (at school, online...).",
+          "h": "S + V + place/manner",
+          "s": "I sign up at school."
+        },
+        {
+          "p": "Is there a fee to join?",
+          "m": "Nói có phí tham gia hay không.",
+          "h": "There is/are",
+          "s": "Yes, there is a small fee."
+        },
+        {
+          "p": "How much is the fee?",
+          "m": "Nói số tiền phí (một câu ngắn, ví dụ: five dollars).",
+          "h": "It + be + number",
+          "s": "It is five dollars."
+        },
+        {
+          "p": "Who pays the fee?",
+          "m": "Nói ai trả phí (my parents, I...).",
+          "h": "Who + V + ?",
+          "s": "My parents pay the fee."
+        },
+        {
+          "p": "Can you pay by cash?",
+          "m": "Nói bạn có thể trả bằng tiền mặt hay không.",
+          "h": "S + can/can't + V",
+          "s": "Yes, I can pay by cash."
+        }
+      ]
+    },
+    {
+      "t": "Lời mời tham gia",
+      "e": [
+        {
+          "p": "Do you want to join our club?",
+          "m": "Nói bạn có muốn tham gia câu lạc bộ hay không.",
+          "h": "Do + S + V?",
+          "s": "Yes, I want to join your club."
+        },
+        {
+          "p": "When can you come to the first meeting?",
+          "m": "Nói một thời gian bạn có thể đến (today, tomorrow...).",
+          "h": "S + can + V + time",
+          "s": "I can come tomorrow."
+        },
+        {
+          "p": "Where is the first meeting?",
+          "m": "Nói địa điểm họp lần đầu.",
+          "h": "Where + be...?",
+          "s": "The meeting is in room 10."
+        },
+        {
+          "p": "Who else will come with you?",
+          "m": "Nói một người khác sẽ đi cùng bạn.",
+          "h": "Who + will + V / S + will + V",
+          "s": "My friend will come."
+        },
+        {
+          "p": "Can you bring something to the meeting?",
+          "m": "Nói bạn có thể mang đồ gì đến họp hay không (water, a book...).",
+          "h": "S + can/can't + V + O",
+          "s": "I can bring water."
+        }
+      ]
+    },
+    {
+      "t": "Ôn tập: Câu lạc bộ và hoạt động",
+      "e": [
+        {
+          "p": "Which club do you want to join?",
+          "m": "Nói tên câu lạc bộ bạn muốn tham gia.",
+          "h": "S + V(s) + O / S + be + N",
+          "s": "I want to join the music club."
+        },
+        {
+          "p": "When is the club meeting this week?",
+          "m": "Nói thời gian họp trong tuần này (today, after school).",
+          "h": "S + V(s) + time / There is",
+          "s": "The club meets today after school."
+        },
+        {
+          "p": "Do you enjoy the activities?",
+          "m": "Nói bạn có thích các hoạt động hay không.",
+          "h": "S + V(s) (enjoy) / S + don't/doesn't enjoy",
+          "s": "Yes, I enjoy the activities."
+        },
+        {
+          "p": "Where is the meeting place?",
+          "m": "Nói địa điểm họp một cách ngắn gọn.",
+          "h": "Where + be...?",
+          "s": "The meeting place is the school hall."
+        },
+        {
+          "p": "Can you bring a friend next time?",
+          "m": "Nói bạn có thể mang bạn tới lần sau hay không.",
+          "h": "S + can/can't + V + O",
+          "s": "I can bring a friend next time."
+        }
+      ]
+    },
+    {
+      "t": "Ôn tập: Thể thao và luyện tập",
+      "e": [
+        {
+          "p": "What sport do you play at school?",
+          "m": "Nói môn thể thao bạn chơi ở trường.",
+          "h": "S + V(s) + O",
+          "s": "I play football at school."
+        },
+        {
+          "p": "How often is your practice each week?",
+          "m": "Nói tần suất tập mỗi tuần (once, twice...).",
+          "h": "S + V + time",
+          "s": "I practice twice a week."
+        },
+        {
+          "p": "Who is the team captain?",
+          "m": "Nói ai là đội trưởng (one person).",
+          "h": "Who + be...?",
+          "s": "My friend is the team captain."
+        },
+        {
+          "p": "Do you have problems with the field?",
+          "m": "Nói có vấn đề với sân hay không (yes/no).",
+          "h": "Do + S + V?",
+          "s": "Yes, we have a problem with the field."
+        },
+        {
+          "p": "Can you practice after school today?",
+          "m": "Nói bạn có thể tập sau giờ học hôm nay hay không.",
+          "h": "S + can/can't + V",
+          "s": "I can practice after school today."
+        }
+      ]
+    },
+    {
+      "t": "Ôn tập: Sự kiện trường",
+      "e": [
+        {
+          "p": "Is there a school event this month?",
+          "m": "Nói có sự kiện trường trong tháng này hay không.",
+          "h": "There is/are",
+          "s": "Yes, there is a school event this month."
+        },
+        {
+          "p": "Do you help at school events?",
+          "m": "Nói bạn có giúp đỡ ở sự kiện hay không.",
+          "h": "Do + S + V?",
+          "s": "Yes, I help at school events."
+        },
+        {
+          "p": "Who will organize the games?",
+          "m": "Nói ai sẽ tổ chức trò chơi (teachers, students).",
+          "h": "Who + will + V / S + V",
+          "s": "Students will organize the games."
+        },
+        {
+          "p": "Is there an entry fee for the event?",
+          "m": "Nói có phí vào cửa hay không.",
+          "h": "There is/are",
+          "s": "No, there is no entry fee."
+        },
+        {
+          "p": "Can you invite your family to the event?",
+          "m": "Nói bạn có thể mời gia đình tới sự kiện hay không.",
+          "h": "S + can/can't + V + O",
+          "s": "I can invite my family."
+        }
+      ]
+    }
+  ]
+}

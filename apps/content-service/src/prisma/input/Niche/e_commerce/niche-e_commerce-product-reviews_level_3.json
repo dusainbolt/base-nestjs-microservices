@@ -1,0 +1,600 @@
+{
+  "l": 3,
+  "d": [
+    {
+      "t": "Chia sẻ cảm nhận đầu tiên về sản phẩm mới",
+      "e": [
+        {
+          "p": "Hi! Did you get anything new recently?",
+          "m": "Kể tên một món đồ mới bạn đã mua gần đây. Nói bạn đã mua nó khi nào.",
+          "h": "Dùng thì quá khứ đơn để kể về món đồ bạn đã mua.",
+          "s": "Yes, I bought a new phone last week. I got it on Saturday."
+        },
+        {
+          "p": "That sounds interesting! What do you like most about your new phone?",
+          "m": "Nêu một điều bạn thích nhất ở chiếc điện thoại mới. Giải thích tại sao bạn thích điều đó.",
+          "h": "Dùng \"I like... because...\"",
+          "s": "I like its camera the most because the photos are very clear and bright."
+        },
+        {
+          "p": "Oh, a good camera is important! Is there anything you don't like about it?",
+          "m": "Nêu một điều bạn không thích ở chiếc điện thoại. Giải thích tại sao bạn không thích nó.",
+          "h": "Dùng \"I don't like... because...\"",
+          "s": "I don't like the battery life because I have to charge it every day."
+        },
+        {
+          "p": "Charging every day can be annoying. Do you think it was a good purchase overall?",
+          "m": "Cho biết bạn có nghĩ đây là một món đồ đáng mua không. Nêu một lý do chính.",
+          "h": "Dùng \"I think it was (not) a good purchase because...\"",
+          "s": "Yes, I think it was a good purchase because the price was good and it works very fast."
+        },
+        {
+          "p": "Okay, I see. Would you recommend this phone to your friends?",
+          "m": "Cho biết bạn có giới thiệu chiếc điện thoại này cho bạn bè không. Nêu lý do.",
+          "h": "Dùng \"I would/wouldn't recommend it because...\"",
+          "s": "Yes, I would recommend it because it is easy to use and has many useful features."
+        }
+      ]
+    },
+    {
+      "t": "Đánh giá một thiết bị gia dụng đơn giản",
+      "e": [
+        {
+          "p": "I'm looking for a new blender. Have you bought any kitchen appliances recently?",
+          "m": "Nêu tên một thiết bị gia dụng bạn đã mua gần đây. Kể bạn đã mua nó ở đâu.",
+          "h": "Dùng thì quá khứ đơn.",
+          "s": "Yes, I bought a new coffee maker last month. I bought it at the big electronics store."
+        },
+        {
+          "p": "A coffee maker! That's useful. How was it the first time you used it?",
+          "m": "Mô tả trải nghiệm lần đầu tiên bạn sử dụng nó. Cho biết nó có dễ dùng không.",
+          "h": "Dùng thì quá khứ đơn.",
+          "s": "The first time, it was a little difficult to set up. But then it was easy to use."
+        },
+        {
+          "p": "So, it was easy after the setup. What is your favorite feature of this coffee maker?",
+          "m": "Nêu một đặc điểm bạn thích nhất ở máy pha cà phê. Giải thích tại sao đặc điểm đó tốt.",
+          "h": "Dùng \"My favorite feature is... because...\"",
+          "s": "My favorite feature is the timer because I can set it to make coffee before I wake up."
+        },
+        {
+          "p": "That's a great feature for busy mornings! Do you think it makes your mornings better?",
+          "m": "Cho biết bạn có nghĩ nó giúp buổi sáng của bạn tốt hơn không. Giải thích lý do.",
+          "h": "Dùng \"Yes/No, I think... because...\"",
+          "s": "Yes, I think it makes my mornings much better because I save time and get fresh coffee."
+        },
+        {
+          "p": "It sounds like a good investment. Compared to your old one, is this coffee maker better or worse?",
+          "m": "So sánh máy pha cà phê mới này với cái cũ của bạn. Cho biết cái nào tốt hơn và tại sao.",
+          "h": "Dùng từ so sánh (better/worse) và \"because\".",
+          "s": "This new coffee maker is much better than my old one because it is faster and makes better coffee."
+        }
+      ]
+    },
+    {
+      "t": "Đánh giá một dịch vụ trực tuyến hoặc ứng dụng",
+      "e": [
+        {
+          "p": "These days, there are so many apps! Is there an app or online service you use often?",
+          "m": "Nêu tên một ứng dụng hoặc dịch vụ trực tuyến bạn hay dùng. Kể bạn đã bắt đầu dùng nó khi nào.",
+          "h": "Dùng thì hiện tại đơn để kể về việc sử dụng, quá khứ đơn cho thời điểm bắt đầu.",
+          "s": "I use a language learning app every day. I started using it about three months ago."
+        },
+        {
+          "p": "That's good! What do you find most useful about this app?",
+          "m": "Nêu một điều bạn thấy hữu ích nhất ở ứng dụng này. Giải thích nó giúp bạn như thế nào.",
+          "h": "Dùng \"I find... most useful because it helps me...\"",
+          "s": "I find the daily lessons most useful because they help me practice new words and grammar."
+        },
+        {
+          "p": "Practicing every day is key. Have you ever had a problem with the app?",
+          "m": "Kể về một vấn đề bạn đã gặp phải với ứng dụng. Mô tả vấn đề đó.",
+          "h": "Dùng thì quá khứ đơn.",
+          "s": "Yes, once the app crashed when I was taking a quiz. I had to restart it."
+        },
+        {
+          "p": "Oh, that's frustrating. What do you think the developers should do to improve it?",
+          "m": "Nêu một điều mà nhà phát triển nên làm để cải thiện ứng dụng.",
+          "h": "Dùng \"They should...\"",
+          "s": "They should add more speaking practice because it is important for learning a language."
+        },
+        {
+          "p": "Good idea. Would you say this app is worth the money, or do you use the free version?",
+          "m": "Cho biết ứng dụng này có đáng tiền không (nếu có trả phí) hoặc bạn dùng bản miễn phí. Giải thích lý do.",
+          "h": "Dùng \"It is (not) worth the money because...\" hoặc \"I use the free version because...\"",
+          "s": "I use the free version because it has enough content for me. I don't need to pay for extra features."
+        }
+      ]
+    },
+    {
+      "t": "Đánh giá một món đồ thời trang hoặc phụ kiện",
+      "e": [
+        {
+          "p": "I just bought a new jacket. Do you have a favorite piece of clothing or accessory you like to wear?",
+          "m": "Kể tên một món đồ thời trang hoặc phụ kiện bạn thích. Nói bạn đã mua nó ở đâu.",
+          "h": "Dùng thì hiện tại đơn để kể về món đồ bạn thích, quá khứ đơn cho nơi mua.",
+          "s": "My favorite accessory is my new watch. I bought it at the shopping mall last month."
+        },
+        {
+          "p": "A new watch! What do you like about its design?",
+          "m": "Mô tả thiết kế của chiếc đồng hồ. Nêu một điểm bạn thích nhất về thiết kế đó.",
+          "h": "Dùng thì hiện tại đơn để mô tả.",
+          "s": "It has a simple and elegant design. I like the silver color the most because it matches everything."
+        },
+        {
+          "p": "Matching everything is a plus. Is it comfortable to wear all day?",
+          "m": "Cho biết nó có thoải mái khi đeo cả ngày không. Giải thích lý do.",
+          "h": "Dùng \"It is (not) comfortable because...\"",
+          "s": "Yes, it is very comfortable to wear all day because it is light and the strap is soft."
+        },
+        {
+          "p": "Comfort is key. Do you think the quality is good for the price you paid?",
+          "m": "Cho biết bạn có nghĩ chất lượng của nó tốt so với giá tiền không. Nêu lý do.",
+          "h": "Dùng \"I think the quality is good/bad because...\"",
+          "s": "Yes, I think the quality is good for the price. It feels strong and looks expensive."
+        },
+        {
+          "p": "Sounds like a great watch! What's one thing you would change if you could?",
+          "m": "Nêu một điều bạn muốn thay đổi ở chiếc đồng hồ này.",
+          "h": "Dùng \"I would change...\".",
+          "s": "I would change the size of the face. I think a slightly bigger face would look even better."
+        }
+      ]
+    },
+    {
+      "t": "Đánh giá trải nghiệm tại một nhà hàng/quán cà phê",
+      "e": [
+        {
+          "p": "I'm looking for a nice place to eat. Have you been to any good restaurants recently?",
+          "m": "Kể tên một nhà hàng hoặc quán cà phê bạn đã đến gần đây. Nói bạn đã đến đó khi nào.",
+          "h": "Dùng thì quá khứ đơn.",
+          "s": "Yes, I went to a new Italian restaurant last weekend. My friends and I went there on Saturday."
+        },
+        {
+          "p": "Italian food sounds great! How was the food and drinks there?",
+          "m": "Mô tả món ăn và đồ uống bạn đã gọi. Cho biết bạn có thích chúng không và tại sao.",
+          "h": "Dùng thì quá khứ đơn để mô tả, \"I liked/didn't like... because...\"",
+          "s": "I had pizza and a soda. The pizza was delicious, but the soda was a little warm."
+        },
+        {
+          "p": "Hmm, warm soda is not ideal. What about the service and atmosphere?",
+          "m": "Mô tả dịch vụ và không khí ở nhà hàng. Cho biết bạn cảm thấy thế nào về chúng.",
+          "h": "Dùng thì quá khứ đơn để mô tả.",
+          "s": "The service was very fast and friendly. The atmosphere was also very nice and relaxed."
+        },
+        {
+          "p": "Good service and a relaxed atmosphere are important! Was the price fair for what you got?",
+          "m": "Cho biết giá cả ở nhà hàng có hợp lý không. Giải thích.",
+          "h": "Dùng \"The price was (not) fair because...\"",
+          "s": "Yes, I think the price was fair because the food was good and the portions were big."
+        },
+        {
+          "p": "That's good to hear. Would you say this restaurant is better or worse than other Italian places you've been to?",
+          "m": "So sánh nhà hàng này với những nhà hàng Ý khác bạn từng đến. Cho biết nó tốt hơn hay tệ hơn và lý do.",
+          "h": "Dùng từ so sánh (better/worse than) và \"because\".",
+          "s": "It is better than some other Italian places because the pasta is fresh and they have good desserts."
+        }
+      ]
+    },
+    {
+      "t": "Đánh giá một cuốn sách hoặc bộ phim",
+      "e": [
+        {
+          "p": "I'm looking for a good book or movie. Have you read or watched anything interesting recently?",
+          "m": "Kể tên một cuốn sách hoặc bộ phim bạn đã đọc/xem gần đây. Cho biết bạn đã đọc/xem nó khi nào.",
+          "h": "Dùng thì quá khứ đơn.",
+          "s": "Yes, I watched a new action movie last night. My friend recommended it to me."
+        },
+        {
+          "p": "An action movie, nice! What was the story about?",
+          "m": "Tóm tắt một cách đơn giản cốt truyện của bộ phim.",
+          "h": "Dùng thì quá khứ đơn.",
+          "s": "It was about a secret agent who had to stop a bad guy from destroying the city."
+        },
+        {
+          "p": "Sounds exciting! What did you think about the main characters?",
+          "m": "Mô tả các nhân vật chính. Cho biết bạn có thích họ không và tại sao.",
+          "h": "Dùng thì quá khứ đơn hoặc hiện tại đơn để mô tả, \"I liked/didn't like... because...\"",
+          "s": "The main character was very brave. I liked him because he never gave up."
+        },
+        {
+          "p": "Never giving up is a good trait. What was the most exciting part for you?",
+          "m": "Nêu một cảnh hoặc phần thú vị nhất của bộ phim.",
+          "h": "Dùng thì quá khứ đơn để kể lại.",
+          "s": "The most exciting part was when he had to jump from a tall building to catch the bad guy."
+        },
+        {
+          "p": "Wow, that sounds intense! Would you recommend this movie to someone else?",
+          "m": "Cho biết bạn có giới thiệu bộ phim này cho người khác không. Nêu lý do.",
+          "h": "Dùng \"I would/wouldn't recommend it because...\"",
+          "s": "Yes, I would recommend it because it has a great story and lots of action. It's never boring."
+        }
+      ]
+    },
+    {
+      "t": "Đánh giá một trò chơi (game) hoặc món đồ chơi",
+      "e": [
+        {
+          "p": "My kids are always asking for new games. Do you play any video games or board games?",
+          "m": "Kể tên một trò chơi bạn thích hoặc đã chơi gần đây. Nói bạn đã chơi nó bao lâu rồi.",
+          "h": "Dùng thì hiện tại đơn để kể về trò chơi, quá khứ đơn cho thời gian bắt đầu.",
+          "s": "I play a puzzle game on my phone. I started playing it about six months ago."
+        },
+        {
+          "p": "Puzzle games can be quite addictive! What do you like most about it?",
+          "m": "Nêu một điều bạn thích nhất ở trò chơi này. Giải thích tại sao bạn thích nó.",
+          "h": "Dùng \"I like... most because...\"",
+          "s": "I like that it makes me think. It is fun to solve the puzzles and win."
+        },
+        {
+          "p": "Solving puzzles is satisfying. Have you ever found it too difficult?",
+          "m": "Kể về một lần bạn thấy trò chơi quá khó. Bạn đã làm gì để vượt qua?",
+          "h": "Dùng thì quá khứ đơn.",
+          "s": "Yes, some levels were very difficult. I had to watch a video online to find out how to pass them."
+        },
+        {
+          "p": "That's smart! Do you think this game is better than other puzzle games you've played?",
+          "m": "So sánh trò chơi này với các trò chơi giải đố khác. Cho biết nó tốt hơn hay tệ hơn và tại sao.",
+          "h": "Dùng từ so sánh (better/worse than) và \"because\".",
+          "s": "I think it is better than many other puzzle games because the graphics are good and the puzzles are unique."
+        },
+        {
+          "p": "Sounds like a great game to pass the time. Would you recommend it for all ages?",
+          "m": "Cho biết bạn có giới thiệu trò chơi này cho mọi lứa tuổi không. Nêu lý do.",
+          "h": "Dùng \"I would/wouldn't recommend it because...\"",
+          "s": "Yes, I would recommend it for all ages because it's fun and not violent. My younger sister plays it too."
+        }
+      ]
+    },
+    {
+      "t": "Đánh giá một khóa học hoặc chương trình học",
+      "e": [
+        {
+          "p": "I'm thinking about taking an online course. Have you taken any courses recently, maybe online?",
+          "m": "Nêu tên một khóa học hoặc chương trình học bạn đã tham gia. Cho biết bạn đã học nó khi nào/ở đâu.",
+          "h": "Dùng thì quá khứ đơn.",
+          "s": "Yes, I took an English speaking course online last year. It was a 10-week program."
+        },
+        {
+          "p": "An English speaking course! What was the most helpful part of the course for you?",
+          "m": "Nêu một phần hữu ích nhất của khóa học. Giải thích tại sao nó hữu ích.",
+          "h": "Dùng \"The most helpful part was... because it helped me...\"",
+          "s": "The most helpful part was the daily practice with a native speaker. It helped me improve my pronunciation a lot."
+        },
+        {
+          "p": "That's a great way to improve! Was there anything you found difficult or challenging?",
+          "m": "Kể về một điều bạn thấy khó khăn trong khóa học. Bạn đã làm gì để vượt qua?",
+          "h": "Dùng thì quá khứ đơn.",
+          "s": "Sometimes, the grammar lessons were difficult. I had to review them many times and ask the teacher questions."
+        },
+        {
+          "p": "It's good you asked questions. Do you think the course was worth the money?",
+          "m": "Cho biết bạn có nghĩ khóa học đáng tiền không. Nêu lý do.",
+          "h": "Dùng \"I think it was (not) worth the money because...\"",
+          "s": "Yes, I think it was worth the money because I learned a lot and felt more confident speaking English."
+        },
+        {
+          "p": "Feeling confident is a great outcome! What are you going to do with your improved English skills in the future?",
+          "m": "Kể về một kế hoạch bạn sẽ làm với khả năng tiếng Anh tốt hơn của mình trong tương lai.",
+          "h": "Dùng \"I am going to...\" hoặc \"I will...\"",
+          "s": "I am going to use it for my job as a [studentJob]. I will also travel more and talk to new people."
+        }
+      ]
+    },
+    {
+      "t": "So sánh hai sản phẩm tương tự",
+      "e": [
+        {
+          "p": "I need a new pair of headphones, but I can't decide. Have you ever compared two similar products before buying one?",
+          "m": "Nêu hai sản phẩm tương tự mà bạn đã so sánh trước khi mua. Kể tên chúng.",
+          "h": "Dùng thì quá khứ đơn.",
+          "s": "Yes, I compared two different smartwatches last year. I looked at the Apple Watch and the Samsung Galaxy Watch."
+        },
+        {
+          "p": "That's a tough choice! What was one main difference you noticed between them?",
+          "m": "Nêu một điểm khác biệt chính giữa hai sản phẩm đó.",
+          "h": "Dùng \"One main difference was...\"",
+          "s": "One main difference was the battery life. The Samsung Watch had a much longer battery life."
+        },
+        {
+          "p": "Battery life is important for smartwatches. Which one was more expensive, and which one did you choose?",
+          "m": "Cho biết sản phẩm nào đắt hơn và cuối cùng bạn đã chọn cái nào.",
+          "h": "Dùng từ so sánh \"more expensive\".",
+          "s": "The Apple Watch was more expensive. I chose the Samsung Galaxy Watch because it was cheaper and the battery lasted longer."
+        },
+        {
+          "p": "Smart choice! What do you like most about the smartwatch you bought?",
+          "m": "Nêu một điều bạn thích nhất ở chiếc đồng hồ thông minh bạn đã mua. Giải thích tại sao.",
+          "h": "Dùng \"I like... most because...\"",
+          "s": "I like that it can track my steps and heart rate. It helps me stay healthy and active."
+        },
+        {
+          "p": "That's really useful. If you could combine the best features of both, what would your ideal smartwatch be like?",
+          "m": "Nêu một đặc điểm tốt nhất từ mỗi sản phẩm bạn muốn kết hợp để tạo ra sản phẩm lý tưởng.",
+          "h": "Dùng \"My ideal smartwatch would have...\"",
+          "s": "My ideal smartwatch would have the Apple Watch's design and the Samsung's battery life. It would be perfect."
+        }
+      ]
+    },
+    {
+      "t": "Đánh giá một sản phẩm đã sử dụng lâu dài",
+      "e": [
+        {
+          "p": "Some products last a long time! What's an old product you've owned and used for many years?",
+          "m": "Kể tên một sản phẩm cũ bạn đã sử dụng trong nhiều năm. Cho biết bạn đã có nó bao lâu rồi.",
+          "h": "Dùng thì hiện tại hoàn thành (I have owned...) hoặc quá khứ đơn (I bought... and have used it for...).",
+          "s": "I have owned my old laptop for about five years now. I bought it when I started university."
+        },
+        {
+          "p": "Five years is a long time for a laptop! How has its performance changed over the years?",
+          "m": "Mô tả hiệu suất của chiếc laptop đã thay đổi như thế nào trong những năm qua.",
+          "h": "Dùng thì quá khứ đơn (It was...) và hiện tại đơn (Now it is...).",
+          "s": "When it was new, it was very fast. Now, it is slower, and sometimes it freezes."
+        },
+        {
+          "p": "That's understandable for an old laptop. Have you ever had to repair it?",
+          "m": "Cho biết bạn đã từng phải sửa chữa nó không. Kể về lần sửa chữa đó.",
+          "h": "Dùng thì quá khứ đơn.",
+          "s": "Yes, I had to repair the screen once. It fell and cracked, so I took it to a repair shop."
+        },
+        {
+          "p": "A cracked screen sounds bad. Despite its issues, would you say it was a good investment?",
+          "m": "Cho biết bạn có nghĩ nó là một khoản đầu tư tốt không. Giải thích lý do.",
+          "h": "Dùng \"I think it was (not) a good investment because...\"",
+          "s": "Yes, I think it was a very good investment because it was quite cheap, and it helped me a lot with my studies."
+        },
+        {
+          "p": "It served its purpose well. If you were to buy a new laptop today, what's one feature you would prioritize?",
+          "m": "Nêu một đặc điểm bạn sẽ ưu tiên nhất khi mua laptop mới. Giải thích tại sao.",
+          "h": "Dùng \"I would prioritize... because...\"",
+          "s": "I would prioritize speed and storage because I need a laptop that works very fast and can save many files."
+        }
+      ]
+    },
+    {
+      "t": "Góp ý cải thiện cho một sản phẩm",
+      "e": [
+        {
+          "p": "No product is perfect. What's one product you use regularly that you think could be better?",
+          "m": "Nêu tên một sản phẩm bạn dùng thường xuyên mà bạn nghĩ có thể tốt hơn.",
+          "h": "Dùng thì hiện tại đơn.",
+          "s": "I use my wireless earbuds every day, but I think they could be better."
+        },
+        {
+          "p": "Oh, really? What's one thing you don't like about your earbuds?",
+          "m": "Nêu một điều bạn không thích ở tai nghe của mình. Giải thích.",
+          "h": "Dùng \"I don't like... because...\"",
+          "s": "I don't like that the battery doesn't last long enough. I have to charge them every few hours."
+        },
+        {
+          "p": "Short battery life is definitely a common complaint. What specific improvement do you think the company should make?",
+          "m": "Nêu một cải tiến cụ thể mà công ty nên làm cho sản phẩm này.",
+          "h": "Dùng \"They should...\"",
+          "s": "They should make the battery last for at least 8 hours. This would make them much more practical."
+        },
+        {
+          "p": "That would be a big improvement. Is there anything else you think they should change about the design or features?",
+          "m": "Nêu thêm một thay đổi khác bạn nghĩ họ nên làm về thiết kế hoặc tính năng.",
+          "h": "Dùng \"They should also...\"",
+          "s": "They should also add better noise cancellation because it's hard to hear my music in noisy places."
+        },
+        {
+          "p": "Better noise cancellation would be great. If these improvements were made, would you buy the upgraded version?",
+          "m": "Cho biết nếu những cải tiến này được thực hiện, bạn có mua phiên bản nâng cấp không. Giải thích lý do.",
+          "h": "Dùng câu điều kiện loại 2 (If... I would...).",
+          "s": "Yes, if they made these improvements, I would definitely buy them because they would be perfect for my daily use."
+        }
+      ]
+    },
+    {
+      "t": "Đánh giá một món quà hoặc vật phẩm được tặng",
+      "e": [
+        {
+          "p": "It's always nice to receive gifts! What's the last gift you received that you really liked?",
+          "m": "Nêu tên món quà cuối cùng bạn thực sự thích. Kể tên người đã tặng nó cho bạn.",
+          "h": "Dùng thì quá khứ đơn.",
+          "s": "My friend gave me a new backpack for my birthday last month. I really liked it."
+        },
+        {
+          "p": "A backpack! What do you like about its design and features?",
+          "m": "Mô tả thiết kế và các tính năng của chiếc ba lô.",
+          "h": "Dùng thì hiện tại đơn.",
+          "s": "It has a modern design and many pockets inside. It also has a special compartment for a laptop."
+        },
+        {
+          "p": "That sounds very practical. How have you been using it since you received it?",
+          "m": "Kể bạn đã sử dụng chiếc ba lô như thế nào kể từ khi nhận được.",
+          "h": "Dùng thì hiện tại hoàn thành tiếp diễn (I have been using...) hoặc quá khứ đơn và hiện tại đơn.",
+          "s": "I have been using it for work every day. It's very useful for carrying my laptop and books."
+        },
+        {
+          "p": "It's good that you use it so much. What's one thing that makes this backpack better than your old one?",
+          "m": "Nêu một điều khiến chiếc ba lô này tốt hơn chiếc cũ của bạn.",
+          "h": "Dùng từ so sánh \"better than\".",
+          "s": "It is much better than my old one because it is more comfortable to carry and has more space."
+        },
+        {
+          "p": "Comfort and space are key for a backpack! What will you do with it on your next trip?",
+          "m": "Kể về một kế hoạch bạn sẽ làm với chiếc ba lô này trong chuyến đi tiếp theo của mình.",
+          "h": "Dùng \"I will...\" hoặc \"I am going to...\"",
+          "s": "I will use it to carry my clothes and travel documents. It will be perfect for my trip to [studentCity]."
+        }
+      ]
+    },
+    {
+      "t": "Đánh giá một trải nghiệm du lịch (dịch vụ)",
+      "e": [
+        {
+          "p": "I'm planning a vacation. Have you traveled anywhere interesting recently, maybe used a travel service?",
+          "m": "Kể tên một địa điểm bạn đã đi du lịch gần đây. Cho biết bạn đã đi đó khi nào.",
+          "h": "Dùng thì quá khứ đơn.",
+          "s": "Yes, I went to Da Lat last month. I traveled there with my family during the holiday."
+        },
+        {
+          "p": "Da Lat is beautiful! What was the weather like when you were there?",
+          "m": "Mô tả thời tiết khi bạn ở đó. Bạn có thích nó không?",
+          "h": "Dùng thì quá khứ đơn.",
+          "s": "The weather was cool and a little cloudy. I liked it because it was not too hot."
+        },
+        {
+          "p": "Cool weather is nice for exploring. What was the most interesting place you visited in Da Lat?",
+          "m": "Nêu một địa điểm thú vị nhất bạn đã ghé thăm. Mô tả nó.",
+          "h": "Dùng thì quá khứ đơn.",
+          "s": "The most interesting place was the Flower Garden. It had many beautiful flowers and trees."
+        },
+        {
+          "p": "Sounds lovely! Did you have any problems with your hotel or transportation?",
+          "m": "Kể về một vấn đề bạn đã gặp phải với khách sạn hoặc phương tiện đi lại (nếu có).",
+          "h": "Dùng thì quá khứ đơn.",
+          "s": "No, I did not have any problems. Our hotel was comfortable, and the taxi service was good."
+        },
+        {
+          "p": "That's great! Would you recommend Da Lat as a travel destination to your friends?",
+          "m": "Cho biết bạn có giới thiệu Đà Lạt cho bạn bè không. Nêu lý do.",
+          "h": "Dùng \"I would recommend it because...\"",
+          "s": "Yes, I would recommend it because it has beautiful scenery and delicious food. It is a relaxing place."
+        }
+      ]
+    },
+    {
+      "t": "Đánh giá một vật dụng học tập hoặc văn phòng",
+      "e": [
+        {
+          "p": "I need some new office supplies. What's a useful item you have for your work or study?",
+          "m": "Nêu tên một vật dụng hữu ích bạn có cho công việc hoặc học tập. Nói bạn đã mua nó khi nào.",
+          "h": "Dùng thì hiện tại đơn để kể về vật dụng, quá khứ đơn cho thời gian mua.",
+          "s": "I have a good electronic dictionary for my studies. I bought it about a year ago."
+        },
+        {
+          "p": "An electronic dictionary is very helpful for language learners! How often do you use it?",
+          "m": "Cho biết bạn sử dụng nó thường xuyên như thế nào. Giải thích nó giúp bạn ra sao.",
+          "h": "Dùng thì hiện tại đơn.",
+          "s": "I use it almost every day. It helps me find new words and understand their meanings quickly."
+        },
+        {
+          "p": "That's very convenient. Has it ever made you feel disappointed with its performance?",
+          "m": "Kể về một lần bạn thất vọng với hiệu suất của nó (nếu có).",
+          "h": "Dùng thì quá khứ đơn.",
+          "s": "No, I have never been disappointed. It always works well and is very reliable."
+        },
+        {
+          "p": "That's great to hear! Do you think it was more expensive than other dictionaries, and was it worth it?",
+          "m": "Cho biết bạn có nghĩ nó đắt hơn các cuốn từ điển khác không, và nó có đáng tiền không.",
+          "h": "Dùng từ so sánh \"more expensive\" và \"worth it\".",
+          "s": "Yes, it was more expensive than a paper dictionary. But I think it was worth it because it saves a lot of time."
+        },
+        {
+          "p": "Saving time is valuable. If you were to buy another one, what feature would you look for?",
+          "m": "Nêu một tính năng bạn sẽ tìm kiếm nếu mua một cái khác. Giải thích.",
+          "h": "Dùng \"I would look for... because...\"",
+          "s": "I would look for one with a bigger screen because it would be easier to read. A bigger screen is better."
+        }
+      ]
+    },
+    {
+      "t": "Ôn tập: Đánh giá mua sắm chung",
+      "e": [
+        {
+          "p": "Tell me about your most recent shopping experience. What did you buy?",
+          "m": "Kể về lần mua sắm gần đây nhất của bạn. Nêu món đồ bạn đã mua.",
+          "h": "Dùng thì quá khứ đơn.",
+          "s": "I went shopping last Saturday and bought a new pair of running shoes. I found them at a sports store."
+        },
+        {
+          "p": "New running shoes are great! Did you try them on? Were they comfortable?",
+          "m": "Cho biết bạn đã thử giày không. Nêu chúng có thoải mái không và tại sao.",
+          "h": "Dùng thì quá khứ đơn và hiện tại đơn.",
+          "s": "Yes, I tried them on. They were very comfortable because they have soft soles."
+        },
+        {
+          "p": "Comfort is important for running shoes. Did you get a good price, or was it expensive?",
+          "m": "Cho biết giá cả có tốt không. Kể về bất kỳ ưu đãi hoặc giảm giá nào.",
+          "h": "Dùng thì quá khứ đơn để kể về giá.",
+          "s": "I think the price was quite good. They were on sale, so I got a 20% discount."
+        },
+        {
+          "p": "A discount is always a plus! How do these new shoes compare to your old ones?",
+          "m": "So sánh đôi giày mới với đôi cũ của bạn. Cho biết đôi nào tốt hơn và tại sao.",
+          "h": "Dùng từ so sánh (better/worse than) và \"because\".",
+          "s": "These new shoes are much better than my old ones because they are lighter and give more support."
+        },
+        {
+          "p": "Sounds like a great upgrade. What would you tell a friend who is looking for new running shoes?",
+          "m": "Đưa ra lời khuyên cho bạn bè đang tìm giày chạy bộ mới.",
+          "h": "Dùng \"You should...\" hoặc \"I recommend...\"",
+          "s": "You should look for shoes that fit well and are comfortable. Always try them on before you buy them."
+        }
+      ]
+    },
+    {
+      "t": "Ôn tập: Đánh giá tiện ích và trải nghiệm cá nhân",
+      "e": [
+        {
+          "p": "What's an item or service you use often that makes your life easier?",
+          "m": "Kể tên một món đồ hoặc dịch vụ bạn thường dùng giúp cuộc sống dễ dàng hơn.",
+          "h": "Dùng thì hiện tại đơn.",
+          "s": "I use an electric toothbrush every morning. It makes brushing my teeth much easier."
+        },
+        {
+          "p": "An electric toothbrush! How long have you been using it, and how does it compare to a regular one?",
+          "m": "Cho biết bạn đã dùng nó bao lâu rồi. So sánh nó với bàn chải thông thường.",
+          "h": "Dùng thì hiện tại hoàn thành và từ so sánh (better/more effective).",
+          "s": "I have been using it for two years. It is much more effective than a regular toothbrush for cleaning my teeth."
+        },
+        {
+          "p": "Two years is a good test of durability. Has it ever given you any problems?",
+          "m": "Kể về một vấn đề bạn đã gặp phải với nó.",
+          "h": "Dùng thì quá khứ đơn.",
+          "s": "Yes, last month the battery stopped charging properly. I had to buy a new charger for it."
+        },
+        {
+          "p": "That's a small hassle. What's one thing you must remember when using or maintaining it?",
+          "m": "Nêu một điều bạn phải nhớ khi sử dụng hoặc bảo trì món đồ này.",
+          "h": "Dùng \"You must remember to...\" hoặc \"I have to remember to...\"",
+          "s": "I must remember to change the brush head every three months. It helps keep my teeth clean."
+        },
+        {
+          "p": "Good advice for oral hygiene! If you could design a perfect version of this product, what would it have?",
+          "m": "Kể về một tính năng chính mà bàn chải đánh răng điện lý tưởng của bạn sẽ có.",
+          "h": "Dùng câu điều kiện loại 2 (If I could, it would have...).",
+          "s": "If I could design a perfect version, it would have a very long-lasting battery. I would not have to charge it so often."
+        }
+      ]
+    },
+    {
+      "t": "Ôn tập: Đưa ra ý kiến và khuyến nghị",
+      "e": [
+        {
+          "p": "What's a product you bought recently that you're very happy with?",
+          "m": "Kể tên một sản phẩm bạn đã mua gần đây và rất hài lòng.",
+          "h": "Dùng thì quá khứ đơn.",
+          "s": "I bought a new portable speaker last week. I am very happy with it."
+        },
+        {
+          "p": "A portable speaker sounds fun! What makes it so good for you?",
+          "m": "Nêu một điều làm cho nó trở nên tốt đối với bạn. Giải thích.",
+          "h": "Dùng \"It is good because...\"",
+          "s": "It is good because the sound quality is excellent, and it is small enough to carry everywhere."
+        },
+        {
+          "p": "Great sound and portable! Is there any reason why someone shouldn't buy this speaker?",
+          "m": "Nêu một lý do tại sao ai đó KHÔNG nên mua chiếc loa này.",
+          "h": "Dùng \"Someone shouldn't buy it if...\"",
+          "s": "Someone shouldn't buy it if they want a very loud speaker. It's good for personal use but not for a big party."
+        },
+        {
+          "p": "That's a fair point. If you had to choose between this speaker and a more expensive one, what would you consider?",
+          "m": "Nêu một yếu tố chính bạn sẽ cân nhắc nếu phải chọn giữa loa này và một cái đắt hơn.",
+          "h": "Dùng câu điều kiện loại 2 (If I had to choose, I would consider...).",
+          "s": "If I had to choose, I would consider the sound quality. A more expensive one should have much better sound."
+        },
+        {
+          "p": "Good point. What kind of product are you going to review next time, or what will you buy in the future?",
+          "m": "Kể về một loại sản phẩm bạn sẽ đánh giá hoặc một món đồ bạn sẽ mua trong tương lai.",
+          "h": "Dùng \"I am going to review/buy...\" hoặc \"I will review/buy...\"",
+          "s": "I am going to buy a new e-reader next month. I will read many books on it."
+        }
+      ]
+    }
+  ]
+}

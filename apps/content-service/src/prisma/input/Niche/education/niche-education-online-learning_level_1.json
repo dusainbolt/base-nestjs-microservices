@@ -1,0 +1,530 @@
+{
+  "l": 1,
+  "d": [
+    {
+      "t": "Gặp giáo viên online",
+      "e": [
+        {
+          "p": "What is your name?",
+          "m": "Nói tên của bạn.",
+          "h": "My name is + tên",
+          "s": "My name is [studentName]."
+        },
+        {
+          "p": "How old are you?",
+          "m": "Nói tuổi của bạn.",
+          "h": "I am + tuổi / I am [studentAge] years old",
+          "s": "I am [studentAge] years old."
+        },
+        {
+          "p": "Where do you live?",
+          "m": "Nói thành phố bạn sống.",
+          "h": "I live in + nơi",
+          "s": "I live in [studentCity]."
+        },
+        {
+          "p": "Can you turn on your camera?",
+          "m": "Trả lời bạn có thể bật camera hay không.",
+          "h": "S + can/can't + V",
+          "s": "I can turn on my camera."
+        },
+        {
+          "p": "Do you have a quiet place to study at home?",
+          "m": "Nói ngắn bạn có nơi yên tĩnh để học tại nhà hay không.",
+          "h": "There is/There are hoặc S + have/has",
+          "s": "Yes, I have a quiet place at home."
+        }
+      ]
+    },
+    {
+      "t": "Giới thiệu bản thân ngắn khi vào lớp",
+      "e": [
+        {
+          "p": "Please tell me your school name.",
+          "m": "Nói tên trường của bạn.",
+          "h": "My school is + tên / I go to + school",
+          "s": "I go to [studentSchool]."
+        },
+        {
+          "p": "What is your job? (if student, say student)",
+          "m": "Nói nghề nghiệp hoặc 'student'.",
+          "h": "I am a/an + nghề / I am + student",
+          "s": "I am a student."
+        },
+        {
+          "p": "Do you like online classes?",
+          "m": "Nói bạn có thích lớp online hay không.",
+          "h": "S + like/ don't like + N/Ving",
+          "s": "I like online classes."
+        },
+        {
+          "p": "How do you join class? By computer or phone?",
+          "m": "Nói bạn tham gia bằng gì (computer hoặc phone).",
+          "h": "I join by + computer/phone",
+          "s": "I join by computer."
+        },
+        {
+          "p": "Can you study every day?",
+          "m": "Nói bạn có thể học mỗi ngày hay không.",
+          "h": "S + can/can't + V",
+          "s": "I can study every day."
+        }
+      ]
+    },
+    {
+      "t": "Nói về thiết bị học",
+      "e": [
+        {
+          "p": "Do you have a computer?",
+          "m": "Nói ngắn bạn có máy tính hay không.",
+          "h": "S + have/has / I have / I do not have",
+          "s": "Yes, I have a computer."
+        },
+        {
+          "p": "Is your phone good for class?",
+          "m": "Nói ngắn phone của bạn có phù hợp cho lớp không.",
+          "h": "S + be (is/are) + adj",
+          "s": "My phone is good for class."
+        },
+        {
+          "p": "Do you use headphones?",
+          "m": "Nói bạn có dùng tai nghe không.",
+          "h": "S + use / S + don't use",
+          "s": "I use headphones."
+        },
+        {
+          "p": "Where is your computer now?",
+          "m": "Nói nơi đặt máy tính ở nhà (ví dụ: table, room).",
+          "h": "There is/There are hoặc S + be + place",
+          "s": "My computer is on the table."
+        },
+        {
+          "p": "Can you type homework on the computer?",
+          "m": "Nói bạn có thể gõ bài tập trên máy tính hay không.",
+          "h": "S + can/can't + V",
+          "s": "I can type homework on the computer."
+        }
+      ]
+    },
+    {
+      "t": "Thời gian học hàng ngày",
+      "e": [
+        {
+          "p": "What time is your class today?",
+          "m": "Nói giờ lớp học hôm nay (ví dụ: 9 am, 2 pm).",
+          "h": "My class is at + giờ",
+          "s": "My class is at 9 am."
+        },
+        {
+          "p": "Do you study in the morning or at night?",
+          "m": "Nói bạn học vào buổi sáng hay buổi tối (chọn 1).",
+          "h": "I study + in the morning / at night",
+          "s": "I study in the morning."
+        },
+        {
+          "p": "How many hours do you study every day?",
+          "m": "Nói số giờ bạn học mỗi ngày (một số từ 1-5).",
+          "h": "I study + number + hours",
+          "s": "I study two hours every day."
+        },
+        {
+          "p": "Do you have a short break in class?",
+          "m": "Nói bạn có nghỉ ngắn trong lớp hay không.",
+          "h": "S + have/ don't have",
+          "s": "Yes, I have a short break."
+        },
+        {
+          "p": "Can you study at 6 pm tomorrow?",
+          "m": "Nói bạn có thể học lúc 6 giờ chiều ngày mai hay không.",
+          "h": "S + can/can't + V",
+          "s": "I can study at 6 pm tomorrow."
+        }
+      ]
+    },
+    {
+      "t": "Nền tảng học và ứng dụng",
+      "e": [
+        {
+          "p": "Which app do you use for class?",
+          "m": "Nói tên app hoặc 'a website' nếu không nhớ tên.",
+          "h": "I use + app / website",
+          "s": "I use a learning app."
+        },
+        {
+          "p": "Is the platform easy to use?",
+          "m": "Nói ngắn nền tảng có dễ dùng không.",
+          "h": "S + is/is not + easy",
+          "s": "The platform is easy to use."
+        },
+        {
+          "p": "Do you watch recorded lessons?",
+          "m": "Nói bạn có xem bài ghi hình không.",
+          "h": "S + watch / S + don't watch",
+          "s": "I watch recorded lessons."
+        },
+        {
+          "p": "Where do you find homework in the app?",
+          "m": "Nói nơi tìm bài tập trong app (ví dụ: 'homework tab').",
+          "h": "It is in + place / The homework is in + place",
+          "s": "The homework is in the homework tab."
+        },
+        {
+          "p": "Can parents use the app to see my progress?",
+          "m": "Nói phụ huynh có thể dùng app xem tiến độ hay không.",
+          "h": "S + can/can't + V",
+          "s": "Parents can use the app to see my progress."
+        }
+      ]
+    },
+    {
+      "t": "Mô tả lớp học trực tuyến",
+      "e": [
+        {
+          "p": "How many students are in your online class?",
+          "m": "Nói số học sinh trong lớp (1-30).",
+          "h": "There are + số + students",
+          "s": "There are ten students in my class."
+        },
+        {
+          "p": "Is the teacher kind?",
+          "m": "Nói giáo viên có tốt bụng hay không.",
+          "h": "S + be (is/are) + adj",
+          "s": "The teacher is kind."
+        },
+        {
+          "p": "Do students ask questions in class?",
+          "m": "Nói học sinh có hỏi câu hỏi không.",
+          "h": "S + do/does + V? Answer: Yes/No, S + V",
+          "s": "Yes, students ask questions."
+        },
+        {
+          "p": "Where are students? At home or at school?",
+          "m": "Nói học sinh ở nhà hay ở trường (chọn 1).",
+          "h": "Students are at + place",
+          "s": "Students are at home."
+        },
+        {
+          "p": "Can you see the teacher on the screen?",
+          "m": "Nói bạn có nhìn thấy giáo viên trên màn hình hay không.",
+          "h": "S + can/can't + V",
+          "s": "I can see the teacher on the screen."
+        }
+      ]
+    },
+    {
+      "t": "Bài tập và nộp bài",
+      "e": [
+        {
+          "p": "When is the homework due?",
+          "m": "Nói thời hạn nộp bài (ví dụ: tomorrow, next week).",
+          "h": "The homework is due + time",
+          "s": "The homework is due tomorrow."
+        },
+        {
+          "p": "Do you send your homework by email?",
+          "m": "Nói bạn có gửi bài qua email hay không.",
+          "h": "S + do/ don't + V",
+          "s": "I send my homework by email."
+        },
+        {
+          "p": "Can you upload a file to the platform?",
+          "m": "Nói bạn có thể tải tập tin lên nền tảng hay không.",
+          "h": "S + can/can't + V",
+          "s": "I can upload a file to the platform."
+        },
+        {
+          "p": "Is there a test this week?",
+          "m": "Trả lời có/không và nói ngắn về việc có bài kiểm tra trong tuần hay không.",
+          "h": "There is / There is not",
+          "s": "Yes, there is a test this week."
+        },
+        {
+          "p": "Do you need help with your homework?",
+          "m": "Nói bạn có cần giúp với bài tập hay không.",
+          "h": "S + need/ don't need",
+          "s": "I need help with my homework."
+        }
+      ]
+    },
+    {
+      "t": "Hỏi giáo viên khi cần trợ giúp",
+      "e": [
+        {
+          "p": "Can you explain this word?",
+          "m": "Trả lời bạn có thể giải thích từ đó hay không.",
+          "h": "S + can/can't + V",
+          "s": "Yes, I can explain the word."
+        },
+        {
+          "p": "What does this sentence mean?",
+          "m": "Nói ý nghĩa ngắn của câu.",
+          "h": "It means + ý chính",
+          "s": "It means study online at home."
+        },
+        {
+          "p": "Where can I find extra practice?",
+          "m": "Nói nơi tìm bài tập thêm (ví dụ: in the app, website).",
+          "h": "You can find it in + place",
+          "s": "You can find extra practice in the app."
+        },
+        {
+          "p": "Do you have time after class to help me?",
+          "m": "Nói giáo viên có thời gian sau lớp để giúp bạn hay không.",
+          "h": "S + have/ don't have + time",
+          "s": "Yes, I have time after class to help you."
+        },
+        {
+          "p": "Can I ask one question now?",
+          "m": "Nói bạn có thể hỏi một câu ngay bây giờ hay không.",
+          "h": "S + can/can't + V",
+          "s": "You can ask one question now."
+        }
+      ]
+    },
+    {
+      "t": "Vấn đề kết nối internet",
+      "e": [
+        {
+          "p": "Is your internet slow now?",
+          "m": "Nói ngắn internet của bạn có chậm hay không.",
+          "h": "S + is/ is not + adj",
+          "s": "My internet is slow now."
+        },
+        {
+          "p": "Do you lose audio in class?",
+          "m": "Nói bạn có bị mất âm thanh trong lớp hay không.",
+          "h": "S + do/ don't + V",
+          "s": "Yes, I lose audio sometimes."
+        },
+        {
+          "p": "Can you restart your router?",
+          "m": "Trả lời bạn có thể khởi động lại router hay không.",
+          "h": "S + can/can't + V",
+          "s": "I can restart my router."
+        },
+        {
+          "p": "Where is your router in the house?",
+          "m": "Nói vị trí router ở nhà (ví dụ: living room).",
+          "h": "It is in + place / My router is in + place",
+          "s": "My router is in the living room."
+        },
+        {
+          "p": "Do you need to move closer to the window for better signal?",
+          "m": "Nói bạn có cần ngồi gần cửa sổ để có tín hiệu tốt hơn hay không.",
+          "h": "S + need/ don't need + to + V",
+          "s": "I need to move closer to the window."
+        }
+      ]
+    },
+    {
+      "t": "So sánh học online và học ở trường",
+      "e": [
+        {
+          "p": "Do you like online lessons more than school?",
+          "m": "Nói bạn thích học online hơn học ở trường không (Yes/No).",
+          "h": "I like / I don't like",
+          "s": "I like online lessons more."
+        },
+        {
+          "p": "Is school near your home?",
+          "m": "Nói trường có gần nhà bạn không.",
+          "h": "S + be + near + place",
+          "s": "Yes, my school is near my home."
+        },
+        {
+          "p": "Can you do group work online?",
+          "m": "Nói bạn có thể làm việc nhóm trực tuyến hay không.",
+          "h": "S + can/can't + V",
+          "s": "I can do group work online."
+        },
+        {
+          "p": "Do you go to school every day?",
+          "m": "Nói bạn có đi học mỗi ngày không.",
+          "h": "S + do/ don't + V",
+          "s": "No, I do not go to school every day."
+        },
+        {
+          "p": "Which is better for you, quiet home or big school class?",
+          "m": "Nói ngắn bạn thấy cái nào tốt hơn cho bạn (chọn 1).",
+          "h": "I prefer + option",
+          "s": "I prefer a quiet home."
+        }
+      ]
+    },
+    {
+      "t": "Lập lịch học và giờ rảnh",
+      "e": [
+        {
+          "p": "Are you free at 4 pm tomorrow?",
+          "m": "Nói bạn có rảnh lúc 4 giờ chiều ngày mai hay không.",
+          "h": "S + am/ are/ is + free or not",
+          "s": "I am free at 4 pm tomorrow."
+        },
+        {
+          "p": "When do you do homework?",
+          "m": "Nói thời gian bạn làm bài tập (ví dụ: after dinner).",
+          "h": "I do homework + time",
+          "s": "I do homework after dinner."
+        },
+        {
+          "p": "Do you study with friends?",
+          "m": "Nói bạn có học cùng bạn bè không.",
+          "h": "S + do/ don't + V",
+          "s": "Yes, I study with friends."
+        },
+        {
+          "p": "Can you join a study group on Saturday?",
+          "m": "Nói bạn có thể tham gia nhóm học vào thứ Bảy hay không.",
+          "h": "S + can/can't + V",
+          "s": "I can join a study group on Saturday."
+        },
+        {
+          "p": "Where do you study on weekends?",
+          "m": "Nói nơi bạn học vào cuối tuần (ví dụ: at home, library).",
+          "h": "I study at + place",
+          "s": "I study at home on weekends."
+        }
+      ]
+    },
+    {
+      "t": "Sở thích khi học online",
+      "e": [
+        {
+          "p": "Do you like watching lesson videos?",
+          "m": "Nói bạn có thích xem video bài học hay không.",
+          "h": "S + like / S + don't like",
+          "s": "I like watching lesson videos."
+        },
+        {
+          "p": "What do you do in your free study time?",
+          "m": "Nói một hoạt động bạn làm khi rảnh để học (ví dụ: read, practice).",
+          "h": "I + V (read/practice/play) + ...",
+          "s": "I read my lesson notes."
+        },
+        {
+          "p": "Can you play educational games online?",
+          "m": "Nói bạn có thể chơi trò chơi học tập trực tuyến không.",
+          "h": "S + can/can't + V",
+          "s": "I can play educational games online."
+        },
+        {
+          "p": "Do you listen to music while you study?",
+          "m": "Nói bạn có nghe nhạc khi học không.",
+          "h": "S + listen / S + don't listen",
+          "s": "No, I do not listen to music while I study."
+        },
+        {
+          "p": "Where do you keep your study books?",
+          "m": "Nói nơi bạn để sách học (ví dụ: on the shelf, in the bag).",
+          "h": "They are on/in + place",
+          "s": "My study books are on the shelf."
+        }
+      ]
+    },
+    {
+      "t": "Ôn tập: Giờ học và thiết bị",
+      "e": [
+        {
+          "p": "What time is your next online class?",
+          "m": "Nói giờ lớp tiếp theo của bạn.",
+          "h": "My next class is at + giờ",
+          "s": "My next online class is at 2 pm."
+        },
+        {
+          "p": "Do you have a camera and microphone?",
+          "m": "Nói bạn có camera và microphone hay không.",
+          "h": "I have / I don't have",
+          "s": "I have a camera and a microphone."
+        },
+        {
+          "p": "Can you use both computer and phone for class?",
+          "m": "Nói bạn có thể dùng cả máy tính và điện thoại cho lớp hay không.",
+          "h": "S + can/can't + V",
+          "s": "I can use both computer and phone for class."
+        },
+        {
+          "p": "Where do you put your computer during class?",
+          "m": "Nói nơi bạn đặt máy tính khi học (1 câu).",
+          "h": "My computer is on + place",
+          "s": "My computer is on my desk during class."
+        },
+        {
+          "p": "Do you need better internet for video lessons?",
+          "m": "Nói bạn có cần internet tốt hơn cho bài học video hay không.",
+          "h": "S + need/ don't need",
+          "s": "I need better internet for video lessons."
+        }
+      ]
+    },
+    {
+      "t": "Ôn tập: Lớp học và giáo viên",
+      "e": [
+        {
+          "p": "How many students join your class?",
+          "m": "Nói số học sinh tham gia lớp của bạn.",
+          "h": "There are + số",
+          "s": "There are twelve students in my class."
+        },
+        {
+          "p": "Is the teacher helpful?",
+          "m": "Nói giáo viên có giúp đỡ không.",
+          "h": "S + be + adj",
+          "s": "The teacher is helpful."
+        },
+        {
+          "p": "Do you ask questions in the chat?",
+          "m": "Nói bạn có hỏi câu trong chat hay không.",
+          "h": "S + do/ don't + V",
+          "s": "Yes, I ask questions in the chat."
+        },
+        {
+          "p": "Can the teacher see your work in the app?",
+          "m": "Nói giáo viên có thể xem bài làm của bạn trong app hay không.",
+          "h": "S + can/can't + V",
+          "s": "The teacher can see my work in the app."
+        },
+        {
+          "p": "Where is the class information posted?",
+          "m": "Nói nơi thông tin lớp được đăng (ví dụ: on the platform).",
+          "h": "It is on + place",
+          "s": "The class information is on the platform."
+        }
+      ]
+    },
+    {
+      "t": "Ôn tập: Vấn đề và giải pháp",
+      "e": [
+        {
+          "p": "What is the problem with your lesson today?",
+          "m": "Nói một vấn đề ngắn với bài học hôm nay (ví dụ: no sound).",
+          "h": "There is + problem / The problem is + ...",
+          "s": "The problem is no sound in the lesson."
+        },
+        {
+          "p": "Do you need help from the teacher now?",
+          "m": "Nói bạn có cần giúp từ giáo viên bây giờ hay không.",
+          "h": "S + need/ don't need",
+          "s": "Yes, I need help from the teacher now."
+        },
+        {
+          "p": "Can you try a different device for class?",
+          "m": "Nói bạn có thể thử thiết bị khác cho lớp hay không.",
+          "h": "S + can/can't + V",
+          "s": "I can try a different device for class."
+        },
+        {
+          "p": "Where do you write your notes when the video is off?",
+          "m": "Nói nơi bạn ghi chú khi video tắt (ví dụ: on paper).",
+          "h": "I write notes on + place",
+          "s": "I write notes on paper."
+        },
+        {
+          "p": "Do you fix the problem now or later?",
+          "m": "Nói bạn sẽ sửa vấn đề bây giờ hay sau (chọn 1).",
+          "h": "I will fix it now / later",
+          "s": "I will fix the problem now."
+        }
+      ]
+    }
+  ]
+}

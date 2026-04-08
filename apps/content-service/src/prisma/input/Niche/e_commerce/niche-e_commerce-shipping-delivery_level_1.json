@@ -1,0 +1,530 @@
+{
+  "l": 1,
+  "d": [
+    {
+      "t": "Kiểm tra gói hàng",
+      "e": [
+        {
+          "p": "Is this your package?",
+          "m": "Xác nhận đây là gói hàng của bạn.",
+          "h": "S + be + N.",
+          "s": "Yes, it is my package."
+        },
+        {
+          "p": "What is inside this package?",
+          "m": "Cho biết bên trong gói hàng là một cuốn sách.",
+          "h": "There is + N.",
+          "s": "There is a book inside."
+        },
+        {
+          "p": "Is the package small?",
+          "m": "Cho biết gói hàng không nhỏ, nó lớn.",
+          "h": "S + be + Adj.",
+          "s": "No, it is not small. It is big."
+        },
+        {
+          "p": "Can you open this package now?",
+          "m": "Xác nhận bạn không thể mở gói hàng bây giờ.",
+          "h": "S + can't + V.",
+          "s": "No, I cannot open it now."
+        },
+        {
+          "p": "Where is your name on the package?",
+          "m": "Cho biết tên của bạn ở trên gói hàng.",
+          "h": "S + be + prep + N.",
+          "s": "My name is on the package."
+        }
+      ]
+    },
+    {
+      "t": "Thông tin giao hàng",
+      "e": [
+        {
+          "p": "Hello. What is your name?",
+          "m": "Nêu tên của bạn.",
+          "h": "S + be + N.",
+          "s": "My name is [studentName]."
+        },
+        {
+          "p": "What is your address?",
+          "m": "Nêu địa chỉ của bạn là số 10 Main Street.",
+          "h": "My address is + N.",
+          "s": "My address is 10 Main Street."
+        },
+        {
+          "p": "Do you live here?",
+          "m": "Xác nhận bạn sống ở đây.",
+          "h": "S + V + adv.",
+          "s": "Yes, I live here."
+        },
+        {
+          "p": "Who is the sender?",
+          "m": "Cho biết người gửi là bạn của bạn.",
+          "h": "S + be + N.",
+          "s": "The sender is my friend."
+        },
+        {
+          "p": "Can you sign here for the package?",
+          "m": "Xác nhận bạn có thể ký vào đây.",
+          "h": "S + can + V + adv.",
+          "s": "Yes, I can sign here."
+        }
+      ]
+    },
+    {
+      "t": "Khi nào gói hàng đến?",
+      "e": [
+        {
+          "p": "Is your package here today?",
+          "m": "Cho biết gói hàng không ở đây hôm nay.",
+          "h": "S + be + adv.",
+          "s": "No, my package is not here today."
+        },
+        {
+          "p": "When does your package arrive?",
+          "m": "Cho biết gói hàng đến vào ngày mai.",
+          "h": "S + V(s/es) + time.",
+          "s": "It arrives tomorrow."
+        },
+        {
+          "p": "What time is good for delivery?",
+          "m": "Cho biết buổi sáng là thời gian tốt.",
+          "h": "N + be + Adj.",
+          "s": "Morning is good."
+        },
+        {
+          "p": "Do you want to pick it up?",
+          "m": "Xác nhận bạn không muốn lấy nó.",
+          "h": "S + don't + V.",
+          "s": "No, I do not want to pick it up."
+        },
+        {
+          "p": "Can you check the status for me?",
+          "m": "Yêu cầu người khác kiểm tra trạng thái.",
+          "h": "Please + V.",
+          "s": "Please check the status."
+        }
+      ]
+    },
+    {
+      "t": "Xác nhận địa chỉ",
+      "e": [
+        {
+          "p": "Is this your house?",
+          "m": "Xác nhận đây là nhà của bạn.",
+          "h": "S + be + N.",
+          "s": "Yes, this is my house."
+        },
+        {
+          "p": "Is the address 20 Park Lane?",
+          "m": "Xác nhận địa chỉ này là đúng.",
+          "h": "S + be + Adj.",
+          "s": "Yes, this address is correct."
+        },
+        {
+          "p": "What is your house number?",
+          "m": "Nêu số nhà của bạn là 20.",
+          "h": "S + be + N.",
+          "s": "My house number is 20."
+        },
+        {
+          "p": "Is your street big or small?",
+          "m": "Cho biết đường của bạn nhỏ.",
+          "h": "S + be + Adj.",
+          "s": "My street is small."
+        },
+        {
+          "p": "Can I leave the package here?",
+          "m": "Xác nhận người giao hàng có thể để gói hàng ở đây.",
+          "h": "S + can + V + adv.",
+          "s": "Yes, you can leave it here."
+        }
+      ]
+    },
+    {
+      "t": "Mô tả gói hàng",
+      "e": [
+        {
+          "p": "What color is your package?",
+          "m": "Cho biết gói hàng của bạn màu nâu.",
+          "h": "It is + color.",
+          "s": "My package is brown."
+        },
+        {
+          "p": "Is it a heavy package?",
+          "m": "Xác nhận gói hàng nặng.",
+          "h": "S + be + Adj.",
+          "s": "Yes, it is heavy."
+        },
+        {
+          "p": "Does it have a name on it?",
+          "m": "Xác nhận nó có tên của bạn trên đó.",
+          "h": "It has + N.",
+          "s": "Yes, it has my name on it."
+        },
+        {
+          "p": "Is there a fragile sticker?",
+          "m": "Cho biết không có nhãn dán dễ vỡ.",
+          "h": "There is not + N.",
+          "s": "No, there is no fragile sticker."
+        },
+        {
+          "p": "Can you show me the package?",
+          "m": "Cho biết bạn có thể cho xem gói hàng.",
+          "h": "S + can + V + O.",
+          "s": "Yes, I can show you the package."
+        }
+      ]
+    },
+    {
+      "t": "Tìm gói hàng bị mất",
+      "e": [
+        {
+          "p": "I cannot find your package.",
+          "m": "Cho biết bạn buồn về việc này.",
+          "h": "S + be + Adj.",
+          "s": "I am sad about this."
+        },
+        {
+          "p": "Do you have a tracking number?",
+          "m": "Xác nhận bạn có số theo dõi.",
+          "h": "S + have + N.",
+          "s": "Yes, I have a tracking number."
+        },
+        {
+          "p": "What is the number?",
+          "m": "Nêu số theo dõi của bạn là 12345.",
+          "h": "The number is + N.",
+          "s": "The number is 12345."
+        },
+        {
+          "p": "Can you check the tracking online?",
+          "m": "Yêu cầu người khác kiểm tra trực tuyến.",
+          "h": "Please + V.",
+          "s": "Please check it online."
+        },
+        {
+          "p": "Is my package lost?",
+          "m": "Cho biết bạn không biết nó bị mất.",
+          "h": "S + don't + V.",
+          "s": "I do not know if it is lost."
+        }
+      ]
+    },
+    {
+      "t": "Hỏi về người nhận",
+      "e": [
+        {
+          "p": "Who is here for the package?",
+          "m": "Cho biết bạn ở đây để nhận gói hàng.",
+          "h": "S + be + adv + purpose.",
+          "s": "I am here for the package."
+        },
+        {
+          "p": "Is [studentName] home?",
+          "m": "Xác nhận [studentName] có ở nhà.",
+          "h": "S + be + adv.",
+          "s": "Yes, [studentName] is home."
+        },
+        {
+          "p": "Can another person receive it?",
+          "m": "Cho biết một người khác có thể nhận nó.",
+          "h": "S + can + V.",
+          "s": "Yes, another person can receive it."
+        },
+        {
+          "p": "Is that person your friend?",
+          "m": "Xác nhận người đó là bạn của bạn.",
+          "h": "S + be + N.",
+          "s": "Yes, that person is my friend."
+        },
+        {
+          "p": "Do they need an ID?",
+          "m": "Cho biết họ cần ID.",
+          "h": "S + need + N.",
+          "s": "Yes, they need an ID."
+        }
+      ]
+    },
+    {
+      "t": "Khi gói hàng chưa đến",
+      "e": [
+        {
+          "p": "Your package does not arrive.",
+          "m": "Cho biết bạn không vui về điều này.",
+          "h": "S + be + Adj.",
+          "s": "I am not happy about this."
+        },
+        {
+          "p": "What is the problem?",
+          "m": "Cho biết bạn không biết vấn đề là gì.",
+          "h": "S + don't + V.",
+          "s": "I do not know the problem."
+        },
+        {
+          "p": "Can you help me find it?",
+          "m": "Xác nhận bạn cần giúp đỡ.",
+          "h": "S + need + V.",
+          "s": "Yes, I need help."
+        },
+        {
+          "p": "Is the delivery address wrong?",
+          "m": "Cho biết địa chỉ giao hàng không sai.",
+          "h": "S + be + Adj.",
+          "s": "No, the delivery address is not wrong."
+        },
+        {
+          "p": "When can I get my package?",
+          "m": "Yêu cầu biết khi nào bạn có thể nhận gói hàng.",
+          "h": "What/When + S + V.",
+          "s": "When can I get it?"
+        }
+      ]
+    },
+    {
+      "t": "Yêu cầu giao lại",
+      "e": [
+        {
+          "p": "Your package is not delivered today.",
+          "m": "Cho biết điều này không tốt.",
+          "h": "S + be + Adj.",
+          "s": "This is not good."
+        },
+        {
+          "p": "Can you get it tomorrow?",
+          "m": "Xác nhận bạn có thể nhận nó vào ngày mai.",
+          "h": "S + can + V + time.",
+          "s": "Yes, I can get it tomorrow."
+        },
+        {
+          "p": "What time is good for you?",
+          "m": "Cho biết buổi chiều là tốt.",
+          "h": "N + be + Adj.",
+          "s": "Afternoon is good for me."
+        },
+        {
+          "p": "Do you work at home tomorrow?",
+          "m": "Xác nhận bạn làm việc ở nhà ngày mai.",
+          "h": "S + V + adv.",
+          "s": "Yes, I work at home tomorrow."
+        },
+        {
+          "p": "Where can I leave it?",
+          "m": "Yêu cầu người giao hàng để nó ở cửa trước.",
+          "h": "Please + V + adv.",
+          "s": "Please leave it at the front door."
+        }
+      ]
+    },
+    {
+      "t": "Báo cáo hư hỏng",
+      "e": [
+        {
+          "p": "Is your package okay?",
+          "m": "Cho biết gói hàng không ổn.",
+          "h": "S + be + Adj.",
+          "s": "No, my package is not okay."
+        },
+        {
+          "p": "What is wrong with it?",
+          "m": "Cho biết nó bị hỏng.",
+          "h": "It is + Adj.",
+          "s": "It is broken."
+        },
+        {
+          "p": "Can I see the damage?",
+          "m": "Xác nhận bạn có thể cho xem chỗ hỏng.",
+          "h": "S + can + V + N.",
+          "s": "Yes, I can show you the damage."
+        },
+        {
+          "p": "Do you want a new package?",
+          "m": "Xác nhận bạn muốn một gói hàng mới.",
+          "h": "S + want + N.",
+          "s": "Yes, I want a new package."
+        },
+        {
+          "p": "Does the company replace it?",
+          "m": "Yêu cầu biết công ty có thay thế không.",
+          "h": "Do/Does + S + V?",
+          "s": "Does the company replace it?"
+        }
+      ]
+    },
+    {
+      "t": "Thay đổi địa chỉ giao hàng",
+      "e": [
+        {
+          "p": "Is this your old address?",
+          "m": "Xác nhận đây là địa chỉ cũ của bạn.",
+          "h": "S + be + N.",
+          "s": "Yes, this is my old address."
+        },
+        {
+          "p": "Do you have a new address?",
+          "m": "Xác nhận bạn có một địa chỉ mới.",
+          "h": "S + have + N.",
+          "s": "Yes, I have a new address."
+        },
+        {
+          "p": "What is your new address?",
+          "m": "Cho biết địa chỉ mới của bạn là 50 River Road.",
+          "h": "My new address is + N.",
+          "s": "My new address is 50 River Road."
+        },
+        {
+          "p": "Is the street name River Road?",
+          "m": "Xác nhận tên đường là River Road.",
+          "h": "S + be + N.",
+          "s": "Yes, the street name is River Road."
+        },
+        {
+          "p": "Can you change the address for my package?",
+          "m": "Yêu cầu người khác thay đổi địa chỉ.",
+          "h": "Please + V + O.",
+          "s": "Please change the address."
+        }
+      ]
+    },
+    {
+      "t": "Hỏi về phí vận chuyển",
+      "e": [
+        {
+          "p": "This package is big. Is there a delivery fee?",
+          "m": "Xác nhận có phí giao hàng.",
+          "h": "There is + N.",
+          "s": "Yes, there is a delivery fee."
+        },
+        {
+          "p": "Is the fee high?",
+          "m": "Cho biết phí không cao.",
+          "h": "S + be + Adj.",
+          "s": "No, the fee is not high."
+        },
+        {
+          "p": "Do I pay now?",
+          "m": "Xác nhận bạn thanh toán bây giờ.",
+          "h": "S + V + adv.",
+          "s": "Yes, I pay now."
+        },
+        {
+          "p": "Can I pay with cash?",
+          "m": "Xác nhận bạn có thể thanh toán bằng tiền mặt.",
+          "h": "S + can + V + prep + N.",
+          "s": "Yes, I can pay with cash."
+        },
+        {
+          "p": "Where is the payment machine?",
+          "m": "Yêu cầu biết máy thanh toán ở đâu.",
+          "h": "Where + be + N?",
+          "s": "Where is the machine?"
+        }
+      ]
+    },
+    {
+      "t": "Ôn tập: Giao hàng và nhận hàng",
+      "e": [
+        {
+          "p": "Hello, is this your package?",
+          "m": "Xác nhận đây là gói hàng của bạn.",
+          "h": "S + be + N.",
+          "s": "Yes, it is my package."
+        },
+        {
+          "p": "What is your name and address?",
+          "m": "Nêu tên và địa chỉ của bạn (số 15 Elm Street).",
+          "h": "S + be + N.",
+          "s": "My name is [studentName]. My address is 15 Elm Street."
+        },
+        {
+          "p": "Does your package arrive today?",
+          "m": "Cho biết gói hàng đến hôm nay.",
+          "h": "S + V(s/es) + time.",
+          "s": "Yes, it arrives today."
+        },
+        {
+          "p": "Is it a small, red box?",
+          "m": "Cho biết nó không nhỏ, nó là một hộp màu xanh.",
+          "h": "It is + Adj + N.",
+          "s": "No, it is not small. It is a big, blue box."
+        },
+        {
+          "p": "Can you get the package now?",
+          "m": "Xác nhận bạn có thể lấy gói hàng bây giờ.",
+          "h": "S + can + V + adv.",
+          "s": "Yes, I can get the package now."
+        }
+      ]
+    },
+    {
+      "t": "Ôn tập: Giải quyết vấn đề",
+      "e": [
+        {
+          "p": "Your package is late. Are you okay?",
+          "m": "Cho biết bạn không sao nhưng cần gói hàng.",
+          "h": "S + be + Adj. S + need + N.",
+          "s": "I am okay, but I need my package."
+        },
+        {
+          "p": "Do you have a tracking number for me?",
+          "m": "Xác nhận bạn có số theo dõi.",
+          "h": "S + have + N.",
+          "s": "Yes, I have a tracking number."
+        },
+        {
+          "p": "Is the package broken?",
+          "m": "Cho biết bạn không biết nó có bị hỏng không.",
+          "h": "S + don't + V.",
+          "s": "I do not know if it is broken."
+        },
+        {
+          "p": "Who can help me?",
+          "m": "Cho biết người quản lý có thể giúp.",
+          "h": "S + can + V.",
+          "s": "The manager can help you."
+        },
+        {
+          "p": "Can you call the company for me?",
+          "m": "Xác nhận bạn không thể gọi bây giờ.",
+          "h": "S + can't + V + adv.",
+          "s": "No, I cannot call now."
+        }
+      ]
+    },
+    {
+      "t": "Ôn tập: Thông tin gói hàng",
+      "e": [
+        {
+          "p": "What is in your package?",
+          "m": "Cho biết trong gói hàng là đồ chơi cho con bạn.",
+          "h": "There is + N.",
+          "s": "There is a toy for my child."
+        },
+        {
+          "p": "Is it heavy or light?",
+          "m": "Cho biết nó nhẹ.",
+          "h": "It is + Adj.",
+          "s": "It is light."
+        },
+        {
+          "p": "Does it need special handling?",
+          "m": "Cho biết nó không cần xử lý đặc biệt.",
+          "h": "It does not + V.",
+          "s": "No, it does not need special handling."
+        },
+        {
+          "p": "Is your name on the box?",
+          "m": "Xác nhận tên của bạn có trên hộp.",
+          "h": "S + be + prep + N.",
+          "s": "Yes, my name is on the box."
+        },
+        {
+          "p": "Can I take this package now?",
+          "m": "Xác nhận bạn có thể lấy gói hàng bây giờ.",
+          "h": "S + can + V + adv.",
+          "s": "Yes, I can take it now."
+        }
+      ]
+    }
+  ]
+}

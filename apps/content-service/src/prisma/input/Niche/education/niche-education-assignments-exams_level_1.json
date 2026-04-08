@@ -1,0 +1,530 @@
+{
+  "l": 1,
+  "d": [
+    {
+      "t": "Nói về bài tập về nhà",
+      "e": [
+        {
+          "p": "What is the homework?",
+          "m": "Nói môn học và bài cụ thể.",
+          "h": "Use 'The homework is + N' hoặc 'It is + N'.",
+          "s": "The homework is math exercise two."
+        },
+        {
+          "p": "When is the homework due?",
+          "m": "Nói thời gian nộp (ví dụ: today).",
+          "h": "Use 'It is due + time' hoặc 'It is + time'.",
+          "s": "It is due today."
+        },
+        {
+          "p": "How many pages do I read?",
+          "m": "Nói số trang cần đọc.",
+          "h": "Use 'Read + number + pages' hoặc 'You read + number + pages'.",
+          "s": "Read five pages."
+        },
+        {
+          "p": "Can I ask a question about the homework?",
+          "m": "Nói có thể hay không (can/can't).",
+          "h": "Use 'Yes, you can' hoặc 'No, you can't'.",
+          "s": "Yes, you can."
+        },
+        {
+          "p": "Who checks the homework in class?",
+          "m": "Nói người kiểm bài (ví dụ: teacher).",
+          "h": "Use 'The + N + checks' hoặc 'Teacher checks'.",
+          "s": "The teacher checks the homework."
+        }
+      ]
+    },
+    {
+      "t": "Hỏi ngày nộp bài",
+      "e": [
+        {
+          "p": "When is the assignment due?",
+          "m": "Nói ngày nộp (today/tonight).",
+          "h": "Use 'It is due + time'.",
+          "s": "It is due tonight."
+        },
+        {
+          "p": "Is the due date tomorrow?",
+          "m": "Trả lời yes/no ngắn gọn.",
+          "h": "Use 'Yes, it is' hoặc 'No, it isn't'.",
+          "s": "No, it isn't."
+        },
+        {
+          "p": "Where do I submit the work?",
+          "m": "Nói nơi nộp bài (e.g., in class).",
+          "h": "Use 'Submit + at/in + place' hoặc 'You submit + place'.",
+          "s": "Submit it in class."
+        },
+        {
+          "p": "Do I need a cover page?",
+          "m": "Trả lời có/không và nêu ngắn gọn nếu cần.",
+          "h": "Use 'Yes, you need' hoặc 'No, you don't'.",
+          "s": "Yes, you need a cover page."
+        },
+        {
+          "p": "Who can I ask if I miss the due date?",
+          "m": "Nói người liên hệ (teacher).",
+          "h": "Use 'Ask + the + N' hoặc 'Ask + person'.",
+          "s": "Ask the teacher."
+        }
+      ]
+    },
+    {
+      "t": "Chuẩn bị cho kiểm tra",
+      "e": [
+        {
+          "p": "What should I study for the test?",
+          "m": "Nói chủ đề cần học (ví dụ: vocabulary).",
+          "h": "Use 'Study + N' hoặc 'Study + topic'.",
+          "s": "Study the vocabulary and the book pages."
+        },
+        {
+          "p": "How long do I study each day?",
+          "m": "Nói thời gian học mỗi ngày (ví dụ: one hour).",
+          "h": "Use 'I study + time' hoặc 'Study + time'.",
+          "s": "I study one hour every day."
+        },
+        {
+          "p": "Can I use a dictionary in the test?",
+          "m": "Trả lời can/can't ngắn gọn.",
+          "h": "Use 'Yes, you can' hoặc 'No, you can't'.",
+          "s": "No, you can't use a dictionary."
+        },
+        {
+          "p": "Who studies with you?",
+          "m": "Nói người học cùng (friend).",
+          "h": "Use 'I study with + person' hoặc 'My friend studies with me'.",
+          "s": "I study with my friend."
+        },
+        {
+          "p": "What time is the test on Monday?",
+          "m": "Nói giờ kiểm tra đơn giản (e.g., morning).",
+          "h": "Use 'The test is at + time' hoặc 'It is in the + morning/afternoon'.",
+          "s": "The test is in the morning."
+        }
+      ]
+    },
+    {
+      "t": "Cảm xúc sau khi thi",
+      "e": [
+        {
+          "p": "How do you feel after the exam?",
+          "m": "Nói cảm giác (happy/sad).",
+          "h": "Use 'I am + adj' (happy/sad).",
+          "s": "I am happy."
+        },
+        {
+          "p": "Did you pass the test?",
+          "m": "Trả lời ngắn yes/no với pass/fail.",
+          "h": "Use 'Yes, I did' hoặc 'No, I didn't'.",
+          "s": "Yes, I did."
+        },
+        {
+          "p": "What is the result?",
+          "m": "Nói ngắn về kết quả (good/bad).",
+          "h": "Use 'My result is + adj' hoặc 'It is + adj'.",
+          "s": "My result is good."
+        },
+        {
+          "p": "Do you want to try again?",
+          "m": "Trả lời can/can't hoặc yes/no.",
+          "h": "Use 'Yes, I want' hoặc 'No, I don't'.",
+          "s": "Yes, I want to try again."
+        },
+        {
+          "p": "Who gives the exam feedback?",
+          "m": "Nói người cho phản hồi (teacher).",
+          "h": "Use 'The teacher gives' hoặc 'Teacher gives'.",
+          "s": "The teacher gives the feedback."
+        }
+      ]
+    },
+    {
+      "t": "Nhờ giáo viên giúp",
+      "e": [
+        {
+          "p": "Can you help me with question three?",
+          "m": "Nói bạn có thể hay không (can/can't).",
+          "h": "Use 'Yes, I can' hoặc 'No, I can't'.",
+          "s": "Yes, I can help you."
+        },
+        {
+          "p": "What is the answer to number five?",
+          "m": "Nói câu trả lời ngắn cho câu số 5.",
+          "h": "Use 'The answer is + N' hoặc 'It is + N'.",
+          "s": "The answer is seven."
+        },
+        {
+          "p": "Where is the sample paper?",
+          "m": "Nói nơi có tài liệu mẫu (on desk/in class).",
+          "h": "Use 'It is + place' hoặc 'On + place'.",
+          "s": "It is on the teacher's desk."
+        },
+        {
+          "p": "Who can explain this topic to me?",
+          "m": "Nói người có thể giải thích (teacher/friend).",
+          "h": "Use 'Ask + the + N' hoặc 'My friend can'.",
+          "s": "The teacher can explain it."
+        },
+        {
+          "p": "Do you give extra practice papers?",
+          "m": "Trả lời có/không ngắn và nêu nếu có.",
+          "h": "Use 'Yes, I give' hoặc 'No, I don't'.",
+          "s": "Yes, I give extra practice papers."
+        }
+      ]
+    },
+    {
+      "t": "Lên kế hoạch học",
+      "e": [
+        {
+          "p": "When do you study English?",
+          "m": "Nói thời gian học (morning/evening).",
+          "h": "Use 'I study + time' hoặc 'I study in the + morning/evening'.",
+          "s": "I study in the evening."
+        },
+        {
+          "p": "How often do you review your notes?",
+          "m": "Nói tần suất (every day).",
+          "h": "Use 'I review + frequency' hoặc 'Every day'.",
+          "s": "I review my notes every day."
+        },
+        {
+          "p": "Can you study with a friend?",
+          "m": "Trả lời can/can't ngắn gọn.",
+          "h": "Use 'Yes, I can' hoặc 'No, I can't'.",
+          "s": "Yes, I can study with a friend."
+        },
+        {
+          "p": "What do you use to study?",
+          "m": "Nói đồ dùng học (book/phone).",
+          "h": "Use 'I use + N' hoặc 'Use + N'.",
+          "s": "I use a book."
+        },
+        {
+          "p": "Who makes your study plan?",
+          "m": "Nói người lập kế hoạch (I/teacher).",
+          "h": "Use 'I make' hoặc 'My teacher makes'.",
+          "s": "I make my study plan."
+        }
+      ]
+    },
+    {
+      "t": "Thảo luận điểm số",
+      "e": [
+        {
+          "p": "What is your grade in math?",
+          "m": "Nói điểm ngắn (good/bad hoặc number).",
+          "h": "Use 'My grade is + adj' hoặc 'I get + number'.",
+          "s": "My grade is good."
+        },
+        {
+          "p": "Do you get full marks?",
+          "m": "Trả lời yes/no ngắn.",
+          "h": "Use 'Yes, I do' hoặc 'No, I don't'.",
+          "s": "No, I don't get full marks."
+        },
+        {
+          "p": "Who gives your grade report?",
+          "m": "Nói người phát báo cáo (teacher).",
+          "h": "Use 'The teacher gives' hoặc 'Teacher gives'.",
+          "s": "The teacher gives the grade report."
+        },
+        {
+          "p": "Can I improve my grade?",
+          "m": "Trả lời có/không và nêu cách ngắn (study more).",
+          "h": "Use 'Yes, you can + verb' hoặc 'No, you can't'.",
+          "s": "Yes, you can study more."
+        },
+        {
+          "p": "Where can I see my grade online?",
+          "m": "Nói nơi xem điểm (school site).",
+          "h": "Use 'On + place' hoặc 'On the + N'.",
+          "s": "You can see it on the school website."
+        }
+      ]
+    },
+    {
+      "t": "Xin hoãn nộp bài",
+      "e": [
+        {
+          "p": "Can I have an extension for the assignment?",
+          "m": "Trả lời can/can't ngắn và nêu lý do ngắn (sick).",
+          "h": "Use 'Yes, you can' hoặc 'No, you can't' và 'because + reason'.",
+          "s": "Yes, you can because you are sick."
+        },
+        {
+          "p": "How many extra days do I get?",
+          "m": "Nói số ngày thêm (one day).",
+          "h": "Use 'You get + number + days' hoặc 'One day'.",
+          "s": "You get one extra day."
+        },
+        {
+          "p": "Who approves the extension?",
+          "m": "Nói người duyệt (teacher).",
+          "h": "Use 'The teacher approves' hoặc 'Teacher approves'.",
+          "s": "The teacher approves the extension."
+        },
+        {
+          "p": "Do I need a note from home?",
+          "m": "Trả lời có/không ngắn và nêu nếu cần.",
+          "h": "Use 'Yes, you need' hoặc 'No, you don't'.",
+          "s": "Yes, you need a note from home."
+        },
+        {
+          "p": "When must I submit after extension?",
+          "m": "Nói hạn mới ngắn gọn (tomorrow).",
+          "h": "Use 'It is due + time' hoặc 'Submit + time'.",
+          "s": "It is due tomorrow."
+        }
+      ]
+    },
+    {
+      "t": "Kiểm tra tại lớp",
+      "e": [
+        {
+          "p": "Is there a test today?",
+          "m": "Trả lời yes/no ngắn.",
+          "h": "Use 'Yes, there is' hoặc 'No, there isn't'.",
+          "s": "Yes, there is a test today."
+        },
+        {
+          "p": "What materials do we need?",
+          "m": "Nói đồ dùng cần có (pen/book).",
+          "h": "Use 'You need + N' hoặc 'Bring + N'.",
+          "s": "You need a pen and a book."
+        },
+        {
+          "p": "Can we sit with a friend?",
+          "m": "Trả lời can/can't ngắn.",
+          "h": "Use 'Yes, you can' hoặc 'No, you can't'.",
+          "s": "No, you can't sit with a friend."
+        },
+        {
+          "p": "Who monitors the class test?",
+          "m": "Nói người giám sát (teacher).",
+          "h": "Use 'The teacher monitors' hoặc 'Teacher monitors'.",
+          "s": "The teacher monitors the class test."
+        },
+        {
+          "p": "Where is the test paper after the exam?",
+          "m": "Nói nơi giấy kiểm tra (teacher desk).",
+          "h": "Use 'It is + place' hoặc 'On + place'.",
+          "s": "It is on the teacher's desk."
+        }
+      ]
+    },
+    {
+      "t": "Làm bài nhóm",
+      "e": [
+        {
+          "p": "Do we work in groups?",
+          "m": "Trả lời yes/no ngắn.",
+          "h": "Use 'Yes, we do' hoặc 'No, we don't'.",
+          "s": "Yes, we work in groups."
+        },
+        {
+          "p": "Who is in your group?",
+          "m": "Nói một người trong nhóm (friend).",
+          "h": "Use 'My friend + name/role' hoặc 'My friend is + role'.",
+          "s": "My friend helps me in the group."
+        },
+        {
+          "p": "What part do you do?",
+          "m": "Nói nhiệm vụ ngắn (write/speak).",
+          "h": "Use 'I write' hoặc 'I speak' hoặc 'I do + N'.",
+          "s": "I write the report."
+        },
+        {
+          "p": "Can we use phones in group work?",
+          "m": "Trả lời can/can't ngắn.",
+          "h": "Use 'Yes, you can' hoặc 'No, you can't'.",
+          "s": "No, you can't use phones."
+        },
+        {
+          "p": "When do you meet for group work?",
+          "m": "Nói thời gian gặp (after class).",
+          "h": "Use 'We meet + time' hoặc 'After class'.",
+          "s": "We meet after class."
+        }
+      ]
+    },
+    {
+      "t": "Quên hoặc mất bài tập",
+      "e": [
+        {
+          "p": "I forgot my homework. What do I do?",
+          "m": "Nói hành động ngắn (tell teacher/bring tomorrow).",
+          "h": "Use 'Tell + person' hoặc 'Bring + time'.",
+          "s": "Tell the teacher and bring it tomorrow."
+        },
+        {
+          "p": "Can I email the assignment?",
+          "m": "Trả lời can/can't ngắn.",
+          "h": "Use 'Yes, you can' hoặc 'No, you can't'.",
+          "s": "Yes, you can email the assignment."
+        },
+        {
+          "p": "Who lost the paper?",
+          "m": "Nói người (I/my friend).",
+          "h": "Use 'I lost it' hoặc 'My friend lost it'.",
+          "s": "I lost the paper."
+        },
+        {
+          "p": "Where did you look for it?",
+          "m": "Nói nơi đã tìm (at home/school).",
+          "h": "Use 'I looked + place' hoặc 'At + place'.",
+          "s": "I looked at home."
+        },
+        {
+          "p": "Do you need a new copy?",
+          "m": "Trả lời có/không ngắn và nêu nếu có.",
+          "h": "Use 'Yes, I need' hoặc 'No, I don't'.",
+          "s": "Yes, I need a new copy."
+        }
+      ]
+    },
+    {
+      "t": "Chuẩn bị cho ngày thi",
+      "e": [
+        {
+          "p": "What do you bring to the exam?",
+          "m": "Nói vật dụng ngắn (pen, ID).",
+          "h": "Use 'I bring + N' hoặc 'Bring + N'.",
+          "s": "I bring a pen and my ID."
+        },
+        {
+          "p": "What time do you arrive?",
+          "m": "Nói giờ đến đơn giản (early/on time).",
+          "h": "Use 'I arrive + time' hoặc 'I arrive early'.",
+          "s": "I arrive early."
+        },
+        {
+          "p": "Can you eat before the exam?",
+          "m": "Trả lời can/can't ngắn.",
+          "h": "Use 'Yes, you can' hoặc 'No, you can't'.",
+          "s": "Yes, you can eat before the exam."
+        },
+        {
+          "p": "Who checks your ID at the door?",
+          "m": "Nói người kiểm tra (teacher/staff).",
+          "h": "Use 'The teacher checks' hoặc 'Staff checks'.",
+          "s": "The staff checks my ID."
+        },
+        {
+          "p": "Where is the exam room?",
+          "m": "Nói nơi (room number or classroom).",
+          "h": "Use 'It is in + place' hoặc 'In the + N'.",
+          "s": "It is in the main classroom."
+        }
+      ]
+    },
+    {
+      "t": "Ôn tập: Nộp bài và điểm",
+      "e": [
+        {
+          "p": "What is the homework and when is it due?",
+          "m": "Nói môn/bài và thời gian nộp (1 câu).",
+          "h": "Use 'The homework is + N. It is due + time.'",
+          "s": "The homework is science exercise three and it is due tomorrow."
+        },
+        {
+          "p": "Who gives the grade and where do you see it?",
+          "m": "Nói người cho điểm và nơi xem điểm (1 câu).",
+          "h": "Use 'The teacher gives + N. You see it on + place.'",
+          "s": "The teacher gives the grade and you see it on the school website."
+        },
+        {
+          "p": "Can you ask for an extension and who approves it?",
+          "m": "Trả lời can/can't và nêu người duyệt (1 câu).",
+          "h": "Use 'Yes, you can + reason. The teacher approves.'",
+          "s": "Yes, you can ask for an extension and the teacher approves it."
+        },
+        {
+          "p": "What do you do if you forget your homework?",
+          "m": "Nói hành động ngắn (1 câu).",
+          "h": "Use 'Tell + person' hoặc 'Bring + time.'",
+          "s": "Tell the teacher and bring it tomorrow."
+        },
+        {
+          "p": "Do you get extra practice and who gives it?",
+          "m": "Trả lời có/không và nêu người (1 câu).",
+          "h": "Use 'Yes, + person + gives' hoặc 'No, + person + doesn't'.",
+          "s": "Yes, the teacher gives extra practice."
+        }
+      ]
+    },
+    {
+      "t": "Ôn tập: Chuẩn bị và cảm xúc khi thi",
+      "e": [
+        {
+          "p": "What do you study and how often?",
+          "m": "Nói chủ đề và tần suất (1 câu).",
+          "h": "Use 'I study + N and + frequency.'",
+          "s": "I study vocabulary and I study every day."
+        },
+        {
+          "p": "How do you feel after a test and did you pass?",
+          "m": "Nói cảm xúc và pass/no (1 câu).",
+          "h": "Use 'I am + adj and + yes/no.'",
+          "s": "I am happy and yes, I passed."
+        },
+        {
+          "p": "Can you use a dictionary in tests and can you sit with a friend?",
+          "m": "Trả lời hai ý ngắn (can/can't) trong 1 câu.",
+          "h": "Use 'No, you can't and No, you can't.'",
+          "s": "No, you can't use a dictionary and no, you can't sit with a friend."
+        },
+        {
+          "p": "What do you bring and when do you arrive for the exam?",
+          "m": "Nói đồ dùng và thời gian đến (1 câu).",
+          "h": "Use 'I bring + N and I arrive + time.'",
+          "s": "I bring a pen and I arrive early."
+        },
+        {
+          "p": "Who helps you study and where do you meet?",
+          "m": "Nói người giúp và nơi gặp (1 câu).",
+          "h": "Use 'My friend helps and we meet + place.'",
+          "s": "My friend helps me and we meet after class."
+        }
+      ]
+    },
+    {
+      "t": "Ôn tập: Xin giúp và hỏi hạn nộp",
+      "e": [
+        {
+          "p": "Can you help me and what is the homework?",
+          "m": "Trả lời can/can't và nêu bài (1 câu).",
+          "h": "Use 'Yes, I can' hoặc 'No, I can't' và 'The homework is + N.'",
+          "s": "Yes, I can help and the homework is exercise two."
+        },
+        {
+          "p": "When is the assignment due and can you extend it?",
+          "m": "Nói thời gian nộp và trả lời về hoãn (1 câu).",
+          "h": "Use 'It is due + time and Yes/No, you can/can't.'",
+          "s": "It is due tonight and yes, you can have an extension."
+        },
+        {
+          "p": "Who approves extensions and do you need a note?",
+          "m": "Nói người duyệt và có cần giấy không (1 câu).",
+          "h": "Use 'The teacher approves and Yes/No, you need.'",
+          "s": "The teacher approves extensions and yes, you need a note."
+        },
+        {
+          "p": "Where do you submit late work and who checks it?",
+          "m": "Nói nơi nộp và người kiểm (1 câu).",
+          "h": "Use 'Submit + place and The teacher checks.'",
+          "s": "Submit late work in class and the teacher checks it."
+        },
+        {
+          "p": "Do you get extra practice and how do you receive it?",
+          "m": "Trả lời có/không và nêu cách nhận (1 câu).",
+          "h": "Use 'Yes, you get + N and you receive it + place.'",
+          "s": "Yes, you get extra practice and you receive it from the teacher."
+        }
+      ]
+    }
+  ]
+}

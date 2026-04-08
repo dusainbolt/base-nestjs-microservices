@@ -1,0 +1,530 @@
+{
+  "l": 1,
+  "d": [
+    {
+      "t": "Gặp bạn cùng lớp",
+      "e": [
+        {
+          "p": "What's your name?",
+          "m": "Nói tên của bạn.",
+          "h": "My name is + [studentName]",
+          "s": "My name is [studentName]."
+        },
+        {
+          "p": "How old are you?",
+          "m": "Nói tuổi của bạn.",
+          "h": "I am + [studentAge] years old",
+          "s": "I am [studentAge] years old."
+        },
+        {
+          "p": "Where do you live?",
+          "m": "Nói nơi bạn sống (thành phố).",
+          "h": "I live in + [studentCity]",
+          "s": "I live in [studentCity]."
+        },
+        {
+          "p": "Do you go to school?",
+          "m": "Trả lời có hoặc không.",
+          "h": "Yes, I do / No, I don't",
+          "s": "Yes, I do."
+        },
+        {
+          "p": "What do you like to do after class?",
+          "m": "Nói một hoạt động bạn thích làm sau giờ học.",
+          "h": "I like to + V / I + V",
+          "s": "I play with my friends."
+        }
+      ]
+    },
+    {
+      "t": "Trong lớp học",
+      "e": [
+        {
+          "p": "Is there a book on the desk?",
+          "m": "Trả lời có hoặc không và nêu vật nếu có.",
+          "h": "There is / There are + N",
+          "s": "Yes, there is a book on the desk."
+        },
+        {
+          "p": "How many chairs are in the room?",
+          "m": "Nói số lượng ghế trong phòng.",
+          "h": "There are + number",
+          "s": "There are five chairs in the room."
+        },
+        {
+          "p": "What color is your pen?",
+          "m": "Nói màu của bút.",
+          "h": "It is + color",
+          "s": "It is blue."
+        },
+        {
+          "p": "Can I borrow your ruler?",
+          "m": "Trả lời có hoặc không (can/can't).",
+          "h": "Yes, you can / No, you can't",
+          "s": "Yes, you can."
+        },
+        {
+          "p": "Where is the teacher?",
+          "m": "Nói vị trí của giáo viên trong lớp.",
+          "h": "The teacher is + place",
+          "s": "The teacher is at the front."
+        }
+      ]
+    },
+    {
+      "t": "Nói về gia đình",
+      "e": [
+        {
+          "p": "Who is in your family?",
+          "m": "Nói một người trong gia đình (ví dụ: mother).",
+          "h": "I have + N / My + relation",
+          "s": "I have a mother."
+        },
+        {
+          "p": "Do you have a brother?",
+          "m": "Trả lời có hoặc không.",
+          "h": "Yes, I do / No, I don't",
+          "s": "Yes, I do."
+        },
+        {
+          "p": "How many brothers do you have?",
+          "m": "Nói số anh/em trai bạn có.",
+          "h": "I have + number + brothers",
+          "s": "I have two brothers."
+        },
+        {
+          "p": "Who cooks at home?",
+          "m": "Nói ai nấu ăn ở nhà (mối quan hệ).",
+          "h": "My + relation + V(s)",
+          "s": "My mother cooks at home."
+        },
+        {
+          "p": "Where does your family live?",
+          "m": "Nói thành phố nơi gia đình bạn sống.",
+          "h": "We live in + [studentCity]",
+          "s": "We live in [studentCity]."
+        }
+      ]
+    },
+    {
+      "t": "Nhờ giúp trong lớp",
+      "e": [
+        {
+          "p": "Can you help me with this question?",
+          "m": "Trả lời có hoặc không bằng can/can't.",
+          "h": "Yes, I can / No, I can't",
+          "s": "Yes, I can."
+        },
+        {
+          "p": "Where is the pencil?",
+          "m": "Nói vị trí cây bút chì.",
+          "h": "It is + place",
+          "s": "It is on the desk."
+        },
+        {
+          "p": "Do you know this word?",
+          "m": "Trả lời có hoặc không.",
+          "h": "Yes, I do / No, I don't",
+          "s": "No, I don't."
+        },
+        {
+          "p": "What is a book?",
+          "m": "Nói một câu ngắn mô tả sách.",
+          "h": "It is a + short description",
+          "s": "It is a thing for reading."
+        },
+        {
+          "p": "Can I use your eraser?",
+          "m": "Trả lời có hoặc không bằng can/can't.",
+          "h": "Yes, you can / No, you can't",
+          "s": "Yes, you can."
+        }
+      ]
+    },
+    {
+      "t": "Hoạt động sau giờ học",
+      "e": [
+        {
+          "p": "What do you do after school?",
+          "m": "Nói một hoạt động bạn làm sau giờ học.",
+          "h": "I + V / I like to + V",
+          "s": "I play with my friends."
+        },
+        {
+          "p": "Do you play football?",
+          "m": "Trả lời có hoặc không.",
+          "h": "Yes, I do / No, I don't",
+          "s": "No, I don't."
+        },
+        {
+          "p": "When do you study English?",
+          "m": "Nói thời điểm bạn học tiếng Anh.",
+          "h": "I study English + time",
+          "s": "I study English every day."
+        },
+        {
+          "p": "How often do you go to the library?",
+          "m": "Nói tần suất ngắn.",
+          "h": "I go + frequency",
+          "s": "I go once a week."
+        },
+        {
+          "p": "Can you play the piano?",
+          "m": "Trả lời có hoặc không bằng can/can't.",
+          "h": "Yes, I can / No, I can't",
+          "s": "No, I can't."
+        }
+      ]
+    },
+    {
+      "t": "Khi thầy cô hỏi về bài tập",
+      "e": [
+        {
+          "p": "Do you have homework today?",
+          "m": "Trả lời có hoặc không.",
+          "h": "Yes, I do / No, I don't",
+          "s": "Yes, I do."
+        },
+        {
+          "p": "What is your homework?",
+          "m": "Nói môn học của bài tập (ví dụ: math).",
+          "h": "It is + subject",
+          "s": "It is math homework."
+        },
+        {
+          "p": "Where is your homework?",
+          "m": "Nói vị trí bài tập (ví dụ: in my bag).",
+          "h": "It is in + place",
+          "s": "It is in my bag."
+        },
+        {
+          "p": "Can you finish your homework now?",
+          "m": "Trả lời có hoặc không bằng can/can't.",
+          "h": "Yes, I can / No, I can't",
+          "s": "No, I can't."
+        },
+        {
+          "p": "Do you understand the exercise?",
+          "m": "Trả lời có hoặc không.",
+          "h": "Yes, I do / No, I don't",
+          "s": "No, I don't."
+        }
+      ]
+    },
+    {
+      "t": "Mô tả bạn cùng lớp",
+      "e": [
+        {
+          "p": "Is your friend tall?",
+          "m": "Trả lời có hoặc không.",
+          "h": "Yes, he/she is / No, he/she isn't",
+          "s": "Yes, he is."
+        },
+        {
+          "p": "What color is her hair?",
+          "m": "Nói màu tóc của bạn nữ.",
+          "h": "Her hair is + color",
+          "s": "Her hair is black."
+        },
+        {
+          "p": "Does he have long hair?",
+          "m": "Trả lời có hoặc không.",
+          "h": "Yes, he does / No, he doesn't",
+          "s": "No, he doesn't."
+        },
+        {
+          "p": "Is she young?",
+          "m": "Trả lời có hoặc không.",
+          "h": "Yes, she is / No, she isn't",
+          "s": "Yes, she is."
+        },
+        {
+          "p": "How does your friend look?",
+          "m": "Nói một tính từ ngắn mô tả bạn (ví dụ: happy).",
+          "h": "He/She is + Adj",
+          "s": "She is happy."
+        }
+      ]
+    },
+    {
+      "t": "Nói về bữa ăn ở trường",
+      "e": [
+        {
+          "p": "What do you eat at lunch?",
+          "m": "Nói một món ăn bạn ăn trưa.",
+          "h": "I eat + food",
+          "s": "I eat rice."
+        },
+        {
+          "p": "Do you like milk?",
+          "m": "Trả lời có hoặc không.",
+          "h": "Yes, I do / No, I don't",
+          "s": "Yes, I do."
+        },
+        {
+          "p": "Is the food hot?",
+          "m": "Trả lời có hoặc không.",
+          "h": "Yes, it is / No, it isn't",
+          "s": "Yes, it is."
+        },
+        {
+          "p": "How many sandwiches do you have?",
+          "m": "Nói số bánh mì kẹp bạn có.",
+          "h": "I have + number",
+          "s": "I have one sandwich."
+        },
+        {
+          "p": "Can you drink water now?",
+          "m": "Trả lời có hoặc không bằng can/can't.",
+          "h": "Yes, I can / No, I can't",
+          "s": "Yes, I can."
+        }
+      ]
+    },
+    {
+      "t": "Khi mất đồ trong lớp",
+      "e": [
+        {
+          "p": "Where is your pencil?",
+          "m": "Nói vị trí cây bút nếu bạn biết.",
+          "h": "It is + place",
+          "s": "It is on the floor."
+        },
+        {
+          "p": "Do you see your book?",
+          "m": "Trả lời có hoặc không.",
+          "h": "Yes, I do / No, I don't",
+          "s": "No, I don't."
+        },
+        {
+          "p": "Can I help you find it?",
+          "m": "Trả lời có hoặc không.",
+          "h": "Yes, please / No, thanks",
+          "s": "Yes, please."
+        },
+        {
+          "p": "Is your bag under the desk?",
+          "m": "Trả lời có hoặc không.",
+          "h": "Yes, it is / No, it isn't",
+          "s": "Yes, it is."
+        },
+        {
+          "p": "Who has a red pencil?",
+          "m": "Nói 'I do' nếu là bạn.",
+          "h": "I do / He/She does",
+          "s": "I do."
+        }
+      ]
+    },
+    {
+      "t": "Lên lịch hoạt động đơn giản",
+      "e": [
+        {
+          "p": "Do you want to study now?",
+          "m": "Trả lời có hoặc không.",
+          "h": "Yes, I do / No, I don't",
+          "s": "Yes, I do."
+        },
+        {
+          "p": "When do we meet?",
+          "m": "Nói thời gian ngắn (morning/afternoon).",
+          "h": "We meet in + time",
+          "s": "We meet in the morning."
+        },
+        {
+          "p": "Where do we meet?",
+          "m": "Nói địa điểm gặp gỡ.",
+          "h": "We meet at + place",
+          "s": "We meet at the school."
+        },
+        {
+          "p": "Can you come on Saturday?",
+          "m": "Trả lời có hoặc không bằng can/can't.",
+          "h": "Yes, I can / No, I can't",
+          "s": "No, I can't."
+        },
+        {
+          "p": "Who brings a ball?",
+          "m": "Nói 'I do' nếu bạn mang bóng.",
+          "h": "I do / He/She does",
+          "s": "I do."
+        }
+      ]
+    },
+    {
+      "t": "Khi thầy cô kiểm tra thông tin học sinh",
+      "e": [
+        {
+          "p": "What is your full name?",
+          "m": "Nói tên đầy đủ của bạn.",
+          "h": "My name is + [studentName]",
+          "s": "My name is [studentName]."
+        },
+        {
+          "p": "How old are you?",
+          "m": "Nói tuổi của bạn.",
+          "h": "I am + [studentAge] years old",
+          "s": "I am [studentAge] years old."
+        },
+        {
+          "p": "Where are you from?",
+          "m": "Nói thành phố nơi bạn ở.",
+          "h": "I am from + [studentCity]",
+          "s": "I am from [studentCity]."
+        },
+        {
+          "p": "Which school do you study at?",
+          "m": "Nói tên trường bạn học.",
+          "h": "I study at + [studentSchool]",
+          "s": "I study at [studentSchool]."
+        },
+        {
+          "p": "What does your father do?",
+          "m": "Nói nghề nghiệp của cha (từ cơ bản).",
+          "h": "He is a + job",
+          "s": "He is a teacher."
+        }
+      ]
+    },
+    {
+      "t": "Giải thích khi bạn không hiểu",
+      "e": [
+        {
+          "p": "Can you say it again?",
+          "m": "Trả lời có hoặc không bằng can/can't.",
+          "h": "Yes, I can / No, I can't",
+          "s": "Yes, I can."
+        },
+        {
+          "p": "Please speak slowly.",
+          "m": "Nói bạn có thể nói chậm không bằng can + V.",
+          "h": "I can + V",
+          "s": "I can speak slowly."
+        },
+        {
+          "p": "What is this word?",
+          "m": "Nói một từ ngắn giải thích từ đó.",
+          "h": "It is a + N",
+          "s": "It is a book."
+        },
+        {
+          "p": "Can you show me an example?",
+          "m": "Trả lời có hoặc không bằng can/can't.",
+          "h": "Yes, I can / No, I can't",
+          "s": "Yes, I can."
+        },
+        {
+          "p": "Do you need more time?",
+          "m": "Trả lời có hoặc không.",
+          "h": "Yes, I do / No, I don't",
+          "s": "Yes, I do."
+        }
+      ]
+    },
+    {
+      "t": "Ôn tập: Giới thiệu bản thân",
+      "e": [
+        {
+          "p": "What's your name?",
+          "m": "Nói tên của bạn.",
+          "h": "My name is + [studentName]",
+          "s": "My name is [studentName]."
+        },
+        {
+          "p": "How old are you?",
+          "m": "Nói tuổi của bạn.",
+          "h": "I am + [studentAge] years old",
+          "s": "I am [studentAge] years old."
+        },
+        {
+          "p": "Where do you live?",
+          "m": "Nói thành phố bạn sống.",
+          "h": "I live in + [studentCity]",
+          "s": "I live in [studentCity]."
+        },
+        {
+          "p": "Do you study at school?",
+          "m": "Trả lời có hoặc không.",
+          "h": "Yes, I do / No, I don't",
+          "s": "Yes, I do."
+        },
+        {
+          "p": "What is your favorite color?",
+          "m": "Nói màu ưa thích của bạn.",
+          "h": "My favorite color is + color",
+          "s": "My favorite color is blue."
+        }
+      ]
+    },
+    {
+      "t": "Ôn tập: Ở lớp và vật dụng",
+      "e": [
+        {
+          "p": "Is there a pen on your desk?",
+          "m": "Trả lời có hoặc không.",
+          "h": "Yes, there is / No, there isn't",
+          "s": "Yes, there is."
+        },
+        {
+          "p": "How many books do you have?",
+          "m": "Nói số sách bạn có.",
+          "h": "I have + number",
+          "s": "I have three books."
+        },
+        {
+          "p": "What color is your bag?",
+          "m": "Nói màu của cặp sách.",
+          "h": "My bag is + color",
+          "s": "My bag is red."
+        },
+        {
+          "p": "Can you lend me a pencil?",
+          "m": "Trả lời có hoặc không bằng can/can't.",
+          "h": "Yes, I can / No, I can't",
+          "s": "No, I can't."
+        },
+        {
+          "p": "Where is your notebook?",
+          "m": "Nói vị trí vở của bạn.",
+          "h": "It is in + place",
+          "s": "It is in my bag."
+        }
+      ]
+    },
+    {
+      "t": "Ôn tập: Luyện nói ngắn",
+      "e": [
+        {
+          "p": "Do you like playing games?",
+          "m": "Trả lời có hoặc không.",
+          "h": "Yes, I do / No, I don't",
+          "s": "Yes, I do."
+        },
+        {
+          "p": "What do you eat for breakfast?",
+          "m": "Nói một món bạn ăn sáng.",
+          "h": "I eat + food",
+          "s": "I eat bread."
+        },
+        {
+          "p": "Who is your best friend?",
+          "m": "Nói mối quan hệ hoặc 'a classmate'.",
+          "h": "My friend is + relation",
+          "s": "My friend is my classmate."
+        },
+        {
+          "p": "When do you eat lunch?",
+          "m": "Nói thời điểm bạn ăn trưa.",
+          "h": "I eat lunch + time",
+          "s": "I eat lunch at noon."
+        },
+        {
+          "p": "Can you speak English?",
+          "m": "Trả lời có hoặc không bằng can/can't.",
+          "h": "Yes, I can / No, I can't",
+          "s": "Yes, I can."
+        }
+      ]
+    }
+  ]
+}

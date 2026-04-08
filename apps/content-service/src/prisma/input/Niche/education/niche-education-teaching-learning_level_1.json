@@ -1,0 +1,530 @@
+{
+  "l": 1,
+  "d": [
+    {
+      "t": "Gặp bạn mới trong lớp",
+      "e": [
+        {
+          "p": "What's your name?",
+          "m": "Nói tên của bạn.",
+          "h": "My name is + name",
+          "s": "My name is [studentName]."
+        },
+        {
+          "p": "How old are you?",
+          "m": "Nói tuổi của bạn.",
+          "h": "I am + age",
+          "s": "I am [studentAge] years old."
+        },
+        {
+          "p": "Which school do you go to?",
+          "m": "Nói tên trường bạn học.",
+          "h": "I go to + school",
+          "s": "I go to [studentSchool]."
+        },
+        {
+          "p": "What is your favorite subject?",
+          "m": "Nói một môn bạn thích.",
+          "h": "I like + subject",
+          "s": "I like English."
+        },
+        {
+          "p": "Do you like studying with friends?",
+          "m": "Trả lời có/không và nói lý do ngắn.",
+          "h": "Yes/No, because + reason",
+          "s": "Yes, I like it because it is fun."
+        }
+      ]
+    },
+    {
+      "t": "Nói về giáo viên",
+      "e": [
+        {
+          "p": "Who is your English teacher?",
+          "m": "Nói tên giáo viên tiếng Anh của bạn.",
+          "h": "My teacher is + name",
+          "s": "My English teacher is Ms. Lin."
+        },
+        {
+          "p": "What does your teacher teach?",
+          "m": "Nói môn học giáo viên dạy.",
+          "h": "He/She teaches + subject",
+          "s": "She teaches English."
+        },
+        {
+          "p": "Is your teacher kind?",
+          "m": "Trả lời có/không và mô tả một tính từ.",
+          "h": "Yes/No, He/She is + adj",
+          "s": "Yes, she is kind."
+        },
+        {
+          "p": "Do you ask questions in class?",
+          "m": "Trả lời có/không và nói một việc bạn làm.",
+          "h": "Yes/No, I + verb",
+          "s": "Yes, I ask questions in class."
+        },
+        {
+          "p": "Where is the teacher now?",
+          "m": "Nói nơi giáo viên đang ở (ví dụ: in class, at school).",
+          "h": "He/She is + place",
+          "s": "She is in the classroom."
+        }
+      ]
+    },
+    {
+      "t": "Trong lớp học",
+      "e": [
+        {
+          "p": "Is there a book on the table?",
+          "m": "Trả lời có/không và nêu vật nếu có.",
+          "h": "Yes/No, there is/are + noun",
+          "s": "Yes, there is a book on the table."
+        },
+        {
+          "p": "How many chairs are in the room?",
+          "m": "Nói số ghế trong phòng.",
+          "h": "There are + number + chairs",
+          "s": "There are 20 chairs."
+        },
+        {
+          "p": "Where is the board?",
+          "m": "Nói vị trí đơn giản của bảng (front/back).",
+          "h": "The board is + place",
+          "s": "The board is at the front."
+        },
+        {
+          "p": "Do you use a pen or a pencil?",
+          "m": "Nói bạn dùng bút hay bút chì.",
+          "h": "I use + noun",
+          "s": "I use a pencil."
+        },
+        {
+          "p": "What time does the class start?",
+          "m": "Nói giờ bắt đầu lớp.",
+          "h": "It starts at + time",
+          "s": "It starts at 8 o'clock."
+        }
+      ]
+    },
+    {
+      "t": "Hoạt động học hàng ngày",
+      "e": [
+        {
+          "p": "Do you study every day?",
+          "m": "Trả lời có hoặc không.",
+          "h": "Yes/No, I study every day",
+          "s": "Yes, I study every day."
+        },
+        {
+          "p": "When do you do your homework?",
+          "m": "Nói một thời điểm bạn làm bài tập về nhà.",
+          "h": "I do homework + time",
+          "s": "I do my homework in the evening."
+        },
+        {
+          "p": "Where do you study at home?",
+          "m": "Nói một nơi bạn học ở nhà.",
+          "h": "I study in + place",
+          "s": "I study in my room."
+        },
+        {
+          "p": "Can you speak English?",
+          "m": "Trả lời có/không và nói một kỹ năng ngắn.",
+          "h": "Yes/No, I can + verb",
+          "s": "Yes, I can speak some English."
+        },
+        {
+          "p": "What do you do after school?",
+          "m": "Nói một hoạt động bạn làm sau giờ học.",
+          "h": "I + verb",
+          "s": "I play with my brother."
+        }
+      ]
+    },
+    {
+      "t": "Thói quen học hàng ngày",
+      "e": [
+        {
+          "p": "How many hours do you study each day?",
+          "m": "Nói số giờ bạn học mỗi ngày.",
+          "h": "I study + number + hours",
+          "s": "I study two hours each day."
+        },
+        {
+          "p": "Do you read books to learn?",
+          "m": "Trả lời có/không và nêu một ví dụ.",
+          "h": "Yes/No, I read + noun",
+          "s": "Yes, I read story books."
+        },
+        {
+          "p": "What do you use to learn new words?",
+          "m": "Nói một vật bạn dùng học từ mới.",
+          "h": "I use + noun",
+          "s": "I use a notebook."
+        },
+        {
+          "p": "Who helps you with homework?",
+          "m": "Nói một người giúp bạn làm bài tập.",
+          "h": "My + person + helps me",
+          "s": "My mother helps me."
+        },
+        {
+          "p": "Do you study in the morning or at night?",
+          "m": "Chọn một và nói lý do ngắn.",
+          "h": "I study in the + time + because + reason",
+          "s": "I study at night because it is quiet."
+        }
+      ]
+    },
+    {
+      "t": "Nói về môn học yêu thích",
+      "e": [
+        {
+          "p": "What is your favorite subject at school?",
+          "m": "Nói một môn ưa thích.",
+          "h": "My favorite subject is + subject",
+          "s": "My favorite subject is Math."
+        },
+        {
+          "p": "Why do you like this subject?",
+          "m": "Nói một lý do ngắn vì sao bạn thích môn đó.",
+          "h": "I like it because + adj",
+          "s": "I like it because it is easy."
+        },
+        {
+          "p": "When is this class?",
+          "m": "Nói ngày hoặc giờ của buổi học.",
+          "h": "It is on + day / at + time",
+          "s": "It is on Monday."
+        },
+        {
+          "p": "Do you practice this subject at home?",
+          "m": "Trả lời có/không và nêu một hoạt động.",
+          "h": "Yes/No, I + verb",
+          "s": "Yes, I do exercises at home."
+        },
+        {
+          "p": "Who is the teacher for this class?",
+          "m": "Nói tên giáo viên hoặc 'my teacher'.",
+          "h": "My teacher is + name",
+          "s": "My teacher is Ms. Hoa."
+        }
+      ]
+    },
+    {
+      "t": "Kỹ năng học tập",
+      "e": [
+        {
+          "p": "Do you read every day?",
+          "m": "Trả lời có hoặc không.",
+          "h": "Yes/No, I read every day",
+          "s": "Yes, I read every day."
+        },
+        {
+          "p": "Can you write English letters?",
+          "m": "Trả lời có hoặc không.",
+          "h": "Yes/No, I can + verb",
+          "s": "Yes, I can write English letters."
+        },
+        {
+          "p": "Do you listen to English songs to learn?",
+          "m": "Trả lời có/không và nêu một ví dụ.",
+          "h": "Yes/No, I listen to + noun",
+          "s": "Yes, I listen to English songs."
+        },
+        {
+          "p": "How do you practice speaking?",
+          "m": "Nói một cách bạn luyện nói.",
+          "h": "I speak with + person",
+          "s": "I speak with my friend."
+        },
+        {
+          "p": "Which skill do you want to improve?",
+          "m": "Nói một kỹ năng bạn muốn cải thiện.",
+          "h": "I want to improve + skill",
+          "s": "I want to improve speaking."
+        }
+      ]
+    },
+    {
+      "t": "Công việc và học",
+      "e": [
+        {
+          "p": "What is your father's job?",
+          "m": "Nói nghề nghiệp của bố bạn.",
+          "h": "He is a + job",
+          "s": "My father is a driver."
+        },
+        {
+          "p": "Do you work after school?",
+          "m": "Trả lời có/không và nêu một việc ngắn.",
+          "h": "Yes/No, I + verb",
+          "s": "No, I do not work after school."
+        },
+        {
+          "p": "What do you want to be in the future?",
+          "m": "Nói một nghề bạn muốn làm sau này.",
+          "h": "I want to be a + job",
+          "s": "I want to be a teacher."
+        },
+        {
+          "p": "Do you study for your future job?",
+          "m": "Trả lời có/không và nêu một hành động.",
+          "h": "Yes/No, I + verb",
+          "s": "Yes, I study English for my job."
+        },
+        {
+          "p": "Where do you study now?",
+          "m": "Nói nơi bạn đang học hiện tại.",
+          "h": "I study at + place",
+          "s": "I study at school."
+        }
+      ]
+    },
+    {
+      "t": "Hỏi giáo viên",
+      "e": [
+        {
+          "p": "Can you show me how to do this problem?",
+          "m": "Trả lời có/không và nói một hành động bạn làm để giúp.",
+          "h": "Yes/No, I can + verb",
+          "s": "Yes, I can show you."
+        },
+        {
+          "p": "Do you understand this homework?",
+          "m": "Trả lời và nêu phần bạn không hiểu (nếu có).",
+          "h": "I do / I do not understand + part",
+          "s": "I do not understand question two."
+        },
+        {
+          "p": "Please say the word slowly.",
+          "m": "Nói lại từ được yêu cầu.",
+          "h": "Say the word",
+          "s": "The word is apple."
+        },
+        {
+          "p": "Repeat after me: I study every day.",
+          "m": "Nhắc lại câu đúng.",
+          "h": "Use: I study every day",
+          "s": "I study every day."
+        },
+        {
+          "p": "Can you explain the meaning of 'learn'?",
+          "m": "Nói nghĩa ngắn của từ 'learn'.",
+          "h": "Learn means + phrase",
+          "s": "Learn means to get new knowledge."
+        }
+      ]
+    },
+    {
+      "t": "Lập kế hoạch học",
+      "e": [
+        {
+          "p": "When do you study English?",
+          "m": "Nói một thời điểm bạn học tiếng Anh.",
+          "h": "I study + time",
+          "s": "I study in the evening."
+        },
+        {
+          "p": "Do you study alone or with friends?",
+          "m": "Trả lời và nêu nơi học ngắn.",
+          "h": "I study alone/with friends + place",
+          "s": "I study with friends at school."
+        },
+        {
+          "p": "How many days do you study English each week?",
+          "m": "Nói số ngày bạn học mỗi tuần.",
+          "h": "I study English + number + days",
+          "s": "I study English three days a week."
+        },
+        {
+          "p": "Can you study tonight?",
+          "m": "Trả lời có/không và nêu lý do ngắn.",
+          "h": "Yes/No, I can/cannot because + reason",
+          "s": "No, I cannot study tonight because I am tired."
+        },
+        {
+          "p": "What will you study tomorrow?",
+          "m": "Nói một môn bạn học ngày mai (dùng thì hiện tại cho lịch).",
+          "h": "I study + subject + tomorrow",
+          "s": "I study Math tomorrow."
+        }
+      ]
+    },
+    {
+      "t": "Học cùng bạn",
+      "e": [
+        {
+          "p": "Do you want to study together?",
+          "m": "Trả lời có hoặc không.",
+          "h": "Yes/No, I want to",
+          "s": "Yes, I want to study together."
+        },
+        {
+          "p": "Where do you meet for study?",
+          "m": "Nói một địa điểm bạn gặp để học.",
+          "h": "We meet at + place",
+          "s": "We meet at the library."
+        },
+        {
+          "p": "What time do you meet?",
+          "m": "Nói giờ bạn gặp nhau.",
+          "h": "We meet at + time",
+          "s": "We meet at 5 o'clock."
+        },
+        {
+          "p": "Can you bring a notebook?",
+          "m": "Trả lời có/không và nói bạn có mang không.",
+          "h": "Yes/No, I have/ I do not have + noun",
+          "s": "Yes, I bring a notebook."
+        },
+        {
+          "p": "How do you help each other?",
+          "m": "Nói một cách bạn giúp bạn học khác.",
+          "h": "We + verb",
+          "s": "We do exercises together."
+        }
+      ]
+    },
+    {
+      "t": "Kiểm tra nhỏ",
+      "e": [
+        {
+          "p": "When is the test?",
+          "m": "Nói ngày hoặc giờ kiểm tra.",
+          "h": "The test is + day/time",
+          "s": "The test is on Friday."
+        },
+        {
+          "p": "Do you need a pencil for the test?",
+          "m": "Trả lời có hoặc không.",
+          "h": "Yes/No, I need/do not need",
+          "s": "Yes, I need a pencil."
+        },
+        {
+          "p": "What do you study for the test?",
+          "m": "Nói một môn bạn ôn cho bài kiểm tra.",
+          "h": "I study + subject",
+          "s": "I study Math for the test."
+        },
+        {
+          "p": "Can you come early to study?",
+          "m": "Trả lời có/không và nêu thời gian bạn đến.",
+          "h": "Yes/No, I can + time",
+          "s": "Yes, I can come at 7."
+        },
+        {
+          "p": "Are you ready for the test?",
+          "m": "Trả lời có/không và nêu lý do ngắn.",
+          "h": "Yes/No, because + reason",
+          "s": "No, I am not ready because I need more practice."
+        }
+      ]
+    },
+    {
+      "t": "Ôn tập: Giới thiệu & Lớp học",
+      "e": [
+        {
+          "p": "Tell me your name.",
+          "m": "Nói tên của bạn.",
+          "h": "My name is + name",
+          "s": "My name is [studentName]."
+        },
+        {
+          "p": "Where is your classroom?",
+          "m": "Nói vị trí lớp học của bạn.",
+          "h": "My classroom is + place",
+          "s": "My classroom is on the first floor."
+        },
+        {
+          "p": "Who is your best study friend?",
+          "m": "Nói tên người bạn học tốt nhất hoặc 'my friend'.",
+          "h": "My friend is + name",
+          "s": "My friend is Nam."
+        },
+        {
+          "p": "How do you study for tests?",
+          "m": "Nói một hoạt động bạn làm để ôn bài.",
+          "h": "I + verb",
+          "s": "I read my notes."
+        },
+        {
+          "p": "Do you like your school?",
+          "m": "Trả lời có/không và nêu lý do ngắn.",
+          "h": "Yes/No, because + reason",
+          "s": "Yes, I like my school because teachers are kind."
+        }
+      ]
+    },
+    {
+      "t": "Ôn tập: Thói quen & Kế hoạch",
+      "e": [
+        {
+          "p": "What time do you wake up to study?",
+          "m": "Nói một giờ bạn dậy để học.",
+          "h": "I wake up at + time",
+          "s": "I wake up at 6 o'clock."
+        },
+        {
+          "p": "Do you make a study plan?",
+          "m": "Trả lời có/không và nêu một việc trong kế hoạch.",
+          "h": "Yes/No, I + verb",
+          "s": "Yes, I study Math on Monday."
+        },
+        {
+          "p": "How many hours do you study on weekends?",
+          "m": "Nói số giờ bạn học vào cuối tuần.",
+          "h": "I study + number + hours",
+          "s": "I study four hours on weekends."
+        },
+        {
+          "p": "Where do you do homework on Sunday?",
+          "m": "Nói một nơi bạn làm bài tập vào chủ nhật.",
+          "h": "I do homework at + place",
+          "s": "I do homework at home."
+        },
+        {
+          "p": "Can you study with a friend tomorrow?",
+          "m": "Trả lời có/không và nêu thời gian bạn có thể học chung.",
+          "h": "Yes/No, I can + time",
+          "s": "Yes, I can study at 5."
+        }
+      ]
+    },
+    {
+      "t": "Ôn tập: Xin giúp & Học nhóm",
+      "e": [
+        {
+          "p": "I have a problem with this exercise, can you help me?",
+          "m": "Trả lời có/không và nói một cách bạn sẽ giúp.",
+          "h": "Yes/No, I can + verb",
+          "s": "Yes, I can help you with question three."
+        },
+        {
+          "p": "Do you want to study at my house?",
+          "m": "Trả lời có/không và nêu thời gian bạn đến.",
+          "h": "Yes/No, I can + time",
+          "s": "Yes, I can come at 4 o'clock."
+        },
+        {
+          "p": "What do you bring to study together?",
+          "m": "Nói một vật bạn mang để học cùng.",
+          "h": "I bring + noun",
+          "s": "I bring my English book."
+        },
+        {
+          "p": "Who explains the lesson in your group?",
+          "m": "Nói một người giải thích bài trong nhóm.",
+          "h": "My friend / I + verb",
+          "s": "My friend explains the lesson."
+        },
+        {
+          "p": "Are you ready to share your notes?",
+          "m": "Trả lời có/không và nêu một hành động bạn làm.",
+          "h": "Yes/No, I + verb",
+          "s": "Yes, I share my notes."
+        }
+      ]
+    }
+  ]
+}

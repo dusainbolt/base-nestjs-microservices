@@ -1,0 +1,530 @@
+{
+  "l": 1,
+  "d": [
+    {
+      "t": "Kiểm tra sau cuộc gọi hỗ trợ",
+      "e": [
+        {
+          "p": "Are you happy with our service?",
+          "m": "Nói bạn có hài lòng hay không.",
+          "h": "Dùng 'I am' hoặc 'I am not'.",
+          "s": "I am happy with the service."
+        },
+        {
+          "p": "Is your problem solved?",
+          "m": "Nói vấn đề đã được giải quyết hay chưa.",
+          "h": "Dùng 'My problem is' hoặc 'My problem is not'.",
+          "s": "My problem is solved."
+        },
+        {
+          "p": "Do you need more help?",
+          "m": "Nói bạn có cần giúp thêm hay không.",
+          "h": "Dùng 'Yes, I need' hoặc 'No, I don't'.",
+          "s": "No, I don't need more help."
+        },
+        {
+          "p": "Can we call you again?",
+          "m": "Trả lời đồng ý hoặc không đồng ý cho cuộc gọi lại.",
+          "h": "Dùng 'Yes, you can' hoặc 'No, you can't'.",
+          "s": "Yes, you can call me again."
+        },
+        {
+          "p": "Do you recommend our service?",
+          "m": "Nói bạn có giới thiệu dịch vụ hay không.",
+          "h": "Dùng 'I recommend' hoặc 'I don't recommend'.",
+          "s": "I recommend your service."
+        }
+      ]
+    },
+    {
+      "t": "Theo dõi sau sửa chữa máy",
+      "e": [
+        {
+          "p": "Is the machine working now?",
+          "m": "Nói máy có hoạt động bây giờ không.",
+          "h": "Dùng 'It is' hoặc 'It is not'.",
+          "s": "It is working now."
+        },
+        {
+          "p": "Are there any strange sounds?",
+          "m": "Nói có tiếng lạ hay không.",
+          "h": "Dùng 'There are' hoặc 'There are no'.",
+          "s": "There are no strange sounds."
+        },
+        {
+          "p": "Can you use the machine today?",
+          "m": "Nói bạn có thể dùng máy hôm nay không.",
+          "h": "Dùng 'I can' hoặc 'I can't'.",
+          "s": "I can use the machine today."
+        },
+        {
+          "p": "Do you want a new part?",
+          "m": "Nói bạn có cần thay linh kiện mới không.",
+          "h": "Dùng 'Yes, I want' hoặc 'No, I don't want'.",
+          "s": "No, I don't want a new part."
+        },
+        {
+          "p": "Is the repair fast enough for you?",
+          "m": "Nói thời gian sửa có đủ nhanh với bạn không.",
+          "h": "Dùng 'It is' hoặc 'It is not'.",
+          "s": "It is fast enough for me."
+        }
+      ]
+    },
+    {
+      "t": "Theo dõi giao hàng",
+      "e": [
+        {
+          "p": "Do you have your package?",
+          "m": "Nói bạn đã nhận hàng hay chưa.",
+          "h": "Dùng 'I have' hoặc 'I do not have'.",
+          "s": "I have my package."
+        },
+        {
+          "p": "Is the box in good condition?",
+          "m": "Nói hộp có tình trạng tốt không.",
+          "h": "Dùng 'It is' hoặc 'It is not'.",
+          "s": "The box is in good condition."
+        },
+        {
+          "p": "Are all items correct?",
+          "m": "Nói tất cả món hàng có đúng không.",
+          "h": "Dùng 'All items are' hoặc 'Some items are not'.",
+          "s": "All items are correct."
+        },
+        {
+          "p": "Do you want us to pick up a wrong item?",
+          "m": "Nói bạn có muốn chúng tôi lấy lại món sai không.",
+          "h": "Dùng 'Yes, I want' hoặc 'No, I don't'.",
+          "s": "Yes, I want you to pick up the wrong item."
+        },
+        {
+          "p": "Can we deliver a replacement tomorrow?",
+          "m": "Trả lời có cho giao hàng thay thế ngày mai hay không.",
+          "h": "Dùng 'Yes, you can' hoặc 'No, you can't'.",
+          "s": "Yes, you can deliver a replacement tomorrow."
+        }
+      ]
+    },
+    {
+      "t": "Theo dõi hoàn tiền",
+      "e": [
+        {
+          "p": "Is the refund amount correct?",
+          "m": "Nói số tiền hoàn có đúng không.",
+          "h": "Dùng 'It is' hoặc 'It is not'.",
+          "s": "The refund amount is correct."
+        },
+        {
+          "p": "Do you have the bank details?",
+          "m": "Nói bạn có thông tin ngân hàng hay không.",
+          "h": "Dùng 'I have' hoặc 'I do not have'.",
+          "s": "I have my bank details."
+        },
+        {
+          "p": "Can we send the refund today?",
+          "m": "Cho biết có thể nhận tiền hôm nay không.",
+          "h": "Dùng 'Yes, I can' hoặc 'No, I cannot'.",
+          "s": "Yes, I can receive the refund today."
+        },
+        {
+          "p": "Do you prefer cash or transfer?",
+          "m": "Nói bạn muốn nhận tiền mặt hay chuyển khoản.",
+          "h": "Dùng 'I prefer' + 'cash/transfer'.",
+          "s": "I prefer a bank transfer."
+        },
+        {
+          "p": "Are you satisfied with the refund process?",
+          "m": "Nói bạn có hài lòng với quy trình hoàn tiền không.",
+          "h": "Dùng 'I am' hoặc 'I am not'.",
+          "s": "I am satisfied with the refund process."
+        }
+      ]
+    },
+    {
+      "t": "Theo dõi sau hẹn lắp đặt",
+      "e": [
+        {
+          "p": "Is the installation complete?",
+          "m": "Nói việc lắp đặt đã xong chưa.",
+          "h": "Dùng 'It is' hoặc 'It is not'.",
+          "s": "The installation is complete."
+        },
+        {
+          "p": "Is the equipment clean?",
+          "m": "Nói thiết bị có sạch không.",
+          "h": "Dùng 'It is' hoặc 'It is not'.",
+          "s": "The equipment is clean."
+        },
+        {
+          "p": "Do you understand how to use it?",
+          "m": "Nói bạn có hiểu cách dùng không.",
+          "h": "Dùng 'I understand' hoặc 'I don't understand'.",
+          "s": "I understand how to use it."
+        },
+        {
+          "p": "Can we show you one more time?",
+          "m": "Trả lời có cần nhân viên hướng dẫn lại hay không.",
+          "h": "Dùng 'Yes, show me' hoặc 'No, I do not need'.",
+          "s": "No, I do not need help."
+        },
+        {
+          "p": "Do you want a maintenance check next month?",
+          "m": "Nói bạn có muốn kiểm tra bảo trì tháng sau không.",
+          "h": "Dùng 'Yes, I want' hoặc 'No, I don't want'.",
+          "s": "Yes, I want a maintenance check next month."
+        }
+      ]
+    },
+    {
+      "t": "Theo dõi sau hỗ trợ phần mềm",
+      "e": [
+        {
+          "p": "Is the app working now?",
+          "m": "Nói ứng dụng có hoạt động bây giờ không.",
+          "h": "Dùng 'It works' hoặc 'It does not work'.",
+          "s": "The app works now."
+        },
+        {
+          "p": "Do you see the new update?",
+          "m": "Nói bạn có thấy cập nhật mới không.",
+          "h": "Dùng 'I see' hoặc 'I do not see'.",
+          "s": "I see the new update."
+        },
+        {
+          "p": "Can you log in to your account?",
+          "m": "Nói bạn có thể đăng nhập vào tài khoản không.",
+          "h": "Dùng 'I can' hoặc 'I can't'.",
+          "s": "I can log in to my account."
+        },
+        {
+          "p": "Do you want a simple guide by email?",
+          "m": "Nói bạn có muốn nhận hướng dẫn qua email không.",
+          "h": "Dùng 'Yes, I want' hoặc 'No, I don't want'.",
+          "s": "Yes, I want a simple guide by email."
+        },
+        {
+          "p": "Is the speed OK for you now?",
+          "m": "Nói tốc độ phần mềm có ổn không.",
+          "h": "Dùng 'It is' hoặc 'It is not'.",
+          "s": "The speed is OK for me now."
+        }
+      ]
+    },
+    {
+      "t": "Hỏi ý kiến sau đổi trả hàng",
+      "e": [
+        {
+          "p": "Is the new item good?",
+          "m": "Nói món hàng mới có tốt không.",
+          "h": "Dùng 'It is' hoặc 'It is not'.",
+          "s": "The new item is good."
+        },
+        {
+          "p": "Do you keep the receipt?",
+          "m": "Nói bạn có giữ biên lai không.",
+          "h": "Dùng 'I keep' hoặc 'I do not keep'.",
+          "s": "I keep the receipt."
+        },
+        {
+          "p": "Can we help with size exchange?",
+          "m": "Trả lời có cần đổi kích thước không.",
+          "h": "Dùng 'Yes, I need' hoặc 'No, I don't need'.",
+          "s": "Yes, I need a size exchange."
+        },
+        {
+          "p": "Are you happy with the return time?",
+          "m": "Nói bạn có hài lòng với thời gian trả hàng không.",
+          "h": "Dùng 'I am' hoặc 'I am not'.",
+          "s": "I am happy with the return time."
+        },
+        {
+          "p": "Do you want to give a short comment?",
+          "m": "Nói bạn có muốn cho ý kiến ngắn không.",
+          "h": "Dùng 'I think' hoặc 'I do not think'.",
+          "s": "I think the return is easy."
+        }
+      ]
+    },
+    {
+      "t": "Theo dõi sau hỗ trợ tại cửa hàng",
+      "e": [
+        {
+          "p": "Are the staff helpful?",
+          "m": "Nói nhân viên có thân thiện và giúp đỡ không.",
+          "h": "Dùng 'They are' hoặc 'They are not'.",
+          "s": "The staff are helpful."
+        },
+        {
+          "p": "Is the product display clear?",
+          "m": "Nói bố trí sản phẩm có rõ ràng không.",
+          "h": "Dùng 'It is' hoặc 'It is not'.",
+          "s": "The product display is clear."
+        },
+        {
+          "p": "Do you find the price fair?",
+          "m": "Nói bạn có thấy giá hợp lý không.",
+          "h": "Dùng 'I find' hoặc 'I do not find'.",
+          "s": "I find the price fair."
+        },
+        {
+          "p": "Can we help with packing?",
+          "m": "Trả lời có cần nhân viên đóng gói giúp không.",
+          "h": "Dùng 'Yes, please' hoặc 'No, thank you'.",
+          "s": "No, thank you. I can pack it myself."
+        },
+        {
+          "p": "Are you satisfied with the store visit?",
+          "m": "Nói bạn có hài lòng với lần đến cửa hàng không.",
+          "h": "Dùng 'I am' hoặc 'I am not'.",
+          "s": "I am satisfied with the store visit."
+        }
+      ]
+    },
+    {
+      "t": "Kiểm tra khiếu nại đã xử lý",
+      "e": [
+        {
+          "p": "Is your complaint closed?",
+          "m": "Nói khiếu nại của bạn đã đóng chưa.",
+          "h": "Dùng 'It is' hoặc 'It is not'.",
+          "s": "My complaint is closed."
+        },
+        {
+          "p": "Do you feel the solution is fair?",
+          "m": "Nói bạn có thấy giải pháp công bằng không.",
+          "h": "Dùng 'I feel' hoặc 'I do not feel'.",
+          "s": "I feel the solution is fair."
+        },
+        {
+          "p": "Can we do more for you?",
+          "m": "Nói bạn có cần chúng tôi làm thêm gì không.",
+          "h": "Dùng 'Yes, I need' hoặc 'No, I don't need'.",
+          "s": "No, I do not need more help."
+        },
+        {
+          "p": "Do you want a manager call?",
+          "m": "Nói bạn có muốn quản lý gọi không.",
+          "h": "Dùng 'Yes, I want' hoặc 'No, I don't want'.",
+          "s": "No, I don't want a manager call."
+        },
+        {
+          "p": "Do you want to close the case now?",
+          "m": "Nói bạn có muốn đóng hồ sơ ngay bây giờ không.",
+          "h": "Dùng 'Yes, I want' hoặc 'No, I don't want'.",
+          "s": "Yes, I want to close the case now."
+        }
+      ]
+    },
+    {
+      "t": "Hỏi nhu cầu trợ giúp thêm",
+      "e": [
+        {
+          "p": "Do you need help with setup?",
+          "m": "Nói bạn có cần giúp cài đặt không.",
+          "h": "Dùng 'I need' hoặc 'I do not need'.",
+          "s": "I need help with setup."
+        },
+        {
+          "p": "Can we send a how-to guide?",
+          "m": "Trả lời có muốn chúng tôi gửi hướng dẫn hay không.",
+          "h": "Dùng 'Yes, send' hoặc 'No, don't send'.",
+          "s": "Yes, send me a how-to guide."
+        },
+        {
+          "p": "Do you want a quick video?",
+          "m": "Nói bạn có muốn video ngắn hướng dẫn không.",
+          "h": "Dùng 'I want' hoặc 'I don't want'.",
+          "s": "I want a quick video."
+        },
+        {
+          "p": "Are you free this afternoon for a visit?",
+          "m": "Nói bạn rảnh chiều nay để nhân viên đến không.",
+          "h": "Dùng 'I am free' hoặc 'I am not free'.",
+          "s": "I am free this afternoon."
+        },
+        {
+          "p": "Do you prefer phone or email help?",
+          "m": "Nói bạn thích hỗ trợ qua điện thoại hay email.",
+          "h": "Dùng 'I prefer' + 'phone/email'.",
+          "s": "I prefer phone help."
+        }
+      ]
+    },
+    {
+      "t": "Mời phản hồi ngắn",
+      "e": [
+        {
+          "p": "Can you rate our service 1 to 5?",
+          "m": "Nói điểm bạn chấm từ 1 đến 5.",
+          "h": "Dùng 'I give' + số.",
+          "s": "I give your service 5."
+        },
+        {
+          "p": "Do you like our response time?",
+          "m": "Nói bạn có thích thời gian phản hồi không.",
+          "h": "Dùng 'I like' hoặc 'I don't like'.",
+          "s": "I like your response time."
+        },
+        {
+          "p": "Is our staff polite?",
+          "m": "Nói nhân viên của chúng tôi có lịch sự không.",
+          "h": "Dùng 'They are' hoặc 'They are not'.",
+          "s": "The staff are polite."
+        },
+        {
+          "p": "Do you want to add a comment?",
+          "m": "Nói bạn có muốn thêm bình luận không.",
+          "h": "Dùng 'I want' hoặc 'I don't want'.",
+          "s": "I want to say thank you."
+        },
+        {
+          "p": "Do you want to use our service again?",
+          "m": "Nói bạn có muốn dùng dịch vụ chúng tôi nữa không.",
+          "h": "Dùng 'I want' hoặc 'I don't want'.",
+          "s": "I want to use your service again."
+        }
+      ]
+    },
+    {
+      "t": "Xác nhận hài lòng và đề xuất",
+      "e": [
+        {
+          "p": "Is everything OK after our help?",
+          "m": "Nói mọi thứ có ổn sau hỗ trợ không.",
+          "h": "Dùng 'Everything is' hoặc 'Everything is not'.",
+          "s": "Everything is OK after your help."
+        },
+        {
+          "p": "Do you want a discount next time?",
+          "m": "Nói bạn có muốn giảm giá lần sau không.",
+          "h": "Dùng 'I want' hoặc 'I don't want'.",
+          "s": "I want a discount next time."
+        },
+        {
+          "p": "Can we send a voucher to you?",
+          "m": "Trả lời có nhận voucher hay không.",
+          "h": "Dùng 'Yes, send' hoặc 'No, don't send'.",
+          "s": "Yes, send the voucher to me."
+        },
+        {
+          "p": "Do you tell a friend about us?",
+          "m": "Nói bạn có nói với bạn bè về chúng tôi không.",
+          "h": "Dùng 'I tell' hoặc 'I don't tell'.",
+          "s": "I tell my friend about you."
+        },
+        {
+          "p": "Do you want to buy here again?",
+          "m": "Nói bạn có muốn mua ở đây nữa không.",
+          "h": "Dùng 'I want' hoặc 'I don't want'.",
+          "s": "I want to buy here again."
+        }
+      ]
+    },
+    {
+      "t": "Ôn tập: Tổng hợp cuộc gọi theo dõi 1",
+      "e": [
+        {
+          "p": "Are you satisfied with the help today?",
+          "m": "Nói bạn có hài lòng với sự giúp đỡ hôm nay không.",
+          "h": "Dùng 'I am' hoặc 'I am not'.",
+          "s": "I am satisfied with the help today."
+        },
+        {
+          "p": "Do you still have any issue?",
+          "m": "Nói bạn có còn vấn đề nào không.",
+          "h": "Dùng 'I have' hoặc 'I do not have'.",
+          "s": "I do not have any issue."
+        },
+        {
+          "p": "Can we close your ticket?",
+          "m": "Nói bạn có muốn đóng phiếu hỗ trợ không.",
+          "h": "Dùng 'Yes, close' hoặc 'No, do not'.",
+          "s": "Yes, close my ticket."
+        },
+        {
+          "p": "Do you want a follow-up call next week?",
+          "m": "Nói bạn có muốn cuộc gọi tiếp theo tuần sau không.",
+          "h": "Dùng 'Yes, I want' hoặc 'No, I don't want'.",
+          "s": "No, I don't want a follow-up call next week."
+        },
+        {
+          "p": "Can you give a short review?",
+          "m": "Nói bạn có thể cho nhận xét ngắn không.",
+          "h": "Dùng 'I can' hoặc 'I cannot'.",
+          "s": "I can give a short review."
+        }
+      ]
+    },
+    {
+      "t": "Ôn tập: Tổng hợp email theo dõi",
+      "e": [
+        {
+          "p": "Is the issue fixed after our email?",
+          "m": "Nói vấn đề đã được sửa sau email của chúng tôi không.",
+          "h": "Dùng 'It is' hoặc 'It is not'.",
+          "s": "The issue is fixed after your email."
+        },
+        {
+          "p": "Do you need more instructions by email?",
+          "m": "Nói bạn có cần thêm hướng dẫn qua email không.",
+          "h": "Dùng 'I need' hoặc 'I do not need'.",
+          "s": "I need more instructions by email."
+        },
+        {
+          "p": "Can we close this email thread?",
+          "m": "Nói bạn có muốn đóng chuỗi email này không.",
+          "h": "Dùng 'Yes, close' hoặc 'No, keep'.",
+          "s": "Yes, close this email thread."
+        },
+        {
+          "p": "Do you attach a photo of the problem?",
+          "m": "Nói bạn có đính kèm ảnh sự cố không.",
+          "h": "Dùng 'I attach' hoặc 'I do not attach'.",
+          "s": "I attach a photo of the problem."
+        },
+        {
+          "p": "Is the response time good by email?",
+          "m": "Nói thời gian phản hồi qua email có tốt không.",
+          "h": "Dùng 'It is' hoặc 'It is not'.",
+          "s": "The response time by email is good."
+        }
+      ]
+    },
+    {
+      "t": "Ôn tập: Tổng hợp gặp trực tiếp",
+      "e": [
+        {
+          "p": "Are you happy after our visit?",
+          "m": "Nói bạn có vui sau khi nhân viên đến không.",
+          "h": "Dùng 'I am' hoặc 'I am not'.",
+          "s": "I am happy after your visit."
+        },
+        {
+          "p": "Do you need more parts now?",
+          "m": "Nói bạn có cần thêm linh kiện bây giờ không.",
+          "h": "Dùng 'I need' hoặc 'I do not need'.",
+          "s": "I do not need more parts now."
+        },
+        {
+          "p": "Can we schedule another visit?",
+          "m": "Nói bạn có muốn đặt lịch lần nữa hay không.",
+          "h": "Dùng 'Yes, schedule' hoặc 'No, do not'.",
+          "s": "Yes, schedule another visit for me."
+        },
+        {
+          "p": "Is your device safe to use now?",
+          "m": "Nói thiết bị của bạn có an toàn để dùng không.",
+          "h": "Dùng 'It is' hoặc 'It is not'.",
+          "s": "The device is safe to use now."
+        },
+        {
+          "p": "Do you tell us one thing we can improve?",
+          "m": "Nói bạn có thể nói một điều chúng tôi nên cải thiện không.",
+          "h": "Dùng 'I think' hoặc 'I do not think'.",
+          "s": "I think you can call faster."
+        }
+      ]
+    }
+  ]
+}

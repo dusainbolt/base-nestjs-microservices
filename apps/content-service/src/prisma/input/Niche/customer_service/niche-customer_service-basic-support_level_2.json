@@ -1,0 +1,530 @@
+{
+  "l": 2,
+  "d": [
+    {
+      "t": "Gặp khách hàng mới",
+      "e": [
+        {
+          "p": "May I have your name, please?",
+          "m": "Nói tên của bạn. Nói bạn cần giúp gì.",
+          "h": "I am + tên. I need + N.",
+          "s": "I am [studentName]. I need help with my order."
+        },
+        {
+          "p": "Where are you calling from?",
+          "m": "Nói thành phố nơi bạn sống. Nói bạn là khách mới hay đã mua trước.",
+          "h": "I live in + [studentCity]. I am + new/returning customer.",
+          "s": "I live in [studentCity]. I am a new customer."
+        },
+        {
+          "p": "What can I help you with today?",
+          "m": "Nói vấn đề chính ngắn gọn. Nói bạn muốn giúp ngay hay sau.",
+          "h": "Use Present Simple: I have / I need. Use 'now' or 'later'.",
+          "s": "I have a problem with my product. I need help now."
+        },
+        {
+          "p": "Are you available to talk now?",
+          "m": "Trả lời có hoặc không. Nếu không, nói thời gian bạn rảnh.",
+          "h": "Use 'Yes, I am' or 'No, I am not. I can...'.",
+          "s": "No, I am not available now. I can talk at 3 pm."
+        },
+        {
+          "p": "Do you prefer email or phone contact?",
+          "m": "Chọn một phương thức. Giải thích lý do ngắn gọn.",
+          "h": "I prefer + email/phone. Because + short reason.",
+          "s": "I prefer email. It is easier for me."
+        }
+      ]
+    },
+    {
+      "t": "Hỏi về nhu cầu cụ thể",
+      "e": [
+        {
+          "p": "Which product do you need?",
+          "m": "Nói tên sản phẩm bạn cần. Nói số lượng nếu cần.",
+          "h": "Use 'I need' and 'How many' structure.",
+          "s": "I need a blue shirt. I need two shirts."
+        },
+        {
+          "p": "Do you want delivery or pick up?",
+          "m": "Chọn giao hàng hoặc đến lấy. Nói bạn muốn khi nào.",
+          "h": "I want + delivery/pick up. Use time phrase (tomorrow, today).",
+          "s": "I want delivery. I want it tomorrow."
+        },
+        {
+          "p": "Is this for personal use or a gift?",
+          "m": "Nói mục đích (cá nhân hoặc quà). Nói nếu bạn cần gói quà.",
+          "h": "Use 'It is for...' and 'I need a gift wrap' or 'I don't'.",
+          "s": "It is for personal use. I do not need gift wrap."
+        },
+        {
+          "p": "How often will you use this service?",
+          "m": "Nói tần suất (every day, sometimes...). Nói bạn muốn bắt đầu khi nào.",
+          "h": "Use adverbs of frequency and present simple.",
+          "s": "I will use it every day. I want to start next week."
+        },
+        {
+          "p": "Do you have any color or size preference?",
+          "m": "Nói màu hoặc kích thước bạn muốn. Nói nếu bạn còn sẵn sàng thử lựa chọn khác.",
+          "h": "Use 'I want' and 'I can' or 'I prefer'.",
+          "s": "I want size M and color blue. I can try another color if needed."
+        }
+      ]
+    },
+    {
+      "t": "Giờ mở cửa và lịch làm việc",
+      "e": [
+        {
+          "p": "What time do you open today?",
+          "m": "Hỏi giờ mở cửa hôm nay. Hỏi nếu có giờ đặc biệt cuối tuần.",
+          "h": "Use 'We open at...' and 'On weekends we...' (Present Simple).",
+          "s": "We open at 9 am. On weekends we open at 10 am."
+        },
+        {
+          "p": "Are you open on public holidays?",
+          "m": "Hỏi có mở vào ngày lễ không. Hỏi giờ làm nếu có mở.",
+          "h": "Use 'We are open' or 'We are closed' and time.",
+          "s": "We are closed on public holidays. We open the next day at 9 am."
+        },
+        {
+          "p": "Can I come after work at 7 pm?",
+          "m": "Hỏi nếu cửa hàng mở đến 7h. Hỏi có cần hẹn trước hay không.",
+          "h": "Use 'We are open until...' and 'You need to...' (Present Simple).",
+          "s": "We are open until 8 pm. You do not need to make an appointment."
+        },
+        {
+          "p": "Do staff take lunch breaks in the afternoon?",
+          "m": "Hỏi về giờ nghỉ trưa. Hỏi liệu dịch vụ có tạm dừng lúc đó.",
+          "h": "Use 'They take' and 'Service is...' (Present Simple).",
+          "s": "They take lunch from 12 to 1 pm. Service is not available then."
+        },
+        {
+          "p": "Can I schedule an evening visit?",
+          "m": "Hỏi xem có thể đặt lịch buổi tối không. Hỏi cách đặt lịch (phone/email).",
+          "h": "Use 'Yes, you can' and 'Call us' or 'Email us'.",
+          "s": "Yes, you can schedule an evening visit. Call us to set the time."
+        }
+      ]
+    },
+    {
+      "t": "Kiểm tra tồn kho sản phẩm",
+      "e": [
+        {
+          "p": "Do you have this item in stock?",
+          "m": "Hỏi có hàng không. Hỏi số lượng còn nếu có.",
+          "h": "Use 'There are + number' or 'We have no'.",
+          "s": "There are five items in stock. We can ship them today."
+        },
+        {
+          "p": "How many sizes do you have?",
+          "m": "Hỏi có bao nhiêu size. Hỏi size cụ thể nếu cần.",
+          "h": "Use 'We have' + number + 'sizes' and 'We have size...'.",
+          "s": "We have three sizes. We have size M and L and S."
+        },
+        {
+          "p": "Is the blue color available?",
+          "m": "Hỏi màu xanh còn không. Hỏi có màu khác thay thế không.",
+          "h": "Use 'Yes, we have' or 'No, we don't. We have...' ",
+          "s": "Yes, we have blue available. We also have black and red."
+        },
+        {
+          "p": "Can you reserve one for me?",
+          "m": "Hỏi có thể giữ hàng không. Nói thời gian bạn muốn giữ.",
+          "h": "Use 'We can reserve' and 'for + time'.",
+          "s": "We can reserve one for you. We will hold it for two days."
+        },
+        {
+          "p": "Do you restock often?",
+          "m": "Hỏi tần suất nhập hàng. Hỏi nếu có ngày nhập hàng kế tiếp.",
+          "h": "Use adverbs of frequency and 'We restock on...'.",
+          "s": "We restock often. We restock every Monday."
+        }
+      ]
+    },
+    {
+      "t": "Phương thức thanh toán",
+      "e": [
+        {
+          "p": "What payment methods do you accept?",
+          "m": "Hỏi các phương thức thanh toán. Hỏi nếu có chấp nhận thẻ hay không.",
+          "h": "Use 'We accept' and list methods (cash, card, online).",
+          "s": "We accept cash and card. We also accept online payment."
+        },
+        {
+          "p": "Can I pay by card over the phone?",
+          "m": "Hỏi có thể thanh toán bằng thẻ qua điện thoại. Hỏi nếu cần thông tin thêm.",
+          "h": "Use 'Yes, you can' or 'No, you cannot' and short reason.",
+          "s": "Yes, you can pay by card over the phone. We need your card number."
+        },
+        {
+          "p": "Do you have installment plans?",
+          "m": "Hỏi có trả góp không. Hỏi điều kiện cơ bản nếu có.",
+          "h": "Use 'We have' and 'You need to...' (Present Simple).",
+          "s": "We have an installment plan. You need to pay a down payment."
+        },
+        {
+          "p": "Is cash preferred in store?",
+          "m": "Hỏi cửa hàng ưu tiên tiền mặt không. Hỏi nếu có giảm giá cho tiền mặt.",
+          "h": "Use 'We prefer' or 'We do not prefer' and 'discount' short.",
+          "s": "We do not prefer cash only. There is no discount for cash."
+        },
+        {
+          "p": "Can I get a receipt by email?",
+          "m": "Hỏi có gửi hóa đơn qua email không. Cho biết bạn muốn nhận liền hay sau.",
+          "h": "Use 'We can send' and time phrase (now/later).",
+          "s": "We can send the receipt by email. I want it now, please."
+        }
+      ]
+    },
+    {
+      "t": "Thời gian giao hàng",
+      "e": [
+        {
+          "p": "How long is delivery to my city?",
+          "m": "Hỏi thời gian giao hàng đến thành phố bạn. Hỏi nếu có giao hàng nhanh.",
+          "h": "Use 'Delivery takes' or 'It takes' + time.",
+          "s": "Delivery takes three days. There is an express option."
+        },
+        {
+          "p": "Do you ship on weekends?",
+          "m": "Hỏi có giao hàng cuối tuần không. Hỏi nếu thời gian thay đổi.",
+          "h": "Use 'We ship' and 'on weekends' or 'We do not'.",
+          "s": "We ship on weekends. Delivery time does not change."
+        },
+        {
+          "p": "Can I track my package?",
+          "m": "Hỏi có thể theo dõi kiện hàng không. Hỏi cần mã theo dõi hay email.",
+          "h": "Use 'You can track' and 'with + tracking number'.",
+          "s": "You can track your package. Use the tracking number we send."
+        },
+        {
+          "p": "Is there free shipping for orders over $50?",
+          "m": "Hỏi có miễn phí giao hàng cho đơn trên mức nào. Hỏi nếu áp dụng ngay.",
+          "h": "Use 'Yes, for orders over...' or 'No, we charge'.",
+          "s": "Yes, for orders over $50 we offer free shipping. It applies now."
+        },
+        {
+          "p": "What happens if my package is late?",
+          "m": "Hỏi quy trình khi hàng chậm. Hỏi nếu bạn được hoàn tiền hay bù đền.",
+          "h": "Use 'We will' + verb and 'You will get' or 'You can receive'.",
+          "s": "We will check the delivery status. You will get a refund if lost."
+        }
+      ]
+    },
+    {
+      "t": "Xác nhận và theo dõi đơn hàng",
+      "e": [
+        {
+          "p": "Can you confirm my order number?",
+          "m": "Hỏi xác nhận số đơn. Nói trạng thái hiện tại ngắn gọn.",
+          "h": "Use 'Your order number is...' and 'It is...' (Present Simple).",
+          "s": "Your order number is 12345. It is being processed."
+        },
+        {
+          "p": "Has my payment gone through?",
+          "m": "Hỏi xem thanh toán đã thành công chưa. Nói nếu cần chờ xác nhận.",
+          "h": "Use 'Your payment has' or 'has not' + past participle.",
+          "s": "Your payment has been received. You need no further action."
+        },
+        {
+          "p": "When will my order be dispatched?",
+          "m": "Hỏi ngày giao hàng sẽ được gửi. Nói thời gian dự kiến.",
+          "h": "Use 'We will dispatch' and 'on + day' or 'in + days'.",
+          "s": "We will dispatch your order tomorrow. It will arrive in three days."
+        },
+        {
+          "p": "Can I add items to my existing order?",
+          "m": "Hỏi có thể thêm hàng vào đơn không. Nói nếu có phí hay không.",
+          "h": "Use 'Yes, you can' or 'No, you cannot' and 'there is/there is not'.",
+          "s": "Yes, you can add items to your order. There is no extra fee."
+        },
+        {
+          "p": "How do I change my delivery time?",
+          "m": "Hỏi cách thay đổi giờ giao hàng. Nói phương thức thay đổi (call/email).",
+          "h": "Use 'Call us' or 'Email us' and 'to change'.",
+          "s": "Call us to change your delivery time. We will update it for you."
+        }
+      ]
+    },
+    {
+      "t": "Thay đổi địa chỉ giao hàng",
+      "e": [
+        {
+          "p": "Can I change my shipping address?",
+          "m": "Hỏi có thể thay địa chỉ giao hàng không. Nói bạn muốn thay thế bằng địa chỉ mới.",
+          "h": "Use 'Yes, you can' and 'Change to + new address'.",
+          "s": "Yes, you can change your shipping address. Change it to 123 Main St."
+        },
+        {
+          "p": "Do you deliver to my neighborhood?",
+          "m": "Hỏi có giao tới khu bạn ở không. Nói tên khu hoặc gần địa điểm nào.",
+          "h": "Use 'We deliver to' and 'near' preposition.",
+          "s": "We deliver to your neighborhood. It is near the city park."
+        },
+        {
+          "p": "Is there an extra fee for remote areas?",
+          "m": "Hỏi có phí thêm cho khu xa không. Hỏi nếu số tiền cụ thể.",
+          "h": "Use 'There is' or 'There is not' and amount.",
+          "s": "There is an extra fee for remote areas. The fee is $10."
+        },
+        {
+          "p": "Can I pick a specific delivery time slot?",
+          "m": "Hỏi có thể chọn khung giờ không. Nói khung giờ bạn muốn.",
+          "h": "Use 'You can choose' and time slot.",
+          "s": "You can choose a delivery time slot. I want the morning slot."
+        },
+        {
+          "p": "What if the courier can't find my house?",
+          "m": "Hỏi quy trình khi giao không thành công. Nói cách liên hệ lại với courier.",
+          "h": "Use 'We will' and 'Call us' or 'We will call'.",
+          "s": "We will contact you if the courier cannot find your house. Call us to give directions."
+        }
+      ]
+    },
+    {
+      "t": "Hỗ trợ kỹ thuật cơ bản",
+      "e": [
+        {
+          "p": "I can't log in to my account.",
+          "m": "Nói bạn có nhập đúng mật khẩu không. Nói nếu bạn muốn reset mật khẩu.",
+          "h": "Use 'I can't' and 'I want to reset' (Present Simple).",
+          "s": "I can't log in because I forgot my password. I want to reset my password."
+        },
+        {
+          "p": "Is the system down now?",
+          "m": "Hỏi hệ thống đang hoạt động không. Hỏi bạn cần làm gì bây giờ.",
+          "h": "Use 'The system is/ is not' and 'You can...' ",
+          "s": "The system is down right now. You can try again in 30 minutes."
+        },
+        {
+          "p": "How do I reset my password?",
+          "m": "Hỏi cách đặt lại mật khẩu. Hỏi nếu có link gửi email hay SMS.",
+          "h": "Use 'Click the link' and 'We will send' (Present Simple).",
+          "s": "Click the reset link on the login page. We will send it by email."
+        },
+        {
+          "p": "My app is not updating.",
+          "m": "Nói bạn đang dùng phiên bản cũ hay mới. Hỏi bạn muốn hướng dẫn cập nhật.",
+          "h": "Use Present Continuous or Simple: 'I am using' / 'Do you want...'? ",
+          "s": "I am using an older app version. I want instructions to update it."
+        },
+        {
+          "p": "Can you help me connect to Wi‑Fi?",
+          "m": "Hỏi bạn đã thử kết nối chưa. Nói nếu bạn cần trợ giúp ngay.",
+          "h": "Use 'I have tried' or 'I need help' and 'now'.",
+          "s": "I have tried but it still fails. I need help now."
+        }
+      ]
+    },
+    {
+      "t": "Chính sách đổi trả đơn giản",
+      "e": [
+        {
+          "p": "What is your return policy?",
+          "m": "Hỏi thời gian đổi trả. Hỏi hàng phải ở tình trạng nào.",
+          "h": "Use 'You can return within...' and 'must be...' ",
+          "s": "You can return items within 14 days. Items must be unused and in original packaging."
+        },
+        {
+          "p": "Can I get a refund or only exchange?",
+          "m": "Hỏi có được hoàn tiền hay chỉ đổi hàng. Hỏi nếu hoàn tiền mất thời gian bao lâu.",
+          "h": "Use 'You can get' and 'It takes...' ",
+          "s": "You can get a refund or an exchange. Refunds take 5 business days."
+        },
+        {
+          "p": "Do I need the receipt to return?",
+          "m": "Hỏi có cần hóa đơn không. Hỏi nếu có thể dùng mã đơn hàng thay thế.",
+          "h": "Use 'Yes, you need' or 'No, you can' and 'with order number'.",
+          "s": "Yes, you need the receipt to return. You can use your order number instead."
+        },
+        {
+          "p": "Who pays shipping for returns?",
+          "m": "Hỏi ai trả phí vận chuyển khi đổi trả. Hỏi nếu cửa hàng trả với lỗi của họ.",
+          "h": "Use 'We pay' or 'You pay' and reason.",
+          "s": "You pay for return shipping. We pay if the item is defective."
+        },
+        {
+          "p": "Can I return a sale item?",
+          "m": "Hỏi có thể đổi hàng giảm giá không. Hỏi điều kiện nếu được đổi.",
+          "h": "Use 'Sale items are' and condition short.",
+          "s": "Sale items are returnable within 7 days. They must be unopened."
+        }
+      ]
+    },
+    {
+      "t": "Hẹn lịch và dịch vụ tại chỗ",
+      "e": [
+        {
+          "p": "I want to book a service appointment.",
+          "m": "Nói bạn muốn dịch vụ nào. Nói ngày và giờ bạn mong muốn.",
+          "h": "Use 'I want to book' and time phrase (tomorrow, next week).",
+          "s": "I want to book a repair service. I want it next Monday at 10 am."
+        },
+        {
+          "p": "How long does a service appointment take?",
+          "m": "Hỏi thời gian dịch vụ. Hỏi nếu cần chuẩn bị trước.",
+          "h": "Use 'It takes' + time and 'You should...' ",
+          "s": "It takes about one hour. You should arrive five minutes early."
+        },
+        {
+          "p": "Can you come to my home?",
+          "m": "Hỏi có dịch vụ tại nhà không. Nói nếu có thêm phí đi lại.",
+          "h": "Use 'We can' or 'We cannot' and 'there is' for fee.",
+          "s": "We can come to your home. There is a small travel fee."
+        },
+        {
+          "p": "Do you need my order number for the appointment?",
+          "m": "Hỏi có cần số đơn không. Nói nếu bạn sẽ cung cấp số đó.",
+          "h": "Use 'Yes, we need' and 'Please give' or 'No, you do not'.",
+          "s": "Yes, we need your order number. I will give it now."
+        },
+        {
+          "p": "Can I cancel or reschedule my appointment?",
+          "m": "Hỏi có thể hủy hoặc dời lịch không. Nói hạn cuối để thay đổi.",
+          "h": "Use 'You can cancel' and 'by + time' or 'You can reschedule'.",
+          "s": "You can cancel or reschedule your appointment. Please tell us 24 hours before."
+        }
+      ]
+    },
+    {
+      "t": "Hủy hoặc tạm dừng dịch vụ",
+      "e": [
+        {
+          "p": "I want to cancel my subscription.",
+          "m": "Nói bạn muốn hủy dịch vụ. Nói lý do ngắn gọn nếu cần.",
+          "h": "Use 'I want to cancel' and 'because...' (short reason).",
+          "s": "I want to cancel my subscription. I am moving to another city."
+        },
+        {
+          "p": "Can I pause my service for a month?",
+          "m": "Hỏi có thể tạm dừng không. Hỏi nếu có phí khi tạm dừng.",
+          "h": "Use 'You can pause' and 'There is' or 'There is not'.",
+          "s": "You can pause your service for one month. There is no fee for pausing."
+        },
+        {
+          "p": "When will the cancellation take effect?",
+          "m": "Hỏi khi nào việc hủy có hiệu lực. Hỏi nếu có thời gian chờ.",
+          "h": "Use 'It will take effect' and time phrase 'in... days'.",
+          "s": "It will take effect in 3 days. There is a 3-day processing time."
+        },
+        {
+          "p": "Do I get a refund if I cancel early?",
+          "m": "Hỏi có được hoàn tiền khi hủy sớm không. Nói nếu có điều kiện nào kèm theo.",
+          "h": "Use 'You will get' or 'You will not get' and short condition.",
+          "s": "You will get a partial refund if you cancel early. The refund depends on used days."
+        },
+        {
+          "p": "How do I restart my service later?",
+          "m": "Hỏi cách khôi phục dịch vụ sau khi dừng. Nói phương thức bạn cần liên hệ.",
+          "h": "Use 'Call us' or 'Log in' and 'to restart'.",
+          "s": "Call us to restart your service. We will reactivate it for you."
+        }
+      ]
+    },
+    {
+      "t": "Ôn tập: Giao tiếp tổng hợp 1",
+      "e": [
+        {
+          "p": "Hello, I need help with an order and my account.",
+          "m": "Nói tên và vấn đề chính của bạn (đơn + tài khoản). Nói bạn muốn hỗ trợ ngay hay sau.",
+          "h": "Use 'I am [studentName]. I need...' and time ('now'/'later').",
+          "s": "I am [studentName]. I need help with my order and account now."
+        },
+        {
+          "p": "My order number is 67890 and it is not delivered.",
+          "m": "Xác nhận số đơn. Hỏi khi nào hàng sẽ được giao.",
+          "h": "Use 'Your order number is...' and 'It will arrive in...'.",
+          "s": "Your order number is 67890. It will arrive in two days."
+        },
+        {
+          "p": "I also forgot my password, can you send a reset link?",
+          "m": "Yêu cầu gửi link đặt lại mật khẩu. Nói bạn muốn nhận link bằng email hay SMS.",
+          "h": "Use 'We will send' and 'by email/SMS'.",
+          "s": "We will send a reset link. Send it by email, please."
+        },
+        {
+          "p": "Do you have the item in blue size M?",
+          "m": "Hỏi tồn kho cho màu và size. Hỏi có thể giữ hàng cho bạn không.",
+          "h": "Use 'There are + number' and 'We can reserve'.",
+          "s": "There are two blue items in size M. We can reserve one for you."
+        },
+        {
+          "p": "Can I pay now by card and get free shipping?",
+          "m": "Hỏi thanh toán bằng thẻ có được không. Hỏi nếu đơn đủ điều kiện miễn phí ship.",
+          "h": "Use 'Yes, you can' and 'Free shipping for orders over...'.",
+          "s": "Yes, you can pay by card now. Free shipping applies for orders over $50."
+        }
+      ]
+    },
+    {
+      "t": "Ôn tập: Giao tiếp tổng hợp 2",
+      "e": [
+        {
+          "p": "I want to book a technician to fix my device.",
+          "m": "Nói loại dịch vụ bạn cần. Nói ngày bạn muốn hẹn.",
+          "h": "Use 'I want to book' and time phrase.",
+          "s": "I want to book a repair service. I want it this Friday."
+        },
+        {
+          "p": "Will the technician come to my home and charge extra?",
+          "m": "Hỏi dịch vụ tại nhà có không. Hỏi có phí thêm không.",
+          "h": "Use 'We can' and 'There is/There is not' for fee.",
+          "s": "We can come to your home. There is a small travel fee."
+        },
+        {
+          "p": "My app shows an error when I try to pay.",
+          "m": "Mô tả lỗi ngắn. Hỏi nếu bạn cần thanh toán qua cách khác.",
+          "h": "Use 'I get an error' and 'I can pay by...'.",
+          "s": "I get an error when I try to pay. I can pay by phone instead."
+        },
+        {
+          "p": "I received a damaged item, what now?",
+          "m": "Nói bạn muốn đổi hay hoàn tiền. Hỏi thủ tục gửi trả hàng.",
+          "h": "Use 'I want a refund/exchange' and 'You must...' ",
+          "s": "I want a refund. You must send the item back to our store."
+        },
+        {
+          "p": "Can you confirm my new delivery address and time?",
+          "m": "Xác nhận địa chỉ và khung giờ mới. Nói nếu bạn cần thay đổi thêm.",
+          "h": "Use 'Your address is...' and 'Delivery time is...' ",
+          "s": "Your new address is 123 Main St. Delivery time is morning."
+        }
+      ]
+    },
+    {
+      "t": "Ôn tập: Giao tiếp tổng hợp 3",
+      "e": [
+        {
+          "p": "Hi, I'm a returning customer and I need help.",
+          "m": "Nói bạn là khách hàng cũ. Nói vấn đề bạn gặp hiện tại ngắn gọn.",
+          "h": "Use 'I am a returning customer' and 'I need...' ",
+          "s": "I am a returning customer. I need help with my subscription."
+        },
+        {
+          "p": "Can I pause my subscription for two months?",
+          "m": "Hỏi có thể tạm dừng trong 2 tháng không. Hỏi có phí hay không.",
+          "h": "Use 'You can' and 'There is/There is not' for fee.",
+          "s": "You can pause your subscription for two months. There is no fee."
+        },
+        {
+          "p": "I want to return one item from my order.",
+          "m": "Nói bạn muốn đổi trả một món. Nói bạn có hóa đơn hay mã đơn hàng.",
+          "h": "Use 'I want to return' and 'I have the receipt/order number'.",
+          "s": "I want to return one item. I have the order number."
+        },
+        {
+          "p": "Please tell me the refund time and method.",
+          "m": "Hỏi thời gian hoàn tiền. Hỏi tiền sẽ được trả bằng cách nào.",
+          "h": "Use 'Refund takes' and 'via + method'.",
+          "s": "Refund takes five business days. It will be via your original card."
+        },
+        {
+          "p": "Is there anything else I should know before we finish?",
+          "m": "Hỏi nếu có thông tin thêm. Nói bạn muốn nhận email tóm tắt hay không.",
+          "h": "Use 'There is' or 'There is not' and 'Send summary by email'.",
+          "s": "There is no other information. Send the summary by email, please."
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,565 @@
+{
+  "l": 1,
+  "d": [
+    {
+      "t": "Gặp đối tác mới",
+      "e": [
+        {
+          "p": "What's your name?",
+          "m": "Nói tên của bạn.",
+          "h": "S + be + name",
+          "s": "My name is [studentName]."
+        },
+        {
+          "p": "What is your job?",
+          "m": "Nói nghề nghiệp ngắn gọn.",
+          "h": "S + work + in + N",
+          "s": "I work in finance."
+        },
+        {
+          "p": "Do you work on mergers?",
+          "m": "Trả lời có hoặc không về việc bạn làm về sáp nhập.",
+          "h": "S + do/does + V? → Yes/No, S + V",
+          "s": "Yes, I work on mergers."
+        },
+        {
+          "p": "Can you help with a deal?",
+          "m": "Nói bạn có thể giúp một thương vụ hay không.",
+          "h": "S + can/can't + V",
+          "s": "Yes, I can help with a deal."
+        },
+        {
+          "p": "Where is your office?",
+          "m": "Nói nơi văn phòng (thành phố).",
+          "h": "S + be + in + place",
+          "s": "Our office is in [studentCity]."
+        }
+      ]
+    },
+    {
+      "t": "Nói về công ty",
+      "e": [
+        {
+          "p": "Is your company big?",
+          "m": "Trả lời công ty lớn hay không (one short sentence).",
+          "h": "S + be (am/is/are) + Adj",
+          "s": "The company is big."
+        },
+        {
+          "p": "How many people work there?",
+          "m": "Nói số nhân viên ngắn (một số).",
+          "h": "S + V + number (use digits or words)",
+          "s": "About 50 people work there."
+        },
+        {
+          "p": "Do you buy other companies?",
+          "m": "Trả lời có/không về việc mua công ty khác.",
+          "h": "S + do/does + V? → Yes/No, S + V",
+          "s": "No, we do not buy other companies."
+        },
+        {
+          "p": "What does your company sell?",
+          "m": "Nói một sản phẩm hoặc dịch vụ ngắn.",
+          "h": "S + V(s) + O",
+          "s": "We sell financial services."
+        },
+        {
+          "p": "Who is the boss?",
+          "m": "Nói ai là sếp (một tên hoặc vị trí ngắn).",
+          "h": "What/Who + be + N?",
+          "s": "The boss is the CEO."
+        }
+      ]
+    },
+    {
+      "t": "Thảo luận về giá",
+      "e": [
+        {
+          "p": "What is the price?",
+          "m": "Nói giá ngắn (một con số đơn giản).",
+          "h": "There is/are hoặc S + V + number",
+          "s": "The price is 1 million."
+        },
+        {
+          "p": "Is the price good?",
+          "m": "Trả lời ngắn về việc giá có tốt hay không.",
+          "h": "S + be + Adj",
+          "s": "Yes, the price is good."
+        },
+        {
+          "p": "Can we lower the price?",
+          "m": "Nói bạn có thể giảm giá không (yes/no).",
+          "h": "S + can/can't + V",
+          "s": "No, we cannot lower the price."
+        },
+        {
+          "p": "Do you accept our offer?",
+          "m": "Trả lời có/không chấp nhận lời chào giá.",
+          "h": "S + do/does + V? → Yes/No, S + V",
+          "s": "Yes, we accept your offer."
+        },
+        {
+          "p": "Who pays the fee?",
+          "m": "Nói ai trả phí (một từ: buyer/seller).",
+          "h": "Who + be + V?",
+          "s": "The buyer pays the fee."
+        }
+      ]
+    },
+    {
+      "t": "Lịch họp và cuộc gọi",
+      "e": [
+        {
+          "p": "When is the meeting?",
+          "m": "Nói thời gian ngắn (ví dụ: today, tomorrow).",
+          "h": "Use time words (today/tomorrow) with S + be",
+          "s": "The meeting is tomorrow."
+        },
+        {
+          "p": "Can you join a call now?",
+          "m": "Trả lời có/không bạn có thể tham gia cuộc gọi ngay.",
+          "h": "S + can/can't + V",
+          "s": "No, I cannot join now."
+        },
+        {
+          "p": "Do you have 30 minutes?",
+          "m": "Trả lời có/không bạn có 30 phút.",
+          "h": "S + have/has + time",
+          "s": "Yes, I have thirty minutes."
+        },
+        {
+          "p": "Where is the meeting room?",
+          "m": "Nói nơi họp ngắn (ví dụ: room, office).",
+          "h": "There is/are hoặc S + be + place",
+          "s": "The meeting room is on the second floor."
+        },
+        {
+          "p": "Who will join the call?",
+          "m": "Nói một người tham gia (vị trí ngắn).",
+          "h": "Who + be + N",
+          "s": "The partner will join the call."
+        }
+      ]
+    },
+    {
+      "t": "Quyết định đơn giản",
+      "e": [
+        {
+          "p": "Do you want to buy?",
+          "m": "Trả lời có/không muốn mua.",
+          "h": "S + want(s) + to + V",
+          "s": "Yes, I want to buy."
+        },
+        {
+          "p": "Is this plan good?",
+          "m": "Nói kế hoạch có tốt hay không.",
+          "h": "S + be + Adj",
+          "s": "The plan is good."
+        },
+        {
+          "p": "Can you decide now?",
+          "m": "Trả lời bạn có thể quyết định ngay hay không.",
+          "h": "S + can/can't + V",
+          "s": "No, I cannot decide now."
+        },
+        {
+          "p": "Who decides in your company?",
+          "m": "Nói ai quyết định (một vị trí ngắn).",
+          "h": "Who + be + N",
+          "s": "The board decides."
+        },
+        {
+          "p": "Do you need more time?",
+          "m": "Trả lời có/không bạn cần thêm thời gian.",
+          "h": "S + need/needs + more + N",
+          "s": "Yes, I need more time."
+        }
+      ]
+    },
+    {
+      "t": "Câu hỏi về tài chính",
+      "e": [
+        {
+          "p": "Do you have enough money?",
+          "m": "Trả lời có/không đủ tiền.",
+          "h": "S + have/has + enough + N",
+          "s": "No, we do not have enough money."
+        },
+        {
+          "p": "How much do you need?",
+          "m": "Nói một số tiền ngắn.",
+          "h": "Use number + N",
+          "s": "We need one hundred thousand."
+        },
+        {
+          "p": "Can the bank help?",
+          "m": "Nói ngân hàng có thể giúp hay không (yes/no).",
+          "h": "S + can/can't + V",
+          "s": "Yes, the bank can help."
+        },
+        {
+          "p": "Is the fund ready?",
+          "m": "Trả lời quỹ đã sẵn sàng hay chưa.",
+          "h": "S + be + ready / not ready",
+          "s": "The fund is ready."
+        },
+        {
+          "p": "Who pays now?",
+          "m": "Nói ai sẽ trả ngay (buyer/seller/ngân hàng).",
+          "h": "Who + V + now?",
+          "s": "The buyer pays now."
+        }
+      ]
+    },
+    {
+      "t": "Vai trò trong thương vụ",
+      "e": [
+        {
+          "p": "Are you the buyer?",
+          "m": "Trả lời bạn có phải là người mua không.",
+          "h": "S + be + N",
+          "s": "No, I am not the buyer."
+        },
+        {
+          "p": "Are you the seller?",
+          "m": "Trả lời bạn có phải là người bán không.",
+          "h": "S + be + N",
+          "s": "Yes, I am the seller."
+        },
+        {
+          "p": "Do you work with a partner?",
+          "m": "Trả lời có/không bạn làm việc với đối tác.",
+          "h": "S + do/does + V? → Yes/No",
+          "s": "Yes, I work with a partner."
+        },
+        {
+          "p": "Who is the legal advisor?",
+          "m": "Nói ai là cố vấn pháp lý (một từ hoặc vị trí).",
+          "h": "Who + be + N",
+          "s": "The lawyer is the legal advisor."
+        },
+        {
+          "p": "Can the team sign today?",
+          "m": "Trả lời có/không đội có thể ký hôm nay.",
+          "h": "S + can/can't + V",
+          "s": "No, the team cannot sign today."
+        }
+      ]
+    },
+    {
+      "t": "Hỏi về rủi ro",
+      "e": [
+        {
+          "p": "Is there a risk?",
+          "m": "Trả lời có/không có rủi ro.",
+          "h": "There is/are + N",
+          "s": "Yes, there is a risk."
+        },
+        {
+          "p": "What is the risk?",
+          "m": "Nói một rủi ro ngắn (một từ).",
+          "h": "S + V + O",
+          "s": "The risk is low profit."
+        },
+        {
+          "p": "Can we reduce the risk?",
+          "m": "Trả lời có/không chúng ta có thể giảm rủi ro.",
+          "h": "S + can/can't + V",
+          "s": "Yes, we can reduce the risk."
+        },
+        {
+          "p": "Who checks the risk?",
+          "m": "Nói ai kiểm tra rủi ro (một vị trí).",
+          "h": "Who + V + the + N",
+          "s": "The auditor checks the risk."
+        },
+        {
+          "p": "Do you accept the risk?",
+          "m": "Trả lời có/không bạn chấp nhận rủi ro.",
+          "h": "Yes/No, S + V",
+          "s": "No, I do not accept the risk."
+        }
+      ]
+    },
+    {
+      "t": "Giao dịch mua nhỏ",
+      "e": [
+        {
+          "p": "Do you buy small companies?",
+          "m": "Trả lời có/không bạn mua công ty nhỏ.",
+          "h": "S + do/does + V? → Yes/No",
+          "s": "Yes, we buy small companies."
+        },
+        {
+          "p": "Is the target company small?",
+          "m": "Trả lời công ty mục tiêu có nhỏ hay không.",
+          "h": "S + be + Adj",
+          "s": "The target company is small."
+        },
+        {
+          "p": "Can you pay now?",
+          "m": "Trả lời có/không bạn có thể trả tiền ngay.",
+          "h": "S + can/can't + V",
+          "s": "No, we cannot pay now."
+        },
+        {
+          "p": "Who signs the paper?",
+          "m": "Nói ai ký giấy tờ (one person).",
+          "h": "Who + V + the + N",
+          "s": "The CEO signs the paper."
+        },
+        {
+          "p": "Do you like this deal?",
+          "m": "Trả lời có/không bạn thích thương vụ này.",
+          "h": "Yes/No, S + V",
+          "s": "Yes, I like this deal."
+        }
+      ]
+    },
+    {
+      "t": "Giao tiếp với ngân hàng",
+      "e": [
+        {
+          "p": "Do you have a bank account?",
+          "m": "Trả lời có/không bạn có tài khoản ngân hàng.",
+          "h": "S + have/has + N",
+          "s": "Yes, I have a bank account."
+        },
+        {
+          "p": "Can the bank approve the loan?",
+          "m": "Trả lời có/không ngân hàng có thể duyệt vay.",
+          "h": "S + can/can't + V",
+          "s": "Yes, the bank can approve the loan."
+        },
+        {
+          "p": "How much is the loan?",
+          "m": "Nói một số tiền cho vay ngắn.",
+          "h": "Use number + N",
+          "s": "The loan is one million."
+        },
+        {
+          "p": "Do you pay the bank now?",
+          "m": "Trả lời có/không bạn trả ngân hàng bây giờ.",
+          "h": "Yes/No, S + V",
+          "s": "No, we do not pay the bank now."
+        },
+        {
+          "p": "Who talks to the bank?",
+          "m": "Nói ai nói chuyện với ngân hàng (một người).",
+          "h": "Who + V + to + N",
+          "s": "The CFO talks to the bank."
+        }
+      ]
+    },
+    {
+      "t": "Thỏa thuận và chữ ký",
+      "e": [
+        {
+          "p": "Do you sign the contract?",
+          "m": "Trả lời có/không bạn ký hợp đồng.",
+          "h": "S + do/does + V? → Yes/No",
+          "s": "No, I do not sign the contract."
+        },
+        {
+          "p": "Is the contract ready?",
+          "m": "Trả lời hợp đồng đã sẵn sàng hay chưa.",
+          "h": "S + be + ready",
+          "s": "The contract is ready."
+        },
+        {
+          "p": "Can we change one clause?",
+          "m": "Trả lời có/không chúng ta có thể thay một điều khoản.",
+          "h": "S + can/can't + V",
+          "s": "Yes, we can change one clause."
+        },
+        {
+          "p": "Who signs first?",
+          "m": "Nói ai ký trước (một người).",
+          "h": "Who + V + first",
+          "s": "The seller signs first."
+        },
+        {
+          "p": "Do you agree with the terms?",
+          "m": "Trả lời có/không bạn đồng ý với các điều khoản.",
+          "h": "Yes/No, S + V",
+          "s": "Yes, I agree with the terms."
+        }
+      ]
+    },
+    {
+      "t": "Vấn đề trong giao dịch",
+      "e": [
+        {
+          "p": "Is there a problem?",
+          "m": "Trả lời có/không có vấn đề.",
+          "h": "There is/are + N",
+          "s": "Yes, there is a problem."
+        },
+        {
+          "p": "What is the problem?",
+          "m": "Nói một vấn đề ngắn (một câu).",
+          "h": "S + V + O",
+          "s": "The price is too high."
+        },
+        {
+          "p": "Can we fix it?",
+          "m": "Trả lời có/không chúng ta có thể sửa được.",
+          "h": "S + can/can't + V",
+          "s": "Yes, we can fix it."
+        },
+        {
+          "p": "Who solves the problem?",
+          "m": "Nói ai giải quyết (một người).",
+          "h": "Who + V + the + N",
+          "s": "The manager solves the problem."
+        },
+        {
+          "p": "Do you need help now?",
+          "m": "Trả lời có/không bạn cần giúp ngay.",
+          "h": "Yes/No, S + V",
+          "s": "No, I do not need help now."
+        }
+      ]
+    },
+    {
+      "t": "Thông báo và cập nhật",
+      "e": [
+        {
+          "p": "Do you have an update?",
+          "m": "Trả lời có/không bạn có cập nhật.",
+          "h": "S + have/has + N",
+          "s": "Yes, I have an update."
+        },
+        {
+          "p": "What is the update?",
+          "m": "Nói cập nhật ngắn (một ý).",
+          "h": "S + V + O",
+          "s": "We close the deal today."
+        },
+        {
+          "p": "Can you send a report?",
+          "m": "Trả lời có/không bạn có thể gửi báo cáo.",
+          "h": "S + can/can't + V",
+          "s": "Yes, I can send a report."
+        },
+        {
+          "p": "Who receives the report?",
+          "m": "Nói ai nhận báo cáo (một người).",
+          "h": "Who + V + the + N",
+          "s": "The CEO receives the report."
+        },
+        {
+          "p": "Do you confirm the update?",
+          "m": "Trả lời có/không bạn xác nhận cập nhật.",
+          "h": "Yes/No, S + V",
+          "s": "Yes, I confirm the update."
+        }
+      ]
+    },
+    {
+      "t": "Ôn tập: Giao tiếp cơ bản về giao dịch",
+      "e": [
+        {
+          "p": "Who are you in the deal?",
+          "m": "Nói vai trò của bạn trong thương vụ (một từ hoặc cụm ngắn).",
+          "h": "S + be + N",
+          "s": "I am the buyer."
+        },
+        {
+          "p": "Do you want to buy now?",
+          "m": "Trả lời có/không bạn muốn mua ngay.",
+          "h": "S + want(s) + to + V",
+          "s": "No, I do not want to buy now."
+        },
+        {
+          "p": "Can the bank give money?",
+          "m": "Trả lời có/không ngân hàng có thể cho tiền.",
+          "h": "S + can/can't + V",
+          "s": "Yes, the bank can give money."
+        },
+        {
+          "p": "What is the meeting time?",
+          "m": "Nói thời gian họp ngắn.",
+          "h": "Use today/tomorrow + S + be",
+          "s": "The meeting is today."
+        },
+        {
+          "p": "Do you accept the contract?",
+          "m": "Trả lời có/không bạn chấp nhận hợp đồng.",
+          "h": "Yes/No, S + V",
+          "s": "Yes, I accept the contract."
+        }
+      ]
+    },
+    {
+      "t": "Ôn tập: Quyết định và rủi ro",
+      "e": [
+        {
+          "p": "Is the deal risky?",
+          "m": "Trả lời có/không thương vụ rủi ro.",
+          "h": "S + be + Adj",
+          "s": "Yes, the deal is risky."
+        },
+        {
+          "p": "Do you accept the risk?",
+          "m": "Trả lời có/không bạn chấp nhận rủi ro.",
+          "h": "Yes/No, S + V",
+          "s": "No, I do not accept the risk."
+        },
+        {
+          "p": "Can we reduce the price?",
+          "m": "Trả lời có/không chúng ta có thể giảm giá.",
+          "h": "S + can/can't + V",
+          "s": "Yes, we can reduce the price."
+        },
+        {
+          "p": "Who decides the price?",
+          "m": "Nói ai quyết định giá (một người).",
+          "h": "Who + V + the + N",
+          "s": "The manager decides the price."
+        },
+        {
+          "p": "Do you need more time to decide?",
+          "m": "Trả lời có/không bạn cần thêm thời gian để quyết định.",
+          "h": "S + need/needs + more + N",
+          "s": "Yes, I need more time to decide."
+        }
+      ]
+    },
+    {
+      "t": "Ôn tập: Hoàn tất thương vụ",
+      "e": [
+        {
+          "p": "Is the deal complete?",
+          "m": "Trả lời có/không thương vụ hoàn tất.",
+          "h": "S + be + Adj",
+          "s": "No, the deal is not complete."
+        },
+        {
+          "p": "Do you sign the papers now?",
+          "m": "Trả lời có/không bạn ký giấy tờ bây giờ.",
+          "h": "S + do/does + V? → Yes/No",
+          "s": "No, I do not sign the papers now."
+        },
+        {
+          "p": "Can we transfer the money today?",
+          "m": "Trả lời có/không chúng ta có thể chuyển tiền hôm nay.",
+          "h": "S + can/can't + V",
+          "s": "Yes, we can transfer the money today."
+        },
+        {
+          "p": "Who receives the payment?",
+          "m": "Nói ai nhận thanh toán (một người).",
+          "h": "Who + V + the + N",
+          "s": "The seller receives the payment."
+        },
+        {
+          "p": "Do you close the deal now?",
+          "m": "Trả lời có/không bạn đóng thương vụ ngay bây giờ.",
+          "h": "Yes/No, S + V",
+          "s": "Yes, we close the deal now."
+        }
+      ]
+    }
+  ]
+}

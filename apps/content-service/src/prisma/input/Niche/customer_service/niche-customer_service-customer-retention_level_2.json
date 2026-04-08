@@ -1,0 +1,530 @@
+{
+  "l": 2,
+  "d": [
+    {
+      "t": "Hỏi về trải nghiệm mua sắm",
+      "e": [
+        {
+          "p": "Hello! Are you happy with our store today?",
+          "m": "Trả lời bạn có hài lòng không. Nói thêm bạn thích gì về cửa hàng.",
+          "h": "Sử dụng 'Yes, I am happy.' và 'I like...'",
+          "s": "Yes, I am happy. I like your good products."
+        },
+        {
+          "p": "What do you usually buy here?",
+          "m": "Trả lời bạn thường mua gì. Nói thêm bạn cần chúng cho việc gì.",
+          "h": "Dùng 'I usually buy...' và 'I need it/them for...'",
+          "s": "I usually buy milk. I need it for my children."
+        },
+        {
+          "p": "Do you often come to our store?",
+          "m": "Trả lời bạn có thường xuyên đến không. Nói thêm bạn đến vào thời điểm nào.",
+          "h": "Dùng 'Yes, I often come here.' và 'I come here on...'",
+          "s": "Yes, I often come here. I come here on Saturdays."
+        },
+        {
+          "p": "Is there anything you are looking for right now?",
+          "m": "Trả lời bạn đang tìm kiếm gì. Nói thêm bạn cần nó cho ai.",
+          "h": "Dùng 'I am looking for...' và 'I need it for...'",
+          "s": "I am looking for a new book. I need it for my friend."
+        },
+        {
+          "p": "How do you feel about our store location?",
+          "m": "Trả lời bạn cảm thấy thế nào về vị trí cửa hàng. Nói thêm nó có gần nhà bạn không.",
+          "h": "Sử dụng 'It is good/bad.' và 'It is near/far from...'",
+          "s": "It is good. It is near my house."
+        }
+      ]
+    },
+    {
+      "t": "Khách hàng thích gì về sản phẩm",
+      "e": [
+        {
+          "p": "What is your favorite product from us?",
+          "m": "Nêu tên sản phẩm yêu thích của bạn. Giải thích tại sao bạn thích nó.",
+          "h": "Dùng 'My favorite is...' và 'It is...'",
+          "s": "My favorite is the hot coffee. It is very tasty."
+        },
+        {
+          "p": "Do you like our new product line?",
+          "m": "Trả lời bạn có thích dòng sản phẩm mới không. Nói thêm bạn thích sản phẩm nào nhất.",
+          "h": "Sử dụng 'Yes, I like it.' và 'I like the... most.'",
+          "s": "Yes, I like it. I like the new cakes most."
+        },
+        {
+          "p": "How often do you buy our special bread?",
+          "m": "Trả lời bạn mua bánh mì đặc biệt của họ bao lâu một lần. Nói thêm nó có ngon không.",
+          "h": "Dùng 'I buy it often.' hoặc 'I buy it every...' và 'It is good.'",
+          "s": "I buy it every week. It is always fresh and good."
+        },
+        {
+          "p": "Are you happy with the quality of our clothes?",
+          "m": "Trả lời bạn có hài lòng với chất lượng quần áo không. Nói thêm bạn thích màu gì.",
+          "h": "Sử dụng 'Yes, I am happy.' và 'I like the... color.'",
+          "s": "Yes, I am happy. I like the blue one."
+        },
+        {
+          "p": "What do you think about our fruit selection?",
+          "m": "Trả lời bạn nghĩ gì về lựa chọn trái cây của họ. Nói thêm bạn thích loại quả nào.",
+          "h": "Dùng 'It is good/bad.' và 'I like the...'",
+          "s": "It is good. I like the big apples."
+        }
+      ]
+    },
+    {
+      "t": "Phản hồi về dịch vụ của cửa hàng",
+      "e": [
+        {
+          "p": "Is our service quick and helpful for you?",
+          "m": "Trả lời dịch vụ có nhanh và hữu ích không. Nói thêm bạn có hài lòng không.",
+          "h": "Dùng 'Yes, it is quick.' và 'I am happy.'",
+          "s": "Yes, it is quick. I am happy with it."
+        },
+        {
+          "p": "Do you always get help when you need it?",
+          "m": "Trả lời bạn có luôn nhận được sự giúp đỡ không. Nói thêm nhân viên có thân thiện không.",
+          "h": "Sử dụng 'Yes, I always get help.' và 'They are nice.'",
+          "s": "Yes, I always get help. The staff is very friendly."
+        },
+        {
+          "p": "How do you feel about our store's atmosphere?",
+          "m": "Nói bạn cảm thấy thế nào về không khí cửa hàng. Giải thích nó có dễ chịu không.",
+          "h": "Dùng 'I feel good/bad.' và 'It is nice.'",
+          "s": "I feel good. It is a very clean and quiet place."
+        },
+        {
+          "p": "Are the aisles easy to navigate for you?",
+          "m": "Trả lời các lối đi có dễ di chuyển không. Nói thêm bạn có dễ tìm sản phẩm không.",
+          "h": "Dùng 'Yes, they are easy.' và 'I find products easily.'",
+          "s": "Yes, they are easy. I find products fast."
+        },
+        {
+          "p": "What about the checkout process? Is it usually fast?",
+          "m": "Trả lời quá trình thanh toán có nhanh không. Nói thêm bạn có phải chờ lâu không.",
+          "h": "Dùng 'Yes, it is fast.' hoặc 'No, it is slow.' và 'I never wait long.'",
+          "s": "Yes, it is usually fast. I never wait long."
+        }
+      ]
+    },
+    {
+      "t": "Thảo luận về các gợi ý cải thiện",
+      "e": [
+        {
+          "p": "Do you have any ideas for our store?",
+          "m": "Trả lời bạn có ý tưởng nào không. Nói thêm bạn muốn thấy điều gì mới.",
+          "h": "Dùng 'Yes, I have an idea.' và 'I want new...'",
+          "s": "Yes, I have an idea. I want new toys for kids."
+        },
+        {
+          "p": "What product would you like to see more of?",
+          "m": "Nêu sản phẩm bạn muốn thấy nhiều hơn. Giải thích tại sao bạn thích sản phẩm đó.",
+          "h": "Dùng 'I want more...' và 'It is good.'",
+          "s": "I want more fresh fruit. It is always healthy."
+        },
+        {
+          "p": "Is there anything we can do better for you?",
+          "m": "Trả lời liệu họ có thể làm gì tốt hơn không. Gợi ý một điều cụ thể.",
+          "h": "Dùng 'Yes, you can...' và 'I need this.'",
+          "s": "Yes, you can open earlier. I need coffee in the morning."
+        },
+        {
+          "p": "What hours are best for you to shop?",
+          "m": "Nêu thời gian tốt nhất để bạn mua sắm. Nói thêm bạn thường bận vào khi nào.",
+          "h": "Dùng 'The best time is...' và 'I am busy on...'",
+          "s": "The best time is in the evening. I am busy in the morning."
+        },
+        {
+          "p": "Are you happy with our current prices?",
+          "m": "Trả lời bạn có hài lòng với giá cả hiện tại không. Nói thêm bạn muốn giá thấp hơn hay không.",
+          "h": "Dùng 'Yes, I am happy.' hoặc 'No, they are high.' và 'I want lower prices.'",
+          "s": "Yes, I am happy. The prices are good."
+        }
+      ]
+    },
+    {
+      "t": "Thói quen mua sắm của bạn",
+      "e": [
+        {
+          "p": "How often do you visit this shopping center?",
+          "m": "Trả lời bạn ghé thăm trung tâm mua sắm này bao lâu một lần. Nói thêm bạn thường đến một mình hay với ai.",
+          "h": "Dùng 'I visit it every...' và 'I often go with...'",
+          "s": "I visit it every week. I often go with my family."
+        },
+        {
+          "p": "Do you often look for new things here?",
+          "m": "Trả lời bạn có thường tìm đồ mới không. Nói thêm bạn thích khám phá gì.",
+          "h": "Dùng 'Yes, I often look for...' và 'I like to see...'",
+          "s": "Yes, I often look for new clothes. I like to see pretty dresses."
+        },
+        {
+          "p": "What kind of stores do you like most?",
+          "m": "Nêu loại cửa hàng bạn thích nhất. Giải thích tại sao bạn thích chúng.",
+          "h": "Dùng 'I like... stores most.' và 'They are good.'",
+          "s": "I like book stores most. They are quiet and nice."
+        },
+        {
+          "p": "Are you busy when you come shopping?",
+          "m": "Trả lời bạn có bận khi đi mua sắm không. Nói thêm bạn có nhiều thời gian không.",
+          "h": "Dùng 'Yes, I am busy.' hoặc 'No, I am not busy.' và 'I have little time.'",
+          "s": "No, I am not busy. I have much time for shopping."
+        },
+        {
+          "p": "Do you like to plan your shopping list or just look around?",
+          "m": "Trả lời bạn thích lập danh sách hay chỉ xem. Nói thêm bạn thường mua bao nhiêu món đồ.",
+          "h": "Dùng 'I like to plan/look around.' và 'I buy many things.'",
+          "s": "I like to plan my list. I usually buy five things."
+        }
+      ]
+    },
+    {
+      "t": "Lý do khách hàng quay lại cửa hàng",
+      "e": [
+        {
+          "p": "Why do you come back to our store?",
+          "m": "Giải thích lý do bạn quay lại. Nêu một điều bạn thích nhất.",
+          "h": "Dùng 'I come back because...' và 'I like the...'",
+          "s": "I come back because your service is good. I like the friendly staff."
+        },
+        {
+          "p": "Are our prices a big reason for you to return?",
+          "m": "Trả lời giá cả có phải lý do lớn không. Nói thêm giá có hợp lý không.",
+          "h": "Dùng 'Yes, prices are important.' hoặc 'No, they are not.' và 'They are good.'",
+          "s": "Yes, prices are a big reason. They are very fair."
+        },
+        {
+          "p": "Do you feel happy when you shop here?",
+          "m": "Trả lời bạn có cảm thấy vui khi mua sắm ở đây không. Giải thích lý do.",
+          "h": "Dùng 'Yes, I feel happy.' và 'It is a nice place.'",
+          "s": "Yes, I feel happy. It is a nice and clean place."
+        },
+        {
+          "p": "What product makes you want to come back most often?",
+          "m": "Nêu sản phẩm khiến bạn muốn quay lại thường xuyên nhất. Giải thích nó có ngon không.",
+          "h": "Dùng 'The... makes me come back.' và 'It is very good.'",
+          "s": "The fresh pastries make me come back. They are always delicious."
+        },
+        {
+          "p": "Is the location important for your return visits?",
+          "m": "Trả lời vị trí có quan trọng cho việc quay lại của bạn không. Nói thêm nó có gần nhà bạn không.",
+          "h": "Dùng 'Yes, location is important.' hoặc 'No, it is not.' và 'It is near my house.'",
+          "s": "Yes, location is important. It is very near my office."
+        }
+      ]
+    },
+    {
+      "t": "Giới thiệu ưu đãi và chương trình khách hàng",
+      "e": [
+        {
+          "p": "We have a special discount today. Are you interested?",
+          "m": "Trả lời bạn có quan tâm không. Nói thêm bạn muốn mua gì.",
+          "h": "Dùng 'Yes, I am interested.' và 'I want to buy...'",
+          "s": "Yes, I am interested. I want to buy some fruit."
+        },
+        {
+          "p": "Do you want to join our loyalty program?",
+          "m": "Trả lời bạn có muốn tham gia không. Nói thêm bạn muốn nhận được gì từ đó.",
+          "h": "Dùng 'Yes, I want to join.' và 'I want to get...'",
+          "s": "Yes, I want to join. I want to get special offers."
+        },
+        {
+          "p": "Our members always get a small gift. Do you like gifts?",
+          "m": "Trả lời bạn có thích quà không. Nói thêm bạn muốn món quà như thế nào.",
+          "h": "Dùng 'Yes, I like gifts.' và 'I like small things.'",
+          "s": "Yes, I like gifts. I like useful things."
+        },
+        {
+          "p": "We are having a special sale next week. Will you come?",
+          "m": "Trả lời bạn có đến không. Nói thêm bạn muốn mua gì vào tuần tới.",
+          "h": "Dùng 'Yes, I will come.' và 'I want to buy... next week.'",
+          "s": "Yes, I will come. I want to buy a new shirt next week."
+        },
+        {
+          "p": "How do you feel about getting special emails from us?",
+          "m": "Trả lời bạn cảm thấy thế nào về việc nhận email. Nói thêm bạn có thường đọc chúng không.",
+          "h": "Dùng 'I feel good.' hoặc 'I do not like it.' và 'I often read them.'",
+          "s": "I feel good. I often read them for good deals."
+        }
+      ]
+    },
+    {
+      "t": "Đánh giá sự hài lòng với dịch vụ hỗ trợ",
+      "e": [
+        {
+          "p": "Did you get good help from our team yesterday?",
+          "m": "Trả lời bạn có nhận được sự giúp đỡ tốt không. Nói thêm người hỗ trợ có thân thiện không.",
+          "h": "Dùng 'Yes, I got good help.' và 'They were friendly.'",
+          "s": "Yes, I got good help. They were very kind."
+        },
+        {
+          "p": "How long did you wait for support?",
+          "m": "Trả lời bạn đã chờ bao lâu. Nói thêm bạn có hài lòng với thời gian chờ không.",
+          "h": "Dùng 'I waited for...' và 'I am happy/not happy.'",
+          "s": "I waited for five minutes. I am happy with that."
+        },
+        {
+          "p": "Was your problem solved quickly?",
+          "m": "Trả lời vấn đề của bạn có được giải quyết nhanh không. Nói thêm bạn có cảm thấy hài lòng không.",
+          "h": "Dùng 'Yes, it was solved quickly.' và 'I feel happy.'",
+          "s": "Yes, it was solved quickly. I feel very happy."
+        },
+        {
+          "p": "Do you feel our staff always tries their best?",
+          "m": "Trả lời bạn có cảm thấy nhân viên luôn cố gắng hết sức không. Nói thêm bạn có tin tưởng họ không.",
+          "h": "Dùng 'Yes, I feel they try their best.' và 'I trust them.'",
+          "s": "Yes, I feel they try their best. I trust them much."
+        },
+        {
+          "p": "Is there anything we can improve in our support service?",
+          "m": "Nêu một điều họ có thể cải thiện. Giải thích nó sẽ giúp ích như thế nào.",
+          "h": "Dùng 'You can improve...' và 'It helps me.'",
+          "s": "You can improve the phone support. It helps me a lot."
+        }
+      ]
+    },
+    {
+      "t": "Giải quyết một vấn đề nhỏ cho khách",
+      "e": [
+        {
+          "p": "I see you have a problem. Can I help you?",
+          "m": "Trả lời bạn đang gặp vấn đề gì. Hỏi liệu họ có thể giúp được không.",
+          "h": "Dùng 'Yes, I have a problem.' và 'Can you help me?'",
+          "s": "Yes, I have a problem with this toy. Can you help me?"
+        },
+        {
+          "p": "What is wrong with your product?",
+          "m": "Nêu điều gì không ổn với sản phẩm của bạn. Giải thích nó có hoạt động không.",
+          "h": "Dùng 'The... is broken.' hoặc 'It is not working.'",
+          "s": "The small light is broken. It is not working now."
+        },
+        {
+          "p": "Did you buy it here last week?",
+          "m": "Trả lời bạn có mua nó ở đây vào tuần trước không. Nói thêm bạn có hóa đơn không.",
+          "h": "Dùng 'Yes, I bought it last week.' và 'I have the receipt.'",
+          "s": "Yes, I bought it last week. I have the receipt here."
+        },
+        {
+          "p": "Do you want a new one, or do you want your money back?",
+          "m": "Trả lời bạn muốn một cái mới hay hoàn tiền. Nói thêm điều gì tốt hơn cho bạn.",
+          "h": "Dùng 'I want a new one.' hoặc 'I want my money back.' và 'It is better for me.'",
+          "s": "I want a new one. It is better for me now."
+        },
+        {
+          "p": "I am fixing it now. Are you waiting here or coming back later?",
+          "m": "Trả lời bạn sẽ chờ ở đây hay quay lại sau. Nói thêm bạn có bận không.",
+          "h": "Dùng 'I am waiting here.' hoặc 'I am coming back later.' và 'I am busy.'",
+          "s": "I am waiting here. I am not busy today."
+        }
+      ]
+    },
+    {
+      "t": "Góp ý về sản phẩm mới hoặc dịch vụ mới",
+      "e": [
+        {
+          "p": "Have you tried our new coffee?",
+          "m": "Trả lời bạn đã thử cà phê mới chưa. Nói thêm bạn có thích nó không.",
+          "h": "Dùng 'Yes, I tried it.' hoặc 'No, I did not.' và 'I like it.'",
+          "s": "Yes, I tried it yesterday. I like it very much."
+        },
+        {
+          "p": "What do you think about the taste of it?",
+          "m": "Nói bạn nghĩ gì về hương vị của nó. Giải thích nó có ngon không.",
+          "h": "Dùng 'I think it is...' và 'It is tasty.'",
+          "s": "I think it is very strong. It is tasty and hot."
+        },
+        {
+          "p": "Is our new delivery service easy for you?",
+          "m": "Trả lời dịch vụ giao hàng mới có dễ dàng không. Nói thêm bạn có thường dùng nó không.",
+          "h": "Dùng 'Yes, it is easy.' và 'I often use it.'",
+          "s": "Yes, it is easy. I often use it for food."
+        },
+        {
+          "p": "How many times did you use the delivery service last month?",
+          "m": "Trả lời bạn đã dùng dịch vụ bao nhiêu lần. Nói thêm nó có nhanh không.",
+          "h": "Dùng 'I used it... times.' và 'It is fast.'",
+          "s": "I used it three times. It is very fast."
+        },
+        {
+          "p": "Do you have any suggestions for our new mobile app?",
+          "m": "Trả lời bạn có gợi ý nào cho ứng dụng mới không. Nêu một tính năng bạn muốn.",
+          "h": "Dùng 'Yes, I have a suggestion.' và 'I want a new feature.'",
+          "s": "Yes, I have a suggestion. I want a chat option."
+        }
+      ]
+    },
+    {
+      "t": "Kể về một trải nghiệm tích cực",
+      "e": [
+        {
+          "p": "Tell me about a good experience you had here.",
+          "m": "Kể về một trải nghiệm tốt. Nêu điều gì đã xảy ra.",
+          "h": "Dùng 'I had a good experience.' và 'The staff helped me.'",
+          "s": "I had a good experience last week. The staff helped me find a gift."
+        },
+        {
+          "p": "What made you feel happy during that visit?",
+          "m": "Nêu điều gì đã làm bạn vui. Giải thích nó có tốt không.",
+          "h": "Dùng 'The service made me happy.' và 'It was very good.'",
+          "s": "The quick help made me happy. It was very efficient."
+        },
+        {
+          "p": "Did you feel special as a customer?",
+          "m": "Trả lời bạn có cảm thấy đặc biệt không. Nói thêm bạn có muốn quay lại không.",
+          "h": "Dùng 'Yes, I felt special.' và 'I want to come back.'",
+          "s": "Yes, I felt special. I want to come back soon."
+        },
+        {
+          "p": "Is there a specific staff member who was very kind?",
+          "m": "Trả lời có nhân viên nào tốt bụng không. Nêu tên hoặc mô tả họ.",
+          "h": "Dùng 'Yes, a lady was kind.' và 'Her name is...'",
+          "s": "Yes, a young man was very kind. He helped me carry bags."
+        },
+        {
+          "p": "What did you say to your friends about that experience?",
+          "m": "Nói bạn đã kể gì cho bạn bè. Nói thêm họ có muốn đến đây không.",
+          "h": "Dùng 'I told them it was good.' và 'They want to visit.'",
+          "s": "I told them it was a good store. They want to visit too."
+        }
+      ]
+    },
+    {
+      "t": "Lên kế hoạch cho lần mua hàng tiếp theo",
+      "e": [
+        {
+          "p": "Are you planning your next visit to our store soon?",
+          "m": "Trả lời bạn có kế hoạch ghé thăm sớm không. Nói thêm bạn muốn mua gì.",
+          "h": "Dùng 'Yes, I am planning a visit.' và 'I want to buy...'",
+          "s": "Yes, I am planning a visit next week. I want to buy new shoes."
+        },
+        {
+          "p": "What is on your shopping list for next time?",
+          "m": "Nêu món đồ bạn muốn mua lần tới. Giải thích bạn cần nó cho việc gì.",
+          "h": "Dùng 'I want a new...' và 'I need it for...'",
+          "s": "I want a new cooking pot. I need it for my kitchen."
+        },
+        {
+          "p": "Will you bring your family with you on your next visit?",
+          "m": "Trả lời bạn có mang gia đình theo không. Nói thêm họ có thích cửa hàng không.",
+          "h": "Dùng 'Yes, I will bring my family.' và 'They like the store.'",
+          "s": "Yes, I will bring my family. They like to shop here."
+        },
+        {
+          "p": "Are you waiting for any special discounts or promotions?",
+          "m": "Trả lời bạn có chờ ưu đãi không. Nói thêm nó có giúp bạn tiết kiệm tiền không.",
+          "h": "Dùng 'Yes, I am waiting for discounts.' và 'It saves money.'",
+          "s": "Yes, I am waiting for discounts. It helps me save money."
+        },
+        {
+          "p": "Do you need help finding anything specific next time?",
+          "m": "Trả lời bạn có cần giúp đỡ lần tới không. Nêu một món đồ bạn muốn tìm.",
+          "h": "Dùng 'Yes, I need help.' hoặc 'No, I do not.' và 'I want to find...'",
+          "s": "Yes, I need help. I want to find the new books section."
+        }
+      ]
+    },
+    {
+      "t": "Ôn tập: Trải nghiệm khách hàng",
+      "e": [
+        {
+          "p": "You visited our store recently. How was your experience?",
+          "m": "Nói trải nghiệm của bạn như thế nào. Nêu một điều bạn thích.",
+          "h": "Dùng 'My experience was good.' và 'I liked the...'",
+          "s": "My experience was good. I liked the friendly staff."
+        },
+        {
+          "p": "What product did you buy, and are you happy with it?",
+          "m": "Nêu sản phẩm bạn đã mua. Trả lời bạn có hài lòng với nó không.",
+          "h": "Dùng 'I bought...' và 'I am happy with it.'",
+          "s": "I bought a small radio. I am happy with it."
+        },
+        {
+          "p": "Did our staff help you quickly if you needed help?",
+          "m": "Trả lời nhân viên có giúp bạn nhanh không. Nói thêm bạn cảm thấy thế nào.",
+          "h": "Dùng 'Yes, they helped me quickly.' và 'I felt good.'",
+          "s": "Yes, they helped me quickly. I felt happy."
+        },
+        {
+          "p": "Are you planning to tell your friends about our store?",
+          "m": "Trả lời bạn có dự định kể với bạn bè không. Nói thêm tại sao bạn sẽ làm vậy.",
+          "h": "Dùng 'Yes, I am planning to tell them.' và 'It is a good store.'",
+          "s": "Yes, I am planning to tell them. It is a good store for gifts."
+        },
+        {
+          "p": "What is one thing we can do to make your next visit even better?",
+          "m": "Nêu một điều họ có thể làm tốt hơn. Giải thích điều đó sẽ giúp bạn như thế nào.",
+          "h": "Dùng 'You can add...' và 'It will be useful.'",
+          "s": "You can add more parking. It will be useful for me."
+        }
+      ]
+    },
+    {
+      "t": "Ôn tập: Giữ chân khách hàng",
+      "e": [
+        {
+          "p": "What makes you choose our store over others?",
+          "m": "Nêu điều gì khiến bạn chọn cửa hàng này. Giải thích bạn thích điều gì.",
+          "h": "Dùng 'I choose it because...' và 'I like the...'",
+          "s": "I choose it because it is near. I like the good service here."
+        },
+        {
+          "p": "Do you usually use our loyalty card?",
+          "m": "Trả lời bạn có thường dùng thẻ khách hàng thân thiết không. Nói thêm bạn có tiết kiệm được tiền không.",
+          "h": "Dùng 'Yes, I usually use it.' và 'I save money.'",
+          "s": "Yes, I usually use it. I save money every time."
+        },
+        {
+          "p": "How important is a good relationship with the staff to you?",
+          "m": "Trả lời mối quan hệ với nhân viên có quan trọng không. Nói thêm nó có làm bạn vui không.",
+          "h": "Dùng 'It is important.' hoặc 'It is not important.' và 'It makes me happy.'",
+          "s": "It is important. It makes me feel welcome."
+        },
+        {
+          "p": "Are there any products you would miss if we stopped selling them?",
+          "m": "Nêu sản phẩm bạn sẽ nhớ nếu họ ngừng bán. Giải thích tại sao bạn thích nó.",
+          "h": "Dùng 'I would miss the...' và 'It is very good.'",
+          "s": "I would miss the fresh orange juice. It is very healthy."
+        },
+        {
+          "p": "What could make you stop coming to our store?",
+          "m": "Nêu điều gì có thể khiến bạn ngừng đến. Giải thích tại sao điều đó quan trọng.",
+          "h": "Dùng 'Bad service could make me stop.' và 'Good service is important.'",
+          "s": "Bad service could make me stop. Good service is important for me."
+        }
+      ]
+    },
+    {
+      "t": "Ôn tập: Xây dựng lòng trung thành",
+      "e": [
+        {
+          "p": "Do you feel like a valued customer here?",
+          "m": "Trả lời bạn có cảm thấy mình là khách hàng có giá trị không. Giải thích lý do.",
+          "h": "Dùng 'Yes, I feel valued.' hoặc 'No, I do not.' và 'The staff is nice.'",
+          "s": "Yes, I feel valued. The staff always says hello."
+        },
+        {
+          "p": "What special things do you appreciate about our store?",
+          "m": "Nêu một điều đặc biệt bạn đánh giá cao. Nói thêm nó có làm bạn vui không.",
+          "h": "Dùng 'I appreciate the clean store.' và 'It makes me happy.'",
+          "s": "I appreciate the big parking lot. It makes my visits easy."
+        },
+        {
+          "p": "How likely are you to recommend us to your friends?",
+          "m": "Trả lời khả năng bạn giới thiệu họ cho bạn bè là bao nhiêu. Nói thêm tại sao bạn sẽ giới thiệu.",
+          "h": "Dùng 'I am very likely.' hoặc 'I am not likely.' và 'It is a good place.'",
+          "s": "I am very likely to recommend you. It is a good place for shopping."
+        },
+        {
+          "p": "Do our special events make you want to visit more?",
+          "m": "Trả lời các sự kiện đặc biệt có khiến bạn muốn ghé thăm hơn không. Nêu một sự kiện bạn thích.",
+          "h": "Dùng 'Yes, they make me want to visit more.' và 'I like the... events.'",
+          "s": "Yes, they make me want to visit more. I like the cooking classes."
+        },
+        {
+          "p": "What is the most important thing for customer loyalty?",
+          "m": "Nêu điều quan trọng nhất cho lòng trung thành của khách hàng. Giải thích tại sao nó quan trọng.",
+          "h": "Dùng 'Good products are most important.' và 'They make customers happy.'",
+          "s": "Good service is most important. It makes customers happy and return."
+        }
+      ]
+    }
+  ]
+}

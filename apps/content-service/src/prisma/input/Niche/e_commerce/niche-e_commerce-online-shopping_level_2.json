@@ -1,0 +1,560 @@
+{
+  "l": {
+    "lvl": 2,
+    "code": "ELEMENTARY",
+    "desc": "2 câu đơn liên tiếp, có liên kết cơ bản",
+    "req": {
+      "gram": "S + be + V-ing, S + V(s/es) + adv of freq (always/often/sometimes), How much/many...?, I like/want/need + N/to V, There are + số + N, Prepositions (in/on/at/to)",
+      "vocab": "Thông dụng + tính từ đơn giản (big, small, good, bad, hot, cold)",
+      "vocabCap": {
+        "cefr": "A1–A2",
+        "maxWords": 600,
+        "allowed": [
+          "Tất cả từ Level 1, mở rộng thêm:",
+          "Tính từ 2 âm tiết phổ biến: happy, hungry, tired, busy, pretty, funny, angry, lucky",
+          "Trạng từ tần suất: always, often, usually, sometimes, never, still",
+          "Giới từ: in, on, at, to, from, with, near, next to, behind, in front of",
+          "Phrasal verbs cực kỳ phổ biến: get up, go out, come back, wake up",
+          "Từ về cảm xúc đơn giản: love, hate, enjoy, miss, feel",
+          "Từ về thời gian: yesterday, tomorrow, last week, next week, every morning"
+        ],
+        "avoid": [
+          "Từ trừu tượng (ví dụ: opportunity, responsibility, achievement)",
+          "Phrasal verbs ít gặp (ví dụ: put off, bring up, carry out)",
+          "Idioms, thành ngữ",
+          "Từ học thuật hoặc chuyên ngành"
+        ]
+      },
+      "conn": "and, but",
+      "tense": "Present Simple, Present Continuous",
+      "cmplx": "Thấp"
+    }
+  },
+  "d": [
+    {
+      "t": "Bắt đầu mua sắm trực tuyến",
+      "e": [
+        {
+          "p": "Hello! Do you often buy things online?",
+          "m": "Nói bạn có thường xuyên mua đồ online không. Và bạn có thích mua sắm online không.",
+          "h": "Sử dụng 'I often buy...' và 'I like...'",
+          "s": "Yes, I often buy things online. I like it very much."
+        },
+        {
+          "p": "What kind of items do you usually look for on websites?",
+          "m": "Nói bạn thường tìm kiếm loại mặt hàng nào. Và bạn thích mua sắm ở cửa hàng trực tuyến nào.",
+          "h": "Sử dụng 'I usually look for...' và 'I like to shop at...'",
+          "s": "I usually look for clothes and books. I like to shop at big online stores."
+        },
+        {
+          "p": "Are you looking for something special today?",
+          "m": "Nói bạn đang tìm kiếm thứ gì đó. Và bạn cần nó để làm gì.",
+          "h": "Sử dụng 'I am looking for...' và 'I need it for...'",
+          "s": "Yes, I am looking for a new shirt. I need it for a party next week."
+        },
+        {
+          "p": "Do you prefer to use your phone or computer for online shopping?",
+          "m": "Nói bạn thích dùng điện thoại hay máy tính hơn. Và giải thích lý do đơn giản.",
+          "h": "Sử dụng 'I prefer...' và 'It is...'",
+          "s": "I prefer my phone for shopping. It is very easy and fast."
+        },
+        {
+          "p": "Where do you usually find good deals when you shop online?",
+          "m": "Nói bạn thường tìm ưu đãi tốt ở đâu. Và bạn có thích các ưu đãi đó không.",
+          "h": "Sử dụng 'I often find...' và 'I enjoy...'",
+          "s": "I often find good deals on big shopping apps. I enjoy saving money."
+        }
+      ]
+    },
+    {
+      "t": "Tìm kiếm sản phẩm yêu thích",
+      "e": [
+        {
+          "p": "What item are you searching for right now?",
+          "m": "Nói bạn đang tìm kiếm một món đồ. Và nó là gì.",
+          "h": "Sử dụng 'I am searching for...' và 'It is a...'",
+          "s": "I am searching for a new bag. It is a small blue bag."
+        },
+        {
+          "p": "What color do you like for your new item?",
+          "m": "Nói bạn thích màu gì cho món đồ đó. Và màu đó trông như thế nào.",
+          "h": "Sử dụng 'I like...' và 'It looks...'",
+          "s": "I like the color red. It looks very nice and bright."
+        },
+        {
+          "p": "Are there many options for this product online?",
+          "m": "Nói có nhiều lựa chọn cho sản phẩm đó không. Và chúng có đẹp không.",
+          "h": "Sử dụng 'There are...' và 'They are...'",
+          "s": "Yes, there are many options. They are all very pretty."
+        },
+        {
+          "p": "Do you need a big or a small size for that item?",
+          "m": "Nói bạn cần kích thước lớn hay nhỏ. Và tại sao bạn lại cần kích thước đó.",
+          "h": "Sử dụng 'I need...' và 'It is good for...'",
+          "s": "I need a small size. It is good for everyday use."
+        },
+        {
+          "p": "How do you usually find the best product among many choices?",
+          "m": "Nói bạn thường tìm sản phẩm tốt nhất bằng cách nào. Và bạn có đọc đánh giá không.",
+          "h": "Sử dụng 'I always check...' và 'I also read...'",
+          "s": "I always check the product pictures. I also read customer reviews."
+        }
+      ]
+    },
+    {
+      "t": "Hỏi giá và số lượng",
+      "e": [
+        {
+          "p": "How much is that pretty dress you are looking at?",
+          "m": "Nói giá của chiếc váy đó. Và nó có đắt không.",
+          "h": "Sử dụng 'It is...' và 'It is not...'",
+          "s": "It is 20 dollars. It is not very expensive."
+        },
+        {
+          "p": "Are you planning to buy one item or many items?",
+          "m": "Nói bạn đang định mua mấy món. Và tại sao bạn lại cần số lượng đó.",
+          "h": "Sử dụng 'I am planning to buy...' và 'I need them for...'",
+          "s": "I am planning to buy two items. I need them for my friends."
+        },
+        {
+          "p": "What is the price of a good quality phone case online?",
+          "m": "Nói giá của một chiếc ốp lưng điện thoại tốt. Và bạn có thấy nó hợp lý không.",
+          "h": "Sử dụng 'A good phone case is...' và 'I think it is...'",
+          "s": "A good phone case is often 10 dollars. I think it is a fair price."
+        },
+        {
+          "p": "How many books are you going to add to your cart today?",
+          "m": "Nói bạn sẽ thêm bao nhiêu cuốn sách vào giỏ hàng. Và bạn thích đọc sách không.",
+          "h": "Sử dụng 'I am going to add...' và 'I love to read...'",
+          "s": "I am going to add three books. I love to read new stories."
+        },
+        {
+          "p": "When you shop online, do you always check the shipping cost?",
+          "m": "Nói bạn có luôn kiểm tra phí vận chuyển không. Và phí vận chuyển có quan trọng với bạn không.",
+          "h": "Sử dụng 'Yes, I always check...' và 'It is important because...'",
+          "s": "Yes, I always check the shipping cost. It is important because I want to save money."
+        }
+      ]
+    },
+    {
+      "t": "Mô tả sản phẩm bạn muốn",
+      "e": [
+        {
+          "p": "Can you describe the shoes you want to buy?",
+          "m": "Mô tả đôi giày bạn muốn mua. Và nói màu sắc của chúng.",
+          "h": "Sử dụng 'I want to buy...' và 'They are...'",
+          "s": "I want to buy new sports shoes. They are white and blue."
+        },
+        {
+          "p": "What kind of material do you like for your clothes?",
+          "m": "Nói bạn thích chất liệu gì cho quần áo. Và nó có thoải mái không.",
+          "h": "Sử dụng 'I like...' và 'It is very...'",
+          "s": "I like cotton material for my clothes. It is very soft and comfortable."
+        },
+        {
+          "p": "Is that necklace big or small?",
+          "m": "Nói chiếc vòng cổ đó to hay nhỏ. Và bạn có thích nó không.",
+          "h": "Sử dụng 'It is a...' và 'I think it is...'",
+          "s": "It is a small and pretty necklace. I think it is perfect for me."
+        },
+        {
+          "p": "What features are important for you in a new phone?",
+          "m": "Nói tính năng nào quan trọng đối với bạn ở một chiếc điện thoại mới. Và nó có dễ sử dụng không.",
+          "h": "Sử dụng 'A good camera is...' và 'It needs to be...'",
+          "s": "A good camera is important for me. It needs to be easy to use."
+        },
+        {
+          "p": "Do you need a book with many pages or a short story book?",
+          "m": "Nói bạn cần một cuốn sách nhiều trang hay sách truyện ngắn. Và bạn thường đọc thể loại gì.",
+          "h": "Sử dụng 'I need a book with...' và 'I often read...'",
+          "s": "I need a book with many pages. I often read adventure stories online."
+        }
+      ]
+    },
+    {
+      "t": "Thêm vào giỏ hàng và thanh toán",
+      "e": [
+        {
+          "p": "Are you ready to add the item to your cart?",
+          "m": "Nói bạn đã sẵn sàng thêm đồ vào giỏ hàng chưa. Và bạn có thích món đồ đó không.",
+          "h": "Sử dụng 'Yes, I am ready...' và 'I really like...'",
+          "s": "Yes, I am ready to add it now. I really like this special pen."
+        },
+        {
+          "p": "What payment method do you usually use for online orders?",
+          "m": "Nói bạn thường dùng phương thức thanh toán nào. Và nó có tiện lợi không.",
+          "h": "Sử dụng 'I usually use...' và 'It is very...'",
+          "s": "I usually use my credit card. It is very convenient for me."
+        },
+        {
+          "p": "Did you check all the items in your cart before paying?",
+          "m": "Nói bạn có kiểm tra tất cả các món đồ không. Và mọi thứ đã đúng chưa.",
+          "h": "Sử dụng 'Yes, I always check...' và 'Everything is...'",
+          "s": "Yes, I always check my cart. Everything is correct now."
+        },
+        {
+          "p": "How many items are in your shopping cart right now?",
+          "m": "Nói có bao nhiêu món đồ trong giỏ hàng của bạn. Và bạn có muốn thêm gì nữa không.",
+          "h": "Sử dụng 'There are...' và 'I do not want...'",
+          "s": "There are four items in my cart. I do not want to add anything else."
+        },
+        {
+          "p": "Is it important for you to get a payment confirmation email?",
+          "m": "Nói việc nhận email xác nhận thanh toán có quan trọng không. Và tại sao nó lại quan trọng.",
+          "h": "Sử dụng 'Yes, it is very important...' và 'It helps me to...'",
+          "s": "Yes, it is very important for me. It helps me to know my order is good."
+        }
+      ]
+    },
+    {
+      "t": "Nói về nơi nhận hàng",
+      "e": [
+        {
+          "p": "Where do you want the package to be delivered?",
+          "m": "Nói bạn muốn gói hàng được giao đến đâu. Và địa điểm đó có gần không.",
+          "h": "Sử dụng 'I want the package to be delivered to...' và 'It is near...'",
+          "s": "I want the package to be delivered to my home. It is near the park."
+        },
+        {
+          "p": "Do you prefer home delivery or picking it up at a store?",
+          "m": "Nói bạn thích giao hàng tận nhà hay tự đến lấy ở cửa hàng. Và tại sao.",
+          "h": "Sử dụng 'I prefer home delivery...' và 'It is easier...'",
+          "s": "I prefer home delivery. It is easier for me."
+        },
+        {
+          "p": "What is your address for the delivery?",
+          "m": "Nói địa chỉ của bạn để giao hàng. Và thành phố của bạn là gì.",
+          "h": "Sử dụng 'My address is...' và 'I live in...'",
+          "s": "My address is 123 Main Street. I live in [studentCity]."
+        },
+        {
+          "p": "When do you usually expect your online orders to arrive?",
+          "m": "Nói bạn thường mong đợi đơn hàng đến khi nào. Và bạn có hay kiểm tra trạng thái đơn hàng không.",
+          "h": "Sử dụng 'I usually expect...' và 'I often check...'",
+          "s": "I usually expect my orders to arrive in two days. I often check the order status online."
+        },
+        {
+          "p": "Do you need to be at home to receive your package?",
+          "m": "Nói bạn có cần ở nhà để nhận gói hàng không. Và người khác có thể nhận giúp bạn không.",
+          "h": "Sử dụng 'Yes, I need to be at home...' và 'My family can...'",
+          "s": "Yes, I need to be at home sometimes. My family can also receive it for me."
+        }
+      ]
+    },
+    {
+      "t": "Đánh giá và phản hồi",
+      "e": [
+        {
+          "p": "Did you like the last item you bought online?",
+          "m": "Nói bạn có thích món đồ cuối cùng bạn mua không. Và nó có tốt không.",
+          "h": "Sử dụng 'Yes, I like it...' và 'It is very...'",
+          "s": "Yes, I like it very much. It is very useful."
+        },
+        {
+          "p": "Do you often write reviews for products you buy online?",
+          "m": "Nói bạn có thường viết đánh giá sản phẩm không. Và tại sao bạn lại viết.",
+          "h": "Sử dụng 'Yes, I often write...' và 'It helps other...'",
+          "s": "Yes, I often write reviews. It helps other people choose well."
+        },
+        {
+          "p": "What is important for a good product review?",
+          "m": "Nói điều gì quan trọng cho một đánh giá sản phẩm tốt. Và nó phải trung thực không.",
+          "h": "Sử dụng 'It is important to describe...' và 'Yes, it must be...'",
+          "s": "It is important to describe the item well. Yes, it must be honest."
+        },
+        {
+          "p": "Have you ever received a bad product from online shopping?",
+          "m": "Nói bạn đã từng nhận sản phẩm tệ từ mua sắm online chưa. Và bạn cảm thấy thế nào.",
+          "h": "Sử dụng 'Yes, I sometimes receive...' và 'I feel angry...'",
+          "s": "Yes, I sometimes receive a bad product. I feel angry about it."
+        },
+        {
+          "p": "What do you usually do if you receive a broken item?",
+          "m": "Nói bạn thường làm gì nếu nhận được món đồ bị hỏng. Và bạn có liên hệ với người bán không.",
+          "h": "Sử dụng 'I usually contact...' và 'Yes, I always ask for...'",
+          "s": "I usually contact the seller immediately. Yes, I always ask for a new one or my money back."
+        }
+      ]
+    },
+    {
+      "t": "Thói quen mua sắm online của bạn",
+      "e": [
+        {
+          "p": "How often do you check online shopping websites?",
+          "m": "Nói bạn thường kiểm tra các trang web mua sắm online bao lâu một lần. Và bạn có thích xem các sản phẩm mới không.",
+          "h": "Sử dụng 'I check them...' và 'I enjoy looking at...'",
+          "s": "I check them every day. I enjoy looking at new products."
+        },
+        {
+          "p": "Do you always compare prices before buying something online?",
+          "m": "Nói bạn có luôn so sánh giá trước khi mua không. Và tại sao việc đó lại quan trọng.",
+          "h": "Sử dụng 'Yes, I always compare...' và 'It helps me to get...'",
+          "s": "Yes, I always compare prices. It helps me to get the best deal."
+        },
+        {
+          "p": "What time of day do you usually do your online shopping?",
+          "m": "Nói bạn thường mua sắm online vào thời gian nào trong ngày. Và tại sao đó lại là thời gian tốt.",
+          "h": "Sử dụng 'I usually shop...' và 'It is good because...'",
+          "s": "I usually shop in the evening. It is good because I am not busy then."
+        },
+        {
+          "p": "Do you often buy clothes or food more online?",
+          "m": "Nói bạn thường mua quần áo hay đồ ăn online nhiều hơn. Và bạn thích mua sắm loại nào hơn.",
+          "h": "Sử dụng 'I often buy...' và 'I like buying...' ",
+          "s": "I often buy clothes online more. I like buying new outfits."
+        },
+        {
+          "p": "What is your favorite part about shopping online?",
+          "m": "Nói phần yêu thích của bạn khi mua sắm online là gì. Và nó có tiết kiệm thời gian không.",
+          "h": "Sử dụng 'My favorite part is...' và 'It also saves...'",
+          "s": "My favorite part is finding unique items. It also saves my time."
+        }
+      ]
+    },
+    {
+      "t": "Mua quà tặng online",
+      "e": [
+        {
+          "p": "Are you buying a gift for someone online?",
+          "m": "Nói bạn có đang mua quà online không. Và món quà đó dành cho ai.",
+          "h": "Sử dụng 'Yes, I am buying...' và 'It is for my...'",
+          "s": "Yes, I am buying a gift online. It is for my mother."
+        },
+        {
+          "p": "What kind of gift are you looking for?",
+          "m": "Nói bạn đang tìm kiếm loại quà gì. Và nó có đặc biệt không.",
+          "h": "Sử dụng 'I am looking for...' và 'It is a special...'",
+          "s": "I am looking for a nice scarf. It is a special gift."
+        },
+        {
+          "p": "Is it easy to find good gifts on shopping websites?",
+          "m": "Nói có dễ tìm quà trên các trang web mua sắm không. Và bạn có thích các lựa chọn không.",
+          "h": "Sử dụng 'Yes, it is easy...' và 'I like the many...'",
+          "s": "Yes, it is easy to find gifts online. I like the many choices available."
+        },
+        {
+          "p": "Do you often buy gifts online for your friends or family?",
+          "m": "Nói bạn có thường mua quà online cho bạn bè hoặc gia đình không. Và họ có thích nó không.",
+          "h": "Sử dụng 'Yes, I often buy...' và 'They always enjoy...'",
+          "s": "Yes, I often buy gifts online. They always enjoy my gifts."
+        },
+        {
+          "p": "What is the best thing about buying gifts online?",
+          "m": "Nói điều tốt nhất khi mua quà online là gì. Và nó có tiết kiệm công sức không.",
+          "h": "Sử dụng 'The best thing is...' và 'It also saves my...'",
+          "s": "The best thing is you can send it directly. It also saves my energy."
+        }
+      ]
+    },
+    {
+      "t": "Xử lý đơn hàng bị chậm",
+      "e": [
+        {
+          "p": "Is your online order taking a long time to arrive?",
+          "m": "Nói đơn hàng online của bạn có đang đến chậm không. Và bạn cảm thấy thế nào về điều đó.",
+          "h": "Sử dụng 'Yes, it is taking...' và 'I feel a little...'",
+          "s": "Yes, it is taking a long time. I feel a little worried."
+        },
+        {
+          "p": "Did you check the delivery status on the website?",
+          "m": "Nói bạn đã kiểm tra trạng thái giao hàng trên trang web chưa. Và nó có hiển thị thông tin gì không.",
+          "h": "Sử dụng 'Yes, I checked...' và 'It still shows...'",
+          "s": "Yes, I checked the status. It still shows 'in transit'."
+        },
+        {
+          "p": "What is the estimated delivery date for your package?",
+          "m": "Nói ngày giao hàng ước tính là khi nào. Và gói hàng có đến muộn hơn ngày đó không.",
+          "h": "Sử dụng 'The estimated date was...' và 'Yes, it is late...'",
+          "s": "The estimated date was yesterday. Yes, it is late now."
+        },
+        {
+          "p": "Are you going to contact customer service about the delay?",
+          "m": "Nói bạn có định liên hệ dịch vụ khách hàng không. Và bạn cần hỏi điều gì.",
+          "h": "Sử dụng 'Yes, I am going to contact...' và 'I need to ask...'",
+          "s": "Yes, I am going to contact them. I need to ask where my package is."
+        },
+        {
+          "p": "What do you usually do if an online order never arrives?",
+          "m": "Nói bạn thường làm gì nếu đơn hàng online không bao giờ đến. Và bạn có yêu cầu hoàn tiền không.",
+          "h": "Sử dụng 'I usually ask for...' và 'Yes, I always need...'",
+          "s": "I usually ask for a refund or a new item. Yes, I always need a solution."
+        }
+      ]
+    },
+    {
+      "t": "Chia sẻ sản phẩm yêu thích",
+      "e": [
+        {
+          "p": "Do you often tell your friends about good products you find online?",
+          "m": "Nói bạn có thường kể cho bạn bè về sản phẩm tốt online không. Và họ có thích nghe không.",
+          "h": "Sử dụng 'Yes, I often tell...' và 'They enjoy hearing about...'",
+          "s": "Yes, I often tell my friends. They enjoy hearing about new things."
+        },
+        {
+          "p": "What is your favorite online product right now?",
+          "m": "Nói sản phẩm online yêu thích hiện tại của bạn là gì. Và nó có hữu ích không.",
+          "h": "Sử dụng 'My favorite product is...' và 'It is very...'",
+          "s": "My favorite product is a smart water bottle. It is very useful every day."
+        },
+        {
+          "p": "Why do you like to share your shopping experiences with others?",
+          "m": "Nói tại sao bạn thích chia sẻ trải nghiệm mua sắm của mình. Và nó có giúp họ không.",
+          "h": "Sử dụng 'I like to share because...' và 'It helps them to...'",
+          "s": "I like to share because it is fun. It helps them to make good choices too."
+        },
+        {
+          "p": "Did you recently recommend an online store to someone?",
+          "m": "Nói bạn có gần đây giới thiệu cửa hàng online nào không. Và cửa hàng đó có bán gì.",
+          "h": "Sử dụng 'Yes, I recommended...' và 'They sell...'",
+          "s": "Yes, I recommended a clothing store online. They sell very nice dresses."
+        },
+        {
+          "p": "What kind of feedback do your friends usually give you about your recommendations?",
+          "m": "Nói bạn bè của bạn thường phản hồi thế nào về các đề xuất của bạn. Và họ có luôn hài lòng không.",
+          "h": "Sử dụng 'They usually say...' và 'Yes, they are usually...'",
+          "s": "They usually say 'Thank you!' for good tips. Yes, they are usually happy with them."
+        }
+      ]
+    },
+    {
+      "t": "So sánh các cửa hàng online",
+      "e": [
+        {
+          "p": "Do you compare different online stores before buying?",
+          "m": "Nói bạn có so sánh các cửa hàng online trước khi mua không. Và tại sao bạn lại làm điều đó.",
+          "h": "Sử dụng 'Yes, I always compare...' và 'It is good to find...'",
+          "s": "Yes, I always compare stores. It is good to find the best price."
+        },
+        {
+          "p": "What is important when you choose an online store?",
+          "m": "Nói điều gì quan trọng khi bạn chọn một cửa hàng online. Và cửa hàng đó có đáng tin cậy không.",
+          "h": "Sử dụng 'Good prices are important...' và 'Yes, it needs to be...'",
+          "s": "Good prices are important for me. Yes, it needs to be reliable."
+        },
+        {
+          "p": "Are some online stores better for clothes and others for electronics?",
+          "m": "Nói có phải một số cửa hàng online tốt hơn cho quần áo, số khác cho đồ điện tử không. Và bạn có biết ví dụ nào không.",
+          "h": "Sử dụng 'Yes, some stores are...' và 'For example, Store A is good for...'",
+          "s": "Yes, some stores are better for certain items. For example, Store A is good for books."
+        },
+        {
+          "p": "Do you often check customer reviews about the stores themselves?",
+          "m": "Nói bạn có thường kiểm tra đánh giá của khách hàng về chính cửa hàng không. Và tại sao bạn lại kiểm tra.",
+          "h": "Sử dụng 'Yes, I often check...' và 'It helps me to know...'",
+          "s": "Yes, I often check store reviews. It helps me to know if it is a good shop."
+        },
+        {
+          "p": "What is one good thing and one bad thing about online stores in general?",
+          "m": "Nói một điều tốt và một điều xấu về các cửa hàng online nói chung. Và chúng có tiện lợi không nhưng cũng có điểm yếu không.",
+          "h": "Sử dụng 'They are very convenient...' và 'But sometimes, the quality is...'",
+          "s": "They are very convenient, and I love shopping at home. But sometimes, the quality is not perfect."
+        }
+      ]
+    },
+    {
+      "t": "Ôn tập: Kế hoạch mua sắm",
+      "e": [
+        {
+          "p": "What are you planning to buy online next week?",
+          "m": "Nói bạn đang định mua gì online tuần tới. Và bạn cần nó cho cái gì.",
+          "h": "Sử dụng 'I am planning to buy...' và 'I need it for...'",
+          "s": "I am planning to buy new headphones next week. I need it for my online classes."
+        },
+        {
+          "p": "Do you need to check the prices on different websites first?",
+          "m": "Nói bạn có cần kiểm tra giá trên các trang web khác nhau không. Và tại sao.",
+          "h": "Sử dụng 'Yes, I always need to check...' và 'It helps me to find...'",
+          "s": "Yes, I always need to check prices first. It helps me to find a good deal."
+        },
+        {
+          "p": "How much money are you planning to spend on your online shopping?",
+          "m": "Nói bạn định chi bao nhiêu tiền cho việc mua sắm online. Và bạn có mua nhiều thứ không.",
+          "h": "Sử dụng 'I am planning to spend...' và 'I am buying only...'",
+          "s": "I am planning to spend about 50 dollars. I am buying only one or two items."
+        },
+        {
+          "p": "Are you going to buy clothes or something for your home?",
+          "m": "Nói bạn sẽ mua quần áo hay đồ dùng cho nhà cửa. Và bạn thích loại nào hơn.",
+          "h": "Sử dụng 'I am going to buy...' và 'I like buying...' ",
+          "s": "I am going to buy something for my home. I like buying useful things."
+        },
+        {
+          "p": "What is the best time for you to do your online shopping, and why?",
+          "m": "Nói thời gian tốt nhất để bạn mua sắm online là khi nào. Và tại sao nó lại tốt.",
+          "h": "Sử dụng 'The best time is...' và 'I feel happy and...'",
+          "s": "The best time is in the evening. I feel happy and relaxed when I shop then."
+        }
+      ]
+    },
+    {
+      "t": "Ôn tập: Trải nghiệm mua sắm đáng nhớ",
+      "e": [
+        {
+          "p": "Tell me about a good online shopping experience you had.",
+          "m": "Nói về một trải nghiệm mua sắm online tốt của bạn. Và bạn đã mua gì.",
+          "h": "Sử dụng 'I bought a great...' và 'It was very...'",
+          "s": "I bought a great book last week. It was very cheap and helpful."
+        },
+        {
+          "p": "Did the product arrive quickly, and was it what you expected?",
+          "m": "Nói sản phẩm có đến nhanh không. Và nó có đúng như bạn mong đợi không.",
+          "h": "Sử dụng 'Yes, it arrived...' và 'It was exactly what...'",
+          "s": "Yes, it arrived very quickly. It was exactly what I wanted."
+        },
+        {
+          "p": "What did you like most about that shopping experience?",
+          "m": "Nói bạn thích điều gì nhất về trải nghiệm mua sắm đó. Và bạn có thích người bán không.",
+          "h": "Sử dụng 'I liked the good price...' và 'The seller was very...'",
+          "s": "I liked the good price very much. The seller was also very kind."
+        },
+        {
+          "p": "Did you write a positive review for the seller or the product?",
+          "m": "Nói bạn có viết đánh giá tích cực cho người bán hoặc sản phẩm không. Và bạn có giới thiệu nó cho bạn bè không.",
+          "h": "Sử dụng 'Yes, I wrote a positive...' và 'I also told my...'",
+          "s": "Yes, I wrote a positive review. I also told my friends about it."
+        },
+        {
+          "p": "What is one thing that makes an online shopping experience truly memorable for you?",
+          "m": "Nói một điều khiến trải nghiệm mua sắm online đáng nhớ đối với bạn. Và nó có phải là một món hời lớn không.",
+          "h": "Sử dụng 'A truly memorable experience is...' và 'It feels good to...'",
+          "s": "A truly memorable experience is when the product is perfect. It feels good to get a big discount too."
+        }
+      ]
+    },
+    {
+      "t": "Ôn tập: Mua sắm thông minh",
+      "e": [
+        {
+          "p": "What is your main rule for smart online shopping?",
+          "m": "Nói quy tắc chính của bạn khi mua sắm online thông minh là gì. Và nó có giúp bạn không.",
+          "h": "Sử dụng 'My main rule is to...' và 'It always helps me to...'",
+          "s": "My main rule is to check all reviews. It always helps me to make good choices."
+        },
+        {
+          "p": "Do you always compare prices from different sellers?",
+          "m": "Nói bạn có luôn so sánh giá từ các người bán khác nhau không. Và tại sao điều đó lại quan trọng.",
+          "h": "Sử dụng 'Yes, I always compare prices...' và 'It is important to find...'",
+          "s": "Yes, I always compare prices. It is important to find the cheapest option."
+        },
+        {
+          "p": "What kind of items do you never buy online, and why?",
+          "m": "Nói bạn không bao giờ mua loại mặt hàng nào online. Và tại sao bạn lại không mua.",
+          "h": "Sử dụng 'I never buy...' và 'I need to see it...'",
+          "s": "I never buy fresh food online. I need to see it in person."
+        },
+        {
+          "p": "How do you usually know if an online store is trustworthy?",
+          "m": "Nói bạn thường biết một cửa hàng online có đáng tin cậy không bằng cách nào. Và bạn có kiểm tra xếp hạng không.",
+          "h": "Sử dụng 'I usually check...' và 'I also look at...'",
+          "s": "I usually check the customer ratings. I also look at their refund policy."
+        },
+        {
+          "p": "What advice do you have for someone new to online shopping?",
+          "m": "Đưa ra lời khuyên cho người mới mua sắm online. Và nói một điều quan trọng cần nhớ.",
+          "h": "Sử dụng 'Always check...' và 'Remember to be...'",
+          "s": "Always check seller reviews and product descriptions. Remember to be careful with your personal information."
+        }
+      ]
+    }
+  ]
+}

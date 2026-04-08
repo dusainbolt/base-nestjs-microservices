@@ -1,0 +1,530 @@
+{
+  "l": 1,
+  "d": [
+    {
+      "t": "Gặp bạn cùng lớp",
+      "e": [
+        {
+          "p": "What's your name?",
+          "m": "Nói tên của bạn.",
+          "h": "S + be + N",
+          "s": "My name is [studentName]."
+        },
+        {
+          "p": "How old are you?",
+          "m": "Nói tuổi của bạn.",
+          "h": "S + be + number",
+          "s": "I am [studentAge] years old."
+        },
+        {
+          "p": "Do you study today?",
+          "m": "Nói có hay không (hôm nay có học hay không).",
+          "h": "Do + S + V? → Yes/No",
+          "s": "Yes, I study today."
+        },
+        {
+          "p": "Where do you study?",
+          "m": "Nói nơi bạn học (home hoặc school).",
+          "h": "S + V(s) + O",
+          "s": "I study at home."
+        },
+        {
+          "p": "What do you study now?",
+          "m": "Nói môn bạn đang học bây giờ.",
+          "h": "S + V(s) + O",
+          "s": "I study math."
+        }
+      ]
+    },
+    {
+      "t": "Lịch học hàng ngày",
+      "e": [
+        {
+          "p": "What time do you study?",
+          "m": "Nói thời gian bạn thường học (morning/evening).",
+          "h": "S + V(s) + time phrase",
+          "s": "I study in the morning."
+        },
+        {
+          "p": "Do you study every day?",
+          "m": "Nói có/không (every day hoặc not).",
+          "h": "Do + S + V? → Yes/No",
+          "s": "Yes, I study every day."
+        },
+        {
+          "p": "How many hours do you study?",
+          "m": "Nói số giờ bạn học mỗi ngày (1-100).",
+          "h": "S + V(s) + number",
+          "s": "I study two hours every day."
+        },
+        {
+          "p": "Who do you study with?",
+          "m": "Nói người bạn học cùng (friend/family) hoặc alone.",
+          "h": "Who + do + S + V?",
+          "s": "I study with my friend."
+        },
+        {
+          "p": "Why do you study at that time?",
+          "m": "Nói 1 lý do ngắn (ví dụ: quiet).",
+          "h": "S + V(s) + because + reason",
+          "s": "I study then because it is quiet."
+        }
+      ]
+    },
+    {
+      "t": "Nơi học yêu thích",
+      "e": [
+        {
+          "p": "Where do you like to study?",
+          "m": "Nói nơi bạn thích học (home hoặc school).",
+          "h": "S + V(s) + O",
+          "s": "I like to study at home."
+        },
+        {
+          "p": "Is that place quiet?",
+          "m": "Nói có/không (yên tĩnh hay không).",
+          "h": "S + be + Adj",
+          "s": "Yes, it is quiet."
+        },
+        {
+          "p": "Do you study at school?",
+          "m": "Nói có/không (bạn có học ở trường không).",
+          "h": "Do + S + V? → Yes/No",
+          "s": "No, I study at home."
+        },
+        {
+          "p": "Who is there when you study?",
+          "m": "Nói ai ở đó (family, friend hoặc alone).",
+          "h": "S + V(s) + O",
+          "s": "I study alone."
+        },
+        {
+          "p": "What do you bring to your study place?",
+          "m": "Nói 1 đồ vật bạn mang (book/pen).",
+          "h": "S + V(s) + O",
+          "s": "I bring a book."
+        }
+      ]
+    },
+    {
+      "t": "Môn học yêu thích",
+      "e": [
+        {
+          "p": "What is your favorite subject?",
+          "m": "Nói môn học yêu thích của bạn.",
+          "h": "S + be + N",
+          "s": "My favorite subject is math."
+        },
+        {
+          "p": "Why do you like this subject?",
+          "m": "Nói 1 lý do ngắn (easy/interesting).",
+          "h": "S + V(s) + because + Adj",
+          "s": "I like it because it is easy."
+        },
+        {
+          "p": "Do you have homework today?",
+          "m": "Nói có/không (hôm nay có bài tập không).",
+          "h": "Do + S + V? → Yes/No",
+          "s": "Yes, I have homework today."
+        },
+        {
+          "p": "How many books do you need for class?",
+          "m": "Nói số sách bạn cần (1-100).",
+          "h": "S + V(s) + number",
+          "s": "I need two books."
+        },
+        {
+          "p": "Who is your teacher?",
+          "m": "Nói ai là giáo viên của bạn.",
+          "h": "S + be + N",
+          "s": "My teacher is Mr. Nam."
+        }
+      ]
+    },
+    {
+      "t": "Giờ học buổi sáng",
+      "e": [
+        {
+          "p": "Do you study in the morning?",
+          "m": "Nói có/không (có học buổi sáng không).",
+          "h": "Do + S + V? → Yes/No",
+          "s": "Yes, I study in the morning."
+        },
+        {
+          "p": "What time do you study in the morning?",
+          "m": "Nói giờ cụ thể bạn học buổi sáng.",
+          "h": "S + V(s) + time",
+          "s": "I study at seven o'clock."
+        },
+        {
+          "p": "Do you eat before study?",
+          "m": "Nói có/không (ăn trước khi học hay không).",
+          "h": "Do + S + V? → Yes/No",
+          "s": "Yes, I eat before study."
+        },
+        {
+          "p": "Where do you sit to study in the morning?",
+          "m": "Nói chỗ bạn ngồi (table/bed).",
+          "h": "S + V(s) + O",
+          "s": "I sit at the table."
+        },
+        {
+          "p": "How long is your morning study?",
+          "m": "Nói thời gian (số phút/giờ ngắn).",
+          "h": "S + V(s) + time",
+          "s": "My morning study is one hour."
+        }
+      ]
+    },
+    {
+      "t": "Buổi tối và nghỉ ngơi",
+      "e": [
+        {
+          "p": "Do you study in the evening?",
+          "m": "Nói có/không (có học buổi tối không).",
+          "h": "Do + S + V? → Yes/No",
+          "s": "No, I do not study in the evening."
+        },
+        {
+          "p": "What do you do after study?",
+          "m": "Nói 1 hoạt động (eat/watch TV/rest).",
+          "h": "S + V(s) + O",
+          "s": "I rest after study."
+        },
+        {
+          "p": "Do you sleep early?",
+          "m": "Nói có/không (ngủ sớm hay không).",
+          "h": "Do + S + V? → Yes/No",
+          "s": "Yes, I sleep early."
+        },
+        {
+          "p": "Is your room quiet at night?",
+          "m": "Nói có/không (yên tĩnh hay không).",
+          "h": "S + be + Adj",
+          "s": "Yes, my room is quiet."
+        },
+        {
+          "p": "Do you study before bed?",
+          "m": "Nói có/không (học trước khi ngủ không).",
+          "h": "Do + S + V? → Yes/No",
+          "s": "No, I do not study before bed."
+        }
+      ]
+    },
+    {
+      "t": "Bạn học và giúp đỡ",
+      "e": [
+        {
+          "p": "Who helps you with homework?",
+          "m": "Nói người giúp (friend/family/teacher).",
+          "h": "Who + V",
+          "s": "My friend helps me with homework."
+        },
+        {
+          "p": "Do your friends study with you?",
+          "m": "Nói có/không (bạn có học cùng bạn không).",
+          "h": "Do + S + V? → Yes/No",
+          "s": "Yes, my friends study with me."
+        },
+        {
+          "p": "Can your friend help you today?",
+          "m": "Nói có/không (friend có thể giúp hôm nay không).",
+          "h": "S + can/can't + V",
+          "s": "Yes, my friend can help me today."
+        },
+        {
+          "p": "Who studies with you at school?",
+          "m": "Nói 1 người cụ thể (friend name or 'my friend').",
+          "h": "Who + V",
+          "s": "My friend Nam studies with me at school."
+        },
+        {
+          "p": "Do you ask your teacher for help?",
+          "m": "Nói có/không (bạn có hỏi giáo viên không).",
+          "h": "Do + S + V? → Yes/No",
+          "s": "Yes, I ask my teacher for help."
+        }
+      ]
+    },
+    {
+      "t": "Dụng cụ học tập",
+      "e": [
+        {
+          "p": "Is there a book on your desk?",
+          "m": "Nói có/không (có sách trên bàn không).",
+          "h": "There is/are or Yes/No",
+          "s": "Yes, there is a book on my desk."
+        },
+        {
+          "p": "Do you have a pen?",
+          "m": "Nói có/không (bạn có bút không).",
+          "h": "Do + S + V? → Yes/No",
+          "s": "Yes, I have a pen."
+        },
+        {
+          "p": "What do you need for study?",
+          "m": "Nói 1 đồ vật cần (book/pen).",
+          "h": "S + V(s) + O",
+          "s": "I need a book."
+        },
+        {
+          "p": "Are there pencils in your bag?",
+          "m": "Nói có/không (có bút chì trong túi không).",
+          "h": "There is/are or Yes/No",
+          "s": "No, there are not pencils in my bag."
+        },
+        {
+          "p": "Do you use a notebook?",
+          "m": "Nói có/không (bạn có dùng vở không).",
+          "h": "Do + S + V? → Yes/No",
+          "s": "Yes, I use a notebook."
+        }
+      ]
+    },
+    {
+      "t": "Thói quen ôn bài",
+      "e": [
+        {
+          "p": "Do you read your notes?",
+          "m": "Nói có/không (bạn có đọc ghi chú không).",
+          "h": "Do + S + V? → Yes/No",
+          "s": "Yes, I read my notes."
+        },
+        {
+          "p": "How often do you review notes?",
+          "m": "Nói tần suất ngắn (every day/once a week).",
+          "h": "S + V(s) + frequency",
+          "s": "I review notes every day."
+        },
+        {
+          "p": "Do you write new notes?",
+          "m": "Nói có/không (bạn có viết ghi chú mới không).",
+          "h": "Do + S + V? → Yes/No",
+          "s": "Yes, I write new notes."
+        },
+        {
+          "p": "What time do you review notes?",
+          "m": "Nói thời gian ngắn (morning/night).",
+          "h": "S + V(s) + time phrase",
+          "s": "I review notes at night."
+        },
+        {
+          "p": "Who helps you check your notes?",
+          "m": "Nói 1 người giúp (friend/teacher).",
+          "h": "Who + V",
+          "s": "My teacher checks my notes."
+        }
+      ]
+    },
+    {
+      "t": "Mục tiêu học tập",
+      "e": [
+        {
+          "p": "What is your study goal?",
+          "m": "Nói 1 mục tiêu ngắn (pass/test/learn).",
+          "h": "S + be + N",
+          "s": "My study goal is to pass the test."
+        },
+        {
+          "p": "Do you want to learn English?",
+          "m": "Nói có/không (bạn có muốn học English không).",
+          "h": "Do + S + V? → Yes/No",
+          "s": "Yes, I want to learn English."
+        },
+        {
+          "p": "How many days do you study for the goal?",
+          "m": "Nói số ngày (1-100) bạn học cho mục tiêu.",
+          "h": "S + V(s) + number",
+          "s": "I study five days a week."
+        },
+        {
+          "p": "Who helps you with your goal?",
+          "m": "Nói 1 người giúp (teacher/friend).",
+          "h": "Who + V",
+          "s": "My teacher helps me with my goal."
+        },
+        {
+          "p": "Do you plan your study time?",
+          "m": "Nói có/không (bạn có lên kế hoạch không).",
+          "h": "Do + S + V? → Yes/No",
+          "s": "Yes, I plan my study time."
+        }
+      ]
+    },
+    {
+      "t": "Khả năng học",
+      "e": [
+        {
+          "p": "Can you read English books?",
+          "m": "Nói có/không (bạn có thể đọc sách English không).",
+          "h": "S + can/can't + V",
+          "s": "No, I cannot read English books."
+        },
+        {
+          "p": "Can you do homework alone?",
+          "m": "Nói có/không (bạn có thể làm bài một mình).",
+          "h": "S + can/can't + V",
+          "s": "Yes, I can do homework alone."
+        },
+        {
+          "p": "Can you study two hours?",
+          "m": "Nói có/không (bạn có thể học hai giờ không).",
+          "h": "S + can/can't + V + time",
+          "s": "No, I cannot study two hours."
+        },
+        {
+          "p": "Can your friend help you now?",
+          "m": "Nói có/không (friend có thể giúp bây giờ không).",
+          "h": "S + can/can't + V",
+          "s": "Yes, my friend can help me now."
+        },
+        {
+          "p": "Can you go to class today?",
+          "m": "Nói có/không (bạn có thể đi học hôm nay không).",
+          "h": "S + can/can't + V",
+          "s": "Yes, I can go to class today."
+        }
+      ]
+    },
+    {
+      "t": "Vấn đề khi học",
+      "e": [
+        {
+          "p": "Is it noisy when you study?",
+          "m": "Nói có/không (có ồn khi học không).",
+          "h": "S + be + Adj",
+          "s": "No, it is not noisy when I study."
+        },
+        {
+          "p": "Do you feel tired when you study?",
+          "m": "Nói có/không (có mệt không).",
+          "h": "Do + S + V? → Yes/No",
+          "s": "Yes, I feel tired when I study."
+        },
+        {
+          "p": "What is the problem when you study?",
+          "m": "Nói 1 vấn đề ngắn (noise/tired).",
+          "h": "S + V(s) + O",
+          "s": "The problem is noise."
+        },
+        {
+          "p": "Do you stop study if you are tired?",
+          "m": "Nói có/không (bạn có dừng học khi mệt không).",
+          "h": "Do + S + V? → Yes/No",
+          "s": "Yes, I stop study if I am tired."
+        },
+        {
+          "p": "Who helps you with study problems?",
+          "m": "Nói 1 người giúp (teacher/friend).",
+          "h": "Who + V",
+          "s": "My teacher helps me with study problems."
+        }
+      ]
+    },
+    {
+      "t": "Ôn tập: Kết hợp thói quen cơ bản",
+      "e": [
+        {
+          "p": "What is your name and where do you study?",
+          "m": "Nói tên và nơi bạn học (2 ý, mỗi ý 1 câu).",
+          "h": "S + be + N; S + V(s) + O",
+          "s": "My name is [studentName]. I study at home."
+        },
+        {
+          "p": "Do you study every day and how many hours?",
+          "m": "Nói có/không và số giờ (2 ý).",
+          "h": "Do + S + V?; S + V(s) + number",
+          "s": "Yes, I study every day. I study two hours."
+        },
+        {
+          "p": "Who helps you and do you study with friends?",
+          "m": "Nói người giúp và có học cùng bạn không (2 ý).",
+          "h": "Who + V; Do + S + V? → Yes/No",
+          "s": "My friend helps me. Yes, I study with friends."
+        },
+        {
+          "p": "What do you bring and is your desk quiet?",
+          "m": "Nói đồ vật mang và có yên tĩnh không (2 ý).",
+          "h": "S + V(s) + O; S + be + Adj",
+          "s": "I bring a book. Yes, my desk is quiet."
+        },
+        {
+          "p": "Can you study two hours and do you sleep early?",
+          "m": "Nói có/không học hai giờ và có ngủ sớm không (2 ý).",
+          "h": "S + can/can't + V; Do + S + V? → Yes/No",
+          "s": "No, I cannot study two hours. Yes, I sleep early."
+        }
+      ]
+    },
+    {
+      "t": "Ôn tập: Nơi, thời gian và dụng cụ",
+      "e": [
+        {
+          "p": "Where do you study and what time?",
+          "m": "Nói nơi học và thời gian (2 ý).",
+          "h": "S + V(s) + O; S + V(s) + time",
+          "s": "I study at school. I study in the morning."
+        },
+        {
+          "p": "Do you have a book and a pen?",
+          "m": "Nói có/không cho từng đồ vật (2 ý).",
+          "h": "Do + S + V? → Yes/No",
+          "s": "Yes, I have a book. Yes, I have a pen."
+        },
+        {
+          "p": "Is the place quiet and do you study alone?",
+          "m": "Nói có/không yên tĩnh và có học một mình không (2 ý).",
+          "h": "S + be + Adj; Do + S + V? → Yes/No",
+          "s": "Yes, it is quiet. No, I do not study alone."
+        },
+        {
+          "p": "What do you need and who helps you?",
+          "m": "Nói 1 đồ vật cần và 1 người giúp (2 ý).",
+          "h": "S + V(s) + O; Who + V",
+          "s": "I need a notebook. My teacher helps me."
+        },
+        {
+          "p": "Do you study every day and why?",
+          "m": "Nói có/không và 1 lý do ngắn (2 ý).",
+          "h": "Do + S + V? → Yes/No; S + V(s) + because + reason",
+          "s": "Yes, I study every day because I want to learn."
+        }
+      ]
+    },
+    {
+      "t": "Ôn tập: Vấn đề và giải pháp",
+      "e": [
+        {
+          "p": "Is it noisy and do you feel tired?",
+          "m": "Nói có/không ồn và có/không mệt (2 ý).",
+          "h": "S + be + Adj; Do + S + V? → Yes/No",
+          "s": "No, it is not noisy. Yes, I feel tired."
+        },
+        {
+          "p": "What is the problem and who helps you?",
+          "m": "Nói 1 vấn đề và 1 người giúp (2 ý).",
+          "h": "S + V(s) + O; Who + V",
+          "s": "The problem is noise. My friend helps me."
+        },
+        {
+          "p": "Can you solve the problem and how?",
+          "m": "Nói có/không và 1 cách ngắn (2 ý).",
+          "h": "S + can/can't + V; S + V(s) + method",
+          "s": "Yes, I can solve the problem. I close the door."
+        },
+        {
+          "p": "Do you stop study when tired and do you rest?",
+          "m": "Nói có/không dừng học và có/không nghỉ (2 ý).",
+          "h": "Do + S + V? → Yes/No",
+          "s": "Yes, I stop study when I am tired. Yes, I rest."
+        },
+        {
+          "p": "What do you do to study better?",
+          "m": "Nói 1 việc bạn làm để học tốt hơn.",
+          "h": "S + V(s) + O",
+          "s": "I read my notes."
+        }
+      ]
+    }
+  ]
+}

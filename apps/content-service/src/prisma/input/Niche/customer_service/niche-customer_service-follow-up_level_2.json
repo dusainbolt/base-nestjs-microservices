@@ -1,0 +1,530 @@
+{
+  "l": 2,
+  "d": [
+    {
+      "t": "Gọi kiểm tra sau khi sửa lỗi",
+      "e": [
+        {
+          "p": "Is your device working now?",
+          "m": "Nói thiết bị có hoạt động hay không. Nói nếu bạn cần giúp thêm.",
+          "h": "Present Simple / 'I need' hoặc 'I still need'.",
+          "s": "The device is working now. I still need help."
+        },
+        {
+          "p": "Did the fix solve the problem?",
+          "m": "Nói vấn đề có được giải quyết hay không. Nói nếu vấn đề còn xảy ra đôi khi.",
+          "h": "Use Past Simple and 'sometimes'.",
+          "s": "The fix solved the problem. Sometimes it still happens."
+        },
+        {
+          "p": "Are you still seeing an error message?",
+          "m": "Nói có thông báo lỗi hay không. Nói tần suất nếu có (thường/đôi khi).",
+          "h": "Yes/No + 'sometimes' hoặc 'often'.",
+          "s": "Yes, there is an error message. It happens sometimes."
+        },
+        {
+          "p": "Do you want us to call back tomorrow?",
+          "m": "Nói có muốn được gọi lại hay không. Nói buổi nào trong ngày bạn rảnh.",
+          "h": "Use 'I want' or 'I don't want' + time phrase (tomorrow morning/afternoon).",
+          "s": "I want a callback tomorrow morning. I am free in the morning."
+        },
+        {
+          "p": "Can you tell me if the problem started after the update?",
+          "m": "Nói thời điểm bắt đầu (sau cập nhật hoặc trước). Nói nếu bạn cần chúng tôi kiểm tra thêm.",
+          "h": "Use 'It started after/before' and 'I need help'.",
+          "s": "The problem started after the update. I need help to check it."
+        }
+      ]
+    },
+    {
+      "t": "Theo dõi khi khách nói vấn đề đã giảm",
+      "e": [
+        {
+          "p": "You said the sound is better now. Is that right?",
+          "m": "Xác nhận nếu âm thanh tốt hơn hay không. Nói nếu vẫn có vấn đề nhỏ.",
+          "h": "Use Present Simple and 'still' or 'a little'.",
+          "s": "Yes, the sound is better now. I still hear a little noise."
+        },
+        {
+          "p": "How often do you hear the noise?",
+          "m": "Nói tần suất nghe tiếng ồn (always/often/sometimes/never). Nói nơi tiếng ồn xuất hiện (ví dụ: khi mở máy).",
+          "h": "Use frequency adverbs and 'when'.",
+          "s": "I hear the noise sometimes. It comes when I turn the device on."
+        },
+        {
+          "p": "Did you try our tip to change the cable?",
+          "m": "Nói bạn đã thử thay cáp hay chưa. Nói nếu việc đó giúp cải thiện.",
+          "h": "Use 'I tried' or 'I didn't try' and 'it helped' or 'it didn't help'.",
+          "s": "I tried the new cable. It helped a lot."
+        },
+        {
+          "p": "Would you like more tips to fix the sound?",
+          "m": "Nói có muốn thêm hướng dẫn hay không. Nếu có, nói bạn có thời gian không cho cuộc gọi ngắn.",
+          "h": "Use 'I want' / 'I don't want' and 'I am free' or 'I am busy'.",
+          "s": "I want more tips. I am free this afternoon."
+        },
+        {
+          "p": "Is it okay if we close this ticket now?",
+          "m": "Nói có đồng ý đóng yêu cầu hay không. Nói nếu bạn muốn mở lại sau.",
+          "h": "Use 'Yes, please' or 'No, please' and 'I will' + verb.",
+          "s": "Yes, you can close the ticket. I will open it again if the noise returns."
+        }
+      ]
+    },
+    {
+      "t": "Xác nhận giao hàng và hoàn trả",
+      "e": [
+        {
+          "p": "Did you receive the replacement part?",
+          "m": "Xác nhận đã nhận hàng hay chưa. Nói nếu hộp bị hư hỏng khi nhận.",
+          "h": "Use Present Simple and 'it was' for condition.",
+          "s": "I received the replacement part. The box was slightly damaged."
+        },
+        {
+          "p": "Is the new part working well?",
+          "m": "Nói phần thay thế có hoạt động tốt không. Nói nếu bạn cần đổi lại.",
+          "h": "Use 'It works' or 'It does not work' and 'I need' to request change.",
+          "s": "The new part works well. I do not need a replacement."
+        },
+        {
+          "p": "Do you want a pickup for the old item?",
+          "m": "Nói có muốn chúng tôi đến lấy đồ cũ không. Nói thời gian bạn rảnh cho việc lấy.",
+          "h": "Use 'I want' / 'I don't want' + time phrase.",
+          "s": "I want a pickup for the old item. I am free tomorrow afternoon."
+        },
+        {
+          "p": "Can you check the serial number for me?",
+          "m": "Nói nếu bạn có thể kiểm tra số serial. Cung cấp số hoặc nói bạn không có.",
+          "h": "Use 'I have' + number or 'I don't have'.",
+          "s": "I have the serial number. It is on the box."
+        },
+        {
+          "p": "Would you like a refund or another replacement?",
+          "m": "Chọn hoàn tiền hoặc đổi sản phẩm. Nói lý do ngắn nếu chọn hoàn tiền.",
+          "h": "Use 'I want a refund' or 'I want a replacement' and a short reason.",
+          "s": "I want a refund. The product is still faulty."
+        }
+      ]
+    },
+    {
+      "t": "Kiểm tra hướng dẫn sử dụng đã rõ ràng?",
+      "e": [
+        {
+          "p": "Did you find the instruction sheet helpful?",
+          "m": "Nói tờ hướng dẫn có hữu ích không. Nói nếu bạn cần hướng dẫn đơn giản hơn.",
+          "h": "Use 'It is helpful' or 'It is not helpful' and 'I need'.",
+          "s": "The instruction sheet is helpful. I need simpler steps."
+        },
+        {
+          "p": "Was the setup easy to follow?",
+          "m": "Nói quá trình cài đặt có dễ theo không. Nói nếu bạn làm xong hay dừng lại giữa chừng.",
+          "h": "Use Past Simple and 'I finished' or 'I stopped'.",
+          "s": "The setup was easy to follow. I finished it quickly."
+        },
+        {
+          "p": "Do you want a short video guide?",
+          "m": "Nói có muốn video hướng dẫn ngắn hay không. Nói bạn muốn xem lúc nào.",
+          "h": "Use 'I want' and time words like 'now' or 'later'.",
+          "s": "I want a short video guide. I can watch it now."
+        },
+        {
+          "p": "Can I walk you through one step now?",
+          "m": "Nói có muốn được hướng dẫn ngay hay không. Nói nếu bạn đang rảnh.",
+          "h": "Use 'Yes, please' or 'No, thank you' and 'I am free' or 'I am busy'.",
+          "s": "Yes, please walk me through it. I am free now."
+        },
+        {
+          "p": "Is there any part of the guide that is unclear?",
+          "m": "Nói phần hướng dẫn nào không rõ (một từ hoặc cụm ngắn). Nói bạn muốn thay đổi gì.",
+          "h": "Use 'The' + part + 'is unclear' and 'I want' + simple verb.",
+          "s": "The warranty section is unclear. I want simpler words there."
+        }
+      ]
+    },
+    {
+      "t": "Hẹn gọi lại để hỗ trợ thêm",
+      "e": [
+        {
+          "p": "When can we call you back?",
+          "m": "Cho biết thời gian bạn rảnh cho cuộc gọi. Nói buổi sáng hoặc chiều.",
+          "h": "Use 'I am free' + time of day.",
+          "s": "I am free tomorrow morning. Call me then."
+        },
+        {
+          "p": "Do you prefer phone or chat?",
+          "m": "Chọn điện thoại hoặc chat. Nói lý do ngắn nếu có.",
+          "h": "Use 'I prefer' + 'phone' or 'chat' and short reason.",
+          "s": "I prefer phone support. It is faster for me."
+        },
+        {
+          "p": "Can we schedule a 10-minute call?",
+          "m": "Đồng ý hoặc từ chối cuộc gọi 10 phút. Nói nếu bạn cần nhiều thời gian hơn.",
+          "h": "Use 'Yes, I can' or 'No, I need' + time.",
+          "s": "Yes, I can do a 10-minute call. I do not need more time."
+        },
+        {
+          "p": "Would morning or afternoon work better?",
+          "m": "Chọn sáng hoặc chiều. Nói giờ cụ thể nếu muốn.",
+          "h": "Use 'Morning works' or 'Afternoon works' and a time.",
+          "s": "Morning works better. Ten AM is good."
+        },
+        {
+          "p": "Is it okay if we call from a blocked number?",
+          "m": "Nói có đồng ý gọi từ số ẩn hay không. Nói nếu bạn muốn số hiển thị.",
+          "h": "Use 'I agree' or 'I want' + 'a visible number'.",
+          "s": "I agree to a blocked number. I do not need a visible number."
+        }
+      ]
+    },
+    {
+      "t": "Theo dõi sau bản cập nhật phần mềm",
+      "e": [
+        {
+          "p": "Did the update finish on your device?",
+          "m": "Xác nhận cập nhật đã hoàn tất hay chưa. Nói nếu bạn thấy thông báo lỗi.",
+          "h": "Use Present Simple and 'I see' or 'I don't see'.",
+          "s": "The update finished on my device. I don't see any error."
+        },
+        {
+          "p": "Is the app running faster now?",
+          "m": "Nói app có chạy nhanh hơn không. Nói nếu vẫn chậm đôi khi.",
+          "h": "Use Present Simple and 'sometimes' for frequency.",
+          "s": "The app runs faster now. It is still slow sometimes."
+        },
+        {
+          "p": "Do you want to roll back to the old version?",
+          "m": "Nói có muốn quay lại phiên bản cũ hay không. Nói lý do ngắn nếu có.",
+          "h": "Use 'I want' or 'I don't want' and a short reason.",
+          "s": "I don't want to roll back. The new version is better."
+        },
+        {
+          "p": "Can you check battery use after the update?",
+          "m": "Nói bạn có thể kiểm tra pin hay không. Nói kết quả ngắn (tốt/xấu).",
+          "h": "Use 'I can' or 'I can't' and 'it is good/bad'.",
+          "s": "I can check the battery. It is good after the update."
+        },
+        {
+          "p": "Should we send another patch if needed?",
+          "m": "Nói đồng ý nhận bản vá thêm hay không. Nói bạn có thể cài ngay hay cần thời gian.",
+          "h": "Use 'I agree' or 'I don't agree' and 'I can install now' or 'I need time'.",
+          "s": "I agree to receive another patch. I can install it now."
+        }
+      ]
+    },
+    {
+      "t": "Theo dõi về thanh toán và hóa đơn",
+      "e": [
+        {
+          "p": "Did you receive the invoice by email?",
+          "m": "Xác nhận bạn có nhận hoá đơn qua email không. Nói nếu bạn không nhận được.",
+          "h": "Use 'I received' or 'I did not receive'.",
+          "s": "I received the invoice by email. I have it now."
+        },
+        {
+          "p": "Is the billed amount correct for you?",
+          "m": "Xác nhận số tiền có đúng không. Nói nếu bạn muốn kiểm tra chi tiết.",
+          "h": "Use 'It is correct' or 'It is not correct' and 'I want'.",
+          "s": "The billed amount is correct. I do not need a detail check."
+        },
+        {
+          "p": "Do you want a payment plan?",
+          "m": "Nói có muốn trả góp hay không. Nói số lần bạn muốn trả nếu có.",
+          "h": "Use 'I want' + 'three payments' or 'I don't want'.",
+          "s": "I want a payment plan. I want three payments."
+        },
+        {
+          "p": "Can we charge the card on file?",
+          "m": "Cho biết có đồng ý trừ tiền thẻ hiện có không. Nói nếu bạn muốn thay đổi thẻ.",
+          "h": "Use 'Yes, you can' or 'No, I want' + 'change the card'.",
+          "s": "Yes, you can charge the card on file. I do not want to change the card."
+        },
+        {
+          "p": "Would you like a receipt by post?",
+          "m": "Chọn nhận biên lai qua bưu điện hay không. Nói địa chỉ ngắn nếu đồng ý.",
+          "h": "Use 'I want' and short address phrase or 'I don't want'.",
+          "s": "I want a receipt by post. My address is near the main street."
+        }
+      ]
+    },
+    {
+      "t": "Hỏi về mức độ hài lòng của khách",
+      "e": [
+        {
+          "p": "Are you happy with our service today?",
+          "m": "Nói bạn có hài lòng không. Nói một điều bạn thích nhất (một từ).",
+          "h": "Use 'I am happy' or 'I am not happy' and one-word praise.",
+          "s": "I am happy with your service. I like the fast reply."
+        },
+        {
+          "p": "Would you rate our help as good or bad?",
+          "m": "Chọn 'good' hoặc 'bad'. Nói nếu bạn muốn góp ý ngắn.",
+          "h": "Use 'It is good' or 'It is bad' and a short comment.",
+          "s": "It is good. I want to say thank you."
+        },
+        {
+          "p": "Do you often use our support chat?",
+          "m": "Nói tần suất bạn dùng chat (always/often/sometimes/never). Nói lý do ngắn.",
+          "h": "Use frequency adverbs and 'because'.",
+          "s": "I use the support chat sometimes. I use it when I have a problem."
+        },
+        {
+          "p": "Can we ask you one quick question about the service?",
+          "m": "Đồng ý hoặc từ chối trả lời. Nói bạn có thời gian ngay hay không.",
+          "h": "Use 'Yes' or 'No' and 'I am free' or 'I am busy'.",
+          "s": "Yes, you can ask one question. I am free now."
+        },
+        {
+          "p": "Is there any simple change we should make?",
+          "m": "Nói một thay đổi đơn giản bạn muốn (một cụm từ). Nói nếu bạn muốn chúng tôi thực hiện.",
+          "h": "Use 'Change' + short phrase and 'I want' or 'I don't want'.",
+          "s": "Change the greeting message. I want you to update it."
+        }
+      ]
+    },
+    {
+      "t": "Giải quyết vấn đề lặp lại",
+      "e": [
+        {
+          "p": "Has this issue come back since our last call?",
+          "m": "Nói nếu vấn đề đã quay lại hay không. Nói tần suất ngắn nếu có.",
+          "h": "Use Present Perfect and 'sometimes' or 'often'.",
+          "s": "Yes, the issue has come back. It happens often."
+        },
+        {
+          "p": "When did you first see the problem again?",
+          "m": "Nói thời điểm gần nhất bạn thấy vấn đề (hôm nay/hôm qua). Nói nơi xuất hiện (ví dụ: khi mở app).",
+          "h": "Use Past Simple and 'when'.",
+          "s": "I saw the problem today. It happens when I open the app."
+        },
+        {
+          "p": "Do you want a technician visit if it repeats?",
+          "m": "Nói có muốn kỹ thuật viên đến không. Nói nếu bạn sẵn sàng cho cuộc hẹn.",
+          "h": "Use 'I want' or 'I don't want' and 'I am ready'.",
+          "s": "I want a technician visit. I am ready next week."
+        },
+        {
+          "p": "Can you try a restart and tell me the result?",
+          "m": "Nói bạn có thể khởi động lại hay không. Nói kết quả ngắn (tốt/xấu).",
+          "h": "Use 'I can'/'I can't' and 'it is good'/'it is bad'.",
+          "s": "I can restart the device. It is good now."
+        },
+        {
+          "p": "Should we keep this ticket open until fixed?",
+          "m": "Nói có giữ yêu cầu mở hay không. Nói nếu bạn sẽ báo lại khi vấn đề xảy ra.",
+          "h": "Use 'Keep it open' or 'Close it' and 'I will' + verb.",
+          "s": "Keep the ticket open please. I will tell you if it happens again."
+        }
+      ]
+    },
+    {
+      "t": "Đề nghị đổi sản phẩm hoặc hoàn tiền",
+      "e": [
+        {
+          "p": "Would you like a replacement or a refund?",
+          "m": "Chọn đổi sản phẩm hay hoàn tiền. Nói lý do ngắn cho lựa chọn.",
+          "h": "Use 'I want a replacement' or 'I want a refund' and a short reason.",
+          "s": "I want a replacement. The product is damaged."
+        },
+        {
+          "p": "If we replace, should we send the same color?",
+          "m": "Nói có muốn cùng màu hay đổi màu. Nói màu bạn muốn nếu đổi.",
+          "h": "Use 'Yes, the same' or 'No, I want' + color.",
+          "s": "No, I want a different color. I want blue."
+        },
+        {
+          "p": "Do you need the refund fast?",
+          "m": "Nói bạn có cần hoàn tiền nhanh hay không. Nói nếu bạn muốn chuyển vào thẻ hay tài khoản.",
+          "h": "Use 'Yes, I need it' or 'No, I can wait' and 'to the card' or 'to the account'.",
+          "s": "Yes, I need the refund fast. Send it to my card."
+        },
+        {
+          "p": "Can you send us a photo of the fault?",
+          "m": "Nói có thể gửi ảnh hay không. Nói bạn sẽ gửi qua email hay chat.",
+          "h": "Use 'I can' or 'I can't' and 'by email' or 'by chat'.",
+          "s": "I can send a photo. I will send it by email."
+        },
+        {
+          "p": "Is it okay if we process the return this week?",
+          "m": "Nói đồng ý xử lý trả hàng trong tuần này hay không. Nói nếu bạn cần thêm thời gian.",
+          "h": "Use 'Yes, it's okay' or 'No, I need' + time.",
+          "s": "Yes, it's okay to process the return this week. I don't need more time."
+        }
+      ]
+    },
+    {
+      "t": "Kiểm tra dịch vụ sau lắp đặt",
+      "e": [
+        {
+          "p": "Is the installation working as expected?",
+          "m": "Nói việc lắp đặt có hoạt động như mong đợi không. Nói nếu có vấn đề nhỏ.",
+          "h": "Use 'It is working' or 'It is not working' and 'a small problem'.",
+          "s": "The installation is working as expected. There is a small problem with one cable."
+        },
+        {
+          "p": "Do you need a visit to fix the cable?",
+          "m": "Nói có cần kỹ thuật viên tới sửa cáp không. Nói thời gian bạn rảnh nếu cần.",
+          "h": "Use 'I need' or 'I don't need' and time phrase.",
+          "s": "I need a visit to fix the cable. I am free on Friday."
+        },
+        {
+          "p": "Are the settings OK or do you want them changed?",
+          "m": "Nói cài đặt có ổn không. Nói nếu bạn muốn thay đổi một cài đặt nhỏ.",
+          "h": "Use 'They are ok' or 'I want' + change.",
+          "s": "The settings are okay. I want the volume lower."
+        },
+        {
+          "p": "Will you use the service every day?",
+          "m": "Nói bạn có dùng dịch vụ hàng ngày hay không. Nói ngắn lý do dùng nhiều hoặc ít.",
+          "h": "Use 'I use' + frequency adverb and short reason.",
+          "s": "I will use the service every day. I need it for work."
+        },
+        {
+          "p": "Can we check the system again next week?",
+          "m": "Đồng ý kiểm tra lại tuần tới hay không. Nói bạn có rảnh cho cuộc kiểm tra ngắn.",
+          "h": "Use 'Yes, check' or 'No, I am busy' and 'I am free'.",
+          "s": "Yes, check the system next week. I am free on Tuesday."
+        }
+      ]
+    },
+    {
+      "t": "Hỗ trợ thêm cho khách hàng bận rộn",
+      "e": [
+        {
+          "p": "Is now a bad time to talk?",
+          "m": "Nói ngay có rảnh hay không. Nói khi nào bạn rảnh nếu hiện tại bận.",
+          "h": "Use 'I am busy now' or 'I am free now' and time words.",
+          "s": "I am busy now. I am free after six."
+        },
+        {
+          "p": "Do you prefer a short email with steps?",
+          "m": "Chọn email ngắn hay không. Nói bạn có thể đọc email hay không.",
+          "h": "Use 'I prefer' and 'I can read' or 'I cannot read'.",
+          "s": "I prefer a short email. I can read it later."
+        },
+        {
+          "p": "Can we text you a quick fix link?",
+          "m": "Nói có muốn nhận tin nhắn chứa link không. Nói nếu bạn không dùng điện thoại.",
+          "h": "Use 'Yes, send' or 'No, I don't' and phone use note.",
+          "s": "Yes, send a quick fix link. I use my phone."
+        },
+        {
+          "p": "Would a short evening call work for you?",
+          "m": "Chọn có phù hợp gọi tối hay không. Nói giờ khoảng nào bạn rảnh.",
+          "h": "Use 'Yes, evening works' and simple time or 'No, I am busy'.",
+          "s": "Yes, an evening call works. I am free after seven."
+        },
+        {
+          "p": "Shall we close the issue and reopen later if needed?",
+          "m": "Chọn đóng yêu cầu bây giờ hay giữ mở. Nói nếu bạn sẽ báo lại sau.",
+          "h": "Use 'Close it' or 'Keep it open' and 'I will' + verb.",
+          "s": "Close the issue now please. I will contact you if it returns."
+        }
+      ]
+    },
+    {
+      "t": "Ôn tập: Tổng hợp cuộc gọi theo dõi",
+      "e": [
+        {
+          "p": "Did the final fix solve all your problems?",
+          "m": "Nói fix cuối cùng có giải quyết tất cả không. Nói nếu bạn cần thêm theo dõi.",
+          "h": "Use 'It solved' or 'It did not solve' and 'I need'.",
+          "s": "The final fix solved my problems. I do not need more follow-up."
+        },
+        {
+          "p": "Can we close all open tickets for you?",
+          "m": "Trả lời đồng ý đóng tất cả hay không. Nói nếu bạn muốn giữ một ticket mở.",
+          "h": "Use 'Yes, close' or 'No, keep' and short reason.",
+          "s": "Yes, close all open tickets. I don't need any left open."
+        },
+        {
+          "p": "Would you like a short survey about our help?",
+          "m": "Đồng ý làm khảo sát hay không. Nói bạn có thời gian ngắn làm khảo sát.",
+          "h": "Use 'I will' or 'I won't' and 'I have time' or 'I don't have time'.",
+          "s": "I will do the short survey. I have time now."
+        },
+        {
+          "p": "Do you want tips to avoid this issue again?",
+          "m": "Chọn có muốn mẹo phòng ngừa hay không. Nói nếu bạn có thể làm theo hướng dẫn.",
+          "h": "Use 'I want' or 'I don't want' and 'I can' or 'I can't'.",
+          "s": "I want tips to avoid this issue. I can follow the instructions."
+        },
+        {
+          "p": "Is our support team clear and helpful to you?",
+          "m": "Nói đội hỗ trợ có rõ ràng và hữu ích không. Nói một điều bạn thích về đội.",
+          "h": "Use 'They are' + adjective and one positive point.",
+          "s": "The support team is clear and helpful. I like their quick answers."
+        }
+      ]
+    },
+    {
+      "t": "Ôn tập: Khiếu nại và giải pháp",
+      "e": [
+        {
+          "p": "Are you still unhappy with the product?",
+          "m": "Nói bạn còn không hài lòng hay không. Nói lý do ngắn nếu vẫn không hài lòng.",
+          "h": "Use 'I am' + 'happy'/'not happy' and short reason.",
+          "s": "I am not happy with the product. It does not work well."
+        },
+        {
+          "p": "Would a refund solve your issue?",
+          "m": "Chọn hoàn tiền có giải quyết không. Nói nếu bạn muốn hoàn tiền ngay.",
+          "h": "Use 'A refund will' or 'A refund will not' and 'now' or 'later'.",
+          "s": "A refund will solve my issue. I want it now."
+        },
+        {
+          "p": "Can we offer a discount instead of refund?",
+          "m": "Chọn giảm giá hay không. Nói bạn có chấp nhận giảm giá ngắn không.",
+          "h": "Use 'I accept' or 'I don't accept' and short percent or word 'small'.",
+          "s": "I don't accept a discount. I prefer a refund."
+        },
+        {
+          "p": "Do you want us to replace the product this week?",
+          "m": "Chọn có muốn thay sản phẩm trong tuần này hay không. Nói bạn rảnh cho việc nhận hàng.",
+          "h": "Use 'Yes, replace' or 'No' and 'I am free' phrase.",
+          "s": "Yes, replace the product this week. I am free on Thursday."
+        },
+        {
+          "p": "Should we keep working on a fix or close the case?",
+          "m": "Chọn tiếp tục sửa hay đóng vụ việc. Nói nếu bạn sẽ báo lại sau.",
+          "h": "Use 'Keep working' or 'Close the case' and 'I will' + verb.",
+          "s": "Keep working on a fix please. I will tell you if it is fixed."
+        }
+      ]
+    },
+    {
+      "t": "Ôn tập: Lịch hẹn và cảm ơn khách hàng",
+      "e": [
+        {
+          "p": "Can we set a time for a final check?",
+          "m": "Đặt thời gian kiểm tra cuối cùng. Nói buổi và giờ bạn muốn (sáng/chiều).",
+          "h": "Use 'I am free' + time of day and simple hour.",
+          "s": "Set the check for tomorrow afternoon. I am free at three."
+        },
+        {
+          "p": "Do you want a confirmation email after our call?",
+          "m": "Chọn có nhận email xác nhận hay không. Nói email có đúng không (có/không).",
+          "h": "Use 'Yes, send' or 'No, don't send' and 'my email is' simple phrase.",
+          "s": "Yes, send a confirmation email. My email is correct."
+        },
+        {
+          "p": "Would you like to add a short thanks note to your file?",
+          "m": "Chọn thêm ghi chú cảm ơn hay không. Nói nội dung ngắn nếu muốn thêm.",
+          "h": "Use 'Yes, add' or 'No' and a short sentence.",
+          "s": "Yes, add a thanks note. Thank you for the fast help."
+        },
+        {
+          "p": "Is there any last question before we finish?",
+          "m": "Hỏi nếu bạn còn câu hỏi cuối. Nói câu hỏi nếu có, hoặc nói không có.",
+          "h": "Use 'I have' or 'I don't have' + question or 'no'.",
+          "s": "I don't have any last question. Thank you for your help."
+        },
+        {
+          "p": "May we follow up in one week to ensure all is good?",
+          "m": "Đồng ý được liên hệ lại sau một tuần hay không. Nói bạn có thể nhận cuộc gọi hoặc không.",
+          "h": "Use 'Yes, call' or 'No, I cannot' and short availability.",
+          "s": "Yes, call me in one week. I can take the call then."
+        }
+      ]
+    }
+  ]
+}

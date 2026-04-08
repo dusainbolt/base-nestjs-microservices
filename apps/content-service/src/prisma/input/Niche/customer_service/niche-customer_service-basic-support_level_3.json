@@ -1,0 +1,530 @@
+{
+  "l": 3,
+  "d": [
+    {
+      "t": "Chào hỏi khách hàng",
+      "e": [
+        {
+          "p": "Hi, I need help.",
+          "m": "Nói rằng bạn có thể giúp. Hỏi khách đang gặp vấn đề gì.",
+          "h": "Dùng 'I can' + động từ; câu hỏi với 'What...?'",
+          "s": "I can help you. What problem are you having?"
+        },
+        {
+          "p": "Good morning, my order is late.",
+          "m": "Xin lỗi vì sự bất tiện. Yêu cầu mã đơn hàng để kiểm tra.",
+          "h": "Dùng 'I'm sorry' + yêu cầu thông tin bằng 'Could you...?'",
+          "s": "I'm sorry your order is late. Could you give me your order number?"
+        },
+        {
+          "p": "Can I know your name?",
+          "m": "Nói tên của bạn (dùng placeholder nếu cần). Nói ngắn về vai trò của bạn.",
+          "h": "Dùng 'My name is [studentName].' và 'I am...' ",
+          "s": "My name is [studentName]. I am a customer support agent."
+        },
+        {
+          "p": "When can I contact you again?",
+          "m": "Đưa ra hai lựa chọn thời gian trong tương lai. Hỏi khách chọn thời gian nào.",
+          "h": "Dùng 'I will be available...' và 'Which time works for you?'",
+          "s": "I will be available at 2 PM or 4 PM tomorrow. Which time works for you?"
+        },
+        {
+          "p": "Thank you, the problem is solved. Anything else?",
+          "m": "Xác nhận vấn đề đã được giải quyết. Đề nghị hỗ trợ thêm nếu cần. Kết thúc lịch sự.",
+          "h": "Dùng 'I'm glad...' và 'If you need... please...' ",
+          "s": "I'm glad the problem is solved. If you need more help, please contact us. Have a nice day."
+        }
+      ]
+    },
+    {
+      "t": "Hỏi về đơn hàng",
+      "e": [
+        {
+          "p": "Where is my order?",
+          "m": "Yêu cầu mã đơn hàng. Nói bạn sẽ kiểm tra ngay.",
+          "h": "Dùng 'Please give...' và 'I will check...' ",
+          "s": "Please give me your order number. I will check it now."
+        },
+        {
+          "p": "My order was delivered but I didn't receive it.",
+          "m": "Hỏi khi nào đơn hàng được ghi là đã giao. Đề nghị kiểm tra hàng xóm hoặc văn phòng tòa nhà.",
+          "h": "Dùng 'When was it marked delivered?' và 'Please check...' ",
+          "s": "When was it marked delivered? Please check with your neighbors and the building office."
+        },
+        {
+          "p": "I received a wrong item.",
+          "m": "Xin lỗi khách vì lỗi. Yêu cầu ảnh chụp và mã đơn hàng.",
+          "h": "Dùng 'I'm sorry' rồi 'Could you send...' ",
+          "s": "I'm sorry for the mistake. Could you send a photo and your order number?"
+        },
+        {
+          "p": "Can you cancel my order?",
+          "m": "Hỏi xem đơn hàng đã được gửi chưa. Nêu nếu có thể hủy và hoàn tiền.",
+          "h": "Dùng 'Is your order already shipped?' và 'If not, I can...' ",
+          "s": "Is your order already shipped? If not, I can cancel it and issue a refund."
+        },
+        {
+          "p": "Will I get tracking info?",
+          "m": "Nói có hay không. Nói khi nào khách sẽ nhận thông tin và bạn sẽ gửi link theo dõi.",
+          "h": "Dùng 'You will get...' và 'I will send...' ",
+          "s": "Yes, you will get tracking information by email once it ships. I will send the tracking link to you."
+        }
+      ]
+    },
+    {
+      "t": "Thông tin giao hàng",
+      "e": [
+        {
+          "p": "What's the shipping cost?",
+          "m": "Nói chi phí giao hàng cụ thể. Nêu điều kiện được giao miễn phí nếu có.",
+          "h": "Dùng cấu trúc 'Shipping costs...' và 'It's free for orders over...' ",
+          "s": "Shipping costs $5. It's free for orders over $50."
+        },
+        {
+          "p": "How long does delivery take?",
+          "m": "Cho biết khoảng thời gian giao hàng ước tính. Nhắc khả năng chậm trễ do thời tiết hoặc sự kiện.",
+          "h": "Dùng 'Delivery takes...' và 'It may take longer...' ",
+          "s": "Delivery takes 3–5 business days. It may take longer in bad weather."
+        },
+        {
+          "p": "Do you ship internationally?",
+          "m": "Trả lời có hay không. Nói ngắn hạn chế hoặc phí thêm nếu có.",
+          "h": "Dùng 'We ship to...' hoặc 'Some areas may...' ",
+          "s": "We ship to most countries. Some remote areas may have extra fees."
+        },
+        {
+          "p": "Can I change the address after shipping?",
+          "m": "Nói nếu có thể thay đổi hay không. Nếu được, hướng dẫn ngắn cách làm.",
+          "h": "Dùng 'You can change...' hoặc 'Please give the new address...' ",
+          "s": "You can change the address before it ships. Please give the new address and I'll update it."
+        },
+        {
+          "p": "My package was damaged on arrival.",
+          "m": "Xin lỗi khách. Yêu cầu ảnh và mã đơn hàng. Đề nghị gửi hàng thay thế hoặc hoàn tiền.",
+          "h": "Dùng 'I'm sorry...' và 'Please send...' và 'We will...' ",
+          "s": "I'm sorry your package arrived damaged. Please send a photo and your order number. We will send a replacement or give a refund."
+        }
+      ]
+    },
+    {
+      "t": "Thanh toán và giá cả",
+      "e": [
+        {
+          "p": "What payment methods do you accept?",
+          "m": "Liệt kê các phương thức thanh toán chính. Nói ngắn về độ an toàn khi thanh toán online.",
+          "h": "Dùng 'We accept...' và 'Online payments are...' ",
+          "s": "We accept credit/debit cards and PayPal. Online payments are secure."
+        },
+        {
+          "p": "Can I pay on delivery?",
+          "m": "Trả lời có hay không. Nêu điều kiện hoặc giới hạn nếu có.",
+          "h": "Dùng 'Yes, you can...' hoặc 'For larger orders, ...' ",
+          "s": "Yes, you can pay on delivery for orders under $200. For larger orders, prepayment is required."
+        },
+        {
+          "p": "Is there a discount available?",
+          "m": "Nói nếu có chương trình giảm giá hiện tại. Nếu có, cho ví dụ mã giảm giá.",
+          "h": "Dùng 'We have...' và 'Use code...' ",
+          "s": "We have a 10% sale this week. Use code SAVE10 at checkout."
+        },
+        {
+          "p": "Do you accept returns for refund?",
+          "m": "Nêu chính sách trả hàng cơ bản. Cho biết thời hạn trả hàng.",
+          "h": "Dùng 'Returns are accepted within...' và 'Please keep...' ",
+          "s": "Yes, returns are accepted within 14 days. Please keep the receipt."
+        },
+        {
+          "p": "I was charged twice on my card.",
+          "m": "Xin lỗi vì sự cố. Yêu cầu thông tin giao dịch. Hứa sẽ kiểm tra và hoàn tiền nếu có lỗi.",
+          "h": "Dùng 'I'm sorry...' + 'Please send...' + 'I will check and...' ",
+          "s": "I'm sorry about the double charge. Please send the transaction details. I will check and refund if it was an error."
+        }
+      ]
+    },
+    {
+      "t": "Sản phẩm - mô tả cơ bản",
+      "e": [
+        {
+          "p": "Is this product waterproof?",
+          "m": "Trả lời có hay không. Nói lý do ngắn gọn hoặc tính năng liên quan.",
+          "h": "Dùng 'Yes/No, it is...' và giải thích ngắn.",
+          "s": "Yes, it is waterproof. It has a sealed design."
+        },
+        {
+          "p": "What size should I choose?",
+          "m": "Hỏi thông tin đo đơn giản (chiều cao hoặc vòng ngực). Đề xuất kích thước phù hợp.",
+          "h": "Dùng 'What is your...' và 'I recommend size...' ",
+          "s": "What is your height and weight? I recommend size M."
+        },
+        {
+          "p": "Does it come in other colors?",
+          "m": "Liệt kê các màu có sẵn. Đề nghị kiểm tra tồn kho cho kích thước khách cần.",
+          "h": "Dùng 'It comes in...' và 'I can check stock...' ",
+          "s": "It comes in red, blue, and black. I can check stock for your size."
+        },
+        {
+          "p": "Can I try it before I buy?",
+          "m": "Nói chính sách thử tại cửa hàng. Nói phương án khi mua online (đổi trả).",
+          "h": "Dùng 'You can...' và 'If you buy online...' ",
+          "s": "You can try it in our store. If you buy online, you can return it within 14 days."
+        },
+        {
+          "p": "Is it better than the old model?",
+          "m": "So sánh ngắn: nói sản phẩm này tốt hơn ở điểm nào. Nêu một cải tiến rõ ràng.",
+          "h": "Dùng so sánh 'better' hoặc 'more + adj' để nêu ưu điểm.",
+          "s": "This model is better than the old one. It is more durable and has a longer battery life."
+        }
+      ]
+    },
+    {
+      "t": "Đổi trả hàng",
+      "e": [
+        {
+          "p": "I want to return my item.",
+          "m": "Hỏi lý do trả hàng. Yêu cầu mã đơn hàng để bắt đầu.",
+          "h": "Dùng 'Why do you want...' và 'Please give...' ",
+          "s": "Why do you want to return it? Please give your order number."
+        },
+        {
+          "p": "How do I start a return?",
+          "m": "Hướng dẫn 2 bước đơn giản để bắt đầu trả hàng.",
+          "h": "Dùng hai câu mệnh lệnh ngắn: 'You need to...' và 'Then...'.",
+          "s": "You need to fill the return form online. Then print the label and send the package."
+        },
+        {
+          "p": "Who pays for return shipping?",
+          "m": "Nói rõ bên chịu phí trong trường hợp hư hỏng. Nói ai trả trong trường hợp khác.",
+          "h": "Dùng 'We cover...' và 'For other returns, ...' ",
+          "s": "We cover return shipping for damaged items. For other returns, the customer pays."
+        },
+        {
+          "p": "When will I get my refund?",
+          "m": "Cho biết khung thời gian xử lý hoàn tiền. Nói phương thức hoàn tiền sẽ về đâu.",
+          "h": "Dùng 'Refunds take...' và 'We will refund to...' ",
+          "s": "Refunds take 5–7 business days after we receive the item. We will refund to your original payment method."
+        },
+        {
+          "p": "I lost the receipt, can I still return?",
+          "m": "Nêu phương án thay thế (ví dụ: email xác nhận). Hướng dẫn bước tiếp theo ngắn.",
+          "h": "Dùng 'If you lost...' và 'We will check...' ",
+          "s": "If you lost the receipt, send the order confirmation email. We will check and help with the return."
+        }
+      ]
+    },
+    {
+      "t": "Lịch hẹn và đặt lịch",
+      "e": [
+        {
+          "p": "Can I book an installation?",
+          "m": "Hỏi ngày khách muốn. Đưa ra hai khung giờ sẵn có.",
+          "h": "Dùng 'When would you like...' và 'We are free at...' ",
+          "s": "When would you like the installation? We are free at 10 AM or 3 PM tomorrow."
+        },
+        {
+          "p": "I need to change my appointment.",
+          "m": "Hỏi giờ hẹn cũ. Đưa ra hai lựa chọn giờ mới.",
+          "h": "Dùng 'What was your appointment time?' và 'I can move it to...' ",
+          "s": "What was your appointment time? I can move it to Thursday at 2 PM or Friday at 11 AM."
+        },
+        {
+          "p": "Do you come on weekends?",
+          "m": "Xác nhận có hay không. Nêu điều kiện hoặc phí thêm nếu có.",
+          "h": "Dùng 'Yes/No, we...' và 'for an extra fee' nếu cần.",
+          "s": "Yes, we work on weekends for an extra fee. Please tell me which day you prefer."
+        },
+        {
+          "p": "Can I cancel without a fee?",
+          "m": "Nói chính sách hủy (thời hạn miễn phí). Hướng dẫn cách xác nhận hủy.",
+          "h": "Dùng 'You can cancel...' và 'Please confirm...' ",
+          "s": "You can cancel for free up to 24 hours before. Please confirm your appointment number to cancel."
+        },
+        {
+          "p": "Will the technician bring the parts?",
+          "m": "Xác nhận kỹ thuật viên có mang phụ tùng đi kèm hay không. Yêu cầu khách gửi mã model để chuẩn bị.",
+          "h": "Dùng 'The technician will...' và 'Please send...' ",
+          "s": "The technician will bring common parts. Please send your model number so we can prepare."
+        }
+      ]
+    },
+    {
+      "t": "Hỗ trợ kỹ thuật cơ bản",
+      "e": [
+        {
+          "p": "My device won't turn on.",
+          "m": "Hỏi xem thiết bị đã được sạc chưa. Đề xuất một bước khởi động cơ bản.",
+          "h": "Dùng 'Is the device charged?' và mệnh lệnh 'Try...' ",
+          "s": "Is the device charged? Try holding the power button for 10 seconds."
+        },
+        {
+          "p": "The screen is frozen.",
+          "m": "Gợi ý khởi động lại thiết bị. Hỏi khách đã sao lưu dữ liệu chưa.",
+          "h": "Dùng 'Please restart...' và 'Do you have...' ",
+          "s": "Please restart the device. Do you have a backup of your data?"
+        },
+        {
+          "p": "I can't connect to Wi-Fi.",
+          "m": "Hỏi khách đã nhập đúng mật khẩu chưa. Đề xuất khởi động lại router.",
+          "h": "Dùng 'Did you enter...' và 'Try restarting...' ",
+          "s": "Did you enter the correct password? Try restarting your router and reconnecting."
+        },
+        {
+          "p": "The app crashes often.",
+          "m": "Hỏi phiên bản ứng dụng. Gợi ý cập nhật hoặc cài lại app.",
+          "h": "Dùng 'Which app version...' và 'Try updating or reinstalling...' ",
+          "s": "Which app version are you using? Try updating or reinstalling the app."
+        },
+        {
+          "p": "I lost my settings after the update.",
+          "m": "Xin lỗi ngắn. Hỏi khi nào cập nhật. Đề nghị khôi phục từ bản sao lưu hoặc hướng dẫn reset.",
+          "h": "Dùng 'I'm sorry...' và 'I can help restore...' hoặc 'guide a reset'.",
+          "s": "I'm sorry this happened. When did you update? I can help restore from backup or guide a reset."
+        }
+      ]
+    },
+    {
+      "t": "Thắc mắc về chính sách",
+      "e": [
+        {
+          "p": "What's your warranty policy?",
+          "m": "Nói thời gian bảo hành. Nêu ngắn những gì được bảo hành.",
+          "h": "Dùng 'The warranty is...' và 'It covers...' ",
+          "s": "The warranty is one year. It covers manufacturing defects."
+        },
+        {
+          "p": "Do you offer price matching?",
+          "m": "Trả lời có hay không. Nêu điều kiện cơ bản để áp dụng.",
+          "h": "Dùng 'Yes, we...' và 'Please show...' ",
+          "s": "Yes, we match prices within 7 days if the item is identical. Please show the competitor's ad."
+        },
+        {
+          "p": "How do you protect customer data?",
+          "m": "Đưa ra cam kết ngắn về bảo mật. Nói phương pháp đơn giản (ví dụ: server an toàn).",
+          "h": "Dùng 'We protect...' và 'We do not share...' ",
+          "s": "We protect customer data with secure servers. We do not share data with third parties without permission."
+        },
+        {
+          "p": "Can I get an invoice?",
+          "m": "Hỏi khách cần hóa đơn công ty hay cá nhân. Nói rằng bạn sẽ gửi hóa đơn qua email.",
+          "h": "Dùng 'Do you need...' và 'I will email...' ",
+          "s": "Do you need a company invoice or a personal one? I will email the invoice after purchase."
+        },
+        {
+          "p": "Are gift cards refundable?",
+          "m": "Nêu chính sách hoàn tiền cho thẻ quà tặng. Nói các cách sử dụng thẻ.",
+          "h": "Dùng 'Gift cards are...' và 'They can be used...' ",
+          "s": "Gift cards are not refundable. They can be used for purchases or transferred."
+        }
+      ]
+    },
+    {
+      "t": "Yêu cầu hoàn tiền",
+      "e": [
+        {
+          "p": "I want a refund for my subscription.",
+          "m": "Hỏi lý do hoàn tiền. Yêu cầu mã đăng ký/ID để kiểm tra.",
+          "h": "Dùng 'Why do you want...' và 'Please give...' ",
+          "s": "Why do you want a refund? Please give your subscription ID."
+        },
+        {
+          "p": "Can I get a partial refund?",
+          "m": "Giải thích khi nào có thể hoàn tiền một phần. Đưa ra ví dụ ngắn.",
+          "h": "Dùng 'Partial refunds are possible if...' và cho ví dụ.",
+          "s": "Partial refunds are possible if part of the service was unused. For example, you can get half the month back."
+        },
+        {
+          "p": "The refund didn't arrive in my account.",
+          "m": "Hỏi phương thức thanh toán đã sử dụng. Hứa kiểm tra và nêu khung thời gian bạn sẽ báo lại.",
+          "h": "Dùng 'Which payment method...' và 'I will check...' + thời gian.",
+          "s": "Which payment method did you use? I will check the status. Refunds usually take 5–7 business days."
+        },
+        {
+          "p": "I was charged for a cancelled order.",
+          "m": "Xin lỗi vì sự cố. Yêu cầu mã đơn hàng. Hứa hoàn tiền nếu lỗi do hệ thống.",
+          "h": "Dùng 'I'm sorry...' + 'Please give...' + 'I will issue...' ",
+          "s": "I'm sorry for the charge. Please give your order number. If it was an error, I will issue a refund."
+        },
+        {
+          "p": "How long to process a refund?",
+          "m": "Nói khung thời gian xử lý. Giải thích bước tiếp theo sau khi hoàn tiền được xử lý.",
+          "h": "Dùng 'Refunds are processed within...' và 'After that...' ",
+          "s": "Refunds are processed within 5 business days. After that, the money returns to your account in 2–3 days."
+        }
+      ]
+    },
+    {
+      "t": "Hỏi thông tin cá nhân để hỗ trợ",
+      "e": [
+        {
+          "p": "Can I have your name for the record?",
+          "m": "Cung cấp tên bạn (dùng placeholder). Nói vai trò hoặc bộ phận bạn làm việc.",
+          "h": "Dùng 'My name is [studentName].' và 'I am...' ",
+          "s": "My name is [studentName]. I'm a support agent."
+        },
+        {
+          "p": "Where are you located?",
+          "m": "Nói thành phố nơi bạn làm việc (dùng placeholder). Nói giờ làm việc ngắn.",
+          "h": "Dùng '[studentCity]' và 'I am available...' ",
+          "s": "[studentCity]. I'm available 9 AM to 6 PM local time."
+        },
+        {
+          "p": "Do you work remotely?",
+          "m": "Trả lời có hay không. Nói ngắn cách hỗ trợ (qua điện thoại hoặc email).",
+          "h": "Dùng 'Yes, I...' hoặc 'No, I...' và 'I can help by...' ",
+          "s": "Yes, I work remotely. I can help by phone or email."
+        },
+        {
+          "p": "Can you update my address on file?",
+          "m": "Yêu cầu địa chỉ mới từ khách. Xác nhận bạn sẽ cập nhật trong hệ thống.",
+          "h": "Dùng 'Please give the new address.' và 'I will update...' ",
+          "s": "Please give the new address. I will update it in our system."
+        },
+        {
+          "p": "Do you need my ID number for warranty?",
+          "m": "Nói khi nào cần ID. Hỏi xin phép khách để lấy ID nếu cần.",
+          "h": "Dùng 'We need...' và 'May I please have...' ",
+          "s": "We need your ID for warranty claims. May I please have it?"
+        }
+      ]
+    },
+    {
+      "t": "Phản hồi sau khi giải quyết",
+      "e": [
+        {
+          "p": "The issue was fixed, thank you.",
+          "m": "Xác nhận khách hài lòng. Hỏi khách có thể cho phản hồi ngắn không.",
+          "h": "Dùng 'I'm glad...' và 'Could you give...' ",
+          "s": "I'm glad it's fixed. Could you give a short feedback about the service?"
+        },
+        {
+          "p": "I'd like to rate the service.",
+          "m": "Yêu cầu khách chấm điểm theo thang 1–5. Hỏi lý do điểm họ đưa ra.",
+          "h": "Dùng 'Please rate us from...' và 'Why did you give...' ",
+          "s": "Please rate us from 1 to 5. Why did you give that rating?"
+        },
+        {
+          "p": "Can I leave a comment online?",
+          "m": "Nói nơi khách có thể để lại bình luận. Hỏi xin phép gửi link nếu cần.",
+          "h": "Dùng 'You can leave...' và 'May I send the link...?' ",
+          "s": "You can leave a comment on our website. May I send the link to your email?"
+        },
+        {
+          "p": "I want to recommend a product to you.",
+          "m": "Hỏi tên sản phẩm khách muốn giới thiệu. Nói họ có thể mô tả ngắn lý do khuyên dùng.",
+          "h": "Dùng 'Which product...' và 'Tell us why...' ",
+          "s": "Which product do you want to recommend? Tell us why and we will share it."
+        },
+        {
+          "p": "I have a complaint about the support I received.",
+          "m": "Xin lỗi khách. Hỏi chi tiết sự việc. Hứa sẽ theo dõi và báo lại.",
+          "h": "Dùng 'I'm sorry...' + 'Please tell me...' + 'I will follow up.'",
+          "s": "I'm sorry to hear that. Please tell me what happened and I will follow up with the team."
+        }
+      ]
+    },
+    {
+      "t": "Ôn tập: Tương tác tổng hợp 1",
+      "e": [
+        {
+          "p": "My order arrived late and I paid extra for express shipping.",
+          "m": "Xin lỗi khách. Giải thích ngắn nguyên nhân nếu biết. Đề nghị hoàn lại phí gửi nhanh.",
+          "h": "Dùng 'I'm sorry...' + 'It was delayed...' + 'We will refund...' ",
+          "s": "I'm sorry your order arrived late. It was delayed in transit. We will refund the extra shipping fee."
+        },
+        {
+          "p": "I was charged twice and my package is missing.",
+          "m": "Yêu cầu mã đơn hàng. Hứa kiểm tra cả hai vấn đề. Cho biết thời gian bạn sẽ phản hồi.",
+          "h": "Dùng 'Please give...' + 'I will check...' + 'I will reply within...' ",
+          "s": "Please give me your order number. I will check both the charge and the delivery. I will reply within 2 business days."
+        },
+        {
+          "p": "I want to exchange an item and book an installation.",
+          "m": "Xác nhận có thể đổi hay không. Nói các bước đổi hàng. Đưa ra 2 khung giờ lắp đặt có sẵn.",
+          "h": "Dùng 'Yes, you can...' + 'Send it back...' + 'We have...' ",
+          "s": "Yes, you can exchange the item. Send it back with the return form and we will send the new one. For installation we have Monday at 10 AM or Wednesday at 3 PM."
+        },
+        {
+          "p": "The product is faulty and I need a refund fast.",
+          "m": "Xin lỗi khách. Yêu cầu ảnh và mã đơn hàng. Nói khung thời gian hoàn tiền sau khi nhận hàng trả về.",
+          "h": "Dùng 'I'm sorry...' + 'Please send...' + 'Refunds take...' ",
+          "s": "I'm sorry the product is faulty. Please send a photo and your order number. Refunds take 5–7 business days after we receive the item."
+        },
+        {
+          "p": "Can you summarize the solutions we discussed?",
+          "m": "Liệt kê các hành động bạn sẽ làm. Nói những gì khách cần gửi. Cho biết khi nào bạn sẽ phản hồi lại.",
+          "h": "Dùng câu liệt kê ngắn, bắt đầu bằng 'We will...' và 'You will...' ",
+          "s": "We will refund the shipping fee, check the double charge, and arrange the exchange. You will send photos and the order number. We will reply within 2 business days."
+        }
+      ]
+    },
+    {
+      "t": "Ôn tập: Tương tác tổng hợp 2",
+      "e": [
+        {
+          "p": "My device crashed after an update and I have an appointment tomorrow.",
+          "m": "Hỏi khách đã sao lưu chưa. Gợi ý hoãn cuộc hẹn nếu cần. Đề nghị giúp sao lưu trước khi hẹn mới.",
+          "h": "Dùng 'Did you back up...?' + 'I suggest...' + 'I can help...' ",
+          "s": "Did you back up your data? I suggest postponing the appointment. I can help you back up before the new appointment."
+        },
+        {
+          "p": "I want a warranty repair, will you schedule a pickup?",
+          "m": "Xác nhận thiết bị còn trong bảo hành. Hỏi mã model. Đề xuất 2 ngày có thể nhận đồ.",
+          "h": "Dùng 'Your item is under...' + 'Please tell the model.' + 'I can schedule pickup on...' ",
+          "s": "Your item is under one-year warranty. Please tell the model. I can schedule pickup on Friday or Monday."
+        },
+        {
+          "p": "I need a refund and a confirmation email afterwards.",
+          "m": "Xác nhận điều kiện được hoàn tiền. Nói thời gian xử lý. Hứa gửi email xác nhận sau khi hoàn tiền.",
+          "h": "Dùng 'You are eligible...' + 'It will be processed in...' + 'I will send...' ",
+          "s": "You are eligible for a refund. It will be processed in 5 business days. I will send a confirmation email after processing."
+        },
+        {
+          "p": "I can't login and I want to change my password.",
+          "m": "Hỏi tên đăng nhập của khách. Hướng dẫn bước đặt lại mật khẩu. Hứa theo dõi nếu vẫn có vấn đề.",
+          "h": "Dùng 'What is your username?' + 'Please use...' + 'I will follow up...' ",
+          "s": "What is your username? Please use 'Forgot password' to reset. I will follow up if you still have problems."
+        },
+        {
+          "p": "How can I leave feedback and also report a problem?",
+          "m": "Nêu hai kênh để gửi phản hồi. Hướng dẫn ngắn cách báo lỗi (gửi chi tiết và ảnh).",
+          "h": "Dùng 'You can...' và 'To report a problem, send...' ",
+          "s": "You can leave feedback on our website or by email. To report a problem, send details and any photos and we will respond."
+        }
+      ]
+    },
+    {
+      "t": "Ôn tập: Tương tác tổng hợp 3",
+      "e": [
+        {
+          "p": "I want to speak to a manager.",
+          "m": "Hỏi lý do khách muốn gặp quản lý. Đề nghị bạn có thể chuyển tiếp. Nói khi nào quản lý sẽ gọi lại.",
+          "h": "Dùng 'May I ask why...?' + 'I can escalate...' + 'A manager will call...' ",
+          "s": "May I ask why you want a manager? I can escalate your case. A manager will call you within 24 hours."
+        },
+        {
+          "p": "My refund was denied and I don't understand why.",
+          "m": "Giải thích ngắn lý do từ chối. Đưa ra phương án thay thế (ví dụ: phiếu mua hàng). Nêu tùy chọn kháng cáo nếu có.",
+          "h": "Dùng 'It was denied because...' + 'You can...' + 'If you want...' ",
+          "s": "The refund was denied because the return was past 30 days. You can return for store credit. If you want, I will start an appeal for you."
+        },
+        {
+          "p": "I am traveling and need items shipped to my hotel.",
+          "m": "Hỏi tên và địa chỉ khách sạn. Kiểm tra ngắn chính sách giao đến khách sạn. Đưa ra lựa chọn nếu khách sạn không nhận hàng.",
+          "h": "Dùng 'Please give...' + 'We will check...' + 'If not, use...' ",
+          "s": "Please give the hotel name and address. We will check that the hotel accepts deliveries. If not, use a nearby pickup point."
+        },
+        {
+          "p": "Can you set up a recurring order for me?",
+          "m": "Hỏi sản phẩm và tần suất khách muốn (ví dụ: hàng tuần/hàng tháng). Xác nhận phương thức thanh toán sẽ dùng.",
+          "h": "Dùng 'Which product...' + 'How often...' + 'We will charge...' ",
+          "s": "Which product would you like to order regularly? How often—weekly or monthly? We will charge your card on file."
+        },
+        {
+          "p": "Please summarize my open cases and next actions.",
+          "m": "Liệt kê các trường hợp đang mở (tối đa 3). Nêu hành động tiếp theo cho từng trường hợp.",
+          "h": "Dùng câu liệt kê ngắn, mỗi câu cho một trường hợp và bước tiếp theo.",
+          "s": "You have three open cases: a refund, a warranty repair, and a delivery check. For the refund, send the return by Friday. For the repair, we will schedule pickup, and for delivery we will track and update you."
+        }
+      ]
+    }
+  ]
+}

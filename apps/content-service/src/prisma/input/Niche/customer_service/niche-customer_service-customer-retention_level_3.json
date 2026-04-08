@@ -1,0 +1,530 @@
+{
+  "l": 3,
+  "d": [
+    {
+      "t": "Tìm hiểu điều khách hàng cần",
+      "e": [
+        {
+          "p": "Hello! As a new team member, can you tell me why customers usually buy our product?",
+          "m": "Nói rằng khách hàng thích chất lượng và giá cả của sản phẩm. Giải thích rằng họ cần sản phẩm này cho công việc hoặc cuộc sống hàng ngày của họ.",
+          "h": "S + V + O. Sử dụng 'because' để giải thích lý do.",
+          "s": "Customers usually like our product's quality and price. They need it because it helps with their job or daily life."
+        },
+        {
+          "p": "That's good to hear. What do you think makes a customer decide to stay with us for a long time?",
+          "m": "Nói rằng dịch vụ khách hàng tốt và trải nghiệm dễ dàng sẽ giúp họ ở lại. Cho biết rằng việc sản phẩm hoạt động tốt cũng quan trọng.",
+          "h": "S + V + O. Sử dụng 'and' để nối các ý.",
+          "s": "Good customer service and an easy experience will make them stay. Also, a product that works well is very important."
+        },
+        {
+          "p": "Sometimes customers leave. What is the main problem that makes customers choose another company?",
+          "m": "Nói rằng vấn đề chính là khi họ gặp sự cố với sản phẩm hoặc dịch vụ tệ. Cho biết giá cao hơn cũng có thể là lý do.",
+          "h": "S + V + O. Sử dụng 'or' và 'because' để nối các ý.",
+          "s": "The main problem is bad service or issues with the product. Sometimes, a higher price can also be a reason because they can find it cheaper elsewhere."
+        },
+        {
+          "p": "If a customer has a problem, what is the first thing we should do to keep them happy?",
+          "m": "Nói rằng chúng ta phải lắng nghe vấn đề của họ trước. Sau đó, chúng ta nên cố gắng tìm một giải pháp nhanh chóng.",
+          "h": "S + should + V. Sử dụng 'then' để thể hiện trình tự.",
+          "s": "We should listen to their problem first. Then, we must try to find a quick solution for them."
+        },
+        {
+          "p": "We want to improve. What simple thing can we change now to make customers feel more valued?",
+          "m": "Gợi ý chúng ta nên gửi email cảm ơn sau khi họ mua hàng. Giải thích rằng điều này sẽ làm họ cảm thấy đặc biệt và được quan tâm.",
+          "h": "S + can + V. Sử dụng 'and' để nối kết quả.",
+          "s": "We can send a 'thank you' email after they buy something. This will make them feel special and cared for."
+        }
+      ]
+    },
+    {
+      "t": "Dịch vụ khách hàng xuất sắc",
+      "e": [
+        {
+          "p": "What does 'good customer service' mean to you in our company?",
+          "m": "Nói rằng dịch vụ tốt là khi chúng ta giúp đỡ khách hàng nhanh chóng và lịch sự. Thêm rằng chúng ta luôn lắng nghe vấn đề của họ.",
+          "h": "S + is + N. Sử dụng 'and' để liệt kê các đặc điểm.",
+          "s": "Good customer service means we help customers quickly and politely. We always listen to their problems and try to understand."
+        },
+        {
+          "p": "Imagine a customer is very happy with our service. What might they say or feel?",
+          "m": "Nói rằng họ sẽ cảm thấy hài lòng và có thể giới thiệu chúng ta cho bạn bè. Cho biết họ sẽ nói rằng chúng ta rất hữu ích.",
+          "h": "S + will + V. Sử dụng 'and' để nối các cảm xúc và hành động.",
+          "s": "They will feel happy and satisfied. They might tell their friends about us because we were very helpful."
+        },
+        {
+          "p": "On the other hand, if a customer receives bad service, how will they react?",
+          "m": "Nói rằng họ sẽ thất vọng và có thể tức giận. Thêm rằng họ có thể sẽ không quay lại mua hàng của chúng ta nữa.",
+          "h": "S + will + V. Sử dụng 'and' để nối cảm xúc, 'so' để nối kết quả.",
+          "s": "They will be disappointed and maybe angry. So, they probably will not buy from us again."
+        },
+        {
+          "p": "Why is it so important to have excellent customer service for customer retention?",
+          "m": "Nói rằng dịch vụ tốt giúp khách hàng tin tưởng chúng ta và ở lại lâu hơn. Giải thích rằng điều này giúp công ty phát triển hơn.",
+          "h": "S + helps + V. Sử dụng 'because' để giải thích lý do.",
+          "s": "Excellent service helps customers trust us and stay longer. It is important because loyal customers help our company grow."
+        },
+        {
+          "p": "What can you do today to provide a better service for our customers, [studentName]?",
+          "m": "Nói rằng bạn sẽ luôn mỉm cười và nói chuyện lịch sự với mọi người. Thêm rằng bạn sẽ cố gắng giải quyết mọi vấn đề một cách tốt nhất.",
+          "h": "S + will + V. Sử dụng 'and' để nối các hành động.",
+          "s": "I will always smile and speak politely to everyone. I will also try my best to solve any problems for them."
+        }
+      ]
+    },
+    {
+      "t": "Lắng nghe ý kiến khách hàng",
+      "e": [
+        {
+          "p": "Collecting feedback is key. What simple question can we ask a customer to get their opinion?",
+          "m": "Đề xuất một câu hỏi đơn giản như 'Bạn nghĩ gì về dịch vụ của chúng tôi?' và nói rằng câu hỏi này rất dễ hiểu.",
+          "h": "What + S + think about + O?",
+          "s": "We can ask, 'What do you think about our service?' This question is simple and easy for them to understand."
+        },
+        {
+          "p": "Okay, a customer just said they loved our new feature. How should we respond to this positive feedback?",
+          "m": "Nói rằng chúng ta nên cảm ơn họ rất nhiều và cho biết chúng ta rất vui khi họ thích nó. Thêm rằng chúng ta sẽ tiếp tục cải thiện.",
+          "h": "We + should + V. Sử dụng 'and' để nối các hành động.",
+          "s": "We should thank them very much and say we are happy they like it. We will continue to improve our service for them."
+        },
+        {
+          "p": "What if a customer gives negative feedback, like 'Your website is too slow'?",
+          "m": "Nói rằng chúng ta nên xin lỗi và cảm ơn họ vì đã chia sẻ. Thêm rằng chúng ta sẽ kiểm tra vấn đề này và cố gắng khắc phục.",
+          "h": "We + should + V. Sử dụng 'and' để nối các hành động, 'so' để nối kết quả.",
+          "s": "We should say sorry and thank them for telling us. We will check the problem and try to fix it quickly."
+        },
+        {
+          "p": "Why is negative feedback actually important for our business?",
+          "m": "Giải thích rằng phản hồi tiêu cực giúp chúng ta biết được vấn đề và cải thiện sản phẩm. Thêm rằng điều này sẽ làm cho khách hàng khác hạnh phúc hơn.",
+          "h": "S + helps + V. Sử dụng 'because' để giải thích lý do.",
+          "s": "Negative feedback helps us find problems and improve our products. This is important because it will make other customers happier."
+        },
+        {
+          "p": "After we get feedback, what is the most important next step to keep customers?",
+          "m": "Nói rằng chúng ta phải hành động theo phản hồi để cho khách hàng thấy chúng ta quan tâm. Thêm rằng chúng ta nên thông báo cho họ về những thay đổi đã làm.",
+          "h": "S + must + V. Sử dụng 'and' để nối các hành động.",
+          "s": "We must act on the feedback to show customers we care. Then, we should tell them about the changes we made."
+        }
+      ]
+    },
+    {
+      "t": "Giữ liên lạc với khách hàng",
+      "e": [
+        {
+          "p": "How can we stay in touch with our customers without bothering them too much?",
+          "m": "Nói rằng chúng ta có thể gửi email hàng tháng với thông tin cập nhật. Cho biết chúng ta không nên gửi quá nhiều tin nhắn mỗi ngày.",
+          "h": "We + can + V. Sử dụng 'but' để thể hiện sự đối lập.",
+          "s": "We can send a monthly email with updates. But we should not send too many messages every day."
+        },
+        {
+          "p": "What kind of information should we include in those emails to keep customers interested?",
+          "m": "Nói rằng chúng ta nên bao gồm các ưu đãi đặc biệt và tin tức về sản phẩm mới. Thêm rằng khách hàng thích biết về các chương trình giảm giá.",
+          "h": "We + should + V. Sử dụng 'and' để liệt kê các nội dung.",
+          "s": "We should include special offers and news about new products. Customers also like to know about sales and discounts."
+        },
+        {
+          "p": "If a customer hasn't bought anything in a while, what can we do to reconnect with them?",
+          "m": "Nói rằng chúng ta có thể gửi cho họ một email hỏi thăm. Thêm rằng chúng ta có thể đưa ra một ưu đãi nhỏ để họ quay lại.",
+          "h": "We + can + V. Sử dụng 'and' để nối các hành động.",
+          "s": "We can send them a 'we miss you' email. Also, we could offer a small discount to make them come back."
+        },
+        {
+          "p": "Why is regular communication important for building customer loyalty?",
+          "m": "Nói rằng nó giúp khách hàng nhớ đến chúng ta và cảm thấy được kết nối. Giải thích rằng họ sẽ tin tưởng chúng ta nhiều hơn nếu chúng ta nói chuyện thường xuyên.",
+          "h": "It + helps + V. Sử dụng 'and' và 'because' để giải thích lý do.",
+          "s": "It helps customers remember us and feel connected. They will trust us more because we talk to them often."
+        },
+        {
+          "p": "Should we use social media to communicate with customers? Why or why not?",
+          "m": "Nói rằng chúng ta nên sử dụng mạng xã hội vì nó nhanh chóng và dễ dàng. Giải thích rằng khách hàng có thể đặt câu hỏi và nhận câu trả lời ở đó.",
+          "h": "We + should + V. Sử dụng 'because' để giải thích.",
+          "s": "Yes, we should use social media. It is fast and easy, so customers can ask questions and get answers there quickly."
+        }
+      ]
+    },
+    {
+      "t": "Chương trình khách hàng thân thiết",
+      "e": [
+        {
+          "p": "What is the basic idea of a 'customer loyalty program'?",
+          "m": "Giải thích rằng đó là cách chúng ta thưởng cho khách hàng mua hàng thường xuyên. Thêm rằng điều này khuyến khích họ ở lại với chúng ta.",
+          "h": "It + is + N. Sử dụng 'and' để nối các ý nghĩa.",
+          "s": "It is a way we give rewards to customers who buy from us often. This encourages them to stay with our company."
+        },
+        {
+          "p": "Can you give an example of a simple reward we can offer loyal customers?",
+          "m": "Nói rằng chúng ta có thể cho họ một phiếu giảm giá 10% cho lần mua tiếp theo. Thêm rằng đây là một cách tốt để cảm ơn họ.",
+          "h": "We + can + V. Sử dụng 'for' để chỉ mục đích.",
+          "s": "We can give them a 10% discount coupon for their next purchase. This is a good way to say 'thank you'."
+        },
+        {
+          "p": "Besides discounts, how else can we make our loyal customers feel special?",
+          "m": "Nói rằng chúng ta có thể mời họ đến các sự kiện đặc biệt hoặc giới thiệu sản phẩm mới trước. Thêm rằng họ sẽ thích cảm giác độc quyền này.",
+          "h": "We + can + V. Sử dụng 'or' để đưa ra lựa chọn.",
+          "s": "We can invite them to special events or show new products first. They will like feeling special because of this."
+        },
+        {
+          "p": "What are the benefits for our company if we have a strong loyalty program?",
+          "m": "Nói rằng công ty sẽ có nhiều khách hàng trung thành hơn và doanh thu tăng. Thêm rằng khách hàng sẽ nói tốt về chúng ta cho người khác.",
+          "h": "Our company + will + V. Sử dụng 'and' để nối các lợi ích.",
+          "s": "Our company will have more loyal customers and better sales. Customers will also tell their friends about us."
+        },
+        {
+          "p": "Some programs give points. What should customers do to get points and rewards?",
+          "m": "Nói rằng họ phải mua hàng của chúng ta thường xuyên để tích lũy điểm. Thêm rằng sau đó họ có thể dùng điểm để đổi lấy giảm giá hoặc quà tặng.",
+          "h": "They + must + V. Sử dụng 'and' để nối các hành động.",
+          "s": "They must buy our products regularly to collect points. Then, they can use the points to get discounts or gifts."
+        }
+      ]
+    },
+    {
+      "t": "Giải quyết các vấn đề nhỏ của khách hàng",
+      "e": [
+        {
+          "p": "A customer called and said their new product has a small scratch. What should you say first?",
+          "m": "Nói rằng bạn rất tiếc khi nghe điều đó và hỏi họ có thể mô tả thêm không. Thêm rằng bạn muốn giúp đỡ họ.",
+          "h": "I + am + sorry + to hear that. Sử dụng 'and' để nối câu hỏi.",
+          "s": "I am sorry to hear that. Can you tell me more about the scratch? I want to help you."
+        },
+        {
+          "p": "The customer is a little upset. How can you make them feel better and show you understand?",
+          "m": "Nói rằng bạn hiểu cảm giác của họ và sẽ cố gắng hết sức để giải quyết. Thêm rằng sự hài lòng của họ rất quan trọng.",
+          "h": "I + understand + S + feels + adj. Sử dụng 'and' để nối các ý.",
+          "s": "I understand how you feel about this problem. I will try my best to fix it because your satisfaction is very important."
+        },
+        {
+          "p": "What simple solution can you offer for a product with a small scratch?",
+          "m": "Đề nghị gửi cho họ một sản phẩm mới hoặc hoàn lại một phần tiền. Cho biết khách hàng có thể chọn cách giải quyết.",
+          "h": "We + can + V. Sử dụng 'or' để đưa ra lựa chọn.",
+          "s": "We can send you a new product or offer a partial refund. You can choose which solution is better for you."
+        },
+        {
+          "p": "After you offer the solution, what should you do to ensure the customer is still happy?",
+          "m": "Nói rằng bạn nên theo dõi sau một vài ngày để đảm bảo họ hài lòng. Thêm rằng điều này cho thấy chúng ta quan tâm.",
+          "h": "You + should + V. Sử dụng 'to' chỉ mục đích.",
+          "s": "I should follow up in a few days to make sure they are happy. This shows that we care about their experience."
+        },
+        {
+          "p": "Why is it better to solve small problems quickly, even if it costs us a little money?",
+          "m": "Giải thích rằng giải quyết nhanh giúp giữ chân khách hàng và tránh phản hồi tiêu cực. Thêm rằng khách hàng hài lòng có thể giới thiệu người khác.",
+          "h": "Solving + N + helps + V. Sử dụng 'and' để nối các kết quả.",
+          "s": "Solving small problems quickly helps keep customers and avoids bad reviews. Happy customers can tell their friends about us."
+        }
+      ]
+    },
+    {
+      "t": "Điểm mạnh của dịch vụ chúng ta",
+      "e": [
+        {
+          "p": "What makes our customer service better than other companies in the market?",
+          "m": "Nói rằng dịch vụ của chúng ta nhanh hơn và thân thiện hơn. Cho biết chúng ta luôn cố gắng hiểu khách hàng tốt hơn.",
+          "h": "Our service + is + adj-er + than + O. Sử dụng 'and' để nối các đặc điểm.",
+          "s": "Our service is faster and friendlier than other companies. We always try to understand our customers better."
+        },
+        {
+          "p": "How do our product features compare to those of our competitors?",
+          "m": "Nói rằng sản phẩm của chúng ta có nhiều tính năng hơn và dễ sử dụng hơn. Thêm rằng sản phẩm của chúng ta cũng có độ bền cao hơn.",
+          "h": "Our product + has + more + N + than + O. Sử dụng 'and' để nối các tính năng.",
+          "s": "Our product has more features and is easier to use than others. It is also more durable, so it lasts longer."
+        },
+        {
+          "p": "Some customers choose us because of our prices. Are our prices generally lower or higher?",
+          "m": "Nói rằng giá của chúng ta thường cạnh tranh hoặc thấp hơn một chút so với đối thủ. Giải thích rằng chúng ta muốn cung cấp giá trị tốt.",
+          "h": "Our prices + are + adj-er + than + O. Sử dụng 'because' để giải thích lý do.",
+          "s": "Our prices are usually competitive or a little lower than competitors. We want to offer good value to our customers."
+        },
+        {
+          "p": "What is one area where we are clearly the best and customers love us for it?",
+          "m": "Nói rằng chúng ta có hỗ trợ sau bán hàng tốt nhất, giúp khách hàng mọi lúc. Giải thích rằng điều này làm cho họ cảm thấy an tâm.",
+          "h": "We + have + the best + N. Sử dụng 'so' để nối kết quả.",
+          "s": "We have the best after-sales support, helping customers all the time. So, they feel safe and confident with us."
+        },
+        {
+          "p": "If you had to convince a new customer to choose us, what would be your main point?",
+          "m": "Nói rằng chúng ta cung cấp sự kết hợp tốt nhất giữa chất lượng, giá cả và dịch vụ. Thêm rằng họ sẽ có một trải nghiệm tốt nhất với chúng ta.",
+          "h": "We + offer + the best + N + of + N. Sử dụng 'and' để nối các yếu tố.",
+          "s": "We offer the best combination of quality, price, and service. They will have the best experience if they choose us."
+        }
+      ]
+    },
+    {
+      "t": "Xây dựng mối quan hệ bền vững",
+      "e": [
+        {
+          "p": "Building relationships with customers is important. What's one simple way to start?",
+          "m": "Nói rằng chúng ta có thể gọi điện hoặc gửi email cá nhân cho họ. Giải thích rằng điều này giúp họ cảm thấy được coi trọng.",
+          "h": "We + can + V. Sử dụng 'and' để nối các hành động.",
+          "s": "We can call them or send a personal email. This helps them feel important and valued by us."
+        },
+        {
+          "p": "How can we make a customer feel appreciated after they have been with us for a year?",
+          "m": "Nói rằng chúng ta nên gửi cho họ một món quà nhỏ hoặc phiếu giảm giá sinh nhật. Thêm rằng chúng ta có thể chúc mừng 'ngày kỷ niệm' của họ với công ty.",
+          "h": "We + should + V. Sử dụng 'or' để đưa ra lựa chọn.",
+          "s": "We should send them a small gift or a birthday discount. We can also celebrate their 'anniversary' with our company."
+        },
+        {
+          "p": "What do customers generally expect from a long-term relationship with a company?",
+          "m": "Nói rằng họ mong đợi dịch vụ đáng tin cậy và sự hỗ trợ liên tục. Thêm rằng họ cũng mong muốn nhận được các ưu đãi độc quyền.",
+          "h": "They + expect + N. Sử dụng 'and' để nối các mong đợi.",
+          "s": "They expect reliable service and continuous support. They also want to receive special offers because they are loyal."
+        },
+        {
+          "p": "Why is it beneficial for our company to have strong, long-term customer relationships?",
+          "m": "Giải thích rằng những khách hàng này mua nhiều hơn và ít có khả năng chuyển đổi. Thêm rằng họ cũng giới thiệu công ty chúng ta cho bạn bè.",
+          "h": "Long-term relationships + help + V. Sử dụng 'and' để nối các lợi ích.",
+          "s": "These customers buy more and are less likely to leave us. They also tell their friends about our company, which is good."
+        },
+        {
+          "p": "What is one mistake we must avoid when trying to build a strong relationship with customers?",
+          "m": "Nói rằng chúng ta không nên bỏ qua các vấn đề của họ hoặc ngừng giao tiếp. Giải thích rằng điều này sẽ làm họ cảm thấy không được tôn trọng.",
+          "h": "We + must + not + V. Sử dụng 'or' để đưa ra các hành động cần tránh.",
+          "s": "We must not ignore their problems or stop communicating. This will make them feel not respected by our company."
+        }
+      ]
+    },
+    {
+      "t": "Cải thiện trải nghiệm mua sắm",
+      "e": [
+        {
+          "p": "We want to improve the customer's shopping experience. What simple change can we make in our store?",
+          "m": "Đề xuất làm cho cửa hàng sạch sẽ và có tổ chức hơn. Thêm rằng điều này sẽ làm cho việc mua sắm dễ dàng hơn cho khách hàng.",
+          "h": "We + can + V. Sử dụng 'and' để nối các hành động.",
+          "s": "We can make our store cleaner and more organized. This will make shopping easier for our customers."
+        },
+        {
+          "p": "How can our staff help to improve the customer's experience on a daily basis?",
+          "m": "Nói rằng nhân viên nên luôn mỉm cười và sẵn lòng giúp đỡ. Thêm rằng họ cũng nên biết rõ về sản phẩm để trả lời câu hỏi.",
+          "h": "Staff + should + V. Sử dụng 'and' để nối các hành động.",
+          "s": "Staff should always smile and be ready to help. They should also know our products well to answer any questions."
+        },
+        {
+          "p": "What about our online store? How can we make the website better for customers?",
+          "m": "Nói rằng chúng ta nên làm cho trang web dễ sử dụng hơn và tải nhanh hơn. Thêm rằng một hệ thống thanh toán đơn giản cũng rất quan trọng.",
+          "h": "We + should + make + N + adj-er. Sử dụng 'and' để nối các đặc điểm.",
+          "s": "We should make the website easier to use and load faster. A simple payment system is also very important for customers."
+        },
+        {
+          "p": "If we make these improvements, what will customers say about their experience?",
+          "m": "Nói rằng họ sẽ nói rằng việc mua sắm của họ nhanh chóng và thú vị. Thêm rằng họ sẽ cảm thấy rất vui và hài lòng.",
+          "h": "They + will + say + that + S + V. Sử dụng 'and' để nối các phản ứng.",
+          "s": "They will say that their shopping was fast and enjoyable. They will feel very happy and satisfied with us."
+        },
+        {
+          "p": "Why is constant improvement of the customer experience crucial for retention?",
+          "m": "Giải thích rằng thị trường luôn thay đổi và chúng ta phải theo kịp. Thêm rằng nếu chúng ta không cải thiện, khách hàng có thể tìm nơi khác tốt hơn.",
+          "h": "We + must + V. Sử dụng 'if...then' để chỉ điều kiện.",
+          "s": "The market always changes, so we must keep improving. If we don't, customers might find a better place."
+        }
+      ]
+    },
+    {
+      "t": "Giữ chân khách hàng VIP",
+      "e": [
+        {
+          "p": "Who do we consider a 'VIP customer' in our business?",
+          "m": "Nói rằng đó là những khách hàng mua hàng thường xuyên hoặc chi tiêu nhiều tiền. Thêm rằng họ là những người quan trọng nhất đối với chúng ta.",
+          "h": "They + are + N + who + V. Sử dụng 'or' để đưa ra lựa chọn.",
+          "s": "They are customers who buy often or spend a lot of money. They are our most important customers because they support us."
+        },
+        {
+          "p": "What special offers can we give only to our VIP customers?",
+          "m": "Nói rằng chúng ta có thể cho họ quyền truy cập sớm vào các sản phẩm mới và giảm giá độc quyền. Thêm rằng chúng ta có thể gửi quà tặng vào dịp đặc biệt.",
+          "h": "We + can + give + N + to + O. Sử dụng 'and' để nối các ưu đãi.",
+          "s": "We can give them early access to new products and exclusive discounts. We can also send them gifts on special occasions."
+        },
+        {
+          "p": "How should our staff treat VIP customers differently from regular ones?",
+          "m": "Nói rằng nhân viên nên cung cấp dịch vụ cá nhân hơn và nhớ tên của họ. Thêm rằng họ nên ưu tiên giúp đỡ khách hàng VIP.",
+          "h": "Staff + should + V. Sử dụng 'and' để nối các hành động.",
+          "s": "Staff should offer more personal service and remember their names. They should also prioritize helping VIP customers quickly."
+        },
+        {
+          "p": "Why is it strategically important to focus on retaining our VIP customers?",
+          "m": "Giải thích rằng khách hàng VIP mang lại doanh thu lớn và thường giới thiệu chúng ta cho người khác. Thêm rằng việc giữ chân họ giúp tiết kiệm chi phí quảng cáo.",
+          "h": "VIP customers + bring + N. Sử dụng 'and' để nối các lợi ích.",
+          "s": "VIP customers bring a lot of money and often tell others about us. Keeping them also saves money on advertising."
+        },
+        {
+          "p": "What's a creative idea to make a VIP customer feel truly valued and surprised?",
+          "m": "Đề xuất gửi một ghi chú viết tay cảm ơn họ. Thêm rằng chúng ta có thể hỏi ý kiến của họ về một sản phẩm mới trước khi ra mắt.",
+          "h": "We + can + V. Sử dụng 'or' để đưa ra lựa chọn.",
+          "s": "We can send them a handwritten thank-you note. We can also ask their opinion on a new product before we launch it."
+        }
+      ]
+    },
+    {
+      "t": "Ngăn chặn khách hàng rời đi",
+      "e": [
+        {
+          "p": "A customer contacted us saying they want to cancel their service. What should be our first response?",
+          "m": "Nói rằng chúng ta nên hỏi lý do tại sao họ muốn hủy dịch vụ. Thêm rằng chúng ta nên lắng nghe cẩn thận vấn đề của họ.",
+          "h": "We + should + V. Sử dụng 'and' để nối các hành động.",
+          "s": "We should ask why they want to cancel their service. We must listen carefully to their problem."
+        },
+        {
+          "p": "If the customer mentions a high price as the reason, what can we offer to make them reconsider?",
+          "m": "Nói rằng chúng ta có thể đưa ra một gói dịch vụ rẻ hơn hoặc một mức giảm giá đặc biệt. Thêm rằng điều này có thể thay đổi suy nghĩ của họ.",
+          "h": "We + can + offer + N. Sử dụng 'or' để đưa ra lựa chọn.",
+          "s": "We can offer a cheaper service package or a special discount. This might make them reconsider their decision."
+        },
+        {
+          "p": "What if they say the competitor's product is better? How can we highlight our value?",
+          "m": "Nói rằng chúng ta nên nhắc nhở họ về những tính năng độc đáo của sản phẩm chúng ta và dịch vụ hỗ trợ khách hàng. Thêm rằng chúng ta có nhiều kinh nghiệm hơn.",
+          "h": "We + should + remind + O + of + N. Sử dụng 'and' để nối các đặc điểm.",
+          "s": "We should remind them about our product's unique features and great customer support. We also have more experience."
+        },
+        {
+          "p": "After addressing their concerns and offering a solution, how do we confirm they are happy to stay?",
+          "m": "Nói rằng chúng ta nên hỏi trực tiếp họ liệu họ có muốn tiếp tục sử dụng dịch vụ không. Thêm rằng chúng ta nên cảm ơn họ nếu họ quyết định ở lại.",
+          "h": "We + should + ask + O + if + S + V. Sử dụng 'and' để nối các hành động.",
+          "s": "We should ask them directly if they want to continue using our service. Then, we should thank them if they decide to stay."
+        },
+        {
+          "p": "What can we learn from customers who almost leave us, even if they end up staying?",
+          "m": "Nói rằng chúng ta học được về các điểm yếu của mình và nhu cầu của khách hàng. Giải thích rằng thông tin này giúp chúng ta cải thiện để không mất khách hàng khác.",
+          "h": "We + learn + about + N. Sử dụng 'so' để nối kết quả.",
+          "s": "We learn about our weaknesses and customer needs. This information helps us improve so we don't lose other customers."
+        }
+      ]
+    },
+    {
+      "t": "Đánh giá sự thành công của chiến lược",
+      "e": [
+        {
+          "p": "How do we know if our customer retention efforts are successful?",
+          "m": "Nói rằng chúng ta có thể xem bao nhiêu khách hàng vẫn còn ở lại sau một năm. Thêm rằng việc nhận được nhiều phản hồi tích cực cũng là dấu hiệu tốt.",
+          "h": "We + can + V + how many + N. Sử dụng 'and' để nối các dấu hiệu.",
+          "s": "We can see how many customers still stay after a year. Getting many positive feedback messages is also a good sign."
+        },
+        {
+          "p": "What simple numbers or data can tell us if customers are happy and staying?",
+          "m": "Nói rằng chúng ta có thể xem số lượng khách hàng mua lại và số lượng khiếu nại. Giải thích rằng ít khiếu nại có nghĩa là khách hàng hài lòng hơn.",
+          "h": "We + can + look at + N. Sử dụng 'and' để nối các chỉ số.",
+          "s": "We can look at the number of repeat purchases and the number of complaints. Fewer complaints mean happier customers."
+        },
+        {
+          "p": "What does having 'loyal customers' mean for the financial health of our business?",
+          "m": "Nói rằng nó có nghĩa là doanh thu ổn định và chi phí tiếp thị thấp hơn. Thêm rằng khách hàng trung thành chi tiêu nhiều hơn theo thời gian.",
+          "h": "It + means + N. Sử dụng 'and' để nối các lợi ích tài chính.",
+          "s": "It means stable revenue and lower marketing costs. Loyal customers also spend more money over time."
+        },
+        {
+          "p": "If our retention numbers are good, how should we celebrate this success with the team?",
+          "m": "Nói rằng chúng ta nên tổ chức một bữa ăn nhỏ hoặc trao thưởng cho các thành viên tốt nhất. Thêm rằng điều này sẽ động viên mọi người.",
+          "h": "We + should + V. Sử dụng 'or' để đưa ra lựa chọn.",
+          "s": "We should have a small meal or give awards to the best team members. This will motivate everyone to do better."
+        },
+        {
+          "p": "What is one goal for customer retention that we should aim for next year?",
+          "m": "Nói rằng chúng ta nên cố gắng giảm 5% số lượng khách hàng rời đi. Thêm rằng điều này sẽ làm cho công ty mạnh mẽ hơn rất nhiều.",
+          "h": "We + should + try + to + V. Sử dụng 'so' để nối kết quả.",
+          "s": "We should try to reduce the number of customers who leave by 5%. This will make our company much stronger."
+        }
+      ]
+    },
+    {
+      "t": "Ôn tập: Dịch vụ và Phản hồi",
+      "e": [
+        {
+          "p": "Thinking about customer retention, how are good service and asking for feedback connected?",
+          "m": "Nói rằng dịch vụ tốt làm khách hàng hài lòng, và phản hồi giúp chúng ta duy trì điều đó. Thêm rằng chúng ta phải luôn lắng nghe để biết họ muốn gì.",
+          "h": "Good service + makes + O + happy. Sử dụng 'and' để nối các ý tưởng.",
+          "s": "Good service makes customers happy, and feedback helps us keep it good. We must always listen to know what they want."
+        },
+        {
+          "p": "Imagine a customer is unhappy about a delay. How do you handle it to keep them?",
+          "m": "Nói rằng bạn sẽ xin lỗi về sự chậm trễ và giải thích lý do ngắn gọn. Sau đó, bạn sẽ đưa ra một giải pháp để làm họ hài lòng trở lại.",
+          "h": "I + will + V. Sử dụng 'and' và 'then' để thể hiện trình tự.",
+          "s": "I will apologize for the delay and explain the reason quickly. Then, I will offer a solution to make them happy again."
+        },
+        {
+          "p": "What are two things that consistently make our customers happy with our service?",
+          "m": "Nói rằng họ luôn thích phản hồi nhanh chóng và đội ngũ nhân viên thân thiện của chúng ta. Thêm rằng sự chuyên nghiệp cũng rất quan trọng.",
+          "h": "Customers + like + N. Sử dụng 'and' để liệt kê các yếu tố.",
+          "s": "Customers always like our quick response and friendly staff. Also, our professional approach is very important to them."
+        },
+        {
+          "p": "If a customer gives us new ideas in their feedback, what should we do with those ideas?",
+          "m": "Nói rằng chúng ta nên xem xét nghiêm túc những ý tưởng đó và thảo luận trong nhóm. Thêm rằng một số ý tưởng có thể giúp cải thiện công ty.",
+          "h": "We + should + V. Sử dụng 'and' để nối các hành động.",
+          "s": "We should seriously consider those ideas and discuss them in our team. Some ideas can help improve our company."
+        },
+        {
+          "p": "How will consistently acting on customer feedback benefit our company in the long term?",
+          "m": "Nói rằng nó sẽ xây dựng lòng tin và sự trung thành của khách hàng. Giải thích rằng điều này sẽ giúp công ty chúng ta mạnh mẽ hơn và có nhiều khách hàng hơn.",
+          "h": "It + will + V. Sử dụng 'and' để nối các lợi ích, 'so' để nối kết quả.",
+          "s": "It will build customer trust and loyalty over time. This will make our company stronger and bring in more customers, so we will grow."
+        }
+      ]
+    },
+    {
+      "t": "Ôn tập: Xây dựng sự trung thành",
+      "e": [
+        {
+          "p": "Remind me, what's one key strategy to build strong customer loyalty?",
+          "m": "Nói rằng chúng ta nên có một chương trình khách hàng thân thiết tốt. Giải thích rằng điều này sẽ khiến khách hàng cảm thấy được trân trọng và quay lại.",
+          "h": "We + should + have + N. Sử dụng 'because' để giải thích lý do.",
+          "s": "We should have a good customer loyalty program. This will make customers feel valued and they will come back."
+        },
+        {
+          "p": "How can we make a customer feel truly valued, not just a number?",
+          "m": "Nói rằng chúng ta nên nhớ tên của họ và các ưu đãi cá nhân. Thêm rằng việc lắng nghe câu chuyện của họ cũng rất quan trọng.",
+          "h": "We + should + V. Sử dụng 'and' để nối các hành động.",
+          "s": "We should remember their names and offer personal deals. Listening to their stories is also very important for them."
+        },
+        {
+          "p": "If our competitors offer a similar product, why should customers still choose us for loyalty?",
+          "m": "Nói rằng chúng ta cung cấp dịch vụ tốt hơn và giá trị tổng thể cao hơn. Thêm rằng khách hàng biết chúng ta luôn ở đó để giúp đỡ.",
+          "h": "We + offer + better + N. Sử dụng 'and' để nối các lý do.",
+          "s": "We offer better service and greater overall value. Customers know we are always there to help them if they have a problem."
+        },
+        {
+          "p": "What role does consistent communication play in maintaining customer loyalty?",
+          "m": "Nói rằng giao tiếp thường xuyên giúp khách hàng nhớ đến chúng ta và cảm thấy được kết nối. Giải thích rằng nó xây dựng mối quan hệ bền vững hơn.",
+          "h": "It + helps + V. Sử dụng 'and' để nối các ý nghĩa.",
+          "s": "Consistent communication helps customers remember us and feel connected. It builds a stronger relationship over time."
+        },
+        {
+          "p": "What is a long-term goal for fostering customer loyalty within our company?",
+          "m": "Nói rằng chúng ta muốn khách hàng trở thành 'người hâm mộ' của công ty, không chỉ là người mua. Thêm rằng họ sẽ tự động giới thiệu chúng ta cho người khác.",
+          "h": "We + want + O + to + V. Sử dụng 'so' để nối kết quả.",
+          "s": "We want customers to become 'fans' of our company, not just buyers. So, they will naturally tell others about us."
+        }
+      ]
+    },
+    {
+      "t": "Ôn tập: Tổng hợp giữ chân khách hàng",
+      "e": [
+        {
+          "p": "A long-time customer is thinking about leaving. What are the first two steps you take?",
+          "m": "Nói rằng bạn sẽ hỏi lý do và lắng nghe tất cả các mối quan tâm của họ. Thêm rằng bạn sẽ cố gắng hiểu rõ tình hình.",
+          "h": "I + will + V. Sử dụng 'and' để nối các hành động.",
+          "s": "I will ask for their reasons and listen to all their concerns. I will try to understand the situation clearly."
+        },
+        {
+          "p": "How can our company improve its customer retention rate significantly next year?",
+          "m": "Nói rằng chúng ta nên đầu tư vào đào tạo nhân viên để nâng cao dịch vụ và cải thiện sản phẩm dựa trên phản hồi. Thêm rằng điều này sẽ tạo ra sự khác biệt lớn.",
+          "h": "We + should + V. Sử dụng 'and' để nối các hành động.",
+          "s": "We should invest in staff training to improve service and update products based on feedback. This will make a big difference."
+        },
+        {
+          "p": "What was one success story related to customer retention that happened last month?",
+          "m": "Kể về một khách hàng muốn hủy dịch vụ nhưng sau đó đã ở lại vì chúng ta đã giải quyết vấn đề của họ. Giải thích rằng họ đã rất vui vẻ.",
+          "h": "A customer + wanted + to + V + but + S + V. Sử dụng 'because' để giải thích lý do.",
+          "s": "A customer wanted to cancel service, but then they stayed because we fixed their problem quickly. They were very happy."
+        },
+        {
+          "p": "Why should every employee in our company care about customer retention, not just sales?",
+          "m": "Giải thích rằng mọi người đều ảnh hưởng đến trải nghiệm của khách hàng. Thêm rằng khách hàng hài lòng mang lại lợi nhuận cho toàn bộ công ty.",
+          "h": "Everyone + affects + N. Sử dụng 'and' để nối các lý do.",
+          "s": "Everyone affects the customer's experience, so it is important. Happy customers bring profit to the whole company, not just sales."
+        },
+        {
+          "p": "Imagine you are a very loyal customer. What would you say about this company to a friend?",
+          "m": "Nói rằng công ty luôn quan tâm đến khách hàng và sản phẩm của họ rất tốt. Thêm rằng bạn sẽ khuyên bạn bè mình sử dụng dịch vụ của họ.",
+          "h": "They + always + V. Sử dụng 'and' để nối các ý tưởng.",
+          "s": "They always care about their customers and their products are very good. I will tell my friends to use their service too."
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,530 @@
+{
+  "l": 2,
+  "d": [
+    {
+      "t": "Xảy ra một vấn đề nhỏ",
+      "e": [
+        {
+          "p": "Excuse me, my coffee is cold.",
+          "m": "Xác nhận vấn đề khách hàng gặp phải. Nói bạn rất tiếc về điều đó.",
+          "h": "Dùng 'Your coffee is...' và 'I am sorry for...'",
+          "s": "Your coffee is cold. I am very sorry for this."
+        },
+        {
+          "p": "The light in my room is not working. It is dark.",
+          "m": "Hỏi khách hàng có ổn không. Nói bạn sẽ kiểm tra vấn đề ngay.",
+          "h": "Dùng 'Are you...?' và 'I am checking...'",
+          "s": "Are you okay? I am checking the light now."
+        },
+        {
+          "p": "My food is late. I am a little hungry.",
+          "m": "Nói bạn hiểu khách hàng đói. Đảm bảo món ăn sẽ đến sớm.",
+          "h": "Dùng 'I understand...' và 'Your food is...'",
+          "s": "I understand you are hungry. Your food is coming soon."
+        },
+        {
+          "p": "This chair is broken. I cannot sit on it.",
+          "m": "Hỏi khách hàng có muốn một chiếc ghế khác không. Nói bạn sẽ đổi ghế.",
+          "h": "Dùng 'Do you want...?' và 'I will change...'",
+          "s": "Do you want another chair? I will change it for you."
+        },
+        {
+          "p": "My room key is not working. I cannot open the door.",
+          "m": "Nói bạn xin lỗi vì sự bất tiện. Đề nghị một chiếc chìa khóa mới ngay lập tức.",
+          "h": "Dùng 'I am sorry for...' và 'I can give...'",
+          "s": "I am sorry for the problem. I can give you a new key immediately."
+        }
+      ]
+    },
+    {
+      "t": "Lắng nghe lời phàn nàn",
+      "e": [
+        {
+          "p": "The music here is too loud. I cannot talk.",
+          "m": "Hỏi liệu khách hàng có khó chịu không. Nói bạn sẽ chỉnh nhạc nhỏ hơn.",
+          "h": "Dùng 'Are you...?' và 'I am turning...'",
+          "s": "Are you unhappy? I am turning down the music now."
+        },
+        {
+          "p": "My order is wrong. I asked for juice, but this is water.",
+          "m": "Xác nhận lỗi trong đơn hàng. Hỏi khách hàng muốn uống gì.",
+          "h": "Dùng 'Your order is...' và 'What do you want to...?'",
+          "s": "Your order is wrong. What do you want to drink?"
+        },
+        {
+          "p": "The internet is very slow today. I cannot work.",
+          "m": "Nói bạn hiểu sự khó chịu của khách hàng. Hỏi liệu khách hàng có cần dùng internet ngay không.",
+          "h": "Dùng 'I know you are...' và 'Do you need...?'",
+          "s": "I know you are busy. Do you need the internet now?"
+        },
+        {
+          "p": "This table is not clean. It has food on it.",
+          "m": "Xin lỗi khách hàng về chiếc bàn bẩn. Đề nghị dọn dẹp nó ngay lập tức.",
+          "h": "Dùng 'I am sorry about...' và 'I can clean...'",
+          "s": "I am sorry about the table. I can clean it right away."
+        },
+        {
+          "p": "I waited a long time for my food. I am very tired now.",
+          "m": "Thể hiện sự thông cảm với khách hàng. Hỏi khách hàng có muốn một cốc nước không.",
+          "h": "Dùng 'I understand you are...' và 'Do you want...?'",
+          "s": "I understand you are tired. Do you want some water?"
+        }
+      ]
+    },
+    {
+      "t": "Đề xuất giải pháp cơ bản",
+      "e": [
+        {
+          "p": "My room is very cold. I need a blanket.",
+          "m": "Nói bạn sẽ mang chăn ngay. Hỏi khách hàng có cần gì khác không.",
+          "h": "Dùng 'I am bringing...' và 'Do you need...?'",
+          "s": "I am bringing a blanket. Do you need anything else?"
+        },
+        {
+          "p": "This pen is out of ink. I cannot write.",
+          "m": "Xin lỗi về cây bút. Đề nghị một cây bút mới.",
+          "h": "Dùng 'I am sorry about...' và 'I can give...'",
+          "s": "I am sorry about the pen. I can give you a new one."
+        },
+        {
+          "p": "The TV in my room is not working. It is broken.",
+          "m": "Nói bạn rất tiếc về TV. Đề nghị sửa nó hôm nay.",
+          "h": "Dùng 'I am sorry for...' và 'We can fix...'",
+          "s": "I am sorry for the TV. We can fix it today."
+        },
+        {
+          "p": "My bag is missing from the table. Where is it?",
+          "m": "Hỏi chiếc túi trông như thế nào. Nói bạn sẽ tìm nó bây giờ.",
+          "h": "Dùng 'What does...' và 'I am looking for...'",
+          "s": "What does your bag look like? I am looking for it now."
+        },
+        {
+          "p": "The hot water is not working in my shower. I need to wash my hair.",
+          "m": "Nói bạn hiểu sự khó chịu của khách hàng. Đề nghị chuyển sang một phòng khác ngay lập tức.",
+          "h": "Dùng 'I know you are...' và 'We can move...'",
+          "s": "I know you are busy. We can move you to another room now."
+        }
+      ]
+    },
+    {
+      "t": "Xác nhận và hành động",
+      "e": [
+        {
+          "p": "Thank you for the new coffee. It is hot now.",
+          "m": "Hỏi liệu khách hàng có hài lòng không. Nói bạn vui vì đã giúp được.",
+          "h": "Dùng 'Are you happy...?' và 'I am happy...'",
+          "s": "Are you happy with the coffee? I am happy to help you."
+        },
+        {
+          "p": "The new room key works well. I can open the door.",
+          "m": "Nói bạn vui khi chìa khóa hoạt động. Hỏi khách hàng có cần gì khác không.",
+          "h": "Dùng 'I am glad...' và 'Do you need...?'",
+          "s": "I am glad the key works. Do you need anything else?"
+        },
+        {
+          "p": "My food came. It is very delicious.",
+          "m": "Nói bạn vui khi khách hàng thích đồ ăn. Hỏi liệu mọi thứ có ổn không.",
+          "h": "Dùng 'I am happy...' và 'Is everything...?'",
+          "s": "I am happy you like the food. Is everything okay now?"
+        },
+        {
+          "p": "The internet is faster now. Thank you for fixing it.",
+          "m": "Xác nhận internet đang hoạt động tốt. Hỏi liệu khách hàng có thể làm việc không.",
+          "h": "Dùng 'The internet is...' và 'Can you...?'",
+          "s": "The internet is fast now. Can you work well?"
+        },
+        {
+          "p": "The new chair is good. It is very comfortable.",
+          "m": "Nói bạn vui vì khách hàng thấy thoải mái. Hỏi khách hàng có thường ghé thăm không.",
+          "h": "Dùng 'I am glad...' và 'Do you often...?'",
+          "s": "I am glad you are comfortable. Do you often visit us?"
+        }
+      ]
+    },
+    {
+      "t": "Xin lỗi và làm dịu tình hình",
+      "e": [
+        {
+          "p": "I am still waiting for my drink.",
+          "m": "Xin lỗi vì sự chờ đợi. Hỏi khách hàng muốn uống gì.",
+          "h": "Dùng 'I am sorry for...' và 'What do you want...?'",
+          "s": "I am sorry for the wait. What do you want to drink?"
+        },
+        {
+          "p": "This is not my room. My room number is 101.",
+          "m": "Xin lỗi khách hàng vì nhầm lẫn. Nói bạn sẽ giúp tìm đúng phòng.",
+          "h": "Dùng 'I am sorry for...' và 'I am helping...'",
+          "s": "I am sorry for the mistake. I am helping you find your room."
+        },
+        {
+          "p": "The air conditioner is broken. It is very hot in here.",
+          "m": "Nói bạn hiểu trời nóng. Đề nghị một quạt nhỏ.",
+          "h": "Dùng 'I know it is...' và 'I can bring...'",
+          "s": "I know it is hot. I can bring you a small fan."
+        },
+        {
+          "p": "My reservation is missing. I booked a table for two.",
+          "m": "Xin lỗi về lỗi đặt chỗ. Đề nghị tìm một bàn khác ngay.",
+          "h": "Dùng 'I am sorry about...' và 'I can find...'",
+          "s": "I am sorry about your booking. I can find another table now."
+        },
+        {
+          "p": "I paid for extra service, but I did not get it.",
+          "m": "Nói bạn xin lỗi vì thiếu dịch vụ. Đảm bảo khách hàng sẽ nhận được dịch vụ thêm hoặc hoàn tiền.",
+          "h": "Dùng 'I am sorry for...' và 'You will get...'",
+          "s": "I am sorry for the missing service. You will get it or your money back."
+        }
+      ]
+    },
+    {
+      "t": "Tìm hiểu chi tiết vấn đề",
+      "e": [
+        {
+          "p": "The delivery is late. I need my package today.",
+          "m": "Hỏi gói hàng là gì. Hỏi liệu khách hàng có cần nó bây giờ không.",
+          "h": "Dùng 'What is in...?' và 'Do you need...?'",
+          "s": "What is in the package? Do you need it now?"
+        },
+        {
+          "p": "My new phone has a problem. The screen is black.",
+          "m": "Hỏi vấn đề xảy ra khi nào. Đề nghị kiểm tra điện thoại.",
+          "h": "Dùng 'When did...' và 'I can check...'",
+          "s": "When did this happen? I can check your phone for you."
+        },
+        {
+          "p": "The laundry service lost my shirt. It is my favorite shirt.",
+          "m": "Xin lỗi khách hàng về chiếc áo bị mất. Hỏi chiếc áo trông như thế nào.",
+          "h": "Dùng 'I am sorry for...' và 'What does...?'",
+          "s": "I am sorry for your shirt. What does it look like?"
+        },
+        {
+          "p": "The price on the menu is wrong. It is more expensive.",
+          "m": "Nói bạn hiểu sự nhầm lẫn. Hỏi liệu bạn có thể xem thực đơn.",
+          "h": "Dùng 'I understand...' và 'Can I see...?'",
+          "s": "I understand the mistake. Can I see the menu, please?"
+        },
+        {
+          "p": "I asked for a wake-up call at 7 AM, but it did not ring.",
+          "m": "Xin lỗi khách hàng vì cuộc gọi bị mất. Hỏi liệu khách hàng có bị muộn không.",
+          "h": "Dùng 'I am sorry about...' và 'Are you late...?'",
+          "s": "I am sorry about the wake-up call. Are you late for work?"
+        }
+      ]
+    },
+    {
+      "t": "Đền bù hoặc khắc phục",
+      "e": [
+        {
+          "p": "My pizza is cold. I really want a hot one.",
+          "m": "Xin lỗi về pizza nguội. Đề nghị làm một cái pizza mới.",
+          "h": "Dùng 'I am sorry for...' và 'I can make...'",
+          "s": "I am sorry for the cold pizza. I can make a new one."
+        },
+        {
+          "p": "I waited 30 minutes for my taxi. It is very late.",
+          "m": "Xin lỗi vì taxi đến muộn. Đề nghị gọi một chiếc taxi khác ngay.",
+          "h": "Dùng 'I am sorry the taxi...' và 'I can call...'",
+          "s": "I am sorry the taxi is late. I can call another one now."
+        },
+        {
+          "p": "This bill is wrong. I did not order this dessert.",
+          "m": "Xác nhận hóa đơn sai. Nói bạn sẽ sửa hóa đơn ngay.",
+          "h": "Dùng 'The bill is...' và 'I am fixing...'",
+          "s": "The bill is wrong. I am fixing it for you now."
+        },
+        {
+          "p": "My shirt came back from laundry, but it is still dirty.",
+          "m": "Xin lỗi vì chiếc áo bẩn. Đề nghị giặt lại miễn phí.",
+          "h": "Dùng 'I am sorry for...' và 'We can wash...'",
+          "s": "I am sorry for your dirty shirt. We can wash it again for free."
+        },
+        {
+          "p": "The movie ticket is for tomorrow, but I bought it for today.",
+          "m": "Xin lỗi về lỗi vé. Đề nghị đổi vé thành ngày hôm nay hoặc hoàn tiền.",
+          "h": "Dùng 'I am sorry about...' và 'We can change...'",
+          "s": "I am sorry about the ticket. We can change it for today or give your money back."
+        }
+      ]
+    },
+    {
+      "t": "Đảm bảo sự hài lòng",
+      "e": [
+        {
+          "p": "My new phone works well. Thank you for fixing it.",
+          "m": "Nói bạn vui khi điện thoại hoạt động. Hỏi khách hàng có cần thêm trợ giúp không.",
+          "h": "Dùng 'I am glad...' và 'Do you need...?'",
+          "s": "I am glad your phone works. Do you need more help?"
+        },
+        {
+          "p": "The new room is better. It is clean and quiet.",
+          "m": "Nói bạn vui khi khách hàng thích phòng mới. Hỏi liệu khách hàng có thường đi du lịch không.",
+          "h": "Dùng 'I am happy...' và 'Do you often...?'",
+          "s": "I am happy you like the new room. Do you often travel?"
+        },
+        {
+          "p": "My package arrived. Thank you for finding it.",
+          "m": "Xác nhận gói hàng đã đến. Hỏi liệu mọi thứ có ổn không.",
+          "h": "Dùng 'Your package is...' và 'Is everything...?'",
+          "s": "Your package is here. Is everything okay now?"
+        },
+        {
+          "p": "The dessert is delicious. Thank you for the free one.",
+          "m": "Nói bạn vui khi khách hàng thích món tráng miệng. Hỏi liệu khách hàng có thích đồ ngọt không.",
+          "h": "Dùng 'I am glad...' và 'Do you like...?'",
+          "s": "I am glad you like the dessert. Do you like sweet food?"
+        },
+        {
+          "p": "The new taxi is here. It is very fast.",
+          "m": "Nói bạn vui khi taxi đến nhanh. Hỏi khách hàng có cần gọi thêm taxi không.",
+          "h": "Dùng 'I am happy...' và 'Do you need...?'",
+          "s": "I am happy the taxi is fast. Do you need to call another taxi?"
+        }
+      ]
+    },
+    {
+      "t": "Theo dõi và hỗ trợ thêm",
+      "e": [
+        {
+          "p": "I am still waiting for the new coffee. It is not here.",
+          "m": "Xin lỗi vì sự chậm trễ. Nói bạn sẽ kiểm tra ngay bây giờ.",
+          "h": "Dùng 'I am sorry for...' và 'I am checking...'",
+          "s": "I am sorry for the delay. I am checking it right now."
+        },
+        {
+          "p": "The fan you brought is small. My room is still hot.",
+          "m": "Nói bạn hiểu phòng vẫn nóng. Đề nghị một quạt lớn hơn.",
+          "h": "Dùng 'I understand...' và 'I can bring...'",
+          "s": "I understand your room is still hot. I can bring a bigger fan."
+        },
+        {
+          "p": "The internet is working, but it is still slow sometimes.",
+          "m": "Hỏi liệu khách hàng có cần internet ổn định hơn không. Nói bạn sẽ gọi kỹ thuật viên.",
+          "h": "Dùng 'Do you need...?' và 'I am calling...'",
+          "s": "Do you need faster internet? I am calling the technician."
+        },
+        {
+          "p": "The new room key works, but my old one is still here.",
+          "m": "Xin lỗi vì quên chìa khóa cũ. Hỏi liệu khách hàng có thể trả lại nó không.",
+          "h": "Dùng 'I am sorry about...' và 'Can you give...?'",
+          "s": "I am sorry about the old key. Can you give it back to me?"
+        },
+        {
+          "p": "I did not get my extra service yet. I am a little angry.",
+          "m": "Xin lỗi khách hàng vì sự chậm trễ. Đảm bảo khách hàng sẽ nhận được dịch vụ đó hôm nay.",
+          "h": "Dùng 'I am sorry for...' và 'You will get...'",
+          "s": "I am sorry for the delay. You will get your service today."
+        }
+      ]
+    },
+    {
+      "t": "Giải quyết các vấn đề liên quan",
+      "e": [
+        {
+          "p": "My clothes came back from laundry, but they are not dry.",
+          "m": "Xin lỗi về quần áo ẩm. Đề nghị sấy khô lại ngay lập tức.",
+          "h": "Dùng 'I am sorry your...' và 'We can dry...'",
+          "s": "I am sorry your clothes are wet. We can dry them again right away."
+        },
+        {
+          "p": "The map is wrong. I cannot find the station.",
+          "m": "Xin lỗi về bản đồ sai. Hỏi khách hàng đang ở đâu.",
+          "h": "Dùng 'I am sorry about...' và 'Where are you...?'",
+          "s": "I am sorry about the map. Where are you now?"
+        },
+        {
+          "p": "My food has too much salt. I cannot eat it.",
+          "m": "Nói bạn xin lỗi vì món ăn. Đề nghị một món ăn mới không có muối.",
+          "h": "Dùng 'I am sorry for...' và 'I can make...'",
+          "s": "I am sorry for the food. I can make a new dish without salt."
+        },
+        {
+          "p": "The hot water in the gym shower is not working now.",
+          "m": "Xin lỗi về nước nóng. Nói bạn sẽ kiểm tra nó sáng mai.",
+          "h": "Dùng 'I am sorry about...' và 'We are checking...'",
+          "s": "I am sorry about the hot water. We are checking it tomorrow morning."
+        },
+        {
+          "p": "My taxi is very slow. I am going to miss my train.",
+          "m": "Nói bạn hiểu khách hàng lo lắng. Đề nghị gọi cho tài xế taxi để đi nhanh hơn.",
+          "h": "Dùng 'I understand you are...' và 'I can call...'",
+          "s": "I understand you are worried. I can call your taxi driver to go faster."
+        }
+      ]
+    },
+    {
+      "t": "Thái độ tích cực khi giải quyết vấn đề",
+      "e": [
+        {
+          "p": "This drink is amazing! Thank you for the free one.",
+          "m": "Nói bạn vui khi khách hàng thích đồ uống. Hỏi liệu khách hàng có thích loại đồ uống này không.",
+          "h": "Dùng 'I am glad you...' và 'Do you like...?'",
+          "s": "I am glad you like the drink. Do you like this kind of drink?"
+        },
+        {
+          "p": "The new room is very beautiful. I am very happy.",
+          "m": "Nói bạn rất vui khi khách hàng hạnh phúc. Hỏi liệu khách hàng có cần gì cho phòng không.",
+          "h": "Dùng 'I am very happy...' và 'Do you need...?'",
+          "s": "I am very happy you are happy. Do you need anything for your room?"
+        },
+        {
+          "p": "My lost bag is here! Thank you very much for finding it.",
+          "m": "Nói bạn vui vì tìm thấy túi. Hỏi liệu tất cả đồ đạc có ở bên trong không.",
+          "h": "Dùng 'I am happy...' và 'Is everything...?'",
+          "s": "I am happy we found your bag. Is everything inside?"
+        },
+        {
+          "p": "The repaired TV works well now. I can watch my favorite shows.",
+          "m": "Nói bạn vui vì TV hoạt động. Hỏi khách hàng có thích xem TV không.",
+          "h": "Dùng 'I am glad...' và 'Do you like...?'",
+          "s": "I am glad the TV works. Do you like watching TV?"
+        },
+        {
+          "p": "My new clothes from laundry are clean and dry. Very good!",
+          "m": "Nói bạn vui vì khách hàng hài lòng. Hỏi liệu khách hàng có thường sử dụng dịch vụ giặt là không.",
+          "h": "Dùng 'I am happy...' và 'Do you often...?'",
+          "s": "I am happy you are satisfied. Do you often use our laundry service?"
+        }
+      ]
+    },
+    {
+      "t": "Xử lý yêu cầu đặc biệt",
+      "e": [
+        {
+          "p": "My dog is sick. I need a vet very fast.",
+          "m": "Nói bạn hiểu sự lo lắng. Đề nghị gọi một bác sĩ thú y ngay bây giờ.",
+          "h": "Dùng 'I understand you are...' và 'I can call...'",
+          "s": "I understand you are worried. I can call a vet now."
+        },
+        {
+          "p": "I need a quiet place to work. My room is noisy.",
+          "m": "Xin lỗi về tiếng ồn. Đề nghị một không gian làm việc yên tĩnh hơn.",
+          "h": "Dùng 'I am sorry for...' và 'I can find...'",
+          "s": "I am sorry for the noise. I can find a quieter workspace."
+        },
+        {
+          "p": "My child is hungry now, but the restaurant is closed.",
+          "m": "Nói bạn hiểu con đói. Đề nghị chuẩn bị một bữa ăn nhẹ đơn giản.",
+          "h": "Dùng 'I understand your...' và 'I can make...'",
+          "s": "I understand your child is hungry. I can make a simple snack."
+        },
+        {
+          "p": "I left my passport in my old room. I need it for the flight.",
+          "m": "Nói bạn xin lỗi vì sự bất tiện. Nói bạn sẽ lấy hộ chiếu ngay lập tức.",
+          "h": "Dùng 'I am sorry for...' và 'I am getting...'",
+          "s": "I am sorry for the problem. I am getting your passport immediately."
+        },
+        {
+          "p": "My car has a flat tire. I cannot drive to the airport.",
+          "m": "Nói bạn hiểu vấn đề với xe. Đề nghị gọi dịch vụ sửa lốp và một chiếc taxi khác.",
+          "h": "Dùng 'I understand the problem...' và 'I can call...'",
+          "s": "I understand the problem with your car. I can call a tire service and another taxi."
+        }
+      ]
+    },
+    {
+      "t": "Ôn tập: Xử lý các lỗi thường gặp",
+      "e": [
+        {
+          "p": "The water in my shower is cold. I want hot water.",
+          "m": "Xác nhận vấn đề nước lạnh. Nói bạn sẽ kiểm tra nó ngay.",
+          "h": "Dùng 'The water is...' và 'I am checking...'",
+          "s": "The water is cold. I am checking it now."
+        },
+        {
+          "p": "I ordered a juice, but I got a soda. This is wrong.",
+          "m": "Xin lỗi vì đơn hàng sai. Hỏi khách hàng có muốn một loại nước ép khác không.",
+          "h": "Dùng 'I am sorry for...' và 'Do you want...?'",
+          "s": "I am sorry for the wrong order. Do you want a new juice?"
+        },
+        {
+          "p": "My room key is not working again. I cannot open the door.",
+          "m": "Nói bạn xin lỗi về chìa khóa. Đề nghị một chiếc chìa khóa mới ngay lập tức.",
+          "h": "Dùng 'I am sorry about...' và 'I can give...'",
+          "s": "I am sorry about the key. I can give you a new one now."
+        },
+        {
+          "p": "I am waiting for my food for a long time. I am hungry and tired.",
+          "m": "Xin lỗi vì sự chờ đợi. Đảm bảo món ăn của khách hàng đang đến rất nhanh.",
+          "h": "Dùng 'I am sorry for...' và 'Your food is...'",
+          "s": "I am sorry for the wait. Your food is coming very fast."
+        },
+        {
+          "p": "The TV is broken, the internet is slow, and my room is cold.",
+          "m": "Xin lỗi khách hàng về nhiều vấn đề. Đề nghị chuyển sang một phòng khác ngay lập tức.",
+          "h": "Dùng 'I am very sorry for...' và 'We can move...'",
+          "s": "I am very sorry for all the problems. We can move you to another room now."
+        }
+      ]
+    },
+    {
+      "t": "Ôn tập: Giúp khách hàng vui vẻ trở lại",
+      "e": [
+        {
+          "p": "Thank you for the new coffee. It is perfect.",
+          "m": "Nói bạn vui khi khách hàng hài lòng. Hỏi liệu khách hàng có cần gì thêm không.",
+          "h": "Dùng 'I am glad you are...' và 'Do you need...?'",
+          "s": "I am glad you are happy. Do you need anything else?"
+        },
+        {
+          "p": "The new blanket is very warm. I am comfortable now.",
+          "m": "Nói bạn vui khi khách hàng thoải mái. Hỏi khách hàng có thường bị lạnh không.",
+          "h": "Dùng 'I am happy you are...' và 'Are you often...?'",
+          "s": "I am happy you are comfortable. Are you often cold?"
+        },
+        {
+          "p": "My phone is fixed. It works perfectly now. Thank you!",
+          "m": "Nói bạn vui khi điện thoại hoạt động tốt. Hỏi liệu bạn có thể giúp gì thêm không.",
+          "h": "Dùng 'I am glad your phone...' và 'Can I help...?'",
+          "s": "I am glad your phone works well. Can I help you with anything else?"
+        },
+        {
+          "p": "The internet is fast again. I can finish my work easily.",
+          "m": "Nói bạn vui khi internet nhanh. Hỏi liệu khách hàng có thường làm việc ở đây không.",
+          "h": "Dùng 'I am happy the internet...' và 'Do you often...?'",
+          "s": "I am happy the internet is fast. Do you often work here?"
+        },
+        {
+          "p": "This new room is very quiet and clean. I love it.",
+          "m": "Nói bạn rất vui khi khách hàng yêu thích căn phòng. Hỏi liệu khách hàng có thích không gian yên tĩnh không.",
+          "h": "Dùng 'I am very happy you...' và 'Do you like...?'",
+          "s": "I am very happy you love the room. Do you like quiet places?"
+        }
+      ]
+    },
+    {
+      "t": "Ôn tập: Giải quyết tình huống bất ngờ",
+      "e": [
+        {
+          "p": "My child is crying. She lost her favorite toy.",
+          "m": "Nói bạn hiểu con đang buồn. Hỏi món đồ chơi trông như thế nào.",
+          "h": "Dùng 'I understand your...' và 'What does the toy...?'",
+          "s": "I understand your child is sad. What does the toy look like?"
+        },
+        {
+          "p": "I need to go to the airport, but my car is broken.",
+          "m": "Xin lỗi về vấn đề xe. Đề nghị gọi một chiếc taxi ngay lập tức.",
+          "h": "Dùng 'I am sorry about...' và 'I can call...'",
+          "s": "I am sorry about your car. I can call a taxi now."
+        },
+        {
+          "p": "The restaurant is closed, but I am very hungry.",
+          "m": "Xin lỗi vì nhà hàng đóng cửa. Đề nghị mang một ít đồ ăn nhẹ đến phòng.",
+          "h": "Dùng 'I am sorry the restaurant...' và 'I can bring...'",
+          "s": "I am sorry the restaurant is closed. I can bring some snacks to your room."
+        },
+        {
+          "p": "I left my wallet in the cafe. I need it now.",
+          "m": "Nói bạn hiểu sự lo lắng. Đề nghị đi tìm ví ngay lập tức.",
+          "h": "Dùng 'I understand you are...' và 'I am going to...'",
+          "s": "I understand you are worried. I am going to look for your wallet now."
+        },
+        {
+          "p": "My dog is sick, and the vet is far away. I need help.",
+          "m": "Xin lỗi về tình huống này. Đề nghị tìm một phòng khám thú y gần đó và gọi taxi.",
+          "h": "Dùng 'I am sorry about...' và 'I can find...'",
+          "s": "I am sorry about your dog. I can find a nearby vet and call a taxi."
+        }
+      ]
+    }
+  ]
+}

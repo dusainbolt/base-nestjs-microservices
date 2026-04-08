@@ -1,0 +1,530 @@
+{
+  "l": 2,
+  "d": [
+    {
+      "t": "Chào hỏi khách tại cửa hàng",
+      "e": [
+        {
+          "p": "How can I help you today?",
+          "m": "1) Nói bạn muốn giúp gì. 2) Nói lý do ngắn (ví dụ: tìm sản phẩm hoặc hỏi giá).",
+          "h": "Use: I need / I want + N / to V.",
+          "s": "I need help finding a phone. I want a good and cheap phone."
+        },
+        {
+          "p": "Are you happy with our store?",
+          "m": "1) Nói bạn hài lòng hay không. 2) Nói một lý do ngắn.",
+          "h": "Use: I am + adjective. Use: because ...",
+          "s": "I am happy with the store. The staff are friendly."
+        },
+        {
+          "p": "Do you like our new layout?",
+          "m": "1) Nói bạn có thích hay không. 2) Nói một điểm bạn thích/không thích.",
+          "h": "Use: I like / I don't like + N. Use: It is + adjective.",
+          "s": "I like the new layout. It is easy to find things."
+        },
+        {
+          "p": "How long do you usually wait in line?",
+          "m": "1) Nói thời gian bạn thường chờ. 2) Nói nếu thời gian đó ổn hay không.",
+          "h": "Use: I usually wait + time. Use: It is / It is too + adjective.",
+          "s": "I usually wait about ten minutes. It is too long."
+        },
+        {
+          "p": "What do you think of our prices?",
+          "m": "1) Nói giá tốt hay không. 2) Nói lý do ngắn (ví dụ: rẻ/hợp lý/đắt).",
+          "h": "Use: They are + adjective. Use: because ...",
+          "s": "The prices are good. They are not too high."
+        }
+      ]
+    },
+    {
+      "t": "Khảo sát nhanh sau thanh toán",
+      "e": [
+        {
+          "p": "Did you get your receipt?",
+          "m": "1) Nói có hay không. 2) Nói bạn cần hóa đơn hay không.",
+          "h": "Use: I have / I don't have. Use: I need / I don't need.",
+          "s": "I have my receipt. I don't need a paper invoice."
+        },
+        {
+          "p": "Are you satisfied with the checkout speed?",
+          "m": "1) Nói bạn hài lòng hay không. 2) Nói một lý do ngắn.",
+          "h": "Use: I am + adjective. Use: because ...",
+          "s": "I am satisfied with the checkout speed. The cashier is fast."
+        },
+        {
+          "p": "Would you come back to our store?",
+          "m": "1) Nói bạn sẽ quay lại hay không. 2) Nói lý do ngắn.",
+          "h": "Use: I will / I won't + V. Use: because ...",
+          "s": "I will come back to this store. The service is good."
+        },
+        {
+          "p": "Do you often shop with us?",
+          "m": "1) Nói tần suất bạn mua hàng. 2) Nói nếu bạn thích chương trình giảm giá.",
+          "h": "Use: I usually / sometimes / never + V. Use: I like / I don't like + N.",
+          "s": "I usually shop here every week. I like the discount program."
+        },
+        {
+          "p": "Is there anything we can improve?",
+          "m": "1) Nói một việc cần cải thiện. 2) Nói tại sao ngắn gọn.",
+          "h": "Use: You can + V or You should + V. Use: because ...",
+          "s": "You can improve the parking. It is too small."
+        }
+      ]
+    },
+    {
+      "t": "Hỏi về chất lượng sản phẩm",
+      "e": [
+        {
+          "p": "Is the product working well?",
+          "m": "1) Nói sản phẩm có hoạt động tốt không. 2) Nói một chi tiết ngắn (ví dụ: lỗi hoặc tốt).",
+          "h": "Use: It is + adjective or It is not + adjective.",
+          "s": "The product is working well. The screen is clear."
+        },
+        {
+          "p": "Do you like the product color?",
+          "m": "1) Nói bạn thích màu hay không. 2) Nói lý do ngắn.",
+          "h": "Use: I like / I don't like + N. Use: because ...",
+          "s": "I like the product color. It is bright and nice."
+        },
+        {
+          "p": "How many items are in the box?",
+          "m": "1) Nói số lượng món hàng. 2) Nói nếu số đó đủ cho bạn hay không.",
+          "h": "Use: There are + number + N. Use: It is enough / not enough.",
+          "s": "There are two items in the box. It is enough for me."
+        },
+        {
+          "p": "Is the product in good condition in the store?",
+          "m": "1) Nói tình trạng hàng tại cửa hàng. 2) Nói nếu bạn muốn mua ngay hay không.",
+          "h": "Use: It is + adjective. Use: I want / I don't want + to buy.",
+          "s": "The product is in good condition. I want to buy it now."
+        },
+        {
+          "p": "Do you need help testing it here?",
+          "m": "1) Nói bạn có cần thử sản phẩm không. 2) Nói lý do ngắn.",
+          "h": "Use: I need / I don't need + to V. Use: because ...",
+          "s": "I need to test it in the store. I want to check the sound."
+        }
+      ]
+    },
+    {
+      "t": "Phản hồi về nhân viên phục vụ",
+      "e": [
+        {
+          "p": "Was the staff polite to you?",
+          "m": "1) Nói nhân viên có lịch sự hay không. 2) Nói ví dụ ngắn (ví dụ: giúp đỡ, nhanh).",
+          "h": "Use: They are / They are not + adjective. Use: They + V + ...",
+          "s": "The staff are polite. They help customers quickly."
+        },
+        {
+          "p": "Do staff explain the product well?",
+          "m": "1) Nói nhân viên có giải thích rõ không. 2) Nói một điểm họ giải thích tốt/không tốt.",
+          "h": "Use: They explain + N simply. Use: It is + adjective.",
+          "s": "They explain the product well. The details are simple to understand."
+        },
+        {
+          "p": "How often do staff check the shelves?",
+          "m": "1) Nói tần suất họ kiểm tra kệ. 2) Nói nếu điều này tốt cho khách hay không.",
+          "h": "Use: They usually / sometimes + V. Use: It is good / not good.",
+          "s": "They usually check the shelves every morning. It is good for customers."
+        },
+        {
+          "p": "Do you trust our staff suggestions?",
+          "m": "1) Nói bạn có tin lời khuyên của nhân viên hay không. 2) Nói lý do ngắn.",
+          "h": "Use: I trust / I don't trust + N. Use: because ...",
+          "s": "I trust the staff suggestions. They know the products well."
+        },
+        {
+          "p": "Is there a staff member you want to praise?",
+          "m": "1) Nói có hay không. 2) Nếu có, nêu lý do ngắn (tốt bụng, giúp đỡ).",
+          "h": "Use: Yes, + reason / No, + short reason. Use: because ...",
+          "s": "Yes, the cashier is very kind. She helps customers with a smile."
+        }
+      ]
+    },
+    {
+      "t": "Xử lý phàn nàn về sản phẩm",
+      "e": [
+        {
+          "p": "What is the problem with the item?",
+          "m": "1) Nói vấn đề chính ngắn gọn. 2) Nói nếu bạn muốn đổi hoặc sửa.",
+          "h": "Use: It has + problem or It is + adjective. Use: I want + to V.",
+          "s": "The item has a broken button. I want to exchange it."
+        },
+        {
+          "p": "Is the item still under warranty?",
+          "m": "1) Nói có hay không. 2) Nói bạn muốn nhân viên làm gì (check/repair).",
+          "h": "Use: It is / It is not + under warranty. Use: Please + V.",
+          "s": "It is under warranty. Please check and repair it."
+        },
+        {
+          "p": "Do you want a refund or an exchange?",
+          "m": "1) Chọn refund hay exchange. 2) Nói lý do ngắn.",
+          "h": "Use: I want a refund / I want an exchange. Use: because ...",
+          "s": "I want an exchange. I need a working product."
+        },
+        {
+          "p": "Is the packaging damaged now?",
+          "m": "1) Nói hộp có hỏng không. 2) Nói nếu bạn nhận hàng tại cửa hàng hay giao về nhà.",
+          "h": "Use: It is / It is not + damaged. Use: I received it at + place.",
+          "s": "The packaging is damaged. I received it at home."
+        },
+        {
+          "p": "Can we contact you with a solution?",
+          "m": "1) Nói bạn đồng ý nhận liên lạc hay không. 2) Nói cách liên lạc bạn muốn (phone/email).",
+          "h": "Use: Yes, you can / No, you can't. Use: by phone / by email.",
+          "s": "Yes, you can contact me. Please call me by phone."
+        }
+      ]
+    },
+    {
+      "t": "Yêu cầu đổi trả và hoàn tiền",
+      "e": [
+        {
+          "p": "Do you have the receipt and the box?",
+          "m": "1) Nói có hay không. 2) Nói nếu bạn muốn đổi ngay tại cửa hàng.",
+          "h": "Use: I have / I don't have + N. Use: I want + to V.",
+          "s": "I have the receipt and the box. I want to exchange it now."
+        },
+        {
+          "p": "How many items do you want to return?",
+          "m": "1) Nói số lượng món trả. 2) Nói lý do ngắn cho việc trả.",
+          "h": "Use: I want to return + number + N. Use: because ...",
+          "s": "I want to return two items. They are the wrong size."
+        },
+        {
+          "p": "Do you want store credit or a refund?",
+          "m": "1) Chọn credit hay refund. 2) Nói một lý do ngắn.",
+          "h": "Use: I want store credit / I want a refund. Use: because ...",
+          "s": "I want a refund. I need money back now."
+        },
+        {
+          "p": "Is the payment by card or cash?",
+          "m": "1) Nói bạn đã trả bằng gì. 2) Nói nếu bạn cần hóa đơn giấy.",
+          "h": "Use: I paid by + card/cash. Use: I need / I don't need + N.",
+          "s": "I paid by card. I need a paper receipt."
+        },
+        {
+          "p": "Do you want staff to pack the new item?",
+          "m": "1) Nói có muốn đóng gói giúp hay không. 2) Nói nếu bạn đợi tại quầy hay đi ra.",
+          "h": "Use: Yes, please / No, thanks. Use: I will wait / I will go out.",
+          "s": "Yes, please pack the new item. I will wait at the counter."
+        }
+      ]
+    },
+    {
+      "t": "Gợi ý và đề xuất cải thiện",
+      "e": [
+        {
+          "p": "What one thing should we improve first?",
+          "m": "1) Nêu một việc cần cải thiện. 2) Nói lý do ngắn vì sao.",
+          "h": "Use: Improve + N or You should + V. Use: because ...",
+          "s": "Improve the fitting rooms. They are small and crowded."
+        },
+        {
+          "p": "Do you prefer faster service or lower price?",
+          "m": "1) Chọn ưu tiên (tốc độ hay giá). 2) Nói lý do ngắn.",
+          "h": "Use: I prefer + N. Use: because ...",
+          "s": "I prefer faster service. I don't have much time."
+        },
+        {
+          "p": "Should we open earlier or close later?",
+          "m": "1) Chọn mở sớm hay đóng muộn. 2) Nói lý do ngắn.",
+          "h": "Use: Open earlier / Close later. Use: because ...",
+          "s": "Open earlier, please. Many customers come in the morning."
+        },
+        {
+          "p": "Do you like more staff at busy times?",
+          "m": "1) Nói bạn có thích thêm nhân viên không. 2) Nói ví dụ thời gian bận.",
+          "h": "Use: I like / I don't like + N. Use: at + time.",
+          "s": "I like more staff at busy times. For example, every weekend."
+        },
+        {
+          "p": "Is a suggestion box useful for you?",
+          "m": "1) Nói bạn thấy hộp góp ý hữu ích không. 2) Nói nếu bạn sẽ viết ý kiến.",
+          "h": "Use: It is useful / not useful. Use: I will / won't + V.",
+          "s": "The suggestion box is useful. I will write one idea."
+        }
+      ]
+    },
+    {
+      "t": "Thời gian và lịch phục vụ",
+      "e": [
+        {
+          "p": "When do you usually visit our shop?",
+          "m": "1) Nói thời gian bạn thường đến (sáng/chiều/tối). 2) Nói nếu giờ đó tốt cho bạn.",
+          "h": "Use: I usually visit in the morning/afternoon/evening. Use: It is + adjective.",
+          "s": "I usually visit in the afternoon. It is a good time for me."
+        },
+        {
+          "p": "Is our opening hour convenient?",
+          "m": "1) Nói giờ mở cửa có thuận tiện không. 2) Nói bạn muốn mở sớm hay muộn hơn.",
+          "h": "Use: It is convenient / not convenient. Use: I want + to V.",
+          "s": "The opening hour is convenient. I don't need earlier hours."
+        },
+        {
+          "p": "How often do you use our delivery service?",
+          "m": "1) Nói tần suất bạn dùng giao hàng. 2) Nói bạn hài lòng hay không.",
+          "h": "Use: I usually / sometimes / never + use. Use: I am + adjective.",
+          "s": "I usually use your delivery service. I am happy with it."
+        },
+        {
+          "p": "Do you wait at the shop or at home for delivery?",
+          "m": "1) Nói bạn đợi ở đâu. 2) Nói nếu bạn muốn thay đổi địa điểm giao hàng.",
+          "h": "Use: I wait at + place. Use: I want to change to + place.",
+          "s": "I wait at home for delivery. I want deliveries to go to my work."
+        },
+        {
+          "p": "Is same-day pickup helpful for you?",
+          "m": "1) Nói tính năng lấy hàng cùng ngày có hữu ích không. 2) Nói nếu bạn sẽ dùng nó.",
+          "h": "Use: It is helpful / not helpful. Use: I will / won't + use it.",
+          "s": "Same-day pickup is helpful. I will use it next time."
+        }
+      ]
+    },
+    {
+      "t": "Theo dõi sau mua hàng",
+      "e": [
+        {
+          "p": "Are you happy with the product after one week?",
+          "m": "1) Nói bạn có hài lòng sau một tuần không. 2) Nói nếu có vấn đề nhỏ hay không.",
+          "h": "Use: I am + adjective. Use: There is / There is not + problem.",
+          "s": "I am happy with the product after one week. There is no problem."
+        },
+        {
+          "p": "Can we call you for a short survey?",
+          "m": "1) Nói bạn đồng ý nhận cuộc gọi hay không. 2) Nói thời gian phù hợp.",
+          "h": "Use: Yes, you can / No, you can't. Use: at + time.",
+          "s": "Yes, you can call me. Please call in the morning."
+        },
+        {
+          "p": "Would you recommend our product to friends?",
+          "m": "1) Nói bạn có giới thiệu không. 2) Nói lý do ngắn.",
+          "h": "Use: I would / I would not + recommend. Use: because ...",
+          "s": "I would recommend your product. It is good value."
+        },
+        {
+          "p": "Do you need help with setup at home?",
+          "m": "1) Nói bạn cần trợ giúp lắp đặt hay không. 2) Nói nếu bạn muốn nhân viên đến nhà.",
+          "h": "Use: I need / I don't need + help. Use: I want + someone to come.",
+          "s": "I need help with setup at home. I want a staff member to come."
+        },
+        {
+          "p": "May we have your name for follow-up?",
+          "m": "1) Cho tên bạn. 2) Nói nếu bạn muốn email hoặc phone liên hệ.",
+          "h": "Use: My name is [studentName]. Use: Contact me by phone / by email.",
+          "s": "My name is [studentName]. Contact me by phone."
+        }
+      ]
+    },
+    {
+      "t": "So sánh hai dịch vụ/dịch vụ đối thủ",
+      "e": [
+        {
+          "p": "Which service is faster, ours or theirs?",
+          "m": "1) Nói dịch vụ nào nhanh hơn. 2) Nói lý do ngắn.",
+          "h": "Use: Ours / Theirs + is + comparative. Use: because ...",
+          "s": "Our service is faster. We have more staff at the counter."
+        },
+        {
+          "p": "Is our price or quality better?",
+          "m": "1) Chọn giá hay chất lượng tốt hơn. 2) Nói một ví dụ ngắn.",
+          "h": "Use: Price is better / Quality is better. Use: for example ...",
+          "s": "Quality is better at your store. For example, the product lasts longer."
+        },
+        {
+          "p": "Do you prefer to buy online or in store?",
+          "m": "1) Nói bạn thích mua online hay tại cửa hàng. 2) Nói lý do ngắn.",
+          "h": "Use: I prefer + N. Use: because ...",
+          "s": "I prefer to buy in store. I can check the product first."
+        },
+        {
+          "p": "Are their staff more helpful than ours?",
+          "m": "1) Nói họ có giúp hơn không. 2) Nói ví dụ ngắn.",
+          "h": "Use: They are more helpful / not more helpful. Use: for example ...",
+          "s": "Their staff are not more helpful. Your staff answer questions quickly."
+        },
+        {
+          "p": "Which store has better opening hours?",
+          "m": "1) Nói cửa hàng nào có giờ mở tốt hơn. 2) Nói lý do ngắn.",
+          "h": "Use: Store A / Store B + has + better + N. Use: because ...",
+          "s": "Your store has better opening hours. It opens earlier in the morning."
+        }
+      ]
+    },
+    {
+      "t": "Đánh giá tần suất sử dụng dịch vụ",
+      "e": [
+        {
+          "p": "How often do you contact customer service?",
+          "m": "1) Nói tần suất bạn liên hệ. 2) Nói lý do ngắn khi bạn gọi.",
+          "h": "Use: I usually / sometimes / never + contact. Use: because ...",
+          "s": "I sometimes contact customer service. I call when I have a problem."
+        },
+        {
+          "p": "Do you always get a quick answer?",
+          "m": "1) Nói bạn luôn nhận câu trả lời nhanh hay không. 2) Nói nếu điều này quan trọng.",
+          "h": "Use: I always / I don't always + get + N. Use: It is important.",
+          "s": "I don't always get a quick answer. It is important for me."
+        },
+        {
+          "p": "Are you still using our app every day?",
+          "m": "1) Nói bạn có còn dùng app hàng ngày không. 2) Nói nếu app hữu ích cho bạn.",
+          "h": "Use: I still + V or I don't + V. Use: It is useful / not useful.",
+          "s": "I still use your app every day. It is useful for shopping lists."
+        },
+        {
+          "p": "Do you usually read our emails?",
+          "m": "1) Nói bạn thường đọc email khuyến mãi không. 2) Nói nếu email hữu ích.",
+          "h": "Use: I usually / sometimes + read. Use: It is useful / not useful.",
+          "s": "I sometimes read your emails. They are useful for offers."
+        },
+        {
+          "p": "How many times a month do you visit us?",
+          "m": "1) Nói số lần bạn đến trong tháng. 2) Nói nếu bạn muốn đến nhiều hơn.",
+          "h": "Use: I visit + number + times a month. Use: I want to + V.",
+          "s": "I visit three times a month. I want to come more often."
+        }
+      ]
+    },
+    {
+      "t": "Gặp khách không hài lòng tại quầy",
+      "e": [
+        {
+          "p": "What makes you unhappy today?",
+          "m": "1) Nói lý do bạn không hài lòng. 2) Nói bạn muốn cửa hàng làm gì.",
+          "h": "Use: I am unhappy because ... Use: Please + V.",
+          "s": "I am unhappy because the product is damaged. Please give me a replacement."
+        },
+        {
+          "p": "Is the issue a small problem or big problem?",
+          "m": "1) Nói vấn đề nhỏ hay lớn. 2) Nói nếu bạn muốn giải pháp nhanh.",
+          "h": "Use: It is a small / big problem. Use: I want a quick solution.",
+          "s": "It is a small problem. I want a quick fix, please."
+        },
+        {
+          "p": "Do you want to speak to the manager?",
+          "m": "1) Nói bạn có muốn gặp quản lý không. 2) Nói lý do ngắn nếu có.",
+          "h": "Use: Yes, I want / No, I don't want. Use: because ...",
+          "s": "Yes, I want to speak to the manager. I need a refund quickly."
+        },
+        {
+          "p": "Can we offer a small gift or a discount?",
+          "m": "1) Nói bạn có chấp nhận quà/giảm giá không. 2) Nói nếu bạn thấy công bằng.",
+          "h": "Use: I accept / I don't accept + N. Use: It is fair / not fair.",
+          "s": "I accept a small discount. It is fair for the problem."
+        },
+        {
+          "p": "Will you come back after we fix this?",
+          "m": "1) Nói bạn có quay lại sau khi sửa không. 2) Nói điều kiện ngắn nếu cần.",
+          "h": "Use: I will / I won't + come back. Use: if + condition.",
+          "s": "I will come back after you fix it. If the product works well."
+        }
+      ]
+    },
+    {
+      "t": "Ôn tập: Phản hồi nhanh",
+      "e": [
+        {
+          "p": "How satisfied are you with your visit today?",
+          "m": "1) Nói mức độ hài lòng (happy/unhappy). 2) Nêu một nguyên nhân ngắn.",
+          "h": "Use: I am + adjective. Use: because ...",
+          "s": "I am happy with my visit today. The staff are helpful."
+        },
+        {
+          "p": "Do you need any help before you leave?",
+          "m": "1) Nói có cần giúp hay không. 2) Nói việc cụ thể bạn cần.",
+          "h": "Use: I need / I don't need + to V. Use: for example ...",
+          "s": "I need help with gift wrap. Please wrap my item."
+        },
+        {
+          "p": "Would you rate our service as good?",
+          "m": "1) Nói dịch vụ có tốt hay không. 2) Nói lý do ngắn.",
+          "h": "Use: It is good / not good. Use: because ...",
+          "s": "The service is good. The staff are friendly and quick."
+        },
+        {
+          "p": "Is there one change you want in the store?",
+          "m": "1) Nêu một thay đổi bạn muốn. 2) Nói nếu thay đổi đó quan trọng.",
+          "h": "Use: I want + N or I want + to V. Use: It is important / not important.",
+          "s": "I want more chairs in the waiting area. It is important for older customers."
+        },
+        {
+          "p": "Can we contact you for a short feedback later?",
+          "m": "1) Nói bạn đồng ý hay không. 2) Nói cách liên hệ bạn thích.",
+          "h": "Use: Yes, you can / No, you can't. Use: by phone / by email.",
+          "s": "Yes, you can contact me. Please email me."
+        }
+      ]
+    },
+    {
+      "t": "Ôn tập: Xử lý khiếu nại",
+      "e": [
+        {
+          "p": "What is the main complaint today?",
+          "m": "1) Nói phàn nàn chính ngắn gọn. 2) Nói bạn muốn cửa hàng làm gì ngay.",
+          "h": "Use: The main complaint is + N. Use: I want + to V.",
+          "s": "The main complaint is a broken screen. I want an immediate exchange."
+        },
+        {
+          "p": "Do you have the order number or receipt?",
+          "m": "1) Nói có hay không. 2) Nếu có, nói nơi bạn giữ (phone/paper).",
+          "h": "Use: I have / I don't have + N. Use: It is on my phone / paper.",
+          "s": "I have the order number. It is on my phone."
+        },
+        {
+          "p": "Can we offer a temporary solution now?",
+          "m": "1) Nói bạn có chấp nhận giải pháp tạm thời không. 2) Nói ví dụ bạn nhận được gì.",
+          "h": "Use: I accept / I don't accept + N. Use: For example ...",
+          "s": "I accept a temporary repair. For example, a fast fix in store."
+        },
+        {
+          "p": "Would a refund make you happy?",
+          "m": "1) Nói refund có làm bạn hài lòng không. 2) Nói nếu bạn cần tiền ngay.",
+          "h": "Use: Yes, a refund would / wouldn't make me happy. Use: I need + N.",
+          "s": "Yes, a refund would make me happy. I need the money now."
+        },
+        {
+          "p": "Do you want a written confirmation of the solution?",
+          "m": "1) Nói có muốn giấy tờ xác nhận không. 2) Nói bạn muốn nhận ở đâu (email/paper).",
+          "h": "Use: I want / I don't want + written confirmation. Use: by email / on paper.",
+          "s": "I want a written confirmation. Please send it by email."
+        }
+      ]
+    },
+    {
+      "t": "Ôn tập: Cải thiện trải nghiệm khách hàng",
+      "e": [
+        {
+          "p": "What makes a visit great for you?",
+          "m": "1) Nói một điều làm chuyến đi tuyệt vời. 2) Nói nếu điều đó thường xảy ra.",
+          "h": "Use: A great visit has + N. Use: It usually / sometimes + happens.",
+          "s": "A great visit has quick service. It usually happens on weekdays."
+        },
+        {
+          "p": "Do you enjoy our loyalty program?",
+          "m": "1) Nói bạn có thích chương trình khách hàng thân thiết không. 2) Nói một lợi ích bạn nhận được.",
+          "h": "Use: I enjoy / I don't enjoy + N. Use: I get + N.",
+          "s": "I enjoy your loyalty program. I get discounts and points."
+        },
+        {
+          "p": "How can we make the online order easier?",
+          "m": "1) Nêu một cải tiến cho đặt hàng online. 2) Nói nếu bạn sẽ dùng lại.",
+          "h": "Use: Make + N simpler or You should + V. Use: I will / won't + use it.",
+          "s": "Make the checkout page simpler. I will use it again."
+        },
+        {
+          "p": "Is staff friendly important to your choice?",
+          "m": "1) Nói nhân viên thân thiện có quan trọng không. 2) Nói nếu bạn trả nhiều hơn cho dịch vụ tốt.",
+          "h": "Use: It is important / not important. Use: I will pay + more / not.",
+          "s": "Staff friendliness is important to my choice. I will pay a little more for good service."
+        },
+        {
+          "p": "Would you like a short training session on product use?",
+          "m": "1) Nói bạn có muốn buổi hướng dẫn ngắn không. 2) Nói nếu bạn muốn tại cửa hàng hay online.",
+          "h": "Use: I want / I don't want + to V. Use: at the store / online.",
+          "s": "I want a short training session. Please do it online."
+        }
+      ]
+    }
+  ]
+}

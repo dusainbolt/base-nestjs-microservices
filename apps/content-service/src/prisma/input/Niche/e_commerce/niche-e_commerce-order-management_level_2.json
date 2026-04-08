@@ -1,0 +1,560 @@
+{
+  "l": {
+    "lvl": 2,
+    "code": "ELEMENTARY",
+    "desc": "2 câu đơn liên tiếp, có liên kết cơ bản",
+    "req": {
+      "gram": "S + be + V-ing, S + V(s/es) + adv of freq (always/often/sometimes), How much/many...?, I like/want/need + N/to V, There are + số + N, Prepositions (in/on/at/to)",
+      "vocab": "Thông dụng + tính từ đơn giản (big, small, good, bad, hot, cold)",
+      "vocabCap": {
+        "cefr": "A1–A2",
+        "maxWords": 600,
+        "allowed": [
+          "Tất cả từ Level 1, mở rộng thêm:",
+          "Tính từ 2 âm tiết phổ biến: happy, hungry, tired, busy, pretty, funny, angry, lucky",
+          "Trạng từ tần suất: always, often, usually, sometimes, never, still",
+          "Giới từ: in, on, at, to, from, with, near, next to, behind, in front of",
+          "Phrasal verbs cực kỳ phổ biến: get up, go out, come back, wake up",
+          "Từ về cảm xúc đơn giản: love, hate, enjoy, miss, feel",
+          "Từ về thời gian: yesterday, tomorrow, last week, next week, every morning"
+        ],
+        "avoid": [
+          "Từ trừu tượng (ví dụ: opportunity, responsibility, achievement)",
+          "Phrasal verbs ít gặp (ví dụ: put off, bring up, carry out)",
+          "Idioms, thành ngữ",
+          "Từ học thuật hoặc chuyên ngành"
+        ]
+      },
+      "conn": "and, but",
+      "tense": "Present Simple, Present Continuous",
+      "cmplx": "Thấp"
+    }
+  },
+  "d": [
+    {
+      "t": "Đặt câu hỏi về đơn hàng",
+      "e": [
+        {
+          "p": "Hello! Is this the customer service for orders?",
+          "m": "Xác nhận đúng là bộ phận chăm sóc khách hàng. Nêu bạn có một đơn hàng để hỏi.",
+          "h": "Dùng 'Yes, it is.' và 'I have an order.'",
+          "s": "Yes, it is. I have an order."
+        },
+        {
+          "p": "Okay, please tell me your order number.",
+          "m": "Cung cấp số đơn hàng là '12345'. Nêu bạn muốn kiểm tra trạng thái của nó.",
+          "h": "Dùng 'My order number is...' và 'I want to check its status.'",
+          "s": "My order number is 12345. I want to check its status."
+        },
+        {
+          "p": "I see it. The package is ready for delivery. Is it a big package?",
+          "m": "Xác nhận đúng là một gói hàng lớn. Nêu bạn cần nó sớm.",
+          "h": "Dùng 'Yes, it is a big package.' và 'I need it soon.'",
+          "s": "Yes, it is a big package. I need it soon."
+        },
+        {
+          "p": "We are planning the delivery now. Do you usually receive packages in the morning?",
+          "m": "Nói bạn thường xuyên nhận gói hàng vào buổi sáng. Nêu bạn bận vào buổi chiều.",
+          "h": "Dùng trạng từ tần suất (usually) và 'I am busy in the afternoon.'",
+          "s": "Yes, I usually receive packages in the morning. I am busy in the afternoon."
+        },
+        {
+          "p": "I understand. We will try our best. Do you want to track your order online?",
+          "m": "Xác nhận bạn muốn theo dõi đơn hàng trực tuyến. Nêu bạn cần liên kết theo dõi.",
+          "h": "Dùng 'Yes, I want to track it online.' và 'I need the tracking link.'",
+          "s": "Yes, I want to track it online. I need the tracking link."
+        }
+      ]
+    },
+    {
+      "t": "Theo dõi trạng thái đơn hàng",
+      "e": [
+        {
+          "p": "Good morning. How can I help you with your order?",
+          "m": "Hỏi đơn hàng của bạn đang ở đâu. Nêu bạn đang chờ nó.",
+          "h": "Dùng 'Where is my order?' và 'I am waiting for it.'",
+          "s": "Where is my order? I am waiting for it."
+        },
+        {
+          "p": "Let me check. What is your order number?",
+          "m": "Cung cấp số đơn hàng '67890'. Hỏi liệu nó có đến hôm nay không.",
+          "h": "Dùng 'My order number is...' và 'Is it coming today?'",
+          "s": "My order number is 67890. Is it coming today?"
+        },
+        {
+          "p": "Yes, your order is out for delivery today. Are you home now?",
+          "m": "Xác nhận bạn đang ở nhà. Nêu bạn không muốn bỏ lỡ gói hàng.",
+          "h": "Dùng 'Yes, I am home.' và 'I don't want to miss the package.'",
+          "s": "Yes, I am home. I don't want to miss the package."
+        },
+        {
+          "p": "Great. The delivery person is near your area. Is your address easy to find?",
+          "m": "Xác nhận địa chỉ dễ tìm. Nêu địa chỉ của bạn là [studentCity] Street.",
+          "h": "Dùng 'Yes, my address is easy to find.' và 'It is [studentCity] Street.'",
+          "s": "Yes, my address is easy to find. It is [studentCity] Street."
+        },
+        {
+          "p": "Thank you. Your package will arrive soon. Do you often get deliveries?",
+          "m": "Nói bạn thường xuyên nhận giao hàng. Nêu bạn thích mua sắm trực tuyến.",
+          "h": "Dùng 'I often get deliveries.' và 'I like to shop online.'",
+          "s": "I often get deliveries. I like to shop online."
+        }
+      ]
+    },
+    {
+      "t": "Xác nhận thông tin giao hàng",
+      "e": [
+        {
+          "p": "Hello, I am calling about your order. Can you confirm your address?",
+          "m": "Xác nhận địa chỉ của bạn là [studentCity] Street. Hỏi nó có đúng không.",
+          "h": "Dùng 'My address is [studentCity] Street.' và 'Is that correct?'",
+          "s": "My address is [studentCity] Street. Is that correct?"
+        },
+        {
+          "p": "Yes, that is correct. And your phone number is 0123456789?",
+          "m": "Xác nhận số điện thoại của bạn. Nêu bạn muốn nhận tin nhắn cập nhật.",
+          "h": "Dùng 'Yes, that is my number.' và 'I want text updates.'",
+          "s": "Yes, that is my number. I want text updates."
+        },
+        {
+          "p": "Okay. Your package will arrive next week. What day is good for delivery?",
+          "m": "Nêu bạn rảnh vào thứ Ba. Hỏi liệu gói hàng có thể đến vào thứ Ba không.",
+          "h": "Dùng 'I am free on Tuesday.' và 'Can the package come on Tuesday?'",
+          "s": "I am free on Tuesday. Can the package come on Tuesday?"
+        },
+        {
+          "p": "We can deliver on Tuesday. Will you be home all day?",
+          "m": "Xác nhận bạn sẽ ở nhà cả ngày. Nêu bạn đang chờ một gói hàng quan trọng.",
+          "h": "Dùng 'Yes, I will be home all day.' và 'I am waiting for an important package.'",
+          "s": "Yes, I will be home all day. I am waiting for an important package."
+        },
+        {
+          "p": "Perfect. We will deliver on Tuesday. Is there a big box or a small box?",
+          "m": "Mô tả đó là một hộp nhỏ. Nêu nó có màu xanh.",
+          "h": "Dùng 'It is a small box.' và 'It is blue.'",
+          "s": "It is a small box. It is blue."
+        }
+      ]
+    },
+    {
+      "t": "Nhận hàng và kiểm tra",
+      "e": [
+        {
+          "p": "Hello, I have a package for you. Is this your name, [studentName]?",
+          "m": "Xác nhận đúng tên bạn. Nêu bạn đang vui vì gói hàng đã đến.",
+          "h": "Dùng 'Yes, that is my name.' và 'I am happy the package is here.'",
+          "s": "Yes, that is my name. I am happy the package is here."
+        },
+        {
+          "p": "Great. Please sign here. How is the package looking?",
+          "m": "Nêu gói hàng trông rất tốt. Nêu nó không bị hỏng.",
+          "h": "Dùng 'The package looks very good.' và 'It is not broken.'",
+          "s": "The package looks very good. It is not broken."
+        },
+        {
+          "p": "Good to hear. What is inside the package?",
+          "m": "Nêu bên trong là một cuốn sách. Nêu bạn cần cuốn sách này cho công việc.",
+          "h": "Dùng 'It is a book inside.' và 'I need this book for work.'",
+          "s": "It is a book inside. I need this book for work."
+        },
+        {
+          "p": "I hope you enjoy it! Is this the correct item you ordered?",
+          "m": "Xác nhận đây là mặt hàng đúng. Nêu bạn thích nó.",
+          "h": "Dùng 'Yes, this is the correct item.' và 'I like it.'",
+          "s": "Yes, this is the correct item. I like it."
+        },
+        {
+          "p": "Wonderful! Have a good day. Do you need anything else?",
+          "m": "Cảm ơn người giao hàng. Nêu bạn không cần gì khác.",
+          "h": "Dùng 'Thank you very much!' và 'I don't need anything else.'",
+          "s": "Thank you very much! I don't need anything else."
+        }
+      ]
+    },
+    {
+      "t": "Hỏi về lịch trình giao hàng",
+      "e": [
+        {
+          "p": "Hi there. I want to ask about my next delivery. When does it usually come?",
+          "m": "Hỏi thời gian giao hàng thường xuyên là khi nào. Nêu bạn thường ở nhà vào buổi sáng.",
+          "h": "Dùng 'When is the usual delivery time?' và 'I am often home in the morning.'",
+          "s": "When is the usual delivery time? I am often home in the morning."
+        },
+        {
+          "p": "We deliver to your area on Tuesdays and Fridays. Which day is better for you?",
+          "m": "Nêu thứ Ba tốt hơn. Nêu bạn bận vào thứ Sáu.",
+          "h": "Dùng 'Tuesday is better.' và 'I am busy on Friday.'",
+          "s": "Tuesday is better. I am busy on Friday."
+        },
+        {
+          "p": "Okay, we will try for Tuesday. How many packages are you expecting?",
+          "m": "Nêu bạn đang chờ hai gói hàng. Nêu một gói hàng rất quan trọng.",
+          "h": "Dùng 'I am expecting two packages.' và 'One package is very important.'",
+          "s": "I am expecting two packages. One package is very important."
+        },
+        {
+          "p": "I see. Are these packages big or small?",
+          "m": "Mô tả một gói hàng nhỏ và một gói hàng lớn. Nêu gói hàng lớn nặng.",
+          "h": "Dùng 'One is small, and one is big.' và 'The big package is heavy.'",
+          "s": "One is small, and one is big. The big package is heavy."
+        },
+        {
+          "p": "No problem. We can handle it. Do you often get deliveries to this address?",
+          "m": "Xác nhận bạn thường xuyên nhận giao hàng. Nêu bạn sống ở đây.",
+          "h": "Dùng 'Yes, I often get deliveries here.' và 'I live at this address.'",
+          "s": "Yes, I often get deliveries here. I live at this address."
+        }
+      ]
+    },
+    {
+      "t": "Mô tả gói hàng và địa điểm",
+      "e": [
+        {
+          "p": "Hello, I am looking for my package. It says 'delivered' but I don't see it.",
+          "m": "Nêu gói hàng là một hộp nhỏ. Nêu nó có màu đỏ.",
+          "h": "Dùng 'It is a small box.' và 'It is red.'",
+          "s": "It is a small box. It is red."
+        },
+        {
+          "p": "Okay. Where do you usually find your packages?",
+          "m": "Nêu bạn thường tìm thấy nó ở hiên nhà. Hỏi liệu nó có ở đó không.",
+          "h": "Dùng 'I usually find it on the porch.' và 'Is it there?'",
+          "s": "I usually find it on the porch. Is it there?"
+        },
+        {
+          "p": "I see. It is not on your porch. Is there a neighbor who often takes your packages?",
+          "m": "Xác nhận hàng xóm của bạn đôi khi nhận gói hàng. Nêu bạn sẽ hỏi họ.",
+          "h": "Dùng 'My neighbor sometimes takes packages.' và 'I will ask them.'",
+          "s": "My neighbor sometimes takes packages. I will ask them."
+        },
+        {
+          "p": "That's a good idea. What kind of item is inside this red box?",
+          "m": "Nêu bên trong là một món đồ chơi. Nêu nó là quà sinh nhật.",
+          "h": "Dùng 'It is a toy inside.' và 'It is a birthday gift.'",
+          "s": "It is a toy inside. It is a birthday gift."
+        },
+        {
+          "p": "I hope you find it quickly. Do you need more help with this lost package?",
+          "m": "Nêu bạn cần giúp đỡ. Nêu bạn muốn họ gọi lại cho bạn.",
+          "h": "Dùng 'Yes, I need help.' và 'I want you to call me back.'",
+          "s": "Yes, I need help. I want you to call me back."
+        }
+      ]
+    },
+    {
+      "t": "Xử lý giao hàng bị chậm",
+      "e": [
+        {
+          "p": "Good afternoon. How can I help you?",
+          "m": "Nêu gói hàng của bạn bị chậm. Nêu nó phải đến hôm qua.",
+          "h": "Dùng 'My package is late.' và 'It was supposed to come yesterday.'",
+          "s": "My package is late. It was supposed to come yesterday."
+        },
+        {
+          "p": "I apologize for that. What is your order number?",
+          "m": "Cung cấp số đơn hàng '11223'. Hỏi tại sao nó bị chậm.",
+          "h": "Dùng 'My order number is...' và 'Why is it late?'",
+          "s": "My order number is 11223. Why is it late?"
+        },
+        {
+          "p": "It seems there was a delay. We are very sorry. Do you need it today?",
+          "m": "Xác nhận bạn cần nó hôm nay. Nêu nó rất quan trọng.",
+          "h": "Dùng 'Yes, I need it today.' và 'It is very important.'",
+          "s": "Yes, I need it today. It is very important."
+        },
+        {
+          "p": "I understand. The driver is now on the way. When do you think it will arrive?",
+          "m": "Hỏi thời gian đến dự kiến là khi nào. Nêu bạn đang chờ ở nhà.",
+          "h": "Dùng 'When will it arrive?' và 'I am waiting at home.'",
+          "s": "When will it arrive? I am waiting at home."
+        },
+        {
+          "p": "It should be there within two hours. Are you happy with this update?",
+          "m": "Nêu bạn không hoàn toàn hài lòng. Nêu bạn hy vọng nó sẽ đến nhanh.",
+          "h": "Dùng 'I am not happy.' và 'I hope it comes fast.'",
+          "s": "I am not happy. I hope it comes fast."
+        }
+      ]
+    },
+    {
+      "t": "Báo cáo đơn hàng bị lỗi",
+      "e": [
+        {
+          "p": "Thank you for calling. What is the problem with your order?",
+          "m": "Nêu mặt hàng của bạn bị hỏng. Nêu nó không hoạt động.",
+          "h": "Dùng 'My item is broken.' và 'It does not work.'",
+          "s": "My item is broken. It does not work."
+        },
+        {
+          "p": "Oh no, I am sorry to hear that. What is the item?",
+          "m": "Nêu đó là một chiếc đồng hồ mới. Nêu mặt đồng hồ bị vỡ.",
+          "h": "Dùng 'It is a new watch.' và 'The watch face is broken.'",
+          "s": "It is a new watch. The watch face is broken."
+        },
+        {
+          "p": "We can send you a new one. Do you want a replacement?",
+          "m": "Xác nhận bạn muốn một chiếc mới. Nêu bạn cần nó nhanh.",
+          "h": "Dùng 'Yes, I want a new one.' và 'I need it fast.'",
+          "s": "Yes, I want a new one. I need it fast."
+        },
+        {
+          "p": "Okay. We will send a new watch. Do you want to return the old one?",
+          "m": "Xác nhận bạn muốn trả lại cái cũ. Hỏi quy trình như thế nào.",
+          "h": "Dùng 'Yes, I want to return the old one.' và 'How does it work?'",
+          "s": "Yes, I want to return the old one. How does it work?"
+        },
+        {
+          "p": "We will send a return label. Is this a good solution for you?",
+          "m": "Nêu đây là một giải pháp tốt. Nêu bạn cảm thấy tốt hơn bây giờ.",
+          "h": "Dùng 'This is a good solution.' và 'I feel better now.'",
+          "s": "This is a good solution. I feel better now."
+        }
+      ]
+    },
+    {
+      "t": "Liên hệ hỗ trợ về đơn hàng",
+      "e": [
+        {
+          "p": "Customer support. How can I help you today?",
+          "m": "Nêu bạn cần giúp đỡ với một đơn hàng. Nêu bạn không thể tìm thấy nó.",
+          "h": "Dùng 'I need help with an order.' và 'I cannot find it.'",
+          "s": "I need help with an order. I cannot find it."
+        },
+        {
+          "p": "I understand. What is your order number?",
+          "m": "Cung cấp số đơn hàng '44556'. Hỏi liệu họ có thể kiểm tra tài khoản của bạn không.",
+          "h": "Dùng 'My order number is...' và 'Can you check my account?'",
+          "s": "My order number is 44556. Can you check my account?"
+        },
+        {
+          "p": "Yes, I see it. It says your package is still in the warehouse. Are you seeing this?",
+          "m": "Nêu bạn không thấy điều đó. Nêu bạn cần cập nhật.",
+          "h": "Dùng 'No, I am not seeing that.' và 'I need an update.'",
+          "s": "No, I am not seeing that. I need an update."
+        },
+        {
+          "p": "I will update the system. Do you want me to send you an email with the status?",
+          "m": "Xác nhận bạn muốn nhận email. Nêu bạn muốn theo dõi nó thường xuyên.",
+          "h": "Dùng 'Yes, I want an email.' và 'I want to track it often.'",
+          "s": "Yes, I want an email. I want to track it often."
+        },
+        {
+          "p": "Okay. I am sending it now. Is there anything else I can help you with?",
+          "m": "Cảm ơn sự giúp đỡ. Nêu bạn không cần gì khác.",
+          "h": "Dùng 'Thank you for your help.' và 'I don't need anything else.'",
+          "s": "Thank you for your help. I don't need anything else."
+        }
+      ]
+    },
+    {
+      "t": "Giải quyết đơn hàng không đúng",
+      "e": [
+        {
+          "p": "Hello, this is about your recent delivery. Is everything okay?",
+          "m": "Nêu bạn nhận được mặt hàng sai. Nêu nó không phải của bạn.",
+          "h": "Dùng 'I received the wrong item.' và 'It is not mine.'",
+          "s": "I received the wrong item. It is not mine."
+        },
+        {
+          "p": "I am sorry to hear that. What item did you receive?",
+          "m": "Mô tả bạn nhận được một chiếc áo sơ mi màu xanh. Nêu bạn đã đặt một chiếc váy màu đỏ.",
+          "h": "Dùng 'I received a blue shirt.' và 'I ordered a red dress.'",
+          "s": "I received a blue shirt. I ordered a red dress."
+        },
+        {
+          "p": "I see the mistake. We will send the correct dress. Do you want to return the shirt?",
+          "m": "Xác nhận bạn muốn trả lại chiếc áo sơ mi. Nêu bạn cần một nhãn trả hàng.",
+          "h": "Dùng 'Yes, I want to return the shirt.' và 'I need a return label.'",
+          "s": "Yes, I want to return the shirt. I need a return label."
+        },
+        {
+          "p": "We will email you the label. When would you like to receive the correct dress?",
+          "m": "Nêu bạn muốn nhận nó vào thứ Sáu tuần tới. Nêu bạn bận vào cuối tuần.",
+          "h": "Dùng 'I want it next Friday.' và 'I am busy on the weekend.'",
+          "s": "I want it next Friday. I am busy on the weekend."
+        },
+        {
+          "p": "We can arrange that. Are you satisfied with this solution?",
+          "m": "Nêu bạn hài lòng với giải pháp. Nêu bạn hy vọng chiếc váy sẽ đẹp.",
+          "h": "Dùng 'Yes, I am happy with this solution.' và 'I hope the dress is good.'",
+          "s": "Yes, I am happy with this solution. I hope the dress is good."
+        }
+      ]
+    },
+    {
+      "t": "Thảo luận về các lần giao hàng",
+      "e": [
+        {
+          "p": "Hello, I am checking my deliveries for today. Are there many coming?",
+          "m": "Nêu bạn đang đợi hai gói hàng. Nêu bạn cần chúng sớm.",
+          "h": "Dùng 'I am waiting for two packages.' và 'I need them soon.'",
+          "s": "I am waiting for two packages. I need them soon."
+        },
+        {
+          "p": "Yes, I see two packages for your address. Are they big packages?",
+          "m": "Mô tả một cái nhỏ và một cái lớn. Nêu cái lớn chứa đồ gia dụng.",
+          "h": "Dùng 'One is small, and one is big.' và 'The big one has home items.'",
+          "s": "One is small, and one is big. The big one has home items."
+        },
+        {
+          "p": "Okay. Will they arrive at the same time, or separately?",
+          "m": "Hỏi liệu chúng có đến cùng lúc không. Nêu bạn đang ở nhà cả ngày.",
+          "h": "Dùng 'Will they come at the same time?' và 'I am home all day.'",
+          "s": "Will they come at the same time? I am home all day."
+        },
+        {
+          "p": "They usually arrive together. Do you need to sign for them?",
+          "m": "Nêu bạn sẵn lòng ký tên. Nêu bạn luôn ký nhận gói hàng.",
+          "h": "Dùng 'Yes, I can sign.' và 'I always sign for packages.'",
+          "s": "Yes, I can sign. I always sign for packages."
+        },
+        {
+          "p": "Thank you. Is there a specific place you want the driver to leave them?",
+          "m": "Nêu bạn muốn họ để ở cửa trước. Nêu đó là nơi an toàn.",
+          "h": "Dùng 'I want them at the front door.' và 'It is a safe place.'",
+          "s": "I want them at the front door. It is a safe place."
+        }
+      ]
+    },
+    {
+      "t": "Phản hồi về dịch vụ giao hàng",
+      "e": [
+        {
+          "p": "Hello, this is customer feedback. How was your recent delivery?",
+          "m": "Nêu bạn có phản hồi. Nêu bạn muốn nói về dịch vụ giao hàng.",
+          "h": "Dùng 'I have feedback.' và 'I want to talk about the delivery service.'",
+          "s": "I have feedback. I want to talk about the delivery service."
+        },
+        {
+          "p": "Please tell me. Was the delivery fast or slow?",
+          "m": "Nêu giao hàng rất nhanh. Nêu bạn rất vui.",
+          "h": "Dùng 'The delivery was very fast.' và 'I am very happy.'",
+          "s": "The delivery was very fast. I am very happy."
+        },
+        {
+          "p": "That's great to hear! Was the package in good condition?",
+          "m": "Xác nhận gói hàng trong tình trạng tốt. Nêu người giao hàng rất tốt bụng.",
+          "h": "Dùng 'Yes, the package was good.' và 'The delivery person was very kind.'",
+          "s": "Yes, the package was good. The delivery person was very kind."
+        },
+        {
+          "p": "Wonderful. Do you have any suggestions for improvement?",
+          "m": "Nêu bạn không có gợi ý cải thiện. Nêu dịch vụ đã tốt rồi.",
+          "h": "Dùng 'No, I don't have suggestions.' và 'The service is already good.'",
+          "s": "No, I don't have suggestions. The service is already good."
+        },
+        {
+          "p": "Thank you for your valuable feedback! Do you often use our service?",
+          "m": "Xác nhận bạn thường xuyên sử dụng dịch vụ. Nêu bạn thích sự tiện lợi của nó.",
+          "h": "Dùng 'Yes, I often use your service.' và 'I like its convenience.'",
+          "s": "Yes, I often use your service. I like its convenience."
+        }
+      ]
+    },
+    {
+      "t": "Ôn tập: Tình huống đơn hàng chung",
+      "e": [
+        {
+          "p": "Good morning! Are you calling about an order?",
+          "m": "Xác nhận bạn đang gọi về một đơn hàng. Nêu bạn cần kiểm tra trạng thái của nó.",
+          "h": "Dùng 'Yes, I am calling about an order.' và 'I need to check its status.'",
+          "s": "Yes, I am calling about an order. I need to check its status."
+        },
+        {
+          "p": "What is your order number, please?",
+          "m": "Cung cấp số đơn hàng '99887'. Hỏi liệu nó có đến hôm nay không.",
+          "h": "Dùng 'My order number is...' và 'Is it coming today?'",
+          "s": "My order number is 99887. Is it coming today?"
+        },
+        {
+          "p": "It is scheduled for delivery this afternoon. Will you be home?",
+          "m": "Xác nhận bạn sẽ ở nhà. Nêu bạn đang chờ một gói hàng lớn.",
+          "h": "Dùng 'Yes, I will be home.' và 'I am waiting for a big package.'",
+          "s": "Yes, I will be home. I am waiting for a big package."
+        },
+        {
+          "p": "Okay. And is your address [studentCity] Street?",
+          "m": "Xác nhận địa chỉ của bạn là đúng. Nêu bạn thường xuyên nhận gói hàng ở đó.",
+          "h": "Dùng 'Yes, that is my address.' và 'I often get packages there.'",
+          "s": "Yes, that is my address. I often get packages there."
+        },
+        {
+          "p": "Perfect. The driver will be there soon. Do you like this fast service?",
+          "m": "Nêu bạn thích dịch vụ nhanh. Nêu bạn rất vui về điều đó.",
+          "h": "Dùng 'Yes, I like fast service.' và 'I am very happy about it.'",
+          "s": "Yes, I like fast service. I am very happy about it."
+        }
+      ]
+    },
+    {
+      "t": "Ôn tập: Xử lý vấn đề giao hàng",
+      "e": [
+        {
+          "p": "Hello, how can I assist you with your delivery?",
+          "m": "Nêu bạn có một vấn đề. Nêu gói hàng của bạn bị hỏng.",
+          "h": "Dùng 'I have a problem.' và 'My package is broken.'",
+          "s": "I have a problem. My package is broken."
+        },
+        {
+          "p": "Oh dear. What is the order number for this package?",
+          "m": "Cung cấp số đơn hàng '33221'. Nêu nó là một món đồ chơi.",
+          "h": "Dùng 'The order number is...' và 'It is a toy.'",
+          "s": "The order number is 33221. It is a toy."
+        },
+        {
+          "p": "I see. We can send a new toy. Do you want a replacement?",
+          "m": "Xác nhận bạn muốn một cái mới. Nêu bạn cần nó cho sinh nhật.",
+          "h": "Dùng 'Yes, I want a new one.' và 'I need it for a birthday.'",
+          "s": "Yes, I want a new one. I need it for a birthday."
+        },
+        {
+          "p": "We will process that for you. Is there a good day next week for delivery?",
+          "m": "Nêu thứ Năm tuần sau là ngày tốt. Nêu bạn sẽ ở nhà.",
+          "h": "Dùng 'Next Thursday is a good day.' và 'I will be home.'",
+          "s": "Next Thursday is a good day. I will be home."
+        },
+        {
+          "p": "Excellent. We will send the new toy next Thursday. Are you happy now?",
+          "m": "Xác nhận bạn hạnh phúc. Nêu bạn cảm ơn vì sự giúp đỡ.",
+          "h": "Dùng 'Yes, I am happy.' và 'Thank you for your help.'",
+          "s": "Yes, I am happy. Thank you for your help."
+        }
+      ]
+    },
+    {
+      "t": "Ôn tập: Thói quen mua sắm & phản hồi",
+      "e": [
+        {
+          "p": "Hi, we are gathering feedback on our delivery service. Do you often shop online?",
+          "m": "Xác nhận bạn thường xuyên mua sắm trực tuyến. Nêu bạn thích nó.",
+          "h": "Dùng 'Yes, I often shop online.' và 'I like it.'",
+          "s": "Yes, I often shop online. I like it."
+        },
+        {
+          "p": "That's great! How was your last delivery experience?",
+          "m": "Nêu trải nghiệm rất tốt. Nêu người giao hàng rất thân thiện.",
+          "h": "Dùng 'My last experience was very good.' và 'The delivery person was very friendly.'",
+          "s": "My last experience was very good. The delivery person was very friendly."
+        },
+        {
+          "p": "We are happy to hear that! Did you receive the correct items?",
+          "m": "Xác nhận bạn nhận được các mặt hàng đúng. Nêu tất cả đều tốt.",
+          "h": "Dùng 'Yes, I received the correct items.' và 'Everything was good.'",
+          "s": "Yes, I received the correct items. Everything was good."
+        },
+        {
+          "p": "Fantastic! Do you have any suggestions for our service?",
+          "m": "Nêu bạn có một gợi ý nhỏ. Nêu bạn muốn nhận email cập nhật thường xuyên hơn.",
+          "h": "Dùng 'I have a small suggestion.' và 'I want more frequent email updates.'",
+          "s": "I have a small suggestion. I want more frequent email updates."
+        },
+        {
+          "p": "Thank you for that feedback! We appreciate it. Will you use our service again soon?",
+          "m": "Xác nhận bạn sẽ sử dụng lại dịch vụ. Nêu bạn cần một gói hàng khác vào tuần tới.",
+          "h": "Dùng 'Yes, I will use your service again.' và 'I need another package next week.'",
+          "s": "Yes, I will use your service again. I need another package next week."
+        }
+      ]
+    }
+  ]
+}

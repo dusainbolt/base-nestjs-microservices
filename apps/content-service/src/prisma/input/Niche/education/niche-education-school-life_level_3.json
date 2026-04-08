@@ -1,0 +1,530 @@
+{
+  "l": 3,
+  "d": [
+    {
+      "t": "Gặp bạn cùng lớp",
+      "e": [
+        {
+          "p": "What's your name?",
+          "m": "1. Nói tên của bạn. 2. Nói lớp hoặc khối bạn đang học.",
+          "h": "My name is... / I am in grade ...",
+          "s": "My name is [studentName]. I am in grade 10 at [studentSchool]."
+        },
+        {
+          "p": "How old are you?",
+          "m": "1. Nói tuổi. 2. Nói cảm xúc ngắn về việc học ở tuổi này.",
+          "h": "I am ... years old. + I feel ...",
+          "s": "I am [studentAge] years old. I feel excited about learning new things."
+        },
+        {
+          "p": "Which class are you in this year?",
+          "m": "1. Nói lớp/khối. 2. Nói môn bạn thích nhất trong lớp này.",
+          "h": "I am in ... / My favorite subject is ...",
+          "s": "I am in grade 10. My favorite subject is English."
+        },
+        {
+          "p": "Where are you from?",
+          "m": "1. Nói thành phố/nơi bạn sống. 2. Nói bạn đã sống ở đó bao lâu (ngắn).",
+          "h": "I live in ... / I have lived here for ...",
+          "s": "I live in [studentCity]. I have lived here for five years."
+        },
+        {
+          "p": "Tell me about your morning at school yesterday.",
+          "m": "1. Nói giờ bạn đến trường. 2. Nói bạn làm gì đầu tiên. 3. Nói một tiết học bạn thích (Past Simple).",
+          "h": "Use Past Simple: I arrived..., I went..., I liked...",
+          "s": "I arrived at school at 7:30. I met my friends and went to homeroom. I liked the science class."
+        }
+      ]
+    },
+    {
+      "t": "Lịch học hôm nay",
+      "e": [
+        {
+          "p": "What subjects do you have today?",
+          "m": "1. Liệt kê 2 môn bạn có hôm nay. 2. Nói môn bạn mong chờ nhất.",
+          "h": "Present Simple: I have ... and ... / I look forward to ...",
+          "s": "I have math and English today. I am looking forward to English class."
+        },
+        {
+          "p": "When does your first lesson start?",
+          "m": "1. Nói giờ bắt đầu tiết đầu. 2. Nói bạn thường làm gì trước khi vào lớp.",
+          "h": "Use Present Simple: It starts at... / I usually...",
+          "s": "The first lesson starts at 8:00. I usually chat with friends before class."
+        },
+        {
+          "p": "Are you studying for any test this week?",
+          "m": "1. Nói nếu bạn đang ôn. 2. Nói môn nào và một hoạt động ôn tập bạn làm (Present Continuous or Present Simple).",
+          "h": "I am studying / I study ... and I ...",
+          "s": "Yes, I am studying for a math test this week. I am practicing problems and reviewing notes."
+        },
+        {
+          "p": "Do you have a free period today?",
+          "m": "1. Trả lời có/không. 2. Nếu có, nói bạn sẽ làm gì trong giờ rảnh (future or present).",
+          "h": "I have / I will + V / I usually ...",
+          "s": "Yes, I have a free period after lunch. I will do my homework during that time."
+        },
+        {
+          "p": "Which lesson is harder for you and why?",
+          "m": "1. Nói môn học khó nhất. 2. Giải thích lý do ngắn (2 nguyên nhân tối đa).",
+          "h": "Use comparatives or because: ... is harder than ... / because ...",
+          "s": "Math is harder for me than history because there are many new formulas. I also need more practice."
+        }
+      ]
+    },
+    {
+      "t": "Môn học yêu thích",
+      "e": [
+        {
+          "p": "What's your favorite subject?",
+          "m": "1. Nói môn học yêu thích. 2. Nói một lý do ngắn vì sao.",
+          "h": "I like ... because ...",
+          "s": "My favorite subject is English because I enjoy reading and speaking."
+        },
+        {
+          "p": "Who is your favorite teacher?",
+          "m": "1. Nói tên (hoặc vị trí) giáo viên. 2. Nói một đặc điểm bạn thích ở họ.",
+          "h": "Use Present Simple: He/She is ... / He/She helps ...",
+          "s": "My favorite teacher is my English teacher. She explains lessons clearly and is patient."
+        },
+        {
+          "p": "Do you study this subject at home?",
+          "m": "1. Trả lời có/không. 2. Nói bạn làm gì để cải thiện (2 hoạt động).",
+          "h": "I study / I practice by ... and ...",
+          "s": "Yes, I study English at home. I read short stories and practice vocabulary every day."
+        },
+        {
+          "p": "Is this subject more interesting than others?",
+          "m": "1. So sánh với một môn khác. 2. Nói lý do ngắn vì sao (comparative).",
+          "h": "Use comparatives: more ... than ... / because ...",
+          "s": "English is more interesting than math for me because it has stories and speaking practice."
+        },
+        {
+          "p": "What will you do to get better in that subject?",
+          "m": "1. Nói một kế hoạch cụ thể (will/going to). 2. Nói một thói quen bạn nên làm (should).",
+          "h": "Use will/going to and should: I will ... / I should ...",
+          "s": "I will study vocabulary every evening. I should practice speaking with classmates."
+        }
+      ]
+    },
+    {
+      "t": "Giờ ra chơi và bạn bè",
+      "e": [
+        {
+          "p": "What do you do during break?",
+          "m": "1. Nói hoạt động bạn thường làm. 2. Nói với ai bạn thường ở cùng.",
+          "h": "Present Simple: I usually ... with ...",
+          "s": "I usually chat with my friends during break. I stay with two classmates from my class."
+        },
+        {
+          "p": "Did you play any games at break yesterday?",
+          "m": "1. Trả lời có/không. 2. Nói tên trò chơi và với ai (Past Simple).",
+          "h": "Use Past Simple: I played ... with ...",
+          "s": "Yes, I played basketball with my friends yesterday. We had fun for ten minutes."
+        },
+        {
+          "p": "Are you making new friends this term?",
+          "m": "1. Trả lời có/không. 2. Nói ngắn cách bạn làm quen (Present Continuous or Present Simple).",
+          "h": "I am meeting / I meet ... by ...",
+          "s": "Yes, I am making new friends this term. I talk to classmates in group work."
+        },
+        {
+          "p": "Why is break important for students?",
+          "m": "1. Nói một lý do liên quan sức khỏe. 2. Nói một lý do liên quan học tập (2 câu).",
+          "h": "Because ... / It helps ...",
+          "s": "Break is important because it gives our brains a rest. It also helps us focus better in the next class."
+        },
+        {
+          "p": "If a friend is upset at school, what will you do?",
+          "m": "1. Nói một hành động bạn sẽ làm ngay (will). 2. Nói một lời khuyên ngắn cho bạn đó (should).",
+          "h": "Use will + V and should + V: I will ... / They should ...",
+          "s": "I will talk to my friend and ask what happened. I will tell them they should take a deep breath and rest."
+        }
+      ]
+    },
+    {
+      "t": "Hoạt động ngoại khóa",
+      "e": [
+        {
+          "p": "Do you join any clubs at school?",
+          "m": "1. Trả lời có/không. 2. Nói tên câu lạc bộ nếu có và một hoạt động họ làm.",
+          "h": "I join ... / We ...",
+          "s": "Yes, I join the drama club. We practice short plays after school."
+        },
+        {
+          "p": "When is the club meeting usually?",
+          "m": "1. Nói ngày/giờ họp. 2. Nói tần suất (how often).",
+          "h": "Use Present Simple: It meets on ... / We meet ...",
+          "s": "The club meets on Wednesdays after school. We meet once a week."
+        },
+        {
+          "p": "Are you going to join a new activity next term?",
+          "m": "1. Nói kế hoạch có tham gia hay không (going to). 2. Nói hoạt động bạn muốn tham gia và lý do (1 lý do).",
+          "h": "I am going to ... because ...",
+          "s": "I am going to join the music club next term because I want to learn the guitar."
+        },
+        {
+          "p": "How did you feel at your last club activity?",
+          "m": "1. Nói cảm xúc (Past Simple). 2. Nói một việc bạn đã làm ở đó.",
+          "h": "I felt ... / I helped ...",
+          "s": "I felt excited at the last activity. I helped prepare the stage for a small show."
+        },
+        {
+          "p": "Why are extracurricular activities important?",
+          "m": "1. Nêu một lợi ích cho kỹ năng. 2. Nêu một lợi ích cho kết nối bạn bè (2 câu).",
+          "h": "They help you ... / They also ...",
+          "s": "Extracurricular activities help you improve skills like teamwork. They also help you make new friends."
+        }
+      ]
+    },
+    {
+      "t": "Bài tập về nhà",
+      "e": [
+        {
+          "p": "Do you have homework tonight?",
+          "m": "1. Trả lời có/không. 2. Nói môn và thời gian bạn dự định làm (present/future).",
+          "h": "I have ... / I will do it at ...",
+          "s": "Yes, I have homework tonight for math. I will do it at 7:00 pm."
+        },
+        {
+          "p": "How long does your homework usually take?",
+          "m": "1. Nói khoảng thời gian. 2. Nói một mẹo bạn dùng để hoàn thành nhanh hơn.",
+          "h": "It takes about ... / I ... to finish faster",
+          "s": "It usually takes about one hour. I focus and turn off my phone to finish faster."
+        },
+        {
+          "p": "You forgot your book at school. What must you do?",
+          "m": "1. Nói một hành động bạn phải làm ngay (must/have to). 2. Nói cách tránh lặp lại lỗi đó.",
+          "h": "I must/have to ... / I will ... to avoid it",
+          "s": "I must call a friend to bring the book or go back for it. I will pack my bag the night before to avoid this."
+        },
+        {
+          "p": "Do you prefer doing homework alone or in a group?",
+          "m": "1. Nói sở thích của bạn. 2. Nói một lý do ngắn cho lựa chọn (comparative if dùng).",
+          "h": "I prefer ... because ... / ... is better than ...",
+          "s": "I prefer doing homework alone because I can focus better. It is faster than working in a noisy group."
+        },
+        {
+          "p": "If you are tired, what should you do before studying?",
+          "m": "1. Nói một việc bạn nên làm ngay (should). 2. Nói một lợi ích của việc đó (1 câu).",
+          "h": "You should ... / It helps ...",
+          "s": "You should take a short rest or a 15-minute nap. It helps you concentrate when you study."
+        }
+      ]
+    },
+    {
+      "t": "Ôn thi và kết quả",
+      "e": [
+        {
+          "p": "How did you do on your last exam?",
+          "m": "1. Nói điểm hoặc kết quả ngắn (Past Simple). 2. Nói cảm xúc của bạn về kết quả.",
+          "h": "I scored ... / I felt ...",
+          "s": "I got a good grade on my last exam. I felt proud and relieved."
+        },
+        {
+          "p": "What did you study before the exam?",
+          "m": "1. Nói hai việc bạn làm để ôn (Past Simple). 2. Nói cái nào hữu ích nhất.",
+          "h": "Use Past Simple: I reviewed ... and I practiced ...",
+          "s": "I reviewed my notes and practiced past papers. Practicing papers was the most helpful."
+        },
+        {
+          "p": "Will you change your study plan for the next exam?",
+          "m": "1. Nói có/không (will). 2. Nói một thay đổi cụ thể bạn sẽ làm.",
+          "h": "I will ... / I plan to ...",
+          "s": "Yes, I will change my study plan. I will study a little every day instead of cramming."
+        },
+        {
+          "p": "If a friend failed the test, what would you tell them?",
+          "m": "1. Nói một lời an ủi ngắn. 2. Nói một lời khuyên để làm tốt hơn (should).",
+          "h": "Use simple comforting + should: You should ...",
+          "s": "Don't worry, you can improve next time. You should practice more and ask the teacher for help."
+        },
+        {
+          "p": "Describe one thing you must do before exams to feel ready.",
+          "m": "1. Nói một điều bạn phải làm (must/have to). 2. Nói lý do tại sao nó quan trọng (1 câu).",
+          "h": "I must/have to ... / Because ...",
+          "s": "I must organize my notes and make a study plan. Because it helps me study without stress."
+        }
+      ]
+    },
+    {
+      "t": "Gặp thầy cô",
+      "e": [
+        {
+          "p": "Can I talk to you after class?",
+          "m": "1. Trả lời có/không. 2. Nói lý do ngắn bạn cần nói chuyện.",
+          "h": "Yes, I can / I need to talk about ...",
+          "s": "Yes, you can talk to me after class. I need to ask about the homework."
+        },
+        {
+          "p": "The teacher gave me extra work. What should I do?",
+          "m": "1. Nói một hành động bạn nên làm (should). 2. Nói khi bạn sẽ làm nó.",
+          "h": "You should ... / I will ...",
+          "s": "You should start the extra work soon. I will do it this evening."
+        },
+        {
+          "p": "How does your teacher help you in class?",
+          "m": "1. Nói hai cách giáo viên giúp bạn (present simple).",
+          "h": "Use Present Simple: He/She explains... and gives ...",
+          "s": "My teacher explains difficult ideas clearly. She gives extra exercises for practice."
+        },
+        {
+          "p": "Do teachers give more homework than before?",
+          "m": "1. So sánh hiện tại và trước đây (comparative). 2. Nói một lý do ngắn nếu có.",
+          "h": "Use comparative: Teachers give more ... than before because ...",
+          "s": "Teachers give more homework now than before because the curriculum is busy. Students need more practice."
+        },
+        {
+          "p": "If you disagree with a grade, what must you do?",
+          "m": "1. Nói một hành động bạn phải làm (must). 2. Nói cách nói lịch sự với giáo viên (1 câu).",
+          "h": "I must ... / I will say ... politely",
+          "s": "I must talk to the teacher about the grade. I will ask politely and show my work."
+        }
+      ]
+    },
+    {
+      "t": "Ăn trưa ở căng tin",
+      "e": [
+        {
+          "p": "What do you usually eat for lunch at school?",
+          "m": "1. Nói món bạn thường ăn. 2. Nói nếu nó healthy or not (short).",
+          "h": "I usually eat ... / It is ...",
+          "s": "I usually eat rice and vegetables for lunch. It is healthy and filling."
+        },
+        {
+          "p": "Is the school meal cheaper than outside food?",
+          "m": "1. So sánh giá (cheaper/more expensive). 2. Nói một lý do ngắn cho lựa chọn.",
+          "h": "Use comparatives: cheaper than ... because ...",
+          "s": "The school meal is cheaper than restaurant food because the canteen sells at low price."
+        },
+        {
+          "p": "Did you try a new dish last week?",
+          "m": "1. Trả lời có/không (Past Simple). 2. Nói tên món và cảm nhận ngắn.",
+          "h": "I tried ... / It tasted ...",
+          "s": "Yes, I tried a new noodle dish last week. It tasted a bit spicy but good."
+        },
+        {
+          "p": "Who do you eat with at lunch?",
+          "m": "1. Nói bạn ngồi với ai. 2. Nói một hoạt động bạn làm cùng họ (talk, study...).",
+          "h": "I eat with ... / We ...",
+          "s": "I eat with my friends from class. We talk about school and plan group work."
+        },
+        {
+          "p": "If the food is bad, what will you do?",
+          "m": "1. Nói hành động bạn sẽ làm ngay (will). 2. Nói một cách lịch sự để phản ánh vấn đề.",
+          "h": "I will ... / I will say ... politely",
+          "s": "I will not eat it and will tell the canteen staff politely. I will ask if there is another option."
+        }
+      ]
+    },
+    {
+      "t": "Đi học hàng ngày",
+      "e": [
+        {
+          "p": "How do you go to school every day?",
+          "m": "1. Nói phương tiện di chuyển. 2. Nói thời gian đi mất khoảng bao lâu.",
+          "h": "I go by ... / It takes ...",
+          "s": "I go to school by bus. It takes about 30 minutes."
+        },
+        {
+          "p": "Do you walk to school sometimes?",
+          "m": "1. Trả lời có/không. 2. Nói khi nào bạn đi bộ (ví dụ: weather) and one benefit.",
+          "h": "I walk when ... / It is good because ...",
+          "s": "Yes, I walk to school sometimes when the weather is sunny. It is good exercise."
+        },
+        {
+          "p": "Were you late for school yesterday?",
+          "m": "1. Trả lời có/không (Past Simple). 2. Nói lý do ngắn nếu bạn trễ.",
+          "h": "I was late because ...",
+          "s": "No, I wasn't late yesterday. I left home early and arrived on time."
+        },
+        {
+          "p": "Which way is more comfortable, bus or bike?",
+          "m": "1. Chọn 1 phương tiện. 2. Nói lý do ngắn dùng comparative.",
+          "h": "Use comparatives: ... is more comfortable than ... because ...",
+          "s": "The bus is more comfortable than biking because I can sit and rest."
+        },
+        {
+          "p": "If it rains tomorrow, what will you do to go to school?",
+          "m": "1. Nói kế hoạch bạn sẽ làm (will). 2. Nói vật bạn cần mang theo.",
+          "h": "I will ... / I will bring ...",
+          "s": "If it rains tomorrow, I will take the bus instead of walking. I will bring an umbrella."
+        }
+      ]
+    },
+    {
+      "t": "Dự án nhóm",
+      "e": [
+        {
+          "p": "Who is in your project group?",
+          "m": "1. Nói số lượng hoặc tên chung (ví dụ: friends). 2. Nói vai trò của bạn ngắn (I am the ...).",
+          "h": "We are ... / I am the ...",
+          "s": "There are four students in my project group. I am the presenter."
+        },
+        {
+          "p": "When is your project deadline?",
+          "m": "1. Nói ngày/tuần hạn. 2. Nói bạn sẽ làm gì trước hạn (2 hoạt động).",
+          "h": "The deadline is ... / We will ... and ...",
+          "s": "The project deadline is next Friday. We will finish the research and practice our presentation."
+        },
+        {
+          "p": "Do you have to meet after school?",
+          "m": "1. Trả lời có/không. 2. Nói thời gian hoặc tần suất gặp nhóm (have to/should).",
+          "h": "We have to ... / We meet ...",
+          "s": "Yes, we have to meet after school twice a week. We meet on Mondays and Thursdays."
+        },
+        {
+          "p": "One member didn't do their part. How should the group handle it?",
+          "m": "1. Nêu một hành động nhóm nên làm (should). 2. Nói một giải pháp ngắn để hoàn thành kịp hạn.",
+          "h": "We should ... / We can ...",
+          "s": "We should talk to the member and ask why they didn't do it. We can divide the work and finish it together."
+        },
+        {
+          "p": "Describe a final step before you submit the project.",
+          "m": "1. Nói một bước cụ thể (compound sentence). 2. Nói lý do vì sao bước đó cần thiết.",
+          "h": "Use compound sentence with and/but/because: We will ... and ... because ...",
+          "s": "We will check the whole report and practice the presentation because it helps avoid mistakes."
+        }
+      ]
+    },
+    {
+      "t": "So sánh trường học",
+      "e": [
+        {
+          "p": "Is your current school bigger than your old school?",
+          "m": "1. Trả lời so sánh (bigger/smaller). 2. Nói một khác biệt ngắn về cơ sở vật chất.",
+          "h": "Use comparative: ... is bigger than ... / It has ...",
+          "s": "Yes, my current school is bigger than my old school. It has more classrooms and a larger library."
+        },
+        {
+          "p": "Which school had better sports facilities?",
+          "m": "1. Chọn trường và so sánh (better). 2. Nói một ví dụ về facility.",
+          "h": "Use better than: ... had better ... than ...",
+          "s": "My current school has better sports facilities than my old school. For example, we have a new football field."
+        },
+        {
+          "p": "Did you like the teachers at your previous school more?",
+          "m": "1. Trả lời có/không (Past Simple/Comparative). 2. Nói lý do ngắn nếu có.",
+          "h": "Use: I liked ... more because ...",
+          "s": "No, I don't like them more. My current teachers are more helpful with homework."
+        },
+        {
+          "p": "Which school is more comfortable for studying and why?",
+          "m": "1. Chọn trường. 2. Nói hai lý do ngắn (comparatives if phù hợp).",
+          "h": "Use comparisons: ... is more comfortable because ... and ...",
+          "s": "My current school is more comfortable for studying because the classrooms are quieter and the library is bigger."
+        },
+        {
+          "p": "If you could change one thing at school, what would it be?",
+          "m": "1. Nói một điều bạn muốn thay đổi (will/going to). 2. Nói lý do ngắn cho thay đổi đó.",
+          "h": "I will / I am going to ... because ...",
+          "s": "I will ask the school to add more computers in the lab because we need them for projects."
+        }
+      ]
+    },
+    {
+      "t": "Ôn tập: Ngày học điển hình",
+      "e": [
+        {
+          "p": "Describe a typical school day for you.",
+          "m": "1. Nói thời gian bắt đầu và kết thúc. 2. Nói hai hoạt động chính trong ngày (2 câu).",
+          "h": "Use Present Simple: It starts at... / I ... and I ...",
+          "s": "My school day starts at 8:00 and ends at 3:30. I attend six lessons and study in the library after school."
+        },
+        {
+          "p": "Which subject do you study most days and why?",
+          "m": "1. Nói môn học. 2. Nói lý do ngắn (because).",
+          "h": "I study ... because ...",
+          "s": "I study English most days because we have homework and class practice every day."
+        },
+        {
+          "p": "What did you do differently at school last term?",
+          "m": "1. Nói một thay đổi (Past Simple). 2. Nói kết quả ngắn của thay đổi đó.",
+          "h": "Use Past Simple: I started ... and ...",
+          "s": "Last term I started joining the science club. I improved my project skills."
+        },
+        {
+          "p": "If tomorrow is a sports day, what will you prepare?",
+          "m": "1. Nói một việc bạn sẽ làm (will). 2. Nói một đồ dùng bạn sẽ mang theo.",
+          "h": "I will ... / I will bring ...",
+          "s": "I will warm up before the events. I will bring sports shoes and a water bottle."
+        },
+        {
+          "p": "How do you balance study and rest during the week?",
+          "m": "1. Nói hai thói quen bạn làm để cân bằng (2 câu).",
+          "h": "Use Present Simple: I ... and I ...",
+          "s": "I study for two hours each evening and I take short breaks. I also sleep early on weekdays."
+        }
+      ]
+    },
+    {
+      "t": "Ôn tập: Vấn đề ở trường",
+      "e": [
+        {
+          "p": "I lost my notebook. What should I do?",
+          "m": "1. Nói một hành động bạn nên làm ngay (should). 2. Nói một cách phòng tránh sau này.",
+          "h": "You should ... / I will ... to avoid it",
+          "s": "You should check lost-and-found and ask friends. I will label my notebook to avoid losing it."
+        },
+        {
+          "p": "I am sick and can't go to school. How do I tell my teacher?",
+          "m": "1. Viết một câu ngắn thông báo lý do (Present Simple or Past Simple). 2. Nói khi bạn will return or how you'll catch up.",
+          "h": "I am sick / I will return ... / I will catch up by ...",
+          "s": "I am sick and cannot come to school today. I will return when I feel better and I will ask for the lesson notes."
+        },
+        {
+          "p": "My classmate was late twice. What must the teacher do?",
+          "m": "1. Nói một hành động giáo viên phải làm (must). 2. Nói một hình phạt nhẹ hoặc lời khuyên cho học sinh.",
+          "h": "The teacher must ... / The student should ...",
+          "s": "The teacher must talk to the student about punctuality. The student should arrive earlier and plan travel time."
+        },
+        {
+          "p": "Someone copied your homework. How will you react?",
+          "m": "1. Nói một hành động bạn will làm ngay. 2. Nói một lời giải thích ngắn cho giáo viên (compound sentence).",
+          "h": "I will ... and I will tell ... because ...",
+          "s": "I will tell the teacher about the copied work. I will explain what happened and ask for advice because it is unfair."
+        },
+        {
+          "p": "There is a noisy class next door during your test. What should you ask the staff?",
+          "m": "1. Nói một yêu cầu lịch sự bạn should make. 2. Nói mục đích yêu cầu (1 câu).",
+          "h": "You should ask politely: Could you ...? / Because ...",
+          "s": "You should ask the staff politely to reduce the noise during the test. Because we need a quiet place to concentrate."
+        }
+      ]
+    },
+    {
+      "t": "Ôn tập: Kế hoạch tương lai liên quan trường",
+      "e": [
+        {
+          "p": "What are you going to study next year at school?",
+          "m": "1. Nói môn hoặc hướng chuyên ngành bạn định học (going to). 2. Nói lý do ngắn cho lựa chọn.",
+          "h": "I am going to study ... because ...",
+          "s": "I am going to study more science subjects next year because I want to prepare for a science fair."
+        },
+        {
+          "p": "Will you apply for a school exchange program?",
+          "m": "1. Trả lời có/không (will). 2. Nói một lợi ích bạn hy vọng (1 câu).",
+          "h": "I will / I will not ... / It will help me ...",
+          "s": "Yes, I will apply for a school exchange program. It will help me improve my English and meet new people."
+        },
+        {
+          "p": "How will you prepare for higher studies after school?",
+          "m": "1. Nói hai kế hoạch cụ thể (will/going to).",
+          "h": "Use will/going to: I will ... and I am going to ...",
+          "s": "I will study harder for exams and I am going to attend extra classes on weekends."
+        },
+        {
+          "p": "Compare your future school life to now. What will be different?",
+          "m": "1. Nói một sự khác biệt (comparative). 2. Nói một thay đổi bạn sẽ thực hiện để thích nghi.",
+          "h": "Use comparative: It will be more ... than now / I will ...",
+          "s": "University life will be more independent than school life. I will learn to manage my time better."
+        },
+        {
+          "p": "Give one final tip for younger students about school plans.",
+          "m": "1. Nói một lời khuyên ngắn (should/must). 2. Giải thích ngắn tại sao nên làm điều đó.",
+          "h": "You should/must ... because ...",
+          "s": "You should set small goals and study regularly because it makes big tasks easier."
+        }
+      ]
+    }
+  ]
+}

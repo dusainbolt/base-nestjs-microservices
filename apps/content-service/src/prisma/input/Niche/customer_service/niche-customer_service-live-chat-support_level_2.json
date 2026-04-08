@@ -1,0 +1,635 @@
+{
+  "l": 2,
+  "d": [
+    {
+      "t": "Chào hỏi và xác nhận yêu cầu",
+      "e": [
+        {
+          "p": "Hello, I need some help with my account.",
+          "m": "Hỏi tên của khách hàng. Nói rằng bạn sẵn lòng giúp đỡ.",
+          "h": "Sử dụng 'What is your name?' và 'I can help you.'",
+          "s": "What is your name, please? I can help you with your account."
+        },
+        {
+          "p": "My name is [studentName]. I cannot log in.",
+          "m": "Cảm ơn khách hàng. Hỏi địa chỉ email của khách hàng.",
+          "h": "Sử dụng 'Thank you' và 'What is your email address?'",
+          "s": "Thank you, [studentName]. What is your email address?"
+        },
+        {
+          "p": "My email is [studentName]@email.com. I am trying to reset my password.",
+          "m": "Xác nhận địa chỉ email. Nói rằng bạn đang kiểm tra.",
+          "h": "Sử dụng 'Okay, [email]' và 'I am checking now.'",
+          "s": "Okay, [studentName]@email.com. I am checking your account now."
+        },
+        {
+          "p": "Great, thank you! Is there a problem with my account?",
+          "m": "Nói rằng không có vấn đề lớn. Hướng dẫn khách hàng kiểm tra email của họ.",
+          "h": "Sử dụng 'There is no big problem.' và 'Please check your email.'",
+          "s": "There is no big problem. Please check your email for a new password."
+        },
+        {
+          "p": "I see the email now. Thank you for your fast help!",
+          "m": "Cảm ơn khách hàng. Hỏi xem khách hàng có cần hỗ trợ gì khác không.",
+          "h": "Sử dụng 'You are welcome.' và 'Do you need more help?'",
+          "s": "You are welcome. Do you need more help today?"
+        }
+      ]
+    },
+    {
+      "t": "Hỗ trợ về thông tin sản phẩm",
+      "e": [
+        {
+          "p": "Hi, I want to know about your new product.",
+          "m": "Chào khách hàng. Hỏi tên sản phẩm mà khách hàng quan tâm.",
+          "h": "Sử dụng 'Hello!' và 'What product are you asking about?'",
+          "s": "Hello! What product are you asking about, please?"
+        },
+        {
+          "p": "It is the 'Smart Speaker'. How much does it cost?",
+          "m": "Nói về tên sản phẩm. Nêu giá của sản phẩm đó.",
+          "h": "Sử dụng 'The Smart Speaker costs...' và 'It is [price].'",
+          "s": "The Smart Speaker is very good. It costs 50 dollars."
+        },
+        {
+          "p": "Oh, that is a good price! Is it easy to use?",
+          "m": "Xác nhận sản phẩm dễ dùng. Nói rằng nó có hướng dẫn sử dụng đơn giản.",
+          "h": "Sử dụng 'Yes, it is very easy.' và 'It has simple instructions.'",
+          "s": "Yes, it is very easy to use. It has simple instructions."
+        },
+        {
+          "p": "Can I connect it to my phone?",
+          "m": "Trả lời rằng có thể kết nối. Nói rằng nó hoạt động với nhiều điện thoại.",
+          "h": "Sử dụng 'Yes, you can connect it.' và 'It works with many phones.'",
+          "s": "Yes, you can connect it to your phone. It works with many phones."
+        },
+        {
+          "p": "Great! I think I want to buy one now. Thank you!",
+          "m": "Cảm ơn khách hàng đã quan tâm. Hỏi khách hàng có cần thông tin về việc mua hàng không.",
+          "h": "Sử dụng 'Thank you for your interest.' và 'Do you need help to buy it?'",
+          "s": "Thank you for your interest. Do you need help to buy it online?"
+        }
+      ]
+    },
+    {
+      "t": "Kiểm tra trạng thái đơn hàng",
+      "e": [
+        {
+          "p": "I am checking my order status. It is number 12345.",
+          "m": "Chào khách hàng. Hỏi tên của khách hàng.",
+          "h": "Sử dụng 'Hello!' và 'What is your name?'",
+          "s": "Hello! What is your name, please?"
+        },
+        {
+          "p": "My name is [studentName]. When is my package coming?",
+          "m": "Xác nhận tên khách hàng. Nói rằng bạn đang kiểm tra đơn hàng.",
+          "h": "Sử dụng 'Okay, [name].' và 'I am checking your order now.'",
+          "s": "Okay, [studentName]. I am checking your order number 12345 now."
+        },
+        {
+          "p": "Thank you. Is my package on the way?",
+          "m": "Nói rằng đơn hàng đang trên đường giao. Thông báo ngày dự kiến giao hàng.",
+          "h": "Sử dụng 'Your package is on the way.' và 'It is coming tomorrow.'",
+          "s": "Yes, your package is on the way. It is coming tomorrow morning."
+        },
+        {
+          "p": "Oh, great news! I am very happy to hear that.",
+          "m": "Cảm ơn khách hàng. Hỏi khách hàng có cần theo dõi thêm không.",
+          "h": "Sử dụng 'You are welcome.' và 'Do you want to track it?'",
+          "s": "You are welcome. Do you want to track your package now?"
+        },
+        {
+          "p": "No, it's okay. I am waiting for it at home. Thanks!",
+          "m": "Xác nhận đã hiểu. Chúc khách hàng một ngày tốt lành.",
+          "h": "Sử dụng 'Okay, I understand.' và 'Have a good day!'",
+          "s": "Okay, I understand. Have a good day, [studentName]!"
+        }
+      ]
+    },
+    {
+      "t": "Hỗ trợ về thanh toán",
+      "e": [
+        {
+          "p": "Hi, I have a question about my payment.",
+          "m": "Chào khách hàng. Hỏi số hóa đơn của khách hàng.",
+          "h": "Sử dụng 'Hello!' và 'What is your invoice number?'",
+          "s": "Hello! What is your invoice number, please?"
+        },
+        {
+          "p": "It is 9876. I made a payment yesterday.",
+          "m": "Xác nhận số hóa đơn. Nói rằng bạn đang kiểm tra hệ thống.",
+          "h": "Sử dụng 'Thank you for the number.' và 'I am checking the system now.'",
+          "s": "Thank you for the number 9876. I am checking the system now."
+        },
+        {
+          "p": "Is my payment received? I am a bit worried.",
+          "m": "Nói rằng thanh toán đã được nhận. Xác nhận ngày thanh toán.",
+          "h": "Sử dụng 'Yes, your payment is here.' và 'We received it yesterday.'",
+          "s": "Yes, your payment is here. We received it yesterday, [studentName]."
+        },
+        {
+          "p": "That's good to know! Why is my status still 'pending'?",
+          "m": "Giải thích rằng đôi khi có sự chậm trễ nhỏ. Đề nghị khách hàng kiểm tra lại sau.",
+          "h": "Sử dụng 'Sometimes it is slow.' và 'Please check again later.'",
+          "s": "Sometimes the system is a little slow. Please check again in an hour."
+        },
+        {
+          "p": "Okay, I will check later. Thank you for your help!",
+          "m": "Xác nhận đã hiểu. Hỏi xem khách hàng còn thắc mắc nào khác không.",
+          "h": "Sử dụng 'You are welcome.' và 'Do you have any other questions?'",
+          "s": "You are welcome. Do you have any other questions today?"
+        }
+      ]
+    },
+    {
+      "t": "Đăng ký dịch vụ mới",
+      "e": [
+        {
+          "p": "I want to sign up for your new internet service.",
+          "m": "Chào khách hàng. Hỏi địa chỉ nhà của khách hàng.",
+          "h": "Sử dụng 'Hello!' và 'What is your home address?'",
+          "s": "Hello! What is your home address, please?"
+        },
+        {
+          "p": "My address is [studentCity] Street. Do you offer service there?",
+          "m": "Nói rằng bạn đang kiểm tra địa chỉ. Yêu cầu khách hàng đợi một chút.",
+          "h": "Sử dụng 'I am checking your address.' và 'Please wait a moment.'",
+          "s": "I am checking your address now. Please wait a moment, [studentName]."
+        },
+        {
+          "p": "Okay, I am waiting. Is the service fast?",
+          "m": "Xác nhận rằng dịch vụ có sẵn. Nói rằng tốc độ rất nhanh.",
+          "h": "Sử dụng 'Yes, service is available.' và 'It is very fast.'",
+          "s": "Yes, service is available at your address. It is very fast internet."
+        },
+        {
+          "p": "Good! How much is the monthly fee?",
+          "m": "Nêu phí hàng tháng. Hỏi xem khách hàng có muốn đăng ký ngay không.",
+          "h": "Sử dụng 'The monthly fee is...' và 'Do you want to sign up now?'",
+          "s": "The monthly fee is 30 dollars. Do you want to sign up now?"
+        },
+        {
+          "p": "Yes, I want to sign up now. What do I need to do?",
+          "m": "Hướng dẫn khách hàng điền biểu mẫu. Nói rằng biểu mẫu ở trên trang web.",
+          "h": "Sử dụng 'Please fill out this form.' và 'It is on our website.'",
+          "s": "Please fill out this online form. It is on our website."
+        }
+      ]
+    },
+    {
+      "t": "Xử lý yêu cầu đổi trả",
+      "e": [
+        {
+          "p": "Hi, I need to return an item.",
+          "m": "Chào khách hàng. Hỏi số đơn hàng của khách hàng.",
+          "h": "Sử dụng 'Hello!' và 'What is your order number?'",
+          "s": "Hello! What is your order number, please?"
+        },
+        {
+          "p": "My order number is 67890. The shirt is too small.",
+          "m": "Xác nhận lý do đổi trả. Hỏi khách hàng muốn đổi lấy sản phẩm nào.",
+          "h": "Sử dụng 'I understand.' và 'What size do you need?'",
+          "s": "I understand the shirt is small. What size do you need, [studentName]?"
+        },
+        {
+          "p": "I need a bigger size, maybe a large. Is it available?",
+          "m": "Nói rằng bạn đang kiểm tra kích thước. Yêu cầu khách hàng đợi một lát.",
+          "h": "Sử dụng 'I am checking the size.' và 'Please wait a minute.'",
+          "s": "I am checking the large size now. Please wait a minute."
+        },
+        {
+          "p": "Okay. What do I need to do to return the small one?",
+          "m": "Thông báo rằng kích thước lớn có sẵn. Hướng dẫn khách hàng gửi trả sản phẩm nhỏ.",
+          "h": "Sử dụng 'Yes, large is available.' và 'You can send back the small one.'",
+          "s": "Yes, the large size is available. You can send back the small shirt."
+        },
+        {
+          "p": "Alright, I will send it tomorrow. Thanks for your help!",
+          "m": "Cảm ơn khách hàng. Hỏi thêm nếu khách hàng có câu hỏi khác.",
+          "h": "Sử dụng 'You are welcome.' và 'Do you have any other questions?'",
+          "s": "You are welcome. Do you have any other questions about the return?"
+        }
+      ]
+    },
+    {
+      "t": "Cung cấp thông tin giờ làm việc",
+      "e": [
+        {
+          "p": "Hello, I want to know your opening hours.",
+          "m": "Chào khách hàng. Hỏi khách hàng muốn biết giờ làm việc của cửa hàng nào.",
+          "h": "Sử dụng 'Hello!' và 'Which store are you asking about?'",
+          "s": "Hello! Which store are you asking about, please?"
+        },
+        {
+          "p": "I am asking about the store in [studentCity].",
+          "m": "Xác nhận tên thành phố. Nêu giờ mở cửa của cửa hàng đó vào các ngày trong tuần.",
+          "h": "Sử dụng 'Okay, [city].' và 'It opens at 9 AM.'",
+          "s": "Okay, the store in [studentCity]. It opens at 9 AM every day."
+        },
+        {
+          "p": "And when does it close? I usually finish work late.",
+          "m": "Nêu giờ đóng cửa của cửa hàng. Nói rằng nó đóng cửa muộn vào thứ Bảy.",
+          "h": "Sử dụng 'It closes at 8 PM.' và 'It closes later on Saturday.'",
+          "s": "It closes at 8 PM from Monday to Friday. It closes later on Saturday."
+        },
+        {
+          "p": "That is good. What about Sunday?",
+          "m": "Nêu giờ làm việc vào Chủ Nhật. Xác nhận lại khách hàng đã rõ chưa.",
+          "h": "Sử dụng 'On Sunday, it is open...' và 'Is this clear?'",
+          "s": "On Sunday, it is open from 10 AM to 6 PM. Is this clear for you?"
+        },
+        {
+          "p": "Yes, thank you for the information. I will visit tomorrow.",
+          "m": "Cảm ơn khách hàng. Chúc khách hàng có một chuyến thăm vui vẻ.",
+          "h": "Sử dụng 'You are welcome.' và 'Have a good visit!'",
+          "s": "You are welcome. Have a good visit tomorrow, [studentName]!"
+        }
+      ]
+    },
+    {
+      "t": "Hỗ trợ kỹ thuật cơ bản",
+      "e": [
+        {
+          "p": "My printer is not working.",
+          "m": "Xin lỗi về sự bất tiện. Hỏi khách hàng đang dùng loại máy in nào.",
+          "h": "Sử dụng 'I am sorry for this problem.' và 'What printer are you using?'",
+          "s": "I am sorry for this problem. What printer are you using?"
+        },
+        {
+          "p": "It is a 'PrintMax 2000'. It is not printing anything.",
+          "m": "Xác nhận tên máy in. Hỏi xem máy in có đang bật không.",
+          "h": "Sử dụng 'Okay, the PrintMax 2000.' và 'Is it turned on?'",
+          "s": "Okay, the PrintMax 2000. Is it turned on now?"
+        },
+        {
+          "p": "Yes, it is on. The light is green.",
+          "m": "Hướng dẫn khách hàng kiểm tra dây cáp. Hỏi xem dây cáp có được cắm chắc chắn không.",
+          "h": "Sử dụng 'Please check the cable.' và 'Is it plugged in tightly?'",
+          "s": "Please check the printer cable. Is it plugged in tightly?"
+        },
+        {
+          "p": "I am checking it now. Yes, it is tight.",
+          "m": "Hướng dẫn khách hàng khởi động lại máy in. Hỏi xem có hoạt động không.",
+          "h": "Sử dụng 'Please restart your printer.' và 'Is it working now?'",
+          "s": "Please restart your printer. Is it working now?"
+        },
+        {
+          "p": "Oh, it is printing now! Thank you so much!",
+          "m": "Cảm ơn khách hàng. Hỏi xem khách hàng còn cần gì nữa không.",
+          "h": "Sử dụng 'You are welcome.' và 'Do you need more help today?'",
+          "s": "You are welcome. Do you need more help today, [studentName]?"
+        }
+      ]
+    },
+    {
+      "t": "Phản hồi về dịch vụ",
+      "e": [
+        {
+          "p": "I want to leave some feedback about your service.",
+          "m": "Chào khách hàng. Hỏi tên của khách hàng.",
+          "h": "Sử dụng 'Hello!' và 'What is your name?'",
+          "s": "Hello! What is your name, please?"
+        },
+        {
+          "p": "My name is [studentName]. I think your service is good.",
+          "m": "Cảm ơn khách hàng về phản hồi tích cực. Hỏi điều gì làm khách hàng hài lòng.",
+          "h": "Sử dụng 'Thank you for your feedback!' và 'What do you like?'",
+          "s": "Thank you for your good feedback! What do you like about our service?"
+        },
+        {
+          "p": "Your chat support is always fast and helpful.",
+          "m": "Xác nhận điều đó. Nói rằng bạn sẽ chia sẻ phản hồi với nhóm.",
+          "h": "Sử dụng 'I am happy to hear that.' và 'I will share this with the team.'",
+          "s": "I am happy to hear that. I will share this with the team."
+        },
+        {
+          "p": "That is great! I think your website can be better too.",
+          "m": "Cảm ơn khách hàng về đề xuất. Hỏi thêm khách hàng có đề xuất gì khác không.",
+          "h": "Sử dụng 'Thank you for your suggestion.' và 'Do you have other ideas?'",
+          "s": "Thank you for your suggestion about the website. Do you have other ideas?"
+        },
+        {
+          "p": "No, that is all for today. Thanks!",
+          "m": "Cảm ơn khách hàng đã góp ý. Chúc khách hàng một ngày tốt lành.",
+          "h": "Sử dụng 'Thank you for your time.' và 'Have a nice day!'",
+          "s": "Thank you for your time and feedback. Have a nice day, [studentName]!"
+        }
+      ]
+    },
+    {
+      "t": "Hỏi đáp về tài khoản người dùng",
+      "e": [
+        {
+          "p": "I want to change my password.",
+          "m": "Chào khách hàng. Hỏi tên đăng nhập (username) của khách hàng.",
+          "h": "Sử dụng 'Hello!' và 'What is your username?'",
+          "s": "Hello! What is your username, please?"
+        },
+        {
+          "p": "My username is [studentName]User. I forgot my old password.",
+          "m": "Xác nhận tên đăng nhập. Hướng dẫn khách hàng đến trang 'Quên mật khẩu'.",
+          "h": "Sử dụng 'Okay, [username].' và 'Please go to 'Forgot Password'.' ",
+          "s": "Okay, [studentName]User. Please go to the 'Forgot Password' page."
+        },
+        {
+          "p": "Where is that page? I cannot find it.",
+          "m": "Nói rằng trang đó ở trên website. Hướng dẫn khách hàng tìm liên kết.",
+          "h": "Sử dụng 'It is on our website.' và 'Look for the link.'",
+          "s": "It is on our website. Look for the link near the login button."
+        },
+        {
+          "p": "I found it! I am clicking it now.",
+          "m": "Tuyệt vời. Nói rằng một email sẽ được gửi đến địa chỉ của khách hàng.",
+          "h": "Sử dụng 'Great!' và 'An email is going to your address.'",
+          "s": "Great! An email is going to your email address now."
+        },
+        {
+          "p": "Got it! Thanks for guiding me.",
+          "m": "Cảm ơn khách hàng. Hỏi xem khách hàng có cần hướng dẫn gì khác không.",
+          "h": "Sử dụng 'You are welcome.' và 'Do you need more instructions?'",
+          "s": "You are welcome. Do you need more instructions today?"
+        }
+      ]
+    },
+    {
+      "t": "Tìm kiếm sản phẩm trên cửa hàng",
+      "e": [
+        {
+          "p": "I am looking for a blue shirt.",
+          "m": "Chào khách hàng. Hỏi khách hàng muốn tìm áo sơ mi nam hay nữ.",
+          "h": "Sử dụng 'Hello!' và 'Are you looking for a men's or women's shirt?'",
+          "s": "Hello! Are you looking for a men's or women's blue shirt?"
+        },
+        {
+          "p": "A men's shirt, please. Do you have many blue shirts?",
+          "m": "Xác nhận. Nói rằng cửa hàng có nhiều mẫu mã.",
+          "h": "Sử dụng 'Yes, we have many styles.' và 'We have many blue shirts.'",
+          "s": "Yes, we have many styles. We have many blue men's shirts."
+        },
+        {
+          "p": "That is good. Are there any shirts on sale?",
+          "m": "Nói rằng có một số áo sơ mi đang giảm giá. Hướng dẫn khách hàng kiểm tra mục giảm giá.",
+          "h": "Sử dụng 'Yes, some shirts are on sale.' và 'Please check our 'Sale' section.'",
+          "s": "Yes, some blue shirts are on sale now. Please check our 'Sale' section."
+        },
+        {
+          "p": "Okay, I am looking there. What sizes do you have?",
+          "m": "Nêu các kích cỡ có sẵn. Hỏi khách hàng cần kích cỡ nào.",
+          "h": "Sử dụng 'We have S, M, L, XL.' và 'What size do you need?'",
+          "s": "We have S, M, L, XL sizes. What size do you need, [studentName]?"
+        },
+        {
+          "p": "I need a large size. Thank you for your help!",
+          "m": "Cảm ơn khách hàng. Chúc khách hàng tìm được chiếc áo ưng ý.",
+          "h": "Sử dụng 'You are welcome.' và 'I hope you find a nice shirt.'",
+          "s": "You are welcome. I hope you find a nice blue shirt."
+        }
+      ]
+    },
+    {
+      "t": "Hỗ trợ mua hàng trực tuyến",
+      "e": [
+        {
+          "p": "I want to buy some items, but I have a question.",
+          "m": "Chào khách hàng. Hỏi tên của khách hàng.",
+          "h": "Sử dụng 'Hello!' và 'What is your name?'",
+          "s": "Hello! What is your name, please?"
+        },
+        {
+          "p": "My name is [studentName]. How do I add items to my cart?",
+          "m": "Cảm ơn khách hàng. Hướng dẫn khách hàng nhấp vào nút 'Thêm vào giỏ hàng'.",
+          "h": "Sử dụng 'Thank you, [name].' và 'Click the 'Add to Cart' button.'",
+          "s": "Thank you, [studentName]. Please click the 'Add to Cart' button."
+        },
+        {
+          "p": "I clicked it, but nothing happened. I am very confused.",
+          "m": "Xin lỗi về sự cố. Hỏi khách hàng đang dùng thiết bị nào để mua sắm.",
+          "h": "Sử dụng 'I am sorry for the problem.' và 'What device are you using?'",
+          "s": "I am sorry for the problem. What device are you using for shopping?"
+        },
+        {
+          "p": "I am using my laptop. Maybe it is a website problem.",
+          "m": "Hướng dẫn khách hàng làm mới trang. Hỏi xem có hoạt động không.",
+          "h": "Sử dụng 'Please refresh the page.' và 'Is it working now?'",
+          "s": "Please refresh the website page. Is it working now?"
+        },
+        {
+          "p": "Yes, it is working now! I am adding items. Thank you!",
+          "m": "Tuyệt vời. Chúc khách hàng có một trải nghiệm mua sắm vui vẻ.",
+          "h": "Sử dụng 'Great!' và 'Have a happy shopping!'",
+          "s": "Great! Have a happy shopping experience, [studentName]!"
+        }
+      ]
+    },
+    {
+      "t": "Hướng dẫn sử dụng mã giảm giá",
+      "e": [
+        {
+          "p": "I have a discount code. How do I use it?",
+          "m": "Chào khách hàng. Hỏi mã giảm giá của khách hàng.",
+          "h": "Sử dụng 'Hello!' và 'What is your discount code?'",
+          "s": "Hello! What is your discount code, please?"
+        },
+        {
+          "p": "My code is 'SAVEBIG'. I want to buy a new bag.",
+          "m": "Cảm ơn khách hàng. Hướng dẫn nhập mã ở trang thanh toán.",
+          "h": "Sử dụng 'Thank you for the code.' và 'Enter it on the payment page.'",
+          "s": "Thank you for the code 'SAVEBIG'. Enter it on the payment page."
+        },
+        {
+          "p": "I am on the payment page. Where is the box for the code?",
+          "m": "Mô tả vị trí của ô nhập mã. Nói rằng nó thường ở gần tổng số tiền.",
+          "h": "Sử dụng 'It is usually at the bottom.' và 'It is near the total price.'",
+          "s": "It is usually at the bottom of the page. It is near the total price."
+        },
+        {
+          "p": "Ah, I see it now! I am typing the code.",
+          "m": "Tuyệt vời. Nói rằng giá sẽ tự động thay đổi.",
+          "h": "Sử dụng 'Great!' và 'The price will change automatically.'",
+          "s": "Great! The price will change automatically after you enter the code."
+        },
+        {
+          "p": "Yes, the price is lower now! Thank you for your help.",
+          "m": "Cảm ơn khách hàng. Hỏi thêm nếu khách hàng cần gì nữa.",
+          "h": "Sử dụng 'You are welcome.' và 'Do you need anything else?'",
+          "s": "You are welcome. Do you need anything else for your purchase?"
+        }
+      ]
+    },
+    {
+      "t": "Báo cáo lỗi website",
+      "e": [
+        {
+          "p": "Your website is showing an error message.",
+          "m": "Xin lỗi về sự bất tiện. Hỏi khách hàng đang ở trang nào.",
+          "h": "Sử dụng 'I am sorry for the error.' và 'What page are you on?'",
+          "s": "I am sorry for the error. What page are you on now?"
+        },
+        {
+          "p": "I am on the 'Contact Us' page. It says 'Page Not Found'.",
+          "m": "Xác nhận trang. Hỏi khách hàng đang dùng trình duyệt nào.",
+          "h": "Sử dụng 'Okay, 'Contact Us' page.' và 'What browser are you using?'",
+          "s": "Okay, the 'Contact Us' page. What browser are you using?"
+        },
+        {
+          "p": "I am using Chrome. I need to contact your support.",
+          "m": "Cảm ơn thông tin. Hướng dẫn khách hàng thử dùng trình duyệt khác.",
+          "h": "Sử dụng 'Thank you for the information.' và 'Please try another browser.'",
+          "s": "Thank you for the information. Please try another browser, like Firefox."
+        },
+        {
+          "p": "Okay, I am trying Firefox. It is working now!",
+          "m": "Tuyệt vời. Nói rằng bạn sẽ báo cáo lỗi này để khắc phục.",
+          "h": "Sử dụng 'Great!' và 'I am reporting this bug.'",
+          "s": "Great! I am reporting this bug to our technical team."
+        },
+        {
+          "p": "That's good. Thank you for fixing it quickly!",
+          "m": "Cảm ơn khách hàng. Hỏi xem khách hàng có cần gì nữa không.",
+          "h": "Sử dụng 'You are welcome.' và 'Do you need more help today?'",
+          "s": "You are welcome. Do you need more help today, [studentName]?"
+        }
+      ]
+    },
+    {
+      "t": "Hỏi đáp về chính sách cửa hàng",
+      "e": [
+        {
+          "p": "What is your return policy?",
+          "m": "Chào khách hàng. Hỏi khách hàng muốn trả lại loại sản phẩm nào.",
+          "h": "Sử dụng 'Hello!' và 'What product are you returning?'",
+          "s": "Hello! What product are you returning, please?"
+        },
+        {
+          "p": "I want to return a T-shirt. I bought it last week.",
+          "m": "Xác nhận. Nói rằng khách hàng có thể trả lại trong 30 ngày.",
+          "h": "Sử dụng 'Okay, a T-shirt.' và 'You can return it within 30 days.'",
+          "s": "Okay, a T-shirt bought last week. You can return it within 30 days."
+        },
+        {
+          "p": "Do I need a receipt for the return?",
+          "m": "Trả lời rằng có, cần biên lai. Nói rằng đó là để xác nhận mua hàng.",
+          "h": "Sử dụng 'Yes, you need the receipt.' và 'It is for purchase confirmation.'",
+          "s": "Yes, you need the receipt. It is for purchase confirmation."
+        },
+        {
+          "p": "I have the receipt. Where can I send the T-shirt?",
+          "m": "Cung cấp địa chỉ gửi trả hàng. Nói rằng địa chỉ đó trên trang web của chúng tôi.",
+          "h": "Sử dụng 'You can send it to...' và 'It is on our website.'",
+          "s": "You can send it to our main office. The address is on our website."
+        },
+        {
+          "p": "Okay, I will check the address. Thank you!",
+          "m": "Cảm ơn khách hàng. Hỏi xem khách hàng có câu hỏi nào khác không.",
+          "h": "Sử dụng 'You are welcome.' và 'Do you have any other questions?'",
+          "s": "You are welcome. Do you have any other questions about returns?"
+        }
+      ]
+    },
+    {
+      "t": "Ôn tập: Các tình huống hỗ trợ hàng ngày",
+      "e": [
+        {
+          "p": "Hi, my name is [studentName]. I need to update my shipping address.",
+          "m": "Chào khách hàng. Hỏi địa chỉ cũ của khách hàng.",
+          "h": "Sử dụng 'Hello!' và 'What is your old address?'",
+          "s": "Hello, [studentName]! What is your old shipping address?"
+        },
+        {
+          "p": "My old address is 123 Main Street. My new one is 456 Oak Avenue.",
+          "m": "Xác nhận địa chỉ mới. Nói rằng bạn đang cập nhật thông tin.",
+          "h": "Sử dụng 'Okay, 456 Oak Avenue.' và 'I am updating your info now.'",
+          "s": "Okay, 456 Oak Avenue is your new address. I am updating your info now."
+        },
+        {
+          "p": "Thank you! Also, when is your store in [studentCity] closing today?",
+          "m": "Nói rằng cửa hàng đóng cửa lúc 9 giờ tối. Hỏi xem khách hàng có định đến không.",
+          "h": "Sử dụng 'It closes at 9 PM.' và 'Are you visiting today?'",
+          "s": "It closes at 9 PM tonight. Are you visiting today?"
+        },
+        {
+          "p": "Yes, I am going there now. I want to buy a new phone.",
+          "m": "Tuyệt vời. Hỏi khách hàng cần trợ giúp tìm điện thoại nào không.",
+          "h": "Sử dụng 'Great!' và 'Do you need help to find a phone?'",
+          "s": "Great! Do you need help to find a phone there?"
+        },
+        {
+          "p": "No, it's okay. I will ask the staff. Thank you for everything!",
+          "m": "Cảm ơn khách hàng. Chúc khách hàng mua sắm vui vẻ.",
+          "h": "Sử dụng 'You are welcome.' và 'Have a happy shopping trip!'",
+          "s": "You are welcome, [studentName]. Have a happy shopping trip!"
+        }
+      ]
+    },
+    {
+      "t": "Ôn tập: Giải quyết vấn đề cơ bản",
+      "e": [
+        {
+          "p": "My laptop is not connecting to the internet.",
+          "m": "Xin lỗi về sự cố. Hỏi khách hàng đã thử khởi động lại chưa.",
+          "h": "Sử dụng 'I am sorry for the issue.' và 'Did you restart your laptop?'",
+          "s": "I am sorry for the issue. Did you restart your laptop?"
+        },
+        {
+          "p": "Yes, I restarted it. It is still not working.",
+          "m": "Hướng dẫn khách hàng kiểm tra dây mạng. Hỏi xem dây mạng có được cắm đúng không.",
+          "h": "Sử dụng 'Please check the network cable.' và 'Is it plugged in correctly?'",
+          "s": "Please check the network cable. Is it plugged in correctly?"
+        },
+        {
+          "p": "I am checking the cable now. It seems fine. My order 54321 is late too.",
+          "m": "Xác nhận dây cáp. Nói rằng bạn đang kiểm tra đơn hàng của khách hàng.",
+          "h": "Sử dụng 'Okay, the cable is fine.' và 'I am checking your order now.'",
+          "s": "Okay, the cable is fine. I am checking your order number 54321 now."
+        },
+        {
+          "p": "Thank you. Is the order coming today?",
+          "m": "Nói rằng đơn hàng sẽ đến vào ngày mai. Đề xuất khách hàng thử kết nối Wi-Fi.",
+          "h": "Sử dụng 'Your order is coming tomorrow.' và 'Please try to connect to Wi-Fi.'",
+          "s": "Your order is coming tomorrow. Please try to connect to Wi-Fi now."
+        },
+        {
+          "p": "Oh, my Wi-Fi is working! And my order is soon. You are great!",
+          "m": "Cảm ơn khách hàng. Hỏi xem khách hàng còn vấn đề gì khác không.",
+          "h": "Sử dụng 'You are welcome!' và 'Do you have any other problems?'",
+          "s": "You are welcome, [studentName]! Do you have any other problems?"
+        }
+      ]
+    },
+    {
+      "t": "Ôn tập: Tổng hợp tương tác qua chat",
+      "e": [
+        {
+          "p": "Hello, I want to ask about my recent payment for order 9988.",
+          "m": "Chào khách hàng. Hỏi tên đầy đủ của khách hàng.",
+          "h": "Sử dụng 'Hello!' và 'What is your full name?'",
+          "s": "Hello! What is your full name, please?"
+        },
+        {
+          "p": "My name is [studentName]. I paid last Monday, but it's not showing.",
+          "m": "Xác nhận tên khách hàng. Nói rằng bạn đang kiểm tra thanh toán.",
+          "h": "Sử dụng 'Thank you, [name].' và 'I am checking your payment now.'",
+          "s": "Thank you, [studentName]. I am checking your payment for order 9988 now."
+        },
+        {
+          "p": "Okay. And I also need to return a book. Is it possible?",
+          "m": "Xác nhận thanh toán đã được nhận. Nói rằng bạn cần thêm thông tin về cuốn sách.",
+          "h": "Sử dụng 'Your payment is received.' và 'I need more info about the book.'",
+          "s": "Yes, your payment is received. I need more info about the book return."
+        },
+        {
+          "p": "That's good news about the payment! The book is 'English for Beginners'.",
+          "m": "Tuyệt vời. Hỏi ngày mua cuốn sách và tình trạng của nó.",
+          "h": "Sử dụng 'Great!' và 'When did you buy the book and its condition?'",
+          "s": "Great! When did you buy the book and what is its condition?"
+        },
+        {
+          "p": "I bought it 3 days ago, and it is new. Thank you for your fast help today!",
+          "m": "Cảm ơn khách hàng. Chúc khách hàng có một ngày thật vui vẻ.",
+          "h": "Sử dụng 'You are welcome.' và 'Have a really nice day!'",
+          "s": "You are welcome, [studentName]. Have a really nice day!"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,530 @@
+{
+  "l": 2,
+  "d": [
+    {
+      "t": "Hỏi và nhận gói hàng",
+      "e": [
+        {
+          "p": "Hello. Are you waiting for a package today?",
+          "m": "Xác nhận bạn đang đợi một gói hàng và nó đến từ đâu.",
+          "h": "Dùng 'Yes, I am...' và 'It is from...'",
+          "s": "Yes, I am waiting for a package. It is from Ho Chi Minh City."
+        },
+        {
+          "p": "What is inside your package?",
+          "m": "Mô tả đồ vật bên trong gói hàng và nó có to không.",
+          "h": "Dùng 'It has...' và 'It is...'",
+          "s": "It has some books. It is not very big."
+        },
+        {
+          "p": "Is your package coming today or tomorrow?",
+          "m": "Cho biết gói hàng đến khi nào và bạn đang làm gì để chờ nó.",
+          "h": "Dùng 'It is coming...' và 'I am...' (hiện tại tiếp diễn)",
+          "s": "It is coming tomorrow. I am waiting at home."
+        },
+        {
+          "p": "How often do you receive packages?",
+          "m": "Cho biết tần suất bạn nhận gói hàng và bạn có thích nhận chúng không.",
+          "h": "Dùng trạng từ tần suất và 'I like...'",
+          "s": "I often receive packages. I like new things."
+        },
+        {
+          "p": "Do you have a tracking number for it? I can help.",
+          "m": "Xác nhận bạn có số theo dõi và hỏi tôi có thể giúp gì.",
+          "h": "Dùng 'Yes, I have...' và câu hỏi đơn giản 'Can you...?'",
+          "s": "Yes, I have a tracking number. Can you help me check it?"
+        }
+      ]
+    },
+    {
+      "t": "Gửi đồ qua bưu điện",
+      "e": [
+        {
+          "p": "Good morning. Do you want to send a package?",
+          "m": "Xác nhận bạn muốn gửi một gói hàng và nói bạn đang gửi nó cho ai.",
+          "h": "Dùng 'Yes, I want to...' và 'It is for...'",
+          "s": "Yes, I want to send a package. It is for my friend."
+        },
+        {
+          "p": "Where are you sending this package?",
+          "m": "Cho biết địa điểm bạn gửi gói hàng và nó ở đâu.",
+          "h": "Dùng 'I am sending it to...' và 'It is...'",
+          "s": "I am sending it to Hanoi. It is in Vietnam."
+        },
+        {
+          "p": "Is this package heavy or light?",
+          "m": "Mô tả gói hàng có nặng không và bạn muốn gửi nó đi nhanh hay chậm.",
+          "h": "Dùng 'It is...' và 'I want to send it...'",
+          "s": "It is not heavy. I want to send it fast."
+        },
+        {
+          "p": "Do you need a box for your item?",
+          "m": "Nói bạn cần một cái hộp nhỏ và hỏi giá của nó.",
+          "h": "Dùng 'Yes, I need...' và 'How much...?'",
+          "s": "Yes, I need a small box. How much is it?"
+        },
+        {
+          "p": "What is your return address, please?",
+          "m": "Cho biết địa chỉ của bạn và tên thành phố.",
+          "h": "Dùng 'My address is...' và 'It is in...'",
+          "s": "My address is 123 Main Street. It is in [studentCity]."
+        }
+      ]
+    },
+    {
+      "t": "Kiểm tra trạng thái đơn hàng",
+      "e": [
+        {
+          "p": "Hello. How can I help you today?",
+          "m": "Nói bạn đang kiểm tra một gói hàng và hỏi nó đang ở đâu.",
+          "h": "Dùng 'I am checking...' và 'Where is...?'",
+          "s": "I am checking my package. Where is it now?"
+        },
+        {
+          "p": "Okay, I see your tracking number. Is your package important?",
+          "m": "Xác nhận gói hàng quan trọng và bạn đang rất cần nó.",
+          "h": "Dùng 'Yes, it is...' và 'I need it...'",
+          "s": "Yes, it is important. I need it soon."
+        },
+        {
+          "p": "The system says it is in transit. Do you know its contents?",
+          "m": "Nói nó chứa quần áo và chúng rất đẹp.",
+          "h": "Dùng 'It has...' và 'They are...'",
+          "s": "It has some clothes. They are very pretty."
+        },
+        {
+          "p": "When did you send this package?",
+          "m": "Cho biết bạn đã gửi nó tuần trước và nó đến khi nào.",
+          "h": "Dùng 'I sent it...' và 'It is coming...'",
+          "s": "I sent it last week. It is coming tomorrow."
+        },
+        {
+          "p": "Do you often check your package status online?",
+          "m": "Cho biết bạn thường xuyên kiểm tra và bạn luôn muốn biết.",
+          "h": "Dùng trạng từ tần suất và 'I always want...'",
+          "s": "I often check online. I always want to know."
+        }
+      ]
+    },
+    {
+      "t": "Mô tả gói hàng của bạn",
+      "e": [
+        {
+          "p": "Good afternoon. Please describe your package.",
+          "m": "Nói đó là một cái hộp và nó có màu nâu.",
+          "h": "Dùng 'It is a...' và 'It is...'",
+          "s": "It is a box. It is brown."
+        },
+        {
+          "p": "Is it big or small?",
+          "m": "Mô tả gói hàng không to lắm và nó có sách bên trong.",
+          "h": "Dùng 'It is not...' và 'It has...'",
+          "s": "It is not very big. It has books inside."
+        },
+        {
+          "p": "Are you sending it or receiving it?",
+          "m": "Cho biết bạn đang nhận nó và bạn rất vui.",
+          "h": "Dùng 'I am receiving...' và 'I am...'",
+          "s": "I am receiving it. I am very happy."
+        },
+        {
+          "p": "Is there anything fragile inside, like glass?",
+          "m": "Xác nhận không có gì dễ vỡ và nó an toàn.",
+          "h": "Dùng 'No, there is not...' và 'It is...'",
+          "s": "No, there is not anything fragile. It is safe."
+        },
+        {
+          "p": "Where is the package now, based on your tracking information?",
+          "m": "Cho biết nó đang ở trong kho và nó sẽ đến sớm.",
+          "h": "Dùng 'It is in...' và 'It is coming...'",
+          "s": "It is in the warehouse now. It is coming soon."
+        }
+      ]
+    },
+    {
+      "t": "Thời gian giao hàng",
+      "e": [
+        {
+          "p": "Hi there. When do you usually deliver packages?",
+          "m": "Cho biết bạn giao hàng vào buổi sáng và bạn bắt đầu sớm.",
+          "h": "Dùng 'I usually deliver...' và 'I start...'",
+          "s": "I usually deliver in the morning. I start early."
+        },
+        {
+          "p": "Does the delivery take many days?",
+          "m": "Nói nó không mất nhiều ngày và thường là hai ngày.",
+          "h": "Dùng 'No, it does not...' và 'It is usually...'",
+          "s": "No, it does not take many days. It is usually two days."
+        },
+        {
+          "p": "Are you often busy with deliveries?",
+          "m": "Xác nhận bạn luôn bận rộn và có nhiều gói hàng.",
+          "h": "Dùng 'Yes, I am always...' và 'There are...'",
+          "s": "Yes, I am always busy. There are many packages."
+        },
+        {
+          "p": "What time is your package arriving tomorrow?",
+          "m": "Nói gói hàng đến vào buổi chiều và bạn sẽ ở nhà.",
+          "h": "Dùng 'It is arriving...' và 'I will be...'",
+          "s": "It is arriving in the afternoon. I will be home."
+        },
+        {
+          "p": "My package is late. When can I expect it?",
+          "m": "Xin lỗi về sự chậm trễ và nói gói hàng đang trên đường.",
+          "h": "Dùng 'I am sorry...' và 'It is on the way...'",
+          "s": "I am sorry for the delay. It is on the way now."
+        }
+      ]
+    },
+    {
+      "t": "Vấn đề giao hàng cơ bản",
+      "e": [
+        {
+          "p": "Excuse me, I have a problem with my delivery.",
+          "m": "Hỏi vấn đề là gì và bạn có thể giúp không.",
+          "h": "Dùng 'What is the problem?' và 'Can I help...?'",
+          "s": "What is the problem? Can I help you?"
+        },
+        {
+          "p": "My package is not here. I am waiting.",
+          "m": "Xác nhận bạn hiểu và hỏi bạn đã kiểm tra địa chỉ chưa.",
+          "h": "Dùng 'I understand.' và 'Did you check...?'",
+          "s": "I understand. Did you check your address?"
+        },
+        {
+          "p": "Yes, the address is correct. My name is [studentName].",
+          "m": "Xin lỗi về sự cố và nói bạn đang kiểm tra.",
+          "h": "Dùng 'I am sorry...' và 'I am checking...'",
+          "s": "I am sorry about that. I am checking the system now."
+        },
+        {
+          "p": "It says 'delivered' but I don't see it. Maybe a neighbor has it?",
+          "m": "Nói bạn sẽ kiểm tra với hàng xóm và bạn sẽ quay lại.",
+          "h": "Dùng 'I will check...' và 'I will come back...'",
+          "s": "I will check with my neighbor. I will come back later."
+        },
+        {
+          "p": "Thank you for your help. I often have delivery problems here.",
+          "m": "Xin lỗi bạn và nói bạn sẽ ghi chú.",
+          "h": "Dùng 'I am sorry...' và 'I will make a note...'",
+          "s": "I am sorry for your problems. I will make a note for you."
+        }
+      ]
+    },
+    {
+      "t": "Chuẩn bị gửi một gói hàng",
+      "e": [
+        {
+          "p": "Hello. I want to send this gift to my sister.",
+          "m": "Hỏi gói hàng này đi đâu và nó có gì.",
+          "h": "Dùng 'Where is it going?' và 'What is inside...?'",
+          "s": "Where is it going? What is inside the package?"
+        },
+        {
+          "p": "It's going to [studentCity]. It has a small toy.",
+          "m": "Hỏi gói hàng có nặng không và cần một cái hộp không.",
+          "h": "Dùng 'Is it heavy?' và 'Do you need...?'",
+          "s": "Is it heavy? Do you need a box?"
+        },
+        {
+          "p": "No, it's light. But I need to pack it well.",
+          "m": "Nói bạn có hộp và bạn có thể giúp gói nó.",
+          "h": "Dùng 'I have...' và 'I can help...'",
+          "s": "I have boxes here. I can help you pack it."
+        },
+        {
+          "p": "That's great! How much does it cost to send it to [studentCity]?",
+          "m": "Nói chi phí khoảng 5 đô la và nó sẽ mất hai ngày.",
+          "h": "Dùng 'It costs about...' và 'It will take...'",
+          "s": "It costs about five dollars. It will take two days."
+        },
+        {
+          "p": "Okay, that sounds good. I want to send it now.",
+          "m": "Yêu cầu địa chỉ người nhận và tên của họ.",
+          "h": "Dùng 'Please give me...' và 'What is their name?'",
+          "s": "Please give me the recipient's address. What is their name?"
+        }
+      ]
+    },
+    {
+      "t": "Xác nhận thông tin giao hàng",
+      "e": [
+        {
+          "p": "Good morning. I am here for a delivery.",
+          "m": "Hỏi tên của bạn và gói hàng là cho ai.",
+          "h": "Dùng 'What is your name?' và 'Is this package for...?'",
+          "s": "What is your name? Is this package for [studentName]?"
+        },
+        {
+          "p": "Yes, my name is [studentName]. I am waiting for a package.",
+          "m": "Xác nhận địa chỉ và hỏi bạn có đúng không.",
+          "h": "Dùng 'Is your address...?' và 'Am I right?'",
+          "s": "Is your address 123 Main Street? Am I right?"
+        },
+        {
+          "p": "That is correct! This is my home.",
+          "m": "Nói gói hàng lớn và hỏi bạn có cần giúp không.",
+          "h": "Dùng 'The package is...' và 'Do you need...?'",
+          "s": "The package is big. Do you need help with it?"
+        },
+        {
+          "p": "Thank you, I can take it. My friend sent it from Japan.",
+          "m": "Nói đó là một món quà tốt và bạn sẽ thích nó.",
+          "h": "Dùng 'That is a good gift.' và 'You will like it.'",
+          "s": "That is a good gift. You will like it."
+        },
+        {
+          "p": "I am so excited! I often get packages from my friend.",
+          "m": "Nói điều đó rất tốt và bạn luôn có quà.",
+          "h": "Dùng 'That is very nice!' và 'You always have...'",
+          "s": "That is very nice! You always have gifts."
+        }
+      ]
+    },
+    {
+      "t": "Xử lý gói hàng bị hỏng",
+      "e": [
+        {
+          "p": "Hello. My package is broken.",
+          "m": "Xin lỗi về vấn đề đó và hỏi nó trông như thế nào.",
+          "h": "Dùng 'I am sorry...' và 'What does it look like?'",
+          "s": "I am sorry about that. What does it look like?"
+        },
+        {
+          "p": "The box is open, and my item is not good.",
+          "m": "Nói đó là một vấn đề lớn và bạn sẽ giúp.",
+          "h": "Dùng 'That is a big problem.' và 'I will help...'",
+          "s": "That is a big problem. I will help you fix it."
+        },
+        {
+          "p": "Thank you! I need a new item. It is a gift.",
+          "m": "Hỏi bạn đã gửi nó khi nào và bạn có số theo dõi không.",
+          "h": "Dùng 'When did you send it?' và 'Do you have...?'",
+          "s": "When did you send it? Do you have the tracking number?"
+        },
+        {
+          "p": "I sent it last week. Yes, here is the number.",
+          "m": "Xác nhận bạn đang kiểm tra và nói bạn sẽ gọi lại.",
+          "h": "Dùng 'I am checking...' và 'I will call you back.'",
+          "s": "I am checking your package now. I will call you back soon."
+        },
+        {
+          "p": "Okay, thank you. I am waiting for your call.",
+          "m": "Nói bạn sẽ gọi vào chiều nay và bạn sẽ cố gắng giúp.",
+          "h": "Dùng 'I will call...' và 'I will try to help.'",
+          "s": "I will call this afternoon. I will try to help you quickly."
+        }
+      ]
+    },
+    {
+      "t": "Sắp xếp lại lịch giao hàng",
+      "e": [
+        {
+          "p": "Hi. I am not home for my package delivery today.",
+          "m": "Hỏi bạn muốn làm gì và bạn có thể sắp xếp lại không.",
+          "h": "Dùng 'What do you want?' và 'Can you reschedule...?'",
+          "s": "What do you want to do? Can you reschedule delivery?"
+        },
+        {
+          "p": "Yes, I want to reschedule it for tomorrow, please.",
+          "m": "Xác nhận ngày mai và hỏi buổi sáng hay buổi chiều.",
+          "h": "Dùng 'Okay, tomorrow.' và 'Morning or afternoon?'",
+          "s": "Okay, tomorrow. Morning or afternoon?"
+        },
+        {
+          "p": "In the morning, please. I am usually home then.",
+          "m": "Nói bạn sẽ ghi chú và gói hàng sẽ đến.",
+          "h": "Dùng 'I will make a note.' và 'The package will come.'",
+          "s": "I will make a note. The package will come in the morning."
+        },
+        {
+          "p": "Thank you so much! My package is important.",
+          "m": "Hỏi nó có gì và nó đến từ đâu.",
+          "h": "Dùng 'What is inside?' và 'Where is it from?'",
+          "s": "What is inside? Where is it from?"
+        },
+        {
+          "p": "It has some new clothes. It is from a store in the city.",
+          "m": "Nói bạn thích quần áo và bạn sẽ nhận nó.",
+          "h": "Dùng 'I like clothes.' và 'You will get it.'",
+          "s": "I like new clothes. You will get it tomorrow morning."
+        }
+      ]
+    },
+    {
+      "t": "Chi phí và phương thức giao hàng",
+      "e": [
+        {
+          "p": "Hello. I want to know about shipping costs.",
+          "m": "Hỏi gói hàng đi đâu và nó có nặng không.",
+          "h": "Dùng 'Where is it going?' và 'Is it heavy?'",
+          "s": "Where is it going? Is it heavy?"
+        },
+        {
+          "p": "It is going to Hanoi. It is a little heavy.",
+          "m": "Nói chi phí là 10 đô la và bạn có thể gửi nhanh.",
+          "h": "Dùng 'It costs...' và 'You can send it fast.'",
+          "s": "It costs ten dollars. You can send it fast."
+        },
+        {
+          "p": "How fast is 'fast' delivery?",
+          "m": "Nói nó mất một ngày và nó rất nhanh.",
+          "h": "Dùng 'It takes...' và 'It is very fast.'",
+          "s": "It takes one day. It is very fast."
+        },
+        {
+          "p": "That sounds good. What about slow delivery?",
+          "m": "Nói nó mất ba ngày và nó rẻ hơn.",
+          "h": "Dùng 'It takes...' và 'It is cheaper.'",
+          "s": "It takes three days. It is cheaper."
+        },
+        {
+          "p": "Okay, I want the fast delivery. Here is my package.",
+          "m": "Xác nhận bạn sẽ gửi nó và nó sẽ đến sớm.",
+          "h": "Dùng 'I will send it.' và 'It will arrive soon.'",
+          "s": "I will send it now. It will arrive very soon."
+        }
+      ]
+    },
+    {
+      "t": "Phản hồi về dịch vụ",
+      "e": [
+        {
+          "p": "Good morning! How was your delivery service today?",
+          "m": "Nói dịch vụ tốt và người giao hàng rất thân thiện.",
+          "h": "Dùng 'It was good.' và 'The delivery man is...'",
+          "s": "It was good. The delivery man is very friendly."
+        },
+        {
+          "p": "That's great to hear! Was your package delivered on time?",
+          "m": "Xác nhận nó đúng giờ và bạn rất vui.",
+          "h": "Dùng 'Yes, it was on time.' và 'I am happy.'",
+          "s": "Yes, it was on time. I am happy with it."
+        },
+        {
+          "p": "We always try our best. Do you have any suggestions?",
+          "m": "Nói mọi thứ đều tốt và bạn không có gợi ý.",
+          "h": "Dùng 'Everything is good.' và 'I do not have...'",
+          "s": "Everything is good. I do not have any suggestions."
+        },
+        {
+          "p": "Thank you for your kind words! Do you often use our service?",
+          "m": "Xác nhận bạn thường xuyên sử dụng và bạn thích nó.",
+          "h": "Dùng 'Yes, I often use...' và 'I like it.'",
+          "s": "Yes, I often use your service. I like it very much."
+        },
+        {
+          "p": "We are glad to hear that. What do you like most?",
+          "m": "Nói bạn thích giao hàng nhanh và sự tiện lợi.",
+          "h": "Dùng 'I like the fast delivery.' và 'It is very convenient.'",
+          "s": "I like the fast delivery. It is very convenient for me."
+        }
+      ]
+    },
+    {
+      "t": "Ôn tập: Giao hàng hàng ngày",
+      "e": [
+        {
+          "p": "Are you sending a package today, or receiving one?",
+          "m": "Nói bạn đang gửi một cái và nó là một món quà nhỏ.",
+          "h": "Dùng 'I am sending...' và 'It is a small gift.'",
+          "s": "I am sending one. It is a small gift."
+        },
+        {
+          "p": "Who is the package for? And where is it going?",
+          "m": "Nói nó cho mẹ bạn và nó đến một thành phố khác.",
+          "h": "Dùng 'It is for...' và 'It is going to...'",
+          "s": "It is for my mother. It is going to another city."
+        },
+        {
+          "p": "How much does it cost to send this small gift fast?",
+          "m": "Nói chi phí 7 đô la và nó sẽ đến vào ngày mai.",
+          "h": "Dùng 'It costs...' và 'It will arrive...'",
+          "s": "It costs seven dollars. It will arrive tomorrow."
+        },
+        {
+          "p": "That's good. My mother is waiting for it.",
+          "m": "Xác nhận bạn sẽ gửi nó ngay và bạn hy vọng cô ấy thích nó.",
+          "h": "Dùng 'I will send it now.' và 'I hope she likes it.'",
+          "s": "I will send it now. I hope she likes it very much."
+        },
+        {
+          "p": "I hope so too! She often gets gifts from me.",
+          "m": "Nói bạn là một người con tốt và bạn luôn nghĩ về cô ấy.",
+          "h": "Dùng 'You are a good child.' và 'You always think of her.'",
+          "s": "You are a good child. You always think of her."
+        }
+      ]
+    },
+    {
+      "t": "Ôn tập: Xử lý các sự cố vận chuyển",
+      "e": [
+        {
+          "p": "Hello. I have a problem with my package. It is late.",
+          "m": "Hỏi số theo dõi và bạn sẽ kiểm tra.",
+          "h": "Dùng 'What is the tracking number?' và 'I will check it.'",
+          "s": "What is the tracking number? I will check it now."
+        },
+        {
+          "p": "The tracking number is 12345. It was supposed to be here yesterday.",
+          "m": "Xin lỗi về sự chậm trễ và nói gói hàng đang bị trì hoãn.",
+          "h": "Dùng 'I am sorry...' và 'The package is delayed.'",
+          "s": "I am sorry for the delay. The package is delayed."
+        },
+        {
+          "p": "Delayed? Why is it delayed? I need it today.",
+          "m": "Nói có một vấn đề nhỏ và gói hàng đến vào ngày mai.",
+          "h": "Dùng 'There is a small problem.' và 'It is coming tomorrow.'",
+          "s": "There is a small problem. It is coming tomorrow morning."
+        },
+        {
+          "p": "I am not happy about this. I am very angry.",
+          "m": "Xin lỗi một lần nữa và bạn sẽ cố gắng giúp.",
+          "h": "Dùng 'I am very sorry again.' và 'I will try to help you.'",
+          "s": "I am very sorry again. I will try to help you better."
+        },
+        {
+          "p": "Can you call me when it is near? My number is [studentPhoneNumber].",
+          "m": "Xác nhận bạn sẽ gọi và bạn sẽ thông báo cho bạn.",
+          "h": "Dùng 'Yes, I will call you.' và 'I will tell you.'",
+          "s": "Yes, I will call you. I will tell you when it is near."
+        }
+      ]
+    },
+    {
+      "t": "Ôn tập: Lập kế hoạch vận chuyển",
+      "e": [
+        {
+          "p": "I need to send some boxes to my new apartment. Can you help?",
+          "m": "Hỏi có bao nhiêu hộp và bạn có cần hộp không.",
+          "h": "Dùng 'How many boxes?' và 'Do you need boxes?'",
+          "s": "How many boxes? Do you need boxes for them?"
+        },
+        {
+          "p": "I have three big boxes. I need to send them next week.",
+          "m": "Nói bạn có thể giúp và hỏi địa chỉ mới của bạn.",
+          "h": "Dùng 'I can help you.' và 'What is your new address?'",
+          "s": "I can help you with that. What is your new address?"
+        },
+        {
+          "p": "My new address is 456 Oak Street, [studentCity].",
+          "m": "Nói chi phí sẽ là 20 đô la và bạn sẽ đến lấy chúng.",
+          "h": "Dùng 'The cost is...' và 'I will come to pick them up.'",
+          "s": "The cost is twenty dollars. I will come to pick them up."
+        },
+        {
+          "p": "When are you coming to pick them up next week?",
+          "m": "Nói bạn sẽ đến vào thứ Ba và bạn thường làm việc đó.",
+          "h": "Dùng 'I am coming on Tuesday.' và 'I usually do that.'",
+          "s": "I am coming on Tuesday. I usually do that in the morning."
+        },
+        {
+          "p": "Perfect! I will be home on Tuesday morning. Thank you!",
+          "m": "Nói điều đó rất tốt và bạn sẽ gặp bạn vào thứ Ba.",
+          "h": "Dùng 'That is very good.' và 'I will see you on Tuesday.'",
+          "s": "That is very good. I will see you on Tuesday morning."
+        }
+      ]
+    }
+  ]
+}

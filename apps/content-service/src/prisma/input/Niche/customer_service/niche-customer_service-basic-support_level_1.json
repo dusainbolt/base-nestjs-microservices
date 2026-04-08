@@ -1,0 +1,530 @@
+{
+  "l": 1,
+  "d": [
+    {
+      "t": "Tiếp tân: Đón khách",
+      "e": [
+        {
+          "p": "What's your name?",
+          "m": "Nói tên của bạn.",
+          "h": "My name is / I am",
+          "s": "My name is [studentName]."
+        },
+        {
+          "p": "Do you have a reservation?",
+          "m": "Trả lời có hoặc không.",
+          "h": "Yes, I have / No, I don't",
+          "s": "No, I don't have a reservation."
+        },
+        {
+          "p": "How many people are with you?",
+          "m": "Nói số người.",
+          "h": "We are + number / There are + number",
+          "s": "We are two people."
+        },
+        {
+          "p": "What time will you come?",
+          "m": "Nói giờ bạn đến bằng một câu đơn.",
+          "h": "I come at + time",
+          "s": "I come at 3 pm."
+        },
+        {
+          "p": "Do you need a high chair?",
+          "m": "Trả lời 'yes' hoặc 'no'.",
+          "h": "Yes, please / No, thank you",
+          "s": "Yes, I need a high chair."
+        }
+      ]
+    },
+    {
+      "t": "Thông tin sản phẩm",
+      "e": [
+        {
+          "p": "What color do you want?",
+          "m": "Nói màu bạn muốn.",
+          "h": "I want + color",
+          "s": "I want a red one."
+        },
+        {
+          "p": "Is this item available?",
+          "m": "Trả lời có hoặc không.",
+          "h": "Yes, it is / No, it isn't",
+          "s": "Yes, it is available."
+        },
+        {
+          "p": "How much is this?",
+          "m": "Nói giá ngắn gọn.",
+          "h": "It is + number",
+          "s": "It is 20 dollars."
+        },
+        {
+          "p": "Can I return this item?",
+          "m": "Trả lời có thể trả hàng hay không.",
+          "h": "Yes, you can / No, you can't",
+          "s": "Yes, you can return it in 7 days."
+        },
+        {
+          "p": "Do you want to buy it?",
+          "m": "Trả lời yes hoặc no một câu.",
+          "h": "Yes, I want / No, I don't want",
+          "s": "Yes, I want to buy it."
+        }
+      ]
+    },
+    {
+      "t": "Giờ mở cửa",
+      "e": [
+        {
+          "p": "What time do you open?",
+          "m": "Nói giờ mở cửa.",
+          "h": "We open at + time",
+          "s": "We open at 9 am."
+        },
+        {
+          "p": "When do you close?",
+          "m": "Nói giờ đóng cửa.",
+          "h": "We close at + time",
+          "s": "We close at 6 pm."
+        },
+        {
+          "p": "Are you open on Sunday?",
+          "m": "Trả lời có mở vào Chủ nhật không.",
+          "h": "Yes, we are / No, we aren't",
+          "s": "No, we are not open on Sunday."
+        },
+        {
+          "p": "Is the shop open right now?",
+          "m": "Trả lời yes hoặc no.",
+          "h": "Yes, it is / No, it isn't",
+          "s": "Yes, it is open now."
+        },
+        {
+          "p": "What days are you open?",
+          "m": "Nói các ngày mở cửa (một cụm từ).",
+          "h": "We are open + days",
+          "s": "We are open Monday to Friday."
+        }
+      ]
+    },
+    {
+      "t": "Hướng dẫn đường đơn giản",
+      "e": [
+        {
+          "p": "Where is the station?",
+          "m": "Nói vị trí ngắn gọn.",
+          "h": "It is near / It is on",
+          "s": "It is near the park."
+        },
+        {
+          "p": "How far is the shop from here?",
+          "m": "Nói khoảng cách bằng thời gian hoặc số phút.",
+          "h": "It is + number + minutes",
+          "s": "It is five minutes from here."
+        },
+        {
+          "p": "Is there parking here?",
+          "m": "Trả lời có hoặc không.",
+          "h": "Yes, there is / No, there isn't",
+          "s": "Yes, there is parking."
+        },
+        {
+          "p": "Can I walk to the cafe?",
+          "m": "Trả lời có thể đi bộ hay không.",
+          "h": "Yes, you can / No, you can't",
+          "s": "Yes, you can walk there."
+        },
+        {
+          "p": "Which street is the cafe on?",
+          "m": "Nói tên đường ngắn gọn.",
+          "h": "It is on + street",
+          "s": "It is on Main Street."
+        }
+      ]
+    },
+    {
+      "t": "Đặt chỗ bàn ăn",
+      "e": [
+        {
+          "p": "I would like to book a table.",
+          "m": "Cho tên cho đặt chỗ.",
+          "h": "My name is + name",
+          "s": "My name is [studentName]."
+        },
+        {
+          "p": "How many people will come?",
+          "m": "Nói số người cho đặt chỗ.",
+          "h": "We are + number",
+          "s": "We are 4 people."
+        },
+        {
+          "p": "What time do you want the table?",
+          "m": "Nói giờ bạn muốn.",
+          "h": "At + time",
+          "s": "At 7 pm."
+        },
+        {
+          "p": "Do you have any food allergy?",
+          "m": "Trả lời có hoặc không.",
+          "h": "Yes, I have / No, I don't",
+          "s": "No, I don't have any allergy."
+        },
+        {
+          "p": "Can we have a window seat?",
+          "m": "Trả lời có thể hay không.",
+          "h": "Yes, you can / No, you can't",
+          "s": "Yes, you can have a window seat."
+        }
+      ]
+    },
+    {
+      "t": "Giao hàng và địa chỉ",
+      "e": [
+        {
+          "p": "Do you deliver to my area?",
+          "m": "Trả lời có hay không.",
+          "h": "Yes, we do / No, we don't",
+          "s": "Yes, we deliver to your area."
+        },
+        {
+          "p": "How long is delivery?",
+          "m": "Nói thời gian giao hàng (một câu).",
+          "h": "It takes + number + days/hours",
+          "s": "It takes two days."
+        },
+        {
+          "p": "Can I get same-day delivery?",
+          "m": "Trả lời có hoặc không.",
+          "h": "Yes, you can / No, you can't",
+          "s": "No, you can't get same-day delivery."
+        },
+        {
+          "p": "What is your address?",
+          "m": "Nói địa chỉ ngắn gọn.",
+          "h": "Our address is + place",
+          "s": "Our address is 10 Main Street."
+        },
+        {
+          "p": "Do you need my phone number?",
+          "m": "Trả lời có hay không.",
+          "h": "Yes, we need / No, we don't",
+          "s": "Yes, we need your phone number."
+        }
+      ]
+    },
+    {
+      "t": "Thanh toán đơn giản",
+      "e": [
+        {
+          "p": "Do you accept card?",
+          "m": "Trả lời có hoặc không.",
+          "h": "Yes, we do / No, we don't",
+          "s": "Yes, we accept card."
+        },
+        {
+          "p": "Can I pay in cash?",
+          "m": "Trả lời có thể thanh toán tiền mặt hay không.",
+          "h": "Yes, you can / No, you can't",
+          "s": "Yes, you can pay in cash."
+        },
+        {
+          "p": "What is the total price?",
+          "m": "Nói tổng giá.",
+          "h": "The total is + number",
+          "s": "The total is 50 dollars."
+        },
+        {
+          "p": "Do you give a receipt?",
+          "m": "Trả lời có hay không.",
+          "h": "Yes, we do / No, we don't",
+          "s": "Yes, we give a receipt."
+        },
+        {
+          "p": "Can I pay now?",
+          "m": "Trả lời có thể thanh toán ngay hay không.",
+          "h": "Yes, you can / No, you can't",
+          "s": "Yes, you can pay now."
+        }
+      ]
+    },
+    {
+      "t": "Chính sách đổi trả",
+      "e": [
+        {
+          "p": "Can I return the shirt?",
+          "m": "Trả lời có thể trả hàng hay không.",
+          "h": "Yes, you can / No, you can't",
+          "s": "Yes, you can return the shirt."
+        },
+        {
+          "p": "How many days do I have to return?",
+          "m": "Nói số ngày cho đổi trả.",
+          "h": "It is + number + days",
+          "s": "It is 14 days."
+        },
+        {
+          "p": "Do I get a refund?",
+          "m": "Trả lời có được hoàn tiền hay không.",
+          "h": "Yes, you will / No, you won't",
+          "s": "Yes, you get a refund."
+        },
+        {
+          "p": "Where is the return desk?",
+          "m": "Nói vị trí ngắn gọn.",
+          "h": "It is at / It is near",
+          "s": "It is at the front desk."
+        },
+        {
+          "p": "Do you need the receipt for return?",
+          "m": "Trả lời có cần hay không.",
+          "h": "Yes, we need / No, we don't",
+          "s": "Yes, we need the receipt."
+        }
+      ]
+    },
+    {
+      "t": "Hỗ trợ kỹ thuật cơ bản",
+      "e": [
+        {
+          "p": "My phone does not charge.",
+          "m": "Đề xuất một bước đơn giản để thử (một câu).",
+          "h": "Try + noun",
+          "s": "Try another cable."
+        },
+        {
+          "p": "The Wi-Fi is slow.",
+          "m": "Đề xuất một hành động đơn giản để thử.",
+          "h": "Restart / Check the router",
+          "s": "Please restart the router."
+        },
+        {
+          "p": "My TV has no sound.",
+          "m": "Đề nghị kiểm tra một điều đơn giản.",
+          "h": "Check the volume / It is on",
+          "s": "Check the TV volume."
+        },
+        {
+          "p": "I can't log in to my account.",
+          "m": "Hỏi xem họ có quên mật khẩu không (một câu câu hỏi).",
+          "h": "Do you forget your password?",
+          "s": "Do you forget your password?"
+        },
+        {
+          "p": "Can you come to my house to fix it?",
+          "m": "Trả lời có thể đến nhà hay không.",
+          "h": "Yes, we can / No, we can't",
+          "s": "Yes, we can come to your house."
+        }
+      ]
+    },
+    {
+      "t": "Dịch vụ tại nhà",
+      "e": [
+        {
+          "p": "Do you clean houses?",
+          "m": "Trả lời có hay không.",
+          "h": "Yes, we do / No, we don't",
+          "s": "Yes, we clean houses."
+        },
+        {
+          "p": "Can you come tomorrow?",
+          "m": "Trả lời có thể đến vào ngày mai hay không.",
+          "h": "Yes, we can / No, we can't",
+          "s": "Yes, we can come tomorrow."
+        },
+        {
+          "p": "What time do you arrive?",
+          "m": "Nói giờ bạn sẽ tới.",
+          "h": "We arrive at + time",
+          "s": "We arrive at 9 am."
+        },
+        {
+          "p": "How much do you charge per visit?",
+          "m": "Nói giá cho mỗi lần đến.",
+          "h": "It is + number + dollars",
+          "s": "It is 30 dollars per visit."
+        },
+        {
+          "p": "Do you bring tools with you?",
+          "m": "Trả lời có hay không.",
+          "h": "Yes, we do / No, we don't",
+          "s": "Yes, we bring our tools."
+        }
+      ]
+    },
+    {
+      "t": "Hỏi về nhân viên cửa hàng",
+      "e": [
+        {
+          "p": "Who is the manager here?",
+          "m": "Nói ai là quản lý (một câu ngắn).",
+          "h": "The manager is + name",
+          "s": "The manager is Mr. Lee."
+        },
+        {
+          "p": "Is the doctor here today?",
+          "m": "Trả lời có hay không.",
+          "h": "Yes, he/she is / No, he/she isn't",
+          "s": "No, the doctor is not here."
+        },
+        {
+          "p": "Who can help me with this issue?",
+          "m": "Nói ai có thể giúp (một câu ngắn).",
+          "h": "The staff can help / Ask + person",
+          "s": "The staff can help you."
+        },
+        {
+          "p": "Does the teacher work at this center?",
+          "m": "Trả lời có hay không.",
+          "h": "Yes, he does / No, he doesn't",
+          "s": "Yes, the teacher works here."
+        },
+        {
+          "p": "Where is the nurse now?",
+          "m": "Nói vị trí ngắn của nhân viên.",
+          "h": "She is at / He is in",
+          "s": "She is in the clinic."
+        }
+      ]
+    },
+    {
+      "t": "Phản hồi khách hàng ngắn",
+      "e": [
+        {
+          "p": "Do you like the food here?",
+          "m": "Trả lời có hoặc không (một câu).",
+          "h": "I like / I don't like",
+          "s": "Yes, I like the food."
+        },
+        {
+          "p": "Was the service good?",
+          "m": "Trả lời có hoặc không.",
+          "h": "Yes, it was / No, it wasn't",
+          "s": "Yes, the service was good."
+        },
+        {
+          "p": "Do you want to come again?",
+          "m": "Trả lời có muốn quay lại hay không.",
+          "h": "Yes, I want / No, I don't want",
+          "s": "Yes, I want to come again."
+        },
+        {
+          "p": "Do you recommend this place to friends?",
+          "m": "Trả lời có hay không.",
+          "h": "Yes, I recommend / No, I don't recommend",
+          "s": "Yes, I recommend this place."
+        },
+        {
+          "p": "Is the room clean?",
+          "m": "Trả lời có hoặc không.",
+          "h": "Yes, it is / No, it isn't",
+          "s": "Yes, the room is clean."
+        }
+      ]
+    },
+    {
+      "t": "Ôn tập: Đặt chỗ và giờ mở",
+      "e": [
+        {
+          "p": "Can I make a booking?",
+          "m": "Cho tên cho đặt chỗ.",
+          "h": "My name is + name",
+          "s": "My name is [studentName]."
+        },
+        {
+          "p": "How many people will come with you?",
+          "m": "Nói số người.",
+          "h": "We are + number",
+          "s": "We are 3 people."
+        },
+        {
+          "p": "Which time do you prefer for dinner?",
+          "m": "Nói giờ bạn muốn cho bữa tối.",
+          "h": "At + time",
+          "s": "At 6 pm."
+        },
+        {
+          "p": "Are you open in the morning?",
+          "m": "Trả lời có mở vào buổi sáng hay không.",
+          "h": "Yes, we are / No, we aren't",
+          "s": "Yes, we are open in the morning."
+        },
+        {
+          "p": "Do you work on weekends?",
+          "m": "Trả lời cửa hàng/cơ sở có làm việc cuối tuần hay không.",
+          "h": "Yes, we do / No, we don't",
+          "s": "No, we don't work on weekends."
+        }
+      ]
+    },
+    {
+      "t": "Ôn tập: Mua hàng và thanh toán",
+      "e": [
+        {
+          "p": "Do you have this in blue color?",
+          "m": "Trả lời có hoặc không.",
+          "h": "Yes, we have / No, we don't",
+          "s": "Yes, we have it in blue."
+        },
+        {
+          "p": "How much is the bag?",
+          "m": "Nói giá của túi.",
+          "h": "It is + number",
+          "s": "It is 30 dollars."
+        },
+        {
+          "p": "Can I pay by card here?",
+          "m": "Trả lời có thể thanh toán bằng thẻ hay không.",
+          "h": "Yes, you can / No, you can't",
+          "s": "Yes, you can pay by card."
+        },
+        {
+          "p": "Do you give a receipt with the purchase?",
+          "m": "Trả lời có hay không.",
+          "h": "Yes, we do / No, we don't",
+          "s": "Yes, we give a receipt."
+        },
+        {
+          "p": "Can I return the item next week?",
+          "m": "Trả lời có thể trả hàng vào tuần tới không.",
+          "h": "Yes, you can / No, you can't",
+          "s": "Yes, you can return it next week."
+        }
+      ]
+    },
+    {
+      "t": "Ôn tập: Hỗ trợ khách hàng tổng hợp",
+      "e": [
+        {
+          "p": "My internet is slow at home.",
+          "m": "Đề xuất một bước đơn giản để thử (một câu).",
+          "h": "Restart / Check the router",
+          "s": "Please restart the router."
+        },
+        {
+          "p": "Where is the nearest station from here?",
+          "m": "Nói vị trí ngắn gọn.",
+          "h": "It is near + place",
+          "s": "It is near the post office."
+        },
+        {
+          "p": "Do you deliver to my city?",
+          "m": "Trả lời có giao hàng tới thành phố hay không.",
+          "h": "Yes, we do / No, we don't",
+          "s": "Yes, we deliver to your city."
+        },
+        {
+          "p": "Can I pay cash on delivery?",
+          "m": "Trả lời có thể trả tiền mặt khi nhận hàng hay không.",
+          "h": "Yes, you can / No, you can't",
+          "s": "Yes, you can pay cash on delivery."
+        },
+        {
+          "p": "Is there parking at your shop?",
+          "m": "Trả lời có bãi đỗ xe hay không.",
+          "h": "Yes, there is / No, there isn't",
+          "s": "Yes, there is parking."
+        }
+      ]
+    }
+  ]
+}

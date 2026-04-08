@@ -1,0 +1,635 @@
+{
+  "l": 3,
+  "d": [
+    {
+      "t": "Chia sẻ ấn tượng đầu tiên",
+      "e": [
+        {
+          "p": "Hi, we are gathering some feedback about our new app. What was your first impression when you started using it?",
+          "m": "Nêu ấn tượng đầu tiên của bạn về ứng dụng. Cho biết ứng dụng có dễ sử dụng không.",
+          "h": "Dùng \"My first impression was...\" và \"It was (not) easy to use.\"",
+          "s": "My first impression was good. It was easy to use."
+        },
+        {
+          "p": "Thanks for that! Was there anything you particularly liked about the app's design or features?",
+          "m": "Kể về một điều bạn đặc biệt thích. Giải thích tại sao bạn thích nó.",
+          "h": "Dùng \"I liked...\" hoặc \"I think... is good because...\"",
+          "s": "I liked the colors. They were bright and friendly, so I felt relaxed."
+        },
+        {
+          "p": "That's great to hear! On the other hand, was there anything that made you a little confused or disappointed at first?",
+          "m": "Cho biết có điều gì làm bạn bối rối không. Mô tả cảm xúc của bạn về điều đó.",
+          "h": "Dùng \"I was confused by...\" hoặc \"I felt disappointed because...\"",
+          "s": "I was confused by the menu. I felt disappointed because I couldn't find some options."
+        },
+        {
+          "p": "We appreciate your honesty. If you could change one thing right away to make it better, what would it be?",
+          "m": "Đề xuất một thay đổi bạn muốn. Giải thích tại sao thay đổi đó lại quan trọng.",
+          "h": "Dùng \"I would like to change...\" hoặc \"It should be...\"",
+          "s": "I would like to change the menu design. It should be simpler and clearer."
+        },
+        {
+          "p": "Thank you. Overall, would you recommend this app to a friend, based on your initial experience?",
+          "m": "Cho biết bạn có giới thiệu ứng dụng này không. Giải thích lý do bạn giới thiệu hoặc không giới thiệu.",
+          "h": "Dùng \"I would recommend it because...\" hoặc \"I would not recommend it because...\"",
+          "s": "Yes, I would recommend it. I think it has good features and it will improve."
+        }
+      ]
+    },
+    {
+      "t": "Phản hồi về dịch vụ khách hàng",
+      "e": [
+        {
+          "p": "Hello! We want to improve our customer service. Have you recently contacted our support team?",
+          "m": "Trả lời bạn đã liên hệ bộ phận hỗ trợ chưa. Cho biết khi nào bạn đã liên hệ họ.",
+          "h": "Dùng \"Yes, I contacted them...\" hoặc \"No, I didn't.\"",
+          "s": "Yes, I contacted them last week. I had a question about my order."
+        },
+        {
+          "p": "Great! How was your experience with our customer service representative? Were they helpful?",
+          "m": "Mô tả trải nghiệm của bạn với nhân viên. Cho biết họ có giúp ích cho bạn không.",
+          "h": "Dùng \"The representative was...\" và \"They were (not) helpful.\"",
+          "s": "The representative was friendly. They were very helpful and solved my problem quickly."
+        },
+        {
+          "p": "That's good to hear. What did you think about the time it took to get a response or solve your issue?",
+          "m": "Nêu suy nghĩ của bạn về thời gian phản hồi. Cho biết thời gian đó có hợp lý không.",
+          "h": "Dùng \"The response time was...\" và \"It was (not) reasonable.\"",
+          "s": "The response time was fast. It was very reasonable, so I was happy."
+        },
+        {
+          "p": "Thank you for your feedback. Is there anything our customer service team could do better in the future?",
+          "m": "Đề xuất một điểm mà đội hỗ trợ có thể cải thiện. Nêu lý do cho đề xuất đó.",
+          "h": "Dùng \"They could improve...\" hoặc \"I think they should...\"",
+          "s": "I think they should add more ways to contact them. Sometimes, it is hard to find the phone number."
+        },
+        {
+          "p": "We appreciate your suggestions. Would you choose to use our customer service again if you had another problem?",
+          "m": "Cho biết bạn có sử dụng lại dịch vụ này không. Giải thích lý do của bạn.",
+          "h": "Dùng \"Yes, I would use it again because...\" hoặc \"No, I would not because...\"",
+          "s": "Yes, I would use it again. They were very good, and I trust them to help me."
+        }
+      ]
+    },
+    {
+      "t": "Đánh giá một sản phẩm mới",
+      "e": [
+        {
+          "p": "Hi there! We just launched a new [product type, e.g., coffee machine]. Have you had a chance to try it yet?",
+          "m": "Trả lời bạn đã thử sản phẩm mới chưa. Cho biết bạn đã sử dụng nó trong bao lâu.",
+          "h": "Dùng \"Yes, I tried it...\" hoặc \"No, I haven't.\"",
+          "s": "Yes, I tried the new [product type] last week. I have used it for five days."
+        },
+        {
+          "p": "Great! What are your general thoughts on the product? What do you like most about it?",
+          "m": "Nêu suy nghĩ chung của bạn về sản phẩm. Kể về điều bạn thích nhất.",
+          "h": "Dùng \"I think it is...\" và \"I like the... most.\"",
+          "s": "I think it is a good product. I like the design most because it looks modern."
+        },
+        {
+          "p": "Interesting. And were there any features or aspects that you found disappointing or less useful?",
+          "m": "Cho biết bạn có thấy tính năng nào đáng thất vọng không. Giải thích lý do của bạn.",
+          "h": "Dùng \"I found... disappointing because...\"",
+          "s": "I found the battery life disappointing. It is shorter than I expected."
+        },
+        {
+          "p": "Thank you for your honesty. If you compare it to similar products you've used, is it better or worse?",
+          "m": "So sánh sản phẩm này với sản phẩm tương tự bạn đã dùng. Cho biết sản phẩm nào tốt hơn.",
+          "h": "Dùng \"This product is better/worse than... because...\"",
+          "s": "This product is better than my old one. It is faster and easier to clean."
+        },
+        {
+          "p": "Good to know. Based on your experience, what one improvement would make this product perfect for you?",
+          "m": "Đề xuất một cải tiến để làm sản phẩm hoàn hảo. Nêu tác dụng của cải tiến đó.",
+          "h": "Dùng \"It needs...\" hoặc \"I hope it will have...\"",
+          "s": "It needs a longer battery life. Then, it will be perfect for daily use."
+        }
+      ]
+    },
+    {
+      "t": "Góp ý về một sự kiện vừa qua",
+      "e": [
+        {
+          "p": "Hello! We just finished our annual conference. Did you attend the event?",
+          "m": "Trả lời bạn đã tham dự sự kiện chưa. Cho biết bạn tham dự vào ngày nào.",
+          "h": "Dùng \"Yes, I attended...\" hoặc \"No, I didn't.\"",
+          "s": "Yes, I attended the conference. I was there on Saturday."
+        },
+        {
+          "p": "Fantastic! What was your overall impression of the conference? Did you enjoy it?",
+          "m": "Nêu ấn tượng tổng thể của bạn về hội nghị. Cho biết bạn có thích nó không.",
+          "h": "Dùng \"My overall impression was...\" và \"I (didn't) enjoy it.\"",
+          "s": "My overall impression was positive. I enjoyed it a lot because there were many interesting talks."
+        },
+        {
+          "p": "That's great! What was your favorite part or session at the conference?",
+          "m": "Kể về phần hoặc buổi nói chuyện bạn thích nhất. Giải thích tại sao bạn thích nó.",
+          "h": "Dùng \"My favorite part was...\" hoặc \"I liked... because...\"",
+          "s": "My favorite part was the workshop about new technology. I liked it because I learned many new things."
+        },
+        {
+          "p": "Thanks for sharing. Was there anything that could have been better organized, like the schedule or the venue?",
+          "m": "Đề xuất một điểm có thể tổ chức tốt hơn. Cho biết bạn nghĩ gì về điểm đó.",
+          "h": "Dùng \"The schedule/venue could be better.\" hoặc \"I think...\"",
+          "s": "I think the schedule could be better. Sometimes, there were too many talks at the same time."
+        },
+        {
+          "p": "We appreciate your input. Will you be interested in attending our conference next year?",
+          "m": "Cho biết bạn có muốn tham dự hội nghị năm sau không. Nêu lý do bạn muốn hoặc không muốn tham dự.",
+          "h": "Dùng \"Yes, I will attend next year because...\" hoặc \"No, I will not because...\"",
+          "s": "Yes, I will attend next year. I am looking forward to seeing new speakers."
+        }
+      ]
+    },
+    {
+      "t": "Lý do cho phản hồi của bạn",
+      "e": [
+        {
+          "p": "Hi! We're reviewing some recent changes. Can you tell us why you found the new website layout difficult to navigate?",
+          "m": "Nêu lý do bạn thấy bố cục mới khó điều hướng. Giải thích cụ thể một điểm khó.",
+          "h": "Dùng \"I found it difficult because...\" hoặc \"It was hard to...\"",
+          "s": "I found it difficult because the buttons moved. It was hard to find the contact page."
+        },
+        {
+          "p": "I see. And what made you feel positive about the update to our mobile app? Was there a specific feature?",
+          "m": "Kể về một tính năng cụ thể khiến bạn hài lòng. Giải thích tại sao tính năng đó tốt.",
+          "h": "Dùng \"I felt positive because...\" hoặc \"The new... is good because...\"",
+          "s": "I felt positive because of the new notification system. It is better now and I don't miss important updates."
+        },
+        {
+          "p": "Thank you. You mentioned you were disappointed with our new delivery service. Could you tell us more about why?",
+          "m": "Nêu lý do cụ thể bạn thất vọng về dịch vụ giao hàng. Cho biết điều gì đã xảy ra.",
+          "h": "Dùng \"I was disappointed because...\" hoặc \"The delivery was...\"",
+          "s": "I was disappointed because the delivery was late. It arrived two hours after the expected time."
+        },
+        {
+          "p": "We understand. And what made you rate our product 'excellent'? We'd love to know the reasons.",
+          "m": "Kể về những lý do bạn đánh giá sản phẩm 'excellent'. Cho biết sản phẩm đó tốt như thế nào.",
+          "h": "Dùng \"I rated it excellent because...\" hoặc \"The product is...\"",
+          "s": "I rated it excellent because it works perfectly. It is also very easy to use every day."
+        },
+        {
+          "p": "Thanks for your detailed feedback. Why do you believe it's important for companies to collect customer feedback?",
+          "m": "Nêu lý do tại sao việc thu thập phản hồi khách hàng lại quan trọng. Cho biết điều gì sẽ xảy ra nếu không có phản hồi.",
+          "h": "Dùng \"It is important because...\" hoặc \"Without feedback, companies will...\"",
+          "s": "It is important because companies can improve. Without feedback, they will not know what customers need."
+        }
+      ]
+    },
+    {
+      "t": "Đề xuất cải thiện đơn giản",
+      "e": [
+        {
+          "p": "We're looking for ways to improve our website. Do you have any simple suggestions?",
+          "m": "Đề xuất một cải thiện đơn giản cho trang web. Cho biết nó sẽ giúp ích như thế nào.",
+          "h": "Dùng \"I suggest...\" hoặc \"The website should have...\"",
+          "s": "I suggest making the search bar bigger. It will be easier for users to find things."
+        },
+        {
+          "p": "Good idea! What about our physical store? Is there anything we could do to make your shopping experience better?",
+          "m": "Đề xuất một cải thiện cho cửa hàng. Cho biết điều gì sẽ thay đổi.",
+          "h": "Dùng \"The store should...\" hoặc \"I think you could...\"",
+          "s": "I think you could add more fitting rooms. It will make trying on clothes faster."
+        },
+        {
+          "p": "Thank you. We're thinking about adding new features to our online service. What kind of new feature would you find useful?",
+          "m": "Đề xuất một tính năng mới mà bạn thấy hữu ích. Giải thích lý do tại sao nó hữu ích.",
+          "h": "Dùng \"I would find... useful.\" hoặc \"A new feature for... would be good.\"",
+          "s": "I would find a wish list useful. I can save items and buy them later."
+        },
+        {
+          "p": "That's a practical suggestion. How about our newsletters? Do you have any ideas to make them more engaging?",
+          "m": "Đề xuất một cách để làm bản tin hấp dẫn hơn. Cho biết bạn muốn thấy điều gì.",
+          "h": "Dùng \"Newsletters should include...\" hoặc \"You could make them...\"",
+          "s": "Newsletters should include more discounts. I also want to see special offers for loyal customers."
+        },
+        {
+          "p": "Great points. If you could improve the process of giving feedback itself, what would you change?",
+          "m": "Đề xuất một cải thiện cho quy trình thu thập phản hồi. Cho biết nó sẽ làm cho quá trình dễ dàng hơn như thế nào.",
+          "h": "Dùng \"The feedback process should be...\" hoặc \"I think it would be better if...\"",
+          "s": "I think it would be better if the feedback forms were shorter. It will be faster for customers to complete."
+        }
+      ]
+    },
+    {
+      "t": "Phản hồi về hỗ trợ khách hàng qua các kênh",
+      "e": [
+        {
+          "p": "We want to know about your recent interaction with our support. Did you use our chat, phone, or email service?",
+          "m": "Cho biết bạn đã sử dụng kênh hỗ trợ nào. Kể về trải nghiệm của bạn với kênh đó.",
+          "h": "Dùng \"I used the chat/phone/email...\" hoặc \"My experience was...\"",
+          "s": "I used the chat service. My experience was good, and the agent responded quickly."
+        },
+        {
+          "p": "Good to know. For those who used our phone support, did you experience long waiting times?",
+          "m": "Nếu bạn dùng điện thoại, cho biết thời gian chờ có dài không. Nêu cảm xúc của bạn về việc đó.",
+          "h": "Dùng \"Yes, the waiting time was long.\" hoặc \"No, it was short.\"",
+          "s": "No, the waiting time was short. I was happy because I could talk to someone right away."
+        },
+        {
+          "p": "Thank you. And for our email support, how quickly did you receive a reply?",
+          "m": "Nếu bạn dùng email, cho biết bạn nhận được phản hồi nhanh đến mức nào. Nêu suy nghĩ của bạn về thời gian đó.",
+          "h": "Dùng \"I received a reply in...\" hoặc \"The email response was...\"",
+          "s": "I received a reply in about 24 hours. I think it was a reasonable time for an email."
+        },
+        {
+          "p": "We're trying to make all channels equally effective. Which channel do you find most convenient for getting help?",
+          "m": "Nêu kênh hỗ trợ bạn thấy tiện lợi nhất. Giải thích lý do tại sao nó tiện lợi nhất.",
+          "h": "Dùng \"I find... most convenient because...\"",
+          "s": "I find the chat service most convenient. It is easy to use when I am busy at work."
+        },
+        {
+          "p": "That's helpful insight. What one improvement would you suggest for our overall multi-channel support system?",
+          "m": "Đề xuất một cải thiện cho hệ thống hỗ trợ đa kênh tổng thể. Cho biết nó sẽ làm cho hệ thống tốt hơn như thế nào.",
+          "h": "Dùng \"The overall system should...\" hoặc \"I think you should...\"",
+          "s": "I think you should make sure all agents have the same information. It will make the service more consistent."
+        }
+      ]
+    },
+    {
+      "t": "So sánh trải nghiệm dịch vụ",
+      "e": [
+        {
+          "p": "Hi there! Thinking about different services, have you used our competitor's service recently?",
+          "m": "Trả lời bạn đã dùng dịch vụ của đối thủ cạnh tranh chưa. Cho biết dịch vụ đó là gì.",
+          "h": "Dùng \"Yes, I used...\" hoặc \"No, I haven't.\"",
+          "s": "Yes, I used their streaming service. It was about a month ago."
+        },
+        {
+          "p": "Interesting. Compared to ours, what was better about their service?",
+          "m": "Nêu một điểm dịch vụ của họ tốt hơn. Giải thích tại sao nó tốt hơn.",
+          "h": "Dùng \"Their service was better because...\"",
+          "s": "Their service was better because they had more new movies. It was also less expensive."
+        },
+        {
+          "p": "And what about our service? What do you think is better here than with our competitors?",
+          "m": "Nêu một điểm dịch vụ của chúng tôi tốt hơn. Giải thích tại sao nó tốt hơn.",
+          "h": "Dùng \"Our service is better because...\"",
+          "s": "Our service is better because the app is easier to use. The user interface is more friendly."
+        },
+        {
+          "p": "We appreciate that comparison. If we could learn one thing from our competitors, what should it be?",
+          "m": "Đề xuất một điều chúng tôi nên học hỏi từ đối thủ. Cho biết nó sẽ cải thiện dịch vụ như thế nào.",
+          "h": "Dùng \"We should learn to...\" hoặc \"I think you could...\"",
+          "s": "We should learn to offer more loyalty discounts. It will make customers feel more valued."
+        },
+        {
+          "p": "Good point. Overall, which service do you prefer, and why?",
+          "m": "Cho biết bạn thích dịch vụ nào hơn. Giải thích lý do của bạn.",
+          "h": "Dùng \"I prefer... because...\"",
+          "s": "I prefer your service. It is more reliable, and I like the content better."
+        }
+      ]
+    },
+    {
+      "t": "Kế hoạch cải thiện dựa trên phản hồi",
+      "e": [
+        {
+          "p": "Hello! We've received feedback that our app loads slowly. What do you think about this issue?",
+          "m": "Nêu suy nghĩ của bạn về vấn đề ứng dụng tải chậm. Cho biết điều đó có ảnh hưởng đến bạn không.",
+          "h": "Dùng \"I think it is...\" hoặc \"Yes, it affects me.\"",
+          "s": "I think it is a big problem. Yes, it affects me, and sometimes I give up."
+        },
+        {
+          "p": "Thank you. We plan to optimize the app's speed next month. Do you think this improvement will make a difference for users?",
+          "m": "Cho biết bạn có nghĩ cải thiện này sẽ tạo ra sự khác biệt không. Giải thích tại sao.",
+          "h": "Dùng \"Yes, I think it will...\" hoặc \"It will make a big difference because...\"",
+          "s": "Yes, I think it will make a big difference. Users want a fast app experience."
+        },
+        {
+          "p": "That's a good point. We also heard that users want more tutorials. Do you agree that more guides would be helpful?",
+          "m": "Cho biết bạn có đồng ý rằng hướng dẫn sẽ hữu ích không. Nêu lý do bạn đồng ý hoặc không đồng ý.",
+          "h": "Dùng \"Yes, I agree because...\" hoặc \"No, I don't think so because...\"",
+          "s": "Yes, I agree. New users will understand the features better with more tutorials."
+        },
+        {
+          "p": "Excellent. We're considering adding a 'frequently asked questions' (FAQ) section. What's your opinion on this?",
+          "m": "Nêu ý kiến của bạn về việc thêm mục FAQ. Cho biết nó có giúp ích cho bạn không.",
+          "h": "Dùng \"I think a FAQ section is...\" hoặc \"It would help me to...\"",
+          "s": "I think a FAQ section is a great idea. It would help me to find answers quickly without calling support."
+        },
+        {
+          "p": "We appreciate your input. What specific area do you think we should prioritize for improvement based on all the feedback?",
+          "m": "Nêu khu vực bạn nghĩ chúng tôi nên ưu tiên cải thiện. Giải thích tại sao khu vực đó quan trọng nhất.",
+          "h": "Dùng \"You should prioritize...\" hoặc \"I think... is the most important area.\"",
+          "s": "You should prioritize app speed. If the app is fast, users will be more relaxed and happy."
+        }
+      ]
+    },
+    {
+      "t": "Thảo luận về một vấn đề cụ thể",
+      "e": [
+        {
+          "p": "We've noticed a common complaint about our new loyalty program: it's too complicated. What are your thoughts?",
+          "m": "Nêu suy nghĩ của bạn về việc chương trình khách hàng thân thiết quá phức tạp. Cho biết bạn có gặp khó khăn với nó không.",
+          "h": "Dùng \"I think it is...\" hoặc \"Yes, I had difficulty with it.\"",
+          "s": "I think it is quite complicated. Yes, I had difficulty understanding how to earn points."
+        },
+        {
+          "p": "Thank you. Some customers say the rewards are not exciting enough. Do you agree with this feedback?",
+          "m": "Cho biết bạn có đồng ý rằng phần thưởng không hấp dẫn không. Nêu cảm xúc của bạn về các phần thưởng hiện tại.",
+          "h": "Dùng \"Yes, I agree.\" hoặc \"No, I think the rewards are...\"",
+          "s": "Yes, I agree. I feel disappointed because the rewards are not very special."
+        },
+        {
+          "p": "I see. If we made the program simpler and offered better rewards, do you think more people would join?",
+          "m": "Cho biết bạn có nghĩ nhiều người sẽ tham gia nếu chương trình đơn giản và phần thưởng tốt hơn không. Giải thích lý do của bạn.",
+          "h": "Dùng \"Yes, more people would join because...\"",
+          "s": "Yes, more people would join. A simple program with good rewards is more attractive."
+        },
+        {
+          "p": "That makes sense. What kind of rewards would motivate you to participate more actively in a loyalty program?",
+          "m": "Nêu loại phần thưởng sẽ thúc đẩy bạn tham gia tích cực hơn. Cho biết bạn muốn nhận được gì.",
+          "h": "Dùng \"I would like rewards like...\" hoặc \"Discounts on... would motivate me.\"",
+          "s": "I would like rewards like free products or bigger discounts. I want to feel special."
+        },
+        {
+          "p": "We appreciate your suggestions. If you had to choose between a simple program with average rewards or a complex one with amazing rewards, which would you prefer?",
+          "m": "Cho biết bạn sẽ chọn chương trình nào giữa hai loại. Giải thích lý do lựa chọn của bạn.",
+          "h": "Dùng \"I would prefer... because...\"",
+          "s": "I would prefer a simple program with average rewards. It is easier to understand and use."
+        }
+      ]
+    },
+    {
+      "t": "Phản hồi về tính năng mới",
+      "e": [
+        {
+          "p": "Hi! We've just launched a new 'dark mode' feature in our app. Have you tried it yet?",
+          "m": "Trả lời bạn đã thử tính năng chế độ tối chưa. Cho biết bạn có thích nó không.",
+          "h": "Dùng \"Yes, I tried it...\" hoặc \"No, I haven't.\"",
+          "s": "Yes, I tried the dark mode. I like it a lot, especially at night."
+        },
+        {
+          "p": "Great! What do you like about the dark mode? Does it make using the app more comfortable?",
+          "m": "Nêu điều bạn thích ở chế độ tối. Cho biết nó có làm cho việc dùng ứng dụng thoải mái hơn không.",
+          "h": "Dùng \"I like it because...\" hoặc \"Yes, it makes it more comfortable.\"",
+          "s": "I like it because it is better for my eyes. Yes, it makes using the app more comfortable in bed."
+        },
+        {
+          "p": "Thanks for sharing. Were there any issues or things you didn't like about the new dark mode implementation?",
+          "m": "Cho biết có vấn đề nào bạn không thích về chế độ tối không. Giải thích cụ thể một điểm bạn không thích.",
+          "h": "Dùng \"I didn't like...\" hoặc \"Sometimes, the colors are...\"",
+          "s": "Sometimes, the colors are not perfect on some screens. It makes some text hard to read."
+        },
+        {
+          "p": "I see. We also introduced a new 'quick share' button. Have you found it useful?",
+          "m": "Cho biết bạn có thấy nút chia sẻ nhanh hữu ích không. Nêu lý do nó hữu ích hoặc không hữu ích.",
+          "h": "Dùng \"Yes, I found it useful because...\" hoặc \"No, I didn't find it useful because...\"",
+          "s": "Yes, I found it useful because it saves time. I can share content very quickly now."
+        },
+        {
+          "p": "That's good. What other small feature would you suggest we add in the future to improve the app experience?",
+          "m": "Đề xuất một tính năng nhỏ khác bạn muốn thêm. Cho biết nó sẽ cải thiện trải nghiệm như thế nào.",
+          "h": "Dùng \"I would suggest adding...\" hoặc \"A small feature for... would improve it.\"",
+          "s": "I would suggest adding a 'read later' button. It will help users save articles for another time."
+        }
+      ]
+    },
+    {
+      "t": "Đánh giá quá trình đặt hàng",
+      "e": [
+        {
+          "p": "Hello! We're gathering feedback on our online ordering process. Did you place an order with us recently?",
+          "m": "Trả lời bạn có đặt hàng trực tuyến gần đây không. Cho biết đơn hàng đó là gì.",
+          "h": "Dùng \"Yes, I placed an order...\" hoặc \"No, I didn't.\"",
+          "s": "Yes, I placed an order for some books last week."
+        },
+        {
+          "p": "Great! How would you describe the ordering process from start to finish? Was it easy or difficult?",
+          "m": "Mô tả quá trình đặt hàng của bạn. Cho biết nó có dễ dàng không.",
+          "h": "Dùng \"The ordering process was...\" hoặc \"It was (not) easy.\"",
+          "s": "The ordering process was simple. It was very easy to find the books and add them to my cart."
+        },
+        {
+          "p": "Thanks for that. Were there any steps in the process that you found confusing or took too much time?",
+          "m": "Cho biết có bước nào bạn thấy khó hiểu hoặc tốn thời gian không. Nêu cụ thể bước đó.",
+          "h": "Dùng \"The payment step was...\" hoặc \"I found... confusing.\"",
+          "s": "The payment step was a bit confusing. I had to enter my card details many times."
+        },
+        {
+          "p": "I see. What about the order confirmation and tracking? Was that clear and helpful?",
+          "m": "Nêu ý kiến của bạn về việc xác nhận đơn hàng và theo dõi. Cho biết nó có rõ ràng và hữu ích không.",
+          "h": "Dùng \"The confirmation was...\" hoặc \"The tracking information was (not) helpful.\"",
+          "s": "The confirmation was clear. But the tracking information was not updated often enough."
+        },
+        {
+          "p": "Good to know. What one change would you suggest to make the online ordering experience even better?",
+          "m": "Đề xuất một thay đổi để cải thiện trải nghiệm đặt hàng trực tuyến. Cho biết nó sẽ làm cho quá trình suôn sẻ hơn như thế nào.",
+          "h": "Dùng \"I suggest adding...\" hoặc \"It would be better if...\"",
+          "s": "It would be better if there was an option to save payment information. It will make future orders faster."
+        }
+      ]
+    },
+    {
+      "t": "Đề xuất cho lần tới",
+      "e": [
+        {
+          "p": "Hello! We're planning our next big event. What kind of event would you be interested in attending?",
+          "m": "Nêu loại sự kiện bạn muốn tham dự. Cho biết bạn muốn sự kiện đó như thế nào.",
+          "h": "Dùng \"I would be interested in...\" hoặc \"I want an event that is...\"",
+          "s": "I would be interested in a technology workshop. I want an event that is interactive and practical."
+        },
+        {
+          "p": "That's a great idea! What topics would you like to see covered at this event?",
+          "m": "Nêu hai chủ đề bạn muốn được đề cập. Giải thích tại sao những chủ đề đó quan trọng với bạn.",
+          "h": "Dùng \"I would like to see topics like...\" hoặc \"These topics are important because...\"",
+          "s": "I would like to see topics like AI and future trends. These topics are important because they are very relevant now."
+        },
+        {
+          "p": "Thank you. And what kind of speakers or presenters would make the event more engaging for you?",
+          "m": "Mô tả loại diễn giả hoặc người trình bày bạn muốn thấy. Nêu điều bạn mong đợi từ họ.",
+          "h": "Dùng \"I would like speakers who are...\" hoặc \"I expect them to be...\"",
+          "s": "I would like speakers who are experts and good at explaining things. I expect them to be enthusiastic."
+        },
+        {
+          "p": "Good point. How long do you think an ideal session or talk should be to keep people's attention?",
+          "m": "Nêu độ dài lý tưởng cho một buổi nói chuyện. Giải thích tại sao độ dài đó là tốt nhất.",
+          "h": "Dùng \"An ideal session should be...\" hoặc \"This length is best because...\"",
+          "s": "An ideal session should be about 30 minutes. This length is best because people can focus well."
+        },
+        {
+          "p": "We appreciate your suggestions. If you could give one piece of advice for our next event, what would it be?",
+          "m": "Đề xuất một lời khuyên cho sự kiện tiếp theo. Cho biết lời khuyên đó sẽ giúp sự kiện tốt hơn như thế nào.",
+          "h": "Dùng \"My advice is to...\" hoặc \"It will make the event better by...\"",
+          "s": "My advice is to make sure there are enough networking breaks. It will make the event more social and fun."
+        }
+      ]
+    },
+    {
+      "t": "Chia sẻ kinh nghiệm cá nhân với dịch vụ",
+      "e": [
+        {
+          "p": "Hello! We're talking about recent service experiences. Could you describe a time you received excellent service?",
+          "m": "Mô tả một lần bạn nhận được dịch vụ xuất sắc. Kể về dịch vụ đó là gì.",
+          "h": "Dùng \"I received excellent service when...\" hoặc \"It was a service for...\"",
+          "s": "I received excellent service when I visited a restaurant. It was a service for a special dinner."
+        },
+        {
+          "p": "That's lovely! What made that experience so excellent for you? What did the staff do well?",
+          "m": "Nêu điều gì đã làm cho trải nghiệm đó xuất sắc. Kể về điều mà nhân viên đã làm tốt.",
+          "h": "Dùng \"The staff were...\" hoặc \"They were excellent because...\"",
+          "s": "The staff were very attentive and friendly. They were excellent because they made my birthday special."
+        },
+        {
+          "p": "Great to hear. On the other hand, can you recall a time you received very poor service?",
+          "m": "Kể về một lần bạn nhận được dịch vụ rất kém. Cho biết dịch vụ đó là gì.",
+          "h": "Dùng \"I received poor service when...\" hoặc \"It was from a...\"",
+          "s": "I received poor service when I bought something online. It was from a new clothes store."
+        },
+        {
+          "p": "I'm sorry to hear that. What specifically made that experience poor, and how did it make you feel?",
+          "m": "Nêu điều gì cụ thể làm trải nghiệm đó kém. Cho biết bạn cảm thấy thế nào về điều đó.",
+          "h": "Dùng \"The product was...\" hoặc \"I felt disappointed because...\"",
+          "s": "The product was broken when it arrived. I felt disappointed because they didn't offer a refund quickly."
+        },
+        {
+          "p": "Thank you for sharing both sides. What is the most important thing a business can do to ensure good service?",
+          "m": "Nêu điều quan trọng nhất một doanh nghiệp có thể làm để đảm bảo dịch vụ tốt. Giải thích tại sao điều đó quan trọng.",
+          "h": "Dùng \"The most important thing is...\" hoặc \"It is important because...\"",
+          "s": "The most important thing is to listen to customers. It is important because good communication helps everyone."
+        }
+      ]
+    },
+    {
+      "t": "Phản hồi về hiệu quả quảng cáo",
+      "e": [
+        {
+          "p": "Hello! We're looking at our recent ad campaigns. Have you seen our new advertisement for [product name]?",
+          "m": "Trả lời bạn đã xem quảng cáo mới chưa. Cho biết bạn đã xem nó ở đâu.",
+          "h": "Dùng \"Yes, I saw it...\" hoặc \"No, I didn't.\"",
+          "s": "Yes, I saw the new advertisement for [product name]. I saw it on social media last week."
+        },
+        {
+          "p": "Great! What was your initial reaction to the ad? Did it make you interested in the product?",
+          "m": "Nêu phản ứng ban đầu của bạn với quảng cáo. Cho biết nó có làm bạn quan tâm đến sản phẩm không.",
+          "h": "Dùng \"My initial reaction was...\" hoặc \"Yes, it made me interested.\"",
+          "s": "My initial reaction was positive. Yes, it made me interested in the product because it looked new."
+        },
+        {
+          "p": "Thank you. Did the ad clearly explain what the product does, or was anything confusing?",
+          "m": "Cho biết quảng cáo có giải thích rõ ràng về sản phẩm không. Nêu điều gì nếu có.",
+          "h": "Dùng \"Yes, it clearly explained...\" hoặc \"No, something was confusing.\"",
+          "s": "Yes, it clearly explained what the product does. I understood its main features."
+        },
+        {
+          "p": "Good to know. What do you think was the most effective part of the advertisement?",
+          "m": "Nêu phần hiệu quả nhất của quảng cáo. Giải thích tại sao nó hiệu quả.",
+          "h": "Dùng \"The most effective part was...\" hoặc \"It was effective because...\"",
+          "s": "The most effective part was the short video. It was effective because it showed the product in action."
+        },
+        {
+          "p": "We appreciate that insight. What one suggestion would you give to make our future advertisements even better?",
+          "m": "Đề xuất một cải thiện cho quảng cáo trong tương lai. Cho biết nó sẽ làm cho quảng cáo hấp dẫn hơn như thế nào.",
+          "h": "Dùng \"I suggest adding...\" hoặc \"Future ads should be...\"",
+          "s": "I suggest adding more real user testimonials. Future ads should be more relatable."
+        }
+      ]
+    },
+    {
+      "t": "Ôn tập: Tổng hợp phản hồi dịch vụ",
+      "e": [
+        {
+          "p": "Hello! We're doing a general check on customer satisfaction. Can you describe a recent service experience you had, good or bad?",
+          "m": "Mô tả một trải nghiệm dịch vụ gần đây. Cho biết đó là dịch vụ gì và ấn tượng của bạn.",
+          "h": "Dùng \"I had a service experience with...\" hoặc \"My impression was...\"",
+          "s": "I had a service experience with an online store. My impression was good because the delivery was fast."
+        },
+        {
+          "p": "That's useful. What was one thing that particularly impressed you, or disappointed you, about that service?",
+          "m": "Nêu một điểm khiến bạn ấn tượng hoặc thất vọng. Giải thích lý do của bạn.",
+          "h": "Dùng \"I was impressed by/disappointed by...\" hoặc \"It was because...\"",
+          "s": "I was impressed by their quick customer support. It was because they answered my questions in minutes."
+        },
+        {
+          "p": "Thank you. If you could suggest one major improvement for that service, what would it be?",
+          "m": "Đề xuất một cải thiện lớn cho dịch vụ đó. Nêu lý do bạn nghĩ nó cần được cải thiện.",
+          "h": "Dùng \"I would suggest...\" hoặc \"It needs improvement because...\"",
+          "s": "I would suggest improving their website search function. It needs improvement because it is hard to find products."
+        },
+        {
+          "p": "Good point. How important do you think customer feedback is for a service company to grow and improve?",
+          "m": "Nêu mức độ quan trọng của phản hồi khách hàng đối với công ty dịch vụ. Giải thích tại sao nó quan trọng.",
+          "h": "Dùng \"It is very important because...\" hoặc \"Without feedback, companies will...\"",
+          "s": "It is very important because companies can learn from it. Without feedback, companies will not know how to get better."
+        },
+        {
+          "p": "We appreciate your insights. If you had to compare this service to another one you've used, which is better overall and why?",
+          "m": "So sánh dịch vụ này với một dịch vụ khác bạn đã dùng. Cho biết dịch vụ nào tốt hơn và tại sao.",
+          "h": "Dùng \"This service is better/worse than... because...\"",
+          "s": "This service is better than another one I used. It is better because it offers faster delivery and good prices."
+        }
+      ]
+    },
+    {
+      "t": "Ôn tập: Đánh giá sản phẩm và đề xuất",
+      "e": [
+        {
+          "p": "Hello! We're reviewing different products. Have you recently bought a new product that you have strong feelings about?",
+          "m": "Trả lời bạn có mua sản phẩm mới nào có cảm xúc mạnh không. Cho biết sản phẩm đó là gì.",
+          "h": "Dùng \"Yes, I bought...\" hoặc \"No, I didn't.\"",
+          "s": "Yes, I bought a new smartphone last month. I have strong feelings about it."
+        },
+        {
+          "p": "Great! What did you like or dislike most about this product?",
+          "m": "Nêu điều bạn thích hoặc không thích nhất về sản phẩm. Giải thích lý do của bạn.",
+          "h": "Dùng \"I liked/disliked the... most because...\"",
+          "s": "I liked the camera most because it takes very clear pictures. But I disliked the battery life."
+        },
+        {
+          "p": "I see. If you could change two things about the product to make it better, what would they be?",
+          "m": "Đề xuất hai thay đổi để cải thiện sản phẩm. Nêu lý do cho từng thay đổi.",
+          "h": "Dùng \"I would change... and...\" hoặc \"It needs... because...\"",
+          "s": "I would change the battery life and the screen size. It needs a longer battery, and a bigger screen would be more comfortable."
+        },
+        {
+          "p": "How important is it for companies to listen to customer feedback when developing new products?",
+          "m": "Nêu mức độ quan trọng của việc công ty lắng nghe phản hồi khi phát triển sản phẩm mới. Giải thích lý do.",
+          "h": "Dùng \"It is very important because...\" hoặc \"Companies must listen to feedback to...\"",
+          "s": "It is very important because customers know what they want. Companies must listen to feedback to make good products."
+        },
+        {
+          "p": "Good point. Would you recommend this product to your friends or family, and why?",
+          "m": "Cho biết bạn có giới thiệu sản phẩm này cho bạn bè hoặc gia đình không. Giải thích lý do của bạn.",
+          "h": "Dùng \"Yes, I would recommend it because...\" hoặc \"No, I would not because...\"",
+          "s": "Yes, I would recommend it. It is a good phone, and the camera is excellent for memories."
+        }
+      ]
+    },
+    {
+      "t": "Ôn tập: Thảo luận về trải nghiệm tổng thể",
+      "e": [
+        {
+          "p": "Hello! Let's talk about overall experiences. Describe a positive experience you had recently with a company.",
+          "m": "Mô tả một trải nghiệm tích cực gần đây với một công ty. Cho biết đó là về điều gì.",
+          "h": "Dùng \"I had a positive experience with...\" hoặc \"It was about...\"",
+          "s": "I had a positive experience with a local cafe. It was about their new loyalty card."
+        },
+        {
+          "p": "That's nice. What specific actions or details from the company made that experience so good?",
+          "m": "Nêu những hành động hoặc chi tiết cụ thể khiến trải nghiệm đó tốt. Giải thích cảm xúc của bạn.",
+          "h": "Dùng \"They offered...\" hoặc \"I felt happy because...\"",
+          "s": "They offered a free coffee with my first stamp. I felt happy because it was a nice surprise."
+        },
+        {
+          "p": "Thank you. Now, can you recall a time when your feedback led to a positive change with a company?",
+          "m": "Kể về một lần phản hồi của bạn dẫn đến thay đổi tích cực. Cho biết đó là về vấn đề gì.",
+          "h": "Dùng \"Once, my feedback led to...\" hoặc \"It was about a problem with...\"",
+          "s": "Once, my feedback led to a new payment option. It was about a problem with online transactions."
+        },
+        {
+          "p": "That's impactful! How did that positive change make you feel about the company?",
+          "m": "Cho biết thay đổi tích cực đó khiến bạn cảm thấy thế nào về công ty. Giải thích tại sao.",
+          "h": "Dùng \"I felt more... about the company because...\"",
+          "s": "I felt more loyal to the company. I felt respected because they listened to customer ideas."
+        },
+        {
+          "p": "We appreciate you sharing. What is the most important message a company can send to its customers through its actions?",
+          "m": "Nêu thông điệp quan trọng nhất mà một công ty có thể gửi tới khách hàng. Giải thích ý nghĩa của thông điệp đó.",
+          "h": "Dùng \"The most important message is...\" hoặc \"It means that...\"",
+          "s": "The most important message is \"We care about you.\" It means that customer satisfaction is their priority."
+        }
+      ]
+    }
+  ]
+}
