@@ -1,0 +1,530 @@
+{
+  "l": 2,
+  "d": [
+    {
+      "t": "Gặp đầu tiên ở văn phòng",
+      "e": [
+        {
+          "p": "What's your name?",
+          "m": "Nói tên. Nói nghề/người bạn làm việc cùng (vị trí ngắn).",
+          "h": "S + be + name. S + work(s) as + job.",
+          "s": "My name is [studentName]. I work as a [studentJob]."
+        },
+        {
+          "p": "Where do you live?",
+          "m": "Nói thành phố bạn sống. Nói chỗ làm (ví dụ: văn phòng, nhà máy).",
+          "h": "I live in + city. My office is + nơi.",
+          "s": "I live in [studentCity]. My office is downtown."
+        },
+        {
+          "p": "What is your job title?",
+          "m": "Nói chức danh công việc. Nói phòng ban bạn làm việc.",
+          "h": "I am a + job. I work in the + department.",
+          "s": "I am a [studentJob]. I work in the sales department."
+        },
+        {
+          "p": "Do you like your job?",
+          "m": "Nói bạn có thích công việc không. Nói lý do ngắn (1 lý do simple).",
+          "h": "I like / I don't like + my job. Because + short reason.",
+          "s": "I like my job. I enjoy helping customers."
+        },
+        {
+          "p": "How many people are in your team?",
+          "m": "Nói số thành viên trong team. Nói ai là quản lý (vị trí).",
+          "h": "There are + số + people. My manager is the + role.",
+          "s": "There are five people in my team. My manager is the team leader."
+        }
+      ]
+    },
+    {
+      "t": "Giới thiệu vị trí làm việc",
+      "e": [
+        {
+          "p": "What do you do here?",
+          "m": "Nói công việc chính bạn làm mỗi ngày. Nói bạn làm việc với ai (ví dụ: khách hàng/đồng nghiệp).",
+          "h": "I handle/do + công việc. I work with + người.",
+          "s": "I answer customer emails. I work with the support team."
+        },
+        {
+          "p": "Which floor is your office on?",
+          "m": "Nói tầng/địa điểm văn phòng. Nói mô tả ngắn nơi đó (ví dụ: gần thang máy).",
+          "h": "My office is on + floor. It is + short place description.",
+          "s": "My office is on the second floor. It is near the elevator."
+        },
+        {
+          "p": "Are you a manager?",
+          "m": "Nói có phải quản lý không. Nói bạn làm gì nếu không phải (vai trò).",
+          "h": "Yes, I am / No, I am not. I am a + job.",
+          "s": "No, I am not a manager. I am a [studentJob]."
+        },
+        {
+          "p": "Who do you report to?",
+          "m": "Nói vị trí người bạn báo cáo. Nói một việc bạn báo cáo ngắn (ví dụ: báo cáo công việc).",
+          "h": "I report to the + role. I report + việc ngắn.",
+          "s": "I report to the project manager. I report my weekly tasks."
+        },
+        {
+          "p": "Do you work full time here?",
+          "m": "Nói bạn làm toàn thời gian hay bán thời gian. Nói một điều về lịch làm việc (ví dụ: số ngày/tối giản).",
+          "h": "I work full time / part time. I work + số/ngày.",
+          "s": "I work full time. I work five days a week."
+        }
+      ]
+    },
+    {
+      "t": "Nói về phòng ban",
+      "e": [
+        {
+          "p": "Which department are you in?",
+          "m": "Nói phòng ban. Nói một hoạt động chính của phòng ban.",
+          "h": "I am in the + department. We + hoạt động chính.",
+          "s": "I am in the marketing department. We make simple ads."
+        },
+        {
+          "p": "How many people work in your department?",
+          "m": "Nói số người trong phòng. Nói một nghề/role khác trong phòng.",
+          "h": "There are + số people. There is/are + a/an + role.",
+          "s": "There are ten people in my department. There is a designer and a writer."
+        },
+        {
+          "p": "Is your department near HR?",
+          "m": "Nói vị trí tương đối của phòng bạn so với HR. Nói bạn thường làm việc với HR không.",
+          "h": "It is + vị trí + HR. I (don't) often work with HR.",
+          "s": "It is next to HR. I sometimes work with HR."
+        },
+        {
+          "p": "What does your department do?",
+          "m": "Nói nhiệm vụ chính của phòng. Nói một kết quả ngắn (ví dụ: tạo sản phẩm, bán hàng).",
+          "h": "We + verb (present). We + result.",
+          "s": "We create adverts. We help the company sell more."
+        },
+        {
+          "p": "Do you enjoy working in your department?",
+          "m": "Nói bạn có thích làm việc ở phòng không. Nói lý do ngắn (môi trường/đồng nghiệp).",
+          "h": "I enjoy / I don't enjoy + working in + department. Because + reason.",
+          "s": "I enjoy working in my department. The team is friendly."
+        }
+      ]
+    },
+    {
+      "t": "Nói về công ty",
+      "e": [
+        {
+          "p": "What kind of company is this?",
+          "m": "Nói loại công ty (ví dụ: công nghệ, bán lẻ). Nói quy mô ngắn (ví dụ: small/big).",
+          "h": "It is a + loại + company. It is a + small/big company.",
+          "s": "It is a technology company. It is a small company."
+        },
+        {
+          "p": "How long has the company been open?",
+          "m": "Nói thời gian ngắn (dùng present simple: e.g., many years). Nói một điều bạn thích về công ty.",
+          "h": "The company is + age phrase. I like + thing about company.",
+          "s": "The company is many years old. I like the friendly culture."
+        },
+        {
+          "p": "Do you work at the main office?",
+          "m": "Nói bạn ở trụ sở chính hay chi nhánh. Nói vị trí nếu không phải trụ sở.",
+          "h": "I work at the main office / branch. I work at the + location.",
+          "s": "I work at a branch. I work at the city center office."
+        },
+        {
+          "p": "Is the company close to public transport?",
+          "m": "Nói khoảng cách gần hay xa. Nói bạn đi làm bằng gì (ví dụ: bus, car).",
+          "h": "It is near / far from + transport. I go to work by + phương tiện.",
+          "s": "It is near the bus stop. I go to work by bus."
+        },
+        {
+          "p": "Do you like the company's culture?",
+          "m": "Nói có thích văn hóa công ty không. Nói một ví dụ ngắn về văn hóa đó.",
+          "h": "I like / I don't like + company culture. For example + short.",
+          "s": "I like the company's culture. For example, people are helpful."
+        }
+      ]
+    },
+    {
+      "t": "Công việc hàng ngày",
+      "e": [
+        {
+          "p": "What do you do every morning at work?",
+          "m": "Nói một việc bạn làm mỗi sáng. Nói thời gian hoặc tần suất ngắn (every morning).",
+          "h": "I + verb (present). I + time/frequency.",
+          "s": "I check emails every morning. I do it at 9 a.m."
+        },
+        {
+          "p": "Do you have meetings every day?",
+          "m": "Nói có họp mỗi ngày không. Nói tần suất ngắn nếu không mỗi ngày.",
+          "h": "I have / I don't have + meetings every day. I usually have them + frequency.",
+          "s": "I don't have meetings every day. I usually have meetings twice a week."
+        },
+        {
+          "p": "What tools do you use at work?",
+          "m": "Nói một công cụ bạn dùng (computer, phone). Nói mục đích ngắn (ví dụ: send email).",
+          "h": "I use + tool. I use it to + verb.",
+          "s": "I use a computer. I use it to write reports."
+        },
+        {
+          "p": "How do you start your work day?",
+          "m": "Nói hành động đầu tiên khi bắt đầu ngày. Nói cảm xúc ngắn (tired/happy...).",
+          "h": "I + verb to start. I feel + simple adjective.",
+          "s": "I make a coffee to start. I feel ready."
+        },
+        {
+          "p": "Do you finish work at the same time every day?",
+          "m": "Nói bạn tan làm có giờ cố định không. Nói giờ hoặc mô tả ngắn.",
+          "h": "I finish at + time / I don't finish at the same time. I usually finish at + time.",
+          "s": "I usually finish at six. Sometimes I finish later."
+        }
+      ]
+    },
+    {
+      "t": "Đang làm gì bây giờ",
+      "e": [
+        {
+          "p": "What are you doing now?",
+          "m": "Nói bạn đang làm việc gì ngay lúc này. Nói bạn đang làm điều đó ở đâu (văn phòng/nhà).",
+          "h": "I am + V-ing. I am + location.",
+          "s": "I am writing a report now. I am at the office."
+        },
+        {
+          "p": "Is your team working on a new project?",
+          "m": "Nói team có đang làm dự án mới không. Nói một hoạt động ngắn liên quan.",
+          "h": "We are / We are not + V-ing. We are + activity.",
+          "s": "Yes, we are working on a new project. We are planning the first meeting."
+        },
+        {
+          "p": "Are you speaking with a client now?",
+          "m": "Nói có đang nói chuyện với khách hàng không. Nói nội dung ngắn cuộc nói chuyện.",
+          "h": "I am / I am not + V-ing. We talk about + topic.",
+          "s": "No, I am not speaking with a client now. We talked about delivery times."
+        },
+        {
+          "p": "Are you using the office computer?",
+          "m": "Nói có đang dùng máy tính không. Nói bạn làm gì trên máy đó.",
+          "h": "I am / I am not + V-ing. I + verb on the computer.",
+          "s": "Yes, I am using the office computer. I am checking emails."
+        },
+        {
+          "p": "Is someone helping you at the moment?",
+          "m": "Nói có ai giúp bạn không. Nói họ giúp việc gì ngắn.",
+          "h": "Yes, someone is helping me / No, nobody is. They help with + task.",
+          "s": "Yes, my colleague is helping me. She helps with the report."
+        }
+      ]
+    },
+    {
+      "t": "Thói quen và tần suất",
+      "e": [
+        {
+          "p": "How often do you go to work by car?",
+          "m": "Nói tần suất (always/often/sometimes/never). Nói lý do ngắn nếu cần (ví dụ: traffic).",
+          "h": "I always / often / sometimes / never + go by car. Because + short reason.",
+          "s": "I often go to work by car. Because the bus is slow."
+        },
+        {
+          "p": "Do you always check emails in the morning?",
+          "m": "Nói có luôn kiểm tra email sáng không. Nói một hành động thay thế nếu không.",
+          "h": "I always / sometimes / never check emails. I + alternative action.",
+          "s": "I always check emails in the morning. I also make a short to-do list."
+        },
+        {
+          "p": "How often do you have lunch with colleagues?",
+          "m": "Nói tần suất ăn trưa cùng đồng nghiệp. Nói nơi thường ăn trưa.",
+          "h": "I + frequency + have lunch with colleagues. We eat at + place.",
+          "s": "I sometimes have lunch with colleagues. We eat at a cafe near work."
+        },
+        {
+          "p": "Do you usually work late?",
+          "m": "Nói thường có làm muộn không. Nói lý do ngắn nếu có.",
+          "h": "I usually / I don't usually work late. Because + reason.",
+          "s": "I don't usually work late. Because I finish my tasks on time."
+        },
+        {
+          "p": "How often do you join team meetings?",
+          "m": "Nói tần suất bạn tham gia họp đội. Nói vai trò của bạn trong họp (ví dụ: nghe, trình bày).",
+          "h": "I + frequency + join meetings. I usually + role.",
+          "s": "I often join team meetings. I usually listen and take notes."
+        }
+      ]
+    },
+    {
+      "t": "Công cụ và nơi làm việc",
+      "e": [
+        {
+          "p": "Do you use a computer at work?",
+          "m": "Nói có dùng máy tính không. Nói việc bạn dùng máy tính để làm gì.",
+          "h": "I use / I don't use + computer. I use it to + verb.",
+          "s": "Yes, I use a computer at work. I use it to write emails."
+        },
+        {
+          "p": "Is your desk big?",
+          "m": "Mô tả bàn làm việc (big/small). Nói một đồ vật trên bàn (ví dụ: laptop, phone).",
+          "h": "My desk is + adjective. There is a + object on it.",
+          "s": "My desk is small. There is a laptop on it."
+        },
+        {
+          "p": "Do you work from home sometimes?",
+          "m": "Nói có thỉnh thoảng làm việc ở nhà không. Nói khi nào hoặc tần suất ngắn.",
+          "h": "I sometimes / I don't sometimes work from home. I work from home + frequency.",
+          "s": "I sometimes work from home. I work from home one day a week."
+        },
+        {
+          "p": "Is your office quiet?",
+          "m": "Nói văn phòng có yên tĩnh không. Nói bạn làm việc tốt ở môi trường đó không.",
+          "h": "It is quiet / noisy. I work well / I don't work well there.",
+          "s": "The office is quiet. I work well there."
+        },
+        {
+          "p": "Do you use a phone for work?",
+          "m": "Nói có dùng điện thoại cho công việc không. Nói một tác vụ trên điện thoại (gọi, message).",
+          "h": "I use / I don't use + phone. I use it to + verb.",
+          "s": "Yes, I use a phone for work. I use it to call clients."
+        }
+      ]
+    },
+    {
+      "t": "Đồng nghiệp và ai quản lý",
+      "e": [
+        {
+          "p": "Who is your closest colleague?",
+          "m": "Nói tên hoặc vị trí người thân thiết (dùng role nếu không có tên). Nói một việc bạn làm cùng người đó.",
+          "h": "My closest colleague is + role/name. We + verb together.",
+          "s": "My closest colleague is the designer. We plan tasks together."
+        },
+        {
+          "p": "Do you have a mentor at work?",
+          "m": "Nói có người hướng dẫn không. Nói họ giúp bạn việc gì ngắn.",
+          "h": "I have / I don't have + mentor. They help me with + task.",
+          "s": "Yes, I have a mentor. She helps me with my reports."
+        },
+        {
+          "p": "Is your manager friendly?",
+          "m": "Nói người quản lý thân thiện hay không. Nói ví dụ ngắn hành động thân thiện.",
+          "h": "My manager is friendly / not friendly. For example + short action.",
+          "s": "My manager is friendly. He listens to our ideas."
+        },
+        {
+          "p": "Do you and your colleague work together today?",
+          "m": "Nói có làm cùng hôm nay không. Nói việc bạn làm cùng nhau.",
+          "h": "We are / We are not + V-ing together. We + joint task.",
+          "s": "Yes, we are working together today. We are preparing a presentation."
+        },
+        {
+          "p": "How many people do you talk to every day at work?",
+          "m": "Nói số người bạn nói mỗi ngày. Nói một nhóm bạn nói nhiều (khách hàng/đồng nghiệp).",
+          "h": "I talk to + number people every day. I talk mostly with + group.",
+          "s": "I talk to about ten people every day. I talk mostly with colleagues."
+        }
+      ]
+    },
+    {
+      "t": "Thời gian làm việc và lịch trình",
+      "e": [
+        {
+          "p": "What time do you start work?",
+          "m": "Nói giờ bạn bắt đầu làm. Nói bạn thường làm gì ngay sau khi bắt đầu.",
+          "h": "I start work at + time. I + first action.",
+          "s": "I start work at eight o'clock. I check my schedule first."
+        },
+        {
+          "p": "Do you take a lunch break?",
+          "m": "Nói có giờ nghỉ trưa không. Nói thời gian hoặc nơi bạn ăn trưa.",
+          "h": "I take a lunch break. I + when/where.",
+          "s": "Yes, I take a lunch break. I eat at noon in the cafe."
+        },
+        {
+          "p": "Are you free this afternoon?",
+          "m": "Nói bạn rảnh chiều nay hay không. Nói bạn có thể làm gì nếu rảnh.",
+          "h": "I am free / I am not free. I can + activity if free.",
+          "s": "I am free this afternoon. I can join the meeting."
+        },
+        {
+          "p": "When do you finish work on Fridays?",
+          "m": "Nói giờ tan làm vào thứ Sáu. Nói bạn làm gì sau giờ đó ngắn.",
+          "h": "I finish at + time on Fridays. I + short activity.",
+          "s": "I finish at five on Fridays. I go home and relax."
+        },
+        {
+          "p": "Do you have a fixed schedule every week?",
+          "m": "Nói bạn có lịch cố định hàng tuần không. Nói một phần trong lịch của bạn (ví dụ: họp sáng thứ Hai).",
+          "h": "I have / I don't have + fixed schedule. For example + short.",
+          "s": "I have a fixed schedule. For example, I have a meeting on Monday mornings."
+        }
+      ]
+    },
+    {
+      "t": "Yêu thích và mong muốn trong công việc",
+      "e": [
+        {
+          "p": "What do you like the most about your job?",
+          "m": "Nói điều bạn thích nhất. Nói lý do ngắn tại sao bạn thích điều đó.",
+          "h": "I like + noun most. Because + reason.",
+          "s": "I like talking to customers the most. Because I enjoy helping people."
+        },
+        {
+          "p": "Do you want to learn a new skill?",
+          "m": "Nói bạn có muốn học kỹ năng mới không. Nói kỹ năng ngắn bạn muốn học.",
+          "h": "I want to learn + skill. I need it for + reason.",
+          "s": "Yes, I want to learn basic design. I need it for creating simple ads."
+        },
+        {
+          "p": "Is there anything you need at work?",
+          "m": "Nói bạn cần điều gì (vật/giúp đỡ). Nói lý do ngắn.",
+          "h": "I need + object/help. Because + short reason.",
+          "s": "I need a new chair. Because my chair is old."
+        },
+        {
+          "p": "Do you enjoy team projects?",
+          "m": "Nói bạn có thích làm dự án nhóm không. Nói một lợi ích ngắn của dự án nhóm.",
+          "h": "I enjoy / I don't enjoy + team projects. A benefit is + short.",
+          "s": "I enjoy team projects. A benefit is we share ideas."
+        },
+        {
+          "p": "Would you like more responsibility?",
+          "m": "Nói bạn có muốn thêm trách nhiệm không. Nói loại trách nhiệm bạn muốn ngắn.",
+          "h": "I would like / I would not like + more responsibility. For example + task.",
+          "s": "I would like more responsibility. For example, I want to lead small tasks."
+        }
+      ]
+    },
+    {
+      "t": "Vấn đề nhỏ ở nơi làm việc",
+      "e": [
+        {
+          "p": "I'm late today, can you help?",
+          "m": "Nói bạn có thể giúp hay không. Nói cách bạn giúp (ví dụ: ghi thông tin, gửi email).",
+          "h": "I can / I cannot help. I can + action.",
+          "s": "I can help. I will send the update email."
+        },
+        {
+          "p": "The printer is not working.",
+          "m": "Nói bạn có biết vấn đề này không. Nói bạn làm gì tiếp theo ngắn.",
+          "h": "I know / I don't know. I will + action (fix/report).",
+          "s": "I know about the printer. I will call IT."
+        },
+        {
+          "p": "Can you cover my shift tomorrow?",
+          "m": "Nói bạn có thể đổi ca không. Nói một điều kiện ngắn nếu có (ví dụ: chỉ buổi sáng).",
+          "h": "I can / I cannot cover. I can only + condition.",
+          "s": "I can cover your shift. I can only work in the morning."
+        },
+        {
+          "p": "I need a day off next week.",
+          "m": "Nói bạn có thể cho nghỉ không. Nói bạn sẽ làm gì để hỗ trợ trước khi nghỉ.",
+          "h": "I can / I cannot give a day off. I will + action to help.",
+          "s": "I can give you a day off. I will finish your tasks first."
+        },
+        {
+          "p": "There is a small problem with the order.",
+          "m": "Nói bạn có thể xử lý không. Nói bước bạn sẽ làm để giải quyết ngắn.",
+          "h": "I can handle it / I cannot. I will + simple step.",
+          "s": "I can handle it. I will check the order details."
+        }
+      ]
+    },
+    {
+      "t": "Ôn tập: Giới thiệu ngắn",
+      "e": [
+        {
+          "p": "Hi, tell me about yourself at work.",
+          "m": "Nói tên. Nói bạn làm nghề gì và ở đâu.",
+          "h": "My name is + name. I work as a + job at + place.",
+          "s": "My name is [studentName]. I work as a [studentJob] at a company."
+        },
+        {
+          "p": "Where is your office and who do you work with?",
+          "m": "Nói vị trí văn phòng. Nói một người bạn làm cùng (role).",
+          "h": "My office is + place. I work with + role.",
+          "s": "My office is near the train station. I work with the designer."
+        },
+        {
+          "p": "Do you enjoy your job and why?",
+          "m": "Nói bạn thích hay không. Nói một lý do ngắn.",
+          "h": "I enjoy / I don't enjoy + my job. Because + reason.",
+          "s": "I enjoy my job. Because the team is helpful."
+        },
+        {
+          "p": "How many people are in your company and in your team?",
+          "m": "Nói số người công ty (gần đúng). Nói số trong team.",
+          "h": "There are + number in the company. There are + number in my team.",
+          "s": "There are about fifty people in the company. There are five people in my team."
+        },
+        {
+          "p": "What is one thing you do every day at work?",
+          "m": "Nói một việc bạn làm hàng ngày. Nói khi bạn làm việc đó (thời điểm).",
+          "h": "I + verb every day. I do it + time.",
+          "s": "I answer emails every day. I do it in the morning."
+        }
+      ]
+    },
+    {
+      "t": "Ôn tập: Lịch trình và công việc hiện tại",
+      "e": [
+        {
+          "p": "What are you doing after lunch today?",
+          "m": "Nói việc bạn sẽ làm ngay sau giờ trưa. Nói bạn có họp hay không.",
+          "h": "I am going to / I am + V-ing. I have / don't have a meeting.",
+          "s": "I am preparing a report after lunch. I do not have a meeting."
+        },
+        {
+          "p": "Do you work from home this week?",
+          "m": "Nói bạn có làm ở nhà tuần này không. Nói số ngày nếu có.",
+          "h": "I work from home this week / I don't. I work from home + số ngày.",
+          "s": "Yes, I work from home this week. I work from home two days."
+        },
+        {
+          "p": "Are you busy this morning?",
+          "m": "Nói bạn có bận sáng nay không. Nói một việc chính bạn làm.",
+          "h": "I am busy / I am not busy. I am + main task.",
+          "s": "I am busy this morning. I am finishing the presentation."
+        },
+        {
+          "p": "When do you have the team meeting?",
+          "m": "Nói thời gian họp đội. Nói bạn thường làm gì trong cuộc họp.",
+          "h": "We have the meeting at + time. I usually + role in meeting.",
+          "s": "We have the team meeting at three o'clock. I usually take notes."
+        },
+        {
+          "p": "Do you need help with today's task?",
+          "m": "Nói bạn có cần giúp không. Nói loại giúp đỡ bạn muốn ngắn.",
+          "h": "I need / I don't need help. I need help with + task.",
+          "s": "I need help with the data. I need someone to check numbers."
+        }
+      ]
+    },
+    {
+      "t": "Ôn tập: Tình huống tại chỗ làm",
+      "e": [
+        {
+          "p": "A new person joins your team. What do you say?",
+          "m": "Nói chào và giới thiệu tên bạn. Nói vị trí của họ/của bạn ngắn.",
+          "h": "Nice to meet you. I am + name. I work as + job.",
+          "s": "Nice to meet you. I am [studentName]. I work as a [studentJob]."
+        },
+        {
+          "p": "A colleague asks for a quick favor. Can you help now?",
+          "m": "Nói bạn có thể giúp ngay không. Nói bạn sẽ làm gì để giúp.",
+          "h": "I can / I cannot help now. I will + action.",
+          "s": "I can help now. I will fix the file."
+        },
+        {
+          "p": "You need to tell your manager you are leaving early.",
+          "m": "Nói bạn rời sớm. Nói lý do ngắn và giờ bạn rời.",
+          "h": "I am leaving early at + time. Because + short reason.",
+          "s": "I am leaving early at four. Because I have a doctor's appointment."
+        },
+        {
+          "p": "A client calls and asks your name and job.",
+          "m": "Nói tên của bạn. Nói vai trò của bạn ngắn và bạn giúp gì.",
+          "h": "My name is + name. I am a + job. I can help with + task.",
+          "s": "My name is [studentName]. I am a [studentJob]. I can help with your order."
+        },
+        {
+          "p": "You need to ask where the conference room is.",
+          "m": "Hỏi vị trí phòng họp. Nói bạn sẽ đi họp ngay sau đó.",
+          "h": "Where is + location? I will + action.",
+          "s": "Where is the conference room? I will go there for a meeting."
+        }
+      ]
+    }
+  ]
+}

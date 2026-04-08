@@ -1,0 +1,635 @@
+{
+  "l": 3,
+  "d": [
+    {
+      "t": "Tìm kiếm sản phẩm cụ thể",
+      "e": [
+        {
+          "p": "Hello! Welcome to our store. How can I help you today?",
+          "m": "Chào lại người bán. Nói bạn đang tìm một chiếc áo khoác ấm áp. Hỏi xem họ có không.",
+          "h": "Dùng 'Hello', 'I'm looking for...' và 'Do you have...?'",
+          "s": "Hello! I'm looking for a warm jacket. Do you have any here?"
+        },
+        {
+          "p": "Yes, we have many warm jackets. What color do you like?",
+          "m": "Nói bạn thích màu tối như đen hoặc xám. Hỏi nó giá bao nhiêu.",
+          "h": "Dùng 'I like dark colors like...' và 'How much is it?'",
+          "s": "I like dark colors like black or grey. How much is it?"
+        },
+        {
+          "p": "This black jacket is 750,000 VND. It's very popular because it's waterproof.",
+          "m": "Nói đó là một mức giá hợp lý. Hỏi nó có cỡ M không và nó có thoải mái không.",
+          "h": "Dùng 'That's a reasonable price', 'Do you have size M?' và 'Is it comfortable?'",
+          "s": "That's a reasonable price. Do you have size M? And is it comfortable?"
+        },
+        {
+          "p": "Yes, we have size M, and it is very comfortable. Many people buy it for winter trips. Do you want to try it on?",
+          "m": "Nói bạn muốn thử nó. Hỏi phòng thử đồ ở đâu.",
+          "h": "Dùng 'I want to try it on' và 'Where is...?'",
+          "s": "Yes, I want to try it on. Where is the changing room?"
+        },
+        {
+          "p": "The changing room is just over there, next to the shoes. We also have a special discount on it this week!",
+          "m": "Cảm ơn người bán. Nói bạn sẽ thử nó và xem xét việc mua.",
+          "h": "Dùng 'Thank you', 'I will try it on' và 'I will consider buying it.'",
+          "s": "Thank you for the information. I will try it on, and I will consider buying it."
+        }
+      ]
+    },
+    {
+      "t": "Hỏi về giá và chất liệu",
+      "e": [
+        {
+          "p": "Good morning! Can I help you with anything?",
+          "m": "Chào lại người bán. Nói bạn đang tìm một chiếc túi xách mới. Hỏi xem chiếc túi màu nâu trên kệ giá bao nhiêu.",
+          "h": "Dùng 'Good morning', 'I'm looking for...' và 'How much is that...?'",
+          "s": "Good morning! I'm looking for a new handbag. How much is that brown bag on the shelf?"
+        },
+        {
+          "p": "That brown bag is 450,000 VND. It's made of high-quality synthetic leather.",
+          "m": "Nói nó có vẻ tốt. Hỏi xem nó có đủ chỗ cho laptop không.",
+          "h": "Dùng 'It looks nice', 'Is it big enough for...?'",
+          "s": "It looks nice. Is it big enough for my laptop?"
+        },
+        {
+          "p": "Yes, it can fit a 13-inch laptop easily. It also has many small pockets inside.",
+          "m": "Nói rằng điều đó thật tuyệt. Hỏi xem họ có chiếc túi tương tự với màu đen không.",
+          "h": "Dùng 'That's great', 'Do you have a similar bag in black?'",
+          "s": "That's great. Do you have a similar bag in black?"
+        },
+        {
+          "p": "We have a black one, but it is a bit smaller. It costs 380,000 VND.",
+          "m": "Nói bạn cần một chiếc túi lớn hơn. Hỏi xem chiếc túi màu nâu có bền không.",
+          "h": "Dùng 'I need a bigger bag', 'Is the brown bag durable?'",
+          "s": "I need a bigger bag. Is the brown bag durable? Because I want to use it every day."
+        },
+        {
+          "p": "Yes, it's very durable because the material is strong. We sell many of them, and customers are always happy.",
+          "m": "Cảm ơn người bán. Nói bạn sẽ suy nghĩ về nó và có lẽ sẽ quay lại mua sau.",
+          "h": "Dùng 'Thank you', 'I will think about it' và 'I will probably come back later.'",
+          "s": "Thank you for the information. I will think about it, and I will probably come back later to buy it."
+        }
+      ]
+    },
+    {
+      "t": "Hỏi về kích cỡ và màu sắc",
+      "e": [
+        {
+          "p": "Hi there! Are you looking for anything special?",
+          "m": "Chào người bán. Nói bạn muốn mua một đôi giày thể thao mới. Hỏi xem họ có đôi màu trắng nào không.",
+          "h": "Dùng 'Hello', 'I want to buy...' và 'Do you have any white ones?'",
+          "s": "Hello! I want to buy new sports shoes. Do you have any white ones?"
+        },
+        {
+          "p": "Yes, we have many white sports shoes. What size do you wear?",
+          "m": "Nói bạn đi cỡ 38. Hỏi xem đôi màu trắng có viền xanh kia giá bao nhiêu.",
+          "h": "Dùng 'I wear size 38' và 'How much are those...?'",
+          "s": "I wear size 38. How much are those white shoes with blue stripes?"
+        },
+        {
+          "p": "Those are 600,000 VND. They are very comfortable for running.",
+          "m": "Nói bạn thích chúng. Hỏi xem chúng có màu khác như đỏ hoặc vàng không.",
+          "h": "Dùng 'I like them', 'Do they come in other colors like...?'",
+          "s": "I like them. Do they come in other colors like red or yellow?"
+        },
+        {
+          "p": "No, those only come in white with blue stripes. But we have a similar model in red.",
+          "m": "Nói bạn cần màu trắng. Hỏi xem chúng có giảm giá không.",
+          "h": "Dùng 'I need white ones', 'Are they on sale?'",
+          "s": "I need white ones. Are they on sale right now?"
+        },
+        {
+          "p": "Sorry, they are not on sale now. But they are a very good quality product and will last long.",
+          "m": "Nói bạn sẽ thử chúng. Cảm ơn người bán đã giúp đỡ.",
+          "h": "Dùng 'I will try them on', 'Thank you for your help.'",
+          "s": "I will try them on. Thank you for your help."
+        }
+      ]
+    },
+    {
+      "t": "Hỏi về tính năng và bảo hành",
+      "e": [
+        {
+          "p": "Welcome! Looking for a new phone?",
+          "m": "Chào người bán. Nói bạn đang tìm một chiếc điện thoại mới. Hỏi xem chiếc điện thoại màu bạc trên bàn có tính năng gì nổi bật.",
+          "h": "Dùng 'Hello', 'I'm looking for...' và 'What are the main features of that silver phone?'",
+          "s": "Hello. I'm looking for a new phone. What are the main features of that silver phone on the table?"
+        },
+        {
+          "p": "That phone has a great camera and a long battery life. It's very fast.",
+          "m": "Nói điều đó nghe có vẻ tốt. Hỏi xem nó giá bao nhiêu và có bảo hành không.",
+          "h": "Dùng 'That sounds good', 'How much is it?' và 'Does it come with a warranty?'",
+          "s": "That sounds good. How much is it, and does it come with a warranty?"
+        },
+        {
+          "p": "It costs 8,500,000 VND. And yes, it comes with a 1-year warranty for the product.",
+          "m": "Nói mức giá hơi cao. Hỏi xem họ có mẫu rẻ hơn nhưng vẫn có camera tốt không.",
+          "h": "Dùng 'That's a bit expensive', 'Do you have a cheaper model with a good camera?'",
+          "s": "That's a bit expensive for me. Do you have a cheaper model, but with a good camera?"
+        },
+        {
+          "p": "We have this blue phone for 6,000,000 VND. Its camera is also good, but the battery life is a bit shorter.",
+          "m": "Nói bạn nghĩ nó tốt hơn. Hỏi nó có màu khác như đen hoặc trắng không.",
+          "h": "Dùng 'I think that's better', 'Does it come in other colors like...?'",
+          "s": "I think that's better. Does it come in other colors like black or white?"
+        },
+        {
+          "p": "It comes in blue and black. The black one is very popular. Would you like to see it?",
+          "m": "Nói bạn muốn xem nó. Cảm ơn người bán đã giới thiệu.",
+          "h": "Dùng 'I want to see it', 'Thank you for showing me.'",
+          "s": "Yes, I want to see it. Thank you for showing me these phones."
+        }
+      ]
+    },
+    {
+      "t": "So sánh các lựa chọn sản phẩm",
+      "e": [
+        {
+          "p": "Hello! What kind of book are you looking for today?",
+          "m": "Chào người bán. Nói bạn muốn một cuốn sách hay để đọc trong kỳ nghỉ. Hỏi xem cuốn sách bìa xanh kia có hay không.",
+          "h": "Dùng 'Hello', 'I want a good book for my holiday' và 'Is that blue book good?'",
+          "s": "Hello! I want a good book for my holiday. Is that blue book good?"
+        },
+        {
+          "p": "That blue book is a popular travel guide. It has many beautiful pictures and useful tips.",
+          "m": "Nói điều đó nghe rất thú vị. Hỏi xem nó đắt hơn hay rẻ hơn cuốn tiểu thuyết màu đỏ.",
+          "h": "Dùng 'That sounds interesting', 'Is it more expensive or cheaper than...?'",
+          "s": "That sounds interesting. Is it more expensive or cheaper than the red novel next to it?"
+        },
+        {
+          "p": "The travel guide is 300,000 VND, and the red novel is 250,000 VND. The novel is about a love story.",
+          "m": "Nói bạn nghĩ cuốn hướng dẫn du lịch sẽ tốt hơn. Hỏi xem nó có thông tin về Việt Nam không.",
+          "h": "Dùng 'I think the travel guide is better', 'Does it have information about Vietnam?'",
+          "s": "I think the travel guide is better for my trip. Does it have information about Vietnam?"
+        },
+        {
+          "p": "Yes, it has a big section about Vietnam, including famous beaches and mountains.",
+          "m": "Nói rằng điều đó thật hoàn hảo. Hỏi xem nó nặng không vì bạn sẽ mang nó đi du lịch.",
+          "h": "Dùng 'That's perfect', 'Is it heavy?' và 'I will carry it for my trip.'",
+          "s": "That's perfect! Is it heavy? Because I will carry it for my trip."
+        },
+        {
+          "p": "It is not too heavy, so it will be easy to carry. Also, if you buy it today, you will get a free bookmark!",
+          "m": "Cảm ơn người bán. Nói bạn sẽ mua nó và sẽ trả bằng thẻ tín dụng.",
+          "h": "Dùng 'Thank you', 'I will buy it' và 'I will pay by card.'",
+          "s": "Thank you! I will buy it. I will pay by card."
+        }
+      ]
+    },
+    {
+      "t": "Hỏi về các chương trình giảm giá",
+      "e": [
+        {
+          "p": "Welcome to our electronics store! What can I help you with?",
+          "m": "Chào người bán. Hỏi xem TV trên cửa sổ có giảm giá không.",
+          "h": "Dùng 'Hello', 'Is that TV in the window on sale?'",
+          "s": "Hello! Is that TV in the window on sale?"
+        },
+        {
+          "p": "Yes, that TV has a 10% discount this week. It's a smart TV with great picture quality.",
+          "m": "Nói điều đó thật tuyệt. Hỏi xem họ có chương trình khuyến mãi nào khác cho loa không.",
+          "h": "Dùng 'That's great', 'Do you have any other promotions for speakers?'",
+          "s": "That's great! Do you have any other promotions for speakers?"
+        },
+        {
+          "p": "We have a special offer: buy any TV, and you will get 20% off on all speakers.",
+          "m": "Nói rằng đó là một ưu đãi tốt. Hỏi xem chiếc loa lớn màu đen đó giá bao nhiêu sau khi giảm giá.",
+          "h": "Dùng 'That's a good offer', 'How much is that big black speaker after the discount?'",
+          "s": "That's a good offer. How much is that big black speaker after the discount?"
+        },
+        {
+          "p": "Normally it's 1,200,000 VND, but with the 20% discount, it will be 960,000 VND.",
+          "m": "Nói bạn nghĩ nó hơi đắt. Hỏi xem bạn có thể nghe thử âm thanh của nó không.",
+          "h": "Dùng 'I think it's a bit expensive', 'Can I listen to its sound?'",
+          "s": "I think it's a bit expensive. Can I listen to its sound before I buy it?"
+        },
+        {
+          "p": "Certainly! Let me turn it on for you. We also have smaller speakers that are cheaper if you want.",
+          "m": "Cảm ơn người bán. Nói bạn sẽ nghe thử và sau đó sẽ đưa ra quyết định.",
+          "h": "Dùng 'Thank you', 'I will listen' và 'I will make a decision then.'",
+          "s": "Thank you! I will listen to it, and then I will make a decision."
+        }
+      ]
+    },
+    {
+      "t": "Hỏi về các phương thức thanh toán",
+      "e": [
+        {
+          "p": "Are you ready to check out, sir/madam?",
+          "m": "Nói bạn đã sẵn sàng. Hỏi xem họ chấp nhận thanh toán bằng thẻ tín dụng không.",
+          "h": "Dùng 'Yes, I am ready', 'Do you accept credit card?'",
+          "s": "Yes, I am ready. Do you accept credit cards?"
+        },
+        {
+          "p": "Yes, we accept all major credit cards. We also take cash.",
+          "m": "Nói bạn muốn trả bằng thẻ tín dụng. Hỏi xem có cần mang theo ID không.",
+          "h": "Dùng 'I want to pay by credit card', 'Do I need to show my ID?'",
+          "s": "I want to pay by credit card. Do I need to show my ID?"
+        },
+        {
+          "p": "No, you don't need your ID for card payments here. Would you like a bag for your items?",
+          "m": "Nói bạn không cần túi. Hỏi tổng số tiền là bao nhiêu.",
+          "h": "Dùng 'No, thank you', 'How much is the total?'",
+          "s": "No, thank you, I don't need a bag. How much is the total?"
+        },
+        {
+          "p": "Your total is 1,250,000 VND. You can insert your card here.",
+          "m": "Nói cảm ơn. Hỏi xem bạn có thể nhận hóa đơn điện tử không thay vì hóa đơn giấy.",
+          "h": "Dùng 'Thank you', 'Can I get an e-receipt instead of a paper one?'",
+          "s": "Thank you. Can I get an e-receipt instead of a paper one?"
+        },
+        {
+          "p": "Yes, we can send it to your email. What is your email address?",
+          "m": "Cảm ơn người bán. Cung cấp địa chỉ email giả định của bạn và chúc họ một ngày tốt lành.",
+          "h": "Dùng 'Thank you', 'My email is...' và 'Have a good day.'",
+          "s": "Thank you! My email is [studentName]@email.com. Have a good day!"
+        }
+      ]
+    },
+    {
+      "t": "Hỏi về chính sách đổi trả hàng",
+      "e": [
+        {
+          "p": "Hello! Did you find everything you were looking for?",
+          "m": "Chào người bán. Nói bạn có một câu hỏi về một chiếc áo sơ mi. Hỏi xem bạn có thể đổi trả nó không nếu nó không vừa.",
+          "h": "Dùng 'Hello', 'I have a question about...' và 'Can I return or exchange it if it doesn't fit?'",
+          "s": "Hello! I have a question about this shirt. Can I return or exchange it if it doesn't fit?"
+        },
+        {
+          "p": "Yes, you can return or exchange it within 7 days with the receipt. The product must be unworn.",
+          "m": "Nói điều đó thật tốt. Hỏi xem có áp dụng cho hàng giảm giá không.",
+          "h": "Dùng 'That's good', 'Does it apply to sale items?'",
+          "s": "That's good. Does it apply to sale items as well?"
+        },
+        {
+          "p": "For sale items, you can only exchange them, not get a refund. But you still have 7 days.",
+          "m": "Nói bạn hiểu rồi. Hỏi xem bạn có cần giữ lại bao bì gốc không.",
+          "h": "Dùng 'I understand', 'Do I need to keep the original packaging?'",
+          "s": "I understand. Do I need to keep the original packaging for the exchange?"
+        },
+        {
+          "p": "It's better if you keep it, but it's not strictly necessary for an exchange. Just the receipt and the product.",
+          "m": "Nói cảm ơn. Hỏi xem bạn có thể thử chiếc áo sơ mi màu xanh này không.",
+          "h": "Dùng 'Thank you', 'Can I try on this blue shirt?'",
+          "s": "Thank you for the information. Can I try on this blue shirt?"
+        },
+        {
+          "p": "Of course! The changing rooms are to your left. I hope it fits well!",
+          "m": "Cảm ơn người bán. Nói bạn hy vọng nó sẽ vừa với bạn.",
+          "h": "Dùng 'Thank you' và 'I hope it fits me well.'",
+          "s": "Thank you! I hope it fits me well too."
+        }
+      ]
+    },
+    {
+      "t": "Thương lượng giá hoặc ưu đãi",
+      "e": [
+        {
+          "p": "This beautiful vase is 350,000 VND. It's a special item.",
+          "m": "Nói nó rất đẹp. Hỏi xem bạn có thể nhận được giá tốt hơn không nếu mua hai chiếc.",
+          "h": "Dùng 'It's very beautiful', 'Can I get a better price if I buy two?'",
+          "s": "It's very beautiful. Can I get a better price if I buy two of them?"
+        },
+        {
+          "p": "Hmm, usually we don't give discounts on these. But for two, I can give you 50,000 VND off the total.",
+          "m": "Nói bạn nghĩ mức giảm giá đó là hợp lý. Hỏi xem họ có nhiều màu khác không.",
+          "h": "Dùng 'I think that's a fair discount', 'Do you have other colors?'",
+          "s": "I think that's a fair discount. Do you have other colors for this vase?"
+        },
+        {
+          "p": "We have it in white, blue, and green. The blue one is very pretty.",
+          "m": "Nói bạn thích màu xanh và màu trắng. Hỏi xem hai chiếc đó có sẵn không.",
+          "h": "Dùng 'I like blue and white', 'Are those two colors available?'",
+          "s": "I like blue and white. Are those two colors available now?"
+        },
+        {
+          "p": "Yes, they are both available. Would you like to buy them now?",
+          "m": "Nói bạn muốn mua chúng. Hỏi xem bạn có thể trả bằng tiền mặt không.",
+          "h": "Dùng 'Yes, I want to buy them', 'Can I pay with cash?'",
+          "s": "Yes, I want to buy them. Can I pay with cash?"
+        },
+        {
+          "p": "Yes, cash is fine. I will wrap them carefully for you. They are fragile.",
+          "m": "Cảm ơn người bán. Nói bạn sẽ đợi ở quầy thanh toán.",
+          "h": "Dùng 'Thank you', 'I will wait at the counter.'",
+          "s": "Thank you. I will wait at the counter."
+        }
+      ]
+    },
+    {
+      "t": "Đưa ra quyết định mua hàng",
+      "e": [
+        {
+          "p": "How do you like this dress? It's our new collection.",
+          "m": "Nói bạn rất thích chiếc váy màu xanh này. Hỏi xem nó có phù hợp cho một bữa tiệc tối không.",
+          "h": "Dùng 'I really like this blue dress', 'Is it suitable for an evening party?'",
+          "s": "I really like this blue dress. Is it suitable for an evening party?"
+        },
+        {
+          "p": "Yes, it's perfect for a party. The material is very elegant. It costs 900,000 VND.",
+          "m": "Nói mức giá chấp nhận được. Hỏi xem nó có cần giặt khô không hay có thể giặt bằng máy.",
+          "h": "Dùng 'The price is acceptable', 'Does it need dry cleaning or can I machine wash it?'",
+          "s": "The price is acceptable. Does it need dry cleaning or can I machine wash it?"
+        },
+        {
+          "p": "You can machine wash it on a gentle cycle, but dry cleaning is better to keep its shape longer.",
+          "m": "Nói bạn hiểu rồi. Hỏi xem họ có một chiếc khăn choàng nhỏ phù hợp với nó không.",
+          "h": "Dùng 'I understand', 'Do you have a small scarf that matches it?'",
+          "s": "I understand. Do you have a small scarf that matches it?"
+        },
+        {
+          "p": "Yes, we have this silver scarf. It's 150,000 VND and goes very well with the blue dress.",
+          "m": "Nói bạn sẽ mua cả chiếc váy và chiếc khăn choàng. Hỏi xem bạn có thể lấy chúng ngay bây giờ không.",
+          "h": "Dùng 'I will buy both the dress and the scarf', 'Can I take them now?'",
+          "s": "I will buy both the dress and the scarf. Can I take them now?"
+        },
+        {
+          "p": "Yes, I will pack them for you. It's a great choice!",
+          "m": "Cảm ơn người bán. Nói bạn rất vui với quyết định này.",
+          "h": "Dùng 'Thank you', 'I am excited about this purchase.'",
+          "s": "Thank you! I am very excited about this purchase."
+        }
+      ]
+    },
+    {
+      "t": "Hỏi về cách sử dụng hoặc bảo quản",
+      "e": [
+        {
+          "p": "Here is your new coffee machine. Do you have any questions about how to use it?",
+          "m": "Cảm ơn người bán. Hỏi cách vệ sinh máy sau khi sử dụng.",
+          "h": "Dùng 'Thank you', 'How do I clean it after use?'",
+          "s": "Thank you. How do I clean it after use?"
+        },
+        {
+          "p": "You should rinse the parts with warm water every day. And once a week, you should deep clean it.",
+          "m": "Nói bạn hiểu rồi. Hỏi xem có cần dùng loại cà phê đặc biệt nào không.",
+          "h": "Dùng 'I understand', 'Do I need a special type of coffee?'",
+          "s": "I understand. Do I need a special type of coffee for this machine?"
+        },
+        {
+          "p": "Any ground coffee will work well. But fresh coffee beans will make it taste better.",
+          "m": "Nói rằng điều đó thật hữu ích. Hỏi xem có mẹo nào để máy bền hơn không.",
+          "h": "Dùng 'That's helpful', 'Are there any tips to make it last longer?'",
+          "s": "That's helpful. Are there any tips to make it last longer?"
+        },
+        {
+          "p": "You should always use filtered water to prevent limescale buildup. It's important.",
+          "m": "Nói bạn sẽ ghi nhớ điều đó. Cảm ơn người bán đã cho những lời khuyên hữu ích.",
+          "h": "Dùng 'I will remember that', 'Thank you for the useful advice.'",
+          "s": "I will remember that. Thank you for the useful advice."
+        },
+        {
+          "p": "You're welcome! Enjoy your new coffee machine. If you have more questions, you can always call us.",
+          "m": "Cảm ơn người bán một lần nữa. Nói bạn sẽ tận hưởng nó.",
+          "h": "Dùng 'Thank you again', 'I will enjoy it.'",
+          "s": "Thank you again! I will enjoy it."
+        }
+      ]
+    },
+    {
+      "t": "Giải đáp thắc mắc về sản phẩm",
+      "e": [
+        {
+          "p": "Welcome! Is there anything you need help with regarding this camera?",
+          "m": "Chào người bán. Nói bạn đang xem xét chiếc máy ảnh này. Hỏi xem nó có dễ sử dụng cho người mới bắt đầu không.",
+          "h": "Dùng 'Hello', 'I'm looking at this camera', 'Is it easy for a beginner to use?'",
+          "s": "Hello! I'm looking at this camera. Is it easy for a beginner to use?"
+        },
+        {
+          "p": "Yes, it's very user-friendly. It has an automatic mode, so you can just point and shoot.",
+          "m": "Nói điều đó thật tuyệt. Hỏi xem nó có thể quay video HD không và nó giá bao nhiêu.",
+          "h": "Dùng 'That's great', 'Can it record HD video?' và 'How much is it?'",
+          "s": "That's great! Can it record HD video, and how much is it?"
+        },
+        {
+          "p": "It can record full HD video, and it costs 5,000,000 VND. We also have a special offer on memory cards today.",
+          "m": "Nói giá cả phải chăng. Hỏi xem thẻ nhớ có bao gồm trong giá không hay phải mua riêng.",
+          "h": "Dùng 'The price is affordable', 'Is the memory card included or sold separately?'",
+          "s": "The price is affordable. Is the memory card included or sold separately?"
+        },
+        {
+          "p": "The memory card is sold separately, but with our offer, it's 30% off today when you buy the camera.",
+          "m": "Nói bạn sẽ mua cả máy ảnh và thẻ nhớ. Hỏi xem tổng số tiền là bao nhiêu sau khi giảm giá.",
+          "h": "Dùng 'I will buy the camera and the memory card', 'What is the total price after the discount?'",
+          "s": "I will buy the camera and the memory card. What is the total price after the discount?"
+        },
+        {
+          "p": "The camera is 5,000,000 VND, and a 32GB memory card is usually 300,000 VND, so with the discount, it's 210,000 VND. Total: 5,210,000 VND.",
+          "m": "Cảm ơn người bán. Nói bạn muốn trả bằng thẻ.",
+          "h": "Dùng 'Thank you', 'I want to pay by card.'",
+          "s": "Thank you. I want to pay by card."
+        }
+      ]
+    },
+    {
+      "t": "Yêu cầu tư vấn về sản phẩm",
+      "e": [
+        {
+          "p": "Hi! Are you looking for a gift for someone special?",
+          "m": "Chào người bán. Nói bạn cần một món quà sinh nhật cho mẹ. Hỏi xem bạn nên mua gì.",
+          "h": "Dùng 'Hello', 'I need a birthday gift for my mother', 'What should I buy?'",
+          "s": "Hello! I need a birthday gift for my mother. What should I buy?"
+        },
+        {
+          "p": "How about this beautiful silk scarf? It's very soft and elegant.",
+          "m": "Nói nó rất đẹp. Hỏi xem nó có đắt không và có màu nào khác không.",
+          "h": "Dùng 'It's very beautiful', 'Is it expensive?' và 'Does it come in other colors?'",
+          "s": "It's very beautiful. Is it expensive? And does it come in other colors?"
+        },
+        {
+          "p": "It's 400,000 VND, and we have it in red, blue, and green. The red one is very vibrant.",
+          "m": "Nói bạn nghĩ màu đỏ là một lựa chọn tốt. Hỏi xem nó có được đóng gói quà tặng không.",
+          "h": "Dùng 'I think red is a good choice', 'Does it come with gift wrapping?'",
+          "s": "I think red is a good choice. Does it come with gift wrapping?"
+        },
+        {
+          "p": "Yes, we can gift wrap it for you for free. Do you also need a card?",
+          "m": "Nói bạn không cần thẻ. Hỏi xem bạn có thể xem những chiếc vòng cổ không.",
+          "h": "Dùng 'No, thank you', 'Can I also look at the necklaces?'",
+          "s": "No, thank you. Can I also look at the necklaces over there?"
+        },
+        {
+          "p": "Certainly! We have many lovely necklaces. This pearl necklace is very popular for mothers.",
+          "m": "Nói bạn thích chiếc khăn quàng cổ hơn. Cảm ơn người bán đã tư vấn.",
+          "h": "Dùng 'I prefer the scarf', 'Thank you for your advice.'",
+          "s": "I prefer the scarf. Thank you for your advice."
+        }
+      ]
+    },
+    {
+      "t": "Đặt câu hỏi chuyên sâu về sản phẩm",
+      "e": [
+        {
+          "p": "What can I do for you today, madam?",
+          "m": "Chào người bán. Nói bạn đang tìm một chiếc bếp điện từ. Hỏi xem nó có chức năng hẹn giờ không.",
+          "h": "Dùng 'Hello', 'I'm looking for an induction cooker', 'Does it have a timer function?'",
+          "s": "Hello! I'm looking for an induction cooker. Does it have a timer function?"
+        },
+        {
+          "p": "Yes, it has a timer function for up to 99 minutes. It also has multiple cooking modes.",
+          "m": "Nói rằng điều đó thật tiện lợi. Hỏi xem nó có tiết kiệm điện hơn các loại bếp khác không.",
+          "h": "Dùng 'That's convenient', 'Is it more energy-efficient than other stoves?'",
+          "s": "That's convenient. Is it more energy-efficient than other stoves?"
+        },
+        {
+          "p": "Yes, induction cookers are generally more energy-efficient because they heat faster.",
+          "m": "Nói bạn nghĩ nó tốt hơn. Hỏi xem nó có cần nồi hoặc chảo đặc biệt không.",
+          "h": "Dùng 'I think that's better', 'Does it need special pots or pans?'",
+          "s": "I think that's better. Does it need special pots or pans?"
+        },
+        {
+          "p": "Yes, it needs cookware with a magnetic bottom. We have some special sets on sale today.",
+          "m": "Nói bạn hiểu rồi. Hỏi xem giá của chiếc bếp điện từ là bao nhiêu và nó có bảo hành bao lâu.",
+          "h": "Dùng 'I understand', 'What is the price of the cooker?' và 'How long is the warranty?'",
+          "s": "I understand. What is the price of the induction cooker, and how long is the warranty?"
+        },
+        {
+          "p": "It's 3,500,000 VND and comes with a 2-year warranty. We also offer free installation.",
+          "m": "Cảm ơn người bán. Nói bạn sẽ cân nhắc mua nó. Hỏi xem họ có thể gửi brochure cho bạn không.",
+          "h": "Dùng 'Thank you', 'I will consider buying it', 'Can you send me a brochure?'",
+          "s": "Thank you. I will consider buying it. Can you send me a brochure with more details?"
+        }
+      ]
+    },
+    {
+      "t": "Kiểm tra tình trạng hàng hóa",
+      "e": [
+        {
+          "p": "Hello! Are you looking for something in particular in our furniture section?",
+          "m": "Chào người bán. Nói bạn muốn mua một chiếc ghế sofa màu xám. Hỏi xem họ có chiếc nào trong kho không.",
+          "h": "Dùng 'Hello', 'I want to buy a grey sofa', 'Do you have any in stock?'",
+          "s": "Hello! I want to buy a grey sofa. Do you have any in stock?"
+        },
+        {
+          "p": "Yes, we have a grey sofa in stock. It's a very comfortable corner sofa.",
+          "m": "Nói rằng điều đó thật tuyệt. Hỏi xem nó có thể giao hàng vào tuần này không.",
+          "h": "Dùng 'That's great', 'Can it be delivered this week?'",
+          "s": "That's great! Can it be delivered this week?"
+        },
+        {
+          "p": "We can deliver it this Friday afternoon. Is that okay for you?",
+          "m": "Nói rằng thứ Sáu là tốt. Hỏi xem phí vận chuyển là bao nhiêu đến [studentCity].",
+          "h": "Dùng 'Friday is fine', 'How much is the delivery fee to [studentCity]?'",
+          "s": "Friday is fine. How much is the delivery fee to [studentCity]?"
+        },
+        {
+          "p": "Delivery to [studentCity] is free for orders over 5,000,000 VND. This sofa is 8,000,000 VND.",
+          "m": "Nói điều đó thật tuyệt. Hỏi xem họ có hỗ trợ lắp đặt không.",
+          "h": "Dùng 'That's wonderful', 'Do you provide installation service?'",
+          "s": "That's wonderful! Do you provide installation service?"
+        },
+        {
+          "p": "Yes, installation is included with the delivery. Our team will set it up for you.",
+          "m": "Cảm ơn người bán. Nói bạn sẽ mua chiếc ghế sofa này. Hỏi xem bạn nên đến quầy thanh toán ở đâu.",
+          "h": "Dùng 'Thank you', 'I will buy this sofa', 'Where should I go to pay?'",
+          "s": "Thank you! I will buy this sofa. Where should I go to pay?"
+        }
+      ]
+    },
+    {
+      "t": "Ôn tập: Mua sắm hàng ngày",
+      "e": [
+        {
+          "p": "Hi! Looking for something delicious today?",
+          "m": "Chào người bán. Nói bạn muốn mua một ít táo. Hỏi xem chúng có tươi không và giá bao nhiêu một cân.",
+          "h": "Dùng 'Hello', 'I want to buy some apples', 'Are they fresh?' và 'How much is a kilo?'",
+          "s": "Hello! I want to buy some apples. Are they fresh, and how much is a kilo?"
+        },
+        {
+          "p": "Yes, they are very fresh today. They are 35,000 VND per kilo. We also have oranges.",
+          "m": "Nói táo nghe có vẻ ngon. Hỏi xem cam có rẻ hơn không và chúng có ngọt không.",
+          "h": "Dùng 'Apples sound good', 'Are oranges cheaper?' và 'Are they sweet?'",
+          "s": "Apples sound good. Are oranges cheaper? And are they sweet?"
+        },
+        {
+          "p": "Oranges are 30,000 VND per kilo, and they are very sweet. Many customers like them.",
+          "m": "Nói bạn sẽ mua một cân táo và một cân cam. Hỏi xem bạn có thể trả bằng tiền mặt không.",
+          "h": "Dùng 'I will buy a kilo of apples and a kilo of oranges', 'Can I pay with cash?'",
+          "s": "I will buy a kilo of apples and a kilo of oranges. Can I pay with cash?"
+        },
+        {
+          "p": "Yes, cash is fine. Do you need a bag for your fruit?",
+          "m": "Nói bạn cần một cái túi. Hỏi tổng số tiền là bao nhiêu và bạn nên trả tiền ở đâu.",
+          "h": "Dùng 'Yes, please', 'How much is the total?' và 'Where should I pay?'",
+          "s": "Yes, please. How much is the total, and where should I pay?"
+        },
+        {
+          "p": "The total is 65,000 VND. You can pay at the counter over there. Have a nice day!",
+          "m": "Cảm ơn người bán. Chúc họ một ngày tốt lành.",
+          "h": "Dùng 'Thank you', 'Have a nice day too!'",
+          "s": "Thank you! You have a nice day too!"
+        }
+      ]
+    },
+    {
+      "t": "Ôn tập: Mua sắm đồ điện tử",
+      "e": [
+        {
+          "p": "Welcome! Are you interested in any of our laptops?",
+          "m": "Chào người bán. Nói bạn đang tìm một chiếc laptop mới. Hỏi xem chiếc laptop màu bạc đó có phải là một lựa chọn tốt cho công việc văn phòng không.",
+          "h": "Dùng 'Hello', 'I'm looking for a new laptop', 'Is that silver laptop good for office work?'",
+          "s": "Hello! I'm looking for a new laptop. Is that silver laptop good for office work?"
+        },
+        {
+          "p": "Yes, it's very good for office work. It has a fast processor and a clear screen. It's 15,000,000 VND.",
+          "m": "Nói giá cả chấp nhận được. Hỏi xem nó có pin tốt không và có bảo hành bao lâu.",
+          "h": "Dùng 'The price is acceptable', 'Does it have a good battery life?' và 'How long is the warranty?'",
+          "s": "The price is acceptable. Does it have a good battery life, and how long is the warranty?"
+        },
+        {
+          "p": "It has a battery life of about 8 hours, and it comes with a 1-year warranty. We also have a special discount on printers this month.",
+          "m": "Nói rằng 8 giờ là đủ. Hỏi xem máy in có cần thiết cho công việc văn phòng không và có giá bao nhiêu sau khi giảm giá.",
+          "h": "Dùng '8 hours is enough', 'Is a printer necessary for office work?' và 'How much is it after discount?'",
+          "s": "8 hours is enough. Is a printer necessary for office work, and how much is it after the discount?"
+        },
+        {
+          "p": "A printer is often useful for office work. This printer is usually 2,000,000 VND, but with 20% off, it's 1,600,000 VND.",
+          "m": "Nói bạn sẽ mua cả laptop và máy in. Hỏi xem bạn có thể trả bằng thẻ ngân hàng không.",
+          "h": "Dùng 'I will buy both the laptop and the printer', 'Can I pay with a bank card?'",
+          "s": "I will buy both the laptop and the printer. Can I pay with a bank card?"
+        },
+        {
+          "p": "Yes, you can pay with a bank card. I will prepare your items for you.",
+          "m": "Cảm ơn người bán. Nói bạn rất vui vì đã tìm thấy những món đồ này.",
+          "h": "Dùng 'Thank you', 'I am happy I found these items.'",
+          "s": "Thank you! I am very happy I found these items today."
+        }
+      ]
+    },
+    {
+      "t": "Ôn tập: Hỏi và so sánh quần áo",
+      "e": [
+        {
+          "p": "Hello! We have many new arrivals today. What are you looking for?",
+          "m": "Chào người bán. Nói bạn đang tìm một chiếc váy cho mùa hè. Hỏi xem chiếc váy hoa màu vàng kia có sẵn cỡ S không.",
+          "h": "Dùng 'Hello', 'I'm looking for a summer dress', 'Is that yellow floral dress available in size S?'",
+          "s": "Hello! I'm looking for a summer dress. Is that yellow floral dress available in size S?"
+        },
+        {
+          "p": "Yes, we have it in size S. It's very light and perfect for summer. It costs 500,000 VND.",
+          "m": "Nói giá có vẻ tốt. Hỏi xem nó có thoải mái hơn chiếc váy màu xanh trơn không.",
+          "h": "Dùng 'The price seems good', 'Is it more comfortable than that plain blue dress?'",
+          "s": "The price seems good. Is it more comfortable than that plain blue dress?"
+        },
+        {
+          "p": "The yellow floral dress is 100% cotton, so it's more comfortable. The blue dress is a linen blend.",
+          "m": "Nói bạn thích chất liệu cotton hơn. Hỏi xem có giảm giá nào cho váy không.",
+          "h": "Dùng 'I prefer cotton material', 'Are there any discounts for dresses?'",
+          "s": "I prefer cotton material. Are there any discounts for dresses today?"
+        },
+        {
+          "p": "Yes, all summer dresses have a 15% discount this week. So the yellow dress will be cheaper.",
+          "m": "Nói rằng điều đó thật tuyệt. Hỏi xem bạn có thể thử cả hai chiếc váy không.",
+          "h": "Dùng 'That's great', 'Can I try on both dresses?'",
+          "s": "That's great! Can I try on both dresses, please?"
+        },
+        {
+          "p": "Of course! The changing rooms are right here. I think both will look beautiful on you.",
+          "m": "Cảm ơn người bán. Nói bạn sẽ thử chúng và sẽ quyết định sau.",
+          "h": "Dùng 'Thank you', 'I will try them on' và 'I will decide later.'",
+          "s": "Thank you! I will try them on and then I will decide."
+        }
+      ]
+    }
+  ]
+}

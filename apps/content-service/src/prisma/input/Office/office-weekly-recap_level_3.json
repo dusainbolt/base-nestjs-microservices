@@ -1,0 +1,635 @@
+{
+  "l": 3,
+  "d": [
+    {
+      "t": "Báo cáo công việc tuần",
+      "e": [
+        {
+          "p": "Can you summarize your week?",
+          "m": "Nói 1-2 việc chính bạn đã hoàn thành. Nói nếu bạn gặp khó khăn và cách bạn giải quyết.",
+          "h": "Past Simple; câu 2: 'I had a problem but I fixed it.'",
+          "s": "I finished the weekly report and updated the task list. I had a small data issue, but I fixed it by checking the files."
+        },
+        {
+          "p": "What was your main task on Monday?",
+          "m": "Nói việc chính bạn làm vào thứ Hai. Nói kết quả bạn đạt được.",
+          "h": "Past Simple + result (so/therefore).",
+          "s": "On Monday I tested the new feature. It worked well so I reported it to the team."
+        },
+        {
+          "p": "Did you meet your deadlines this week?",
+          "m": "Nói có/không bạn hoàn thành deadline. Nếu không, nói lý do ngắn gọn.",
+          "h": "Yes/No + Past Simple; nối lý do bằng 'because'.",
+          "s": "No, I missed one deadline because a task took longer than expected. I informed my manager and I will finish it next Monday."
+        },
+        {
+          "p": "Which task took the most time?",
+          "m": "Nói nhiệm vụ tốn thời gian nhất. Nói bạn đã làm gì để hoàn thành nó.",
+          "h": "Past Simple; dùng 'so' hoặc 'and' để nối hành động.",
+          "s": "The data cleaning task took the most time. I worked with a teammate and we finished it yesterday."
+        },
+        {
+          "p": "What will you do first next week?",
+          "m": "Nói việc bạn sẽ làm đầu tiên vào tuần tới. Nói lý do vì sao.",
+          "h": "Use 'I will' hoặc 'I'm going to' + 'because'.",
+          "s": "I will finish the delayed task first. It is important because the client expects the update."
+        }
+      ]
+    },
+    {
+      "t": "Cuộc họp nhóm",
+      "e": [
+        {
+          "p": "How did the team meeting go?",
+          "m": "Nói tóm tắt kết quả họp. Nói một quyết định chính.",
+          "h": "Past Simple; dùng 'we decided' cho quyết định.",
+          "s": "The meeting went well and we reviewed the project status. We decided to change the deadline for one task."
+        },
+        {
+          "p": "Who presented the results?",
+          "m": "Nói ai đã trình bày. Nói ngắn về nội dung họ trình bày.",
+          "h": "Past Simple; 'He/She presented' + nội dung.",
+          "s": "Anna presented the test results. She showed that the new feature works better than before."
+        },
+        {
+          "p": "Did anyone raise an issue?",
+          "m": "Nói có/không ai nêu vấn đề. Nếu có, mô tả ngắn vấn đề và bước tiếp theo.",
+          "h": "Yes/No + Past Simple; thêm 'so' hoặc 'then' cho bước tiếp theo.",
+          "s": "Yes, John raised a bug in the report. We will fix it and then we will retest the feature."
+        },
+        {
+          "p": "What did you suggest in the meeting?",
+          "m": "Nói gợi ý của bạn trong cuộc họp. Nói lý do bạn gợi ý đó.",
+          "h": "Past Simple + because.",
+          "s": "I suggested we improve the test plan. I suggested it because testing will save time later."
+        },
+        {
+          "p": "What are the next steps after the meeting?",
+          "m": "Nói 1-2 bước tiếp theo cho nhóm. Nói ai chịu trách nhiệm một bước.",
+          "h": "Use 'We will' or 'Someone will' + name/role.",
+          "s": "We will update the schedule and test the fix. The tester will run the tests next Tuesday."
+        }
+      ]
+    },
+    {
+      "t": "Tiến độ dự án",
+      "e": [
+        {
+          "p": "How is the project progress?",
+          "m": "Nói tiến độ chung của dự án. Nói nếu dự án đang đúng hạn hay trễ.",
+          "h": "Past Simple for completed parts; use 'on time' or 'late'.",
+          "s": "The project is half finished and we completed the core module. It is slightly late because a task required more work."
+        },
+        {
+          "p": "Which milestone did you finish?",
+          "m": "Nói milestone bạn đã hoàn thành. Nói kết quả của milestone đó.",
+          "h": "Past Simple; 'we completed' + result.",
+          "s": "We completed the design milestone. The team delivered the final mockups."
+        },
+        {
+          "p": "What remains to do?",
+          "m": "Liệt kê 1-2 việc còn lại. Nói dự kiến thời gian hoàn thành.",
+          "h": "Use simple list in Past/Future: 'We need to' or 'We will'.",
+          "s": "We need to finish testing and fix bugs. We will complete them by next Friday."
+        },
+        {
+          "p": "Was there a delay and why?",
+          "m": "Nói có/không trễ. Nếu có, nêu lý do ngắn gọn.",
+          "h": "Yes/No + Past Simple; lý do dùng 'because'.",
+          "s": "Yes, there was a delay because a team member was sick. We redistributed tasks and kept working."
+        },
+        {
+          "p": "How will you speed up work next week?",
+          "m": "Nói 1 cách bạn sẽ làm để tăng tốc. Nói ai sẽ hỗ trợ nếu cần.",
+          "h": "Use 'I will' or 'We will' + 'with' or 'so'.",
+          "s": "We will prioritize bug fixes and reduce meetings. A teammate will help with testing so we finish earlier."
+        }
+      ]
+    },
+    {
+      "t": "Xử lý sự cố nhỏ",
+      "e": [
+        {
+          "p": "Did any small problem happen this week?",
+          "m": "Nói có/không có sự cố. Nếu có, mô tả ngắn sự cố.",
+          "h": "Yes/No + Past Simple; mô tả bằng câu ngắn.",
+          "s": "Yes, a report file was corrupted. I could not open it on Wednesday."
+        },
+        {
+          "p": "How did you fix the problem?",
+          "m": "Nói cách bạn xử lý sự cố. Nói kết quả sau khi xử lý.",
+          "h": "Past Simple; 'so' hoặc 'and then' cho kết quả.",
+          "s": "I recovered the file from backup and then I checked the data. The file worked and the report was correct."
+        },
+        {
+          "p": "Who helped you with the issue?",
+          "m": "Nói ai giúp bạn và họ làm gì. Nói cảm ơn ngắn.",
+          "h": "Past Simple; include a short 'thank you' action.",
+          "s": "My teammate helped and she restored the backup. I thanked her for fast help."
+        },
+        {
+          "p": "Could this issue happen again?",
+          "m": "Nói có/không khả năng lặp lại. Nếu có, nói biện pháp ngắn.",
+          "h": "Use 'It could' or 'It won't' + reason and 'we will' for action.",
+          "s": "Yes, it could happen because backups are manual. We will automate backups to prevent it."
+        },
+        {
+          "p": "What should the team do to avoid it?",
+          "m": "Đề xuất 1 việc đội nên làm để tránh sự cố. Nói ai nên làm việc đó.",
+          "h": "Use 'We should' or 'Someone should' + role.",
+          "s": "We should set daily automatic backups. The admin should set this next week."
+        }
+      ]
+    },
+    {
+      "t": "Cập nhật deadline",
+      "e": [
+        {
+          "p": "Is any deadline coming up soon?",
+          "m": "Nói có/không deadline sắp đến. Nói deadline cụ thể nếu có.",
+          "h": "Yes/No + Past/Future; nêu ngày/ngắn gọn.",
+          "s": "Yes, the client review is next Thursday. We need to finish tasks before that date."
+        },
+        {
+          "p": "Did you finish the task before the deadline?",
+          "m": "Nói có/không bạn hoàn thành trước hạn. Nếu không, nói khi bạn sẽ xong.",
+          "h": "Yes/No + Past Simple; nếu không, 'I will finish by...'.",
+          "s": "No, I did not finish before the deadline. I will finish it by Monday."
+        },
+        {
+          "p": "Why was one task late?",
+          "m": "Nói lý do trễ ngắn gọn. Nói bạn đã làm gì để giảm ảnh hưởng.",
+          "h": "Past Simple; connect with 'so' or 'therefore'.",
+          "s": "It was late because testing found many bugs. I reported this and we focused on fixes."
+        },
+        {
+          "p": "Can we ask for more time?",
+          "m": "Nói có thể/không thể xin thêm thời gian. Nếu có, nói bạn sẽ làm gì để xin.",
+          "h": "Use 'We can' or 'We can't' + 'we will' for action.",
+          "s": "We can ask the client for a short extension. I will write an email explaining the issues."
+        },
+        {
+          "p": "How will you change the schedule?",
+          "m": "Nói 1 thay đổi cụ thể trong lịch trình. Nói lý do thay đổi.",
+          "h": "Use 'We will' + reason with 'because'.",
+          "s": "We will move testing earlier by two days because we need more time for fixes."
+        }
+      ]
+    },
+    {
+      "t": "Phân công nhiệm vụ",
+      "e": [
+        {
+          "p": "Who did what this week?",
+          "m": "Liệt kê 1-2 người và nhiệm vụ họ làm. Nói kết quả ngắn cho mỗi nhiệm vụ.",
+          "h": "Past Simple; 'He/She did' + result.",
+          "s": "Tom updated the documentation and it is ready. Maria tested the feature and she found three bugs."
+        },
+        {
+          "p": "Did you take any new responsibility?",
+          "m": "Nói có/không bạn nhận nhiệm vụ mới. Nếu có, nói nhiệm vụ và lý do bạn nhận.",
+          "h": "Yes/No + Past Simple; 'because' cho lý do.",
+          "s": "Yes, I took the lead for testing. I took it because the tester was unavailable."
+        },
+        {
+          "p": "Who will handle the client call next week?",
+          "m": "Nói ai sẽ lo cuộc gọi với khách hàng. Nói ngắn lý do người đó phù hợp.",
+          "h": "Use 'X will' + reason with 'because'.",
+          "s": "Anna will handle the client call because she knows the requirements well."
+        },
+        {
+          "p": "Do you need extra help?",
+          "m": "Nói có/không bạn cần thêm hỗ trợ. Nếu có, nêu ai hoặc bộ phận bạn cần.",
+          "h": "Yes/No + 'We need' or 'I need' + who.",
+          "s": "Yes, we need help from the QA team. They will help with faster testing."
+        },
+        {
+          "p": "How will you share tasks next week?",
+          "m": "Nói 1 cách bạn sẽ phân chia công việc. Nói lợi ích của cách đó.",
+          "h": "Use 'We will' + benefit with 'so' or 'because'.",
+          "s": "We will split tasks by feature so each person focuses. This is faster because fewer context switches are needed."
+        }
+      ]
+    },
+    {
+      "t": "Phản hồi từ khách hàng",
+      "e": [
+        {
+          "p": "Did the client give feedback?",
+          "m": "Nói có/không phản hồi. Nếu có, tóm tắt ngắn phản hồi đó.",
+          "h": "Yes/No + Past Simple; tóm tắt bằng một câu.",
+          "s": "Yes, the client gave feedback about the UI. They said the layout is confusing."
+        },
+        {
+          "p": "How did you respond to the feedback?",
+          "m": "Nói cách bạn trả lời khách hàng. Nói hành động bạn đã làm sau phản hồi.",
+          "h": "Past Simple; use 'so' for action.",
+          "s": "I apologized and explained our plan. Then we scheduled a design update."
+        },
+        {
+          "p": "Will you change the product now?",
+          "m": "Nói có/không bạn sẽ thay đổi. Nếu có, mô tả thay đổi ngắn.",
+          "h": "Use 'We will' or 'We won't' + short description.",
+          "s": "We will update the layout and simplify the menu. This will make the UI clearer."
+        },
+        {
+          "p": "Who will contact the client about the update?",
+          "m": "Nói ai sẽ liên hệ khách hàng. Nói cách liên hệ (email/phone).",
+          "h": "Use 'X will' + contact method 'by email' or 'by phone'.",
+          "s": "The project manager will contact the client by email. She will send the plan and timeline."
+        },
+        {
+          "p": "What did you learn from the feedback?",
+          "m": "Nói 1 điều bạn học được. Nói bạn sẽ thay đổi thói quen làm việc nào.",
+          "h": "Past Simple + 'so' + future action.",
+          "s": "I learned that early design reviews help. So I will ask for feedback earlier next time."
+        }
+      ]
+    },
+    {
+      "t": "Sử dụng công cụ",
+      "e": [
+        {
+          "p": "Which tools did you use this week?",
+          "m": "Liệt kê 1-2 công cụ bạn dùng. Nói mục đích dùng mỗi công cụ.",
+          "h": "Past Simple; 'for' để chỉ mục đích.",
+          "s": "I used the task tracker for assigning tasks. I used the spreadsheet for data checks."
+        },
+        {
+          "p": "Did any tool cause problems?",
+          "m": "Nói có/không tool gây vấn đề. Nếu có, mô tả ngắn vấn đề và cách bạn xử lý.",
+          "h": "Yes/No + Past Simple; giải pháp ngắn bằng 'so'.",
+          "s": "Yes, the sync tool failed once. I restarted it and it worked again."
+        },
+        {
+          "p": "Will you try a new tool next week?",
+          "m": "Nói có/không bạn sẽ dùng tool mới. Nếu có, nêu tên ngắn và lý do.",
+          "h": "Use 'I will' or 'I'm going to' + reason.",
+          "s": "I will try a new reporting tool because it is faster. It should save time."
+        },
+        {
+          "p": "Who trained the team on the tool?",
+          "m": "Nói ai hướng dẫn và khi nào. Nói kết quả ngắn sau buổi hướng dẫn.",
+          "h": "Past Simple; 'X trained' + result.",
+          "s": "Mark trained the team on Tuesday. After that, people worked more confidently."
+        },
+        {
+          "p": "How did the tool improve your work?",
+          "m": "Nói 1 cách công cụ giúp công việc. Nói bằng so sánh ngắn nếu có.",
+          "h": "Use comparative: 'faster', 'more comfortable' etc.",
+          "s": "The new tracker made scheduling faster. It is more comfortable than the old system."
+        }
+      ]
+    },
+    {
+      "t": "Học được điều mới",
+      "e": [
+        {
+          "p": "Did you learn something new this week?",
+          "m": "Nói có/không bạn học điều mới. Nếu có, mô tả ngắn điều đó.",
+          "h": "Yes/No + Past Simple; mô tả ngắn.",
+          "s": "Yes, I learned a new testing method. It helped me find bugs faster."
+        },
+        {
+          "p": "How will this help the project?",
+          "m": "Nói 1-2 lợi ích việc bạn học được. Nói bạn sẽ áp dụng thế nào.",
+          "h": "Use 'It will' or 'I will' + reason.",
+          "s": "It will improve test coverage and reduce errors. I will apply it in next test run."
+        },
+        {
+          "p": "Did you practice the new skill this week?",
+          "m": "Nói có/không bạn đã thực hành. Nếu có, mô tả ngắn hoạt động thực hành.",
+          "h": "Past Simple; 'I practiced by...' short description.",
+          "s": "Yes, I practiced by writing test cases and running them. The practice found one more bug."
+        },
+        {
+          "p": "Would you recommend this training to others?",
+          "m": "Nói có/không bạn khuyên người khác học. Nói lý do ngắn.",
+          "h": "Use 'I would' or 'I wouldn't' + because.",
+          "s": "I would recommend it because it is practical and short. It helps new team members improve quickly."
+        },
+        {
+          "p": "What will you learn next week?",
+          "m": "Nói 1 điều bạn định học tuần tới. Nói lý do bạn chọn nó.",
+          "h": "Use 'I will' or 'I'm going to' + reason.",
+          "s": "I will learn a new reporting feature because it will save time. I want to use it for the monthly report."
+        }
+      ]
+    },
+    {
+      "t": "So sánh hai tuần",
+      "e": [
+        {
+          "p": "Was this week better than last week?",
+          "m": "Nói có/không tuần này tốt hơn tuần trước. Nói 1 lý do ngắn.",
+          "h": "Use comparative 'better' and Past Simple.",
+          "s": "Yes, this week was better than last week. We completed more tasks and the team was faster."
+        },
+        {
+          "p": "What improved this week?",
+          "m": "Nói 1 điều tiến bộ so với tuần trước. Nói ai đóng góp vào tiến bộ đó.",
+          "h": "Past Simple + 'because' or 'so'.",
+          "s": "Testing improved because we followed a checklist. The tester contributed by working carefully."
+        },
+        {
+          "p": "Did you work more or less hours than last week?",
+          "m": "Nói bạn làm nhiều hơn/ít hơn. Nói lý do ngắn cho sự thay đổi.",
+          "h": "Use 'I worked more' or 'I worked less' + reason.",
+          "s": "I worked more hours this week because a task required extra testing. I stayed late twice."
+        },
+        {
+          "p": "Which week was more stressful?",
+          "m": "Nói tuần nào căng thẳng hơn. Nói một lý do ngắn.",
+          "h": "Use 'more stressful' + Past Simple reason.",
+          "s": "Last week was more stressful because we had a surprise deadline. We had to rush many tasks."
+        },
+        {
+          "p": "What will you change to make next week better?",
+          "m": "Nói 1 thay đổi bạn sẽ làm để cải thiện. Nói kết quả bạn mong đợi.",
+          "h": "Use 'I will' + expected result with 'so' or 'because'.",
+          "s": "I will plan tasks earlier so we avoid last-minute work. I expect fewer late nights."
+        }
+      ]
+    },
+    {
+      "t": "Nghỉ phép và ảnh hưởng",
+      "e": [
+        {
+          "p": "Did anyone take leave this week?",
+          "m": "Nói có/không ai nghỉ phép. Nếu có, nói ai và số ngày.",
+          "h": "Yes/No + Past Simple; nêu số ngày ngắn.",
+          "s": "Yes, Sara took two days off. She was away on Wednesday and Thursday."
+        },
+        {
+          "p": "How did the team manage during the leave?",
+          "m": "Mô tả 1 cách ngắn nhóm xử lý công việc khi người đó vắng. Nói kết quả ngắn.",
+          "h": "Past Simple; 'we did' or 'we covered' + result.",
+          "s": "We redistributed her tasks to other members and covered urgent items. The work continued without delay."
+        },
+        {
+          "p": "Did the leave cause any delay?",
+          "m": "Nói có/không nghỉ phép gây trễ. Nếu có, nêu việc bị trễ và giải pháp.",
+          "h": "Yes/No + Past Simple; nêu giải pháp ngắn.",
+          "s": "No, the leave did not cause a delay. We planned coverage and finished tasks on time."
+        },
+        {
+          "p": "Will you plan differently for future leaves?",
+          "m": "Nói có/không bạn sẽ lên kế hoạch khác. Nếu có, nêu 1 thay đổi cụ thể.",
+          "h": "Use 'We will' or 'I will' + specific change.",
+          "s": "We will create a backup list for every role. This will help cover tasks quickly."
+        },
+        {
+          "p": "Who should approve time off next week?",
+          "m": "Nói ai nên duyệt nghỉ. Nói lý do ngắn cho lựa chọn đó.",
+          "h": "Use 'X should' + reason with 'because'.",
+          "s": "The team lead should approve time off because they know the schedule. They can avoid conflicts."
+        }
+      ]
+    },
+    {
+      "t": "Chuẩn bị cho tuần tới",
+      "e": [
+        {
+          "p": "What are your top priorities next week?",
+          "m": "Liệt kê 1-2 ưu tiên hàng đầu. Nói mục tiêu cho mỗi ưu tiên.",
+          "h": "Use 'I will' or 'We will' + short goal.",
+          "s": "I will finish the final tests and update the report. The goal is to deliver a stable release."
+        },
+        {
+          "p": "Do you expect any risks?",
+          "m": "Nói có/không rủi ro bạn dự đoán. Nếu có, mô tả rủi ro và biện pháp.",
+          "h": "Yes/No + 'because' + 'we will' for mitigation.",
+          "s": "Yes, a key tester may be unavailable because of personal reasons. We will ask another tester to help."
+        },
+        {
+          "p": "Will you need overtime?",
+          "m": "Nói có/không bạn cần làm thêm giờ. Nếu có, nói số buổi hoặc ngày ngắn.",
+          "h": "Use 'I will' or 'I won't' + time estimate.",
+          "s": "I will need two extra evenings next week. I will work late on Tuesday and Thursday."
+        },
+        {
+          "p": "How will you communicate progress to the team?",
+          "m": "Nói 1 kênh bạn sẽ dùng để cập nhật tiến độ. Nói tần suất cập nhật.",
+          "h": "Use 'I will' + channel (email/slack) and frequency (daily/weekly).",
+          "s": "I will update the team on Slack every morning. This keeps everyone informed."
+        },
+        {
+          "p": "Who will be your main contact next week?",
+          "m": "Nói ai là liên hệ chính. Nói lý do người đó phù hợp.",
+          "h": "Use 'X will be' + reason 'because'.",
+          "s": "Mark will be my main contact because he manages the client relationship."
+        }
+      ]
+    },
+    {
+      "t": "Báo cáo với quản lý",
+      "e": [
+        {
+          "p": "Can you give me a short update for the manager?",
+          "m": "Nói 1-2 điểm chính để báo quản lý. Nói một đề nghị ngắn nếu cần.",
+          "h": "Past Simple + 'I suggest' or 'I recommend' for proposal.",
+          "s": "We completed the core tests and fixed key bugs. I suggest we schedule a client demo on Friday."
+        },
+        {
+          "p": "Did you need management support this week?",
+          "m": "Nói có/không bạn cần hỗ trợ. Nếu có, nêu hỗ trợ cụ thể.",
+          "h": "Yes/No + Past Simple; specify support.",
+          "s": "Yes, we needed extra QA resources. We asked management for one temporary tester."
+        },
+        {
+          "p": "How much progress did you show in percent?",
+          "m": "Nói tỷ lệ tiến độ (ước lượng). Nói một câu giải thích ngắn.",
+          "h": "Use a percent value and short reason.",
+          "s": "We are about 60% complete. Most core features are done but tests remain."
+        },
+        {
+          "p": "What is one risk for the manager to know?",
+          "m": "Nói một rủi ro quan trọng. Nói bạn đã làm gì để giảm rủi ro.",
+          "h": "State risk then mitigation with 'we will' or 'we did'.",
+          "s": "A risk is delayed integration with the partner API. We will test integration early to avoid delay."
+        },
+        {
+          "p": "Do you need a decision from the manager?",
+          "m": "Nói có/không bạn cần quyết định. Nếu có, nêu quyết định và hạn chót ngắn.",
+          "h": "Yes/No + Past/Future; include deadline 'by...'.",
+          "s": "Yes, we need approval for extra budget. Please decide by Thursday so we can hire help."
+        }
+      ]
+    },
+    {
+      "t": "Báo cáo cho khách hàng",
+      "e": [
+        {
+          "p": "Can you tell the client what you finished this week?",
+          "m": "Nói 1-2 việc bạn đã hoàn thành cho khách hàng. Nói kết quả ngắn.",
+          "h": "Past Simple; be direct and concise.",
+          "s": "We finished the UI update and completed core tests. The system is more stable now."
+        },
+        {
+          "p": "Did the client get a demo?",
+          "m": "Nói có/không demo cho khách hàng. Nếu có, mô tả ngắn phản hồi họ.",
+          "h": "Yes/No + Past Simple; short feedback.",
+          "s": "Yes, we gave a demo on Friday. The client was satisfied and asked for minor changes."
+        },
+        {
+          "p": "What will you deliver next to the client?",
+          "m": "Nói 1-2 thứ bạn sẽ giao tiếp theo. Nói thời hạn dự kiến.",
+          "h": "Use 'We will' + deadline 'by...'.",
+          "s": "We will deliver the bug fixes and an updated document by next Wednesday. This should meet their needs."
+        },
+        {
+          "p": "How did you address client's concern?",
+          "m": "Nói hành động bạn làm để giải quyết mối quan tâm của khách hàng. Nói kết quả ngắn.",
+          "h": "Past Simple; 'so' for result.",
+          "s": "We clarified the requirement and adjusted the design. The client approved the new approach."
+        },
+        {
+          "p": "Will there be extra cost for changes?",
+          "m": "Nói có/không có chi phí thêm. Nếu có, nêu lý do ngắn và dự đoán chi phí.",
+          "h": "Use 'There will' or 'There won't' + short reason and estimate.",
+          "s": "There may be extra cost because the change is out of scope. It should be small, about one day's work."
+        }
+      ]
+    },
+    {
+      "t": "Giao tiếp nội bộ",
+      "e": [
+        {
+          "p": "How often did you update the team this week?",
+          "m": "Nói tần suất bạn cập nhật. Nói kênh bạn dùng.",
+          "h": "Past Simple; use 'by email' or 'on Slack'.",
+          "s": "I updated the team every morning on Slack. I also sent a summary email twice."
+        },
+        {
+          "p": "Did communication improve?",
+          "m": "Nói có/không cải thiện. Nếu có, nêu 1 ví dụ ngắn.",
+          "h": "Yes/No + Past Simple; give example.",
+          "s": "Yes, communication improved because we had short daily check-ins. The team solved blockers faster."
+        },
+        {
+          "p": "Who needed more information?",
+          "m": "Nói ai cần thêm thông tin. Nói bạn đã gửi gì cho họ.",
+          "h": "Past Simple; 'I sent' + document/email.",
+          "s": "The developer needed more details. I sent the spec and a screenshot."
+        },
+        {
+          "p": "What will you change in communication next week?",
+          "m": "Nói 1 thay đổi bạn sẽ làm cho giao tiếp. Nói lợi ích ngắn của thay đổi đó.",
+          "h": "Use 'We will' or 'I will' + benefit.",
+          "s": "We will have a 10-minute standup each morning. This will help resolve issues faster."
+        },
+        {
+          "p": "Do you think meetings were useful this week?",
+          "m": "Nói có/không họp hữu ích. Nói 1 lý do ngắn.",
+          "h": "Yes/No + Past Simple; give reason.",
+          "s": "Yes, meetings were useful because they aligned priorities. We avoided duplicated work."
+        }
+      ]
+    },
+    {
+      "t": "Ôn tập: Tổng kết tuần với sếp",
+      "e": [
+        {
+          "p": "Can you give me a short weekly summary for the boss?",
+          "m": "Nói 1-2 việc chính bạn hoàn thành. Nói 1 vấn đề bạn đã giải quyết.",
+          "h": "Past Simple; be concise and factual.",
+          "s": "I completed the user tests and updated the report. I solved a critical bug by coordinating with the tester."
+        },
+        {
+          "p": "What progress did you make on the main project?",
+          "m": "Nói tiến độ bạn đạt được (tỷ lệ hoặc phần). Nói một nhiệm vụ tiếp theo.",
+          "h": "Use percent or 'we finished' + 'We will' for next task.",
+          "s": "We reached 70% completion. We will start integration next week."
+        },
+        {
+          "p": "Did you need any decision from the boss?",
+          "m": "Nói có/không bạn cần quyết định. Nếu có, nói quyết định và hạn chót.",
+          "h": "Yes/No + 'we need' + deadline.",
+          "s": "Yes, we need approval for one extra resource by Friday. This will speed up testing."
+        },
+        {
+          "p": "How did you handle a team problem?",
+          "m": "Mô tả ngắn cách bạn xử lý vấn đề trong nhóm. Nói kết quả.",
+          "h": "Past Simple + result with 'so' or 'then'.",
+          "s": "I reassigned tasks and held a short meeting. Then the team completed the work on time."
+        },
+        {
+          "p": "What are your priorities for next week?",
+          "m": "Liệt kê 1-2 ưu tiên cho tuần tới. Nói mục tiêu ngắn cho mỗi ưu tiên.",
+          "h": "Use 'I will' or 'We will' + goal.",
+          "s": "I will finish integration testing and prepare the client demo. The goal is a stable release."
+        }
+      ]
+    },
+    {
+      "t": "Ôn tập: Họp cập nhật dự án",
+      "e": [
+        {
+          "p": "Please summarize the project status for the meeting.",
+          "m": "Nói tình trạng hiện tại của dự án. Nói một nhiệm vụ quan trọng đã hoàn thành.",
+          "h": "Past Simple + short status phrase.",
+          "s": "The project is on track for core features and we completed the design review. The team finished the new UI."
+        },
+        {
+          "p": "Were there any blockers this week?",
+          "m": "Nói có/không blocker. Nếu có, nêu blocker và giải pháp ngắn.",
+          "h": "Yes/No + Past Simple; solution with 'so' or 'we will'.",
+          "s": "Yes, integration tests failed midweek. We debugged the API and fixed the issue."
+        },
+        {
+          "p": "What decisions did the team make?",
+          "m": "Nói 1 quyết định chính của nhóm. Nói lý do quyết định đó.",
+          "h": "Past Simple; 'we decided' + reason.",
+          "s": "We decided to postpone one feature because it was not ready. This keeps the release stable."
+        },
+        {
+          "p": "Who will present at the next review?",
+          "m": "Nói ai sẽ trình bày. Nói ngắn vì sao người đó phù hợp.",
+          "h": "Use 'X will' + reason 'because'.",
+          "s": "Maria will present because she led the testing. She knows the details."
+        },
+        {
+          "p": "What are the risks to mention in the meeting?",
+          "m": "Liệt kê 1 rủi ro quan trọng. Nói biện pháp bạn đề xuất để giảm rủi ro.",
+          "h": "State risk then mitigation: 'We will' or 'We did'.",
+          "s": "A risk is delayed partner integration. We will test early and contact the partner for help."
+        }
+      ]
+    },
+    {
+      "t": "Ôn tập: Kế hoạch và vấn đề",
+      "e": [
+        {
+          "p": "Can you outline next week's plan briefly?",
+          "m": "Nói 1-2 việc chính trong kế hoạch. Nói mục tiêu cho mỗi việc.",
+          "h": "Use 'I will' or 'We will' + goal.",
+          "s": "We will finish bug fixes and prepare release notes. The goal is a smooth deployment."
+        },
+        {
+          "p": "What small issues did you resolve this week?",
+          "m": "Liệt kê 1-2 vấn đề nhỏ bạn xử lý. Nói cách bạn xử lý mỗi vấn đề.",
+          "h": "Past Simple; 'I fixed' or 'I resolved' + method.",
+          "s": "I fixed a corrupted file by restoring a backup. I resolved a login bug by updating credentials."
+        },
+        {
+          "p": "Do you expect any new problems next week?",
+          "m": "Nói có/không dự đoán vấn đề mới. Nếu có, mô tả và đề xuất hành động.",
+          "h": "Yes/No + 'because' + 'we will' for action.",
+          "s": "Yes, we may see bugs after integration because systems change. We will run extra tests to catch them early."
+        },
+        {
+          "p": "Who will monitor the release?",
+          "m": "Nói ai sẽ giám sát phát hành. Nói 1 nhiệm vụ họ sẽ làm.",
+          "h": "Use 'X will' + simple task.",
+          "s": "Tom will monitor the release and check system logs. He will report any errors quickly."
+        },
+        {
+          "p": "What should the team improve next month?",
+          "m": "Nói 1 điều nhóm nên cải thiện trong tháng tới. Nói lợi ích của cải thiện đó.",
+          "h": "Use 'We should' + benefit with 'so' or 'because'.",
+          "s": "We should improve test automation because it will reduce manual work. This saves time and avoids mistakes."
+        }
+      ]
+    }
+  ]
+}

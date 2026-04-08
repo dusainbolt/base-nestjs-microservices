@@ -1,0 +1,530 @@
+{
+  "l": 1,
+  "d": [
+    {
+      "t": "Hỏi về tên sản phẩm",
+      "e": [
+        {
+          "p": "Hello! Can I help you?",
+          "m": "Hỏi 'cái này là gì'.",
+          "h": "Sử dụng 'What is this?'",
+          "s": "What is this?"
+        },
+        {
+          "p": "It is a book. Do you like books?",
+          "m": "Nói 'tôi thích sách'.",
+          "h": "Sử dụng 'I like...'",
+          "s": "Yes, I like books."
+        },
+        {
+          "p": "This is a new item. Is it big or small?",
+          "m": "Nói 'nó nhỏ'.",
+          "h": "Sử dụng 'It is...'",
+          "s": "It is small."
+        },
+        {
+          "p": "We have many toys. What is this toy?",
+          "m": "Nói 'nó là một con búp bê'.",
+          "h": "Sử dụng 'It is a...'",
+          "s": "It is a doll."
+        },
+        {
+          "p": "This is a fruit. Do you know its name?",
+          "m": "Hỏi 'tên của nó là gì'.",
+          "h": "Sử dụng 'What is its name?'",
+          "s": "What is its name?"
+        }
+      ]
+    },
+    {
+      "t": "Hỏi giá cả đơn giản",
+      "e": [
+        {
+          "p": "This is a nice pen. How much is it?",
+          "m": "Hỏi 'nó giá bao nhiêu'.",
+          "h": "Sử dụng 'How much is it?'",
+          "s": "How much is it?"
+        },
+        {
+          "p": "The pen is five dollars. Is it good?",
+          "m": "Nói 'nó tốt'.",
+          "h": "Sử dụng 'It is...'",
+          "s": "Yes, it is good."
+        },
+        {
+          "p": "We have a big hat. How much is this hat?",
+          "m": "Hỏi 'chiếc mũ này giá bao nhiêu'.",
+          "h": "Sử dụng 'How much is this...?'",
+          "s": "How much is this hat?"
+        },
+        {
+          "p": "This hat is ten dollars. Do you want it?",
+          "m": "Nói 'tôi muốn nó'.",
+          "h": "Sử dụng 'I want it.'",
+          "s": "Yes, I want it."
+        },
+        {
+          "p": "These shoes are very popular. How much are they?",
+          "m": "Hỏi 'chúng giá bao nhiêu'.",
+          "h": "Sử dụng 'How much are they?'",
+          "s": "How much are they?"
+        }
+      ]
+    },
+    {
+      "t": "Diễn tả sự thích/không thích",
+      "e": [
+        {
+          "p": "This is a red dress. Do you like it?",
+          "m": "Nói 'tôi thích nó'.",
+          "h": "Sử dụng 'I like it.'",
+          "s": "Yes, I like it."
+        },
+        {
+          "p": "We also have a yellow dress. Do you like the yellow dress?",
+          "m": "Nói 'tôi không thích chiếc váy màu vàng'.",
+          "h": "Sử dụng 'I don't like...'",
+          "s": "No, I don't like the yellow dress."
+        },
+        {
+          "p": "This flower is beautiful. Do you think it is beautiful?",
+          "m": "Nói 'nó đẹp'.",
+          "h": "Sử dụng 'It is...'",
+          "s": "Yes, it is beautiful."
+        },
+        {
+          "p": "Here is a blue shirt. Do you like blue shirts?",
+          "m": "Nói 'tôi thích áo sơ mi màu xanh'.",
+          "h": "Sử dụng 'I like...'",
+          "s": "Yes, I like blue shirts."
+        },
+        {
+          "p": "This game is for kids. Do you like this game?",
+          "m": "Nói 'tôi không thích trò chơi này'.",
+          "h": "Sử dụng 'I do not like...'",
+          "s": "No, I do not like this game."
+        }
+      ]
+    },
+    {
+      "t": "Hỏi về màu sắc",
+      "e": [
+        {
+          "p": "This is a nice car. What color is it?",
+          "m": "Hỏi 'nó màu gì'.",
+          "h": "Sử dụng 'What color is it?'",
+          "s": "What color is it?"
+        },
+        {
+          "p": "It is red. Do you want a red car?",
+          "m": "Nói 'tôi muốn một chiếc xe màu đỏ'.",
+          "h": "Sử dụng 'I want a...'",
+          "s": "Yes, I want a red car."
+        },
+        {
+          "p": "We have many bags. Is this bag green?",
+          "m": "Nói 'không, nó không phải màu xanh lá cây'.",
+          "h": "Sử dụng 'No, it is not...'",
+          "s": "No, it is not green."
+        },
+        {
+          "p": "What color is this bag then?",
+          "m": "Nói 'nó màu đen'.",
+          "h": "Sử dụng 'It is...'",
+          "s": "It is black."
+        },
+        {
+          "p": "This is a pretty flower. Do you like its color?",
+          "m": "Hỏi 'nó có màu gì'.",
+          "h": "Sử dụng 'What color is it?'",
+          "s": "What color is it?"
+        }
+      ]
+    },
+    {
+      "t": "Hỏi về số lượng",
+      "e": [
+        {
+          "p": "We have pens. How many pens do you want?",
+          "m": "Nói 'tôi muốn hai cái bút'.",
+          "h": "Sử dụng 'I want two...'",
+          "s": "I want two pens."
+        },
+        {
+          "p": "Here are two pens. Do you need more?",
+          "m": "Nói 'tôi không cần thêm'.",
+          "h": "Sử dụng 'I do not need more.'",
+          "s": "No, I do not need more."
+        },
+        {
+          "p": "We have apples. How many apples are there?",
+          "m": "Nói 'có ba quả táo'.",
+          "h": "Sử dụng 'There are three...'",
+          "s": "There are three apples."
+        },
+        {
+          "p": "These apples are red. Do you like red apples?",
+          "m": "Nói 'tôi thích táo màu đỏ'.",
+          "h": "Sử dụng 'I like...'",
+          "s": "Yes, I like red apples."
+        },
+        {
+          "p": "There are many shirts here. How many blue shirts are there?",
+          "m": "Hỏi 'có bao nhiêu chiếc áo sơ mi màu xanh'.",
+          "h": "Sử dụng 'How many...?'",
+          "s": "How many blue shirts are there?"
+        }
+      ]
+    },
+    {
+      "t": "Mô tả sản phẩm đơn giản",
+      "e": [
+        {
+          "p": "This is a new phone. Is it big or small?",
+          "m": "Nói 'nó nhỏ'.",
+          "h": "Sử dụng 'It is...'",
+          "s": "It is small."
+        },
+        {
+          "p": "We have big phones too. Do you want a big phone?",
+          "m": "Nói 'tôi muốn một chiếc điện thoại nhỏ'.",
+          "h": "Sử dụng 'I want a small...'",
+          "s": "No, I want a small phone."
+        },
+        {
+          "p": "This is a toy car. What color is it?",
+          "m": "Nói 'nó màu xanh'.",
+          "h": "Sử dụng 'It is...'",
+          "s": "It is blue."
+        },
+        {
+          "p": "This is a very good bag. Is it for a boy or a girl?",
+          "m": "Nói 'nó dành cho một bé gái'.",
+          "h": "Sử dụng 'It is for a...'",
+          "s": "It is for a girl."
+        },
+        {
+          "p": "Here are some shoes. Are they new or old?",
+          "m": "Hỏi 'chúng mới hay cũ'.",
+          "h": "Sử dụng 'Are they...?'",
+          "s": "Are they new or old?"
+        }
+      ]
+    },
+    {
+      "t": "Hỏi về kích thước",
+      "e": [
+        {
+          "p": "This T-shirt is green. Is it small?",
+          "m": "Nói 'không, nó không nhỏ'.",
+          "h": "Sử dụng 'No, it is not...'",
+          "s": "No, it is not small."
+        },
+        {
+          "p": "Is it a big T-shirt then?",
+          "m": "Nói 'nó là một chiếc áo phông lớn'.",
+          "h": "Sử dụng 'It is a big...'",
+          "s": "Yes, it is a big T-shirt."
+        },
+        {
+          "p": "We have hats. Is this hat for an adult or a child?",
+          "m": "Hỏi 'nó dành cho trẻ em hay người lớn'.",
+          "h": "Sử dụng 'Is it for...?'",
+          "s": "Is it for a child or an adult?"
+        },
+        {
+          "p": "It is for a child. Do you need a big hat?",
+          "m": "Nói 'tôi cần một chiếc mũ lớn'.",
+          "h": "Sử dụng 'I need a big...'",
+          "s": "Yes, I need a big hat."
+        },
+        {
+          "p": "There are many shoes here. Are these shoes big or small?",
+          "m": "Nói 'chúng nhỏ'.",
+          "h": "Sử dụng 'They are...'",
+          "s": "They are small."
+        }
+      ]
+    },
+    {
+      "t": "Hỏi về chất liệu cơ bản",
+      "e": [
+        {
+          "p": "This is a book. Is it made of paper?",
+          "m": "Nói 'vâng, nó làm bằng giấy'.",
+          "h": "Sử dụng 'Yes, it is.'",
+          "s": "Yes, it is."
+        },
+        {
+          "p": "This toy is not paper. What is it?",
+          "m": "Hỏi 'nó làm bằng gì'.",
+          "h": "Sử dụng 'What is it?' (for beginner, implies material if context is material)",
+          "s": "What is it?"
+        },
+        {
+          "p": "It is a plastic toy. Do you like plastic toys?",
+          "m": "Nói 'tôi thích đồ chơi nhựa'.",
+          "h": "Sử dụng 'I like...'",
+          "s": "Yes, I like plastic toys."
+        },
+        {
+          "p": "This is a big table. Is it wood?",
+          "m": "Nói 'vâng, nó là gỗ'.",
+          "h": "Sử dụng 'Yes, it is.'",
+          "s": "Yes, it is."
+        },
+        {
+          "p": "These bags are strong. Are they fabric?",
+          "m": "Nói 'có, chúng là vải'.",
+          "h": "Sử dụng 'Yes, they are.'",
+          "s": "Yes, they are."
+        }
+      ]
+    },
+    {
+      "t": "Yêu cầu mua hàng đơn giản",
+      "e": [
+        {
+          "p": "Do you want this red apple?",
+          "m": "Nói 'tôi muốn quả táo đỏ này'.",
+          "h": "Sử dụng 'I want this...'",
+          "s": "Yes, I want this red apple."
+        },
+        {
+          "p": "Okay. How many red apples do you want?",
+          "m": "Nói 'tôi muốn một quả táo'.",
+          "h": "Sử dụng 'I want one...'",
+          "s": "I want one apple."
+        },
+        {
+          "p": "Here is one red apple. Do you like this shop?",
+          "m": "Nói 'tôi thích cửa hàng này'.",
+          "h": "Sử dụng 'I like this...'",
+          "s": "Yes, I like this shop."
+        },
+        {
+          "p": "We have many toys. Do you want a toy car?",
+          "m": "Nói 'tôi muốn một chiếc ô tô đồ chơi màu xanh'.",
+          "h": "Sử dụng 'I want a blue...'",
+          "s": "Yes, I want a blue toy car."
+        },
+        {
+          "p": "This is a book for kids. Do you want this book?",
+          "m": "Nói 'không, tôi không muốn cuốn sách này'.",
+          "h": "Sử dụng 'No, I do not want...'",
+          "s": "No, I do not want this book."
+        }
+      ]
+    },
+    {
+      "t": "Hỏi địa điểm cửa hàng",
+      "e": [
+        {
+          "p": "Hello! I can help you. Where is the food store?",
+          "m": "Hỏi 'cửa hàng thực phẩm ở đâu'.",
+          "h": "Sử dụng 'Where is the...?'",
+          "s": "Where is the food store?"
+        },
+        {
+          "p": "The food store is near the big tree. Do you know the tree?",
+          "m": "Nói 'tôi biết cái cây'.",
+          "h": "Sử dụng 'I know...'",
+          "s": "Yes, I know the tree."
+        },
+        {
+          "p": "This is a toy shop. Where is the book shop?",
+          "m": "Hỏi 'cửa hàng sách ở đâu'.",
+          "h": "Sử dụng 'Where is the...?'",
+          "s": "Where is the book shop?"
+        },
+        {
+          "p": "The book shop is next to the park. Is the park big?",
+          "m": "Nói 'vâng, công viên lớn'.",
+          "h": "Sử dụng 'Yes, it is big.'",
+          "s": "Yes, it is big."
+        },
+        {
+          "p": "Do you need help finding the flower shop?",
+          "m": "Hỏi 'cửa hàng hoa ở đâu'.",
+          "h": "Sử dụng 'Where is the...?'",
+          "s": "Where is the flower shop?"
+        }
+      ]
+    },
+    {
+      "t": "Yêu cầu xem sản phẩm",
+      "e": [
+        {
+          "p": "This is a very nice watch. Can you see it well?",
+          "m": "Nói 'tôi có thể nhìn thấy nó'.",
+          "h": "Sử dụng 'I can see it.'",
+          "s": "Yes, I can see it."
+        },
+        {
+          "p": "Do you want to see this blue hat?",
+          "m": "Nói 'tôi có thể xem chiếc mũ xanh này không'.",
+          "h": "Sử dụng 'Can I see...?'",
+          "s": "Can I see this blue hat?"
+        },
+        {
+          "p": "Yes, you can see it. Is it big or small?",
+          "m": "Nói 'nó nhỏ'.",
+          "h": "Sử dụng 'It is...'",
+          "s": "It is small."
+        },
+        {
+          "p": "We have many shoes. Which shoes do you want to see?",
+          "m": "Hỏi 'tôi có thể xem đôi giày màu đen không'.",
+          "h": "Sử dụng 'Can I see the...?'",
+          "s": "Can I see the black shoes?"
+        },
+        {
+          "p": "Here are the black shoes. Do you like them?",
+          "m": "Nói 'tôi thích chúng'.",
+          "h": "Sử dụng 'I like them.'",
+          "s": "Yes, I like them."
+        }
+      ]
+    },
+    {
+      "t": "Thanh toán đơn giản",
+      "e": [
+        {
+          "p": "You want this book? It is five dollars.",
+          "m": "Nói 'đây là năm đô la'.",
+          "h": "Sử dụng 'Here is...'",
+          "s": "Here is five dollars."
+        },
+        {
+          "p": "Thank you! Do you need a bag for the book?",
+          "m": "Nói 'vâng, tôi cần một cái túi'.",
+          "h": "Sử dụng 'Yes, I need a bag.'",
+          "s": "Yes, I need a bag."
+        },
+        {
+          "p": "You like this red car. It is ten dollars. Do you have money?",
+          "m": "Nói 'vâng, tôi có tiền'.",
+          "h": "Sử dụng 'Yes, I have money.'",
+          "s": "Yes, I have money."
+        },
+        {
+          "p": "Please give me the ten dollars for the car.",
+          "m": "Nói 'đây là tiền'.",
+          "h": "Sử dụng 'Here is the money.'",
+          "s": "Here is the money."
+        },
+        {
+          "p": "That is a good toy. Is it for a boy or a girl?",
+          "m": "Nói 'nó dành cho một bé trai'.",
+          "h": "Sử dụng 'It is for a...'",
+          "s": "It is for a boy."
+        }
+      ]
+    },
+    {
+      "t": "Ôn tập: Mua sắm đồ dùng hàng ngày",
+      "e": [
+        {
+          "p": "Hello! What do you want?",
+          "m": "Hỏi 'cái này là gì'.",
+          "h": "Sử dụng 'What is this?'",
+          "s": "What is this?"
+        },
+        {
+          "p": "It is a pen. How many pens do you want?",
+          "m": "Nói 'tôi muốn hai cái bút'.",
+          "h": "Sử dụng 'I want two...'",
+          "s": "I want two pens."
+        },
+        {
+          "p": "Okay. Two pens are four dollars. Do you like the pens?",
+          "m": "Nói 'tôi thích chúng'.",
+          "h": "Sử dụng 'I like them.'",
+          "s": "Yes, I like them."
+        },
+        {
+          "p": "We have new notebooks. What color is this notebook?",
+          "m": "Hỏi 'nó màu gì'.",
+          "h": "Sử dụng 'What color is it?'",
+          "s": "What color is it?"
+        },
+        {
+          "p": "It is blue. Do you want this blue notebook?",
+          "m": "Nói 'vâng, tôi muốn nó. Nó giá bao nhiêu'.",
+          "h": "Sử dụng 'Yes, I want it. How much is it?'",
+          "s": "Yes, I want it. How much is it?"
+        }
+      ]
+    },
+    {
+      "t": "Ôn tập: Chọn quà",
+      "e": [
+        {
+          "p": "Hello! I need a gift for my sister. Do you have small dolls?",
+          "m": "Nói 'vâng, chúng tôi có búp bê nhỏ'.",
+          "h": "Sử dụng 'Yes, we have...'",
+          "s": "Yes, we have small dolls."
+        },
+        {
+          "p": "Good! Can I see a doll? What color is it?",
+          "m": "Nói 'nó màu hồng'.",
+          "h": "Sử dụng 'It is...'",
+          "s": "It is pink."
+        },
+        {
+          "p": "Oh, my sister likes pink. How much is this pink doll?",
+          "m": "Nói 'nó là tám đô la'.",
+          "h": "Sử dụng 'It is...'",
+          "s": "It is eight dollars."
+        },
+        {
+          "p": "Eight dollars is good. Do you want this doll for your sister?",
+          "m": "Nói 'vâng, tôi muốn con búp bê này'.",
+          "h": "Sử dụng 'Yes, I want this...'",
+          "s": "Yes, I want this doll."
+        },
+        {
+          "p": "Okay. And do you like this shop for gifts?",
+          "m": "Nói 'tôi thích cửa hàng này cho quà tặng'.",
+          "h": "Sử dụng 'I like this shop for...'",
+          "s": "Yes, I like this shop for gifts."
+        }
+      ]
+    },
+    {
+      "t": "Ôn tập: Hỏi thông tin chi tiết",
+      "e": [
+        {
+          "p": "What can I do for you?",
+          "m": "Hỏi 'chiếc áo sơ mi màu xanh này giá bao nhiêu'.",
+          "h": "Sử dụng 'How much is this...?'",
+          "s": "How much is this blue shirt?"
+        },
+        {
+          "p": "This blue shirt is seven dollars. Is it for you?",
+          "m": "Nói 'không, nó không dành cho tôi'.",
+          "h": "Sử dụng 'No, it is not for me.'",
+          "s": "No, it is not for me."
+        },
+        {
+          "p": "Is it for your friend? Is your friend a boy or a girl?",
+          "m": "Nói 'bạn của tôi là một bé trai'.",
+          "h": "Sử dụng 'My friend is a...'",
+          "s": "My friend is a boy."
+        },
+        {
+          "p": "Okay. We have many small shirts for boys. Do you want to see them?",
+          "m": "Nói 'vâng, tôi có thể xem chúng không'.",
+          "h": "Sử dụng 'Yes, can I see them?'",
+          "s": "Yes, can I see them?"
+        },
+        {
+          "p": "Here are the shirts. Do you like this red shirt?",
+          "m": "Nói 'tôi thích chiếc áo sơ mi đỏ này. Nó là một món quà tốt'.",
+          "h": "Sử dụng 'I like this... It is a good gift.'",
+          "s": "Yes, I like this red shirt. It is a good gift."
+        }
+      ]
+    }
+  ]
+}

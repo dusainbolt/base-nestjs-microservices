@@ -1,0 +1,530 @@
+{
+  "l": 1,
+  "d": [
+    {
+      "t": "Gặp sếp trong buổi đánh giá",
+      "e": [
+        {
+          "p": "What is your job?",
+          "m": "Nói nghề nghiệp của bạn.",
+          "h": "S + be + N",
+          "s": "I am a [studentJob]."
+        },
+        {
+          "p": "How long do you work here?",
+          "m": "Nói số năm bạn làm ở công ty.",
+          "h": "S + V + for + time",
+          "s": "I work here for two years."
+        },
+        {
+          "p": "What do you do well at work?",
+          "m": "Nói một việc bạn làm tốt.",
+          "h": "I am good at + V-ing / I + V",
+          "s": "I am good at meeting tasks."
+        },
+        {
+          "p": "What do you find hard at work?",
+          "m": "Nói một việc bạn thấy khó.",
+          "h": "I am not good at + V-ing / I find X hard",
+          "s": "I am not good at typing fast."
+        },
+        {
+          "p": "How do you help your team?",
+          "m": "Nói một cách bạn giúp nhóm.",
+          "h": "I + V + O",
+          "s": "I help my team by sharing tasks."
+        }
+      ]
+    },
+    {
+      "t": "Tập trung vào điểm mạnh",
+      "e": [
+        {
+          "p": "What is one strong skill you have?",
+          "m": "Nói một kỹ năng mạnh của bạn.",
+          "h": "I am good at + noun/verb-ing",
+          "s": "I am good at work with my team."
+        },
+        {
+          "p": "Do you finish tasks on time?",
+          "m": "Nói có hay không bạn hoàn thành đúng hạn.",
+          "h": "S + do/does + V? → Yes/No, S + V",
+          "s": "Yes, I finish tasks on time."
+        },
+        {
+          "p": "How often do you help others?",
+          "m": "Nói tần suất bạn giúp đồng nghiệp (one phrase).",
+          "h": "I + V (always/often/sometimes/never)",
+          "s": "I often help my colleagues."
+        },
+        {
+          "p": "What makes you a good worker?",
+          "m": "Nói một lý do bạn là nhân viên tốt.",
+          "h": "I + V + because + clause",
+          "s": "I work hard because I like to help."
+        },
+        {
+          "p": "Name one task you do better than before.",
+          "m": "Nói một công việc bạn làm tốt hơn trước.",
+          "h": "I + V + better now",
+          "s": "I write reports better now."
+        }
+      ]
+    },
+    {
+      "t": "Nói về điểm yếu",
+      "e": [
+        {
+          "p": "What is one thing you need to improve?",
+          "m": "Nói một điều bạn cần cải thiện.",
+          "h": "I need to + V / I am not good at + V-ing",
+          "s": "I need to speak faster."
+        },
+        {
+          "p": "Are you good at computer work?",
+          "m": "Nói có hay không bạn giỏi về máy tính.",
+          "h": "Yes/No, S + V",
+          "s": "No, I am not good at computer work."
+        },
+        {
+          "p": "Do you make many mistakes?",
+          "m": "Nói một câu về việc bạn có hay mắc lỗi không.",
+          "h": "S + do/does + V? → Yes/No, S + V",
+          "s": "Sometimes I make small mistakes."
+        },
+        {
+          "p": "What do you do when you are slow at a task?",
+          "m": "Nói một việc bạn làm khi chậm nhiệm vụ.",
+          "h": "I + V + O / I ask for help",
+          "s": "I ask a friend for help."
+        },
+        {
+          "p": "How do you fix a weak point?",
+          "m": "Nói một cách bạn sửa điểm yếu.",
+          "h": "I + V + O / I + V + more",
+          "s": "I practice more every day."
+        }
+      ]
+    },
+    {
+      "t": "Kể đóng góp hàng ngày",
+      "e": [
+        {
+          "p": "What task do you do every day?",
+          "m": "Nói một công việc bạn làm mỗi ngày.",
+          "h": "S + V + O (every day)",
+          "s": "I answer emails every day."
+        },
+        {
+          "p": "Do you help train new staff?",
+          "m": "Nói có hay không bạn giúp đào tạo người mới.",
+          "h": "Yes/No, S + V",
+          "s": "Yes, I help new staff."
+        },
+        {
+          "p": "What small thing do you do to help the office?",
+          "m": "Nói một việc nhỏ bạn làm để giúp văn phòng.",
+          "h": "I + V + O",
+          "s": "I keep the desk tidy."
+        },
+        {
+          "p": "How do you save time on tasks?",
+          "m": "Nói một cách bạn tiết kiệm thời gian.",
+          "h": "I + V + by + V-ing",
+          "s": "I plan my day by making a list."
+        },
+        {
+          "p": "What do you bring to team meetings?",
+          "m": "Nói một điều bạn mang đến cuộc họp nhóm.",
+          "h": "I + V + O",
+          "s": "I bring clear ideas."
+        }
+      ]
+    },
+    {
+      "t": "Thói quen làm việc hàng ngày",
+      "e": [
+        {
+          "p": "Do you start work early?",
+          "m": "Nói có hay không bạn bắt đầu sớm.",
+          "h": "Yes/No, S + V",
+          "s": "Yes, I start work early."
+        },
+        {
+          "p": "How do you plan your day?",
+          "m": "Nói một cách bạn lập kế hoạch cho ngày.",
+          "h": "I + V + O",
+          "s": "I make a short list."
+        },
+        {
+          "p": "Do you check your tasks each morning?",
+          "m": "Nói có hay không bạn kiểm tra nhiệm vụ sáng hôm.",
+          "h": "Yes/No, S + V",
+          "s": "Yes, I check tasks each morning."
+        },
+        {
+          "p": "What do you do when you finish work?",
+          "m": "Nói một việc bạn làm khi xong việc.",
+          "h": "I + V + O",
+          "s": "I clean my desk."
+        },
+        {
+          "p": "How do you keep good work habits?",
+          "m": "Nói một điều bạn làm để giữ thói quen tốt.",
+          "h": "I + V + O",
+          "s": "I sleep early and wake on time."
+        }
+      ]
+    },
+    {
+      "t": "Làm việc nhóm",
+      "e": [
+        {
+          "p": "Do you work with others now?",
+          "m": "Nói có hay không bạn làm việc với người khác.",
+          "h": "Yes/No, S + V",
+          "s": "Yes, I work with others."
+        },
+        {
+          "p": "What role do you take in a team?",
+          "m": "Nói một vai trò bạn thường làm trong nhóm.",
+          "h": "I + V + O",
+          "s": "I give ideas and listen to others."
+        },
+        {
+          "p": "How do you help a quiet teammate?",
+          "m": "Nói một cách bạn giúp đồng đội ít nói.",
+          "h": "I + V + O",
+          "s": "I ask them for their opinion."
+        },
+        {
+          "p": "Do you share work with team members?",
+          "m": "Nói có hay không bạn chia công việc với nhóm.",
+          "h": "Yes/No, S + V",
+          "s": "Yes, I share work with team members."
+        },
+        {
+          "p": "What is one rule you follow in a team?",
+          "m": "Nói một quy tắc bạn theo trong nhóm.",
+          "h": "I + V + O",
+          "s": "I always speak kindly."
+        }
+      ]
+    },
+    {
+      "t": "Thời gian và đúng giờ",
+      "e": [
+        {
+          "p": "Do you come to work on time?",
+          "m": "Nói có hay không bạn đến đúng giờ.",
+          "h": "Yes/No, S + V",
+          "s": "Yes, I come to work on time."
+        },
+        {
+          "p": "What do you do if you are late?",
+          "m": "Nói một việc bạn làm khi bạn đến muộn.",
+          "h": "I + V + O",
+          "s": "I tell my manager."
+        },
+        {
+          "p": "How long is your lunch break?",
+          "m": "Nói thời gian nghỉ trưa của bạn (một cụm).",
+          "h": "It is + time / I have + time",
+          "s": "I have a thirty minute lunch break."
+        },
+        {
+          "p": "Do you finish work at the right time?",
+          "m": "Nói có hay không bạn kết thúc làm việc đúng giờ.",
+          "h": "Yes/No, S + V",
+          "s": "Yes, I finish work on time."
+        },
+        {
+          "p": "How do you save time in the morning?",
+          "m": "Nói một cách bạn tiết kiệm thời gian buổi sáng.",
+          "h": "I + V + O",
+          "s": "I prepare my bag the night before."
+        }
+      ]
+    },
+    {
+      "t": "Học và nâng cao kỹ năng",
+      "e": [
+        {
+          "p": "Do you learn new skills at work?",
+          "m": "Nói có hay không bạn học kỹ năng mới.",
+          "h": "Yes/No, S + V",
+          "s": "Yes, I learn new skills at work."
+        },
+        {
+          "p": "What class do you take to improve?",
+          "m": "Nói một khoá học bạn tham gia (một cụm).",
+          "h": "I take + class / I study + subject",
+          "s": "I take a short computer class."
+        },
+        {
+          "p": "How often do you practice a skill?",
+          "m": "Nói tần suất bạn luyện một kỹ năng.",
+          "h": "I + V (daily/weekly)",
+          "s": "I practice my skill every day."
+        },
+        {
+          "p": "Who helps you learn at work?",
+          "m": "Nói một người giúp bạn học (một cụm).",
+          "h": "My + role + helps me / I learn from + person",
+          "s": "My manager helps me learn."
+        },
+        {
+          "p": "What do you do after a training?",
+          "m": "Nói một việc bạn làm sau khi được đào tạo.",
+          "h": "I + V + O",
+          "s": "I use the new skill at work."
+        }
+      ]
+    },
+    {
+      "t": "Nhận phản hồi từ sếp",
+      "e": [
+        {
+          "p": "Does your manager give feedback?",
+          "m": "Nói có hay không sếp bạn cho phản hồi.",
+          "h": "Yes/No, S + V",
+          "s": "Yes, my manager gives feedback."
+        },
+        {
+          "p": "What feedback do you get most?",
+          "m": "Nói một phản hồi bạn thường nhận.",
+          "h": "I get + noun / My manager says + clause",
+          "s": "I get feedback to be more clear."
+        },
+        {
+          "p": "Do you like to get feedback?",
+          "m": "Nói có hay không bạn thích nhận phản hồi.",
+          "h": "Yes/No, S + V",
+          "s": "Yes, I like to get feedback."
+        },
+        {
+          "p": "How do you use feedback?",
+          "m": "Nói một cách bạn dùng phản hồi để cải thiện.",
+          "h": "I + V + O",
+          "s": "I change my work and try again."
+        },
+        {
+          "p": "Who gives you the best feedback?",
+          "m": "Nói một người cho phản hồi tốt nhất.",
+          "h": "My + role + gives me + noun",
+          "s": "My team leader gives me good feedback."
+        }
+      ]
+    },
+    {
+      "t": "Xử lý lỗi nhỏ",
+      "e": [
+        {
+          "p": "Do you make small mistakes at work?",
+          "m": "Nói có hay không bạn mắc lỗi nhỏ.",
+          "h": "Yes/No, S + V",
+          "s": "Yes, I make small mistakes sometimes."
+        },
+        {
+          "p": "What do you do after a mistake?",
+          "m": "Nói một việc bạn làm sau khi mắc lỗi.",
+          "h": "I + V + O",
+          "s": "I fix the mistake quickly."
+        },
+        {
+          "p": "Do you tell your boss about the error?",
+          "m": "Nói có hay không bạn báo sếp về lỗi.",
+          "h": "Yes/No, S + V",
+          "s": "Yes, I tell my boss about the error."
+        },
+        {
+          "p": "How do you avoid the same mistake?",
+          "m": "Nói một cách bạn tránh lặp lại lỗi.",
+          "h": "I + V + O",
+          "s": "I check my work more carefully."
+        },
+        {
+          "p": "Who helps you fix a big problem?",
+          "m": "Nói một người bạn nhờ giúp khi có vấn đề lớn.",
+          "h": "I ask + person / My + role + helps me",
+          "s": "I ask my manager for help."
+        }
+      ]
+    },
+    {
+      "t": "Mục tiêu công việc",
+      "e": [
+        {
+          "p": "Do you have a work goal this year?",
+          "m": "Nói có hay không bạn có mục tiêu năm nay.",
+          "h": "Yes/No, S + V",
+          "s": "Yes, I have a work goal this year."
+        },
+        {
+          "p": "What is one goal you want?",
+          "m": "Nói một mục tiêu bạn muốn đạt (một cụm).",
+          "h": "I want to + V / My goal is to + V",
+          "s": "My goal is to learn one new skill."
+        },
+        {
+          "p": "How do you reach your goal?",
+          "m": "Nói một cách bạn đạt mục tiêu.",
+          "h": "I + V + O",
+          "s": "I practice and ask for feedback."
+        },
+        {
+          "p": "Do you check your goal each month?",
+          "m": "Nói có hay không bạn kiểm tra mục tiêu hàng tháng.",
+          "h": "Yes/No, S + V",
+          "s": "Yes, I check my goal each month."
+        },
+        {
+          "p": "Who supports your goal?",
+          "m": "Nói một người hỗ trợ mục tiêu của bạn.",
+          "h": "My + role + supports me",
+          "s": "My team leader supports my goal."
+        }
+      ]
+    },
+    {
+      "t": "Yêu cầu hỗ trợ",
+      "e": [
+        {
+          "p": "Do you need help with your task?",
+          "m": "Nói có hay không bạn cần giúp cho nhiệm vụ.",
+          "h": "Yes/No, S + V",
+          "s": "Yes, I need help with this task."
+        },
+        {
+          "p": "How do you ask for help?",
+          "m": "Nói một câu bạn dùng để xin giúp (một cụm).",
+          "h": "I ask + person + for help / Can you + V",
+          "s": "I ask my colleague for help."
+        },
+        {
+          "p": "When do you ask for help?",
+          "m": "Nói một thời điểm bạn xin giúp (một cụm).",
+          "h": "I ask when + clause / I ask after + time",
+          "s": "I ask when I do not know."
+        },
+        {
+          "p": "Do you accept help from others?",
+          "m": "Nói có hay không bạn nhận giúp đỡ từ người khác.",
+          "h": "Yes/No, S + V",
+          "s": "Yes, I accept help from others."
+        },
+        {
+          "p": "Who do you ask first for support?",
+          "m": "Nói một người bạn hỏi đầu tiên khi cần hỗ trợ.",
+          "h": "I ask + person first",
+          "s": "I ask my team member first."
+        }
+      ]
+    },
+    {
+      "t": "Ôn tập: Tổng hợp 1",
+      "e": [
+        {
+          "p": "What is one thing you do well at your job?",
+          "m": "Nói một việc bạn làm tốt ở công việc.",
+          "h": "I am good at + noun/verb-ing",
+          "s": "I am good at finishing tasks."
+        },
+        {
+          "p": "What is one weak point now?",
+          "m": "Nói một điểm yếu hiện tại.",
+          "h": "I need to + V / I am not good at + V-ing",
+          "s": "I need to speak more clearly."
+        },
+        {
+          "p": "How do you help your team today?",
+          "m": "Nói một việc bạn giúp nhóm hôm nay.",
+          "h": "I + V + O",
+          "s": "I share my notes with the team."
+        },
+        {
+          "p": "Do you get feedback this week?",
+          "m": "Nói có hay không bạn nhận phản hồi tuần này.",
+          "h": "Yes/No, S + V",
+          "s": "Yes, I get feedback this week."
+        },
+        {
+          "p": "What goal do you have next month?",
+          "m": "Nói một mục tiêu của bạn trong tháng sau.",
+          "h": "My goal is to + V / I want to + V",
+          "s": "I want to improve my typing speed."
+        }
+      ]
+    },
+    {
+      "t": "Ôn tập: Tổng hợp 2",
+      "e": [
+        {
+          "p": "How many years do you work here?",
+          "m": "Nói số năm bạn làm ở đây.",
+          "h": "I work here for + time",
+          "s": "I work here for two years."
+        },
+        {
+          "p": "What do you do when you make a mistake?",
+          "m": "Nói một việc bạn làm khi mắc lỗi.",
+          "h": "I + V + O",
+          "s": "I tell my manager and fix it."
+        },
+        {
+          "p": "Do you come to work early or late?",
+          "m": "Nói bạn đến sớm hay muộn (một từ).",
+          "h": "I come + adv",
+          "s": "I come early."
+        },
+        {
+          "p": "Who helps you learn at the company?",
+          "m": "Nói một người giúp bạn học ở công ty.",
+          "h": "My + role + helps me",
+          "s": "My manager helps me."
+        },
+        {
+          "p": "What small change do you make for work?",
+          "m": "Nói một thay đổi nhỏ bạn làm cho công việc.",
+          "h": "I + V + O",
+          "s": "I plan my tasks each morning."
+        }
+      ]
+    },
+    {
+      "t": "Ôn tập: Tổng hợp 3",
+      "e": [
+        {
+          "p": "Can you name one strength and one weakness?",
+          "m": "Nói một điểm mạnh rồi một điểm yếu trong cùng một câu (phân cách bằng 'and').",
+          "h": "I am good at X and I am not good at Y",
+          "s": "I am good at helping others and I am not good at typing fast."
+        },
+        {
+          "p": "Do you set goals and check them?",
+          "m": "Nói có hay không bạn đặt mục tiêu và kiểm tra chúng.",
+          "h": "Yes/No, S + V",
+          "s": "Yes, I set goals and check them."
+        },
+        {
+          "p": "How do you help the office every day?",
+          "m": "Nói một việc bạn làm mỗi ngày để giúp văn phòng.",
+          "h": "I + V + O",
+          "s": "I keep the space tidy every day."
+        },
+        {
+          "p": "Who do you ask when you need support?",
+          "m": "Nói một người bạn hỏi khi cần hỗ trợ.",
+          "h": "I ask + person",
+          "s": "I ask my team leader."
+        },
+        {
+          "p": "What is one simple plan to improve your work?",
+          "m": "Nói một kế hoạch đơn giản để cải thiện công việc.",
+          "h": "I will + V / I plan to + V",
+          "s": "I plan to practice a skill each day."
+        }
+      ]
+    }
+  ]
+}

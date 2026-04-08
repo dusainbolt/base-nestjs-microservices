@@ -1,0 +1,530 @@
+{
+  "l": 1,
+  "d": [
+    {
+      "t": "Hỏi về một món đồ",
+      "e": [
+        {
+          "p": "Hello! Can I help you?",
+          "m": "Hỏi về một món đồ bạn thấy, ví dụ một cuốn sách.",
+          "h": "What is this?",
+          "s": "What is this book?"
+        },
+        {
+          "p": "This is a good book.",
+          "m": "Hỏi xem nó có màu gì.",
+          "h": "What color...?",
+          "s": "What color is it?"
+        },
+        {
+          "p": "It is a red book.",
+          "m": "Hỏi xem cửa hàng có cuốn sách màu xanh không.",
+          "h": "Do you have...?",
+          "s": "Do you have a blue book?"
+        },
+        {
+          "p": "Yes, we have a blue book here.",
+          "m": "Hỏi xem cuốn sách màu xanh có lớn không.",
+          "h": "Is it big?",
+          "s": "Is it big?"
+        },
+        {
+          "p": "The blue book is small.",
+          "m": "Nói rằng bạn muốn cuốn sách màu đỏ.",
+          "h": "I want the...",
+          "s": "I want the red book."
+        }
+      ]
+    },
+    {
+      "t": "Tìm hiểu giá cơ bản",
+      "e": [
+        {
+          "p": "Do you like this shirt?",
+          "m": "Hỏi giá của chiếc áo.",
+          "h": "How much...?",
+          "s": "How much is this shirt?"
+        },
+        {
+          "p": "This shirt is ten dollars.",
+          "m": "Hỏi xem giá có phải là mười đô la không.",
+          "h": "Is it + price?",
+          "s": "Is it ten dollars?"
+        },
+        {
+          "p": "Yes, it is ten dollars.",
+          "m": "Hỏi xem cửa hàng có chiếc áo màu vàng không.",
+          "h": "Do you have...?",
+          "s": "Do you have a yellow shirt?"
+        },
+        {
+          "p": "We have a yellow shirt. It is small.",
+          "m": "Hỏi xem chiếc áo màu vàng có phải nhỏ không.",
+          "h": "Is it small?",
+          "s": "Is it small?"
+        },
+        {
+          "p": "Yes, it is small.",
+          "m": "Nói bạn muốn chiếc áo màu vàng, dù nó nhỏ.",
+          "h": "I want the...",
+          "s": "I want the yellow shirt."
+        }
+      ]
+    },
+    {
+      "t": "Yêu cầu mua sản phẩm",
+      "e": [
+        {
+          "p": "What do you need?",
+          "m": "Nói rằng bạn cần một cây bút.",
+          "h": "I need a...",
+          "s": "I need a pen."
+        },
+        {
+          "p": "We have blue pens and black pens.",
+          "m": "Hỏi xem có bút màu đỏ không.",
+          "h": "Do you have...?",
+          "s": "Do you have a red pen?"
+        },
+        {
+          "p": "No, we do not have red pens.",
+          "m": "Hỏi xem bút màu xanh có tốt không.",
+          "h": "Is it good?",
+          "s": "Is the blue pen good?"
+        },
+        {
+          "p": "Yes, the blue pen is good.",
+          "m": "Hỏi giá của cây bút màu xanh.",
+          "h": "How much...?",
+          "s": "How much is the blue pen?"
+        },
+        {
+          "p": "It is one dollar.",
+          "m": "Nói rằng bạn muốn mua cây bút màu xanh.",
+          "h": "I want...",
+          "s": "I want the blue pen, please."
+        }
+      ]
+    },
+    {
+      "t": "Xác nhận thông tin sản phẩm",
+      "e": [
+        {
+          "p": "Look! This is a nice phone case.",
+          "m": "Hỏi xem ốp điện thoại đó có màu đen không.",
+          "h": "Is it + color?",
+          "s": "Is it black?"
+        },
+        {
+          "p": "No, it is white.",
+          "m": "Hỏi xem ốp điện thoại đó có lớn không.",
+          "h": "Is it big?",
+          "s": "Is it big?"
+        },
+        {
+          "p": "Yes, it is a big phone case.",
+          "m": "Hỏi cửa hàng có ốp điện thoại nhỏ không.",
+          "h": "Do you have...?",
+          "s": "Do you have a small phone case?"
+        },
+        {
+          "p": "Yes, we have a small phone case.",
+          "m": "Hỏi ốp điện thoại nhỏ có màu gì.",
+          "h": "What color...?",
+          "s": "What color is the small phone case?"
+        },
+        {
+          "p": "It is green.",
+          "m": "Nói bạn muốn ốp điện thoại màu xanh lá cây.",
+          "h": "I want the...",
+          "s": "I want the green phone case."
+        }
+      ]
+    },
+    {
+      "t": "Màu sắc và lựa chọn",
+      "e": [
+        {
+          "p": "Here are some apples.",
+          "m": "Hỏi xem táo có màu đỏ không.",
+          "h": "Are they red?",
+          "s": "Are they red?"
+        },
+        {
+          "p": "Some are red, some are green.",
+          "m": "Hỏi giá táo màu đỏ.",
+          "h": "How much...?",
+          "s": "How much are the red apples?"
+        },
+        {
+          "p": "The red apples are two dollars.",
+          "m": "Hỏi xem táo màu xanh có ngon không.",
+          "h": "Are they good?",
+          "s": "Are the green apples good?"
+        },
+        {
+          "p": "Yes, the green apples are very good.",
+          "m": "Hỏi xem bạn có thể lấy ba quả táo màu xanh không.",
+          "h": "Can I have...?",
+          "s": "Can I have three green apples?"
+        },
+        {
+          "p": "Sure! Three green apples.",
+          "m": "Hỏi lại giá của ba quả táo màu xanh.",
+          "h": "How much...?",
+          "s": "How much are three green apples?"
+        }
+      ]
+    },
+    {
+      "t": "Kích cỡ và sở thích",
+      "e": [
+        {
+          "p": "We have new T-shirts.",
+          "m": "Hỏi xem áo có lớn không.",
+          "h": "Is it big?",
+          "s": "Are the T-shirts big?"
+        },
+        {
+          "p": "Some are big, some are small.",
+          "m": "Nói bạn muốn một chiếc áo cỡ nhỏ.",
+          "h": "I want a + size + item.",
+          "s": "I want a small T-shirt."
+        },
+        {
+          "p": "Okay, a small T-shirt. What color?",
+          "m": "Nói bạn muốn màu trắng.",
+          "h": "I want + color.",
+          "s": "I want white."
+        },
+        {
+          "p": "This white T-shirt is small and nice.",
+          "m": "Hỏi giá của nó.",
+          "h": "How much...?",
+          "s": "How much is it?"
+        },
+        {
+          "p": "It is eight dollars.",
+          "m": "Nói bạn muốn chiếc áo T-shirt trắng đó.",
+          "h": "I want the...",
+          "s": "I want the white T-shirt."
+        }
+      ]
+    },
+    {
+      "t": "Tìm kiếm theo mô tả",
+      "e": [
+        {
+          "p": "Hello! Looking for something?",
+          "m": "Nói rằng bạn cần một cái ghế.",
+          "h": "I need a...",
+          "s": "I need a chair."
+        },
+        {
+          "p": "We have big chairs and small chairs.",
+          "m": "Hỏi xem có ghế màu nâu không.",
+          "h": "Do you have...?",
+          "s": "Do you have a brown chair?"
+        },
+        {
+          "p": "Yes, we have a small brown chair.",
+          "m": "Hỏi xem chiếc ghế đó có tốt không.",
+          "h": "Is it good?",
+          "s": "Is it good?"
+        },
+        {
+          "p": "It is good. It is two hundred dollars.",
+          "m": "Hỏi giá của chiếc ghế.",
+          "h": "How much...?",
+          "s": "How much is the chair?"
+        },
+        {
+          "p": "Two hundred dollars.",
+          "m": "Nói rằng bạn muốn chiếc ghế đó.",
+          "h": "I want the...",
+          "s": "I want the brown chair."
+        }
+      ]
+    },
+    {
+      "t": "Hỏi về nhiều mặt hàng",
+      "e": [
+        {
+          "p": "Welcome! We have fresh bread.",
+          "m": "Hỏi giá của bánh mì.",
+          "h": "How much...?",
+          "s": "How much is the bread?"
+        },
+        {
+          "p": "It is three dollars.",
+          "m": "Hỏi cửa hàng có sữa không.",
+          "h": "Do you have...?",
+          "s": "Do you have milk?"
+        },
+        {
+          "p": "Yes, we have milk.",
+          "m": "Hỏi giá của sữa.",
+          "h": "How much...?",
+          "s": "How much is the milk?"
+        },
+        {
+          "p": "Milk is two dollars.",
+          "m": "Nói bạn muốn một ổ bánh mì và một hộp sữa.",
+          "h": "I want + item1 + and + item2.",
+          "s": "I want bread and milk."
+        },
+        {
+          "p": "Okay, bread and milk. That is five dollars.",
+          "m": "Xác nhận tổng giá tiền.",
+          "h": "Is it + total price?",
+          "s": "Is it five dollars?"
+        }
+      ]
+    },
+    {
+      "t": "Yêu cầu chi tiết hơn",
+      "e": [
+        {
+          "p": "Can I help you today?",
+          "m": "Nói bạn muốn một chiếc váy.",
+          "h": "I want a...",
+          "s": "I want a dress."
+        },
+        {
+          "p": "We have red dresses and black dresses.",
+          "m": "Hỏi xem có váy màu xanh dương không.",
+          "h": "Do you have...?",
+          "s": "Do you have a blue dress?"
+        },
+        {
+          "p": "No blue dresses. Only red and black.",
+          "m": "Hỏi xem chiếc váy màu đỏ có đẹp không.",
+          "h": "Is it good?",
+          "s": "Is the red dress good?"
+        },
+        {
+          "p": "Yes, the red dress is beautiful.",
+          "m": "Hỏi giá của chiếc váy màu đỏ.",
+          "h": "How much...?",
+          "s": "How much is the red dress?"
+        },
+        {
+          "p": "It is forty dollars.",
+          "m": "Nói rằng bạn thích chiếc váy màu đỏ và muốn nó.",
+          "h": "I like... I want...",
+          "s": "I like the red dress. I want it."
+        }
+      ]
+    },
+    {
+      "t": "Mua đồ chơi",
+      "e": [
+        {
+          "p": "These are new toys for kids.",
+          "m": "Hỏi xem có đồ chơi ô tô không.",
+          "h": "Do you have...?",
+          "s": "Do you have a car toy?"
+        },
+        {
+          "p": "Yes, we have many car toys.",
+          "m": "Hỏi xem đồ chơi ô tô đó có màu xanh không.",
+          "h": "Is it blue?",
+          "s": "Is it blue?"
+        },
+        {
+          "p": "This car toy is red. It is fast.",
+          "m": "Hỏi xem có đồ chơi ô tô nào màu xanh lá cây không.",
+          "h": "Do you have...?",
+          "s": "Do you have a green car toy?"
+        },
+        {
+          "p": "Yes, we have a green car toy. It is small.",
+          "m": "Hỏi giá của đồ chơi ô tô màu xanh lá cây.",
+          "h": "How much...?",
+          "s": "How much is the green car toy?"
+        },
+        {
+          "p": "It is five dollars.",
+          "m": "Nói bạn muốn mua đồ chơi ô tô màu xanh lá cây.",
+          "h": "I want the...",
+          "s": "I want the green car toy."
+        }
+      ]
+    },
+    {
+      "t": "Mua trái cây",
+      "e": [
+        {
+          "p": "Hello! We have fresh fruit.",
+          "m": "Hỏi xem có chuối không.",
+          "h": "Do you have...?",
+          "s": "Do you have bananas?"
+        },
+        {
+          "p": "Yes, we have good bananas.",
+          "m": "Hỏi giá của chuối.",
+          "h": "How much...?",
+          "s": "How much are the bananas?"
+        },
+        {
+          "p": "They are three dollars for one bunch.",
+          "m": "Hỏi xem chuối có lớn không.",
+          "h": "Are they big?",
+          "s": "Are they big?"
+        },
+        {
+          "p": "No, they are small, but very sweet.",
+          "m": "Nói rằng bạn muốn mua một nải chuối.",
+          "h": "I want a + quantity + item.",
+          "s": "I want one bunch of bananas."
+        },
+        {
+          "p": "One bunch of bananas. That is three dollars.",
+          "m": "Xác nhận giá.",
+          "h": "Is it + price?",
+          "s": "Is it three dollars?"
+        }
+      ]
+    },
+    {
+      "t": "Phụ kiện cá nhân",
+      "e": [
+        {
+          "p": "Welcome! We have new hats.",
+          "m": "Hỏi xem mũ có màu đỏ không.",
+          "h": "Is it red?",
+          "s": "Is the hat red?"
+        },
+        {
+          "p": "No, this hat is black.",
+          "m": "Hỏi xem có mũ màu xanh dương không.",
+          "h": "Do you have...?",
+          "s": "Do you have a blue hat?"
+        },
+        {
+          "p": "Yes, we have a small blue hat.",
+          "m": "Hỏi xem mũ màu xanh có tốt không.",
+          "h": "Is it good?",
+          "s": "Is the blue hat good?"
+        },
+        {
+          "p": "It is good. It is ten dollars.",
+          "m": "Hỏi lại giá của mũ màu xanh.",
+          "h": "How much...?",
+          "s": "How much is the blue hat?"
+        },
+        {
+          "p": "Ten dollars.",
+          "m": "Nói bạn muốn chiếc mũ màu xanh đó.",
+          "h": "I want the...",
+          "s": "I want the blue hat."
+        }
+      ]
+    },
+    {
+      "t": "Ôn tập: Mua sắm hàng ngày",
+      "e": [
+        {
+          "p": "Hello! Can I help you?",
+          "m": "Hỏi cửa hàng có nước uống không.",
+          "h": "Do you have...?",
+          "s": "Do you have water?"
+        },
+        {
+          "p": "Yes, we have cold water and hot water.",
+          "m": "Nói bạn muốn nước lạnh.",
+          "h": "I want + type + item.",
+          "s": "I want cold water."
+        },
+        {
+          "p": "Okay, cold water. One bottle?",
+          "m": "Hỏi giá của một chai nước lạnh.",
+          "h": "How much...?",
+          "s": "How much is one cold water?"
+        },
+        {
+          "p": "It is one dollar.",
+          "m": "Hỏi cửa hàng có bánh quy không.",
+          "h": "Do you have...?",
+          "s": "Do you have cookies?"
+        },
+        {
+          "p": "Yes, we have cookies. Two dollars.",
+          "m": "Nói bạn muốn một chai nước lạnh và một gói bánh quy.",
+          "h": "I want + item1 + and + item2.",
+          "s": "I want cold water and cookies."
+        }
+      ]
+    },
+    {
+      "t": "Ôn tập: Lựa chọn sản phẩm",
+      "e": [
+        {
+          "p": "Welcome! Here are some new toys.",
+          "m": "Hỏi xem có đồ chơi búp bê không.",
+          "h": "Do you have...?",
+          "s": "Do you have a doll toy?"
+        },
+        {
+          "p": "Yes, we have a big doll and a small doll.",
+          "m": "Hỏi xem búp bê cỡ lớn có màu gì.",
+          "h": "What color...?",
+          "s": "What color is the big doll?"
+        },
+        {
+          "p": "The big doll is pink. The small doll is yellow.",
+          "m": "Nói bạn muốn búp bê màu vàng.",
+          "h": "I want the + color + item.",
+          "s": "I want the yellow doll."
+        },
+        {
+          "p": "Okay, the small yellow doll. It is seven dollars.",
+          "m": "Hỏi lại giá của búp bê màu vàng.",
+          "h": "How much...?",
+          "s": "How much is the yellow doll?"
+        },
+        {
+          "p": "Seven dollars.",
+          "m": "Nói bạn muốn mua búp bê màu vàng.",
+          "h": "I want the...",
+          "s": "I want the yellow doll."
+        }
+      ]
+    },
+    {
+      "t": "Ôn tập: Đặt câu hỏi chi tiết",
+      "e": [
+        {
+          "p": "Hello! We have many nice bags.",
+          "m": "Hỏi xem túi màu đỏ có lớn không.",
+          "h": "Is it big?",
+          "s": "Is the red bag big?"
+        },
+        {
+          "p": "No, the red bag is small. This black bag is big.",
+          "m": "Hỏi xem túi màu đen có đẹp không.",
+          "h": "Is it good?",
+          "s": "Is the black bag good?"
+        },
+        {
+          "p": "Yes, the black bag is good.",
+          "m": "Hỏi giá của túi màu đen.",
+          "h": "How much...?",
+          "s": "How much is the black bag?"
+        },
+        {
+          "p": "It is twenty dollars.",
+          "m": "Hỏi cửa hàng có túi màu xanh lá cây không.",
+          "h": "Do you have...?",
+          "s": "Do you have a green bag?"
+        },
+        {
+          "p": "No, we only have red and black bags.",
+          "m": "Nói bạn muốn chiếc túi màu đen.",
+          "h": "I want the...",
+          "s": "I want the black bag."
+        }
+      ]
+    }
+  ]
+}

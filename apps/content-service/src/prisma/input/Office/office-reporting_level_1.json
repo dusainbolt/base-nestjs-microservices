@@ -1,0 +1,565 @@
+{
+  "l": 1,
+  "d": [
+    {
+      "t": "Báo cáo công việc hôm nay",
+      "e": [
+        {
+          "p": "What is your main task today?",
+          "m": "Nói một câu nêu nhiệm vụ chính bạn làm hôm nay.",
+          "h": "I + do / I + work + on + N.",
+          "s": "I do the data task."
+        },
+        {
+          "p": "Do you finish the task now?",
+          "m": "Nói một câu: bạn đã hoàn thành nhiệm vụ hay chưa (Yes/No).",
+          "h": "Use 'Yes, I do' / 'No, I do not'.",
+          "s": "No, I do not finish the task."
+        },
+        {
+          "p": "How many tasks do you do today?",
+          "m": "Nói một câu về số nhiệm vụ bạn làm hôm nay (một số).",
+          "h": "I do + number + tasks.",
+          "s": "I do two tasks."
+        },
+        {
+          "p": "Where do you work today?",
+          "m": "Nói một câu nêu nơi bạn làm việc hôm nay (ví dụ: at home, at office).",
+          "h": "I work + at + place.",
+          "s": "I work at home."
+        },
+        {
+          "p": "Who is your boss today?",
+          "m": "Nói một câu tên hoặc vị trí người quản lý (dùng từ đơn).",
+          "h": "My boss is + name/role.",
+          "s": "My boss is the team lead."
+        }
+      ]
+    },
+    {
+      "t": "Nói về nhiệm vụ cụ thể",
+      "e": [
+        {
+          "p": "What is task one?",
+          "m": "Nói một câu mô tả ngắn nhiệm vụ số một.",
+          "h": "It is + N / I + do + N.",
+          "s": "It is a data check."
+        },
+        {
+          "p": "Do you like this task?",
+          "m": "Nói một câu: bạn có thích nhiệm vụ này hay không.",
+          "h": "Use 'I like' or 'I do not like'.",
+          "s": "I like this task."
+        },
+        {
+          "p": "Is the task easy?",
+          "m": "Nói một câu: nhiệm vụ có dễ hay không (Yes/No).",
+          "h": "Yes, it is / No, it is not.",
+          "s": "No, it is not easy."
+        },
+        {
+          "p": "Who does task two?",
+          "m": "Nói một câu: ai làm nhiệm vụ hai (I or We or a name).",
+          "h": "I do / We do / He/She does.",
+          "s": "I do task two."
+        },
+        {
+          "p": "When do you do task two?",
+          "m": "Nói một câu về thời gian bạn làm nhiệm vụ hai (today, now).",
+          "h": "I do it + today/now/in the morning.",
+          "s": "I do it today."
+        }
+      ]
+    },
+    {
+      "t": "Báo cáo tiến độ ngắn",
+      "e": [
+        {
+          "p": "What is the progress now?",
+          "m": "Nói một câu ngắn về tiến độ hiện tại (ví dụ: half, done, not done).",
+          "h": "Use 'It is' + short word.",
+          "s": "It is half done."
+        },
+        {
+          "p": "Do you complete the report?",
+          "m": "Nói một câu: bạn hoàn thành báo cáo hay chưa (Yes/No).",
+          "h": "Yes, I do / No, I do not.",
+          "s": "No, I do not complete the report."
+        },
+        {
+          "p": "How many pages do you write?",
+          "m": "Nói một câu về số trang bạn viết (một số).",
+          "h": "I write + number + pages.",
+          "s": "I write three pages."
+        },
+        {
+          "p": "Who checks your work?",
+          "m": "Nói một câu về người kiểm tra (ví dụ: boss, friend).",
+          "h": "My work is checked by + role/name (simple).",
+          "s": "My work is checked by my boss."
+        },
+        {
+          "p": "Do you need more time?",
+          "m": "Nói một câu: bạn có cần thêm thời gian hay không (Yes/No).",
+          "h": "Yes, I do / No, I do not.",
+          "s": "Yes, I do need more time."
+        }
+      ]
+    },
+    {
+      "t": "Báo cáo vấn đề công việc",
+      "e": [
+        {
+          "p": "Is there a problem now?",
+          "m": "Nói một câu: hiện có vấn đề hay không.",
+          "h": "Yes, there is / No, there is not.",
+          "s": "Yes, there is a problem."
+        },
+        {
+          "p": "What is the problem?",
+          "m": "Nói một câu ngắn nêu vấn đề chính.",
+          "h": "The problem is + N.",
+          "s": "The problem is a slow computer."
+        },
+        {
+          "p": "Do you need help?",
+          "m": "Nói một câu: bạn có cần giúp hay không (Yes/No).",
+          "h": "Yes, I do / No, I do not.",
+          "s": "Yes, I do need help."
+        },
+        {
+          "p": "Who can help you?",
+          "m": "Nói một câu nêu người có thể giúp (boss, friend, team).",
+          "h": "My team can help / My boss can help.",
+          "s": "My team can help me."
+        },
+        {
+          "p": "When do you need help?",
+          "m": "Nói một câu về thời điểm bạn cần giúp (now, today).",
+          "h": "I need help + now/today.",
+          "s": "I need help now."
+        }
+      ]
+    },
+    {
+      "t": "Yêu cầu tài liệu và tài nguyên",
+      "e": [
+        {
+          "p": "Do you have the document?",
+          "m": "Nói một câu: bạn có tài liệu hay không (Yes/No).",
+          "h": "Yes, I have / No, I do not have.",
+          "s": "No, I do not have the document."
+        },
+        {
+          "p": "What document do you need?",
+          "m": "Nói một câu nêu tên tài liệu bạn cần (một từ đơn).",
+          "h": "I need the + N.",
+          "s": "I need the plan."
+        },
+        {
+          "p": "How many copies do you want?",
+          "m": "Nói một câu về số bản bạn muốn (một số).",
+          "h": "I want + number + copies.",
+          "s": "I want two copies."
+        },
+        {
+          "p": "Where is the file?",
+          "m": "Nói một câu nêu nơi file (computer, folder, desk).",
+          "h": "It is on + place.",
+          "s": "It is on the desk."
+        },
+        {
+          "p": "Do you need a meeting room?",
+          "m": "Nói một câu: bạn có cần phòng họp hay không (Yes/No).",
+          "h": "Yes, I do / No, I do not.",
+          "s": "Yes, I do need a room."
+        }
+      ]
+    },
+    {
+      "t": "Kế hoạch tiếp theo",
+      "e": [
+        {
+          "p": "What do you do next?",
+          "m": "Nói một câu về việc bạn làm tiếp theo.",
+          "h": "I will / I + do (present simple for plan).",
+          "s": "I start the next task."
+        },
+        {
+          "p": "When do you start it?",
+          "m": "Nói một câu về thời điểm bắt đầu (now, today, tomorrow).",
+          "h": "I start + today/tomorrow/now.",
+          "s": "I start tomorrow."
+        },
+        {
+          "p": "Do you work alone?",
+          "m": "Nói một câu: bạn làm một mình hay không (Yes/No).",
+          "h": "I work alone / I do not work alone.",
+          "s": "No, I do not work alone."
+        },
+        {
+          "p": "Who joins your plan?",
+          "m": "Nói một câu nêu người tham gia (team, friend).",
+          "h": "My team joins / My friend joins.",
+          "s": "My team joins the plan."
+        },
+        {
+          "p": "Do you have a small plan?",
+          "m": "Nói một câu: bạn có kế hoạch nhỏ hay không (Yes/No).",
+          "h": "Yes, I have / No, I do not have.",
+          "s": "Yes, I have a small plan."
+        }
+      ]
+    },
+    {
+      "t": "Họp nhanh với sếp",
+      "e": [
+        {
+          "p": "Do you have a short update?",
+          "m": "Nói một câu: bạn có bản cập nhật ngắn hay không (Yes/No).",
+          "h": "Yes, I have / No, I do not have.",
+          "s": "Yes, I have a short update."
+        },
+        {
+          "p": "What is the update?",
+          "m": "Nói một câu tóm tắt ngắn cập nhật (một ý).",
+          "h": "It is + short phrase.",
+          "s": "It is task one is half done."
+        },
+        {
+          "p": "Do you need a meeting now?",
+          "m": "Nói một câu: bạn có cần họp ngay hay không (Yes/No).",
+          "h": "Yes, I do / No, I do not.",
+          "s": "No, I do not need a meeting now."
+        },
+        {
+          "p": "How long is the update?",
+          "m": "Nói một câu về thời gian cập nhật (a few minutes).",
+          "h": "It is + short time phrase.",
+          "s": "It is five minutes."
+        },
+        {
+          "p": "Who speaks in the meeting?",
+          "m": "Nói một câu nêu người nói (I or we).",
+          "h": "I speak / We speak.",
+          "s": "I speak in the meeting."
+        }
+      ]
+    },
+    {
+      "t": "Báo cáo công việc của nhóm",
+      "e": [
+        {
+          "p": "What does your team do?",
+          "m": "Nói một câu về việc chính nhóm bạn làm.",
+          "h": "We + do + N.",
+          "s": "We do the project task."
+        },
+        {
+          "p": "Do you work with a friend?",
+          "m": "Nói một câu: bạn có làm với bạn hay không (Yes/No).",
+          "h": "Yes, we do / No, we do not.",
+          "s": "Yes, we do work with a friend."
+        },
+        {
+          "p": "How many people are in your team?",
+          "m": "Nói một câu về số người trong nhóm (một số).",
+          "h": "There are + number + people.",
+          "s": "There are five people."
+        },
+        {
+          "p": "Who is in your team?",
+          "m": "Nói một câu nêu một người trong nhóm (mother/friend/name).",
+          "h": "My team has + role/name.",
+          "s": "My team has a senior."
+        },
+        {
+          "p": "Do you meet your team today?",
+          "m": "Nói một câu: bạn có họp nhóm hôm nay hay không (Yes/No).",
+          "h": "Yes, we do / No, we do not.",
+          "s": "No, we do not meet today."
+        }
+      ]
+    },
+    {
+      "t": "Xác nhận nhiệm vụ hoàn thành",
+      "e": [
+        {
+          "p": "Is task three done?",
+          "m": "Nói một câu: nhiệm vụ ba đã xong hay chưa.",
+          "h": "Yes, it is / No, it is not.",
+          "s": "Yes, it is done."
+        },
+        {
+          "p": "Who finishes the task?",
+          "m": "Nói một câu: ai hoàn thành nhiệm vụ (I, we, a name).",
+          "h": "I finish / We finish / He/She finishes.",
+          "s": "I finish the task."
+        },
+        {
+          "p": "Do you send the file?",
+          "m": "Nói một câu: bạn đã gửi file hay chưa (Yes/No).",
+          "h": "Yes, I do / No, I do not.",
+          "s": "No, I do not send the file."
+        },
+        {
+          "p": "What time do you finish?",
+          "m": "Nói một câu nêu giờ bạn hoàn thành (now, at 3).",
+          "h": "I finish at + time or now.",
+          "s": "I finish at three."
+        },
+        {
+          "p": "Do you confirm the completion?",
+          "m": "Nói một câu xác nhận hoàn thành (Yes/No).",
+          "h": "Yes, I do / No, I do not.",
+          "s": "Yes, I do confirm the completion."
+        }
+      ]
+    },
+    {
+      "t": "Tóm tắt ngắn gọn báo cáo",
+      "e": [
+        {
+          "p": "Give a short summary of your work.",
+          "m": "Nói một câu tóm tắt công việc của bạn ngày hôm nay.",
+          "h": "I + do + short phrase.",
+          "s": "I do data work and write notes."
+        },
+        {
+          "p": "Do you have any news?",
+          "m": "Nói một câu: bạn có tin mới hay không (Yes/No).",
+          "h": "Yes, I have / No, I do not have.",
+          "s": "No, I do not have news."
+        },
+        {
+          "p": "What is one good point today?",
+          "m": "Nói một câu nêu một điểm tốt trong ngày (một ý).",
+          "h": "One good point is + N/phrase.",
+          "s": "One good point is fast progress."
+        },
+        {
+          "p": "Do you meet the plan?",
+          "m": "Nói một câu: bạn có theo kế hoạch hay không (Yes/No).",
+          "h": "Yes, I do / No, I do not.",
+          "s": "Yes, I do meet the plan."
+        },
+        {
+          "p": "Who says thanks in the report?",
+          "m": "Nói một câu: ai nói cảm ơn trong báo cáo (I/We).",
+          "h": "I say thanks / We say thanks.",
+          "s": "We say thanks."
+        }
+      ]
+    },
+    {
+      "t": "Báo cáo lỗi và sửa lỗi",
+      "e": [
+        {
+          "p": "Is there an error in the file?",
+          "m": "Nói một câu: có lỗi trong file hay không (Yes/No).",
+          "h": "Yes, there is / No, there is not.",
+          "s": "Yes, there is an error."
+        },
+        {
+          "p": "What is the error?",
+          "m": "Nói một câu nêu lỗi chính (một ý).",
+          "h": "The error is + short noun.",
+          "s": "The error is a wrong number."
+        },
+        {
+          "p": "Do you fix the error now?",
+          "m": "Nói một câu: bạn sửa lỗi ngay hay không (Yes/No).",
+          "h": "Yes, I do / No, I do not.",
+          "s": "No, I do not fix the error now."
+        },
+        {
+          "p": "Who fixes the error?",
+          "m": "Nói một câu: ai sửa lỗi (I, team).",
+          "h": "I fix / My team fixes.",
+          "s": "My team fixes the error."
+        },
+        {
+          "p": "When is the error fixed?",
+          "m": "Nói một câu về thời điểm sửa xong (today, tomorrow).",
+          "h": "It is fixed + today/tomorrow.",
+          "s": "It is fixed tomorrow."
+        }
+      ]
+    },
+    {
+      "t": "Giao nhiệm vụ mới",
+      "e": [
+        {
+          "p": "Do you accept a new task?",
+          "m": "Nói một câu: bạn nhận nhiệm vụ mới hay không (Yes/No).",
+          "h": "Yes, I do / No, I do not.",
+          "s": "Yes, I do accept the new task."
+        },
+        {
+          "p": "What is the new task?",
+          "m": "Nói một câu nêu nhiệm vụ mới (một ý).",
+          "h": "The new task is + N.",
+          "s": "The new task is a data check."
+        },
+        {
+          "p": "When do you start the new task?",
+          "m": "Nói một câu nêu thời điểm bắt đầu (today/tomorrow).",
+          "h": "I start + today/tomorrow/now.",
+          "s": "I start today."
+        },
+        {
+          "p": "Do you need a tool for it?",
+          "m": "Nói một câu: bạn có cần công cụ hay không (Yes/No).",
+          "h": "Yes, I do / No, I do not.",
+          "s": "No, I do not need a tool."
+        },
+        {
+          "p": "Who gives the new task?",
+          "m": "Nói một câu nêu người giao nhiệm vụ (boss, team).",
+          "h": "My boss gives / My team gives.",
+          "s": "My boss gives the task."
+        }
+      ]
+    },
+    {
+      "t": "Báo cáo ngắn khi kết thúc ca làm",
+      "e": [
+        {
+          "p": "Do you finish work now?",
+          "m": "Nói một câu: bạn kết thúc công việc bây giờ hay không (Yes/No).",
+          "h": "Yes, I do / No, I do not.",
+          "s": "Yes, I do finish work now."
+        },
+        {
+          "p": "What do you hand over?",
+          "m": "Nói một câu nêu việc bạn bàn giao (file, note).",
+          "h": "I hand over + N.",
+          "s": "I hand over the file."
+        },
+        {
+          "p": "Who gets the handover?",
+          "m": "Nói một câu nêu người nhận bàn giao (boss, team).",
+          "h": "My boss gets it / My team gets it.",
+          "s": "My team gets the handover."
+        },
+        {
+          "p": "Do you lock your desk?",
+          "m": "Nói một câu: bạn có khóa bàn làm việc hay không (Yes/No).",
+          "h": "Yes, I do / No, I do not.",
+          "s": "Yes, I do lock my desk."
+        },
+        {
+          "p": "When do you come back?",
+          "m": "Nói một câu nêu thời gian bạn trở lại (tomorrow, next day).",
+          "h": "I come back + tomorrow/next day.",
+          "s": "I come back tomorrow."
+        }
+      ]
+    },
+    {
+      "t": "Ôn tập: Báo cáo ngắn",
+      "e": [
+        {
+          "p": "What is your task today?",
+          "m": "Nói một câu nêu nhiệm vụ chính hôm nay.",
+          "h": "I do + N / I work on + N (simple).",
+          "s": "I do the data task."
+        },
+        {
+          "p": "Do you finish the task?",
+          "m": "Nói một câu: bạn đã xong hay chưa (Yes/No).",
+          "h": "Yes, I do / No, I do not.",
+          "s": "No, I do not finish the task."
+        },
+        {
+          "p": "Who is in your team?",
+          "m": "Nói một câu nêu một người trong nhóm.",
+          "h": "My team has + role/name.",
+          "s": "My team has a senior."
+        },
+        {
+          "p": "Do you need help now?",
+          "m": "Nói một câu: bạn có cần giúp ngay hay không (Yes/No).",
+          "h": "Yes, I do / No, I do not.",
+          "s": "Yes, I do need help now."
+        },
+        {
+          "p": "When do you finish work?",
+          "m": "Nói một câu nêu thời gian bạn xong việc.",
+          "h": "I finish at + time / I finish tomorrow.",
+          "s": "I finish at three."
+        }
+      ]
+    },
+    {
+      "t": "Ôn tập: Hỏi - Trả lời về tiến độ",
+      "e": [
+        {
+          "p": "Is the report ready?",
+          "m": "Nói một câu: báo cáo đã sẵn sàng hay chưa (Yes/No).",
+          "h": "Yes, it is / No, it is not.",
+          "s": "No, it is not ready."
+        },
+        {
+          "p": "How many pages do you write?",
+          "m": "Nói một câu về số trang bạn viết.",
+          "h": "I write + number + pages.",
+          "s": "I write three pages."
+        },
+        {
+          "p": "Who checks the report?",
+          "m": "Nói một câu nêu người kiểm tra báo cáo.",
+          "h": "My boss checks / My team checks.",
+          "s": "My boss checks the report."
+        },
+        {
+          "p": "Do you finish the main task?",
+          "m": "Nói một câu: bạn hoàn thành nhiệm vụ chính hay không (Yes/No).",
+          "h": "Yes, I do / No, I do not.",
+          "s": "Yes, I do finish the main task."
+        },
+        {
+          "p": "When is the report done?",
+          "m": "Nói một câu về thời điểm báo cáo xong.",
+          "h": "It is done + today/tomorrow.",
+          "s": "It is done today."
+        }
+      ]
+    },
+    {
+      "t": "Ôn tập: Tổng hợp báo cáo",
+      "e": [
+        {
+          "p": "Give one short update now.",
+          "m": "Nói một câu cập nhật ngắn hiện tại.",
+          "h": "I + do + short phrase.",
+          "s": "I do a short update: task half done."
+        },
+        {
+          "p": "Do you need a tool or paper?",
+          "m": "Nói một câu: bạn có cần công cụ hoặc giấy hay không (Yes/No).",
+          "h": "Yes, I do / No, I do not.",
+          "s": "No, I do not need paper."
+        },
+        {
+          "p": "Who joins the next task?",
+          "m": "Nói một câu về người tham gia tiếp theo.",
+          "h": "My team joins / My friend joins.",
+          "s": "My team joins the next task."
+        },
+        {
+          "p": "Do you confirm the plan?",
+          "m": "Nói một câu: bạn xác nhận kế hoạch hay không (Yes/No).",
+          "h": "Yes, I do / No, I do not.",
+          "s": "Yes, I do confirm the plan."
+        },
+        {
+          "p": "When is the next check?",
+          "m": "Nói một câu nêu thời điểm kiểm tra tiếp theo (today, tomorrow).",
+          "h": "The next check is + today/tomorrow.",
+          "s": "The next check is tomorrow."
+        }
+      ]
+    }
+  ]
+}

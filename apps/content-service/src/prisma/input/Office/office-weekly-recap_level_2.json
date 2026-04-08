@@ -1,0 +1,600 @@
+{
+  "l": 2,
+  "d": [
+    {
+      "t": "Báo cáo nhanh cho quản lý",
+      "e": [
+        {
+          "p": "How is your work this week?",
+          "m": "Nói công việc chính bạn đang làm. Nói bạn đã xong hay vẫn làm tiếp.",
+          "h": "Dùng 'I am + V-ing' và 'I am + still + V-ing' hoặc 'I am + adj'.",
+          "s": "I am writing the monthly report. I am still working on it."
+        },
+        {
+          "p": "How many tasks do you have now?",
+          "m": "Nói số nhiệm vụ hiện tại bằng 'There are'. Nói một ví dụ nhiệm vụ.",
+          "h": "There are + number + tasks. Then a simple sentence with 'I am'.",
+          "s": "There are two tasks this week. I am checking the client data."
+        },
+        {
+          "p": "Is the project on time?",
+          "m": "Nói tiến độ chung (ví dụ: on time/behind). Nói bạn có điều chỉnh không.",
+          "h": "Dùng 'It is + adj' và 'I am + V-ing' hoặc 'I often + V'.",
+          "s": "The project is on time. I am updating one chart now."
+        },
+        {
+          "p": "Did you have any small problems?",
+          "m": "Nói có vấn đề nhỏ hay không. Nói bạn làm gì để sửa hoặc giảm vấn đề.",
+          "h": "Dùng 'There is/There are' và 'I am + V-ing' hoặc 'I fix' (present simple).",
+          "s": "There is a small file error. I fix the file and test it."
+        },
+        {
+          "p": "Can you give a short plan for next week?",
+          "m": "Nói một việc bạn sẽ làm tuần tới. Nói bạn cần bao nhiêu thời gian hoặc ai giúp.",
+          "h": "Dùng 'I will' không được; dùng 'I am + V-ing' hoặc 'I need + N'.",
+          "s": "I am preparing the presentation next week. I need two days to finish it."
+        }
+      ]
+    },
+    {
+      "t": "Nói với đồng nghiệp về tiến độ",
+      "e": [
+        {
+          "p": "What are you doing now?",
+          "m": "Nói việc bạn đang làm ngay lúc này. Nói mức độ hoàn thành (ví dụ: almost done).",
+          "h": "Dùng 'I am + V-ing' và 'I am + adv/adj'.",
+          "s": "I am updating the task list now. I am almost done."
+        },
+        {
+          "p": "How often do you update the list?",
+          "m": "Nói tần suất bạn cập nhật (always/often/sometimes). Nói lúc nào bạn làm.",
+          "h": "Dùng trạng từ tần suất + V(s/es). Thêm 'in the morning/after work'.",
+          "s": "I often update the list. I update it every morning."
+        },
+        {
+          "p": "Can you share one finished task?",
+          "m": "Nói một nhiệm vụ bạn hoàn thành. Nói ngắn về kết quả (good/bad).",
+          "h": "Dùng 'I am + adj' hoặc 'It is + adj' và 'I finish' (present simple).",
+          "s": "I finish the client table. The result is good."
+        },
+        {
+          "p": "Is someone helping you with the report?",
+          "m": "Nói có ai giúp không. Nói tên hoặc vị trí người giúp (không dùng tên thật).",
+          "h": "Dùng 'There is/There are' hoặc 'My colleague is + V-ing'.",
+          "s": "My colleague is helping me with the report. She is checking the numbers."
+        },
+        {
+          "p": "Do you need any help now?",
+          "m": "Nói bạn có cần giúp đỡ hay không. Nếu cần, nói việc cụ thể bạn cần.",
+          "h": "Dùng 'I need + N' hoặc 'I need to + V' (dùng đơn giản).",
+          "s": "I need help with one chart. I need someone to check the data."
+        }
+      ]
+    },
+    {
+      "t": "Email tóm tắt tuần",
+      "e": [
+        {
+          "p": "Can you write a one-line summary for the email?",
+          "m": "Viết một câu nói việc chính bạn làm tuần này. Viết một câu nói tiến độ hiện tại.",
+          "h": "Dùng 'I am + V-ing' và 'I am + adj' hoặc 'There are + number'.",
+          "s": "I am preparing the weekly report. I am half ready."
+        },
+        {
+          "p": "What tasks do you list in the email?",
+          "m": "Nêu hai nhiệm vụ ngắn gọn. Mỗi nhiệm vụ là một câu đơn.",
+          "h": "Dùng 'I am + V-ing' hoặc 'I finish' (present simple) cho mỗi hàng.",
+          "s": "I am checking the sales data. I am updating the project plan."
+        },
+        {
+          "p": "Do you mention small issues in the email?",
+          "m": "Nói có hay không bạn đề cập vấn đề. Nếu có, viết một câu mô tả vấn đề.",
+          "h": "Dùng 'Yes, I mention' hoặc 'No, I do not mention' và 'There is/There are'.",
+          "s": "Yes, I mention a small login issue. There is a login error for one user."
+        },
+        {
+          "p": "How do you close the email?",
+          "m": "Viết một câu kết ngắn (cảm ơn hoặc yêu cầu phản hồi). Viết một câu nói bạn sẵn sàng giúp.",
+          "h": "Dùng 'Please' hoặc 'I am ready to + V' và 'Thank you'.",
+          "s": "Please reply if you have questions. I am ready to help."
+        },
+        {
+          "p": "Do you add attachments?",
+          "m": "Nói bạn có đính kèm tập tin hay không. Nếu có, nêu tên tập tin ngắn gọn.",
+          "h": "Dùng 'I attach' hoặc 'I am attaching' và tên đơn giản.",
+          "s": "I attach the report file. I am attaching report.pdf."
+        }
+      ]
+    },
+    {
+      "t": "Họp nhóm ngắn",
+      "e": [
+        {
+          "p": "Can you tell the team your main task?",
+          "m": "Nói nhiệm vụ chính bạn làm trong tuần. Nói một bước bạn đang làm tiếp theo.",
+          "h": "Dùng 'I am + V-ing' và 'Next, I am + V-ing' hoặc 'I need + N'.",
+          "s": "I am working on the client report. Next, I am checking the charts."
+        },
+        {
+          "p": "Who is on your side for this task?",
+          "m": "Nói có ai hỗ trợ bạn không. Nói ngắn về vai trò họ làm.",
+          "h": "Dùng 'My colleague is + V-ing' hoặc 'There is + person'.",
+          "s": "My colleague is helping with data. She is preparing the tables."
+        },
+        {
+          "p": "Do you have blockers?",
+          "m": "Nói có chặn hay không. Nếu có, mô tả ngắn cách bạn xử lý.",
+          "h": "Dùng 'There is/There are' và 'I fix' hoặc 'I am fixing'.",
+          "s": "There is a slow system issue. I am fixing it with IT."
+        },
+        {
+          "p": "How often do you meet this week?",
+          "m": "Nói tần suất họp (one/two times) bằng 'I meet' hoặc 'We meet'. Nói khi nào họp.",
+          "h": "Dùng 'We meet + number + times' và 'on + day' hoặc 'in the morning'.",
+          "s": "We meet two times this week. We meet on Tuesday morning and Thursday."
+        },
+        {
+          "p": "Any help needed from the team?",
+          "m": "Nói có cần giúp đỡ hay không. Nếu cần, nêu việc ngắn để mọi người làm.",
+          "h": "Dùng 'I need + N' hoặc 'I need someone to + V'.",
+          "s": "I need help checking the data. I need someone to review the table."
+        }
+      ]
+    },
+    {
+      "t": "Kể về nhiệm vụ đã làm",
+      "e": [
+        {
+          "p": "What did you finish this week?",
+          "m": "Nói một nhiệm vụ bạn hoàn thành. Nói ngắn kết quả (good/bad/simple).",
+          "h": "Dùng 'I am done with' hoặc 'I finish' và 'It is + adj'.",
+          "s": "I am done with the presentation. It is good."
+        },
+        {
+          "p": "How many files did you update?",
+          "m": "Nói số file bằng 'There are' hoặc 'I update + number'. Nói ví dụ một file.",
+          "h": "There are + number / I update + number. Thêm 'file' tên đơn giản.",
+          "s": "I update three files. One file is the budget.xlsx."
+        },
+        {
+          "p": "Do you enjoy this task?",
+          "m": "Nói bạn có thích nhiệm vụ hay không. Nói lý do ngắn (easy/interesting).",
+          "h": "Dùng 'I enjoy' hoặc 'I do not enjoy' và 'because + adj'.",
+          "s": "I enjoy the task. It is interesting."
+        },
+        {
+          "p": "Did you need extra time?",
+          "m": "Nói bạn có cần thêm thời gian hay không. Nếu có, nói bạn cần bao nhiêu.",
+          "h": "Dùng 'I need + number + days/hours' hoặc 'I need more time'.",
+          "s": "I need more time for editing. I need two hours more."
+        },
+        {
+          "p": "Would you do it again next week?",
+          "m": "Nói bạn có muốn làm lại hay không. Nói lý do ngắn (like/dislike).",
+          "h": "Dùng 'I want' hoặc 'I do not want' và 'because + adj'.",
+          "s": "I want to do it again. It is useful for my work."
+        }
+      ]
+    },
+    {
+      "t": "Nói về sự cố nhỏ đã xử lý",
+      "e": [
+        {
+          "p": "Is the small bug fixed?",
+          "m": "Nói bug đã được sửa hay chưa. Nói cách bạn sửa ngắn gọn.",
+          "h": "Dùng 'It is fixed' hoặc 'I fix' và 'by + simple action'.",
+          "s": "It is fixed now. I fix it by reloading the file."
+        },
+        {
+          "p": "How many issues did you solve?",
+          "m": "Nói số sự cố bạn giải quyết. Nói một ví dụ về sự cố.",
+          "h": "Dùng 'I solve' (present simple) hoặc 'There are + number'.",
+          "s": "I solve two small issues. One issue is a login error."
+        },
+        {
+          "p": "Do you still see any problems?",
+          "m": "Nói có còn vấn đề hay không. Nếu có, mô tả ngắn và nói bạn làm gì tiếp.",
+          "h": "Dùng 'There is/There are' và 'I am + V-ing' để mô tả hành động.",
+          "s": "There is one slow report. I am testing the report now."
+        },
+        {
+          "p": "Who helped you with the fixes?",
+          "m": "Nói có ai giúp bạn không. Nói vai trò họ làm (IT/colleague).",
+          "h": "Dùng 'My colleague is' hoặc 'The IT team is'.",
+          "s": "The IT team helps me. They are checking the server."
+        },
+        {
+          "p": "Do you write a note about the fix?",
+          "m": "Nói bạn có ghi chú hay không. Nếu có, nêu nội dung ghi chú ngắn.",
+          "h": "Dùng 'I write' hoặc 'I am writing' và 'note about + N'.",
+          "s": "I am writing a short note. The note explains the fix steps."
+        }
+      ]
+    },
+    {
+      "t": "Kế hoạch cho tuần tới",
+      "e": [
+        {
+          "p": "What is your main plan next week?",
+          "m": "Nói việc chính bạn sẽ làm tuần tới. Nói bạn bắt đầu khi nào.",
+          "h": "Dùng 'I am + V-ing' cho kế hoạch gần và 'on + day' cho thời gian.",
+          "s": "I am starting the new analysis next week. I start on Monday."
+        },
+        {
+          "p": "How many hours will you spend daily?",
+          "m": "Nói số giờ bạn sẽ làm mỗi ngày. Nói bạn làm vào buổi sáng/chiều.",
+          "h": "Dùng 'I work + number + hours' và 'in the morning/afternoon'.",
+          "s": "I work three hours each day. I work in the morning."
+        },
+        {
+          "p": "Do you plan meetings next week?",
+          "m": "Nói có họp hay không. Nếu có, nêu số họp ngắn gọn.",
+          "h": "Dùng 'We have' hoặc 'I have' + number + meetings.",
+          "s": "We have one meeting next week. It is on Wednesday."
+        },
+        {
+          "p": "Will you need support from others?",
+          "m": "Nói bạn có cần hỗ trợ hay không. Nếu có, nêu ai và việc họ làm.",
+          "h": "Dùng 'I need' và 'someone to + V' hoặc 'My colleague to + V'.",
+          "s": "I need a colleague to check the data. She is reviewing the table."
+        },
+        {
+          "p": "Any risk for next week?",
+          "m": "Nói có rủi ro nhỏ hay không. Nói cách bạn giảm rủi ro ngắn.",
+          "h": "Dùng 'There is/There are' và 'I am + V-ing' để giảm rủi ro.",
+          "s": "There is a small risk with the deadline. I am planning extra time."
+        }
+      ]
+    },
+    {
+      "t": "Thảo luận công cụ và tài liệu",
+      "e": [
+        {
+          "p": "Which tool do you use now?",
+          "m": "Nêu tên công cụ bạn đang dùng (một từ đơn giản). Nói bạn dùng để làm gì.",
+          "h": "Dùng 'I use + tool' và 'to + V' hoặc 'for + N'.",
+          "s": "I use Excel. I use it for data tables."
+        },
+        {
+          "p": "Do you have the right documents?",
+          "m": "Nói có đủ tài liệu hay không. Nếu thiếu, nêu tài liệu bạn cần.",
+          "h": "Dùng 'I have' hoặc 'I do not have' và 'I need + N'.",
+          "s": "I have most documents. I need the client list."
+        },
+        {
+          "p": "Are the templates ready?",
+          "m": "Nói mẫu (template) có sẵn hay không. Nói bạn đang làm gì với mẫu đó.",
+          "h": "Dùng 'It is ready' hoặc 'I am preparing' cho hành động.",
+          "s": "The template is ready. I am filling the template now."
+        },
+        {
+          "p": "Do you share files with the team?",
+          "m": "Nói bạn có chia sẻ file hay không. Nói cách bạn chia sẻ (email/drive).",
+          "h": "Dùng 'I share' và 'by + email/drive' hoặc 'on + platform'.",
+          "s": "I share files with the team. I share them by drive."
+        },
+        {
+          "p": "Is any document unclear?",
+          "m": "Nói có tài liệu khó hiểu hay không. Nếu có, nói bạn làm gì để rõ hơn.",
+          "h": "Dùng 'There is/There are' và 'I ask' hoặc 'I am asking'.",
+          "s": "There is one unclear document. I ask my manager for details."
+        }
+      ]
+    },
+    {
+      "t": "Hỏi/Trả lời về số lượng công việc",
+      "e": [
+        {
+          "p": "How many reports do you have this week?",
+          "m": "Nói số báo cáo bằng 'There are' hoặc 'I have'. Nói bạn làm xong mấy cái.",
+          "h": "There are + number / I have + number. Dùng 'done' đơn giản.",
+          "s": "I have two reports this week. I am done with one report."
+        },
+        {
+          "p": "How many emails did you send?",
+          "m": "Nói số email bạn gửi (dùng present simple). Nói một ví dụ email.",
+          "h": "Dùng 'I send' + number và 'one is about + N'.",
+          "s": "I send five emails. One email is about the meeting."
+        },
+        {
+          "p": "How many people did you contact?",
+          "m": "Nói số người bạn liên hệ. Nói bạn liên hệ ai (client/colleague).",
+          "h": "Dùng 'I contact' + number và 'clients/colleagues'.",
+          "s": "I contact three people. I contact two clients and one colleague."
+        },
+        {
+          "p": "Do you have many tasks tomorrow?",
+          "m": "Nói có nhiều nhiệm vụ hay không. Nếu có, nêu số ngắn.",
+          "h": "Dùng 'I have many tasks' hoặc 'I have + number + tasks'.",
+          "s": "I have many tasks tomorrow. I have four tasks."
+        },
+        {
+          "p": "Are there more tasks this month?",
+          "m": "Nói số nhiệm vụ trong tháng bằng 'There are'. Nói bạn cảm thấy thế nào (busy/ok).",
+          "h": "Dùng 'There are + number' và 'I am + adj'.",
+          "s": "There are ten tasks this month. I am busy but okay."
+        }
+      ]
+    },
+    {
+      "t": "Nói về thói quen làm việc hàng tuần",
+      "e": [
+        {
+          "p": "What do you do every morning?",
+          "m": "Nói thói quen buổi sáng (một việc). Nói bạn làm việc đó thường xuyên hay không.",
+          "h": "Dùng 'I + V(s/es)' và trạng từ tần suất (always/often/sometimes).",
+          "s": "I check emails every morning. I often reply quickly."
+        },
+        {
+          "p": "When do you start your tasks?",
+          "m": "Nói thời gian bạn bắt đầu (in the morning/at 9). Nói bạn thường bắt đầu thế nào (calm/fast).",
+          "h": "Dùng 'I start at + time' hoặc 'in the morning' và 'I am + adj'.",
+          "s": "I start at nine o'clock. I am usually calm when I start."
+        },
+        {
+          "p": "Do you take breaks during the day?",
+          "m": "Nói bạn có nghỉ giữa giờ không. Nói khi nào bạn nghỉ (short/long).",
+          "h": "Dùng 'I take' + breaks and 'in the afternoon' hoặc 'after work'.",
+          "s": "I take short breaks in the afternoon. I sometimes walk for five minutes."
+        },
+        {
+          "p": "How often do you meet the client?",
+          "m": "Nói tần suất gặp khách hàng. Nói cách bạn gặp (online/in person).",
+          "h": "Dùng 'I meet + often/once' và 'online' hoặc 'in person'.",
+          "s": "I meet the client sometimes. We meet online."
+        },
+        {
+          "p": "Do you check tasks every evening?",
+          "m": "Nói có kiểm tra công việc tối hôm trước không. Nêu bạn làm gì khi kiểm tra.",
+          "h": "Dùng 'I check' và 'in the evening' và 'I update' đơn giản.",
+          "s": "I check tasks every evening. I update the list if needed."
+        }
+      ]
+    },
+    {
+      "t": "Yêu cầu giúp đỡ và phản hồi",
+      "e": [
+        {
+          "p": "Can you help me with this file?",
+          "m": "Trả lời có/không bạn giúp. Nếu giúp, nói bạn làm gì để giúp.",
+          "h": "Dùng 'Yes, I can' hoặc 'No, I cannot' và 'I will' không dùng; dùng 'I can + V'.",
+          "s": "Yes, I can help. I can check the file now."
+        },
+        {
+          "p": "Do you like my summary?",
+          "m": "Nói bạn có thích bản tóm tắt hay không. Nói lý do ngắn (clear/simple).",
+          "h": "Dùng 'I like' hoặc 'I do not like' và 'because + adj'.",
+          "s": "I like your summary. It is clear."
+        },
+        {
+          "p": "Can you give quick feedback on the chart?",
+          "m": "Nói nhận xét ngắn về biểu đồ (good/needs change). Nói bạn làm gì tiếp theo.",
+          "h": "Dùng 'It is + adj' và 'I will' không dùng; dùng 'I am + V-ing' hoặc 'I will' avoid — use 'I fix' simple.",
+          "s": "The chart is good but small. I fix the size and test it."
+        },
+        {
+          "p": "Do you prefer email or message?",
+          "m": "Nói bạn thích email hay tin nhắn. Nói lý do ngắn (fast/easy).",
+          "h": "Dùng 'I prefer + email/message' và 'because + adj'.",
+          "s": "I prefer email. It is easy to find later."
+        },
+        {
+          "p": "Will you check this later today?",
+          "m": "Nói bạn có kiểm tra sau hay không. Nói khi nào bạn kiểm tra (this afternoon/tonight).",
+          "h": "Dùng 'I will' không dùng; dùng 'I am checking' or 'I check' present simple. (use 'I check' simple)",
+          "s": "I check it this afternoon. I am checking after lunch."
+        }
+      ]
+    },
+    {
+      "t": "Tổng kết thời gian và ưu tiên",
+      "e": [
+        {
+          "p": "How much time do you spend on the report?",
+          "m": "Nói bạn dành bao nhiêu thời gian (hours). Nói bạn còn bao nhiêu thời gian cần.",
+          "h": "Dùng 'I spend + number + hours' và 'I need + number + hours'.",
+          "s": "I spend two hours on the report. I need one more hour."
+        },
+        {
+          "p": "What is your top priority now?",
+          "m": "Nói việc ưu tiên hàng đầu. Nói bạn làm việc đó ngay hay sau.",
+          "h": "Dùng 'My top priority is + N' và 'I am + V-ing' hoặc 'I do it now'.",
+          "s": "My top priority is the client report. I am working on it now."
+        },
+        {
+          "p": "Do you balance tasks and meetings?",
+          "m": "Nói bạn có cân bằng công việc và họp không. Nói bạn làm gì để cân bằng.",
+          "h": "Dùng 'I balance' hoặc 'I try to + V' và 'by + method'.",
+          "s": "I try to balance tasks and meetings. I plan work after each meeting."
+        },
+        {
+          "p": "Are small tasks taking your time?",
+          "m": "Nói các việc nhỏ có tốn thời gian không. Nói bạn xử lý thế nào (quick/after).",
+          "h": "Dùng 'Small tasks take' và 'I do them quickly' hoặc 'I do them later'.",
+          "s": "Small tasks take some time. I do them quickly in short breaks."
+        },
+        {
+          "p": "Do you finish high priority first?",
+          "m": "Nói bạn có làm việc ưu tiên trước không. Nói bạn cảm thấy thế nào khi làm vậy.",
+          "h": "Dùng 'I do' và 'I feel + adj' (simple).",
+          "s": "I do high priority tasks first. I feel less stressed."
+        }
+      ]
+    },
+    {
+      "t": "Giao tiếp với khách hàng về tiến độ",
+      "e": [
+        {
+          "p": "Can I give you a short status update?",
+          "m": "Cho biết bạn có báo cáo ngắn hay không. Nói một câu tóm tắt tiến độ.",
+          "h": "Dùng 'I have' hoặc 'I am giving' và 'It is + adj' hoặc 'I am + V-ing'.",
+          "s": "Yes, I have a short update. I am checking the final data."
+        },
+        {
+          "p": "Is the delivery on schedule?",
+          "m": "Nói có đúng lịch hay không. Nói bạn làm gì để đảm bảo lịch.",
+          "h": "Dùng 'It is on schedule' và 'I am + V-ing' hoặc 'I check' đơn giản.",
+          "s": "It is on schedule. I check tasks every day."
+        },
+        {
+          "p": "Do you send the invoice this week?",
+          "m": "Nói bạn có gửi hóa đơn không. Nếu có, nêu khi nào bạn gửi.",
+          "h": "Dùng 'I send' và 'this week' hoặc 'on + day'.",
+          "s": "I send the invoice this week. I send it on Friday."
+        },
+        {
+          "p": "Can I expect any issues?",
+          "m": "Nói có vấn đề nào dự kiến không. Nếu có, mô tả ngắn và cách bạn chuẩn bị.",
+          "h": "Dùng 'There is/There are' và 'I prepare' hoặc 'I am preparing'.",
+          "s": "There is one small risk with data. I am preparing a backup plan."
+        },
+        {
+          "p": "Do you want feedback from the client?",
+          "m": "Nói bạn có muốn phản hồi từ khách hàng không. Nếu có, nêu bạn muốn phản hồi gì (short).",
+          "h": "Dùng 'I want feedback on + N' hoặc 'Yes, I want'.",
+          "s": "Yes, I want feedback on the report. I want ideas to improve charts."
+        }
+      ]
+    },
+    {
+      "t": "Ưu tiên công việc khi bận",
+      "e": [
+        {
+          "p": "What do you do when you are busy?",
+          "m": "Nói một việc bạn làm khi bận (ví dụ: focus on priority). Nói bạn cảm thấy thế nào.",
+          "h": "Dùng 'I focus on' và 'I feel + adj'.",
+          "s": "I focus on important tasks. I feel a bit busy."
+        },
+        {
+          "p": "Do you say no to extra work?",
+          "m": "Nói bạn có nói 'không' với công việc thêm không. Nói lý do ngắn.",
+          "h": "Dùng 'I say no' hoặc 'I do not say no' và 'because + adj'.",
+          "s": "I sometimes say no to extra work. I say no because I have many tasks."
+        },
+        {
+          "p": "How do you plan when many tasks arrive?",
+          "m": "Nói bạn lên kế hoạch thế nào (simple step). Nói bạn dùng công cụ gì để ghi.",
+          "h": "Dùng 'I plan' và 'I use + tool' (Excel/list).",
+          "s": "I plan tasks by priority. I use a simple task list."
+        },
+        {
+          "p": "Do you move small tasks later?",
+          "m": "Nói bạn có dời việc nhỏ không. Nói khi nào bạn làm lại (after main tasks).",
+          "h": "Dùng 'I move' và 'after + N' hoặc 'later'.",
+          "s": "I move small tasks later. I do them after main tasks."
+        },
+        {
+          "p": "Who decides the priority in your team?",
+          "m": "Nói ai quyết định ưu tiên (manager/you). Nói họ làm gì để thông báo.",
+          "h": "Dùng 'The manager decides' hoặc 'We decide' và 'He/She sends' đơn giản.",
+          "s": "The manager decides the priority. He sends a short note to the team."
+        }
+      ]
+    },
+    {
+      "t": "Ôn tập: Báo cáo tuần (tình huống 1)",
+      "e": [
+        {
+          "p": "Briefly, what did you do this week?",
+          "m": "Nói một việc chính bạn làm tuần này. Nói mức độ hoàn thành (done/half).",
+          "h": "Dùng 'I am + V-ing' hoặc 'I am done with' và 'I am + adv/adj'.",
+          "s": "I am preparing the sales report. I am half done."
+        },
+        {
+          "p": "Did you handle any small problems?",
+          "m": "Nói có vấn đề nhỏ hay không. Nói bạn làm gì để sửa.",
+          "h": "Dùng 'There is/There are' và 'I fix' hoặc 'I am fixing'.",
+          "s": "There is a small file error. I fix it and test the file."
+        },
+        {
+          "p": "How do you share the report?",
+          "m": "Nói cách bạn chia sẻ (email/drive). Nói bạn đính kèm hay không.",
+          "h": "Dùng 'I share by' và 'I attach' hoặc 'I am attaching'.",
+          "s": "I share the report by email. I attach the PDF file."
+        },
+        {
+          "p": "What help do you need from the team?",
+          "m": "Nói nếu bạn cần giúp. Nói việc cụ thể ai cần làm.",
+          "h": "Dùng 'I need' và 'someone to + V' hoặc 'My colleague to + V'.",
+          "s": "I need help with data review. I need a colleague to check numbers."
+        },
+        {
+          "p": "Any plan for next week?",
+          "m": "Nói việc bạn dự định làm tiếp. Nói bạn bắt đầu khi nào.",
+          "h": "Dùng 'I am + V-ing' và 'on + day' hoặc 'next week'.",
+          "s": "I am starting the client call list next week. I start on Monday."
+        }
+      ]
+    },
+    {
+      "t": "Ôn tập: Báo cáo tuần (tình huống 2)",
+      "e": [
+        {
+          "p": "Quick update: how many tasks left?",
+          "m": "Nói số nhiệm vụ còn lại. Nói bạn làm xong bao nhiêu.",
+          "h": "Dùng 'There are + number' và 'I finish' (present simple).",
+          "s": "There are three tasks left. I finish two tasks."
+        },
+        {
+          "p": "Is the client happy with progress?",
+          "m": "Nói khách hàng có hài lòng không. Nói vì sao (short).",
+          "h": "Dùng 'They are + adj' và 'because + short reason'.",
+          "s": "They are happy with the progress. It is clear for them."
+        },
+        {
+          "p": "Do you update the shared file?",
+          "m": "Nói bạn có cập nhật file chia sẻ không. Nói khi nào cập nhật.",
+          "h": "Dùng 'I update' và 'now/this morning/this afternoon'.",
+          "s": "I update the shared file this morning. I am updating the charts now."
+        },
+        {
+          "p": "Any quick note for the manager?",
+          "m": "Viết một câu ghi chú ngắn cho quản lý. Viết một câu nhờ quản lý hỗ trợ nếu cần.",
+          "h": "Dùng 'Note: + short' và 'Please + V' hoặc 'I need + N'.",
+          "s": "Note: the data is ready for review. Please check and give feedback."
+        },
+        {
+          "p": "Do you feel ok with the workload?",
+          "m": "Nói bạn cảm thấy ổn hay không. Nói lý do ngắn (busy/ok).",
+          "h": "Dùng 'I feel + adj' và 'because + short reason'.",
+          "s": "I feel busy but okay. I have good support from the team."
+        }
+      ]
+    },
+    {
+      "t": "Ôn tập: Báo cáo tuần (tình huống 3)",
+      "e": [
+        {
+          "p": "Summarize your week in two sentences.",
+          "m": "Nói việc chính bạn làm. Nói một vấn đề nhỏ bạn đã xử lý.",
+          "h": "Dùng 'I am + V-ing' và 'There is/There are' hoặc 'I fix'.",
+          "s": "I am finalizing the weekly report. I fix a small chart error."
+        },
+        {
+          "p": "Who did you work with?",
+          "m": "Nói người/bộ phận bạn làm việc cùng. Nói họ làm gì để hỗ trợ.",
+          "h": "Dùng 'My colleague is' hoặc 'The IT team is' và 'helping/ checking'.",
+          "s": "My colleague is helping with data. She is checking the numbers."
+        },
+        {
+          "p": "What is one thing you want next week?",
+          "m": "Nói một điều bạn muốn (ví dụ: more time). Nói lý do ngắn.",
+          "h": "Dùng 'I want + N' và 'because + short reason'.",
+          "s": "I want more time next week. I need time to check details."
+        },
+        {
+          "p": "Do you share a quick file now?",
+          "m": "Nói bạn có chia sẻ file ngay không. Nếu có, nêu file ngắn.",
+          "h": "Dùng 'I share' hoặc 'I am sharing' và tên file đơn giản.",
+          "s": "I am sharing the report file now. The file name is weekly.pdf."
+        },
+        {
+          "p": "Any final note for the team?",
+          "m": "Viết một câu nhắn ngắn cho cả nhóm. Viết một câu kêu gọi hành động (reply/check).",
+          "h": "Dùng 'Please' hoặc 'Remember to' và 'check/reply'.",
+          "s": "Please check the report today. Remember to reply with comments."
+        }
+      ]
+    }
+  ]
+}

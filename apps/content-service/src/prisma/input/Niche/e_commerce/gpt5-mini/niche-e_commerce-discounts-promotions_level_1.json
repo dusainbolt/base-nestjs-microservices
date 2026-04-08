@@ -1,0 +1,530 @@
+{
+  "l": 1,
+  "d": [
+    {
+      "t": "Hỏi về giảm giá cơ bản",
+      "e": [
+        {
+          "p": "Hello! Do you like big discounts?",
+          "m": "Nói bạn thích giảm giá lớn. Sau đó nói bạn muốn mua một món đồ mới.",
+          "h": "S + like + N. S + want + to V.",
+          "s": "Yes, I like big discounts. I want to buy a new shirt."
+        },
+        {
+          "p": "Is this red book on sale now?",
+          "m": "Nói cuốn sách màu đỏ này đang được giảm giá.",
+          "h": "This + N + is + on sale.",
+          "s": "Yes, this red book is on sale now."
+        },
+        {
+          "p": "Where is a good store for sales?",
+          "m": "Nói bạn biết một cửa hàng có nhiều chương trình giảm giá tốt.",
+          "h": "There is + a + Adj + N.",
+          "s": "There is a big store. It has many good sales."
+        },
+        {
+          "p": "Can I use this coupon for food?",
+          "m": "Nói bạn không thể dùng mã giảm giá này cho đồ ăn.",
+          "h": "S + can't + V + O.",
+          "s": "No, you can't use this coupon for food."
+        },
+        {
+          "p": "What is cheap today?",
+          "m": "Nói một chiếc bút màu xanh dương có giá rẻ hôm nay. Nó có giảm giá.",
+          "h": "N + is + Adj. It + has + N.",
+          "s": "A blue pen is cheap today. It has a discount."
+        }
+      ]
+    },
+    {
+      "t": "Thảo luận về các mặt hàng giảm giá",
+      "e": [
+        {
+          "p": "I want a new bag. Does this store have bags on sale?",
+          "m": "Nói cửa hàng này có túi xách giảm giá. Nói chúng rất đẹp.",
+          "h": "N + has + N + on sale. They + are + Adj.",
+          "s": "Yes, this store has bags on sale. They are very beautiful."
+        },
+        {
+          "p": "Are these shoes expensive?",
+          "m": "Nói những đôi giày này không đắt. Chúng có giảm giá tốt.",
+          "h": "N + are + not + Adj. They + have + N.",
+          "s": "No, these shoes are not expensive. They have a good discount."
+        },
+        {
+          "p": "What color is your new shirt?",
+          "m": "Nói áo sơ mi mới của bạn màu xanh lá cây. Nói nó có giảm giá đặc biệt.",
+          "h": "My + N + is + Color. It + has + N.",
+          "s": "My new shirt is green. It has a special offer."
+        },
+        {
+          "p": "Can I buy a small cat toy with a discount?",
+          "m": "Nói bạn có thể mua đồ chơi cho mèo với giảm giá. Nói nó rất rẻ.",
+          "h": "S + can + V + O. It + is + Adj.",
+          "s": "Yes, you can buy a cat toy with a discount. It is very cheap."
+        },
+        {
+          "p": "Do you want to buy that big table?",
+          "m": "Nói bạn muốn mua chiếc bàn lớn đó. Nó có giảm giá rất lớn hôm nay.",
+          "h": "S + want + to V + O. It + has + a + Adj + N.",
+          "s": "Yes, I want to buy that big table. It has a very big discount today."
+        }
+      ]
+    },
+    {
+      "t": "Hỏi về các chương trình khuyến mãi",
+      "e": [
+        {
+          "p": "Is there a promotion for drinks here?",
+          "m": "Nói có một chương trình khuyến mãi cho đồ uống. Nói chúng có giá tốt.",
+          "h": "There is + a + N. They + have + N.",
+          "s": "Yes, there is a promotion for drinks. They have good prices."
+        },
+        {
+          "p": "What kind of promotion do they have for books?",
+          "m": "Nói họ có một chương trình giảm giá lớn cho sách. Nói bạn có thể mua nhiều sách.",
+          "h": "They + have + a + N. S + can + V + O.",
+          "s": "They have a big sale for books. You can buy many books."
+        },
+        {
+          "p": "My friend wants a new phone. Are there any discounts?",
+          "m": "Nói có giảm giá cho điện thoại. Nói giá không đắt.",
+          "h": "There are + N. The + N + is + not + Adj.",
+          "s": "Yes, there are discounts for phones. The price is not expensive."
+        },
+        {
+          "p": "Can I get a discount with my member card?",
+          "m": "Nói bạn có thể nhận được giảm giá với thẻ thành viên của mình. Nói đó là một ưu đãi tốt.",
+          "h": "S + can + V + O. It + is + a + N.",
+          "s": "Yes, you can get a discount with your card. It is a good offer."
+        },
+        {
+          "p": "When is the next big sale at this shop?",
+          "m": "Nói đợt giảm giá lớn tiếp theo sẽ diễn ra vào tuần tới. Nó có nhiều ưu đãi đặc biệt.",
+          "h": "The + N + is + next week. It + has + many + N.",
+          "s": "The next big sale is next week. It has many special offers."
+        }
+      ]
+    },
+    {
+      "t": "Chia sẻ về nơi mua sắm giá tốt",
+      "e": [
+        {
+          "p": "I need to buy some food. Which store has good prices?",
+          "m": "Nói cửa hàng gần trường học có giá tốt. Nó có nhiều giảm giá.",
+          "h": "The + N + near + N + has + N. It + has + many + N.",
+          "s": "The store near the school has good prices. It has many discounts."
+        },
+        {
+          "p": "Do you go to that market often for sales?",
+          "m": "Nói bạn đi chợ đó mỗi ngày. Nói chợ có đồ ăn tươi và rẻ.",
+          "h": "S + V + N + every day. The + N + has + Adj + N.",
+          "s": "Yes, I go to that market every day. The market has fresh food and it is cheap."
+        },
+        {
+          "p": "My house needs a new lamp. Where can I find a cheap one?",
+          "m": "Nói bạn có thể tìm thấy một chiếc đèn rẻ ở cửa hàng mới. Nó có một đợt giảm giá lớn.",
+          "h": "S + can + V + N + at + N. It + has + a + N.",
+          "s": "You can find a cheap lamp at the new store. It has a big sale."
+        },
+        {
+          "p": "Is the big shop in [studentCity] expensive?",
+          "m": "Nói cửa hàng lớn ở thành phố của bạn không đắt. Nó có giá tốt.",
+          "h": "The + N + is + not + Adj. It + has + N.",
+          "s": "No, the big shop in [studentCity] is not expensive. It has good prices."
+        },
+        {
+          "p": "What is your favorite store for discounts?",
+          "m": "Nói cửa hàng yêu thích của bạn là 'Super Shop'. Nó có tất cả mọi thứ và nhiều chương trình khuyến mãi.",
+          "h": "My + Adj + N + is + N. It + has + N + and + N.",
+          "s": "My favorite store is Super Shop. It has everything and many promotions."
+        }
+      ]
+    },
+    {
+      "t": "Hỏi và nói về mã giảm giá",
+      "e": [
+        {
+          "p": "Do you have a discount code for clothes?",
+          "m": "Nói bạn có một mã giảm giá cho quần áo. Nó là 'SAVE10'.",
+          "h": "S + have + a + N. It + is + N.",
+          "s": "Yes, I have a discount code for clothes. It is 'SAVE10'."
+        },
+        {
+          "p": "Is this coupon valid today?",
+          "m": "Nói mã giảm giá này có hiệu lực hôm nay. Bạn có thể dùng nó.",
+          "h": "This + N + is + Adj. S + can + V + it.",
+          "s": "Yes, this coupon is valid today. You can use it."
+        },
+        {
+          "p": "Where can I get a coupon for a big TV?",
+          "m": "Nói bạn có thể tìm thấy một mã giảm giá trên mạng. Nó có giảm giá lớn.",
+          "h": "S + can + V + a + N + online. It + has + a + Adj + N.",
+          "s": "You can find a coupon online. It has a big discount."
+        },
+        {
+          "p": "Can my friend use my discount code?",
+          "m": "Nói bạn của bạn có thể dùng mã giảm giá. Nó tốt cho mọi người.",
+          "h": "Your + N + can + V + N. It + is + Adj + for + N.",
+          "s": "Yes, your friend can use the discount code. It is good for everyone."
+        },
+        {
+          "p": "I see a sign: 'Buy 1, Get 1 Free'. What is this?",
+          "m": "Nói đây là một ưu đãi đặc biệt. Nói bạn có thể nhận được hai món đồ với giá một.",
+          "h": "This + is + a + N. S + can + V + two + N + for + one.",
+          "s": "This is a special offer. You can get two items for one price."
+        }
+      ]
+    },
+    {
+      "t": "Kể về một món đồ đã mua giảm giá",
+      "e": [
+        {
+          "p": "Did you buy this blue pen with a discount?",
+          "m": "Nói bạn đã mua cây bút màu xanh dương này với giảm giá. Nó rất rẻ.",
+          "h": "S + V + O + with + N. It + is + Adj.",
+          "s": "Yes, I bought this blue pen with a discount. It is very cheap."
+        },
+        {
+          "p": "What did you buy on sale last week?",
+          "m": "Nói bạn đã mua một chiếc áo màu trắng vào tuần trước. Nó có giảm giá tốt.",
+          "h": "S + V + a + N + last week. It + has + a + Adj + N.",
+          "s": "I bought a white shirt last week. It had a good discount."
+        },
+        {
+          "p": "Was your new book expensive?",
+          "m": "Nói cuốn sách mới của bạn không đắt. Nó có chương trình khuyến mãi đặc biệt.",
+          "h": "My + N + was + not + Adj. It + had + a + Adj + N.",
+          "s": "No, my new book was not expensive. It had a special promotion."
+        },
+        {
+          "p": "Did your mother get a discount for her new shoes?",
+          "m": "Nói mẹ của bạn đã nhận được giảm giá cho đôi giày mới của bà. Bà đã tiết kiệm được tiền.",
+          "h": "My + N + got + a + N + for + N. S + saved + N.",
+          "s": "Yes, my mother got a discount for her new shoes. She saved money."
+        },
+        {
+          "p": "Tell me about a good deal you found.",
+          "m": "Nói bạn đã tìm thấy một chiếc máy tính nhỏ với giảm giá lớn. Bạn rất vui.",
+          "h": "S + found + a + N + with + a + Adj + N. S + am + Adj.",
+          "s": "I found a small computer with a big discount. I am very happy."
+        }
+      ]
+    },
+    {
+      "t": "Thảo luận về ưu đãi cho bạn bè và gia đình",
+      "e": [
+        {
+          "p": "Do your friends like sales?",
+          "m": "Nói bạn bè của bạn thích giảm giá. Họ thích mua đồ rẻ.",
+          "h": "My + N + like + N. They + like + to V + O + Adj.",
+          "s": "Yes, my friends like sales. They like to buy cheap things."
+        },
+        {
+          "p": "Does your father look for discounts?",
+          "m": "Nói bố của bạn luôn tìm kiếm giảm giá. Ông ấy thích tiết kiệm tiền.",
+          "h": "My + N + always + V + for + N. He + likes + to V + N.",
+          "s": "Yes, my father always looks for discounts. He likes to save money."
+        },
+        {
+          "p": "Can your sister use a discount code too?",
+          "m": "Nói chị gái của bạn có thể dùng mã giảm giá. Đó là một ưu đãi tốt cho gia đình.",
+          "h": "My + N + can + V + N. It + is + a + Adj + N + for + N.",
+          "s": "Yes, my sister can use the discount code. It is a good offer for family."
+        },
+        {
+          "p": "Do you tell your family about good promotions?",
+          "m": "Nói bạn nói với gia đình về các chương trình khuyến mãi tốt. Họ thích những ưu đãi đặc biệt.",
+          "h": "S + tell + N + about + N. They + like + Adj + N.",
+          "s": "Yes, I tell my family about good promotions. They like special offers."
+        },
+        {
+          "p": "What kind of promotion does your mom like for food?",
+          "m": "Nói mẹ của bạn thích các chương trình khuyến mãi 'mua một tặng một' cho đồ ăn. Bà ấy mua nhiều đồ.",
+          "h": "My + N + likes + N + for + N. S + buys + many + N.",
+          "s": "My mom likes 'buy one, get one' promotions for food. She buys many things."
+        }
+      ]
+    },
+    {
+      "t": "Tìm hiểu các loại ưu đãi khác nhau",
+      "e": [
+        {
+          "p": "Is a 'Clearance Sale' a big discount?",
+          "m": "Nói 'Clearance Sale' là một đợt giảm giá rất lớn. Mọi thứ đều rất rẻ.",
+          "h": "N + is + a + Adj + N. Everything + is + Adj.",
+          "s": "Yes, a 'Clearance Sale' is a very big discount. Everything is very cheap."
+        },
+        {
+          "p": "What is a 'Flash Sale'?",
+          "m": "Nói 'Flash Sale' là một đợt giảm giá ngắn hạn. Nó chỉ diễn ra trong một ngày.",
+          "h": "N + is + a + Adj + N. It + is + only + for + N.",
+          "s": "A 'Flash Sale' is a short discount. It is only for one day."
+        },
+        {
+          "p": "Do you like 'Member Discounts'?",
+          "m": "Nói bạn thích 'Member Discounts'. Chúng có nhiều ưu đãi tốt cho khách hàng.",
+          "h": "S + like + N. They + have + many + Adj + N + for + N.",
+          "s": "Yes, I like 'Member Discounts'. They have many good offers for customers."
+        },
+        {
+          "p": "Are there any student discounts at your school's store?",
+          "m": "Nói có giảm giá cho sinh viên ở cửa hàng trường bạn. Bạn có thể tiết kiệm tiền.",
+          "h": "There are + N + at + N. S + can + V + N.",
+          "s": "Yes, there are student discounts at my school's store. You can save money."
+        },
+        {
+          "p": "What is better, a 10% discount or a 'buy one, get one' offer?",
+          "m": "Nói 'mua một tặng một' là tốt hơn. Bạn nhận được hai món đồ.",
+          "h": "N + is + Adj. S + get + two + N.",
+          "s": "The 'buy one, get one' offer is better. You get two items."
+        }
+      ]
+    },
+    {
+      "t": "Kế hoạch mua sắm thông minh",
+      "e": [
+        {
+          "p": "Do you plan your shopping for sales?",
+          "m": "Nói bạn lên kế hoạch mua sắm của mình. Bạn muốn tiết kiệm tiền.",
+          "h": "S + V + N. S + want + to V + N.",
+          "s": "Yes, I plan my shopping. I want to save money."
+        },
+        {
+          "p": "When do you go to the store for discounts?",
+          "m": "Nói bạn đi đến cửa hàng vào cuối tuần. Lúc đó có nhiều ưu đãi đặc biệt.",
+          "h": "S + go + to + N + on + N. There + are + many + N.",
+          "s": "I go to the store on the weekend. There are many special offers then."
+        },
+        {
+          "p": "Do you check prices online before buying?",
+          "m": "Nói bạn kiểm tra giá trực tuyến trước khi mua. Bạn tìm kiếm giá tốt nhất.",
+          "h": "S + check + N + online. S + look + for + N.",
+          "s": "Yes, I check prices online before buying. I look for the best price."
+        },
+        {
+          "p": "Should I wait for a big promotion to buy a new computer?",
+          "m": "Nói bạn nên đợi một chương trình khuyến mãi lớn. Nó sẽ giúp bạn tiết kiệm tiền.",
+          "h": "S + should + V + for + a + N. It + will + V + N.",
+          "s": "Yes, you should wait for a big promotion. It will save you money."
+        },
+        {
+          "p": "What is your best tip for saving money on shopping?",
+          "m": "Nói lời khuyên tốt nhất của bạn là luôn tìm kiếm giảm giá. Và so sánh giá.",
+          "h": "My + Adj + N + is + to V + N. And + to V + N.",
+          "s": "My best tip is to always look for discounts. And to compare prices."
+        }
+      ]
+    },
+    {
+      "t": "Thảo luận về các dịp khuyến mãi lớn",
+      "e": [
+        {
+          "p": "Are there big sales on Black Friday?",
+          "m": "Nói có những đợt giảm giá lớn vào Black Friday. Nhiều cửa hàng có ưu đãi đặc biệt.",
+          "h": "There are + Adj + N + on + N. Many + N + have + N.",
+          "s": "Yes, there are big sales on Black Friday. Many stores have special offers."
+        },
+        {
+          "p": "Do you shop on big holidays like Christmas?",
+          "m": "Nói bạn mua sắm vào các ngày lễ lớn. Có rất nhiều giảm giá tốt.",
+          "h": "S + V + on + Adj + N. There are + many + Adj + N.",
+          "s": "Yes, I shop on big holidays. There are many good discounts."
+        },
+        {
+          "p": "What about online shopping days, like '11.11'?",
+          "m": "Nói những ngày mua sắm trực tuyến như '11.11' có giảm giá lớn. Bạn có thể mua nhiều thứ.",
+          "h": "N + like + N + have + Adj + N. S + can + V + many + N.",
+          "s": "Online shopping days like '11.11' have big discounts. You can buy many things."
+        },
+        {
+          "p": "Does your favorite store have sales on your birthday?",
+          "m": "Nói cửa hàng yêu thích của bạn có giảm giá vào ngày sinh nhật. Đó là một ưu đãi tốt.",
+          "h": "My + N + has + N + on + N. It + is + a + Adj + N.",
+          "s": "Yes, my favorite store has sales on my birthday. It is a good offer."
+        },
+        {
+          "p": "Is it good to buy gifts during sales?",
+          "m": "Nói mua quà trong đợt giảm giá là tốt. Bạn có thể tiết kiệm tiền và mua được những món quà đẹp.",
+          "h": "It + is + Adj + to V + N + during + N. S + can + V + N + and + Adj + N.",
+          "s": "Yes, it is good to buy gifts during sales. You can save money and buy nice gifts."
+        }
+      ]
+    },
+    {
+      "t": "Thảo luận về việc tiết kiệm tiền",
+      "e": [
+        {
+          "p": "Do you always try to save money?",
+          "m": "Nói bạn luôn cố gắng tiết kiệm tiền. Nó rất quan trọng.",
+          "h": "S + always + V + to V + N. It + is + Adj.",
+          "s": "Yes, I always try to save money. It is very important."
+        },
+        {
+          "p": "What is one way to save money on clothes?",
+          "m": "Nói một cách để tiết kiệm tiền là mua quần áo giảm giá. Chúng có giá thấp.",
+          "h": "One + N + is + to V + N + on + N. They + have + Adj + N.",
+          "s": "One way to save money is to buy clothes on sale. They have low prices."
+        },
+        {
+          "p": "Does buying in bulk help save money?",
+          "m": "Nói mua số lượng lớn giúp tiết kiệm tiền. Nó có giá tốt hơn cho mỗi món đồ.",
+          "h": "V-ing + helps + V + N. It + has + a + Adj + N + for + each + N.",
+          "s": "Yes, buying in bulk helps save money. It has a better price for each item."
+        },
+        {
+          "p": "Can online coupons save me a lot of money?",
+          "m": "Nói phiếu giảm giá trực tuyến có thể tiết kiệm cho bạn rất nhiều tiền. Chúng có những ưu đãi lớn.",
+          "h": "Adj + N + can + V + S + N. They + have + Adj + N.",
+          "s": "Yes, online coupons can save you a lot of money. They have big offers."
+        },
+        {
+          "p": "What is your goal for saving money this month?",
+          "m": "Nói mục tiêu của bạn là tiết kiệm 50 đô la. Bạn sẽ mua đồ giảm giá.",
+          "h": "My + N + is + to V + N. S + will + V + N + on + N.",
+          "s": "My goal is to save 50 dollars. I will buy things on sale."
+        }
+      ]
+    },
+    {
+      "t": "Hỏi về chất lượng sản phẩm giảm giá",
+      "e": [
+        {
+          "p": "Is the quality of discounted items usually good?",
+          "m": "Nói chất lượng của các mặt hàng giảm giá thường tốt. Chúng không bị hỏng.",
+          "h": "The + N + is + usually + Adj. They + are + not + Adj.",
+          "s": "Yes, the quality of discounted items is usually good. They are not broken."
+        },
+        {
+          "p": "Are sale items old products?",
+          "m": "Nói các mặt hàng giảm giá không phải lúc nào cũng là sản phẩm cũ. Đôi khi chúng là sản phẩm mới.",
+          "h": "N + are + not + always + Adj + N. Sometimes + they + are + Adj + N.",
+          "s": "No, sale items are not always old products. Sometimes they are new products."
+        },
+        {
+          "p": "Can I return an item if I buy it on sale?",
+          "m": "Nói bạn có thể trả lại một mặt hàng nếu bạn mua nó giảm giá. Cửa hàng cho phép điều đó.",
+          "h": "S + can + V + an + N + if + S + V + it + on + N. The + N + allows + that.",
+          "s": "Yes, you can return an item if you buy it on sale. The store allows that."
+        },
+        {
+          "p": "Do you check the condition of items before buying with a discount?",
+          "m": "Nói bạn luôn kiểm tra tình trạng của các mặt hàng. Bạn muốn món đồ tốt.",
+          "h": "S + always + V + the + N + of + N. S + want + a + Adj + N.",
+          "s": "Yes, I always check the condition of items. I want a good item."
+        },
+        {
+          "p": "What is important when buying discounted electronics?",
+          "m": "Nói điều quan trọng là kiểm tra xem nó có hoạt động không. Và đảm bảo nó có bảo hành.",
+          "h": "It + is + Adj + to V + if + it + V. And + to V + it + has + N.",
+          "s": "It is important to check if it works. And to make sure it has a warranty."
+        }
+      ]
+    },
+    {
+      "t": "Ôn tập: Hỏi và trả lời về ưu đãi",
+      "e": [
+        {
+          "p": "Is this small toy on promotion?",
+          "m": "Nói đồ chơi nhỏ này đang được khuyến mãi. Nó có giá rất tốt.",
+          "h": "This + N + is + on + N. It + has + a + Adj + N.",
+          "s": "Yes, this small toy is on promotion. It has a very good price."
+        },
+        {
+          "p": "Do you know a store with good discounts for books?",
+          "m": "Nói bạn biết một cửa hàng có nhiều giảm giá sách. Nó ở gần nhà bạn.",
+          "h": "S + know + a + N + with + many + N. It + is + near + my + N.",
+          "s": "Yes, I know a store with many book discounts. It is near my house."
+        },
+        {
+          "p": "Can I use two coupons for one shirt?",
+          "m": "Nói bạn không thể dùng hai mã giảm giá. Chỉ một mã cho mỗi chiếc áo.",
+          "h": "S + can't + V + two + N. Only + one + N + for + each + N.",
+          "s": "No, you can't use two coupons. Only one coupon for each shirt."
+        },
+        {
+          "p": "What did your friend buy with a big discount?",
+          "m": "Nói bạn của bạn đã mua một chiếc đồng hồ màu đen. Anh ấy đã tiết kiệm được nhiều tiền.",
+          "h": "My + N + bought + a + Color + N. S + saved + much + N.",
+          "s": "My friend bought a black watch. He saved much money."
+        },
+        {
+          "p": "What are the best days to find sales?",
+          "m": "Nói những ngày tốt nhất để tìm giảm giá là vào cuối tuần. Và vào các ngày lễ lớn.",
+          "h": "The + Adj + N + are + on + N. And + on + Adj + N.",
+          "s": "The best days are on the weekend. And on big holidays."
+        }
+      ]
+    },
+    {
+      "t": "Ôn tập: Mua sắm thông minh và tiết kiệm",
+      "e": [
+        {
+          "p": "Do you check for sales every day?",
+          "m": "Nói bạn kiểm tra giảm giá mỗi ngày trên điện thoại. Bạn không muốn bỏ lỡ.",
+          "h": "S + V + for + N + every day + on + N. S + do + not + want + to V + it.",
+          "s": "Yes, I check for sales every day on my phone. I do not want to miss it."
+        },
+        {
+          "p": "Is it important to compare prices from different stores?",
+          "m": "Nói điều quan trọng là so sánh giá. Bạn có thể tìm thấy ưu đãi tốt nhất.",
+          "h": "It + is + Adj + to V + N. S + can + V + the + Adj + N.",
+          "s": "Yes, it is important to compare prices. You can find the best offer."
+        },
+        {
+          "p": "What did you learn about 'Flash Sales'?",
+          "m": "Nói 'Flash Sales' là giảm giá nhanh. Chúng chỉ kéo dài một thời gian ngắn.",
+          "h": "N + are + Adj + N. They + only + V + for + a + Adj + N.",
+          "s": "'Flash Sales' are fast discounts. They only last for a short time."
+        },
+        {
+          "p": "Your friend wants to buy a new laptop. What advice can you give about discounts?",
+          "m": "Khuyên bạn của bạn nên đợi một chương trình khuyến mãi lớn. Hoặc tìm mã giảm giá trực tuyến.",
+          "h": "S + should + V + for + a + Adj + N. Or + V + N + online.",
+          "s": "Your friend should wait for a big promotion. Or look for a discount code online."
+        },
+        {
+          "p": "Tell me about a time you saved a lot of money with a discount.",
+          "m": "Nói bạn đã mua một chiếc áo khoác màu vàng với giảm giá 50%. Nó rất ấm và giá tốt.",
+          "h": "S + bought + a + Color + N + with + N. It + is + Adj + and + Adj.",
+          "s": "I bought a yellow jacket with a 50% discount. It is very warm and a good price."
+        }
+      ]
+    },
+    {
+      "t": "Ôn tập: Thảo luận về ưu đãi cá nhân",
+      "e": [
+        {
+          "p": "Do you like special offers from your favorite cafe?",
+          "m": "Nói bạn thích các ưu đãi đặc biệt từ quán cà phê yêu thích của mình. Bạn đi đó mỗi ngày.",
+          "h": "S + like + Adj + N + from + my + Adj + N. S + go + there + every day.",
+          "s": "Yes, I like special offers from my favorite cafe. I go there every day."
+        },
+        {
+          "p": "Can you share a good coupon with me?",
+          "m": "Nói bạn có một mã giảm giá 20% cho giày. Bạn có thể chia sẻ nó.",
+          "h": "S + have + a + N + for + N. S + can + V + it.",
+          "s": "Yes, I have a 20% discount for shoes. I can share it."
+        },
+        {
+          "p": "What is the best discount you saw this morning?",
+          "m": "Nói bạn đã thấy một chiếc váy màu xanh giảm giá 30% sáng nay. Đó là một ưu đãi tuyệt vời.",
+          "h": "S + saw + a + Color + N + with + N + this morning. It + was + a + Adj + N.",
+          "s": "I saw a blue dress with a 30% discount this morning. It was a great offer."
+        },
+        {
+          "p": "Do your parents use discount cards at the supermarket?",
+          "m": "Nói bố mẹ của bạn dùng thẻ giảm giá ở siêu thị. Họ tiết kiệm tiền mỗi lần.",
+          "h": "My + N + use + N + at + N. They + V + N + every time.",
+          "s": "Yes, my parents use discount cards at the supermarket. They save money every time."
+        },
+        {
+          "p": "Imagine you see a '50% off' sign. What do you do?",
+          "m": "Nói bạn sẽ đi vào cửa hàng. Bạn muốn xem các món đồ giảm giá.",
+          "h": "S + will + V + into + N. S + want + to V + the + N.",
+          "s": "I will go into the store. I want to see the discounted items."
+        }
+      ]
+    }
+  ]
+}

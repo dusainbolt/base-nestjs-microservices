@@ -1,0 +1,530 @@
+{
+  "l": 2,
+  "d": [
+    {
+      "t": "Hỏi về tên sản phẩm",
+      "e": [
+        {
+          "p": "Hello! Can I help you?",
+          "m": "Nói bạn đang tìm một chiếc túi xách. Hỏi đó là loại túi gì.",
+          "h": "Sử dụng cấu trúc 'I am looking for...' và 'What kind of...?'",
+          "s": "I am looking for a bag. What kind of bag is it?"
+        },
+        {
+          "p": "Good morning! What do you need?",
+          "m": "Nói bạn muốn mua một cuốn sách. Hỏi tên của cuốn sách đó.",
+          "h": "Sử dụng 'I want to buy...' và 'What is the name...?'",
+          "s": "I want to buy a book. What is the name of this book?"
+        },
+        {
+          "p": "Welcome! What are you looking for today?",
+          "m": "Nói bạn cần một món đồ chơi. Hỏi nó có phải là một chiếc xe hơi đồ chơi không.",
+          "h": "Sử dụng 'I need...' và 'Is it a toy car?'",
+          "s": "I need a toy. Is it a toy car?"
+        },
+        {
+          "p": "Hello there! Is there anything specific?",
+          "m": "Nói bạn đang tìm một chiếc váy. Hỏi người bán có chiếc váy màu xanh không.",
+          "h": "Sử dụng 'I am looking for...' và 'Do you have...?'",
+          "s": "I am looking for a dress. Do you have a blue dress?"
+        },
+        {
+          "p": "Hi! What can I show you?",
+          "m": "Nói bạn thích những đôi giày này. Hỏi chúng là loại giày gì.",
+          "h": "Dùng 'I like these...' và 'What kind of...?'",
+          "s": "I like these shoes. What kind of shoes are they?"
+        }
+      ]
+    },
+    {
+      "t": "Hỏi về màu sắc và kích cỡ",
+      "e": [
+        {
+          "p": "This is a nice T-shirt. What color do you like?",
+          "m": "Nói bạn thích màu đỏ. Hỏi có kích cỡ nhỏ không.",
+          "h": "Dùng 'I like red.' và 'Do you have it in small size?'",
+          "s": "I like red. Do you have it in small size?"
+        },
+        {
+          "p": "We have many shoes. What size are you?",
+          "m": "Nói bạn cỡ 38. Hỏi có giày màu đen không.",
+          "h": "Dùng 'I am size 38.' và 'Do you have black shoes?'",
+          "s": "I am size 38. Do you have black shoes?"
+        },
+        {
+          "p": "This skirt is very popular. What color do you want?",
+          "m": "Nói bạn muốn màu xanh lá cây. Hỏi có kích cỡ lớn không.",
+          "h": "Sử dụng 'I want green.' và 'Is there a big size?'",
+          "s": "I want green. Is there a big size?"
+        },
+        {
+          "p": "We have these beautiful bags. They are big.",
+          "m": "Nói bạn cần một chiếc túi nhỏ. Hỏi có màu hồng không.",
+          "h": "Sử dụng 'I need a small bag.' và 'Do you have it in pink?'",
+          "s": "I need a small bag. Do you have it in pink?"
+        },
+        {
+          "p": "This hat is pretty. It is red.",
+          "m": "Nói bạn thích màu vàng. Hỏi có chiếc mũ màu vàng cỡ trung bình không.",
+          "h": "Sử dụng 'I like yellow.' và 'Do you have a yellow hat in medium size?'",
+          "s": "I like yellow. Do you have a yellow hat in medium size?"
+        }
+      ]
+    },
+    {
+      "t": "Hỏi về giá cả",
+      "e": [
+        {
+          "p": "This small toy is very popular.",
+          "m": "Hỏi giá của món đồ chơi này.",
+          "h": "Sử dụng 'How much is it?'",
+          "s": "How much is it?"
+        },
+        {
+          "p": "These shoes are new. They are good.",
+          "m": "Hỏi giá của những đôi giày này.",
+          "h": "Sử dụng 'How much are these?'",
+          "s": "How much are these shoes?"
+        },
+        {
+          "p": "This big table is special.",
+          "m": "Hỏi giá của cái bàn lớn này. Nói bạn thích nó.",
+          "h": "Sử dụng 'How much is this big table?' và 'I like it.'",
+          "s": "How much is this big table? I like it."
+        },
+        {
+          "p": "We have many pretty dresses here. They are nice.",
+          "m": "Hỏi giá của một chiếc váy màu xanh. Hỏi có giảm giá không.",
+          "h": "Sử dụng 'How much is a blue dress?' và 'Is there a discount?'",
+          "s": "How much is a blue dress? Is there a discount?"
+        },
+        {
+          "p": "This watch is very popular. Many people want it.",
+          "m": "Hỏi giá của chiếc đồng hồ này. Nói bạn cần một chiếc đồng hồ mới.",
+          "h": "Sử dụng 'How much is this watch?' và 'I need a new watch.'",
+          "s": "How much is this watch? I need a new watch."
+        }
+      ]
+    },
+    {
+      "t": "Hỏi về sự có sẵn",
+      "e": [
+        {
+          "p": "Do you like this red shirt?",
+          "m": "Hỏi có chiếc áo tương tự màu xanh không.",
+          "h": "Sử dụng 'Do you have a blue shirt like this?'",
+          "s": "Do you have a blue shirt like this?"
+        },
+        {
+          "p": "We have many books on this shelf.",
+          "m": "Hỏi có cuốn sách 'The Big Cat' không.",
+          "h": "Sử dụng 'Do you have the book 'The Big Cat'?'",
+          "s": "Do you have the book 'The Big Cat'?"
+        },
+        {
+          "p": "This phone is very popular. It is new.",
+          "m": "Hỏi có điện thoại này màu đen không. Hỏi nó có sẵn không.",
+          "h": "Sử dụng 'Do you have this phone in black?' và 'Is it available?'",
+          "s": "Do you have this phone in black? Is it available?"
+        },
+        {
+          "p": "This is a warm coat. It is good for winter.",
+          "m": "Hỏi có áo khoác này với size L không. Nói bạn cần một cái.",
+          "h": "Sử dụng 'Do you have this coat in size L?' và 'I need one.'",
+          "s": "Do you have this coat in size L? I need one."
+        },
+        {
+          "p": "We have many pretty flowers. They are fresh.",
+          "m": "Hỏi có hoa hồng đỏ không. Hỏi có bao nhiêu bông.",
+          "h": "Sử dụng 'Do you have red roses?' và 'How many are there?'",
+          "s": "Do you have red roses? How many are there?"
+        }
+      ]
+    },
+    {
+      "t": "Mô tả đơn giản về sản phẩm",
+      "e": [
+        {
+          "p": "This is a new laptop. What do you think?",
+          "m": "Nói nó rất đẹp. Hỏi nó có màu gì.",
+          "h": "Sử dụng 'It is very pretty.' và 'What color is it?'",
+          "s": "It is very pretty. What color is it?"
+        },
+        {
+          "p": "This toy car is small and red.",
+          "m": "Nói bạn thích nó. Hỏi nó có chạy nhanh không.",
+          "h": "Sử dụng 'I like it.' và 'Does it run fast?'",
+          "s": "I like it. Does it run fast?"
+        },
+        {
+          "p": "This big TV is on sale today.",
+          "m": "Nói nó trông hiện đại. Hỏi nó có dễ sử dụng không.",
+          "h": "Sử dụng 'It looks modern.' và 'Is it easy to use?'",
+          "s": "It looks modern. Is it easy to use?"
+        },
+        {
+          "p": "This beautiful dress is for a party. It is long.",
+          "m": "Nói bạn thích nó. Hỏi nó làm từ chất liệu gì.",
+          "h": "Sử dụng 'I like it.' và 'What is it made of?'",
+          "s": "I like it. What is it made of?"
+        },
+        {
+          "p": "This is a comfortable chair. It is big.",
+          "m": "Nói nó trông rất thoải mái. Hỏi có chiếc ghế nhỏ hơn không.",
+          "h": "Sử dụng 'It looks very comfortable.' và 'Do you have a smaller chair?'",
+          "s": "It looks very comfortable. Do you have a smaller chair?"
+        }
+      ]
+    },
+    {
+      "t": "Hỏi về chất liệu hoặc đặc điểm nổi bật",
+      "e": [
+        {
+          "p": "This bag is very strong.",
+          "m": "Hỏi nó làm từ gì. Nói bạn cần một chiếc túi bền.",
+          "h": "Sử dụng 'What is it made of?' và 'I need a strong bag.'",
+          "s": "What is it made of? I need a strong bag."
+        },
+        {
+          "p": "This T-shirt is soft. It is good for summer.",
+          "m": "Hỏi chất liệu của áo. Hỏi nó có co lại không.",
+          "h": "Sử dụng 'What is the material?' và 'Does it shrink?'",
+          "s": "What is the material? Does it shrink?"
+        },
+        {
+          "p": "This table is heavy and big.",
+          "m": "Hỏi nó làm bằng gỗ hay kim loại. Hỏi nó có màu tối không.",
+          "h": "Sử dụng 'Is it wood or metal?' và 'Is it dark in color?'",
+          "s": "Is it wood or metal? Is it dark in color?"
+        },
+        {
+          "p": "This is a special phone. It has a big screen.",
+          "m": "Hỏi nó có camera tốt không. Nói bạn thích chụp ảnh.",
+          "h": "Sử dụng 'Does it have a good camera?' và 'I like taking photos.'",
+          "s": "Does it have a good camera? I like taking photos."
+        },
+        {
+          "p": "This pretty vase is handmade. It is unique.",
+          "m": "Hỏi nó có dễ vỡ không. Hỏi có cái nào màu xanh không.",
+          "h": "Sử dụng 'Is it fragile?' và 'Do you have a blue one?'",
+          "s": "Is it fragile? Do you have a blue one?"
+        }
+      ]
+    },
+    {
+      "t": "Hỏi về các lựa chọn khác",
+      "e": [
+        {
+          "p": "This shirt is red. It is size M.",
+          "m": "Hỏi có chiếc áo này màu xanh không. Hỏi có size L không.",
+          "h": "Sử dụng 'Do you have this shirt in blue?' và 'Do you have size L?'",
+          "s": "Do you have this shirt in blue? Do you have size L?"
+        },
+        {
+          "p": "This pretty dress is short. It is for young people.",
+          "m": "Hỏi có váy dài hơn không. Hỏi có màu đen không.",
+          "h": "Sử dụng 'Do you have a longer dress?' và 'Is there a black one?'",
+          "s": "Do you have a longer dress? Is there a black one?"
+        },
+        {
+          "p": "This phone is black. It is very popular now.",
+          "m": "Hỏi có màu trắng không. Hỏi có mẫu khác tương tự không.",
+          "h": "Sử dụng 'Do you have it in white?' và 'Do you have other similar models?'",
+          "s": "Do you have it in white? Do you have other similar models?"
+        },
+        {
+          "p": "This big bag is good for travel. It is strong.",
+          "m": "Hỏi có túi nhỏ hơn không. Hỏi nó có bánh xe không.",
+          "h": "Sử dụng 'Do you have a smaller bag?' và 'Does it have wheels?'",
+          "s": "Do you have a smaller bag? Does it have wheels?"
+        },
+        {
+          "p": "This is a lovely cup. It has a flower design.",
+          "m": "Hỏi có cốc nào có hình động vật không. Hỏi có màu khác không.",
+          "h": "Sử dụng 'Do you have a cup with animal pictures?' và 'Are there other colors?'",
+          "s": "Do you have a cup with animal pictures? Are there other colors?"
+        }
+      ]
+    },
+    {
+      "t": "Hỏi về cách sử dụng hoặc chức năng",
+      "e": [
+        {
+          "p": "This camera is easy to use.",
+          "m": "Hỏi nó chụp ảnh đẹp không. Hỏi nó có quay video được không.",
+          "h": "Sử dụng 'Does it take good photos?' và 'Does it record video?'",
+          "s": "Does it take good photos? Does it record video?"
+        },
+        {
+          "p": "This smart lamp is new. It changes colors.",
+          "m": "Hỏi nó hoạt động như thế nào. Hỏi nó có điều khiển bằng điện thoại không.",
+          "h": "Sử dụng 'How does it work?' và 'Does it connect to a phone?'",
+          "s": "How does it work? Does it connect to a phone?"
+        },
+        {
+          "p": "This coffee machine is fast. It makes good coffee.",
+          "m": "Hỏi nó có dễ làm sạch không. Hỏi nó dùng loại cà phê nào.",
+          "h": "Sử dụng 'Is it easy to clean?' và 'What kind of coffee does it use?'",
+          "s": "Is it easy to clean? What kind of coffee does it use?"
+        },
+        {
+          "p": "This backpack is waterproof. It keeps your things dry.",
+          "m": "Hỏi nó có nhiều ngăn không. Nói bạn cần một cái ba lô cho trường học.",
+          "h": "Sử dụng 'Does it have many pockets?' và 'I need a backpack for school.'",
+          "s": "Does it have many pockets? I need a backpack for school."
+        },
+        {
+          "p": "This pretty watch is for sports. It shows time and steps.",
+          "m": "Hỏi nó có chống nước không. Hỏi có theo dõi nhịp tim không.",
+          "h": "Sử dụng 'Is it waterproof?' và 'Does it track heart rate?'",
+          "s": "Is it waterproof? Does it track heart rate?"
+        }
+      ]
+    },
+    {
+      "t": "Thể hiện sự thích thú và mong muốn mua",
+      "e": [
+        {
+          "p": "What do you think about this hat?",
+          "m": "Nói bạn rất thích nó. Hỏi giá của nó.",
+          "h": "Sử dụng 'I really like it.' và 'How much is it?'",
+          "s": "I really like it. How much is it?"
+        },
+        {
+          "p": "This T-shirt is soft and comfortable.",
+          "m": "Nói bạn muốn mua nó. Hỏi có màu đỏ không.",
+          "h": "Sử dụng 'I want to buy it.' và 'Do you have it in red?'",
+          "s": "I want to buy it. Do you have it in red?"
+        },
+        {
+          "p": "These shoes are perfect for running.",
+          "m": "Nói bạn cần những đôi giày này. Hỏi chúng có bền không.",
+          "h": "Sử dụng 'I need these shoes.' và 'Are they durable?'",
+          "s": "I need these shoes. Are they durable?"
+        },
+        {
+          "p": "This new phone is fast. It has a good camera.",
+          "m": "Nói bạn muốn mua chiếc điện thoại này. Hỏi có thể trả bằng thẻ không.",
+          "h": "Sử dụng 'I want to buy this phone.' và 'Can I pay by card?'",
+          "s": "I want to buy this phone. Can I pay by card?"
+        },
+        {
+          "p": "This big bag is good for school. It has many pockets.",
+          "m": "Nói bạn rất thích chiếc túi này. Hỏi nó có giảm giá không, vì bạn muốn mua nó.",
+          "h": "Sử dụng 'I really like this bag.' và 'Is it on sale, because I want to buy it?'",
+          "s": "I really like this bag. Is it on sale, because I want to buy it?"
+        }
+      ]
+    },
+    {
+      "t": "Hỏi về khuyến mãi hoặc giảm giá",
+      "e": [
+        {
+          "p": "This shirt is new in our store.",
+          "m": "Hỏi nó có giảm giá không.",
+          "h": "Sử dụng 'Is it on sale?'",
+          "s": "Is it on sale?"
+        },
+        {
+          "p": "These beautiful shoes are from a famous brand.",
+          "m": "Hỏi có khuyến mãi cho những đôi giày này không.",
+          "h": "Sử dụng 'Is there a promotion for these shoes?'",
+          "s": "Is there a promotion for these shoes?"
+        },
+        {
+          "p": "Our store has many good items today.",
+          "m": "Hỏi có bất kỳ giảm giá nào cho khách hàng thân thiết không. Nói bạn thường xuyên mua sắm ở đây.",
+          "h": "Sử dụng 'Is there any discount for loyal customers?' và 'I often shop here.'",
+          "s": "Is there any discount for loyal customers? I often shop here."
+        },
+        {
+          "p": "This small watch is very popular. Its price is good.",
+          "m": "Hỏi có thể giảm giá thêm một chút không. Nói bạn muốn mua nó.",
+          "h": "Sử dụng 'Can you lower the price a little?' và 'I want to buy it.'",
+          "s": "Can you lower the price a little? I want to buy it."
+        },
+        {
+          "p": "This pretty dress is 30 dollars. It is a good price.",
+          "m": "Hỏi nếu mua hai cái thì có được giảm giá không. Nói bạn thích cả hai màu.",
+          "h": "Sử dụng 'If I buy two, is there a discount?' và 'I like both colors.'",
+          "s": "If I buy two, is there a discount? I like both colors."
+        }
+      ]
+    },
+    {
+      "t": "Hỏi về địa điểm hoặc cách thức mua hàng",
+      "e": [
+        {
+          "p": "This special book is only online.",
+          "m": "Hỏi có thể mua ở cửa hàng không.",
+          "h": "Sử dụng 'Can I buy it in the store?'",
+          "s": "Can I buy it in the store?"
+        },
+        {
+          "p": "You can find this item in aisle 5.",
+          "m": "Hỏi nó ở gần khu vực nào. Nói bạn không tìm thấy nó.",
+          "h": "Sử dụng 'What is it near?' và 'I cannot find it.'",
+          "s": "What is it near? I cannot find it."
+        },
+        {
+          "p": "This big TV is heavy. Do you need help?",
+          "m": "Hỏi quầy thanh toán ở đâu. Nói bạn muốn mua nó.",
+          "h": "Sử dụng 'Where is the cashier?' và 'I want to buy it.'",
+          "s": "Where is the cashier? I want to buy it."
+        },
+        {
+          "p": "We offer home delivery for big items.",
+          "m": "Hỏi có giao hàng tận nhà không. Hỏi phí giao hàng là bao nhiêu.",
+          "h": "Sử dụng 'Do you have home delivery?' và 'How much is the delivery fee?'",
+          "s": "Do you have home delivery? How much is the delivery fee?"
+        },
+        {
+          "p": "This product is popular. You can order it online.",
+          "m": "Hỏi có thể đặt hàng trực tuyến không. Hỏi nó có miễn phí vận chuyển không.",
+          "h": "Sử dụng 'Can I order it online?' và 'Is there free shipping?'",
+          "s": "Can I order it online? Is there free shipping?"
+        }
+      ]
+    },
+    {
+      "t": "Hỏi về thời gian giao hàng/nhận hàng",
+      "e": [
+        {
+          "p": "You can pick up your order tomorrow.",
+          "m": "Hỏi có thể lấy hàng hôm nay không.",
+          "h": "Sử dụng 'Can I pick it up today?'",
+          "s": "Can I pick it up today?"
+        },
+        {
+          "p": "Your new phone will arrive next week.",
+          "m": "Hỏi nó sẽ đến vào thứ mấy. Nói bạn rất mong chờ nó.",
+          "h": "Sử dụng 'What day will it arrive?' và 'I am very excited for it.'",
+          "s": "What day will it arrive? I am very excited for it."
+        },
+        {
+          "p": "We deliver every morning, Monday to Friday.",
+          "m": "Hỏi có thể giao hàng vào thứ Bảy không. Nói bạn bận vào các ngày trong tuần.",
+          "h": "Sử dụng 'Can you deliver on Saturday?' và 'I am busy on weekdays.'",
+          "s": "Can you deliver on Saturday? I am busy on weekdays."
+        },
+        {
+          "p": "This big table takes about 3 days to deliver.",
+          "m": "Hỏi có thể nhận nó vào thứ Sáu không. Hỏi bạn có phải ở nhà không.",
+          "h": "Sử dụng 'Can I get it on Friday?' và 'Do I need to be home?'",
+          "s": "Can I get it on Friday? Do I need to be home?"
+        },
+        {
+          "p": "Your custom order will be ready in 2 weeks. It is special.",
+          "m": "Hỏi có thể hoàn thành sớm hơn không. Nói bạn cần nó cho một bữa tiệc vào tuần tới.",
+          "h": "Sử dụng 'Can it be ready earlier?' và 'I need it for a party next week.'",
+          "s": "Can it be ready earlier? I need it for a party next week."
+        }
+      ]
+    },
+    {
+      "t": "Ôn tập: Hỏi và trả lời về sản phẩm yêu thích",
+      "e": [
+        {
+          "p": "Hello! What is your favorite product in our store?",
+          "m": "Nói bạn thích một chiếc váy màu đỏ. Hỏi giá của nó.",
+          "h": "Sử dụng 'My favorite is a red dress.' và 'How much is it?'",
+          "s": "My favorite is a red dress. How much is it?"
+        },
+        {
+          "p": "This new camera is very good. Many people like it.",
+          "m": "Nói bạn thích nó. Hỏi nó có dễ sử dụng không và có màu đen không.",
+          "h": "Sử dụng 'I like it.' và 'Is it easy to use and is it black?'",
+          "s": "I like it. Is it easy to use and is it black?"
+        },
+        {
+          "p": "We have many pretty bags. Do you like this yellow one?",
+          "m": "Nói bạn thích nó, nhưng bạn cần một chiếc túi màu xanh. Hỏi có túi nhỏ hơn không.",
+          "h": "Sử dụng 'I like it, but I need a blue bag.' và 'Do you have a smaller bag?'",
+          "s": "I like it, but I need a blue bag. Do you have a smaller bag?"
+        },
+        {
+          "p": "This big table is on sale. Its price is good today.",
+          "m": "Nói bạn cần một cái bàn mới. Hỏi nó làm bằng gỗ không và có giảm giá không.",
+          "h": "Sử dụng 'I need a new table.' và 'Is it made of wood and is it on sale?'",
+          "s": "I need a new table. Is it made of wood and is it on sale?"
+        },
+        {
+          "p": "This special phone has a big screen. It is fast.",
+          "m": "Nói bạn muốn mua nó. Hỏi nó có giao hàng miễn phí không và khi nào nó sẽ đến.",
+          "h": "Sử dụng 'I want to buy it.' và 'Does it have free shipping and when will it arrive?'",
+          "s": "I want to buy it. Does it have free shipping and when will it arrive?"
+        }
+      ]
+    },
+    {
+      "t": "Ôn tập: Tình huống mua sắm thực tế",
+      "e": [
+        {
+          "p": "Good morning! Can I help you find something?",
+          "m": "Nói bạn đang tìm một chiếc áo phông màu trắng. Hỏi có size M không.",
+          "h": "Sử dụng 'I am looking for a white T-shirt.' và 'Do you have size M?'",
+          "s": "I am looking for a white T-shirt. Do you have size M?"
+        },
+        {
+          "p": "Here is a nice white T-shirt in size M. It is very soft.",
+          "m": "Nói bạn thích nó. Hỏi giá của nó và nó có dễ giặt không.",
+          "h": "Sử dụng 'I like it.' và 'How much is it and is it easy to wash?'",
+          "s": "I like it. How much is it and is it easy to wash?"
+        },
+        {
+          "p": "It is 15 dollars. Yes, it is easy to wash.",
+          "m": "Nói bạn muốn mua nó. Hỏi có chiếc áo tương tự màu đen không.",
+          "h": "Sử dụng 'I want to buy it.' và 'Do you have a similar shirt in black?'",
+          "s": "I want to buy it. Do you have a similar shirt in black?"
+        },
+        {
+          "p": "Yes, we have a black one. Do you want to try it on?",
+          "m": "Nói bạn muốn thử cả hai. Hỏi phòng thử đồ ở đâu.",
+          "h": "Sử dụng 'I want to try both.' và 'Where is the fitting room?'",
+          "s": "I want to try both. Where is the fitting room?"
+        },
+        {
+          "p": "The fitting room is over there, near the window. It is busy now.",
+          "m": "Cảm ơn người bán. Nói bạn sẽ đợi.",
+          "h": "Sử dụng 'Thank you.' và 'I will wait.'",
+          "s": "Thank you. I will wait."
+        }
+      ]
+    },
+    {
+      "t": "Ôn tập: Phản hồi và đưa ra quyết định mua",
+      "e": [
+        {
+          "p": "What do you think of this blue dress? It looks good on you.",
+          "m": "Nói bạn thích nó. Hỏi nó có giảm giá không, vì nó hơi đắt.",
+          "h": "Sử dụng 'I like it.' và 'Is it on sale, because it is a little expensive?'",
+          "s": "I like it. Is it on sale, because it is a little expensive?"
+        },
+        {
+          "p": "It is usually 50 dollars, but today it is 40 dollars. A good price!",
+          "m": "Nói bạn vẫn cần suy nghĩ. Hỏi nó có các màu khác không.",
+          "h": "Sử dụng 'I still need to think.' và 'Are there other colors?'",
+          "s": "I still need to think. Are there other colors?"
+        },
+        {
+          "p": "We also have it in green and pink. They are very pretty.",
+          "m": "Nói bạn thích màu xanh hơn. Hỏi có thể thanh toán bằng tiền mặt hoặc thẻ không.",
+          "h": "Sử dụng 'I like blue more.' và 'Can I pay by cash or card?'",
+          "s": "I like blue more. Can I pay by cash or card?"
+        },
+        {
+          "p": "You can pay by cash or card. We accept both.",
+          "m": "Nói bạn sẽ mua chiếc váy màu xanh. Hỏi có thể gói nó không.",
+          "h": "Sử dụng 'I will buy the blue dress.' và 'Can you wrap it?'",
+          "s": "I will buy the blue dress. Can you wrap it?"
+        },
+        {
+          "p": "Yes, of course! Do you need a gift box?",
+          "m": "Nói bạn cần một hộp quà. Cảm ơn người bán và nói hẹn gặp lại.",
+          "h": "Sử dụng 'Yes, I need a gift box.' và 'Thank you, see you again.'",
+          "s": "Yes, I need a gift box. Thank you, see you again."
+        }
+      ]
+    }
+  ]
+}

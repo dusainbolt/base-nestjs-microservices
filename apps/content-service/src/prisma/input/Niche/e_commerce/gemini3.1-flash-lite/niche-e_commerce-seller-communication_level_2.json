@@ -1,0 +1,530 @@
+{
+  "l": 2,
+  "d": [
+    {
+      "t": "Hỏi thăm về sản phẩm",
+      "e": [
+        {
+          "p": "Can I help you today?",
+          "m": "Nói rằng bạn đang tìm một chiếc áo sơ mi. Thêm chi tiết là bạn muốn áo màu xanh.",
+          "h": "Sử dụng: I am looking for + N; I like + Adj + N.",
+          "s": "I am looking for a shirt. I like a blue shirt."
+        },
+        {
+          "p": "This is our new shirt. Do you like it?",
+          "m": "Nói rằng bạn thích màu sắc của nó. Cho biết thêm là nó trông rất đẹp.",
+          "h": "Sử dụng: I like + N; It + be + Adj.",
+          "s": "I like the color. It is very pretty."
+        },
+        {
+          "p": "Is this size okay for you?",
+          "m": "Nói rằng áo này hơi nhỏ. Bạn cần một chiếc áo lớn hơn.",
+          "h": "Sử dụng: It + be + Adj; I need + N.",
+          "s": "It is a bit small. I need a bigger one."
+        },
+        {
+          "p": "We have many colors. Do you want to see them?",
+          "m": "Đồng ý xem các màu khác. Nói rằng bạn cũng muốn xem quần nữa.",
+          "h": "Sử dụng: Yes, I want to...; I also want + N.",
+          "s": "Yes, I want to see them. I also want to see pants."
+        },
+        {
+          "p": "Are you busy right now?",
+          "m": "Trả lời là bạn không bận. Nói rằng bạn muốn mua đồ cho [studentName].",
+          "h": "Sử dụng: I am not busy; I want to buy + N + for + O.",
+          "s": "I am not busy. I want to buy clothes for [studentName]."
+        }
+      ]
+    },
+    {
+      "t": "Thương lượng về giá cả",
+      "e": [
+        {
+          "p": "The price of this bag is fifty dollars.",
+          "m": "Hỏi giá có đắt không. Nói rằng bạn muốn giá thấp hơn.",
+          "h": "Sử dụng: Is it expensive?; I want a lower price.",
+          "s": "Is it expensive? I want a lower price."
+        },
+        {
+          "p": "How much do you want to pay?",
+          "m": "Nói rằng bạn muốn trả bốn mươi đô la. Bạn nghĩ mức giá đó hợp lý.",
+          "h": "Sử dụng: I want to pay + amount; It is + good/fair.",
+          "s": "I want to pay forty dollars. It is a good price."
+        },
+        {
+          "p": "Okay, forty dollars for the bag.",
+          "m": "Cảm ơn người bán. Nói rằng bạn sẽ lấy chiếc túi đó.",
+          "h": "Sử dụng: Thank you; I will take + N.",
+          "s": "Thank you. I will take the bag."
+        },
+        {
+          "p": "Do you need anything else?",
+          "m": "Nói rằng bạn cần một đôi giày. Bạn muốn đôi màu đen.",
+          "h": "Sử dụng: I need + N; I want + Adj + N.",
+          "s": "I need a pair of shoes. I want the black ones."
+        },
+        {
+          "p": "These shoes are twenty dollars each.",
+          "m": "Hỏi tổng số tiền cho hai đôi là bao nhiêu. Bạn định mua tặng cho [studentName].",
+          "h": "Sử dụng: How much are two pairs?; I want to buy them for [studentName].",
+          "s": "How much are two pairs? I want to buy them for [studentName]."
+        }
+      ]
+    },
+    {
+      "t": "Kiểm tra tình trạng hàng hóa",
+      "e": [
+        {
+          "p": "Do you like this hat?",
+          "m": "Nói rằng nó trông khá ổn. Bạn muốn kiểm tra bên trong mũ.",
+          "h": "Sử dụng: It looks + Adj; I want to check + N.",
+          "s": "It looks good. I want to check inside."
+        },
+        {
+          "p": "Is there a problem with the hat?",
+          "m": "Nói rằng nó hơi cũ. Bạn không thích đồ cũ.",
+          "h": "Sử dụng: It is + Adj; I do not like + N.",
+          "s": "It is a bit old. I do not like old things."
+        },
+        {
+          "p": "We have new hats over there.",
+          "m": "Cảm ơn người bán. Nói rằng bạn sẽ đi xem ngay bây giờ.",
+          "h": "Sử dụng: Thank you; I go to see + Adv.",
+          "s": "Thank you. I go to see it now."
+        },
+        {
+          "p": "Are the new hats good?",
+          "m": "Nói rằng chúng rất đẹp. Bạn muốn mua hai cái.",
+          "h": "Sử dụng: They are + Adj; I want to buy + number + N.",
+          "s": "They are very pretty. I want to buy two hats."
+        },
+        {
+          "p": "Do you need a bag for these hats?",
+          "m": "Nói rằng bạn cần một cái túi. Bạn vẫn đang đi dạo gần đây.",
+          "h": "Sử dụng: I need + N; I am walking + location.",
+          "s": "I need a bag. I am walking near here."
+        }
+      ]
+    },
+    {
+      "t": "Mua sắm quà tặng",
+      "e": [
+        {
+          "p": "What do you want to buy for your friend?",
+          "m": "Nói rằng bạn muốn mua một món quà nhỏ. Bạn thích những thứ màu đỏ.",
+          "h": "Sử dụng: I want to buy + N; I like + Adj + N.",
+          "s": "I want to buy a small gift. I like red things."
+        },
+        {
+          "p": "How about this red scarf?",
+          "m": "Nói rằng nó rất mềm. Bạn muốn biết giá của nó.",
+          "h": "Sử dụng: It is + Adj; How much is it?",
+          "s": "It is very soft. How much is it?"
+        },
+        {
+          "p": "It is ten dollars.",
+          "m": "Nói rằng giá rất rẻ. Bạn sẽ mua nó cho [studentName].",
+          "h": "Sử dụng: It is + very + Adj; I buy it for [studentName].",
+          "s": "It is very cheap. I buy it for [studentName]."
+        },
+        {
+          "p": "Do you need a card too?",
+          "m": "Nói rằng bạn cần một tấm thiệp. Bạn muốn viết lời chúc vào đó.",
+          "h": "Sử dụng: I need + N; I want to write + N.",
+          "s": "I need a card. I want to write a wish."
+        },
+        {
+          "p": "Everything is ready for you.",
+          "m": "Cảm ơn sự giúp đỡ của người bán. Bạn sẽ quay lại vào tuần tới.",
+          "h": "Sử dụng: Thank you for your help; I come back + time.",
+          "s": "Thank you for your help. I come back next week."
+        }
+      ]
+    },
+    {
+      "t": "Chọn lựa quần áo",
+      "e": [
+        {
+          "p": "This jacket is very hot for summer.",
+          "m": "Nói rằng bạn đồng ý. Bạn cần mua áo cho mùa đông.",
+          "h": "Sử dụng: I agree; I need + N + for + time.",
+          "s": "I agree. I need a jacket for winter."
+        },
+        {
+          "p": "Do you like the blue or the black one?",
+          "m": "Nói rằng bạn thích màu đen. Nó trông chuyên nghiệp hơn.",
+          "h": "Sử dụng: I like + N; It looks + Adj.",
+          "s": "I like the black one. It looks professional."
+        },
+        {
+          "p": "Is it comfortable?",
+          "m": "Nói rằng nó rất thoải mái. Bạn luôn mặc nó khi đi làm.",
+          "h": "Sử dụng: It is + Adj; I always wear it + time.",
+          "s": "It is very comfortable. I always wear it at work."
+        },
+        {
+          "p": "How many jackets do you have?",
+          "m": "Nói rằng bạn có ba cái. Bạn muốn có thêm một cái nữa.",
+          "h": "Sử dụng: I have + number + N; I want + more + N.",
+          "s": "I have three jackets. I want one more."
+        },
+        {
+          "p": "Do you want to try it on?",
+          "m": "Đồng ý thử áo. Nói rằng bạn thường thử đồ trước khi mua.",
+          "h": "Sử dụng: Yes, I do; I usually + V + before + V-ing.",
+          "s": "Yes, I do. I usually try clothes before I buy them."
+        }
+      ]
+    },
+    {
+      "t": "Mua sắm thực phẩm",
+      "e": [
+        {
+          "p": "Are you hungry?",
+          "m": "Nói rằng bạn rất đói. Bạn cần mua một ít trái cây.",
+          "h": "Sử dụng: Yes, I am + Adj; I need to buy + N.",
+          "s": "Yes, I am hungry. I need to buy some fruit."
+        },
+        {
+          "p": "We have fresh apples and bananas.",
+          "m": "Nói rằng bạn muốn táo. Bạn thường ăn táo vào mỗi buổi sáng.",
+          "h": "Sử dụng: I want + N; I often + V + N + time.",
+          "s": "I want apples. I often eat apples every morning."
+        },
+        {
+          "p": "How many apples do you need?",
+          "m": "Nói rằng bạn cần năm quả. Chúng trông rất ngon.",
+          "h": "Sử dụng: I need + number + N; They are + Adj.",
+          "s": "I need five apples. They are very delicious."
+        },
+        {
+          "p": "Is there anything else?",
+          "m": "Nói rằng bạn cũng cần sữa. Bạn uống sữa mỗi tối.",
+          "h": "Sử dụng: I also need + N; I drink + N + time.",
+          "s": "I also need milk. I drink milk every night."
+        },
+        {
+          "p": "Here is your food. It is five dollars.",
+          "m": "Cảm ơn người bán. Bạn sẽ trả tiền ngay bây giờ.",
+          "h": "Sử dụng: Thank you; I pay + time.",
+          "s": "Thank you. I pay now."
+        }
+      ]
+    },
+    {
+      "t": "Tìm kiếm đồ dùng học tập",
+      "e": [
+        {
+          "p": "Are you a student?",
+          "m": "Nói rằng bạn đang học tại [studentSchool]. Bạn là sinh viên năm nhất.",
+          "h": "Sử dụng: I study at + N; I am a student.",
+          "s": "I study at [studentSchool]. I am a student."
+        },
+        {
+          "p": "What do you need for school?",
+          "m": "Nói rằng bạn cần bút và giấy. Bạn luôn làm bài tập mỗi ngày.",
+          "h": "Sử dụng: I need + N; I always + V + N + time.",
+          "s": "I need pens and paper. I always do homework every day."
+        },
+        {
+          "p": "These pens are blue and black.",
+          "m": "Nói rằng bạn thích cả hai màu. Bạn mua chúng cho [studentName].",
+          "h": "Sử dụng: I like + N; I buy them for + O.",
+          "s": "I like both colors. I buy them for [studentName]."
+        },
+        {
+          "p": "Do you need a notebook too?",
+          "m": "Nói rằng bạn còn hai quyển vở. Bạn chưa cần mua thêm.",
+          "h": "Sử dụng: I have + number + N; I do not need + N.",
+          "s": "I have two notebooks. I do not need more."
+        },
+        {
+          "p": "Are you busy today?",
+          "m": "Nói rằng bạn rất bận. Bạn phải về nhà ngay bây giờ.",
+          "h": "Sử dụng: I am + Adj; I must + V + time.",
+          "s": "I am very busy. I must go home now."
+        }
+      ]
+    },
+    {
+      "t": "Mua sắm vào cuối tuần",
+      "e": [
+        {
+          "p": "Do you often go shopping?",
+          "m": "Nói rằng bạn thường đi mua sắm vào cuối tuần. Bạn cảm thấy vui khi đi mua sắm.",
+          "h": "Sử dụng: I often + V + time; I feel + Adj.",
+          "s": "I often go shopping on weekends. I feel happy."
+        },
+        {
+          "p": "What do you buy today?",
+          "m": "Nói rằng bạn mua giày mới. Chúng màu trắng và rất đẹp.",
+          "h": "Sử dụng: I buy + N; They are + Adj.",
+          "s": "I buy new shoes. They are white and pretty."
+        },
+        {
+          "p": "Do you like white shoes?",
+          "m": "Nói rằng bạn rất thích chúng. Bạn thường mang giày trắng khi đi chơi.",
+          "h": "Sử dụng: I love + N; I often + V + N + time.",
+          "s": "I love them. I often wear white shoes when I go out."
+        },
+        {
+          "p": "Are there many people here?",
+          "m": "Nói rằng có nhiều người ở đây. Họ đang mua quà cho gia đình.",
+          "h": "Sử dụng: There are + number + N; They are + V-ing.",
+          "s": "There are many people here. They are buying gifts for family."
+        },
+        {
+          "p": "Do you still want to look around?",
+          "m": "Nói rằng bạn vẫn muốn xem thêm. Bạn đang tìm một chiếc đồng hồ.",
+          "h": "Sử dụng: I still + V + more; I am + V-ing + N.",
+          "s": "I still want to look more. I am looking for a watch."
+        }
+      ]
+    },
+    {
+      "t": "Hỏi thông tin sản phẩm chi tiết",
+      "e": [
+        {
+          "p": "Is this camera new?",
+          "m": "Nói rằng nó là sản phẩm mới. Bạn muốn chụp hình đẹp.",
+          "h": "Sử dụng: It is + N; I want to + V.",
+          "s": "It is a new product. I want to take good photos."
+        },
+        {
+          "p": "Do you know how to use it?",
+          "m": "Nói rằng bạn chưa biết cách dùng. Bạn muốn người bán giúp đỡ.",
+          "h": "Sử dụng: I do not know + to V; I need + O + to V.",
+          "s": "I do not know how to use it. I need your help."
+        },
+        {
+          "p": "It is easy. Do you want to try?",
+          "m": "Đồng ý thử ngay. Nó thật sự dễ dùng.",
+          "h": "Sử dụng: I want to try; It is + Adj.",
+          "s": "I want to try now. It is easy."
+        },
+        {
+          "p": "What do you think about the price?",
+          "m": "Nói rằng giá hơi cao. Bạn không thể mua nó hôm nay.",
+          "h": "Sử dụng: It is + Adj; I cannot + V.",
+          "s": "It is a bit high. I cannot buy it today."
+        },
+        {
+          "p": "Will you come back next week?",
+          "m": "Nói rằng bạn sẽ quay lại. Bạn cần suy nghĩ thêm về nó.",
+          "h": "Sử dụng: I will + V; I need to + V.",
+          "s": "I will come back next week. I need to think more."
+        }
+      ]
+    },
+    {
+      "t": "Thảo luận về dịch vụ khách hàng",
+      "e": [
+        {
+          "p": "How is the service here?",
+          "m": "Nói rằng dịch vụ rất tốt. Người bán rất thân thiện.",
+          "h": "Sử dụng: It is + Adj; The seller is + Adj.",
+          "s": "The service is good. The seller is friendly."
+        },
+        {
+          "p": "Do you need any help with your bag?",
+          "m": "Cảm ơn người bán. Bạn có thể tự làm được.",
+          "h": "Sử dụng: Thank you; I can + V.",
+          "s": "Thank you. I can do it myself."
+        },
+        {
+          "p": "Is the store near your home?",
+          "m": "Nói rằng nó gần nhà bạn. Bạn thường đến đây mỗi tuần.",
+          "h": "Sử dụng: It is + near + N; I often + V + time.",
+          "s": "It is near my home. I often come here every week."
+        },
+        {
+          "p": "Are you still happy with the shoes?",
+          "m": "Nói rằng bạn rất hạnh phúc. Chúng rất vừa vặn.",
+          "h": "Sử dụng: I am + Adj; They are + Adj.",
+          "s": "I am very happy. They are very comfortable."
+        },
+        {
+          "p": "Do you want to see other things?",
+          "m": "Nói rằng bạn không cần thêm gì. Bạn muốn về nhà.",
+          "h": "Sử dụng: I do not need + N; I want to + V.",
+          "s": "I do not need anything. I want to go home."
+        }
+      ]
+    },
+    {
+      "t": "Mua sắm đồ gia dụng",
+      "e": [
+        {
+          "p": "Do you need a lamp for your house?",
+          "m": "Nói rằng bạn cần một cái đèn. Phòng của bạn hơi tối.",
+          "h": "Sử dụng: I need + N; My room is + Adj.",
+          "s": "I need a lamp. My room is a bit dark."
+        },
+        {
+          "p": "This lamp is small and pretty.",
+          "m": "Nói rằng nó hoàn hảo. Bạn muốn mua nó cho bàn học.",
+          "h": "Sử dụng: It is + Adj; I want to buy it for + N.",
+          "s": "It is perfect. I want to buy it for my desk."
+        },
+        {
+          "p": "How is the light?",
+          "m": "Nói rằng ánh sáng rất tốt. Bạn cảm thấy dễ chịu khi học.",
+          "h": "Sử dụng: It is + Adj; I feel + Adj.",
+          "s": "The light is good. I feel comfortable."
+        },
+        {
+          "p": "Do you need batteries?",
+          "m": "Nói rằng bạn không cần. Bạn có pin ở nhà rồi.",
+          "h": "Sử dụng: I do not need + N; I have + N.",
+          "s": "I do not need them. I have batteries at home."
+        },
+        {
+          "p": "Anything else for your house?",
+          "m": "Nói rằng bạn cần một cái cốc. Bạn thích cái màu trắng.",
+          "h": "Sử dụng: I need + N; I like + Adj + N.",
+          "s": "I need a cup. I like the white one."
+        }
+      ]
+    },
+    {
+      "t": "Mua đồ cho thú cưng",
+      "e": [
+        {
+          "p": "Do you have a pet?",
+          "m": "Nói rằng bạn có một con chó. Nó rất dễ thương và thông minh.",
+          "h": "Sử dụng: I have + N; It is + Adj.",
+          "s": "I have a dog. It is cute and smart."
+        },
+        {
+          "p": "What does your dog like to eat?",
+          "m": "Nói rằng nó thích ăn thịt. Bạn thường cho nó ăn mỗi sáng.",
+          "h": "Sử dụng: It likes to + V; I often + V + it + time.",
+          "s": "It likes to eat meat. I often feed it every morning."
+        },
+        {
+          "p": "We have special food for dogs.",
+          "m": "Nói rằng bạn muốn mua một túi lớn. Nó rất quan trọng với con chó.",
+          "h": "Sử dụng: I want to buy + Adj + N; It is + Adj.",
+          "s": "I want to buy a big bag. It is important for my dog."
+        },
+        {
+          "p": "Is your dog big or small?",
+          "m": "Nói rằng nó khá lớn. Bạn thường đi dạo cùng nó.",
+          "h": "Sử dụng: It is + Adj; I often + V + with it.",
+          "s": "It is quite big. I often walk with it."
+        },
+        {
+          "p": "Do you need a toy for it?",
+          "m": "Nói rằng đó là ý tưởng hay. Bạn sẽ mua một cái bóng.",
+          "h": "Sử dụng: It is + a + good + idea; I will buy + N.",
+          "s": "It is a good idea. I will buy a ball."
+        }
+      ]
+    },
+    {
+      "t": "Ôn tập: Mua sắm quần áo",
+      "e": [
+        {
+          "p": "What are you looking for today?",
+          "m": "Nói rằng bạn muốn tìm một chiếc váy. Bạn thích màu xanh nhạt.",
+          "h": "Sử dụng: I am looking for + N; I like + Adj + N.",
+          "s": "I am looking for a dress. I like light blue."
+        },
+        {
+          "p": "This dress is on sale. Do you like it?",
+          "m": "Nói rằng nó rất đẹp. Bạn muốn thử nó trước.",
+          "h": "Sử dụng: It is + Adj; I want to + V.",
+          "s": "It is very pretty. I want to try it first."
+        },
+        {
+          "p": "How is the size?",
+          "m": "Nói rằng nó hơi dài. Bạn cần một cái ngắn hơn.",
+          "h": "Sử dụng: It is + Adj; I need + N.",
+          "s": "It is a bit long. I need a shorter one."
+        },
+        {
+          "p": "Do you need anything to match the dress?",
+          "m": "Nói rằng bạn cần một đôi giày. Chúng nên cùng màu với váy.",
+          "h": "Sử dụng: I need + N; They should be + Adj.",
+          "s": "I need shoes. They should be the same color."
+        },
+        {
+          "p": "You look great in these.",
+          "m": "Cảm ơn lời khen của người bán. Bạn sẽ mua chúng ngay bây giờ.",
+          "h": "Sử dụng: Thank you; I will + V.",
+          "s": "Thank you. I will buy them now."
+        }
+      ]
+    },
+    {
+      "t": "Ôn tập: Mua sắm nhu yếu phẩm",
+      "e": [
+        {
+          "p": "Are you busy with your shopping?",
+          "m": "Nói rằng bạn đang bận mua đồ cho nhà. Bạn cần mua nhiều thứ.",
+          "h": "Sử dụng: I am busy + V-ing; I need to + V.",
+          "s": "I am busy buying things for my house. I need to buy many things."
+        },
+        {
+          "p": "What do you need first?",
+          "m": "Nói rằng bạn cần trái cây trước. Sau đó bạn cần sữa.",
+          "h": "Sử dụng: I need + N + first; Then I need + N.",
+          "s": "I need fruit first. Then I need milk."
+        },
+        {
+          "p": "Are you buying for [studentName]?",
+          "m": "Nói rằng bạn mua cho [studentName]. Người đó rất thích ăn táo.",
+          "h": "Sử dụng: I buy for [studentName]; He/She likes + V-ing.",
+          "s": "I buy for [studentName]. He likes eating apples."
+        },
+        {
+          "p": "How much money do you have?",
+          "m": "Nói rằng bạn có hai mươi đô la. Bạn hy vọng nó đủ.",
+          "h": "Sử dụng: I have + amount; I hope + clause.",
+          "s": "I have twenty dollars. I hope it is enough."
+        },
+        {
+          "p": "Do you need a ride home?",
+          "m": "Cảm ơn người bán. Bạn sẽ đi bộ về nhà.",
+          "h": "Sử dụng: Thank you; I walk + to + location.",
+          "s": "Thank you. I walk home."
+        }
+      ]
+    },
+    {
+      "t": "Ôn tập: Giao tiếp tại cửa hàng",
+      "e": [
+        {
+          "p": "Is this your first time here?",
+          "m": "Nói rằng đây là lần đầu tiên bạn đến. Cửa hàng rất đẹp.",
+          "h": "Sử dụng: It is my first time; The shop is + Adj.",
+          "s": "It is my first time. The shop is very pretty."
+        },
+        {
+          "p": "Do you enjoy looking around?",
+          "m": "Nói rằng bạn rất thích. Bạn thấy nhiều đồ vật thú vị.",
+          "h": "Sử dụng: I enjoy it; I see + number + N.",
+          "s": "I enjoy it. I see many interesting things."
+        },
+        {
+          "p": "Can I show you some bags?",
+          "m": "Đồng ý xem túi. Bạn cần một cái túi lớn.",
+          "h": "Sử dụng: Yes, please; I need + N.",
+          "s": "Yes, please. I need a big bag."
+        },
+        {
+          "p": "Do you like this leather bag?",
+          "m": "Nói rằng nó rất tốt. Nhưng nó hơi đắt với bạn.",
+          "h": "Sử dụng: It is + Adj; But it is + Adj.",
+          "s": "It is very good. But it is a bit expensive for me."
+        },
+        {
+          "p": "Are you going to buy it?",
+          "m": "Nói rằng bạn sẽ suy nghĩ. Bạn sẽ quay lại sau.",
+          "h": "Sử dụng: I will think; I come back + time.",
+          "s": "I will think. I come back later."
+        }
+      ]
+    }
+  ]
+}

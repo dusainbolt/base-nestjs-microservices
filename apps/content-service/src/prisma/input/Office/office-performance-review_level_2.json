@@ -1,0 +1,534 @@
+{
+  "l": {
+    "lvl": 2,
+    "code": "ELEMENTARY",
+    "desc": "2 câu đơn liên tiếp, có liên kết cơ bản"
+  },
+  "d": [
+    {
+      "t": "Gặp sếp lần đầu",
+      "e": [
+        {
+          "p": "What is your job here?",
+          "m": "1) Nói nghề của bạn (1 câu). 2) Nói bạn làm gì hàng ngày (1 câu).",
+          "h": "Dùng 'I am' và 'I + V(s/es)'.",
+          "s": "I am a sales assistant. I answer calls and help customers."
+        },
+        {
+          "p": "Where do you work in the office?",
+          "m": "1) Nói vị trí chỗ bạn làm việc (1 câu). 2) Nói một việc bạn làm ở đó (1 câu).",
+          "h": "Dùng 'I work' và 'I + V'.",
+          "s": "I work at the front desk. I greet guests and give information."
+        },
+        {
+          "p": "How many days do you work each week?",
+          "m": "1) Nói số ngày bạn làm việc (1 câu). 2) Nói bạn có nghỉ cuối tuần không (1 câu).",
+          "h": "Dùng số + 'days' và 'I usually/never'.",
+          "s": "I work five days a week. I usually rest on Saturday and Sunday."
+        },
+        {
+          "p": "What time do you start work?",
+          "m": "1) Nói giờ bạn bắt đầu (1 câu). 2) Nói bạn làm gì lúc đầu ca (1 câu).",
+          "h": "Dùng 'I start at ...' và 'I + V'.",
+          "s": "I start at eight o'clock. I check my email and plan my tasks."
+        },
+        {
+          "p": "Do you like your job so far?",
+          "m": "1) Nói bạn có thích công việc không (1 câu). 2) Nói lý do đơn giản (1 câu).",
+          "h": "Dùng 'I like' hoặc 'I don't like' + lý do ngắn.",
+          "s": "I like my job. I enjoy helping customers and my team."
+        }
+      ]
+    },
+    {
+      "t": "Nói về điểm mạnh",
+      "e": [
+        {
+          "p": "What are you good at?",
+          "m": "1) Nêu một điểm mạnh chính (1 câu). 2) Nói ví dụ bạn dùng điểm đó ở chỗ làm (1 câu).",
+          "h": "Dùng 'I am good at' và 'I + V'.",
+          "s": "I am good at organizing. I keep files and schedules tidy."
+        },
+        {
+          "p": "Do you work fast or slow?",
+          "m": "1) Nói bạn làm việc nhanh hay chậm (1 câu). 2) Nêu lợi ích cho công ty (1 câu).",
+          "h": "Dùng 'I work fast/often' và 'It helps/This helps'.",
+          "s": "I work fast. It helps the team finish tasks on time."
+        },
+        {
+          "p": "Are you good with customers?",
+          "m": "1) Trả lời có/không (1 câu). 2) Nói cách bạn giúp khách (1 câu).",
+          "h": "Dùng 'Yes, I am' hoặc 'No, I am not' và 'I + V'.",
+          "s": "Yes, I am good with customers. I listen and talk politely."
+        },
+        {
+          "p": "What skill makes you happy at work?",
+          "m": "1) Nêu một kỹ năng bạn thích (1 câu). 2) Nói bạn làm kỹ năng đó khi nào (1 câu).",
+          "h": "Dùng 'I like' và 'I often/usually + V'.",
+          "s": "I like planning. I plan the day's tasks every morning."
+        },
+        {
+          "p": "How do you help the team?",
+          "m": "1) Nói một việc bạn làm cho nhóm (1 câu). 2) Nói tần suất bạn làm việc đó (1 câu).",
+          "h": "Dùng 'I help' và trạng từ tần suất (always/often/sometimes).",
+          "s": "I help with reports. I often complete them before the meeting."
+        }
+      ]
+    },
+    {
+      "t": "Nói về điểm yếu",
+      "e": [
+        {
+          "p": "Is there something you find hard at work?",
+          "m": "1) Nói một điều bạn thấy khó (1 câu). 2) Nói bạn làm gì để cải thiện (1 câu).",
+          "h": "Dùng 'I find' và 'I try to' hoặc 'I practice'.",
+          "s": "I find speaking in meetings hard. I try to speak one sentence each meeting."
+        },
+        {
+          "p": "Do you make mistakes sometimes?",
+          "m": "1) Trả lời có/không (1 câu). 2) Nói bạn làm gì sau khi sai (1 câu).",
+          "h": "Dùng 'Yes, I do' hoặc 'No, I don't' và 'I + V'.",
+          "s": "Yes, I make mistakes sometimes. I check my work and fix errors."
+        },
+        {
+          "p": "Are you late often?",
+          "m": "1) Nói bạn có đến muộn thường không (1 câu). 2) Nói bạn làm gì để đúng giờ (1 câu).",
+          "h": "Dùng 'I am' hoặc 'I am not' và 'I + V'.",
+          "s": "I am sometimes late. I set my alarm earlier to come on time."
+        },
+        {
+          "p": "Do you feel tired at work?",
+          "m": "1) Nói có/không (1 câu). 2) Nói cách bạn nghỉ ngơi nhanh ở chỗ làm (1 câu).",
+          "h": "Dùng 'I feel' và 'I + V'.",
+          "s": "Yes, I feel tired after lunch. I take a short walk and drink water."
+        },
+        {
+          "p": "Is learning new tools easy for you?",
+          "m": "1) Nói bạn có thấy dễ không (1 câu). 2) Nói bạn học công cụ mới thế nào (1 câu).",
+          "h": "Dùng 'I find' và 'I learn by + V-ing' hoặc 'I practice'.",
+          "s": "I find new tools a bit hard. I learn by watching and practicing."
+        }
+      ]
+    },
+    {
+      "t": "Mô tả công việc hàng ngày",
+      "e": [
+        {
+          "p": "What is your usual morning routine at work?",
+          "m": "1) Nói một việc bạn làm buổi sáng (1 câu). 2) Nói việc tiếp theo bạn làm (1 câu).",
+          "h": "Dùng 'I usually' và 'then I ...'.",
+          "s": "I usually check emails first. Then I make a task list."
+        },
+        {
+          "p": "Do you often use computer at work?",
+          "m": "1) Trả lời có/không (1 câu). 2) Nói bạn dùng computer để làm gì (1 câu).",
+          "h": "Dùng 'Yes, I do' và 'I use it to ...'.",
+          "s": "Yes, I do. I use it to write reports and send emails."
+        },
+        {
+          "p": "How many small tasks do you do each day?",
+          "m": "1) Nói số lượng đơn giản (1 câu). 2) Nói bạn xếp ưu tiên như nào (1 câu).",
+          "h": "Dùng số + 'tasks' và 'I first/then'.",
+          "s": "I do about five small tasks each day. I do urgent ones first."
+        },
+        {
+          "p": "What do you do after lunch?",
+          "m": "1) Nói một việc bạn làm sau bữa trưa (1 câu). 2) Nói bạn có nghỉ ngơi hay không (1 câu).",
+          "h": "Dùng 'I usually' và 'I sometimes'.",
+          "s": "I usually continue my work. I sometimes take a short break."
+        },
+        {
+          "p": "Do you plan your day?",
+          "m": "1) Trả lời có/không (1 câu). 2) Nói cách bạn lên kế hoạch ngắn (1 câu).",
+          "h": "Dùng 'Yes, I do' và 'I make a simple list' hoặc 'I check my calendar'.",
+          "s": "Yes, I do. I make a short list and check my calendar."
+        }
+      ]
+    },
+    {
+      "t": "Thói quen làm việc",
+      "e": [
+        {
+          "p": "Do you work alone or with others?",
+          "m": "1) Nói bạn làm một mình hay cùng nhóm (1 câu). 2) Nói bạn thích cách nào (1 câu).",
+          "h": "Dùng 'I work alone/with others' và 'I like'.",
+          "s": "I work with others. I like team work because it is fun."
+        },
+        {
+          "p": "How often do you check email?",
+          "m": "1) Nói tần suất kiểm tra email (1 câu). 2) Nói bạn trả lời nhanh hay chậm (1 câu).",
+          "h": "Dùng 'I usually/often/always' và 'I reply quickly/slowly'.",
+          "s": "I check email often. I reply quickly to important messages."
+        },
+        {
+          "p": "Do you make a to-do list?",
+          "m": "1) Trả lời có/không (1 câu). 2) Nói bạn dùng list để làm gì (1 câu).",
+          "h": "Dùng 'Yes, I do' hoặc 'No, I don't' và 'I use it to ...'.",
+          "s": "Yes, I do. I use the list to finish tasks one by one."
+        },
+        {
+          "p": "Are you usually busy at noon?",
+          "m": "1) Nói bạn có bận trưa không (1 câu). 2) Nói bạn ăn trưa thế nào (1 câu).",
+          "h": "Dùng 'I am usually' và 'I + V'.",
+          "s": "I am usually busy at noon. I eat a quick lunch at my desk."
+        },
+        {
+          "p": "Do you check work with your boss?",
+          "m": "1) Nói bạn có kiểm tra với sếp không (1 câu). 2) Nói khi nào bạn hỏi sếp (1 câu).",
+          "h": "Dùng 'I check' và 'I ask when/if'.",
+          "s": "Yes, I check with my boss. I ask at the end of the day or when I am unsure."
+        }
+      ]
+    },
+    {
+      "t": "Làm việc nhóm nhỏ",
+      "e": [
+        {
+          "p": "Who do you work with most?",
+          "m": "1) Nêu một đồng nghiệp bạn làm việc cùng (1 câu). 2) Nói bạn làm gì cùng họ (1 câu).",
+          "h": "Dùng 'I work with' và 'We + V'.",
+          "s": "I work with Anna from sales. We prepare customer lists together."
+        },
+        {
+          "p": "Do you help your team often?",
+          "m": "1) Trả lời có/không (1 câu). 2) Nói một việc bạn giúp (1 câu).",
+          "h": "Dùng 'Yes, I do' và 'I help by ...'.",
+          "s": "Yes, I do. I help by making simple reports and sharing information."
+        },
+        {
+          "p": "How do you share tasks in the team?",
+          "m": "1) Nói cách chia việc đơn giản (1 câu). 2) Nói bạn thường làm phần nào (1 câu).",
+          "h": "Dùng 'We divide' và 'I usually ...'.",
+          "s": "We divide tasks by skill. I usually do data and emails."
+        },
+        {
+          "p": "Do you always finish your part on time?",
+          "m": "1) Trả lời có/không (1 câu). 2) Nói bạn làm gì nếu muộn (1 câu).",
+          "h": "Dùng 'I always' hoặc 'I sometimes' và 'I + V'.",
+          "s": "I usually finish on time. If I am late, I tell the team and finish faster."
+        },
+        {
+          "p": "What makes teamwork easy for you?",
+          "m": "1) Nói một điều giúp nhóm dễ làm việc (1 câu). 2) Nói bạn làm gì để giúp điều đó (1 câu).",
+          "h": "Dùng 'Good communication' đơn giản hoặc 'We share' và 'I + V'.",
+          "s": "Clear messages make teamwork easy. I write short notes and call if needed."
+        }
+      ]
+    },
+    {
+      "t": "Giờ giấc và tính đúng giờ",
+      "e": [
+        {
+          "p": "Do you arrive on time every day?",
+          "m": "1) Trả lời có/không (1 câu). 2) Nói cách bạn đến đúng giờ (1 câu).",
+          "h": "Dùng 'Yes, I do' hoặc 'No, I don't' và 'I + V'.",
+          "s": "Yes, I do. I leave home early to avoid traffic."
+        },
+        {
+          "p": "What time do you finish work?",
+          "m": "1) Nói giờ bạn tan làm (1 câu). 2) Nói bạn có làm thêm giờ không (1 câu).",
+          "h": "Dùng 'I finish at ...' và 'I sometimes/never/always'.",
+          "s": "I finish at five o'clock. I sometimes stay late to finish tasks."
+        },
+        {
+          "p": "Do you take long breaks?",
+          "m": "1) Nói bạn có nghỉ lâu không (1 câu). 2) Nói bạn làm gì trong break (1 câu).",
+          "h": "Dùng 'I take short/long breaks' và 'I + V'.",
+          "s": "I take short breaks. I drink water and walk for five minutes."
+        },
+        {
+          "p": "How do you plan your day to be on time?",
+          "m": "1) Nói một bước bạn làm (1 câu). 2) Nói bạn kiểm tra gì trước khi đi về (1 câu).",
+          "h": "Dùng 'I plan' và 'I check'.",
+          "s": "I plan tasks with time for each. I check my list before I leave."
+        },
+        {
+          "p": "Does punctuality help the company?",
+          "m": "1) Nói bạn có nghĩ đúng giờ quan trọng không (1 câu). 2) Nói lý do ngắn (1 câu).",
+          "h": "Dùng 'Yes, it does' hoặc 'No, it doesn't' và 'Because ...'.",
+          "s": "Yes, it does. Because meetings start on time and work is faster."
+        }
+      ]
+    },
+    {
+      "t": "Học kỹ năng mới",
+      "e": [
+        {
+          "p": "Do you learn new things at work?",
+          "m": "1) Trả lời có/không (1 câu). 2) Nói một việc bạn học gần đây (1 câu).",
+          "h": "Dùng 'Yes, I do' và 'I learned/I am learning'.",
+          "s": "Yes, I do. I learned a new computer program last week."
+        },
+        {
+          "p": "How do you practice a new skill?",
+          "m": "1) Nói cách bạn luyện (1 câu). 2) Nói bạn luyện khi nào (1 câu).",
+          "h": "Dùng 'I practice by' và 'I practice after/at ...'.",
+          "s": "I practice by repeating tasks. I practice after work for 30 minutes."
+        },
+        {
+          "p": "Do you ask for help when you learn?",
+          "m": "1) Trả lời có/không (1 câu). 2) Nói ai bạn hỏi (1 câu).",
+          "h": "Dùng 'Yes, I do' và 'I ask my colleague/boss'.",
+          "s": "Yes, I do. I ask my colleague who knows the tool."
+        },
+        {
+          "p": "What new skill will you try next month?",
+          "m": "1) Nói một kỹ năng đơn giản bạn muốn học (1 câu). 2) Nói lý do ngắn (1 câu).",
+          "h": "Dùng 'I will try' và 'Because ...'.",
+          "s": "I will try to learn simple Excel. Because it helps me make better lists."
+        },
+        {
+          "p": "Do you feel happy when you learn?",
+          "m": "1) Nói cảm giác của bạn (1 câu). 2) Nói bạn làm gì khi vui (1 câu).",
+          "h": "Dùng 'I feel' và 'I + V'.",
+          "s": "I feel happy when I learn. I share new tips with my team."
+        }
+      ]
+    },
+    {
+      "t": "Giải quyết vấn đề đơn giản",
+      "e": [
+        {
+          "p": "What do you do if a task is unclear?",
+          "m": "1) Nói bạn làm gì đầu tiên (1 câu). 2) Nói bạn hỏi ai (1 câu).",
+          "h": "Dùng 'I ask' và 'I check with'.",
+          "s": "I ask for more details. I check with my boss or a colleague."
+        },
+        {
+          "p": "If equipment breaks, what do you do?",
+          "m": "1) Nói bước bạn làm (1 câu). 2) Nói bạn báo cho ai (1 câu).",
+          "h": "Dùng 'I stop' và 'I tell'.",
+          "s": "I stop using the equipment. I tell the technician or my boss."
+        },
+        {
+          "p": "A customer is angry. How do you reply?",
+          "m": "1) Nói một câu để an ủi (1 câu). 2) Nói bạn làm gì sau đó (1 câu).",
+          "h": "Dùng 'I am sorry' và 'I will/then I ...'.",
+          "s": "I am sorry and I listen to the problem. Then I offer a simple solution."
+        },
+        {
+          "p": "If you are confused with new instructions, what do you do?",
+          "m": "1) Nói bạn làm gì ngay (1 câu). 2) Nói bạn ghi chú hay không (1 câu).",
+          "h": "Dùng 'I ask' và 'I write notes' / 'I do not'.",
+          "s": "I ask for examples. I write short notes to remember."
+        },
+        {
+          "p": "Do you fix small errors yourself?",
+          "m": "1) Trả lời có/không (1 câu). 2) Nói ví dụ một lỗi nhỏ bạn sửa (1 câu).",
+          "h": "Dùng 'Yes, I do' / 'No, I don't' và 'I + V'.",
+          "s": "Yes, I do. I fix small typos in reports and send the update."
+        }
+      ]
+    },
+    {
+      "t": "Giúp đồng nghiệp",
+      "e": [
+        {
+          "p": "Do you help new colleagues?",
+          "m": "1) Trả lời có/không (1 câu). 2) Nói việc bạn làm để giúp (1 câu).",
+          "h": "Dùng 'Yes, I do' và 'I show/teach'.",
+          "s": "Yes, I do. I show them how to use our system."
+        },
+        {
+          "p": "How do you share simple tips?",
+          "m": "1) Nói cách bạn chia sẻ (1 câu). 2) Nói bạn làm điều đó bao lâu một lần (1 câu).",
+          "h": "Dùng 'I share' và 'I often/sometimes'.",
+          "s": "I share tips in short messages. I often share one tip each week."
+        },
+        {
+          "p": "A colleague is busy. Do you help?",
+          "m": "1) Trả lời có/không (1 câu). 2) Nói việc bạn có thể làm giúp (1 câu).",
+          "h": "Dùng 'Yes, I do' và 'I can ...'.",
+          "s": "Yes, I do. I can help with small tasks like sending emails."
+        },
+        {
+          "p": "Do you give feedback kindly?",
+          "m": "1) Trả lời có/không (1 câu). 2) Nói cách bạn nói nhẹ nhàng (1 câu).",
+          "h": "Dùng 'Yes, I do' và 'I say ...' hoặc 'I suggest ...'.",
+          "s": "Yes, I do. I say nice things first and then suggest small changes."
+        },
+        {
+          "p": "What small thing do you do to make work easy for others?",
+          "m": "1) Nói một việc nhỏ bạn làm (1 câu). 2) Nói tần suất bạn làm việc đó (1 câu).",
+          "h": "Dùng 'I help by' và 'I always/often/sometimes'.",
+          "s": "I help by keeping shared files tidy. I always update them each day."
+        }
+      ]
+    },
+    {
+      "t": "Kết quả dự án nhỏ",
+      "e": [
+        {
+          "p": "Did your small project finish?",
+          "m": "1) Trả lời có/không (1 câu). 2) Nói kết quả đơn giản (1 câu).",
+          "h": "Dùng 'Yes, it did' / 'No, it did not' và 'It was ...' or 'We did ...'.",
+          "s": "Yes, it did. We finished the report and sent it to the client."
+        },
+        {
+          "p": "What part did you do in the project?",
+          "m": "1) Nêu phần bạn làm (1 câu). 2) Nói bạn làm phần đó thế nào (1 câu).",
+          "h": "Dùng 'I did' và 'I did it by ...'.",
+          "s": "I did the data work. I checked numbers and made a simple chart."
+        },
+        {
+          "p": "Was the team happy with the result?",
+          "m": "1) Trả lời có/không (1 câu). 2) Nói lý do ngắn (1 câu).",
+          "h": "Dùng 'Yes, we were' / 'No, we were not' và 'Because ...'.",
+          "s": "Yes, we were happy. Because the client liked the clear report."
+        },
+        {
+          "p": "Do you think your work helped the project?",
+          "m": "1) Trả lời có/không (1 câu). 2) Nói ví dụ bạn giúp (1 câu).",
+          "h": "Dùng 'Yes, it did' và 'I helped by ...'.",
+          "s": "Yes, it did. I helped by fixing wrong numbers quickly."
+        },
+        {
+          "p": "What will you do next time to make it better?",
+          "m": "1) Nói một việc bạn sẽ làm (1 câu). 2) Nói lý do ngắn (1 câu).",
+          "h": "Dùng 'I will' và 'Because ...'.",
+          "s": "I will check files earlier. Because early checks find mistakes fast."
+        }
+      ]
+    },
+    {
+      "t": "Kế hoạch tuần sau",
+      "e": [
+        {
+          "p": "What is your plan for next week?",
+          "m": "1) Nói một nhiệm vụ chính (1 câu). 2) Nói khi bạn làm nó (1 câu).",
+          "h": "Dùng 'I will' và 'on Monday/Tuesday...' hoặc 'in the morning'.",
+          "s": "I will finish the monthly report. I will do it on Monday morning."
+        },
+        {
+          "p": "Do you plan to learn something next week?",
+          "m": "1) Trả lời có/không (1 câu). 2) Nói bạn học gì (1 câu).",
+          "h": "Dùng 'Yes, I will' hoặc 'No, I won't' và 'I will learn ...'.",
+          "s": "Yes, I will. I will learn one new short computer skill."
+        },
+        {
+          "p": "Will you help a colleague next week?",
+          "m": "1) Trả lời có/không (1 câu). 2) Nói bạn giúp gì (1 câu).",
+          "h": "Dùng 'Yes, I will' và 'I will help by ...'.",
+          "s": "Yes, I will. I will help with email replies during Tuesday."
+        },
+        {
+          "p": "How often will you check progress next week?",
+          "m": "1) Nói tần suất kiểm tra (1 câu). 2) Nói bạn kiểm tra bằng cách nào (1 câu).",
+          "h": "Dùng 'I will check daily/weekly' và 'by ...'.",
+          "s": "I will check daily. I will check with short messages and notes."
+        },
+        {
+          "p": "Is there a meeting next week?",
+          "m": "1) Trả lời có/không (1 câu). 2) Nói khi nào hoặc mục đích ngắn (1 câu).",
+          "h": "Dùng 'Yes, there is' hoặc 'No, there is not' và 'on ...' hoặc 'to ...'.",
+          "s": "Yes, there is. It is on Wednesday to discuss the new plan."
+        }
+      ]
+    },
+    {
+      "t": "Ôn tập: Tổng hợp 1",
+      "e": [
+        {
+          "p": "Tell me two good things about your work.",
+          "m": "1) Nói một điểm mạnh (1 câu). 2) Nói một điều bạn thích ở công việc (1 câu).",
+          "h": "Dùng 'I am good at' và 'I like'.",
+          "s": "I am good at time management. I like helping customers."
+        },
+        {
+          "p": "Tell me two things you want to improve.",
+          "m": "1) Nói một điểm yếu (1 câu). 2) Nói việc bạn sẽ làm để cải thiện (1 câu).",
+          "h": "Dùng 'I find' và 'I will try to' hoặc 'I try to'.",
+          "s": "I find presentations hard. I will try to practice speaking more."
+        },
+        {
+          "p": "Name two daily tasks you do.",
+          "m": "1) Nêu một nhiệm vụ (1 câu). 2) Nêu nhiệm vụ khác (1 câu).",
+          "h": "Dùng 'I + V' đơn giản.",
+          "s": "I write daily reports. I answer customer emails."
+        },
+        {
+          "p": "Say two ways you help the team.",
+          "m": "1) Nói một cách giúp (1 câu). 2) Nói cách khác (1 câu).",
+          "h": "Dùng 'I help by' và 'I also ...'.",
+          "s": "I help by organizing files. I also share quick tips."
+        },
+        {
+          "p": "Give two simple plans for next week.",
+          "m": "1) Nói một kế hoạch (1 câu). 2) Nói kế hoạch thứ hai (1 câu).",
+          "h": "Dùng 'I will' cho cả hai.",
+          "s": "I will finish the monthly report. I will learn one new skill."
+        }
+      ]
+    },
+    {
+      "t": "Ôn tập: Tổng hợp 2",
+      "e": [
+        {
+          "p": "Describe two things you do when busy.",
+          "m": "1) Nói việc đầu tiên bạn làm (1 câu). 2) Nói việc thứ hai bạn làm (1 câu).",
+          "h": "Dùng 'I + V' và trạng từ (often/sometimes).",
+          "s": "I make a short list. I ask for help if needed."
+        },
+        {
+          "p": "Say two simple strengths for work.",
+          "m": "1) Nêu điểm mạnh A (1 câu). 2) Nêu điểm mạnh B (1 câu).",
+          "h": "Dùng 'I am good at' hoặc 'I like'.",
+          "s": "I am good at organizing. I am good at speaking politely."
+        },
+        {
+          "p": "Tell two small mistakes and your fix.",
+          "m": "1) Nói sai nhỏ bạn gặp (1 câu). 2) Nói cách bạn sửa (1 câu).",
+          "h": "Dùng 'I sometimes' và 'I fix by ...'.",
+          "s": "I sometimes write a wrong number. I fix it by checking and correcting it."
+        },
+        {
+          "p": "Give two simple examples of helping a customer.",
+          "m": "1) Nói ví dụ A (1 câu). 2) Nói ví dụ B (1 câu).",
+          "h": "Dùng 'I help by' cho cả hai.",
+          "s": "I help by answering questions. I help by finding the right product."
+        },
+        {
+          "p": "List two things you will do to be better.",
+          "m": "1) Nói điều bạn sẽ làm 1 (1 câu). 2) Nói điều bạn sẽ làm 2 (1 câu).",
+          "h": "Dùng 'I will' cho cả hai.",
+          "s": "I will check work twice. I will ask for feedback from my boss."
+        }
+      ]
+    },
+    {
+      "t": "Ôn tập: Tổng hợp 3",
+      "e": [
+        {
+          "p": "Say two facts about your work hours.",
+          "m": "1) Nói giờ bắt đầu (1 câu). 2) Nói số ngày làm việc (1 câu).",
+          "h": "Dùng 'I start at ...' và 'I work ... days'.",
+          "s": "I start at eight o'clock. I work five days a week."
+        },
+        {
+          "p": "Give two simple ways you learn new skills.",
+          "m": "1) Nói cách 1 (1 câu). 2) Nói cách 2 (1 câu).",
+          "h": "Dùng 'I learn by' và 'I practice by'.",
+          "s": "I learn by watching others. I practice by doing tasks again."
+        },
+        {
+          "p": "List two polite phrases you use with customers.",
+          "m": "1) Nói câu lịch sự 1 (1 câu). 2) Nói câu lịch sự 2 (1 câu).",
+          "h": "Dùng 'Please' và 'Thank you' hoặc 'I am sorry'.",
+          "s": "Please wait a moment, I will check. Thank you for your patience."
+        },
+        {
+          "p": "Tell two things you do before leaving work.",
+          "m": "1) Nói việc 1 (1 câu). 2) Nói việc 2 (1 câu).",
+          "h": "Dùng 'I check' và 'I finish'.",
+          "s": "I check my task list. I finish small tasks or note them for tomorrow."
+        },
+        {
+          "p": "Say two small goals for next month.",
+          "m": "1) Nói mục tiêu 1 (1 câu). 2) Nói mục tiêu 2 (1 câu).",
+          "h": "Dùng 'I want to' hoặc 'I will'.",
+          "s": "I want to improve my email speed. I will practice typing and replies."
+        }
+      ]
+    }
+  ]
+}

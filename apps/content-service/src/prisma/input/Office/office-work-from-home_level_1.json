@@ -1,0 +1,530 @@
+{
+  "l": 1,
+  "d": [
+    {
+      "t": "Gặp đồng nghiệp mới",
+      "e": [
+        {
+          "p": "Do you work from home?",
+          "m": "Nói rõ bạn có làm việc ở nhà hay không.",
+          "h": "I work / I don't work.",
+          "s": "I work from home."
+        },
+        {
+          "p": "Where do you live?",
+          "m": "Nói nơi bạn sống (thành phố).",
+          "h": "I live in + place.",
+          "s": "I live in [studentCity]."
+        },
+        {
+          "p": "What is your job?",
+          "m": "Nói nghề nghiệp của bạn.",
+          "h": "I am a + job.",
+          "s": "I am a [studentJob]."
+        },
+        {
+          "p": "What time do you start work?",
+          "m": "Nói giờ bạn bắt đầu làm việc.",
+          "h": "I start work at + time.",
+          "s": "I start work at eight."
+        },
+        {
+          "p": "How do you join meetings?",
+          "m": "Nói cách bạn tham gia họp (online hoặc in the office).",
+          "h": "I join meetings online / in the office.",
+          "s": "I join meetings online."
+        }
+      ]
+    },
+    {
+      "t": "Nói về nơi làm việc",
+      "e": [
+        {
+          "p": "Do you have a home office?",
+          "m": "Nói rõ bạn có góc làm việc ở nhà hay không.",
+          "h": "Yes, I have / No, I don't have.",
+          "s": "Yes, I have a home office."
+        },
+        {
+          "p": "Is your workspace small or big?",
+          "m": "Nói workspace của bạn 'small' hoặc 'big'.",
+          "h": "It is small / It is big.",
+          "s": "It is small."
+        },
+        {
+          "p": "Do you have a computer?",
+          "m": "Nói bạn có máy tính hay không.",
+          "h": "I have / I don't have.",
+          "s": "I have a computer."
+        },
+        {
+          "p": "Where do you do work at home?",
+          "m": "Nói phòng bạn làm việc ở nhà (ví dụ: living room).",
+          "h": "I work in the + room.",
+          "s": "I work in the living room."
+        },
+        {
+          "p": "Do you like your home workspace?",
+          "m": "Nói bạn có thích góc làm việc ở nhà hay không.",
+          "h": "I like / I don't like.",
+          "s": "I like my workspace."
+        }
+      ]
+    },
+    {
+      "t": "Thói quen làm việc buổi sáng",
+      "e": [
+        {
+          "p": "Do you start work now?",
+          "m": "Nói bạn có bắt đầu làm việc bây giờ hay không.",
+          "h": "I start work now / I don't start now.",
+          "s": "I start work now."
+        },
+        {
+          "p": "What do you eat for breakfast?",
+          "m": "Nói bạn ăn gì cho bữa sáng (một từ).",
+          "h": "I eat + food.",
+          "s": "I eat bread."
+        },
+        {
+          "p": "Do you drink coffee at work?",
+          "m": "Nói bạn có uống cà phê khi làm việc hay không.",
+          "h": "I drink / I don't drink.",
+          "s": "I drink coffee at work."
+        },
+        {
+          "p": "Do you check email every morning?",
+          "m": "Nói bạn có kiểm tra email mỗi sáng hay không.",
+          "h": "I check email every morning / I don't check.",
+          "s": "I check email every morning."
+        },
+        {
+          "p": "How many hours do you work each day?",
+          "m": "Nói số giờ bạn làm việc mỗi ngày.",
+          "h": "I work + number + hours.",
+          "s": "I work eight hours each day."
+        }
+      ]
+    },
+    {
+      "t": "Lịch họp đơn giản",
+      "e": [
+        {
+          "p": "Do you have a meeting today?",
+          "m": "Nói bạn có họp hôm nay hay không.",
+          "h": "I have a meeting today / I don't have.",
+          "s": "I have a meeting today."
+        },
+        {
+          "p": "What time is the meeting?",
+          "m": "Nói giờ của cuộc họp.",
+          "h": "It is at + time.",
+          "s": "It is at ten."
+        },
+        {
+          "p": "Do you join by phone?",
+          "m": "Nói bạn có tham gia bằng điện thoại hay không.",
+          "h": "I join by phone / I don't join by phone.",
+          "s": "I don't join by phone."
+        },
+        {
+          "p": "Who is in the meeting?",
+          "m": "Nói một người có trong họp (ví dụ: my friend).",
+          "h": "My friend / My boss + is in the meeting.",
+          "s": "My friend is in the meeting."
+        },
+        {
+          "p": "Do you speak in the meeting?",
+          "m": "Nói bạn có nói trong họp hay không.",
+          "h": "I speak / I don't speak.",
+          "s": "I speak in the meeting."
+        }
+      ]
+    },
+    {
+      "t": "Giao tiếp với đồng đội",
+      "e": [
+        {
+          "p": "Can you help me with a task?",
+          "m": "Nói bạn có thể giúp hay không.",
+          "h": "I can / I can't.",
+          "s": "I can help."
+        },
+        {
+          "p": "When do you work with the team?",
+          "m": "Nói thời gian bạn làm việc với team (ví dụ: in the morning).",
+          "h": "I work with the team in the + time.",
+          "s": "I work with the team in the morning."
+        },
+        {
+          "p": "Do you send messages to the team?",
+          "m": "Nói bạn có gửi tin nhắn cho team hay không.",
+          "h": "I send messages / I don't send.",
+          "s": "I send messages to the team."
+        },
+        {
+          "p": "How often do you talk with your team?",
+          "m": "Nói tần suất bạn nói với team (every day / sometimes / never).",
+          "h": "I talk with my team every day / sometimes / never.",
+          "s": "I talk with my team every day."
+        },
+        {
+          "p": "Who tells the task to you?",
+          "m": "Nói ai giao việc cho bạn (một người).",
+          "h": "My boss / My friend + gives me the task.",
+          "s": "My boss gives me the task."
+        }
+      ]
+    },
+    {
+      "t": "Họp trực tuyến",
+      "e": [
+        {
+          "p": "Do you turn on your camera?",
+          "m": "Nói bạn có bật camera khi họp hay không.",
+          "h": "I turn on / I don't turn on.",
+          "s": "I turn on my camera."
+        },
+        {
+          "p": "Do you mute the mic?",
+          "m": "Nói bạn có tắt micro khi không nói hay không.",
+          "h": "I mute the mic / I don't mute.",
+          "s": "I mute the mic."
+        },
+        {
+          "p": "What app do you use for calls?",
+          "m": "Nói tên ứng dụng bạn dùng cho cuộc gọi.",
+          "h": "I use + app.",
+          "s": "I use Zoom for calls."
+        },
+        {
+          "p": "Do you join the meeting on time?",
+          "m": "Nói bạn có tham gia họp đúng giờ hay không.",
+          "h": "I join on time / I don't join on time.",
+          "s": "I join the meeting on time."
+        },
+        {
+          "p": "Do you take notes in meetings?",
+          "m": "Nói bạn có ghi chú trong họp hay không.",
+          "h": "I take notes / I don't take notes.",
+          "s": "I take notes in meetings."
+        }
+      ]
+    },
+    {
+      "t": "Công cụ làm việc hàng ngày",
+      "e": [
+        {
+          "p": "Do you use a phone for work?",
+          "m": "Nói bạn có dùng điện thoại cho công việc hay không.",
+          "h": "I use / I don't use.",
+          "s": "I use a phone for work."
+        },
+        {
+          "p": "Do you have a desk?",
+          "m": "Nói bạn có bàn làm việc hay không.",
+          "h": "I have / I don't have.",
+          "s": "I have a desk."
+        },
+        {
+          "p": "Do you use a notebook?",
+          "m": "Nói bạn có dùng sổ tay hay không.",
+          "h": "I use / I don't use.",
+          "s": "I use a notebook."
+        },
+        {
+          "p": "Do you have good internet?",
+          "m": "Nói bạn có mạng tốt hay không.",
+          "h": "I have good internet / I don't have.",
+          "s": "I have good internet."
+        },
+        {
+          "p": "How do you send files to others?",
+          "m": "Nói cách bạn gửi file (một từ).",
+          "h": "I send files by + way.",
+          "s": "I send files by email."
+        }
+      ]
+    },
+    {
+      "t": "Quản lý thời gian đơn giản",
+      "e": [
+        {
+          "p": "Do you finish work on time?",
+          "m": "Nói bạn có kết thúc công việc đúng giờ hay không.",
+          "h": "I finish on time / I don't finish on time.",
+          "s": "I finish work on time."
+        },
+        {
+          "p": "What time do you finish?",
+          "m": "Nói giờ bạn kết thúc làm việc.",
+          "h": "I finish at + time.",
+          "s": "I finish at five."
+        },
+        {
+          "p": "Do you take a lunch break?",
+          "m": "Nói bạn có nghỉ ăn trưa hay không.",
+          "h": "I take a lunch break / I don't take.",
+          "s": "I take a lunch break."
+        },
+        {
+          "p": "How long is your break?",
+          "m": "Nói thời gian nghỉ của bạn (phút hoặc giờ).",
+          "h": "I have a break for + number + minutes/hours.",
+          "s": "I have a break for thirty minutes."
+        },
+        {
+          "p": "Do you plan your day?",
+          "m": "Nói bạn có lên kế hoạch cho ngày hay không.",
+          "h": "I plan my day / I don't plan.",
+          "s": "I plan my day."
+        }
+      ]
+    },
+    {
+      "t": "Yêu cầu nghỉ ngắn trong ngày",
+      "e": [
+        {
+          "p": "I need a short break.",
+          "m": "Trả lời bạn cho phép người kia nghỉ ngắn hay không.",
+          "h": "Yes, you can / No, you can't.",
+          "s": "Yes, you can take a short break."
+        },
+        {
+          "p": "Can you finish my work now?",
+          "m": "Nói bạn có thể làm thay cho họ bây giờ hay không.",
+          "h": "I can / I can't.",
+          "s": "I can't finish your work now."
+        },
+        {
+          "p": "Do you need a break now?",
+          "m": "Nói bạn có cần nghỉ ngay hay không.",
+          "h": "I need / I don't need.",
+          "s": "I need a break now."
+        },
+        {
+          "p": "When do you return?",
+          "m": "Nói khi bạn trở lại (ví dụ: in ten minutes).",
+          "h": "I return in + time.",
+          "s": "I return in ten minutes."
+        },
+        {
+          "p": "Please finish this today.",
+          "m": "Nói bạn có thể hoàn thành hôm nay hay không.",
+          "h": "I can / I can't.",
+          "s": "I can finish this today."
+        }
+      ]
+    },
+    {
+      "t": "Hỗ trợ kỹ thuật cơ bản",
+      "e": [
+        {
+          "p": "My internet is slow.",
+          "m": "Nói bạn có mạng chậm hay không.",
+          "h": "I have slow internet / I don't have.",
+          "s": "I have slow internet."
+        },
+        {
+          "p": "Can you try to restart your router?",
+          "m": "Nói bạn có thể khởi động lại modem/router hay không.",
+          "h": "I can / I can't.",
+          "s": "I can restart the router."
+        },
+        {
+          "p": "Do you see my screen?",
+          "m": "Nói bạn có nhìn thấy màn hình chia sẻ hay không.",
+          "h": "I see it / I don't see it.",
+          "s": "I don't see your screen."
+        },
+        {
+          "p": "Is the sound OK?",
+          "m": "Nói âm thanh có ổn hay không.",
+          "h": "The sound is OK / not OK.",
+          "s": "The sound is not OK."
+        },
+        {
+          "p": "Can you send a screenshot?",
+          "m": "Nói bạn có thể gửi ảnh màn hình hay không.",
+          "h": "I can / I can't.",
+          "s": "I can send a screenshot."
+        }
+      ]
+    },
+    {
+      "t": "Chia sẻ tiến độ công việc",
+      "e": [
+        {
+          "p": "Do you finish the report?",
+          "m": "Nói bạn đã hoàn thành báo cáo hay chưa.",
+          "h": "I finish / I don't finish.",
+          "s": "I finish the report."
+        },
+        {
+          "p": "How many tasks do you do today?",
+          "m": "Nói số nhiệm vụ bạn làm hôm nay (một số).",
+          "h": "I do + number + tasks.",
+          "s": "I do two tasks today."
+        },
+        {
+          "p": "Do you need help with the report?",
+          "m": "Nói bạn có cần giúp đỡ với báo cáo hay không.",
+          "h": "I need help / I don't need help.",
+          "s": "I need help with the report."
+        },
+        {
+          "p": "When do you send the report?",
+          "m": "Nói khi bạn gửi báo cáo (today/now/tomorrow).",
+          "h": "I send it + time.",
+          "s": "I send it today."
+        },
+        {
+          "p": "Who checks your work?",
+          "m": "Nói ai kiểm tra công việc bạn (một người).",
+          "h": "My boss / My friend + checks my work.",
+          "s": "My boss checks my work."
+        }
+      ]
+    },
+    {
+      "t": "Sắp xếp công việc đơn giản",
+      "e": [
+        {
+          "p": "Do you make a to-do list?",
+          "m": "Nói bạn có lập danh sách việc hay không.",
+          "h": "I make a to-do list / I don't make one.",
+          "s": "I make a to-do list."
+        },
+        {
+          "p": "What is your first task today?",
+          "m": "Nói nhiệm vụ đầu tiên hôm nay.",
+          "h": "My first task is + task.",
+          "s": "My first task is email."
+        },
+        {
+          "p": "Do you finish small tasks first?",
+          "m": "Nói bạn có làm việc nhỏ trước hay không.",
+          "h": "I finish small tasks first / I don't.",
+          "s": "I finish small tasks first."
+        },
+        {
+          "p": "Can you do two tasks now?",
+          "m": "Nói bạn có thể làm hai việc bây giờ hay không.",
+          "h": "I can / I can't.",
+          "s": "I can do two tasks now."
+        },
+        {
+          "p": "Do you work on one task or many tasks?",
+          "m": "Nói bạn làm một việc hay nhiều việc (chọn một).",
+          "h": "I work on one task / many tasks.",
+          "s": "I work on one task."
+        }
+      ]
+    },
+    {
+      "t": "Ôn tập: Giao tiếp cơ bản WFH",
+      "e": [
+        {
+          "p": "Where do you work?",
+          "m": "Nói nơi bạn làm việc (home hoặc office).",
+          "h": "I work at home / in the office.",
+          "s": "I work at home."
+        },
+        {
+          "p": "Do you work every day?",
+          "m": "Nói bạn có làm việc mỗi ngày hay không.",
+          "h": "I work every day / I don't.",
+          "s": "I work every day."
+        },
+        {
+          "p": "Who is on your team?",
+          "m": "Nói một người trong team của bạn.",
+          "h": "My friend / My boss + is on my team.",
+          "s": "My friend is on my team."
+        },
+        {
+          "p": "Can you join a meeting now?",
+          "m": "Nói bạn có thể tham gia họp ngay hay không.",
+          "h": "I can / I can't.",
+          "s": "I can join a meeting now."
+        },
+        {
+          "p": "Do you like remote work?",
+          "m": "Nói bạn có thích làm việc từ xa hay không.",
+          "h": "I like / I don't like.",
+          "s": "I like remote work."
+        }
+      ]
+    },
+    {
+      "t": "Ôn tập: Hoạt động và lịch trình",
+      "e": [
+        {
+          "p": "What time do you start work?",
+          "m": "Nói giờ bạn bắt đầu làm việc.",
+          "h": "I start at + time.",
+          "s": "I start at nine."
+        },
+        {
+          "p": "Do you eat lunch at home?",
+          "m": "Nói bạn có ăn trưa ở nhà hay không.",
+          "h": "I eat lunch at home / I don't.",
+          "s": "I eat lunch at home."
+        },
+        {
+          "p": "How long do you work each day?",
+          "m": "Nói số giờ bạn làm việc mỗi ngày.",
+          "h": "I work + number + hours.",
+          "s": "I work eight hours."
+        },
+        {
+          "p": "Do you join the team meeting every day?",
+          "m": "Nói bạn có tham gia họp team mỗi ngày hay không.",
+          "h": "I join every day / I don't join every day.",
+          "s": "I join the team meeting every day."
+        },
+        {
+          "p": "What do you do after work?",
+          "m": "Nói một việc bạn làm sau khi tan ca (một động từ).",
+          "h": "I + verb.",
+          "s": "I rest after work."
+        }
+      ]
+    },
+    {
+      "t": "Ôn tập: Giải quyết và hỏi trợ giúp",
+      "e": [
+        {
+          "p": "My file is missing.",
+          "m": "Nói bạn có file hay không (I have / I don't have).",
+          "h": "I have / I don't have.",
+          "s": "I don't have the file."
+        },
+        {
+          "p": "Can you help me now?",
+          "m": "Nói bạn có thể giúp ngay hay không.",
+          "h": "I can / I can't.",
+          "s": "I can help now."
+        },
+        {
+          "p": "Do you know the answer?",
+          "m": "Nói bạn có biết câu trả lời hay không.",
+          "h": "I know / I don't know.",
+          "s": "I know the answer."
+        },
+        {
+          "p": "What do you do if you have a problem?",
+          "m": "Nói một hành động bạn làm khi có vấn đề.",
+          "h": "I + verb (ask/call/check).",
+          "s": "I ask for help."
+        },
+        {
+          "p": "Who do you call for help?",
+          "m": "Nói một người bạn gọi khi cần giúp (một người).",
+          "h": "I call my friend / my boss.",
+          "s": "I call my friend for help."
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,565 @@
+{
+  "l": 1,
+  "d": [
+    {
+      "t": "Gặp đồng nghiệp sau tranh cãi",
+      "e": [
+        {
+          "p": "What is the problem?",
+          "m": "Nói một câu: có một vấn đề ở công việc.",
+          "h": "Use 'There is' + noun.",
+          "s": "There is a problem at work."
+        },
+        {
+          "p": "Are you okay?",
+          "m": "Trả lời một câu: bạn buồn hay không.",
+          "h": "Use 'I am' + adjective.",
+          "s": "I am sad."
+        },
+        {
+          "p": "Do you want to talk now?",
+          "m": "Trả lời một câu: bạn có muốn nói chuyện hay không.",
+          "h": "Use 'I want' or 'I do not want'.",
+          "s": "I want to talk."
+        },
+        {
+          "p": "Can I help you with the task?",
+          "m": "Trả lời một câu: bạn có chấp nhận giúp hay không.",
+          "h": "Use 'You can' + verb.",
+          "s": "You can help me."
+        },
+        {
+          "p": "What do you want now?",
+          "m": "Nói một câu: bạn muốn gì để giải quyết.",
+          "h": "Use 'I want' + noun.",
+          "s": "I want a solution."
+        }
+      ]
+    },
+    {
+      "t": "Nói với sếp về một lỗi nhỏ",
+      "e": [
+        {
+          "p": "There is a mistake in the file.",
+          "m": "Nói một câu: xác nhận bạn thấy lỗi.",
+          "h": "Use 'I see' + noun.",
+          "s": "I see the mistake."
+        },
+        {
+          "p": "Who made the change?",
+          "m": "Trả lời một câu: nói ai làm thay đổi (hoặc không biết).",
+          "h": "Use 'He/She/They' + verb(s).",
+          "s": "I do not know who did it."
+        },
+        {
+          "p": "Do you want me to fix it?",
+          "m": "Trả lời một câu: bạn đồng ý sửa hay không.",
+          "h": "Use 'I can' or 'I cannot'.",
+          "s": "I can fix it."
+        },
+        {
+          "p": "When is the file due?",
+          "m": "Nói một câu: thời gian nộp (ngày hoặc 'today').",
+          "h": "Use simple time word (today/tomorrow).",
+          "s": "The file is due today."
+        },
+        {
+          "p": "How do we avoid this next time?",
+          "m": "Nói một câu: đề nghị một việc đơn giản để tránh lỗi.",
+          "h": "Use 'We' + verb (present simple).",
+          "s": "We check the file first."
+        }
+      ]
+    },
+    {
+      "t": "Phân chia công việc trong nhóm",
+      "e": [
+        {
+          "p": "We have one task today.",
+          "m": "Nói một câu: bạn có thể làm việc này hay không.",
+          "h": "Use 'I can' or 'I cannot'.",
+          "s": "I can do this task."
+        },
+        {
+          "p": "Who can do the report?",
+          "m": "Trả lời một câu: bạn có thể làm báo cáo hay không.",
+          "h": "Use 'I can' + verb.",
+          "s": "I can do the report."
+        },
+        {
+          "p": "I do not have time.",
+          "m": "Trả lời một câu: nói bạn có thời gian hay không.",
+          "h": "Use 'I have' or 'I do not have'.",
+          "s": "I do not have time."
+        },
+        {
+          "p": "Can we work together?",
+          "m": "Trả lời một câu: bạn đồng ý làm cùng hay không.",
+          "h": "Use 'Yes, we can' or 'No, we cannot'.",
+          "s": "Yes, we can work together."
+        },
+        {
+          "p": "What is your role?",
+          "m": "Nói một câu: nêu công việc hoặc nhiệm vụ của bạn.",
+          "h": "Use 'I am' + job or 'I do' + task.",
+          "s": "I do the report."
+        }
+      ]
+    },
+    {
+      "t": "Đồng nghiệp đến muộn cho cuộc họp",
+      "e": [
+        {
+          "p": "You are late for the meeting.",
+          "m": "Trả lời một câu: nói bạn đến muộn hay không.",
+          "h": "Use 'I am' + time word or 'I am late'.",
+          "s": "I am late."
+        },
+        {
+          "p": "Why are you late?",
+          "m": "Nói một câu: nêu một lý do đơn giản.",
+          "h": "Use 'I' + verb (present simple).",
+          "s": "I missed the bus."
+        },
+        {
+          "p": "Do you want to join now?",
+          "m": "Trả lời một câu: bạn có muốn tham gia họp hay không.",
+          "h": "Use 'I want' or 'I do not want'.",
+          "s": "I want to join now."
+        },
+        {
+          "p": "Can you read the notes later?",
+          "m": "Trả lời một câu: bạn có thể đọc ghi chú sau hay không.",
+          "h": "Use 'I can' or 'I cannot'.",
+          "s": "I can read the notes later."
+        },
+        {
+          "p": "I am upset about time.",
+          "m": "Trả lời một câu: nói cảm xúc ngắn gọn.",
+          "h": "Use 'I am' + adjective.",
+          "s": "I am sad about this."
+        }
+      ]
+    },
+    {
+      "t": "Phản hồi khi ai đó phàn nàn",
+      "e": [
+        {
+          "p": "The client complains about the price.",
+          "m": "Nói một câu: xác nhận bạn biết chuyện.",
+          "h": "Use 'I know' or 'I see'.",
+          "s": "I know about the price problem."
+        },
+        {
+          "p": "What do you feel?",
+          "m": "Nói một câu: mô tả cảm giác ngắn gọn.",
+          "h": "Use 'I am' + adjective.",
+          "s": "I am worried."
+        },
+        {
+          "p": "Can you change the price?",
+          "m": "Trả lời một câu: bạn có thể thay đổi hay không.",
+          "h": "Use 'I can' or 'I cannot'.",
+          "s": "I cannot change the price."
+        },
+        {
+          "p": "Do you want me to call the client?",
+          "m": "Trả lời một câu: bạn có muốn người khác gọi khách hàng hay không.",
+          "h": "Use 'Yes, please' or 'No, thank you'.",
+          "s": "Yes, please call the client."
+        },
+        {
+          "p": "How do we make the client happy?",
+          "m": "Nói một câu: đề xuất một hành động đơn giản.",
+          "h": "Use 'We' + verb.",
+          "s": "We give a good answer."
+        }
+      ]
+    },
+    {
+      "t": "Khi ý kiến trái ngược trong nhóm",
+      "e": [
+        {
+          "p": "I like this plan.",
+          "m": "Trả lời một câu: bạn đồng ý hay không.",
+          "h": "Use 'I like' or 'I do not like'.",
+          "s": "I like the plan."
+        },
+        {
+          "p": "I do not like the idea.",
+          "m": "Trả lời một câu: nói bạn nghĩ gì (đồng ý/không).",
+          "h": "Use 'I think' + simple phrase.",
+          "s": "I think it is not good."
+        },
+        {
+          "p": "Can we try both ideas?",
+          "m": "Trả lời một câu: bạn có chấp nhận thử hay không.",
+          "h": "Use 'We can' + verb or 'We cannot'.",
+          "s": "We can try both ideas."
+        },
+        {
+          "p": "Do you agree with me?",
+          "m": "Trả lời một câu: đồng ý hay không.",
+          "h": "Use 'Yes, I agree' or 'No, I do not agree'.",
+          "s": "No, I do not agree."
+        },
+        {
+          "p": "What is the best choice?",
+          "m": "Nói một câu: đưa ra lựa chọn ngắn gọn.",
+          "h": "Use 'The best' + noun or 'We' + verb.",
+          "s": "The best choice is plan A."
+        }
+      ]
+    },
+    {
+      "t": "Xử lý lỗi nhỏ của đồng nghiệp",
+      "e": [
+        {
+          "p": "You missed an email.",
+          "m": "Trả lời một câu: xác nhận bạn đã thiếu email hay không.",
+          "h": "Use 'I missed' or 'I did not see'.",
+          "s": "I missed the email."
+        },
+        {
+          "p": "Can you fix the email now?",
+          "m": "Trả lời một câu: bạn có thể sửa hay không.",
+          "h": "Use 'I can' or 'I cannot'.",
+          "s": "I can fix it now."
+        },
+        {
+          "p": "Do you need help?",
+          "m": "Trả lời một câu: bạn có cần giúp hay không.",
+          "h": "Use 'Yes' or 'No' + short phrase.",
+          "s": "No, I do not need help."
+        },
+        {
+          "p": "I am upset about the client reply.",
+          "m": "Trả lời một câu: nói bạn cảm thấy thế nào.",
+          "h": "Use 'I am' + adjective.",
+          "s": "I am worried about the reply."
+        },
+        {
+          "p": "How can we avoid this?",
+          "m": "Nói một câu: đề nghị một việc làm đơn giản.",
+          "h": "Use 'We' + verb (present simple).",
+          "s": "We check emails every day."
+        }
+      ]
+    },
+    {
+      "t": "Xin lời khuyên khi mâu thuẫn nhẹ",
+      "e": [
+        {
+          "p": "I have a small problem with a colleague.",
+          "m": "Trả lời một câu: nói bạn có lời khuyên ngắn gọn hay không.",
+          "h": "Use 'You can' + verb.",
+          "s": "You can talk to the colleague."
+        },
+        {
+          "p": "Do you think I am wrong?",
+          "m": "Trả lời một câu: nói bạn nghĩ đúng hay sai.",
+          "h": "Use 'I think' + short opinion.",
+          "s": "I think you are right."
+        },
+        {
+          "p": "Can I ask the manager?",
+          "m": "Trả lời một câu: bạn có thể hỏi sếp hay không.",
+          "h": "Use 'Yes' or 'No' + short phrase.",
+          "s": "Yes, you can ask the manager."
+        },
+        {
+          "p": "What should I say?",
+          "m": "Nói một câu: gợi ý một câu ngắn để nói.",
+          "h": "Use 'Say' + simple phrase.",
+          "s": "Say you want to solve the problem."
+        },
+        {
+          "p": "I feel tense now.",
+          "m": "Trả lời một câu: nói cảm giác của bạn hoặc khuyên giảm căng thẳng.",
+          "h": "Use 'I am' or 'You can' + verb.",
+          "s": "You can take a short break."
+        }
+      ]
+    },
+    {
+      "t": "Khi đồng đội không nghe ý bạn",
+      "e": [
+        {
+          "p": "I do not hear your idea.",
+          "m": "Trả lời một câu: tóm tắt ý chính của bạn.",
+          "h": "Use 'I' + verb + noun.",
+          "s": "I say we change the plan."
+        },
+        {
+          "p": "Do you like this change?",
+          "m": "Trả lời một câu: bạn có thích hay không.",
+          "h": "Use 'I like' or 'I do not like'.",
+          "s": "I do not like the change."
+        },
+        {
+          "p": "Can you explain again?",
+          "m": "Trả lời một câu: bạn có thể giải thích lại hay không.",
+          "h": "Use 'I can' + verb.",
+          "s": "I can explain again."
+        },
+        {
+          "p": "Who agrees with me?",
+          "m": "Trả lời một câu: nói có ai đồng ý hay không.",
+          "h": "Use 'No one' or 'I' + agree.",
+          "s": "No one agrees now."
+        },
+        {
+          "p": "What do you want me to do?",
+          "m": "Nói một câu: nói bạn muốn làm gì tiếp theo.",
+          "h": "Use 'I will' or 'I want'.",
+          "s": "I want to talk with the team."
+        }
+      ]
+    },
+    {
+      "t": "Giải quyết lịch làm việc xung đột",
+      "e": [
+        {
+          "p": "Two people want the same day off.",
+          "m": "Nói một câu: xác nhận có xung đột lịch.",
+          "h": "Use 'There is' + noun.",
+          "s": "There is a schedule conflict."
+        },
+        {
+          "p": "Can you change your day?",
+          "m": "Trả lời một câu: bạn có thể đổi ngày hay không.",
+          "h": "Use 'I can' or 'I cannot'.",
+          "s": "I can change my day."
+        },
+        {
+          "p": "Do you want to swap with me?",
+          "m": "Trả lời một câu: bạn có muốn đổi ca hay không.",
+          "h": "Use 'Yes' or 'No' + short phrase.",
+          "s": "Yes, I want to swap."
+        },
+        {
+          "p": "Who covers the work on Friday?",
+          "m": "Nói một câu: nói ai làm việc hoặc bạn sẽ làm.",
+          "h": "Use 'I' + verb or 'He/She' + verb.",
+          "s": "I will cover on Friday."
+        },
+        {
+          "p": "We need a simple plan.",
+          "m": "Nói một câu: đề nghị một hành động đơn giản để giải quyết.",
+          "h": "Use 'We' + verb.",
+          "s": "We make a new plan."
+        }
+      ]
+    },
+    {
+      "t": "Ân cần khi xin lỗi nhẹ",
+      "e": [
+        {
+          "p": "You made a small mistake.",
+          "m": "Trả lời một câu: nhận lỗi ngắn gọn.",
+          "h": "Use 'I am' + adjective or 'I' + verb.",
+          "s": "I feel bad about it."
+        },
+        {
+          "p": "Do you say sorry?",
+          "m": "Trả lời một câu: nói bạn nói lời xin lỗi hay không (ngắn).",
+          "h": "Use 'I am' + adjective or 'I' + want.",
+          "s": "I am sorry."
+        },
+        {
+          "p": "Can you fix the mistake now?",
+          "m": "Trả lời một câu: bạn có thể sửa ngay hay không.",
+          "h": "Use 'I can' + verb.",
+          "s": "I can fix it now."
+        },
+        {
+          "p": "Will this happen again?",
+          "m": "Trả lời một câu: cam kết ngắn gọn (có/không).",
+          "h": "Use 'I will' or 'I will not'.",
+          "s": "I will not do it again."
+        },
+        {
+          "p": "How can we move on?",
+          "m": "Nói một câu: đề xuất một bước tiếp theo đơn giản.",
+          "h": "Use 'We' + verb.",
+          "s": "We continue our work."
+        }
+      ]
+    },
+    {
+      "t": "Khi tranh luận về ý tưởng trong họp",
+      "e": [
+        {
+          "p": "I like the new design.",
+          "m": "Trả lời một câu: bạn đồng ý hay không.",
+          "h": "Use 'I like' or 'I do not like'.",
+          "s": "I like the design."
+        },
+        {
+          "p": "Do you think it is clear?",
+          "m": "Trả lời một câu: nói bạn thấy rõ hay không.",
+          "h": "Use 'Yes' or 'No' + short phrase.",
+          "s": "Yes, it is clear."
+        },
+        {
+          "p": "Can we change one color?",
+          "m": "Trả lời một câu: bạn có thể thay màu hay không.",
+          "h": "Use 'We can' or 'We cannot'.",
+          "s": "We can change the color."
+        },
+        {
+          "p": "Who likes the blue color?",
+          "m": "Trả lời một câu: nói bạn có thích màu xanh hay không.",
+          "h": "Use 'I like' + color.",
+          "s": "I like blue."
+        },
+        {
+          "p": "What is the final choice?",
+          "m": "Nói một câu: nêu lựa chọn cuối cùng ngắn gọn.",
+          "h": "Use 'The final choice is' + noun.",
+          "s": "The final choice is blue design."
+        }
+      ]
+    },
+    {
+      "t": "Khi khách hàng không hài lòng",
+      "e": [
+        {
+          "p": "The customer is not happy.",
+          "m": "Nói một câu: xác nhận bạn biết khách hàng không hài lòng.",
+          "h": "Use 'I know' or 'I see'.",
+          "s": "I know the customer is not happy."
+        },
+        {
+          "p": "What is the problem?",
+          "m": "Nói một câu: tóm tắt vấn đề đơn giản.",
+          "h": "Use 'The problem is' + short noun phrase.",
+          "s": "The problem is the late delivery."
+        },
+        {
+          "p": "Can we give a refund?",
+          "m": "Trả lời một câu: bạn có thể trả tiền lại hay không.",
+          "h": "Use 'We can' or 'We cannot'.",
+          "s": "We can give a refund."
+        },
+        {
+          "p": "Do you want an answer now?",
+          "m": "Trả lời một câu: bạn có trả lời ngay hay không.",
+          "h": "Use 'I want' or 'I do not want'.",
+          "s": "I want an answer now."
+        },
+        {
+          "p": "How do we solve this fast?",
+          "m": "Nói một câu: đề nghị một hành động đơn giản.",
+          "h": "Use 'We' + verb (present simple).",
+          "s": "We send a new product."
+        }
+      ]
+    },
+    {
+      "t": "Ôn tập: Giải quyết tranh luận đơn giản",
+      "e": [
+        {
+          "p": "We have a problem in the team.",
+          "m": "Nói một câu: xác nhận có vấn đề trong nhóm.",
+          "h": "Use 'There is' + noun.",
+          "s": "There is a problem in the team."
+        },
+        {
+          "p": "Do you feel okay with the plan?",
+          "m": "Trả lời một câu: nói bạn có đồng ý kế hoạch hay không.",
+          "h": "Use 'I like' or 'I do not like'.",
+          "s": "I do not like the plan."
+        },
+        {
+          "p": "Can you meet me after work?",
+          "m": "Trả lời một câu: bạn có thể gặp sau giờ làm hay không.",
+          "h": "Use 'I can' or 'I cannot'.",
+          "s": "I can meet after work."
+        },
+        {
+          "p": "What do we do now?",
+          "m": "Nói một câu: đề nghị một hành động tiếp theo đơn giản.",
+          "h": "Use 'We' + verb.",
+          "s": "We talk and find a solution."
+        },
+        {
+          "p": "I want a clear decision.",
+          "m": "Trả lời một câu: nói bạn muốn gì (ngắn).",
+          "h": "Use 'I want' + noun.",
+          "s": "I want a clear decision."
+        }
+      ]
+    },
+    {
+      "t": "Ôn tập: Hỏi và đề nghị giúp khi có mâu thuẫn",
+      "e": [
+        {
+          "p": "Can you help me with the problem?",
+          "m": "Trả lời một câu: bạn có thể giúp hay không.",
+          "h": "Use 'I can' or 'I cannot'.",
+          "s": "I can help you."
+        },
+        {
+          "p": "Do you need a break now?",
+          "m": "Trả lời một câu: bạn có cần nghỉ hay không.",
+          "h": "Use 'Yes' or 'No' + short phrase.",
+          "s": "No, I do not need a break."
+        },
+        {
+          "p": "Will this make the client happy?",
+          "m": "Trả lời một câu: bạn có nghĩ sẽ làm khách hàng vui hay không.",
+          "h": "Use 'Yes' or 'No' + short phrase.",
+          "s": "Yes, it will help the client."
+        },
+        {
+          "p": "Can we do a short meeting?",
+          "m": "Trả lời một câu: bạn có thể họp ngắn hay không.",
+          "h": "Use 'I can' or 'I cannot'.",
+          "s": "I can join a short meeting."
+        },
+        {
+          "p": "How do you feel after the talk?",
+          "m": "Nói một câu: mô tả cảm xúc ngắn gọn.",
+          "h": "Use 'I am' + adjective.",
+          "s": "I am happy now."
+        }
+      ]
+    },
+    {
+      "t": "Ôn tập: Cuộc họp ngắn về giải pháp",
+      "e": [
+        {
+          "p": "We need a solution today.",
+          "m": "Nói một câu: xác nhận bạn hiểu cần giải pháp.",
+          "h": "Use 'I know' or 'I understand'.",
+          "s": "I understand we need a solution."
+        },
+        {
+          "p": "Do you agree with plan A?",
+          "m": "Trả lời một câu: bạn đồng ý hay không.",
+          "h": "Use 'Yes' or 'No' + short phrase.",
+          "s": "Yes, I agree with plan A."
+        },
+        {
+          "p": "Can you send the report now?",
+          "m": "Trả lời một câu: bạn có thể gửi báo cáo hay không.",
+          "h": "Use 'I can' or 'I cannot'.",
+          "s": "I can send the report now."
+        },
+        {
+          "p": "Who will call the client?",
+          "m": "Nói một câu: nói bạn sẽ gọi hay ai sẽ gọi.",
+          "h": "Use 'I will' + verb or 'He/She' + verb.",
+          "s": "I will call the client."
+        },
+        {
+          "p": "Is everyone ready?",
+          "m": "Trả lời một câu: nói mọi người sẵn sàng hay không (ngắn).",
+          "h": "Use 'Yes, we are' or 'No, we are not'.",
+          "s": "Yes, we are ready."
+        }
+      ]
+    }
+  ]
+}

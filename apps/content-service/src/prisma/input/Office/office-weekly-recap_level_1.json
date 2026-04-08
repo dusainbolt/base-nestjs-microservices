@@ -1,0 +1,530 @@
+{
+  "l": 1,
+  "d": [
+    {
+      "t": "Báo cáo ngắn về tuần",
+      "e": [
+        {
+          "p": "What work do you finish this week?",
+          "m": "Nói một việc bạn hoàn thành trong tuần (1 câu).",
+          "h": "Use: I + V (base) + O.",
+          "s": "I finish a report."
+        },
+        {
+          "p": "How many tasks do you finish this week?",
+          "m": "Nói số lượng nhiệm vụ bạn hoàn thành (1 câu).",
+          "h": "Use number + 'tasks': I finish two tasks.",
+          "s": "I finish two tasks."
+        },
+        {
+          "p": "Do you send any emails this week?",
+          "m": "Trả lời liệu bạn có gửi email trong tuần (1 câu).",
+          "h": "Use: Yes, I send... / No, I don't.",
+          "s": "Yes, I send an email."
+        },
+        {
+          "p": "Who helps you with work this week?",
+          "m": "Nói một người hoặc nhóm giúp bạn (1 câu).",
+          "h": "Use: I work with + person/group.",
+          "s": "I work with my team."
+        },
+        {
+          "p": "Where do you do your work this week?",
+          "m": "Nói nơi bạn làm việc trong tuần (1 câu).",
+          "h": "Use: I work at / from / in + place.",
+          "s": "I work from home."
+        }
+      ]
+    },
+    {
+      "t": "Nói về nhiệm vụ cụ thể",
+      "e": [
+        {
+          "p": "Which task is most important this week?",
+          "m": "Nói một nhiệm vụ quan trọng nhất (1 câu).",
+          "h": "Use: The most important task is ... or I focus on ...",
+          "s": "The most important task is the report."
+        },
+        {
+          "p": "Do you prepare a document this week?",
+          "m": "Nói có hay không về việc bạn chuẩn bị tài liệu (1 câu).",
+          "h": "Use: Yes, I prepare... / No, I don't.",
+          "s": "Yes, I prepare a document."
+        },
+        {
+          "p": "What small task do you do every day?",
+          "m": "Nói một việc nhỏ bạn làm mỗi ngày (1 câu).",
+          "h": "Use: I + V (base) + every day.",
+          "s": "I check my email every day."
+        },
+        {
+          "p": "Do you use a computer for work?",
+          "m": "Nói có hay không bạn dùng máy tính (1 câu).",
+          "h": "Use: Yes, I use... / No, I don't.",
+          "s": "Yes, I use a computer."
+        },
+        {
+          "p": "Which file do you send to your team?",
+          "m": "Nói tên một file bạn gửi (1 câu).",
+          "h": "Use: I send + a/an + noun.",
+          "s": "I send a report file."
+        }
+      ]
+    },
+    {
+      "t": "Kết quả công việc",
+      "e": [
+        {
+          "p": "Is the project complete this week?",
+          "m": "Nói có hay không dự án hoàn thành (1 câu).",
+          "h": "Use: Yes, it is. / No, it is not.",
+          "s": "No, it is not complete."
+        },
+        {
+          "p": "What result do you see this week?",
+          "m": "Nói một kết quả bạn thấy (1 câu).",
+          "h": "Use: I see + noun / result.",
+          "s": "I see good progress."
+        },
+        {
+          "p": "Do you check the work quality?",
+          "m": "Nói có hay không bạn kiểm tra chất lượng (1 câu).",
+          "h": "Use: Yes, I check... / No, I don't.",
+          "s": "Yes, I check the work."
+        },
+        {
+          "p": "How many pages do you write in the report?",
+          "m": "Nói số trang bạn viết (1 câu).",
+          "h": "Use number + pages: I write X pages.",
+          "s": "I write five pages."
+        },
+        {
+          "p": "Do you finish the main task today?",
+          "m": "Nói có hay không bạn hoàn thành nhiệm vụ chính hôm nay (1 câu).",
+          "h": "Use: Yes, I finish... / No, I don't.",
+          "s": "Yes, I finish the main task."
+        }
+      ]
+    },
+    {
+      "t": "Việc lặp lại hàng ngày",
+      "e": [
+        {
+          "p": "What do you do every morning at work?",
+          "m": "Nói một việc bạn làm mỗi sáng (1 câu).",
+          "h": "Use: I + V (base) + every morning.",
+          "s": "I read email every morning."
+        },
+        {
+          "p": "Do you have a short meeting every day?",
+          "m": "Nói có hay không bạn có họp ngắn mỗi ngày (1 câu).",
+          "h": "Use: Yes, I have... / No, I don't.",
+          "s": "Yes, I have a short meeting."
+        },
+        {
+          "p": "Which tool do you use daily?",
+          "m": "Nói một công cụ bạn dùng hàng ngày (1 câu).",
+          "h": "Use: I use + a/an + noun.",
+          "s": "I use a computer."
+        },
+        {
+          "p": "Do you write notes every day?",
+          "m": "Nói có hay không bạn ghi chú hàng ngày (1 câu).",
+          "h": "Use: Yes, I write... / No, I don't.",
+          "s": "Yes, I write notes every day."
+        },
+        {
+          "p": "How do you start your work day?",
+          "m": "Nói một việc bạn bắt đầu ngày làm việc (1 câu).",
+          "h": "Use: I + V (base) + O.",
+          "s": "I open my laptop."
+        }
+      ]
+    },
+    {
+      "t": "Công việc nhóm đơn giản",
+      "e": [
+        {
+          "p": "Do you work with others this week?",
+          "m": "Nói có hay không bạn làm việc với người khác (1 câu).",
+          "h": "Use: Yes, I work with... / No, I don't.",
+          "s": "Yes, I work with colleagues."
+        },
+        {
+          "p": "Who is on your team?",
+          "m": "Nói một người trong nhóm của bạn (1 câu).",
+          "h": "Use: My + family/job word or 'a colleague'.",
+          "s": "My colleague helps me."
+        },
+        {
+          "p": "Do you share a file with your team?",
+          "m": "Nói có hay không bạn chia sẻ file (1 câu).",
+          "h": "Use: Yes, I share... / No, I don't.",
+          "s": "Yes, I share the file."
+        },
+        {
+          "p": "What task do you do with the team?",
+          "m": "Nói một nhiệm vụ bạn làm cùng nhóm (1 câu).",
+          "h": "Use: I + V (base) + O with my team.",
+          "s": "I write the report with my team."
+        },
+        {
+          "p": "Do you help a team member this week?",
+          "m": "Nói có hay không bạn giúp đồng đội trong tuần (1 câu).",
+          "h": "Use: Yes, I help... / No, I don't.",
+          "s": "Yes, I help a team member."
+        }
+      ]
+    },
+    {
+      "t": "Tiến độ dự án nhỏ",
+      "e": [
+        {
+          "p": "Is the project fast or slow this week?",
+          "m": "Nói tiến độ: nhanh hoặc chậm (1 câu).",
+          "h": "Use: The project is + fast/slow.",
+          "s": "The project is fast this week."
+        },
+        {
+          "p": "Do you finish a small part of the project?",
+          "m": "Nói có hay không bạn hoàn thành một phần nhỏ (1 câu).",
+          "h": "Use: Yes, I finish... / No, I don't.",
+          "s": "Yes, I finish a small part."
+        },
+        {
+          "p": "What part do you finish?",
+          "m": "Nói một phần bạn hoàn thành (1 câu).",
+          "h": "Use: I finish + a/an + noun.",
+          "s": "I finish a section."
+        },
+        {
+          "p": "Do you check the project plan?",
+          "m": "Nói có hay không bạn kiểm tra kế hoạch (1 câu).",
+          "h": "Use: Yes, I check... / No, I don't.",
+          "s": "Yes, I check the plan."
+        },
+        {
+          "p": "How many days do you work on the project?",
+          "m": "Nói số ngày bạn làm việc cho dự án (1 câu).",
+          "h": "Use number + days: I work X days.",
+          "s": "I work three days on the project."
+        }
+      ]
+    },
+    {
+      "t": "Giao tiếp với quản lý",
+      "e": [
+        {
+          "p": "Do you tell your manager the weekly result?",
+          "m": "Nói có hay không bạn báo kết quả cho quản lý (1 câu).",
+          "h": "Use: Yes, I tell... / No, I don't.",
+          "s": "Yes, I tell my manager the result."
+        },
+        {
+          "p": "What do you report to your boss?",
+          "m": "Nói một việc bạn báo cáo cho sếp (1 câu).",
+          "h": "Use: I report + a noun.",
+          "s": "I report the finished tasks."
+        },
+        {
+          "p": "Do you ask for help from your manager?",
+          "m": "Nói có hay không bạn xin trợ giúp (1 câu).",
+          "h": "Use: Yes, I ask... / No, I don't.",
+          "s": "No, I don't ask for help."
+        },
+        {
+          "p": "When do you meet your manager?",
+          "m": "Nói thời điểm bạn gặp quản lý (1 câu).",
+          "h": "Use: I meet my manager + time word.",
+          "s": "I meet my manager on Friday."
+        },
+        {
+          "p": "Do you receive feedback from the manager?",
+          "m": "Nói có hay không bạn nhận phản hồi (1 câu).",
+          "h": "Use: Yes, I receive... / No, I don't.",
+          "s": "Yes, I receive feedback."
+        }
+      ]
+    },
+    {
+      "t": "Xử lý vấn đề nhỏ",
+      "e": [
+        {
+          "p": "Do you have any small problems this week?",
+          "m": "Nói có hay không bạn có vấn đề nhỏ (1 câu).",
+          "h": "Use: Yes, I have... / No, I don't.",
+          "s": "Yes, I have a small problem."
+        },
+        {
+          "p": "What problem do you fix?",
+          "m": "Nói một vấn đề bạn đã xử lý (1 câu).",
+          "h": "Use: I fix + a/an + problem.",
+          "s": "I fix a computer problem."
+        },
+        {
+          "p": "Do you tell someone about the problem?",
+          "m": "Nói có hay không bạn nói cho ai về vấn đề (1 câu).",
+          "h": "Use: Yes, I tell... / No, I don't.",
+          "s": "Yes, I tell my colleague."
+        },
+        {
+          "p": "How long do you spend on the fix?",
+          "m": "Nói số thời gian hoặc số giờ bạn bỏ ra (1 câu).",
+          "h": "Use: I spend + number + hour(s).",
+          "s": "I spend two hours on the fix."
+        },
+        {
+          "p": "Do you record the problem for next time?",
+          "m": "Nói có hay không bạn ghi lại vấn đề (1 câu).",
+          "h": "Use: Yes, I record... / No, I don't.",
+          "s": "Yes, I record the problem."
+        }
+      ]
+    },
+    {
+      "t": "Chuẩn bị cho tuần sau",
+      "e": [
+        {
+          "p": "Do you make a plan for next week?",
+          "m": "Nói có hay không bạn lập kế hoạch cho tuần sau (1 câu).",
+          "h": "Use: Yes, I make... / No, I don't.",
+          "s": "Yes, I make a plan."
+        },
+        {
+          "p": "What is your first task next week?",
+          "m": "Nói nhiệm vụ đầu tiên của bạn tuần sau (1 câu).",
+          "h": "Use: My first task is + noun or I will not use future; keep present style.",
+          "s": "My first task is to write a report."
+        },
+        {
+          "p": "Do you set a meeting time for next week?",
+          "m": "Nói có hay không bạn đặt lịch họp (1 câu).",
+          "h": "Use: Yes, I set... / No, I don't.",
+          "s": "Yes, I set a meeting time."
+        },
+        {
+          "p": "How many tasks do you plan next week?",
+          "m": "Nói số lượng nhiệm vụ bạn lên kế hoạch (1 câu).",
+          "h": "Use number + tasks: I plan X tasks.",
+          "s": "I plan three tasks."
+        },
+        {
+          "p": "Do you prepare files for next week?",
+          "m": "Nói có hay không bạn chuẩn bị file (1 câu).",
+          "h": "Use: Yes, I prepare... / No, I don't.",
+          "s": "Yes, I prepare files."
+        }
+      ]
+    },
+    {
+      "t": "Thay đổi công việc",
+      "e": [
+        {
+          "p": "Do you change any task this week?",
+          "m": "Nói có hay không bạn thay đổi nhiệm vụ (1 câu).",
+          "h": "Use: Yes, I change... / No, I don't.",
+          "s": "No, I don't change any task."
+        },
+        {
+          "p": "What task do you stop this week?",
+          "m": "Nói một nhiệm vụ bạn dừng lại (1 câu).",
+          "h": "Use: I stop + a/an + noun.",
+          "s": "I stop a small task."
+        },
+        {
+          "p": "Do you start a new task?",
+          "m": "Nói có hay không bạn bắt đầu nhiệm vụ mới (1 câu).",
+          "h": "Use: Yes, I start... / No, I don't.",
+          "s": "Yes, I start a new task."
+        },
+        {
+          "p": "Who tells you to change the task?",
+          "m": "Nói một người nói bạn thay đổi (1 câu).",
+          "h": "Use: My + manager/colleague + says... but keep simple.",
+          "s": "My manager asks me."
+        },
+        {
+          "p": "Do you write the change in the file?",
+          "m": "Nói có hay không bạn ghi thay đổi vào file (1 câu).",
+          "h": "Use: Yes, I write... / No, I don't.",
+          "s": "Yes, I write the change."
+        }
+      ]
+    },
+    {
+      "t": "Ưu tiên công việc",
+      "e": [
+        {
+          "p": "Which task do you do first today?",
+          "m": "Nói nhiệm vụ bạn làm trước nhất trong ngày (1 câu).",
+          "h": "Use: I do + noun first.",
+          "s": "I do the report first."
+        },
+        {
+          "p": "Do you move a task to later?",
+          "m": "Nói có hay không bạn dời nhiệm vụ (1 câu).",
+          "h": "Use: Yes, I move... / No, I don't.",
+          "s": "Yes, I move a task to later."
+        },
+        {
+          "p": "What task is low priority?",
+          "m": "Nói một nhiệm vụ ưu tiên thấp (1 câu).",
+          "h": "Use: A low priority task is + noun.",
+          "s": "A low priority task is cleaning files."
+        },
+        {
+          "p": "Do you mark important tasks?",
+          "m": "Nói có hay không bạn đánh dấu nhiệm vụ quan trọng (1 câu).",
+          "h": "Use: Yes, I mark... / No, I don't.",
+          "s": "Yes, I mark important tasks."
+        },
+        {
+          "p": "How many tasks are high priority now?",
+          "m": "Nói số nhiệm vụ ưu tiên cao hiện tại (1 câu).",
+          "h": "Use number + tasks: I have X high priority tasks.",
+          "s": "I have two high priority tasks."
+        }
+      ]
+    },
+    {
+      "t": "Những công việc thường gặp",
+      "e": [
+        {
+          "p": "Do you write a report this week?",
+          "m": "Nói có hay không bạn viết báo cáo tuần này (1 câu).",
+          "h": "Use: Yes, I write... / No, I don't.",
+          "s": "Yes, I write a report."
+        },
+        {
+          "p": "Do you attend a meeting this week?",
+          "m": "Nói có hay không bạn tham dự họp (1 câu).",
+          "h": "Use: Yes, I attend... / No, I don't.",
+          "s": "Yes, I attend a meeting."
+        },
+        {
+          "p": "What routine task do you do now?",
+          "m": "Nói một công việc thường làm hiện tại (1 câu).",
+          "h": "Use: I + V (base) + O.",
+          "s": "I check the schedule."
+        },
+        {
+          "p": "Do you update a file this week?",
+          "m": "Nói có hay không bạn cập nhật file (1 câu).",
+          "h": "Use: Yes, I update... / No, I don't.",
+          "s": "Yes, I update the file."
+        },
+        {
+          "p": "Who says the task list in your team?",
+          "m": "Nói ai nói danh sách nhiệm vụ (1 câu).",
+          "h": "Use: My manager / My team member + says..., keep simple.",
+          "s": "My manager gives the task list."
+        }
+      ]
+    },
+    {
+      "t": "Ôn tập: Tổng hợp báo cáo tuần",
+      "e": [
+        {
+          "p": "Can you give a short weekly recap?",
+          "m": "Nói một câu tóm tắt việc chính bạn làm trong tuần (1 câu).",
+          "h": "Use: I + V (base) + O.",
+          "s": "I finish a report and send emails."
+        },
+        {
+          "p": "How many tasks do you complete this week?",
+          "m": "Nói số nhiệm vụ bạn hoàn thành trong tuần (1 câu).",
+          "h": "Use number + tasks: I complete X tasks.",
+          "s": "I complete four tasks this week."
+        },
+        {
+          "p": "Do you have any problem this week?",
+          "m": "Nói có hay không bạn có vấn đề tuần này (1 câu).",
+          "h": "Use: Yes, I have... / No, I don't.",
+          "s": "No, I don't have any problem."
+        },
+        {
+          "p": "Who helps you with the report?",
+          "m": "Nói một người hỗ trợ bạn làm báo cáo (1 câu).",
+          "h": "Use: My colleague / My team member + helps me.",
+          "s": "My colleague helps me with the report."
+        },
+        {
+          "p": "Where do you finish most work?",
+          "m": "Nói nơi bạn hoàn thành phần lớn công việc (1 câu).",
+          "h": "Use: I work at / from / in + place.",
+          "s": "I work from home most days."
+        }
+      ]
+    },
+    {
+      "t": "Ôn tập: Tiến độ và vấn đề",
+      "e": [
+        {
+          "p": "Is the project on track this week?",
+          "m": "Nói có hay không dự án theo kế hoạch (1 câu).",
+          "h": "Use: Yes, it is. / No, it is not.",
+          "s": "Yes, the project is on track."
+        },
+        {
+          "p": "What small issue do you solve?",
+          "m": "Nói một vấn đề nhỏ bạn giải quyết (1 câu).",
+          "h": "Use: I fix + a/an + problem.",
+          "s": "I fix a login problem."
+        },
+        {
+          "p": "Do you update the team about progress?",
+          "m": "Nói có hay không bạn báo tiến độ cho nhóm (1 câu).",
+          "h": "Use: Yes, I update... / No, I don't.",
+          "s": "Yes, I update the team about progress."
+        },
+        {
+          "p": "How many issues do you solve this week?",
+          "m": "Nói số vấn đề bạn giải quyết (1 câu).",
+          "h": "Use number + issues: I solve X issues.",
+          "s": "I solve two issues this week."
+        },
+        {
+          "p": "Do you record the solution for future?",
+          "m": "Nói có hay không bạn ghi lại giải pháp (1 câu).",
+          "h": "Use: Yes, I record... / No, I don't.",
+          "s": "Yes, I record the solution."
+        }
+      ]
+    },
+    {
+      "t": "Ôn tập: Kế hoạch và kết luận",
+      "e": [
+        {
+          "p": "Do you plan tasks for next week?",
+          "m": "Nói có hay không bạn lên kế hoạch cho tuần sau (1 câu).",
+          "h": "Use: Yes, I plan... / No, I don't.",
+          "s": "Yes, I plan tasks for next week."
+        },
+        {
+          "p": "What is your main goal next week?",
+          "m": "Nói một mục tiêu chính tuần sau (1 câu).",
+          "h": "Use: My main goal is + noun or phrase.",
+          "s": "My main goal is to finish the report."
+        },
+        {
+          "p": "Do you tell the team the plan?",
+          "m": "Nói có hay không bạn nói kế hoạch cho nhóm (1 câu).",
+          "h": "Use: Yes, I tell... / No, I don't.",
+          "s": "Yes, I tell the team the plan."
+        },
+        {
+          "p": "How do you end your week?",
+          "m": "Nói một việc bạn làm để kết thúc tuần (1 câu).",
+          "h": "Use: I + V (base) + O.",
+          "s": "I finish tasks and save files."
+        },
+        {
+          "p": "Do you write a short note about this week?",
+          "m": "Nói có hay không bạn viết ghi chú ngắn về tuần (1 câu).",
+          "h": "Use: Yes, I write... / No, I don't.",
+          "s": "Yes, I write a short note."
+        }
+      ]
+    }
+  ]
+}

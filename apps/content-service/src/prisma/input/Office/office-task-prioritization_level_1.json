@@ -1,0 +1,635 @@
+{
+  "l": 1,
+  "d": [
+    {
+      "t": "Sắp xếp công việc buổi sáng",
+      "e": [
+        {
+          "p": "What is your first task this morning?",
+          "m": "Nói việc bạn làm trước nhất sáng nay.",
+          "h": "Dùng cấu trúc: I do ... first.",
+          "s": "I do my homework first."
+        },
+        {
+          "p": "Is the meeting or the email more important?",
+          "m": "Chọn việc quan trọng hơn (meeting hoặc email).",
+          "h": "Dùng: The ... is more important.",
+          "s": "The meeting is more important."
+        },
+        {
+          "p": "Which task is urgent this morning?",
+          "m": "Nói một việc khẩn cấp sáng nay.",
+          "h": "Dùng: ... is urgent.",
+          "s": "My report is urgent."
+        },
+        {
+          "p": "Can you finish the call now or later?",
+          "m": "Nói bạn làm cuộc gọi ngay hay sau.",
+          "h": "Dùng: I do it now. / I do it later.",
+          "s": "I do the call now."
+        },
+        {
+          "p": "Order these: study, buy food, clean. Which order?",
+          "m": "Viết thứ tự ba việc theo ưu tiên.",
+          "h": "Dùng: First..., then..., last....",
+          "s": "First I study, then I buy food, last I clean."
+        }
+      ]
+    },
+    {
+      "t": "Việc gấp trong ngày",
+      "e": [
+        {
+          "p": "Which task is due today?",
+          "m": "Nói việc nào phải nộp hôm nay.",
+          "h": "Dùng: ... is due today.",
+          "s": "The report is due today."
+        },
+        {
+          "p": "Is the project or the email more urgent?",
+          "m": "Chọn việc khẩn cấp hơn.",
+          "h": "Dùng: ... is more urgent.",
+          "s": "The project is more urgent."
+        },
+        {
+          "p": "Do you do urgent tasks first?",
+          "m": "Nói bạn có làm việc gấp trước hay không (Yes/No + ngắn).",
+          "h": "Dùng: Yes, I do... / No, I do...",
+          "s": "Yes, I do urgent tasks first."
+        },
+        {
+          "p": "How long do you work on it?",
+          "m": "Nói thời gian bạn làm việc đó (ví dụ: 30 minutes).",
+          "h": "Dùng: I work for ... (minutes/hours).",
+          "s": "I work for one hour."
+        },
+        {
+          "p": "You have a call and a report. Which do you pick now?",
+          "m": "Chọn việc bạn làm bây giờ (call hoặc report).",
+          "h": "Dùng: I do the ... now.",
+          "s": "I do the report now."
+        }
+      ]
+    },
+    {
+      "t": "Công việc ở trường",
+      "e": [
+        {
+          "p": "Which homework do you do first?",
+          "m": "Nói bài tập bạn làm trước nhất.",
+          "h": "Dùng: I do ... first.",
+          "s": "I do my math homework first."
+        },
+        {
+          "p": "Is the test or the homework more important?",
+          "m": "Chọn điều quan trọng hơn (test hoặc homework).",
+          "h": "Dùng: The ... is more important.",
+          "s": "The test is more important."
+        },
+        {
+          "p": "When is your project due?",
+          "m": "Nói khi nào nộp dự án (today/tomorrow).",
+          "h": "Dùng: It is due ...",
+          "s": "It is due tomorrow."
+        },
+        {
+          "p": "Can you study now or after lunch?",
+          "m": "Nói bạn học bây giờ hay sau bữa trưa.",
+          "h": "Dùng: I study now. / I study after lunch.",
+          "s": "I study after lunch."
+        },
+        {
+          "p": "You have art, math, and reading. Which is last?",
+          "m": "Chọn việc bạn để sau cùng.",
+          "h": "Dùng: I do ... last.",
+          "s": "I do art last."
+        }
+      ]
+    },
+    {
+      "t": "Nói với đồng nghiệp",
+      "e": [
+        {
+          "p": "Which task do you do first at work?",
+          "m": "Nói việc bạn làm đầu tiên ở chỗ làm.",
+          "h": "Dùng: I do ... first.",
+          "s": "I do the email first."
+        },
+        {
+          "p": "Is the meeting today or tomorrow?",
+          "m": "Nói cuộc họp vào hôm nay hay ngày mai.",
+          "h": "Dùng: The meeting is today / tomorrow.",
+          "s": "The meeting is today."
+        },
+        {
+          "p": "Which job is easy?",
+          "m": "Nói một việc bạn thấy dễ.",
+          "h": "Dùng: ... is easy.",
+          "s": "Filing is easy."
+        },
+        {
+          "p": "Can you help with the report now?",
+          "m": "Trả lời có thể giúp ngay hay không (Yes/No).",
+          "h": "Dùng: Yes, I can. / No, I can't.",
+          "s": "Yes, I can help now."
+        },
+        {
+          "p": "You have three jobs: call, file, write. Which order?",
+          "m": "Viết thứ tự ba việc bạn làm.",
+          "h": "Dùng: First..., then..., last....",
+          "s": "First I write, then I call, last I file."
+        }
+      ]
+    },
+    {
+      "t": "Lên danh sách cho ngày mai",
+      "e": [
+        {
+          "p": "What is one task for tomorrow?",
+          "m": "Nói một việc bạn làm cho ngày mai.",
+          "h": "Dùng: I will ... (but keep present simple: I do ... tomorrow).",
+          "s": "I study for the test tomorrow."
+        },
+        {
+          "p": "Is the shopping or cleaning for tomorrow?",
+          "m": "Chọn việc bạn làm vào ngày mai.",
+          "h": "Dùng: I do ... tomorrow.",
+          "s": "I do the shopping tomorrow."
+        },
+        {
+          "p": "Which is more important for tomorrow?",
+          "m": "Chọn việc quan trọng hơn cho ngày mai.",
+          "h": "Dùng: ... is more important.",
+          "s": "Study is more important."
+        },
+        {
+          "p": "Do you wake up early to do tasks?",
+          "m": "Nói bạn có thức dậy sớm để làm việc không (Yes/No).",
+          "h": "Dùng: Yes, I do. / No, I do not.",
+          "s": "Yes, I wake up early to work."
+        },
+        {
+          "p": "Make a short plan: two tasks for tomorrow.",
+          "m": "Viết hai việc bạn làm ngày mai theo thứ tự.",
+          "h": "Dùng: First..., then....",
+          "s": "First I study, then I clean the room."
+        }
+      ]
+    },
+    {
+      "t": "Quyết định giữa hai việc",
+      "e": [
+        {
+          "p": "Do you do the call or the shop now?",
+          "m": "Chọn một trong hai việc để làm ngay.",
+          "h": "Dùng: I do the ... now.",
+          "s": "I do the call now."
+        },
+        {
+          "p": "Which is more important: family or work?",
+          "m": "Chọn quan trọng hơn (family hoặc work).",
+          "h": "Dùng: Family/Work is more important.",
+          "s": "Family is more important."
+        },
+        {
+          "p": "Is the task easy or hard?",
+          "m": "Nói công việc dễ hay khó.",
+          "h": "Dùng: It is easy. / It is hard.",
+          "s": "It is easy."
+        },
+        {
+          "p": "Do you wait or do it now?",
+          "m": "Nói bạn đợi hay làm ngay.",
+          "h": "Dùng: I wait. / I do it now.",
+          "s": "I do it now."
+        },
+        {
+          "p": "Choose one: study tonight or rest. Which?",
+          "m": "Chọn bạn học tối nay hay nghỉ.",
+          "h": "Dùng: I ... tonight.",
+          "s": "I study tonight."
+        }
+      ]
+    },
+    {
+      "t": "Giúp bạn chọn việc",
+      "e": [
+        {
+          "p": "Which task should I do first?",
+          "m": "Nói rõ bạn nghĩ người kia nên làm gì trước.",
+          "h": "Dùng: You should do ... first.",
+          "s": "You should do the urgent task first."
+        },
+        {
+          "p": "Is this task hard for them?",
+          "m": "Trả lời việc đó có khó cho họ không (Yes/No).",
+          "h": "Dùng: Yes, it is. / No, it is not.",
+          "s": "No, it is not hard for them."
+        },
+        {
+          "p": "Which task has a short time?",
+          "m": "Nói việc nào mất ít thời gian.",
+          "h": "Dùng: ... takes little time.",
+          "s": "The call takes little time."
+        },
+        {
+          "p": "Can you give a short order of two tasks?",
+          "m": "Viết thứ tự hai việc (ngắn gọn).",
+          "h": "Dùng: First..., then....",
+          "s": "First clean, then shop."
+        },
+        {
+          "p": "Tell a friend: do call now or later.",
+          "m": "Khuyên bạn: gọi ngay hay sau (một câu).",
+          "h": "Dùng: You should call now. / You should call later.",
+          "s": "You should call now."
+        }
+      ]
+    },
+    {
+      "t": "Trạng thái công việc",
+      "e": [
+        {
+          "p": "Is the task finished?",
+          "m": "Nói việc đã xong hay chưa (Yes/No).",
+          "h": "Dùng: Yes, it is finished. / No, it is not finished.",
+          "s": "No, it is not finished."
+        },
+        {
+          "p": "Are you busy now?",
+          "m": "Trả lời bạn có bận không (Yes/No).",
+          "h": "Dùng: Yes, I am. / No, I am not.",
+          "s": "Yes, I am busy now."
+        },
+        {
+          "p": "Which task is ready to send?",
+          "m": "Nói việc nào sẵn sàng để gửi.",
+          "h": "Dùng: ... is ready to send.",
+          "s": "The email is ready to send."
+        },
+        {
+          "p": "Do you wait for a reply or send now?",
+          "m": "Nói bạn đợi trả lời hay gửi ngay.",
+          "h": "Dùng: I wait. / I send now.",
+          "s": "I send it now."
+        },
+        {
+          "p": "Say one thing you finish today.",
+          "m": "Nói một việc bạn hoàn thành hôm nay.",
+          "h": "Dùng: I finish ... today.",
+          "s": "I finish my homework today."
+        }
+      ]
+    },
+    {
+      "t": "Cuộc họp và email",
+      "e": [
+        {
+          "p": "Which do you do first: meeting or email?",
+          "m": "Chọn làm cuộc họp hay email trước.",
+          "h": "Dùng: I do the ... first.",
+          "s": "I do the meeting first."
+        },
+        {
+          "p": "Is the email short or long?",
+          "m": "Nói email ngắn hay dài.",
+          "h": "Dùng: It is short. / It is long.",
+          "s": "It is short."
+        },
+        {
+          "p": "Do you answer email now?",
+          "m": "Nói bạn có trả lời email bây giờ không (Yes/No).",
+          "h": "Dùng: Yes, I do. / No, I do not.",
+          "s": "Yes, I answer the email now."
+        },
+        {
+          "p": "How many emails do you have today?",
+          "m": "Nói số email bạn có hôm nay (1-100).",
+          "h": "Dùng số: I have ... emails.",
+          "s": "I have five emails today."
+        },
+        {
+          "p": "Choose: join meeting or read email. Which one?",
+          "m": "Chọn bạn tham gia họp hay đọc email.",
+          "h": "Dùng: I join the meeting. / I read the email.",
+          "s": "I join the meeting."
+        }
+      ]
+    },
+    {
+      "t": "Việc nhà và thời gian rảnh",
+      "e": [
+        {
+          "p": "What do you do first at home?",
+          "m": "Nói việc bạn làm đầu tiên khi về nhà.",
+          "h": "Dùng: I ... first.",
+          "s": "I wash my hands first."
+        },
+        {
+          "p": "Is cleaning or cooking more important now?",
+          "m": "Chọn việc quan trọng hơn bây giờ.",
+          "h": "Dùng: ... is more important.",
+          "s": "Cooking is more important now."
+        },
+        {
+          "p": "Do you rest after work?",
+          "m": "Nói bạn nghỉ ngơi sau khi làm việc hay không (Yes/No).",
+          "h": "Dùng: Yes, I do. / No, I do not.",
+          "s": "Yes, I rest after work."
+        },
+        {
+          "p": "Which home task takes little time?",
+          "m": "Nói việc nhà mất ít thời gian.",
+          "h": "Dùng: ... takes little time.",
+          "s": "Washing dishes takes little time."
+        },
+        {
+          "p": "Make a short evening plan: two tasks.",
+          "m": "Viết hai việc buổi tối theo thứ tự.",
+          "h": "Dùng: First..., then....",
+          "s": "First I cook dinner, then I watch TV."
+        }
+      ]
+    },
+    {
+      "t": "Nhờ ai làm việc giúp",
+      "e": [
+        {
+          "p": "Can you help me with this task?",
+          "m": "Trả lời bạn có giúp được không (Yes/No).",
+          "h": "Dùng: Yes, I can. / No, I can't.",
+          "s": "Yes, I can help."
+        },
+        {
+          "p": "Which task can you do for me?",
+          "m": "Nói một việc bạn có thể làm giúp.",
+          "h": "Dùng: I can do ...",
+          "s": "I can do the shopping for you."
+        },
+        {
+          "p": "Do you do it now or later?",
+          "m": "Nói bạn làm giúp ngay hay sau.",
+          "h": "Dùng: I do it now. / I do it later.",
+          "s": "I do it later."
+        },
+        {
+          "p": "Is the task easy for you?",
+          "m": "Nói việc đó có dễ với bạn không (Yes/No).",
+          "h": "Dùng: Yes, it is. / No, it is not.",
+          "s": "Yes, it is easy for me."
+        },
+        {
+          "p": "Tell one reason you help (one short reason).",
+          "m": "Nói một lý do ngắn bạn giúp (một ý).",
+          "h": "Dùng: I help because ...",
+          "s": "I help because you are my friend."
+        }
+      ]
+    },
+    {
+      "t": "Ngày cuối tuần: ít thời gian",
+      "e": [
+        {
+          "p": "Which task do you do on weekend first?",
+          "m": "Nói việc bạn làm đầu tiên cuối tuần.",
+          "h": "Dùng: I do ... first.",
+          "s": "I do shopping first on the weekend."
+        },
+        {
+          "p": "Is homework or rest more important now?",
+          "m": "Chọn quan trọng hơn lúc này.",
+          "h": "Dùng: ... is more important.",
+          "s": "Rest is more important now."
+        },
+        {
+          "p": "Do you save time for fun?",
+          "m": "Nói bạn có để thời gian cho vui không (Yes/No).",
+          "h": "Dùng: Yes, I do. / No, I do not.",
+          "s": "Yes, I save time for fun."
+        },
+        {
+          "p": "Which task is short today?",
+          "m": "Nói việc ngắn trong ngày hôm nay.",
+          "h": "Dùng: ... is short.",
+          "s": "The walk is short."
+        },
+        {
+          "p": "Pick two tasks for today in order.",
+          "m": "Viết hai việc bạn làm hôm nay theo thứ tự.",
+          "h": "Dùng: First..., then....",
+          "s": "First I clean, then I rest."
+        }
+      ]
+    },
+    {
+      "t": "Chuẩn bị cho sự kiện nhỏ",
+      "e": [
+        {
+          "p": "What is the first thing to do for the event?",
+          "m": "Nói việc bạn làm trước nhất để chuẩn bị sự kiện.",
+          "h": "Dùng: I ... first.",
+          "s": "I buy food first."
+        },
+        {
+          "p": "Is the shopping or the invitation more urgent?",
+          "m": "Chọn việc gấp hơn cho sự kiện.",
+          "h": "Dùng: ... is more urgent.",
+          "s": "Shopping is more urgent."
+        },
+        {
+          "p": "Do you ask a friend to help?",
+          "m": "Nói bạn có nhờ bạn giúp không (Yes/No).",
+          "h": "Dùng: Yes, I do. / No, I do not.",
+          "s": "Yes, I ask a friend to help."
+        },
+        {
+          "p": "Which task takes the most time?",
+          "m": "Nói việc tốn nhiều thời gian nhất.",
+          "h": "Dùng: ... takes the most time.",
+          "s": "Cooking takes the most time."
+        },
+        {
+          "p": "Make a short plan: three steps for the event.",
+          "m": "Viết ba bước ngắn cho sự kiện theo thứ tự.",
+          "h": "Dùng: First..., then..., last....",
+          "s": "First I buy food, then I cook, last I welcome guests."
+        }
+      ]
+    },
+    {
+      "t": "Quản lý vài việc cùng lúc",
+      "e": [
+        {
+          "p": "Can you do two tasks at the same time?",
+          "m": "Trả lời bạn làm hai việc cùng lúc được không (Yes/No).",
+          "h": "Dùng: Yes, I can. / No, I can't.",
+          "s": "No, I cannot do two tasks at the same time."
+        },
+        {
+          "p": "Which two tasks can you do together?",
+          "m": "Nói hai việc bạn có thể làm cùng lúc.",
+          "h": "Dùng: I can ... and ... together.",
+          "s": "I can listen and write together."
+        },
+        {
+          "p": "Do you stop one task to do another?",
+          "m": "Nói bạn có dừng việc để làm việc khác không (Yes/No).",
+          "h": "Dùng: Yes, I stop. / No, I do not stop.",
+          "s": "Yes, I stop one task to do another."
+        },
+        {
+          "p": "Which task do you pause now?",
+          "m": "Nói việc bạn tạm dừng lúc này.",
+          "h": "Dùng: I pause ...",
+          "s": "I pause cleaning now."
+        },
+        {
+          "p": "Give a short rule: what you do first when busy.",
+          "m": "Nói một quy tắc ngắn bạn làm khi bận (một ý).",
+          "h": "Dùng: I do ... first.",
+          "s": "I do the urgent task first."
+        }
+      ]
+    },
+    {
+      "t": "Theo dõi tiến độ công việc",
+      "e": [
+        {
+          "p": "Is your task complete now?",
+          "m": "Nói công việc bạn có hoàn thành không (Yes/No).",
+          "h": "Dùng: Yes, it is complete. / No, it is not.",
+          "s": "No, my task is not complete."
+        },
+        {
+          "p": "How many tasks are left?",
+          "m": "Nói số việc còn lại (1-100).",
+          "h": "Dùng: I have ... tasks left.",
+          "s": "I have two tasks left."
+        },
+        {
+          "p": "Do you do small tasks first?",
+          "m": "Nói bạn làm việc nhỏ trước không (Yes/No).",
+          "h": "Dùng: Yes, I do. / No, I do not.",
+          "s": "Yes, I do small tasks first."
+        },
+        {
+          "p": "Which task needs a long time?",
+          "m": "Nói việc cần nhiều thời gian.",
+          "h": "Dùng: ... needs a long time.",
+          "s": "The project needs a long time."
+        },
+        {
+          "p": "Say one next step for your work.",
+          "m": "Nói bước tiếp theo bạn sẽ làm (một câu).",
+          "h": "Dùng: I will / I ... next. (dùng present simple: I ... next)",
+          "s": "I start the report next."
+        }
+      ]
+    },
+    {
+      "t": "Ôn tập: Trong một ngày làm việc",
+      "e": [
+        {
+          "p": "What is your first job today?",
+          "m": "Nói việc bạn làm đầu tiên trong ngày hôm nay.",
+          "h": "Dùng: I do ... first.",
+          "s": "I check my email first."
+        },
+        {
+          "p": "Which task is urgent right now?",
+          "m": "Nói việc gấp ngay bây giờ.",
+          "h": "Dùng: ... is urgent.",
+          "s": "The meeting is urgent right now."
+        },
+        {
+          "p": "Do you ask for help when busy?",
+          "m": "Nói bạn có nhờ giúp khi bận không (Yes/No).",
+          "h": "Dùng: Yes, I do. / No, I do not.",
+          "s": "Yes, I ask for help when I am busy."
+        },
+        {
+          "p": "Give one order of three tasks today.",
+          "m": "Viết thứ tự ba việc bạn làm hôm nay.",
+          "h": "Dùng: First..., then..., last....",
+          "s": "First I write, then I call, last I rest."
+        },
+        {
+          "p": "Which task you finish now?",
+          "m": "Nói một việc bạn hoàn thành ngay bây giờ.",
+          "h": "Dùng: I finish ... now.",
+          "s": "I finish the email now."
+        }
+      ]
+    },
+    {
+      "t": "Ôn tập: Giúp một người bạn",
+      "e": [
+        {
+          "p": "Can you help a friend with homework?",
+          "m": "Trả lời bạn có giúp bạn với bài tập không (Yes/No).",
+          "h": "Dùng: Yes, I can. / No, I can't.",
+          "s": "Yes, I can help with homework."
+        },
+        {
+          "p": "Which task do you do for your friend first?",
+          "m": "Nói việc bạn làm trước cho bạn bè.",
+          "h": "Dùng: I do ... first.",
+          "s": "I explain the lesson first."
+        },
+        {
+          "p": "Is the help short or long?",
+          "m": "Nói việc giúp đó ngắn hay dài.",
+          "h": "Dùng: It is short. / It is long.",
+          "s": "It is short."
+        },
+        {
+          "p": "Do you do it now or tomorrow?",
+          "m": "Nói bạn làm giúp bây giờ hay ngày mai.",
+          "h": "Dùng: I do it now. / I do it tomorrow.",
+          "s": "I do it now."
+        },
+        {
+          "p": "Tell one rule: how you pick tasks to help.",
+          "m": "Nói một quy tắc ngắn bạn dùng khi chọn giúp (một ý).",
+          "h": "Dùng: I help with ... first.",
+          "s": "I help with urgent tasks first."
+        }
+      ]
+    },
+    {
+      "t": "Ôn tập: Tổng hợp tình huống",
+      "e": [
+        {
+          "p": "Which task is more important now?",
+          "m": "Chọn một việc quan trọng hơn ngay bây giờ.",
+          "h": "Dùng: ... is more important.",
+          "s": "The meeting is more important now."
+        },
+        {
+          "p": "Do you do urgent tasks first or last?",
+          "m": "Nói bạn làm việc gấp trước hay sau.",
+          "h": "Dùng: I do urgent tasks first/last.",
+          "s": "I do urgent tasks first."
+        },
+        {
+          "p": "Can you finish two tasks today?",
+          "m": "Trả lời bạn có làm xong hai việc hôm nay không (Yes/No).",
+          "h": "Dùng: Yes, I can. / No, I cannot.",
+          "s": "Yes, I can finish two tasks today."
+        },
+        {
+          "p": "Make a short plan: three things to do tomorrow.",
+          "m": "Viết ba việc bạn làm ngày mai theo thứ tự.",
+          "h": "Dùng: First..., then..., last....",
+          "s": "First I study, then I shop, last I rest."
+        },
+        {
+          "p": "Say one tip to order tasks.",
+          "m": "Nói một mẹo ngắn để sắp xếp công việc (một ý).",
+          "h": "Dùng: I ... first / I do ... first.",
+          "s": "I do urgent tasks first."
+        }
+      ]
+    }
+  ]
+}

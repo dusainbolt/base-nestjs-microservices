@@ -1,0 +1,530 @@
+{
+  "l": 1,
+  "d": [
+    {
+      "t": "Máy tính chậm",
+      "e": [
+        {
+          "p": "What's the problem with your computer?",
+          "m": "Nói một câu nêu vấn đề: máy tính chậm.",
+          "h": "S + be + Adj",
+          "s": "My computer is slow."
+        },
+        {
+          "p": "Is it slow now?",
+          "m": "Trả lời có hoặc không về tình trạng hiện tại.",
+          "h": "Yes, it is / No, it is not",
+          "s": "Yes, it is."
+        },
+        {
+          "p": "What do you do to fix it?",
+          "m": "Nói một việc bạn làm để sửa (ví dụ: khởi động lại).",
+          "h": "S + V (base) hoặc S + can + V",
+          "s": "I restart the computer."
+        },
+        {
+          "p": "Can I help you?",
+          "m": "Nói nếu bạn cần giúp (Yes/No).",
+          "h": "Yes, please / No, thanks",
+          "s": "Yes, please."
+        },
+        {
+          "p": "Who can fix the computer?",
+          "m": "Nói một người có thể sửa máy (một câu).",
+          "h": "S + can + V",
+          "s": "My boss can fix it."
+        }
+      ]
+    },
+    {
+      "t": "Máy in kẹt",
+      "e": [
+        {
+          "p": "What happened to the printer?",
+          "m": "Nói một câu về vấn đề (máy in kẹt).",
+          "h": "S + V(s) + O hoặc S + be + Adj",
+          "s": "The printer is stuck."
+        },
+        {
+          "p": "Is it stuck today?",
+          "m": "Trả lời nếu vấn đề xảy ra hôm nay (Yes/No).",
+          "h": "Yes, it is / No, it is not",
+          "s": "It is stuck today."
+        },
+        {
+          "p": "What do you do now?",
+          "m": "Nói một hành động bạn làm bây giờ để xử lý.",
+          "h": "S + V",
+          "s": "I open the paper tray."
+        },
+        {
+          "p": "Do you need paper now?",
+          "m": "Trả lời có hoặc không về việc cần giấy.",
+          "h": "Yes, I need ... / No, I do not need ...",
+          "s": "No, I do not need paper."
+        },
+        {
+          "p": "Who helps with the printer?",
+          "m": "Nói một người có thể giúp với máy in.",
+          "h": "S + can + V",
+          "s": "The helper can fix it."
+        }
+      ]
+    },
+    {
+      "t": "Đèn phòng họp hỏng",
+      "e": [
+        {
+          "p": "Is the meeting room light on?",
+          "m": "Nói nếu đèn đang sáng hay không.",
+          "h": "S + be + Adv/Adj",
+          "s": "No, the light is off."
+        },
+        {
+          "p": "When do you see the problem?",
+          "m": "Nói thời điểm bạn thấy vấn đề (một từ: today/this morning).",
+          "h": "Use 'today' or 'this morning' with Present Simple",
+          "s": "I see it today."
+        },
+        {
+          "p": "What can we do to fix the light?",
+          "m": "Đưa một giải pháp đơn giản (một câu).",
+          "h": "We can + V / S + can + V",
+          "s": "We can change the bulb."
+        },
+        {
+          "p": "Do you have a spare bulb?",
+          "m": "Trả lời có hoặc không về việc có bóng đèn dự phòng.",
+          "h": "Yes, I have ... / No, I do not have ...",
+          "s": "No, I do not have a spare bulb."
+        },
+        {
+          "p": "Who can buy a new bulb?",
+          "m": "Nói một người có thể mua bóng đèn.",
+          "h": "S + can + V",
+          "s": "My coworker can buy it."
+        }
+      ]
+    },
+    {
+      "t": "Tài liệu thất lạc",
+      "e": [
+        {
+          "p": "I cannot find the file.",
+          "m": "Nói một câu xác nhận bạn không tìm thấy file.",
+          "h": "S + cannot + V",
+          "s": "I cannot find the file."
+        },
+        {
+          "p": "Do you see the file now?",
+          "m": "Trả lời có hoặc không về việc có thấy file bây giờ.",
+          "h": "Yes, I see ... / No, I do not see ...",
+          "s": "No, I do not see it."
+        },
+        {
+          "p": "Where do you check first?",
+          "m": "Nói một nơi bạn kiểm tra trước (desk/email).",
+          "h": "S + V + O",
+          "s": "I check my desk."
+        },
+        {
+          "p": "Can someone help you?",
+          "m": "Trả lời nếu bạn cần ai giúp (Yes/No).",
+          "h": "Yes, I need help / No, I do not need help",
+          "s": "Yes, I need help."
+        },
+        {
+          "p": "Who has the file?",
+          "m": "Nói một người có thể có file (một câu).",
+          "h": "S + has + O hoặc S + can + V",
+          "s": "My colleague has the file."
+        }
+      ]
+    },
+    {
+      "t": "Đồng nghiệp đến muộn",
+      "e": [
+        {
+          "p": "Why is he late?",
+          "m": "Nói một nguyên nhân ngắn (ví dụ: traffic).",
+          "h": "He is late because ...",
+          "s": "He is late because of traffic."
+        },
+        {
+          "p": "How often is he late?",
+          "m": "Nói tần suất ngắn (always/often/never).",
+          "h": "He is + frequency + late",
+          "s": "He is often late."
+        },
+        {
+          "p": "What can we do about it?",
+          "m": "Đề xuất một cách xử lý (một câu).",
+          "h": "We can + V",
+          "s": "We can talk to him."
+        },
+        {
+          "p": "Do you tell the boss?",
+          "m": "Trả lời có hoặc không về việc báo sếp.",
+          "h": "Yes, I tell / No, I do not tell",
+          "s": "No, I do not tell the boss."
+        },
+        {
+          "p": "Who will ask him to be on time?",
+          "m": "Nói một người sẽ nhắc (một câu).",
+          "h": "S + will not used; use 'I ask' or 'My boss asks' (Present Simple)",
+          "s": "I ask him."
+        }
+      ]
+    },
+    {
+      "t": "Khách hàng phàn nàn",
+      "e": [
+        {
+          "p": "What is the customer's problem?",
+          "m": "Nói một câu nêu vấn đề (late delivery/wrong item).",
+          "h": "S + be + Adj hoặc S + V + O",
+          "s": "The delivery is late."
+        },
+        {
+          "p": "Is the problem today?",
+          "m": "Trả lời nếu vấn đề xảy ra hôm nay (Yes/No).",
+          "h": "Yes, it is / No, it is not",
+          "s": "It happens today."
+        },
+        {
+          "p": "What do you say to the customer?",
+          "m": "Nói một câu xin lỗi ngắn.",
+          "h": "I am sorry + for ...",
+          "s": "I am sorry for the problem."
+        },
+        {
+          "p": "Can you give a solution?",
+          "m": "Nói một giải pháp ngắn (một câu).",
+          "h": "We can + V",
+          "s": "We can send a new item."
+        },
+        {
+          "p": "Who handles the return?",
+          "m": "Nói một người hoặc nhóm xử lý trả hàng.",
+          "h": "S + can + V",
+          "s": "The team can handle it."
+        }
+      ]
+    },
+    {
+      "t": "Thiếu vật dụng văn phòng",
+      "e": [
+        {
+          "p": "Is there paper in the tray?",
+          "m": "Trả lời có hoặc không về giấy.",
+          "h": "There is / There is no",
+          "s": "There is no paper."
+        },
+        {
+          "p": "Who used the last paper?",
+          "m": "Nói một người đã dùng (một câu).",
+          "h": "S + V(s) + O",
+          "s": "My coworker uses it."
+        },
+        {
+          "p": "What do you do now?",
+          "m": "Nói một hành động bạn làm (mua giấy hoặc hỏi).",
+          "h": "S + V",
+          "s": "I buy paper."
+        },
+        {
+          "p": "Can we buy paper today?",
+          "m": "Trả lời có hoặc không về việc mua hôm nay.",
+          "h": "Yes, we can / No, we cannot",
+          "s": "Yes, we can."
+        },
+        {
+          "p": "Who buys the paper?",
+          "m": "Nói ai sẽ mua giấy (một câu).",
+          "h": "S + can + V",
+          "s": "The manager can buy it."
+        }
+      ]
+    },
+    {
+      "t": "Mạng chậm",
+      "e": [
+        {
+          "p": "Is the internet slow now?",
+          "m": "Trả lời có hoặc không về mạng hiện tại.",
+          "h": "Yes, it is / No, it is not",
+          "s": "Yes, it is."
+        },
+        {
+          "p": "When is the internet slow?",
+          "m": "Nói thời điểm ngắn (một câu).",
+          "h": "It is slow + time",
+          "s": "It is slow in the morning."
+        },
+        {
+          "p": "What do you try to fix it?",
+          "m": "Nói một hành động bạn thử (một câu).",
+          "h": "S + V or S + can + V",
+          "s": "I restart the router."
+        },
+        {
+          "p": "Can you work now?",
+          "m": "Trả lời có hoặc không về việc bạn có thể làm việc.",
+          "h": "Yes, I can / No, I cannot",
+          "s": "No, I cannot work."
+        },
+        {
+          "p": "Who can fix the internet?",
+          "m": "Nói ai có thể sửa mạng.",
+          "h": "S + can + V",
+          "s": "IT can fix the internet."
+        }
+      ]
+    },
+    {
+      "t": "Họp bị huỷ đột ngột",
+      "e": [
+        {
+          "p": "Why is the meeting canceled?",
+          "m": "Nói một lý do ngắn (một câu).",
+          "h": "It is canceled because ...",
+          "s": "It is canceled because the boss is sick."
+        },
+        {
+          "p": "When is the new meeting?",
+          "m": "Nói thời gian mới (một câu).",
+          "h": "It is + time (tomorrow, etc.)",
+          "s": "The meeting is tomorrow."
+        },
+        {
+          "p": "What do we do now?",
+          "m": "Đề xuất một việc đơn giản (một câu).",
+          "h": "We can + V",
+          "s": "We can work at our desks."
+        },
+        {
+          "p": "Do you tell the team about the change?",
+          "m": "Trả lời có hoặc không về việc báo nhóm.",
+          "h": "Yes, I tell / No, I do not tell",
+          "s": "Yes, I tell the team."
+        },
+        {
+          "p": "Who emails the new time?",
+          "m": "Nói ai sẽ gửi email (một câu).",
+          "h": "S + can + V",
+          "s": "I can email the new time."
+        }
+      ]
+    },
+    {
+      "t": "Văn phòng ồn ào",
+      "e": [
+        {
+          "p": "Is the office noisy now?",
+          "m": "Trả lời có hoặc không về tiếng ồn.",
+          "h": "Yes, it is / No, it is not",
+          "s": "Yes, it is noisy."
+        },
+        {
+          "p": "When is it noisy?",
+          "m": "Nói thời điểm (một câu).",
+          "h": "It is noisy + time",
+          "s": "It is noisy in the morning."
+        },
+        {
+          "p": "What do you do to work?",
+          "m": "Nói một việc bạn làm để làm việc (ví dụ: dùng tai nghe).",
+          "h": "S + V",
+          "s": "I wear headphones."
+        },
+        {
+          "p": "Can people stop the noise?",
+          "m": "Nói một câu nếu họ có thể dừng (Yes/No + hành động).",
+          "h": "They can + V / They cannot + V",
+          "s": "They can close the door."
+        },
+        {
+          "p": "Who asks people to be quiet?",
+          "m": "Nói ai sẽ yêu cầu mọi người im lặng.",
+          "h": "S + asks / S + can + V",
+          "s": "My manager asks them to be quiet."
+        }
+      ]
+    },
+    {
+      "t": "Công việc nhiều",
+      "e": [
+        {
+          "p": "Do you have too much work?",
+          "m": "Trả lời có hoặc không về việc bạn có nhiều việc.",
+          "h": "Yes, I have / No, I do not have",
+          "s": "Yes, I have too much work."
+        },
+        {
+          "p": "Why do you have a lot of work?",
+          "m": "Nói một nguyên nhân ngắn (một câu).",
+          "h": "It is because ...",
+          "s": "It is because we have many tasks."
+        },
+        {
+          "p": "What is the solution?",
+          "m": "Đề xuất một giải pháp ngắn (một câu).",
+          "h": "We can + V",
+          "s": "We can ask for help."
+        },
+        {
+          "p": "Can you finish today?",
+          "m": "Trả lời có hoặc không về việc hoàn thành hôm nay.",
+          "h": "Yes, I can / No, I cannot",
+          "s": "No, I cannot finish today."
+        },
+        {
+          "p": "Who can help you?",
+          "m": "Nói một người có thể giúp bạn (một câu).",
+          "h": "S + can + V",
+          "s": "My colleague can help me."
+        }
+      ]
+    },
+    {
+      "t": "Cửa hỏng và an toàn",
+      "e": [
+        {
+          "p": "What is the problem here?",
+          "m": "Nói một câu nêu vấn đề: cửa hỏng.",
+          "h": "S + be + Adj",
+          "s": "The door is broken."
+        },
+        {
+          "p": "Is it safe to stay here?",
+          "m": "Trả lời có hoặc không về an toàn.",
+          "h": "Yes, it is / No, it is not",
+          "s": "No, it is not safe."
+        },
+        {
+          "p": "What do you do now?",
+          "m": "Nói một hành động bạn làm ngay (một câu).",
+          "h": "S + V",
+          "s": "I close the door."
+        },
+        {
+          "p": "Can you fix the door?",
+          "m": "Nói nếu bạn có thể sửa (Yes/No).",
+          "h": "Yes, I can / No, I cannot",
+          "s": "No, I cannot fix it."
+        },
+        {
+          "p": "Who calls for repair?",
+          "m": "Nói ai sẽ gọi thợ sửa (một câu).",
+          "h": "S + can + V",
+          "s": "The manager can call a repair person."
+        }
+      ]
+    },
+    {
+      "t": "Ôn tập: Vấn đề công việc hàng ngày",
+      "e": [
+        {
+          "p": "The printer and the computer are slow.",
+          "m": "Nói một câu nêu một trong hai vấn đề.",
+          "h": "S + be + Adj",
+          "s": "The computer is slow."
+        },
+        {
+          "p": "A customer is angry about a late delivery.",
+          "m": "Nói một câu xin lỗi ngắn.",
+          "h": "I am sorry for ...",
+          "s": "I am sorry for the late delivery."
+        },
+        {
+          "p": "There is no paper and no ink.",
+          "m": "Đưa một giải pháp ngắn (một câu).",
+          "h": "We can + V",
+          "s": "We can buy paper."
+        },
+        {
+          "p": "The meeting time changes.",
+          "m": "Nói ai sẽ báo nhóm (một câu).",
+          "h": "S + can + V",
+          "s": "I can tell the team."
+        },
+        {
+          "p": "The office is noisy and the door is broken.",
+          "m": "Đề xuất một hành động ngắn để an toàn hoặc giảm ồn.",
+          "h": "We can + V / S + V",
+          "s": "We can close the door."
+        }
+      ]
+    },
+    {
+      "t": "Ôn tập: Ai làm gì?",
+      "e": [
+        {
+          "p": "Who fixes the printer?",
+          "m": "Nói ai có thể sửa máy in (một câu).",
+          "h": "S + can + V",
+          "s": "IT can fix the printer."
+        },
+        {
+          "p": "Who buys the bulb?",
+          "m": "Nói ai sẽ mua bóng đèn (một câu).",
+          "h": "S + can + V",
+          "s": "The manager can buy the bulb."
+        },
+        {
+          "p": "Who asks the late person to be on time?",
+          "m": "Nói ai sẽ nhắc người đến muộn (một câu).",
+          "h": "S + can + V / S + asks",
+          "s": "I can ask him."
+        },
+        {
+          "p": "Who handles the customer return?",
+          "m": "Nói ai xử lý trả hàng (một câu).",
+          "h": "S + can + V",
+          "s": "The team can handle the return."
+        },
+        {
+          "p": "Who cleans the mess in the room?",
+          "m": "Nói ai sẽ dọn dẹp (một câu).",
+          "h": "S + can + V",
+          "s": "The helper can clean the mess."
+        }
+      ]
+    },
+    {
+      "t": "Ôn tập: Đưa giải pháp",
+      "e": [
+        {
+          "p": "The internet is slow.",
+          "m": "Đưa một giải pháp ngắn (một câu).",
+          "h": "We can + V",
+          "s": "We can restart the router."
+        },
+        {
+          "p": "You have many tasks today.",
+          "m": "Đưa một giải pháp ngắn để giảm công việc.",
+          "h": "We can + V",
+          "s": "We can ask for help."
+        },
+        {
+          "p": "The printer is out of paper.",
+          "m": "Đưa một giải pháp ngắn (một câu).",
+          "h": "We can + V",
+          "s": "We can buy paper."
+        },
+        {
+          "p": "The door is open and it is not safe.",
+          "m": "Đưa một hành động an toàn ngắn (một câu).",
+          "h": "S + V",
+          "s": "Close the door."
+        },
+        {
+          "p": "A customer wants a refund.",
+          "m": "Đưa một giải pháp ngắn (một câu).",
+          "h": "We can + V",
+          "s": "We can give a refund."
+        }
+      ]
+    }
+  ]
+}

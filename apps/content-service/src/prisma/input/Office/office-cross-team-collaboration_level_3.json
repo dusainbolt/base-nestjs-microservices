@@ -1,0 +1,530 @@
+{
+  "l": 3,
+  "d": [
+    {
+      "t": "Gặp đại diện team khác",
+      "e": [
+        {
+          "p": "Can you tell me your name and role?",
+          "m": "Nói tên. Nói chức vụ. Nói một nhiệm vụ bạn phụ trách hiện tại.",
+          "h": "S + be / S + [studentJob].",
+          "s": "[studentName]. I am [studentJob]. I handle the project schedule."
+        },
+        {
+          "p": "Where is your team located?",
+          "m": "Nói thành phố nơi team bạn đặt. Nói nếu team làm remote hay ở văn phòng. Nói một lợi ích khi làm việc như vậy.",
+          "h": "S + are/is / use 'remote' or 'in the office'.",
+          "s": "Our team is in [studentCity]. We are mostly remote. It is easier to have flexible hours."
+        },
+        {
+          "p": "What project are you working on with us?",
+          "m": "Nói tên dự án ngắn. Nói vai trò chung của team bạn trong dự án. Nói mục tiêu chính ngắn gọn.",
+          "h": "Use Present Simple and 'to' for purpose.",
+          "s": "We are working on the website update. My team supports design and testing. The goal is to improve user experience."
+        },
+        {
+          "p": "How did your team work with other teams before?",
+          "m": "Nói một việc bạn đã làm cùng team khác trong quá khứ. Nói kết quả ngắn. Nói điều bạn học được.",
+          "h": "Past Simple (S + V-ed) and 'so' or 'and'.",
+          "s": "We coordinated with the QA team last month. We fixed many bugs. I learned to communicate clearly."
+        },
+        {
+          "p": "Can we meet next week to start the work?",
+          "m": "Đề xuất ngày hoặc khung thời gian. Nói hình thức họp (online/offline). Hỏi nếu thời gian đó hợp với họ.",
+          "h": "Use 'will' or 'going to' for plans and a question tag.",
+          "s": "Let's meet next Tuesday afternoon. We can meet online. Will that time work for you?"
+        }
+      ]
+    },
+    {
+      "t": "Thảo luận vai trò trong dự án",
+      "e": [
+        {
+          "p": "Who will lead the testing part?",
+          "m": "Nói ai sẽ phụ trách testing. Nói một nhiệm vụ chính của người đó. Nói nếu họ cần hỗ trợ từ team bạn.",
+          "h": "Use 'will' + V and 'need' or 'can'.",
+          "s": "Anna will lead testing. She will write test cases. She will need support from our developers."
+        },
+        {
+          "p": "Can your team take the design task?",
+          "m": "Trả lời có/không. Nói nếu team bạn có thời gian. Nói nếu cần điều kiện thêm để nhận.",
+          "h": "Use 'can' or 'can't' and 'because'.",
+          "s": "Yes, we can take the design task. We have time next week. We need the final brief first."
+        },
+        {
+          "p": "What should I prepare for handover?",
+          "m": "Liệt kê tài liệu cần chuẩn bị (1 thứ). Nói ai sẽ nhận. Nói thời hạn ngắn.",
+          "h": "Use 'should' and simple nouns and dates.",
+          "s": "You should prepare the requirements document. The design team will receive it. Please send it by Friday."
+        },
+        {
+          "p": "I think roles overlap between our teams.",
+          "m": "Nói bạn hiểu vấn đề. Nói một đề xuất để giải quyết (ví dụ: cuộc họp hoặc bảng phân công). Nói lợi ích của đề xuất đó.",
+          "h": "Use 'I think' + modal 'should' or 'must'.",
+          "s": "I understand the overlap. We should make a responsibility chart. It will reduce confusion."
+        },
+        {
+          "p": "Who will check the final report before release?",
+          "m": "Chỉ tên người hoặc team. Nói nhiệm vụ kiểm tra ngắn. Nói thời điểm kiểm tra.",
+          "h": "Use Present Simple or 'will' for future checks.",
+          "s": "The QA team will check the final report. They will verify bugs and content. They will check one day before release."
+        }
+      ]
+    },
+    {
+      "t": "Hẹn họp liên phòng",
+      "e": [
+        {
+          "p": "When is a good time for a short meeting?",
+          "m": "Đề xuất một buổi trong ngày. Nói độ dài cuộc họp. Hỏi nếu thời gian phù hợp.",
+          "h": "Use 'Let's' or 'How about' and question form.",
+          "s": "How about Wednesday morning? Ten minutes is enough. Is that time okay for you?"
+        },
+        {
+          "p": "Should we invite the product manager?",
+          "m": "Trả lời có/không. Nói lý do ngắn. Nói nếu cần thêm người khác nữa.",
+          "h": "Use 'should' + base verb and 'because'.",
+          "s": "Yes, we should invite the product manager. They can approve priorities. Also invite one designer."
+        },
+        {
+          "p": "Can you send the meeting agenda?",
+          "m": "Xác nhận bạn sẽ gửi. Nói nội dung chính gồm 1-2 điểm. Nói thời gian gửi.",
+          "h": "Use 'will' + V and list items with 'and'.",
+          "s": "I will send the agenda. It will include timeline review and task assignment. I will send it tomorrow."
+        },
+        {
+          "p": "We have participants in different time zones.",
+          "m": "Nói giờ bạn đề xuất. Nói cách họp (record/online). Nói một lưu ý cho người tham gia.",
+          "h": "Use 'suggest' or 'let's' and modal 'can'.",
+          "s": "I suggest 9 AM my time. We can record the meeting online. Please check the recording if you miss it."
+        },
+        {
+          "p": "What is the main goal of this kickoff meeting?",
+          "m": "Nói mục tiêu chính. Nói hai kết quả mong muốn. Nói bước tiếp theo sau họp.",
+          "h": "Use Present Simple and 'then' for next step.",
+          "s": "The main goal is to align tasks. We want clear roles and a shared timeline. Then we will start the first sprint."
+        }
+      ]
+    },
+    {
+      "t": "Yêu cầu hỗ trợ cụ thể",
+      "e": [
+        {
+          "p": "Can you help fix this bug?",
+          "m": "Mô tả ngắn bug (một câu). Nói mức ưu tiên. Hỏi nếu họ có thể làm việc này.",
+          "h": "Use Past/Present and 'can' for request.",
+          "s": "A button does not respond on the page. It is high priority. Can you fix it today?"
+        },
+        {
+          "p": "We need extra designers for the sprint.",
+          "m": "Nói số lượng cần. Nói thời gian cần. Hỏi nếu họ có thể hỗ trợ.",
+          "h": "Use 'need' + noun and 'for' time period.",
+          "s": "We need two extra designers. We need them for two weeks. Can your team support us?"
+        },
+        {
+          "p": "I can share test accounts if you need them.",
+          "m": "Xác nhận bạn sẽ chia sẻ. Nói loại tài khoản. Nói cách nhận (email/drive).",
+          "h": "Use 'I will' and nouns.",
+          "s": "I will share test accounts. They are staging user accounts. I will send them by email."
+        },
+        {
+          "p": "The backend team says they are overloaded.",
+          "m": "Nói bạn hiểu tình trạng. Đề xuất một giải pháp ngắn. Nói một lợi ích của giải pháp.",
+          "h": "Use 'I understand' and 'should' or 'can'.",
+          "s": "I understand they are busy. We can move non-urgent tasks to next week. This will reduce pressure."
+        },
+        {
+          "p": "If we cannot get help, what will you do?",
+          "m": "Nói bước bạn sẽ làm tiếp theo. Nói nếu bạn cần kéo dài deadline. Nói người bạn sẽ thông báo.",
+          "h": "Use 'will' for future and 'inform'.",
+          "s": "I will reassign tasks inside our team. We will ask to extend the deadline if needed. I will inform the project manager."
+        }
+      ]
+    },
+    {
+      "t": "Chia sẻ tiến độ công việc",
+      "e": [
+        {
+          "p": "How is your task going?",
+          "m": "Nói tiến độ hiện tại (phần trăm hoặc trạng thái). Nói việc đã hoàn thành. Nói việc còn lại tiếp theo.",
+          "h": "Use Present Continuous or Present Simple and 'then'.",
+          "s": "The task is 60% done. I finished the UI pages. Next I will test the forms."
+        },
+        {
+          "p": "We missed one deadline last week.",
+          "m": "Nói lý do ngắn. Nói bạn đã làm gì để khắc phục. Nói kết quả hiện tại.",
+          "h": "Use Past Simple and Present Perfect for result.",
+          "s": "We missed it because of unclear requirements. We clarified with the stakeholder. Now the schedule is updated."
+        },
+        {
+          "p": "Can you give a brief status update for the report?",
+          "m": "Nói ba điểm: hoàn thành, đang làm, vấn đề nếu có.",
+          "h": "Use short simple sentences with commas or 'and'.",
+          "s": "The layout is complete. Content is in progress. We have one open question about images."
+        },
+        {
+          "p": "We need to compare two solutions quickly.",
+          "m": "Nói hai lựa chọn ngắn. Nói một điểm mạnh của mỗi lựa chọn. Nói lựa chọn bạn đề xuất.",
+          "h": "Use comparatives (better, more) and 'because'.",
+          "s": "Option A is faster to build. Option B is more flexible. I think Option B is better because it saves time later."
+        },
+        {
+          "p": "When will the feature be ready for release?",
+          "m": "Nói thời điểm dự kiến. Nói các bước còn lại. Nói một rủi ro có thể xảy ra.",
+          "h": "Use 'will' for future and 'may' or 'might' for risk.",
+          "s": "It will be ready next Friday. We need final tests and deployment. There might be a last-minute bug."
+        }
+      ]
+    },
+    {
+      "t": "Giải quyết xung đột nhỏ",
+      "e": [
+        {
+          "p": "I think your team changed the design without telling us.",
+          "m": "Thừa nhận vấn đề. Nói bạn muốn biết điều gì (ví dụ: lý do). Đề nghị một bước giải quyết.",
+          "h": "Use 'I think' and 'would like to' or 'want'.",
+          "s": "I see the change happened. I want to know the reason. Can we review the design together?"
+        },
+        {
+          "p": "We had a disagreement about priorities in the meeting.",
+          "m": "Nói bạn thấy điểm khác nhau. Nói một giải pháp tạm thời. Nói ai quyết định cuối cùng.",
+          "h": "Use 'should' and 'will decide' or 'decides'.",
+          "s": "We had different priority views. We should list tasks by impact. The product manager will decide."
+        },
+        {
+          "p": "They told me the deadline is unrealistic.",
+          "m": "Xác nhận bạn nghe ý đó. Nói đề xuất điều chỉnh (ví dụ: lùi deadline hoặc giảm scope). Nói lợi ích đề xuất.",
+          "h": "Use 'could' or 'should' and comparatives.",
+          "s": "I hear that concern. We could reduce the scope or move the deadline. This will make the work doable."
+        },
+        {
+          "p": "Someone blamed our team for a late bug fix.",
+          "m": "Trình bày quan điểm của bạn ngắn. Nói một hành động bạn sẽ làm để tránh lặp lại. Hỏi nếu họ đồng ý.",
+          "h": "Use Past Simple and 'will' for future action.",
+          "s": "We fixed the bug after we found it. We will add faster checks in our process. Do you agree with this plan?"
+        },
+        {
+          "p": "How can we improve communication between teams?",
+          "m": "Nêu một kênh giao tiếp bạn đề xuất. Nói tần suất cập nhật. Nói một quy tắc ngắn để theo dõi công việc.",
+          "h": "Use Present Simple and 'should' or 'must'.",
+          "s": "We should use a shared chat channel. We will update status twice a week. Each task must have an owner."
+        }
+      ]
+    },
+    {
+      "t": "Phân chia tài nguyên và công cụ",
+      "e": [
+        {
+          "p": "Which tools does your team use for design?",
+          "m": "Nói tên công cụ chính. Nói nếu file chia sẻ chung. Nói một lợi ích của công cụ đó.",
+          "h": "Use Present Simple and short nouns.",
+          "s": "We use Figma for design. Files are shared in a team folder. It allows quick collaboration."
+        },
+        {
+          "p": "We have limited testing devices.",
+          "m": "Nói số lượng thiết bị bạn cần. Nói loại thiết bị. Hỏi nếu họ có thiết bị dư.",
+          "h": "Use 'need' and simple numbers.",
+          "s": "We need three devices. They should be Android phones. Do you have spare devices?"
+        },
+        {
+          "p": "Can we share the license for the paid tool?",
+          "m": "Hỏi nếu họ đồng ý chia sẻ. Nói thời gian cần. Nói một điều kiện ngắn (ví dụ: chỉ cho một người).",
+          "h": "Use 'can' for permission and 'for' time.",
+          "s": "Can you share the license? We need it for one month. Please allow one user only."
+        },
+        {
+          "p": "I think we should standardize the file naming.",
+          "m": "Đề xuất quy tắc ngắn (ví dụ: project_date). Nói ai sẽ đảm nhiệm việc kiểm soát. Nói lợi ích khi làm vậy.",
+          "h": "Use 'should' and 'will' for assignments.",
+          "s": "We should use project_date_filename. The team lead will check files. It will save time finding documents."
+        },
+        {
+          "p": "We need access to the staging server urgently.",
+          "m": "Nói ai sẽ cấp quyền. Nói loại quyền bạn cần. Hỏi thời gian cấp quyền.",
+          "h": "Use 'will' and 'can' for asking time.",
+          "s": "The DevOps will give access. We need read and deploy rights. When can they grant it?"
+        }
+      ]
+    },
+    {
+      "t": "Chuẩn bị cho buổi trình bày chung",
+      "e": [
+        {
+          "p": "Who will present the demo?",
+          "m": "Nói người thuyết trình. Nói phần họ trình bày. Nói một yêu cầu hỗ trợ kỹ thuật.",
+          "h": "Use 'will' and short noun phrases.",
+          "s": "John will present the demo. He will show the new features. He needs a stable wifi."
+        },
+        {
+          "p": "How long should each team speak?",
+          "m": "Đưa số phút cho mỗi team. Nói nếu có thời gian Q&A. Nói cách chia thời gian (ví dụ: equal).",
+          "h": "Use numbers and 'minutes' with Present Simple.",
+          "s": "Each team should speak for ten minutes. We will have five minutes for Q&A. Time will be divided equally."
+        },
+        {
+          "p": "Can you prepare slides for the integration part?",
+          "m": "Xác nhận bạn sẽ làm. Nói số slide dự kiến. Nói deadline gửi slides.",
+          "h": "Use 'will' + V and numbers.",
+          "s": "I will prepare the slides. I will make five slides. I will send them by Thursday."
+        },
+        {
+          "p": "We may have external guests.",
+          "m": "Nói nếu bạn cần điều chỉnh nội dung. Nói một điểm bạn sẽ nhấn mạnh. Hỏi nếu họ có câu hỏi trước.",
+          "h": "Use 'may' and Present Simple for requests.",
+          "s": "We will simplify technical details. I will highlight user benefits. Do they have questions before the meeting?"
+        },
+        {
+          "p": "What should we rehearse before the demo?",
+          "m": "Liệt kê hai việc cần rehearsal. Nói thời gian rehearsal. Nói ai tổ chức.",
+          "h": "Use 'need to' and 'will' for scheduling.",
+          "s": "We need to rehearse the script and the live flow. Rehearsal will take one hour. The project manager will organize it."
+        }
+      ]
+    },
+    {
+      "t": "Quản lý deadline chéo team",
+      "e": [
+        {
+          "p": "Two teams depend on the same API release.",
+          "m": "Nói vấn đề ngắn. Nói đề xuất thời gian cho API. Nói ai cần được báo nếu trễ.",
+          "h": "Use Present Simple and 'should' for suggestion.",
+          "s": "Both teams depend on the API release. We should schedule the API for next Monday. Notify the product manager if it is late."
+        },
+        {
+          "p": "My task is blocked by another team's delay.",
+          "m": "Nói việc bị block là gì. Nói bạn đã làm gì để giảm tác động. Nói yêu cầu bạn muốn từ họ.",
+          "h": "Use Past Simple and 'need' or 'ask'.",
+          "s": "My deployment is blocked by a missing endpoint. I already contacted them and shared details. I need the endpoint by tomorrow."
+        },
+        {
+          "p": "Can we adjust the milestone dates?",
+          "m": "Đề xuất ngày mới ngắn. Nói lý do thay đổi. Nói ai sẽ duyệt thay đổi.",
+          "h": "Use 'could' or 'can' and 'because'.",
+          "s": "Could we move the milestone to next Tuesday? The team needs more testing time. The product manager will approve the change."
+        },
+        {
+          "p": "There is a risk we cannot finish on time.",
+          "m": "Nói rủi ro cụ thể. Nói biện pháp giảm rủi ro. Nói ai sẽ theo dõi tiến độ.",
+          "h": "Use 'may' or 'might' and 'will' for actions.",
+          "s": "We may not finish due to test failures. We will allocate extra QA time. The team lead will monitor progress."
+        },
+        {
+          "p": "How do we report cross-team delays to stakeholders?",
+          "m": "Đề xuất kênh báo cáo. Nói nội dung chính cần thông báo. Nói tần suất cập nhật.",
+          "h": "Use Present Simple and 'should'.",
+          "s": "We should use the weekly report email. Report the cause, impact, and next steps. Send updates twice a week."
+        }
+      ]
+    },
+    {
+      "t": "Làm việc từ xa với team khác",
+      "e": [
+        {
+          "p": "Do you prefer video call or chat for quick questions?",
+          "m": "Nói phương thức bạn thích. Nói lý do ngắn. Nói khung giờ phù hợp.",
+          "h": "Use 'prefer' and 'because'.",
+          "s": "I prefer chat for quick questions. It is faster and less disruptive. Mornings are best for me."
+        },
+        {
+          "p": "I will be offline tomorrow afternoon.",
+          "m": "Nói liệu bạn có thể làm việc trước. Nói ai người liên hệ khẩn cấp. Nói khi bạn sẽ online trở lại.",
+          "h": "Use 'will' for future and 'can' for ability.",
+          "s": "I can finish urgent tasks today. Contact Sarah for emergencies. I will be online again on Friday morning."
+        },
+        {
+          "p": "Can we set core hours for collaboration?",
+          "m": "Đề xuất khung giờ. Nói lợi ích của core hours. Hỏi nếu họ đồng ý.",
+          "h": "Use 'suggest' and 'would' or 'should'.",
+          "s": "I suggest core hours from 10 to 3. It will make meetings easier. Do you agree with this plan?"
+        },
+        {
+          "p": "Some files are hard to find in the shared drive.",
+          "m": "Nói bạn gặp vấn đề gì. Đề xuất một cấu trúc file ngắn. Nói ai sẽ triển khai thay đổi.",
+          "h": "Use 'should' and 'will' for action.",
+          "s": "Files are scattered in many folders. We should use a clear project folder per release. The document owner will reorganize it."
+        },
+        {
+          "p": "We need to ensure smooth handover across time zones.",
+          "m": "Nói một bước bạn sẽ làm để handover. Nói thông tin cần ghi lại. Nói người nhận tài liệu.",
+          "h": "Use 'will' and simple nouns.",
+          "s": "I will create a handover note. It will include tasks, status, and blockers. The next shift lead will receive it."
+        }
+      ]
+    },
+    {
+      "t": "Yêu cầu phản hồi và cải tiến",
+      "e": [
+        {
+          "p": "Can you give feedback on the prototype?",
+          "m": "Yêu cầu nhận 1 điểm tích cực. Yêu cầu 1 điểm cần cải tiến. Nói khung thời gian cho phản hồi.",
+          "h": "Use 'please' and Present Simple for requests.",
+          "s": "Please tell one thing you like. Also tell one thing to improve. Please give feedback by Wednesday."
+        },
+        {
+          "p": "We made changes after the last review.",
+          "m": "Nói một thay đổi bạn đã làm. Nói lý do thay đổi. Hỏi nếu họ đồng ý với thay đổi.",
+          "h": "Use Past Simple and 'because'.",
+          "s": "We updated the color scheme. We changed it because usability tests preferred it. Do you agree with this change?"
+        },
+        {
+          "p": "How can we measure if the change helped users?",
+          "m": "Đề xuất một chỉ số để đo. Nói cách thu thập số liệu. Nói khoảng thời gian theo dõi.",
+          "h": "Use 'should' and future 'will' for plan.",
+          "s": "We should track click-through rate. We will collect data from analytics. Monitor it for two weeks."
+        },
+        {
+          "p": "Some users reported slower loading after the update.",
+          "m": "Xác nhận vấn đề. Nói bước bạn sẽ làm để kiểm tra. Nói khi bạn sẽ báo lại kết quả.",
+          "h": "Use 'will' and Past Simple for reports.",
+          "s": "I confirm the reports. I will run performance tests. I will report results tomorrow."
+        },
+        {
+          "p": "Can we run an A/B test for the new layout?",
+          "m": "Trả lời có/không. Nói cách thực hiện ngắn. Nói mục tiêu của test.",
+          "h": "Use 'can' and 'to' for purpose.",
+          "s": "Yes, we can run an A/B test. We will show layout A to half users and B to others. The goal is to compare engagement."
+        }
+      ]
+    },
+    {
+      "t": "Kết thúc và chuyển giao công việc",
+      "e": [
+        {
+          "p": "Is the task ready for handover?",
+          "m": "Xác nhận trạng thái sẵn sàng. Nói tài liệu kèm theo. Nói ai sẽ nhận handover.",
+          "h": "Use Present Simple and 'will' for assignment.",
+          "s": "The task is ready. I attached the documentation. The operations team will receive the handover."
+        },
+        {
+          "p": "Please confirm you received the package.",
+          "m": "Xác nhận đã nhận hay chưa. Nói thời gian nhận. Nói bước tiếp theo nếu đã nhận.",
+          "h": "Use Past Simple or Present Perfect and 'then'.",
+          "s": "I received the package this morning. I received it at 9 AM. Then I will start the deployment."
+        },
+        {
+          "p": "We will close this ticket after you test.",
+          "m": "Nói bạn sẽ test khi nào. Nói kết quả bạn sẽ báo. Nói nếu cần mở lại ticket.",
+          "h": "Use 'will' and conditionals like 'if'.",
+          "s": "I will test it today. I will report test results this afternoon. If there is an issue, I will reopen the ticket."
+        },
+        {
+          "p": "Can you write a short summary for the next team?",
+          "m": "Xác nhận bạn viết. Nói nội dung chính cần có. Nói nơi bạn sẽ lưu bản tóm tắt.",
+          "h": "Use 'will' and list nouns.",
+          "s": "I will write the summary. It will include tasks, status, and known issues. I will save it in the project folder."
+        },
+        {
+          "p": "Thanks for your help; we will archive the project.",
+          "m": "Nói bạn đã hoàn thành gì. Nói cảm ơn ngắn. Nói nếu bạn sẽ hỗ trợ sau khi archive.",
+          "h": "Use Past Simple and 'will' for future support.",
+          "s": "We completed final tests. Thank you for the support. I will help if there are post-archive issues."
+        }
+      ]
+    },
+    {
+      "t": "Ôn tập: Gặp gỡ và phân vai",
+      "e": [
+        {
+          "p": "Can you introduce your team and main role in one sentence?",
+          "m": "Nói tên team. Nói vai trò chính. Nói một nhiệm vụ tiêu biểu.",
+          "h": "Use Present Simple and short phrases.",
+          "s": "Our team is the analytics team. We focus on data reporting. We prepare weekly dashboards."
+        },
+        {
+          "p": "Who will be responsible for communication?",
+          "m": "Chỉ người hoặc vị trí. Nói nhiệm vụ liên lạc. Nói cách họ sẽ liên hệ (email/chat).",
+          "h": "Use 'will' and 'will + V'.",
+          "s": "The project coordinator will be responsible. They will send updates and organize meetings. They will use email and chat."
+        },
+        {
+          "p": "We need a short plan for the first week.",
+          "m": "Nói ba bước tuần đầu (mỗi bước một câu ngắn).",
+          "h": "Use 'will' for future steps.",
+          "s": "We will gather requirements. We will assign tasks. We will start development."
+        },
+        {
+          "p": "Can you say one reason to collaborate with our team?",
+          "m": "Nói một lý do ngắn. Nói lợi ích cho cả hai team. Nói một điều cần làm chung.",
+          "h": "Use 'because' and 'will' for benefit.",
+          "s": "We collaborate because we share user data. It benefits both teams with better insight. We will create a shared dashboard."
+        },
+        {
+          "p": "Let's set a quick meeting to confirm roles.",
+          "m": "Đề xuất thời gian. Nói mục tiêu cuộc họp. Hỏi nếu họ đồng ý.",
+          "h": "Use 'Let's' and question form.",
+          "s": "Let's meet tomorrow at 10 AM. The goal is to confirm roles and tasks. Do you agree with this time?"
+        }
+      ]
+    },
+    {
+      "t": "Ôn tập: Giải quyết vấn đề và tiến độ",
+      "e": [
+        {
+          "p": "Our release was delayed. What happened?",
+          "m": "Mô tả ngắn lý do. Nói hành động bạn đã làm. Nói tình trạng hiện tại.",
+          "h": "Use Past Simple and Present Perfect.",
+          "s": "The release was delayed due to test failures. We fixed the main bugs. The release is rescheduled for next week."
+        },
+        {
+          "p": "Can you propose one immediate fix and one long-term fix?",
+          "m": "Đưa một fix ngay. Đưa một fix lâu dài. Nói lợi ích của mỗi fix.",
+          "h": "Use 'will' for actions and comparatives for benefits.",
+          "s": "Immediately we will add a hotfix. Long-term we will refactor the module. The hotfix fixes the bug fast and refactor makes it more stable."
+        },
+        {
+          "p": "How do we keep stakeholders informed about delays?",
+          "m": "Chọn kênh báo cáo. Nói nội dung chính cần gửi. Nói tần suất cập nhật.",
+          "h": "Use Present Simple and 'should'.",
+          "s": "We should use the project email. Send the cause, impact, and next steps. Update stakeholders twice a week."
+        },
+        {
+          "p": "If testing finds new issues, what will you do?",
+          "m": "Nói hành động trước mắt. Nói nếu cần kéo dài deadline. Nói người bạn sẽ báo.",
+          "h": "Use 'will' and conditional 'if'.",
+          "s": "I will log the issues and assign fixes. We will ask to extend the deadline if needed. I will inform the product manager."
+        },
+        {
+          "p": "We must prevent the same delay next time.",
+          "m": "Đề xuất một quy trình ngắn. Nói ai thực hiện. Nói lợi ích khi thực hiện.",
+          "h": "Use 'must' or 'should' and simple nouns.",
+          "s": "We should add earlier integration tests. The QA team will run them. This will reduce last-minute failures."
+        }
+      ]
+    },
+    {
+      "t": "Ôn tập: Họp, nhờ giúp và phản hồi",
+      "e": [
+        {
+          "p": "Can you summarize today's meeting in two sentences?",
+          "m": "Nói hai ý chính của cuộc họp, mỗi ý một câu.",
+          "h": "Use Present Simple and short clauses.",
+          "s": "We agreed on the project timeline. We assigned tasks to each team."
+        },
+        {
+          "p": "I asked for help with the integration yesterday.",
+          "m": "Nói bạn đã làm gì. Nói phản hồi bạn nhận. Nói bước tiếp theo bạn làm.",
+          "h": "Use Past Simple and 'will' for next step.",
+          "s": "I requested integration support yesterday. They replied they can help. I will schedule a handover session."
+        },
+        {
+          "p": "Please give one positive feedback and one improvement for the demo.",
+          "m": "Nói một điểm tốt. Nói một điểm cần cải thiện. Nói nếu bạn sẽ hỗ trợ cải thiện.",
+          "h": "Use Present Simple and 'will' for offer.",
+          "s": "The demo was clear and easy to follow. The interaction needs smoother transitions. I will help refine the flow."
+        },
+        {
+          "p": "Can we close this discussion and list action items?",
+          "m": "Xác nhận đóng discussion. Liệt kê hai action items ngắn. Nói ai chịu trách nhiệm mỗi item.",
+          "h": "Use 'will' and short noun phrases.",
+          "s": "Yes, let's close the discussion. Action 1: update docs, the writer will do it. Action 2: run tests, QA will do it."
+        },
+        {
+          "p": "Thanks everyone. Any final comments before we end?",
+          "m": "Nói một câu cảm ơn ngắn. Nói một bình luận cuối cùng ngắn. Nói thời gian kết luận hoặc follow-up.",
+          "h": "Use Present Simple and 'will' for follow-up.",
+          "s": "Thank you everyone for the time. One final comment: share test results after today. We will meet again on Monday."
+        }
+      ]
+    }
+  ]
+}

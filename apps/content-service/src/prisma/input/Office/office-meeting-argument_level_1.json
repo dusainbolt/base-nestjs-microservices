@@ -1,0 +1,530 @@
+{
+  "l": 1,
+  "d": [
+    {
+      "t": "Gặp đầu cuộc họp",
+      "e": [
+        {
+          "p": "What's your name?",
+          "m": "Nói tên của bạn.",
+          "h": "My name is ... / I am ...",
+          "s": "My name is [studentName]."
+        },
+        {
+          "p": "Where do you live?",
+          "m": "Nói nơi bạn sống (thành phố).",
+          "h": "I live in ...",
+          "s": "I live in [studentCity]."
+        },
+        {
+          "p": "What is your job?",
+          "m": "Nói nghề nghiệp của bạn.",
+          "h": "I am a ... / I work as ...",
+          "s": "I am a [studentJob]."
+        },
+        {
+          "p": "Do you like this project?",
+          "m": "Nói bạn thích hay không (1 câu).",
+          "h": "Use 'I like' or 'I don't like'.",
+          "s": "I like this project."
+        },
+        {
+          "p": "Can you help in the meeting?",
+          "m": "Nói bạn có thể giúp hay không (dùng can/can't).",
+          "h": "Use 'I can' or 'I can't' + verb.",
+          "s": "I can help in the meeting."
+        }
+      ]
+    },
+    {
+      "t": "Bày tỏ ý kiến ngắn",
+      "e": [
+        {
+          "p": "What do you think about the plan?",
+          "m": "Nói một ý kiến ngắn về kế hoạch.",
+          "h": "Use 'I think + clause'.",
+          "s": "I think the plan is good."
+        },
+        {
+          "p": "Do you agree?",
+          "m": "Nói bạn đồng ý hay không (1 câu).",
+          "h": "Use 'I agree' or 'I don't agree'.",
+          "s": "I agree."
+        },
+        {
+          "p": "Why do you like this idea?",
+          "m": "Nói một lý do ngắn cho việc bạn thích (1 câu).",
+          "h": "Use 'I like ... because ...' or 'Because ...'.",
+          "s": "I like the idea because it is simple."
+        },
+        {
+          "p": "Who supports this idea?",
+          "m": "Nói ai ủng hộ (chỉ 'I' hoặc 'We').",
+          "h": "Use 'I' or 'We' + support.",
+          "s": "I support the idea."
+        },
+        {
+          "p": "Do you want to change the plan?",
+          "m": "Nói bạn có muốn thay đổi kế hoạch hay không.",
+          "h": "Use 'I want' or 'I don't want'.",
+          "s": "I don't want to change the plan."
+        }
+      ]
+    },
+    {
+      "t": "Phản đối lịch sự",
+      "e": [
+        {
+          "p": "Do you like the schedule?",
+          "m": "Nói bạn có thích lịch trình hay không (1 câu).",
+          "h": "Use 'I like' or 'I don't like'.",
+          "s": "I don't like the schedule."
+        },
+        {
+          "p": "Why not?",
+          "m": "Nói một lý do ngắn cho việc bạn không thích.",
+          "h": "Use 'The ... is ...' or 'Because ...'.",
+          "s": "The meeting time is early."
+        },
+        {
+          "p": "Can we move it?",
+          "m": "Nói khả năng di chuyển lịch (can/can't) trong 1 câu.",
+          "h": "Use 'We can' or 'We can't'.",
+          "s": "We can move it to later."
+        },
+        {
+          "p": "Are you sure?",
+          "m": "Nói bạn có chắc hay không (1 câu).",
+          "h": "Use 'I am sure' or 'I am not sure'.",
+          "s": "I am not sure."
+        },
+        {
+          "p": "Do you agree to the new time?",
+          "m": "Nói bạn có đồng ý với thời gian mới hay không.",
+          "h": "Use 'I can / I can't' or 'I agree'.",
+          "s": "I can come at the new time."
+        }
+      ]
+    },
+    {
+      "t": "Đưa lý do đơn giản",
+      "e": [
+        {
+          "p": "Why do you like the design?",
+          "m": "Nói một lý do ngắn bạn thích thiết kế.",
+          "h": "Use 'I like ... because ...'.",
+          "s": "I like the design because it is simple."
+        },
+        {
+          "p": "Is the price good?",
+          "m": "Nói câu ngắn đồng ý hoặc không về giá.",
+          "h": "Use 'The price is ...'.",
+          "s": "The price is good."
+        },
+        {
+          "p": "Who pays?",
+          "m": "Nói ai trả tiền (I/We/They) trong 1 câu.",
+          "h": "Use 'I/We/They + V'.",
+          "s": "We pay."
+        },
+        {
+          "p": "Do you have time to finish?",
+          "m": "Nói bạn có thể hoàn thành đúng hạn hay không (can/can't).",
+          "h": "Use 'I can' or 'I can't' + verb.",
+          "s": "I can finish on time."
+        },
+        {
+          "p": "Do you want this change?",
+          "m": "Nói bạn có muốn thay đổi hay không và đưa lý do ngắn.",
+          "h": "Use 'I (don't) want ... because ...'.",
+          "s": "I don't want this change because it is big."
+        }
+      ]
+    },
+    {
+      "t": "Thảo luận công việc hàng ngày",
+      "e": [
+        {
+          "p": "What do you do every day?",
+          "m": "Nói một hoạt động bạn làm hàng ngày (1 câu).",
+          "h": "Use 'I + V(s) + ...'.",
+          "s": "I go to work every day."
+        },
+        {
+          "p": "Do you like the meeting time?",
+          "m": "Nói bạn có thích thời gian họp hay không (1 câu).",
+          "h": "Use 'I like' or 'I don't like'.",
+          "s": "I like the meeting time."
+        },
+        {
+          "p": "Can you come on Monday?",
+          "m": "Trả lời bạn có thể tham gia vào thứ Hai hay không (can/can't).",
+          "h": "Use 'I can' or 'I can't'.",
+          "s": "I can come on Monday."
+        },
+        {
+          "p": "Who makes the report?",
+          "m": "Nói ai làm báo cáo (I/We/They).",
+          "h": "Use 'I/We/They + V'.",
+          "s": "I make the report."
+        },
+        {
+          "p": "Do you think the task is easy?",
+          "m": "Nói bạn có nghĩ nhiệm vụ dễ hay không (1 câu).",
+          "h": "Use 'I think + clause'.",
+          "s": "I think the task is easy."
+        }
+      ]
+    },
+    {
+      "t": "Xin ý kiến và giải thích",
+      "e": [
+        {
+          "p": "What is your idea?",
+          "m": "Nói ý tưởng ngắn của bạn (1 câu).",
+          "h": "Use 'My idea is ...'.",
+          "s": "My idea is a short meeting."
+        },
+        {
+          "p": "Do you have a reason?",
+          "m": "Cho một lý do ngắn (1 câu).",
+          "h": "Use 'Because ...' or 'It + V'.",
+          "s": "It saves time."
+        },
+        {
+          "p": "Who agrees?",
+          "m": "Nói bạn có đồng ý hay không (1 câu).",
+          "h": "Use 'I agree' or 'I don't agree'.",
+          "s": "I agree."
+        },
+        {
+          "p": "Can you explain more?",
+          "m": "Nói một chi tiết thêm ngắn (1 câu).",
+          "h": "Use 'The meeting is ...' or 'We ...'.",
+          "s": "The meeting is 30 minutes."
+        },
+        {
+          "p": "Do you want to try this idea?",
+          "m": "Nói bạn có muốn thử ý tưởng hay không (1 câu).",
+          "h": "Use 'I want' or 'I don't want'.",
+          "s": "I want to try this idea."
+        }
+      ]
+    },
+    {
+      "t": "Thỏa thuận và hẹn giờ",
+      "e": [
+        {
+          "p": "Is 2 pm okay?",
+          "m": "Nói đồng ý hay không với 2 giờ chiều (1 câu).",
+          "h": "Use '... is okay' or 'not'.",
+          "s": "Two o'clock is okay."
+        },
+        {
+          "p": "When is the meeting?",
+          "m": "Nói thời gian họp (1 câu, dùng 'at').",
+          "h": "Use 'The meeting is at ...'.",
+          "s": "The meeting is at nine."
+        },
+        {
+          "p": "Can you come at nine?",
+          "m": "Trả lời bạn có thể đến lúc 9 giờ hay không (can/can't).",
+          "h": "Use 'I can' or 'I can't'.",
+          "s": "I can come at nine."
+        },
+        {
+          "p": "Who calls the team?",
+          "m": "Nói ai sẽ gọi đội (I/We/They).",
+          "h": "Use 'I/We/They + V'.",
+          "s": "I call the team."
+        },
+        {
+          "p": "Do you agree to the plan and time?",
+          "m": "Nói bạn có đồng ý với kế hoạch và thời gian hay không (1 câu).",
+          "h": "Use 'I agree with ...'.",
+          "s": "I agree with the plan and time."
+        }
+      ]
+    },
+    {
+      "t": "Phân chia nhiệm vụ đơn giản",
+      "e": [
+        {
+          "p": "Who writes the notes?",
+          "m": "Nói ai viết biên bản (I/We/They).",
+          "h": "Use 'I/We/They + V'.",
+          "s": "I write the notes."
+        },
+        {
+          "p": "Can you check the data?",
+          "m": "Trả lời bạn có thể kiểm tra dữ liệu hay không (can/can't).",
+          "h": "Use 'I can' or 'I can't' + verb.",
+          "s": "I can check the data."
+        },
+        {
+          "p": "Do you have the file?",
+          "m": "Nói bạn có file hay không (1 câu).",
+          "h": "Use 'I have' or 'I don't have'.",
+          "s": "I have the file."
+        },
+        {
+          "p": "Who sends the email?",
+          "m": "Nói ai gửi email (I/We/They).",
+          "h": "Use 'I/We/They + V'.",
+          "s": "We send the email."
+        },
+        {
+          "p": "Do you finish your task today?",
+          "m": "Nói bạn có hoàn thành nhiệm vụ hôm nay hay không (1 câu).",
+          "h": "Use 'I (do) / I do not ...' or 'I can...'.",
+          "s": "I finish the task today."
+        }
+      ]
+    },
+    {
+      "t": "Giải quyết tranh luận nhỏ",
+      "e": [
+        {
+          "p": "I think this is wrong.",
+          "m": "Ngắn gọn nói bạn đồng ý hay không (1 câu).",
+          "h": "Use 'I (don't) agree'.",
+          "s": "I don't agree."
+        },
+        {
+          "p": "Why do you say that?",
+          "m": "Nói một lý do ngắn (1 câu).",
+          "h": "Use 'Because ...' or 'I have ...'.",
+          "s": "I have different data."
+        },
+        {
+          "p": "Can we test it?",
+          "m": "Trả lời khả năng thử nghiệm (can/can't).",
+          "h": "Use 'We can' or 'We can't'.",
+          "s": "We can test it."
+        },
+        {
+          "p": "Do you agree to test?",
+          "m": "Nói bạn có đồng ý thử hay không (1 câu).",
+          "h": "Use 'I agree' or 'I don't agree'.",
+          "s": "I agree to test."
+        },
+        {
+          "p": "Who is right?",
+          "m": "Nói bạn nghĩ ai đúng (I/We/They) trong 1 câu.",
+          "h": "Use 'I think + clause'.",
+          "s": "I think we are right."
+        }
+      ]
+    },
+    {
+      "t": "Hỏi ý kiến về ưu tiên",
+      "e": [
+        {
+          "p": "What is important?",
+          "m": "Nói một điều quan trọng (1 câu).",
+          "h": "Use '... is important.'",
+          "s": "Time is important."
+        },
+        {
+          "p": "Do you want speed or quality?",
+          "m": "Chọn một: speed hoặc quality (1 câu).",
+          "h": "Use 'I want ...'.",
+          "s": "I want quality."
+        },
+        {
+          "p": "Who checks quality?",
+          "m": "Nói ai kiểm tra chất lượng (I/We/They).",
+          "h": "Use 'I/We/They + V'.",
+          "s": "I check quality."
+        },
+        {
+          "p": "Can we do both?",
+          "m": "Nói khả năng làm cả hai (can/can't) 1 câu.",
+          "h": "Use 'We can' or 'We can't'.",
+          "s": "We can try both."
+        },
+        {
+          "p": "Do you support quality first?",
+          "m": "Nói bạn ủng hộ ưu tiên chất lượng hay không (1 câu).",
+          "h": "Use 'I support ...'.",
+          "s": "I support quality first."
+        }
+      ]
+    },
+    {
+      "t": "Phản hồi ngắn sau tranh luận",
+      "e": [
+        {
+          "p": "Do you like the result?",
+          "m": "Nói bạn có thích kết quả hay không (1 câu).",
+          "h": "Use 'I like' or 'I don't like'.",
+          "s": "I like the result."
+        },
+        {
+          "p": "Is the result clear?",
+          "m": "Nói kết quả có rõ ràng hay không (1 câu).",
+          "h": "Use 'The ... is ...'.",
+          "s": "The result is clear."
+        },
+        {
+          "p": "Who made this result?",
+          "m": "Nói ai làm ra kết quả (I/We/They) trong 1 câu.",
+          "h": "Use 'I/We/They + V'.",
+          "s": "We made the result."
+        },
+        {
+          "p": "Can we keep it?",
+          "m": "Nói có thể giữ kết quả hay không (can/can't).",
+          "h": "Use 'We can' or 'We can't'.",
+          "s": "We can keep it."
+        },
+        {
+          "p": "Do you want to change anything?",
+          "m": "Nói bạn có muốn thay đổi điều gì không (1 câu).",
+          "h": "Use 'I (don't) want ...'.",
+          "s": "I don't want to change anything."
+        }
+      ]
+    },
+    {
+      "t": "Kết luận cuộc họp",
+      "e": [
+        {
+          "p": "Any final comment?",
+          "m": "Đưa một bình luận cuối ngắn (1 câu).",
+          "h": "Use 'I have ...' or simple sentence.",
+          "s": "I have no comment."
+        },
+        {
+          "p": "Do you agree with the conclusion?",
+          "m": "Nói bạn có đồng ý với kết luận hay không (1 câu).",
+          "h": "Use 'I agree with ...' or 'I don't agree with ...'.",
+          "s": "I agree with the conclusion."
+        },
+        {
+          "p": "Who signs the note?",
+          "m": "Nói ai ký biên bản (I/We/They) trong 1 câu.",
+          "h": "Use 'I/We/They + V'.",
+          "s": "I sign the note."
+        },
+        {
+          "p": "When is the next meeting?",
+          "m": "Nói ngày hoặc thời gian họp tiếp theo (1 câu).",
+          "h": "Use 'The next meeting is on ...' or 'at ...'.",
+          "s": "The next meeting is on Monday."
+        },
+        {
+          "p": "Can you close the meeting?",
+          "m": "Nói bạn có thể kết thúc cuộc họp hay không (can/can't).",
+          "h": "Use 'I can' or 'I can't'.",
+          "s": "I can close the meeting."
+        }
+      ]
+    },
+    {
+      "t": "Ôn tập: Giới thiệu và ý kiến",
+      "e": [
+        {
+          "p": "What's your name?",
+          "m": "Nói tên của bạn (1 câu).",
+          "h": "My name is ...",
+          "s": "My name is [studentName]."
+        },
+        {
+          "p": "Where do you live?",
+          "m": "Nói nơi bạn sống (1 câu).",
+          "h": "I live in ...",
+          "s": "I live in [studentCity]."
+        },
+        {
+          "p": "What do you think about the plan?",
+          "m": "Nói một ý kiến ngắn về kế hoạch (1 câu).",
+          "h": "Use 'I think + clause'.",
+          "s": "I think the plan is good."
+        },
+        {
+          "p": "Do you agree?",
+          "m": "Nói bạn đồng ý hay không (1 câu).",
+          "h": "Use 'I agree' or 'I don't agree'.",
+          "s": "I agree."
+        },
+        {
+          "p": "Can you help?",
+          "m": "Nói bạn có thể giúp hay không (1 câu).",
+          "h": "Use 'I can' or 'I can't'.",
+          "s": "I can help."
+        }
+      ]
+    },
+    {
+      "t": "Ôn tập: Tranh luận và lý do",
+      "e": [
+        {
+          "p": "I don't like this idea.",
+          "m": "Ngắn gọn nói bạn đồng ý hay không (1 câu).",
+          "h": "Use 'I (don't) agree'.",
+          "s": "I don't agree."
+        },
+        {
+          "p": "Why?",
+          "m": "Nói một lý do ngắn (1 câu).",
+          "h": "Use 'It is ...' or 'Because ...'.",
+          "s": "It is too big."
+        },
+        {
+          "p": "Can we change it?",
+          "m": "Nói khả năng thay đổi (can/can't) 1 câu.",
+          "h": "Use 'We can' or 'We can't'.",
+          "s": "We can change it."
+        },
+        {
+          "p": "Who will do it?",
+          "m": "Nói ai làm việc đó (dùng hiện tại đơn cho hành động được phân công).",
+          "h": "Use 'I/We/They + V'.",
+          "s": "I do it."
+        },
+        {
+          "p": "Do you support the new plan?",
+          "m": "Nói bạn có ủng hộ kế hoạch mới hay không (1 câu).",
+          "h": "Use 'I support' or 'I don't support'.",
+          "s": "I support the new plan."
+        }
+      ]
+    },
+    {
+      "t": "Ôn tập: Kết luận và lịch",
+      "e": [
+        {
+          "p": "Any final words?",
+          "m": "Nói một câu kết ngắn (1 câu).",
+          "h": "Use 'I ...' short sentence.",
+          "s": "I thank the team."
+        },
+        {
+          "p": "Is the time good?",
+          "m": "Nói thời gian có tốt hay không (1 câu).",
+          "h": "Use 'The time is ...'.",
+          "s": "The time is good."
+        },
+        {
+          "p": "When is next meeting?",
+          "m": "Nói ngày họp tiếp theo (1 câu).",
+          "h": "Use 'The next meeting is on ...'.",
+          "s": "The next meeting is on Friday."
+        },
+        {
+          "p": "Can you join?",
+          "m": "Nói bạn có thể tham gia hay không (1 câu).",
+          "h": "Use 'I can' or 'I can't'.",
+          "s": "I can join."
+        },
+        {
+          "p": "Do you agree with the final note?",
+          "m": "Nói bạn có đồng ý với ghi chú cuối hay không (1 câu).",
+          "h": "Use 'I agree with ...' or 'I don't agree with ...'.",
+          "s": "I agree with the final note."
+        }
+      ]
+    }
+  ]
+}

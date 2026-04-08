@@ -1,0 +1,530 @@
+{
+  "l": 2,
+  "d": [
+    {
+      "t": "Gặp nhóm mới",
+      "e": [
+        {
+          "p": "What's your name and your role in the team?",
+          "m": "Nói tên của bạn. Nói vai trò của bạn trong đội.",
+          "h": "My name is ... / I am + job",
+          "s": "My name is [studentName]. I am a [studentJob]."
+        },
+        {
+          "p": "Where do you live and where do you work from?",
+          "m": "Nói thành phố bạn sống. Nói bạn làm việc ở đâu (tại văn phòng/ở nhà).",
+          "h": "I live in + place. I work from + place",
+          "s": "I live in [studentCity]. I work from the office."
+        },
+        {
+          "p": "What are you doing on this project now?",
+          "m": "Nói một hành động bạn đang làm (V-ing). Nói mục tiêu ngắn gọn của công việc.",
+          "h": "S + be + V-ing. I want + to V",
+          "s": "I am writing the project plan. I want to make the plan clear."
+        },
+        {
+          "p": "How often do you join team meetings?",
+          "m": "Nói tần suất tham gia (always/often/sometimes). Nói thời gian họp thường (sáng/chiều).",
+          "h": "I often / I sometimes + V. in the morning / in the afternoon",
+          "s": "I often join team meetings. They are in the morning."
+        },
+        {
+          "p": "What do you like about working with a team?",
+          "m": "Nói một điều bạn thích về làm việc nhóm. Nói lý do ngắn gọn vì sao bạn thích điều đó.",
+          "h": "I like + N. because + clause",
+          "s": "I like sharing ideas. Because it helps us solve problems."
+        }
+      ]
+    },
+    {
+      "t": "Lên lịch họp nhanh",
+      "e": [
+        {
+          "p": "Can we meet tomorrow at 10?",
+          "m": "Trả lời có thể hay không. Nếu có, nói bạn sẵn sàng vào lúc đó; nếu không, nói thời gian khác bạn rảnh.",
+          "h": "Yes, I can / No, I am not free, I am free at ...",
+          "s": "Yes, I can. I am free at 10 tomorrow."
+        },
+        {
+          "p": "How long should the meeting be?",
+          "m": "Nói thời lượng họp (ví dụ: 30 phút). Nói mục đích ngắn (ví dụ: để thảo luận task).",
+          "h": "It should be + time. to + V",
+          "s": "It should be 30 minutes. To discuss the task."
+        },
+        {
+          "p": "Who will join the meeting from your team?",
+          "m": "Nói số hoặc tên người tham gia (nói tổng số). Nói vai trò của họ ngắn gọn.",
+          "h": "There are + number + people. They are + role",
+          "s": "There are two people from my team. They are a developer and a tester."
+        },
+        {
+          "p": "Can you prepare a short agenda?",
+          "m": "Trả lời bạn có thể chuẩn bị hay không. Nếu có, nói điểm đầu tiên trong agenda.",
+          "h": "Yes, I can / No, I cannot. The first point is ...",
+          "s": "Yes, I can. The first point is task status."
+        },
+        {
+          "p": "Shall we meet in the meeting room or online?",
+          "m": "Chọn nơi họp (meeting room/online). Nói lý do ngắn vì sao bạn chọn vậy.",
+          "h": "I prefer + place. because + reason",
+          "s": "I prefer online. Because it is faster for everyone."
+        }
+      ]
+    },
+    {
+      "t": "Phối hợp với team khác lần đầu",
+      "e": [
+        {
+          "p": "Hello, I am from the design team. Who are you?",
+          "m": "Giới thiệu tên của bạn. Nói bạn thuộc team nào.",
+          "h": "My name is ... / I am from + team",
+          "s": "My name is [studentName]. I am from the marketing team."
+        },
+        {
+          "p": "What is your main task for this project?",
+          "m": "Nói công việc chính bạn làm (động từ hiện tại). Nói một kết quả bạn muốn đạt.",
+          "h": "I + V(s). I want to + V",
+          "s": "I coordinate messages. I want to make clear content."
+        },
+        {
+          "p": "Do you usually work with other teams?",
+          "m": "Nói tần suất (always/often/sometimes/never). Nói một ví dụ ngắn về việc phối hợp.",
+          "h": "I often / sometimes + V. For example, ...",
+          "s": "I often work with other teams. For example, I write briefs for design."
+        },
+        {
+          "p": "Can we share files on the drive?",
+          "m": "Trả lời đồng ý hay không. Nói cách bạn sẽ đặt tên file ngắn gọn.",
+          "h": "Yes, we can. Name files like ...",
+          "s": "Yes, we can. Name files with the project name."
+        },
+        {
+          "p": "Who should we contact for approvals?",
+          "m": "Nói tên hoặc vị trí người phụ trách approv (ví dụ: team lead). Nói cách tốt nhất để liên lạc (email/chat).",
+          "h": "Contact + role. by + email/chat",
+          "s": "Contact the team lead. You can contact them by email."
+        }
+      ]
+    },
+    {
+      "t": "Giao tiếp nhanh qua chat",
+      "e": [
+        {
+          "p": "Are you online now?",
+          "m": "Trả lời bạn đang online hay không. Nói bạn có thể chat ngay hay phải đợi.",
+          "h": "I am / I am not + V-ing. I can / I cannot + V",
+          "s": "I am online now. I can chat now."
+        },
+        {
+          "p": "Can you send the file here?",
+          "m": "Trả lời bạn có thể gửi file hay không. Nói bạn sẽ gửi file ở đâu (chat/drive).",
+          "h": "Yes, I will / No, I cannot. I will send via ...",
+          "s": "Yes, I will. I will send it in the chat."
+        },
+        {
+          "p": "Please give a short update on task A.",
+          "m": "Nói tiến độ hiện tại (đang làm/đã xong). Nói bước tiếp theo bạn sẽ làm.",
+          "h": "I am + V-ing / I have finished. Next, I will + V",
+          "s": "I am testing the feature. Next, I will fix small bugs."
+        },
+        {
+          "p": "Do you need my help now?",
+          "m": "Trả lời bạn có cần giúp hay không. Nếu cần, nêu một việc bạn cần giúp ngắn gọn.",
+          "h": "Yes, I need / No, I do not need. I need help with ...",
+          "s": "Yes, I need help. I need help with the report text."
+        },
+        {
+          "p": "I am busy this afternoon. Can we talk later?",
+          "m": "Nói bạn có thể nói lúc khác hay không. Đưa ra thời gian bạn rảnh.",
+          "h": "Yes, we can / No, I cannot. I am free at ...",
+          "s": "Yes, we can. I am free after 4 PM."
+        }
+      ]
+    },
+    {
+      "t": "Chia công việc nhỏ",
+      "e": [
+        {
+          "p": "Who will do the research task?",
+          "m": "Nói ai làm việc đó (tên hoặc 'I'). Nói bạn sẽ làm phần nào ngắn gọn.",
+          "h": "I will + V / He/She will + V. I will + V",
+          "s": "I will do the research. I will find user data."
+        },
+        {
+          "p": "Can you take the design part?",
+          "m": "Trả lời đồng ý hay không. Nếu đồng ý, nêu thời hạn ngắn (today/tomorrow).",
+          "h": "Yes, I can / No, I cannot. I will finish by ...",
+          "s": "Yes, I can. I will finish by tomorrow."
+        },
+        {
+          "p": "We need one person for testing. Who is free?",
+          "m": "Nói bạn có rảnh hay không. Nếu rảnh, nói bạn sẽ bắt đầu khi nào.",
+          "h": "I am free / I am not free. I will start at ...",
+          "s": "I am free. I will start testing this afternoon."
+        },
+        {
+          "p": "Please write a short task list.",
+          "m": "Viết hai bước chính bạn sẽ làm. Mỗi bước ngắn gọn.",
+          "h": "Step 1: ... Step 2: ...",
+          "s": "Step 1: Collect data. Step 2: Make a short report."
+        },
+        {
+          "p": "Who will check the final file?",
+          "m": "Nói người kiểm tra. Nói cách họ sẽ kiểm tra (read/test).",
+          "h": "Someone + will + V. They will + V",
+          "s": "Our tester will check the final file. They will read and test it."
+        }
+      ]
+    },
+    {
+      "t": "Báo cáo tiến độ ngắn",
+      "e": [
+        {
+          "p": "Can you give a quick status now?",
+          "m": "Nói bạn đang ở bước nào (V-ing/finished). Nói một vấn đề nhỏ nếu có.",
+          "h": "I am + V-ing / I have finished. There is + problem",
+          "s": "I am coding the feature. There is a small UI issue."
+        },
+        {
+          "p": "Is the task finished today?",
+          "m": "Trả lời có hay không. Nếu không, nói khi nào bạn hoàn thành.",
+          "h": "Yes, it is finished. / No, it is not. I will finish by ...",
+          "s": "No, it is not finished. I will finish by tomorrow."
+        },
+        {
+          "p": "How many bugs do you find?",
+          "m": "Nói số bug bạn tìm. Nói loại bug ngắn (ví dụ: UI or function).",
+          "h": "There are + number + bugs. They are + type",
+          "s": "There are three bugs. They are UI bugs."
+        },
+        {
+          "p": "Do you need more time?",
+          "m": "Trả lời có cần thêm thời gian hay không. Nếu cần, nói thời gian thêm bạn cần.",
+          "h": "Yes, I need + time. / No, I do not need more time.",
+          "s": "Yes, I need one more day. I need time to fix bugs."
+        },
+        {
+          "p": "Please tell one risk for the deadline.",
+          "m": "Nói một rủi ro chính. Nói cách ngắn bạn sẽ giảm rủi ro đó.",
+          "h": "The risk is ... I will + V to reduce it",
+          "s": "The risk is a slow review. I will ask for a quick review."
+        }
+      ]
+    },
+    {
+      "t": "Yêu cầu hỗ trợ từ team khác",
+      "e": [
+        {
+          "p": "Can your team help with data access?",
+          "m": "Trả lời có thể giúp hay không. Nếu giúp, nói bạn cần access khi nào.",
+          "h": "Yes, we can / No, we cannot. You need it by ...",
+          "s": "Yes, we can help. You need it by tomorrow."
+        },
+        {
+          "p": "I need a short design test. Can you do it?",
+          "m": "Trả lời có thể hay không. Nếu có, nói bạn sẽ làm test trong bao lâu.",
+          "h": "Yes, I can. I will take + time",
+          "s": "Yes, I can. I will take one hour."
+        },
+        {
+          "p": "Who do I contact for the API key?",
+          "m": "Nói người hoặc vị trí liên hệ. Nói cách liên lạc (email/chat).",
+          "h": "Contact + role. by + email/chat",
+          "s": "Contact the backend lead. Contact them by email."
+        },
+        {
+          "p": "Please give a short approval for this change.",
+          "m": "Trả lời bạn có approve hay không. Nếu có, nói bạn approve vì lý do ngắn.",
+          "h": "I approve / I do not approve. Because + reason",
+          "s": "I approve the change. Because it improves UX."
+        },
+        {
+          "p": "We need a quick review. Can you check it now?",
+          "m": "Trả lời bạn có thể check ngay hay không. Nếu không, nói khi nào bạn rảnh.",
+          "h": "I can / I cannot. I am free at ...",
+          "s": "I cannot check now. I am free at 3 PM."
+        }
+      ]
+    },
+    {
+      "t": "Thói quen làm việc chung",
+      "e": [
+        {
+          "p": "What time do you usually start work?",
+          "m": "Nói giờ bắt đầu làm việc thường ngày. Nói bạn thường làm ở đâu lúc đó (office/home).",
+          "h": "I usually + V at + time. at home / at the office",
+          "s": "I usually start work at 9 AM. I usually work at the office."
+        },
+        {
+          "p": "Do you often work with the design team?",
+          "m": "Nói tần suất bạn làm việc cùng team design. Nói một việc bạn làm chung ngắn gọn.",
+          "h": "I often / sometimes + V with + team. We + V",
+          "s": "I often work with the design team. We discuss user tests."
+        },
+        {
+          "p": "How do you organize your tasks each day?",
+          "m": "Nói phương pháp ngắn (to do list/calendar). Nói bạn làm việc ưu tiên như thế nào.",
+          "h": "I use + tool. I usually + V first",
+          "s": "I use a to-do list. I usually do urgent tasks first."
+        },
+        {
+          "p": "Are you still working on the same task?",
+          "m": "Trả lời bạn có đang làm task đó hay không (be + V-ing). Nói bạn sẽ làm tiếp hay chuyển sang việc khác.",
+          "h": "I am + V-ing / I am not. I will + V",
+          "s": "I am still working on it. I will finish and start the next task."
+        },
+        {
+          "p": "Do you like weekly planning meetings?",
+          "m": "Nói bạn thích hay không. Nói lý do ngắn vì sao.",
+          "h": "I like / I do not like. because + reason",
+          "s": "I like weekly planning meetings. Because they make work clear."
+        }
+      ]
+    },
+    {
+      "t": "Xử lý ý kiến khác nhau",
+      "e": [
+        {
+          "p": "I think we should change the design. Do you agree?",
+          "m": "Trả lời bạn đồng ý hay không. Nói lý do ngắn (vì sao agree/disagree).",
+          "h": "I agree / I do not agree. Because + reason",
+          "s": "I agree with the change. Because it improves clarity."
+        },
+        {
+          "p": "Someone says the deadline is too short. What do you say?",
+          "m": "Nói bạn nghĩ deadline có hợp lý không. Nói một giải pháp ngắn nếu cần thêm thời gian.",
+          "h": "I think + opinion. We can + V",
+          "s": "I think the deadline is tight. We can ask for one more day."
+        },
+        {
+          "p": "There is a disagreement about priorities. Can we list two main tasks?",
+          "m": "Nói hai task chính bạn cho là quan trọng. Mỗi task một câu ngắn.",
+          "h": "Task 1: ... Task 2: ...",
+          "s": "Task 1: Fix critical bugs. Task 2: Complete the user flow."
+        },
+        {
+          "p": "How do you feel about the current plan?",
+          "m": "Nói cảm giác của bạn (happy/concerned). Nói vì sao ngắn.",
+          "h": "I feel + adjective. Because + reason",
+          "s": "I feel concerned. Because the plan is tight."
+        },
+        {
+          "p": "Can we try a small test before full change?",
+          "m": "Trả lời có thể thử hay không. Nói cách bạn sẽ thử ngắn gọn.",
+          "h": "Yes, we can / No, we cannot. We will + V",
+          "s": "Yes, we can try a small test. We will test with five users."
+        }
+      ]
+    },
+    {
+      "t": "Hỏi về deadline và ưu tiên",
+      "e": [
+        {
+          "p": "What is the project deadline?",
+          "m": "Nói ngày hoặc thời hạn ngắn (ví dụ: next week). Nói nếu deadline cố định hay có thể thay đổi.",
+          "h": "The deadline is + time. It is fixed / It can change",
+          "s": "The deadline is next Friday. It can change if needed."
+        },
+        {
+          "p": "Which task is the top priority?",
+          "m": "Nói task bạn cho là ưu tiên nhất. Nói lý do ngắn vì sao.",
+          "h": "The top priority is ... Because + reason",
+          "s": "The top priority is the login flow. Because users need it first."
+        },
+        {
+          "p": "Can we move a low-priority task to next week?",
+          "m": "Trả lời được hay không. Nếu được, nói bạn sẽ làm việc đó khi nào.",
+          "h": "Yes, we can / No, we cannot. I will do it + time",
+          "s": "Yes, we can move it. I will do it next week."
+        },
+        {
+          "p": "Do you always follow the priority list?",
+          "m": "Nói tần suất bạn theo list (always/often/sometimes). Nói một lý do ngắn.",
+          "h": "I usually / sometimes + V. Because + reason",
+          "s": "I usually follow the priority list. Because it helps focus."
+        },
+        {
+          "p": "Who decides the final priority?",
+          "m": "Nói người hoặc vị trí quyết định. Nói cách ngắn họ thông báo quyết định (meeting/email).",
+          "h": "The + role decides. They tell us by + email/meeting",
+          "s": "The project manager decides. They tell us by email."
+        }
+      ]
+    },
+    {
+      "t": "Dùng công cụ chung",
+      "e": [
+        {
+          "p": "Do you have access to the shared drive?",
+          "m": "Trả lời bạn có quyền truy cập hay không. Nếu không, nói bạn cần ai cấp quyền.",
+          "h": "I have / I do not have access. Ask + role for access",
+          "s": "I do not have access. Ask the admin for access."
+        },
+        {
+          "p": "Can you edit the shared doc now?",
+          "m": "Trả lời bạn đang edit hay không. Nếu đang, nói bạn đang làm gì trong doc.",
+          "h": "I am editing / I am not editing. I am + V-ing",
+          "s": "I am editing the doc now. I am adding the agenda."
+        },
+        {
+          "p": "Please add your comments to the file.",
+          "m": "Nói bạn sẽ thêm comment hay không. Nếu có, nói bạn sẽ comment ở phần nào.",
+          "h": "I will add comments. I will comment on ...",
+          "s": "I will add comments. I will comment on the design section."
+        },
+        {
+          "p": "How many files are in the project folder?",
+          "m": "Nói số file hiện có. Nói một loại file bạn thấy (doc/pdf).",
+          "h": "There are + number + files. They are + type",
+          "s": "There are five files. They are PDF reports."
+        },
+        {
+          "p": "Do you prefer Google Drive or another tool?",
+          "m": "Nói bạn thích công cụ nào. Nói lý do ngắn vì sao.",
+          "h": "I prefer + tool. Because + reason",
+          "s": "I prefer Google Drive. Because it is easy to share."
+        }
+      ]
+    },
+    {
+      "t": "Kết thúc một giai đoạn dự án",
+      "e": [
+        {
+          "p": "Is the feature ready to hand over?",
+          "m": "Trả lời feature đã sẵn sàng hay chưa. Nếu có, nói bạn sẽ hand over cho ai.",
+          "h": "It is ready / It is not ready. I will hand over to + role",
+          "s": "It is ready. I will hand over to the QA team."
+        },
+        {
+          "p": "Can you write a short handover note?",
+          "m": "Trả lời bạn có viết hay không. Nếu có, nói điểm chính trong note.",
+          "h": "Yes, I can. The main point is ...",
+          "s": "Yes, I can. The main point is test steps."
+        },
+        {
+          "p": "Do you have final files for archiving?",
+          "m": "Trả lời có hay không. Nếu có, nói bạn sẽ lưu ở đâu.",
+          "h": "Yes, I have / No, I do not. I will save at ...",
+          "s": "Yes, I have final files. I will save them in the project folder."
+        },
+        {
+          "p": "Please tell one lesson from this phase.",
+          "m": "Nói một điều bạn học được. Nói cách bạn sẽ thay đổi cho lần sau.",
+          "h": "I learned ... I will + V next time",
+          "s": "I learned better review. I will ask for earlier feedback next time."
+        },
+        {
+          "p": "Can we have a short closing meeting?",
+          "m": "Trả lời có thể họp hay không. Nếu được, nói thời gian ngắn phù hợp.",
+          "h": "Yes, we can / No, we cannot. I am free at ...",
+          "s": "Yes, we can. I am free on Friday morning."
+        }
+      ]
+    },
+    {
+      "t": "Ôn tập: Gặp nhóm và trao đổi công việc",
+      "e": [
+        {
+          "p": "Hi, introduce yourself and your role, please.",
+          "m": "Nói tên của bạn. Nói vai trò của bạn trong dự án.",
+          "h": "My name is ... / I am + role",
+          "s": "My name is [studentName]. I am a content writer."
+        },
+        {
+          "p": "Where do you work from and when do you start work?",
+          "m": "Nói thành phố bạn sống. Nói giờ bạn bắt đầu làm việc thường ngày.",
+          "h": "I live in ... I usually start at ...",
+          "s": "I live in [studentCity]. I usually start at 9 AM."
+        },
+        {
+          "p": "What task are you doing now and what is your next step?",
+          "m": "Nói công việc hiện tại (V-ing). Nói bước tiếp theo bạn sẽ làm.",
+          "h": "I am + V-ing. Next, I will + V",
+          "s": "I am editing the copy. Next, I will send it for review."
+        },
+        {
+          "p": "How often do you meet with other teams and why?",
+          "m": "Nói tần suất (always/often/sometimes). Nói lý do ngắn.",
+          "h": "I often/sometimes + V. Because + reason",
+          "s": "I often meet with other teams. Because we share updates."
+        },
+        {
+          "p": "Can you share one thing you like about teamwork?",
+          "m": "Nói một điều bạn thích. Nói lý do ngắn vì sao.",
+          "h": "I like + N. Because + reason",
+          "s": "I like team feedback. Because it improves the work."
+        }
+      ]
+    },
+    {
+      "t": "Ôn tập: Yêu cầu hỗ trợ và báo cáo tiến độ",
+      "e": [
+        {
+          "p": "I need data for the report. Can you help?",
+          "m": "Trả lời bạn có thể giúp hay không. Nếu giúp, nói khi nào bạn gửi data.",
+          "h": "Yes, I can / No, I cannot. I will send by ...",
+          "s": "Yes, I can help. I will send the data tonight."
+        },
+        {
+          "p": "Give a short update: is the task done?",
+          "m": "Nói task đã xong hay chưa. Nếu chưa, nói khi nào xong.",
+          "h": "It is finished / It is not finished. I will finish by ...",
+          "s": "It is not finished. I will finish by tomorrow."
+        },
+        {
+          "p": "How many people work on this part now?",
+          "m": "Nói số người đang làm. Nói vai trò ngắn của họ.",
+          "h": "There are + number + people. They are + roles",
+          "s": "There are three people. They are a dev, a designer, and a tester."
+        },
+        {
+          "p": "Can you approve the update today?",
+          "m": "Trả lời bạn approve hay không. Nói lý do ngắn nếu không approve.",
+          "h": "I approve / I do not approve. Because + reason",
+          "s": "I approve the update. Because it matches the brief."
+        },
+        {
+          "p": "Do you need a meeting to solve this issue?",
+          "m": "Trả lời bạn có cần họp hay không. Nếu cần, nói thời gian phù hợp ngắn.",
+          "h": "Yes, we need / No, we do not need. I am free at ...",
+          "s": "Yes, we need a meeting. I am free at 2 PM."
+        }
+      ]
+    },
+    {
+      "t": "Ôn tập: Giải quyết vấn đề và lên kế hoạch",
+      "e": [
+        {
+          "p": "There is a small bug. Can you describe it?",
+          "m": "Mô tả bug ngắn (loại). Nói bạn sẽ làm gì để sửa.",
+          "h": "It is a + type bug. I will + V to fix it",
+          "s": "It is a UI bug. I will fix the button style."
+        },
+        {
+          "p": "We need a plan for next week. Can you list two tasks?",
+          "m": "Nói hai task bạn lên kế hoạch. Mỗi task một câu ngắn.",
+          "h": "Task 1: ... Task 2: ...",
+          "s": "Task 1: Complete user tests. Task 2: Update the report."
+        },
+        {
+          "p": "Who will lead the small test and when?",
+          "m": "Nói ai dẫn test. Nói khi nào test diễn ra ngắn gọn.",
+          "h": "Name + will + V. It will be at/on ...",
+          "s": "I will lead the small test. It will be on Monday morning."
+        },
+        {
+          "p": "Can we reduce the risk by asking for help?",
+          "m": "Trả lời có thể giảm rủi ro hay không. Nói ai bạn sẽ hỏi giúp.",
+          "h": "Yes, we can / No, we cannot. Ask + role",
+          "s": "Yes, we can reduce the risk. Ask the tech lead for help."
+        },
+        {
+          "p": "Please give one final short note for the plan.",
+          "m": "Viết một lưu ý ngắn cho kế hoạch. Lưu ý nên rõ ràng và ngắn.",
+          "h": "One note: ...",
+          "s": "One note: Check timelines with all teams."
+        }
+      ]
+    }
+  ]
+}

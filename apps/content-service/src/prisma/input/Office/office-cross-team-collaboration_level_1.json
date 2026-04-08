@@ -1,0 +1,530 @@
+{
+  "l": 1,
+  "d": [
+    {
+      "t": "Gặp nhóm khác lần đầu",
+      "e": [
+        {
+          "p": "Hi, what's your name?",
+          "m": "Nói tên của bạn.",
+          "h": "My name is ...",
+          "s": "My name is [studentName]."
+        },
+        {
+          "p": "How old are you?",
+          "m": "Nói tuổi của bạn.",
+          "h": "I am ... years old.",
+          "s": "I am [studentAge] years old."
+        },
+        {
+          "p": "Where do you work?",
+          "m": "Nói nơi bạn làm việc (nghề hoặc công ty).",
+          "h": "I work as ... / I work at ...",
+          "s": "I work as a [studentJob]."
+        },
+        {
+          "p": "Which team are you in?",
+          "m": "Nói team ngắn gọn.",
+          "h": "I am in the ... team.",
+          "s": "I am in the design team."
+        },
+        {
+          "p": "Can you help our team this week?",
+          "m": "Nói bạn có thể giúp hay không.",
+          "h": "Use 'I can...' or 'I can't...'.",
+          "s": "I can help this week."
+        }
+      ]
+    },
+    {
+      "t": "Giải thích vai trò của bạn",
+      "e": [
+        {
+          "p": "What is your job?",
+          "m": "Nói nghề nghiệp của bạn (một từ hoặc cụm ngắn).",
+          "h": "Use 'I am a ...' or 'I work as a ...'.",
+          "s": "I am a [studentJob]."
+        },
+        {
+          "p": "What do you do every day?",
+          "m": "Nói 1 việc bạn làm hàng ngày tại công việc.",
+          "h": "Use present simple: 'I ... every day.'",
+          "s": "I test the app every day."
+        },
+        {
+          "p": "Who is on your team?",
+          "m": "Nói một người trong team (tên hoặc vị trí).",
+          "h": "Use 'There is ...' or 'We have ...'.",
+          "s": "There is Tom in my team."
+        },
+        {
+          "p": "Do you work with design?",
+          "m": "Trả lời 'Yes' hoặc 'No'.",
+          "h": "Use 'Yes, I do.' or 'No, I don't.'",
+          "s": "Yes, I do."
+        },
+        {
+          "p": "Can you send a task list to us?",
+          "m": "Trả lời bạn có thể gửi hay không.",
+          "h": "Use 'I can...' or 'I can't...'.",
+          "s": "I can send the task list."
+        }
+      ]
+    },
+    {
+      "t": "Sắp xếp họp ngắn",
+      "e": [
+        {
+          "p": "Can we meet now?",
+          "m": "Nói bạn có thể họp ngay hay không.",
+          "h": "Use 'I can...' or 'I can't...'.",
+          "s": "I can meet now."
+        },
+        {
+          "p": "What time is good for you?",
+          "m": "Nói một giờ cụ thể khi bạn rảnh.",
+          "h": "Use 'I am free at ...'.",
+          "s": "I am free at 3 pm."
+        },
+        {
+          "p": "How long is the meeting?",
+          "m": "Nói thời lượng họp ngắn (phút).",
+          "h": "Use 'It is ... minutes.'",
+          "s": "It is 30 minutes."
+        },
+        {
+          "p": "Do you need to join by phone?",
+          "m": "Trả lời có hoặc không.",
+          "h": "Use 'Yes, I do.' or 'No, I don't.'",
+          "s": "No, I don't."
+        },
+        {
+          "p": "Can you bring the report?",
+          "m": "Nói bạn có thể mang báo cáo hay không.",
+          "h": "Use 'I can...' or 'I can't...'.",
+          "s": "I can bring the report."
+        }
+      ]
+    },
+    {
+      "t": "Yêu cầu tài liệu",
+      "e": [
+        {
+          "p": "Do you have the file?",
+          "m": "Trả lời bạn có file hay không.",
+          "h": "Use 'Yes, I have it.' or 'No, I don't.'",
+          "s": "Yes, I have it."
+        },
+        {
+          "p": "Can you send the file by email?",
+          "m": "Nói bạn có thể gửi file qua email hay không.",
+          "h": "Use 'I can...' or 'I can't...'.",
+          "s": "I can send it by email."
+        },
+        {
+          "p": "What is the file name?",
+          "m": "Cho tên file ngắn.",
+          "h": "Use 'It is ...'.",
+          "s": "It is report.pdf."
+        },
+        {
+          "p": "Is the file ready?",
+          "m": "Trả lời file có sẵn hay chưa.",
+          "h": "Use 'Yes, it is.' or 'No, it isn't.'",
+          "s": "Yes, it is ready."
+        },
+        {
+          "p": "Where do you save the file?",
+          "m": "Nói nơi bạn lưu file (ví dụ: drive, email).",
+          "h": "Use 'I save it on ...'.",
+          "s": "I save it on the drive."
+        }
+      ]
+    },
+    {
+      "t": "Phối hợp làm việc hàng ngày",
+      "e": [
+        {
+          "p": "How do we share tasks?",
+          "m": "Nói một cách ngắn để chia sẻ task.",
+          "h": "Use 'We share tasks by ...'.",
+          "s": "We share tasks by email."
+        },
+        {
+          "p": "Who starts the work today?",
+          "m": "Nói ai bắt đầu hôm nay (I hoặc tên).",
+          "h": "Use 'I start ...' or 'Tom starts ...'.",
+          "s": "I start today."
+        },
+        {
+          "p": "Can you help with this task?",
+          "m": "Trả lời bạn có thể giúp hay không.",
+          "h": "Use 'Yes, I can.' or 'No, I can't.'",
+          "s": "Yes, I can."
+        },
+        {
+          "p": "Do you have time after lunch?",
+          "m": "Trả lời có thời gian sau ăn trưa hay không.",
+          "h": "Use 'I have time' or 'I don't have time'.",
+          "s": "I have time after lunch."
+        },
+        {
+          "p": "Who checks the work?",
+          "m": "Nói người kiểm tra công việc.",
+          "h": "Use '... checks the work.'",
+          "s": "My lead checks the work."
+        }
+      ]
+    },
+    {
+      "t": "Giải quyết vấn đề nhỏ",
+      "e": [
+        {
+          "p": "There is a problem with the file.",
+          "m": "Nói bạn biết vấn đề hay không.",
+          "h": "Use 'I know' or 'I don't know'.",
+          "s": "I know."
+        },
+        {
+          "p": "Can you fix it?",
+          "m": "Trả lời bạn có thể sửa hay không.",
+          "h": "Use 'I can...' or 'I can't...'.",
+          "s": "I can fix it."
+        },
+        {
+          "p": "What is the problem?",
+          "m": "Mô tả một lỗi ngắn (ví dụ: sai dữ liệu).",
+          "h": "Use 'It is ...'.",
+          "s": "It is wrong data."
+        },
+        {
+          "p": "Do you need help?",
+          "m": "Trả lời bạn có cần giúp hay không.",
+          "h": "Use 'Yes, I do.' or 'No, I don't.'",
+          "s": "Yes, I do."
+        },
+        {
+          "p": "When can you fix it?",
+          "m": "Nói thời gian bạn sửa được (today, now, tomorrow).",
+          "h": "Use 'I can fix it ...'.",
+          "s": "I can fix it today."
+        }
+      ]
+    },
+    {
+      "t": "Trình bày tiến độ",
+      "e": [
+        {
+          "p": "How is the work?",
+          "m": "Nói tiến độ ngắn (ví dụ: half done).",
+          "h": "Use 'It is ...' or 'We are ...'.",
+          "s": "It is half done."
+        },
+        {
+          "p": "Is the task ready?",
+          "m": "Trả lời task đã sẵn sàng hay chưa.",
+          "h": "Use 'Yes, it is.' or 'No, it isn't.'",
+          "s": "No, it isn't ready."
+        },
+        {
+          "p": "How many tasks do you finish?",
+          "m": "Nói số lượng task bạn hoàn thành.",
+          "h": "Use 'I finished ...' (number).",
+          "s": "I finished two tasks."
+        },
+        {
+          "p": "Can you finish today?",
+          "m": "Trả lời bạn có thể hoàn thành hôm nay hay không.",
+          "h": "Use 'Yes, I can.' or 'No, I can't.'",
+          "s": "No, I can't finish today."
+        },
+        {
+          "p": "Who completes the review?",
+          "m": "Nói ai hoàn thành việc review.",
+          "h": "Use 'I complete ...' or 'The ... completes ...'.",
+          "s": "I complete the review."
+        }
+      ]
+    },
+    {
+      "t": "Yêu cầu hỗ trợ kỹ thuật",
+      "e": [
+        {
+          "p": "My computer is slow.",
+          "m": "Nói bạn có biết vấn đề hay không.",
+          "h": "Use 'I know' or 'I don't know'.",
+          "s": "I know."
+        },
+        {
+          "p": "Can IT help me?",
+          "m": "Trả lời IT có thể giúp hay không.",
+          "h": "Use 'Yes, they can.' or 'No, they can't.'",
+          "s": "Yes, they can."
+        },
+        {
+          "p": "Do you know the password?",
+          "m": "Trả lời bạn có biết mật khẩu hay không.",
+          "h": "Use 'Yes, I know.' or 'No, I don't.'",
+          "s": "No, I don't know the password."
+        },
+        {
+          "p": "Can you restart the computer?",
+          "m": "Trả lời bạn có thể khởi động lại máy hay không.",
+          "h": "Use 'I can...' or 'I can't...'.",
+          "s": "I can restart the computer."
+        },
+        {
+          "p": "What tool do you use?",
+          "m": "Nói một công cụ bạn dùng (email, chat).",
+          "h": "Use 'I use ...'.",
+          "s": "I use email."
+        }
+      ]
+    },
+    {
+      "t": "Thảo luận lịch trình dự án",
+      "e": [
+        {
+          "p": "When is the project due?",
+          "m": "Nói hạn nộp ngắn (ví dụ: tomorrow).",
+          "h": "Use 'It is due ...'.",
+          "s": "It is due tomorrow."
+        },
+        {
+          "p": "Do you meet the deadline?",
+          "m": "Trả lời bạn có đáp ứng hạn không.",
+          "h": "Use 'Yes, I do.' or 'No, I don't.'",
+          "s": "No, I don't meet the deadline."
+        },
+        {
+          "p": "Can we move the deadline?",
+          "m": "Trả lời có thể dời hạn hay không.",
+          "h": "Use 'We can...' or 'We can't...'.",
+          "s": "We can't move the deadline."
+        },
+        {
+          "p": "How many days left?",
+          "m": "Nói số ngày còn lại.",
+          "h": "Use a number + 'days left'.",
+          "s": "There are three days left."
+        },
+        {
+          "p": "Who sets the deadline?",
+          "m": "Nói người đặt hạn (ví dụ: manager, lead).",
+          "h": "Use 'The ... sets the deadline.'",
+          "s": "The manager sets the deadline."
+        }
+      ]
+    },
+    {
+      "t": "Chia sẻ ý tưởng",
+      "e": [
+        {
+          "p": "Do you have an idea?",
+          "m": "Trả lời bạn có ý tưởng hay không.",
+          "h": "Use 'Yes, I have an idea.' or 'No, I don't.'",
+          "s": "Yes, I have an idea."
+        },
+        {
+          "p": "What is your idea?",
+          "m": "Nói một ý ngắn.",
+          "h": "Use 'My idea is ...' or 'I suggest ...'.",
+          "s": "My idea is to make a list."
+        },
+        {
+          "p": "Can you explain more?",
+          "m": "Mô tả ý thêm một câu ngắn.",
+          "h": "Use 'It is ...' or 'It means ...'.",
+          "s": "It is a short list of tasks."
+        },
+        {
+          "p": "Do others like the idea?",
+          "m": "Trả lời có/không.",
+          "h": "Use 'Yes, they do.' or 'No, they don't.'",
+          "s": "Yes, they do."
+        },
+        {
+          "p": "Who will try the idea?",
+          "m": "Nói ai sẽ thử (I hoặc team).",
+          "h": "Use 'I can try it.' or 'We can try it.'",
+          "s": "I can try it."
+        }
+      ]
+    },
+    {
+      "t": "Phản hồi và đồng ý",
+      "e": [
+        {
+          "p": "Do you like the plan?",
+          "m": "Trả lời bạn có thích kế hoạch hay không.",
+          "h": "Use 'Yes, I do.' or 'No, I don't.'",
+          "s": "Yes, I do."
+        },
+        {
+          "p": "What do you think?",
+          "m": "Nói ý ngắn về kế hoạch.",
+          "h": "Use 'It is ...' or 'I think ...'.",
+          "s": "It is good."
+        },
+        {
+          "p": "Can you change the time?",
+          "m": "Trả lời bạn có thể thay thời gian hay không.",
+          "h": "Use 'I can...' or 'I can't...'.",
+          "s": "I can change the time."
+        },
+        {
+          "p": "Do you agree?",
+          "m": "Trả lời bạn có đồng ý hay không.",
+          "h": "Use 'Yes, I agree.' or 'No, I don't agree.'",
+          "s": "Yes, I agree."
+        },
+        {
+          "p": "Who signs the plan?",
+          "m": "Nói người ký kế hoạch.",
+          "h": "Use 'The ... signs the plan.'",
+          "s": "The manager signs the plan."
+        }
+      ]
+    },
+    {
+      "t": "Gặp khó khăn khi phối hợp",
+      "e": [
+        {
+          "p": "I do not get your emails.",
+          "m": "Nói bạn có nhận email hay không.",
+          "h": "Use 'I get' or 'I don't get'.",
+          "s": "I do not get your emails."
+        },
+        {
+          "p": "Can you send again?",
+          "m": "Nói bạn sẽ gửi lại hay không.",
+          "h": "Use 'I can send it again.'",
+          "s": "I can send it again."
+        },
+        {
+          "p": "Do you use the same email?",
+          "m": "Trả lời bạn có dùng cùng email hay không.",
+          "h": "Use 'Yes, I do.' or 'No, I don't.'",
+          "s": "No, I don't use the same email."
+        },
+        {
+          "p": "Can we call to fix this?",
+          "m": "Trả lời có thể gọi hay không.",
+          "h": "Use 'Yes, we can.' or 'No, we can't.'",
+          "s": "Yes, we can call."
+        },
+        {
+          "p": "Who sends the final file?",
+          "m": "Nói ai sẽ gửi file cuối cùng.",
+          "h": "Use 'I send ...' or 'The ... sends ...'.",
+          "s": "I send the final file."
+        }
+      ]
+    },
+    {
+      "t": "Ôn tập: Gặp và giới thiệu",
+      "e": [
+        {
+          "p": "Hi, who are you?",
+          "m": "Nói tên của bạn.",
+          "h": "My name is ...",
+          "s": "My name is [studentName]."
+        },
+        {
+          "p": "What is your job?",
+          "m": "Nói nghề nghiệp của bạn.",
+          "h": "Use 'I am a ...' or 'I work as a ...'.",
+          "s": "I am a [studentJob]."
+        },
+        {
+          "p": "Which team do you work in?",
+          "m": "Nói team bạn làm việc.",
+          "h": "Use 'I am in the ... team.'",
+          "s": "I am in the design team."
+        },
+        {
+          "p": "Can you work with us today?",
+          "m": "Trả lời bạn có thể làm việc cùng hôm nay hay không.",
+          "h": "Use 'I can...' or 'I can't...'.",
+          "s": "I can work with you today."
+        },
+        {
+          "p": "Where do you work?",
+          "m": "Nói thành phố hoặc nơi bạn làm việc.",
+          "h": "Use 'I work in ...' or 'I live in ...'.",
+          "s": "I work in [studentCity]."
+        }
+      ]
+    },
+    {
+      "t": "Ôn tập: Họp và lịch trình",
+      "e": [
+        {
+          "p": "Can we meet at 2 pm?",
+          "m": "Trả lời bạn có thể họp lúc 2 giờ hay không.",
+          "h": "Use 'Yes, I can...' or 'No, I can't...'.",
+          "s": "Yes, I can meet at 2 pm."
+        },
+        {
+          "p": "How long is the meeting?",
+          "m": "Nói thời lượng họp.",
+          "h": "Use 'It is ... minutes.'",
+          "s": "It is 30 minutes."
+        },
+        {
+          "p": "When is the deadline?",
+          "m": "Nói khi nào hạn chót (short).",
+          "h": "Use 'It is due ...' or 'It is ...'.",
+          "s": "It is due next week."
+        },
+        {
+          "p": "Can you finish task A today?",
+          "m": "Trả lời bạn có hoàn thành hôm nay hay không.",
+          "h": "Use 'Yes, I can.' or 'No, I can't.'",
+          "s": "No, I can't finish task A today."
+        },
+        {
+          "p": "Who checks the work after finish?",
+          "m": "Nói ai kiểm tra công việc sau khi xong.",
+          "h": "Use 'The ... checks the work.'",
+          "s": "The lead checks the work."
+        }
+      ]
+    },
+    {
+      "t": "Ôn tập: Giao tiếp khi có lỗi",
+      "e": [
+        {
+          "p": "The file has wrong data.",
+          "m": "Nói bạn biết vấn đề hay không.",
+          "h": "Use 'I know' or 'I don't know'.",
+          "s": "I know."
+        },
+        {
+          "p": "Can you fix the file now?",
+          "m": "Trả lời bạn có thể sửa ngay hay không.",
+          "h": "Use 'I can...' or 'I can't...'.",
+          "s": "I can fix the file now."
+        },
+        {
+          "p": "Do you need my help?",
+          "m": "Trả lời bạn có cần giúp hay không.",
+          "h": "Use 'Yes, I do.' or 'No, I don't.'",
+          "s": "No, I don't need your help."
+        },
+        {
+          "p": "Please send the new file.",
+          "m": "Nói bạn sẽ gửi file mới hay không.",
+          "h": "Use 'I can send ...' or 'I will send ...' (use 'I can' here).",
+          "s": "I can send it now."
+        },
+        {
+          "p": "Thanks for help.",
+          "m": "Phản hồi lời cảm ơn ngắn.",
+          "h": "Use 'You are welcome' or 'No problem'.",
+          "s": "You are welcome."
+        }
+      ]
+    }
+  ]
+}

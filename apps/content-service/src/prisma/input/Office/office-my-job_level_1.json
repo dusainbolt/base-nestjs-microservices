@@ -1,0 +1,530 @@
+{
+  "l": 1,
+  "d": [
+    {
+      "t": "Gặp đồng nghiệp mới",
+      "e": [
+        {
+          "p": "What's your name?",
+          "m": "Nói tên của bạn.",
+          "h": "S + be + tên",
+          "s": "My name is [studentName]."
+        },
+        {
+          "p": "What do you do?",
+          "m": "Nói nghề của bạn.",
+          "h": "I work as + nghề",
+          "s": "I work as a [studentJob]."
+        },
+        {
+          "p": "Which department do you work in?",
+          "m": "Nói bộ phận bạn làm.",
+          "h": "I am in the + bộ phận",
+          "s": "I am in the sales department."
+        },
+        {
+          "p": "Which company do you work for?",
+          "m": "Nói công ty hoặc loại công ty bạn làm.",
+          "h": "I work for + a/an + loại công ty",
+          "s": "I work for a small company."
+        },
+        {
+          "p": "Where is your office?",
+          "m": "Nói nơi làm việc (văn phòng hoặc ở nhà).",
+          "h": "I work in/at + nơi",
+          "s": "I work in an office."
+        }
+      ]
+    },
+    {
+      "t": "Giới thiệu qua điện thoại",
+      "e": [
+        {
+          "p": "Who is speaking, please?",
+          "m": "Nói tên của bạn ngắn gọn.",
+          "h": "My name is + tên",
+          "s": "My name is [studentName]."
+        },
+        {
+          "p": "Can you tell me your job?",
+          "m": "Nói nghề của bạn ngắn gọn.",
+          "h": "I work as + nghề",
+          "s": "I work as a [studentJob]."
+        },
+        {
+          "p": "Do you work in the office or at home?",
+          "m": "Nói nơi bạn làm việc (office/home).",
+          "h": "I work in/at + office/home",
+          "s": "I work in the office."
+        },
+        {
+          "p": "Can you help with the task now?",
+          "m": "Nói bạn có thể giúp bây giờ hay không.",
+          "h": "I can/can't + V",
+          "s": "I can help now."
+        },
+        {
+          "p": "What is your department?",
+          "m": "Nói tên bộ phận bạn làm (một cụm từ ngắn).",
+          "h": "I am in the + bộ phận",
+          "s": "I am in the HR department."
+        }
+      ]
+    },
+    {
+      "t": "Giới thiệu với khách hàng",
+      "e": [
+        {
+          "p": "May I have your name?",
+          "m": "Nói tên của bạn.",
+          "h": "My name is + tên",
+          "s": "My name is [studentName]."
+        },
+        {
+          "p": "What is your role at the company?",
+          "m": "Nói vị trí hoặc công việc chính của bạn.",
+          "h": "I work as/a + vị trí",
+          "s": "I work as a sales assistant."
+        },
+        {
+          "p": "Which company do you represent?",
+          "m": "Nói công ty hoặc loại công ty bạn làm.",
+          "h": "I work for + công ty/loại công ty",
+          "s": "I work for a local company."
+        },
+        {
+          "p": "Can you meet the client tomorrow?",
+          "m": "Nói bạn có thể gặp khách hàng ngày mai hay không.",
+          "h": "I can/can't + V",
+          "s": "I can meet the client tomorrow."
+        },
+        {
+          "p": "Where is your office located?",
+          "m": "Nói vị trí văn phòng ngắn gọn (thành phố hoặc địa điểm).",
+          "h": "I work in/at + nơi",
+          "s": "I work in an office in [studentCity]."
+        }
+      ]
+    },
+    {
+      "t": "Nói về công việc hàng ngày",
+      "e": [
+        {
+          "p": "What do you do every morning at work?",
+          "m": "Nói một việc bạn làm mỗi sáng ở nơi làm việc.",
+          "h": "I + V (thói quen)",
+          "s": "I answer emails every morning."
+        },
+        {
+          "p": "When do you start work?",
+          "m": "Nói giờ bạn bắt đầu làm việc (dạng đơn giản).",
+          "h": "I start work at + giờ",
+          "s": "I start work at 9 AM."
+        },
+        {
+          "p": "Do you have lunch at the office?",
+          "m": "Nói có hay không bạn ăn trưa ở văn phòng.",
+          "h": "I do/don't + V",
+          "s": "I have lunch at the office."
+        },
+        {
+          "p": "How do you go to work?",
+          "m": "Nói cách bạn đến nơi làm việc (walk/drive/bus).",
+          "h": "I + go to work by + phương tiện",
+          "s": "I go to work by bus."
+        },
+        {
+          "p": "Do you like your daily tasks?",
+          "m": "Nói bạn có thích công việc hàng ngày hay không (câu đơn).",
+          "h": "I like/don't like + N/Ving",
+          "s": "I like my daily tasks."
+        }
+      ]
+    },
+    {
+      "t": "Nói về nhiệm vụ cụ thể",
+      "e": [
+        {
+          "p": "What is your main task?",
+          "m": "Nói nhiệm vụ chính của bạn trong một câu.",
+          "h": "I + V + O",
+          "s": "I make sales calls."
+        },
+        {
+          "p": "Do you write reports?",
+          "m": "Nói có hay không bạn viết báo cáo.",
+          "h": "I do/don't + V",
+          "s": "I write short reports."
+        },
+        {
+          "p": "Can you use a computer?",
+          "m": "Nói bạn có thể dùng máy tính hay không.",
+          "h": "I can/can't + V",
+          "s": "I can use a computer."
+        },
+        {
+          "p": "Do you meet clients often?",
+          "m": "Nói tần suất bạn gặp khách (dùng từ đơn giản như 'often').",
+          "h": "I + V + often",
+          "s": "I meet clients often."
+        },
+        {
+          "p": "Who answers phone calls in your team?",
+          "m": "Nói ai trong nhóm trả lời điện thoại (vị trí hoặc 'I').",
+          "h": "My + vị trí + answers / I + V",
+          "s": "I answer phone calls."
+        }
+      ]
+    },
+    {
+      "t": "Nói về đồng nghiệp và quản lý",
+      "e": [
+        {
+          "p": "Who is your manager?",
+          "m": "Nói vị trí người quản lý của bạn (một cụm từ).",
+          "h": "My manager is + vị trí",
+          "s": "My manager is the team leader."
+        },
+        {
+          "p": "How many people are in your team?",
+          "m": "Nói số người trong nhóm (một số nhỏ).",
+          "h": "There are + số + people",
+          "s": "There are five people in my team."
+        },
+        {
+          "p": "Do you work with many people?",
+          "m": "Nói có hay không bạn làm việc với nhiều người.",
+          "h": "I do/don't + V",
+          "s": "I work with a few people."
+        },
+        {
+          "p": "Is your manager friendly?",
+          "m": "Nói có hay không quản lý thân thiện (one-word like 'yes' no not allowed), một câu đơn.",
+          "h": "My manager is + Adj",
+          "s": "My manager is friendly."
+        },
+        {
+          "p": "Who helps you at work?",
+          "m": "Nói ai giúp bạn (một cụm từ: colleague/friend).",
+          "h": "My + người + helps me / A + người helps me",
+          "s": "A colleague helps me."
+        }
+      ]
+    },
+    {
+      "t": "Kể về công ty bạn",
+      "e": [
+        {
+          "p": "What kind of company is it?",
+          "m": "Nói loại công ty (ví dụ: tech, small).",
+          "h": "It is a + loại công ty",
+          "s": "It is a tech company."
+        },
+        {
+          "p": "Is the company big or small?",
+          "m": "Nói công ty lớn hay nhỏ (một từ).",
+          "h": "It is + big/small",
+          "s": "It is small."
+        },
+        {
+          "p": "Where is the company?",
+          "m": "Nói thành phố hoặc nơi công ty đặt văn phòng (một cụm từ).",
+          "h": "It is in + thành phố",
+          "s": "It is in [studentCity]."
+        },
+        {
+          "p": "Do you like the company?",
+          "m": "Nói bạn có thích công ty hay không (một câu).",
+          "h": "I like/don't like + N",
+          "s": "I like the company."
+        },
+        {
+          "p": "Does the company help customers?",
+          "m": "Nói công ty có giúp khách hàng hay không (một câu đơn).",
+          "h": "It does/doesn't + V",
+          "s": "It helps customers."
+        }
+      ]
+    },
+    {
+      "t": "Thói quen và quy tắc nơi làm việc",
+      "e": [
+        {
+          "p": "Do you wear a uniform at work?",
+          "m": "Nói có hay không bạn mặc đồng phục.",
+          "h": "I wear/don't wear + đồ",
+          "s": "I do not wear a uniform."
+        },
+        {
+          "p": "When do you have a break?",
+          "m": "Nói giờ bạn nghỉ (một câu đơn).",
+          "h": "I have a break at + giờ",
+          "s": "I have a break at 12 PM."
+        },
+        {
+          "p": "Do you work every day?",
+          "m": "Nói bạn có làm việc mỗi ngày hay không (một câu).",
+          "h": "I do/don't + V every day",
+          "s": "I work every day."
+        },
+        {
+          "p": "Can you use the printer?",
+          "m": "Nói có hay không bạn có thể dùng máy in.",
+          "h": "I can/can't + V",
+          "s": "I can use the printer."
+        },
+        {
+          "p": "Do you bring lunch to work?",
+          "m": "Nói bạn có mang bữa trưa đi làm không (một câu).",
+          "h": "I bring/don't bring + lunch",
+          "s": "I bring lunch to work."
+        }
+      ]
+    },
+    {
+      "t": "Xử lý tình huống đơn giản tại chỗ làm",
+      "e": [
+        {
+          "p": "Can you cover my shift today?",
+          "m": "Nói ngắn bạn có thể nhận ca hay không.",
+          "h": "I can/can't + V",
+          "s": "I can cover your shift today."
+        },
+        {
+          "p": "I lost my ID card. Can you help?",
+          "m": "Nói bạn có thể giúp người kia không (một câu).",
+          "h": "I can/can't + V",
+          "s": "I can help you."
+        },
+        {
+          "p": "The computer is slow. What do you do?",
+          "m": "Nói một việc bạn làm khi máy tính chậm (một câu).",
+          "h": "I + V",
+          "s": "I restart the computer."
+        },
+        {
+          "p": "Someone asks for a document. Do you have it?",
+          "m": "Nói có hay không bạn có tài liệu (một câu).",
+          "h": "I have/don't have + O",
+          "s": "I have the document."
+        },
+        {
+          "p": "Can you call the manager now?",
+          "m": "Nói bạn có thể gọi quản lý bây giờ không (một câu).",
+          "h": "I can/can't + V",
+          "s": "I can call the manager now."
+        }
+      ]
+    },
+    {
+      "t": "Sắp xếp cuộc họp và lịch làm việc",
+      "e": [
+        {
+          "p": "Can we meet at 10 AM?",
+          "m": "Trả lời bạn có thể gặp lúc 10 giờ hay không.",
+          "h": "I can/can't + V at + giờ",
+          "s": "I can meet at 10 AM."
+        },
+        {
+          "p": "Where is the meeting?",
+          "m": "Nói địa điểm cuộc họp (một cụm từ).",
+          "h": "The meeting is in/at + nơi",
+          "s": "The meeting is in the conference room."
+        },
+        {
+          "p": "Do you bring the report to the meeting?",
+          "m": "Nói bạn có mang báo cáo không (một câu).",
+          "h": "I do/don't + V",
+          "s": "I bring the report."
+        },
+        {
+          "p": "Who joins the meeting from your team?",
+          "m": "Nói ai tham gia từ nhóm bạn (một cụm từ).",
+          "h": "My + vị trí / A + vị trí joins",
+          "s": "My manager joins the meeting."
+        },
+        {
+          "p": "Can you prepare the slides?",
+          "m": "Nói bạn có thể chuẩn bị slide hay không (một câu).",
+          "h": "I can/can't + V",
+          "s": "I can prepare the slides."
+        }
+      ]
+    },
+    {
+      "t": "Phỏng vấn ngắn: giới thiệu bản thân",
+      "e": [
+        {
+          "p": "Tell me your name.",
+          "m": "Nói tên của bạn (một câu).",
+          "h": "My name is + tên",
+          "s": "My name is [studentName]."
+        },
+        {
+          "p": "What is your job here?",
+          "m": "Nói nghề của bạn tại nơi này.",
+          "h": "I work as + nghề",
+          "s": "I work as a [studentJob]."
+        },
+        {
+          "p": "What do you do every day at work?",
+          "m": "Nói một việc bạn làm hàng ngày.",
+          "h": "I + V every day",
+          "s": "I answer emails every day."
+        },
+        {
+          "p": "Do you work in a team?",
+          "m": "Nói có hay không bạn làm việc theo nhóm.",
+          "h": "I do/don't + V",
+          "s": "I work in a team."
+        },
+        {
+          "p": "Why do you want this job?",
+          "m": "Nói một lý do ngắn (dùng từ đơn giản).",
+          "h": "I want + to + V / I like + N",
+          "s": "I want to help customers."
+        }
+      ]
+    },
+    {
+      "t": "Nói về kỹ năng công việc",
+      "e": [
+        {
+          "p": "Can you use a computer well?",
+          "m": "Nói bạn có thể dùng máy tính tốt hay không (một câu).",
+          "h": "I can/can't + V",
+          "s": "I can use a computer well."
+        },
+        {
+          "p": "Do you speak English at work?",
+          "m": "Nói bạn có nói tiếng Anh ở chỗ làm hay không.",
+          "h": "I do/don't + V",
+          "s": "I speak English at work."
+        },
+        {
+          "p": "Can you drive to meetings?",
+          "m": "Nói bạn có thể lái xe đến họp hay không.",
+          "h": "I can/can't + V",
+          "s": "I can drive to meetings."
+        },
+        {
+          "p": "Do you type fast?",
+          "m": "Nói bạn có gõ nhanh hay không (một câu).",
+          "h": "I do/don't + V",
+          "s": "I type fast."
+        },
+        {
+          "p": "Can you make a phone call in English?",
+          "m": "Nói bạn có thể gọi điện bằng tiếng Anh hay không.",
+          "h": "I can/can't + V",
+          "s": "I can make a phone call in English."
+        }
+      ]
+    },
+    {
+      "t": "Ôn tập: Gặp gỡ và giới thiệu",
+      "e": [
+        {
+          "p": "Hi, who are you?",
+          "m": "Nói tên của bạn (một câu).",
+          "h": "My name is + tên",
+          "s": "My name is [studentName]."
+        },
+        {
+          "p": "What is your job in this company?",
+          "m": "Nói nghề và vị trí ngắn gọn.",
+          "h": "I work as + nghề",
+          "s": "I work as a [studentJob]."
+        },
+        {
+          "p": "Which department do you work in?",
+          "m": "Nói bộ phận bạn làm (một cụm từ).",
+          "h": "I am in the + bộ phận",
+          "s": "I am in the sales department."
+        },
+        {
+          "p": "Do you work in the office or from home?",
+          "m": "Nói nơi bạn làm việc (office/home).",
+          "h": "I work in/at + nơi",
+          "s": "I work from home."
+        },
+        {
+          "p": "Can you help me with a simple task?",
+          "m": "Nói bạn có thể giúp hay không (một câu).",
+          "h": "I can/can't + V",
+          "s": "I can help with a simple task."
+        }
+      ]
+    },
+    {
+      "t": "Ôn tập: Công việc hàng ngày và nhiệm vụ",
+      "e": [
+        {
+          "p": "What do you do at work every day?",
+          "m": "Nói một việc bạn làm mỗi ngày.",
+          "h": "I + V every day",
+          "s": "I check emails every day."
+        },
+        {
+          "p": "When do you start and finish work?",
+          "m": "Nói giờ bạn bắt đầu hoặc kết thúc (một ý trong một câu).",
+          "h": "I start at + giờ / I finish at + giờ",
+          "s": "I start at 9 AM."
+        },
+        {
+          "p": "Do you write reports or make calls?",
+          "m": "Nói bạn làm báo cáo hay gọi điện (chọn một).",
+          "h": "I write reports / I make calls",
+          "s": "I make calls."
+        },
+        {
+          "p": "Can you use office tools like a printer?",
+          "m": "Nói bạn có thể dùng máy in hay không (một câu).",
+          "h": "I can/can't + V",
+          "s": "I can use the printer."
+        },
+        {
+          "p": "Who helps you with work tasks?",
+          "m": "Nói ai giúp bạn (một cụm từ).",
+          "h": "A + người / A colleague helps me",
+          "s": "A colleague helps me."
+        }
+      ]
+    },
+    {
+      "t": "Ôn tập: Tình huống tại nơi làm việc",
+      "e": [
+        {
+          "p": "Can you finish this task today?",
+          "m": "Nói bạn có thể hoàn thành hôm nay hay không.",
+          "h": "I can/can't + V today",
+          "s": "I can finish the task today."
+        },
+        {
+          "p": "Where do you meet clients?",
+          "m": "Nói nơi bạn gặp khách hàng (một cụm từ).",
+          "h": "I meet clients in/at + nơi",
+          "s": "I meet clients at the office."
+        },
+        {
+          "p": "Do you like your manager and team?",
+          "m": "Nói bạn có thích quản lý và nhóm không (một câu đơn).",
+          "h": "I like/don't like + N",
+          "s": "I like my manager and team."
+        },
+        {
+          "p": "How do you go to work every day?",
+          "m": "Nói phương tiện bạn đi làm mỗi ngày (một câu).",
+          "h": "I go to work by + phương tiện",
+          "s": "I go to work by bus."
+        },
+        {
+          "p": "What is one rule at your workplace?",
+          "m": "Nói một quy tắc đơn giản ở nơi làm việc (một câu).",
+          "h": "We + V / You must + V (tránh must nếu phức tạp)",
+          "s": "We wear an ID card."
+        }
+      ]
+    }
+  ]
+}
