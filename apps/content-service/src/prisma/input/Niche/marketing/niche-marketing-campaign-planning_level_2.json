@@ -1,0 +1,530 @@
+{
+  "l": 2,
+  "d": [
+    {
+      "t": "Họp đầu tiên",
+      "e": [
+        {
+          "p": "Can we start the meeting now?",
+          "m": "Nói mục tiêu họp (1 câu). Nói bạn có rảnh bây giờ hay không (1 câu).",
+          "h": "We want to... / I am free / I am busy",
+          "s": "We want to plan the campaign. I am free now."
+        },
+        {
+          "p": "Who will join the meeting?",
+          "m": "Nói số người tham gia (1 câu). Nói tên vai trò của một người (1 câu).",
+          "h": "There are + number. / He/She is a ...",
+          "s": "There are three people. She is a designer."
+        },
+        {
+          "p": "What do we talk about first?",
+          "m": "Nói chủ đề đầu tiên (1 câu). Nói một hành động bạn sẽ làm ngay (1 câu).",
+          "h": "Use 'We talk about...' and 'I will ...' or 'I am going to ...'",
+          "s": "We talk about the main goal. I will write notes."
+        },
+        {
+          "p": "Do you often have meetings like this?",
+          "m": "Nói tần suất họp (1 câu). Nói một lý do ngắn (1 câu).",
+          "h": "Use frequency adverb (often/sometimes/never). Use 'because' for reason.",
+          "s": "We often have meetings. It is for quick planning."
+        },
+        {
+          "p": "Can you join next week?",
+          "m": "Trả lời có thể tham gia hay không (1 câu). Nói ngày hoặc thời gian bạn sẵn sàng (1 câu).",
+          "h": "Use 'Yes, I can' or 'No, I cannot' + time phrase.",
+          "s": "Yes, I can join next week. I am free on Tuesday morning."
+        }
+      ]
+    },
+    {
+      "t": "Xác định mục tiêu",
+      "e": [
+        {
+          "p": "What is our main goal?",
+          "m": "Nói mục tiêu chính (1 câu). Nói một số liệu đơn giản bạn muốn thay đổi (1 câu).",
+          "h": "We want to... / We want to increase/decrease + noun",
+          "s": "We want to increase sales. We want to raise sales by 10%."
+        },
+        {
+          "p": "Is the goal short term or long term?",
+          "m": "Nói ngắn hay dài hạn (1 câu). Nói một hành động nhỏ để đạt mục tiêu (1 câu).",
+          "h": "Use 'It is short-term/long-term' and 'We will ...' or 'We are ...ing'",
+          "s": "It is short-term. We will run ads this month."
+        },
+        {
+          "p": "How many people should we reach?",
+          "m": "Nói một số người đơn giản (1 câu). Nói kênh chính để tiếp cận họ (1 câu).",
+          "h": "Use 'We need to reach + number' and 'by + channel' or 'with + channel'",
+          "s": "We need to reach 1000 people. We will reach them by email."
+        },
+        {
+          "p": "Do we want more visits or more sales?",
+          "m": "Chọn 'visits' hoặc 'sales' (1 câu). Nói một hành động để tăng lựa chọn đó (1 câu).",
+          "h": "Use 'We want more...' and 'We will ...' or 'We are ...ing'",
+          "s": "We want more sales. We are sending a discount email."
+        },
+        {
+          "p": "Who decides the goal?",
+          "m": "Nói người hoặc nhóm quyết định (1 câu). Nói cách họ nói rõ mục tiêu (1 câu).",
+          "h": "Use 'The ... decides' and 'They say ...' or 'They set ...'",
+          "s": "The manager decides the goal. She sets a clear number."
+        }
+      ]
+    },
+    {
+      "t": "Xác định khách hàng",
+      "e": [
+        {
+          "p": "Who is our target customer?",
+          "m": "Nói nhóm khách hàng đơn giản (1 câu). Nói một tính từ mô tả họ (1 câu).",
+          "h": "Use 'They are ...' and a simple adjective like 'young / busy / local'",
+          "s": "They are young people. They are busy."
+        },
+        {
+          "p": "Where do our customers live?",
+          "m": "Nói nơi (thành phố/ngày khu vực) (1 câu). Nói liệu họ ở gần hay xa (1 câu).",
+          "h": "Use 'They live in [place]' and 'They are near / far'",
+          "s": "They live in [studentCity]. They are near the city center."
+        },
+        {
+          "p": "How many customers focus on this campaign?",
+          "m": "Nói số lượng khách hàng mục tiêu (1 câu). Nói một cách để đếm họ (1 câu).",
+          "h": "Use 'There are + number' and 'We count by ...'",
+          "s": "There are 2000 target customers. We count them by email list."
+        },
+        {
+          "p": "Do our customers use phones a lot?",
+          "m": "Trả lời có/không (1 câu). Nói hành động quảng cáo phù hợp (1 câu).",
+          "h": "Use 'Yes, they do' or 'No, they don't' and 'We will ...' ",
+          "s": "Yes, they do. We will make short mobile ads."
+        },
+        {
+          "p": "What do customers like about our product?",
+          "m": "Nói một điều họ thích (1 câu). Nói một hành động để nhắc điều đó trong chiến dịch (1 câu).",
+          "h": "Use 'They like ...' and 'We will ...' or 'We are ...ing'",
+          "s": "They like the low price. We will show the price in ads."
+        }
+      ]
+    },
+    {
+      "t": "Kênh quảng cáo",
+      "e": [
+        {
+          "p": "Which channel do we use first?",
+          "m": "Chọn một kênh (1 câu). Nói vì sao chọn kênh đó (1 câu).",
+          "h": "Use 'We use ...' and 'because ...'",
+          "s": "We use email first. Because our list is ready."
+        },
+        {
+          "p": "Do we use social media?",
+          "m": "Trả lời có/không (1 câu). Nói tần suất đăng bài (1 câu).",
+          "h": "Use 'Yes/No' and frequency adverb (often/sometimes/never)",
+          "s": "Yes, we use social media. We post often."
+        },
+        {
+          "p": "How many ads per week?",
+          "m": "Nói số quảng cáo mỗi tuần (1 câu). Nói một nơi để đăng quảng cáo (1 câu).",
+          "h": "Use 'We will post + number' and 'on/in/at the ...'",
+          "s": "We will post three ads per week. We post them on Facebook."
+        },
+        {
+          "p": "Are we using email and ads together?",
+          "m": "Trả lời và nêu cách phối hợp (1 câu). Nói ai gửi email (1 câu).",
+          "h": "Use 'Yes, we are' or 'No, we are not' and 'We ...' and '... sends the email'",
+          "s": "Yes, we are using both. The team leader sends the email."
+        },
+        {
+          "p": "Which channel gets more clicks?",
+          "m": "Chọn kênh có nhiều click hơn (1 câu). Nói một hành động để tăng click (1 câu).",
+          "h": "Use 'Facebook gets more clicks' and 'We will ... to get more clicks'",
+          "s": "Facebook gets more clicks. We will make the ad image better."
+        }
+      ]
+    },
+    {
+      "t": "Nội dung chiến dịch",
+      "e": [
+        {
+          "p": "What is the main message?",
+          "m": "Nói thông điệp chính ngắn gọn (1 câu). Nói một tính từ mô tả thông điệp (1 câu).",
+          "h": "Use 'The message is ...' and a simple adjective like 'clear / short / strong'",
+          "s": "The message is 'Save money now'. It is short and clear."
+        },
+        {
+          "p": "Do we need a picture or a video?",
+          "m": "Chọn 'picture' hoặc 'video' (1 câu). Nói lý do đơn giản (1 câu).",
+          "h": "Use 'We need a ...' and 'because ...'",
+          "s": "We need a video. Because video is easy to watch."
+        },
+        {
+          "p": "Who writes the text for ads?",
+          "m": "Nói người viết (1 câu). Nói khi họ viết xong (1 câu).",
+          "h": "Use '... writes' and 'It will be ready on ...' or 'by ...'",
+          "s": "The copywriter writes the text. It will be ready by Friday."
+        },
+        {
+          "p": "How long is the video?",
+          "m": "Nói độ dài (1 câu). Nói nơi dùng video đó (1 câu).",
+          "h": "Use 'It is ... seconds/minutes' and 'We use it on ...'",
+          "s": "It is 30 seconds long. We use it on social media."
+        },
+        {
+          "p": "Do we need a logo change?",
+          "m": "Trả lời có/không (1 câu). Nói một thay đổi nhỏ nếu có (1 câu).",
+          "h": "Use 'Yes, we do' or 'No, we don't' and 'change color / make it big' ",
+          "s": "No, we don't need a big change. We will make the logo color brighter."
+        }
+      ]
+    },
+    {
+      "t": "Lịch trình nhỏ",
+      "e": [
+        {
+          "p": "When do we start the campaign?",
+          "m": "Nói ngày bắt đầu đơn giản (1 câu). Nói thời gian trong ngày (1 câu).",
+          "h": "Use 'We start on ...' and 'in the morning/afternoon/evening'",
+          "s": "We start on Monday. We start in the morning."
+        },
+        {
+          "p": "How long is the campaign?",
+          "m": "Nói số tuần/ngày (1 câu). Nói một việc kiểm tra trong thời gian đó (1 câu).",
+          "h": "Use 'It is ... weeks/days' and 'We will check ...' ",
+          "s": "It is two weeks long. We will check results every week."
+        },
+        {
+          "p": "Do we meet every day?",
+          "m": "Trả lời và nêu tần suất họp (1 câu). Nói thời gian mỗi họp (1 câu).",
+          "h": "Use 'No, we meet' or 'Yes, we meet' and 'every ...' and time phrase",
+          "s": "No, we meet twice a week. Each meeting is 30 minutes."
+        },
+        {
+          "p": "What is the last day to finish tasks?",
+          "m": "Nói ngày kết thúc (1 câu). Nói một việc bạn làm trước ngày đó (1 câu).",
+          "h": "Use 'The last day is ...' and 'I will ... before that' ",
+          "s": "The last day is June 30. I will finish the report before that."
+        },
+        {
+          "p": "Can we change the schedule later?",
+          "m": "Trả lời có/không (1 câu). Nói cách thay đổi (1 câu).",
+          "h": "Use 'Yes, we can' or 'No, we cannot' and 'by ...' or 'with ...'",
+          "s": "Yes, we can change the schedule. We change it by a team vote."
+        }
+      ]
+    },
+    {
+      "t": "Ngân sách đơn giản",
+      "e": [
+        {
+          "p": "How much is the budget?",
+          "m": "Nói số tiền đơn giản (1 câu). Nói một mục lớn dùng số tiền đó (1 câu).",
+          "h": "Use 'The budget is ...' and 'for ...' or 'to ...'",
+          "s": "The budget is 1000 dollars. It is for ads."
+        },
+        {
+          "p": "Do we spend more on ads or design?",
+          "m": "Chọn ads hoặc design (1 câu). Nói tỉ lệ đơn giản (1 câu).",
+          "h": "Use 'We spend more on ...' and 'about half / most / little' ",
+          "s": "We spend more on ads. About half the money goes to ads."
+        },
+        {
+          "p": "Can we add money if needed?",
+          "m": "Trả lời có/không (1 câu). Nói ai quyết định (1 câu).",
+          "h": "Use 'Yes, we can' or 'No, we cannot' and 'The ... decides' ",
+          "s": "Yes, we can add money. The manager decides."
+        },
+        {
+          "p": "Are there extra costs?",
+          "m": "Trả lời có/không (1 câu). Nói một ví dụ chi phí thêm (1 câu).",
+          "h": "Use 'Yes/No' and simple example like 'tax / fee / shipping'",
+          "s": "Yes, there are extra costs. For example, platform fees."
+        },
+        {
+          "p": "Do we use a small budget now?",
+          "m": "Trả lời và nêu lợi ích nhỏ (1 câu). Nói một hành động để tiết kiệm (1 câu).",
+          "h": "Use 'Yes/No' and 'It helps ...' and 'We will ...' ",
+          "s": "Yes, we use a small budget now. It helps test ads and we will use free tools."
+        }
+      ]
+    },
+    {
+      "t": "Phân công công việc",
+      "e": [
+        {
+          "p": "Who makes the ads?",
+          "m": "Nói người làm việc đó (1 câu). Nói khi họ bắt đầu (1 câu).",
+          "h": "Use '... makes the ads' and 'They start on ...' ",
+          "s": "The designer makes the ads. She starts on Monday."
+        },
+        {
+          "p": "Who sends the emails?",
+          "m": "Nói người gửi (1 câu). Nói tần suất gửi (1 câu).",
+          "h": "Use '... sends the emails' and frequency adverb",
+          "s": "The marketer sends the emails. He sends them every week."
+        },
+        {
+          "p": "Do we need help from IT?",
+          "m": "Trả lời có/không (1 câu). Nói việc IT làm (1 câu).",
+          "h": "Use 'Yes/No' and 'They will ...' ",
+          "s": "Yes, we need IT help. They will fix the website link."
+        },
+        {
+          "p": "Can one person do two tasks?",
+          "m": "Trả lời có/không (1 câu). Nói hai nhiệm vụ đơn giản nếu có (1 câu).",
+          "h": "Use 'Yes, they can' or 'No, they cannot' and list two simple tasks",
+          "s": "Yes, one person can do two tasks. She can write text and post on social media."
+        },
+        {
+          "p": "Who checks the final work?",
+          "m": "Nói người kiểm tra (1 câu). Nói một điều họ kiểm tra (1 câu).",
+          "h": "Use '... checks' and 'They check ...' ",
+          "s": "The manager checks the final work. She checks the spelling and images."
+        }
+      ]
+    },
+    {
+      "t": "Theo dõi kết quả",
+      "e": [
+        {
+          "p": "How do we know the campaign works?",
+          "m": "Nói một chỉ số đơn giản (1 câu). Nói cách đo chỉ số đó (1 câu).",
+          "h": "Use 'We look at ...' and 'we count/measure by ...'",
+          "s": "We look at sales. We measure them by our sales report."
+        },
+        {
+          "p": "Do we check results every day?",
+          "m": "Trả lời có/không (1 câu). Nói thời điểm kiểm tra (1 câu).",
+          "h": "Use 'Yes/No' and 'in the morning / after lunch' ",
+          "s": "No, we do not check every day. We check results every Monday morning."
+        },
+        {
+          "p": "How many clicks do we get today?",
+          "m": "Nói số click hôm nay (1 câu). Nói liệu số đó tốt hay không (1 câu).",
+          "h": "Use 'We get + number' and 'It is good / not good' ",
+          "s": "We get 120 clicks today. It is good for a small test."
+        },
+        {
+          "p": "Is the conversion rate high?",
+          "m": "Trả lời có/không (1 câu). Nói một hành động để tăng conversion (1 câu).",
+          "h": "Use 'Yes/No' and 'We will ...' ",
+          "s": "No, it is not high. We will change the ad text."
+        },
+        {
+          "p": "Who makes the result report?",
+          "m": "Nói người làm báo cáo (1 câu). Nói khi báo cáo xong (1 câu).",
+          "h": "Use '... makes the report' and 'It is ready on ...' ",
+          "s": "The analyst makes the report. It is ready on Friday."
+        }
+      ]
+    },
+    {
+      "t": "Phản hồi từ khách hàng",
+      "e": [
+        {
+          "p": "Did customers like the offer?",
+          "m": "Trả lời có/không (1 câu). Nói một phản hồi ngắn từ khách (1 câu).",
+          "h": "Use 'Yes/No' and 'They say ...' or 'They like ...'",
+          "s": "Yes, customers liked the offer. They say the price is good."
+        },
+        {
+          "p": "Are there complaints?",
+          "m": "Trả lời có/không (1 câu). Nói một lỗi khách hàng nói (1 câu).",
+          "h": "Use 'Yes/No' and 'They say ...' ",
+          "s": "No, there are no complaints. A few people say the checkout is slow."
+        },
+        {
+          "p": "How many happy reviews do we have?",
+          "m": "Nói số review tích cực (1 câu). Nói nơi thấy review (1 câu).",
+          "h": "Use 'We have + number' and 'on + platform' ",
+          "s": "We have 20 happy reviews. They are on our website."
+        },
+        {
+          "p": "Do customers ask for more info?",
+          "m": "Trả lời và nêu loại thông tin (1 câu). Nói cách trả lời nhanh (1 câu).",
+          "h": "Use 'Yes/No' and 'They ask for ...' and 'We will ...' ",
+          "s": "Yes, customers ask for more info. We will send a short FAQ email."
+        },
+        {
+          "p": "Who answers customer messages?",
+          "m": "Nói người trả lời (1 câu). Nói thời gian trả lời bình thường (1 câu).",
+          "h": "Use '... answers' and time phrase like 'within 1 day' ",
+          "s": "The support team answers messages. They reply within one day."
+        }
+      ]
+    },
+    {
+      "t": "Giải quyết vấn đề",
+      "e": [
+        {
+          "p": "We have a low click rate. What now?",
+          "m": "Nói một nguyên nhân ngắn (1 câu). Nói một hành động để sửa (1 câu).",
+          "h": "Use 'Maybe because ...' and 'We will ...' ",
+          "s": "Maybe because the image is boring. We will change the image."
+        },
+        {
+          "p": "An ad has a wrong link.",
+          "m": "Nói ngay bạn làm gì (1 câu). Nói bạn thông báo cho ai (1 câu).",
+          "h": "Use 'I will ...' and 'I will tell ...' ",
+          "s": "I will fix the link now. I will tell the web team."
+        },
+        {
+          "p": "We run out of budget early.",
+          "m": "Nói một cách đơn giản để tiếp tục (1 câu). Nói ai quyết định thêm tiền (1 câu).",
+          "h": "Use 'We can ...' and 'The ... decides' ",
+          "s": "We can pause low-performing ads. The manager decides to add money."
+        },
+        {
+          "p": "A post gets bad comments.",
+          "m": "Nói cách trả lời một bình luận (1 câu). Nói nếu bạn xóa hay không (1 câu).",
+          "h": "Use 'We reply ...' and 'We will / will not delete' ",
+          "s": "We reply politely and say sorry. We will not delete honest comments."
+        },
+        {
+          "p": "The campaign is late.",
+          "m": "Nói một bước bạn làm ngay (1 câu). Nói một việc giảm thời gian (1 câu).",
+          "h": "Use 'I will ...' and 'We will ...' ",
+          "s": "I will call the team now. We will work extra hours to finish."
+        }
+      ]
+    },
+    {
+      "t": "Chuẩn bị tài liệu",
+      "e": [
+        {
+          "p": "Do we have the images ready?",
+          "m": "Trả lời có/không (1 câu). Nói số ảnh đã có (1 câu).",
+          "h": "Use 'Yes/No' and 'There are + number' ",
+          "s": "Yes, we have the images ready. There are five images."
+        },
+        {
+          "p": "Is the text short and clear?",
+          "m": "Trả lời và nêu một từ miêu tả (1 câu). Nói một thay đổi nhỏ (1 câu).",
+          "h": "Use 'Yes/No' and simple adjective and 'We will ...' ",
+          "s": "Yes, the text is clear. We will make the headline shorter."
+        },
+        {
+          "p": "Who checks the ad file?",
+          "m": "Nói người kiểm tra (1 câu). Nói cách kiểm tra (1 câu).",
+          "h": "Use '... checks' and 'They check for ...' ",
+          "s": "The designer checks the ad file. She checks size and color."
+        },
+        {
+          "p": "Do we need a short guide for the team?",
+          "m": "Trả lời có/không (1 câu). Nói một nội dung có trong hướng dẫn (1 câu).",
+          "h": "Use 'Yes/No' and 'It includes ...' ",
+          "s": "Yes, we need a short guide. It includes posting times and links."
+        },
+        {
+          "p": "When is the final file due?",
+          "m": "Nói ngày nộp (1 câu). Nói ai nhận file đó (1 câu).",
+          "h": "Use 'It is due on ...' and 'We send to ...' ",
+          "s": "The final file is due on Friday. We send it to the manager."
+        }
+      ]
+    },
+    {
+      "t": "Ôn tập: Kịch bản trình bày",
+      "e": [
+        {
+          "p": "Please tell me the campaign goal and one action.",
+          "m": "Nêu mục tiêu chiến dịch (1 câu). Nêu một hành động để thực hiện mục tiêu (1 câu).",
+          "h": "We want to... / We will ...",
+          "s": "We want to increase brand awareness. We will post daily on social media."
+        },
+        {
+          "p": "Who is the target and where are they?",
+          "m": "Nêu nhóm khách hàng (1 câu). Nêu nơi họ sống hoặc hoạt động (1 câu).",
+          "h": "They are ... / They live in ...",
+          "s": "They are young adults. They live in the city."
+        },
+        {
+          "p": "Choose two channels and say frequency.",
+          "m": "Nêu hai kênh (1 câu). Nêu tần suất cho mỗi kênh (1 câu).",
+          "h": "Use 'and' to join channels and 'often/sometimes' for frequency",
+          "s": "We use email and Facebook. We send emails weekly and post on Facebook often."
+        },
+        {
+          "p": "Give a simple budget and one cost item.",
+          "m": "Nói số tiền (1 câu). Nói một khoản chi (1 câu).",
+          "h": "The budget is ... / for ...",
+          "s": "The budget is 1000 dollars. It is for online ads."
+        },
+        {
+          "p": "Say two tasks and who does them.",
+          "m": "Nêu hai nhiệm vụ (1 câu). Nói người làm mỗi nhiệm vụ (1 câu).",
+          "h": "Use '... does ... and ... does ...' ",
+          "s": "The designer makes images and the marketer sends emails. The designer does images and the marketer does emails."
+        }
+      ]
+    },
+    {
+      "t": "Ôn tập: Xử lý và điều chỉnh",
+      "e": [
+        {
+          "p": "A campaign has low sales. Say a reason and one fix.",
+          "m": "Nêu một lý do đơn giản (1 câu). Nêu một cách sửa (1 câu).",
+          "h": "Maybe because ... / We will ...",
+          "s": "Maybe because the price is high. We will offer a small discount."
+        },
+        {
+          "p": "An image is wrong. Say what you do and who to tell.",
+          "m": "Nói hành động của bạn (1 câu). Nói người bạn thông báo (1 câu).",
+          "h": "I will ... / I will tell ...",
+          "s": "I will replace the image now. I will tell the designer."
+        },
+        {
+          "p": "You need more clicks. Say one change and when.",
+          "m": "Nêu thay đổi ngắn (1 câu). Nói thời gian làm (1 câu).",
+          "h": "We will ... / on ...",
+          "s": "We will change the ad title. We will do it tomorrow."
+        },
+        {
+          "p": "Someone asks for more info. Say reply and method.",
+          "m": "Nói câu trả lời ngắn (1 câu). Nói cách gửi info (1 câu).",
+          "h": "We will reply ... / by ...",
+          "s": "We will send more details. We will send them by email."
+        },
+        {
+          "p": "We finish early. Say next step and who decides.",
+          "m": "Nói bước tiếp theo (1 câu). Nói ai quyết định (1 câu).",
+          "h": "We will ... / The ... decides",
+          "s": "We will start a new test. The team leader decides."
+        }
+      ]
+    },
+    {
+      "t": "Ôn tập: Tổng hợp chiến dịch",
+      "e": [
+        {
+          "p": "Summarize the plan in two sentences.",
+          "m": "Nói mục tiêu ngắn (1 câu). Nói hai hành động chính (1 câu).",
+          "h": "We want to... / We will ... and we will ...",
+          "s": "We want to increase sales. We will run ads and send weekly emails."
+        },
+        {
+          "p": "Tell who does two key jobs.",
+          "m": "Nói nhiệm vụ thứ nhất và ai làm (1 câu). Nói nhiệm vụ thứ hai và ai làm (1 câu).",
+          "h": "... does ... / ... does ...",
+          "s": "The designer makes images. The marketer sends emails."
+        },
+        {
+          "p": "Give a simple timeline and one check point.",
+          "m": "Nói thời gian chiến dịch (1 câu). Nói khi kiểm tra kết quả (1 câu).",
+          "h": "It is ... long / We check ...",
+          "s": "The campaign is two weeks long. We check results every Monday."
+        },
+        {
+          "p": "Say the budget and one way to save money.",
+          "m": "Nói số tiền (1 câu). Nói một cách tiết kiệm (1 câu).",
+          "h": "The budget is ... / We will ...",
+          "s": "The budget is 1000 dollars. We will stop low-performing ads to save money."
+        },
+        {
+          "p": "Finish: give one contact for help and when they answer.",
+          "m": "Nói người liên hệ (1 câu). Nói thời gian họ trả lời (1 câu).",
+          "h": "Contact is ... / They answer within ...",
+          "s": "Contact the support team. They answer within one day."
+        }
+      ]
+    }
+  ]
+}

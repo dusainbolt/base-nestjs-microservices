@@ -1,0 +1,530 @@
+{
+  "l": 1,
+  "d": [
+    {
+      "t": "Gọi taxi",
+      "e": [
+        {
+          "p": "Do you need a taxi?",
+          "m": "Cho biết nơi bạn cần đến.",
+          "h": "I need to go to + place.",
+          "s": "I need to go to the train station."
+        },
+        {
+          "p": "Where is your address?",
+          "m": "Nói thành phố bạn sống bằng một câu.",
+          "h": "I live in + city (use [studentCity] if cần).",
+          "s": "I live in [studentCity]."
+        },
+        {
+          "p": "How many people are with you?",
+          "m": "Nói số người đi cùng bằng một câu.",
+          "h": "There are + number + of us.",
+          "s": "There are two of us."
+        },
+        {
+          "p": "Do you want to pay by cash or card?",
+          "m": "Nói bạn trả tiền mặt hoặc bằng thẻ trong một câu.",
+          "h": "I will pay by + cash/card.",
+          "s": "I will pay by cash."
+        },
+        {
+          "p": "The taxi driver is here. Are you ready?",
+          "m": "Nói 'Yes' nếu bạn sẵn sàng hoặc 'No' nếu chưa trong một câu.",
+          "h": "Yes, I am ready. / No, I am not ready.",
+          "s": "Yes, I am ready."
+        }
+      ]
+    },
+    {
+      "t": "Trạm xe buýt gần nhà",
+      "e": [
+        {
+          "p": "Where is the bus stop?",
+          "m": "Nói vị trí trạm xe buýt gần bạn trong một câu.",
+          "h": "The bus stop is + place.",
+          "s": "The bus stop is near my school."
+        },
+        {
+          "p": "What bus do you take?",
+          "m": "Nói số xe buýt bạn đi trong một câu.",
+          "h": "I take bus + number.",
+          "s": "I take bus 10."
+        },
+        {
+          "p": "How often does the bus come?",
+          "m": "Nói tần suất ngắn (ví dụ every day) trong một câu.",
+          "h": "The bus comes every + time.",
+          "s": "The bus comes every day."
+        },
+        {
+          "p": "Can you wait five minutes?",
+          "m": "Nói 'Yes' nếu bạn chờ hoặc 'No' nếu bạn không chờ trong một câu.",
+          "h": "Yes, I can. / No, I cannot.",
+          "s": "No, I cannot."
+        },
+        {
+          "p": "Do you buy a bus ticket here?",
+          "m": "Trả lời có hoặc không trong một câu.",
+          "h": "Yes, I do. / No, I don't.",
+          "s": "Yes, I do."
+        }
+      ]
+    },
+    {
+      "t": "Mua vé tàu",
+      "e": [
+        {
+          "p": "Is this a ticket office?",
+          "m": "Nói có hoặc không trong một câu.",
+          "h": "Yes, it is. / No, it isn't.",
+          "s": "Yes, it is."
+        },
+        {
+          "p": "What ticket do you want?",
+          "m": "Nói số vé bạn muốn trong một câu.",
+          "h": "I want + number + ticket(s).",
+          "s": "I want one ticket."
+        },
+        {
+          "p": "Which platform is train 5?",
+          "m": "Nói số sân ga hoặc 'I don't know' trong một câu.",
+          "h": "It is platform + number. / I don't know.",
+          "s": "It is platform 3."
+        },
+        {
+          "p": "How long is the train ride?",
+          "m": "Nói thời gian chuyến đi trong một câu.",
+          "h": "It is + time (minutes/hours).",
+          "s": "It is 30 minutes."
+        },
+        {
+          "p": "Do you need help with your bags?",
+          "m": "Trả lời 'Yes' hoặc 'No' trong một câu.",
+          "h": "Yes, please. / No, thanks.",
+          "s": "Yes, please."
+        }
+      ]
+    },
+    {
+      "t": "Hỏi đường đến ga",
+      "e": [
+        {
+          "p": "Excuse me, is the station near?",
+          "m": "Nói 'Yes' nếu gần hoặc 'No' nếu xa trong một câu.",
+          "h": "Yes, it is near. / No, it is far.",
+          "s": "Yes, it is near."
+        },
+        {
+          "p": "How do I go to the station?",
+          "m": "Nói phương tiện bạn đề nghị (walk, taxi, bus) trong một câu.",
+          "h": "You can + walk / take a taxi / take the bus.",
+          "s": "You can take a taxi."
+        },
+        {
+          "p": "Where is the nearest bus?",
+          "m": "Nói vị trí ngắn gọn của bến xe buýt trong một câu.",
+          "h": "It is next to / near + place.",
+          "s": "It is next to the shop."
+        },
+        {
+          "p": "Is there a taxi near the station?",
+          "m": "Trả lời có hoặc không trong một câu.",
+          "h": "Yes, there is. / No, there isn't.",
+          "s": "Yes, there is."
+        },
+        {
+          "p": "Can I walk to the station?",
+          "m": "Trả lời 'Yes' hoặc 'No' trong một câu và nêu nếu cần khoảng cách ngắn.",
+          "h": "Yes, you can, it is + short reason. / No, you cannot.",
+          "s": "Yes, you can, it is close."
+        }
+      ]
+    },
+    {
+      "t": "Lên và xuống xe",
+      "e": [
+        {
+          "p": "Is this seat free?",
+          "m": "Trả lời 'Yes' hoặc 'No' trong một câu.",
+          "h": "Yes, it is. / No, it isn't.",
+          "s": "Yes, it is."
+        },
+        {
+          "p": "Please give me your ticket.",
+          "m": "Trả lời đưa vé trong một câu.",
+          "h": "Here it is. / I don't have one.",
+          "s": "Here it is."
+        },
+        {
+          "p": "Stop here, please.",
+          "m": "Nói 'Yes' nếu bạn sẽ xuống trạm này trong một câu.",
+          "h": "Yes, I will get off here.",
+          "s": "Yes, I will get off here."
+        },
+        {
+          "p": "Do you want to sit?",
+          "m": "Nói 'Yes' nếu bạn muốn hoặc 'No' nếu bạn đứng trong một câu.",
+          "h": "Yes, I do. / No, I don't.",
+          "s": "No, I stand."
+        },
+        {
+          "p": "Where do you get off?",
+          "m": "Nói tên nơi bạn xuống trong một câu.",
+          "h": "I get off at + place.",
+          "s": "I get off at the market."
+        }
+      ]
+    },
+    {
+      "t": "Lịch trình và thói quen",
+      "e": [
+        {
+          "p": "When do you take the bus?",
+          "m": "Nói thời điểm bạn đi xe buýt (morning/night) trong một câu.",
+          "h": "I take the bus in the morning / at night.",
+          "s": "I take the bus in the morning."
+        },
+        {
+          "p": "Do you go to work by train?",
+          "m": "Trả lời 'Yes' hoặc 'No' trong một câu.",
+          "h": "Yes, I do. / No, I don't.",
+          "s": "No, I don't."
+        },
+        {
+          "p": "How do you go to school?",
+          "m": "Nói phương tiện bạn đi học trong một câu.",
+          "h": "I go by bus. / I walk.",
+          "s": "I go by bus."
+        },
+        {
+          "p": "Do you use a taxi on weekends?",
+          "m": "Trả lời 'Yes' hoặc 'No' trong một câu.",
+          "h": "Yes, sometimes. / No, never.",
+          "s": "Yes, sometimes."
+        },
+        {
+          "p": "Where do you wait for the bus every day?",
+          "m": "Nói vị trí bạn chờ xe buýt hàng ngày trong một câu.",
+          "h": "I wait at the bus stop near my house.",
+          "s": "I wait at the bus stop near my house."
+        }
+      ]
+    },
+    {
+      "t": "Thanh toán và giá cả",
+      "e": [
+        {
+          "p": "How much is a taxi to the airport?",
+          "m": "Nói một giá ngắn trong một câu.",
+          "h": "It is + number + dollars.",
+          "s": "It is 10 dollars."
+        },
+        {
+          "p": "Do you have a bus card?",
+          "m": "Trả lời 'Yes' hoặc 'No' trong một câu.",
+          "h": "Yes, I do. / No, I don't.",
+          "s": "Yes, I do."
+        },
+        {
+          "p": "Can I pay with card on the bus?",
+          "m": "Trả lời 'Yes' hoặc 'No' trong một câu.",
+          "h": "Yes, you can. / No, you cannot.",
+          "s": "No, you cannot."
+        },
+        {
+          "p": "Do you want a receipt?",
+          "m": "Trả lời 'Yes' hoặc 'No' trong một câu.",
+          "h": "Yes, please. / No, thanks.",
+          "s": "Yes, please."
+        },
+        {
+          "p": "How much are two bus tickets?",
+          "m": "Nói tổng giá cho hai vé trong một câu.",
+          "h": "It is + number + dollars.",
+          "s": "It is 4 dollars."
+        }
+      ]
+    },
+    {
+      "t": "An toàn và quy tắc",
+      "e": [
+        {
+          "p": "Please fasten your seat belt.",
+          "m": "Xác nhận bạn thắt dây an toàn bằng một câu.",
+          "h": "Yes, I will. / No, I will not.",
+          "s": "Yes, I will."
+        },
+        {
+          "p": "Do you have a child seat?",
+          "m": "Trả lời có hoặc không trong một câu.",
+          "h": "Yes, I do. / No, I don't.",
+          "s": "No, I don't."
+        },
+        {
+          "p": "Is eating allowed on the bus?",
+          "m": "Trả lời có hoặc không trong một câu.",
+          "h": "No, it is not allowed. / Yes, it is allowed.",
+          "s": "No, it is not allowed."
+        },
+        {
+          "p": "Can I bring a pet on the train?",
+          "m": "Trả lời 'Yes' hoặc 'No' trong một câu.",
+          "h": "Yes, you can. / No, you cannot.",
+          "s": "Yes, you can."
+        },
+        {
+          "p": "Where is the emergency exit?",
+          "m": "Nói vị trí lối thoát khẩn cấp trong một câu.",
+          "h": "It is at the back / It is on the left.",
+          "s": "It is at the back."
+        }
+      ]
+    },
+    {
+      "t": "Gặp sự cố trên đường",
+      "e": [
+        {
+          "p": "The bus is late.",
+          "m": "Nói bạn có chờ hay không bằng một câu.",
+          "h": "I wait. / I don't wait.",
+          "s": "I wait."
+        },
+        {
+          "p": "The taxi is full.",
+          "m": "Nói bạn sẽ đợi hay đi xe khác trong một câu.",
+          "h": "I take another taxi. / I wait.",
+          "s": "I take another taxi."
+        },
+        {
+          "p": "The train is cancelled.",
+          "m": "Nói bạn sẽ đi chuyến tiếp theo trong một câu.",
+          "h": "I take the next train.",
+          "s": "I take the next train."
+        },
+        {
+          "p": "My bag is missing on the bus.",
+          "m": "Nói bạn mất túi và hỏi giúp trong một câu.",
+          "h": "I don't have my bag, can you help me?",
+          "s": "I don't have my bag, can you help me?"
+        },
+        {
+          "p": "There is a flat tire.",
+          "m": "Nói bạn cần một taxi hay không trong một câu.",
+          "h": "I need a taxi. / I stay here.",
+          "s": "I need a taxi."
+        }
+      ]
+    },
+    {
+      "t": "Hỏi dịch vụ và tiện ích",
+      "e": [
+        {
+          "p": "Is there Wi-Fi on the bus?",
+          "m": "Trả lời có hoặc không trong một câu.",
+          "h": "Yes, there is. / No, there isn't.",
+          "s": "No, there isn't."
+        },
+        {
+          "p": "Do you have a map?",
+          "m": "Trả lời 'Yes' hoặc 'No' trong một câu.",
+          "h": "Yes, I have. / No, I don't.",
+          "s": "Yes, I have."
+        },
+        {
+          "p": "Can I bring a bike on the train?",
+          "m": "Trả lời 'Yes' hoặc 'No' trong một câu.",
+          "h": "Yes, you can. / No, you cannot.",
+          "s": "No, you cannot."
+        },
+        {
+          "p": "Where is the ticket machine?",
+          "m": "Nói vị trí máy bán vé trong một câu.",
+          "h": "It is near the gate / It is next to the office.",
+          "s": "It is near the gate."
+        },
+        {
+          "p": "Do you sell daily passes?",
+          "m": "Trả lời có hoặc không trong một câu.",
+          "h": "Yes, we do. / No, we don't.",
+          "s": "Yes, we do."
+        }
+      ]
+    },
+    {
+      "t": "Nói về chuyến đi",
+      "e": [
+        {
+          "p": "Where do you go by bus today?",
+          "m": "Nói điểm đến chuyến đi trong một câu.",
+          "h": "I go to + place.",
+          "s": "I go to the market."
+        },
+        {
+          "p": "How long is your trip?",
+          "m": "Nói thời gian chuyến đi trong một câu.",
+          "h": "It is + time.",
+          "s": "It is 30 minutes."
+        },
+        {
+          "p": "Do you like the train?",
+          "m": "Trả lời 'Yes' hoặc 'No' và một lý do ngắn trong một câu.",
+          "h": "Yes, it is + adj. / No, it is + adj.",
+          "s": "Yes, it is nice."
+        },
+        {
+          "p": "Who goes with you?",
+          "m": "Nói người đi cùng (mother/father/friend) trong một câu.",
+          "h": "My + family/friend goes with me.",
+          "s": "My friend goes with me."
+        },
+        {
+          "p": "Do you take photos on the bus?",
+          "m": "Trả lời có hoặc không trong một câu.",
+          "h": "Yes, I do. / No, I don't.",
+          "s": "No, I don't."
+        }
+      ]
+    },
+    {
+      "t": "Đặt xe và kế hoạch chuyến đi",
+      "e": [
+        {
+          "p": "Can I book a taxi now?",
+          "m": "Trả lời 'Yes' hoặc 'No' trong một câu.",
+          "h": "Yes, you can. / No, you cannot.",
+          "s": "Yes, you can."
+        },
+        {
+          "p": "What time do you want the taxi?",
+          "m": "Nói giờ bạn muốn taxi trong một câu.",
+          "h": "At + hour (e.g., At 7 am).",
+          "s": "At 7 am."
+        },
+        {
+          "p": "Do you need a child seat?",
+          "m": "Trả lời có hoặc không trong một câu.",
+          "h": "Yes, I do. / No, I don't.",
+          "s": "No, I don't."
+        },
+        {
+          "p": "Where should the taxi pick you up?",
+          "m": "Nói địa điểm đón trong một câu.",
+          "h": "Pick me up at + place.",
+          "s": "Pick me up at my house."
+        },
+        {
+          "p": "Do you want to save this trip?",
+          "m": "Trả lời 'Yes' hoặc 'No' trong một câu.",
+          "h": "Yes, save it. / No, don't save.",
+          "s": "Yes, save it."
+        }
+      ]
+    },
+    {
+      "t": "Ôn tập: Đi taxi và hỏi giá",
+      "e": [
+        {
+          "p": "Hello, do you need a taxi to the airport?",
+          "m": "Nói 'Yes' và nói nơi bạn cần đến trong một câu.",
+          "h": "Yes, I need a taxi to + place.",
+          "s": "Yes, I need a taxi to the airport."
+        },
+        {
+          "p": "How much is the taxi?",
+          "m": "Nói giá trong một câu.",
+          "h": "It is + number + dollars.",
+          "s": "It is 15 dollars."
+        },
+        {
+          "p": "Can you wait for fifteen minutes?",
+          "m": "Trả lời 'Yes' hoặc 'No' trong một câu.",
+          "h": "Yes, I can. / No, I cannot.",
+          "s": "No, I cannot."
+        },
+        {
+          "p": "Where will the driver pick you up?",
+          "m": "Nói địa điểm đón trong một câu.",
+          "h": "At + place.",
+          "s": "At the main gate."
+        },
+        {
+          "p": "Do you want a receipt?",
+          "m": "Trả lời có hoặc không trong một câu.",
+          "h": "Yes, please. / No, thanks.",
+          "s": "No, thanks."
+        }
+      ]
+    },
+    {
+      "t": "Ôn tập: Xe buýt và nhà ga",
+      "e": [
+        {
+          "p": "Which bus goes to the city center?",
+          "m": "Nói số xe buýt trong một câu.",
+          "h": "Bus + number + goes to + place.",
+          "s": "Bus 5 goes to the city center."
+        },
+        {
+          "p": "Is there a ticket office here?",
+          "m": "Trả lời có hoặc không trong một câu.",
+          "h": "Yes, there is. / No, there isn't.",
+          "s": "Yes, there is."
+        },
+        {
+          "p": "How often is the train?",
+          "m": "Nói tần suất trong một câu.",
+          "h": "It is every + time.",
+          "s": "It is every hour."
+        },
+        {
+          "p": "Do you take the bus to work?",
+          "m": "Trả lời có hoặc không trong một câu.",
+          "h": "Yes, I do. / No, I don't.",
+          "s": "Yes, I do."
+        },
+        {
+          "p": "Where do you wait for the train?",
+          "m": "Nói nơi bạn chờ tàu trong một câu.",
+          "h": "I wait at platform + number.",
+          "s": "I wait at platform three."
+        }
+      ]
+    },
+    {
+      "t": "Ôn tập: Vấn đề và dịch vụ",
+      "e": [
+        {
+          "p": "The bus broke down.",
+          "m": "Nói bạn cần giúp hay không trong một câu.",
+          "h": "I need help. / I don't need help.",
+          "s": "I need help."
+        },
+        {
+          "p": "Is there Wi-Fi on the train?",
+          "m": "Trả lời có hoặc không trong một câu.",
+          "h": "Yes, there is. / No, there isn't.",
+          "s": "Yes, there is."
+        },
+        {
+          "p": "Can I take my bike?",
+          "m": "Trả lời có hoặc không trong một câu.",
+          "h": "Yes, you can. / No, you cannot.",
+          "s": "No, you cannot."
+        },
+        {
+          "p": "Do you buy a ticket online?",
+          "m": "Trả lời có hoặc không trong một câu.",
+          "h": "Yes, I do. / No, I don't.",
+          "s": "No, I don't."
+        },
+        {
+          "p": "Where is the nearest taxi stand?",
+          "m": "Nói vị trí điểm taxi gần nhất trong một câu.",
+          "h": "It is near + place.",
+          "s": "It is near the hotel."
+        }
+      ]
+    }
+  ]
+}

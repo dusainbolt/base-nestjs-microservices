@@ -1,0 +1,530 @@
+{
+  "l": 1,
+  "d": [
+    {
+      "t": "Mở tài khoản tại quầy",
+      "e": [
+        {
+          "p": "Can I open an account?",
+          "m": "Nói bạn muốn mở tài khoản.",
+          "h": "S + want + to V",
+          "s": "I want to open an account."
+        },
+        {
+          "p": "Do you have an ID?",
+          "m": "Nói bạn có giấy tờ tùy thân hay không.",
+          "h": "S + have / S + do not have",
+          "s": "I have my ID."
+        },
+        {
+          "p": "What is your name?",
+          "m": "Nói tên của bạn (dùng placeholder nếu cần).",
+          "h": "My name is + tên",
+          "s": "My name is [studentName]."
+        },
+        {
+          "p": "Where do you live?",
+          "m": "Nói thành phố nơi bạn sống (dùng placeholder).",
+          "h": "I live in + nơi chốn",
+          "s": "I live in [studentCity]."
+        },
+        {
+          "p": "Do you want a debit card?",
+          "m": "Nói bạn có muốn thẻ ghi nợ hay không.",
+          "h": "Yes/No, S + want / do not want",
+          "s": "Yes, I want a debit card."
+        }
+      ]
+    },
+    {
+      "t": "Hỏi về số dư tài khoản",
+      "e": [
+        {
+          "p": "What is your account balance?",
+          "m": "Nói số tiền bạn có trong tài khoản (số 1-100).",
+          "h": "I have + số + dollars",
+          "s": "I have 50 dollars."
+        },
+        {
+          "p": "Do you have enough money?",
+          "m": "Nói có hoặc không (đơn giản).",
+          "h": "Yes, I + have / No, I + do not have",
+          "s": "Yes, I have enough money."
+        },
+        {
+          "p": "Do you use online banking?",
+          "m": "Nói bạn có dùng dịch vụ ngân hàng trực tuyến hay không.",
+          "h": "S + do not / do + V",
+          "s": "No, I do not use online banking."
+        },
+        {
+          "p": "Do you want to check your balance now?",
+          "m": "Nói bạn có muốn kiểm tra số dư ngay không.",
+          "h": "Yes/No, S + want + to V",
+          "s": "Yes, I want to check my balance now."
+        },
+        {
+          "p": "Do you need a printed statement?",
+          "m": "Nói bạn có cần sao kê giấy hay không.",
+          "h": "Yes/No, S + need / do not need",
+          "s": "No, I do not need a printed statement."
+        }
+      ]
+    },
+    {
+      "t": "Rút tiền tại quầy",
+      "e": [
+        {
+          "p": "How much cash do you need?",
+          "m": "Nói số tiền bạn muốn rút (1-100).",
+          "h": "I need + số + dollars",
+          "s": "I need 20 dollars."
+        },
+        {
+          "p": "Do you have your card?",
+          "m": "Nói bạn có mang thẻ hay không.",
+          "h": "Yes/No, S + have / do not have",
+          "s": "Yes, I have my card."
+        },
+        {
+          "p": "Can you sign here?",
+          "m": "Nói bạn có thể ký ở đây hay không.",
+          "h": "Yes/No, S + can / cannot + V",
+          "s": "Yes, I can sign here."
+        },
+        {
+          "p": "Do you want a receipt?",
+          "m": "Nói bạn có muốn hóa đơn hay không.",
+          "h": "Yes/No, S + want / do not want",
+          "s": "No, I do not want a receipt."
+        },
+        {
+          "p": "Do you want small bills?",
+          "m": "Nói bạn có muốn tiền lẻ hay không.",
+          "h": "Yes/No, S + want / do not want",
+          "s": "Yes, I want small bills."
+        }
+      ]
+    },
+    {
+      "t": "Tìm máy ATM xung quanh",
+      "e": [
+        {
+          "p": "Is there an ATM here?",
+          "m": "Nói có hay không có máy ATM ở đây.",
+          "h": "There is / There is not",
+          "s": "Yes, there is an ATM near here."
+        },
+        {
+          "p": "Where is the ATM?",
+          "m": "Nói vị trí ngắn gọn của máy ATM.",
+          "h": "The ATM is + vị trí",
+          "s": "The ATM is next to the shop."
+        },
+        {
+          "p": "Do you use the ATM at night?",
+          "m": "Nói bạn có dùng ATM vào ban đêm hay không.",
+          "h": "S + do not / do + V",
+          "s": "No, I do not use the ATM at night."
+        },
+        {
+          "p": "Can I get cash at the ATM?",
+          "m": "Trả lời có hoặc không (về rút tiền).",
+          "h": "Yes/No, you can / cannot + V",
+          "s": "Yes, you can get cash at the ATM."
+        },
+        {
+          "p": "Do you know the ATM fee?",
+          "m": "Nói bạn có biết phí hay không.",
+          "h": "S + do not / do + V",
+          "s": "No, I do not know the ATM fee."
+        }
+      ]
+    },
+    {
+      "t": "Xin cấp thẻ mới",
+      "e": [
+        {
+          "p": "Do you need a new card?",
+          "m": "Nói bạn có cần thẻ mới hay không.",
+          "h": "Yes/No, S + need / do not need",
+          "s": "Yes, I need a new card."
+        },
+        {
+          "p": "What is the name on your account?",
+          "m": "Nói tên trên tài khoản (dùng placeholder).",
+          "h": "My name is + tên",
+          "s": "My name is [studentName]."
+        },
+        {
+          "p": "Do you want a debit card or credit card?",
+          "m": "Nói bạn muốn loại thẻ nào (chỉ một từ).",
+          "h": "I want a + debit/credit + card",
+          "s": "I want a debit card."
+        },
+        {
+          "p": "Can you wait three days?",
+          "m": "Nói bạn có thể chờ ba ngày hay không.",
+          "h": "Yes/No, S + can / cannot + V",
+          "s": "Yes, I can wait three days."
+        },
+        {
+          "p": "Do you want a new PIN now?",
+          "m": "Nói bạn có muốn mã PIN mới ngay không.",
+          "h": "Yes/No, S + want / do not want",
+          "s": "No, I do not want a new PIN now."
+        }
+      ]
+    },
+    {
+      "t": "Mở tài khoản tiết kiệm đơn giản",
+      "e": [
+        {
+          "p": "Do you want a savings account?",
+          "m": "Nói bạn có muốn mở tài khoản tiết kiệm hay không.",
+          "h": "Yes/No, S + want / do not want",
+          "s": "Yes, I want a savings account."
+        },
+        {
+          "p": "How much do you save each month?",
+          "m": "Nói số tiền bạn tiết kiệm mỗi tháng.",
+          "h": "I save + số + dollars each month",
+          "s": "I save 20 dollars each month."
+        },
+        {
+          "p": "Is the account for you?",
+          "m": "Nói tài khoản dành cho bạn hay không.",
+          "h": "Yes/No, S + be + for + O",
+          "s": "Yes, the account is for me."
+        },
+        {
+          "p": "Do you want online access?",
+          "m": "Nói bạn có muốn truy cập trực tuyến hay không.",
+          "h": "Yes/No, S + want / do not want",
+          "s": "No, I do not want online access."
+        },
+        {
+          "p": "Do you agree to the bank rules?",
+          "m": "Nói bạn có đồng ý với quy định ngân hàng hay không.",
+          "h": "Yes/No, S + agree / do not agree",
+          "s": "Yes, I agree to the bank rules."
+        }
+      ]
+    },
+    {
+      "t": "Hỏi về khoản vay đơn giản",
+      "e": [
+        {
+          "p": "Do you want a loan?",
+          "m": "Nói bạn có muốn vay tiền hay không.",
+          "h": "Yes/No, S + want / do not want",
+          "s": "Yes, I want a loan."
+        },
+        {
+          "p": "How much money do you need?",
+          "m": "Nói số tiền bạn cần vay (1-100).",
+          "h": "I need + số + dollars",
+          "s": "I need 100 dollars."
+        },
+        {
+          "p": "Can you pay each month?",
+          "m": "Nói bạn có thể trả hàng tháng hay không.",
+          "h": "Yes/No, S + can / cannot + V",
+          "s": "Yes, I can pay each month."
+        },
+        {
+          "p": "Do you have a job?",
+          "m": "Nói nghề nghiệp của bạn (dùng placeholder).",
+          "h": "I am a + nghề nghiệp",
+          "s": "I am a [studentJob]."
+        },
+        {
+          "p": "Do you want a small loan?",
+          "m": "Nói bạn muốn khoản vay nhỏ hay không.",
+          "h": "I want a + small/big + loan",
+          "s": "I want a small loan."
+        }
+      ]
+    },
+    {
+      "t": "Chuyển tiền trong nước",
+      "e": [
+        {
+          "p": "Do you want to send money?",
+          "m": "Nói bạn có muốn chuyển tiền hay không.",
+          "h": "Yes/No, S + want / do not want",
+          "s": "Yes, I want to send money."
+        },
+        {
+          "p": "How much do you send?",
+          "m": "Nói số tiền bạn chuyển.",
+          "h": "I send + số + dollars",
+          "s": "I send 30 dollars."
+        },
+        {
+          "p": "Who is the receiver?",
+          "m": "Nói người nhận (ví dụ: friend/family).",
+          "h": "The receiver is + người",
+          "s": "The receiver is my friend."
+        },
+        {
+          "p": "Do you know the account number?",
+          "m": "Nói bạn có biết số tài khoản hay không.",
+          "h": "Yes/No, S + do not / do + know",
+          "s": "No, I do not know the account number."
+        },
+        {
+          "p": "Do you want a fast transfer?",
+          "m": "Nói bạn có muốn chuyển nhanh hay không.",
+          "h": "Yes/No, S + want / do not want",
+          "s": "No, I do not want a fast transfer."
+        }
+      ]
+    },
+    {
+      "t": "Hỏi về phí và lệ phí",
+      "e": [
+        {
+          "p": "Is there a fee?",
+          "m": "Nói có hay không có phí.",
+          "h": "There is / There is not",
+          "s": "Yes, there is a fee."
+        },
+        {
+          "p": "How much is the fee?",
+          "m": "Nói số tiền phí (đơn giản).",
+          "h": "The fee is + số + dollars",
+          "s": "The fee is 5 dollars."
+        },
+        {
+          "p": "Do you pay the fee now?",
+          "m": "Nói bạn có trả phí ngay hay không.",
+          "h": "Yes/No, S + pay / do not pay",
+          "s": "Yes, I pay the fee now."
+        },
+        {
+          "p": "Do you have cash to pay?",
+          "m": "Nói bạn có tiền mặt hay không.",
+          "h": "Yes/No, S + have / do not have",
+          "s": "Yes, I have cash."
+        },
+        {
+          "p": "Do you want a free service?",
+          "m": "Nói bạn có muốn dịch vụ miễn phí hay không.",
+          "h": "Yes/No, S + want / do not want",
+          "s": "No, I do not want a free service."
+        }
+      ]
+    },
+    {
+      "t": "Thẻ tín dụng đơn giản",
+      "e": [
+        {
+          "p": "Do you want a credit card?",
+          "m": "Nói bạn có muốn thẻ tín dụng hay không.",
+          "h": "Yes/No, S + want / do not want",
+          "s": "No, I do not want a credit card."
+        },
+        {
+          "p": "Do you pay your card each month?",
+          "m": "Nói bạn trả thẻ hàng tháng hay không.",
+          "h": "S + V (present simple)",
+          "s": "I pay my card every month."
+        },
+        {
+          "p": "Is your card balance low?",
+          "m": "Nói số dư thẻ của bạn có thấp hay không.",
+          "h": "S + be + not/yes",
+          "s": "No, my balance is not low."
+        },
+        {
+          "p": "Do you want a new card number?",
+          "m": "Nói bạn có muốn số thẻ mới không.",
+          "h": "Yes/No, S + want / do not want",
+          "s": "No, I do not want a new card number."
+        },
+        {
+          "p": "Do you need help with your card?",
+          "m": "Nói bạn có cần trợ giúp với thẻ hay không.",
+          "h": "Yes/No, S + need / do not need",
+          "s": "Yes, I need help with my card."
+        }
+      ]
+    },
+    {
+      "t": "Đổi mã PIN thẻ",
+      "e": [
+        {
+          "p": "Do you want to change your PIN?",
+          "m": "Nói bạn có muốn đổi mã PIN hay không.",
+          "h": "Yes/No, S + want / do not want",
+          "s": "Yes, I want to change my PIN."
+        },
+        {
+          "p": "Can you enter your old PIN?",
+          "m": "Nói bạn có thể nhập PIN cũ hay không.",
+          "h": "Yes/No, S + can / cannot + V",
+          "s": "Yes, I can enter my old PIN."
+        },
+        {
+          "p": "Do you want a new PIN now?",
+          "m": "Nói bạn có muốn mã PIN mới ngay bây giờ hay không.",
+          "h": "Yes/No, S + want / do not want",
+          "s": "Yes, I want a new PIN now."
+        },
+        {
+          "p": "Will you remember the new PIN?",
+          "m": "Nói bạn có nhớ mã PIN mới hay không.",
+          "h": "S + will/ do not (use present simple: I remember)",
+          "s": "Yes, I remember the new PIN."
+        },
+        {
+          "p": "Do you need a receipt for the change?",
+          "m": "Nói bạn có cần biên lai hay không.",
+          "h": "Yes/No, S + need / do not need",
+          "s": "Yes, I need a receipt."
+        }
+      ]
+    },
+    {
+      "t": "Giờ làm việc và chi nhánh",
+      "e": [
+        {
+          "p": "What time does the bank open?",
+          "m": "Nói giờ mở cửa đơn giản (ví dụ: 9).",
+          "h": "The bank opens at + giờ",
+          "s": "The bank opens at 9."
+        },
+        {
+          "p": "Is the branch open on Saturday?",
+          "m": "Nói có mở cửa thứ Bảy hay không.",
+          "h": "S + be + not/open",
+          "s": "No, the branch is not open on Saturday."
+        },
+        {
+          "p": "Where is the main branch?",
+          "m": "Nói vị trí ngắn gọn của chi nhánh chính.",
+          "h": "The main branch is in + nơi",
+          "s": "The main branch is in the city."
+        },
+        {
+          "p": "Do you go to the branch?",
+          "m": "Nói bạn có đến chi nhánh hay không.",
+          "h": "Yes/No, S + go / do not go",
+          "s": "Yes, I go to the branch."
+        },
+        {
+          "p": "Is the bank near the school?",
+          "m": "Nói ngân hàng có gần trường học hay không.",
+          "h": "Yes/No, There is / There is not",
+          "s": "Yes, the bank is near the school."
+        }
+      ]
+    },
+    {
+      "t": "Ôn tập: Mở tài khoản và giấy tờ",
+      "e": [
+        {
+          "p": "Can you open an account today?",
+          "m": "Nói bạn có thể mở tài khoản hôm nay hay không.",
+          "h": "Yes/No, S + can / cannot + V",
+          "s": "Yes, I can open an account today."
+        },
+        {
+          "p": "What is your name on the form?",
+          "m": "Nói tên của bạn (dùng placeholder).",
+          "h": "My name is + tên",
+          "s": "My name is [studentName]."
+        },
+        {
+          "p": "Do you have cash for the deposit?",
+          "m": "Nói bạn có tiền mặt để gửi ban đầu hay không.",
+          "h": "Yes/No, S + have / do not have",
+          "s": "Yes, I have cash for the deposit."
+        },
+        {
+          "p": "Do you want a debit card now?",
+          "m": "Nói bạn có muốn thẻ ngay bây giờ hay không.",
+          "h": "Yes/No, S + want / do not want",
+          "s": "No, I do not want a debit card now."
+        },
+        {
+          "p": "How much is your first deposit?",
+          "m": "Nói số tiền gửi lần đầu.",
+          "h": "I deposit + số + dollars",
+          "s": "I deposit 50 dollars."
+        }
+      ]
+    },
+    {
+      "t": "Ôn tập: Chuyển tiền và nhận tiền",
+      "e": [
+        {
+          "p": "Do you send money today?",
+          "m": "Nói bạn có gửi tiền hôm nay hay không.",
+          "h": "Yes/No, S + do / do not + V",
+          "s": "Yes, I send money today."
+        },
+        {
+          "p": "How much do you send?",
+          "m": "Nói số tiền bạn gửi.",
+          "h": "I send + số + dollars",
+          "s": "I send 20 dollars."
+        },
+        {
+          "p": "Who gets the money?",
+          "m": "Nói người nhận là ai (family/friend).",
+          "h": "My + family/friend + gets",
+          "s": "My family gets the money."
+        },
+        {
+          "p": "Do you pick up the cash?",
+          "m": "Nói bạn có nhận tiền mặt hay không.",
+          "h": "Yes/No, S + do / do not + V",
+          "s": "No, I do not pick up the cash."
+        },
+        {
+          "p": "Is the transfer fast?",
+          "m": "Nói chuyển tiền có nhanh hay không.",
+          "h": "Yes/No, S + be + not/yes",
+          "s": "No, the transfer is not fast."
+        }
+      ]
+    },
+    {
+      "t": "Ôn tập: Vấn đề thẻ và rút tiền",
+      "e": [
+        {
+          "p": "Is your card lost?",
+          "m": "Nói thẻ của bạn có bị mất hay không.",
+          "h": "S + be + not/yes",
+          "s": "No, my card is not lost."
+        },
+        {
+          "p": "Can you withdraw 10 dollars now?",
+          "m": "Nói bạn có thể rút 10 đô la hay không.",
+          "h": "Yes/No, S + can / cannot + V",
+          "s": "Yes, I can withdraw 10 dollars."
+        },
+        {
+          "p": "Do you need a receipt after withdrawal?",
+          "m": "Nói bạn có cần biên lai sau rút tiền hay không.",
+          "h": "Yes/No, S + need / do not need",
+          "s": "Yes, I need a receipt."
+        },
+        {
+          "p": "Do you remember your PIN?",
+          "m": "Nói bạn có nhớ mã PIN hay không.",
+          "h": "Yes/No, S + do / do not + V",
+          "s": "No, I do not remember my PIN."
+        },
+        {
+          "p": "Do you want help from the bank?",
+          "m": "Nói bạn có muốn trợ giúp từ ngân hàng hay không.",
+          "h": "Yes/No, S + want / do not want",
+          "s": "Yes, I want help from the bank."
+        }
+      ]
+    }
+  ]
+}

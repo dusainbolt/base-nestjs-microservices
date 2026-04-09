@@ -1,0 +1,530 @@
+{
+  "l": 2,
+  "d": [
+    {
+      "t": "Gặp bác sĩ lần đầu",
+      "e": [
+        {
+          "p": "What is your name and age?",
+          "m": "Nói tên; Nói tuổi.",
+          "h": "My name is [studentName]. I am [studentAge] years old.",
+          "s": "My name is [studentName]. I am [studentAge] years old."
+        },
+        {
+          "p": "Do you have any allergies?",
+          "m": "Nói có hay không; Nếu có, nói tên dị ứng.",
+          "h": "Use: I have / I have no",
+          "s": "I have an allergy. It is to penicillin."
+        },
+        {
+          "p": "How often do you take medicine at home?",
+          "m": "Nói tần suất (always/often/sometimes/never); Nói tên thuốc bạn dùng.",
+          "h": "Use: I often / I sometimes + V; I take + medicine name",
+          "s": "I often take medicine. I take paracetamol."
+        },
+        {
+          "p": "Are you taking any medicine now?",
+          "m": "Nói đang dùng hay không; Nói tên thuốc nếu có.",
+          "h": "Use: I am taking / I do not take",
+          "s": "I am taking medicine now. It is paracetamol."
+        },
+        {
+          "p": "Do you have other health problems?",
+          "m": "Nói vấn đề sức khỏe chính; Nói bạn bị bao lâu.",
+          "h": "Use: I have + problem; I have it for + time",
+          "s": "I have high blood pressure. I have it for two years."
+        }
+      ]
+    },
+    {
+      "t": "Thảo luận về thuốc mới",
+      "e": [
+        {
+          "p": "This medicine can reduce your pain. Do you accept?",
+          "m": "Nói bạn muốn giảm đau; Nói bạn đồng ý hay không.",
+          "h": "Use: I want / I accept",
+          "s": "I want less pain. I accept this medicine."
+        },
+        {
+          "p": "This drug may make you feel tired.",
+          "m": "Nói bạn hiểu; Nói bạn có lo lắng hay không.",
+          "h": "Use: I understand; I am worried / I am not worried",
+          "s": "I understand the side effect. I am a bit worried."
+        },
+        {
+          "p": "Take this pill in the morning and evening.",
+          "m": "Nói bạn có thể làm theo; Nói khi nào bạn uống.",
+          "h": "Use: I can / I take + time",
+          "s": "I can do that. I take it in the morning and at night."
+        },
+        {
+          "p": "Do you prefer a pill or a cream?",
+          "m": "Nói sở thích của bạn; Nói lý do ngắn.",
+          "h": "Use: I prefer + noun; Because + reason",
+          "s": "I prefer the pill. It is easier for me."
+        },
+        {
+          "p": "The benefit is less pain but there is a small risk.",
+          "m": "Nói lợi ích bạn muốn; Nói rủi ro bạn sợ.",
+          "h": "Use: The benefit is ...; The risk is ...",
+          "s": "The benefit is less pain. The risk is feeling tired."
+        }
+      ]
+    },
+    {
+      "t": "Hỏi về tác dụng phụ",
+      "e": [
+        {
+          "p": "Some patients feel nausea with this drug.",
+          "m": "Nói bạn có buồn nôn hay không; Nói bạn cảm thấy thế nào.",
+          "h": "Use: I feel / I do not feel",
+          "s": "I do not feel nausea. I feel fine."
+        },
+        {
+          "p": "You may get a headache after the dose.",
+          "m": "Nói bạn có đau đầu hay không; Nói bạn cần gì nếu đau đầu.",
+          "h": "Use: I have / I need + noun",
+          "s": "I have a small headache. I need rest."
+        },
+        {
+          "p": "Some people feel sleepy during the day.",
+          "m": "Nói bạn có buồn ngủ ngày không; Nói bạn làm gì khi buồn ngủ.",
+          "h": "Use: I am sleepy / I usually + action",
+          "s": "I am sometimes sleepy in the day. I rest when I am sleepy."
+        },
+        {
+          "p": "If side effects are bad, tell us.",
+          "m": "Nói bạn sẽ làm gì; Nói khi nào bạn gọi bác sĩ.",
+          "h": "Use: I will tell / When + I feel ...",
+          "s": "I will tell my doctor. I call when I feel very bad."
+        },
+        {
+          "p": "Do you notice any skin rash after the medicine?",
+          "m": "Nói có phát ban hay không; Nói bạn thấy nó thế nào.",
+          "h": "Use: I have / It is ...",
+          "s": "I have a small rash. It is red and itchy."
+        }
+      ]
+    },
+    {
+      "t": "Lợi ích của phương pháp điều trị",
+      "e": [
+        {
+          "p": "This treatment can help you walk better.",
+          "m": "Nói lợi ích chính bạn muốn; Nói bạn mong đợi điều gì.",
+          "h": "Use: It helps me ...; I expect ...",
+          "s": "It helps me walk better. I expect less pain."
+        },
+        {
+          "p": "Surgery may fix the problem faster.",
+          "m": "Nói bạn thích cách điều trị nhanh hay chậm; Nói lý do ngắn.",
+          "h": "Use: I prefer ... because ...",
+          "s": "I prefer a faster treatment. It saves me time."
+        },
+        {
+          "p": "Medicine works slowly but is less risky.",
+          "m": "Nói bạn nghĩ gì về rủi ro; Nói bạn chọn phương pháp nào.",
+          "h": "Use: I think ...; I choose ...",
+          "s": "I think low risk is good. I choose the medicine."
+        },
+        {
+          "p": "We explain the benefit and the risk.",
+          "m": "Nói bạn hiểu lợi ích; Nói bạn hiểu rủi ro.",
+          "h": "Use: I understand the benefit; I understand the risk",
+          "s": "I understand the benefit. I understand the risk."
+        },
+        {
+          "p": "Do you want more time to decide?",
+          "m": "Nói bạn cần thời gian hay không; Nói bao lâu bạn cần.",
+          "h": "Use: I need / I need + time",
+          "s": "I need more time. I need two days."
+        }
+      ]
+    },
+    {
+      "t": "Thói quen uống thuốc",
+      "e": [
+        {
+          "p": "Do you take medicine with food?",
+          "m": "Nói bạn uống cùng thức ăn hay không; Nói ví dụ thức ăn bạn dùng.",
+          "h": "Use: I take with / I do not take with",
+          "s": "I take medicine with food. I eat rice or bread."
+        },
+        {
+          "p": "How many pills do you take each day?",
+          "m": "Nói số viên mỗi ngày; Nói lúc nào bạn uống.",
+          "h": "Use: I take + number + pills; I take them in the ...",
+          "s": "I take two pills each day. I take them in the morning and night."
+        },
+        {
+          "p": "Do you forget to take your medicine?",
+          "m": "Nói bạn có quên hay không; Nói bạn thường quên khi nào.",
+          "h": "Use: I sometimes forget; I forget in the morning / at night",
+          "s": "I sometimes forget my medicine. I forget in the busy morning."
+        },
+        {
+          "p": "Can you set a reminder on your phone?",
+          "m": "Nói bạn có điện thoại hay không; Nói bạn dùng lời nhắc hay không.",
+          "h": "Use: I have a phone; I use reminders",
+          "s": "I have a phone. I use reminders to take medicine."
+        },
+        {
+          "p": "Do you stop the medicine when you feel better?",
+          "m": "Nói bạn có dừng thuốc khi khá hơn hay không; Nói lý do ngắn.",
+          "h": "Use: I stop / I do not stop because ...",
+          "s": "I do not stop the medicine when I feel better. I follow the plan."
+        }
+      ]
+    },
+    {
+      "t": "Lịch điều trị và tái khám",
+      "e": [
+        {
+          "p": "We need to see you again in two weeks.",
+          "m": "Nói bạn có thể đến tái khám; Nói ngày chung (in two weeks).",
+          "h": "Use: I can / I cannot; In two weeks",
+          "s": "I can come for a follow up. I will come in two weeks."
+        },
+        {
+          "p": "Are morning or afternoon visits better for you?",
+          "m": "Nói buổi bạn thích; Nói lý do ngắn.",
+          "h": "Use: I prefer morning/afternoon; Because ...",
+          "s": "I prefer the morning. It is easier for my work."
+        },
+        {
+          "p": "Call the clinic if your pain is worse.",
+          "m": "Nói bạn sẽ gọi hay không; Nói khi nào bạn gọi.",
+          "h": "Use: I will call / When + condition",
+          "s": "I will call the clinic. I call when my pain is worse."
+        },
+        {
+          "p": "We will check your blood pressure at the visit.",
+          "m": "Nói bạn hiểu việc kiểm tra; Nói bạn làm gì trước khi đến (ví dụ: nghỉ).",
+          "h": "Use: I understand; I will rest / I will not eat",
+          "s": "I understand the check. I will rest before the visit."
+        },
+        {
+          "p": "Do you need transport to the clinic?",
+          "m": "Nói bạn có cần xe; Nói bạn đi bằng gì nếu không cần.",
+          "h": "Use: I need / I go by ...",
+          "s": "I do not need transport. I go by bus."
+        }
+      ]
+    },
+    {
+      "t": "Lo lắng về rủi ro nghiêm trọng",
+      "e": [
+        {
+          "p": "This treatment has a small risk of bleeding.",
+          "m": "Nói bạn có lo lắng hay không; Nói bạn có tiền sử chảy máu không.",
+          "h": "Use: I am worried / I am not worried; I have / I do not have",
+          "s": "I am a little worried. I do not have bleeding history."
+        },
+        {
+          "p": "Tell me if you feel very weak or dizzy.",
+          "m": "Nói bạn sẽ làm gì; Nói bạn có triệu chứng bạn nghĩ là nghiêm trọng.",
+          "h": "Use: I will / I feel ...",
+          "s": "I will call the doctor. I feel dizzy sometimes."
+        },
+        {
+          "p": "Do you take blood thinners now?",
+          "m": "Nói bạn có dùng thuốc loãng máu hay không; Nói tên thuốc nếu có.",
+          "h": "Use: I take / I do not take; I take + name",
+          "s": "I do not take blood thinners. I take no such medicine."
+        },
+        {
+          "p": "If bleeding occurs, go to the clinic immediately.",
+          "m": "Nói bạn hiểu phản ứng cấp cứu; Nói bạn sẽ làm gì ngay lập tức.",
+          "h": "Use: I understand; I will go / I will call",
+          "s": "I understand the emergency. I will go to the clinic."
+        },
+        {
+          "p": "Do you have family help at home?",
+          "m": "Nói bạn có người trợ giúp; Nói họ giúp gì.",
+          "h": "Use: I have / They help with ...",
+          "s": "I have family help at home. They help with my care."
+        }
+      ]
+    },
+    {
+      "t": "Quyết định điều trị và đồng ý",
+      "e": [
+        {
+          "p": "Do you agree to start this plan today?",
+          "m": "Nói bạn đồng ý hay không; Nói lý do ngắn.",
+          "h": "Use: I agree / I do not agree; Because ...",
+          "s": "I agree to start today. I want to feel better soon."
+        },
+        {
+          "p": "You can stop anytime if you have bad effects.",
+          "m": "Nói bạn có hiểu có thể dừng; Nói bạn có sợ dừng hay không.",
+          "h": "Use: I understand; I am not afraid / I am afraid",
+          "s": "I understand I can stop. I am not afraid to stop if needed."
+        },
+        {
+          "p": "Sign here if you accept the risks.",
+          "m": "Nói bạn có ký hay không; Nói bạn muốn đọc lại hay không.",
+          "h": "Use: I sign / I want to read again",
+          "s": "I sign the form. I read it before I sign."
+        },
+        {
+          "p": "Do you want a family member to know the plan?",
+          "m": "Nói bạn muốn chia sẻ hay không; Nói với ai (ví dụ: vợ chồng).",
+          "h": "Use: I want to / I do not want to; I will tell + person",
+          "s": "I want to tell my wife. She will know the plan."
+        },
+        {
+          "p": "We will start medicine today if you agree.",
+          "m": "Nói bạn sẵn sàng bắt đầu; Nói bạn sẽ theo dõi tác dụng.",
+          "h": "Use: I am ready; I will watch / I will report",
+          "s": "I am ready to start. I will watch for side effects."
+        }
+      ]
+    },
+    {
+      "t": "Nói với người thân về kế hoạch",
+      "e": [
+        {
+          "p": "Tell your family about the treatment plan.",
+          "m": "Nói ai là người bạn nói; Nói thông tin ngắn bạn kể (ví dụ: thuốc, lịch).",
+          "h": "Use: I tell + person; I say + short info",
+          "s": "I tell my sister. I say I take medicine and see the doctor."
+        },
+        {
+          "p": "They may ask about risks and benefits.",
+          "m": "Nói lợi ích bạn nói với họ; Nói rủi ro bạn nói với họ.",
+          "h": "Use: The benefit is ...; The risk is ...",
+          "s": "The benefit is less pain. The risk is feeling tired."
+        },
+        {
+          "p": "Can your family help you at home?",
+          "m": "Nói gia đình có giúp không; Nói họ giúp việc gì.",
+          "h": "Use: They help with ...; I need help with ...",
+          "s": "My family can help me. They help with cooking and medicine."
+        },
+        {
+          "p": "Do you want us to call your family before treatment?",
+          "m": "Nói bạn muốn gọi hay không; Nói bạn muốn gọi ai.",
+          "h": "Use: Yes, please call + person; No, I do not want",
+          "s": "Yes, please call my sister. She will come to the clinic."
+        },
+        {
+          "p": "Explain the plan in simple words to your family.",
+          "m": "Nói một câu giải thích ngắn; Nói một câu về tác dụng phụ đơn giản.",
+          "h": "Use: The plan is ...; A side effect is ...",
+          "s": "The plan is to take medicine every day. A side effect is sleepiness."
+        }
+      ]
+    },
+    {
+      "t": "Thay đổi lối sống để hỗ trợ điều trị",
+      "e": [
+        {
+          "p": "Exercise can help your recovery.",
+          "m": "Nói bạn có tập thể dục không; Nói bạn thường tập khi nào.",
+          "h": "Use: I exercise / I do not exercise; I exercise in the ...",
+          "s": "I exercise sometimes. I exercise in the morning."
+        },
+        {
+          "p": "A healthy diet helps the treatment.",
+          "m": "Nói bạn ăn rau quả hay không; Nói bạn muốn thay đổi gì.",
+          "h": "Use: I eat / I want to eat more ...",
+          "s": "I eat some vegetables. I want to eat more fruit."
+        },
+        {
+          "p": "Quit smoking if possible, it reduces risk.",
+          "m": "Nói bạn hút thuốc hay không; Nói bạn có thể bỏ không.",
+          "h": "Use: I smoke / I do not smoke; I can / I cannot quit",
+          "s": "I do not smoke. I can try to quit if I smoke."
+        },
+        {
+          "p": "Sleep well to help your healing.",
+          "m": "Nói bạn ngủ đủ không; Nói bạn làm gì để ngủ tốt.",
+          "h": "Use: I sleep enough / I do not sleep enough; I try to ...",
+          "s": "I do not sleep enough. I try to rest early at night."
+        },
+        {
+          "p": "Small changes make treatment work better.",
+          "m": "Nói một thay đổi bạn làm; Nói kết quả bạn mong.",
+          "h": "Use: I change ...; I expect ...",
+          "s": "I change my food to more vegetables. I expect to feel better."
+        }
+      ]
+    },
+    {
+      "t": "Theo dõi và báo cáo kết quả",
+      "e": [
+        {
+          "p": "Do you feel better after one week?",
+          "m": "Nói bạn có khá hơn không; Nói một thay đổi tích cực ngắn.",
+          "h": "Use: I feel better / I do not feel better; I have less ...",
+          "s": "I feel a little better. I have less pain."
+        },
+        {
+          "p": "Have you seen any new problems?",
+          "m": "Nói bạn có vấn đề mới không; Nói chi tiết ngắn nếu có.",
+          "h": "Use: I have / I do not have; It is ...",
+          "s": "I do not have new problems. I feel tired only."
+        },
+        {
+          "p": "Keep a diary of your symptoms daily.",
+          "m": "Nói bạn có ghi nhật ký không; Nói bạn ghi gì ngắn.",
+          "h": "Use: I keep a diary / I do not keep; I write ...",
+          "s": "I keep a diary every day. I write my pain and sleep."
+        },
+        {
+          "p": "Share your notes at the next visit.",
+          "m": "Nói bạn sẽ chia sẻ hay không; Nói bạn mang gì đến buổi hẹn.",
+          "h": "Use: I will share / I will bring ...",
+          "s": "I will share my notes. I will bring the diary."
+        },
+        {
+          "p": "If things get worse, come earlier.",
+          "m": "Nói bạn sẽ làm gì khi xấu hơn; Nói dấu hiệu khiến bạn đến sớm.",
+          "h": "Use: I will come / When + I have ...",
+          "s": "I will come to the clinic. I come when pain is worse."
+        }
+      ]
+    },
+    {
+      "t": "Chi phí và bảo hiểm",
+      "e": [
+        {
+          "p": "This medicine costs some money.",
+          "m": "Nói bạn có lo lắng về chi phí không; Nói bạn có bảo hiểm hay không.",
+          "h": "Use: I am worried / I am not worried; I have insurance / I do not have",
+          "s": "I am a little worried about cost. I have health insurance."
+        },
+        {
+          "p": "Does your insurance cover this treatment?",
+          "m": "Nói bạn sẽ kiểm tra bảo hiểm hay không; Nói bạn gọi ai để kiểm tra.",
+          "h": "Use: I will check / I will call + person",
+          "s": "I will check my insurance. I will call the insurance office."
+        },
+        {
+          "p": "There may be a cheaper generic medicine.",
+          "m": "Nói bạn có muốn thuốc rẻ hơn không; Nói bạn có muốn hỏi dược sĩ.",
+          "h": "Use: I want a cheaper option; I will ask the pharmacist",
+          "s": "I want a cheaper medicine. I will ask the pharmacist."
+        },
+        {
+          "p": "We can give a small discount for low income.",
+          "m": "Nói bạn có cần hỗ trợ tài chính; Nói bạn muốn đăng ký hay không.",
+          "h": "Use: I need help / I do not need help; I want to apply",
+          "s": "I need financial help. I want to apply for the discount."
+        },
+        {
+          "p": "Pay at the counter or use insurance card.",
+          "m": "Nói bạn trả tiền mặt hay qua bảo hiểm; Nói bạn mang gì tới quầy.",
+          "h": "Use: I pay cash / I use my insurance card; I bring ...",
+          "s": "I will use my insurance card. I bring my ID and card."
+        }
+      ]
+    },
+    {
+      "t": "Ôn tập: Thảo luận tổng hợp với bác sĩ",
+      "e": [
+        {
+          "p": "We discussed medicine, side effects, and follow up.",
+          "m": "Nói tóm tắt bạn đã đồng ý gì; Nói bạn cần làm gì tiếp theo.",
+          "h": "Use: I agreed to ...; Next I will ...",
+          "s": "I agreed to take the medicine. Next I will come for follow up."
+        },
+        {
+          "p": "Do you have questions about benefits or risks?",
+          "m": "Nói một lợi ích bạn nhớ; Nói một rủi ro bạn nhớ.",
+          "h": "Use: The benefit is ...; The risk is ...",
+          "s": "The benefit is less pain. The risk is feeling tired."
+        },
+        {
+          "p": "How will you take the medicine and when?",
+          "m": "Nói tần suất; Nói lúc trong ngày.",
+          "h": "Use: I take + times per day; I take it in the ...",
+          "s": "I take it twice a day. I take it in the morning and at night."
+        },
+        {
+          "p": "Who will know your plan at home?",
+          "m": "Nói ai biết; Nói họ giúp việc gì.",
+          "h": "Use: My + family member; They help with ...",
+          "s": "My wife knows the plan. She helps with my medicine."
+        },
+        {
+          "p": "When should you come back to the clinic?",
+          "m": "Nói thời gian tái khám; Nói bạn có thể đến hay không.",
+          "h": "Use: In + time; I can / I cannot come",
+          "s": "I should come back in two weeks. I can come then."
+        }
+      ]
+    },
+    {
+      "t": "Ôn tập: Báo cáo tác dụng và tác dụng phụ",
+      "e": [
+        {
+          "p": "Tell me how you feel after starting the drug.",
+          "m": "Nói bạn có khá hơn hay không; Nói tác dụng phụ bạn có.",
+          "h": "Use: I feel better / I do not feel better; I have ...",
+          "s": "I feel a little better. I have some tiredness."
+        },
+        {
+          "p": "Do you follow the medicine schedule?",
+          "m": "Nói bạn có theo lịch không; Nói bạn quên khi nào nếu quên.",
+          "h": "Use: I follow the schedule / I sometimes forget; I forget in ...",
+          "s": "I follow the schedule. I sometimes forget in the morning."
+        },
+        {
+          "p": "Have you had any bad reactions?",
+          "m": "Nói bạn có phản ứng xấu không; Nói bạn làm gì khi có phản ứng.",
+          "h": "Use: I have / I do not have; I will call / I will go",
+          "s": "I do not have bad reactions. I will call if I have one."
+        },
+        {
+          "p": "Is the treatment helping your daily life?",
+          "m": "Nói nó giúp hay không; Nói một hoạt động hàng ngày khá hơn.",
+          "h": "Use: It helps me / It does not help; I can ...",
+          "s": "It helps me a little. I can walk more."
+        },
+        {
+          "p": "Do you want to change the plan now?",
+          "m": "Nói bạn muốn thay đổi hay không; Nói lý do ngắn nếu muốn.",
+          "h": "Use: I do not want to change / I want to change because ...",
+          "s": "I do not want to change the plan. I feel it is working."
+        }
+      ]
+    },
+    {
+      "t": "Ôn tập: Giao tiếp với gia đình và bảo hiểm",
+      "e": [
+        {
+          "p": "Explain the plan to your family and insurance.",
+          "m": "Nói bạn sẽ nói với gia đình điều gì; Nói bạn sẽ nói với bảo hiểm điều gì.",
+          "h": "Use: I will tell my family ...; I will tell insurance ...",
+          "s": "I will tell my family I take medicine every day. I will tell insurance the treatment name."
+        },
+        {
+          "p": "Does insurance cover your visits and medicine?",
+          "m": "Nói bạn đã kiểm tra hay chưa; Nói kết quả ngắn (có/không).",
+          "h": "Use: I checked / I did not check; It covers / It does not cover",
+          "s": "I checked the insurance. It covers the visits."
+        },
+        {
+          "p": "Who helps you pay for the treatment if needed?",
+          "m": "Nói ai giúp chi trả; Nói họ giúp như thế nào (ví dụ: trả tiền).",
+          "h": "Use: My + person helps; They pay / They help with money",
+          "s": "My sister helps with payment. She pays at the clinic."
+        },
+        {
+          "p": "Do you need a letter for work to get time off?",
+          "m": "Nói bạn cần giấy hay không; Nói bạn muốn ai viết giấy (bác sĩ).",
+          "h": "Use: I need / I do not need; I want the doctor to write",
+          "s": "I need a letter for work. I want the doctor to write it."
+        },
+        {
+          "p": "Are you ready to follow the full plan?",
+          "m": "Nói bạn sẵn sàng hay không; Nói bạn sẽ làm gì để theo plan.",
+          "h": "Use: I am ready / I am not ready; I will ...",
+          "s": "I am ready to follow the plan. I will take medicine every day."
+        }
+      ]
+    }
+  ]
+}

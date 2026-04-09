@@ -1,0 +1,565 @@
+{
+  "l": 2,
+  "d": [
+    {
+      "t": "Gặp khách hàng mới qua email",
+      "e": [
+        {
+          "p": "What is your name for our record?",
+          "m": "Viết tên của bạn. Viết nghề nghiệp ngắn gọn.",
+          "h": "Use: My name is [studentName]. / I am a [studentJob].",
+          "s": "My name is [studentName]. I am a [studentJob]."
+        },
+        {
+          "p": "Where are you from?",
+          "m": "Nói tên thành phố bạn sống. Nói bạn thường ở đó hay không.",
+          "h": "Use: I live in [studentCity]. / I usually / sometimes ...",
+          "s": "I live in [studentCity]. I usually stay here."
+        },
+        {
+          "p": "Do you like our product emails?",
+          "m": "Nói bạn có thích email không. Nói một lý do ngắn.",
+          "h": "Use: I like / I don't like + reason.",
+          "s": "I like the emails. They are helpful."
+        },
+        {
+          "p": "Can we add you to our email list?",
+          "m": "Trả lời có hoặc không. Nói tần suất bạn muốn nhận email (ví dụ: weekly).",
+          "h": "Use: Yes, I want / No, I don't want. Use adverb of frequency.",
+          "s": "Yes, I want to join. I want emails weekly."
+        },
+        {
+          "p": "What subject line catches your attention?",
+          "m": "Viết một tiêu đề ngắn bạn thích. Viết lý do ngắn vì sao bạn thích.",
+          "h": "Use simple sentence + reason with because or and.",
+          "s": "Big sale today. I like it because it is clear."
+        }
+      ]
+    },
+    {
+      "t": "Giới thiệu chiến dịch chào mừng",
+      "e": [
+        {
+          "p": "We will send a welcome email. Is that ok?",
+          "m": "Trả lời đồng ý hoặc không. Nói bạn muốn nhận email chào mừng hay không.",
+          "h": "Use: Yes, I want / No, I don't want. Use present simple.",
+          "s": "Yes, I want the welcome email. I often read welcome emails."
+        },
+        {
+          "p": "What should we include in the welcome email?",
+          "m": "Viết một nội dung chính (ví dụ: discount). Viết một câu nói lý do.",
+          "h": "Use: Include + noun. Use because + reason.",
+          "s": "Include a discount. It helps me buy."
+        },
+        {
+          "p": "How often will we remind new users?",
+          "m": "Nói tần suất gửi (daily/weekly). Nói nếu bạn nghĩ tần suất đó là tốt hay không.",
+          "h": "Use adverb of frequency and a short opinion sentence.",
+          "s": "Send weekly reminders. I think weekly is good."
+        },
+        {
+          "p": "Do you prefer a short or long welcome email?",
+          "m": "Nói ngắn hay dài. Nói lý do ngắn vì sao.",
+          "h": "Use: I prefer short/long. Use because + short reason.",
+          "s": "I prefer short emails. They are easy to read."
+        },
+        {
+          "p": "Who is the welcome email for?",
+          "m": "Nói đối tượng (ví dụ: new customers). Nói một đặc điểm ngắn của họ.",
+          "h": "Use: It is for + group. Describe with one adjective or short phrase.",
+          "s": "It is for new customers. They are busy people."
+        }
+      ]
+    },
+    {
+      "t": "Hỏi thông tin đăng ký",
+      "e": [
+        {
+          "p": "Can you give your email address?",
+          "m": "Viết địa chỉ email ngắn (dạng mẫu). Viết nếu bạn muốn nhận tin khuyến mãi.",
+          "h": "Use: My email is ... / I want / I don't want.",
+          "s": "My email is student@example.com. I want to receive promotions."
+        },
+        {
+          "p": "What is your age group?",
+          "m": "Nói nhóm tuổi ngắn (ví dụ: under 25). Nói một sở thích liên quan.",
+          "h": "Use: I am under/over + age or I am 20s. Use I like + noun.",
+          "s": "I am under 25. I like online deals."
+        },
+        {
+          "p": "Do you prefer emails in the morning or evening?",
+          "m": "Chọn morning hoặc evening. Nói lý do ngắn.",
+          "h": "Use: I prefer morning/evening. Use because + reason.",
+          "s": "I prefer morning emails. I check email in the morning."
+        },
+        {
+          "p": "Do you use mobile or computer for email?",
+          "m": "Chọn mobile hoặc computer. Nói tần suất bạn dùng nó.",
+          "h": "Use: I use mobile/computer. Use adverb of frequency.",
+          "s": "I use mobile. I often read email on my phone."
+        },
+        {
+          "p": "Can we ask for your name for the email?",
+          "m": "Trả lời có hoặc không. Nói bạn muốn tên xuất hiện trong email hay không.",
+          "h": "Use: Yes, use my name / No, don't use my name.",
+          "s": "Yes, use my name. I like personal emails."
+        }
+      ]
+    },
+    {
+      "t": "Xác nhận đăng ký và chào mừng",
+      "e": [
+        {
+          "p": "Please confirm your subscription.",
+          "m": "Trả lời bạn đã xác nhận hay chưa. Nói nếu bạn đọc email xác nhận ngay hay sau.",
+          "h": "Use: I confirm / I do not confirm. Use now or later adverb.",
+          "s": "I confirm my subscription. I read the email now."
+        },
+        {
+          "p": "You will get a discount code. Do you want it?",
+          "m": "Trả lời có hoặc không. Nói bạn sẽ dùng mã đó hay không.",
+          "h": "Use: Yes, I want / No, I don't want. Use I will + verb.",
+          "s": "Yes, I want the code. I will use it soon."
+        },
+        {
+          "p": "We send emails every week. Is this ok?",
+          "m": "Trả lời đồng ý hoặc không. Nói nếu bạn muốn thay đổi tần suất.",
+          "h": "Use: Yes, it's ok / No, change to ...",
+          "s": "Yes, it's ok. I don't want to change frequency."
+        },
+        {
+          "p": "Do you want tips about our products?",
+          "m": "Trả lời có/không. Nói bạn muốn nhận bao nhiêu tips (one/two).",
+          "h": "Use: I want / I don't want. Use one/two in a sentence.",
+          "s": "I want tips. I want two tips each week."
+        },
+        {
+          "p": "Thank you for joining. Any question?",
+          "m": "Viết một câu hỏi bạn có (nếu có). Viết nếu bạn cần liên lạc qua phone hoặc email.",
+          "h": "Use a short question and a contact preference sentence.",
+          "s": "Can I change my email later? Please contact me by email."
+        }
+      ]
+    },
+    {
+      "t": "Lên lịch gửi chiến dịch",
+      "e": [
+        {
+          "p": "When should we send the first email?",
+          "m": "Chọn thời điểm (today/tomorrow/next week). Nói nếu bạn thích sáng hay chiều.",
+          "h": "Use: Send ... / I prefer morning/afternoon.",
+          "s": "Send it next week. I prefer the morning."
+        },
+        {
+          "p": "How often do you want campaign emails?",
+          "m": "Nói tần suất (daily/weekly/monthly). Nói nếu tần suất này quá nhiều hoặc hợp lý.",
+          "h": "Use adverb of frequency and a short opinion sentence.",
+          "s": "I want weekly emails. Weekly is reasonable."
+        },
+        {
+          "p": "Do we send on weekdays or weekends?",
+          "m": "Chọn weekdays hoặc weekends. Nói một lý do ngắn.",
+          "h": "Use: Send on weekdays/weekends. Use because + reason.",
+          "s": "Send on weekdays. People read more on weekdays."
+        },
+        {
+          "p": "Should we stop sending during holidays?",
+          "m": "Trả lời yes/no. Nói bạn có nghĩ nên dừng hay không.",
+          "h": "Use: Yes, stop / No, continue. Use a short reason.",
+          "s": "Yes, stop during holidays. Most people are busy then."
+        },
+        {
+          "p": "Can we set a send time at 9 AM?",
+          "m": "Trả lời đồng ý hay không. Nếu không, đề xuất thời gian khác.",
+          "h": "Use: Yes, set at 9 AM / No, set at ...",
+          "s": "Yes, set it at 9 AM. It is a good time."
+        }
+      ]
+    },
+    {
+      "t": "Viết nội dung email khuyến mãi",
+      "e": [
+        {
+          "p": "What is the main offer in this email?",
+          "m": "Viết tên ưu đãi ngắn (ví dụ: 20% off). Viết một câu nói vì sao khách hàng nên quan tâm.",
+          "h": "Use: 20% off / because + short reason.",
+          "s": "20% off on all items. It saves money for customers."
+        },
+        {
+          "p": "Should we use an image in the email?",
+          "m": "Trả lời có hoặc không. Nói nếu hình ảnh nên lớn hay nhỏ.",
+          "h": "Use: Yes, use an image / No, do not use. Describe size with one word.",
+          "s": "Yes, use an image. Make it large."
+        },
+        {
+          "p": "How long should the email be?",
+          "m": "Chọn short hoặc long. Nói lý do ngắn.",
+          "h": "Use: I prefer short/long. Use because + reason.",
+          "s": "I prefer short emails. They read quickly."
+        },
+        {
+          "p": "Do we add a button to buy now?",
+          "m": "Trả lời có hoặc không. Nói vị trí ngắn (top/bottom).",
+          "h": "Use: Yes, add a button / No. Use top/bottom.",
+          "s": "Yes, add a button. Put it at the top."
+        },
+        {
+          "p": "Should we write a personal message for each user?",
+          "m": "Trả lời có/không. Nói nếu nó nên dùng tên khách hàng hay không.",
+          "h": "Use: Yes, use name / No, do not use. Use simple reason.",
+          "s": "Yes, write a personal message. Use the customer's name."
+        }
+      ]
+    },
+    {
+      "t": "Chọn nhóm khách hàng (segmentation)",
+      "e": [
+        {
+          "p": "Who should get the sale email?",
+          "m": "Nói một nhóm ngắn (new/regular customers). Nói lý do ngắn.",
+          "h": "Use: It is for new/regular customers. Use because + reason.",
+          "s": "It is for regular customers. They buy often."
+        },
+        {
+          "p": "Do we send to people in one city?",
+          "m": "Trả lời yes/no. Nói tên thành phố nếu yes.",
+          "h": "Use: Yes, send to [city] / No. Keep it short.",
+          "s": "Yes, send to customers in Hanoi. Many customers live there."
+        },
+        {
+          "p": "Should we target young people?",
+          "m": "Trả lời có/không. Nói một sản phẩm phù hợp cho họ.",
+          "h": "Use: Yes, target young people / No. Name one product.",
+          "s": "Yes, target young people. Promote our new phone case."
+        },
+        {
+          "p": "Do we remove inactive users from the list?",
+          "m": "Trả lời có/không. Nói sau bao lâu (e.g., 6 months).",
+          "h": "Use: Yes, remove after ... / No. Use a time phrase.",
+          "s": "Yes, remove after six months. Inactive users do not open emails."
+        },
+        {
+          "p": "How many groups do we need?",
+          "m": "Nói một số (one/two/three). Nói một ví dụ cho mỗi nhóm ngắn.",
+          "h": "Use numbers and short labels for groups.",
+          "s": "We need two groups. Group one is new users and group two is regulars."
+        }
+      ]
+    },
+    {
+      "t": "Viết tiêu đề email hấp dẫn",
+      "e": [
+        {
+          "p": "Do you like this subject: 'Big Sale'?",
+          "m": "Trả lời thích hay không. Nói một từ thay thế nếu không thích.",
+          "h": "Use: I like / I don't like + one-word suggestion.",
+          "s": "I like it. Use 'Big Sale' or 'Huge Sale'."
+        },
+        {
+          "p": "Should the subject be short?",
+          "m": "Trả lời short hoặc long. Nói số từ bạn muốn (one/two/three).",
+          "h": "Use: Short/Long and a number word.",
+          "s": "Short is better. Use two words."
+        },
+        {
+          "p": "Do emojis help in a subject line?",
+          "m": "Trả lời yes/no. Nói một emoji bạn thích nếu yes.",
+          "h": "Use: Yes, use 🙂 / No, do not use. Keep it simple.",
+          "s": "Yes, use an emoji. I like a shopping bag emoji."
+        },
+        {
+          "p": "Should we include the discount number in the subject?",
+          "m": "Trả lời có/không. Nói số phần trăm nếu có.",
+          "h": "Use: Yes include 20% / No. Use number format.",
+          "s": "Yes, include the number. Use 20% in the subject."
+        },
+        {
+          "p": "Which subject gets more opens: 'Sale' or 'New'?",
+          "m": "Chọn một từ (Sale/New). Nói lý do ngắn.",
+          "h": "Use the chosen word and a short reason sentence.",
+          "s": "Sale gets more opens. Sale shows a deal."
+        }
+      ]
+    },
+    {
+      "t": "Công cụ gửi và mẫu email",
+      "e": [
+        {
+          "p": "Do you use an email tool now?",
+          "m": "Trả lời có/không. Nói tên công cụ nếu có.",
+          "h": "Use: Yes, I use ... / No. Keep it short.",
+          "s": "Yes, I use MailTool. It is simple."
+        },
+        {
+          "p": "Should we use a template for the campaign?",
+          "m": "Trả lời có/không. Nói mẫu nên đơn giản hay màu sắc.",
+          "h": "Use: Yes/No and one adjective (simple/colorful).",
+          "s": "Yes, use a template. Make it simple."
+        },
+        {
+          "p": "Do you edit templates often?",
+          "m": "Trả lời tần suất (always/often/sometimes). Nói nếu bạn edit now or later.",
+          "h": "Use adverb of frequency and a time phrase.",
+          "s": "I edit templates sometimes. I will edit later."
+        },
+        {
+          "p": "Can we add a logo at the top?",
+          "m": "Trả lời có/không. Nói logo nên nhỏ hay lớn.",
+          "h": "Use: Yes/No and small/large.",
+          "s": "Yes, add a logo. Make it small."
+        },
+        {
+          "p": "Do you want a plain text or HTML email?",
+          "m": "Chọn plain text hoặc HTML. Nói lý do ngắn.",
+          "h": "Use: I want plain text/HTML. Use because + reason.",
+          "s": "I want HTML emails. They look good."
+        }
+      ]
+    },
+    {
+      "t": "Theo dõi hiệu quả (mở và click)",
+      "e": [
+        {
+          "p": "Do you check open rates?",
+          "m": "Trả lời có/không. Nói tần suất bạn kiểm tra (daily/weekly).",
+          "h": "Use: Yes/No and daily/weekly.",
+          "s": "Yes, I check open rates. I check them weekly."
+        },
+        {
+          "p": "What is a good open rate for you?",
+          "m": "Nói một số phần trăm đơn giản (ví dụ: 20%). Nói bạn có muốn cao hơn hay không.",
+          "h": "Use a percent number and a short opinion sentence.",
+          "s": "A good open rate is 20%. I want it higher."
+        },
+        {
+          "p": "Do you look at click rates too?",
+          "m": "Trả lời có/không. Nói nếu click rate quan trọng cho bạn.",
+          "h": "Use: Yes/No and short importance sentence.",
+          "s": "Yes, I look at click rates. Click rates are important."
+        },
+        {
+          "p": "Should we report results to the team?",
+          "m": "Trả lời có/không. Nói tần suất báo cáo (weekly/monthly).",
+          "h": "Use: Yes/No and weekly/monthly.",
+          "s": "Yes, report to the team. Do it monthly."
+        },
+        {
+          "p": "Can we set a goal for open rate?",
+          "m": "Trả lời có/không. Nói mục tiêu đơn giản (e.g., 25%).",
+          "h": "Use: Yes/No and a percent target.",
+          "s": "Yes, set a goal. The target is 25%."
+        }
+      ]
+    },
+    {
+      "t": "Xử lý người hủy đăng ký (unsubscribe)",
+      "e": [
+        {
+          "p": "A user wants to unsubscribe. Do we remove them?",
+          "m": "Trả lời yes/no. Nói bạn sẽ làm gì với email họ gửi.",
+          "h": "Use: Yes/No and a short action sentence.",
+          "s": "Yes, remove the user. We will delete their email now."
+        },
+        {
+          "p": "Should we ask why they leave?",
+          "m": "Trả lời có/không. Nói một câu hỏi mẫu ngắn để hỏi họ.",
+          "h": "Use: Yes/No and a short question example.",
+          "s": "Yes, ask why they leave. Ask 'Why do you leave?'"
+        },
+        {
+          "p": "Do we offer to reduce email frequency instead?",
+          "m": "Trả lời có/không. Nói lựa chọn thay thế ngắn (e.g., weekly).",
+          "h": "Use: Yes/No and a short alternative.",
+          "s": "Yes, offer fewer emails. Offer weekly emails."
+        },
+        {
+          "p": "Can we send a goodbye email after unsubscribe?",
+          "m": "Trả lời có/không. Nói nội dung ngắn của email goodbye.",
+          "h": "Use: Yes/No and one short content sentence.",
+          "s": "Yes, send a goodbye email. Say 'Thank you and goodbye.'"
+        },
+        {
+          "p": "Should we keep data of unsubscribed users?",
+          "m": "Trả lời có/không. Nói lý do ngắn cho quyết định.",
+          "h": "Use: Yes/No and because + reason.",
+          "s": "No, do not keep their data. It respects privacy."
+        }
+      ]
+    },
+    {
+      "t": "A/B test cho tiêu đề và nội dung",
+      "e": [
+        {
+          "p": "Do you know what A/B test means?",
+          "m": "Trả lời biết hay không. Nói một câu giải thích ngắn nếu biết.",
+          "h": "Use: I know / I do not know. Give one short explanation.",
+          "s": "I know A/B test. It tests two versions."
+        },
+        {
+          "p": "Should we test two subject lines?",
+          "m": "Trả lời có/không. Nói bạn sẽ dùng bao nhiêu người cho mỗi nhóm (small/large).",
+          "h": "Use: Yes/No and small/large.",
+          "s": "Yes, test two subject lines. Use a small group."
+        },
+        {
+          "p": "Do we test different images too?",
+          "m": "Trả lời có/không. Nói bạn muốn image A or image B.",
+          "h": "Use: Yes/No and choose A or B.",
+          "s": "Yes, test different images. I choose image A."
+        },
+        {
+          "p": "How long do we run the test?",
+          "m": "Nói thời gian ngắn (one/two days or one week). Nói nếu bạn muốn stop early or not.",
+          "h": "Use a short time phrase and a decision sentence.",
+          "s": "Run the test for one week. Do not stop early."
+        },
+        {
+          "p": "Which metric decides the winner?",
+          "m": "Chọn open rate hoặc click rate. Nói lý do ngắn.",
+          "h": "Use: Open rate / Click rate and because + reason.",
+          "s": "Use click rate to decide. Clicks show real interest."
+        }
+      ]
+    },
+    {
+      "t": "Phản hồi khách hàng sau chiến dịch",
+      "e": [
+        {
+          "p": "A customer says the email is confusing. What do we say?",
+          "m": "Xin lỗi ngắn. Hứa sửa và nói sẽ gửi email mới.",
+          "h": "Use a short apology and future action: Sorry. We will ...",
+          "s": "Sorry for the confusion. We will send a clearer email."
+        },
+        {
+          "p": "A customer thanks for a good deal. Reply please.",
+          "m": "Cảm ơn ngắn. Nói bạn vui vì họ thích ưu đãi.",
+          "h": "Use: Thank you. Use I am happy + reason.",
+          "s": "Thank you for your message. I am happy you like the deal."
+        },
+        {
+          "p": "Someone asks how to use a discount code.",
+          "m": "Giải thích ngắn 1 bước. Nói nếu họ cần giúp thêm.",
+          "h": "Use one short instruction and an offer to help.",
+          "s": "Enter the code at checkout. Ask us if you need more help."
+        },
+        {
+          "p": "A user says they did not get the email. Reply.",
+          "m": "Xin lỗi ngắn. Nói bạn sẽ kiểm tra và gửi lại.",
+          "h": "Use: Sorry. Use I will check and I will resend.",
+          "s": "Sorry you did not get the email. I will check and resend it."
+        },
+        {
+          "p": "Customer wants more info about a product. Reply simply.",
+          "m": "Cho một chi tiết ngắn về sản phẩm. Mời họ trả lời nếu muốn thêm.",
+          "h": "Use one short product detail and an invitation to ask more.",
+          "s": "This product is small and light. Reply if you want more details."
+        }
+      ]
+    },
+    {
+      "t": "Ôn tập: Lập kế hoạch chiến dịch",
+      "e": [
+        {
+          "p": "What is your campaign name and main goal?",
+          "m": "Nói tên chiến dịch. Nói mục tiêu chính ngắn.",
+          "h": "Use: The campaign name is ... / The goal is ...",
+          "s": "The campaign name is Welcome Sale. The goal is to get new buyers."
+        },
+        {
+          "p": "When and how often will you send emails?",
+          "m": "Nói thời điểm gửi. Nói tần suất ngắn (weekly/etc.).",
+          "h": "Use time phrase and adverb of frequency.",
+          "s": "Send emails next Monday. Send them weekly."
+        },
+        {
+          "p": "Who is your audience and one key message?",
+          "m": "Nói một nhóm khách hàng. Viết một thông điệp ngắn.",
+          "h": "Use: It is for ... / The message is ...",
+          "s": "It is for regular customers. The message is 'Save 20% today.'"
+        },
+        {
+          "p": "What metric will you track first?",
+          "m": "Chọn open rate hoặc click rate. Nói lý do ngắn.",
+          "h": "Use: I will track ... because ...",
+          "s": "I will track open rate. It shows interest."
+        },
+        {
+          "p": "Do you need a short template or a long one?",
+          "m": "Chọn short hoặc long. Nói lý do ngắn.",
+          "h": "Use: I choose short/long and because ...",
+          "s": "I choose a short template. Short is easy to read."
+        }
+      ]
+    },
+    {
+      "t": "Ôn tập: Viết email và chủ đề",
+      "e": [
+        {
+          "p": "Write a subject and say why it works.",
+          "m": "Viết một subject ngắn. Nói một lý do ngắn vì sao nó hiệu quả.",
+          "h": "Use subject and because + short reason.",
+          "s": "Flash Sale 20% Off. It works because it is clear."
+        },
+        {
+          "p": "Give a two-sentence body: offer and call to action.",
+          "m": "Viết câu về ưu đãi. Viết câu kêu gọi hành động.",
+          "h": "Use present simple and a short command.",
+          "s": "Get 20% off today. Click the button to buy now."
+        },
+        {
+          "p": "Should the email be personal? Say yes/no and why.",
+          "m": "Trả lời yes/no. Nói lý do ngắn.",
+          "h": "Use: Yes/No and because + reason.",
+          "s": "Yes, it should be personal. Personal emails feel friendly."
+        },
+        {
+          "p": "Choose one image style: product or lifestyle.",
+          "m": "Chọn product hoặc lifestyle. Nói một câu ngắn lý do.",
+          "h": "Use choice and because + short reason.",
+          "s": "Choose product images. They show the item clearly."
+        },
+        {
+          "p": "Write a short preview text (one line).",
+          "m": "Viết một câu ngắn làm preview. Giữ câu ngắn và rõ ràng.",
+          "h": "Use one short clear sentence.",
+          "s": "Save 20% on your first order today."
+        }
+      ]
+    },
+    {
+      "t": "Ôn tập: Phản hồi và đo lường",
+      "e": [
+        {
+          "p": "A user complains the email link is broken. Reply simply.",
+          "m": "Xin lỗi ngắn. Nói bạn sẽ sửa link và gửi lại.",
+          "h": "Use: Sorry. I will fix and resend.",
+          "s": "Sorry about the broken link. I will fix it and resend the email."
+        },
+        {
+          "p": "Report this week's open rate and one action.",
+          "m": "Nói tỉ lệ mở (ví dụ: 15%). Nói một hành động ngắn để cải thiện.",
+          "h": "Use a percent and an action sentence.",
+          "s": "The open rate is 15%. Send a new subject line."
+        },
+        {
+          "p": "Should we ask customers for feedback after campaign?",
+          "m": "Trả lời có/không. Nói một câu ngắn cách hỏi (email/survey).",
+          "h": "Use: Yes/No and method: email/survey.",
+          "s": "Yes, ask for feedback. Use a short email survey."
+        },
+        {
+          "p": "How do we handle a low click rate?",
+          "m": "Nói một hành động ngắn (change button/text). Nói nếu bạn sẽ test another version.",
+          "h": "Use one action and yes/no for testing.",
+          "s": "Change the button text. Yes, test another version."
+        },
+        {
+          "p": "Summarize one success and one improvement needed.",
+          "m": "Viết một thành công ngắn. Viết một việc cần cải thiện ngắn.",
+          "h": "Use two short sentences: success and improvement.",
+          "s": "Success: many opens. Improvement: increase clicks."
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,530 @@
+{
+  "l": 2,
+  "d": [
+    {
+      "t": "Lễ tân hỏi phòng",
+      "e": [
+        {
+          "p": "Where is Room 305?",
+          "m": "Nói phòng ở tầng mấy. Nói đường đi ngắn nhất từ quầy lễ tân.",
+          "h": "Dùng: It's on + floor. Imperative: go/turn.",
+          "s": "It's on the third floor. Walk straight and take the lift on the left."
+        },
+        {
+          "p": "How do I get to my room from the elevator?",
+          "m": "Nói hướng từ thang máy đến phòng. Nói phòng nằm bên trái hay phải.",
+          "h": "Dùng: Exit/turn + left/right. Dùng 'on the left/right'.",
+          "s": "Exit the elevator and turn right. The room is the second door on the left."
+        },
+        {
+          "p": "Can I see the hotel's map?",
+          "m": "Nói nơi để tìm bản đồ. Nói ai có thể giúp chỉ chỗ phòng.",
+          "h": "Dùng: The map is at/in + place. Dùng can + V.",
+          "s": "The hotel map is at the reception desk. Staff can point to your room on the map."
+        },
+        {
+          "p": "Is my room near the stairs?",
+          "m": "Trả lời có hoặc không. Nói khoảng cách và hướng tới cầu thang.",
+          "h": "Dùng Yes/No. Dùng: near / two doors down / on the right.",
+          "s": "Yes, it's near the stairs. It's two doors down on the right."
+        },
+        {
+          "p": "I have heavy luggage. What is the best way to my room?",
+          "m": "Gợi ý phương án tốt nhất cho hành lý. Nói nếu có người giúp mang hành lý.",
+          "h": "Dùng: Take the elevator. Dùng can/ will giúp.",
+          "s": "Take the elevator to the third floor. The bellboy can carry your bags."
+        }
+      ]
+    },
+    {
+      "t": "Khách hỏi nhà vệ sinh",
+      "e": [
+        {
+          "p": "Excuse me, where is the restroom?",
+          "m": "Nói vị trí nhà vệ sinh trong sảnh. Nói có dấu chỉ dẫn hay không.",
+          "h": "Dùng: It's next to / near + place. Dùng there is/are.",
+          "s": "The restroom is next to the elevators. There is a sign on the wall."
+        },
+        {
+          "p": "Is there a wheelchair-accessible restroom?",
+          "m": "Trả lời có hoặc không. Nói vị trí nếu có.",
+          "h": "Dùng Yes/No. Dùng: accessible restroom is on + floor/place.",
+          "s": "Yes, there is an accessible restroom. It's on the ground floor near the main entrance."
+        },
+        {
+          "p": "Are the restrooms free to use?",
+          "m": "Trả lời có hoặc không. Nói nếu cần mã thẻ hay chìa khóa.",
+          "h": "Dùng: Yes, they are / No, they are not. Dùng need + noun.",
+          "s": "Yes, they are free to use. You do not need a key."
+        },
+        {
+          "p": "Can I use the restroom on my floor?",
+          "m": "Trả lời có hoặc không. Nói nếu nên dùng nhà vệ sinh khác và tại sao.",
+          "h": "Dùng: You can / You should. Nêu lý do ngắn.",
+          "s": "You can use the restroom on your floor. But the main restroom is cleaner on the first floor."
+        },
+        {
+          "p": "Where is the baby changing room?",
+          "m": "Nói vị trí của phòng thay tã. Nói liệu có miễn phí hay nằm gần phòng nào.",
+          "h": "Dùng: It's in/at + place. Dùng There is/are + free/next to.",
+          "s": "It's in the family restroom on the first floor. It is free and next to the elevators."
+        }
+      ]
+    },
+    {
+      "t": "Hướng dẫn đến nhà hàng",
+      "e": [
+        {
+          "p": "Where is the hotel restaurant?",
+          "m": "Nói nhà hàng ở tầng mấy. Nói đường đi ngắn nhất từ sảnh.",
+          "h": "Dùng: It's on + floor. Dùng: go straight / turn left.",
+          "s": "The restaurant is on the second floor. Go up the stairs and turn left."
+        },
+        {
+          "p": "How do I get to breakfast on the third floor?",
+          "m": "Nói lối vào cho bữa sáng. Nói giờ bắt đầu bữa sáng.",
+          "h": "Dùng: Take the elevator to + floor. Dùng: Breakfast starts at + time.",
+          "s": "Take the elevator to the third floor and exit to the right. Breakfast starts at 7 a.m."
+        },
+        {
+          "p": "Is the restaurant open now?",
+          "m": "Nói trạng thái mở/đóng hiện tại. Nói giờ mở cửa tiếp theo nếu đóng.",
+          "h": "Dùng: It's open/closed. Dùng: opens at / closes at + time.",
+          "s": "The restaurant is open now. It closes at 10 p.m."
+        },
+        {
+          "p": "Do you have vegetarian options in the restaurant?",
+          "m": "Trả lời có hoặc không. Nói một ví dụ món chay đơn giản.",
+          "h": "Dùng Yes/No. Dùng: We have + noun / We offer + noun.",
+          "s": "Yes, we have vegetarian options. We offer a vegetable salad and a pasta dish."
+        },
+        {
+          "p": "Can you walk me to the restaurant?",
+          "m": "Nói có thể đi cùng hay không. Nói đường ngắn nhất và thời gian đi bộ.",
+          "h": "Dùng: I can / I can't. Dùng: It takes + time.",
+          "s": "I can walk you there. It takes about two minutes from the lobby."
+        }
+      ]
+    },
+    {
+      "t": "Tìm phòng họp",
+      "e": [
+        {
+          "p": "Where is Conference Room B?",
+          "m": "Nói phòng họp ở tầng mấy. Nói nó ở bên trái hay phải của hành lang.",
+          "h": "Dùng: It's on + floor. Dùng: on the left/right of the corridor.",
+          "s": "It's on the first floor. It is on the left side of the corridor."
+        },
+        {
+          "p": "How do I get to the meeting room from the entrance?",
+          "m": "Nói đường đi từ cửa chính. Nói thời gian đi bộ ước chừng.",
+          "h": "Dùng: Go straight / turn. Dùng: It takes + minutes.",
+          "s": "Go straight from the entrance and turn right at the cafe. It takes about five minutes."
+        },
+        {
+          "p": "Is the meeting room next to the business center?",
+          "m": "Trả lời có hoặc không. Nói khoảng cách giữa hai phòng.",
+          "h": "Dùng Yes/No. Dùng: next to / across from / near.",
+          "s": "Yes, it is next to the business center. They share the same hallway."
+        },
+        {
+          "p": "Can I reserve the meeting room now?",
+          "m": "Trả lời có thể đặt hay không. Nói nơi hoặc ai đặt phòng.",
+          "h": "Dùng: You can / You can't. Dùng: at the reception / ask + staff.",
+          "s": "You can reserve the meeting room at reception. Ask the staff for available times."
+        },
+        {
+          "p": "The projector in Room A is not working. Where can we move?",
+          "m": "Gợi ý phòng khác cho họp. Nói khoảng cách và cách đến phòng đó.",
+          "h": "Dùng: You can move to + room. Dùng: It's + distance / go straight.",
+          "s": "You can move to Conference Room C. It's one door down and across the hall."
+        }
+      ]
+    },
+    {
+      "t": "Hỏi về bể bơi",
+      "e": [
+        {
+          "p": "Is the pool inside or outside?",
+          "m": "Nói loại bể bơi (trong nhà/ngoài trời). Nói tầng hoặc vị trí chung.",
+          "h": "Dùng: It's an indoor/outdoor pool. Dùng: on the + floor / next to.",
+          "s": "It's an indoor pool. It is on the rooftop level next to the gym."
+        },
+        {
+          "p": "How do I get to the pool from my room?",
+          "m": "Nói đường đi từ phòng đến bể bơi. Nói nếu cần thẻ phòng hay không.",
+          "h": "Dùng: Take the elevator to + floor. Dùng: You need + noun or not.",
+          "s": "Take the elevator to the top floor and exit to the terrace. You do not need a key."
+        },
+        {
+          "p": "What time does the pool open?",
+          "m": "Nói giờ mở cửa của bể bơi. Nói nếu có giờ riêng cho trẻ em hay không.",
+          "h": "Dùng: It opens at + time. Dùng: There is a + special time for + group.",
+          "s": "The pool opens at 6 a.m. There is a kids' hour from 9 to 10 a.m."
+        },
+        {
+          "p": "Are towels available at the pool?",
+          "m": "Trả lời có hoặc không. Nói nơi lấy khăn nếu có.",
+          "h": "Dùng Yes/No. Dùng: Towels are at + place.",
+          "s": "Yes, towels are available. They are at the pool desk."
+        },
+        {
+          "p": "Can I bring food to the pool area?",
+          "m": "Trả lời có thể hay không. Nói quy định ngắn gọn nếu không được phép.",
+          "h": "Dùng: You can / You cannot. Dùng: Please / Do not + V.",
+          "s": "You cannot bring food to the pool area. Please use the restaurant for meals."
+        }
+      ]
+    },
+    {
+      "t": "Quầy thông tin và dịch vụ",
+      "e": [
+        {
+          "p": "Where is the information desk?",
+          "m": "Nói vị trí quầy thông tin trong khách sạn. Nói gần mốc nào (thang máy, cửa).",
+          "h": "Dùng: It's at/in + place. Dùng near/next to.",
+          "s": "The information desk is at the lobby near the main entrance. It is next to the elevators."
+        },
+        {
+          "p": "How can I exchange money?",
+          "m": "Nói nơi đổi tiền trong khách sạn. Nói giờ làm việc ngắn gọn.",
+          "h": "Dùng: You can exchange at + place. Dùng: opens/closes at + time.",
+          "s": "You can exchange money at the front desk. They open from 8 a.m. to 8 p.m."
+        },
+        {
+          "p": "Can I get a city map here?",
+          "m": "Trả lời có hoặc không. Nói nơi lấy bản đồ nếu có.",
+          "h": "Dùng Yes/No. Dùng: The map is at + place.",
+          "s": "Yes, you can get a city map here. It's on the counter by the brochures."
+        },
+        {
+          "p": "Do you have a lost and found?",
+          "m": "Trả lời có hoặc không. Nói nơi để hỏi đồ thất lạc.",
+          "h": "Dùng Yes/No. Dùng: It's at + place / Ask + staff.",
+          "s": "Yes, we have a lost and found. Ask at the reception desk."
+        },
+        {
+          "p": "Where can I buy a SIM card nearby?",
+          "m": "Gợi ý cửa hàng gần khách sạn. Nói đường đi ngắn và khoảng thời gian đi bộ.",
+          "h": "Dùng: You can buy at + place. Dùng: It's a + minute walk.",
+          "s": "You can buy a SIM card at the kiosk across the street. It's a three-minute walk from the hotel."
+        }
+      ]
+    },
+    {
+      "t": "Đi đến ga hoặc bến xe",
+      "e": [
+        {
+          "p": "How do I get to the train station?",
+          "m": "Nói phương tiện tốt nhất để đến ga. Nói thời gian ước chừng từ khách sạn.",
+          "h": "Dùng: Take a taxi / take the bus. Dùng: It takes + time.",
+          "s": "Take a taxi from the hotel entrance. It takes about 20 minutes."
+        },
+        {
+          "p": "Is there a shuttle to the airport?",
+          "m": "Trả lời có hoặc không. Nói nơi đón và giờ khởi hành nếu có.",
+          "h": "Dùng Yes/No. Dùng: The shuttle picks up at + place / at + time.",
+          "s": "Yes, there is a shuttle to the airport. It picks up at the front entrance at 6 a.m."
+        },
+        {
+          "p": "Where is the taxi stand?",
+          "m": "Nói vị trí nơi đón taxi. Nói có cần gọi lễ tân hay không.",
+          "h": "Dùng: It's at/in + place. Dùng: call the reception / we will call.",
+          "s": "The taxi stand is in front of the main door. You can call reception and we will call a taxi."
+        },
+        {
+          "p": "Can I walk to the bus stop?",
+          "m": "Trả lời đi bộ được hay không. Nói khoảng cách và thời gian đi bộ.",
+          "h": "Dùng: You can / You cannot. Dùng: It's a + minute walk.",
+          "s": "Yes, you can walk to the bus stop. It's a five-minute walk from here."
+        },
+        {
+          "p": "Which exit should I use for the train platforms?",
+          "m": "Nói exit số mấy hoặc tên. Nói hướng từ cửa ra đến nền đường ray.",
+          "h": "Dùng: Use exit + number/name. Dùng: go straight / turn.",
+          "s": "Use exit two at the station. After the exit, go straight and follow the signs to the platforms."
+        }
+      ]
+    },
+    {
+      "t": "Gợi ý tham quan xung quanh khách sạn",
+      "e": [
+        {
+          "p": "Is there a park near the hotel?",
+          "m": "Trả lời có hoặc không. Nói khoảng cách đến công viên.",
+          "h": "Dùng Yes/No. Dùng: It's + minutes away / near.",
+          "s": "Yes, there is a park nearby. It is a seven-minute walk from the hotel."
+        },
+        {
+          "p": "How do I get to the museum from here?",
+          "m": "Nói phương hướng chính đến bảo tàng. Nói phương tiện tốt nhất nếu cần.",
+          "h": "Dùng: Go straight / turn left / take the bus. Dùng: take + transport.",
+          "s": "Go straight out of the hotel and turn left at the corner. You can also take bus number 5."
+        },
+        {
+          "p": "Are there any good cafes around?",
+          "m": "Trả lời có hoặc không. Nói ví dụ một quán và khoảng cách.",
+          "h": "Dùng Yes/No. Dùng: There is/are + a cafe + near/next to.",
+          "s": "Yes, there are good cafes nearby. The Blue Cafe is two minutes away."
+        },
+        {
+          "p": "Can you show me how to walk to the old town?",
+          "m": "Nói lộ trình đi bộ đơn giản đến phố cổ. Nói thời gian ước tính.",
+          "h": "Dùng: Walk straight / cross / turn. Dùng: It takes + minutes.",
+          "s": "Walk straight for three blocks and then cross the bridge. It takes about 15 minutes."
+        },
+        {
+          "p": "Where is the nearest pharmacy?",
+          "m": "Nói vị trí hiệu thuốc gần nhất. Nói mở cửa giờ nào nếu biết.",
+          "h": "Dùng: It's on + street / next to. Dùng: opens at + time.",
+          "s": "The nearest pharmacy is next to the bank on Main Street. It opens at 9 a.m."
+        }
+      ]
+    },
+    {
+      "t": "Yêu cầu dịch vụ phòng",
+      "e": [
+        {
+          "p": "Can you send towels to my room?",
+          "m": "Trả lời có thể hay không. Nói thời gian phục vụ ngắn gọn.",
+          "h": "Dùng: We can / We cannot. Dùng: will arrive in + time.",
+          "s": "Yes, we can send towels to your room. They will arrive within ten minutes."
+        },
+        {
+          "p": "Where should I leave a tip for room service?",
+          "m": "Nói nơi đặt tiền boa. Nói nếu nhân viên muốn nhận trực tiếp.",
+          "h": "Dùng: Leave it on + place. Dùng: staff can take it directly.",
+          "s": "Please leave it on the table in your room. The staff can take it directly if you prefer."
+        },
+        {
+          "p": "Can someone come to fix the AC?",
+          "m": "Trả lời có thể hay không. Nói khi nào kỹ thuật sẽ đến.",
+          "h": "Dùng: A technician will + V. Dùng: at + time / within + minutes.",
+          "s": "Yes, a technician will come to fix the AC. He will arrive within thirty minutes."
+        },
+        {
+          "p": "I need extra pillows. Where do I ask?",
+          "m": "Nói nơi yêu cầu gối thêm (lễ tân/room service). Nói thời gian giao hàng.",
+          "h": "Dùng: Ask at + place. Dùng: They will bring + item in + time.",
+          "s": "Ask at the reception or call room service. They will bring extra pillows in about ten minutes."
+        },
+        {
+          "p": "How do I order breakfast to my room?",
+          "m": "Nói cách đặt bữa sáng (gọi phòng/ứng dụng). Nói giờ phục vụ phòng ăn sáng.",
+          "h": "Dùng: Call + number / use + app. Dùng: breakfast is served from + time.",
+          "s": "Call room service at extension 9 to order breakfast. Breakfast is served from 7 to 10 a.m."
+        }
+      ]
+    },
+    {
+      "t": "Hướng dẫn đến phòng tập",
+      "e": [
+        {
+          "p": "Where is the gym?",
+          "m": "Nói vị trí phòng tập trong khách sạn. Nói tầng hoặc gần khu nào.",
+          "h": "Dùng: It's on + floor / next to + place.",
+          "s": "The gym is on the basement level. It is next to the spa."
+        },
+        {
+          "p": "How do I get to the gym from the lobby?",
+          "m": "Nói đường đi ngắn từ sảnh. Nói thời gian đi bộ nếu cần.",
+          "h": "Dùng: Take the elevator to + floor / go down. Dùng: It takes + minutes.",
+          "s": "Take the elevator to B1 and exit to the left. It takes about two minutes."
+        },
+        {
+          "p": "Is the gym open 24 hours?",
+          "m": "Trả lời có hoặc không. Nói giờ mở cửa nếu không 24h.",
+          "h": "Dùng Yes/No. Dùng: It opens at / closes at + time.",
+          "s": "No, the gym is not open 24 hours. It opens at 6 a.m. and closes at 11 p.m."
+        },
+        {
+          "p": "Do I need to bring my own towel to the gym?",
+          "m": "Trả lời có hoặc không. Nói nơi lấy khăn nếu không cần mang theo.",
+          "h": "Dùng Yes/No. Dùng: Towels are provided at + place.",
+          "s": "No, you do not need to bring your own towel. Towels are provided at the gym reception."
+        },
+        {
+          "p": "Can I join a fitness class here?",
+          "m": "Trả lời có thể hay không. Nói cách đăng ký và thời gian lớp.",
+          "h": "Dùng: You can / You need to + V. Dùng: classes are at + time.",
+          "s": "Yes, you can join a fitness class. Please sign up at the gym desk; classes are at 7 a.m. and 6 p.m."
+        }
+      ]
+    },
+    {
+      "t": "Khách lạc đường trong hành lang",
+      "e": [
+        {
+          "p": "I am lost. Which way to Room 412?",
+          "m": "Nói hướng chính đến phòng 412. Nói nếu cần đi lên tầng khác.",
+          "h": "Dùng: Go straight / turn left/right. Dùng: take the stairs/elevator.",
+          "s": "Go straight down this corridor and turn left at the stairs. Then take the elevator to the fourth floor."
+        },
+        {
+          "p": "Are the elevators this way?",
+          "m": "Trả lời có hoặc không. Nói hướng nếu không ở đây.",
+          "h": "Dùng Yes/No. Dùng: It's this way / It's down the hall.",
+          "s": "Yes, the elevators are this way. They are at the end of the hall on the right."
+        },
+        {
+          "p": "Where is the fire exit?",
+          "m": "Nói vị trí lối thoát hiểm gần nhất. Nói hướng đi nhanh an toàn.",
+          "h": "Dùng: It's at/in + place. Dùng: go to + direction.",
+          "s": "The nearest fire exit is at the end of the corridor. Go straight and you will see the exit door."
+        },
+        {
+          "p": "Can you point me to the nearest stairwell?",
+          "m": "Nói vị trí cầu thang gần nhất. Nói bên trái hay phải so với vị trí hiện tại.",
+          "h": "Dùng: It's on the left/right. Dùng: next to / across from.",
+          "s": "The stairwell is on the left side of this floor. It is next to the emergency exit."
+        },
+        {
+          "p": "I can't find my room number on the door. What now?",
+          "m": "Gợi ý bước tiếp theo (kiểm tra sổ, hỏi lễ tân). Nói nếu cần đi xuống lễ tân.",
+          "h": "Dùng: Check / Ask. Dùng: go to + place.",
+          "s": "Check your key card for the room number. If you still cannot find it, go down to reception."
+        }
+      ]
+    },
+    {
+      "t": "Hỏi đường đến cửa hàng gần đó",
+      "e": [
+        {
+          "p": "Where is the nearest convenience store?",
+          "m": "Nói vị trí cửa hàng tạp hóa gần nhất. Nói khoảng cách đi bộ.",
+          "h": "Dùng: It's on + street / next to. Dùng: It's a + minute walk.",
+          "s": "The nearest convenience store is next to the bus stop on Elm Street. It's a two-minute walk."
+        },
+        {
+          "p": "How do I walk to the bakery?",
+          "m": "Nói lộ trình đi bộ ngắn đến tiệm bánh. Nói mốc dễ thấy trên đường.",
+          "h": "Dùng: Walk straight / turn left. Dùng: You will see + landmark.",
+          "s": "Walk straight and turn right at the traffic light. You will see the bakery next to the bookstore."
+        },
+        {
+          "p": "Is there a supermarket within walking distance?",
+          "m": "Trả lời có hoặc không. Nói thời gian đi bộ nếu có.",
+          "h": "Dùng Yes/No. Dùng: It's a + minute walk / far.",
+          "s": "Yes, there is a supermarket within walking distance. It is about ten minutes from here."
+        },
+        {
+          "p": "Can you tell me how to get to the pharmacy by bus?",
+          "m": "Nói tuyến xe buýt phù hợp. Nói điểm dừng xuống gần nhà thuốc.",
+          "h": "Dùng: Take bus number +. Dùng: get off at + stop.",
+          "s": "Take bus number 4 from the stop in front of the hotel. Get off at Market Street and walk two minutes."
+        },
+        {
+          "p": "Is the souvenir shop open on Sundays?",
+          "m": "Trả lời mở/đóng vào Chủ nhật. Nói giờ nếu mở.",
+          "h": "Dùng: It is open/closed. Dùng: opens at + time / closed on + day.",
+          "s": "Yes, the souvenir shop is open on Sundays. It opens at 10 a.m."
+        }
+      ]
+    },
+    {
+      "t": "Ôn tập: Hướng dẫn trong khách sạn (1)",
+      "e": [
+        {
+          "p": "Where is the business center?",
+          "m": "Nói vị trí trung tâm kinh doanh. Nói đường đi ngắn từ sảnh.",
+          "h": "Dùng: It's on + floor. Dùng: go straight / turn.",
+          "s": "The business center is on the first floor. Go straight from the lobby and turn left."
+        },
+        {
+          "p": "How do I get to the spa?",
+          "m": "Nói lộ trình đến spa. Nói nếu cần đặt lịch trước.",
+          "h": "Dùng: Take the elevator to + floor. Dùng: You should + V.",
+          "s": "Take the elevator to B1 and walk to the end of the corridor. You should book an appointment in advance."
+        },
+        {
+          "p": "Is there free Wi-Fi in the hotel?",
+          "m": "Trả lời có hoặc không. Nói nơi hoặc cách kết nối nếu có.",
+          "h": "Dùng Yes/No. Dùng: You can connect with + code or at + place.",
+          "s": "Yes, there is free Wi-Fi in the hotel. You can connect with the password at reception."
+        },
+        {
+          "p": "Where can I charge my phone?",
+          "m": "Nói vị trí ổ cắm chung hoặc quầy sạc. Nói nếu có dịch vụ mượn sạc.",
+          "h": "Dùng: You can charge at + place. Dùng: We can lend + noun.",
+          "s": "You can charge your phone in the lobby near the sofas. We can also lend a charger at reception."
+        },
+        {
+          "p": "Can I leave my luggage after checkout?",
+          "m": "Trả lời có hoặc không. Nói nơi để gửi hành lý và thời gian tối đa.",
+          "h": "Dùng Yes/No. Dùng: You can leave + at + place. Dùng: for + time.",
+          "s": "Yes, you can leave your luggage after checkout. Leave it at reception for up to three hours."
+        }
+      ]
+    },
+    {
+      "t": "Ôn tập: Hướng dẫn ngoài khách sạn (2)",
+      "e": [
+        {
+          "p": "How do I walk to the city center?",
+          "m": "Nói đường đi bộ chính. Nói thời gian ước tính.",
+          "h": "Dùng: Walk straight / turn. Dùng: It takes + minutes.",
+          "s": "Walk straight for four blocks and turn left at the statue. It takes about 12 minutes."
+        },
+        {
+          "p": "Where is the nearest ATM?",
+          "m": "Nói vị trí cây ATM gần nhất. Nói khoảng cách và hướng đi.",
+          "h": "Dùng: It's next to / across from. Dùng: a + minute walk.",
+          "s": "The nearest ATM is across from the hotel on Oak Street. It's a one-minute walk."
+        },
+        {
+          "p": "Can I get a taxi from the front of the hotel?",
+          "m": "Trả lời có hoặc không. Nói nếu cần gọi lễ tân giúp gọi taxi.",
+          "h": "Dùng Yes/No. Dùng: We can call / call reception.",
+          "s": "Yes, you can get a taxi from the front of the hotel. We can call one for you at reception."
+        },
+        {
+          "p": "Is the river close to the hotel?",
+          "m": "Trả lời có hoặc không. Nói khoảng cách đi bộ nếu có.",
+          "h": "Dùng Yes/No. Dùng: It's a + minute walk / near.",
+          "s": "Yes, the river is close to the hotel. It's a ten-minute walk away."
+        },
+        {
+          "p": "How do I find the tourist information center?",
+          "m": "Nói tuyến đường ngắn đến trung tâm du lịch. Nói phương tiện nếu nên đi taxi.",
+          "h": "Dùng: Go straight / turn / take a taxi. Dùng: It's better to + V.",
+          "s": "Go straight and turn right at the cinema; the tourist center is opposite. It's better to take a taxi if you have heavy bags."
+        }
+      ]
+    },
+    {
+      "t": "Ôn tập: Tình huống khẩn cấp và hỗ trợ (3)",
+      "e": [
+        {
+          "p": "Where is the nearest hospital?",
+          "m": "Nói hướng đến bệnh viện gần nhất. Nói phương tiện nhanh nhất để tới đó.",
+          "h": "Dùng: Go to / Take a taxi. Dùng: It takes + time.",
+          "s": "The nearest hospital is two kilometers away. Take a taxi from the front and it takes about ten minutes."
+        },
+        {
+          "p": "There is a small fire in the kitchen. What is the exit?",
+          "m": "Nói lối thoát an toàn gần nhất. Nói hướng ngắn để ra ngoài.",
+          "h": "Dùng: Use / Go to + exit. Dùng: go straight / turn.",
+          "s": "Use the emergency exit at the end of the corridor. Go straight and follow the green signs."
+        },
+        {
+          "p": "I lost my key card. Where should I go?",
+          "m": "Nói nơi báo mất (lễ tân). Nói liệu họ có phát khóa mới ngay lập tức.",
+          "h": "Dùng: Go to + place. Dùng: We will / can issue a new + noun.",
+          "s": "Go to reception and report the lost key card. We will issue a new card immediately."
+        },
+        {
+          "p": "My child is missing. Who can help?",
+          "m": "Nói ai hỗ trợ (lễ tân, bảo vệ). Nói bước tiếp theo nên làm nhanh.",
+          "h": "Dùng: Ask + who. Dùng: Call + person / search + area.",
+          "s": "Ask the reception and security for help. Call the hotel staff and search the lobby and nearby floors."
+        },
+        {
+          "p": "I need a doctor now. Can you help?",
+          "m": "Trả lời có thể hay không. Nói cách liên hệ bác sĩ hoặc dịch vụ y tế.",
+          "h": "Dùng: We can / We will. Dùng: call a doctor / call an ambulance.",
+          "s": "Yes, we can help. We will call a doctor to come or an ambulance if needed."
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,635 @@
+{
+  "l": 3,
+  "d": [
+    {
+      "t": "Chuẩn bị lần deploy đầu tiên",
+      "e": [
+        {
+          "p": "Are we ready to deploy now?",
+          "m": "Nói việc bạn đã làm trước đó để chuẩn bị. Nói kế hoạch triển khai tiếp theo (will/going to). Nói một việc bạn phải kiểm tra trước khi deploy.",
+          "h": "Past Simple; will/going to; must/should",
+          "s": "I ran the tests and fixed two errors. I am going to deploy to staging this afternoon. I must check the logs before release."
+        },
+        {
+          "p": "What did you change in the code?",
+          "m": "Nói một thay đổi bạn đã làm (Past Simple). Nói vì sao bạn thay đổi (because). Nói bạn sẽ kiểm tra gì sau khi deploy.",
+          "h": "Past Simple + because; will",
+          "s": "I updated the login page to fix a bug because users could not sign in. I also cleaned up some unused files. I will check the login flow after deploy."
+        },
+        {
+          "p": "Who will do the deploy?",
+          "m": "Nói ai đã chuẩn bị (Past Simple). Nói ai sẽ làm deploy (will). Nói ai phải xác nhận kết quả.",
+          "h": "Past Simple; will; must",
+          "s": "Tom prepared the release notes yesterday. He will run the deploy tonight. QA must confirm the build is stable."
+        },
+        {
+          "p": "Is the server ready?",
+          "m": "Nói trạng thái server hiện tại (Present Simple or Past Simple). Nói bạn sẽ làm gì nếu server không sẵn sàng (will). Nói một bước kiểm tra bạn đã làm.",
+          "h": "Present/Past Simple; will; use because or and",
+          "s": "The server was updated and it looks stable. If it is not ready, I will stop the release. I already checked disk space and memory."
+        },
+        {
+          "p": "Do we need a rollback plan?",
+          "m": "Nói nếu bạn đã có kế hoạch rollback (Past Simple or Present Simple). Nói hành động bạn sẽ làm khi cần rollback (will). Nói điều quan trọng nhất trong kế hoạch.",
+          "h": "Use have/has + Past Participle; will; short reason with because",
+          "s": "We have a rollback plan in place. If a serious bug appears, we will revert to the previous build. The most important thing is to keep users' data safe."
+        }
+      ]
+    },
+    {
+      "t": "Kiểm tra pipeline trước khi release",
+      "e": [
+        {
+          "p": "Did the pipeline pass all tests?",
+          "m": "Nói kết quả kiểm tra (Past Simple). Nói bạn đã làm gì với lỗi nếu có. Nói bạn sẽ làm thêm gì trước khi release.",
+          "h": "Past Simple; use 'so' or 'because'; will",
+          "s": "The pipeline passed most tests but one test failed. I fixed the failing test and re-ran the pipeline. I will run full tests again before release."
+        },
+        {
+          "p": "What is the build time now?",
+          "m": "Nói build time hiện tại (Present Simple). So sánh ngắn với trước (comparative). Nói bạn sẽ làm gì để giảm thời gian nếu cần.",
+          "h": "Present Simple; comparative (shorter/more); will",
+          "s": "The build time is 12 minutes now. It is shorter than last week. I will optimize the scripts to make it faster."
+        },
+        {
+          "p": "Which stage failed in the pipeline?",
+          "m": "Nói stage đã fail (Past Simple). Nói nguyên nhân ngắn gọn (because). Nói bạn đã làm gì để fix.",
+          "h": "Past Simple; because; use 'so' or 'and' for result",
+          "s": "The test stage failed yesterday. It failed because a new test was added. I fixed the test and pushed a new commit."
+        },
+        {
+          "p": "Should we add one more test?",
+          "m": "Trả lời nên hay không (Should). Nói vì sao ngắn gọn. Nói bạn sẽ làm gì tiếp theo.",
+          "h": "Should + V; because; will",
+          "s": "Yes, we should add one more test. It will catch a common error. I will write the test tonight."
+        },
+        {
+          "p": "Who checks the pipeline logs?",
+          "m": "Nói ai đã kiểm tra trước đó (Past Simple). Nói ai sẽ kiểm tra tiếp (will). Nói điều họ phải chú ý trong logs.",
+          "h": "Past Simple; will; use must/should",
+          "s": "I checked the logs this morning. Our DevOps will check them after the build. They must look for warning messages."
+        }
+      ]
+    },
+    {
+      "t": "Thông báo lịch release cho team",
+      "e": [
+        {
+          "p": "When is the release scheduled?",
+          "m": "Nói thời gian release (Past or Present Simple with time). Nói bạn đã thông báo cho ai rồi. Nói bước tiếp theo bạn will làm.",
+          "h": "Use time expressions; Past Simple; will",
+          "s": "The release is scheduled for Friday at 10 am. I already told the QA team. I will send a reminder on Thursday."
+        },
+        {
+          "p": "Can we move the release one day later?",
+          "m": "Trả lời có thể hay không (can/cannot). Nói lý do ngắn. Nói bạn sẽ làm nếu move được.",
+          "h": "Can/cannot; because; will",
+          "s": "We cannot move the release easily because tests need time. The schedule is tight. If we move it, I will update the calendar."
+        },
+        {
+          "p": "Who should receive the release note?",
+          "m": "Liệt kê 2 người hoặc nhóm nhận (Present Simple). Nói bạn đã gửi cho ai rồi (Past Simple). Nói bạn will send cho người còn lại.",
+          "h": "Present Simple; Past Simple; will",
+          "s": "The QA team and the product manager should receive the release note. I sent it to QA yesterday. I will send it to the product manager now."
+        },
+        {
+          "p": "Is the release window OK for users?",
+          "m": "Nói nếu window ổn với người dùng (Present Simple). Nói lý do ngắn (because). Nói bạn sẽ làm gì nếu không ổn.",
+          "h": "Present Simple; because; will",
+          "s": "The release window is OK for most users because traffic is low at that time. Some users will be affected. I will schedule a short maintenance notice."
+        },
+        {
+          "p": "Do we need a code freeze?",
+          "m": "Nói có cần hay không (must/should). Nói khi nào bắt đầu code freeze (time). Nói ai phải tuân thủ.",
+          "h": "Must/should; time phrase; must/have to",
+          "s": "Yes, we should have a code freeze. It must start tonight at 6 pm. All developers have to stop merging changes."
+        }
+      ]
+    },
+    {
+      "t": "Xử lý lỗi sau khi release",
+      "e": [
+        {
+          "p": "Users report a new bug, what happened?",
+          "m": "Mô tả ngắn lỗi (Past Simple). Nói khi lỗi bắt đầu. Nói bạn đã làm gì ngay lập tức.",
+          "h": "Past Simple; time phrase; use 'so' or 'and'",
+          "s": "A button stopped working after the release. The error began this morning. I rolled back the feature and opened a ticket."
+        },
+        {
+          "p": "Should we do a hotfix now?",
+          "m": "Trả lời nên hay không (Should). Nói lý do ngắn. Nói bạn sẽ làm gì nếu có hotfix (will).",
+          "h": "Should + V; because; will",
+          "s": "Yes, we should do a hotfix because it affects many users. I will prepare a small patch now. QA will test it quickly."
+        },
+        {
+          "p": "Who will take the bug ticket?",
+          "m": "Nói ai đã nhận (Past Simple). Nói ai sẽ fix (will). Nói bạn sẽ thông báo tình trạng cho ai.",
+          "h": "Past Simple; will; use 'to' for notify",
+          "s": "Anna picked up the bug this morning. She will fix it in two hours. I will notify the product owner after the fix."
+        },
+        {
+          "p": "Did we lose any data?",
+          "m": "Nói có hay không (Past Simple). Nói bạn đã kiểm tra điều gì. Nói bạn will do gì tiếp theo.",
+          "h": "Past Simple; use 'checked' or 'looked at'; will",
+          "s": "No, we did not lose any data. I checked the database and logs. I will monitor for any new errors."
+        },
+        {
+          "p": "Tell me the short plan to restore service",
+          "m": "Nói 2 bước bạn đã làm (Past Simple). Nói 1 bước bạn sẽ làm tiếp (will).",
+          "h": "Past Simple; will; use connectors like then",
+          "s": "I disabled the new feature and restored the previous build. I alerted the support team. I will deploy the hotfix this afternoon."
+        }
+      ]
+    },
+    {
+      "t": "Rollback nhanh khi có sự cố",
+      "e": [
+        {
+          "p": "Why did you rollback the release?",
+          "m": "Nói lý do rollback (Past Simple). Nói lỗi ảnh hưởng tới ai (users/team). Nói bạn đã làm gì sau rollback.",
+          "h": "Past Simple; use because; then",
+          "s": "We rolled back because a critical API failed. It affected external users and the mobile app. Then we restored the previous version."
+        },
+        {
+          "p": "How long did the rollback take?",
+          "m": "Nói thời gian (Past Simple). So sánh ngắn với thời gian mong đợi (comparative). Nói bạn sẽ làm gì để rút ngắn lần sau.",
+          "h": "Past Simple; comparative; will",
+          "s": "The rollback took 20 minutes. It was longer than expected. I will prepare a faster script for next time."
+        },
+        {
+          "p": "Can we test the rollback process?",
+          "m": "Trả lời có thể hay không (can/cannot). Nói bạn đã test khi nào (Past Simple). Nói bạn sẽ test điều gì tiếp theo.",
+          "h": "Can/cannot; Past Simple; will",
+          "s": "Yes, we can test the rollback in staging. We tested it last week successfully. I will run the test with the new data."
+        },
+        {
+          "p": "Who approves the rollback?",
+          "m": "Nói ai đã phê duyệt (Past Simple). Nói ai phải được thông báo (Present Simple). Nói bạn will send the report to whom.",
+          "h": "Past Simple; Present Simple; will",
+          "s": "The tech lead approved the rollback. The product manager must be informed. I will send the report to the manager."
+        },
+        {
+          "p": "What is the main rule for rollback?",
+          "m": "Nói một quy tắc quan trọng (should/must). Nói ngắn vì sao. Nói bạn sẽ làm gì nếu quy tắc không được tuân thủ.",
+          "h": "Should/must; because; will",
+          "s": "You must keep a clean backup before rollback. This ensures recovery if something goes wrong. I will stop the process if backup is missing."
+        }
+      ]
+    },
+    {
+      "t": "Viết ghi chú release ngắn",
+      "e": [
+        {
+          "p": "What should the release note include?",
+          "m": "Liệt kê 3 nội dung chính cần có (mỗi ý 1 câu).",
+          "h": "Use simple nouns and short verbs",
+          "s": "The release note should list new features. It should describe bug fixes. It should give a rollback instruction."
+        },
+        {
+          "p": "Write a one-line summary for this release",
+          "m": "Viết 1 câu tóm tắt (Present Simple). Nói tính năng chính đã thêm (Past Simple).",
+          "h": "Present Simple; Past Simple for added feature",
+          "s": "This release improves login stability and adds a quick search. We fixed a crash on login."
+        },
+        {
+          "p": "Who will read the release notes?",
+          "m": "Liệt kê 2 nhóm người đọc (Present Simple). Nói bạn đã gửi cho ai rồi (Past Simple).",
+          "h": "Present Simple; Past Simple",
+          "s": "Developers and support staff read the release notes. I sent a copy to support yesterday."
+        },
+        {
+          "p": "Should we include migration steps?",
+          "m": "Trả lời yes/no (Should). Nói lý do ngắn. Nói bạn will add steps where.",
+          "h": "Should; because; will",
+          "s": "Yes, we should include migration steps because they help ops. I will add them at the end of the note."
+        },
+        {
+          "p": "Add a short warning for users",
+          "m": "Viết 1 câu cảnh báo (Present Simple). Nói khi nào người dùng sẽ thấy thay đổi (future).",
+          "h": "Present Simple; use will",
+          "s": "Some features may be briefly unavailable during the release. Users will see a short maintenance message."
+        }
+      ]
+    },
+    {
+      "t": "Build thất bại và sửa lỗi",
+      "e": [
+        {
+          "p": "Why did the build fail?",
+          "m": "Nói nguyên nhân ngắn (Past Simple). Nói ai gây ra thay đổi nếu biết. Nói bạn đã làm gì để fix.",
+          "h": "Past Simple; because; then",
+          "s": "The build failed because a dependency was missing. A recent commit changed the config. I restored the correct dependency and rebuilt."
+        },
+        {
+          "p": "Did you run tests locally?",
+          "m": "Trả lời có hay không (Past Simple). Nói bạn đã tìm ra lỗi không. Nói bạn will do gì nếu lỗi vẫn còn.",
+          "h": "Past Simple; will",
+          "s": "Yes, I ran tests locally and I found the failing unit test. I fixed the test. I will run the full suite on CI."
+        },
+        {
+          "p": "Who will merge the fix?",
+          "m": "Nói ai đã chuẩn bị fix (Past Simple). Nói ai sẽ merge (will). Nói bạn will review after merge.",
+          "h": "Past Simple; will; use 'then' or 'and'",
+          "s": "Linh prepared the fix this morning. She will merge the branch after review. I will review the changes then."
+        },
+        {
+          "p": "Should we add a new test for this bug?",
+          "m": "Trả lời yes/no (Should). Nói ngắn vì sao. Nói bạn will write the test or assign.",
+          "h": "Should; because; will",
+          "s": "Yes, we should add a new test because this bug could return. I will write the test or assign it to QA."
+        },
+        {
+          "p": "What is the short action list to recover the build?",
+          "m": "Liệt kê 3 hành động ngắn (mỗi ý 1 câu, Past or will).",
+          "h": "Mix Past Simple and will; keep actions short",
+          "s": "I reverted the bad commit. I fixed the config and ran the build. I will monitor the next builds for stability."
+        }
+      ]
+    },
+    {
+      "t": "Yêu cầu quyền truy cập server",
+      "e": [
+        {
+          "p": "Can I get access to the staging server?",
+          "m": "Nói bạn đã yêu cầu hay chưa (Past Simple). Nói ai đã duyệt hoặc chưa. Nói bạn sẽ làm gì khi có access.",
+          "h": "Past Simple; will; use 'if' or 'when'",
+          "s": "I asked for access yesterday but it is not approved yet. The admin has not reviewed the request. When I get access, I will test deployments."
+        },
+        {
+          "p": "What permissions do you need?",
+          "m": "Liệt kê 2 quyền bạn cần (Present Simple). Nói vì sao ngắn. Nói bạn will not do gì với quyền đó.",
+          "h": "Present Simple; because; use 'not' for restriction",
+          "s": "I need read and deploy permissions. These allow me to run tests and deploy builds. I will not change server configs."
+        },
+        {
+          "p": "Who approves access requests?",
+          "m": "Nói người phê duyệt (Present Simple). Nói bạn đã nói với họ chưa (Past Simple). Nói bạn will remind nếu cần.",
+          "h": "Present Simple; Past Simple; will",
+          "s": "The DevOps manager approves access requests. I told her about my need this morning. I will remind her if there is no reply."
+        },
+        {
+          "p": "Is it safe to share keys?",
+          "m": "Trả lời có hay không (must/should). Nói ngắn vì sao. Nói bạn will do gì để an toàn.",
+          "h": "Should/must; because; will",
+          "s": "No, you must not share keys because they are sensitive. They can give full access. I will use a secure vault to store keys."
+        },
+        {
+          "p": "Tell me the short request message to admin",
+          "m": "Viết 3 câu ngắn cho message: giới thiệu, lý do, yêu cầu hành động (mỗi ý 1 câu).",
+          "h": "Simple present and will; keep polite",
+          "s": "I need staging access to test the new release. This will help us verify the deploy. Please approve my request today."
+        }
+      ]
+    },
+    {
+      "t": "So sánh staging và production",
+      "e": [
+        {
+          "p": "Is staging the same as production?",
+          "m": "Nói giống và khác (2 câu). Nói bạn sẽ làm gì để giảm khác biệt (will).",
+          "h": "Use comparatives; will",
+          "s": "Staging is similar to production in configuration. It is less busy than production and has fewer users. I will sync test data to reduce differences."
+        },
+        {
+          "p": "Which environment is safer for tests?",
+          "m": "Nói môi trường an toàn hơn (comparative). Nói ngắn vì sao. Nói bạn will never test what on production.",
+          "h": "Comparative; because; will not",
+          "s": "Staging is safer than production for tests. It has no real users and less risk. I will never test destructive scripts on production."
+        },
+        {
+          "p": "Did you deploy to staging first?",
+          "m": "Nói bạn đã deploy hay chưa (Past Simple). Nói kết quả ngắn. Nói bạn will deploy to production when what happens.",
+          "h": "Past Simple; will when; use 'if' or 'after'",
+          "s": "I deployed to staging yesterday and tests passed. The build was stable. I will deploy to production after approval."
+        },
+        {
+          "p": "Should we copy production data to staging?",
+          "m": "Trả lời nên hay không (Should). Nói lý do ngắn. Nói bạn will mask gì nếu copy.",
+          "h": "Should; because; will",
+          "s": "Yes, we should copy production data because tests are more realistic. I will mask user personal data first."
+        },
+        {
+          "p": "List two checks to do on staging",
+          "m": "Nêu 2 kiểm tra ngắn (mỗi ý 1 câu). Nói bạn will do after checks.",
+          "h": "Two short Present Simple sentences; will",
+          "s": "Check the login and payment flows. Check error logs for warnings. I will report any issues after these checks."
+        }
+      ]
+    },
+    {
+      "t": "Chạy test tự động",
+      "e": [
+        {
+          "p": "Did the automated tests run?",
+          "m": "Nói đã chạy hay chưa (Past Simple). Nói kết quả chính. Nói bạn will do gì nếu tests fail.",
+          "h": "Past Simple; will; because",
+          "s": "The automated tests ran this morning. Most tests passed but some failed. I will investigate failures and re-run tests."
+        },
+        {
+          "p": "How often do tests run?",
+          "m": "Nói tần suất (Present Simple). Nói bạn đã thay đổi lịch khi nào (Past Simple). Nói bạn will change tần suất nếu cần.",
+          "h": "Present Simple; Past Simple; will",
+          "s": "Tests run on every push and nightly. We changed the schedule last week. I will increase frequency if we have more commits."
+        },
+        {
+          "p": "Which tests are slow?",
+          "m": "Nói test nào chậm (Present Simple). So sánh ngắn với test khác (comparative). Nói bạn will speed up how.",
+          "h": "Present Simple; comparative; will",
+          "s": "Integration tests are slow. They are slower than unit tests. I will parallelize them to speed up execution."
+        },
+        {
+          "p": "Should we skip some tests on quick build?",
+          "m": "Trả lời yes/no (Should). Nói ngắn vì sao. Nói bạn will do what when full build runs.",
+          "h": "Should; because; will",
+          "s": "Yes, we should skip long tests on a quick build to save time. Full nightly builds will run all tests. I will mark slow tests accordingly."
+        },
+        {
+          "p": "Write a short test report line",
+          "m": "Viết 3 câu: kết quả chính, lỗi lớn nhất, hành động tiếp theo (mỗi ý 1 câu).",
+          "h": "Use Past Simple and will; keep it short",
+          "s": "The nightly tests completed with 95% pass rate. The biggest issue was a timeout in integration tests. I will investigate and rerun tonight."
+        }
+      ]
+    },
+    {
+      "t": "Lập kế hoạch CI cho tính năng mới",
+      "e": [
+        {
+          "p": "What steps are in the CI for the new feature?",
+          "m": "Liệt kê 3 bước ngắn (mỗi ý 1 câu, Present Simple or will).",
+          "h": "Present Simple and will; simple verbs",
+          "s": "Run unit tests for the feature. Build the artifact and run integration tests. Deploy to staging for manual checks."
+        },
+        {
+          "p": "Who will review the CI changes?",
+          "m": "Nói ai review (Present Simple). Nói bạn đã yêu cầu review chưa (Past Simple). Nói bạn will remind nếu không có phản hồi.",
+          "h": "Present Simple; Past Simple; will",
+          "s": "The senior dev reviews CI changes. I requested a review yesterday. I will remind them if there is no reply."
+        },
+        {
+          "p": "How long will the new CI take?",
+          "m": "Ước lượng thời gian (will). So sánh ngắn với CI cũ (comparative). Nói bạn will optimize if too long.",
+          "h": "Will; comparative; will",
+          "s": "The new CI will take about 18 minutes. It is longer than the old CI. I will optimize steps to reduce time."
+        },
+        {
+          "p": "Should we run security checks in CI?",
+          "m": "Trả lời yes/no (Should). Nói một lý do. Nói bạn will add which check.",
+          "h": "Should; because; will",
+          "s": "Yes, we should run security checks because they catch vulnerabilities early. I will add a basic vulnerability scan."
+        },
+        {
+          "p": "Describe a short rollback plan for the feature",
+          "m": "Nói 2 bước đã chuẩn bị (Past Simple). Nói bạn will do if the feature fails (will).",
+          "h": "Past Simple; will; short actions",
+          "s": "We created a backup of the previous artifact and a rollback script. We also updated the runbook. If the feature fails, I will run the rollback script."
+        }
+      ]
+    },
+    {
+      "t": "Phối hợp trong team lúc release",
+      "e": [
+        {
+          "p": "Who is on call during release?",
+          "m": "Nói ai on call (Present Simple). Nói bạn đã thông báo cho họ chưa (Past Simple). Nói bạn will contact ai first nếu có issue.",
+          "h": "Present Simple; Past Simple; will",
+          "s": "The DevOps engineer and one developer are on call. I informed them yesterday. I will contact DevOps first if an issue appears."
+        },
+        {
+          "p": "How do you communicate during deploy?",
+          "m": "Nói kênh giao tiếp chính (Present Simple). Nói bạn đã gửi thông báo bắt đầu chưa (Past Simple). Nói bạn will update khi xong.",
+          "h": "Present Simple; Past Simple; will",
+          "s": "We use a chat channel for live updates. I sent the start notice five minutes ago. I will update the channel after the deploy."
+        },
+        {
+          "p": "Should we have a short meeting before release?",
+          "m": "Trả lời nên hay không (Should). Nói lý do ngắn. Nói bạn will prepare gì cho meeting.",
+          "h": "Should; because; will",
+          "s": "Yes, we should have a short meeting to align the team. It prevents mistakes. I will prepare a simple checklist."
+        },
+        {
+          "p": "What do you tell support if users call?",
+          "m": "Viết 2 câu: tóm tắt trạng thái hiện tại, hướng dẫn ngắn cho support (mỗi ý 1 câu).",
+          "h": "Present Simple; use 'so' or 'and'",
+          "s": "The system is currently in a safe state after rollback. Tell users we are fixing the issue and will update soon."
+        },
+        {
+          "p": "List two post-release tasks",
+          "m": "Nêu 2 việc cần làm sau release (mỗi ý 1 câu). Nói bạn will do gì with reports.",
+          "h": "Two Present Simple sentences; will",
+          "s": "Monitor logs for errors. Collect user feedback for the new feature. I will compile a short report after these tasks."
+        }
+      ]
+    },
+    {
+      "t": "Kiểm tra artifact và lưu trữ",
+      "e": [
+        {
+          "p": "Where is the build artifact stored?",
+          "m": "Nói nơi lưu trữ (Present Simple). Nói bạn đã upload chưa (Past Simple). Nói bạn will check checksum.",
+          "h": "Present/Past Simple; will",
+          "s": "The artifact is stored in the artifact registry. I uploaded it after the build. I will check the checksum for integrity."
+        },
+        {
+          "p": "Did the artifact size change?",
+          "m": "Nói có thay đổi không (Past Simple). Nói ngắn lý do nếu có. Nói bạn will compare with previous.",
+          "h": "Past Simple; because; will",
+          "s": "Yes, the artifact size increased yesterday. It changed because we added images. I will compare it with the previous build."
+        },
+        {
+          "p": "Should we keep old artifacts?",
+          "m": "Trả lời yes/no (Should). Nói lý do ngắn. Nói bạn will keep how many versions.",
+          "h": "Should; because; will",
+          "s": "Yes, we should keep old artifacts for rollback. They allow quick recovery. I will keep the last three versions."
+        },
+        {
+          "p": "Who can access the artifact registry?",
+          "m": "Nói ai có quyền (Present Simple). Nói bạn đã grant quyền cho ai (Past Simple). Nói bạn will revoke nếu cần.",
+          "h": "Present Simple; Past Simple; will",
+          "s": "The build server and DevOps team can access the registry. I granted access to the build server yesterday. I will revoke unused keys if found."
+        },
+        {
+          "p": "Write a short note about artifact integrity",
+          "m": "Viết 3 câu: kết quả kiểm tra, hành động đã làm, hành động tiếp theo (mỗi ý 1 câu).",
+          "h": "Past Simple and will; keep concise",
+          "s": "Checksum matched the stored artifact. I uploaded a verified copy to the registry. I will schedule daily integrity checks."
+        }
+      ]
+    },
+    {
+      "t": "Theo dõi và cảnh báo sau release",
+      "e": [
+        {
+          "p": "Are alerts active now?",
+          "m": "Nói alerts có active hay không (Present Simple). Nói bạn đã kiểm tra khi nào (Past Simple). Nói bạn will watch which metric.",
+          "h": "Present/Past Simple; will",
+          "s": "Alerts are active now. I checked them this morning. I will watch error rate and latency."
+        },
+        {
+          "p": "What metric increased after release?",
+          "m": "Nói metric tăng (Past Simple). Nói mức độ so với trước (comparative). Nói bạn will do gì to investigate.",
+          "h": "Past Simple; comparative; will",
+          "s": "Error rate increased after the release. It is higher than last week. I will check logs and recent commits."
+        },
+        {
+          "p": "Who gets alert notifications?",
+          "m": "Nói ai nhận (Present Simple). Nói bạn đã add ai mới không (Past Simple). Nói bạn will update list if needed.",
+          "h": "Present Simple; Past Simple; will",
+          "s": "On-call engineers and support get alert notifications. I added the new engineer yesterday. I will update the list if shifts change."
+        },
+        {
+          "p": "Should we lower the alert threshold?",
+          "m": "Trả lời yes/no (Should). Nói lý do ngắn. Nói bạn will change threshold to what.",
+          "h": "Should; because; will",
+          "s": "No, we should not lower the threshold now because it may cause noise. We need clear alerts. I will review thresholds after more data."
+        },
+        {
+          "p": "Write a short monitoring note for the team",
+          "m": "Viết 3 câu: tình trạng hiện tại, hành động đã làm, hành động tiếp theo (mỗi ý 1 câu).",
+          "h": "Present and Past Simple; will",
+          "s": "Monitoring shows a small spike in latency. I restarted one service and reduced load. I will continue to monitor and report any change."
+        }
+      ]
+    },
+    {
+      "t": "Ghi nhận và học từ sự cố release",
+      "e": [
+        {
+          "p": "What went wrong in this release?",
+          "m": "Nêu lỗi chính (Past Simple). Nói nguyên nhân ngắn (because). Nói bạn đã làm để khắc phục.",
+          "h": "Past Simple; because; then",
+          "s": "A config mismatch caused failures. It happened because the new config was not merged. Then we fixed the config and redeployed."
+        },
+        {
+          "p": "What is one lesson learned?",
+          "m": "Nói một bài học (Present Simple). Nói vì sao nó quan trọng. Nói bạn will change gì theo lesson.",
+          "h": "Present Simple; because; will",
+          "s": "We learn to always validate configs before release because it prevents downtime. I will add a config check to the pipeline."
+        },
+        {
+          "p": "Who will write the post-mortem?",
+          "m": "Nói ai sẽ viết (will). Nói bạn đã thu thập thông tin gì (Past Simple). Nói bạn will share report với ai.",
+          "h": "Will; Past Simple; will",
+          "s": "The tech lead will write the post-mortem. I collected logs and timelines. I will share the report with the whole team."
+        },
+        {
+          "p": "Should we change the release process?",
+          "m": "Trả lời yes/no (Should). Nói ngắn thay đổi chính. Nói bạn will help implement gì.",
+          "h": "Should; because; will",
+          "s": "Yes, we should improve the release checklist because it missed a config step. I will help add automated checks."
+        },
+        {
+          "p": "Make a short improvement plan",
+          "m": "Viết 3 hành động ngắn: việc đã xong, việc cần làm, việc bạn will follow up (mỗi ý 1 câu).",
+          "h": "Mix Past Simple and will; concise",
+          "s": "We fixed the immediate error and restored service. We need to add config validation to CI. I will follow up and confirm the change next week."
+        }
+      ]
+    },
+    {
+      "t": "Ôn tập: Kịch bản release",
+      "e": [
+        {
+          "p": "Summarize the release steps we used.",
+          "m": "Nêu 3 bước chính theo thứ tự (mỗi ý 1 câu, Past Simple or then).",
+          "h": "Past Simple; use then for sequence",
+          "s": "We ran automated tests first. Then we built and uploaded the artifact. Finally, we deployed to staging and monitored results."
+        },
+        {
+          "p": "Who did each task during the release?",
+          "m": "Liệt kê 3 nhiệm vụ và người thực hiện (mỗi ý 1 câu, Past Simple).",
+          "h": "Past Simple; short names or roles",
+          "s": "Tom ran the tests and fixed small issues. Anna built and uploaded the artifact. DevOps deployed to staging."
+        },
+        {
+          "p": "What checks prevented a bad release?",
+          "m": "Nêu 2 kiểm tra đã làm (mỗi ý 1 câu). Nói bạn will keep gì.",
+          "h": "Present/Past Simple; will",
+          "s": "Unit and integration tests caught major errors. Manual smoke tests checked user flows. I will keep these checks in the pipeline."
+        },
+        {
+          "p": "Should we change the release time?",
+          "m": "Trả lời yes/no (Should). Nói lý do ngắn. Nói bạn will do if change.",
+          "h": "Should; because; will",
+          "s": "No, we should not change the release time because traffic is low now. The current window is safe. I will keep the schedule."
+        },
+        {
+          "p": "Write a short checklist line for future releases",
+          "m": "Viết 3 mục ngắn: kiểm tra, thông báo, deploy (mỗi ý 1 câu).",
+          "h": "Imperative or Present Simple; concise",
+          "s": "Check tests and configs. Notify the team and support. Deploy to staging and monitor."
+        }
+      ]
+    },
+    {
+      "t": "Ôn tập: Xử lý sự cố",
+      "e": [
+        {
+          "p": "Give a short report of the recent incident.",
+          "m": "Nói sự cố là gì (Past Simple). Nói hành động đã làm (Past Simple). Nói hiện trạng now (Present Simple).",
+          "h": "Past and Present Simple; keep clear",
+          "s": "A critical API failed after release. We rolled back to the previous build and restarted services. The system is stable now."
+        },
+        {
+          "p": "Who fixed the bug and how long?",
+          "m": "Nói ai fix (Past Simple). Nói mất bao lâu (Past Simple). Nói bạn will record time for future.",
+          "h": "Past Simple; will",
+          "s": "Linh fixed the bug and it took two hours. She reverted the bad commit and patched the code. I will record the time in the incident log."
+        },
+        {
+          "p": "What immediate steps stopped the issue?",
+          "m": "Liệt kê 2 hành động đã làm (mỗi ý 1 câu). Nói bước tiếp theo will be.",
+          "h": "Past Simple; will",
+          "s": "We disabled the new feature and restored the backup. We cleared the error queue. We will monitor for recurrence."
+        },
+        {
+          "p": "Should we inform customers?",
+          "m": "Trả lời yes/no (Should). Nói ngắn nội dung thông báo. Nói bạn will who to contact.",
+          "h": "Should; because; will",
+          "s": "Yes, we should inform customers because some cannot use the service. Send a short note about maintenance and fix. I will contact support to send the message."
+        },
+        {
+          "p": "Write a short lesson learned line",
+          "m": "Viết 3 câu: bài học, hành động đã thêm, bạn will follow up (mỗi ý 1 câu).",
+          "h": "Present Simple and will; concise",
+          "s": "Always validate configs before release. We added a config check to the pipeline. I will review the new check next week."
+        }
+      ]
+    },
+    {
+      "t": "Ôn tập: Lên lịch và thông báo",
+      "e": [
+        {
+          "p": "What time did we schedule the last release?",
+          "m": "Nói thời gian (Past Simple). Nói lý do chọn thời gian (because). Nói bạn will keep or change it.",
+          "h": "Past Simple; because; will",
+          "s": "We scheduled the last release at 10 pm on Friday. We chose that time because user traffic is low. I will keep the schedule for next releases."
+        },
+        {
+          "p": "Who must be informed before release?",
+          "m": "Liệt kê 3 người/nhóm (mỗi ý 1 câu, Present Simple).",
+          "h": "Present Simple; short roles",
+          "s": "The QA team must be informed. Support staff must be informed. The product manager must be informed."
+        },
+        {
+          "p": "Did you send the reminder?",
+          "m": "Nói đã gửi hay chưa (Past Simple). Nói hình thức gửi (email/chat). Nói bạn will send again when.",
+          "h": "Past Simple; will",
+          "s": "I sent the reminder by chat earlier today. I also emailed the team. I will send another reminder one hour before release."
+        },
+        {
+          "p": "Should we announce maintenance to users?",
+          "m": "Trả lời yes/no (Should). Nói ngắn nội dung thông báo. Nói bạn will post ở đâu.",
+          "h": "Should; because; will",
+          "s": "Yes, we should announce maintenance because users need notice. Say the time and expected downtime. I will post it on the website and social channels."
+        },
+        {
+          "p": "Create a 3-line announcement for users",
+          "m": "Viết 3 câu ngắn: thời gian, ảnh hưởng, liên hệ hỗ trợ (mỗi ý 1 câu).",
+          "h": "Present Simple; keep polite and short",
+          "s": "We will deploy a release on Friday at 10 pm. Some features may be briefly unavailable during maintenance. Contact support if you have issues."
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,530 @@
+{
+  "l": 3,
+  "d": [
+    {
+      "t": "Mua đồ ở cửa hàng",
+      "e": [
+        {
+          "p": "How much is this?",
+          "m": "Nói rõ giá của món hàng. Nói bạn sẽ trả bằng cách nào (cash/card).",
+          "h": "Use 'It is ...' and 'I will pay ...' hoặc 'I am paying ...'.",
+          "s": "It is five dollars. I will pay in cash."
+        },
+        {
+          "p": "Do you have change for ten?",
+          "m": "Nói là có hoặc không. Nếu không có, đề nghị một giải pháp thay thế.",
+          "h": "Use 'Yes, I have' or 'No, I do not' + offer 'I can ...'.",
+          "s": "Yes, I have a five and five ones. I can give you exact change."
+        },
+        {
+          "p": "Can I get a receipt for my items?",
+          "m": "Nói là có thể hoặc không. Nói cách bạn sẽ giao biên lai (paper/email).",
+          "h": "Use 'Here is' hoặc 'I will email' + object.",
+          "s": "Here is your paper receipt. I can also email a copy if you want."
+        },
+        {
+          "p": "The price on the tag is $20 but the cashier says $18.",
+          "m": "Nói bạn tin vào giá nào. Nói bạn sẽ làm gì tiếp theo (trả theo giá nào hoặc hỏi thêm).",
+          "h": "Use comparative or 'I will' to state action.",
+          "s": "I trust the cashier price because systems are updated more often. I will pay eighteen dollars now."
+        },
+        {
+          "p": "Do you prefer to pay by card or cash when you shop?",
+          "m": "Nói sở thích của bạn (card/cash). Nêu một lý do ngắn.",
+          "h": "Use 'I prefer ... because ...'.",
+          "s": "I prefer card because it is more convenient. It also helps me track spending."
+        }
+      ]
+    },
+    {
+      "t": "Thanh toán tại quầy",
+      "e": [
+        {
+          "p": "Will you use credit or debit?",
+          "m": "Nói loại thẻ bạn dùng. Nói một lý do ngắn vì sao.",
+          "h": "Use 'I will use ...' and 'because ...'.",
+          "s": "I will use debit. It is easier to manage my money."
+        },
+        {
+          "p": "Your card was declined. What happened?",
+          "m": "Giải thích một lý do có thể (insufficient funds, wrong pin). Nói bạn sẽ làm gì tiếp theo.",
+          "h": "Use Past Simple or 'I will' for next action.",
+          "s": "My card was declined because I had low balance. I will pay in cash now."
+        },
+        {
+          "p": "Do you want to add a tip?",
+          "m": "Nói có hoặc không. Nếu có, nói số tiền tip.",
+          "h": "Use 'Yes, I will' or 'No, I will not' + amount.",
+          "s": "Yes, I will add two dollars. It is fair for good service."
+        },
+        {
+          "p": "Can I split the bill with my friend?",
+          "m": "Nói có thể hay không. Nếu có, nói cách chia (equal or by item).",
+          "h": "Use 'Yes, you can' and 'we will split ...' or 'by items'.",
+          "s": "Yes, you can split the bill equally. Each person will pay half."
+        },
+        {
+          "p": "The cashier asks if you want to join a loyalty program.",
+          "m": "Nói bạn tham gia hay không. Nêu một lý do.",
+          "h": "Use 'I will join' or 'I will not join' + because.",
+          "s": "I will join because I like discounts. It will help me save money."
+        }
+      ]
+    },
+    {
+      "t": "Rút tiền tại ATM",
+      "e": [
+        {
+          "p": "How much would you like to withdraw?",
+          "m": "Nói số tiền bạn muốn rút. Nói loại tiền (dollars).",
+          "h": "Use 'I would like to withdraw ...' or 'I want ...'.",
+          "s": "I would like to withdraw fifty dollars. I need cash for the taxi."
+        },
+        {
+          "p": "Do you want a receipt after withdrawal?",
+          "m": "Nói có hoặc không. Nếu có, nêu lý do ngắn.",
+          "h": "Use 'Yes, please' or 'No, thank you' + reason.",
+          "s": "Yes, please because I want to check my balance. It helps me keep records."
+        },
+        {
+          "p": "The ATM asks for your PIN and then says transaction failed.",
+          "m": "Nói bạn đã làm gì trước khi thất bại (entered PIN). Nói bạn sẽ làm gì sau đó.",
+          "h": "Use Past Simple for action and 'I will' for next step.",
+          "s": "I entered my PIN but the transaction failed. I will go to the bank office for help."
+        },
+        {
+          "p": "There is a fee for using this ATM. Do you agree?",
+          "m": "Nói bạn đồng ý hay không. Nếu không, nêu lựa chọn khác.",
+          "h": "Use 'I agree' or 'I do not agree' + 'I will ...'.",
+          "s": "I do not agree because the fee is high. I will find a free ATM nearby."
+        },
+        {
+          "p": "Would you like to check your balance first?",
+          "m": "Nói có hoặc không. Nếu có, nói lý do ngắn.",
+          "h": "Use 'Yes, I would' or 'No, I would not' + reason.",
+          "s": "Yes, I would like to check my balance. I want to be sure before I withdraw."
+        }
+      ]
+    },
+    {
+      "t": "Gửi và rút tiền ở ngân hàng",
+      "e": [
+        {
+          "p": "I want to deposit this cash to my account.",
+          "m": "Xác nhận bạn có thể làm điều đó hay không. Nếu có, nói thời gian xử lý ngắn.",
+          "h": "Use 'Yes, you can' and 'It will take ...' or 'It is immediate'.",
+          "s": "Yes, you can deposit cash at the counter. It is immediate in your account."
+        },
+        {
+          "p": "Can I open a savings account today?",
+          "m": "Nói có thể hay không. Nêu tài liệu cần mang theo.",
+          "h": "Use 'You need' + documents and 'Yes' or 'No'.",
+          "s": "Yes, you can open a savings account today. You need an ID and proof of address."
+        },
+        {
+          "p": "I'd like to withdraw a large amount. Is there a limit?",
+          "m": "Nói về giới hạn thường gặp. Nói bạn phải làm gì nếu vượt giới hạn.",
+          "h": "Use 'There is/are' and 'You must ...' or 'You will need ...'.",
+          "s": "There is a daily limit for withdrawals in the account. You will need to request a teller for larger amounts."
+        },
+        {
+          "p": "The teller asks if you want to set up automatic payments.",
+          "m": "Nói bạn đồng ý hay không. Nêu một lợi ích hoặc lý do từ chối.",
+          "h": "Use 'I will' or 'I will not' + because.",
+          "s": "I will set up automatic payments because it is easier. It helps me pay bills on time."
+        },
+        {
+          "p": "The bank offers a small fee for cash handling. Do you accept?",
+          "m": "Nói bạn chấp nhận hay không. Nêu một hành động tiếp theo.",
+          "h": "Use 'I accept' or 'I do not accept' and 'I will ...'.",
+          "s": "I do not accept the fee because I want free service. I will ask for alternatives."
+        }
+      ]
+    },
+    {
+      "t": "Lập ngân sách cá nhân",
+      "e": [
+        {
+          "p": "How much do you earn each month?",
+          "m": "Nói tổng thu nhập hàng tháng. Nói bạn sẽ tiết kiệm bao nhiêu mỗi tháng.",
+          "h": "Use Present Simple: 'I earn ...' and 'I save ...'.",
+          "s": "I earn five hundred dollars each month. I save one hundred dollars every month."
+        },
+        {
+          "p": "You have bills and want to plan spending. What will you pay first?",
+          "m": "Nêu một khoản ưu tiên (rent/bills). Nói một lý do ngắn.",
+          "h": "Use 'I will pay ... first because ...'.",
+          "s": "I will pay rent first because it is essential. Then I will pay utilities."
+        },
+        {
+          "p": "Do you track daily expenses?",
+          "m": "Nói bạn có hoặc không. Nếu có, nói cách bạn theo dõi (app/note).",
+          "h": "Use 'Yes, I do' or 'No, I do not' + method.",
+          "s": "Yes, I do track expenses with a phone app. It helps me see where money goes."
+        },
+        {
+          "p": "A friend says you should save more. How do you respond?",
+          "m": "Đồng ý hoặc không. Nêu một thay đổi bạn sẽ làm.",
+          "h": "Use 'I should' or 'I will' + action.",
+          "s": "I agree I should save more. I will cut small purchases this month."
+        },
+        {
+          "p": "You compare two budgets and one is more flexible. Which do you choose?",
+          "m": "Nói lựa chọn của bạn (flexible or strict). Nêu lý do ngắn.",
+          "h": "Use comparatives: 'more ... than' and 'because'.",
+          "s": "I choose the more flexible budget because it fits my irregular income. It allows small treats."
+        }
+      ]
+    },
+    {
+      "t": "Tiết kiệm cho mục tiêu",
+      "e": [
+        {
+          "p": "I want to save for a new phone. How much will you save weekly?",
+          "m": "Nói số tiền bạn sẽ để dành mỗi tuần. Nói trong bao lâu để đạt mục tiêu.",
+          "h": "Use 'I will save ... per week' and 'in ... weeks/months'.",
+          "s": "I will save ten dollars per week. I will reach my goal in four months."
+        },
+        {
+          "p": "A sale is coming but you are saving. Will you buy now?",
+          "m": "Nói bạn sẽ mua hay không. Nêu lý do liên quan đến mục tiêu tiết kiệm.",
+          "h": "Use 'I will' or 'I will not' + because.",
+          "s": "I will not buy now because I am saving for the phone. The sale can wait next time."
+        },
+        {
+          "p": "Do you put money in a jar or a bank for saving?",
+          "m": "Nói bạn chọn phương pháp nào. Nêu một lợi ích của phương pháp đó.",
+          "h": "Use 'I put money in ... because ...'.",
+          "s": "I put money in a bank because it is safer. I also earn small interest."
+        },
+        {
+          "p": "You reach half of your goal. What will you do next?",
+          "m": "Nói hành động tiếp theo (continue/save more). Nêu một điều chỉnh nếu cần.",
+          "h": "Use 'I will continue' or 'I will increase' + amount.",
+          "s": "I will continue saving the same amount. If needed, I will save a little more each week."
+        },
+        {
+          "p": "A friend offers to lend you money to buy the phone now.",
+          "m": "Nói bạn có chấp nhận hay không. Nêu một điều kiện nếu bạn chấp nhận.",
+          "h": "Use 'I will not accept' or 'I will accept if ...'.",
+          "s": "I will not accept the loan because I prefer to save myself. It keeps me independent."
+        }
+      ]
+    },
+    {
+      "t": "So sánh giá và lựa chọn",
+      "e": [
+        {
+          "p": "This shop sells the shirt for $30 and that shop for $25. Which do you pick?",
+          "m": "Nói bạn chọn cửa hàng nào. Nêu lý do ngắn (cheaper/more convenient).",
+          "h": "Use comparatives: 'cheaper' or 'more ... than'.",
+          "s": "I pick the shop that sells it for twenty five dollars. It is cheaper than the other shop."
+        },
+        {
+          "p": "One product lasts longer but costs more. Which is better?",
+          "m": "Nêu lựa chọn của bạn. Nói một lợi ích của lựa chọn đó.",
+          "h": "Use 'better' and 'because ...' or 'more ... than'.",
+          "s": "The product that lasts longer is better because it saves money over time. It is more useful than the cheap one."
+        },
+        {
+          "p": "You compare two phones: one has a better camera, the other is cheaper.",
+          "m": "Nói bạn chọn loại nào. Nêu một lý do ngắn.",
+          "h": "Use 'I prefer ... because ...'.",
+          "s": "I prefer the phone with a better camera because I take many photos. It matters more to me than price."
+        },
+        {
+          "p": "A store offers free delivery but another has a small discount. What do you do?",
+          "m": "Nói bạn chọn ưu đãi nào. Nêu lí do liên quan đến tổng chi phí.",
+          "h": "Use 'I choose ... because ...' and compare totals.",
+          "s": "I choose the free delivery because it lowers total cost for me. It is more convenient and saves money."
+        },
+        {
+          "p": "You see two similar items and one is 'best value'. What does that mean to you?",
+          "m": "Giải thích ngắn 'best value'. Nói nếu bạn sẽ mua và vì sao.",
+          "h": "Use 'best value means ...' and 'I will' or 'I will not'.",
+          "s": "Best value means good quality for the price. I will buy it if it fits my budget."
+        }
+      ]
+    },
+    {
+      "t": "Mượn và cho vay tiền với bạn bè",
+      "e": [
+        {
+          "p": "Can I borrow ten dollars?",
+          "m": "Nói có thể cho mượn hay không. Nói khi nào bạn muốn được trả lại.",
+          "h": "Use 'Yes, you can' or 'No, I cannot' and 'Please pay back ...'.",
+          "s": "Yes, you can borrow ten dollars. Please pay me back next week."
+        },
+        {
+          "p": "A friend asks you to lend money without a date to pay back.",
+          "m": "Nói bạn sẽ làm gì. Nếu cho, nêu điều kiện ngắn (time).",
+          "h": "Use 'I will' or 'I will not' and 'if ...'.",
+          "s": "I will lend the money if we agree a return date. I need a clear time to get it back."
+        },
+        {
+          "p": "You borrowed money and forgot to pay back. Your friend asks politely.",
+          "m": "Xin lỗi và nói khi bạn sẽ trả. Dùng câu đơn giản.",
+          "h": "Use Past Simple for apology and 'I will' for plan.",
+          "s": "I am sorry I forgot to pay you back. I will return the money tomorrow."
+        },
+        {
+          "p": "Is it better to borrow from a friend or a bank?",
+          "m": "Nói lựa chọn của bạn. Nêu một lý do ngắn.",
+          "h": "Use 'I prefer ... because ...' and simple comparison.",
+          "s": "I prefer borrowing from a bank because terms are clear. It is more formal than friends."
+        },
+        {
+          "p": "Your friend asks you to lend money for a long time. You feel worried.",
+          "m": "Nói lịch sự từ chối hoặc đề xuất một giới hạn. Nêu lý do ngắn.",
+          "h": "Use 'I am sorry, I cannot' or 'I can lend ...' + reason.",
+          "s": "I am sorry, I cannot lend money for so long. I can lend a small amount for one month."
+        }
+      ]
+    },
+    {
+      "t": "Hóa đơn và thanh toán hàng tháng",
+      "e": [
+        {
+          "p": "When is your electricity bill due?",
+          "m": "Nói ngày hạn hoặc khoảng thời gian. Nói bạn sẽ thanh toán bằng cách nào.",
+          "h": "Use Present Simple for schedule and 'I will pay by ...'.",
+          "s": "My electricity bill is due on the fifteenth. I will pay by bank transfer."
+        },
+        {
+          "p": "You forgot to pay the internet bill and now there is a late fee.",
+          "m": "Xin lỗi ngắn và nói bạn sẽ làm gì để trả. Nói nếu bạn sẽ hỏi miễn phí.",
+          "h": "Use Past Simple for forgetting and 'I will' for next action.",
+          "s": "I am sorry I forgot the payment. I will pay now and ask if they can waive the fee."
+        },
+        {
+          "p": "The company offers automatic bill pay every month. Do you accept?",
+          "m": "Nói có hoặc không. Nêu một lợi ích hoặc lý do từ chối.",
+          "h": "Use 'I will' or 'I will not' + reason.",
+          "s": "I will accept automatic bill pay because it is convenient. It helps avoid late fees."
+        },
+        {
+          "p": "Your water bill is higher this month. What will you say to customer service?",
+          "m": "Hỏi lý do tăng. Nói bạn muốn họ kiểm tra hóa đơn.",
+          "h": "Use 'Why is ...' and 'Please check ...'.",
+          "s": "Why is my water bill higher this month? Please check my account and explain the charges."
+        },
+        {
+          "p": "You want to split monthly utilities with a roommate.",
+          "m": "Đề xuất cách chia (equal or by use). Nêu khi nào sẽ thanh toán.",
+          "h": "Use 'Let's split ...' and 'We will pay ...'.",
+          "s": "Let us split utilities equally each month. We will pay by the fifth."
+        }
+      ]
+    },
+    {
+      "t": "Giảm giá và khuyến mãi",
+      "e": [
+        {
+          "p": "Is this item on sale?",
+          "m": "Trả lời có hoặc không. Nêu mức giảm ngắn (percent or dollars).",
+          "h": "Use 'Yes, it is' or 'No, it is not' and show amount.",
+          "s": "Yes, it is on sale. It is twenty percent off."
+        },
+        {
+          "p": "A sign says 'Buy one get one free.' Do you want both?",
+          "m": "Nói bạn có mua hay không. Nêu nếu bạn chỉ muốn một cái, bạn sẽ làm gì.",
+          "h": "Use 'I will' or 'I will not' and 'I will buy ...'.",
+          "s": "I will buy both because it is a good deal. I will keep one and give one to a friend."
+        },
+        {
+          "p": "The discount code does not work online. What will you do?",
+          "m": "Nói hành động bạn sẽ làm (contact support/try again). Nêu bạn sẽ nói gì ngắn.",
+          "h": "Use 'I will contact' and simple explanation.",
+          "s": "I will contact customer support for help. I will explain that the discount code does not work."
+        },
+        {
+          "p": "You see two discounts but cannot use both. Which do you choose?",
+          "m": "Chọn một ưu đãi. Nêu lý do ngắn (bigger saving).",
+          "h": "Use 'I choose ... because ...' and compare amounts.",
+          "s": "I choose the ten dollar discount because it saves more for this item. It is better than a small percent off."
+        },
+        {
+          "p": "A product is cheaper but has no warranty. The other is dearer with a warranty.",
+          "m": "Nói bạn chọn sản phẩm nào. Nêu một lý do ngắn liên quan đến rủi ro.",
+          "h": "Use 'I prefer ... because ...' and risk word 'warranty'.",
+          "s": "I prefer the product with a warranty because it reduces risk. It is worth the extra cost."
+        }
+      ]
+    },
+    {
+      "t": "Nhận lương và chi tiêu",
+      "e": [
+        {
+          "p": "When do you get paid?",
+          "m": "Nói ngày hoặc tần suất (weekly/monthly). Nói bạn làm gì ngay sau khi nhận lương.",
+          "h": "Use Present Simple: 'I get paid ...' and 'I usually ...'.",
+          "s": "I get paid monthly on the first. I usually save part of it right away."
+        },
+        {
+          "p": "You want to save part of your salary. How much will you set aside?",
+          "m": "Nói phần trăm hoặc số tiền cụ thể. Nói bạn dùng phần còn lại cho gì.",
+          "h": "Use 'I will save ...' and 'I will use the rest for ...'.",
+          "s": "I will save twenty percent of my salary. I will use the rest for rent and food."
+        },
+        {
+          "p": "Your boss offers a small raise. You are happy but need to decide.",
+          "m": "Nói bạn sẽ làm gì với tiền tăng thêm. Nêu một kế hoạch ngắn.",
+          "h": "Use 'I will' + plan and 'to ...'.",
+          "s": "I will put the raise into savings to build an emergency fund. It will help me later."
+        },
+        {
+          "p": "You received your first paycheck and noticed a deduction you do not understand.",
+          "m": "Yêu cầu giải thích ngắn. Nói bạn muốn được liên hệ khi có câu trả lời.",
+          "h": "Use 'Please explain ...' and 'Contact me ...'.",
+          "s": "Please explain this deduction on my paycheck. Contact me if you need more information."
+        },
+        {
+          "p": "A friend says you should invest your salary. You are not sure.",
+          "m": "Nói bạn sẽ làm gì (learn more/try small). Nêu một bước cụ thể.",
+          "h": "Use 'I will' + step (learn/try) and 'first'.",
+          "s": "I will learn more about simple investments first. I will try a small amount if I understand it."
+        }
+      ]
+    },
+    {
+      "t": "Quỹ khẩn cấp",
+      "e": [
+        {
+          "p": "Do you have an emergency fund?",
+          "m": "Nói có hoặc không. Nêu một lý do ngắn cho tình trạng đó.",
+          "h": "Use 'Yes, I have' or 'No, I do not' + reason.",
+          "s": "No, I do not have an emergency fund yet. I am saving slowly each month."
+        },
+        {
+          "p": "How many months of expenses should you save?",
+          "m": "Nêu một con số đơn giản (1-3). Nói bạn sẽ bắt đầu như thế nào.",
+          "h": "Use numbers and 'I will start by ...'.",
+          "s": "I will save one month of expenses to start. I will save a small amount every week."
+        },
+        {
+          "p": "An unexpected bill appears. How will you pay it?",
+          "m": "Nói cách bạn sẽ trả (use savings/personal loan). Nói kế hoạch trả lại nếu vay.",
+          "h": "Use 'I will use ...' and 'I will pay back ...'.",
+          "s": "I will use my savings to pay the bill. If I borrow I will pay back within one month."
+        },
+        {
+          "p": "Someone says you must have a separate account for emergencies.",
+          "m": "Đồng ý hoặc không. Nêu một lợi ích hoặc khó khăn ngắn.",
+          "h": "Use 'I agree' or 'I do not agree' + because.",
+          "s": "I agree because a separate account stops me from spending it. It is easier to track."
+        },
+        {
+          "p": "You reach your emergency goal. What will you do next?",
+          "m": "Nói kế hoạch tiếp theo (save more/invest/keep same). Nêu lý do ngắn.",
+          "h": "Use 'I will' + next action and 'because ...'.",
+          "s": "I will keep saving for other goals because safety is important. Then I may invest a small amount."
+        }
+      ]
+    },
+    {
+      "t": "Ôn tập: Mua sắm và thanh toán",
+      "e": [
+        {
+          "p": "At checkout, the cashier says the total is $42.50. How will you pay?",
+          "m": "Nói cách bạn sẽ trả (cash/card). Nói nếu cần nhận lại tiền thừa hoặc biên lai.",
+          "h": "Use 'I will pay ...' and 'Please give ...' or 'Please email ...'.",
+          "s": "I will pay by card. Please email me the receipt."
+        },
+        {
+          "p": "You see two shops with different prices for the same item. What do you do?",
+          "m": "Nói bạn sẽ chọn cửa hàng nào. Nêu lý do liên quan đến giá hoặc dịch vụ.",
+          "h": "Use 'I will choose ... because ...' and comparative words.",
+          "s": "I will choose the cheaper shop because it saves money. The price difference is important."
+        },
+        {
+          "p": "Your card failed at the store and you need cash. What will you say to the cashier?",
+          "m": "Giải thích ngắn tại sao. Nói bạn sẽ làm gì (go to ATM/pay later).",
+          "h": "Use Past Simple for failure and 'I will' for solution.",
+          "s": "My card failed because my balance is low. I will go to an ATM and pay now."
+        },
+        {
+          "p": "You bought two items but only one is on sale. How do you ask the cashier to apply the discount?",
+          "m": "Yêu cầu áp dụng giảm giá cho món đúng. Nói bạn muốn nhân viên kiểm tra giá.",
+          "h": "Use 'Please apply ...' and 'Can you check ...'.",
+          "s": "Please apply the sale price to the item on discount. Can you check the price tag, please?"
+        },
+        {
+          "p": "A small shop asks if you want to round up your payment to donate. Do you agree?",
+          "m": "Nói có hoặc không. Nêu lý do ngắn.",
+          "h": "Use 'I will' or 'I will not' + because.",
+          "s": "I will agree to round up because it helps a local cause. It is only a small amount."
+        }
+      ]
+    },
+    {
+      "t": "Ôn tập: Tiết kiệm và vay mượn",
+      "e": [
+        {
+          "p": "You plan to save $300 for a course. How will you reach this?",
+          "m": "Nói bạn sẽ tiết kiệm bao nhiêu mỗi tuần. Nói trong bao lâu sẽ hoàn thành.",
+          "h": "Use 'I will save ... per week' and time expression.",
+          "s": "I will save twenty five dollars per week. I will finish in twelve weeks."
+        },
+        {
+          "p": "A friend asks to borrow $50 and will pay next month. What will you say?",
+          "m": "Đồng ý hay không. Nói nếu đồng ý, nêu điều kiện ngắn về thời hạn.",
+          "h": "Use 'I will lend ... if ...' or 'I cannot' + reason.",
+          "s": "I will lend fifty dollars if you pay me back next month. I need the date for agreement."
+        },
+        {
+          "p": "You want to start an emergency fund but have little money.",
+          "m": "Nói một bước đầu bạn sẽ làm. Nêu số tiền nhỏ bạn sẽ để dành mỗi lần.",
+          "h": "Use 'I will start by ...' and 'I will save ... each ...'.",
+          "s": "I will start by saving a small amount each week. I will save five dollars every week."
+        },
+        {
+          "p": "Someone suggests borrowing for a holiday. You worry about repayment.",
+          "m": "Nói bạn sẽ làm gì (not borrow/plan repayment). Nêu một điều kiện nếu vay.",
+          "h": "Use 'I will not borrow' or 'I will borrow if ...' + condition.",
+          "s": "I will not borrow for a holiday because I worry about repayment. I will wait and save instead."
+        },
+        {
+          "p": "You lend money and the friend thanks you. How do you respond about repayment?",
+          "m": "Nhắc lịch trả một cách lịch sự. Nói ngày hoặc khoảng thời gian ngắn.",
+          "h": "Use 'Please pay me back by ...' or 'Please return by ...'.",
+          "s": "Please pay me back by the first of next month. Thank you for understanding."
+        }
+      ]
+    },
+    {
+      "t": "Ôn tập: Ngân hàng và tiền mặt",
+      "e": [
+        {
+          "p": "You need to open an account. The banker asks for ID. What will you say?",
+          "m": "Xác nhận bạn có ID. Nói loại giấy tờ bạn mang theo.",
+          "h": "Use 'Yes, I have' and list documents with 'and'.",
+          "s": "Yes, I have an ID and proof of address. I brought my passport and a utility bill."
+        },
+        {
+          "p": "Your bank offers automatic savings transfer each payday. Do you accept?",
+          "m": "Nói đồng ý hay không. Nêu một lợi ích ngắn nếu đồng ý.",
+          "h": "Use 'I will' or 'I will not' + because.",
+          "s": "I will accept automatic transfer because it helps me save regularly. It is simple to use."
+        },
+        {
+          "p": "You notice an unexpected withdrawal from your account. What do you do?",
+          "m": "Yêu cầu ngân hàng kiểm tra. Nêu bạn muốn hoàn tiền hoặc giải thích.",
+          "h": "Use 'Please check' and 'I want ...' or 'I need ...'.",
+          "s": "Please check my recent transactions for an unexpected withdrawal. I want an explanation and a refund if it is wrong."
+        },
+        {
+          "p": "You prefer to keep some cash at home. Is that safe?",
+          "m": "Nói lợi ích và rủi ro ngắn. Nêu bạn sẽ làm gì để an toàn hơn.",
+          "h": "Use 'It is ... but ...' and 'I will ...'.",
+          "s": "Keeping cash at home is handy but it is not very safe. I will keep a small amount and use the bank for most money."
+        },
+        {
+          "p": "A bank clerk offers guidance on saving. How would you ask a simple question?",
+          "m": "Viết một câu hỏi ngắn để hỏi về cách tiết kiệm. Nói bạn muốn một lời khuyên cụ thể.",
+          "h": "Use 'How can I ...' or 'What is the best way to ...'.",
+          "s": "How can I start saving with a small income? I would like simple advice for my situation."
+        }
+      ]
+    }
+  ]
+}

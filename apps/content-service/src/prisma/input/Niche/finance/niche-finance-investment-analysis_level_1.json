@@ -1,0 +1,530 @@
+{
+  "l": 1,
+  "d": [
+    {
+      "t": "Gặp nhà đầu tư mới",
+      "e": [
+        {
+          "p": "Do you have money to invest?",
+          "m": "Nói có hoặc không.",
+          "h": "Dùng 'I have' hoặc 'I don't have'.",
+          "s": "I have some money."
+        },
+        {
+          "p": "What is your job?",
+          "m": "Nói nghề nghiệp của bạn.",
+          "h": "Dùng 'I am a/an ...'.",
+          "s": "I am a teacher."
+        },
+        {
+          "p": "Where do you live?",
+          "m": "Nói nơi bạn sống.",
+          "h": "Dùng 'I live in ...'.",
+          "s": "I live in [studentCity]."
+        },
+        {
+          "p": "How much do you save each month?",
+          "m": "Nói số tiền bạn tiết kiệm mỗi tháng.",
+          "h": "Dùng 'I save ... dollars'.",
+          "s": "I save 50 dollars."
+        },
+        {
+          "p": "Are you afraid of risk?",
+          "m": "Nói bạn có thể chịu rủi ro hay không.",
+          "h": "Dùng 'I can' hoặc 'I can't'.",
+          "s": "I can't take risk."
+        }
+      ]
+    },
+    {
+      "t": "Hẹn gặp tư vấn ngân hàng",
+      "e": [
+        {
+          "p": "Do you use a bank?",
+          "m": "Nói bạn có dùng ngân hàng hay không.",
+          "h": "Dùng 'I use' hoặc 'I don't use'.",
+          "s": "I use a bank."
+        },
+        {
+          "p": "How much do you keep in the bank?",
+          "m": "Nói số tiền bạn để ở ngân hàng.",
+          "h": "Dùng 'I keep ... dollars'.",
+          "s": "I keep 100 dollars."
+        },
+        {
+          "p": "Can you wait one year?",
+          "m": "Nói bạn có thể chờ một năm hay không.",
+          "h": "Dùng 'I can' hoặc 'I can't'.",
+          "s": "I can wait one year."
+        },
+        {
+          "p": "What do you want from the bank?",
+          "m": "Nói mong muốn chính (ví dụ: tiết kiệm an toàn).",
+          "h": "Dùng 'I want to ...' hoặc 'I want ...'.",
+          "s": "I want to save money."
+        },
+        {
+          "p": "Is saving good for the future?",
+          "m": "Nói có/không và lý do ngắn (1-2 từ).",
+          "h": "Dùng 'Yes, ...' hoặc 'No, ...'.",
+          "s": "Yes, saving is good."
+        }
+      ]
+    },
+    {
+      "t": "Đánh giá dự án nhỏ",
+      "e": [
+        {
+          "p": "How much is the project?",
+          "m": "Nói giá của dự án.",
+          "h": "Dùng 'It is ... dollars'.",
+          "s": "It is 200 dollars."
+        },
+        {
+          "p": "Does the project make money?",
+          "m": "Nói dự án có tạo tiền hay không.",
+          "h": "Dùng 'Yes, it does' hoặc 'No, it does not'.",
+          "s": "Yes, it does."
+        },
+        {
+          "p": "How long is the project?",
+          "m": "Nói thời gian của dự án (tháng).",
+          "h": "Dùng 'It is ... months'.",
+          "s": "It is 3 months."
+        },
+        {
+          "p": "Can you help me with the project?",
+          "m": "Nói bạn có thể giúp hay không.",
+          "h": "Dùng 'I can' hoặc 'I can't' + help.",
+          "s": "I can help."
+        },
+        {
+          "p": "Who is the owner?",
+          "m": "Nói ai là chủ dự án.",
+          "h": "Dùng 'I am' hoặc 'He/She is'.",
+          "s": "I am the owner."
+        }
+      ]
+    },
+    {
+      "t": "Nói về lợi và hại",
+      "e": [
+        {
+          "p": "Is this idea good?",
+          "m": "Nói ý tưởng có tốt không.",
+          "h": "Dùng 'Yes, it is' hoặc 'No, it is not'.",
+          "s": "Yes, it is good."
+        },
+        {
+          "p": "What is good in this idea?",
+          "m": "Nói một lợi ích ngắn (ví dụ: kiếm tiền).",
+          "h": "Dùng 'It makes ...' hoặc 'It helps ...'.",
+          "s": "It makes money."
+        },
+        {
+          "p": "Is there a problem?",
+          "m": "Nói có vấn đề hay không.",
+          "h": "Dùng 'Yes, there is' hoặc 'No, there is not'.",
+          "s": "Yes, there is risk."
+        },
+        {
+          "p": "Can you find a solution?",
+          "m": "Nói bạn có thể tìm giải pháp hay không.",
+          "h": "Dùng 'I can' hoặc 'I can't'.",
+          "s": "I can save more."
+        },
+        {
+          "p": "Do you like this plan?",
+          "m": "Nói bạn có thích kế hoạch này không.",
+          "h": "Dùng 'I like' hoặc 'I don't like'.",
+          "s": "I like this plan."
+        }
+      ]
+    },
+    {
+      "t": "So sánh hai lựa chọn",
+      "e": [
+        {
+          "p": "Do you buy or save?",
+          "m": "Nói bạn chọn mua hay tiết kiệm.",
+          "h": "Dùng 'I buy' hoặc 'I save'.",
+          "s": "I save money."
+        },
+        {
+          "p": "Which is low risk, the bank or the project?",
+          "m": "Nói đâu là rủi ro thấp hơn.",
+          "h": "Dùng 'The bank is ...' hoặc 'The project is ...'.",
+          "s": "The bank is low risk."
+        },
+        {
+          "p": "Which gives more money?",
+          "m": "Nói lựa chọn nào tạo nhiều tiền hơn.",
+          "h": "Dùng 'The project gives ...' hoặc 'The bank gives ...'.",
+          "s": "The project gives more money."
+        },
+        {
+          "p": "Can you change your mind later?",
+          "m": "Nói bạn có thể thay đổi quyết định sau không.",
+          "h": "Dùng 'I can' hoặc 'I can't'.",
+          "s": "I can change my mind."
+        },
+        {
+          "p": "Do you pick the bank now?",
+          "m": "Nói có chọn ngân hàng bây giờ không và lý do ngắn.",
+          "h": "Dùng 'Yes, ...' hoặc 'No, ...'.",
+          "s": "Yes, it is safe."
+        }
+      ]
+    },
+    {
+      "t": "Lập kế hoạch tiết kiệm",
+      "e": [
+        {
+          "p": "How much do you want to save?",
+          "m": "Nói số tiền bạn muốn tiết kiệm.",
+          "h": "Dùng 'I want to save ... dollars'.",
+          "s": "I want to save 300 dollars."
+        },
+        {
+          "p": "When do you need the money?",
+          "m": "Nói thời gian bạn cần tiền (tháng).",
+          "h": "Dùng 'I need it in ... months'.",
+          "s": "I need it in 6 months."
+        },
+        {
+          "p": "Do you pay every month?",
+          "m": "Nói bạn có trả đều mỗi tháng không.",
+          "h": "Dùng 'Yes, I do' hoặc 'No, I don't'.",
+          "s": "Yes, I do."
+        },
+        {
+          "p": "Can your job help save?",
+          "m": "Nói công việc của bạn có giúp tiết kiệm không.",
+          "h": "Dùng 'My job can' hoặc 'My job can't'.",
+          "s": "My job can help."
+        },
+        {
+          "p": "Who is in your family?",
+          "m": "Nói 1-2 người trong gia đình bạn.",
+          "h": "Dùng 'I have a ... and a ...'.",
+          "s": "I have a mother and a father."
+        }
+      ]
+    },
+    {
+      "t": "Chuẩn bị đầu tư nhỏ",
+      "e": [
+        {
+          "p": "Do you know the price?",
+          "m": "Nói giá bạn biết.",
+          "h": "Dùng 'It is ... dollars'.",
+          "s": "It is 150 dollars."
+        },
+        {
+          "p": "Can you pay now?",
+          "m": "Nói bạn có thể trả ngay không.",
+          "h": "Dùng 'I can' hoặc 'I can't'.",
+          "s": "I can pay now."
+        },
+        {
+          "p": "Where is the money?",
+          "m": "Nói tiền của bạn ở đâu (ví dụ: ngân hàng, nhà).",
+          "h": "Dùng 'It is in ...' hoặc 'It is at ...'.",
+          "s": "It is in the bank."
+        },
+        {
+          "p": "Do you want to buy this?",
+          "m": "Nói bạn có muốn mua hay không.",
+          "h": "Dùng 'Yes, I do' hoặc 'No, I don't'.",
+          "s": "Yes, I do."
+        },
+        {
+          "p": "Who pays the cost?",
+          "m": "Nói ai trả chi phí.",
+          "h": "Dùng 'I pay' hoặc 'We pay'.",
+          "s": "I pay the cost."
+        }
+      ]
+    },
+    {
+      "t": "Hỏi ý kiến chuyên gia",
+      "e": [
+        {
+          "p": "Is this safe?",
+          "m": "Nói có an toàn hay không.",
+          "h": "Dùng 'Yes, it is' hoặc 'No, it is not'.",
+          "s": "Yes, it is safe."
+        },
+        {
+          "p": "What is the risk?",
+          "m": "Cho một từ ngắn mô tả rủi ro.",
+          "h": "Dùng 'The risk is ...'.",
+          "s": "The risk is loss."
+        },
+        {
+          "p": "Can you help reduce risk?",
+          "m": "Nói bạn có thể giúp giảm rủi ro hay không.",
+          "h": "Dùng 'I can' hoặc 'I can't'.",
+          "s": "I can help."
+        },
+        {
+          "p": "Do you check the price?",
+          "m": "Nói bạn có kiểm tra giá không.",
+          "h": "Dùng 'Yes, I do' hoặc 'No, I don't'.",
+          "s": "Yes, I do."
+        },
+        {
+          "p": "What is the best step?",
+          "m": "Nói một bước tốt nhất ngắn (ví dụ: tiết kiệm).",
+          "h": "Dùng 'I ...' hoặc 'We ...'.",
+          "s": "I save money."
+        }
+      ]
+    },
+    {
+      "t": "Giải quyết vấn đề đầu tư",
+      "e": [
+        {
+          "p": "The price goes up. What do you do?",
+          "m": "Nói một hành động bạn làm khi giá tăng.",
+          "h": "Dùng 'I buy' hoặc 'I don't buy'.",
+          "s": "I don't buy now."
+        },
+        {
+          "p": "You lose money. Who helps?",
+          "m": "Nói một người giúp bạn.",
+          "h": "Dùng 'My friend' hoặc 'The bank'.",
+          "s": "My friend helps."
+        },
+        {
+          "p": "Can you stop the project?",
+          "m": "Nói bạn có thể dừng dự án hay không.",
+          "h": "Dùng 'I can' hoặc 'I can't'.",
+          "s": "I can stop it."
+        },
+        {
+          "p": "Do you check your money every day?",
+          "m": "Nói bạn có kiểm tra tiền mỗi ngày không.",
+          "h": "Dùng 'Yes, I do' hoặc 'No, I don't'.",
+          "s": "No, I don't."
+        },
+        {
+          "p": "What do you tell your family?",
+          "m": "Nói một câu ngắn bạn nói với gia đình về tiền.",
+          "h": "Dùng 'I tell them ...'.",
+          "s": "I tell them I lose money."
+        }
+      ]
+    },
+    {
+      "t": "Giao dịch đơn giản",
+      "e": [
+        {
+          "p": "Do you sell now?",
+          "m": "Nói bạn có bán ngay bây giờ không.",
+          "h": "Dùng 'Yes, I do' hoặc 'No, I don't'.",
+          "s": "No, I don't sell now."
+        },
+        {
+          "p": "How many items do you sell?",
+          "m": "Nói số món bạn bán.",
+          "h": "Dùng 'I sell ... items'.",
+          "s": "I sell 10 items."
+        },
+        {
+          "p": "Who pays you?",
+          "m": "Nói ai trả tiền cho bạn.",
+          "h": "Dùng 'The bank' hoặc 'My friend'.",
+          "s": "The bank pays me."
+        },
+        {
+          "p": "Can I get money today?",
+          "m": "Nói có thể lấy tiền hôm nay hay không.",
+          "h": "Dùng 'You can' hoặc 'You can't'.",
+          "s": "You can get money today."
+        },
+        {
+          "p": "Do you like this sale?",
+          "m": "Nói bạn có thích giao dịch này không.",
+          "h": "Dùng 'I like' hoặc 'I don't like'.",
+          "s": "I like this sale."
+        }
+      ]
+    },
+    {
+      "t": "Lập báo cáo đơn giản",
+      "e": [
+        {
+          "p": "How much money do you get?",
+          "m": "Nói số tiền bạn nhận được.",
+          "h": "Dùng 'I get ... dollars'.",
+          "s": "I get 50 dollars."
+        },
+        {
+          "p": "Is profit good?",
+          "m": "Nói lợi nhuận có tốt không.",
+          "h": "Dùng 'Yes, it is' hoặc 'No, it is not'.",
+          "s": "Yes, it is good."
+        },
+        {
+          "p": "Do you have loss?",
+          "m": "Nói bạn có bị thua lỗ không.",
+          "h": "Dùng 'Yes, I do' hoặc 'No, I don't'.",
+          "s": "No, I don't have loss."
+        },
+        {
+          "p": "Who does the report?",
+          "m": "Nói ai làm báo cáo.",
+          "h": "Dùng 'I do' hoặc 'He does'.",
+          "s": "I do the report."
+        },
+        {
+          "p": "When do you send the report?",
+          "m": "Nói khi nào bạn gửi báo cáo (ngày).",
+          "h": "Dùng 'I send it today' hoặc 'I send it tomorrow'.",
+          "s": "I send it today."
+        }
+      ]
+    },
+    {
+      "t": "Quyết định đầu tư",
+      "e": [
+        {
+          "p": "Do you choose plan A or B?",
+          "m": "Nói bạn chọn A hay B.",
+          "h": "Dùng 'I choose A' hoặc 'I choose B'.",
+          "s": "I choose plan A."
+        },
+        {
+          "p": "Is A cheap?",
+          "m": "Nói A có rẻ không.",
+          "h": "Dùng 'Yes, it is' hoặc 'No, it is not'.",
+          "s": "Yes, it is cheap."
+        },
+        {
+          "p": "Can B make more money?",
+          "m": "Nói B có thể tạo nhiều tiền hơn không.",
+          "h": "Dùng 'B can' hoặc 'B can't'.",
+          "s": "B can make more money."
+        },
+        {
+          "p": "Do you sign the paper?",
+          "m": "Nói bạn có ký giấy không.",
+          "h": "Dùng 'Yes, I do' hoặc 'No, I don't'.",
+          "s": "No, I don't sign the paper."
+        },
+        {
+          "p": "Who signs the paper?",
+          "m": "Nói ai ký giấy.",
+          "h": "Dùng 'I sign' hoặc 'We sign'.",
+          "s": "I sign the paper."
+        }
+      ]
+    },
+    {
+      "t": "Ôn tập: Giao tiếp đầu tư cơ bản",
+      "e": [
+        {
+          "p": "How much money do you have?",
+          "m": "Nói số tiền bạn có.",
+          "h": "Dùng 'I have ... dollars'.",
+          "s": "I have 200 dollars."
+        },
+        {
+          "p": "Do you want to invest in a project?",
+          "m": "Nói có muốn đầu tư dự án hay không.",
+          "h": "Dùng 'Yes, I do' hoặc 'No, I don't'.",
+          "s": "Yes, I do."
+        },
+        {
+          "p": "Can you save money first?",
+          "m": "Nói bạn có thể tiết kiệm trước không.",
+          "h": "Dùng 'I can' hoặc 'I can't'.",
+          "s": "I can save money first."
+        },
+        {
+          "p": "Where do you keep your money?",
+          "m": "Nói nơi bạn để tiền (ngân hàng/nhà).",
+          "h": "Dùng 'It is in the bank' hoặc 'It is at home'.",
+          "s": "It is in the bank."
+        },
+        {
+          "p": "Who is your partner?",
+          "m": "Nói một người là đối tác của bạn.",
+          "h": "Dùng 'My friend' hoặc 'My father'.",
+          "s": "My friend is my partner."
+        }
+      ]
+    },
+    {
+      "t": "Ôn tập: Ra quyết định và rủi ro",
+      "e": [
+        {
+          "p": "Is this choice safe?",
+          "m": "Nói có an toàn hay không.",
+          "h": "Dùng 'Yes, it is' hoặc 'No, it is not'.",
+          "s": "No, it is not safe."
+        },
+        {
+          "p": "What do you lose?",
+          "m": "Nói bạn mất gì (1 từ).",
+          "h": "Dùng 'I lose ...'.",
+          "s": "I lose money."
+        },
+        {
+          "p": "Can you change the choice tomorrow?",
+          "m": "Nói bạn có thể thay đổi quyết định ngày mai hay không.",
+          "h": "Dùng 'I can' hoặc 'I can't'.",
+          "s": "I can change it tomorrow."
+        },
+        {
+          "p": "Do you tell your friend?",
+          "m": "Nói bạn có nói với bạn mình hay không.",
+          "h": "Dùng 'Yes, I tell' hoặc 'No, I don't tell'.",
+          "s": "Yes, I tell my friend."
+        },
+        {
+          "p": "Who helps you decide?",
+          "m": "Nói một người giúp bạn quyết định.",
+          "h": "Dùng 'My father' hoặc 'My friend'.",
+          "s": "My father helps me."
+        }
+      ]
+    },
+    {
+      "t": "Ôn tập: Thương lượng và giao dịch",
+      "e": [
+        {
+          "p": "Do you want a lower price?",
+          "m": "Nói bạn có muốn giá thấp hơn không.",
+          "h": "Dùng 'Yes, I do' hoặc 'No, I don't'.",
+          "s": "Yes, I do."
+        },
+        {
+          "p": "Can you pay now or later?",
+          "m": "Chọn trả bây giờ hay sau.",
+          "h": "Dùng 'I pay now' hoặc 'I pay later'.",
+          "s": "I pay now."
+        },
+        {
+          "p": "How many dollars do you give?",
+          "m": "Nói số tiền bạn đưa.",
+          "h": "Dùng 'I give ... dollars'.",
+          "s": "I give 100 dollars."
+        },
+        {
+          "p": "Do you sign the deal?",
+          "m": "Nói bạn có ký hợp đồng hay không.",
+          "h": "Dùng 'Yes, I do' hoặc 'No, I don't'.",
+          "s": "Yes, I do sign the deal."
+        },
+        {
+          "p": "Who takes the money?",
+          "m": "Nói ai nhận tiền.",
+          "h": "Dùng 'The bank' hoặc 'My friend'.",
+          "s": "The bank takes the money."
+        }
+      ]
+    }
+  ]
+}

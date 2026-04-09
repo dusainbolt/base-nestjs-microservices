@@ -1,0 +1,530 @@
+{
+  "l": 2,
+  "d": [
+    {
+      "t": "Tìm quán cà phê gần đây",
+      "e": [
+        {
+          "p": "Can you recommend a coffee shop near here?",
+          "m": "Nói tên quán bạn gợi ý. Nói nó ở đâu (một vị trí gần).",
+          "h": "Use: [Name] + is + near + place.",
+          "s": "The Corner Cafe is a good coffee shop. It is near the city park."
+        },
+        {
+          "p": "I want a quiet place to work. Any idea?",
+          "m": "Nói tên một quán yên tĩnh. Nói bạn thích nó vì yên tĩnh / có wi‑fi.",
+          "h": "Use: I like + it because + reason.",
+          "s": "The Study Bean is quiet. I like it because it has good Wi‑Fi."
+        },
+        {
+          "p": "Where do locals often go for coffee?",
+          "m": "Nói một quán phổ biến. Nói nó thường đông vào lúc nào (morning/afternoon).",
+          "h": "Use: often + verb (go/goes) or It is + busy + time.",
+          "s": "Local people often go to Sunrise Cafe. It is busy in the morning."
+        },
+        {
+          "p": "Do you know a cheap coffee place around?",
+          "m": "Nói tên quán rẻ. Nói một tính từ ngắn mô tả giá (cheap/affordable).",
+          "h": "Use: It is + adjective (cheap/affordable).",
+          "s": "Budget Brew is a cheap coffee place. It is affordable and good."
+        },
+        {
+          "p": "I'm going to meet a friend. Which coffee shop is near the station?",
+          "m": "Nói tên quán gần ga. Nói nó dễ tìm (one short direction or landmark).",
+          "h": "Use: It is near + landmark or next to + place.",
+          "s": "Station Espresso is near the train station. It is next to the ticket office."
+        }
+      ]
+    },
+    {
+      "t": "Gợi ý nhà hàng cho du khách",
+      "e": [
+        {
+          "p": "What's a good local restaurant here?",
+          "m": "Nói tên nhà hàng. Nói một lý do ngắn tại sao (food/taste).",
+          "h": "Use: [Name] + is + good because + reason.",
+          "s": "Green Garden is a good local restaurant. It is good because the food is fresh."
+        },
+        {
+          "p": "I want to try local food tonight. Any suggestion?",
+          "m": "Nói tên món hoặc nhà hàng. Nói bạn thích món vì một lý do ngắn.",
+          "h": "Use: I like + N / I want + to V.",
+          "s": "Try the River Grill for local dishes. I want the grilled fish because it is tasty."
+        },
+        {
+          "p": "Is there a cheap place to eat near the market?",
+          "m": "Nói tên quán rẻ gần chợ. Nói nó ở đâu (gần chợ).",
+          "h": "Use: It is near + place / It is cheap.",
+          "s": "Market Kitchen is a cheap place to eat. It is near the market entrance."
+        },
+        {
+          "p": "Do you know a restaurant for a small group of 4?",
+          "m": "Nói tên nhà hàng phù hợp. Nói nếu có chỗ cho 4 người (one short sentence).",
+          "h": "Use: There is/are + space / It has + number + seats.",
+          "s": "Family Table is good for a group. It has enough seats for four people."
+        },
+        {
+          "p": "My friend is vegetarian. Any restaurant for them?",
+          "m": "Nói tên nhà hàng có món chay. Nói vì sao phù hợp (has vegetarian food).",
+          "h": "Use: It has + vegetarian + food / It is + suitable.",
+          "s": "Sunrise Deli has vegetarian options. It is suitable for your friend."
+        }
+      ]
+    },
+    {
+      "t": "Hoạt động ngoài trời cuối tuần",
+      "e": [
+        {
+          "p": "What can I do outdoors this weekend?",
+          "m": "Đề xuất một hoạt động ngoài trời. Nói nơi hoạt động diễn ra (park/river/etc.).",
+          "h": "Use: You can + V / It is + at + place.",
+          "s": "You can go for a walk in Riverside Park. It is by the river."
+        },
+        {
+          "p": "Is there a good hiking trail nearby?",
+          "m": "Nói tên đường mòn hoặc khu đi bộ. Nói nó ở đâu (near something).",
+          "h": "Use: There is + a + trail + near + place.",
+          "s": "There is a nice trail at Hillwood. It is near the old museum."
+        },
+        {
+          "p": "I want something fun for kids. Any outdoor idea?",
+          "m": "Nói một hoạt động cho trẻ con. Nói nơi hoặc tiện ích (playground).",
+          "h": "Use: It has + playground / Kids can + V.",
+          "s": "Try Sunny Park for kids. It has a big playground and kids can play safely."
+        },
+        {
+          "p": "Is it safe to swim in the lake?",
+          "m": "Nói nếu an toàn (yes/no). Nói lý do ngắn (water quality/guard).",
+          "h": "Use: It is safe / It is not safe because + reason.",
+          "s": "It is not safe to swim in the lake. There is no lifeguard and the water is murky."
+        },
+        {
+          "p": "Can I rent a bike nearby for a city ride?",
+          "m": "Nói nơi thuê xe đạp. Nói nếu nó rẻ hoặc có sẵn (one short note).",
+          "h": "Use: You can rent + at + place / It is + cheap/available.",
+          "s": "You can rent a bike at City Bikes. It is affordable and always available on weekends."
+        }
+      ]
+    },
+    {
+      "t": "Địa điểm ăn nhẹ và tráng miệng",
+      "e": [
+        {
+          "p": "Where can I find good ice cream here?",
+          "m": "Nói tên quán kem. Nói bạn thích hương vị gì (one flavor).",
+          "h": "Use: [Name] + has + flavor / I like + flavor.",
+          "s": "Cream & Joy has good ice cream. I like the mango flavor there."
+        },
+        {
+          "p": "Any place for a quick snack near the cinema?",
+          "m": "Nói tên quán ăn nhẹ gần rạp. Nói nó ở đâu (near cinema).",
+          "h": "Use: It is near + place / It is quick.",
+          "s": "Snack Stop is near the cinema. It is quick and tasty."
+        },
+        {
+          "p": "I'm hungry now. Is there a bakery open?",
+          "m": "Nói tên tiệm bánh. Nói nếu nó mở bây giờ (yes/no).",
+          "h": "Use: It is open / It is closed / right now.",
+          "s": "Morning Bread bakery is open now. It opens early every day."
+        },
+        {
+          "p": "Do locals like the dessert at Blue Cafe?",
+          "m": "Nói ý kiến chung (yes/no). Nói lý do ngắn (sweet/tasty).",
+          "h": "Use: Yes, they do. It is + adjective.",
+          "s": "Yes, locals like the dessert at Blue Cafe. It is very sweet and tasty."
+        },
+        {
+          "p": "Can you suggest a place for afternoon tea?",
+          "m": "Nói tên quán trà. Nói một điều ngắn về không khí (quiet/pretty).",
+          "h": "Use: It is + adjective (quiet/pretty).",
+          "s": "The Tea House is a nice place for afternoon tea. It is quiet and pretty."
+        }
+      ]
+    },
+    {
+      "t": "Hoạt động buổi tối trong thành phố",
+      "e": [
+        {
+          "p": "What is fun to do in the city tonight?",
+          "m": "Đề xuất một hoạt động tối (movie/market). Nói nơi diễn ra.",
+          "h": "Use: You can + V at + place.",
+          "s": "You can watch a movie at Central Cinema. It is open late tonight."
+        },
+        {
+          "p": "Are there any night markets nearby?",
+          "m": "Nói nếu có (yes/no). Nói một chợ cụ thể và vị trí ngắn.",
+          "h": "Use: There is/are + market + near + place.",
+          "s": "Yes, there is a night market on River Road. It is near the old bridge."
+        },
+        {
+          "p": "I like live music. Any bars with music?",
+          "m": "Nói tên quán có nhạc sống. Nói nó thường có nhạc vào ngày nào (e.g., Friday).",
+          "h": "Use: It often has + live music + on + day.",
+          "s": "The Blue Note often has live music on Fridays. It is a small cozy bar."
+        },
+        {
+          "p": "Is it safe to walk alone at night here?",
+          "m": "Nói nếu an toàn (yes/no). Nói một lời khuyên ngắn (avoid/ stay in lit areas).",
+          "h": "Use: It is safe / It is not safe + because + reason.",
+          "s": "It is mostly safe to walk at night. But avoid dark alleys and stay on main streets."
+        },
+        {
+          "p": "I want a quiet cafe open late. Any suggestion?",
+          "m": "Nói tên quán mở muộn và yên tĩnh. Nói nó ở đâu (short location).",
+          "h": "Use: It is open late and + adjective.",
+          "s": "Night Owl Cafe is open late and quiet. It is near the central library."
+        }
+      ]
+    },
+    {
+      "t": "Các điểm tham quan nổi tiếng",
+      "e": [
+        {
+          "p": "What is the main tourist spot in this city?",
+          "m": "Nói tên điểm tham quan chính. Nói nó ở đâu (center/near river).",
+          "h": "Use: [Name] + is + at/in + place.",
+          "s": "The Old Fort is the main tourist spot. It is by the river in the city center."
+        },
+        {
+          "p": "How many museums are in the city center?",
+          "m": "Nói số lượng (one short number). Nói một ví dụ về tên bảo tàng.",
+          "h": "Use: There are + number + museums / One is + name.",
+          "s": "There are two museums in the city center. One is the City History Museum."
+        },
+        {
+          "p": "Is the park good for a small picnic?",
+          "m": "Nói có/không. Nói lý do ngắn (big/quiet/clean).",
+          "h": "Use: Yes, it is + because + reason or No, it is not + reason.",
+          "s": "Yes, the park is good for a picnic. It is big and very clean."
+        },
+        {
+          "p": "Can I see the viewpoint by walking?",
+          "m": "Nói có thể đi bộ hay không. Nói thời gian đi bộ ngắn (approx).",
+          "h": "Use: You can walk / It takes + time.",
+          "s": "You can walk to the viewpoint. It takes about twenty minutes from here."
+        },
+        {
+          "p": "Are there guided tours for the historic area?",
+          "m": "Nói có/không. Nói khi nào thường có tour (daily/weekends).",
+          "h": "Use: Yes, there are + tours + on + day/time.",
+          "s": "Yes, there are guided tours for the historic area. They run every weekend."
+        }
+      ]
+    },
+    {
+      "t": "Gợi ý cho gia đình có trẻ em",
+      "e": [
+        {
+          "p": "Where can children play safely here?",
+          "m": "Nói một địa điểm cho trẻ chơi. Nói một lý do (safe/has playground).",
+          "h": "Use: It has + playground / It is + safe.",
+          "s": "Happy Park is a good place for children. It has a secure playground and is safe."
+        },
+        {
+          "p": "Any family restaurants with kids menu?",
+          "m": "Nói tên nhà hàng có menu cho trẻ. Nói một điều ngắn về menu (simple/cheap).",
+          "h": "Use: It has + a kids menu / It is + adjective.",
+          "s": "Little Spoon has a kids menu. It is simple and affordable."
+        },
+        {
+          "p": "Is there a children's museum in town?",
+          "m": "Nói có/không. Nói tên hoặc vị trí ngắn nếu có.",
+          "h": "Use: There is + a + museum + at/in + place.",
+          "s": "Yes, there is a children's museum downtown. It is next to the library."
+        },
+        {
+          "p": "Can we rent a stroller near the park?",
+          "m": "Trả lời có/không. Nói nơi thuê nếu có (shop name or desk).",
+          "h": "Use: You can rent + at + place / It is available.",
+          "s": "You can rent a stroller at Park Services. It is available at the main desk."
+        },
+        {
+          "p": "What quiet activity is good for toddlers here?",
+          "m": "Đề xuất một hoạt động yên tĩnh cho trẻ nhỏ. Nói địa điểm ngắn.",
+          "h": "Use: You can + V + at + place / It is + adjective.",
+          "s": "You can visit the Story Corner for toddlers. It is quiet and cozy."
+        }
+      ]
+    },
+    {
+      "t": "Mua sắm và chợ địa phương",
+      "e": [
+        {
+          "p": "Where is the nearest market?",
+          "m": "Nói tên chợ gần nhất. Nói nó ở đâu (one short location).",
+          "h": "Use: The nearest market is + name + at/in + place.",
+          "s": "The nearest market is Central Market. It is at Main Street, near the bridge."
+        },
+        {
+          "p": "Are there good local souvenirs to buy?",
+          "m": "Nói có/không. Nói một món quà ngắn gọn (one item).",
+          "h": "Use: Yes, there are + items / One is + item.",
+          "s": "Yes, there are good local souvenirs. One is handmade pottery from the market."
+        },
+        {
+          "p": "I need fresh fruit. Where should I go?",
+          "m": "Gợi ý một nơi bán hoa quả tươi. Nói nó ở đâu (market/stand).",
+          "h": "Use: Go to + place / It is near + landmark.",
+          "s": "Go to the fruit stalls at Central Market. They are near the main entrance."
+        },
+        {
+          "p": "Is bargaining common at the local market?",
+          "m": "Trả lời có/không. Nói một lời khuyên ngắn nếu có (try to bargain).",
+          "h": "Use: Yes, it is common / Try + to V.",
+          "s": "Yes, bargaining is common at the local market. Try to ask for a lower price politely."
+        },
+        {
+          "p": "Can I buy clothes at a small shop nearby?",
+          "m": "Nói một cửa hàng quần áo gần đó. Nói nếu giá rẻ hay không (short).",
+          "h": "Use: It is + cheap/affordable/expensive.",
+          "s": "There is a small clothing shop on Market Lane. It is affordable for casual clothes."
+        }
+      ]
+    },
+    {
+      "t": "Đi lại và chỉ đường đơn giản",
+      "e": [
+        {
+          "p": "How do I get to the museum from here?",
+          "m": "Nói một hướng đơn giản (walk/take bus). Nói thời gian ước tính ngắn.",
+          "h": "Use: Walk + time / Take + bus + and it takes + time.",
+          "s": "Walk straight for ten minutes to the museum. It is on the left after the bakery."
+        },
+        {
+          "p": "Is there a bus to the beach?",
+          "m": "Trả lời có/không. Nói số bus hoặc nơi đón (one short detail).",
+          "h": "Use: Yes, take + bus number / It stops at + place.",
+          "s": "Yes, take bus number 5 to the beach. It stops at the seaside station."
+        },
+        {
+          "p": "Can I walk to the city center?",
+          "m": "Trả lời có/không. Nói thời gian đi bộ (approx).",
+          "h": "Use: You can walk / It takes + about + minutes.",
+          "s": "You can walk to the city center. It takes about twenty minutes on foot."
+        },
+        {
+          "p": "Where is the nearest taxi stand?",
+          "m": "Nói vị trí quầy taxi gần nhất. Nói nếu nó thường có taxi sẵn (yes/no).",
+          "h": "Use: It is at + place / There are usually + taxis.",
+          "s": "The nearest taxi stand is at Central Square. There are usually taxis there."
+        },
+        {
+          "p": "How much is a short taxi ride to the park?",
+          "m": "Nói giá ước tính ngắn (cheap/moderate). Nói nếu nó nhanh (short time).",
+          "h": "Use: It costs + about + money or It is + cheap/moderate.",
+          "s": "A short taxi ride to the park costs about five dollars. It is quick and cheap."
+        }
+      ]
+    },
+    {
+      "t": "So sánh hai địa điểm",
+      "e": [
+        {
+          "p": "Which is better for lunch, Market Cafe or River Bistro?",
+          "m": "Nói địa điểm bạn chọn. Nói một lý do ngắn (price/taste/ambience).",
+          "h": "Use: I prefer + place because + reason.",
+          "s": "I prefer River Bistro for lunch. I like it because the food is fresh and tasty."
+        },
+        {
+          "p": "Is the park or the plaza better for photos?",
+          "m": "Chọn một nơi. Nói một lý do ngắn (scenery/light).",
+          "h": "Use: The + place + is better because + reason.",
+          "s": "The park is better for photos. It has pretty trees and good light."
+        },
+        {
+          "p": "Which is cheaper, the food court or the small restaurant?",
+          "m": "Nói nơi rẻ hơn. Nói một mô tả ngắn về giá.",
+          "h": "Use: [Place] is cheaper. It is + adjective (affordable).",
+          "s": "The food court is cheaper than the small restaurant. It is more affordable."
+        },
+        {
+          "p": "Do locals prefer the old cafe or the new one?",
+          "m": "Nói nơi locals thích. Nói lý do ngắn (taste/tradition).",
+          "h": "Use: Locals prefer + place because + reason.",
+          "s": "Locals prefer the old cafe. They like it because of tradition and good coffee."
+        },
+        {
+          "p": "Which place is quieter, Library Cafe or Main Street Cafe?",
+          "m": "Chọn nơi yên tĩnh hơn. Nói một mô tả ngắn về không khí.",
+          "h": "Use: [Place] is quieter. It is + adjective.",
+          "s": "Library Cafe is quieter than Main Street Cafe. It is calm and peaceful."
+        }
+      ]
+    },
+    {
+      "t": "Hủy / đổi đặt chỗ và giải pháp",
+      "e": [
+        {
+          "p": "I need to cancel a restaurant booking. What should I do?",
+          "m": "Nói hành động cần làm (call/online). Nói thông tin cần nêu (name/time).",
+          "h": "Use: Call + the + place / Say + name and time.",
+          "s": "Call the restaurant to cancel your booking. Tell them your name and booking time."
+        },
+        {
+          "p": "My tour is full. Can I change the date?",
+          "m": "Trả lời có/không. Nói cách thay đổi (ask at office / online).",
+          "h": "Use: Yes, you can + or No, you cannot + and then + action.",
+          "s": "Yes, you can change the date for your tour. Ask at the tour office or book online."
+        },
+        {
+          "p": "The cafe lost my reservation. What do I say?",
+          "m": "Nói một câu ngắn để yêu cầu kiểm tra. Nói tên/giờ bạn đã đặt.",
+          "h": "Use: Please check + my reservation / My name is + name and time.",
+          "s": "Please check my reservation again. My name is [studentName] and it was for 7 pm."
+        },
+        {
+          "p": "Can I get a refund if the activity is cancelled?",
+          "m": "Trả lời có/không. Nói nơi hoặc cách lấy tiền hoàn (office/website).",
+          "h": "Use: Yes, you can + at + place / It depends + on + policy.",
+          "s": "Yes, you can get a refund if the activity is cancelled. Ask at the ticket office for details."
+        },
+        {
+          "p": "I arrive late for my booking. Can they wait?",
+          "m": "Nói nên làm gì (call/send message). Nói nếu thường được chờ (short).",
+          "h": "Use: Call + them / They usually wait + time.",
+          "s": "Call them to say you are running late. They usually wait for ten minutes."
+        }
+      ]
+    },
+    {
+      "t": "Lên kế hoạch cho một ngày tham quan",
+      "e": [
+        {
+          "p": "I have one day in the city. What should I see first?",
+          "m": "Gợi ý một điểm tham quan đầu tiên. Nói lý do ngắn (popular/near).",
+          "h": "Use: Start at + place because + reason.",
+          "s": "Start at the Old Fort because it is the most popular spot. It is near many cafes."
+        },
+        {
+          "p": "How many places can I visit in a day?",
+          "m": "Nói số lượng hợp lý. Nói ví dụ ngắn về hai nơi bạn đề xuất.",
+          "h": "Use: You can visit + number + places / e.g., + place and + place.",
+          "s": "You can visit three or four places in a day. For example, the fort and the city museum."
+        },
+        {
+          "p": "Where to eat between visits?",
+          "m": "Gợi ý một nhà hàng hoặc quán ăn trung gian. Nói vì sao tiện (nearby/quick).",
+          "h": "Use: Eat at + place / It is near + place and quick.",
+          "s": "Eat at Market Kitchen between visits. It is nearby and quick."
+        },
+        {
+          "p": "Can I use public transport for the whole day?",
+          "m": "Trả lời có/không. Nói một lời khuyên ngắn về vé (buy a day pass).",
+          "h": "Use: Yes, you can + and buy + day pass / It is cheaper.",
+          "s": "Yes, you can use public transport all day. Buy a day pass because it is cheaper."
+        },
+        {
+          "p": "Is it better to walk or take the bus for a city tour?",
+          "m": "Chọn walk hoặc bus. Nói một lý do ngắn (see more/fast).",
+          "h": "Use: Walking is better because + reason or Bus is better because + reason.",
+          "s": "Walking is better to see more of the city. It is slow but you see many small streets."
+        }
+      ]
+    },
+    {
+      "t": "Ôn tập: Gợi ý nhanh cho khách",
+      "e": [
+        {
+          "p": "A tourist asks: 'Good cafe nearby?' How do you answer?",
+          "m": "Nói tên một quán gần. Nói một lý do ngắn (good/tasty/near).",
+          "h": "Use: [Name] + is + near + place / It is + adjective.",
+          "s": "Try River Cafe. It is near the bridge and the coffee is good."
+        },
+        {
+          "p": "They ask 'Cheap dinner place?' What's your reply?",
+          "m": "Nói tên một quán rẻ. Nói một mô tả ngắn về giá hoặc đồ ăn.",
+          "h": "Use: [Place] is cheap. It has + food type.",
+          "s": "Try Market Bowl for a cheap dinner. It has simple local dishes."
+        },
+        {
+          "p": "Guest asks 'How to get to museum fast?'",
+          "m": "Cho hướng ngắn nhất (walk/bus). Nói thời gian ước tính.",
+          "h": "Use: Walk + time or Take + bus + and it takes + time.",
+          "s": "Walk straight for ten minutes to reach the museum. It is the fastest way."
+        },
+        {
+          "p": "They want a quiet evening spot. What do you say?",
+          "m": "Nói một quán yên tĩnh. Nói có mở muộn hay không.",
+          "h": "Use: [Place] is quiet and (open late / not open late).",
+          "s": "Quiet Corner is a peaceful evening spot. It is open late tonight."
+        },
+        {
+          "p": "Tourist: 'Any family activity today?'",
+          "m": "Đề xuất một hoạt động cho gia đình. Nói nơi ngắn.",
+          "h": "Use: You can + V at + place / It is + adjective.",
+          "s": "You can visit the children's museum today. It is fun and educational for kids."
+        }
+      ]
+    },
+    {
+      "t": "Ôn tập: Lên lịch và đặt chỗ",
+      "e": [
+        {
+          "p": "A guest asks to book a table tonight. What do you advise?",
+          "m": "Nói hành động: book by phone/online. Nói thông tin cần có (time/name).",
+          "h": "Use: Call + the + place / Give + name and time.",
+          "s": "Call the restaurant now to book a table. Give them your name and arrival time."
+        },
+        {
+          "p": "They ask 'Can I change my tour time?'",
+          "m": "Trả lời có/không. Nói nơi hoặc cách thay đổi (office/website).",
+          "h": "Use: Yes, you can + or No, you cannot + then + action.",
+          "s": "Yes, you can change your tour time. Contact the tour office to reschedule."
+        },
+        {
+          "p": "Guest: 'My booking is at 6 but I'm late.'",
+          "m": "Nói nên làm gì (call/ask to wait). Nói thời gian họ có thể chờ (short).",
+          "h": "Use: Call them / They usually wait + minutes.",
+          "s": "Call the place and tell them you are late. They usually wait for ten minutes."
+        },
+        {
+          "p": "They need a family table for four tomorrow. Any tip?",
+          "m": "Nói nên đặt trước. Nói một cách đặt (phone/online).",
+          "h": "Use: You should + V / Book + by + phone/online.",
+          "s": "You should book a family table in advance. Book online or call the restaurant."
+        },
+        {
+          "p": "Guest asks about refund rules for cancelled tickets.",
+          "m": "Nói nơi họ hỏi (ticket office). Nói ngắn về khả năng hoàn tiền (yes/depends).",
+          "h": "Use: Ask at + place / It depends on + policy.",
+          "s": "Ask at the ticket office for refund rules. It depends on the event's policy."
+        }
+      ]
+    },
+    {
+      "t": "Ôn tập: Giải quyết vấn đề tại địa phương",
+      "e": [
+        {
+          "p": "A visitor lost their bag at the cafe. What to tell them?",
+          "m": "Nói họ nên làm gì ngay (ask staff). Nói nơi trả đồ (lost & found).",
+          "h": "Use: Ask + the + staff / Check + lost and found.",
+          "s": "Ask the cafe staff right away. Check the lost and found at the front desk."
+        },
+        {
+          "p": "They complain the food is cold. How to respond?",
+          "m": "Gợi ý yêu cầu đổi hoặc hâm nóng. Nói hành động ngắn (ask staff).",
+          "h": "Use: Ask for + replacement or warming / Say + it is cold.",
+          "s": "Ask the staff to warm or replace the dish. Tell them the food is cold."
+        },
+        {
+          "p": "Their bus was cancelled. What are options?",
+          "m": "Đề xuất hai lựa chọn ngắn (take another bus/taxi). Nói ưu điểm ngắn của mỗi lựa chọn.",
+          "h": "Use: You can + V or You can + V. Give short reason.",
+          "s": "You can take the next bus which is cheaper. Or you can take a taxi which is faster."
+        },
+        {
+          "p": "A guest can't find their hotel. What do you advise?",
+          "m": "Nói điền thông tin: check address or ask a taxi. Nói một bước ngắn tiếp theo.",
+          "h": "Use: Check the address / Ask a taxi driver.",
+          "s": "Check the hotel's address and phone number. If needed, ask a taxi driver to help."
+        },
+        {
+          "p": "They lost phone signal. Any simple help?",
+          "m": "Đề xuất một giải pháp nhanh (move to open area / use Wi‑Fi). Nói nơi để dùng Wi‑Fi.",
+          "h": "Use: Move to + place / Use + Wi‑Fi at + place.",
+          "s": "Move to an open area for better signal. Or use free Wi‑Fi at the nearby cafe."
+        }
+      ]
+    }
+  ]
+}

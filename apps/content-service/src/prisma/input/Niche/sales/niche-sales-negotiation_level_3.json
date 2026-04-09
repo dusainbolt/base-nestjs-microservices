@@ -1,0 +1,530 @@
+{
+  "l": 3,
+  "d": [
+    {
+      "t": "Hỏi về giá",
+      "e": [
+        {
+          "p": "How much is this item?",
+          "m": "Nói giá sản phẩm. Nói rõ giá đã gồm thuế hay chưa.",
+          "h": "Present Simple: 'It is...' và 'includes/does not include...'",
+          "s": "It is $50. The price includes VAT."
+        },
+        {
+          "p": "Is the price negotiable?",
+          "m": "Trả lời có thể thương lượng hay không. Nếu được, nêu mức giá mới.",
+          "h": "Use 'Yes, we can...' or 'No, it's...' + offer a price.",
+          "s": "Yes, we can negotiate. I can offer it for $45."
+        },
+        {
+          "p": "Can you give me a better price if I buy two?",
+          "m": "Trả lời có hay không. Nói giá mỗi chiếc khi mua 2. So sánh với giá lẻ.",
+          "h": "If + Present Simple; comparatives: 'cheaper/less expensive'.",
+          "s": "If you buy two, it is $40 each. That is cheaper than the single price."
+        },
+        {
+          "p": "Do you offer any student discount?",
+          "m": "Nói có hay không. Nếu có, cho biết điều kiện ngắn gọn.",
+          "h": "Present Simple + modal (can/must): 'Yes, we give... if...' ",
+          "s": "Yes, we give a 10% student discount. You must show a student ID."
+        },
+        {
+          "p": "I saw a lower price at another store. Can you match it?",
+          "m": "Xác nhận bạn có thể bù giá hay không. Nếu không, nói lý do ngắn và đề xuất phương án khác.",
+          "h": "Use 'We can...' or 'We cannot...' + connector 'but' or 'so'.",
+          "s": "We can match that price. But we cannot give free delivery, so I can offer a 5% extra discount."
+        }
+      ]
+    },
+    {
+      "t": "Yêu cầu giảm giá",
+      "e": [
+        {
+          "p": "Can I get a discount on this jacket?",
+          "m": "Nói có thể giảm giá hay không. Nếu có, nói % hoặc số tiền giảm.",
+          "h": "Use 'Yes, you can...' and a number: '10% / $10'.",
+          "s": "Yes, you can get a discount. I can give 10% off."
+        },
+        {
+          "p": "What if I pay cash?",
+          "m": "Nêu chính sách khi thanh toán tiền mặt. Nếu có giảm, nói mức giảm.",
+          "h": "Present Simple: 'We accept... and give...' ",
+          "s": "We accept cash and card. For cash payment, we give $5 off."
+        },
+        {
+          "p": "I want to buy for my small shop. Any special price?",
+          "m": "Trả lời có chương trình bán sỉ hay không. Nếu có, nêu điều kiện ngắn.",
+          "h": "Use 'Yes, for orders of X we can...' or 'No, but...'.",
+          "s": "Yes, for orders of ten or more we can lower the price. The discount is 15% for ten items."
+        },
+        {
+          "p": "Can you reduce the price if I take different color or model?",
+          "m": "Nói nếu màu/ mẫu khác rẻ hơn hay không. Nêu giá hoặc % chênh lệch.",
+          "h": "Use comparatives: 'cheaper' and Present Simple to state price.",
+          "s": "The blue model is cheaper. It is $40, which is $5 less than this one."
+        },
+        {
+          "p": "I need a discount now. What can you do?",
+          "m": "Đưa ra đề nghị cụ thể (giảm giá, quà tặng, hay thanh toán). Nói thời hạn nếu có.",
+          "h": "Use 'We can...' + time: 'today/this week'.",
+          "s": "We can give a 7% discount today. The offer is valid until the end of the week."
+        }
+      ]
+    },
+    {
+      "t": "So sánh hai lựa chọn",
+      "e": [
+        {
+          "p": "Which option is cheaper, A or B?",
+          "m": "Nói lựa chọn rẻ hơn. Nêu giá của hai lựa chọn ngắn gọn.",
+          "h": "Use comparatives: 'A is cheaper than B' + prices.",
+          "s": "Option A is cheaper than B. A costs $30 and B costs $40."
+        },
+        {
+          "p": "Is the more expensive one worth it?",
+          "m": "Nói nếu giá cao hơn hợp lý. Nêu một lợi ích ngắn cho lựa chọn đắt hơn.",
+          "h": "Use 'It is worth it because...' and Present Simple.",
+          "s": "Yes, it is worth it because it lasts longer. It has a two-year warranty."
+        },
+        {
+          "p": "I like both. Which one do customers buy more?",
+          "m": "Nói sản phẩm bán chạy hơn. Nêu lý do ngắn gọn (giá, màu, chức năng).",
+          "h": "Present Simple + because.",
+          "s": "Customers buy option B more. It is more popular because it is more comfortable."
+        },
+        {
+          "p": "Can you show a cheaper model with similar quality?",
+          "m": "Đề xuất một mẫu rẻ hơn. So sánh chất lượng ngắn gọn.",
+          "h": "Use 'This one is...' and comparatives.",
+          "s": "This model is cheaper and has similar quality. It is only $35 and still strong."
+        },
+        {
+          "p": "Which is the best value for money?",
+          "m": "Nói lựa chọn có giá trị tốt nhất. Giải thích 1-2 nguyên nhân ngắn.",
+          "h": "Use 'The best value is...' + reasons connected by 'and' or 'because'.",
+          "s": "The best value is option A because it is cheaper and has a good warranty."
+        }
+      ]
+    },
+    {
+      "t": "Thương lượng số lượng",
+      "e": [
+        {
+          "p": "I want five units. What is the total?",
+          "m": "Tính tổng giá cho 5 cái. Nói nếu có giảm giá số lượng.",
+          "h": "Use Present Simple: 'It is...' and 'we give...' ",
+          "s": "Five units cost $200. We give a small discount for five."
+        },
+        {
+          "p": "If I order 20, can I get a lower price per unit?",
+          "m": "Nói giá mỗi đơn vị cho 20 cái. So sánh với giá nhỏ hơn.",
+          "h": "Use 'If you order...' + 'it will be...' and comparatives.",
+          "s": "If you order 20, it will be $8 per unit. That is cheaper than the small order price."
+        },
+        {
+          "p": "Do you have a minimum order quantity?",
+          "m": "Nói có yêu cầu tối thiểu hay không. Nếu có, nêu con số và lý do ngắn.",
+          "h": "Present Simple + 'we require...' or 'we do not require...'.",
+          "s": "We require a minimum order of ten units. This helps us keep the price low."
+        },
+        {
+          "p": "Can you deliver 50 units next week?",
+          "m": "Xác nhận có giao được không. Nếu không, cho ngày khả dụng.",
+          "h": "Use 'We can...' or 'We cannot...' + time expressions.",
+          "s": "We can deliver 50 units next week. The shipment will arrive on Tuesday."
+        },
+        {
+          "p": "I need a long-term supply every month. Can we make a deal?",
+          "m": "Đề xuất hợp đồng dài hạn ngắn: nói có thể hay không. Nêu lợi ích cho khách (giá ổn định).",
+          "h": "Use 'We can...' + 'every month' and 'so' to show benefit.",
+          "s": "We can arrange monthly supply and give a stable price. This will make your cost lower."
+        }
+      ]
+    },
+    {
+      "t": "Thảo luận điều khoản giao hàng",
+      "e": [
+        {
+          "p": "How long does delivery take?",
+          "m": "Nói thời gian giao hàng dự kiến. Nói nếu có lựa chọn giao nhanh.",
+          "h": "Use Present Simple: 'It takes...' and 'or' for fast option.",
+          "s": "Standard delivery takes five days. We offer express shipping in two days."
+        },
+        {
+          "p": "Is delivery free for orders over $100?",
+          "m": "Trả lời điều kiện miễn phí vận chuyển. Nếu không, nêu phí.",
+          "h": "Use 'Yes, for orders over...' or 'No, we charge...' ",
+          "s": "Yes, delivery is free for orders over $100. Otherwise we charge $8."
+        },
+        {
+          "p": "Can you deliver to my shop address in the city center?",
+          "m": "Xác nhận giao đến địa chỉ thành phố hay không. Nêu bất kỳ phí thêm nếu có.",
+          "h": "Use 'We can...' + mention fee with 'there is' or 'there is no'.",
+          "s": "We can deliver to your city center shop. There is no extra fee."
+        },
+        {
+          "p": "What happens if the delivery is delayed?",
+          "m": "Nói qui trình khi giao chậm (thông báo, bồi thường hoặc lùi ngày).",
+          "h": "Use 'We will...' and 'if' to show condition.",
+          "s": "We will inform you by email if delivery is delayed. If needed, we will arrange a new date."
+        },
+        {
+          "p": "I need the goods before Friday. Can you guarantee that?",
+          "m": "Nói có thể đảm bảo giao trước thứ Sáu hay không. Nếu không, đề xuất phương án thay thế.",
+          "h": "Use 'We can/cannot guarantee...' and 'but' for alternatives.",
+          "s": "We can try to deliver before Friday, but we cannot guarantee it. As an alternative, we can send express shipping."
+        }
+      ]
+    },
+    {
+      "t": "Bảo hành và dịch vụ sau bán",
+      "e": [
+        {
+          "p": "Does this product have a warranty?",
+          "m": "Nói có hay không. Nêu thời hạn bảo hành ngắn.",
+          "h": "Present Simple: 'It has...' and time phrase.",
+          "s": "Yes, it has a one-year warranty."
+        },
+        {
+          "p": "What does the warranty cover?",
+          "m": "Liệt kê 1-2 điều được bảo hành (lỗi kỹ thuật, đổi hàng).",
+          "h": "Use Present Simple: 'It covers...' and 'and'.",
+          "s": "The warranty covers manufacturing defects and repairs. It does not cover accidental damage."
+        },
+        {
+          "p": "If the product breaks, what should I do?",
+          "m": "Nêu bước ngắn để liên hệ và gửi sản phẩm. Nói thời gian xử lý nếu có.",
+          "h": "Use modal 'should' and Present Simple for steps.",
+          "s": "You should contact our service center and send the product. We will repair it within two weeks."
+        },
+        {
+          "p": "Do you offer on-site service for larger items?",
+          "m": "Nói có hay không. Nếu có, nêu điều kiện (khu vực, phí).",
+          "h": "Use 'We offer...' or 'We do not offer...' + short condition.",
+          "s": "We offer on-site service for large items in the city area. A small service fee applies."
+        },
+        {
+          "p": "Can I extend the warranty for an extra year?",
+          "m": "Trả lời có thể gia hạn hay không. Nếu có, nêu chi phí hoặc % ngắn.",
+          "h": "Use 'Yes, you can...' + cost or 'No, but...'.",
+          "s": "Yes, you can extend the warranty for another year. The cost is $20."
+        }
+      ]
+    },
+    {
+      "t": "Thuyết phục khách hàng mua",
+      "e": [
+        {
+          "p": "Why should I buy from you?",
+          "m": "Nêu 1-2 lý do ngắn để thuyết phục (giá, chất lượng, dịch vụ).",
+          "h": "Use 'Because...' and Present Simple.",
+          "s": "Because we offer good quality and fair prices. We also provide fast service."
+        },
+        {
+          "p": "I'm not sure this is the right model for me.",
+          "m": "An ủi và đề xuất một lý do chọn sản phẩm khác. Nêu lợi ích ngắn.",
+          "h": "Use 'You can...' or 'If you need..., choose...' ",
+          "s": "You can choose a different model with a smaller screen if size matters. It is lighter and easier to carry."
+        },
+        {
+          "p": "I need proof that it works well.",
+          "m": "Đề xuất một bằng chứng (đánh giá, bảo hành, thử dùng). Nêu phương án thử nếu có.",
+          "h": "Use 'We have...' and 'you can...' ",
+          "s": "We have good customer reviews and a one-year warranty. You can try it in the store."
+        },
+        {
+          "p": "I want to think about it. Can you give me a reason to decide now?",
+          "m": "Đưa ưu đãi ngắn để quyết định nhanh (giảm giá thời hạn, quà). Nêu thời hạn.",
+          "h": "Use 'If you decide now...' and time phrase.",
+          "s": "If you decide now, we give a 10% discount. The offer is valid today only."
+        },
+        {
+          "p": "I like this, but the price is high. Convince me.",
+          "m": "Kết hợp lý do chất lượng và một đề nghị để bù giá (giảm, dịch vụ). Nêu 2 ý rõ ràng.",
+          "h": "Use 'Because...' and offer with 'we can...' or 'we will...'.",
+          "s": "Because it has better materials and longer life, it is a smart buy. We can lower the price by 8% and include free delivery."
+        }
+      ]
+    },
+    {
+      "t": "Đàm phán thời hạn thanh toán",
+      "e": [
+        {
+          "p": "When do I need to pay?",
+          "m": "Nói thời hạn thanh toán chuẩn. Nói nếu có lựa chọn trả sau.",
+          "h": "Present Simple: 'You pay...' and 'or' for alternative.",
+          "s": "You pay at the time of delivery. Or you can pay within 14 days for business customers."
+        },
+        {
+          "p": "Can I pay in two installments?",
+          "m": "Trả lời có hay không. Nếu có, nêu lịch trả ngắn (lần 1, lần 2).",
+          "h": "Use 'Yes, you can...' and simple dates or 'in X days'.",
+          "s": "Yes, you can pay in two installments. Pay half now and half in 30 days."
+        },
+        {
+          "p": "Is there a fee for late payment?",
+          "m": "Nói có phí trễ hạn hay không. Nếu có, nêu mức phí ngắn.",
+          "h": "Use 'We charge...' or 'We do not charge...' + amount/percent.",
+          "s": "We charge a small late fee of 2% per month. Please pay on time to avoid it."
+        },
+        {
+          "p": "We need 60 days to pay. Can you agree?",
+          "m": "Nói có thể chấp nhận 60 ngày hay không. Nếu không, đề xuất thời hạn khác.",
+          "h": "Use 'We can accept...' or 'We cannot accept...' and offer alternative.",
+          "s": "We cannot accept 60 days. We can accept 30 days instead."
+        },
+        {
+          "p": "If we pay earlier, can we get a discount?",
+          "m": "Nói có ưu đãi khi thanh toán sớm hay không. Nếu có, nêu % hoặc mức giảm.",
+          "h": "Use 'If you pay early...' + result 'we will give...'.",
+          "s": "If you pay early, we will give a 3% discount."
+        }
+      ]
+    },
+    {
+      "t": "Giảm giá cho đơn hàng lớn",
+      "e": [
+        {
+          "p": "Do you give discounts for bulk orders?",
+          "m": "Trả lời có hay không. Nêu mức giảm cho đơn hàng lớn chung chung.",
+          "h": "Present Simple + 'for orders over...' ",
+          "s": "Yes, we give discounts for bulk orders. For large orders we offer 12% off."
+        },
+        {
+          "p": "What price for an order of 100 pieces?",
+          "m": "Nói giá mỗi cái cho 100 cái. Tính tổng nếu cần.",
+          "h": "Use Present Simple: 'It is $X each' and total 'so total is...'.",
+          "s": "For 100 pieces it is $6 each, so the total is $600."
+        },
+        {
+          "p": "Can you prepare a proforma invoice for a big order?",
+          "m": "Xác nhận có thể lập hóa đơn proforma không. Nói cần tài liệu gì ngắn.",
+          "h": "Use 'We can...' and 'Please send...' ",
+          "s": "We can prepare a proforma invoice. Please send your company name and address."
+        },
+        {
+          "p": "Do you give free samples for bulk buyers?",
+          "m": "Nói có hay không. Nếu có, nêu số lượng mẫu miễn phí.",
+          "h": "Use 'Yes, we give...' or 'No, but...' ",
+          "s": "Yes, we give two free samples for bulk buyers."
+        },
+        {
+          "p": "We want a long-term price for monthly orders. Can you fix the price?",
+          "m": "Nói có thể cố định giá cho hàng tháng không. Nếu có, nêu khoảng thời gian và lý do lợi ích.",
+          "h": "Use 'We can fix...' + time 'for X months' and 'so' to show benefit.",
+          "s": "We can fix the price for six months. This will help you plan your costs."
+        }
+      ]
+    },
+    {
+      "t": "Đổi trả và hoàn tiền",
+      "e": [
+        {
+          "p": "Can I return this if it doesn't fit?",
+          "m": "Nói chính sách đổi trả cơ bản. Nêu thời hạn đổi trả ngắn.",
+          "h": "Present Simple: 'You can return...' and time phrase.",
+          "s": "You can return it within 14 days if it doesn't fit."
+        },
+        {
+          "p": "Do you give a full refund for returned items?",
+          "m": "Trả lời có hay không. Nếu không, nêu điều kiện hoàn tiền một phần.",
+          "h": "Use 'Yes, we give...' or 'No, we give...' + condition.",
+          "s": "Yes, we give a full refund for faulty items. For change-of-mind returns, we give store credit."
+        },
+        {
+          "p": "What is your return process?",
+          "m": "Mô tả 2 bước chính để đổi trả (liên hệ, gửi hàng).",
+          "h": "Use modal 'should' and Present Simple for steps.",
+          "s": "You should contact customer service first. Then send the item to our return address."
+        },
+        {
+          "p": "How long does a refund take?",
+          "m": "Nói thời gian xử lý hoàn tiền. Nêu nếu thời gian khác với hình thức thanh toán.",
+          "h": "Present Simple + time phrase and 'for' differences.",
+          "s": "Refunds take five business days. For card payments it may take up to seven days."
+        },
+        {
+          "p": "The product arrived damaged. What can I get?",
+          "m": "Nêu các phương án: đổi hàng, sửa hoặc hoàn tiền. Nói bước tiếp theo ngắn.",
+          "h": "Use 'We can...' list options and 'please' for next step.",
+          "s": "We can replace it, repair it, or give a refund. Please send photos and we will help."
+        }
+      ]
+    },
+    {
+      "t": "Đặt hợp đồng nhỏ",
+      "e": [
+        {
+          "p": "Can we sign a simple contract for this order?",
+          "m": "Trả lời có thể ký hợp đồng nhỏ hay không. Nêu 1-2 điều khoản cơ bản (giá, thời gian).",
+          "h": "Use 'Yes, we can...' and list terms with 'and'.",
+          "s": "Yes, we can sign a simple contract. It will state the price and delivery date."
+        },
+        {
+          "p": "Who signs the contract on your side?",
+          "m": "Nêu người ký (chức danh ngắn). Nói nếu cần chữ ký điện tử.",
+          "h": "Present Simple: 'Our...' + role and 'or' for e-signature.",
+          "s": "Our sales manager signs the contract. We can also accept an electronic signature."
+        },
+        {
+          "p": "Can we add a penalty for late delivery?",
+          "m": "Trả lời có thể thêm điều khoản phạt hay không. Nếu có, nêu mức phạt ngắn (ví dụ % hoặc $).",
+          "h": "Use 'We can agree...' or 'We cannot...' + amount/simple percent.",
+          "s": "We can agree on a small penalty. For example, $20 per day late."
+        },
+        {
+          "p": "I need the contract in English and Vietnamese. Is that possible?",
+          "m": "Xác nhận có thể có hai ngôn ngữ hay không. Nêu thời gian chuẩn để chuẩn bị.",
+          "h": "Use 'Yes, we can...' and time phrase 'in X days'.",
+          "s": "Yes, we can prepare the contract in both languages. It will be ready in three days."
+        },
+        {
+          "p": "Can we make the price fixed for six months in the contract?",
+          "m": "Trả lời có thể cố định giá hay không. Nếu có, nêu cách ghi rõ trong hợp đồng ngắn.",
+          "h": "Use 'We can fix...' and 'for six months' + 'so'.",
+          "s": "We can fix the price for six months. We will state this in the contract clearly."
+        }
+      ]
+    },
+    {
+      "t": "Giảm giá theo mùa",
+      "e": [
+        {
+          "p": "Do you have a seasonal sale now?",
+          "m": "Nói có khuyến mãi theo mùa hay không. Nêu % giảm chung.",
+          "h": "Present Simple: 'Yes, we have...' and percent.",
+          "s": "Yes, we have a seasonal sale. We offer 20% off now."
+        },
+        {
+          "p": "Is the discount valid for all products?",
+          "m": "Nói áp dụng cho mọi sản phẩm hay chỉ vài mặt hàng. Nếu giới hạn, nêu ví dụ ngắn.",
+          "h": "Use 'It applies to...' or 'It applies only to...' ",
+          "s": "The discount applies only to selected items. For example, winter coats and boots."
+        },
+        {
+          "p": "How long will the seasonal discount last?",
+          "m": "Nói thời hạn khuyến mãi ngắn (ngày/tuần).",
+          "h": "Use 'It lasts until...' or 'for X days'.",
+          "s": "The discount lasts until the end of the month."
+        },
+        {
+          "p": "Can I combine the seasonal discount with a bulk order discount?",
+          "m": "Trả lời có thể kết hợp hay không. Nếu có giới hạn, nêu ngắn.",
+          "h": "Use 'Yes, you can...' or 'No, but...' + short reason.",
+          "s": "No, you cannot combine both discounts. But we can give a special rate for large orders."
+        },
+        {
+          "p": "I want to buy now because of the sale. Can you reserve items?",
+          "m": "Xác nhận có thể giữ hàng hay không. Nếu có, nêu thời gian giữ ngắn và điều kiện thanh toán.",
+          "h": "Use 'We can reserve...' and 'for X days' + condition.",
+          "s": "We can reserve the items for two days. Please pay a small deposit to hold them."
+        }
+      ]
+    },
+    {
+      "t": "Ôn tập: Thương lượng giá",
+      "e": [
+        {
+          "p": "I want the best price you can give.",
+          "m": "Trả lời có thể giảm tối đa bao nhiêu. Nêu một điều kiện ngắn để nhận mức giá này.",
+          "h": "Use 'We can give...' and 'if you...' ",
+          "s": "We can give 15% off. This price is available if you pay by cash today."
+        },
+        {
+          "p": "Can you lower the price if I pay now and pick up today?",
+          "m": "Nói có thể giảm hay không. Nếu có, nêu mức giảm và điều kiện ngắn.",
+          "h": "Use 'Yes, we can...' + condition.",
+          "s": "Yes, we can lower the price by $10 if you pick up today and pay now."
+        },
+        {
+          "p": "We want a long-term discount for monthly orders of 30 items.",
+          "m": "Đưa ra đề nghị giảm cho đơn hàng tháng. Nêu % giảm và thời hạn áp dụng.",
+          "h": "Use 'We can offer...' and time 'for X months'.",
+          "s": "We can offer a 10% discount for monthly orders of 30 items. This applies for three months."
+        },
+        {
+          "p": "I'm a loyal customer. Can you do something extra?",
+          "m": "Đề xuất một ưu đãi thêm (quà, miễn phí giao). Nêu 1 ưu đãi rõ ràng.",
+          "h": "Use 'We can add...' or 'We will...' ",
+          "s": "We can include free delivery as an extra benefit for loyal customers."
+        },
+        {
+          "p": "If I sign a contract for yearly supply, what is your best offer?",
+          "m": "Đưa ra mức giá tốt nhất cho hợp đồng năm. Nêu % giảm và điều kiện giao hàng ngắn.",
+          "h": "Use 'For a yearly contract we can...' and 'if' for condition.",
+          "s": "For a yearly contract we can reduce the price by 18% if you agree to monthly shipments."
+        }
+      ]
+    },
+    {
+      "t": "Ôn tập: Điều khoản hợp đồng",
+      "e": [
+        {
+          "p": "Can we include quality checks in the contract?",
+          "m": "Trả lời có thể thêm điều khoản kiểm tra chất lượng hay không. Nêu 1-2 bước kiểm tra ngắn.",
+          "h": "Use 'We can include...' and list steps with 'and'.",
+          "s": "We can include quality checks. We will inspect samples and approve before shipment."
+        },
+        {
+          "p": "We want a clause for late payment interest. Is that okay?",
+          "m": "Xác nhận có thể thêm điều khoản phạt lãi hay không. Nếu được, nêu mức lãi ngắn.",
+          "h": "Use 'We can agree...' or 'We cannot...' + amount/simple percent.",
+          "s": "We can agree on late payment interest. It will be 1.5% per month."
+        },
+        {
+          "p": "Please make sure the delivery date is fixed in the contract.",
+          "m": "Xác nhận có thể cố định ngày giao hay không. Nếu không, nêu tình huống thay thế.",
+          "h": "Use 'We can fix...' and 'if' for exceptions.",
+          "s": "We can fix the delivery date in the contract. If delays occur, we will inform you and set a new date."
+        },
+        {
+          "p": "Can we add a clause for product inspection on arrival?",
+          "m": "Nói có thể kiểm tra khi nhận hàng hay không. Nêu thời hạn kiểm tra ngắn.",
+          "h": "Use 'Yes, we can...' and time phrase 'within X days'.",
+          "s": "Yes, we can add that clause. You can inspect products within three days of arrival."
+        },
+        {
+          "p": "Who pays insurance during shipping? Add this to contract.",
+          "m": "Nói bên trả bảo hiểm là ai. Nêu ngắn điều kiện trong hợp đồng.",
+          "h": "Use 'We will pay...' or 'You will pay...' + 'during shipping'.",
+          "s": "We will pay insurance during shipping and this will be stated in the contract."
+        }
+      ]
+    },
+    {
+      "t": "Ôn tập: Thuyết phục khách hàng",
+      "e": [
+        {
+          "p": "I'm still deciding between your product and a competitor's.",
+          "m": "Nêu 1-2 lý do ngắn tại sao khách nên chọn bạn (giá, dịch vụ).",
+          "h": "Use 'Because...' and Present Simple.",
+          "s": "Because we offer better after-sales service and a clear warranty. Our price is also competitive."
+        },
+        {
+          "p": "Can you guarantee performance?",
+          "m": "Đưa ra cam kết ngắn về hiệu suất hoặc kết quả. Nêu thời gian bảo hành nếu liên quan.",
+          "h": "Use 'We guarantee...' and time phrase.",
+          "s": "We guarantee the product performance for one year. If it fails, we will repair or replace it."
+        },
+        {
+          "p": "What extra service do you offer after purchase?",
+          "m": "Liệt kê 1-2 dịch vụ hậu mãi ngắn (bảo hành, hỗ trợ kỹ thuật).",
+          "h": "Use Present Simple: 'We offer... and...'.",
+          "s": "We offer a one-year warranty and free technical support by phone."
+        },
+        {
+          "p": "If I buy now, will you include installation?",
+          "m": "Nói có bao gồm lắp đặt hay không. Nếu có, nêu điều kiện (khu vực, phí).",
+          "h": "Use 'We include...' or 'We do not include...' + condition.",
+          "s": "We include installation for local customers. For remote areas a small fee applies."
+        },
+        {
+          "p": "Give me a short summary why I should trust your company.",
+          "m": "Tóm tắt 2 lý do chính để tin tưởng (kinh nghiệm, phản hồi khách hàng).",
+          "h": "Use 'We have...' and 'and' to join reasons.",
+          "s": "We have ten years of experience and many positive customer reviews."
+        }
+      ]
+    }
+  ]
+}

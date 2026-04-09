@@ -1,0 +1,530 @@
+{
+  "l": 1,
+  "d": [
+    {
+      "t": "Gặp khách hàng mới",
+      "e": [
+        {
+          "p": "I am looking for a phone.",
+          "m": "Nói rằng bạn có một chiếc điện thoại.",
+          "h": "S + have + a/an + N",
+          "s": "We have a phone."
+        },
+        {
+          "p": "Is it new?",
+          "m": "Nói rằng sản phẩm mới.",
+          "h": "S + be + Adj",
+          "s": "It is new."
+        },
+        {
+          "p": "How much is it?",
+          "m": "Nói giá đơn giản (số).",
+          "h": "S + be + số",
+          "s": "It is 50 dollars."
+        },
+        {
+          "p": "Can I try it?",
+          "m": "Nói rằng khách có thể thử.",
+          "h": "You can + V",
+          "s": "You can try it."
+        },
+        {
+          "p": "I think it is expensive.",
+          "m": "Đưa ra một lời đề nghị giảm giá nhỏ.",
+          "h": "I can + V",
+          "s": "I can lower the price."
+        }
+      ]
+    },
+    {
+      "t": "Hỏi về nhu cầu",
+      "e": [
+        {
+          "p": "What do you need?",
+          "m": "Nói loại sản phẩm khách cần.",
+          "h": "I need + N",
+          "s": "I need a phone."
+        },
+        {
+          "p": "Do you want a small phone?",
+          "m": "Trả lời có hoặc không + lí do ngắn.",
+          "h": "Yes/No + because + clause",
+          "s": "No, I want a big phone."
+        },
+        {
+          "p": "Do you use it every day?",
+          "m": "Nói rằng bạn dùng hàng ngày hoặc không.",
+          "h": "I use / I do not use",
+          "s": "I use it every day."
+        },
+        {
+          "p": "Do you want a fast phone?",
+          "m": "Nói rằng bạn cần tốc độ hoặc không.",
+          "h": "I need / I do not need",
+          "s": "I need a fast phone."
+        },
+        {
+          "p": "I am not sure what I need.",
+          "m": "Đề nghị một lựa chọn đơn giản cho khách.",
+          "h": "I suggest + N / You can + V",
+          "s": "You can choose this phone."
+        }
+      ]
+    },
+    {
+      "t": "Nói về giá",
+      "e": [
+        {
+          "p": "This price is high.",
+          "m": "Nói rằng giá có thể giảm một chút.",
+          "h": "I can + V",
+          "s": "I can give a small discount."
+        },
+        {
+          "p": "Can you lower the price?",
+          "m": "Trả lời có thể giảm hay không.",
+          "h": "We can / We can not",
+          "s": "We can lower the price."
+        },
+        {
+          "p": "I have no money now.",
+          "m": "Đưa ra một cách thanh toán đơn giản (ví dụ: trả góp).",
+          "h": "You can + V",
+          "s": "You can pay in two parts."
+        },
+        {
+          "p": "Do you have a cheaper one?",
+          "m": "Nói có sản phẩm rẻ hơn hay không.",
+          "h": "We have / We do not have",
+          "s": "We have a cheaper model."
+        },
+        {
+          "p": "I want a big discount.",
+          "m": "Từ chối nhẹ nhàng và đưa tin tốt (ví dụ giảm nhỏ).",
+          "h": "I can not / I can",
+          "s": "I can not give a big discount, but I can lower it a little."
+        }
+      ]
+    },
+    {
+      "t": "Lo lắng về chất lượng",
+      "e": [
+        {
+          "p": "Is this phone good?",
+          "m": "Nói rằng sản phẩm tốt.",
+          "h": "S + be + Adj",
+          "s": "It is good."
+        },
+        {
+          "p": "Does it work well?",
+          "m": "Xác nhận hoạt động tốt.",
+          "h": "It works + Adv",
+          "s": "It works well."
+        },
+        {
+          "p": "I am afraid it will break.",
+          "m": "Đưa ra cam kết ngắn về đổi trả (ví dụ: chúng tôi đổi).",
+          "h": "We can + V",
+          "s": "We can replace it if it breaks."
+        },
+        {
+          "p": "How long does it last?",
+          "m": "Nói thời gian đơn giản (ví dụ: một năm).",
+          "h": "It lasts + thời gian",
+          "s": "It lasts one year."
+        },
+        {
+          "p": "I do not trust new brands.",
+          "m": "Đưa một lý do ngắn tại sao sản phẩm đáng tin cậy.",
+          "h": "It has / It is",
+          "s": "It has good reviews."
+        }
+      ]
+    },
+    {
+      "t": "Khách cần thời gian",
+      "e": [
+        {
+          "p": "I need time to think.",
+          "m": "Cho biết khách có thể suy nghĩ và bạn chờ.",
+          "h": "You can + V",
+          "s": "You can think, I will wait."
+        },
+        {
+          "p": "Can I come tomorrow?",
+          "m": "Xác nhận rằng khách có thể quay lại ngày mai.",
+          "h": "You can + V",
+          "s": "You can come tomorrow."
+        },
+        {
+          "p": "I will check with my wife.",
+          "m": "Nói rằng họ có thể gọi lại hoặc quay lại cửa hàng.",
+          "h": "You can + V",
+          "s": "You can call us later."
+        },
+        {
+          "p": "I need one week.",
+          "m": "Đưa ra lựa chọn giữ hàng trong thời gian ngắn.",
+          "h": "We can + V",
+          "s": "We can hold it for one week."
+        },
+        {
+          "p": "I am not ready to buy now.",
+          "m": "Đề nghị một bước nhỏ để khách dễ quyết định (ví dụ: thử sản phẩm).",
+          "h": "You can + V / Try + N",
+          "s": "You can try the phone first."
+        }
+      ]
+    },
+    {
+      "t": "Khách không tin sản phẩm",
+      "e": [
+        {
+          "p": "I do not know this brand.",
+          "m": "Nói rằng thương hiệu có khách hàng (ngắn).",
+          "h": "It has + N",
+          "s": "It has many customers."
+        },
+        {
+          "p": "Is the battery good?",
+          "m": "Xác nhận pin tốt hay không.",
+          "h": "It has / It is",
+          "s": "It has a good battery."
+        },
+        {
+          "p": "I am afraid of a bad phone.",
+          "m": "Đưa cam kết đổi trả ngắn.",
+          "h": "We can + V",
+          "s": "We can return it if you are not happy."
+        },
+        {
+          "p": "Who makes this phone?",
+          "m": "Nói tên hãng đơn giản (dùng một từ hoặc hai).",
+          "h": "It is made by + N",
+          "s": "It is made by a known brand."
+        },
+        {
+          "p": "I want proof.",
+          "m": "Đề nghị nhìn đánh giá hoặc thử sản phẩm.",
+          "h": "You can + V",
+          "s": "You can read the reviews."
+        }
+      ]
+    },
+    {
+      "t": "Màu và kích thước",
+      "e": [
+        {
+          "p": "Do you have red color?",
+          "m": "Trả lời có hoặc không + đề xuất màu khác.",
+          "h": "We have / We do not have",
+          "s": "We have a red one."
+        },
+        {
+          "p": "I want a small size.",
+          "m": "Nói rằng có kích thước nhỏ.",
+          "h": "We have + N",
+          "s": "We have a small size."
+        },
+        {
+          "p": "The color is not nice.",
+          "m": "Đưa một lựa chọn màu khác ngắn gọn.",
+          "h": "You can + V / We have + N",
+          "s": "You can choose blue."
+        },
+        {
+          "p": "Do you have other sizes?",
+          "m": "Xác nhận có hay không.",
+          "h": "We have / We do not have",
+          "s": "We have other sizes."
+        },
+        {
+          "p": "I need a blue one only.",
+          "m": "Nói về khả năng đặt hàng hoặc tìm hàng cho màu đó.",
+          "h": "We can + V",
+          "s": "We can order a blue one."
+        }
+      ]
+    },
+    {
+      "t": "Thanh toán và trả góp",
+      "e": [
+        {
+          "p": "Can I pay by card?",
+          "m": "Trả lời có hoặc không ngắn.",
+          "h": "You can / You can not",
+          "s": "You can pay by card."
+        },
+        {
+          "p": "Do you have installment?",
+          "m": "Nói rằng có trả góp hay không.",
+          "h": "We have / We do not have",
+          "s": "We have an installment plan."
+        },
+        {
+          "p": "I want to pay later.",
+          "m": "Đưa ra lựa chọn trả sau ngắn (ví dụ: trả trong 2 lần).",
+          "h": "You can + V",
+          "s": "You can pay in two parts."
+        },
+        {
+          "p": "Is there a fee?",
+          "m": "Trả lời về phí đơn giản (có hoặc không).",
+          "h": "There is / There is no",
+          "s": "There is no fee."
+        },
+        {
+          "p": "I do not like cash.",
+          "m": "Đề nghị phương thức thanh toán khác.",
+          "h": "You can + V",
+          "s": "You can pay by card."
+        }
+      ]
+    },
+    {
+      "t": "Khách đã có sản phẩm",
+      "e": [
+        {
+          "p": "I already have a phone.",
+          "m": "Hỏi nếu khách muốn thay máy hoặc mua thêm.",
+          "h": "Do you + V?",
+          "s": "Do you want a new one?"
+        },
+        {
+          "p": "I have a good phone now.",
+          "m": "Đề nghị lý do để đổi (ví dụ: tính năng mới).",
+          "h": "It has + N",
+          "s": "This phone has new features."
+        },
+        {
+          "p": "I like my old phone.",
+          "m": "Đưa một lợi ích ngắn của sản phẩm mới.",
+          "h": "It is + Adj / It has + N",
+          "s": "It is faster than your old phone."
+        },
+        {
+          "p": "I do not want two phones.",
+          "m": "Đưa lựa chọn đổi cũ lấy mới ngắn.",
+          "h": "You can + V",
+          "s": "You can trade your old phone."
+        },
+        {
+          "p": "I use my phone a lot now.",
+          "m": "Nói vì sao sản phẩm mới vẫn hữu ích cho người dùng nhiều.",
+          "h": "It helps + V",
+          "s": "It helps you use apps faster."
+        }
+      ]
+    },
+    {
+      "t": "So sánh với đối thủ",
+      "e": [
+        {
+          "p": "This brand is cheaper.",
+          "m": "Nói điều tốt của sản phẩm bạn bán (ngắn).",
+          "h": "It is + Adj / It has + N",
+          "s": "It is better quality."
+        },
+        {
+          "p": "Their phone has a big screen.",
+          "m": "So sánh tính năng đơn giản.",
+          "h": "Our phone + V + more/less",
+          "s": "Our phone has a better camera."
+        },
+        {
+          "p": "I can buy from them now.",
+          "m": "Đưa lý do để mua ở bạn (ví dụ: dịch vụ).",
+          "h": "We offer + N",
+          "s": "We offer free service."
+        },
+        {
+          "p": "They give a big discount.",
+          "m": "Trả lời về khả năng cạnh tranh (ngắn).",
+          "h": "We can / We can not",
+          "s": "We can match the discount."
+        },
+        {
+          "p": "I want the best deal.",
+          "m": "Đưa một đề nghị ngắn hợp lý cho khách.",
+          "h": "I can + V",
+          "s": "I can give an extra gift."
+        }
+      ]
+    },
+    {
+      "t": "Khách muốn giảm giá lớn",
+      "e": [
+        {
+          "p": "Can you give 50% off?",
+          "m": "Từ chối nhẹ nhàng một giảm giá lớn.",
+          "h": "I can not + V",
+          "s": "I can not give fifty percent off."
+        },
+        {
+          "p": "I want free accessories.",
+          "m": "Trả lời có hoặc không + đề nghị khác nếu không thể.",
+          "h": "We can / We can not",
+          "s": "We can give one free case."
+        },
+        {
+          "p": "Give me a better price.",
+          "m": "Đưa một giảm giá nhỏ cụ thể.",
+          "h": "I can + V",
+          "s": "I can lower the price by five dollars."
+        },
+        {
+          "p": "I need a big gift too.",
+          "m": "Đề nghị một món quà nhỏ thay thế.",
+          "h": "We can + V",
+          "s": "We can give a free charger."
+        },
+        {
+          "p": "If you do not give a big discount, I leave.",
+          "m": "Giữ khách bằng một đề nghị ngắn hợp lý.",
+          "h": "I can + V / You can + V",
+          "s": "I can add a small gift if you stay."
+        }
+      ]
+    },
+    {
+      "t": "Khách muốn thử trước khi mua",
+      "e": [
+        {
+          "p": "Can I try the phone now?",
+          "m": "Cho phép thử ngay.",
+          "h": "You can + V",
+          "s": "You can try it now."
+        },
+        {
+          "p": "How do I try it?",
+          "m": "Nói bước thử đơn giản (một hành động).",
+          "h": "You can + V",
+          "s": "You can turn it on and use it."
+        },
+        {
+          "p": "I want to test the camera.",
+          "m": "Cho phép thử camera ngắn gọn.",
+          "h": "You can + V",
+          "s": "You can test the camera here."
+        },
+        {
+          "p": "Do you have a demo model?",
+          "m": "Xác nhận có hay không và nơi thử.",
+          "h": "We have / We do not have",
+          "s": "We have a demo model here."
+        },
+        {
+          "p": "If I do not like it, can I return?",
+          "m": "Nói về chính sách trả lại ngắn (có hoặc không).",
+          "h": "You can / You can not",
+          "s": "You can return it in seven days."
+        }
+      ]
+    },
+    {
+      "t": "Ôn tập: Phản đối về giá và chất lượng",
+      "e": [
+        {
+          "p": "The price is too high for me.",
+          "m": "Đưa một giảm giá nhỏ cụ thể.",
+          "h": "I can + V",
+          "s": "I can lower the price by five dollars."
+        },
+        {
+          "p": "I worry the phone is not good.",
+          "m": "Cam kết đổi trả nếu khách không hài lòng.",
+          "h": "We can + V",
+          "s": "We can replace it if you are not happy."
+        },
+        {
+          "p": "I need proof of quality.",
+          "m": "Đề nghị xem đánh giá hoặc thử sản phẩm.",
+          "h": "You can + V",
+          "s": "You can read the reviews."
+        },
+        {
+          "p": "Do you give a discount for cash?",
+          "m": "Trả lời có hay không ngắn gọn.",
+          "h": "We can / We can not",
+          "s": "We can give a small discount for cash."
+        },
+        {
+          "p": "I am not sure about the brand.",
+          "m": "Nói một lý do đơn giản tại sao thương hiệu tốt.",
+          "h": "It has / It is",
+          "s": "It has many good reviews."
+        }
+      ]
+    },
+    {
+      "t": "Ôn tập: Thời gian và lựa chọn",
+      "e": [
+        {
+          "p": "I need time to decide.",
+          "m": "Nói rằng khách có thể suy nghĩ và bạn chờ.",
+          "h": "You can + V",
+          "s": "You can think and come back tomorrow."
+        },
+        {
+          "p": "Can you hold the phone?",
+          "m": "Xác nhận giữ hàng trong thời gian ngắn.",
+          "h": "We can + V",
+          "s": "We can hold it for two days."
+        },
+        {
+          "p": "I will ask my friend.",
+          "m": "Đề nghị cách liên hệ lại đơn giản.",
+          "h": "You can + V",
+          "s": "You can call us later."
+        },
+        {
+          "p": "I want time for a test.",
+          "m": "Cho phép thử và nói thời gian thử ngắn.",
+          "h": "You can + V / for + thời gian",
+          "s": "You can try it for one hour."
+        },
+        {
+          "p": "If I decide now, is there a bonus?",
+          "m": "Đưa một món quà nhỏ nếu khách mua ngay.",
+          "h": "We can + V",
+          "s": "We can give a free case if you buy now."
+        }
+      ]
+    },
+    {
+      "t": "Ôn tập: So sánh và quyết định",
+      "e": [
+        {
+          "p": "Their phone is cheaper and nice.",
+          "m": "Nói một lợi ích ngắn của sản phẩm bạn bán.",
+          "h": "It is + Adj / It has + N",
+          "s": "It has a better camera."
+        },
+        {
+          "p": "I want the best phone for price.",
+          "m": "Đề nghị một lựa chọn tốt với giá hợp lý.",
+          "h": "I suggest + N",
+          "s": "I suggest this model for value."
+        },
+        {
+          "p": "Do you have a special offer?",
+          "m": "Nói về ưu đãi ngắn (giảm hoặc quà).",
+          "h": "We have + N / We can + V",
+          "s": "We have a small discount today."
+        },
+        {
+          "p": "I will buy if you help me.",
+          "m": "Đưa một hỗ trợ ngắn (ví dụ: hướng dẫn dùng).",
+          "h": "We can + V",
+          "s": "We can show you how to use it."
+        },
+        {
+          "p": "I decide now, can you pack it?",
+          "m": "Xác nhận đóng gói và bán ngay.",
+          "h": "We can + V",
+          "s": "We can pack it now."
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,530 @@
+{
+  "l": 2,
+  "d": [
+    {
+      "t": "Chào khách tại cửa hàng",
+      "e": [
+        {
+          "p": "How can I help you today?",
+          "m": "Nói bạn cần gì. Nói bạn có muốn giúp không.",
+          "h": "S + need/want; Yes/No + I + need/want",
+          "s": "I need a small table. Yes, I need help, please."
+        },
+        {
+          "p": "Are you looking for something specific?",
+          "m": "Nói bạn đang tìm món gì. Nói vì sao bạn cần nó.",
+          "h": "S + be + V-ing; cause: because + simple reason",
+          "s": "I am looking for a cold drink. Because I am hot."
+        },
+        {
+          "p": "Do you like our new menu?",
+          "m": "Nói bạn có thích hay không. Nói 1 điều bạn thích hoặc không thích.",
+          "h": "I like / I don't like + N or V-ing",
+          "s": "I like the new menu. I like the cheap drinks."
+        },
+        {
+          "p": "How many people are with you?",
+          "m": "Nói số người cùng bạn. Nói nếu bạn cần bàn lớn hay nhỏ.",
+          "h": "There are + number + people; I need a + big/small + table",
+          "s": "There are three people. I need a big table."
+        },
+        {
+          "p": "Would you like to sit inside or outside?",
+          "m": "Nói bạn muốn ngồi ở đâu. Nói lý do đơn giản cho lựa chọn của bạn.",
+          "h": "I want + place; because + reason",
+          "s": "I want to sit outside. Because it is sunny."
+        }
+      ]
+    },
+    {
+      "t": "Hỏi về trải nghiệm hôm nay",
+      "e": [
+        {
+          "p": "How was your visit today?",
+          "m": "Nói trải nghiệm của bạn tốt hay xấu. Nói 1 điều cụ thể bạn thích hoặc không thích.",
+          "h": "It was + good/bad; I liked/didn't like + N",
+          "s": "It was good. I liked the fast service."
+        },
+        {
+          "p": "Did the staff help you well?",
+          "m": "Nói nhân viên có giúp tốt không. Nói 1 ví dụ đơn giản.",
+          "h": "Yes/No + they + V (past) or They + were + helpful",
+          "s": "Yes, they helped well. They gave clear information."
+        },
+        {
+          "p": "Is the place clean for you?",
+          "m": "Nói nơi có sạch không. Nói 1 điểm về sạch sẽ.",
+          "h": "It is/It isn't + adjective; There is/are + N",
+          "s": "It is clean. There are no dirty tables."
+        },
+        {
+          "p": "Do you usually come here often?",
+          "m": "Nói bạn có thường đến đây không. Nói tần suất đơn giản.",
+          "h": "I often / sometimes / never + V",
+          "s": "I sometimes come here. I come here once a week."
+        },
+        {
+          "p": "Would you tell us one thing to improve?",
+          "m": "Nói 1 điều bạn muốn thay đổi. Nói lý do ngắn cho thay đổi đó.",
+          "h": "I want + N/to + V; because + reason",
+          "s": "I want faster service. Because I am usually in a hurry."
+        }
+      ]
+    },
+    {
+      "t": "Hỏi về một dịch vụ cụ thể",
+      "e": [
+        {
+          "p": "Do you need a clean towel?",
+          "m": "Nói có cần khăn sạch không. Nói số lượng nếu cần.",
+          "h": "Yes/No + I need + number + N",
+          "s": "Yes, I need one towel. I need it now."
+        },
+        {
+          "p": "Are you enjoying the meal?",
+          "m": "Nói bạn có đang thích món ăn không. Nói 1 chi tiết bạn thích.",
+          "h": "I am enjoying / I am not enjoying; I like + N",
+          "s": "I am enjoying the meal. I like the tasty soup."
+        },
+        {
+          "p": "Would you like more water?",
+          "m": "Nói có muốn thêm nước không. Nói bạn muốn bao nhiêu.",
+          "h": "Yes/No + I want + some/more + N; number if needed",
+          "s": "Yes, I want more water. Two glasses, please."
+        },
+        {
+          "p": "Is the temperature OK for you?",
+          "m": "Nói nhiệt độ có ổn không. Nói bạn muốn nóng hay lạnh hơn.",
+          "h": "It is + hot/cold/OK; I want it + hotter/colder",
+          "s": "It is OK. I want it colder, please."
+        },
+        {
+          "p": "How much time do you need for your order?",
+          "m": "Nói bạn cần bao lâu. Nói nếu bạn đang vội hay không.",
+          "h": "I need + time; I am/I'm not + in a hurry",
+          "s": "I need ten minutes. I am in a hurry."
+        }
+      ]
+    },
+    {
+      "t": "Gặp khách và giới thiệu dịch vụ",
+      "e": [
+        {
+          "p": "Welcome. Can I show you our services?",
+          "m": "Nói bạn có muốn xem dịch vụ không. Nói bạn thích dịch vụ nào.",
+          "h": "Yes/No + I want to + V; I like + N",
+          "s": "Yes, I want to see them. I like the quick delivery service."
+        },
+        {
+          "p": "We have a new fast check-out. Do you want it?",
+          "m": "Nói bạn có muốn dùng check-out nhanh không. Nói lý do ngắn.",
+          "h": "I want / I don't want + to + V; because + reason",
+          "s": "I want to try it. Because I don't like waiting."
+        },
+        {
+          "p": "The staff is helping customers now. Do you need help too?",
+          "m": "Nói bạn có cần giúp ngay không. Nói bạn sẽ đợi hay không.",
+          "h": "Yes/No + I need help / I will wait",
+          "s": "No, I will wait. I can look around now."
+        },
+        {
+          "p": "Do you prefer phone or email support?",
+          "m": "Nói bạn thích hỗ trợ bằng gì. Nói vì sao bạn chọn cách đó.",
+          "h": "I prefer + phone/email; because + reason",
+          "s": "I prefer phone support. Because it is faster."
+        },
+        {
+          "p": "Can I take your feedback later?",
+          "m": "Nói bạn có thể cho phản hồi sau không. Nói khi nào bạn rảnh.",
+          "h": "Yes/No + I can + V; I am free + time phrase",
+          "s": "Yes, I can give feedback later. I am free tomorrow morning."
+        }
+      ]
+    },
+    {
+      "t": "Xử lý khi khách cần giúp",
+      "e": [
+        {
+          "p": "I'm sorry. Do you need help now?",
+          "m": "Nói có cần giúp ngay không. Nói vấn đề ngắn gọn.",
+          "h": "Yes/No + I need + N; state problem",
+          "s": "Yes, I need help now. My bag is stuck."
+        },
+        {
+          "p": "Can I fix this problem for you?",
+          "m": "Nói bạn có muốn họ sửa không. Nói bạn muốn họ làm gì.",
+          "h": "Yes/No + Please + V; I want you to + V",
+          "s": "Yes, please fix it. I want you to open the door."
+        },
+        {
+          "p": "Do you prefer a quick solution or a full check?",
+          "m": "Nói bạn muốn giải pháp nhanh hay kiểm tra đầy đủ. Nói lý do ngắn.",
+          "h": "I prefer + quick/full check; because + reason",
+          "s": "I prefer a quick solution. Because I must leave soon."
+        },
+        {
+          "p": "Is it OK if we call a manager?",
+          "m": "Nói có được gọi quản lý không. Nói bạn muốn nói với quản lý hay không.",
+          "h": "Yes/No + it's OK; I want / don't want to + speak",
+          "s": "Yes, it's OK. I want to speak with the manager."
+        },
+        {
+          "p": "Would you like a small gift for the trouble?",
+          "m": "Nói bạn có muốn quà nhỏ không. Nói bạn có hài lòng nếu nhận quà.",
+          "h": "Yes/No + I would like / I am happy with + N",
+          "s": "Yes, I would like a small gift. I am happy with that."
+        }
+      ]
+    },
+    {
+      "t": "Gợi ý lựa chọn dịch vụ",
+      "e": [
+        {
+          "p": "We have two options: fast or cheap. Which do you want?",
+          "m": "Chọn nhanh hoặc rẻ. Nói lý do ngắn cho lựa chọn.",
+          "h": "I want + fast/cheap; because + reason",
+          "s": "I want the fast option. Because I am in a hurry."
+        },
+        {
+          "p": "Do you like extra help from staff?",
+          "m": "Nói bạn có thích hỗ trợ thêm không. Nói 1 ví dụ về hỗ trợ bạn muốn.",
+          "h": "I like / I don't like + N; I want help with + N",
+          "s": "I like extra help. I want help with my luggage."
+        },
+        {
+          "p": "Would you try our new service today?",
+          "m": "Nói có thử dịch vụ mới không. Nói bạn thích điều gì ở dịch vụ.",
+          "h": "Yes/No + I will try; I like + N",
+          "s": "Yes, I will try it. I like the low price."
+        },
+        {
+          "p": "Is a short or long service better for you?",
+          "m": "Chọn dịch vụ ngắn hay dài. Nói vì sao bạn chọn như vậy.",
+          "h": "I prefer + short/long; because + reason",
+          "s": "I prefer a short service. Because I have little time."
+        },
+        {
+          "p": "Do you want us to explain the steps?",
+          "m": "Nói bạn có muốn giải thích không. Nói bạn muốn giải thích nhanh hay chi tiết.",
+          "h": "Yes/No + I want + quick/detailed explanation",
+          "s": "Yes, I want an explanation. Please explain it quickly."
+        }
+      ]
+    },
+    {
+      "t": "Nói về lịch trình và thời gian chờ",
+      "e": [
+        {
+          "p": "How long is the wait now?",
+          "m": "Nói thời gian chờ bạn muốn. Nói bạn có thể đợi hay không.",
+          "h": "I can wait + time / I cannot wait; I need + time",
+          "s": "I can wait ten minutes. I cannot wait longer."
+        },
+        {
+          "p": "Do you have an appointment?",
+          "m": "Nói bạn có hẹn không. Nói bạn đã đến sớm hay muộn.",
+          "h": "Yes/No + I have/don't have an appointment; I am early/late",
+          "s": "Yes, I have an appointment. I am early by ten minutes."
+        },
+        {
+          "p": "Would you like to change your time?",
+          "m": "Nói bạn có muốn đổi giờ không. Nói giờ mới bạn muốn.",
+          "h": "Yes/No + I want to change to + time",
+          "s": "Yes, I want to change to three o'clock. That time is better."
+        },
+        {
+          "p": "Are you waiting for a service or a person?",
+          "m": "Nói bạn đang đợi dịch vụ hay ai đó. Nói tên dịch vụ hoặc người (ngắn).",
+          "h": "I am waiting for + service/person",
+          "s": "I am waiting for my haircut. The stylist is late."
+        },
+        {
+          "p": "Can we text you when it's ready?",
+          "m": "Nói bạn có muốn nhận tin nhắn không. Nói bạn thích nhận bằng gì (phone/email).",
+          "h": "Yes/No + I want + phone/email notification",
+          "s": "Yes, I want a phone text. My phone is ready now."
+        }
+      ]
+    },
+    {
+      "t": "Hỏi về thói quen sử dụng dịch vụ",
+      "e": [
+        {
+          "p": "How often do you use our service?",
+          "m": "Nói tần suất bạn dùng dịch vụ. Nói ví dụ thời gian cụ thể.",
+          "h": "I often/sometimes/never + V; every + time phrase",
+          "s": "I often use your service. I come every month."
+        },
+        {
+          "p": "Do you use other services like ours?",
+          "m": "Nói có dùng dịch vụ khác không. Nói điều bạn thích ở dịch vụ khác.",
+          "h": "Yes/No + I use + other service; I like + N",
+          "s": "Yes, I use another shop. I like their friendly staff."
+        },
+        {
+          "p": "Are you happy with our price?",
+          "m": "Nói bạn có hài lòng về giá không. Nói nếu bạn muốn giá rẻ hơn hay không.",
+          "h": "I am/I'm not happy; I want it cheaper / it is OK",
+          "s": "I am happy with the price. It is good for me."
+        },
+        {
+          "p": "Would you recommend us to friends?",
+          "m": "Nói bạn có giới thiệu không. Nói lý do ngắn cho trả lời.",
+          "h": "I would / wouldn't recommend + because + reason",
+          "s": "I would recommend you. Because the staff is kind."
+        },
+        {
+          "p": "What time do you usually come here?",
+          "m": "Nói thời gian bạn thường đến. Nói 1 ngày hoặc giờ cụ thể.",
+          "h": "I usually come at + time/day",
+          "s": "I usually come at six pm. I come on Sunday evenings."
+        }
+      ]
+    },
+    {
+      "t": "Giải quyết phàn nàn đơn giản",
+      "e": [
+        {
+          "p": "I'm sorry the item is missing. Do you want a refund?",
+          "m": "Nói bạn có muốn hoàn tiền không. Nói bạn muốn đổi hay hoàn.",
+          "h": "Yes/No + I want a refund/exchange",
+          "s": "Yes, I want a refund. I do not want an exchange."
+        },
+        {
+          "p": "The food is cold. Would you like a new dish?",
+          "m": "Nói bạn có muốn món mới không. Nói bạn muốn chờ hay lấy luôn.",
+          "h": "Yes/No + I want a new dish; I will wait / I want it now",
+          "s": "Yes, I want a new dish. I will wait for it."
+        },
+        {
+          "p": "We can fix it now. Is that OK?",
+          "m": "Nói có ổn để sửa ngay không. Nói bạn muốn họ sửa hay đổi dịch vụ.",
+          "h": "Yes/No + It's OK; I want you to + V",
+          "s": "Yes, it's OK to fix it. I want you to clean it now."
+        },
+        {
+          "p": "Do you want a small discount for the trouble?",
+          "m": "Nói bạn có muốn giảm giá nhỏ không. Nói nếu bạn thấy công bằng hay không.",
+          "h": "Yes/No + I want a discount; It is fair / not fair",
+          "s": "Yes, I want a small discount. It is fair for the problem."
+        },
+        {
+          "p": "Can we call you after we check this?",
+          "m": "Nói bạn có muốn họ gọi sau không. Nói thời gian bạn có thể nghe.",
+          "h": "Yes/No + Call me at + time; I can hear at + time",
+          "s": "Yes, call me later. I can hear at five pm."
+        }
+      ]
+    },
+    {
+      "t": "Theo dõi sau dịch vụ",
+      "e": [
+        {
+          "p": "Did everything go well after your visit?",
+          "m": "Nói mọi thứ ổn hay không. Nói 1 chi tiết về kết quả.",
+          "h": "It went well/It didn't; I feel + adjective / There is + N",
+          "s": "It went well. I feel happy with the result."
+        },
+        {
+          "p": "Do you need another appointment?",
+          "m": "Nói bạn có cần hẹn lại không. Nói khi nào bạn muốn hẹn.",
+          "h": "Yes/No + I need another appointment; on + day/time",
+          "s": "Yes, I need another appointment. On next Monday morning."
+        },
+        {
+          "p": "Would you give a short feedback now?",
+          "m": "Nói bạn có thể nói nhanh phản hồi không. Nói 1 điều bạn thích nhất.",
+          "h": "Yes/No + I can give feedback; I liked + N",
+          "s": "Yes, I can give feedback now. I liked the friendly staff."
+        },
+        {
+          "p": "Is there any problem after the service?",
+          "m": "Nói có vấn đề gì không. Nói vấn đề ngắn nếu có.",
+          "h": "No problem / There is a problem; describe briefly",
+          "s": "There is a small problem. The phone is not charging."
+        },
+        {
+          "p": "Can we help you with anything else?",
+          "m": "Nói bạn có cần giúp gì thêm không. Nói rõ nếu bạn cần.",
+          "h": "Yes/No + I need + N; I need help with + N",
+          "s": "No, I don't need anything else. Thank you."
+        }
+      ]
+    },
+    {
+      "t": "Thực hiện khảo sát ngắn với khách",
+      "e": [
+        {
+          "p": "Please rate our service: good or bad?",
+          "m": "Chọn good hoặc bad. Nói 1 lý do ngắn cho lựa chọn.",
+          "h": "I think + good/bad; because + reason",
+          "s": "I think good. Because the staff is fast."
+        },
+        {
+          "p": "Was the staff friendly today?",
+          "m": "Nói nhân viên có thân thiện không. Nói 1 ví dụ ngắn.",
+          "h": "They were/They weren't; They + V (past)",
+          "s": "They were friendly. They smiled and helped quickly."
+        },
+        {
+          "p": "Is the price fair for you?",
+          "m": "Nói giá có công bằng không. Nói bạn thấy rẻ hay đắt.",
+          "h": "It is fair / It is expensive / It is cheap",
+          "s": "It is fair. It is not too expensive."
+        },
+        {
+          "p": "Would you come back next time?",
+          "m": "Nói bạn có trở lại không. Nói 1 điều làm bạn muốn quay lại.",
+          "h": "I will / I won't + come back; because + reason",
+          "s": "I will come back. Because the place is clean."
+        },
+        {
+          "p": "Do you want to add a comment?",
+          "m": "Viết 1 câu bình luận ngắn. Nói điều bạn muốn thay đổi nếu có.",
+          "h": "I suggest + simple change; I want + N",
+          "s": "I suggest more chairs. I want faster service."
+        }
+      ]
+    },
+    {
+      "t": "Nói với đồng nghiệp về phản hồi khách",
+      "e": [
+        {
+          "p": "A customer says the wait is long.",
+          "m": "Nói bạn nghe phản hồi gì. Nói bạn có làm gì ngay hay không.",
+          "h": "The customer says + clause; I will / I won't + V",
+          "s": "The customer says the wait is long. I will tell the manager."
+        },
+        {
+          "p": "They liked our quick help today.",
+          "m": "Tóm tắt điểm khách khen. Nói bạn sẽ giữ điểm này hay cải thiện.",
+          "h": "They liked + N; I will keep / improve + N",
+          "s": "They liked our quick help. I will keep this service."
+        },
+        {
+          "p": "A guest asked for cleaner tables.",
+          "m": "Nói yêu cầu của khách. Nói việc bạn sẽ làm để đáp ứng.",
+          "h": "The guest asked for + N; I will + V",
+          "s": "The guest asked for cleaner tables. I will clean them now."
+        },
+        {
+          "p": "We need more napkins at lunch.",
+          "m": "Nói vấn đề thực tế. Nói đề xuất ngắn để giải quyết.",
+          "h": "We need + N; I suggest + V/ing or get + N",
+          "s": "We need more napkins at lunch. I suggest we put extra packs out."
+        },
+        {
+          "p": "Should we call a quick meeting now?",
+          "m": "Trả lời có họp không. Nói khi nào họp nếu có.",
+          "h": "Yes/No + Let's + V; at + time",
+          "s": "Yes, let's meet now. At two pm is good."
+        }
+      ]
+    },
+    {
+      "t": "Ôn tập: Tương tác với khách trong cửa hàng",
+      "e": [
+        {
+          "p": "Welcome back. Do you need help today?",
+          "m": "Nói bạn cần gì. Nói bạn có muốn xem menu mới không.",
+          "h": "I need + N; Yes/No + I want to see",
+          "s": "I need a chair. Yes, I want to see the new menu."
+        },
+        {
+          "p": "How was your last visit with us?",
+          "m": "Nói lần trước bạn thấy thế nào. Nói 1 điều bạn muốn thay đổi.",
+          "h": "It was + good/bad; I want + change",
+          "s": "It was good. I want faster checkout."
+        },
+        {
+          "p": "Do you prefer inside or outside seating?",
+          "m": "Chọn nơi ngồi. Nói lý do ngắn.",
+          "h": "I prefer + inside/outside; because + reason",
+          "s": "I prefer inside. Because it is quiet."
+        },
+        {
+          "p": "Would you like a short or full service?",
+          "m": "Chọn dịch vụ ngắn hay đầy đủ. Nói 1 lý do.",
+          "h": "I want + short/full service; because + reason",
+          "s": "I want a full service. Because I need all help."
+        },
+        {
+          "p": "Can we ask one quick survey?",
+          "m": "Nói có trả lời khảo sát không. Nói bạn thích khảo sát bằng gì.",
+          "h": "Yes/No + I can answer; by + phone/email",
+          "s": "Yes, I can answer. By phone is fine."
+        }
+      ]
+    },
+    {
+      "t": "Ôn tập: Xử lý phàn nàn và xin lỗi",
+      "e": [
+        {
+          "p": "We are sorry for the delay. Do you want something now?",
+          "m": "Nói bạn có muốn món bù không. Nói bạn nhận hay muốn hoàn tiền.",
+          "h": "Yes/No + I want + N / I want a refund",
+          "s": "Yes, I want a free drink. I don't want a refund."
+        },
+        {
+          "p": "The staff apologizes. Is that enough for you?",
+          "m": "Nói lời xin lỗi có đủ không. Nói bạn cần thêm gì nữa.",
+          "h": "It is enough / not enough; I need + N",
+          "s": "It is not enough. I need a small discount."
+        },
+        {
+          "p": "We can fix the issue now. Is that OK?",
+          "m": "Nói có đồng ý sửa không. Nói bạn muốn họ sửa ngay hay sau.",
+          "h": "Yes/No + It's OK; I want it now/later",
+          "s": "Yes, it's OK to fix it. I want it fixed now."
+        },
+        {
+          "p": "Would you like a manager to speak with you?",
+          "m": "Nói có muốn gặp quản lý không. Nói bạn có thể gặp khi nào.",
+          "h": "Yes/No + I want to meet; at + time",
+          "s": "No, I don't want to meet the manager. I am fine now."
+        },
+        {
+          "p": "Can we offer a small gift to make up?",
+          "m": "Nói bạn có nhận quà không. Nói bạn có hài lòng nếu nhận quà.",
+          "h": "Yes/No + I will accept; I am happy with + N",
+          "s": "Yes, I will accept the gift. I am happy with that."
+        }
+      ]
+    },
+    {
+      "t": "Ôn tập: Khảo sát và cải tiến dịch vụ",
+      "e": [
+        {
+          "p": "Please tell one thing you liked today.",
+          "m": "Nói 1 điều bạn thích. Nói ngắn vì sao bạn thích.",
+          "h": "I liked + N; because + reason",
+          "s": "I liked the quick service. Because staff was friendly."
+        },
+        {
+          "p": "What one thing should we change?",
+          "m": "Nói 1 điều cần thay đổi. Nói lý do ngắn.",
+          "h": "I want you to change + N; because + reason",
+          "s": "I want you to change the noisy music. Because it is loud."
+        },
+        {
+          "p": "Would you use our service again after changes?",
+          "m": "Nói bạn có quay lại không. Nói 1 điều khiến bạn quay lại.",
+          "h": "I will / won't + come back; if + condition",
+          "s": "I will come back. If the wait is shorter."
+        },
+        {
+          "p": "Can we contact you for more feedback?",
+          "m": "Nói bạn có đồng ý họ liên hệ không. Nói cách liên hệ bạn thích.",
+          "h": "Yes/No + Contact me by + phone/email",
+          "s": "Yes, contact me by email. I check email daily."
+        },
+        {
+          "p": "Do you have any small idea to improve our service?",
+          "m": "Nói 1 ý nhỏ để cải thiện. Nói cách thực hiện ngắn.",
+          "h": "I suggest + simple idea; Do this by + V-ing",
+          "s": "I suggest more staff at lunch. Do this by hiring one more person."
+        }
+      ]
+    }
+  ]
+}

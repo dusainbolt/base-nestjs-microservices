@@ -1,0 +1,530 @@
+{
+  "l": 3,
+  "d": [
+    {
+      "t": "Yêu cầu dọn phòng",
+      "e": [
+        {
+          "p": "Can I get my room cleaned, please?",
+          "m": "1. Nói số phòng. 2. Hỏi khi nhân viên sẽ đến.",
+          "h": "My room is ... / When will you come?",
+          "s": "My room is 305. When will you come to clean it?"
+        },
+        {
+          "p": "Would you like the bed made now or later?",
+          "m": "1. Chọn now hoặc later. 2. Nếu later, nêu giờ cụ thể.",
+          "h": "Use 'Now' or 'Later, at ...'.",
+          "s": "Later, please. Can you come at 3 PM?"
+        },
+        {
+          "p": "Do you want fresh towels today?",
+          "m": "1. Nói có hoặc không. 2. Nếu có, nói cần bao nhiêu khăn.",
+          "h": "Yes, please / No, thanks + number.",
+          "s": "Yes, please. I need two towels."
+        },
+        {
+          "p": "Is it okay if the cleaner enters while you're out?",
+          "m": "1. Cho phép hoặc không. 2. Nếu cho phép, nêu thời gian bạn vắng mặt.",
+          "h": "It's OK / No, I prefer ... + time.",
+          "s": "It's OK. I'll be out from 10 to 12."
+        },
+        {
+          "p": "We offer daily cleaning for a small fee. Would you like that?",
+          "m": "1. Quyết định đồng ý hoặc không. 2. Nêu lý do ngắn. 3. Nếu đồng ý, hỏi giá hoặc cách trả.",
+          "h": "Yes/No + because + How much/Can I pay ...?",
+          "s": "Yes, please, because I like a tidy room. How much is it per day? Can I pay at the front desk?"
+        }
+      ]
+    },
+    {
+      "t": "Thiếu đồ trong phòng",
+      "e": [
+        {
+          "p": "Is there an extra blanket in the room?",
+          "m": "1. Nói có hoặc không. 2. Nếu có, nói bạn muốn lấy ở đâu hoặc nhờ đem lên.",
+          "h": "Yes/No + ask 'Can you bring it?'",
+          "s": "No, there isn't an extra blanket. Can you bring one to my room, please?"
+        },
+        {
+          "p": "You said the kettle was missing. Where did you look?",
+          "m": "1. Nói nơi bạn đã kiểm tra. 2. Nói bạn có cần nhân viên tìm giúp hay không.",
+          "h": "Use 'I checked...' and 'Please help me find...' or 'No, thanks.'",
+          "s": "I checked the cabinet and under the bed. Please help me find the kettle."
+        },
+        {
+          "p": "We can send a hairdryer if you need one.",
+          "m": "1. Yêu cầu gửi hoặc không. 2. Nêu số phòng và lý do ngắn (ví dụ: hair wet).",
+          "h": "Yes, please / No, thanks + room number + because...",
+          "s": "Yes, please. Send it to room 210 because my hair is still wet."
+        },
+        {
+          "p": "Some guests report missing hangers. How many do you need?",
+          "m": "1. Nêu số móc cần. 2. Yêu cầu nhân viên treo quần áo giúp nếu cần.",
+          "h": "Use a number + 'Please hang my clothes' or 'I will hang them.'",
+          "s": "I need five hangers. Please hang my shirts if you can."
+        },
+        {
+          "p": "We can check lost items from the previous cleaning. Do you want us to look?",
+          "m": "1. Đồng ý hoặc không. 2. Nếu đồng ý, mô tả đồ bị thiếu ngắn gọn. 3. Nói bạn muốn nhận lại ở phòng hay lấy ở quầy lễ tân.",
+          "h": "Yes/No + describe item + 'Bring to my room' or 'I will pick up'.",
+          "s": "Yes, please. It's a blue umbrella and a phone charger. Please bring them to my room if you find them."
+        }
+      ]
+    },
+    {
+      "t": "Thiết bị không hoạt động",
+      "e": [
+        {
+          "p": "The air conditioner is not cooling. Can you send someone?",
+          "m": "1. Mô tả vấn đề ngắn (không mát). 2. Yêu cầu gửi kỹ thuật viên đến phòng.",
+          "h": "Use 'It is not...' + 'Please send someone to room ...'.",
+          "s": "The air conditioner is not cooling. Please send a technician to room 412."
+        },
+        {
+          "p": "The TV won't turn on. Have you tried the remote?",
+          "m": "1. Nói đã thử remote hay chưa. 2. Nếu đã thử mà vẫn lỗi, yêu cầu nhân viên kiểm tra.",
+          "h": "I tried / I haven't tried + 'Please check' or 'Please fix it.'",
+          "s": "I tried the remote but it still won't turn on. Please check the TV."
+        },
+        {
+          "p": "The lamp flickers sometimes. Does that happen all the time?",
+          "m": "1. Nói tần suất (luôn/thi thoảng). 2. Yêu cầu thay bóng đèn hoặc sửa nếu cần.",
+          "h": "Use 'always' or 'sometimes' + 'Please replace' or 'Please fix'.",
+          "s": "It flickers sometimes, not always. Please replace the bulb if possible."
+        },
+        {
+          "p": "The heater makes noise at night and wakes me up. Can we arrange a solution?",
+          "m": "1. Mô tả vấn đề và ảnh hưởng (bị tỉnh giấc). 2. Đề nghị giải pháp (sửa hoặc đổi phòng).",
+          "h": "Use 'It wakes me' + 'Please repair' or 'Can I change rooms?'",
+          "s": "The heater makes noise and wakes me up at night. Please repair it or move me to a quiet room."
+        },
+        {
+          "p": "We can send maintenance now or tomorrow morning. Which do you prefer?",
+          "m": "1. Chọn ngay hoặc ngày mai sáng. 2. Nếu chọn ngày mai, cho biết khoảng thời gian phù hợp. 3. Nêu lý do ngắn nếu chọn ngay (ví dụ: không thể ngủ).",
+          "h": "Use 'Now' or 'Tomorrow morning at ...' + because ...",
+          "s": "Now, please, because I cannot sleep with the noise. If now is not possible, tomorrow morning at 9 is fine."
+        }
+      ]
+    },
+    {
+      "t": "Khăn và ga giường bẩn",
+      "e": [
+        {
+          "p": "I found a stain on the bed sheet. What should I do?",
+          "m": "1. Nói rằng bạn thấy vết bẩn. 2. Yêu cầu thay ga giường hoặc xử lý vết bẩn.",
+          "h": "Use 'I found...' + 'Please change' or 'Please clean'.",
+          "s": "I found a stain on the bed sheet. Please change the sheet."
+        },
+        {
+          "p": "Do you want us to change sheets every day?",
+          "m": "1. Quyết định có hoặc không. 2. Nếu có, nêu lý do ngắn (ví dụ: dị ứng).",
+          "h": "Yes/No + because ...",
+          "s": "Yes, please, because I have allergies. Change them every day."
+        },
+        {
+          "p": "We can replace towels now. Do you want fresh towels and pillowcases too?",
+          "m": "1. Nói cần towel và/hoặc pillowcase. 2. Nếu cần cả hai, nêu số lượng mỗi loại.",
+          "h": "Use numbers: 'two towels' / 'one pillowcase'.",
+          "s": "I need fresh towels and one pillowcase. Please bring two towels and one pillowcase."
+        },
+        {
+          "p": "The housekeeping staff says they will use a stronger detergent for stains. Is that okay?",
+          "m": "1. Đồng ý hoặc không. 2. Nếu không đồng ý, yêu cầu phương án khác (ví dụ: thay mới).",
+          "h": "Yes/No + 'Please replace' or 'I prefer ...'.",
+          "s": "No, I prefer a new sheet instead. Please replace the stained sheet."
+        },
+        {
+          "p": "We can schedule a deep clean for the room today. Would you like that?",
+          "m": "1. Quyết định có hoặc không. 2. Nếu có, nêu thời gian phù hợp. 3. Hỏi có mất phí hay không.",
+          "h": "Yes/No + time + 'Is there a fee?'",
+          "s": "Yes, please, at 2 PM. Is there a fee for the deep clean?"
+        }
+      ]
+    },
+    {
+      "t": "Tiếng ồn ban đêm",
+      "e": [
+        {
+          "p": "Someone is loud in the hallway. Can you check it?",
+          "m": "1. Báo có tiếng ồn. 2. Yêu cầu nhân viên kiểm tra hành lang.",
+          "h": "Use 'Someone is...' + 'Please check the hallway.'",
+          "s": "Someone is loud in the hallway. Please check it."
+        },
+        {
+          "p": "Do you want us to call security now?",
+          "m": "1. Đồng ý hoặc không. 2. Nếu đồng ý, nói lý do ngắn (ví dụ: lo lắng).",
+          "h": "Yes/No + because ...",
+          "s": "Yes, please call security because I feel worried."
+        },
+        {
+          "p": "The noise is coming from the room next door. Would you like us to talk to them?",
+          "m": "1. Đồng ý hoặc không. 2. Nếu đồng ý, yêu cầu nhân viên thông báo hoặc xin đổi phòng.",
+          "h": "Yes/No + 'Please inform them' or 'Can I change rooms?'",
+          "s": "Yes, please inform them to be quiet. If it continues, I would like to change rooms."
+        },
+        {
+          "p": "We can move you to a quieter floor now or tomorrow. Which do you prefer?",
+          "m": "1. Chọn ngay hoặc ngày mai. 2. Nêu lý do ngắn cho lựa chọn (ví dụ: mệt, cần ngủ).",
+          "h": "Use 'Now' or 'Tomorrow' + because ...",
+          "s": "Now, please, because I am tired and need to sleep. Thank you."
+        },
+        {
+          "p": "If noise continues, you can ask for a refund or a discount. What would you like?",
+          "m": "1. Chọn yêu cầu: refund hoặc discount hoặc đổi phòng. 2. Nêu lý do ngắn và mong muốn cụ thể.",
+          "h": "Choose 'refund'/'discount'/'room change' + because ...",
+          "s": "I prefer a discount because I couldn't sleep. Please reduce the bill for one night."
+        }
+      ]
+    },
+    {
+      "t": "Khóa và an ninh phòng",
+      "e": [
+        {
+          "p": "I lost my room key. Can you help?",
+          "m": "1. Nói rằng bạn mất chìa khóa. 2. Yêu cầu cấp lại khóa hoặc hướng dẫn an toàn ngắn.",
+          "h": "Use 'I lost...' + 'Please give me a new key' or 'What should I do?'",
+          "s": "I lost my room key. Please give me a new key."
+        },
+        {
+          "p": "For security, we need to verify your ID before giving a new key. Is that OK?",
+          "m": "1. Đồng ý hoặc không. 2. Nếu đồng ý, hỏi nơi để đưa ID hoặc cách nhận lại chìa khóa.",
+          "h": "Yes/No + 'Where should I give my ID?'",
+          "s": "Yes, that's OK. Where should I present my ID?"
+        },
+        {
+          "p": "The door lock seems loose. Can maintenance fix it now?",
+          "m": "1. Mô tả lỗi ngắn (lỏng). 2. Yêu cầu sửa ngay hoặc đổi phòng nếu cần.",
+          "h": "Use 'It is loose' + 'Please fix' or 'Can I change rooms?'",
+          "s": "The door lock is loose. Please send maintenance to fix it now."
+        },
+        {
+          "p": "We can upgrade your room to a safer one with a card lock. Do you want an upgrade?",
+          "m": "1. Quyết định có nâng cấp hay không. 2. Nếu đồng ý, hỏi có mất phí hay cần làm gì tiếp theo.",
+          "h": "Yes/No + 'Is there a fee?' or 'What do I need to do?'",
+          "s": "Yes, please. Is there a fee for the upgrade and where do I go to change rooms?"
+        },
+        {
+          "p": "Do you want us to leave the door unlocked while staff cleans, or do you prefer a key card entry only?",
+          "m": "1. Chọn để cửa mở hay khóa bằng thẻ. 2. Nêu lý do ngắn cho lựa chọn.",
+          "h": "Choose 'leave unlocked' or 'card entry only' + because ...",
+          "s": "I prefer card entry only because I want more security. Please keep it locked when staff leaves."
+        }
+      ]
+    },
+    {
+      "t": "Dịch vụ giặt ủi trong khách sạn",
+      "e": [
+        {
+          "p": "Do you want your clothes washed today or tomorrow?",
+          "m": "1. Chọn hôm nay hoặc ngày mai. 2. Nếu chọn hôm nay, nêu thời gian lấy quần áo.",
+          "h": "Use 'today' or 'tomorrow' + time.",
+          "s": "Tomorrow, please. Pick them up at 9 AM."
+        },
+        {
+          "p": "We lost an item from a laundry bag. Can you describe it?",
+          "m": "1. Mô tả đồ bị mất (màu, loại). 2. Nêu khi nào bạn đưa đồ giặt.",
+          "h": "Use short descriptors + 'I gave it at ...'.",
+          "s": "It was a white shirt with blue stripes. I gave the bag yesterday morning."
+        },
+        {
+          "p": "Some items need dry cleaning and cost extra. Do you agree to dry clean yours?",
+          "m": "1. Đồng ý hoặc không. 2. Nếu đồng ý, hỏi giá sơ bộ hoặc cách thanh toán.",
+          "h": "Yes/No + 'How much?' or 'Can I pay later?'",
+          "s": "Yes, I agree to dry clean them. How much will it cost and can I pay at checkout?"
+        },
+        {
+          "p": "We can deliver your laundry to your room or you can pick it up at the desk. Which do you prefer?",
+          "m": "1. Chọn giao phòng hoặc lấy ở quầy. 2. Nếu chọn giao phòng, nêu khung giờ nhận.",
+          "h": "Choose 'deliver to room' or 'pick up' + time.",
+          "s": "Deliver to my room, please. Any time after 4 PM is fine."
+        },
+        {
+          "p": "There is a small stain left after washing. Do you want us to try again or replace the item?",
+          "m": "1. Chọn thử lại hay thay mới. 2. Nêu lý do ngắn cho lựa chọn (ví dụ: quan trọng, không thể thay). 3. Hỏi thời gian hoàn thành.",
+          "h": "Choose 'try again' or 'replace' + because ... + 'When will it be ready?'",
+          "s": "Please try again because the shirt is important to me. When will it be ready?"
+        }
+      ]
+    },
+    {
+      "t": "Lịch dọn phòng và thay đổi giờ",
+      "e": [
+        {
+          "p": "Your room cleaning is scheduled between 10 and 12. Is that okay?",
+          "m": "1. Đồng ý hoặc không. 2. Nếu không, đề xuất khung giờ khác.",
+          "h": "Yes/No + 'At ... is better.'",
+          "s": "No, that's not OK. At 2 PM is better for me."
+        },
+        {
+          "p": "We can avoid entering if you hang the 'Do not disturb' sign. Do you want to use it?",
+          "m": "1. Chọn dùng biển 'Do not disturb' hay không. 2. Nêu khoảng thời gian nếu dùng.",
+          "h": "Yes/No + time period.",
+          "s": "Yes, please. I will use it from 9 PM to 7 AM."
+        },
+        {
+          "p": "If you leave a note with special requests, housekeeping will follow it. What should we note?",
+          "m": "1. Viết yêu cầu cụ thể (ví dụ: không làm ồn, thay khăn). 2. Nêu thời gian dọn hoặc không vào.",
+          "h": "Use short commands: 'Please do not...' or 'Please replace...'.",
+          "s": "Please do not enter between 8 and 10 AM. Also replace the towels only."
+        },
+        {
+          "p": "We can set a weekly deep clean for long stays. Do you want to set one now?",
+          "m": "1. Đồng ý hoặc không. 2. Nếu đồng ý, nêu ngày trong tuần và lý do ngắn (ví dụ: dài ngày).",
+          "h": "Yes/No + day + because ...",
+          "s": "Yes, please. Set it on Thursdays because I will stay a long time."
+        },
+        {
+          "p": "Staff may need to change your cleaning time tomorrow. Can we text you an update?",
+          "m": "1. Đồng ý hoặc không nhận tin nhắn. 2. Nếu đồng ý, hỏi cách nhận (phone or email). 3. Nêu mong muốn nếu cần thay đổi thêm.",
+          "h": "Yes/No + 'by phone' or 'by email' + 'Please...' ",
+          "s": "Yes, text me please. Send it to my phone number and please confirm before changing."
+        }
+      ]
+    },
+    {
+      "t": "Báo cáo hư hỏng đồ đạc lớn",
+      "e": [
+        {
+          "p": "The wardrobe door is broken. Can you report it?",
+          "m": "1. Nói đồ hỏng (wardrobe door). 2. Yêu cầu báo bảo trì hoặc sửa ngay.",
+          "h": "Use 'The ... is broken' + 'Please repair'.",
+          "s": "The wardrobe door is broken. Please report it to maintenance."
+        },
+        {
+          "p": "We will inspect the damage. Did this happen before you checked in?",
+          "m": "1. Nói có hoặc không. 2. Nếu có, nêu khi nào bạn nhận thấy (ngay khi vào phòng).",
+          "h": "Yes/No + 'I noticed it when...' ",
+          "s": "No, it happened after I arrived. I noticed it this morning."
+        },
+        {
+          "p": "If the damage is your fault, there may be a charge. Do you accept this policy?",
+          "m": "1. Đồng ý hoặc không. 2. Nếu không, giải thích ngắn lý do bạn không chịu trách nhiệm.",
+          "h": "Yes/No + because ...",
+          "s": "I do not accept because the door was loose when I arrived. Please check the records."
+        },
+        {
+          "p": "We can move your luggage and offer a temporary fix. Would that help?",
+          "m": "1. Đồng ý hoặc không. 2. Nếu đồng ý, yêu cầu thời gian để chuyển đồ (ngay bây giờ/đến trễ).",
+          "h": "Yes/No + 'Now' or 'later at ...'.",
+          "s": "Yes, that would help. Please move my luggage now."
+        },
+        {
+          "p": "After inspection, we will confirm if a fee applies. How would you like us to contact you?",
+          "m": "1. Chọn cách liên lạc (phone/email). 2. Nêu bạn có thể trả phí ngay hay muốn thanh toán khi trả phòng.",
+          "h": "Choose 'phone'/'email' + 'pay now'/'pay at checkout'.",
+          "s": "Contact me by phone. I will pay at checkout if there is a fee."
+        }
+      ]
+    },
+    {
+      "t": "Côn trùng hoặc vật nuôi không mong muốn",
+      "e": [
+        {
+          "p": "I saw a cockroach in the bathroom. Can you send pest control?",
+          "m": "1. Báo vị trí (bathroom). 2. Yêu cầu gửi đội kiểm soát côn trùng ngay.",
+          "h": "Use 'I saw a ...' + 'Please send ... now.'",
+          "s": "I saw a cockroach in the bathroom. Please send pest control now."
+        },
+        {
+          "p": "We can move you to another room on a different floor. Do you want that?",
+          "m": "1. Đồng ý hoặc không. 2. Nếu đồng ý, nêu thời gian bạn muốn chuyển.",
+          "h": "Yes/No + 'Move at ...' ",
+          "s": "Yes, please. Move me this afternoon."
+        },
+        {
+          "p": "Are you allergic to insect spray or do you prefer a non-chemical solution?",
+          "m": "1. Nói bạn có dị ứng hay không. 2. Nếu dị ứng, yêu cầu phương pháp thay thế (ví dụ: bẫy).",
+          "h": "Use 'I am allergic' or 'No allergy' + 'Please use ...'.",
+          "s": "I am allergic to spray. Please use traps or a non-chemical solution."
+        },
+        {
+          "p": "We also allow some pets on request. Did you bring a pet and not tell us?",
+          "m": "1. Nói có mang pet hay không. 2. Nếu có, xin lỗi/giải thích ngắn và hỏi cách xử lý (thu phí/đổi phòng).",
+          "h": "Yes/No + 'Sorry' + 'What should I do?'",
+          "s": "No, I did not bring a pet. Please check other rooms for sources of the problem."
+        },
+        {
+          "p": "If the issue continues, we can offer a free room change or cover cleaning costs. Which do you prefer?",
+          "m": "1. Chọn đổi phòng miễn phí hoặc bồi thường chi phí dọn dẹp. 2. Nêu lý do ngắn cho lựa chọn.",
+          "h": "Choose 'room change' or 'cover cleaning' + because ...",
+          "s": "I prefer a free room change because I don't want to stay where there are insects."
+        }
+      ]
+    },
+    {
+      "t": "Kiểm tra khi trả phòng (charges)",
+      "e": [
+        {
+          "p": "You have a minibar charge. Do you remember using anything?",
+          "m": "1. Xác nhận bạn đã dùng hay không. 2. Nếu dùng, nêu món và thời gian ngắn.",
+          "h": "Yes/No + item + time.",
+          "s": "No, I didn't use the minibar. I think this charge is a mistake."
+        },
+        {
+          "p": "We found a stain on the carpet after checkout. There is a cleaning fee. Do you agree?",
+          "m": "1. Đồng ý chịu phí hay không. 2. Nếu không, giải thích ngắn bạn đã báo trước hoặc không dùng đồ bẩn.",
+          "h": "Yes/No + because ...",
+          "s": "I do not agree because I reported the stain before. Please check the report."
+        },
+        {
+          "p": "If you think a charge is wrong, we can review CCTV and records. Do you want us to do that?",
+          "m": "1. Yêu cầu kiểm tra CCTV hoặc không. 2. Nếu có, hỏi thời gian chờ trả lời.",
+          "h": "Yes/No + 'How long will it take?'",
+          "s": "Yes, please review the CCTV. How long will it take to get an answer?"
+        },
+        {
+          "p": "You can pay extra charges now or at checkout. Which do you prefer?",
+          "m": "1. Chọn trả ngay hoặc khi trả phòng. 2. Nếu trả ngay, yêu cầu hóa đơn nhỏ hoặc ghi chú.",
+          "h": "Choose 'now' or 'at checkout' + 'Please give a receipt.'",
+          "s": "I'll pay at checkout. Please give a receipt then."
+        },
+        {
+          "p": "We can offer a small discount if the service was poor. Do you want a discount or full refund?",
+          "m": "1. Chọn discount hoặc full refund. 2. Nêu lý do ngắn cho yêu cầu.",
+          "h": "Choose 'discount' or 'full refund' + because ...",
+          "s": "I would like a discount because the room was noisy and cleaning was late."
+        }
+      ]
+    },
+    {
+      "t": "Yêu cầu thêm đồ dùng (gối, chăn, bàn ủi)",
+      "e": [
+        {
+          "p": "Do you need an extra pillow?",
+          "m": "1. Nói có hoặc không. 2. Nếu có, nêu số lượng.",
+          "h": "Yes/No + number.",
+          "s": "Yes, please. I need one extra pillow."
+        },
+        {
+          "p": "We can bring an iron and ironing board. When would you like them?",
+          "m": "1. Chọn thời gian nhận. 2. Nếu vội, yêu cầu nhân viên mang ngay.",
+          "h": "Use time + 'Please bring now' if urgent.",
+          "s": "At 4 PM, please. If possible, bring them now."
+        },
+        {
+          "p": "The blanket we have is thin. Would you like a thicker one?",
+          "m": "1. Chọn có hoặc không. 2. Nếu có, nêu lý do ngắn (ví dụ: lạnh).",
+          "h": "Yes/No + because ...",
+          "s": "Yes, because it's cold at night. Please bring a thicker blanket."
+        },
+        {
+          "p": "We can provide a small fan or an extra heater. Which do you prefer?",
+          "m": "1. Chọn fan hoặc heater. 2. Nêu lý do ngắn cho lựa chọn.",
+          "h": "Choose 'fan' or 'heater' + because ...",
+          "s": "I prefer an extra heater because the room is cold."
+        },
+        {
+          "p": "If you need many items, we can list them and deliver together. Can you list what you want now?",
+          "m": "1. Liệt kê các món cần (gối, chăn, bàn ủi...). 2. Nêu số lượng mỗi món.",
+          "h": "Short list with numbers: 'two pillows, one iron' etc.",
+          "s": "Two pillows, one thick blanket, and an iron. Please deliver them to room 118."
+        }
+      ]
+    },
+    {
+      "t": "Ôn tập: Dọn phòng và thiết bị",
+      "e": [
+        {
+          "p": "The cleaner forgot the towels and the TV remote. What happened?",
+          "m": "1. Nói bạn nhận thấy thiếu đồ. 2. Yêu cầu khách sạn gửi các món thiếu. 3. Hỏi khi nào họ sẽ đem.",
+          "h": "Use 'I noticed...' + 'Please send...' + 'When will you...' ",
+          "s": "I noticed the towels and TV remote are missing. Please send them to my room. When will you bring them?"
+        },
+        {
+          "p": "Your AC worked last night but stopped this morning. Can we check the schedule?",
+          "m": "1. Mô tả tình trạng (lúc sau không hoạt động). 2. Yêu cầu kiểm tra lịch bảo trì hoặc gửi kỹ thuật viên.",
+          "h": "Use past + 'stopped' and 'Please send a technician.'",
+          "s": "The AC worked last night but stopped this morning. Please send a technician to check it."
+        },
+        {
+          "p": "We offer towel replacement and room cleaning together. Do you want both services now?",
+          "m": "1. Đồng ý hoặc không. 2. Nếu đồng ý, nêu số phòng và thời gian phù hợp.",
+          "h": "Yes/No + room number + time.",
+          "s": "Yes, please. Room 220 at 11 AM is fine."
+        },
+        {
+          "p": "The lamp and the kettle were both faulty. Which one should maintenance fix first?",
+          "m": "1. Chọn ưu tiên sửa (lamp/kettle). 2. Nêu lý do ngắn (ví dụ: cần nước nóng). 3. Hỏi khi họ sẽ đến.",
+          "h": "Choose + because + 'When will you come?'",
+          "s": "Fix the kettle first because I need hot water. When will maintenance come?"
+        },
+        {
+          "p": "If multiple issues happen, we can give a small discount. Do you want a discount or immediate fixes?",
+          "m": "1. Chọn muốn giảm giá hay sửa ngay. 2. Nêu lý do ngắn cho lựa chọn.",
+          "h": "Choose 'discount' or 'fixes' + because ...",
+          "s": "I want immediate fixes because I need a comfortable stay now."
+        }
+      ]
+    },
+    {
+      "t": "Ôn tập: Vấn đề & khiếu nại",
+      "e": [
+        {
+          "p": "You complained about noisy neighbors and requested action. What do you want us to do?",
+          "m": "1. Chọn hành động: nói họ nhỏ tiếng, gọi an ninh, đổi phòng. 2. Nêu lý do ngắn cho lựa chọn.",
+          "h": "Choose one action + because ...",
+          "s": "Call security to speak with them because I need to sleep."
+        },
+        {
+          "p": "We found a charge you don't recognize. Do you want us to review the bill?",
+          "m": "1. Đồng ý cho kiểm tra hay không. 2. Nếu có, nêu thời gian bạn muốn nhận kết quả.",
+          "h": "Yes/No + 'When can I know?'",
+          "s": "Yes, please review it. I need the result by checkout time."
+        },
+        {
+          "p": "The room had poor cleaning and you want compensation. Do you prefer a discount or free service?",
+          "m": "1. Chọn discount hoặc free service. 2. Nêu mức bạn nghĩ hợp lý hoặc dịch vụ bạn muốn miễn phí.",
+          "h": "Choose + suggest amount/service.",
+          "s": "I prefer a discount of one night's rate because the room was not cleaned well."
+        },
+        {
+          "p": "We can log your complaint and follow up by phone or email. Which do you prefer?",
+          "m": "1. Chọn phone hoặc email. 2. Nêu bạn có thể trả lời nhanh hay cần thời gian.",
+          "h": "Choose 'phone'/'email' + 'I can reply quickly' or 'I need time'.",
+          "s": "Email is better. I can reply later if needed."
+        },
+        {
+          "p": "If we offer to move you to a better room and give a partial refund, is that acceptable?",
+          "m": "1. Đồng ý hay không. 2. Nếu đồng ý, nêu mong muốn: thời gian chuyển hoặc mức hoàn tiền tối thiểu.",
+          "h": "Yes/No + 'Move at ...' or 'refund of ...'.",
+          "s": "Yes, acceptable. Move me this afternoon and give a small refund, please."
+        }
+      ]
+    },
+    {
+      "t": "Ôn tập: Kiểm tra phòng và thanh toán",
+      "e": [
+        {
+          "p": "Before checkout we will inspect the room. Do you need extra time?",
+          "m": "1. Nói bạn cần thêm thời gian hay không. 2. Nếu cần, nêu bạn muốn thêm bao lâu.",
+          "h": "Yes/No + time: '30 minutes' etc.",
+          "s": "Yes, I need an extra 30 minutes. Please inspect after that."
+        },
+        {
+          "p": "The final bill shows a service charge. Do you want an itemized list?",
+          "m": "1. Yêu cầu bản kê chi tiết hoặc không. 2. Nếu có, nêu bạn muốn nhận bằng giấy hay email.",
+          "h": "Yes/No + 'paper' or 'email'.",
+          "s": "Yes, please. Send the itemized list by email."
+        },
+        {
+          "p": "There was damage to a chair and a lamp. We will charge accordingly. How do you want to settle?",
+          "m": "1. Chọn thanh toán ngay hoặc tại checkout. 2. Nếu trả ngay, hỏi cách thanh toán (card/cash).",
+          "h": "Choose 'now'/'at checkout' + 'card'/'cash'.",
+          "s": "I will pay at checkout by card. Please add the charges to my bill."
+        },
+        {
+          "p": "If you paid a deposit, we can return it after inspection. Do you want it back as cash or to the card?",
+          "m": "1. Chọn cash hoặc card. 2. Nêu nếu cần hoàn ngay hoặc sau khi họ rời đi.",
+          "h": "Choose 'cash' or 'card' + 'now' or 'after checkout'.",
+          "s": "Return it to my card after checkout, please."
+        },
+        {
+          "p": "Do you have any final comments about housekeeping before you leave?",
+          "m": "1. Ghi một ý kiến ngắn về dịch vụ dọn phòng. 2. Nêu một điều muốn khách sạn cải thiện (ngắn gọn). 3. Kết luận đồng ý trả phòng.",
+          "h": "One short comment + one improvement + 'I will check out now.'",
+          "s": "The cleaning was good but staff was late once. Please improve on-time cleaning. I will check out now."
+        }
+      ]
+    }
+  ]
+}

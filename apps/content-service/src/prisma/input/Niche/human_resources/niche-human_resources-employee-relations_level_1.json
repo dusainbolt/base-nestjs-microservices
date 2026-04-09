@@ -1,0 +1,530 @@
+{
+  "l": 1,
+  "d": [
+    {
+      "t": "Gặp đồng nghiệp mới",
+      "e": [
+        {
+          "p": "What is your name?",
+          "m": "Nói tên của bạn.",
+          "h": "S + be + N.",
+          "s": "My name is [studentName]."
+        },
+        {
+          "p": "Where do you live?",
+          "m": "Nói nơi bạn sống (thành phố).",
+          "h": "I live in + place.",
+          "s": "I live in [studentCity]."
+        },
+        {
+          "p": "Do you like the team?",
+          "m": "Trả lời bạn có thích đội không.",
+          "h": "S + like / don't like + N.",
+          "s": "I like the team."
+        },
+        {
+          "p": "Can you help me with work?",
+          "m": "Nói bạn có thể giúp với công việc không.",
+          "h": "S + can / can't + V.",
+          "s": "I can help you with work."
+        },
+        {
+          "p": "How often do you come to the office?",
+          "m": "Nói tần suất bạn đến văn phòng.",
+          "h": "Use 'every day' or 'sometimes'.",
+          "s": "I come to the office every day."
+        }
+      ]
+    },
+    {
+      "t": "Nói với sếp về công việc",
+      "e": [
+        {
+          "p": "What is your job?",
+          "m": "Nói nghề nghiệp của bạn.",
+          "h": "I am a + job.",
+          "s": "I am a [studentJob]."
+        },
+        {
+          "p": "Is the task easy?",
+          "m": "Trả lời tác vụ có dễ không.",
+          "h": "S + be + Adj.",
+          "s": "The task is easy."
+        },
+        {
+          "p": "Do you finish the work?",
+          "m": "Nói bạn có hoàn thành công việc không.",
+          "h": "S + V(s) + O.",
+          "s": "I finish the work."
+        },
+        {
+          "p": "Can you come to a meeting?",
+          "m": "Nói bạn có thể đến họp không.",
+          "h": "S + can / can't + V.",
+          "s": "I can come to the meeting."
+        },
+        {
+          "p": "How do you help the team?",
+          "m": "Nói một việc bạn làm để giúp nhóm.",
+          "h": "I + V + O.",
+          "s": "I help the team with files."
+        }
+      ]
+    },
+    {
+      "t": "Hỏi về giờ làm",
+      "e": [
+        {
+          "p": "What time do you start work?",
+          "m": "Nói giờ bạn bắt đầu làm việc.",
+          "h": "I start at + time.",
+          "s": "I start at 9 am."
+        },
+        {
+          "p": "What time do you finish?",
+          "m": "Nói giờ bạn kết thúc.",
+          "h": "I finish at + time.",
+          "s": "I finish at 5 pm."
+        },
+        {
+          "p": "Do you work on Monday?",
+          "m": "Nói bạn có làm việc vào thứ Hai không.",
+          "h": "Yes/No + S + V.",
+          "s": "Yes, I work on Monday."
+        },
+        {
+          "p": "Is there a break at noon?",
+          "m": "Nói có nghỉ trưa lúc trưa không.",
+          "h": "There is / There is not + N.",
+          "s": "There is a break at noon."
+        },
+        {
+          "p": "How many hours do you work each day?",
+          "m": "Nói số giờ bạn làm mỗi ngày.",
+          "h": "Use a number + hours.",
+          "s": "I work eight hours each day."
+        }
+      ]
+    },
+    {
+      "t": "Nói về sếp và đồng nghiệp",
+      "e": [
+        {
+          "p": "Who is your boss?",
+          "m": "Nói ai là sếp của bạn.",
+          "h": "S + be + N.",
+          "s": "My boss is Mr. Nam."
+        },
+        {
+          "p": "Is your boss kind?",
+          "m": "Trả lời sếp có tốt bụng không.",
+          "h": "S + be + Adj.",
+          "s": "My boss is kind."
+        },
+        {
+          "p": "Do you have good colleagues?",
+          "m": "Nói bạn có đồng nghiệp tốt không.",
+          "h": "Yes/No + S + V.",
+          "s": "Yes, I have good colleagues."
+        },
+        {
+          "p": "Can your colleague help you?",
+          "m": "Nói đồng nghiệp có thể giúp bạn không.",
+          "h": "S + can / can't + V.",
+          "s": "My colleague can help me."
+        },
+        {
+          "p": "Where do you sit in the office?",
+          "m": "Nói chỗ bạn ngồi trong văn phòng.",
+          "h": "I sit + place.",
+          "s": "I sit near the window."
+        }
+      ]
+    },
+    {
+      "t": "Môi trường làm việc đơn giản",
+      "e": [
+        {
+          "p": "Is the office big?",
+          "m": "Nói văn phòng có lớn không.",
+          "h": "S + be + Adj.",
+          "s": "The office is big."
+        },
+        {
+          "p": "Are there many desks?",
+          "m": "Nói có nhiều bàn không.",
+          "h": "There are / There are not + N.",
+          "s": "There are many desks."
+        },
+        {
+          "p": "Do you have a computer?",
+          "m": "Nói bạn có máy tính không.",
+          "h": "Yes/No + S + have.",
+          "s": "Yes, I have a computer."
+        },
+        {
+          "p": "Can you use the computer?",
+          "m": "Nói bạn có thể dùng máy tính không.",
+          "h": "S + can / can't + V.",
+          "s": "I can use the computer."
+        },
+        {
+          "p": "What is your workplace like?",
+          "m": "Mô tả ngắn nơi làm việc bằng một tính từ.",
+          "h": "S + be + Adj.",
+          "s": "My workplace is clean."
+        }
+      ]
+    },
+    {
+      "t": "Thói quen làm việc",
+      "e": [
+        {
+          "p": "Do you arrive early?",
+          "m": "Nói bạn có đến sớm không.",
+          "h": "Yes/No + S + V.",
+          "s": "Yes, I arrive early."
+        },
+        {
+          "p": "When do you take a break?",
+          "m": "Nói khi nào bạn nghỉ ngơi.",
+          "h": "Use 'at' + time.",
+          "s": "I take a break at noon."
+        },
+        {
+          "p": "Do you eat lunch at work?",
+          "m": "Nói bạn có ăn trưa ở chỗ làm không.",
+          "h": "Yes/No + S + V.",
+          "s": "Yes, I eat lunch at work."
+        },
+        {
+          "p": "Can you work late?",
+          "m": "Nói bạn có thể làm muộn không.",
+          "h": "S + can / can't + V.",
+          "s": "I can work late."
+        },
+        {
+          "p": "How do you go to work?",
+          "m": "Nói cách bạn đi làm (ví dụ: bus, car, walk).",
+          "h": "I go by + transport.",
+          "s": "I go to work by bus."
+        }
+      ]
+    },
+    {
+      "t": "Giữ chân nhân viên đơn giản",
+      "e": [
+        {
+          "p": "Do you like your job?",
+          "m": "Nói bạn có thích công việc không.",
+          "h": "Yes/No + S + like.",
+          "s": "Yes, I like my job."
+        },
+        {
+          "p": "Is your work safe?",
+          "m": "Nói công việc của bạn có an toàn không.",
+          "h": "S + be + Adj.",
+          "s": "My work is safe."
+        },
+        {
+          "p": "Do you stay at this job?",
+          "m": "Nói bạn có ở lại công ty không.",
+          "h": "S + stay / don't stay.",
+          "s": "I stay at this job."
+        },
+        {
+          "p": "Can the company help you?",
+          "m": "Nói công ty có thể giúp bạn không.",
+          "h": "S + can / can't + V.",
+          "s": "The company can help me."
+        },
+        {
+          "p": "Why do you stay at the company?",
+          "m": "Nói một lý do ngắn bạn ở lại (ví dụ: happy).",
+          "h": "Use 'because' + short reason.",
+          "s": "I stay because I am happy."
+        }
+      ]
+    },
+    {
+      "t": "Thưởng và lương đơn giản",
+      "e": [
+        {
+          "p": "Do you get money each month?",
+          "m": "Nói bạn có nhận tiền hàng tháng không.",
+          "h": "Yes/No + S + V.",
+          "s": "Yes, I get money each month."
+        },
+        {
+          "p": "Is the pay good?",
+          "m": "Nói lương có tốt không.",
+          "h": "S + be + Adj.",
+          "s": "The pay is good."
+        },
+        {
+          "p": "Do you get a bonus?",
+          "m": "Nói bạn có nhận thưởng không.",
+          "h": "Yes/No + S + V.",
+          "s": "Yes, I get a bonus."
+        },
+        {
+          "p": "Can you save money?",
+          "m": "Nói bạn có thể tiết kiệm tiền không.",
+          "h": "S + can / can't + V.",
+          "s": "I can save money."
+        },
+        {
+          "p": "How do you use your money?",
+          "m": "Nói một việc bạn làm với tiền (một ý).",
+          "h": "I + V + O.",
+          "s": "I save money for my family."
+        }
+      ]
+    },
+    {
+      "t": "Giải quyết vấn đề đơn giản",
+      "e": [
+        {
+          "p": "There is a problem with the printer.",
+          "m": "Xác nhận bạn biết có vấn đề.",
+          "h": "Say 'I know' or 'I see'.",
+          "s": "I know the printer has a problem."
+        },
+        {
+          "p": "Can you fix it?",
+          "m": "Nói bạn có thể sửa nó không.",
+          "h": "S + can / can't + V.",
+          "s": "I can fix it."
+        },
+        {
+          "p": "Who can help?",
+          "m": "Nói một người có thể giúp (một tên hoặc vị trí).",
+          "h": "Use 'My boss' or 'My colleague'.",
+          "s": "My boss can help."
+        },
+        {
+          "p": "Do you need more time?",
+          "m": "Trả lời bạn có cần thêm thời gian không.",
+          "h": "Yes/No + S + V.",
+          "s": "Yes, I need more time."
+        },
+        {
+          "p": "Where is the spare paper?",
+          "m": "Nói nơi có giấy dự phòng.",
+          "h": "It is / The ... is + place.",
+          "s": "The spare paper is in the cabinet."
+        }
+      ]
+    },
+    {
+      "t": "Yêu cầu và cho phép",
+      "e": [
+        {
+          "p": "Can I take a day off?",
+          "m": "Trả lời có cho phép nghỉ một ngày không.",
+          "h": "Yes/No + S + can / can't + V.",
+          "s": "Yes, you can take a day off."
+        },
+        {
+          "p": "Do you need my help?",
+          "m": "Nói bạn có cần giúp không.",
+          "h": "Yes/No + S + V.",
+          "s": "No, I do not need your help."
+        },
+        {
+          "p": "Is it OK to leave early?",
+          "m": "Nói có được phép rời sớm không.",
+          "h": "Yes/No + It + be + OK.",
+          "s": "Yes, it is OK to leave early."
+        },
+        {
+          "p": "Can we change the time?",
+          "m": "Nói có thể đổi giờ họp không.",
+          "h": "S + can / can't + V.",
+          "s": "We can change the time."
+        },
+        {
+          "p": "Who can approve the leave?",
+          "m": "Nói ai có thể duyệt đơn nghỉ.",
+          "h": "Use 'My boss' + can + V.",
+          "s": "My boss can approve the leave."
+        }
+      ]
+    },
+    {
+      "t": "Phản hồi về công việc",
+      "e": [
+        {
+          "p": "Is the report good?",
+          "m": "Nói báo cáo có tốt không.",
+          "h": "S + be + Adj.",
+          "s": "The report is good."
+        },
+        {
+          "p": "Do you fix the errors?",
+          "m": "Nói bạn có sửa lỗi không.",
+          "h": "S + V(s) + O.",
+          "s": "I fix the errors."
+        },
+        {
+          "p": "Can I change the file?",
+          "m": "Trả lời có thể thay file không.",
+          "h": "Yes/No + S + can / can't + V.",
+          "s": "Yes, you can change the file."
+        },
+        {
+          "p": "Who checks the work?",
+          "m": "Nói ai kiểm tra công việc.",
+          "h": "Use 'My boss' + V(s).",
+          "s": "My boss checks the work."
+        },
+        {
+          "p": "How do you make the work better?",
+          "m": "Nói một việc bạn làm để cải thiện công việc.",
+          "h": "I + V + O.",
+          "s": "I check and fix errors."
+        }
+      ]
+    },
+    {
+      "t": "Làm việc nhóm",
+      "e": [
+        {
+          "p": "Do you work in a team?",
+          "m": "Nói bạn có làm việc trong nhóm không.",
+          "h": "Yes/No + S + V.",
+          "s": "Yes, I work in a team."
+        },
+        {
+          "p": "Who is in your team?",
+          "m": "Nói một người có trong nhóm của bạn.",
+          "h": "My + colleague / friend + is + name.",
+          "s": "My colleague Nam is in my team."
+        },
+        {
+          "p": "Do you share tasks?",
+          "m": "Nói bạn có chia công việc không.",
+          "h": "Yes/No + S + V.",
+          "s": "Yes, we share tasks."
+        },
+        {
+          "p": "Can you meet with the team today?",
+          "m": "Nói bạn có thể họp với nhóm hôm nay không.",
+          "h": "S + can / can't + V.",
+          "s": "I can meet with the team today."
+        },
+        {
+          "p": "How do you help the team now?",
+          "m": "Nói một việc bạn làm hiện tại để giúp nhóm.",
+          "h": "I + V(s) + O.",
+          "s": "I give ideas to the team."
+        }
+      ]
+    },
+    {
+      "t": "Ôn tập: Giao tiếp cơ bản tại công ty",
+      "e": [
+        {
+          "p": "What is your name?",
+          "m": "Nói tên của bạn.",
+          "h": "S + be + N.",
+          "s": "My name is [studentName]."
+        },
+        {
+          "p": "What is your job?",
+          "m": "Nói nghề nghiệp của bạn.",
+          "h": "I am a + job.",
+          "s": "I am a [studentJob]."
+        },
+        {
+          "p": "Do you like your job?",
+          "m": "Nói bạn có thích công việc không.",
+          "h": "Yes/No + S + like.",
+          "s": "Yes, I like my job."
+        },
+        {
+          "p": "Can you help me now?",
+          "m": "Nói bạn có thể giúp ngay không.",
+          "h": "S + can / can't + V.",
+          "s": "I can help you now."
+        },
+        {
+          "p": "When do you start work?",
+          "m": "Nói giờ bạn bắt đầu làm việc.",
+          "h": "I start at + time.",
+          "s": "I start at 9 am."
+        }
+      ]
+    },
+    {
+      "t": "Ôn tập: Vấn đề và giải pháp",
+      "e": [
+        {
+          "p": "There is a power problem.",
+          "m": "Xác nhận bạn biết có vấn đề.",
+          "h": "Say 'I know' or 'I see'.",
+          "s": "I know there is a power problem."
+        },
+        {
+          "p": "Can you fix the problem?",
+          "m": "Nói bạn có thể sửa vấn đề không.",
+          "h": "S + can / can't + V.",
+          "s": "I can fix the problem."
+        },
+        {
+          "p": "Who can help with this?",
+          "m": "Nói một người có thể giúp.",
+          "h": "Use 'My boss' or 'My colleague'.",
+          "s": "My colleague can help with this."
+        },
+        {
+          "p": "Do you need more time to fix it?",
+          "m": "Trả lời bạn có cần thêm thời gian không.",
+          "h": "Yes/No + S + V.",
+          "s": "Yes, I need more time."
+        },
+        {
+          "p": "Where is the office?",
+          "m": "Nói nơi văn phòng (thành phố hoặc tòa nhà).",
+          "h": "I work in / The office is in + place.",
+          "s": "The office is in the city center."
+        }
+      ]
+    },
+    {
+      "t": "Ôn tập: Quy tắc và hỗ trợ",
+      "e": [
+        {
+          "p": "Can I leave early today?",
+          "m": "Trả lời có cho phép rời sớm hay không.",
+          "h": "Yes/No + S + can / can't + V.",
+          "s": "Yes, you can leave early today."
+        },
+        {
+          "p": "Do you get pay now?",
+          "m": "Nói bạn có nhận lương không.",
+          "h": "Yes/No + S + V.",
+          "s": "Yes, I get pay now."
+        },
+        {
+          "p": "Is there a company rule about phones?",
+          "m": "Nói có quy tắc về điện thoại không.",
+          "h": "There is / There is not + N.",
+          "s": "There is a rule about phones."
+        },
+        {
+          "p": "Can the team help you today?",
+          "m": "Nói nhóm có thể giúp bạn không.",
+          "h": "S + can / can't + V.",
+          "s": "The team can help me today."
+        },
+        {
+          "p": "How is your workplace?",
+          "m": "Mô tả ngắn nơi làm việc bằng một tính từ.",
+          "h": "S + be + Adj.",
+          "s": "My workplace is quiet."
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,530 @@
+{
+  "l": 1,
+  "d": [
+    {
+      "t": "Gặp bác sĩ lần đầu",
+      "e": [
+        {
+          "p": "May I have your name?",
+          "m": "Nói tên của bạn.",
+          "h": "S + be + N",
+          "s": "My name is [studentName]."
+        },
+        {
+          "p": "How old are you?",
+          "m": "Nói tuổi của bạn.",
+          "h": "I am + tuổi",
+          "s": "I am [studentAge] years old."
+        },
+        {
+          "p": "What is your role?",
+          "m": "Nói nghề nghiệp của bạn.",
+          "h": "S + be + N",
+          "s": "I am a [studentJob]."
+        },
+        {
+          "p": "Where do you work?",
+          "m": "Nói nơi bạn làm việc (thành phố hoặc bệnh viện).",
+          "h": "I work at/in + nơi",
+          "s": "I work at a hospital in [studentCity]."
+        },
+        {
+          "p": "Which department are you in?",
+          "m": "Nói khoa hoặc phòng bạn làm việc.",
+          "h": "I work in the + N",
+          "s": "I work in the ward."
+        }
+      ]
+    },
+    {
+      "t": "Nói với lễ tân",
+      "e": [
+        {
+          "p": "Can you tell me your full name?",
+          "m": "Nói đầy đủ tên của bạn.",
+          "h": "S + be + N",
+          "s": "My name is [studentName]."
+        },
+        {
+          "p": "Do you work at this hospital?",
+          "m": "Nói có hoặc không bạn làm ở bệnh viện này.",
+          "h": "Yes, I do / No, I don't",
+          "s": "Yes, I do."
+        },
+        {
+          "p": "What is your position here?",
+          "m": "Nói vị trí công việc của bạn ở đây.",
+          "h": "S + be + N",
+          "s": "I am a [studentJob]."
+        },
+        {
+          "p": "Which floor is your department on?",
+          "m": "Nói số tầng của khoa bạn.",
+          "h": "My department is on floor + số",
+          "s": "My department is on floor 2."
+        },
+        {
+          "p": "Is there a pharmacy inside?",
+          "m": "Trả lời có hoặc không (Yes/No).",
+          "h": "Yes, there is / No, there isn't",
+          "s": "Yes, there is."
+        }
+      ]
+    },
+    {
+      "t": "Giới thiệu với bệnh nhân",
+      "e": [
+        {
+          "p": "Please say your name.",
+          "m": "Nói tên của bạn cho bệnh nhân nghe.",
+          "h": "S + be + N",
+          "s": "My name is [studentName]."
+        },
+        {
+          "p": "Are you a doctor here?",
+          "m": "Trả lời có hoặc không.",
+          "h": "Yes, I am / No, I am not",
+          "s": "No, I am not."
+        },
+        {
+          "p": "Tell me one thing you do.",
+          "m": "Nói một việc bạn làm (động từ ngắn).",
+          "h": "I + V(s) ...",
+          "s": "I help patients."
+        },
+        {
+          "p": "Can you come to room five now?",
+          "m": "Trả lời có hoặc không (khả năng).",
+          "h": "I can / I can't",
+          "s": "I can."
+        },
+        {
+          "p": "Where is the doctor's office located?",
+          "m": "Nói vị trí ngắn của phòng bác sĩ.",
+          "h": "It is + vị trí",
+          "s": "It is on floor 2."
+        }
+      ]
+    },
+    {
+      "t": "Gặp đồng nghiệp mới",
+      "e": [
+        {
+          "p": "Hi, what is your name?",
+          "m": "Nói tên của bạn.",
+          "h": "S + be + N",
+          "s": "My name is [studentName]."
+        },
+        {
+          "p": "What job do you have here?",
+          "m": "Nói nghề của bạn.",
+          "h": "S + be + N",
+          "s": "I am a [studentJob]."
+        },
+        {
+          "p": "Which ward are you in?",
+          "m": "Nói tên khoa hoặc phòng.",
+          "h": "I work in the + N",
+          "s": "I work in the ward."
+        },
+        {
+          "p": "Do you work every day at the hospital?",
+          "m": "Trả lời có hoặc không về tần suất làm việc.",
+          "h": "I work every day / I don't work every day",
+          "s": "I work every day."
+        },
+        {
+          "p": "When do you start your work?",
+          "m": "Nói giờ bạn bắt đầu làm việc.",
+          "h": "I start work at + giờ",
+          "s": "I start work at 8 AM."
+        }
+      ]
+    },
+    {
+      "t": "Làm việc tại quầy tiếp tân",
+      "e": [
+        {
+          "p": "Who is at reception now?",
+          "m": "Nói ai đang ở quầy tiếp tân.",
+          "h": "There is / There are / S + be + N",
+          "s": "There is a nurse at the reception."
+        },
+        {
+          "p": "Can you help this patient?",
+          "m": "Trả lời có hoặc không ngắn.",
+          "h": "I can / I can't",
+          "s": "Yes, I can."
+        },
+        {
+          "p": "What do you give to the patient?",
+          "m": "Nói một vật bạn đưa cho bệnh nhân.",
+          "h": "I give + O",
+          "s": "I give water."
+        },
+        {
+          "p": "How many rooms does this floor have?",
+          "m": "Nói số phòng trên tầng này.",
+          "h": "There are + số",
+          "s": "There are 10 rooms on this floor."
+        },
+        {
+          "p": "Where is the waiting room?",
+          "m": "Nói vị trí ngắn khu chờ.",
+          "h": "It is + vị trí",
+          "s": "It is near the reception."
+        }
+      ]
+    },
+    {
+      "t": "Nói về ca trực",
+      "e": [
+        {
+          "p": "When is your next shift?",
+          "m": "Nói buổi ca tiếp theo (morning/ night).",
+          "h": "My shift is the + buổi",
+          "s": "My shift is the morning."
+        },
+        {
+          "p": "Do you start at eight o'clock?",
+          "m": "Trả lời có hoặc không.",
+          "h": "Yes, I do / No, I don't",
+          "s": "Yes, I do."
+        },
+        {
+          "p": "How many hours is your work?",
+          "m": "Nói số giờ ca làm việc.",
+          "h": "My shift is + số hours",
+          "s": "My shift is 8 hours."
+        },
+        {
+          "p": "Who works with you on the shift?",
+          "m": "Nói một người cùng ca (nghề).",
+          "h": "I work with a/an + N",
+          "s": "I work with a doctor."
+        },
+        {
+          "p": "Where do you go after work?",
+          "m": "Nói nơi bạn đi sau khi tan ca.",
+          "h": "I go + to + place",
+          "s": "I go home."
+        }
+      ]
+    },
+    {
+      "t": "Mô tả phòng bệnh",
+      "e": [
+        {
+          "p": "How many beds are here?",
+          "m": "Nói số giường trong phòng.",
+          "h": "There are + số",
+          "s": "There are 2 beds in the room."
+        },
+        {
+          "p": "What color are the beds?",
+          "m": "Nói màu của giường.",
+          "h": "It is + color",
+          "s": "The beds are white."
+        },
+        {
+          "p": "Is there a window in this room?",
+          "m": "Trả lời có hoặc không.",
+          "h": "Yes, there is / No, there isn't",
+          "s": "Yes, there is."
+        },
+        {
+          "p": "Where is the sink in this room?",
+          "m": "Nói vị trí bồn rửa trong phòng.",
+          "h": "It is + vị trí",
+          "s": "The sink is near the door."
+        },
+        {
+          "p": "Who sleeps in this bed?",
+          "m": "Nói người sử dụng giường (ví dụ: patient).",
+          "h": "This bed is for + N",
+          "s": "This bed is for patients."
+        }
+      ]
+    },
+    {
+      "t": "Hỏi về bệnh viện",
+      "e": [
+        {
+          "p": "Which city is the hospital in?",
+          "m": "Nói tên thành phố nơi bệnh viện nằm.",
+          "h": "The hospital is in + thành phố",
+          "s": "The hospital is in [studentCity]."
+        },
+        {
+          "p": "Is the hospital large?",
+          "m": "Trả lời có hoặc không (kích thước).",
+          "h": "Yes, it is / No, it isn't",
+          "s": "Yes, it is big."
+        },
+        {
+          "p": "What is near the hospital?",
+          "m": "Nói một nơi gần bệnh viện.",
+          "h": "There is + N near the hospital",
+          "s": "There is a shop near the hospital."
+        },
+        {
+          "p": "Are there many doctors in the hospital?",
+          "m": "Nói số lượng bác sĩ (một số).",
+          "h": "There are + số",
+          "s": "There are 20 doctors."
+        },
+        {
+          "p": "Do patients come every day to the hospital?",
+          "m": "Trả lời có hoặc không.",
+          "h": "Yes, they do / No, they don't",
+          "s": "Yes, they do."
+        }
+      ]
+    },
+    {
+      "t": "Hướng dẫn bệnh nhân",
+      "e": [
+        {
+          "p": "May I go to room three?",
+          "m": "Trả lời có hoặc không cho phép.",
+          "h": "Yes, you can / No, you can't",
+          "s": "Yes, you can."
+        },
+        {
+          "p": "Where is the clinic located?",
+          "m": "Nói vị trí ngắn của phòng khám.",
+          "h": "It is on/in + nơi",
+          "s": "The clinic is on floor 1."
+        },
+        {
+          "p": "Do you have drinking water for patients?",
+          "m": "Trả lời có hoặc không.",
+          "h": "Yes, we have / No, we don't",
+          "s": "Yes, we have water."
+        },
+        {
+          "p": "How do I get to the laboratory?",
+          "m": "Nêu chỉ dẫn ngắn (vị trí).",
+          "h": "It is + vị trí ngắn",
+          "s": "It is near the reception."
+        },
+        {
+          "p": "Who can help me with the form?",
+          "m": "Nói nghề người có thể giúp (1 từ).",
+          "h": "A/an + N can help",
+          "s": "A nurse can help you."
+        }
+      ]
+    },
+    {
+      "t": "Nói về nhiệm vụ đơn giản",
+      "e": [
+        {
+          "p": "What do you do each morning here?",
+          "m": "Nói một việc bạn làm buổi sáng.",
+          "h": "I + V(s) ...",
+          "s": "I check rooms."
+        },
+        {
+          "p": "Do you give patients medicine?",
+          "m": "Trả lời có hoặc không.",
+          "h": "Yes, I do / No, I don't",
+          "s": "Yes, I do."
+        },
+        {
+          "p": "Who opens the main door?",
+          "m": "Nói nghề người mở cửa.",
+          "h": "A/an + N opens",
+          "s": "A nurse opens the main door."
+        },
+        {
+          "p": "Where do you keep the patient forms?",
+          "m": "Nói nơi bạn cất hồ sơ (văn phòng...).",
+          "h": "I put them in + place",
+          "s": "I put the forms in the office."
+        },
+        {
+          "p": "Can patients call a doctor from here?",
+          "m": "Trả lời có hoặc không.",
+          "h": "Yes, they can / No, they can't",
+          "s": "Yes, they can."
+        }
+      ]
+    },
+    {
+      "t": "Giao tiếp đơn giản với đồng nghiệp",
+      "e": [
+        {
+          "p": "Do you have a pen with you?",
+          "m": "Trả lời có hoặc không.",
+          "h": "Yes, I have / No, I don't",
+          "s": "Yes, I have a pen."
+        },
+        {
+          "p": "Can you give a pen to me?",
+          "m": "Trả lời có hoặc không (đưa vật).",
+          "h": "I can / I can't",
+          "s": "Yes, I can."
+        },
+        {
+          "p": "Where is the pen now?",
+          "m": "Nói vị trí bút ngắn.",
+          "h": "It is on/in + nơi",
+          "s": "The pen is on the desk."
+        },
+        {
+          "p": "Where is the head nurse now?",
+          "m": "Nói vị trí ngắn của trưởng ca.",
+          "h": "She/He is in + nơi",
+          "s": "She is in the office."
+        },
+        {
+          "p": "Do you work with Maria on the team?",
+          "m": "Trả lời có hoặc không.",
+          "h": "Yes, I do / No, I don't",
+          "s": "No, I don't."
+        }
+      ]
+    },
+    {
+      "t": "Thông báo đơn giản",
+      "e": [
+        {
+          "p": "Is the doctor here at the moment?",
+          "m": "Trả lời có hoặc không.",
+          "h": "Yes, he/she is / No, he/she isn't",
+          "s": "No, he is not."
+        },
+        {
+          "p": "Who is the visitor in room two?",
+          "m": "Nói người thăm (một từ: friend...).",
+          "h": "The visitor is + N",
+          "s": "The visitor is a friend."
+        },
+        {
+          "p": "May I leave the room now?",
+          "m": "Trả lời có hoặc không.",
+          "h": "Yes, you can / No, you can't",
+          "s": "Yes, you can."
+        },
+        {
+          "p": "Is the room clean today?",
+          "m": "Trả lời có hoặc không.",
+          "h": "Yes, it is / No, it isn't",
+          "s": "Yes, it is clean."
+        },
+        {
+          "p": "Where is the doctor on duty now?",
+          "m": "Nói vị trí ngắn của bác sĩ trực.",
+          "h": "He/She is in + nơi",
+          "s": "He is in the office."
+        }
+      ]
+    },
+    {
+      "t": "Ôn tập: Giới thiệu và nơi làm việc",
+      "e": [
+        {
+          "p": "Can you say your name again?",
+          "m": "Nói tên của bạn.",
+          "h": "S + be + N",
+          "s": "My name is [studentName]."
+        },
+        {
+          "p": "What work do you do in this hospital?",
+          "m": "Nói nghề bạn làm ở bệnh viện.",
+          "h": "I am a + N / I work as a + N",
+          "s": "I am a [studentJob]."
+        },
+        {
+          "p": "Tell me your workplace.",
+          "m": "Nói nơi bạn làm việc (thành phố/bệnh viện).",
+          "h": "I work at/in + nơi",
+          "s": "I work at a hospital in [studentCity]."
+        },
+        {
+          "p": "Which department do you belong to?",
+          "m": "Nói khoa hoặc phòng của bạn.",
+          "h": "I work in the + N",
+          "s": "I work in the ward."
+        },
+        {
+          "p": "Do you have work every day?",
+          "m": "Trả lời có hoặc không về tần suất.",
+          "h": "Yes, I do / No, I don't",
+          "s": "Yes, I do."
+        }
+      ]
+    },
+    {
+      "t": "Ôn tập: Công việc và bộ phận",
+      "e": [
+        {
+          "p": "What is one thing you do for patients?",
+          "m": "Nói một việc bạn làm cho bệnh nhân.",
+          "h": "I + V(s) + O",
+          "s": "I help patients."
+        },
+        {
+          "p": "Who helps the patients in the ward?",
+          "m": "Nói nghề người giúp bệnh nhân.",
+          "h": "A/an + N helps",
+          "s": "A nurse helps the patients."
+        },
+        {
+          "p": "Tell me where the reception is.",
+          "m": "Nói vị trí của quầy tiếp tân.",
+          "h": "It is + vị trí",
+          "s": "The reception is at the front."
+        },
+        {
+          "p": "How many rooms are on this floor?",
+          "m": "Nói số phòng trên tầng này.",
+          "h": "There are + số",
+          "s": "There are 10 rooms."
+        },
+        {
+          "p": "Can you help in the morning time?",
+          "m": "Trả lời có hoặc không.",
+          "h": "Yes, I can / No, I can't",
+          "s": "Yes, I can."
+        }
+      ]
+    },
+    {
+      "t": "Ôn tập: Tình huống tổng hợp",
+      "e": [
+        {
+          "p": "Can you show the ward to this visitor?",
+          "m": "Trả lời có hoặc không.",
+          "h": "I can / I can't",
+          "s": "Yes, I can."
+        },
+        {
+          "p": "Who cares for this patient now?",
+          "m": "Nói nghề người đang chăm sóc bệnh nhân.",
+          "h": "A/an + N cares",
+          "s": "A nurse cares for this patient."
+        },
+        {
+          "p": "Where can I find the pharmacy?",
+          "m": "Nói vị trí ngắn của nhà thuốc.",
+          "h": "It is + vị trí",
+          "s": "The pharmacy is near the entrance."
+        },
+        {
+          "p": "How many nurses are on duty today?",
+          "m": "Nói số y tá trực hôm nay.",
+          "h": "There are + số",
+          "s": "There are 5 nurses on duty today."
+        },
+        {
+          "p": "What time is your work start today?",
+          "m": "Nói giờ bạn bắt đầu làm việc hôm nay.",
+          "h": "I start work at + giờ",
+          "s": "I start work at 8 AM."
+        }
+      ]
+    }
+  ]
+}

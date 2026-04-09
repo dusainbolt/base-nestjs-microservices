@@ -1,0 +1,530 @@
+{
+  "l": 2,
+  "d": [
+    {
+      "t": "Gặp nhà đầu tư",
+      "e": [
+        {
+          "p": "Which project do you like?",
+          "m": "Nói tên dự án bạn thích. Nói một lý do ngắn.",
+          "h": "Use 'I like + N.' and 'It is + adj.'",
+          "s": "I like the small shop project. It is good because it can make money."
+        },
+        {
+          "p": "How much money do you have?",
+          "m": "Nói số tiền bạn có. Nói nếu tiền đó đủ cho dự án hay không.",
+          "h": "Use 'I have + amount.' and 'It is enough / not enough.'",
+          "s": "I have 1000 dollars. It is not enough for a big project."
+        },
+        {
+          "p": "Are you worried about risk?",
+          "m": "Trả lời có hoặc không. Nói một lý do ngắn.",
+          "h": "Use 'I am worried / I am not worried.' and 'Because + reason.'",
+          "s": "I am worried about risk. Because I can lose money."
+        },
+        {
+          "p": "Do you like small or big projects?",
+          "m": "Nói bạn thích kiểu dự án nào. Nói một lý do ngắn.",
+          "h": "Use 'I like + small/big + N.' and 'Because + reason.'",
+          "s": "I like small projects. Because they are easier to handle."
+        },
+        {
+          "p": "When do you want to invest?",
+          "m": "Nói thời điểm bạn muốn đầu tư. Nói một lý do ngắn.",
+          "h": "Use 'I want to + V' or 'I am going to + V.'",
+          "s": "I want to invest next week. I want to start after I save more money."
+        }
+      ]
+    },
+    {
+      "t": "Nói về dự án nhỏ",
+      "e": [
+        {
+          "p": "What is the project cost?",
+          "m": "Nói chi phí dự án. Nói một điều về chi phí (big/small).",
+          "h": "Use 'The cost is + amount.' and 'It is + adj.'",
+          "s": "The cost is 500 dollars. It is a small cost for me."
+        },
+        {
+          "p": "How many people work on it?",
+          "m": "Nói số người làm dự án. Nói nếu đó là đủ hay không.",
+          "h": "Use 'There are + number + people.' and 'It is enough / not enough.'",
+          "s": "There are two people. It is not enough for a big task."
+        },
+        {
+          "p": "Is the project near the city?",
+          "m": "Trả lời yes/no. Nói vị trí ngắn (in/near/at).",
+          "h": "Use 'Yes, it is near + place.' or 'No, it is in + place.'",
+          "s": "Yes, it is near the city. It is good for many customers."
+        },
+        {
+          "p": "Do you like this project idea?",
+          "m": "Nói bạn có thích ý tưởng không. Nói một lý do ngắn.",
+          "h": "Use 'I like / I do not like' and 'Because + reason.'",
+          "s": "I like this idea. Because it can bring some profit."
+        },
+        {
+          "p": "Who pays the cost now?",
+          "m": "Nói người trả tiền hiện tại. Nói một thông tin ngắn về họ (job or name ok).",
+          "h": "Use 'My friend / I + pay(s) / pays.' and short noun.",
+          "s": "My friend pays the cost now. He is a shop owner."
+        }
+      ]
+    },
+    {
+      "t": "Thảo luận chi phí",
+      "e": [
+        {
+          "p": "What is the monthly cost?",
+          "m": "Nói chi phí hàng tháng. Nói nếu chi phí lớn hay nhỏ.",
+          "h": "Use 'The monthly cost is + amount.' and 'It is + adj.'",
+          "s": "The monthly cost is 100 dollars. It is a small cost."
+        },
+        {
+          "p": "Can you pay the cost every month?",
+          "m": "Trả lời có/không. Nói một lý do ngắn.",
+          "h": "Use 'I can / I cannot' and 'Because + reason.'",
+          "s": "I cannot pay every month. Because I save money now."
+        },
+        {
+          "p": "Do you need a loan?",
+          "m": "Trả lời yes/no. Nói ngắn về số tiền nếu cần.",
+          "h": "Use 'Yes, I need' or 'No, I do not need' and number.",
+          "s": "Yes, I need a loan. I need 500 dollars."
+        },
+        {
+          "p": "How do you pay the cost?",
+          "m": "Nói cách bạn trả tiền (cash/card/save). Nói một chi tiết ngắn.",
+          "h": "Use 'I pay by + method.' and short reason.",
+          "s": "I pay by cash. It is easy for small shops."
+        },
+        {
+          "p": "Is the cost always the same?",
+          "m": "Trả lời yes/no. Nói một ví dụ ngắn nếu thay đổi.",
+          "h": "Use 'Yes, it is always the same.' or 'No, it changes.'",
+          "s": "No, it changes every month. Sometimes it is higher."
+        }
+      ]
+    },
+    {
+      "t": "Dự báo lợi nhuận",
+      "e": [
+        {
+          "p": "How much profit do you expect?",
+          "m": "Nói số lợi nhuận bạn mong đợi. Nói nếu đó là cao hay thấp.",
+          "h": "Use 'I expect + amount.' and 'It is + adj.'",
+          "s": "I expect 200 dollars profit. It is a small profit now."
+        },
+        {
+          "p": "When do you get profit?",
+          "m": "Nói thời gian bạn nhận lợi nhuận. Nói một lý do ngắn.",
+          "h": "Use 'I get profit in + time.' and 'Because + reason.'",
+          "s": "I get profit in six months. Because customers come slowly."
+        },
+        {
+          "p": "Do you earn profit often?",
+          "m": "Trả lời thường xuyên hay không. Dùng trạng từ tần suất.",
+          "h": "Use 'I often / sometimes / never + V.'",
+          "s": "I sometimes earn profit. It depends on the weather."
+        },
+        {
+          "p": "Is the profit good or bad?",
+          "m": "Nói profit là good hoặc bad. Nói một lý do ngắn.",
+          "h": "Use 'It is good / It is bad.' and 'Because + reason.'",
+          "s": "It is good this month. Because many people buy."
+        },
+        {
+          "p": "Do you want more profit?",
+          "m": "Trả lời có/không. Nói một cách ngắn bạn muốn tăng profit như thế nào.",
+          "h": "Use 'I want + more profit.' and 'I will + V' or 'by + V-ing.'",
+          "s": "I want more profit. I will sell more items."
+        }
+      ]
+    },
+    {
+      "t": "Đánh giá rủi ro",
+      "e": [
+        {
+          "p": "Is the project risky?",
+          "m": "Trả lời yes/no. Nói một lý do ngắn.",
+          "h": "Use 'Yes, it is risky.' or 'No, it is not risky.' and 'Because + reason.'",
+          "s": "Yes, it is risky. Because customers are few."
+        },
+        {
+          "p": "What is the main risk?",
+          "m": "Nói một rủi ro chính bằng một cụm từ. Nói một ví dụ ngắn.",
+          "h": "Use short noun phrase and 'For example...' (optional).",
+          "s": "The main risk is low customers. For example, no one buys on rainy days."
+        },
+        {
+          "p": "Do you still invest with risk?",
+          "m": "Trả lời có/không. Nói một lý do ngắn.",
+          "h": "Use 'I still + V' or 'I do not + V.' and short reason.",
+          "s": "I still invest with risk. I want to try one month."
+        },
+        {
+          "p": "How do you reduce risk?",
+          "m": "Nói một cách ngắn để giảm rủi ro. Nói một hành động cụ thể.",
+          "h": "Use 'I + V' or 'I am + V-ing' with simple verb.",
+          "s": "I save some money. I also sell small items first."
+        },
+        {
+          "p": "Are you scared if you lose money?",
+          "m": "Trả lời có/không. Nói một cảm xúc ngắn khác.",
+          "h": "Use 'I am scared / I am not scared.' and 'I feel + emotion.'",
+          "s": "I am a little scared. I feel sad but still hopeful."
+        }
+      ]
+    },
+    {
+      "t": "Quyết định mua bán",
+      "e": [
+        {
+          "p": "Do you want to buy this project?",
+          "m": "Trả lời có/không. Nói một lý do ngắn.",
+          "h": "Use 'I want to buy' or 'I do not want to buy' and 'Because...'.",
+          "s": "I do not want to buy. Because the cost is too high."
+        },
+        {
+          "p": "When will you sell items?",
+          "m": "Nói thời gian bạn bán hàng. Nói một chi tiết ngắn về tần suất.",
+          "h": "Use 'I sell + time' or 'I sell every + period.'",
+          "s": "I sell every morning. I open the shop at eight."
+        },
+        {
+          "p": "How often do you check prices?",
+          "m": "Nói tần suất kiểm tra giá. Nói một lý do ngắn.",
+          "h": "Use 'I often / sometimes / never + V.' and reason.",
+          "s": "I often check prices. Because prices change many times."
+        },
+        {
+          "p": "Do you buy new stock now?",
+          "m": "Trả lời có/không. Nói số lượng ngắn nếu có.",
+          "h": "Use 'Yes, I buy + number' or 'No, I do not buy.'",
+          "s": "Yes, I buy five boxes. They are for next week."
+        },
+        {
+          "p": "Who makes the final decision?",
+          "m": "Nói người quyết định. Nói một lý do ngắn vì sao họ quyết định.",
+          "h": "Use 'I decide' or 'My friend decides' and short reason.",
+          "s": "I make the final decision. I know the shop and the customers."
+        }
+      ]
+    },
+    {
+      "t": "Kế hoạch tiết kiệm",
+      "e": [
+        {
+          "p": "How much do you save each week?",
+          "m": "Nói số tiền bạn tiết kiệm mỗi tuần. Nói nếu bạn luôn tiết kiệm hay không.",
+          "h": "Use 'I save + amount.' and 'I always / sometimes / never + V.'",
+          "s": "I save 20 dollars each week. I sometimes miss a week."
+        },
+        {
+          "p": "Are you saving for a project?",
+          "m": "Trả lời yes/no. Nói tên dự án ngắn.",
+          "h": "Use 'Yes, I am saving for + N.' or 'No, I am not.'",
+          "s": "Yes, I am saving for a shop project. I want to buy small stock first."
+        },
+        {
+          "p": "Do you still spend money now?",
+          "m": "Trả lời có/không. Nói một ví dụ chi tiêu ngắn.",
+          "h": "Use 'I still + V' or 'I do not + V.' and short example.",
+          "s": "I still spend some money. I buy food every day."
+        },
+        {
+          "p": "Will you save more next month?",
+          "m": "Trả lời có/không. Nói một hành động để tiết kiệm.",
+          "h": "Use 'I will + V' or 'I am going to + V.'",
+          "s": "I will save more next month. I will cook more at home."
+        },
+        {
+          "p": "Where do you keep your savings?",
+          "m": "Nói nơi bạn để tiền (bank/home). Nói một lý do ngắn.",
+          "h": "Use 'I keep money in + place.' and 'Because + reason.'",
+          "s": "I keep money in the bank. Because it is safe."
+        }
+      ]
+    },
+    {
+      "t": "Vị trí và thị trường",
+      "e": [
+        {
+          "p": "Is the market near your shop?",
+          "m": "Trả lời yes/no. Nói một mô tả ngắn về vị trí.",
+          "h": "Use 'Yes, it is near + place.' or 'No, it is far.'",
+          "s": "Yes, the market is near my shop. It is two minutes away."
+        },
+        {
+          "p": "Do customers come every day?",
+          "m": "Trả lời thường xuyên hay không. Dùng trạng từ tần suất.",
+          "h": "Use 'Customers often / sometimes / never + V.'",
+          "s": "Customers often come every day. They buy in the morning."
+        },
+        {
+          "p": "Is the area busy or quiet?",
+          "m": "Nói area busy/quiet. Nói một lý do ngắn.",
+          "h": "Use 'It is busy / It is quiet.' and 'Because + reason.'",
+          "s": "It is busy near the market. Because many people walk here."
+        },
+        {
+          "p": "Do you sell to people from other towns?",
+          "m": "Trả lời yes/no. Nói một ví dụ ngắn về khách.",
+          "h": "Use 'Yes, I sell to + place people.' or 'No, I do not.'",
+          "s": "Yes, I sell to people from near towns. They come on weekends."
+        },
+        {
+          "p": "How do you find new customers?",
+          "m": "Nói một cách ngắn để tìm khách mới. Nói một hành động cụ thể.",
+          "h": "Use 'I + V' or 'I am + V-ing' with simple verb.",
+          "s": "I give small ads near the market. I also talk to people every day."
+        }
+      ]
+    },
+    {
+      "t": "Lịch trình dự án",
+      "e": [
+        {
+          "p": "When does the project start?",
+          "m": "Nói ngày hoặc thời điểm bắt đầu. Nói một lý do ngắn.",
+          "h": "Use 'It starts + time.' and 'Because + reason.'",
+          "s": "It starts next month. Because we save money now."
+        },
+        {
+          "p": "How long will the project run?",
+          "m": "Nói thời gian chạy dự án. Nói nếu thời gian đó ngắn hay dài.",
+          "h": "Use 'It will run for + time.' and 'It is + adj.'",
+          "s": "It will run for six months. It is a short project."
+        },
+        {
+          "p": "Do you work on it every day?",
+          "m": "Trả lời yes/no. Nói tần suất ngắn.",
+          "h": "Use 'I work every day.' or 'I work sometimes.'",
+          "s": "I work on it every day. I open the shop in the morning."
+        },
+        {
+          "p": "Who helps on weekends?",
+          "m": "Nói người giúp cuối tuần. Nói một hành động họ làm.",
+          "h": "Use 'My friend / family + V(s).'",
+          "s": "My friend helps on weekends. He sells and counts money."
+        },
+        {
+          "p": "Do you plan next month's tasks?",
+          "m": "Trả lời có/không. Nói một việc bạn sẽ làm.",
+          "h": "Use 'Yes, I plan to + V.' or 'No, I do not.'",
+          "s": "Yes, I plan next month's tasks. I will buy new stock."
+        }
+      ]
+    },
+    {
+      "t": "Hợp tác với người khác",
+      "e": [
+        {
+          "p": "Do you want a partner?",
+          "m": "Trả lời có/không. Nói một lý do ngắn.",
+          "h": "Use 'I want a partner.' or 'I do not want a partner.'",
+          "s": "I want a partner. Because one person is tired."
+        },
+        {
+          "p": "Who is your partner now?",
+          "m": "Nói tên hoặc mối quan hệ của người hợp tác. Nói một điều họ làm.",
+          "h": "Use 'My partner is + person.' and 'He/She + V(s).'",
+          "s": "My partner is my friend. He helps with money."
+        },
+        {
+          "p": "Do you share profit with them?",
+          "m": "Trả lời có/không. Nói ngắn cách chia.",
+          "h": "Use 'Yes, we share + percent.' or 'No, I keep all.'",
+          "s": "Yes, we share profit fifty fifty. We agree on clear rules."
+        },
+        {
+          "p": "Is the partner always on time?",
+          "m": "Trả lời có/không. Nói cảm xúc ngắn về điều đó.",
+          "h": "Use 'He/She is always on time.' or 'He/She is not.'",
+          "s": "He is not always on time. I feel a little worried."
+        },
+        {
+          "p": "Do you trust your partner?",
+          "m": "Trả lời có/không. Nói một lý do ngắn.",
+          "h": "Use 'I trust / I do not trust' and short reason.",
+          "s": "I trust my partner. Because he works hard."
+        }
+      ]
+    },
+    {
+      "t": "So sánh hai dự án",
+      "e": [
+        {
+          "p": "Which project is cheaper?",
+          "m": "Nói dự án nào rẻ hơn. Nói một con số hoặc mô tả ngắn.",
+          "h": "Use 'Project A is cheaper.' and 'It costs + amount.'",
+          "s": "Project A is cheaper. It costs 300 dollars."
+        },
+        {
+          "p": "Which project has more profit?",
+          "m": "Nói dự án có lợi nhuận cao hơn. Nói một lý do ngắn.",
+          "h": "Use 'Project B has more profit.' and 'Because + reason.'",
+          "s": "Project B has more profit. Because many people buy its items."
+        },
+        {
+          "p": "Do you prefer safe or risky project?",
+          "m": "Nói bạn thích safe or risky. Nói một lý do ngắn.",
+          "h": "Use 'I prefer safe/risky projects.' and 'Because + reason.'",
+          "s": "I prefer safe projects. Because I do not want to lose money."
+        },
+        {
+          "p": "Is one project faster to start?",
+          "m": "Trả lời yes/no. Nói dự án nào nhanh hơn và lý do ngắn.",
+          "h": "Use 'Yes, Project X is faster.' and 'Because + reason.'",
+          "s": "Yes, the shop project is faster. Because it needs less setup."
+        },
+        {
+          "p": "Can you do two projects now?",
+          "m": "Trả lời có/không. Nói một lý do ngắn (time/money).",
+          "h": "Use 'I can / I cannot' and 'Because + reason.'",
+          "s": "I cannot do two projects now. Because I have little money."
+        }
+      ]
+    },
+    {
+      "t": "Thói quen theo dõi đầu tư",
+      "e": [
+        {
+          "p": "Do you check sales every day?",
+          "m": "Trả lời có/không. Nói một lý do ngắn.",
+          "h": "Use 'I check every day.' or 'I do not check.' and reason.",
+          "s": "I check sales every day. Because I want to know profit."
+        },
+        {
+          "p": "How do you record money?",
+          "m": "Nói cách bạn ghi chép (note/app). Nói một ví dụ ngắn.",
+          "h": "Use 'I use + method.' and short example.",
+          "s": "I use a small notebook. I write cost and profit there."
+        },
+        {
+          "p": "Do you review risk each week?",
+          "m": "Trả lời có/không. Nói một hành động bạn làm khi review.",
+          "h": "Use 'I review every week.' or 'I do not review.' and action.",
+          "s": "I review risk every week. I check customers and prices."
+        },
+        {
+          "p": "Do you change plans often?",
+          "m": "Trả lời thường xuyên hay không. Nói một ví dụ ngắn khi thay đổi.",
+          "h": "Use 'I often / sometimes / never + V.' and example.",
+          "s": "I sometimes change plans. For example, I buy less stock now."
+        },
+        {
+          "p": "Who helps you with records?",
+          "m": "Nói người giúp. Nói một việc họ làm.",
+          "h": "Use 'My family / friend + V(s).'",
+          "s": "My sister helps me with records. She writes daily sales."
+        }
+      ]
+    },
+    {
+      "t": "Ôn tập: Gặp và giới thiệu",
+      "e": [
+        {
+          "p": "Tell me about your project.",
+          "m": "Nói tên dự án. Nói một mô tả ngắn về dự án.",
+          "h": "Use 'I have + N.' and 'It is + adj.'",
+          "s": "I have a small shop project. It is near the market and busy."
+        },
+        {
+          "p": "Where are you from?",
+          "m": "Nói thành phố hoặc nơi bạn sống. Nói một điều ngắn về nơi đó.",
+          "h": "Use 'I am from + place.' and short detail.",
+          "s": "I am from [studentCity]. It is a small city near the sea."
+        },
+        {
+          "p": "What do you do now?",
+          "m": "Nói nghề nghiệp hiện tại hoặc việc bạn làm. Nói một hành động ngắn.",
+          "h": "Use 'I am a + job.' or 'I work as + job.' and short verb.",
+          "s": "I am a shop helper. I sell items every morning."
+        },
+        {
+          "p": "How old is your project?",
+          "m": "Nói tuổi của dự án (thời gian chạy). Nói một mô tả ngắn.",
+          "h": "Use 'It is + number + months/years old.' and 'It is + adj.'",
+          "s": "It is six months old. It is still small and new."
+        },
+        {
+          "p": "Do you like this work?",
+          "m": "Trả lời có/không. Nói một lý do ngắn.",
+          "h": "Use 'I like / I do not like' and 'Because + reason.'",
+          "s": "I like this work. Because I meet many people."
+        }
+      ]
+    },
+    {
+      "t": "Ôn tập: Chi phí và lợi nhuận",
+      "e": [
+        {
+          "p": "What is the total cost now?",
+          "m": "Nói tổng chi phí hiện tại. Nói một đánh giá ngắn (big/small).",
+          "h": "Use 'The total cost is + amount.' and 'It is + adj.'",
+          "s": "The total cost is 800 dollars. It is a medium cost for us."
+        },
+        {
+          "p": "Do you earn profit this month?",
+          "m": "Trả lời có/không. Nói số tiền profit ngắn.",
+          "h": "Use 'I earn / I do not earn' and 'amount.'",
+          "s": "I earn 100 dollars profit this month. It is a small start."
+        },
+        {
+          "p": "How do you pay expenses?",
+          "m": "Nói cách bạn trả chi phí. Nói một ví dụ ngắn.",
+          "h": "Use 'I pay by + method.' and short example.",
+          "s": "I pay by cash from sales. I also use saved money sometimes."
+        },
+        {
+          "p": "Is profit always the same?",
+          "m": "Trả lời yes/no. Nói một nguyên nhân ngắn khi thay đổi.",
+          "h": "Use 'No, it changes.' and 'Because + reason.'",
+          "s": "No, it changes each month. Because customer number is different."
+        },
+        {
+          "p": "Do you want higher profit next month?",
+          "m": "Trả lời có/không. Nói một hành động bạn sẽ làm để tăng profit.",
+          "h": "Use 'I want + more profit.' and 'I will + V.'",
+          "s": "I want higher profit next month. I will sell more items and save costs."
+        }
+      ]
+    },
+    {
+      "t": "Ôn tập: Quyết định và rủi ro",
+      "e": [
+        {
+          "p": "Will you start a new project?",
+          "m": "Trả lời có/không. Nói một lý do ngắn.",
+          "h": "Use 'I will / I will not' and 'Because + reason.'",
+          "s": "I will not start a new project now. Because I need more money."
+        },
+        {
+          "p": "Do you accept the risk?",
+          "m": "Trả lời có/không. Nói một cảm xúc ngắn.",
+          "h": "Use 'I accept / I do not accept' and 'I feel + emotion.'",
+          "s": "I accept some risk. I feel a little nervous but ready."
+        },
+        {
+          "p": "How do you make a final choice?",
+          "m": "Nói một bước ngắn bạn làm để quyết định. Nói một kết quả ngắn.",
+          "h": "Use 'I + V' and 'Then + result.'",
+          "s": "I check cost and profit first. Then I choose the better project."
+        },
+        {
+          "p": "Do you need advice from others?",
+          "m": "Trả lời có/không. Nói một người bạn hỏi và tại sao.",
+          "h": "Use 'Yes, I ask + person.' or 'No, I do not.'",
+          "s": "Yes, I ask my friend for advice. He gives good ideas and help."
+        },
+        {
+          "p": "Are you ready to change plan if risk is high?",
+          "m": "Trả lời có/không. Nói một hành động bạn sẽ làm nếu thay đổi.",
+          "h": "Use 'I am ready / I am not ready.' and 'I will + V.'",
+          "s": "I am ready to change the plan. I will save more and wait."
+        }
+      ]
+    }
+  ]
+}

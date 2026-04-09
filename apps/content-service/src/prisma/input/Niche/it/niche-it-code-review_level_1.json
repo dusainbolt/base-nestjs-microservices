@@ -1,0 +1,530 @@
+{
+  "l": 1,
+  "d": [
+    {
+      "t": "Gặp đồng nghiệp để review code",
+      "e": [
+        {
+          "p": "What's your name?",
+          "m": "Nói tên của bạn.",
+          "h": "Use: My name is [studentName].",
+          "s": "My name is [studentName]."
+        },
+        {
+          "p": "Are you the author of this code?",
+          "m": "Nói có hay không.",
+          "h": "Use: Yes, I am / No, I am not.",
+          "s": "Yes, I am the author."
+        },
+        {
+          "p": "Can you show the file?",
+          "m": "Nói bạn có thể mở file được không.",
+          "h": "Use: I can / I can't + V.",
+          "s": "I can open the file now."
+        },
+        {
+          "p": "Where is the function?",
+          "m": "Nói vị trí (ví dụ: in main file / in line X).",
+          "h": "Use: It is in + place.",
+          "s": "It is in the main file."
+        },
+        {
+          "p": "Do you want my help now?",
+          "m": "Nói bạn có muốn giúp hay không.",
+          "h": "Use: I want / I don't want.",
+          "s": "I want your help now."
+        }
+      ]
+    },
+    {
+      "t": "Nói về mục đích của thay đổi",
+      "e": [
+        {
+          "p": "What does this change do?",
+          "m": "Nói mục đích ngắn gọn của thay đổi.",
+          "h": "Use: It + V(s) + O.",
+          "s": "It fixes a small bug."
+        },
+        {
+          "p": "Do we need this change?",
+          "m": "Nói có cần hay không.",
+          "h": "Use: We need it / We don't need it.",
+          "s": "We need this change."
+        },
+        {
+          "p": "Who asked for this change?",
+          "m": "Nói người yêu cầu (ví dụ: team hoặc manager).",
+          "h": "Use: [Person] asked / The team asked.",
+          "s": "The team asked for it."
+        },
+        {
+          "p": "Is the change small?",
+          "m": "Nói thay đổi nhỏ hay lớn.",
+          "h": "Use: It is small / It is not small.",
+          "s": "It is small."
+        },
+        {
+          "p": "Can this change break other code?",
+          "m": "Trả lời có thể hay không và nói lý do ngắn.",
+          "h": "Use: It can / It can't + reason word.",
+          "s": "It can break other code if tests fail."
+        }
+      ]
+    },
+    {
+      "t": "Tìm lỗi đơn giản trong code",
+      "e": [
+        {
+          "p": "Do you see any bug?",
+          "m": "Nói có thấy bug không.",
+          "h": "Use: I see / I don't see.",
+          "s": "I see a small bug."
+        },
+        {
+          "p": "Where is the bug?",
+          "m": "Nói chỗ có lỗi (ví dụ: in line 10).",
+          "h": "Use: It is in + place.",
+          "s": "It is in line 10."
+        },
+        {
+          "p": "What is the bug?",
+          "m": "Mô tả lỗi ngắn (ví dụ: wrong value).",
+          "h": "Use: It + is + noun/adj.",
+          "s": "It is a wrong value."
+        },
+        {
+          "p": "Can you fix it now?",
+          "m": "Nói bạn có thể sửa ngay hay không.",
+          "h": "Use: I can / I can't + V.",
+          "s": "I can fix it now."
+        },
+        {
+          "p": "Do we have a test for this bug?",
+          "m": "Trả lời có hay không.",
+          "h": "Use: Yes, we have / No, we don't have.",
+          "s": "No, we don't have a test."
+        }
+      ]
+    },
+    {
+      "t": "Nói về tên biến và hàm",
+      "e": [
+        {
+          "p": "Is this variable name clear?",
+          "m": "Nói tên biến có rõ ràng không.",
+          "h": "Use: It is clear / It is not clear.",
+          "s": "It is not clear."
+        },
+        {
+          "p": "What do you suggest?",
+          "m": "Đưa ra một tên thay thế ngắn.",
+          "h": "Use: Use + new name / Rename to + name.",
+          "s": "Rename it to userCount."
+        },
+        {
+          "p": "Does the function name match its job?",
+          "m": "Nói có phù hợp hay không.",
+          "h": "Use: Yes, it does / No, it doesn't.",
+          "s": "No, it doesn't match."
+        },
+        {
+          "p": "Can we use one word name?",
+          "m": "Trả lời có thể hay không.",
+          "h": "Use: We can / We can't.",
+          "s": "We can use one word name."
+        },
+        {
+          "p": "Do other files use the same name?",
+          "m": "Nói có hay không để tránh nhầm lẫn.",
+          "h": "Use: Yes, they do / No, they don't.",
+          "s": "Yes, other files use the same name."
+        }
+      ]
+    },
+    {
+      "t": "Nói về hiệu suất (performance)",
+      "e": [
+        {
+          "p": "Is the code fast?",
+          "m": "Nói code nhanh hay chậm.",
+          "h": "Use: It is fast / It is slow.",
+          "s": "It is slow."
+        },
+        {
+          "p": "What part is slow?",
+          "m": "Nói phần chậm ngắn (ví dụ: loop).",
+          "h": "Use: The + part + is slow.",
+          "s": "The loop is slow."
+        },
+        {
+          "p": "Can we make it faster?",
+          "m": "Trả lời có thể hay không.",
+          "h": "Use: We can / We can't.",
+          "s": "We can make it faster."
+        },
+        {
+          "p": "How do you improve speed?",
+          "m": "Nói một cách đơn giản (ví dụ: change loop).",
+          "h": "Use: Change + noun / Use + noun.",
+          "s": "Change the loop to a simple method."
+        },
+        {
+          "p": "Do tests run faster after change?",
+          "m": "Trả lời có hay không.",
+          "h": "Use: Yes, they run faster / No, they don't.",
+          "s": "Yes, they run faster."
+        }
+      ]
+    },
+    {
+      "t": "Kiểm tra bài test và kết quả",
+      "e": [
+        {
+          "p": "Do the tests pass?",
+          "m": "Trả lời các test có pass hay không.",
+          "h": "Use: Yes, they pass / No, they don't.",
+          "s": "No, they don't pass."
+        },
+        {
+          "p": "How many tests fail?",
+          "m": "Nói số test fail (dùng số).",
+          "h": "Use: [number] tests fail.",
+          "s": "Two tests fail."
+        },
+        {
+          "p": "Is there a test file?",
+          "m": "Nói có file test hay không.",
+          "h": "Use: There is / There is not.",
+          "s": "There is a test file."
+        },
+        {
+          "p": "Can you run the tests now?",
+          "m": "Nói bạn có thể chạy test không.",
+          "h": "Use: I can / I can't + V.",
+          "s": "I can run the tests now."
+        },
+        {
+          "p": "Do we need new tests?",
+          "m": "Trả lời có cần hay không.",
+          "h": "Use: We need new tests / We don't need.",
+          "s": "We need new tests."
+        }
+      ]
+    },
+    {
+      "t": "Yêu cầu sửa đổi nhỏ",
+      "e": [
+        {
+          "p": "Can you change the name here?",
+          "m": "Nói bạn có thể đổi tên không.",
+          "h": "Use: I can / I can't + V.",
+          "s": "I can change the name."
+        },
+        {
+          "p": "Please remove this line.",
+          "m": "Nói bạn có thể xóa dòng này không.",
+          "h": "Use: I can / I can't + V.",
+          "s": "I can remove this line."
+        },
+        {
+          "p": "Add a comment here, please.",
+          "m": "Nói bạn có thể thêm comment không.",
+          "h": "Use: I can / I can't + V.",
+          "s": "I can add a comment."
+        },
+        {
+          "p": "Do you need help to fix it?",
+          "m": "Trả lời có cần giúp hay không.",
+          "h": "Use: I need help / I don't need help.",
+          "s": "I need help."
+        },
+        {
+          "p": "When will you finish the fix?",
+          "m": "Nói thời gian ngắn (today / tomorrow).",
+          "h": "Use: I will finish + time word (use present for A1).",
+          "s": "I finish it today."
+        }
+      ]
+    },
+    {
+      "t": "Đồng ý hoặc không đồng ý với đề xuất",
+      "e": [
+        {
+          "p": "I think we rename the function.",
+          "m": "Nói bạn đồng ý hay không.",
+          "h": "Use: I agree / I don't agree.",
+          "s": "I agree."
+        },
+        {
+          "p": "We can remove this check.",
+          "m": "Trả lời đồng ý hay không và lý do ngắn.",
+          "h": "Use: I agree because... / I don't agree because...",
+          "s": "I don't agree because we need the check."
+        },
+        {
+          "p": "Do you agree to change the test?",
+          "m": "Trả lời có đồng ý hay không.",
+          "h": "Use: Yes, I agree / No, I don't agree.",
+          "s": "Yes, I agree."
+        },
+        {
+          "p": "Can we leave the code as is?",
+          "m": "Trả lời có thể hay không.",
+          "h": "Use: We can / We can't.",
+          "s": "We can't leave it as is."
+        },
+        {
+          "p": "What is your decision?",
+          "m": "Nói quyết định ngắn (accept / change / reject).",
+          "h": "Use: I accept / I will change / I reject.",
+          "s": "I will change the code."
+        }
+      ]
+    },
+    {
+      "t": "Hỏi về file và dòng code cụ thể",
+      "e": [
+        {
+          "p": "Which file is this in?",
+          "m": "Nói tên file ngắn (ví dụ: main.js).",
+          "h": "Use: It is in + file name.",
+          "s": "It is in main.js."
+        },
+        {
+          "p": "Can you open line 20?",
+          "m": "Nói bạn có thể mở dòng 20 không.",
+          "h": "Use: I can / I can't.",
+          "s": "I can open line 20."
+        },
+        {
+          "p": "Is line 20 correct?",
+          "m": "Nói đúng hay sai.",
+          "h": "Use: It is correct / It is not correct.",
+          "s": "It is not correct."
+        },
+        {
+          "p": "Do we need this file?",
+          "m": "Nói có cần hay không.",
+          "h": "Use: We need it / We don't need it.",
+          "s": "We don't need this file."
+        },
+        {
+          "p": "Who edits this file usually?",
+          "m": "Nói ai hay sửa file (ví dụ: the team).",
+          "h": "Use: [Person] edits / The team edits.",
+          "s": "The team edits this file."
+        }
+      ]
+    },
+    {
+      "t": "Hỏi về thói quen khi code",
+      "e": [
+        {
+          "p": "Do you write tests?",
+          "m": "Trả lời bạn có viết test hay không.",
+          "h": "Use: I write tests / I don't write tests.",
+          "s": "I write tests."
+        },
+        {
+          "p": "Do you commit often?",
+          "m": "Nói bạn có commit thường không.",
+          "h": "Use: I commit often / I don't commit often.",
+          "s": "I commit often."
+        },
+        {
+          "p": "Do you use comments?",
+          "m": "Trả lời có dùng comment hay không.",
+          "h": "Use: I use comments / I don't use comments.",
+          "s": "I use comments."
+        },
+        {
+          "p": "Can you work with the team style?",
+          "m": "Nói bạn có thể theo style của team không.",
+          "h": "Use: I can / I can't.",
+          "s": "I can follow the team style."
+        },
+        {
+          "p": "Where do you save your work?",
+          "m": "Nói nơi lưu code (repo / local).",
+          "h": "Use: I save in + place.",
+          "s": "I save in the repo."
+        }
+      ]
+    },
+    {
+      "t": "Đề xuất cải thiện logic đơn giản",
+      "e": [
+        {
+          "p": "This logic is confusing.",
+          "m": "Nói bạn có đồng ý hay không.",
+          "h": "Use: I agree / I don't agree.",
+          "s": "I agree."
+        },
+        {
+          "p": "Can we simplify the code?",
+          "m": "Trả lời có thể hay không.",
+          "h": "Use: We can / We can't.",
+          "s": "We can simplify it."
+        },
+        {
+          "p": "How to make it simple?",
+          "m": "Đưa ra một cách đơn giản (ví dụ: use one function).",
+          "h": "Use: Use + noun / Make + noun + simple.",
+          "s": "Use one function."
+        },
+        {
+          "p": "Do you remove duplicate lines?",
+          "m": "Trả lời có hay không.",
+          "h": "Use: I remove / I don't remove.",
+          "s": "I remove duplicate lines."
+        },
+        {
+          "p": "Will the new logic work?",
+          "m": "Trả lời có hoạt động hay không.",
+          "h": "Use: It will work / It won't work (simple present allowed).",
+          "s": "It will work."
+        }
+      ]
+    },
+    {
+      "t": "Tổng kết buổi review và chốt việc",
+      "e": [
+        {
+          "p": "What is the next step?",
+          "m": "Nói bước tiếp theo ngắn (fix / test / merge).",
+          "h": "Use: Next step is + noun/verb.",
+          "s": "Next step is to fix the bug."
+        },
+        {
+          "p": "Who will do the fix?",
+          "m": "Nói người thực hiện (you / I / team).",
+          "h": "Use: I will / You will / The team will.",
+          "s": "I will do the fix."
+        },
+        {
+          "p": "When is the deadline?",
+          "m": "Nói thời gian ngắn (today / tomorrow).",
+          "h": "Use: It is + time word.",
+          "s": "It is tomorrow."
+        },
+        {
+          "p": "Do you close the review after fix?",
+          "m": "Trả lời có hay không.",
+          "h": "Use: I close it / I don't close it.",
+          "s": "I close the review after the fix."
+        },
+        {
+          "p": "Any final notes?",
+          "m": "Nói một lưu ý ngắn (ví dụ: add test).",
+          "h": "Use: Note: + short phrase.",
+          "s": "Note: add a test."
+        }
+      ]
+    },
+    {
+      "t": "Ôn tập: Gặp và mô tả thay đổi",
+      "e": [
+        {
+          "p": "Who made this change?",
+          "m": "Nói người sửa (I / the team / someone).",
+          "h": "Use: I made it / The team made it.",
+          "s": "The team made this change."
+        },
+        {
+          "p": "What is the change?",
+          "m": "Mô tả thay đổi ngắn.",
+          "h": "Use: It + V(s) + O.",
+          "s": "It fixes a display bug."
+        },
+        {
+          "p": "Is the change small?",
+          "m": "Trả lời có hay không.",
+          "h": "Use: It is small / It is not small.",
+          "s": "It is small."
+        },
+        {
+          "p": "Can you test the change?",
+          "m": "Nói bạn có thể test hay không.",
+          "h": "Use: I can / I can't.",
+          "s": "I can test the change."
+        },
+        {
+          "p": "Do we merge now?",
+          "m": "Trả lời có merge hay không.",
+          "h": "Use: Yes, merge / No, wait.",
+          "s": "No, wait for tests."
+        }
+      ]
+    },
+    {
+      "t": "Ôn tập: Tìm lỗi và đề xuất sửa",
+      "e": [
+        {
+          "p": "Is there a bug here?",
+          "m": "Nói có hay không.",
+          "h": "Use: Yes, there is / No, there isn't.",
+          "s": "Yes, there is a bug."
+        },
+        {
+          "p": "Where is the bug?",
+          "m": "Nói vị trí ngắn.",
+          "h": "Use: It is in + place.",
+          "s": "It is in the loop."
+        },
+        {
+          "p": "Can you fix it now?",
+          "m": "Trả lời có thể hay không.",
+          "h": "Use: I can / I can't.",
+          "s": "I can fix it now."
+        },
+        {
+          "p": "Do we need a test?",
+          "m": "Trả lời có hay không.",
+          "h": "Use: We need a test / We don't need a test.",
+          "s": "We need a test."
+        },
+        {
+          "p": "Who will add the test?",
+          "m": "Nói ai sẽ thêm test.",
+          "h": "Use: I will / You will / The team will.",
+          "s": "I will add the test."
+        }
+      ]
+    },
+    {
+      "t": "Ôn tập: Kết luận review và hành động",
+      "e": [
+        {
+          "p": "What is the main issue?",
+          "m": "Nói vấn đề chính ngắn (bug / name / speed).",
+          "h": "Use: The main issue is + noun.",
+          "s": "The main issue is a bug."
+        },
+        {
+          "p": "Do we fix now or later?",
+          "m": "Chọn fix now hoặc later.",
+          "h": "Use: We fix now / We fix later.",
+          "s": "We fix now."
+        },
+        {
+          "p": "Who closes the ticket?",
+          "m": "Nói ai đóng ticket.",
+          "h": "Use: I close it / You close it / The team closes it.",
+          "s": "I close the ticket."
+        },
+        {
+          "p": "Is the code ready to merge?",
+          "m": "Trả lời có hay không.",
+          "h": "Use: It is ready / It is not ready.",
+          "s": "It is not ready."
+        },
+        {
+          "p": "Any note before merge?",
+          "m": "Nói một lưu ý ngắn.",
+          "h": "Use: Note: + short phrase.",
+          "s": "Note: add one test."
+        }
+      ]
+    }
+  ]
+}

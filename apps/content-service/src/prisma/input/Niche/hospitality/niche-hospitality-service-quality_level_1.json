@@ -1,0 +1,530 @@
+{
+  "l": 1,
+  "d": [
+    {
+      "t": "Gặp khách ở quầy",
+      "e": [
+        {
+          "p": "Hello, how can I help you?",
+          "m": "Nói 1 câu: bạn cần gì.",
+          "h": "Use 'I need...' or 'I want...'.",
+          "s": "I need a menu."
+        },
+        {
+          "p": "Do you have a reservation?",
+          "m": "Nói 1 câu: nói có đặt trước hay không.",
+          "h": "Use 'Yes, I have' or 'No, I don't'.",
+          "s": "No, I don't have a reservation."
+        },
+        {
+          "p": "What is your name?",
+          "m": "Nói 1 câu: cho biết tên (dùng placeholder).",
+          "h": "My name is [studentName].",
+          "s": "My name is [studentName]."
+        },
+        {
+          "p": "Do you prefer a window or a table inside?",
+          "m": "Nói 1 câu: nói lựa chọn chỗ ngồi.",
+          "h": "Use 'I prefer a ...'.",
+          "s": "I prefer a window."
+        },
+        {
+          "p": "Can I help you with your bags?",
+          "m": "Nói 1 câu: nói có cần giúp hay không.",
+          "h": "Use 'Yes, please' or 'No, thank you'.",
+          "s": "Yes, please, I need help."
+        }
+      ]
+    },
+    {
+      "t": "Hỏi về chất lượng phục vụ",
+      "e": [
+        {
+          "p": "Is the service good today?",
+          "m": "Nói 1 câu: trả lời có hoặc không.",
+          "h": "Use 'Yes, it is' or 'No, it isn't'.",
+          "s": "Yes, it is good."
+        },
+        {
+          "p": "Is the room clean?",
+          "m": "Nói 1 câu: trả lời sạch hay không.",
+          "h": "Use 'Yes, it is clean' or 'No, it is not'.",
+          "s": "No, it is not clean."
+        },
+        {
+          "p": "Are the staff friendly?",
+          "m": "Nói 1 câu: trả lời nhân viên có thân thiện hay không.",
+          "h": "Use 'Yes, they are' or 'No, they are not'.",
+          "s": "Yes, they are friendly."
+        },
+        {
+          "p": "How is the food?",
+          "m": "Nói 1 câu: mô tả ngắn về món ăn (good/bad).",
+          "h": "Use 'It is good' or 'It is bad'.",
+          "s": "It is good."
+        },
+        {
+          "p": "Do you come here often?",
+          "m": "Nói 1 câu: nói tần suất bạn đến (ngắn).",
+          "h": "Use 'I come once a week' or 'I do not come often'.",
+          "s": "I come once a week."
+        }
+      ]
+    },
+    {
+      "t": "Nhận phản hồi của khách",
+      "e": [
+        {
+          "p": "Did you like your meal?",
+          "m": "Nói 1 câu: trả lời bạn có thích món ăn hay không.",
+          "h": "Use 'Yes, I like it' or 'No, I do not'.",
+          "s": "Yes, I like it."
+        },
+        {
+          "p": "What do you like about the service?",
+          "m": "Nói 1 câu: nêu 1 điều bạn thích về dịch vụ.",
+          "h": "Use 'I like the + noun' or 'I like that...'.",
+          "s": "I like the fast service."
+        },
+        {
+          "p": "What is one problem you saw?",
+          "m": "Nói 1 câu: nêu 1 vấn đề ngắn.",
+          "h": "Use 'There is...' or 'The ... is ...'.",
+          "s": "The room is dirty."
+        },
+        {
+          "p": "Can we fix this now?",
+          "m": "Nói 1 câu: nói hành động sửa (ngắn).",
+          "h": "Use 'Yes, you can...' or 'I can...'.",
+          "s": "Yes, you can clean the room."
+        },
+        {
+          "p": "Do you want a refund or a new dish?",
+          "m": "Nói 1 câu: chọn 'refund' hoặc 'new dish'.",
+          "h": "Use 'I want a ...'.",
+          "s": "I want a new dish."
+        }
+      ]
+    },
+    {
+      "t": "Nói về trải nghiệm tổng thể",
+      "e": [
+        {
+          "p": "Was your visit OK?",
+          "m": "Nói 1 câu: trả lời ngắn về buổi trải nghiệm.",
+          "h": "Use 'Yes, it was' or 'No, it was not'.",
+          "s": "Yes, it was OK."
+        },
+        {
+          "p": "Do you feel happy with our help?",
+          "m": "Nói 1 câu: nói bạn có hài lòng hay không.",
+          "h": "Use 'I am happy' or 'I am not happy'.",
+          "s": "I am happy with the help."
+        },
+        {
+          "p": "Do you want to come back?",
+          "m": "Nói 1 câu: nói bạn có muốn quay lại hay không.",
+          "h": "Use 'Yes, I want to' or 'No, I do not'.",
+          "s": "Yes, I want to come back."
+        },
+        {
+          "p": "Do you tell friends about us?",
+          "m": "Nói 1 câu: nói bạn có giới thiệu bạn bè không.",
+          "h": "Use 'Yes, I tell' or 'No, I do not'.",
+          "s": "Yes, I tell my friends."
+        },
+        {
+          "p": "What one word describes our service?",
+          "m": "Nói 1 câu: dùng 1 tính từ ngắn để miêu tả.",
+          "h": "Use 'It is + adjective' (good/bad/clean).",
+          "s": "It is good."
+        }
+      ]
+    },
+    {
+      "t": "Đặt hàng và yêu cầu",
+      "e": [
+        {
+          "p": "Can I see the menu?",
+          "m": "Nói 1 câu: đồng ý và đưa menu hoặc từ chối.",
+          "h": "Use 'Yes, here it is' or 'No, sorry'.",
+          "s": "Yes, here it is."
+        },
+        {
+          "p": "Do you want water or tea?",
+          "m": "Nói 1 câu: chọn nước uống.",
+          "h": "Use 'I want + drink'.",
+          "s": "I want water."
+        },
+        {
+          "p": "Can you make it less spicy?",
+          "m": "Nói 1 câu: nói có thể làm hay không.",
+          "h": "Use 'Yes, I can' or 'No, I cannot'.",
+          "s": "Yes, I can make it less spicy."
+        },
+        {
+          "p": "How many plates do you need?",
+          "m": "Nói 1 câu: cho biết số lượng (dùng số).",
+          "h": "Use numbers (one, two...).",
+          "s": "I need two plates."
+        },
+        {
+          "p": "Do you prefer cash or card?",
+          "m": "Nói 1 câu: chọn cách thanh toán.",
+          "h": "Use 'I prefer + cash/card'.",
+          "s": "I prefer card."
+        }
+      ]
+    },
+    {
+      "t": "Giờ mở cửa và dịch vụ",
+      "e": [
+        {
+          "p": "What time do you open?",
+          "m": "Nói 1 câu: cho giờ mở cửa đơn giản.",
+          "h": "Use 'We open at ...'.",
+          "s": "We open at 8 am."
+        },
+        {
+          "p": "What time do you close?",
+          "m": "Nói 1 câu: cho giờ đóng cửa đơn giản.",
+          "h": "Use 'We close at ...'.",
+          "s": "We close at 9 pm."
+        },
+        {
+          "p": "Do you have parking?",
+          "m": "Nói 1 câu: trả lời có hoặc không.",
+          "h": "Use 'Yes, we have' or 'No, we do not'.",
+          "s": "Yes, we have parking."
+        },
+        {
+          "p": "Is there free wifi?",
+          "m": "Nói 1 câu: trả lời free wifi có hay không.",
+          "h": "Use 'Yes, there is' or 'No, there is not'.",
+          "s": "Yes, there is free wifi."
+        },
+        {
+          "p": "Can I book a table now?",
+          "m": "Nói 1 câu: trả lời có thể đặt bàn ngay không.",
+          "h": "Use 'Yes, you can' or 'No, you cannot'.",
+          "s": "Yes, you can book a table now."
+        }
+      ]
+    },
+    {
+      "t": "Huấn luyện nhân viên",
+      "e": [
+        {
+          "p": "How do you greet a customer?",
+          "m": "Nói 1 câu: mô tả ngắn cách chào khách.",
+          "h": "Use 'We say...' or 'Say ... and ...'.",
+          "s": "We say hello and smile."
+        },
+        {
+          "p": "Do you help a slow customer?",
+          "m": "Nói 1 câu: trả lời có giúp hay không.",
+          "h": "Use 'Yes, we help' or 'No, we do not'.",
+          "s": "Yes, we help them."
+        },
+        {
+          "p": "Can staff speak English?",
+          "m": "Nói 1 câu: trả lời nhân viên có nói tiếng Anh không.",
+          "h": "Use 'Yes, they can' or 'No, they cannot'.",
+          "s": "Yes, they can speak English."
+        },
+        {
+          "p": "What is one rule for service?",
+          "m": "Nói 1 câu: nêu 1 quy tắc ngắn.",
+          "h": "Use 'We must ...' or 'Do not ...'.",
+          "s": "We must be polite."
+        },
+        {
+          "p": "Do staff check the room every hour?",
+          "m": "Nói 1 câu: trả lời có kiểm tra không.",
+          "h": "Use 'Yes, they do' or 'No, they do not'.",
+          "s": "Yes, they do check every hour."
+        }
+      ]
+    },
+    {
+      "t": "Khảo sát nhanh của khách",
+      "e": [
+        {
+          "p": "Do you like our price?",
+          "m": "Nói 1 câu: trả lời bạn có thích giá không.",
+          "h": "Use 'Yes, I like it' or 'No, I do not'.",
+          "s": "No, I do not like the price."
+        },
+        {
+          "p": "Is the wait time short?",
+          "m": "Nói 1 câu: trả lời thời chờ ngắn hay dài.",
+          "h": "Use 'It is short' or 'It is long'.",
+          "s": "It is short."
+        },
+        {
+          "p": "Do you find the menu clear?",
+          "m": "Nói 1 câu: nói menu có rõ ràng hay không.",
+          "h": "Use 'Yes, it is clear' or 'No, it is not'.",
+          "s": "Yes, it is clear."
+        },
+        {
+          "p": "How do you pay?",
+          "m": "Nói 1 câu: nói cách bạn thanh toán.",
+          "h": "Use 'I pay by cash' or 'I pay by card'.",
+          "s": "I pay by cash."
+        },
+        {
+          "p": "Do you tell friends to come here?",
+          "m": "Nói 1 câu: trả lời bạn có giới thiệu bạn bè không.",
+          "h": "Use 'Yes, I do' or 'No, I do not'.",
+          "s": "Yes, I do tell my friends."
+        }
+      ]
+    },
+    {
+      "t": "Xử lý phàn nàn đơn giản",
+      "e": [
+        {
+          "p": "I am not happy with my food.",
+          "m": "Nói 1 câu: xin lỗi ngắn gọn.",
+          "h": "Use 'I am sorry' or 'I understand'.",
+          "s": "I am sorry."
+        },
+        {
+          "p": "The coffee is cold.",
+          "m": "Nói 1 câu: nói bạn sẽ làm gì (ngắn).",
+          "h": "Use 'I can...' or 'We can...'.",
+          "s": "I can make a new coffee."
+        },
+        {
+          "p": "It is too noisy here.",
+          "m": "Nói 1 câu: đề nghị 1 giải pháp ngắn.",
+          "h": "Use 'We can move you...' or 'We can...' .",
+          "s": "We can move you to a quiet table."
+        },
+        {
+          "p": "I wait for a long time.",
+          "m": "Nói 1 câu: xin lỗi và cho giải pháp ngắn.",
+          "h": "Use 'I am sorry' and 'We give...' (present).",
+          "s": "I am sorry, we give you a free drink."
+        },
+        {
+          "p": "Can I get my money back?",
+          "m": "Nói 1 câu: trả lời có hoàn tiền hay không.",
+          "h": "Use 'Yes, you can' or 'No, you cannot'.",
+          "s": "Yes, you can get a refund."
+        }
+      ]
+    },
+    {
+      "t": "Gợi ý cải thiện dịch vụ",
+      "e": [
+        {
+          "p": "We want faster service.",
+          "m": "Nói 1 câu: đồng ý và nêu hành động ngắn.",
+          "h": "Use 'Yes, we try to...' or 'We will...' (avoid will if possible).",
+          "s": "Yes, we try to be faster."
+        },
+        {
+          "p": "Please add more chairs.",
+          "m": "Nói 1 câu: trả lời có thể thêm hay không.",
+          "h": "Use 'Yes, we can' or 'No, we cannot'.",
+          "s": "Yes, we can add more chairs."
+        },
+        {
+          "p": "Can you make the menu clearer?",
+          "m": "Nói 1 câu: trả lời có thể làm rõ menu không.",
+          "h": "Use 'Yes, we can' or 'No, we cannot'.",
+          "s": "Yes, we can make the menu clearer."
+        },
+        {
+          "p": "We need staff help at night.",
+          "m": "Nói 1 câu: cho biết có nhân viên ban đêm hay không.",
+          "h": "Use 'We have...' or 'We do not have...'.",
+          "s": "We have staff at night."
+        },
+        {
+          "p": "What do you change first?",
+          "m": "Nói 1 câu: nêu 1 việc bạn thay đổi trước.",
+          "h": "Use short verb + noun (clean/change/add).",
+          "s": "We clean more."
+        }
+      ]
+    },
+    {
+      "t": "Theo dõi sau dịch vụ",
+      "e": [
+        {
+          "p": "Do you enjoy your stay?",
+          "m": "Nói 1 câu: trả lời bạn có hài lòng hay không.",
+          "h": "Use 'Yes, I enjoy' or 'No, I do not'.",
+          "s": "Yes, I enjoy my stay."
+        },
+        {
+          "p": "Do you need more help?",
+          "m": "Nói 1 câu: nói bạn có cần thêm giúp đỡ không.",
+          "h": "Use 'Yes, I need' or 'No, I do not'.",
+          "s": "No, I do not need more help."
+        },
+        {
+          "p": "Can we call a taxi for you?",
+          "m": "Nói 1 câu: đồng ý hoặc từ chối.",
+          "h": "Use 'Yes, please' or 'No, thank you'.",
+          "s": "Yes, please call a taxi."
+        },
+        {
+          "p": "Do you like to give feedback?",
+          "m": "Nói 1 câu: nói bạn có thích gửi phản hồi không.",
+          "h": "Use 'Yes, I like to' or 'No, I do not'.",
+          "s": "Yes, I like to give feedback."
+        },
+        {
+          "p": "Can I have your city for our record?",
+          "m": "Nói 1 câu: cho biết nơi sống bằng placeholder.",
+          "h": "Use 'I live in [studentCity]'.",
+          "s": "I live in [studentCity]."
+        }
+      ]
+    },
+    {
+      "t": "Dịch vụ tại cửa hàng/khách sạn",
+      "e": [
+        {
+          "p": "Do you like the clean room?",
+          "m": "Nói 1 câu: trả lời bạn có thích phòng sạch không.",
+          "h": "Use 'Yes, I like it' or 'No, I do not'.",
+          "s": "Yes, I like the clean room."
+        },
+        {
+          "p": "Is the price OK for you?",
+          "m": "Nói 1 câu: trả lời giá có hợp lý không.",
+          "h": "Use 'Yes, it is OK' or 'No, it is not'.",
+          "s": "No, it is not OK."
+        },
+        {
+          "p": "Can I change my room?",
+          "m": "Nói 1 câu: trả lời có thể đổi phòng hay không.",
+          "h": "Use 'Yes, you can' or 'No, you cannot'.",
+          "s": "Yes, you can change your room."
+        },
+        {
+          "p": "Do you want breakfast now?",
+          "m": "Nói 1 câu: đồng ý ăn sáng ngay hay không.",
+          "h": "Use 'Yes, I want' or 'No, I do not'.",
+          "s": "Yes, I want breakfast now."
+        },
+        {
+          "p": "Is the key working?",
+          "m": "Nói 1 câu: trả lời chìa khóa có hoạt động hay không.",
+          "h": "Use 'Yes, it is' or 'No, it is not'.",
+          "s": "No, it is not working."
+        }
+      ]
+    },
+    {
+      "t": "Ôn tập: Tiếp nhận khách và hỏi thăm",
+      "e": [
+        {
+          "p": "Good morning, what do you need?",
+          "m": "Nói 1 câu: nói bạn cần gì sáng nay.",
+          "h": "Use 'I need...' or 'I want...'.",
+          "s": "I need a table for two."
+        },
+        {
+          "p": "Do you have your ID?",
+          "m": "Nói 1 câu: trả lời có ID hay không.",
+          "h": "Use 'Yes, I have' or 'No, I don't'.",
+          "s": "Yes, I have my ID."
+        },
+        {
+          "p": "Where do you come from?",
+          "m": "Nói 1 câu: cho biết thành phố (dùng placeholder).",
+          "h": "Use 'I live in [studentCity]'.",
+          "s": "I live in [studentCity]."
+        },
+        {
+          "p": "Do you want a non-smoking table?",
+          "m": "Nói 1 câu: trả lời chọn loại bàn.",
+          "h": "Use 'Yes, I want' or 'No, I do not'.",
+          "s": "Yes, I want a non-smoking table."
+        },
+        {
+          "p": "Can I get your phone number?",
+          "m": "Nói 1 câu: nói bạn không cho số hoặc cho số ngắn (ví dụ: 'I do not give' hoặc 'I give').",
+          "h": "Use 'I do not give' or 'I give ...' (short).",
+          "s": "I do not give my phone number."
+        }
+      ]
+    },
+    {
+      "t": "Ôn tập: Phản hồi và giải quyết vấn đề",
+      "e": [
+        {
+          "p": "The light in my room is not working.",
+          "m": "Nói 1 câu: xin lỗi ngắn và nêu hành động.",
+          "h": "Use 'I am sorry' and 'We can...' or 'I can...'.",
+          "s": "I am sorry, we can change the bulb."
+        },
+        {
+          "p": "My order is late.",
+          "m": "Nói 1 câu: xin lỗi và cho giải pháp ngắn.",
+          "h": "Use 'I am sorry' and 'We give...' or 'I can...'.",
+          "s": "I am sorry, I can bring your food now."
+        },
+        {
+          "p": "The staff is not polite.",
+          "m": "Nói 1 câu: nói sẽ làm gì ngắn (ví dụ: kiểm tra).",
+          "h": "Use 'We will' is avoided; use 'We check' or 'We train' (present).",
+          "s": "We check the staff and train them."
+        },
+        {
+          "p": "I want a new towel.",
+          "m": "Nói 1 câu: cho biết bạn sẽ đưa khăn mới hay không.",
+          "h": "Use 'Yes, we give' or 'No, we do not'.",
+          "s": "Yes, we give you a new towel."
+        },
+        {
+          "p": "Do you want a refund or a coupon?",
+          "m": "Nói 1 câu: chọn 1 trong 2 (refund/coupon).",
+          "h": "Use 'I want a ...'.",
+          "s": "I want a refund."
+        }
+      ]
+    },
+    {
+      "t": "Ôn tập: Đề xuất và theo dõi dịch vụ",
+      "e": [
+        {
+          "p": "We add a new dish this week.",
+          "m": "Nói 1 câu: nói bạn có thử món mới không.",
+          "h": "Use 'Yes, I try' or 'No, I do not'.",
+          "s": "Yes, I try the new dish."
+        },
+        {
+          "p": "Please tell us one idea to improve.",
+          "m": "Nói 1 câu: nêu 1 ý ngắn (ví dụ: more staff, clean).",
+          "h": "Use short phrase: 'Add ...' or 'Clean ...'.",
+          "s": "Add more staff."
+        },
+        {
+          "p": "Do you want a call after service?",
+          "m": "Nói 1 câu: trả lời có muốn gọi lại hay không.",
+          "h": "Use 'Yes, I want' or 'No, I do not'.",
+          "s": "No, I do not want a call."
+        },
+        {
+          "p": "Can we send a small gift?",
+          "m": "Nói 1 câu: đồng ý nhận hay không.",
+          "h": "Use 'Yes, I accept' or 'No, I do not'.",
+          "s": "Yes, I accept a small gift."
+        },
+        {
+          "p": "Do you come again after the change?",
+          "m": "Nói 1 câu: nói bạn có quay lại hay không.",
+          "h": "Use 'Yes, I will' is avoided; use 'I come again' or 'I do not come'.",
+          "s": "I come again."
+        }
+      ]
+    }
+  ]
+}

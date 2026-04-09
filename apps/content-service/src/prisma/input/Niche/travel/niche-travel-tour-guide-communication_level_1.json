@@ -1,0 +1,530 @@
+{
+  "l": 1,
+  "d": [
+    {
+      "t": "Gặp hướng dẫn viên ở bến xe",
+      "e": [
+        {
+          "p": "Hello! Where are you going?",
+          "m": "Nói nơi bạn muốn đến (the museum).",
+          "h": "Use 'I want to go to ...'.",
+          "s": "I want to go to the museum."
+        },
+        {
+          "p": "Are you here for the tour today?",
+          "m": "Nói bạn có tham gia tour hôm nay hay không.",
+          "h": "Use 'Yes, I am.' or 'No, I am not.'.",
+          "s": "Yes, I am."
+        },
+        {
+          "p": "What is your name?",
+          "m": "Nói tên bạn.",
+          "h": "Use 'My name is ...'.",
+          "s": "My name is [studentName]."
+        },
+        {
+          "p": "How old are you?",
+          "m": "Nói tuổi bạn.",
+          "h": "Use 'I am ... years old.'.",
+          "s": "I am [studentAge] years old."
+        },
+        {
+          "p": "Where are you from?",
+          "m": "Nói thành phố nơi bạn sống.",
+          "h": "Use 'I am from ...'.",
+          "s": "I am from [studentCity]."
+        }
+      ]
+    },
+    {
+      "t": "Hỏi giờ mở cửa của địa điểm",
+      "e": [
+        {
+          "p": "Is the museum open now?",
+          "m": "Trả lời có hoặc không.",
+          "h": "Use 'Yes, it is.' or 'No, it is not.'.",
+          "s": "Yes, it is."
+        },
+        {
+          "p": "What time does the museum open?",
+          "m": "Nói giờ mở cửa (ví dụ: 9 AM).",
+          "h": "Use 'The museum opens at ...'.",
+          "s": "The museum opens at 9 AM."
+        },
+        {
+          "p": "What time does it close?",
+          "m": "Nói giờ đóng cửa.",
+          "h": "Use 'It closes at ...'.",
+          "s": "It closes at 5 PM."
+        },
+        {
+          "p": "Are there tours at 10 o'clock?",
+          "m": "Trả lời có hoặc không ngắn gọn.",
+          "h": "Use 'There is/There are ...' or 'Yes/No'.",
+          "s": "Yes, there is a tour at 10 o'clock."
+        },
+        {
+          "p": "Can I visit in the morning?",
+          "m": "Nói bạn có thể đến buổi sáng hay không.",
+          "h": "Use 'I can' or 'I can't'.",
+          "s": "I can visit in the morning."
+        }
+      ]
+    },
+    {
+      "t": "Mua vé tại quầy",
+      "e": [
+        {
+          "p": "Do you want a ticket?",
+          "m": "Nói bạn có muốn một vé hay không.",
+          "h": "Use 'Yes, I want...' or 'No, I do not want...'.",
+          "s": "Yes, I want a ticket."
+        },
+        {
+          "p": "How many tickets do you need?",
+          "m": "Nói số vé bạn cần (ví dụ: two).",
+          "h": "Use 'I need ... tickets.'.",
+          "s": "I need two tickets."
+        },
+        {
+          "p": "Is there a discount for students?",
+          "m": "Trả lời có hoặc không.",
+          "h": "Use 'Yes, there is.' or 'No, there is not.'.",
+          "s": "Yes, there is a discount for students."
+        },
+        {
+          "p": "How much is one ticket?",
+          "m": "Nói giá một vé ngắn gọn.",
+          "h": "Use 'One ticket is ... dollars.'.",
+          "s": "One ticket is 5 dollars."
+        },
+        {
+          "p": "Can I pay by card?",
+          "m": "Trả lời có thể thanh toán bằng thẻ hay không.",
+          "h": "Use 'Yes, you can.' or 'No, you cannot.'.",
+          "s": "Yes, you can pay by card."
+        }
+      ]
+    },
+    {
+      "t": "Hỏi về tiện nghi",
+      "e": [
+        {
+          "p": "Is there a toilet here?",
+          "m": "Trả lời có hoặc không.",
+          "h": "Use 'Yes, there is.' or 'No, there is not.'.",
+          "s": "Yes, there is a toilet here."
+        },
+        {
+          "p": "Is there a place to eat?",
+          "m": "Trả lời có hoặc không.",
+          "h": "Use 'Yes, there is.' or 'No, there is not.'.",
+          "s": "Yes, there is a small cafe."
+        },
+        {
+          "p": "Where is the restroom?",
+          "m": "Nói vị trí ngắn gọn của nhà vệ sinh.",
+          "h": "Use 'The restroom is ...'.",
+          "s": "The restroom is near the entrance."
+        },
+        {
+          "p": "Are there lockers?",
+          "m": "Trả lời có hoặc không.",
+          "h": "Use 'There are...' or 'There are no...'.",
+          "s": "No, there are no lockers."
+        },
+        {
+          "p": "Can I drink water inside?",
+          "m": "Nói bạn có thể uống nước bên trong hay không.",
+          "h": "Use 'You can...' or 'You cannot...'.",
+          "s": "You can drink water inside."
+        }
+      ]
+    },
+    {
+      "t": "Hỏi đường đến điểm tham quan",
+      "e": [
+        {
+          "p": "How do I go to the old town?",
+          "m": "Nói cách đi ngắn gọn (ví dụ: đi thẳng, rẽ trái).",
+          "h": "Use simple directions: 'Go straight', 'turn left'.",
+          "s": "You go straight and turn left."
+        },
+        {
+          "p": "Is the castle far?",
+          "m": "Trả lời gần hay xa ngắn gọn.",
+          "h": "Use 'It is near.' or 'It is far.'.",
+          "s": "No, it is near."
+        },
+        {
+          "p": "Where is the nearest bus stop?",
+          "m": "Nói vị trí ngắn gọn của trạm xe buýt gần nhất.",
+          "h": "Use 'The nearest bus stop is ...'.",
+          "s": "The nearest bus stop is near the park."
+        },
+        {
+          "p": "Can I walk to the beach?",
+          "m": "Trả lời bạn có thể đi bộ tới bãi biển hay không.",
+          "h": "Use 'Yes, you can.' or 'No, you cannot.'.",
+          "s": "Yes, you can walk to the beach."
+        },
+        {
+          "p": "Do I need a map?",
+          "m": "Trả lời bạn có cần bản đồ hay không.",
+          "h": "Use 'You need' or 'You do not need'.",
+          "s": "No, you do not need a map."
+        }
+      ]
+    },
+    {
+      "t": "Yêu cầu lời khuyên về địa điểm tham quan",
+      "e": [
+        {
+          "p": "Which place is good for kids?",
+          "m": "Nói một nơi phù hợp cho trẻ em.",
+          "h": "Use '... is good for kids.'.",
+          "s": "The city zoo is good for kids."
+        },
+        {
+          "p": "Is the museum good for photos?",
+          "m": "Trả lời có hoặc không.",
+          "h": "Use 'Yes, it is.' or 'No, it is not.'.",
+          "s": "Yes, it is good for photos."
+        },
+        {
+          "p": "What do you recommend for a family?",
+          "m": "Đề nghị một hoạt động ngắn gọn.",
+          "h": "Use 'I recommend ...'.",
+          "s": "I recommend the city park."
+        },
+        {
+          "p": "Can we visit a market?",
+          "m": "Trả lời có thể đến chợ hay không.",
+          "h": "Use 'Yes, you can.' or 'No, you cannot.'.",
+          "s": "Yes, you can visit the local market."
+        },
+        {
+          "p": "Do you think the hill is safe for children?",
+          "m": "Trả lời có hoặc không ngắn gọn.",
+          "h": "Use 'I think ...' in present simple.",
+          "s": "No, I do not think it is safe for children."
+        }
+      ]
+    },
+    {
+      "t": "Hỏi về thời gian tham quan",
+      "e": [
+        {
+          "p": "How long is the tour?",
+          "m": "Nói thời gian của tour (ví dụ: one hour).",
+          "h": "Use 'The tour is ...'.",
+          "s": "The tour is one hour."
+        },
+        {
+          "p": "Does the tour start at 2 PM?",
+          "m": "Trả lời có hoặc không.",
+          "h": "Use 'Yes, it does.' or 'No, it starts at...'.",
+          "s": "No, it starts at 3 PM."
+        },
+        {
+          "p": "Are there breaks during the tour?",
+          "m": "Trả lời có hoặc không.",
+          "h": "Use 'Yes, there is ...' or 'No, there are no ...'.",
+          "s": "Yes, there is a short break."
+        },
+        {
+          "p": "What time do we finish?",
+          "m": "Nói giờ kết thúc tour.",
+          "h": "Use 'We finish at ...'.",
+          "s": "We finish at 4 PM."
+        },
+        {
+          "p": "Can I join the next tour?",
+          "m": "Trả lời bạn có thể tham gia tour tiếp theo hay không.",
+          "h": "Use 'Yes, you can.' or 'No, you cannot.'.",
+          "s": "Yes, you can join the next tour."
+        }
+      ]
+    },
+    {
+      "t": "Hỏi về giá cả và thanh toán",
+      "e": [
+        {
+          "p": "How much is the tour per person?",
+          "m": "Nói giá cho một người.",
+          "h": "Use '... is ... dollars per person.'.",
+          "s": "The tour is 10 dollars per person."
+        },
+        {
+          "p": "Do children pay?",
+          "m": "Trả lời trẻ em có phải trả tiền hay không.",
+          "h": "Use 'No, children do not pay.' or 'Yes, children pay.'.",
+          "s": "No, children do not pay."
+        },
+        {
+          "p": "Can I pay cash?",
+          "m": "Trả lời có thể trả tiền mặt hay không.",
+          "h": "Use 'Yes, you can.' or 'No, you cannot.'.",
+          "s": "Yes, you can pay cash."
+        },
+        {
+          "p": "Is there a family price?",
+          "m": "Trả lời có hay không.",
+          "h": "Use 'Yes, there is.' or 'No, there is not.'.",
+          "s": "Yes, there is a family price."
+        },
+        {
+          "p": "Do you accept cards?",
+          "m": "Trả lời có chấp nhận thẻ hay không.",
+          "h": "Use 'Yes, we accept...' or 'No, we do not accept...'.",
+          "s": "Yes, we accept cards."
+        }
+      ]
+    },
+    {
+      "t": "Hỏi về an toàn và quy định",
+      "e": [
+        {
+          "p": "Is photography allowed?",
+          "m": "Trả lời chụp ảnh được hay không.",
+          "h": "Use 'Photography is allowed.' or 'is not allowed.'.",
+          "s": "No, photography is not allowed."
+        },
+        {
+          "p": "Do we need to wear a hat?",
+          "m": "Trả lời có cần đội mũ hay không.",
+          "h": "Use 'You need ...' or 'You do not need ...'.",
+          "s": "No, you do not need to wear a hat."
+        },
+        {
+          "p": "Are we allowed to touch exhibits?",
+          "m": "Trả lời có chạm vào hiện vật hay không.",
+          "h": "Use 'You are allowed...' or 'You are not allowed...'.",
+          "s": "No, you are not allowed to touch the exhibits."
+        },
+        {
+          "p": "Can I bring food inside?",
+          "m": "Trả lời có được mang thức ăn vào không.",
+          "h": "Use 'You can...' or 'You cannot...'.",
+          "s": "No, you cannot bring food inside."
+        },
+        {
+          "p": "Is it safe to walk at night?",
+          "m": "Trả lời an toàn hay không.",
+          "h": "Use 'It is safe.' or 'It is not safe.'.",
+          "s": "No, it is not safe to walk at night."
+        }
+      ]
+    },
+    {
+      "t": "Hỏi về lịch trình tour hàng ngày",
+      "e": [
+        {
+          "p": "Do you have a morning tour?",
+          "m": "Trả lời có hay không.",
+          "h": "Use 'Yes, we have...' or 'No, we do not...'.",
+          "s": "Yes, we have a morning tour."
+        },
+        {
+          "p": "What days is the tour available?",
+          "m": "Nói các ngày đơn giản (ví dụ: every day).",
+          "h": "Use 'The tour is available ...'.",
+          "s": "The tour is available every day."
+        },
+        {
+          "p": "Is the tour on Sunday?",
+          "m": "Trả lời có hoặc không.",
+          "h": "Use 'Yes, it is.' or 'No, it is not.'.",
+          "s": "Yes, the tour is on Sunday."
+        },
+        {
+          "p": "Do tours start every hour?",
+          "m": "Trả lời có hoặc không ngắn gọn.",
+          "h": "Use 'No, ...' or 'Yes, ...'.",
+          "s": "No, tours start twice a day."
+        },
+        {
+          "p": "Can I book a tour today?",
+          "m": "Trả lời có thể đặt tour hôm nay hay không.",
+          "h": "Use 'Yes, you can.' or 'No, you cannot.'.",
+          "s": "Yes, you can book a tour today."
+        }
+      ]
+    },
+    {
+      "t": "Nói về sở thích khi tham quan",
+      "e": [
+        {
+          "p": "Do you like museums?",
+          "m": "Nói bạn có thích bảo tàng hay không.",
+          "h": "Use 'Yes, I like...' or 'No, I do not like...'.",
+          "s": "Yes, I like museums."
+        },
+        {
+          "p": "What do you like to see?",
+          "m": "Nói một điều bạn muốn xem khi tham quan.",
+          "h": "Use 'I like to see ...'.",
+          "s": "I like to see the old house."
+        },
+        {
+          "p": "Do you like local food?",
+          "m": "Trả lời bạn có thích đồ ăn địa phương hay không.",
+          "h": "Use 'Yes, I like...' or 'No, I do not like...'.",
+          "s": "Yes, I like local food."
+        },
+        {
+          "p": "Do you want a short walk after the tour?",
+          "m": "Trả lời có muốn đi bộ ngắn sau tour hay không.",
+          "h": "Use 'Yes, I want...' or 'No, I do not want...'.",
+          "s": "Yes, I want a short walk after the tour."
+        },
+        {
+          "p": "Can you tell me your favorite part?",
+          "m": "Nói phần bạn thích nhất ngắn gọn.",
+          "h": "Use 'My favorite part is ...'.",
+          "s": "My favorite part is the old market."
+        }
+      ]
+    },
+    {
+      "t": "Thông báo thay đổi kế hoạch",
+      "e": [
+        {
+          "p": "The tour starts late today.",
+          "m": "Nói bạn có đồng ý với thay đổi thời gian không.",
+          "h": "Use 'Yes, I am OK.' or 'No, I am not.'.",
+          "s": "Yes, I am OK with the late start."
+        },
+        {
+          "p": "We change the meeting place to the gate.",
+          "m": "Xác nhận bạn hiểu và nói nơi mới (the gate).",
+          "h": "Use 'I understand' and 'I meet at ...'.",
+          "s": "I understand; I meet at the gate."
+        },
+        {
+          "p": "Can you come earlier?",
+          "m": "Trả lời bạn có thể đến sớm hơn hay không.",
+          "h": "Use 'I can...' or 'I cannot...'.",
+          "s": "No, I cannot come earlier."
+        },
+        {
+          "p": "Is the tour full?",
+          "m": "Trả lời tour đã đầy hay chưa.",
+          "h": "Use 'Yes, it is full.' or 'No, it is not full.'.",
+          "s": "Yes, the tour is full."
+        },
+        {
+          "p": "Do you want to change your ticket?",
+          "m": "Trả lời bạn có muốn đổi vé hay không.",
+          "h": "Use 'Yes, I want...' or 'No, I do not want...'.",
+          "s": "No, I do not want to change my ticket."
+        }
+      ]
+    },
+    {
+      "t": "Ôn tập: Giao tiếp cơ bản với hướng dẫn viên",
+      "e": [
+        {
+          "p": "Hello, where do you live?",
+          "m": "Nói thành phố nơi bạn sống.",
+          "h": "Use 'I live in ...'.",
+          "s": "I live in [studentCity]."
+        },
+        {
+          "p": "Do you want a guide?",
+          "m": "Trả lời bạn có muốn hướng dẫn viên hay không.",
+          "h": "Use 'Yes, I want...' or 'No, I do not want...'.",
+          "s": "Yes, I want a guide."
+        },
+        {
+          "p": "What time do you want to start?",
+          "m": "Nói giờ bạn muốn bắt đầu (ví dụ: 9 AM).",
+          "h": "Use 'I want to start at ...'.",
+          "s": "I want to start at 9 AM."
+        },
+        {
+          "p": "Can you pay now?",
+          "m": "Trả lời bạn có thể thanh toán ngay hay không.",
+          "h": "Use 'Yes, I can.' or 'No, I cannot.'.",
+          "s": "Yes, I can pay now."
+        },
+        {
+          "p": "Are you ready to go?",
+          "m": "Trả lời bạn đã sẵn sàng đi hay chưa.",
+          "h": "Use 'Yes, I am.' or 'No, I am not.'.",
+          "s": "Yes, I am ready to go."
+        }
+      ]
+    },
+    {
+      "t": "Ôn tập: Mua vé và hỏi đường",
+      "e": [
+        {
+          "p": "Do you need one ticket?",
+          "m": "Nói bạn cần một vé hay không.",
+          "h": "Use 'I need ... tickets.' or 'No, I don't need one.'.",
+          "s": "No, I need two tickets."
+        },
+        {
+          "p": "How do I go to the museum?",
+          "m": "Nói cách đi ngắn gọn tới bảo tàng.",
+          "h": "Use 'You go straight' or 'turn right'.",
+          "s": "You go straight and turn right."
+        },
+        {
+          "p": "How much is two tickets?",
+          "m": "Nói tổng giá cho hai vé.",
+          "h": "Use 'Two tickets are ... dollars.'.",
+          "s": "Two tickets are 10 dollars."
+        },
+        {
+          "p": "Is there a bus to the museum?",
+          "m": "Trả lời có hoặc không.",
+          "h": "Use 'Yes, there is.' or 'No, there is not.'.",
+          "s": "Yes, there is a bus to the museum."
+        },
+        {
+          "p": "Can I enter now?",
+          "m": "Trả lời bạn có thể vào ngay hay không.",
+          "h": "Use 'Yes, you can.' or 'No, you cannot.'.",
+          "s": "Yes, you can enter now."
+        }
+      ]
+    },
+    {
+      "t": "Ôn tập: Tình huống khẩn cấp và trợ giúp",
+      "e": [
+        {
+          "p": "Help! I am lost.",
+          "m": "Nói bạn có thể giúp người đó hay không.",
+          "h": "Use 'I can help you.' or 'I cannot help you.'.",
+          "s": "I can help you."
+        },
+        {
+          "p": "Is there a doctor?",
+          "m": "Trả lời có bác sĩ ở đây hay không.",
+          "h": "Use 'There is...' or 'There is no...'.",
+          "s": "No, there is no doctor here."
+        },
+        {
+          "p": "Can I call the police?",
+          "m": "Trả lời có thể gọi cảnh sát hay không.",
+          "h": "Use 'Yes, you can.' or 'No, you cannot.'.",
+          "s": "Yes, you can call the police."
+        },
+        {
+          "p": "Where is the exit?",
+          "m": "Nói vị trí cửa thoát hiểm ngắn gọn.",
+          "h": "Use 'The exit is ...'.",
+          "s": "The exit is near the main door."
+        },
+        {
+          "p": "Are you OK?",
+          "m": "Trả lời bạn có ổn hay không.",
+          "h": "Use 'Yes, I am.' or 'No, I am not.'.",
+          "s": "Yes, I am OK."
+        }
+      ]
+    }
+  ]
+}

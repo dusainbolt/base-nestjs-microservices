@@ -1,0 +1,530 @@
+{
+  "l": 1,
+  "d": [
+    {
+      "t": "Quầy làm thủ tục",
+      "e": [
+        {
+          "p": "May I see your passport and ticket?",
+          "m": "Nói bạn có hộ chiếu và vé hay không.",
+          "h": "Use 'I have' or 'I don't have'.",
+          "s": "I have my passport and my ticket."
+        },
+        {
+          "p": "Do you have any bags to check?",
+          "m": "Nói bạn có hành lý ký gửi hay không.",
+          "h": "Use 'I have' + number or 'I don't have'.",
+          "s": "I have one bag to check."
+        },
+        {
+          "p": "How many bags do you check?",
+          "m": "Nói số hành lý ký gửi (một câu ngắn).",
+          "h": "Use number: 'I have...' .",
+          "s": "I have two bags."
+        },
+        {
+          "p": "Do you want a window or an aisle seat?",
+          "m": "Nói bạn muốn chỗ cửa sổ hay lối đi.",
+          "h": "Use 'I want a...' .",
+          "s": "I want a window seat."
+        },
+        {
+          "p": "Here is your boarding pass. Gate 12. Boarding at 10.",
+          "m": "Xác nhận bạn hiểu cổng và giờ boarding.",
+          "h": "Use 'I understand' + details.",
+          "s": "I understand gate twelve and boarding at ten."
+        }
+      ]
+    },
+    {
+      "t": "Tìm cổng lên máy bay",
+      "e": [
+        {
+          "p": "Where is gate 5?",
+          "m": "Nói vị trí cổng 5 (gần hay xa).",
+          "h": "Use 'Gate 5 is...' or 'It is near/far'.",
+          "s": "Gate five is near the food area."
+        },
+        {
+          "p": "What is your gate number on the pass?",
+          "m": "Nói số cổng trên thẻ lên máy bay.",
+          "h": "Use 'My gate is...' .",
+          "s": "My gate is five."
+        },
+        {
+          "p": "Is boarding for flight 123 now?",
+          "m": "Nói có đang boarding hay không.",
+          "h": "Use 'Yes, it is' or 'No, it is not'.",
+          "s": "Yes, it is boarding now."
+        },
+        {
+          "p": "How long is the walk to gate 5?",
+          "m": "Nói mất bao lâu để đi tới cổng (dùng giờ/phút).",
+          "h": "Use 'It is' + time: 'It is ten minutes'.",
+          "s": "It is ten minutes to walk."
+        },
+        {
+          "p": "Can I wait near the gate with my small bag?",
+          "m": "Nói bạn có thể chờ ở gần cổng với túi nhỏ hay không.",
+          "h": "Use 'You can' or 'You cannot' / 'I can' for capability.",
+          "s": "You can wait near the gate with a small bag."
+        }
+      ]
+    },
+    {
+      "t": "Kiểm tra an ninh",
+      "e": [
+        {
+          "p": "Please put your bag on the belt.",
+          "m": "Nói bạn đã đặt túi lên băng chuyền hay chưa.",
+          "h": "Use 'I put' or 'I did not put'.",
+          "s": "I put my bag on the belt."
+        },
+        {
+          "p": "Do you have a laptop in your bag?",
+          "m": "Nói bạn có laptop trong túi hay không.",
+          "h": "Use 'I have' or 'I don't have'.",
+          "s": "I don't have a laptop in my bag."
+        },
+        {
+          "p": "Please remove your shoes and belt.",
+          "m": "Nói bạn tháo giày và thắt lưng hay không.",
+          "h": "Use 'I removed' or 'I did not remove'.",
+          "s": "I removed my shoes and my belt."
+        },
+        {
+          "p": "Are liquids allowed in your carry-on?",
+          "m": "Nói chất lỏng có được phép trong hành lý xách tay hay không.",
+          "h": "Use 'They are allowed' or 'They are not allowed'.",
+          "s": "They are allowed in small bottles."
+        },
+        {
+          "p": "Do you understand the security rules?",
+          "m": "Xác nhận bạn hiểu quy tắc an ninh hay không.",
+          "h": "Use 'I understand' or 'I don't understand'.",
+          "s": "I understand the security rules."
+        }
+      ]
+    },
+    {
+      "t": "Kiểm tra hộ chiếu",
+      "e": [
+        {
+          "p": "Can I see your passport, please?",
+          "m": "Nói bạn có hộ chiếu hay không.",
+          "h": "Use 'I have' or 'I don't have'.",
+          "s": "I have my passport."
+        },
+        {
+          "p": "What is your nationality on the passport?",
+          "m": "Nói quốc tịch như trên hộ chiếu (một từ).",
+          "h": "Use 'I am' + nationality or just the country name.",
+          "s": "I am Vietnamese."
+        },
+        {
+          "p": "Do you have a return ticket?",
+          "m": "Nói bạn có vé khứ hồi hay không.",
+          "h": "Use 'I have' or 'I don't have'.",
+          "s": "I have a return ticket."
+        },
+        {
+          "p": "Is your passport valid for six months?",
+          "m": "Nói hộ chiếu còn hiệu lực 6 tháng hay không.",
+          "h": "Use 'It is' or 'It is not'.",
+          "s": "It is valid for six months."
+        },
+        {
+          "p": "Do you have anything to declare?",
+          "m": "Nói bạn có đồ cần khai báo hay không.",
+          "h": "Use 'I have' or 'I don't have'.",
+          "s": "I don't have anything to declare."
+        }
+      ]
+    },
+    {
+      "t": "Xử lý hành lý thất lạc",
+      "e": [
+        {
+          "p": "Where is my bag? I cannot find it at the belt.",
+          "m": "Nói bạn không tìm thấy hành lý trên băng chuyền.",
+          "h": "Use 'I cannot find' or 'My bag is not here'.",
+          "s": "I cannot find my bag on the belt."
+        },
+        {
+          "p": "Do you have your baggage tag number?",
+          "m": "Nói bạn có số nhãn hành lý hay không.",
+          "h": "Use 'I have' or 'I don't have'.",
+          "s": "I have my baggage tag number."
+        },
+        {
+          "p": "Please describe your bag.",
+          "m": "Mô tả ngắn hành lý (màu, kích thước).",
+          "h": "Use 'It is' + color/size: 'It is black and big'.",
+          "s": "It is a black medium bag."
+        },
+        {
+          "p": "We will check and call you at the phone.",
+          "m": "Nói bạn có thể chờ và nhận cuộc gọi hay không.",
+          "h": "Use 'I can' or 'I cannot'.",
+          "s": "I can wait and I will answer the phone."
+        },
+        {
+          "p": "Can you fill this lost luggage form?",
+          "m": "Nói bạn có thể điền form hay không.",
+          "h": "Use 'I can' or 'I cannot'.",
+          "s": "I can fill the form now."
+        }
+      ]
+    },
+    {
+      "t": "Thông báo chuyến bay và thay đổi",
+      "e": [
+        {
+          "p": "Flight 200 is delayed by one hour.",
+          "m": "Xác nhận bạn biết chuyến bay bị trễ hay không.",
+          "h": "Use 'I know' or 'I don't know'.",
+          "s": "I know the flight is delayed by one hour."
+        },
+        {
+          "p": "Is the new boarding time 11?",
+          "m": "Xác nhận giờ boarding mới hay không.",
+          "h": "Use 'Yes, it is' or 'No, it is not'.",
+          "s": "Yes, it is at eleven."
+        },
+        {
+          "p": "Do you want to change to another flight?",
+          "m": "Nói bạn có muốn đổi chuyến hay không.",
+          "h": "Use 'I want' or 'I don't want'.",
+          "s": "I don't want to change my flight."
+        },
+        {
+          "p": "Can you wait at the gate for the update?",
+          "m": "Nói bạn có thể chờ ở cổng hay không.",
+          "h": "Use 'I can' or 'I cannot'.",
+          "s": "I can wait at the gate."
+        },
+        {
+          "p": "There is a new announcement for seat change.",
+          "m": "Trả lời nếu bạn sẵn sàng đổi chỗ ngồi hay không.",
+          "h": "Use 'I am ready' or 'I am not ready' / 'I want' patterns.",
+          "s": "I am ready to change my seat."
+        }
+      ]
+    },
+    {
+      "t": "Yêu cầu chỗ ngồi",
+      "e": [
+        {
+          "p": "Do you prefer a window seat?",
+          "m": "Nói bạn có thích chỗ cửa sổ hay không.",
+          "h": "Use 'I prefer' or 'I don't prefer'.",
+          "s": "I prefer a window seat."
+        },
+        {
+          "p": "Is a seat by the aisle free?",
+          "m": "Nói chỗ lối đi có trống hay không.",
+          "h": "Use 'It is free' or 'It is not free'.",
+          "s": "It is free."
+        },
+        {
+          "p": "Can I change my seat now?",
+          "m": "Nói bạn có thể đổi chỗ ngay bây giờ hay không.",
+          "h": "Use 'You can' or 'You cannot'.",
+          "s": "You can change your seat now."
+        },
+        {
+          "p": "I need a seat for a child.",
+          "m": "Nói bạn cần ghế cho trẻ em hay không.",
+          "h": "Use 'I need' or 'I don't need'.",
+          "s": "I need a seat for a child."
+        },
+        {
+          "p": "Does this seat have extra legroom?",
+          "m": "Hỏi chỗ ngồi có chỗ để chân rộng hơn hay không.",
+          "h": "Use 'It has' or 'It does not have'.",
+          "s": "It has extra legroom."
+        }
+      ]
+    },
+    {
+      "t": "Mua vé và thông tin chuyến bay",
+      "e": [
+        {
+          "p": "I want one ticket to Hanoi, please.",
+          "m": "Nói bạn muốn mua một vé đến Hà Nội hay không.",
+          "h": "Use 'I want' + destination.",
+          "s": "I want one ticket to Hanoi."
+        },
+        {
+          "p": "What time is the next flight to Hanoi?",
+          "m": "Hỏi giờ chuyến tiếp theo tới Hà Nội.",
+          "h": "Use 'The next flight is at...' or 'It is at...'.",
+          "s": "The next flight is at two."
+        },
+        {
+          "p": "Do you have a return ticket option?",
+          "m": "Hỏi có tuỳ chọn vé khứ hồi hay không.",
+          "h": "Use 'We have' or 'We do not have'.",
+          "s": "We have a return ticket option."
+        },
+        {
+          "p": "Can I pay by card?",
+          "m": "Hỏi bạn có thể trả bằng thẻ hay không.",
+          "h": "Use 'You can' or 'You cannot'.",
+          "s": "You can pay by card."
+        },
+        {
+          "p": "Is breakfast included with this ticket?",
+          "m": "Hỏi bữa sáng có được bao gồm hay không.",
+          "h": "Use 'It is included' or 'It is not included'.",
+          "s": "It is not included."
+        }
+      ]
+    },
+    {
+      "t": "Khu mua sắm và dịch vụ",
+      "e": [
+        {
+          "p": "Where is the restroom?",
+          "m": "Nói vị trí nhà vệ sinh ngắn gọn.",
+          "h": "Use 'The restroom is...' .",
+          "s": "The restroom is near the food court."
+        },
+        {
+          "p": "Do you sell phone chargers here?",
+          "m": "Hỏi có bán sạc điện thoại ở đây hay không.",
+          "h": "Use 'We sell' or 'We do not sell'.",
+          "s": "We sell phone chargers here."
+        },
+        {
+          "p": "Can I buy water after security?",
+          "m": "Hỏi có thể mua nước sau an ninh hay không.",
+          "h": "Use 'You can' or 'You cannot'.",
+          "s": "You can buy water after security."
+        },
+        {
+          "p": "Is there a small shop near gate 3?",
+          "m": "Hỏi có cửa hàng nhỏ gần cổng 3 hay không.",
+          "h": "Use 'There is' or 'There is not'.",
+          "s": "There is a small shop near gate three."
+        },
+        {
+          "p": "Do you have a map of the airport?",
+          "m": "Hỏi có bản đồ sân bay hay không.",
+          "h": "Use 'We have' or 'We do not have'.",
+          "s": "We have a map of the airport."
+        }
+      ]
+    },
+    {
+      "t": "Lên máy bay và hành lý xách tay",
+      "e": [
+        {
+          "p": "Please show your boarding pass.",
+          "m": "Nói bạn có thẻ lên máy bay hay không.",
+          "h": "Use 'I have' or 'I don't have'.",
+          "s": "I have my boarding pass."
+        },
+        {
+          "p": "Is your carry-on small enough for the bin?",
+          "m": "Nói hành lý xách tay của bạn có đủ nhỏ hay không.",
+          "h": "Use 'It is' or 'It is not'.",
+          "s": "It is small enough for the bin."
+        },
+        {
+          "p": "Do you need help with your bag?",
+          "m": "Nói bạn có cần giúp đỡ với hành lý hay không.",
+          "h": "Use 'I need' or 'I don't need'.",
+          "s": "I need help with my bag."
+        },
+        {
+          "p": "Please fasten your seat belt.",
+          "m": "Xác nhận bạn đã thắt dây an toàn hay chưa.",
+          "h": "Use 'I fasten' or 'I did not fasten'.",
+          "s": "I fasten my seat belt now."
+        },
+        {
+          "p": "Can you put your bag under the seat?",
+          "m": "Nói bạn có thể để túi dưới ghế hay không.",
+          "h": "Use 'I can' or 'I cannot'.",
+          "s": "I can put my bag under the seat."
+        }
+      ]
+    },
+    {
+      "t": "Hỗ trợ hành khách đặc biệt",
+      "e": [
+        {
+          "p": "Do you need a wheelchair?",
+          "m": "Nói bạn có cần xe lăn hay không.",
+          "h": "Use 'I need' or 'I don't need'.",
+          "s": "I need a wheelchair."
+        },
+        {
+          "p": "Can we help you with boarding?",
+          "m": "Nói bạn có cần giúp lên máy bay hay không.",
+          "h": "Use 'I need' or 'I don't need'.",
+          "s": "I need help with boarding."
+        },
+        {
+          "p": "Is there a medical condition we should know?",
+          "m": "Nói bạn có vấn đề y tế cần báo hay không.",
+          "h": "Use 'I have' or 'I don't have'.",
+          "s": "I don't have a medical condition."
+        },
+        {
+          "p": "Do you travel with a service animal?",
+          "m": "Nói bạn có đi cùng thú cưng dịch vụ hay không.",
+          "h": "Use 'I travel with' or 'I don't travel with'.",
+          "s": "I don't travel with a service animal."
+        },
+        {
+          "p": "Can you stand for a short time for boarding?",
+          "m": "Nói bạn có thể đứng trong thời gian ngắn hay không.",
+          "h": "Use 'I can' or 'I cannot'.",
+          "s": "I can stand for a short time."
+        }
+      ]
+    },
+    {
+      "t": "Xử lý khi trễ chuyến",
+      "e": [
+        {
+          "p": "My flight is late. What can I do?",
+          "m": "Nói bạn có thể làm gì khi chuyến bay trễ (một hành động).",
+          "h": "Use 'You can' + verb or 'I can' + verb.",
+          "s": "You can wait at the gate for updates."
+        },
+        {
+          "p": "Can I have a meal voucher for the delay?",
+          "m": "Hỏi bạn có thể nhận phiếu ăn uống hay không.",
+          "h": "Use 'You can' or 'You cannot'.",
+          "s": "You can get a meal voucher."
+        },
+        {
+          "p": "Is there a hotel option for long delay?",
+          "m": "Hỏi có tuỳ chọn khách sạn cho trễ lâu hay không.",
+          "h": "Use 'There is' or 'There is not'.",
+          "s": "There is a hotel option for long delay."
+        },
+        {
+          "p": "Do you want to change to another flight today?",
+          "m": "Hỏi bạn có muốn đổi chuyến trong ngày hay không.",
+          "h": "Use 'I want' or 'I don't want'.",
+          "s": "I don't want to change to another flight today."
+        },
+        {
+          "p": "Can I get information at the help desk?",
+          "m": "Hỏi bạn có thể lấy thông tin tại quầy trợ giúp hay không.",
+          "h": "Use 'You can' or 'You cannot'.",
+          "s": "You can get information at the help desk."
+        }
+      ]
+    },
+    {
+      "t": "Ôn tập: Check-in và cổng lên máy bay",
+      "e": [
+        {
+          "p": "May I have your name for check-in?",
+          "m": "Nói tên bạn (dùng một từ or hai từ).",
+          "h": "Use 'My name is...' with placeholder if cần.",
+          "s": "My name is [studentName]."
+        },
+        {
+          "p": "Do you have a checked bag today?",
+          "m": "Nói bạn có hành lý ký gửi hôm nay hay không.",
+          "h": "Use 'I have' or 'I don't have'.",
+          "s": "I have one checked bag."
+        },
+        {
+          "p": "What is your gate on the boarding pass?",
+          "m": "Nói số cổng như trên thẻ lên máy bay.",
+          "h": "Use 'My gate is...' .",
+          "s": "My gate is eight."
+        },
+        {
+          "p": "Is boarding at 3 or 4?",
+          "m": "Xác nhận giờ boarding chính xác (chỉ chọn một).",
+          "h": "Use 'It is at...' .",
+          "s": "It is at three."
+        },
+        {
+          "p": "Can you show your ID and boarding pass together?",
+          "m": "Xác nhận bạn có thể đưa ID và thẻ lên máy bay cùng lúc hay không.",
+          "h": "Use 'I can' or 'I cannot'.",
+          "s": "I can show my ID and boarding pass."
+        }
+      ]
+    },
+    {
+      "t": "Ôn tập: Vấn đề chuyến bay và hành lý",
+      "e": [
+        {
+          "p": "My bag is missing from the carousel.",
+          "m": "Nói bạn không tìm thấy hành lý (một câu).",
+          "h": "Use 'I cannot find' + object.",
+          "s": "I cannot find my bag on the carousel."
+        },
+        {
+          "p": "Do you have the baggage tag number?",
+          "m": "Nói bạn có số nhãn hành lý hay không.",
+          "h": "Use 'I have' or 'I don't have'.",
+          "s": "I have the baggage tag number."
+        },
+        {
+          "p": "Is the flight delayed by one hour?",
+          "m": "Xác nhận chuyến bay có trễ 1 giờ hay không.",
+          "h": "Use 'Yes, it is' or 'No, it is not'.",
+          "s": "Yes, it is delayed by one hour."
+        },
+        {
+          "p": "Can I change my flight at the counter?",
+          "m": "Hỏi bạn có thể đổi chuyến tại quầy hay không.",
+          "h": "Use 'You can' or 'You cannot'.",
+          "s": "You can change your flight at the counter."
+        },
+        {
+          "p": "Will you call me when the bag is found?",
+          "m": "Xác nhận bạn sẽ nhận cuộc gọi khi tìm thấy hành lý hay không.",
+          "h": "Use 'I will' or 'I will not'.",
+          "s": "I will wait for your call when the bag is found."
+        }
+      ]
+    },
+    {
+      "t": "Ôn tập: Hoạt động trên sân bay",
+      "e": [
+        {
+          "p": "Where can I buy water before security?",
+          "m": "Nói nơi bạn có thể mua nước trước an ninh.",
+          "h": "Use 'You can' + place.",
+          "s": "You can buy water at the shop near check-in."
+        },
+        {
+          "p": "Do you need a taxi after arrival?",
+          "m": "Nói bạn có cần taxi sau khi đến hay không.",
+          "h": "Use 'I need' or 'I don't need'.",
+          "s": "I need a taxi after arrival."
+        },
+        {
+          "p": "Is there a place to charge my phone?",
+          "m": "Hỏi có chỗ sạc điện thoại hay không.",
+          "h": "Use 'There is' or 'There is not'.",
+          "s": "There is a charging station near gate two."
+        },
+        {
+          "p": "Can I eat at the gate before boarding?",
+          "m": "Hỏi bạn có thể ăn ở cổng trước khi boarding hay không.",
+          "h": "Use 'You can' or 'You cannot'.",
+          "s": "You can eat at the gate before boarding."
+        },
+        {
+          "p": "Do you understand the final boarding call?",
+          "m": "Xác nhận bạn hiểu thông báo boarding cuối cùng hay không.",
+          "h": "Use 'I understand' or 'I don't understand'.",
+          "s": "I understand the final boarding call."
+        }
+      ]
+    }
+  ]
+}

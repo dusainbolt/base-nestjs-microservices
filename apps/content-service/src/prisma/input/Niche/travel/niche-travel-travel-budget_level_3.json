@@ -1,0 +1,635 @@
+{
+  "l": 3,
+  "d": [
+    {
+      "t": "Lên kế hoạch ngân sách chuyến đi",
+      "e": [
+        {
+          "p": "How much will your trip cost?",
+          "m": "Nói ước lượng tổng chi phí chuyến đi. Nói lý do chính cho chi phí đó.",
+          "h": "Dùng 'will' + amount; giải thích với 'because' hoặc 'for'.",
+          "s": "It will cost about $500. Most of it is for flights and the hotel."
+        },
+        {
+          "p": "What did you spend the most on last time you traveled?",
+          "m": "Nói món bạn đã chi nhiều nhất (quá khứ). Nói thêm một chi tiết về món đó.",
+          "h": "Dùng Past Simple (V-ed) để kể việc đã xảy ra.",
+          "s": "I spent the most on the plane ticket. It was expensive because I booked late."
+        },
+        {
+          "p": "Are you going to save money for souvenirs?",
+          "m": "Nói có dự định tiết kiệm cho quà hay không. Nói bạn sẽ làm gì để tiết kiệm.",
+          "h": "Dùng 'going to' cho kế hoạch; dùng một động từ chỉ hành động tiết kiệm.",
+          "s": "Yes, I am going to save money for souvenirs. I will skip eating out twice a week."
+        },
+        {
+          "p": "Do you think you should spend more on accommodation?",
+          "m": "Nói ý kiến của bạn về việc nên bỏ nhiều tiền hơn cho chỗ ở. Nêu một lý do ngắn.",
+          "h": "Dùng 'should' + V; nêu lý do ngắn với 'because'.",
+          "s": "I think we should spend more on accommodation. A better hotel will be more comfortable."
+        },
+        {
+          "p": "Can you make a simple budget plan now?",
+          "m": "Viết tổng chi tiêu 2 mục (ví dụ: transport, hotel). Nói tổng cộng ước lượng.",
+          "h": "Dùng quá khứ/hiện tại hoặc 'will' cho tổng; liệt kê hai mục ngắn.",
+          "s": "Transport $200 and hotel $250. The total will be $450."
+        }
+      ]
+    },
+    {
+      "t": "So sánh chi phí vận chuyển",
+      "e": [
+        {
+          "p": "Which is cheaper, train or plane for this route?",
+          "m": "Nói phương tiện rẻ hơn. Nói sơ lý do ngắn.",
+          "h": "Dùng comparative: cheaper/more expensive; dùng 'because'.",
+          "s": "The train is cheaper. It costs less because there is a discount."
+        },
+        {
+          "p": "How long did the bus trip take last time?",
+          "m": "Nói thời gian chuyến đi ở quá khứ. Nói nếu chuyến đi đắt hơn hoặc rẻ hơn so với dự tính.",
+          "h": "Dùng Past Simple và một so sánh ngắn (more/less).",
+          "s": "The bus trip took four hours. It was less expensive than I expected."
+        },
+        {
+          "p": "Will you take a taxi or public transport?",
+          "m": "Chọn taxi hoặc phương tiện công cộng. Nói lý do (tiện/tiết kiệm).",
+          "h": "Dùng 'will' cho quyết định tương lai; giải thích bằng because.",
+          "s": "I will take public transport. It is cheaper and it saves money."
+        },
+        {
+          "p": "Do you have to pay extra for luggage on the plane?",
+          "m": "Nói có phải trả thêm không. Nếu có, nêu số tiền ước lượng.",
+          "h": "Dùng 'have to' cho nghĩa bắt buộc; nêu số tiền ngắn.",
+          "s": "Yes, I have to pay extra for luggage. It costs about $30."
+        },
+        {
+          "p": "Compare travel time and cost between taxi and train.",
+          "m": "Nói thời gian của taxi và train. Nói cái nào rẻ hơn và cái nào nhanh hơn.",
+          "h": "Dùng comparatives: faster, cheaper; tách thành hai câu.",
+          "s": "The taxi is faster, it takes 30 minutes. The train is cheaper, it costs half the taxi fare."
+        }
+      ]
+    },
+    {
+      "t": "Chọn chỗ ở phù hợp",
+      "e": [
+        {
+          "p": "Do you prefer a hotel or a hostel?",
+          "m": "Nói bạn thích hotel hay hostel. Nêu một lý do ngắn cho lựa chọn.",
+          "h": "Dùng Present Simple để bày tỏ sở thích; dùng 'because'.",
+          "s": "I prefer a hotel. I want more privacy and comfort."
+        },
+        {
+          "p": "How much did you pay for your last hotel room?",
+          "m": "Nói số tiền đã trả ở quá khứ. Nói nếu đó là mức giá hợp lý hay không.",
+          "h": "Dùng Past Simple và một đánh giá ngắn: reasonable/expensive/cheap.",
+          "s": "I paid $80 for my last hotel room. It was reasonable for the location."
+        },
+        {
+          "p": "Will you book a room with breakfast included?",
+          "m": "Nói có định đặt phòng kèm bữa sáng không. Nêu lý do ngắn.",
+          "h": "Dùng 'will' hoặc 'going to' cho kế hoạch; giải thích ngắn.",
+          "s": "I will book a room with breakfast. It will save time and money in the morning."
+        },
+        {
+          "p": "Can we find a cheaper room than this one?",
+          "m": "Nói khả năng tìm phòng rẻ hơn. Nếu có, gợi ý một cách để tìm.",
+          "h": "Dùng 'can' hoặc 'could' + động từ; gợi ý bằng 'try' hoặc 'look for'.",
+          "s": "Yes, we can find a cheaper room. Try checking nearby hostels or online deals."
+        },
+        {
+          "p": "Should we pay more for a central location?",
+          "m": "Nói ý kiến: nên hay không nên trả thêm. Nêu một lợi ích hoặc bất lợi ngắn.",
+          "h": "Dùng 'should' + V và nêu reason ngắn (more convenient/expensive).",
+          "s": "We should pay more for a central location. It is more convenient for sightseeing."
+        }
+      ]
+    },
+    {
+      "t": "Ăn uống và chi phí hàng ngày",
+      "e": [
+        {
+          "p": "How much do you usually spend on food per day?",
+          "m": "Nói số tiền tiêu mỗi ngày. Nói bạn ăn ở nhà hàng hay quán bình dân.",
+          "h": "Dùng Present Simple cho thói quen; nêu nơi ăn.",
+          "s": "I usually spend about $20 per day on food. I eat at small local restaurants."
+        },
+        {
+          "p": "Did you try street food on your trip?",
+          "m": "Nói đã thử street food hay chưa (quá khứ). Nói cảm nhận ngắn về giá và hương vị.",
+          "h": "Dùng Past Simple và một cảm nhận ngắn (cheap/tasty).",
+          "s": "Yes, I tried street food. It was cheap and very tasty."
+        },
+        {
+          "p": "Are you going to cook sometimes to save money?",
+          "m": "Nói có định nấu ăn để tiết kiệm không. Nếu có, nói một cách cụ thể bạn sẽ làm gì.",
+          "h": "Dùng 'going to' cho kế hoạch; nêu hành động cụ thể như 'buy groceries'.",
+          "s": "Yes, I am going to cook to save money. I will buy groceries and make simple meals."
+        },
+        {
+          "p": "Should we budget more for dinners out?",
+          "m": "Đưa ý kiến: nên trông chờ chi nhiều hơn cho ăn tối không. Nêu lý do hợp lý.",
+          "h": "Dùng 'should' + V; giải thích với 'because'.",
+          "s": "We should budget more for dinners out because restaurants here are expensive."
+        },
+        {
+          "p": "Compare the cost of a cafe meal and a market meal here.",
+          "m": "Nói giá của một bữa ở quán cafe và ở chợ. Nói cái nào rẻ hơn và vì sao.",
+          "h": "Dùng comparative (cheaper/more expensive) và 'because'.",
+          "s": "A cafe meal costs about $10, and a market meal costs $4. The market meal is cheaper because it uses local ingredients."
+        }
+      ]
+    },
+    {
+      "t": "Mua vé và phí di chuyển",
+      "e": [
+        {
+          "p": "How much is a one-way ticket to the city center?",
+          "m": "Nói giá vé một chiều. Nói lựa chọn phương tiện (bus/train/taxi).",
+          "h": "Dùng Present Simple cho giá hiện tại; nêu phương tiện.",
+          "s": "A one-way bus ticket is $2. I will take the bus to the city center."
+        },
+        {
+          "p": "Did you book tickets online or at the counter?",
+          "m": "Nói đã đặt vé online hay mua quầy (quá khứ). Nêu lợi ích ngắn của cách đó.",
+          "h": "Dùng Past Simple và nêu lợi ích (cheaper/easier).",
+          "s": "I booked tickets online. It was cheaper and faster."
+        },
+        {
+          "p": "Are there any discounts for students?",
+          "m": "Nói có giảm giá cho sinh viên không. Nếu có, nêu phần trăm hoặc ví dụ ngắn.",
+          "h": "Dùng Present Simple; nêu số phần trăm đơn giản nếu biết.",
+          "s": "Yes, there is a student discount. Students pay 20% less."
+        },
+        {
+          "p": "Will you buy a day pass or single tickets?",
+          "m": "Chọn mua vé ngày hay vé lẻ. Nói lý do ngắn về tiết kiệm hoặc tiện lợi.",
+          "h": "Dùng 'will' cho quyết định; giải thích bằng 'because' nếu cần.",
+          "s": "I will buy a day pass. It is cheaper if I travel many times."
+        },
+        {
+          "p": "Can you explain extra fees like booking or service charges?",
+          "m": "Nói có những phí phụ nào. Nói một ví dụ về khoản phí và số tiền ước lượng.",
+          "h": "Dùng Present Simple để liệt kê; nêu ví dụ với amount.",
+          "s": "There is a booking fee and a service charge. For example, the booking fee is $3."
+        }
+      ]
+    },
+    {
+      "t": "Quản lý tiền mặt và thẻ",
+      "e": [
+        {
+          "p": "Do you carry cash or use cards more?",
+          "m": "Nói bạn dùng tiền mặt hay thẻ nhiều hơn. Nêu một lý do ngắn.",
+          "h": "Dùng Present Simple cho thói quen; dùng 'because'.",
+          "s": "I use cards more. Cards are safer and more convenient."
+        },
+        {
+          "p": "Did you lose money or have any card fees before?",
+          "m": "Nói nếu bạn đã từng mất tiền hoặc trả phí thẻ (quá khứ). Nói kết quả ngắn.",
+          "h": "Dùng Past Simple; nêu hậu quả (had to cancel, paid fee).",
+          "s": "Yes, I had card fees once. I had to pay a $10 bank fee."
+        },
+        {
+          "p": "Are you going to exchange money before you travel?",
+          "m": "Nói bạn có đổi tiền trước chuyến đi không. Nói nơi bạn sẽ đổi (bank/exchange).",
+          "h": "Dùng 'going to' cho kế hoạch; nêu nơi ngắn.",
+          "s": "I am going to exchange money at the bank. The bank has a better rate."
+        },
+        {
+          "p": "Should we bring small bills for tips and buses?",
+          "m": "Đưa lời khuyên có nên mang tiền lẻ không. Nói một lý do ngắn.",
+          "h": "Dùng 'should' + V để khuyên; giải thích ngắn.",
+          "s": "We should bring small bills for tips and buses. They make small payments easier."
+        },
+        {
+          "p": "Can you compare ATM fees and exchange office rates?",
+          "m": "Nói cái nào thường tốn phí hơn. Nêu một ví dụ cụ thể (ATM fee hoặc rate difference).",
+          "h": "Dùng comparative và nêu ví dụ số tiền hoặc tỉ lệ ngắn.",
+          "s": "ATM fees are usually higher than exchange offices. For example, the ATM fee is $5 while the office fee is $2."
+        }
+      ]
+    },
+    {
+      "t": "Mua sắm quà lưu niệm",
+      "e": [
+        {
+          "p": "How much do you want to spend on souvenirs?",
+          "m": "Nói số tiền bạn định dành cho quà. Nói bạn sẽ mua bao nhiêu món (ước lượng).",
+          "h": "Dùng 'want to' + V và Present Simple; nêu số lượng ước lượng.",
+          "s": "I want to spend $50 on souvenirs. I will buy about five small items."
+        },
+        {
+          "p": "Did you find any cheap souvenirs at the market?",
+          "m": "Nói có tìm thấy quà rẻ ở chợ không (quá khứ). Nói một món cụ thể và giá ước lượng.",
+          "h": "Dùng Past Simple; nêu món và giá ngắn.",
+          "s": "Yes, I found cheap postcards and keychains. They cost about $1 each."
+        },
+        {
+          "p": "Will you bargain with sellers to lower the price?",
+          "m": "Nói bạn có mặc cả không. Nói cách bạn sẽ mặc cả (percentage or fixed).",
+          "h": "Dùng 'will' cho hành động tương lai; nêu mức mặc cả ngắn.",
+          "s": "I will bargain with sellers. I will try to get 20% off."
+        },
+        {
+          "p": "Should we check the quality before buying gifts?",
+          "m": "Nói có nên kiểm tra chất lượng không. Nói một điều bạn sẽ kiểm tra (size/color).",
+          "h": "Dùng 'should' + V; nêu điều cụ thể cần kiểm tra.",
+          "s": "We should check the quality before buying gifts. I will check the color and material."
+        },
+        {
+          "p": "Compare buying souvenirs at a tourist shop and a local market.",
+          "m": "Nói điểm khác nhau về giá và chất lượng. Nói cái nào rẻ hơn và lý do ngắn.",
+          "h": "Dùng comparative (cheaper/more expensive) và giải thích 'because'.",
+          "s": "Local markets are cheaper and often more authentic. Tourist shops are more expensive because they target visitors."
+        }
+      ]
+    },
+    {
+      "t": "Thay đổi kế hoạch và hoàn tiền",
+      "e": [
+        {
+          "p": "Can I change my booking date?",
+          "m": "Trả lời có thể đổi ngày hay không. Nói nếu có phí đổi hoặc miễn phí.",
+          "h": "Dùng 'can' hoặc 'cannot' + V; nêu fee ngắn với amount nếu có.",
+          "s": "Yes, you can change your booking date. There is a $20 change fee."
+        },
+        {
+          "p": "Did you get a refund when you canceled before?",
+          "m": "Nói đã từng được hoàn tiền khi hủy không (quá khứ). Nói số tiền hoặc tỉ lệ hoàn ngắn.",
+          "h": "Dùng Past Simple và nêu một con số hoặc tỉ lệ ngắn.",
+          "s": "Yes, I got a refund last time. I received 70% of the ticket price."
+        },
+        {
+          "p": "Are you going to cancel your trip because of the weather?",
+          "m": "Nói bạn có định hủy chuyến đi không. Nêu lý do thời tiết ngắn và hậu quả chi phí.",
+          "h": "Dùng 'going to' cho kế hoạch và 'because' để giải thích.",
+          "s": "I am going to cancel the trip because the forecast is stormy. I will lose the nonrefundable fee."
+        },
+        {
+          "p": "Should we buy travel insurance for refunds?",
+          "m": "Đưa lời khuyên có nên mua bảo hiểm du lịch không. Nói một lợi ích ngắn.",
+          "h": "Dùng 'should' + V; nêu lợi ích như 'get refund' hoặc 'cover costs'.",
+          "s": "We should buy travel insurance. It can cover costs if we need a refund."
+        },
+        {
+          "p": "Explain a polite message to ask for a refund.",
+          "m": "Viết 2 câu: 1) Yêu cầu hoàn tiền một cách lịch sự. 2) Nêu lý do ngắn và yêu cầu khoản hoàn cụ thể.",
+          "h": "Dùng Present Simple hoặc Past Simple; dùng 'please' và nêu amount hoặc percentage.",
+          "s": "Please refund my booking due to cancellation. I canceled because of illness and I request a 50% refund."
+        }
+      ]
+    },
+    {
+      "t": "Tính toán tỉ giá và chi phí nước ngoài",
+      "e": [
+        {
+          "p": "How much is $100 in local currency?",
+          "m": "Chuyển đổi $100 sang tiền địa phương (ước lượng). Nói tỉ giá bạn dùng.",
+          "h": "Dùng Present Simple và nêu rate ngắn (1 USD = x).",
+          "s": "One hundred dollars is about 2,300 local currency. I used a rate of 1 USD = 23."
+        },
+        {
+          "p": "Did exchange rates change while you were there?",
+          "m": "Nói tỉ giá có thay đổi không (quá khứ). Nêu ảnh hưởng ngắn đến ngân sách.",
+          "h": "Dùng Past Simple và nêu kết quả (budget bigger/smaller).",
+          "s": "Yes, the exchange rate changed while I was there. My budget became smaller because the local currency strengthened."
+        },
+        {
+          "p": "Are you going to use a card or cash abroad?",
+          "m": "Nói bạn sẽ dùng thẻ hay tiền mặt ở nước ngoài. Nêu một lý do về tỉ giá hoặc phí.",
+          "h": "Dùng 'going to' cho kế hoạch; nhắc tới fees hoặc rates.",
+          "s": "I am going to use a card abroad. The card gives a better rate but has a small fee."
+        },
+        {
+          "p": "Should we check the exchange rate daily?",
+          "m": "Đưa lời khuyên có nên kiểm tra tỉ giá hàng ngày không. Nói lý do ngắn.",
+          "h": "Dùng 'should' + V và 'because' để giải thích.",
+          "s": "We should check the exchange rate daily because it can change and affect our budget."
+        },
+        {
+          "p": "Compare exchanging money at the airport and in the city.",
+          "m": "Nói điểm khác nhau về tỉ giá và phí. Nói nơi nào thường rẻ hơn và lý do.",
+          "h": "Dùng comparative và 'because' cho giải thích ngắn.",
+          "s": "Exchanging in the city is usually cheaper. Airport kiosks charge higher fees because of convenience."
+        }
+      ]
+    },
+    {
+      "t": "Chia sẻ chi phí nhóm",
+      "e": [
+        {
+          "p": "How much should each person pay if the bill is $120 for three people?",
+          "m": "Tính số tiền mỗi người phải trả. Viết kết quả rõ ràng.",
+          "h": "Dùng phép chia đơn giản; dùng Present Simple để trả lời.",
+          "s": "Each person should pay $40."
+        },
+        {
+          "p": "Did you split costs with friends on your last trip?",
+          "m": "Nói đã chia chi phí với bạn bè không (quá khứ). Nêu một ví dụ ngắn về khoản đã chia.",
+          "h": "Dùng Past Simple và nêu ví dụ về một khoản cụ thể.",
+          "s": "Yes, we split taxi fares with friends. I paid $10 and they paid the rest."
+        },
+        {
+          "p": "Are you going to use an app to share expenses?",
+          "m": "Nói có dùng app chia chi phí không. Nêu tên app hoặc cách ngắn bạn sẽ dùng.",
+          "h": "Dùng 'going to' cho kế hoạch; nêu app hoặc cách đơn giản.",
+          "s": "I am going to use a payment app. We will share expenses and settle later."
+        },
+        {
+          "p": "Should one person pay first and others reimburse later?",
+          "m": "Đưa lời khuyên: nên hay không nên để một người trả trước. Nêu cách đảm bảo công bằng ngắn.",
+          "h": "Dùng 'should' + V; nêu cách như 'keep receipts' hoặc 'use app'.",
+          "s": "One person can pay first but we should record costs. Use an app to reimburse fairly."
+        },
+        {
+          "p": "Explain a fair way to split different costs (meals, transport, hotel).",
+          "m": "Nói cách chia công bằng cho ba loại chi phí. Viết mỗi loại một câu ngắn.",
+          "h": "Dùng Present Simple; tách thành ba câu ngắn hoặc liệt kê bằng câu.",
+          "s": "Split meals by who ate what. Share transport equally. Divide hotel cost by room or night."
+        }
+      ]
+    },
+    {
+      "t": "Tiết kiệm chi phí khi du lịch",
+      "e": [
+        {
+          "p": "What is one simple way to save money on a trip?",
+          "m": "Nói một cách đơn giản để tiết kiệm. Giải thích ngắn vì sao hiệu quả.",
+          "h": "Dùng Present Simple hoặc 'will' cho lời khuyên; giải thích ngắn.",
+          "s": "Cook some meals instead of eating out. It saves a lot on food costs."
+        },
+        {
+          "p": "Did you ever use a discount or coupon while traveling?",
+          "m": "Nói đã từng dùng mã giảm giá hay không (quá khứ). Nêu một ví dụ ngắn.",
+          "h": "Dùng Past Simple và nêu ví dụ về giảm giá hoặc coupon.",
+          "s": "Yes, I used a coupon for a museum. It gave me a 30% discount."
+        },
+        {
+          "p": "Are you going to travel in low season to save money?",
+          "m": "Nói có định đi vào mùa thấp điểm không. Nêu lợi ích ngắn về giá.",
+          "h": "Dùng 'going to' cho kế hoạch; nêu lợi ích: cheaper/less crowded.",
+          "s": "I am going to travel in low season. Prices will be cheaper and places less crowded."
+        },
+        {
+          "p": "Should we plan activities in advance to save costs?",
+          "m": "Đưa ý kiến về việc đặt trước hoạt động. Nêu một lợi ích cụ thể.",
+          "h": "Dùng 'should' + V; nêu lợi ích như 'lower price' hoặc 'guarantee spot'.",
+          "s": "We should plan activities in advance. Advance booking often gives a lower price."
+        },
+        {
+          "p": "Compare staying outside the center and walking vs staying central and using transport.",
+          "m": "Nói ưu và nhược của hai lựa chọn về chi phí. Kết luận ngắn bạn chọn cái nào.",
+          "h": "Dùng comparatives và kết luận ngắn (I prefer...).",
+          "s": "Staying outside is cheaper but requires walking or transport. Staying central is more expensive but saves travel time. I prefer staying outside to save money."
+        }
+      ]
+    },
+    {
+      "t": "Sự cố về hành lý và chi phí phát sinh",
+      "e": [
+        {
+          "p": "Did your luggage get lost before?",
+          "m": "Nói đã từng mất hành lý không (quá khứ). Nêu chi phí phát sinh ngắn nếu có.",
+          "h": "Dùng Past Simple; nêu một chi phí ước lượng.",
+          "s": "Yes, my luggage was lost once. I had to buy clothes and paid about $60."
+        },
+        {
+          "p": "How much is the extra baggage fee on this airline?",
+          "m": "Nói phí hành lý thêm hiện tại. Nói bạn có phải trả hay không.",
+          "h": "Dùng Present Simple; trả lời có/không và nêu amount.",
+          "s": "The extra baggage fee is $50. I have to pay it for the heavy suitcase."
+        },
+        {
+          "p": "Are you going to pack lighter next time to avoid fees?",
+          "m": "Nói bạn có định đóng gói nhẹ hơn không. Nêu một việc cụ thể bạn sẽ làm.",
+          "h": "Dùng 'going to' cho kế hoạch; nêu hành động như 'leave items' hoặc 'carry smaller bag'.",
+          "s": "I am going to pack lighter next time. I will bring a smaller suitcase and fewer shoes."
+        },
+        {
+          "p": "Should you buy travel insurance for lost luggage?",
+          "m": "Đưa lời khuyên có nên mua bảo hiểm hành lý không. Nêu một lợi ích ngắn.",
+          "h": "Dùng 'should' + V; nêu lợi ích như 'cover costs'.",
+          "s": "You should buy travel insurance for lost luggage. It can cover replacement costs."
+        },
+        {
+          "p": "Explain what to do if your bag is delayed at the airport.",
+          "m": "Viết 2 câu: 1) Nói hành động đầu tiên bạn sẽ làm. 2) Nói bạn sẽ làm gì để giảm chi phí phát sinh.",
+          "h": "Dùng Future Simple 'will' hoặc 'going to' cho hành động; nêu cách tiết kiệm.",
+          "s": "I will report the delay at the airline desk. I will ask for a small reimbursement or buy essentials cheaply."
+        }
+      ]
+    },
+    {
+      "t": "Lựa chọn tour và chi phí kèm theo",
+      "e": [
+        {
+          "p": "How much is the guided tour per person?",
+          "m": "Nói giá tour trên mỗi người. Nói nếu giá đã bao gồm ăn uống hay không.",
+          "h": "Dùng Present Simple; nêu 'includes' hoặc 'does not include'.",
+          "s": "The guided tour is $45 per person. It does not include lunch."
+        },
+        {
+          "p": "Did you join a free walking tour before?",
+          "m": "Nói đã tham gia tour đi bộ miễn phí chưa (quá khứ). Nêu cảm nhận ngắn và tip bạn đã cho.",
+          "h": "Dùng Past Simple; nêu cảm nhận và tip amount ngắn.",
+          "s": "Yes, I joined a free walking tour. It was great and I gave a $5 tip."
+        },
+        {
+          "p": "Are you going to book a half-day or full-day tour?",
+          "m": "Chọn tour nửa ngày hay cả ngày. Nêu lý do ngắn (time/cost).",
+          "h": "Dùng 'going to' cho kế hoạch; giải thích bằng 'because'.",
+          "s": "I am going to book a half-day tour because it is cheaper and fits my schedule."
+        },
+        {
+          "p": "Should we pay extra for a private guide?",
+          "m": "Nói có nên trả thêm cho hướng dẫn riêng không. Nêu lợi ích hoặc lý do ngắn.",
+          "h": "Dùng 'should' + V; nêu lợi ích như 'personalised' hoặc 'faster'.",
+          "s": "We should pay extra for a private guide if we want personalised information. It is faster and more flexible."
+        },
+        {
+          "p": "Compare booking a package tour and arranging activities by yourself.",
+          "m": "Nói điểm mạnh và yếu về chi phí cho hai cách. Kết luận ngắn bạn thích cách nào.",
+          "h": "Dùng comparatives và đưa kết luận ngắn (I prefer...).",
+          "s": "Package tours are more expensive but easier. Doing activities yourself is cheaper but needs more planning. I prefer arranging activities myself."
+        }
+      ]
+    },
+    {
+      "t": "Giao tiếp với nhân viên dịch vụ về chi phí",
+      "e": [
+        {
+          "p": "How much is the service fee for late checkout?",
+          "m": "Nói phí dịch vụ cho trả phòng muộn. Nói bạn có chấp nhận trả không.",
+          "h": "Dùng Present Simple cho phí; dùng 'will' hoặc 'won't' cho quyết định.",
+          "s": "The service fee for late checkout is $20. I will pay it to leave later."
+        },
+        {
+          "p": "Did the hotel charge you for a minibar item?",
+          "m": "Nói khách sạn có tính tiền minibar không (quá khứ). Nêu giá của một món nếu biết.",
+          "h": "Dùng Past Simple và nêu giá nếu có.",
+          "s": "Yes, the hotel charged me for a minibar soda. It cost $4."
+        },
+        {
+          "p": "Are you going to ask for a discount at checkout?",
+          "m": "Nói bạn có định yêu cầu giảm giá khi trả phòng không. Nêu lý do ngắn để yêu cầu.",
+          "h": "Dùng 'going to' cho dự định; nêu lý do như 'service issue' hoặc 'long stay'.",
+          "s": "I am going to ask for a discount at checkout because our room had a problem. I will request a small refund."
+        },
+        {
+          "p": "Should we tip the cleaner every day?",
+          "m": "Đưa lời khuyên về việc tip người dọn phòng hàng ngày. Nêu số tiền gợi ý nếu phù hợp.",
+          "h": "Dùng 'should' + V và nêu amount ngắn (if appropriate).",
+          "s": "We should tip the cleaner a small amount each day. A $2 tip daily is appropriate."
+        },
+        {
+          "p": "Explain politely why you want a price adjustment for a broken amenity.",
+          "m": "Viết 2 câu: 1) Nêu vấn đề ngắn và yêu cầu điều chỉnh giá. 2) Đề nghị một khoản hoàn tiền hoặc giảm giá.",
+          "h": "Dùng lịch sự với 'please' và 'would', nêu amount hoặc percentage nếu cần.",
+          "s": "The shower in my room was broken and unusable. Please offer a partial refund or a 20% discount."
+        }
+      ]
+    },
+    {
+      "t": "Chi tiêu cuối chuyến đi và báo cáo",
+      "e": [
+        {
+          "p": "How much did you spend in total on this trip?",
+          "m": "Nói tổng chi phí chuyến đi (quá khứ). Nói có vượt ngân sách không (short yes/no).",
+          "h": "Dùng Past Simple để kê báo; trả lời có/không ngắn.",
+          "s": "I spent $600 in total on this trip. No, I did not go over my budget."
+        },
+        {
+          "p": "Did you keep all your receipts?",
+          "m": "Nói đã giữ hóa đơn không (quá khứ). Nêu nơi bạn để chúng (ví dụ: folder, app).",
+          "h": "Dùng Past Simple; nêu nơi lưu trữ ngắn.",
+          "s": "Yes, I kept all my receipts. I put them in a folder."
+        },
+        {
+          "p": "Are you going to send the expense report to your friend/manager?",
+          "m": "Nói bạn có dự định gửi báo cáo chi phí không. Nêu phương thức gửi (email/app).",
+          "h": "Dùng 'going to' cho kế hoạch; nêu cách gửi ngắn.",
+          "s": "I am going to send the expense report by email. I will attach scanned receipts."
+        },
+        {
+          "p": "Should you save receipts for reimbursement later?",
+          "m": "Đưa lời khuyên về việc lưu giữ hóa đơn. Nêu một lý do ngắn.",
+          "h": "Dùng 'should' + V và lý do 'for proof' hoặc 'reimbursement'.",
+          "s": "You should save receipts for reimbursement. They are proof of expenses."
+        },
+        {
+          "p": "Summarize two lessons you learned about budgeting on this trip.",
+          "m": "Viết 2 câu, mỗi câu nêu một bài học cụ thể về quản lý ngân sách.",
+          "h": "Dùng Past Simple hoặc Present Simple để nêu bài học; mỗi câu một ý.",
+          "s": "Book flights early to save money. Pack lighter to avoid extra baggage fees."
+        }
+      ]
+    },
+    {
+      "t": "Ôn tập: Kế hoạch tổng hợp",
+      "e": [
+        {
+          "p": "How much will you allocate for transport, accommodation, and food?",
+          "m": "Nêu số tiền cho 3 hạng mục (transport, accommodation, food), mỗi mục một câu ngắn.",
+          "h": "Dùng 'will' cho kế hoạch; mỗi câu nêu mục và amount.",
+          "s": "I will allocate $200 for transport. I will allocate $300 for accommodation. I will allocate $150 for food."
+        },
+        {
+          "p": "Did you follow your budget on the last trip?",
+          "m": "Trả lời có hoặc không (quá khứ). Nếu không, nêu một khoản đã chi vượt và lý do ngắn.",
+          "h": "Dùng Past Simple; nêu khoản vượt và lý do.",
+          "s": "No, I did not follow my budget. I overspent on shopping because of unexpected sales."
+        },
+        {
+          "p": "Are you going to change your budgeting method next time?",
+          "m": "Nói có định thay đổi phương pháp lập ngân sách không. Nêu một thay đổi cụ thể.",
+          "h": "Dùng 'going to' cho kế hoạch; nêu thay đổi cụ thể.",
+          "s": "I am going to use an expense app next time. It will help track daily spending."
+        },
+        {
+          "p": "Should you save an emergency fund for trips?",
+          "m": "Đưa lời khuyên có nên có quỹ dự phòng không. Nêu một con số ước lượng nếu có thể.",
+          "h": "Dùng 'should' + V; nêu amount ngắn nếu phù hợp.",
+          "s": "You should save an emergency fund for trips. Around $100 is a good start."
+        },
+        {
+          "p": "Explain briefly how to make a 3-day budget plan.",
+          "m": "Viết 3 câu: 1) Nói tổng ngân sách. 2) Chia cho 3 ngày. 3) Ghi lưu cho phí bất ngờ.",
+          "h": "Dùng Present Simple/Will; mỗi câu một ý.",
+          "s": "Set a total budget of $300. Divide it into $100 per day. Keep $30 for unexpected costs."
+        }
+      ]
+    },
+    {
+      "t": "Ôn tập: Ứng phó tình huống",
+      "e": [
+        {
+          "p": "My flight was canceled. Can I get a refund?",
+          "m": "Trả lời có thể được hoàn tiền không. Nêu bước tiếp theo ngắn bạn sẽ làm.",
+          "h": "Dùng 'can'/'cannot' và 'will' cho hành động kế tiếp.",
+          "s": "You can get a refund if the airline allows it. I will contact customer service for details."
+        },
+        {
+          "p": "I lost my wallet. What should I do?",
+          "m": "Viết 2 câu hướng dẫn: 1) Hành động khẩn cấp. 2) Cách giảm thiểu chi phí ngay lập tức.",
+          "h": "Dùng 'should' cho lời khuyên; mỗi câu một hành động.",
+          "s": "You should report the loss to the local police and block your cards. Ask your bank to transfer emergency cash."
+        },
+        {
+          "p": "The hotel room is dirty on arrival.",
+          "m": "Nêu hành động bạn sẽ làm ngay. Nói bạn muốn một giải pháp ngắn (refund/room change).",
+          "h": "Dùng 'will' cho hành động; nêu yêu cầu cụ thể.",
+          "s": "I will ask the front desk to clean or change the room. I will request a small refund if the problem remains."
+        },
+        {
+          "p": "A friend paid the bill but we agreed to split later.",
+          "m": "Nói bạn sẽ làm gì để trả lại tiền. Nêu cách tính và phương thức trả tiền.",
+          "h": "Dùng Future Simple hoặc Present Simple cho hành động; nêu method (app/cash).",
+          "s": "I will calculate my share and send the money by a payment app. I will include receipts for clarity."
+        },
+        {
+          "p": "There is an extra tourist tax at the hotel.",
+          "m": "Nói có nên trả hay phản hồi không. Nêu cách bạn sẽ kiểm tra tính hợp lệ ngắn.",
+          "h": "Dùng 'should' hoặc 'will' và 'check' cho xác minh.",
+          "s": "You should check the hotel policy or ask for a receipt. If the fee is wrong, I will ask for an explanation."
+        }
+      ]
+    },
+    {
+      "t": "Ôn tập: Kết thúc chuyến đi và báo cáo chi phí",
+      "e": [
+        {
+          "p": "Can you summarize total expenses and main categories?",
+          "m": "Nói tổng chi phí chuyến đi. Liệt kê 3 mục chi tiêu chính, mỗi mục một câu ngắn.",
+          "h": "Dùng Past Simple cho tổng; Present Simple để liệt kê mục.",
+          "s": "I spent $700 in total on the trip. Main expenses were flights, hotels, and food. Flights cost $300, hotels $250, and food $150."
+        },
+        {
+          "p": "Did you meet your travel savings goal?",
+          "m": "Trả lời có/không (quá khứ). Nếu không, nêu một điều bạn sẽ thay đổi cho lần sau.",
+          "h": "Dùng Past Simple và 'will' cho thay đổi tương lai.",
+          "s": "No, I did not meet my travel savings goal. I will save more each month next time."
+        },
+        {
+          "p": "Are you going to report expenses to your group?",
+          "m": "Nói có gửi báo cáo chi phí cho nhóm không. Nêu phương thức gửi và thời gian ngắn.",
+          "h": "Dùng 'going to' cho kế hoạch; nêu method and time.",
+          "s": "I am going to send the expense report to the group by email tomorrow. I will attach all receipts."
+        },
+        {
+          "p": "Should you keep a travel budget template for future trips?",
+          "m": "Đưa lời khuyên có nên giữ mẫu ngân sách không. Nêu một lợi ích ngắn.",
+          "h": "Dùng 'should' + V; nêu lợi ích như 'save time' hoặc 'track better'.",
+          "s": "You should keep a travel budget template. It saves time and helps track costs better."
+        },
+        {
+          "p": "Write two tips for a friend to manage their trip budget.",
+          "m": "Viết 2 câu, mỗi câu một mẹo cụ thể và ngắn gọn.",
+          "h": "Dùng Present Simple; mỗi câu là một mẹo",
+          "s": "Book early for lower prices. Use an app to track daily spending."
+        }
+      ]
+    }
+  ]
+}

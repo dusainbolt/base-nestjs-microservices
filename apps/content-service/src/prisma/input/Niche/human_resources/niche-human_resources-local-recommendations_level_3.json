@@ -1,0 +1,565 @@
+{
+  "l": 3,
+  "d": [
+    {
+      "t": "Gặp du khách ở quầy thông tin",
+      "e": [
+        {
+          "p": "Where can I find a good local restaurant?",
+          "m": "1) Nói tên một nhà hàng địa phương bạn khuyên. 2) Nói lý do ngắn (món ăn hoặc giá cả).",
+          "h": "Use 'I recommend...' and a short reason (because + noun/adj).",
+          "s": "I recommend Sunny Bistro. It has tasty local dishes and cheap prices."
+        },
+        {
+          "p": "Is there a café open now nearby?",
+          "m": "1) Trả lời có/không. 2) Nếu có, cho biết khoảng cách hoặc thời gian mở cửa ngắn gọn.",
+          "h": "Use 'Yes, there is...' or 'No, there isn't...' and a short detail.",
+          "s": "Yes, there is a café two blocks away. It opens at 8 AM."
+        },
+        {
+          "p": "What is the best place for a quick lunch?",
+          "m": "1) Đề xuất một loại chỗ (ví dụ: food court, small restaurant). 2) Nói vì sao nó tốt cho bữa trưa nhanh.",
+          "h": "Use a simple noun phrase + because + short reason.",
+          "s": "The food court is best for a quick lunch because service is fast and prices are low."
+        },
+        {
+          "p": "Can you suggest something for a group of four?",
+          "m": "1) Đề xuất một địa điểm phù hợp cho nhóm bốn người. 2) Nói một lợi ích cho nhóm (ví dụ: nhiều chỗ ngồi, share dishes).",
+          "h": "Use 'You should try...' or 'I suggest...' + reason.",
+          "s": "You should try River Restaurant. It has big tables and many shared dishes."
+        },
+        {
+          "p": "Any tip for trying local food for the first time?",
+          "m": "1) Cho một lời khuyên chính để thử đồ ăn địa phương. 2) Thêm một gợi ý an toàn (ví dụ: hỏi về độ cay, giá). 3) Nói một câu khuyến khích ngắn.",
+          "h": "Use 'You should...' and a modal for safety like 'ask' or 'check'.",
+          "s": "You should ask about the spice level before you order. Also check the price on the menu. It is worth trying one local dish."
+        }
+      ]
+    },
+    {
+      "t": "Gợi ý nhà hàng theo sở thích",
+      "e": [
+        {
+          "p": "I like seafood. Any nearby place?",
+          "m": "1) Nói tên một nhà hàng hải sản gần. 2) Nói món hải sản nổi bật ngắn gọn.",
+          "h": "Use 'Try...' or 'I recommend...' + dish name.",
+          "s": "Try Ocean Grill. Their grilled prawns are very popular."
+        },
+        {
+          "p": "We want vegetarian food. Where to go?",
+          "m": "1) Đề xuất một quán ăn chay/nhà hàng có món chay. 2) Nói vì sao phù hợp (fresh, variety).",
+          "h": "Use 'You can go to...' and 'because...' ",
+          "s": "You can go to Green Leaf Café because they have many fresh vegetarian options."
+        },
+        {
+          "p": "Is there a cheap place for students?",
+          "m": "1) Nói một quán rẻ phù hợp cho sinh viên. 2) Nói mức giá hoặc món rẻ nhất.",
+          "h": "Use comparatives or 'cheap' and a price phrase like 'around...'.",
+          "s": "Campus Noodles is cheaper than most places. Meals are around five dollars."
+        },
+        {
+          "p": "We want a quiet place for a date. Any ideas?",
+          "m": "1) Đề xuất một nhà hàng yên tĩnh. 2) Nói một lý do (ambience, view).",
+          "h": "Use 'I suggest...' + reason with 'because'.",
+          "s": "I suggest Moonlight Café because it is quiet and has a nice view."
+        },
+        {
+          "p": "Which is better, the new bistro or the old seafood place?",
+          "m": "1) So sánh hai chỗ (nói chỗ nào tốt hơn). 2) Nêu một lý do ngắn cho lựa chọn (service, taste, price). 3) Kết luận khuyên lựa chọn cho người hỏi.",
+          "h": "Use comparative: 'better than' and 'because'.",
+          "s": "The old seafood place is better than the new bistro because the seafood is fresher. I recommend the seafood place for a real taste."
+        }
+      ]
+    },
+    {
+      "t": "Hỏi đường đến điểm tham quan",
+      "e": [
+        {
+          "p": "How do I get to the old museum from here?",
+          "m": "1) Nói phương tiện phù hợp (walk/bus/taxi). 2) Nêu hướng ngắn (left/right/landmark) và thời gian ước lượng.",
+          "h": "Use 'You can walk...' or 'Take the bus...' + short direction.",
+          "s": "You can walk there. Go straight and turn left at the bank; it is a ten-minute walk."
+        },
+        {
+          "p": "Is the beach far from the station?",
+          "m": "1) Trả lời gần/xa. 2) Nếu xa, gợi ý phương tiện và thời gian.",
+          "h": "Use 'It is (not) far' and 'use + transport' + time.",
+          "s": "It is not far. Take bus 5 from the station and it takes about twenty minutes."
+        },
+        {
+          "p": "Can I walk to the night market tonight?",
+          "m": "1) Trả lời có/không. 2) Nêu điều kiện (safety, distance) nếu cần. 3) Nêu đường tắt nếu có.",
+          "h": "Use 'Yes, you can...' or 'No, you should...' and 'because' or 'but'.",
+          "s": "Yes, you can walk but the lane is dark after 9 PM. Take Main Street; it is a fifteen-minute walk."
+        },
+        {
+          "p": "What's the easiest way to reach the hill viewpoint?",
+          "m": "1) Đưa ra hai lựa chọn (walk or taxi). 2) So sánh ngắn: tiện/tiết kiệm thời gian. 3) Kết luận bằng khuyên lựa chọn.",
+          "h": "Use comparatives and 'so' to show result.",
+          "s": "A taxi is easier and faster than walking, so take a taxi if you are short on time."
+        },
+        {
+          "p": "Do I need to buy tickets in advance for the temple?",
+          "m": "1) Trả lời cần hay không. 2) Nếu cần, hướng dẫn cách mua (online or at gate). 3) Nêu một lời khuyên ngắn (time to arrive).",
+          "h": "Use 'Yes/No, you should/you can...' and 'buy online/at the gate'.",
+          "s": "Yes, you should buy tickets online. Buy them a day before and arrive early to avoid queues."
+        }
+      ]
+    },
+    {
+      "t": "Đặt chỗ nhà hàng qua điện thoại/người trực",
+      "e": [
+        {
+          "p": "Can I reserve a table for two tonight?",
+          "m": "1) Xác nhận xem còn bàn hay không (yes/no). 2) Nếu có, nói giờ và tên đặt bàn ngắn.",
+          "h": "Use 'Yes, we have...' or 'No, sorry...' and 'for + time'.",
+          "s": "Yes, we have a table for two at 7 PM. Please give your name at the door."
+        },
+        {
+          "p": "Do you have a window seat available?",
+          "m": "1) Trả lời có/không. 2) Nếu không, đề xuất lựa chọn khác.",
+          "h": "Use 'We have/We don't have...' and 'but you can...' ",
+          "s": "We don't have a window seat at 8 PM, but you can have a quiet corner table."
+        },
+        {
+          "p": "Can you prepare a vegetarian meal for my friend?",
+          "m": "1) Trả lời có thể hay không. 2) Nếu có, hỏi ngắn về yêu cầu đặc biệt (allergy/spice).",
+          "h": "Use 'Yes, we can...' and 'Do they have...' for details.",
+          "s": "Yes, we can prepare a vegetarian meal. Do they have any food allergies?"
+        },
+        {
+          "p": "We are a group of six. Is there a set menu?",
+          "m": "1) Nói có/không set menu. 2) Nếu có, mô tả ngắn (price or dishes). 3) Nói cách thanh toán nếu cần.",
+          "h": "Use 'We offer...' and 'it costs...' or 'you can pay...'.",
+          "s": "We offer a set menu for groups. It costs $20 per person and you can pay by card."
+        },
+        {
+          "p": "I want to change the reservation time. Is that possible?",
+          "m": "1) Trả lời có/không. 2) Nếu có, nêu giờ mới và điều kiện (advance notice). 3) Kết luận xác nhận.",
+          "h": "Use 'Yes, you can change to...' and 'you should...' for conditions.",
+          "s": "Yes, you can change to 8 PM if you call one hour before. Your reservation is now at 8 PM."
+        }
+      ]
+    },
+    {
+      "t": "So sánh khách sạn và nhà nghỉ",
+      "e": [
+        {
+          "p": "Which is cheaper, the hotel or the guesthouse?",
+          "m": "1) So sánh giá: cheaper. 2) Nêu ví dụ giá hoặc khoảng giá ngắn.",
+          "h": "Use comparative 'cheaper than' and a price phrase 'around...'.",
+          "s": "The guesthouse is cheaper than the hotel. Rooms are around $30 there."
+        },
+        {
+          "p": "Is the hotel more comfortable than the hostel?",
+          "m": "1) Trả lời có/không. 2) Nêu một lý do ngắn (services, room size).",
+          "h": "Use 'Yes, it is...' or 'No, it isn't...' and 'because...'.",
+          "s": "Yes, it is more comfortable because rooms are bigger and they offer room service."
+        },
+        {
+          "p": "Which place is better for families with children?",
+          "m": "1) Chọn nơi phù hợp cho gia đình. 2) Nêu một tiện ích cho trẻ em (play area, kids menu).",
+          "h": "Use 'is better for...' and 'because it has...' ",
+          "s": "The family inn is better for families because it has a children's play area and a kids' menu."
+        },
+        {
+          "p": "Should we stay near the beach or the city center?",
+          "m": "1) Đưa ra hai lợi ích: biển và trung tâm. 2) Kết luận khuyên theo nhu cầu (relax vs explore).",
+          "h": "Use 'If you want..., choose...' and 'but if you prefer..., choose...'.",
+          "s": "If you want to relax, choose the beach area for the view. But if you prefer to explore, choose the city center for easy access to shops."
+        },
+        {
+          "p": "We need a quiet room and good Wi-Fi. Any suggestion?",
+          "m": "1) Đề xuất một khách sạn phù hợp. 2) Nêu hai lý do: yên tĩnh và Wi‑Fi mạnh. 3) Thêm một câu về giá hoặc cách đặt.",
+          "h": "Use 'You should stay at...' and 'because...' + booking tip.",
+          "s": "You should stay at Harmony Hotel because rooms are quiet and the Wi‑Fi is strong. You can book online for a small discount."
+        }
+      ]
+    },
+    {
+      "t": "Giờ mở cửa và giá vé",
+      "e": [
+        {
+          "p": "What time does the art gallery open?",
+          "m": "1) Nói giờ mở cửa. 2) Nói ngày đóng cửa ngắn (nếu có).",
+          "h": "Use simple time expression 'opens at...' and 'closed on...'.",
+          "s": "The art gallery opens at 9 AM. It is closed on Mondays."
+        },
+        {
+          "p": "How much is the ticket for students?",
+          "m": "1) Nêu giá vé cho sinh viên. 2) Nêu yêu cầu giảm giá (ID needed).",
+          "h": "Use 'It costs...' and 'you need to show...' ",
+          "s": "It costs $8 for students. You need to show a student ID."
+        },
+        {
+          "p": "Are there discounts for seniors?",
+          "m": "1) Trả lời có/không. 2) Nếu có, nêu mức giảm ngắn và cách chứng minh tuổi.",
+          "h": "Use 'Yes, we offer...' and 'with...' ",
+          "s": "Yes, we offer a 20% discount for seniors with an ID card."
+        },
+        {
+          "p": "Is the night market free to enter?",
+          "m": "1) Trả lời có/không. 2) Nếu không, nêu giá hoặc điều kiện. 3) Nêu giờ bắt đầu ngắn.",
+          "h": "Use 'No, it costs...' or 'Yes, it is free' and a time phrase.",
+          "s": "Yes, it is free to enter. The market opens at 6 PM."
+        },
+        {
+          "p": "Can I buy a combined ticket for museum and aquarium?",
+          "m": "1) Trả lời có/không. 2) Nếu có, nêu lợi ích (cheaper or saves time). 3) Nói cách mua (online/gate).",
+          "h": "Use 'Yes, you can buy...' and 'it saves...' or 'it costs...'.",
+          "s": "Yes, you can buy a combined ticket online. It is cheaper and saves time at the entrance."
+        }
+      ]
+    },
+    {
+      "t": "Gợi ý hoạt động ngoài trời theo thời tiết",
+      "e": [
+        {
+          "p": "It's sunny today. Any outdoor activity?",
+          "m": "1) Đề xuất một hoạt động ngoài trời phù hợp trời nắng. 2) Nói thời lượng ước tính (short/half day).",
+          "h": "Use 'You can...' or 'Try...' + time phrase.",
+          "s": "You can go to the beach for swimming and sunbathing. It is good for a half-day trip."
+        },
+        {
+          "p": "It's rainy this afternoon. What can we do inside?",
+          "m": "1) Gợi ý một hoạt động trong nhà. 2) Nêu một lý do tại sao nó phù hợp với trời mưa.",
+          "h": "Use 'Try...' and 'because...' ",
+          "s": "Try the science museum because it has many indoor exhibits and is perfect for a rainy afternoon."
+        },
+        {
+          "p": "The forecast says windy tomorrow. Is hiking OK?",
+          "m": "1) Trả lời có/không. 2) Nếu không, đề xuất phương án an toàn khác. 3) Nêu lý do ngắn.",
+          "h": "Use modal 'should/shouldn't' and 'because'.",
+          "s": "You shouldn't hike if it's very windy because the paths can be dangerous. Try a coastal walk instead."
+        },
+        {
+          "p": "I want a sunset view. Where should I go and when?",
+          "m": "1) Đề xuất địa điểm có tầm nhìn ngắm hoàng hôn. 2) Nêu thời gian đến đó trước hoàng hôn (minutes). 3) Nói một lời khuyên ngắn (bring jacket).",
+          "h": "Use time expressions and 'arrive' with minutes before sunset.",
+          "s": "Go to Hilltop Park for the sunset. Arrive 20 minutes early for a good spot, and bring a light jacket."
+        },
+        {
+          "p": "Which activity is better for families on a cloudy day?",
+          "m": "1) Đưa ra hai lựa chọn phù hợp cho gia đình. 2) So sánh ngắn và chọn một lựa chọn. 3) Nói một lý do an toàn hoặc tiện lợi.",
+          "h": "Use comparatives and 'because' to explain choice.",
+          "s": "A family-friendly indoor play center is better than outdoor parks on a cloudy day because it's sheltered and safe for kids."
+        }
+      ]
+    },
+    {
+      "t": "Gợi ý phương tiện di chuyển trong thành phố",
+      "e": [
+        {
+          "p": "Is the bus faster than the metro now?",
+          "m": "1) Trả lời so sánh nhanh/chậm. 2) Nêu lý do (traffic, schedule).",
+          "h": "Use 'faster than' and 'because...'.",
+          "s": "The bus is slower than the metro during rush hour because of traffic."
+        },
+        {
+          "p": "How much does a taxi to the airport cost?",
+          "m": "1) Nêu giá ước lượng. 2) Nói khoảng thời gian đi nếu thời tiết/trafic bình thường.",
+          "h": "Use 'around...' for price and 'takes about...' for time.",
+          "s": "A taxi to the airport costs around $25 and takes about 40 minutes."
+        },
+        {
+          "p": "Can I rent a bike here?",
+          "m": "1) Trả lời có/không. 2) Nếu có, nêu giá theo giờ/ngày và điểm trả lại.",
+          "h": "Use 'Yes, you can rent...' and 'It costs...' ",
+          "s": "Yes, you can rent a bike at the station. It costs $5 per hour and you can return it at any docking station."
+        },
+        {
+          "p": "Should we buy a day pass for public transport?",
+          "m": "1) Đưa ra lời khuyên có/không. 2) Nêu lợi ích chính của day pass (save money/easy).",
+          "h": "Use modal 'should' and 'because' to explain.",
+          "s": "You should buy a day pass because it saves money and makes travel easier."
+        },
+        {
+          "p": "What's the best way to travel from the hotel to the market with heavy luggage?",
+          "m": "1) Đề xuất phương tiện phù hợp cho hành lý nặng. 2) Nêu lý do (comfort, space). 3) Gợi ý thời gian hoặc chi phí ngắn.",
+          "h": "Use 'take a taxi' or 'use shuttle' + 'because...' ",
+          "s": "Take a taxi to the market because it has space for luggage and is comfortable. It costs about $10 and takes 15 minutes."
+        }
+      ]
+    },
+    {
+      "t": "Mua sắm quà lưu niệm và chợ địa phương",
+      "e": [
+        {
+          "p": "Where can I buy local souvenirs?",
+          "m": "1) Nêu một khu chợ hoặc cửa hàng. 2) Nói vì sao nên mua ở đó (authentic, price).",
+          "h": "Use 'At...' or 'In...' and 'because...'.",
+          "s": "Buy souvenirs at Central Market because they sell authentic crafts at good prices."
+        },
+        {
+          "p": "Is bargaining okay at this market?",
+          "m": "1) Trả lời có/không. 2) Nêu cách bắt đầu trả giá ngắn (percentage or phrase).",
+          "h": "Use 'Yes/No' and 'try to...' or 'start from...'.",
+          "s": "Yes, bargaining is okay. Try to start at about 30% lower than the asking price."
+        },
+        {
+          "p": "Do shops accept credit cards here?",
+          "m": "1) Trả lời có/không. 2) Nếu không, gợi ý phương án thanh toán (cash/ATM).",
+          "h": "Use 'Most shops accept...' or 'Small stalls only accept...' ",
+          "s": "Most shops accept credit cards, but small stalls only accept cash. Use an ATM nearby if needed."
+        },
+        {
+          "p": "Can I find handmade clothes for kids?",
+          "m": "1) Trả lời có/không. 2) Nêu nơi cụ thể và một khoảng giá ngắn.",
+          "h": "Use 'Yes, you can find...' and 'they cost...' ",
+          "s": "Yes, you can find handmade kids' clothes in the artisan lane. Prices range from $10 to $25."
+        },
+        {
+          "p": "Which souvenir is the best to bring home for friends?",
+          "m": "1) Đề xuất một loại quà phù hợp cho bạn bè (useful/unique). 2) Nêu lý do ngắn và gợi ý nơi mua.",
+          "h": "Use 'I suggest...' and 'because...' ",
+          "s": "I suggest buying local tea because it is unique and easy to pack. You can buy it at Central Market."
+        }
+      ]
+    },
+    {
+      "t": "Hoạt động buổi tối và giải trí",
+      "e": [
+        {
+          "p": "What can we do tonight for fun?",
+          "m": "1) Đưa ra một hoạt động buổi tối (dinner, live music). 2) Nêu độ tuổi phù hợp hoặc vibe (relaxed/party).",
+          "h": "Use 'You can...' and 'for a...' ",
+          "s": "You can go to the riverside for dinner and live music for a relaxed night."
+        },
+        {
+          "p": "Is there a family-friendly show nearby?",
+          "m": "1) Trả lời có/không. 2) Nếu có, nêu tên show hoặc địa điểm và giờ bắt đầu.",
+          "h": "Use 'Yes, there is...' and 'starts at...' ",
+          "s": "Yes, there is a puppet show at City Theater. It starts at 7 PM."
+        },
+        {
+          "p": "Where is a good bar with local music?",
+          "m": "1) Gợi ý một quán bar. 2) Nêu thời gian diễn (live music times).",
+          "h": "Use 'Try...' and time expression 'on Fridays/at 9 PM'.",
+          "s": "Try Blue Note Bar; they have local bands on Fridays at 9 PM."
+        },
+        {
+          "p": "Are night markets safe for tourists alone?",
+          "m": "1) Trả lời an toàn hay không. 2) Nêu lời khuyên an toàn ngắn (stay in busy areas, keep bag).",
+          "h": "Use 'Yes/No, but...' and short safety tips.",
+          "s": "Yes, they are generally safe, but stay in busy areas and keep your bag close."
+        },
+        {
+          "p": "We want a cheap fun night. Any suggestions?",
+          "m": "1) Đưa ra hai lựa chọn rẻ tiền. 2) Nêu lợi ích ngắn cho mỗi lựa chọn (cost, fun). 3) Khuyên lựa chọn phù hợp.",
+          "h": "Use comparatives and 'or' to give choices.",
+          "s": "You can try street food and a free outdoor concert. Street food is cheap and tasty, while the concert is free. For a cheap fun night, do both."
+        }
+      ]
+    },
+    {
+      "t": "Giải quyết vấn đề tại địa điểm du lịch",
+      "e": [
+        {
+          "p": "My table is noisy. Can you help?",
+          "m": "1) Xác nhận vấn đề (noisy). 2) Đề xuất giải pháp ngắn (move table/ask staff).",
+          "h": "Use 'We can...' or 'I will...' and a short action.",
+          "s": "We can move you to a quieter table. I will ask the staff now."
+        },
+        {
+          "p": "The tour started late yesterday. What can we do?",
+          "m": "1) Thể hiện hiểu và xin lỗi ngắn (if you are staff). 2) Đề xuất bồi thường hoặc giải pháp (partial refund/extra stop).",
+          "h": "Use 'I'm sorry...' and 'we can offer...' ",
+          "s": "I'm sorry the tour started late. We can offer a partial refund or an extra stop on your next tour."
+        },
+        {
+          "p": "I lost my phone near the market. Any advice?",
+          "m": "1) Gợi ý nơi báo mất (lost & found or police). 2) Nói việc nên làm ngay (call, block sim).",
+          "h": "Use imperatives like 'call' and 'report' plus 'and'.",
+          "s": "Call your number and report the loss at the market's lost and found. Also block your SIM as soon as possible."
+        },
+        {
+          "p": "The food I ordered was cold. Can I get a new dish?",
+          "m": "1) Trả lời có/không đổi món. 2) Nếu đồng ý, giải thích thời gian chờ ngắn. 3) Xin lỗi ngắn (if you are staff).",
+          "h": "Use 'Yes, we will...' and 'it will take...' plus 'sorry'.",
+          "s": "Sorry about that. Yes, we will make a new dish and it will take about ten minutes."
+        },
+        {
+          "p": "My bus was cancelled and I missed a booking. What should I do?",
+          "m": "1) Đưa hai bước gợi ý: liên lạc với dịch vụ (booking) và tìm phương án thay thế (taxi/next bus). 2) Nêu lời khuyên ưu tiên (keep receipts). 3) Kết luận ngắn.",
+          "h": "Use 'You should...' and 'then...' to show sequence.",
+          "s": "You should contact the booking service to explain and keep your receipts. Then find a taxi or the next bus to get there as soon as possible."
+        }
+      ]
+    },
+    {
+      "t": "Địa điểm thân thiện cho gia đình",
+      "e": [
+        {
+          "p": "Is there a playground near the hotel?",
+          "m": "1) Trả lời có/không. 2) Nếu có, nêu khoảng cách và độ an toàn ngắn.",
+          "h": "Use 'Yes, there is...' and 'about...' minutes away.",
+          "s": "Yes, there is a playground five minutes from the hotel. It is fenced and safe for kids."
+        },
+        {
+          "p": "Where can we find kid-friendly restaurants?",
+          "m": "1) Đề xuất một nhà hàng phù hợp. 2) Nêu tiện ích cho trẻ (kids menu, high chair).",
+          "h": "Use 'Try...' and 'they have...' ",
+          "s": "Try Family Diner; they have a kids' menu and high chairs."
+        },
+        {
+          "p": "Are there easy walking paths for strollers?",
+          "m": "1) Trả lời có/không. 2) Nếu có, nêu địa điểm cụ thể và bề mặt (paved).",
+          "h": "Use 'Yes, in...' and 'it is...' ",
+          "s": "Yes, in Riverside Park. The paths are paved and good for strollers."
+        },
+        {
+          "p": "Can we do a short trip suitable for children today?",
+          "m": "1) Đề xuất một chuyến ngắn thích hợp cho trẻ. 2) Nêu thời gian di chuyển và một hoạt động chính cho trẻ.",
+          "h": "Use 'You can go to...' and 'it takes...' ",
+          "s": "You can go to the petting farm; it takes about 30 minutes and children can feed the animals."
+        },
+        {
+          "p": "Which museum has interactive exhibits for kids?",
+          "m": "1) Nêu tên bảo tàng có exhibits tương tác. 2) Nói một ví dụ hoạt động tương tác. 3) Nêu lời khuyên về thời gian tham quan.",
+          "h": "Use 'The ... Museum has...' and 'for example...' ",
+          "s": "The Discovery Museum has interactive exhibits. For example, kids can try science experiments. Visit in the morning for less crowd."
+        }
+      ]
+    },
+    {
+      "t": "Tư vấn cho khách đi công tác ngắn ngày",
+      "e": [
+        {
+          "p": "I have one day. What local place should I visit?",
+          "m": "1) Đề xuất một điểm tiêu biểu cho chuyến một ngày. 2) Nêu lý do ngắn (time-efficient, highlights).",
+          "h": "Use 'Visit...' and 'because...' ",
+          "s": "Visit the Old Town because it has the main sights close together and is good for one day."
+        },
+        {
+          "p": "Where can I have a quick business lunch nearby?",
+          "m": "1) Gợi ý một nhà hàng nhanh và phù hợp cho công việc. 2) Nêu thời gian phục vụ nhanh hoặc takeaway option.",
+          "h": "Use 'Try...' and 'they offer...' ",
+          "s": "Try Metro Café; they serve quick lunches and offer takeaway boxes."
+        },
+        {
+          "p": "Is there a quiet café with Wi‑Fi near the conference center?",
+          "m": "1) Trả lời có/không. 2) Nếu có, nêu tên và tốc độ Wi‑Fi hoặc plug point info.",
+          "h": "Use 'Yes, there is...' and 'it has...' ",
+          "s": "Yes, there is Quiet Corner Café. It has fast Wi‑Fi and many plug points."
+        },
+        {
+          "p": "Can I check out late because my flight is at night?",
+          "m": "1) Trả lời có/không. 2) Nếu có, nêu điều kiện hoặc phí thêm. 3) Nói cách xin trễ trả phòng.",
+          "h": "Use 'You can check out late if...' and 'there is a fee...' ",
+          "s": "You can check out late if the room is available; there may be a small fee. Please ask reception in the morning."
+        },
+        {
+          "p": "Which transport is best for a short evening meeting across town?",
+          "m": "1) Đề xuất phương tiện nhanh và đáng tin cậy. 2) Nêu thời gian ước tính và chi phí ngắn.",
+          "h": "Use 'Take a taxi' or 'Use the metro' and 'it takes...' ",
+          "s": "Take a taxi for convenience; it takes about 20 minutes and costs around $12."
+        }
+      ]
+    },
+    {
+      "t": "Ôn tập: Tham quan trong một ngày",
+      "e": [
+        {
+          "p": "We have only one day in the city. What is your plan for us?",
+          "m": "1) Đề xuất ba điểm chính để tham quan. 2) Nêu thứ tự tham quan ngắn (morning, afternoon, evening).",
+          "h": "Use simple sequence words: 'first', 'then', 'finally'.",
+          "s": "First, visit Old Town in the morning. Then, see the art gallery in the afternoon. Finally, have dinner by the river in the evening."
+        },
+        {
+          "p": "Which transport should we use for this plan?",
+          "m": "1) Đưa ra phương tiện cho mỗi đoạn (A→B). 2) Nêu thời gian di chuyển ước tính cho từng đoạn.",
+          "h": "Use 'take the...' and 'takes about...'.",
+          "s": "Take the metro to Old Town (10 minutes). Then walk to the gallery (15 minutes). Take a taxi to the river (20 minutes)."
+        },
+        {
+          "p": "How much should we expect to spend for a day like this?",
+          "m": "1) Ước lượng tổng chi phí gồm vé, ăn uống, transport. 2) Nêu khoảng giá tổng ngắn.",
+          "h": "Use 'around...' for each cost and sum with 'total about...'.",
+          "s": "Tickets and meals are around $40, transport about $20, so total about $60 per person."
+        },
+        {
+          "p": "Any safety tips for a full day out?",
+          "m": "1) Nêu hai lời khuyên an toàn (belongings, weather). 2) Kết luận ngắn khuyến khích.",
+          "h": "Use imperatives: 'keep', 'check', and 'bring'.",
+          "s": "Keep your belongings close and check the weather forecast. Bring water and a small umbrella."
+        },
+        {
+          "p": "Can you change this plan if we travel with kids?",
+          "m": "1) Đưa hai thay đổi cho phù hợp với trẻ (slower pace, kid activities). 2) Nêu một gợi ý địa điểm thân thiện với trẻ.",
+          "h": "Use 'If you have kids, ...' and 'also...' ",
+          "s": "If you have kids, slow the pace and add more breaks. Also include the petting farm for a child-friendly stop."
+        }
+      ]
+    },
+    {
+      "t": "Ôn tập: Kế hoạch cuối tuần",
+      "e": [
+        {
+          "p": "We plan a weekend trip. Which two places should we not miss?",
+          "m": "1) Nêu hai địa điểm đặc sắc. 2) Nêu ngắn lý do mỗi nơi.",
+          "h": "Use '... and ...' with 'because...'.",
+          "s": "Don't miss the coastal cliffs and the farmers' market because the cliffs have great views and the market has local food."
+        },
+        {
+          "p": "How should we split activities between Saturday and Sunday?",
+          "m": "1) Gợi ý phân chia theo buổi/ngày (Saturday/Sunday). 2) Nêu hoạt động chính cho mỗi ngày.",
+          "h": "Use 'On Saturday...' and 'On Sunday...' ",
+          "s": "On Saturday, do the coastal walk and relax at the beach. On Sunday, visit the market and museums in town."
+        },
+        {
+          "p": "What accommodation do you recommend for two nights?",
+          "m": "1) Đề xuất loại chỗ ở phù hợp (hotel/guesthouse). 2) Nêu một tiện ích quan trọng cho cuối tuần (breakfast, location).",
+          "h": "Use 'I recommend...' and 'because...' ",
+          "s": "I recommend a guesthouse near the market because it includes breakfast and is central to activities."
+        },
+        {
+          "p": "How to save money on food during the weekend?",
+          "m": "1) Đưa hai mẹo tiết kiệm (street food, set menu). 2) Nêu một ví dụ giá rẻ.",
+          "h": "Use imperatives or 'You can...' and 'for example...'.",
+          "s": "You can try street food and set menus. For example, a set lunch costs about $6."
+        },
+        {
+          "p": "Should we book tickets in advance for weekend events?",
+          "m": "1) Trả lời có/không. 2) Nêu lý do ngắn (busy weekends) và cách mua.",
+          "h": "Use 'Yes, you should...' and 'buy online' or 'at the gate'.",
+          "s": "Yes, you should book online because weekends are busy. Buy tickets a day or two before."
+        }
+      ]
+    },
+    {
+      "t": "Ôn tập: Giải quyết vấn đề khi đi du lịch",
+      "e": [
+        {
+          "p": "My reservation was lost. What can I do now?",
+          "m": "1) Hướng dẫn bước đầu: contact hotel/tour service. 2) Nêu một giải pháp tạm thời (book another room/tour).",
+          "h": "Use 'You should contact...' and 'then...' ",
+          "s": "You should contact the hotel or tour service immediately. Then, book another room or ask for a temporary solution."
+        },
+        {
+          "p": "I got sick during my trip. Where can I find help?",
+          "m": "1) Nêu nơi tìm trợ giúp y tế (clinic/hospital/pharmacy). 2) Nêu bước đơn giản trước (rest, drink water).",
+          "h": "Use 'Go to...' and 'also...' ",
+          "s": "Go to the local clinic or pharmacy for advice. Also rest and drink plenty of water."
+        },
+        {
+          "p": "Our booked tour was cancelled last minute. Can we get a refund?",
+          "m": "1) Nói khả năng nhận hoàn tiền ngắn (depends on policy). 2) Nêu hành động cần làm (contact provider, save receipts).",
+          "h": "Use 'It depends...' and 'you should...' ",
+          "s": "It depends on the provider's policy. You should contact them and keep your receipts for a refund."
+        },
+        {
+          "p": "We missed our bus and are late for an event. Any immediate options?",
+          "m": "1) Đưa hai lựa chọn nhanh (taxi/next bus). 2) Nêu ưu/nhược điểm ngắn cho mỗi lựa chọn.",
+          "h": "Use 'You can...' and 'but' to compare.",
+          "s": "You can take a taxi to arrive fast but it costs more. Or wait for the next bus which is cheaper but slower."
+        },
+        {
+          "p": "What should we do if we lose our passport while traveling?",
+          "m": "1) Nêu ba bước quan trọng: report police, contact embassy, keep copies. 2) Kết luận ngắn khuyên hành động ngay.",
+          "h": "Use sequence words: 'first', 'then', 'also'.",
+          "s": "First, report the loss to the local police. Then contact your embassy. Also keep copies of your passport and ID."
+        }
+      ]
+    }
+  ]
+}

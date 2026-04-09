@@ -1,0 +1,530 @@
+{
+  "l": 2,
+  "d": [
+    {
+      "t": "Giới thiệu ứng dụng mới",
+      "e": [
+        {
+          "p": "What is this app?",
+          "m": "Nói ứng dụng làm gì. Nói ai dùng ứng dụng.",
+          "h": "Use 'It is...' and 'It helps...'",
+          "s": "It is a photo app. It helps people take photos."
+        },
+        {
+          "p": "How do I open the app?",
+          "m": "Nói cách mở app. Nói nơi app nằm (trên thiết bị nào).",
+          "h": "Use 'You + V' and 'on the phone'",
+          "s": "You tap the app icon. It is on the phone."
+        },
+        {
+          "p": "Is the app saving my photos?",
+          "m": "Trả lời có hoặc không. Nói nơi lưu ảnh.",
+          "h": "Use 'Yes/No, it is...' and 'in the app/phone'",
+          "s": "Yes, it is saving photos. They save in the app."
+        },
+        {
+          "p": "How fast is sending a photo?",
+          "m": "Nói nhanh hay chậm. Nói tần suất bạn gửi ảnh.",
+          "h": "Use 'It is + adj' and adverb of frequency (often/sometimes)",
+          "s": "It is fast. I often send photos."
+        },
+        {
+          "p": "Can you explain the data flow simply?",
+          "m": "Nói nơi ảnh đi từ đâu tới đâu. Nói ai nhận ảnh.",
+          "h": "Use 'from... to...' and 'Then + S + V(s)'",
+          "s": "The photo goes from the phone to the app. Then my friend gets it."
+        }
+      ]
+    },
+    {
+      "t": "So sánh điện thoại và máy tính",
+      "e": [
+        {
+          "p": "Which device do you use now?",
+          "m": "Nói thiết bị bạn đang dùng. Nói lý do ngắn gọn.",
+          "h": "Use 'I use...' and simple reason 'It is...'",
+          "s": "I use my phone. It is easy to carry."
+        },
+        {
+          "p": "Is the computer better for work?",
+          "m": "Trả lời có hoặc không. Nói một lý do ngắn.",
+          "h": "Use 'Yes/No, it is...' and 'because...'",
+          "s": "Yes, the computer is better. It has a big screen."
+        },
+        {
+          "p": "How often do you use the phone for study?",
+          "m": "Nói tần suất. Nói một hoạt động học bạn làm.",
+          "h": "Use adverb of frequency and 'I + V(s)'",
+          "s": "I often use the phone. I watch study videos."
+        },
+        {
+          "p": "I need a device for writing. Which is good?",
+          "m": "Đề xuất thiết bị. Nói một lý do ngắn.",
+          "h": "Use 'Use a...' or 'A ... is good because...'",
+          "s": "Use a computer. It has a keyboard."
+        },
+        {
+          "p": "Compare the battery of phone and computer.",
+          "m": "Nói thiết bị nào pin lâu hơn. Nói lý do ngắn.",
+          "h": "Use '... lasts longer' and 'because...'",
+          "s": "The computer battery lasts longer. It is bigger."
+        }
+      ]
+    },
+    {
+      "t": "Luồng dữ liệu đơn giản",
+      "e": [
+        {
+          "p": "Where does my message go?",
+          "m": "Nói tin đi từ đâu tới đâu. Nói ai nhận tin.",
+          "h": "Use 'from... to...' and 'Then + S + V(s)'",
+          "s": "The message goes from your phone to the server. Then your friend gets it."
+        },
+        {
+          "p": "Is the data moving now?",
+          "m": "Trả lời có hoặc không. Nói dữ liệu đang gửi từ đâu tới đâu.",
+          "h": "Use 'Yes/No, it is + V-ing' and 'from... to...'",
+          "s": "Yes, it is moving. It is sending from the phone to the app."
+        },
+        {
+          "p": "How much data do I use?",
+          "m": "Nói lượng dữ liệu (ít/nhiều). Nói khi nào bạn dùng nhiều.",
+          "h": "Use 'a little' or 'a lot' and 'when I + V'",
+          "s": "I use a little data. I use it when I watch videos."
+        },
+        {
+          "p": "Who stores my files?",
+          "m": "Nói ai/ứng dụng lưu file. Nói file ở đâu.",
+          "h": "Use 'X stores' and 'in/on/...'",
+          "s": "The app stores your files. They are in the app."
+        },
+        {
+          "p": "How does a file go to the cloud?",
+          "m": "Nói bước upload từ thiết bị. Nói việc cloud làm tiếp theo.",
+          "h": "Use 'You + V' and 'The cloud + V(s)'",
+          "s": "You upload the file from your phone. The cloud saves it."
+        }
+      ]
+    },
+    {
+      "t": "Giải thích chức năng trong app",
+      "e": [
+        {
+          "p": "What does this button do?",
+          "m": "Nói hành động của nút. Nói kết quả sau khi nhấn.",
+          "h": "Use 'The button + V(s)' and 'It + V(s)'",
+          "s": "The button opens the camera. It takes a photo."
+        },
+        {
+          "p": "Can I change my name in the app?",
+          "m": "Trả lời có hoặc không. Nói bước ngắn để thay tên.",
+          "h": "Use 'Yes, you can...' and 'You + V' ",
+          "s": "Yes, you can change your name. You go to profile and edit it."
+        },
+        {
+          "p": "How do I save a draft?",
+          "m": "Nói một bước lưu. Nói nơi lưu bản nháp.",
+          "h": "Use 'You + V' and 'in the ... folder'",
+          "s": "You tap save. The draft is in the drafts folder."
+        },
+        {
+          "p": "Does the app update automatically?",
+          "m": "Trả lời có hoặc không. Nói tần suất cập nhật.",
+          "h": "Use present simple and adverb of frequency (sometimes/always)",
+          "s": "No, it does not update automatically. It updates sometimes."
+        },
+        {
+          "p": "How do notifications work?",
+          "m": "Nói khi thông báo tới. Nói cách bạn thấy chúng.",
+          "h": "Use 'When...' and 'I see them on...'",
+          "s": "Notifications come when someone messages you. I see them on my phone screen."
+        }
+      ]
+    },
+    {
+      "t": "Nói về mạng và tốc độ",
+      "e": [
+        {
+          "p": "Is the internet fast here?",
+          "m": "Trả lời nhanh hay chậm. Nói một lý do hoặc vị trí.",
+          "h": "Use 'It is + adj' and 'because/at...' ",
+          "s": "No, the internet is slow. The house is far from the router."
+        },
+        {
+          "p": "How often do you use wifi?",
+          "m": "Nói tần suất bạn dùng wifi. Nói nơi bạn dùng wifi.",
+          "h": "Use adverb of frequency and 'at home/at work'",
+          "s": "I always use wifi. I use it at home."
+        },
+        {
+          "p": "Can data be slow when many people use it?",
+          "m": "Trả lời có hoặc không. Nói lý do ngắn.",
+          "h": "Use 'Yes/No, it is...' and 'because...'",
+          "s": "Yes, it is slow. Many people use the internet."
+        },
+        {
+          "p": "How do I check my speed?",
+          "m": "Nói hành động kiểm tra tốc độ. Nói bạn thấy gì (nhanh/chậm).",
+          "h": "Use 'You + V' and 'You see if it is fast or slow'",
+          "s": "You open a speed test app. You see if it is fast or slow."
+        },
+        {
+          "p": "Why is the video slow and what to do?",
+          "m": "Nói lý do video chậm. Nói một việc đơn giản để làm cho nhanh hơn.",
+          "h": "Use 'because' and 'You + V' ",
+          "s": "Video is slow because the internet is slow. You close other apps and it becomes faster."
+        }
+      ]
+    },
+    {
+      "t": "Hỏi về cách gửi tin",
+      "e": [
+        {
+          "p": "How do I send a message?",
+          "m": "Nói bước mở chat. Nói bước gõ và gửi.",
+          "h": "Use 'You + V' and 'Then + you + V'",
+          "s": "You open the chat. Then you type and send the message."
+        },
+        {
+          "p": "Can I send a voice note?",
+          "m": "Trả lời có hoặc không. Nói bước ngắn gửi voice.",
+          "h": "Use 'Yes/No, you + V' and 'press...' ",
+          "s": "Yes, you can send a voice note. You press the mic and speak."
+        },
+        {
+          "p": "How many photos can I send?",
+          "m": "Nói số lượng. Nói có đủ hay không (Yes/No).",
+          "h": "Use 'There are + number' and 'Yes/No, it is enough'",
+          "s": "There are ten photos. Yes, it is enough."
+        },
+        {
+          "p": "I want to send a file. Where is it?",
+          "m": "Nói nơi file nằm. Nói cách đính kèm file.",
+          "h": "Use 'It is in...' and 'You attach it by...'",
+          "s": "The file is in my phone. You attach it in the chat."
+        },
+        {
+          "p": "Explain sending to a child.",
+          "m": "Nói bước chọn file. Nói bước gửi và ai nhận.",
+          "h": "Use 'You + V' and 'Then + you + V' ",
+          "s": "You choose the file. Then you press send and your friend gets it."
+        }
+      ]
+    },
+    {
+      "t": "Pin và sạc",
+      "e": [
+        {
+          "p": "How long does the battery last?",
+          "m": "Nói thời gian pin dùng được. Nói cách bạn dùng (nhẹ/nặng).",
+          "h": "Use 'It lasts ...' and 'I use ...'",
+          "s": "It lasts one day. I use the phone lightly."
+        },
+        {
+          "p": "Is the phone charging now?",
+          "m": "Trả lời có hoặc không. Nói nơi đang cắm sạc.",
+          "h": "Use 'Yes/No, it is + V-ing' and 'in/at ...'",
+          "s": "Yes, it is charging. It is in the wall socket."
+        },
+        {
+          "p": "Do you charge the phone every day?",
+          "m": "Nói tần suất bạn sạc hàng ngày. Nói lý do ngắn.",
+          "h": "Use 'I + V + every ...' and 'because...'",
+          "s": "I charge my phone every night. It needs power for the day."
+        },
+        {
+          "p": "My battery is hot. What do I do?",
+          "m": "Nói một hành động nhanh để làm. Nói hành động tiếp theo.",
+          "h": "Use imperative or 'You + V' short actions",
+          "s": "Turn off the phone. Wait and remove the case."
+        },
+        {
+          "p": "Why is charging slow?",
+          "m": "Nói lý do sạc chậm. Nói cách sửa ngắn.",
+          "h": "Use 'because' and 'Change/Use...'",
+          "s": "Charging is slow because the cable is old. Change the cable."
+        }
+      ]
+    },
+    {
+      "t": "Lỗi nhỏ và sửa nhanh",
+      "e": [
+        {
+          "p": "The app is not opening. What now?",
+          "m": "Nói một bước nhanh để thử. Nói bước tiếp theo nếu vẫn lỗi.",
+          "h": "Use 'Close ... and ...' and 'Restart ...'",
+          "s": "Close the app and open it again. Restart the phone."
+        },
+        {
+          "p": "I see an error message. Should I worry?",
+          "m": "Trả lời có hoặc không. Nói hành động ngắn để làm tiếp.",
+          "h": "Use 'No, do not ...' and 'Take a photo and ...'",
+          "s": "No, do not worry. Take a photo of the message and ask a friend."
+        },
+        {
+          "p": "My screen is frozen.",
+          "m": "Nói hành động đầu tiên. Nói hành động tiếp theo.",
+          "h": "Use 'Press ...' and 'Restart ...'",
+          "s": "Press the power button. Restart the phone."
+        },
+        {
+          "p": "Why does the app crash?",
+          "m": "Nói một lý do đơn giản. Nói một cách sửa nhanh.",
+          "h": "Use 'because' and 'Close ... or delete ...'",
+          "s": "The app crashes because the phone has low memory. Close other apps or delete files."
+        },
+        {
+          "p": "How to fix a simple app bug?",
+          "m": "Nói bước 1 để sửa. Nói bước 2 để kiểm tra lại.",
+          "h": "Use 'First ...' and 'Then ...' in simple form",
+          "s": "First update the app. Then open it and test."
+        }
+      ]
+    },
+    {
+      "t": "Quy trình đăng ký tài khoản",
+      "e": [
+        {
+          "p": "How do I make an account?",
+          "m": "Nói bước mở trang đăng ký. Nói thông tin cần nhập (tên,email).",
+          "h": "Use 'You + V' and 'You enter ...'",
+          "s": "You open the sign up page. You enter your name and email."
+        },
+        {
+          "p": "Do I need my email?",
+          "m": "Trả lời có hoặc không. Nói lý do ngắn.",
+          "h": "Use 'Yes/No, you need ...' and 'because...'",
+          "s": "Yes, you need your email. It helps to find your account."
+        },
+        {
+          "p": "Can I use my phone number?",
+          "m": "Trả lời có hoặc không. Nói cách số điện thoại dùng (nhận mã).",
+          "h": "Use 'Yes/No, you can ...' and 'They send ...'",
+          "s": "Yes, you can use your phone number. They send a code to it."
+        },
+        {
+          "p": "How many steps are there?",
+          "m": "Nói số bước. Nói một bước cụ thể.",
+          "h": "Use 'There are + number' and 'One step is to...'",
+          "s": "There are three steps. One step is to check your email."
+        },
+        {
+          "p": "How to set a password?",
+          "m": "Nói cách đặt mật khẩu. Nói một mẹo ngắn.",
+          "h": "Use 'Enter ...' and 'Use ... and ...'",
+          "s": "Enter a password in the box. Use letters and numbers."
+        }
+      ]
+    },
+    {
+      "t": "Lưu và chia sẻ tệp",
+      "e": [
+        {
+          "p": "Where is my saved file?",
+          "m": "Nói nơi tệp được lưu. Nói cách mở tệp.",
+          "h": "Use 'The file is in ...' and 'You + V' ",
+          "s": "The file is in the documents folder. You click it to open."
+        },
+        {
+          "p": "How do I share a file?",
+          "m": "Nói một bước để chia sẻ. Nói bước tiếp theo là chọn người nhận.",
+          "h": "Use 'You press ...' and 'Then you choose ...'",
+          "s": "You press the share button. Then you choose a friend."
+        },
+        {
+          "p": "Can I share with many people?",
+          "m": "Trả lời có hoặc không. Nói cách thêm người nhận.",
+          "h": "Use 'Yes/No, you can ...' and 'Add ...'",
+          "s": "Yes, you can share with many people. Add their emails or names."
+        },
+        {
+          "p": "Is my file private?",
+          "m": "Trả lời có hoặc không. Nói cách làm cho file riêng tư.",
+          "h": "Use 'No/Yes, it is ...' and 'Go to settings and ...'",
+          "s": "No, it is public now. Go to settings and make it private."
+        },
+        {
+          "p": "How to send a photo to a group?",
+          "m": "Nói bước chọn ảnh. Nói bước gửi đến nhóm.",
+          "h": "Use 'You + V' and 'Then + you + V'",
+          "s": "You select the photo in the gallery. Then you send it to the group chat."
+        }
+      ]
+    },
+    {
+      "t": "So sánh hai cách kết nối",
+      "e": [
+        {
+          "p": "Which is better, wifi or mobile data?",
+          "m": "Chọn một cách kết nối. Nói lý do ngắn.",
+          "h": "Use 'Wifi is better' and 'because...'",
+          "s": "Wifi is better. It is usually faster."
+        },
+        {
+          "p": "Do you use data at home?",
+          "m": "Trả lời có hoặc không. Nói nơi bạn dùng dữ liệu di động.",
+          "h": "Use 'I do not / I do' and 'when I am ...'",
+          "s": "No, I do not use mobile data at home. I use it when I am outside."
+        },
+        {
+          "p": "How many devices can connect to wifi?",
+          "m": "Nói số thiết bị. Nói có đủ cho mọi người không.",
+          "h": "Use 'There are + number' and 'Yes/No, it is enough'",
+          "s": "There are five devices. Yes, it is enough for us."
+        },
+        {
+          "p": "Is wifi free here?",
+          "m": "Trả lời có hoặc không. Nói nơi wifi miễn phí.",
+          "h": "Use 'Yes/No, it is ...' and 'in the ...'",
+          "s": "Yes, wifi is free here. It is free in the cafe."
+        },
+        {
+          "p": "What are pros and cons of wifi?",
+          "m": "Nói một lợi. Nói một hại ngắn.",
+          "h": "Use short sentences, you can start second with 'But'",
+          "s": "Wifi is fast. But it is not always strong."
+        }
+      ]
+    },
+    {
+      "t": "Giải thích tính năng bảo mật đơn giản",
+      "e": [
+        {
+          "p": "What is a password?",
+          "m": "Định nghĩa ngắn password. Nói vì sao cần password.",
+          "h": "Use 'A password is ...' and 'It helps ...'",
+          "s": "A password is a secret word for an account. It helps to protect your account."
+        },
+        {
+          "p": "Do I need a long password?",
+          "m": "Trả lời có hoặc không. Nói lý do ngắn.",
+          "h": "Use 'Yes/No, you need ...' and 'because...'",
+          "s": "Yes, you need a long password. It is hard for other people to guess."
+        },
+        {
+          "p": "How often should I change my password?",
+          "m": "Nói tần suất (ví dụ: đôi khi). Nói lý do ngắn.",
+          "h": "Use 'Change ... sometimes' and 'This keeps ... safe'",
+          "s": "Change your password sometimes. This keeps your account safe."
+        },
+        {
+          "p": "Can I use the same password for many accounts?",
+          "m": "Trả lời có hoặc không. Nói lý do ngắn.",
+          "h": "Use 'No, ...' and 'If ... then ...' short reason",
+          "s": "No, it is not safe. If someone gets one password, they get others."
+        },
+        {
+          "p": "How to protect your phone?",
+          "m": "Nói bước đặt mật khẩu. Nói bước tiếp để giữ an toàn.",
+          "h": "Use 'Set ...' and 'Then ...' short actions",
+          "s": "Set a password on your phone. Then lock the screen and update apps."
+        }
+      ]
+    },
+    {
+      "t": "Ôn tập: Giải thích app và dữ liệu",
+      "e": [
+        {
+          "p": "Tell me what the app does.",
+          "m": "Nói chức năng chính của app. Nói ai dùng app.",
+          "h": "Use 'It is...' and 'It helps...'",
+          "s": "It is a chat app. It helps people talk and send photos."
+        },
+        {
+          "p": "Where do my messages go and who sees them?",
+          "m": "Nói nơi tin đi. Nói ai có thể thấy tin.",
+          "h": "Use 'from... to...' and 'Then ... gets/see ...'",
+          "s": "Messages go from your phone to the server. Then your friend sees them."
+        },
+        {
+          "p": "How do you share a file and where is it saved?",
+          "m": "Nói bước chia sẻ ngắn. Nói nơi file được lưu.",
+          "h": "Use 'You press ...' and 'It is in ...'",
+          "s": "You press the share button. The file is saved in the app."
+        },
+        {
+          "p": "Is the app safe and what about passwords?",
+          "m": "Trả lời app có an toàn không. Nói một mẹo về password.",
+          "h": "Use 'Yes/No, it is ...' and 'Use ... and ...'",
+          "s": "Yes, the app is safe. Use a long password with letters and numbers."
+        },
+        {
+          "p": "How to fix slow upload?",
+          "m": "Nói một lý do upload chậm. Nói một cách đơn giản để sửa.",
+          "h": "Use 'because' and 'You + V' short",
+          "s": "Upload is slow because the internet is weak. You close other apps or move near wifi."
+        }
+      ]
+    },
+    {
+      "t": "Ôn tập: So sánh thiết bị và sửa lỗi",
+      "e": [
+        {
+          "p": "Which device is good for study?",
+          "m": "Chọn thiết bị học. Nói một lý do ngắn.",
+          "h": "Use 'A ... is good because...' ",
+          "s": "A computer is good for study. It has a big screen and keyboard."
+        },
+        {
+          "p": "My app crashes on the phone. What about the computer?",
+          "m": "Nói cách sửa nhanh trên phone. Nói cách sửa trên computer.",
+          "h": "Use 'On phone, ...' and 'On computer, ...' short",
+          "s": "On the phone, close the app and restart. On the computer, update the app and try again."
+        },
+        {
+          "p": "How often do you update apps on phone and computer?",
+          "m": "Nói tần suất trên phone. Nói tần suất trên computer.",
+          "h": "Use 'I + V + often/sometimes' for both",
+          "s": "I update apps on my phone sometimes. I update apps on my computer often."
+        },
+        {
+          "p": "Which connection is better for downloads?",
+          "m": "Chọn wifi hoặc mobile data. Nói lý do ngắn.",
+          "h": "Use 'Wifi is ... because...' ",
+          "s": "Wifi is better for downloads. It is usually faster and cheaper."
+        },
+        {
+          "p": "How to fix a frozen screen in two steps?",
+          "m": "Nói bước 1. Nói bước 2.",
+          "h": "Use short imperatives or 'You + V' actions",
+          "s": "Press the power button. Restart the phone."
+        }
+      ]
+    },
+    {
+      "t": "Ôn tập: Mạng, lưu trữ và hành động",
+      "e": [
+        {
+          "p": "How do I check internet speed and what to see?",
+          "m": "Nói cách kiểm tra. Nói bạn nhìn gì để biết nhanh/chậm.",
+          "h": "Use 'You + V' and 'You see if it is fast or slow'",
+          "s": "You open a speed test app. You see if the connection is fast or slow."
+        },
+        {
+          "p": "Where do you save photos and how to open them?",
+          "m": "Nói nơi lưu ảnh. Nói cách mở ảnh.",
+          "h": "Use 'The photos are in ...' and 'You + V' ",
+          "s": "Photos are in the gallery or the app. You tap the photo to open it."
+        },
+        {
+          "p": "How do you send a photo and how often do you do it?",
+          "m": "Nói cách gửi ảnh. Nói tần suất bạn gửi ảnh.",
+          "h": "Use 'You + V' and adverb of frequency",
+          "s": "You select the photo and press send. I sometimes send photos to my friends."
+        },
+        {
+          "p": "My battery is low and the phone is hot. Two quick actions?",
+          "m": "Nói hành động nhanh 1. Nói hành động nhanh 2.",
+          "h": "Use short 'Turn off/Remove/Close' actions",
+          "s": "Turn off the phone. Remove the case and wait."
+        },
+        {
+          "p": "How to make a file private and share it later?",
+          "m": "Nói cách đặt file riêng tư. Nói cách chia sẻ sau đó.",
+          "h": "Use 'Go to settings and make ...' and 'Then you share ...'",
+          "s": "Go to settings and make the file private. Then change sharing and send it to friends."
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,530 @@
+{
+  "l": 1,
+  "d": [
+    {
+      "t": "Hàng giao bị hỏng",
+      "e": [
+        {
+          "p": "My phone is broken.",
+          "m": "Nói 1 câu: Nói rằng điện thoại bị hỏng và bạn cần giúp.",
+          "h": "Dùng 'My + noun + is + adjective' và 'I need...'",
+          "s": "My phone is broken and I need help."
+        },
+        {
+          "p": "What is wrong with the phone?",
+          "m": "Nói 1 câu: Mô tả lỗi ngắn (ví dụ màn hình vỡ).",
+          "h": "Dùng 'The + noun + is + adjective' hoặc 'It is + adjective'.",
+          "s": "The screen is cracked."
+        },
+        {
+          "p": "Do you want a replacement?",
+          "m": "Nói 1 câu: Nói bạn muốn đổi hay không.",
+          "h": "Dùng 'I want...' hoặc 'I do not want...'.",
+          "s": "I want a new phone."
+        },
+        {
+          "p": "Do you have the receipt?",
+          "m": "Nói 1 câu: Nói có hoặc không có hoá đơn.",
+          "h": "Dùng 'Yes, I have...' hoặc 'No, I do not have...'.",
+          "s": "No, I do not have the receipt."
+        },
+        {
+          "p": "We can replace it in two days, is that okay?",
+          "m": "Nói 1 câu: Đồng ý hoặc không đồng ý.",
+          "h": "Dùng 'Yes, that is okay' hoặc 'No, it is not okay'.",
+          "s": "Yes, that is okay."
+        }
+      ]
+    },
+    {
+      "t": "Nhận nhầm màu hoặc size",
+      "e": [
+        {
+          "p": "This shirt is the wrong color.",
+          "m": "Nói 1 câu: Nói rằng bạn nhận nhầm màu.",
+          "h": "Dùng 'I have...' hoặc 'The ... is wrong.'",
+          "s": "I have the wrong color."
+        },
+        {
+          "p": "Which color do you want?",
+          "m": "Nói 1 câu: Nói màu bạn muốn (dùng màu cơ bản).",
+          "h": "Dùng 'I want a + color + noun'.",
+          "s": "I want a blue shirt."
+        },
+        {
+          "p": "Do you need a different size?",
+          "m": "Nói 1 câu: Nói size bạn muốn (small/large).",
+          "h": "Dùng 'I want size ...' hoặc 'I need size ...'.",
+          "s": "I want size large."
+        },
+        {
+          "p": "We can send a new shirt tomorrow.",
+          "m": "Nói 1 câu: Đồng ý hoặc không đồng ý.",
+          "h": "Dùng 'Yes, that is fine' hoặc 'No, thank you'.",
+          "s": "Yes, that is fine."
+        },
+        {
+          "p": "Do you prefer money back or a new shirt?",
+          "m": "Nói 1 câu: Chọn 'money back' hoặc 'a new shirt'.",
+          "h": "Dùng 'I want...' để chọn.",
+          "s": "I want a new shirt."
+        }
+      ]
+    },
+    {
+      "t": "Gặp nhân viên tại quầy",
+      "e": [
+        {
+          "p": "How can I help you?",
+          "m": "Nói 1 câu: Nói bạn có vấn đề với hàng.",
+          "h": "Dùng 'I have a problem with...'.",
+          "s": "I have a problem with my bag."
+        },
+        {
+          "p": "Is the bag broken?",
+          "m": "Nói 1 câu: Trả lời 'Yes' và mô tả lỗi ngắn.",
+          "h": "Dùng 'Yes, the ... is ...'.",
+          "s": "Yes, the strap is broken."
+        },
+        {
+          "p": "Do you want to change it?",
+          "m": "Nói 1 câu: Nói bạn muốn đổi hay không.",
+          "h": "Dùng 'I want to change it' hoặc 'I do not want to change it'.",
+          "s": "Yes, I want to change it."
+        },
+        {
+          "p": "Please give the receipt.",
+          "m": "Nói 1 câu: Nói bạn có hoá đơn hay không.",
+          "h": "Dùng 'Yes, here is...' hoặc 'No, I do not have...'.",
+          "s": "Yes, here is the receipt."
+        },
+        {
+          "p": "We can give you a new bag or money back.",
+          "m": "Nói 1 câu: Chọn một phương án.",
+          "h": "Dùng 'I want...' hoặc 'I prefer...'.",
+          "s": "I want a new bag."
+        }
+      ]
+    },
+    {
+      "t": "Khiếu nại qua điện thoại",
+      "e": [
+        {
+          "p": "Please tell me the problem.",
+          "m": "Nói 1 câu: Nói vấn đề ngắn (ví dụ không hoạt động).",
+          "h": "Dùng 'The + noun + is not working' hoặc 'It is not working'.",
+          "s": "The TV is not working."
+        },
+        {
+          "p": "Is the TV new?",
+          "m": "Nói 1 câu: Trả lời 'Yes' hoặc 'No'.",
+          "h": "Dùng 'Yes, it is' hoặc 'No, it is not'.",
+          "s": "No, it is not new."
+        },
+        {
+          "p": "Do you want help now?",
+          "m": "Nói 1 câu: Nói bạn muốn giúp ngay bây giờ hay không.",
+          "h": "Dùng 'I want help now' hoặc 'I do not want help now'.",
+          "s": "Yes, I want help now."
+        },
+        {
+          "p": "Can you bring it to the store?",
+          "m": "Nói 1 câu: Nói bạn có thể mang đến cửa hàng hay không.",
+          "h": "Dùng 'I can...' hoặc 'I cannot...'.",
+          "s": "No, I cannot bring it."
+        },
+        {
+          "p": "We will send a worker to your home.",
+          "m": "Nói 1 câu: Đồng ý hoặc từ chối.",
+          "h": "Dùng 'Yes, that is fine' hoặc 'No, thank you'.",
+          "s": "Yes, that is fine."
+        }
+      ]
+    },
+    {
+      "t": "Yêu cầu đổi hàng ở cửa hàng",
+      "e": [
+        {
+          "p": "You can change the item here.",
+          "m": "Nói 1 câu: Nói rằng bạn muốn đổi hàng.",
+          "h": "Dùng 'I want to change...' hoặc 'I want a...'.",
+          "s": "I want to change the item."
+        },
+        {
+          "p": "Which item do you want?",
+          "m": "Nói 1 câu: Nói tên món bạn muốn (shirt, bag...).",
+          "h": "Dùng 'I want a new + noun'.",
+          "s": "I want a new shirt."
+        },
+        {
+          "p": "We need the old item here.",
+          "m": "Nói 1 câu: Nói bạn có mang theo món cũ hay không.",
+          "h": "Dùng 'Yes, I have...' hoặc 'No, I do not have...'.",
+          "s": "Yes, I have the old item."
+        },
+        {
+          "p": "Do you want the same color?",
+          "m": "Nói 1 câu: Nói đồng ý hoặc muốn màu khác.",
+          "h": "Dùng 'Yes, I want the same color' hoặc 'No, I want a different color'.",
+          "s": "No, I want a different color."
+        },
+        {
+          "p": "It takes three days to change the item.",
+          "m": "Nói 1 câu: Nói bạn cần nhanh hơn hay đồng ý.",
+          "h": "Dùng 'I need...' hoặc 'That is fine'.",
+          "s": "I need it sooner."
+        }
+      ]
+    },
+    {
+      "t": "Yêu cầu hoàn tiền tại quầy",
+      "e": [
+        {
+          "p": "You can get your money back here.",
+          "m": "Nói 1 câu: Nói rằng bạn muốn hoàn tiền.",
+          "h": "Dùng 'I want my money back'.",
+          "s": "I want my money back."
+        },
+        {
+          "p": "Do you have the receipt?",
+          "m": "Nói 1 câu: Trả lời có hoặc không.",
+          "h": "Dùng 'Yes, I have...' hoặc 'No, I do not have...'.",
+          "s": "Yes, I have the receipt."
+        },
+        {
+          "p": "What is the reason for return?",
+          "m": "Nói 1 câu: Nói lý do ngắn (ví dụ hỏng).",
+          "h": "Dùng 'The + noun + is + adjective' hoặc 'It is + adjective'.",
+          "s": "The lamp is broken."
+        },
+        {
+          "p": "We can give cash or card return.",
+          "m": "Nói 1 câu: Chọn 'cash' hoặc 'card'.",
+          "h": "Dùng 'I want cash' hoặc 'I want card return'.",
+          "s": "I want cash."
+        },
+        {
+          "p": "Please sign here.",
+          "m": "Nói 1 câu: Nói bạn ký vào chỗ đó.",
+          "h": "Dùng 'I sign here' hoặc 'I sign the form'.",
+          "s": "I sign here."
+        }
+      ]
+    },
+    {
+      "t": "Phàn nàn về giao hàng chậm",
+      "e": [
+        {
+          "p": "My order is late.",
+          "m": "Nói 1 câu: Nói rằng đơn hàng của bạn trễ.",
+          "h": "Dùng 'My order is late'.",
+          "s": "My order is late."
+        },
+        {
+          "p": "How many days is it late?",
+          "m": "Nói 1 câu: Nói số ngày (one, two).",
+          "h": "Dùng 'It is + number + days late'.",
+          "s": "It is two days late."
+        },
+        {
+          "p": "Do you want a new delivery date?",
+          "m": "Nói 1 câu: Chọn ngày đơn giản hoặc đồng ý gửi sớm.",
+          "h": "Dùng 'Please send it tomorrow' hoặc 'Yes, send it tomorrow'.",
+          "s": "Please send it tomorrow."
+        },
+        {
+          "p": "We can give a small refund for delay.",
+          "m": "Nói 1 câu: Chấp nhận hoặc không chấp nhận.",
+          "h": "Dùng 'Yes, I accept' hoặc 'No, I do not accept'.",
+          "s": "No, I do not accept a small refund."
+        },
+        {
+          "p": "We will deliver it today.",
+          "m": "Nói 1 câu: Xác nhận bạn nhận hàng hôm nay hay không.",
+          "h": "Dùng 'Yes, I will...' hoặc 'No, I will not...'; nhưng dùng present simple.",
+          "s": "Yes, I wait for it today."
+        }
+      ]
+    },
+    {
+      "t": "Hàng thiếu trong đơn",
+      "e": [
+        {
+          "p": "One item is missing in your box.",
+          "m": "Nói 1 câu: Xác nhận rằng có món thiếu.",
+          "h": "Dùng 'Yes, one item is missing'.",
+          "s": "Yes, one item is missing."
+        },
+        {
+          "p": "Which item is missing?",
+          "m": "Nói 1 câu: Nói tên món thiếu (dùng màu nếu cần).",
+          "h": "Dùng 'The + color + noun is missing'.",
+          "s": "The blue shirt is missing."
+        },
+        {
+          "p": "Do you want us to send it now?",
+          "m": "Nói 1 câu: Đồng ý gửi ngay hoặc không.",
+          "h": "Dùng 'Yes, please send it now' hoặc 'No, thank you'.",
+          "s": "Yes, please send it now."
+        },
+        {
+          "p": "We can send it tomorrow or give a refund.",
+          "m": "Nói 1 câu: Chọn gửi ngày mai hoặc hoàn tiền.",
+          "h": "Dùng 'Please send it tomorrow' hoặc 'I want my money back'.",
+          "s": "Please send it tomorrow."
+        },
+        {
+          "p": "We add a small gift for the mistake.",
+          "m": "Nói 1 câu: Chấp nhận món quà hay không.",
+          "h": "Dùng 'Yes, thank you' hoặc 'No, thank you'.",
+          "s": "No, thank you."
+        }
+      ]
+    },
+    {
+      "t": "Phàn nàn về dịch vụ khách sạn",
+      "e": [
+        {
+          "p": "The light in your room is not working.",
+          "m": "Nói 1 câu: Báo vấn đề với đồ trong phòng.",
+          "h": "Dùng 'The + noun + is not working'.",
+          "s": "The light in my room is not working."
+        },
+        {
+          "p": "Do you want a new room?",
+          "m": "Nói 1 câu: Nói bạn muốn đổi phòng hay sửa đồ.",
+          "h": "Dùng 'I want...' hoặc 'No, I want...'.",
+          "s": "No, I want the light fixed."
+        },
+        {
+          "p": "We send a worker now.",
+          "m": "Nói 1 câu: Đồng ý hoặc không đồng ý.",
+          "h": "Dùng 'Yes, please send...' hoặc 'No, thank you'.",
+          "s": "Yes, please send a worker now."
+        },
+        {
+          "p": "We can give you a free meal for the problem.",
+          "m": "Nói 1 câu: Chấp nhận món ăn miễn phí hay không.",
+          "h": "Dùng 'Yes, thank you' hoặc 'No, thank you'.",
+          "s": "Yes, thank you."
+        },
+        {
+          "p": "We move your luggage to the new room.",
+          "m": "Nói 1 câu: Nói lời cảm ơn ngắn gọn.",
+          "h": "Dùng 'Thank you' hoặc 'Thanks'.",
+          "s": "Thank you."
+        }
+      ]
+    },
+    {
+      "t": "Phàn nàn tại nhà hàng",
+      "e": [
+        {
+          "p": "The soup is cold.",
+          "m": "Nói 1 câu: Báo món ăn lạnh.",
+          "h": "Dùng 'The + food + is + adjective'.",
+          "s": "The soup is cold."
+        },
+        {
+          "p": "Do you want a new soup?",
+          "m": "Nói 1 câu: Đồng ý nhận món mới hoặc không.",
+          "h": "Dùng 'I want a new soup' hoặc 'No, thank you'.",
+          "s": "Yes, I want a new soup."
+        },
+        {
+          "p": "Are you vegetarian?",
+          "m": "Nói 1 câu: Trả lời 'Yes' hoặc 'No' và nói ngắn nếu cần.",
+          "h": "Dùng 'Yes, I am' hoặc 'No, I am not'.",
+          "s": "No, I eat meat."
+        },
+        {
+          "p": "We bring a hot soup now.",
+          "m": "Nói 1 câu: Đồng ý hoặc không đồng ý.",
+          "h": "Dùng 'Yes, please bring it now' hoặc 'No, thank you'.",
+          "s": "Yes, please bring it now."
+        },
+        {
+          "p": "The chef apologizes for the mistake.",
+          "m": "Nói 1 câu: Chấp nhận lời xin lỗi.",
+          "h": "Dùng 'That is okay' hoặc 'It is okay'.",
+          "s": "That is okay."
+        }
+      ]
+    },
+    {
+      "t": "Sự cố với vé và đặt chỗ",
+      "e": [
+        {
+          "p": "Your ticket is for the wrong date.",
+          "m": "Nói 1 câu: Báo vé sai ngày.",
+          "h": "Dùng 'My ticket is for...' hoặc 'My ticket is wrong'.",
+          "s": "My ticket is for the wrong date."
+        },
+        {
+          "p": "What date do you need?",
+          "m": "Nói 1 câu: Nói ngày đơn giản (today/tomorrow).",
+          "h": "Dùng 'I need it for...' hoặc 'I need + time'.",
+          "s": "I need it for tomorrow."
+        },
+        {
+          "p": "We can change the date now.",
+          "m": "Nói 1 câu: Đồng ý thay đổi hay không.",
+          "h": "Dùng 'Yes, please change it now' hoặc 'No, thank you'.",
+          "s": "Yes, please change it now."
+        },
+        {
+          "p": "Do you want a refund?",
+          "m": "Nói 1 câu: Chọn hoàn tiền hoặc đổi ngày.",
+          "h": "Dùng 'I want...' để trả lời.",
+          "s": "No, I want a new date."
+        },
+        {
+          "p": "We send a new ticket by email.",
+          "m": "Nói 1 câu: Nói bạn có email hay không.",
+          "h": "Dùng 'Yes, I have email' hoặc 'No, I do not have email'.",
+          "s": "Yes, I have email."
+        }
+      ]
+    },
+    {
+      "t": "Khách phản ánh về nhân viên",
+      "e": [
+        {
+          "p": "The staff was rude.",
+          "m": "Nói 1 câu: Báo rằng nhân viên thô lỗ.",
+          "h": "Dùng 'The staff is/was ...' nhưng dùng present simple 'The staff is...'.",
+          "s": "The staff is rude."
+        },
+        {
+          "p": "Where did this happen?",
+          "m": "Nói 1 câu: Nói nơi (shop, hotel, restaurant).",
+          "h": "Dùng 'It happened in the ...' hoặc 'It is in the ...'.",
+          "s": "It happened in the shop."
+        },
+        {
+          "p": "Do you want to make a report?",
+          "m": "Nói 1 câu: Nói bạn muốn làm báo cáo hay không.",
+          "h": "Dùng 'I want to make a report' hoặc 'No, I do not want'.",
+          "s": "Yes, I want to make a report."
+        },
+        {
+          "p": "We will talk to the staff.",
+          "m": "Nói 1 câu: Yêu cầu xin lỗi hoặc bồi thường ngắn.",
+          "h": "Dùng 'I want...' để nói yêu cầu.",
+          "s": "I want an apology."
+        },
+        {
+          "p": "We call you tomorrow.",
+          "m": "Nói 1 câu: Đồng ý nhận cuộc gọi hay không.",
+          "h": "Dùng 'Yes, call me tomorrow' hoặc 'No, thank you'.",
+          "s": "Yes, call me tomorrow."
+        }
+      ]
+    },
+    {
+      "t": "Ôn tập: Đổi trả & hoàn tiền",
+      "e": [
+        {
+          "p": "My coat has a hole.",
+          "m": "Nói 1 câu: Yêu cầu đổi áo.",
+          "h": "Dùng 'I want to change...' hoặc 'I want a new...'.",
+          "s": "I want to change my coat."
+        },
+        {
+          "p": "Do you have the receipt?",
+          "m": "Nói 1 câu: Nói có hoặc không có hoá đơn.",
+          "h": "Dùng 'No, I do not have...' hoặc 'Yes, I have...'.",
+          "s": "No, I do not have the receipt."
+        },
+        {
+          "p": "We can give a refund or a new item.",
+          "m": "Nói 1 câu: Chọn hoàn tiền hoặc đồ mới.",
+          "h": "Dùng 'I want...' để chọn.",
+          "s": "I want my money back."
+        },
+        {
+          "p": "How did the hole happen?",
+          "m": "Nói 1 câu: Mô tả ngắn bằng hiện tại (ví dụ 'It is ripped').",
+          "h": "Dùng 'It is + adjective' hoặc 'It is + past participle'.",
+          "s": "It is ripped."
+        },
+        {
+          "p": "We check the coat now.",
+          "m": "Nói 1 câu: Cho biết bạn sẽ đợi hoặc lấy lại.",
+          "h": "Dùng present simple như 'I wait' hoặc 'I take it later'.",
+          "s": "I wait here."
+        }
+      ]
+    },
+    {
+      "t": "Ôn tập: Giao hàng & đơn hàng",
+      "e": [
+        {
+          "p": "Your box is late.",
+          "m": "Nói 1 câu: Nói đơn hàng trễ.",
+          "h": "Dùng 'My order is late' hoặc 'It is late'.",
+          "s": "My order is late."
+        },
+        {
+          "p": "One item is missing.",
+          "m": "Nói 1 câu: Nói món thiếu (dùng danh từ đơn giản).",
+          "h": "Dùng 'The + noun is missing'.",
+          "s": "The phone case is missing."
+        },
+        {
+          "p": "Do you want us to resend it?",
+          "m": "Nói 1 câu: Đồng ý gửi lại hay không.",
+          "h": "Dùng 'Yes, please send it' hoặc 'No, thank you'.",
+          "s": "Yes, please send it."
+        },
+        {
+          "p": "We can give a small refund for the delay.",
+          "m": "Nói 1 câu: Chấp nhận hay từ chối.",
+          "h": "Dùng 'I accept' hoặc 'I do not accept'.",
+          "s": "No, I do not accept a small refund."
+        },
+        {
+          "p": "We deliver it today.",
+          "m": "Nói 1 câu: Nói bạn nhận hàng hôm nay hay không.",
+          "h": "Dùng 'Yes, I wait' hoặc 'No, I do not wait'.",
+          "s": "Yes, I wait for it today."
+        }
+      ]
+    },
+    {
+      "t": "Ôn tập: Dịch vụ trực tiếp",
+      "e": [
+        {
+          "p": "The waiter is rude.",
+          "m": "Nói 1 câu: Báo nhân viên thô lỗ ở nhà hàng.",
+          "h": "Dùng 'The + staff + is + adjective'.",
+          "s": "The waiter is rude."
+        },
+        {
+          "p": "The food is cold and the soup is wrong.",
+          "m": "Nói 1 câu: Nói hai vấn đề ngắn gọn (ví dụ ăn lạnh, món sai).",
+          "h": "Dùng 'The + noun + is + adjective' lần hai nếu cần.",
+          "s": "The food is cold and the soup is wrong."
+        },
+        {
+          "p": "We fix the problem now.",
+          "m": "Nói 1 câu: Đồng ý để nhân viên sửa hay yêu cầu đổi.",
+          "h": "Dùng 'Yes, please fix it' hoặc 'I want a new ...'.",
+          "s": "Yes, please fix it now."
+        },
+        {
+          "p": "Do you want a free meal for the mistake?",
+          "m": "Nói 1 câu: Chấp nhận hoặc không chấp nhận.",
+          "h": "Dùng 'Yes, thank you' hoặc 'No, thank you'.",
+          "s": "Yes, thank you."
+        },
+        {
+          "p": "We will call you about the report.",
+          "m": "Nói 1 câu: Đồng ý nhận cuộc gọi hay không.",
+          "h": "Dùng 'Yes, call me' hoặc 'No, thank you'.",
+          "s": "Yes, call me tomorrow."
+        }
+      ]
+    }
+  ]
+}

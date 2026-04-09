@@ -1,0 +1,565 @@
+{
+  "l": 3,
+  "d": [
+    {
+      "t": "Đặt lịch khám qua điện thoại",
+      "e": [
+        {
+          "p": "Hello, do you want to make an appointment?",
+          "m": "Nói tên của bạn. Nói ngày và giờ bạn muốn đến.",
+          "h": "S + would like to + V; on/at + time/date",
+          "s": "My name is [studentName]. I would like an appointment on Tuesday at 2 p.m."
+        },
+        {
+          "p": "Which doctor would you like to see?",
+          "m": "Nói tên hoặc chuyên khoa bác sĩ. Nói lý do ngắn cho cuộc hẹn.",
+          "h": "I would like / for + reason",
+          "s": "I would like to see Dr. Nguyen in general medicine. I have a stomach ache."
+        },
+        {
+          "p": "We have slots at 9 a.m. or 3 p.m. Which do you prefer?",
+          "m": "Chọn một khung giờ. Nếu không được, đề xuất một khung khác.",
+          "h": "Prefer + time; If not, I can + V",
+          "s": "I prefer 3 p.m. If that is full, I can come at 4 p.m."
+        },
+        {
+          "p": "Can you confirm your phone number, please?",
+          "m": "Cho số điện thoại của bạn. Nói nếu số này đã thay đổi hoặc không.",
+          "h": "My number is ...; It is / It was + number",
+          "s": "My number is 0912345678. It is the same number I used before."
+        },
+        {
+          "p": "Do you need any special assistance when you come?",
+          "m": "Nói nếu bạn cần hỗ trợ đặc biệt. Nói ngắn về loại hỗ trợ đó.",
+          "h": "I need / I don't need; because + reason",
+          "s": "I need wheelchair assistance because I have trouble walking. Thank you."
+        }
+      ]
+    },
+    {
+      "t": "Xác nhận giờ khám qua tin nhắn",
+      "e": [
+        {
+          "p": "You have an appointment on Friday at 10 a.m. Do you confirm?",
+          "m": "Xác nhận hoặc hủy. Nếu hủy, đề xuất thời gian khác.",
+          "h": "I confirm / I can't make it and I can + time",
+          "s": "I confirm the appointment on Friday at 10 a.m. I will be there."
+        },
+        {
+          "p": "Please arrive 15 minutes early to fill forms. Is that okay?",
+          "m": "Trả lời đồng ý hay không. Nếu không, nêu lý do ngắn.",
+          "h": "Yes, I will / No, I can't because + past reason",
+          "s": "Yes, I will arrive 15 minutes early. I need time to find parking."
+        },
+        {
+          "p": "The doctor will call you if there is a delay. Is your phone available?",
+          "m": "Nói có sẵn điện thoại không. Nếu không, cho số liên lạc khác.",
+          "h": "My phone is available / Use + contact",
+          "s": "My phone is available. You can also call 0987654321 if needed."
+        },
+        {
+          "p": "We need your ID for check-in. Will you bring it?",
+          "m": "Trả lời bạn sẽ mang ID hay không. Nếu không, nói bạn sẽ làm gì.",
+          "h": "I will bring / I will bring it later / I don't have it so I will ...",
+          "s": "I will bring my ID. If I forget, I will come back with it after the visit."
+        },
+        {
+          "p": "Do you want a reminder call a day before?",
+          "m": "Nói có muốn nhận nhắc nhở hay không. Nếu có, chọn cách nhận (call/text).",
+          "h": "Yes, please call/text me; No, thank you",
+          "s": "Yes, please send a text reminder one day before. That is more convenient."
+        }
+      ]
+    },
+    {
+      "t": "Hỏi về bác sĩ và chuyên khoa",
+      "e": [
+        {
+          "p": "Which specialist do you need for a sore throat?",
+          "m": "Chọn bác sĩ hoặc chuyên khoa. Nói lý do ngắn.",
+          "h": "I need a + specialist; because + reason",
+          "s": "I need an ENT doctor because I have a sore throat and hoarseness."
+        },
+        {
+          "p": "Dr. Tran is available on Wednesday. Do you prefer morning or afternoon?",
+          "m": "Chọn sáng hoặc chiều. Nói nếu bạn muốn bác sĩ khác.",
+          "h": "I prefer morning/afternoon; I would like another doctor if ...",
+          "s": "I prefer Wednesday morning. If Dr. Tran is not free, I would like Dr. Le."
+        },
+        {
+          "p": "Our specialist is experienced with children. Is this appointment for a child?",
+          "m": "Nói đây có phải là trẻ em không. Nếu có, cho tuổi của trẻ.",
+          "h": "Yes, it's for a child; He/She is + age",
+          "s": "Yes, it's for a child. He is 6 years old."
+        },
+        {
+          "p": "Some doctors speak English. Do you need an English speaker?",
+          "m": "Trả lời có cần bác sĩ nói tiếng Anh không. Nếu cần, yêu cầu xác nhận.",
+          "h": "I need an English-speaking doctor; Please confirm",
+          "s": "I need an English-speaking doctor. Please confirm if one is available."
+        },
+        {
+          "p": "The doctor can review your old test results. Did you bring them last time?",
+          "m": "Nói bạn đã mang kết quả trước đây hay chưa. Nếu có, nói khi nào mang.",
+          "h": "I brought them last time / I did not bring them; I will bring them on + day",
+          "s": "I did not bring them last time. I will bring the test results on Friday."
+        }
+      ]
+    },
+    {
+      "t": "Thay đổi hoặc hoãn lịch hẹn",
+      "e": [
+        {
+          "p": "I need to change my appointment time.",
+          "m": "Nói bạn muốn thay đổi hay hủy. Nếu thay đổi, nêu thời gian mới.",
+          "h": "I need to change to + time / I need to cancel; because + reason",
+          "s": "I need to change the appointment to Monday at 11 a.m. I have a meeting before."
+        },
+        {
+          "p": "We only have next week open in the afternoon. Can you come then?",
+          "m": "Trả lời có thể đến vào chiều tuần sau không. Nếu không, đề xuất lựa chọn khác.",
+          "h": "I can / I can't; I can come on + day/time",
+          "s": "I can't come in the afternoon next week. I can come next Tuesday morning instead."
+        },
+        {
+          "p": "You missed your last appointment. Do you want to reschedule?",
+          "m": "Thừa nhận đã lỡ hẹn hay không. Đề xuất ngày mới nếu muốn đặt lại.",
+          "h": "I missed it because + past reason; I can reschedule on + date",
+          "s": "I missed it because I was sick. I can reschedule on Thursday at 9 a.m."
+        },
+        {
+          "p": "If you cancel less than 24 hours before, there is a fee. Do you want to continue?",
+          "m": "Nói bạn có tiếp tục hủy/đổi không. Nếu có thể chấp nhận phí, nói rõ.",
+          "h": "I will continue / I will keep the appointment; I accept the fee / I cannot accept",
+          "s": "I will keep the appointment because I cannot pay the fee. Thank you."
+        },
+        {
+          "p": "Do you want us to send a cancellation confirmation email?",
+          "m": "Trả lời có muốn email xác nhận không. Nếu có, cho email hoặc nói giữ nguyên số điện thoại.",
+          "h": "Yes, please email me at + address / No, just call me",
+          "s": "Yes, please email me the confirmation at [studentName]@example.com. I will check it."
+        }
+      ]
+    },
+    {
+      "t": "Chuẩn bị trước khi đến bệnh viện",
+      "e": [
+        {
+          "p": "Please bring your ID and any insurance card.",
+          "m": "Xác nhận bạn sẽ mang ID và thẻ bảo hiểm hay không. Nếu thiếu, nói bạn sẽ làm gì.",
+          "h": "I will bring / I don't have it so I will ...",
+          "s": "I will bring my ID and my insurance card. If I forget, I will come back with them later."
+        },
+        {
+          "p": "You should fast for eight hours before the blood test.",
+          "m": "Nói bạn sẽ nhịn ăn hay không. Nói bạn sẽ làm gì nếu không thể nhịn.",
+          "h": "I will fast / I cannot fast because + reason; I will reschedule",
+          "s": "I will fast for eight hours before the test. If I cannot fast, I will call to change the time."
+        },
+        {
+          "p": "Please wear loose clothes for the exam.",
+          "m": "Xác nhận bạn sẽ mặc đồ thoải mái hay không. Nếu không, nêu lý do ngắn.",
+          "h": "I will wear loose clothes / I can't because + reason",
+          "s": "I will wear loose clothes for the exam. I don't have loose clothes, so I will change before I come."
+        },
+        {
+          "p": "Bring a list of your medicines if you take any.",
+          "m": "Nói bạn có đang dùng thuốc không. Nếu có, liệt kê 1-2 loại thuốc chính.",
+          "h": "I take + medicine; for + condition",
+          "s": "I take ibuprofen for pain and vitamin D every morning."
+        },
+        {
+          "p": "If you have X-rays from another clinic, bring them.",
+          "m": "Nói bạn có X-ray hay kết quả từ nơi khác không. Nếu có, cho biết khi nào bạn lấy nó.",
+          "h": "I have X-rays from + place; I will bring them on + day",
+          "s": "I have X-rays from a clinic last month. I will bring them on the appointment day."
+        }
+      ]
+    },
+    {
+      "t": "Hỏi về giấy tờ và thủ tục",
+      "e": [
+        {
+          "p": "Do I need to fill any forms before the visit?",
+          "m": "Trả lời có cần điền form không. Nếu cần, nói bạn sẽ điền trước hay tại chỗ.",
+          "h": "Yes, you need to fill forms; I will fill them online/at the clinic",
+          "s": "Yes, I need to fill the patient form. I will fill it online before I come."
+        },
+        {
+          "p": "You must show your insurance card at check-in.",
+          "m": "Xác nhận bạn sẽ trình thẻ bảo hiểm. Nếu không có, nói cách bạn sẽ trả tiền.",
+          "h": "I will show it / I don't have it so I will pay cash/card",
+          "s": "I will show my insurance card. If I don't have it, I will pay by card."
+        },
+        {
+          "p": "We need consent for minor patients. Is the parent available?",
+          "m": "Nói có phải bố mẹ đi cùng không. Nếu không, cho biết ai sẽ ký.",
+          "h": "Yes, the parent will be with the child / A guardian will sign",
+          "s": "No, the parent cannot come. The child's aunt will sign the consent form."
+        },
+        {
+          "p": "Some tests require pre-approval from insurance.",
+          "m": "Hỏi bạn có bảo hiểm hay không. Nếu có, nói tên công ty bảo hiểm.",
+          "h": "I have insurance with + company / I don't have insurance",
+          "s": "I have insurance with HealthCare Co. Please check if approval is needed."
+        },
+        {
+          "p": "You may need to wait longer on busy days. Is that okay?",
+          "m": "Nói bạn có thể chờ lâu hay không. Nếu không, đề xuất thời gian tốt hơn.",
+          "h": "I can wait / I cannot wait; I prefer + time",
+          "s": "I can wait up to 30 minutes. If it's longer, I prefer an afternoon slot."
+        }
+      ]
+    },
+    {
+      "t": "Thanh toán và bảo hiểm",
+      "e": [
+        {
+          "p": "Do you have insurance coverage for this clinic?",
+          "m": "Trả lời bạn có bảo hiểm hay không. Nếu có, cho tên công ty.",
+          "h": "I have insurance with + name / I don't have insurance",
+          "s": "I have insurance with CityHealth. They should cover general visits."
+        },
+        {
+          "p": "Some services need co-payment at reception.",
+          "m": "Hỏi bạn có sẵn tiền mặt hay thẻ. Nói cách bạn sẽ thanh toán.",
+          "h": "I will pay by cash/card; I will pay the co-pay of + amount",
+          "s": "I will pay by card at reception. I can pay the co-pay there."
+        },
+        {
+          "p": "We will submit the claim if you give us your insurance number.",
+          "m": "Cho số hợp đồng bảo hiểm hoặc nói bạn sẽ cung cấp sau.",
+          "h": "My insurance number is + number / I will provide it later",
+          "s": "My insurance number is 123456789. I will also email a copy later."
+        },
+        {
+          "p": "If insurance denies, you must pay and claim later.",
+          "m": "Nói bạn đồng ý trả trước hay không. Nếu đồng ý, nêu cách thanh toán.",
+          "h": "I agree to pay now by + card/cash; I will claim later",
+          "s": "I agree to pay now by card. I will claim the money later from insurance."
+        },
+        {
+          "p": "Would you like an invoice for your records?",
+          "m": "Trả lời có muốn hóa đơn không. Nếu có, cho email nhận hóa đơn hoặc nói lấy tại quầy.",
+          "h": "Yes, please email it to + address / I will take it at the desk",
+          "s": "Yes, please email the invoice to [studentName]@example.com. Thank you."
+        }
+      ]
+    },
+    {
+      "t": "Hỏi đường và chỗ đậu xe",
+      "e": [
+        {
+          "p": "Our clinic is on the second floor near the main entrance.",
+          "m": "Xác nhận bạn đã hiểu vị trí hay chưa. Nếu chưa, yêu cầu chỉ dẫn thêm.",
+          "h": "I understand / Please give more directions",
+          "s": "I understand. I will enter through the main entrance and go to the second floor."
+        },
+        {
+          "p": "There is a parking lot across the street; parking costs a small fee.",
+          "m": "Hỏi bạn có cần chỗ đậu xe không. Nếu cần, hỏi phí hoặc giờ mở cửa.",
+          "h": "I need parking; How much is the fee? / What time does it open?",
+          "s": "I need parking. How much is the parking fee for two hours?"
+        },
+        {
+          "p": "You can also take the bus number 12 to our stop.",
+          "m": "Nói bạn sẽ đi bằng xe buýt hay ôtô. Nếu bằng xe buýt, nêu trạm xuống.",
+          "h": "I will take the bus / I will drive and park at + place",
+          "s": "I will take the bus and get off at Central Clinic stop. It is easier for me."
+        },
+        {
+          "p": "There is elevator access if you need help with stairs.",
+          "m": "Nói bạn có cần thang máy hay không. Nếu cần, yêu cầu hỗ trợ khi đến.",
+          "h": "I need the elevator / I don't need it; Please provide assistance",
+          "s": "I need the elevator because I have knee pain. Please arrange help at the entrance."
+        },
+        {
+          "p": "If you are late, call us and we will advise the next steps.",
+          "m": "Nói bạn sẽ làm gì nếu đến muộn. Nêu số bạn sẽ gọi hoặc cách thông báo.",
+          "h": "I will call + number / I will send a text to + number",
+          "s": "If I am late, I will call reception at 0900123456. I will let them know my arrival time."
+        }
+      ]
+    },
+    {
+      "t": "Khai báo triệu chứng trước khi khám",
+      "e": [
+        {
+          "p": "What symptoms are you having today?",
+          "m": "Nói 1-2 triệu chứng chính. Nêu thời gian triệu chứng bắt đầu.",
+          "h": "I have + symptom; It started + when",
+          "s": "I have a fever and a cough. It started two days ago."
+        },
+        {
+          "p": "Have you had this problem before?",
+          "m": "Trả lời đã từng gặp trước đây hay không. Nếu có, nói khi nào và kết quả ngắn.",
+          "h": "Yes, I had it before in + past; It was + result / No, I never had it",
+          "s": "Yes, I had a similar problem last year. The doctor treated me and I recovered."
+        },
+        {
+          "p": "Are you allergic to any medicine?",
+          "m": "Cho biết bạn có dị ứng thuốc hay không. Nếu có, nêu tên thuốc.",
+          "h": "I am allergic to + medicine / I am not allergic to any medicine",
+          "s": "I am allergic to penicillin. I will avoid that medicine."
+        },
+        {
+          "p": "Do you have a fever now? Please tell your current temperature if you know.",
+          "m": "Nói có sốt hay không. Nếu biết nhiệt độ, cho con số.",
+          "h": "I have a fever; My temperature is + number °C / I don't have a fever",
+          "s": "Yes, I have a fever. My temperature is 38.5°C."
+        },
+        {
+          "p": "Are you taking any medicines or supplements now?",
+          "m": "Nói bạn đang dùng thuốc nào (1-2 thuốc). Nêu mục đích ngắn cho mỗi thuốc.",
+          "h": "I take + medicine for + reason",
+          "s": "I take paracetamol for fever and vitamin C for general health."
+        }
+      ]
+    },
+    {
+      "t": "Xử lý tình huống khẩn cấp nhẹ",
+      "e": [
+        {
+          "p": "You feel sudden severe pain and need to see a doctor today.",
+          "m": "Nói bạn cần khám cấp cứu hay hẹn trong ngày. Nêu mức độ đau ngắn.",
+          "h": "I need to see a doctor today; The pain is + degree",
+          "s": "I need to see a doctor today because the pain is severe. It is a 8 out of 10."
+        },
+        {
+          "p": "We can fit you in at 1 p.m. or advise visiting A&E. Which do you prefer?",
+          "m": "Chọn nhận hẹn 1 p.m. hay tới phòng cấp cứu. Nói lý do lựa chọn ngắn.",
+          "h": "I will come at 1 p.m. / I will go to A&E because + reason",
+          "s": "I will go to A&E because the pain started suddenly and is very strong."
+        },
+        {
+          "p": "Do you have someone to bring you to the hospital?",
+          "m": "Nói có người đưa đón không. Nếu không, hỏi về dịch vụ hỗ trợ của bệnh viện.",
+          "h": "Yes, someone will bring me / No, can the hospital help?",
+          "s": "No, I don't have someone to bring me. Can the hospital provide transport help?"
+        },
+        {
+          "p": "If the pain reduces, please still come for a check within 48 hours.",
+          "m": "Trả lời bạn sẽ đến trong 48 giờ hay không. Nếu không, nêu khi nào bạn sẽ đến.",
+          "h": "I will come within 48 hours / I will come on + day",
+          "s": "I will come within 48 hours even if the pain gets better. Safety is important."
+        },
+        {
+          "p": "We will prepare a quick assessment when you arrive.",
+          "m": "Nói bạn sẽ chuẩn bị giấy tờ hay thuốc để nộp. Nếu cần, yêu cầu thông tin thêm.",
+          "h": "I will bring my ID and medicines; Please tell me what else is needed",
+          "s": "I will bring my ID and current medicines. Please tell me if I need anything else."
+        }
+      ]
+    },
+    {
+      "t": "Sau khám: kết luận và hướng dẫn",
+      "e": [
+        {
+          "p": "The doctor prescribed antibiotics for five days.",
+          "m": "Xác nhận bạn sẽ uống thuốc theo đơn hay không. Nói bạn sẽ làm gì nếu quên liều.",
+          "h": "I will take them as prescribed; If I forget, I will + do",
+          "s": "I will take the antibiotics for five days as prescribed. If I forget a dose, I will take it when I remember."
+        },
+        {
+          "p": "You must rest and drink plenty of water.",
+          "m": "Nói bạn sẽ nghỉ ngơi như thế nào. Nói nếu bạn cần làm việc và kế hoạch thay thế.",
+          "h": "I will rest at home; If I must work, I will + plan",
+          "s": "I will rest at home and drink more water. If I must work, I will ask for a short leave."
+        },
+        {
+          "p": "We recommend a follow-up in one week.",
+          "m": "Nói bạn sẽ đặt tái khám hay không. Nếu có, đề xuất ngày dự kiến.",
+          "h": "I will book a follow-up on + day / I will call to schedule",
+          "s": "I will book a follow-up next Wednesday. I will call reception to confirm the time."
+        },
+        {
+          "p": "If symptoms get worse, come back or call us immediately.",
+          "m": "Trả lời bạn sẽ làm gì nếu tình trạng xấu đi. Nêu số liên lạc bạn sẽ gọi.",
+          "h": "I will call + number / I will come back to the clinic",
+          "s": "If my symptoms get worse, I will call 0900123456. I will come back to the clinic if needed."
+        },
+        {
+          "p": "The nurse will send your prescription to the pharmacy.",
+          "m": "Xác nhận bạn sẽ lấy thuốc tại nhà thuốc bệnh viện hay nơi khác. Nêu thời gian lấy thuốc dự kiến.",
+          "h": "I will pick up at the hospital pharmacy / I will go to another pharmacy on + day",
+          "s": "I will pick up the medicine at the hospital pharmacy after I finish work tomorrow."
+        }
+      ]
+    },
+    {
+      "t": "Giao tiếp khi đến quầy tiếp tân",
+      "e": [
+        {
+          "p": "Welcome, do you have an appointment today?",
+          "m": "Trả lời có hẹn hay không. Nếu có, cho tên và giờ hẹn.",
+          "h": "Yes, I have an appointment at + time; My name is + name",
+          "s": "Yes, I have an appointment at 10 a.m. My name is [studentName]."
+        },
+        {
+          "p": "Please sign here and take a seat.",
+          "m": "Xác nhận bạn đã ký hay chưa. Nói bạn sẽ ngồi đợi ở đâu.",
+          "h": "I have signed; I will sit in the waiting area",
+          "s": "I have signed the form. I will sit in the waiting area."
+        },
+        {
+          "p": "The wait might be 30 minutes today.",
+          "m": "Nói bạn có thể chờ 30 phút không. Nếu không, đề nghị đặt lại.",
+          "h": "I can wait / I cannot wait and I would like to reschedule",
+          "s": "I can wait 30 minutes. If it's longer, I will reschedule the appointment."
+        },
+        {
+          "p": "A nurse will call your name when it's time.",
+          "m": "Hỏi bạn có nhận ra tên khi gọi không. Nếu cần, yêu cầu gọi bằng số hoặc gọi điện.",
+          "h": "Please call me by my number / Please call me on the phone",
+          "s": "Please call me by my appointment number because I may not hear my name well."
+        },
+        {
+          "p": "Do you need a translator during the visit?",
+          "m": "Nói bạn có cần người phiên dịch không. Nếu có, nêu ngôn ngữ hoặc ai sẽ đi cùng.",
+          "h": "I need a translator in + language / My friend will translate",
+          "s": "I need a translator in English. My friend will come to help as well."
+        }
+      ]
+    },
+    {
+      "t": "Yêu cầu thông tin trước khi khám chuyên khoa",
+      "e": [
+        {
+          "p": "Please list any past surgeries or major illnesses.",
+          "m": "Nêu 1-2 bệnh hoặc phẫu thuật trong quá khứ. Cho thời gian xảy ra.",
+          "h": "I had + operation/illness in + year/time",
+          "s": "I had appendicitis surgery in 2018. I was treated for asthma when I was a child."
+        },
+        {
+          "p": "Do you smoke or drink alcohol regularly?",
+          "m": "Trả lời thói quen hút thuốc hoặc uống rượu. Nếu có, cho tần suất ngắn.",
+          "h": "I smoke/drink occasionally/regularly; I smoke + per day",
+          "s": "I smoke occasionally at parties. I don't drink alcohol regularly."
+        },
+        {
+          "p": "Are you pregnant or planning pregnancy?",
+          "m": "Trả lời tình trạng mang thai ngắn (nếu áp dụng). Nếu không, nói không.",
+          "h": "I am pregnant / I am not pregnant / I am planning pregnancy",
+          "s": "I am not pregnant and I am not planning a pregnancy now."
+        },
+        {
+          "p": "Do you have family history of diabetes or heart disease?",
+          "m": "Nói có tiền sử gia đình không. Nếu có, nêu bệnh và quan hệ (ví dụ: mẹ, bố).",
+          "h": "Yes, my mother had diabetes / No family history",
+          "s": "Yes, my father had heart disease. My mother has diabetes."
+        },
+        {
+          "p": "Please bring a list of current medicines and any allergy notes.",
+          "m": "Xác nhận bạn sẽ mang danh sách thuốc và ghi chú dị ứng. Nếu không, hứa sẽ chuẩn bị.",
+          "h": "I will bring the list / I will prepare it before the appointment",
+          "s": "I will bring a list of my current medicines and an allergy note. I will prepare it tonight."
+        }
+      ]
+    },
+    {
+      "t": "Ôn tập: Đặt và xác nhận lịch",
+      "e": [
+        {
+          "p": "I would like to book a general check-up. When are you free?",
+          "m": "Cho tên. Chọn một ngày và giờ bạn rảnh.",
+          "h": "My name is + name; I am free on + day/time",
+          "s": "My name is [studentName]. I am free on Friday morning at 9 a.m."
+        },
+        {
+          "p": "We have an opening next Monday at 2 p.m. Do you confirm?",
+          "m": "Xác nhận hoặc đề xuất thời gian khác. Nếu xác nhận, nói sẽ đến.",
+          "h": "I confirm / I prefer a different time and I can come at + time",
+          "s": "I prefer a different time. I can come on Monday at 10 a.m."
+        },
+        {
+          "p": "Please arrive 15 minutes early and bring your ID.",
+          "m": "Trả lời bạn sẽ đến sớm hay không. Nói bạn có mang ID không.",
+          "h": "I will arrive early; I will bring my ID",
+          "s": "I will arrive 15 minutes early. I will bring my ID."
+        },
+        {
+          "p": "Do you want an email reminder a day before?",
+          "m": "Nói có muốn nhắc nhở qua email hay tin nhắn. Nếu email, cho địa chỉ.",
+          "h": "Email/text; Email to + address",
+          "s": "Yes, please send an email reminder to [studentName]@example.com."
+        },
+        {
+          "p": "If you need to change, call us at this number.",
+          "m": "Nói bạn sẽ làm gì nếu cần thay đổi. Nêu bạn sẽ gọi hay nhắn tin.",
+          "h": "I will call / I will text; to + number",
+          "s": "I will call this number to change the appointment if needed."
+        }
+      ]
+    },
+    {
+      "t": "Ôn tập: Thay đổi và hủy hẹn",
+      "e": [
+        {
+          "p": "I need to cancel my appointment tomorrow.",
+          "m": "Nói lý do hủy ngắn. Hỏi có thể đặt lại không.",
+          "h": "I need to cancel because + reason; Can I reschedule?",
+          "s": "I need to cancel because I am sick. Can I reschedule for next week?"
+        },
+        {
+          "p": "We can reschedule you for Wednesday afternoon.",
+          "m": "Chọn chấp nhận hay đề xuất ngày khác. Nêu lý do nếu từ chối.",
+          "h": "I accept / I prefer + other day/time",
+          "s": "I accept Wednesday afternoon. Thank you for changing it."
+        },
+        {
+          "p": "There is a late cancellation fee if you cancel in less than 24 hours.",
+          "m": "Nói bạn có thể trả phí hay không. Nếu không, xin lịch khác.",
+          "h": "I can pay the fee / I cannot pay and I would like another time",
+          "s": "I cannot pay the fee. Please give me another appointment next week."
+        },
+        {
+          "p": "Do you want to wait for a same-day slot if someone cancels?",
+          "m": "Nói bạn có muốn chờ slot trong ngày không. Nếu có, cho cách liên lạc.",
+          "h": "Yes, please contact me by + phone/text; No, thank you",
+          "s": "Yes, please contact me by text if a same-day slot opens."
+        },
+        {
+          "p": "We will send a cancellation confirmation when we process it.",
+          "m": "Yêu cầu xác nhận bạn muốn nhận tin hủy qua email hay tin nhắn. Nếu có, cung cấp địa chỉ/số.",
+          "h": "Email to + address / Text to + number",
+          "s": "Please text the cancellation confirmation to 0900123456. Thank you."
+        }
+      ]
+    },
+    {
+      "t": "Ôn tập: Chuẩn bị và sau khám",
+      "e": [
+        {
+          "p": "Before tests, please fast and bring your medicine list.",
+          "m": "Xác nhận bạn sẽ nhịn ăn hay không. Nói bạn sẽ mang danh sách thuốc.",
+          "h": "I will fast / I will bring the list",
+          "s": "I will fast before the test. I will bring my medicine list."
+        },
+        {
+          "p": "The doctor gave you a prescription and advised rest.",
+          "m": "Nói bạn sẽ lấy thuốc ở đâu. Nói bạn sẽ nghỉ ngơi như thế nào.",
+          "h": "I will pick up at + place; I will rest by + action",
+          "s": "I will pick up the medicine at the hospital pharmacy. I will rest at home for two days."
+        },
+        {
+          "p": "Please book a follow-up if symptoms continue after one week.",
+          "m": "Nói bạn sẽ đặt tái khám hay không. Nếu có, cho ngày dự kiến.",
+          "h": "I will book a follow-up on + day / I will call to schedule",
+          "s": "I will book a follow-up next Thursday if I still have symptoms."
+        },
+        {
+          "p": "You should avoid heavy exercise until you recover.",
+          "m": "Trả lời bạn sẽ ngừng tập nặng hay không. Nêu khi nào bạn sẽ tập lại.",
+          "h": "I will avoid heavy exercise; I will start again in + time",
+          "s": "I will avoid heavy exercise for one week. I will start light exercise after that."
+        },
+        {
+          "p": "If you need advice, call our nurse line any time during working hours.",
+          "m": "Nói bạn sẽ gọi khi cần hay không. Nếu có, nêu loại vấn đề bạn sẽ gọi.",
+          "h": "I will call for + problem; during + hours",
+          "s": "I will call the nurse line for any fever or severe pain during working hours."
+        }
+      ]
+    }
+  ]
+}

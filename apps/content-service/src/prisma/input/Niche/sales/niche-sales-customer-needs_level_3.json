@@ -1,0 +1,530 @@
+{
+  "l": 3,
+  "d": [
+    {
+      "t": "Tư vấn mua sắm tại cửa hàng",
+      "e": [
+        {
+          "p": "What are you looking for today?",
+          "m": "Nói bạn cần món hàng gì; Nói một sở thích chính (màu, giá hoặc kích thước).",
+          "h": "Use 'I am looking for...' or 'I need...' and 'I prefer...' / 'I want...'.",
+          "s": "I am looking for a lightweight backpack for travel. I prefer a blue one and I want it under $50."
+        },
+        {
+          "p": "Do you need any special features?",
+          "m": "Nói một tính năng bạn cần; Giải thích vì sao bạn cần tính năng đó.",
+          "h": "Use 'I need...' + 'because...' hoặc 'so that...'.",
+          "s": "I need a water-resistant cover because I will travel in rainy weather. I also need many pockets so I can organize my things."
+        },
+        {
+          "p": "We have this model on sale. Do you want to try it?",
+          "m": "Trả lời có/không; Nói lý do ngắn cho quyết định.",
+          "h": "Use 'Yes, I will...' or 'No, I will not...' + short reason.",
+          "s": "Yes, I will try it because it looks comfortable. If it fits, I will buy it today."
+        },
+        {
+          "p": "Would you like to pay by card or cash?",
+          "m": "Chọn phương thức thanh toán; Nói nếu bạn cần hoá đơn.",
+          "h": "Use 'I will pay by...' và 'I need/don't need a receipt'.",
+          "s": "I will pay by card. I need a receipt for the purchase."
+        },
+        {
+          "p": "Do you want me to wrap it as a gift?",
+          "m": "Trả lời có/không; Nói nếu bạn cần giúp mang hàng ra xe hoặc giao hàng.",
+          "h": "Use 'Yes/No' + 'and' + a request phrase like 'could you...'.",
+          "s": "Yes, please wrap it as a gift. Could you also help me carry it to the car?"
+        }
+      ]
+    },
+    {
+      "t": "Gặp khách hàng mới qua điện thoại",
+      "e": [
+        {
+          "p": "Hello, can you tell me what you need for your event?",
+          "m": "Nói ngắn yêu cầu chính; Nói ngày hoặc thời hạn bạn cần.",
+          "h": "Use 'We need...' or 'I need...' and a time phrase like 'by' or 'on'.",
+          "s": "We need a sound system for a small event. We need it by next Saturday."
+        },
+        {
+          "p": "Do you have a budget for this?",
+          "m": "Nói mức chi phí bạn dự định; Nói nếu bạn muốn phương án rẻ hơn hoặc tốt hơn.",
+          "h": "Use 'Our budget is...' and 'we want...' or 'we prefer...'.",
+          "s": "Our budget is about $300. We prefer a cheaper option if it still works well."
+        },
+        {
+          "p": "Would you like us to deliver and set up?",
+          "m": "Nói có/không; Nói nếu bạn cần hỗ trợ thêm (ví dụ: hướng dẫn sử dụng).",
+          "h": "Use 'Yes/No' + 'and' + 'we need...' or 'we don't need...'.",
+          "s": "Yes, we need delivery and setup. We also need a short instruction on how to use the system."
+        },
+        {
+          "p": "Can I confirm your address and contact number?",
+          "m": "Nói địa chỉ ngắn (dùng [studentCity] nếu cần); Nói số điện thoại hoặc cách gọi lại.",
+          "h": "Use 'We are at/in...' and 'You can call...' or 'Our number is...'.",
+          "s": "We are at 12 River Street in [studentCity]. You can call us at 090-123-4567."
+        },
+        {
+          "p": "Do you prefer email or phone for updates?",
+          "m": "Chọn email hoặc điện thoại; Nói nếu bạn muốn nhận cả hai.",
+          "h": "Use 'I prefer...' and 'or' to add another option.",
+          "s": "I prefer email for updates. You can also call me if there is a problem."
+        }
+      ]
+    },
+    {
+      "t": "Tư vấn trực tuyến cho sản phẩm",
+      "e": [
+        {
+          "p": "Which model are you interested in on our website?",
+          "m": "Nói tên model hoặc loại bạn thấy; Nói lý do bạn thích nó.",
+          "h": "Use 'I like...' or 'I'm interested in...' + 'because...'.",
+          "s": "I'm interested in the Compact 200 model. I like it because it is small and energy-efficient."
+        },
+        {
+          "p": "Do you want a cheaper option or better quality?",
+          "m": "Nói ưu tiên của bạn (rẻ hoặc chất lượng); Nói một lý do ngắn cho lựa chọn đó.",
+          "h": "Use comparative words like 'cheaper' or 'better' and 'because...'.",
+          "s": "I want a better quality product because it will last longer. I don't mind paying a bit more."
+        },
+        {
+          "p": "We can offer a 10% discount today. Will that help?",
+          "m": "Trả lời có/không; Nói nếu bạn sẽ mua ngay hoặc cần suy nghĩ.",
+          "h": "Use 'Yes, that helps' or 'No, I need...' and future 'will'.",
+          "s": "Yes, that helps and I will buy it today. Thank you for the discount."
+        },
+        {
+          "p": "Do you need installation service?",
+          "m": "Nói có/không; Nói lý do nếu bạn không cần (ví dụ: bạn tự làm được).",
+          "h": "Use 'I need/don't need...' and 'because...'.",
+          "s": "I don't need installation because I can set it up myself. I only need the instruction manual."
+        },
+        {
+          "p": "Would you like to add a one-year warranty?",
+          "m": "Trả lời có/không; Nói nếu bạn tin rằng điều đó cần thiết.",
+          "h": "Use 'Yes/No' and 'because' to explain.",
+          "s": "Yes, I will add the one-year warranty because it gives me peace of mind. It seems useful for long use."
+        }
+      ]
+    },
+    {
+      "t": "Khảo sát nhu cầu khách hàng tại siêu thị",
+      "e": [
+        {
+          "p": "What made you choose our supermarket today?",
+          "m": "Nói lý do chính bạn đến cửa hàng; Nói nếu có khuyến mãi hoặc tiện lợi.",
+          "h": "Use 'I chose...' or 'I came because...' and 'because...'.",
+          "s": "I chose your supermarket because it is close to my home. There was also a sale on groceries today."
+        },
+        {
+          "p": "How often do you shop for groceries?",
+          "m": "Nói tần suất (ví dụ: once a week); Nói nếu bạn mua thêm đồ theo mùa hoặc dịp đặc biệt.",
+          "h": "Use simple frequency: 'I shop...' or 'I usually...'.",
+          "s": "I shop for groceries once a week. I buy extra items at festivals or special events."
+        },
+        {
+          "p": "Do you prefer organic or regular products?",
+          "m": "Nói lựa chọn của bạn; Nói lý do ngắn (giá, chất lượng...).",
+          "h": "Use 'I prefer...' and 'because...' or 'but...' for contrast.",
+          "s": "I prefer regular products because they are cheaper. However, I buy organic sometimes for fruits."
+        },
+        {
+          "p": "Would you like home delivery if we offer it?",
+          "m": "Trả lời có/không; Nói điều kiện nếu có (ví dụ: phí hoặc thời gian giao).",
+          "h": "Use 'Yes/No' + 'if' and a condition phrase.",
+          "s": "Yes, I would like home delivery if the fee is low. I need delivery within two days."
+        },
+        {
+          "p": "Is there something we can improve to serve you better?",
+          "m": "Nói một điều cần cải thiện; Nói ngắn cách bạn muốn cải thiện đó.",
+          "h": "Use 'You should...' or 'It would be better if...' + simple suggestion.",
+          "s": "You should stock more fresh vegetables in the morning. It would be better if the shelves are restocked before lunchtime."
+        }
+      ]
+    },
+    {
+      "t": "Giải pháp cho khiếu nại đơn giản",
+      "e": [
+        {
+          "p": "I'm sorry, my product arrived damaged.",
+          "m": "Nói bạn hiểu tình huống; Nói bạn muốn gì (hoàn tiền/đổi hàng/sửa).",
+          "h": "Use 'I understand...' and 'I would like...' or 'I want...'.",
+          "s": "I understand and I am sorry for the problem. I would like a replacement, please."
+        },
+        {
+          "p": "Can you tell me when the order was placed?",
+          "m": "Nói ngày/thời gian đặt hàng; Nói nếu bạn đã nhận hay chưa.",
+          "h": "Use past simple 'I ordered...' and 'I received...' if applicable.",
+          "s": "I ordered it last Tuesday. I received the package yesterday."
+        },
+        {
+          "p": "We can offer a refund or a new item. Which do you prefer?",
+          "m": "Chọn hoàn tiền hoặc đổi hàng; Nói lý do ngắn cho lựa chọn.",
+          "h": "Use 'I prefer...' and 'because...'.",
+          "s": "I prefer a refund because I need the money now. A refund is faster for me."
+        },
+        {
+          "p": "If we send a courier to pick up the damaged item, is that okay?",
+          "m": "Trả lời có/không; Nói thời gian thuận tiện để họ đến.",
+          "h": "Use 'Yes/No' and a time phrase like 'in the morning' or 'after 3 pm'.",
+          "s": "Yes, that's okay and the morning is best. Please come between 9 and 11 am."
+        },
+        {
+          "p": "We will process the refund in 3–5 business days. Do you need any confirmation?",
+          "m": "Trả lời có/không; Nói cách bạn muốn nhận xác nhận (email/phone).",
+          "h": "Use 'Yes/No' and 'by email' or 'by phone'.",
+          "s": "Yes, I need confirmation by email. Please send it to my email address."
+        }
+      ]
+    },
+    {
+      "t": "So sánh hai lựa chọn cho khách hàng",
+      "e": [
+        {
+          "p": "We have Option A which is cheaper and Option B which is more durable. Which do you like?",
+          "m": "Nói bạn chọn A hoặc B; Nói lý do ngắn (giá hay độ bền).",
+          "h": "Use 'I prefer...' and comparative language like 'cheaper' or 'more durable'.",
+          "s": "I prefer Option B because it is more durable. I think durability is more important than price for me."
+        },
+        {
+          "p": "Option A has two-year warranty; Option B has five-year warranty. Is warranty important?",
+          "m": "Nói nếu bảo hành quan trọng; Nói bạn muốn bao lâu.",
+          "h": "Use 'Yes/No' and 'I want...' + duration.",
+          "s": "Yes, warranty is important to me. I want at least three years of warranty."
+        },
+        {
+          "p": "Do you care more about design or functionality?",
+          "m": "Chọn một ưu tiên; Nói ví dụ ngắn vì sao.",
+          "h": "Use 'I care more about...' and 'because...'.",
+          "s": "I care more about functionality because I use the product daily. Design is less important for me."
+        },
+        {
+          "p": "If we offer a small discount on Option B, would you switch?",
+          "m": "Trả lời có/không; Nói điều kiện (ví dụ: mức giảm giá cụ thể).",
+          "h": "Use 'Yes/No' and 'if' + condition with 'will'.",
+          "s": "Yes, I will switch if the discount is at least 15%. That would make Option B a better deal."
+        },
+        {
+          "p": "Which feature is a must-have for you?",
+          "m": "Nói một tính năng bắt buộc; Giải thích ngắn vì sao nó cần thiết.",
+          "h": "Use 'The must-have feature is...' and 'because...'.",
+          "s": "The must-have feature is long battery life because I travel a lot. I need it to work all day."
+        }
+      ]
+    },
+    {
+      "t": "Thương lượng giá cả và khuyến mãi",
+      "e": [
+        {
+          "p": "The listed price is $120. Can you do a better price?",
+          "m": "Nói bạn mong muốn giá bao nhiêu; Nói nếu bạn sẽ mua ngay nếu được giá đó.",
+          "h": "Use 'I hope for...' and 'I will buy if...'.",
+          "s": "I hope for $100 for this item. I will buy it today if you accept that price."
+        },
+        {
+          "p": "We can give 5% off for members. Are you a member?",
+          "m": "Trả lời có/không; Nói nếu bạn muốn đăng ký làm thành viên.",
+          "h": "Use 'Yes/No' and 'I want to...' or 'I don't want to...'.",
+          "s": "No, I am not a member. I want to sign up if the membership is free."
+        },
+        {
+          "p": "If we include free delivery, will that help your decision?",
+          "m": "Trả lời có/không; Nói nếu bạn vẫn muốn giảm giá tiền mặt hơn.",
+          "h": "Use 'Yes/No' and 'but' or 'and' to add preference.",
+          "s": "Yes, free delivery helps a lot. But I would prefer a lower price if possible."
+        },
+        {
+          "p": "We can bundle this with accessories for $20 extra. Interested?",
+          "m": "Trả lời có/không; Nói nếu bạn thích một phụ kiện cụ thể.",
+          "h": "Use 'Yes/No' and 'I prefer...' to mention accessory.",
+          "s": "Yes, I am interested in the bundle. I prefer the travel case accessory."
+        },
+        {
+          "p": "Would you like to pay in full or in two installments?",
+          "m": "Chọn trả một lần hoặc góp; Nói nếu bạn cần thời gian cụ thể cho lần trả sau.",
+          "h": "Use 'I will pay...' and 'on...' for time.",
+          "s": "I will pay in two installments. I will pay the second part in one month."
+        }
+      ]
+    },
+    {
+      "t": "Kế hoạch giao hàng và lắp đặt",
+      "e": [
+        {
+          "p": "When would you like the delivery?",
+          "m": "Chọn ngày/thời gian ngắn; Nói nếu bạn cần giao gấp.",
+          "h": "Use future 'I would like it on...' or 'I need it by...'.",
+          "s": "I would like the delivery on Friday morning. I need it quickly because I have an event on Saturday."
+        },
+        {
+          "p": "Do you have someone at home to receive the item?",
+          "m": "Trả lời có/không; Nói ai sẽ nhận hoặc nếu bạn cần đổi giờ.",
+          "h": "Use 'Yes/No' and 'My friend/partner...' or 'I need to change the time'.",
+          "s": "Yes, my sister will be at home to receive it. If not, I will call to change the time."
+        },
+        {
+          "p": "Our team can install the product. Do you want installation?",
+          "m": "Chọn có/không; Nói lý do ngắn nếu bạn không cần.",
+          "h": "Use 'I want/don't want installation' and 'because...'.",
+          "s": "I want installation because I am not sure how to set it up. It will save me time."
+        },
+        {
+          "p": "If the installer arrives late, would you wait or reschedule?",
+          "m": "Chọn chờ hoặc dời lịch; Nói thời gian bạn có thể chờ tối đa.",
+          "h": "Use 'I will wait' or 'I will reschedule' and time limit with 'up to...'.",
+          "s": "I will wait up to 30 minutes. If it is longer, I will reschedule for another day."
+        },
+        {
+          "p": "Do you need a short demo after installation?",
+          "m": "Trả lời có/không; Nói bạn muốn demo bằng tiếng Anh hay tiếng Việt nếu cần.",
+          "h": "Use 'Yes/No' and 'in English' or 'in Vietnamese'.",
+          "s": "Yes, I need a short demo after installation. Please give the demo in Vietnamese."
+        }
+      ]
+    },
+    {
+      "t": "Tư vấn dịch vụ cho khách doanh nghiệp",
+      "e": [
+        {
+          "p": "Can you describe your company's main need?",
+          "m": "Nói nhu cầu chính của công ty ngắn gọn; Nói mục tiêu bạn muốn đạt được.",
+          "h": "Use 'We need...' and 'to...' to state goal.",
+          "s": "We need a simple CRM system to track clients. The goal is to improve customer follow-up."
+        },
+        {
+          "p": "How many users will use the service?",
+          "m": "Nói số lượng người dùng; Nói nếu số người có thể tăng trong tương lai.",
+          "h": "Use 'There are...' or 'About...' and 'might increase' for future.",
+          "s": "There are about 10 users now. The number might increase to 20 next year."
+        },
+        {
+          "p": "Do you prefer monthly payment or annual contract?",
+          "m": "Chọn phương án thanh toán; Nói lý do ngắn cho lựa chọn.",
+          "h": "Use 'We prefer...' and 'because...'.",
+          "s": "We prefer an annual contract because it is cheaper overall. It also makes budgeting easier."
+        },
+        {
+          "p": "Would you like a trial period before signing?",
+          "m": "Trả lời có/không; Nói thời gian thử nghiệm bạn muốn.",
+          "h": "Use 'Yes/No' and time phrase like 'for one month'.",
+          "s": "Yes, we would like a trial period for one month. This will help us test the features."
+        },
+        {
+          "p": "Do you need training for your staff?",
+          "m": "Trả lời có/không; Nói số buổi hoặc thời gian bạn muốn cho đào tạo.",
+          "h": "Use 'Yes/No' and 'for...' or 'two sessions'.",
+          "s": "Yes, we need training for our staff. Two sessions will be enough for basic use."
+        }
+      ]
+    },
+    {
+      "t": "Tư vấn nâng cấp và bán thêm",
+      "e": [
+        {
+          "p": "Would you like to upgrade to the premium plan?",
+          "m": "Trả lời có/không; Nói lý do (ví dụ: cần thêm tính năng).",
+          "h": "Use 'I will/won't' and 'because...'.",
+          "s": "I will upgrade to the premium plan because I need the extra storage. It fits our growing needs."
+        },
+        {
+          "p": "We can add extra support for $30/month. Interested?",
+          "m": "Trả lời có/không; Nói nếu bạn muốn thử một tháng trước.",
+          "h": "Use 'Yes/No' and 'I want to try for...' or 'I will...'.",
+          "s": "Yes, I am interested and I want to try it for one month. If it helps, I will keep it."
+        },
+        {
+          "p": "Would you like a demo of the premium features?",
+          "m": "Trả lời có/không; Nói thời gian thuận tiện cho demo.",
+          "h": "Use 'Yes/No' and 'on/at' for time.",
+          "s": "Yes, I would like a demo on Monday afternoon. That time is convenient for our team."
+        },
+        {
+          "p": "If you upgrade, we can migrate your data free. Is data migration important?",
+          "m": "Trả lời có/không; Nói nếu bạn muốn chúng tôi làm trong giờ làm việc hoặc ngoài giờ.",
+          "h": "Use 'Yes/No' and 'during' or 'after hours' to state preference.",
+          "s": "Yes, data migration is important for us. Please do it after hours to avoid disruption."
+        },
+        {
+          "p": "Do you want a monthly report with the premium plan?",
+          "m": "Chọn có/không; Nói thông tin bạn muốn trong báo cáo (ví dụ: doanh số, khách hàng).",
+          "h": "Use 'Yes/No' and 'include...' to list items.",
+          "s": "Yes, I want a monthly report. Please include sales figures and customer feedback."
+        }
+      ]
+    },
+    {
+      "t": "Khảo sát phản hồi sau dịch vụ",
+      "e": [
+        {
+          "p": "How was your experience with our service today?",
+          "m": "Nói cảm xúc/tổng quan ngắn; Nói một điểm bạn hài lòng nhất.",
+          "h": "Use 'It was...' and 'I liked...' or 'I was happy with...'.",
+          "s": "It was good and the staff was helpful. I liked how quickly they solved my problem."
+        },
+        {
+          "p": "Was the staff polite and helpful?",
+          "m": "Trả lời có/không; Nói một ví dụ ngắn nếu có.",
+          "h": "Use 'Yes/No' and 'for example...' or 'they...'.",
+          "s": "Yes, they were polite and helpful. For example, they explained everything clearly."
+        },
+        {
+          "p": "Do you think our price was fair?",
+          "m": "Trả lời có/không; Nói nếu bạn muốn giá rẻ hơn hoặc được thêm giá trị.",
+          "h": "Use 'Yes/No' and 'I would prefer...' or 'I want...'.",
+          "s": "Yes, the price was fair for the service. I would prefer more discounts in the future."
+        },
+        {
+          "p": "Would you recommend us to a friend?",
+          "m": "Trả lời có/không; Nói lý do ngắn cho quyết định.",
+          "h": "Use 'Yes/No' and 'because...' or 'because not...'.",
+          "s": "Yes, I would recommend you because the service is reliable. My friend will trust that."
+        },
+        {
+          "p": "Is there one thing we should improve?",
+          "m": "Nói một đề xuất ngắn; Nói cách bạn muốn thấy cải thiện đó.",
+          "h": "Use 'You should...' or 'It would be better if...' plus simple action.",
+          "s": "You should reduce waiting time at the counter. It would be better if you add one more staff in the morning."
+        }
+      ]
+    },
+    {
+      "t": "Tư vấn sản phẩm tùy chỉnh",
+      "e": [
+        {
+          "p": "Do you want a standard product or a custom one?",
+          "m": "Chọn standard hoặc custom; Nói lý do ngắn cho lựa chọn.",
+          "h": "Use 'I want...' and 'because...' to explain.",
+          "s": "I want a custom product because it fits our special needs. Standard items are not enough."
+        },
+        {
+          "p": "What customization do you need?",
+          "m": "Nêu một thay đổi cụ thể (kích thước, màu, chức năng); Nói lý do cho thay đổi đó.",
+          "h": "Use 'I need...' and 'so that...' or 'because...'.",
+          "s": "I need a larger size for more storage. This is because we keep many files."
+        },
+        {
+          "p": "Custom work takes 2 weeks. Is that okay?",
+          "m": "Trả lời có/không; Nói nếu bạn cần giao sớm hơn và lý do.",
+          "h": "Use 'Yes/No' and 'I need it by...' with future simple if urgent.",
+          "s": "No, I need it sooner because of a deadline. I need it by next Friday."
+        },
+        {
+          "p": "We can test a sample before full production. Do you want a sample?",
+          "m": "Trả lời có/không; Nói nếu bạn muốn thay đổi sau khi xem mẫu.",
+          "h": "Use 'Yes/No' and 'I will...' to state next step.",
+          "s": "Yes, I want a sample first. I will request changes after I see it."
+        },
+        {
+          "p": "Do you agree with the additional cost for customization?",
+          "m": "Trả lời có/không; Nói nếu bạn cần giảm giá hoặc chia nhỏ thanh toán.",
+          "h": "Use 'I agree/don't agree' and 'but I need...' for condition.",
+          "s": "I agree with the extra cost but I need a discount. Can we split the payment into two parts?"
+        }
+      ]
+    },
+    {
+      "t": "Ôn tập: Tư vấn và giải pháp",
+      "e": [
+        {
+          "p": "A customer asks for a product suitable for outdoor use. What do you suggest?",
+          "m": "Đề xuất một sản phẩm cụ thể; Nói một lý do ngắn vì sao nó phù hợp.",
+          "h": "Use 'I suggest...' and 'because...' to explain.",
+          "s": "I suggest the Rugged Pro model for outdoor use. It is water-resistant and very durable."
+        },
+        {
+          "p": "The customer says they are on a tight budget. How do you respond?",
+          "m": "Đề xuất một lựa chọn rẻ hơn; Nói nếu bạn có khuyến mãi hoặc gợi ý trả góp.",
+          "h": "Use 'You can choose...' and 'we also offer...' or 'you can...' for installment.",
+          "s": "You can choose the Basic model which is cheaper. We also offer a small installment plan."
+        },
+        {
+          "p": "A client wants faster delivery than our standard time. What can you offer?",
+          "m": "Đưa ra một phương án giao hàng nhanh hơn; Nói chi phí hoặc điều kiện ngắn.",
+          "h": "Use 'We can...' and 'for an extra...' or 'if...'.",
+          "s": "We can arrange express delivery for an extra $20. It will arrive within two days if you agree."
+        },
+        {
+          "p": "Customer asks for a short warranty explanation. How do you explain it?",
+          "m": "Nói thời gian bảo hành; Nói điều kiện cơ bản (ví dụ: không bao gồm hư hỏng do người dùng).",
+          "h": "Use 'The warranty is...' and 'it covers...' or 'it does not cover...'.",
+          "s": "The warranty is two years for parts and labor. It does not cover damage caused by misuse."
+        },
+        {
+          "p": "They want help choosing between two colors. What do you advise?",
+          "m": "Đưa ra lời khuyên dựa trên mục đích sử dụng; Nói màu nào phù hợp hơn và vì sao.",
+          "h": "Use 'If you want... then...' or 'I think...' and 'because...'.",
+          "s": "If you want something that hides dirt, choose dark gray. I think dark gray is more practical because it is easy to clean."
+        }
+      ]
+    },
+    {
+      "t": "Ôn tập: Xử lý khiếu nại",
+      "e": [
+        {
+          "p": "A customer is upset about a late delivery. What do you say first?",
+          "m": "Xin lỗi ngắn; Nói bạn sẽ làm gì để giải quyết ngay.",
+          "h": "Use 'I'm sorry...' and 'I will...' to promise action.",
+          "s": "I'm sorry for the late delivery. I will check the order status and update you within an hour."
+        },
+        {
+          "p": "They ask for compensation. How do you reply?",
+          "m": "Nói bạn có thể đề nghị gì (giảm giá/hoàn tiền/miễn phí); Nói điều kiện ngắn nếu có.",
+          "h": "Use 'We can offer...' and 'if...' for conditions.",
+          "s": "We can offer a 15% discount on your next order. This applies if you accept the replacement now."
+        },
+        {
+          "p": "Customer wants to keep the damaged item and get a partial refund. Is that possible?",
+          "m": "Trả lời có/không; Nói phần trăm hoàn tiền hoặc lý do nếu không thể.",
+          "h": "Use 'Yes/No' and 'we will refund...' or 'we cannot...' with reason.",
+          "s": "Yes, we can offer a partial refund of 30%. This is because the item still works but has minor damage."
+        },
+        {
+          "p": "They request faster service next time. What do you promise?",
+          "m": "Hứa một hành động cải thiện ngắn; Nói thời gian hoặc điều kiện bạn sẽ thực hiện.",
+          "h": "Use 'We will...' and time phrase like 'next time' or 'within...'.",
+          "s": "We will prioritize your orders in the future. Next time, we will deliver within 48 hours when possible."
+        },
+        {
+          "p": "Customer asks how to make a formal complaint. What do you instruct?",
+          "m": "Nói nơi gửi khiếu nại (email/phone); Nói thông tin cần kèm (số đơn, hình ảnh).",
+          "h": "Use 'Please send...' and list items with 'and'.",
+          "s": "Please send an email to support@example.com. Include your order number and photos of the issue."
+        }
+      ]
+    },
+    {
+      "t": "Ôn tập: Tổng hợp giao dịch bán hàng",
+      "e": [
+        {
+          "p": "A walk-in customer asks about our best seller. What do you reply?",
+          "m": "Nói sản phẩm bán chạy nhất; Nói một lý do ngắn vì sao nó phổ biến.",
+          "h": "Use 'Our best seller is...' and 'because...'.",
+          "s": "Our best seller is the Comfort Chair. It is popular because it is comfortable and affordable."
+        },
+        {
+          "p": "They ask about payment options for large orders. What do you say?",
+          "m": "Liệt kê hai phương thức thanh toán; Nói nếu có ưu đãi khi thanh toán trước.",
+          "h": "Use 'You can pay by...' and 'we offer...' for prepayment benefits.",
+          "s": "You can pay by bank transfer or credit card. We offer a 5% discount for full prepayment."
+        },
+        {
+          "p": "Customer wants to schedule a product demo. How do you arrange it?",
+          "m": "Đề xuất một ngày hoặc ca; Nói thời gian và cách xác nhận (phone/email).",
+          "h": "Use 'How about...' and 'please confirm by...'.",
+          "s": "How about Wednesday afternoon for the demo? Please confirm by email and we will book the time."
+        },
+        {
+          "p": "They ask about return policy for online purchases. What do you explain?",
+          "m": "Nói thời gian đổi trả; Nói điều kiện chính (tình trạng hàng, hóa đơn).",
+          "h": "Use 'You can return within...' and 'if...' for condition.",
+          "s": "You can return items within 14 days of delivery. Returns are accepted if the item is unused and you have the receipt."
+        },
+        {
+          "p": "Before finishing, they ask if there is anything else to add. What final offer do you make?",
+          "m": "Đề nghị một dịch vụ bổ sung ngắn (gói bảo hành, giao hàng nhanh); Nói lợi ích ngắn của điều đó.",
+          "h": "Use 'Would you like...' and 'it will...' to show benefit.",
+          "s": "Would you like to add an extended warranty? It will give you extra protection for two more years."
+        }
+      ]
+    }
+  ]
+}

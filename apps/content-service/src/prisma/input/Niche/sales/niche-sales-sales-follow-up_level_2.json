@@ -1,0 +1,530 @@
+{
+  "l": 2,
+  "d": [
+    {
+      "t": "Gọi lại sau buổi tư vấn đầu tiên",
+      "e": [
+        {
+          "p": "Was the call helpful?",
+          "m": "Trả lời có hoặc không. Nói một lý do ngắn vì sao.",
+          "h": "Yes/No + reason (Present Simple).",
+          "s": "Yes, the call was helpful. The product is clear and looks good."
+        },
+        {
+          "p": "Do you still want the same product?",
+          "m": "Trả lời có hoặc không. Nếu không, nói bạn muốn gì.",
+          "h": "Answer Yes/No + want + noun.",
+          "s": "Yes, I want the same product. It is the right size for me."
+        },
+        {
+          "p": "Is the price OK for you?",
+          "m": "Nói giá có hợp không. Nói bạn thường mua khi giá như thế nào (dùng always/often/sometimes).",
+          "h": "Use: It is OK / It is not OK + frequency adverb.",
+          "s": "It is OK for me. I sometimes buy when the price is a bit lower."
+        },
+        {
+          "p": "Can I call you again next week?",
+          "m": "Trả lời đồng ý hay không. Nói ngày bạn rảnh bằng một từ (tomorrow/next week/every morning...).",
+          "h": "Use: Yes, you can / No + time phrase.",
+          "s": "Yes, you can call next week. I am free every morning."
+        },
+        {
+          "p": "Do you need any help to decide now?",
+          "m": "Nói bạn cần hay không. Nếu cần, nói một việc họ nên làm để giúp bạn.",
+          "h": "Use: I need / I don't need + to V or noun.",
+          "s": "I need some help. Please send a short message with the main features."
+        }
+      ]
+    },
+    {
+      "t": "Kiểm tra việc giao hàng",
+      "e": [
+        {
+          "p": "Did your package arrive?",
+          "m": "Trả lời có hoặc không. Nói nơi bạn nhận hàng (door/office/etc.).",
+          "h": "Use: Yes/No + place (at the door/at the office).",
+          "s": "Yes, the package arrived. I got it at the door."
+        },
+        {
+          "p": "Is the box in good condition?",
+          "m": "Nói hộp có tốt không. Nói một chi tiết (no hole, small dent...).",
+          "h": "Use: It is good / It is not good + short detail.",
+          "s": "It is good. There is no hole and it looks clean."
+        },
+        {
+          "p": "Did you open the package today?",
+          "m": "Trả lời có hay không. Nói bạn đang làm gì (present continuous).",
+          "h": "Use: Yes/No + I am + V-ing or I opened it.",
+          "s": "No, I did not open it yet. I am opening it now."
+        },
+        {
+          "p": "Are all items inside correct?",
+          "m": "Nói đúng hay sai. Nếu sai, nói tên một món thiếu hoặc sai.",
+          "h": "Use: They are correct / One item is missing + noun.",
+          "s": "They are correct. All items are here and work well."
+        },
+        {
+          "p": "Do you want us to change the delivery time?",
+          "m": "Trả lời có hoặc không. Nếu có, đề nghị một khung thời gian ngắn.",
+          "h": "Use: Yes, please / No, thank you + time phrase.",
+          "s": "Yes, please change it. Call me in the afternoon tomorrow."
+        }
+      ]
+    },
+    {
+      "t": "Hỏi về cảm nhận sau dùng thử",
+      "e": [
+        {
+          "p": "Did you try the product?",
+          "m": "Trả lời đã dùng hay chưa. Nói bạn đã dùng bao lâu (one day, one week...).",
+          "h": "Use: I tried / I did not try + time phrase.",
+          "s": "I tried it yesterday. I used it for one day so far."
+        },
+        {
+          "p": "How do you like it?",
+          "m": "Nói bạn thích hay không. Nói một tính từ ngắn (good/bad/useful).",
+          "h": "Use: I like it / I don't like it + adjective.",
+          "s": "I like it. It is useful and not heavy."
+        },
+        {
+          "p": "Is it easy to use?",
+          "m": "Trả lời dễ hay không. Nói một hành động bạn làm (to V).",
+          "h": "Use: It is easy / It is not easy + to V.",
+          "s": "It is easy to use. I can open it and start in one minute."
+        },
+        {
+          "p": "Do you feel any problem now?",
+          "m": "Nói có vấn đề không. Nếu có, mô tả vấn đề ngắn.",
+          "h": "Use: I have a problem / I don't have a problem + short detail.",
+          "s": "No, I don't have a problem. The product works fine."
+        },
+        {
+          "p": "Would you like another demo?",
+          "m": "Trả lời có hoặc không. Nói thời gian bạn rảnh ngắn gọn.",
+          "h": "Use: Yes/No + time phrase (tomorrow/next week).",
+          "s": "Yes, I would like another demo. I am free next week."
+        }
+      ]
+    },
+    {
+      "t": "Xác nhận đơn hàng và thời gian",
+      "e": [
+        {
+          "p": "Do you confirm your order?",
+          "m": "Trả lời xác nhận hay không. Nếu không, nói lý do ngắn.",
+          "h": "Use: I confirm / I don't confirm + reason.",
+          "s": "I confirm my order. The price and time are OK."
+        },
+        {
+          "p": "When should we deliver it?",
+          "m": "Chọn một ngày ngắn (today/tomorrow/next week). Nói giờ hoặc buổi (morning/afternoon).",
+          "h": "Use: Tomorrow morning / Next week afternoon etc.",
+          "s": "Please deliver tomorrow morning. I am free from nine to eleven."
+        },
+        {
+          "p": "Do you need gift wrap?",
+          "m": "Trả lời có hoặc không. Nếu có, nói màu hoặc kiểu ngắn (simple/blue).",
+          "h": "Use: Yes, please / No, thank you + adjective.",
+          "s": "No, thank you. Simple wrap is fine if needed."
+        },
+        {
+          "p": "Should we send a confirmation email?",
+          "m": "Trả lời có hoặc không. Nếu có, nói bạn kiểm tra email thường xuyên hay không (often/sometimes).",
+          "h": "Use: Yes, send + frequency adverb.",
+          "s": "Yes, send the email. I often check my email."
+        },
+        {
+          "p": "Do you want to add a small accessory?",
+          "m": "Nói có muốn hay không. Nếu muốn, tên một món nhỏ (bag/case).",
+          "h": "Use: I want / I don't want + noun.",
+          "s": "I want a small case. It is useful and not expensive."
+        }
+      ]
+    },
+    {
+      "t": "Tư vấn thêm về sản phẩm",
+      "e": [
+        {
+          "p": "Would you like a bigger size?",
+          "m": "Trả lời có hoặc không. Nói kích thước bạn cần (big/small).",
+          "h": "Use: Yes, I want + big/small.",
+          "s": "No, I want the small size. It fits my desk better."
+        },
+        {
+          "p": "Do you like the color options?",
+          "m": "Nói bạn thích hay không. Nói màu bạn thích (blue/white/black).",
+          "h": "Use: I like / I don't like + color.",
+          "s": "I like the white color. It looks clean and pretty."
+        },
+        {
+          "p": "Is the feature A useful for you?",
+          "m": "Trả lời có hoặc không. Nói một lý do ngắn bằng present simple.",
+          "h": "Use: It is useful / It is not useful + reason.",
+          "s": "It is useful for me. I use it every morning."
+        },
+        {
+          "p": "Do you want a short demo of the new feature?",
+          "m": "Trả lời có hoặc không. Nếu có, nói khi nào bạn rảnh (today/tomorrow).",
+          "h": "Use: Yes, please + time phrase.",
+          "s": "Yes, please demo it tomorrow. I am free in the afternoon."
+        },
+        {
+          "p": "Would you buy a package with a discount?",
+          "m": "Trả lời có hoặc không. Nói bạn luôn mua khi có giảm giá hay không (always/sometimes).",
+          "h": "Use: I would / I would not + frequency adverb.",
+          "s": "I would buy with a discount. I sometimes buy when the price is lower."
+        }
+      ]
+    },
+    {
+      "t": "Hẹn lịch cuộc gọi tiếp theo",
+      "e": [
+        {
+          "p": "Can we book a call for next Monday?",
+          "m": "Trả lời có hoặc không. Nói buổi bạn rảnh (morning/afternoon).",
+          "h": "Use: Yes/No + time (morning/afternoon).",
+          "s": "Yes, that is fine. I am free Monday morning."
+        },
+        {
+          "p": "Do you prefer phone or video call?",
+          "m": "Chọn phone hoặc video. Nói lý do ngắn (I like phone because...).",
+          "h": "Use: I prefer + phone/video + short reason.",
+          "s": "I prefer a video call. It is easy to see the product."
+        },
+        {
+          "p": "Should we set a 15 minute call?",
+          "m": "Trả lời đồng ý hay không. Nếu không, đề nghị thời gian khác ngắn (30 minutes).",
+          "h": "Use: Yes, + duration / No, + other time.",
+          "s": "Yes, 15 minutes is OK. If more time is needed, we can add 10 minutes."
+        },
+        {
+          "p": "Is Friday afternoon good for you?",
+          "m": "Trả lời có hoặc không. Nếu không, đề nghị một ngày khác ngắn.",
+          "h": "Use: Yes/No + other day.",
+          "s": "No, Friday afternoon is busy. Please call on next Wednesday."
+        },
+        {
+          "p": "Do you want a reminder before the call?",
+          "m": "Trả lời có hoặc không. Nếu có, nói khi bạn muốn được nhắc (one day before/one hour before).",
+          "h": "Use: Yes, please + time before.",
+          "s": "Yes, please send a reminder one day before. I will check my schedule then."
+        }
+      ]
+    },
+    {
+      "t": "Giải quyết vấn đề nhỏ",
+      "e": [
+        {
+          "p": "Is the product broken?",
+          "m": "Trả lời có hoặc không. Nếu có, mô tả vấn đề ngắn (not turn on, small crack).",
+          "h": "Use: Yes/No + short problem.",
+          "s": "No, it is not broken. It turns on and works well."
+        },
+        {
+          "p": "Can you send a photo of the issue?",
+          "m": "Trả lời bạn có thể gửi hay không. Nếu có, nói bạn sẽ gửi khi nào (now/tomorrow).",
+          "h": "Use: I can / I cannot + time phrase.",
+          "s": "I can send a photo now. It shows a small scratch."
+        },
+        {
+          "p": "Would you like a replacement?",
+          "m": "Trả lời có hoặc không. Nếu không, đề nghị bạn muốn sửa hay hoàn tiền.",
+          "h": "Use: I want + replacement/repair/refund.",
+          "s": "I would like a replacement. Please send the new one soon."
+        },
+        {
+          "p": "Do you need help to set it up?",
+          "m": "Trả lời có hoặc không. Nếu có, nói bạn rảnh để ai hướng dẫn (now/tomorrow).",
+          "h": "Use: I need / I don't need + time phrase.",
+          "s": "Yes, I need help now. I am ready to call in five minutes."
+        },
+        {
+          "p": "Is a small discount OK for the trouble?",
+          "m": "Trả lời có hoặc không. Nói bạn luôn chấp nhận giảm giá nhỏ hay không (usually/sometimes).",
+          "h": "Use: Yes/No + frequency adverb if needed.",
+          "s": "Yes, a small discount is OK. I usually accept a small refund."
+        }
+      ]
+    },
+    {
+      "t": "Hỏi về tần suất sử dụng",
+      "e": [
+        {
+          "p": "Do you use the product every day?",
+          "m": "Trả lời có hoặc không. Nói tần suất bạn dùng (always/often/sometimes/never).",
+          "h": "Use: Yes/No + frequency adverb.",
+          "s": "No, I don't use it every day. I use it sometimes."
+        },
+        {
+          "p": "How many times a week do you use it?",
+          "m": "Nói số lần mỗi tuần. Nói một hoạt động bạn làm khi dùng (to V).",
+          "h": "Use: I use it + number + times a week. + to V.",
+          "s": "I use it three times a week. I use it to clean my small room."
+        },
+        {
+          "p": "Are you still using the old model?",
+          "m": "Trả lời có hoặc không. Nếu có, nói lý do ngắn (it is simple/cheap).",
+          "h": "Use: Yes/No + short reason.",
+          "s": "No, I am not using the old model. The new one is better and easy to use."
+        },
+        {
+          "p": "Do you prefer to use it at home or at work?",
+          "m": "Chọn home hoặc work. Nói lý do ngắn (it is quiet/it is useful).",
+          "h": "Use: I prefer + home/work + short reason.",
+          "s": "I prefer to use it at home. My home is quiet and I feel comfortable."
+        },
+        {
+          "p": "Will you keep using it in the next month?",
+          "m": "Trả lời có hoặc không. Nói bạn thường tiếp tục hay dừng (usually/never).",
+          "h": "Use: I will / I will not + frequency adverb.",
+          "s": "Yes, I will keep using it next month. I usually use it every week."
+        }
+      ]
+    },
+    {
+      "t": "Hỏi ý kiến để cải thiện dịch vụ",
+      "e": [
+        {
+          "p": "Do you like our service?",
+          "m": "Trả lời có hoặc không. Nói một điều bạn thích nhất.",
+          "h": "Use: I like / I don't like + short detail.",
+          "s": "I like your service. The staff is friendly."
+        },
+        {
+          "p": "What can we do better?",
+          "m": "Nói một việc họ có thể làm tốt hơn. Dùng một câu ngắn.",
+          "h": "Use: Please + V or You can + V.",
+          "s": "You can send faster updates. Please call if there is a delay."
+        },
+        {
+          "p": "Is our information clear on the website?",
+          "m": "Trả lời rõ hay không. Nếu không, nói phần nào cần rõ hơn (price/shipping).",
+          "h": "Use: It is clear / It is not clear + part.",
+          "s": "It is not clear. The shipping price needs more detail."
+        },
+        {
+          "p": "Would you tell a friend about us?",
+          "m": "Trả lời có hoặc không. Nói bạn thường giới thiệu khi nào (when happy/often).",
+          "h": "Use: I would / I would not + condition.",
+          "s": "Yes, I would tell a friend. I usually tell friends when I am happy."
+        },
+        {
+          "p": "Can we call you for more feedback later?",
+          "m": "Trả lời có hoặc không. Nếu có, nói khi nào phù hợp (next week/one month).",
+          "h": "Use: Yes, call me + time phrase.",
+          "s": "Yes, call me next week. I am free in the morning."
+        }
+      ]
+    },
+    {
+      "t": "Nhắc nhở về thanh toán",
+      "e": [
+        {
+          "p": "Have you made the payment?",
+          "m": "Trả lời đã thanh toán hay chưa. Nếu đã, nói khi nào (today/yesterday).",
+          "h": "Use: Yes, I have / No, I have not + time.",
+          "s": "No, I have not paid yet. I will pay tomorrow."
+        },
+        {
+          "p": "Do you want to pay now by card?",
+          "m": "Trả lời có hoặc không. Nếu không, nói cách khác bạn muốn (bank transfer/cash).",
+          "h": "Use: Yes/No + payment method.",
+          "s": "No, I prefer bank transfer. I will send it tonight."
+        },
+        {
+          "p": "Is the invoice OK for you?",
+          "m": "Trả lời có hoặc không. Nếu không, nói chi tiết cần sửa (name/price).",
+          "h": "Use: It is OK / It is not OK + detail.",
+          "s": "It is not OK. Please fix the name on the invoice."
+        },
+        {
+          "p": "Can you confirm the payment date?",
+          "m": "Nói ngày bạn sẽ thanh toán (today/tomorrow/next week). Nói khung giờ ngắn nếu cần.",
+          "h": "Use: I will pay + time phrase.",
+          "s": "I will pay tomorrow. I will do it in the morning."
+        },
+        {
+          "p": "Do you need a receipt by email?",
+          "m": "Trả lời có hoặc không. Nếu có, nói bạn kiểm tra email thường xuyên hay không (often/sometimes).",
+          "h": "Use: Yes/No + frequency adverb.",
+          "s": "Yes, I need a receipt by email. I often check my email."
+        }
+      ]
+    },
+    {
+      "t": "Gợi ý sản phẩm thay thế",
+      "e": [
+        {
+          "p": "The item is out of stock, OK to suggest another?",
+          "m": "Trả lời đồng ý hay không. Nếu không, nói bạn muốn chờ hay hủy.",
+          "h": "Use: Yes/No + wait/cancel.",
+          "s": "Yes, please suggest another. I don't want to wait."
+        },
+        {
+          "p": "Do you like this alternative option?",
+          "m": "Trả lời thích hay không. Nói một lý do ngắn (price/size/color).",
+          "h": "Use: I like / I don't like + reason.",
+          "s": "I like this option. The price is good for me."
+        },
+        {
+          "p": "Should we send both options for you to choose?",
+          "m": "Trả lời có hoặc không. Nếu có, nói bạn sẽ trả lời khi nào (today/tomorrow).",
+          "h": "Use: Yes/No + time phrase.",
+          "s": "Yes, send both options. I will reply tomorrow."
+        },
+        {
+          "p": "Do you want the cheaper model instead?",
+          "m": "Trả lời có hoặc không. Nếu có, nói bạn muốn tiết kiệm hay có lý do khác.",
+          "h": "Use: I want / I don't want + reason.",
+          "s": "No, I don't want the cheaper model. I need better quality."
+        },
+        {
+          "p": "Can we reserve the suggested item for you?",
+          "m": "Trả lời có hoặc không. Nếu có, nói bạn sẽ nhận hàng khi nào (next week/tomorrow).",
+          "h": "Use: Yes/No + receive time.",
+          "s": "Yes, please reserve it. I will pick it up next week."
+        }
+      ]
+    },
+    {
+      "t": "Cảm ơn và giữ liên lạc",
+      "e": [
+        {
+          "p": "Thank you for your time today.",
+          "m": "Nói 'You are welcome' hoặc cảm ơn ngắn. Nói bạn muốn gì tiếp theo (call/email).",
+          "h": "Use: You are welcome / Thank you + next action.",
+          "s": "You are welcome. Please send an email with the details."
+        },
+        {
+          "p": "Can we keep in touch by message?",
+          "m": "Trả lời có hoặc không. Nói bạn kiểm tra tin nhắn often/sometimes.",
+          "h": "Use: Yes/No + frequency adverb.",
+          "s": "Yes, keep in touch by message. I check messages often."
+        },
+        {
+          "p": "Would you like occasional offers from us?",
+          "m": "Trả lời có hoặc không. Nói bạn thường nhận ưu đãi khi nào (when cheap/when needed).",
+          "h": "Use: I would / I would not + condition.",
+          "s": "Yes, I would like offers. I buy when the price is good."
+        },
+        {
+          "p": "Is it OK if we send a short survey later?",
+          "m": "Trả lời có hoặc không. Nếu có, nói bạn sẽ trả lời sometimes/always.",
+          "h": "Use: Yes/No + frequency adverb.",
+          "s": "Yes, it is OK. I sometimes answer short surveys."
+        },
+        {
+          "p": "Any last question for us before we finish?",
+          "m": "Nói một câu hỏi ngắn nếu có. Nếu không, nói 'No' và cảm ơn.",
+          "h": "Use: One short question or 'No' + thank you.",
+          "s": "No, I have no more questions. Thank you and have a good day."
+        }
+      ]
+    },
+    {
+      "t": "Ôn tập: Tương tác sau bán hàng 1",
+      "e": [
+        {
+          "p": "We called last week; did you get the package?",
+          "m": "Trả lời nhận hay chưa. Nói bạn nhận ở đâu (door/office).",
+          "h": "Use: Yes/No + place.",
+          "s": "Yes, I got the package. I received it at the door."
+        },
+        {
+          "p": "Do you like the product after one week?",
+          "m": "Nói bạn thích hay không. Nói một lý do ngắn (easy/useful).",
+          "h": "Use: I like / I don't like + reason.",
+          "s": "I like it. It is easy and useful."
+        },
+        {
+          "p": "Should we schedule a call to help setup?",
+          "m": "Trả lời có hoặc không. Nếu có, cho biết thời gian (tomorrow/morning).",
+          "h": "Use: Yes/No + time phrase.",
+          "s": "Yes, please call tomorrow morning. I am free then."
+        },
+        {
+          "p": "Would you tell a friend about this product?",
+          "m": "Trả lời có hoặc không. Nói bạn thường chia sẻ khi nào (when happy).",
+          "h": "Use: I would / I would not + condition.",
+          "s": "Yes, I would tell a friend. I tell friends when I am happy."
+        },
+        {
+          "p": "Can we close this case now?",
+          "m": "Trả lời đóng hay tiếp tục. Nếu tiếp tục, nói bạn muốn họ làm gì tiếp theo.",
+          "h": "Use: Yes, close / No, continue + next action.",
+          "s": "No, do not close yet. Please send a small update next week."
+        }
+      ]
+    },
+    {
+      "t": "Ôn tập: Tương tác sau bán hàng 2",
+      "e": [
+        {
+          "p": "We see a small issue in your order, can you confirm?",
+          "m": "Trả lời có hoặc không. Nếu có, mô tả ngắn bạn thấy vấn đề gì.",
+          "h": "Use: Yes/No + short problem.",
+          "s": "Yes, I see a small issue. One item is missing from the box."
+        },
+        {
+          "p": "Do you want a replacement or a refund?",
+          "m": "Chọn replacement hoặc refund. Nói lý do ngắn.",
+          "h": "Use: I want + replacement/refund + reason.",
+          "s": "I want a replacement. I need the full set for work."
+        },
+        {
+          "p": "Can we refund to your card today?",
+          "m": "Trả lời có hoặc không. Nếu không, nói phương án khác (bank transfer).",
+          "h": "Use: Yes/No + other method.",
+          "s": "No, please use bank transfer. I prefer transfer to my bank."
+        },
+        {
+          "p": "Is a quick fix OK until we send a new item?",
+          "m": "Trả lời có hoặc không. Nếu có, mô tả bạn làm việc đó được không (yes/no).",
+          "h": "Use: Yes/No + short action.",
+          "s": "Yes, a quick fix is OK. I can use tape for now."
+        },
+        {
+          "p": "Shall we call you when the new item ships?",
+          "m": "Trả lời có hoặc không. Nếu có, nói thời gian rảnh ngắn.",
+          "h": "Use: Yes/No + time phrase.",
+          "s": "Yes, call me when it ships. I am free in the afternoon."
+        }
+      ]
+    },
+    {
+      "t": "Ôn tập: Tương tác sau bán hàng 3",
+      "e": [
+        {
+          "p": "We sent a short guide, did you read it?",
+          "m": "Trả lời đọc hay chưa. Nếu có, nói bạn hiểu hay cần giúp.",
+          "h": "Use: I read it / I did not read it + understand/help.",
+          "s": "Yes, I read the guide. I understand most and need a small help."
+        },
+        {
+          "p": "Do you prefer email or phone help?",
+          "m": "Chọn email hoặc phone. Nói lý do ngắn (easy/fast).",
+          "h": "Use: I prefer + email/phone + reason.",
+          "s": "I prefer email help. It is easy for me to read later."
+        },
+        {
+          "p": "Is the replacement arriving on time for you?",
+          "m": "Trả lời có hoặc không. Nếu không, nói khi bạn cần hàng (date/next week).",
+          "h": "Use: Yes/No + needed time.",
+          "s": "No, it is late for me. I need it next week."
+        },
+        {
+          "p": "Would you like a small gift for the trouble?",
+          "m": "Trả lời có hoặc không. Nếu có, nói bạn thường chấp nhận khi nào (when small).",
+          "h": "Use: Yes/No + condition.",
+          "s": "Yes, I would like a small gift. I accept when the gift is simple."
+        },
+        {
+          "p": "Can we finish the support now?",
+          "m": "Trả lời xong hay cần tiếp. Nếu cần tiếp, nói việc cụ thể cần làm tiếp.",
+          "h": "Use: Yes/No + next step.",
+          "s": "Yes, we can finish now. Thank you for the fast help."
+        }
+      ]
+    }
+  ]
+}

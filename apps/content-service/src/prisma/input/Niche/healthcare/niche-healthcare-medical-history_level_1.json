@@ -1,0 +1,495 @@
+{
+  "l": 1,
+  "d": [
+    {
+      "t": "Lần đầu đến bệnh viện",
+      "e": [
+        {
+          "p": "What is your name?",
+          "m": "Nói tên của bạn.",
+          "h": "Use 'My name is ...'.",
+          "s": "My name is [studentName]."
+        },
+        {
+          "p": "How old are you?",
+          "m": "Nói tuổi của bạn.",
+          "h": "Use 'I am ... years old.'",
+          "s": "I am [studentAge] years old."
+        },
+        {
+          "p": "Where do you live?",
+          "m": "Nói thành phố bạn sống.",
+          "h": "Use 'I live in ...'.",
+          "s": "I live in [studentCity]."
+        },
+        {
+          "p": "Do you have a regular doctor?",
+          "m": "Trả lời có hoặc không.",
+          "h": "Use 'Yes, I do.' or 'No, I don't.'",
+          "s": "No, I don't."
+        },
+        {
+          "p": "Do you take any medicine now?",
+          "m": "Trả lời có hoặc không.",
+          "h": "Use 'Yes, I do.' or 'No, I don't.'",
+          "s": "No, I don't."
+        }
+      ]
+    },
+    {
+      "t": "Các bệnh trước đây",
+      "e": [
+        {
+          "p": "Do you often have a cold?",
+          "m": "Trả lời yes hoặc no.",
+          "h": "Use 'Yes, I do.' or 'No, I don't.'",
+          "s": "Yes, I do."
+        },
+        {
+          "p": "Do you get a headache often?",
+          "m": "Trả lời yes hoặc no.",
+          "h": "Use 'I have...' or 'I don't have...'.",
+          "s": "I have a headache sometimes."
+        },
+        {
+          "p": "Do you have stomach pain now?",
+          "m": "Nói yes nếu đau, no nếu không.",
+          "h": "Use 'Yes, I do.' or 'No, I don't.'",
+          "s": "No, I don't."
+        },
+        {
+          "p": "Do you have a long-term illness?",
+          "m": "Trả lời có hoặc không.",
+          "h": "Use 'Yes, I do.' or 'No, I don't.'",
+          "s": "No, I don't."
+        },
+        {
+          "p": "Do you see a doctor often?",
+          "m": "Nói yes nếu có, no nếu không.",
+          "h": "Use 'Yes, I do.' or 'No, I don't.'",
+          "s": "No, I don't."
+        }
+      ]
+    },
+    {
+      "t": "Thuốc bạn đang dùng",
+      "e": [
+        {
+          "p": "Do you take any medicine today?",
+          "m": "Trả lời yes hoặc no.",
+          "h": "Use 'Yes, I do.' or 'No, I don't.'",
+          "s": "No, I don't."
+        },
+        {
+          "p": "Do you take medicine every day?",
+          "m": "Trả lời thường xuyên hay không.",
+          "h": "Use 'I take...' or 'I don't take...'.",
+          "s": "I don't take medicine every day."
+        },
+        {
+          "p": "Do you take medicine for pain?",
+          "m": "Nói yes nếu có, no nếu không.",
+          "h": "Use 'Yes, I do.' or 'No, I don't.'",
+          "s": "Yes, I do."
+        },
+        {
+          "p": "Do you take vitamins?",
+          "m": "Trả lời yes hoặc no.",
+          "h": "Use 'Yes, I do.' or 'No, I don't.'",
+          "s": "No, I don't."
+        },
+        {
+          "p": "Do you need help with your medicine?",
+          "m": "Trả lời yes hoặc no.",
+          "h": "Use 'Yes, I do.' or 'No, I don't.'",
+          "s": "No, I don't."
+        }
+      ]
+    },
+    {
+      "t": "Dị ứng và phản ứng",
+      "e": [
+        {
+          "p": "Do you have any allergies?",
+          "m": "Trả lời yes hoặc no.",
+          "h": "Use 'Yes, I do.' or 'No, I don't.'",
+          "s": "No, I don't."
+        },
+        {
+          "p": "Are you allergic to any medicine?",
+          "m": "Nói yes nếu dị ứng, no nếu không.",
+          "h": "Use 'Yes, I am.' or 'No, I am not.'",
+          "s": "No, I am not."
+        },
+        {
+          "p": "Do you have a food allergy?",
+          "m": "Trả lời có hoặc không.",
+          "h": "Use 'Yes, I do.' or 'No, I don't.'",
+          "s": "No, I don't."
+        },
+        {
+          "p": "Do you get a rash when you take medicine?",
+          "m": "Trả lời có hoặc không.",
+          "h": "Use 'Yes, I do.' or 'No, I don't.'",
+          "s": "No, I don't."
+        },
+        {
+          "p": "Do you know what causes your allergy?",
+          "m": "Nói yes nếu biết, no nếu không.",
+          "h": "Use 'Yes, I do.' or 'No, I don't.'",
+          "s": "No, I don't."
+        }
+      ]
+    },
+    {
+      "t": "Đau và triệu chứng hiện tại",
+      "e": [
+        {
+          "p": "Do you have pain now?",
+          "m": "Trả lời yes hoặc no.",
+          "h": "Use 'Yes, I do.' or 'No, I don't.'",
+          "s": "Yes, I do."
+        },
+        {
+          "p": "Is your pain in your head?",
+          "m": "Trả lời yes hoặc no.",
+          "h": "Use 'Yes, it is.' or 'No, it is not.'",
+          "s": "No, it is not."
+        },
+        {
+          "p": "Is your stomach hurt?",
+          "m": "Trả lời yes hoặc no.",
+          "h": "Use 'Yes, it does.' or 'No, it doesn't.'",
+          "s": "Yes, it does."
+        },
+        {
+          "p": "Do you have a fever now?",
+          "m": "Trả lời có sốt hay không.",
+          "h": "Use 'Yes, I do.' or 'No, I don't.'",
+          "s": "No, I don't."
+        },
+        {
+          "p": "Do you have a cough?",
+          "m": "Trả lời có ho hay không.",
+          "h": "Use 'Yes, I do.' or 'No, I don't.'",
+          "s": "No, I don't."
+        }
+      ]
+    },
+    {
+      "t": "Tiền sử gia đình",
+      "e": [
+        {
+          "p": "Do any family members have health problems?",
+          "m": "Trả lời yes hoặc no.",
+          "h": "Use 'Yes, they do.' or 'No, they don't.'",
+          "s": "No, they don't."
+        },
+        {
+          "p": "Does your mother have health problems?",
+          "m": "Trả lời yes hoặc no.",
+          "h": "Use 'Yes, she does.' or 'No, she doesn't.'",
+          "s": "No, she doesn't."
+        },
+        {
+          "p": "Does your father have health problems?",
+          "m": "Trả lời yes hoặc no.",
+          "h": "Use 'Yes, he does.' or 'No, he doesn't.'",
+          "s": "No, he doesn't."
+        },
+        {
+          "p": "Do your siblings have allergies?",
+          "m": "Trả lời yes hoặc no.",
+          "h": "Use 'Yes, they do.' or 'No, they don't.'",
+          "s": "No, they don't."
+        },
+        {
+          "p": "Do you tell your family about your health?",
+          "m": "Trả lời yes hoặc no.",
+          "h": "Use 'Yes, I do.' or 'No, I don't.'",
+          "s": "Yes, I do."
+        }
+      ]
+    },
+    {
+      "t": "Thói quen hàng ngày và sức khỏe",
+      "e": [
+        {
+          "p": "Do you sleep well every night?",
+          "m": "Trả lời có ngủ ngon hay không.",
+          "h": "Use 'Yes, I do.' or 'No, I don't.'",
+          "s": "No, I don't."
+        },
+        {
+          "p": "Do you eat fruits every day?",
+          "m": "Trả lời có hay không.",
+          "h": "Use 'Yes, I do.' or 'No, I don't.'",
+          "s": "No, I don't."
+        },
+        {
+          "p": "Do you drink water in the morning?",
+          "m": "Trả lời có hay không.",
+          "h": "Use 'Yes, I do.' or 'No, I don't.'",
+          "s": "Yes, I do."
+        },
+        {
+          "p": "Do you smoke?",
+          "m": "Trả lời yes hoặc no.",
+          "h": "Use 'Yes, I do.' or 'No, I don't.'",
+          "s": "No, I don't."
+        },
+        {
+          "p": "Do you exercise this week?",
+          "m": "Trả lời có tập hay không.",
+          "h": "Use 'Yes, I do.' or 'No, I don't.'",
+          "s": "No, I don't."
+        }
+      ]
+    },
+    {
+      "t": "Chế độ dùng thuốc hàng ngày",
+      "e": [
+        {
+          "p": "Do you take medicine in the morning?",
+          "m": "Trả lời yes hoặc no.",
+          "h": "Use 'Yes, I do.' or 'No, I don't.'",
+          "s": "No, I don't."
+        },
+        {
+          "p": "Do you take medicine at night?",
+          "m": "Trả lời yes hoặc no.",
+          "h": "Use 'Yes, I do.' or 'No, I don't.'",
+          "s": "No, I don't."
+        },
+        {
+          "p": "Do you forget your medicine?",
+          "m": "Trả lời thường quên hay không.",
+          "h": "Use 'I forget' or 'I do not forget'.",
+          "s": "I forget sometimes."
+        },
+        {
+          "p": "Do you take medicine with food?",
+          "m": "Trả lời có hay không.",
+          "h": "Use 'Yes, I do.' or 'No, I don't.'",
+          "s": "No, I don't."
+        },
+        {
+          "p": "Do you need a medicine note?",
+          "m": "Trả lời yes hoặc no.",
+          "h": "Use 'Yes, I do.' or 'No, I don't.'",
+          "s": "No, I don't."
+        }
+      ]
+    },
+    {
+      "t": "Khám răng và đau răng",
+      "e": [
+        {
+          "p": "Do you have a toothache now?",
+          "m": "Trả lời yes hoặc no.",
+          "h": "Use 'Yes, I do.' or 'No, I don't.'",
+          "s": "No, I don't."
+        },
+        {
+          "p": "Do you go to the dentist often?",
+          "m": "Trả lời có hay không.",
+          "h": "Use 'Yes, I do.' or 'No, I don't.'",
+          "s": "No, I don't."
+        },
+        {
+          "p": "Do you brush your teeth every day?",
+          "m": "Trả lời có hay không.",
+          "h": "Use 'Yes, I do.' or 'No, I don't.'",
+          "s": "Yes, I do."
+        },
+        {
+          "p": "Do you have a loose tooth?",
+          "m": "Trả lời có hay không.",
+          "h": "Use 'Yes, I do.' or 'No, I don't.'",
+          "s": "No, I don't."
+        },
+        {
+          "p": "Do you have pain when you eat?",
+          "m": "Trả lời yes hoặc no.",
+          "h": "Use 'Yes, I do.' or 'No, I don't.'",
+          "s": "No, I don't."
+        }
+      ]
+    },
+    {
+      "t": "Khám mắt và vấn đề thị lực",
+      "e": [
+        {
+          "p": "Do you wear glasses?",
+          "m": "Trả lời có hoặc không.",
+          "h": "Use 'Yes, I do.' or 'No, I don't.'",
+          "s": "No, I don't."
+        },
+        {
+          "p": "Do you see blurry now?",
+          "m": "Trả lời có nhìn mờ hay không.",
+          "h": "Use 'Yes, I do.' or 'No, I don't.'",
+          "s": "No, I don't."
+        },
+        {
+          "p": "Do you have eye pain?",
+          "m": "Trả lời yes hoặc no.",
+          "h": "Use 'Yes, I do.' or 'No, I don't.'",
+          "s": "No, I don't."
+        },
+        {
+          "p": "Do you go to the eye doctor?",
+          "m": "Trả lời có hay không.",
+          "h": "Use 'Yes, I do.' or 'No, I don't.'",
+          "s": "No, I don't."
+        },
+        {
+          "p": "Do lights bother your eyes?",
+          "m": "Trả lời yes hoặc no.",
+          "h": "Use 'Yes, they do.' or 'No, they don't.'",
+          "s": "No, they don't."
+        }
+      ]
+    },
+    {
+      "t": "Lịch tiêm chủng cơ bản",
+      "e": [
+        {
+          "p": "Do you have your vaccines?",
+          "m": "Trả lời yes hoặc no.",
+          "h": "Use 'Yes, I do.' or 'No, I don't.'",
+          "s": "Yes, I do."
+        },
+        {
+          "p": "Do you get a shot this year?",
+          "m": "Trả lời có hay không.",
+          "h": "Use 'Yes, I do.' or 'No, I don't.'",
+          "s": "No, I don't."
+        },
+        {
+          "p": "Do you have a vaccine card?",
+          "m": "Trả lời có hay không.",
+          "h": "Use 'Yes, I do.' or 'No, I don't.'",
+          "s": "No, I don't."
+        },
+        {
+          "p": "Do you feel OK after a shot?",
+          "m": "Trả lời có hay không.",
+          "h": "Use 'Yes, I do.' or 'No, I don't.'",
+          "s": "Yes, I do."
+        },
+        {
+          "p": "Do you ask the nurse questions?",
+          "m": "Trả lời có hỏi hay không.",
+          "h": "Use 'Yes, I do.' or 'No, I don't.'",
+          "s": "No, I don't."
+        }
+      ]
+    },
+    {
+      "t": "Ôn tập: Khai bệnh cá nhân",
+      "e": [
+        {
+          "p": "What is your name?",
+          "m": "Nói tên của bạn.",
+          "h": "Use 'My name is ...'.",
+          "s": "My name is [studentName]."
+        },
+        {
+          "p": "How old are you?",
+          "m": "Nói tuổi của bạn.",
+          "h": "Use 'I am ... years old.'",
+          "s": "I am [studentAge] years old."
+        },
+        {
+          "p": "Do you have a fever now?",
+          "m": "Trả lời có sốt hay không.",
+          "h": "Use 'Yes, I do.' or 'No, I don't.'",
+          "s": "No, I don't."
+        },
+        {
+          "p": "Do you have a cold often?",
+          "m": "Trả lời có hay không.",
+          "h": "Use 'Yes, I do.' or 'No, I don't.'",
+          "s": "Yes, I do."
+        },
+        {
+          "p": "Do you take medicine now?",
+          "m": "Trả lời yes hoặc no.",
+          "h": "Use 'Yes, I do.' or 'No, I don't.'",
+          "s": "No, I don't."
+        }
+      ]
+    },
+    {
+      "t": "Ôn tập: Dị ứng và thuốc",
+      "e": [
+        {
+          "p": "Do you have any allergies?",
+          "m": "Trả lời có hay không.",
+          "h": "Use 'Yes, I do.' or 'No, I don't.'",
+          "s": "No, I don't."
+        },
+        {
+          "p": "Are you allergic to medicine?",
+          "m": "Trả lời có hay không.",
+          "h": "Use 'Yes, I am.' or 'No, I am not.'",
+          "s": "No, I am not."
+        },
+        {
+          "p": "Do you take medicine every day?",
+          "m": "Trả lời có hay không.",
+          "h": "Use 'I take...' or 'I don't take...'.",
+          "s": "I don't take medicine every day."
+        },
+        {
+          "p": "Do you get a rash with medicine?",
+          "m": "Trả lời có hay không.",
+          "h": "Use 'Yes, I do.' or 'No, I don't.'",
+          "s": "No, I don't."
+        },
+        {
+          "p": "Do you tell the nurse about allergies?",
+          "m": "Trả lời có hay không.",
+          "h": "Use 'Yes, I do.' or 'No, I don't.'",
+          "s": "Yes, I do."
+        }
+      ]
+    },
+    {
+      "t": "Ôn tập: Tóm tắt tiền sử bệnh",
+      "e": [
+        {
+          "p": "Do you have any health problems now?",
+          "m": "Trả lời có hay không.",
+          "h": "Use 'Yes, I do.' or 'No, I don't.'",
+          "s": "No, I don't."
+        },
+        {
+          "p": "Do you take medicine now?",
+          "m": "Trả lời có hay không.",
+          "h": "Use 'Yes, I do.' or 'No, I don't.'",
+          "s": "No, I don't."
+        },
+        {
+          "p": "Do you have allergies?",
+          "m": "Trả lời có hay không.",
+          "h": "Use 'Yes, I do.' or 'No, I don't.'",
+          "s": "No, I don't."
+        },
+        {
+          "p": "Do you sleep well?",
+          "m": "Trả lời có hay không.",
+          "h": "Use 'Yes, I do.' or 'No, I don't.'",
+          "s": "No, I don't."
+        },
+        {
+          "p": "Do you need a doctor now?",
+          "m": "Trả lời yes hoặc no.",
+          "h": "Use 'Yes, I do.' or 'No, I don't.'",
+          "s": "No, I don't."
+        }
+      ]
+    }
+  ]
+}

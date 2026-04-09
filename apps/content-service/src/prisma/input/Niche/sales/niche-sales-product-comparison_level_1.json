@@ -1,0 +1,530 @@
+{
+  "l": 1,
+  "d": [
+    {
+      "t": "So sánh điện thoại",
+      "e": [
+        {
+          "p": "Which phone do you like?",
+          "m": "Nói tên điện thoại bạn thích.",
+          "h": "I like + tên đồ vật.",
+          "s": "I like Phone A."
+        },
+        {
+          "p": "Is our phone cheap?",
+          "m": "Nói nếu điện thoại này rẻ hoặc không.",
+          "h": "It is / It is not + cheap.",
+          "s": "It is cheap."
+        },
+        {
+          "p": "Which phone has a long battery?",
+          "m": "Nói điện thoại nào có pin lâu.",
+          "h": "X has a long battery.",
+          "s": "Phone A has a long battery."
+        },
+        {
+          "p": "Which phone is better than the other?",
+          "m": "Nói điện thoại nào tốt hơn và một lý do ngắn.",
+          "h": "X is better than Y because + short reason.",
+          "s": "Phone A is better than Phone B because it is cheaper."
+        },
+        {
+          "p": "Which phone will you buy?",
+          "m": "Nói bạn mua điện thoại nào và vì sao ngắn gọn.",
+          "h": "I buy + X because + short reason.",
+          "s": "I buy Phone A because it is cheap."
+        }
+      ]
+    },
+    {
+      "t": "Chọn túi xách",
+      "e": [
+        {
+          "p": "Which bag do you like?",
+          "m": "Nói tên túi bạn thích.",
+          "h": "I like + bag name.",
+          "s": "I like bag A."
+        },
+        {
+          "p": "Is this bag small or big?",
+          "m": "Nói túi này nhỏ hay lớn.",
+          "h": "It is + small/big.",
+          "s": "It is small."
+        },
+        {
+          "p": "Which bag is cheaper?",
+          "m": "Nói túi nào rẻ hơn.",
+          "h": "X is cheaper than Y.",
+          "s": "Bag A is cheaper than Bag B."
+        },
+        {
+          "p": "Does this bag last long?",
+          "m": "Nói túi này có bền hay không.",
+          "h": "It lasts long / It does not last long.",
+          "s": "It does not last long."
+        },
+        {
+          "p": "Which bag do you buy for school?",
+          "m": "Nói bạn mua túi nào cho trường và 1 lý do ngắn.",
+          "h": "I buy X because it is + adjective.",
+          "s": "I buy Bag A because it is light."
+        }
+      ]
+    },
+    {
+      "t": "Mua giày",
+      "e": [
+        {
+          "p": "Which shoes are comfortable?",
+          "m": "Nói đôi giày nào thoải mái.",
+          "h": "X are comfortable.",
+          "s": "Shoes A are comfortable."
+        },
+        {
+          "p": "Are these shoes cheap?",
+          "m": "Nói nếu đôi này rẻ hoặc không.",
+          "h": "Yes, they are / No, they are not.",
+          "s": "No, they are not cheap."
+        },
+        {
+          "p": "Which shoes are better for running?",
+          "m": "Nói đôi nào tốt hơn cho chạy bộ.",
+          "h": "X are better for running because + short reason.",
+          "s": "Shoes A are better for running because they are light."
+        },
+        {
+          "p": "Which shoes do you buy?",
+          "m": "Nói bạn mua đôi nào và một lý do ngắn.",
+          "h": "I buy X because + short reason.",
+          "s": "I buy Shoes A because they are comfortable."
+        },
+        {
+          "p": "Do these shoes last long?",
+          "m": "Nói giày này có bền không.",
+          "h": "They last long / They do not last long.",
+          "s": "They last long."
+        }
+      ]
+    },
+    {
+      "t": "Ở cửa hàng điện tử",
+      "e": [
+        {
+          "p": "Which TV do you like?",
+          "m": "Nói tên TV bạn thích.",
+          "h": "I like + TV name.",
+          "s": "I like TV A."
+        },
+        {
+          "p": "Is TV A cheaper than TV B?",
+          "m": "Nói nếu TV A rẻ hơn TV B.",
+          "h": "X is cheaper than Y.",
+          "s": "TV A is cheaper than TV B."
+        },
+        {
+          "p": "Which TV has a better picture?",
+          "m": "Nói TV nào có hình ảnh tốt hơn.",
+          "h": "X has a better picture.",
+          "s": "TV A has a better picture."
+        },
+        {
+          "p": "Which TV do you buy for the living room?",
+          "m": "Nói bạn mua TV nào cho phòng khách và 1 lý do ngắn.",
+          "h": "I buy X because + reason.",
+          "s": "I buy TV A because it is big."
+        },
+        {
+          "p": "Do you think this TV is good?",
+          "m": "Nói ý kiến ngắn về TV này (tốt hoặc không).",
+          "h": "It is good / It is not good.",
+          "s": "It is good."
+        }
+      ]
+    },
+    {
+      "t": "Đọc đánh giá online",
+      "e": [
+        {
+          "p": "Does review say the product is good?",
+          "m": "Nói bài đánh giá nói sản phẩm tốt hay không.",
+          "h": "The review says + it is good / it is not good.",
+          "s": "The review says it is good."
+        },
+        {
+          "p": "Is product A better than product B in the review?",
+          "m": "Nói bài viết nói A tốt hơn B hay không.",
+          "h": "Yes, it is / No, it is not.",
+          "s": "Yes, it is."
+        },
+        {
+          "p": "Does the review say the product is cheap?",
+          "m": "Nói bài đánh giá nói sản phẩm rẻ hay không.",
+          "h": "The review says + it is cheap / it is not cheap.",
+          "s": "The review says it is not cheap."
+        },
+        {
+          "p": "Which product do reviews like more?",
+          "m": "Nói sản phẩm nào được nhiều đánh giá thích hơn.",
+          "h": "Reviews like X more.",
+          "s": "Reviews like Product A more."
+        },
+        {
+          "p": "Do reviews say this product lasts long?",
+          "m": "Nói review nói sản phẩm có bền không.",
+          "h": "They say it lasts long / not long.",
+          "s": "They say it lasts long."
+        }
+      ]
+    },
+    {
+      "t": "Hỏi về giá",
+      "e": [
+        {
+          "p": "How much is this phone?",
+          "m": "Nói giá ngắn (dùng số đơn giản).",
+          "h": "It is + number + dollars (or currency).",
+          "s": "It is 200 dollars."
+        },
+        {
+          "p": "Is this phone cheaper than that one?",
+          "m": "Nói nếu nó rẻ hơn cái kia.",
+          "h": "It is cheaper / It is not cheaper.",
+          "s": "It is cheaper."
+        },
+        {
+          "p": "Which product is the cheapest?",
+          "m": "Nói sản phẩm nào rẻ nhất.",
+          "h": "X is the cheapest.",
+          "s": "Product A is the cheapest."
+        },
+        {
+          "p": "Do you want a cheap product?",
+          "m": "Nói bạn có muốn sản phẩm rẻ không (yes/no).",
+          "h": "Yes, I do / No, I do not.",
+          "s": "Yes, I do."
+        },
+        {
+          "p": "Will you buy the cheap product?",
+          "m": "Nói bạn có mua sản phẩm rẻ không và 1 lý do ngắn.",
+          "h": "I will buy / I will not buy because + short reason.",
+          "s": "I will buy it because it is cheap."
+        }
+      ]
+    },
+    {
+      "t": "Hỏi về pin và dùng",
+      "e": [
+        {
+          "p": "Does this phone battery last one day?",
+          "m": "Nói pin có dùng được một ngày không.",
+          "h": "It lasts one day / It does not last one day.",
+          "s": "It lasts one day."
+        },
+        {
+          "p": "Which phone lasts more hours?",
+          "m": "Nói điện thoại nào dùng lâu hơn (giờ đơn giản).",
+          "h": "X lasts more hours than Y.",
+          "s": "Phone A lasts more hours than Phone B."
+        },
+        {
+          "p": "Can this phone play music all day?",
+          "m": "Nói nếu nó có thể phát nhạc cả ngày (can/can't).",
+          "h": "It can / It cannot + verb.",
+          "s": "It can play music all day."
+        },
+        {
+          "p": "Which phone do you use every day?",
+          "m": "Nói bạn dùng điện thoại nào mỗi ngày.",
+          "h": "I use X every day.",
+          "s": "I use Phone A every day."
+        },
+        {
+          "p": "Does the battery make this phone better?",
+          "m": "Nói pin có làm điện thoại tốt hơn không và 1 lý do ngắn.",
+          "h": "Yes, it does because + short reason.",
+          "s": "Yes, it does because it lasts long."
+        }
+      ]
+    },
+    {
+      "t": "So sánh màu và kích thước",
+      "e": [
+        {
+          "p": "Which color do you like?",
+          "m": "Nói màu bạn thích (red/blue/green...).",
+          "h": "I like + color.",
+          "s": "I like blue."
+        },
+        {
+          "p": "Is this product white or black?",
+          "m": "Nói sản phẩm là trắng hay đen.",
+          "h": "It is white / It is black.",
+          "s": "It is black."
+        },
+        {
+          "p": "Which item is bigger?",
+          "m": "Nói món nào lớn hơn.",
+          "h": "X is bigger than Y.",
+          "s": "Item A is bigger than Item B."
+        },
+        {
+          "p": "Do you want a small bag or a big bag?",
+          "m": "Nói bạn muốn túi nhỏ hay lớn.",
+          "h": "I want a small bag / I want a big bag.",
+          "s": "I want a small bag."
+        },
+        {
+          "p": "Which color is better for you and why?",
+          "m": "Nói màu nào tốt hơn cho bạn và 1 lý do ngắn.",
+          "h": "X is better because + short reason.",
+          "s": "Blue is better because it is nice."
+        }
+      ]
+    },
+    {
+      "t": "So sánh chất lượng và bền",
+      "e": [
+        {
+          "p": "Is product A good?",
+          "m": "Nói sản phẩm A có tốt hay không.",
+          "h": "It is good / It is not good.",
+          "s": "It is good."
+        },
+        {
+          "p": "Which product is stronger?",
+          "m": "Nói sản phẩm nào bền hơn (strong/weak).",
+          "h": "X is stronger than Y.",
+          "s": "Product A is stronger than Product B."
+        },
+        {
+          "p": "Does this product break soon?",
+          "m": "Nói sản phẩm có hỏng nhanh không.",
+          "h": "It breaks soon / It does not break soon.",
+          "s": "It does not break soon."
+        },
+        {
+          "p": "Which product is better for long use?",
+          "m": "Nói sản phẩm nào tốt cho dùng lâu dài và 1 lý do ngắn.",
+          "h": "X is better because it lasts long.",
+          "s": "Product A is better because it lasts long."
+        },
+        {
+          "p": "Do you want a good product or a cheap product?",
+          "m": "Nói bạn muốn sản phẩm tốt hay rẻ.",
+          "h": "I want a good product / I want a cheap product.",
+          "s": "I want a good product."
+        }
+      ]
+    },
+    {
+      "t": "So sánh giữa hai thương hiệu",
+      "e": [
+        {
+          "p": "Which brand do you know?",
+          "m": "Nói tên một thương hiệu bạn biết.",
+          "h": "I know + Brand name.",
+          "s": "I know Brand A."
+        },
+        {
+          "p": "Is Brand A better than Brand B?",
+          "m": "Nói Brand A có tốt hơn Brand B không.",
+          "h": "Yes, it is / No, it is not.",
+          "s": "Yes, it is."
+        },
+        {
+          "p": "Which brand is cheaper?",
+          "m": "Nói thương hiệu nào rẻ hơn.",
+          "h": "Brand X is cheaper than Brand Y.",
+          "s": "Brand A is cheaper than Brand B."
+        },
+        {
+          "p": "Do you trust Brand A?",
+          "m": "Nói nếu bạn tin tưởng thương hiệu A (yes/no).",
+          "h": "Yes, I do / No, I do not.",
+          "s": "Yes, I do."
+        },
+        {
+          "p": "Which brand do you buy and why?",
+          "m": "Nói bạn mua thương hiệu nào và một lý do ngắn.",
+          "h": "I buy Brand X because + reason.",
+          "s": "I buy Brand A because it is cheap."
+        }
+      ]
+    },
+    {
+      "t": "Tư vấn cho bạn",
+      "e": [
+        {
+          "p": "Which product do you want?",
+          "m": "Nói sản phẩm bạn muốn.",
+          "h": "I want + product.",
+          "s": "I want Product A."
+        },
+        {
+          "p": "Do you want a cheap one or a good one?",
+          "m": "Nói bạn muốn rẻ hay tốt.",
+          "h": "I want a cheap one / I want a good one.",
+          "s": "I want a good one."
+        },
+        {
+          "p": "Which product do you choose for travel?",
+          "m": "Nói bạn chọn sản phẩm nào cho đi du lịch và 1 lý do ngắn.",
+          "h": "I choose X because + reason.",
+          "s": "I choose Product A because it is light."
+        },
+        {
+          "p": "Can this product help you?",
+          "m": "Nói sản phẩm này có giúp bạn không (can/can't).",
+          "h": "It can help / It cannot help.",
+          "s": "It can help me."
+        },
+        {
+          "p": "Do you think this product is easy to use?",
+          "m": "Nói sản phẩm có dễ dùng không và 1 lý do ngắn.",
+          "h": "It is easy to use because + short reason.",
+          "s": "It is easy to use because it is simple."
+        }
+      ]
+    },
+    {
+      "t": "So sánh tính năng đơn giản",
+      "e": [
+        {
+          "p": "Does this camera have a flash?",
+          "m": "Nói camera có đèn flash hay không.",
+          "h": "It has a flash / It does not have a flash.",
+          "s": "It has a flash."
+        },
+        {
+          "p": "Which phone has a camera?",
+          "m": "Nói điện thoại nào có camera.",
+          "h": "X has a camera.",
+          "s": "Phone A has a camera."
+        },
+        {
+          "p": "Does this phone have more space?",
+          "m": "Nói nếu điện thoại này có nhiều chỗ (space) hơn.",
+          "h": "It has more space / It does not have more space.",
+          "s": "It has more space."
+        },
+        {
+          "p": "Which product is easier to use?",
+          "m": "Nói sản phẩm nào dễ dùng hơn.",
+          "h": "X is easier to use than Y.",
+          "s": "Product A is easier to use than Product B."
+        },
+        {
+          "p": "Do you want a product with a camera?",
+          "m": "Nói bạn có muốn sản phẩm có camera hay không (yes/no).",
+          "h": "Yes, I do / No, I do not.",
+          "s": "Yes, I do."
+        }
+      ]
+    },
+    {
+      "t": "Ôn tập: So sánh tổng hợp 1",
+      "e": [
+        {
+          "p": "Which product do you like more?",
+          "m": "Nói sản phẩm bạn thích hơn.",
+          "h": "I like X more / I do not like X.",
+          "s": "I like Product A more."
+        },
+        {
+          "p": "Is Product A cheaper than Product B?",
+          "m": "Nói nếu A rẻ hơn B.",
+          "h": "X is cheaper than Y / It is not.",
+          "s": "Product A is cheaper than Product B."
+        },
+        {
+          "p": "Which product lasts longer?",
+          "m": "Nói sản phẩm nào dùng lâu hơn.",
+          "h": "X lasts longer than Y.",
+          "s": "Product A lasts longer than Product B."
+        },
+        {
+          "p": "Do you buy the cheap product or the good product?",
+          "m": "Nói bạn mua rẻ hay tốt.",
+          "h": "I buy the cheap product / I buy the good product.",
+          "s": "I buy the good product."
+        },
+        {
+          "p": "Which product do you recommend and one reason?",
+          "m": "Nói bạn khuyên mua sản phẩm nào và một lý do ngắn.",
+          "h": "I recommend X because + short reason.",
+          "s": "I recommend Product A because it is cheap."
+        }
+      ]
+    },
+    {
+      "t": "Ôn tập: So sánh tổng hợp 2",
+      "e": [
+        {
+          "p": "Which brand do you choose?",
+          "m": "Nói thương hiệu bạn chọn.",
+          "h": "I choose + Brand.",
+          "s": "I choose Brand A."
+        },
+        {
+          "p": "Is Brand A better than Brand B?",
+          "m": "Nói Brand A có tốt hơn B không.",
+          "h": "Yes, it is / No, it is not.",
+          "s": "No, it is not."
+        },
+        {
+          "p": "Which item is lighter?",
+          "m": "Nói món nào nhẹ hơn.",
+          "h": "X is lighter than Y.",
+          "s": "Item A is lighter than Item B."
+        },
+        {
+          "p": "Do you want a product with a long battery?",
+          "m": "Nói bạn có muốn sản phẩm có pin lâu không.",
+          "h": "Yes, I do / No, I do not.",
+          "s": "Yes, I do."
+        },
+        {
+          "p": "Which product is best for travel and why?",
+          "m": "Nói sản phẩm nào tốt cho đi du lịch và một lý do ngắn.",
+          "h": "X is best because + short reason.",
+          "s": "Product A is best because it is light."
+        }
+      ]
+    },
+    {
+      "t": "Ôn tập: So sánh tổng hợp 3",
+      "e": [
+        {
+          "p": "Which color do you prefer?",
+          "m": "Nói màu bạn thích hơn.",
+          "h": "I prefer + color.",
+          "s": "I prefer red."
+        },
+        {
+          "p": "Is this product good and cheap?",
+          "m": "Nói sản phẩm có tốt và rẻ hay không (một câu ngắn).",
+          "h": "It is good and cheap / It is not.",
+          "s": "It is good and cheap."
+        },
+        {
+          "p": "Which product do customers like more?",
+          "m": "Nói sản phẩm khách hàng thích hơn.",
+          "h": "Customers like X more.",
+          "s": "Customers like Product A more."
+        },
+        {
+          "p": "Can this product help in travel?",
+          "m": "Nói sản phẩm có giúp khi đi du lịch không (can/can't).",
+          "h": "It can / It cannot.",
+          "s": "It can help."
+        },
+        {
+          "p": "Which product do you buy and one short reason?",
+          "m": "Nói bạn mua sản phẩm nào và một lý do ngắn.",
+          "h": "I buy X because + short reason.",
+          "s": "I buy Product A because it is cheap."
+        }
+      ]
+    }
+  ]
+}

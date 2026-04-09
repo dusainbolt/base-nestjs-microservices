@@ -1,0 +1,530 @@
+{
+  "l": 1,
+  "d": [
+    {
+      "t": "Gặp gỡ về chiến dịch",
+      "e": [
+        {
+          "p": "What is the campaign name?",
+          "m": "Nói tên chiến dịch.",
+          "h": "S + be + N",
+          "s": "The campaign is Blue Ad."
+        },
+        {
+          "p": "How many people see the ad today?",
+          "m": "Nói số người xem hôm nay.",
+          "h": "Use a number + 'people' + V(s)",
+          "s": "Fifty people see the ad today."
+        },
+        {
+          "p": "Do we have any sales now?",
+          "m": "Nói có hay không về việc có đơn hàng bây giờ.",
+          "h": "Yes, we do / No, we don't",
+          "s": "Yes, we have sales."
+        },
+        {
+          "p": "Is the ad good?",
+          "m": "Nói ngắn về việc quảng cáo có tốt hay không.",
+          "h": "S + be + Adj",
+          "s": "The ad is good."
+        },
+        {
+          "p": "What is the campaign goal?",
+          "m": "Nói mục tiêu chính của chiến dịch (tiếp cận hoặc bán hàng).",
+          "h": "The goal is to + V (simple)",
+          "s": "The goal is to get sales."
+        }
+      ]
+    },
+    {
+      "t": "Báo cáo lượt xem",
+      "e": [
+        {
+          "p": "How many views do we have today?",
+          "m": "Nói số lượt xem hôm nay.",
+          "h": "Number + 'views' + V(s)",
+          "s": "One hundred views are today."
+        },
+        {
+          "p": "Are views from online or TV?",
+          "m": "Nói nguồn xem là online hay TV.",
+          "h": "Use 'from' + source",
+          "s": "The views are from online."
+        },
+        {
+          "p": "Is there a top post?",
+          "m": "Nói có hay không bài đăng hàng đầu.",
+          "h": "There is / There are",
+          "s": "There is a top post."
+        },
+        {
+          "p": "Who sees the ad most?",
+          "m": "Nói nhóm người xem chính (ví dụ: young people).",
+          "h": "Use group name after 'are'",
+          "s": "Young people see the ad most."
+        },
+        {
+          "p": "Do views help sales?",
+          "m": "Nói ngắn về việc lượt xem có giúp bán hàng không.",
+          "h": "S + V(s) + O",
+          "s": "Views help sales."
+        }
+      ]
+    },
+    {
+      "t": "Tỷ lệ chuyển đổi đơn giản",
+      "e": [
+        {
+          "p": "How many people buy after the ad?",
+          "m": "Nói số người mua sau khi xem quảng cáo.",
+          "h": "Number + 'people' + V(s)",
+          "s": "Ten people buy after the ad."
+        },
+        {
+          "p": "Do many viewers buy?",
+          "m": "Nói ít hay nhiều người xem mua hàng.",
+          "h": "Use 'many' or 'few'",
+          "s": "Few viewers buy."
+        },
+        {
+          "p": "Is the conversion good?",
+          "m": "Nói ngắn về việc chuyển đổi có tốt hay không.",
+          "h": "S + be + Adj",
+          "s": "The conversion is low."
+        },
+        {
+          "p": "Can we get more buyers?",
+          "m": "Nói có thể hay không tăng người mua.",
+          "h": "Use can / can't + V",
+          "s": "We can get more buyers."
+        },
+        {
+          "p": "What helps viewers buy?",
+          "m": "Nói một điều giúp người xem mua hàng (ví dụ: clear ad).",
+          "h": "S + V(s) + O",
+          "s": "A clear ad helps viewers buy."
+        }
+      ]
+    },
+    {
+      "t": "Doanh số hàng ngày",
+      "e": [
+        {
+          "p": "How many sales today?",
+          "m": "Nói số đơn hàng hôm nay.",
+          "h": "Number + 'sales' + V(s)",
+          "s": "Twenty sales are today."
+        },
+        {
+          "p": "Is sales up or down?",
+          "m": "Nói doanh số tăng hay giảm.",
+          "h": "Use 'up' or 'down' with 'is'",
+          "s": "Sales is up."
+        },
+        {
+          "p": "Who buys today?",
+          "m": "Nói nhóm người mua hôm nay.",
+          "h": "Group noun + V(s)",
+          "s": "Friends buy today."
+        },
+        {
+          "p": "Do we sell more online?",
+          "m": "Nói có hay không bán nhiều hơn online.",
+          "h": "Yes, we do / No, we don't",
+          "s": "Yes, we sell more online."
+        },
+        {
+          "p": "What is the top product today?",
+          "m": "Nói tên sản phẩm bán chạy nhất hôm nay.",
+          "h": "The top product is + N",
+          "s": "The top product is the red bag."
+        }
+      ]
+    },
+    {
+      "t": "Chi phí và lợi nhuận",
+      "e": [
+        {
+          "p": "How much did we spend?",
+          "m": "Nói chi phí (dùng từ 'money').",
+          "h": "Use 'money' with a number word",
+          "s": "We spend ten money."
+        },
+        {
+          "p": "Do we have profit?",
+          "m": "Nói có hay không về lợi nhuận.",
+          "h": "Yes, we do / No, we don't",
+          "s": "Yes, we have profit."
+        },
+        {
+          "p": "Is the cost high?",
+          "m": "Nói ngắn chi phí có cao hay không.",
+          "h": "S + be + Adj",
+          "s": "The cost is high."
+        },
+        {
+          "p": "Can we cut the cost?",
+          "m": "Nói có thể hay không cắt giảm chi phí.",
+          "h": "Use can / can't + V",
+          "s": "We can cut the cost."
+        },
+        {
+          "p": "What is the profit today?",
+          "m": "Nói lợi nhuận hôm nay bằng một câu ngắn.",
+          "h": "S + V(s) + O",
+          "s": "Profit is five money today."
+        }
+      ]
+    },
+    {
+      "t": "Mục tiêu chiến dịch ngắn",
+      "e": [
+        {
+          "p": "What is our main goal?",
+          "m": "Nói mục tiêu chính trong một câu ngắn.",
+          "h": "The goal is to + V",
+          "s": "The goal is to reach many people."
+        },
+        {
+          "p": "Do we want more sales?",
+          "m": "Nói có hay không muốn thêm doanh số.",
+          "h": "Yes, we do / No, we don't",
+          "s": "Yes, we want more sales."
+        },
+        {
+          "p": "Is brand awareness a goal?",
+          "m": "Nói có hay không nhận biết thương hiệu là mục tiêu.",
+          "h": "Use 'brand' + 'is' or 'is not'",
+          "s": "Brand awareness is a goal."
+        },
+        {
+          "p": "Can the team reach the goal?",
+          "m": "Nói ngắn đội nhóm có thể đạt mục tiêu không.",
+          "h": "Use can / can't + V",
+          "s": "The team can reach the goal."
+        },
+        {
+          "p": "How do we measure the goal?",
+          "m": "Nói một cách đo lường đơn giản (views or sales).",
+          "h": "Use 'by' + measure",
+          "s": "We measure the goal by sales."
+        }
+      ]
+    },
+    {
+      "t": "Phản hồi khách hàng",
+      "e": [
+        {
+          "p": "Do customers like the ad?",
+          "m": "Nói khách hàng có thích quảng cáo không.",
+          "h": "Yes, they do / No, they don't",
+          "s": "Yes, customers like the ad."
+        },
+        {
+          "p": "Is the feedback good?",
+          "m": "Nói phản hồi có tốt không.",
+          "h": "S + be + Adj",
+          "s": "The feedback is good."
+        },
+        {
+          "p": "Who gives the feedback?",
+          "m": "Nói nhóm người cho phản hồi (ví dụ: users).",
+          "h": "Group + V(s)",
+          "s": "Users give the feedback."
+        },
+        {
+          "p": "Can feedback change the ad?",
+          "m": "Nói có thể hay không phản hồi làm đổi quảng cáo.",
+          "h": "Use can / can't + V",
+          "s": "Feedback can change the ad."
+        },
+        {
+          "p": "What do customers say?",
+          "m": "Nói một câu về lời nhận xét đơn giản.",
+          "h": "S + V(s) + O",
+          "s": "Customers say the ad is clear."
+        }
+      ]
+    },
+    {
+      "t": "So sánh hai chiến dịch",
+      "e": [
+        {
+          "p": "Which campaign has more views?",
+          "m": "Nói chiến dịch nào có nhiều lượt xem hơn.",
+          "h": "Use 'Campaign A has' or 'Campaign B has'",
+          "s": "Campaign A has more views."
+        },
+        {
+          "p": "Is campaign B better for sales?",
+          "m": "Nói có hay không chiến dịch B tốt hơn về doanh số.",
+          "h": "Yes, it is / No, it is not",
+          "s": "No, campaign B is not better for sales."
+        },
+        {
+          "p": "Do both campaigns cost the same?",
+          "m": "Nói có hay không cả hai có chi phí giống nhau.",
+          "h": "Yes, they do / No, they don't",
+          "s": "No, they do not cost the same."
+        },
+        {
+          "p": "Who runs campaign A?",
+          "m": "Nói ai chạy chiến dịch A (ví dụ: our team).",
+          "h": "S + V(s) + O",
+          "s": "Our team runs campaign A."
+        },
+        {
+          "p": "Which campaign gets more profit?",
+          "m": "Nói chiến dịch nào có lợi nhuận nhiều hơn.",
+          "h": "Campaign X gets more profit",
+          "s": "Campaign B gets more profit."
+        }
+      ]
+    },
+    {
+      "t": "Họp nhóm ngắn",
+      "e": [
+        {
+          "p": "Do we have a meeting now?",
+          "m": "Nói có hay không đang họp.",
+          "h": "Yes, we are / No, we are not (or Yes, we do)",
+          "s": "Yes, we have a meeting now."
+        },
+        {
+          "p": "Who is in the meeting?",
+          "m": "Nói ai tham gia họp (ví dụ: team).",
+          "h": "Group noun + V(s)",
+          "s": "The team is in the meeting."
+        },
+        {
+          "p": "Is the meeting short?",
+          "m": "Nói cuộc họp có ngắn không.",
+          "h": "S + be + Adj",
+          "s": "The meeting is short."
+        },
+        {
+          "p": "Can we share the report?",
+          "m": "Nói có thể hay không chia sẻ báo cáo.",
+          "h": "Use can / can't + V",
+          "s": "We can share the report."
+        },
+        {
+          "p": "What do we say in the meeting?",
+          "m": "Nói một ý ngắn về nội dung họp (số liệu hoặc kế hoạch).",
+          "h": "S + V(s) + O",
+          "s": "We talk about sales."
+        }
+      ]
+    },
+    {
+      "t": "Kế hoạch điều chỉnh quảng cáo",
+      "e": [
+        {
+          "p": "Do we change the ad now?",
+          "m": "Nói có hay không đổi quảng cáo bây giờ.",
+          "h": "Yes, we do / No, we don't",
+          "s": "No, we do not change the ad now."
+        },
+        {
+          "p": "What will we test?",
+          "m": "Nói một điều sẽ thử (ví dụ: a new image).",
+          "h": "Use 'We will' + V (simple future allowed short)",
+          "s": "We will test a new image."
+        },
+        {
+          "p": "Is the test small?",
+          "m": "Nói thử nghiệm có nhỏ không.",
+          "h": "S + be + Adj",
+          "s": "The test is small."
+        },
+        {
+          "p": "Can the ad change daily?",
+          "m": "Nói có thể hay không thay đổi quảng cáo hàng ngày.",
+          "h": "Use can / can't + V",
+          "s": "The ad can change daily."
+        },
+        {
+          "p": "Who makes the new ad?",
+          "m": "Nói ai làm quảng cáo mới (ví dụ: our team).",
+          "h": "S + V(s) + O",
+          "s": "Our team makes the new ad."
+        }
+      ]
+    },
+    {
+      "t": "Lưu trữ và số liệu cuối tháng",
+      "e": [
+        {
+          "p": "Do we save the report?",
+          "m": "Nói có hay không lưu báo cáo.",
+          "h": "Yes, we do / No, we don't",
+          "s": "Yes, we save the report."
+        },
+        {
+          "p": "How many reports are there?",
+          "m": "Nói số báo cáo có.",
+          "h": "Number + 'reports' + V(s)",
+          "s": "Two reports are here."
+        },
+        {
+          "p": "Is the monthly data clear?",
+          "m": "Nói dữ liệu tháng có rõ ràng không.",
+          "h": "S + be + Adj",
+          "s": "The monthly data is clear."
+        },
+        {
+          "p": "Can we open the file now?",
+          "m": "Nói có thể hay không mở file bây giờ.",
+          "h": "Use can / can't + V",
+          "s": "We can open the file now."
+        },
+        {
+          "p": "What do we keep in the file?",
+          "m": "Nói một thứ lưu trong file (ví dụ: sales report).",
+          "h": "S + V(s) + O",
+          "s": "We keep the sales report."
+        }
+      ]
+    },
+    {
+      "t": "Kết luận và đề xuất",
+      "e": [
+        {
+          "p": "Is the campaign a success?",
+          "m": "Nói chiến dịch có thành công hay không.",
+          "h": "Yes, it is / No, it is not",
+          "s": "No, the campaign is not a success."
+        },
+        {
+          "p": "What do you suggest?",
+          "m": "Nói một đề xuất ngắn (ví dụ: change ad).",
+          "h": "S + V(s) + O",
+          "s": "I suggest change the ad."
+        },
+        {
+          "p": "Can we stop the campaign?",
+          "m": "Nói có thể hay không ngưng chiến dịch.",
+          "h": "Use can / can't + V",
+          "s": "We can stop the campaign."
+        },
+        {
+          "p": "Is the team ready?",
+          "m": "Nói đội nhóm có sẵn sàng hay không.",
+          "h": "S + be + Adj",
+          "s": "The team is ready."
+        },
+        {
+          "p": "What is the next step?",
+          "m": "Nói một bước tiếp theo ngắn (ví dụ: plan new ad).",
+          "h": "S + V(s) + O",
+          "s": "We plan a new ad."
+        }
+      ]
+    },
+    {
+      "t": "Ôn tập: Báo cáo chung",
+      "e": [
+        {
+          "p": "What is the report name?",
+          "m": "Nói tên báo cáo.",
+          "h": "S + be + N",
+          "s": "The report is Monthly Report."
+        },
+        {
+          "p": "How many people see the campaign this month?",
+          "m": "Nói số người xem trong tháng.",
+          "h": "Number + 'people' + V(s)",
+          "s": "Three hundred people see the campaign this month."
+        },
+        {
+          "p": "Do we have profit this month?",
+          "m": "Nói có hay không lợi nhuận trong tháng.",
+          "h": "Yes, we do / No, we don't",
+          "s": "Yes, we have profit this month."
+        },
+        {
+          "p": "Is sales better than last month?",
+          "m": "Nói doanh số có tốt hơn tháng trước hay không.",
+          "h": "Yes, it is / No, it is not",
+          "s": "Yes, sales is better than last month."
+        },
+        {
+          "p": "What is one action for next month?",
+          "m": "Nói một hành động cho tháng sau.",
+          "h": "S + V(s) + O",
+          "s": "We will test a new image."
+        }
+      ]
+    },
+    {
+      "t": "Ôn tập: So sánh kết quả",
+      "e": [
+        {
+          "p": "Which month has more sales?",
+          "m": "Nói tháng nào có doanh số nhiều hơn.",
+          "h": "Month name + has + more sales",
+          "s": "June has more sales."
+        },
+        {
+          "p": "Is profit higher in June?",
+          "m": "Nói có hay không lợi nhuận cao hơn trong tháng đó.",
+          "h": "Yes, it is / No, it is not",
+          "s": "Yes, profit is higher in June."
+        },
+        {
+          "p": "Do both months have many views?",
+          "m": "Nói cả hai tháng có nhiều lượt xem không.",
+          "h": "Yes, they do / No, they don't",
+          "s": "No, they do not have many views."
+        },
+        {
+          "p": "Who tracks the numbers?",
+          "m": "Nói ai theo dõi số liệu (ví dụ: our team).",
+          "h": "S + V(s) + O",
+          "s": "Our team tracks the numbers."
+        },
+        {
+          "p": "What is the better channel?",
+          "m": "Nói kênh tốt hơn (ví dụ: online).",
+          "h": "The channel is + N",
+          "s": "The better channel is online."
+        }
+      ]
+    },
+    {
+      "t": "Ôn tập: Kế hoạch mới",
+      "e": [
+        {
+          "p": "Do we start a new campaign?",
+          "m": "Nói có hay không bắt đầu chiến dịch mới.",
+          "h": "Yes, we do / No, we don't",
+          "s": "Yes, we start a new campaign."
+        },
+        {
+          "p": "What is the new goal?",
+          "m": "Nói mục tiêu mới ngắn gọn.",
+          "h": "The goal is to + V",
+          "s": "The goal is to reach more people."
+        },
+        {
+          "p": "Is the budget small?",
+          "m": "Nói ngân sách có nhỏ không.",
+          "h": "S + be + Adj",
+          "s": "The budget is small."
+        },
+        {
+          "p": "Can the team make a new ad?",
+          "m": "Nói có thể hay không đội làm quảng cáo mới.",
+          "h": "Use can / can't + V",
+          "s": "The team can make a new ad."
+        },
+        {
+          "p": "What is the first task?",
+          "m": "Nói một nhiệm vụ đầu tiên ngắn (ví dụ: make plan).",
+          "h": "S + V(s) + O",
+          "s": "We make a plan first."
+        }
+      ]
+    }
+  ]
+}

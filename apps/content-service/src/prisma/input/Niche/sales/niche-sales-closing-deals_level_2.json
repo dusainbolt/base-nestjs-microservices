@@ -1,0 +1,530 @@
+{
+  "l": 2,
+  "d": [
+    {
+      "t": "Gặp khách hàng lần đầu",
+      "e": [
+        {
+          "p": "Are you ready to buy?",
+          "m": "1) Trả lời có hoặc không. 2) Nói sản phẩm bạn muốn.",
+          "h": "Use: Yes/No. I want + N.",
+          "s": "Yes, I want a blue bag. I need it today."
+        },
+        {
+          "p": "Which product do you like?",
+          "m": "1) Nói tên sản phẩm. 2) Nói một lý do ngắn.",
+          "h": "Use: I like + N. + because + short reason.",
+          "s": "I like the small bag. It is good for work."
+        },
+        {
+          "p": "Do you want a discount?",
+          "m": "1) Trả lời có hoặc không. 2) Nói bạn mua bao nhiêu.",
+          "h": "Use: Yes/No. I buy + number + N.",
+          "s": "Yes, I want a discount. I buy three bags."
+        },
+        {
+          "p": "How much can you pay?",
+          "m": "1) Nói giá bạn trả mỗi món. 2) Xác nhận điều đó.",
+          "h": "Use: I can pay + amount. + That is OK/No.",
+          "s": "I can pay ten dollars each. That is OK."
+        },
+        {
+          "p": "Can I confirm your order now?",
+          "m": "1) Trả lời có hoặc không. 2) Nói số lượng và thời gian giao đơn giản.",
+          "h": "Use: Yes/No. I want + number + N. + I need them + time.",
+          "s": "Yes, I want three bags. I need them tomorrow."
+        }
+      ]
+    },
+    {
+      "t": "Xác nhận sản phẩm",
+      "e": [
+        {
+          "p": "Which color do you want?",
+          "m": "1) Nói màu bạn muốn. 2) Nói lý do ngắn (thích/như).",
+          "h": "Use: I want + color + N. I like + color.",
+          "s": "I want a red shirt. I like red."
+        },
+        {
+          "p": "Do you need a big size?",
+          "m": "1) Trả lời có hoặc không. 2) Nói size bạn cần.",
+          "h": "Use: Yes/No. I need + size + N.",
+          "s": "No, I need a small size. It is more comfortable."
+        },
+        {
+          "p": "Is this model good for you?",
+          "m": "1) Trả lời đúng hay sai. 2) Nêu lý do ngắn.",
+          "h": "Use: Yes/No. + It is + adjective.",
+          "s": "Yes, it is good for me. It is light and pretty."
+        },
+        {
+          "p": "Do you want this or another model?",
+          "m": "1) Chọn một trong hai. 2) Nói lý do ngắn.",
+          "h": "Use: I want + this/another. + because + short reason.",
+          "s": "I want this model. I like its color."
+        },
+        {
+          "p": "Can I show another color?",
+          "m": "1) Trả lời có hoặc không. 2) Nói bạn chọn màu nào cuối cùng.",
+          "h": "Use: Yes/No. I choose + color + N.",
+          "s": "Yes, please. I choose blue."
+        }
+      ]
+    },
+    {
+      "t": "Xác nhận số lượng",
+      "e": [
+        {
+          "p": "How many items do you need?",
+          "m": "1) Nói số lượng. 2) Nói mục đích ngắn (for gift/for shop...).",
+          "h": "Use: I need + number + N. + for + short reason.",
+          "s": "I need five shirts. They are for my shop."
+        },
+        {
+          "p": "Are these for one person?",
+          "m": "1) Trả lời có hoặc không. 2) Nói số người nếu cần.",
+          "h": "Use: Yes/No. There are + number + people.",
+          "s": "No, they are for two people. There are two friends."
+        },
+        {
+          "p": "Do you want one or two boxes?",
+          "m": "1) Chọn số hộp. 2) Nói số lượng trong mỗi hộp.",
+          "h": "Use: I want + number + boxes. There are + number + N in each.",
+          "s": "I want two boxes. There are ten shirts in each."
+        },
+        {
+          "p": "Can you confirm the total number?",
+          "m": "1) Nói tổng số. 2) Xác nhận là đúng.",
+          "h": "Use: The total is + number. + That is correct.",
+          "s": "The total is twenty. That is correct."
+        },
+        {
+          "p": "Do you want to change the quantity?",
+          "m": "1) Trả lời có hoặc không. 2) Nếu có, nêu số mới.",
+          "h": "Use: Yes/No. I change to + number + N.",
+          "s": "Yes, I change to fifteen. I need them next week."
+        }
+      ]
+    },
+    {
+      "t": "Xác nhận giá",
+      "e": [
+        {
+          "p": "The price is ten dollars each. Is that OK?",
+          "m": "1) Trả lời có hoặc không. 2) Nếu không, đề nghị giá khác.",
+          "h": "Use: Yes/No. I can pay + amount.",
+          "s": "No, that is high. I can pay eight dollars each."
+        },
+        {
+          "p": "We give a small discount. Do you accept?",
+          "m": "1) Trả lời có hoặc không. 2) Nói bạn nhận hay không.",
+          "h": "Use: Yes/No. I accept + discount / I do not accept.",
+          "s": "Yes, I accept the discount. I will pay now."
+        },
+        {
+          "p": "Do you want the total price now?",
+          "m": "1) Trả lời có hoặc không. 2) Nếu có, nêu tổng tiền bạn sẽ trả.",
+          "h": "Use: Yes/No. The total is + amount.",
+          "s": "Yes, please. The total is one hundred dollars."
+        },
+        {
+          "p": "Can you pay the full price?",
+          "m": "1) Trả lời có hoặc không. 2) Nói nếu bạn trả toàn bộ hoặc trả một phần.",
+          "h": "Use: Yes/No. I will pay + full/part.",
+          "s": "No, I will pay a part. I pay fifty dollars now."
+        },
+        {
+          "p": "Is the price clear for you?",
+          "m": "1) Trả lời có hoặc không. 2) Nếu không, nói phần bạn không hiểu.",
+          "h": "Use: Yes/No. I do not understand + short point.",
+          "s": "No, I do not understand the shipping cost. Please show it."
+        }
+      ]
+    },
+    {
+      "t": "Thời gian giao hàng",
+      "e": [
+        {
+          "p": "When do you need the items?",
+          "m": "1) Nói ngày hoặc thời gian ngắn (tomorrow/next week). 2) Xác nhận là bạn cần sớm hay không.",
+          "h": "Use: I need them + time. + I need them + soon/later.",
+          "s": "I need them tomorrow. I need them soon."
+        },
+        {
+          "p": "Can we deliver on Monday?",
+          "m": "1) Trả lời có hoặc không. 2) Nếu không, nêu ngày khác bạn muốn.",
+          "h": "Use: Yes/No. I want + day.",
+          "s": "No, I want Wednesday. That day is better."
+        },
+        {
+          "p": "Do you want fast delivery?",
+          "m": "1) Trả lời có hoặc không. 2) Nói bạn muốn giao nhanh hay tiết kiệm.",
+          "h": "Use: Yes/No. I want + fast/cheap delivery.",
+          "s": "Yes, I want fast delivery. I will pay more."
+        },
+        {
+          "p": "How long does delivery take?",
+          "m": "1) Nói thời gian dự kiến. 2) Xác nhận bạn đồng ý.",
+          "h": "Use: It takes + number + days. + I agree/No.",
+          "s": "It takes three days. I agree with that."
+        },
+        {
+          "p": "Can you pick a delivery time?",
+          "m": "1) Chọn buổi sáng/chờ/trong ngày. 2) Xác nhận buổi bạn thích.",
+          "h": "Use: I want + morning/afternoon/evening. + I like + time.",
+          "s": "I want morning delivery. I like eight am."
+        }
+      ]
+    },
+    {
+      "t": "Phương thức thanh toán",
+      "e": [
+        {
+          "p": "How will you pay?",
+          "m": "1) Nói phương thức (cash/card/bank). 2) Xác nhận bạn thanh toán ngay hay sau.",
+          "h": "Use: I will pay + cash/card/bank. + now/later.",
+          "s": "I will pay by card. I will pay now."
+        },
+        {
+          "p": "Do you pay now or later?",
+          "m": "1) Chọn now hoặc later. 2) Nếu later, nói khi nào.",
+          "h": "Use: I pay now/later. + I pay on + day.",
+          "s": "I pay later. I pay on Monday."
+        },
+        {
+          "p": "Can you pay by bank transfer?",
+          "m": "1) Trả lời có hoặc không. 2) Nếu có, nói khi bạn sẽ chuyển tiền.",
+          "h": "Use: Yes/No. I will transfer + time.",
+          "s": "Yes, I will transfer tonight. I will send the receipt."
+        },
+        {
+          "p": "Do you need an invoice?",
+          "m": "1) Trả lời có hoặc không. 2) Nếu có, nêu tên để in hoá đơn (dùng [studentName] nếu cần).",
+          "h": "Use: Yes/No. The name is + [studentName] or + short name.",
+          "s": "Yes, the name is [studentName]. Send the invoice to my email."
+        },
+        {
+          "p": "Is card payment OK for you?",
+          "m": "1) Trả lời có hoặc không. 2) Nếu không, nêu phương án khác.",
+          "h": "Use: Yes/No. I will pay + alternative.",
+          "s": "No, card is not OK. I will pay cash."
+        }
+      ]
+    },
+    {
+      "t": "Ký hợp đồng đơn giản",
+      "e": [
+        {
+          "p": "Do you want a simple contract?",
+          "m": "1) Trả lời có hoặc không. 2) Nói bạn có thể ký ngay hay cần xem.",
+          "h": "Use: Yes/No. I can sign now/I need to see it.",
+          "s": "Yes, I want a contract. I can sign now."
+        },
+        {
+          "p": "Can you read the terms now?",
+          "m": "1) Trả lời có hoặc không. 2) Nêu bạn cần bao lâu để xem.",
+          "h": "Use: Yes/No. I need + time to read.",
+          "s": "No, I need ten minutes to read. I will come back soon."
+        },
+        {
+          "p": "Do you accept these terms?",
+          "m": "1) Trả lời có hoặc không. 2) Nếu có, nói bạn ký và gửi lại.",
+          "h": "Use: Yes/No. I will sign and send it.",
+          "s": "Yes, I accept the terms. I will sign and send it today."
+        },
+        {
+          "p": "Who signs the contract?",
+          "m": "1) Nói người ký (tên hoặc bạn). 2) Nói chức vụ ngắn nếu cần (owner/manager).",
+          "h": "Use: The signer is + [studentName]/I. + I am + job.",
+          "s": "The signer is [studentName]. I am the owner."
+        },
+        {
+          "p": "Can we finish the contract now?",
+          "m": "1) Trả lời có hoặc không. 2) Nêu bạn đồng ý với thời gian giao/giá.",
+          "h": "Use: Yes/No. I agree with + time/price.",
+          "s": "Yes, I agree. I agree with the delivery time and price."
+        }
+      ]
+    },
+    {
+      "t": "Hẹn giao hàng",
+      "e": [
+        {
+          "p": "Where should we deliver?",
+          "m": "1) Nói địa điểm đơn giản (city/address). 2) Xác nhận gần hay xa.",
+          "h": "Use: Deliver to + [studentCity] / address. + It is near/far.",
+          "s": "Deliver to [studentCity]. It is near the store."
+        },
+        {
+          "p": "Do you want home or shop delivery?",
+          "m": "1) Chọn home hoặc shop. 2) Nói địa chỉ ngắn.",
+          "h": "Use: I want + home/shop delivery. The address is + short.",
+          "s": "I want home delivery. The address is 12 Main Street."
+        },
+        {
+          "p": "Can we come at 9 am?",
+          "m": "1) Trả lời có hoặc không. 2) Nếu không, cho thời gian khác.",
+          "h": "Use: Yes/No. I prefer + time.",
+          "s": "No, I prefer 2 pm. That time is good."
+        },
+        {
+          "p": "Do you need help to carry items?",
+          "m": "1) Trả lời có hoặc không. 2) Nếu có, nêu số người cần giúp.",
+          "h": "Use: Yes/No. I need + number + people.",
+          "s": "Yes, I need help. I need two people."
+        },
+        {
+          "p": "Can we call before delivery?",
+          "m": "1) Trả lời có hoặc không. 2) Nếu có, nêu số điện thoại hoặc 'yes'.",
+          "h": "Use: Yes/No. Call me at + phone / I agree.",
+          "s": "Yes, please call me. Call me at 0123456789."
+        }
+      ]
+    },
+    {
+      "t": "Xử lý thay đổi đơn hàng",
+      "e": [
+        {
+          "p": "I need to change your order. Is that OK?",
+          "m": "1) Trả lời có hoặc không. 2) Nói bạn chấp nhận thay đổi hay muốn giữ.",
+          "h": "Use: Yes/No. I accept/I want to keep the order.",
+          "s": "Yes, that is OK. I accept the change."
+        },
+        {
+          "p": "Do you want to add one more item?",
+          "m": "1) Trả lời có hoặc không. 2) Nếu có, nêu số thêm.",
+          "h": "Use: Yes/No. I add + number + N.",
+          "s": "Yes, I add one more shirt. I add one more for my friend."
+        },
+        {
+          "p": "Can we cancel one item?",
+          "m": "1) Trả lời có hoặc không. 2) Nếu có, nói số bạn hủy.",
+          "h": "Use: Yes/No. I cancel + number + N.",
+          "s": "No, I do not cancel. I keep all items."
+        },
+        {
+          "p": "Do you want to change the color?",
+          "m": "1) Trả lời có hoặc không. 2) Nếu có, nêu màu mới.",
+          "h": "Use: Yes/No. I want + color + N.",
+          "s": "Yes, I want green instead. Green is better."
+        },
+        {
+          "p": "Is the new plan OK for delivery?",
+          "m": "1) Trả lời có hoặc không. 2) Nêu bạn đồng ý với ngày mới.",
+          "h": "Use: Yes/No. I agree with + day/time.",
+          "s": "Yes, the new plan is OK. I agree with Friday delivery."
+        }
+      ]
+    },
+    {
+      "t": "Giải quyết vấn đề nhỏ",
+      "e": [
+        {
+          "p": "There is a small problem with your order. Are you free?",
+          "m": "1) Trả lời có hoặc không. 2) Nói bạn sẵn sàng nghe giải thích hay không.",
+          "h": "Use: Yes/No. I am free/I am busy.",
+          "s": "Yes, I am free. I can listen now."
+        },
+        {
+          "p": "One item is missing. Do you want a replace or refund?",
+          "m": "1) Chọn replace hoặc refund. 2) Nói bạn muốn khi nào.",
+          "h": "Use: I want + replace/refund. + I want it + time.",
+          "s": "I want a replace. I want it tomorrow."
+        },
+        {
+          "p": "The item is damaged. Do you accept a new one?",
+          "m": "1) Trả lời có hoặc không. 2) Nói bạn muốn đổi ngay hay sau.",
+          "h": "Use: Yes/No. I want to change + now/later.",
+          "s": "Yes, I accept a new one. I want to change it now."
+        },
+        {
+          "p": "Can we send the replacement today?",
+          "m": "1) Trả lời có hoặc không. 2) Nói bạn có nhà để nhận không.",
+          "h": "Use: Yes/No. I will be at home/I will not be at home.",
+          "s": "Yes, I will be at home. I can receive it today."
+        },
+        {
+          "p": "Do you need a refund or a credit for next order?",
+          "m": "1) Chọn refund hoặc credit. 2) Nói bạn đồng ý hay không.",
+          "h": "Use: I want + refund/credit. I agree/No.",
+          "s": "I want a refund. I agree with the process."
+        }
+      ]
+    },
+    {
+      "t": "Xác nhận sau bán",
+      "e": [
+        {
+          "p": "Did you receive your order?",
+          "m": "1) Trả lời có hoặc không. 2) Nếu có, nói bạn hài lòng hay không.",
+          "h": "Use: Yes/No. I am + happy/sad.",
+          "s": "Yes, I received the order. I am happy with it."
+        },
+        {
+          "p": "Is everything OK with the product?",
+          "m": "1) Trả lời OK hoặc not OK. 2) Nếu không, nêu vấn đề ngắn.",
+          "h": "Use: It is OK/It is not OK. + The problem is + short.",
+          "s": "It is not OK. The shirt is small."
+        },
+        {
+          "p": "Do you want help with the product?",
+          "m": "1) Trả lời có hoặc không. 2) Nếu có, nói bạn cần gì.",
+          "h": "Use: Yes/No. I need + help with + N.",
+          "s": "Yes, I need help. I need help with sizing."
+        },
+        {
+          "p": "Can we call you for feedback?",
+          "m": "1) Trả lời có hoặc không. 2) Nếu có, nói thời gian gọi phù hợp.",
+          "h": "Use: Yes/No. Call me + time.",
+          "s": "Yes, call me tomorrow. Morning is good."
+        },
+        {
+          "p": "Will you buy from us again?",
+          "m": "1) Trả lời có hoặc không. 2) Nói một lý do ngắn.",
+          "h": "Use: Yes/No. + because + short reason.",
+          "s": "Yes, I will buy again. Because the service is good."
+        }
+      ]
+    },
+    {
+      "t": "Hỏi về nhu cầu lặp lại",
+      "e": [
+        {
+          "p": "Do you want a monthly order?",
+          "m": "1) Trả lời có hoặc không. 2) Nếu có, nói số hàng hàng tháng.",
+          "h": "Use: Yes/No. I want + number + N each month.",
+          "s": "Yes, I want a monthly order. I want ten shirts each month."
+        },
+        {
+          "p": "Would you like a subscription?",
+          "m": "1) Trả lời có hoặc không. 2) Nói bạn trả hàng tháng hay mỗi tuần.",
+          "h": "Use: Yes/No. I pay + monthly/weekly.",
+          "s": "Yes, I like a subscription. I pay monthly."
+        },
+        {
+          "p": "Do you need a reminder before new order?",
+          "m": "1) Trả lời có hoặc không. 2) Nói bạn muốn nhắc trước bao lâu.",
+          "h": "Use: Yes/No. Remind me + time before.",
+          "s": "Yes, remind me one week before. I will prepare money."
+        },
+        {
+          "p": "Can we set a regular delivery day?",
+          "m": "1) Trả lời có hoặc không. 2) Nếu có, chọn ngày cố định.",
+          "h": "Use: Yes/No. I choose + day.",
+          "s": "Yes, set a regular day. I choose every Monday."
+        },
+        {
+          "p": "Do you want to change subscription later?",
+          "m": "1) Trả lời có hoặc không. 2) Nói bạn sẽ thông báo khi cần.",
+          "h": "Use: Yes/No. I will tell you later.",
+          "s": "Yes, I may change later. I will tell you next month."
+        }
+      ]
+    },
+    {
+      "t": "Ôn tập: Chốt đơn cơ bản",
+      "e": [
+        {
+          "p": "Are you ready to confirm the order now?",
+          "m": "1) Trả lời có hoặc không. 2) Nói số lượng và sản phẩm bạn chốt.",
+          "h": "Use: Yes/No. I confirm + number + N.",
+          "s": "Yes, I confirm the order. I confirm five shirts."
+        },
+        {
+          "p": "Do you agree with the price and delivery?",
+          "m": "1) Trả lời có hoặc không. 2) Nêu bạn đồng ý với giá và ngày giao.",
+          "h": "Use: Yes/No. I agree with + price/day.",
+          "s": "Yes, I agree. I agree with the price and Friday delivery."
+        },
+        {
+          "p": "Will you pay now by card?",
+          "m": "1) Trả lời có hoặc không. 2) Nếu có, nói bạn sẽ thanh toán ngay.",
+          "h": "Use: Yes/No. I will pay now.",
+          "s": "Yes, I will pay now. I will pay by card."
+        },
+        {
+          "p": "Can we send the invoice to your email?",
+          "m": "1) Trả lời có hoặc không. 2) Nếu có, nêu tên để in hoá đơn (dùng [studentName] nếu cần).",
+          "h": "Use: Yes/No. The name is + [studentName].",
+          "s": "Yes, send the invoice. The name is [studentName]."
+        },
+        {
+          "p": "Do you want a delivery call before arrival?",
+          "m": "1) Trả lời có hoặc không. 2) Nói bạn muốn được gọi hay không.",
+          "h": "Use: Yes/No. + I want a call/I do not want a call.",
+          "s": "Yes, I want a call. Please call me before delivery."
+        }
+      ]
+    },
+    {
+      "t": "Ôn tập: Vấn đề và giải pháp",
+      "e": [
+        {
+          "p": "One item is late. Are you okay to wait?",
+          "m": "1) Trả lời có hoặc không. 2) Nếu không, nói bạn muốn gì (refund/replace).",
+          "h": "Use: Yes/No. I want + refund/replace.",
+          "s": "No, I am not okay to wait. I want a refund."
+        },
+        {
+          "p": "The color is wrong. Do you want exchange?",
+          "m": "1) Trả lời có hoặc không. 2) Nếu có, nêu màu bạn muốn.",
+          "h": "Use: Yes/No. I want + color.",
+          "s": "Yes, I want an exchange. I want a blue one."
+        },
+        {
+          "p": "Can we deliver a replacement tomorrow?",
+          "m": "1) Trả lời có hoặc không. 2) Nếu có, nói bạn có nhà nhận không.",
+          "h": "Use: Yes/No. I will be at home/I will not be.",
+          "s": "Yes, deliver tomorrow. I will be at home."
+        },
+        {
+          "p": "Do you accept a small discount for the problem?",
+          "m": "1) Trả lời có hoặc không. 2) Nếu có, nói bạn chấp nhận bao nhiêu (small).",
+          "h": "Use: Yes/No. I accept + small discount.",
+          "s": "Yes, I accept a small discount. I accept five dollars off."
+        },
+        {
+          "p": "Shall we close the case after fix?",
+          "m": "1) Trả lời có hoặc không. 2) Nói bạn hài lòng khi nào.",
+          "h": "Use: Yes/No. I am happy when + short.",
+          "s": "Yes, close the case after fix. I am happy when the item is new."
+        }
+      ]
+    },
+    {
+      "t": "Ôn tập: Hoàn tất đơn hàng",
+      "e": [
+        {
+          "p": "Is everything ready to finish the sale?",
+          "m": "1) Trả lời có hoặc không. 2) Nói bạn sẽ ký/ thanh toán hay chưa.",
+          "h": "Use: Yes/No. I will sign/pay now/later.",
+          "s": "Yes, everything is ready. I will pay now."
+        },
+        {
+          "p": "Do you want a copy of the receipt?",
+          "m": "1) Trả lời có hoặc không. 2) Nếu có, nêu bạn muốn email hay giấy.",
+          "h": "Use: Yes/No. I want + email/paper.",
+          "s": "Yes, I want a copy. I want it by email."
+        },
+        {
+          "p": "Can we schedule a follow-up call?",
+          "m": "1) Trả lời có hoặc không. 2) Nếu có, nói thời gian phù hợp.",
+          "h": "Use: Yes/No. Call me + time.",
+          "s": "Yes, schedule a call. Call me next Monday."
+        },
+        {
+          "p": "Do you need support after delivery?",
+          "m": "1) Trả lời có hoặc không. 2) Nếu có, nói bạn cần loại hỗ trợ ngắn.",
+          "h": "Use: Yes/No. I need + support type.",
+          "s": "Yes, I need support. I need help with installation."
+        },
+        {
+          "p": "Thank you. Will you recommend us?",
+          "m": "1) Trả lời có hoặc không. 2) Nói lý do ngắn.",
+          "h": "Use: Yes/No. + because + short reason.",
+          "s": "Yes, I will recommend you. Because the service is nice."
+        }
+      ]
+    }
+  ]
+}

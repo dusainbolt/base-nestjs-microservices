@@ -1,0 +1,530 @@
+{
+  "l": 2,
+  "d": [
+    {
+      "t": "Gặp hướng dẫn viên",
+      "e": [
+        {
+          "p": "What's your name?",
+          "m": "Nói tên của bạn. Nói bạn đến từ đâu.",
+          "h": "Dùng 'My name is...' và 'I am from...'.",
+          "s": "My name is [studentName]. I am from [studentCity]."
+        },
+        {
+          "p": "How old are you?",
+          "m": "Nói tuổi của bạn. Nói nghề nghiệp của bạn (nếu có).",
+          "h": "Dùng 'I am ... years old.' và 'I am a ...'.",
+          "s": "I am [studentAge] years old. I am a [studentJob]."
+        },
+        {
+          "p": "Do you like museums?",
+          "m": "Nói bạn có thích bảo tàng hay không. Nói lý do ngắn (1 từ hoặc 2 từ).",
+          "h": "Dùng 'I like' / 'I don't like' + N; mô tả bằng tính từ.",
+          "s": "I like museums. They are interesting."
+        },
+        {
+          "p": "Are you ready to start the tour?",
+          "m": "Nói bạn có sẵn sàng hay không. Nói nếu bạn cần gì trước khi bắt đầu.",
+          "h": "Dùng 'I am ready' hoặc 'I am not ready' và 'I need + N'.",
+          "s": "I am ready. I need a map."
+        },
+        {
+          "p": "Can I carry your bag?",
+          "m": "Nói có cần giúp mang hành lý không. Nếu cần, nói nơi để hành lý (ví dụ: on the bus).",
+          "h": "Dùng 'Yes, please' hoặc 'No, thank you' và 'Put it/on the ...'.",
+          "s": "Yes, please. Put it on the bus."
+        }
+      ]
+    },
+    {
+      "t": "Hỏi về giờ mở cửa",
+      "e": [
+        {
+          "p": "What time does the museum open?",
+          "m": "Nói giờ mở cửa. Nói giờ đóng cửa.",
+          "h": "Dùng 'It opens at ...' và 'It closes at ...'.",
+          "s": "It opens at 9 o'clock. It closes at 5 o'clock."
+        },
+        {
+          "p": "Is the park open now?",
+          "m": "Nói công viên đang mở hay đóng (hiện tại). Nói nếu nó luôn mở vào buổi sáng hay không (use 'usually').",
+          "h": "Dùng 'It is open/closed' và 'usually + V'.",
+          "s": "It is open now. It usually opens in the morning."
+        },
+        {
+          "p": "When do the gardens close on Sunday?",
+          "m": "Nói giờ đóng cửa vào Chủ nhật. Nói nếu giờ đóng cửa khác ngày khác (use 'sometimes').",
+          "h": "Dùng 'It closes at ...' và 'sometimes'.",
+          "s": "They close at 6 o'clock on Sunday. Sometimes they close earlier."
+        },
+        {
+          "p": "Do sites open early in summer?",
+          "m": "Trả lời có hoặc không. Nói tần suất ngắn (always/often/sometimes).",
+          "h": "Dùng 'Yes/No' và trạng từ tần suất + V(s).",
+          "s": "Yes, they open earlier in summer. They often open at 8."
+        },
+        {
+          "p": "Can we enter after 4 pm?",
+          "m": "Nói có thể vào sau 4 giờ chiều không. Nếu không, nói giờ muộn nhất có thể vào.",
+          "h": "Dùng 'You can/can't' và 'until + time'.",
+          "s": "You can enter until 4 pm. You can't enter after 4 pm."
+        }
+      ]
+    },
+    {
+      "t": "Hỏi giá vé và thanh toán",
+      "e": [
+        {
+          "p": "How much is the ticket?",
+          "m": "Nói giá vé. Nói nếu có vé giảm giá cho trẻ em (yes/no).",
+          "h": "Dùng 'The ticket is ...' và 'There is/There isn't'.",
+          "s": "The ticket is 10 dollars. There is a child discount."
+        },
+        {
+          "p": "Do you accept card?",
+          "m": "Trả lời chấp nhận thẻ hay không. Nếu có, nói cách khác (cash or card).",
+          "h": "Dùng 'Yes, we accept' hoặc 'No, we only accept'.",
+          "s": "Yes, we accept card. You can also pay cash."
+        },
+        {
+          "p": "Is there a student price?",
+          "m": "Nói có giá cho sinh viên không. Nói mức giá nếu có.",
+          "h": "Dùng 'There is/There isn't' và 'It is ...'.",
+          "s": "There is a student price. It is 7 dollars."
+        },
+        {
+          "p": "Can I buy a family ticket?",
+          "m": "Nói có mua vé gia đình được không. Nếu có, nói gồm bao nhiêu người.",
+          "h": "Dùng 'Yes, you can' và 'It includes ... people'.",
+          "s": "Yes, you can buy a family ticket. It includes four people."
+        },
+        {
+          "p": "How many tickets do we need?",
+          "m": "Nói số vé cần mua. Nói nếu trẻ em được miễn phí (yes/no).",
+          "h": "Dùng 'You need ... tickets.' và 'Children are ...'.",
+          "s": "You need five tickets. Children are free."
+        }
+      ]
+    },
+    {
+      "t": "Hỏi đường trong khu di tích",
+      "e": [
+        {
+          "p": "Where is the main gate?",
+          "m": "Chỉ vị trí cổng chính (preposition). Nói khoảng cách ngắn (ví dụ: near, next to).",
+          "h": "Dùng 'It is + preposition' và 'next to/near'.",
+          "s": "It is next to the big tree. It is near the ticket office."
+        },
+        {
+          "p": "How do I get to the museum from here?",
+          "m": "Cho chỉ dẫn ngắn: đi thẳng hay rẽ trái/phải. Nói khoảng thời gian đi bộ (minutes).",
+          "h": "Dùng 'Go straight', 'turn left/right' và 'in ... minutes'.",
+          "s": "Go straight and turn right. It is a five-minute walk."
+        },
+        {
+          "p": "Is the café behind the statue?",
+          "m": "Trả lời vị trí đúng/sai. Nếu đúng, nói cách vị trí (in front of/behind).",
+          "h": "Dùng 'Yes, it is' hoặc 'No, it is' và 'behind/in front of'.",
+          "s": "Yes, it is behind the statue. It is a small café."
+        },
+        {
+          "p": "Which way to the viewpoint?",
+          "m": "Chỉ đường ngắn và nói nếu đường dốc hay không (use 'up' or 'down').",
+          "h": "Dùng 'Go up' hoặc 'Go down' và 'then'.",
+          "s": "Go up the hill and then turn left. The path is a bit steep."
+        },
+        {
+          "p": "Can I walk to the next site?",
+          "m": "Nói có thể đi bộ hay không. Nếu không, nói cách di chuyển khác (bus/taxi).",
+          "h": "Dùng 'Yes, you can' hoặc 'No, take a ...'.",
+          "s": "Yes, you can walk. Or take the shuttle bus."
+        }
+      ]
+    },
+    {
+      "t": "Dịch vụ trên xe buýt tham quan",
+      "e": [
+        {
+          "p": "Is there space for luggage on the bus?",
+          "m": "Nói có chỗ để hành lý hay không. Nói nếu có giới hạn kích thước (short).",
+          "h": "Dùng 'There is/There isn't' và 'small/large'.",
+          "s": "There is space for small bags. There isn't space for large suitcases."
+        },
+        {
+          "p": "Do we stop for photos?",
+          "m": "Trả lời có dừng chụp ảnh không. Nói tần suất (always/often/sometimes).",
+          "h": "Dùng 'Yes/No' và trạng từ tần suất.",
+          "s": "Yes, we stop for photos. We often stop at the view points."
+        },
+        {
+          "p": "Can I charge my phone on the bus?",
+          "m": "Nói có thể sạc điện thoại không. Nếu có, nói vị trí (near seat).",
+          "h": "Dùng 'You can' hoặc 'You can't' và 'near/under'.",
+          "s": "Yes, you can charge your phone. The socket is near your seat."
+        },
+        {
+          "p": "Is the bus air-conditioned?",
+          "m": "Nói bus có điều hoà không. Nếu có, nói nhiệt độ có thể điều chỉnh không (short).",
+          "h": "Dùng 'It is/It isn't' và 'can/can't + V'.",
+          "s": "Yes, it is air-conditioned. You can change the vent."
+        },
+        {
+          "p": "Where do we meet the bus after the tour?",
+          "m": "Nói nơi gặp lại (preposition + place). Nói thời gian gặp (minutes after end).",
+          "h": "Dùng prepositions 'at/in/by' và 'in ... minutes'.",
+          "s": "Meet by the main gate. Meet the bus in ten minutes."
+        }
+      ]
+    },
+    {
+      "t": "Nhà vệ sinh và tiện nghi",
+      "e": [
+        {
+          "p": "Where is the restroom?",
+          "m": "Cho biết vị trí nhà vệ sinh. Nói nếu miễn phí hay mất phí (free/paid).",
+          "h": "Dùng 'It is + preposition' và 'free/paid'.",
+          "s": "It is near the café. It is free."
+        },
+        {
+          "p": "Is there a baby room?",
+          "m": "Nói có phòng cho em bé không. Nói nếu nó ở gần đâu (preposition).",
+          "h": "Dùng 'There is/There isn't' và 'near/next to'.",
+          "s": "There is a baby room. It is next to the toilets."
+        },
+        {
+          "p": "Can I use a locker here?",
+          "m": "Nói có thể dùng tủ đồ không. Nói phí hay miễn phí.",
+          "h": "Dùng 'You can' và 'It is free/It costs ...'.",
+          "s": "You can use a locker. It costs two dollars."
+        },
+        {
+          "p": "Where is the first aid station?",
+          "m": "Nói vị trí trạm sơ cứu. Nói nếu mở 24 giờ hay không.",
+          "h": "Dùng 'It is at/in' và 'open 24 hours or not'.",
+          "s": "It is at the visitor center. It is not open 24 hours."
+        },
+        {
+          "p": "Is there a water fountain nearby?",
+          "m": "Trả lời có hay không. Nếu có, nói chính xác chỗ (near/behind).",
+          "h": "Dùng 'Yes, there is' / 'No, there isn't' và prepositions.",
+          "s": "Yes, there is a water fountain. It is behind the ticket office."
+        }
+      ]
+    },
+    {
+      "t": "Ăn trưa và quán cà phê gần đó",
+      "e": [
+        {
+          "p": "Where can we eat lunch?",
+          "m": "Chỉ nơi ăn trưa gần nhất. Nói nếu có chỗ ngồi trong nhà hay ngoài trời.",
+          "h": "Dùng 'You can eat at...' và 'inside/outside'.",
+          "s": "You can eat at the café by the pond. It has outdoor seating."
+        },
+        {
+          "p": "Do you recommend a cheap place?",
+          "m": "Nói có quán rẻ không. Nếu có, nêu tên ngắn hoặc vị trí.",
+          "h": "Dùng 'Yes, there is' và 'It is at/near...'.",
+          "s": "Yes, there is a cheap snack bar. It is near the south entrance."
+        },
+        {
+          "p": "Is the cafe vegetarian friendly?",
+          "m": "Trả lời có hay không. Nói một món chay đơn giản nếu có.",
+          "h": "Dùng 'Yes/No' và 'They have ...'.",
+          "s": "Yes, it is vegetarian friendly. They have a salad."
+        },
+        {
+          "p": "How often do you stop for lunch on the tour?",
+          "m": "Nói tần suất dừng cho bữa trưa (always/often/sometimes). Nói thời gian dừng (minutes).",
+          "h": "Dùng trạng từ tần suất + V và 'for ... minutes'.",
+          "s": "We usually stop for lunch. We stop for thirty minutes."
+        },
+        {
+          "p": "Can I bring my own food?",
+          "m": "Nói có thể mang đồ ăn riêng không. Nếu có hạn chế, nêu 1 điều đơn giản.",
+          "h": "Dùng 'You can' or 'You can't' và 'but...'.",
+          "s": "Yes, you can bring your own food. But no cooking is allowed."
+        }
+      ]
+    },
+    {
+      "t": "An toàn và quy định tại địa điểm",
+      "e": [
+        {
+          "p": "Is photography allowed here?",
+          "m": "Nói có được chụp ảnh không. Nếu có hạn chế, nêu ngắn (flash/no flash).",
+          "h": "Dùng 'Yes/No' và 'but...'.",
+          "s": "Yes, photography is allowed. But no flash."
+        },
+        {
+          "p": "Are pets allowed in the park?",
+          "m": "Trả lời có hay không. Nếu có, nêu điều kiện ngắn (on a leash).",
+          "h": "Dùng 'Yes/No' và 'on a leash'.",
+          "s": "No, pets are not allowed. Only service animals are allowed."
+        },
+        {
+          "p": "Do we need to wear a mask inside?",
+          "m": "Nói bắt buộc hay không. Nếu bắt buộc, nêu 'inside' nơi áp dụng.",
+          "h": "Dùng 'You must/You don't need to' và 'inside'.",
+          "s": "You must wear a mask inside. It is required in the indoor areas."
+        },
+        {
+          "p": "What should I do in case of emergency?",
+          "m": "Nói hành động chính (go to/by). Nói nơi để tìm giúp đỡ (visitor center/first aid).",
+          "h": "Dùng 'Go to...' và 'call/ask at...'.",
+          "s": "Go to the visitor center. Ask for help at the first aid desk."
+        },
+        {
+          "p": "Are there safety signs on the trail?",
+          "m": "Trả lời có hay không. Nói vị trí của biển báo (along the trail).",
+          "h": "Dùng 'Yes/No' và 'along/near'.",
+          "s": "Yes, there are safety signs. They are along the trail."
+        }
+      ]
+    },
+    {
+      "t": "Thời tiết và trang phục",
+      "e": [
+        {
+          "p": "Is it hot today?",
+          "m": "Nói hôm nay có nóng không. Nói nếu cần mặc áo khoác hay không.",
+          "h": "Dùng 'It is/It isn't' và 'You need/don't need a jacket'.",
+          "s": "Yes, it is hot today. You don't need a jacket."
+        },
+        {
+          "p": "Will it rain this afternoon?",
+          "m": "Trả lời có mưa hay không. Nói nếu nên mang ô hay không.",
+          "h": "Dùng 'Yes/No' và 'take an umbrella'.",
+          "s": "No, it won't rain this afternoon. You don't need an umbrella."
+        },
+        {
+          "p": "Should I wear comfortable shoes?",
+          "m": "Trả lời có nên hay không. Nói lý do ngắn (walk/hill).",
+          "h": "Dùng 'You should' và 'because...'.",
+          "s": "Yes, you should wear comfortable shoes. You will walk on hills."
+        },
+        {
+          "p": "Is it windy at the viewpoint?",
+          "m": "Nói có gió không. Nói nếu cần mũ hoặc không.",
+          "h": "Dùng 'It is/It isn't' và 'You need/don't need a hat'.",
+          "s": "Yes, it is windy at the viewpoint. You need a hat."
+        },
+        {
+          "p": "Do we stop in bad weather?",
+          "m": "Nói có dừng hay không khi thời tiết xấu. Nói nếu đổi lịch hay hủy bỏ (change/cancel).",
+          "h": "Dùng 'We stop' hoặc 'We cancel' và 'if...'.",
+          "s": "We stop the outdoor stops in bad weather. We change the schedule if needed."
+        }
+      ]
+    },
+    {
+      "t": "Thời gian biểu chuyến tham quan",
+      "e": [
+        {
+          "p": "What time does the tour start?",
+          "m": "Nói giờ bắt đầu. Nói nơi tập trung lúc bắt đầu.",
+          "h": "Dùng 'It starts at ...' và 'Meet at...'.",
+          "s": "The tour starts at 9 o'clock. Meet at the main gate."
+        },
+        {
+          "p": "How long is the visit to the museum?",
+          "m": "Nói thời lượng tham quan (minutes/hours). Nói nếu có thời gian nghỉ giữa chừng.",
+          "h": "Dùng 'It lasts ...' và 'with a break'.",
+          "s": "The visit lasts one hour. There is a short break."
+        },
+        {
+          "p": "When do we return to the hotel?",
+          "m": "Nói giờ về khách sạn. Nói if it's approximate (use 'around').",
+          "h": "Dùng 'We return at ...' và 'around ...'.",
+          "s": "We return to the hotel at 5 pm. We arrive around 5:30 pm."
+        },
+        {
+          "p": "Are there free minutes between sites?",
+          "m": "Nói có thời gian rảnh ngắn không. Nói số phút nếu có.",
+          "h": "Dùng 'Yes/No' và '... minutes free'.",
+          "s": "Yes, there are free minutes between sites. You have ten minutes free."
+        },
+        {
+          "p": "Can I leave early from the tour?",
+          "m": "Nói có thể rời sớm không. Nếu được, nói cách thông báo (tell guide).",
+          "h": "Dùng 'You can' và 'tell the guide'.",
+          "s": "Yes, you can leave early. Please tell the guide first."
+        }
+      ]
+    },
+    {
+      "t": "Mua quà lưu niệm",
+      "e": [
+        {
+          "p": "Is there a gift shop here?",
+          "m": "Trả lời có quầy quà lưu niệm không. Nói vị trí ngắn.",
+          "h": "Dùng 'Yes/No' và 'It is at/in...'.",
+          "s": "Yes, there is a gift shop. It is at the visitor center."
+        },
+        {
+          "p": "How many souvenirs are in the shop?",
+          "m": "Nói số lượng (approximate). Nói một loại quà phổ biến ở đó.",
+          "h": "Dùng 'There are ...' và 'They have ...'.",
+          "s": "There are many souvenirs. They have postcards and magnets."
+        },
+        {
+          "p": "Do you accept returns?",
+          "m": "Nói có nhận trả đồ không. Nếu có thời hạn, nêu ngắn (days).",
+          "h": "Dùng 'Yes/No' và 'within ... days'.",
+          "s": "Yes, we accept returns. You can return within seven days."
+        },
+        {
+          "p": "Can I pay with cash only?",
+          "m": "Nói có thể chỉ trả tiền mặt hay không. Nói phương thức khác nếu có.",
+          "h": "Dùng 'Yes/No' và 'you can also pay by...'.",
+          "s": "No, not cash only. You can also pay by card."
+        },
+        {
+          "p": "Do you sell local food as gifts?",
+          "m": "Trả lời có hay không. Nếu có, nêu một ví dụ đơn giản (tea/honey).",
+          "h": "Dùng 'Yes/No' và 'They sell ...'.",
+          "s": "Yes, we sell local food. They sell tea and honey."
+        }
+      ]
+    },
+    {
+      "t": "Hỏi về số lượng và tính năng",
+      "e": [
+        {
+          "p": "How many visitors are allowed in a group?",
+          "m": "Nói số người tối đa. Nói nếu có giới hạn cho trẻ em (short).",
+          "h": "Dùng '... visitors' và 'children ...'.",
+          "s": "A group is allowed twenty visitors. Children count in the total."
+        },
+        {
+          "p": "Are there many stairs in the site?",
+          "m": "Trả lời có nhiều cầu thang hay không. Nói nếu có lối đi cho xe lăn.",
+          "h": "Dùng 'There are/There aren't' và 'wheelchair access'.",
+          "s": "Yes, there are many stairs. There is a wheelchair ramp at the back."
+        },
+        {
+          "p": "How many toilets are near the entrance?",
+          "m": "Nói số nhà vệ sinh. Nói nếu chúng gần hay xa (near/far).",
+          "h": "Dùng 'There are ... toilets' và 'near/far'.",
+          "s": "There are two toilets near the entrance. They are very close."
+        },
+        {
+          "p": "Is there more than one guide today?",
+          "m": "Trả lời có hay không. Nói số hướng dẫn viên nếu có nhiều hơn một.",
+          "h": "Dùng 'Yes/No' và 'There are ... guides'.",
+          "s": "Yes, there is more than one guide today. There are three guides."
+        },
+        {
+          "p": "Do we have free time at each site?",
+          "m": "Trả lời có hay không. Nói khoảng thời gian tự do (minutes).",
+          "h": "Dùng 'Yes/No' và '... minutes free'.",
+          "s": "Yes, we have free time at each site. You have fifteen minutes."
+        }
+      ]
+    },
+    {
+      "t": "Ôn tập: Gặp và hỏi thông tin cơ bản",
+      "e": [
+        {
+          "p": "Can you tell me your name and where you are from?",
+          "m": "Nói tên của bạn. Nói bạn đến từ đâu.",
+          "h": "Dùng 'My name is...' và 'I am from...'.",
+          "s": "My name is [studentName]. I am from [studentCity]."
+        },
+        {
+          "p": "How old are you and what is your job?",
+          "m": "Nói tuổi. Nói nghề nghiệp ngắn gọn.",
+          "h": "Dùng 'I am ... years old.' và 'I am a ...'.",
+          "s": "I am [studentAge] years old. I am a [studentJob]."
+        },
+        {
+          "p": "Do you like the tour and why?",
+          "m": "Nói bạn có thích chuyến tham quan không. Nói lý do ngắn (1 câu).",
+          "h": "Dùng 'I like/I don't like' và 'because...'.",
+          "s": "I like the tour. It is interesting and fun."
+        },
+        {
+          "p": "Are you ready now and do you need anything?",
+          "m": "Nói có sẵn sàng không. Nói nếu cần một vật (map/water).",
+          "h": "Dùng 'I am ready' và 'I need + N'.",
+          "s": "I am ready. I need a bottle of water."
+        },
+        {
+          "p": "Can I help you and where to put your bag?",
+          "m": "Nói có cần giúp mang hành lý không. Nói nơi để hành lý.",
+          "h": "Dùng 'Yes, please/No, thanks' và 'Put it on/in...'.",
+          "s": "No, thank you. I will put it under my seat."
+        }
+      ]
+    },
+    {
+      "t": "Ôn tập: Hỏi đường, giờ, giá",
+      "e": [
+        {
+          "p": "What time does the site open and close?",
+          "m": "Nói giờ mở cửa. Nói giờ đóng cửa.",
+          "h": "Dùng 'It opens at...' và 'It closes at...'.",
+          "s": "It opens at 8 am. It closes at 6 pm."
+        },
+        {
+          "p": "How do I get to the viewpoint and how long is the walk?",
+          "m": "Chỉ đường ngắn (go straight/turn). Nói thời gian đi bộ (minutes).",
+          "h": "Dùng 'Go straight/turn right' và '... minutes'.",
+          "s": "Go straight and turn left. It is a ten-minute walk."
+        },
+        {
+          "p": "How much is the ticket and is there a student price?",
+          "m": "Nói giá vé. Nói có giá sinh viên hay không và mức giá nếu có.",
+          "h": "Dùng 'The ticket is ...' và 'There is a student price ...'.",
+          "s": "The ticket is 12 dollars. There is a student price of 8 dollars."
+        },
+        {
+          "p": "Can we pay by card and do you give change?",
+          "m": "Trả lời có thể trả bằng thẻ không. Nói có nhận tiền thối hay không.",
+          "h": "Dùng 'Yes/No' và 'We give change' hoặc 'We don't'.",
+          "s": "Yes, you can pay by card. We give change in cash."
+        },
+        {
+          "p": "How many people are in a family ticket and how much does it cost?",
+          "m": "Nói số người trong vé gia đình. Nói giá vé gia đình.",
+          "h": "Dùng 'It includes ... people.' và 'It costs ...'.",
+          "s": "A family ticket includes four people. It costs 30 dollars."
+        }
+      ]
+    },
+    {
+      "t": "Ôn tập: Tình huống thực tế",
+      "e": [
+        {
+          "p": "Our bus is late. What should we do?",
+          "m": "Nói hành động ngắn để làm bây giờ (wait/go). Nói nếu có thông báo hay không.",
+          "h": "Dùng 'Wait' hoặc 'Go to...' và 'We will ...'.",
+          "s": "Wait at the meeting point. We will announce any change."
+        },
+        {
+          "p": "A member lost their ticket. What now?",
+          "m": "Nói bước đầu cần làm (go to office). Nói nếu mua vé mới hay không.",
+          "h": "Dùng 'Go to...' và 'You can/buy a new ticket'.",
+          "s": "Go to the ticket office. You can buy a new ticket there."
+        },
+        {
+          "p": "Someone feels sick on the tour. Help?",
+          "m": "Nói nơi để tìm giúp đỡ (first aid). Nói nếu gọi ai đó (guide/center).",
+          "h": "Dùng 'Go to...' và 'Tell the guide'.",
+          "s": "Take them to the first aid station. Tell the guide immediately."
+        },
+        {
+          "p": "We miss a stop. How to return?",
+          "m": "Nói cách quay lại (take bus/walk). Nói nếu cần trả thêm tiền hay không.",
+          "h": "Dùng 'Take the bus' và 'It costs/no cost'.",
+          "s": "Take the shuttle bus back. It costs two dollars."
+        },
+        {
+          "p": "The weather is bad and the outdoor site is closed. Options?",
+          "m": "Nói một lựa chọn thay thế (visit indoor site). Nói nếu đổi lịch hay hoàn tiền.",
+          "h": "Dùng 'You can' và 'We will change/refund'.",
+          "s": "You can visit the indoor museum instead. We will change the schedule."
+        }
+      ]
+    }
+  ]
+}

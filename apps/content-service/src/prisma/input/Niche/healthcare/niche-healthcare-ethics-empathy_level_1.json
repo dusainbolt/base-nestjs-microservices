@@ -1,0 +1,530 @@
+{
+  "l": 1,
+  "d": [
+    {
+      "t": "Gặp bệnh nhân mới",
+      "e": [
+        {
+          "p": "What is your name?",
+          "m": "Nói tên của bạn bằng 1 câu.",
+          "h": "Use: I am + name / My name is + name.",
+          "s": "I am [studentName]."
+        },
+        {
+          "p": "How old are you?",
+          "m": "Nói tuổi của bạn bằng 1 câu.",
+          "h": "Use: I am + number + years old.",
+          "s": "I am [studentAge] years old."
+        },
+        {
+          "p": "Where do you live?",
+          "m": "Nói nơi bạn sống bằng 1 câu.",
+          "h": "Use: I live in + place.",
+          "s": "I live in [studentCity]."
+        },
+        {
+          "p": "Do you have pain now?",
+          "m": "Nói có hoặc không bằng 1 câu.",
+          "h": "Use: I have / I don't have + pain.",
+          "s": "I have pain."
+        },
+        {
+          "p": "Can I bring you water?",
+          "m": "Nói bạn muốn nước hay không bằng 1 câu.",
+          "h": "Use: I want / I don't want + noun.",
+          "s": "I want water."
+        }
+      ]
+    },
+    {
+      "t": "Hỏi về cảm giác và đau",
+      "e": [
+        {
+          "p": "How do you feel now?",
+          "m": "Nói cảm giác hiện tại (1 câu).",
+          "h": "Use: I feel + adj.",
+          "s": "I feel sad."
+        },
+        {
+          "p": "Is your head hurt?",
+          "m": "Trả lời có/không bằng 1 câu.",
+          "h": "Use: Yes, I have + pain / No, I don't have + pain.",
+          "s": "Yes, I have head pain."
+        },
+        {
+          "p": "Where is the pain?",
+          "m": "Nói vị trí đau bằng 1 câu.",
+          "h": "Use: The pain is in + body part.",
+          "s": "The pain is in my head."
+        },
+        {
+          "p": "Do you feel hot or cold?",
+          "m": "Chọn một trạng thái bằng 1 câu.",
+          "h": "Use: I feel + hot/cold.",
+          "s": "I feel hot."
+        },
+        {
+          "p": "Can you walk now?",
+          "m": "Nói có thể hay không bằng 1 câu.",
+          "h": "Use: I can / I can't + verb.",
+          "s": "I can't walk."
+        }
+      ]
+    },
+    {
+      "t": "Nói lời xin lỗi và an ủi",
+      "e": [
+        {
+          "p": "I am sorry for the pain.",
+          "m": "Nói 'cảm ơn' hoặc phản hồi an ủi bằng 1 câu.",
+          "h": "Use: Thank you / It's okay / I am okay.",
+          "s": "Thank you."
+        },
+        {
+          "p": "This is sad news.",
+          "m": "Nói bạn buồn hay không bằng 1 câu.",
+          "h": "Use: I am + adj.",
+          "s": "I am sad."
+        },
+        {
+          "p": "I can sit with you a little.",
+          "m": "Nói bạn muốn có ai bên cạnh hay không bằng 1 câu.",
+          "h": "Use: I want / I don't want + support.",
+          "s": "I want someone."
+        },
+        {
+          "p": "Do you want me to call a family member?",
+          "m": "Nói có hoặc không bằng 1 câu.",
+          "h": "Use: Yes, please / No, thank you.",
+          "s": "Yes, please."
+        },
+        {
+          "p": "I will help you now.",
+          "m": "Nói bạn cảm ơn hoặc nói bạn cần giúp thêm bằng 1 câu.",
+          "h": "Use: Thank you / I need + help.",
+          "s": "Thank you."
+        }
+      ]
+    },
+    {
+      "t": "Hỏi ý kiến gia đình",
+      "e": [
+        {
+          "p": "Is there a family member here?",
+          "m": "Trả lời có/không bằng 1 câu.",
+          "h": "Use: Yes, there is / No, there is not.",
+          "s": "Yes, there is."
+        },
+        {
+          "p": "Can I talk to your family?",
+          "m": "Nói có cho phép hay không bằng 1 câu.",
+          "h": "Use: Yes, you can / No, you can't.",
+          "s": "Yes, you can."
+        },
+        {
+          "p": "Who is your main contact?",
+          "m": "Nói tên người liên hệ bằng 1 câu.",
+          "h": "Use: It is + name / My contact is + name.",
+          "s": "My contact is my sister."
+        },
+        {
+          "p": "Do you want your family to know the news?",
+          "m": "Nói bạn muốn hay không bằng 1 câu.",
+          "h": "Use: I want / I don't want + that.",
+          "s": "I want them to know."
+        },
+        {
+          "p": "Can your family come now?",
+          "m": "Nói có thể hay không bằng 1 câu.",
+          "h": "Use: They can / They can't + come.",
+          "s": "They can come."
+        }
+      ]
+    },
+    {
+      "t": "Thông báo kết quả đơn giản",
+      "e": [
+        {
+          "p": "The test result is here.",
+          "m": "Nói bạn muốn biết kết quả hay không bằng 1 câu.",
+          "h": "Use: I want / I don't want + to know.",
+          "s": "I want to know."
+        },
+        {
+          "p": "The result is not good.",
+          "m": "Nói bạn buồn hay không bằng 1 câu.",
+          "h": "Use: I am + adj.",
+          "s": "I am sad."
+        },
+        {
+          "p": "Do you have questions about the result?",
+          "m": "Nói có câu hỏi hay không bằng 1 câu.",
+          "h": "Use: I have / I don't have + questions.",
+          "s": "I have one question."
+        },
+        {
+          "p": "I can explain in one sentence.",
+          "m": "Nói bạn hiểu hay không bằng 1 câu.",
+          "h": "Use: I understand / I don't understand.",
+          "s": "I don't understand."
+        },
+        {
+          "p": "Would you like a doctor to speak with you?",
+          "m": "Nói có muốn gặp bác sĩ hay không bằng 1 câu.",
+          "h": "Use: Yes, I want / No, I don't want.",
+          "s": "Yes, I want to see the doctor."
+        }
+      ]
+    },
+    {
+      "t": "Hỏi bệnh sử cơ bản",
+      "e": [
+        {
+          "p": "Do you have allergies?",
+          "m": "Trả lời có/không bằng 1 câu.",
+          "h": "Use: I have / I don't have + allergies.",
+          "s": "I don't have allergies."
+        },
+        {
+          "p": "Did you have surgery before?",
+          "m": "Nói có/không bằng 1 câu.",
+          "h": "Use: I had surgery / I did not have surgery.",
+          "s": "I did not have surgery."
+        },
+        {
+          "p": "Do you take medicine now?",
+          "m": "Nói có/không bằng 1 câu.",
+          "h": "Use: I take / I don't take + medicine.",
+          "s": "I take medicine."
+        },
+        {
+          "p": "Do you smoke or drink?",
+          "m": "Nói có hay không bằng 1 câu.",
+          "h": "Use: I smoke / I don't smoke / I drink / I don't drink.",
+          "s": "I don't smoke."
+        },
+        {
+          "p": "Is any family member sick now?",
+          "m": "Nói có hoặc không và ngắn gọn (1 câu).",
+          "h": "Use: Yes, + who / No, there is not.",
+          "s": "No, there is not."
+        }
+      ]
+    },
+    {
+      "t": "Hỏi về thuốc và cảm nhận",
+      "e": [
+        {
+          "p": "Did you take your medicine today?",
+          "m": "Nói có hoặc không bằng 1 câu.",
+          "h": "Use: I took it / I did not take it.",
+          "s": "I did not take it."
+        },
+        {
+          "p": "Does the medicine help your pain?",
+          "m": "Nói có hoặc không bằng 1 câu.",
+          "h": "Use: It helps / It does not help.",
+          "s": "It helps."
+        },
+        {
+          "p": "Can you eat after the medicine?",
+          "m": "Trả lời có thể hay không bằng 1 câu.",
+          "h": "Use: I can / I can't + verb.",
+          "s": "I can eat."
+        },
+        {
+          "p": "Do you feel better or worse?",
+          "m": "Chọn một trạng thái bằng 1 câu.",
+          "h": "Use: I feel + better/worse.",
+          "s": "I feel better."
+        },
+        {
+          "p": "Do you need more medicine now?",
+          "m": "Nói có hoặc không bằng 1 câu.",
+          "h": "Use: I need / I don't need + medicine.",
+          "s": "I need more medicine."
+        }
+      ]
+    },
+    {
+      "t": "Nói về chọn lựa điều trị đơn giản",
+      "e": [
+        {
+          "p": "You can choose option A or B.",
+          "m": "Nói bạn chọn A hoặc B bằng 1 câu.",
+          "h": "Use: I choose + A/B.",
+          "s": "I choose option A."
+        },
+        {
+          "p": "Are you okay with a simple operation?",
+          "m": "Trả lời có/không bằng 1 câu.",
+          "h": "Use: Yes, I am okay / No, I am not okay.",
+          "s": "Yes, I am okay."
+        },
+        {
+          "p": "Do you want more time to think?",
+          "m": "Nói muốn hay không bằng 1 câu.",
+          "h": "Use: I want more time / I don't want more time.",
+          "s": "I want more time."
+        },
+        {
+          "p": "Can you sign a paper for the plan?",
+          "m": "Nói có thể ký hay không bằng 1 câu.",
+          "h": "Use: I can sign / I can't sign.",
+          "s": "I can sign."
+        },
+        {
+          "p": "Do you need family help to decide?",
+          "m": "Nói có cần hay không bằng 1 câu.",
+          "h": "Use: I need / I don't need + help.",
+          "s": "I need family help."
+        }
+      ]
+    },
+    {
+      "t": "Giữ bí mật thông tin",
+      "e": [
+        {
+          "p": "We keep your info private.",
+          "m": "Nói bạn hiểu hay không bằng 1 câu.",
+          "h": "Use: I understand / I don't understand.",
+          "s": "I understand."
+        },
+        {
+          "p": "Do you want us to tell your family?",
+          "m": "Nói có hoặc không bằng 1 câu.",
+          "h": "Use: Yes, tell them / No, don't tell them.",
+          "s": "No, don't tell them."
+        },
+        {
+          "p": "Is it ok to share the result with your doctor?",
+          "m": "Nói có hoặc không bằng 1 câu.",
+          "h": "Use: Yes, it is ok / No, it is not ok.",
+          "s": "Yes, it is ok."
+        },
+        {
+          "p": "Who can we call with your info?",
+          "m": "Nói một người được phép bằng 1 câu.",
+          "h": "Use: Call + person (e.g., my brother).",
+          "s": "Call my brother."
+        },
+        {
+          "p": "Do you want a note at your bed that says nothing?",
+          "m": "Nói bạn muốn hay không bằng 1 câu.",
+          "h": "Use: I want / I don't want + note.",
+          "s": "I don't want a note."
+        }
+      ]
+    },
+    {
+      "t": "Khi bệnh nhân buồn hoặc lo lắng",
+      "e": [
+        {
+          "p": "You look worried.",
+          "m": "Nói bạn có lo lắng hay không bằng 1 câu.",
+          "h": "Use: I am + worried / I am not + worried.",
+          "s": "I am worried."
+        },
+        {
+          "p": "Do you want to talk now?",
+          "m": "Nói có muốn nói hay không bằng 1 câu.",
+          "h": "Use: Yes, I want to talk / No, not now.",
+          "s": "Yes, I want to talk."
+        },
+        {
+          "p": "Can I sit with you a little?",
+          "m": "Nói bạn muốn có ai đó bên cạnh hay không bằng 1 câu.",
+          "h": "Use: I want someone / I don't want someone.",
+          "s": "I want someone."
+        },
+        {
+          "p": "Do you sleep well at night?",
+          "m": "Nói có ngủ tốt hay không bằng 1 câu.",
+          "h": "Use: I sleep well / I don't sleep well.",
+          "s": "I don't sleep well."
+        },
+        {
+          "p": "What helps you feel calm?",
+          "m": "Nói một điều giúp bạn bình tĩnh bằng 1 câu.",
+          "h": "Use: + noun or I like + noun.",
+          "s": "I like soft music."
+        }
+      ]
+    },
+    {
+      "t": "Hỏi về nhu cầu hỗ trợ",
+      "e": [
+        {
+          "p": "Do you need help with food now?",
+          "m": "Nói có hoặc không bằng 1 câu.",
+          "h": "Use: I need / I don't need + help.",
+          "s": "I need help with food."
+        },
+        {
+          "p": "Can someone bring your clothes?",
+          "m": "Nói có hay không bằng 1 câu.",
+          "h": "Use: Yes, they can / No, they can't.",
+          "s": "Yes, they can."
+        },
+        {
+          "p": "Do you need a blanket?",
+          "m": "Nói có hoặc không bằng 1 câu.",
+          "h": "Use: I need / I don't need + noun.",
+          "s": "I need a blanket."
+        },
+        {
+          "p": "Is water enough or do you want food too?",
+          "m": "Chọn một trong hai bằng 1 câu.",
+          "h": "Use: I want + water/food.",
+          "s": "I want water."
+        },
+        {
+          "p": "Who can come to help you today?",
+          "m": "Nói tên người hoặc mối quan hệ bằng 1 câu.",
+          "h": "Use: My + relation (e.g., sister).",
+          "s": "My sister can come."
+        }
+      ]
+    },
+    {
+      "t": "Từ chối giúp quá khả năng",
+      "e": [
+        {
+          "p": "I cannot do that here.",
+          "m": "Nói bạn hiểu hay không bằng 1 câu.",
+          "h": "Use: I understand / I don't understand.",
+          "s": "I understand."
+        },
+        {
+          "p": "We cannot give that medicine now.",
+          "m": "Nói bạn buồn hay không bằng 1 câu.",
+          "h": "Use: I am + sad/ok.",
+          "s": "I am sad."
+        },
+        {
+          "p": "Can you wait for another place?",
+          "m": "Nói bạn có thể chờ hay không bằng 1 câu.",
+          "h": "Use: I can wait / I can't wait.",
+          "s": "I can wait."
+        },
+        {
+          "p": "Do you want a phone number for help?",
+          "m": "Nói có muốn số điện thoại hay không bằng 1 câu.",
+          "h": "Use: Yes, I want / No, I don't want.",
+          "s": "Yes, I want the number."
+        },
+        {
+          "p": "I will find another way to help.",
+          "m": "Nói bạn đồng ý hay không bằng 1 câu.",
+          "h": "Use: I agree / I do not agree.",
+          "s": "I agree."
+        }
+      ]
+    },
+    {
+      "t": "Ôn tập: Giao tiếp ban đầu",
+      "e": [
+        {
+          "p": "Hello, I am your nurse.",
+          "m": "Nói tên và tuổi của bạn bằng 1 câu (hai thông tin trong 1 câu).",
+          "h": "Use: I am + name and I am + age -> combine: I am [name] and I am [age] years old.",
+          "s": "I am [studentName] and I am [studentAge] years old."
+        },
+        {
+          "p": "Do you have pain now?",
+          "m": "Nói có/không và vị trí đau bằng 1 câu.",
+          "h": "Use: I have / I don't have + pain in + place.",
+          "s": "I have pain in my head."
+        },
+        {
+          "p": "Can I get you water or food?",
+          "m": "Nói bạn muốn nước hay thức ăn bằng 1 câu.",
+          "h": "Use: I want + water/food.",
+          "s": "I want food."
+        },
+        {
+          "p": "Is there a family member with you?",
+          "m": "Nói có/không và ai đó bằng 1 câu.",
+          "h": "Use: Yes, there is + who / No, there is not.",
+          "s": "Yes, there is my sister."
+        },
+        {
+          "p": "Do you understand the plan?",
+          "m": "Nói bạn hiểu hay không bằng 1 câu.",
+          "h": "Use: I understand / I don't understand.",
+          "s": "I understand."
+        }
+      ]
+    },
+    {
+      "t": "Ôn tập: Tin xấu và an ủi",
+      "e": [
+        {
+          "p": "I have some bad news.",
+          "m": "Nói bạn muốn biết tin hay không bằng 1 câu.",
+          "h": "Use: I want to know / I don't want to know.",
+          "s": "I want to know."
+        },
+        {
+          "p": "The result shows more problems.",
+          "m": "Nói bạn cảm thấy như thế nào bằng 1 câu.",
+          "h": "Use: I feel + sad/worried.",
+          "s": "I feel worried."
+        },
+        {
+          "p": "I am sorry for this news.",
+          "m": "Nói bạn cần giúp hay không bằng 1 câu.",
+          "h": "Use: I need / I don't need + help.",
+          "s": "I need help."
+        },
+        {
+          "p": "Do you want someone with you now?",
+          "m": "Nói có hoặc không bằng 1 câu.",
+          "h": "Use: Yes, I want someone / No, I don't want someone.",
+          "s": "Yes, I want someone."
+        },
+        {
+          "p": "I will explain the next step slowly.",
+          "m": "Nói bạn muốn nghe bây giờ hay muốn chờ bằng 1 câu.",
+          "h": "Use: I want to hear now / I want to wait.",
+          "s": "I want to hear now."
+        }
+      ]
+    },
+    {
+      "t": "Ôn tập: Quyền và sự giúp đỡ",
+      "e": [
+        {
+          "p": "You have the right to say no.",
+          "m": "Nói bạn hiểu quyền này hay không bằng 1 câu.",
+          "h": "Use: I understand / I don't understand.",
+          "s": "I understand."
+        },
+        {
+          "p": "Do you want help from a social worker?",
+          "m": "Nói có hoặc không bằng 1 câu.",
+          "h": "Use: Yes, I want / No, I don't want.",
+          "s": "No, I don't want help."
+        },
+        {
+          "p": "We can call a family member now.",
+          "m": "Nói bạn đồng ý gọi hay không bằng 1 câu.",
+          "h": "Use: I agree / I do not agree.",
+          "s": "I agree."
+        },
+        {
+          "p": "Do you need more information about your care?",
+          "m": "Nói có hoặc không bằng 1 câu.",
+          "h": "Use: I need / I don't need + information.",
+          "s": "I need information."
+        },
+        {
+          "p": "Can we help you after you leave?",
+          "m": "Nói bạn cần giúp sau khi về nhà hay không bằng 1 câu.",
+          "h": "Use: I need / I don't need + help after I leave.",
+          "s": "I need help after I leave."
+        }
+      ]
+    }
+  ]
+}

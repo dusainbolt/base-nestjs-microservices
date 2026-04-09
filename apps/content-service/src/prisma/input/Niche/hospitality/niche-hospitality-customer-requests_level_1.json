@@ -1,0 +1,530 @@
+{
+  "l": 1,
+  "d": [
+    {
+      "t": "Chào khách tại quầy",
+      "e": [
+        {
+          "p": "Can I help you?",
+          "m": "Nói bạn có thể giúp khách.",
+          "h": "Use 'I can...' or 'I cannot...'.",
+          "s": "I can help you."
+        },
+        {
+          "p": "What are you looking for?",
+          "m": "Nói món bạn có.",
+          "h": "Use 'I have a/an ...'.",
+          "s": "I have a book."
+        },
+        {
+          "p": "Do you want something to drink?",
+          "m": "Nói đồ uống bạn muốn.",
+          "h": "Use 'I want ...'.",
+          "s": "I want water."
+        },
+        {
+          "p": "Is this your first time here?",
+          "m": "Trả lời có hoặc không.",
+          "h": "Use 'Yes, I am.' or 'No, I am not.'",
+          "s": "No, I am not."
+        },
+        {
+          "p": "How do you want to pay?",
+          "m": "Nói cách bạn trả tiền.",
+          "h": "Use 'I pay with ...'.",
+          "s": "I pay with cash."
+        }
+      ]
+    },
+    {
+      "t": "Nhận đơn hàng đơn giản",
+      "e": [
+        {
+          "p": "What would you like to order?",
+          "m": "Nói món bạn muốn đặt.",
+          "h": "Use 'I want ...' or 'I would like ...'.",
+          "s": "I want a sandwich."
+        },
+        {
+          "p": "Do you want it now?",
+          "m": "Trả lời có hoặc không.",
+          "h": "Use 'Yes, I want it now.' or 'No, I don't.'",
+          "s": "Yes, I want it now."
+        },
+        {
+          "p": "Any drink with that?",
+          "m": "Nói đồ uống bạn muốn.",
+          "h": "Use 'I want ...' or 'No, thank you.'",
+          "s": "I want water."
+        },
+        {
+          "p": "Takeaway or here?",
+          "m": "Nói bạn ăn ở đây hay mang đi.",
+          "h": "Use 'I eat here.' or 'I take away.'",
+          "s": "I eat here."
+        },
+        {
+          "p": "Do you need a receipt?",
+          "m": "Trả lời có hoặc không.",
+          "h": "Use 'Yes, I do.' or 'No, I don't.'",
+          "s": "No, I don't."
+        }
+      ]
+    },
+    {
+      "t": "Hỏi thông tin cơ bản của khách",
+      "e": [
+        {
+          "p": "What is your name?",
+          "m": "Nói tên của bạn (dùng placeholder).",
+          "h": "Use 'My name is [studentName].'",
+          "s": "My name is [studentName]."
+        },
+        {
+          "p": "How old are you?",
+          "m": "Nói tuổi của bạn (dùng placeholder).",
+          "h": "Use 'I am [studentAge] years old.'",
+          "s": "I am [studentAge] years old."
+        },
+        {
+          "p": "Where do you live?",
+          "m": "Nói thành phố bạn sống (dùng placeholder).",
+          "h": "Use 'I live in [studentCity].'",
+          "s": "I live in [studentCity]."
+        },
+        {
+          "p": "Do you have a phone number?",
+          "m": "Trả lời có hoặc không.",
+          "h": "Use 'Yes, I do.' or 'No, I don't.'",
+          "s": "Yes, I do."
+        },
+        {
+          "p": "What is your job?",
+          "m": "Nói nghề nghiệp của bạn (dùng placeholder).",
+          "h": "Use 'I am a [studentJob].'",
+          "s": "I am a [studentJob]."
+        }
+      ]
+    },
+    {
+      "t": "Xác nhận đơn hàng",
+      "e": [
+        {
+          "p": "You ordered a sandwich, right?",
+          "m": "Xác nhận đơn hàng (có hoặc không).",
+          "h": "Use 'Yes, I ordered ...' or 'No, I did not.'",
+          "s": "Yes, I ordered a sandwich."
+        },
+        {
+          "p": "You want water with that?",
+          "m": "Xác nhận đồ uống (có hoặc không).",
+          "h": "Use 'Yes, I want ...' or 'No, I don't.'",
+          "s": "Yes, I want water."
+        },
+        {
+          "p": "Do you want it hot?",
+          "m": "Trả lời có hoặc không.",
+          "h": "Use 'Yes, I do.' or 'No, I don't.'",
+          "s": "No, I don't."
+        },
+        {
+          "p": "Is the price OK?",
+          "m": "Trả lời có hoặc không.",
+          "h": "Use 'Yes, it's OK.' or 'No, it's not.'",
+          "s": "Yes, it's OK."
+        },
+        {
+          "p": "I will bring your order in five minutes.",
+          "m": "Xác nhận bạn sẽ chờ và lặp lại số phút.",
+          "h": "Use 'I wait ... minutes.'",
+          "s": "I wait five minutes."
+        }
+      ]
+    },
+    {
+      "t": "Đề xuất thay thế khi hết hàng",
+      "e": [
+        {
+          "p": "We do not have that book.",
+          "m": "Nói món thay thế bạn muốn.",
+          "h": "Use 'I want ... instead.'",
+          "s": "I want water instead."
+        },
+        {
+          "p": "We can give you a small discount.",
+          "m": "Trả lời có hoặc không.",
+          "h": "Use 'Yes, I want ...' or 'No, thank you.'",
+          "s": "No, thank you."
+        },
+        {
+          "p": "Do you want a refund?",
+          "m": "Trả lời có hoặc không.",
+          "h": "Use 'Yes, I want ...' or 'No, I don't.'",
+          "s": "No, I don't."
+        },
+        {
+          "p": "We have a red one.",
+          "m": "Nói bạn có muốn màu đó.",
+          "h": "Use 'I want the red one.' or 'No, I want ...'.",
+          "s": "I want the red one."
+        },
+        {
+          "p": "I can send another item tomorrow.",
+          "m": "Nói bạn đồng ý hay không.",
+          "h": "Use 'Yes, I agree.' or 'No, I don't.'",
+          "s": "Yes, I agree."
+        }
+      ]
+    },
+    {
+      "t": "Hẹn giờ và lịch",
+      "e": [
+        {
+          "p": "When do you want an appointment?",
+          "m": "Nói 'today' hoặc 'tomorrow'.",
+          "h": "Use 'I want it today.' or 'I want it tomorrow.'",
+          "s": "I want it tomorrow."
+        },
+        {
+          "p": "Do you want morning or afternoon?",
+          "m": "Nói bạn chọn 'morning' hoặc 'afternoon'.",
+          "h": "Use 'I want morning.' or 'I want afternoon.'",
+          "s": "I want morning."
+        },
+        {
+          "p": "What time is good?",
+          "m": "Nói giờ bạn muốn (dùng số).",
+          "h": "Use 'I want nine o'clock.'",
+          "s": "I want nine o'clock."
+        },
+        {
+          "p": "Do you need a reminder?",
+          "m": "Trả lời có hoặc không.",
+          "h": "Use 'Yes, I need ...' or 'No, I don't.'",
+          "s": "Yes, I need a reminder."
+        },
+        {
+          "p": "I set your appointment for nine o'clock.",
+          "m": "Lặp lại giờ bạn đã đặt.",
+          "h": "Use 'I set it for ...' or 'It is at ...'.",
+          "s": "I set it for nine o'clock."
+        }
+      ]
+    },
+    {
+      "t": "Hỏi sở thích đơn giản",
+      "e": [
+        {
+          "p": "Do you like coffee?",
+          "m": "Trả lời có hoặc không.",
+          "h": "Use 'Yes, I do.' or 'No, I don't.'",
+          "s": "No, I don't."
+        },
+        {
+          "p": "Which color do you like?",
+          "m": "Nói màu bạn thích.",
+          "h": "Use 'I like ...'.",
+          "s": "I like blue."
+        },
+        {
+          "p": "Do you like this product?",
+          "m": "Trả lời có hoặc không.",
+          "h": "Use 'Yes, I do.' or 'No, I don't.'",
+          "s": "Yes, I do."
+        },
+        {
+          "p": "Do you prefer tea or coffee?",
+          "m": "Chọn một trong hai (nói rõ).",
+          "h": "Use 'I like ... more.'",
+          "s": "I like tea more."
+        },
+        {
+          "p": "What do you like to do after work?",
+          "m": "Nói một hoạt động đơn giản.",
+          "h": "Use 'I play ...' or 'I read ...'.",
+          "s": "I play with my dog."
+        }
+      ]
+    },
+    {
+      "t": "Giải thích giá cả đơn giản",
+      "e": [
+        {
+          "p": "The price is five dollars.",
+          "m": "Trả lời bạn có trả được không.",
+          "h": "Use 'Yes, I can.' or 'No, I can't.'",
+          "s": "Yes, I can."
+        },
+        {
+          "p": "It costs ten dollars.",
+          "m": "Nói bạn muốn mua hay không.",
+          "h": "Use 'I buy ...' or 'I don't buy ...'.",
+          "s": "No, I don't want to buy."
+        },
+        {
+          "p": "We have a sale today.",
+          "m": "Trả lời bạn có mua hôm nay không.",
+          "h": "Use 'Yes, I buy today.' or 'No, I don't.'",
+          "s": "Yes, I buy today."
+        },
+        {
+          "p": "Do you want a bag? It is free.",
+          "m": "Trả lời có hoặc không.",
+          "h": "Use 'Yes, I want ...' or 'No, thank you.'",
+          "s": "Yes, I want a bag."
+        },
+        {
+          "p": "The total is fifteen dollars.",
+          "m": "Nói bạn trả tiền bằng gì.",
+          "h": "Use 'I pay with ...'.",
+          "s": "I pay with cash."
+        }
+      ]
+    },
+    {
+      "t": "Hỗ trợ kỹ thuật cơ bản",
+      "e": [
+        {
+          "p": "My phone is not on.",
+          "m": "Nói bạn có thể giúp hay không.",
+          "h": "Use 'I can ...' or 'I cannot ...'.",
+          "s": "I can help you."
+        },
+        {
+          "p": "Please turn your phone off and on.",
+          "m": "Đề nghị khách làm theo (một câu).",
+          "h": "Use imperative: 'Please ...'.",
+          "s": "Please turn your phone off and on."
+        },
+        {
+          "p": "The screen is black.",
+          "m": "Hỏi khách nếu họ sạc máy.",
+          "h": "Use 'Do you ...?' question form.",
+          "s": "Do you charge your phone?"
+        },
+        {
+          "p": "I try but it does not work.",
+          "m": "Nói bạn sẽ gọi kỹ thuật.",
+          "h": "Use 'I call ...' or 'I give ...'.",
+          "s": "I call the technician."
+        },
+        {
+          "p": "I am still unhappy.",
+          "m": "Xin lỗi và đề nghị dịch vụ miễn phí ngắn gọn.",
+          "h": "Use 'I am sorry; I give ...'.",
+          "s": "I am sorry; I give a free service."
+        }
+      ]
+    },
+    {
+      "t": "Hỏi vị trí sản phẩm trong cửa hàng",
+      "e": [
+        {
+          "p": "Where is the bread?",
+          "m": "Nói vị trí đơn giản.",
+          "h": "Use 'It is ...'.",
+          "s": "It is on the shelf."
+        },
+        {
+          "p": "Is the milk near the bread?",
+          "m": "Trả lời có hoặc không.",
+          "h": "Use 'Yes, it is.' or 'No, it is not.'",
+          "s": "Yes, it is."
+        },
+        {
+          "p": "Where are the drinks?",
+          "m": "Nói vị trí của đồ uống.",
+          "h": "Use 'They are ...'.",
+          "s": "They are in the fridge."
+        },
+        {
+          "p": "Do you have vegetables?",
+          "m": "Trả lời có hoặc không.",
+          "h": "Use 'Yes, we do.' or 'No, we don't.'",
+          "s": "Yes, we do."
+        },
+        {
+          "p": "Where is the exit?",
+          "m": "Nói vị trí đơn giản (ví dụ: back, left).",
+          "h": "Use 'The exit is ...'.",
+          "s": "The exit is at the back."
+        }
+      ]
+    },
+    {
+      "t": "Kiểm tra hài lòng của khách",
+      "e": [
+        {
+          "p": "Are you happy with the service?",
+          "m": "Trả lời có hoặc không ngắn gọn.",
+          "h": "Use 'Yes, I am.' or 'No, I am not.'",
+          "s": "Yes, I am happy."
+        },
+        {
+          "p": "Is the food good?",
+          "m": "Trả lời có hoặc không.",
+          "h": "Use 'Yes, it is.' or 'No, it is not.'",
+          "s": "Yes, it is good."
+        },
+        {
+          "p": "Do you need anything else?",
+          "m": "Trả lời có hoặc không.",
+          "h": "Use 'No, I don't.' or 'Yes, I do.'",
+          "s": "No, I don't."
+        },
+        {
+          "p": "Can I help you more?",
+          "m": "Trả lời có hoặc không.",
+          "h": "Use 'No, I don't need more.'",
+          "s": "No, I don't need more."
+        },
+        {
+          "p": "Do you come here often?",
+          "m": "Trả lời có hoặc không.",
+          "h": "Use 'Yes, I do.' or 'No, I don't.'",
+          "s": "No, I don't come often."
+        }
+      ]
+    },
+    {
+      "t": "Kết thúc dịch vụ và cảm ơn",
+      "e": [
+        {
+          "p": "Thank you for your visit.",
+          "m": "Phản hồi lời cảm ơn ngắn gọn.",
+          "h": "Use 'Thank you.' or 'Thank you too.'",
+          "s": "Thank you."
+        },
+        {
+          "p": "Have a nice day.",
+          "m": "Chúc lại khách.",
+          "h": "Use 'You have ... too.'",
+          "s": "You have a nice day too."
+        },
+        {
+          "p": "Please come again.",
+          "m": "Trả lời bạn sẽ quay lại hay không.",
+          "h": "Use present simple: 'I come again.' or 'No, I don't.'",
+          "s": "I come again."
+        },
+        {
+          "p": "Can I help you next time?",
+          "m": "Trả lời có hoặc không.",
+          "h": "Use 'Yes, you can.' or 'No, you cannot.'",
+          "s": "Yes, you can."
+        },
+        {
+          "p": "Please pay at the counter.",
+          "m": "Xác nhận bạn sẽ trả ở quầy.",
+          "h": "Use 'I pay at ...' or 'I will' (avoid).",
+          "s": "I pay at the counter."
+        }
+      ]
+    },
+    {
+      "t": "Ôn tập: Tổng hợp tiếp nhận yêu cầu",
+      "e": [
+        {
+          "p": "Hello, do you need help?",
+          "m": "Nói bạn cần giúp và nêu việc cần.",
+          "h": "Use 'Yes, I need ...' or 'No, I don't.'",
+          "s": "Yes, I need a book."
+        },
+        {
+          "p": "Can I take your order?",
+          "m": "Nói đơn bạn muốn.",
+          "h": "Use 'I want ...' or 'I would like ...'.",
+          "s": "I want water and food."
+        },
+        {
+          "p": "What is your name for the order?",
+          "m": "Nói tên (dùng placeholder).",
+          "h": "Use 'My name is [studentName].'",
+          "s": "My name is [studentName]."
+        },
+        {
+          "p": "Do you pay now?",
+          "m": "Nói cách bạn trả tiền.",
+          "h": "Use 'I pay with ...'.",
+          "s": "I pay with cash."
+        },
+        {
+          "p": "I will bring your order in three minutes.",
+          "m": "Xác nhận và lặp lại số phút.",
+          "h": "Use 'I wait ... minutes.'",
+          "s": "I wait three minutes."
+        }
+      ]
+    },
+    {
+      "t": "Ôn tập: Xử lý vấn đề và đề xuất",
+      "e": [
+        {
+          "p": "We do not have that item.",
+          "m": "Nói bạn muốn một món khác.",
+          "h": "Use 'I want another item.'",
+          "s": "I want another item."
+        },
+        {
+          "p": "I can give you a discount.",
+          "m": "Trả lời có hoặc không.",
+          "h": "Use 'Yes, I want ...' or 'No, thank you.'",
+          "s": "Yes, I want a discount."
+        },
+        {
+          "p": "When can you come for repair?",
+          "m": "Nói 'today' hoặc 'tomorrow'.",
+          "h": "Use 'I come today.' or 'I come tomorrow.'",
+          "s": "I come tomorrow."
+        },
+        {
+          "p": "Please turn the device off and on.",
+          "m": "Trả lời bạn đã làm theo hay chưa (có/không).",
+          "h": "Use 'Yes, I do.' or 'No, I don't.'",
+          "s": "Yes, I do."
+        },
+        {
+          "p": "I am sorry for the problem.",
+          "m": "Chấp nhận lời xin lỗi và nhận dịch vụ miễn phí nếu có.",
+          "h": "Use 'I accept ...' and 'I take ...'.",
+          "s": "I accept and I take the free service."
+        }
+      ]
+    },
+    {
+      "t": "Ôn tập: Đóng giao dịch và theo dõi",
+      "e": [
+        {
+          "p": "The total is twenty dollars.",
+          "m": "Nói bạn trả tiền bằng gì.",
+          "h": "Use 'I pay with ...'.",
+          "s": "I pay with cash."
+        },
+        {
+          "p": "Do you need a bag?",
+          "m": "Trả lời có hoặc không.",
+          "h": "Use 'Yes, I want ...' or 'No, I don't.'",
+          "s": "No, I don't."
+        },
+        {
+          "p": "Thank you, please come again.",
+          "m": "Phản hồi đồng ý quay lại hay không.",
+          "h": "Use present simple: 'I come again.' or 'No, I don't.'",
+          "s": "I come again."
+        },
+        {
+          "p": "Are you happy with our service?",
+          "m": "Trả lời có hoặc không.",
+          "h": "Use 'Yes, I am.' or 'No, I am not.'",
+          "s": "Yes, I am."
+        },
+        {
+          "p": "Can we call you for feedback?",
+          "m": "Trả lời cho phép gọi hay không.",
+          "h": "Use 'Yes, you can.' or 'No, you cannot.'",
+          "s": "Yes, you can call me."
+        }
+      ]
+    }
+  ]
+}

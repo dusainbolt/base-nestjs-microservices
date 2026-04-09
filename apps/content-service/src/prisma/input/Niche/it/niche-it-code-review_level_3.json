@@ -1,0 +1,600 @@
+{
+  "l": 3,
+  "d": [
+    {
+      "t": "Gặp gỡ thành viên trong team",
+      "e": [
+        {
+          "p": "Hi, I'm Alex. What's your name?",
+          "m": "1. Nói tên của bạn.\n2. Nói vai trò của bạn trong team.",
+          "h": "Present Simple: My name is... / I am a ...",
+          "s": "My name is [studentName]. I am a frontend developer."
+        },
+        {
+          "p": "Where are you from?",
+          "m": "1. Nói thành phố bạn sống.\n2. Nói bạn đã làm việc ở dự án này bao lâu (dùng Past Simple).",
+          "h": "Present Simple for place; Past Simple for past time: I worked ...",
+          "s": "I'm from [studentCity]. I worked on this project for three months."
+        },
+        {
+          "p": "What is your main task in the team?",
+          "m": "1. Nói nhiệm vụ chính của bạn (1 câu).\n2. Nói một công cụ bạn dùng (1 câu).",
+          "h": "Present Simple + and/connectors",
+          "s": "I review code and write unit tests. I use GitHub for reviews."
+        },
+        {
+          "p": "Did you review any PR this morning?",
+          "m": "1. Trả lời có/không và nói bạn đã làm gì (Past Simple).\n2. Nói nếu bạn đã tìm lỗi ngắn và đề xuất một việc (should + V).",
+          "h": "Past Simple + should to give suggestion",
+          "s": "Yes, I reviewed a PR and I found a typo in a function name. I suggested they should rename the function."
+        },
+        {
+          "p": "How do you like to receive feedback from others?",
+          "m": "1. Nói cách bạn muốn nhận phản hồi (1 câu).\n2. Giải thích lý do (1 câu).\n3. Nêu một quy tắc bạn mong mọi người tuân theo (must/should/have to + V).",
+          "h": "Use Present Simple and must/should for rules",
+          "s": "I like to receive comments on the PR. It is clear and keeps discussion in one place. People should be specific and polite."
+        }
+      ]
+    },
+    {
+      "t": "Hỏi về task và deadline",
+      "e": [
+        {
+          "p": "What is the deadline for this task?",
+          "m": "1. Trả lời ngày/ thời hạn (1 câu).\n2. Nói bạn có thể hoàn thành đúng hạn không (1 câu).",
+          "h": "Use Future Simple: I will / won't + V or Present Simple for schedule",
+          "s": "The deadline is next Friday. I will try to finish it on time."
+        },
+        {
+          "p": "Can you explain the task quickly?",
+          "m": "1. Nói mục tiêu chính của task (1 câu).\n2. Nói bước đầu bạn sẽ làm (1 câu).",
+          "h": "Use Present Simple and going to for plans",
+          "s": "The task is to improve form validation. I'm going to add server checks first."
+        },
+        {
+          "p": "Is this feature more important than the UI fix?",
+          "m": "1. So sánh hai task bằng comparative (1 câu).\n2. Nói lý do ngắn (1 câu).",
+          "h": "Use comparatives: more important / less important + because",
+          "s": "This feature is more important than the UI fix because it affects data integrity."
+        },
+        {
+          "p": "I think the deadline is too short.",
+          "m": "1. Trả lời bạn đồng ý hay không (1 câu).\n2. Nếu đồng ý, đề xuất thay đổi deadline (will/going to + V) (1 câu).",
+          "h": "Use will/going to to propose future plan",
+          "s": "I agree, the time is short. I will ask the manager to extend the deadline by a week."
+        },
+        {
+          "p": "What if you can't finish on time?",
+          "m": "1. Nói bạn sẽ làm gì trước (1 câu).\n2. Nói bạn sẽ thông báo ai và bằng cách nào (1 câu).\n3. Nêu một điều bạn phải làm để giảm rủi ro (have to/should + V) (1 câu).",
+          "h": "Use will for decisions and should/have to for duties",
+          "s": "I will prioritize the core functions first. I will notify the team lead by message. I have to write clear notes about remaining work."
+        }
+      ]
+    },
+    {
+      "t": "Nhận xét code đơn giản",
+      "e": [
+        {
+          "p": "I pushed a small change to the validation function.",
+          "m": "1. Hỏi bạn có thể kiểm tra thay đổi đó không (1 câu).\n2. Nói bạn muốn nhận phản hồi nhanh hay kỹ (1 câu).",
+          "h": "Use modal can for requests and Present Simple for preference",
+          "s": "Can you check the change in validations? I want quick feedback to merge soon."
+        },
+        {
+          "p": "I saw a failing test after the change.",
+          "m": "1. Hỏi nguyên nhân có thể là gì (1 câu).\n2. Nói bạn sẽ làm gì để tìm lỗi (1 câu).",
+          "h": "Use Past Simple and will for plans",
+          "s": "The failing test may be caused by missing input checks. I will run the test locally and debug."
+        },
+        {
+          "p": "The code looks duplicated in two places.",
+          "m": "1. Nói bạn nghĩ nên làm gì (use should) (1 câu).\n2. Nói lợi ích của việc thay đổi đó (1 câu).",
+          "h": "Use should + V and because to explain",
+          "s": "We should extract the function to avoid duplication. It will make the code easier to maintain."
+        },
+        {
+          "p": "I refactored the function but performance is slower.",
+          "m": "1. Nói bạn đã làm thay đổi gì (Past Simple) (1 câu).\n2. So sánh hiệu suất trước và sau (comparative) (1 câu).\n3. Đề xuất làm tiếp theo (should/have to) (1 câu).",
+          "h": "Use Past Simple, comparatives, and should/have to",
+          "s": "I removed nested loops and added clearer logic. The new version is slower than the old one. We should profile the code to find the bottleneck."
+        },
+        {
+          "p": "Can you give a short review for this PR?",
+          "m": "1. Nêu một điểm mạnh của code (1 câu).\n2. Nêu một điểm cần cải thiện cụ thể (1 câu).\n3. Đưa đề xuất sửa (use will/going to or should) (1 câu).",
+          "h": "Use Present Simple and should/will for suggestions",
+          "s": "The code has clear variable names and good tests. It needs better error handling for null inputs. I will add a guard clause and suggest this change."
+        }
+      ]
+    },
+    {
+      "t": "Phát hiện và mô tả bug",
+      "e": [
+        {
+          "p": "The app crashed when I submitted the form.",
+          "m": "1. Hỏi lỗi xảy ra ở bước nào (1 câu).\n2. Yêu cầu ví dụ input nếu cần (1 câu).",
+          "h": "Use Past Simple for reported events and can for requests",
+          "s": "When did it crash, at submission or earlier? Can you show the input that caused the crash?"
+        },
+        {
+          "p": "I got a null pointer exception in the log.",
+          "m": "1. Hỏi module hoặc file nơi lỗi xảy ra (1 câu).\n2. Hỏi bạn có thể gửi log ngắn không (1 câu).",
+          "h": "Use can/could for polite requests",
+          "s": "Which module threw the exception? Could you paste the short log here?"
+        },
+        {
+          "p": "I fixed one case but another error appeared.",
+          "m": "1. Hỏi bạn đã sửa gì (Past Simple) (1 câu).\n2. Hỏi lỗi mới là gì (1 câu).\n3. Hỏi bạn muốn giữ bản sửa hay revert (would you prefer) (1 câu).",
+          "h": "Use Past Simple and would for preference",
+          "s": "What did you change in the code? What is the new error now? Would you prefer to revert and rework the fix?"
+        },
+        {
+          "p": "The bug happens only on mobile devices.",
+          "m": "1. Nói khả năng nguyên nhân (comparative or because) (1 câu).\n2. Kế hoạch bạn sẽ làm tiếp (will/going to) (1 câu).\n3. Nêu một việc phải làm để kiểm tra (have to/should) (1 câu).",
+          "h": "Use comparatives or because, and will/have to for actions",
+          "s": "It is likely a rendering issue because mobile handles layout differently. I will test on a real phone. We should add a mobile-specific test case."
+        },
+        {
+          "p": "I need a short bug report for the manager.",
+          "m": "1. Tóm tắt lỗi (what happened) (1 câu).\n2. Nói khi lỗi xảy ra (when) (1 câu).\n3. Nêu tác động và mức ưu tiên (impact and priority) (1 câu).",
+          "h": "Use Past Simple for event, and Present Simple for impact",
+          "s": "The app crashed when users submitted the form. It happened after the recent validation change this morning. The issue prevents form submission and has high priority."
+        }
+      ]
+    },
+    {
+      "t": "Đề xuất cải thiện hiệu suất",
+      "e": [
+        {
+          "p": "The page is slow to load.",
+          "m": "1. Hỏi bạn có thể cho ví dụ thời gian tải (1 câu).\n2. Hỏi phần nào chậm (1 câu).",
+          "h": "Use can for requests and Present Simple",
+          "s": "Can you give the load time in seconds? Which part of the page is slow, images or scripts?"
+        },
+        {
+          "p": "Images make the page heavy.",
+          "m": "1. Đưa một giải pháp đơn giản bạn sẽ làm (1 câu).\n2. Nói lợi ích của giải pháp đó (1 câu).",
+          "h": "Use will/going to for actions and because for reason",
+          "s": "I will compress and lazy-load the images. This will reduce load time and data usage."
+        },
+        {
+          "p": "We have many API calls on page load.",
+          "m": "1. Nói cách giảm số request (comparative or method) (1 câu).\n2. Nói tại sao cách đó tốt hơn (1 câu).",
+          "h": "Use comparatives or 'more' and because",
+          "s": "We can combine some APIs into one request to reduce calls. One call is faster than many small calls because it reduces overhead."
+        },
+        {
+          "p": "After refactor the speed improved but CPU usage rose.",
+          "m": "1. So sánh hiệu suất trước và sau (comparative) (1 câu).\n2. Nói bước tiếp theo bạn sẽ làm để kiểm tra (will/going to) (1 câu).\n3. Đề xuất ai nên xử lý vấn đề nếu cần (have to) (1 câu).",
+          "h": "Use comparatives, will for plans, have to for duties",
+          "s": "The site is faster than before but uses more CPU. I will run a profiler to find heavy functions. The backend team has to review the processing tasks."
+        },
+        {
+          "p": "Do you have any quick tips for performance on small teams?",
+          "m": "1. Đưa 2–3 mẹo ngắn (each as 1 clause) (2 câu).\n2. Nói ưu tiên bạn cho cách nào (use comparative) (1 câu).",
+          "h": "Use Present Simple and comparatives",
+          "s": "Minify assets and cache responses. Reduce third-party scripts and lazy-load images. I prefer caching more than premature optimization."
+        }
+      ]
+    },
+    {
+      "t": "So sánh hai giải pháp kỹ thuật",
+      "e": [
+        {
+          "p": "Should we use library A or B for validation?",
+          "m": "1. Nói lập tức bạn chọn A hoặc B (1 câu).\n2. Nêu một lý do ngắn (1 câu).",
+          "h": "Use will/going to for decisions or Present Simple for choices",
+          "s": "I would choose library A. It has simpler rules and better docs."
+        },
+        {
+          "p": "Library A is smaller but B has more features.",
+          "m": "1. So sánh hai thư viện bằng comparative (1 câu).\n2. Nói khi nào bạn dùng thư viện nhỏ hơn (1 câu).",
+          "h": "Use comparatives: smaller / more feature-rich + because",
+          "s": "Library A is smaller and faster, but B is more feature-rich. I choose A when performance is critical."
+        },
+        {
+          "p": "What about maintenance and long-term support?",
+          "m": "1. Nói đánh giá ngắn về support của hai thư viện (1 câu).\n2. Nói bạn sẽ làm gì khi một thư viện không còn support (should/have to) (1 câu).",
+          "h": "Use Present Simple and should/have to for duties",
+          "s": "Library B has more active contributors and better support. If a library lacks support, we should migrate to a maintained alternative."
+        },
+        {
+          "p": "We can also write our own simple validator.",
+          "m": "1. Nói một lợi ích và một hạn chế của tự viết (2 câu).\n2. Kết luận bạn sẽ chọn gì và tại sao (1 câu).",
+          "h": "Use Present Simple and because",
+          "s": "Writing our validator gives full control and fewer dependencies. A downside is slower development and possible bugs. I will use a small library now and plan a custom solution later."
+        },
+        {
+          "p": "If we pick B, the bundle will grow.",
+          "m": "1. So sánh kích thước bundle nếu dùng B (comparative) (1 câu).\n2. Đề xuất cách giảm ảnh hưởng (use will/going to or should) (1 câu).\n3. Nói ai cần quyết định cuối (have to) (1 câu).",
+          "h": "Use comparatives and should/will/have to",
+          "s": "The bundle will be larger with B than with A. We should lazy-load B only on pages that need its features. The tech lead has to approve the decision."
+        }
+      ]
+    },
+    {
+      "t": "Đưa góp ý lịch sự và xây dựng",
+      "e": [
+        {
+          "p": "I rewrote the component, please review.",
+          "m": "1. Khen một điểm tốt (1 câu).\n2. Đưa một góp ý nhỏ (should + V) (1 câu).",
+          "h": "Use Present Simple and should for polite suggestion",
+          "s": "The component is cleaner and easier to read. You should add a small comment for edge cases."
+        },
+        {
+          "p": "Some variable names are confusing.",
+          "m": "1. Đề nghị cách sửa tên biến (1 câu).\n2. Nói lý do ngắn vì sao nên đổi (1 câu).",
+          "h": "Use Present Simple and because",
+          "s": "Rename 'd' to 'dataList' for clarity. Clear names help future readers."
+        },
+        {
+          "p": "There are many inline styles in the file.",
+          "m": "1. Nêu một cách để cải thiện (1 câu).\n2. Nói lợi ích của cách đó (1 câu).\n3. Dùng must/should để nêu quy tắc coding (1 câu).",
+          "h": "Use should/must for rules and Present Simple",
+          "s": "Move inline styles to a stylesheet or styled component. This makes styles reusable and cleaner. We should keep styles separated."
+        },
+        {
+          "p": "I fixed the naming but tests failed.",
+          "m": "1. Nói bạn sẽ làm gì trước để tìm lỗi (1 câu).\n2. Nói bạn có thể revert nếu cần không (would/will) (1 câu).\n3. Đưa một gợi ý để tránh lỗi tương tự (have to/should) (1 câu).",
+          "h": "Use will/would and should/have to",
+          "s": "I will run the tests locally to see failures. If needed, I would revert the change temporarily. We have to add a small test for the naming change."
+        },
+        {
+          "p": "How can I be nicer when giving feedback?",
+          "m": "1. Đưa hai cách cụ thể để nói lịch sự (2 câu).\n2. Nói tại sao cách đó tốt (1 câu).",
+          "h": "Use modal verbs for polite language and because",
+          "s": "Start with a positive point and use 'I suggest' or 'Maybe try' for suggestions. Use short examples to explain the change. This is better because it focuses on actions, not people."
+        }
+      ]
+    },
+    {
+      "t": "Thảo luận coding convention",
+      "e": [
+        {
+          "p": "Do we follow the airbnb style guide?",
+          "m": "1. Trả lời có/không (1 câu).\n2. Nói một rule bạn tuân theo (1 câu).",
+          "h": "Present Simple for policies and must/should for rules",
+          "s": "No, we follow a simplified style. We must use two-space indentation."
+        },
+        {
+          "p": "Some files mix tabs and spaces.",
+          "m": "1. Nói bạn sẽ làm gì để chuẩn hóa (1 câu).\n2. Nói công cụ bạn dùng (1 câu).",
+          "h": "Use will/going to and Present Simple",
+          "s": "I will run a formatter across the project. We use Prettier to fix spacing automatically."
+        },
+        {
+          "p": "Should we require linting on PRs?",
+          "m": "1. Trả lời đồng ý hay không (1 câu).\n2. Nói lợi ích ngắn của việc này (1 câu).\n3. Nêu ai sẽ cấu hình (have to) (1 câu).",
+          "h": "Use should for recommendations and have to for responsibilities",
+          "s": "Yes, we should require linting on PRs. It reduces style errors and small bugs. The repo maintainer has to add the CI check."
+        },
+        {
+          "p": "I fixed many style issues in one commit.",
+          "m": "1. Nói liệu hành động này tốt hay không (1 câu).\n2. Đề xuất cách thực hiện tốt hơn (use would/should) (1 câu).\n3. Nêu quy tắc để tránh lặp lại (must/should) (1 câu).",
+          "h": "Use would/should for advice and must for strong rules",
+          "s": "Large style commits can hide functional changes. You should split style fixes into a separate PR. We must run formatter before committing."
+        },
+        {
+          "p": "How strict should we be with comments and docs?",
+          "m": "1. Nêu mức độ bạn đề xuất (1 câu).\n2. Cho ví dụ một quy tắc cụ thể (1 câu).\n3. Nói ai có trách nhiệm kiểm tra (have to) (1 câu).",
+          "h": "Use should/have to and Present Simple",
+          "s": "We should be moderately strict: require comments for complex logic. For example, any helper with >10 lines must have a comment. Reviewers have to check docs during PR review."
+        }
+      ]
+    },
+    {
+      "t": "Giải thích logic của một đoạn code",
+      "e": [
+        {
+          "p": "Can you explain what this function does?",
+          "m": "1. Tóm tắt chức năng chính (1 câu).\n2. Nói đầu vào và đầu ra (1 câu).",
+          "h": "Use Present Simple: It returns..., It takes...",
+          "s": "The function validates an email and returns true or false. It takes a string and returns a boolean."
+        },
+        {
+          "p": "Why did you use recursion here?",
+          "m": "1. Nói lý do ngắn bạn chọn recursion (1 câu).\n2. Nói một trường hợp recursion tốt hơn loop (1 câu).",
+          "h": "Use Past Simple or Present Simple and because",
+          "s": "I used recursion to simplify nested data traversal. It is better than a loop for tree structures because it reads clearer."
+        },
+        {
+          "p": "This part is hard to read.",
+          "m": "1. Giải thích ngắn cách code hoạt động (1 câu).\n2. Nói bạn sẽ thay đổi gì để rõ hơn (will/going to) (1 câu).\n3. Nói lợi ích của thay đổi (1 câu).",
+          "h": "Use Present Simple and will/going to for plans",
+          "s": "The code maps inputs to handlers with a switch and returns results. I will extract handlers into named functions to make it clearer. This will improve readability."
+        },
+        {
+          "p": "I don't understand the error handling here.",
+          "m": "1. Nói cách lỗi được bắt và xử lý (1 câu).\n2. Nêu rủi ro nếu không xử lý đúng (1 câu).\n3. Đề xuất cách cải thiện (should/have to) (1 câu).",
+          "h": "Use Present Simple and should/have to",
+          "s": "Errors are caught and logged, then a default value is returned. If not handled, the app can crash or return wrong data. We should return a clear error or propagate it for the caller to handle."
+        },
+        {
+          "p": "Explain this algorithm in two short sentences.",
+          "m": "1. Nói các bước chính của thuật toán (1 câu).\n2. Nói khi nào nên dùng thuật toán này (1 câu).",
+          "h": "Use Present Simple and because/when clauses",
+          "s": "The algorithm sorts items and then removes duplicates by checking adjacent elements. Use it when you need a simple deduplicated sorted list."
+        }
+      ]
+    },
+    {
+      "t": "Hỏi về testing và test coverage",
+      "e": [
+        {
+          "p": "Do we have tests for this component?",
+          "m": "1. Trả lời có/không (1 câu).\n2. Nói loại test có (unit/integration) (1 câu).",
+          "h": "Present Simple for facts",
+          "s": "Yes, we have unit tests for this component. There is no integration test yet."
+        },
+        {
+          "p": "Some tests are flaky in CI.",
+          "m": "1. Hỏi bạn đã thấy lỗi flakiness khi nào (1 câu).\n2. Hỏi bạn có log hoặc bước tái tạo không (1 câu).",
+          "h": "Use Past Simple for observed events and can for requests",
+          "s": "When did you notice flaky tests? Can you share the CI log or steps to reproduce?"
+        },
+        {
+          "p": "I increased coverage by adding tests.",
+          "m": "1. Nói bạn đã thêm test cho phần nào (Past Simple) (1 câu).\n2. Nói coverage tăng bao nhiêu (1 câu).\n3. Nói bước tiếp theo để duy trì coverage (should/have to) (1 câu).",
+          "h": "Use Past Simple for actions and should/have to for maintenance",
+          "s": "I added tests for the validation module. The coverage increased by 5%. We should add tests to CI to keep coverage stable."
+        },
+        {
+          "p": "Should we mock external APIs in tests?",
+          "m": "1. Trả lời có/không (1 câu).\n2. Nói lý do ngắn (1 câu).\n3. Nêu cách làm (use will/going to or should) (1 câu).",
+          "h": "Use should and will/going to for plans",
+          "s": "Yes, we should mock external APIs. It makes tests reliable and faster. I will add mock handlers in the test setup."
+        },
+        {
+          "p": "We need a test plan for the next release.",
+          "m": "1. Nêu 2–3 điểm chính bạn sẽ kiểm tra (each as short clause) (2 câu).\n2. Nói ai chịu trách nhiệm chạy test cuối cùng (have to) (1 câu).",
+          "h": "Use Future Simple for plans and have to for responsibilities",
+          "s": "I will check core flows and form validation. I will also run regression tests on main pages. The QA lead has to approve the final report."
+        }
+      ]
+    },
+    {
+      "t": "Lên kế hoạch code review",
+      "e": [
+        {
+          "p": "When can you review my PR?",
+          "m": "1. Nói thời gian bạn có thể review (1 câu).\n2. Nói bạn cần bao lâu cho review (1 câu).",
+          "h": "Use will and Present Simple for schedule",
+          "s": "I can review it this afternoon. I need about one hour for a full review."
+        },
+        {
+          "p": "I have a big PR with many changes.",
+          "m": "1. Hỏi bạn muốn chia PR hay giữ nguyên (1 câu).\n2. Nói lợi ích của việc chia (1 câu).",
+          "h": "Use should/would for suggestions and because",
+          "s": "Would you prefer to split the PR into smaller parts? Smaller PRs are easier to review and merge."
+        },
+        {
+          "p": "Can we set a rule for maximum PR size?",
+          "m": "1. Đề xuất một giới hạn ngắn (lines/changes) (1 câu).\n2. Nói tại sao giới hạn này tốt (1 câu).\n3. Nói ai sẽ theo dõi quy tắc này (have to) (1 câu).",
+          "h": "Use comparatives and have to for responsibilities",
+          "s": "I suggest limiting PRs to 300 lines of changes. This keeps reviews faster than very large PRs. Team leads have to enforce this rule."
+        },
+        {
+          "p": "Sometimes reviews take many days.",
+          "m": "1. Nói bạn sẽ làm gì để giảm thời gian chờ (will/going to) (1 câu).\n2. Nói một điều reviewer phải làm khi bắt đầu review (must/should) (1 câu).\n3. Nêu cách báo lại cho tác giả nếu chậm (1 câu).",
+          "h": "Use will/going to and must/should for duties",
+          "s": "I will prioritize small PRs and block time for reviews each day. Reviewers must leave initial comments within 24 hours. We will send a short message to the author if review is delayed."
+        },
+        {
+          "p": "We need a checklist for reviewers.",
+          "m": "1. Liệt kê 3 mục quan trọng trong checklist (mỗi mục 1 clause) (3 câu).",
+          "h": "Use Present Simple and short Imperatives",
+          "s": "Check tests and make sure they pass. Verify error handling for edge cases. Ensure coding style and comments are clear."
+        }
+      ]
+    },
+    {
+      "t": "Báo cáo tiến độ và vấn đề",
+      "e": [
+        {
+          "p": "How is your task going?",
+          "m": "1. Nói tiến độ hiện tại (done/in progress) (1 câu).\n2. Nói còn bao nhiêu phần trăm hoặc thời gian dự kiến (1 câu).",
+          "h": "Use Present Simple and will for estimates",
+          "s": "The task is in progress. I have about 50% done and expect to finish in two days."
+        },
+        {
+          "p": "There is a blocker with API access.",
+          "m": "1. Mô tả ngắn blocker (1 câu).\n2. Nói bạn đã làm gì để giải quyết (Past Simple) (1 câu).",
+          "h": "Use Past Simple for actions and Present Simple for facts",
+          "s": "The blocker is missing API keys for the staging server. I contacted the ops team and requested access."
+        },
+        {
+          "p": "Do you need help to finish?",
+          "m": "1. Trả lời có/không (1 câu).\n2. Nếu có, nêu việc cụ thể cần giúp (1 câu).\n3. Nói ai bạn sẽ hỏi (1 câu).",
+          "h": "Use will/going to for plans and Present Simple for responsibilities",
+          "s": "Yes, I need help with test data generation. Please help create mock data for two scenarios. I will ask Sam from QA."
+        },
+        {
+          "p": "We have a new priority that may affect your work.",
+          "m": "1. Nói bạn sẽ làm gì với task hiện tại (will/going to) (1 câu).\n2. Nói bạn cần thông báo gì cho manager (1 câu).\n3. Đề xuất thời gian hoàn thành điều mới (1 câu).",
+          "h": "Use will/going to and should for reporting",
+          "s": "I will pause the non-critical parts and focus on the new priority. I will tell the manager the current status and blockers. I expect to finish the urgent change in three days."
+        },
+        {
+          "p": "Please send a short status email.",
+          "m": "1. Viết 2–3 câu tóm tắt tiến độ: (1) trạng thái hiện tại, (2) vấn đề nếu có, (3) kế hoạch tiếp theo.",
+          "h": "Use Past Simple/Present Simple and will for plans",
+          "s": "The feature is halfway done and unit tests are added. I found a blocker with staging API access that blocks final tests. I will request access and finish the work in two days."
+        }
+      ]
+    },
+    {
+      "t": "Giao tiếp khi merge và deploy",
+      "e": [
+        {
+          "p": "I merged the PR to staging.",
+          "m": "1. Hỏi bạn có chạy test sau merge không (1 câu).\n2. Nói bạn muốn nhận kết quả sớm hay không (1 câu).",
+          "h": "Use Past Simple and Present Simple for preferences",
+          "s": "Did you run the tests after merging? I want results as soon as possible."
+        },
+        {
+          "p": "Deployment failed on staging.",
+          "m": "1. Hỏi lỗi deploy là gì (1 câu).\n2. Hỏi log hoặc thông tin lỗi ngắn (1 câu).",
+          "h": "Use Past Simple and can for requests",
+          "s": "What error occurred during deployment? Can you paste the short deploy log?"
+        },
+        {
+          "p": "We need to hotfix production.",
+          "m": "1. Nói bạn sẽ làm gì ngay lập tức (will/going to) (1 câu).\n2. Nói ai cần được thông báo (1 câu).\n3. Nói bạn phải kiểm tra gì sau hotfix (have to) (1 câu).",
+          "h": "Use will/going to and have to for duties",
+          "s": "I will prepare a small hotfix branch and test it. I will notify the on-call engineer and product manager. We have to run smoke tests after deployment."
+        },
+        {
+          "p": "Should we roll back to the previous release?",
+          "m": "1. Trả lời có/không (1 câu).\n2. Nêu lý do ngắn (1 câu).\n3. Nói ai thực hiện rollback (have to) (1 câu).",
+          "h": "Use should/will and have to",
+          "s": "Yes, we should roll back if the issue affects users. It reduces customer impact and buys time to fix. The ops team has to perform the rollback."
+        },
+        {
+          "p": "Write a short deploy note for the team chat.",
+          "m": "1. Nêu phiên bản/deploy (1 câu).\n2. Nêu thay đổi chính (1 câu).\n3. Nói nếu có hành động cần làm bởi team (1 câu).",
+          "h": "Use Past Simple/Present Simple and imperative tone for action",
+          "s": "Deployed version 1.4.2 to staging. Main change: improved form validation and bug fixes. Please run quick checks on forms and report issues."
+        }
+      ]
+    },
+    {
+      "t": "Thảo luận bảo mật cơ bản trong code review",
+      "e": [
+        {
+          "p": "Did you sanitize the user input?",
+          "m": "1. Trả lời có/không (1 câu).\n2. Nêu cách bạn đã làm nếu có (1 câu).",
+          "h": "Use Past Simple and Present Simple",
+          "s": "Yes, I sanitized the input using a validation function. I trim strings and check formats."
+        },
+        {
+          "p": "We found sensitive data in logs.",
+          "m": "1. Hỏi data nào bị lộ (1 câu).\n2. Hỏi bạn đã xoá log hay chưa (Past Simple) (1 câu).",
+          "h": "Use Past Simple for actions and can for requests",
+          "s": "Which sensitive fields appeared in the logs? Did you delete those logs already?"
+        },
+        {
+          "p": "Access tokens are stored in plain text.",
+          "m": "1. Nói nguy cơ ngắn (1 câu).\n2. Đề xuất một biện pháp (use should/has to) (1 câu).\n3. Nói ai phải xử lý việc này (have to) (1 câu).",
+          "h": "Use should/have to and Present Simple",
+          "s": "Storing tokens in plain text risks leaks and unauthorized access. We should encrypt tokens or use secure storage. The backend team has to implement this change."
+        },
+        {
+          "p": "We must follow OWASP basics for inputs.",
+          "m": "1. Nói một rule OWASP đơn giản bạn sẽ áp dụng (1 câu).\n2. Nói bạn sẽ kiểm tra rule này ở đâu (1 câu).\n3. Nêu công cụ bạn có thể dùng (1 câu).",
+          "h": "Use Present Simple and will for checks",
+          "s": "I will validate and escape all user inputs to prevent injection. I will check this in unit and integration tests. We can use a static analyzer or security linter."
+        },
+        {
+          "p": "How do we report a security issue privately?",
+          "m": "1. Nói kênh báo cáo kín (1 câu).\n2. Nói ai sẽ nhận báo cáo (1 câu).\n3. Nói bước tiếp theo sau khi nhận báo cáo (1 câu).",
+          "h": "Use Present Simple and will for next steps",
+          "s": "Use the private security channel or send an email to security@company. The security lead will receive the report. They will evaluate and assign a fix priority."
+        }
+      ]
+    },
+    {
+      "t": "Ôn tập: Phản hồi code tổng hợp 1",
+      "e": [
+        {
+          "p": "I opened a PR that fixes a bug and updates styles.",
+          "m": "1. Nói bạn sẽ kiểm tra điều gì đầu tiên (1 câu).\n2. Nói bạn sẽ kiểm tra phần style hay logic trước và tại sao (1 câu).",
+          "h": "Use will/going to and because for reason",
+          "s": "I will check the bug fix logic first. Logic affects functionality more than styles, so I check it before styling."
+        },
+        {
+          "p": "There is a failing unit test after merge.",
+          "m": "1. Mô tả bước đầu bạn làm để debug (1 câu).\n2. Nói bạn có thể revert hay fix trực tiếp không (would/should) (1 câu).",
+          "h": "Use will and would/should for options",
+          "s": "I will run the test locally and inspect the failure. I would fix the test if the change is correct, otherwise revert."
+        },
+        {
+          "p": "The PR changes third-party library usage.",
+          "m": "1. Hỏi tác động của thay đổi này lên bundle/size (1 câu).\n2. Nói bạn sẽ kiểm tra điều gì trước khi approve (1 câu).\n3. Nêu ai phải xác nhận license issues nếu cần (have to) (1 câu).",
+          "h": "Use Present Simple and have to for responsibility",
+          "s": "This change may increase the bundle size and add dependencies. I will check size and compatibility before approving. The legal or ops team has to confirm license issues."
+        },
+        {
+          "p": "I updated error messages for users.",
+          "m": "1. Nói bạn sẽ kiểm tra messages trên UI hay test nào (1 câu).\n2. Nói bạn có thể đề xuất thay đổi nhỏ để rõ hơn (should) (1 câu).\n3. Nêu bước deploy nếu ok (will) (1 câu).",
+          "h": "Use Present Simple and should/will",
+          "s": "I will check messages on the UI and run acceptance tests. You should make messages short and user-friendly. If all is good, I will approve and merge."
+        },
+        {
+          "p": "Give a quick summary of this review for the author.",
+          "m": "1. Nêu 2 điểm đã làm tốt (2 câu).\n2. Nêu 2 điểm cần sửa với đề xuất ngắn (2 câu).",
+          "h": "Use Present Simple and should for fixes",
+          "s": "Good tests and clear variable names improved readability. The validation logic is correct and well covered. Please add a guard for null inputs and update the changelog. You should also reduce bundle size by lazy-loading images."
+        }
+      ]
+    },
+    {
+      "t": "Ôn tập: Phản hồi code tổng hợp 2",
+      "e": [
+        {
+          "p": "A teammate asked for a quick review before lunch.",
+          "m": "1. Trả lời bạn có thể review trước hay sau (1 câu).\n2. Nói bạn sẽ kiểm tra những gì trong thời gian ngắn (1 câu).",
+          "h": "Use will for immediate decisions and Present Simple",
+          "s": "I can do a quick review before lunch. I will check tests and main logic flow."
+        },
+        {
+          "p": "The change touched both frontend and backend.",
+          "m": "1. Nói bạn sẽ làm gì để kiểm tra tương tác giữa hai phần (1 câu).\n2. Nêu ai cần tham gia review (1 câu).\n3. Đưa hành động tiếp theo (will/going to) (1 câu).",
+          "h": "Use will/going to and have to for responsibilities",
+          "s": "I will run end-to-end tests to check interaction. Both frontend and backend owners need to review. We are going to schedule a short integration test session."
+        },
+        {
+          "p": "Some comments request renaming and a logic fix.",
+          "m": "1. Hỏi bạn ưu tiên sửa nào trước (1 câu).\n2. Nói bạn sẽ làm gì với tests sau sửa (1 câu).\n3. Nói bạn sẽ thông báo reviewer khi xong (1 câu).",
+          "h": "Use will and should/have to",
+          "s": "I will fix the logic first because it affects correctness. I will update and run tests after changes. I will notify the reviewer when finished."
+        },
+        {
+          "p": "We plan a small release tomorrow.",
+          "m": "1. Nói bạn sẽ làm gì hôm nay để chuẩn bị (1 câu).\n2. Nói nếu có blocker bạn sẽ báo ai (1 câu).\n3. Nêu điều bạn phải check trước release (have to) (1 câu).",
+          "h": "Use will and have to for duties",
+          "s": "I will finish reviews and run regression tests today. I will inform the release manager if blockers appear. We have to ensure critical tests pass before release."
+        },
+        {
+          "p": "Write a short review note combining code quality and deployment status.",
+          "m": "1. Nêu 1 câu về chất lượng code (1 câu).\n2. Nêu 1 câu về trạng thái deploy/test (1 câu).\n3. Nêu 1 câu hành động tiếp theo (will/should) (1 câu).",
+          "h": "Use Present Simple and will/should for next steps",
+          "s": "The code quality is good with clear tests and naming. Deployment to staging succeeded but a few tests are flaky. I will fix flaky tests and re-run CI before final deploy."
+        }
+      ]
+    },
+    {
+      "t": "Ôn tập: Phản hồi code tổng hợp 3",
+      "e": [
+        {
+          "p": "We merged a hotfix and production is stable now.",
+          "m": "1. Nói bạn đã làm gì để xác nhận ổn định (1 câu).\n2. Nói bạn sẽ làm gì tiếp theo sau hotfix (1 câu).",
+          "h": "Use Past Simple and will for plans",
+          "s": "I monitored logs and ran smoke tests to confirm stability. I will create a post-mortem and improve tests."
+        },
+        {
+          "p": "There is a debate about using a new tool for CI.",
+          "m": "1. Nói bạn thích giữ công cụ cũ hay thử mới (1 câu).\n2. Nêu một lý do ngắn (1 câu).\n3. Đề xuất một bước thử nghiệm nhỏ (will/going to) (1 câu).",
+          "h": "Use comparatives and will/going to",
+          "s": "I prefer to test the new tool before full migration. It may offer faster builds and better caching. We will run a small pilot on one repo."
+        },
+        {
+          "p": "Our codebase has many TODOs about security.",
+          "m": "1. Nói bạn sẽ ưu tiên làm gì trước (1 câu).\n2. Nói bạn sẽ phân công ai hoặc nhóm nào (have to) (1 câu).\n3. Nêu cách report tiến độ (1 câu).",
+          "h": "Use will and have to for responsibilities",
+          "s": "I will prioritize TODOs related to data leakage and auth. The backend team has to address auth issues and frontend will handle input checks. We will report progress in the weekly sync."
+        },
+        {
+          "p": "A stakeholder asked for a short summary of the recent reviews.",
+          "m": "1. Viết 2 câu tóm tắt: (1) kết luận chính, (2) các hành động tiếp theo với ai chịu trách nhiệm.",
+          "h": "Use Present Simple and will/has to for responsibilities",
+          "s": "Reviews show overall good quality but a few issues with error handling and tests. We will assign fixes to the respective owners and the QA lead has to verify before release."
+        },
+        {
+          "p": "Final question: any rule you want the team to follow from now?",
+          "m": "1. Nêu một quy tắc cụ thể (must/should) (1 câu).\n2. Nói ngắn vì sao quy tắc này quan trọng (1 câu).\n3. Nêu cách kiểm tra quy tắc này trong PR (1 câu).",
+          "h": "Use should/must and because",
+          "s": "We should require passing tests and lint checks on every PR. This reduces regressions and style issues. The CI must run tests and linters automatically for each PR."
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,530 @@
+{
+  "l": 3,
+  "d": [
+    {
+      "t": "Gặp đội phát triển mới",
+      "e": [
+        {
+          "p": "Can you tell me your role in the project?",
+          "m": "Nói rõ vai trò chính. Nói ngắn gọn trách nhiệm chính (1 hành động).",
+          "h": "Present Simple: I am / I work as + chức danh",
+          "s": "I am a backend developer and I work on the database. I design schemas and maintain queries."
+        },
+        {
+          "p": "Where did you work before this project?",
+          "m": "Nêu nơi làm việc trước. Nói công việc bạn đã làm ở đó (1 hành động).",
+          "h": "Past Simple: I worked at / I was at + nơi",
+          "s": "I worked at a small startup and I managed servers. I fixed bugs and improved performance."
+        },
+        {
+          "p": "What component will you design first?",
+          "m": "Nói thành phần bạn sẽ thiết kế. Nói lý do ngắn gọn (vì sao).",
+          "h": "will + V; dùng because để nêu lý do",
+          "s": "I will design the authentication service because it must keep user data safe. It will check logins and manage tokens."
+        },
+        {
+          "p": "How do you compare our tech stack with the old one?",
+          "m": "So sánh ngắn: nêu cái nào tốt hơn. Nêu một lợi ích cụ thể.",
+          "h": "Comparatives: more + adj + than / adj-er than",
+          "s": "Our stack is more reliable than the old one and it is faster in queries. The new tools are also easier to maintain."
+        },
+        {
+          "p": "What should the team do this week?",
+          "m": "Đưa ra hai việc nhóm nên làm. Mỗi việc là một câu ngắn.",
+          "h": "Should / have to + V",
+          "s": "The team should write tests and we have to deploy the staging version. This will help find bugs early."
+        }
+      ]
+    },
+    {
+      "t": "Mô tả thành phần hệ thống",
+      "e": [
+        {
+          "p": "Can you name the main components?",
+          "m": "Nêu hai thành phần chính. Nói chức năng ngắn cho mỗi thành phần.",
+          "h": "Present Simple: The system has / The component handles",
+          "s": "The system has a web server and a database. The web server handles requests and the database stores data."
+        },
+        {
+          "p": "Which component failed yesterday?",
+          "m": "Nêu thành phần đã hỏng. Mô tả ngắn hậu quả xảy ra.",
+          "h": "Past Simple: failed / stopped",
+          "s": "The database failed yesterday and it stopped accepting writes. We restarted the server and the service came back."
+        },
+        {
+          "p": "Will the cache improve performance?",
+          "m": "Trả lời có/không. Giải thích ngắn cách cache giúp.",
+          "h": "will + V; use because",
+          "s": "Yes, adding a cache will reduce database load because it stores frequent data. It will make responses faster."
+        },
+        {
+          "p": "Is the API more important than the UI?",
+          "m": "So sánh API và UI. Nêu một lý do ngắn.",
+          "h": "Comparatives + because",
+          "s": "The API is more important than the UI for integration because many services use it. But the UI is still key for users."
+        },
+        {
+          "p": "How must we protect the data in the database?",
+          "m": "Đề xuất hai bước bảo vệ dữ liệu. Mỗi bước một câu ngắn.",
+          "h": "Must / should / have to + V",
+          "s": "We must encrypt sensitive fields and we should restrict access by role. These steps will make data safer."
+        }
+      ]
+    },
+    {
+      "t": "Quyết định công nghệ",
+      "e": [
+        {
+          "p": "What language did you pick for the backend?",
+          "m": "Nói ngôn ngữ đã chọn. Nêu một lý do ngắn.",
+          "h": "Past Simple: I chose / I picked",
+          "s": "I chose Python for the backend because it is simple and has many libraries. It helped our team build features faster."
+        },
+        {
+          "p": "Why not use the other option?",
+          "m": "Nêu công nghệ khác và lý do không chọn (một lý do).",
+          "h": "Past Simple + because",
+          "s": "We did not choose Java because it was more complex for this team. The learning curve would be longer."
+        },
+        {
+          "p": "Do you think this choice will be cheaper?",
+          "m": "Dự đoán chi phí: có/không và lý do ngắn.",
+          "h": "will + V; comparative idea OK",
+          "s": "It will be cheaper because development time is shorter. We will spend less on training."
+        },
+        {
+          "p": "Compare cloud vs on-premise for our app.",
+          "m": "Nói cái nào phù hợp hơn. Nêu một lý do ngắn.",
+          "h": "Comparatives + because",
+          "s": "Cloud hosting is more flexible than on-premise and it scales faster. It is also less expensive for small teams."
+        },
+        {
+          "p": "What should we test before finalizing the technology?",
+          "m": "Liệt kê hai kiểm tra cần làm (mỗi ý một câu).",
+          "h": "Should / have to + V",
+          "s": "We should test performance and we have to check security. These tests will show real issues."
+        }
+      ]
+    },
+    {
+      "t": "Giải thích luồng dữ liệu",
+      "e": [
+        {
+          "p": "How does a user request reach the database?",
+          "m": "Nêu hai bước chính theo thứ tự. Mỗi bước là một câu ngắn.",
+          "h": "Present Simple + then",
+          "s": "The user sends a request to the web server and then the server queries the database. The database returns data and the server sends a response."
+        },
+        {
+          "p": "What happened when the API returned wrong data yesterday?",
+          "m": "Mô tả sự việc đã xảy ra. Nêu hậu quả ngắn.",
+          "h": "Past Simple + so / because",
+          "s": "The API returned wrong data and users saw errors, so some requests failed. The team fixed the bug and we tested again."
+        },
+        {
+          "p": "Will we add logging to trace requests?",
+          "m": "Trả lời kế hoạch có/không. Nêu lợi ích ngắn.",
+          "h": "will + because",
+          "s": "We will add logging to trace requests because it helps find errors. Logs will make debugging faster."
+        },
+        {
+          "p": "Is the current flow faster than before?",
+          "m": "So sánh tốc độ hiện tại và cũ. Nêu một lý do ngắn.",
+          "h": "Comparative + because",
+          "s": "The current flow is faster than before because we added a cache. It reduces database queries."
+        },
+        {
+          "p": "What must each service do when it fails?",
+          "m": "Nêu hai hành động bắt buộc khi service lỗi. Mỗi hành động một câu.",
+          "h": "Must / have to + V",
+          "s": "Each service must send an alert and it has to retry important operations. This will reduce downtime."
+        }
+      ]
+    },
+    {
+      "t": "Thảo luận về API và giao diện",
+      "e": [
+        {
+          "p": "Can you describe the public API quickly?",
+          "m": "Nêu hai endpoint chính. Nói chức năng ngắn cho mỗi endpoint.",
+          "h": "Present Simple: The API has / it handles",
+          "s": "The API has /login for authentication and /items to get product lists. /login checks credentials and /items returns JSON data."
+        },
+        {
+          "p": "Why did the /items endpoint break last week?",
+          "m": "Nêu nguyên nhân ngắn. Nói cách sửa tạm thời đã làm.",
+          "h": "Past Simple + because / we rolled back",
+          "s": "The /items endpoint broke because of a schema change and it returned errors. We rolled back the change and it worked again."
+        },
+        {
+          "p": "Will you add pagination to /items?",
+          "m": "Trả lời kế hoạch có/không. Nêu một lợi ích ngắn.",
+          "h": "will + because",
+          "s": "Yes, I will add pagination because it will reduce response size. It will make the UI load faster."
+        },
+        {
+          "p": "Is the new API safer than the old one?",
+          "m": "So sánh an ninh giữa hai API. Nêu lý do ngắn.",
+          "h": "Comparatives + because",
+          "s": "The new API is more secure than the old one because it uses tokens and rate limits. It blocks many bad requests."
+        },
+        {
+          "p": "What should clients do when they get a 500 error?",
+          "m": "Đưa hai hướng dẫn cho client khi gặp lỗi 500. Mỗi hướng dẫn một câu.",
+          "h": "Should / have to + V",
+          "s": "Clients should retry the request later and they have to log the error. These steps help us diagnose issues."
+        }
+      ]
+    },
+    {
+      "t": "Bảo mật và quyền truy cập",
+      "e": [
+        {
+          "p": "Who can access the admin panel?",
+          "m": "Nêu vai trò được truy cập. Nêu điều kiện bảo mật ngắn.",
+          "h": "Present Simple + must",
+          "s": "Only admins can access the admin panel and they must use two-factor authentication. This keeps the system safe."
+        },
+        {
+          "p": "Did we change passwords last month?",
+          "m": "Nói có/không hành động đã làm. Nêu kết quả ngắn.",
+          "h": "Past Simple",
+          "s": "We changed all passwords last month and the breaches stopped. Users were asked to update their credentials."
+        },
+        {
+          "p": "Will we require 2FA for all users?",
+          "m": "Trả lời kế hoạch cho toàn bộ người dùng. Nêu lý do ngắn.",
+          "h": "will + because",
+          "s": "We will require 2FA for admins because they have full access. Later we may ask all users to enable it."
+        },
+        {
+          "p": "Is token-based auth better than session cookies?",
+          "m": "So sánh hai phương pháp. Nêu một lợi ích cho từng phương án.",
+          "h": "Comparatives + because / but",
+          "s": "Token-based auth is better than session cookies for mobile apps because tokens are stateless. But cookies are easier for browsers."
+        },
+        {
+          "p": "What must the team do after a security incident?",
+          "m": "Liệt kê hai bước bắt buộc sau sự cố an ninh. Mỗi bước một câu.",
+          "h": "Must / have to + V",
+          "s": "The team must identify the breach and inform affected users. They have to fix the issue quickly."
+        }
+      ]
+    },
+    {
+      "t": "Triển khai và vận hành",
+      "e": [
+        {
+          "p": "How do you deploy a new version?",
+          "m": "Nêu hai bước triển khai chính theo thứ tự.",
+          "h": "Present Simple / then",
+          "s": "We build the code and then we deploy it to staging. After testing we deploy to production."
+        },
+        {
+          "p": "What happened during the last deployment?",
+          "m": "Mô tả sự kiện đã xảy ra. Nêu hậu quả ngắn.",
+          "h": "Past Simple + so",
+          "s": "During the last deployment, a script failed and some services restarted, so the site was slow. We rolled back and performance returned to normal."
+        },
+        {
+          "p": "Will we automate deployment soon?",
+          "m": "Trả lời kế hoạch tự động hoá. Nêu một lợi ích ngắn.",
+          "h": "will + because",
+          "s": "We will automate deployment because it reduces human errors. It will speed up releases."
+        },
+        {
+          "p": "Is CI/CD more effective than manual deploys?",
+          "m": "So sánh CI/CD và deploy tay. Nêu lý do ngắn.",
+          "h": "Comparatives + because",
+          "s": "CI/CD is more effective than manual deploys because it runs tests automatically. It lowers the chance of mistakes."
+        },
+        {
+          "p": "What should on-call engineers do at night?",
+          "m": "Nêu hai nhiệm vụ chính cho on-call. Mỗi nhiệm vụ một câu.",
+          "h": "Should / have to + V",
+          "s": "On-call engineers should monitor alerts and respond to critical issues. They have to update the incident log."
+        }
+      ]
+    },
+    {
+      "t": "Xử lý sự cố và lỗi",
+      "e": [
+        {
+          "p": "A user reports slow loading. What do you check first?",
+          "m": "Nêu hai kiểm tra đầu tiên. Mỗi kiểm tra một câu ngắn.",
+          "h": "Present Simple: I check + noun",
+          "s": "I check server load and database queries. These checks show the cause."
+        },
+        {
+          "p": "Why did the job queue stop yesterday?",
+          "m": "Nói nguyên nhân đã xảy ra. Nêu cách bạn sửa nhanh.",
+          "h": "Past Simple + we restarted / we fixed",
+          "s": "The job queue stopped because a worker crashed and it blocked tasks. We restarted the worker and the queue resumed."
+        },
+        {
+          "p": "Will you add alerts for queue failures?",
+          "m": "Trả lời có/không. Nêu lợi ích ngắn.",
+          "h": "will + because",
+          "s": "I will add alerts because we need faster detection. Alerts will reduce downtime."
+        },
+        {
+          "p": "Is monitoring more important than logging?",
+          "m": "So sánh monitoring và logging. Nêu ngắn đặc điểm của mỗi thứ.",
+          "h": "Comparatives + but",
+          "s": "Monitoring is more important for real-time issues because it shows system health, but logging helps with root cause analysis. Both are necessary."
+        },
+        {
+          "p": "What must we do after fixing a bug?",
+          "m": "Liệt kê hai việc bắt buộc sau khi sửa lỗi. Mỗi việc một câu.",
+          "h": "Must / have to + V",
+          "s": "We must write a test and we have to update documentation. This prevents the bug from happening again."
+        }
+      ]
+    },
+    {
+      "t": "Hiệu năng và tối ưu",
+      "e": [
+        {
+          "p": "How can we make the API faster?",
+          "m": "Đưa hai cải thiện khả thi. Mỗi cải thiện một câu ngắn.",
+          "h": "Present Simple / can + V",
+          "s": "We can add a cache and optimize queries. These changes make responses faster."
+        },
+        {
+          "p": "What improved after last optimization?",
+          "m": "Nêu thay đổi đã làm. Nêu kết quả ngắn (2 chỉ số).",
+          "h": "Past Simple",
+          "s": "After the optimization, response times dropped and CPU usage decreased. Users noticed faster pages."
+        },
+        {
+          "p": "Will reducing image sizes help page speed?",
+          "m": "Trả lời có/không. Giải thích ngắn cách nó giúp.",
+          "h": "will + because",
+          "s": "Yes, reducing image sizes will help because it lowers download time. Pages will load faster."
+        },
+        {
+          "p": "Is asynchronous processing better than synchronous?",
+          "m": "So sánh hai cách xử lý. Nêu một lý do ngắn cho lựa chọn asynchronous.",
+          "h": "Comparatives + because",
+          "s": "Asynchronous processing is better than synchronous for long tasks because it does not block users. It improves user experience."
+        },
+        {
+          "p": "What should engineers prioritize for performance?",
+          "m": "Nêu hai ưu tiên tối ưu hoá. Mỗi ưu tiên một câu ngắn.",
+          "h": "Should / have to + V",
+          "s": "Engineers should profile the application and they have to fix the slowest parts. This approach gives the best gain."
+        }
+      ]
+    },
+    {
+      "t": "Lên kế hoạch mở rộng",
+      "e": [
+        {
+          "p": "When did we last scale the system?",
+          "m": "Nêu thời điểm đã mở rộng. Nói thay đổi chính đã làm.",
+          "h": "Past Simple",
+          "s": "We scaled the system last month and we added more servers. The traffic was higher than before."
+        },
+        {
+          "p": "Which service will scale first if traffic grows?",
+          "m": "Chọn dịch vụ sẽ mở rộng trước. Nói lý do ngắn.",
+          "h": "will + because",
+          "s": "The web servers will scale first because they handle all requests. We will add instances automatically."
+        },
+        {
+          "p": "Is horizontal scaling better than vertical?",
+          "m": "So sánh hai kiểu scale. Nêu một lợi ích ngắn cho horizontal.",
+          "h": "Comparatives + because",
+          "s": "Horizontal scaling is better than vertical for high availability because it adds more machines. Vertical is easier but less flexible."
+        },
+        {
+          "p": "What must we prepare before big launch?",
+          "m": "Liệt kê hai việc bắt buộc chuẩn bị. Mỗi việc một câu ngắn.",
+          "h": "Must / have to + V",
+          "s": "We must test load and we have to set auto-scaling rules. These steps reduce risks."
+        },
+        {
+          "p": "How will you monitor capacity next month?",
+          "m": "Nói kế hoạch giám sát (hai việc). Mỗi việc một câu.",
+          "h": "will + V",
+          "s": "I will track CPU and memory usage and set alerts for thresholds. Then we will add resources if needed."
+        }
+      ]
+    },
+    {
+      "t": "Kiến trúc hệ thống cũ và nâng cấp",
+      "e": [
+        {
+          "p": "Describe the old architecture in short.",
+          "m": "Nêu hai phần chính của kiến trúc cũ. Nói một vấn đề ngắn.",
+          "h": "Past Simple / Present Simple",
+          "s": "The old architecture had a monolith and a single database, and it was hard to update. Deployments caused downtime."
+        },
+        {
+          "p": "Why did we move to microservices?",
+          "m": "Nêu lý do chuyển đổi. Nêu một lợi ích cụ thể sau khi chuyển.",
+          "h": "Past Simple + so / because",
+          "s": "We moved to microservices because we needed faster releases, so teams could work independently. This change improved development speed."
+        },
+        {
+          "p": "Will the upgrade reduce costs?",
+          "m": "Dự đoán chi phí: có/không. Nêu lý do ngắn.",
+          "h": "will + because",
+          "s": "The upgrade will reduce costs in the long term because we can use cheaper cloud services. Short-term costs may be higher."
+        },
+        {
+          "p": "Is the new architecture more reliable?",
+          "m": "So sánh độ tin cậy giữa hai kiến trúc. Nêu lý do ngắn.",
+          "h": "Comparatives + because",
+          "s": "The new architecture is more reliable than the old one because services are isolated. Failures affect fewer users."
+        },
+        {
+          "p": "What should we keep from the old system?",
+          "m": "Đề xuất hai thứ nên giữ lại. Mỗi thứ một câu ngắn.",
+          "h": "Should / have to + V",
+          "s": "We should keep useful scripts and we have to keep historical data. These help with audits."
+        }
+      ]
+    },
+    {
+      "t": "Giao tiếp với khách hàng và stakeholders",
+      "e": [
+        {
+          "p": "Can you explain the architecture simply for the client?",
+          "m": "Nói hai điểm đơn giản về kiến trúc. Nêu lợi ích ngắn cho khách hàng.",
+          "h": "Present Simple, simple words",
+          "s": "Our system uses a web server and a cloud database, so it stores user data safely. This makes the app reliable for customers."
+        },
+        {
+          "p": "What happened in the outage last Friday?",
+          "m": "Nêu nguyên nhân ngắn. Nói hành động bạn đã làm.",
+          "h": "Past Simple",
+          "s": "Last Friday, a server crashed because of high load and we rerouted traffic to other servers. The downtime lasted one hour."
+        },
+        {
+          "p": "Will we finish the upgrade by next month?",
+          "m": "Trả lời khả năng hoàn thành. Nêu điều kiện nếu có.",
+          "h": "will + if / unless",
+          "s": "We will finish the upgrade by next month if no new issues appear. We are testing now."
+        },
+        {
+          "p": "Is the new design better for users?",
+          "m": "So sánh thiết kế mới và cũ. Nêu một lợi ích cho người dùng.",
+          "h": "Comparatives + because",
+          "s": "The new design is better for users because it loads faster and is simpler. Users can find features more easily."
+        },
+        {
+          "p": "What must we report to stakeholders after release?",
+          "m": "Liệt kê hai mục cần báo cáo. Mỗi mục một câu ngắn.",
+          "h": "Must / have to + V",
+          "s": "We must report metrics and we have to list known issues. This keeps stakeholders informed."
+        }
+      ]
+    },
+    {
+      "t": "Ôn tập: Tổng hợp kiến trúc",
+      "e": [
+        {
+          "p": "Summarize the system components and their roles.",
+          "m": "Nêu hai thành phần chính. Mỗi thành phần kèm chức năng ngắn.",
+          "h": "Present Simple: The system has / It handles",
+          "s": "The system has a frontend and a backend; the frontend shows UI and the backend processes requests. The backend stores data in the database."
+        },
+        {
+          "p": "Describe a past incident and how you fixed it.",
+          "m": "Nêu sự cố đã xảy ra (một câu). Nói cách khắc phục (một câu).",
+          "h": "Past Simple + so / we + past",
+          "s": "A database crash caused errors and users could not save data. We restarted the database and restored service."
+        },
+        {
+          "p": "Compare two hosting options and pick one.",
+          "m": "So sánh ngắn hai lựa chọn. Chọn một và nêu lý do.",
+          "h": "Comparatives + because",
+          "s": "Cloud hosting is more flexible than on-premise because it scales easily. I choose cloud for faster growth."
+        },
+        {
+          "p": "What will you do to improve reliability next month?",
+          "m": "Nêu hai việc bạn sẽ làm. Mỗi việc một câu.",
+          "h": "will + V",
+          "s": "I will add health checks and set automatic restarts for services. These steps will improve reliability."
+        },
+        {
+          "p": "Give two recommendations the team should follow.",
+          "m": "Đưa hai lời khuyên bắt buộc/khuyến nghị. Mỗi lời một câu.",
+          "h": "Should / must / have to + V",
+          "s": "The team should write integration tests and they must monitor error rates. These actions reduce production issues."
+        }
+      ]
+    },
+    {
+      "t": "Ôn tập: Vấn đề về hiệu năng và bảo mật",
+      "e": [
+        {
+          "p": "List two performance issues you often see.",
+          "m": "Nêu hai vấn đề hiệu năng. Mỗi vấn đề một câu ngắn.",
+          "h": "Present Simple: There is / We see",
+          "s": "High database latency is common and slow queries cause delays. Large images also slow page loads."
+        },
+        {
+          "p": "Tell a past fix for a security bug.",
+          "m": "Nêu lỗ hổng đã có. Nói cách bạn sửa (một hành động).",
+          "h": "Past Simple",
+          "s": "A missing authorization check allowed access to data and we added permission checks. The issue was closed after tests."
+        },
+        {
+          "p": "Will caching and compression help the site?",
+          "m": "Trả lời kế hoạch có/không. Nêu hai lợi ích ngắn.",
+          "h": "will + because",
+          "s": "Yes, caching and compression will help because they reduce server load and download size. Pages will load faster."
+        },
+        {
+          "p": "Is encryption more important than access control?",
+          "m": "So sánh hai biện pháp. Nêu một lý do vì sao cả hai cần thiết.",
+          "h": "Comparatives + because / and",
+          "s": "Encryption is more important for data protection because it hides data, but access control prevents wrong users from reading it. Both are necessary."
+        },
+        {
+          "p": "What must we do after a performance test?",
+          "m": "Nêu hai bước bắt buộc sau test. Mỗi bước một câu.",
+          "h": "Must / have to + V",
+          "s": "We must analyze the results and we have to fix the top issues. Then we will run tests again."
+        }
+      ]
+    },
+    {
+      "t": "Ôn tập: Quyết định và giao tiếp với khách hàng",
+      "e": [
+        {
+          "p": "Explain why you chose the current stack simply.",
+          "m": "Nêu công nghệ chính đã chọn. Nêu một lý do dễ hiểu cho khách hàng.",
+          "h": "Present Simple / because",
+          "s": "We chose Node.js for its fast response and many libraries. This lets us deliver features quickly."
+        },
+        {
+          "p": "Describe a rollout plan for a major release.",
+          "m": "Nêu hai bước chính của kế hoạch theo thứ tự. Mỗi bước một câu.",
+          "h": "Present Simple / then",
+          "s": "First we deploy to staging and run tests, then we release gradually to production. We monitor metrics during the rollout."
+        },
+        {
+          "p": "Will this change affect customers immediately?",
+          "m": "Trả lời có/không. Nêu điều kiện hoặc lý do ngắn.",
+          "h": "will + if / because",
+          "s": "It will not affect customers immediately because we will release slowly and test. If issues appear, we will roll back."
+        },
+        {
+          "p": "Is the new approach better for maintenance?",
+          "m": "So sánh ngắn: nêu cái nào tốt hơn. Nêu lý do ngắn.",
+          "h": "Comparatives + because",
+          "s": "The new modular approach is better for maintenance because teams can update parts independently. It reduces overall risk."
+        },
+        {
+          "p": "What must we tell the client after deployment?",
+          "m": "Nêu hai thông tin cần báo cho khách hàng. Mỗi thông tin một câu.",
+          "h": "Must / have to + V",
+          "s": "We must tell the client the release time and we have to list any known issues. This keeps communication clear."
+        }
+      ]
+    }
+  ]
+}

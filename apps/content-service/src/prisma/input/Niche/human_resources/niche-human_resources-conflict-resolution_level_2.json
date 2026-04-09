@@ -1,0 +1,635 @@
+{
+  "l": 2,
+  "d": [
+    {
+      "t": "Bắt đầu nói chuyện với đồng nghiệp",
+      "e": [
+        {
+          "p": "You look upset. Do you want to talk?",
+          "m": "Nói bạn đang buồn. Nêu ngắn lý do (ví dụ: tiếng ồn).",
+          "h": "I'm + feeling...; The noise is + adj / I want + N.",
+          "s": "I am feeling upset. The noise is loud and I want quiet."
+        },
+        {
+          "p": "Can we sit down now? I want to help.",
+          "m": "Nói bạn cần 2 phút. Hỏi người kia muốn gì hoặc cần gì.",
+          "h": "I need + time; Do you want + N/to + V?",
+          "s": "I need two minutes. Do you want me to listen or to help?"
+        },
+        {
+          "p": "I heard you and Anna had a problem at work.",
+          "m": "Xác nhận chuyện đúng hay không. Nói bạn cảm thấy thế nào (ví dụ: lo lắng).",
+          "h": "Yes/No + short reason; I feel + adj.",
+          "s": "Yes, it's true. I feel worried and I want to fix it."
+        },
+        {
+          "p": "I am busy now. Tell me later, okay?",
+          "m": "Nói bạn bận ngắn. Đề nghị thời gian khác để nói chuyện.",
+          "h": "I am + V-ing; Can we + lúc khác?",
+          "s": "I am working now. Can we talk after lunch?"
+        },
+        {
+          "p": "Do you want me to stay with you during the talk?",
+          "m": "Nói có/không. Nếu có, nêu vai trò bạn muốn (ví dụ: nghe, giúp nói rõ).",
+          "h": "Yes/No + reason; I can + V / I will + V.",
+          "s": "Yes, please. I can listen and help you say one short point."
+        }
+      ]
+    },
+    {
+      "t": "Nói về hành vi ồn ào ở văn phòng",
+      "e": [
+        {
+          "p": "Your phone is very loud. Can you lower it?",
+          "m": "Nói bạn nghe ồn. Yêu cầu đơn giản (giảm âm lượng).",
+          "h": "I can hear + N; Please + V.",
+          "s": "I can hear your phone. Please make it quieter."
+        },
+        {
+          "p": "They always talk loudly in the break area.",
+          "m": "Nói bạn cảm thấy thế nào về điều đó. Hỏi họ có thể thay đổi thường xuyên không.",
+          "h": "I feel + adj; Can you + often + V?",
+          "s": "I feel upset about the noise. Can you often speak more quietly?"
+        },
+        {
+          "p": "We need quiet to finish the report.",
+          "m": "Nói bạn cần yên tĩnh. Đề nghị cách giải quyết ngắn (ví dụ: đi ra ngoài).",
+          "h": "I need + N; Maybe + V / Can we + V?",
+          "s": "I need quiet to work. Maybe you can go outside to talk."
+        },
+        {
+          "p": "Some people wear headphones and still make noise.",
+          "m": "Nêu một ví dụ cụ thể. Nói bạn muốn họ làm gì khác.",
+          "h": "For example + short; I want + them to + V.",
+          "s": "For example, talking on the phone near my desk. I want them to move to the hall."
+        },
+        {
+          "p": "I am the team lead and I want a quiet room.",
+          "m": "Hỏi ý kiến người nghe. Đưa ra một lựa chọn đơn giản (ví dụ: thay đổi chỗ ngồi).",
+          "h": "Do you + V?; We can + V.",
+          "s": "Do you agree with a quiet room? We can try it next week."
+        }
+      ]
+    },
+    {
+      "t": "Khi có hiểu lầm về công việc",
+      "e": [
+        {
+          "p": "I think you took my file by mistake.",
+          "m": "Xác nhận bạn có file đó hay không. Yêu cầu trả lại hoặc chia sẻ cách giải quyết.",
+          "h": "I have/ I don't have + N; Please + V / Can you + V?",
+          "s": "I don't have the file. Please give it back or send a copy."
+        },
+        {
+          "p": "She said she did the task but I did it today.",
+          "m": "Nói ai làm thật. Nói bạn cần điều gì tiếp theo (ví dụ: ghi chú ai làm).",
+          "h": "I did + N / She did + N; We need + N or please + V.",
+          "s": "I did the task today. We need a note about who did it."
+        },
+        {
+          "p": "Who will send the email to the client?",
+          "m": "Nói rõ ai làm. Nếu bạn làm, nói khi bạn làm (ví dụ: bây giờ, hôm nay).",
+          "h": "I will + V now/today; Or I can't + V.",
+          "s": "I will send the email today. I can do it after lunch."
+        },
+        {
+          "p": "Sometimes messages are not clear and we get wrong work.",
+          "m": "Nói một cách bạn muốn thay đổi (ví dụ: viết rõ, hỏi lại). Nói bạn sẽ làm gì để giúp.",
+          "h": "Please + V / I will + V / We can + V.",
+          "s": "Please write the task clearly. I will ask one question if it's not clear."
+        },
+        {
+          "p": "Can we make a rule about who does which task?",
+          "m": "Đồng ý hoặc không. Nếu đồng ý, nêu một quy tắc ngắn (ví dụ: danh sách).",
+          "h": "Yes, we can + V; We will + V / No, but + suggestion.",
+          "s": "Yes, we can make a list. We will write names and tasks on the board."
+        }
+      ]
+    },
+    {
+      "t": "Xin lỗi và nhận lỗi",
+      "e": [
+        {
+          "p": "You were late to the meeting yesterday.",
+          "m": "Nhận lỗi ngắn gọn nếu bạn trễ. Nói lý do đơn giản hoặc hứa không lặp lại.",
+          "h": "I'm sorry; I was late because + short / I will + V.",
+          "s": "I'm sorry I was late. My bus was late and I will come earlier."
+        },
+        {
+          "p": "Your email had a wrong file and we lost time.",
+          "m": "Xin lỗi và nêu cách bạn sửa lỗi (ví dụ: gửi lại đúng file).",
+          "h": "I'm sorry; I will send + N / I will fix + N.",
+          "s": "I'm sorry about the wrong file. I will send the correct file now."
+        },
+        {
+          "p": "I feel upset when someone takes my lunch.",
+          "m": "Xin lỗi nếu bạn làm điều đó. Hứa làm gì để tránh (ví dụ: ghi tên).",
+          "h": "I'm sorry; I will + V / I will put my name on + N.",
+          "s": "I'm sorry if I took it. I will put my name on my lunch."
+        },
+        {
+          "p": "We lost a client because of a mistake.",
+          "m": "Xin lỗi cả nhóm ngắn. Nói bạn sẽ làm gì hôm nay để giúp.",
+          "h": "I'm sorry; Today I will + V / I can + V.",
+          "s": "I'm sorry about the mistake. Today I will call the client and help fix it."
+        },
+        {
+          "p": "I forgive you but please do not repeat it.",
+          "m": "Cảm ơn và hứa thay đổi. Nói bạn sẽ làm gì để không lặp lại.",
+          "h": "Thank you; I will + V / I will try to + V.",
+          "s": "Thank you for forgiving me. I will try to be careful and not repeat it."
+        }
+      ]
+    },
+    {
+      "t": "Đề nghị thỏa hiệp đơn giản",
+      "e": [
+        {
+          "p": "We both want the same desk. What now?",
+          "m": "Nói bạn có muốn desk đó không. Đề nghị một đổi chỗ đơn giản hoặc chia thời gian.",
+          "h": "I want + N / We can + V / Let's + V.",
+          "s": "I want the desk but we can share it. Let's use it in the morning and swap in the afternoon."
+        },
+        {
+          "p": "I always come early. You come late. How to share the task?",
+          "m": "Nói bạn làm phần nào. Đề nghị cách chia công việc đơn giản.",
+          "h": "I can + V; You can + V; Or we can + V.",
+          "s": "I can do the first part. You can do the second part and we can check together."
+        },
+        {
+          "p": "I prefer quiet, but I know you like music.",
+          "m": "Đưa ra một giải pháp trung gian (ví dụ: tai nghe, thời gian nghe). Nói bạn đồng ý điều gì.",
+          "h": "Maybe + V / I agree + short / Please + V.",
+          "s": "Maybe use headphones in the office. I agree to music with headphones."
+        },
+        {
+          "p": "We both need the meeting room at 10.",
+          "m": "Gợi ý thay đổi thời gian ngắn hoặc chia phòng. Nói bạn sẵn sàng làm gì.",
+          "h": "We can + V at + time / I can + V earlier/later.",
+          "s": "We can meet at 9 or at 11. I can meet at 11 if you need 10."
+        },
+        {
+          "p": "I want a clear plan for our work this week.",
+          "m": "Đề nghị một việc cụ thể bạn làm (ví dụ: viết kế hoạch). Hỏi họ có đồng ý không.",
+          "h": "I will + V; Do you agree + question?",
+          "s": "I will write a short plan today. Do you agree with this plan?"
+        }
+      ]
+    },
+    {
+      "t": "Nói về giờ nghỉ và thời gian làm việc",
+      "e": [
+        {
+          "p": "You always take long breaks.",
+          "m": "Nói bạn có thường làm vậy không. Nếu có, xin lỗi và hứa thay đổi.",
+          "h": "I often/ sometimes + V; I'm sorry and I will + V.",
+          "s": "Sometimes I take long breaks. I'm sorry and I will shorten them."
+        },
+        {
+          "p": "I need you at your desk at 2 pm.",
+          "m": "Xác nhận bạn sẽ có mặt hay không. Nếu không, đề nghị thời gian khác.",
+          "h": "I will be + at + time / I can't + V but I can + V.",
+          "s": "I will be at my desk at 2 pm. If not, I can be there at 3 pm."
+        },
+        {
+          "p": "We often miss the deadline because of late work.",
+          "m": "Nói bạn sẽ thay đổi thói quen nào. Nêu một hành động cụ thể bạn làm.",
+          "h": "I will + V earlier / I will finish + N on time.",
+          "s": "I will finish my part earlier. I will send my work by Monday."
+        },
+        {
+          "p": "Can you remind me about the daily check at 9?",
+          "m": "Nói bạn có thể nhắc không. Nếu được, nói cách nhắc (ví dụ: tin nhắn).",
+          "h": "I can + V; I will + V / I will send + N.",
+          "s": "I can remind you. I will send a short message at 8:50."
+        },
+        {
+          "p": "We need fair time for each team member.",
+          "m": "Đề xuất nguyên tắc đơn giản (ví dụ: 10 phút mỗi người). Hỏi họ đồng ý không.",
+          "h": "Let's + V; Do you agree + question?",
+          "s": "Let's give ten minutes to each person. Do you agree with this rule?"
+        }
+      ]
+    },
+    {
+      "t": "Phản hồi về cách giao tiếp (lời nói)",
+      "e": [
+        {
+          "p": "You sometimes use a sharp tone and I feel bad.",
+          "m": "Nói bạn có nhận được không. Nếu có, nói bạn sẽ thay đổi giọng như thế nào.",
+          "h": "I hear you; I will + V / I will try to + V.",
+          "s": "I hear you and I did not know. I will try to speak more gently."
+        },
+        {
+          "p": "Please do not interrupt me in meetings.",
+          "m": "Hỏi họ có thể làm vậy không. Nói bạn muốn họ làm gì thay thế (ví dụ: ghi chú).",
+          "h": "Can you + V?; Please + V / Try to + V.",
+          "s": "Can you not interrupt? Please take a note and speak after me."
+        },
+        {
+          "p": "I feel angry when people blame me in front of others.",
+          "m": "Xin họ nói chuyện riêng nếu có phàn nàn. Nói bạn thích cách nào để nhận phản hồi.",
+          "h": "Please + V; I prefer + N / I want + to + V.",
+          "s": "Please talk to me in private. I prefer direct and calm feedback."
+        },
+        {
+          "p": "We need clear rules for comments in the chat.",
+          "m": "Đề xuất một qui tắc đơn giản (ví dụ: no blame, short notes). Nói bạn sẽ tuân theo không.",
+          "h": "Let's + V; I will + V / Do you agree?",
+          "s": "Let's write short and kind comments. I will follow the rule and do you agree?"
+        },
+        {
+          "p": "Some messages look rude but maybe they are short.",
+          "m": "Gợi ý kiểm tra ý định trước khi phản ứng. Nói bạn sẽ làm gì (ví dụ: hỏi rõ).",
+          "h": "I will + V; I will ask + question.",
+          "s": "I will check the intent first. I will ask for more details before I react."
+        }
+      ]
+    },
+    {
+      "t": "Nói về khối lượng công việc",
+      "e": [
+        {
+          "p": "I have too many tasks this week.",
+          "m": "Nói bạn đang quá nhiều việc. Hỏi họ có thể giúp bằng cách nào (ví dụ: nhận một task).",
+          "h": "I have + N; Can you + V / Please + V.",
+          "s": "I have too many tasks this week. Can you take one task from me?"
+        },
+        {
+          "p": "I often do late tasks for the team.",
+          "m": "Nói bạn có thường làm không. Đề nghị phân chia công việc công bằng.",
+          "h": "I often + V; We can + V / Let's + V.",
+          "s": "I often finish late for the team. Let's divide tasks more fairly."
+        },
+        {
+          "p": "Who will do the new task from the client?",
+          "m": "Nói bạn sẽ làm hay không. Nếu làm, nói khi bạn làm xong (ví dụ: hôm nay).",
+          "h": "I will + V today / I can't + V but I can + V.",
+          "s": "I will do the new task today. I can finish it this afternoon."
+        },
+        {
+          "p": "We need help from another team for this big job.",
+          "m": "Đề nghị một hành động đơn giản (ví dụ: hỏi leader). Nói bạn sẽ làm gì.",
+          "h": "I will + V; I can + V / Please + V.",
+          "s": "I will ask the leader for help. I can write a short request now."
+        },
+        {
+          "p": "I feel stressed and I cannot do more now.",
+          "m": "Nói bạn cần nghỉ ngắn. Hỏi họ có thể chờ hoặc giúp bạn không.",
+          "h": "I need + N / Can you + V?; I will + V later.",
+          "s": "I need a short break now. Can you wait an hour or help me with one task?"
+        }
+      ]
+    },
+    {
+      "t": "Khi có vấn đề về chia sẻ không gian",
+      "e": [
+        {
+          "p": "Your pile of papers is on my desk.",
+          "m": "Nói việc đó làm bạn thế nào. Yêu cầu di chuyển đồ vật.",
+          "h": "I feel + adj; Please move + N / Please put + N.",
+          "s": "I feel annoyed with the pile. Please move the papers to your desk."
+        },
+        {
+          "p": "The meeting is noisy near my desk.",
+          "m": "Nói bạn cần gì để làm việc (ví dụ: yên tĩnh, đổi chỗ). Hỏi họ có thể làm gì.",
+          "h": "I need + N; Can you + V / Maybe + V.",
+          "s": "I need quiet to finish my work. Can you hold the meeting in the room?"
+        },
+        {
+          "p": "I put food in the shared fridge and it is gone.",
+          "m": "Nói cảm xúc ngắn. Đề nghị ghi tên hoặc quy tắc cho tủ lạnh.",
+          "h": "I feel + adj; Please + V / Let's + V.",
+          "s": "I feel sad about the food. Please put your name and let's share rules."
+        },
+        {
+          "p": "The printer is busy and I wait long.",
+          "m": "Nói bạn cần in gấp hay không. Hỏi họ có thể in nhanh giúp bạn.",
+          "h": "I need + N now; Can you + V for me?",
+          "s": "I need to print a file now. Can you print quickly for me please?"
+        },
+        {
+          "p": "We should keep the shared space clean.",
+          "m": "Đề xuất một việc cụ thể bạn sẽ làm. Hỏi họ đồng ý không.",
+          "h": "I will + V; Do you agree + question?",
+          "s": "I will clean my area every evening. Do you agree to do the same?"
+        }
+      ]
+    },
+    {
+      "t": "Khi có tin đồn và lời nói sau lưng",
+      "e": [
+        {
+          "p": "I heard someone said you were late on purpose.",
+          "m": "Hỏi người đó có thật không. Nói bạn cảm thấy thế nào về tin đồn.",
+          "h": "Is that true?; I feel + adj.",
+          "s": "Is that true? I feel upset when I hear such rumors."
+        },
+        {
+          "p": "People talk about your work and it is not nice.",
+          "m": "Nói bạn muốn họ dừng lại. Đề nghị nói chuyện trực tiếp thay vì đồn đoán.",
+          "h": "Please + V; Talk to me + in private / I prefer + N.",
+          "s": "Please stop talking in the group. Talk to me in private and I prefer facts."
+        },
+        {
+          "p": "I am sorry; I told a small story about you.",
+          "m": "Xin lỗi thật ngắn. Nói bạn sẽ làm gì để sửa (ví dụ: nói sự thật).",
+          "h": "I'm sorry; I will + V / I will tell + N.",
+          "s": "I'm sorry I told the story. I will tell the truth to everyone."
+        },
+        {
+          "p": "How can we stop gossip in the team?",
+          "m": "Đề nghị một bước đơn giản (ví dụ: nói trực tiếp, không chia sẻ). Hỏi họ có đồng ý không.",
+          "h": "Let's + V; Do you agree + question?",
+          "s": "Let's ask people to speak directly. Do you agree with this idea?"
+        },
+        {
+          "p": "I feel lonely when people talk behind me.",
+          "m": "Nói bạn cần gì từ họ (ví dụ: lời xin lỗi, nói thật). Nói bạn sẽ làm gì tiếp theo.",
+          "h": "I need + N; I will + V / Please + V.",
+          "s": "I need an apology or a clear talk. I will speak with the person tomorrow."
+        }
+      ]
+    },
+    {
+      "t": "Khi có vấn đề về deadline bị trễ",
+      "e": [
+        {
+          "p": "The report was late and the client is unhappy.",
+          "m": "Nói bạn có hoàn thành kịp không. Nếu không, nói bạn sẽ làm gì ngay bây giờ.",
+          "h": "I finished / I didn't finish; I will + V now / I will send + N.",
+          "s": "I didn't finish on time. I will finish and send the report now."
+        },
+        {
+          "p": "I asked for help but no one answered.",
+          "m": "Nói bạn có thấy vậy không. Hỏi họ có thể trả lời nhanh hơn không.",
+          "h": "I saw that / I didn't see that; Can you + V faster?",
+          "s": "I saw no reply. Can you answer faster next time?"
+        },
+        {
+          "p": "We need a plan to meet all deadlines.",
+          "m": "Đề xuất một bước nhỏ bạn sẽ làm (ví dụ: ghi lịch). Hỏi họ có đồng ý không.",
+          "h": "I will + V; Do you agree + question?",
+          "s": "I will write a simple schedule. Do you agree to follow it?"
+        },
+        {
+          "p": "I am working on two tasks and both due today.",
+          "m": "Nói bạn cần ưu tiên cái nào. Hỏi họ có thể giúp với task khác không.",
+          "h": "I will + V first; Can you + V the other?",
+          "s": "I will finish the urgent task first. Can you help with the second task?"
+        },
+        {
+          "p": "If we miss the deadline again, we lose trust.",
+          "m": "Thừa nhận và hứa thay đổi. Nói một hành động bạn làm để tránh trễ tiếp.",
+          "h": "I am sorry; I will + V / I will check + N.",
+          "s": "I am sorry about this. I will check progress every day."
+        }
+      ]
+    },
+    {
+      "t": "Khi cần nói với quản lý về mâu thuẫn",
+      "e": [
+        {
+          "p": "There is a small problem between two team members.",
+          "m": "Nói ngắn bạn có biết vấn đề không. Yêu cầu gặp quản lý để nói chuyện.",
+          "h": "I know + short; Can we + V / I want + to + V.",
+          "s": "I know a small problem. I want to talk with you about it."
+        },
+        {
+          "p": "I tried to solve it but it is still there.",
+          "m": "Nói bạn đã làm gì. Hỏi quản lý giúp bằng cách nào (ví dụ: họp nhỏ).",
+          "h": "I tried + V; Can you + V / Please + V.",
+          "s": "I tried to talk with them. Can you arrange a short meeting?"
+        },
+        {
+          "p": "The team feels tense and work is slow.",
+          "m": "Nói cảm xúc chung ngắn. Đề nghị một bước quản lý có thể làm (ví dụ: họp đội).",
+          "h": "We feel + adj; Please + V / Maybe + V.",
+          "s": "We feel tense and slow. Please hold a team meeting to talk."
+        },
+        {
+          "p": "I am not blaming anyone, I want a fair fix.",
+          "m": "Nói bạn muốn công bằng. Hỏi quản lý làm gì tiếp theo.",
+          "h": "I want + N; What will you + V?",
+          "s": "I want a fair solution. What will you do next?"
+        },
+        {
+          "p": "Can you give simple advice to stop the problem?",
+          "m": "Hỏi xin một lời khuyên ngắn. Nói bạn sẽ làm theo nếu được.",
+          "h": "Please give + N; I will + V if you say so.",
+          "s": "Give one short advice, please. I will follow it."
+        }
+      ]
+    },
+    {
+      "t": "Khi trung gian giúp hòa giải",
+      "e": [
+        {
+          "p": "Can you help us talk? We need a calm person.",
+          "m": "Nói bạn sẵn sàng giúp hay không. Nếu có, nêu cách bạn giúp (nghe, đặt câu hỏi).",
+          "h": "I can + V; I will + V / I can listen and + V.",
+          "s": "I can help. I will listen and ask calm questions."
+        },
+        {
+          "p": "Both people want to say their view.",
+          "m": "Nói bạn sẽ cho mỗi người bao nhiêu phút. Nói bạn sẽ làm gì nếu họ cắt lời.",
+          "h": "We will give + time to each; If they interrupt I will + V.",
+          "s": "We will give two minutes to each person. If they interrupt I will ask them to stop."
+        },
+        {
+          "p": "One person is angry and speaks loudly.",
+          "m": "Hướng dẫn họ hạ giọng bằng cách nào đó. Nói bạn sẽ nhắc họ ra ngoài hay nói nhẹ nhàng.",
+          "h": "Please + V quietly; Let's + V / I will + V.",
+          "s": "Please speak quietly. I will ask you to step outside for a short talk."
+        },
+        {
+          "p": "They want a quick solution now.",
+          "m": "Đưa ra một giải pháp nhanh bạn đề xuất. Hỏi họ có đồng ý không.",
+          "h": "Let's + V; Do you agree + question?",
+          "s": "Let's make a simple plan for today. Do you agree with this plan?"
+        },
+        {
+          "p": "After the talk, do you want a follow up?",
+          "m": "Nói bạn muốn theo dõi hay không. Nếu có, nêu khi nào (ví dụ: tuần sau).",
+          "h": "Yes/No + I want + when; I will + V next week.",
+          "s": "Yes, I want a follow up. I will meet again next week."
+        }
+      ]
+    },
+    {
+      "t": "Giao tiếp khi chia sẻ thông tin sai",
+      "e": [
+        {
+          "p": "You told the team wrong information.",
+          "m": "Nói bạn có biết không. Nếu biết, xin lỗi và sửa thông tin.",
+          "h": "I know/ I didn't know; I'm sorry and I will + V.",
+          "s": "I didn't know it was wrong. I'm sorry and I will correct it now."
+        },
+        {
+          "p": "The client got the wrong time for the meeting.",
+          "m": "Nói bạn sẽ làm gì ngay (ví dụ: gọi lại). Hỏi họ có giúp không.",
+          "h": "I will + V now; Can you + V with me?",
+          "s": "I will call the client now. Can you help me call them?"
+        },
+        {
+          "p": "Please check facts before you tell others.",
+          "m": "Đồng ý hoặc xin thêm thời gian. Nói bạn sẽ làm gì để kiểm tra.",
+          "h": "I agree / I need time; I will + V to check.",
+          "s": "I agree to check facts. I will confirm with the source first."
+        },
+        {
+          "p": "I am sorry; I shared the wrong meeting link.",
+          "m": "Xin lỗi và gửi link đúng. Nói bạn sẽ làm gì để tránh lần sau.",
+          "h": "I'm sorry; I will send + N / I will check + N next time.",
+          "s": "I'm sorry for the wrong link. I will send the correct link and check next time."
+        },
+        {
+          "p": "We need a short rule for sharing info fast and correct.",
+          "m": "Đề xuất một bước đơn giản (ví dụ: double-check). Hỏi họ đồng ý không.",
+          "h": "Let's + V; Do you agree + question?",
+          "s": "Let's always double-check before we share. Do you agree with this rule?"
+        }
+      ]
+    },
+    {
+      "t": "Làm việc khi ai đó thường xuyên muộn trả lời",
+      "e": [
+        {
+          "p": "You often do not answer messages quickly.",
+          "m": "Nói bạn có thấy điều đó đúng không. Nêu ảnh hưởng ngắn (ví dụ: chậm việc).",
+          "h": "I see + N / It makes + N; I feel + adj.",
+          "s": "I see that I answer slowly. It makes work slow and I feel sorry."
+        },
+        {
+          "p": "Can you reply within one hour for urgent notes?",
+          "m": "Đồng ý hoặc xin thời gian khác. Nếu đồng ý, nói bạn sẽ cố gắng làm gì.",
+          "h": "Yes, I will + V / I can + V within + time.",
+          "s": "Yes, I will reply within one hour. I can check messages every hour."
+        },
+        {
+          "p": "I asked twice and you did not answer.",
+          "m": "Xin lỗi nếu bạn quên. Hứa trả lời nhanh hơn lần sau.",
+          "h": "I'm sorry; I will + V / I will set + N to remind me.",
+          "s": "I'm sorry I forgot. I will set an alarm to remind me."
+        },
+        {
+          "p": "We need quick answers for client work.",
+          "m": "Đề xuất cách đơn giản (ví dụ: tag người cần trả lời). Nói bạn sẽ làm gì.",
+          "h": "We can + V; I will + V / Please + V.",
+          "s": "We can tag the person in chat. I will tag you for urgent notes."
+        },
+        {
+          "p": "If you cannot answer, tell the team soon.",
+          "m": "Nói bạn sẽ báo khi bận. Nêu thời gian bạn sẽ trả lời (ví dụ: sau 2 giờ).",
+          "h": "I will + V when busy; I will answer in + time.",
+          "s": "I will tell the team when I am busy. I will answer in two hours."
+        }
+      ]
+    },
+    {
+      "t": "Ôn tập: Nói chuyện trực tiếp về mâu thuẫn",
+      "e": [
+        {
+          "p": "I feel stressed from that meeting yesterday.",
+          "m": "Nói bạn cảm thấy thế nào. Nêu một hành động bạn muốn người kia làm (ví dụ: xin lỗi, thay đổi cách nói).",
+          "h": "I feel + adj; I want + N / Please + V.",
+          "s": "I feel stressed after the meeting. I want you to speak more kindly, please."
+        },
+        {
+          "p": "They took my task without asking and I was late.",
+          "m": "Nói việc ai làm sai và ảnh hưởng. Yêu cầu một sửa đổi đơn giản (ví dụ: xin lỗi, trả lại task).",
+          "h": "They + V; It made + N; Please + V.",
+          "s": "They took my task without asking. It made me late; please return the task or say sorry."
+        },
+        {
+          "p": "Can you help me find a small solution now?",
+          "m": "Đề nghị một hỗ trợ cụ thể. Nói khi bạn cần xong (ví dụ: bây giờ, hôm nay).",
+          "h": "I need + N now; I will + V by + time.",
+          "s": "I need help to finish a page now. I will finish it today with your help."
+        },
+        {
+          "p": "We want calm chat and a clear rule for meetings.",
+          "m": "Đề xuất một quy tắc ngắn. Hỏi họ có đồng ý không.",
+          "h": "Let's + V; Do you agree + question?",
+          "s": "Let's keep meetings calm and short. Do you agree with the rule?"
+        },
+        {
+          "p": "After we talk, will you check your tone?",
+          "m": "Hỏi họ có thay đổi không. Nói bạn sẽ theo dõi và cảm ơn nếu họ thay đổi.",
+          "h": "Will you + V?; I will + V and thank you.",
+          "s": "Will you check your tone after this? I will watch and thank you if you change."
+        }
+      ]
+    },
+    {
+      "t": "Ôn tập: Gợi ý giải pháp và thỏa hiệp",
+      "e": [
+        {
+          "p": "We both want the quiet room at the same time.",
+          "m": "Nêu bạn muốn gì. Đề nghị một thỏa hiệp ngắn (ví dụ: chia giờ).",
+          "h": "I want + N; We can + V / Let's + V.",
+          "s": "I want the room in the morning. We can share it and swap at noon."
+        },
+        {
+          "p": "I always finish my work late because of extra tasks.",
+          "m": "Nói bạn cần giúp. Hỏi họ có thể nhận một task không.",
+          "h": "I need + help; Can you + V?",
+          "s": "I need help with extra tasks. Can you take one task this week?"
+        },
+        {
+          "p": "People speak loudly and some need quiet time.",
+          "m": "Đề nghị một giải pháp đơn giản (ví dụ: dùng tai nghe, đặt giờ yên tĩnh). Hỏi họ có đồng ý không.",
+          "h": "Maybe + V; Do you agree + question?",
+          "s": "Maybe use headphones or have quiet hours. Do you agree with this idea?"
+        },
+        {
+          "p": "If someone makes a mistake, what do we do?",
+          "m": "Đề xuất một bước đơn giản (ví dụ: xin lỗi, sửa lỗi). Nói bạn sẽ làm gì khi xảy ra lỗi.",
+          "h": "We will + V; I will + V / Please + V.",
+          "s": "We will say sorry and fix the error. I will help fix it now."
+        },
+        {
+          "p": "We want to avoid gossip and be fair.",
+          "m": "Đề xuất một hành động cụ thể (ví dụ: nói chuyện trực tiếp). Hỏi họ có làm theo không.",
+          "h": "Let's + V; Will you + V?",
+          "s": "Let's ask people to speak directly. Will you do this with me?"
+        }
+      ]
+    },
+    {
+      "t": "Ôn tập: Kết thúc tranh chấp và theo dõi",
+      "e": [
+        {
+          "p": "Are you okay after our talk this morning?",
+          "m": "Nói bạn có ổn không. Nếu có vấn đề, nêu ngắn điều bạn cần tiếp theo.",
+          "h": "I am + adj; I need + N / I will + V.",
+          "s": "I am feeling better now. I need one more chat tomorrow."
+        },
+        {
+          "p": "We agreed on a simple plan. Will you follow it?",
+          "m": "Xác nhận bạn sẽ làm theo. Nói khi bạn sẽ bắt đầu (ví dụ: ngày mai).",
+          "h": "I will + V; I will start + when.",
+          "s": "I will follow the plan. I will start tomorrow."
+        },
+        {
+          "p": "Can we check the progress after one week?",
+          "m": "Đồng ý hoặc đề xuất thời gian khác. Nói bạn sẽ chuẩn bị gì cho buổi check.",
+          "h": "Yes, we can + V; I will + V / No, let's + V.",
+          "s": "Yes, we can check after one week. I will prepare a short note for the meeting."
+        },
+        {
+          "p": "Thank you for listening and trying to change.",
+          "m": "Cảm ơn ngắn. Hứa bạn cũng sẽ cố gắng theo quy tắc mới.",
+          "h": "Thank you; I will + V too.",
+          "s": "Thank you for listening. I will try to follow the new rule too."
+        },
+        {
+          "p": "If the problem returns, we will meet again.",
+          "m": "Nói bạn đồng ý gặp lại nếu cần. Nêu thời gian bạn thuận tiện (ví dụ: tuần sau).",
+          "h": "I agree; I can + V next week / I will + V if needed.",
+          "s": "I agree to meet again if needed. I can meet next week."
+        }
+      ]
+    }
+  ]
+}

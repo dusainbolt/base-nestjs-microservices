@@ -1,0 +1,530 @@
+{
+  "l": 3,
+  "d": [
+    {
+      "t": "Giới thiệu trong team mới",
+      "e": [
+        {
+          "p": "What's your name and role in the team?",
+          "m": "Nói tên của bạn. Nói vai trò chính của bạn trong team.",
+          "h": "I am / My name is + [studentName] và vai trò bằng Present Simple",
+          "s": "My name is [studentName]. I am a product designer in the team."
+        },
+        {
+          "p": "Which project will you work on this month?",
+          "m": "Nói tên project bạn phụ trách. Nói một nhiệm vụ chính bạn sẽ làm.",
+          "h": "Use 'I will' or 'I'm going to' + V",
+          "s": "I will work on the mobile app redesign. I will update the user flow."
+        },
+        {
+          "p": "What experience do you have for this task?",
+          "m": "Nói một công việc tương tự bạn đã làm trước đây. Nói kết quả ngắn bạn đạt được.",
+          "h": "Past Simple (I worked, I improved) và then/so để nối ý",
+          "s": "I worked on a similar app last year. It improved user retention by five percent."
+        },
+        {
+          "p": "When can you start the task?",
+          "m": "Nói khi bạn bắt đầu. Nói bạn sẽ làm trong bao lâu (ước lượng).",
+          "h": "Use 'I will start' và 'It will take' hoặc 'in two days/weeks'.",
+          "s": "I will start on Monday. It will take about two weeks."
+        },
+        {
+          "p": "Do you need any help or tools to start?",
+          "m": "Nói có cần giúp hay không. Nếu cần, nêu cụ thể thứ bạn cần.",
+          "h": "Yes/No + need + because + noun",
+          "s": "Yes, I need the design files because I need the latest icons. I also need access to the dev server."
+        }
+      ]
+    },
+    {
+      "t": "Thảo luận nhiệm vụ đầu tiên",
+      "e": [
+        {
+          "p": "Can you list your first three tasks?",
+          "m": "Liệt kê ba nhiệm vụ ngắn. Dùng câu ngắn cho mỗi nhiệm vụ.",
+          "h": "Use Present Simple hoặc 'I will' cho kế hoạch",
+          "s": "Fix the login bug. Update the landing page. Write the API spec."
+        },
+        {
+          "p": "Which task is the highest priority?",
+          "m": "Nói nhiệm vụ ưu tiên nhất. Nói lý do ngắn vì sao.",
+          "h": "Use 'is' + because hoặc 'so' để nối lý do",
+          "s": "Fix the login bug is the highest priority because users cannot sign in. It blocks other tests."
+        },
+        {
+          "p": "Who should review your first task?",
+          "m": "Đề nghị một đồng đội kiểm tra. Nói lý do ngắn cho lựa chọn đó.",
+          "h": "Use 'should' + V và because",
+          "s": "Anna should review it because she knows the auth code. She reviewed similar fixes before."
+        },
+        {
+          "p": "Will you finish the first task before the meeting?",
+          "m": "Trả lời có/không. Nếu không, nêu khi bạn sẽ xong.",
+          "h": "Use 'Yes, I will' hoặc 'No, I won't' + then 'I will finish by...'",
+          "s": "No, I won't finish before the meeting. I will finish by Wednesday."
+        },
+        {
+          "p": "Do you need any info from the product owner?",
+          "m": "Nói nếu bạn cần thông tin. Nêu rõ thông tin cụ thể bạn cần.",
+          "h": "Use 'I need' + noun phrase and because",
+          "s": "I need the final acceptance criteria because we must know the exact behavior. I also need the data sample."
+        }
+      ]
+    },
+    {
+      "t": "Cập nhật tiến độ hàng ngày",
+      "e": [
+        {
+          "p": "What's your status today?",
+          "m": "Nói bạn đang làm gì ngay bây giờ. Nói một bước bạn đã hoàn thành hôm qua.",
+          "h": "Present Continuous cho việc đang làm, Past Simple cho việc đã xong",
+          "s": "I'm testing the new feature now. I fixed the CSS issue yesterday."
+        },
+        {
+          "p": "How much of the task is done?",
+          "m": "Nói phần trăm hoặc mô tả ngắn. Nói bước tiếp theo bạn sẽ làm.",
+          "h": "Use 'about X%' hoặc 'half' và 'then I will' để nối",
+          "s": "About fifty percent is done. Then I will write unit tests."
+        },
+        {
+          "p": "Are there any small problems today?",
+          "m": "Nói có/không về vấn đề nhỏ. Nếu có, mô tả ngắn vấn đề.",
+          "h": "Use 'Yes, there is/are' hoặc 'No, there isn't/aren't' và short description",
+          "s": "Yes, there is a caching issue. The page sometimes shows old data."
+        },
+        {
+          "p": "Should we change the task order today?",
+          "m": "Đưa ý kiến có nên đổi thứ tự hay không. Nêu lý do ngắn.",
+          "h": "Use 'We should' hoặc 'We shouldn't' + because",
+          "s": "We should change the order because testing needs stable data first. That will save time."
+        },
+        {
+          "p": "Can you finish testing by end of day?",
+          "m": "Trả lời có/không. Nếu không, cho biết khi nào bạn sẽ xong.",
+          "h": "Use 'Yes, I can' hoặc 'No, I can't' + 'I will finish by...'",
+          "s": "No, I can't finish by end of day. I will finish by tomorrow morning."
+        }
+      ]
+    },
+    {
+      "t": "Báo cáo vấn đề (blocker)",
+      "e": [
+        {
+          "p": "I found a blocker on the API, can you explain it?",
+          "m": "Nói ngắn lỗi bạn thấy. Nói ngắn tác động của lỗi đó lên công việc.",
+          "h": "Use Past Simple or Present Simple + because/so",
+          "s": "The API returns a 500 error on login. This blocks user testing so we cannot check the feature."
+        },
+        {
+          "p": "When did the blocker start?",
+          "m": "Nói thời gian bắt đầu lỗi (hôm nay/hôm qua). Nói bạn đã làm gì ngay sau khi thấy lỗi.",
+          "h": "Use Past Simple (started, I tried) và then",
+          "s": "It started yesterday. I tried to restart the service and then I reported it."
+        },
+        {
+          "p": "Who should we ask to fix the blocker?",
+          "m": "Gợi ý ai sẽ sửa. Nói vì sao người đó phù hợp.",
+          "h": "Use 'We should ask + name/role' and because",
+          "s": "We should ask the backend engineer because they know the API code. They fixed similar bugs before."
+        },
+        {
+          "p": "Do you think the blocker will delay the release?",
+          "m": "Đưa dự đoán có trễ hay không. Nêu ngắn lý do.",
+          "h": "Use 'It will' or 'It won't' + because/so",
+          "s": "It might delay the release because tests cannot run. We need a hotfix first."
+        },
+        {
+          "p": "What help do you need to remove the blocker?",
+          "m": "Nêu hai hỗ trợ bạn cần (người hoặc tài nguyên).",
+          "h": "Use 'I need' + two short items, use 'and' để nối",
+          "s": "I need a backend review and access to the logs. Both are necessary to find the cause."
+        }
+      ]
+    },
+    {
+      "t": "Phân công công việc",
+      "e": [
+        {
+          "p": "Can you take the UI task?",
+          "m": "Trả lời có/không. Nếu có, nêu khi bạn bắt đầu.",
+          "h": "Yes/No + I will start on... hoặc I can't because...",
+          "s": "Yes, I can take the UI task. I will start on Tuesday."
+        },
+        {
+          "p": "Who will write the tests?",
+          "m": "Đề xuất một người hoặc bạn nhận làm. Nói ngắn vì sao.",
+          "h": "Use 'I will' hoặc 'X should' + because",
+          "s": "I will write the tests because I wrote the components. It will be faster."
+        },
+        {
+          "p": "Can we split the task in two parts?",
+          "m": "Trả lời có/không. Nếu có, mô tả ngắn hai phần.",
+          "h": "Use 'Yes, we can' and 'Part one... and Part two...'",
+          "s": "Yes, we can split it. Part one is design and part two is development."
+        },
+        {
+          "p": "Should someone pair with the new teammate?",
+          "m": "Đưa ý kiến có nên pair hay không. Nêu người phù hợp ngắn.",
+          "h": "Use 'We should' + name/role and because",
+          "s": "We should pair with John because he knows the code base. He can teach quickly."
+        },
+        {
+          "p": "What is the deadline for each assigned part?",
+          "m": "Nêu deadline cho phần 1. Nêu deadline cho phần 2.",
+          "h": "Use 'by' + day/date and Present Simple or 'I will finish by...'",
+          "s": "Part one should be done by Friday. Part two should be done by next Wednesday."
+        }
+      ]
+    },
+    {
+      "t": "Sắp xếp họp ngắn",
+      "e": [
+        {
+          "p": "Can we have a quick sync at 3 pm?",
+          "m": "Trả lời có/không. Nếu không được, đề xuất thời gian khác.",
+          "h": "Use 'Yes, I can' hoặc 'No, I can't' + 'how about...'? ",
+          "s": "No, I can't at 3 pm. How about 4 pm?"
+        },
+        {
+          "p": "How long should the meeting be?",
+          "m": "Đề xuất thời lượng ngắn. Nói mục đích chính của cuộc họp.",
+          "h": "Use 'It should be' + minutes and 'to' + V",
+          "s": "It should be 15 minutes to update the status. We only need quick notes."
+        },
+        {
+          "p": "Who needs to join the meeting?",
+          "m": "Liệt kê hai vai trò cần tham gia. Nói lý do ngắn cho mỗi vai trò.",
+          "h": "Use Present Simple và because để nêu lý do",
+          "s": "The backend lead should join because of the API, and the QA should join to plan tests."
+        },
+        {
+          "p": "Can you prepare a short agenda?",
+          "m": "Trả lời có/không. Nếu có, liệt kê 2 mục chính trong agenda.",
+          "h": "Yes/No + I will and then list two short items",
+          "s": "Yes, I can prepare it. First, status update; second, next steps."
+        },
+        {
+          "p": "Should we record the meeting notes?",
+          "m": "Đưa ý kiến có nên ghi chú hay không. Nêu ai sẽ chịu trách nhiệm ghi.",
+          "h": "Use 'We should' hoặc 'We shouldn't' + name/role",
+          "s": "We should record notes and Anna will take them. She types after the meeting."
+        }
+      ]
+    },
+    {
+      "t": "Thảo luận deadline",
+      "e": [
+        {
+          "p": "Is the current deadline realistic?",
+          "m": "Trả lời có/không. Nêu một lý do ngắn cho nhận định của bạn.",
+          "h": "Use 'Yes, it is' or 'No, it isn't' + because",
+          "s": "No, it isn't realistic because we have more bugs than expected. We need more time."
+        },
+        {
+          "p": "Can we extend the deadline by two days?",
+          "m": "Trả lời có/không. Nếu có, đề xuất ngày mới.",
+          "h": "Use 'Yes, we can' or 'No, we can't' + 'by' + date",
+          "s": "Yes, we can extend it. The new deadline is next Friday."
+        },
+        {
+          "p": "What tasks can be postponed to meet the deadline?",
+          "m": "Chỉ ra một nhiệm vụ có thể hoãn. Nói lý do ngắn tại sao hoãn được.",
+          "h": "Use 'We can postpone' + task + because",
+          "s": "We can postpone the analytics report because it is not required for launch. We will do it later."
+        },
+        {
+          "p": "Will extra testers speed up the release?",
+          "m": "Đưa ý kiến có/không. Nêu lý do ngắn.",
+          "h": "Use 'They will' or 'They won't' + because/so",
+          "s": "They will help because more tests finish faster. This reduces blocking time."
+        },
+        {
+          "p": "Who must approve a new deadline?",
+          "m": "Nêu người hoặc vai trò cần cho phép. Nói ngắn vì sao họ cần xét duyệt.",
+          "h": "Use 'The product manager must' or 'We must ask' + role",
+          "s": "The product manager must approve because they own the roadmap. They decide launch dates."
+        }
+      ]
+    },
+    {
+      "t": "Hỗ trợ và chia sẻ tài nguyên",
+      "e": [
+        {
+          "p": "Can you share the design files?",
+          "m": "Trả lời có/không. Nếu có, nói cách bạn sẽ gửi files.",
+          "h": "Yes/No + I will + by/email/link",
+          "s": "Yes, I can share the design files. I will send them by email."
+        },
+        {
+          "p": "Do you have a sample dataset for testing?",
+          "m": "Trả lời có/không. Nếu có, mô tả ngắn dataset (dung lượng hoặc loại).",
+          "h": "Use 'Yes, I have' or 'No, I don't' + short description",
+          "s": "Yes, I have a small sample dataset. It has 100 user records."
+        },
+        {
+          "p": "How should we store shared resources?",
+          "m": "Đề xuất nơi lưu trữ. Nêu lợi ích ngắn của cách đó.",
+          "h": "Use 'We should' + location and because",
+          "s": "We should store them in the team drive because everyone can access them. It keeps files organized."
+        },
+        {
+          "p": "Can you train a teammate on the tool?",
+          "m": "Trả lời có/không. Nếu có, nêu khi nào và trong bao lâu.",
+          "h": "Use 'I can' + time and duration 'for 1 hour' or 'next week'",
+          "s": "I can train a teammate next Wednesday. The session will be one hour."
+        },
+        {
+          "p": "Which resource is more useful, docs or videos?",
+          "m": "So sánh ngắn giữa docs và videos. Nói lựa chọn của bạn và lý do ngắn.",
+          "h": "Use comparatives: more useful / because",
+          "s": "Docs are more useful for quick lookups because they are easy to search. Videos are better for live demos."
+        }
+      ]
+    },
+    {
+      "t": "So sánh hai cách làm",
+      "e": [
+        {
+          "p": "Should we do manual testing or automated testing first?",
+          "m": "Nói lựa chọn bạn ủng hộ. Nêu một lý do ngắn.",
+          "h": "Use 'should' + V và because",
+          "s": "We should do automated testing first because it checks many cases quickly. Manual testing can follow."
+        },
+        {
+          "p": "Which approach is faster for small changes?",
+          "m": "Trả lời chọn cách nhanh hơn. Nêu lý do ngắn.",
+          "h": "Use comparative: faster / because",
+          "s": "Manual testing is faster for small changes because it needs fewer setups. Automation takes more time initially."
+        },
+        {
+          "p": "Is the new design simpler than the old one?",
+          "m": "Trả lời có/không. Nêu một khác biệt cụ thể.",
+          "h": "Use 'is' + comparative 'simpler' and 'because' + detail",
+          "s": "Yes, it is simpler because it has fewer buttons. The layout is cleaner."
+        },
+        {
+          "p": "Will switching tools cost more time?",
+          "m": "Đưa dự đoán có tốn thời gian không. Nêu ngắn lý do.",
+          "h": "Use 'It will' or 'It won't' + because",
+          "s": "It will cost more time because training is needed. We must migrate data too."
+        },
+        {
+          "p": "Which method would you recommend and why?",
+          "m": "Đưa ra đề xuất một phương pháp. Nói hai lý do ngắn hỗ trợ đề xuất.",
+          "h": "Use Present Simple + two short reasons connected by 'and' or 'because'",
+          "s": "I recommend automated tests because they catch regressions and save time later. They also run overnight."
+        }
+      ]
+    },
+    {
+      "t": "Lên kế hoạch cho sprint tiếp theo",
+      "e": [
+        {
+          "p": "What are the top three goals for next sprint?",
+          "m": "Liệt kê ba mục tiêu ngắn. Mỗi mục một câu ngắn.",
+          "h": "Use Future Simple or Present Simple for goals",
+          "s": "Improve login performance. Add user profile page. Fix reported bugs."
+        },
+        {
+          "p": "How many story points can you take?",
+          "m": "Nói số điểm bạn nhận. Nói nếu con số đó hơn hoặc ít hơn bình thường.",
+          "h": "Use 'I can take' + number and comparative 'more/less than usual'",
+          "s": "I can take eight story points. That is less than usual because I have meetings."
+        },
+        {
+          "p": "Should we include refactoring in the sprint?",
+          "m": "Trả lời có/không. Nêu một lợi ích nếu có.",
+          "h": "Use 'We should' + benefit",
+          "s": "We should include refactoring because it will reduce bugs later. It keeps code clean."
+        },
+        {
+          "p": "Who will lead the sprint planning?",
+          "m": "Nêu người hoặc vai trò sẽ dẫn. Nói lý do ngắn.",
+          "h": "Use 'X will' hoặc 'The X will' + because",
+          "s": "The scrum master will lead planning because they manage the process. They organize timeboxes."
+        },
+        {
+          "p": "What risks do you see for next sprint?",
+          "m": "Nêu hai rủi ro ngắn. Mỗi rủi ro một câu.",
+          "h": "Use 'Risk: ' + short clause; use 'and' để nối",
+          "s": "Risk: key API may be unstable. Risk: team members are on leave next week."
+        }
+      ]
+    },
+    {
+      "t": "Phản hồi công việc của đồng đội",
+      "e": [
+        {
+          "p": "I finished the UI, can you review it?",
+          "m": "Trả lời có/không về việc bạn sẽ review. Nêu khi nào bạn review.",
+          "h": "Yes/No + I will review + time",
+          "s": "Yes, I will review it today. I will send comments this afternoon."
+        },
+        {
+          "p": "What do you think about the color choice?",
+          "m": "Đưa ý kiến ngắn (tốt/không tốt). Nêu một lý do ngắn.",
+          "h": "Use 'It looks' hoặc 'It is' + adjective and because",
+          "s": "It looks good because the colors are calm and match the brand. They improve readability."
+        },
+        {
+          "p": "Can you suggest one improvement?",
+          "m": "Đưa một đề xuất cải tiến ngắn. Nói lý do ngắn cho đề xuất đó.",
+          "h": "Use Imperative or 'You could' + reason",
+          "s": "You could make the button bigger for mobile users. It will be easier to tap."
+        },
+        {
+          "p": "Is the current UI faster than the old version?",
+          "m": "So sánh ngắn: nhanh hơn hay chậm hơn. Nêu bằng chứng ngắn nếu có.",
+          "h": "Use comparative 'faster/slower' and because",
+          "s": "It is faster because images load quicker. The page opens in two seconds now."
+        },
+        {
+          "p": "Should we accept this change now or after tests?",
+          "m": "Đưa ý kiến nên chấp nhận hay chờ kiểm tra. Nêu lý do ngắn.",
+          "h": "Use 'We should' + V and because",
+          "s": "We should accept it after tests because tests will find hidden issues. Then we can release safely."
+        }
+      ]
+    },
+    {
+      "t": "Chuẩn bị báo cáo tổng kết",
+      "e": [
+        {
+          "p": "Can you write a short summary of this week?",
+          "m": "Trả lời có/không. Nếu có, viết 1 câu tóm tắt ngắn (2 ý: việc đã làm và kết quả).",
+          "h": "Past Simple + result; keep it to two ideas in one or two sentences",
+          "s": "We fixed three major bugs and deployed the update. The release improved stability."
+        },
+        {
+          "p": "What metrics should we include in the report?",
+          "m": "Đề xuất hai chỉ số ngắn. Mỗi chỉ số một câu ngắn giải thích tại sao.",
+          "h": "Use simple nouns like 'errors, uptime' and 'because'",
+          "s": "Include error rate because it shows stability. Include response time because it shows performance."
+        },
+        {
+          "p": "Who will review the report before sending?",
+          "m": "Nêu người/ vai trò kiểm tra. Nói vì sao họ phù hợp.",
+          "h": "Use 'X will' hoặc 'The X should' + because",
+          "s": "The team lead will review it because they know the priorities. They will check numbers."
+        },
+        {
+          "p": "Should we attach logs to the report?",
+          "m": "Trả lời có/không. Nêu lý do ngắn cho quyết định.",
+          "h": "Use 'We should' or 'We shouldn't' + because",
+          "s": "We should attach key logs because they help debugging. Full logs are too large though."
+        },
+        {
+          "p": "When will you send the final report?",
+          "m": "Nói thời điểm bạn sẽ gửi. Nói thêm khi nào người nhận nhận được phản hồi (ước lượng).",
+          "h": "Use 'I will send' + by/time and 'They will reply by...' hoặc 'in...'",
+          "s": "I will send the report by Friday morning. They will reply in one or two days."
+        }
+      ]
+    },
+    {
+      "t": "Ôn tập: Tương tác cơ bản trong team",
+      "e": [
+        {
+          "p": "Introduce yourself to the team in one sentence and say your first task.",
+          "m": "Nói tên và vai trò. Nói nhiệm vụ đầu tiên của bạn.",
+          "h": "Use Present Simple and 'I will' for task",
+          "s": "My name is [studentName] and I am a QA engineer. I will test the login flow."
+        },
+        {
+          "p": "A teammate asks for help with a bug, reply if you can help and when.",
+          "m": "Trả lời có/không. Nếu có, nêu khi bạn sẽ giúp.",
+          "h": "Yes/No + I can help + time",
+          "s": "Yes, I can help this afternoon. I will check the bug at 3 pm."
+        },
+        {
+          "p": "Report you completed a task and state one result.",
+          "m": "Nói bạn đã xong. Nói một kết quả ngắn.",
+          "h": "Past Simple + result with 'so' or 'and'",
+          "s": "I completed the UI update yesterday. It reduced load time and improved layout."
+        },
+        {
+          "p": "Say one blocker you saw and who to ask.",
+          "m": "Nêu lỗi/blocker. Nêu người bạn sẽ hỏi để sửa.",
+          "h": "Use 'There is/are' and 'ask' + role",
+          "s": "There is a missing API token. Ask the backend engineer to check it."
+        },
+        {
+          "p": "Propose a short meeting time and one agenda item.",
+          "m": "Đề xuất thời gian họp. Nêu một mục chính của agenda.",
+          "h": "Use 'Let's' or 'How about' + time and 'to' + V",
+          "s": "How about a 10-minute meeting at 2 pm? We will discuss the release checklist."
+        }
+      ]
+    },
+    {
+      "t": "Ôn tập: Giải quyết vấn đề và hỗ trợ",
+      "e": [
+        {
+          "p": "Describe a small problem you fixed today.",
+          "m": "Nói vấn đề ngắn. Nói bạn làm gì để sửa.",
+          "h": "Past Simple + then/so",
+          "s": "The app crashed on signup. I restarted the service and fixed a config file."
+        },
+        {
+          "p": "Ask for help from UX about a confusing page.",
+          "m": "Yêu cầu giúp đỡ ngắn. Nêu phần bạn thấy khó hiểu.",
+          "h": "Use 'Can you' or 'Could you' + help and mention the part",
+          "s": "Can you help with the settings page? The labels are confusing for users."
+        },
+        {
+          "p": "Offer to share a resource and say how you will send it.",
+          "m": "Đề nghị chia sẻ tài nguyên. Nói cách bạn sẽ gửi.",
+          "h": "Use 'I can share' + resource and 'I will send by...' ",
+          "s": "I can share the test script. I will send it by chat."
+        },
+        {
+          "p": "Tell a teammate they must check logs before reporting a bug.",
+          "m": "Ra lệnh nhẹ nhàng rằng họ phải làm điều đó. Nói lý do ngắn.",
+          "h": "Use 'You must' or 'Please' + V and because",
+          "s": "You must check the logs before reporting because logs show the error details. That helps debugging."
+        },
+        {
+          "p": "Suggest two quick steps to unblock a task.",
+          "m": "Nêu hai bước ngắn theo thứ tự. Mỗi bước một câu.",
+          "h": "Use imperative or 'First... then...' to show sequence",
+          "s": "First, restart the service to clear the cache. Then, ask the backend to check the error logs."
+        }
+      ]
+    },
+    {
+      "t": "Ôn tập: Kế hoạch và deadline",
+      "e": [
+        {
+          "p": "State one goal and its deadline.",
+          "m": "Nói mục tiêu ngắn. Nêu deadline rõ ràng.",
+          "h": "Use 'should be done by' or 'by' + date/day",
+          "s": "Finish the profile page by next Monday."
+        },
+        {
+          "p": "Explain one task you will do and why it matters for the deadline.",
+          "m": "Nói nhiệm vụ bạn sẽ làm. Nói vì sao nhiệm vụ đó quan trọng cho deadline.",
+          "h": "Use 'I will' + reason with 'because' or 'so'",
+          "s": "I will complete the API integration because it is required for the final tests."
+        },
+        {
+          "p": "Say if the deadline is realistic and give one reason.",
+          "m": "Trả lời có/không. Nêu một lý do ngắn.",
+          "h": "Use 'Yes, it is' / 'No, it isn't' + because",
+          "s": "No, it isn't realistic because we need more testing time."
+        },
+        {
+          "p": "Ask the product manager to approve a new deadline.",
+          "m": "Yêu cầu phê duyệt deadline mới. Nêu deadline bạn đề xuất.",
+          "h": "Use 'Can you approve' + date and 'because' optional",
+          "s": "Can you approve a new deadline of Friday next week? We need two more days for QA."
+        },
+        {
+          "p": "Propose one way to speed up work and say who will do it.",
+          "m": "Đề xuất một cách nhanh. Nói ai sẽ làm việc đó.",
+          "h": "Use 'We can' + V and 'X will' or 'I will' to assign",
+          "s": "We can run tests in parallel to speed up work. The QA team will set this up."
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,530 @@
+{
+  "l": 1,
+  "d": [
+    {
+      "t": "Gặp người mới",
+      "e": [
+        {
+          "p": "What's your name?",
+          "m": "Nói tên của bạn.",
+          "h": "I am / My name is + [studentName]",
+          "s": "I am [studentName]."
+        },
+        {
+          "p": "How old are you?",
+          "m": "Nói tuổi của bạn.",
+          "h": "I am + number + years old",
+          "s": "I am [studentAge] years old."
+        },
+        {
+          "p": "Which city do you live in?",
+          "m": "Nói thành phố bạn sống.",
+          "h": "I live in + [studentCity]",
+          "s": "I live in [studentCity]."
+        },
+        {
+          "p": "What is your job?",
+          "m": "Nói nghề nghiệp hoặc là học sinh.",
+          "h": "I am a + job / I am a student",
+          "s": "I am a [studentJob]."
+        },
+        {
+          "p": "Do you have brothers or sisters?",
+          "m": "Nói có anh/chị/em không (một câu).",
+          "h": "I have / I do not have + a/an + brother/sister",
+          "s": "I have one sister."
+        }
+      ]
+    },
+    {
+      "t": "Nói về gia đình",
+      "e": [
+        {
+          "p": "Who is in your family?",
+          "m": "Nói một người trong gia đình (ví dụ: mother).",
+          "h": "Use: I have + a/an + family noun",
+          "s": "I have a mother."
+        },
+        {
+          "p": "How many people are in your family?",
+          "m": "Nói tổng số người trong gia đình.",
+          "h": "There are + number + people",
+          "s": "There are four people in my family."
+        },
+        {
+          "p": "Do you live with your family?",
+          "m": "Nói có sống với gia đình hay không.",
+          "h": "I live with / I do not live with",
+          "s": "I live with my parents."
+        },
+        {
+          "p": "Who is your best family friend at home?",
+          "m": "Nói tên người thân hoặc vai trò (ví dụ: father).",
+          "h": "Use: My + relation + is + noun",
+          "s": "My father is my best family friend."
+        },
+        {
+          "p": "Do you have a pet at home?",
+          "m": "Nói có thú cưng hay không và loại (một câu).",
+          "h": "I have / I do not have + a/an + pet",
+          "s": "I have a dog."
+        }
+      ]
+    },
+    {
+      "t": "Ở trường",
+      "e": [
+        {
+          "p": "Where do you study?",
+          "m": "Nói tên trường hoặc nơi bạn học.",
+          "h": "I study at + [studentSchool] / I study in + place",
+          "s": "I study at [studentSchool]."
+        },
+        {
+          "p": "What class are you in?",
+          "m": "Nói lớp học hiện tại (một câu).",
+          "h": "I am in class + number or name",
+          "s": "I am in class 5."
+        },
+        {
+          "p": "Do you like your school?",
+          "m": "Nói bạn có thích trường không (một câu).",
+          "h": "I like / I do not like + school",
+          "s": "I like my school."
+        },
+        {
+          "p": "What time do you go to school?",
+          "m": "Nói giờ bạn đi học (một câu).",
+          "h": "I go to school at + time word (morning)",
+          "s": "I go to school in the morning."
+        },
+        {
+          "p": "Who is your teacher?",
+          "m": "Nói nghề hoặc người dạy (ví dụ: my English teacher).",
+          "h": "Use: My + subject + teacher is + name/role",
+          "s": "My English teacher is kind."
+        }
+      ]
+    },
+    {
+      "t": "Công việc hàng ngày",
+      "e": [
+        {
+          "p": "What do you do every day?",
+          "m": "Nói một hoạt động bạn làm mỗi ngày.",
+          "h": "Use: I + verb (go/study/play) + every day",
+          "s": "I go to school every day."
+        },
+        {
+          "p": "Do you study in the morning or at night?",
+          "m": "Nói bạn học vào buổi sáng hay buổi tối.",
+          "h": "Use: I study in the morning / at night",
+          "s": "I study in the morning."
+        },
+        {
+          "p": "Can you cook?",
+          "m": "Nói bạn có thể nấu ăn hay không (một câu).",
+          "h": "Use: I can / I cannot + verb",
+          "s": "I can cook simple food."
+        },
+        {
+          "p": "How do you go to school?",
+          "m": "Nói phương tiện bạn đi học (một câu).",
+          "h": "Use: I go by + walking/car/bike",
+          "s": "I go by bike."
+        },
+        {
+          "p": "What do you do after school?",
+          "m": "Nói một hoạt động bạn làm sau giờ học.",
+          "h": "Use: I + verb (play/study/help) + after school",
+          "s": "I play with my friends after school."
+        }
+      ]
+    },
+    {
+      "t": "Sở thích đơn giản",
+      "e": [
+        {
+          "p": "What is your favorite hobby?",
+          "m": "Nói một sở thích yêu thích.",
+          "h": "Use: I like + noun/verb+ing",
+          "s": "I like reading books."
+        },
+        {
+          "p": "Do you play sports?",
+          "m": "Nói có chơi thể thao không (một câu).",
+          "h": "I play / I do not play + sport",
+          "s": "I play football."
+        },
+        {
+          "p": "What do you do on weekends?",
+          "m": "Nói một hoạt động cuối tuần.",
+          "h": "Use: I + verb + on weekends",
+          "s": "I visit my grandparents on weekends."
+        },
+        {
+          "p": "Can you sing?",
+          "m": "Nói bạn có thể hát không (một câu).",
+          "h": "I can / I cannot + verb",
+          "s": "I can sing a little."
+        },
+        {
+          "p": "Which game do you like?",
+          "m": "Nói tên một trò chơi bạn thích.",
+          "h": "Use: I like + game",
+          "s": "I like the game football."
+        }
+      ]
+    },
+    {
+      "t": "Thực phẩm yêu thích",
+      "e": [
+        {
+          "p": "What is your favorite food?",
+          "m": "Nói món ăn yêu thích.",
+          "h": "I like + food / My favorite food is + food",
+          "s": "My favorite food is rice."
+        },
+        {
+          "p": "Do you like fruit?",
+          "m": "Nói có thích trái cây không (một câu).",
+          "h": "I like / I do not like + fruit",
+          "s": "I like fruit."
+        },
+        {
+          "p": "What do you eat for breakfast?",
+          "m": "Nói một món bạn ăn sáng.",
+          "h": "Use: I eat + food + for breakfast",
+          "s": "I eat bread for breakfast."
+        },
+        {
+          "p": "Do you drink milk every day?",
+          "m": "Nói có uống sữa hàng ngày không (một câu).",
+          "h": "I drink / I do not drink + milk every day",
+          "s": "I drink milk every day."
+        },
+        {
+          "p": "Which color of apple do you like?",
+          "m": "Nói màu táo bạn thích (red/green).",
+          "h": "I like + color + apples",
+          "s": "I like red apples."
+        }
+      ]
+    },
+    {
+      "t": "Màu sắc và đồ vật",
+      "e": [
+        {
+          "p": "What color is your bag?",
+          "m": "Nói màu túi của bạn.",
+          "h": "Use: My bag is + color",
+          "s": "My bag is blue."
+        },
+        {
+          "p": "Is your book new or old?",
+          "m": "Nói sách của bạn mới hay cũ (một câu).",
+          "h": "Use: My book is new / old",
+          "s": "My book is new."
+        },
+        {
+          "p": "How many books do you have?",
+          "m": "Nói số sách bạn có (một câu).",
+          "h": "I have + number + books",
+          "s": "I have three books."
+        },
+        {
+          "p": "Do you have a red pencil?",
+          "m": "Nói có cây bút chì đỏ không (một câu).",
+          "h": "I have / I do not have + a/an + red pencil",
+          "s": "I have a red pencil."
+        },
+        {
+          "p": "Where is your pencil case?",
+          "m": "Nói vị trí hộp bút (ví dụ: on the table).",
+          "h": "Use: It is + place (on the table)",
+          "s": "It is on the table."
+        }
+      ]
+    },
+    {
+      "t": "Thời gian trong ngày",
+      "e": [
+        {
+          "p": "When do you wake up?",
+          "m": "Nói buổi bạn thức dậy (morning).",
+          "h": "Use: I wake up in the morning",
+          "s": "I wake up in the morning."
+        },
+        {
+          "p": "When do you eat lunch?",
+          "m": "Nói bạn ăn trưa vào lúc nào (one phrase).",
+          "h": "Use: I eat lunch at + time word",
+          "s": "I eat lunch at noon."
+        },
+        {
+          "p": "Do you sleep at night?",
+          "m": "Nói có ngủ vào ban đêm không (một câu).",
+          "h": "I sleep at night / I do not sleep at night",
+          "s": "I sleep at night."
+        },
+        {
+          "p": "What do you do in the evening?",
+          "m": "Nói một hoạt động buổi tối.",
+          "h": "Use: I + verb + in the evening",
+          "s": "I watch TV in the evening."
+        },
+        {
+          "p": "Is today morning or night?",
+          "m": "Nói là buổi sáng hay buổi tối (một câu).",
+          "h": "Use: It is + morning / night",
+          "s": "It is morning."
+        }
+      ]
+    },
+    {
+      "t": "Nơi ở",
+      "e": [
+        {
+          "p": "Do you live in a house or an apartment?",
+          "m": "Nói bạn sống ở nhà hay căn hộ (một câu).",
+          "h": "I live in a house / an apartment",
+          "s": "I live in a house."
+        },
+        {
+          "p": "Is there a garden at your home?",
+          "m": "Nói có vườn không (một câu).",
+          "h": "There is / There is not + a garden",
+          "s": "There is a garden at my home."
+        },
+        {
+          "p": "How many rooms are in your house?",
+          "m": "Nói số phòng trong nhà (một câu).",
+          "h": "There are + number + rooms",
+          "s": "There are five rooms in my house."
+        },
+        {
+          "p": "Where is your bedroom?",
+          "m": "Nói vị trí phòng ngủ (ví dụ: upstairs).",
+          "h": "Use: It is + place (upstairs/downstairs)",
+          "s": "It is upstairs."
+        },
+        {
+          "p": "Do you have a big kitchen?",
+          "m": "Nói bếp của bạn có lớn không (một câu).",
+          "h": "My kitchen is + adjective (big/small)",
+          "s": "My kitchen is big."
+        }
+      ]
+    },
+    {
+      "t": "Mua sắm đơn giản",
+      "e": [
+        {
+          "p": "How many apples do you want?",
+          "m": "Nói số táo bạn muốn.",
+          "h": "I want + number + apples",
+          "s": "I want two apples."
+        },
+        {
+          "p": "How much is this book?",
+          "m": "Nói giá bằng số (dùng số đơn giản).",
+          "h": "Use: It is + number",
+          "s": "It is five."
+        },
+        {
+          "p": "Do you need a new bag?",
+          "m": "Nói có cần túi mới không (một câu).",
+          "h": "I need / I do not need + a new bag",
+          "s": "I need a new bag."
+        },
+        {
+          "p": "Which color do you want?",
+          "m": "Nói màu bạn muốn (red/blue/green).",
+          "h": "I want + color",
+          "s": "I want a blue one."
+        },
+        {
+          "p": "Can you pay now?",
+          "m": "Nói có thể trả tiền bây giờ không (một câu).",
+          "h": "I can / I cannot + pay now",
+          "s": "I can pay now."
+        }
+      ]
+    },
+    {
+      "t": "Sức khỏe và cảm xúc",
+      "e": [
+        {
+          "p": "Are you happy today?",
+          "m": "Nói bạn có vui hôm nay không (một câu).",
+          "h": "I am + happy/sad/ok",
+          "s": "I am happy today."
+        },
+        {
+          "p": "Do you feel tired?",
+          "m": "Nói bạn có mệt không (một câu).",
+          "h": "I feel + adjective (tired)",
+          "s": "I feel tired."
+        },
+        {
+          "p": "Are you sick?",
+          "m": "Nói bạn có ốm không (một câu).",
+          "h": "I am sick / I am not sick",
+          "s": "I am not sick."
+        },
+        {
+          "p": "Do you have a headache?",
+          "m": "Nói có đau đầu không (một câu).",
+          "h": "I have / I do not have + a headache",
+          "s": "I have a headache."
+        },
+        {
+          "p": "What makes you happy?",
+          "m": "Nói một điều làm bạn vui (một câu).",
+          "h": "Use: Playing/Family/Food + makes me happy",
+          "s": "My family makes me happy."
+        }
+      ]
+    },
+    {
+      "t": "Lịch trình cuối tuần",
+      "e": [
+        {
+          "p": "What do you do on Saturday?",
+          "m": "Nói một hoạt động bạn làm vào thứ bảy.",
+          "h": "I + verb + on Saturday",
+          "s": "I visit my grandparents on Saturday."
+        },
+        {
+          "p": "Do you go out on Sunday?",
+          "m": "Nói có ra ngoài vào chủ nhật không (một câu).",
+          "h": "I go out / I do not go out on Sunday",
+          "s": "I go out on Sunday."
+        },
+        {
+          "p": "What time do you wake up on the weekend?",
+          "m": "Nói buổi bạn thức dậy vào cuối tuần (một câu).",
+          "h": "I wake up + time word (late/in the morning)",
+          "s": "I wake up late."
+        },
+        {
+          "p": "Do you play with friends on weekend?",
+          "m": "Nói có chơi với bạn vào cuối tuần không (một câu).",
+          "h": "I play with my friends / I do not play",
+          "s": "I play with my friends on the weekend."
+        },
+        {
+          "p": "Where do you go on Sunday?",
+          "m": "Nói một nơi bạn đến vào chủ nhật (một câu).",
+          "h": "I go to + place (park/shop)",
+          "s": "I go to the park."
+        }
+      ]
+    },
+    {
+      "t": "Ôn tập: Giao tiếp cơ bản",
+      "e": [
+        {
+          "p": "Please tell me your name again.",
+          "m": "Lặp lại tên của bạn.",
+          "h": "I am + [studentName]",
+          "s": "I am [studentName]."
+        },
+        {
+          "p": "How old are you now?",
+          "m": "Lặp lại tuổi của bạn.",
+          "h": "I am + [studentAge] years old",
+          "s": "I am [studentAge] years old."
+        },
+        {
+          "p": "Where do you live now?",
+          "m": "Lặp lại nơi bạn sống.",
+          "h": "I live in + [studentCity]",
+          "s": "I live in [studentCity]."
+        },
+        {
+          "p": "Who is in your family at home?",
+          "m": "Nói một người trong gia đình bạn sống cùng.",
+          "h": "I live with + my + relation",
+          "s": "I live with my parents."
+        },
+        {
+          "p": "What is your job or school?",
+          "m": "Nói nghề nghiệp hoặc tên trường (một câu).",
+          "h": "I am a + [studentJob] / I study at + [studentSchool]",
+          "s": "I study at [studentSchool]."
+        }
+      ]
+    },
+    {
+      "t": "Ôn tập: Thói quen và sở thích",
+      "e": [
+        {
+          "p": "What do you do every morning?",
+          "m": "Nói một việc bạn làm vào buổi sáng hàng ngày.",
+          "h": "I + verb + every morning",
+          "s": "I eat breakfast every morning."
+        },
+        {
+          "p": "Do you like reading or playing?",
+          "m": "Nói bạn thích đọc sách hay chơi (chọn một).",
+          "h": "I like + reading / playing",
+          "s": "I like reading."
+        },
+        {
+          "p": "Can you play football?",
+          "m": "Nói bạn có thể chơi bóng đá không (một câu).",
+          "h": "I can / I cannot + verb",
+          "s": "I can play football."
+        },
+        {
+          "p": "Where do you meet your friends?",
+          "m": "Nói nơi bạn gặp bạn bè (một câu).",
+          "h": "I meet my friends at + place",
+          "s": "I meet my friends at the park."
+        },
+        {
+          "p": "What is your favorite time of day?",
+          "m": "Nói thời điểm trong ngày bạn thích (morning/evening).",
+          "h": "I like the + morning/evening",
+          "s": "I like the morning."
+        }
+      ]
+    },
+    {
+      "t": "Ôn tập: Mua sắm và mô tả",
+      "e": [
+        {
+          "p": "How many pencils do you need?",
+          "m": "Nói số bút chì bạn cần.",
+          "h": "I need + number + pencils",
+          "s": "I need five pencils."
+        },
+        {
+          "p": "Which color do you choose?",
+          "m": "Nói màu bạn chọn một từ (red/blue/green).",
+          "h": "I choose + color",
+          "s": "I choose green."
+        },
+        {
+          "p": "Is the shirt big or small?",
+          "m": "Nói áo lớn hay nhỏ (một câu).",
+          "h": "It is + big / small",
+          "s": "It is small."
+        },
+        {
+          "p": "Do you have enough money?",
+          "m": "Nói có đủ tiền không (một câu).",
+          "h": "I have / I do not have + enough money",
+          "s": "I do not have enough money."
+        },
+        {
+          "p": "Can you buy this now?",
+          "m": "Nói bạn có thể mua món này bây giờ không (một câu).",
+          "h": "I can / I cannot + buy now",
+          "s": "I cannot buy this now."
+        }
+      ]
+    }
+  ]
+}

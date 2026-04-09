@@ -1,0 +1,530 @@
+{
+  "l": 3,
+  "d": [
+    {
+      "t": "Giới thiệu bản thân ở buổi họp nhóm",
+      "e": [
+        {
+          "p": "What's your name and job?",
+          "m": "1. Nói tên của bạn.\n2. Nói nghề hiện tại (dùng [studentJob] nếu cần).\n3. Nói một nhiệm vụ chính bạn thường làm.",
+          "h": "Present Simple: I am ... / I write ...",
+          "s": "My name is [studentName]. I am a [studentJob]. I write code for the project."
+        },
+        {
+          "p": "What will you do after this meeting?",
+          "m": "1. Nói công việc bạn sẽ làm (will/going to).\n2. Nói khi bạn sẽ bắt đầu hoặc hoàn thành.\n3. Nói lý do công việc cần làm.",
+          "h": "Use will / going to + V and a short reason.",
+          "s": "I will review the bug list. I will start at 2 pm and finish today. It is important because users must log in smoothly."
+        },
+        {
+          "p": "How long did you work on that feature?",
+          "m": "1. Nói thời gian bạn đã làm (past simple).\n2. Nói việc bạn đã làm cụ thể.\n3. Nói tình trạng hiện tại của tính năng.",
+          "h": "Past Simple: I worked / I started ...",
+          "s": "I worked on that feature for three days. I fixed the login flow and wrote tests. Now the feature is ready."
+        },
+        {
+          "p": "Do you like working in this team?",
+          "m": "1. Nói cảm xúc của bạn về đội.\n2. Nêu một lý do cụ thể.\n3. So sánh đội này với đội trước (comparative).",
+          "h": "Use adjectives and comparatives (more ... than).",
+          "s": "I feel excited working in this team. The team helps me and shares ideas. It is more supportive than my old team."
+        },
+        {
+          "p": "Can you introduce yourself briefly for the client?",
+          "m": "1. Nói tên.\n2. Nói nghề và nhiệm vụ chính.\n3. Nói kinh nghiệm ngắn hoặc kế hoạch sắp tới.",
+          "h": "Short present + past or future (will).",
+          "s": "My name is [studentName]. I am a [studentJob] and I handle backend tasks. I started two years ago and I will improve the API."
+        }
+      ]
+    },
+    {
+      "t": "Nói về vai trò trong dự án",
+      "e": [
+        {
+          "p": "What's your role in this project?",
+          "m": "1. Nói rõ vai trò của bạn.\n2. Nói một trách nhiệm chính.\n3. Nói bạn làm việc với ai trong nhóm.",
+          "h": "Present Simple: I am a ... / I work with ...",
+          "s": "I am the frontend developer. I build the user interface. I work with a tester and a BA."
+        },
+        {
+          "p": "Who decides the requirements here?",
+          "m": "1. Nói ai chịu trách nhiệm chính.\n2. Nói bạn làm gì khi có yêu cầu mới.\n3. Nói vì sao quyết định đó quan trọng.",
+          "h": "Use must / have to and because.",
+          "s": "The BA decides the requirements. I have to check the specs when there is a new request. It is important because the team must build the right feature."
+        },
+        {
+          "p": "How did you start this task?",
+          "m": "1. Nói việc bạn bắt đầu như thế nào (past simple).\n2. Nói bước tiếp theo bạn làm.\n3. Nói kết quả bạn nhận được.",
+          "h": "Past Simple then Present Simple for result.",
+          "s": "I read the requirement and started coding. Then I wrote unit tests. The feature works well now."
+        },
+        {
+          "p": "Should the tester check performance too?",
+          "m": "1. Trả lời có nên hay không (should).\n2. Nêu một lý do ngắn.\n3. Nêu ai còn nên tham gia kiểm tra.",
+          "h": "Use Should + V and a short reason.",
+          "s": "Yes, the tester should check performance. It finds slow parts early. The developer should help with tests."
+        },
+        {
+          "p": "Can you explain your role to a new member?",
+          "m": "1. Nói tên và vai trò của bạn.\n2. Nói nhiệm vụ chính bạn làm hàng ngày.\n3. Nói điều bạn sẽ làm để hỗ trợ họ.",
+          "h": "Present Simple and will for support.",
+          "s": "I am a [studentJob] and I build features. I write code and fix bugs every day. I will help you learn the codebase."
+        }
+      ]
+    },
+    {
+      "t": "Mô tả công việc hàng ngày",
+      "e": [
+        {
+          "p": "What do you do every morning?",
+          "m": "1. Nói một thói quen buổi sáng tại công ty.\n2. Nói thời lượng hoặc thời điểm.\n3. Nói mục đích việc đó.",
+          "h": "Present Simple: I check ... / I start at ...",
+          "s": "I check emails every morning. I do it for about thirty minutes. I do this to find urgent bugs."
+        },
+        {
+          "p": "Are you working on a task now?",
+          "m": "1. Trả lời đang hay không (present continuous).\n2. Nói tên nhiệm vụ ngắn.\n3. Nói khi bạn sẽ hoàn thành.",
+          "h": "Present Continuous and will for finish time.",
+          "s": "I am fixing a layout bug now. The task is about the dashboard. I will finish it this afternoon."
+        },
+        {
+          "p": "How did you spend yesterday at work?",
+          "m": "1. Kể một hoạt động chính (past simple).\n2. Nói ai bạn đã làm việc cùng.\n3. Nói kết quả cuối ngày.",
+          "h": "Past Simple: I tested / I worked with ...",
+          "s": "I tested the new feature yesterday. I worked with the tester and BA. We fixed two bugs by the end of the day."
+        },
+        {
+          "p": "What must you do before release?",
+          "m": "1. Nói một việc bạn bắt buộc làm (must/have to).\n2. Nói ai kiểm tra tiếp.\n3. Nói lý do cần làm việc đó.",
+          "h": "Use must / have to and because.",
+          "s": "I must run the full test suite. The QA team will check again. It is necessary because users must get a stable app."
+        },
+        {
+          "p": "Can you plan your tasks for tomorrow?",
+          "m": "1. Nói hai việc bạn sẽ làm (use will or going to).\n2. Nói thứ tự ưu tiên.\n3. Nói lý do chọn việc đó trước.",
+          "h": "Use will/going to + V and connectors like then/and.",
+          "s": "I will fix the critical bug first and then finish the new feature. The bug is higher priority. It affects many users so I choose it first."
+        }
+      ]
+    },
+    {
+      "t": "Báo cáo lỗi với Tester",
+      "e": [
+        {
+          "p": "I found a bug in the login page.",
+          "m": "1. Nói bạn đã thấy lỗi gì ngắn gọn.\n2. Nói khi bạn phát hiện (thời gian ngắn).\n3. Nói bước bạn đã làm ngay lập tức.",
+          "h": "Past Simple and short present for action.",
+          "s": "I saw an error on the login page. I found it this morning. I wrote a quick note and reported it to the tester."
+        },
+        {
+          "p": "Can you reproduce the bug?",
+          "m": "1. Nêu các bước ngắn để lặp lại lỗi (3 bước đơn giản).\n2. Nói kết quả khi lặp lại.\n3. Nói nếu lỗi luôn xảy ra hay không.",
+          "h": "Use imperatives or simple present for steps.",
+          "s": "Open the app, enter wrong password, click login. The app shows a server error. The bug happens every time."
+        },
+        {
+          "p": "Is it urgent to fix this bug?",
+          "m": "1. Trả lời có cấp bách hay không.\n2. Nói một lý do ngắn.\n3. Đề xuất thời hạn bạn nghĩ nên sửa (will/need).",
+          "h": "Use must/should and will for deadline.",
+          "s": "Yes, it is urgent. It blocks users from signing in. We should fix it today and I will start now."
+        },
+        {
+          "p": "What information should I add to the bug report?",
+          "m": "1. Nói ít nhất hai thông tin cần có (ví dụ: steps, logs).\n2. Nói nơi lưu logs.\n3. Nói ai sẽ kiểm tra tiếp.",
+          "h": "Use should + V and present simple.",
+          "s": "You should add steps to reproduce and error logs. Put the logs in the project folder. The tester will check them next."
+        },
+        {
+          "p": "How will you prevent similar bugs?",
+          "m": "1. Nói một việc bạn sẽ làm (testing, review).\n2. Nói khi bạn sẽ làm việc đó.\n3. Nói lý do phương pháp đó hiệu quả.",
+          "h": "Use will + V and because.",
+          "s": "I will add extra unit tests. I will do this after I fix the bug. It helps catch the issue earlier."
+        }
+      ]
+    },
+    {
+      "t": "Trao đổi với BA về yêu cầu",
+      "e": [
+        {
+          "p": "Can you explain the new requirement?",
+          "m": "1. Tóm tắt yêu cầu ngắn gọn.\n2. Nói mục đích chính của yêu cầu.\n3. Nói ai là người dùng chính.",
+          "h": "Present Simple: It is ... / It helps ...",
+          "s": "The requirement adds a report page. It helps managers see sales data. The managers are the main users."
+        },
+        {
+          "p": "Do you need more details to start?",
+          "m": "1. Trả lời có cần hay không.\n2. Nêu thông tin bạn thiếu.\n3. Nói khi bạn cần thông tin đó.",
+          "h": "Use need / need to + V and will for timing.",
+          "s": "Yes, I need more details. I need the API format and sample data. I need them before I start coding."
+        },
+        {
+          "p": "How did you handle the unclear part before?",
+          "m": "1. Kể hành động bạn đã làm (past simple).\n2. Nói ai bạn đã hỏi.\n3. Nói kết quả của việc hỏi đó.",
+          "h": "Past Simple and then present result.",
+          "s": "I asked the BA for clarification yesterday. I spoke with the BA and product manager. They gave clear examples and we moved on."
+        },
+        {
+          "p": "Should we change the requirement now?",
+          "m": "1. Trả lời nên hay không (should).\n2. Nói một lý do ngắn.\n3. Đề xuất bước tiếp theo.",
+          "h": "Use should + V and because/so.",
+          "s": "No, we should not change it now. It will delay the sprint because we already planned tasks. We can discuss changes in the next sprint."
+        },
+        {
+          "p": "Can you write a short acceptance criteria?",
+          "m": "1. Viết 2-3 tiêu chí chấp nhận ngắn.\n2. Dùng ngôn ngữ dễ hiểu.\n3. Nói việc nào sẽ được kiểm tra.",
+          "h": "Use simple present: The system should ...",
+          "s": "The report should show sales by day. The report should load in under five seconds. QA will check the data accuracy."
+        }
+      ]
+    },
+    {
+      "t": "Thảo luận công nghệ và công cụ",
+      "e": [
+        {
+          "p": "Which tool do you use for version control?",
+          "m": "1. Nói tên công cụ bạn dùng.\n2. Nói bạn dùng công cụ đó như thế nào ngắn gọn.\n3. Nói một lợi ích của công cụ.",
+          "h": "Present Simple: I use ... / It helps ...",
+          "s": "I use Git for version control. I commit and push code to the main repo. It helps us track changes."
+        },
+        {
+          "p": "Are you going to migrate to a new framework?",
+          "m": "1. Trả lời dự định (going to/will).\n2. Nói vì sao muốn chuyển.\n3. Nói rủi ro chính bạn lo lắng.",
+          "h": "Use going to / will and a short reason.",
+          "s": "We are going to migrate next month. We want better performance and easier code. I worry about compatibility issues."
+        },
+        {
+          "p": "How did you fix the deployment problem?",
+          "m": "1. Nói bạn đã làm gì (past simple).\n2. Nói ai đã giúp bạn.\n3. Nói kết quả sau khi sửa.",
+          "h": "Past Simple and result sentence.",
+          "s": "I changed the server config yesterday. The DevOps engineer helped me. After that the deployment worked."
+        },
+        {
+          "p": "Which tech is more suitable for mobile, React Native or native?",
+          "m": "1. Chọn một công nghệ.\n2. So sánh ngắn: ưu điểm hơn.\n3. Nói khi bạn sẽ dùng công nghệ đó.",
+          "h": "Use comparatives: more ... than and will.",
+          "s": "React Native is more suitable for faster development. It is more efficient than full native for small teams. I will choose it for this project."
+        },
+        {
+          "p": "Can you suggest a tool to improve testing?",
+          "m": "1. Đề xuất một công cụ cụ thể.\n2. Nói cách công cụ giúp kiểm tra.\n3. Nói khi bạn sẽ triển khai nó.",
+          "h": "Use present simple and will for plan.",
+          "s": "I suggest using Cypress for end-to-end tests. It automates browser tests and finds UI bugs. I will set it up next sprint."
+        }
+      ]
+    },
+    {
+      "t": "Lên kế hoạch thời hạn dự án",
+      "e": [
+        {
+          "p": "When is the project deadline?",
+          "m": "1. Nói ngày hoặc thời hạn ngắn (use will/next...).\n2. Nói phần việc bạn phải làm trước.\n3. Nói lý do thời hạn quan trọng.",
+          "h": "Use will / time phrases and present simple reason.",
+          "s": "The deadline is next Friday. I must finish the API endpoints first. The deadline is important because the client needs the release."
+        },
+        {
+          "p": "Can you finish this task by tomorrow?",
+          "m": "1. Trả lời bạn có thể hay không.\n2. Nếu có, nêu khi bạn sẽ bắt đầu.\n3. Nếu không, nêu khi bạn sẽ hoàn thành.",
+          "h": "Use will or cannot + will for alternative.",
+          "s": "I cannot finish it by tomorrow. I will start work tonight. I will complete it on Wednesday."
+        },
+        {
+          "p": "How did the team miss the last deadline?",
+          "m": "1. Nói nguyên nhân chính (past simple).\n2. Nói bạn đã làm gì để khắc phục.\n3. Nói điều nhóm sẽ làm khác lần sau.",
+          "h": "Past Simple and will for future change.",
+          "s": "We missed the deadline because requirements changed. I refocused tasks and fixed the main bugs. Next time we will freeze scope earlier."
+        },
+        {
+          "p": "Should we add more people to the sprint?",
+          "m": "1. Trả lời nên hay không (should).\n2. Nêu một lợi ích.\n3. Nêu một rủi ro ngắn.",
+          "h": "Use should + V and a short contrast with but.",
+          "s": "Yes, we should add one more developer. It speeds up feature delivery. But it may slow onboarding for the new person."
+        },
+        {
+          "p": "Can you make a short plan for the next two weeks?",
+          "m": "1. Liệt kê 2-3 nhiệm vụ theo thứ tự.\n2. Nói ai chịu trách nhiệm từng nhiệm vụ.\n3. Nói mục tiêu cuối hai tuần.",
+          "h": "Use will + V and connectors (then/and).",
+          "s": "Week one: finish API endpoints and QA will test them. Week two: fix bugs and deploy, and DevOps will handle release. The goal is a stable production release."
+        }
+      ]
+    },
+    {
+      "t": "Phản hồi trong code review",
+      "e": [
+        {
+          "p": "I left some comments in your pull request.",
+          "m": "1. Nói bạn sẽ làm gì với comment đó.\n2. Nói khi bạn sẽ chỉnh sửa.\n3. Nói nếu bạn cần giúp đỡ.",
+          "h": "Use will + V and present simple.",
+          "s": "I will check the comments and update the code. I will edit the files this afternoon. I will ask for help if I need it."
+        },
+        {
+          "p": "Can you explain this change?",
+          "m": "1. Nói lý do bạn thay đổi code.\n2. Nói bạn đã làm gì cụ thể.\n3. Nói kết quả mong đợi.",
+          "h": "Use past simple then present result.",
+          "s": "I changed the query to improve speed. I added an index and simplified the join. The result is faster response times."
+        },
+        {
+          "p": "Should we follow this style guide?",
+          "m": "1. Trả lời có nên hay không.\n2. Nêu một lợi ích khi theo guide.\n3. Nêu nếu có ngoại lệ nào.",
+          "h": "Use should and a short contrast with but.",
+          "s": "Yes, we should follow the style guide. It keeps code consistent and readable. But small exceptions are okay for legacy modules."
+        },
+        {
+          "p": "How did you test your change before commit?",
+          "m": "1. Nói bước kiểm tra bạn đã làm (past simple).\n2. Nêu kết quả kiểm tra.\n3. Nói bạn đã làm gì nếu gặp lỗi.",
+          "h": "Past Simple: I ran / I fixed ...",
+          "s": "I ran unit tests and manual UI checks. All tests passed and the UI worked. I fixed one minor bug before commit."
+        },
+        {
+          "p": "Can you summarize the biggest risk in this PR?",
+          "m": "1. Nói rủi ro chính ngắn.\n2. Nói tác động nếu rủi ro xảy ra.\n3. Gợi ý cách giảm rủi ro.",
+          "h": "Use conditional and suggestions: If ... then ... / we should ...",
+          "s": "The biggest risk is a migration breaking old data. If it happens, users will lose access. We should add a backup and run migration on staging first."
+        }
+      ]
+    },
+    {
+      "t": "So sánh các vai trò trong nhóm",
+      "e": [
+        {
+          "p": "What is the difference between a developer and a tester?",
+          "m": "1. Nói một điểm khác nhau ngắn.\n2. Nói ưu điểm của tester.\n3. Nói khi nên làm việc cùng.",
+          "h": "Use comparatives and simple reasons.",
+          "s": "A developer writes code while a tester checks quality. The tester finds bugs and improves reliability. They should work together from the start."
+        },
+        {
+          "p": "Is a BA more useful than a PM in small projects?",
+          "m": "1. Trả lời dùng comparative (more ... than).\n2. Nêu lý do ngắn.\n3. Nói khi bạn cần PM thay vì BA.",
+          "h": "Use more ... than and because.",
+          "s": "A BA is more useful than a PM for clear requirements. The BA focuses on details and user needs. You need a PM when the schedule and resources are complex."
+        },
+        {
+          "p": "How did the roles change in your last project?",
+          "m": "1. Kể một thay đổi vai trò (past simple).\n2. Nói ai đảm nhiệm thêm việc gì.\n3. Nói kết quả thay đổi đó.",
+          "h": "Past Simple and result sentence.",
+          "s": "The tester also helped with automation last sprint. The tester learned scripts and the team shared tasks. The result was fewer manual tests."
+        },
+        {
+          "p": "Should developers learn basic testing?",
+          "m": "1. Trả lời nên hay không bằng should.\n2. Nêu lợi ích ngắn.\n3. Nêu khi điều đó khó thực hiện.",
+          "h": "Use should + V and contrast with but.",
+          "s": "Yes, developers should learn basic testing. It reduces bugs and speeds delivery. But deep QA work still needs testers."
+        },
+        {
+          "p": "Can you compare front-end and back-end work for this app?",
+          "m": "1. Nêu một nhiệm vụ front-end.\n2. Nêu một nhiệm vụ back-end.\n3. Nói lý do phối hợp hai phần quan trọng.",
+          "h": "Use simple statements and because.",
+          "s": "Front-end builds the user interface and handles inputs. Back-end manages data and business logic. They must coordinate because UI needs correct data."
+        }
+      ]
+    },
+    {
+      "t": "Làm việc từ xa",
+      "e": [
+        {
+          "p": "Are you working from home today?",
+          "m": "1. Trả lời đang hay không (present continuous).\n2. Nói nơi bạn đang ở (dùng [studentCity] nếu cần).\n3. Nói một lợi ích khi làm từ xa.",
+          "h": "Present Continuous and simple benefit.",
+          "s": "I am working from home today. I am in [studentCity]. It is more comfortable and I save commute time."
+        },
+        {
+          "p": "How did you join the remote meeting?",
+          "m": "1. Nói cách bạn tham gia (past simple).\n2. Nói công cụ bạn dùng.\n3. Nói nếu gặp vấn đề kỹ thuật.",
+          "h": "Past Simple: I joined via ... / I used ...",
+          "s": "I joined the meeting via Zoom yesterday. I used my laptop and headphones. I had a small connection issue but solved it."
+        },
+        {
+          "p": "What will you do if your internet is slow?",
+          "m": "1. Nói một hành động bạn sẽ làm (will).\n2. Nói thứ tự hành động.\n3. Nói nếu bạn cần thông báo cho ai.",
+          "h": "Use will + V and then/and connectors.",
+          "s": "I will move closer to the router and restart it. Then I will switch to mobile data. I will tell the team if problems continue."
+        },
+        {
+          "p": "Should we have daily remote stand-ups?",
+          "m": "1. Trả lời nên hay không.\n2. Nêu lợi ích ngắn.\n3. Nêu thời gian họp ngắn bạn đề xuất.",
+          "h": "Use should + V and give a short time.",
+          "s": "Yes, we should have daily stand-ups. They keep everyone updated and aligned. I suggest a quick 15-minute meeting each morning."
+        },
+        {
+          "p": "Can you describe your remote work routine?",
+          "m": "1. Nói giờ bạn bắt đầu làm việc.\n2. Nói hai hoạt động chính trong ngày.\n3. Nói khi bạn dừng làm việc.",
+          "h": "Present Simple and time phrases.",
+          "s": "I start work at 9 am. I check emails and then code and attend meetings. I stop work at 6 pm."
+        }
+      ]
+    },
+    {
+      "t": "Phỏng vấn xin việc ngắn",
+      "e": [
+        {
+          "p": "Why do you want this job?",
+          "m": "1. Nói lý do ngắn (motivation).\n2. Nêu một kỹ năng bạn có.\n3. Nói bạn sẽ đóng góp gì.",
+          "h": "Use present simple and will for contribution.",
+          "s": "I want this job to grow in tech. I have strong problem-solving skills. I will improve the team's backend performance."
+        },
+        {
+          "p": "Can you tell me about your last project?",
+          "m": "1. Nói tên hoặc mô tả ngắn dự án (past simple).\n2. Nói vai trò bạn làm.\n3. Nói kết quả bạn đạt được.",
+          "h": "Past Simple then present result.",
+          "s": "I worked on an e-commerce app last year. I was the backend developer. We launched on time and sales increased."
+        },
+        {
+          "p": "How do you handle tight deadlines?",
+          "m": "1. Nêu một phương pháp bạn dùng.\n2. Nói bạn ưu tiên việc nào trước.\n3. Nói nếu bạn cần hỗ trợ từ đồng đội.",
+          "h": "Use present simple and must/have to.",
+          "s": "I break tasks into small steps and focus on the most critical ones. I fix critical bugs first and then others. I ask teammates for help when needed."
+        },
+        {
+          "p": "Will you be able to join our morning meetings?",
+          "m": "1. Trả lời có thể hay không (will).\n2. Nói nếu có thời gian khác phù hợp.\n3. Nói cam kết ngắn.",
+          "h": "Use will + V and a short commitment.",
+          "s": "Yes, I will join morning meetings. If needed I can join a later slot at 10 am. I will attend regularly and prepare updates."
+        },
+        {
+          "p": "Do you have questions for us?",
+          "m": "1. Đặt một câu hỏi về dự án.\n2. Đặt một câu hỏi về đội.\n3. Nói bạn mong đợi điều gì từ công việc.",
+          "h": "Use present simple questions and expectation phrase.",
+          "s": "What technology does the team use for backend? How big is the development team? I expect to learn and contribute quickly."
+        }
+      ]
+    },
+    {
+      "t": "Kế hoạch học tập và phát triển",
+      "e": [
+        {
+          "p": "What skill do you want to learn next?",
+          "m": "1. Nói kỹ năng bạn muốn học.\n2. Nói khi bạn sẽ bắt đầu học (will/next...).\n3. Nói lý do học kỹ năng đó.",
+          "h": "Use will or next + time and simple reason.",
+          "s": "I want to learn DevOps skills. I will start next month. It helps me deploy code faster."
+        },
+        {
+          "p": "How did you improve your skills before?",
+          "m": "1. Nói cách bạn đã học (past simple).\n2. Nói thời gian bạn dành cho việc học.\n3. Nói kết quả ngắn.",
+          "h": "Past Simple and result.",
+          "s": "I took online courses last year. I studied two hours every evening. I improved my coding confidence."
+        },
+        {
+          "p": "Should we have time for learning in the sprint?",
+          "m": "1. Trả lời nên hay không (should).\n2. Nêu một lý do ngắn.\n3. Nêu cách tổ chức học phù hợp.",
+          "h": "Use should + V and a simple suggestion.",
+          "s": "Yes, we should include learning time. It helps the team keep skills up-to-date. We can add one day per sprint for study."
+        },
+        {
+          "p": "Can you set a personal learning goal for this month?",
+          "m": "1. Nói mục tiêu học (2-3 điểm nhỏ).\n2. Nói cách bạn đo tiến độ.\n3. Nói khi bạn sẽ hoàn thành mục tiêu.",
+          "h": "Use will + V and simple measurement.",
+          "s": "I will learn Docker basics and write two sample containers. I will measure progress by running containers locally. I will finish by the end of the month."
+        },
+        {
+          "p": "How will you share new knowledge with the team?",
+          "m": "1. Nói một phương pháp chia sẻ (presentation, doc).\n2. Nói khi bạn sẽ tổ chức.\n3. Nói lợi ích cho đội.",
+          "h": "Use will + V and because.",
+          "s": "I will prepare a short presentation and documentation. I will share it in next Friday's meeting. It helps the team adopt good practices."
+        }
+      ]
+    },
+    {
+      "t": "Ôn tập: Giới thiệu và vai trò",
+      "e": [
+        {
+          "p": "Introduce yourself and your current role.",
+          "m": "1. Nói tên.\n2. Nói nghề và vai trò hiện tại.\n3. Nói một nhiệm vụ chính bạn đảm nhận.",
+          "h": "Present Simple: I am ... / I do ...",
+          "s": "My name is [studentName]. I am a [studentJob] and I work on backend services. I build APIs and fix server issues."
+        },
+        {
+          "p": "How did you join your current team?",
+          "m": "1. Nói bạn gia nhập khi nào (past simple).\n2. Nói lý do bạn được chọn.\n3. Nói một điều bạn đã làm ngay sau khi vào team.",
+          "h": "Past Simple and short reason.",
+          "s": "I joined the team last year. The company needed backend developers and I had the experience. I started by fixing critical bugs."
+        },
+        {
+          "p": "What will you tell a new teammate about your role?",
+          "m": "1. Nói vai trò chính của bạn.\n2. Nói bạn sẽ hỗ trợ họ như thế nào.\n3. Nói khi bạn sẽ sẵn sàng giúp.",
+          "h": "Use will + V and present simple.",
+          "s": "I handle backend development and maintenance. I will help them understand the codebase and tests. I will be available after stand-ups."
+        },
+        {
+          "p": "Can you explain one challenge in your role?",
+          "m": "1. Nói một thách thức ngắn.\n2. Nói bạn đã làm gì để giải quyết (past simple).\n3. Nói kết quả của hành động đó.",
+          "h": "Past Simple and result.",
+          "s": "A challenge is handling legacy code. I refactored a module last month. The code is now easier to maintain."
+        },
+        {
+          "p": "Should roles change in a small startup?",
+          "m": "1. Trả lời nên hay không.\n2. Nêu một lợi ích khi thay đổi vai trò.\n3. Nói khi thay đổi có thể gây vấn đề.",
+          "h": "Use should + V and a short but clause.",
+          "s": "Yes, roles should be flexible in a startup. It helps the team cover more tasks and learn new skills. But frequent changes can cause confusion."
+        }
+      ]
+    },
+    {
+      "t": "Ôn tập: Vấn đề dự án và giải pháp",
+      "e": [
+        {
+          "p": "Describe a recent project problem and the fix.",
+          "m": "1. Nói vấn đề bạn gặp (past simple).\n2. Nói bạn đã làm gì để sửa.\n3. Nói kết quả sau khi sửa.",
+          "h": "Past Simple then present result.",
+          "s": "We had a slow API response last week. I optimized the query and added an index. The response time became much faster."
+        },
+        {
+          "p": "What should a team do when a critical bug appears?",
+          "m": "1. Nói bước đầu cần làm (should).\n2. Nói ai cần được thông báo.\n3. Nói mục tiêu ngắn hạn.",
+          "h": "Use should + V and because.",
+          "s": "The team should isolate the bug and create a hotfix. Notify the product owner and QA. The goal is to restore service quickly."
+        },
+        {
+          "p": "How did communication help solve a misunderstanding?",
+          "m": "1. Kể một hành động giao tiếp bạn làm (past simple).\n2. Nói ai bạn đã nói chuyện cùng.\n3. Nói kết quả của cuộc trao đổi.",
+          "h": "Past Simple and result.",
+          "s": "I clarified the requirement with the BA yesterday. I talked with the BA and a developer. After that we agreed on the correct behavior."
+        },
+        {
+          "p": "Can you propose a short plan to avoid similar issues?",
+          "m": "1. Đề xuất 2 bước cụ thể.\n2. Nói ai thực hiện từng bước.\n3. Nói khi bạn sẽ bắt đầu.",
+          "h": "Use will + V and connectors.",
+          "s": "We will add more tests and review critical code. Developers will write tests and leads will review. I will start next sprint."
+        },
+        {
+          "p": "If a feature is delayed, what will you tell the client?",
+          "m": "1. Thông báo ngắn việc trì hoãn (will).\n2. Nêu lý do ngắn.\n3. Nêu bước tiếp theo để khắc phục.",
+          "h": "Use will + V and because/so.",
+          "s": "We will delay the feature release by one week. It is because of unexpected bugs. We will fix issues and test before the new release."
+        }
+      ]
+    },
+    {
+      "t": "Ôn tập: Kế hoạch tương lai và phản hồi",
+      "e": [
+        {
+          "p": "What are your plans for the next quarter?",
+          "m": "1. Nêu hai mục tiêu ngắn (will).\n2. Nói ưu tiên của bạn.\n3. Nói vì sao mục tiêu quan trọng.",
+          "h": "Use will + V and priority word (first).",
+          "s": "I will improve API performance and add automated tests. First I will focus on performance. These goals reduce bugs and improve user experience."
+        },
+        {
+          "p": "How do you accept feedback from peers?",
+          "m": "1. Nói cách bạn tiếp nhận phản hồi.\n2. Nói bạn làm gì sau khi nhận feedback.\n3. Nói kết quả nếu bạn áp dụng feedback.",
+          "h": "Use present simple and then for result.",
+          "s": "I listen carefully and ask questions. Then I change my code or process. The result is better quality and fewer bugs."
+        },
+        {
+          "p": "Should we set personal goals each sprint?",
+          "m": "1. Trả lời nên hay không.\n2. Nêu một lợi ích cụ thể.\n3. Nói cách thực hiện ngắn gọn.",
+          "h": "Use should + V and a short how-to.",
+          "s": "Yes, we should set personal goals each sprint. It helps each member improve steadily. We can add one learning task per sprint."
+        },
+        {
+          "p": "Can you give an example of feedback you will share next review?",
+          "m": "1. Viết một phản hồi tích cực ngắn.\n2. Viết một góp ý cải thiện ngắn.\n3. Nói khi bạn sẽ đưa feedback đó.",
+          "h": "Use will + V and simple positive/constructive phrasing.",
+          "s": "I will praise the team for meeting the deadline. I will suggest clearer ticket descriptions to avoid confusion. I will share this in next Monday's review."
+        },
+        {
+          "p": "How will you measure success after changes?",
+          "m": "1. Nêu hai chỉ số ngắn để đo (metrics).\n2. Nói ai sẽ theo dõi.\n3. Nói khi bạn sẽ đánh giá lại.",
+          "h": "Use will + V and present simple for who.",
+          "s": "We will measure response time and error rate. The QA lead will monitor these metrics. We will review results after two weeks."
+        }
+      ]
+    }
+  ]
+}

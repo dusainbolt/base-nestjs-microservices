@@ -1,0 +1,600 @@
+{
+  "l": 3,
+  "d": [
+    {
+      "t": "Cửa hàng quần áo",
+      "e": [
+        {
+          "p": "I want this shirt.",
+          "m": "Đề xuất 1 món kết hợp (ví dụ: quần hoặc thắt lưng). Nêu lợi ích ngắn gọn hoặc giá (ví dụ: giảm giá khi mua bộ).",
+          "h": "Dùng 'Would you like...' hoặc 'You can get...'.",
+          "s": "Would you like matching trousers with that shirt? You can get both with a 10% discount."
+        },
+        {
+          "p": "Is there a jacket to go with this outfit?",
+          "m": "Giới thiệu 1 mẫu áo khoác phù hợp. So sánh ngắn: áo khoác mới hơn/ấm hơn/ít đắt hơn.",
+          "h": "Dùng so sánh: 'more ... than' hoặc '-er than'.",
+          "s": "This jacket is warmer than the one in the window. It is also less expensive and matches your shirt."
+        },
+        {
+          "p": "I only need a shirt, I am on a budget.",
+          "m": "Đề xuất 1 lựa chọn rẻ hơn hoặc gợi ý trả góp/phiên bản sale. Nói rõ tại sao nên chọn cách đó.",
+          "h": "Dùng 'You should...' hoặc 'You can...' + lợi ích.",
+          "s": "You should try the cotton version; it is cheaper. You can also wait for tomorrow's sale to save more."
+        },
+        {
+          "p": "Do you have matching shoes?",
+          "m": "Đề xuất 1 đôi giày phù hợp và cho biết kích thước/giá tóm tắt. Hỏi nếu khách muốn thử.",
+          "h": "Dùng 'Would you like to try...' và 'They cost...'.",
+          "s": "We have black leather shoes that match; they cost $60. Would you like to try them on?"
+        },
+        {
+          "p": "I bought this shirt yesterday but I changed my mind.",
+          "m": "Đề xuất nâng cấp/đổi sang sản phẩm khác hoặc gợi ý thêm phụ kiện cho món đã mua. Nêu lý do ngắn vì sao đổi/nâng cấp tốt.",
+          "h": "Dùng 'You can...' hoặc 'It would be better...' và nguyên nhân ngắn.",
+          "s": "You can exchange it for a premium shirt with a better fit. It would be better because the premium one lasts longer."
+        }
+      ]
+    },
+    {
+      "t": "Quầy cà phê nhanh",
+      "e": [
+        {
+          "p": "One medium latte, please.",
+          "m": "Gợi ý nâng cấp kích thước hoặc thêm topping. Nêu giá chênh lệch hoặc lợi ích (ví dụ: nhiều cà phê hơn).",
+          "h": "Dùng 'Would you like to upgrade to...' hoặc 'It costs... more'.",
+          "s": "Would you like to upgrade to a large for $0.50 more? It has more espresso and lasts longer."
+        },
+        {
+          "p": "Do you have pastries?",
+          "m": "Đề xuất 1 loại pastry phù hợp với đồ uống. Nêu lý do tại sao hợp (vị/ngọt).",
+          "h": "Dùng 'It goes well with...' hoặc 'It is...'.",
+          "s": "A croissant goes well with your latte. It is light and not too sweet."
+        },
+        {
+          "p": "I am in a hurry.",
+          "m": "Đề xuất một combo nhanh, nói rằng nó tiết kiệm thời gian hoặc giá. Hỏi có chấp nhận combo không.",
+          "h": "Dùng 'You can get...' và 'It saves...'.",
+          "s": "You can get a coffee + pastry combo; it is ready faster and saves $1. Would you like that?"
+        },
+        {
+          "p": "Can I have an extra shot?",
+          "m": "Xác nhận chi phí thêm và đề nghị cân nhắc kích thước lớn hơn. Nêu lợi ích từng lựa chọn.",
+          "h": "Dùng 'It costs...' và 'Or you can...' để so sánh.",
+          "s": "An extra shot costs $0.75. Or you can upgrade to a large which includes the extra shot."
+        },
+        {
+          "p": "I usually order the small americano.",
+          "m": "Đưa ra gợi ý để khách thử thứ mới (ví dụ: latte) và nêu lý do ngắn (thay đổi vị/tốt hơn buổi sáng).",
+          "h": "Dùng 'You should try...' hoặc 'It is better for...'.",
+          "s": "You should try a latte for a creamier taste. It is better if you want something smoother in the morning."
+        }
+      ]
+    },
+    {
+      "t": "Nhà hàng - Gợi ý món ăn",
+      "e": [
+        {
+          "p": "I will have the grilled chicken.",
+          "m": "Đề xuất một món khai vị hoặc salad để kèm. Nêu lợi ích ngắn (thêm rau/đầy đủ bữa).",
+          "h": "Dùng 'Would you like...' và 'It adds...'.",
+          "s": "Would you like a side salad with your grilled chicken? It adds vegetables and makes the meal complete."
+        },
+        {
+          "p": "Is dessert included?",
+          "m": "Giải thích nếu không và đề xuất 1 món tráng miệng phù hợp. Nói ngắn về giá hoặc hương vị.",
+          "h": "Dùng 'It is not included' và 'I recommend...'.",
+          "s": "Dessert is not included with the main. I recommend the chocolate cake; it is rich and costs $4."
+        },
+        {
+          "p": "I have a food allergy to nuts.",
+          "m": "Đưa ra lựa chọn an toàn thay thế cho khách và nói ngắn tại sao an toàn. Hỏi khách có muốn thử.",
+          "h": "Dùng 'You can have...' và 'because...'.",
+          "s": "You can have the fish with steamed vegetables because it has no nuts. Would you like to try that?"
+        },
+        {
+          "p": "We are hungry and want to share.",
+          "m": "Gợi ý một phần lớn hoặc combo để chia sẻ. Nêu lợi ích về kích thước hoặc giá.",
+          "h": "Dùng 'It would be better to...' và 'It serves...'.",
+          "s": "It would be better to order the family platter; it serves four and costs less per person. It is great for sharing."
+        },
+        {
+          "p": "Can I get a wine with this dish?",
+          "m": "Gợi ý 1 loại rượu hợp với món và nói tại sao hợp (vị/tempered). Đưa ra lựa chọn giá rẻ hơn nếu khách hỏi.",
+          "h": "Dùng 'I suggest...' và 'It pairs well because...'.",
+          "s": "I suggest the white wine; it pairs well because it is light and acidic. If you prefer cheaper, we have a house white."
+        }
+      ]
+    },
+    {
+      "t": "Cửa hàng điện tử",
+      "e": [
+        {
+          "p": "I want this phone.",
+          "m": "Đề nghị 1 phụ kiện cần thiết (ốp lưng, sạc). Nêu lợi ích ngắn hoặc giá combo.",
+          "h": "Dùng 'Would you like...' và 'It protects/charges...'.",
+          "s": "Would you like a protective case with that phone? It protects the phone and we offer both for $20 less."
+        },
+        {
+          "p": "Does it have a warranty?",
+          "m": "Giải thích ngắn về bảo hành cơ bản và đề xuất gia hạn bảo hành trả phí. Nêu lợi ích (bảo vệ lâu dài).",
+          "h": "Dùng 'It includes...' và 'You can buy extended...'.",
+          "s": "It includes a one-year standard warranty. You can buy extended coverage for two years for extra protection."
+        },
+        {
+          "p": "I want better sound.",
+          "m": "Gợi ý tai nghe hoặc loa phù hợp và so sánh ngắn (better sound/more bass).",
+          "h": "Dùng so sánh 'better than' hoặc 'more... than'.",
+          "s": "These wireless earphones have better bass than standard earbuds. They are more comfortable for long use."
+        },
+        {
+          "p": "Do you offer any student discounts?",
+          "m": "Nói nếu có hoặc không, rồi đề xuất 1 gói giảm giá hoặc trả góp. Nêu điều kiện ngắn nếu cần.",
+          "h": "Dùng 'We offer...' hoặc 'If you are a student, you can...'.",
+          "s": "We offer a student discount with valid ID. If you prefer, you can also choose a 3-month installment plan."
+        },
+        {
+          "p": "I bought a laptop last week but the battery is weak.",
+          "m": "Đề nghị phụ kiện hoặc dịch vụ (pin thay, kiểm tra), nêu lợi ích/giá tóm tắt. Hỏi khách muốn làm gì.",
+          "h": "Dùng 'You can get...' hoặc 'We can...'.",
+          "s": "You can get a replacement battery from our service center; it improves life and costs $40. Would you like us to check it now?"
+        }
+      ]
+    },
+    {
+      "t": "Đặt phòng khách sạn",
+      "e": [
+        {
+          "p": "I booked a standard room.",
+          "m": "Đề nghị nâng cấp phòng (ví dụ: phòng có ban công). Nêu giá chênh hoặc lợi ích ngắn.",
+          "h": "Dùng 'Would you like to upgrade to...' và 'It costs... more'.",
+          "s": "Would you like to upgrade to a room with a balcony? It costs $20 more and has a nicer view."
+        },
+        {
+          "p": "Do you offer breakfast?",
+          "m": "Giải thích nếu có/không và đề nghị gói bao gồm bữa sáng. Nêu lợi ích (tiện lợi/tiết kiệm).",
+          "h": "Dùng 'We offer...' và 'It saves...'.",
+          "s": "We offer a breakfast package for $8 per person. It saves time and includes a buffet."
+        },
+        {
+          "p": "I need early check-in.",
+          "m": "Đề xuất dịch vụ check-in sớm có phí hoặc gợi ý giữ hành lý miễn phí. Nêu lợi ích ngắn.",
+          "h": "Dùng 'You can pay...' hoặc 'We can hold...'.",
+          "s": "You can pay $15 for early check-in so your room is ready. Or we can hold your luggage for free."
+        },
+        {
+          "p": "Is there a gym or pool?",
+          "m": "Nói về tiện nghi có sẵn và đề xuất gói có quyền truy cập (ví dụ: spa). Nêu lợi ích ngắn.",
+          "h": "Dùng 'It includes...' hoặc 'You can access...'.",
+          "s": "The gym is free for guests and the pool is available with a spa pass. You can access the spa for $12 per day."
+        },
+        {
+          "p": "We are celebrating an anniversary.",
+          "m": "Gợi ý dịch vụ bổ sung (bó hoa, trang trí, bữa tối lãng mạn). Nêu giá/ lợi ích ngắn và hỏi khách có muốn.",
+          "h": "Dùng 'We can arrange...' và 'It will make...'.",
+          "s": "We can arrange flowers and a room decoration for $30. It will make your celebration more special; would you like that?"
+        }
+      ]
+    },
+    {
+      "t": "Đặt vé máy bay",
+      "e": [
+        {
+          "p": "I booked a basic economy ticket.",
+          "m": "Đề nghị nâng cấp chỗ ngồi (ví dụ: extra legroom). Nêu chi phí hoặc lợi ích ngắn.",
+          "h": "Dùng 'Would you like to upgrade to...' và 'It costs...'.",
+          "s": "Would you like to upgrade to an extra legroom seat? It costs $35 and gives you more space."
+        },
+        {
+          "p": "Can I add a checked bag?",
+          "m": "Nói chi phí thêm và đề xuất mua gói nhiều hành lý nếu rẻ hơn. Nêu lợi ích ngắn.",
+          "h": "Dùng 'It costs...' và 'Or you can buy a bag package for...'.",
+          "s": "A checked bag costs $30. Or you can buy a two-bag package for $50 which is cheaper overall."
+        },
+        {
+          "p": "I want to choose my seat.",
+          "m": "Đề xuất chỗ ngồi tốt hơn (cửa sổ/lối đi) và nêu lý do ngắn (thoải mái/tiện).",
+          "h": "Dùng 'I recommend...' và 'because...'.",
+          "s": "I recommend a window seat for a nice view. It is more comfortable if you like to rest."
+        },
+        {
+          "p": "I will travel with my family.",
+          "m": "Đề xuất gói gia đình (đặt chỗ cạnh nhau hoặc ưu đãi). Nêu lợi ích ngắn (tiện/tiết kiệm).",
+          "h": "Dùng 'We offer a family package...' và 'It saves...'.",
+          "s": "We offer a family package to reserve seats together and save on baggage. It saves money and keeps you close."
+        },
+        {
+          "p": "My flight was delayed yesterday.",
+          "m": "Đề xuất bồi thường hoặc ưu đãi cho chuyến sau (ví dụ: upgrade miễn phí hoặc voucher). Nêu điều kiện ngắn.",
+          "h": "Dùng 'We can offer...' và 'if...'.",
+          "s": "We can offer a $20 voucher for your next trip if you keep your booking with us. It is valid for six months."
+        }
+      ]
+    },
+    {
+      "t": "Thuê xe",
+      "e": [
+        {
+          "p": "I booked a compact car.",
+          "m": "Đề nghị nâng cấp lên xe lớn hơn hoặc SUV. Nêu lợi ích (space, comfort) và phí chênh lệch.",
+          "h": "Dùng 'Would you like to upgrade...' và 'It is more...'.",
+          "s": "Would you like to upgrade to a mid-size or SUV? It is more comfortable and costs $15 more per day."
+        },
+        {
+          "p": "Do I need insurance?",
+          "m": "Giải thích ngắn các lựa chọn bảo hiểm và đề xuất mua bảo hiểm đầy đủ. Nêu lợi ích an toàn.",
+          "h": "Dùng 'You can choose...' hoặc 'We recommend...'.",
+          "s": "You can choose basic or full insurance. We recommend full insurance for peace of mind on the road."
+        },
+        {
+          "p": "I will drive in the mountains.",
+          "m": "Đề xuất tính năng cần thiết (GPS, chains) và nêu lợi ích ngắn. Hỏi nếu khách muốn thêm.",
+          "h": "Dùng 'You should...' hoặc 'We can add...'.",
+          "s": "You should add GPS for easy navigation. We can add it for $5 per day; would you like that?"
+        },
+        {
+          "p": "Can I return the car in another city?",
+          "m": "Nói phí trả xe khác nơi và đề nghị trả thêm tiền để miễn phí hoặc giảm phí. Nêu lợi ích ngắn.",
+          "h": "Dùng 'It costs...' và 'Or you can pay...' để so sánh.",
+          "s": "Returning in another city costs an extra fee. Or you can pay $40 to waive the fee and save hassle."
+        },
+        {
+          "p": "We have two children and a lot of luggage.",
+          "m": "Đề nghị ghế trẻ em hoặc thanh mái/xe lớn hơn. Nêu lợi ích/giá ngắn và hỏi khách chọn gì.",
+          "h": "Dùng 'We can provide...' và 'It helps...'.",
+          "s": "We can provide a child seat and a roof box for luggage; it helps keep the car safe and organized. Would you like both?"
+        }
+      ]
+    },
+    {
+      "t": "Hiệu làm đẹp",
+      "e": [
+        {
+          "p": "I want a haircut.",
+          "m": "Gợi ý thêm 1 dịch vụ nhỏ (gội đầu, tạo kiểu) và nêu lợi ích ngắn. Hỏi khách có muốn thêm không.",
+          "h": "Dùng 'Would you like...' và 'It will...'.",
+          "s": "Would you like a shampoo and blow-dry with your haircut? It will give a nicer finish."
+        },
+        {
+          "p": "Do you have a facial treatment?",
+          "m": "Giới thiệu 1 loại chăm sóc da phù hợp và nêu lợi ích ngắn (sạch mụn/ẩm).",
+          "h": "Dùng 'I recommend...' và 'because...'.",
+          "s": "I recommend the hydrating facial because it restores moisture and feels relaxing."
+        },
+        {
+          "p": "I have a special event tomorrow.",
+          "m": "Đề xuất gói làm đẹp trọn gói (makeup + tóc) và nêu lý do ngắn tại sao tiện. Hỏi nếu khách muốn đặt.",
+          "h": "Dùng 'We can offer...' và 'It is convenient because...'.",
+          "s": "We can offer a hair and makeup package for your event. It is convenient because we prepare both together and save time."
+        },
+        {
+          "p": "I bought a shampoo from you last time.",
+          "m": "Đề nghị sản phẩm bổ sung (dầu xả, serum) và nói ngắn vì sao dùng thêm. Hỏi có muốn mua combo không.",
+          "h": "Dùng 'You can use...' và 'It helps...'.",
+          "s": "You can use the conditioner and hair serum with that shampoo; it helps repair and smooth hair. Would you like the combo?"
+        },
+        {
+          "p": "I want to save money on regular visits.",
+          "m": "Đề xuất thẻ thành viên hoặc gói dịch vụ định kỳ và nêu lợi ích ngắn (giảm giá/ưu tiên).",
+          "h": "Dùng 'You can get...' và 'It gives...'.",
+          "s": "You can get a membership that gives 15% off regular services. It gives priority booking and saves money."
+        }
+      ]
+    },
+    {
+      "t": "Hiệu sách",
+      "e": [
+        {
+          "p": "I'll buy this novel.",
+          "m": "Đề xuất sách cùng thể loại hoặc một bản bìa cứng. Nêu lợi ích ngắn (nhiều nội dung hơn/đẹp hơn).",
+          "h": "Dùng 'Would you like...' và 'It is...'.",
+          "s": "Would you like another novel by the same author? The hardcover edition is nicer and lasts longer."
+        },
+        {
+          "p": "Do you have bookmarks or a gift wrap?",
+          "m": "Đề nghị gói quà hoặc bookmark miễn phí/thu phí và nêu lợi ích ngắn. Hỏi nếu khách muốn gói.",
+          "h": "Dùng 'We offer...' và 'It makes...'.",
+          "s": "We offer gift wrapping for $2 and free bookmarks with every purchase. It makes the book ready to give as a present."
+        },
+        {
+          "p": "I'm buying a textbook for school.",
+          "m": "Gợi ý sách bài tập hoặc tài liệu tham khảo bổ sung. Nêu lợi ích ngắn (học tốt hơn).",
+          "h": "Dùng 'You should also get...' và 'It helps...'.",
+          "s": "You should also get the workbook to practice; it helps you understand the lessons better."
+        },
+        {
+          "p": "Is there a discount for multiple books?",
+          "m": "Nói về chương trình giảm giá nếu có và đề xuất mua theo bộ để tiết kiệm. Nêu tóm tắt lợi ích.",
+          "h": "Dùng 'If you buy... you get...' hoặc 'It saves...'.",
+          "s": "If you buy three books you get 10% off. It saves money and is good if you read often."
+        },
+        {
+          "p": "I want a present for a 10-year-old.",
+          "m": "Đề xuất 1-2 cuốn sách phù hợp theo tuổi và thêm gợi ý quà tặng kèm (đồ chơi nhỏ). Nêu lý do ngắn.",
+          "h": "Dùng 'I recommend...' và 'because...'.",
+          "s": "I recommend an adventure book and a picture encyclopedia because they are fun and educational. Would you like a small toy with that?"
+        }
+      ]
+    },
+    {
+      "t": "Dịch vụ đăng ký - Subscription",
+      "e": [
+        {
+          "p": "I want the basic plan.",
+          "m": "Gợi ý nâng cấp lên gói premium hoặc thêm tính năng. Nêu lợi ích ngắn (thêm lưu trữ/không quảng cáo) và giá chênh.",
+          "h": "Dùng 'Would you like to upgrade...' và 'It includes...'.",
+          "s": "Would you like to upgrade to the Premium plan? It includes extra storage and no ads for $3 more per month."
+        },
+        {
+          "p": "Can I pay monthly only?",
+          "m": "Giải thích tùy chọn thanh toán và đề xuất trả hàng năm để tiết kiệm. Nêu tỉ lệ tiết kiệm ngắn.",
+          "h": "Dùng 'If you pay yearly...' và 'you save...'.",
+          "s": "If you pay yearly you save two months' fees. Monthly is fine, but yearly is cheaper overall."
+        },
+        {
+          "p": "I only use it on weekends.",
+          "m": "Đề xuất gói rẻ hơn theo sử dụng hoặc tạm dừng dịch vụ. Nêu lợi ích ngắn.",
+          "h": "Dùng 'You can choose...' và 'It will...'.",
+          "s": "You can choose a weekend-only plan which is cheaper. It will lower your cost and fit your use."
+        },
+        {
+          "p": "We are a small team of three.",
+          "m": "Đề xuất gói nhóm hoặc licence nhiều user và nêu lợi ích ngắn (tiết kiệm/quản lý dễ).",
+          "h": "Dùng 'We offer a team plan...' và 'It allows...'.",
+          "s": "We offer a team plan for three users; it is cheaper per person. It allows easy account management."
+        },
+        {
+          "p": "I had a problem last month.",
+          "m": "Đề nghị bồi thường nhỏ (voucher/miễn phí) hoặc nâng cấp thử một tháng. Nêu điều kiện ngắn.",
+          "h": "Dùng 'We can offer...' và 'if...'.",
+          "s": "We can offer a one-month free upgrade if you keep your subscription. It lets you try premium features at no cost."
+        }
+      ]
+    },
+    {
+      "t": "Cửa hàng quà tặng",
+      "e": [
+        {
+          "p": "I will buy this toy for my niece.",
+          "m": "Đề xuất thêm gói quà hoặc 1 phụ kiện nhỏ. Nêu lợi ích ngắn (trang trí/hoàn thiện).",
+          "h": "Dùng 'Would you like...' và 'It makes...'.",
+          "s": "Would you like gift wrapping and a greeting card? It makes the present look special."
+        },
+        {
+          "p": "Do you have a bundle for birthdays?",
+          "m": "Giới thiệu 1 combo quà tặng có giảm giá và nêu lợi ích (tiết kiệm/đủ bộ).",
+          "h": "Dùng 'We have a bundle...' và 'you save...'.",
+          "s": "We have a birthday bundle with toy, card, and candy; you save 15%. It is a complete gift."
+        },
+        {
+          "p": "I need something for a baby shower.",
+          "m": "Gợi ý 1 món an toàn cho bé và đề xuất thêm dịch vụ gói quà. Nêu lý do ngắn.",
+          "h": "Dùng 'I recommend...' và 'because...'.",
+          "s": "I recommend a soft blanket and baby care set because they are safe and useful. We can gift-wrap them for you."
+        },
+        {
+          "p": "Can I add a note to the gift?",
+          "m": "Xác nhận có thể làm và đề nghị ghi tay/thiết kế thêm. Nêu giá/ lợi ích ngắn.",
+          "h": "Dùng 'We can write...' và 'It costs... or free'.",
+          "s": "We can write a handwritten note for free. Or we can print a custom card for $2 if you prefer."
+        },
+        {
+          "p": "I want to buy several small items.",
+          "m": "Đề xuất mua theo gói để được giảm giá hoặc gói thành set quà. Nêu lợi ích ngắn.",
+          "h": "Dùng 'If you buy...' và 'you get...'.",
+          "s": "If you buy five small items you get 10% off. We can also pack them as one gift set for convenience."
+        }
+      ]
+    },
+    {
+      "t": "Siêu thị - Thanh toán tại quầy",
+      "e": [
+        {
+          "p": "Just these items.",
+          "m": "Gợi ý mua số lượng lớn hơn (ví dụ: pack family) và nêu lợi ích về giá. Hỏi khách có muốn thay không.",
+          "h": "Dùng 'Would you like to buy... for...' và 'It saves...'.",
+          "s": "Would you like the family pack instead? It saves money per item."
+        },
+        {
+          "p": "Do you have a loyalty card?",
+          "m": "Giải thích ngắn nếu có và đề xuất đăng ký ngay để được giảm giá. Nêu lợi ích (ưu đãi/điểm).",
+          "h": "Dùng 'You can sign up...' và 'It gives...'.",
+          "s": "You can sign up for our loyalty card at the counter. It gives discounts and earns points."
+        },
+        {
+          "p": "I only want one bottle.",
+          "m": "Đề xuất mua 2 để được giảm giá hoặc đề xuất sản phẩm tương tự rẻ hơn. Nêu lợi ích ngắn.",
+          "h": "Dùng 'If you buy two...' hoặc 'Or choose...'.",
+          "s": "If you buy two bottles you get 20% off. Or choose the store brand which is cheaper but similar quality."
+        },
+        {
+          "p": "Can I use a coupon?",
+          "m": "Xác nhận loại coupon và đề xuất sản phẩm chạy khuyến mãi tương ứng. Nêu lợi ích ngắn.",
+          "h": "Dùng 'This coupon applies to...' và 'You save...'.",
+          "s": "This coupon applies to dairy products and gives $1 off. You can use it on the milk in your basket."
+        },
+        {
+          "p": "I'm shopping for a party tonight.",
+          "m": "Đề xuất món ăn hoặc đồ uống theo số người và gợi ý combo tiết kiệm. Nêu lợi ích ngắn.",
+          "h": "Dùng 'We recommend...' và 'It serves...'.",
+          "s": "We recommend the party snack pack; it serves six people. It is cheaper than buying each item separately."
+        }
+      ]
+    },
+    {
+      "t": "Cửa hàng đồ gia dụng",
+      "e": [
+        {
+          "p": "I need a kettle.",
+          "m": "Đề nghị 1 mẫu có chức năng thêm (điều khiển nhiệt, nhanh) và nêu lợi ích ngắn hoặc giá chênh.",
+          "h": "Dùng 'Would you like...' và 'It is faster/has...'.",
+          "s": "Would you like a kettle with temperature control? It is faster and better for tea, but costs $10 more."
+        },
+        {
+          "p": "Is installation included?",
+          "m": "Giải thích nếu có/không và đề nghị dịch vụ lắp đặt trả phí. Nêu lợi ích ngắn (tiện/đảm bảo).",
+          "h": "Dùng 'We include...' hoặc 'We can install...' và 'for...'.",
+          "s": "Installation is not included for this model. We can install it for $25 which ensures proper setup."
+        },
+        {
+          "p": "I want energy-saving options.",
+          "m": "Gợi ý sản phẩm tiết kiệm điện và nêu lợi ích ngắn (tiết kiệm tiền/ngắn hạn).",
+          "h": "Dùng 'This model uses...' và 'It saves...'.",
+          "s": "This model uses less energy than older ones. It saves money on your electricity bill over time."
+        },
+        {
+          "p": "Do you have a warranty service?",
+          "m": "Nêu thời hạn bảo hành và đề xuất mua bảo hành mở rộng nếu có. Nêu lợi ích ngắn.",
+          "h": "Dùng 'It comes with...' và 'You can buy...'.",
+          "s": "It comes with a one-year warranty. You can buy an extended two-year plan for extra protection."
+        },
+        {
+          "p": "I plan to cook more at home.",
+          "m": "Đề nghị bộ dụng cụ bếp hoặc lò nướng phù hợp và nêu lợi ích ngắn (tiết kiệm/nhanh).",
+          "h": "Dùng 'We recommend a set...' và 'It helps...'.",
+          "s": "We recommend a cookware set; it helps you cook many dishes and is durable. It is cheaper than buying pieces separately."
+        }
+      ]
+    },
+    {
+      "t": "Dịch vụ chăm sóc sức khỏe tại hiệu thuốc",
+      "e": [
+        {
+          "p": "I need vitamins.",
+          "m": "Đề xuất loại vitamin phù hợp (ví dụ: vitamin C or multivitamin) và nêu lợi ích ngắn. Hỏi khách có tiền sử bệnh không nếu cần.",
+          "h": "Dùng 'I recommend...' và 'because...'.",
+          "s": "I recommend a daily multivitamin because it covers more nutrients. Do you have any medical conditions?"
+        },
+        {
+          "p": "Do you sell hand sanitizer in bulk?",
+          "m": "Nói về gói số lượng lớn và đề xuất mua gói để tiết kiệm. Nêu lợi ích ngắn.",
+          "h": "Dùng 'If you buy... you save...' và 'It is...'.",
+          "s": "If you buy the bulk pack you save 20%. It is convenient for home use."
+        },
+        {
+          "p": "My cough is worse at night.",
+          "m": "Đề nghị 1 loại siro hoặc sản phẩm không kê đơn phù hợp và nêu lý do ngắn tại sao phù hợp. Hỏi nếu khách muốn thử.",
+          "h": "Dùng 'You can try...' và 'because...'.",
+          "s": "You can try the nighttime cough syrup because it soothes and helps you sleep. Would you like to try it?"
+        },
+        {
+          "p": "I buy this pain relief cream often.",
+          "m": "Đề xuất mua theo gói để tiết kiệm hoặc thay sản phẩm tốt hơn. Nêu lợi ích ngắn.",
+          "h": "Dùng 'Buying a pack...' hoặc 'We have a stronger formula...'.",
+          "s": "Buying a pack of three saves you money per tube. Or we have a stronger formula if you need more relief."
+        },
+        {
+          "p": "I have a membership card here.",
+          "m": "Giải thích ưu đãi khi dùng thẻ (giảm giá/điểm) và đề nghị đăng ký gói dịch vụ định kỳ. Nêu lợi ích ngắn.",
+          "h": "Dùng 'With the card you get...' và 'You can subscribe to...'.",
+          "s": "With the card you get 10% off and points for every purchase. You can subscribe for monthly delivery to save time."
+        }
+      ]
+    },
+    {
+      "t": "Ôn tập: Tăng giá trị đơn hàng - 1",
+      "e": [
+        {
+          "p": "I'm buying a camera body.",
+          "m": "Đề xuất 1 ống kính phù hợp. Nêu lợi ích ngắn (chụp gần/xa).",
+          "h": "Dùng 'Would you like...' và 'It is good for...'.",
+          "s": "Would you like a 50mm lens with that camera? It is great for portraits and low-light shots."
+        },
+        {
+          "p": "Do you offer a student plan?",
+          "m": "Giải thích về giảm giá cho sinh viên và đề nghị gói có thêm tính năng miễn phí thử. Nêu lợi ích ngắn.",
+          "h": "Dùng 'We offer...' và 'It includes...'.",
+          "s": "We offer a student discount with valid ID. It includes a free one-month trial of premium features."
+        },
+        {
+          "p": "I need a last-minute gift.",
+          "m": "Đề xuất gói quà nhanh (voucher + gói quà) và nêu lợi ích ngắn (tiện/nhanh).",
+          "h": "Dùng 'You can get...' và 'It is...'.",
+          "s": "You can get a gift voucher and quick wrapping service. It is fast and looks presentable."
+        },
+        {
+          "p": "My tablet screen cracked yesterday.",
+          "m": "Đề xuất dịch vụ sửa hoặc bảo hiểm thay thế. Nêu lợi ích ngắn và chi phí tóm tắt.",
+          "h": "Dùng 'We can repair...' và 'or buy...' so sánh.",
+          "s": "We can repair the screen for $80 or you can buy an extended warranty for future repairs. The warranty saves money if more issues happen."
+        },
+        {
+          "p": "Can I get a refund?",
+          "m": "Ghi ngắn chính sách trả hàng (có/không) và đề xuất đổi/mua voucher nếu không hoàn tiền. Nêu lợi ích ngắn.",
+          "h": "Dùng 'We can refund if...' hoặc 'We can offer...'.",
+          "s": "We can refund within 14 days with the receipt. If not, we can offer an exchange or store voucher."
+        }
+      ]
+    },
+    {
+      "t": "Ôn tập: Tăng giá trị đơn hàng - 2",
+      "e": [
+        {
+          "p": "I want a gym membership.",
+          "m": "Đề xuất gói có huấn luyện cá nhân hoặc thêm lớp nhóm. Nêu lợi ích ngắn (kết quả nhanh hơn).",
+          "h": "Dùng 'Would you like...' và 'It helps...'.",
+          "s": "Would you like a membership with one personal training session? It helps you reach goals faster."
+        },
+        {
+          "p": "Is there a family discount?",
+          "m": "Nói về ưu đãi cho gia đình và đề xuất mua gói nhiều người. Nêu lợi ích ngắn.",
+          "h": "Dùng 'We have a family plan...' và 'It saves...'.",
+          "s": "We have a family plan for up to four members; it saves on monthly fees. It is ideal for families who train together."
+        },
+        {
+          "p": "I ordered online but I want faster delivery.",
+          "m": "Đề xuất nâng cấp giao hàng nhanh và nêu chi phí/ lợi ích ngắn. Hỏi khách có muốn thay đổi.",
+          "h": "Dùng 'You can upgrade to...' và 'It costs...'.",
+          "s": "You can upgrade to express shipping for $8. It costs more but your order arrives tomorrow."
+        },
+        {
+          "p": "I bought shoes but they are tight.",
+          "m": "Đề nghị đổi sang loại rộng hơn hoặc gợi ý cỡ lớn hơn. Nêu lợi ích ngắn và hỏi khách muốn đổi ngay không.",
+          "h": "Dùng 'You can exchange...' và 'It will be...'.",
+          "s": "You can exchange them for a wider model or a half size up. It will be more comfortable for daily wear; would you like to exchange now?"
+        },
+        {
+          "p": "I have a coupon for $10 off.",
+          "m": "Xác nhận cách sử dụng coupon và đề xuất mua thêm để đạt giá trị tối đa. Nêu lợi ích ngắn.",
+          "h": "Dùng 'You can use it on...' và 'If you add...' để khuyến khích.",
+          "s": "You can use it on orders over $30. If you add one more item, you will save $10 on the total."
+        }
+      ]
+    },
+    {
+      "t": "Ôn tập: Tăng giá trị đơn hàng - 3",
+      "e": [
+        {
+          "p": "I want to cancel my streaming subscription.",
+          "m": "Đề nghị giảm giá hoặc gói rẻ hơn để giữ khách. Nêu lợi ích ngắn và hỏi khách muốn giữ không.",
+          "h": "Dùng 'We can offer...' và 'It costs...'.",
+          "s": "We can offer a discounted monthly rate for three months. It costs less and lets you keep your account."
+        },
+        {
+          "p": "My kids need new school supplies.",
+          "m": "Đề xuất bộ dụng cụ học tập hoặc gói tiết kiệm cho nhiều món. Nêu lợi ích ngắn (tiết kiệm/đủ đồ).",
+          "h": "Dùng 'We have a school kit...' và 'It includes...'.",
+          "s": "We have a school kit that includes pens, notebooks, and a pencil case. It saves money and has everything they need."
+        },
+        {
+          "p": "I bought a bike last month and I want accessories.",
+          "m": "Đề xuất mũ bảo hiểm hoặc đèn an toàn phù hợp và nêu lợi ích ngắn. Hỏi khách muốn mua combo không.",
+          "h": "Dùng 'You should...' và 'It helps...'.",
+          "s": "You should get a helmet and front light for safety. We can sell them as a combo for a small discount; would you like that?"
+        },
+        {
+          "p": "Do you have meal kits?",
+          "m": "Giới thiệu 1 loại meal kit phù hợp với nhu cầu (nhanh/dinh dưỡng) và nêu lợi ích ngắn. Hỏi khách muốn đặt thử.",
+          "h": "Dùng 'I recommend...' và 'It is...'.",
+          "s": "I recommend the 30-minute meal kit; it is quick and healthy. Would you like to try it this week?"
+        },
+        {
+          "p": "I want help carrying my items to the car.",
+          "m": "Đề nghị dịch vụ giao hàng hoặc giúp mang ra xe có phí/miễn phí. Nêu lợi ích ngắn và hỏi khách chọn phương án.",
+          "h": "Dùng 'We can deliver...' và 'or we can assist for...'.",
+          "s": "We can deliver your items to your home for $10. Or we can assist carrying them to your car for free; which do you prefer?"
+        }
+      ]
+    }
+  ]
+}

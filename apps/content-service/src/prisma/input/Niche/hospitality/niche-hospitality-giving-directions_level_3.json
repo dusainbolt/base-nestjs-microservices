@@ -1,0 +1,565 @@
+{
+  "l": 3,
+  "d": [
+    {
+      "t": "Đón khách ở sảnh",
+      "e": [
+        {
+          "p": "Where is the check-in desk?",
+          "m": "Nói bạn đang tìm quầy lễ tân. Hỏi xem nhân viên có thể chỉ đường cho bạn được không.",
+          "h": "Dùng 'I'm looking for...' hoặc 'Where is...' và 'Could you...?'",
+          "s": "I'm looking for the check-in desk. Could you show me where it is?"
+        },
+        {
+          "p": "Can I get a luggage cart?",
+          "m": "Yêu cầu mượn xe đẩy hành lý. Nói số lượng hành lý bạn có.",
+          "h": "Dùng 'I need' hoặc 'Could I borrow' và 'I have + number + bags'.",
+          "s": "Could I borrow a luggage cart? I have two bags."
+        },
+        {
+          "p": "Is breakfast included with my room?",
+          "m": "Nói bạn đã đặt phòng. Hỏi liệu bữa sáng có được bao gồm. Nếu có, hỏi giờ phục vụ.",
+          "h": "Dùng Present Simple: 'Is/Are' và 'when' để hỏi thời gian.",
+          "s": "I booked a room for tonight. Is breakfast included, and what time is it served?"
+        },
+        {
+          "p": "Can you show me the elevator to the third floor?",
+          "m": "Nói bạn cần lên tầng ba. Hỏi thang máy gần nhất ở đâu. Nói bạn có hành lý nặng và cần giúp đỡ.",
+          "h": "Dùng 'I need to go to...' + 'because' cho lý do; 'Where is the nearest...' để hỏi vị trí.",
+          "s": "I need to go to the third floor. Where is the nearest elevator, because I have heavy luggage and need help."
+        },
+        {
+          "p": "I can't find my reservation on the list.",
+          "m": "Cho biết tên đặt phòng (dùng placeholder). Nói khi bạn đã đặt (ví dụ: hôm qua). Yêu cầu nhân viên kiểm tra lại và đề nghị giải pháp.",
+          "h": "Dùng Past Simple cho hành động đã xảy ra: 'I booked/I made a reservation'. Dùng 'Could you check' và 'will you...'.",
+          "s": "I booked a room under [studentName] and I made the reservation yesterday. Could you check again, and will you call the manager if needed?"
+        }
+      ]
+    },
+    {
+      "t": "Hỏi đường trong khách sạn",
+      "e": [
+        {
+          "p": "Where is the pool area?",
+          "m": "Hỏi vị trí hồ bơi trong khách sạn. Hỏi khoảng cách từ sảnh và thời gian mở cửa.",
+          "h": "Dùng 'Where is...' và 'How far is...' hoặc 'What time does it open?'.",
+          "s": "Where is the pool area, and how far is it from the lobby? What time does it open?"
+        },
+        {
+          "p": "Which way is the conference room?",
+          "m": "Nói bạn cần tới phòng họp. Hỏi đường đi cụ thể (bên trái/phải/qua cầu thang).",
+          "h": "Dùng chỉ hướng: 'turn left/right', 'go up/down the stairs'.",
+          "s": "I need to get to the conference room. Turn right at the lobby and go up the stairs."
+        },
+        {
+          "p": "Is there a business center here?",
+          "m": "Hỏi có trung tâm kinh doanh hay không. Nếu có, hỏi giờ mở và liệu có máy in hay không.",
+          "h": "Dùng 'Is there...' và 'Does it have...' cho vật dụng.",
+          "s": "Is there a business center here? If yes, what are its hours and does it have a printer?"
+        },
+        {
+          "p": "How do I get to the roof garden from here?",
+          "m": "Nói bạn muốn lên vườn trên tầng thượng. Hỏi thang hoặc thang máy nào dùng được. Hỏi liệu cửa mở cho khách hay không.",
+          "h": "Dùng 'How do I get to...' và 'Can I/Is it open to guests?'.",
+          "s": "I want to go to the roof garden. Which elevator or stairs should I use, and is it open to guests?"
+        },
+        {
+          "p": "Where is the nearest restroom?",
+          "m": "Hỏi vị trí toilet gần nhất. Nói nếu bạn cần nó ngay bây giờ (khẩn cấp). Hỏi đường ngắn nhất để tới đó.",
+          "h": "Dùng 'Where is the nearest...' và 'I need it now' hoặc 'It's urgent' + 'shortest way'.",
+          "s": "Where is the nearest restroom? I need it now, so please tell me the shortest way."
+        }
+      ]
+    },
+    {
+      "t": "Dẫn khách tới phòng",
+      "e": [
+        {
+          "p": "Which room number is mine?",
+          "m": "Nói bạn muốn biết số phòng của mình. Đề cập phương thức nhận khóa (thẻ hay chìa).",
+          "h": "Dùng 'What is my room number?' và 'Will I get a key/card?'.",
+          "s": "What is my room number and will I get a key card?"
+        },
+        {
+          "p": "Can someone help me with my bags to room 402?",
+          "m": "Yêu cầu trợ giúp mang hành lý. Nói số phòng rõ ràng. Hỏi khi nào phục vụ có thể tới.",
+          "h": "Dùng 'Could you help me' hoặc 'Can someone...' và 'when can you come?'.",
+          "s": "Could someone help me with my bags to room 402? When can staff come?"
+        },
+        {
+          "p": "Is the room ready now?",
+          "m": "Hỏi phòng đã sẵn sàng chưa. Nếu chưa, hỏi thời gian dự kiến sẵn sàng. Hỏi liệu bạn có thể để hành lý ở sảnh.",
+          "h": "Dùng Present Simple và 'if not, when will it be ready' và 'Can I leave my luggage'.",
+          "s": "Is the room ready now? If not, when will it be ready, and can I leave my luggage at the front desk?"
+        },
+        {
+          "p": "Do I have a view of the city from room 701?",
+          "m": "Hỏi liệu phòng cụ thể có nhìn ra thành phố không. So sánh nếu cần (phòng cao hơn tốt hơn). Hỏi có thể đổi phòng nếu cần không.",
+          "h": "Dùng 'Does it have a view?' và so sánh 'higher rooms are better' + 'Can I change rooms?'.",
+          "s": "Does room 701 have a city view? Higher rooms are usually better, so can I change rooms if not?"
+        },
+        {
+          "p": "I prefer a quieter room, can you arrange that?",
+          "m": "Nói bạn muốn phòng yên tĩnh. Hỏi cách khách sạn bố trí (xa thang máy?). Hỏi liệu họ sẽ thay đổi phòng và khi nào.",
+          "h": "Dùng 'I prefer...' và 'Can you arrange...' và 'when will you change it?'.",
+          "s": "I prefer a quieter room, away from the elevators. Can you arrange a room change and when will it be ready?"
+        }
+      ]
+    },
+    {
+      "t": "Chỉ đường tới dịch vụ khách sạn",
+      "e": [
+        {
+          "p": "How can I get to the spa?",
+          "m": "Hỏi đường tới spa. Hỏi có cần đặt trước hay không.",
+          "h": "Dùng 'How can I get to...' và 'Do I need to book in advance?'.",
+          "s": "How can I get to the spa, and do I need to book in advance?"
+        },
+        {
+          "p": "Is the hotel gym free for guests?",
+          "m": "Hỏi liệu phòng gym có miễn phí cho khách hay phải trả tiền. Nếu trả tiền, hỏi giá.",
+          "h": "Dùng 'Is... free' và 'If not, how much is it?'.",
+          "s": "Is the hotel gym free for guests, and if not, how much is the fee?"
+        },
+        {
+          "p": "Where is the hotel restaurant?",
+          "m": "Hỏi vị trí nhà hàng. Hỏi thời gian mở và nếu cần đặt chỗ vào tối nay.",
+          "h": "Dùng 'Where is...' và 'Is it open at...' và 'Can I reserve a table?'.",
+          "s": "Where is the hotel restaurant, what time does it open, and can I reserve a table for tonight?"
+        },
+        {
+          "p": "Do you have a shuttle to the airport?",
+          "m": "Hỏi có xe đưa đón sân bay không. Hỏi lịch trình và giá hoặc liệu nó miễn phí.",
+          "h": "Dùng 'Do you have...' và 'What time/How much/Is it free?'.",
+          "s": "Do you have a shuttle to the airport, what time does it run, and is there a charge?"
+        },
+        {
+          "p": "Can I get room service late at night?",
+          "m": "Hỏi room service có phục vụ khuya không. Hỏi giờ phục vụ và liệu có menu giới hạn.",
+          "h": "Dùng 'Can I get...' và 'What time/Is the menu limited?'.",
+          "s": "Can I get room service late at night? What hours do you serve and is the menu limited?"
+        }
+      ]
+    },
+    {
+      "t": "Tìm phương tiện ra ngoài khách sạn",
+      "e": [
+        {
+          "p": "Where can I find a taxi?",
+          "m": "Hỏi chỗ đứng taxi gần nhất. Hỏi họ có gọi taxi giúp không.",
+          "h": "Dùng 'Where can I find...' và 'Can you call a taxi for me?'.",
+          "s": "Where can I find a taxi stand nearby, and can you call a taxi for me?"
+        },
+        {
+          "p": "Is there a bus stop near the hotel?",
+          "m": "Hỏi có bến xe buýt gần không. Hỏi số tuyến và tần suất chạy.",
+          "h": "Dùng 'Is there...' và 'Which lines and how often?'.",
+          "s": "Is there a bus stop near the hotel, which lines stop there, and how often do they run?"
+        },
+        {
+          "p": "How do I get to the train station from here?",
+          "m": "Hỏi cách đến ga. Hỏi thời gian đi (approximate) và phương án nào nhanh nhất.",
+          "h": "Dùng 'How do I get to...' và 'How long does it take' và 'the fastest way is...'.",
+          "s": "How do I get to the train station, how long does it take, and what is the fastest way?"
+        },
+        {
+          "p": "Is it better to take a taxi or the subway to the museum?",
+          "m": "So sánh taxi và tàu điện (nhanh hơn/tiện hơn/đắt hơn). Chọn phương án bạn sẽ dùng và lý do ngắn gọn.",
+          "h": "Dùng comparatives: 'faster', 'cheaper', 'more convenient' và 'I will... because...'.",
+          "s": "The subway is cheaper but a taxi is faster. I will take the subway because it's more affordable."
+        },
+        {
+          "p": "Can I rent a bike nearby?",
+          "m": "Hỏi có chỗ thuê xe đạp gần đây không. Hỏi giá và thời gian thuê tối thiểu.",
+          "h": "Dùng 'Can I rent...' và 'How much/What is the minimum rental time?'.",
+          "s": "Can I rent a bike nearby, how much does it cost, and what is the minimum rental time?"
+        }
+      ]
+    },
+    {
+      "t": "Hỏi đường đến nhà hàng/café xung quanh",
+      "e": [
+        {
+          "p": "Where is a good local restaurant?",
+          "m": "Hỏi gợi ý nhà hàng địa phương gần khách sạn. Hỏi loại món ăn họ đề xuất.",
+          "h": "Dùng 'Where is a good...' và 'What type of food do you recommend?'.",
+          "s": "Where is a good local restaurant nearby, and what type of food do you recommend?"
+        },
+        {
+          "p": "How far is the nearest café?",
+          "m": "Hỏi khoảng cách đến quán cà phê gần nhất. Hỏi có đi bộ được không và mất bao lâu.",
+          "h": "Dùng 'How far is...' và 'Can you walk there/how long does it take?'.",
+          "s": "How far is the nearest café, can I walk there, and how long will it take?"
+        },
+        {
+          "p": "Can you recommend a cheaper place to eat?",
+          "m": "Yêu cầu gợi ý quán ăn rẻ hơn. Hỏi đường đi tới đó và thời gian mở cửa.",
+          "h": "Dùng 'Can you recommend...' và 'How do I get there/What are the opening hours?'.",
+          "s": "Can you recommend a cheaper place to eat, how do I get there, and what are its opening hours?"
+        },
+        {
+          "p": "Is there a vegetarian option nearby?",
+          "m": "Hỏi có lựa chọn ăn chay gần đây không. Hỏi liệu nhà hàng có menu chay hay món đơn lẻ.",
+          "h": "Dùng 'Is there...' và 'Does the restaurant have a vegetarian menu or some vegetarian dishes?'.",
+          "s": "Is there a vegetarian option nearby, and does the restaurant have a vegetarian menu or a few vegetarian dishes?"
+        },
+        {
+          "p": "Can you show me the way to a late-night snack place?",
+          "m": "Hỏi quán ăn khuya. Hỏi quãng đường và liệu nó an toàn đi bộ buổi tối.",
+          "h": "Dùng 'Can you show me the way to...' và 'Is it safe to walk at night?'.",
+          "s": "Can you show me the way to a late-night snack place, how far is it, and is it safe to walk there at night?"
+        }
+      ]
+    },
+    {
+      "t": "Mua vé và tham quan từ khách sạn",
+      "e": [
+        {
+          "p": "Do you sell tickets for city tours?",
+          "m": "Hỏi khách sạn có bán vé tour thành phố không. Hỏi giá và thời gian tour.",
+          "h": "Dùng 'Do you sell...' và 'How much/What time is the tour?'.",
+          "s": "Do you sell tickets for city tours, and how much do they cost and what time do they start?"
+        },
+        {
+          "p": "How long is the boat trip to the island?",
+          "m": "Hỏi thời lượng chuyến đi bằng thuyền. Hỏi giờ khởi hành và có bao gồm hướng dẫn viên không.",
+          "h": "Dùng 'How long is...' và 'Does it include a guide?'.",
+          "s": "How long is the boat trip to the island, what time does it leave, and does it include a guide?"
+        },
+        {
+          "p": "Can I book a half-day city tour for tomorrow?",
+          "m": "Yêu cầu đặt tour nửa ngày cho ngày mai. Nói số người và hỏi cách thanh toán.",
+          "h": "Dùng 'Can I book...' và 'for + number of people' + 'How can I pay?'.",
+          "s": "Can I book a half-day city tour for tomorrow for two people, and how can I pay?"
+        },
+        {
+          "p": "Is there a cheaper walking tour?",
+          "m": "Hỏi có tour đi bộ rẻ hơn không. So sánh nếu cần và hỏi điểm tập trung.",
+          "h": "Dùng 'Is there a cheaper...' và 'Where is the meeting point?'.",
+          "s": "Is there a cheaper walking tour available, and where is the meeting point?"
+        },
+        {
+          "p": "What should I bring for a mountain trip?",
+          "m": "Hỏi cần mang theo gì cho chuyến leo núi. Hỏi khách sạn có cho mượn đồ không và khuyên cần chuẩn bị gì.",
+          "h": "Dùng 'You should/You must' để khuyên và 'Do you provide/Can I borrow...'.",
+          "s": "You should bring good shoes and water. Do you provide any equipment, and what else should I prepare?"
+        }
+      ]
+    },
+    {
+      "t": "Lạc đường trên phố — hỏi người qua đường",
+      "e": [
+        {
+          "p": "Excuse me, where is Main Street?",
+          "m": "Hỏi đường tới Main Street. Hỏi có dấu hiệu rõ ràng hay không và liệu có đi bộ được.",
+          "h": "Dùng 'Where is...' và 'Can I walk there?'.",
+          "s": "Where is Main Street, is it well signposted, and can I walk there?"
+        },
+        {
+          "p": "Which way is the museum?",
+          "m": "Hỏi hướng đi tới bảo tàng (trái/phải/đi thẳng). Hỏi khoảng cách ước tính.",
+          "h": "Dùng 'Turn left/right' và 'How far is it?'.",
+          "s": "Which way is the museum, turn left or right, and how far is it?"
+        },
+        {
+          "p": "Is this the right bus to the city center?",
+          "m": "Hỏi xe buýt này có đi tới trung tâm thành phố không. Nói bạn muốn xuống trạm chính và hỏi giá vé.",
+          "h": "Dùng 'Does this bus go to...' và 'I want to get off at.../How much is the fare?'.",
+          "s": "Does this bus go to the city center? I want to get off at the main stop, and how much is the fare?"
+        },
+        {
+          "p": "Can you show me on the map where we are?",
+          "m": "Yêu cầu người đó chỉ trên bản đồ vị trí hiện tại. Hỏi mốc gần nhất để bạn dễ nhớ.",
+          "h": "Dùng 'Can you show me on the map...' và 'What is the nearest landmark?'.",
+          "s": "Can you show me on the map where we are, and what is the nearest landmark?"
+        },
+        {
+          "p": "I'm lost and my phone died, what should I do?",
+          "m": "Nói bạn bị lạc và điện thoại hết pin. Hỏi người đó có thể chỉ đường tới đồn cảnh sát hay nơi an toàn. Hỏi họ có thể gọi taxi cho bạn không.",
+          "h": "Dùng 'I'm lost' + 'my phone died' và 'What should I do?' + 'Can you call a taxi?'.",
+          "s": "I'm lost and my phone died. Could you tell me the way to the nearest police station or a safe place, and can you call a taxi for me?"
+        }
+      ]
+    },
+    {
+      "t": "So sánh đường đi và lựa chọn nhanh hơn",
+      "e": [
+        {
+          "p": "Is it faster to walk or take the bus to the park?",
+          "m": "Hỏi nhanh hơn giữa đi bộ và đi xe buýt. Nói bạn thích nhanh và ít chuyển tuyến. Hỏi đề xuất của họ.",
+          "h": "Dùng comparatives như 'faster' và 'I prefer' + 'because'.",
+          "s": "Is it faster to walk or take the bus to the park? I prefer the quickest option with few transfers, so what do you suggest?"
+        },
+        {
+          "p": "Which route has less traffic at 6 pm?",
+          "m": "Hỏi tuyến nào ít kẹt xe hơn vào 6 giờ chiều. Hỏi họ có biết con đường tránh hay không.",
+          "h": "Dùng 'has less traffic' và 'Is there an alternative route?'.",
+          "s": "Which route has less traffic at 6 pm, and is there an alternative road to avoid congestion?"
+        },
+        {
+          "p": "Is the coastal road more scenic than the highway?",
+          "m": "So sánh đường ven biển và đường cao tốc về cảnh đẹp. Nói bạn muốn chụp ảnh nên ưu tiên cảnh quan. Hỏi liệu đường ven biển chậm hơn nhiều không.",
+          "h": "Dùng 'more scenic' và 'Is it much slower?'.",
+          "s": "Is the coastal road more scenic than the highway? I want to take photos, so is it much slower?"
+        },
+        {
+          "p": "Should I take the train now or wait for the express?",
+          "m": "Hỏi nên đi tàu thường hay đợi tàu tốc hành. Nói bạn muốn đến sớm hơn hay tiết kiệm tiền. Hỏi gợi ý.",
+          "h": "Dùng 'Should I...' và 'I want to.../or...'.",
+          "s": "Should I take the regular train now or wait for the express? I want to arrive earlier but also save money, what do you recommend?"
+        },
+        {
+          "p": "Are walking paths safer than the main road at night?",
+          "m": "Hỏi lộ trình đi bộ có an toàn hơn đường chính ban đêm không. Nói bạn ưu tiên an toàn hơn tốc độ. Hỏi lời khuyên ngắn.",
+          "h": "Dùng 'Are... safer than...' và 'I prefer safety over speed'.",
+          "s": "Are the walking paths safer than the main road at night? I prefer safety over speed, so what do you advise?"
+        }
+      ]
+    },
+    {
+      "t": "Lên kế hoạch đi sân bay",
+      "e": [
+        {
+          "p": "How long does it take to the airport from here?",
+          "m": "Hỏi thời gian di chuyển tới sân bay. Nói bạn có chuyến bay lúc mấy giờ. Hỏi nên đi lúc mấy giờ.",
+          "h": "Dùng 'How long does it take' và 'My flight is at...' + 'When should I leave?'.",
+          "s": "How long does it take to the airport from here? My flight is at 10 pm, when should I leave?"
+        },
+        {
+          "p": "Should I take the shuttle or a taxi to the airport?",
+          "m": "Hỏi nên đi xe đưa đón hay taxi. So sánh giá và thời gian. Chọn phương án bạn sẽ dùng và lý do ngắn.",
+          "h": "Dùng 'Should I...' và so sánh 'cheaper/faster' và 'I will... because...'.",
+          "s": "Should I take the shuttle or a taxi to the airport? The shuttle is cheaper but a taxi is faster, so I will take a taxi because I want to arrive early."
+        },
+        {
+          "p": "Can you help me call an early morning taxi?",
+          "m": "Yêu cầu gọi taxi sáng sớm. Cho biết giờ bạn cần. Hỏi họ có thể giúp đặt trước hay không.",
+          "h": "Dùng 'Can you help me call...' và 'I need it at.../Can you book it?'.",
+          "s": "Can you help me call an early morning taxi, I need it at 4:30 am, and can you book it in advance?"
+        },
+        {
+          "p": "Is there long-term parking at the airport?",
+          "m": "Hỏi bãi đỗ dài hạn ở sân bay. Hỏi giá hoặc cách thức bảo quản xe. Hỏi liệu khách sạn có cung cấp dịch vụ giữ xe không.",
+          "h": "Dùng 'Is there...' và 'How much/Do you provide...'.",
+          "s": "Is there long-term parking at the airport, how much does it cost, and does the hotel offer any car-sitting service?"
+        },
+        {
+          "p": "I will miss my flight, what can I do?",
+          "m": "Nói bạn lo lỡ chuyến bay. Hỏi liệu nhân viên có thể giúp đổi vé hoặc gọi hãng hàng không. Hỏi bước tiếp theo ngắn gọn.",
+          "h": "Dùng 'I will/may miss my flight' và 'Can you help me.../What should I do next?'.",
+          "s": "I may miss my flight. Can you help me contact the airline and what should I do next?"
+        }
+      ]
+    },
+    {
+      "t": "Lời khuyên an toàn và quy định hướng dẫn khách",
+      "e": [
+        {
+          "p": "Do guests have to wear masks in the lobby?",
+          "m": "Hỏi quy định mang khẩu trang trong sảnh. Hỏi nếu không bắt buộc thì có khuyến nghị không. Nói bạn muốn tuân thủ.",
+          "h": "Dùng 'Do guests have to...' và 'Is it recommended?'.",
+          "s": "Do guests have to wear masks in the lobby, and if not required, is it recommended? I want to follow the rules."
+        },
+        {
+          "p": "Should I lock my door when I leave the room?",
+          "m": "Hỏi có nên khóa cửa khi ra ngoài. Hỏi khách sạn có an ninh 24/7 không. Nói bạn sẽ làm theo lời khuyên.",
+          "h": "Dùng 'Should I...' và 'Is there security 24/7?'.",
+          "s": "Should I lock my door when I leave the room, and is there security on duty 24/7? I will follow your advice."
+        },
+        {
+          "p": "What must I do in case of a fire alarm?",
+          "m": "Hỏi phải làm gì khi chuông báo cháy. Hỏi đường thoát hiểm gần nhất và liệu có điểm tập trung an toàn không.",
+          "h": "Dùng 'What must I do...' và 'Where is the nearest exit/Is there an assembly point?'.",
+          "s": "What must I do in case of a fire alarm, where is the nearest exit, and is there an assembly point?"
+        },
+        {
+          "p": "Are there any areas guests must not enter?",
+          "m": "Hỏi khu vực cấm cho khách. Hỏi lý do (an toàn/nhân viên). Hỏi nếu vi phạm thì hậu quả là gì.",
+          "h": "Dùng 'Are there any areas guests must not enter' và 'What happens if...'.",
+          "s": "Are there any areas guests must not enter and is it for safety or staff use? What happens if someone enters by mistake?"
+        },
+        {
+          "p": "I found a lost item, what should I do?",
+          "m": "Nói bạn tìm thấy đồ lạc. Hỏi nên nộp cho ai và liệu khách sạn sẽ giữ đồ an toàn hay thông báo chủ nhân không.",
+          "h": "Dùng 'I found...' và 'Who should I give it to/Will you notify the owner?'.",
+          "s": "I found a lost item. Who should I give it to, and will you keep it safe and notify the owner?"
+        }
+      ]
+    },
+    {
+      "t": "Dùng bản đồ và ứng dụng để chỉ đường",
+      "e": [
+        {
+          "p": "Can you help me use the hotel map?",
+          "m": "Yêu cầu giúp đọc bản đồ khách sạn. Hỏi ký hiệu quan trọng (thang máy, lối thoát).",
+          "h": "Dùng 'Can you help me use...' và 'What symbols mean...?'.",
+          "s": "Can you help me use the hotel map and show what the symbols for elevators and exits mean?"
+        },
+        {
+          "p": "What app do you recommend for local directions?",
+          "m": "Hỏi ứng dụng chỉ đường địa phương. Hỏi nếu nó có bản đồ offline. Nói bạn muốn dùng ứng dụng dễ hiểu.",
+          "h": "Dùng 'What app do you recommend?' và 'Does it have offline maps?'.",
+          "s": "What app do you recommend for local directions, and does it have offline maps? I want something easy to use."
+        },
+        {
+          "p": "My map shows a closed road, is that true?",
+          "m": "Nói bản đồ hiển thị đường đóng. Hỏi liệu có đang sửa đường thật không. Hỏi lộ trình thay thế.",
+          "h": "Dùng 'Is that true?' và 'Is there a detour/alternative route?'.",
+          "s": "My map shows a closed road; is that true, is there road work, and what is the alternative route?"
+        },
+        {
+          "p": "Can I download an offline map of the city here?",
+          "m": "Hỏi có thể tải bản đồ offline ở khách sạn không. Hỏi họ có wifi cho việc này và tốc độ có đủ nhanh không.",
+          "h": "Dùng 'Can I download...' và 'Do you have Wi‑Fi and is it fast enough?'.",
+          "s": "Can I download an offline map of the city here, do you have Wi‑Fi, and is it fast enough?"
+        },
+        {
+          "p": "How accurate are your directions on the hotel app?",
+          "m": "Hỏi độ chính xác chỉ đường trên ứng dụng khách sạn. Hỏi nếu có bản cập nhật gần đây. Nói nếu bạn cần hướng dẫn chi tiết hơn.",
+          "h": "Dùng 'How accurate are...' và 'Have there been recent updates?'",
+          "s": "How accurate are the directions on your hotel app, have there been recent updates, and I need more detailed guidance."
+        }
+      ]
+    },
+    {
+      "t": "Xử lý sự cố khi dẫn khách đi tham quan",
+      "e": [
+        {
+          "p": "The tour bus is late, what now?",
+          "m": "Nói tour bị trễ. Hỏi khách sạn có giải pháp (đổi giờ/hoàn tiền). Hỏi bạn nên chờ hay làm gì khác.",
+          "h": "Dùng 'What now?' và 'Can you reschedule/refund?' và 'Should I wait or...'.",
+          "s": "The tour bus is late. Can you reschedule or give a refund, and should I wait or do something else?"
+        },
+        {
+          "p": "My reservation for the trip was canceled.",
+          "m": "Nói đặt chỗ của bạn bị hủy. Hỏi nguyên nhân ngắn. Hỏi khách sạn có thể giúp đặt tour khác không.",
+          "h": "Dùng Past Simple: 'was canceled' và 'Can you help me book another?'.",
+          "s": "My reservation for the trip was canceled. Do you know why, and can you help me book another tour?"
+        },
+        {
+          "p": "I missed the meeting point for the guide.",
+          "m": "Nói bạn lỡ điểm gặp. Hỏi liệu có thể đón bạn ở khách sạn hoặc hướng dẫn cách bắt kịp nhóm. Hỏi nếu họ sẽ liên lạc với hướng dẫn.",
+          "h": "Dùng 'I missed' và 'Can you pick me up/How can I catch up?'.",
+          "s": "I missed the meeting point for the guide. Can you pick me up at the hotel, or tell me how to catch up with the group, and will you contact the guide?"
+        },
+        {
+          "p": "The weather ruined our outdoor plan, any indoor options?",
+          "m": "Nói thời tiết làm hủy kế hoạch ngoài trời. Hỏi gợi ý hoạt động trong nhà. Hỏi có tour thay thế hoặc bữa trưa trong nhà không.",
+          "h": "Dùng 'The weather ruined...' và 'Do you have indoor options/alternative tours?'.",
+          "s": "The weather ruined our outdoor plan. Do you have any indoor options or alternative tours, and is there a covered lunch option?"
+        },
+        {
+          "p": "My friend lost their passport during the trip.",
+          "m": "Nói bạn mất hộ chiếu. Hỏi khách sạn có thể giúp liên hệ đại sứ quán hoặc nơi an toàn không. Hỏi bước đầu cần làm ngay.",
+          "h": "Dùng 'I lost my passport' và 'Can you contact the embassy/What should I do first?'.",
+          "s": "My friend lost their passport. Can you help contact the embassy and what should we do first?"
+        }
+      ]
+    },
+    {
+      "t": "Ôn tập: Từ lúc check-in đến đi tham quan",
+      "e": [
+        {
+          "p": "I just checked in, where can I get local maps?",
+          "m": "Nói bạn vừa nhận phòng. Hỏi nơi lấy bản đồ địa phương. Hỏi nếu có tour map hoặc thông tin du lịch.",
+          "h": "Dùng 'I just checked in' và 'Where can I get...' + 'Do you have a tour map?'.",
+          "s": "I just checked in. Where can I get local maps, and do you have a tour map or tourist information?"
+        },
+        {
+          "p": "Can you book a taxi and a city tour for tomorrow?",
+          "m": "Yêu cầu đặt taxi và tour cho ngày mai. Nói số người. Hỏi tổng chi phí và thời gian khởi hành.",
+          "h": "Dùng 'Can you book...' và 'for + number of people' và 'How much/What time?'.",
+          "s": "Can you book a taxi and a city tour for tomorrow for three people, and how much will it cost and what time do we leave?"
+        },
+        {
+          "p": "Where can I eat after the tour ends late?",
+          "m": "Hỏi quán ăn sau tour kết thúc muộn. Hỏi khoảng cách và liệu còn mở cửa. Hỏi cách về khách sạn nhanh nhất.",
+          "h": "Dùng 'Where can I eat...' và 'Are they still open/How do I get back quickly?'.",
+          "s": "Where can I eat after the tour ends late, are those places still open, and how do I get back to the hotel quickly?"
+        },
+        {
+          "p": "Should I tip the driver or guide?",
+          "m": "Hỏi về thói quen tip cho lái xe/hướng dẫn. Hỏi mức hợp lý và cách đưa tiền. Nói bạn muốn hành xử đúng.",
+          "h": "Dùng 'Should I...' và 'How much is appropriate/How to give it?'.",
+          "s": "Should I tip the driver or guide, how much is appropriate, and how should I give it?"
+        },
+        {
+          "p": "We want to change our afternoon plan to something nearer.",
+          "m": "Nói bạn muốn đổi kế hoạch chiều sang điểm gần hơn. Hỏi gợi ý địa điểm gần khách sạn. Hỏi liệu cần đặt trước hay không.",
+          "h": "Dùng 'We want to change...' và 'Do we need to book in advance?'.",
+          "s": "We want to change our afternoon plan to somewhere nearer. Can you suggest nearby places and do we need to book in advance?"
+        }
+      ]
+    },
+    {
+      "t": "Ôn tập: Ăn uống và di chuyển quanh khách sạn",
+      "e": [
+        {
+          "p": "Is there a good breakfast spot outside the hotel?",
+          "m": "Hỏi quán ăn sáng ngoài khách sạn. Hỏi khoảng cách và giá cả hợp lý. Hỏi họ có gợi ý món đặc trưng.",
+          "h": "Dùng 'Is there a...' và 'How far/Is it affordable/What do you recommend?'.",
+          "s": "Is there a good breakfast spot outside the hotel, how far is it, is it affordable, and what do you recommend?"
+        },
+        {
+          "p": "Can you tell me the best way to the old town?",
+          "m": "Hỏi đường tốt nhất tới phố cổ. So sánh nếu có hai cách (bus/taxi). Nói bạn muốn cách rẻ nhất hoặc nhanh nhất.",
+          "h": "Dùng 'What is the best way to...' và 'Compare bus and taxi; I want the cheapest/fastest'.",
+          "s": "Can you tell me the best way to the old town? Compare bus and taxi because I want the cheapest option."
+        },
+        {
+          "p": "Are there any good dessert places nearby?",
+          "m": "Hỏi quán tráng miệng gần đó. Hỏi loại món tráng miệng đặc trưng và giờ mở muộn nhất.",
+          "h": "Dùng 'Are there any...' và 'What desserts/When do they close?'.",
+          "s": "Are there any good dessert places nearby, what desserts are typical, and when do they close?"
+        },
+        {
+          "p": "My wife needs a quiet café to work, can you help?",
+          "m": "Nói người đi cùng cần quán yên tĩnh để làm việc. Hỏi quán nào yên tĩnh và có wifi. Hỏi liệu có chỗ ngồi ổn định.",
+          "h": "Dùng 'We need/She needs a quiet café' và 'Does it have Wi‑Fi/Is there stable seating?'.",
+          "s": "She needs a quiet café to work. Which café is quiet and has Wi‑Fi, and is there stable seating?"
+        },
+        {
+          "p": "We want to visit two places tomorrow, can you plan the route?",
+          "m": "Nói bạn muốn đến hai điểm vào ngày mai. Cho biết bạn ưu tiên thời gian hay chi phí. Hỏi họ giúp lên lộ trình nhanh nhất.",
+          "h": "Dùng 'We want to visit...' và 'I prefer time/cost' và 'Can you plan the fastest route?'.",
+          "s": "We want to visit two places tomorrow, I prefer saving time, so can you plan the fastest route?"
+        }
+      ]
+    },
+    {
+      "t": "Ôn tập: Xử lý sự cố và hỏi lời khuyên",
+      "e": [
+        {
+          "p": "My tour was canceled and I lost time, what can I do?",
+          "m": "Nói tour bị hủy khiến bạn mất thời gian. Hỏi khách sạn có hỗ trợ bồi thường hay đặt tour khác. Hỏi bước tiếp theo ngắn gọn.",
+          "h": "Dùng Past Simple 'was canceled' và 'Can you help...' + 'What should I do next?'.",
+          "s": "My tour was canceled and I lost time. Can you help arrange another tour or compensation, and what should I do next?"
+        },
+        {
+          "p": "I feel unsafe walking back late, any advice?",
+          "m": "Nói bạn cảm thấy không an toàn khi đi bộ về muộn. Hỏi lựa chọn an toàn (taxi/shuttle). Hỏi chi phí ước tính cho taxi.",
+          "h": "Dùng 'I feel unsafe' và 'Should I take a taxi/shuttle?' và 'How much/estimate?'.",
+          "s": "I feel unsafe walking back late. Should I take a taxi or shuttle, and how much would a taxi cost approximately?"
+        },
+        {
+          "p": "A shop charged me too much, what should I do?",
+          "m": "Nói bạn bị tính tiền quá cao ở cửa hàng. Hỏi có thể quay lại với hóa đơn hay liên hệ ai. Hỏi khách sạn có thể giúp phiên dịch hay không.",
+          "h": "Dùng 'I was overcharged' và 'Can I return with the receipt/Can you help translate?'.",
+          "s": "I was overcharged at a shop. Can I go back with the receipt or can you help me contact someone and translate?"
+        },
+        {
+          "p": "My luggage was damaged in transit, who is responsible?",
+          "m": "Nói hành lý bị hỏng khi di chuyển. Hỏi ai chịu trách nhiệm (hãng xe/hãng hàng không). Hỏi khách sạn có thể giúp khai báo hay giữ đồ tạm thời.",
+          "h": "Dùng 'My luggage was damaged' và 'Who is responsible/Can you help file a report?'.",
+          "s": "My luggage was damaged in transit. Who is responsible and can you help me file a report or hold the items temporarily?"
+        },
+        {
+          "p": "I need medical help, where is the nearest clinic?",
+          "m": "Nói bạn cần khám y tế. Hỏi phòng khám gần nhất và liệu họ có hướng dẫn đi nhanh. Hỏi nếu khách sạn có dịch vụ liên lạc khẩn cấp.",
+          "h": "Dùng 'I need medical help' và 'Where is the nearest clinic/Can you call emergency services?'.",
+          "s": "I need medical help. Where is the nearest clinic, can you show me how to get there, and can you call emergency services if needed?"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,530 @@
+{
+  "l": 1,
+  "d": [
+    {
+      "t": "Gặp khách lần đầu",
+      "e": [
+        {
+          "p": "How can I help you?",
+          "m": "Nói một câu: bạn cần gì.",
+          "h": "Dùng 'I want ...' hoặc 'I need ...'.",
+          "s": "I want water."
+        },
+        {
+          "p": "What is your name?",
+          "m": "Nói một câu: cho biết tên (dùng placeholder).",
+          "h": "Dùng 'My name is [studentName].'",
+          "s": "My name is [studentName]."
+        },
+        {
+          "p": "Where do you live?",
+          "m": "Nói một câu: cho biết nơi bạn sống (dùng placeholder).",
+          "h": "Dùng 'I live in [studentCity].'",
+          "s": "I live in [studentCity]."
+        },
+        {
+          "p": "Do you want help?",
+          "m": "Nói một câu: trả lời 'Yes' hoặc 'No'.",
+          "h": "Dùng 'Yes, please.' hoặc 'No, thank you.'",
+          "s": "No, thank you."
+        },
+        {
+          "p": "What do you want today?",
+          "m": "Nói một câu: nói món hàng bạn muốn.",
+          "h": "Dùng 'I want + a/an + N' hoặc 'I want + N'.",
+          "s": "I want a book."
+        }
+      ]
+    },
+    {
+      "t": "Hỏi nhu cầu hàng hóa",
+      "e": [
+        {
+          "p": "Do you want food or drink?",
+          "m": "Nói một câu: chọn 'food' hoặc 'drink'.",
+          "h": "Dùng 'I want food.' hoặc 'I want drink.'",
+          "s": "I want food."
+        },
+        {
+          "p": "What food do you want?",
+          "m": "Nói một câu: tên món ăn đơn giản.",
+          "h": "Dùng 'I want + bread/food name'.",
+          "s": "I want bread."
+        },
+        {
+          "p": "Do you want water or juice?",
+          "m": "Nói một câu: chọn 'water' hoặc 'juice'.",
+          "h": "Dùng 'I want water.' hoặc 'I want juice.'",
+          "s": "I want juice."
+        },
+        {
+          "p": "How many pieces do you want?",
+          "m": "Nói một câu: cho biết số (1-10).",
+          "h": "Dùng số: 'I want two pieces.'",
+          "s": "I want two pieces."
+        },
+        {
+          "p": "Do you like hot food?",
+          "m": "Nói một câu: trả lời 'Yes' hoặc 'No'.",
+          "h": "Dùng 'Yes, I do.' hoặc 'No, I don't.'",
+          "s": "No, I don't like hot food."
+        }
+      ]
+    },
+    {
+      "t": "Chọn màu và kích thước",
+      "e": [
+        {
+          "p": "Which color do you want?",
+          "m": "Nói một câu: chọn màu (red/blue/green/...).",
+          "h": "Dùng 'I want a red bag.'",
+          "s": "I want a red bag."
+        },
+        {
+          "p": "What size do you need?",
+          "m": "Nói một câu: chọn size 'small' hoặc 'large'.",
+          "h": "Dùng 'I need small.' hoặc 'I need large.'",
+          "s": "I need a small bag."
+        },
+        {
+          "p": "Do you prefer blue or green?",
+          "m": "Nói một câu: trả lời chọn một màu.",
+          "h": "Dùng 'I prefer blue.'",
+          "s": "I prefer blue."
+        },
+        {
+          "p": "Is this size okay?",
+          "m": "Nói một câu: nếu không, nói size bạn cần.",
+          "h": "Dùng 'No, I need large.' hoặc 'Yes, it is.'",
+          "s": "No, I need large."
+        },
+        {
+          "p": "Can you choose a color and a size?",
+          "m": "Nói một câu: cho biết màu và size.",
+          "h": "Dùng 'I want a blue bag, size small.'",
+          "s": "I want a blue bag, size small."
+        }
+      ]
+    },
+    {
+      "t": "Số lượng và tần suất",
+      "e": [
+        {
+          "p": "How many shirts do you want?",
+          "m": "Nói một câu: số lượng (1-5).",
+          "h": "Dùng 'I want two shirts.'",
+          "s": "I want two shirts."
+        },
+        {
+          "p": "How often do you buy bread?",
+          "m": "Nói một câu: tần suất (every day/every week/never).",
+          "h": "Dùng 'I buy bread every day.'",
+          "s": "I buy bread every day."
+        },
+        {
+          "p": "Do you need one or two?",
+          "m": "Nói một câu: chọn 'one' hoặc 'two'.",
+          "h": "Dùng 'I need one.' hoặc 'I need two.'",
+          "s": "I need one."
+        },
+        {
+          "p": "Do you want this every day?",
+          "m": "Nói một câu: trả lời và nếu không, nói tần suất ngắn.",
+          "h": "Dùng 'No, I want it every week.' hoặc 'Yes, I do.'",
+          "s": "No, I want it every week."
+        },
+        {
+          "p": "How many bottles of water do you buy?",
+          "m": "Nói một câu: cho số lượng bằng số.",
+          "h": "Dùng 'I buy three bottles of water.'",
+          "s": "I buy three bottles of water."
+        }
+      ]
+    },
+    {
+      "t": "Ở cửa hàng quần áo",
+      "e": [
+        {
+          "p": "What do you want to buy?",
+          "m": "Nói một câu: món đồ bạn muốn mua.",
+          "h": "Dùng 'I want a shirt.'",
+          "s": "I want a shirt."
+        },
+        {
+          "p": "What color do you like?",
+          "m": "Nói một câu: màu bạn thích.",
+          "h": "Dùng 'I like blue.'",
+          "s": "I like blue."
+        },
+        {
+          "p": "Do you have a small size?",
+          "m": "Nói một câu: trả lời có hoặc không.",
+          "h": "Dùng 'Yes, I want it.' hoặc 'No, I don't.'",
+          "s": "Yes, I want it."
+        },
+        {
+          "p": "Is it cheap?",
+          "m": "Nói một câu: trả lời 'Yes' hoặc 'No'.",
+          "h": "Dùng 'Yes, it is.' hoặc 'No, it is not.'",
+          "s": "No, it is not cheap."
+        },
+        {
+          "p": "Can you try it?",
+          "m": "Nói một câu: trả lời bạn muốn thử hay không.",
+          "h": "Dùng 'Yes, I want to try it.' hoặc 'No, I don't.'",
+          "s": "Yes, I want to try it."
+        }
+      ]
+    },
+    {
+      "t": "Tại quán cà phê",
+      "e": [
+        {
+          "p": "What drink do you want?",
+          "m": "Nói một câu: chọn 'coffee', 'tea' hoặc 'juice'.",
+          "h": "Dùng 'I want coffee.'",
+          "s": "I want coffee."
+        },
+        {
+          "p": "Do you take sugar?",
+          "m": "Nói một câu: trả lời có và nói lượng ngắn (a little) hoặc không.",
+          "h": "Dùng 'Yes, a little.' hoặc 'No.'",
+          "s": "Yes, a little sugar."
+        },
+        {
+          "p": "Do you want milk?",
+          "m": "Nói một câu: trả lời 'Yes, please' hoặc 'No, thanks'.",
+          "h": "Dùng 'Yes, please.' hoặc 'No, thanks.'",
+          "s": "Yes, please."
+        },
+        {
+          "p": "How do you want your coffee?",
+          "m": "Nói một câu: nói 'hot' hoặc 'cold'.",
+          "h": "Dùng 'I want hot coffee.' hoặc 'I want cold coffee.'",
+          "s": "I want hot coffee."
+        },
+        {
+          "p": "Would you like a snack with that?",
+          "m": "Nói một câu: trả lời có/không và nếu có, cho tên món.",
+          "h": "Dùng 'Yes, I want a sandwich.' hoặc 'No, thank you.'",
+          "s": "Yes, I want a sandwich."
+        }
+      ]
+    },
+    {
+      "t": "Mua đồ cho trẻ em",
+      "e": [
+        {
+          "p": "Do you buy toys for children?",
+          "m": "Nói một câu: trả lời 'Yes' hoặc 'No'.",
+          "h": "Dùng 'Yes, I do.' hoặc 'No, I don't.'",
+          "s": "Yes, I do."
+        },
+        {
+          "p": "What toy does the child like?",
+          "m": "Nói một câu: tên đồ chơi bạn cần.",
+          "h": "Dùng 'I want a ball.' hoặc 'I want a doll.'",
+          "s": "I want a ball."
+        },
+        {
+          "p": "How old is the child?",
+          "m": "Nói một câu: cho biết tuổi (dùng placeholder).",
+          "h": "Dùng 'The child is [studentAge] years old.'",
+          "s": "The child is [studentAge] years old."
+        },
+        {
+          "p": "Do you want a small toy?",
+          "m": "Nói một câu: trả lời có hoặc không.",
+          "h": "Dùng 'Yes, I want it.' hoặc 'No, I don't.'",
+          "s": "Yes, I want it."
+        },
+        {
+          "p": "How many toys do you buy?",
+          "m": "Nói một câu: cho số lượng.",
+          "h": "Dùng 'I buy two toys.'",
+          "s": "I buy two toys."
+        }
+      ]
+    },
+    {
+      "t": "Dịch vụ giao hàng",
+      "e": [
+        {
+          "p": "Do you want delivery?",
+          "m": "Nói một câu: trả lời 'Yes' hoặc 'No'.",
+          "h": "Dùng 'Yes, I want delivery.' hoặc 'No, I don't.'",
+          "s": "Yes, I want delivery."
+        },
+        {
+          "p": "Where do you live for delivery?",
+          "m": "Nói một câu: cho biết nơi (dùng placeholder).",
+          "h": "Dùng 'I live in [studentCity].'",
+          "s": "I live in [studentCity]."
+        },
+        {
+          "p": "When do you want delivery?",
+          "m": "Nói một câu: nói 'today' hoặc 'tomorrow'.",
+          "h": "Dùng 'I want delivery tomorrow.' hoặc 'I want delivery today.'",
+          "s": "I want delivery tomorrow."
+        },
+        {
+          "p": "Can you pay now?",
+          "m": "Nói một câu: trả lời có thể trả tiền ngay hay không.",
+          "h": "Dùng 'Yes, I can.' hoặc 'No, I can't.'",
+          "s": "No, I can't pay now."
+        },
+        {
+          "p": "Do you want two bags delivered?",
+          "m": "Nói một câu: trả lời số lượng giao.",
+          "h": "Dùng 'I want two bags delivered.'",
+          "s": "I want two bags delivered."
+        }
+      ]
+    },
+    {
+      "t": "Sản phẩm hết hàng",
+      "e": [
+        {
+          "p": "We are out of this item.",
+          "m": "Nói một câu: trả lời bạn muốn chờ hay chọn hàng khác.",
+          "h": "Dùng 'I will wait.' hoặc 'I want another item.'",
+          "s": "I want another item."
+        },
+        {
+          "p": "Do you want a similar color?",
+          "m": "Nói một câu: trả lời có/không và nếu có, cho màu.",
+          "h": "Dùng 'Yes, I want blue.' hoặc 'No, I don't.'",
+          "s": "Yes, I want blue."
+        },
+        {
+          "p": "Can you wait one day?",
+          "m": "Nói một câu: trả lời 'Yes' hoặc 'No'.",
+          "h": "Dùng 'Yes, I can.' hoặc 'No, I can't.'",
+          "s": "No, I can't."
+        },
+        {
+          "p": "Do you want a refund?",
+          "m": "Nói một câu: trả lời 'Yes' hoặc 'No'.",
+          "h": "Dùng 'Yes, I want a refund.' hoặc 'No, I don't.'",
+          "s": "Yes, I want a refund."
+        },
+        {
+          "p": "Would you like us to call you when it's back?",
+          "m": "Nói một câu: trả lời có/không ngắn gọn.",
+          "h": "Dùng 'Yes, please call me.' hoặc 'No, thanks.'",
+          "s": "Yes, please call me."
+        }
+      ]
+    },
+    {
+      "t": "Trả hàng và hoàn tiền",
+      "e": [
+        {
+          "p": "Do you want to return it?",
+          "m": "Nói một câu: trả lời 'Yes' hoặc 'No'.",
+          "h": "Dùng 'Yes, I want to return it.' hoặc 'No, I don't.'",
+          "s": "Yes, I want to return it."
+        },
+        {
+          "p": "Why do you return it?",
+          "m": "Nói một câu: nêu lý do ngắn (ví dụ: không vừa, hỏng).",
+          "h": "Dùng 'It does not fit.' hoặc 'It is broken.'",
+          "s": "It does not fit."
+        },
+        {
+          "p": "Do you want a refund or exchange?",
+          "m": "Nói một câu: chọn 'refund' hoặc 'exchange'.",
+          "h": "Dùng 'I want a refund.' hoặc 'I want an exchange.'",
+          "s": "I want a refund."
+        },
+        {
+          "p": "When did you buy it?",
+          "m": "Nói một câu: nói 'today', 'yesterday' hoặc 'last week'.",
+          "h": "Dùng 'I bought it yesterday.'",
+          "s": "I bought it yesterday."
+        },
+        {
+          "p": "Can you show the receipt?",
+          "m": "Nói một câu: trả lời có hoặc không.",
+          "h": "Dùng 'Yes, I have it.' hoặc 'No, I don't.'",
+          "s": "Yes, I have it."
+        }
+      ]
+    },
+    {
+      "t": "Gợi ý sản phẩm",
+      "e": [
+        {
+          "p": "Do you like this product?",
+          "m": "Nói một câu: trả lời 'Yes' hoặc 'No'.",
+          "h": "Dùng 'Yes, I like it.' hoặc 'No, I don't like it.'",
+          "s": "Yes, I like it."
+        },
+        {
+          "p": "I suggest this one.",
+          "m": "Nói một câu: trả lời bạn có muốn thử hay không.",
+          "h": "Dùng 'Yes, I want it.' hoặc 'No, I don't.'",
+          "s": "Yes, I want it."
+        },
+        {
+          "p": "Is it good for you?",
+          "m": "Nói một câu: trả lời 'Yes' hoặc 'No' ngắn gọn.",
+          "h": "Dùng 'Yes, it is.' hoặc 'No, it is not.'",
+          "s": "Yes, it is good for me."
+        },
+        {
+          "p": "Do you like the color?",
+          "m": "Nói một câu: nói màu bạn thích.",
+          "h": "Dùng 'I like red.' hoặc 'I like blue.'",
+          "s": "I like red."
+        },
+        {
+          "p": "Can you pay by card?",
+          "m": "Nói một câu: trả lời có hoặc không.",
+          "h": "Dùng 'Yes, I can.' hoặc 'No, I can't.'",
+          "s": "No, I can't pay by card."
+        }
+      ]
+    },
+    {
+      "t": "Khảo sát hài lòng",
+      "e": [
+        {
+          "p": "Are you happy with our service?",
+          "m": "Nói một câu: trả lời 'Yes' hoặc 'No'.",
+          "h": "Dùng 'Yes, I am happy.' hoặc 'No, I am not.'",
+          "s": "Yes, I am happy."
+        },
+        {
+          "p": "What do you like?",
+          "m": "Nói một câu: nêu một điều bạn thích.",
+          "h": "Dùng 'I like the service.' hoặc 'I like the food.'",
+          "s": "I like the service."
+        },
+        {
+          "p": "What do you not like?",
+          "m": "Nói một câu: nêu một điều bạn không thích.",
+          "h": "Dùng 'I don't like the price.'",
+          "s": "I don't like the price."
+        },
+        {
+          "p": "Do you want us to call you again?",
+          "m": "Nói một câu: trả lời có hoặc không.",
+          "h": "Dùng 'Yes, please.' hoặc 'No, thanks.'",
+          "s": "No, thanks."
+        },
+        {
+          "p": "Will you come again?",
+          "m": "Nói một câu: trả lời 'Yes' hoặc 'No'.",
+          "h": "Dùng 'Yes, I will.' hoặc 'No, I will not.'",
+          "s": "Yes, I will."
+        }
+      ]
+    },
+    {
+      "t": "Ôn tập: Mua sắm cơ bản",
+      "e": [
+        {
+          "p": "Hello, what do you need?",
+          "m": "Nói một câu: món bạn cần.",
+          "h": "Dùng 'I need/I want + N'.",
+          "s": "I need a book."
+        },
+        {
+          "p": "Which color do you want?",
+          "m": "Nói một câu: màu bạn chọn.",
+          "h": "Dùng 'I want red.' hoặc 'I like blue.'",
+          "s": "I want red."
+        },
+        {
+          "p": "How many do you buy?",
+          "m": "Nói một câu: số lượng.",
+          "h": "Dùng 'I buy two.'",
+          "s": "I buy two."
+        },
+        {
+          "p": "Do you like this?",
+          "m": "Nói một câu: trả lời 'Yes' hoặc 'No'.",
+          "h": "Dùng 'Yes, I like it.' hoặc 'No, I don't.'",
+          "s": "Yes, I like it."
+        },
+        {
+          "p": "Can you pay now?",
+          "m": "Nói một câu: trả lời có hoặc không.",
+          "h": "Dùng 'Yes, I can.' hoặc 'No, I can't.'",
+          "s": "Yes, I can."
+        }
+      ]
+    },
+    {
+      "t": "Ôn tập: Dịch vụ và vấn đề",
+      "e": [
+        {
+          "p": "Is the product broken?",
+          "m": "Nói một câu: trả lời 'Yes' hoặc 'No'.",
+          "h": "Dùng 'Yes, it is broken.' hoặc 'No, it is not.'",
+          "s": "Yes, it is broken."
+        },
+        {
+          "p": "Do you want a refund today?",
+          "m": "Nói một câu: trả lời có hoặc không và nếu có, nói 'today'.",
+          "h": "Dùng 'Yes, I want a refund today.'",
+          "s": "Yes, I want a refund today."
+        },
+        {
+          "p": "Where do you live?",
+          "m": "Nói một câu: nơi bạn sống (dùng placeholder).",
+          "h": "Dùng 'I live in [studentCity].'",
+          "s": "I live in [studentCity]."
+        },
+        {
+          "p": "Can you wait for delivery tomorrow?",
+          "m": "Nói một câu: trả lời có hoặc không.",
+          "h": "Dùng 'Yes, I can.' hoặc 'No, I can't.'",
+          "s": "Yes, I can."
+        },
+        {
+          "p": "Do you need help now?",
+          "m": "Nói một câu: trả lời có và nói bạn cần gì.",
+          "h": "Dùng 'Yes, I need + N'.",
+          "s": "Yes, I need help with the bag."
+        }
+      ]
+    },
+    {
+      "t": "Ôn tập: Giao tiếp toàn diện",
+      "e": [
+        {
+          "p": "What is your name and where do you live?",
+          "m": "Nói một câu: cho tên (placeholder) và nơi (placeholder).",
+          "h": "Dùng 'My name is [studentName] and I live in [studentCity].'",
+          "s": "My name is [studentName] and I live in [studentCity]."
+        },
+        {
+          "p": "I offer a small discount. Do you want it?",
+          "m": "Nói một câu: trả lời có hoặc không và nếu có, nói bạn muốn giảm giá.",
+          "h": "Dùng 'Yes, I want the discount.' hoặc 'No, thanks.'",
+          "s": "Yes, I want the discount."
+        },
+        {
+          "p": "What time do you want delivery?",
+          "m": "Nói một câu: chọn 'today', 'tomorrow' hoặc 'in the morning'.",
+          "h": "Dùng 'I want delivery in the morning.' hoặc 'I want delivery tomorrow.'",
+          "s": "I want delivery in the morning."
+        },
+        {
+          "p": "Do you prefer red or blue and how many?",
+          "m": "Nói một câu: cho màu và số lượng.",
+          "h": "Dùng 'I prefer red and I want two.'",
+          "s": "I prefer red and I want two."
+        },
+        {
+          "p": "Are you happy with the product and will you come again?",
+          "m": "Nói một câu: trả lời hai phần: hài lòng và có quay lại hay không.",
+          "h": "Dùng 'Yes, I am happy and I will come again.'",
+          "s": "Yes, I am happy and I will come again."
+        }
+      ]
+    }
+  ]
+}

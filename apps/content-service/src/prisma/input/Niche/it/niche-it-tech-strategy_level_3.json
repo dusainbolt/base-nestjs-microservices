@@ -1,0 +1,565 @@
+{
+  "l": 3,
+  "d": [
+    {
+      "t": "Gặp nhóm kỹ thuật mới",
+      "e": [
+        {
+          "p": "What is your role in the team?",
+          "m": "Nói rõ vai trò của bạn; Nói việc chính bạn làm hàng ngày; Nói kế hoạch nhỏ cho tuần tới.",
+          "h": "Dùng Present Simple, và will cho kế hoạch.",
+          "s": "I am a backend developer. I fix bugs and write APIs every day. I will review the code this week."
+        },
+        {
+          "p": "Have you worked on system security before?",
+          "m": "Nói nếu bạn đã làm việc về bảo mật trước đây; Kể một việc bạn đã làm (quá khứ); Kế hoạch tiếp theo (will/going to).",
+          "h": "Dùng Past Simple + will/going to.",
+          "s": "Yes, I worked on login security last year. I fixed a password issue. I will check the system again next month."
+        },
+        {
+          "p": "Which part of the system is more important now?",
+          "m": "Nói phần hệ thống quan trọng hơn hiện tại; So sánh ngắn với phần khác; Nói lý do ngắn gọn.",
+          "h": "Dùng comparatives (more ... than) và because/so.",
+          "s": "The database is more important than the UI now. It stores all user data. So we must protect it."
+        },
+        {
+          "p": "Do you think we should pay technical debt now?",
+          "m": "Nói ý kiến bạn (should/shouldn't); Nêu một lợi ích nếu trả nợ kỹ thuật; Nói một rủi ro nếu không trả.",
+          "h": "Dùng should + V và một câu đơn ở quá khứ/hiện tại.",
+          "s": "I think we should pay some technical debt. It will make the system faster. If we don't, bugs will increase."
+        },
+        {
+          "p": "Can you describe a small plan to start improving scalability?",
+          "m": "Nêu một bước đầu (ngay bây giờ); Nói việc bạn sẽ làm tiếp (will/going to); Nêu một lợi ích ngắn.",
+          "h": "Dùng will/going to và Present Simple cho lợi ích.",
+          "s": "First, I will measure current load. Then I am going to add one caching layer. This will make responses faster."
+        }
+      ]
+    },
+    {
+      "t": "Nói về nợ kỹ thuật đơn giản",
+      "e": [
+        {
+          "p": "What is technical debt for you?",
+          "m": "Giải thích ngắn nợ kỹ thuật; Nói một ví dụ đơn giản; Nói hậu quả ngắn nếu giữ lâu.",
+          "h": "Dùng Present Simple và một câu in Past Simple cho ví dụ.",
+          "s": "Technical debt is quick work that causes problems later. For example, we left old code in the app. It made debugging slower."
+        },
+        {
+          "p": "Did you fix a big bug last month?",
+          "m": "Nói có hay không; Kể việc bạn đã làm (quá khứ); Nói kết quả ngắn.",
+          "h": "Dùng Past Simple và then/so để nối.",
+          "s": "Yes, I fixed a memory leak last month. I found the bad loop and removed it. The app ran better after that."
+        },
+        {
+          "p": "Should we fix small debts now or later?",
+          "m": "Nói ý kiến bạn (should/shouldn't); So sánh ngắn giữa hai chọn; Nói một lý do ngắn.",
+          "h": "Dùng should + comparatives (better/more ... than).",
+          "s": "We should fix small debts now. It is better than fixing many later. It will save time."
+        },
+        {
+          "p": "How do you tell the team about an old feature that causes problems?",
+          "m": "Nói bạn sẽ thông báo; Nói cách bạn mô tả vấn đề; Nói đề xuất hành động ngắn.",
+          "h": "Dùng will + V và Present Simple cho mô tả.",
+          "s": "I will tell the team in the meeting. I will say the feature crashes under load. I suggest we schedule a small fix."
+        },
+        {
+          "p": "What long-term change would reduce technical debt?",
+          "m": "Nói một thay đổi dài hạn; Nói cách thực hiện ngắn; Nêu lợi ích ngắn.",
+          "h": "Dùng will/going to + V và 'so' cho lợi ích.",
+          "s": "We will add code reviews every week. We are going to write clear tests. So the code will be cleaner and safer."
+        }
+      ]
+    },
+    {
+      "t": "Thảo luận về bảo mật cơ bản",
+      "e": [
+        {
+          "p": "Is our password policy strong?",
+          "m": "Nói nếu chính sách mạnh hay không; Nói một điểm tốt; Nói một điểm cần cải thiện.",
+          "h": "Dùng Present Simple và must/should.",
+          "s": "Our password policy is not strong. It requires only short passwords. We should require longer passwords."
+        },
+        {
+          "p": "Did anyone report a security issue recently?",
+          "m": "Nói có/không; Kể ngắn vấn đề được báo (quá khứ); Nói bước tiếp theo bạn đã làm/đề xuất.",
+          "h": "Dùng Past Simple và then/so.",
+          "s": "Yes, a user reported a weak endpoint last week. I checked the logs and found the error. I suggested we add authentication."
+        },
+        {
+          "p": "How do you explain a security risk to a non-technical manager?",
+          "m": "Nói bạn giải thích ngắn bằng cách nào; Dùng ví dụ đơn giản; Kết luận một hành động nên làm (must/should).",
+          "h": "Dùng Present Simple và should/must.",
+          "s": "I explain it with a simple example of a broken lock. I say attackers can open data like that. The manager should approve a fix."
+        },
+        {
+          "p": "Will you change any security tools this year?",
+          "m": "Nói có/không; Nói công cụ bạn sẽ thay đổi (ngắn); Nói lý do chính.",
+          "h": "Dùng will + V và because/so.",
+          "s": "Yes, I will change our scanner. I will use a newer tool for code checks. It will find more issues because it is updated."
+        },
+        {
+          "p": "What is one small rule to improve security now?",
+          "m": "Nêu một quy tắc nhỏ; Nói cách thực hiện; Nêu lợi ích ngắn (comparative ok).",
+          "h": "Dùng imperatives nhẹ hoặc should + V, và comparatives.",
+          "s": "Require two-factor login for admin accounts. Make users set it in settings. This is more secure than passwords alone."
+        }
+      ]
+    },
+    {
+      "t": "Gặp gỡ quản lý về kế hoạch kỹ thuật",
+      "e": [
+        {
+          "p": "What are your top two tasks this month?",
+          "m": "Nêu hai nhiệm vụ chính (2 câu đơn); Nói mục tiêu ngắn cho mỗi nhiệm vụ.",
+          "h": "Dùng Present Simple và will cho mục tiêu.",
+          "s": "First, I will refactor the API core. The goal is to reduce response time. Second, I will add monitoring. The goal is to catch errors early."
+        },
+        {
+          "p": "Did the team meet last sprint goal?",
+          "m": "Nói có/không; Kể ngắn điều đã xảy ra; Nói kế hoạch để cải thiện (will/should).",
+          "h": "Dùng Past Simple và should/will.",
+          "s": "No, the team did not meet the goal. We had delays from unexpected bugs. We should test more next sprint."
+        },
+        {
+          "p": "How much will the upgrade cost roughly?",
+          "m": "Đưa ước lượng đơn giản (use simple number words); Nói sự thay đổi ngắn về ngân sách; Nói ưu tiên ngắn (should).",
+          "h": "Dùng will và should + V, giữ câu ngắn.",
+          "s": "The upgrade will cost about ten thousand dollars. This will increase the budget a little. We should prioritize security parts first."
+        },
+        {
+          "p": "Which is more urgent: fixing bugs or adding features?",
+          "m": "Chọn một trong hai; So sánh ngắn (more ... than); Nói một nguyên nhân ngắn.",
+          "h": "Dùng comparatives và because.",
+          "s": "Fixing bugs is more urgent than adding features. Bugs harm users and slow us down. Because of that, stability comes first."
+        },
+        {
+          "p": "Can you promise the system will be stable after changes?",
+          "m": "Nói bạn có thể hứa hay không; Nêu một điều bạn sẽ làm để giảm rủi ro; Nói điều bạn không thể hứa (ngắn).",
+          "h": "Dùng will + V và một câu phủ định với 'cannot' hoặc 'may not'.",
+          "s": "I cannot promise perfect stability. I will run tests and staging checks to reduce risk. But some issues may still appear."
+        }
+      ]
+    },
+    {
+      "t": "Ưu tiên giữa sửa lỗi và tính năng mới",
+      "e": [
+        {
+          "p": "Users complain about a slow page, should we fix it?",
+          "m": "Nói có/không; Nêu bước bạn sẽ làm đầu tiên; Nêu lợi ích ngắn khi sửa.",
+          "h": "Dùng should + V và Present Simple.",
+          "s": "Yes, we should fix it. First, I will measure the slow queries. Fixing it will improve user satisfaction."
+        },
+        {
+          "p": "We have a new feature request, can we delay bug fixes?",
+          "m": "Chọn có/không; So sánh hai chọn bằng 'better/more ... than'; Nói lý do ngắn.",
+          "h": "Dùng comparatives và will/should.",
+          "s": "No, it is better to fix bugs than add a new feature now. Bugs cause user churn. We should keep stability first."
+        },
+        {
+          "p": "How did the last hotfix run?",
+          "m": "Kể ngắn việc đã xảy ra (Past Simple); Nói kết quả; Nói bài học ngắn cho lần sau.",
+          "h": "Dùng Past Simple và then/so.",
+          "s": "We deployed a hotfix yesterday and it fixed the crash. Then we saw a small side effect in logs. We learned to test more in staging."
+        },
+        {
+          "p": "Will adding one feature slow the system?",
+          "m": "Nói có/không; Nói điều bạn sẽ làm để kiểm tra; Nói giải pháp ngắn nếu chậm.",
+          "h": "Dùng will và going to, và 'if' cho điều kiện.",
+          "s": "It may slow the system a little. I am going to run load tests first. If it slows, we will optimize the code."
+        },
+        {
+          "p": "What simple rule do you suggest for prioritizing tasks?",
+          "m": "Đưa một quy tắc ngắn; Nói cách áp dụng quy tắc; Nói lợi ích ngắn (comparative ok).",
+          "h": "Dùng imperatives hoặc should + V, và comparatives.",
+          "s": "Prioritize tasks that reduce user impact first. Apply it by scoring bugs and features each week. This is more effective than random picks."
+        }
+      ]
+    },
+    {
+      "t": "Nói về khả năng mở rộng hệ thống",
+      "e": [
+        {
+          "p": "What does 'scale' mean for our app?",
+          "m": "Giải thích ngắn về 'scale'; Nói một ví dụ đơn giản; Nói một kết quả nếu scale tốt.",
+          "h": "Dùng Present Simple và will cho kết quả.",
+          "s": "Scale means the app can handle more users. For example, adding caching helps. Then the app will serve more users smoothly."
+        },
+        {
+          "p": "Did we add caching before the launch?",
+          "m": "Nói có/không; Kể việc bạn làm (quá khứ); Nói hiệu quả ngắn sau đó.",
+          "h": "Dùng Past Simple và so/then.",
+          "s": "Yes, we added caching last month. It reduced database calls. So page load became faster."
+        },
+        {
+          "p": "Which is more important: faster servers or better code?",
+          "m": "Chọn một; So sánh ngắn (more ... than); Nói lý do ngắn.",
+          "h": "Dùng comparatives và because.",
+          "s": "Better code is more important than faster servers. Good code uses resources well. Because of that, it scales better."
+        },
+        {
+          "p": "How will you test if the system scales?",
+          "m": "Nói một bước kiểm tra đầu tiên; Nói công cụ hoặc cách bạn sẽ dùng; Nói kết quả mong đợi ngắn.",
+          "h": "Dùng will/going to và Present Simple cho mong đợi.",
+          "s": "I will run a load test script first. I am going to use a simple test tool for users. I expect response time to stay under two seconds."
+        },
+        {
+          "p": "Can you plan a small change to help scale next month?",
+          "m": "Nêu thay đổi nhỏ; Nói cách triển khai; Nêu lợi ích ngắn (so/therefore).",
+          "h": "Dùng will/going to và so/therefore.",
+          "s": "We will add a cache layer next month. The team will configure it on staging first. Therefore requests will be faster."
+        }
+      ]
+    },
+    {
+      "t": "Quyết định nâng cấp phần mềm",
+      "e": [
+        {
+          "p": "Should we upgrade the database version now?",
+          "m": "Nói ý kiến bạn (should/shouldn't); Nêu một lợi ích ngắn; Nói một rủi ro nếu nâng cấp.",
+          "h": "Dùng should + V và because/so.",
+          "s": "We should upgrade the database soon. It will bring security fixes. But upgrade may cause short downtime."
+        },
+        {
+          "p": "Did we test the new version in staging?",
+          "m": "Nói có/không; Kể việc bạn đã làm (quá khứ); Nói kết quả ngắn.",
+          "h": "Dùng Past Simple và then/so.",
+          "s": "Yes, we tested it in staging last week. We ran the main flows. The tests showed one minor error."
+        },
+        {
+          "p": "How much time will the upgrade take?",
+          "m": "Ước lượng thời gian đơn giản; Nói bước bạn làm để giảm thời gian; Nói kết quả mong đợi ngắn.",
+          "h": "Dùng will và to reduce/so.",
+          "s": "The upgrade will take two hours. I will prepare a rollback plan to reduce risk. I expect the service to return quickly."
+        },
+        {
+          "p": "Which is better: upgrade now or after the quarter?",
+          "m": "Chọn một; So sánh ngắn (better/more ... than); Nêu lý do ngắn.",
+          "h": "Dùng comparatives và because.",
+          "s": "Upgrade now is better than waiting. It fixes security issues earlier. Because of that, we protect users sooner."
+        },
+        {
+          "p": "Tell me a short rollback plan if something fails.",
+          "m": "Nói 2-3 bước cụ thể (mỗi bước 1 câu); Kết luận một điều bạn sẽ làm ngay sau rollback.",
+          "h": "Dùng imperatives nhẹ hoặc will, giữ 3 câu.",
+          "s": "Stop the new release and switch to the previous server. Restore the old database snapshot. Notify users about the incident. Then I will start a root cause check."
+        }
+      ]
+    },
+    {
+      "t": "Lập kế hoạch dài hạn cho hệ thống",
+      "e": [
+        {
+          "p": "What is one goal for the system next year?",
+          "m": "Nêu một mục tiêu dài hạn; Nói một bước bạn sẽ làm đầu tiên; Nêu lợi ích ngắn.",
+          "h": "Dùng will/going to và Present Simple cho lợi ích.",
+          "s": "One goal is to reduce downtime next year. I will add monitoring and alerts first. This will help us react faster."
+        },
+        {
+          "p": "Did the last plan reduce incidents?",
+          "m": "Nói có/không; Kể ngắn điều đã làm (quá khứ); Nói kết quả ngắn.",
+          "h": "Dùng Past Simple và then/so.",
+          "s": "Yes, the last plan worked. We added nightly checks and fixed issues. Then incidents dropped by a little."
+        },
+        {
+          "p": "Which is more important for long term: documentation or tests?",
+          "m": "Chọn một; So sánh ngắn (more ... than); Nói lý do ngắn.",
+          "h": "Dùng comparatives và because.",
+          "s": "Tests are more important than documentation for long term. Tests catch errors early. Because of that, code stays reliable."
+        },
+        {
+          "p": "How will you include security in the long-term plan?",
+          "m": "Nói một hoạt động bảo mật dài hạn; Nói cách thực hiện ngắn; Nói lợi ích ngắn.",
+          "h": "Dùng will/going to và so/therefore.",
+          "s": "We will run regular security audits. The team is going to schedule them every quarter. Therefore we will find issues early."
+        },
+        {
+          "p": "Can you describe a simple roadmap with three steps?",
+          "m": "Nêu 3 bước ngắn, mỗi bước 1 câu; Mỗi bước có hành động và thời gian ngắn (next month/this quarter).",
+          "h": "Dùng will/going to và time phrases (next month, this quarter).",
+          "s": "Next month we will refactor the slow API endpoints. This quarter we are going to add monitoring and alerts. Next year we will migrate to a more scalable database."
+        }
+      ]
+    },
+    {
+      "t": "Xử lý rủi ro trước deadline",
+      "e": [
+        {
+          "p": "We have a tight deadline, what will you do first?",
+          "m": "Nói việc bạn sẽ làm đầu tiên; Nói lý do ngắn; Nói điều bạn sẽ tránh làm.",
+          "h": "Dùng will + V và do not / won't cho tránh.",
+          "s": "I will list all critical tasks first. This helps focus on important work. I won't start big refactors now."
+        },
+        {
+          "p": "Did any task block progress yesterday?",
+          "m": "Nói có/không; Kể ngắn việc block (Past Simple); Nói cách bạn giải quyết nó.",
+          "h": "Dùng Past Simple và then/so.",
+          "s": "Yes, a database migration blocked progress yesterday. We missed some schema changes. I reverted the migration and fixed the schema."
+        },
+        {
+          "p": "Should we cut a feature to meet the deadline?",
+          "m": "Nói có/không; Nêu tiêu chí để cắt feature; Nói một ví dụ ngắn của feature không quan trọng.",
+          "h": "Dùng should + V và comparatives nếu cần.",
+          "s": "Yes, we should cut non-core features. Cut features that are less used or risky. For example, a new report page can wait."
+        },
+        {
+          "p": "How will you keep the team calm under pressure?",
+          "m": "Nói một hành động bạn sẽ làm; Nói cách giúp họ tập trung; Nói kết quả mong đợi ngắn.",
+          "h": "Dùng will/going to và Present Simple cho kết quả.",
+          "s": "I will set clear small goals each day. I will remove distractions and share progress. The team will stay more focused."
+        },
+        {
+          "p": "Tell a short backup plan if a deploy fails on release day.",
+          "m": "Nói 3 bước ngắn (mỗi bước 1 câu); Kết luận một hành động giao tiếp với người dùng.",
+          "h": "Dùng imperatives/ will và keep to 3 câu.",
+          "s": "Rollback the deployment to the previous version. Restore the latest stable database snapshot. Run smoke tests and monitor. Then inform users about the temporary issue."
+        }
+      ]
+    },
+    {
+      "t": "Nói chuyện với khách hàng về rủi ro kỹ thuật",
+      "e": [
+        {
+          "p": "A client asks if their data is safe, what do you say?",
+          "m": "Trả lời ngắn có/không; Nói một biện pháp bảo vệ hiện có; Nói một bước bạn sẽ làm để kiểm tra.",
+          "h": "Dùng Present Simple và will/going to.",
+          "s": "Yes, their data is stored securely. We use access controls and backups. I will run a quick security check to confirm."
+        },
+        {
+          "p": "Did the recent update affect the client site?",
+          "m": "Nói có/không; Kể ngắn điều xảy ra (Past Simple); Nói cách bạn đã giải quyết hoặc sẽ giải quyết.",
+          "h": "Dùng Past Simple và then/so.",
+          "s": "Yes, it slowed the client site yesterday. We identified a heavy query and optimized it. Then performance improved."
+        },
+        {
+          "p": "Which is more important to the client: uptime or new features?",
+          "m": "Chọn một; So sánh ngắn (more ... than); Nói lý do ngắn từ góc nhìn khách hàng.",
+          "h": "Dùng comparatives và because.",
+          "s": "Uptime is more important than new features for the client. Clients need the service to work all the time. Because of that, reliability matters most."
+        },
+        {
+          "p": "How will you explain a delay to the client?",
+          "m": "Nói một câu xin lỗi ngắn; Nói nguyên nhân ngắn; Nói kế hoạch sắp tới (will).",
+          "h": "Dùng Present Simple + Past Simple và will.",
+          "s": "We are sorry for the delay. A critical bug caused the pause. We will finish the fix by tomorrow."
+        },
+        {
+          "p": "Can you give one simple guarantee to calm the client?",
+          "m": "Nói một cam kết ngắn (1 câu); Nói điều bạn sẽ làm nếu vấn đề lặp lại; Nói lợi ích ngắn cho khách hàng.",
+          "h": "Dùng will/shall và if + Present Simple cho điều kiện.",
+          "s": "We will monitor the system 24/7 for the next week. If the issue repeats, we will roll back and fix it immediately. This will reduce downtime for the client."
+        }
+      ]
+    },
+    {
+      "t": "Thảo luận chi phí và lợi ích",
+      "e": [
+        {
+          "p": "Is it expensive to hire more engineers?",
+          "m": "Nói có/không; Nói một chi phí ngắn; Nói một lợi ích ngắn khi thuê thêm.",
+          "h": "Dùng Present Simple và will/so.",
+          "s": "Yes, it is expensive to hire more engineers. Salaries and onboarding cost money. But the team will finish work faster."
+        },
+        {
+          "p": "Did the last investment bring good results?",
+          "m": "Nói có/không; Kể ngắn điều đã đầu tư (Past Simple); Nói kết quả ngắn.",
+          "h": "Dùng Past Simple và then/so.",
+          "s": "Yes, the last investment in monitoring helped. We bought tools and trained staff. Then incidents decreased."
+        },
+        {
+          "p": "Which is cheaper long-term: fixing debt now or later?",
+          "m": "Chọn một; So sánh ngắn (cheaper/more ... than); Nói lý do ngắn.",
+          "h": "Dùng comparatives và because.",
+          "s": "Fixing debt now is cheaper than later. Later fixes need more time and work. Because of that, cost grows with delay."
+        },
+        {
+          "p": "How will you present a cost plan to the manager?",
+          "m": "Nói một bước chuẩn bị ngắn; Nói thông tin bạn sẽ đưa (cost, time); Nói mục tiêu trình bày (short).",
+          "h": "Dùng will/going to và Present Simple.",
+          "s": "I will prepare a simple budget table. I am going to show cost and time for each item. The goal is to get approval quickly."
+        },
+        {
+          "p": "Give one small cost-saving idea without hurting quality.",
+          "m": "Nêu ý tưởng ngắn; Nói cách thực hiện; Nói lợi ích ngắn (comparative ok).",
+          "h": "Dùng imperatives/should + V và so/therefore.",
+          "s": "Reduce cloud instances during low hours. Schedule automatic scaling to save money. This is more efficient than constant capacity."
+        }
+      ]
+    },
+    {
+      "t": "Làm việc với nhóm về testing và release",
+      "e": [
+        {
+          "p": "Do we have enough tests for the new feature?",
+          "m": "Nói có/không; Nêu loại test còn thiếu; Nói bạn sẽ làm gì (will).",
+          "h": "Dùng Present Simple và will/going to.",
+          "s": "No, we do not have enough tests. We are missing integration tests. I will add them this week."
+        },
+        {
+          "p": "Did the last release go smooth?",
+          "m": "Nói có/không; Kể ngắn điều xảy ra (Past Simple); Nói bài học ngắn cho lần sau.",
+          "h": "Dùng Past Simple và then/so.",
+          "s": "No, the last release had a rollback. A new dependency caused errors. So we learned to test dependencies earlier."
+        },
+        {
+          "p": "Which is more useful: automated tests or manual checks?",
+          "m": "Chọn một; So sánh ngắn (more ... than); Nói lý do ngắn.",
+          "h": "Dùng comparatives và because.",
+          "s": "Automated tests are more useful than manual checks. They run faster and repeat well. Because of that, they catch regressions earlier."
+        },
+        {
+          "p": "How will you schedule releases to reduce risk?",
+          "m": "Nói một cách lịch trình ngắn; Nói một bước kiểm tra trước release; Nói hành động nếu vấn đề sau release.",
+          "h": "Dùng will/going to và if + Present Simple.",
+          "s": "We will release during low traffic hours. We will run smoke tests before release. If a problem appears, we will roll back quickly."
+        },
+        {
+          "p": "Describe a simple checklist for a safe release.",
+          "m": "Nêu 3 mục ngắn, mỗi mục 1 câu (ví dụ: tests, backup, monitor).",
+          "h": "Dùng imperatives hoặc present simple, 3 câu ngắn.",
+          "s": "Run all automated tests. Create a database backup. Turn on detailed monitoring during release."
+        }
+      ]
+    },
+    {
+      "t": "Giao tiếp nội bộ khi có sự cố",
+      "e": [
+        {
+          "p": "We found a crash in production, what will you tell the team?",
+          "m": "Nói nội dung bạn sẽ thông báo ngắn; Nói việc bạn muốn họ làm ngay; Nói thời gian bạn sẽ cập nhật lần sau.",
+          "h": "Dùng will và imperatives nhẹ.",
+          "s": "Tell the team we have a production crash. Ask them to stop new deploys and check logs. I will update everyone in 30 minutes."
+        },
+        {
+          "p": "Did anyone push a risky change yesterday?",
+          "m": "Nói có/không; Kể ngắn thay đổi đó (Past Simple); Nói cách bạn tìm ra người hoặc commit nếu cần.",
+          "h": "Dùng Past Simple và then/so.",
+          "s": "Yes, someone pushed a new library yesterday. It changed the database calls. I checked git history and found the commit."
+        },
+        {
+          "p": "Which is better during incidents: speed or accuracy?",
+          "m": "Chọn một; So sánh ngắn (more ... than); Nói lý do ngắn.",
+          "h": "Dùng comparatives và because.",
+          "s": "Accuracy is more important than speed during incidents. Wrong fixes cause new problems. Because of that, we must be careful."
+        },
+        {
+          "p": "How will you report the incident to non-technical staff?",
+          "m": "Nói một câu giải thích đơn giản; Nói hành động bạn sẽ làm để bảo vệ dữ liệu; Nói thời gian bạn sẽ báo lại sau.",
+          "h": "Dùng Present Simple và will, keep simple language.",
+          "s": "I will say there's a system error affecting some services. We will protect data with backups and access limits. I will report again in two hours."
+        },
+        {
+          "p": "Give a short improvement we will do after the incident.",
+          "m": "Nêu một cải tiến ngắn; Nói cách thực hiện; Nói lợi ích ngắn.",
+          "h": "Dùng will/going to và so/therefore.",
+          "s": "We will add better alerts for the error. The team will tune alert rules and thresholds. This will help us detect issues earlier."
+        }
+      ]
+    },
+    {
+      "t": "Ôn tập: Ưu tiên và nợ kỹ thuật",
+      "e": [
+        {
+          "p": "Which task should we do first: fix login bug or add analytics?",
+          "m": "Chọn một nhiệm vụ; So sánh ngắn (more ... than); Nói một lý do ngắn.",
+          "h": "Dùng should + comparatives và because.",
+          "s": "Fixing the login bug should come first. It is more important than adding analytics. Because users need to log in reliably."
+        },
+        {
+          "p": "Tell a short story of when you paid technical debt.",
+          "m": "Kể ngắn (Past Simple) việc bạn làm; Nói kết quả sau đó; Nói điều bạn sẽ làm khác next time.",
+          "h": "Dùng Past Simple và will for future change.",
+          "s": "I refactored an old module last month. The system then became faster. Next time I will add tests before refactoring."
+        },
+        {
+          "p": "Should we schedule debt work every sprint?",
+          "m": "Nói có/không; Nêu tần suất bạn đề xuất; Nói lợi ích ngắn.",
+          "h": "Dùng should + Present Simple và time phrase.",
+          "s": "Yes, we should schedule debt work each sprint. Do a small task every two weeks. This will keep code quality steady."
+        },
+        {
+          "p": "How do you balance new features and debt in a planning meeting?",
+          "m": "Nói một bước bạn sẽ làm trong họp; Nói cách phân chia thời gian ngắn; Nói tiêu chí chọn item (short).",
+          "h": "Dùng will/going to và simple connectors.",
+          "s": "I will ask the team to list items and score them. We will split time 70% bugs and 30% features if needed. Choose items by user impact."
+        },
+        {
+          "p": "Give one rule to avoid high technical debt in the future.",
+          "m": "Nêu một quy tắc ngắn; Nói cách thực hiện; Nói lợi ích ngắn (comparative ok).",
+          "h": "Dùng imperatives or should + V and so/therefore.",
+          "s": "Do code reviews for every change. Make reviewers check simplicity and tests. This is more effective than no review."
+        }
+      ]
+    },
+    {
+      "t": "Ôn tập: Bảo mật và giao tiếp",
+      "e": [
+        {
+          "p": "A client asks if backups are working, how do you answer?",
+          "m": "Trả lời có/không; Nói một bằng chứng ngắn (last backup time); Nói bước bạn sẽ làm nếu backup failed.",
+          "h": "Dùng Present Simple and Past Simple for time.",
+          "s": "Yes, backups are working. The last backup ran yesterday at midnight. If it failed, I will restore and fix the schedule."
+        },
+        {
+          "p": "Explain simply why updates help security.",
+          "m": "Nói lý do ngắn; Nêu một ví dụ ngắn (update fixed something); Nói hành động bạn sẽ làm tiếp theo.",
+          "h": "Dùng Present Simple và Past Simple for example.",
+          "s": "Updates fix known vulnerabilities. For example, a patch fixed a login bug last month. I will plan regular updates."
+        },
+        {
+          "p": "How will you tell users about a brief maintenance window?",
+          "m": "Nêu một thông báo ngắn; Nói thời gian dự kiến; Nói việc bạn sẽ làm nếu kéo dài.",
+          "h": "Dùng will và time phrase, keep polite.",
+          "s": "We will have a short maintenance tomorrow at 2 AM. It will last about 30 minutes. If it lasts longer, we will inform users immediately."
+        },
+        {
+          "p": "Which is better for security: small regular updates or rare big updates?",
+          "m": "Chọn một; So sánh ngắn (more ... than); Nói lý do ngắn.",
+          "h": "Dùng comparatives và because.",
+          "s": "Small regular updates are better than rare big updates. They reduce risk and are easier to test. Because of that, security stays current."
+        },
+        {
+          "p": "Give one small secure practice every developer should follow.",
+          "m": "Nêu một thực hành ngắn; Nói cách thực hiện; Nói lợi ích ngắn.",
+          "h": "Dùng should + V và so/therefore.",
+          "s": "Developers should use strong passwords and 2FA. Enable it in account settings and enforce policy. This will protect accounts better."
+        }
+      ]
+    },
+    {
+      "t": "Ôn tập: Khả năng mở rộng và release",
+      "e": [
+        {
+          "p": "What simple change will improve page speed?",
+          "m": "Nêu một thay đổi cụ thể; Nói cách thực hiện; Nêu lợi ích ngắn.",
+          "h": "Dùng will/going to và so/therefore.",
+          "s": "Add caching for common queries. Configure cache on the server and test it. This will make pages load faster."
+        },
+        {
+          "p": "Did we monitor errors after the last release?",
+          "m": "Nói có/không; Kể ngắn việc bạn làm (Past Simple); Nói kết quả bạn thấy.",
+          "h": "Dùng Past Simple và then/so.",
+          "s": "Yes, we monitored errors after the release. I checked the dashboard and logged spikes. Then we fixed a slow query."
+        },
+        {
+          "p": "Which is more useful before release: load test or user test?",
+          "m": "Chọn một; So sánh ngắn (more ... than); Nói lý do ngắn.",
+          "h": "Dùng comparatives và because.",
+          "s": "Load test is more useful than user test before release. It checks performance under stress. Because of that, it prevents crashes."
+        },
+        {
+          "p": "How will you schedule a release to be safe and fast?",
+          "m": "Nói một lịch trình ngắn; Nói một kiểm tra trước release; Nói việc bạn sẽ làm ngay sau release.",
+          "h": "Dùng will/going to và time phrases.",
+          "s": "Schedule the release at low traffic time overnight. Run full smoke tests before deploy. After release, monitor logs closely for one hour."
+        },
+        {
+          "p": "Give a short tip to keep the system scalable as users grow.",
+          "m": "Nêu một tip ngắn; Nói cách thực hiện; Nói lợi ích ngắn (comparative ok).",
+          "h": "Dùng imperatives or should + V and so/therefore.",
+          "s": "Design services to be stateless and scalable. Use load balancers and shared storage. This is more flexible than single-server setups."
+        }
+      ]
+    }
+  ]
+}

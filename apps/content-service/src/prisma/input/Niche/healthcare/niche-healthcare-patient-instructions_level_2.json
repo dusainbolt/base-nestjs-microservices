@@ -1,0 +1,530 @@
+{
+  "l": 2,
+  "d": [
+    {
+      "t": "Nhận thuốc tại phòng khám",
+      "e": [
+        {
+          "p": "These are your medicines.",
+          "m": "Nói tên thuốc bạn sẽ dùng. Nói khi bạn bắt đầu uống.",
+          "h": "Use 'I take' và thời gian (at/tonight).",
+          "s": "I take the white pills. I start tonight."
+        },
+        {
+          "p": "How many pills do you take each time?",
+          "m": "Nói số viên mỗi lần. Nói số lần mỗi ngày.",
+          "h": "Use numbers + 'pills' và 'times a day'.",
+          "s": "I take two pills each time. I take them three times a day."
+        },
+        {
+          "p": "When do you take the medicine?",
+          "m": "Nói giờ cụ thể. Nói nếu trước hay sau ăn.",
+          "h": "Use 'at + time' và 'before/after + meal'.",
+          "s": "I take it at 8 AM. I take it after meals."
+        },
+        {
+          "p": "How long do you take this treatment?",
+          "m": "Nói số ngày điều trị. Nói bạn làm gì nếu dừng sớm.",
+          "h": "Use 'for + time' và 'call' cho hành động.",
+          "s": "I take it for seven days. I call the clinic if I stop early."
+        },
+        {
+          "p": "Do you have any questions about these medicines?",
+          "m": "Nói một điều bạn không hiểu. Nói ai bạn sẽ hỏi.",
+          "h": "Use 'I don't understand...' và 'I will / I will ask...' (hoặc I ask).",
+          "s": "I don't understand the side effects. I will ask the nurse."
+        }
+      ]
+    },
+    {
+      "t": "Hẹn tái khám",
+      "e": [
+        {
+          "p": "When is your next appointment?",
+          "m": "Nói ngày của cuộc hẹn. Nói giờ của cuộc hẹn.",
+          "h": "Use 'on + day' và 'at + time'.",
+          "s": "My next appointment is on Monday. It is at 10 AM."
+        },
+        {
+          "p": "Can you come next week?",
+          "m": "Nói bạn có thể đi không. Nói nếu bạn cần thay đổi ngày.",
+          "h": "Use 'I can' và 'I need to change to...'.",
+          "s": "I can come next week. I need to change to Tuesday."
+        },
+        {
+          "p": "Do you want a reminder?",
+          "m": "Nói bạn có muốn lời nhắc không. Nói bạn muốn nhận nhắc bằng cách nào.",
+          "h": "Use 'I want' và 'by + method'.",
+          "s": "Yes, I want a reminder. I want a text message."
+        },
+        {
+          "p": "Please bring your medicine list.",
+          "m": "Xác nhận bạn sẽ mang danh sách. Nói ai sẽ giúp bạn nếu không nhớ.",
+          "h": "Use present continuous để nói kế hoạch: 'I am bringing', 'is helping'.",
+          "s": "I am bringing my medicine list. My sister is helping me."
+        },
+        {
+          "p": "Do you know where the clinic is?",
+          "m": "Nói bạn ở gần hay xa. Nói bạn cần chỉ đường không.",
+          "h": "Use 'I live near' hoặc 'I live far' và 'I need directions'.",
+          "s": "I live near the clinic. I need directions."
+        }
+      ]
+    },
+    {
+      "t": "Dùng thuốc theo giờ",
+      "e": [
+        {
+          "p": "How often do you take this pill?",
+          "m": "Nói tần suất bạn uống. Nói bạn luôn nhớ hay đôi khi quên.",
+          "h": "Use frequency adverbs: always/sometimes + present simple.",
+          "s": "I take it three times a day. I sometimes forget."
+        },
+        {
+          "p": "What time do you take the morning dose?",
+          "m": "Nói giờ sáng bạn uống. Nói bạn uống ngay khi thức dậy hay sau ăn.",
+          "h": "Use 'I take it at...' và 'after I wake up' hoặc 'when I wake up'.",
+          "s": "I take it at 7 AM. I take it after I wake up."
+        },
+        {
+          "p": "If you miss a dose, what do you do?",
+          "m": "Nói bạn làm gì khi quên. Nói bạn có gọi phòng khám không.",
+          "h": "Use 'If I miss...' và 'I take it when I remember' hoặc 'I call...'.",
+          "s": "If I miss a dose, I take it when I remember. I do not call the clinic."
+        },
+        {
+          "p": "Do you set an alarm for the medicine?",
+          "m": "Nói bạn có đặt báo thức không. Nói bạn dùng điện thoại hay đồng hồ.",
+          "h": "Use 'I set an alarm' và 'I use my phone / clock'.",
+          "s": "Yes, I set an alarm. I use my phone."
+        },
+        {
+          "p": "Who helps you with the medicine schedule?",
+          "m": "Nói người giúp bạn. Nói họ giúp vào lúc nào.",
+          "h": "Use 'My + person + helps me' và 'in the morning/at night'.",
+          "s": "My mother helps me. She helps in the morning."
+        }
+      ]
+    },
+    {
+      "t": "Chế độ ăn sau điều trị",
+      "e": [
+        {
+          "p": "Can you eat normally now?",
+          "m": "Nói bạn có thể ăn bình thường không. Nói nếu có thức ăn cần tránh.",
+          "h": "Use 'can' và 'avoid' + food.",
+          "s": "I can eat normally. I avoid spicy food."
+        },
+        {
+          "p": "What do you like for breakfast?",
+          "m": "Nói món sáng bạn thích. Nói bạn ăn nhẹ hay ăn nhiều.",
+          "h": "Use 'I like' và 'I eat a small/large meal'.",
+          "s": "I like toast for breakfast. I eat a small meal."
+        },
+        {
+          "p": "Do you need a special diet?",
+          "m": "Nói nếu bạn cần chế độ đặc biệt. Nói ai cho bạn lời khuyên.",
+          "h": "Use 'I need' và 'The nurse/doctor gives me advice'.",
+          "s": "I need a soft diet. The nurse gives me advice."
+        },
+        {
+          "p": "How much water do you drink each day?",
+          "m": "Nói số cốc nước bạn uống. Nói bạn có thường quên không.",
+          "h": "Use numbers + 'cups' và frequency adverb.",
+          "s": "I drink three cups of water. I sometimes forget."
+        },
+        {
+          "p": "Are there foods that make you feel bad?",
+          "m": "Nói thực phẩm gây khó chịu. Nói bạn tránh chúng từ giờ.",
+          "h": "Use 'X makes me feel bad' và 'I avoid it'.",
+          "s": "Fried food makes me feel bad. I avoid it."
+        }
+      ]
+    },
+    {
+      "t": "Vệ sinh vết mổ",
+      "e": [
+        {
+          "p": "Do you clean the wound daily?",
+          "m": "Nói bạn có rửa vết mổ hàng ngày không. Nói bạn dùng nước hay dung dịch.",
+          "h": "Use 'Yes/No, I clean' và 'I use water / antiseptic'.",
+          "s": "Yes, I clean the wound daily. I use water."
+        },
+        {
+          "p": "How do you change the dressing?",
+          "m": "Mô tả một bước đơn giản. Nói tần suất thay băng.",
+          "h": "Use simple verbs: 'open', 'replace' và 'every + time'.",
+          "s": "I open the dressing and replace it. I change it every two days."
+        },
+        {
+          "p": "Do you see any redness or swelling?",
+          "m": "Nói nếu bạn thấy đỏ hoặc sưng. Nói nếu có đau hoặc sốt.",
+          "h": "Use 'I see' / 'I feel' và negation nếu không có.",
+          "s": "I see some redness. I do not have pain or fever."
+        },
+        {
+          "p": "Should you keep the area dry?",
+          "m": "Trả lời có/không. Nói bạn có tắm không.",
+          "h": "Use 'Yes/No, I should' và 'I do not shower / I shower'.",
+          "s": "Yes, I should keep it dry. I do not shower yet."
+        },
+        {
+          "p": "Who taught you the wound care?",
+          "m": "Nói ai dạy bạn. Nói họ có chỉ cách theo dõi không.",
+          "h": "Use 'The nurse/doctor teaches me' và 'shows how to...'.",
+          "s": "The nurse teaches me. She shows how to check the wound."
+        }
+      ]
+    },
+    {
+      "t": "Quản lý đau",
+      "e": [
+        {
+          "p": "Are you in pain now?",
+          "m": "Nói mức độ đau (nhẹ/vừa/nặng). Nói bạn có dùng thuốc giảm đau không.",
+          "h": "Use 'I am + adjective' và 'I take + medicine'.",
+          "s": "I am in mild pain. I take pain medicine."
+        },
+        {
+          "p": "When do you take pain medicine?",
+          "m": "Nói thời điểm bạn uống. Nói bạn có thấy dễ chịu sau đó không.",
+          "h": "Use 'I take it at...' và 'I feel better / I do not feel better'.",
+          "s": "I take it at night. I feel better after."
+        },
+        {
+          "p": "How long does the pain last?",
+          "m": "Nói khoảng thời gian đau. Nói nếu nó còn sau vài giờ.",
+          "h": "Use 'lasts + time' và 'still' để nói còn lại.",
+          "s": "The pain lasts two hours. It is still there after two hours."
+        },
+        {
+          "p": "Do you use cold or warm packs?",
+          "m": "Nói bạn dùng lạnh hay ấm. Nói bạn dùng trong bao lâu mỗi lần.",
+          "h": "Use 'I use a cold/warm pack' và 'for + minutes'.",
+          "s": "I use a cold pack. I use it for 20 minutes each time."
+        },
+        {
+          "p": "Does the medicine make you sleepy?",
+          "m": "Nói thuốc có làm bạn buồn ngủ không. Nói bạn có lái xe không.",
+          "h": "Use 'makes me + adjective' và negation 'I do not...'.",
+          "s": "Yes, the medicine makes me sleepy. I do not drive."
+        }
+      ]
+    },
+    {
+      "t": "Tác dụng phụ",
+      "e": [
+        {
+          "p": "Do you feel nausea after the medicine?",
+          "m": "Nói nếu bạn buồn nôn. Nói bạn ăn gì khi buồn nôn.",
+          "h": "Use 'I have' và 'I eat ...'.",
+          "s": "I have nausea. I eat crackers."
+        },
+        {
+          "p": "Do you have a skin rash?",
+          "m": "Nói có phát ban không. Nói bạn dừng thuốc hay không.",
+          "h": "Use 'I have' và 'I stop / I do not stop'.",
+          "s": "I have a rash. I stop the medicine."
+        },
+        {
+          "p": "Are you dizzy after the medicine?",
+          "m": "Nói nếu bạn chóng mặt. Nói bạn ngồi xuống hay tiếp tục đi lại.",
+          "h": "Use 'I feel' và 'I sit down' hoặc 'I continue'.",
+          "s": "Yes, I feel dizzy. I sit down right away."
+        },
+        {
+          "p": "Do you vomit after the dose?",
+          "m": "Nói nếu bạn nôn. Nói bạn cần giúp đỡ không.",
+          "h": "Use 'I vomit' và 'I need help / I do not need help'.",
+          "s": "I vomit after the dose. I need help."
+        },
+        {
+          "p": "Do you feel better now?",
+          "m": "Nói cảm giác của bạn bây giờ. Nói bạn có muốn đổi thuốc không.",
+          "h": "Use 'I feel' và 'I do not want / I want'.",
+          "s": "I feel a little better now. I do not want to change the medicine."
+        }
+      ]
+    },
+    {
+      "t": "Hoạt động và nghỉ ngơi",
+      "e": [
+        {
+          "p": "Can you walk at home?",
+          "m": "Nói bạn có thể đi bộ không. Nói bạn đi nhiều hay ít.",
+          "h": "Use 'can' và 'a little / a lot'.",
+          "s": "Yes, I can walk at home. I walk a little."
+        },
+        {
+          "p": "Should you lift heavy things?",
+          "m": "Trả lời có/không. Nói trọng lượng bạn tránh.",
+          "h": "Use 'should not' và 'avoid' + weight.",
+          "s": "No, I should not lift heavy things. I avoid items over five kilos."
+        },
+        {
+          "p": "How long should you rest each day?",
+          "m": "Nói số giờ bạn nghỉ mỗi ngày. Nói bạn nghỉ vào buổi sáng hay chiều.",
+          "h": "Use numbers + 'hours' và 'in the morning/afternoon'.",
+          "s": "I rest two hours each day. I rest in the afternoon."
+        },
+        {
+          "p": "Can you go back to work now?",
+          "m": "Nói bạn có thể trở lại làm việc không. Nói bạn làm việc nhẹ hay nặng.",
+          "h": "Use 'can' và 'I do light/heavy work'.",
+          "s": "I can return to work. I do light work."
+        },
+        {
+          "p": "Who helps you at home?",
+          "m": "Nói người giúp bạn. Nói họ giúp việc gì.",
+          "h": "Use 'My + person + helps me' và hành động.",
+          "s": "My father helps me. He cooks and cleans."
+        }
+      ]
+    },
+    {
+      "t": "Khi nào gọi bác sĩ",
+      "e": [
+        {
+          "p": "Do you have a high fever?",
+          "m": "Nói bạn có sốt cao không. Nói bạn đo nhiệt bằng cách nào.",
+          "h": "Use negation 'I do not have' và 'with a thermometer'.",
+          "s": "No, I do not have a high fever. I check my temperature with a thermometer."
+        },
+        {
+          "p": "Is your wound bleeding a lot?",
+          "m": "Nói vết thương có chảy nhiều máu không. Nói bạn làm gì ngay bây giờ.",
+          "h": "Use present continuous 'is bleeding' và hành động 'I wrap / I call'.",
+          "s": "Yes, my wound is bleeding a lot. I wrap it and call the clinic."
+        },
+        {
+          "p": "Do you have trouble breathing?",
+          "m": "Nói nếu bạn khó thở. Nói bạn sẽ làm gì (đi bệnh viện/nằm nghỉ).",
+          "h": "Use 'I have' và present continuous 'I am going / I am resting'.",
+          "s": "I have trouble breathing. I am going to the hospital."
+        },
+        {
+          "p": "Is the pain getting worse?",
+          "m": "Nói đau có tệ hơn không. Nói bạn cần thuốc khác hay không.",
+          "h": "Use 'is getting worse' và 'I need...'.",
+          "s": "Yes, the pain is getting worse. I need another medicine."
+        },
+        {
+          "p": "Do you know the emergency number?",
+          "m": "Nói bạn có biết số khẩn cấp không. Nói ai bạn gọi trong nhà.",
+          "h": "Use 'I know' và 'I call + person'.",
+          "s": "Yes, I know the emergency number. I call my neighbor."
+        }
+      ]
+    },
+    {
+      "t": "Bảo quản thuốc",
+      "e": [
+        {
+          "p": "Where do you keep your pills?",
+          "m": "Nói nơi bạn để thuốc. Nói nơi đó mát hay nóng.",
+          "h": "Use 'I keep' và 'It is cool/hot'.",
+          "s": "I keep my pills in the cabinet. It is cool."
+        },
+        {
+          "p": "Do you store medicine in the fridge?",
+          "m": "Nói có hay không. Nói loại thuốc có cần lạnh hay không.",
+          "h": "Use negation 'I do not' và 'Only some medicines need cold storage'.",
+          "s": "No, I do not store medicine in the fridge. Only some medicines need cold storage."
+        },
+        {
+          "p": "Do you keep medicine out of children's reach?",
+          "m": "Nói nếu bạn để thuốc ngoài tầm với trẻ em. Nói bạn dùng hộp an toàn không.",
+          "h": "Use 'Yes, I keep' và 'I use a safe box'.",
+          "s": "Yes, I keep medicine out of children's reach. I use a safe box."
+        },
+        {
+          "p": "How long can you keep opened medicine?",
+          "m": "Nói số ngày bạn giữ thuốc đã mở. Nói bạn vứt khi hết hạn không.",
+          "h": "Use 'for + time' và 'I throw it away when...'.",
+          "s": "I keep opened medicine for seven days. I throw it away when it expires."
+        },
+        {
+          "p": "Do you read the label on the bottle?",
+          "m": "Nói bạn có đọc nhãn không. Nói điều quan trọng bạn thấy trên nhãn.",
+          "h": "Use 'I read' và 'I see the dose/expiry date'.",
+          "s": "Yes, I read the label. I see the dose and expiry date."
+        }
+      ]
+    },
+    {
+      "t": "Bệnh nhân có dị ứng",
+      "e": [
+        {
+          "p": "Are you allergic to any medicine?",
+          "m": "Nói nếu bạn dị ứng thuốc. Nói tên thuốc hoặc 'I don't know'.",
+          "h": "Use 'I am allergic to...' hoặc 'I don't know'.",
+          "s": "I am allergic to penicillin. I do not take it."
+        },
+        {
+          "p": "Do you have any food allergies?",
+          "m": "Nói nếu bạn dị ứng thực phẩm. Nói bạn tránh chúng hay không.",
+          "h": "Use 'I have a ... allergy' và 'I avoid ...'.",
+          "s": "I have a milk allergy. I avoid milk."
+        },
+        {
+          "p": "What happens if you take the wrong medicine?",
+          "m": "Nói triệu chứng bạn có. Nói bạn dừng thuốc hay gọi ai.",
+          "h": "Use simple result verbs: 'I get...' và action 'I stop...'.",
+          "s": "I get a rash and cough. I stop the medicine and call the clinic."
+        },
+        {
+          "p": "Does the nurse note your allergies?",
+          "m": "Nói có hay không. Nói bạn có ghi chú y tế 'no penicillin' hay không.",
+          "h": "Use 'notes' và 'I have a medical note saying...'.",
+          "s": "Yes, the nurse notes my allergies. I have a medical note saying no penicillin."
+        },
+        {
+          "p": "Who should you tell about allergies?",
+          "m": "Nói ai bạn sẽ nói (bác sĩ/y tá). Nói bạn nói khi nào (khi đến/phòng khám).",
+          "h": "Use 'I tell the doctor/nurse' và 'when I arrive'.",
+          "s": "I tell the doctor and the nurse. I tell them when I arrive."
+        }
+      ]
+    },
+    {
+      "t": "Hướng dẫn làm xét nghiệm tại nhà",
+      "e": [
+        {
+          "p": "Do you know how to do the test?",
+          "m": "Nói bạn có biết làm xét nghiệm không. Nói bạn cần hướng dẫn thêm hay không.",
+          "h": "Use yes/no and 'I need' or 'I do not need'.",
+          "s": "Yes, I know how to do the test. I need no extra instructions."
+        },
+        {
+          "p": "When do you do the test?",
+          "m": "Nói thời điểm làm xét nghiệm. Nói bạn làm mỗi ngày hay một lần.",
+          "h": "Use 'every morning' or 'once' with present simple.",
+          "s": "I do the test every morning. I do it once."
+        },
+        {
+          "p": "Where do you put the sample?",
+          "m": "Nói nơi bạn đặt mẫu. Nói bạn bảo quản ở chỗ mát hay lạnh.",
+          "h": "Use 'I put' và 'I keep it in...'.",
+          "s": "I put the sample in the small tube. I keep it in a cool place."
+        },
+        {
+          "p": "How do you send the result?",
+          "m": "Nói bạn gửi kết quả bằng cách nào. Nói bạn gọi hay gửi tin nhắn.",
+          "h": "Use 'I send by ...' và 'I call / I text'.",
+          "s": "I send the result by text. I also call the clinic."
+        },
+        {
+          "p": "Who helps you with the test?",
+          "m": "Nói ai giúp bạn. Nói họ giúp bằng cách nào.",
+          "h": "Use 'My + person + helps me' và mô tả hành động.",
+          "s": "My sister helps me. She holds the tube and reads the steps."
+        }
+      ]
+    },
+    {
+      "t": "Ôn tập: Thuốc và lịch uống",
+      "e": [
+        {
+          "p": "Which medicines do you take?",
+          "m": "Nói tên thuốc hoặc mô tả. Nói bạn uống mấy lần một ngày.",
+          "h": "Use 'I take' và tần suất 'twice a day'.",
+          "s": "I take the white pill and a liquid medicine. I take them twice a day."
+        },
+        {
+          "p": "What do you do if you miss a dose?",
+          "m": "Nói hành động bạn làm khi quên. Nói bạn có gọi bác sĩ không.",
+          "h": "Use 'I take it when I remember' và 'I do not call...'.",
+          "s": "I take it when I remember. I do not call the doctor."
+        },
+        {
+          "p": "Where do you keep your medicines at home?",
+          "m": "Nói nơi cất thuốc. Nói nếu bạn tránh trẻ em.",
+          "h": "Use 'I keep' và 'out of children's reach'.",
+          "s": "I keep them in a locked cabinet. I keep them out of children's reach."
+        },
+        {
+          "p": "Do you have any side effects?",
+          "m": "Nói nếu bạn có tác dụng phụ. Nói bạn báo cho ai.",
+          "h": "Use 'I have ...' và 'I tell the nurse/doctor'.",
+          "s": "I have nausea and dizziness. I tell the nurse."
+        },
+        {
+          "p": "When is your next visit and who will go with you?",
+          "m": "Nói ngày và giờ hẹn. Nói người đi cùng bạn.",
+          "h": "Use 'is on + day/time' và 'My + person + goes with me'.",
+          "s": "My next visit is on Thursday at 9 AM. My son goes with me."
+        }
+      ]
+    },
+    {
+      "t": "Ôn tập: Chăm sóc vết thương và hoạt động",
+      "e": [
+        {
+          "p": "How do you clean your wound now?",
+          "m": "Mô tả hành động bạn làm. Nói bạn làm hàng ngày hay không.",
+          "h": "Use 'I clean with...' và 'daily'.",
+          "s": "I clean it with water and soap. I clean it daily."
+        },
+        {
+          "p": "Can you lift heavy bags?",
+          "m": "Nói có thể không. Nói trọng lượng bạn tránh.",
+          "h": "Use 'cannot' và 'avoid' + weight.",
+          "s": "No, I cannot lift heavy bags. I avoid bags over five kilos."
+        },
+        {
+          "p": "Do you have pain after activity?",
+          "m": "Nói nếu bạn đau sau hoạt động. Nói bạn nghỉ bao lâu.",
+          "h": "Use 'I have' và 'I rest for...'.",
+          "s": "I have pain after activity. I rest for one hour."
+        },
+        {
+          "p": "What signs make you call the doctor?",
+          "m": "Nói một dấu hiệu nghiêm trọng. Nói bạn gọi số khẩn cấp hay phòng khám.",
+          "h": "Use 'If...' và 'I call the clinic / emergency'.",
+          "s": "If the wound bleeds a lot I call the clinic. I do not call emergency."
+        },
+        {
+          "p": "Who helps you at home with care and what do they do?",
+          "m": "Nói người giúp bạn. Nói họ làm gì để chăm sóc bạn.",
+          "h": "Use 'My + person + helps me' và danh sách hành động.",
+          "s": "My wife helps me at home. She cooks and changes the dressing."
+        }
+      ]
+    },
+    {
+      "t": "Ôn tập: Khi cần giúp và dị ứng",
+      "e": [
+        {
+          "p": "If you feel short of breath, what do you do first?",
+          "m": "Nói hành động đầu tiên bạn làm. Nói bạn gọi ai tiếp theo.",
+          "h": "Use 'I sit down' và 'I call...'.",
+          "s": "I sit down and breathe slowly. I call the clinic."
+        },
+        {
+          "p": "You see a rash after medicine, what do you do?",
+          "m": "Nói bạn có dừng thuốc không. Nói bạn báo cho ai.",
+          "h": "Use 'I stop' và 'I tell the nurse/doctor'.",
+          "s": "I stop the medicine. I tell the nurse."
+        },
+        {
+          "p": "Who will you tell about your food allergy at a restaurant?",
+          "m": "Nói người bạn nói (nhân viên). Nói câu ngắn bạn nói về dị ứng.",
+          "h": "Use 'I tell the waiter' và 'I say I am allergic to...'.",
+          "s": "I tell the waiter. I say I am allergic to milk."
+        },
+        {
+          "p": "Do you read the medicine label before taking it?",
+          "m": "Trả lời có/không. Nói điều bạn kiểm tra trên nhãn.",
+          "h": "Use 'Yes, I read' và 'I check the dose/expiry date'.",
+          "s": "Yes, I read the label before taking. I check the dose."
+        },
+        {
+          "p": "What numbers do you call in an emergency?",
+          "m": "Nói bạn gọi số khẩn cấp hay số phòng khám. Nói ai bạn gọi ở nhà.",
+          "h": "Use 'I call' và tên người/number nếu cần.",
+          "s": "I call the emergency number. I also call my neighbor."
+        }
+      ]
+    }
+  ]
+}

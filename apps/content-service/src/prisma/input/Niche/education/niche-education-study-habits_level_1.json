@@ -5,16 +5,16 @@
       "t": "Gặp bạn cùng lớp",
       "e": [
         {
-          "p": "Do you have your notebook today?",
-          "m": "Nói bạn có mang vở hay không.",
-          "h": "Yes, I have my notebook. / No, I don't.",
-          "s": "Yes, I have my notebook today."
+          "p": "What's your name?",
+          "m": "Nói tên của bạn.",
+          "h": "S + be + N",
+          "s": "My name is [studentName]."
         },
         {
-          "p": "What subject are you studying now?",
-          "m": "Nói môn học bạn đang học.",
-          "h": "I am studying + môn học.",
-          "s": "I am studying English now."
+          "p": "How old are you?",
+          "m": "Nói tuổi của bạn.",
+          "h": "S + be + number",
+          "s": "I am [studentAge] years old."
         },
         {
           "p": "Do you study today?",
@@ -425,10 +425,10 @@
       "t": "Ôn tập: Kết hợp thói quen cơ bản",
       "e": [
         {
-          "p": "How many hours do you study each day?",
-          "m": "Nói số giờ bạn học mỗi ngày và nơi học.",
-          "h": "I study + số giờ + each day. I study at + nơi.",
-          "s": "I study two hours each day at home."
+          "p": "What is your name and where do you study?",
+          "m": "Nói tên và nơi bạn học (2 ý, mỗi ý 1 câu).",
+          "h": "S + be + N; S + V(s) + O",
+          "s": "My name is [studentName]. I study at home."
         },
         {
           "p": "Do you study every day and how many hours?",

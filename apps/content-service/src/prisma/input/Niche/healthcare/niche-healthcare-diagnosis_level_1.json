@@ -1,0 +1,530 @@
+{
+  "l": 1,
+  "d": [
+    {
+      "t": "Khám ban đầu",
+      "e": [
+        {
+          "p": "Do you have a fever?",
+          "m": "Nói một câu: có hoặc không.",
+          "h": "Use 'I have' or 'I don't have'.",
+          "s": "I have a fever."
+        },
+        {
+          "p": "Do you have a cough?",
+          "m": "Nói một câu: có hoặc không.",
+          "h": "Use 'I have' or 'I don't have'.",
+          "s": "I don't have a cough."
+        },
+        {
+          "p": "Can you breathe well?",
+          "m": "Nói một câu: có hoặc không (khả năng thở).",
+          "h": "Use 'I can' or 'I can't'.",
+          "s": "I can breathe well."
+        },
+        {
+          "p": "Where is your pain?",
+          "m": "Nói một câu: chỗ đau (ví dụ: head, stomach).",
+          "h": "Use 'My ... hurts' or 'I have ... pain'.",
+          "s": "My stomach hurts."
+        },
+        {
+          "p": "Does the pain get worse?",
+          "m": "Nói một câu: có hoặc không (đau nặng hơn).",
+          "h": "Use 'Yes, it does' or 'No, it doesn't'.",
+          "s": "No, it doesn't."
+        }
+      ]
+    },
+    {
+      "t": "Nói về triệu chứng",
+      "e": [
+        {
+          "p": "Do you have a headache?",
+          "m": "Nói một câu: có hoặc không.",
+          "h": "Use 'I have' or 'I don't have'.",
+          "s": "I have a headache."
+        },
+        {
+          "p": "Is your throat sore?",
+          "m": "Nói một câu: có hoặc không.",
+          "h": "Use 'Yes, it is' or 'No, it isn't'.",
+          "s": "Yes, it is."
+        },
+        {
+          "p": "Do you feel tired?",
+          "m": "Nói một câu: có hoặc không.",
+          "h": "Use 'I feel' or 'I don't feel'.",
+          "s": "I feel tired."
+        },
+        {
+          "p": "Do you have a stomachache?",
+          "m": "Nói một câu: có hoặc không.",
+          "h": "Use 'I have' or 'I don't have'.",
+          "s": "I have a stomachache."
+        },
+        {
+          "p": "Do you have a runny nose?",
+          "m": "Nói một câu: có hoặc không.",
+          "h": "Use 'I have' or 'I don't have'.",
+          "s": "I don't have a runny nose."
+        }
+      ]
+    },
+    {
+      "t": "Kiểm tra nhiệt độ và cảm giác",
+      "e": [
+        {
+          "p": "Do you feel hot?",
+          "m": "Nói một câu: có hoặc không (cảm giác nóng).",
+          "h": "Use 'I feel' or 'I don't feel'.",
+          "s": "I feel hot."
+        },
+        {
+          "p": "Is your temperature high?",
+          "m": "Nói một câu: có hoặc không.",
+          "h": "Use 'Yes, it is' or 'No, it isn't'.",
+          "s": "Yes, it is."
+        },
+        {
+          "p": "Can you drink water?",
+          "m": "Nói một câu: có thể hoặc không.",
+          "h": "Use 'I can' or 'I can't'.",
+          "s": "I can drink water."
+        },
+        {
+          "p": "Do you feel cold at night?",
+          "m": "Nói một câu: có hoặc không.",
+          "h": "Use 'I feel' or 'I don't feel'.",
+          "s": "I feel cold at night."
+        },
+        {
+          "p": "Are you sweaty now?",
+          "m": "Nói một câu: có hoặc không.",
+          "h": "Use 'Yes, I am' or 'No, I am not'.",
+          "s": "No, I am not."
+        }
+      ]
+    },
+    {
+      "t": "Nói về chỗ đau cụ thể",
+      "e": [
+        {
+          "p": "Where does it hurt?",
+          "m": "Nói một câu: vị trí đau (ví dụ: my back).",
+          "h": "Use 'My ... hurts'.",
+          "s": "My back hurts."
+        },
+        {
+          "p": "Is your chest sore?",
+          "m": "Nói một câu: có hoặc không.",
+          "h": "Use 'Yes, it is' or 'No, it isn't'.",
+          "s": "No, it isn't."
+        },
+        {
+          "p": "Does your leg hurt when you walk?",
+          "m": "Nói một câu: có hoặc không.",
+          "h": "Use 'Yes, it does' or 'No, it doesn't'.",
+          "s": "Yes, it does."
+        },
+        {
+          "p": "Do you have pain in your head?",
+          "m": "Nói một câu: có hoặc không.",
+          "h": "Use 'I have' or 'I don't have'.",
+          "s": "I have pain in my head."
+        },
+        {
+          "p": "Can you point to the pain?",
+          "m": "Nói một câu: có thể hoặc không.",
+          "h": "Use 'I can' or 'I can't'.",
+          "s": "I can point to the pain."
+        }
+      ]
+    },
+    {
+      "t": "Thuốc và nghỉ ngơi",
+      "e": [
+        {
+          "p": "Do you take medicine now?",
+          "m": "Nói một câu: có hoặc không.",
+          "h": "Use 'I take' or 'I don't take'.",
+          "s": "I take medicine now."
+        },
+        {
+          "p": "Can you rest today?",
+          "m": "Nói một câu: có thể hoặc không.",
+          "h": "Use 'I can' or 'I can't'.",
+          "s": "I can rest today."
+        },
+        {
+          "p": "Do you sleep well at night?",
+          "m": "Nói một câu: có hoặc không.",
+          "h": "Use 'I sleep' or 'I don't sleep'.",
+          "s": "I don't sleep well at night."
+        },
+        {
+          "p": "Do you drink water when you are sick?",
+          "m": "Nói một câu: có hoặc không.",
+          "h": "Use 'I drink' or 'I don't drink'.",
+          "s": "I drink water when I am sick."
+        },
+        {
+          "p": "Can you take this pill?",
+          "m": "Nói một câu: có thể hoặc không.",
+          "h": "Use 'I can' or 'I can't'.",
+          "s": "I can take this pill."
+        }
+      ]
+    },
+    {
+      "t": "Dị ứng và thức ăn",
+      "e": [
+        {
+          "p": "Are you allergic to any food?",
+          "m": "Nói một câu: nói loại thức ăn hoặc 'No'.",
+          "h": "Use 'I am allergic to ...' or 'No, I am not'.",
+          "s": "I am allergic to nuts."
+        },
+        {
+          "p": "Do you have a skin rash?",
+          "m": "Nói một câu: có hoặc không.",
+          "h": "Use 'I have' or 'I don't have'.",
+          "s": "I have a skin rash."
+        },
+        {
+          "p": "Can you eat now?",
+          "m": "Nói một câu: có thể hoặc không.",
+          "h": "Use 'I can' or 'I can't'.",
+          "s": "I can't eat now."
+        },
+        {
+          "p": "Do you get itchy eyes?",
+          "m": "Nói một câu: có hoặc không.",
+          "h": "Use 'I get' or 'I don't get'.",
+          "s": "I get itchy eyes."
+        },
+        {
+          "p": "Are you allergic to medicine?",
+          "m": "Nói một câu: nói loại hoặc 'No'.",
+          "h": "Use 'I am allergic to ...' or 'No, I am not'.",
+          "s": "No, I am not."
+        }
+      ]
+    },
+    {
+      "t": "Kiểm tra sơ bộ của bác sĩ",
+      "e": [
+        {
+          "p": "Do you have any past illness?",
+          "m": "Nói một câu: có hoặc không.",
+          "h": "Use 'I have' or 'I don't have'.",
+          "s": "I don't have any past illness."
+        },
+        {
+          "p": "Do you take medicine every day?",
+          "m": "Nói một câu: có hoặc không.",
+          "h": "Use 'I take' or 'I don't take'.",
+          "s": "I take medicine every day."
+        },
+        {
+          "p": "Can you walk to the room?",
+          "m": "Nói một câu: có thể hoặc không.",
+          "h": "Use 'I can' or 'I can't'.",
+          "s": "I can walk to the room."
+        },
+        {
+          "p": "Do you smoke?",
+          "m": "Nói một câu: có hoặc không.",
+          "h": "Use 'I smoke' or 'I don't smoke'.",
+          "s": "I don't smoke."
+        },
+        {
+          "p": "Does anyone in your family have the same problem?",
+          "m": "Nói một câu: có hoặc không.",
+          "h": "Use 'Yes, they do' / 'No, they don't' or 'My ... has ...'.",
+          "s": "No, they don't."
+        }
+      ]
+    },
+    {
+      "t": "Lời khuyên đơn giản",
+      "e": [
+        {
+          "p": "Can you stay home today?",
+          "m": "Nói một câu: có thể hoặc không.",
+          "h": "Use 'I can' or 'I can't'.",
+          "s": "I can stay home today."
+        },
+        {
+          "p": "Do you want water now?",
+          "m": "Nói một câu: có hoặc không.",
+          "h": "Use 'I want' or 'I don't want'.",
+          "s": "I want water now."
+        },
+        {
+          "p": "Can you eat soup?",
+          "m": "Nói một câu: có thể hoặc không.",
+          "h": "Use 'I can' or 'I can't'.",
+          "s": "I can eat soup."
+        },
+        {
+          "p": "Do you need a rest now?",
+          "m": "Nói một câu: có hoặc không.",
+          "h": "Use 'Yes, I do' or 'No, I don't'.",
+          "s": "Yes, I do."
+        },
+        {
+          "p": "Can you avoid work for two days?",
+          "m": "Nói một câu: có thể hoặc không.",
+          "h": "Use 'I can' or 'I can't'.",
+          "s": "I can't avoid work for two days."
+        }
+      ]
+    },
+    {
+      "t": "So sánh xét nghiệm đơn giản",
+      "e": [
+        {
+          "p": "This test is fast. The other test is slow. Which do you want?",
+          "m": "Nói một câu: chọn 'fast' hoặc 'slow'.",
+          "h": "Use 'I want the fast test' or 'I want the slow test'.",
+          "s": "I want the fast test."
+        },
+        {
+          "p": "One test is easy. One test is hard. Which is better for you?",
+          "m": "Nói một câu: chọn 'easy' hoặc 'hard'.",
+          "h": "Use 'I want the easy test' or 'I want the hard test'.",
+          "s": "I want the easy test."
+        },
+        {
+          "p": "This test is in the office. The other test is at the hospital. Which place is ok?",
+          "m": "Nói một câu: chọn 'office' hoặc 'hospital'.",
+          "h": "Use 'I want the office test' or 'I want the hospital test'.",
+          "s": "I want the office test."
+        },
+        {
+          "p": "One test needs water. One test needs no water. Which can you do?",
+          "m": "Nói một câu: chọn 'I can do the ... test'.",
+          "h": "Use 'I can do the ... test'.",
+          "s": "I can do the test that needs no water."
+        },
+        {
+          "p": "Is the fast test ok for you?",
+          "m": "Nói một câu: có hoặc không.",
+          "h": "Use 'Yes, it is' or 'No, it isn't'.",
+          "s": "Yes, it is."
+        }
+      ]
+    },
+    {
+      "t": "Kết quả và bước tiếp theo",
+      "e": [
+        {
+          "p": "The test shows you have a cold. Can you rest?",
+          "m": "Nói một câu: có thể hoặc không.",
+          "h": "Use 'I can' or 'I can't'.",
+          "s": "I can rest."
+        },
+        {
+          "p": "Do you want medicine for your pain?",
+          "m": "Nói một câu: có hoặc không.",
+          "h": "Use 'I want' or 'I don't want'.",
+          "s": "I want medicine for my pain."
+        },
+        {
+          "p": "Can you come back in two days?",
+          "m": "Nói một câu: có thể hoặc không.",
+          "h": "Use 'I can' or 'I can't'.",
+          "s": "I can't come back in two days."
+        },
+        {
+          "p": "Do you understand the advice?",
+          "m": "Nói một câu: có hoặc không.",
+          "h": "Use 'Yes, I do' or 'No, I don't'.",
+          "s": "Yes, I do."
+        },
+        {
+          "p": "Can you follow the doctor plan?",
+          "m": "Nói một câu: có thể hoặc không.",
+          "h": "Use 'I can' or 'I can't'.",
+          "s": "I can follow the doctor plan."
+        }
+      ]
+    },
+    {
+      "t": "Tình huống khẩn cấp đơn giản",
+      "e": [
+        {
+          "p": "Is the pain very bad?",
+          "m": "Nói một câu: có hoặc không.",
+          "h": "Use 'Yes, it is' or 'No, it isn't'.",
+          "s": "Yes, it is."
+        },
+        {
+          "p": "Can you move your arm?",
+          "m": "Nói một câu: có thể hoặc không.",
+          "h": "Use 'I can' or 'I can't'.",
+          "s": "I can't move my arm."
+        },
+        {
+          "p": "Do you feel dizzy?",
+          "m": "Nói một câu: có hoặc không.",
+          "h": "Use 'I feel' or 'I don't feel'.",
+          "s": "I feel dizzy."
+        },
+        {
+          "p": "Can you talk now?",
+          "m": "Nói một câu: có thể hoặc không.",
+          "h": "Use 'I can' or 'I can't'.",
+          "s": "I can talk now."
+        },
+        {
+          "p": "Do you need help now?",
+          "m": "Nói một câu: có hoặc không.",
+          "h": "Use 'Yes, I do' or 'No, I don't'.",
+          "s": "Yes, I do."
+        }
+      ]
+    },
+    {
+      "t": "Hẹn tái khám đơn giản",
+      "e": [
+        {
+          "p": "Are you free tomorrow?",
+          "m": "Nói một câu: có hoặc không.",
+          "h": "Use 'Yes, I am' or 'No, I am not'.",
+          "s": "No, I am not."
+        },
+        {
+          "p": "Can you come on Monday?",
+          "m": "Nói một câu: có thể hoặc không.",
+          "h": "Use 'I can' or 'I can't'.",
+          "s": "I can come on Monday."
+        },
+        {
+          "p": "Do you want morning or afternoon?",
+          "m": "Nói một câu: chọn 'morning' hoặc 'afternoon'.",
+          "h": "Use 'I want morning' or 'I want afternoon'.",
+          "s": "I want afternoon."
+        },
+        {
+          "p": "Is 10 AM ok for you?",
+          "m": "Nói một câu: có hoặc không.",
+          "h": "Use 'Yes, it is' or 'No, it isn't'.",
+          "s": "Yes, it is."
+        },
+        {
+          "p": "Can you come with a family member?",
+          "m": "Nói một câu: có thể hoặc không.",
+          "h": "Use 'I can' or 'I can't'.",
+          "s": "I can come with a family member."
+        }
+      ]
+    },
+    {
+      "t": "Ôn tập: Kiểm tra triệu chứng",
+      "e": [
+        {
+          "p": "Do you have a fever and a cough?",
+          "m": "Nói một câu: mô tả có/không cho cả hai (ví dụ 'I have a fever but no cough').",
+          "h": "Use 'I have' and 'I don't have' in one sentence.",
+          "s": "I have a fever but I don't have a cough."
+        },
+        {
+          "p": "Where is your pain and can you walk?",
+          "m": "Nói một câu: nêu chỗ đau và khả năng đi (ví dụ 'My leg hurts and I can walk').",
+          "h": "Use 'My ... hurts' and 'I can' in one sentence.",
+          "s": "My leg hurts and I can walk."
+        },
+        {
+          "p": "Do you feel hot or cold?",
+          "m": "Nói một câu: chọn một cảm giác (hot/cold).",
+          "h": "Use 'I feel hot' or 'I feel cold'.",
+          "s": "I feel cold."
+        },
+        {
+          "p": "Can you eat and drink now?",
+          "m": "Nói một câu: nêu khả năng ăn/uống (ví dụ 'I can eat but I can't drink').",
+          "h": "Use 'I can' and 'I can't' in one sentence.",
+          "s": "I can eat but I can't drink."
+        },
+        {
+          "p": "Do you need help and can you call a friend?",
+          "m": "Nói một câu: nêu nhu cầu và khả năng gọi (ví dụ 'Yes, I need help and I can call a friend').",
+          "h": "Use 'Yes/No' and 'I can' in one sentence.",
+          "s": "Yes, I need help and I can call a friend."
+        }
+      ]
+    },
+    {
+      "t": "Ôn tập: Lời khuyên và hành động",
+      "e": [
+        {
+          "p": "Can you rest and take medicine?",
+          "m": "Nói một câu: khả năng làm cả hai (ví dụ 'I can rest and take medicine').",
+          "h": "Use 'I can' and two verbs.",
+          "s": "I can rest and take medicine."
+        },
+        {
+          "p": "Do you drink water and sleep well?",
+          "m": "Nói một câu: mô tả cả hai (ví dụ 'I drink water but I don't sleep well').",
+          "h": "Use 'I' with two clauses.",
+          "s": "I drink water but I don't sleep well."
+        },
+        {
+          "p": "Is the test fast and is the result quick?",
+          "m": "Nói một câu: trả lời cho cả hai (ví dụ 'Yes, it is fast and the result is quick').",
+          "h": "Use 'Yes, it is' and 'is' structure.",
+          "s": "Yes, it is fast and the result is quick."
+        },
+        {
+          "p": "Can you come tomorrow and bring ID?",
+          "m": "Nói một câu: khả năng cả hai (ví dụ 'I can come and I can bring ID').",
+          "h": "Use 'I can' twice in one sentence.",
+          "s": "I can come and I can bring ID."
+        },
+        {
+          "p": "Do you need a note for work and can you rest?",
+          "m": "Nói một câu: nêu nhu cầu và khả năng (ví dụ 'Yes, I need a note and I can rest').",
+          "h": "Use 'Yes/No' and 'I can' in one sentence.",
+          "s": "Yes, I need a note and I can rest."
+        }
+      ]
+    },
+    {
+      "t": "Ôn tập: Tình huống thực tế",
+      "e": [
+        {
+          "p": "Do you have a fever, cough, or sore throat?",
+          "m": "Nói một câu: nêu triệu chứng có (ví dụ 'I have a fever and a sore throat').",
+          "h": "Use 'I have' and list symptoms with 'and'.",
+          "s": "I have a fever and a sore throat."
+        },
+        {
+          "p": "Can you eat, sleep, and drink water?",
+          "m": "Nói một câu: mô tả khả năng cho cả ba hành động.",
+          "h": "Use 'I can' and list verbs with 'and'.",
+          "s": "I can eat, sleep, and drink water."
+        },
+        {
+          "p": "Is the pain in your head or stomach?",
+          "m": "Nói một câu: chọn một vị trí đau (head/stomach).",
+          "h": "Use 'My ... hurts'.",
+          "s": "My head hurts."
+        },
+        {
+          "p": "Do you want the fast test or the easy test?",
+          "m": "Nói một câu: chọn một test (fast/easy).",
+          "h": "Use 'I want the ... test'.",
+          "s": "I want the easy test."
+        },
+        {
+          "p": "Can you follow the plan and come back in two days?",
+          "m": "Nói một câu: nói có thể hoặc không cho cả hai hành động.",
+          "h": "Use 'I can' or 'I can't' and two verbs.",
+          "s": "I can follow the plan but I can't come back in two days."
+        }
+      ]
+    }
+  ]
+}

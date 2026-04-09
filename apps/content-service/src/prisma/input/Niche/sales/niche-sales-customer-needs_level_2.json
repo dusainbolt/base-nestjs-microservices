@@ -1,0 +1,530 @@
+{
+  "l": 2,
+  "d": [
+    {
+      "t": "Vào cửa hàng, hỏi giúp đỡ",
+      "e": [
+        {
+          "p": "How can I help you?",
+          "m": "Nói bạn cần sản phẩm gì. Nói số lượng bạn cần.",
+          "h": "I want / I need + N. There are + số + N.",
+          "s": "I want a small bag. I need two."
+        },
+        {
+          "p": "Do you like any color?",
+          "m": "Nói màu bạn thích. Nói bạn muốn to hay nhỏ.",
+          "h": "I like + color. I want + a/an + adj + N.",
+          "s": "I like blue. I want a small one."
+        },
+        {
+          "p": "How much is this bag?",
+          "m": "Nói giá của món hàng. Nói bạn có mua hay không.",
+          "h": "It is + price. I want / I need + to buy + it.",
+          "s": "It is ten dollars. I want to buy it."
+        },
+        {
+          "p": "We have one left in stock.",
+          "m": "Nói bạn có muốn mua cái còn lại không. Nói khi nào bạn đến lấy.",
+          "h": "I want + to buy + it. I come back + time.",
+          "s": "I want to buy it. I come back this afternoon."
+        },
+        {
+          "p": "Do you want a cheaper bag?",
+          "m": "Nói bạn ưu tiên chất lượng hay giá. Nói bạn dùng túi thường xuyên hay không.",
+          "h": "I need + good quality / cheap. I + adv of freq + V.",
+          "s": "I need good quality. I use a bag every day."
+        }
+      ]
+    },
+    {
+      "t": "Mua đồ ăn nhẹ cho khách",
+      "e": [
+        {
+          "p": "Can I get you a snack?",
+          "m": "Nói bạn muốn món ăn nào. Nói bạn muốn số lượng bao nhiêu.",
+          "h": "I want + N. I need + number + N.",
+          "s": "I want a sandwich. I need one, please."
+        },
+        {
+          "p": "Do you have any allergies?",
+          "m": "Nói nếu bạn có dị ứng. Nói bạn cần món không có gì gây dị ứng.",
+          "h": "I am allergic to + N / I have no allergies.",
+          "s": "I am allergic to peanuts. I need a snack without peanuts."
+        },
+        {
+          "p": "Would you like a drink with that?",
+          "m": "Nói bạn có muốn đồ uống không. Nói bạn thích nóng hay lạnh.",
+          "h": "I want + a/an + hot/cold + drink. I like + hot/cold.",
+          "s": "I want a cold drink. I like cold drinks."
+        },
+        {
+          "p": "How many sandwiches do you want?",
+          "m": "Nói số bánh bạn cần. Nói bạn muốn gói hay ăn tại chỗ.",
+          "h": "I need + number + N. I want + to eat here / to take away.",
+          "s": "I need two sandwiches. I want to take them away."
+        },
+        {
+          "p": "This combo is cheaper and popular.",
+          "m": "Nói bạn có đồng ý mua combo không. Nói bạn thích món nào trong combo.",
+          "h": "I like + N. I want + the combo / not.",
+          "s": "I like the sandwich and drink. I want the combo."
+        }
+      ]
+    },
+    {
+      "t": "Tư vấn kích thước và vừa vặn",
+      "e": [
+        {
+          "p": "What size do you wear?",
+          "m": "Nói kích thước bạn mặc. Nói nếu bạn muốn thử đồ.",
+          "h": "I wear + size. I want to try it on.",
+          "s": "I wear size M. I want to try it on."
+        },
+        {
+          "p": "This shirt is a little tight.",
+          "m": "Nói cảm nhận về độ vừa vặn. Nói bạn muốn cỡ lớn hơn hay nhỏ hơn.",
+          "h": "It is + adj. I want + a larger/smaller size.",
+          "s": "It is a little tight. I want a larger size."
+        },
+        {
+          "p": "Do you want to try the blue one?",
+          "m": "Nói bạn có thử màu xanh không. Nói bạn cảm thấy màu đó thế nào.",
+          "h": "I want to try it. I think + adj.",
+          "s": "I want to try the blue one. I think it looks good."
+        },
+        {
+          "p": "Are the shoes comfortable?",
+          "m": "Nói nếu bạn thấy thoải mái. Nói bạn thường đi giày như thế nào.",
+          "h": "They are + adj. I usually + V + adv of freq.",
+          "s": "They are comfortable. I usually wear shoes every day."
+        },
+        {
+          "p": "We can order a different size for you.",
+          "m": "Nói bạn có muốn đặt hàng không. Nói khi nào bạn cần đồ.",
+          "h": "I want + to order + N. I need it + time phrase.",
+          "s": "I want to order a larger size. I need it next week."
+        }
+      ]
+    },
+    {
+      "t": "Gợi ý sản phẩm theo sở thích",
+      "e": [
+        {
+          "p": "What style do you like?",
+          "m": "Nói phong cách bạn thích. Nói bạn muốn màu đơn giản hay nổi bật.",
+          "h": "I like + style. I want + simple / bright + color.",
+          "s": "I like a simple style. I want a bright color."
+        },
+        {
+          "p": "Do you use this item at home or work?",
+          "m": "Nói bạn dùng món này ở đâu. Nói bạn cần gì về công dụng.",
+          "h": "I use it at + place. I need + purpose.",
+          "s": "I use it at work. I need it for daily use."
+        },
+        {
+          "p": "Customers often like this model.",
+          "m": "Nói bạn có muốn model đó không. Nói lý do bạn thích hay không.",
+          "h": "I want / I do not want + N. I like it because + short reason.",
+          "s": "I want that model. I like it because it is simple."
+        },
+        {
+          "p": "We have a new version with more features.",
+          "m": "Nói bạn có cần thêm tính năng hay không. Nói bạn có muốn xem không.",
+          "h": "I need + more features / I do not need. I want to see it.",
+          "s": "I need more features. I want to see the new version."
+        },
+        {
+          "p": "Which product is best for a busy person?",
+          "m": "Nói bạn muốn sản phẩm dễ dùng hay rẻ. Nói tần suất bạn dùng nó.",
+          "h": "I want + easy to use / cheap. I + adv of freq + V.",
+          "s": "I want something easy to use. I often use it every day."
+        }
+      ]
+    },
+    {
+      "t": "Đề xuất giải pháp cho vấn đề kỹ thuật đơn giản",
+      "e": [
+        {
+          "p": "My phone is slow.",
+          "m": "Nói bạn gặp vấn đề gì với máy. Nói bạn muốn gợi ý đơn giản nào.",
+          "h": "It is + problem. Try + to V / Restart it.",
+          "s": "My phone is slow. I will restart it." 
+        },
+        {
+          "p": "Try closing apps and restart the phone.",
+          "m": "Nói bạn đã thử cách đó chưa. Nói bạn cần giúp đỡ thêm hay không.",
+          "h": "I have / I have not + V3. I need more help / I do not need.",
+          "s": "I have not tried that. I need more help."
+        },
+        {
+          "p": "Is your battery dying fast?",
+          "m": "Nói nếu pin bạn hết nhanh. Nói bạn muốn phương án sạc hay thay pin.",
+          "h": "My battery is + adj. I want + to charge / to replace the battery.",
+          "s": "My battery is dying fast. I want to charge it more often."
+        },
+        {
+          "p": "You can update the app or free space.",
+          "m": "Nói bạn có cập nhật hay không. Nói bạn có xóa file không.",
+          "h": "I will / I do not + V. I will free space / not.",
+          "s": "I will update the app. I will free some space."
+        },
+        {
+          "p": "If the problem continues, visit our service center.",
+          "m": "Nói bạn có muốn đến trung tâm không. Nói khi nào bạn đến.",
+          "h": "I want + to visit + place. I come + time.",
+          "s": "I want to visit the service center. I come next Monday."
+        }
+      ]
+    },
+    {
+      "t": "Tư vấn về giá và ngân sách",
+      "e": [
+        {
+          "p": "What is your budget?",
+          "m": "Nói bạn có bao nhiêu tiền cho món này. Nói bạn muốn rẻ hay tốt hơn.",
+          "h": "My budget is + amount / I want + cheap / good quality.",
+          "s": "My budget is twenty dollars. I want good quality."
+        },
+        {
+          "p": "We have a cheaper and a premium option.",
+          "m": "Nói bạn chọn rẻ hay cao cấp. Nói bạn có mua thường xuyên không.",
+          "h": "I choose + cheap / premium. I + adv of freq + V.",
+          "s": "I choose the cheaper option. I sometimes buy this item."
+        },
+        {
+          "p": "This one is more expensive but lasts longer.",
+          "m": "Nói bạn ưu tiên đồ bền hay rẻ. Nói bạn sẽ mua ngay hay suy nghĩ.",
+          "h": "I want + durable / cheap. I will / I want to think.",
+          "s": "I want durable items. I want to think first."
+        },
+        {
+          "p": "Do you need a payment plan?",
+          "m": "Nói bạn có cần trả góp không. Nói bạn có thể trả ngay hay không.",
+          "h": "I need + a payment plan / I can pay now. I can / I cannot pay now.",
+          "s": "I need a payment plan. I cannot pay now."
+        },
+        {
+          "p": "We often have discounts on weekends.",
+          "m": "Nói bạn có muốn đợi khuyến mãi không. Nói bạn cần món ngay hay chờ được.",
+          "h": "I want to wait / I need it now. I need it + time phrase.",
+          "s": "I want to wait for a discount. I need it next week."
+        }
+      ]
+    },
+    {
+      "t": "Đặt hàng cuối tuần",
+      "e": [
+        {
+          "p": "Do you want to preorder for the weekend?",
+          "m": "Nói bạn có muốn đặt hàng không. Nói số lượng bạn muốn đặt.",
+          "h": "I want to preorder. I need + number + N.",
+          "s": "I want to preorder. I need three items."
+        },
+        {
+          "p": "What time will you pick up?",
+          "m": "Nói thời gian bạn đến lấy. Nói bạn đến sáng hay chiều.",
+          "h": "I pick up at + time phrase. I come in the morning / afternoon.",
+          "s": "I pick up at ten o'clock. I come in the morning."
+        },
+        {
+          "p": "We can deliver on Sunday for a small fee.",
+          "m": "Nói bạn có muốn giao hàng không. Nói bạn trả phí giao hay tự lấy.",
+          "h": "I want delivery / I will pick up. I pay the fee / I do not pay.",
+          "s": "I want delivery on Sunday. I pay the fee."
+        },
+        {
+          "p": "Do you need gift wrapping?",
+          "m": "Nói bạn có cần gói quà không. Nói bạn muốn gói đơn giản hay đẹp.",
+          "h": "I need / I do not need + gift wrapping. I want + simple / nice.",
+          "s": "I need gift wrapping. I want a simple wrap."
+        },
+        {
+          "p": "We reserve items for two days after preorder.",
+          "m": "Nói bạn có đến lấy trong hai ngày không. Nói bạn cần giữ lâu hơn hay không.",
+          "h": "I will come within two days. I need to hold it longer / not.",
+          "s": "I will come within two days. I do not need a longer hold."
+        }
+      ]
+    },
+    {
+      "t": "So sánh hai sản phẩm",
+      "e": [
+        {
+          "p": "Which one do you like more, A or B?",
+          "m": "Nói bạn thích sản phẩm nào. Nói lý do ngắn bạn thích nó.",
+          "h": "I like + A / B. I like it because + short reason.",
+          "s": "I like product A. I like it because it is simple."
+        },
+        {
+          "p": "Product A is cheaper. Product B is stronger.",
+          "m": "Nói bạn ưu tiên rẻ hay bền. Nói bạn sử dụng nó thường xuyên hay không.",
+          "h": "I prefer + cheap / strong. I + adv of freq + V.",
+          "s": "I prefer strong items. I often use it every day."
+        },
+        {
+          "p": "A has two colors. B has four colors.",
+          "m": "Nói bạn muốn nhiều màu hay ít màu. Nói bạn thích màu cụ thể nào.",
+          "h": "I want + more / fewer colors. I like + color.",
+          "s": "I want more colors. I like green."
+        },
+        {
+          "p": "A has one-year warranty. B has two-year warranty.",
+          "m": "Nói bạn cần bảo hành lâu không. Nói bạn chọn A hay B.",
+          "h": "I need + longer warranty. I choose + A / B.",
+          "s": "I need a longer warranty. I choose product B."
+        },
+        {
+          "p": "Which is better for daily use?",
+          "m": "Nói bạn muốn tính năng dễ dùng hay bền. Nói bạn có mua nó thường hay không.",
+          "h": "I want + easy to use / durable. I often + V.",
+          "s": "I want easy to use. I often buy similar items."
+        }
+      ]
+    },
+    {
+      "t": "Hỏi ý kiến về dịch vụ giao hàng",
+      "e": [
+        {
+          "p": "How long is delivery?",
+          "m": "Nói thời gian giao hàng bạn muốn. Nói bạn có cần giao nhanh hay không.",
+          "h": "Delivery takes + time. I need + fast / not.",
+          "s": "Delivery takes two days. I need fast delivery."
+        },
+        {
+          "p": "We deliver in the morning or afternoon.",
+          "m": "Nói bạn muốn giờ nào. Nói bạn có ở nhà vào thời gian đó không.",
+          "h": "I want + morning / afternoon. I am at home + time phrase.",
+          "s": "I want the morning. I am at home in the morning."
+        },
+        {
+          "p": "There is a small delivery fee.",
+          "m": "Nói bạn có trả phí không. Nói bạn muốn giao miễn phí nếu có hay không.",
+          "h": "I will pay the fee / I want free delivery. I do / do not.",
+          "s": "I will pay the fee. I do not need free delivery."
+        },
+        {
+          "p": "You can track your order online.",
+          "m": "Nói bạn có muốn theo dõi không. Nói bạn thường kiểm tra đơn hàng hay không.",
+          "h": "I want to track. I often check my orders.",
+          "s": "I want to track my order. I often check my orders."
+        },
+        {
+          "p": "We usually deliver on weekdays.",
+          "m": "Nói bạn có thể nhận hàng trong tuần không. Nói bạn muốn thay ngày giao không.",
+          "h": "I can receive on weekdays. I want to change the delivery day / not.",
+          "s": "I can receive on weekdays. I do not want to change the day."
+        }
+      ]
+    },
+    {
+      "t": "Khách muốn đổi trả hàng",
+      "e": [
+        {
+          "p": "Can I return this item?",
+          "m": "Nói bạn có muốn đổi hay trả. Nói lý do ngắn bạn đổi/trả.",
+          "h": "I want to return / exchange. It is because + short reason.",
+          "s": "I want to return this item. It is because it is damaged."
+        },
+        {
+          "p": "Do you have the receipt?",
+          "m": "Nói bạn có hóa đơn không. Nói bạn muốn đổi lấy món khác hay lấy tiền.",
+          "h": "I have / I do not have the receipt. I want + exchange / a refund.",
+          "s": "I have the receipt. I want an exchange."
+        },
+        {
+          "p": "We accept returns within 7 days.",
+          "m": "Nói bạn mua khi nào. Nói bạn có đến trong 7 ngày không.",
+          "h": "I bought it + time. I will come within seven days.",
+          "s": "I bought it last week. I will come within seven days."
+        },
+        {
+          "p": "Is the product opened or unused?",
+          "m": "Nói sản phẩm đã mở hay chưa. Nói bạn muốn sản phẩm mới hay tiền lại.",
+          "h": "It is opened / unused. I want a new product / a refund.",
+          "s": "It is unused. I want a new product."
+        },
+        {
+          "p": "We can give a full refund or store credit.",
+          "m": "Nói bạn chọn hoàn tiền hay phiếu mua hàng. Nói bạn muốn làm gì tiếp theo.",
+          "h": "I choose + refund / store credit. I will + next action.",
+          "s": "I choose a full refund. I will return the item tomorrow."
+        }
+      ]
+    },
+    {
+      "t": "Khách hàng hỏi bảo hành",
+      "e": [
+        {
+          "p": "Does this product have a warranty?",
+          "m": "Nói có hay không có bảo hành. Nói thời gian bảo hành ngắn.",
+          "h": "It has / does not have a warranty. It is for + time.",
+          "s": "It has a warranty. It is for one year."
+        },
+        {
+          "p": "What does the warranty cover?",
+          "m": "Nói bảo hành bao gồm lỗi gì. Nói bảo hành không bao gồm gì.",
+          "h": "It covers + faults. It does not cover + N.",
+          "s": "It covers manufacturing faults. It does not cover accidental damage."
+        },
+        {
+          "p": "How do I use the warranty?",
+          "m": "Nói bạn cần làm gì để bảo hành. Nói bạn có mang đến cửa hàng hay gửi qua bưu điện.",
+          "h": "You need to + V. You bring it to the store / send by mail.",
+          "s": "You need to show the receipt. You bring it to the store."
+        },
+        {
+          "p": "The service center is near the mall.",
+          "m": "Nói bạn có muốn mang đến không. Nói khi nào bạn mang tới.",
+          "h": "I want to bring it. I will come + time.",
+          "s": "I want to bring it to the service center. I will come next Tuesday."
+        },
+        {
+          "p": "We usually repair within two weeks.",
+          "m": "Nói bạn có thể chờ hay cần sản phẩm ngay. Nói bạn muốn đồ thay thế hay đợi.",
+          "h": "I can wait / I need a replacement. I want + replacement / wait.",
+          "s": "I can wait two weeks. I do not need a replacement."
+        }
+      ]
+    },
+    {
+      "t": "Cá nhân hóa đề xuất theo nhu cầu",
+      "e": [
+        {
+          "p": "Do you shop for yourself or family?",
+          "m": "Nói bạn mua cho ai. Nói số người bạn mua cho.",
+          "h": "I buy for + myself / family. There are + number + people.",
+          "s": "I buy for my family. There are three people."
+        },
+        {
+          "p": "How often do you use this product?",
+          "m": "Nói tần suất bạn dùng. Nói bạn cần sản phẩm bền hay không.",
+          "h": "I + adv of freq + V. I need + durable / not.",
+          "s": "I often use it. I need a durable product."
+        },
+        {
+          "p": "Do you prefer simple or smart features?",
+          "m": "Nói bạn thích đơn giản hay thông minh. Nói bạn có muốn học cách dùng không.",
+          "h": "I prefer + simple / smart. I want / do not want to learn.",
+          "s": "I prefer simple features. I do not want to learn new settings."
+        },
+        {
+          "p": "What room will you use this in?",
+          "m": "Nói phòng bạn dùng sản phẩm. Nói bạn cần kích thước nhỏ hay lớn.",
+          "h": "I use it in + room. I need + small / big size.",
+          "s": "I use it in the living room. I need a small size."
+        },
+        {
+          "p": "We can make a list of options for you.",
+          "m": "Nói bạn có muốn danh sách không. Nói bạn muốn nhận qua email hay xem ở cửa hàng.",
+          "h": "I want a list. I want it by email / at the store.",
+          "s": "I want a list of options. I want to see it at the store."
+        }
+      ]
+    },
+    {
+      "t": "Ôn tập: Câu hỏi cơ bản với khách",
+      "e": [
+        {
+          "p": "How can I help you today?",
+          "m": "Nói bạn cần gì. Nói số lượng bạn cần.",
+          "h": "I want / I need + N. There are + number + N.",
+          "s": "I want a new phone. I need one."
+        },
+        {
+          "p": "Do you prefer a small or big model?",
+          "m": "Nói bạn thích to hay nhỏ. Nói lý do ngắn.",
+          "h": "I prefer + small / big. I like it because + short reason.",
+          "s": "I prefer a small model. I like it because it is easy to carry."
+        },
+        {
+          "p": "How much is your budget?",
+          "m": "Nói ngân sách của bạn. Nói bạn muốn mua rẻ hay tốt.",
+          "h": "My budget is + amount. I want + cheap / good quality.",
+          "s": "My budget is thirty dollars. I want good quality."
+        },
+        {
+          "p": "Do you want delivery or pickup?",
+          "m": "Nói bạn chọn giao hàng hay tự lấy. Nói bạn muốn thời gian nào.",
+          "h": "I want delivery / pickup. I come + time phrase.",
+          "s": "I want pickup. I come this evening."
+        },
+        {
+          "p": "Can I wrap it as a gift?",
+          "m": "Nói bạn có cần gói quà không. Nói bạn muốn gói đơn giản hay đẹp.",
+          "h": "I need gift wrapping. I want + simple / nice.",
+          "s": "I need gift wrapping. I want a nice wrap."
+        }
+      ]
+    },
+    {
+      "t": "Ôn tập: Gợi ý và so sánh sản phẩm",
+      "e": [
+        {
+          "p": "Which one fits your need best?",
+          "m": "Nói bạn chọn sản phẩm nào. Nói lý do ngắn.",
+          "h": "I choose + A / B. I like it because + short reason.",
+          "s": "I choose product B. I like it because it is durable."
+        },
+        {
+          "p": "This one is cheaper and lightweight.",
+          "m": "Nói bạn muốn rẻ hay nhẹ. Nói bạn dùng nó thường xuyên không.",
+          "h": "I want + cheap / lightweight. I often + V.",
+          "s": "I want the lightweight one. I often use it every day."
+        },
+        {
+          "p": "A has two colors; B has many colors.",
+          "m": "Nói bạn cần nhiều màu hay ít màu. Nói màu bạn thích.",
+          "h": "I want + more / fewer colors. I like + color.",
+          "s": "I want more colors. I like red."
+        },
+        {
+          "p": "One model is new and fast, the other is older.",
+          "m": "Nói bạn cần nhanh hay ổn định. Nói bạn chọn model nào.",
+          "h": "I need + fast / stable. I choose + model.",
+          "s": "I need a fast model. I choose the new one."
+        },
+        {
+          "p": "We recommend B for daily use.",
+          "m": "Nói bạn có đồng ý với đề xuất không. Nói bạn sẽ mua luôn hay suy nghĩ.",
+          "h": "I agree / I do not agree. I will buy now / think.",
+          "s": "I agree with the recommendation. I will buy now."
+        }
+      ]
+    },
+    {
+      "t": "Ôn tập: Xử lý đổi trả và bảo hành",
+      "e": [
+        {
+          "p": "I want to return this, please.",
+          "m": "Nói lý do trả. Nói bạn có hóa đơn không.",
+          "h": "It is because + short reason. I have / do not have the receipt.",
+          "s": "It is because the item is damaged. I have the receipt."
+        },
+        {
+          "p": "We can offer a refund or exchange.",
+          "m": "Nói bạn chọn hoàn tiền hay đổi. Nói bạn làm gì tiếp theo.",
+          "h": "I choose + refund / exchange. I will + next action.",
+          "s": "I choose an exchange. I will bring the item tomorrow."
+        },
+        {
+          "p": "Your product has a one-year warranty.",
+          "m": "Nói bạn có muốn bảo hành không. Nói bạn muốn mang đến đâu.",
+          "h": "I want to use the warranty. I bring it to + place.",
+          "s": "I want to use the warranty. I bring it to the service center."
+        },
+        {
+          "p": "We usually repair within two weeks.",
+          "m": "Nói bạn có thể chờ không. Nói bạn muốn đồ thay thế hay đợi sửa.",
+          "h": "I can wait / I need a replacement. I want + replacement / wait.",
+          "s": "I can wait two weeks. I do not need a replacement."
+        },
+        {
+          "p": "Please show the receipt and the product.",
+          "m": "Nói bạn sẽ mang gì tới. Nói khi nào bạn tới.",
+          "h": "I will bring + items. I come + time.",
+          "s": "I will bring the product and receipt. I come tomorrow morning."
+        }
+      ]
+    }
+  ]
+}

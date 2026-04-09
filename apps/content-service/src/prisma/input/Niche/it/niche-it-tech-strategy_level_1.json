@@ -1,0 +1,530 @@
+{
+  "l": 1,
+  "d": [
+    {
+      "t": "Giới thiệu dự án",
+      "e": [
+        {
+          "p": "What is the project?",
+          "m": "Nói mục đích chính của dự án trong 1 câu.",
+          "h": "Use 'This project is' or 'It is' + noun phrase.",
+          "s": "This project is a system for many users."
+        },
+        {
+          "p": "Who is on the team?",
+          "m": "Nói ai trong đội bằng 1 câu.",
+          "h": "Use 'There is' or 'There are' + people.",
+          "s": "There are three people on the team."
+        },
+        {
+          "p": "Where is the code stored?",
+          "m": "Nói nơi lưu code trong 1 câu.",
+          "h": "Use 'The code is' + place.",
+          "s": "The code is on a server."
+        },
+        {
+          "p": "Is the project small?",
+          "m": "Trả lời có hoặc không bằng 1 câu.",
+          "h": "Use 'Yes, it is.' or 'No, it is not.'",
+          "s": "No, it is not."
+        },
+        {
+          "p": "Can the system help many users?",
+          "m": "Trả lời có hoặc không bằng 1 câu.",
+          "h": "Use 'Yes, it can.' or 'No, it cannot.'",
+          "s": "Yes, it can."
+        }
+      ]
+    },
+    {
+      "t": "Nói về nợ kỹ thuật",
+      "e": [
+        {
+          "p": "Is there a code problem?",
+          "m": "Nói có lỗi code hay không bằng 1 câu.",
+          "h": "Use 'There is' or 'There are'.",
+          "s": "There is a code problem."
+        },
+        {
+          "p": "Is the code old?",
+          "m": "Trả lời có hoặc không bằng 1 câu.",
+          "h": "Use 'Yes, it is.' or 'No, it is not.'",
+          "s": "Yes, it is."
+        },
+        {
+          "p": "Do we fix the old code now?",
+          "m": "Trả lời có hoặc không bằng 1 câu.",
+          "h": "Use 'Yes, we do.' or 'No, we do not.'",
+          "s": "No, we do not."
+        },
+        {
+          "p": "How many bugs are there?",
+          "m": "Nói số lỗi bằng 1 câu.",
+          "h": "Use 'There are' + number + noun.",
+          "s": "There are five bugs."
+        },
+        {
+          "p": "Can fixing code save time?",
+          "m": "Trả lời có hoặc không bằng 1 câu.",
+          "h": "Use 'Yes, it can.' or 'No, it cannot.'",
+          "s": "Yes, it can."
+        }
+      ]
+    },
+    {
+      "t": "Vấn đề bảo mật đơn giản",
+      "e": [
+        {
+          "p": "Is the system safe?",
+          "m": "Trả lời có hoặc không bằng 1 câu.",
+          "h": "Use 'Yes, it is.' or 'No, it is not.'",
+          "s": "No, it is not."
+        },
+        {
+          "p": "What is the security risk?",
+          "m": "Nói 1 rủi ro bảo mật bằng 1 câu.",
+          "h": "Use 'There is' or 'The risk is' + noun.",
+          "s": "There is a weak password problem."
+        },
+        {
+          "p": "Who checks security?",
+          "m": "Nói ai kiểm tra bảo mật bằng 1 câu.",
+          "h": "Use 'The team' + verb.",
+          "s": "The team checks security."
+        },
+        {
+          "p": "Do we need a password plan?",
+          "m": "Trả lời có hoặc không bằng 1 câu.",
+          "h": "Use 'Yes, we do.' or 'No, we do not.'",
+          "s": "Yes, we do."
+        },
+        {
+          "p": "Can users keep their data safe?",
+          "m": "Trả lời có hoặc không bằng 1 câu.",
+          "h": "Use 'Yes, they can.' or 'No, they cannot.'",
+          "s": "Yes, they can."
+        }
+      ]
+    },
+    {
+      "t": "Khả năng mở rộng của hệ thống",
+      "e": [
+        {
+          "p": "Is the system fast now?",
+          "m": "Trả lời có hoặc không bằng 1 câu.",
+          "h": "Use 'Yes, it is.' or 'No, it is not.'",
+          "s": "No, it is not."
+        },
+        {
+          "p": "What is the problem with many users?",
+          "m": "Nói vấn đề khi nhiều người dùng bằng 1 câu.",
+          "h": "Use 'The system is' + adjective or 'There is' + problem.",
+          "s": "The system is slow with many users."
+        },
+        {
+          "p": "Can the system grow bigger?",
+          "m": "Trả lời có hoặc không bằng 1 câu.",
+          "h": "Use 'Yes, it can.' or 'No, it cannot.'",
+          "s": "Yes, it can."
+        },
+        {
+          "p": "Do we need more servers?",
+          "m": "Trả lời có hoặc không bằng 1 câu.",
+          "h": "Use 'Yes, we do.' or 'No, we do not.'",
+          "s": "Yes, we do."
+        },
+        {
+          "p": "Where do we add new servers?",
+          "m": "Nói nơi thêm server bằng 1 câu.",
+          "h": "Use 'We add servers in' + place.",
+          "s": "We add servers in the data center."
+        }
+      ]
+    },
+    {
+      "t": "Quyết định sửa lỗi hay trì hoãn",
+      "e": [
+        {
+          "p": "Is there a small bug?",
+          "m": "Trả lời có hoặc không bằng 1 câu.",
+          "h": "Use 'Yes, there is.' or 'No, there is not.'",
+          "s": "Yes, there is."
+        },
+        {
+          "p": "Do we fix the small bug now?",
+          "m": "Trả lời có hoặc không bằng 1 câu.",
+          "h": "Use 'Yes, we do.' or 'No, we do not.'",
+          "s": "No, we do not."
+        },
+        {
+          "p": "Why not fix the bug now?",
+          "m": "Nói lý do ngắn gọn bằng 1 câu.",
+          "h": "Use 'Because' + short reason.",
+          "s": "Because we need time and money."
+        },
+        {
+          "p": "Can we plan to fix it next week?",
+          "m": "Trả lời có hoặc không bằng 1 câu.",
+          "h": "Use 'Yes, we can.' or 'No, we cannot.'",
+          "s": "Yes, we can."
+        },
+        {
+          "p": "Who fixes the bug?",
+          "m": "Nói người phụ trách bằng 1 câu.",
+          "h": "Use 'A developer' or 'The team' + verb.",
+          "s": "A developer fixes the bug."
+        }
+      ]
+    },
+    {
+      "t": "Chi phí và thời gian dự án",
+      "e": [
+        {
+          "p": "Is the project cheap?",
+          "m": "Trả lời có hoặc không bằng 1 câu.",
+          "h": "Use 'Yes, it is.' or 'No, it is not.'",
+          "s": "No, it is not."
+        },
+        {
+          "p": "How much time do we need?",
+          "m": "Nói thời gian cần thiết bằng 1 câu.",
+          "h": "Use 'We need' + time (weeks/days).",
+          "s": "We need four weeks."
+        },
+        {
+          "p": "Do we have enough money?",
+          "m": "Trả lời có hoặc không bằng 1 câu.",
+          "h": "Use 'Yes, we do.' or 'No, we do not.'",
+          "s": "No, we do not."
+        },
+        {
+          "p": "What cost is high?",
+          "m": "Nói chi phí cao bằng 1 câu.",
+          "h": "Use 'The cost is' + noun.",
+          "s": "The cost is the server fee."
+        },
+        {
+          "p": "Can we lower the cost?",
+          "m": "Trả lời có hoặc không bằng 1 câu.",
+          "h": "Use 'Yes, we can.' or 'No, we cannot.'",
+          "s": "Yes, we can."
+        }
+      ]
+    },
+    {
+      "t": "Ưu tiên tính năng cho người dùng",
+      "e": [
+        {
+          "p": "What feature do users want?",
+          "m": "Nói một tính năng người dùng muốn bằng 1 câu.",
+          "h": "Use 'Users want' + noun.",
+          "s": "Users want a simple login."
+        },
+        {
+          "p": "Is the login important?",
+          "m": "Trả lời có hoặc không bằng 1 câu.",
+          "h": "Use 'Yes, it is.' or 'No, it is not.'",
+          "s": "Yes, it is."
+        },
+        {
+          "p": "Do we add a new feature now?",
+          "m": "Trả lời có hoặc không bằng 1 câu.",
+          "h": "Use 'Yes, we do.' or 'No, we do not.'",
+          "s": "No, we do not."
+        },
+        {
+          "p": "Who chooses the feature?",
+          "m": "Nói ai chọn tính năng bằng 1 câu.",
+          "h": "Use 'The manager' or 'The team leader' + verb.",
+          "s": "The manager chooses the feature."
+        },
+        {
+          "p": "Can users test the feature?",
+          "m": "Trả lời có hoặc không bằng 1 câu.",
+          "h": "Use 'Yes, they can.' or 'No, they cannot.'",
+          "s": "Yes, they can."
+        }
+      ]
+    },
+    {
+      "t": "Làm việc cùng đội dev",
+      "e": [
+        {
+          "p": "Does the team meet today?",
+          "m": "Trả lời có hoặc không bằng 1 câu.",
+          "h": "Use 'Yes, they do.' or 'No, they do not.'",
+          "s": "Yes, they do."
+        },
+        {
+          "p": "Who is the team lead?",
+          "m": "Nói chức danh người dẫn đội bằng 1 câu.",
+          "h": "Use 'The lead is' + noun.",
+          "s": "The lead is a manager."
+        },
+        {
+          "p": "Can you share the code?",
+          "m": "Trả lời có hoặc không bằng 1 câu.",
+          "h": "Use 'Yes, I can.' or 'No, I cannot.'",
+          "s": "Yes, I can."
+        },
+        {
+          "p": "What time is the meeting?",
+          "m": "Nói giờ họp bằng 1 câu.",
+          "h": "Use 'The meeting is at' + time.",
+          "s": "The meeting is at ten AM."
+        },
+        {
+          "p": "Do we talk about security in the meeting?",
+          "m": "Trả lời có hoặc không bằng 1 câu.",
+          "h": "Use 'Yes, we do.' or 'No, we do not.'",
+          "s": "Yes, we do."
+        }
+      ]
+    },
+    {
+      "t": "Tài liệu và học cho đội",
+      "e": [
+        {
+          "p": "Is there a guide for new staff?",
+          "m": "Trả lời có hoặc không bằng 1 câu.",
+          "h": "Use 'Yes, there is.' or 'No, there is not.'",
+          "s": "No, there is not."
+        },
+        {
+          "p": "What is in the guide?",
+          "m": "Nói một nội dung trong tài liệu bằng 1 câu.",
+          "h": "Use 'There is' + noun.",
+          "s": "There is a simple code guide."
+        },
+        {
+          "p": "Do new staff read the guide?",
+          "m": "Trả lời có hoặc không bằng 1 câu.",
+          "h": "Use 'Yes, they do.' or 'No, they do not.'",
+          "s": "Yes, they do."
+        },
+        {
+          "p": "Who makes the guide?",
+          "m": "Nói ai làm tài liệu bằng 1 câu.",
+          "h": "Use 'The team' + verb.",
+          "s": "The team makes the guide."
+        },
+        {
+          "p": "Can training help the team?",
+          "m": "Trả lời có hoặc không bằng 1 câu.",
+          "h": "Use 'Yes, it can.' or 'No, it cannot.'",
+          "s": "Yes, it can."
+        }
+      ]
+    },
+    {
+      "t": "Kiểm tra hiệu suất",
+      "e": [
+        {
+          "p": "Is the site fast now?",
+          "m": "Trả lời có hoặc không bằng 1 câu.",
+          "h": "Use 'Yes, it is.' or 'No, it is not.'",
+          "s": "No, it is not."
+        },
+        {
+          "p": "What test do we do?",
+          "m": "Nói một loại kiểm tra bằng 1 câu.",
+          "h": "Use 'We do' + test name (simple).",
+          "s": "We do a speed test."
+        },
+        {
+          "p": "Do we test with many users?",
+          "m": "Trả lời có hoặc không bằng 1 câu.",
+          "h": "Use 'Yes, we do.' or 'No, we do not.'",
+          "s": "Yes, we do."
+        },
+        {
+          "p": "How long is the test?",
+          "m": "Nói thời lượng kiểm tra bằng 1 câu.",
+          "h": "Use 'The test is' + time.",
+          "s": "The test is two hours."
+        },
+        {
+          "p": "Can tests find slow parts?",
+          "m": "Trả lời có hoặc không bằng 1 câu.",
+          "h": "Use 'Yes, they can.' or 'No, they cannot.'",
+          "s": "Yes, they can."
+        }
+      ]
+    },
+    {
+      "t": "Cập nhật phần mềm",
+      "e": [
+        {
+          "p": "Do we update the system today?",
+          "m": "Trả lời có hoặc không bằng 1 câu.",
+          "h": "Use 'Yes, we do.' or 'No, we do not.'",
+          "s": "No, we do not."
+        },
+        {
+          "p": "What is the update?",
+          "m": "Nói 1 thay đổi của bản cập nhật bằng 1 câu.",
+          "h": "Use 'The update is' + noun.",
+          "s": "The update is a code fix."
+        },
+        {
+          "p": "Does the update stop the site?",
+          "m": "Trả lời có hoặc không bằng 1 câu.",
+          "h": "Use 'Yes, it does.' or 'No, it does not.'",
+          "s": "No, it does not."
+        },
+        {
+          "p": "Who does the update?",
+          "m": "Nói ai làm cập nhật bằng 1 câu.",
+          "h": "Use 'The developer' or 'The team' + verb.",
+          "s": "The developer does the update."
+        },
+        {
+          "p": "Can we check the site after update?",
+          "m": "Trả lời có hoặc không bằng 1 câu.",
+          "h": "Use 'Yes, we can.' or 'No, we cannot.'",
+          "s": "Yes, we can."
+        }
+      ]
+    },
+    {
+      "t": "Kế hoạch dài hạn",
+      "e": [
+        {
+          "p": "Is there a long plan?",
+          "m": "Trả lời có hoặc không bằng 1 câu.",
+          "h": "Use 'Yes, there is.' or 'No, there is not.'",
+          "s": "Yes, there is."
+        },
+        {
+          "p": "What is the long goal?",
+          "m": "Nói mục tiêu dài hạn bằng 1 câu.",
+          "h": "Use 'The goal is' + simple phrase.",
+          "s": "The goal is to make the system fast."
+        },
+        {
+          "p": "Do we save money for the plan?",
+          "m": "Trả lời có hoặc không bằng 1 câu.",
+          "h": "Use 'Yes, we do.' or 'No, we do not.'",
+          "s": "Yes, we do."
+        },
+        {
+          "p": "Who makes the long plan?",
+          "m": "Nói ai làm kế hoạch dài hạn bằng 1 câu.",
+          "h": "Use 'The manager' or 'The team' + verb.",
+          "s": "The manager makes the plan."
+        },
+        {
+          "p": "Can the plan change?",
+          "m": "Trả lời có hoặc không bằng 1 câu.",
+          "h": "Use 'Yes, it can.' or 'No, it cannot.'",
+          "s": "Yes, it can."
+        }
+      ]
+    },
+    {
+      "t": "Ôn tập: Quyết định cơ bản",
+      "e": [
+        {
+          "p": "What is the main problem now?",
+          "m": "Nói một vấn đề chính hiện tại bằng 1 câu.",
+          "h": "Use 'The problem is' or 'There is' + noun.",
+          "s": "The problem is technical debt."
+        },
+        {
+          "p": "Do we fix the problem now?",
+          "m": "Trả lời có hoặc không bằng 1 câu.",
+          "h": "Use 'Yes, we do.' or 'No, we do not.'",
+          "s": "No, we do not."
+        },
+        {
+          "p": "Is the system safe for users?",
+          "m": "Trả lời có hoặc không bằng 1 câu.",
+          "h": "Use 'Yes, it is.' or 'No, it is not.'",
+          "s": "No, it is not."
+        },
+        {
+          "p": "Who checks the code security?",
+          "m": "Nói ai kiểm tra bảo mật bằng 1 câu.",
+          "h": "Use 'The team' + verb.",
+          "s": "The team checks the code security."
+        },
+        {
+          "p": "Can we make the system safe?",
+          "m": "Trả lời có hoặc không bằng 1 câu.",
+          "h": "Use 'Yes, we can.' or 'No, we cannot.'",
+          "s": "Yes, we can."
+        }
+      ]
+    },
+    {
+      "t": "Ôn tập: Hiệu suất và chi phí",
+      "e": [
+        {
+          "p": "Is the site slow with many users?",
+          "m": "Trả lời có hoặc không bằng 1 câu.",
+          "h": "Use 'Yes, it is.' or 'No, it is not.'",
+          "s": "Yes, it is."
+        },
+        {
+          "p": "How many servers do we need?",
+          "m": "Nói số server cần bằng 1 câu.",
+          "h": "Use 'We need' + number.",
+          "s": "We need three servers."
+        },
+        {
+          "p": "Do we have money for servers?",
+          "m": "Trả lời có hoặc không bằng 1 câu.",
+          "h": "Use 'Yes, we do.' or 'No, we do not.'",
+          "s": "No, we do not."
+        },
+        {
+          "p": "Can a test find slow parts?",
+          "m": "Trả lời có hoặc không bằng 1 câu.",
+          "h": "Use 'Yes, it can.' or 'No, it cannot.'",
+          "s": "Yes, it can."
+        },
+        {
+          "p": "Where do we add servers to help speed?",
+          "m": "Nói nơi thêm server bằng 1 câu.",
+          "h": "Use 'We add servers in' + place.",
+          "s": "We add servers in the data center."
+        }
+      ]
+    },
+    {
+      "t": "Ôn tập: Kế hoạch và đội",
+      "e": [
+        {
+          "p": "Is there a plan for next month?",
+          "m": "Trả lời có hoặc không bằng 1 câu.",
+          "h": "Use 'Yes, there is.' or 'No, there is not.'",
+          "s": "Yes, there is."
+        },
+        {
+          "p": "Who plans the work?",
+          "m": "Nói ai lập kế hoạch bằng 1 câu.",
+          "h": "Use 'The manager' or 'The team' + verb.",
+          "s": "The manager plans the work."
+        },
+        {
+          "p": "Do team members read the guide?",
+          "m": "Trả lời có hoặc không bằng 1 câu.",
+          "h": "Use 'Yes, they do.' or 'No, they do not.'",
+          "s": "Yes, they do."
+        },
+        {
+          "p": "Can training help the team in the plan?",
+          "m": "Trả lời có hoặc không bằng 1 câu.",
+          "h": "Use 'Yes, it can.' or 'No, it cannot.'",
+          "s": "Yes, it can."
+        },
+        {
+          "p": "Do we check the system after work?",
+          "m": "Trả lời có hoặc không bằng 1 câu.",
+          "h": "Use 'Yes, we do.' or 'No, we do not.'",
+          "s": "Yes, we do."
+        }
+      ]
+    }
+  ]
+}

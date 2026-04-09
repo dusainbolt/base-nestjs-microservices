@@ -1,0 +1,530 @@
+{
+  "l": 2,
+  "d": [
+    {
+      "t": "Gặp gỡ ứng viên",
+      "e": [
+        {
+          "p": "What's your name and where do you live?",
+          "m": "Nói tên của bạn. Nói thành phố bạn sống.",
+          "h": "Dùng [studentName], 'I live in + place'.",
+          "s": "[studentName]. I live in [studentCity]."
+        },
+        {
+          "p": "How old are you and what is your job?",
+          "m": "Nói tuổi của bạn. Nói nghề hiện tại.",
+          "h": "Dùng '[studentAge]' và 'I work as + job' hoặc '[studentJob]'.",
+          "s": "I am [studentAge] years old. I work as a [studentJob]."
+        },
+        {
+          "p": "Do you like this company and why?",
+          "m": "Nói bạn có thích công ty hay không. Nói lý do đơn giản.",
+          "h": "Dùng Present Simple: 'I like / I don't like' + reason (simple).",
+          "s": "I like this company. The work is friendly and simple."
+        },
+        {
+          "p": "Are you free now and when can you start?",
+          "m": "Nói bạn có rảnh ngay bây giờ không. Nói thời gian bạn có thể bắt đầu.",
+          "h": "Dùng 'I am free' và 'I can start + time'.",
+          "s": "I am free now. I can start next week."
+        },
+        {
+          "p": "Where are you from and do you speak English?",
+          "m": "Nói quê quán. Nói mức độ nói tiếng Anh (a little / well).",
+          "h": "Dùng 'I am from' và 'I speak English + a little / well'.",
+          "s": "I am from Hà Nội. I speak English a little."
+        }
+      ]
+    },
+    {
+      "t": "Công việc hiện tại",
+      "e": [
+        {
+          "p": "What is your current job and what do you do?",
+          "m": "Nói công việc hiện tại. Nói hai việc bạn làm hàng ngày.",
+          "h": "Dùng Present Simple: 'I work as' và 'I + verb (usually)'.",
+          "s": "I work as a waiter. I serve food and clean tables."
+        },
+        {
+          "p": "Do you often work with customers and how?",
+          "m": "Nói bạn có thường làm việc với khách không. Nói cách bạn làm việc với họ.",
+          "h": "Dùng 'I often / sometimes' và 'I help / I talk to'.",
+          "s": "I often work with customers. I help them order food."
+        },
+        {
+          "p": "What time do you start work and where is your office?",
+          "m": "Nói giờ bạn bắt đầu. Nói vị trí chỗ làm (ví dụ: in the city).",
+          "h": "Dùng 'I start at + time' và 'My office is + place'.",
+          "s": "I start at nine o'clock. My office is in the city center."
+        },
+        {
+          "p": "How many people are in your team and who is next to you?",
+          "m": "Nói số người trong nhóm. Nói một người bạn làm việc gần (ví dụ: a manager).",
+          "h": "Dùng 'There are + number' và 'I work with + person'.",
+          "s": "There are five people in my team. I work with a manager next to me."
+        },
+        {
+          "p": "Do you like your job and why do you like it?",
+          "m": "Nói bạn có thích công việc không. Nói một lý do đơn giản.",
+          "h": "Dùng 'I like / I don't like' và 'because + reason'.",
+          "s": "I like my job. I like it because I meet new people."
+        }
+      ]
+    },
+    {
+      "t": "Kỹ năng và học vấn",
+      "e": [
+        {
+          "p": "What skills do you have and what do you enjoy doing?",
+          "m": "Nói hai kỹ năng đơn giản. Nói hai hoạt động bạn thích làm.",
+          "h": "Dùng 'I can + verb' và 'I like + noun/verb-ing'.",
+          "s": "I can use a computer. I can talk to people. I like helping others and reading."
+        },
+        {
+          "p": "Are you studying now and where do you study?",
+          "m": "Nói bạn có đang học không. Nói tên trường hoặc nơi học (dùng [studentSchool] nếu cần).",
+          "h": "Dùng 'I am studying' hoặc 'I study at + school'.",
+          "s": "I am studying now. I study at [studentSchool]."
+        },
+        {
+          "p": "How much English do you know and do you want to learn more?",
+          "m": "Nói mức tiếng Anh (a little / well). Nói bạn có muốn học thêm không.",
+          "h": "Dùng 'I know English + a little / well' và 'I want to + verb'.",
+          "s": "I know English a little. I want to learn more."
+        },
+        {
+          "p": "Can you use a computer and how often do you use it?",
+          "m": "Nói bạn có thể dùng máy tính không. Nói tần suất sử dụng (always/often/sometimes).",
+          "h": "Dùng 'I can' và 'I often / sometimes / always'.",
+          "s": "I can use a computer. I use it often."
+        },
+        {
+          "p": "Do you like team work and why?",
+          "m": "Nói bạn có thích làm việc nhóm không. Nói một lý do đơn giản.",
+          "h": "Dùng 'I like / I don't like' và 'because + reason'.",
+          "s": "I like team work. Because I learn from others."
+        }
+      ]
+    },
+    {
+      "t": "Ấn tượng đầu tiên trong phỏng vấn",
+      "e": [
+        {
+          "p": "How do you feel in this interview and are you nervous?",
+          "m": "Nói cảm xúc hiện tại. Nói bạn có lo lắng hay không.",
+          "h": "Dùng 'I feel + adjective' và 'I am + adjective / I am not + adjective'.",
+          "s": "I feel good. I am a little nervous."
+        },
+        {
+          "p": "Do you like the office and what do you think about it?",
+          "m": "Nói bạn có thích văn phòng không. Nói một điều bạn nghĩ về văn phòng.",
+          "h": "Dùng 'I like / I don't like' và 'It is + adjective'.",
+          "s": "I like the office. It is clean and nice."
+        },
+        {
+          "p": "Are you on time today and why?",
+          "m": "Nói bạn có đúng giờ hôm nay không. Nói lý do (ví dụ: traffic or I woke up early).",
+          "h": "Dùng 'I am / I am not' và 'because + short reason'.",
+          "s": "I am on time today. Because I woke up early."
+        },
+        {
+          "p": "Is your outfit comfortable and do you think it is smart?",
+          "m": "Nói trang phục có thoải mái không. Nói bạn có nghĩ nó lịch sự hay không.",
+          "h": "Dùng 'It is comfortable' và 'It is smart / not smart'.",
+          "s": "It is comfortable. It is smart for work."
+        },
+        {
+          "p": "Do you usually arrive early and how do you prepare?",
+          "m": "Nói bạn có thường đến sớm không. Nói một việc bạn làm để chuẩn bị.",
+          "h": "Dùng 'I usually / sometimes / never' và 'I + verb' (prepare).",
+          "s": "I usually arrive early. I prepare my documents and drink water."
+        }
+      ]
+    },
+    {
+      "t": "Lịch phỏng vấn và sắp xếp",
+      "e": [
+        {
+          "p": "When are you available for the next interview and which day is best?",
+          "m": "Nói ngày bạn rảnh (ví dụ: Monday). Nói ngày nào tốt nhất cho bạn.",
+          "h": "Dùng 'I am available on + day' và 'The best day is + day'.",
+          "s": "I am available on Monday and Tuesday. The best day is Tuesday."
+        },
+        {
+          "p": "Can you come in the morning and do you prefer morning or afternoon?",
+          "m": "Nói bạn có thể đến buổi sáng không. Nói bạn thích sáng hay chiều.",
+          "h": "Dùng 'I can / I cannot' và 'I prefer + morning/afternoon'.",
+          "s": "I can come in the morning. I prefer the morning."
+        },
+        {
+          "p": "Do you have time this week and how many hours can you come?",
+          "m": "Nói bạn có thời gian trong tuần này không. Nói số giờ bạn có thể làm (vd: 4 hours).",
+          "h": "Dùng 'I have / I don't have' và 'I can work + number + hours'.",
+          "s": "I have time this week. I can work four hours on a weekday."
+        },
+        {
+          "p": "Are you usually free on weekends and can you work then?",
+          "m": "Nói bạn có rảnh cuối tuần không. Nói bạn có thể làm việc cuối tuần hay không.",
+          "h": "Dùng 'I am usually / sometimes' và 'I can / I cannot work on weekends'.",
+          "s": "I am usually free on weekends. I can work on Saturdays."
+        },
+        {
+          "p": "Do you prefer online or face-to-face interviews and why?",
+          "m": "Nói bạn thích phỏng vấn online hay gặp trực tiếp. Nói lý do ngắn.",
+          "h": "Dùng 'I prefer + online/face-to-face' và 'because + reason'.",
+          "s": "I prefer face-to-face interviews. Because I can meet people."
+        }
+      ]
+    },
+    {
+      "t": "Tại sao ứng tuyển",
+      "e": [
+        {
+          "p": "Why do you apply for this job and what do you want to learn?",
+          "m": "Nói lý do nộp đơn (ngắn). Nói bạn muốn học gì ở công việc này.",
+          "h": "Dùng 'I apply because' và 'I want to learn + noun/verb'.",
+          "s": "I apply because I like the work. I want to learn new skills."
+        },
+        {
+          "p": "Do you like this work and how will you help the team?",
+          "m": "Nói bạn có thích công việc này không. Nói một cách bạn giúp nhóm.",
+          "h": "Dùng 'I like / I don't like' và 'I will + verb' (support).",
+          "s": "I like this work. I will help the team with good ideas."
+        },
+        {
+          "p": "Are you ready to learn and how do you learn new things?",
+          "m": "Nói bạn có sẵn sàng học không. Nói cách bạn học (ví dụ: practice).",
+          "h": "Dùng 'I am ready' và 'I learn by + verb-ing'.",
+          "s": "I am ready to learn. I learn by practice."
+        },
+        {
+          "p": "Do you want long-term work and do you like routine tasks?",
+          "m": "Nói bạn có muốn làm lâu dài không. Nói bạn có thích công việc lặp lại hay không.",
+          "h": "Dùng 'I want / I don't want' và 'I like / I don't like'.",
+          "s": "I want long-term work. I like routine tasks because they are clear."
+        },
+        {
+          "p": "Can you work with different people and give one example?",
+          "m": "Nói bạn có thể làm việc với nhiều người không. Nêu một ví dụ ngắn (ví dụ: help customers).",
+          "h": "Dùng 'I can' và 'For example, I + verb'.",
+          "s": "I can work with different people. For example, I help customers and talk to colleagues."
+        }
+      ]
+    },
+    {
+      "t": "Thái độ và điểm mạnh",
+      "e": [
+        {
+          "p": "What are your strengths and how do you use them at work?",
+          "m": "Nói một điểm mạnh đơn giản (ví dụ: friendly). Nói cách bạn dùng điểm mạnh đó ở công việc.",
+          "h": "Dùng 'I am + adjective' và 'I use it by + verb-ing'.",
+          "s": "I am friendly. I use it by talking to customers kindly."
+        },
+        {
+          "p": "Do you arrive on time and why is this important?",
+          "m": "Nói bạn có đúng giờ không. Nói lý do ngắn tại sao điều đó quan trọng.",
+          "h": "Dùng 'I arrive / I don't arrive' và 'because + reason'.",
+          "s": "I arrive on time. Because it helps the team start work."
+        },
+        {
+          "p": "Are you patient and give one short example at work?",
+          "m": "Nói bạn có kiên nhẫn không. Nêu một ví dụ ngắn về công việc.",
+          "h": "Dùng 'I am patient' và 'For example, I + verb'.",
+          "s": "I am patient. For example, I wait and listen to customers."
+        },
+        {
+          "p": "Do you learn fast and how do you practice new tasks?",
+          "m": "Nói bạn học nhanh không. Nói cách bạn thực hành nhiệm vụ mới.",
+          "h": "Dùng 'I learn fast / slowly' và 'I practice by + verb-ing'.",
+          "s": "I learn fast. I practice by doing the task many times."
+        },
+        {
+          "p": "Can you work with a busy schedule and how do you manage time?",
+          "m": "Nói bạn có thể làm việc bận không. Nói một cách bạn quản lý thời gian (ví dụ: plan).",
+          "h": "Dùng 'I can / I cannot' và 'I + verb (plan)'.",
+          "s": "I can work with a busy schedule. I plan my day and make a list."
+        }
+      ]
+    },
+    {
+      "t": "Kinh nghiệm phỏng vấn thực tế",
+      "e": [
+        {
+          "p": "Tell me one past job task and what you like about it.",
+          "m": "Nói một việc bạn làm trước đây (hiện nói ở dạng đơn giản). Nói bạn thích điều gì về việc đó.",
+          "h": "Dùng Present Simple để mô tả thường lệ: 'I worked' tránh — thay bằng 'I do/ I did before' (simple).",
+          "s": "I helped customers at a shop. I like talking to people."
+        },
+        {
+          "p": "How do you handle a problem at work and give one step?",
+          "m": "Nêu bạn xử lý vấn đề thế nào (1 bước đơn giản). Nói kết quả ngắn.",
+          "h": "Dùng 'I solve by + verb-ing' và 'Then + result'.",
+          "s": "I solve problems by asking questions. Then the problem is clear."
+        },
+        {
+          "p": "Do you prefer quiet or busy work and why?",
+          "m": "Nói bạn thích công việc yên tĩnh hay bận. Nói lý do ngắn.",
+          "h": "Dùng 'I prefer + quiet/busy' và 'because + reason'.",
+          "s": "I prefer busy work. Because I feel active and helpful."
+        },
+        {
+          "p": "Can you follow rules and give one simple example?",
+          "m": "Nói bạn có tuân theo quy tắc không. Nêu ví dụ đơn giản (ví dụ: wear uniform).",
+          "h": "Dùng 'I can' và 'For example, I + verb'.",
+          "s": "I can follow rules. For example, I wear a uniform and arrive on time."
+        },
+        {
+          "p": "Do you feel ready to start and what is your first step?",
+          "m": "Nói bạn có sẵn sàng bắt đầu không. Nói bước đầu bạn sẽ làm (ví dụ: learn tasks).",
+          "h": "Dùng 'I am ready / I am not ready' và 'I will + verb'.",
+          "s": "I am ready to start. I will learn the tasks first."
+        }
+      ]
+    },
+    {
+      "t": "Làm việc nhóm và giao tiếp",
+      "e": [
+        {
+          "p": "Do you like working with others and why?",
+          "m": "Nói bạn có thích làm việc với người khác không. Nói một lý do ngắn.",
+          "h": "Dùng 'I like / I don't like' và 'because + reason'.",
+          "s": "I like working with others. Because we help each other."
+        },
+        {
+          "p": "How do you talk to a shy teammate and give one thing you say?",
+          "m": "Nói cách bạn nói chuyện với đồng nghiệp nhút nhát. Nói một câu bạn có thể nói (ngắn).",
+          "h": "Dùng 'I say + simple sentence' (offer help).",
+          "s": "I talk slowly and kindly. I say, 'Can I help you?'"
+        },
+        {
+          "p": "Do you always share tasks and how do you help?",
+          "m": "Nói bạn có luôn chia công việc không. Nói cách bạn giúp (vd: do small tasks).",
+          "h": "Dùng 'I always / sometimes' và 'I help by + verb-ing'.",
+          "s": "I always share tasks. I help by doing small tasks first."
+        },
+        {
+          "p": "Can you listen to feedback and what do you do next?",
+          "m": "Nói bạn có nghe góp ý không. Nói việc bạn làm tiếp theo (vd: improve).",
+          "h": "Dùng 'I can' và 'I + verb (improve)'.",
+          "s": "I can listen to feedback. I try to improve my work."
+        },
+        {
+          "p": "Do you call or message a teammate and when?",
+          "m": "Nói bạn gọi hay nhắn tin đồng nghiệp. Nói khi nào bạn làm điều đó (ví dụ: when late).",
+          "h": "Dùng 'I call / I message' và 'when + short phrase'.",
+          "s": "I message a teammate. When I am late, I send a text."
+        }
+      ]
+    },
+    {
+      "t": "Giải quyết tình huống tại nơi làm",
+      "e": [
+        {
+          "p": "There is a small mistake at work. What do you do first?",
+          "m": "Nói việc đầu tiên bạn làm để xử lý lỗi. Nói một bước tiếp theo ngắn.",
+          "h": "Dùng 'I check' và 'Then I + verb'.",
+          "s": "I check the mistake. Then I tell my manager."
+        },
+        {
+          "p": "A customer is unhappy. How do you speak and what do you offer?",
+          "m": "Nói cách bạn nói với khách (tone). Nói một điều bạn đề nghị (ví dụ: fix it).",
+          "h": "Dùng 'I speak kindly' và 'I offer to + verb'.",
+          "s": "I speak kindly and calm. I offer to fix the problem."
+        },
+        {
+          "p": "You are late to work. What do you say and how do you act?",
+          "m": "Nói câu bạn nói khi đến muộn. Nói hành động bạn làm sau đó (ví dụ: start work).",
+          "h": "Dùng 'I am sorry' và 'I will + verb'.",
+          "s": "I am sorry for being late. I start work right away."
+        },
+        {
+          "p": "A machine is not working. Who do you ask and what do you do?",
+          "m": "Nói bạn hỏi ai (vd: the manager). Nói bạn làm gì (vd: stop using).",
+          "h": "Dùng 'I ask + person' và 'I stop / I wait'.",
+          "s": "I ask the manager. I stop using the machine."
+        },
+        {
+          "p": "You finish early. What do you do and do you help others?",
+          "m": "Nói bạn làm gì khi xong sớm. Nói bạn có giúp người khác không.",
+          "h": "Dùng 'I + verb' và 'I help by + verb-ing'.",
+          "s": "I clean my area. I help others with their tasks."
+        }
+      ]
+    },
+    {
+      "t": "Sẵn sàng cho công việc mới",
+      "e": [
+        {
+          "p": "Are you ready to learn and how do you start a new task?",
+          "m": "Nói bạn có sẵn sàng học không. Nói bước đầu bạn bắt đầu làm nhiệm vụ mới.",
+          "h": "Dùng 'I am ready' và 'I start by + verb-ing'.",
+          "s": "I am ready to learn. I start by watching and then trying."
+        },
+        {
+          "p": "Do you need training and what training do you want?",
+          "m": "Nói bạn có cần đào tạo không. Nói một loại đào tạo bạn muốn (vd: computer).",
+          "h": "Dùng 'I need / I don't need' và 'I want + noun'.",
+          "s": "I need training. I want computer training."
+        },
+        {
+          "p": "Can you work alone and what do you do first?",
+          "m": "Nói bạn có thể làm việc một mình không. Nói việc đầu tiên bạn làm khi ở một mình.",
+          "h": "Dùng 'I can / I cannot' và 'I + verb'.",
+          "s": "I can work alone. I check my tasks first."
+        },
+        {
+          "p": "Do you ask questions and when do you ask them?",
+          "m": "Nói bạn có hỏi câu hỏi không. Nói khi nào bạn hỏi (ví dụ: if unclear).",
+          "h": "Dùng 'I ask questions' và 'when + clause'.",
+          "s": "I ask questions. I ask when the task is unclear."
+        },
+        {
+          "p": "Will you try new tasks and how do you feel?",
+          "m": "Nói bạn có thử nhiệm vụ mới không. Nói cảm giác của bạn về điều đó (ví dụ: happy).",
+          "h": "Dùng 'I will try' và 'I feel + adjective'.",
+          "s": "I will try new tasks. I feel happy to learn."
+        }
+      ]
+    },
+    {
+      "t": "Giao tiếp qua điện thoại",
+      "e": [
+        {
+          "p": "Can you answer the phone and say your name?",
+          "m": "Nói bạn có thể nghe máy không. Nói câu nói tên ngắn khi trả lời.",
+          "h": "Dùng 'Yes, I can' và 'This is + [studentName]'.",
+          "s": "Yes, I can. This is [studentName]."
+        },
+        {
+          "p": "Do you take a message and what do you write?",
+          "m": "Nói bạn có nhận tin nhắn không. Nói một thông tin bạn ghi (vd: name).",
+          "h": "Dùng 'I take a message' và 'I write + info'.",
+          "s": "I take a message. I write the name and the phone number."
+        },
+        {
+          "p": "Can you call a colleague and when do you call them?",
+          "m": "Nói bạn có thể gọi đồng nghiệp không. Nói khi nào bạn gọi (ví dụ: during work).",
+          "h": "Dùng 'I can call' và 'when + phrase'.",
+          "s": "I can call a colleague. I call during work time."
+        },
+        {
+          "p": "Do you speak clearly on phone and how do you check understanding?",
+          "m": "Nói bạn có nói rõ không. Nói cách bạn kiểm tra họ hiểu (ví dụ: ask 'Do you understand?').",
+          "h": "Dùng 'I speak clearly' và 'I ask + question'.",
+          "s": "I speak clearly. I ask, 'Do you understand?'"
+        },
+        {
+          "p": "Will you be polite on phone and what words do you use?",
+          "m": "Nói bạn có lịch sự khi gọi không. Nói một từ hoặc câu lịch sự (ví dụ: thank you).",
+          "h": "Dùng 'I will' và 'use words like + phrase'.",
+          "s": "I will be polite on the phone. I use words like 'thank you' and 'please'."
+        }
+      ]
+    },
+    {
+      "t": "Ôn tập: Buổi phỏng vấn - Phần 1",
+      "e": [
+        {
+          "p": "Tell me your name and why you apply for this job.",
+          "m": "Nói tên của bạn. Nói lý do bạn nộp đơn (ngắn).",
+          "h": "Dùng '[studentName]' và 'I apply because'.",
+          "s": "[studentName]. I apply because I like the work."
+        },
+        {
+          "p": "Where do you live and are you free this week?",
+          "m": "Nói nơi bạn sống. Nói bạn có rảnh trong tuần này không.",
+          "h": "Dùng 'I live in' và 'I am available / I am not available'.",
+          "s": "I live in [studentCity]. I am available this week."
+        },
+        {
+          "p": "What skills do you have and do you want training?",
+          "m": "Nói hai kỹ năng của bạn. Nói bạn có cần đào tạo không.",
+          "h": "Dùng 'I can' và 'I need / I don't need'.",
+          "s": "I can use a computer and I can talk to people. I need training for new tasks."
+        },
+        {
+          "p": "Do you work well in a team and give one example?",
+          "m": "Nói bạn có làm việc nhóm tốt không. Nêu một ví dụ ngắn.",
+          "h": "Dùng 'I work well' và 'For example, I + verb'.",
+          "s": "I work well in a team. For example, I help share tasks."
+        },
+        {
+          "p": "When can you start and do you prefer part-time or full-time?",
+          "m": "Nói khi bạn có thể bắt đầu. Nói bạn thích bán thời gian hay toàn thời gian.",
+          "h": "Dùng 'I can start' và 'I prefer + part-time/full-time'.",
+          "s": "I can start next Monday. I prefer part-time."
+        }
+      ]
+    },
+    {
+      "t": "Ôn tập: Buổi phỏng vấn - Phần 2",
+      "e": [
+        {
+          "p": "How do you feel today and are you nervous?",
+          "m": "Nói cảm giác hôm nay. Nói bạn có lo lắng không.",
+          "h": "Dùng 'I feel + adjective' và 'I am / I am not'.",
+          "s": "I feel calm today. I am not very nervous."
+        },
+        {
+          "p": "Do you have experience and what do you do well?",
+          "m": "Nói bạn có kinh nghiệm không. Nói bạn làm tốt điều gì.",
+          "h": "Dùng 'I have experience' và 'I am good at + verb-ing'.",
+          "s": "I have experience in a shop. I am good at talking to customers."
+        },
+        {
+          "p": "Can you come on Saturday and how long can you work?",
+          "m": "Nói bạn có thể đến thứ Bảy không. Nói bạn có thể làm trong bao lâu (số giờ).",
+          "h": "Dùng 'I can / I cannot' và 'I can work + number + hours'.",
+          "s": "I can come on Saturday. I can work six hours."
+        },
+        {
+          "p": "Do you learn quickly and how do you practice?",
+          "m": "Nói bạn học nhanh không. Nói cách bạn luyện tập (vd: try many times).",
+          "h": "Dùng 'I learn quickly' và 'I practice by + verb-ing'.",
+          "s": "I learn quickly. I practice by trying many times."
+        },
+        {
+          "p": "Are you polite to customers and give one polite phrase?",
+          "m": "Nói bạn có lịch sự với khách không. Nói một câu lịch sự ngắn.",
+          "h": "Dùng 'I am polite' và 'Use phrase like + quote'.",
+          "s": "I am polite to customers. I say, 'How can I help you?'"
+        }
+      ]
+    },
+    {
+      "t": "Ôn tập: Buổi phỏng vấn - Phần 3",
+      "e": [
+        {
+          "p": "Introduce your job and say one daily task.",
+          "m": "Nói công việc của bạn. Nói một nhiệm vụ hàng ngày.",
+          "h": "Dùng 'I work as' và 'I + verb'.",
+          "s": "I work as a cashier. I count money and give change."
+        },
+        {
+          "p": "Do you help teammates and how often?",
+          "m": "Nói bạn có giúp đồng đội không. Nói tần suất (always/often/sometimes).",
+          "h": "Dùng 'I help' và 'always / often / sometimes'.",
+          "s": "I help my teammates. I often help them after work."
+        },
+        {
+          "p": "Are you ready to follow rules and what rule do you follow?",
+          "m": "Nói bạn có sẵn sàng tuân theo quy tắc không. Nói một quy tắc bạn tuân theo (ví dụ: wear uniform).",
+          "h": "Dùng 'I am ready' và 'I follow + rule'.",
+          "s": "I am ready to follow rules. I follow the rule to wear a uniform."
+        },
+        {
+          "p": "Can you speak to customers and give a short greeting?",
+          "m": "Nói bạn có thể nói chuyện với khách không. Viết một lời chào ngắn bạn dùng.",
+          "h": "Dùng 'I can' và 'Hello + short phrase'.",
+          "s": "I can speak to customers. I say, 'Hello, how are you today?'"
+        },
+        {
+          "p": "Do you want this job and say one final reason?",
+          "m": "Nói bạn có muốn công việc này không. Nói một lý do cuối cùng ngắn.",
+          "h": "Dùng 'I want / I don't want' và 'because + reason'.",
+          "s": "I want this job. Because I like the team and the tasks."
+        }
+      ]
+    }
+  ]
+}

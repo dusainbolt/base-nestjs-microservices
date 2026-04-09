@@ -1,0 +1,530 @@
+{
+  "l": 2,
+  "d": [
+    {
+      "t": "Báo cáo doanh số tháng",
+      "e": [
+        {
+          "p": "How are sales this month?",
+          "m": "Hãy nói 1 câu về xu hướng doanh số (tăng/giảm/ổn). Hãy nói 1 câu nêu số hoặc so sánh với tháng trước.",
+          "h": "Dùng 'Sales are + V-ing' hoặc 'Sales are + adjective.' Dùng 'more than / less than' để so sánh.",
+          "s": "Sales are increasing. They are more than last month."
+        },
+        {
+          "p": "Do we have many new customers?",
+          "m": "Nói 1 câu về số khách hàng mới (nhiều/ít/không). Nói 1 câu về tần suất việc có khách hàng mới trong tháng.",
+          "h": "Dùng 'There are + number + new customers' hoặc 'We have few/many.' Dùng 'usually/sometimes' cho tần suất.",
+          "s": "There are five new customers. We usually get new customers this month."
+        },
+        {
+          "p": "Is online sales strong now?",
+          "m": "Nói 1 câu về doanh số online hiện tại (mạnh/khá/yếu). Nói 1 câu so sánh online với bán hàng tại cửa hàng.",
+          "h": "Dùng 'Online sales are + adjective' và 'more than / less than' để so sánh.",
+          "s": "Online sales are strong. They are more than in-store sales."
+        },
+        {
+          "p": "How much did we sell this week?",
+          "m": "Nói 1 câu nêu số bán trong tuần (dùng số hoặc 'a lot/a little'). Nói 1 câu về xu hướng tuần (tăng/giảm).",
+          "h": "Dùng 'We sold + number' hoặc 'We sold a lot/a little.' Dùng 'are increasing/are decreasing' cho xu hướng.",
+          "s": "We sold 200 items this week. Sales are decreasing this week."
+        },
+        {
+          "p": "Can you give a short summary of the month?",
+          "m": "Nói 1 câu tóm tắt tổng thể doanh số (tốt/xấu/ổn). Nói 1 câu về một điểm chính cần chú ý (ví dụ: khách hàng, kênh bán).",
+          "h": "Dùng 'Sales are + adjective' cho tổng thể. Dùng 'We need to check/We have' cho điểm chú ý.",
+          "s": "Sales are good this month. We need to check online orders."
+        }
+      ]
+    },
+    {
+      "t": "Chi phí hàng tháng",
+      "e": [
+        {
+          "p": "Are our costs high this month?",
+          "m": "Nói 1 câu về mức chi phí (cao/thấp/ổn). Nói 1 câu nêu một chi phí lớn (ví dụ: rent, wages) hoặc số tiền.",
+          "h": "Dùng 'Costs are + adjective.' Dùng 'The main cost is + noun' hoặc 'We pay + number'.",
+          "s": "Costs are high. The main cost is rent."
+        },
+        {
+          "p": "How often do we pay bills?",
+          "m": "Nói 1 câu về tần suất thanh toán (hàng tháng/hàng tuần). Nói 1 câu nêu ví dụ một loại hóa đơn.",
+          "h": "Dùng 'We pay bills + every month/ every week.' Dùng 'for example + noun.'",
+          "s": "We pay bills every month. For example, we pay the electricity bill."
+        },
+        {
+          "p": "Do we need more money for materials?",
+          "m": "Nói 1 câu trả lời yes/no và lý do ngắn. Nói 1 câu nêu số lượng hoặc tần suất cần thêm nếu có.",
+          "h": "Dùng 'Yes, we need more because...' hoặc 'No, we do not need more.' Dùng 'We need + number' hoặc 'often'.",
+          "s": "Yes, we need more because materials are low. We need about 50 more units."
+        },
+        {
+          "p": "Is rent a big part of cost?",
+          "m": "Nói 1 câu xác nhận (có/không) và mô tả ngắn. Nói 1 câu so sánh rent với chi phí khác.",
+          "h": "Dùng 'Rent is + adjective' và 'more than / less than' để so sánh.",
+          "s": "Rent is a big cost. It is more than our utility costs."
+        },
+        {
+          "p": "Give a short plan to reduce costs.",
+          "m": "Nói 1 câu về một hành động giảm chi phí. Nói 1 câu về kết quả mong muốn (ít chi phí hơn / tiết kiệm tiền).",
+          "h": "Dùng 'We will + verb' cho hành động. Dùng 'We want + adjective' cho kết quả.",
+          "s": "We will buy cheaper materials. We want lower costs."
+        }
+      ]
+    },
+    {
+      "t": "Thu nhập quý",
+      "e": [
+        {
+          "p": "How is our income this quarter?",
+          "m": "Nói 1 câu về tình hình thu nhập (tăng/giảm/ổn). Nói 1 câu nêu số hoặc so sánh với quý trước.",
+          "h": "Dùng 'Income is + V-ing/ adjective' và 'more than / less than' để so sánh.",
+          "s": "Income is stable this quarter. It is less than last quarter."
+        },
+        {
+          "p": "Which product sells most this quarter?",
+          "m": "Nói 1 câu tên sản phẩm bán chạy nhất. Nói 1 câu về số lượng hoặc lý do ngắn.",
+          "h": "Dùng 'Product X is the best seller.' Dùng 'We sold + number' hoặc 'because + reason'.",
+          "s": "Product A is the best seller. We sold 300 units because it is popular."
+        },
+        {
+          "p": "Do we have more income from online or shop?",
+          "m": "Nói 1 câu chọn online/shop. Nói 1 câu nêu lý do ngắn hoặc số.",
+          "h": "Dùng 'Online sales are more' hoặc 'Shop sales are more.' Dùng 'because' hoặc 'we sold + number'.",
+          "s": "Online sales are more. We sold 400 online this quarter."
+        },
+        {
+          "p": "How much income do we get every week?",
+          "m": "Nói 1 câu về số tiền hoặc số đơn vị bán mỗi tuần. Nói 1 câu về tần suất hoặc thay đổi ngắn.",
+          "h": "Dùng 'We get + number + dollars/items' và 'usually/this week/this month' cho tần suất.",
+          "s": "We get 2000 dollars every week. It is usually the same."
+        },
+        {
+          "p": "Summarize two main points about the quarter.",
+          "m": "Nói 1 câu về tổng quan thu nhập. Nói 1 câu về một vấn đề cần chú ý.",
+          "h": "Dùng 'Income is + adjective' cho tổng quan. Dùng 'We need to check + noun' cho vấn đề.",
+          "s": "Income is okay this quarter. We need to check low sales in one region."
+        }
+      ]
+    },
+    {
+      "t": "Báo cáo chi tiết chi tiêu",
+      "e": [
+        {
+          "p": "What are our top 3 expenses?",
+          "m": "Liệt kê 1 câu 2–3 loại chi phí chính (dùng 'and'). Nói 1 câu về chi phí lớn nhất.",
+          "h": "Dùng 'The top expenses are X and Y.' Dùng 'The biggest cost is X.'",
+          "s": "The top expenses are rent, wages and materials. The biggest cost is rent."
+        },
+        {
+          "p": "Are utility bills higher this month?",
+          "m": "Nói 1 câu yes/no và mô tả ngắn. Nói 1 câu nêu hành động nếu cần (ví dụ: tiết kiệm).",
+          "h": "Dùng 'Yes, they are higher because...' hoặc 'No, they are not higher.' Dùng 'We will + verb' cho hành động.",
+          "s": "Yes, they are higher because of more use. We will save energy next month."
+        },
+        {
+          "p": "How many invoices are unpaid?",
+          "m": "Nói 1 câu với số lượng hóa đơn chưa trả. Nói 1 câu về kế hoạch xử lý (gọi khách/hẹn ngày).",
+          "h": "Dùng 'There are + number + unpaid invoices.' Dùng 'We will + verb' cho kế hoạch.",
+          "s": "There are three unpaid invoices. We will call the clients tomorrow."
+        },
+        {
+          "p": "Do we spend money on ads?",
+          "m": "Nói 1 câu yes/no và mô tả ngắn. Nói 1 câu về hiệu quả (tốt/không tốt/đang thử).",
+          "h": "Dùng 'Yes, we spend money on ads' hoặc 'No, we do not.' Dùng 'It is + adjective' cho hiệu quả.",
+          "s": "Yes, we spend money on ads. It is sometimes effective."
+        },
+        {
+          "p": "Give a short advice to lower bills.",
+          "m": "Nói 1 câu hành động cụ thể. Nói 1 câu kết quả mong muốn hoặc lợi ích.",
+          "h": "Dùng 'We should + verb' cho hành động. Dùng 'This will + verb' cho kết quả.",
+          "s": "We should turn off lights when not needed. This will save money."
+        }
+      ]
+    },
+    {
+      "t": "So sánh quý với quý",
+      "e": [
+        {
+          "p": "Is this quarter better than the last?",
+          "m": "Nói 1 câu so sánh (tốt hơn/không). Nói 1 câu nêu lý do ngắn.",
+          "h": "Dùng 'This quarter is better than last quarter' hoặc 'It is not better.' Dùng 'because + reason.'",
+          "s": "This quarter is better than the last. Because sales are higher."
+        },
+        {
+          "p": "How many more sales do we have?",
+          "m": "Nói 1 câu với con số chênh lệch. Nói 1 câu về tỉ lệ đơn giản (nhiều hơn/ít hơn).",
+          "h": "Dùng 'We have + number + more sales.' Dùng 'more than' hoặc 'less than'.",
+          "s": "We have 150 more sales. It is more than last quarter."
+        },
+        {
+          "p": "Did customer visits change?",
+          "m": "Nói 1 câu về thay đổi (tăng/giảm/không). Nói 1 câu về nguyên nhân đơn giản.",
+          "h": "Dùng 'Visits are increasing/decreasing' và 'because + short reason.'",
+          "s": "Visits are decreasing. Because many customers buy online."
+        },
+        {
+          "p": "Compare income per week now and before.",
+          "m": "Nói 1 câu nêu income hiện tại mỗi tuần. Nói 1 câu so sánh với trước.",
+          "h": "Dùng 'We get + number + per week' và 'less than / more than' để so sánh.",
+          "s": "We get 1800 dollars per week. It is less than before."
+        },
+        {
+          "p": "Give two actions to improve next quarter.",
+          "m": "Nói 1 câu về một hành động làm tăng doanh số. Nói 1 câu về hành động giảm chi phí.",
+          "h": "Dùng 'We will + verb' cho hành động. Dùng 'to + verb' cho mục đích nếu cần.",
+          "s": "We will run a small online sale. We will reduce material waste."
+        }
+      ]
+    },
+    {
+      "t": "Báo cáo tiền mặt và thanh toán",
+      "e": [
+        {
+          "p": "Do we have enough cash today?",
+          "m": "Nói 1 câu yes/no với lý do. Nói 1 câu nêu số tiền ngắn hoặc hành động tiếp theo.",
+          "h": "Dùng 'Yes, we have...' hoặc 'No, we do not have...' và 'We need + number' cho số.",
+          "s": "No, we do not have enough cash. We need 500 dollars."
+        },
+        {
+          "p": "When do clients usually pay?",
+          "m": "Nói 1 câu về thời gian thanh toán (hàng tuần/hàng tháng). Nói 1 câu về tần suất trễ hạn (thường/hiếm).",
+          "h": "Dùng 'Clients pay + every month/ every week.' Dùng 'often/rarely' cho tần suất trễ.",
+          "s": "Clients pay every month. They rarely pay late."
+        },
+        {
+          "p": "How many invoices did we send today?",
+          "m": "Nói 1 câu với số hóa đơn đã gửi. Nói 1 câu về phản hồi khách (có/không) hoặc thời gian nhận tiền.",
+          "h": "Dùng 'We sent + number + invoices.' Dùng 'We expect payment in + time' cho thời gian.",
+          "s": "We sent ten invoices today. We expect payment in two weeks."
+        },
+        {
+          "p": "Is cash flow okay this week?",
+          "m": "Nói 1 câu về tình trạng cash flow (ổn/không). Nói 1 câu hành động nếu không ổn.",
+          "h": "Dùng 'Cash flow is + adjective.' Dùng 'We will + verb' cho hành động.",
+          "s": "Cash flow is not okay. We will ask for early payment."
+        },
+        {
+          "p": "Suggest a simple way to get money faster.",
+          "m": "Nói 1 câu về một biện pháp cụ thể. Nói 1 câu về lợi ích (nhanh hơn, ít trễ).",
+          "h": "Dùng 'We can + verb' cho biện pháp. Dùng 'This will + verb' cho lợi ích.",
+          "s": "We can offer a small discount for early payment. This will get money faster."
+        }
+      ]
+    },
+    {
+      "t": "Báo cáo tồn kho",
+      "e": [
+        {
+          "p": "How many items are in stock?",
+          "m": "Nói 1 câu với số lượng tồn kho. Nói 1 câu về trạng thái (nhiều/ít/đủ).",
+          "h": "Dùng 'There are + number + items in stock.' Dùng 'They are + adjective' cho trạng thái.",
+          "s": "There are 120 items in stock. They are enough for now."
+        },
+        {
+          "p": "Is inventory moving fast?",
+          "m": "Nói 1 câu về tốc độ (nhanh/chậm). Nói 1 câu về nguyên nhân ngắn nếu có.",
+          "h": "Dùng 'Inventory is moving fast/slow.' Dùng 'because + reason' cho nguyên nhân.",
+          "s": "Inventory is moving slowly. Because customers like the new model."
+        },
+        {
+          "p": "Do we need to order more?",
+          "m": "Nói 1 câu yes/no và lý do ngắn. Nói 1 câu nêu số lượng cần đặt nếu có.",
+          "h": "Dùng 'Yes, we need to order' hoặc 'No, we do not need to order.' Dùng 'We need + number' cho số lượng.",
+          "s": "Yes, we need to order more. We need 200 units."
+        },
+        {
+          "p": "Which item is low?",
+          "m": "Nói 1 câu tên món hàng đang thấp. Nói 1 câu về số hoặc kế hoạch đặt hàng.",
+          "h": "Dùng 'Item X is low.' Dùng 'We will order + number' cho kế hoạch.",
+          "s": "Item B is low. We will order 100 soon."
+        },
+        {
+          "p": "Give two actions to manage stock better.",
+          "m": "Nói 1 câu về một hành động kiểm kê. Nói 1 câu về một hành động đặt hàng thông minh.",
+          "h": "Dùng 'We will + verb' cho hành động. Dùng 'to + verb' cho mục đích.",
+          "s": "We will count stock every week. We will order only popular items."
+        }
+      ]
+    },
+    {
+      "t": "Báo cáo khách hàng và đơn hàng",
+      "e": [
+        {
+          "p": "How many orders do we have today?",
+          "m": "Nói 1 câu với số đơn hàng hôm nay. Nói 1 câu về trạng thái (processing/done).",
+          "h": "Dùng 'We have + number + orders.' Dùng 'They are + processing/done' cho trạng thái.",
+          "s": "We have 25 orders today. They are processing now."
+        },
+        {
+          "p": "Are customers happy with delivery?",
+          "m": "Nói 1 câu yes/no và mô tả ngắn. Nói 1 câu về một phản hồi cụ thể nếu có.",
+          "h": "Dùng 'Yes, they are happy' hoặc 'No, they are not.' Dùng 'They say + short feedback.'",
+          "s": "Yes, they are happy with delivery. They say delivery is fast."
+        },
+        {
+          "p": "Do many customers return items?",
+          "m": "Nói 1 câu về tần suất trả hàng (nhiều/ít/không). Nói 1 câu về lý do trả hàng ngắn nếu biết.",
+          "h": "Dùng 'Many customers return items' hoặc 'Few customers return items.' Dùng 'because + reason.'",
+          "s": "Few customers return items. Because products are good."
+        },
+        {
+          "p": "Which day has most orders?",
+          "m": "Nói 1 câu nêu ngày trong tuần. Nói 1 câu nêu số lượng hoặc lý do ngắn.",
+          "h": "Dùng 'Monday/Friday has the most orders.' Dùng 'We have + number' hoặc 'because + reason.'",
+          "s": "Friday has the most orders. We have 80 orders because of a sale."
+        },
+        {
+          "p": "Suggest one way to keep customers.",
+          "m": "Nói 1 câu hành động giữ khách (ví dụ: ưu đãi). Nói 1 câu về lợi ích cho khách hoặc công ty.",
+          "h": "Dùng 'We can + verb' cho hành động. Dùng 'This will + verb' cho lợi ích.",
+          "s": "We can give a small discount to repeat customers. This will keep customers."
+        }
+      ]
+    },
+    {
+      "t": "Dự báo doanh thu sắp tới",
+      "e": [
+        {
+          "p": "Do you expect higher sales next month?",
+          "m": "Nói 1 câu yes/no và lý do ngắn. Nói 1 câu nêu mức tăng đơn giản (more/slightly more).",
+          "h": "Dùng 'Yes, I expect...' hoặc 'No, I do not expect...' Dùng 'more/slightly more' cho mức tăng.",
+          "s": "Yes, I expect higher sales. I expect slightly more sales."
+        },
+        {
+          "p": "Which product will sell more?",
+          "m": "Nói 1 câu tên sản phẩm dự đoán bán nhiều hơn. Nói 1 câu về lý do ngắn (ví dụ: khuyến mãi).",
+          "h": "Dùng 'Product X will sell more.' Dùng 'because + reason.'",
+          "s": "Product C will sell more. Because we have a promotion."
+        },
+        {
+          "p": "How many new customers next month?",
+          "m": "Nói 1 câu nêu số khách mới dự tính. Nói 1 câu về tần suất hoặc kênh (online/shop).",
+          "h": "Dùng 'We expect + number + new customers.' Dùng 'online/shop' cho kênh.",
+          "s": "We expect 30 new customers next month. Most will come online."
+        },
+        {
+          "p": "Will costs change next month?",
+          "m": "Nói 1 câu yes/no và mô tả ngắn. Nói 1 câu nêu hành động nếu chi phí tăng.",
+          "h": "Dùng 'Costs will + verb' hoặc 'Costs will not change.' Dùng 'We will + verb' cho hành động.",
+          "s": "Costs will increase next month. We will find cheaper suppliers."
+        },
+        {
+          "p": "Give a two-sentence forecast summary.",
+          "m": "Nói 1 câu tóm tắt doanh thu dự kiến (tăng/ổn/giảm). Nói 1 câu nêu một hành động chuẩn bị.",
+          "h": "Dùng 'Sales will be + adjective' cho tóm tắt. Dùng 'We will + verb' cho chuẩn bị.",
+          "s": "Sales will be a bit higher next month. We will prepare more stock."
+        }
+      ]
+    },
+    {
+      "t": "Họp ngắn về tình hình tài chính",
+      "e": [
+        {
+          "p": "Can you tell the meeting the sales status?",
+          "m": "Nói 1 câu về trạng thái doanh số hiện tại. Nói 1 câu nêu một con số hoặc so sánh ngắn.",
+          "h": "Dùng 'Sales are + adjective' và 'We have + number' hoặc 'more than'.",
+          "s": "Sales are good now. We have 500 sales this month."
+        },
+        {
+          "p": "What is one problem we must fix?",
+          "m": "Nói 1 câu nêu một vấn đề chính. Nói 1 câu ngắn về cách giải quyết hoặc hành động đề xuất.",
+          "h": "Dùng 'The problem is + noun' và 'We should + verb' cho giải pháp.",
+          "s": "The problem is late payments. We should call those clients."
+        },
+        {
+          "p": "Do we have a budget for ads this month?",
+          "m": "Nói 1 câu yes/no và số tiền hoặc mô tả ngắn. Nói 1 câu về mục tiêu của quảng cáo.",
+          "h": "Dùng 'Yes, we have + number' hoặc 'No, we do not.' Dùng 'to + verb' cho mục tiêu.",
+          "s": "Yes, we have 300 dollars for ads. It is to increase online sales."
+        },
+        {
+          "p": "Is profit okay now?",
+          "m": "Nói 1 câu về profit (ổn/không ổn). Nói 1 câu ngắn nêu lý do hoặc hành động cải thiện.",
+          "h": "Dùng 'Profit is + adjective' và 'Because/We will + verb' cho lý do hoặc hành động.",
+          "s": "Profit is small now. Because costs are high."
+        },
+        {
+          "p": "Give a short closing sentence for the meeting.",
+          "m": "Nói 1 câu tóm tắt ngắn tình hình. Nói 1 câu kêu gọi hành động (ví dụ: check numbers).",
+          "h": "Dùng 'Sales/Costs are + adjective' cho tóm tắt. Dùng 'Please/We will + verb' cho kêu gọi.",
+          "s": "Overall sales are improving. Please check the numbers tomorrow."
+        }
+      ]
+    },
+    {
+      "t": "Gửi email báo cáo ngắn",
+      "e": [
+        {
+          "p": "Can you write a short email about sales?",
+          "m": "Viết 1 câu mở về tình trạng doanh số. Viết 1 câu nêu số hoặc hành động tiếp theo.",
+          "h": "Dùng 'Sales are + adjective' cho mở. Dùng 'We will + verb' hoặc 'We sold + number' cho tiếp theo.",
+          "s": "Sales are increasing this month. We sold 600 items and will send details."
+        },
+        {
+          "p": "Write one sentence about expenses in the email.",
+          "m": "Viết 1 câu nêu tổng chi phí hiện tại. Viết 1 câu đề xuất đơn giản để giảm chi phí.",
+          "h": "Dùng 'Costs are + adjective' và 'We should + verb' cho đề xuất.",
+          "s": "Costs are higher than expected. We should reduce overtime."
+        },
+        {
+          "p": "Add one line about customer feedback.",
+          "m": "Viết 1 câu tóm tắt phản hồi khách (tốt/không). Viết 1 câu hành động nếu cần theo phản hồi.",
+          "h": "Dùng 'Customers are + adjective' và 'We will + verb' cho hành động.",
+          "s": "Customers are happy with service. We will keep fast delivery."
+        },
+        {
+          "p": "Finish email with a polite request.",
+          "m": "Viết 1 câu yêu cầu làm việc cụ thể (check/report). Viết 1 câu cảm ơn hoặc kết thúc ngắn.",
+          "h": "Dùng 'Please + verb' cho yêu cầu và 'Thank you' cho kết thúc.",
+          "s": "Please check the attached report. Thank you."
+        },
+        {
+          "p": "Send a one-line subject for the email.",
+          "m": "Viết 1 câu tiêu đề ngắn, rõ ý về báo cáo. Viết 1 câu mô tả ngắn nếu cần (ví dụ: month).",
+          "h": "Dùng 'Subject: + short phrase' và 'for + month/period' nếu cần.",
+          "s": "Subject: Monthly Sales Report. For April."
+        }
+      ]
+    },
+    {
+      "t": "Báo cáo cho sếp trực tiếp",
+      "e": [
+        {
+          "p": "Boss asks: How are numbers today?",
+          "m": "Nói 1 câu về tổng số hôm nay. Nói 1 câu về xu hướng ngắn (tăng/giảm).",
+          "h": "Dùng 'We have + number' cho số và 'are increasing/decreasing' cho xu hướng.",
+          "s": "We have 1200 dollars today. Numbers are increasing."
+        },
+        {
+          "p": "Boss asks: Any urgent issue?",
+          "m": "Nói 1 câu có/không và nêu vấn đề nếu có. Nói 1 câu hành động giải quyết.",
+          "h": "Dùng 'Yes, we have...' hoặc 'No, we do not.' Dùng 'We will + verb' cho hành động.",
+          "s": "Yes, we have a delayed shipment. We will call the supplier now."
+        },
+        {
+          "p": "Boss asks: Can we reduce cost next week?",
+          "m": "Nói 1 câu trả lời và nêu một biện pháp cụ thể. Nói 1 câu về kết quả mong muốn.",
+          "h": "Dùng 'We can + verb' cho biện pháp và 'This will + verb' cho kết quả.",
+          "s": "We can reduce overtime next week. This will lower costs."
+        },
+        {
+          "p": "Boss asks: What is one good news?",
+          "m": "Nói 1 câu nêu một tin tốt (doanh số/khách). Nói 1 câu ngắn về lý do tốt đó.",
+          "h": "Dùng 'The good news is...' và 'because + reason' cho lý do.",
+          "s": "The good news is online sales grew. Because of a small promotion."
+        },
+        {
+          "p": "Boss asks: Any support you need?",
+          "m": "Nói 1 câu nêu một yêu cầu hỗ trợ cụ thể. Nói 1 câu về lý do cần hỗ trợ.",
+          "h": "Dùng 'I need + noun/for + verb' và 'because + reason' cho lý do.",
+          "s": "I need extra staff for packing. Because orders are increasing."
+        }
+      ]
+    },
+    {
+      "t": "Ôn tập: Tổng hợp báo cáo hàng tháng",
+      "e": [
+        {
+          "p": "How were sales and costs this month?",
+          "m": "Nói 1 câu về sales (tăng/giảm/ổn). Nói 1 câu về costs (cao/thấp) và một so sánh ngắn.",
+          "h": "Dùng 'Sales are + adjective' và 'Costs are + adjective' với 'more than/less than' để so sánh.",
+          "s": "Sales are increasing this month. Costs are high and more than last month."
+        },
+        {
+          "p": "Give two numbers: new customers and unpaid invoices.",
+          "m": "Nói 1 câu với số khách hàng mới. Nói 1 câu với số hóa đơn chưa trả.",
+          "h": "Dùng 'There are + number' cho cả hai câu.",
+          "s": "There are 20 new customers. There are three unpaid invoices."
+        },
+        {
+          "p": "What is one action to improve income and one to lower cost?",
+          "m": "Viết 1 câu hành động tăng thu (ví dụ: sale/promo). Viết 1 câu hành động giảm chi phí.",
+          "h": "Dùng 'We will + verb' cho hai hành động.",
+          "s": "We will run a weekend sale to increase income. We will reduce overtime to lower costs."
+        },
+        {
+          "p": "Summarize stock and orders in two sentences.",
+          "m": "Nói 1 câu về tồn kho (số/trạng thái). Nói 1 câu về đơn hàng (số/trạng thái).",
+          "h": "Dùng 'There are + number' và 'We have + number/orders' cho mỗi ý.",
+          "s": "There are 100 items in stock and they are enough. We have 40 orders and they are processing."
+        },
+        {
+          "p": "Close the report with one request and one thanks.",
+          "m": "Viết 1 câu yêu cầu kiểm tra hoặc hành động. Viết 1 câu cảm ơn ngắn.",
+          "h": "Dùng 'Please + verb' cho yêu cầu và 'Thank you' cho kết thúc.",
+          "s": "Please review the attached details. Thank you."
+        }
+      ]
+    },
+    {
+      "t": "Ôn tập: Tình huống xử lý vấn đề",
+      "e": [
+        {
+          "p": "A client did not pay. What do you say?",
+          "m": "Nói 1 câu thông báo khách chưa trả. Nói 1 câu hành động bạn làm tiếp theo.",
+          "h": "Dùng 'The client has not paid' và 'We will + verb' cho hành động.",
+          "s": "The client has not paid the invoice. We will call them today."
+        },
+        {
+          "p": "Stock is low and a big order comes. What do you do?",
+          "m": "Nói 1 câu về tình trạng tồn kho. Nói 1 câu nêu kế hoạch đặt hàng nhanh.",
+          "h": "Dùng 'Stock is low' và 'We will order + number' cho kế hoạch.",
+          "s": "Stock is low for the product. We will order 200 units quickly."
+        },
+        {
+          "p": "Sales drop suddenly. Give two steps.",
+          "m": "Nói 1 câu một bước kiểm tra nguyên nhân. Nói 1 câu một bước để cải thiện nhanh.",
+          "h": "Dùng 'We will check + noun' và 'We will + verb' cho cải thiện.",
+          "s": "We will check the sales data today. We will run a small promotion to improve sales."
+        },
+        {
+          "p": "Payment system error stops orders. What is your message?",
+          "m": "Nói 1 câu thông báo lỗi. Nói 1 câu về hành động tạm thời và thời gian khắc phục đơn giản.",
+          "h": "Dùng 'There is an error' và 'We are fixing it' với 'in + time' nếu cần.",
+          "s": "There is a payment system error now. We are fixing it and it will be back in two hours."
+        },
+        {
+          "p": "Give a short plan to avoid problems next month.",
+          "m": "Nói 1 câu một biện pháp phòng ngừa. Nói 1 câu kết quả mong muốn.",
+          "h": "Dùng 'We will + verb' cho biện pháp và 'This will + verb' cho kết quả.",
+          "s": "We will check invoices weekly. This will reduce late payments."
+        }
+      ]
+    },
+    {
+      "t": "Ôn tập: Báo cáo cho đối tác",
+      "e": [
+        {
+          "p": "Partner asks: How is the project income?",
+          "m": "Nói 1 câu về thu nhập dự án (tốt/không). Nói 1 câu nêu số hoặc so sánh ngắn.",
+          "h": "Dùng 'Income is + adjective' và 'We have + number' hoặc 'more than/less than'.",
+          "s": "Income is good for the project. We have 3000 dollars so far."
+        },
+        {
+          "p": "Partner asks: Any delay in deliveries?",
+          "m": "Nói 1 câu yes/no và mô tả ngắn. Nói 1 câu về thời gian khắc phục nếu có delay.",
+          "h": "Dùng 'Yes, there is/No, there is not' và 'We will + verb' cho khắc phục.",
+          "s": "No, there is no delay today. We will send all orders on time."
+        },
+        {
+          "p": "Partner asks: How many new clients this period?",
+          "m": "Nói 1 câu với số khách mới. Nói 1 câu về kênh hoặc lý do thu hút khách.",
+          "h": "Dùng 'There are + number' và 'because/online' cho kênh/lý do.",
+          "s": "There are 15 new clients this period. Most came from online ads."
+        },
+        {
+          "p": "Partner asks: Suggest one joint action to increase sales.",
+          "m": "Nói 1 câu một hành động chung (ví dụ: promotion). Nói 1 câu về lợi ích cho cả hai bên.",
+          "h": "Dùng 'We can + verb' cho hành động và 'This will + verb' cho lợi ích.",
+          "s": "We can run a joint promotion next week. This will increase sales for both partners."
+        },
+        {
+          "p": "End message to partner in two lines.",
+          "m": "Viết 1 câu kết luận ngắn. Viết 1 câu cảm ơn hoặc hẹn hợp tác tiếp.",
+          "h": "Dùng 'In short/Overall' cho kết luận và 'Thank you/See you' cho kết thúc.",
+          "s": "Overall the project is doing well. Thank you and let's meet next week."
+        }
+      ]
+    }
+  ]
+}

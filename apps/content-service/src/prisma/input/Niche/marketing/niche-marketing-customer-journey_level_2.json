@@ -1,0 +1,530 @@
+{
+  "l": 2,
+  "d": [
+    {
+      "t": "Thấy quảng cáo",
+      "e": [
+        {
+          "p": "Where do you see the ad?",
+          "m": "Nói nơi bạn thấy quảng cáo. Nói bạn có quan tâm đến sản phẩm không.",
+          "h": "Dùng 'I see ...' và 'I am interested' hoặc 'I want'.",
+          "s": "I see it on my phone. I am interested in the product."
+        },
+        {
+          "p": "What product is the ad for?",
+          "m": "Nói tên sản phẩm ngắn gọn. Nói bạn thích sản phẩm đó hay không.",
+          "h": "Dùng 'It is a ...' và 'I like' hoặc 'I don't like'.",
+          "s": "It is a small speaker. I like the design."
+        },
+        {
+          "p": "How often do you see this ad?",
+          "m": "Nói tần suất bạn thấy quảng cáo. Nói điều đó làm bạn cảm thấy thế nào.",
+          "h": "Dùng trạng từ tần suất + 'I see' và 'I feel'.",
+          "s": "I often see the ad. I feel curious about the product."
+        },
+        {
+          "p": "Do you want more information?",
+          "m": "Nói bạn có muốn biết thêm không. Nói bạn cần thông tin gì.",
+          "h": "Dùng 'Yes/No' + 'I want' hoặc 'I don't want'.",
+          "s": "Yes, I want more information. I want to know the price."
+        },
+        {
+          "p": "Can I send the ad link to you?",
+          "m": "Nói bạn có nhận link không. Nói bạn sẽ làm gì với link đó.",
+          "h": "Dùng 'I will' hoặc 'I won't' và 'I will ...' ngắn gọn.",
+          "s": "Yes, I will open the link. I will check the product details."
+        }
+      ]
+    },
+    {
+      "t": "Vào website cửa hàng",
+      "e": [
+        {
+          "p": "Which page are you visiting now?",
+          "m": "Nói trang bạn đang xem. Nói bạn đang tìm gì trên trang đó.",
+          "h": "Dùng 'I am on ...' và 'I am looking for ...'.",
+          "s": "I am on the product page. I am looking for the price and colour."
+        },
+        {
+          "p": "How many items do you see on the page?",
+          "m": "Nói số lượng sản phẩm bạn thấy. Nói bạn thích bao nhiêu trong số đó.",
+          "h": "Dùng 'There are + số + N' và 'I like + số'.",
+          "s": "There are three items on the page. I like two of them."
+        },
+        {
+          "p": "Is the page loading slowly?",
+          "m": "Nói trang có đang tải chậm không. Nói bạn sẽ làm gì nếu nó chậm.",
+          "h": "Dùng 'It is loading ...' và 'I will ...'.",
+          "s": "It is loading slowly. I will refresh the page."
+        },
+        {
+          "p": "Do you want to save this product?",
+          "m": "Nói bạn có muốn lưu sản phẩm không. Nói bạn sẽ lưu ở đâu.",
+          "h": "Dùng 'I want to save' và 'in my ...' (ví dụ: cart, list).",
+          "s": "I want to save the product. I will save it in my cart."
+        },
+        {
+          "p": "Can you find the size options?",
+          "m": "Nói bạn có thấy các size không. Nói bạn thích size nào.",
+          "h": "Dùng 'I see' và 'I like size ...' hoặc 'I want size ...'.",
+          "s": "I see size S and M. I want size M."
+        }
+      ]
+    },
+    {
+      "t": "Gọi hỏi sản phẩm",
+      "e": [
+        {
+          "p": "Hello, can I help you?",
+          "m": "Nói bạn muốn hỏi gì ngắn gọn. Nói tên sản phẩm bạn đang hỏi.",
+          "h": "Dùng 'I want to ask about ...' và 'It is ...'.",
+          "s": "I want to ask about a speaker. It is the small black speaker."
+        },
+        {
+          "p": "Is the product available now?",
+          "m": "Nói sản phẩm có còn không. Nói bạn muốn mua ngay hay chờ.",
+          "h": "Dùng 'It is available' hoặc 'It is not available' và 'I want to ...'.",
+          "s": "It is available now. I want to buy it today."
+        },
+        {
+          "p": "How much is the product?",
+          "m": "Hỏi giá và nhận trả lời, sau đó nói bạn có mua không.",
+          "h": "Dùng 'How much ...?' và 'I will/may not buy'.",
+          "s": "How much is it? It is $20. I will buy it."
+        },
+        {
+          "p": "Do you accept card payment?",
+          "m": "Hỏi về phương thức thanh toán. Nói bạn muốn thanh toán bằng gì.",
+          "h": "Dùng 'Do you ...?' và 'I want to pay by ...'.",
+          "s": "Do you accept card? Yes, we accept card and cash. I want to pay by card."
+        },
+        {
+          "p": "Can you hold the item for me?",
+          "m": "Hỏi cửa hàng giữ hàng được không. Nói bạn sẽ đến khi nào.",
+          "h": "Dùng 'Can you ...?' và 'I will come ...'.",
+          "s": "Can you hold it? Yes, we can hold it. I will come tomorrow."
+        }
+      ]
+    },
+    {
+      "t": "Thăm cửa hàng",
+      "e": [
+        {
+          "p": "Where is the store?",
+          "m": "Nói vị trí cửa hàng ngắn gọn. Nói bạn đang ở đâu so với cửa hàng.",
+          "h": "Dùng 'It is in/on/near ...' và 'I am ...'.",
+          "s": "It is near the big mall. I am next to the bus stop."
+        },
+        {
+          "p": "What time are you going to the store?",
+          "m": "Nói thời gian bạn sẽ đi. Nói bạn có thường đi cửa hàng không.",
+          "h": "Dùng 'I am going at ...' và 'I often/sometimes ...'.",
+          "s": "I am going at 3 pm. I often visit the store on weekends."
+        },
+        {
+          "p": "Are you looking for a gift?",
+          "m": "Nói bạn có đang tìm quà không. Nói bạn muốn mua cho ai.",
+          "h": "Dùng 'I am looking for ...' và 'for ...'.",
+          "s": "I am looking for a gift. It is for my friend."
+        },
+        {
+          "p": "Can I show you new models?",
+          "m": "Nói bạn có muốn xem mẫu mới không. Nói bạn thích mẫu nào hơn.",
+          "h": "Dùng 'Yes, I want to see' và 'I like ... more'.",
+          "s": "Yes, I want to see the new models. I like the blue model more."
+        },
+        {
+          "p": "Do you need help with the product?",
+          "m": "Nói bạn có cần giúp đỡ không. Nói bạn cần hỗ trợ gì cụ thể.",
+          "h": "Dùng 'I need help' và 'with ...'.",
+          "s": "I need help with the size. I need a smaller size."
+        }
+      ]
+    },
+    {
+      "t": "So sánh sản phẩm",
+      "e": [
+        {
+          "p": "Which product do you like?",
+          "m": "Nói sản phẩm bạn thích. Nói lý do ngắn gọn.",
+          "h": "Dùng 'I like ...' và 'because ...' (một từ đơn giản).",
+          "s": "I like the blue speaker. I like it because it is small."
+        },
+        {
+          "p": "Is the new model better?",
+          "m": "Nói model mới có tốt hơn không. Nói điểm tốt bạn thấy.",
+          "h": "Dùng 'It is better' hoặc 'It is not better' và 'because ...'.",
+          "s": "It is better. It is louder and clear."
+        },
+        {
+          "p": "How much are they each?",
+          "m": "Nói giá của hai sản phẩm. Nói bạn sẽ chọn cái nào.",
+          "h": "Dùng 'They are $...' và 'I will choose ...'.",
+          "s": "They are $20 and $30. I will choose the $30 one."
+        },
+        {
+          "p": "Do you often compare reviews?",
+          "m": "Nói bạn có thường xem đánh giá không. Nói vì sao bạn làm vậy.",
+          "h": "Dùng 'I often/sometimes/never ...' và 'because ...'.",
+          "s": "I often read reviews. I do this because I want good quality."
+        },
+        {
+          "p": "Can you decide now?",
+          "m": "Nói bạn có thể quyết định ngay không. Nói bạn cần thêm gì để quyết định.",
+          "h": "Dùng 'I can/cannot decide' và 'I need ...'.",
+          "s": "I cannot decide now. I need more information about the battery."
+        }
+      ]
+    },
+    {
+      "t": "Hỏi về giá và khuyến mãi",
+      "e": [
+        {
+          "p": "How much is this item?",
+          "m": "Hỏi giá và nói bạn có mua với giá đó không.",
+          "h": "Dùng 'How much ...?' và 'I will/won't buy'.",
+          "s": "How much is it? It is $25. I will buy it."
+        },
+        {
+          "p": "Are there any discounts?",
+          "m": "Hỏi có giảm giá không. Nói bạn muốn giảm giá bao nhiêu (ngắn).",
+          "h": "Dùng 'Are there ...?' và 'I want a small discount' hoặc 'I don't'.",
+          "s": "Are there discounts? Yes, there is a 10% discount. I want the discount."
+        },
+        {
+          "p": "Do you always use coupons?",
+          "m": "Nói bạn có thường dùng mã giảm giá không. Nói vì sao.",
+          "h": "Dùng 'I always/often/sometimes/never ...' và 'because ...'.",
+          "s": "I sometimes use coupons. I use them because they save money."
+        },
+        {
+          "p": "Is tax included in the price?",
+          "m": "Hỏi có thuế không. Nói bạn có chấp nhận giá đó không.",
+          "h": "Dùng 'Is ... included?' và 'I accept/ don't accept ...'.",
+          "s": "Is tax included? Yes, tax is included. I accept the price."
+        },
+        {
+          "p": "Can I get a cheaper option?",
+          "m": "Hỏi có lựa chọn rẻ hơn không. Nói bạn cần cái gì ở lựa chọn rẻ hơn.",
+          "h": "Dùng 'Can I get ...?' và 'I need ...'.",
+          "s": "Can I get a cheaper option? Yes, there is a simpler model. I need a basic speaker."
+        }
+      ]
+    },
+    {
+      "t": "Chọn màu và kích thước",
+      "e": [
+        {
+          "p": "Which colours do you have?",
+          "m": "Hỏi các màu có sẵn. Nói màu bạn thích.",
+          "h": "Dùng 'We have ...' và 'I like ...'.",
+          "s": "We have black, blue, and red. I like blue."
+        },
+        {
+          "p": "Do you want a big or small size?",
+          "m": "Nói bạn muốn size lớn hay nhỏ. Nói lý do ngắn.",
+          "h": "Dùng 'I want a big/small ...' và 'because ...'.",
+          "s": "I want a small speaker. I need a small one for travel."
+        },
+        {
+          "p": "Is the blue one available in small?",
+          "m": "Hỏi màu/size có cùng lúc không. Nói bạn sẽ chọn gì nếu không có.",
+          "h": "Dùng 'Is ... available?' và 'I will choose ...'.",
+          "s": "Is the blue small available? No, it is not available. I will choose black small."
+        },
+        {
+          "p": "Can I see the red model?",
+          "m": "Yêu cầu xem sản phẩm. Nói bạn nghĩ gì về màu đỏ.",
+          "h": "Dùng 'Can I see ...?' và 'I think ...'.",
+          "s": "Can I see the red model? Yes, here it is. I think red is pretty."
+        },
+        {
+          "p": "Do you have many colours in stock?",
+          "m": "Hỏi có nhiều màu không. Nói bạn có cần màu đặc biệt không.",
+          "h": "Dùng 'There are + số + colours' và 'I need ...'.",
+          "s": "There are three colours in stock. I need the blue colour."
+        }
+      ]
+    },
+    {
+      "t": "Thanh toán",
+      "e": [
+        {
+          "p": "How will you pay?",
+          "m": "Nói bạn sẽ thanh toán bằng gì. Nói bạn có dùng thẻ hay tiền mặt.",
+          "h": "Dùng 'I will pay by ...' và 'I will use ...'.",
+          "s": "I will pay by card. I will use my debit card."
+        },
+        {
+          "p": "Do you need a receipt?",
+          "m": "Hỏi bạn có cần hóa đơn không. Nói bạn muốn nhận hóa đơn như thế nào.",
+          "h": "Dùng 'I need/don't need ...' và 'by email/print'.",
+          "s": "Do you need a receipt? Yes, I need a receipt by email. I want the email please."
+        },
+        {
+          "p": "Is contactless payment available?",
+          "m": "Hỏi có thanh toán chạm không. Nói bạn có thường dùng không.",
+          "h": "Dùng 'Is ... available?' và 'I often/sometimes ...'.",
+          "s": "Is contactless available? Yes, it is available. I often use contactless."
+        },
+        {
+          "p": "Can I split the payment?",
+          "m": "Hỏi chia tiền được không. Nói bạn muốn chia như thế nào.",
+          "h": "Dùng 'Can I ...?' và 'I want to split ...'.",
+          "s": "Can I split the payment? Yes, you can. I want to pay half by card."
+        },
+        {
+          "p": "Do you need help with the card machine?",
+          "m": "Nói bạn có cần giúp máy thẻ không. Nói bạn có biết dùng máy không.",
+          "h": "Dùng 'I need help' hoặc 'I know how'.",
+          "s": "I need help with the card machine. I don't know how to use it."
+        }
+      ]
+    },
+    {
+      "t": "Giao hàng và theo dõi",
+      "e": [
+        {
+          "p": "Do you want delivery or pick up?",
+          "m": "Nói bạn muốn giao hàng hay lấy tại cửa hàng. Nói bạn sẽ đến khi nào nếu lấy.",
+          "h": "Dùng 'I want delivery' hoặc 'I will pick up' và 'at ...'.",
+          "s": "I want delivery. I will be at home at 6 pm."
+        },
+        {
+          "p": "How long is the delivery time?",
+          "m": "Hỏi thời gian giao hàng. Nói bạn có thể chờ không.",
+          "h": "Dùng 'It is ... days' và 'I can/cannot wait'.",
+          "s": "It is two days. I can wait two days."
+        },
+        {
+          "p": "Can I track my order?",
+          "m": "Hỏi có thể theo dõi đơn hàng không. Nói bạn sẽ kiểm tra bằng cách nào.",
+          "h": "Dùng 'Yes, you can' và 'I will check ...'.",
+          "s": "Can I track my order? Yes, you can track it online. I will check the tracking link."
+        },
+        {
+          "p": "Is shipping free?",
+          "m": "Hỏi có miễn phí vận chuyển không. Nói bạn có trả thêm không nếu không miễn phí.",
+          "h": "Dùng 'Is ... free?' và 'I will/won't pay ...'.",
+          "s": "Is shipping free? No, shipping costs $5. I will pay the shipping."
+        },
+        {
+          "p": "Where will the courier leave the package?",
+          "m": "Hỏi nơi giao hàng để lại gói. Nói nơi an toàn bạn muốn họ để đồ.",
+          "h": "Dùng 'They leave it at ...' và 'I want ...'.",
+          "s": "They will leave it at the door. I want them to leave it at the front door."
+        }
+      ]
+    },
+    {
+      "t": "Mở hộp và cảm nhận",
+      "e": [
+        {
+          "p": "Did the package arrive?",
+          "m": "Xác nhận hàng đã đến chưa. Nói bạn cảm thấy thế nào khi nhận hàng.",
+          "h": "Dùng 'It arrived' và 'I feel ...'.",
+          "s": "The package arrived. I feel happy to get it."
+        },
+        {
+          "p": "Is the product the same as the picture?",
+          "m": "Nói sản phẩm có giống hình không. Nói một điều bạn thấy tốt.",
+          "h": "Dùng 'It is the same' hoặc 'It is not the same' và 'It is ...'.",
+          "s": "It is the same as the picture. It is small and pretty."
+        },
+        {
+          "p": "Does it work well now?",
+          "m": "Nói sản phẩm có hoạt động không. Nói bạn sẽ làm gì nếu không hoạt động.",
+          "h": "Dùng 'It works' hoặc 'It doesn't work' và 'I will ...'.",
+          "s": "It works well now. If it doesn't work, I will contact support."
+        },
+        {
+          "p": "Are there any parts inside the box?",
+          "m": "Hỏi có phụ kiện trong hộp không. Đếm số món nếu có.",
+          "h": "Dùng 'There are + số + N' và 'They are ...'.",
+          "s": "There are three parts in the box. They are the speaker, cable, and manual."
+        },
+        {
+          "p": "Do you like the product after opening?",
+          "m": "Nói bạn có thích sản phẩm không. Nói bạn có muốn giữ hay trả lại.",
+          "h": "Dùng 'I like/don't like' và 'I will keep/return'.",
+          "s": "I like the product. I will keep it."
+        }
+      ]
+    },
+    {
+      "t": "Hỗ trợ sau mua",
+      "e": [
+        {
+          "p": "Is there a problem with your item?",
+          "m": "Nói có vấn đề gì ngắn gọn. Nói bạn cần hỗ trợ gì.",
+          "h": "Dùng 'It is ...' và 'I need ...'.",
+          "s": "It is not working well. I need technical support."
+        },
+        {
+          "p": "Can we replace the item?",
+          "m": "Hỏi có thể đổi sản phẩm không. Nói bạn muốn đổi hay hoàn tiền.",
+          "h": "Dùng 'Can we ...?' và 'I want to ...'.",
+          "s": "Can we replace it? Yes, you can replace it. I want a replacement."
+        },
+        {
+          "p": "How long is the warranty?",
+          "m": "Hỏi thời gian bảo hành. Nói bạn có lo lắng không.",
+          "h": "Dùng 'How long ...?' và 'I am ...' hoặc 'I am not ...'.",
+          "s": "How long is the warranty? It is one year. I am not worried now."
+        },
+        {
+          "p": "Do you need support at home?",
+          "m": "Hỏi bạn có cần hỗ trợ tại nhà không. Nói bạn ở đâu để hỗ trợ tới.",
+          "h": "Dùng 'I need support' và 'I am at ...'.",
+          "s": "I need support at home. I am at home near the mall."
+        },
+        {
+          "p": "Will you contact us again if needed?",
+          "m": "Hỏi bạn có liên hệ lại không. Nói bạn thường làm gì khi cần giúp.",
+          "h": "Dùng 'I will/won't' và 'I usually ...'.",
+          "s": "I will contact you again if needed. I usually call the support line."
+        }
+      ]
+    },
+    {
+      "t": "Viết đánh giá và giới thiệu",
+      "e": [
+        {
+          "p": "Would you write a review?",
+          "m": "Nói bạn có viết đánh giá không. Nói bạn sẽ viết tốt hay không tốt.",
+          "h": "Dùng 'I will' hoặc 'I won't' và 'good/bad'.",
+          "s": "I will write a review. I will write a good review."
+        },
+        {
+          "p": "How many stars do you give?",
+          "m": "Chọn số sao bạn cho (1–5). Nói lý do ngắn cho số sao đó.",
+          "h": "Dùng số và 'because ...'.",
+          "s": "I give four stars. I give four stars because it works well."
+        },
+        {
+          "p": "Will you recommend this to a friend?",
+          "m": "Nói bạn có giới thiệu cho bạn không. Nói bạn sẽ nói gì ngắn gọn với bạn đó.",
+          "h": "Dùng 'I will/won't recommend' và 'I will say ...'.",
+          "s": "I will recommend it to my friend. I will say it is small and good."
+        },
+        {
+          "p": "Can you write one sentence about the product?",
+          "m": "Viết một câu ngắn khen hoặc chê sản phẩm. Viết câu thứ hai nói bạn có mua nữa không.",
+          "h": "Dùng một câu đơn + 'I will/won't buy again'.",
+          "s": "The speaker is loud and clear. I will buy it again."
+        },
+        {
+          "p": "Do you share your review on social media?",
+          "m": "Nói bạn có chia sẻ không. Nói nơi bạn chia sẻ (ví dụ: profile, group).",
+          "h": "Dùng 'I share/don't share' và 'on ...'.",
+          "s": "I share my review on my profile. I share it on a shopping group."
+        }
+      ]
+    },
+    {
+      "t": "Ôn tập: Nhận biết và quan tâm",
+      "e": [
+        {
+          "p": "Where do you usually see product ads?",
+          "m": "Nói nơi bạn thường thấy quảng cáo. Nói bạn có quan tâm ngay hay không.",
+          "h": "Dùng 'I often see ...' và 'I am/ am not interested'.",
+          "s": "I often see ads on social media. I am sometimes interested."
+        },
+        {
+          "p": "Do you check product details online?",
+          "m": "Nói bạn có xem thông tin sản phẩm không. Nói bạn xem những gì.",
+          "h": "Dùng 'I check ...' và 'I look at ...'.",
+          "s": "I check product details online. I look at price and reviews."
+        },
+        {
+          "p": "How many products do you compare before buying?",
+          "m": "Nói số sản phẩm bạn so sánh. Nói bạn chọn theo tiêu chí gì.",
+          "h": "Dùng 'I compare ...' và 'because ...'.",
+          "s": "I compare two or three products. I choose by price and quality."
+        },
+        {
+          "p": "Are you often influenced by promotions?",
+          "m": "Nói bạn có thường bị khuyến mãi ảnh hưởng không. Nói ví dụ ngắn.",
+          "h": "Dùng 'I often/sometimes/never ...' và 'for example ...'.",
+          "s": "I sometimes buy because of promotions. For example, I buy when there is a discount."
+        },
+        {
+          "p": "Can you save items to buy later?",
+          "m": "Nói bạn có lưu để mua sau không. Nói bạn lưu ở đâu.",
+          "h": "Dùng 'I save ...' và 'in my ...'.",
+          "s": "I save items to buy later. I save them in my cart."
+        }
+      ]
+    },
+    {
+      "t": "Ôn tập: Mua hàng",
+      "e": [
+        {
+          "p": "Do you go to the store or buy online?",
+          "m": "Nói bạn thích mua ở cửa hàng hay trực tuyến. Nói lý do ngắn.",
+          "h": "Dùng 'I prefer ...' và 'because ...'.",
+          "s": "I prefer to buy online. I prefer it because it is easy."
+        },
+        {
+          "p": "How do you pay most of the time?",
+          "m": "Nói cách bạn thường thanh toán. Nói bạn có thói quen dùng thẻ hay tiền mặt.",
+          "h": "Dùng 'I pay by ...' và 'I usually ...'.",
+          "s": "I pay by card most of the time. I usually use my debit card."
+        },
+        {
+          "p": "Do you check the receipt after payment?",
+          "m": "Nói bạn có kiểm tra hóa đơn không. Nói bạn sẽ làm gì nếu sai.",
+          "h": "Dùng 'I check/don't check' và 'I will ...'.",
+          "s": "I check the receipt after payment. If it is wrong, I will ask staff."
+        },
+        {
+          "p": "Is delivery important for you?",
+          "m": "Nói giao hàng có quan trọng không. Nói bạn ưu tiên điều gì khi giao hàng.",
+          "h": "Dùng 'Delivery is ...' và 'I prefer ...'.",
+          "s": "Delivery is important to me. I prefer fast and safe delivery."
+        },
+        {
+          "p": "Can you cancel an order easily?",
+          "m": "Hỏi bạn có thể hủy đơn dễ không. Nói bạn sẽ làm gì để hủy.",
+          "h": "Dùng 'I can/cannot' và 'I will ...'.",
+          "s": "I can cancel an order online. I will go to my orders and cancel it."
+        }
+      ]
+    },
+    {
+      "t": "Ôn tập: Sau mua",
+      "e": [
+        {
+          "p": "Are you happy with your purchase?",
+          "m": "Nói bạn có hài lòng không. Nói một lý do ngắn.",
+          "h": "Dùng 'I am happy/ not happy' và 'because ...'.",
+          "s": "I am happy with my purchase. I like its sound quality."
+        },
+        {
+          "p": "Will you contact support if there is a problem?",
+          "m": "Nói bạn có liên hệ hỗ trợ không. Nói cách bạn liên hệ.",
+          "h": "Dùng 'I will/ won't contact' và 'by ...'.",
+          "s": "I will contact support if there is a problem. I will contact them by email."
+        },
+        {
+          "p": "Do you leave a review after buying?",
+          "m": "Nói bạn có để lại đánh giá không. Nói bạn thường viết ngắn hay dài.",
+          "h": "Dùng 'I leave/don't leave a review' và 'short/long'.",
+          "s": "I often leave a review after buying. I usually write a short review."
+        },
+        {
+          "p": "Are you likely to buy from the same store again?",
+          "m": "Nói bạn có mua tiếp không. Nói điều làm bạn quay lại.",
+          "h": "Dùng 'I will/won't buy again' và 'because ...'.",
+          "s": "I will buy from the same store again. I return because they have good service."
+        },
+        {
+          "p": "Do you tell friends about good stores?",
+          "m": "Nói bạn có giới thiệu cửa hàng tốt cho bạn bè không. Nói bạn dùng cách nào để giới thiệu.",
+          "h": "Dùng 'I tell/ don't tell' và 'by ...'.",
+          "s": "I tell my friends about good stores. I tell them by message."
+        }
+      ]
+    }
+  ]
+}

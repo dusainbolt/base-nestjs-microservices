@@ -1,0 +1,565 @@
+{
+  "l": 1,
+  "d": [
+    {
+      "t": "Nói về lương",
+      "e": [
+        {
+          "p": "What is your job?",
+          "m": "Nói công việc của bạn.",
+          "h": "S + am/is/are + nghề nghiệp",
+          "s": "I am [studentJob]."
+        },
+        {
+          "p": "How much do you earn each month?",
+          "m": "Nói số tiền bạn kiếm mỗi tháng.",
+          "h": "S + V(s) + number/currency",
+          "s": "My salary is $500 a month."
+        },
+        {
+          "p": "Do you get a salary every month?",
+          "m": "Trả lời có hoặc không nếu bạn nhận lương hàng tháng.",
+          "h": "Yes, I do. / No, I don't.",
+          "s": "Yes, I do."
+        },
+        {
+          "p": "Can you save money from your salary?",
+          "m": "Nói nếu bạn có thể tiết kiệm từ lương.",
+          "h": "I can / I can't + V",
+          "s": "I can save some money."
+        },
+        {
+          "p": "Where do you work?",
+          "m": "Nói nơi bạn làm việc.",
+          "h": "I work + at/in + nơi",
+          "s": "I work at a school."
+        }
+      ]
+    },
+    {
+      "t": "Chi phí thuê nhà",
+      "e": [
+        {
+          "p": "How much is your rent?",
+          "m": "Nói số tiền bạn trả tiền thuê nhà.",
+          "h": "My rent is + số tiền",
+          "s": "My rent is $300."
+        },
+        {
+          "p": "Do you pay the electricity bill?",
+          "m": "Trả lời có/không về việc bạn trả tiền điện.",
+          "h": "Yes, I do. / No, I don't.",
+          "s": "No, I don't."
+        },
+        {
+          "p": "When do you pay the rent?",
+          "m": "Nói khi nào bạn trả tiền thuê (ví dụ: every month).",
+          "h": "I pay + every + time",
+          "s": "I pay the rent every month."
+        },
+        {
+          "p": "Can you share the rent with a friend?",
+          "m": "Nói nếu bạn có thể chia tiền thuê với bạn.",
+          "h": "I can / I can't + V",
+          "s": "I can share the rent with a friend."
+        },
+        {
+          "p": "Who pays the rent in your family?",
+          "m": "Nói ai trả tiền thuê trong gia đình.",
+          "h": "Subject + V(s)",
+          "s": "My parents pay the rent."
+        }
+      ]
+    },
+    {
+      "t": "Chi tiêu ăn uống hàng ngày",
+      "e": [
+        {
+          "p": "How much is your lunch?",
+          "m": "Nói giá bữa trưa của bạn.",
+          "h": "My lunch is + number/currency",
+          "s": "My lunch is $3."
+        },
+        {
+          "p": "Do you buy breakfast every day?",
+          "m": "Trả lời có/không nếu bạn mua bữa sáng hàng ngày.",
+          "h": "Yes, I do. / No, I don't.",
+          "s": "No, I don't."
+        },
+        {
+          "p": "How much do you pay for coffee?",
+          "m": "Nói số tiền bạn trả cho một ly cà phê.",
+          "h": "I pay + number/currency",
+          "s": "I pay $1 for a coffee."
+        },
+        {
+          "p": "Can you pay with cash?",
+          "m": "Nói nếu bạn có thể trả bằng tiền mặt.",
+          "h": "I can / I can't + V",
+          "s": "I can pay with cash."
+        },
+        {
+          "p": "Who buys food at home?",
+          "m": "Nói ai mua đồ ăn cho nhà bạn.",
+          "h": "Subject + V(s) + object",
+          "s": "My mother buys food."
+        }
+      ]
+    },
+    {
+      "t": "Mua sắm quần áo",
+      "e": [
+        {
+          "p": "How much is this shirt?",
+          "m": "Nói giá chiếc áo này.",
+          "h": "It is + number/currency",
+          "s": "It is $10."
+        },
+        {
+          "p": "Do you buy new clothes this month?",
+          "m": "Trả lời có/không nếu bạn mua quần áo tháng này.",
+          "h": "Yes, I do. / No, I don't.",
+          "s": "No, I don't."
+        },
+        {
+          "p": "Can you buy clothes online?",
+          "m": "Nói nếu bạn có thể mua quần áo qua mạng.",
+          "h": "I can / I can't + V",
+          "s": "I can buy clothes online."
+        },
+        {
+          "p": "Where do you shop for clothes?",
+          "m": "Nói nơi bạn mua quần áo (ví dụ: mall, shop).",
+          "h": "I shop + at/in + nơi",
+          "s": "I shop at the market."
+        },
+        {
+          "p": "Who pays for your clothes?",
+          "m": "Nói ai trả tiền cho quần áo của bạn.",
+          "h": "Subject + V(s) + object",
+          "s": "I pay for my clothes."
+        }
+      ]
+    },
+    {
+      "t": "Hóa đơn và thanh toán",
+      "e": [
+        {
+          "p": "How much is the phone bill?",
+          "m": "Nói số tiền hóa đơn điện thoại.",
+          "h": "The bill is + number/currency",
+          "s": "The phone bill is $20."
+        },
+        {
+          "p": "Do you pay the water bill now?",
+          "m": "Trả lời có/không nếu bạn đang trả tiền nước bây giờ.",
+          "h": "Yes, I do. / No, I don't.",
+          "s": "No, I don't."
+        },
+        {
+          "p": "When is the bill due?",
+          "m": "Nói khi nào đến hạn trả hóa đơn (ví dụ: every month).",
+          "h": "Use 'every' + time",
+          "s": "The bill is due every month."
+        },
+        {
+          "p": "Can you pay the bill online?",
+          "m": "Nói nếu bạn có thể trả hóa đơn qua mạng.",
+          "h": "I can / I can't + V",
+          "s": "I can pay the bill online."
+        },
+        {
+          "p": "Who pays the phone bill in your home?",
+          "m": "Nói ai trả tiền điện thoại trong nhà bạn.",
+          "h": "Subject + V(s)",
+          "s": "My father pays the phone bill."
+        }
+      ]
+    },
+    {
+      "t": "Giao dịch ở cửa hàng tạp hoá",
+      "e": [
+        {
+          "p": "How much is one loaf of bread?",
+          "m": "Nói giá một ổ bánh mì.",
+          "h": "It is + number/currency",
+          "s": "It is $1."
+        },
+        {
+          "p": "Do you buy milk at the shop?",
+          "m": "Trả lời có/không nếu bạn mua sữa ở cửa hàng.",
+          "h": "Yes, I do. / No, I don't.",
+          "s": "Yes, I do."
+        },
+        {
+          "p": "Can you pay with cash or card?",
+          "m": "Nói bạn có thể trả bằng tiền mặt hay thẻ (chỉ chọn một).",
+          "h": "I pay with + cash/card",
+          "s": "I pay with cash."
+        },
+        {
+          "p": "How many items do you buy?",
+          "m": "Nói số lượng món bạn mua.",
+          "h": "I buy + number + items",
+          "s": "I buy three items."
+        },
+        {
+          "p": "Who helps you at the shop?",
+          "m": "Nói ai giúp bạn ở cửa hàng (ví dụ: cashier, friend).",
+          "h": "Subject + V(s) + object",
+          "s": "The cashier helps me."
+        }
+      ]
+    },
+    {
+      "t": "Tiết kiệm cho tương lai",
+      "e": [
+        {
+          "p": "Do you save money for the future?",
+          "m": "Trả lời có/không nếu bạn tiết kiệm cho tương lai.",
+          "h": "Yes, I do. / No, I don't.",
+          "s": "Yes, I do."
+        },
+        {
+          "p": "How much do you save each week?",
+          "m": "Nói số tiền bạn tiết kiệm mỗi tuần.",
+          "h": "I save + number/currency",
+          "s": "I save $10 each week."
+        },
+        {
+          "p": "Can you save money every month?",
+          "m": "Nói nếu bạn có thể tiết kiệm hàng tháng.",
+          "h": "I can / I can't + V",
+          "s": "I can save money every month."
+        },
+        {
+          "p": "Where do you keep your savings?",
+          "m": "Nói nơi bạn để tiền tiết kiệm (ví dụ: bank, box at home).",
+          "h": "I keep + money + at/in + place",
+          "s": "I keep my savings in a bank."
+        },
+        {
+          "p": "Who helps you save money?",
+          "m": "Nói ai giúp bạn tiết kiệm (ví dụ: parents, self).",
+          "h": "Subject + V(s) + object",
+          "s": "My parents help me save money."
+        }
+      ]
+    },
+    {
+      "t": "Bán đồ cũ",
+      "e": [
+        {
+          "p": "How much do you sell this toy for?",
+          "m": "Nói giá bạn bán đồ chơi cũ này.",
+          "h": "I sell it for + number/currency",
+          "s": "I sell it for $5."
+        },
+        {
+          "p": "Do you sell your old books?",
+          "m": "Trả lời có/không nếu bạn bán sách cũ.",
+          "h": "Yes, I do. / No, I don't.",
+          "s": "Yes, I do."
+        },
+        {
+          "p": "Can you lower the price?",
+          "m": "Trả lời có/không nếu bạn có thể giảm giá.",
+          "h": "I can / I can't + V",
+          "s": "I can lower the price."
+        },
+        {
+          "p": "Where do you sell your things?",
+          "m": "Nói nơi bạn bán đồ (ví dụ: market, online).",
+          "h": "I sell + at/in + place",
+          "s": "I sell them at the market."
+        },
+        {
+          "p": "Who buys your old items?",
+          "m": "Nói ai mua đồ cũ của bạn.",
+          "h": "Subject + V(s) + object",
+          "s": "Many people buy my old items."
+        }
+      ]
+    },
+    {
+      "t": "Chi phí du lịch đơn giản",
+      "e": [
+        {
+          "p": "How much is a bus ticket?",
+          "m": "Nói giá vé xe buýt.",
+          "h": "It is + number/currency",
+          "s": "It is $2."
+        },
+        {
+          "p": "Do you pay for food when you travel?",
+          "m": "Trả lời có/không nếu bạn trả tiền ăn khi đi du lịch.",
+          "h": "Yes, I do. / No, I don't.",
+          "s": "Yes, I do."
+        },
+        {
+          "p": "Can you buy a ticket online?",
+          "m": "Nói nếu bạn có thể mua vé trực tuyến.",
+          "h": "I can / I can't + V",
+          "s": "I can buy a ticket online."
+        },
+        {
+          "p": "How many days do you travel?",
+          "m": "Nói số ngày bạn đi du lịch.",
+          "h": "I travel + number + days",
+          "s": "I travel for three days."
+        },
+        {
+          "p": "Who pays for the trip?",
+          "m": "Nói ai trả tiền cho chuyến đi.",
+          "h": "Subject + V(s) + object",
+          "s": "My family pays for the trip."
+        }
+      ]
+    },
+    {
+      "t": "Trả tiền cho người giúp việc",
+      "e": [
+        {
+          "p": "Do you pay a helper at home?",
+          "m": "Trả lời có/không nếu bạn trả tiền cho người giúp việc.",
+          "h": "Yes, I do. / No, I don't.",
+          "s": "No, I don't."
+        },
+        {
+          "p": "How much do you pay the helper each week?",
+          "m": "Nói số tiền bạn trả người giúp việc mỗi tuần.",
+          "h": "I pay + number/currency + each week",
+          "s": "I pay $20 each week."
+        },
+        {
+          "p": "Can the helper work on Sunday?",
+          "m": "Nói nếu người giúp việc có thể làm việc vào Chủ nhật.",
+          "h": "He/She can / He/She can't + V",
+          "s": "She can work on Sunday."
+        },
+        {
+          "p": "Where does the helper work?",
+          "m": "Nói chỗ người giúp việc làm (ví dụ: home).",
+          "h": "He/She works + at/in + place",
+          "s": "She works at my home."
+        },
+        {
+          "p": "Who hires the helper?",
+          "m": "Nói ai thuê người giúp việc trong nhà bạn.",
+          "h": "Subject + V(s) + object",
+          "s": "My parents hire the helper."
+        }
+      ]
+    },
+    {
+      "t": "Chi tiêu cho gia đình hàng tuần",
+      "e": [
+        {
+          "p": "How much do you spend on food each week?",
+          "m": "Nói số tiền bạn chi cho thức ăn mỗi tuần.",
+          "h": "I spend + number/currency",
+          "s": "I spend $50 on food each week."
+        },
+        {
+          "p": "Do you buy medicine often?",
+          "m": "Trả lời có/không nếu bạn mua thuốc thường xuyên.",
+          "h": "Yes, I do. / No, I don't.",
+          "s": "No, I don't."
+        },
+        {
+          "p": "Can your family cut food cost?",
+          "m": "Nói nếu gia đình bạn có thể cắt giảm chi phí thức ăn.",
+          "h": "We can / We can't + V",
+          "s": "We can cut food cost."
+        },
+        {
+          "p": "Where does your family buy food?",
+          "m": "Nói nơi gia đình bạn mua đồ ăn.",
+          "h": "We buy + at/in + place",
+          "s": "We buy food at the market."
+        },
+        {
+          "p": "Who pays for family food?",
+          "m": "Nói ai trả tiền cho thức ăn gia đình.",
+          "h": "Subject + V(s) + object",
+          "s": "My mother pays for family food."
+        }
+      ]
+    },
+    {
+      "t": "Kinh doanh nhỏ: bán hàng đơn giản",
+      "e": [
+        {
+          "p": "Do you sell food in your shop?",
+          "m": "Trả lời có/không nếu bạn bán thức ăn ở cửa hàng.",
+          "h": "Yes, I do. / No, I don't.",
+          "s": "No, I don't."
+        },
+        {
+          "p": "How much is one item in your shop?",
+          "m": "Nói giá một món hàng trong cửa hàng bạn (một con số).",
+          "h": "It is + number/currency",
+          "s": "One item is $2."
+        },
+        {
+          "p": "Can you open the shop every day?",
+          "m": "Nói nếu bạn có thể mở cửa hàng mỗi ngày.",
+          "h": "I can / I can't + V",
+          "s": "I can open the shop every day."
+        },
+        {
+          "p": "Where is your shop?",
+          "m": "Nói vị trí của cửa hàng bạn (ví dụ: near school).",
+          "h": "My shop is + place",
+          "s": "My shop is near the school."
+        },
+        {
+          "p": "Who helps you in the shop?",
+          "m": "Nói ai giúp bạn trong cửa hàng.",
+          "h": "Subject + V(s) + object",
+          "s": "My sister helps me in the shop."
+        }
+      ]
+    },
+    {
+      "t": "Quản lý chi tiêu hàng tháng",
+      "e": [
+        {
+          "p": "Do you write a list for your spending?",
+          "m": "Trả lời có/không nếu bạn viết danh sách chi tiêu.",
+          "h": "Yes, I do. / No, I don't.",
+          "s": "Yes, I do."
+        },
+        {
+          "p": "How much do you spend on transport per month?",
+          "m": "Nói số tiền bạn chi cho đi lại mỗi tháng.",
+          "h": "I spend + number/currency + per month",
+          "s": "I spend $30 per month."
+        },
+        {
+          "p": "Can you stop buying snacks?",
+          "m": "Nói nếu bạn có thể ngừng mua đồ ăn vặt.",
+          "h": "I can / I can't + V",
+          "s": "I can stop buying snacks."
+        },
+        {
+          "p": "Where do you keep your spending list?",
+          "m": "Nói nơi bạn để danh sách chi tiêu (ví dụ: notebook).",
+          "h": "I keep it in + place",
+          "s": "I keep it in a notebook."
+        },
+        {
+          "p": "Who checks your spending each month?",
+          "m": "Nói ai kiểm tra chi tiêu của bạn mỗi tháng.",
+          "h": "Subject + V(s) + object",
+          "s": "My father checks my spending."
+        }
+      ]
+    },
+    {
+      "t": "Ôn tập: Tổng hợp thu chi cá nhân",
+      "e": [
+        {
+          "p": "What is your monthly income?",
+          "m": "Nói tổng thu nhập hàng tháng của bạn.",
+          "h": "My income is + number/currency",
+          "s": "My income is $600 a month."
+        },
+        {
+          "p": "How much is your total rent and bills?",
+          "m": "Nói tổng tiền thuê nhà và các hóa đơn.",
+          "h": "They are + number/currency",
+          "s": "They are $350."
+        },
+        {
+          "p": "Can you save after all costs?",
+          "m": "Nói nếu bạn có thể tiết kiệm sau khi trả các chi phí.",
+          "h": "I can / I can't + V",
+          "s": "I can save after costs."
+        },
+        {
+          "p": "Where do you keep the saved money?",
+          "m": "Nói nơi bạn để tiền tiết kiệm.",
+          "h": "I keep + money + in + place",
+          "s": "I keep saved money in a bank."
+        },
+        {
+          "p": "Who pays for big bills in your home?",
+          "m": "Nói ai trả các hóa đơn lớn trong nhà bạn.",
+          "h": "Subject + V(s) + object",
+          "s": "My parents pay big bills."
+        }
+      ]
+    },
+    {
+      "t": "Ôn tập: Giao dịch và thanh toán",
+      "e": [
+        {
+          "p": "How much is the total cost?",
+          "m": "Nói tổng chi phí.",
+          "h": "The total is + number/currency",
+          "s": "The total is $25."
+        },
+        {
+          "p": "Do you pay by cash now?",
+          "m": "Trả lời có/không nếu bạn trả bằng tiền mặt bây giờ.",
+          "h": "Yes, I do. / No, I don't.",
+          "s": "Yes, I do."
+        },
+        {
+          "p": "Can you get a discount?",
+          "m": "Trả lời có/không nếu bạn có thể được giảm giá.",
+          "h": "I can / I can't + V",
+          "s": "I can get a small discount."
+        },
+        {
+          "p": "Where do you get the receipt?",
+          "m": "Nói nơi bạn nhận hóa đơn/biên lai.",
+          "h": "I get it at + place",
+          "s": "I get the receipt at the shop counter."
+        },
+        {
+          "p": "Who pays for the dinner tonight?",
+          "m": "Nói ai trả tiền cho bữa tối hôm nay.",
+          "h": "Subject + V(s) + object",
+          "s": "My friend pays for dinner tonight."
+        }
+      ]
+    },
+    {
+      "t": "Ôn tập: Kế hoạch tiết kiệm và thu nhập",
+      "e": [
+        {
+          "p": "Do you plan a budget this month?",
+          "m": "Trả lời có/không nếu bạn lập ngân sách tháng này.",
+          "h": "Yes, I do. / No, I don't.",
+          "s": "Yes, I do."
+        },
+        {
+          "p": "How much will you save next month?",
+          "m": "Nói số tiền bạn sẽ tiết kiệm tháng tới.",
+          "h": "I will save (use present for habit) + number/currency",
+          "s": "I save $40 next month."
+        },
+        {
+          "p": "Can you earn more money this month?",
+          "m": "Nói nếu bạn có thể kiếm thêm tiền trong tháng này.",
+          "h": "I can / I can't + V",
+          "s": "I can earn more money this month."
+        },
+        {
+          "p": "Where do you plan to use your extra money?",
+          "m": "Nói nơi bạn dự định dùng tiền dư (ví dụ: buy book).",
+          "h": "I plan to + V + object",
+          "s": "I plan to buy a new book."
+        },
+        {
+          "p": "Who helps you with your money plan?",
+          "m": "Nói ai giúp bạn với kế hoạch tiền bạc.",
+          "h": "Subject + V(s) + object",
+          "s": "My mother helps me with my money plan."
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,530 @@
+{
+  "l": 2,
+  "d": [
+    {
+      "t": "Gặp gỡ đồng nghiệp mới ở công ty công nghệ",
+      "e": [
+        {
+          "p": "What is your job here?",
+          "m": "Nói nghề của bạn. Nói bạn có thích công việc không.",
+          "h": "I work as... / I like / I don't like",
+          "s": "I work as [studentJob]. I like my job."
+        },
+        {
+          "p": "Do you often use a computer?",
+          "m": "Nói tần suất bạn dùng máy tính. Nói việc bạn làm trên máy tính.",
+          "h": "S + V(s) + adv of freq; I use it to + V",
+          "s": "I often use a computer. I use it to write and check code."
+        },
+        {
+          "p": "How many people work in your office?",
+          "m": "Nói số người. Nói nơi làm việc là to hay nhỏ.",
+          "h": "There are + number. Use big/small",
+          "s": "There are ten people in my office. The office is big."
+        },
+        {
+          "p": "What are you doing now for the project?",
+          "m": "Nói hành động hiện tại. Nói lý do ngắn.",
+          "h": "S + be + V-ing; to + V",
+          "s": "I am testing the new app. I test to find bugs."
+        },
+        {
+          "p": "Do you want to learn AI soon?",
+          "m": "Nói bạn có muốn học không. Nói khi nào hoặc lý do ngắn.",
+          "h": "I want to + V; say time (next week, next month)",
+          "s": "I want to learn AI. I start next month."
+        }
+      ]
+    },
+    {
+      "t": "Giới thiệu một ứng dụng AI đơn giản",
+      "e": [
+        {
+          "p": "What does this app do?",
+          "m": "Nói chức năng chính của app. Nói bạn có dùng app không.",
+          "h": "It + V(s); I use it / I don't use it",
+          "s": "It checks text and gives ideas. I use the app often."
+        },
+        {
+          "p": "Is the app useful?",
+          "m": "Nói app có hữu ích không. Nói vì sao ngắn.",
+          "h": "Yes, it is / No, it isn't. Because + reason",
+          "s": "Yes, it is useful. It saves me time."
+        },
+        {
+          "p": "How many people use this app in your class?",
+          "m": "Nói số người trong lớp dùng app. Nói nếu nhiều hay ít.",
+          "h": "There are + number; say many/few",
+          "s": "There are three people who use it. This is not many."
+        },
+        {
+          "p": "What are you doing with the app now?",
+          "m": "Nói hành động hiện tại với app. Nói mục đích ngắn.",
+          "h": "I am + V-ing; to + V",
+          "s": "I am writing a note with the app. I do this to get ideas."
+        },
+        {
+          "p": "Do you like the app design?",
+          "m": "Nói bạn có thích thiết kế không. Nói một tính từ mô tả.",
+          "h": "I like / I don't like + adjective",
+          "s": "I like the app design. It is simple and pretty."
+        }
+      ]
+    },
+    {
+      "t": "Nói về thói quen dùng công nghệ hàng ngày",
+      "e": [
+        {
+          "p": "Do you use a phone every day?",
+          "m": "Nói tần suất dùng điện thoại. Nói việc chính bạn làm trên phone.",
+          "h": "I always/often/sometimes + V; I use it to + V",
+          "s": "I use my phone every day. I often check messages."
+        },
+        {
+          "p": "What time do you use the internet in the morning?",
+          "m": "Nói giờ bạn dùng internet. Nói việc bạn làm lúc đó.",
+          "h": "I use it at + time / in the morning",
+          "s": "I use the internet at 8 am. I read news."
+        },
+        {
+          "p": "How many apps do you have on your phone?",
+          "m": "Nói số ứng dụng bạn có. Nói có bao nhiêu ứng dụng bạn dùng thường xuyên.",
+          "h": "I have + number apps. I use + number often",
+          "s": "I have ten apps on my phone. I use three apps often."
+        },
+        {
+          "p": "What are you doing on your phone now?",
+          "m": "Nói hành động hiện tại trên điện thoại. Nói cảm xúc ngắn.",
+          "h": "I am + V-ing; I like/enjoy + V-ing",
+          "s": "I am watching a short video. I enjoy it."
+        },
+        {
+          "p": "Do you want a new smart device?",
+          "m": "Nói bạn có muốn thiết bị mới không. Nói lý do ngắn.",
+          "h": "I want / I don't want + noun/to V",
+          "s": "I want a new smart speaker. It helps me in the kitchen."
+        }
+      ]
+    },
+    {
+      "t": "Trao đổi về khóa học về công nghệ",
+      "e": [
+        {
+          "p": "Do you take a tech class?",
+          "m": "Nói bạn có tham gia khóa học không. Nói tên hoặc loại khóa học.",
+          "h": "I take / I don't take + course",
+          "s": "I take a simple AI class. It is an online class."
+        },
+        {
+          "p": "How often do you study this class?",
+          "m": "Nói tần suất bạn học. Nói mỗi buổi bạn học bao lâu.",
+          "h": "I often/sometimes study; for + time",
+          "s": "I often study this class twice a week. I study for one hour each time."
+        },
+        {
+          "p": "How many people are in your class?",
+          "m": "Nói số người trong lớp. Nói lớp là lớn hay nhỏ.",
+          "h": "There are + number; small/big",
+          "s": "There are eight people in my class. The class is small."
+        },
+        {
+          "p": "What are you doing in class now?",
+          "m": "Nói hành động hiện tại trong lớp. Nói cảm xúc ngắn.",
+          "h": "I am + V-ing; I feel + adjective",
+          "s": "I am watching a lesson about AI. I feel happy."
+        },
+        {
+          "p": "Do you want to continue this course next month?",
+          "m": "Nói bạn có muốn tiếp tục không. Nói lý do ngắn.",
+          "h": "I want to + V; because + short reason",
+          "s": "I want to continue the course. I need more practice."
+        }
+      ]
+    },
+    {
+      "t": "Thảo luận về robot trong nhà",
+      "e": [
+        {
+          "p": "Do you have a robot at home?",
+          "m": "Nói có hay không. Nói loại robot bạn muốn hoặc có.",
+          "h": "I have / I don't have + robot; a small/cleaning robot",
+          "s": "I don't have a robot at home. I want a small cleaning robot."
+        },
+        {
+          "p": "How often does the robot clean?",
+          "m": "Nói tần suất robot làm việc. Nói thời gian ngắn nếu có.",
+          "h": "It + V(s) + adv of freq; every day/once a week",
+          "s": "The robot cleans often. It cleans every day."
+        },
+        {
+          "p": "How many rooms can it clean?",
+          "m": "Nói số phòng robot có thể dọn. Nói nếu đủ cho nhà bạn hay không.",
+          "h": "It can clean + number rooms; This is enough/not enough",
+          "s": "It can clean three rooms. This is enough for my home."
+        },
+        {
+          "p": "What are you doing with the robot now?",
+          "m": "Nói hành động hiện tại với robot. Nói cảm xúc ngắn.",
+          "h": "I am + V-ing; I feel + adjective",
+          "s": "I am watching the robot work. I feel happy."
+        },
+        {
+          "p": "Do you like robots in the home?",
+          "m": "Nói bạn có thích robot trong nhà không. Nói một lý do ngắn.",
+          "h": "I like / I don't like + noun; because + reason",
+          "s": "I like robots at home. They save my time."
+        }
+      ]
+    },
+    {
+      "t": "Bàn về tiền ảo và ví điện tử",
+      "e": [
+        {
+          "p": "Do you know what blockchain is?",
+          "m": "Nói bạn có biết hay không. Nói một mô tả ngắn về nó.",
+          "h": "I know / I don't know; It is + short",
+          "s": "I know a little about blockchain. It is a safe way to record data."
+        },
+        {
+          "p": "Do you use a digital wallet?",
+          "m": "Nói bạn có dùng ví điện tử không. Nói bạn dùng nó cho việc gì.",
+          "h": "I use / I don't use; I use it to + V",
+          "s": "I don't use a digital wallet now. I use my bank card instead."
+        },
+        {
+          "p": "How many people in your family use crypto?",
+          "m": "Nói số người trong gia đình dùng tiền ảo. Nói bạn thấy nhiều hay ít.",
+          "h": "There are + number; This is many/few",
+          "s": "There are two people in my family who use crypto. This is not many."
+        },
+        {
+          "p": "What are you doing to learn about crypto?",
+          "m": "Nói hành động hiện tại bạn làm để học. Nói nếu bạn thấy khó hay không.",
+          "h": "I am + V-ing; It is + adjective",
+          "s": "I am reading simple news about crypto. It is a little hard."
+        },
+        {
+          "p": "Do you want to try blockchain apps?",
+          "m": "Nói bạn có muốn thử app blockchain không. Nói lý do ngắn.",
+          "h": "I want to / I don't want to + V; because + reason",
+          "s": "I want to try a simple blockchain app. I think it is useful."
+        }
+      ]
+    },
+    {
+      "t": "Thảo luận về công việc trong tương lai",
+      "e": [
+        {
+          "p": "What job do you want in the future?",
+          "m": "Nói nghề mong muốn. Nói một lý do ngắn.",
+          "h": "I want to be + job; because + reason",
+          "s": "I want to be a programmer. I like making apps."
+        },
+        {
+          "p": "Do you often think about tech jobs?",
+          "m": "Nói tần suất bạn nghĩ về nghề công nghệ. Nói bạn cảm thấy thế nào.",
+          "h": "I often/sometimes + V; I feel + adjective",
+          "s": "I often think about tech jobs. I feel excited."
+        },
+        {
+          "p": "How many skills do you need for this job?",
+          "m": "Nói số kỹ năng bạn cần. Nói một kỹ năng cụ thể.",
+          "h": "I need + number + skills; One skill is + noun",
+          "s": "I need three skills for this job. One skill is coding."
+        },
+        {
+          "p": "What are you doing now to learn skills?",
+          "m": "Nói hành động hiện tại bạn làm để học. Nói tần suất luyện tập.",
+          "h": "I am + V-ing; I often + V",
+          "s": "I am studying coding now. I often practice every day."
+        },
+        {
+          "p": "Do you want to work with AI or blockchain?",
+          "m": "Chọn một trong hai và nói lý do ngắn.",
+          "h": "I want to work with + AI/blockchain; because + reason",
+          "s": "I want to work with AI. AI is new and helpful."
+        }
+      ]
+    },
+    {
+      "t": "Mua ứng dụng cho điện thoại",
+      "e": [
+        {
+          "p": "Do you buy apps or use free ones?",
+          "m": "Nói bạn mua app hay dùng miễn phí. Nói lý do ngắn.",
+          "h": "I buy / I use free apps; because + reason",
+          "s": "I use free apps. I do not buy often."
+        },
+        {
+          "p": "How much do you pay for one app?",
+          "m": "Nói bạn có trả tiền cho app không. Nói bạn thấy giá đó hợp lý không.",
+          "h": "I don't pay / I pay a little; I think it's good/bad",
+          "s": "I don't pay for apps. I think this is good."
+        },
+        {
+          "p": "How many apps do you check before buying?",
+          "m": "Nói bạn kiểm tra bao nhiêu app trước khi mua. Nói cách bạn chọn app.",
+          "h": "I check + number apps; I read reviews",
+          "s": "I check three apps before buying. I read reviews and stars."
+        },
+        {
+          "p": "What are you doing in the app store now?",
+          "m": "Nói hành động hiện tại trong cửa hàng ứng dụng. Nói bạn đang tìm gì.",
+          "h": "I am + V-ing; I look for + N",
+          "s": "I am looking for a study app now. I look for simple lessons."
+        },
+        {
+          "p": "Do you like app updates?",
+          "m": "Nói bạn có thích cập nhật app không. Nói lý do ngắn.",
+          "h": "I like / I don't like + noun; because + reason",
+          "s": "I like app updates. They make apps better."
+        }
+      ]
+    },
+    {
+      "t": "Giải quyết vấn đề với một ứng dụng bị lỗi",
+      "e": [
+        {
+          "p": "My app is slow. What do you do?",
+          "m": "Nói một việc bạn thường làm đầu tiên. Nói nếu việc đó giúp hay không.",
+          "h": "I usually + V; It + often helps / doesn't help",
+          "s": "I close the app and open it again. This often helps."
+        },
+        {
+          "p": "The app does not open. How many steps do you try?",
+          "m": "Nói số bước bạn thử. Liệt kê các bước ngắn.",
+          "h": "I try two steps: restart and update; use simple verbs",
+          "s": "I try two steps. I restart the phone and update the app."
+        },
+        {
+          "p": "There are error messages. What are you doing now?",
+          "m": "Nói hành động hiện tại với lỗi. Nói bạn có cần giúp không.",
+          "h": "I am + V-ing; I need / I don't need help",
+          "s": "I am reading the error message now. I need help from support."
+        },
+        {
+          "p": "How many people can help you with this problem?",
+          "m": "Nói số người có thể giúp. Nói họ là ai ngắn.",
+          "h": "There are + number; They are + who",
+          "s": "There are two people who can help me. They are my friend and support staff."
+        },
+        {
+          "p": "Do you want to learn to fix simple app problems?",
+          "m": "Nói có muốn học không. Nói bạn sẽ làm gì để học.",
+          "h": "I want to + V; I read/watch to learn",
+          "s": "I want to learn to fix simple app problems. I read simple guides and watch short videos."
+        }
+      ]
+    },
+    {
+      "t": "Lên kế hoạch cho một dự án nhỏ về AI",
+      "e": [
+        {
+          "p": "Do you have an idea for the project?",
+          "m": "Nói có ý tưởng không. Nói ý tưởng ngắn.",
+          "h": "I have / I don't have; It is + short",
+          "s": "I have a simple idea. It is a small chat helper."
+        },
+        {
+          "p": "How many people are in the project team?",
+          "m": "Nói số người trong nhóm. Nói nếu cần thêm người.",
+          "h": "There are + number; We need + number more",
+          "s": "There are four people in the project team. We need one more person."
+        },
+        {
+          "p": "What are you doing today for the project?",
+          "m": "Nói hành động hôm nay. Nói mục tiêu hôm nay.",
+          "h": "I am + V-ing; Today we want to + V (simple)",
+          "s": "I am writing a simple plan now. Today we want to finish the first page."
+        },
+        {
+          "p": "How often do you meet the team?",
+          "m": "Nói tần suất họp. Nói thời gian mỗi buổi họp.",
+          "h": "We meet + often; for + time",
+          "s": "We meet twice a week. We meet for one hour each time."
+        },
+        {
+          "p": "Do you want to use AI in the project?",
+          "m": "Nói có muốn dùng AI không. Nói lý do ngắn.",
+          "h": "I want to + V; because + reason",
+          "s": "I want to use AI in the project. AI can make the app smarter."
+        }
+      ]
+    },
+    {
+      "t": "Nói về số lượng thiết bị ở nhà",
+      "e": [
+        {
+          "p": "How many phones do you have?",
+          "m": "Nói số điện thoại bạn có. Nói bạn dùng phone cho việc gì.",
+          "h": "I have + number phones; I use them for + V-ing",
+          "s": "I have two phones. I use them for calls and study."
+        },
+        {
+          "p": "Do you have a smart TV?",
+          "m": "Nói có hay không. Nói bạn có thường xem app trên TV không.",
+          "h": "I have / I don't have; I often / sometimes watch + on TV",
+          "s": "I have a smart TV. I often watch videos on it."
+        },
+        {
+          "p": "How many smart devices are in the kitchen?",
+          "m": "Nói số thiết bị thông minh ở bếp. Nói tên thiết bị ngắn.",
+          "h": "There are + number; They are + noun",
+          "s": "There are two smart devices in the kitchen. They are a speaker and a smart oven."
+        },
+        {
+          "p": "What are you doing with the devices now?",
+          "m": "Nói hành động hiện tại với thiết bị. Nói nếu an toàn hay không.",
+          "h": "I am + V-ing; It is + safe/not safe",
+          "s": "I am checking the device settings now. It is safe."
+        },
+        {
+          "p": "Do you want more devices at home?",
+          "m": "Nói có muốn thêm thiết bị không. Nói lý do ngắn.",
+          "h": "I want / I don't want; because + reason",
+          "s": "I want more smart lights at home. They make home easy."
+        }
+      ]
+    },
+    {
+      "t": "Bình luận về tin tức công nghệ ngắn",
+      "e": [
+        {
+          "p": "I read a short tech news. Do you read news?",
+          "m": "Nói bạn có đọc tin tức không. Nói tần suất đọc.",
+          "h": "I read / I don't read; I often/sometimes read",
+          "s": "I read tech news sometimes. I read in the morning."
+        },
+        {
+          "p": "Is the news good or bad?",
+          "m": "Nói tin tức tốt hay xấu. Nói lý do ngắn.",
+          "h": "It is good/bad; because + reason",
+          "s": "The news is good. It shows new jobs."
+        },
+        {
+          "p": "How many new tech jobs are in the article?",
+          "m": "Nói số (hoặc 'many') vị trí mới. Nói bạn nghĩ đủ hay không.",
+          "h": "There are + many / number; It is enough/not enough",
+          "s": "There are many new tech jobs in the article. I think this is enough."
+        },
+        {
+          "p": "What are you doing when you read the news now?",
+          "m": "Nói hành động hiện tại khi đọc tin. Nói cảm giác.",
+          "h": "I am + V-ing; I feel + adjective",
+          "s": "I am reading the news now. I feel interested."
+        },
+        {
+          "p": "Do you want to share the news with friends?",
+          "m": "Nói có muốn chia sẻ không. Nói cách bạn chia sẻ.",
+          "h": "I want to / I don't want; I send by + message/email",
+          "s": "I want to share the news with friends. I send a message."
+        }
+      ]
+    },
+    {
+      "t": "Ôn tập: Giao tiếp công nghệ cơ bản",
+      "e": [
+        {
+          "p": "Tell me your job and one tech you use.",
+          "m": "Nói nghề của bạn. Nói một công nghệ bạn dùng.",
+          "h": "I work as...; I use ...",
+          "s": "I work as [studentJob]. I use AI tools at work."
+        },
+        {
+          "p": "Do you like AI and why?",
+          "m": "Nói bạn có thích AI không. Nói một lý do ngắn.",
+          "h": "I like / I don't like; because + reason",
+          "s": "I like AI. It helps my work."
+        },
+        {
+          "p": "How many people are with you at work and what are they doing?",
+          "m": "Nói số người cùng bạn. Nói họ đang làm gì ngắn.",
+          "h": "There are + number; They are + V-ing",
+          "s": "There are five people with me at work. They are testing apps."
+        },
+        {
+          "p": "What are you doing now and do you enjoy it?",
+          "m": "Nói hành động hiện tại. Nói bạn có thích việc đó không.",
+          "h": "I am + V-ing; I enjoy / I don't enjoy",
+          "s": "I am learning a new app now. I enjoy it."
+        },
+        {
+          "p": "Do you want to learn blockchain and when?",
+          "m": "Nói bạn có muốn học blockchain không. Nói khi nào bạn bắt đầu.",
+          "h": "I want to + V; I start + time",
+          "s": "I want to learn blockchain. I start next week."
+        }
+      ]
+    },
+    {
+      "t": "Ôn tập: Thói quen và công việc công nghệ",
+      "e": [
+        {
+          "p": "How often do you use a computer and for what?",
+          "m": "Nói tần suất bạn dùng máy tính. Nói mục đích chính.",
+          "h": "I often/sometimes + V; to + V",
+          "s": "I often use a computer. I use it to study and send email."
+        },
+        {
+          "p": "How many apps do you use and which one now?",
+          "m": "Nói số app bạn dùng. Nói app bạn đang dùng lúc này.",
+          "h": "I use + number apps; I am using + app",
+          "s": "I use five apps. I am using a chat app now."
+        },
+        {
+          "p": "What job do you want and one skill you need?",
+          "m": "Nói nghề bạn muốn. Nói một kỹ năng bạn cần.",
+          "h": "I want to be + job; I need + skill",
+          "s": "I want to be a programmer. I need coding."
+        },
+        {
+          "p": "What are you doing at home with devices now?",
+          "m": "Nói hành động hiện tại với thiết bị ở nhà. Nói nếu an toàn.",
+          "h": "I am + V-ing; It is + safe",
+          "s": "I am watching a lesson on my tablet now. It is safe."
+        },
+        {
+          "p": "Do you like to buy apps or free ones and why?",
+          "m": "Nói bạn thích mua app hay dùng miễn phí. Nói lý do ngắn.",
+          "h": "I prefer / I like to + V; because + reason",
+          "s": "I prefer free apps. They save my money."
+        }
+      ]
+    },
+    {
+      "t": "Ôn tập: Vấn đề và kế hoạch công nghệ",
+      "e": [
+        {
+          "p": "My phone is slow, what can I do?",
+          "m": "Nói một việc bạn làm đầu tiên để sửa. Nói nếu việc đó giúp.",
+          "h": "I usually + V; It + often helps",
+          "s": "I close apps and restart the phone. This often helps."
+        },
+        {
+          "p": "How many steps do you try to fix the phone?",
+          "m": "Nói số bước bạn thử. Liệt kê các bước ngắn.",
+          "h": "I try + number steps; list simple steps",
+          "s": "I try two steps. I restart the phone and update the apps."
+        },
+        {
+          "p": "What are you doing to plan a small project now?",
+          "m": "Nói hành động hiện tại để lên kế hoạch. Nói mục tiêu ngắn.",
+          "h": "I am + V-ing; We want to + V (simple)",
+          "s": "I am making a simple plan now. We want to build a small chat app."
+        },
+        {
+          "p": "How many people are in your team and when do you meet?",
+          "m": "Nói số người trong nhóm. Nói tần suất họp ngắn.",
+          "h": "There are + number; We meet + often",
+          "s": "There are four people in my team. We meet twice a week."
+        },
+        {
+          "p": "Do you want to learn to fix tech problems and how?",
+          "m": "Nói bạn có muốn học sửa lỗi không. Nói cách bạn học.",
+          "h": "I want to + V; I learn by + V-ing",
+          "s": "I want to learn to fix tech problems. I learn by reading short guides."
+        }
+      ]
+    }
+  ]
+}

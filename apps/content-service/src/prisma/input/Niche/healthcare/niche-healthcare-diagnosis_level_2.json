@@ -1,0 +1,565 @@
+{
+  "l": 2,
+  "d": [
+    {
+      "t": "Bắt đầu khám bệnh",
+      "e": [
+        {
+          "p": "What is your main symptom now?",
+          "m": "Nói triệu chứng chính hiện tại. Nói nếu triệu chứng đó nặng hay nhẹ.",
+          "h": "Dùng 'I have...' và 'It is + adjective' hoặc 'It is + V-ing'.",
+          "s": "I have a cough. It is mild."
+        },
+        {
+          "p": "Is the pain loud or a little pain?",
+          "m": "Nói nếu bạn đau nhiều hay ít. Nói chỗ đau ngắn gọn.",
+          "h": "Dùng 'It hurts' và 'a lot' hoặc 'a little' + nơi.",
+          "s": "It hurts a little in my stomach. It is on my left side."
+        },
+        {
+          "p": "Are you feeling hot now?",
+          "m": "Nói nếu bạn đang sốt hay không. Nói thêm nhiệt độ nếu bạn biết (hoặc 'I think').",
+          "h": "Dùng 'I am' + 'hot' hoặc 'cold' và 'I think it is + số'.",
+          "s": "I am hot now. I think it is about 38°C."
+        },
+        {
+          "p": "Do you have trouble breathing now?",
+          "m": "Nói nếu bạn đang khó thở. Nói thêm nếu bạn ho nhiều.",
+          "h": "Dùng 'I am + V-ing' và 'I cough + adv'.",
+          "s": "I am having some trouble breathing. I cough often."
+        },
+        {
+          "p": "Can you walk a little now?",
+          "m": "Nói bạn có đi được hay không. Nói nếu đi làm tình trạng thay đổi (tốt hơn/xấu hơn).",
+          "h": "Dùng 'I can' hoặc 'I cannot' và 'It gets + adjective'.",
+          "s": "I can walk a little. It gets worse after walking."
+        }
+      ]
+    },
+    {
+      "t": "Nói về triệu chứng sốt và ho",
+      "e": [
+        {
+          "p": "Do you have a cough every morning?",
+          "m": "Nói tần suất ho (every morning / sometimes / never). Nói thêm mùi hoặc màu đờm nếu có.",
+          "h": "Dùng trạng từ tần suất + V (I often cough).",
+          "s": "I cough every morning. The phlegm is white."
+        },
+        {
+          "p": "Is your temperature high today?",
+          "m": "Nói nhiệt độ hôm nay nếu biết. Nói nếu bạn đang đổ mồ hôi hay lạnh.",
+          "h": "Dùng 'It is + số' và 'I am + hot/cold'.",
+          "s": "My temperature is 38°C today. I am sweating."
+        },
+        {
+          "p": "Are your eyes red now?",
+          "m": "Nói nếu mắt bạn đỏ. Nói nếu bạn thấy ngứa hoặc đau ở mắt.",
+          "h": "Dùng 'My eyes are + adjective' và 'They are + V-ing' nếu ngứa.",
+          "s": "My eyes are red. They are itchy."
+        },
+        {
+          "p": "Do you feel tired today?",
+          "m": "Nói bạn có mệt không. Nói nếu mệt nhiều hay một chút.",
+          "h": "Dùng 'I am tired' và 'a lot' hoặc 'a little'.",
+          "s": "I am tired today. I am a little weak."
+        },
+        {
+          "p": "Do you need medicine now?",
+          "m": "Nói nếu bạn muốn thuốc ngay. Nói bạn cần thuốc giảm sốt hay giảm đau.",
+          "h": "Dùng 'I need' + N/to V.",
+          "s": "I need medicine now. I need a fever tablet."
+        }
+      ]
+    },
+    {
+      "t": "Đau bụng và vị trí đau",
+      "e": [
+        {
+          "p": "Where does your belly hurt?",
+          "m": "Nói chỗ đau rõ ràng (left/right/upper/lower). Nói nếu đau sâu hay đau bề mặt.",
+          "h": "Dùng 'It hurts in the + vị trí' và 'It is + adjective'.",
+          "s": "It hurts in the lower right. It is a sharp pain."
+        },
+        {
+          "p": "Is the pain constant now?",
+          "m": "Nói nếu đau liên tục hay đôi khi. Nói nếu đau thay đổi khi bạn đi hay đứng.",
+          "h": "Dùng 'It is' + 'constant' hoặc 'sometimes' và 'It gets + adjective'.",
+          "s": "It is sometimes constant. It gets worse when I stand."
+        },
+        {
+          "p": "Do you eat now or did you eat before pain?",
+          "m": "Nói nếu bạn đang ăn. Nói bạn ăn trước khi đau hay không.",
+          "h": "Dùng 'I am eating' hoặc 'I ate before' (để đơn giản dùng 'I ate').",
+          "s": "I am not eating now. I ate before the pain started."
+        },
+        {
+          "p": "Are you having nausea now?",
+          "m": "Nói nếu bạn buồn nôn. Nói nếu bạn nôn hay chỉ buồn nôn.",
+          "h": "Dùng 'I feel' + 'nauseous' hoặc 'I am vomiting'.",
+          "s": "I feel nauseous. I am not vomiting."
+        },
+        {
+          "p": "Do you need a scan or a simple test?",
+          "m": "Nói bạn muốn xét nghiệm đơn giản (blood test) hay chụp (scan). Nói vì sao bạn chọn.",
+          "h": "Dùng 'I want' hoặc 'I need' + N/to V và lý do ngắn.",
+          "s": "I want a blood test. I think it is safer and quick."
+        }
+      ]
+    },
+    {
+      "t": "Dị ứng và phản ứng nhanh",
+      "e": [
+        {
+          "p": "Do you have a rash now?",
+          "m": "Nói nếu bạn có phát ban. Nói nếu phát ban ngứa hay không.",
+          "h": "Dùng 'I have' và 'It is + adjective'.",
+          "s": "I have a rash now. It is very itchy."
+        },
+        {
+          "p": "Are you taking any medicine today?",
+          "m": "Nói nếu bạn đang uống thuốc. Nói tên thuốc đơn giản hoặc 'an allergy pill'.",
+          "h": "Dùng 'I am taking' hoặc 'I take' + N.",
+          "s": "I am taking an allergy pill. I take it every morning."
+        },
+        {
+          "p": "Is your face swelling now?",
+          "m": "Nói nếu mặt bạn sưng. Nói nếu khó thở hoặc chỉ sưng.",
+          "h": "Dùng 'My face is + V-ing/adjective' và 'I am + V-ing' cho triệu chứng khác.",
+          "s": "My face is swelling. I am not having trouble breathing."
+        },
+        {
+          "p": "Do you know what caused the allergy?",
+          "m": "Nói nếu bạn biết nguyên nhân (food/pollen/medicine). Nói nếu bạn không biết.",
+          "h": "Dùng 'I think' hoặc 'I do not know' + noun.",
+          "s": "I think it is from a new soap. I do not know for sure."
+        },
+        {
+          "p": "Do you need an injection now?",
+          "m": "Nói bạn có muốn tiêm không. Nói lý do đồng ý hoặc không.",
+          "h": "Dùng 'I need'/'I do not need' + N và 'because...'.",
+          "s": "I need an injection now. I want it because the rash is bad."
+        }
+      ]
+    },
+    {
+      "t": "Vết thương và chảy máu",
+      "e": [
+        {
+          "p": "Is the cut bleeding now?",
+          "m": "Nói nếu vết cắt đang chảy máu. Nói nếu máu nhiều hay ít.",
+          "h": "Dùng 'It is bleeding' và 'a lot' hoặc 'a little'.",
+          "s": "It is bleeding now. It is a little."
+        },
+        {
+          "p": "Do you feel pain when I touch it?",
+          "m": "Nói nếu bạn đau khi chạm. Nói mức đau (a lot/a little).",
+          "h": "Dùng 'It hurts' và 'a lot' hoặc 'a little'.",
+          "s": "It hurts when you touch it. It hurts a lot."
+        },
+        {
+          "p": "Is the wound clean or dirty?",
+          "m": "Nói vết thương sạch hay bẩn. Nói bạn đã rửa hay chưa.",
+          "h": "Dùng 'It is clean/dirty' và 'I have/ have not washed it'.",
+          "s": "The wound is dirty. I have not washed it yet."
+        },
+        {
+          "p": "Do you need a bandage now?",
+          "m": "Nói nếu bạn cần băng. Nói nếu bạn muốn bác sĩ băng giúp.",
+          "h": "Dùng 'I need' + N và 'Please...' nếu muốn sự giúp đỡ.",
+          "s": "I need a bandage now. Please help me bandage it."
+        },
+        {
+          "p": "Can you move your finger now?",
+          "m": "Nói bạn có thể cử động ngón không. Nói nếu đau khi cử động.",
+          "h": "Dùng 'I can'/'I cannot' + V và 'It hurts when...'.",
+          "s": "I can move my finger. It hurts when I move it fast."
+        }
+      ]
+    },
+    {
+      "t": "Uống thuốc và hướng dẫn đơn giản",
+      "e": [
+        {
+          "p": "Are you taking this medicine now?",
+          "m": "Nói nếu bạn đang uống thuốc đó. Nói tần suất (every day/twice a day).",
+          "h": "Dùng 'I am taking' và trạng từ tần suất.",
+          "s": "I am taking this medicine now. I take it twice a day."
+        },
+        {
+          "p": "Do you want pills or syrup?",
+          "m": "Nói bạn muốn dạng viên hay siro. Nói lý do đơn giản.",
+          "h": "Dùng 'I want' + N và 'because...'.",
+          "s": "I want pills. They are easier for me."
+        },
+        {
+          "p": "Is it easy for you to swallow pills?",
+          "m": "Nói nếu bạn dễ nuốt viên. Nói nếu bạn cần siro.",
+          "h": "Dùng 'I can'/'I cannot' + V và 'I need...'.",
+          "s": "I cannot swallow pills well. I need syrup."
+        },
+        {
+          "p": "Do you take medicine with food?",
+          "m": "Nói bạn uống thuốc khi ăn hay khi đói. Nói nếu bác sĩ bảo uống sau ăn.",
+          "h": "Dùng 'I take' + N + 'with/after/before' + meal.",
+          "s": "I take medicine after food. My doctor says take after meals."
+        },
+        {
+          "p": "Will you come back for a check?",
+          "m": "Nói bạn có quay lại kiểm tra không. Nói khi nào (tomorrow/next week/simple time).",
+          "h": "Dùng 'I will' hoặc 'I will not' + V và 'tomorrow/next week'.",
+          "s": "I will come back next week. I want to check my recovery."
+        }
+      ]
+    },
+    {
+      "t": "Xét nghiệm đơn giản: máu và nước tiểu",
+      "e": [
+        {
+          "p": "Do you agree to a blood test?",
+          "m": "Nói bạn đồng ý hay không. Nói lý do ngắn (quick/afraid).",
+          "h": "Dùng 'I agree' hoặc 'I do not agree' và 'because...'.",
+          "s": "I agree to a blood test. It is quick."
+        },
+        {
+          "p": "Can you give a urine sample now?",
+          "m": "Nói nếu bạn có thể. Nói nếu bạn cần 5 phút hay bận.",
+          "h": "Dùng 'I can'/'I cannot' + and 'I need + time'.",
+          "s": "I can give a urine sample. I need five minutes."
+        },
+        {
+          "p": "Is the blood test fast or slow here?",
+          "m": "Nói bạn biết test nhanh hay chậm. Nói nếu bạn muốn test nhanh.",
+          "h": "Dùng 'It is' + 'fast/slow' và 'I want...'.",
+          "s": "It is fast here. I want a fast test."
+        },
+        {
+          "p": "Do you prefer a simple test or a scan?",
+          "m": "Nói bạn thích test đơn giản hay chụp. Nói lý do (cost/time).",
+          "h": "Dùng 'I prefer' + N và 'because...'.",
+          "s": "I prefer a simple test. It costs less."
+        },
+        {
+          "p": "Will you wait for results here or come back?",
+          "m": "Nói bạn ở lại chờ kết quả hay về. Nói nếu bạn có thời gian.",
+          "h": "Dùng 'I will' + V hoặc 'I will not' + V và lý do ngắn.",
+          "s": "I will wait here. I have time."
+        }
+      ]
+    },
+    {
+      "t": "So sánh: test nhanh và test chính xác",
+      "e": [
+        {
+          "p": "Is the rapid test fast?",
+          "m": "Nói test nhanh có nhanh không. Nói nếu bạn thích kết quả nhanh.",
+          "h": "Dùng 'It is' + 'fast' và 'I like' + V-ing.",
+          "s": "It is fast. I like quick results."
+        },
+        {
+          "p": "Is the lab test more accurate?",
+          "m": "Nói test phòng thí nghiệm có chính xác hơn không. Nói nếu bạn sẵn sàng chờ.",
+          "h": "Dùng 'It is more accurate' và 'I can wait' hoặc 'I cannot wait'.",
+          "s": "It is more accurate. I can wait for it."
+        },
+        {
+          "p": "Do you want a fast result now or a better result later?",
+          "m": "Chọn nhanh hoặc chính xác. Nói vì sao chọn.",
+          "h": "Dùng 'I want' + N và 'because...'.",
+          "s": "I want a better result later. It is more sure."
+        },
+        {
+          "p": "Is the fast test sometimes wrong?",
+          "m": "Nói test nhanh đôi khi sai hay không. Nói bạn có lo lắng không.",
+          "h": "Dùng 'Sometimes' + 'it is' + adjective và 'I am' + feeling.",
+          "s": "Sometimes it is wrong. I am a little worried."
+        },
+        {
+          "p": "Will you do both tests for safety?",
+          "m": "Nói bạn có làm cả hai test không. Nói nếu bạn muốn an toàn.",
+          "h": "Dùng 'I will' + V and 'for safety' or 'to be safe'.",
+          "s": "I will do both tests. I want to be safe."
+        }
+      ]
+    },
+    {
+      "t": "Bệnh mạn tính và theo dõi",
+      "e": [
+        {
+          "p": "Do you take medicine every day?",
+          "m": "Nói bạn có uống thuốc hàng ngày cho bệnh mạn không. Nói tên thuốc đơn giản hoặc 'my pills'.",
+          "h": "Dùng trạng từ tần suất + 'I take' + N.",
+          "s": "I take medicine every day. I take my pills in the morning."
+        },
+        {
+          "p": "Are you feeling better this week?",
+          "m": "Nói bạn có khỏe hơn không. Nói nếu tình trạng thường xuyên tốt/xấu.",
+          "h": "Dùng 'I feel' + 'better' hoặc 'worse' và 'usually'.",
+          "s": "I feel better this week. Usually I am tired."
+        },
+        {
+          "p": "Do you visit the clinic often?",
+          "m": "Nói tần suất bạn khám (often/sometimes/never). Nói nếu bạn muốn khám thường xuyên hơn.",
+          "h": "Dùng 'I visit' + place và trạng từ tần suất.",
+          "s": "I visit the clinic often. I want to come more."
+        },
+        {
+          "p": "Is your condition stable now?",
+          "m": "Nói nếu bệnh ổn định hay không. Nói nếu bạn cần thay đổi thuốc.",
+          "h": "Dùng 'It is' + 'stable' hoặc 'not stable' và 'I need...'.",
+          "s": "It is stable now. I do not need new medicine."
+        },
+        {
+          "p": "Will you exercise or rest more?",
+          "m": "Chọn tập thể dục hay nghỉ ngơi. Nói lý do đơn giản.",
+          "h": "Dùng 'I will' + V và 'because...'.",
+          "s": "I will rest more. My doctor says rest helps."
+        }
+      ]
+    },
+    {
+      "t": "Khuyên bảo đơn giản: làm gì khi bệnh nhẹ",
+      "e": [
+        {
+          "p": "Do you want advice to care at home?",
+          "m": "Nói bạn có muốn lời khuyên tại nhà không. Nói bạn có sẵn vật dụng (water/rest).",
+          "h": "Dùng 'I want' hoặc 'I do not want' và 'I have...' .",
+          "s": "I want advice to care at home. I have water and rest space."
+        },
+        {
+          "p": "Should you rest today?",
+          "m": "Nói bạn nên nghỉ hay không. Nói nếu bạn có thể nghỉ.",
+          "h": "Dùng 'You should' hoặc 'I should' + V và 'I can'/'I cannot'.",
+          "s": "I should rest today. I can stay at home."
+        },
+        {
+          "p": "Do you need more fluids now?",
+          "m": "Nói bạn cần uống nhiều nước không. Nói số ly đơn giản (one/two).",
+          "h": "Dùng 'I need' + N và số lượng đơn giản.",
+          "s": "I need more fluids now. I will drink two glasses."
+        },
+        {
+          "p": "Is salt water rinse okay for your throat?",
+          "m": "Nói bạn có thể súc họng nước muối không. Nói nếu bạn thử rồi và kết quả.",
+          "h": "Dùng 'I can'/'I cannot' và 'It feels + adjective'.",
+          "s": "I can rinse with salt water. It feels better after."
+        },
+        {
+          "p": "Do you want a short note for your work?",
+          "m": "Nói bạn có muốn giấy nghỉ việc ngắn không. Nói thời gian bạn cần nghỉ (one day/two days).",
+          "h": "Dùng 'I want' và 'for one/two days'.",
+          "s": "I want a short note for my work. I need one day off."
+        }
+      ]
+    },
+    {
+      "t": "Tình huống khẩn cấp nhẹ",
+      "e": [
+        {
+          "p": "Are you bleeding a lot now?",
+          "m": "Nói nếu bạn đang chảy máu nhiều. Nói nếu bạn đã băng hay chưa.",
+          "h": "Dùng 'I am' + V-ing hoặc 'I have' + V-ed.",
+          "s": "I am bleeding a lot now. I have not bandaged it yet."
+        },
+        {
+          "p": "Is the pain getting worse now?",
+          "m": "Nói nếu đau đang nặng hơn. Nói bạn cần giúp ngay hay có thể chờ.",
+          "h": "Dùng 'It is getting + adjective' và 'I need + now/soon'.",
+          "s": "It is getting worse now. I need help now."
+        },
+        {
+          "p": "Can you breathe well now?",
+          "m": "Nói bạn thở tốt hay không. Nói nếu cần oxy hay nghỉ ngơi ngồi.",
+          "h": "Dùng 'I can'/'I cannot' + breathe và 'I need...' .",
+          "s": "I cannot breathe well now. I need to sit up."
+        },
+        {
+          "p": "Do you have a known allergy to penicillin?",
+          "m": "Nói nếu bạn dị ứng penicillin. Nói nếu bạn có phản ứng trước đây.",
+          "h": "Dùng 'I am allergic to...' hoặc 'I am not allergic'.",
+          "s": "I am allergic to penicillin. I had a rash before."
+        },
+        {
+          "p": "Should we call someone for you now?",
+          "m": "Nói có gọi người thân hay bạn bè không. Nói ai hoặc 'no one'.",
+          "h": "Dùng 'Yes, call' hoặc 'No, do not call' + người/nguyên nhân.",
+          "s": "Yes, call my sister. Her number is on my phone."
+        }
+      ]
+    },
+    {
+      "t": "Giải thích test và kết quả đơn giản",
+      "e": [
+        {
+          "p": "Is your blood result normal?",
+          "m": "Nói kết quả máu có bình thường không. Nói một chỉ số đơn giản (high/low) nếu có.",
+          "h": "Dùng 'It is' + 'normal' hoặc 'high/low'.",
+          "s": "It is normal. The white cell count is not high."
+        },
+        {
+          "p": "Are the X-ray images clear?",
+          "m": "Nói ảnh X-ray có rõ không. Nói nếu cần chụp lại.",
+          "h": "Dùng 'They are' + 'clear' hoặc 'not clear' và 'we need...'.",
+          "s": "They are not clear. We need a new scan."
+        },
+        {
+          "p": "Does the doctor say you have an infection?",
+          "m": "Nói bác sĩ có nói bạn bị nhiễm không. Nói bạn có cần thuốc kháng sinh.",
+          "h": "Dùng 'The doctor says' + clause và 'I need' nếu cần.",
+          "s": "The doctor says I have an infection. I need antibiotics."
+        },
+        {
+          "p": "Is the urine test ok?",
+          "m": "Nói test nước tiểu ổn không. Nói nếu cần tái kiểm tra.",
+          "h": "Dùng 'It is' + 'ok' hoặc 'not ok' và 'we should...' .",
+          "s": "It is not ok. We should repeat the test."
+        },
+        {
+          "p": "Do you want a simple explanation of results?",
+          "m": "Nói bạn có muốn giải thích đơn giản không. Nói bạn muốn nghe bây giờ hay sau.",
+          "h": "Dùng 'I want' + 'now'/'later' và 'please explain'.",
+          "s": "I want a simple explanation now. Please explain in easy words."
+        }
+      ]
+    },
+    {
+      "t": "Theo dõi sau khi ra viện",
+      "e": [
+        {
+          "p": "Are you taking your medicine after discharge?",
+          "m": "Nói nếu bạn uống thuốc sau khi ra viện. Nói tần suất ngắn.",
+          "h": "Dùng 'I am taking' và trạng từ tần suất.",
+          "s": "I am taking my medicine after discharge. I take it every morning."
+        },
+        {
+          "p": "Do you have follow-up next week?",
+          "m": "Nói bạn có tái khám tuần tới không. Nói ngày ngắn (tomorrow/next week).",
+          "h": "Dùng 'I have' + 'next week' hoặc 'tomorrow'.",
+          "s": "I have a follow-up next week. The appointment is on Monday."
+        },
+        {
+          "p": "Are you doing your exercises at home?",
+          "m": "Nói bạn có tập tại nhà không. Nói nếu bạn tập hàng ngày.",
+          "h": "Dùng 'I do'/'I do not' + V và 'every day'.",
+          "s": "I do my exercises at home. I do them every day."
+        },
+        {
+          "p": "Is the wound healing well now?",
+          "m": "Nói vết thương có lành tốt không. Nói nếu còn đỏ hay không.",
+          "h": "Dùng 'It is healing' và 'It is + adjective'.",
+          "s": "It is healing well now. It is not red."
+        },
+        {
+          "p": "Do you need a note for your school/work after discharge?",
+          "m": "Nói nếu bạn cần giấy cho trường/cty. Nói số ngày bạn cần.",
+          "h": "Dùng 'I need' + N và 'for + số + days'.",
+          "s": "I need a note for school. I need two days off."
+        }
+      ]
+    },
+    {
+      "t": "Ôn tập: Khám tổng quát",
+      "e": [
+        {
+          "p": "What is your main problem today?",
+          "m": "Nói triệu chứng chính. Nói nếu triệu chứng là cấp tính hay mạn tính (short/long).",
+          "h": "Dùng 'I have...' và 'It is short/long'.",
+          "s": "I have a sore throat. It is short."
+        },
+        {
+          "p": "Do you have fever or chills now?",
+          "m": "Nói nếu bạn đang sốt hoặc ớn lạnh. Nói bạn cảm thấy thế nào.",
+          "h": "Dùng 'I am' + 'hot/cold' và 'I feel...' .",
+          "s": "I am hot now. I feel a little cold sometimes."
+        },
+        {
+          "p": "Can you show where it hurts?",
+          "m": "Nói vị trí đau. Nói mức độ đau (a little/a lot).",
+          "h": "Dùng 'It hurts in...' và 'a little/a lot'.",
+          "s": "It hurts in my chest. It hurts a lot."
+        },
+        {
+          "p": "Do you want a simple test or a scan?",
+          "m": "Chọn test đơn giản hoặc chụp. Nói lý do ngắn.",
+          "h": "Dùng 'I want' + N và 'because...'.",
+          "s": "I want a simple test. It is faster."
+        },
+        {
+          "p": "Will you follow the home care advice?",
+          "m": "Nói bạn sẽ làm theo lời khuyên tại nhà hay không. Nói 1 việc cụ thể bạn sẽ làm.",
+          "h": "Dùng 'I will' + V và 'I will do...' .",
+          "s": "I will follow the advice. I will rest more."
+        }
+      ]
+    },
+    {
+      "t": "Ôn tập: So sánh và lựa chọn test",
+      "e": [
+        {
+          "p": "Is the rapid test fast for you?",
+          "m": "Nói test nhanh có nhanh với bạn không. Nói nếu bạn ưu tiên nhanh hay chính xác.",
+          "h": "Dùng 'It is' và 'I prefer' + N.",
+          "s": "It is fast for me. I prefer fast results."
+        },
+        {
+          "p": "Do you think lab test is better?",
+          "m": "Nói bạn có nghĩ test phòng lab tốt hơn không. Nói bạn có chờ hay không.",
+          "h": "Dùng 'I think' và 'I can/cannot wait'.",
+          "s": "I think lab test is better. I can wait."
+        },
+        {
+          "p": "Would you do both tests to be safe?",
+          "m": "Nói bạn có làm cả hai test không. Nói lý do ngắn (safety/cost).",
+          "h": "Dùng 'I would' hoặc 'I would not' + V và 'because...'.",
+          "s": "I would do both tests. It is for safety."
+        },
+        {
+          "p": "Is cost a problem for you?",
+          "m": "Nói chi phí có là vấn đề không. Nói bạn chọn test rẻ hơn hay không.",
+          "h": "Dùng 'It is' + 'a problem' hoặc 'not a problem' và 'I choose...' .",
+          "s": "Cost is a problem. I choose the cheaper test."
+        },
+        {
+          "p": "Do you want the result now or tomorrow?",
+          "m": "Chọn nhận kết quả bây giờ hay ngày mai. Nói lý do ngắn.",
+          "h": "Dùng 'I want' + 'now'/'tomorrow' và 'because...'.",
+          "s": "I want the result now. Because I need to start medicine."
+        }
+      ]
+    },
+    {
+      "t": "Ôn tập: Trường hợp khẩn cấp và theo dõi",
+      "e": [
+        {
+          "p": "Are you breathing better now?",
+          "m": "Nói bạn thở tốt hơn hay không. Nói bạn cần oxy hay không.",
+          "h": "Dùng 'I am'/'I am not' + V-ing và 'I need...'.",
+          "s": "I am breathing better now. I do not need oxygen."
+        },
+        {
+          "p": "Did the bleeding stop after bandage?",
+          "m": "Nói máu có ngừng sau khi băng không. Nói nếu bạn vẫn thấy máu.",
+          "h": "Dùng 'It stopped' hoặc 'It is still' + V-ing.",
+          "s": "It stopped after the bandage. It is not bleeding now."
+        },
+        {
+          "p": "Will you come for a follow-up in two days?",
+          "m": "Nói bạn có đến tái khám sau hai ngày không. Nói nếu bạn cần ghi nhớ ai gọi nhắc.",
+          "h": "Dùng 'I will' + V và 'Please call me' nếu cần.",
+          "s": "I will come for a follow-up in two days. Please call me to remind."
+        },
+        {
+          "p": "Do you feel pain after taking medicine?",
+          "m": "Nói nếu bạn đau sau khi uống thuốc. Nói nếu thuốc giúp giảm đau.",
+          "h": "Dùng 'It hurts' và 'The medicine helps' + yes/no.",
+          "s": "It still hurts after medicine. The medicine helps a little."
+        },
+        {
+          "p": "Are you ready to go home now?",
+          "m": "Nói bạn sẵn sàng về nhà không. Nói bạn cần hướng dẫn gì nữa hay không.",
+          "h": "Dùng 'I am ready'/'I am not ready' và 'I need...' .",
+          "s": "I am ready to go home now. I need a short care note."
+        }
+      ]
+    }
+  ]
+}

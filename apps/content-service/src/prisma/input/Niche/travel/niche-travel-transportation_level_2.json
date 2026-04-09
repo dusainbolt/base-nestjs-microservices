@@ -1,0 +1,530 @@
+{
+  "l": 2,
+  "d": [
+    {
+      "t": "Bắt taxi",
+      "e": [
+        {
+          "p": "Where do you want to go?",
+          "m": "Nói địa điểm bạn muốn đến. Nói rằng bạn muốn đi ngay bây giờ.",
+          "h": "I want to go to... / I am going now.",
+          "s": "Take me to the bus station. I am going now."
+        },
+        {
+          "p": "Do you need help with your bags?",
+          "m": "Nói có bao nhiêu túi. Nói rằng bạn cần người lái xe bỏ túi vào cốp.",
+          "h": "There is/There are + number. I need + someone to + V.",
+          "s": "There is one bag. I need you to put it in the trunk."
+        },
+        {
+          "p": "How much is the fare to the airport?",
+          "m": "Nói giá khoảng bao nhiêu. Nói bạn sẽ trả bằng tiền mặt hoặc thẻ.",
+          "h": "It costs... / I will pay by...",
+          "s": "It costs about ten dollars. I will pay by cash."
+        },
+        {
+          "p": "Should I stop at the corner near your hotel?",
+          "m": "Trả lời có hoặc không. Nói vị trí khách sạn/điểm đến gần góc phố đó.",
+          "h": "Yes, please / No, thanks + because / location.",
+          "s": "Yes, please. My hotel is next to the corner."
+        },
+        {
+          "p": "Are you staying in the city tonight?",
+          "m": "Nói bạn có ở lại trong thành phố hay không. Nói nơi bạn ở (ví dụ: khách sạn, nhà bạn bè).",
+          "h": "Use 'I am staying' + location.",
+          "s": "I am staying in the city tonight. I am at a small hotel near the station."
+        }
+      ]
+    },
+    {
+      "t": "Chờ xe buýt",
+      "e": [
+        {
+          "p": "Which bus goes to the museum?",
+          "m": "Nói số hoặc tên xe buýt bạn cần. Nói nơi bạn đang chờ (bus stop hoặc gần điểm nổi bật).",
+          "h": "Use 'Take bus number...' and 'I am waiting at...'.",
+          "s": "Take bus number 5. I am waiting at the bus stop near the park."
+        },
+        {
+          "p": "Is the bus coming now?",
+          "m": "Nói rằng xe buýt đang đến hay chưa. Nói bạn đang đứng ở đâu (on the stop/in front of...).",
+          "h": "Use 'It is coming' or 'It is not coming' + location.",
+          "s": "It is coming now. I am in front of the green sign."
+        },
+        {
+          "p": "How often does this bus run?",
+          "m": "Nói tần suất bạn thấy (always/often/sometimes). Nói nếu bạn thường đi dòng này hay không.",
+          "h": "Use adverbs of frequency (always/often/sometimes).",
+          "s": "This bus comes often. I usually take it to work."
+        },
+        {
+          "p": "Can I pay on the bus?",
+          "m": "Nói có thể trả tiền trên xe hay không. Nói hình thức bạn trả (cash/card).",
+          "h": "Use 'Yes, you can' or 'No, you must' + I pay by...",
+          "s": "Yes, you can pay on the bus. I pay by card."
+        },
+        {
+          "p": "Are there many stops before the town center?",
+          "m": "Nói có bao nhiêu điểm dừng (khoảng). Nói nếu bạn muốn xuống ở điểm nào.",
+          "h": "Use 'There are + number' and 'I want to get off at...'.",
+          "s": "There are three stops before the town center. I want to get off at the second stop."
+        }
+      ]
+    },
+    {
+      "t": "Mua vé xe/tàu",
+      "e": [
+        {
+          "p": "One way or return ticket?",
+          "m": "Nói bạn muốn vé một chiều hay khứ hồi. Nói ngày bạn đi (today/tonight).",
+          "h": "Use 'One way' or 'Return' + time phrase.",
+          "s": "One way, please. I am travelling today."
+        },
+        {
+          "p": "Do you have a student card?",
+          "m": "Nói bạn có thẻ sinh viên hay không. Nói bạn muốn vé giảm giá nếu có.",
+          "h": "Use 'Yes, I have' or 'No, I don't' + I want a discounted ticket.",
+          "s": "No, I don't have a student card. I want a normal ticket."
+        },
+        {
+          "p": "How many tickets do you need?",
+          "m": "Nói số vé bạn cần. Nói vé cho người lớn hay trẻ em.",
+          "h": "Use 'I need + number' and 'for an adult/for a child'.",
+          "s": "I need two tickets. Both are for adults."
+        },
+        {
+          "p": "Which platform for the morning train?",
+          "m": "Nói số platform hoặc chỗ lên tàu. Nói rằng bạn sẽ lên tàu buổi sáng.",
+          "h": "Use 'Platform number...' and 'in the morning'.",
+          "s": "Platform 3. I am taking the morning train."
+        },
+        {
+          "p": "Can I buy a ticket from the machine?",
+          "m": "Nói có thể mua từ máy hay không. Nói cách bạn muốn thanh toán (cash/card).",
+          "h": "Use 'Yes, you can' or 'No, you must' + payment method.",
+          "s": "Yes, you can buy it from the machine. I will pay by card."
+        }
+      ]
+    },
+    {
+      "t": "Hỏi đường ở ga tàu",
+      "e": [
+        {
+          "p": "Excuse me, where is platform two?",
+          "m": "Chỉ hướng đến platform 2 (left/right/near). Nói bạn sẽ đi theo hướng đó.",
+          "h": "Use 'It is on the left/right/near...' and 'I will go...' ",
+          "s": "Platform two is on the left. I will go there now."
+        },
+        {
+          "p": "Is this train going to the city center?",
+          "m": "Trả lời có hoặc không. Nói nếu tàu dừng tại trung tâm thành phố.",
+          "h": "Use 'Yes, it is' or 'No, it is not' + it stops at...",
+          "s": "Yes, it is. It stops at the city center."
+        },
+        {
+          "p": "When does the next train leave?",
+          "m": "Nói thời gian khởi hành tiếp theo (use 'at' or 'in'). Nói bạn có đến kịp không (yes/no).",
+          "h": "Use 'It leaves at ...' and 'I can/can't make it.'",
+          "s": "The next train leaves at 9:30. I can make it."
+        },
+        {
+          "p": "Are there seats available?",
+          "m": "Nói có ghế trống hay không. Nói bạn muốn một chỗ ngồi gần cửa sổ hay lối đi.",
+          "h": "Use 'There are' and 'I want a seat near...'.",
+          "s": "There are some seats available. I want a seat near the window."
+        },
+        {
+          "p": "Can someone help with my luggage?",
+          "m": "Yêu cầu giúp đỡ với hành lý. Nói bạn cần giúp ngay bây giờ.",
+          "h": "Use 'I need help with...' and 'now'.",
+          "s": "I need help with my luggage. I need help now."
+        }
+      ]
+    },
+    {
+      "t": "Đi tàu điện ngầm (metro)",
+      "e": [
+        {
+          "p": "Which line goes to the museum?",
+          "m": "Nói tên hoặc màu tuyến bạn cần. Nói bạn sẽ chuyển tuyến hay đi thẳng.",
+          "h": "Use 'Take the ... line' and 'I will change at...' or 'I go straight'.",
+          "s": "Take the blue line. I will change at Central station."
+        },
+        {
+          "p": "Is the metro crowded now?",
+          "m": "Nói nó có đông hay không. Nói tần suất bạn đi metro (always/often/sometimes).",
+          "h": "Use 'It is' or 'It is not' + adverb of frequency.",
+          "s": "It is crowded now. I sometimes take the metro."
+        },
+        {
+          "p": "Do you want a single ride or a day pass?",
+          "m": "Nói bạn muốn vé lượt hay vé ngày. Nói nếu bạn sẽ đi nhiều lần trong ngày.",
+          "h": "Use 'I want a single ride' or 'I want a day pass' and a reason.",
+          "s": "I want a day pass. I will travel many times today."
+        },
+        {
+          "p": "Where is the nearest metro entrance?",
+          "m": "Nói vị trí lối vào gần nhất (in front of/next to/behind landmark). Nói bạn đang đứng ở đâu.",
+          "h": "Use prepositions: in front of, next to, behind.",
+          "s": "The entrance is next to the library. I am on the main road."
+        },
+        {
+          "p": "Can you hold the doors for me?",
+          "m": "Yêu cầu người kia giữ cửa. Nói bạn cần vài giây để lên tàu.",
+          "h": "Use 'Please hold the doors' and 'I need a few seconds'.",
+          "s": "Please hold the doors. I need a few seconds to get on."
+        }
+      ]
+    },
+    {
+      "t": "Đi làm hàng ngày bằng phương tiện công cộng",
+      "e": [
+        {
+          "p": "How do you go to work every day?",
+          "m": "Nói phương tiện bạn thường dùng. Nói bạn đi thường xuyên không (always/often/sometimes).",
+          "h": "Use 'I go by...' and frequency adverb.",
+          "s": "I go by bus. I often go by bus."
+        },
+        {
+          "p": "Do you leave early to catch the bus?",
+          "m": "Nói bạn có đi sớm để kịp xe hay không. Nói giờ bạn thường rời nhà (in the morning/every morning).",
+          "h": "Use 'Yes, I leave early' or 'No, I don't' and time phrase.",
+          "s": "Yes, I leave early. I leave at 7:00 every morning."
+        },
+        {
+          "p": "Is the bus usually late?",
+          "m": "Nói xe thường trễ hay không. Nói tần suất trễ nếu có (sometimes/often).",
+          "h": "Use adverbs of frequency with Present Simple.",
+          "s": "The bus is sometimes late. It is often late in the rain."
+        },
+        {
+          "p": "Do you sit near the window or in the aisle?",
+          "m": "Nói chỗ bạn thích (window/aisle). Nói lý do ngắn (ví dụ: I like the view).",
+          "h": "Use 'I like' + noun and a short reason.",
+          "s": "I sit near the window. I like the view."
+        },
+        {
+          "p": "How much is your monthly pass?",
+          "m": "Nói giá vé tháng của bạn. Nói bạn có mua vé tháng hay mua từng lượt.",
+          "h": "Use 'It costs...' and 'I buy a monthly pass / single tickets'.",
+          "s": "It costs about thirty dollars. I buy a monthly pass."
+        }
+      ]
+    },
+    {
+      "t": "Sử dụng ứng dụng gọi xe",
+      "e": [
+        {
+          "p": "Where should the driver pick you up?",
+          "m": "Nói điểm đón cụ thể (door/in front of...). Nói bạn sẽ đợi ở đó.",
+          "h": "Use prepositions: in front of / at the door.",
+          "s": "Pick me up in front of the cafe. I will wait there."
+        },
+        {
+          "p": "Do you want the driver to wait if you are late?",
+          "m": "Nói bạn có muốn tài xế chờ không. Nói bạn sẽ đến trong bao lâu (a few minutes).",
+          "h": "Use 'Yes, please' or 'No, thanks' and time phrase.",
+          "s": "Yes, please. I will be there in five minutes."
+        },
+        {
+          "p": "Which car type do you prefer?",
+          "m": "Chọn loại xe (normal/large). Nói lý do ngắn (ví dụ: nhiều hành lý).",
+          "h": "Use 'I prefer...' and a short reason.",
+          "s": "I prefer a large car. I have a lot of luggage."
+        },
+        {
+          "p": "Can I share the ride with others?",
+          "m": "Trả lời có thể chia sẻ hay không. Nói bạn có thích chia sẻ rides hay muốn riêng.",
+          "h": "Use 'Yes, you can' or 'No, I want' + preference.",
+          "s": "No, I want a private ride. I do not like to share."
+        },
+        {
+          "p": "Is the driver nearby now?",
+          "m": "Nói tài xế có ở gần không. Nói bạn có thể ra ngay hay phải đợi.",
+          "h": "Use 'He is nearby' or 'He is not nearby' and action.",
+          "s": "He is nearby now. I can go out now."
+        }
+      ]
+    },
+    {
+      "t": "Thuê xe đạp gần ga",
+      "e": [
+        {
+          "p": "Do you want to rent a bike?",
+          "m": "Nói bạn có muốn thuê xe đạp hay không. Nói khoảng thời gian bạn sẽ dùng (for an hour/today).",
+          "h": "Use 'Yes, I want' or 'No, I don't' + time phrase.",
+          "s": "Yes, I want to rent a bike. I will use it for one hour."
+        },
+        {
+          "p": "How much is the bike per hour?",
+          "m": "Nói giá mỗi giờ. Nói bạn có trả tiền mặt hay không.",
+          "h": "Use 'It costs...' and 'I will pay by...'.",
+          "s": "It costs five dollars per hour. I will pay by cash."
+        },
+        {
+          "p": "Is the bike helmet included?",
+          "m": "Trả lời có hay không. Nói bạn cần mượn mũ hoặc mang riêng.",
+          "h": "Use 'Yes, it is' or 'No, it is not' and your need.",
+          "s": "Yes, it is included. I will wear the helmet."
+        },
+        {
+          "p": "Where do I return the bike?",
+          "m": "Nói vị trí trả xe (near station/in front of...). Nói bạn sẽ trả ở đó.",
+          "h": "Use prepositions and 'I will return it at...'.",
+          "s": "Return it at the bike station near the bus stop. I will return it there."
+        },
+        {
+          "p": "Can I take the bike on the train?",
+          "m": "Trả lời có được mang lên tàu không. Nói bạn sẽ mang hay để lại.",
+          "h": "Use 'Yes, you can' or 'No, you can't' + plan.",
+          "s": "No, you can't take it on the train. I will leave it at the station."
+        }
+      ]
+    },
+    {
+      "t": "Du lịch ngắn bằng xe công cộng",
+      "e": [
+        {
+          "p": "Where are you going on the city tour?",
+          "m": "Nói địa điểm bạn muốn tham quan. Nói bạn đi cùng ai (alone/with friends).",
+          "h": "Use 'I am going to...' and 'with' or 'alone'.",
+          "s": "I am going to the old town. I am going with friends."
+        },
+        {
+          "p": "Do you take the bus or the train for a short trip?",
+          "m": "Nói bạn chọn bus hay train. Nói lý do ngắn (cheaper/faster).",
+          "h": "Use 'I take the...' and a short reason.",
+          "s": "I take the train. It is faster."
+        },
+        {
+          "p": "How many stops until the museum?",
+          "m": "Nói số điểm dừng. Nói bạn sẽ xuống ở điểm nào (second/third).",
+          "h": "Use 'There are + number' and 'I will get off at the...'.",
+          "s": "There are two stops until the museum. I will get off at the second stop."
+        },
+        {
+          "p": "Do you want a map or guidance?",
+          "m": "Nói bạn cần bản đồ hay hướng dẫn. Nói bạn thích tự đi hay theo hướng dẫn viên.",
+          "h": "Use 'I want a map' or 'I want guidance' + preference.",
+          "s": "I want a map. I like to go alone."
+        },
+        {
+          "p": "Is it easy to find food near the station?",
+          "m": "Nói có nhiều chỗ ăn gần ga hay không. Nói bạn có kế hoạch ăn ở đâu.",
+          "h": "Use 'There are' and 'I will eat at...'.",
+          "s": "There are many small restaurants near the station. I will eat at a cafe next to the station."
+        }
+      ]
+    },
+    {
+      "t": "Gặp sự cố trên đường",
+      "e": [
+        {
+          "p": "I lost my bag in the taxi. Can you help?",
+          "m": "Nói bạn đã mất túi trong taxi. Nói bạn cần giúp tìm nó ngay bây giờ.",
+          "h": "Use 'I lost...' and 'I need help now'.",
+          "s": "I lost my bag in the taxi. I need help now."
+        },
+        {
+          "p": "You missed your stop. What do you do?",
+          "m": "Nói bạn đã bỏ lỡ điểm xuống. Nói bạn muốn tài xế dừng ở điểm tiếp theo hay quay lại.",
+          "h": "Use 'I missed my stop' and 'I want to stop at...' or 'go back'.",
+          "s": "I missed my stop. I want the driver to stop at the next stop."
+        },
+        {
+          "p": "The bus breaks down. Are you okay?",
+          "m": "Nói bạn có ổn không. Nói bạn sẽ chờ xe sửa hay chuyển sang phương tiện khác.",
+          "h": "Use 'I am fine' or 'I am not fine' and 'I will...' ",
+          "s": "I am fine. I will take another bus."
+        },
+        {
+          "p": "It is very cold on the train. Can I close the window?",
+          "m": "Nói bạn cảm thấy lạnh. Nói bạn muốn đóng cửa sổ ngay.",
+          "h": "Use 'I am cold' and 'I want to close the window'.",
+          "s": "I am cold. I want to close the window now."
+        },
+        {
+          "p": "There is no seat. What can you do?",
+          "m": "Nói tình trạng không có ghế. Nói bạn sẽ đứng hoặc tìm chỗ khác.",
+          "h": "Use 'There is no seat' and 'I will stand' or 'I will find'.",
+          "s": "There is no seat. I will stand near the door."
+        }
+      ]
+    },
+    {
+      "t": "Lên kế hoạch chuyến đi bằng nhiều phương tiện",
+      "e": [
+        {
+          "p": "How will you go to the airport tomorrow?",
+          "m": "Nói phương tiện bạn sẽ dùng (bus/taxi/train). Nói nếu bạn sẽ đi thẳng hay chuyển tuyến.",
+          "h": "Use 'I will go by...' and 'I will change at...' (use present simple/continuous style).",
+          "s": "I will go by taxi. I will go straight to the airport."
+        },
+        {
+          "p": "Do you need to book a ticket in advance?",
+          "m": "Nói bạn có cần đặt trước hay không. Nói bạn sẽ đặt qua app hoặc mua ở chỗ.",
+          "h": "Use 'I need to book' or 'I don't need to book' and method.",
+          "s": "I need to book a ticket. I will book it on the app."
+        },
+        {
+          "p": "Are you carrying heavy luggage?",
+          "m": "Nói có hành lý nặng hay không. Nói nếu bạn cần giúp đỡ khi chuyển phương tiện.",
+          "h": "Use 'I have heavy luggage' and 'I need help'.",
+          "s": "Yes, I have heavy luggage. I need help when I change transport."
+        },
+        {
+          "p": "How much time do you need to transfer?",
+          "m": "Nói khoảng thời gian bạn cần để chuyển (minutes). Nói nếu bạn cần thêm thời gian để đi bộ giữa ga.",
+          "h": "Use 'I need ... minutes' and 'I need more time to walk'.",
+          "s": "I need ten minutes to transfer. I need more time to walk between stations."
+        },
+        {
+          "p": "Will you carry a small bag on board?",
+          "m": "Nói bạn có mang túi nhỏ lên xe/tàu không. Nói túi đó ở đâu (on lap/under seat).",
+          "h": "Use 'I will carry' and location 'under the seat/on my lap'.",
+          "s": "Yes, I will carry a small bag. It will be under the seat."
+        }
+      ]
+    },
+    {
+      "t": "Du lịch nhóm bằng xe công cộng",
+      "e": [
+        {
+          "p": "Are you travelling with friends?",
+          "m": "Nói bạn có đi cùng bạn bè hay không. Nói số người (one/two/three).",
+          "h": "Use 'I am travelling with...' and number.",
+          "s": "Yes, I am travelling with friends. We are three people."
+        },
+        {
+          "p": "Do you want to sit together on the bus?",
+          "m": "Nói bạn muốn ngồi cùng nhau hay không. Nói bạn sẽ cố gắng đặt chỗ trước.",
+          "h": "Use 'We want to sit together' and 'We will try to reserve'.",
+          "s": "We want to sit together. We will try to reserve seats."
+        },
+        {
+          "p": "Who will pay for the tickets?",
+          "m": "Nói ai sẽ trả tiền (you/we). Nói bạn có trả chung hay mỗi người trả riêng.",
+          "h": "Use 'I will pay' or 'We will share the cost'.",
+          "s": "We will share the cost. I will pay my part."
+        },
+        {
+          "p": "Can we put our bags on the rack?",
+          "m": "Hỏi có thể để hành lý trên giá được không. Nói bạn sẽ đặt hành lý ở đâu nếu không.",
+          "h": "Use 'Yes, you can' or 'No, you must' and alternative.",
+          "s": "Yes, you can put your bags on the rack. If not, we will keep them under the seats."
+        },
+        {
+          "p": "Should we get off at the next stop together?",
+          "m": "Đề nghị xuống cùng nhau. Nói bạn muốn xuống ở điểm nào (next/second).",
+          "h": "Use 'Let's get off at...' or 'We will get off at...'.",
+          "s": "Let's get off at the next stop. We will get off together."
+        }
+      ]
+    },
+    {
+      "t": "Ôn tập: Đi lại trong thành phố",
+      "e": [
+        {
+          "p": "Where do you usually go by public transport?",
+          "m": "Nói một nơi bạn thường đến bằng phương tiện công cộng. Nói tần suất bạn đi (every day/often/sometimes).",
+          "h": "Use 'I usually go to...' and frequency adverb.",
+          "s": "I usually go to the market by bus. I go there every week."
+        },
+        {
+          "p": "Can you tell me how to get to the museum from here?",
+          "m": "Hướng dẫn đường ngắn gọn đến bảo tàng. Nói phương tiện bạn sẽ dùng để đi (walk/bus/train).",
+          "h": "Use 'Go to...' and 'Take the bus/train' or 'walk'.",
+          "s": "Go straight and turn left at the park. Take bus number 4 to the museum."
+        },
+        {
+          "p": "Do you prefer taxi or bus at night?",
+          "m": "Nói bạn thích taxi hay bus vào ban đêm. Nói lý do ngắn (safer/faster/cheaper).",
+          "h": "Use 'I prefer...' and a short reason.",
+          "s": "I prefer taxi at night. It is safer."
+        },
+        {
+          "p": "How many stops from here to the central station?",
+          "m": "Nói số điểm dừng từ đây đến ga trung tâm. Nói bạn sẽ xuống ở điểm nào.",
+          "h": "Use 'There are + number' and 'I will get off at...'.",
+          "s": "There are four stops to the central station. I will get off at the third stop."
+        },
+        {
+          "p": "Do you need a map for the routes?",
+          "m": "Nói bạn có cần bản đồ không. Nói bạn sẽ sử dụng bản đồ giấy hay app trên điện thoại.",
+          "h": "Use 'I need' or 'I don't need' and 'paper map/app'.",
+          "s": "Yes, I need a map. I will use the map app on my phone."
+        }
+      ]
+    },
+    {
+      "t": "Ôn tập: Vấn đề và giải pháp",
+      "e": [
+        {
+          "p": "My train is delayed. What should I do?",
+          "m": "Nói bạn sẽ làm gì khi tàu bị chậm. Nói bạn có thể chờ hoặc đổi chuyến.",
+          "h": "Use 'I will...' and give a simple choice.",
+          "s": "I will wait at the station. Or I can take another train."
+        },
+        {
+          "p": "I think I left my phone on the bus.",
+          "m": "Nói bạn đã để quên điện thoại trên xe. Nói bạn cần báo cho ai hoặc tìm thế nào.",
+          "h": "Use 'I left my phone' and 'I need to report/find it'.",
+          "s": "I left my phone on the bus. I need to report it at the lost and found."
+        },
+        {
+          "p": "The taxi driver is going the wrong way.",
+          "m": "Nói rằng tài xế đang đi sai đường. Nói bạn muốn tài xế đổi hướng hoặc quay lại.",
+          "h": "Use 'He is going' and 'I want him to...'.",
+          "s": "He is going the wrong way. I want him to turn around."
+        },
+        {
+          "p": "The bus is very full and I cannot sit.",
+          "m": "Nói tình trạng xe đông. Nói bạn sẽ đứng hay chờ chuyến sau.",
+          "h": "Use 'It is full' and 'I will stand' or 'wait'.",
+          "s": "The bus is very full. I will stand near the door."
+        },
+        {
+          "p": "I have a flat tire on my rented bike.",
+          "m": "Nói sự cố xe đạp bị xẹp lốp. Nói bạn cần giúp hoặc muốn đổi xe.",
+          "h": "Use 'I have a flat tire' and 'I need help' or 'I want to change'.",
+          "s": "I have a flat tire on my rented bike. I need help to change it."
+        }
+      ]
+    },
+    {
+      "t": "Ôn tập: Lịch trình và lựa chọn",
+      "e": [
+        {
+          "p": "What time do you leave for work tomorrow?",
+          "m": "Nói giờ bạn sẽ rời nhà. Nói phương tiện bạn sẽ dùng vào ngày mai.",
+          "h": "Use time expression and 'I go by...'.",
+          "s": "I leave at 7:00 tomorrow. I will go by bus."
+        },
+        {
+          "p": "Should we take the faster route or a cheaper one?",
+          "m": "Chọn giữa nhanh hơn hoặc rẻ hơn. Nói lý do ngắn cho lựa chọn.",
+          "h": "Use 'I prefer the faster/cheaper route' and a reason.",
+          "s": "I prefer the faster route. It saves time."
+        },
+        {
+          "p": "Is it better to buy tickets now or at the station?",
+          "m": "Nói nên mua vé trước hay mua ở ga. Nói bạn sẽ làm gì.",
+          "h": "Use 'It is better to...' and 'I will...'.",
+          "s": "It is better to buy tickets now. I will buy them online."
+        },
+        {
+          "p": "How many people can fit in a small taxi?",
+          "m": "Nói số người có thể ngồi trong taxi nhỏ. Nói nếu bạn cần xe lớn hơn.",
+          "h": "Use 'A small taxi fits...' and 'I need a larger car if...'.",
+          "s": "A small taxi fits four people. I need a larger car if we are five."
+        },
+        {
+          "p": "Do you want to start the trip early or later?",
+          "m": "Chọn bắt đầu sớm hay muộn. Nói lý do ngắn (avoid traffic/rest).",
+          "h": "Use 'I want to start early/late' and a reason.",
+          "s": "I want to start early. I want to avoid traffic."
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,530 @@
+{
+  "l": 2,
+  "d": [
+    {
+      "t": "Phát hiện lỗi lần đầu",
+      "e": [
+        {
+          "p": "I found a bug.",
+          "m": "Nói lỗi là gì. Nói nơi lỗi xảy ra (màn hình/ trang/ nút).",
+          "h": "Dùng 'It is' hoặc 'The app is' + V-ing; nêu nơi.",
+          "s": "The app is freezing. It happens on the login screen."
+        },
+        {
+          "p": "When did you see the bug?",
+          "m": "Nói khi nào lỗi xảy ra. Nói tần suất lỗi (always/often/sometimes).",
+          "h": "Dùng present continuous + trạng từ tần suất.",
+          "s": "It is happening now. I see it every morning."
+        },
+        {
+          "p": "What did you press before the bug?",
+          "m": "Nói hành động bạn làm (1 câu). Nói kết quả bạn thấy (1 câu).",
+          "h": "Dùng 'I + V' cho hành động, 'The app + does not/does' cho kết quả.",
+          "s": "I press the save button. The app does not save."
+        },
+        {
+          "p": "Can you send a screenshot?",
+          "m": "Nói nếu bạn có ảnh chụp màn hình (yes/no). Nói số ảnh nếu có.",
+          "h": "Bắt đầu Yes/No, sau đó 'There is/There are + số + N'.",
+          "s": "Yes, I have a screenshot. There is one screenshot."
+        },
+        {
+          "p": "I will report this to the team.",
+          "m": "Nói bạn muốn họ làm gì (fix/test). Nói khi bạn cần phản hồi.",
+          "h": "Dùng 'I want/will + to V' và 'I need + time'.",
+          "s": "I want them to fix it. I need an answer tomorrow."
+        }
+      ]
+    },
+    {
+      "t": "Mô tả lỗi chi tiết",
+      "e": [
+        {
+          "p": "Tell me exactly what happens.",
+          "m": "Mô tả hành động lỗi (1 câu). Mô tả kết quả lỗi (1 câu).",
+          "h": "Dùng present simple cho cả hai câu.",
+          "s": "I click the upload button. The file does not upload."
+        },
+        {
+          "p": "Which button do you press?",
+          "m": "Nói tên nút bạn nhấn. Nói điều bạn mong chờ khi nhấn nút đó.",
+          "h": "Dùng 'I press + the + button' và 'I expect + clause'.",
+          "s": "I press the submit button. I expect the form to save."
+        },
+        {
+          "p": "Does the screen change?",
+          "m": "Nói nếu màn hình thay đổi (yes/no). Mô tả thay đổi nếu có.",
+          "h": "Yes/No rồi một câu mô tả với 'It' hoặc 'The screen'.",
+          "s": "No, the screen stays the same. The save message does not appear."
+        },
+        {
+          "p": "Is there any error text?",
+          "m": "Nói nếu có dòng lỗi (yes/no). Viết nội dung lỗi ngắn gọn.",
+          "h": "Yes/No rồi ghi lại văn bản lỗi ngắn.",
+          "s": "Yes, there is an error text. It says 'Save failed'."
+        },
+        {
+          "p": "Can you try again and tell me?",
+          "m": "Nói bạn có thử lại không. Nói kết quả sau khi thử.",
+          "h": "Dùng 'I try' hoặc 'I tried' dạng đơn giản (present simple).",
+          "s": "I try again now. The app still does not save."
+        }
+      ]
+    },
+    {
+      "t": "Mức độ và tần suất lỗi",
+      "e": [
+        {
+          "p": "How bad is the bug?",
+          "m": "Nói mức độ ảnh hưởng (small/big/bad). Nói ai bị ảnh hưởng.",
+          "h": "Dùng tính từ đơn và 'There are + số + N'.",
+          "s": "This is a bad bug. There are many users affected."
+        },
+        {
+          "p": "Does this happen often?",
+          "m": "Nói tần suất (always/often/sometimes/never). Nói ví dụ thời gian nếu có.",
+          "h": "Dùng trạng từ tần suất + present simple, thêm thời gian ngắn.",
+          "s": "It happens often. It happens every morning."
+        },
+        {
+          "p": "Is the app usable now?",
+          "m": "Nói nếu app còn dùng được (yes/no). Nói chi tiết vấn đề ngắn.",
+          "h": "Yes/No rồi 'but' + mô tả ngắn.",
+          "s": "No, it is not usable. The save feature is broken."
+        },
+        {
+          "p": "Do many users report this?",
+          "m": "Nói số người (approx) hoặc 'a few/many'. Nói bạn thấy báo cáo ở đâu.",
+          "h": "Dùng 'There are' hoặc 'A few/many'.",
+          "s": "Many users report it. I see reports in the support chat."
+        },
+        {
+          "p": "Should we stop the release?",
+          "m": "Nói ý bạn về việc dừng (yes/no). Nói lý do ngắn gọn.",
+          "h": "Dùng 'Yes/No' và 'because + lý do'.",
+          "s": "Yes, we should stop the release. The bug affects core work."
+        }
+      ]
+    },
+    {
+      "t": "Ảnh hưởng tới công việc",
+      "e": [
+        {
+          "p": "Is your work blocked by the bug?",
+          "m": "Nói nếu công việc bị chặn (yes/no). Nói công việc cụ thể bị ảnh hưởng.",
+          "h": "Yes/No và câu mô tả ngắn với 'My work' hoặc 'I'.",
+          "s": "Yes, my work is blocked. I cannot save my reports."
+        },
+        {
+          "p": "Do you have a temporary fix?",
+          "m": "Nói nếu bạn có giải pháp tạm (yes/no). Nói giải pháp ngắn nếu có.",
+          "h": "Yes/No rồi 'I use...' cho giải pháp.",
+          "s": "No, I do not have a fix. I just restart the app."
+        },
+        {
+          "p": "Can you do workarounds?",
+          "m": "Nói bạn có thể làm việc theo cách khác (yes/no). Nói cách bạn làm.",
+          "h": "Dùng 'I' + V và 'by + V-ing' nếu cần.",
+          "s": "Yes, I can use the web version. I work from the web page."
+        },
+        {
+          "p": "Does the bug waste time?",
+          "m": "Nói nếu lãng phí thời gian (yes/no). Nói khoảng thời gian mất thêm.",
+          "h": "Yes/No và 'I lose + time' hoặc 'It takes + time'.",
+          "s": "Yes, it wastes time. It takes ten extra minutes."
+        },
+        {
+          "p": "Should we inform the manager?",
+          "m": "Nói nếu cần báo manager (yes/no). Nói lý do ngắn.",
+          "h": "Yes/No và 'because + lý do'.",
+          "s": "Yes, we should inform the manager. The bug stops many tasks."
+        }
+      ]
+    },
+    {
+      "t": "Môi trường và thông tin hệ thống",
+      "e": [
+        {
+          "p": "Which device do you use?",
+          "m": "Nói loại thiết bị (phone/tablet/PC). Nói hệ điều hành ngắn (Android/iOS/Windows).",
+          "h": "Dùng 'I use a/an + device' và 'I use + OS'.",
+          "s": "I use an Android phone. I use Android 11."
+        },
+        {
+          "p": "What app version is this?",
+          "m": "Nói phiên bản app (ví dụ 2.1). Nói nếu bạn updated recently (yes/no).",
+          "h": "Dùng 'The app version is ...' và Yes/No.",
+          "s": "The app version is 2.1. I updated it yesterday."
+        },
+        {
+          "p": "Are you on Wi‑Fi or mobile data?",
+          "m": "Nói loại kết nối. Nói nếu kết nối ổn định (yes/no).",
+          "h": "Dùng 'I am on + Wi‑Fi/mobile' và Yes/No.",
+          "s": "I am on Wi‑Fi. The connection is stable."
+        },
+        {
+          "p": "Is this on your personal device?",
+          "m": "Nói nếu là thiết bị cá nhân (yes/no). Nói thành phố hoặc nơi nếu cần.",
+          "h": "Yes/No và 'I am in + place' nếu cần (hoặc omit).",
+          "s": "Yes, it is my personal phone. I am in the office now."
+        },
+        {
+          "p": "Do you have other apps open?",
+          "m": "Nói nếu có app khác đang mở (yes/no). Nói tên app ngắn nếu có.",
+          "h": "Yes/No và 'I have + app name' ngắn.",
+          "s": "Yes, I have email open. I also have the browser open."
+        }
+      ]
+    },
+    {
+      "t": "Các bước tái hiện lỗi",
+      "e": [
+        {
+          "p": "Can you list the first step?",
+          "m": "Viết bước 1 bạn làm (1 câu). Viết bước 2 ngay sau (1 câu).",
+          "h": "Dùng câu ngắn: 'I open...' và 'I tap/click...'.",
+          "s": "I open the app. I tap the profile icon."
+        },
+        {
+          "p": "What is the next action?",
+          "m": "Nói hành động tiếp theo (1 câu). Nói kết quả sau hành động (1 câu).",
+          "h": "Dùng 'I enter...' và 'The app ...' cho kết quả.",
+          "s": "I enter my name. The save button does not work."
+        },
+        {
+          "p": "Do you use the same steps every time?",
+          "m": "Nói có/không. Nói nếu bạn làm khác gì (một chi tiết).",
+          "h": "Yes/No rồi mô tả một thay đổi ngắn.",
+          "s": "Yes, I use the same steps. I always open the profile first."
+        },
+        {
+          "p": "How long does each step take?",
+          "m": "Nói thời gian ngắn cho bước (1 câu). Nói tổng thời gian nếu có (1 câu).",
+          "h": "Dùng 'It takes + time' cho mỗi câu.",
+          "s": "Each step takes a few seconds. The whole process takes one minute."
+        },
+        {
+          "p": "Can someone else follow your steps?",
+          "m": "Nói nếu người khác có thể làm theo (yes/no). Nói lý do ngắn.",
+          "h": "Yes/No và 'because + lý do'.",
+          "s": "Yes, another user can follow them. The steps are simple."
+        }
+      ]
+    },
+    {
+      "t": "Gửi kèm bằng chứng (screenshot/log)",
+      "e": [
+        {
+          "p": "Do you have a log file?",
+          "m": "Nói có/không. Nói ngắn tên file hoặc nội dung nếu có.",
+          "h": "Yes/No rồi 'The log file is ...' hoặc 'It shows ...'.",
+          "s": "Yes, I have a log file. It shows an error code 500."
+        },
+        {
+          "p": "How many screenshots do you have?",
+          "m": "Nói số ảnh (There are + số + screenshots). Nói ảnh mô tả điều gì.",
+          "h": "Dùng 'There are + số +' và một câu mô tả ngắn.",
+          "s": "There are two screenshots. They show the error message."
+        },
+        {
+          "p": "Can you attach a short video?",
+          "m": "Nói nếu bạn có video (yes/no). Nói dài khoảng bao lâu nếu có.",
+          "h": "Yes/No và 'It is about + time'.",
+          "s": "No, I do not have a video. I can make one in one minute."
+        },
+        {
+          "p": "Where do you send the files?",
+          "m": "Nói kênh bạn sử dụng (email/chat). Nói nếu file gửi thành công (yes/no).",
+          "h": "Dùng 'I send via ...' và Yes/No.",
+          "s": "I send them by email. The files send successfully."
+        },
+        {
+          "p": "Do you include steps with the screenshot?",
+          "m": "Nói có/không. Nói tóm tắt các bước ngắn nếu có.",
+          "h": "Yes/No rồi tóm tắt 'I did ... and ...'.",
+          "s": "Yes, I include steps. I wrote the actions and the time."
+        }
+      ]
+    },
+    {
+      "t": "Kết quả mong đợi và thực tế",
+      "e": [
+        {
+          "p": "What did you expect to happen?",
+          "m": "Nói kết quả mong đợi (1 câu). Nói kết quả thực tế (1 câu).",
+          "h": "Dùng 'I expect...' cho mong đợi và 'But/However...' cho thực tế.",
+          "s": "I expect the item to save. However, it does not save."
+        },
+        {
+          "p": "Is the error different from before?",
+          "m": "Nói khác/không khác (1 câu). Nói chi tiết khác nếu có (1 câu).",
+          "h": "Dùng 'Yes/No' và 'It is ...' cho chi tiết.",
+          "s": "Yes, it is different. The app now shows a blank page."
+        },
+        {
+          "p": "Does the app show wrong data?",
+          "m": "Nói có/không. Nói ví dụ dữ liệu sai ngắn.",
+          "h": "Yes/No và 'It shows ...' cho ví dụ.",
+          "s": "Yes, it shows wrong data. The date is yesterday."
+        },
+        {
+          "p": "Is the UI broken or slow?",
+          "m": "Nói broken/slow/both/none (1 câu). Nói một chi tiết phụ (1 câu).",
+          "h": "Dùng một từ rồi 'The ... is ...' cho chi tiết.",
+          "s": "The UI is slow. Buttons respond late."
+        },
+        {
+          "p": "Can you compare with another device?",
+          "m": "Nói bạn đã thử thiết bị khác không (yes/no). Nói kết quả so sánh.",
+          "h": "Yes/No và 'On the other device ...' ngắn.",
+          "s": "Yes, I try on another phone. The bug is the same there."
+        }
+      ]
+    },
+    {
+      "t": "Hỏi thêm thông tin từ người báo lỗi",
+      "e": [
+        {
+          "p": "Can you give the exact steps?",
+          "m": "Viết hai bước chính bạn làm (mỗi bước 1 câu).",
+          "h": "Dùng 'I open...' và 'I click/tap...' cho hai câu.",
+          "s": "I open the app. I tap the settings button."
+        },
+        {
+          "p": "Do you use the latest app?",
+          "m": "Nói có/không. Nói phiên bản nếu có.",
+          "h": "Yes/No và 'The app version is ...'.",
+          "s": "Yes, I use the latest app. The app version is 2.1."
+        },
+        {
+          "p": "Can you send the device model?",
+          "m": "Nói tên thiết bị (1 câu). Nói hệ điều hành (1 câu).",
+          "h": "Dùng 'I use a/an + model' và 'It runs + OS'.",
+          "s": "I use a Samsung A10. It runs Android 11."
+        },
+        {
+          "p": "Did you try clearing cache?",
+          "m": "Nói bạn đã thử không (yes/no). Nói kết quả ngắn nếu có.",
+          "h": "Yes/No và 'It helped/did not help'.",
+          "s": "No, I did not clear the cache. I will try now."
+        },
+        {
+          "p": "Do you have time for a quick call?",
+          "m": "Nói có/không. Nói thời gian phù hợp ngắn.",
+          "h": "Yes/No và 'I am free at ...' ngắn.",
+          "s": "Yes, I am free now. I am free at 3 pm too."
+        }
+      ]
+    },
+    {
+      "t": "Cập nhật trạng thái và phân công",
+      "e": [
+        {
+          "p": "Is the bug assigned?",
+          "m": "Nói có/không. Nói ai đang xử lý nếu có (chức vụ/người).",
+          "h": "Yes/No và 'A developer/QA is ...'.",
+          "s": "Yes, it is assigned. A developer is fixing it."
+        },
+        {
+          "p": "What is the current status?",
+          "m": "Nói trạng thái ngắn (open/in progress/fixed). Nói bước tiếp theo.",
+          "h": "Dùng trạng từ trạng thái và 'Next I will ...'.",
+          "s": "The status is in progress. Next I will test the fix."
+        },
+        {
+          "p": "Do you need more info from the user?",
+          "m": "Nói có/không. Nói thông tin cụ thể nếu cần.",
+          "h": "Yes/No và 'We need ...' cho thông tin.",
+          "s": "Yes, we need the log file. We need the exact time too."
+        },
+        {
+          "p": "Can QA test the fix today?",
+          "m": "Nói có/không. Nói thời gian bạn test ngắn.",
+          "h": "Yes/No và 'I will test at ...' hoặc 'I cannot'.",
+          "s": "Yes, QA can test today. I will test at 2 pm."
+        },
+        {
+          "p": "Should we update the report?",
+          "m": "Nói có/không. Nói nội dung cần cập nhật ngắn.",
+          "h": "Yes/No và 'Update with ...' ngắn.",
+          "s": "Yes, update the report. Add the new log file."
+        }
+      ]
+    },
+    {
+      "t": "Ưu tiên và số người bị ảnh hưởng",
+      "e": [
+        {
+          "p": "What is the priority of this bug?",
+          "m": "Nói mức ưu tiên (low/medium/high). Nói lý do ngắn.",
+          "h": "Dùng 'It is + priority' và 'because + lý do'.",
+          "s": "It is high priority. Because many users cannot save."
+        },
+        {
+          "p": "How many users report this?",
+          "m": "Nói số người hoặc 'a few/many'. Nói nguồn báo cáo ngắn.",
+          "h": "Dùng 'There are + number' hoặc 'Many/A few'.",
+          "s": "There are five users reporting it. They report via email."
+        },
+        {
+          "p": "Is this a release blocker?",
+          "m": "Nói yes/no. Nói lý do ngắn.",
+          "h": "Yes/No và 'because + lý do'.",
+          "s": "Yes, it is a release blocker. Because core features fail."
+        },
+        {
+          "p": "Can we lower priority later?",
+          "m": "Nói nếu có thể (yes/no). Nói khi nào hạ được ngắn.",
+          "h": "Yes/No và 'when + điều kiện' ngắn.",
+          "s": "Yes, we can lower it later. When the fix is stable."
+        },
+        {
+          "p": "Who approves priority change?",
+          "m": "Nói ai quyết định (manager/lead). Nói bạn sẽ báo ai.",
+          "h": "Dùng 'The manager/lead' và 'I will tell ...'.",
+          "s": "The team lead approves changes. I will tell the lead."
+        }
+      ]
+    },
+    {
+      "t": "Kết luận: đóng hoặc mở lại lỗi",
+      "e": [
+        {
+          "p": "Is this bug fixed now?",
+          "m": "Nói có/không. Nói lý do ngắn (test/confirm).",
+          "h": "Yes/No và 'because/it still ...' ngắn.",
+          "s": "No, it is not fixed. The save still fails."
+        },
+        {
+          "p": "Should we close this ticket?",
+          "m": "Nói close/open. Nói lý do ngắn.",
+          "h": "Dùng 'Close/Open' và 'because + lý do'.",
+          "s": "Open the ticket. Because the issue is not solved."
+        },
+        {
+          "p": "Did the user confirm the fix?",
+          "m": "Nói có/không. Nói ai xác nhận hoặc thời gian xác nhận.",
+          "h": "Yes/No và 'They confirmed at ...' hoặc 'No, they did not'.",
+          "s": "No, the user did not confirm. They will check tomorrow."
+        },
+        {
+          "p": "Do we need regression tests?",
+          "m": "Nói có/không. Nói loại test ngắn nếu có.",
+          "h": "Yes/No và 'We need ... test' ngắn.",
+          "s": "Yes, we need regression tests. Run basic UI tests."
+        },
+        {
+          "p": "Any final notes before closing?",
+          "m": "Nói một ghi chú ngắn. Nói nếu cần follow up (yes/no).",
+          "h": "Viết 1‑2 câu ngắn, dùng 'And' hoặc 'Also'.",
+          "s": "Add the log file to the ticket. Also schedule a retest next week."
+        }
+      ]
+    },
+    {
+      "t": "Ôn tập: Từ báo lỗi đến mô tả",
+      "e": [
+        {
+          "p": "I found an issue in the app.",
+          "m": "Nói lỗi ngắn (1 câu). Nói nơi lỗi xảy ra (1 câu).",
+          "h": "Dùng 'The app is...' và 'It happens on...'.",
+          "s": "The app crashes. It happens on the home screen."
+        },
+        {
+          "p": "Can you give two steps to see the bug?",
+          "m": "Viết hai bước ngắn (mỗi bước 1 câu).",
+          "h": "Dùng 'I open...' và 'I click/tap...'.",
+          "s": "I open the app. I tap the search button."
+        },
+        {
+          "p": "Do you have proof (screenshot/log)?",
+          "m": "Nói có/không. Nói số hoặc nội dung ngắn.",
+          "h": "Yes/No và 'There are/It shows ...'.",
+          "s": "Yes, I have a log. It shows error 404."
+        },
+        {
+          "p": "What do you expect and what happens?",
+          "m": "Nói mong đợi (1 câu). Nói thực tế (1 câu).",
+          "h": "Dùng 'I expect...' và 'But/However...' cho thực tế.",
+          "s": "I expect the page to load. However, it shows a blank page."
+        },
+        {
+          "p": "How often does it occur?",
+          "m": "Nói tần suất. Nói nếu nhiều người bị ảnh hưởng.",
+          "h": "Dùng trạng từ tần suất và 'There are + số' nếu cần.",
+          "s": "It happens sometimes. There are a few users affected."
+        }
+      ]
+    },
+    {
+      "t": "Ôn tập: Xử lý và cập nhật",
+      "e": [
+        {
+          "p": "Is the bug assigned to someone?",
+          "m": "Nói có/không. Nói người hoặc vị trí xử lý nếu có.",
+          "h": "Yes/No và 'A developer/QA is ...'.",
+          "s": "Yes, it is assigned. A developer is working on it."
+        },
+        {
+          "p": "What is the next test step?",
+          "m": "Nói bước test tiếp theo (1 câu). Nói khi test (1 câu).",
+          "h": "Dùng 'We will test ...' và 'at/on + time'.",
+          "s": "We will test the fix. We will test it tomorrow morning."
+        },
+        {
+          "p": "Should we change priority?",
+          "m": "Nói có/không. Nói lý do ngắn nếu có.",
+          "h": "Yes/No và 'because + lý do'.",
+          "s": "No, do not change priority. The issue is under control."
+        },
+        {
+          "p": "Can the user retest now?",
+          "m": "Nói user có thể retest (yes/no). Nói bước họ làm nếu có.",
+          "h": "Yes/No và 'Please + V' cho hướng dẫn ngắn.",
+          "s": "Yes, the user can retest now. Please try to save a file."
+        },
+        {
+          "p": "Do we close the ticket after test?",
+          "m": "Nói close/open. Nói điều kiện để đóng ngắn.",
+          "h": "Dùng 'Close if ...' hoặc 'Keep open if ...'.",
+          "s": "Close the ticket if the test passes. Keep it open if it fails."
+        }
+      ]
+    },
+    {
+      "t": "Ôn tập: Giao tiếp với người báo lỗi",
+      "e": [
+        {
+          "p": "Can you give your name and device?",
+          "m": "Nói tên (dùng placeholder nếu cần). Nói thiết bị bạn dùng.",
+          "h": "Dùng '[studentName]' cho tên và 'I use ...' cho thiết bị.",
+          "s": "My name is [studentName]. I use an iPhone."
+        },
+        {
+          "p": "Please describe two quick steps to reproduce.",
+          "m": "Viết hai bước ngắn (mỗi bước 1 câu).",
+          "h": "Dùng 'I open...' và 'I press/click...' cho hai câu.",
+          "s": "I open the app. I press the profile save button."
+        },
+        {
+          "p": "Did you try a workaround?",
+          "m": "Nói có/không. Nói workaround ngắn nếu có.",
+          "h": "Yes/No và 'I do ...' cho workaround.",
+          "s": "Yes, I restart the app. That helps for a short time."
+        },
+        {
+          "p": "How soon do you need a fix?",
+          "m": "Nói thời gian mong muốn (today/tomorrow). Nói lý do ngắn.",
+          "h": "Dùng 'I need ...' và 'because + lý do'.",
+          "s": "I need a fix tomorrow. Because my report is due."
+        },
+        {
+          "p": "Any final message to the team?",
+          "m": "Viết một lời nhắn ngắn. Nói nếu bạn sẵn sàng hỗ trợ thêm (yes/no).",
+          "h": "Một câu nhắn và Yes/No cho hỗ trợ.",
+          "s": "Please check the save feature first. Yes, I can help more."
+        }
+      ]
+    }
+  ]
+}

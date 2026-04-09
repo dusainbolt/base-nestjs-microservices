@@ -1,0 +1,530 @@
+{
+  "l": 2,
+  "d": [
+    {
+      "t": "Gặp bệnh nhân mới",
+      "e": [
+        {
+          "p": "Hello, how are you?",
+          "m": "Nói bạn cảm thấy tốt hoặc không tốt.\nNói bạn ở đây để giúp họ.",
+          "h": "Use 'I am' + adjective. Use 'I am here to...'.",
+          "s": "I am fine. I am here to help you."
+        },
+        {
+          "p": "Are you nervous today?",
+          "m": "Nói bạn có lo hay không.\nNói bạn sẽ lắng nghe họ (ngắn gọn).",
+          "h": "Use 'I am' + feeling. Use 'I am listening' or 'I want to listen'.",
+          "s": "I am a little nervous. I am listening to you."
+        },
+        {
+          "p": "Do you want me to explain the visit?",
+          "m": "Nói bạn cần giải thích hay không.\nNói bạn muốn giải thích đơn giản hay chi tiết.",
+          "h": "Use 'I need' / 'I want' + to + verb.",
+          "s": "I need an explanation. I want a simple explanation."
+        },
+        {
+          "p": "Can I sit with you for a moment?",
+          "m": "Nói đồng ý hoặc không đồng ý.\nNói lý do ngắn gọn.",
+          "h": "Use 'Yes/No' + short reason. Use present simple.",
+          "s": "Yes, you can sit. You help me feel calm."
+        },
+        {
+          "p": "Would you like someone with you?",
+          "m": "Nói bạn muốn có ai đó bên cạnh hay không.\nNói ai (ngắn) hoặc nói không cần.",
+          "h": "Use 'I want' or 'I do not want'.",
+          "s": "I want my family here. They make me calm."
+        }
+      ]
+    },
+    {
+      "t": "Hỏi về triệu chứng",
+      "e": [
+        {
+          "p": "Where do you feel pain?",
+          "m": "Nói nơi bạn đau.\nNói mức đau bằng từ đơn giản (mild/strong).",
+          "h": "Use 'I feel' + place. Use 'It is' + adjective.",
+          "s": "I feel pain in my chest. It is strong."
+        },
+        {
+          "p": "When did the pain start?",
+          "m": "Nói khi nào cơn đau bắt đầu (ví dụ: today/yesterday).\nNói nếu đau vẫn tiếp tục hay không.",
+          "h": "Use 'It started' or 'It started yesterday/today'. Use 'It is still' + V-ing.",
+          "s": "It started yesterday. It is still hurting now."
+        },
+        {
+          "p": "Do you sleep well at night?",
+          "m": "Nói bạn ngủ tốt hay không.\nNói nếu vấn đề ngủ làm bạn lo.",
+          "h": "Use frequency words (usually/sometimes). Use 'I am worried' if needed.",
+          "s": "I sleep sometimes. I am worried about my sleep."
+        },
+        {
+          "p": "How much do you eat each day?",
+          "m": "Nói bạn ăn nhiều hay ít.\nNói nếu bạn đói thường xuyên hay không.",
+          "h": "Use 'I eat' + amount word (a little/a lot). Use 'I am' + feeling.",
+          "s": "I eat a little each day. I am often hungry."
+        },
+        {
+          "p": "Are you taking any medicine now?",
+          "m": "Nói bạn có đang dùng thuốc hay không.\nNói tên thuốc đơn giản hoặc 'no' nếu không dùng.",
+          "h": "Use 'I am taking' + medicine or 'No, I am not'.",
+          "s": "No, I am not taking medicine. I want help with medicine."
+        }
+      ]
+    },
+    {
+      "t": "Nói kết quả xét nghiệm",
+      "e": [
+        {
+          "p": "I have your test result.",
+          "m": "Nói bạn muốn nghe kết quả hay không.\nNói bạn cảm thấy thế nào khi nghe kết quả.",
+          "h": "Use 'I want' + to + V. Use 'I feel' + adjective.",
+          "s": "I want to hear it. I feel a little nervous."
+        },
+        {
+          "p": "The result is not good.",
+          "m": "Thể hiện cảm xúc ngắn (ví dụ: buồn, lo).\nHỏi một câu đơn về bước tiếp theo.",
+          "h": "Use 'I am' + feeling. Use 'What...' question.",
+          "s": "I am sad. What do we do now?"
+        },
+        {
+          "p": "I am sorry. The result shows a problem.",
+          "m": "Nói bạn hiểu và cảm ơn lời xin lỗi.\nNói bạn cần thông tin rõ hơn hay không.",
+          "h": "Use 'I understand' and 'I need' or 'I want'.",
+          "s": "I understand. I need more information."
+        },
+        {
+          "p": "We can do more tests if you want.",
+          "m": "Nói bạn muốn làm thêm test hay không.\nNói lý do đơn giản cho quyết định.",
+          "h": "Use 'I want' or 'I do not want' + reason.",
+          "s": "I want more tests. I want to know more."
+        },
+        {
+          "p": "I will support you in this.",
+          "m": "Nói bạn cần hỗ trợ gì (một việc đơn giản).\nNói cảm ơn hoặc nói bạn thấy an tâm.",
+          "h": "Use 'I need' + noun or 'Thank you'. Use 'I feel' + adjective.",
+          "s": "I need information about treatment. Thank you, I feel calmer."
+        }
+      ]
+    },
+    {
+      "t": "Thông báo tin xấu nhẹ",
+      "e": [
+        {
+          "p": "I am sorry to tell you the news.",
+          "m": "Nói cảm xúc ngắn (buồn/lo).\nNói bạn muốn nghe chi tiết hay không.",
+          "h": "Use 'I am' + feeling. Use 'I want to' + V.",
+          "s": "I am sad. I want to hear the details."
+        },
+        {
+          "p": "The wound is healing slowly.",
+          "m": "Thể hiện bạn hiểu tình trạng.\nHỏi có thể làm gì để giúp (một việc đơn giản).",
+          "h": "Use 'I understand'. Use 'What can I do' question.",
+          "s": "I understand. What can I do to help?"
+        },
+        {
+          "p": "You may need more time to recover.",
+          "m": "Nói bạn cần thời gian hay không.\nNói bạn có thể chờ/không thể chờ (ngắn).",
+          "h": "Use 'I need' or 'I can' / 'I cannot'.",
+          "s": "I need more time. I cannot rush my recovery."
+        },
+        {
+          "p": "I know this is hard news.",
+          "m": "Thể hiện đồng cảm ngắn (ví dụ: tôi hiểu).\nNói bạn muốn ai đó ở bên hay không.",
+          "h": "Use 'I understand' and 'I want' + person.",
+          "s": "I understand. I want my daughter here."
+        },
+        {
+          "p": "We will try to make you comfortable.",
+          "m": "Nói bạn cần gì để thoải mái (một việc đơn giản).\nNói cảm ơn hoặc đồng ý ngắn.",
+          "h": "Use 'I need' + thing. Use 'Thank you' or 'Okay'.",
+          "s": "I need a pillow. Thank you, that helps."
+        }
+      ]
+    },
+    {
+      "t": "An ủi khi bệnh nhân sợ",
+      "e": [
+        {
+          "p": "You look scared. Is it okay?",
+          "m": "Nói bạn có sợ hay không.\nNói bạn muốn ai đó bên cạnh hay không.",
+          "h": "Use 'I am' + feeling. Use 'I want' + person.",
+          "s": "I am scared. I want someone with me."
+        },
+        {
+          "p": "I am here with you.",
+          "m": "Nói bạn thấy điều đó có giúp không.\nNói bạn cảm ơn hay không.",
+          "h": "Use 'It helps' or 'It does not help'. Use 'Thank you'.",
+          "s": "It helps a lot. Thank you."
+        },
+        {
+          "p": "Take a deep breath with me.",
+          "m": "Nói bạn có thể làm theo hay không.\nNói bạn cảm thấy thế nào sau đó.",
+          "h": "Use 'I can' or 'I cannot'. Use 'I feel' + adjective.",
+          "s": "I can try. I feel a little better."
+        },
+        {
+          "p": "Would you like to stop the test?",
+          "m": "Nói bạn muốn dừng hay tiếp tục.\nNói lý do ngắn cho lựa chọn.",
+          "h": "Use 'I want to' + stop/continue. Give short reason.",
+          "s": "I want to continue. I want to finish now."
+        },
+        {
+          "p": "I will stay until you feel calm.",
+          "m": "Nói bạn cần họ ở lại hay không.\nNói bạn cảm ơn hoặc cảm thấy an tâm.",
+          "h": "Use 'I need' or 'Thank you'. Use 'I feel' + adjective.",
+          "s": "I need you to stay. Thank you, I feel safer."
+        }
+      ]
+    },
+    {
+      "t": "Xin phép làm thủ thuật",
+      "e": [
+        {
+          "p": "I need your permission for a small test.",
+          "m": "Nói bạn đồng ý hay không.\nNói lý do ngắn nếu không đồng ý.",
+          "h": "Use 'I agree' or 'I do not agree' + reason.",
+          "s": "I agree. I want to know more first."
+        },
+        {
+          "p": "This may hurt a little.",
+          "m": "Nói bạn có sợ đau hay không.\nNói bạn muốn tiếp tục hay dừng lại.",
+          "h": "Use 'I am' + feeling and 'I want' + action.",
+          "s": "I am a bit afraid. I want to continue."
+        },
+        {
+          "p": "We need your signature here.",
+          "m": "Nói bạn có ký hay không.\nNói bạn có hiểu giấy tờ hay không.",
+          "h": "Use 'I will sign' or 'I will not sign'. Use 'I understand' or 'I do not understand'.",
+          "s": "I will sign. I understand the form."
+        },
+        {
+          "p": "Do you want a family member here?",
+          "m": "Nói bạn muốn người thân hay không.\nNói tên người thân ngắn hoặc 'no'.",
+          "h": "Use 'I want' + person or 'No'.",
+          "s": "I want my son here. He is at home."
+        },
+        {
+          "p": "Thank you for your permission.",
+          "m": "Nói cảm ơn hoặc lo lắng ngắn.\nNói bạn cần hỏi gì trước khi bắt đầu.",
+          "h": "Use 'Thank you' and 'I need to ask' question.",
+          "s": "Thank you. I need to ask about pain level."
+        }
+      ]
+    },
+    {
+      "t": "Nói về lựa chọn điều trị",
+      "e": [
+        {
+          "p": "There are two simple options for care.",
+          "m": "Nói bạn muốn chọn option 1 hoặc 2.\nNói lý do ngắn cho lựa chọn.",
+          "h": "Use 'I choose' + option and short reason.",
+          "s": "I choose option one. It is easier for me."
+        },
+        {
+          "p": "Option one is medicine, option two is rest.",
+          "m": "Nói bạn thích thuốc hay nghỉ ngơi.\nNói bạn sợ thuốc hay không.",
+          "h": "Use 'I like' or 'I do not like' + noun. Use 'I am afraid of'.",
+          "s": "I like rest. I am not afraid of medicine."
+        },
+        {
+          "p": "You can change your choice later.",
+          "m": "Nói bạn có muốn thay đổi sau hay không.\nNói bạn cần thời gian để nghĩ hay không.",
+          "h": "Use 'I can' or 'I cannot' and 'I need time'.",
+          "s": "I can change later. I need one day to think."
+        },
+        {
+          "p": "What is more important to you, quick recovery or less medicine?",
+          "m": "Nói ưu tiên của bạn (một lựa chọn).\nGiải thích ngắn (một câu).",
+          "h": "Use 'I prefer' + noun and short reason.",
+          "s": "I prefer less medicine. I want fewer side effects."
+        },
+        {
+          "p": "We respect your decision.",
+          "m": "Nói bạn cảm ơn hay cần hỗ trợ thêm.\nNói bạn có đồng ý với quyết định hiện tại hay muốn thay đổi.",
+          "h": "Use 'Thank you' or 'I need' and 'I agree' / 'I want to change'.",
+          "s": "Thank you. I agree with this decision."
+        }
+      ]
+    },
+    {
+      "t": "Thảo luận chi phí và hỗ trợ",
+      "e": [
+        {
+          "p": "The treatment may cost some money.",
+          "m": "Nói bạn có lo về chi phí hay không.\nNói nếu bạn cần hỗ trợ tài chính hay không.",
+          "h": "Use 'I am' + feeling and 'I need' + support.",
+          "s": "I am worried about cost. I need financial help."
+        },
+        {
+          "p": "We can give you simple options to save money.",
+          "m": "Nói bạn muốn nghe các option đơn giản hay không.\nNói bạn muốn chọn option tiết kiệm hay không.",
+          "h": "Use 'I want' + to hear/choose. Use 'I choose' + option.",
+          "s": "I want to hear the options. I choose the cheaper one."
+        },
+        {
+          "p": "Some help is available from the hospital.",
+          "m": "Hỏi bạn có muốn biết cách xin hỗ trợ hay không.\nNói bạn muốn nhân viên hướng dẫn hay tự làm.",
+          "h": "Use 'Yes, I want' or 'No, I do not want'. Use 'I want someone to...' or 'I want to do it myself.'",
+          "s": "Yes, I want help. I want staff to guide me."
+        },
+        {
+          "p": "You can pay a little each month.",
+          "m": "Nói bạn có thể trả dần hay không.\nNói nếu bạn cần thời gian để quyết định.",
+          "h": "Use 'I can' / 'I cannot' and 'I need time'.",
+          "s": "I can pay a little each month. I need one week to decide."
+        },
+        {
+          "p": "We will try to find the best help for you.",
+          "m": "Nói bạn cảm ơn hay muốn cụ thể hơn.\nNói một yêu cầu ngắn nếu cần.",
+          "h": "Use 'Thank you' and 'I want' + request.",
+          "s": "Thank you. I want a written plan, please."
+        }
+      ]
+    },
+    {
+      "t": "Xử lý khi bệnh nhân tức giận",
+      "e": [
+        {
+          "p": "You look upset. Can you tell me why?",
+          "m": "Nói nguyên nhân ngắn bạn tức giận.\nNói bạn muốn ai đó giúp hay không.",
+          "h": "Use 'I am' + feeling and 'I want' + help.",
+          "s": "I am angry because of the wait. I want someone to help me now."
+        },
+        {
+          "p": "I am sorry you waited a long time.",
+          "m": "Nói bạn nhận lời xin lỗi hay không.\nNói bạn muốn cải thiện gì ngắn.",
+          "h": "Use 'I accept' or 'I do not accept' and 'I want' + change.",
+          "s": "I accept your apology. I want faster service."
+        },
+        {
+          "p": "What can we do to make this better?",
+          "m": "Đưa ra một đề nghị ngắn (một việc).\nNói bạn cảm ơn hay không.",
+          "h": "Use 'We can' or 'You can' + verb. Use 'Thank you'.",
+          "s": "You can call me when ready. Thank you."
+        },
+        {
+          "p": "I need you to speak calmly, please.",
+          "m": "Nói bạn có thể nói nhỏ/nói bình tĩnh hay không.\nNói bạn muốn người đó nghe bạn hay muốn rời đi.",
+          "h": "Use 'I can' / 'I cannot' and 'I want' + action.",
+          "s": "I can speak calmly. I want you to listen to me."
+        },
+        {
+          "p": "We want a good solution together.",
+          "m": "Nói bạn đồng ý tìm giải pháp hay không.\nNói một điều bạn muốn trong giải pháp (ngắn).",
+          "h": "Use 'I agree' and 'I want' + noun.",
+          "s": "I agree. I want faster care next time."
+        }
+      ]
+    },
+    {
+      "t": "Nói về quyền riêng tư",
+      "e": [
+        {
+          "p": "Do you want us to keep this private?",
+          "m": "Nói bạn muốn giữ riêng tư hay không.\nNói bạn muốn chia sẻ với ai (ngắn) hoặc 'no'.",
+          "h": "Use 'Yes/No' and 'I want' + person.",
+          "s": "Yes, I want privacy. I share with my wife only."
+        },
+        {
+          "p": "We only share information with permission.",
+          "m": "Nói bạn có cho phép chia sẻ hay không.\nNói bạn muốn ký giấy phép hay không.",
+          "h": "Use 'I allow' or 'I do not allow'. Use 'I will sign' or 'No'.",
+          "s": "I do not allow sharing. I will not sign now."
+        },
+        {
+          "p": "Who do you want to call in an emergency?",
+          "m": "Nói tên người liên hệ ngắn hoặc 'no one'.\nNói mối quan hệ (mẹ, chồng) ngắn.",
+          "h": "Use 'Call' + person name or relationship.",
+          "s": "Call my son. He is my son."
+        },
+        {
+          "p": "We keep your file safe here.",
+          "m": "Nói bạn có tin tưởng hay không.\nNói bạn có muốn xem file hay không.",
+          "h": "Use 'I trust' or 'I do not trust' and 'I want to see' or 'No'.",
+          "s": "I trust you. I want to see my file, please."
+        },
+        {
+          "p": "You can change privacy settings anytime.",
+          "m": "Nói bạn có muốn thay đổi bây giờ hay không.\nNói bạn cần giúp với việc thay đổi hay không.",
+          "h": "Use 'I want to' + change or 'Not now'. Use 'I need help' / 'No help'.",
+          "s": "Not now. I do not need help now."
+        }
+      ]
+    },
+    {
+      "t": "Giải thích quy trình đơn giản",
+      "e": [
+        {
+          "p": "First we check your temperature.",
+          "m": "Nói bạn có hiểu bước này hay không.\nNói bạn có sợ hay không.",
+          "h": "Use 'I understand' or 'I do not understand' and 'I am' + feeling.",
+          "s": "I understand. I am not afraid."
+        },
+        {
+          "p": "Next we take a small sample.",
+          "m": "Nói bạn có đồng ý hay không.\nNói nếu bạn muốn nghe thêm chi tiết.",
+          "h": "Use 'I agree' / 'I do not agree' and 'I want to hear...'.",
+          "s": "I agree. I want a little more detail."
+        },
+        {
+          "p": "The sample takes only a minute.",
+          "m": "Nói bạn có thể chờ một phút hay không.\nNói bạn cần ai nói chuyện trong lúc chờ hay không.",
+          "h": "Use 'I can' / 'I cannot' and 'I want' + person.",
+          "s": "I can wait one minute. I want my friend to talk to me."
+        },
+        {
+          "p": "After that we give you the result report.",
+          "m": "Hỏi bạn muốn báo kết quả bằng miệng hay giấy.\nNói bạn muốn ai ở đó khi nghe kết quả hay không.",
+          "h": "Use 'I want' + 'by mouth'/'on paper' and 'I want' + person.",
+          "s": "I want the result on paper. I want my mother there."
+        },
+        {
+          "p": "Do you have any question about the process?",
+          "m": "Đặt một câu hỏi ngắn về lo lắng của bạn.\nNói bạn cần ai giải thích lại hay không.",
+          "h": "Use 'I am' + worry and 'I need' + help.",
+          "s": "I am worried about pain. I need you to explain again."
+        }
+      ]
+    },
+    {
+      "t": "Hướng dẫn chăm sóc sau khám",
+      "e": [
+        {
+          "p": "You should rest for two days.",
+          "m": "Nói bạn có thể nghỉ hay không.\nNói bạn cần giúp việc nhà hay không.",
+          "h": "Use 'I can' / 'I cannot' and 'I need help'.",
+          "s": "I can rest for two days. I need help at home."
+        },
+        {
+          "p": "Take this medicine twice a day.",
+          "m": "Nói bạn có nhớ uống hay không.\nNói ai sẽ nhắc bạn nếu cần.",
+          "h": "Use 'I will' is not allowed; use 'I remember'/'I do not remember' and 'My...' + person.",
+          "s": "I will try to remember. My wife will remind me."
+        },
+        {
+          "p": "Keep the wound clean and dry.",
+          "m": "Nói bạn có hiểu cách giữ sạch hay không.\nNói bạn có vật dụng để làm sạch hay không.",
+          "h": "Use 'I understand' and 'I have'/'I do not have'.",
+          "s": "I understand. I have clean water at home."
+        },
+        {
+          "p": "Come back in one week for a check.",
+          "m": "Nói bạn có thể đến lại hay không.\nNói nếu bạn cần thay đổi ngày hay không.",
+          "h": "Use 'I can' / 'I cannot' and 'I need to change' + time.",
+          "s": "I can come back in one week. I do not need to change the day."
+        },
+        {
+          "p": "Call us if you have fever or more pain.",
+          "m": "Nói bạn sẽ gọi hay không.\nNói ai sẽ gọi giúp bạn nếu cần.",
+          "h": "Use 'I will' avoided; use 'I will' is not allowed so use 'I will' replacement: 'I can call' or 'My...' will call. Use 'My...' placeholder only if personal—avoid placeholders unless required.",
+          "s": "I can call if I have fever. My son can call for me."
+        }
+      ]
+    },
+    {
+      "t": "Ôn tập: Báo tin và an ủi",
+      "e": [
+        {
+          "p": "I have some difficult news for you.",
+          "m": "Nói cảm xúc ngắn (ví dụ: buồn/lo).\nNói bạn muốn ai an ủi hay không.",
+          "h": "Use 'I am' + feeling and 'I want' + person.",
+          "s": "I am sad. I want my friend to comfort me."
+        },
+        {
+          "p": "I am sorry. The pain may last a little longer.",
+          "m": "Nói bạn hiểu lời xin lỗi hay không.\nNói bạn cần thông tin thêm hay không.",
+          "h": "Use 'I understand' and 'I need' or 'I do not need'.",
+          "s": "I understand. I need more information, please."
+        },
+        {
+          "p": "We will support you and give pain relief.",
+          "m": "Nói bạn có muốn thuốc giảm đau hay không.\nNói bạn lo lắng về tác dụng phụ hay không.",
+          "h": "Use 'I want' / 'I do not want' and 'I am worried' + about.",
+          "s": "I want pain medicine. I am a little worried about side effects."
+        },
+        {
+          "p": "Would you like someone to stay with you now?",
+          "m": "Nói bạn có muốn người ở lại hay không.\nNói ai (mối quan hệ) bạn muốn ở bên.",
+          "h": "Use 'Yes/No' and 'I want' + person.",
+          "s": "Yes, I want my husband here. He is my husband."
+        },
+        {
+          "p": "You can ask questions anytime.",
+          "m": "Đặt một câu hỏi bạn muốn hỏi ngay.\nNói bạn cần ai trả lời nếu bạn quên.",
+          "h": "Use a simple question and 'My...' + person to help.",
+          "s": "What is the next step? My daughter will remind me."
+        }
+      ]
+    },
+    {
+      "t": "Ôn tập: Hỏi và xin phép",
+      "e": [
+        {
+          "p": "May I check your blood pressure?",
+          "m": "Nói bạn đồng ý hay không.\nNói bạn cảm ơn hoặc hỏi điều gì ngắn.",
+          "h": "Use 'I agree' or 'I do not agree' and 'Thank you' or short question.",
+          "s": "I agree. Thank you for asking."
+        },
+        {
+          "p": "I need your permission to share results with family.",
+          "m": "Nói bạn cho phép hay không.\nNói ai bạn muốn chia sẻ nếu đồng ý.",
+          "h": "Use 'I allow' / 'I do not allow' and 'I want to share with' + person.",
+          "s": "I do not allow sharing. I only want to share with my wife."
+        },
+        {
+          "p": "Can we take a photo of the wound for the file?",
+          "m": "Nói bạn đồng ý hay không.\nNói bạn muốn ảnh giấy phép hay không (ngắn).",
+          "h": "Use 'I agree' / 'I do not agree' and 'I want' + simple phrase.",
+          "s": "I agree. I want a note that you take it."
+        },
+        {
+          "p": "Please sign here if you agree.",
+          "m": "Nói bạn có ký hay cần thời gian.\nNói bạn có hiểu nội dung giấy hay không.",
+          "h": "Use 'I will sign' avoided; use 'I can sign' or 'I need time' and 'I understand'/'I do not understand'.",
+          "s": "I can sign now. I understand the paper."
+        },
+        {
+          "p": "Thank you for your trust.",
+          "m": "Nói bạn cảm ơn hay bạn mong gì ngắn.\nNói bạn có yên tâm hay cần giúp thêm.",
+          "h": "Use 'Thank you' and 'I feel' + adjective or 'I need' + help.",
+          "s": "Thank you. I feel better and I need one more call."
+        }
+      ]
+    },
+    {
+      "t": "Ôn tập: Giải thích và hỗ trợ",
+      "e": [
+        {
+          "p": "We explain the plan step by step.",
+          "m": "Nói bạn muốn nghe bước đầu hay toàn bộ kế hoạch.\nNói bạn có cần ai dịch/giải thích lại hay không.",
+          "h": "Use 'I want' + to hear and 'I need' + person to help.",
+          "s": "I want to hear the first step. I need my son to explain too."
+        },
+        {
+          "p": "You may feel tired after treatment.",
+          "m": "Nói bạn có biết điều đó hay không.\nNói bạn cần nghỉ ngơi thêm hay không.",
+          "h": "Use 'I know' / 'I do not know' and 'I need' or 'I do not need'.",
+          "s": "I know. I need extra rest."
+        },
+        {
+          "p": "If you have questions, call this number.",
+          "m": "Nói bạn có thể gọi hay không.\nNói ai sẽ gọi giúp bạn nếu bạn quên số.",
+          "h": "Use 'I can' / 'I cannot' and 'My...' + person will call.",
+          "s": "I can call if needed. My friend will call for me."
+        },
+        {
+          "p": "We respect your wishes and comfort.",
+          "m": "Nói bạn có cảm thấy được tôn trọng hay không.\nNói bạn muốn gì thêm để cảm thấy an tâm.",
+          "h": "Use 'I feel' + adjective and 'I want' + noun.",
+          "s": "I feel respected. I want simple written notes, please."
+        },
+        {
+          "p": "Thank you for talking with me today.",
+          "m": "Nói bạn cảm ơn hay nói bạn vẫn lo lắng.\nNói bạn sẽ làm gì tiếp theo (một hành động ngắn).",
+          "h": "Use 'Thank you' and 'I will' avoided; use 'I will' replacement: 'I will' may appear but avoid — use 'I want to' + action or 'I plan to' (but future limited). Better use present simple 'I plan' or 'I want to'.",
+          "s": "Thank you. I want to rest and then call if needed."
+        }
+      ]
+    }
+  ]
+}

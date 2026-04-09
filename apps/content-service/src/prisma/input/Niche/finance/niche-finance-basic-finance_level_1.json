@@ -1,0 +1,530 @@
+{
+  "l": 1,
+  "d": [
+    {
+      "t": "Tiền trong ví",
+      "e": [
+        {
+          "p": "How much money do you have?",
+          "m": "Nói số tiền bạn có (dollars).",
+          "h": "I have + số + dollars.",
+          "s": "I have five dollars."
+        },
+        {
+          "p": "Is there a card in your wallet?",
+          "m": "Nói có hay không có thẻ bằng 'There is...' hoặc 'There is no...'.",
+          "h": "There is / There is no + card.",
+          "s": "There is no card."
+        },
+        {
+          "p": "Where is your money?",
+          "m": "Nói nơi bạn để tiền (ví, pocket).",
+          "h": "My money is in my wallet / in my pocket.",
+          "s": "My money is in my wallet."
+        },
+        {
+          "p": "Can you pay two dollars?",
+          "m": "Trả lời có thể trả hai đô la bằng 'Yes, I can.' hoặc 'No, I can't.'",
+          "h": "Yes, I can / No, I can't.",
+          "s": "Yes, I can."
+        },
+        {
+          "p": "How many bills do you have?",
+          "m": "Nói số tờ tiền bạn có.",
+          "h": "I have + số + bills.",
+          "s": "I have three bills."
+        }
+      ]
+    },
+    {
+      "t": "Mua đồ ở cửa hàng",
+      "e": [
+        {
+          "p": "Do you want this apple?",
+          "m": "Nói 'Yes, I want it.' hoặc 'No, I don't.'",
+          "h": "Yes, I want it / No, I don't.",
+          "s": "Yes, I want it."
+        },
+        {
+          "p": "How much is the apple?",
+          "m": "Nói giá của quả táo (dollars).",
+          "h": "The apple is + số + dollars.",
+          "s": "The apple is two dollars."
+        },
+        {
+          "p": "Can you buy two apples?",
+          "m": "Trả lời có thể mua hai quả hay không bằng 'Yes, I can.' hoặc 'No, I can't.'",
+          "h": "Yes, I can buy two apples / No, I can't.",
+          "s": "Yes, I can buy two apples."
+        },
+        {
+          "p": "Where do you pay in the shop?",
+          "m": "Nói chỗ trả tiền trong cửa hàng (counter).",
+          "h": "I pay at the counter / at the cashier.",
+          "s": "I pay at the counter."
+        },
+        {
+          "p": "Do you have enough money for the apple and water?",
+          "m": "Trả lời 'Yes, I have.' hoặc 'No, I don't.'",
+          "h": "Yes, I have / No, I don't.",
+          "s": "No, I don't."
+        }
+      ]
+    },
+    {
+      "t": "Hỏi giá món hàng",
+      "e": [
+        {
+          "p": "How much is the book?",
+          "m": "Nói giá cuốn sách (dollars).",
+          "h": "The book is + số + dollars.",
+          "s": "The book is ten dollars."
+        },
+        {
+          "p": "Is the shirt five dollars?",
+          "m": "Trả lời 'Yes, it is.' hoặc 'No, it isn't.'",
+          "h": "Yes, it is / No, it isn't.",
+          "s": "No, it isn't."
+        },
+        {
+          "p": "What is the price of one pen?",
+          "m": "Nói giá một cây bút.",
+          "h": "One pen is + số + dollars.",
+          "s": "One pen is one dollar."
+        },
+        {
+          "p": "There are two toys. How much for both?",
+          "m": "Nói tổng giá của hai món đồ (dollars).",
+          "h": "They are + số + dollars.",
+          "s": "They are three dollars."
+        },
+        {
+          "p": "Do you think this chair is cheap?",
+          "m": "Nói ý kiến ngắn: 'Yes, it is cheap.' hoặc 'No, it is not cheap.'",
+          "h": "Yes, it is cheap / No, it is not cheap.",
+          "s": "No, it is not cheap."
+        }
+      ]
+    },
+    {
+      "t": "Thanh toán: tiền mặt hay thẻ",
+      "e": [
+        {
+          "p": "Do you use cash?",
+          "m": "Trả lời 'Yes, I do.' hoặc 'No, I don't.'",
+          "h": "Yes, I do / No, I don't.",
+          "s": "Yes, I do."
+        },
+        {
+          "p": "Is your card in your wallet?",
+          "m": "Trả lời 'Yes, it is.' hoặc 'No, it isn't.'",
+          "h": "Yes, it is / No, it isn't.",
+          "s": "No, it isn't."
+        },
+        {
+          "p": "Can you pay with a card?",
+          "m": "Trả lời có thể trả bằng thẻ hay không.",
+          "h": "Yes, I can / No, I can't.",
+          "s": "Yes, I can."
+        },
+        {
+          "p": "There is a fee. Do you have cash?",
+          "m": "Trả lời bạn có tiền mặt hay không bằng 'Yes, I have cash.' hoặc 'No, I don't.'",
+          "h": "Yes, I have cash / No, I don't.",
+          "s": "No, I don't."
+        },
+        {
+          "p": "Where do you keep your cards?",
+          "m": "Nói nơi bạn để thẻ (wallet, pocket).",
+          "h": "I keep my cards in my wallet / in my pocket.",
+          "s": "I keep my cards in my wallet."
+        }
+      ]
+    },
+    {
+      "t": "Ở quầy ngân hàng",
+      "e": [
+        {
+          "p": "Do you want to open an account?",
+          "m": "Trả lời 'Yes, I want to open an account.' hoặc 'No, I don't.'",
+          "h": "Yes, I want to open an account / No, I don't.",
+          "s": "Yes, I want to open an account."
+        },
+        {
+          "p": "How much is the minimum deposit?",
+          "m": "Nói số tiền gửi tối thiểu (dollars).",
+          "h": "The minimum deposit is + số + dollars.",
+          "s": "The minimum deposit is twenty dollars."
+        },
+        {
+          "p": "Where is the bank card?",
+          "m": "Nói vị trí thẻ ngân hàng (wallet, on the desk).",
+          "h": "The bank card is in my wallet / on the desk.",
+          "s": "The bank card is in my wallet."
+        },
+        {
+          "p": "Can you show your ID?",
+          "m": "Trả lời có thể đưa giấy tờ hay không bằng 'Yes, I can.' hoặc 'No, I can't.'",
+          "h": "Yes, I can / No, I can't.",
+          "s": "Yes, I can."
+        },
+        {
+          "p": "There are three forms. Do you fill them?",
+          "m": "Trả lời bạn có điền ba mẫu hay không bằng 'Yes, I do.' hoặc 'No, I don't.'",
+          "h": "Yes, I do / No, I don't.",
+          "s": "Yes, I do."
+        }
+      ]
+    },
+    {
+      "t": "Tiền tiêu vặt hàng ngày",
+      "e": [
+        {
+          "p": "Do you get pocket money?",
+          "m": "Trả lời 'Yes, I do.' hoặc 'No, I don't.'",
+          "h": "Yes, I do / No, I don't.",
+          "s": "Yes, I do."
+        },
+        {
+          "p": "How much pocket money do you get?",
+          "m": "Nói số tiền tiêu vặt bạn nhận (dollars).",
+          "h": "I get + số + dollars.",
+          "s": "I get ten dollars."
+        },
+        {
+          "p": "What do you buy with your money?",
+          "m": "Nói một món bạn mua (food, toy, book).",
+          "h": "I buy + danh từ.",
+          "s": "I buy a snack."
+        },
+        {
+          "p": "Can you save some money?",
+          "m": "Trả lời bạn có thể để dành tiền hay không bằng 'Yes, I can.' hoặc 'No, I can't.'",
+          "h": "Yes, I can / No, I can't.",
+          "s": "Yes, I can."
+        },
+        {
+          "p": "There is a sale. Do you want to buy more?",
+          "m": "Trả lời 'Yes, I want to buy.' hoặc 'No, I don't want to buy.'",
+          "h": "Yes, I want to buy / No, I don't want to buy.",
+          "s": "No, I don't want to buy more."
+        }
+      ]
+    },
+    {
+      "t": "Đếm tiền: xu và tiền giấy",
+      "e": [
+        {
+          "p": "Do you have coins?",
+          "m": "Trả lời có hay không có xu bằng 'Yes, I have.' hoặc 'No, I don't.'",
+          "h": "Yes, I have / No, I don't.",
+          "s": "Yes, I have."
+        },
+        {
+          "p": "How many coins do you have?",
+          "m": "Nói số xu bạn có.",
+          "h": "I have + số + coins.",
+          "s": "I have four coins."
+        },
+        {
+          "p": "You have two dollars and three one-dollar coins. How much money?",
+          "m": "Nói tổng số tiền (dollars).",
+          "h": "It is + số + dollars.",
+          "s": "It is five dollars."
+        },
+        {
+          "p": "Do you have a five dollar bill?",
+          "m": "Trả lời có hay không bằng 'Yes, I have.' hoặc 'No, I don't.'",
+          "h": "Yes, I have / No, I don't.",
+          "s": "No, I don't."
+        },
+        {
+          "p": "Is five dollars enough for a toy?",
+          "m": "Trả lời 'Yes, it is.' hoặc 'No, it is not.'",
+          "h": "Yes, it is / No, it is not.",
+          "s": "No, it is not."
+        }
+      ]
+    },
+    {
+      "t": "Lưu tiền trong hòm",
+      "e": [
+        {
+          "p": "Do you have a money box?",
+          "m": "Trả lời có hay không bằng 'Yes, I have.' hoặc 'No, I don't.'",
+          "h": "Yes, I have / No, I don't.",
+          "s": "Yes, I have."
+        },
+        {
+          "p": "How much money is in your box?",
+          "m": "Nói tổng tiền trong hòm (dollars).",
+          "h": "There are + số + dollars.",
+          "s": "There are ten dollars."
+        },
+        {
+          "p": "Can you open the box now?",
+          "m": "Trả lời có thể mở hòm hay không bằng 'Yes, I can.' hoặc 'No, I can't.'",
+          "h": "Yes, I can / No, I can't.",
+          "s": "No, I can't."
+        },
+        {
+          "p": "What do you save money for?",
+          "m": "Nói mục tiêu tiết kiệm (toy, book).",
+          "h": "I save for + danh từ.",
+          "s": "I save for a toy."
+        },
+        {
+          "p": "There is a poster: Save money every day. Do you save every day?",
+          "m": "Trả lời bạn có tiết kiệm hàng ngày hay không bằng 'Yes, I save every day.' hoặc 'No, I don't.'",
+          "h": "Yes, I save every day / No, I don't.",
+          "s": "Yes, I save every day."
+        }
+      ]
+    },
+    {
+      "t": "Không đủ tiền để mua",
+      "e": [
+        {
+          "p": "Can you buy the toy? It costs ten dollars.",
+          "m": "Trả lời nếu bạn không đủ tiền bằng 'No, I can't.'",
+          "h": "No, I can't + buy it.",
+          "s": "No, I can't."
+        },
+        {
+          "p": "How much money do you need?",
+          "m": "Nói số tiền bạn cần thêm (dollars).",
+          "h": "I need + số + dollars.",
+          "s": "I need five dollars."
+        },
+        {
+          "p": "Do you save money for a toy?",
+          "m": "Trả lời có hay không bằng 'Yes, I save.' hoặc 'No, I don't.'",
+          "h": "Yes, I save / No, I don't.",
+          "s": "Yes, I save money."
+        },
+        {
+          "p": "Where can you get more money?",
+          "m": "Nói một nguồn tiền (parents, work).",
+          "h": "I ask my parents / I work.",
+          "s": "I ask my parents."
+        },
+        {
+          "p": "Can you borrow money?",
+          "m": "Trả lời 'Yes, I can.' hoặc 'No, I can't.'",
+          "h": "Yes, I can / No, I can't.",
+          "s": "No, I can't."
+        }
+      ]
+    },
+    {
+      "t": "Lương và công việc",
+      "e": [
+        {
+          "p": "Do you work?",
+          "m": "Trả lời 'Yes, I work.' hoặc 'No, I don't.'",
+          "h": "Yes, I work / No, I don't.",
+          "s": "No, I don't."
+        },
+        {
+          "p": "What is your job?",
+          "m": "Nói nghề nghiệp ngắn (ví dụ: student).",
+          "h": "I am a + job.",
+          "s": "I am a student."
+        },
+        {
+          "p": "How much do you earn a week?",
+          "m": "Nói số tiền bạn kiếm trong một tuần (dollars).",
+          "h": "I earn + số + dollars.",
+          "s": "I earn twenty dollars."
+        },
+        {
+          "p": "Can you work every day?",
+          "m": "Trả lời có thể làm việc hàng ngày hay không bằng 'Yes, I can.' hoặc 'No, I can't.'",
+          "h": "Yes, I can / No, I can't.",
+          "s": "No, I can't."
+        },
+        {
+          "p": "There is a job for a small task. Do you want to do it for five dollars?",
+          "m": "Trả lời bạn có muốn làm việc nhỏ đó hay không bằng 'Yes, I want.' hoặc 'No, I don't.'",
+          "h": "Yes, I want to do it / No, I don't want to.",
+          "s": "Yes, I want to do it."
+        }
+      ]
+    },
+    {
+      "t": "Mượn tiền",
+      "e": [
+        {
+          "p": "Can you lend me two dollars?",
+          "m": "Trả lời 'Yes, I can.' hoặc 'No, I can't.'",
+          "h": "Yes, I can / No, I can't.",
+          "s": "No, I can't."
+        },
+        {
+          "p": "How much do you borrow?",
+          "m": "Nói số tiền bạn mượn (dollars).",
+          "h": "I borrow + số + dollars.",
+          "s": "I borrow two dollars."
+        },
+        {
+          "p": "Do you pay back the money?",
+          "m": "Trả lời có trả nợ hay không bằng 'Yes, I pay back.' hoặc 'No, I don't.'",
+          "h": "Yes, I pay back / No, I don't.",
+          "s": "Yes, I pay back the money."
+        },
+        {
+          "p": "Where do you keep borrowed money?",
+          "m": "Nói nơi bạn giữ tiền mượn (wallet, pocket).",
+          "h": "I keep it in my wallet / in my pocket.",
+          "s": "I keep it in my wallet."
+        },
+        {
+          "p": "There is a small debt. Can you pay today?",
+          "m": "Trả lời 'Yes, I can.' hoặc 'No, I can't.'",
+          "h": "Yes, I can / No, I can't.",
+          "s": "Yes, I can."
+        }
+      ]
+    },
+    {
+      "t": "Tiết kiệm cho món đồ",
+      "e": [
+        {
+          "p": "Do you save money for a toy?",
+          "m": "Trả lời có hay không bằng 'Yes, I save.' hoặc 'No, I don't.'",
+          "h": "Yes, I save / No, I don't.",
+          "s": "Yes, I save money."
+        },
+        {
+          "p": "How much is the toy?",
+          "m": "Nói giá món đồ bạn tiết kiệm (dollars).",
+          "h": "The toy is + số + dollars.",
+          "s": "The toy is fifteen dollars."
+        },
+        {
+          "p": "Can you save two dollars every week?",
+          "m": "Trả lời có thể tiết kiệm hai đô la mỗi tuần hay không.",
+          "h": "Yes, I can / No, I can't.",
+          "s": "Yes, I can."
+        },
+        {
+          "p": "How many more dollars do you need?",
+          "m": "Nói số tiền bạn cần thêm (dollars).",
+          "h": "I need + số + dollars.",
+          "s": "I need five dollars."
+        },
+        {
+          "p": "Do you want help to save?",
+          "m": "Trả lời 'Yes, I want help.' hoặc 'No, I don't.'",
+          "h": "Yes, I want help / No, I don't.",
+          "s": "Yes, I want help."
+        }
+      ]
+    },
+    {
+      "t": "Ôn tập: Mua hàng và trả tiền",
+      "e": [
+        {
+          "p": "How much is the water?",
+          "m": "Nói giá chai nước (dollars).",
+          "h": "The water is + số + dollars.",
+          "s": "The water is one dollar."
+        },
+        {
+          "p": "Do you have enough money for the book?",
+          "m": "Trả lời có hay không bằng 'Yes, I have.' hoặc 'No, I don't.'",
+          "h": "Yes, I have / No, I don't.",
+          "s": "No, I don't."
+        },
+        {
+          "p": "Can you pay with cash?",
+          "m": "Trả lời có thể trả bằng tiền mặt hay không.",
+          "h": "Yes, I can / No, I can't.",
+          "s": "Yes, I can."
+        },
+        {
+          "p": "Where do you pay in the shop?",
+          "m": "Nói nơi bạn trả tiền.",
+          "h": "I pay at the counter / at the cashier.",
+          "s": "I pay at the counter."
+        },
+        {
+          "p": "There is a sale. Do you want to buy the book for five dollars?",
+          "m": "Trả lời 'Yes, I want to buy.' hoặc 'No, I don't.'",
+          "h": "Yes, I want to buy it / No, I don't.",
+          "s": "Yes, I want to buy it."
+        }
+      ]
+    },
+    {
+      "t": "Ôn tập: Ở ngân hàng và tiết kiệm",
+      "e": [
+        {
+          "p": "Do you have a bank account?",
+          "m": "Trả lời có hay không bằng 'Yes, I have.' hoặc 'No, I don't.'",
+          "h": "Yes, I have / No, I don't.",
+          "s": "No, I don't."
+        },
+        {
+          "p": "How much is in your account?",
+          "m": "Nói số tiền trong tài khoản (dollars).",
+          "h": "There are + số + dollars.",
+          "s": "There are twenty dollars."
+        },
+        {
+          "p": "Can you open an account today?",
+          "m": "Trả lời có thể mở tài khoản hôm nay hay không.",
+          "h": "Yes, I can / No, I can't.",
+          "s": "No, I can't."
+        },
+        {
+          "p": "What do you save for?",
+          "m": "Nói mục tiêu tiết kiệm.",
+          "h": "I save for + danh từ.",
+          "s": "I save for a book."
+        },
+        {
+          "p": "There is a bank fee. Do you pay?",
+          "m": "Trả lời có trả phí hay không bằng 'Yes, I pay.' hoặc 'No, I don't.'",
+          "h": "Yes, I pay / No, I don't.",
+          "s": "No, I don't."
+        }
+      ]
+    },
+    {
+      "t": "Ôn tập: Số tiền và khả năng chi trả",
+      "e": [
+        {
+          "p": "How much do you have in your wallet?",
+          "m": "Nói số tiền bạn có trong ví (dollars).",
+          "h": "I have + số + dollars.",
+          "s": "I have eight dollars."
+        },
+        {
+          "p": "Can you buy a toy for ten dollars?",
+          "m": "Trả lời có thể mua hay không bằng 'Yes, I can.' hoặc 'No, I can't.'",
+          "h": "Yes, I can / No, I can't.",
+          "s": "No, I can't."
+        },
+        {
+          "p": "Do you have coins and bills?",
+          "m": "Trả lời có hay không bằng 'Yes, I have.' hoặc 'No, I don't.'",
+          "h": "Yes, I have / No, I don't.",
+          "s": "Yes, I have."
+        },
+        {
+          "p": "Where is your wallet?",
+          "m": "Nói nơi ví của bạn (bag, pocket, wallet).",
+          "h": "My wallet is in my bag / in my pocket.",
+          "s": "My wallet is in my bag."
+        },
+        {
+          "p": "There is a small job for five dollars. Do you want the job?",
+          "m": "Trả lời bạn có muốn làm công việc đó hay không bằng 'Yes, I want it.' hoặc 'No, I don't want it.'",
+          "h": "Yes, I want it / No, I don't want it.",
+          "s": "Yes, I want it."
+        }
+      ]
+    }
+  ]
+}

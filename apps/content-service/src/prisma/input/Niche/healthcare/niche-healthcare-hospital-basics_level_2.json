@@ -1,0 +1,530 @@
+{
+  "l": 2,
+  "d": [
+    {
+      "t": "Gặp đồng nghiệp mới",
+      "e": [
+        {
+          "p": "What's your name?",
+          "m": "Nói tên. Nói nghề/nghề nghiệp.",
+          "h": "My name is ... / I am a ...",
+          "s": "My name is [studentName]. I am a [studentJob]."
+        },
+        {
+          "p": "Which hospital do you work at?",
+          "m": "Nói tên bệnh viện. Nói khoa/phòng bạn làm việc.",
+          "h": "I work at ... / I work in ...",
+          "s": "I work at [studentCity] Hospital. I work in the emergency department."
+        },
+        {
+          "p": "What do you do in your job?",
+          "m": "Nói công việc chính (ngắn). Nói tần suất bạn làm việc đó (always/often/sometimes).",
+          "h": "Use 'I check/assist...' + adverb of frequency",
+          "s": "I check patient charts. I often help doctors."
+        },
+        {
+          "p": "Are you working today?",
+          "m": "Nói trạng thái hiện tại (đang làm hay không). Nói khoa bạn đang ở ngay bây giờ.",
+          "h": "Use 'I am/I'm + V-ing' và 'in the ...'",
+          "s": "I am working now. I am in the outpatient clinic."
+        },
+        {
+          "p": "Can you tell me a little about your role here?",
+          "m": "Mô tả ngắn về nhiệm vụ chính (1 câu). Nói bạn thích hay không thích công việc (1 câu).",
+          "h": "Use 'I help/assist...' và 'I like / I don't like ...'",
+          "s": "I help nurses with patient care. I like helping patients."
+        }
+      ]
+    },
+    {
+      "t": "Bắt đầu ca trực",
+      "e": [
+        {
+          "p": "Who's on duty this morning?",
+          "m": "Nói tên hoặc vị trí người trực (1 câu). Nói bạn có trực không (1 câu).",
+          "h": "Use 'The ... is on duty.' / 'I am on duty.'",
+          "s": "The head nurse is on duty. I am on duty this morning."
+        },
+        {
+          "p": "What time does your shift start?",
+          "m": "Nói giờ bắt đầu ca (1 câu). Nói bạn thường bắt đầu ca đó hay không (adverb of frequency, 1 câu).",
+          "h": "Use 'My shift starts at ...' và 'I usually/sometimes ...'",
+          "s": "My shift starts at 7 AM. I usually start on time."
+        },
+        {
+          "p": "Are you checking patients now?",
+          "m": "Nói bạn có đang kiểm tra bệnh nhân (1 câu). Nói bạn làm việc đó ở đâu (1 câu).",
+          "h": "Use present continuous và 'in the ...'",
+          "s": "I am checking patients now. I am in the ward."
+        },
+        {
+          "p": "Do you need any help this shift?",
+          "m": "Nói bạn có cần giúp đỡ (1 câu). Nếu cần, nói việc bạn cần (1 câu).",
+          "h": "Use 'I need...' hoặc 'I don't need...'",
+          "s": "I need one nurse for triage. I need help with paperwork."
+        },
+        {
+          "p": "How many nurses are on this floor?",
+          "m": "Nói số lượng y tá (There are + số + N). Nói bạn có thường thấy đủ người hay không (1 câu, adverb).",
+          "h": "Use 'There are ...' và 'I usually / sometimes ...'",
+          "s": "There are five nurses on this floor. I usually have enough staff."
+        }
+      ]
+    },
+    {
+      "t": "Giới thiệu trong phòng khám",
+      "e": [
+        {
+          "p": "Hello, may I ask who you are?",
+          "m": "Nói tên (1 câu). Nói vai trò bạn trong phòng khám (1 câu).",
+          "h": "My name is ... / I am a ...",
+          "s": "My name is [studentName]. I am a receptionist."
+        },
+        {
+          "p": "Which room is this?",
+          "m": "Nói số/phòng (1 câu). Nói phòng đó dùng để làm gì (1 câu).",
+          "h": "Use 'This is room ...' và 'for ...'",
+          "s": "This is room 12. It is for patient check-ups."
+        },
+        {
+          "p": "Are you seeing patients now?",
+          "m": "Nói trạng thái hiện tại (1 câu). Nói bạn làm việc đó thường xuyên hay không (1 câu).",
+          "h": "Use present continuous và adverb of frequency",
+          "s": "I am seeing patients now. I sometimes see many patients."
+        },
+        {
+          "p": "What do you need for the examination?",
+          "m": "Nói một vật dụng bạn cần (1 câu). Nói bạn dùng nó để làm gì (1 câu).",
+          "h": "Use 'I need ...' và 'to ...'",
+          "s": "I need a thermometer. I use it to check temperature."
+        },
+        {
+          "p": "Can you introduce the clinic to a visitor?",
+          "m": "Nói tên phòng khám và chức năng (1 câu). Nói bạn thích làm việc ở đây hay không (1 câu).",
+          "h": "Use 'This clinic is ...' và 'I like / I don't like ...'",
+          "s": "This clinic is the general outpatient clinic. I like working here."
+        }
+      ]
+    },
+    {
+      "t": "Nói về khoa",
+      "e": [
+        {
+          "p": "What department do you work in?",
+          "m": "Nói tên khoa (1 câu). Nói ngắn về công việc ở khoa (1 câu).",
+          "h": "I work in ... / I help with ...",
+          "s": "I work in the radiology department. I help with x-rays."
+        },
+        {
+          "p": "Is the ward busy today?",
+          "m": "Nói trạng thái hiện tại của khoa (1 câu). Nói tần suất khoa bận (1 câu, adv).",
+          "h": "Use 'It is/It isn't' và 'always/often/sometimes'",
+          "s": "The ward is busy today. It is often busy in the morning."
+        },
+        {
+          "p": "How many rooms are in your department?",
+          "m": "Nói số phòng (There are + số + N). Nói bạn thường ở phòng nào (1 câu).",
+          "h": "Use 'There are ...' và 'I am usually in ...'",
+          "s": "There are four rooms in our department. I am usually in room 2."
+        },
+        {
+          "p": "Can you show me the department now?",
+          "m": "Nói bạn có đang ở đó hoặc không (1 câu). Nếu có, nói bạn đang ở vị trí nào (1 câu).",
+          "h": "Use present continuous và 'in/on/at'",
+          "s": "I am at the department now. I am in front of the nurses' station."
+        },
+        {
+          "p": "What do patients usually do in your department?",
+          "m": "Nói một hoạt động chính bệnh nhân làm (1 câu). Nói bạn có giúp họ không (1 câu).",
+          "h": "Use 'Patients ...' và 'I help / I don't help ...'",
+          "s": "Patients get x-rays in our department. I often help them prepare."
+        }
+      ]
+    },
+    {
+      "t": "Hỏi về vị trí công việc",
+      "e": [
+        {
+          "p": "Are you a doctor or a nurse?",
+          "m": "Nói bạn là bác sĩ hay y tá (1 câu). Nói bạn làm việc ở đâu (1 câu).",
+          "h": "Use 'I am a ...' và 'I work in ...'",
+          "s": "I am a nurse. I work in the pediatrics ward."
+        },
+        {
+          "p": "Do you work full time?",
+          "m": "Nói bạn có làm toàn thời gian hay không (1 câu). Nói tần suất bạn làm việc (1 câu).",
+          "h": "Use 'I work full time/part time' và adverb",
+          "s": "I work part time. I usually work three days a week."
+        },
+        {
+          "p": "What is your main task?",
+          "m": "Nói nhiệm vụ chính (1 câu). Nói bạn có luôn làm việc đó hay không (1 câu).",
+          "h": "Use 'I assist/check/prepare ...' và adverb",
+          "s": "I assist with wound care. I always check dressing changes."
+        },
+        {
+          "p": "Where do you normally start your shift?",
+          "m": "Nói nơi bạn bắt đầu ca (1 câu). Nói bạn có bắt đầu ở đó thường xuyên hay không (1 câu).",
+          "h": "Use 'I start at ...' và 'I usually / sometimes ...'",
+          "s": "I start at the staff room. I usually meet the team there."
+        },
+        {
+          "p": "Can you describe your position to a new student?",
+          "m": "Nói hai việc bạn làm thường xuyên (mỗi ý 1 câu).",
+          "h": "Use simple present: 'I do ...' / 'I check ...'",
+          "s": "I check vital signs for patients. I help nurses with records."
+        }
+      ]
+    },
+    {
+      "t": "Số lượng nhân viên và ca trực",
+      "e": [
+        {
+          "p": "How many doctors are on the team?",
+          "m": "Nói số bác sĩ (There are + số + N). Nói bạn có gặp họ thường không (1 câu).",
+          "h": "There are ... / I often / sometimes ...",
+          "s": "There are three doctors on the team. I often work with them."
+        },
+        {
+          "p": "Is there a head nurse today?",
+          "m": "Nói có hay không (1 câu). Nói vị trí họ đang ở (1 câu).",
+          "h": "Use 'There is / There isn't' và 'in/on/at ...'",
+          "s": "There is a head nurse today. She is in the nurses' office."
+        },
+        {
+          "p": "How many staff do you need for this room?",
+          "m": "Nói số nhân viên cần (There are / We need ...). Nói bạn có đủ số đó hay không (1 câu).",
+          "h": "Use 'We need ...' và 'We have ...' / 'We don't have ...'",
+          "s": "We need two staff for this room. We don't have enough now."
+        },
+        {
+          "p": "Do you work with volunteers?",
+          "m": "Nói có hay không (1 câu). Nói họ làm gì nếu có (1 câu).",
+          "h": "Use 'Yes, they ...' or 'No, we ...'",
+          "s": "Yes, we work with volunteers. They help with reception."
+        },
+        {
+          "p": "Who usually covers lunch breaks?",
+          "m": "Nói người hoặc vị trí phụ trách (1 câu). Nói tần suất họ làm việc đó (1 câu).",
+          "h": "Use 'The ... covers' và 'usually/often/sometimes'",
+          "s": "The day nurse covers lunch breaks. She usually covers them."
+        }
+      ]
+    },
+    {
+      "t": "Thiết bị và phòng trong bệnh viện",
+      "e": [
+        {
+          "p": "Where is the X-ray room?",
+          "m": "Nói vị trí (preposition + nơi). Nói có bao nhiêu phòng tương tự (There are + số + N).",
+          "h": "Use 'It is in/on/next to ...' và 'There are ...'",
+          "s": "It is next to the radiology desk. There are two X-ray rooms."
+        },
+        {
+          "p": "Do you need a wheelchair now?",
+          "m": "Nói có cần hay không (1 câu). Nói bạn dùng nó cho ai (1 câu).",
+          "h": "Use 'I need / I don't need' và 'for ...'",
+          "s": "I need a wheelchair now. I need it for an elderly patient."
+        },
+        {
+          "p": "What equipment is in this room?",
+          "m": "Nói hai thiết bị có trong phòng (mỗi ý 1 câu).",
+          "h": "Use 'There is/There are ...' và 'It is used for ...' nếu muốn",
+          "s": "There is a blood pressure monitor. There is a bed for patients."
+        },
+        {
+          "p": "Can you bring a stretcher here?",
+          "m": "Nói bạn có thể làm việc đó hay không (1 câu). Nói bạn sẽ làm gì sau đó (1 câu).",
+          "h": "Use 'I can / I can't' và 'I will ...' hoặc 'I will help ...'",
+          "s": "I can bring a stretcher. I will move the patient to the room."
+        },
+        {
+          "p": "How do you use this machine?",
+          "m": "Nói một bước đơn giản khi dùng máy (1 câu). Nói bạn có cần giúp đỡ hay không (1 câu).",
+          "h": "Use 'You press / You turn on ...' và 'I need / I don't need ...'",
+          "s": "You press the green button to start. I need help with settings."
+        }
+      ]
+    },
+    {
+      "t": "Nhiệm vụ hàng ngày",
+      "e": [
+        {
+          "p": "What do you do every morning here?",
+          "m": "Nói một việc bạn làm mỗi sáng (1 câu). Nói bạn làm việc đó thường xuyên hay không (1 câu).",
+          "h": "Use 'I take/check/... every morning' và 'I usually / sometimes ...'",
+          "s": "I check patient charts every morning. I usually start at 7 AM."
+        },
+        {
+          "p": "Do you prepare medicines?",
+          "m": "Nói bạn có chuẩn bị thuốc hay không (1 câu). Nói bạn làm điều đó ở đâu (1 câu).",
+          "h": "Use 'I prepare / I don't prepare' và 'in the ...'",
+          "s": "I prepare medicines sometimes. I prepare them in the medication room."
+        },
+        {
+          "p": "Who cleans the rooms?",
+          "m": "Nói người hoặc đội làm việc đó (1 câu). Nói bạn có giúp họ không (1 câu).",
+          "h": "Use 'The ... cleans' và 'I sometimes / I don't ...'",
+          "s": "The cleaning staff cleans the rooms. I sometimes help them."
+        },
+        {
+          "p": "Are you taking patient vitals now?",
+          "m": "Nói bạn có đang làm việc đó (1 câu). Nói bạn thường làm điều đó lúc nào (1 câu).",
+          "h": "Use present continuous và 'in the morning/at ...'",
+          "s": "I am taking vitals now. I usually do this in the morning."
+        },
+        {
+          "p": "Describe two tasks you do in a day.",
+          "m": "Nói hai nhiệm vụ hàng ngày, mỗi nhiệm vụ một câu.",
+          "h": "Use simple present: 'I do ...' / 'I assist ...'",
+          "s": "I assist with patient admissions. I check medication schedules."
+        }
+      ]
+    },
+    {
+      "t": "Lịch làm việc và tần suất",
+      "e": [
+        {
+          "p": "When do you work on weekends?",
+          "m": "Nói bạn có làm cuối tuần hay không (1 câu). Nói bạn làm ca nào nếu có (1 câu).",
+          "h": "Use 'I work on weekends' và 'in the ... shift'",
+          "s": "I work on weekends sometimes. I work the afternoon shift."
+        },
+        {
+          "p": "How often do you attend meetings?",
+          "m": "Nói tần suất tham gia họp (1 câu). Nói nơi họp thường là đâu (1 câu).",
+          "h": "Use adverb of frequency + 'in the ...' or 'at the ...'",
+          "s": "I attend meetings often. They are usually in the conference room."
+        },
+        {
+          "p": "Do you have night shifts?",
+          "m": "Nói bạn có ca đêm hay không (1 câu). Nói bạn cảm thấy thế nào về ca đêm (1 câu).",
+          "h": "Use 'I have / I don't have' và 'I feel ...'",
+          "s": "I have night shifts sometimes. I feel tired after night shifts."
+        },
+        {
+          "p": "What days are you off?",
+          "m": "Nói hai ngày nghỉ trong tuần (1 câu). Nói bạn thường làm gì những ngày đó (1 câu).",
+          "h": "Use 'I am off on ...' và 'I usually ...'",
+          "s": "I am off on Saturday and Sunday. I usually rest at home."
+        },
+        {
+          "p": "Can you change your schedule next week?",
+          "m": "Nói bạn có thể đổi lịch hay không (1 câu). Nói bạn muốn đổi sang ca nào (1 câu).",
+          "h": "Use 'I can / I can't' và 'to the ... shift'",
+          "s": "I can change my schedule next week. I want to change to the morning shift."
+        }
+      ]
+    },
+    {
+      "t": "Hướng dẫn và đường đi trong bệnh viện",
+      "e": [
+        {
+          "p": "How do I get to the pharmacy?",
+          "m": "Nói hướng ngắn (preposition + landmark) (1 câu). Nói bạn có thể chỉ nơi đó hay không (1 câu).",
+          "h": "Use 'Go to ... / It's next to/in front of ...' và 'I can ...'",
+          "s": "Go straight and turn left at the lobby. I can show you the way."
+        },
+        {
+          "p": "Is the cafeteria on this floor?",
+          "m": "Trả lời có/không (1 câu). Nói vị trí chính xác nếu có (1 câu).",
+          "h": "Use 'Yes, it is ...' or 'No, it is ...'",
+          "s": "Yes, it is on this floor. It is next to the waiting area."
+        },
+        {
+          "p": "Where is the nearest restroom?",
+          "m": "Nói hướng đơn giản (1 câu). Nói liệu nó có gần khoa bạn không (1 câu).",
+          "h": "Use prepositions: 'next to / near / behind ...' and 'It is ...'",
+          "s": "The restroom is behind the elevator. It is near our department."
+        },
+        {
+          "p": "Can I bring a visitor to the ward?",
+          "m": "Nói chính sách ngắn (cho phép/không) (1 câu). Nói thời gian hoặc điều kiện nếu có (1 câu).",
+          "h": "Use 'You can / You cannot' và 'between ...' or 'with ...'",
+          "s": "You can bring a visitor. Visitors are allowed between 2 and 4 PM."
+        },
+        {
+          "p": "Show me how to go to the lab from the entrance.",
+          "m": "Mô tả hai bước đi (mỗi bước 1 câu).",
+          "h": "Use simple imperatives or directions: 'Go ... / Turn ...'",
+          "s": "Go straight from the entrance. Turn right at the reception to the lab."
+        }
+      ]
+    },
+    {
+      "t": "Nhu cầu và mong muốn tại công việc",
+      "e": [
+        {
+          "p": "Do you need new supplies?",
+          "m": "Nói có cần hay không (1 câu). Nói bạn cần vật gì (1 câu).",
+          "h": "Use 'I need / I don't need' và danh từ đơn giản",
+          "s": "I need new gloves. I also need more masks."
+        },
+        {
+          "p": "Would you like more training?",
+          "m": "Nói bạn muốn hay không (1 câu). Nói bạn muốn học gì (1 câu).",
+          "h": "Use 'I would like / I don't want' hoặc 'I want ...'",
+          "s": "I would like more training. I want training on patient records."
+        },
+        {
+          "p": "Can you get me a form?",
+          "m": "Nói bạn có thể lấy form hay không (1 câu). Nói bạn sẽ đem nó cho ai (1 câu).",
+          "h": "Use 'I can / I can't' và 'for ...'",
+          "s": "I can get a form. I will bring it to the nurse."
+        },
+        {
+          "p": "Do you want to change your department?",
+          "m": "Nói bạn có muốn đổi khoa hay không (1 câu). Nói lý do ngắn nếu có (1 câu).",
+          "h": "Use 'I want / I don't want' và 'because ...'",
+          "s": "I don't want to change my department. I like my current team."
+        },
+        {
+          "p": "What do you need to do to request time off?",
+          "m": "Nói bước đầu bạn cần làm (1 câu). Nói bạn có thường xin nghỉ không (1 câu).",
+          "h": "Use 'I need to ...' và adverb of frequency",
+          "s": "I need to fill the leave form. I sometimes ask for days off."
+        }
+      ]
+    },
+    {
+      "t": "Giao tiếp với bệnh nhân (giới thiệu ngắn)",
+      "e": [
+        {
+          "p": "Can I help you?",
+          "m": "Nói bạn có thể giúp bệnh nhân hay không (1 câu). Nói việc bạn có thể làm ngay (1 câu).",
+          "h": "Use 'I can / I can't' và 'I can ...'",
+          "s": "I can help you. I can take your temperature."
+        },
+        {
+          "p": "What is your name, please?",
+          "m": "Nói tên bệnh nhân (dùng placeholder nếu cần) (1 câu). Nói tuổi hoặc thông tin ngắn khác (1 câu).",
+          "h": "Use 'My name is ...' và 'I am ... years old' (dùng placeholder nếu là học viên)",
+          "s": "My name is [studentName]. I am 30 years old."
+        },
+        {
+          "p": "Do you have any pain now?",
+          "m": "Trả lời có/không (1 câu). Mô tả ngắn vị trí đau nếu có (1 câu).",
+          "h": "Use 'Yes, I have ...' or 'No, I don't' và 'in/on/at ...'",
+          "s": "Yes, I have pain. It is in my stomach."
+        },
+        {
+          "p": "Are you allergic to any medicine?",
+          "m": "Trả lời có/không (1 câu). Nêu tên thuốc nếu có (1 câu).",
+          "h": "Use 'I am allergic to ...' or 'I am not allergic to ...'",
+          "s": "I am allergic to penicillin. I am not allergic to other medicines."
+        },
+        {
+          "p": "Please tell me where it hurts.",
+          "m": "Nói vị trí đau rõ ràng (1 câu). Nói bạn có cảm thấy đau nhiều hay ít (1 câu, dùng simple adjective).",
+          "h": "Use prepositions + 'It hurts ...' và 'It's ... (bad/weak)'",
+          "s": "It hurts in my chest. It is very bad."
+        }
+      ]
+    },
+    {
+      "t": "Ôn tập: Giới thiệu cá nhân và phòng ban",
+      "e": [
+        {
+          "p": "Introduce yourself to a new team member.",
+          "m": "Nói tên (1 câu). Nói khoa và vị trí công việc (1 câu).",
+          "h": "My name is ... / I work in ... as a ...",
+          "s": "My name is [studentName]. I work in the surgical department as a nurse."
+        },
+        {
+          "p": "Where do you work and what do you do?",
+          "m": "Nói nơi làm việc (1 câu). Nói một nhiệm vụ chính (1 câu).",
+          "h": "Use 'I work at ...' và 'I ...' ",
+          "s": "I work at [studentCity] Hospital. I take patient vitals."
+        },
+        {
+          "p": "How many staff are in your department and are they busy?",
+          "m": "Nói số nhân viên (There are ...). Nói trạng thái bận rộn (1 câu, adverb).",
+          "h": "There are ... / It is often/sometimes ...",
+          "s": "There are six staff in my department. It is often busy."
+        },
+        {
+          "p": "Do you need help now and where are you?",
+          "m": "Nói bạn có cần giúp không (1 câu). Nói vị trí hiện tại (1 câu).",
+          "h": "Use 'I need / I don't need' và present continuous or 'in the ...'",
+          "s": "I need help now. I am in the treatment room."
+        },
+        {
+          "p": "Describe two places in the hospital you use.",
+          "m": "Nói hai nơi và chức năng của mỗi nơi, mỗi ý 1 câu.",
+          "h": "Use 'The ... is for ...' và 'It is ...'",
+          "s": "The pharmacy is for medicines. The lab is for tests."
+        }
+      ]
+    },
+    {
+      "t": "Ôn tập: Hỏi đáp về nhiệm vụ và lịch",
+      "e": [
+        {
+          "p": "What are your morning tasks?",
+          "m": "Nói một việc bạn làm buổi sáng (1 câu). Nói tần suất bạn làm việc đó (1 câu).",
+          "h": "Use 'I ... every morning' và adverb",
+          "s": "I take patient temperatures every morning. I usually do it quickly."
+        },
+        {
+          "p": "When is your next day off?",
+          "m": "Nói ngày nghỉ tiếp theo (1 câu). Nói bạn sẽ làm gì trong ngày đó (1 câu).",
+          "h": "Use 'I am off on ...' và 'I will ...'",
+          "s": "I am off next Saturday. I will rest at home."
+        },
+        {
+          "p": "Do you sometimes work nights?",
+          "m": "Trả lời có/không (1 câu). Nói cảm giác của bạn về ca đêm (1 câu).",
+          "h": "Use 'Yes, I do / No, I don't' và 'I feel ...'",
+          "s": "Yes, I do work nights sometimes. I feel tired after night shifts."
+        },
+        {
+          "p": "Who covers the weekend in your team?",
+          "m": "Nói ai phụ trách (1 câu). Nói tần suất họ làm việc đó (1 câu).",
+          "h": "Use 'The ... covers' và 'usually/often/sometimes'",
+          "s": "The senior nurse covers weekends. She usually works every weekend."
+        },
+        {
+          "p": "How do you request leave and do you often ask?",
+          "m": "Nói bước yêu cầu nghỉ (1 câu). Nói tần suất bạn xin nghỉ (1 câu).",
+          "h": "Use 'I need to ...' và adverb",
+          "s": "I need to fill the leave form. I sometimes ask for leave."
+        }
+      ]
+    },
+    {
+      "t": "Ôn tập: Tổng hợp tình huống",
+      "e": [
+        {
+          "p": "A visitor asks: 'Where is the pediatric ward?'",
+          "m": "Chỉ vị trí ngắn (1 câu). Nói có ai giúp họ đến đó hay không (1 câu).",
+          "h": "Use 'It is next to ...' và 'I can / We can ...'",
+          "s": "It is on the second floor next to the elevators. I can take you there."
+        },
+        {
+          "p": "A colleague asks: 'Can you cover my shift tomorrow?'",
+          "m": "Trả lời có thể hay không (1 câu). Nói lý do ngắn hoặc đề xuất khác (1 câu).",
+          "h": "Use 'I can / I can't' và 'because / but ...' or 'I can ... instead'",
+          "s": "I can't cover your shift tomorrow. I have a morning appointment."
+        },
+        {
+          "p": "A patient asks: 'Do you have pain medicine?'",
+          "m": "Nói có hay không (1 câu). Nói bạn sẽ làm gì tiếp theo (1 câu).",
+          "h": "Use 'We have / We don't have' và 'I will ... / I will get ...'",
+          "s": "We have pain medicine available. I will get it for you."
+        },
+        {
+          "p": "Someone asks: 'How many nurses are in the night shift?'",
+          "m": "Nói số y tá (There are ...). Nói họ làm việc ở đâu (1 câu).",
+          "h": "There are ... / They are in ...",
+          "s": "There are four nurses on the night shift. They are in the emergency ward."
+        },
+        {
+          "p": "A new staff says: 'I'm nervous about my first day.'",
+          "m": "An ủi ngắn (1 câu). Đưa lời khuyên đơn giản (1 câu).",
+          "h": "Use 'Don't worry / It's okay' và 'You can ...' ",
+          "s": "Don't worry, it's normal to be nervous. You can ask me for help."
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,530 @@
+{
+  "l": 1,
+  "d": [
+    {
+      "t": "Đặt phòng qua điện thoại",
+      "e": [
+        {
+          "p": "Hello, do you want to book a room?",
+          "m": "Nói bạn muốn đặt phòng.",
+          "h": "I want + to book / I want + a room",
+          "s": "I want to book a room."
+        },
+        {
+          "p": "When do you arrive?",
+          "m": "Nói ngày bạn đến (today/tomorrow).",
+          "h": "I arrive + today/tomorrow",
+          "s": "I arrive tomorrow."
+        },
+        {
+          "p": "How many nights will you stay?",
+          "m": "Nói số đêm bạn ở.",
+          "h": "I stay + number + nights",
+          "s": "I stay 2 nights."
+        },
+        {
+          "p": "What type of room do you want?",
+          "m": "Nói loại phòng: single hoặc double.",
+          "h": "I want a single room / I want a double room",
+          "s": "I want a single room."
+        },
+        {
+          "p": "Can I have your name for the booking?",
+          "m": "Nói tên của bạn.",
+          "h": "My name is [studentName]",
+          "s": "My name is [studentName]."
+        }
+      ]
+    },
+    {
+      "t": "Xác nhận thông tin đặt phòng",
+      "e": [
+        {
+          "p": "Do you have a reservation with us?",
+          "m": "Nói bạn có đặt phòng hay không.",
+          "h": "Yes, I have / No, I don't",
+          "s": "Yes, I have a reservation."
+        },
+        {
+          "p": "What name is the booking under?",
+          "m": "Nói tên đặt phòng.",
+          "h": "My name is [studentName]",
+          "s": "My name is [studentName]."
+        },
+        {
+          "p": "Is the booking for one person?",
+          "m": "Nói số người cho đặt phòng.",
+          "h": "It is for + number + people",
+          "s": "It is for 2 people."
+        },
+        {
+          "p": "Do you need a non-smoking room?",
+          "m": "Nói bạn có cần phòng không hút thuốc hay không.",
+          "h": "I need / I don't need",
+          "s": "I need a non-smoking room."
+        },
+        {
+          "p": "Do you want breakfast with your booking?",
+          "m": "Nói bạn có muốn bữa sáng hay không.",
+          "h": "I want / I don't want + breakfast",
+          "s": "No, I don't want breakfast."
+        }
+      ]
+    },
+    {
+      "t": "Tư vấn loại phòng phù hợp",
+      "e": [
+        {
+          "p": "Do you prefer one bed or two beds?",
+          "m": "Nói bạn thích 1 hay 2 giường.",
+          "h": "I prefer + one/two beds",
+          "s": "I prefer one bed."
+        },
+        {
+          "p": "Do you want a room with a view?",
+          "m": "Nói bạn có muốn phòng có view hay không.",
+          "h": "Yes, I want / No, I don't",
+          "s": "Yes, I want a room with a view."
+        },
+        {
+          "p": "Do you need a big room or a small room?",
+          "m": "Nói bạn cần phòng lớn hay nhỏ.",
+          "h": "I need a big room / I need a small room",
+          "s": "I need a small room."
+        },
+        {
+          "p": "Do you want a single bed or a double bed?",
+          "m": "Nói bạn muốn giường đơn hay đôi.",
+          "h": "I want a single bed / I want a double bed",
+          "s": "I want a double bed."
+        },
+        {
+          "p": "Can I suggest a double room for two people?",
+          "m": "Chấp nhận hoặc từ chối đề nghị.",
+          "h": "Yes, please / No, thank you",
+          "s": "Yes, please."
+        }
+      ]
+    },
+    {
+      "t": "Nhận phòng tại lễ tân",
+      "e": [
+        {
+          "p": "Welcome. Do you have a booking with us?",
+          "m": "Nói bạn có đặt phòng không.",
+          "h": "Yes, I have / No, I don't",
+          "s": "Yes, I have a booking."
+        },
+        {
+          "p": "Please tell me the name for check-in.",
+          "m": "Nói tên để nhận phòng.",
+          "h": "My name is [studentName]",
+          "s": "My name is [studentName]."
+        },
+        {
+          "p": "How many nights is your stay?",
+          "m": "Nói số đêm bạn dự định ở.",
+          "h": "I stay + number + nights",
+          "s": "I stay 3 nights."
+        },
+        {
+          "p": "Do you want your room key now?",
+          "m": "Trả lời bạn có muốn nhận chìa khóa ngay hay không.",
+          "h": "Yes, I want / No, I don't",
+          "s": "Yes, I want the room key now."
+        },
+        {
+          "p": "Is breakfast included in your booking?",
+          "m": "Trả lời có hoặc không.",
+          "h": "Yes, it is / No, it is not",
+          "s": "No, it is not included."
+        }
+      ]
+    },
+    {
+      "t": "Đặt phòng qua website",
+      "e": [
+        {
+          "p": "Please enter your full name.",
+          "m": "Nói tên đầy đủ của bạn.",
+          "h": "My name is [studentName]",
+          "s": "My name is [studentName]."
+        },
+        {
+          "p": "How many guests will stay?",
+          "m": "Nói số khách.",
+          "h": "There are + number + guests",
+          "s": "There are 2 guests."
+        },
+        {
+          "p": "Select your check-in day.",
+          "m": "Nói ngày bạn đến (today/tomorrow).",
+          "h": "I arrive + today/tomorrow",
+          "s": "I arrive tomorrow."
+        },
+        {
+          "p": "Select your check-out day.",
+          "m": "Nói ngày bạn rời (simple).",
+          "h": "I leave + in + number + days / I leave + day word",
+          "s": "I leave in two days."
+        },
+        {
+          "p": "Do you want to add breakfast to the booking?",
+          "m": "Nói bạn có muốn thêm bữa sáng hay không.",
+          "h": "I want / I don't want + breakfast",
+          "s": "I want breakfast."
+        }
+      ]
+    },
+    {
+      "t": "Thay đổi ngày đặt phòng",
+      "e": [
+        {
+          "p": "Do you want to change your booking date?",
+          "m": "Nói bạn muốn thay đổi ngày hay không.",
+          "h": "Yes, I want / No, I don't",
+          "s": "Yes, I want to change the date."
+        },
+        {
+          "p": "What is the new arrival day?",
+          "m": "Nói ngày mới bạn đến.",
+          "h": "I arrive + today/tomorrow",
+          "s": "I arrive tomorrow."
+        },
+        {
+          "p": "How many nights will you stay now?",
+          "m": "Nói số đêm mới.",
+          "h": "I stay + number + nights",
+          "s": "I stay 4 nights."
+        },
+        {
+          "p": "Do you keep the same room type?",
+          "m": "Nói bạn có giữ loại phòng cũ hay không.",
+          "h": "Yes, I keep it / No, I don't",
+          "s": "No, I don't keep the same room."
+        },
+        {
+          "p": "Can I confirm the updated booking?",
+          "m": "Xác nhận bạn đồng ý với thay đổi.",
+          "h": "Yes, I confirm / No, I don't",
+          "s": "Yes, I confirm the new booking."
+        }
+      ]
+    },
+    {
+      "t": "Hủy đặt phòng",
+      "e": [
+        {
+          "p": "Do you want to cancel your booking?",
+          "m": "Nói bạn muốn hủy hay không.",
+          "h": "Yes, I want / No, I don't",
+          "s": "Yes, I want to cancel my booking."
+        },
+        {
+          "p": "Why do you cancel the booking?",
+          "m": "Nói lý do ngắn: bạn không đi.",
+          "h": "I can't go / I am busy",
+          "s": "I can't go."
+        },
+        {
+          "p": "Do you need a refund?",
+          "m": "Nói bạn có cần hoàn tiền hay không.",
+          "h": "Yes, I need / No, I don't",
+          "s": "No, I don't need a refund."
+        },
+        {
+          "p": "Do you cancel for all guests?",
+          "m": "Nói bạn hủy cho tất cả khách hay chỉ một người.",
+          "h": "It is for all guests / It is only for me",
+          "s": "It is for all guests."
+        },
+        {
+          "p": "Do you want a cancel confirmation by email?",
+          "m": "Nói bạn có muốn email xác nhận hủy không.",
+          "h": "Yes, I want / No, I don't",
+          "s": "Yes, I want a confirmation email."
+        }
+      ]
+    },
+    {
+      "t": "Đặt phòng cho người khác",
+      "e": [
+        {
+          "p": "Are you booking for someone else?",
+          "m": "Nói bạn có đặt cho người khác hay không.",
+          "h": "Yes, I am / No, I am not",
+          "s": "Yes, I am booking for someone else."
+        },
+        {
+          "p": "What is the guest name?",
+          "m": "Nói tên khách.",
+          "h": "The guest name is [studentName]",
+          "s": "The guest name is [studentName]."
+        },
+        {
+          "p": "How many nights will the guest stay?",
+          "m": "Nói số đêm khách ở.",
+          "h": "They stay + number + nights",
+          "s": "They stay 2 nights."
+        },
+        {
+          "p": "Does the guest need a baby cot?",
+          "m": "Trả lời khách có cần giường cho bé hay không.",
+          "h": "Yes, they need / No, they don't",
+          "s": "No, they don't need a baby cot."
+        },
+        {
+          "p": "Do you want to pay now for the guest?",
+          "m": "Nói bạn có trả tiền ngay hay không.",
+          "h": "Yes, I will pay / No, I will not",
+          "s": "No, I will not pay now."
+        }
+      ]
+    },
+    {
+      "t": "Đến muộn (Late arrival)",
+      "e": [
+        {
+          "p": "Will you arrive late today?",
+          "m": "Nói bạn có đến muộn hay không.",
+          "h": "Yes, I arrive late / No, I do not",
+          "s": "Yes, I arrive late."
+        },
+        {
+          "p": "What time do you arrive?",
+          "m": "Nói giờ bạn đến (ví dụ: 10 pm).",
+          "h": "I arrive at + time",
+          "s": "I arrive at 10 pm."
+        },
+        {
+          "p": "Do you need late check-in service?",
+          "m": "Nói bạn có cần check-in muộn hay không.",
+          "h": "Yes, I need / No, I don't",
+          "s": "Yes, I need late check-in."
+        },
+        {
+          "p": "Do you want the desk to hold your key after midnight?",
+          "m": "Nói bạn có muốn giữ chìa khóa qua đêm không.",
+          "h": "Yes, please / No, thank you",
+          "s": "Yes, please hold my key."
+        },
+        {
+          "p": "Can we keep your room if you arrive late?",
+          "m": "Xác nhận bạn đồng ý giữ phòng.",
+          "h": "Yes, please / No, I don't",
+          "s": "Yes, please keep the room."
+        }
+      ]
+    },
+    {
+      "t": "Không tìm thấy đặt phòng",
+      "e": [
+        {
+          "p": "I cannot find your booking. Do you have a confirmation?",
+          "m": "Nói bạn có email xác nhận hay không.",
+          "h": "Yes, I have / No, I don't",
+          "s": "Yes, I have a confirmation email."
+        },
+        {
+          "p": "What name is the booking under?",
+          "m": "Nói tên đặt phòng.",
+          "h": "My name is [studentName]",
+          "s": "My name is [studentName]."
+        },
+        {
+          "p": "How many nights did you book?",
+          "m": "Nói số đêm bạn đã đặt.",
+          "h": "I booked + number + nights",
+          "s": "I booked 2 nights."
+        },
+        {
+          "p": "Is the booking for today?",
+          "m": "Nói ngày đặt có phải hôm nay hay không.",
+          "h": "Yes, it is today / No, it is not",
+          "s": "No, it is not today."
+        },
+        {
+          "p": "Do you want to make a new booking now?",
+          "m": "Nói bạn có muốn đặt mới không.",
+          "h": "Yes, I want / No, I don't",
+          "s": "Yes, I want to make a new booking."
+        }
+      ]
+    },
+    {
+      "t": "Hỏi về giá và phí",
+      "e": [
+        {
+          "p": "The room price is $50 per night. Do you accept?",
+          "m": "Chấp nhận giá hay không.",
+          "h": "Yes, I accept / No, I don't",
+          "s": "Yes, I accept the price."
+        },
+        {
+          "p": "Do you pay now or at check-in?",
+          "m": "Nói bạn trả bây giờ hay khi nhận phòng.",
+          "h": "I pay now / I pay at check-in",
+          "s": "I pay at check-in."
+        },
+        {
+          "p": "Is there a fee for late check-out?",
+          "m": "Nói bạn có trả phí muộn trả phòng hay không.",
+          "h": "Yes, I will pay / No, I will not",
+          "s": "No, I will not pay the fee."
+        },
+        {
+          "p": "Do you want a cheaper room option?",
+          "m": "Nói bạn có muốn phòng rẻ hơn hay không.",
+          "h": "Yes, I want / No, I don't",
+          "s": "No, I don't want a cheaper room."
+        },
+        {
+          "p": "Would you like a receipt for payment?",
+          "m": "Nói bạn có muốn hóa đơn không.",
+          "h": "Yes, I want / No, I don't",
+          "s": "Yes, I want a receipt."
+        }
+      ]
+    },
+    {
+      "t": "Yêu cầu đặc biệt (giường phụ, không hút thuốc)",
+      "e": [
+        {
+          "p": "Do you need an extra bed in the room?",
+          "m": "Nói bạn có cần giường phụ hay không.",
+          "h": "Yes, I need / No, I don't",
+          "s": "Yes, I need an extra bed."
+        },
+        {
+          "p": "Do you need a non-smoking room?",
+          "m": "Nói bạn cần phòng không hút thuốc hay không.",
+          "h": "I need / I don't need",
+          "s": "I need a non-smoking room."
+        },
+        {
+          "p": "Do you need a baby cot?",
+          "m": "Nói bạn có cần cũi cho bé hay không.",
+          "h": "Yes, I need / No, I don't",
+          "s": "No, I don't need a baby cot."
+        },
+        {
+          "p": "Do you want a quiet room away from the street?",
+          "m": "Nói bạn có muốn phòng yên tĩnh hay không.",
+          "h": "Yes, I want / No, I don't",
+          "s": "Yes, I want a quiet room."
+        },
+        {
+          "p": "Can we add your special request to the booking?",
+          "m": "Xác nhận bạn đồng ý thêm yêu cầu vào đặt phòng.",
+          "h": "Yes, I agree / No, I don't",
+          "s": "Yes, I agree to add the request."
+        }
+      ]
+    },
+    {
+      "t": "Ôn tập: Đặt phòng qua điện thoại và website",
+      "e": [
+        {
+          "p": "Do you want to book now?",
+          "m": "Nói bạn muốn đặt ngay hay không.",
+          "h": "Yes, I want / No, I don't",
+          "s": "Yes, I want to book now."
+        },
+        {
+          "p": "What is your name for the booking?",
+          "m": "Nói tên bạn.",
+          "h": "My name is [studentName]",
+          "s": "My name is [studentName]."
+        },
+        {
+          "p": "How many guests will stay?",
+          "m": "Nói số khách.",
+          "h": "There are + number + guests",
+          "s": "There are 3 guests."
+        },
+        {
+          "p": "When do you arrive?",
+          "m": "Nói ngày bạn đến.",
+          "h": "I arrive + today/tomorrow",
+          "s": "I arrive tomorrow."
+        },
+        {
+          "p": "Do you want breakfast with the booking?",
+          "m": "Nói bạn có muốn bữa sáng hay không.",
+          "h": "I want / I don't want + breakfast",
+          "s": "I want breakfast."
+        }
+      ]
+    },
+    {
+      "t": "Ôn tập: Vấn đề khi nhận phòng",
+      "e": [
+        {
+          "p": "We do not see a reservation. Do you want to book now?",
+          "m": "Nói bạn có muốn đặt ngay không.",
+          "h": "Yes, I want / No, I don't",
+          "s": "Yes, I want to book now."
+        },
+        {
+          "p": "Are you arriving late today?",
+          "m": "Nói bạn có đến muộn hay không.",
+          "h": "Yes, I arrive late / No, I don't",
+          "s": "Yes, I arrive late."
+        },
+        {
+          "p": "Do you need help with your luggage?",
+          "m": "Nói bạn có cần giúp đồ hay không.",
+          "h": "Yes, I need / No, I don't",
+          "s": "No, I don't need help with my luggage."
+        },
+        {
+          "p": "The room is noisy. Do you want a different room?",
+          "m": "Nói bạn có muốn đổi phòng không.",
+          "h": "Yes, I want / No, I don't",
+          "s": "Yes, I want a different room."
+        },
+        {
+          "p": "Do you accept a room change at the same price?",
+          "m": "Nói bạn đồng ý đổi phòng với cùng giá không.",
+          "h": "Yes, I accept / No, I don't",
+          "s": "Yes, I accept the room change."
+        }
+      ]
+    },
+    {
+      "t": "Ôn tập: Yêu cầu và thanh toán",
+      "e": [
+        {
+          "p": "Do you want to pay now?",
+          "m": "Nói bạn trả ngay hay không.",
+          "h": "I pay now / I pay at check-in",
+          "s": "I pay at check-in."
+        },
+        {
+          "p": "Do you want a receipt after payment?",
+          "m": "Nói bạn có muốn hóa đơn hay không.",
+          "h": "Yes, I want / No, I don't",
+          "s": "Yes, I want a receipt."
+        },
+        {
+          "p": "Do you need a non-smoking room?",
+          "m": "Nói bạn có cần phòng không hút thuốc hay không.",
+          "h": "I need / I don't need",
+          "s": "I need a non-smoking room."
+        },
+        {
+          "p": "Do you want breakfast for two people?",
+          "m": "Nói bạn có muốn bữa sáng cho hai người không.",
+          "h": "Yes, I want / No, I don't",
+          "s": "Yes, I want breakfast for two."
+        },
+        {
+          "p": "Can I confirm your booking now?",
+          "m": "Xác nhận bạn đồng ý với đặt phòng.",
+          "h": "Yes, I confirm / No, I don't",
+          "s": "Yes, I confirm the booking."
+        }
+      ]
+    }
+  ]
+}

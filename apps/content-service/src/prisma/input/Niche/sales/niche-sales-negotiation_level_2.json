@@ -1,0 +1,530 @@
+{
+  "l": 2,
+  "d": [
+    {
+      "t": "Gặp khách hàng mới",
+      "e": [
+        {
+          "p": "What is your name?",
+          "m": "Nói tên của bạn. Nói nghề hoặc vai trò ngắn gọn.",
+          "h": "My name is [studentName]. + I work / I am",
+          "s": "My name is [studentName]. I work in sales."
+        },
+        {
+          "p": "Why are you here today?",
+          "m": "Nói mục đích bạn đến. Nói bạn cần gì cụ thể.",
+          "h": "Use 'I want / I need' + noun or to + V",
+          "s": "I want to check the price. I need a good discount."
+        },
+        {
+          "p": "Do you buy often from our store?",
+          "m": "Nói tần suất bạn mua. Nói ngắn về lý do.",
+          "h": "Use adverb of frequency + present simple",
+          "s": "I usually buy here. The products are good."
+        },
+        {
+          "p": "Can we sign a small contract now?",
+          "m": "Nói bạn có thể ký hay không. Nói thời gian bạn cần.",
+          "h": "Use 'I can / I cannot' and 'in + time' or 'next week'",
+          "s": "I can sign a small contract. I need one day to check it."
+        },
+        {
+          "p": "Do you want a discount for a first order?",
+          "m": "Nói bạn muốn chiết khấu hay không. Nói lý do ngắn.",
+          "h": "Use 'I want / I don't want' and a short reason",
+          "s": "I want a discount. I am a new customer."
+        }
+      ]
+    },
+    {
+      "t": "Đàm phán giá tại phiên chợ",
+      "e": [
+        {
+          "p": "How much is this bag?",
+          "m": "Nói giá của túi. Nói bạn có thể trả bao nhiêu.",
+          "h": "Use numbers and 'I can pay' or 'It is' ",
+          "s": "It is 50 dollars. I can pay 40 dollars."
+        },
+        {
+          "p": "This price is high for me.",
+          "m": "Nói bạn muốn giá thấp hơn. Nói lý do ngắn.",
+          "h": "Use 'I want' + noun and 'because' simple",
+          "s": "I want a lower price. I have a small budget."
+        },
+        {
+          "p": "I can give you a small discount.",
+          "m": "Nói nếu bạn chấp nhận. Nói bạn cần gì đổi lại.",
+          "h": "Use 'Yes, I will' or 'No, I will not' + condition",
+          "s": "Yes, I will accept. I will buy two bags."
+        },
+        {
+          "p": "Do you want to pay now or later?",
+          "m": "Nói bạn trả tiền lúc nào. Nói cách thanh toán bạn dùng.",
+          "h": "Use 'I will' or 'I want to' + 'now/later' and 'by cash'/'by card'",
+          "s": "I will pay now. I pay by cash."
+        },
+        {
+          "p": "If you buy two, I can lower the price.",
+          "m": "Nói bạn có mua hai cái không. Nói vì sao bạn mua hoặc không.",
+          "h": "Use 'I will' or 'I will not' + reason",
+          "s": "I will buy two. I need them for my shop."
+        }
+      ]
+    },
+    {
+      "t": "Thương lượng chiết khấu cho đơn hàng lớn",
+      "e": [
+        {
+          "p": "How many units do you need?",
+          "m": "Nói số lượng bạn cần. Nói mục đích ngắn.",
+          "h": "Use numbers and 'for' + noun",
+          "s": "I need 100 units. They are for my store."
+        },
+        {
+          "p": "We give a discount for big orders.",
+          "m": "Hỏi bạn muốn chiết khấu bao nhiêu. Nói con số hoặc mong muốn.",
+          "h": "Use 'I want' + number or 'a small/large' discount",
+          "s": "I want a 10 percent discount. I need a fair price."
+        },
+        {
+          "p": "Can you pay a deposit now?",
+          "m": "Nói bạn có thể đặt cọc hay không. Nói số tiền hoặc phần trăm ngắn.",
+          "h": "Use 'I can / I cannot' and 'percent' or 'dollars'",
+          "s": "I can pay a 20 percent deposit. I will pay the rest later."
+        },
+        {
+          "p": "We need a two-week delivery time.",
+          "m": "Nói bạn có đồng ý thời gian giao hàng. Nói nếu bạn cần sớm hơn.",
+          "h": "Use 'I agree' or 'I need' + time phrase",
+          "s": "I agree with two weeks. I sometimes need faster delivery."
+        },
+        {
+          "p": "If you confirm today, we give extra 5% off.",
+          "m": "Nói bạn có xác nhận không. Nói lý do nhanh nếu đồng ý.",
+          "h": "Use 'I will' + verb and short reason",
+          "s": "I will confirm today. I want the extra discount."
+        }
+      ]
+    },
+    {
+      "t": "Thay đổi điều khoản giao hàng",
+      "e": [
+        {
+          "p": "Can we change the delivery date?",
+          "m": "Nói bạn có thể thay đổi ngày giao không. Nói ngày mới bạn muốn.",
+          "h": "Use 'I can / I cannot' and 'on + day' or 'next week'",
+          "s": "I can change the delivery date. I want it next Monday."
+        },
+        {
+          "p": "We may ship in the morning or afternoon.",
+          "m": "Chọn buổi giao hàng. Nói lý do ngắn.",
+          "h": "Use 'in the morning/afternoon' and 'because'",
+          "s": "Please ship in the morning. It is better for my schedule."
+        },
+        {
+          "p": "Do you need delivery to your office or home?",
+          "m": "Nói nơi giao hàng. Nói ngắn địa chỉ hoặc vị trí chung.",
+          "h": "Use 'to my office / to my home' and 'in/at/near'",
+          "s": "Deliver to my office. It is near the bus stop."
+        },
+        {
+          "p": "We can deliver with two people for large orders.",
+          "m": "Nói bạn cần bao nhiêu người hỗ trợ. Nói lý do ngắn.",
+          "h": "Use 'I need' + number and short reason",
+          "s": "I need two people. The goods are heavy."
+        },
+        {
+          "p": "There is an extra fee for fast delivery.",
+          "m": "Hỏi bạn có trả phí thêm không. Nói bạn muốn nhanh hay rẻ.",
+          "h": "Use 'I want' + 'fast' or 'cheap' and short reason",
+          "s": "I want fast delivery. I will pay the extra fee."
+        }
+      ]
+    },
+    {
+      "t": "Thanh toán và thời hạn trả tiền",
+      "e": [
+        {
+          "p": "What payment methods do you use?",
+          "m": "Nói cách thanh toán bạn dùng. Nói lý do ngắn.",
+          "h": "Use 'I pay by' and 'because' short",
+          "s": "I pay by bank transfer. It is safe and easy."
+        },
+        {
+          "p": "We need payment within 30 days.",
+          "m": "Nói bạn có thể trả trong bao lâu. Nói nếu cần thêm thời gian.",
+          "h": "Use 'I can pay in' + time or 'I need' + more time",
+          "s": "I can pay in 30 days. I sometimes need five more days."
+        },
+        {
+          "p": "Do you want an invoice now?",
+          "m": "Nói bạn cần hóa đơn không. Nói tên công ty ngắn hoặc 'personal'.",
+          "h": "Use 'Yes, I want' or 'No, I don't' and a short noun",
+          "s": "Yes, I want an invoice. It is for my company."
+        },
+        {
+          "p": "We accept cash, card, or transfer.",
+          "m": "Chọn một phương thức và nói vì sao ngắn.",
+          "h": "Use 'I will pay by' + reason",
+          "s": "I will pay by card. It is fast for me."
+        },
+        {
+          "p": "If payment is late, there is a small fee.",
+          "m": "Nói bạn có trả muộn không. Nói bạn sẽ làm gì để tránh phí.",
+          "h": "Use 'I will' + verb and 'to' + verb",
+          "s": "I will not pay late. I will pay on time."
+        }
+      ]
+    },
+    {
+      "t": "Hỏi về hợp đồng dịch vụ",
+      "e": [
+        {
+          "p": "What is the contract length?",
+          "m": "Nói độ dài hợp đồng. Nói bạn muốn thời hạn nào.",
+          "h": "Use 'It is' and 'I want' + time phrase",
+          "s": "It is one year. I want a six month contract."
+        },
+        {
+          "p": "Are there any early termination fees?",
+          "m": "Nói có phí hủy sớm không. Nói mức phí hoặc 'small'.",
+          "h": "Use 'Yes/No' and a short detail",
+          "s": "Yes, there is a small fee. It is ten dollars."
+        },
+        {
+          "p": "We provide support every day.",
+          "m": "Hỏi bạn cần hỗ trợ khi nào. Nói thời gian ngắn.",
+          "h": "Use 'I need' + time or 'every' phrase",
+          "s": "I need support in the mornings. I work from nine to twelve."
+        },
+        {
+          "p": "Do you want monthly or weekly service?",
+          "m": "Chọn loại dịch vụ. Nói lý do ngắn.",
+          "h": "Use 'I want' + monthly/weekly and 'because'",
+          "s": "I want weekly service. It is better for my business."
+        },
+        {
+          "p": "We can change the contract after three months.",
+          "m": "Nói bạn có muốn thay đổi sau ba tháng không. Nói điều bạn muốn thay đổi.",
+          "h": "Use 'I will' or 'I will not' + change + reason",
+          "s": "I will change the terms. I want a lower price."
+        }
+      ]
+    },
+    {
+      "t": "Thuyết phục khách thử sản phẩm",
+      "e": [
+        {
+          "p": "Would you like a free sample?",
+          "m": "Nói bạn có muốn mẫu không. Nói lý do ngắn.",
+          "h": "Use 'Yes, I would' or 'No, I would not' and short reason",
+          "s": "Yes, I would like a sample. I want to try it first."
+        },
+        {
+          "p": "This product is very popular.",
+          "m": "Nói bạn có thích sản phẩm không. Nói một điều bạn thích.",
+          "h": "Use 'I like' + noun and short reason",
+          "s": "I like this product. It looks good and simple."
+        },
+        {
+          "p": "You can return it in seven days.",
+          "m": "Hỏi bạn có trả lại nếu không thích không. Nói kế hoạch ngắn.",
+          "h": "Use 'I will' or 'I will not' + verb",
+          "s": "I will return it if I don't like it. I will check it this week."
+        },
+        {
+          "p": "We also give a small training for free.",
+          "m": "Nói bạn có muốn học nhanh không. Nói thời gian bạn rảnh.",
+          "h": "Use 'I want' + to V and 'in' + time",
+          "s": "I want to join the training. I am free on Friday."
+        },
+        {
+          "p": "If you buy now, we add a free month.",
+          "m": "Nói bạn có mua ngay không. Nói lý do ngắn.",
+          "h": "Use 'I will' + buy or 'I will not' + reason",
+          "s": "I will buy now. I like the free month."
+        }
+      ]
+    },
+    {
+      "t": "Trả hàng và hoàn tiền",
+      "e": [
+        {
+          "p": "I want to return this item.",
+          "m": "Nói lý do trả hàng ngắn. Nói bạn muốn hoàn tiền hay đổi hàng.",
+          "h": "Use 'because' and 'I want a refund / I want an exchange'",
+          "s": "I return it because it is broken. I want a refund."
+        },
+        {
+          "p": "Do you have the receipt?",
+          "m": "Nói bạn có biên lai hay không. Nói bạn mua khi nào.",
+          "h": "Use 'I have / I don't have' and time phrase",
+          "s": "I have the receipt. I bought it last week."
+        },
+        {
+          "p": "We give a refund in five days.",
+          "m": "Hỏi bạn có chờ năm ngày được không. Nói bạn cần tiền sớm hay không.",
+          "h": "Use 'I can wait / I cannot wait' and short reason",
+          "s": "I can wait five days. I need the money for other bills."
+        },
+        {
+          "p": "Would you like an exchange instead?",
+          "m": "Nói bạn muốn đổi hay hoàn tiền. Nói lựa chọn ngắn.",
+          "h": "Use 'I want' + exchange/refund and short reason",
+          "s": "I want an exchange. I want the same model."
+        },
+        {
+          "p": "We sometimes charge a small restocking fee.",
+          "m": "Hỏi bạn có chấp nhận phí nhỏ không. Nói bạn sẽ làm gì.",
+          "h": "Use 'I will' or 'I will not' + accept",
+          "s": "I will accept the fee. Please give the refund soon."
+        }
+      ]
+    },
+    {
+      "t": "Thương lượng giá qua điện thoại",
+      "e": [
+        {
+          "p": "Hello, can I ask about the price?",
+          "m": "Nói món bạn hỏi giá. Nói bạn muốn biết thêm gì (ví dụ: shipping).",
+          "h": "Use 'How much is' and 'and' to add one more question",
+          "s": "How much is the product? And how much is shipping?"
+        },
+        {
+          "p": "I offer a special price today.",
+          "m": "Hỏi bạn có nhận hay không. Nói bạn muốn giá bao nhiêu.",
+          "h": "Use 'I will' + accept or 'I want' + number",
+          "s": "I will accept a better price. I want it for 80 dollars."
+        },
+        {
+          "p": "We can send an email with the quote.",
+          "m": "Nói bạn có muốn email không. Nói địa chỉ hoặc 'yes'.",
+          "h": "Use 'Yes, send' or 'No, thank you' and short detail",
+          "s": "Yes, send the email. My email is thecompany@mail.com."
+        },
+        {
+          "p": "Do you need installation help?",
+          "m": "Nói bạn cần hỗ trợ lắp đặt hay không. Nói khi nào bạn cần.",
+          "h": "Use 'I need' or 'I do not need' + time phrase",
+          "s": "I need installation help. I need it next Monday."
+        },
+        {
+          "p": "If you pay now, I can lower the price more.",
+          "m": "Nói bạn có muốn trả ngay không. Nói lý do ngắn.",
+          "h": "Use 'I will' + pay or 'I will not' + reason",
+          "s": "I will pay now. I want the extra discount."
+        }
+      ]
+    },
+    {
+      "t": "Đàm phán khi gặp tại văn phòng",
+      "e": [
+        {
+          "p": "Can we talk about the contract terms?",
+          "m": "Nói bạn muốn nói về điều khoản nào. Nói mong muốn ngắn.",
+          "h": "Use 'I want to talk about' and 'I want' + noun",
+          "s": "I want to talk about the price. I also want better delivery terms."
+        },
+        {
+          "p": "We usually give a lower price for long contracts.",
+          "m": "Hỏi bạn có muốn hợp đồng dài không. Nói ngắn lợi ích.",
+          "h": "Use 'I want' or 'I don't want' + reason",
+          "s": "I want a long contract. It gives me a better price."
+        },
+        {
+          "p": "Do you have any questions about the invoice?",
+          "m": "Hỏi một câu bạn muốn hỏi về hóa đơn. Trả lời ngắn.",
+          "h": "Use 'Yes' or 'No' and a short question or statement",
+          "s": "Yes, I want a company name on it. Please add our company name."
+        },
+        {
+          "p": "We can meet again next week to sign.",
+          "m": "Nói bạn có gặp lại tuần sau không. Nói ngày bạn rảnh.",
+          "h": "Use 'I can' or 'I cannot' + day phrase",
+          "s": "I can meet next week. I am free on Wednesday."
+        },
+        {
+          "p": "If you sign today, we add free training.",
+          "m": "Nói bạn có ký hôm nay không. Nói lý do ngắn.",
+          "h": "Use 'I will' + sign or 'I will not' + reason",
+          "s": "I will sign today. I like the free training."
+        }
+      ]
+    },
+    {
+      "t": "Thỏa thuận về bảo hành",
+      "e": [
+        {
+          "p": "What is the warranty period?",
+          "m": "Nói thời gian bảo hành. Nói bạn muốn dài hay ngắn.",
+          "h": "Use 'It is' and 'I want' + time",
+          "s": "It is six months. I want a longer warranty."
+        },
+        {
+          "p": "We fix items for free in the warranty.",
+          "m": "Hỏi bạn có cần sửa miễn phí không. Nói bạn có hay không.",
+          "h": "Use 'I need' or 'I do not need' + short reason",
+          "s": "I need free repairs. It saves my money."
+        },
+        {
+          "p": "Do you want on-site service or pickup?",
+          "m": "Chọn loại dịch vụ bảo hành. Nói lý do ngắn.",
+          "h": "Use 'I want' + on-site/pickup and short reason",
+          "s": "I want on-site service. It is easy for my office."
+        },
+        {
+          "p": "We cannot extend the warranty for free.",
+          "m": "Hỏi bạn có trả thêm để kéo dài không. Nói bạn sẽ làm gì.",
+          "h": "Use 'I will' + pay or 'I will not' + reason",
+          "s": "I will pay to extend the warranty. I want more security."
+        },
+        {
+          "p": "If you register the product, you get one more month.",
+          "m": "Nói bạn có đăng ký để nhận thêm không. Nói lý do ngắn.",
+          "h": "Use 'I will' + register or 'I will not' + reason",
+          "s": "I will register the product. I want the extra month."
+        }
+      ]
+    },
+    {
+      "t": "Đặt lịch giao hàng và số lượng",
+      "e": [
+        {
+          "p": "How many items do you want to order?",
+          "m": "Nói số lượng bạn đặt. Nói nếu bạn cần nhiều hơn sau.",
+          "h": "Use numbers and 'Maybe' or 'I may' for future",
+          "s": "I want 20 items. I may order more next month."
+        },
+        {
+          "p": "We can deliver on Tuesday or Friday.",
+          "m": "Chọn một ngày giao. Nói lý do ngắn.",
+          "h": "Use 'I prefer' + day and 'because'",
+          "s": "I prefer Friday. It is better for my staff."
+        },
+        {
+          "p": "Do you need packing or special boxes?",
+          "m": "Nói bạn cần đóng gói đặc biệt không. Nói ngắn yêu cầu.",
+          "h": "Use 'I need' + packing and short detail",
+          "s": "I need special boxes. The items are fragile."
+        },
+        {
+          "p": "We require a minimum order of ten items.",
+          "m": "Hỏi bạn có đạt tối thiểu không. Nói bạn sẽ làm gì.",
+          "h": "Use 'I will' + order or 'I will not' + reason",
+          "s": "I will order ten items. I meet the minimum now."
+        },
+        {
+          "p": "If you confirm the quantity, we give a better rate.",
+          "m": "Nói bạn có xác nhận số lượng không. Nói lý do ngắn.",
+          "h": "Use 'I will' + confirm and short reason",
+          "s": "I will confirm the quantity. I want the better rate."
+        }
+      ]
+    },
+    {
+      "t": "Ôn tập: Giao dịch bán hàng cơ bản",
+      "e": [
+        {
+          "p": "What is your name and why are you here?",
+          "m": "Nói tên (dùng placeholder). Nói mục đích ngắn khi đến.",
+          "h": "My name is [studentName]. + I am here to / I want to",
+          "s": "My name is [studentName]. I am here to discuss a purchase."
+        },
+        {
+          "p": "How many units do you want and when do you need them?",
+          "m": "Nói số lượng bạn cần. Nói thời gian giao bạn muốn.",
+          "h": "Use a number and 'next week/tomorrow/in two days'",
+          "s": "I want 50 units. I need them next week."
+        },
+        {
+          "p": "What price do you expect and can you pay a deposit?",
+          "m": "Nói giá bạn mong muốn. Nói bạn có thể đặt cọc hay không.",
+          "h": "Use 'I want' + price and 'I can / cannot' + deposit",
+          "s": "I want 8 dollars each. I can pay a 20 percent deposit."
+        },
+        {
+          "p": "Do you need delivery to your office and who will receive it?",
+          "m": "Nói nơi giao. Nói người nhận ngắn (chức vụ hoặc 'me').",
+          "h": "Use 'to my office' and 'My colleague / I will receive it'",
+          "s": "Deliver to my office. I will receive it."
+        },
+        {
+          "p": "If you sign today, we add one free month. Do you agree?",
+          "m": "Nói bạn có đồng ý ký hôm nay không. Nói lý do ngắn.",
+          "h": "Use 'I will' + sign or 'I will not' + reason",
+          "s": "I will sign today. I want the free month."
+        }
+      ]
+    },
+    {
+      "t": "Ôn tập: Đàm phán giá và điều khoản",
+      "e": [
+        {
+          "p": "How much is the unit price and do you want a discount?",
+          "m": "Nói giá mỗi đơn vị. Nói bạn có muốn chiết khấu và lý do ngắn.",
+          "h": "Use numbers and 'I want' + reason",
+          "s": "The unit price is 12 dollars. I want a discount because I order many."
+        },
+        {
+          "p": "We can change the delivery day. Which day is best?",
+          "m": "Chọn ngày giao. Nói lý do ngắn.",
+          "h": "Use 'I prefer' + day and 'because'",
+          "s": "I prefer Monday. It is better for my team."
+        },
+        {
+          "p": "Do you pay by bank transfer or card?",
+          "m": "Chọn phương thức thanh toán. Nói ngắn vì sao.",
+          "h": "Use 'I pay by' and short reason",
+          "s": "I pay by bank transfer. It is fast and safe."
+        },
+        {
+          "p": "We need a signature for the contract. Can you sign now?",
+          "m": "Nói bạn có thể ký không. Nói khi nào nếu không thể.",
+          "h": "Use 'I can' or 'I cannot' + when",
+          "s": "I can sign now. I will bring the papers."
+        },
+        {
+          "p": "If you buy more, we lower the price further. Are you sure?",
+          "m": "Trả lời bạn có chắc mua thêm không. Nói lý do ngắn.",
+          "h": "Use 'I am sure' or 'I am not sure' and short reason",
+          "s": "I am sure I will buy more. I want the lower price."
+        }
+      ]
+    },
+    {
+      "t": "Ôn tập: Xử lý phản hồi khách hàng",
+      "e": [
+        {
+          "p": "The product is not working well.",
+          "m": "Nói bạn gặp vấn đề gì ngắn. Nói bạn muốn cửa hàng làm gì.",
+          "h": "Use 'It is' + problem and 'I want' + action",
+          "s": "It is not working well. I want a repair or a refund."
+        },
+        {
+          "p": "We can send a technician tomorrow.",
+          "m": "Hỏi bạn có thể đợi đến ngày mai không. Nói lý do ngắn.",
+          "h": "Use 'I can wait' or 'I cannot wait' and reason",
+          "s": "I can wait until tomorrow. My office is free then."
+        },
+        {
+          "p": "Do you want a refund or an exchange?",
+          "m": "Chọn hoàn tiền hay đổi hàng. Nói lý do ngắn.",
+          "h": "Use 'I want a refund' or 'I want an exchange' and short reason",
+          "s": "I want an exchange. I like a new model."
+        },
+        {
+          "p": "We will fix it under warranty free.",
+          "m": "Hỏi bạn có muốn gửi bảo hành không. Nói thời gian bạn rảnh.",
+          "h": "Use 'I will' + send or 'I will not' + reason",
+          "s": "I will send it for warranty. I am free on Friday."
+        },
+        {
+          "p": "We sometimes give a small gift for trouble.",
+          "m": "Nói bạn có nhận quà nhỏ không. Nói bạn mong điều gì tiếp theo.",
+          "h": "Use 'I will' + accept or 'I will not' + reason",
+          "s": "I will accept the small gift. Please also fix the product."
+        }
+      ]
+    }
+  ]
+}

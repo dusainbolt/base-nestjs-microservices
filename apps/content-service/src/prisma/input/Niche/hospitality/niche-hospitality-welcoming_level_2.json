@@ -1,0 +1,565 @@
+{
+  "l": 2,
+  "d": [
+    {
+      "t": "Nhận phòng khách sạn",
+      "e": [
+        {
+          "p": "Do you have a reservation?",
+          "m": "Nói tên đặt phòng. Xác nhận số đêm bạn ở lại.",
+          "h": "Use: The reservation is under ... / I will stay for ... nights.",
+          "s": "The reservation is under [studentName]. I will stay for two nights."
+        },
+        {
+          "p": "Can I have your name, please?",
+          "m": "Nói tên đầy đủ. Nói bạn đến từ đâu (thành phố).",
+          "h": "Use: My name is ... / I am from ...",
+          "s": "My name is [studentName]. I am from [studentCity]."
+        },
+        {
+          "p": "What time will you check out?",
+          "m": "Nói giờ bạn sẽ trả phòng. Nói nếu bạn cần trả phòng muộn hoặc không.",
+          "h": "Use: I will check out at ... / I need a late check-out (if needed)",
+          "s": "I will check out at 11 AM. I do not need a late check-out."
+        },
+        {
+          "p": "Would you like help with your bags?",
+          "m": "Nói có hay không cần giúp. Nếu cần, nói bạn đang bận hay mệt.",
+          "h": "Use: Yes, please / No, thanks / I am a bit tired / I am busy",
+          "s": "Yes, please. I am a bit tired."
+        },
+        {
+          "p": "We have free breakfast from 7 to 10. Do you want it?",
+          "m": "Trả lời bạn có muốn ăn sáng miễn phí không. Nói nếu bạn luôn ăn sáng lúc mấy giờ.",
+          "h": "Use: Yes, I want it / I usually eat breakfast at ...",
+          "s": "Yes, I want it. I usually eat breakfast at 8 AM."
+        }
+      ]
+    },
+    {
+      "t": "Đón khách tại nhà hàng",
+      "e": [
+        {
+          "p": "Hello, do you have a booking for tonight?",
+          "m": "Xác nhận tên đặt bàn. Nói số người đi cùng.",
+          "h": "Use: The booking is under ... / There are ... people",
+          "s": "The booking is under [studentName]. There are three people."
+        },
+        {
+          "p": "Would you like a table inside or outside?",
+          "m": "Chọn vị trí (inside/outside). Nói nếu bạn thích gần cửa sổ.",
+          "h": "Use: I prefer ... / I like a table near the window",
+          "s": "I prefer outside. I like a table near the window."
+        },
+        {
+          "p": "Do you have any food allergies?",
+          "m": "Nói có hay không bị dị ứng. Nói tên món bạn tránh (ví dụ: nuts).",
+          "h": "Use: I am allergic to ... / I avoid ...",
+          "s": "I am allergic to nuts. I avoid any dishes with nuts."
+        },
+        {
+          "p": "Your table is ready. Follow me, please.",
+          "m": "Xác nhận bạn sẽ đi theo. Nói bạn đang mệt hay bạn cần nghỉ một chút nếu có.",
+          "h": "Use: Okay, I will follow / I am a bit tired / I need a short rest",
+          "s": "Okay, I will follow. I am a bit tired and I need a short rest."
+        },
+        {
+          "p": "Would you like to see the menu or try our set menu?",
+          "m": "Nói bạn muốn xem thực đơn hay gọi set. Nói nếu bạn thường chọn set menu.",
+          "h": "Use: I want to see the menu / I want the set menu / I usually choose the set",
+          "s": "I want to see the menu. I usually choose the set menu."
+        }
+      ]
+    },
+    {
+      "t": "Lễ tân sự kiện / hội nghị",
+      "e": [
+        {
+          "p": "Welcome! What is your name for registration?",
+          "m": "Nói tên để đăng kí. Nói bạn đến tham dự sự kiện nào.",
+          "h": "Use: My name is ... / I am here for ...",
+          "s": "My name is [studentName]. I am here for the marketing workshop."
+        },
+        {
+          "p": "Do you need a visitor badge?",
+          "m": "Trả lời có hay không cần thẻ. Nếu cần, nói bạn sẽ ở lại bao lâu.",
+          "h": "Use: Yes, please / No, thanks / I will stay for ... hours",
+          "s": "Yes, please. I will stay for three hours."
+        },
+        {
+          "p": "Are you attending the morning or afternoon session?",
+          "m": "Nói bạn tham dự buổi sáng hay chiều. Nói bạn thường đến sớm hay muộn.",
+          "h": "Use: I am attending the morning session / I usually arrive early",
+          "s": "I am attending the morning session. I usually arrive early."
+        },
+        {
+          "p": "We have coffee and snacks near the entrance.",
+          "m": "Nói bạn có muốn dùng cà phê không. Nói nếu bạn thường uống cà phê hay không.",
+          "h": "Use: Yes, I want coffee / I usually drink coffee / No, thanks",
+          "s": "Yes, I want coffee. I usually drink coffee in the morning."
+        },
+        {
+          "p": "Please sign here for attendance.",
+          "m": "Xác nhận bạn ký tên. Nói bạn có tên chính xác như trong hồ sơ hay không.",
+          "h": "Use: I sign here / My name is the same as in the record",
+          "s": "I sign here. My name is the same as in the record."
+        }
+      ]
+    },
+    {
+      "t": "Tiếp khách tại cửa hàng",
+      "e": [
+        {
+          "p": "Can I help you find something?",
+          "m": "Nói bạn đang tìm gì. Nói bạn thường muốn loại sản phẩm nào.",
+          "h": "Use: I am looking for ... / I usually want ...",
+          "s": "I am looking for a small backpack. I usually want a simple, good bag."
+        },
+        {
+          "p": "Do you prefer this color or another one?",
+          "m": "Chọn màu bạn thích. Nói bạn thường hay chọn màu tối hay sáng.",
+          "h": "Use: I prefer ... / I usually choose dark/light colors",
+          "s": "I prefer blue. I usually choose dark colors."
+        },
+        {
+          "p": "We have a sale today. Would you like a cheaper option?",
+          "m": "Trả lời có muốn hàng giảm giá không. Nói bạn thường mua đồ giảm giá hay không.",
+          "h": "Use: Yes, I want a cheaper option / I often buy sale items / No, thanks",
+          "s": "Yes, I want a cheaper option. I often buy sale items."
+        },
+        {
+          "p": "Can I wrap this as a gift?",
+          "m": "Nói có hoặc không cần gói quà. Nói nếu bạn muốn gói đẹp hay đơn giản.",
+          "h": "Use: Yes, please / No, thanks / I want a nice/simple wrap",
+          "s": "Yes, please. I want a nice wrap."
+        },
+        {
+          "p": "How will you pay: cash or card?",
+          "m": "Nói bạn sẽ trả bằng tiền mặt hay thẻ. Nói nếu bạn cần hóa đơn.",
+          "h": "Use: I will pay by ... / I need a receipt",
+          "s": "I will pay by card. I need a receipt."
+        }
+      ]
+    },
+    {
+      "t": "Xác nhận đặt chỗ taxi / đưa đón",
+      "e": [
+        {
+          "p": "Do you need a taxi now or later?",
+          "m": "Nói bạn cần taxi bây giờ hay sau. Nói nếu bạn cần tới sân bay hay khách sạn.",
+          "h": "Use: I need a taxi now / I need to go to the airport/hotel",
+          "s": "I need a taxi now. I need to go to the airport."
+        },
+        {
+          "p": "What is your pickup address?",
+          "m": "Nói địa chỉ đón (ngắn gọn). Nói bạn đang ở trong hay ngoài tòa nhà.",
+          "h": "Use: My address is ... / I am inside/outside the building",
+          "s": "My address is 12 Maple Street. I am outside the building."
+        },
+        {
+          "p": "How many people will travel?",
+          "m": "Nói số người đi cùng. Nói nếu bạn có nhiều hành lý hay không.",
+          "h": "Use: There are ... people / We have ... bags",
+          "s": "There are two people. We have two bags."
+        },
+        {
+          "p": "The driver will arrive in 10 minutes.",
+          "m": "Xác nhận bạn sẽ chờ. Nói nếu bạn thường đến trễ hay luôn đúng giờ.",
+          "h": "Use: I will wait / I am usually on time / I am often late",
+          "s": "I will wait. I am usually on time."
+        },
+        {
+          "p": "Do you want a child seat?",
+          "m": "Nói có cần ghế trẻ em không. Nói bạn có con nhỏ hay không.",
+          "h": "Use: Yes, I need a child seat / No, thanks / I have a small child",
+          "s": "No, thanks. I do not have a small child."
+        }
+      ]
+    },
+    {
+      "t": "Tiếp khách tại phòng khám / spa",
+      "e": [
+        {
+          "p": "Do you have an appointment today?",
+          "m": "Xác nhận bạn có hẹn hay không. Nói tên bác sĩ hoặc dịch vụ nếu có.",
+          "h": "Use: I have an appointment / I booked for ...",
+          "s": "I have an appointment. I booked for a massage."
+        },
+        {
+          "p": "Are you feeling any pain now?",
+          "m": "Nói bạn có bị đau không. Nói bạn thường cảm thấy mệt hay khỏe.",
+          "h": "Use: I feel pain in ... / I am usually tired/healthy",
+          "s": "I feel pain in my back. I am usually tired."
+        },
+        {
+          "p": "Please fill this form with your details.",
+          "m": "Nói bạn sẽ điền form. Nói bạn muốn nhân viên giúp nếu cần.",
+          "h": "Use: I will fill the form / Please help me if needed",
+          "s": "I will fill the form. Please help me if I need it."
+        },
+        {
+          "p": "Do you prefer a female or male therapist?",
+          "m": "Chọn giới tính nhân viên bạn thích. Nói nếu bạn không quan trọng.",
+          "h": "Use: I prefer a ... therapist / It does not matter",
+          "s": "I prefer a female therapist. It does not matter much."
+        },
+        {
+          "p": "We need a deposit now. Is that OK?",
+          "m": "Trả lời đồng ý hoặc không. Nói bạn có thường trả đặt cọc hay không.",
+          "h": "Use: Yes, it is OK / I usually pay a deposit / No, thanks",
+          "s": "Yes, it is OK. I usually pay a deposit."
+        }
+      ]
+    },
+    {
+      "t": "Chào đón ở quầy lễ tân tiệm cà phê",
+      "e": [
+        {
+          "p": "Hi! Do you want a table or takeaway?",
+          "m": "Chọn ngồi tại chỗ hay mang đi. Nói bạn thường uống cà phê nóng hay lạnh.",
+          "h": "Use: I want a table / I want takeaway / I like hot/cold coffee",
+          "s": "I want a table. I like hot coffee."
+        },
+        {
+          "p": "What would you like to drink?",
+          "m": "Chọn đồ uống cụ thể. Nói bạn thường thích ngọt hay ít ngọt.",
+          "h": "Use: I want ... / I usually like ... sweet / less sweet",
+          "s": "I want a cappuccino. I usually like it less sweet."
+        },
+        {
+          "p": "Do you have a loyalty card?",
+          "m": "Nói bạn có thẻ thành viên hay không. Nói bạn thường dùng thẻ hay không.",
+          "h": "Use: Yes, I have a card / No, I do not have one / I often use it",
+          "s": "No, I do not have one. I often buy coffee here though."
+        },
+        {
+          "p": "We are closing in 20 minutes.",
+          "m": "Xác nhận bạn sẽ uống nhanh hay ở lại. Nói bạn thường về sớm hay muộn.",
+          "h": "Use: I will drink quickly / I will stay / I usually leave early/late",
+          "s": "I will drink quickly. I usually leave early."
+        },
+        {
+          "p": "Would you like a pastry with that?",
+          "m": "Trả lời có muốn bánh kèm không. Nói bạn thường ăn nhẹ lúc nào.",
+          "h": "Use: Yes, please / No, thanks / I usually eat a snack in the morning",
+          "s": "Yes, please. I usually eat a snack in the morning."
+        }
+      ]
+    },
+    {
+      "t": "Chào đón khách tại buổi tiệc nhỏ",
+      "e": [
+        {
+          "p": "Welcome! Do you know the host?",
+          "m": "Nói bạn biết chủ tiệc hay không. Nói bạn đến với ai (tên người đi cùng là placeholder nếu cần).",
+          "h": "Use: I know the host / I came with ...",
+          "s": "I know the host. I came with [studentName]."
+        },
+        {
+          "p": "Can I take your coat?",
+          "m": "Trả lời có hay không cho việc lấy áo khoác. Nói bạn có đang mệt hay nóng.",
+          "h": "Use: Yes, please / No, thanks / I am a bit warm/tired",
+          "s": "Yes, please. I am a bit warm."
+        },
+        {
+          "p": "There are drinks on the table. Do you want wine or juice?",
+          "m": "Chọn rượu hoặc nước trái cây. Nói bạn thường uống rượu hay không.",
+          "h": "Use: I want ... / I do not usually drink alcohol",
+          "s": "I want juice. I do not usually drink alcohol."
+        },
+        {
+          "p": "Please sign the guest book if you like.",
+          "m": "Nói bạn có muốn ký sổ khách không. Nói nếu bạn luôn ký khi đi dự tiệc.",
+          "h": "Use: I will sign / I usually sign / No, thanks",
+          "s": "I will sign. I usually sign at parties."
+        },
+        {
+          "p": "Would you like a quick tour of the house?",
+          "m": "Trả lời có muốn tham quan không. Nói nếu bạn thường nói chuyện hay đi xem.",
+          "h": "Use: Yes, I want a tour / I usually talk to people / No, thanks",
+          "s": "Yes, I want a tour. I usually talk to people later."
+        }
+      ]
+    },
+    {
+      "t": "Tiếp nhận khách đặt dịch vụ làm đẹp",
+      "e": [
+        {
+          "p": "Do you have an appointment for a haircut?",
+          "m": "Xác nhận bạn có hẹn cắt tóc không. Nói bạn muốn cắt ngắn hay giữ dài.",
+          "h": "Use: I have an appointment / I want it short / I want to keep it long",
+          "s": "I have an appointment. I want it short."
+        },
+        {
+          "p": "Would you like a wash before the cut?",
+          "m": "Trả lời có cần gội không. Nói bạn có thường gội đầu ở tiệm không.",
+          "h": "Use: Yes, please / No, thanks / I often wash at the salon",
+          "s": "Yes, please. I often wash my hair at the salon."
+        },
+        {
+          "p": "Do you prefer a simple or fancy style?",
+          "m": "Chọn kiểu đơn giản hay phức tạp. Nói bạn thường thích kiểu nào.",
+          "h": "Use: I prefer a simple style / I usually like ...",
+          "s": "I prefer a simple style. I usually like easy haircuts."
+        },
+        {
+          "p": "We have a small discount today for students.",
+          "m": "Nói bạn có phải là học sinh/sinh viên không (dùng placeholder nếu cần). Nói nếu bạn muốn giảm giá.",
+          "h": "Use: I am a student / I want the discount / I do not need it",
+          "s": "I am a student. I want the discount."
+        },
+        {
+          "p": "Please pay at the counter when you finish.",
+          "m": "Xác nhận bạn sẽ trả tiền ở quầy. Nói bạn thường trả bằng tiền mặt hay thẻ.",
+          "h": "Use: I will pay at the counter / I pay by cash/card",
+          "s": "I will pay at the counter. I will pay by card."
+        }
+      ]
+    },
+    {
+      "t": "Đón khách tại phòng chờ sân bay",
+      "e": [
+        {
+          "p": "Are you checking in here or online?",
+          "m": "Nói bạn check-in ở chỗ này hay đã check-in online. Nói bạn thường check-in như thế nào.",
+          "h": "Use: I am checking in here / I checked in online / I usually check in online",
+          "s": "I am checking in here. I usually check in online."
+        },
+        {
+          "p": "Do you have any luggage to drop?",
+          "m": "Nói bạn có hành lý ký gửi không. Nói bạn có nhiều hành lý hay chỉ một túi nhỏ.",
+          "h": "Use: I have ... bags to drop / I only have a small bag",
+          "s": "I have one bag to drop. I only have a small carry-on."
+        },
+        {
+          "p": "Your flight is delayed by 30 minutes.",
+          "m": "Xác nhận bạn biết thông tin trễ chuyến. Nói nếu bạn vẫn thường xuyên bị trễ chuyến hay không.",
+          "h": "Use: I know / Thank you / I often have delays / I am not often delayed",
+          "s": "I know, thank you. I am not often delayed."
+        },
+        {
+          "p": "Would you like a seat near the window or aisle?",
+          "m": "Chọn chỗ ngồi window hay aisle. Nói bạn thường thích chỗ nào.",
+          "h": "Use: I prefer the window/aisle / I usually like ...",
+          "s": "I prefer the aisle. I usually like the aisle seat."
+        },
+        {
+          "p": "We can arrange a shuttle to the city.",
+          "m": "Trả lời bạn có cần xe đưa vào thành phố không. Nói bạn thường đi taxi hay shuttle.",
+          "h": "Use: Yes, I need a shuttle / I usually take a taxi / No, thanks",
+          "s": "Yes, I need a shuttle. I usually take a taxi."
+        }
+      ]
+    },
+    {
+      "t": "Chào khách tại cửa hàng hoa",
+      "e": [
+        {
+          "p": "Hello, is this for delivery or pickup?",
+          "m": "Nói giao hàng hay bạn đến lấy. Nói bạn thường gửi hoa cho ai (ví dụ: bạn bè).",
+          "h": "Use: It is for delivery/pickup / I usually send to a friend",
+          "s": "It is for delivery. I usually send flowers to a friend."
+        },
+        {
+          "p": "What is the occasion?",
+          "m": "Nói dịp tặng hoa (ví dụ: birthday). Nói bạn muốn hoa đẹp hay đơn giản.",
+          "h": "Use: It is for a birthday / I want a nice/simple bouquet",
+          "s": "It is for a birthday. I want a nice bouquet."
+        },
+        {
+          "p": "Do you prefer roses or mixed flowers?",
+          "m": "Chọn loại hoa. Nói bạn thường thích hoa đỏ hay màu sáng.",
+          "h": "Use: I prefer ... / I usually like red/bright flowers",
+          "s": "I prefer roses. I usually like bright flowers."
+        },
+        {
+          "p": "We can add a small card. What should it say?",
+          "m": "Viết nội dung ngắn cho tấm thiệp (một câu). Nói bạn có muốn thêm tên người gửi.",
+          "h": "Use: Put ... on the card / Add the sender name",
+          "s": "Happy birthday and best wishes. Please add my name as the sender."
+        },
+        {
+          "p": "Delivery will be tomorrow morning. Is that OK?",
+          "m": "Xác nhận bạn đồng ý giao hàng sáng mai hay muốn thay đổi. Nói bạn thường có nhà sáng hay chiều.",
+          "h": "Use: Yes, it is OK / I want to change to ... / I am usually home in the morning/afternoon",
+          "s": "Yes, it is OK. I am usually home in the morning."
+        }
+      ]
+    },
+    {
+      "t": "Tiếp khách tại quầy lễ tân phòng tập gym",
+      "e": [
+        {
+          "p": "Do you have a membership with us?",
+          "m": "Nói bạn có thẻ thành viên hay không. Nói bạn là thành viên thường xuyên hay mới đăng ký.",
+          "h": "Use: I have a membership / I am a regular/new member",
+          "s": "I have a membership. I am a regular member."
+        },
+        {
+          "p": "Would you like a locker or bring your bag?",
+          "m": "Chọn dùng tủ khóa hay mang theo. Nói bạn thường mang ít đồ hay nhiều đồ.",
+          "h": "Use: I want a locker / I bring a small/large bag",
+          "s": "I want a locker. I usually bring a small bag."
+        },
+        {
+          "p": "Do you want a trainer for today?",
+          "m": "Trả lời bạn có cần huấn luyện viên không. Nói bạn có thường tập với huấn luyện viên hay tập một mình.",
+          "h": "Use: Yes, I want a trainer / I usually train alone",
+          "s": "No, thanks. I usually train alone."
+        },
+        {
+          "p": "The class starts at 6 PM and it is often busy.",
+          "m": "Xác nhận bạn sẽ tham gia lớp. Nói bạn thường đến sớm hay đúng giờ.",
+          "h": "Use: I will join the class / I usually arrive early/on time",
+          "s": "I will join the class. I usually arrive on time."
+        },
+        {
+          "p": "Please sign the waiver for our records.",
+          "m": "Nói bạn sẽ ký vào giấy miễn trừ trách nhiệm. Nói nếu bạn cần đọc trước hay nhân viên giúp.",
+          "h": "Use: I will sign it / I want to read it first / Please help me",
+          "s": "I will sign it. I want to read it first."
+        }
+      ]
+    },
+    {
+      "t": "Chào đón khách trong văn phòng / cuộc họp",
+      "e": [
+        {
+          "p": "Good morning, do you have an appointment with Mr. Lee?",
+          "m": "Xác nhận bạn có hẹn với người tên Lee hay không. Nói bạn đến từ công ty hay cá nhân.",
+          "h": "Use: I have an appointment with Mr. Lee / I am from ... company / I am a visitor",
+          "s": "I have an appointment with Mr. Lee. I am from a small company."
+        },
+        {
+          "p": "Please take a seat in the waiting area.",
+          "m": "Xác nhận bạn sẽ ngồi chờ. Nói bạn có thường chờ trong văn phòng không.",
+          "h": "Use: I will sit here / I often wait in the office",
+          "s": "I will sit here. I often wait in the office."
+        },
+        {
+          "p": "Would you like water or coffee?",
+          "m": "Chọn nước hay cà phê. Nói bạn thường uống cà phê hay nước lọc.",
+          "h": "Use: I want water/coffee / I usually drink coffee/water",
+          "s": "I want water. I usually drink water."
+        },
+        {
+          "p": "The meeting will start in ten minutes.",
+          "m": "Xác nhận bạn biết thời gian bắt đầu. Nói nếu bạn thường đến sớm hay muộn.",
+          "h": "Use: I know, thank you / I usually arrive early/late",
+          "s": "I know, thank you. I usually arrive early."
+        },
+        {
+          "p": "Can I take your contact details for follow-up?",
+          "m": "Cho số điện thoại hoặc email ngắn gọn. Nói bạn muốn được liên lạc bằng cách nào.",
+          "h": "Use: My phone/email is ... / Please contact me by phone/email",
+          "s": "My phone is 090-000-0000. Please contact me by phone."
+        }
+      ]
+    },
+    {
+      "t": "Ôn tập: Chào đón và xác nhận đặt chỗ (1)",
+      "e": [
+        {
+          "p": "Hello, welcome back! Do you have a reservation today?",
+          "m": "Xác nhận tên đặt chỗ. Nói số người bạn đặt.",
+          "h": "Use: The reservation is under ... / There are ... people",
+          "s": "The reservation is under [studentName]. There are two people."
+        },
+        {
+          "p": "Can you tell me your booking date and time?",
+          "m": "Nói ngày đặt chỗ ngắn gọn. Nói giờ bạn đã đặt.",
+          "h": "Use: My booking is on ... / at ...",
+          "s": "My booking is on April 10. It is at 7 PM."
+        },
+        {
+          "p": "Do you need any special requests, like a quiet table?",
+          "m": "Nói bạn có yêu cầu đặc biệt không. Nói nếu bạn thường cần chỗ yên tĩnh.",
+          "h": "Use: I need ... / I often need a quiet table / No special requests",
+          "s": "I need a quiet table. I often need a quiet place."
+        },
+        {
+          "p": "We will hold your table for 15 minutes.",
+          "m": "Xác nhận bạn biết thời gian giữ chỗ. Nói bạn sẽ đến đúng giờ hay hơi muộn.",
+          "h": "Use: I know / I will arrive on time / I may be a bit late",
+          "s": "I know. I will arrive on time."
+        },
+        {
+          "p": "Would you like to add a birthday note to the booking?",
+          "m": "Trả lời có muốn thêm lời chúc không. Nói bạn thường chuẩn bị gì cho sinh nhật.",
+          "h": "Use: Yes, please add ... / I usually bring a cake / No, thanks",
+          "s": "Yes, please add 'Happy Birthday!'. I usually bring a small cake."
+        }
+      ]
+    },
+    {
+      "t": "Ôn tập: Chào đón và xác nhận đặt chỗ (2)",
+      "e": [
+        {
+          "p": "Good afternoon, did you book a meeting room?",
+          "m": "Xác nhận bạn đã đặt phòng họp hay chưa. Nói bạn cần phòng cho mấy người.",
+          "h": "Use: I booked a room / It is for ... people",
+          "s": "I booked a room. It is for five people."
+        },
+        {
+          "p": "What equipment do you need: projector or whiteboard?",
+          "m": "Chọn thiết bị bạn cần. Nói bạn thường cần cả hai hay chỉ một cái.",
+          "h": "Use: I need ... / I usually need both/only one",
+          "s": "I need a projector. I usually need only one device."
+        },
+        {
+          "p": "We will prepare water and pens for you.",
+          "m": "Xác nhận bạn muốn nước và bút. Nói bạn thường cần thêm giấy hay không.",
+          "h": "Use: Yes, I want them / I also need paper / No, thanks",
+          "s": "Yes, I want them. I also need paper."
+        },
+        {
+          "p": "Is the meeting for internal staff or guests?",
+          "m": "Nói cuộc họp cho nhân viên hay khách. Nói bạn thường mời bao nhiêu khách.",
+          "h": "Use: It is for staff/guests / I usually invite ... guests",
+          "s": "It is for guests. I usually invite two guests."
+        },
+        {
+          "p": "Please confirm your arrival time again.",
+          "m": "Nói giờ bạn đến chính xác. Nói bạn sẽ đến sớm hay đúng giờ.",
+          "h": "Use: I will arrive at ... / I will come early/on time",
+          "s": "I will arrive at 9 AM. I will come early."
+        }
+      ]
+    },
+    {
+      "t": "Ôn tập: Chào đón và xác nhận đặt chỗ (3)",
+      "e": [
+        {
+          "p": "Welcome! Are you here for a spa booking?",
+          "m": "Xác nhận dịch vụ spa bạn đặt. Nói bạn muốn buổi ngắn hay dài.",
+          "h": "Use: I booked a ... / I want a short/long session",
+          "s": "I booked a massage. I want a long session."
+        },
+        {
+          "p": "Do you have any health issues we should know?",
+          "m": "Nói có vấn đề sức khỏe hay không. Nói nếu bạn thường hay mệt hay khỏe.",
+          "h": "Use: I have ... / I am usually tired/healthy",
+          "s": "I have no health issues. I am usually healthy."
+        },
+        {
+          "p": "Would you like aromatherapy or a regular massage?",
+          "m": "Chọn aromatherapy hay massage thường. Nói bạn thường thích loại nào.",
+          "h": "Use: I want aromatherapy / I prefer regular massage / I usually like ...",
+          "s": "I want aromatherapy. I usually like aromatherapy."
+        },
+        {
+          "p": "We ask guests to arrive 15 minutes early.",
+          "m": "Xác nhận bạn sẽ đến sớm 15 phút. Nói nếu bạn thường đến đúng giờ hay sớm.",
+          "h": "Use: I will arrive 15 minutes early / I usually arrive on time",
+          "s": "I will arrive 15 minutes early. I usually arrive on time."
+        },
+        {
+          "p": "Do you want us to call a taxi after your session?",
+          "m": "Trả lời có cần gọi taxi không. Nói bạn thường tự về hay cần xe.",
+          "h": "Use: Yes, please call a taxi / I usually go home by myself",
+          "s": "Yes, please call a taxi. I usually go home by myself."
+        }
+      ]
+    }
+  ]
+}

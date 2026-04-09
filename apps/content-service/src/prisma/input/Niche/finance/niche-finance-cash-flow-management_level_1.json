@@ -1,0 +1,530 @@
+{
+  "l": 1,
+  "d": [
+    {
+      "t": "Khách thanh toán",
+      "e": [
+        {
+          "p": "How much is this?",
+          "m": "Nói giá của món hàng.",
+          "h": "Use: It is + number + dollars.",
+          "s": "It is 10 dollars."
+        },
+        {
+          "p": "Do you have cash?",
+          "m": "Trả lời có hoặc không.",
+          "h": "Use: Yes, I have / No, I don't have.",
+          "s": "Yes, I have cash."
+        },
+        {
+          "p": "Can you pay now?",
+          "m": "Nói bạn có thể trả ngay hay không.",
+          "h": "Use: I can / I can't + pay.",
+          "s": "I can pay now."
+        },
+        {
+          "p": "Where do you want the receipt?",
+          "m": "Nói nơi bạn muốn nhận hoá đơn.",
+          "h": "Use: I want the receipt + here/at home.",
+          "s": "I want the receipt here."
+        },
+        {
+          "p": "What is your total today?",
+          "m": "Nói tổng tiền hôm nay.",
+          "h": "Use: The total is + number + dollars.",
+          "s": "The total is 25 dollars."
+        }
+      ]
+    },
+    {
+      "t": "Kiểm tra ví tiền",
+      "e": [
+        {
+          "p": "How much money do you have?",
+          "m": "Nói số tiền bạn có.",
+          "h": "Use: I have + number + dollars.",
+          "s": "I have 30 dollars."
+        },
+        {
+          "p": "Do you save money?",
+          "m": "Trả lời bạn có tiết kiệm không.",
+          "h": "Use: Yes, I save / No, I don't.",
+          "s": "Yes, I save money."
+        },
+        {
+          "p": "Where is your money?",
+          "m": "Nói nơi bạn giữ tiền.",
+          "h": "Use: My money is + place.",
+          "s": "My money is in my wallet."
+        },
+        {
+          "p": "Can you pay with a card?",
+          "m": "Trả lời bạn có thể trả bằng thẻ hay không.",
+          "h": "Use: I can / I can't + pay with a card.",
+          "s": "I can't pay with a card."
+        },
+        {
+          "p": "Are there coins in your wallet?",
+          "m": "Nói có đồng xu trong ví hay không.",
+          "h": "Use: Yes, there are / No, there are not.",
+          "s": "Yes, there are some coins."
+        }
+      ]
+    },
+    {
+      "t": "Trả tiền thuê",
+      "e": [
+        {
+          "p": "How much is the rent?",
+          "m": "Nói giá tiền thuê.",
+          "h": "Use: It is + number + dollars.",
+          "s": "It is 200 dollars."
+        },
+        {
+          "p": "Do you pay rent monthly?",
+          "m": "Trả lời bạn trả tiền thuê hàng tháng hay không.",
+          "h": "Use: Yes, I pay / No, I don't.",
+          "s": "Yes, I pay rent monthly."
+        },
+        {
+          "p": "When do you pay rent?",
+          "m": "Nói thời gian bạn trả tiền thuê.",
+          "h": "Use: I pay + every + period.",
+          "s": "I pay every month."
+        },
+        {
+          "p": "Can you pay rent online?",
+          "m": "Trả lời bạn có thể trả tiền thuê trực tuyến hay không.",
+          "h": "Use: I can / I can't + pay online.",
+          "s": "I can pay rent online."
+        },
+        {
+          "p": "Who pays the rent in your house?",
+          "m": "Nói ai trả tiền thuê nhà.",
+          "h": "Use: + Person + pays.",
+          "s": "My father pays the rent."
+        }
+      ]
+    },
+    {
+      "t": "Chi tiêu hàng ngày",
+      "e": [
+        {
+          "p": "How much do you pay for food?",
+          "m": "Nói số tiền bạn trả cho thức ăn.",
+          "h": "Use: I pay + number + dollars.",
+          "s": "I pay 5 dollars for food."
+        },
+        {
+          "p": "Do you buy coffee every day?",
+          "m": "Trả lời bạn mua cà phê hằng ngày hay không.",
+          "h": "Use: Yes, I buy / No, I don't.",
+          "s": "No, I don't buy coffee every day."
+        },
+        {
+          "p": "Where do you buy food?",
+          "m": "Nói nơi bạn mua thức ăn.",
+          "h": "Use: I buy food at + place.",
+          "s": "I buy food at the market."
+        },
+        {
+          "p": "Can you stop spending today?",
+          "m": "Trả lời bạn có thể ngưng chi tiêu hôm nay hay không.",
+          "h": "Use: I can / I can't + stop.",
+          "s": "I can't stop spending today."
+        },
+        {
+          "p": "What is your daily cost?",
+          "m": "Nói tổng chi tiêu hàng ngày.",
+          "h": "Use: My daily cost is + number + dollars.",
+          "s": "My daily cost is 10 dollars."
+        }
+      ]
+    },
+    {
+      "t": "Tiết kiệm cho mục tiêu",
+      "e": [
+        {
+          "p": "Do you save money for a goal?",
+          "m": "Trả lời bạn có tiết kiệm cho một mục tiêu không.",
+          "h": "Use: Yes, I save / No, I don't.",
+          "s": "Yes, I save for a goal."
+        },
+        {
+          "p": "What do you save for?",
+          "m": "Nói mục tiêu bạn tiết kiệm.",
+          "h": "Use: I save for + noun.",
+          "s": "I save for a new phone."
+        },
+        {
+          "p": "How much do you save each week?",
+          "m": "Nói số tiền bạn tiết kiệm mỗi tuần.",
+          "h": "Use: I save + number + dollars every week.",
+          "s": "I save 10 dollars every week."
+        },
+        {
+          "p": "Can you save more money?",
+          "m": "Trả lời bạn có thể tiết kiệm nhiều hơn hay không.",
+          "h": "Use: I can / I can't + save more.",
+          "s": "I can save more money."
+        },
+        {
+          "p": "Where do you keep your savings?",
+          "m": "Nói nơi bạn để tiền tiết kiệm.",
+          "h": "Use: I keep my savings + place.",
+          "s": "I keep my savings in a bank."
+        }
+      ]
+    },
+    {
+      "t": "Theo dõi thu nhập",
+      "e": [
+        {
+          "p": "Do you have income?",
+          "m": "Trả lời bạn có thu nhập không.",
+          "h": "Use: Yes, I have / No, I don't.",
+          "s": "Yes, I have income."
+        },
+        {
+          "p": "How much do you earn?",
+          "m": "Nói số tiền bạn kiếm được.",
+          "h": "Use: I earn + number + dollars.",
+          "s": "I earn 300 dollars."
+        },
+        {
+          "p": "Where do you get money?",
+          "m": "Nói nguồn tiền của bạn (ví dụ: công việc).",
+          "h": "Use: I get money from + job/family.",
+          "s": "I get money from my job."
+        },
+        {
+          "p": "Do you get money every month?",
+          "m": "Trả lời bạn có nhận tiền hàng tháng không.",
+          "h": "Use: Yes, I get / No, I don't.",
+          "s": "Yes, I get money every month."
+        },
+        {
+          "p": "What is your main income?",
+          "m": "Nói nguồn thu chính của bạn.",
+          "h": "Use: My main income is + job.",
+          "s": "My main income is my job."
+        }
+      ]
+    },
+    {
+      "t": "Trả tiền cho nhân viên",
+      "e": [
+        {
+          "p": "Do you pay staff?",
+          "m": "Trả lời bạn có trả tiền cho nhân viên không.",
+          "h": "Use: Yes, I pay / No, I don't.",
+          "s": "No, I don't pay staff."
+        },
+        {
+          "p": "How much do you pay each worker?",
+          "m": "Nói số tiền bạn trả cho mỗi nhân viên.",
+          "h": "Use: I pay + number + dollars.",
+          "s": "I pay 50 dollars each worker."
+        },
+        {
+          "p": "When do you pay workers?",
+          "m": "Nói khi bạn trả lương cho nhân viên.",
+          "h": "Use: I pay + every + period.",
+          "s": "I pay every week."
+        },
+        {
+          "p": "Can you pay the worker today?",
+          "m": "Trả lời bạn có thể trả nhân viên hôm nay hay không.",
+          "h": "Use: I can / I can't + pay today.",
+          "s": "I can pay the worker today."
+        },
+        {
+          "p": "Who pays the worker in your shop?",
+          "m": "Nói ai trả tiền cho nhân viên ở cửa hàng bạn.",
+          "h": "Use: + Person + pays.",
+          "s": "I pay the worker."
+        }
+      ]
+    },
+    {
+      "t": "Mua hàng và thanh toán",
+      "e": [
+        {
+          "p": "Do you buy goods today?",
+          "m": "Trả lời bạn có mua hàng hôm nay hay không.",
+          "h": "Use: Yes, I buy / No, I don't.",
+          "s": "Yes, I buy goods today."
+        },
+        {
+          "p": "How much is the food?",
+          "m": "Nói giá thức ăn.",
+          "h": "Use: It is + number + dollars.",
+          "s": "It is 8 dollars."
+        },
+        {
+          "p": "Where do you pay?",
+          "m": "Nói nơi bạn thanh toán.",
+          "h": "Use: I pay at + place.",
+          "s": "I pay at the store."
+        },
+        {
+          "p": "Can you pay now or later?",
+          "m": "Nói bạn trả ngay hay trả sau.",
+          "h": "Use: I pay now / I pay later.",
+          "s": "I pay later."
+        },
+        {
+          "p": "What do you buy with your money?",
+          "m": "Nói một món bạn mua bằng tiền của bạn.",
+          "h": "Use: I buy + noun.",
+          "s": "I buy food."
+        }
+      ]
+    },
+    {
+      "t": "Giao dịch với ngân hàng",
+      "e": [
+        {
+          "p": "Do you go to the bank?",
+          "m": "Trả lời bạn có đi ngân hàng không.",
+          "h": "Use: Yes, I go / No, I don't.",
+          "s": "Yes, I go to the bank."
+        },
+        {
+          "p": "What do you do at the bank?",
+          "m": "Nói việc bạn làm ở ngân hàng.",
+          "h": "Use: I + verb + at the bank.",
+          "s": "I put money in the bank."
+        },
+        {
+          "p": "How much do you put in the bank?",
+          "m": "Nói số tiền bạn gửi vào ngân hàng.",
+          "h": "Use: I put + number + dollars.",
+          "s": "I put 50 dollars in the bank."
+        },
+        {
+          "p": "Can you withdraw cash?",
+          "m": "Trả lời bạn có thể rút tiền mặt hay không.",
+          "h": "Use: I can / I can't + withdraw cash.",
+          "s": "I can withdraw cash."
+        },
+        {
+          "p": "Where is your bank account?",
+          "m": "Nói nơi tài khoản của bạn (ví dụ: ngân hàng địa phương hoặc online).",
+          "h": "Use: My account is at + place / online.",
+          "s": "My account is at the local bank."
+        }
+      ]
+    },
+    {
+      "t": "Quản lý hóa đơn",
+      "e": [
+        {
+          "p": "Do you have a bill today?",
+          "m": "Trả lời bạn có hoá đơn hôm nay hay không.",
+          "h": "Use: Yes, I have / No, I don't.",
+          "s": "Yes, I have a bill today."
+        },
+        {
+          "p": "How much is the electricity bill?",
+          "m": "Nói số tiền hoá đơn điện.",
+          "h": "Use: It is + number + dollars.",
+          "s": "It is 20 dollars."
+        },
+        {
+          "p": "When do you pay the bill?",
+          "m": "Nói khi nào bạn trả hoá đơn.",
+          "h": "Use: I pay + every + period.",
+          "s": "I pay every month."
+        },
+        {
+          "p": "Can you pay the bill now?",
+          "m": "Trả lời bạn có thể trả hoá đơn bây giờ hay không.",
+          "h": "Use: I can / I can't + pay now.",
+          "s": "I can pay the bill now."
+        },
+        {
+          "p": "Who pays the bills in your home?",
+          "m": "Nói ai trả hoá đơn trong nhà bạn.",
+          "h": "Use: + Person + pays the bills.",
+          "s": "My mother pays the bills."
+        }
+      ]
+    },
+    {
+      "t": "Kiểm tra số dư tài khoản",
+      "e": [
+        {
+          "p": "Is there money in your account?",
+          "m": "Trả lời có tiền trong tài khoản hay không.",
+          "h": "Use: Yes, there is / No, there is not.",
+          "s": "Yes, there is money in my account."
+        },
+        {
+          "p": "How much money is in your account?",
+          "m": "Nói số dư trong tài khoản.",
+          "h": "Use: There is + number + dollars.",
+          "s": "There is 100 dollars in my account."
+        },
+        {
+          "p": "Do you check your account every day?",
+          "m": "Trả lời bạn có kiểm tra tài khoản hàng ngày không.",
+          "h": "Use: Yes, I check / No, I don't.",
+          "s": "No, I don't check every day."
+        },
+        {
+          "p": "Can you see your account online?",
+          "m": "Trả lời bạn có thể xem tài khoản trực tuyến hay không.",
+          "h": "Use: I can / I can't + see online.",
+          "s": "I can see my account online."
+        },
+        {
+          "p": "Where is your account money from?",
+          "m": "Nói tiền trong tài khoản đến từ đâu.",
+          "h": "Use: My money is from + source.",
+          "s": "My account money is from my job."
+        }
+      ]
+    },
+    {
+      "t": "Tính tiền bán hàng",
+      "e": [
+        {
+          "p": "Do you sell things?",
+          "m": "Trả lời bạn có bán đồ hay không.",
+          "h": "Use: Yes, I sell / No, I don't.",
+          "s": "Yes, I sell things."
+        },
+        {
+          "p": "How much is one item?",
+          "m": "Nói giá một món hàng.",
+          "h": "Use: One item is + number + dollars.",
+          "s": "One item is 15 dollars."
+        },
+        {
+          "p": "How many items do you sell?",
+          "m": "Nói số lượng bạn bán.",
+          "h": "Use: I sell + number + items.",
+          "s": "I sell 10 items."
+        },
+        {
+          "p": "Can you give change?",
+          "m": "Trả lời bạn có thể trả lại tiền thừa hay không.",
+          "h": "Use: I can / I can't + give change.",
+          "s": "I can give change."
+        },
+        {
+          "p": "What is your total sales today?",
+          "m": "Nói tổng doanh thu hôm nay.",
+          "h": "Use: My total sales are + number + dollars.",
+          "s": "My total sales are 150 dollars."
+        }
+      ]
+    },
+    {
+      "t": "Ôn tập: Thanh toán và ví",
+      "e": [
+        {
+          "p": "How much is this item?",
+          "m": "Nói giá của món hàng.",
+          "h": "Use: It is + number + dollars.",
+          "s": "It is 12 dollars."
+        },
+        {
+          "p": "Do you have cash now?",
+          "m": "Trả lời bạn có tiền mặt ngay bây giờ hay không.",
+          "h": "Use: Yes, I have / No, I don't have.",
+          "s": "No, I don't have cash now."
+        },
+        {
+          "p": "Where is your money?",
+          "m": "Nói nơi bạn giữ tiền.",
+          "h": "Use: My money is in + place.",
+          "s": "My money is in my wallet."
+        },
+        {
+          "p": "Can you pay with card?",
+          "m": "Trả lời bạn có thể trả bằng thẻ hay không.",
+          "h": "Use: I can / I can't + pay with a card.",
+          "s": "I can pay with a card."
+        },
+        {
+          "p": "What is your total cost today?",
+          "m": "Nói tổng chi phí hôm nay.",
+          "h": "Use: The total is + number + dollars.",
+          "s": "The total is 30 dollars."
+        }
+      ]
+    },
+    {
+      "t": "Ôn tập: Tiết kiệm và thu nhập",
+      "e": [
+        {
+          "p": "Do you save money?",
+          "m": "Trả lời bạn có tiết kiệm tiền hay không.",
+          "h": "Use: Yes, I save / No, I don't.",
+          "s": "Yes, I save money."
+        },
+        {
+          "p": "What do you save for?",
+          "m": "Nói mục tiêu bạn tiết kiệm.",
+          "h": "Use: I save for + noun.",
+          "s": "I save for school."
+        },
+        {
+          "p": "How much do you earn each month?",
+          "m": "Nói số tiền bạn kiếm mỗi tháng.",
+          "h": "Use: I earn + number + dollars each month.",
+          "s": "I earn 200 dollars each month."
+        },
+        {
+          "p": "Can you save 10 dollars this week?",
+          "m": "Trả lời bạn có thể tiết kiệm 10 đô la tuần này hay không.",
+          "h": "Use: I can / I can't + save + amount.",
+          "s": "I can save 10 dollars this week."
+        },
+        {
+          "p": "Where do you keep your income?",
+          "m": "Nói nơi bạn giữ tiền kiếm được.",
+          "h": "Use: I keep my income in + place.",
+          "s": "I keep my income in the bank."
+        }
+      ]
+    },
+    {
+      "t": "Ôn tập: Hóa đơn và ngân hàng",
+      "e": [
+        {
+          "p": "Do you have a bill to pay?",
+          "m": "Trả lời bạn có hoá đơn cần trả không.",
+          "h": "Use: Yes, I have / No, I don't.",
+          "s": "Yes, I have a bill to pay."
+        },
+        {
+          "p": "How much is the water bill?",
+          "m": "Nói số tiền hoá đơn nước.",
+          "h": "Use: It is + number + dollars.",
+          "s": "It is 15 dollars."
+        },
+        {
+          "p": "When do you pay the bill?",
+          "m": "Nói khi nào bạn trả hoá đơn.",
+          "h": "Use: I pay + every + period.",
+          "s": "I pay every month."
+        },
+        {
+          "p": "Can you go to the bank today?",
+          "m": "Trả lời bạn có thể đi ngân hàng hôm nay hay không.",
+          "h": "Use: I can / I can't + go today.",
+          "s": "I can't go to the bank today."
+        },
+        {
+          "p": "Where is your bank?",
+          "m": "Nói nơi ngân hàng của bạn.",
+          "h": "Use: My bank is + place.",
+          "s": "My bank is near my house."
+        }
+      ]
+    }
+  ]
+}

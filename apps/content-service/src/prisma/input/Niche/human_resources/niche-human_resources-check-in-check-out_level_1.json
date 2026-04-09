@@ -1,0 +1,600 @@
+{
+  "l": 2,
+  "d": [
+    {
+      "t": "Đến khách sạn",
+      "e": [
+        {
+          "p": "Welcome. Do you have a reservation?",
+          "m": "Cho biết tên của bạn.\nNói bạn có đặt phòng hay không.",
+          "h": "My name is... / I have a reservation / I don't have a reservation",
+          "s": "My name is [studentName]. I have a reservation."
+        },
+        {
+          "p": "Can I have your name, please?",
+          "m": "Nói tên đầy đủ.\nNói bạn đến với ai (một mình hoặc cùng ai).",
+          "h": "I am... / I am with..., or alone",
+          "s": "I am [studentName]. I am with one friend."
+        },
+        {
+          "p": "Do you have an ID or passport?",
+          "m": "Nói bạn có ID hay hộ chiếu không.\nNói bạn đang ở thành phố nào (nơi cư trú).",
+          "h": "I have... / I live in...",
+          "s": "I have an ID. I live in [studentCity]."
+        },
+        {
+          "p": "How many nights will you stay?",
+          "m": "Nói số đêm bạn ở.\nNói mục đích ở (du lịch hoặc công tác).",
+          "h": "for + số đêm / I am here for...",
+          "s": "I will stay for two nights. I am here for holiday."
+        },
+        {
+          "p": "Do you prefer a smoking or non-smoking room?",
+          "m": "Nói bạn muốn phòng hút thuốc hay không.\nNói bạn cần phòng yên tĩnh hay không.",
+          "h": "I prefer... / I need a quiet room / I don't need...",
+          "s": "I prefer a non-smoking room. I need a quiet room."
+        }
+      ]
+    },
+    {
+      "t": "Xác nhận đặt phòng",
+      "e": [
+        {
+          "p": "What name is the reservation under?",
+          "m": "Nói tên trên đặt phòng.\nNói nếu tên khác với tên đăng ký (nếu có).",
+          "h": "The reservation is under... / It is under a different name",
+          "s": "The reservation is under [studentName]. It is not under another name."
+        },
+        {
+          "p": "Can I see your booking number?",
+          "m": "Đọc số đặt phòng nếu bạn có.\nNói nếu bạn không nhớ số đặt phòng.",
+          "h": "It is... / I don't remember",
+          "s": "The booking number is 12345. I don't remember other details."
+        },
+        {
+          "p": "Did you book a single or double room?",
+          "m": "Nói bạn đã đặt phòng đơn hay đôi.\nNói nếu bạn muốn thay đổi kiểu phòng.",
+          "h": "I booked a... / I want to change to...",
+          "s": "I booked a double room. I want to change to a single room."
+        },
+        {
+          "p": "Is breakfast included in your booking?",
+          "m": "Nói có hay không có bữa sáng.\nNói nếu bạn muốn thêm bữa sáng.",
+          "h": "Breakfast is... / I want to add breakfast",
+          "s": "Breakfast is included. I do not want to add breakfast."
+        },
+        {
+          "p": "Do you need a late check-in?",
+          "m": "Nói bạn sẽ đến muộn hay không.\nNói giờ dự kiến bạn đến.",
+          "h": "I will arrive at... / I won't arrive late",
+          "s": "I will arrive late. I will arrive at 11 pm."
+        }
+      ]
+    },
+    {
+      "t": "Nhận chìa khóa và hướng dẫn phòng",
+      "e": [
+        {
+          "p": "Here is your room key. Your room is on the third floor.",
+          "m": "Xác nhận bạn hiểu vị trí phòng.\nNói bạn cần thang máy hay cầu thang.",
+          "h": "My room is... / I need the elevator / I use the stairs",
+          "s": "I understand my room is on the third floor. I need the elevator."
+        },
+        {
+          "p": "The Wi-Fi password is on the card.",
+          "m": "Nói bạn có thấy mật khẩu không.\nNói bạn có cần trợ giúp kết nối Wi‑Fi.",
+          "h": "I can see... / I need help / I do not need help",
+          "s": "I can see the Wi-Fi password. I do not need help connecting."
+        },
+        {
+          "p": "Breakfast is from 7 to 10 am in the lobby.",
+          "m": "Nói bạn sẽ ăn sáng ở đâu.\nNói bạn thường ăn sáng lúc mấy giờ.",
+          "h": "I will eat... / I usually eat at...",
+          "s": "I will eat breakfast in the lobby. I usually eat at 8 am."
+        },
+        {
+          "p": "If you need anything, call reception.",
+          "m": "Nói bạn có cần gọi lễ tân không.\nNói bạn muốn họ gọi taxi cho bạn hay không.",
+          "h": "I need... / Yes, please call a taxi / No, thank you",
+          "s": "I need help with my luggage. Yes, please call a taxi."
+        },
+        {
+          "p": "Do you want help with your bags?",
+          "m": "Nói bạn có cần mang hành lý lên phòng không.\nNói bạn có muốn nhân viên đem hành lý lên ngay hay sẽ tự mang.",
+          "h": "I need help / I will carry the bags myself",
+          "s": "I need help with my bags. Please bring them to my room now."
+        }
+      ]
+    },
+    {
+      "t": "Thanh toán và đặt cọc",
+      "e": [
+        {
+          "p": "How will you pay for the room?",
+          "m": "Nói phương thức thanh toán (tiền mặt hoặc thẻ).\nNói bạn có muốn trả trước hay khi trả phòng.",
+          "h": "I will pay by... / I will pay now / I will pay later",
+          "s": "I will pay by card. I will pay now."
+        },
+        {
+          "p": "We need a small deposit for incidentals.",
+          "m": "Nói bạn đồng ý trả đặt cọc hay không.\nNói số tiền đặt cọc bạn sẽ trả (dùng từ số đơn giản).",
+          "h": "I agree / I don't agree / The amount is...",
+          "s": "I agree to the deposit. I will pay fifty dollars."
+        },
+        {
+          "p": "Would you like a receipt now?",
+          "m": "Nói bạn có muốn biên lai ngay không.\nNói nếu bạn muốn biên lai giấy hoặc email.",
+          "h": "Yes, I want... / No, thanks / email / paper",
+          "s": "Yes, I want a receipt now. Please email it to me."
+        },
+        {
+          "p": "We accept cash and credit cards.",
+          "m": "Nói bạn sẽ trả bằng tiền mặt hay thẻ.\nNói nếu bạn cần máy POS di động.",
+          "h": "I will pay with... / I need a mobile POS",
+          "s": "I will pay with cash. I do not need a mobile POS."
+        },
+        {
+          "p": "Do you want to add a city tax to your bill?",
+          "m": "Nói bạn chấp nhận thuế thành phố hay không.\nNói nếu bạn muốn xem hóa đơn trước khi trả.",
+          "h": "I accept... / I want to see the bill",
+          "s": "I accept the city tax. I want to see the bill first."
+        }
+      ]
+    },
+    {
+      "t": "Yêu cầu về loại phòng",
+      "e": [
+        {
+          "p": "Do you need a room with one bed or two beds?",
+          "m": "Chọn phòng một giường hay hai giường.\nNói bạn cần giường lớn hay giường nhỏ.",
+          "h": "I need... / I need a big/ small bed",
+          "s": "I need a room with one bed. I need a big bed."
+        },
+        {
+          "p": "Would you like a room with a view?",
+          "m": "Nói bạn muốn phòng có view hay không.\nNói bạn thích hướng nhìn ra phố hay ra vườn.",
+          "h": "I want... / I prefer... (street/garden)",
+          "s": "I want a room with a view. I prefer a garden view."
+        },
+        {
+          "p": "Do you need a room near the elevator?",
+          "m": "Nói bạn cần phòng gần thang máy hay không.\nNói nếu bạn muốn phòng ở cuối hành lang.",
+          "h": "I need... / I prefer the end of the corridor",
+          "s": "I do not need a room near the elevator. I prefer the end of the corridor."
+        },
+        {
+          "p": "Is a room on a high floor okay for you?",
+          "m": "Nói bạn đồng ý ở tầng cao hay không.\nNói bạn có sợ độ cao hay không.",
+          "h": "Yes, it's okay / No, I am afraid of heights",
+          "s": "Yes, a high floor is okay. I am not afraid of heights."
+        },
+        {
+          "p": "Do you need a room with air conditioning?",
+          "m": "Nói bạn cần điều hòa hay không.\nNói bạn có muốn điều chỉnh nhiệt độ bây giờ không.",
+          "h": "I need... / I want to set the temperature now",
+          "s": "I need a room with air conditioning. I want to set the temperature now."
+        }
+      ]
+    },
+    {
+      "t": "Thêm dịch vụ trong khi lưu trú",
+      "e": [
+        {
+          "p": "Would you like daily housekeeping?",
+          "m": "Nói bạn muốn dọn phòng hàng ngày hay không.\nNói bạn muốn dọn vào buổi sáng hay buổi chiều.",
+          "h": "I want... / in the morning / in the afternoon",
+          "s": "I want daily housekeeping. Please clean in the morning."
+        },
+        {
+          "p": "Do you need extra towels?",
+          "m": "Nói bạn cần thêm khăn hay không.\nNói số khăn bạn cần.",
+          "h": "I need... towels / number",
+          "s": "I need extra towels. I need two towels."
+        },
+        {
+          "p": "Would you like room service for dinner?",
+          "m": "Nói bạn có muốn gọi dịch vụ phòng cho bữa tối không.\nNói bạn muốn món ăn đơn giản hay món nóng.",
+          "h": "Yes, I want... / a simple meal / a hot meal",
+          "s": "Yes, I want room service for dinner. I want a hot meal."
+        },
+        {
+          "p": "Can we arrange a wake-up call for you?",
+          "m": "Nói bạn có muốn gọi đánh thức không.\nNói giờ bạn muốn được gọi.",
+          "h": "I want a wake-up call at... / I don't need one",
+          "s": "I want a wake-up call. Please call me at 6 am."
+        },
+        {
+          "p": "Do you need laundry service?",
+          "m": "Nói bạn cần dịch vụ giặt ủi hay không.\nNói bạn muốn giặt ít đồ hay nhiều đồ.",
+          "h": "I need... / a few clothes / many clothes",
+          "s": "I need laundry service. I have a few clothes to wash."
+        }
+      ]
+    },
+    {
+      "t": "Yêu cầu khi nhận phòng trễ/sớm",
+      "e": [
+        {
+          "p": "We can offer early check-in for a fee.",
+          "m": "Nói bạn có muốn nhận phòng sớm không.\nNói bạn có trả thêm phí hay không.",
+          "h": "I want early check-in / I will pay the fee / I don't want",
+          "s": "I want early check-in. I will pay the fee."
+        },
+        {
+          "p": "Late check-out is available until 2 pm.",
+          "m": "Nói bạn có muốn trả phòng muộn không.\nNói bạn sẽ ở đến mấy giờ.",
+          "h": "I want late check-out / I will stay until...",
+          "s": "I want late check-out. I will stay until 1 pm."
+        },
+        {
+          "p": "If the room is not ready, you can wait in the lobby.",
+          "m": "Nói bạn có muốn chờ ở sảnh không.\nNói bạn muốn uống nước trong lúc chờ hay không.",
+          "h": "I will wait / I want a drink / I don't want a drink",
+          "s": "I will wait in the lobby. I want a glass of water."
+        },
+        {
+          "p": "We can store your luggage if you arrive early.",
+          "m": "Nói bạn có cần gửi hành lý không.\nNói bạn sẽ quay lại lấy hành lý khi nào.",
+          "h": "I will store my luggage / I will pick it up at...",
+          "s": "I will store my luggage. I will pick it up at 3 pm."
+        },
+        {
+          "p": "Would you like a temporary room while you wait?",
+          "m": "Nói bạn có muốn phòng tạm không.\nNói bạn muốn ở phòng đó bao lâu.",
+          "h": "I want a temporary room / for... / I don't want",
+          "s": "I want a temporary room. I will use it for one hour."
+        }
+      ]
+    },
+    {
+      "t": "Sự cố trong phòng",
+      "e": [
+        {
+          "p": "Is the air conditioning working in your room?",
+          "m": "Nói điều hòa có hoạt động hay không.\nNói bạn muốn nhân viên tới kiểm tra hay không.",
+          "h": "It is working / It is not working / Please send someone",
+          "s": "The air conditioning is not working. Please send someone to check."
+        },
+        {
+          "p": "We can send maintenance now. Is there a problem with hot water?",
+          "m": "Nói nước nóng có vấn đề hay không.\nNói bạn cần nước nóng ngay hay có thể chờ.",
+          "h": "Hot water is not working / I need it now / I can wait",
+          "s": "Hot water is not working. I need hot water now."
+        },
+        {
+          "p": "Are the lights okay in your room?",
+          "m": "Nói đèn có sáng hay không.\nNói bạn muốn đổi phòng hay sửa ở đó.",
+          "h": "The lights are... / I want to change room / Repair here",
+          "s": "The lights are dim. I want staff to repair them."
+        },
+        {
+          "p": "We can send housekeeping if the bathroom is dirty.",
+          "m": "Nói phòng tắm có bẩn không.\nNói bạn muốn dọn ngay hay sau.",
+          "h": "The bathroom is... / Now / Later",
+          "s": "The bathroom is dirty. Please clean it now."
+        },
+        {
+          "p": "Is the key card working to open your door?",
+          "m": "Nói thẻ mở cửa có hoạt động không.\nNói bạn cần thẻ mới hay bạn muốn thử lại.",
+          "h": "The card works / It does not work / I need a new card",
+          "s": "The key card does not work. I need a new card."
+        }
+      ]
+    },
+    {
+      "t": "Khách thêm người và giường phụ",
+      "e": [
+        {
+          "p": "How many guests are staying in the room?",
+          "m": "Nói số người ở trong phòng.\nNói nếu có trẻ em hay không.",
+          "h": "There are... guests / Yes, there is a child / No child",
+          "s": "There are two guests in the room. There is one child."
+        },
+        {
+          "p": "Do you need an extra bed?",
+          "m": "Nói bạn có cần giường phụ hay không.\nNói bạn muốn giường phụ ngay hay sau.",
+          "h": "I need an extra bed / now / later",
+          "s": "I need an extra bed. Please bring it now."
+        },
+        {
+          "p": "We charge a small fee for extra guests.",
+          "m": "Nói bạn chấp nhận phí phụ thu hay không.\nNói bạn muốn thanh toán phí bằng thẻ hay tiền mặt.",
+          "h": "I accept the fee / I will pay by... / I will pay cash",
+          "s": "I accept the extra guest fee. I will pay by card."
+        },
+        {
+          "p": "Please tell us the age of the child for the extra bed.",
+          "m": "Nói tuổi của trẻ.\nNói trẻ có cần nôi (cot) hay không.",
+          "h": "The child is... years old / needs a cot / does not need",
+          "s": "The child is five years old. The child needs a cot."
+        },
+        {
+          "p": "Can we add another person to the booking?",
+          "m": "Nói bạn muốn thêm người vào đặt phòng hay không.\nNói tên người thêm vào.",
+          "h": "Yes, add someone / No / The name is...",
+          "s": "Yes, please add another person. The name is John."
+        }
+      ]
+    },
+    {
+      "t": "Tiện nghi khách sạn",
+      "e": [
+        {
+          "p": "Do you want to use the swimming pool?",
+          "m": "Nói bạn có muốn bơi hay không.\nNói bạn sẽ bơi sáng hay chiều.",
+          "h": "I want to swim / in the morning / in the afternoon",
+          "s": "I want to use the swimming pool. I will swim in the afternoon."
+        },
+        {
+          "p": "Is the gym open 24 hours?",
+          "m": "Hỏi giờ mở cửa phòng gym.\nNói bạn muốn tập vào buổi sáng hay tối.",
+          "h": "The gym is open... / I want to exercise in the morning",
+          "s": "The gym is open from 6 am to 10 pm. I want to exercise in the morning."
+        },
+        {
+          "p": "We have a shuttle to the city center. Do you need a ride?",
+          "m": "Nói bạn có cần xe đưa đón không.\nNói bạn muốn đi mấy giờ.",
+          "h": "I need a ride / at... / I don't need a ride",
+          "s": "I need a shuttle to the city center. I want to go at 9 am."
+        },
+        {
+          "p": "Breakfast is buffet. Do you have dietary needs?",
+          "m": "Nói bạn có nhu cầu ăn kiêng hay không.\nNói nếu bạn cần đồ ăn chay hay không.",
+          "h": "I have dietary needs / I need vegetarian food / no",
+          "s": "I have dietary needs. I need vegetarian food."
+        },
+        {
+          "p": "Our spa offers massages. Would you like to book one?",
+          "m": "Nói bạn có muốn đặt spa không.\nNói bạn muốn massage bao nhiêu phút.",
+          "h": "Yes, I want a... minute massage / No",
+          "s": "Yes, I want to book the spa. I want a 60 minute massage."
+        }
+      ]
+    },
+    {
+      "t": "Khi trả phòng",
+      "e": [
+        {
+          "p": "Are you ready to check out?",
+          "m": "Nói bạn đã sẵn sàng trả phòng hay chưa.\nNói bạn đã đóng gói xong hành lý hay chưa.",
+          "h": "I am ready / I am not ready / packed / not packed",
+          "s": "I am ready to check out. I have packed my luggage."
+        },
+        {
+          "p": "Would you like a copy of your bill?",
+          "m": "Nói bạn có muốn bản sao hóa đơn không.\nNói bạn muốn nhận hóa đơn giấy hay email.",
+          "h": "Yes, please / No, thanks / email / paper",
+          "s": "Yes, please give me a copy of my bill. Email it to me."
+        },
+        {
+          "p": "Did you use the minibar or any paid services?",
+          "m": "Nói bạn có dùng minibar hay dịch vụ trả phí không.\nLiệt kê một dịch vụ nếu có.",
+          "h": "I used... / I did not use / used minibar / laundry",
+          "s": "I used the minibar. I also used the laundry service."
+        },
+        {
+          "p": "Do you need transport to the airport?",
+          "m": "Nói bạn có cần xe đến sân bay không.\nNói giờ bay hoặc giờ bạn muốn đi.",
+          "h": "I need transport / I want to leave at... / no",
+          "s": "I need transport to the airport. I want to leave at 10 am."
+        },
+        {
+          "p": "Please return the key at the desk when you leave.",
+          "m": "Xác nhận bạn sẽ trả chìa khóa hay giữ lại.\nNói bạn sẽ đi ngay hay ở lại chờ.",
+          "h": "I will return the key / I will keep it / I will leave now / I will wait",
+          "s": "I will return the key at the desk. I will leave now."
+        }
+      ]
+    },
+    {
+      "t": "Hóa đơn và phí phát sinh",
+      "e": [
+        {
+          "p": "There is an extra charge for late checkout.",
+          "m": "Nói bạn có biết phí trả muộn không.\nNói bạn có đồng ý trả phí đó hay không.",
+          "h": "I know the fee / I agree to pay / I don't agree",
+          "s": "I know the late checkout fee. I agree to pay it."
+        },
+        {
+          "p": "Your minibar usage is on the bill.",
+          "m": "Xác nhận bạn chấp nhận khoản phí minibar.\nNói nếu bạn muốn kiểm tra chi tiết hóa đơn.",
+          "h": "I accept the charge / I want to check details",
+          "s": "I accept the minibar charge. I want to check the bill details."
+        },
+        {
+          "p": "We added a city tax to the final bill.",
+          "m": "Nói bạn có biết về thuế thành phố không.\nNói bạn muốn trả bằng thẻ hay tiền mặt.",
+          "h": "I know about the tax / I will pay by... / cash / card",
+          "s": "I know about the city tax. I will pay by card."
+        },
+        {
+          "p": "Do you want to split the bill between two cards?",
+          "m": "Nói bạn có muốn chia hóa đơn không.\nNói bạn sẽ dùng bao nhiêu thẻ để trả.",
+          "h": "I want to split / I will use... cards / one / two",
+          "s": "I want to split the bill. I will use two cards."
+        },
+        {
+          "p": "We can print a detailed invoice for your company.",
+          "m": "Nói bạn có cần hóa đơn công ty hay không.\nNói tên công ty hoặc 'no' nếu không cần.",
+          "h": "I need a company invoice / The company name is... / No",
+          "s": "I need a company invoice. The company name is [studentJob] Ltd."
+        }
+      ]
+    },
+    {
+      "t": "Hành lý và vận chuyển",
+      "e": [
+        {
+          "p": "Do you need help with your luggage to the car?",
+          "m": "Nói bạn có cần mang hành lý ra xe không.\nNói bạn muốn ra xe ngay hay sau vài phút.",
+          "h": "I need help / now / in a few minutes",
+          "s": "I need help with my luggage to the car. Please wait five minutes."
+        },
+        {
+          "p": "We can book a taxi for you now.",
+          "m": "Nói bạn có muốn đặt taxi ngay không.\nNói bạn muốn đi đến địa chỉ nào.",
+          "h": "Yes, book a taxi now / No / to address...",
+          "s": "Yes, book a taxi now. I want to go to the airport."
+        },
+        {
+          "p": "Is your flight early in the morning?",
+          "m": "Nói giờ chuyến bay của bạn.\nNói bạn muốn đặt xe đi sân bay trước giờ bay bao lâu.",
+          "h": "My flight is at... / I want the car... before",
+          "s": "My flight is at 8 am. I want the car one hour before."
+        },
+        {
+          "p": "We offer luggage storage after check-out.",
+          "m": "Nói bạn có muốn gửi hành lý sau khi trả phòng không.\nNói bạn sẽ lấy hành lý vào lúc mấy giờ.",
+          "h": "I want to store luggage / I will pick up at...",
+          "s": "I want to store my luggage after check-out. I will pick it up at 4 pm."
+        },
+        {
+          "p": "Do you need a shuttle to the train station?",
+          "m": "Nói bạn cần xe đưa đến ga tàu hay không.\nNói bạn muốn đi ngay hay sau.",
+          "h": "I need a shuttle / now / later",
+          "s": "I need a shuttle to the train station. I want to go now."
+        }
+      ]
+    },
+    {
+      "t": "Kiểm tra giấy tờ và bảo mật",
+      "e": [
+        {
+          "p": "Please sign here for the registration form.",
+          "m": "Xác nhận bạn sẽ ký tên.\nNói bạn có muốn xem form trước khi ký không.",
+          "h": "I will sign / I want to see it first / no",
+          "s": "I will sign the registration form. I want to see it first."
+        },
+        {
+          "p": "We need a copy of your ID for our records.",
+          "m": "Nói bạn có thể cho bản sao ID không.\nNói bạn muốn nhân viên photo giúp hay tự photo.",
+          "h": "I can give a copy / Staff can copy / I will copy",
+          "s": "I can give a copy of my ID. Please have the staff make the copy."
+        },
+        {
+          "p": "For safety, we ask guests to lock their doors.",
+          "m": "Xác nhận bạn sẽ khóa cửa khi ra ngoài.\nNói bạn có cần thêm khóa an toàn không.",
+          "h": "I will lock the door / I need an extra lock / no",
+          "s": "I will lock my door when I go out. I do not need an extra lock."
+        },
+        {
+          "p": "We can store valuables in the safe at reception.",
+          "m": "Nói bạn có muốn gửi đồ quý vào két không.\nNói bạn sẽ lấy đồ đó trước khi rời khách sạn hay không.",
+          "h": "I want to store valuables / I will take them before I leave / no",
+          "s": "I want to store my valuables in the safe. I will take them before I leave."
+        },
+        {
+          "p": "Do you agree to our hotel's safety rules?",
+          "m": "Nói bạn có đồng ý với nội quy an toàn không.\nNói bạn có câu hỏi về nội quy không.",
+          "h": "I agree / I don't agree / I have a question",
+          "s": "I agree to the hotel's safety rules. I do not have any questions."
+        }
+      ]
+    },
+    {
+      "t": "Ôn tập: Nhận phòng tổng hợp",
+      "e": [
+        {
+          "p": "Welcome. How can I help with your check-in today?",
+          "m": "Cho biết tên và số đặt phòng.\nNói bạn cần phòng đơn hay đôi.",
+          "h": "My name is... / booking number is... / I need a single/double",
+          "s": "My name is [studentName]. I need a double room."
+        },
+        {
+          "p": "Do you need any help with luggage or directions to your room?",
+          "m": "Nói bạn có cần giúp hành lý không.\nNói bạn có muốn hướng dẫn nhanh về phòng không.",
+          "h": "I need help / I need directions / no",
+          "s": "I need help with my luggage. Yes, I want quick directions to my room."
+        },
+        {
+          "p": "Please confirm your payment method for check-in.",
+          "m": "Nói bạn trả bằng thẻ hay tiền mặt.\nNói bạn có muốn thanh toán trước không.",
+          "h": "I will pay by... / I will pay now / I will pay later",
+          "s": "I will pay by card. I will pay now."
+        },
+        {
+          "p": "Would you like information about breakfast and Wi-Fi?",
+          "m": "Nói bạn có muốn biết về bữa sáng không.\nNói bạn có cần mật khẩu Wi‑Fi hay không.",
+          "h": "Yes, tell me / No / I need the Wi-Fi password",
+          "s": "Yes, tell me about breakfast. I need the Wi-Fi password."
+        },
+        {
+          "p": "Do you have any special requests for your stay?",
+          "m": "Nói bạn có yêu cầu đặc biệt nào không.\nNói nếu có, mô tả ngắn yêu cầu đó.",
+          "h": "I have a request / I do not have / example: quiet room",
+          "s": "I have a special request. I need a quiet room."
+        }
+      ]
+    },
+    {
+      "t": "Ôn tập: Trả phòng tổng hợp",
+      "e": [
+        {
+          "p": "Are you checking out now?",
+          "m": "Nói bạn đang trả phòng ngay bây giờ hay không.\nNói bạn đã kiểm tra phòng xong chưa.",
+          "h": "I am checking out now / I have checked the room / not yet",
+          "s": "I am checking out now. I have checked the room."
+        },
+        {
+          "p": "Would you like help with transportation to the airport?",
+          "m": "Nói bạn có cần xe tới sân bay hay không.\nNói bạn muốn rời khách sạn lúc mấy giờ.",
+          "h": "I need transport / at... / no",
+          "s": "I need transport to the airport. I want to leave at 10 am."
+        },
+        {
+          "p": "Here is your final bill. Do you want a receipt?",
+          "m": "Nói bạn có muốn biên lai không.\nNói nếu có, bạn muốn email hay giấy.",
+          "h": "Yes, I want a receipt / email / paper",
+          "s": "Yes, I want a receipt. Please give me a paper copy."
+        },
+        {
+          "p": "Did you enjoy your stay with us?",
+          "m": "Nói bạn có hài lòng với kỳ nghỉ không.\nNói bạn sẽ quay lại hay không.",
+          "h": "I enjoyed my stay / I am satisfied / I will return / I will not",
+          "s": "I enjoyed my stay. I will return next year."
+        },
+        {
+          "p": "Please return your key at the front desk before you leave.",
+          "m": "Xác nhận bạn sẽ trả chìa khóa.\nNói bạn sẽ đi ngay hay còn chờ.",
+          "h": "I will return the key / I will leave now / I will wait",
+          "s": "I will return the key at the front desk. I will leave now."
+        }
+      ]
+    },
+    {
+      "t": "Ôn tập: Tình huống xử lý vấn đề",
+      "e": [
+        {
+          "p": "We are sorry for the noise. Can we move you to another room?",
+          "m": "Nói bạn có muốn đổi phòng không.\nNói bạn muốn phòng ngay cạnh hay xa khu ồn ào.",
+          "h": "Yes, move me / I want a room away from the noise / no",
+          "s": "Yes, please move me to another room. I want a room away from the noise."
+        },
+        {
+          "p": "We can refund the extra charge if it is our mistake.",
+          "m": "Nói bạn có muốn hoàn tiền không.\nNói bạn muốn hoàn tiền vào thẻ hay nhận tiền mặt.",
+          "h": "I want a refund / to my card / cash",
+          "s": "I want a refund. Please refund it to my card."
+        },
+        {
+          "p": "The technician is fixing the heater now.",
+          "m": "Nói bạn có thể chờ kỹ thuật sửa hay cần phòng khác.\nNói bạn có cần chăn thêm hay không.",
+          "h": "I can wait / I need another room / I need extra blanket",
+          "s": "I can wait for the technician. I need an extra blanket."
+        },
+        {
+          "p": "We apologize for the mistake in your bill.",
+          "m": "Nói bạn có muốn chúng tôi sửa hóa đơn ngay không.\nNói bạn có cần một biên lai mới không.",
+          "h": "Please fix it now / I need a new receipt / no",
+          "s": "Please fix the bill now. I need a new receipt."
+        },
+        {
+          "p": "If you have lost an item, please describe it.",
+          "m": "Mô tả đồ vật bạn mất (màu, loại).\nNói nơi gần đúng bạn nghĩ đã để đồ.",
+          "h": "It is a... (color, type) / I left it near...",
+          "s": "It is a black wallet. I left it near the lobby table."
+        }
+      ]
+    }
+  ]
+}

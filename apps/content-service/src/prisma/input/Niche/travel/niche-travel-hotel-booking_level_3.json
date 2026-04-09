@@ -1,0 +1,530 @@
+{
+  "l": 3,
+  "d": [
+    {
+      "t": "Hỏi phòng trống",
+      "e": [
+        {
+          "p": "Do you have any rooms available for tonight?",
+          "m": "Nói có hoặc không; Nếu có, nói loại phòng và số khách.",
+          "h": "Use 'We have' hoặc 'Sorry, we don’t have' + room type",
+          "s": "Yes, we have a double room available tonight. It is for two guests."
+        },
+        {
+          "p": "I'm coming with one child. Is there a family room free?",
+          "m": "Trả lời có/không; Nếu có, nêu số phòng và cho biết có phù hợp cho 1 trẻ em hay không.",
+          "h": "Use 'There is/are' + 'suitable for' or 'can fit'",
+          "s": "There is one family room free. It can fit two adults and one child."
+        },
+        {
+          "p": "We need rooms for three nights from Friday. Any availability?",
+          "m": "Nói có/không; Nếu có, nêu ngày nhận/trả và loại phòng cho cả thời gian.",
+          "h": "Use 'Yes, we have' + dates with 'from...to...' or 'until...'",
+          "s": "Yes, we have a standard room available from Friday to Monday. You can stay in the same room for three nights."
+        },
+        {
+          "p": "Is there a single room for one person this weekend?",
+          "m": "Trả lời có/không; Nếu có, ghi rõ giá hoặc đề nghị kiểm tra giá nếu chưa biết.",
+          "h": "Use present simple for availability and 'The price is...' or 'Please check the price'",
+          "s": "Sorry, we don’t have a single room this weekend. Please check back for next week."
+        },
+        {
+          "p": "Can I book two rooms for next month?",
+          "m": "Xác nhận có thể đặt; Nếu có, hỏi ngày đến và số đêm (đề xuất: nói số đêm).",
+          "h": "Use 'Yes, you can' + ask 'What date' or state 'for X nights'",
+          "s": "Yes, you can book two rooms. What date will you arrive and how many nights will you stay?"
+        }
+      ]
+    },
+    {
+      "t": "Hỏi giá phòng",
+      "e": [
+        {
+          "p": "How much is a double room per night?",
+          "m": "Nêu giá một đêm; Nếu có thuế hoặc phí, nói ngắn về phí.",
+          "h": "Use 'The price is...' and 'including/excluding' for fees",
+          "s": "The price is $60 per night. Taxes are not included."
+        },
+        {
+          "p": "Do you offer any discounts for a week-long stay?",
+          "m": "Nói có/không; Nếu có, nêu tỷ lệ hoặc giá mới cho một tuần.",
+          "h": "Use 'Yes, we offer' or 'No, we don't' + 'for a week' or 'for seven nights'",
+          "s": "Yes, we offer a 10% discount for a seven-night stay. The total price will be $378."
+        },
+        {
+          "p": "Is breakfast included in the room price?",
+          "m": "Trả lời có/không; Nếu không, cho biết giá buffet sáng mỗi người.",
+          "h": "Use present simple: 'Breakfast is included' or 'Breakfast is not included. It costs...'",
+          "s": "Breakfast is not included. It costs $8 per person."
+        },
+        {
+          "p": "What's the rate for a suite compared to a standard room?",
+          "m": "So sánh hai loại phòng; Nêu giá và dùng so sánh ngắn (more/less).",
+          "h": "Use comparatives: 'The suite is more expensive than the standard room.'",
+          "s": "The suite costs $120 per night and the standard room is $60. The suite is more expensive."
+        },
+        {
+          "p": "Are there extra charges for late check-out?",
+          "m": "Nói có/không; Nếu có, nêu chi phí hoặc giờ miễn phí (ví dụ: đến 1pm free).",
+          "h": "Use 'Yes, there is' or 'No, there isn't' + time/price",
+          "s": "Yes, there is a $20 charge for check-out after noon. Check-out until 1pm is free."
+        }
+      ]
+    },
+    {
+      "t": "Xác nhận đặt phòng",
+      "e": [
+        {
+          "p": "I would like to confirm my booking for tomorrow.",
+          "m": "Xác nhận ngày và loại phòng; Nêu tên người đặt (dùng placeholder).",
+          "h": "Use present simple: 'Your booking is for...' and give name",
+          "s": "Your booking is for tomorrow in a double room. The name on the reservation is [studentName]."
+        },
+        {
+          "p": "Can you check my reservation number 12345?",
+          "m": "Nói có tìm thấy hay không; Nếu có, lặp lại ngày và số đêm.",
+          "h": "Use 'I found it' or 'I can't find it' + dates with 'from...to...'",
+          "s": "I found your reservation. It is from May 10 to May 13 for three nights."
+        },
+        {
+          "p": "Do I need to pay now to confirm?",
+          "m": "Nói có/không; Nếu cần, nêu cách thanh toán và thời điểm lấy tiền.",
+          "h": "Use 'Yes, you need to' or 'No, you can pay at check-in' + payment method",
+          "s": "Yes, you need to pay a deposit now by card. The rest can be paid at check-in."
+        },
+        {
+          "p": "Is my booking refundable?",
+          "m": "Nói có/không; Nếu có giới hạn, nêu điều kiện đơn giản (ví dụ: cancel 48h before).",
+          "h": "Use 'It is refundable if' or 'It is non-refundable' + condition",
+          "s": "It is refundable if you cancel 48 hours before arrival. Otherwise the deposit is non-refundable."
+        },
+        {
+          "p": "I want to add my phone number to the reservation.",
+          "m": "Xác nhận đã thêm hay chưa; Nếu thêm, lặp lại số (dùng placeholder nếu là thông tin cá nhân).",
+          "h": "Use 'I have added' or 'Please give your number' + confirm",
+          "s": "I have added your phone number to the reservation. We will call you if we need more information."
+        }
+      ]
+    },
+    {
+      "t": "Thông tin về thời gian nhận/trả phòng",
+      "e": [
+        {
+          "p": "What time is check-in?",
+          "m": "Cho biết giờ check-in; Nếu có check-in sớm, nói điều kiện ngắn (ví dụ: phụ phí).",
+          "h": "Use present simple: 'Check-in is at...' and 'early check-in is possible if...'",
+          "s": "Check-in is at 2pm. Early check-in is possible for a fee if the room is ready."
+        },
+        {
+          "p": "When must we check out on the last day?",
+          "m": "Nêu giờ check-out; Nếu có lựa chọn trả muộn, nói ngắn về phí.",
+          "h": "Use 'Check-out is at...' and 'late check-out costs...'",
+          "s": "Check-out is at 11am. Late check-out until 2pm costs $20."
+        },
+        {
+          "p": "Can we drop our bags before check-in time?",
+          "m": "Trả lời có/không; Nếu có, nói nơi để hành lý và thời gian tối đa.",
+          "h": "Use 'Yes, you can' + 'we will store' or 'we cannot store' if no",
+          "s": "Yes, you can drop your bags at the reception. We will store them until your room is ready."
+        },
+        {
+          "p": "We will arrive very early at 6am. What do you suggest?",
+          "m": "Đề xuất giải pháp ngắn (giữ hành lý, trả phòng muộn, phòng sẵn nếu có); Nêu khả năng phụ phí.",
+          "h": "Use 'You can' or 'We can' + simple future 'will' for offers",
+          "s": "You can leave your luggage with us and rest in the lobby. If you want the room at 6am, we will charge an extra night."
+        },
+        {
+          "p": "If our flight is delayed, can we check out later without a fee?",
+          "m": "Trả lời khả năng miễn phí hay không; Nếu không, nêu điều kiện xin miễn phí hoặc phí.",
+          "h": "Use 'It depends' or 'We can allow' + condition",
+          "s": "It depends on availability; we can allow a free late check-out if the next guest arrives late. Otherwise a $25 fee applies."
+        }
+      ]
+    },
+    {
+      "t": "Yêu cầu loại phòng",
+      "e": [
+        {
+          "p": "Do you have a room with a sea view?",
+          "m": "Trả lời có/không; Nếu có, nêu loại phòng và thêm phí nếu có.",
+          "h": "Use 'Yes, we have' or 'No, we don't' + 'with a view' and price",
+          "s": "Yes, we have a sea-view room. It costs $20 more per night."
+        },
+        {
+          "p": "I prefer a room on a high floor. Is that possible?",
+          "m": "Trả lời có/không; Nếu có, xác nhận tầng hoặc nói 'we will try'.",
+          "h": "Use 'We can' or 'We will try' + 'on a high floor'",
+          "s": "We will try to give you a high-floor room. We cannot fully guarantee it, but we will note your preference."
+        },
+        {
+          "p": "I need two single beds, not a double. Can you arrange that?",
+          "m": "Xác nhận có hay không; Nếu có, nêu loại phòng và xác nhận khi check-in.",
+          "h": "Use 'Yes, we can arrange' or 'No, we only have' + bed info",
+          "s": "Yes, we can arrange a twin room with two single beds. Please confirm this at check-in."
+        },
+        {
+          "p": "Is there a quiet room away from the street?",
+          "m": "Trả lời có/không; Nếu có, nêu vị trí (ví dụ: inner courtyard) và lưu ý khi check-in.",
+          "h": "Use 'We have' + location phrases like 'facing the courtyard' or 'away from the street'",
+          "s": "We have rooms facing the inner courtyard away from the street. Please request it when you check in."
+        },
+        {
+          "p": "I am allergic to feathers. Do you have hypoallergenic bedding?",
+          "m": "Trả lời có/không; Nếu có, nói sẽ chuẩn bị loại chăn gối nào và khi nào.",
+          "h": "Use 'We can provide' or 'We do not have' + item",
+          "s": "We can provide hypoallergenic bedding for your room. We will prepare it before your arrival."
+        }
+      ]
+    },
+    {
+      "t": "Thêm dịch vụ (ăn sáng, đưa đón)",
+      "e": [
+        {
+          "p": "Is breakfast included with the room?",
+          "m": "Nói có/không; Nếu không, cho biết giá mỗi người.",
+          "h": "Use 'Breakfast is' + included/not included and price",
+          "s": "Breakfast is not included. It costs $8 per person."
+        },
+        {
+          "p": "Do you provide airport shuttle service?",
+          "m": "Trả lời có/không; Nếu có, nêu giá hoặc cách đặt.",
+          "h": "Use 'Yes, we provide' or 'No, we don't' + 'you can book' or price",
+          "s": "Yes, we provide an airport shuttle. You can book it now for $15 per person."
+        },
+        {
+          "p": "Can I add breakfast for two people to my booking?",
+          "m": "Xác nhận đã thêm; Nếu thêm, cho biết phí tổng hoặc mỗi ngày.",
+          "h": "Use 'I have added' or 'The cost is' + per day/total",
+          "s": "I have added breakfast for two people. The cost is $16 per day."
+        },
+        {
+          "p": "Do you have laundry service and how long does it take?",
+          "m": "Nêu có/không; Nếu có, cho biết thời gian trả đồ và phí cơ bản.",
+          "h": "Use 'Yes, we have' + 'it takes' and price",
+          "s": "Yes, we have laundry service. It takes 24 hours and costs $5 per load."
+        },
+        {
+          "p": "I'd like an airport pick-up at 9pm. Can you confirm?",
+          "m": "Xác nhận có thể đặt; Nếu có, lặp lại thời gian và chờ thanh toán hoặc thông tin lái xe.",
+          "h": "Use 'We can' + confirm time and 'driver will' or 'we will send details'",
+          "s": "We can arrange airport pick-up at 9pm. The driver will wait at the arrivals with your name on a sign."
+        }
+      ]
+    },
+    {
+      "t": "Thay đổi hoặc huỷ đặt phòng",
+      "e": [
+        {
+          "p": "I need to change my arrival date. Can I modify my booking?",
+          "m": "Trả lời có/không; Nếu có, hỏi ngày mới hoặc đề nghị khách cung cấp ngày mới.",
+          "h": "Use 'Yes, you can' or 'No, you can't' + ask for new date",
+          "s": "Yes, you can modify your booking. What is your new arrival date?"
+        },
+        {
+          "p": "I want to cancel one of my two rooms.",
+          "m": "Xác nhận có thể huỷ; Nếu được, hỏi phòng nào (ví dụ: room 1 or room 2) hoặc lặp lại chính sách hủy.",
+          "h": "Use 'I have canceled' or 'Cancellation policy' + simple condition",
+          "s": "I can cancel one room for you. Which room would you like to cancel, and please note the cancellation policy may apply."
+        },
+        {
+          "p": "If I change the number of guests, will the price change?",
+          "m": "Nói có/không; Nếu có, nêu ví dụ ngắn: thêm người = thêm phí.",
+          "h": "Use 'Yes, the price will change' or 'No, it will stay the same' + reason",
+          "s": "Yes, the price will change if you add more guests. An extra guest costs $15 per night."
+        },
+        {
+          "p": "Can I move my reservation to a different hotel branch?",
+          "m": "Trả lời có/không; Nếu có, nêu điều kiện đơn giản (ví dụ: based on availability).",
+          "h": "Use 'We can transfer' or 'We cannot' + 'if available'",
+          "s": "We can transfer your reservation to another branch if there is availability. Please tell us which branch you prefer."
+        },
+        {
+          "p": "I need to cancel because of an emergency. Is there any refund?",
+          "m": "Nêu khả năng hoàn tiền; Nếu có điều kiện, nói rõ thời hạn hủy miễn phí hoặc phần hoàn lại.",
+          "h": "Use 'It depends' or 'You will get' + percent or condition",
+          "s": "It depends on your rate; if you cancel 48 hours before arrival you will get a full refund. Otherwise only the deposit is refunded."
+        }
+      ]
+    },
+    {
+      "t": "Yêu cầu đặc biệt trong phòng",
+      "e": [
+        {
+          "p": "Can I have a room near the elevator?",
+          "m": "Trả lời có/không; Nếu có, ghi chú yêu cầu trong đặt phòng.",
+          "h": "Use 'We can' or 'We will try' + 'near the elevator' ",
+          "s": "We will note your request for a room near the elevator. We will try to assign it at check-in."
+        },
+        {
+          "p": "I need a baby cot in the room. Can you provide one?",
+          "m": "Trả lời có/không; Nếu có, xác nhận miễn phí hay tính phí.",
+          "h": "Use 'Yes, we can provide' or 'No, we can't' + cost info",
+          "s": "Yes, we can provide a baby cot. It is free of charge."
+        },
+        {
+          "p": "My partner snores; can you give us a quiet room?",
+          "m": "Trả lời có/không; Nếu có, nêu vị trí phòng yên tĩnh hoặc đề xuất giải pháp khác.",
+          "h": "Use 'We can offer' + location like 'courtyard side' or 'away from street'",
+          "s": "We can offer a courtyard-side room away from the street. That should be quieter for you."
+        },
+        {
+          "p": "I need an extra pillow and a small fridge in the room.",
+          "m": "Xác nhận sẽ chuẩn bị các đồ; Nếu có chi phí cho tủ lạnh, nói ngắn.",
+          "h": "Use 'We will provide' or 'We can provide for an extra fee'",
+          "s": "We will provide an extra pillow. A small fridge is available for an extra $5 per night."
+        },
+        {
+          "p": "Can you arrange a surprise for my partner in the room?",
+          "m": "Trả lời có/không; Nếu có, đề xuất ngắn (hoa, sô cô la) và yêu cầu thời gian giao.",
+          "h": "Use 'Yes, we can' + simple options and 'please tell' for time",
+          "s": "Yes, we can arrange flowers or chocolates in the room. Please tell us the arrival time for the surprise."
+        }
+      ]
+    },
+    {
+      "t": "Vấn đề khi nhận phòng",
+      "e": [
+        {
+          "p": "The room is not clean. Can you help?",
+          "m": "Thừa nhận vấn đề; Nêu hành động sẽ làm (gửi dọn phòng hoặc đổi phòng).",
+          "h": "Use 'We are sorry' + 'We will' or 'We can' for solution",
+          "s": "We are sorry about that. We will send housekeeping now to clean the room or offer you another room."
+        },
+        {
+          "p": "The air conditioning doesn't work in my room.",
+          "m": "Xác nhận sẽ kiểm tra; Nếu cần, đề nghị đổi phòng hoặc sửa chữa và thời gian chờ.",
+          "h": "Use 'We will check' or 'We can move you' + time estimate",
+          "s": "We will check the air conditioning immediately. If it cannot be fixed quickly, we can move you to another room."
+        },
+        {
+          "p": "There is a loud noise all night from the street.",
+          "m": "Xin lỗi và đề xuất giải pháp (đổi phòng, tai nghe, giảm tiếng ồn); Nêu thời gian xử lý.",
+          "h": "Use 'We are sorry' + 'we can' or 'we will' for actions",
+          "s": "We are sorry for the noise. We can offer a quieter room or provide earplugs right away."
+        },
+        {
+          "p": "I found my key card doesn't open the door every time.",
+          "m": "Xác nhận vấn đề; Nêu giải pháp (lập lại thẻ, kiểm tra khóa) và thời gian.",
+          "h": "Use 'We will' + simple action 'reprogram' or 'check the lock'",
+          "s": "We will reprogram your key card now and check the lock. Please bring the card to the reception."
+        },
+        {
+          "p": "I left my bag in the room and it's missing. What can you do?",
+          "m": "Xác nhận sẽ kiểm tra; Nói sẽ báo cáo bảo vệ và liên hệ sau với khách.",
+          "h": "Use 'We will check' and 'report to security' + future 'will contact you'",
+          "s": "We will check the room and report the matter to security. We will contact you as soon as we have news."
+        }
+      ]
+    },
+    {
+      "t": "Hỏi về tiện nghi (Wi‑Fi, bãi đỗ xe, hồ bơi)",
+      "e": [
+        {
+          "p": "Is Wi‑Fi free in the rooms?",
+          "m": "Trả lời có/không; Nếu có giới hạn tốc độ hoặc phí, nêu ngắn.",
+          "h": "Use 'Yes, it is free' or 'No, it costs' + brief detail",
+          "s": "Yes, Wi‑Fi is free in the rooms. It is high speed for guests."
+        },
+        {
+          "p": "Do you have parking and is it secure?",
+          "m": "Nêu có/không; Nếu có, nói miễn phí hay tính phí và tính an toàn ngắn.",
+          "h": "Use 'We have' + 'free/paid' and 'secure/monitored'",
+          "s": "We have parking and it is secure. It is free for hotel guests and monitored 24 hours."
+        },
+        {
+          "p": "Is the swimming pool open all year?",
+          "m": "Trả lời có/không; Nếu không, nêu mùa mở hoặc giờ hoạt động ngắn.",
+          "h": "Use present simple: 'The pool is open' or 'closed' + months/hours",
+          "s": "The pool is open from April to October. Its hours are 8am to 8pm."
+        },
+        {
+          "p": "Can I use the gym without a membership?",
+          "m": "Trả lời có/không; Nếu có, nêu phí một lần hoặc giờ sử dụng.",
+          "h": "Use 'Yes, you can' or 'No, you cannot' + price or rule",
+          "s": "Yes, you can use the gym without a membership. There is a $5 day fee."
+        },
+        {
+          "p": "Is there a business center where I can print my boarding pass?",
+          "m": "Nêu có/không; Nếu có, cho biết vị trí và phí (nếu có).",
+          "h": "Use 'Yes, we have' + location and 'costs' if any",
+          "s": "Yes, we have a business center on the ground floor. Printing costs $0.50 per page."
+        }
+      ]
+    },
+    {
+      "t": "Thanh toán và hoá đơn",
+      "e": [
+        {
+          "p": "Can I pay with a credit card?",
+          "m": "Trả lời có/không; Nếu có, nêu loại thẻ chấp nhận hoặc yêu cầu ID.",
+          "h": "Use 'Yes, we accept' or 'No, we only accept' + card types",
+          "s": "Yes, we accept major credit cards like Visa and MasterCard. Please bring your ID for verification."
+        },
+        {
+          "p": "Do you need a deposit to hold the booking?",
+          "m": "Nói có/không; Nếu có, cho biết số tiền hoặc phần trăm và khi nào lấy.",
+          "h": "Use 'Yes, a deposit of...' or 'No deposit is required'",
+          "s": "Yes, a deposit of one night's rate is required. We will charge it at booking."
+        },
+        {
+          "p": "Can I get a receipt for my payment?",
+          "m": "Xác nhận có thể cung cấp; Nếu có, nêu sẽ gửi khi thanh toán hoặc email.",
+          "h": "Use 'We will give' or 'We will send' + receipt detail",
+          "s": "We will give you a printed receipt at checkout. We can also email it if you prefer."
+        },
+        {
+          "p": "I paid online but I don't see the charge on my card. Can you confirm?",
+          "m": "Xác nhận thanh toán đã nhận hay chưa; Nếu đã, lặp lại số tiền và ngày.",
+          "h": "Use 'We have received' or 'We haven't received' + amount and date",
+          "s": "We have received your online payment of $120 on April 2. The charge should appear on your statement soon."
+        },
+        {
+          "p": "Can I split the bill between two cards?",
+          "m": "Trả lời có/không; Nếu có, nêu cách thực hiện ngắn (ví dụ: tell amount per card).",
+          "h": "Use 'Yes, you can' or 'No, you cannot' + simple instruction",
+          "s": "Yes, you can split the bill between two cards. Please tell us the amount for each card at payment."
+        }
+      ]
+    },
+    {
+      "t": "Yêu cầu check-out muộn hoặc gia hạn",
+      "e": [
+        {
+          "p": "Can I have a late check-out tomorrow?",
+          "m": "Trả lời có/không; Nếu có, nêu giờ và phí nếu có.",
+          "h": "Use 'Yes, you can' or 'No, we can't' + time and price",
+          "s": "Yes, you can have a late check-out until 2pm. The fee is $20."
+        },
+        {
+          "p": "I want to extend my stay for one more night. Is the room available?",
+          "m": "Kiểm tra có/không; Nếu có, xác nhận giá cho đêm thêm.",
+          "h": "Use 'It is available' or 'It is not available' + price",
+          "s": "The room is available for one more night. The price for the extra night is $70."
+        },
+        {
+          "p": "If I extend, can I keep the same room?",
+          "m": "Trả lời có/không; Nếu có, xác nhận và nêu điều kiện (ví dụ: theo tình trạng phòng).",
+          "h": "Use 'You can keep' or 'We may need to move you' + condition",
+          "s": "You can keep the same room if no one else books it. We will confirm at check-out."
+        },
+        {
+          "p": "We need the room until late evening due to our flight. Any possibility?",
+          "m": "Đề xuất giải pháp (late check-out, extra night) và nêu phí hoặc điều kiện.",
+          "h": "Use 'We can offer' or 'You can book' + simple fee info",
+          "s": "We can offer a late check-out until 8pm for an extra night rate. Please confirm if you want this option."
+        },
+        {
+          "p": "How do I request an extension after I check out?",
+          "m": "Nói cách yêu cầu (liên hệ lễ tân, gọi số) và thời gian sớm nhất nên thông báo.",
+          "h": "Use 'Please contact' + reception and 'at least' for time",
+          "s": "Please contact reception and we will help you. Try to request at least two hours before your check-out time."
+        }
+      ]
+    },
+    {
+      "t": "Ôn tập: Đặt phòng toàn diện",
+      "e": [
+        {
+          "p": "I want to book a room for two people from June 5 to June 8. Can you help?",
+          "m": "Xác nhận khả năng đặt; Nêu loại phòng phù hợp; Hỏi tên khách (dùng placeholder).",
+          "h": "Use present simple to confirm and ask for name/date",
+          "s": "Yes, we can book a double room for June 5 to June 8. The room is available for two people. What is the name for the reservation?"
+        },
+        {
+          "p": "Do you include breakfast and is Wi‑Fi free?",
+          "m": "Nêu tình trạng bữa sáng; Nêu tình trạng Wi‑Fi ngắn gọn.",
+          "h": "Use 'is included' and 'is free' in present simple",
+          "s": "Breakfast is not included and costs $8 per person. Wi‑Fi is free in all rooms."
+        },
+        {
+          "p": "Can I pay now and get a receipt by email?",
+          "m": "Xác nhận thanh toán trước được không; Nêu cách gửi hoá đơn (in hoặc email).",
+          "h": "Use 'Yes, you can' + 'we will send' for receipt",
+          "s": "Yes, you can pay now by card. We will email the receipt after payment."
+        },
+        {
+          "p": "Please add an airport pick-up at 7pm and a baby cot.",
+          "m": "Xác nhận đã thêm pick-up và baby cot; Nếu có phí, nêu ngắn.",
+          "h": "Use 'I have added' and give simple fee info",
+          "s": "I have added airport pick-up at 7pm and a baby cot. The pick-up costs $15 and the cot is free."
+        },
+        {
+          "p": "My name is [studentName]. Can you confirm my full reservation details?",
+          "m": "Lặp lại tên; Liệt kê ngày, loại phòng và tổng số khách.",
+          "h": "Use present simple to list details: 'Your reservation is...' ",
+          "s": "[studentName], your reservation is from June 5 to June 8 in a double room. It is for two guests."
+        }
+      ]
+    },
+    {
+      "t": "Ôn tập: Xử lý thay đổi và vấn đề",
+      "e": [
+        {
+          "p": "I need to change my check-in to one day earlier. Is that possible?",
+          "m": "Trả lời có/không; Nếu có, nêu hiệu lực thay đổi và giá thêm nếu có.",
+          "h": "Use 'It is possible' or 'It is not possible' + price/condition",
+          "s": "It is possible to change your check-in to one day earlier if the room is available. There may be a small extra charge."
+        },
+        {
+          "p": "The room you gave is noisy and I want to move.",
+          "m": "Xin lỗi và đề xuất chuyển phòng hoặc giải pháp khác; Nêu thời gian xử lý.",
+          "h": "Use 'We are sorry' + 'we will move you' or 'we will fix' ",
+          "s": "We are sorry about the noise. We will move you to a quieter room right away."
+        },
+        {
+          "p": "I was overcharged on my bill last night.",
+          "m": "Xin lỗi; Hứa kiểm tra hóa đơn và nêu khi nào sẽ thông báo lại.",
+          "h": "Use 'We are sorry' + 'we will check' and time 'within...' ",
+          "s": "We are sorry for the mistake. We will check your bill and contact you within one hour."
+        },
+        {
+          "p": "I lost my key card and I need a replacement.",
+          "m": "Xác nhận sẽ cấp thẻ mới và nêu thủ tục ngắn (xuất trình ID).",
+          "h": "Use 'We will issue' + 'please show ID' ",
+          "s": "We will issue a replacement key card now. Please show your ID at the reception."
+        },
+        {
+          "p": "If I am unhappy, can I get a refund or a discount?",
+          "m": "Trả lời khả năng hoàn tiền hoặc giảm giá; Nếu có điều kiện, nêu ngắn (ví dụ: after inspection).",
+          "h": "Use 'We can offer' or 'We will consider' + simple condition",
+          "s": "We can offer a partial refund or a discount after we inspect the issue. We will decide within 24 hours."
+        }
+      ]
+    },
+    {
+      "t": "Ôn tập: Dịch vụ và thanh toán",
+      "e": [
+        {
+          "p": "I used the minibar and I think I was charged twice.",
+          "m": "Xin lỗi; Hứa kiểm tra danh sách chi phí và thông báo kết quả.",
+          "h": "Use 'We are sorry' + 'we will check' and future 'will inform you' ",
+          "s": "We are sorry for the error. We will check the minibar charges and inform you shortly."
+        },
+        {
+          "p": "Can you add breakfast for three days to my booking and tell me the total cost?",
+          "m": "Xác nhận đã thêm; Nêu tổng chi phí cho khoảng thời gian.",
+          "h": "Use 'I have added' and calculate total: price x days x people",
+          "s": "I have added breakfast for three days for two people. The total cost is $48."
+        },
+        {
+          "p": "Do you accept split payment between cash and card at checkout?",
+          "m": "Trả lời có/không; Nếu có, nêu cách thực hiện ngắn.",
+          "h": "Use 'Yes, you can' + 'tell us amounts' ",
+          "s": "Yes, you can split the payment between cash and card. Please tell us the amount for each method at checkout."
+        },
+        {
+          "p": "I need an invoice for business. Can you issue one with my company name?",
+          "m": "Xác nhận sẽ cấp hóa đơn; Hỏi tên công ty hoặc dùng placeholder nếu cần.",
+          "h": "Use 'We will issue' + ask for company name",
+          "s": "We will issue an invoice with your company name. Please give us the company name and tax ID."
+        },
+        {
+          "p": "How can I pay if I want to book now and pay later at the hotel?",
+          "m": "Nêu cách đặt trước không thanh toán (guarantee) hoặc yêu cầu thẻ làm đảm bảo; Nêu đơn giản điều kiện.",
+          "h": "Use 'You can' + 'guarantee with a card' or 'pay at check-in'",
+          "s": "You can guarantee the booking with a credit card and pay at check-in. No charge is made now for this option."
+        }
+      ]
+    }
+  ]
+}

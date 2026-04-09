@@ -227,16 +227,16 @@
           "s": "What is your new address?"
         },
         {
-          "p": "Can I update my email address?",
-          "m": "Hỏi địa chỉ email mới của khách hàng.",
-          "h": "Dùng 'Yes, what is your new email address?'",
-          "s": "Yes, what is your new email address?"
+          "p": "My name is [studentName].",
+          "m": "Xác nhận lại tên khách hàng.",
+          "h": "Dùng 'Is your name [studentName]?'",
+          "s": "Is your name [studentName]?"
         },
         {
-          "p": "My new email is user@mail.com.",
-          "m": "Xác nhận đã cập nhật email thành công.",
-          "h": "Dùng 'I have updated your email.'",
-          "s": "I have updated your email."
+          "p": "Is your name [studentName]?",
+          "m": "Xác nhận tên bạn là [studentName].",
+          "h": "Dùng 'Yes, my name is [studentName].'",
+          "s": "Yes, my name is [studentName]."
         }
       ]
     },
@@ -460,10 +460,10 @@
           "s": "Hello. What is your name? How can I help you?"
         },
         {
-          "p": "I want to fix my printer. It does not print.",
-          "m": "Hỏi bước đầu tiên để khắc phục máy in.",
-          "h": "Dùng 'Yes, I can help. Is the printer on?'",
-          "s": "Yes, I can help. Is the printer turned on?"
+          "p": "My name is [studentName]. I want to fix my printer.",
+          "m": "Xác nhận bạn có thể giúp sửa máy in.",
+          "h": "Dùng 'Yes, I can help fix your printer.'",
+          "s": "Yes, I can help fix your printer."
         },
         {
           "p": "Is your store open on Saturday?",
@@ -530,10 +530,10 @@
           "s": "Hi. What is your name? What information do you want?"
         },
         {
-          "p": "My internet is very slow. Can you help?",
-          "m": "Hướng dẫn khách hàng bước đầu tiên để sửa internet.",
-          "h": "Dùng 'Yes, please restart your router.'",
-          "s": "Yes, please restart your router first."
+          "p": "My name is [studentName]. I want to know your address.",
+          "m": "Cung cấp địa chỉ (ví dụ: 123 Main Street, [studentCity]).",
+          "h": "Dùng 'Our address is 123 Main Street, [studentCity].'",
+          "s": "Our address is 123 Main Street, [studentCity]."
         },
         {
           "p": "Can I buy a red hat there?",

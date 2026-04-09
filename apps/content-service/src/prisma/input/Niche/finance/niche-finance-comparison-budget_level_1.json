@@ -1,0 +1,530 @@
+{
+  "l": 1,
+  "d": [
+    {
+      "t": "Cuộc họp nhanh: Hai phòng ban",
+      "e": [
+        {
+          "p": "Which budget is larger, sales or HR?",
+          "m": "Nói phòng nào có ngân sách lớn hơn (một câu).",
+          "h": "Use: X is larger than Y.",
+          "s": "The sales budget is larger than HR's."
+        },
+        {
+          "p": "How much is the sales budget?",
+          "m": "Nói con số ngân sách cho sales (một câu).",
+          "h": "Use: The X budget is + number + dollars.",
+          "s": "The sales budget is 80 dollars."
+        },
+        {
+          "p": "Is HR's budget the same as marketing's?",
+          "m": "Nói có cùng số hay không (một câu).",
+          "h": "Use: X is the same as Y / X is smaller than Y.",
+          "s": "HR's budget is smaller than marketing's."
+        },
+        {
+          "p": "Why is the sales budget bigger?",
+          "m": "Nói một lý do đơn giản cho việc đó (một câu).",
+          "h": "Use: because + simple reason.",
+          "s": "The sales budget is bigger because sales has more work."
+        },
+        {
+          "p": "Which budget should we cut: IT or HR?",
+          "m": "Chọn một phòng để cắt và nói lý do ngắn (một câu).",
+          "h": "Use: Cut X because + reason.",
+          "s": "Cut IT because IT has less work."
+        }
+      ]
+    },
+    {
+      "t": "So sánh tháng này và tháng trước",
+      "e": [
+        {
+          "p": "Is the budget this month bigger than last month?",
+          "m": "Nói có lớn hơn tháng trước không (một câu).",
+          "h": "Use: This month's budget is bigger/smaller than last month's.",
+          "s": "This month's budget is bigger than last month's."
+        },
+        {
+          "p": "How much did we spend last month?",
+          "m": "Nói con số chi tiêu tháng trước (một câu).",
+          "h": "Use: We spent + number + dollars.",
+          "s": "We spent 50 dollars last month."
+        },
+        {
+          "p": "Is this month's office cost less?",
+          "m": "Trả lời có/không và nói ngắn (một câu).",
+          "h": "Use: The office cost is less/ not less.",
+          "s": "The office cost is less this month."
+        },
+        {
+          "p": "Why do we spend more this month?",
+          "m": "Nói một lý do đơn giản (một câu).",
+          "h": "Use: because + reason.",
+          "s": "We spend more because we buy new chairs."
+        },
+        {
+          "p": "Will the budget be the same next month?",
+          "m": "Nói có hoặc không và lý do ngắn (một câu).",
+          "h": "Use: No, it will change because + reason.",
+          "s": "No, it will change because sales need more money."
+        }
+      ]
+    },
+    {
+      "t": "Ngân sách cho dự án nhỏ",
+      "e": [
+        {
+          "p": "Which project has a bigger budget, A or B?",
+          "m": "Nói dự án nào có ngân sách lớn hơn (một câu).",
+          "h": "Use: Project A/B is bigger than ...",
+          "s": "Project A's budget is bigger than Project B's."
+        },
+        {
+          "p": "How much is project A's budget?",
+          "m": "Nói con số ngân sách cho dự án A (một câu).",
+          "h": "Use: Project A's budget is + number + dollars.",
+          "s": "Project A's budget is 60 dollars."
+        },
+        {
+          "p": "Is project B cheap?",
+          "m": "Trả lời và nói ngắn về giá rẻ/đắt (một câu).",
+          "h": "Use: X is cheap / X is expensive.",
+          "s": "Project B is cheap."
+        },
+        {
+          "p": "Why is project A more expensive?",
+          "m": "Nói một lý do ngắn (một câu).",
+          "h": "Use: because + simple reason.",
+          "s": "Project A is more expensive because it needs materials."
+        },
+        {
+          "p": "Can we save money on project B?",
+          "m": "Nói có thể tiết kiệm hay không và cách ngắn (một câu).",
+          "h": "Use: Yes, we can + verb or No, we can't.",
+          "s": "Yes, we can save money by buying less paper."
+        }
+      ]
+    },
+    {
+      "t": "Chọn chi phí cắt giảm",
+      "e": [
+        {
+          "p": "Which cost is bigger: travel or food?",
+          "m": "Nói chi phí nào lớn hơn (một câu).",
+          "h": "Use: X is bigger than Y.",
+          "s": "Travel cost is bigger than food cost."
+        },
+        {
+          "p": "How much is travel cost now?",
+          "m": "Nói con số chi phí đi lại (một câu).",
+          "h": "Use: Travel cost is + number + dollars.",
+          "s": "Travel cost is 40 dollars."
+        },
+        {
+          "p": "Is the food budget smaller this month?",
+          "m": "Trả lời có/không và nói ngắn (một câu).",
+          "h": "Use: The food budget is smaller / not smaller.",
+          "s": "Yes, the food budget is smaller this month."
+        },
+        {
+          "p": "Why choose to cut travel?",
+          "m": "Nói một lý do ngắn (một câu).",
+          "h": "Use: because + reason.",
+          "s": "Cut travel because we have few trips."
+        },
+        {
+          "p": "Which cost do you cut: travel, food, or office?",
+          "m": "Chọn một và nói lý do ngắn (một câu).",
+          "h": "Use: Cut X because + reason.",
+          "s": "Cut office because office supplies are many."
+        }
+      ]
+    },
+    {
+      "t": "Ngân sách câu lạc bộ trường",
+      "e": [
+        {
+          "p": "Which club has more money, art or music?",
+          "m": "Nói câu lạc bộ nào có nhiều tiền hơn (một câu).",
+          "h": "Use: X has more money than Y.",
+          "s": "The art club has more money than the music club."
+        },
+        {
+          "p": "How much does the music club have?",
+          "m": "Nói con số ngân sách câu lạc bộ âm nhạc (một câu).",
+          "h": "Use: The music club has + number + dollars.",
+          "s": "The music club has 30 dollars."
+        },
+        {
+          "p": "Is the art club budget big?",
+          "m": "Trả lời và mô tả ngắn (một câu).",
+          "h": "Use: X is big / X is small.",
+          "s": "Yes, the art club budget is big."
+        },
+        {
+          "p": "Why does art have more money?",
+          "m": "Nói một lý do đơn giản (một câu).",
+          "h": "Use: because + reason.",
+          "s": "Art has more money because many students join."
+        },
+        {
+          "p": "Can the music club buy instruments?",
+          "m": "Nói có thể hay không và lý do ngắn (một câu).",
+          "h": "Use: Yes, it can / No, it can't because + reason.",
+          "s": "No, it can't because it has little money."
+        }
+      ]
+    },
+    {
+      "t": "Mua sắm văn phòng",
+      "e": [
+        {
+          "p": "Is the paper cost higher than the pen cost?",
+          "m": "Nói đúng hay sai (một câu).",
+          "h": "Use: X is higher than Y / X is not higher.",
+          "s": "The paper cost is higher than the pen cost."
+        },
+        {
+          "p": "How much do we spend on pens?",
+          "m": "Nói con số chi cho bút (một câu).",
+          "h": "Use: We spend + number + dollars.",
+          "s": "We spend 10 dollars on pens."
+        },
+        {
+          "p": "Are office supplies cheap this month?",
+          "m": "Trả lời có/không và nói ngắn (một câu).",
+          "h": "Use: X is cheap / X is not cheap.",
+          "s": "No, office supplies are not cheap this month."
+        },
+        {
+          "p": "Why is paper cost high?",
+          "m": "Nói một lý do ngắn (một câu).",
+          "h": "Use: because + reason.",
+          "s": "Paper cost is high because we buy a lot."
+        },
+        {
+          "p": "Which item do we buy less: pens or paper?",
+          "m": "Chọn một và nói lý do ngắn (một câu).",
+          "h": "Use: Buy less X because + reason.",
+          "s": "Buy less pens because we have many pens."
+        }
+      ]
+    },
+    {
+      "t": "Lập kế hoạch sự kiện",
+      "e": [
+        {
+          "p": "Which cost is bigger for the event, food or room?",
+          "m": "Nói chi phí nào lớn hơn cho sự kiện (một câu).",
+          "h": "Use: X is bigger than Y.",
+          "s": "Food cost is bigger than the room cost."
+        },
+        {
+          "p": "How much is the food budget?",
+          "m": "Nói con số ngân sách cho thức ăn (một câu).",
+          "h": "Use: The food budget is + number + dollars.",
+          "s": "The food budget is 70 dollars."
+        },
+        {
+          "p": "Is the room expensive?",
+          "m": "Trả lời và mô tả ngắn (một câu).",
+          "h": "Use: X is expensive / X is cheap.",
+          "s": "Yes, the room is expensive."
+        },
+        {
+          "p": "Why we spend more on food?",
+          "m": "Nói một lý do ngắn (một câu).",
+          "h": "Use: because + reason.",
+          "s": "We spend more on food because many people come."
+        },
+        {
+          "p": "Should we cut decoration or food?",
+          "m": "Chọn một và nói lý do ngắn (một câu).",
+          "h": "Use: Cut X because + reason.",
+          "s": "Cut decoration because food is important."
+        }
+      ]
+    },
+    {
+      "t": "Ngân sách gia đình đơn giản",
+      "e": [
+        {
+          "p": "Is food cost bigger than fun cost at home?",
+          "m": "Nói chi phí nào lớn hơn trong gia đình (một câu).",
+          "h": "Use: X is bigger than Y.",
+          "s": "Food cost is bigger than fun cost."
+        },
+        {
+          "p": "How much do we spend on food each week?",
+          "m": "Nói con số chi tiêu cho thực phẩm mỗi tuần (một câu).",
+          "h": "Use: We spend + number + dollars.",
+          "s": "We spend 40 dollars on food each week."
+        },
+        {
+          "p": "Is the fun budget small?",
+          "m": "Trả lời có/không và nói ngắn (một câu).",
+          "h": "Use: X is small / X is not small.",
+          "s": "Yes, the fun budget is small."
+        },
+        {
+          "p": "Why save money this month?",
+          "m": "Nói một lý do ngắn (một câu).",
+          "h": "Use: because + reason.",
+          "s": "We save money because we need new shoes."
+        },
+        {
+          "p": "Which cost do you reduce: fun or food?",
+          "m": "Chọn một và nói lý do ngắn (một câu).",
+          "h": "Use: Reduce X because + reason.",
+          "s": "Reduce fun because food is necessary."
+        }
+      ]
+    },
+    {
+      "t": "Báo cáo chi tiêu thực tế",
+      "e": [
+        {
+          "p": "Is the actual cost higher than the planned cost?",
+          "m": "Nói có cao hơn kế hoạch không (một câu).",
+          "h": "Use: The actual cost is higher/lower than planned.",
+          "s": "The actual cost is higher than the planned cost."
+        },
+        {
+          "p": "How much is the actual cost now?",
+          "m": "Nói con số chi tiêu thực tế (một câu).",
+          "h": "Use: The actual cost is + number + dollars.",
+          "s": "The actual cost is 90 dollars."
+        },
+        {
+          "p": "Is the planned cost small?",
+          "m": "Trả lời và nói ngắn (một câu).",
+          "h": "Use: X is small / X is not small.",
+          "s": "No, the planned cost is not small."
+        },
+        {
+          "p": "Why is actual cost higher?",
+          "m": "Nói một lý do ngắn (một câu).",
+          "h": "Use: because + reason.",
+          "s": "It is higher because we buy extra items."
+        },
+        {
+          "p": "Do we need more money now?",
+          "m": "Trả lời có/không và nói lý do ngắn (một câu).",
+          "h": "Use: Yes, we need more because + reason / No, we don't.",
+          "s": "Yes, we need more because the actual cost is high."
+        }
+      ]
+    },
+    {
+      "t": "So sánh giữa hai cửa hàng",
+      "e": [
+        {
+          "p": "Which store budget is bigger, store A or store B?",
+          "m": "Nói cửa hàng nào có ngân sách lớn hơn (một câu).",
+          "h": "Use: Store A/B's budget is bigger than ...",
+          "s": "Store A's budget is bigger than Store B's."
+        },
+        {
+          "p": "How much does store B spend?",
+          "m": "Nói con số chi tiêu của cửa hàng B (một câu).",
+          "h": "Use: Store B spends + number + dollars.",
+          "s": "Store B spends 35 dollars."
+        },
+        {
+          "p": "Is store A cost high?",
+          "m": "Trả lời và nói ngắn (một câu).",
+          "h": "Use: X is high / X is low.",
+          "s": "Yes, store A cost is high."
+        },
+        {
+          "p": "Why does store A spend more?",
+          "m": "Nói một lý do ngắn (một câu).",
+          "h": "Use: because + reason.",
+          "s": "Store A spends more because it has many customers."
+        },
+        {
+          "p": "Should we move money to store B?",
+          "m": "Nói có nên chuyển tiền và lý do ngắn (một câu).",
+          "h": "Use: Yes, move money because + reason / No, don't.",
+          "s": "Yes, move money because store B needs supplies."
+        }
+      ]
+    },
+    {
+      "t": "Xin phép tăng ngân sách",
+      "e": [
+        {
+          "p": "Can we increase the marketing budget?",
+          "m": "Trả lời có/không (một câu).",
+          "h": "Use: Yes, you can / No, you can't.",
+          "s": "Yes, you can increase the marketing budget."
+        },
+        {
+          "p": "How much more do you want?",
+          "m": "Nói con số bạn muốn thêm (một câu).",
+          "h": "Use: I want + number + dollars more.",
+          "s": "I want 20 dollars more."
+        },
+        {
+          "p": "Is this increase necessary?",
+          "m": "Trả lời và nói lý do ngắn (một câu).",
+          "h": "Use: Yes, because + reason / No, because + reason.",
+          "s": "Yes, because marketing brings more customers."
+        },
+        {
+          "p": "What will you do with extra money?",
+          "m": "Nói một việc ngắn bạn làm với tiền thêm (một câu).",
+          "h": "Use: I will + verb + object.",
+          "s": "I will buy ads with the extra money."
+        },
+        {
+          "p": "Can other costs go down?",
+          "m": "Nói có thể giảm chi phí khác không và ví dụ ngắn (một câu).",
+          "h": "Use: Yes, reduce X or No, can't.",
+          "s": "Yes, reduce travel to save money."
+        }
+      ]
+    },
+    {
+      "t": "Ước lượng chi phí cho tháng tới",
+      "e": [
+        {
+          "p": "Will next month cost more than this month?",
+          "m": "Nói có nhiều hơn tháng này không (một câu).",
+          "h": "Use: Next month will be more/less/the same.",
+          "s": "Next month will cost more than this month."
+        },
+        {
+          "p": "How much is the estimate for next month?",
+          "m": "Nói con số ước lượng (một câu).",
+          "h": "Use: The estimate is + number + dollars.",
+          "s": "The estimate is 100 dollars."
+        },
+        {
+          "p": "Is the estimate small?",
+          "m": "Trả lời và mô tả ngắn (một câu).",
+          "h": "Use: X is small / X is big.",
+          "s": "No, the estimate is big."
+        },
+        {
+          "p": "Why is next month more expensive?",
+          "m": "Nói một lý do ngắn (một câu).",
+          "h": "Use: because + reason.",
+          "s": "It is more expensive because we plan an event."
+        },
+        {
+          "p": "Should we plan a smaller event?",
+          "m": "Trả lời có/không và lý do ngắn (một câu).",
+          "h": "Use: Yes, because + reason / No, because + reason.",
+          "s": "Yes, because it saves money."
+        }
+      ]
+    },
+    {
+      "t": "Ôn tập: So sánh nội bộ",
+      "e": [
+        {
+          "p": "Which department has the largest budget now?",
+          "m": "Nói phòng ban có ngân sách lớn nhất hiện tại (một câu).",
+          "h": "Use: The X department has the largest budget.",
+          "s": "The sales department has the largest budget now."
+        },
+        {
+          "p": "How much is HR's budget this month?",
+          "m": "Nói con số ngân sách HR tháng này (một câu).",
+          "h": "Use: HR's budget is + number + dollars.",
+          "s": "HR's budget is 45 dollars this month."
+        },
+        {
+          "p": "Is the marketing budget smaller than sales?",
+          "m": "Trả lời và nói ngắn (một câu).",
+          "h": "Use: X is smaller than Y / X is not smaller.",
+          "s": "Yes, the marketing budget is smaller than sales."
+        },
+        {
+          "p": "Why do we move money to HR?",
+          "m": "Nói một lý do ngắn (một câu).",
+          "h": "Use: because + reason.",
+          "s": "We move money to HR because HR needs training."
+        },
+        {
+          "p": "Which two budgets are the same?",
+          "m": "Nói hai ngân sách bằng nhau (một câu).",
+          "h": "Use: X and Y are the same.",
+          "s": "Marketing and office budgets are the same."
+        }
+      ]
+    },
+    {
+      "t": "Ôn tập: Quyết định cắt giảm",
+      "e": [
+        {
+          "p": "Which cost is first to cut?",
+          "m": "Chọn chi phí đầu tiên cắt và nói ngắn (một câu).",
+          "h": "Use: Cut X first because + reason.",
+          "s": "Cut travel first because trips are few."
+        },
+        {
+          "p": "How much do we save if we cut food?",
+          "m": "Nói con số tiền tiết kiệm (một câu).",
+          "h": "Use: We save + number + dollars.",
+          "s": "We save 15 dollars if we cut food."
+        },
+        {
+          "p": "Is it okay to cut the event cost?",
+          "m": "Trả lời có/không và lý do ngắn (một câu).",
+          "h": "Use: Yes/No because + reason.",
+          "s": "No, because the event is important."
+        },
+        {
+          "p": "Why reduce office supplies?",
+          "m": "Nói một lý do ngắn (một câu).",
+          "h": "Use: because + reason.",
+          "s": "Reduce office supplies because we have many."
+        },
+        {
+          "p": "Which cost saves the most money?",
+          "m": "Chọn chi phí tiết kiệm nhất và nói số hoặc lý do (một câu).",
+          "h": "Use: X saves the most because + reason.",
+          "s": "Cutting travel saves the most because travel is expensive."
+        }
+      ]
+    },
+    {
+      "t": "Ôn tập: Tổng hợp tháng",
+      "e": [
+        {
+          "p": "Is this month spending more than last month?",
+          "m": "Nói có hay không (một câu).",
+          "h": "Use: This month is more/less than last month.",
+          "s": "This month is more than last month."
+        },
+        {
+          "p": "How much is the total spending now?",
+          "m": "Nói tổng chi tiêu (một câu).",
+          "h": "Use: The total spending is + number + dollars.",
+          "s": "The total spending is 120 dollars now."
+        },
+        {
+          "p": "Are any budgets the same this month?",
+          "m": "Trả lời có/không và nói ngắn (một câu).",
+          "h": "Use: Yes, X and Y are the same / No, none are the same.",
+          "s": "Yes, marketing and office budgets are the same."
+        },
+        {
+          "p": "Why is the total higher this month?",
+          "m": "Nói một lý do ngắn (một câu).",
+          "h": "Use: because + reason.",
+          "s": "The total is higher because we buy new equipment."
+        },
+        {
+          "p": "What is one action to save money next month?",
+          "m": "Nói một hành động ngắn để tiết kiệm (một câu).",
+          "h": "Use: Reduce/Stop/Buy less + object.",
+          "s": "Reduce travel next month to save money."
+        }
+      ]
+    }
+  ]
+}

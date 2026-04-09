@@ -1,0 +1,530 @@
+{
+  "l": 1,
+  "d": [
+    {
+      "t": "Trễ chuyến bay",
+      "e": [
+        {
+          "p": "Is my flight delayed?",
+          "m": "Trả lời 'Yes' hoặc 'No' và nói nếu chuyến bay trễ.",
+          "h": "Dùng: Yes/No + S + is + late.",
+          "s": "Yes, your flight is late."
+        },
+        {
+          "p": "How long is the delay?",
+          "m": "Nói thời gian trễ ngắn gọn (ví dụ: one hour, two hours).",
+          "h": "Dùng: It is late by + time.",
+          "s": "It is late by two hours."
+        },
+        {
+          "p": "What time does the plane leave now?",
+          "m": "Nói giờ khởi hành mới ngắn gọn.",
+          "h": "Dùng: It leaves at + time.",
+          "s": "It leaves at ten o'clock."
+        },
+        {
+          "p": "Where is the information desk?",
+          "m": "Nói nơi đặt bàn thông tin ngắn gọn (ví dụ: near gate 3).",
+          "h": "Dùng: It is + place / near + place.",
+          "s": "It is near gate three."
+        },
+        {
+          "p": "Can I get a meal voucher now?",
+          "m": "Nói 'Yes, you can' hoặc 'No, you can't'.",
+          "h": "Dùng: Yes/No + you + can/can't.",
+          "s": "Yes, you can."
+        }
+      ]
+    },
+    {
+      "t": "Mất hành lý",
+      "e": [
+        {
+          "p": "Where is your bag?",
+          "m": "Nói nơi bạn để hành lý cuối cùng ngắn gọn.",
+          "h": "Dùng: I left it at / on / in + place.",
+          "s": "I left it at the check-in desk."
+        },
+        {
+          "p": "What does your bag look like?",
+          "m": "Mô tả hành lý bằng một câu ngắn (màu và loại).",
+          "h": "Dùng: It is + color + + noun.",
+          "s": "It is a black suitcase."
+        },
+        {
+          "p": "Do you have a baggage tag?",
+          "m": "Trả lời 'Yes' hoặc 'No'.",
+          "h": "Dùng: Yes/No + I + have/don't have.",
+          "s": "No, I don't have a tag."
+        },
+        {
+          "p": "Can we call you if we find it?",
+          "m": "Trả lời 'Yes, call me' hoặc 'No, thank you'.",
+          "h": "Dùng: Yes/No + command (call me).",
+          "s": "Yes, call me, please."
+        },
+        {
+          "p": "Will my bag come on the next flight?",
+          "m": "Trả lời có/không và nói nếu bạn biết.",
+          "h": "Dùng: Yes/No + it + will / won't + come.",
+          "s": "Yes, it will come on the next flight."
+        }
+      ]
+    },
+    {
+      "t": "Sai thông tin đặt chỗ",
+      "e": [
+        {
+          "p": "Is this your name on the ticket?",
+          "m": "Trả lời 'Yes' hoặc 'No'.",
+          "h": "Dùng: Yes/No + it + is/is not.",
+          "s": "No, it is not my name."
+        },
+        {
+          "p": "What is your full name on the booking?",
+          "m": "Nói tên đầy đủ ngắn gọn (dùng [studentName] nếu cần).",
+          "h": "Dùng: My name is + name.",
+          "s": "My name is [studentName]."
+        },
+        {
+          "p": "Do you need a seat change?",
+          "m": "Trả lời 'Yes' hoặc 'No' và nói ngắn lý do nếu 'Yes'.",
+          "h": "Dùng: Yes/No + I need + reason.",
+          "s": "Yes, I need a window seat."
+        },
+        {
+          "p": "Can we change your seat now?",
+          "m": "Trả lời 'Yes, please' hoặc 'No, thank you'.",
+          "h": "Dùng: Yes/No + short phrase.",
+          "s": "Yes, please."
+        },
+        {
+          "p": "Do you pay a fee for the change?",
+          "m": "Trả lời 'Yes' hoặc 'No'.",
+          "h": "Dùng: Yes/No + you + do/don't.",
+          "s": "No, you don't pay a fee."
+        }
+      ]
+    },
+    {
+      "t": "Lỡ chuyến nối",
+      "e": [
+        {
+          "p": "Did you miss your connection?",
+          "m": "Trả lời 'Yes' hoặc 'No'.",
+          "h": "Dùng: Yes/No + I + did/didn't.",
+          "s": "Yes, I missed my connection."
+        },
+        {
+          "p": "Where do you need to go next?",
+          "m": "Nói điểm đến tiếp theo ngắn gọn.",
+          "h": "Dùng: I need to go to + place.",
+          "s": "I need to go to Hanoi."
+        },
+        {
+          "p": "Can we book you on the next flight?",
+          "m": "Trả lời 'Yes' hoặc 'No'.",
+          "h": "Dùng: Yes/No + you + can/can't.",
+          "s": "Yes, you can."
+        },
+        {
+          "p": "Do you have another ticket?",
+          "m": "Trả lời 'Yes' hoặc 'No'.",
+          "h": "Dùng: Yes/No + I + have/don't have.",
+          "s": "No, I don't have another ticket."
+        },
+        {
+          "p": "Is there a hotel for passengers now?",
+          "m": "Trả lời có/không và nếu có, nói 'Yes, there is' hoặc 'No, there isn't'.",
+          "h": "Dùng: Yes/No + there + is/are.",
+          "s": "Yes, there is a hotel near the airport."
+        }
+      ]
+    },
+    {
+      "t": "Thay đổi cổng lên máy bay",
+      "e": [
+        {
+          "p": "Has my gate changed?",
+          "m": "Trả lời 'Yes' hoặc 'No' và nói nếu biết.",
+          "h": "Dùng: Yes/No + S + has/have + changed.",
+          "s": "Yes, your gate has changed."
+        },
+        {
+          "p": "What is the new gate number?",
+          "m": "Nói số cổng mới ngắn gọn.",
+          "h": "Dùng: It is + number.",
+          "s": "It is gate five."
+        },
+        {
+          "p": "Is the gate far from here?",
+          "m": "Trả lời 'Yes' hoặc 'No'.",
+          "h": "Dùng: Yes/No + it + is/is not + far.",
+          "s": "No, it is not far."
+        },
+        {
+          "p": "Can I walk to the new gate?",
+          "m": "Trả lời 'Yes' hoặc 'No'.",
+          "h": "Dùng: Yes/No + you + can/can't + verb.",
+          "s": "Yes, you can walk there."
+        },
+        {
+          "p": "Do I need to show my boarding pass again?",
+          "m": "Trả lời 'Yes' hoặc 'No'.",
+          "h": "Dùng: Yes/No + you + do/don't.",
+          "s": "Yes, you do need to show it."
+        }
+      ]
+    },
+    {
+      "t": "Hủy chuyến bay",
+      "e": [
+        {
+          "p": "Is my flight cancelled?",
+          "m": "Trả lời 'Yes' hoặc 'No'.",
+          "h": "Dùng: Yes/No + S + is/are + cancelled.",
+          "s": "Yes, your flight is cancelled."
+        },
+        {
+          "p": "Can I get a refund?",
+          "m": "Trả lời 'Yes' hoặc 'No'.",
+          "h": "Dùng: Yes/No + you + can/can't + get + refund.",
+          "s": "Yes, you can get a refund."
+        },
+        {
+          "p": "Do you want a new flight today?",
+          "m": "Trả lời 'Yes' hoặc 'No'.",
+          "h": "Dùng: Yes/No + I + want/don't want.",
+          "s": "Yes, I want a new flight today."
+        },
+        {
+          "p": "Is there another flight now?",
+          "m": "Trả lời có/không bằng 'Yes, there is' hoặc 'No, there isn't'.",
+          "h": "Dùng: Yes/No + there + is/are.",
+          "s": "Yes, there is another flight now."
+        },
+        {
+          "p": "Do I need to go to the desk?",
+          "m": "Trả lời 'Yes' hoặc 'No'.",
+          "h": "Dùng: Yes/No + you + do/don't.",
+          "s": "Yes, you do need to go to the desk."
+        }
+      ]
+    },
+    {
+      "t": "Vấn đề với taxi sân bay",
+      "e": [
+        {
+          "p": "Is the taxi ready?",
+          "m": "Trả lời 'Yes' hoặc 'No' và nói nếu biết.",
+          "h": "Dùng: Yes/No + it + is/is not + ready.",
+          "s": "Yes, the taxi is ready."
+        },
+        {
+          "p": "Can you take me to the city center?",
+          "m": "Trả lời 'Yes' hoặc 'No'.",
+          "h": "Dùng: Yes/No + I/you + can/can't + verb.",
+          "s": "Yes, I can take you to the city center."
+        },
+        {
+          "p": "How much is the ride?",
+          "m": "Nói một giá tiền ngắn gọn bằng số hoặc từ (ví dụ: twenty).",
+          "h": "Dùng: It is + number / It costs + number.",
+          "s": "It costs twenty dollars."
+        },
+        {
+          "p": "Do you accept cards?",
+          "m": "Trả lời 'Yes' hoặc 'No'.",
+          "h": "Dùng: Yes/No + I + do/don't.",
+          "s": "No, I don't accept cards."
+        },
+        {
+          "p": "Is there a problem with the taxi meter?",
+          "m": "Trả lời có/không và nói ngắn nếu có.",
+          "h": "Dùng: Yes/No + there + is/are + problem.",
+          "s": "No, there is no problem with the meter."
+        }
+      ]
+    },
+    {
+      "t": "Phòng khách sạn không đúng",
+      "e": [
+        {
+          "p": "Is this your reservation?",
+          "m": "Trả lời 'Yes' hoặc 'No' và nói tên nếu cần.",
+          "h": "Dùng: Yes/No + it + is/is not.",
+          "s": "Yes, this is my reservation."
+        },
+        {
+          "p": "Is the room clean?",
+          "m": "Trả lời 'Yes' hoặc 'No'.",
+          "h": "Dùng: Yes/No + it + is/is not + clean.",
+          "s": "No, the room is not clean."
+        },
+        {
+          "p": "Can we change your room now?",
+          "m": "Trả lời 'Yes' hoặc 'No'.",
+          "h": "Dùng: Yes/No + we/you + can/can't + verb.",
+          "s": "Yes, you can change my room."
+        },
+        {
+          "p": "Do you want a quiet room?",
+          "m": "Trả lời 'Yes' hoặc 'No'.",
+          "h": "Dùng: Yes/No + I + want/don't want.",
+          "s": "Yes, I want a quiet room."
+        },
+        {
+          "p": "Is breakfast included in the booking?",
+          "m": "Trả lời 'Yes' hoặc 'No'.",
+          "h": "Dùng: Yes/No + breakfast + is/is not + included.",
+          "s": "Yes, breakfast is included."
+        }
+      ]
+    },
+    {
+      "t": "Quên hộ chiếu",
+      "e": [
+        {
+          "p": "Do you have your passport?",
+          "m": "Trả lời 'Yes' hoặc 'No'.",
+          "h": "Dùng: Yes/No + I + have/don't have.",
+          "s": "No, I don't have my passport."
+        },
+        {
+          "p": "Where did you leave it?",
+          "m": "Nói nơi bạn để hộ chiếu ngắn gọn.",
+          "h": "Dùng: I left it at / in / on + place.",
+          "s": "I left it at home."
+        },
+        {
+          "p": "Can you show another ID?",
+          "m": "Trả lời 'Yes' hoặc 'No'.",
+          "h": "Dùng: Yes/No + I + can/can't.",
+          "s": "Yes, I can show my ID card."
+        },
+        {
+          "p": "Do you need help from the embassy?",
+          "m": "Trả lời 'Yes' hoặc 'No'.",
+          "h": "Dùng: Yes/No + I + need/don't need.",
+          "s": "No, I don't need help from the embassy."
+        },
+        {
+          "p": "Is it a problem to travel without it?",
+          "m": "Trả lời có/không bằng một câu ngắn.",
+          "h": "Dùng: Yes/No + it + is/is not + a problem.",
+          "s": "Yes, it is a problem to travel without a passport."
+        }
+      ]
+    },
+    {
+      "t": "Hành lý quá cân",
+      "e": [
+        {
+          "p": "Is my bag overweight?",
+          "m": "Trả lời 'Yes' hoặc 'No'.",
+          "h": "Dùng: Yes/No + S + is/are + overweight.",
+          "s": "Yes, your bag is overweight."
+        },
+        {
+          "p": "How much is the extra fee?",
+          "m": "Nói số tiền ngắn gọn (ví dụ: ten).",
+          "h": "Dùng: It costs + number.",
+          "s": "It costs ten dollars."
+        },
+        {
+          "p": "Can I move items to my hand luggage?",
+          "m": "Trả lời 'Yes' hoặc 'No'.",
+          "h": "Dùng: Yes/No + you + can/can't + verb.",
+          "s": "Yes, you can move items to your hand luggage."
+        },
+        {
+          "p": "Do you need help packing?",
+          "m": "Trả lời 'Yes' hoặc 'No'.",
+          "h": "Dùng: Yes/No + I + need/don't need.",
+          "s": "No, I don't need help packing."
+        },
+        {
+          "p": "Is the fee paid at the desk?",
+          "m": "Trả lời 'Yes' hoặc 'No'.",
+          "h": "Dùng: Yes/No + it + is/is not + at the desk.",
+          "s": "Yes, the fee is paid at the desk."
+        }
+      ]
+    },
+    {
+      "t": "Nhầm tên trên vé",
+      "e": [
+        {
+          "p": "Is the name on the ticket correct?",
+          "m": "Trả lời 'Yes' hoặc 'No'.",
+          "h": "Dùng: Yes/No + the name + is/is not + correct.",
+          "s": "No, the name on the ticket is not correct."
+        },
+        {
+          "p": "What is the correct name?",
+          "m": "Nói tên đúng ngắn gọn (dùng [studentName] nếu cần).",
+          "h": "Dùng: My name is + name.",
+          "s": "My name is [studentName]."
+        },
+        {
+          "p": "Can we fix the name now?",
+          "m": "Trả lời 'Yes' hoặc 'No'.",
+          "h": "Dùng: Yes/No + we/you + can/can't.",
+          "s": "Yes, you can fix the name now."
+        },
+        {
+          "p": "Do I need to pay for the change?",
+          "m": "Trả lời 'Yes' hoặc 'No'.",
+          "h": "Dùng: Yes/No + you + do/don't.",
+          "s": "No, you don't need to pay."
+        },
+        {
+          "p": "Is my boarding allowed with the wrong name?",
+          "m": "Trả lời có/không bằng một câu ngắn.",
+          "h": "Dùng: Yes/No + you + are/are not + allowed.",
+          "s": "No, you are not allowed to board with the wrong name."
+        }
+      ]
+    },
+    {
+      "t": "Yêu cầu hoàn tiền đơn giản",
+      "e": [
+        {
+          "p": "Can I get a refund for my ticket?",
+          "m": "Trả lời 'Yes' hoặc 'No'.",
+          "h": "Dùng: Yes/No + you + can/can't + get + refund.",
+          "s": "Yes, you can get a refund."
+        },
+        {
+          "p": "Do I need my receipt?",
+          "m": "Trả lời 'Yes' hoặc 'No'.",
+          "h": "Dùng: Yes/No + you + do/don't + need.",
+          "s": "Yes, you do need your receipt."
+        },
+        {
+          "p": "How long is the refund process?",
+          "m": "Nói thời gian ngắn gọn (ví dụ: two days).",
+          "h": "Dùng: It takes + time.",
+          "s": "It takes two days."
+        },
+        {
+          "p": "Can I get the money now?",
+          "m": "Trả lời 'Yes' hoặc 'No'.",
+          "h": "Dùng: Yes/No + you + can/can't + get now.",
+          "s": "No, you can't get the money now."
+        },
+        {
+          "p": "Do I get a full refund?",
+          "m": "Trả lời 'Yes' hoặc 'No'.",
+          "h": "Dùng: Yes/No + you + do/don't + get + full refund.",
+          "s": "No, you don't get a full refund."
+        }
+      ]
+    },
+    {
+      "t": "Ôn tập: Tình huống sân bay",
+      "e": [
+        {
+          "p": "Is the flight on time?",
+          "m": "Trả lời 'Yes' hoặc 'No' và nói nếu trễ.",
+          "h": "Dùng: Yes/No + S + is + on time / late.",
+          "s": "No, the flight is late."
+        },
+        {
+          "p": "Where is gate seven?",
+          "m": "Nói vị trí cổng đơn giản.",
+          "h": "Dùng: It is + place / near + place.",
+          "s": "It is near the coffee shop."
+        },
+        {
+          "p": "Do you have a lost bag?",
+          "m": "Trả lời 'Yes' hoặc 'No'.",
+          "h": "Dùng: Yes/No + I + have/don't have.",
+          "s": "Yes, I have a lost bag."
+        },
+        {
+          "p": "Can we change your flight today?",
+          "m": "Trả lời 'Yes' hoặc 'No'.",
+          "h": "Dùng: Yes/No + you + can/can't.",
+          "s": "Yes, you can change my flight today."
+        },
+        {
+          "p": "Is there a hotel near the airport?",
+          "m": "Trả lời có/không bằng 'Yes, there is' hoặc 'No, there isn't'.",
+          "h": "Dùng: Yes/No + there + is/are.",
+          "s": "Yes, there is a hotel near the airport."
+        }
+      ]
+    },
+    {
+      "t": "Ôn tập: Hành lý và khách sạn",
+      "e": [
+        {
+          "p": "Is my bag heavy?",
+          "m": "Trả lời 'Yes' hoặc 'No'.",
+          "h": "Dùng: Yes/No + it + is/is not + heavy.",
+          "s": "Yes, your bag is heavy."
+        },
+        {
+          "p": "Can I bring a carry-on bag?",
+          "m": "Trả lời 'Yes' hoặc 'No'.",
+          "h": "Dùng: Yes/No + you + can/can't + bring.",
+          "s": "Yes, you can bring one carry-on bag."
+        },
+        {
+          "p": "Is the room ready now?",
+          "m": "Trả lời 'Yes' hoặc 'No'.",
+          "h": "Dùng: Yes/No + it + is/is not + ready.",
+          "s": "No, the room is not ready now."
+        },
+        {
+          "p": "Do you want a single or double room?",
+          "m": "Trả lời loại phòng ngắn gọn.",
+          "h": "Dùng: I want + single/double room.",
+          "s": "I want a single room."
+        },
+        {
+          "p": "Can we store your luggage?",
+          "m": "Trả lời 'Yes' hoặc 'No'.",
+          "h": "Dùng: Yes/No + we/you + can/can't + store.",
+          "s": "Yes, you can store my luggage."
+        }
+      ]
+    },
+    {
+      "t": "Ôn tập: Khiếu nại và hỗ trợ",
+      "e": [
+        {
+          "p": "Is there a problem with your seat?",
+          "m": "Trả lời 'Yes' hoặc 'No' và mô tả ngắn nếu có.",
+          "h": "Dùng: Yes/No + it + is/is not + + adjective.",
+          "s": "Yes, the seat is broken."
+        },
+        {
+          "p": "Can we give you a new ticket?",
+          "m": "Trả lời 'Yes' hoặc 'No'.",
+          "h": "Dùng: Yes/No + we/you + can/can't + give.",
+          "s": "Yes, you can give me a new ticket."
+        },
+        {
+          "p": "Do you want help with a hotel booking?",
+          "m": "Trả lời 'Yes' hoặc 'No'.",
+          "h": "Dùng: Yes/No + I + want/don't want.",
+          "s": "Yes, I want help with a hotel booking."
+        },
+        {
+          "p": "Is the staff here to help you now?",
+          "m": "Trả lời có/không bằng một câu ngắn.",
+          "h": "Dùng: Yes/No + the staff + is/are + here.",
+          "s": "Yes, the staff is here to help me now."
+        },
+        {
+          "p": "Can you wait at the desk?",
+          "m": "Trả lời 'Yes' hoặc 'No'.",
+          "h": "Dùng: Yes/No + I + can/can't + wait.",
+          "s": "Yes, I can wait at the desk."
+        }
+      ]
+    }
+  ]
+}

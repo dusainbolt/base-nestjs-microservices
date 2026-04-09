@@ -1,0 +1,530 @@
+{
+  "l": 2,
+  "d": [
+    {
+      "t": "Gặp nhóm dự án",
+      "e": [
+        {
+          "p": "What is your role in the system team?",
+          "m": "Nói công việc của bạn. Nói nơi bạn làm việc (thành phố hoặc công ty).",
+          "h": "S + be + N. S + V(s) + in/on + place.",
+          "s": "I am a developer. I work in [studentCity]."
+        },
+        {
+          "p": "Can you name two main parts of the system?",
+          "m": "Nêu phần thứ nhất. Nêu phần thứ hai.",
+          "h": "There is/There are + N. Or S + V(s) + N.",
+          "s": "There is a server. There is a database."
+        },
+        {
+          "p": "How do the server and database connect?",
+          "m": "Nói cách kết nối (ngắn). Nói tốc độ kết nối (thường xuyên).",
+          "h": "S + V(s) + in + N. Dùng 'usually' hoặc 'always'.",
+          "s": "The server connects to the database in the network. The network is usually fast."
+        },
+        {
+          "p": "Are you working on the system today?",
+          "m": "Nói có đang làm không. Nói bạn đang làm gì (V-ing).",
+          "h": "S + be + V-ing. Dùng 'today' hoặc 'now'.",
+          "s": "Yes, I am working on the system today. I am testing the app."
+        },
+        {
+          "p": "We plan to add a new cloud service. Do you want cloud or local servers?",
+          "m": "Nói lựa chọn (cloud hoặc local). Nói lý do ngắn (1 câu).",
+          "h": "I want/need + N. Dùng 'because' hoặc 'they are + adj'.",
+          "s": "I want cloud services. They are easy and fast."
+        }
+      ]
+    },
+    {
+      "t": "Giải thích chức năng thành phần",
+      "e": [
+        {
+          "p": "What does the client do in our system?",
+          "m": "Nói một chức năng chính của client. Nói nơi client chạy (thiết bị).",
+          "h": "S + V(s) + N. S + V(s) + on + place.",
+          "s": "The client shows the app to users. It runs on the user device."
+        },
+        {
+          "p": "Tell me one task of the server.",
+          "m": "Nói một nhiệm vụ của server. Nói nếu server chạy luôn hay không (adv of freq).",
+          "h": "S + V(s) + N. Dùng 'always' hoặc 'sometimes'.",
+          "s": "The server stores data. It is always running."
+        },
+        {
+          "p": "How many databases do we have now?",
+          "m": "Nói số database. Nói nơi lưu trữ (cloud/local).",
+          "h": "There are + số + N. S + V(s) + in + place.",
+          "s": "There are two databases. They are in the cloud."
+        },
+        {
+          "p": "Are you fixing the client now?",
+          "m": "Trả lời có/không. Nói công việc bạn đang làm (V-ing).",
+          "h": "S + be + V-ing. Dùng 'now'.",
+          "s": "Yes, I am fixing the client now. I am checking the app screen."
+        },
+        {
+          "p": "Do you like working with databases?",
+          "m": "Nói bạn thích hay không. Nói lý do ngắn gọn.",
+          "h": "I like/I don't like + V-ing. Nêu lý do với 'because' hoặc 'it is + adj'.",
+          "s": "I like working with databases. It is clear and not hard."
+        }
+      ]
+    },
+    {
+      "t": "Chọn công nghệ cho ứng dụng nhỏ",
+      "e": [
+        {
+          "p": "Do we use a simple app or a big app?",
+          "m": "Nói bạn chọn app nhỏ hay lớn. Nói lý do ngắn (1 câu).",
+          "h": "I want/I choose + N. Dùng 'because' hoặc 'it is + adj'.",
+          "s": "I choose a simple app. It is easy to build."
+        },
+        {
+          "p": "Should we use a web app or a mobile app?",
+          "m": "Chọn web hoặc mobile. Nói nơi người dùng sẽ dùng (phone/pc).",
+          "h": "I want + N. S + V(s) + on + device.",
+          "s": "I want a mobile app. Users use it on their phone."
+        },
+        {
+          "p": "How often do we update the app?",
+          "m": "Nói tần suất cập nhật (always/often/sometimes). Nói một việc trong cập nhật.",
+          "h": "Use adv of freq (often/sometimes). S + V(s) + N.",
+          "s": "We update the app often. We fix small bugs."
+        },
+        {
+          "p": "Are you testing the new feature now?",
+          "m": "Trả lời có/không. Nói bạn đang làm gì (V-ing).",
+          "h": "S + be + V-ing. Dùng 'now'.",
+          "s": "No, I am not testing it now. I am writing a short note."
+        },
+        {
+          "p": "We need a simple database. Do you want cloud or local?",
+          "m": "Chọn cloud hoặc local. Nói lý do ngắn.",
+          "h": "I want + N. Dùng 'because' hoặc 'they are + adj'.",
+          "s": "I want a local database. It is small and quick."
+        }
+      ]
+    },
+    {
+      "t": "Mạng và kết nối",
+      "e": [
+        {
+          "p": "Is the network fast in the office?",
+          "m": "Nói mạng có nhanh không. Nói nếu mạng thường ổn (adv of freq).",
+          "h": "S + be + adj. Dùng 'usually' hoặc 'sometimes'.",
+          "s": "The network is fast in the office. It is usually stable."
+        },
+        {
+          "p": "Where is the server located?",
+          "m": "Nói nơi server (cloud/local). Nói nếu gần hay xa (near/far).",
+          "h": "S + V(s) + in + place. Use 'near' or 'far'.",
+          "s": "The server is in the cloud. It is not near our office."
+        },
+        {
+          "p": "How many users use the network now?",
+          "m": "Nêu số người (There are ...). Nói họ dùng mạng cho gì (1 việc).",
+          "h": "There are + số + N. S + V(s) + for + N.",
+          "s": "There are five users now. They use the network for the app."
+        },
+        {
+          "p": "Are you checking the network today?",
+          "m": "Nói có/không. Nói việc bạn làm hôm nay (V-ing).",
+          "h": "S + be + V-ing. Use 'today'.",
+          "s": "Yes, I am checking the network today. I am watching the speed."
+        },
+        {
+          "p": "We have a slow connection. Do you want to change the network?",
+          "m": "Nói muốn hay không. Nói lý do ngắn.",
+          "h": "I want/I don't want + to V or + N. Give short reason.",
+          "s": "I want to change the network. It is slow and not good."
+        }
+      ]
+    },
+    {
+      "t": "Ứng dụng di động cơ bản",
+      "e": [
+        {
+          "p": "Is the mobile app open now?",
+          "m": "Nói app có đang mở không. Nói nếu app đang chạy (V-ing).",
+          "h": "S + be + V-ing or S + V(s) + adv.",
+          "s": "Yes, the mobile app is open now. It is running on my phone."
+        },
+        {
+          "p": "What do users do on the app?",
+          "m": "Nói một hành động chính. Nói thêm một hành động khác.",
+          "h": "S + V(s) + N. Use simple verbs like 'view', 'send'.",
+          "s": "Users view product lists. They send orders in the app."
+        },
+        {
+          "p": "How many screens are in the app?",
+          "m": "Nói số màn hình. Nói một màn hình tên (ví dụ home).",
+          "h": "There are + số + N. S + V(s) + N.",
+          "s": "There are three screens. One screen is the home screen."
+        },
+        {
+          "p": "Are you designing the app layout now?",
+          "m": "Trả lời có/không. Nói hành động bạn đang làm (V-ing).",
+          "h": "S + be + V-ing. Use 'now'.",
+          "s": "No, I am not designing it now. I am writing a short plan."
+        },
+        {
+          "p": "Do you want a simple button or a big button on screen?",
+          "m": "Chọn button nhỏ hoặc lớn. Nói lý do ngắn.",
+          "h": "I want + N. Dùng 'because' hoặc 'it is + adj'.",
+          "s": "I want a big button. It is easy for users."
+        }
+      ]
+    },
+    {
+      "t": "Lưu trữ và dữ liệu",
+      "e": [
+        {
+          "p": "Where do we keep user data?",
+          "m": "Nói nơi lưu trữ (cloud/local). Nói nếu dữ liệu là nhiều hay ít (big/small).",
+          "h": "S + V(s) + in + place. Use 'big' or 'small'.",
+          "s": "We keep user data in the cloud. The data is small now."
+        },
+        {
+          "p": "Do we save data every day?",
+          "m": "Nói có hay không. Nói tần suất ngắn (always/often/sometimes).",
+          "h": "S + V(s) + adv of freq.",
+          "s": "Yes, we save data every day. We do it often."
+        },
+        {
+          "p": "How many files are in the storage?",
+          "m": "Nói số file. Nói nếu file là lớn hay nhỏ (big/small).",
+          "h": "There are + số + N. S + be + adj.",
+          "s": "There are ten files. The files are small."
+        },
+        {
+          "p": "Are you backing up data now?",
+          "m": "Trả lời có/không. Nói bạn đang làm gì (V-ing).",
+          "h": "S + be + V-ing. Use 'now'.",
+          "s": "Yes, I am backing up data now. I am saving two files."
+        },
+        {
+          "p": "We need more space. Do you want cloud storage?",
+          "m": "Nói muốn hay không. Nói lý do ngắn.",
+          "h": "I want/I don't want + N/to V. Give short reason.",
+          "s": "I want cloud storage. It gives more space."
+        }
+      ]
+    },
+    {
+      "t": "Hiệu năng và tốc độ",
+      "e": [
+        {
+          "p": "Is the app fast on phones?",
+          "m": "Nói app có nhanh không. Nói nếu người dùng hài lòng (yes/no).",
+          "h": "S + be + adj. Use 'usually' or 'sometimes'.",
+          "s": "The app is fast on phones. Users are usually happy."
+        },
+        {
+          "p": "What makes the system slow?",
+          "m": "Nói một nguyên nhân đơn giản. Nói cách khắc phục ngắn (1 câu).",
+          "h": "S + V(s) + N. Use 'because' or 'we can + V'.",
+          "s": "The network is slow because many users connect. We can restart the router."
+        },
+        {
+          "p": "How often do we check speed?",
+          "m": "Nói tần suất kiểm tra. Nói ai kiểm tra (ví dụ: I or we).",
+          "h": "Use adv of freq and S + V(s).",
+          "s": "We check speed sometimes. I check it in the morning."
+        },
+        {
+          "p": "Are you measuring the app speed now?",
+          "m": "Trả lời có/không. Nói bạn đang làm gì (V-ing).",
+          "h": "S + be + V-ing. Use 'now'.",
+          "s": "No, I am not measuring it now. I am writing a short note."
+        },
+        {
+          "p": "Do you want to make the app faster?",
+          "m": "Nói muốn hay không. Nói một bước ngắn bạn sẽ làm.",
+          "h": "I want/I don't want + to V. Nói 'I will' tránh nếu cần ở hiện tại, dùng 'I fix' hoặc 'I change'.",
+          "s": "I want to make the app faster. I change one image to a small file."
+        }
+      ]
+    },
+    {
+      "t": "Bảo mật đơn giản",
+      "e": [
+        {
+          "p": "Is the system safe for users?",
+          "m": "Nói hệ thống có an toàn không. Nói nếu bạn lo lắng (yes/no).",
+          "h": "S + be + adj. Dùng 'sometimes' hoặc 'usually'.",
+          "s": "The system is safe for users. I am sometimes a little worried."
+        },
+        {
+          "p": "Do we lock data access?",
+          "m": "Trả lời có/không. Nói cách đơn giản (1 câu).",
+          "h": "S + V(s) + N. Use 'we' or 'they'.",
+          "s": "Yes, we lock data access. We use a simple password."
+        },
+        {
+          "p": "How many people can see user data?",
+          "m": "Nói số người. Nói họ là ai (short).",
+          "h": "There are + số + N. S + V(s) + N.",
+          "s": "There are two people. They are the admin and the owner."
+        },
+        {
+          "p": "Are you checking passwords now?",
+          "m": "Trả lời có/không. Nói bạn đang làm gì (V-ing).",
+          "h": "S + be + V-ing. Use 'now'.",
+          "s": "Yes, I am checking passwords now. I am changing one weak password."
+        },
+        {
+          "p": "We need simple safety. Do you want password or open data?",
+          "m": "Chọn password hoặc mở. Nói lý do ngắn.",
+          "h": "I want + N. Dùng 'because' hoặc 'they are + adj'.",
+          "s": "I want password protection. It is safe and simple."
+        }
+      ]
+    },
+    {
+      "t": "Sơ đồ cho cửa hàng online",
+      "e": [
+        {
+          "p": "Do we have a product page in the system?",
+          "m": "Trả lời có/không. Nói nếu trang thường có ảnh (yes/no).",
+          "h": "S + be + V-ing or S + V(s) + N. Use 'usually'.",
+          "s": "Yes, we have a product page. It usually has an image."
+        },
+        {
+          "p": "How do users buy a product?",
+          "m": "Nói một bước mua hàng. Nói bước tiếp theo ngắn.",
+          "h": "S + V(s) + N. Use simple verbs like 'select', 'pay'.",
+          "s": "Users select a product. Then they pay in the app."
+        },
+        {
+          "p": "How many steps are in the order flow?",
+          "m": "Nói số bước. Nói một bước tên (ví dụ: pay).",
+          "h": "There are + số + N. S + V(s) + N.",
+          "s": "There are three steps. One step is pay."
+        },
+        {
+          "p": "Are you updating the product list now?",
+          "m": "Trả lời có/không. Nói việc bạn đang làm (V-ing).",
+          "h": "S + be + V-ing. Use 'now'.",
+          "s": "No, I am not updating it now. I am reading a short note."
+        },
+        {
+          "p": "We want a fast checkout. Do you like one page or two pages?",
+          "m": "Chọn một trang hay hai trang. Nói lý do ngắn.",
+          "h": "I like/I prefer + N. Give short reason.",
+          "s": "I like one page checkout. It is fast and easy."
+        }
+      ]
+    },
+    {
+      "t": "Vấn đề và sửa lỗi",
+      "e": [
+        {
+          "p": "Is there an error in the app now?",
+          "m": "Trả lời có/không. Nói lỗi có lớn hay nhỏ (big/small).",
+          "h": "S + be + adj. Use 'now' and small/big.",
+          "s": "Yes, there is an error in the app now. The error is small."
+        },
+        {
+          "p": "What do you do to find the bug?",
+          "m": "Nói một việc bạn làm. Nói việc tiếp theo bạn làm.",
+          "h": "S + V(s) + N. Use 'then' in second sentence if needed.",
+          "s": "I read the log file. Then I test one feature."
+        },
+        {
+          "p": "How many bugs do we have today?",
+          "m": "Nói số bug. Nói nếu bug được sửa hay chưa (yes/no).",
+          "h": "There are + số + N. S + V(s) + yet/already simple phrase.",
+          "s": "There are two bugs today. They are not fixed yet."
+        },
+        {
+          "p": "Are you fixing the bug now?",
+          "m": "Trả lời có/không. Nói bạn đang làm gì (V-ing).",
+          "h": "S + be + V-ing. Use 'now'.",
+          "s": "Yes, I am fixing the bug now. I am changing one line."
+        },
+        {
+          "p": "We need a quick fix. Do you want to restart the server?",
+          "m": "Nói có muốn restart hay không. Nói lý do ngắn.",
+          "h": "I want/I don't want + to V. Give short reason.",
+          "s": "I want to restart the server. It may fix the error fast."
+        }
+      ]
+    },
+    {
+      "t": "Gặp khách hàng",
+      "e": [
+        {
+          "p": "What does the system do for the customer?",
+          "m": "Nói một chức năng chính cho khách hàng. Nói cảm nhận khách hàng (good/bad).",
+          "h": "S + V(s) + N. S + be + adj.",
+          "s": "The system shows product info to the customer. The customer feels good."
+        },
+        {
+          "p": "Can the customer see order status?",
+          "m": "Trả lời có/không. Nói nơi họ xem (app/web).",
+          "h": "Yes/No + sentence. S + V(s) + on + device.",
+          "s": "Yes, the customer can see order status. They see it in the app."
+        },
+        {
+          "p": "How many customers use the app every day?",
+          "m": "Nói số khách hàng. Nói họ dùng app cho gì ngắn (1 việc).",
+          "h": "There are + số + N. S + V(s) + for + N.",
+          "s": "There are twenty customers every day. They use the app to buy food."
+        },
+        {
+          "p": "Are you talking with the customer now?",
+          "m": "Trả lời có/không. Nói bạn đang làm gì (V-ing).",
+          "h": "S + be + V-ing. Use 'now'.",
+          "s": "No, I am not talking with the customer now. I am writing a short email."
+        },
+        {
+          "p": "The customer asks for a simple report. Do you want to make a PDF or a web page?",
+          "m": "Chọn PDF hoặc web page. Nói lý do ngắn.",
+          "h": "I want + N. Give short reason with 'because' or 'it is + adj'.",
+          "s": "I want a PDF report. It is easy to send."
+        }
+      ]
+    },
+    {
+      "t": "Nhóm làm việc và nhiệm vụ",
+      "e": [
+        {
+          "p": "Who is in the small team now?",
+          "m": "Nói một người trong team (tên hoặc chức vụ). Nói người khác (chức vụ).",
+          "h": "S + V(s) + N. Use simple roles like 'developer' or 'tester'.",
+          "s": "The developer is here now. The tester is also here."
+        },
+        {
+          "p": "What do you do every morning for the system?",
+          "m": "Nói một việc bạn làm mỗi sáng. Nói việc thứ hai bạn làm.",
+          "h": "S + V(s) + every morning. Use simple verbs.",
+          "s": "I check the server every morning. I check the logs too."
+        },
+        {
+          "p": "How many people work on this feature?",
+          "m": "Nói số người. Nói họ làm việc gì ngắn (1 việc).",
+          "h": "There are + số + N. S + V(s) + N.",
+          "s": "There are three people. They write code for the feature."
+        },
+        {
+          "p": "Are you helping your teammate now?",
+          "m": "Trả lời có/không. Nói bạn đang làm gì (V-ing).",
+          "h": "S + be + V-ing. Use 'now'.",
+          "s": "Yes, I am helping my teammate now. I am showing one test step."
+        },
+        {
+          "p": "Do you like team work or solo work?",
+          "m": "Chọn team hoặc solo. Nói lý do ngắn.",
+          "h": "I like/I prefer + N. Give short reason.",
+          "s": "I like team work. It is nice and quick."
+        }
+      ]
+    },
+    {
+      "t": "Ôn tập: Tổng hợp thành phần",
+      "e": [
+        {
+          "p": "What are the main parts of our small system?",
+          "m": "Nêu hai thành phần chính, mỗi ý một câu.",
+          "h": "There is/There are + N. Or S + V(s) + N.",
+          "s": "There is a server in the system. There is a client app for users."
+        },
+        {
+          "p": "How do users access the app?",
+          "m": "Nói cách truy cập (1 câu). Nói thiết bị họ dùng (1 câu).",
+          "h": "S + V(s) + in/on + place. Use simple verbs.",
+          "s": "Users access the app in the browser. They use a phone or a PC."
+        },
+        {
+          "p": "Is the data in cloud or local?",
+          "m": "Trả lời cloud/local. Nói nếu dữ liệu lớn hay nhỏ.",
+          "h": "S + be + in + place. S + be + adj.",
+          "s": "The data is in the cloud. The data is small now."
+        },
+        {
+          "p": "Are you checking all parts today?",
+          "m": "Trả lời có/không. Nói bạn sẽ làm gì (V-ing).",
+          "h": "S + be + V-ing. Use 'today'.",
+          "s": "Yes, I am checking all parts today. I am testing the client and server."
+        },
+        {
+          "p": "Do you want a simple diagram or a big diagram?",
+          "m": "Chọn simple hoặc big. Nói lý do ngắn.",
+          "h": "I want + N. Give short reason.",
+          "s": "I want a simple diagram. It is easy to read."
+        }
+      ]
+    },
+    {
+      "t": "Ôn tập: Quyết định công nghệ",
+      "e": [
+        {
+          "p": "Should we use a simple database or a big database?",
+          "m": "Chọn small hoặc big. Nói lý do ngắn.",
+          "h": "I want + N. Use 'because' or short adj.",
+          "s": "I want a simple database. It is easy to manage."
+        },
+        {
+          "p": "Do we prefer web or mobile for quick use?",
+          "m": "Chọn web hoặc mobile. Nói nơi người dùng chính (phone/pc).",
+          "h": "I prefer/I want + N. S + V(s) + on + device.",
+          "s": "I prefer mobile for quick use. Users open it on their phone."
+        },
+        {
+          "p": "How often do we update the tech stack?",
+          "m": "Nói tần suất cập nhật. Nói một việc trong cập nhật.",
+          "h": "Use adv of freq and S + V(s).",
+          "s": "We update the tech stack sometimes. We add small fixes."
+        },
+        {
+          "p": "Are you choosing the technology now?",
+          "m": "Trả lời có/không. Nói việc bạn đang làm (V-ing).",
+          "h": "S + be + V-ing. Use 'now'.",
+          "s": "No, I am not choosing it now. I am reading options."
+        },
+        {
+          "p": "We need an easy tool. Do you want tool A or tool B?",
+          "m": "Chọn A hoặc B. Nói lý do ngắn.",
+          "h": "I want + N. Give short reason with 'because' or 'it is + adj'.",
+          "s": "I want tool A. It is simple and fast."
+        }
+      ]
+    },
+    {
+      "t": "Ôn tập: Giải quyết sự cố",
+      "e": [
+        {
+          "p": "Is the app down now?",
+          "m": "Trả lời có/không. Nói mức độ (big/small).",
+          "h": "S + be + adj. Use 'now' and small/big.",
+          "s": "Yes, the app is down now. The problem is small."
+        },
+        {
+          "p": "What is your first step to fix it?",
+          "m": "Nói bước đầu bạn làm (1 câu). Nói bước tiếp theo (1 câu).",
+          "h": "S + V(s) + N. Use simple sequence words 'then'.",
+          "s": "I check the server logs first. Then I restart one service."
+        },
+        {
+          "p": "How many people help with the fix?",
+          "m": "Nêu số người. Nói họ làm gì ngắn.",
+          "h": "There are + số + N. S + V(s) + N.",
+          "s": "There are two people helping. They test the app and the server."
+        },
+        {
+          "p": "Are you writing a report now?",
+          "m": "Trả lời có/không. Nói bạn làm gì (V-ing).",
+          "h": "S + be + V-ing. Use 'now'.",
+          "s": "Yes, I am writing a report now. I am writing two short notes."
+        },
+        {
+          "p": "Do you want a quick fix or a full fix?",
+          "m": "Chọn quick hoặc full. Nói lý do ngắn.",
+          "h": "I want + N. Give short reason.",
+          "s": "I want a quick fix. It solves the problem fast."
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,600 @@
+{
+  "l": 3,
+  "d": [
+    {
+      "t": "Chào khách tại quầy lễ tân",
+      "e": [
+        {
+          "p": "Welcome! Do you have a reservation?",
+          "m": "Nói có hoặc không. Nếu có, cho biết tên đặt phòng.",
+          "h": "Yes/No + 'My name is [studentName].'",
+          "s": "Yes, I do. My name is [studentName]."
+        },
+        {
+          "p": "Can I have the name on the booking?",
+          "m": "Nói tên đặt phòng. Nói thêm số khách (one/two/etc.).",
+          "h": "Present Simple: 'My name is...' + 'We are...' ",
+          "s": "My name is [studentName]. We are two people."
+        },
+        {
+          "p": "We have a table by the window or inside. Which do you prefer?",
+          "m": "Chọn vị trí. Nói lý do ngắn gọn.",
+          "h": "Use 'I prefer...' and a short reason with 'because'.",
+          "s": "I prefer the table by the window. It is more comfortable."
+        },
+        {
+          "p": "The room is not ready yet. Will you wait or come back later?",
+          "m": "Nói quyết định của bạn. Nếu đợi, nói khoảng thời gian bạn chờ.",
+          "h": "Use 'I'll wait' or 'I'll come back' + time phrase.",
+          "s": "I'll wait. I can wait for twenty minutes."
+        },
+        {
+          "p": "We can add breakfast to your booking for an extra fee. Do you want it?",
+          "m": "Trả lời có hoặc không. Nếu có, hỏi thêm thời gian hoặc loại bữa sáng.",
+          "h": "Use 'Yes, please' or 'No, thank you' + question with 'what/when'.",
+          "s": "Yes, please. What time is breakfast served?"
+        }
+      ]
+    },
+    {
+      "t": "Đón khách qua điện thoại",
+      "e": [
+        {
+          "p": "Hello, is this the restaurant?",
+          "m": "Xác nhận đúng hoặc không. Nói bạn muốn đặt chỗ hay hỏi thông tin.",
+          "h": "Use 'Yes, this is...' or 'No, this is not...' + 'I would like...' ",
+          "s": "Yes, this is the restaurant. I would like to make a reservation."
+        },
+        {
+          "p": "What time would you like to come?",
+          "m": "Nói giờ cụ thể. Nói số người đi cùng.",
+          "h": "Use 'at' + time and 'for' + number of people.",
+          "s": "At 7 pm. It is for four people."
+        },
+        {
+          "p": "Do you have any special requests?",
+          "m": "Nói một yêu cầu (ví dụ: near window, quiet). Nói lý do ngắn nếu cần.",
+          "h": "Use 'I would like...' or 'Please...' and 'because' for reason.",
+          "s": "I would like a table near the window. It's quieter there."
+        },
+        {
+          "p": "Can you give me your phone number for confirmation?",
+          "m": "Cho số điện thoại (dùng placeholder nếu cần). Nói bạn muốn được gọi hay nhắn tin.",
+          "h": "Use 'My phone number is...' and 'Please call/text me.'",
+          "s": "My phone number is 012-345-6789. Please call me to confirm."
+        },
+        {
+          "p": "We will send a confirmation message. Is that OK?",
+          "m": "Trả lời đồng ý hoặc không. Nếu không, nói phương thức khác bạn muốn.",
+          "h": "Use 'Yes, that's OK' or 'No' + alternative like 'call me'.",
+          "s": "Yes, that's OK. Or you can call me if needed."
+        }
+      ]
+    },
+    {
+      "t": "Xác nhận đặt chỗ ở nhà hàng/khách sạn",
+      "e": [
+        {
+          "p": "We have you down for tonight at 8. Is that correct?",
+          "m": "Xác nhận đúng hoặc nói thời gian khác. Nếu đổi, đề xuất thời gian mới.",
+          "h": "Use 'Yes, that's correct' or 'No' + 'Can we change to...?'",
+          "s": "Yes, that's correct. See you at 8."
+        },
+        {
+          "p": "Your booking is for three people. Should we change that?",
+          "m": "Xác nhận số người. Nếu thay đổi, nói số mới.",
+          "h": "Use 'Yes, it's for...' or 'No, it's for...' + number.",
+          "s": "No, it's for three people. Actually, it's for four people."
+        },
+        {
+          "p": "We reserved a non-smoking table. Do you prefer smoking or non-smoking?",
+          "m": "Chọn 1 trong 2. Nói lý do ngắn nếu cần.",
+          "h": "Use 'I prefer...' and 'because...'.",
+          "s": "I prefer non-smoking because it's cleaner."
+        },
+        {
+          "p": "We require a credit card to hold large bookings. Will you give your card details?",
+          "m": "Trả lời có hoặc không. Nếu không, đề xuất phương án khác.",
+          "h": "Use 'Yes, I will' or 'No, I can't' + offer 'I can pay in cash'.",
+          "s": "No, I can't give card details. I will pay in cash when I arrive."
+        },
+        {
+          "p": "If you need to cancel, please tell us 24 hours before. Will that be OK?",
+          "m": "Trả lời đồng ý hoặc không. Nếu không, giải thích ngắn.",
+          "h": "Use 'Yes, that's OK' or 'No' + short reason with 'because'.",
+          "s": "Yes, that's OK. I understand the rule."
+        }
+      ]
+    },
+    {
+      "t": "Hỏi thông tin cơ bản của khách",
+      "e": [
+        {
+          "p": "Can I have your name and city, please?",
+          "m": "Nêu tên (dùng placeholder). Nêu thành phố bạn sống (placeholder).",
+          "h": "Use 'My name is [studentName].' and 'I live in [studentCity].'",
+          "s": "My name is [studentName]. I live in [studentCity]."
+        },
+        {
+          "p": "How many nights will you stay with us?",
+          "m": "Nói số đêm. Nói nếu bạn sẽ đến sớm hoặc muộn.",
+          "h": "Use Present Simple or 'I will arrive' for time detail.",
+          "s": "I will stay for two nights. I will arrive late tonight."
+        },
+        {
+          "p": "Do you have any allergies or special needs?",
+          "m": "Nói nếu có hoặc không. Nếu có, liệt kê ngắn.",
+          "h": "Use 'Yes, I have...' or 'No, I don't.'",
+          "s": "Yes, I have a peanut allergy. Please avoid nuts."
+        },
+        {
+          "p": "Are you traveling for business or leisure?",
+          "m": "Nói mục đích (business/leisure). Nói 1 lý do ngắn.",
+          "h": "Use 'I'm traveling for...' and 'because...' or 'to...'.",
+          "s": "I'm traveling for business because I have meetings here."
+        },
+        {
+          "p": "Do you need a wake-up call tomorrow morning?",
+          "m": "Trả lời có hoặc không. Nếu có, nói giờ mong muốn.",
+          "h": "Use 'Yes, please' + time or 'No, thank you.'",
+          "s": "Yes, please. Wake me at 7 am."
+        }
+      ]
+    },
+    {
+      "t": "Hướng dẫn chỗ ngồi và lối đi",
+      "e": [
+        {
+          "p": "Your table is ready. Follow me, please.",
+          "m": "Nói bạn sẽ làm gì (theo/đi cùng). Nói cảm ơn một câu ngắn.",
+          "h": "Use 'OK, I will follow you.' and 'Thank you.'",
+          "s": "OK, I will follow you. Thank you."
+        },
+        {
+          "p": "The stairs are that way or you can use the lift. Which do you prefer?",
+          "m": "Chọn cầu thang hoặc thang máy. Nói lý do ngắn.",
+          "h": "Use 'I prefer...' and 'because...'.",
+          "s": "I prefer the lift because I have heavy luggage."
+        },
+        {
+          "p": "We have a quieter room on the second floor. Do you want it?",
+          "m": "Trả lời có/không. Nếu có, hỏi nếu có sự khác biệt giá.",
+          "h": "Use 'Yes, please' or 'No, thank you' + question 'Is there a fee?'",
+          "s": "Yes, please. Is there an extra charge for that?"
+        },
+        {
+          "p": "You can leave your bags here and come back in ten minutes. Is that OK?",
+          "m": "Trả lời đồng ý hoặc không. Nếu không, đề xuất thời gian khác.",
+          "h": "Use 'Yes, that's OK' or 'No' + 'I will come back in...'.",
+          "s": "Yes, that's OK. I will come back in ten minutes."
+        },
+        {
+          "p": "If you need directions to the pool, I can show you on the map.",
+          "m": "Nói bạn muốn xem bản đồ hay không. Nếu muốn, nói bạn sẽ đi ngay hay sau.",
+          "h": "Use 'Yes, please' or 'No' + 'I will go now' / 'I will go later'.",
+          "s": "Yes, please. I will go now."
+        }
+      ]
+    },
+    {
+      "t": "Cung cấp thông tin về dịch vụ",
+      "e": [
+        {
+          "p": "We offer free breakfast from 7 to 10. Do you want breakfast?",
+          "m": "Trả lời có/không. Nếu có, nói bạn sẽ dùng lúc nào.",
+          "h": "Use 'Yes, please' + time or 'No, thank you.'",
+          "s": "Yes, please. I will have breakfast at 8 am."
+        },
+        {
+          "p": "Our gym is open 6–22. Will you use the gym?",
+          "m": "Trả lời sẽ dùng hay không. Nếu có, nói thời gian bạn đi.",
+          "h": "Use 'I will' or 'I won't' + time phrase.",
+          "s": "I will use the gym. I will go at 7 am."
+        },
+        {
+          "p": "We can arrange a taxi. Do you need one tomorrow morning?",
+          "m": "Trả lời có/không. Nếu có, nói giờ bạn muốn đi.",
+          "h": "Use 'Yes, please' + 'at' + time.",
+          "s": "Yes, please. I need a taxi at 6 am."
+        },
+        {
+          "p": "There is a small charge for late checkout. Do you want to extend?",
+          "m": "Trả lời có/không. Nếu có, nói bạn muốn đến mấy giờ.",
+          "h": "Use 'Yes, I would like to extend until...' or 'No, thank you.'",
+          "s": "Yes, I would like to extend until 2 pm."
+        },
+        {
+          "p": "We recommend the city tour at 9 am; it's popular. Will you join?",
+          "m": "Trả lời có/không. Nếu có, hỏi giá hoặc nơi tập trung.",
+          "h": "Use 'Yes, I will' and 'How much is it?' or 'Where do we meet?'.",
+          "s": "Yes, I will join. How much is the tour?"
+        }
+      ]
+    },
+    {
+      "t": "Thay đổi hoặc huỷ đặt chỗ",
+      "e": [
+        {
+          "p": "You want to change your booking date. Which new date do you want?",
+          "m": "Nói ngày mới bạn muốn. Nói số đêm nếu thay đổi.",
+          "h": "Use 'I want to change to...' and 'for...' nights.",
+          "s": "I want to change to June 12th. It will be for three nights."
+        },
+        {
+          "p": "We can try to move you to another table. Is tonight OK or tomorrow?",
+          "m": "Chọn tối nay hoặc ngày mai. Nói thời gian ước muốn.",
+          "h": "Use 'Tonight' or 'Tomorrow' + time phrase.",
+          "s": "Tomorrow is better. Around 7 pm is OK."
+        },
+        {
+          "p": "If you cancel less than 24 hours before, there is a fee. Do you still want to cancel?",
+          "m": "Trả lời bạn có muốn huỷ không. Nếu muốn huỷ, nói lý do ngắn.",
+          "h": "Use 'Yes, I want to cancel' or 'No, I want to keep' + brief reason.",
+          "s": "Yes, I want to cancel. My plans changed."
+        },
+        {
+          "p": "We can upgrade you to a larger room for an extra cost. Do you want the upgrade?",
+          "m": "Trả lời có/không. Nếu có, hỏi giá ngắn.",
+          "h": "Use 'Yes, please' and 'How much is it?'",
+          "s": "Yes, please. How much is the upgrade?"
+        },
+        {
+          "p": "I can send a confirmation email after I change your booking. Which email should I use?",
+          "m": "Cho email (dùng placeholder nếu cần). Nói bạn muốn nhận tin nhắn hay cuộc gọi nữa không.",
+          "h": "Use 'My email is...' and 'Please also call/text me.'",
+          "s": "My email is [studentName]@example.com. Please also text me."
+        }
+      ]
+    },
+    {
+      "t": "Giải quyết phàn nàn nhỏ",
+      "e": [
+        {
+          "p": "I'm sorry the room is noisy. Would you like to move?",
+          "m": "Trả lời có/không. Nếu có, hỏi khi nào có phòng khác.",
+          "h": "Use 'Yes, please' or 'No, thank you' + 'When is another room ready?'.",
+          "s": "Yes, please. When will the other room be ready?"
+        },
+        {
+          "p": "The waiter forgot your drink. Do you want it now or later?",
+          "m": "Chọn bây giờ hoặc sau. Nếu sau, nói khoảng thời gian.",
+          "h": "Use 'Now' or 'Later' + time phrase.",
+          "s": "Now, please. I can't wait for long."
+        },
+        {
+          "p": "We can give you a small discount for the trouble. Is that acceptable?",
+          "m": "Trả lời chấp nhận hay không. Nếu không, đề nghị phương án khác.",
+          "h": "Use 'Yes, that's acceptable' or 'No' + suggestion.",
+          "s": "Yes, that's acceptable. Thank you for helping."
+        },
+        {
+          "p": "Would you like to speak to the manager?",
+          "m": "Trả lời có/không. Nếu có, nói bạn muốn gặp ngay hay đặt lịch.",
+          "h": "Use 'Yes, I would' or 'No, thank you' + time phrase.",
+          "s": "No, thank you. I will wait a bit and then decide."
+        },
+        {
+          "p": "We will fix the problem quickly and let you know. Is that OK?",
+          "m": "Trả lời đồng ý hoặc không. Nếu không, nói bạn muốn bồi thường nhỏ.",
+          "h": "Use 'Yes, that's OK' or 'No' + 'I would like...' ",
+          "s": "Yes, that's OK. I appreciate your help."
+        }
+      ]
+    },
+    {
+      "t": "Gợi ý hoạt động xung quanh",
+      "e": [
+        {
+          "p": "There is a market nearby. Would you like directions?",
+          "m": "Trả lời có/không. Nếu có, nói bạn muốn đi bộ hay xe.",
+          "h": "Use 'Yes, please' or 'No, thank you' + 'by foot/by car'.",
+          "s": "Yes, please. I will go by foot."
+        },
+        {
+          "p": "The beach is ten minutes from here. Do you prefer beach or mountain?",
+          "m": "Chọn beach hay mountain. Nói lý do ngắn.",
+          "h": "Use 'I prefer...' and 'because...'.",
+          "s": "I prefer the beach because I like swimming."
+        },
+        {
+          "p": "We have a free map and a tour brochure. Do you want both?",
+          "m": "Trả lời có/không. Nếu không, chọn chỉ một trong hai.",
+          "h": "Use 'Yes, please' or 'No, thank you' + choice 'just the map'.",
+          "s": "No, thank you. Just the map, please."
+        },
+        {
+          "p": "The museum is closed on Mondays. Will you go tomorrow or the day after?",
+          "m": "Chọn ngày cụ thể (tomorrow/day after). Nói giờ bạn muốn đi.",
+          "h": "Use 'Tomorrow' or 'The day after tomorrow' + time.",
+          "s": "I will go tomorrow at 10 am."
+        },
+        {
+          "p": "If you want, we can book a city tour for you. Would you like that?",
+          "m": "Trả lời có/không. Nếu có, nói bạn sẽ đi một mình hay với nhóm.",
+          "h": "Use 'Yes, please' and 'I will go alone/with...' ",
+          "s": "Yes, please. I will go with my friend."
+        }
+      ]
+    },
+    {
+      "t": "Mời khách tham gia chương trình ưu đãi",
+      "e": [
+        {
+          "p": "We have a 10% discount for early dinners. Are you interested?",
+          "m": "Trả lời có/không. Nếu có, nói bạn sẽ đặt lúc mấy giờ.",
+          "h": "Use 'Yes, I'm interested' or 'No' + time phrase.",
+          "s": "Yes, I'm interested. I will come at 6 pm."
+        },
+        {
+          "p": "Members get free coffee. Do you have a membership with us?",
+          "m": "Trả lời có/không. Nếu không, hỏi làm sao để đăng ký.",
+          "h": "Use 'No, I don't' + 'How can I sign up?'.",
+          "s": "No, I don't. How can I sign up?"
+        },
+        {
+          "p": "We offer a family package that is cheaper than single tickets. Do you want details?",
+          "m": "Trả lời có/không. Nếu có, hỏi giá hoặc lợi ích ngắn.",
+          "h": "Use 'Yes, please' and 'How much is it?'",
+          "s": "Yes, please. How much is the family package?"
+        },
+        {
+          "p": "If you book now, we will reserve seats for you. Will you book today?",
+          "m": "Trả lời quyết định. Nếu không, nói khi bạn sẽ quyết định.",
+          "h": "Use 'Yes, I will' or 'No, I will decide on...' ",
+          "s": "No, I will decide tomorrow."
+        },
+        {
+          "p": "You can get a free drink if you arrive before 7 pm. Will you arrive early?",
+          "m": "Trả lời có/không. Nếu có, nói bạn sẽ đến lúc mấy giờ.",
+          "h": "Use 'Yes, I will' + time or 'No, I won't.'",
+          "s": "Yes, I will. I will arrive at 6:30 pm."
+        }
+      ]
+    },
+    {
+      "t": "Giao tiếp khi khách nhận phòng",
+      "e": [
+        {
+          "p": "Here is your key. Your room is on the third floor.",
+          "m": "Cảm ơn ngắn. Hỏi thêm thông tin cần biết (ví dụ: breakfast).",
+          "h": "Use 'Thank you.' and a short question 'Is breakfast included?'.",
+          "s": "Thank you. Is breakfast included?"
+        },
+        {
+          "p": "Do you need help with your luggage?",
+          "m": "Trả lời có/không. Nếu có, nói bạn mang bao nhiêu kiện.",
+          "h": "Use 'Yes, please' or 'No, thank you' + number of bags.",
+          "s": "Yes, please. I have two bags."
+        },
+        {
+          "p": "Your check-in time is at 2 pm, but the room is ready early.",
+          "m": "Nói bạn muốn nhận phòng sớm hay chờ đến giờ. Nếu nhận sớm, cảm ơn.",
+          "h": "Use 'I want to check in now' or 'I will wait until 2 pm.'",
+          "s": "I want to check in now. Thank you."
+        },
+        {
+          "p": "We can offer a late checkout for an extra fee. Do you need it?",
+          "m": "Trả lời có/không. Nếu có, nói đến mấy giờ bạn cần.",
+          "h": "Use 'Yes, please' + 'until...' or 'No, thank you.'",
+          "s": "Yes, please. Until 1 pm, please."
+        },
+        {
+          "p": "If you need a taxi later, call the front desk and we will arrange it.",
+          "m": "Nói bạn sẽ làm gì (gọi hay tự đặt). Nói nếu bạn muốn họ gọi ngay.",
+          "h": "Use 'I will call' or 'Please call me' + short time phrase.",
+          "s": "I will call the front desk. Please call me at 7 pm if possible."
+        }
+      ]
+    },
+    {
+      "t": "Thanh toán và trả phòng (Check-out)",
+      "e": [
+        {
+          "p": "Are you ready to check out?",
+          "m": "Trả lời có/không. Nếu không, nói bạn cần thêm thời gian.",
+          "h": "Use 'Yes, I am ready' or 'No, I need more time.'",
+          "s": "Yes, I am ready."
+        },
+        {
+          "p": "Will you pay by cash or card?",
+          "m": "Nói phương thức thanh toán. Nếu bằng thẻ, xác nhận bạn sẽ ký hay nhập mã.",
+          "h": "Use 'I will pay by cash' or 'by card' + 'I will sign' / 'I will enter PIN'.",
+          "s": "I will pay by card. I will sign the receipt."
+        },
+        {
+          "p": "Do you want a printed receipt or an email?",
+          "m": "Chọn in hay email. Nếu email, cho địa chỉ (placeholder ok).",
+          "h": "Use 'A printed receipt, please' or 'Email it to...' ",
+          "s": "Email it to [studentName]@example.com."
+        },
+        {
+          "p": "Did you enjoy your stay? Any comments for us?",
+          "m": "Nói một điểm bạn thích. Nói một điều họ có thể cải thiện ngắn gọn.",
+          "h": "Use one positive and one suggestion with 'and' or two sentences.",
+          "s": "I liked the friendly staff. The room could be cleaner next time."
+        },
+        {
+          "p": "We will call a taxi for you if you need. Do you want us to arrange one now?",
+          "m": "Trả lời có/không. Nếu có, nói giờ bạn cần xe.",
+          "h": "Use 'Yes, please' + time or 'No, thank you.'",
+          "s": "Yes, please. I need a taxi in ten minutes."
+        }
+      ]
+    },
+    {
+      "t": "Giao tiếp khi khách đến muộn",
+      "e": [
+        {
+          "p": "I see you arrived late. Are you OK?",
+          "m": "Nói bạn ổn hay không. Nếu không ổn, nói vấn đề ngắn.",
+          "h": "Use 'Yes, I'm OK' or 'No, I am not' + short reason.",
+          "s": "Yes, I'm OK. The traffic was slow."
+        },
+        {
+          "p": "Your reservation is still valid but we close the kitchen soon.",
+          "m": "Hỏi bạn có muốn đặt món nhanh hay ăn nhẹ. Nói chọn món nhanh hoặc không.",
+          "h": "Use 'I will order quickly' or 'No, I will not' ",
+          "s": "I will order quickly. Please bring the menu."
+        },
+        {
+          "p": "We saved your table but only for fifteen more minutes.",
+          "m": "Trả lời bạn sẽ đến kịp hay không. Nếu không, đề nghị thời gian khác.",
+          "h": "Use 'I will be there' or 'I can't' + time alternative.",
+          "s": "I will be there in ten minutes."
+        },
+        {
+          "p": "If you arrive after we close, we can hold your booking for tomorrow. Is that OK?",
+          "m": "Trả lời có/không. Nếu có, hỏi thời gian mở cửa hôm sau.",
+          "h": "Use 'Yes, that's OK' or 'No' + 'What time do you open tomorrow?'.",
+          "s": "Yes, that's OK. What time do you open tomorrow?"
+        },
+        {
+          "p": "We can prepare a simple late snack if you want. Would you like one?",
+          "m": "Trả lời có/không. Nếu có, nói bạn muốn gì ngắn (sandwich, soup...).",
+          "h": "Use 'Yes, please' + food choice or 'No, thank you.'",
+          "s": "Yes, please. I would like a sandwich."
+        }
+      ]
+    },
+    {
+      "t": "Dịch vụ bổ sung khi lưu trú dài ngày",
+      "e": [
+        {
+          "p": "You are staying for a week. Do you want daily cleaning?",
+          "m": "Trả lời có/không. Nếu có, nói bạn muốn vào buổi sáng hay chiều.",
+          "h": "Use 'Yes, please' + 'in the morning/afternoon' or 'No, thank you.'",
+          "s": "Yes, please. In the morning, please."
+        },
+        {
+          "p": "We can do laundry service every three days. Is that good for you?",
+          "m": "Trả lời có/không. Nếu không, đề nghị tần suất khác.",
+          "h": "Use 'Yes, that's good' or 'No, every...' ",
+          "s": "No, every two days is better for me."
+        },
+        {
+          "p": "Would you like to arrange a long-term parking spot?",
+          "m": "Trả lời có/không. Nếu có, hỏi giá hoặc vị trí ngắn.",
+          "h": "Use 'Yes, please' and 'How much is it?'",
+          "s": "Yes, please. How much is the parking?"
+        },
+        {
+          "p": "We have a loyalty discount for stays over five nights. Do you want to apply it?",
+          "m": "Trả lời có/không. Nếu có, hỏi có cần giấy tờ gì không.",
+          "h": "Use 'Yes, please' and 'Do I need to show...' ",
+          "s": "Yes, please. Do I need to show any ID?"
+        },
+        {
+          "p": "If you need fresh towels daily, we can do that. Would you like daily towels?",
+          "m": "Trả lời có/không. Nếu có, hỏi thời gian nhân viên vào phòng hợp lý.",
+          "h": "Use 'Yes, please' + time like 'in the morning'.",
+          "s": "Yes, please. Please come in the morning."
+        }
+      ]
+    },
+    {
+      "t": "Ôn tập: Chào đón và xác nhận thông tin 1",
+      "e": [
+        {
+          "p": "Welcome back. Do you have a reservation under your name?",
+          "m": "Nói tên đặt phòng (placeholder). Nói bạn tới để làm gì ngắn (dinner/check-in).",
+          "h": "Use 'My name is...' and 'I am here for...'.",
+          "s": "My name is [studentName]. I am here for dinner."
+        },
+        {
+          "p": "Can I see your booking confirmation number?",
+          "m": "Nêu có hoặc không. Nếu không có, nói tên và ngày đặt.",
+          "h": "Use 'No, I don't have it' + 'My booking is under...' ",
+          "s": "No, I don't have it. My booking is under [studentName] for June 10th."
+        },
+        {
+          "p": "We have you down for two people at 7 pm. Is anything else needed?",
+          "m": "Nói một yêu cầu (vegan, birthday). Nói nếu bạn cần chỗ yên tĩnh.",
+          "h": "Use 'Yes, please' + request and reason 'because...'.",
+          "s": "Yes, please. A quiet table because we will talk."
+        },
+        {
+          "p": "Would you like us to call a taxi after your meal?",
+          "m": "Trả lời có/không. Nếu có, nói bạn muốn gọi ngay hay sau.",
+          "h": "Use 'Yes, please' and 'after'/'now'.",
+          "s": "Yes, please. Call a taxi after the meal."
+        },
+        {
+          "p": "If you leave a review, we can give you a small discount next time. Will you write one?",
+          "m": "Trả lời có/không. Nếu có, hỏi cách để viết (online/at front desk).",
+          "h": "Use 'Yes, I will' and 'Where can I...?'",
+          "s": "Yes, I will. Where can I write the review?"
+        }
+      ]
+    },
+    {
+      "t": "Ôn tập: Chào đón và xác nhận thông tin 2",
+      "e": [
+        {
+          "p": "Hello, do you have a reservation for lunch?",
+          "m": "Trả lời có/không. Nếu có, nói tên và số người.",
+          "h": "Use 'Yes, it's under...' + 'for...' people.",
+          "s": "Yes, it's under [studentName] for three people."
+        },
+        {
+          "p": "We have a vegetarian option today. Do you need vegetarian meals?",
+          "m": "Trả lời có/không. Nếu có, hỏi món đặc biệt bạn muốn.",
+          "h": "Use 'Yes, please' + 'I would like...' ",
+          "s": "Yes, please. I would like a vegetarian pasta."
+        },
+        {
+          "p": "Your table will be ready in five minutes. Would you like to wait at the bar?",
+          "m": "Trả lời có/không. Nếu có, nói bạn muốn uống gì ở quầy bar.",
+          "h": "Use 'Yes, I will' and 'I want...' for a drink.",
+          "s": "Yes, I will wait at the bar. I want a coffee."
+        },
+        {
+          "p": "We need a credit card to secure large bookings. Can we take your card now?",
+          "m": "Trả lời có/không. Nếu không, đề xuất phương án khác.",
+          "h": "Use 'No, I can't' + 'I will pay with cash' or 'Yes, here it is.'",
+          "s": "No, I can't give my card now. I will pay with cash."
+        },
+        {
+          "p": "Do you prefer to pay at the table or at the front desk?",
+          "m": "Chọn một nơi. Nói lý do ngắn nếu muốn.",
+          "h": "Use 'I prefer to pay at...' and 'because...'.",
+          "s": "I prefer to pay at the front desk because it's faster."
+        }
+      ]
+    },
+    {
+      "t": "Ôn tập: Chào đón và xác nhận thông tin 3",
+      "e": [
+        {
+          "p": "Good evening. Is your name on the reservation list?",
+          "m": "Xác nhận tên (placeholder). Nói nếu bạn muốn đổi chỗ ngồi.",
+          "h": "Use 'Yes, my name is...' and 'I would like to change to...'.",
+          "s": "Yes, my name is [studentName]. I would like to change to a window seat."
+        },
+        {
+          "p": "We offered a free drink on arrival. Do you want it now?",
+          "m": "Trả lời có/không. Nếu có, nói bạn muốn uống gì.",
+          "h": "Use 'Yes, please' + drink name or 'No, thank you.'",
+          "s": "Yes, please. I would like orange juice."
+        },
+        {
+          "p": "If you booked online, you can show the confirmation on your phone.",
+          "m": "Nói bạn sẽ làm gì (show phone or give name). Nói nếu bạn không có điện thoại.",
+          "h": "Use 'I will show it' or 'I will give my name' + short note.",
+          "s": "I will show it on my phone. If not, I will give my name."
+        },
+        {
+          "p": "We need to know if you have any food allergies. Are you allergic to anything?",
+          "m": "Nói không hoặc liệt kê 1 allergy. Nếu có, nêu rõ tránh gì.",
+          "h": "Use 'Yes, I am allergic to...' or 'No, I'm not.'",
+          "s": "Yes, I am allergic to shellfish. Please avoid seafood."
+        },
+        {
+          "p": "Thank you for coming. Would you like a receipt or an email after payment?",
+          "m": "Chọn receipt hay email. Nếu email, cho địa chỉ (placeholder ok).",
+          "h": "Use 'A receipt, please' or 'Email it to...' ",
+          "s": "Email it to [studentName]@example.com."
+        }
+      ]
+    }
+  ]
+}

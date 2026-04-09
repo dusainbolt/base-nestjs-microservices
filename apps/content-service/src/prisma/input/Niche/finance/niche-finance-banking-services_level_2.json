@@ -1,0 +1,530 @@
+{
+  "l": 2,
+  "d": [
+    {
+      "t": "Mở tài khoản mới",
+      "e": [
+        {
+          "p": "Do you want a savings or a checking account?",
+          "m": "Nói bạn muốn loại tài khoản. Nói mục đích ngắn (ví dụ để tiết kiệm hoặc dùng hàng ngày).",
+          "h": "I want + N. I need + to V / to + V.",
+          "s": "I want a savings account. I need it to save money."
+        },
+        {
+          "p": "What is your full name?",
+          "m": "Viết tên đầy đủ. Nói bạn sống ở thành phố nào.",
+          "h": "My name is ... / I live in ...",
+          "s": "My name is [studentName]. I live in [studentCity]."
+        },
+        {
+          "p": "How much money do you want to deposit today?",
+          "m": "Nói số tiền bạn gửi. Nói tiền mặt hay séc.",
+          "h": "I want to deposit + số. It is + cash/check.",
+          "s": "I want to deposit 500 dollars. It is cash."
+        },
+        {
+          "p": "Do you have an ID with you?",
+          "m": "Trả lời có hoặc không. Nếu có, nói loại giấy tờ (ID/passport).",
+          "h": "Yes/No. I have + my passport / my ID card.",
+          "s": "Yes, I have my ID card. It is my national ID card."
+        },
+        {
+          "p": "Please write your address on the form.",
+          "m": "Viết địa chỉ đầy đủ. Nói nếu bạn cần bút.",
+          "h": "My address is ... / I need ...",
+          "s": "My address is 12 River Road, [studentCity]. I need a pen, please."
+        }
+      ]
+    },
+    {
+      "t": "Hỏi số dư tài khoản",
+      "e": [
+        {
+          "p": "How much money is in your account now?",
+          "m": "Nói số dư hiện tại (approx). Nói liệu bạn thường kiểm tra số dư hay không.",
+          "h": "There is + số + N. I often/always/sometimes + V.",
+          "s": "There is 300 dollars in my account. I often check my balance."
+        },
+        {
+          "p": "Do you check your balance online?",
+          "m": "Trả lời có/không. Nói tần suất bạn kiểm tra (always/often/sometimes).",
+          "h": "Yes/No. I always/often/sometimes + V.",
+          "s": "Yes, I check it online. I often check it in the morning."
+        },
+        {
+          "p": "Can I see your account number?",
+          "m": "Nói số tài khoản hoặc dùng placeholder. Nói nếu bạn cần giúp nhớ số.",
+          "h": "My account number is ... / I need help.",
+          "s": "My account number is 12345678. I need help to find it."
+        },
+        {
+          "p": "Are there any pending transactions?",
+          "m": "Trả lời có/không. Nếu có, nói số giao dịch chờ.",
+          "h": "Yes/No. There are + số + pending transactions.",
+          "s": "Yes, there are two pending transactions. They are small payments."
+        },
+        {
+          "p": "I will check your balance now, do you want a printed receipt?",
+          "m": "Trả lời có/không. Nói bạn muốn nhận sao kê giấy hay không và vì sao ngắn.",
+          "h": "Yes/No. I want/need a printed receipt because ...",
+          "s": "Yes, I want a printed receipt. I need it for my records."
+        }
+      ]
+    },
+    {
+      "t": "Chuyển tiền trong cùng ngân hàng",
+      "e": [
+        {
+          "p": "Do you want to transfer to another account here?",
+          "m": "Trả lời có/không. Nói bạn muốn chuyển ngay hay đặt lịch.",
+          "h": "Yes/No. I want to transfer now / I want to schedule.",
+          "s": "Yes, I want to transfer now. I want it to be immediate."
+        },
+        {
+          "p": "What is the recipient account number?",
+          "m": "Nói số tài khoản người nhận. Nói tên người nhận ngắn gọn.",
+          "h": "The account number is ... / The name is ...",
+          "s": "The account number is 87654321. The recipient name is John Minh."
+        },
+        {
+          "p": "How much do you want to send?",
+          "m": "Nói số tiền. Nói nếu đây là chuyển thường xuyên hay lần đầu.",
+          "h": "I want to send + số. I always / sometimes / never + V.",
+          "s": "I want to send 200 dollars. I sometimes send money to this account."
+        },
+        {
+          "p": "Do you want to add a note for this transfer?",
+          "m": "Trả lời có/không. Nếu có, viết ghi chú ngắn.",
+          "h": "Yes/No. The note is ...",
+          "s": "Yes, the note is 'Rent'. It is for this month's rent."
+        },
+        {
+          "p": "Please confirm the transfer details now.",
+          "m": "Xác nhận số tiền. Xác nhận tên người nhận hoặc số tài khoản.",
+          "h": "I confirm + số tiền. I confirm + name/number.",
+          "s": "I confirm 200 dollars. I confirm the account number 87654321."
+        }
+      ]
+    },
+    {
+      "t": "Chuyển tiền cho người thân hoặc bạn",
+      "e": [
+        {
+          "p": "Do you often send money to family?",
+          "m": "Trả lời có/không. Nói tần suất (often/sometimes/never).",
+          "h": "Yes/No. I often/sometimes/never + V.",
+          "s": "Yes, I often send money to my family. I send money every month."
+        },
+        {
+          "p": "Who is the receiver this time?",
+          "m": "Nói tên người nhận. Nói mối quan hệ (mother/friend).",
+          "h": "The receiver is ... / She is my ...",
+          "s": "The receiver is Anna. She is my sister."
+        },
+        {
+          "p": "Do you want to save this person as a payee?",
+          "m": "Trả lời có/không. Nói lý do ngắn (ví dụ: để chuyển nhanh).",
+          "h": "Yes/No. I want to save them because ...",
+          "s": "Yes, I want to save her. She is my sister and I send often."
+        },
+        {
+          "p": "How many times do you send money each month?",
+          "m": "Nói số lần trong tháng. Nói nếu số này thay đổi.",
+          "h": "I send money + số + times. It is usually / sometimes ...",
+          "s": "I send money two times each month. It is usually the same dates."
+        },
+        {
+          "p": "Do you want to send now or schedule for later?",
+          "m": "Chọn ngay hay hẹn. Nói ngày nếu hẹn sau.",
+          "h": "I want to send now / I want to schedule for + day/date.",
+          "s": "I want to schedule for next Monday. I will send it then."
+        }
+      ]
+    },
+    {
+      "t": "Rút tiền tại quầy và ATM",
+      "e": [
+        {
+          "p": "Do you want to withdraw cash now?",
+          "m": "Trả lời có/không. Nói số tiền bạn muốn rút.",
+          "h": "Yes/No. I want to withdraw + số.",
+          "s": "Yes, I want to withdraw 100 dollars. I need cash for today."
+        },
+        {
+          "p": "Do you prefer to use an ATM or go to the teller?",
+          "m": "Chọn ATM hoặc quầy. Nói lý do ngắn (an toàn/dễ).",
+          "h": "I prefer + ATM/teller. Because ...",
+          "s": "I prefer the ATM. It is faster for me."
+        },
+        {
+          "p": "Please enter your PIN on the machine.",
+          "m": "Nói bạn đang nhập PIN. Nói nếu bạn cần trợ giúp.",
+          "h": "I am entering my PIN. I need help if I can't.",
+          "s": "I am entering my PIN now. I need help if it is wrong."
+        },
+        {
+          "p": "The ATM shows a limit. Do you want a smaller amount?",
+          "m": "Trả lời có/không. Nói số tiền thay thế nếu có.",
+          "h": "Yes/No. I want + số thay thế.",
+          "s": "Yes, I want a smaller amount. Please give me 50 dollars."
+        },
+        {
+          "p": "Did you get your cash and receipt?",
+          "m": "Trả lời có/không. Nói nếu số tiền đúng hoặc thiếu.",
+          "h": "Yes/No. The amount is correct / The amount is missing.",
+          "s": "No, the amount is missing. I received less cash than expected."
+        }
+      ]
+    },
+    {
+      "t": "Gửi tiết kiệm đơn giản",
+      "e": [
+        {
+          "p": "Do you want a fixed-term savings or flexible savings?",
+          "m": "Chọn cố định hay linh hoạt. Nói lý do ngắn (lãi/tiện lợi).",
+          "h": "I want + fixed-term/flexible. Because ...",
+          "s": "I want fixed-term savings. Because it gives a higher interest."
+        },
+        {
+          "p": "How much do you want to save each month?",
+          "m": "Nói số tiền tiết kiệm hàng tháng. Nói tần suất (each month).",
+          "h": "I save + số + each month. I always / often ...",
+          "s": "I save 100 dollars each month. I always save on the first day."
+        },
+        {
+          "p": "For how many months do you want the fixed term?",
+          "m": "Nói số tháng. Nói nếu bạn can withdraw early or not.",
+          "h": "I want + số + months. I can/cannot withdraw early.",
+          "s": "I want 12 months. I cannot withdraw early."
+        },
+        {
+          "p": "Do you want to set up automatic transfers to savings?",
+          "m": "Trả lời có/không. Nói tần suất chuyển tự động (monthly).",
+          "h": "Yes/No. I want automatic transfer every month.",
+          "s": "Yes, I want automatic transfers. Please transfer monthly on the 1st."
+        },
+        {
+          "p": "We will give you a savings passbook. Do you want it now?",
+          "m": "Trả lời có/không. Nói nếu bạn muốn gửi nhận qua thư.",
+          "h": "Yes/No. I want it now / I want it by mail.",
+          "s": "Yes, I want it now. I will take the passbook today."
+        }
+      ]
+    },
+    {
+      "t": "Vay tiêu dùng cơ bản",
+      "e": [
+        {
+          "p": "Do you want a personal loan?",
+          "m": "Trả lời có/không. Nói mục đích vay (ví dụ: mua đồ, sửa nhà).",
+          "h": "Yes/No. I want a loan for + N / to + V.",
+          "s": "Yes, I want a personal loan. I want it to buy a new phone."
+        },
+        {
+          "p": "How much money do you need to borrow?",
+          "m": "Nói số tiền vay. Nói thời gian bạn sẽ trả lại (short/long).",
+          "h": "I need to borrow + số. I will pay back in + months/years.",
+          "s": "I need to borrow 1000 dollars. I will pay back in 12 months."
+        },
+        {
+          "p": "Do you have a steady job now?",
+          "m": "Trả lời có/không. Nói nghề nghiệp ngắn (job title).",
+          "h": "Yes/No. I work as a [studentJob] / I am a student.",
+          "s": "Yes, I have a steady job. I work as a teacher."
+        },
+        {
+          "p": "We need proof of income. Can you bring last month pay slip?",
+          "m": "Trả lời có/không. Nói khi bạn sẽ nộp giấy tờ.",
+          "h": "Yes/No. I will bring it on + day/time.",
+          "s": "Yes, I can bring it. I will bring it tomorrow morning."
+        },
+        {
+          "p": "The loan officer asks you to sign the application now.",
+          "m": "Nói bạn đồng ý hay không. Nói nếu bạn cần đọc lại điều khoản.",
+          "h": "I agree / I do not agree. I need to read the terms.",
+          "s": "I agree to sign the application. I need to read the terms first."
+        }
+      ]
+    },
+    {
+      "t": "Đổi thẻ hoặc khóa thẻ khi mất",
+      "e": [
+        {
+          "p": "Did you lose your card?",
+          "m": "Trả lời có/không. Nói khi bạn phát hiện mất (ví dụ: hôm qua).",
+          "h": "Yes/No. I lost it + time (yesterday/today).",
+          "s": "Yes, I lost my card yesterday. I found out this morning."
+        },
+        {
+          "p": "Do you want to block your card now?",
+          "m": "Trả lời có/không. Nói bạn muốn khóa tạm thời hay vĩnh viễn.",
+          "h": "Yes/No. I want to block it temporarily / permanently.",
+          "s": "Yes, I want to block it now. I want a temporary block first."
+        },
+        {
+          "p": "Would you like a replacement card?",
+          "m": "Trả lời có/không. Nói bạn cần nhận thẻ tại quầy hay qua đường bưu điện.",
+          "h": "Yes/No. I want to pick up / receive by mail.",
+          "s": "Yes, I want a replacement card. I will pick it up at the branch."
+        },
+        {
+          "p": "Please confirm your ID to get a new card.",
+          "m": "Trả lời có/không. Nói loại ID bạn đưa (ID/passport).",
+          "h": "Yes/No. I give my ID / my passport.",
+          "s": "Yes, I confirm my ID. I give my passport now."
+        },
+        {
+          "p": "How long will the new card take to arrive?",
+          "m": "Hỏi thời gian chờ. Nói bạn có cần thẻ tạm thời hay không.",
+          "h": "How long ...? I need a temporary card / I do not need it.",
+          "s": "How long does it take to arrive? I need a temporary card this week."
+        }
+      ]
+    },
+    {
+      "t": "Thanh toán hóa đơn hàng tháng",
+      "e": [
+        {
+          "p": "Do you pay your electricity bill online?",
+          "m": "Trả lời có/không. Nói tần suất bạn trả (every month).",
+          "h": "Yes/No. I pay it every month / sometimes.",
+          "s": "Yes, I pay it online. I pay it every month."
+        },
+        {
+          "p": "How much is your current water bill?",
+          "m": "Nói số tiền trên hóa đơn. Nói bạn có thanh toán ngay hôm nay hay không.",
+          "h": "The bill is + số. I will pay it today / I will pay later.",
+          "s": "The water bill is 30 dollars. I will pay it today."
+        },
+        {
+          "p": "Do you want to set up automatic bill pay?",
+          "m": "Trả lời có/không. Nói tài khoản để trích nợ tự động.",
+          "h": "Yes/No. Use account + số / Use my checking account.",
+          "s": "Yes, I want automatic bill pay. Use my checking account 12345678."
+        },
+        {
+          "p": "We have a late fee for missed payments. Do you understand?",
+          "m": "Trả lời có/không. Nói bạn sẽ thanh toán đúng hạn hay không.",
+          "h": "Yes/No. I will pay on time / I may be late.",
+          "s": "Yes, I understand the late fee. I will pay on time."
+        },
+        {
+          "p": "Please confirm the biller name and amount before payment.",
+          "m": "Xác nhận tên người thu và số tiền. Xác nhận bạn muốn thanh toán.",
+          "h": "I confirm the biller is ... / I confirm the amount is ...",
+          "s": "I confirm the biller is City Water. I confirm the amount is 30 dollars."
+        }
+      ]
+    },
+    {
+      "t": "Hỏi về phí và lãi suất",
+      "e": [
+        {
+          "p": "Do you want to know our account fees?",
+          "m": "Trả lời có/không. Nói bạn muốn biết phí hàng tháng hay phí rút tiền.",
+          "h": "Yes/No. I want to know monthly fees / withdrawal fees.",
+          "s": "Yes, I want to know the fees. I want the monthly fee information."
+        },
+        {
+          "p": "Our savings interest rate is 1.5% now.",
+          "m": "Trả lời bạn có hài lòng hay không. Nói nếu bạn muốn mở tài khoản hay chờ.",
+          "h": "I am happy/unhappy. I want to open an account / I will wait.",
+          "s": "I am happy with the rate. I want to open a savings account now."
+        },
+        {
+          "p": "There is a small fee for international transfers.",
+          "m": "Trả lời có/không bạn chấp nhận phí. Nói nếu bạn muốn chuyển nội địa thay thế.",
+          "h": "Yes/No. I will accept / I want a domestic transfer.",
+          "s": "No, I do not accept the fee. I want a domestic transfer instead."
+        },
+        {
+          "p": "How much is the monthly maintenance fee?",
+          "m": "Hỏi số tiền phí hàng tháng. Xác nhận bạn muốn miễn phí nếu có điều kiện.",
+          "h": "How much ...? I want fee waiver if ...",
+          "s": "How much is the fee? I want a fee waiver if I have direct deposit."
+        },
+        {
+          "p": "Do you want a document that shows current rates and fees?",
+          "m": "Trả lời có/không. Nói bạn muốn nhận bản cứng hay email.",
+          "h": "Yes/No. I want a paper copy / an email copy.",
+          "s": "Yes, I want the document. Please send an email copy to me."
+        }
+      ]
+    },
+    {
+      "t": "Giờ mở cửa và đặt lịch hẹn",
+      "e": [
+        {
+          "p": "Our branch opens at 9 AM. Do you need to come then?",
+          "m": "Trả lời có/không. Nói bạn sẽ đến mấy giờ.",
+          "h": "Yes/No. I will come at + time.",
+          "s": "Yes, I will come at 9 AM. I need to see a teller."
+        },
+        {
+          "p": "Would you like to book an appointment with a loan officer?",
+          "m": "Trả lời có/không. Nói ngày bạn rảnh (tomorrow/next week).",
+          "h": "Yes/No. I am free tomorrow / next week.",
+          "s": "Yes, I would like an appointment. I am free next Wednesday."
+        },
+        {
+          "p": "Do you prefer morning or afternoon?",
+          "m": "Chọn sáng hoặc chiều. Nói lý do ngắn (work schedule).",
+          "h": "I prefer morning/afternoon. Because ...",
+          "s": "I prefer the afternoon. I work in the morning."
+        },
+        {
+          "p": "We have a slot at 2 PM. Does that work for you?",
+          "m": "Trả lời có/không. Nếu không, đề xuất giờ khác.",
+          "h": "Yes/No. I suggest + time.",
+          "s": "No, 2 PM does not work. I suggest 4 PM instead."
+        },
+        {
+          "p": "Please bring your ID and account number to the appointment.",
+          "m": "Xác nhận bạn sẽ mang ID. Xác nhận bạn sẽ mang số tài khoản.",
+          "h": "I will bring my ID. I will bring my account number.",
+          "s": "I will bring my ID. I will bring my account number."
+        }
+      ]
+    },
+    {
+      "t": "Gặp nhân viên hỗ trợ hoặc khiếu nại",
+      "e": [
+        {
+          "p": "I am here to help. What is the problem?",
+          "m": "Nói vấn đề ngắn gọn (ví dụ: giao dịch sai, thẻ hỏng). Nói khi vấn đề xảy ra.",
+          "h": "There is a problem: ... It happened + time.",
+          "s": "There is a problem with a recent transaction. It happened yesterday."
+        },
+        {
+          "p": "Do you have a transaction ID or receipt?",
+          "m": "Trả lời có/không. Nếu có, nói mã hoặc bạn cần tìm lại.",
+          "h": "Yes/No. The ID is ... / I need to find it.",
+          "s": "Yes, I have the receipt. The transaction ID is TRX12345."
+        },
+        {
+          "p": "We will open a complaint. Do you want an update by phone or email?",
+          "m": "Chọn phone hoặc email. Nói số điện thoại hoặc email ngắn (placeholder ok).",
+          "h": "By phone/email. My phone is ... / My email is ...",
+          "s": "By email, please. My email is student@example.com."
+        },
+        {
+          "p": "Can you describe the wrong amount shown?",
+          "m": "Nói số tiền sai. Nói số tiền đúng bạn mong muốn.",
+          "h": "The wrong amount is ... The correct amount is ...",
+          "s": "The wrong amount is 50 dollars. The correct amount is 150 dollars."
+        },
+        {
+          "p": "We will call you when the case is closed. Is that OK?",
+          "m": "Trả lời có/không. Nói nếu bạn muốn cập nhật thường xuyên hay chỉ khi xong.",
+          "h": "Yes/No. I want frequent updates / only final call.",
+          "s": "Yes, that is OK. I want a final call only."
+        }
+      ]
+    },
+    {
+      "t": "Ôn tập: Mở và quản lý tài khoản",
+      "e": [
+        {
+          "p": "Do you want to open an account and deposit money today?",
+          "m": "Trả lời bạn có muốn mở tài khoản. Nói số tiền bạn muốn gửi ngay.",
+          "h": "I want + to open + and I want to deposit + số.",
+          "s": "I want to open a new account today. I want to deposit 200 dollars."
+        },
+        {
+          "p": "What is your name and where do you live?",
+          "m": "Viết tên đầy đủ. Nói thành phố bạn sống.",
+          "h": "My name is ... / I live in ...",
+          "s": "My name is [studentName]. I live in [studentCity]."
+        },
+        {
+          "p": "Do you check your balance often and do you want paper receipts?",
+          "m": "Trả lời tần suất kiểm tra số dư. Trả lời có/không nhận sao kê giấy.",
+          "h": "I often/sometimes/neve r check. Yes/No for receipt.",
+          "s": "I often check my balance. Yes, I want paper receipts."
+        },
+        {
+          "p": "Please confirm your account number and PIN for setup.",
+          "m": "Xác nhận số tài khoản. Xác nhận bạn đã chọn mã PIN.",
+          "h": "My account number is ... / My PIN is ...",
+          "s": "My account number is 12345678. My PIN is 1234."
+        },
+        {
+          "p": "Do you want online banking now?",
+          "m": "Trả lời có/không. Nói bạn thường dùng online hay quầy.",
+          "h": "Yes/No. I usually use online / the branch.",
+          "s": "Yes, I want online banking now. I usually use online services."
+        }
+      ]
+    },
+    {
+      "t": "Ôn tập: Chuyển tiền và thanh toán",
+      "e": [
+        {
+          "p": "Do you want to transfer money to a friend now?",
+          "m": "Trả lời có/không. Nói số tiền bạn muốn chuyển.",
+          "h": "Yes/No. I want to send + số.",
+          "s": "Yes, I want to transfer now. I want to send 150 dollars."
+        },
+        {
+          "p": "Who is the receiver and what is their account number?",
+          "m": "Nói tên người nhận. Nói số tài khoản người nhận.",
+          "h": "The receiver is ... / The account number is ...",
+          "s": "The receiver is Tom. The account number is 55500011."
+        },
+        {
+          "p": "Do you pay your phone bill every month?",
+          "m": "Trả lời có/không. Nói bạn trả trực tuyến hay ở quầy.",
+          "h": "Yes/No. I pay online / at the branch.",
+          "s": "Yes, I pay every month. I pay online."
+        },
+        {
+          "p": "Please confirm the payment amount and biller name.",
+          "m": "Xác nhận số tiền. Xác nhận tên bên thu tiền.",
+          "h": "I confirm the amount is ... / The biller is ...",
+          "s": "I confirm the amount is 60 dollars. The biller is Mobile Co."
+        },
+        {
+          "p": "Do you want to save this biller for next time?",
+          "m": "Trả lời có/không. Nói lý do ngắn nếu có.",
+          "h": "Yes/No. I want to save because ...",
+          "s": "Yes, I want to save this biller. I pay this bill every month."
+        }
+      ]
+    },
+    {
+      "t": "Ôn tập: Vay và các dịch vụ khác",
+      "e": [
+        {
+          "p": "Do you want information about small loans?",
+          "m": "Trả lời có/không. Nói bạn cần vay bao nhiêu tiền.",
+          "h": "Yes/No. I need + số.",
+          "s": "Yes, I want information. I need 500 dollars."
+        },
+        {
+          "p": "Can you bring proof of income for the loan?",
+          "m": "Trả lời có/không. Nói khi bạn mang giấy tờ.",
+          "h": "Yes/No. I will bring it on + day.",
+          "s": "Yes, I can bring proof of income. I will bring it tomorrow."
+        },
+        {
+          "p": "Do you want to block a lost card and get a new one?",
+          "m": "Trả lời có/không. Nói bạn muốn nhận thẻ ở đâu.",
+          "h": "Yes/No. I want to pick up / receive by mail.",
+          "s": "Yes, I want to block my card. I will pick up the new card at the branch."
+        },
+        {
+          "p": "Would you like to open a savings account as well?",
+          "m": "Trả lời có/không. Nói bạn sẽ gửi bao nhiêu lần trong tháng.",
+          "h": "Yes/No. I will save + số tiền / times per month.",
+          "s": "Yes, I would like to open a savings account. I will save 100 dollars each month."
+        },
+        {
+          "p": "Please choose how we contact you about loans and services.",
+          "m": "Chọn email hoặc phone. Nói địa chỉ email hoặc nói 'phone' ngắn.",
+          "h": "By email / By phone. My email is ... / My phone is ...",
+          "s": "Contact me by email. My email is student@example.com."
+        }
+      ]
+    }
+  ]
+}

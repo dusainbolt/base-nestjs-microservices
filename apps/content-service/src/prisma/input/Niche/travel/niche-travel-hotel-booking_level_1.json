@@ -1,0 +1,530 @@
+{
+  "l": 1,
+  "d": [
+    {
+      "t": "Hỏi về phòng trống",
+      "e": [
+        {
+          "p": "Do you have any rooms tonight?",
+          "m": "Nói bạn cần một phòng cho tối nay bằng 1 câu.",
+          "h": "Dùng: S + need + a/an + N",
+          "s": "I need one room for tonight."
+        },
+        {
+          "p": "How many guests are there?",
+          "m": "Nói số khách bằng 1 câu.",
+          "h": "Dùng: There are + number + guests",
+          "s": "There are two guests."
+        },
+        {
+          "p": "Do you want a single or a double?",
+          "m": "Chọn single hoặc double bằng 1 câu.",
+          "h": "Dùng: S + want + a/an + single/double room",
+          "s": "I want a double room."
+        },
+        {
+          "p": "Do you prefer a room with a window?",
+          "m": "Nói nếu bạn muốn phòng có cửa sổ hoặc không bằng 1 câu.",
+          "h": "Dùng: S + want / S + don't want + a room with a window",
+          "s": "I want a room with a window."
+        },
+        {
+          "p": "May I have your name, please?",
+          "m": "Cho tên của bạn bằng 1 câu.",
+          "h": "Dùng: My name is [studentName].",
+          "s": "My name is [studentName]."
+        }
+      ]
+    },
+    {
+      "t": "Đặt phòng qua điện thoại",
+      "e": [
+        {
+          "p": "Hello, how can I help?",
+          "m": "Nói bạn muốn đặt phòng bằng 1 câu.",
+          "h": "Dùng: S + want + to + V",
+          "s": "I want to book a room."
+        },
+        {
+          "p": "When do you arrive?",
+          "m": "Nói ngày đến (today/tomorrow) bằng 1 câu.",
+          "h": "Dùng: S + arrive + tomorrow/today/on + day",
+          "s": "I arrive tomorrow."
+        },
+        {
+          "p": "How many nights will you stay?",
+          "m": "Nói số đêm bạn ở bằng 1 câu.",
+          "h": "Dùng: S + stay + number + nights",
+          "s": "I stay two nights."
+        },
+        {
+          "p": "Do you need breakfast?",
+          "m": "Nói bạn có cần bữa sáng hay không bằng 1 câu.",
+          "h": "Dùng: S + need / don't need + breakfast",
+          "s": "I need breakfast."
+        },
+        {
+          "p": "Do you have any special requests?",
+          "m": "Nói một yêu cầu đơn giản (ví dụ: quiet room) bằng 1 câu.",
+          "h": "Dùng: S + want + a + quiet room",
+          "s": "I want a quiet room."
+        }
+      ]
+    },
+    {
+      "t": "Hỏi về giá phòng",
+      "e": [
+        {
+          "p": "What is the price for a single room?",
+          "m": "Nói giá cho single room bằng 1 câu.",
+          "h": "Dùng: The price is + number + dollars",
+          "s": "The price is 50 dollars."
+        },
+        {
+          "p": "Is breakfast included?",
+          "m": "Trả lời có hoặc không bằng 1 câu.",
+          "h": "Dùng: Yes, breakfast is included / No, breakfast is not included",
+          "s": "Yes, breakfast is included."
+        },
+        {
+          "p": "How much for two nights?",
+          "m": "Nói tổng giá cho hai đêm bằng 1 câu.",
+          "h": "Dùng: The total is + number + dollars",
+          "s": "The total is 100 dollars."
+        },
+        {
+          "p": "We offer a discount for students.",
+          "m": "Nói bạn là học sinh hay không bằng 1 câu.",
+          "h": "Dùng: S + am / am not + a student",
+          "s": "I am a student."
+        },
+        {
+          "p": "Do you want to pay now?",
+          "m": "Nói bạn trả tiền ngay hay trả khi nhận phòng bằng 1 câu.",
+          "h": "Dùng: I pay now / I pay at check-in",
+          "s": "I pay at check-in."
+        }
+      ]
+    },
+    {
+      "t": "Xác nhận ngày đến và số đêm",
+      "e": [
+        {
+          "p": "What date do you arrive?",
+          "m": "Nói ngày đến (ví dụ: Monday) bằng 1 câu.",
+          "h": "Dùng: S + arrive + on + day",
+          "s": "I arrive on Monday."
+        },
+        {
+          "p": "How many nights will you stay?",
+          "m": "Nói số đêm bạn ở bằng 1 câu.",
+          "h": "Dùng: S + stay + number + nights",
+          "s": "I stay three nights."
+        },
+        {
+          "p": "Do you arrive on Friday?",
+          "m": "Trả lời có hoặc không bằng 1 câu.",
+          "h": "Dùng: Yes, I do / No, I don't",
+          "s": "No, I don't."
+        },
+        {
+          "p": "Can you change the arrival date?",
+          "m": "Trả lời bạn có thể thay đổi ngày đến hay không bằng 1 câu.",
+          "h": "Dùng: Yes, I can / No, I can't",
+          "s": "Yes, I can change the arrival date."
+        },
+        {
+          "p": "Please confirm: arrival Monday, three nights.",
+          "m": "Xác nhận thông tin trên bằng 1 câu.",
+          "h": "Dùng: I confirm + details",
+          "s": "I confirm arrival on Monday for three nights."
+        }
+      ]
+    },
+    {
+      "t": "Số lượng khách và giường",
+      "e": [
+        {
+          "p": "How many people are in your group?",
+          "m": "Nói số người bằng 1 câu.",
+          "h": "Dùng: There are + number + people",
+          "s": "There are four people."
+        },
+        {
+          "p": "Do you need one bed or two beds?",
+          "m": "Nói bạn cần một giường hay hai giường bằng 1 câu.",
+          "h": "Dùng: We need + one/two beds",
+          "s": "We need two beds."
+        },
+        {
+          "p": "Is a child with you?",
+          "m": "Nói có trẻ em đi cùng hay không bằng 1 câu.",
+          "h": "Dùng: There is + one child / There are no children",
+          "s": "There is one child."
+        },
+        {
+          "p": "Do you need a baby crib?",
+          "m": "Trả lời có hoặc không bằng 1 câu.",
+          "h": "Dùng: Yes, we need / No, we don't need",
+          "s": "Yes, we need a baby crib."
+        },
+        {
+          "p": "Can I book an extra bed for one guest?",
+          "m": "Xác nhận bạn muốn extra bed cho một người bằng 1 câu.",
+          "h": "Dùng: I want an extra bed for + one guest",
+          "s": "I want an extra bed for one guest."
+        }
+      ]
+    },
+    {
+      "t": "Dịch vụ thêm",
+      "e": [
+        {
+          "p": "Do you want breakfast?",
+          "m": "Nói nếu bạn cần bữa sáng hay không bằng 1 câu.",
+          "h": "Dùng: I want / I don't want + breakfast",
+          "s": "I want breakfast."
+        },
+        {
+          "p": "Do you need Wi-Fi?",
+          "m": "Nói nếu bạn cần Wi-Fi hay không bằng 1 câu.",
+          "h": "Dùng: I need / I don't need + Wi-Fi",
+          "s": "I need Wi-Fi."
+        },
+        {
+          "p": "Is parking available?",
+          "m": "Trả lời có hoặc không bằng 1 câu.",
+          "h": "Dùng: Yes, parking is available / No, it is not",
+          "s": "Yes, parking is available."
+        },
+        {
+          "p": "Do you want airport pickup?",
+          "m": "Nói bạn có cần đón sân bay hay không bằng 1 câu.",
+          "h": "Dùng: I need / I don't need + airport pickup",
+          "s": "I need airport pickup."
+        },
+        {
+          "p": "What time do you want breakfast?",
+          "m": "Nói giờ bạn muốn ăn sáng bằng 1 câu.",
+          "h": "Dùng: I want breakfast at + time",
+          "s": "I want breakfast at 8 am."
+        }
+      ]
+    },
+    {
+      "t": "Giờ nhận và trả phòng",
+      "e": [
+        {
+          "p": "What time is check-in?",
+          "m": "Nói giờ nhận phòng bằng 1 câu.",
+          "h": "Dùng: Check-in is at + time",
+          "s": "Check-in is at 2 pm."
+        },
+        {
+          "p": "Can I check in early?",
+          "m": "Trả lời có hoặc không bằng 1 câu.",
+          "h": "Dùng: Yes, you can / No, you can't",
+          "s": "Yes, you can check in early."
+        },
+        {
+          "p": "What time do you check out?",
+          "m": "Nói giờ trả phòng bằng 1 câu.",
+          "h": "Dùng: I check out at + time",
+          "s": "I check out at 11 am."
+        },
+        {
+          "p": "Do you want a late check-out?",
+          "m": "Nói bạn có muốn trả phòng muộn hay không bằng 1 câu.",
+          "h": "Dùng: I want / I don't want + a late check-out",
+          "s": "I want a late check-out."
+        },
+        {
+          "p": "We charge extra for late check-out. Is that OK?",
+          "m": "Đồng ý hoặc không bằng 1 câu.",
+          "h": "Dùng: Yes, that is OK / No, it is not OK",
+          "s": "Yes, that is OK."
+        }
+      ]
+    },
+    {
+      "t": "Hủy phòng đơn giản",
+      "e": [
+        {
+          "p": "Do you want to cancel your booking?",
+          "m": "Nói bạn muốn hủy đặt phòng hay không bằng 1 câu.",
+          "h": "Dùng: I want to cancel / I don't want to cancel",
+          "s": "I want to cancel my booking."
+        },
+        {
+          "p": "When is your arrival date?",
+          "m": "Nói ngày đến của bạn bằng 1 câu.",
+          "h": "Dùng: My arrival date is + day",
+          "s": "My arrival date is Monday."
+        },
+        {
+          "p": "Do you have a reservation number?",
+          "m": "Trả lời có hoặc không bằng 1 câu.",
+          "h": "Dùng: Yes, I have / No, I don't have",
+          "s": "No, I don't have a reservation number."
+        },
+        {
+          "p": "Do you need a refund?",
+          "m": "Nói bạn có cần hoàn tiền hay không bằng 1 câu.",
+          "h": "Dùng: I need / I don't need + a refund",
+          "s": "Yes, I need a refund."
+        },
+        {
+          "p": "Please confirm cancellation.",
+          "m": "Xác nhận hủy bằng 1 câu.",
+          "h": "Dùng: I confirm + cancellation",
+          "s": "I confirm cancellation."
+        }
+      ]
+    },
+    {
+      "t": "Yêu cầu đặc biệt",
+      "e": [
+        {
+          "p": "Do you want a quiet room?",
+          "m": "Nói bạn có muốn phòng yên tĩnh hay không bằng 1 câu.",
+          "h": "Dùng: Yes, I want / No, I don't want",
+          "s": "Yes, I want a quiet room."
+        },
+        {
+          "p": "Do you prefer a high floor?",
+          "m": "Nói bạn thích tầng cao hay không bằng 1 câu.",
+          "h": "Dùng: I prefer + a high floor / I don't prefer",
+          "s": "I prefer a high floor."
+        },
+        {
+          "p": "Do you want a room near the elevator?",
+          "m": "Nói bạn có muốn phòng gần thang máy hay không bằng 1 câu.",
+          "h": "Dùng: I want / I don't want + a room near the elevator",
+          "s": "No, I don't want a room near the elevator."
+        },
+        {
+          "p": "Do you need a non-smoking room?",
+          "m": "Nói bạn cần phòng không hút thuốc hay không bằng 1 câu.",
+          "h": "Dùng: I need / I don't need + a non-smoking room",
+          "s": "Yes, I need a non-smoking room."
+        },
+        {
+          "p": "Can we give you a room with a view?",
+          "m": "Chấp nhận hoặc từ chối bằng 1 câu.",
+          "h": "Dùng: Yes, I want / No, I don't want",
+          "s": "Yes, I want a room with a view."
+        }
+      ]
+    },
+    {
+      "t": "Thanh toán",
+      "e": [
+        {
+          "p": "How do you pay?",
+          "m": "Nói phương thức thanh toán (cash hoặc card) bằng 1 câu.",
+          "h": "Dùng: I pay by + cash/card",
+          "s": "I pay by cash."
+        },
+        {
+          "p": "Do you pay now or at check-in?",
+          "m": "Nói bạn trả bây giờ hay khi nhận phòng bằng 1 câu.",
+          "h": "Dùng: I pay now / I pay at check-in",
+          "s": "I pay at check-in."
+        },
+        {
+          "p": "Do you have cash?",
+          "m": "Trả lời có hoặc không bằng 1 câu.",
+          "h": "Dùng: Yes, I have / No, I don't have",
+          "s": "No, I don't have cash."
+        },
+        {
+          "p": "Do you want a receipt?",
+          "m": "Nói bạn có cần biên lai hay không bằng 1 câu.",
+          "h": "Dùng: Yes, I want / No, I don't want",
+          "s": "Yes, I want a receipt."
+        },
+        {
+          "p": "Do you need a bill for work?",
+          "m": "Nói bạn có cần hóa đơn (bill) cho công việc hay không bằng 1 câu.",
+          "h": "Dùng: I need / I don't need + a bill",
+          "s": "I need a bill for work."
+        }
+      ]
+    },
+    {
+      "t": "Vấn đề khi nhận phòng",
+      "e": [
+        {
+          "p": "This room is not clean.",
+          "m": "Nói bạn muốn đổi phòng hay không bằng 1 câu.",
+          "h": "Dùng: I want + a different room",
+          "s": "I want a different room."
+        },
+        {
+          "p": "The TV does not work.",
+          "m": "Nói bạn muốn nhân viên sửa TV hay muốn đổi phòng bằng 1 câu.",
+          "h": "Dùng: I want staff to fix the TV / I want a different room",
+          "s": "I want staff to fix the TV."
+        },
+        {
+          "p": "This is not the room type I booked.",
+          "m": "Nói bạn muốn phòng đúng loại bằng 1 câu.",
+          "h": "Dùng: I want the room I booked",
+          "s": "I want the room I booked."
+        },
+        {
+          "p": "We are sorry. Do you want a refund?",
+          "m": "Nói bạn muốn hoàn tiền hay đổi phòng bằng 1 câu.",
+          "h": "Dùng: I want a refund / I want a different room",
+          "s": "I want a refund."
+        },
+        {
+          "p": "Can we move you to another room now?",
+          "m": "Đồng ý hoặc từ chối di chuyển bằng 1 câu.",
+          "h": "Dùng: Yes, I accept / No, I don't accept",
+          "s": "Yes, I accept the new room."
+        }
+      ]
+    },
+    {
+      "t": "Gia hạn lưu trú",
+      "e": [
+        {
+          "p": "Do you want to stay one more night?",
+          "m": "Trả lời có hoặc không bằng 1 câu.",
+          "h": "Dùng: Yes, I want / No, I don't want",
+          "s": "Yes, I want to stay one more night."
+        },
+        {
+          "p": "We have the room for tonight.",
+          "m": "Trả lời bạn có muốn giữ phòng hay không bằng 1 câu.",
+          "h": "Dùng: I want to keep the room / I don't want",
+          "s": "I want to keep the room."
+        },
+        {
+          "p": "How many nights do you add?",
+          "m": "Nói số đêm bạn muốn thêm bằng 1 câu.",
+          "h": "Dùng: I stay + number + more nights",
+          "s": "I stay two more nights."
+        },
+        {
+          "p": "Do you pay now for the extra nights?",
+          "m": "Nói bạn trả tiền ngay cho đêm thêm hay không bằng 1 câu.",
+          "h": "Dùng: I pay now / I pay later",
+          "s": "I pay now for the extra nights."
+        },
+        {
+          "p": "Please confirm the new check-out date.",
+          "m": "Xác nhận ngày trả phòng mới bằng 1 câu.",
+          "h": "Dùng: I confirm the new check-out date is + day",
+          "s": "I confirm the new check-out date is Sunday."
+        }
+      ]
+    },
+    {
+      "t": "Ôn tập: Đặt và hỏi thông tin",
+      "e": [
+        {
+          "p": "I want to book a room for two nights.",
+          "m": "Xác nhận và nêu số khách bằng 1 câu.",
+          "h": "Dùng: I confirm + for + number + guests",
+          "s": "I confirm the booking for two guests."
+        },
+        {
+          "p": "What room do you want?",
+          "m": "Nói loại phòng bạn muốn bằng 1 câu.",
+          "h": "Dùng: I want + a/an + room type",
+          "s": "I want a double room."
+        },
+        {
+          "p": "Do you need breakfast and Wi-Fi?",
+          "m": "Nói bạn có cần cả hai dịch vụ hay không bằng 1 câu.",
+          "h": "Dùng: I need + breakfast and Wi-Fi / I don't need",
+          "s": "Yes, I need breakfast and Wi-Fi."
+        },
+        {
+          "p": "When do you arrive?",
+          "m": "Nói ngày đến bằng 1 câu.",
+          "h": "Dùng: I arrive on + day",
+          "s": "I arrive on Friday."
+        },
+        {
+          "p": "Please give your name.",
+          "m": "Cho tên bằng 1 câu.",
+          "h": "Dùng: My name is [studentName].",
+          "s": "My name is [studentName]."
+        }
+      ]
+    },
+    {
+      "t": "Ôn tập: Vấn đề và dịch vụ",
+      "e": [
+        {
+          "p": "The room is noisy. Do you want another room?",
+          "m": "Trả lời bạn có muốn đổi phòng hay không bằng 1 câu.",
+          "h": "Dùng: Yes, I want / No, I don't want",
+          "s": "Yes, I want another room."
+        },
+        {
+          "p": "We can give a free breakfast. Do you want it?",
+          "m": "Trả lời có hoặc không bằng 1 câu.",
+          "h": "Dùng: Yes, I want / No, I don't want",
+          "s": "Yes, I want free breakfast."
+        },
+        {
+          "p": "Do you need a baby crib or an extra bed?",
+          "m": "Chọn một trong hai bằng 1 câu.",
+          "h": "Dùng: I need + a baby crib / an extra bed",
+          "s": "I need an extra bed."
+        },
+        {
+          "p": "We can clean your room now.",
+          "m": "Nói bạn có muốn dọn phòng bây giờ hay không bằng 1 câu.",
+          "h": "Dùng: Yes, I want / No, I don't want",
+          "s": "Yes, I want the room cleaned now."
+        },
+        {
+          "p": "Do you want a receipt and a bill?",
+          "m": "Nói bạn cần hóa đơn (bill) hay không bằng 1 câu.",
+          "h": "Dùng: I need / I don't need + a bill",
+          "s": "Yes, I need a bill."
+        }
+      ]
+    },
+    {
+      "t": "Ôn tập: Xác nhận và hủy",
+      "e": [
+        {
+          "p": "Please confirm your booking.",
+          "m": "Xác nhận hoặc hủy bằng 1 câu.",
+          "h": "Dùng: I confirm + booking / I cancel + booking",
+          "s": "I confirm the booking."
+        },
+        {
+          "p": "Do you want to cancel?",
+          "m": "Nói bạn có muốn hủy hay không bằng 1 câu.",
+          "h": "Dùng: I want to cancel / I don't want to cancel",
+          "s": "No, I don't want to cancel."
+        },
+        {
+          "p": "Do you arrive on Monday?",
+          "m": "Trả lời có hoặc không bằng 1 câu.",
+          "h": "Dùng: Yes, I arrive on Monday / No, I don't",
+          "s": "Yes, I arrive on Monday."
+        },
+        {
+          "p": "We need your payment now.",
+          "m": "Nói bạn trả tiền ngay hay không bằng 1 câu.",
+          "h": "Dùng: I pay now / I pay later",
+          "s": "I pay now."
+        },
+        {
+          "p": "Any other requests?",
+          "m": "Nói một yêu cầu ngắn hoặc 'no' bằng 1 câu.",
+          "h": "Dùng: I have + a request / I have no other requests",
+          "s": "No, I have no other requests."
+        }
+      ]
+    }
+  ]
+}

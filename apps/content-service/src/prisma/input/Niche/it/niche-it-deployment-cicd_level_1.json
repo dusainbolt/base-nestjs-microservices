@@ -1,0 +1,530 @@
+{
+  "l": 1,
+  "d": [
+    {
+      "t": "Làm quen với quy trình deploy",
+      "e": [
+        {
+          "p": "Can you deploy today?",
+          "m": "Nói một câu: bạn có thể deploy hôm nay hay không.",
+          "h": "Dùng 'I can' hoặc 'I can't'.",
+          "s": "I can deploy today."
+        },
+        {
+          "p": "Where is the pipeline?",
+          "m": "Nói một câu: vị trí của pipeline.",
+          "h": "Dùng 'It is' hoặc 'There is'.",
+          "s": "It is in the cloud."
+        },
+        {
+          "p": "Who will do the release?",
+          "m": "Nói một câu: ai làm release.",
+          "h": "Dùng 'I' hoặc 'We' + 'can'.",
+          "s": "I can do the release."
+        },
+        {
+          "p": "Is the system ready?",
+          "m": "Nói một câu: hệ thống có sẵn hay không.",
+          "h": "Dùng 'Yes, it is.' hoặc 'No, it is not.'",
+          "s": "No, it is not ready."
+        },
+        {
+          "p": "What do you check before release?",
+          "m": "Nói một câu: một việc bạn kiểm tra trước khi release.",
+          "h": "Dùng 'I check' + danh từ đơn.",
+          "s": "I check the build."
+        }
+      ]
+    },
+    {
+      "t": "Nói về pipeline đơn giản",
+      "e": [
+        {
+          "p": "Is there a pipeline now?",
+          "m": "Nói một câu: có pipeline hay không.",
+          "h": "Dùng 'There is' hoặc 'There is not'.",
+          "s": "There is a pipeline now."
+        },
+        {
+          "p": "How many steps are in the pipeline?",
+          "m": "Nói một câu: số bước (dùng số đơn giản).",
+          "h": "Dùng số (one, two...).",
+          "s": "There are three steps."
+        },
+        {
+          "p": "Who checks the tests?",
+          "m": "Nói một câu: ai kiểm tra test.",
+          "h": "Dùng 'He/She/We' + 'check(s)'.",
+          "s": "We check the tests."
+        },
+        {
+          "p": "Can the pipeline run now?",
+          "m": "Nói một câu: pipeline có thể chạy hay không.",
+          "h": "Dùng 'Yes, it can.' hoặc 'No, it cannot.'",
+          "s": "Yes, it can run now."
+        },
+        {
+          "p": "What step is most important?",
+          "m": "Nói một câu: một bước quan trọng trong pipeline.",
+          "h": "Dùng 'The' + danh từ + 'is important'.",
+          "s": "The test step is important."
+        }
+      ]
+    },
+    {
+      "t": "Trao đổi với đồng đội về release",
+      "e": [
+        {
+          "p": "Do you join the release today?",
+          "m": "Nói một câu: bạn có tham gia release hôm nay hay không.",
+          "h": "Dùng 'Yes, I do.' hoặc 'No, I do not.'",
+          "s": "Yes, I join the release today."
+        },
+        {
+          "p": "Who is the team lead?",
+          "m": "Nói một câu: ai là team lead.",
+          "h": "Dùng 'He/She is' hoặc 'I am'.",
+          "s": "He is the team lead."
+        },
+        {
+          "p": "Can you help me with the build?",
+          "m": "Nói một câu: bạn có thể giúp build hay không.",
+          "h": "Dùng 'I can' hoặc 'I can't'.",
+          "s": "I can help with the build."
+        },
+        {
+          "p": "Where do we meet for release?",
+          "m": "Nói một câu: nơi gặp để release.",
+          "h": "Dùng 'We meet at' hoặc 'We meet in'.",
+          "s": "We meet in the office."
+        },
+        {
+          "p": "What time is the release?",
+          "m": "Nói một câu: giờ release (dùng giờ đơn giản).",
+          "h": "Dùng 'It is at' + giờ.",
+          "s": "It is at 9 AM."
+        }
+      ]
+    },
+    {
+      "t": "Kiểm tra trước khi deploy",
+      "e": [
+        {
+          "p": "Do you run tests before deploy?",
+          "m": "Nói một câu: bạn có chạy test trước deploy hay không.",
+          "h": "Dùng 'Yes, I do.' hoặc 'No, I do not.'",
+          "s": "Yes, I run tests before deploy."
+        },
+        {
+          "p": "What test do you run?",
+          "m": "Nói một câu: tên một loại test bạn chạy.",
+          "h": "Dùng 'I run' + danh từ.",
+          "s": "I run unit tests."
+        },
+        {
+          "p": "Is the build green?",
+          "m": "Nói một câu: build có ổn (green) hay không.",
+          "h": "Dùng 'Yes, it is.' hoặc 'No, it is not.'",
+          "s": "Yes, the build is green."
+        },
+        {
+          "p": "Who checks the log?",
+          "m": "Nói một câu: ai kiểm tra log.",
+          "h": "Dùng 'He/She/We check'.",
+          "s": "I check the log."
+        },
+        {
+          "p": "What do you do if a test fails?",
+          "m": "Nói một câu: một việc bạn làm khi test fail.",
+          "h": "Dùng 'I fix' hoặc 'I stop'.",
+          "s": "I fix the test."
+        }
+      ]
+    },
+    {
+      "t": "Thông báo khi có lỗi",
+      "e": [
+        {
+          "p": "Is there an error now?",
+          "m": "Nói một câu: có lỗi hay không.",
+          "h": "Dùng 'Yes, there is.' hoặc 'No, there is not.'",
+          "s": "Yes, there is an error now."
+        },
+        {
+          "p": "Who do you tell about the error?",
+          "m": "Nói một câu: bạn báo cho ai về lỗi.",
+          "h": "Dùng 'I tell' + người.",
+          "s": "I tell the team lead."
+        },
+        {
+          "p": "Can you stop the release now?",
+          "m": "Nói một câu: bạn có thể dừng release hay không.",
+          "h": "Dùng 'I can' hoặc 'I can't'.",
+          "s": "I can stop the release now."
+        },
+        {
+          "p": "What is the error?",
+          "m": "Nói một câu: mô tả ngắn lỗi (một từ hoặc cụm từ).",
+          "h": "Dùng 'It is' + mô tả ngắn.",
+          "s": "It is a build error."
+        },
+        {
+          "p": "Do you fix the error now?",
+          "m": "Nói một câu: bạn có sửa lỗi ngay hay không.",
+          "h": "Dùng 'Yes, I do.' hoặc 'No, I do not.'",
+          "s": "Yes, I fix the error now."
+        }
+      ]
+    },
+    {
+      "t": "Hỏi về bước tiếp theo",
+      "e": [
+        {
+          "p": "What is the next step?",
+          "m": "Nói một câu: bước tiếp theo là gì.",
+          "h": "Dùng 'The next step is' + danh từ.",
+          "s": "The next step is testing."
+        },
+        {
+          "p": "Do we merge the code now?",
+          "m": "Nói một câu: có merge code bây giờ hay không.",
+          "h": "Dùng 'Yes, we do.' hoặc 'No, we do not.'",
+          "s": "No, we do not merge now."
+        },
+        {
+          "p": "Who merges the code?",
+          "m": "Nói một câu: ai merge code.",
+          "h": "Dùng 'He/She/We merge' hoặc 'I merge'.",
+          "s": "I merge the code."
+        },
+        {
+          "p": "Can we deploy after merge?",
+          "m": "Nói một câu: có thể deploy sau khi merge hay không.",
+          "h": "Dùng 'Yes, we can.' hoặc 'No, we cannot.'",
+          "s": "Yes, we can deploy after merge."
+        },
+        {
+          "p": "Where do we see the result?",
+          "m": "Nói một câu: nơi xem kết quả (ví dụ: log, site).",
+          "h": "Dùng 'We see' + nơi.",
+          "s": "We see the result in the log."
+        }
+      ]
+    },
+    {
+      "t": "Mô tả công việc hàng ngày",
+      "e": [
+        {
+          "p": "Do you work on deploy tasks every day?",
+          "m": "Nói một câu: bạn làm task deploy mỗi ngày hay không.",
+          "h": "Dùng 'Yes, I do.' hoặc 'No, I do not.'",
+          "s": "Yes, I work on deploy tasks every day."
+        },
+        {
+          "p": "What time do you start work?",
+          "m": "Nói một câu: giờ bạn bắt đầu làm việc.",
+          "h": "Dùng 'I start at' + giờ.",
+          "s": "I start at 9 AM."
+        },
+        {
+          "p": "Do you use tools for deploy?",
+          "m": "Nói một câu: bạn có dùng công cụ deploy hay không.",
+          "h": "Dùng 'Yes, I do.' hoặc 'No, I do not.'",
+          "s": "Yes, I use a deploy tool."
+        },
+        {
+          "p": "Who is in your team?",
+          "m": "Nói một câu: một người trong team của bạn.",
+          "h": "Dùng 'My team has' hoặc 'I work with'.",
+          "s": "I work with one tester."
+        },
+        {
+          "p": "What do you do after deploy?",
+          "m": "Nói một câu: một việc bạn làm sau deploy.",
+          "h": "Dùng 'I check' hoặc 'I watch'.",
+          "s": "I check the system after deploy."
+        }
+      ]
+    },
+    {
+      "t": "Nói về thời gian release",
+      "e": [
+        {
+          "p": "When is the next release?",
+          "m": "Nói một câu: thời gian release tiếp theo (ngày hoặc giờ đơn giản).",
+          "h": "Dùng 'It is on' hoặc 'It is at'.",
+          "s": "It is on Monday."
+        },
+        {
+          "p": "Do we release every week?",
+          "m": "Nói một câu: chúng ta release mỗi tuần hay không.",
+          "h": "Dùng 'Yes, we do.' hoặc 'No, we do not.'",
+          "s": "No, we do not release every week."
+        },
+        {
+          "p": "How long is the release?",
+          "m": "Nói một câu: độ dài thời gian release (dùng từ ngắn).",
+          "h": "Dùng 'It is' + thời gian ngắn (one hour...).",
+          "s": "It is one hour."
+        },
+        {
+          "p": "Can the release be fast?",
+          "m": "Nói một câu: release có thể nhanh không.",
+          "h": "Dùng 'Yes, it can.' hoặc 'No, it cannot.'",
+          "s": "Yes, the release can be fast."
+        },
+        {
+          "p": "Who checks the time?",
+          "m": "Nói một câu: ai kiểm tra thời gian release.",
+          "h": "Dùng 'He/She/We check' hoặc 'I check'.",
+          "s": "I check the time."
+        }
+      ]
+    },
+    {
+      "t": "Hỏi về công cụ cơ bản",
+      "e": [
+        {
+          "p": "Do you use a build tool?",
+          "m": "Nói một câu: bạn có dùng công cụ build hay không.",
+          "h": "Dùng 'Yes, I do.' hoặc 'No, I do not.'",
+          "s": "Yes, I use a build tool."
+        },
+        {
+          "p": "What tool do you use?",
+          "m": "Nói một câu: tên công cụ bạn dùng (một từ ngắn nếu có).",
+          "h": "Dùng 'I use' + tên công cụ.",
+          "s": "I use a build tool."
+        },
+        {
+          "p": "Can the tool run tests?",
+          "m": "Nói một câu: công cụ có chạy test hay không.",
+          "h": "Dùng 'Yes, it can.' hoặc 'No, it cannot.'",
+          "s": "Yes, the tool can run tests."
+        },
+        {
+          "p": "Who installs the tool?",
+          "m": "Nói một câu: ai cài công cụ.",
+          "h": "Dùng 'I install' hoặc 'He installs'.",
+          "s": "I install the tool."
+        },
+        {
+          "p": "Where is the tool? (on computer/online)",
+          "m": "Nói một câu: công cụ ở đâu (máy/online).",
+          "h": "Dùng 'It is on' hoặc 'It is online'.",
+          "s": "It is on my computer."
+        }
+      ]
+    },
+    {
+      "t": "Xác nhận trạng thái hệ thống",
+      "e": [
+        {
+          "p": "Is the site up?",
+          "m": "Nói một câu: site có hoạt động hay không.",
+          "h": "Dùng 'Yes, it is.' hoặc 'No, it is not.'",
+          "s": "Yes, the site is up."
+        },
+        {
+          "p": "Do you see errors now?",
+          "m": "Nói một câu: bạn có thấy lỗi bây giờ hay không.",
+          "h": "Dùng 'Yes, I do.' hoặc 'No, I do not.'",
+          "s": "No, I do not see errors now."
+        },
+        {
+          "p": "What is the status?",
+          "m": "Nói một câu: trạng thái ngắn của hệ thống.",
+          "h": "Dùng 'It is' + trạng thái (ok, down...).",
+          "s": "It is OK."
+        },
+        {
+          "p": "Who checks the site?",
+          "m": "Nói một câu: ai kiểm tra site.",
+          "h": "Dùng 'I check' hoặc 'We check'.",
+          "s": "We check the site."
+        },
+        {
+          "p": "Can users use the site now?",
+          "m": "Nói một câu: người dùng có thể dùng site bây giờ hay không.",
+          "h": "Dùng 'Yes, they can.' hoặc 'No, they cannot.'",
+          "s": "Yes, users can use the site now."
+        }
+      ]
+    },
+    {
+      "t": "Khi cần dừng release",
+      "e": [
+        {
+          "p": "Do we stop the release now?",
+          "m": "Nói một câu: có dừng release bây giờ hay không.",
+          "h": "Dùng 'Yes, we do.' hoặc 'No, we do not.'",
+          "s": "Yes, we stop the release now."
+        },
+        {
+          "p": "Who stops the release?",
+          "m": "Nói một câu: ai dừng release.",
+          "h": "Dùng 'I stop' hoặc 'He stops'.",
+          "s": "I stop the release."
+        },
+        {
+          "p": "What is the reason to stop?",
+          "m": "Nói một câu: một lý do ngắn để dừng (một cụm từ).",
+          "h": "Dùng 'It is' + lý do ngắn.",
+          "s": "It is a test fail."
+        },
+        {
+          "p": "Can we resume later?",
+          "m": "Nói một câu: có thể tiếp tục sau hay không.",
+          "h": "Dùng 'Yes, we can.' hoặc 'No, we cannot.'",
+          "s": "Yes, we can resume later."
+        },
+        {
+          "p": "Where do we write the stop note?",
+          "m": "Nói một câu: nơi ghi chú dừng (ví dụ: log).",
+          "h": "Dùng 'We write' + nơi.",
+          "s": "We write the note in the log."
+        }
+      ]
+    },
+    {
+      "t": "Ghi chú đơn giản cho bản release",
+      "e": [
+        {
+          "p": "Do you write a release note?",
+          "m": "Nói một câu: bạn có viết release note hay không.",
+          "h": "Dùng 'Yes, I do.' hoặc 'No, I do not.'",
+          "s": "Yes, I write a release note."
+        },
+        {
+          "p": "What is in the note?",
+          "m": "Nói một câu: một nội dung ngắn có trong note.",
+          "h": "Dùng 'It has' + nội dung ngắn.",
+          "s": "It has the version number."
+        },
+        {
+          "p": "Who reads the note?",
+          "m": "Nói một câu: ai đọc note.",
+          "h": "Dùng 'The team' hoặc 'I'.",
+          "s": "The team reads the note."
+        },
+        {
+          "p": "Can I add a short message?",
+          "m": "Nói một câu: bạn có thể thêm tin nhắn ngắn hay không.",
+          "h": "Dùng 'Yes, you can.' hoặc 'No, you cannot.'",
+          "s": "Yes, you can add a short message."
+        },
+        {
+          "p": "Where do you save the note?",
+          "m": "Nói một câu: nơi bạn lưu note (ví dụ: file, wiki).",
+          "h": "Dùng 'I save' + nơi.",
+          "s": "I save the note in a file."
+        }
+      ]
+    },
+    {
+      "t": "Ôn tập: Giao tiếp cơ bản về deploy",
+      "e": [
+        {
+          "p": "Can you help me deploy now?",
+          "m": "Nói một câu: bạn có thể giúp deploy không.",
+          "h": "Dùng 'I can' hoặc 'I can't'.",
+          "s": "I can help deploy now."
+        },
+        {
+          "p": "Where is the build?",
+          "m": "Nói một câu: nơi có build.",
+          "h": "Dùng 'It is in' hoặc 'It is on'.",
+          "s": "It is on the server."
+        },
+        {
+          "p": "Do we have a pipeline?",
+          "m": "Nói một câu: chúng ta có pipeline hay không.",
+          "h": "Dùng 'Yes, we do.' hoặc 'No, we do not.'",
+          "s": "Yes, we have a pipeline."
+        },
+        {
+          "p": "What do you check first?",
+          "m": "Nói một câu: việc bạn kiểm tra đầu tiên.",
+          "h": "Dùng 'I check' + danh từ.",
+          "s": "I check the tests first."
+        },
+        {
+          "p": "Who calls the team on release day?",
+          "m": "Nói một câu: ai gọi team vào ngày release.",
+          "h": "Dùng 'He/She/I call(s)'.",
+          "s": "I call the team on release day."
+        }
+      ]
+    },
+    {
+      "t": "Ôn tập: Xử lý lỗi đơn giản",
+      "e": [
+        {
+          "p": "Is there a bug in the code?",
+          "m": "Nói một câu: có bug hay không.",
+          "h": "Dùng 'Yes, there is.' hoặc 'No, there is not.'",
+          "s": "Yes, there is a bug in the code."
+        },
+        {
+          "p": "Do you fix the bug now?",
+          "m": "Nói một câu: bạn có sửa bug ngay không.",
+          "h": "Dùng 'Yes, I do.' hoặc 'No, I do not.'",
+          "s": "Yes, I fix the bug now."
+        },
+        {
+          "p": "Who reports the bug?",
+          "m": "Nói một câu: ai báo lỗi.",
+          "h": "Dùng 'I report' hoặc 'We report'.",
+          "s": "We report the bug to the team."
+        },
+        {
+          "p": "Can we stop the release for a bug?",
+          "m": "Nói một câu: chúng ta có thể dừng release vì bug không.",
+          "h": "Dùng 'Yes, we can.' hoặc 'No, we cannot.'",
+          "s": "Yes, we can stop the release for a bug."
+        },
+        {
+          "p": "What do you write in the bug note?",
+          "m": "Nói một câu: một nội dung ngắn bạn viết trong note lỗi.",
+          "h": "Dùng 'I write' + nội dung ngắn.",
+          "s": "I write the error message."
+        }
+      ]
+    },
+    {
+      "t": "Ôn tập: Thông báo và xác nhận release",
+      "e": [
+        {
+          "p": "Do you announce the release?",
+          "m": "Nói một câu: bạn có thông báo release không.",
+          "h": "Dùng 'Yes, I do.' hoặc 'No, I do not.'",
+          "s": "Yes, I announce the release."
+        },
+        {
+          "p": "Who confirms the release?",
+          "m": "Nói một câu: ai xác nhận release.",
+          "h": "Dùng 'He/She/We confirm' hoặc 'I confirm'.",
+          "s": "The team lead confirms the release."
+        },
+        {
+          "p": "Is the release successful?",
+          "m": "Nói một câu: release có thành công hay không.",
+          "h": "Dùng 'Yes, it is.' hoặc 'No, it is not.'",
+          "s": "Yes, the release is successful."
+        },
+        {
+          "p": "Where do you send the announcement?",
+          "m": "Nói một câu: nơi bạn gửi thông báo (ví dụ: chat, email).",
+          "h": "Dùng 'I send' + nơi.",
+          "s": "I send the announcement in chat."
+        },
+        {
+          "p": "What do users see after release?",
+          "m": "Nói một câu: một điều người dùng thấy sau release.",
+          "h": "Dùng 'They see' + nội dung ngắn.",
+          "s": "They see the new feature."
+        }
+      ]
+    }
+  ]
+}

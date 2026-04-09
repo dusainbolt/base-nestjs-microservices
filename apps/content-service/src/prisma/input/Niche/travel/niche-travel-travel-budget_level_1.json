@@ -1,0 +1,530 @@
+{
+  "l": 1,
+  "d": [
+    {
+      "t": "Chuẩn bị tiền cho chuyến đi",
+      "e": [
+        {
+          "p": "How much money do you have for the trip?",
+          "m": "Nói số tiền bạn có cho chuyến đi.",
+          "h": "S + have + number + dollars.",
+          "s": "I have 100 dollars."
+        },
+        {
+          "p": "Do you need more cash?",
+          "m": "Nói bạn có cần thêm tiền không.",
+          "h": "S + need/don't need + more + money.",
+          "s": "I need more money."
+        },
+        {
+          "p": "Where do you keep your money?",
+          "m": "Nói nơi bạn để tiền (ví dụ: bag, wallet).",
+          "h": "S + have + money + in + place.",
+          "s": "I have my money in my bag."
+        },
+        {
+          "p": "Can you change dollars to local money now?",
+          "m": "Nói bạn có thể đổi tiền bây giờ không (can/can't).",
+          "h": "S + can/can't + V.",
+          "s": "I can't change money now."
+        },
+        {
+          "p": "What price do you expect for one night at a cheap hotel?",
+          "m": "Nói giá bạn nghĩ cho một đêm ở khách sạn rẻ.",
+          "h": "I think it costs + number + dollars.",
+          "s": "I think it costs 30 dollars."
+        }
+      ]
+    },
+    {
+      "t": "Hỏi giá vé và phương tiện",
+      "e": [
+        {
+          "p": "How much is a bus ticket to the city?",
+          "m": "Nói giá một vé xe buýt vào thành phố.",
+          "h": "It costs + number + dollars.",
+          "s": "It costs 5 dollars."
+        },
+        {
+          "p": "Can I pay by card on the bus?",
+          "m": "Nói có hay không được trả bằng thẻ trên xe buýt.",
+          "h": "You can/can't + V.",
+          "s": "You can't pay by card on the bus."
+        },
+        {
+          "p": "Where do I buy a train ticket?",
+          "m": "Nói nơi bạn mua vé tàu.",
+          "h": "You buy a ticket at + place.",
+          "s": "You buy a ticket at the station."
+        },
+        {
+          "p": "Do you want a cheap taxi or a fast taxi?",
+          "m": "Nói bạn chọn taxi rẻ hay nhanh.",
+          "h": "I want + a + cheap/fast + taxi.",
+          "s": "I want a cheap taxi."
+        },
+        {
+          "p": "How many people share the taxi?",
+          "m": "Nói số người đi cùng chia taxi.",
+          "h": "We are / There are + number + people.",
+          "s": "We are three people."
+        }
+      ]
+    },
+    {
+      "t": "Ăn uống và chi phí hàng ngày",
+      "e": [
+        {
+          "p": "How much is a simple meal here?",
+          "m": "Nói giá một bữa ăn đơn giản.",
+          "h": "It costs + number + dollars.",
+          "s": "It costs 8 dollars."
+        },
+        {
+          "p": "Do you want a big meal or a small meal?",
+          "m": "Nói bạn chọn bữa lớn hay nhỏ.",
+          "h": "I want + a + big/small + meal.",
+          "s": "I want a small meal."
+        },
+        {
+          "p": "Can you buy a drink now?",
+          "m": "Nói bạn có thể mua đồ uống bây giờ không.",
+          "h": "S + can/can't + V.",
+          "s": "I can buy a drink now."
+        },
+        {
+          "p": "Where is a cheap cafe?",
+          "m": "Nói nơi có quán cà phê rẻ gần đâu.",
+          "h": "There is a cheap cafe near + place.",
+          "s": "There is a cheap cafe near the station."
+        },
+        {
+          "p": "How much is a bottle of water?",
+          "m": "Nói giá một chai nước.",
+          "h": "It costs + number + dollars.",
+          "s": "It costs 1 dollar."
+        }
+      ]
+    },
+    {
+      "t": "Chọn chỗ ở phù hợp",
+      "e": [
+        {
+          "p": "How much is a bed in a hostel?",
+          "m": "Nói giá một giường ở ký túc xá.",
+          "h": "It costs + number + dollars.",
+          "s": "It costs 10 dollars."
+        },
+        {
+          "p": "Do you want a private room?",
+          "m": "Trả lời bạn có muốn phòng riêng hay không.",
+          "h": "S + want/don't want + a + private room.",
+          "s": "I don't want a private room."
+        },
+        {
+          "p": "How many nights do you stay?",
+          "m": "Nói số đêm bạn ở khách sạn.",
+          "h": "I stay + number + nights.",
+          "s": "I stay 3 nights."
+        },
+        {
+          "p": "My budget is 30 dollars per night. Is that OK?",
+          "m": "Nói bạn có thể trả 30 dollars/đêm không.",
+          "h": "S + can/can't + pay + number + dollars.",
+          "s": "I can pay 30 dollars."
+        },
+        {
+          "p": "Is breakfast included in the room price?",
+          "m": "Nói có hay không bữa sáng đã bao gồm.",
+          "h": "Yes, breakfast is included / No, it is not.",
+          "s": "No, breakfast is not included."
+        }
+      ]
+    },
+    {
+      "t": "Lên kế hoạch chi tiêu hàng ngày",
+      "e": [
+        {
+          "p": "How much do you spend per day?",
+          "m": "Nói số tiền bạn chi mỗi ngày.",
+          "h": "I spend + number + dollars per day.",
+          "s": "I spend 20 dollars per day."
+        },
+        {
+          "p": "What do you buy every day?",
+          "m": "Nói một món bạn mua mỗi ngày.",
+          "h": "I buy + noun.",
+          "s": "I buy water every day."
+        },
+        {
+          "p": "Do you save money for the trip?",
+          "m": "Nói bạn có tiết kiệm cho chuyến đi không.",
+          "h": "S + save/don't save + money.",
+          "s": "I save money."
+        },
+        {
+          "p": "Can you cook to save money?",
+          "m": "Trả lời bạn có thể nấu ăn để tiết kiệm không.",
+          "h": "S + can/can't + V.",
+          "s": "I can cook."
+        },
+        {
+          "p": "How do you pay for food here?",
+          "m": "Nói bạn trả tiền ăn bằng tiền mặt hay thẻ.",
+          "h": "I pay by + cash/card.",
+          "s": "I pay by cash."
+        }
+      ]
+    },
+    {
+      "t": "Chia sẻ chi phí với bạn đồng hành",
+      "e": [
+        {
+          "p": "Do you share a room with a friend?",
+          "m": "Trả lời bạn có chia phòng với bạn không.",
+          "h": "S + share/don't share + a + room.",
+          "s": "I share a room with a friend."
+        },
+        {
+          "p": "How much is your share?",
+          "m": "Nói số tiền phần bạn trả.",
+          "h": "My share is + number + dollars.",
+          "s": "My share is 15 dollars."
+        },
+        {
+          "p": "Who pays for the taxi?",
+          "m": "Nói ai trả tiền taxi.",
+          "h": "My friend pays for the taxi.",
+          "s": "My friend pays for the taxi."
+        },
+        {
+          "p": "Can you split the dinner cost?",
+          "m": "Nói bạn có thể chia chi phí ăn tối không.",
+          "h": "S + can/can't + V.",
+          "s": "We can split the dinner cost."
+        },
+        {
+          "p": "Do you have small change for the group?",
+          "m": "Nói bạn có tiền lẻ cho nhóm không.",
+          "h": "S + have/don't have + small change.",
+          "s": "I have small change."
+        }
+      ]
+    },
+    {
+      "t": "Tiết kiệm trước chuyến đi",
+      "e": [
+        {
+          "p": "How much do you save each week?",
+          "m": "Nói số tiền bạn tiết kiệm mỗi tuần.",
+          "h": "I save + number + dollars each week.",
+          "s": "I save 10 dollars each week."
+        },
+        {
+          "p": "Why do you save money?",
+          "m": "Nói lý do ngắn vì sao bạn tiết kiệm.",
+          "h": "I save money for + noun.",
+          "s": "I save money for the trip."
+        },
+        {
+          "p": "Can you stop buying coffee to save money?",
+          "m": "Trả lời bạn có thể ngừng mua cà phê để tiết kiệm không.",
+          "h": "S + can/can't + V.",
+          "s": "I can stop buying coffee."
+        },
+        {
+          "p": "Do you have a travel fund?",
+          "m": "Nói bạn có quỹ du lịch không.",
+          "h": "S + have/don't have + a + travel fund.",
+          "s": "I have a travel fund."
+        },
+        {
+          "p": "How long do you save?",
+          "m": "Nói bạn tiết kiệm trong bao lâu.",
+          "h": "I save for + number + months.",
+          "s": "I save for three months."
+        }
+      ]
+    },
+    {
+      "t": "Mua vé và đặt chỗ trực tiếp",
+      "e": [
+        {
+          "p": "Do you buy tickets online or at the counter?",
+          "m": "Nói bạn mua vé online hay tại quầy.",
+          "h": "I buy tickets online / at the counter.",
+          "s": "I buy tickets at the counter."
+        },
+        {
+          "p": "How much is the train ticket today?",
+          "m": "Nói giá vé tàu hôm nay.",
+          "h": "It costs + number + dollars today.",
+          "s": "It costs 12 dollars today."
+        },
+        {
+          "p": "Can you get a discount?",
+          "m": "Nói bạn có thể được giảm giá không.",
+          "h": "S + can/can't + get + a + discount.",
+          "s": "I can't get a discount."
+        },
+        {
+          "p": "Do you book a seat now?",
+          "m": "Trả lời bạn có đặt chỗ ngay bây giờ không.",
+          "h": "S + book/don't book + a + seat.",
+          "s": "I book a seat now."
+        },
+        {
+          "p": "What time is the next bus and how much?",
+          "m": "Nói giờ xe tiếp theo và giá vé.",
+          "h": "The next bus is at + time and it costs + number + dollars.",
+          "s": "The next bus is at 10 AM and it costs 3 dollars."
+        }
+      ]
+    },
+    {
+      "t": "Giải quyết sự cố với tiền",
+      "e": [
+        {
+          "p": "I lost my wallet. Do you have money?",
+          "m": "Nói bạn có tiền giúp người mất ví không và số tiền.",
+          "h": "S + have/don't have + number + dollars.",
+          "s": "I have 20 dollars for you."
+        },
+        {
+          "p": "Where do you find a bank?",
+          "m": "Nói nơi bạn tìm thấy ngân hàng.",
+          "h": "There is a bank near + place.",
+          "s": "There is a bank near the station."
+        },
+        {
+          "p": "Can you call your bank?",
+          "m": "Nói bạn có thể gọi ngân hàng không.",
+          "h": "S + can/can't + V.",
+          "s": "I can call my bank."
+        },
+        {
+          "p": "I need a little cash. Can you lend me 5 dollars?",
+          "m": "Trả lời bạn có thể cho mượn 5 dollars hay không.",
+          "h": "Yes, I can lend you + number / No, I can't.",
+          "s": "Yes, I can lend you 5 dollars."
+        },
+        {
+          "p": "My card doesn't work. Where is an ATM?",
+          "m": "Chỉ nơi có máy ATM gần nhất.",
+          "h": "There is an ATM at + place.",
+          "s": "There is an ATM at the corner."
+        }
+      ]
+    },
+    {
+      "t": "So sánh giá và lựa chọn rẻ",
+      "e": [
+        {
+          "p": "This tour costs 50 dollars. That tour costs 40 dollars. Which one do you choose?",
+          "m": "Chọn tour rẻ hơn.",
+          "h": "I choose the tour that costs + number + dollars.",
+          "s": "I choose the tour that costs 40 dollars."
+        },
+        {
+          "p": "Do you prefer cheap food or local food?",
+          "m": "Nói bạn thích thức ăn rẻ hay đồ ăn địa phương.",
+          "h": "I prefer + adjective + noun.",
+          "s": "I prefer cheap food."
+        },
+        {
+          "p": "Is the market cheaper than the shop?",
+          "m": "Trả lời có hay không, chợ có rẻ hơn cửa hàng không.",
+          "h": "Yes, the market is cheaper / No, it is not.",
+          "s": "Yes, the market is cheaper."
+        },
+        {
+          "p": "How much do you save if you buy here?",
+          "m": "Nói số tiền bạn tiết kiệm khi mua ở đây.",
+          "h": "I save + number + dollars.",
+          "s": "I save 5 dollars."
+        },
+        {
+          "p": "Do you want the cheaper ticket or the faster ticket?",
+          "m": "Nói lựa chọn của bạn và lý do ngắn.",
+          "h": "I want the cheaper ticket because I save money.",
+          "s": "I want the cheaper ticket because I save money."
+        }
+      ]
+    },
+    {
+      "t": "Tính tổng chi phí đơn giản",
+      "e": [
+        {
+          "p": "The bus costs 3 dollars and the meal costs 7 dollars. How much total?",
+          "m": "Nói tổng tiền của hai khoản.",
+          "h": "It is + number + dollars.",
+          "s": "It is 10 dollars."
+        },
+        {
+          "p": "Two nights cost 20 dollars each. What is the total?",
+          "m": "Nói tổng tiền cho hai đêm.",
+          "h": "Total = number x number, then state the total.",
+          "s": "The total is 40 dollars."
+        },
+        {
+          "p": "If you have 30 dollars and spend 12, how much left?",
+          "m": "Nói số tiền bạn còn lại.",
+          "h": "I have + number + dollars left.",
+          "s": "I have 18 dollars left."
+        },
+        {
+          "p": "Do you pay together or separately?",
+          "m": "Trả lời bạn trả cùng nhau hay riêng.",
+          "h": "We pay together / We pay separately.",
+          "s": "We pay together."
+        },
+        {
+          "p": "Show the total for bus, meal and ticket: 3, 7 and 10.",
+          "m": "Nói tổng của ba số này.",
+          "h": "The total is + sum + dollars.",
+          "s": "The total is 20 dollars."
+        }
+      ]
+    },
+    {
+      "t": "Mua quà lưu niệm với ngân sách hạn chế",
+      "e": [
+        {
+          "p": "How much is this souvenir?",
+          "m": "Nói giá món quà lưu niệm.",
+          "h": "It costs + number + dollars.",
+          "s": "It costs 6 dollars."
+        },
+        {
+          "p": "Can you buy two souvenirs for 12 dollars?",
+          "m": "Trả lời bạn có thể mua hai món với 12 dollars không.",
+          "h": "Yes, I can / No, I can't.",
+          "s": "Yes, I can buy two souvenirs for 12 dollars."
+        },
+        {
+          "p": "Do you want a small gift or a big gift?",
+          "m": "Chọn bạn muốn quà nhỏ hay lớn.",
+          "h": "I want a small/big gift.",
+          "s": "I want a small gift."
+        },
+        {
+          "p": "Can you pay with cash?",
+          "m": "Nói bạn có thể trả bằng tiền mặt không.",
+          "h": "S + can/can't + pay with cash.",
+          "s": "I can pay with cash."
+        },
+        {
+          "p": "I have 5 dollars. Can I buy this?",
+          "m": "Trả lời được mua hay không.",
+          "h": "Yes, you can / No, you can't. State price if needed.",
+          "s": "No, you can't. It costs 6 dollars."
+        }
+      ]
+    },
+    {
+      "t": "Ôn tập: Kế hoạch chi tiêu và đặt chỗ",
+      "e": [
+        {
+          "p": "How much is your trip budget?",
+          "m": "Nói tổng ngân sách chuyến đi.",
+          "h": "My budget is + number + dollars.",
+          "s": "My trip budget is 100 dollars."
+        },
+        {
+          "p": "Do you book a hotel for three nights costing 30 dollars per night?",
+          "m": "Trả lời có hay không và nói tổng tiền.",
+          "h": "Yes, I book it and the total is + number + dollars.",
+          "s": "Yes, I book it and the total is 90 dollars."
+        },
+        {
+          "p": "Can you save 10 dollars this week?",
+          "m": "Trả lời can/can't và nói số bạn sẽ tiết kiệm.",
+          "h": "I can/can't save + number + dollars this week.",
+          "s": "I can save 10 dollars this week."
+        },
+        {
+          "p": "Where do you exchange money and how much does it cost?",
+          "m": "Nói nơi bạn đổi tiền và phí đổi (số tiền).",
+          "h": "I exchange money at + place and it costs + number + dollars.",
+          "s": "I exchange money at the bank and it costs 2 dollars."
+        },
+        {
+          "p": "Do you share costs with a friend for food and taxi?",
+          "m": "Trả lời có hay không và nói ai trả tiền taxi.",
+          "h": "Yes/No, we share costs and + who + pays.",
+          "s": "Yes, we share costs and my friend pays the taxi."
+        }
+      ]
+    },
+    {
+      "t": "Ôn tập: Tiết kiệm và mua sắm",
+      "e": [
+        {
+          "p": "How much do you save per month?",
+          "m": "Nói số tiền bạn tiết kiệm mỗi tháng.",
+          "h": "I save + number + dollars per month.",
+          "s": "I save 30 dollars per month."
+        },
+        {
+          "p": "You see two shirts: one 15 dollars, one 20 dollars. Which do you buy?",
+          "m": "Chọn áo có giá rẻ hơn.",
+          "h": "I buy the one that costs + number + dollars.",
+          "s": "I buy the shirt that costs 15 dollars."
+        },
+        {
+          "p": "Can you pay by card in the shop?",
+          "m": "Trả lời bạn có thể trả bằng thẻ tại cửa hàng không.",
+          "h": "S + can/can't + pay by card.",
+          "s": "You can pay by card in the shop."
+        },
+        {
+          "p": "Do you want a small gift for 5 dollars?",
+          "m": "Trả lời bạn có muốn món quà nhỏ đó không.",
+          "h": "Yes, I want it / No, I don't.",
+          "s": "Yes, I want it."
+        },
+        {
+          "p": "If you have 40 dollars and spend 18, can you buy two gifts of 10 each?",
+          "m": "Trả lời có hay không và nói số tiền còn lại.",
+          "h": "Yes/No, and you have + number + dollars left.",
+          "s": "Yes, you can and you have 2 dollars left."
+        }
+      ]
+    },
+    {
+      "t": "Ôn tập: Tình huống khẩn cấp và ngân sách",
+      "e": [
+        {
+          "p": "You lose money. How much do you lose?",
+          "m": "Nói số tiền bạn mất.",
+          "h": "I lose + number + dollars.",
+          "s": "I lose 20 dollars."
+        },
+        {
+          "p": "Can you buy a ticket now if you have 5 dollars and the ticket costs 7?",
+          "m": "Trả lời bạn có thể mua vé không và nêu lý do ngắn.",
+          "h": "No, I can't because I have + number + dollars.",
+          "s": "No, I can't because I have 5 dollars."
+        },
+        {
+          "p": "Where is the nearest clinic and how much is a visit?",
+          "m": "Nói nơi phòng khám gần nhất và giá khám.",
+          "h": "There is a clinic near + place and it costs + number + dollars.",
+          "s": "There is a clinic near the station and the visit costs 10 dollars."
+        },
+        {
+          "p": "Can you borrow money from a friend in an emergency?",
+          "m": "Trả lời bạn có thể mượn tiền bạn bè trong khẩn cấp không.",
+          "h": "Yes, I can / No, I can't.",
+          "s": "Yes, I can."
+        },
+        {
+          "p": "Do you have an emergency fund of 20 dollars?",
+          "m": "Trả lời bạn có quỹ khẩn cấp 20 dollars không.",
+          "h": "I have / I don't have + number + dollars emergency fund.",
+          "s": "I have an emergency fund of 20 dollars."
+        }
+      ]
+    }
+  ]
+}

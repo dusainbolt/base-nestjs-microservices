@@ -1,0 +1,530 @@
+{
+  "l": 1,
+  "d": [
+    {
+      "t": "Gặp ứng viên lần đầu",
+      "e": [
+        {
+          "p": "What is your name?",
+          "m": "Nói tên của bạn.",
+          "h": "My name is + [name].",
+          "s": "My name is [studentName]."
+        },
+        {
+          "p": "How old are you?",
+          "m": "Nói tuổi của bạn.",
+          "h": "I am + number + years old.",
+          "s": "I am [studentAge] years old."
+        },
+        {
+          "p": "Where do you live?",
+          "m": "Nói thành phố bạn sống.",
+          "h": "I live in + place.",
+          "s": "I live in [studentCity]."
+        },
+        {
+          "p": "What is your job now?",
+          "m": "Nói nghề nghiệp hiện tại của bạn.",
+          "h": "I am a + job.",
+          "s": "I am a [studentJob]."
+        },
+        {
+          "p": "Do you like this kind of work?",
+          "m": "Nói có thích công việc này hay không.",
+          "h": "I like / I do not like + it.",
+          "s": "I like this work."
+        }
+      ]
+    },
+    {
+      "t": "Hỏi về công việc trước đây",
+      "e": [
+        {
+          "p": "Do you work now?",
+          "m": "Nói nếu bạn đang làm việc bây giờ.",
+          "h": "I work / I do not work.",
+          "s": "I work now."
+        },
+        {
+          "p": "What do you do at work?",
+          "m": "Nói một việc bạn làm ở chỗ làm.",
+          "h": "I + V(s) + O.",
+          "s": "I work in an office."
+        },
+        {
+          "p": "Do you work every day?",
+          "m": "Nói bạn có làm việc mỗi ngày hay không.",
+          "h": "I work every day / I do not work every day.",
+          "s": "I work every day."
+        },
+        {
+          "p": "Can you use a computer?",
+          "m": "Nói nếu bạn có thể dùng máy tính.",
+          "h": "I can / I can not + V.",
+          "s": "I can use a computer."
+        },
+        {
+          "p": "Why do you want this job?",
+          "m": "Nói một lý do ngắn bạn muốn công việc này.",
+          "h": "I want this job because + reason.",
+          "s": "I want this job because I need work."
+        }
+      ]
+    },
+    {
+      "t": "Thái độ khi phỏng vấn",
+      "e": [
+        {
+          "p": "Are you on time usually?",
+          "m": "Nói nếu bạn thường xuyên đúng giờ.",
+          "h": "I am + adjective / I am not + adjective.",
+          "s": "I am on time usually."
+        },
+        {
+          "p": "Do you work well with others?",
+          "m": "Nói nếu bạn làm việc tốt với người khác.",
+          "h": "I + V(s) + with others.",
+          "s": "I work well with others."
+        },
+        {
+          "p": "Are you friendly with people?",
+          "m": "Nói nếu bạn thân thiện với mọi người.",
+          "h": "I am + adjective.",
+          "s": "I am friendly."
+        },
+        {
+          "p": "Can you start work now?",
+          "m": "Nói nếu bạn có thể bắt đầu làm việc ngay.",
+          "h": "I can / I can not + V now.",
+          "s": "I can start work now."
+        },
+        {
+          "p": "Do you stay calm at work?",
+          "m": "Nói nếu bạn bình tĩnh khi làm việc.",
+          "h": "I stay + adjective + at work.",
+          "s": "I stay calm at work."
+        }
+      ]
+    },
+    {
+      "t": "Kỹ năng đơn giản",
+      "e": [
+        {
+          "p": "Can you speak English well?",
+          "m": "Nói nếu bạn có thể nói tiếng Anh.",
+          "h": "I can / I can not + V.",
+          "s": "I can speak English."
+        },
+        {
+          "p": "Can you use a phone?",
+          "m": "Nói nếu bạn biết dùng điện thoại.",
+          "h": "I can / I can not + V.",
+          "s": "I can use a phone."
+        },
+        {
+          "p": "Can you write numbers?",
+          "m": "Nói nếu bạn biết viết số.",
+          "h": "I can / I can not + V.",
+          "s": "I can write numbers."
+        },
+        {
+          "p": "Can you send email?",
+          "m": "Nói nếu bạn biết gửi email.",
+          "h": "I can / I can not + V + email.",
+          "s": "I can send email."
+        },
+        {
+          "p": "What skill do you do best?",
+          "m": "Nói một kỹ năng bạn làm tốt nhất.",
+          "h": "I + V(s) + O / I am + adj.",
+          "s": "I speak English well."
+        }
+      ]
+    },
+    {
+      "t": "Đánh giá hồ sơ học hành",
+      "e": [
+        {
+          "p": "Where do you study now?",
+          "m": "Nói trường bạn đang học.",
+          "h": "I study at + place.",
+          "s": "I study at [studentSchool]."
+        },
+        {
+          "p": "What subject do you study?",
+          "m": "Nói môn bạn học.",
+          "h": "I study + subject.",
+          "s": "I study English."
+        },
+        {
+          "p": "Can you do simple math?",
+          "m": "Nói nếu bạn có thể làm toán cơ bản.",
+          "h": "I can / I can not + V.",
+          "s": "I can do math."
+        },
+        {
+          "p": "Can you work in a team?",
+          "m": "Nói nếu bạn có thể làm việc nhóm.",
+          "h": "I can / I can not + V in a team.",
+          "s": "I can work in a team."
+        },
+        {
+          "p": "Are you a student now?",
+          "m": "Nói nếu bạn hiện là học sinh/sinh viên.",
+          "h": "I am / I am not + student.",
+          "s": "I am a student."
+        }
+      ]
+    },
+    {
+      "t": "Lịch làm việc và ca",
+      "e": [
+        {
+          "p": "Do you work in the morning or at night?",
+          "m": "Nói bạn làm ca sáng hay ca tối.",
+          "h": "I work in the morning / at night.",
+          "s": "I work in the morning."
+        },
+        {
+          "p": "How many hours do you work a day?",
+          "m": "Nói số giờ bạn làm mỗi ngày.",
+          "h": "I work + number + hours a day.",
+          "s": "I work 8 hours a day."
+        },
+        {
+          "p": "Do you want full time work?",
+          "m": "Nói nếu bạn muốn làm toàn thời gian.",
+          "h": "I want / I do not want + noun.",
+          "s": "I want full time work."
+        },
+        {
+          "p": "Do you work on Saturday?",
+          "m": "Nói nếu bạn làm việc vào thứ Bảy.",
+          "h": "I work on Saturday / I do not work on Saturday.",
+          "s": "I work on Saturday."
+        },
+        {
+          "p": "When can you start work?",
+          "m": "Nói lúc nào bạn có thể bắt đầu (ví dụ: now, today).",
+          "h": "I can start + now/today/next week.",
+          "s": "I can start now."
+        }
+      ]
+    },
+    {
+      "t": "Mục tiêu và mong muốn",
+      "e": [
+        {
+          "p": "Why do you apply for this job?",
+          "m": "Nói một lý do ngắn bạn ứng tuyển.",
+          "h": "I want + noun / I want + V.",
+          "s": "I want a good job."
+        },
+        {
+          "p": "Do you want to learn new work?",
+          "m": "Nói nếu bạn muốn học công việc mới.",
+          "h": "I want + V / I do not want + V.",
+          "s": "I want to learn new work."
+        },
+        {
+          "p": "Do you want to stay long in the job?",
+          "m": "Nói nếu bạn muốn làm lâu dài.",
+          "h": "I want + to + V / I do not want + to + V.",
+          "s": "I want to stay long."
+        },
+        {
+          "p": "Can you take more work if needed?",
+          "m": "Nói nếu bạn có thể nhận thêm việc khi cần.",
+          "h": "I can / I can not + V.",
+          "s": "I can take more work."
+        },
+        {
+          "p": "What is your main goal at work?",
+          "m": "Nói mục tiêu chính của bạn một câu ngắn.",
+          "h": "My main goal is + noun/verb.",
+          "s": "My main goal is to learn."
+        }
+      ]
+    },
+    {
+      "t": "Phản hồi và câu hỏi từ ứng viên",
+      "e": [
+        {
+          "p": "Do you have any questions for us?",
+          "m": "Nói nếu bạn có câu hỏi.",
+          "h": "I have / I do not have + questions.",
+          "s": "I have one question."
+        },
+        {
+          "p": "Ask one question about the job.",
+          "m": "Đặt một câu hỏi ngắn về công việc.",
+          "h": "What / How + do + I + V?",
+          "s": "What hours do I work?"
+        },
+        {
+          "p": "Do you need to bring documents?",
+          "m": "Nói nếu bạn cần mang giấy tờ đến phỏng vấn.",
+          "h": "I need / I do not need + documents.",
+          "s": "I need my ID."
+        },
+        {
+          "p": "Do you want the company to call you?",
+          "m": "Nói nếu bạn muốn công ty gọi cho bạn.",
+          "h": "I want / I do not want + their call.",
+          "s": "I want the company to call me."
+        },
+        {
+          "p": "Thank you for your time.",
+          "m": "Nói một câu cảm ơn ngắn.",
+          "h": "Say 'Thank you'.",
+          "s": "Thank you."
+        }
+      ]
+    },
+    {
+      "t": "Xử lý vấn đề tại chỗ làm",
+      "e": [
+        {
+          "p": "You are late today.",
+          "m": "Nói lý do ngắn bạn đến muộn.",
+          "h": "I am late because + reason.",
+          "s": "I am late because the bus is late."
+        },
+        {
+          "p": "The customer is angry now.",
+          "m": "Nói việc bạn làm để giúp khách.",
+          "h": "I + V(s) + to help + customer.",
+          "s": "I speak to the customer."
+        },
+        {
+          "p": "A machine is not working.",
+          "m": "Nói một hành động bạn làm để sửa hoặc báo.",
+          "h": "I call for help / I ask for help.",
+          "s": "I call for help."
+        },
+        {
+          "p": "You must finish work today.",
+          "m": "Nói nếu bạn có thể hoàn thành hôm nay.",
+          "h": "I can / I can not + V today.",
+          "s": "I can finish today."
+        },
+        {
+          "p": "Your co-worker is sick.",
+          "m": "Nói bạn làm gì để giúp thay đồng nghiệp.",
+          "h": "I help + V / I do + work.",
+          "s": "I help and do the work."
+        }
+      ]
+    },
+    {
+      "t": "Kỹ năng xã hội tại nơi làm",
+      "e": [
+        {
+          "p": "Are you calm with stress at work?",
+          "m": "Nói nếu bạn bình tĩnh khi có áp lực.",
+          "h": "I am + adjective.",
+          "s": "I am calm with stress."
+        },
+        {
+          "p": "Do you listen to your team?",
+          "m": "Nói nếu bạn lắng nghe đồng nghiệp.",
+          "h": "I listen to others.",
+          "s": "I listen to others."
+        },
+        {
+          "p": "Can you solve small problems?",
+          "m": "Nói nếu bạn giải quyết vấn đề nhỏ.",
+          "h": "I can + V.",
+          "s": "I can solve problems."
+        },
+        {
+          "p": "Do you give ideas in meetings?",
+          "m": "Nói nếu bạn đưa ra ý kiến trong cuộc họp.",
+          "h": "I + V(s) + ideas.",
+          "s": "I give ideas."
+        },
+        {
+          "p": "Are you a fast learner at work?",
+          "m": "Nói nếu bạn học nhanh.",
+          "h": "I learn + adverb / I am + adjective.",
+          "s": "I learn fast."
+        }
+      ]
+    },
+    {
+      "t": "Kiểm tra kỹ năng làm việc thực tế",
+      "e": [
+        {
+          "p": "Can you use the cash register?",
+          "m": "Nói nếu bạn biết dùng máy tính tiền.",
+          "h": "I can / I can not + use + it.",
+          "s": "I can use the cash register."
+        },
+        {
+          "p": "Can you take customer orders?",
+          "m": "Nói nếu bạn biết nhận đơn hàng.",
+          "h": "I can / I can not + V orders.",
+          "s": "I can take orders."
+        },
+        {
+          "p": "Can you count money correctly?",
+          "m": "Nói nếu bạn biết đếm tiền chính xác.",
+          "h": "I can / I can not + V money.",
+          "s": "I can count money."
+        },
+        {
+          "p": "Do you print simple documents?",
+          "m": "Nói nếu bạn có thể in tài liệu đơn giản.",
+          "h": "I print / I do not print + documents.",
+          "s": "I print documents."
+        },
+        {
+          "p": "Can you finish a task alone today?",
+          "m": "Nói nếu bạn có thể hoàn thành nhiệm vụ một mình hôm nay.",
+          "h": "I can / I can not + V alone.",
+          "s": "I can finish a task alone today."
+        }
+      ]
+    },
+    {
+      "t": "Kết thúc phỏng vấn",
+      "e": [
+        {
+          "p": "Do you have any final words?",
+          "m": "Nói một câu ngắn cuối về bạn.",
+          "h": "I am / I want / I have + ...",
+          "s": "I am ready to work."
+        },
+        {
+          "p": "Can you start next week?",
+          "m": "Nói nếu bạn có thể bắt đầu vào tuần tới.",
+          "h": "I can / I can not + start next week.",
+          "s": "I can start next week."
+        },
+        {
+          "p": "Do you have your ID with you?",
+          "m": "Nói nếu bạn có giấy tờ tùy thân.",
+          "h": "I have / I do not have + my ID.",
+          "s": "I have my ID."
+        },
+        {
+          "p": "When can you come to the workplace?",
+          "m": "Nói một ngày bạn có thể đến làm (ví dụ: today).",
+          "h": "I can come + today / now / next week.",
+          "s": "I can come today."
+        },
+        {
+          "p": "Thank you for coming.",
+          "m": "Nói một câu cảm ơn ngắn.",
+          "h": "Say 'Thank you'.",
+          "s": "Thank you."
+        }
+      ]
+    },
+    {
+      "t": "Ôn tập: Giao tiếp nhanh với quản lý",
+      "e": [
+        {
+          "p": "Tell one strength of yours.",
+          "m": "Nói một điểm mạnh ngắn của bạn.",
+          "h": "I am + adjective / My strength is + noun.",
+          "s": "I am friendly."
+        },
+        {
+          "p": "Tell one skill you have.",
+          "m": "Nói một kỹ năng bạn có.",
+          "h": "I can + V / I + V(s) + well.",
+          "s": "I can use a computer."
+        },
+        {
+          "p": "Say if you are ready to work now.",
+          "m": "Nói nếu bạn sẵn sàng làm việc ngay.",
+          "h": "I am ready / I am not ready / I can start now.",
+          "s": "I am ready to work now."
+        },
+        {
+          "p": "Say how many hours you can work.",
+          "m": "Nói số giờ bạn có thể làm mỗi ngày.",
+          "h": "I can work + number + hours.",
+          "s": "I can work 8 hours."
+        },
+        {
+          "p": "Say a short thanks to the manager.",
+          "m": "Nói một câu cảm ơn ngắn tới quản lý.",
+          "h": "Say 'Thank you'.",
+          "s": "Thank you."
+        }
+      ]
+    },
+    {
+      "t": "Ôn tập: Kỹ năng và thái độ trong tình huống",
+      "e": [
+        {
+          "p": "Can you speak to a customer kindly?",
+          "m": "Nói nếu bạn có thể nói chuyện lịch sự với khách.",
+          "h": "I can + V kindly.",
+          "s": "I can speak kindly to a customer."
+        },
+        {
+          "p": "Do you help your team when busy?",
+          "m": "Nói nếu bạn giúp đội khi bận.",
+          "h": "I help / I do not help + team.",
+          "s": "I help my team when busy."
+        },
+        {
+          "p": "Can you learn a new task fast?",
+          "m": "Nói nếu bạn học nhiệm vụ mới nhanh.",
+          "h": "I can + V fast.",
+          "s": "I can learn a new task fast."
+        },
+        {
+          "p": "Do you stay calm with a hard customer?",
+          "m": "Nói nếu bạn giữ bình tĩnh với khách khó tính.",
+          "h": "I stay + adjective + with + customer.",
+          "s": "I stay calm with a hard customer."
+        },
+        {
+          "p": "Say a short goodbye after work.",
+          "m": "Nói một câu chào tạm biệt ngắn sau khi làm xong.",
+          "h": "Say 'Goodbye' or 'Thank you'.",
+          "s": "Goodbye and thank you."
+        }
+      ]
+    },
+    {
+      "t": "Ôn tập: Xử lý tình huống thực tế",
+      "e": [
+        {
+          "p": "The bus is late and you come late.",
+          "m": "Nói lý do ngắn bạn đến muộn (một câu).",
+          "h": "I am late because + reason.",
+          "s": "I am late because the bus is late."
+        },
+        {
+          "p": "A client says the food is cold.",
+          "m": "Nói việc bạn làm để hỗ trợ khách.",
+          "h": "I + V(s) + to help the client.",
+          "s": "I offer a new dish to the client."
+        },
+        {
+          "p": "A tool is broken at work.",
+          "m": "Nói bạn làm gì ngay bây giờ.",
+          "h": "I call for help / I stop work / I inform someone.",
+          "s": "I call for help."
+        },
+        {
+          "p": "You have one task alone today.",
+          "m": "Nói nếu bạn có thể hoàn thành nhiệm vụ một mình.",
+          "h": "I can / I can not + V alone.",
+          "s": "I can finish the task alone."
+        },
+        {
+          "p": "Say a short thanks to finish the day.",
+          "m": "Nói một câu cảm ơn ngắn khi kết thúc ngày làm việc.",
+          "h": "Say 'Thank you'.",
+          "s": "Thank you."
+        }
+      ]
+    }
+  ]
+}

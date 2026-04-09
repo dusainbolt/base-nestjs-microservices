@@ -1,0 +1,530 @@
+{
+  "l": 2,
+  "d": [
+    {
+      "t": "Gặp đồng nghiệp lần đầu",
+      "e": [
+        {
+          "p": "What's your name?",
+          "m": "Nói tên của bạn.\nNói bạn đến từ đâu.",
+          "h": "My name is / I am from",
+          "s": "[studentName]. I am from [studentCity]."
+        },
+        {
+          "p": "What is your job here?",
+          "m": "Nói nghề/nghề nghiệp của bạn.\nNói một việc bạn làm ở chỗ làm.",
+          "h": "I am a... / I work + in/at/for",
+          "s": "I am [studentJob]. I answer emails and help the team."
+        },
+        {
+          "p": "How old are you?",
+          "m": "Nói tuổi của bạn.\nNói bạn có thích công ty mới không.",
+          "h": "I am ... years old / I like + N",
+          "s": "I am [studentAge] years old. I like the new job."
+        },
+        {
+          "p": "Do you have any hobbies?",
+          "m": "Nói một sở thích của bạn.\nNói bạn có tham gia hoạt động cùng đồng nghiệp không (thường xuyên/thỉnh thoảng).",
+          "h": "I like + V-ing / I often / sometimes",
+          "s": "I like reading. I often join the office book club."
+        },
+        {
+          "p": "Who is your manager?",
+          "m": "Nói vị trí của người quản lý (ví dụ: team leader).\nNói nơi chỗ ngồi của người quản lý (gần đâu).",
+          "h": "My manager is... / He/She sits + preposition",
+          "s": "My manager is the team leader. She sits next to the meeting room."
+        }
+      ]
+    },
+    {
+      "t": "Ngày đầu làm việc",
+      "e": [
+        {
+          "p": "What time do you start today?",
+          "m": "Nói giờ bạn bắt đầu làm việc hôm nay.\nNói bạn có hay bắt đầu lúc đó không (always/often/sometimes).",
+          "h": "I start at... / I usually / sometimes",
+          "s": "I start at 9 o'clock. I usually start at 9 every morning."
+        },
+        {
+          "p": "Where is the orientation?",
+          "m": "Nói nơi buổi hướng dẫn diễn ra.\nNói bạn có tham gia không (yes/no).",
+          "h": "It is in... / I will / I am attending",
+          "s": "It is in the training room. I am attending the orientation."
+        },
+        {
+          "p": "Are you meeting HR today?",
+          "m": "Trả lời có hoặc không.\nNói lý do (ví dụ: to sign papers / to ask questions).",
+          "h": "Yes/No. To + V / to sign / to ask",
+          "s": "Yes, I am meeting HR. It is to sign my contract."
+        },
+        {
+          "p": "Do you eat lunch at the office?",
+          "m": "Nói bạn ăn trưa ở văn phòng hay không.\nNói bạn thường ăn trưa lúc mấy giờ.",
+          "h": "I eat / I don't eat / I usually + time",
+          "s": "I eat lunch at the office. I usually eat at 12 o'clock."
+        },
+        {
+          "p": "Who will show you the office?",
+          "m": "Nói người sẽ dẫn bạn (ví dụ: a colleague).\nNói họ thường làm việc ở đâu (department/place).",
+          "h": "My colleague will... / He/She works in... / at...",
+          "s": "A colleague will show me. She works in the sales department."
+        }
+      ]
+    },
+    {
+      "t": "Sắp xếp chỗ làm",
+      "e": [
+        {
+          "p": "Where is your desk?",
+          "m": "Nói vị trí bàn làm việc của bạn (gần đâu).\nNói bạn có chia bàn với ai không.",
+          "h": "My desk is... / I share / I don't share",
+          "s": "My desk is near the window. I share the space with one teammate."
+        },
+        {
+          "p": "Do you need any office supplies?",
+          "m": "Nói bạn cần gì (pen, notebook...).\nNói bạn muốn ai mang cho (yes/no hoặc tên người).",
+          "h": "I need a... / Please bring / Yes, please",
+          "s": "I need a notebook and a pen. Yes, please bring them to my desk."
+        },
+        {
+          "p": "Is your computer ready?",
+          "m": "Nói máy tính có sẵn không.\nNói bạn có cần IT giúp không.",
+          "h": "It is ready / It is not ready / I need help",
+          "s": "My computer is ready. I do not need IT help now."
+        },
+        {
+          "p": "Can I put my bag here?",
+          "m": "Đáp có hoặc không.\nNói bạn để túi ở đâu nếu không để ở đây.",
+          "h": "Yes/No. I will put it + place",
+          "s": "Yes, you can put your bag here. I will put my bag under the desk."
+        },
+        {
+          "p": "How many plants are in the office?",
+          "m": "Nói số cây trong văn phòng.\nNói bạn có thích có cây ở chỗ làm không.",
+          "h": "There are + number + plants. I like / I don't like",
+          "s": "There are three plants in the office. I like plants at work."
+        }
+      ]
+    },
+    {
+      "t": "Giới thiệu nhóm",
+      "e": [
+        {
+          "p": "Who is in your team?",
+          "m": "Nói số người trong nhóm.\nNói bạn thường làm việc với ai (role).",
+          "h": "There are + number + people. I work with + role",
+          "s": "There are five people in my team. I work with the designer and the manager."
+        },
+        {
+          "p": "What does your team do?",
+          "m": "Nói công việc chính của nhóm.\nNói bạn có thích công việc này không.",
+          "h": "We + V (present simple) / I like + N",
+          "s": "We create small marketing materials. I like this work."
+        },
+        {
+          "p": "Do you have team meetings?",
+          "m": "Nói có họp nhóm không.\nNói họp khi nào (every week/sometimes).",
+          "h": "We have meetings / We meet + frequency",
+          "s": "We have team meetings. We meet every Monday morning."
+        },
+        {
+          "p": "Who leads the meeting?",
+          "m": "Nói ai dẫn họp.\nNói họ thường nói về điều gì (one topic).",
+          "h": "The... leads / They talk about...",
+          "s": "The manager leads the meeting. They talk about the weekly tasks."
+        },
+        {
+          "p": "How do you talk to your team?",
+          "m": "Nói cách giao tiếp (email/phone/in person).\nNói bạn thường dùng gì (often/sometimes).",
+          "h": "We use email / We often / sometimes",
+          "s": "We use email and chat. We often talk in chat during the day."
+        }
+      ]
+    },
+    {
+      "t": "Văn hóa công ty",
+      "e": [
+        {
+          "p": "What is the dress code?",
+          "m": "Mô tả kiểu ăn mặc (casual/formal).\nNói bạn thường ăn mặc thế nào.",
+          "h": "It is casual/formal. I usually wear...",
+          "s": "The dress code is casual. I usually wear comfortable clothes."
+        },
+        {
+          "p": "Do people come early?",
+          "m": "Nói đồng nghiệp có đến sớm không.\nNói bạn thường đến sớm hay muộn.",
+          "h": "People often/ sometimes / never / I usually",
+          "s": "People often come early. I usually arrive at 8:50."
+        },
+        {
+          "p": "Is it quiet in the office?",
+          "m": "Nói văn phòng có yên tĩnh không.\nNói bạn thích yên tĩnh hay không.",
+          "h": "It is quiet / It is not quiet / I like / I don't like",
+          "s": "The office is usually quiet. I like a quiet workspace."
+        },
+        {
+          "p": "Do people celebrate birthdays here?",
+          "m": "Nói công ty có tổ chức sinh nhật không.\nNói bạn có tham gia không (often/sometimes).",
+          "h": "Yes, they do / No, they don't / I often / sometimes",
+          "s": "Yes, they celebrate birthdays. I often join the celebrations."
+        },
+        {
+          "p": "How do people greet each other?",
+          "m": "Nói cách chào hỏi (simple: hi/hello).\nNói bạn chào mọi người thế nào.",
+          "h": "People say hi/hello / I say Hi or Hello",
+          "s": "People say hello in the morning. I say hello to my teammates."
+        }
+      ]
+    },
+    {
+      "t": "Giờ nghỉ và ăn trưa",
+      "e": [
+        {
+          "p": "When is the lunch break?",
+          "m": "Nói giờ nghỉ trưa.\nNói bạn thường ăn trưa ở đâu.",
+          "h": "Lunch is at... / I eat at... / at the office / outside",
+          "s": "Lunch is at 12 o'clock. I eat lunch at the office."
+        },
+        {
+          "p": "How long is the break?",
+          "m": "Nói thời gian nghỉ (ví dụ: 30 minutes).\nNói bạn thường nghỉ bao lâu.",
+          "h": "The break is... minutes / I usually rest for...",
+          "s": "The break is 30 minutes. I usually rest for thirty minutes."
+        },
+        {
+          "p": "Do you eat with colleagues?",
+          "m": "Nói bạn có ăn cùng đồng nghiệp không.\nNói bạn thích ăn cùng hay một mình.",
+          "h": "Yes/No. I like to + V / I prefer",
+          "s": "Yes, I eat with colleagues. I like eating together."
+        },
+        {
+          "p": "What do you usually eat?",
+          "m": "Nói món bạn thường ăn trưa.\nNói bạn có mua ở canteen hay mang cơm không.",
+          "h": "I usually eat... / I buy / I bring",
+          "s": "I usually eat rice and vegetables. I buy lunch at the canteen."
+        },
+        {
+          "p": "Can we take a short walk after lunch?",
+          "m": "Trả lời có hoặc không.\nNói bạn có thường đi bộ sau bữa trưa không (often/sometimes).",
+          "h": "Yes/No. I often / sometimes / never",
+          "s": "Yes, we can take a short walk. I sometimes walk after lunch."
+        }
+      ]
+    },
+    {
+      "t": "Giờ làm và đi làm",
+      "e": [
+        {
+          "p": "What time do you finish work?",
+          "m": "Nói giờ bạn tan ca.\nNói bạn thường tan lúc đó hay không (usually/sometimes).",
+          "h": "I finish at... / I usually / sometimes",
+          "s": "I finish at 6 pm. I usually finish at six every day."
+        },
+        {
+          "p": "How do you go to work?",
+          "m": "Nói phương tiện bạn đi làm (bus/car/walk).\nNói bạn mất bao lâu để đi (time).",
+          "h": "I go by... / It takes me... minutes",
+          "s": "I go by bus. It takes me thirty minutes."
+        },
+        {
+          "p": "Do you work on weekends?",
+          "m": "Nói bạn có làm việc cuối tuần không.\nNói bạn thường làm việc mấy ngày (always/sometimes).",
+          "h": "I work / I don't work / I sometimes",
+          "s": "I do not work on weekends. I sometimes work on Sunday if needed."
+        },
+        {
+          "p": "Are you late often?",
+          "m": "Trả lời có hoặc không.\nNói tần suất bạn đi muộn (always/often/sometimes/never).",
+          "h": "No/Yes. I am usually / sometimes / never late",
+          "s": "No, I am not late often. I am usually on time."
+        },
+        {
+          "p": "Where do you park your bike/car?",
+          "m": "Nói nơi bạn để phương tiện.\nNói chỗ đó ở gần hay xa văn phòng.",
+          "h": "I park at... / It is near / far",
+          "s": "I park at the company lot. It is near the building."
+        }
+      ]
+    },
+    {
+      "t": "Dụng cụ và phần mềm",
+      "e": [
+        {
+          "p": "Do you have an office email?",
+          "m": "Trả lời có hoặc không.\nNói bạn thường dùng email hay chat hơn.",
+          "h": "Yes/No. I use email / I use chat more",
+          "s": "Yes, I have an office email. I often use chat more than email."
+        },
+        {
+          "p": "Is the printer working?",
+          "m": "Nói máy in có hoạt động không.\nNói bạn có in giấy thường xuyên hay không.",
+          "h": "It is working / It is not working / I often / sometimes",
+          "s": "The printer is working. I print documents sometimes."
+        },
+        {
+          "p": "Can you use the projector?",
+          "m": "Nói bạn có thể dùng máy chiếu không.\nNói bạn có cần hướng dẫn IT không.",
+          "h": "I can / I cannot / I need help",
+          "s": "I can use the projector. I do not need IT help now."
+        },
+        {
+          "p": "How many monitors do you have?",
+          "m": "Nói số màn hình bạn có.\nNói bạn có thích dùng nhiều màn hình không.",
+          "h": "I have + number + monitors. I like / I don't like",
+          "s": "I have two monitors. I like working with two screens."
+        },
+        {
+          "p": "Do you use a laptop or a desktop?",
+          "m": "Nói bạn dùng laptop hay desktop.\nNói bạn thích cái nào hơn và lý do ngắn (one word: portable/fast).",
+          "h": "I use a laptop/desktop. I prefer ... because ... (one word)",
+          "s": "I use a laptop. I prefer it because it is portable."
+        }
+      ]
+    },
+    {
+      "t": "Báo lỗi thiết bị",
+      "e": [
+        {
+          "p": "The printer is not working.",
+          "m": "Nói bạn có thấy lỗi không (yes/no).\nNói bạn muốn làm gì (ask IT/fix later).",
+          "h": "Yes/No. I will / Please ask IT",
+          "s": "Yes, I see the error. Please ask IT to check it."
+        },
+        {
+          "p": "My screen is black.",
+          "m": "Nói màn hình có đen hay không.\nNói bạn có khởi động lại máy không (yes/no).",
+          "h": "It is black / It is not black. I will restart / I will not",
+          "s": "My screen is black. I will restart the computer."
+        },
+        {
+          "p": "The internet is slow today.",
+          "m": "Xác nhận mạng chậm.\nNói bạn có cần wifi cho công việc không.",
+          "h": "Yes, it is slow. I need wifi / I can wait",
+          "s": "Yes, the internet is slow. I need wifi to send files."
+        },
+        {
+          "p": "The phone has no sound.",
+          "m": "Nói điện thoại có tiếng hay không.\nNói bạn có muốn IT kiểm tra không.",
+          "h": "It has sound / It has no sound. Please / I will ask IT",
+          "s": "The phone has no sound. Please ask IT to check it."
+        },
+        {
+          "p": "There is a paper jam in the copier.",
+          "m": "Xác nhận có kẹt giấy hay không.\nNói bạn sẽ làm gì (remove/join IT).",
+          "h": "There is a jam / There is not. I will remove / I will call IT",
+          "s": "There is a paper jam in the copier. I will call IT for help."
+        }
+      ]
+    },
+    {
+      "t": "Yêu cầu giúp đỡ",
+      "e": [
+        {
+          "p": "Can you help me with this form?",
+          "m": "Trả lời có thể giúp hay không.\nNói bạn sẽ giúp bằng cách nào (show/fill/tell).",
+          "h": "Yes/No. I will + V (show/fill/tell)",
+          "s": "Yes, I can help you. I will show how to fill the form."
+        },
+        {
+          "p": "I don't understand this task.",
+          "m": "Nói bạn có hiểu hay không.\nNói bạn cần ai giúp (manager/colleague).",
+          "h": "I do not understand. I need help from...",
+          "s": "I do not understand this task. I need help from my manager."
+        },
+        {
+          "p": "Could you show me the system?",
+          "m": "Trả lời có thể hướng dẫn không.\nNói bạn sẽ xem hệ thống bao lâu (a little/30 minutes).",
+          "h": "Yes/No. I will show for... / for a little",
+          "s": "Yes, I can show you the system. I will show it for thirty minutes."
+        },
+        {
+          "p": "I need a quick answer.",
+          "m": "Nói bạn có thể trả lời nhanh không.\nNói bạn trả lời trong bao lâu (now/in 10 minutes).",
+          "h": "I can answer now / in 10 minutes",
+          "s": "I can answer now. I will send a quick email."
+        },
+        {
+          "p": "Who can I ask about the schedule?",
+          "m": "Nói người bạn có thể hỏi (role).\nNói họ ở đâu hoặc liên hệ bằng gì (email/desk).",
+          "h": "Ask the... / They are at... / by email",
+          "s": "Ask the HR coordinator. She is at the front desk."
+        }
+      ]
+    },
+    {
+      "t": "An toàn và quy tắc",
+      "e": [
+        {
+          "p": "Where is the fire exit?",
+          "m": "Nói vị trí lối thoát hiểm.\nNói bạn biết đi theo lối đó không (yes/no).",
+          "h": "The fire exit is... / I know / I don't know",
+          "s": "The fire exit is near the elevator. Yes, I know the way."
+        },
+        {
+          "p": "Do we wear ID badges?",
+          "m": "Trả lời có hoặc không.\nNói bạn có luôn đeo không (always/sometimes).",
+          "h": "Yes/No. I always / sometimes",
+          "s": "Yes, we wear ID badges. I always wear mine."
+        },
+        {
+          "p": "Is smoking allowed?",
+          "m": "Trả lời có hay không.\nNói bạn có đi ra ngoài để hút không (if no).",
+          "h": "No, it is not allowed / I go outside / I don't smoke",
+          "s": "No, smoking is not allowed in the office. I go outside if I need a smoke."
+        },
+        {
+          "p": "Do we have first aid kits?",
+          "m": "Nói có thuốc cấp cứu không.\nNói chúng ở đâu (one place).",
+          "h": "Yes/No. They are in... / at...",
+          "s": "Yes, we have first aid kits. They are in the kitchen area."
+        },
+        {
+          "p": "What should you do in an emergency?",
+          "m": "Nói một hành động bạn làm (leave/exit).\nNói bạn có gọi ai không (call 911/ask colleagues).",
+          "h": "I leave / I call / I ask",
+          "s": "I leave the building quickly. I call for help or tell a colleague."
+        }
+      ]
+    },
+    {
+      "t": "Nhiệm vụ hàng ngày",
+      "e": [
+        {
+          "p": "What do you do every morning?",
+          "m": "Nói một việc bạn làm mỗi sáng ở văn phòng.\nNói bạn thường làm việc đó lúc mấy giờ.",
+          "h": "I + V (present simple). I do it at ...",
+          "s": "I check my email every morning. I do it at nine o'clock."
+        },
+        {
+          "p": "Do you write reports?",
+          "m": "Trả lời có hoặc không.\nNói bạn viết báo cáo bao lâu một lần (every week/sometimes).",
+          "h": "Yes/No. I write reports every... / sometimes",
+          "s": "Yes, I write reports. I write them every week."
+        },
+        {
+          "p": "How many calls do you take each day?",
+          "m": "Nói khoảng bao nhiêu cuộc gọi mỗi ngày.\nNói bạn có luôn trả lời điện thoại không (usually/sometimes).",
+          "h": "I take + number + calls. I usually / sometimes",
+          "s": "I take about ten calls each day. I usually answer the phone."
+        },
+        {
+          "p": "Do you plan your tasks?",
+          "m": "Nói bạn có lập kế hoạch công việc không.\nNói bạn làm điều đó bằng gì (list/calendar).",
+          "h": "I do / I don't. I use a list / a calendar",
+          "s": "I plan my tasks every morning. I use a simple list."
+        },
+        {
+          "p": "Who checks your work?",
+          "m": "Nói ai kiểm tra công việc của bạn (role).\nNói họ có kiểm tra thường xuyên không (often/sometimes).",
+          "h": "The... checks my work. They often / sometimes",
+          "s": "The manager checks my work. She checks it often."
+        }
+      ]
+    },
+    {
+      "t": "Ôn tập: Gặp gỡ và công việc",
+      "e": [
+        {
+          "p": "Hi, tell me about yourself at work.",
+          "m": "Nói tên và nghề của bạn.\nNói bạn làm gì thường ngày (one activity).",
+          "h": "My name is... / I am a... / I ... (present simple)",
+          "s": "[studentName]. I am [studentJob]. I answer emails every day."
+        },
+        {
+          "p": "Where do you sit and who is near you?",
+          "m": "Nói vị trí chỗ ngồi của bạn.\nNói một người ngồi gần bạn và vai trò của họ.",
+          "h": "I sit... / near/next to / He/She is a...",
+          "s": "I sit near the window. My colleague sits next to me and she is a designer."
+        },
+        {
+          "p": "What is one rule you follow here?",
+          "m": "Nói một quy tắc đơn giản.\nNói bạn có luôn làm theo không (always/sometimes).",
+          "h": "We must... / I always / sometimes",
+          "s": "We must wear ID badges. I always wear mine."
+        },
+        {
+          "p": "Do you like your team?",
+          "m": "Nói có thích đội không.\nNói một lý do ngắn (friendly/helpful).",
+          "h": "I like / I don't like. because + adjective",
+          "s": "I like my team. They are friendly."
+        },
+        {
+          "p": "How many people are in your office today?",
+          "m": "Nói số người hôm nay.\nNói có bao nhiêu người làm việc từ xa nếu có.",
+          "h": "There are + number + people. + Some/No one work from home",
+          "s": "There are eight people in the office today. Two people work from home."
+        }
+      ]
+    },
+    {
+      "t": "Ôn tập: Văn hóa & quy trình",
+      "e": [
+        {
+          "p": "What is the normal dress here?",
+          "m": "Mô tả ngắn về trang phục.\nNói bạn có mặc như thế không (yes/no).",
+          "h": "It is casual/formal. I usually / I don't",
+          "s": "The dress is casual. I usually wear casual clothes."
+        },
+        {
+          "p": "How often are team meetings?",
+          "m": "Nói tần suất họp nhóm.\nNói bạn có tham gia tất cả cuộc họp không.",
+          "h": "We meet every... / I join / sometimes",
+          "s": "We have meetings every Monday. I join all the meetings."
+        },
+        {
+          "p": "Where do you find company rules?",
+          "m": "Nói nơi tìm quy định (manual/intranet).\nNói bạn có đọc chúng không (always/sometimes).",
+          "h": "On the intranet / in a manual. I always / sometimes read",
+          "s": "The rules are on the intranet. I sometimes read them."
+        },
+        {
+          "p": "Do people take breaks together?",
+          "m": "Nói đồng nghiệp có nghỉ cùng nhau không.\nNói bạn thường nghỉ một mình hay cùng mọi người.",
+          "h": "Yes/No. I usually / sometimes",
+          "s": "Yes, people take breaks together. I usually join them."
+        },
+        {
+          "p": "What do you do if you are late?",
+          "m": "Nói bạn làm gì khi đến muộn.\nNói bạn nói với ai (manager/HR) hay không.",
+          "h": "I tell my manager / I call / I send a message",
+          "s": "I send a message to my manager. I apologize and explain the reason."
+        }
+      ]
+    },
+    {
+      "t": "Ôn tập: Vấn đề & hỗ trợ",
+      "e": [
+        {
+          "p": "My computer is slow today.",
+          "m": "Xác nhận bạn có vấn đề tương tự không.\nNói bạn sẽ làm gì (restart/contact IT).",
+          "h": "Yes/No. I will restart / contact IT",
+          "s": "Yes, my computer is slow too. I will contact IT for help."
+        },
+        {
+          "p": "I need help with the new software.",
+          "m": "Nói bạn có thể giúp không.\nNói bạn sẽ dành bao lâu để hướng dẫn (short time).",
+          "h": "I can help. I will show for... minutes",
+          "s": "I can help you. I will show it for twenty minutes."
+        },
+        {
+          "p": "There is a leak in the kitchen.",
+          "m": "Xác nhận tình trạng có thật không.\nNói bạn sẽ báo ai (facility/maintenance).",
+          "h": "Yes/No. I will report to... / I will tell maintenance",
+          "s": "Yes, there is a leak. I will tell maintenance now."
+        },
+        {
+          "p": "Who fixes the printer?",
+          "m": "Nói ai sửa máy in (IT/maintenance).\nNói thời gian họ đến khoảng bao lâu (soon/today).",
+          "h": "IT / maintenance. They will come soon / today",
+          "s": "IT fixes the printer. They will come soon."
+        },
+        {
+          "p": "I lost my ID badge.",
+          "m": "Nói bạn có mất thẻ không.\nNói bạn sẽ làm gì (report/get a new one).",
+          "h": "I lost it. I will report / get a new one",
+          "s": "I lost my ID badge. I will report it and get a new one."
+        }
+      ]
+    }
+  ]
+}

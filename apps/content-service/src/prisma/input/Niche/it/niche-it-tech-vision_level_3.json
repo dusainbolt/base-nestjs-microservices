@@ -1,0 +1,530 @@
+{
+  "l": 3,
+  "d": [
+    {
+      "t": "Gặp gỡ tại hội thảo công nghệ",
+      "e": [
+        {
+          "p": "Hi, what's your name and where are you from?",
+          "m": "Nói tên của bạn. Nói nơi bạn sống. Nói bạn cảm thấy thế nào về hội thảo này.",
+          "h": "My name is ... / I live in ... / I feel + adj",
+          "s": "My name is [studentName]. I live in [studentCity]. I am excited about this talk."
+        },
+        {
+          "p": "Which session did you attend earlier?",
+          "m": "Nói session bạn đã tham dự (quá khứ). Nói một điều bạn học được. Nói bạn sẽ làm gì tiếp theo.",
+          "h": "S + V-ed. Then + will + V",
+          "s": "I attended the AI demo session. I learned how AI can help at work. I will join a panel next."
+        },
+        {
+          "p": "Do you use AI tools at work or school?",
+          "m": "Nói bạn đã dùng công cụ AI chưa (quá khứ). Nói cách bạn dùng nó. Nói bạn nghĩ có nên dùng thêm không.",
+          "h": "Yes/No + I used / I use + because / should + V",
+          "s": "Yes, I used an AI tool last month. I used it to check my report. I think we should use it more."
+        },
+        {
+          "p": "Are you planning to learn more about AI?",
+          "m": "Nói kế hoạch học (will/going to). Nói lý do. Nói một việc cụ thể bạn sẽ làm.",
+          "h": "I will / I'm going to + V. Because + reason",
+          "s": "I am going to study AI basics. Because it will help my job. I will join an online course."
+        },
+        {
+          "p": "What do you think will change most because of AI?",
+          "m": "Nói một thay đổi bạn nghĩ sẽ xảy ra. Nói lý do (vì sao). Nói ai sẽ hưởng lợi hơn (so sánh đơn giản).",
+          "h": "S + will + V. Because + reason. More + noun/adj + than",
+          "s": "Work routines will change because AI can do boring tasks. Because machines can work faster. Workers will be more comfortable than before."
+        }
+      ]
+    },
+    {
+      "t": "Nói về sở thích công nghệ",
+      "e": [
+        {
+          "p": "Do you like trying new apps?",
+          "m": "Trả lời thích hay không. Nói một ví dụ app bạn thích. Nói tại sao bạn thích nó.",
+          "h": "Yes/No + I like + because",
+          "s": "Yes, I like trying new apps. I like a language app for practice. It is easy and fun."
+        },
+        {
+          "p": "How did you find that app?",
+          "m": "Kể bạn đã tìm app đó bằng cách nào (quá khứ). Nói bạn đã làm gì đầu tiên với app. Nói kết quả ngắn.",
+          "h": "I found it + on/through. I first + V-ed. Then + result",
+          "s": "I found it on the app store. I first tried a lesson. Then I improved my vocabulary."
+        },
+        {
+          "p": "Which device do you prefer for learning, phone or laptop?",
+          "m": "Nói thiết bị bạn thích (so sánh). Nói một lý do cho lựa chọn. Nói khi nào bạn dùng thiết bị kia.",
+          "h": "I prefer ... because ... / I use ... when ...",
+          "s": "I prefer my phone because it is easy to carry. It is faster for quick practice. I use my laptop when I study for a long time."
+        },
+        {
+          "p": "Should students use AI tools for homework?",
+          "m": "Nói ý kiến của bạn ngắn (should/shouldn't). Nói lý do. Nói một điều cần làm khi dùng AI.",
+          "h": "Students should/shouldn't + V. Because + reason. They must/should + V",
+          "s": "Students should use AI carefully. Because it can help with ideas. They should check answers by themselves."
+        },
+        {
+          "p": "Tell me about a tech hobby you plan to start soon.",
+          "m": "Nói hobby bạn sẽ bắt đầu (will/going to). Nói vì sao bạn chọn nó. Nói một bước bạn sẽ làm đầu tiên.",
+          "h": "I'm going to / I will + V. Because + reason. First I will + V",
+          "s": "I am going to learn basic coding. Because it will improve my skills. First I will join a beginner class."
+        }
+      ]
+    },
+    {
+      "t": "Chia sẻ trải nghiệm dùng AI lần đầu",
+      "e": [
+        {
+          "p": "When did you try AI for the first time?",
+          "m": "Nói thời điểm bạn thử AI (quá khứ). Nói bạn đã làm gì với AI. Nói cảm giác ban đầu của bạn.",
+          "h": "I tried it + time. I used it to + V. I felt + adj",
+          "s": "I tried AI last year. I used it to write a short text. I felt surprised and excited."
+        },
+        {
+          "p": "Was it easy to use?",
+          "m": "Trả lời dễ hay khó. Nói điều khó nhất. Nói cách bạn giải quyết vấn đề đó.",
+          "h": "It was easy/difficult. The hardest part was ... I solved it by ...",
+          "s": "It was easy at first. The hardest part was new words. I solved it by looking up meanings."
+        },
+        {
+          "p": "Did the AI make a mistake?",
+          "m": "Nói có hay không. Nói lỗi cụ thể. Nói bạn đã làm gì sau đó.",
+          "h": "Yes/No + it made + mistake. Then I + V-ed",
+          "s": "Yes, it made a grammar mistake. It used the wrong tense. Then I corrected it and learned."
+        },
+        {
+          "p": "How is AI better or worse than a person for that task?",
+          "m": "So sánh ngắn: điều tốt hơn của AI. Nói điều kém hơn của AI. Kết luận đơn giản.",
+          "h": "AI is more ... than people / AI is less ... than people",
+          "s": "AI is faster than a person. AI is less creative than a person. So both are useful."
+        },
+        {
+          "p": "What will you do next time to get better results from AI?",
+          "m": "Nói một việc bạn sẽ làm (will/going to). Nói lý do. Nói kết quả bạn mong đợi.",
+          "h": "I will / I'm going to + V. Because + reason. I expect + result",
+          "s": "I will give clearer instructions. Because AI follows exact words. I expect better answers next time."
+        }
+      ]
+    },
+    {
+      "t": "Kể về một ứng dụng công nghệ bạn thích",
+      "e": [
+        {
+          "p": "Which app do you use most this week?",
+          "m": "Nói tên app. Nói mục đích sử dụng. Nói bạn dùng app đó mấy lần trong tuần.",
+          "h": "I used/used the app + for + V. I used it + number of times",
+          "s": "I used a language app for practice. I used it to study vocabulary. I used it three times this week."
+        },
+        {
+          "p": "What did you do with the app yesterday?",
+          "m": "Mô tả hành động bạn đã làm (quá khứ). Nói kết quả cụ thể. Nói cảm xúc về kết quả.",
+          "h": "I did + V-ed. As a result + simple. I felt + adj",
+          "s": "I completed two lessons yesterday. As a result I learned ten new words. I felt proud."
+        },
+        {
+          "p": "Is this app better than others?",
+          "m": "So sánh ngắn với một app khác. Nói 1 lý do app này tốt hơn. Nói 1 điểm app khác tốt hơn.",
+          "h": "It is more ... than ... / but ... is more ...",
+          "s": "It is more easy to use than another app. But the other app is more detailed. Both have good points."
+        },
+        {
+          "p": "Should parents let children use this app?",
+          "m": "Nói ý kiến (should/shouldn't). Nói lý do ủng hộ. Nói một giới hạn hoặc điều cần lưu ý.",
+          "h": "They should/shouldn't + V. Because + reason. But they must + V",
+          "s": "Parents should allow limited use. Because it helps learning. But they must check content and time."
+        },
+        {
+          "p": "Describe how you will teach a friend to use this app.",
+          "m": "Nói kế hoạch từng bước (will/going to) gồm 2-3 bước. Nói thời gian bạn sẽ làm việc đó.",
+          "h": "First I will + V. Then I will + V. I will do it on/at ...",
+          "s": "First I will show the main features. Then I will practice one lesson with them. I will do it this weekend."
+        }
+      ]
+    },
+    {
+      "t": "Thói quen sử dụng thiết bị hàng ngày",
+      "e": [
+        {
+          "p": "What device did you use this morning?",
+          "m": "Nói thiết bị bạn dùng (quá khứ). Nói việc bạn làm trên thiết bị. Nói cảm nhận ngắn về việc đó.",
+          "h": "I used + device. I used it to + V. It was + adj",
+          "s": "I used my phone this morning. I used it to check messages. It was quick and easy."
+        },
+        {
+          "p": "How often do you check tech news?",
+          "m": "Nói tần suất. Nói nơi bạn đọc tin. Nói bạn làm gì khi thấy tin quan trọng.",
+          "h": "I check ... times per ... / I read on ... / I will + V when ...",
+          "s": "I check tech news two times a day. I read on a news website. I will save important articles."
+        },
+        {
+          "p": "Do you feel tech makes life better or worse?",
+          "m": "Nói ngắn ý kiến (better/worse). Nói lý do 1. Nói một ví dụ cụ thể.",
+          "h": "It makes life better/worse because ... For example ...",
+          "s": "It makes life better because it saves time. For example, maps help me find places. So it is mostly good."
+        },
+        {
+          "p": "Should people have tech-free time?",
+          "m": "Nói nên hay không (should). Nói một lợi ích. Nói một cách thực hiện đơn giản.",
+          "h": "People should + V. It helps + noun. They can + V",
+          "s": "People should have tech-free time. It helps them relax. They can turn off notifications for an hour."
+        },
+        {
+          "p": "Tell me a small change you will make to use devices less.",
+          "m": "Nói một thay đổi bạn sẽ làm (will). Nói lý do. Nói kết quả bạn mong đợi.",
+          "h": "I will + V. Because + reason. I expect + result",
+          "s": "I will leave my phone in another room at night. Because I want better sleep. I expect to feel more rested."
+        }
+      ]
+    },
+    {
+      "t": "So sánh hai ứng dụng",
+      "e": [
+        {
+          "p": "Which app do you use for notes?",
+          "m": "Nói tên app bạn dùng. Nói một tính năng bạn thích. Nói tần suất bạn dùng app đó.",
+          "h": "I use + app. I like + feature. I use it + frequency",
+          "s": "I use a simple notes app. I like quick saving. I use it every day."
+        },
+        {
+          "p": "How is it different from the other app you tried?",
+          "m": "Nói một điểm khác biệt (so sánh). Nói lý do bạn thích điểm đó. Nói khi bạn sẽ đổi app nếu cần.",
+          "h": "It is more/less ... than ... Because ... I will change if ...",
+          "s": "It is more simple than the other app. Because it has fewer menus. I will change if I need more features."
+        },
+        {
+          "p": "Which app is better for study?",
+          "m": "Chỉ rõ app tốt hơn (so sánh). Nói 1 lý do. Nói 1 giới hạn của app đó.",
+          "h": "App A is better because ... But it is less ...",
+          "s": "The study app is better for learning because it has lessons. But it is less easy for quick notes."
+        },
+        {
+          "p": "If a friend asks you to pick one app, what will you say?",
+          "m": "Nói lựa chọn của bạn (will). Giải thích lý do ngắn. Đưa lời khuyên sử dụng.",
+          "h": "I will choose ... Because ... I advise + V-ing",
+          "s": "I will choose the study app. Because it helps learning more. I advise trying both for a week."
+        },
+        {
+          "p": "Describe a simple test you did to compare them.",
+          "m": "Nói một bài kiểm tra bạn đã làm (quá khứ). Nói kết quả. Nói kết luận ngắn.",
+          "h": "I tested by + V-ing. It was + result. So I concluded ...",
+          "s": "I tested by timing a lesson. It was faster on the study app. So I concluded it is more efficient."
+        }
+      ]
+    },
+    {
+      "t": "Nói về công việc và công nghệ",
+      "e": [
+        {
+          "p": "Do you use technology at work or school?",
+          "m": "Nói nơi bạn dùng tech (work/school). Nói một việc bạn làm với tech. Nói tần suất.",
+          "h": "I use tech at ... I use it to + V. I use it + frequency",
+          "s": "I use technology at work. I use it to write reports. I use it every day."
+        },
+        {
+          "p": "What did technology help you do last week?",
+          "m": "Kể một việc bạn đã làm nhờ tech (quá khứ). Nói kết quả. Nói cảm nhận ngắn.",
+          "h": "Tech helped me + V. As a result + result. I felt + adj",
+          "s": "Technology helped me finish a project last week. As a result we met the deadline. I felt relieved."
+        },
+        {
+          "p": "Is technology more important for your job than before?",
+          "m": "So sánh hiện tại và trước (more/less). Nói lý do 1. Nói việc bạn phải làm thêm.",
+          "h": "It is more/less important now because ... I have to + V",
+          "s": "It is more important now because tasks are digital. I have to learn new tools."
+        },
+        {
+          "p": "What should companies do to help employees use new tech?",
+          "m": "Nói 1 hành động nên làm (should). Nói lợi ích. Nói một ví dụ cụ thể.",
+          "h": "Companies should + V. It helps + noun. For example ...",
+          "s": "Companies should provide simple training. It helps employees feel confident. For example, short classes work well."
+        },
+        {
+          "p": "How will your job change in five years because of technology?",
+          "m": "Dự đoán một thay đổi (will). Nói lý do. Nói bạn sẽ làm gì để chuẩn bị.",
+          "h": "S + will + V. Because + reason. I will + V to prepare",
+          "s": "My job will include more digital work. Because automation will grow. I will learn new skills to prepare."
+        }
+      ]
+    },
+    {
+      "t": "Lập kế hoạch học công nghệ",
+      "e": [
+        {
+          "p": "Do you want to learn a tech skill now?",
+          "m": "Trả lời muốn hay không. Nói kỹ năng bạn muốn học. Nói lý do ngắn.",
+          "h": "Yes/No, I want to + V. I want to learn ... Because ...",
+          "s": "Yes, I want to learn basic coding. I want to learn it for problem solving. Because it helps my career."
+        },
+        {
+          "p": "When will you start learning?",
+          "m": "Nói thời điểm bắt đầu (will/going to). Nói thời lượng bạn dự định mỗi tuần. Nói mục tiêu ngắn hạn.",
+          "h": "I will / I'm going to start + time. I will study + hours per week. My short goal is ...",
+          "s": "I will start next month. I will study two hours per week. My short goal is to finish level one."
+        },
+        {
+          "p": "Which resource will you use, a course or a book?",
+          "m": "Chọn course hay sách. Nói lý do. Nói cách bạn sẽ theo dõi tiến bộ.",
+          "h": "I will use a course/book because ... I will track progress by ...",
+          "s": "I will use an online course because it has videos. I will track progress with weekly tests."
+        },
+        {
+          "p": "Should you practice alone or in a group?",
+          "m": "Nói ý kiến (should). Nói lợi ích của cách bạn chọn. Nói một hoạt động cụ thể khi thực hành.",
+          "h": "I should + V. It helps + noun. For example I will + V",
+          "s": "I should practice alone at first. It helps focus on basics. For example I will code small exercises."
+        },
+        {
+          "p": "Describe one problem you might have and how you will solve it.",
+          "m": "Nói một khó khăn có thể gặp. Nói giải pháp bạn sẽ làm (will). Nói kết quả mong đợi.",
+          "h": "Problem: ... I will + V to solve it. I expect + result",
+          "s": "Problem: I may feel stuck on a lesson. I will ask questions in a forum to solve it. I expect to understand faster."
+        }
+      ]
+    },
+    {
+      "t": "Giải quyết sự cố với điện thoại",
+      "e": [
+        {
+          "p": "My phone battery drains quickly. What did you do?",
+          "m": "Kể việc bạn đã làm trước đó (quá khứ) để kiểm tra. Nói kết quả. Nói cảm nghĩ ngắn.",
+          "h": "I checked + noun. I found + result. I felt + adj",
+          "s": "I checked the battery settings. I found a few apps used more power. I felt surprised."
+        },
+        {
+          "p": "Did you try closing background apps?",
+          "m": "Trả lời có hay không. Nói cách bạn làm (quá khứ). Nói nếu tình hình thay đổi.",
+          "h": "Yes/No, I + V-ed. After that + result",
+          "s": "Yes, I closed background apps. After that the battery lasted longer. The phone worked better."
+        },
+        {
+          "p": "Should you update the apps or the phone system?",
+          "m": "Nói nên hay không (should). Nói lý do. Nói bạn sẽ làm gì đầu tiên.",
+          "h": "You should + V. Because + reason. First I will + V",
+          "s": "You should update the apps and system. Because updates fix problems. First I will update the apps."
+        },
+        {
+          "p": "How is a new battery different from saving power mode?",
+          "m": "So sánh ngắn: lợi ích của pin mới. Nói lợi ích của chế độ tiết kiệm. Kết luận bạn sẽ chọn gì.",
+          "h": "New battery is more ... / Power saving is more ... I will choose ...",
+          "s": "A new battery is more long-term than power saving. Power saving is more immediate and free. I will try power saving first."
+        },
+        {
+          "p": "If the phone still fails, what will you advise your friend to do?",
+          "m": "Đưa lời khuyên cuối cùng (will). Nói một bước cụ thể họ phải làm. Nói kết quả mong đợi ngắn.",
+          "h": "I will advise + V. They should + V. I expect + result",
+          "s": "I will advise them to visit a repair shop. They should back up data first. I expect the problem will be fixed."
+        }
+      ]
+    },
+    {
+      "t": "Bàn về an toàn dữ liệu cá nhân",
+      "e": [
+        {
+          "p": "Do you share your password with anyone?",
+          "m": "Trả lời có hay không. Nói nguyên nhân. Nói bạn có thay đổi mật khẩu thường xuyên không.",
+          "h": "No, I don't / Yes, I do because ... I change it + frequency",
+          "s": "No, I don't share my passwords. Because it is private. I change them every few months."
+        },
+        {
+          "p": "What happened when someone guessed a password?",
+          "m": "Kể một việc đã xảy ra (quá khứ). Nói hậu quả ngắn. Nói bạn đã làm gì để khắc phục.",
+          "h": "Someone guessed + account. As a result + result. I + V-ed to fix",
+          "s": "Someone guessed my email password once. As a result I lost access for a day. I changed the password and enabled two-step login."
+        },
+        {
+          "p": "Should people use two-factor authentication?",
+          "m": "Trả lời nên hay không. Nói lý do 1. Nói cách bật nó.",
+          "h": "They should + V. Because + reason. You can enable it in ...",
+          "s": "People should use two-factor authentication. Because it adds extra security. You can enable it in account settings."
+        },
+        {
+          "p": "How is a strong password different from a weak one?",
+          "m": "Mô tả một đặc điểm của mật khẩu mạnh. Mô tả mật khẩu yếu. Nói bạn sẽ làm gì để có mật khẩu mạnh.",
+          "h": "Strong passwords have ... Weak passwords are ... I will + V",
+          "s": "Strong passwords have numbers and symbols. Weak passwords are short and common. I will use a longer and unique password."
+        },
+        {
+          "p": "Advise a friend who uses public Wi-Fi for work.",
+          "m": "Đưa lời khuyên chính (should). Nói một hành động bảo vệ. Nói kết quả mong đợi.",
+          "h": "They should + V. Also + V. I expect + result",
+          "s": "They should avoid sensitive activity on public Wi-Fi. Also use a VPN or mobile data. I expect their data will be safer."
+        }
+      ]
+    },
+    {
+      "t": "Thảo luận xu hướng Blockchain",
+      "e": [
+        {
+          "p": "Have you heard about blockchain?",
+          "m": "Trả lời có hay không. Nói một điều bạn biết (quá khứ). Nói cảm nhận ngắn.",
+          "h": "Yes/No, I heard + about. I know that + simple. I feel + adj",
+          "s": "Yes, I heard about blockchain. I know it stores records securely. I feel curious about it."
+        },
+        {
+          "p": "How did you learn about it?",
+          "m": "Nói bạn đã học bằng cách nào (quá khứ). Nói điều bạn nhớ nhất. Nói bạn có muốn học thêm không.",
+          "h": "I learned through + source. I remember + detail. I want/do not want to learn more",
+          "s": "I learned through an online article. I remember it is like a chain of blocks. I want to learn more."
+        },
+        {
+          "p": "Is blockchain more secure than regular databases?",
+          "m": "Đưa ý kiến (more/less). Nói lý do ngắn. Nói một hạn chế.",
+          "h": "It is more/less secure because ... But it can be ...",
+          "s": "It is more secure in some ways because records are linked. But it can be slow and hard to change."
+        },
+        {
+          "p": "Who will benefit from blockchain technology?",
+          "m": "Nói một nhóm người/công ty sẽ hưởng lợi. Nói lý do. Nói một ví dụ cụ thể.",
+          "h": "X will benefit because ... For example ...",
+          "s": "Banks and companies will benefit because transactions become transparent. For example, tracking goods is easier."
+        },
+        {
+          "p": "If you explain blockchain to a friend, what simple example will you use?",
+          "m": "Nói ví dụ đơn giản (will). Nói làm sao ví dụ giúp hiểu. Nói kết luận ngắn.",
+          "h": "I will say ... It helps because ... So ...",
+          "s": "I will say it is like a shared notebook everyone can see. It helps because all entries are linked and hard to change. So records stay clear."
+        }
+      ]
+    },
+    {
+      "t": "Lập kế hoạch nghề nghiệp tương lai",
+      "e": [
+        {
+          "p": "Do you want a job in tech?",
+          "m": "Trả lời có hay không. Nói loại công việc bạn muốn. Nói lý do ngắn.",
+          "h": "Yes/No, I want to + job. Because + reason",
+          "s": "Yes, I want a simple tech job. I want to work with support or basic coding. Because it is interesting and useful."
+        },
+        {
+          "p": "What did you study or do to prepare?",
+          "m": "Nói một việc bạn đã làm (quá khứ). Nói kết quả ngắn. Nói bạn cảm thấy thế nào.",
+          "h": "I studied/attended + course. As a result + result. I felt + adj",
+          "s": "I attended a short online course. As a result I learned basic skills. I felt more confident."
+        },
+        {
+          "p": "Is this job better than your current job?",
+          "m": "So sánh ngắn (better/worse). Nói một lý do công việc mới tốt hơn. Nói một điều bạn lo ngại.",
+          "h": "It is more/less ... because ... But I worry about ...",
+          "s": "The new job is better for learning because it uses modern tools. But I worry about the fast changes."
+        },
+        {
+          "p": "What should you do next month to reach that job?",
+          "m": "Nói một việc bạn nên làm (should). Nói cách thực hiện. Nói kết quả mong muốn.",
+          "h": "I should + V. I will do this by + V-ing. I expect + result",
+          "s": "I should practice coding weekly. I will do this by following lessons and exercises. I expect to build a small project."
+        },
+        {
+          "p": "Tell me your three-step plan for the next year.",
+          "m": "Nêu 3 bước theo thứ tự (mỗi bước 1 câu). Nói thời gian hoàn thành cho mỗi bước.",
+          "h": "Step 1: I will + V by ... Step 2: I will + V by ... Step 3: I will + V by ...",
+          "s": "Step 1: I will finish a beginner course by three months. Step 2: I will build practice projects by nine months. Step 3: I will apply for junior roles by the end of the year."
+        }
+      ]
+    },
+    {
+      "t": "Ôn tập: Giao tiếp về AI và Blockchain 1",
+      "e": [
+        {
+          "p": "Quick: say what AI did for you this week.",
+          "m": "Nói một việc AI đã làm cho bạn (quá khứ). Nói kết quả. Nói bạn cảm nghĩ ngắn.",
+          "h": "I used AI to + V. Result: ... I felt ...",
+          "s": "I used AI to check my report. It corrected some mistakes. I felt thankful."
+        },
+        {
+          "p": "Compare learning with AI and learning with a teacher.",
+          "m": "So sánh ngắn: lợi ích học với AI. Lợi ích học với giáo viên. Kết luận bạn thích cách nào hơn (short).",
+          "h": "AI is more ... / A teacher is more ... I prefer ...",
+          "s": "AI is more flexible. A teacher is more personal. I prefer a teacher for feedback."
+        },
+        {
+          "p": "Explain blockchain in one sentence for a classmate.",
+          "m": "Viết 1 câu đơn giải thích ngắn. Nói một lợi ích. Nói một ví dụ.",
+          "h": "Blockchain is ... It helps ... For example ...",
+          "s": "Blockchain is a shared record system. It helps keep records safe. For example, tracking products."
+        },
+        {
+          "p": "What should students do to use AI responsibly?",
+          "m": "Nêu 2 hành động cụ thể (mỗi hành động 1 câu). Nói một lý do ngắn cho mỗi hành động.",
+          "h": "They should + V. Because ... / They should + V. Because ...",
+          "s": "They should check AI answers for accuracy because AI can be wrong. They should learn the basics themselves because understanding matters."
+        },
+        {
+          "p": "Plan one small project using both AI and blockchain next month.",
+          "m": "Nói dự án ngắn (what). Nói 2 bước bạn sẽ làm. Nói mục tiêu cuối cùng.",
+          "h": "Project: ... Step 1: I will + V. Step 2: I will + V. Goal: ...",
+          "s": "Project: a simple record app using AI for labels and blockchain for records. Step 1: I will design the idea. Step 2: I will try a small demo. Goal: a basic working demo."
+        }
+      ]
+    },
+    {
+      "t": "Ôn tập: So sánh và lựa chọn công cụ",
+      "e": [
+        {
+          "p": "Which tool do you use for writing, and why?",
+          "m": "Nói công cụ bạn dùng. Nói 1 tính năng bạn thích. Nói tần suất dùng.",
+          "h": "I use + tool because ... I use it + frequency",
+          "s": "I use a simple editor because it is fast. I like autosave. I use it every day."
+        },
+        {
+          "p": "How is this tool better than a competitor?",
+          "m": "Nêu một điểm mạnh. Nói ví dụ. Nói một mặt competitor tốt hơn.",
+          "h": "It is more ... because ... For example ... But competitor is more ...",
+          "s": "It is more user-friendly because menus are simple. For example, I start my work faster. But competitor is more powerful."
+        },
+        {
+          "p": "If cost matters, what will you choose?",
+          "m": "Nói lựa chọn khi chi phí quan trọng (will). Nói lý do. Nói một nhược điểm bạn chấp nhận.",
+          "h": "I will choose ... because ... I accept that ...",
+          "s": "I will choose the cheaper tool because I have a small budget. I accept that it has fewer features."
+        },
+        {
+          "p": "Should a team use one standard tool or allow choice?",
+          "m": "Trả lời nên hay không. Nói lợi ích của cách bạn chọn. Nói lưu ý khi thực hiện.",
+          "h": "They should + V. It helps + noun. But they must + V",
+          "s": "They should use one standard tool for teamwork. It helps everyone share files easily. But they must train the team."
+        },
+        {
+          "p": "Describe a quick test to pick the best tool.",
+          "m": "Nói 2-3 bước thử nghiệm (mỗi bước 1 câu). Nói tiêu chí đánh giá cuối cùng.",
+          "h": "Step 1: I will + V. Step 2: I will + V. Final criterion: ...",
+          "s": "Step 1: I will try core tasks in each tool. Step 2: I will time how long tasks take. Final criterion: speed and ease for daily use."
+        }
+      ]
+    },
+    {
+      "t": "Ôn tập: Kịch bản phỏng vấn và công việc",
+      "e": [
+        {
+          "p": "Tell me one skill you have for a tech job.",
+          "m": "Nói kỹ năng bạn có. Nói ví dụ bạn đã dùng kỹ năng (quá khứ). Nói bạn muốn cải thiện điều gì.",
+          "h": "I have + skill. I used it to + V. I want to improve + noun",
+          "s": "I have basic coding skills. I used them to build a small website. I want to improve my problem solving."
+        },
+        {
+          "p": "Why should a company hire you?",
+          "m": "Nêu 1 lý do mạnh (present). Nói một thành tựu ngắn (quá khứ). Nói cam kết ngắn (will).",
+          "h": "I am + adj because ... I achieved + result. I will + V",
+          "s": "I am eager to learn because I study regularly. I completed a project last month. I will work hard and be reliable."
+        },
+        {
+          "p": "Describe a problem at work and how you solved it.",
+          "m": "Nói vấn đề (quá khứ). Nói hành động bạn làm (quá khứ). Nói kết quả.",
+          "h": "Problem: ... I solved it by + V-ing. Result: ...",
+          "s": "Problem: a report had many errors. I solved it by proofreading and using an AI tool. Result: the report was clean and accepted."
+        },
+        {
+          "p": "How will you balance learning and work next month?",
+          "m": "Nói 2 bước bạn sẽ làm (will). Nói thời gian dự kiến mỗi bước.",
+          "h": "I will + V. I will + V. Time: ...",
+          "s": "I will study two evenings per week. I will do small tasks at work during daytime. Time: two hours each study evening."
+        },
+        {
+          "p": "Give a short closing sentence for a job interview.",
+          "m": "Viết 2 câu: cảm ơn và khẳng định ngắn bạn phù hợp (will).",
+          "h": "Thank you + I will + V",
+          "s": "Thank you for the interview. I will bring energy and learn fast if I join."
+        }
+      ]
+    }
+  ]
+}

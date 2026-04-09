@@ -1,0 +1,565 @@
+{
+  "l": 1,
+  "d": [
+    {
+      "t": "Gặp quản lý mới",
+      "e": [
+        {
+          "p": "You are the new manager. What is your job?",
+          "m": "Nói nghề của bạn (một câu).",
+          "h": "Use: I am a + job / I work as a + job",
+          "s": "I am a [studentJob]."
+        },
+        {
+          "p": "Hi, who are you?",
+          "m": "Nói tên (một câu).",
+          "h": "Use: My name is + name",
+          "s": "My name is [studentName]."
+        },
+        {
+          "p": "The team says: The manager is new.",
+          "m": "Nói một câu: xác nhận quản lý mới.",
+          "h": "Use: The manager is + adj",
+          "s": "The manager is new."
+        },
+        {
+          "p": "Can you come to the meeting?",
+          "m": "Nói bạn có thể đến hay không (một câu).",
+          "h": "Use: I can / I can't + verb",
+          "s": "I can come."
+        },
+        {
+          "p": "Do you like the team?",
+          "m": "Nói bạn thích hay không (một câu).",
+          "h": "Use: I like / I don't like + noun",
+          "s": "I like the team."
+        }
+      ]
+    },
+    {
+      "t": "Nói với đồng nghiệp mới",
+      "e": [
+        {
+          "p": "I am new in the team. Who are you?",
+          "m": "Nói tên bạn (một câu).",
+          "h": "Use: My name is + name",
+          "s": "My name is [studentName]."
+        },
+        {
+          "p": "What do you do here?",
+          "m": "Nói công việc bạn làm (một câu).",
+          "h": "Use: I am a + job / I work as a + job",
+          "s": "I am a [studentJob]."
+        },
+        {
+          "p": "Do you work here every day?",
+          "m": "Nói bạn có làm việc mỗi ngày hay không (một câu).",
+          "h": "Use: Yes, I do / No, I don't",
+          "s": "Yes, I do."
+        },
+        {
+          "p": "The team is small. Is it ok?",
+          "m": "Nói bạn cảm thấy thế nào (một câu).",
+          "h": "Use: I am + adj",
+          "s": "I am happy."
+        },
+        {
+          "p": "Can you help me with my job?",
+          "m": "Nói bạn có thể giúp hay không (một câu).",
+          "h": "Use: I can / I can't + verb",
+          "s": "I can help."
+        }
+      ]
+    },
+    {
+      "t": "Thông báo thay đổi tổ chức",
+      "e": [
+        {
+          "p": "There is a change in our team.",
+          "m": "Nói một câu: xác nhận có thay đổi.",
+          "h": "Use: There is + noun / There are + noun",
+          "s": "There is a change."
+        },
+        {
+          "p": "Who moves to the new office?",
+          "m": "Nói một tên giả sử (một câu) hoặc 'No one'.",
+          "h": "Use: He/She is + role or No one",
+          "s": "She is the new staff."
+        },
+        {
+          "p": "Do you like the change?",
+          "m": "Nói bạn thích hay không (một câu).",
+          "h": "Use: I like / I don't like + noun",
+          "s": "I don't like the change."
+        },
+        {
+          "p": "Can you start the new job today?",
+          "m": "Nói bạn có thể bắt đầu hay không (một câu).",
+          "h": "Use: I can / I can't + verb",
+          "s": "I can't start today."
+        },
+        {
+          "p": "Is the new plan good?",
+          "m": "Nói bạn nghĩ kế hoạch tốt hay không (một câu).",
+          "h": "Use: It is + adj",
+          "s": "It is good."
+        }
+      ]
+    },
+    {
+      "t": "Hỏi về người rời công ty",
+      "e": [
+        {
+          "p": "One person leaves the team.",
+          "m": "Nói một câu: xác nhận người rời đi.",
+          "h": "Use: He/She leaves / He/She left",
+          "s": "He leaves the team."
+        },
+        {
+          "p": "Who leaves?",
+          "m": "Nói tên người nếu biết (một câu) hoặc 'No one'.",
+          "h": "Use: He/She is + name or No one",
+          "s": "He is John."
+        },
+        {
+          "p": "Do you feel sad about that?",
+          "m": "Nói bạn buồn hay không (một câu).",
+          "h": "Use: I am + adj",
+          "s": "I am sad."
+        },
+        {
+          "p": "Can you do his work?",
+          "m": "Nói bạn có thể làm công việc đó hay không (một câu).",
+          "h": "Use: I can / I can't + verb",
+          "s": "I can do his work."
+        },
+        {
+          "p": "Is the team smaller now?",
+          "m": "Nói 'Yes' hoặc 'No' và một câu ngắn.",
+          "h": "Use: Yes, it is / No, it is not",
+          "s": "Yes, it is smaller."
+        }
+      ]
+    },
+    {
+      "t": "Họp nhóm về thay đổi",
+      "e": [
+        {
+          "p": "We have a team meeting now.",
+          "m": "Nói bạn ở họp hay không (một câu).",
+          "h": "Use: I am in the meeting / I am not in the meeting",
+          "s": "I am in the meeting."
+        },
+        {
+          "p": "The boss asks: Do you like the plan?",
+          "m": "Nói bạn thích hay không (một câu).",
+          "h": "Use: I like / I don't like + noun",
+          "s": "I like the plan."
+        },
+        {
+          "p": "Can you explain your work?",
+          "m": "Nói một câu ngắn về công việc bạn làm.",
+          "h": "Use: I do + simple job phrase",
+          "s": "I do the sales work."
+        },
+        {
+          "p": "There are new rules. Is it easy?",
+          "m": "Nói quy tắc dễ hay khó (một câu).",
+          "h": "Use: It is + easy / It is + hard",
+          "s": "It is easy."
+        },
+        {
+          "p": "Who can lead the task?",
+          "m": "Nói bạn có thể lãnh đạo hay không (một câu).",
+          "h": "Use: I can / I can't + verb",
+          "s": "I can lead."
+        }
+      ]
+    },
+    {
+      "t": "Thông tin về vị trí mới",
+      "e": [
+        {
+          "p": "We have a new job in the team.",
+          "m": "Nói có vị trí mới hay không (một câu).",
+          "h": "Use: There is a + noun",
+          "s": "There is a new job."
+        },
+        {
+          "p": "Do you want the job?",
+          "m": "Nói bạn muốn hay không (một câu).",
+          "h": "Use: I want / I don't want + noun",
+          "s": "I want the job."
+        },
+        {
+          "p": "Can you learn a new task?",
+          "m": "Nói bạn có thể học hay không (một câu).",
+          "h": "Use: I can / I can't + verb",
+          "s": "I can learn the task."
+        },
+        {
+          "p": "Who is the new person for the job?",
+          "m": "Nói tên người đó (một câu) hoặc 'No one'.",
+          "h": "Use: He/She is + name or No one",
+          "s": "She is Anna."
+        },
+        {
+          "p": "Is the new job easy?",
+          "m": "Nói nó dễ hay không (một câu).",
+          "h": "Use: It is + easy / It is + hard",
+          "s": "It is easy."
+        }
+      ]
+    },
+    {
+      "t": "Thói quen làm việc mới",
+      "e": [
+        {
+          "p": "We start work at nine now.",
+          "m": "Nói bạn làm việc lúc mấy (một câu).",
+          "h": "Use: I work at + time",
+          "s": "I work at nine."
+        },
+        {
+          "p": "Do you come to office every day?",
+          "m": "Nói bạn đến văn phòng mỗi ngày hay không (một câu).",
+          "h": "Use: Yes, I do / No, I don't",
+          "s": "No, I don't."
+        },
+        {
+          "p": "The boss says: Be on time.",
+          "m": "Nói bạn đến đúng giờ hay không (một câu).",
+          "h": "Use: I am on time / I am not on time",
+          "s": "I am on time."
+        },
+        {
+          "p": "Can you work on Saturday?",
+          "m": "Nói bạn có thể hay không (một câu).",
+          "h": "Use: I can / I can't + verb",
+          "s": "I can't work on Saturday."
+        },
+        {
+          "p": "Is the new time good for you?",
+          "m": "Nói bạn thấy tốt hay không (một câu).",
+          "h": "Use: It is + adj",
+          "s": "It is good for me."
+        }
+      ]
+    },
+    {
+      "t": "Cảm xúc nhân viên khi thay đổi",
+      "e": [
+        {
+          "p": "We have a change. How are you?",
+          "m": "Nói cảm xúc hiện tại (một câu).",
+          "h": "Use: I am + happy/sad/ok",
+          "s": "I am ok."
+        },
+        {
+          "p": "Are you worried?",
+          "m": "Nói bạn lo hay không (một câu).",
+          "h": "Use: Yes, I am / No, I am not",
+          "s": "No, I am not worried."
+        },
+        {
+          "p": "Do you need help?",
+          "m": "Nói bạn cần hay không (một câu).",
+          "h": "Use: I need / I don't need + noun",
+          "s": "I need help."
+        },
+        {
+          "p": "Can your friend help you?",
+          "m": "Nói bạn bè có thể giúp hay không (một câu).",
+          "h": "Use: He/She can / He/She can't",
+          "s": "She can help me."
+        },
+        {
+          "p": "Is the change good for you?",
+          "m": "Nói có tốt cho bạn hay không (một câu).",
+          "h": "Use: It is good / It is not good",
+          "s": "It is not good for me."
+        }
+      ]
+    },
+    {
+      "t": "Nói về quản lý và vai trò mới",
+      "e": [
+        {
+          "p": "The manager is new in our office.",
+          "m": "Nói một câu xác nhận quản lý mới.",
+          "h": "Use: The manager is + adj",
+          "s": "The manager is new."
+        },
+        {
+          "p": "Who is the manager now?",
+          "m": "Nói tên quản lý (một câu).",
+          "h": "Use: He/She is + name",
+          "s": "He is Tom."
+        },
+        {
+          "p": "Do you work with the manager?",
+          "m": "Nói bạn có làm việc với quản lý hay không (một câu).",
+          "h": "Use: Yes, I do / No, I don't",
+          "s": "Yes, I do work with the manager."
+        },
+        {
+          "p": "Can the manager help you?",
+          "m": "Nói quản lý có thể giúp hay không (một câu).",
+          "h": "Use: He/She can / He/She can't + verb",
+          "s": "He can help me."
+        },
+        {
+          "p": "Is the manager kind?",
+          "m": "Nói quản lý tốt hay không (một câu).",
+          "h": "Use: He/She is + adj",
+          "s": "He is kind."
+        }
+      ]
+    },
+    {
+      "t": "Giao tiếp khi tái phân chia công việc",
+      "e": [
+        {
+          "p": "We change tasks today.",
+          "m": "Nói bạn có nhiệm vụ mới hay không (một câu).",
+          "h": "Use: I have a new task / I don't have a new task",
+          "s": "I have a new task."
+        },
+        {
+          "p": "Who takes the old task?",
+          "m": "Nói ai nhận công việc cũ (một câu) hoặc 'No one'.",
+          "h": "Use: He/She takes the task or No one",
+          "s": "He takes the old task."
+        },
+        {
+          "p": "Do you need training?",
+          "m": "Nói bạn cần học hay không (một câu).",
+          "h": "Use: I need / I don't need + noun",
+          "s": "I need training."
+        },
+        {
+          "p": "Can you learn today?",
+          "m": "Nói bạn có thể học hôm nay hay không (một câu).",
+          "h": "Use: I can / I can't + verb",
+          "s": "I can learn today."
+        },
+        {
+          "p": "Is the new work easy for you?",
+          "m": "Nói nó dễ cho bạn hay không (một câu).",
+          "h": "Use: It is + easy / It is + hard",
+          "s": "It is easy for me."
+        }
+      ]
+    },
+    {
+      "t": "Báo cáo ngắn về thay đổi nhân sự",
+      "e": [
+        {
+          "p": "There are two new people in the team.",
+          "m": "Nói có hai người mới (một câu).",
+          "h": "Use: There are + number + noun",
+          "s": "There are two new people."
+        },
+        {
+          "p": "Who are they?",
+          "m": "Nói tên một người (một câu).",
+          "h": "Use: He/She is + name",
+          "s": "He is Mark."
+        },
+        {
+          "p": "Do they work full time?",
+          "m": "Nói họ làm toàn thời gian hay không (một câu).",
+          "h": "Use: Yes, they do / No, they don't",
+          "s": "Yes, they do."
+        },
+        {
+          "p": "Can they start now?",
+          "m": "Nói họ có thể bắt đầu hay không (một câu).",
+          "h": "Use: They can / They can't + verb",
+          "s": "They can start now."
+        },
+        {
+          "p": "Is the team big now?",
+          "m": "Nói đội có lớn hơn không (một câu).",
+          "h": "Use: It is + adj",
+          "s": "It is bigger now."
+        }
+      ]
+    },
+    {
+      "t": "Trao đổi khi có thay đổi lịch làm",
+      "e": [
+        {
+          "p": "The work time is new this week.",
+          "m": "Nói bạn biết hay không (một câu).",
+          "h": "Use: I know / I don't know",
+          "s": "I know the new time."
+        },
+        {
+          "p": "What time do you start work?",
+          "m": "Nói giờ bạn bắt đầu (một câu).",
+          "h": "Use: I start at + time",
+          "s": "I start at eight."
+        },
+        {
+          "p": "Do you go home at five?",
+          "m": "Nói bạn về nhà lúc mấy (một câu).",
+          "h": "Use: I go home at + time",
+          "s": "I go home at five."
+        },
+        {
+          "p": "Can you change your time?",
+          "m": "Nói bạn có thể đổi giờ hay không (một câu).",
+          "h": "Use: I can / I can't + verb",
+          "s": "I can't change my time."
+        },
+        {
+          "p": "Is the new schedule OK?",
+          "m": "Nói lịch mới có ổn hay không (một câu).",
+          "h": "Use: It is + adj",
+          "s": "It is OK."
+        }
+      ]
+    },
+    {
+      "t": "Chia sẻ hỗ trợ giữa đồng nghiệp",
+      "e": [
+        {
+          "p": "I need help with the new task.",
+          "m": "Nói bạn giúp được hay không (một câu).",
+          "h": "Use: I can / I can't + verb",
+          "s": "I can help."
+        },
+        {
+          "p": "Can you teach me?",
+          "m": "Nói bạn có thể dạy hay không (một câu).",
+          "h": "Use: I can / I can't + verb",
+          "s": "I can teach you."
+        },
+        {
+          "p": "Who helps you at work?",
+          "m": "Nói một người giúp bạn (một câu) hoặc 'No one'.",
+          "h": "Use: He/She helps me or No one",
+          "s": "She helps me."
+        },
+        {
+          "p": "Do you share your task?",
+          "m": "Nói bạn có chia công việc hay không (một câu).",
+          "h": "Use: I share / I don't share + noun",
+          "s": "I share the task."
+        },
+        {
+          "p": "Is help easy to get here?",
+          "m": "Nói việc nhận giúp đỡ có dễ không (một câu).",
+          "h": "Use: It is + adj",
+          "s": "It is easy to get help."
+        }
+      ]
+    },
+    {
+      "t": "Ôn tập: Gặp và giới thiệu khi thay đổi",
+      "e": [
+        {
+          "p": "A new person says: Hi, who are you?",
+          "m": "Nói tên bạn (một câu).",
+          "h": "Use: My name is + name",
+          "s": "My name is [studentName]."
+        },
+        {
+          "p": "They ask: What is your job?",
+          "m": "Nói nghề của bạn (một câu).",
+          "h": "Use: I am a + job",
+          "s": "I am a [studentJob]."
+        },
+        {
+          "p": "You say: I work in this team.",
+          "m": "Xác nhận bạn làm trong đội (một câu).",
+          "h": "Use: I work in + place or team",
+          "s": "I work in the team."
+        },
+        {
+          "p": "Do you like the new person?",
+          "m": "Nói bạn có thích người mới hay không (một câu).",
+          "h": "Use: I like / I don't like + noun",
+          "s": "I like the new person."
+        },
+        {
+          "p": "Can you help the new person?",
+          "m": "Nói bạn có thể giúp hay không (một câu).",
+          "h": "Use: I can / I can't + verb",
+          "s": "I can help the new person."
+        }
+      ]
+    },
+    {
+      "t": "Ôn tập: Họp và thông báo thay đổi",
+      "e": [
+        {
+          "p": "We have a meeting. Are you here?",
+          "m": "Nói bạn có ở họp hay không (một câu).",
+          "h": "Use: I am in the meeting / I am not",
+          "s": "I am in the meeting."
+        },
+        {
+          "p": "The boss says: We change work time.",
+          "m": "Nói có thay đổi giờ làm hay không (một câu).",
+          "h": "Use: There is a change / There is no change",
+          "s": "There is a change."
+        },
+        {
+          "p": "Do you have questions?",
+          "m": "Nói bạn có câu hỏi hay không (một câu).",
+          "h": "Use: I have / I don't have + noun",
+          "s": "I don't have questions."
+        },
+        {
+          "p": "Can you work with the new plan?",
+          "m": "Nói bạn có thể làm theo kế hoạch mới hay không (một câu).",
+          "h": "Use: I can / I can't + verb",
+          "s": "I can work with the new plan."
+        },
+        {
+          "p": "Is the new plan good?",
+          "m": "Nói bạn nghĩ kế hoạch có tốt hay không (một câu).",
+          "h": "Use: It is + adj",
+          "s": "It is good."
+        }
+      ]
+    },
+    {
+      "t": "Ôn tập: Cảm xúc và hỗ trợ khi thay đổi",
+      "e": [
+        {
+          "p": "Change is here. How do you feel?",
+          "m": "Nói cảm xúc của bạn (một câu).",
+          "h": "Use: I am + happy/sad/ok",
+          "s": "I am happy."
+        },
+        {
+          "p": "Do you need help now?",
+          "m": "Nói bạn cần giúp hay không (một câu).",
+          "h": "Use: I need / I don't need + noun",
+          "s": "I need help now."
+        },
+        {
+          "p": "Can a friend help you?",
+          "m": "Nói bạn bè có thể giúp hay không (một câu).",
+          "h": "Use: He/She can / He/She can't",
+          "s": "He can help me."
+        },
+        {
+          "p": "Is the team calm after change?",
+          "m": "Nói đội có bình tĩnh hay không (một câu).",
+          "h": "Use: It is + adj",
+          "s": "It is calm."
+        },
+        {
+          "p": "Do you like your new role?",
+          "m": "Nói bạn thích vai trò mới hay không (một câu).",
+          "h": "Use: I like / I don't like + noun",
+          "s": "I like my new role."
+        }
+      ]
+    }
+  ]
+}

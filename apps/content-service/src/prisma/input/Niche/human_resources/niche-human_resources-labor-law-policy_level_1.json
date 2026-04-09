@@ -1,0 +1,530 @@
+{
+  "l": 1,
+  "d": [
+    {
+      "t": "Gặp đồng nghiệp mới",
+      "e": [
+        {
+          "p": "What's your name?",
+          "m": "Nói tên của bạn.",
+          "h": "Cấu trúc: I am + [studentName].",
+          "s": "I am [studentName]."
+        },
+        {
+          "p": "What is your job?",
+          "m": "Nói nghề của bạn.",
+          "h": "Cấu trúc: I am + [studentJob].",
+          "s": "I am [studentJob]."
+        },
+        {
+          "p": "Where do you live?",
+          "m": "Nói nơi bạn sống.",
+          "h": "Dùng: I live in + [studentCity].",
+          "s": "I live in [studentCity]."
+        },
+        {
+          "p": "Do you like this job?",
+          "m": "Nói bạn có thích công việc này không.",
+          "h": "Dùng: I like / I don't like + this job.",
+          "s": "I like this job."
+        },
+        {
+          "p": "What time do you start work?",
+          "m": "Nói giờ bạn bắt đầu làm việc.",
+          "h": "Dùng: I start work at + giờ.",
+          "s": "I start work at 8."
+        }
+      ]
+    },
+    {
+      "t": "Giờ làm việc hàng ngày",
+      "e": [
+        {
+          "p": "When do you go to work?",
+          "m": "Nói thời gian bạn đi làm.",
+          "h": "Dùng: I go to work at + giờ.",
+          "s": "I go to work at 7."
+        },
+        {
+          "p": "Do you work every day?",
+          "m": "Nói bạn có làm việc mỗi ngày không.",
+          "h": "Dùng: Yes, I do / No, I don't.",
+          "s": "No, I don't."
+        },
+        {
+          "p": "How many days do you work?",
+          "m": "Nói số ngày bạn làm mỗi tuần.",
+          "h": "Dùng: I work + số + days.",
+          "s": "I work 5 days."
+        },
+        {
+          "p": "Where do you work?",
+          "m": "Nói nơi bạn làm việc.",
+          "h": "Dùng: I work at + place.",
+          "s": "I work at an office."
+        },
+        {
+          "p": "Who is your boss?",
+          "m": "Nói tên hoặc vị trí người quản lý.",
+          "h": "Dùng: My boss is + tên / vị trí.",
+          "s": "My boss is Mr. Lee."
+        }
+      ]
+    },
+    {
+      "t": "Quy tắc đơn giản nơi làm việc",
+      "e": [
+        {
+          "p": "Can we eat at our desk?",
+          "m": "Trả lời có hoặc không về việc ăn ở bàn làm việc.",
+          "h": "Dùng: Yes, you can / No, you can't.",
+          "s": "No, you can't."
+        },
+        {
+          "p": "Where is the break room?",
+          "m": "Nói chỗ nghỉ (break room).",
+          "h": "Dùng: It is + nơi.",
+          "s": "It is near the kitchen."
+        },
+        {
+          "p": "Is there a rule about phones?",
+          "m": "Trả lời có hoặc không về quy tắc dùng điện thoại.",
+          "h": "Dùng: Yes, there is / No, there isn't.",
+          "s": "Yes, there is a rule."
+        },
+        {
+          "p": "Do you wear safety shoes?",
+          "m": "Nói bạn có mang giày an toàn không.",
+          "h": "Dùng: Yes, I do / No, I don't.",
+          "s": "No, I don't."
+        },
+        {
+          "p": "What is one work rule here?",
+          "m": "Nói một quy tắc đơn giản nơi làm việc.",
+          "h": "Dùng: You can't + V.",
+          "s": "You can't use a phone in the meeting."
+        }
+      ]
+    },
+    {
+      "t": "Giờ nghỉ và xin phép",
+      "e": [
+        {
+          "p": "Do you have lunch at work?",
+          "m": "Trả lời có hoặc không về ăn trưa ở nơi làm việc.",
+          "h": "Dùng: Yes, I do / No, I don't.",
+          "s": "Yes, I do."
+        },
+        {
+          "p": "How long is your lunch?",
+          "m": "Nói thời lượng nghỉ trưa.",
+          "h": "Dùng: It is + số + minutes.",
+          "s": "It is 30 minutes."
+        },
+        {
+          "p": "Can I take a sick day?",
+          "m": "Trả lời có hoặc không về xin nghỉ ốm.",
+          "h": "Dùng: Yes, you can / No, you can't.",
+          "s": "Yes, you can."
+        },
+        {
+          "p": "Who approves leave?",
+          "m": "Nói ai phê duyệt đơn nghỉ.",
+          "h": "Dùng: My boss / The manager approves.",
+          "s": "My boss approves leave."
+        },
+        {
+          "p": "What do you say to ask for one day off?",
+          "m": "Viết một câu xin nghỉ 1 ngày.",
+          "h": "Dùng: Can I + take + a day off?",
+          "s": "Can I take a day off tomorrow?"
+        }
+      ]
+    },
+    {
+      "t": "Kiểm tra hợp đồng đơn giản",
+      "e": [
+        {
+          "p": "Do you have a work contract?",
+          "m": "Trả lời có hoặc không về hợp đồng lao động.",
+          "h": "Dùng: Yes, I do / No, I don't.",
+          "s": "Yes, I do."
+        },
+        {
+          "p": "How long is your contract?",
+          "m": "Nói thời hạn hợp đồng (số tháng).",
+          "h": "Dùng: It is + số + months.",
+          "s": "It is 12 months."
+        },
+        {
+          "p": "Is your job full time?",
+          "m": "Trả lời có hoặc không về làm toàn thời gian.",
+          "h": "Dùng: Yes, it is / No, it isn't.",
+          "s": "Yes, it is."
+        },
+        {
+          "p": "Where is the contract kept?",
+          "m": "Nói nơi bạn để hợp đồng.",
+          "h": "Dùng: It is + place.",
+          "s": "It is in my folder."
+        },
+        {
+          "p": "What is important in a contract?",
+          "m": "Nói một điều quan trọng trong hợp đồng.",
+          "h": "Dùng: Salary / Time / Work + is + important.",
+          "s": "Salary is important."
+        }
+      ]
+    },
+    {
+      "t": "Báo cáo vấn đề an toàn",
+      "e": [
+        {
+          "p": "Is there a safety issue now?",
+          "m": "Trả lời có hoặc không về vấn đề an toàn hiện tại.",
+          "h": "Dùng: Yes, there is / No, there isn't.",
+          "s": "Yes, there is."
+        },
+        {
+          "p": "Where is the problem?",
+          "m": "Nói nơi có vấn đề an toàn.",
+          "h": "Dùng: It is + nơi.",
+          "s": "It is in the storage room."
+        },
+        {
+          "p": "Who do you call for help?",
+          "m": "Nói người bạn gọi để giúp.",
+          "h": "Dùng: I + V + the + person.",
+          "s": "I call the manager."
+        },
+        {
+          "p": "Can people enter now?",
+          "m": "Nói có hoặc không cho mọi người vào khu vực đó.",
+          "h": "Dùng: Yes, they can / No, they can't.",
+          "s": "No, they can't."
+        },
+        {
+          "p": "What do we do now?",
+          "m": "Nói một hành động đơn giản cần làm ngay.",
+          "h": "Dùng: We + V + O.",
+          "s": "We leave the area."
+        }
+      ]
+    },
+    {
+      "t": "Trao đổi với quản lý",
+      "e": [
+        {
+          "p": "Can I ask you a question?",
+          "m": "Trả lời có hoặc không cho phép hỏi.",
+          "h": "Dùng: Yes, you can / No, you can't.",
+          "s": "Yes, you can."
+        },
+        {
+          "p": "What do you do if a worker is late?",
+          "m": "Nói một việc bạn làm khi nhân viên đi trễ.",
+          "h": "Dùng: I + V(s) + O.",
+          "s": "I call the worker."
+        },
+        {
+          "p": "Who signs the form?",
+          "m": "Nói người ký đơn / form.",
+          "h": "Dùng: The + person + V(s).",
+          "s": "The manager signs the form."
+        },
+        {
+          "p": "Do you need more staff?",
+          "m": "Trả lời có hoặc không về việc cần thêm nhân sự.",
+          "h": "Dùng: Yes, we do / No, we don't.",
+          "s": "Yes, we do."
+        },
+        {
+          "p": "When is the meeting?",
+          "m": "Nói giờ họp.",
+          "h": "Dùng: It is at + giờ.",
+          "s": "It is at 3."
+        }
+      ]
+    },
+    {
+      "t": "Nói về tiền lương đơn giản",
+      "e": [
+        {
+          "p": "How much is your pay?",
+          "m": "Nói số tiền lương mỗi tháng.",
+          "h": "Dùng: It is + số + a month.",
+          "s": "It is 500 a month."
+        },
+        {
+          "p": "Do you get pay on time?",
+          "m": "Trả lời có hoặc không về nhận lương đúng hạn.",
+          "h": "Dùng: Yes, I do / No, I don't.",
+          "s": "Yes, I do."
+        },
+        {
+          "p": "Who pays you?",
+          "m": "Nói ai trả lương cho bạn.",
+          "h": "Dùng: The + entity + pays me.",
+          "s": "The company pays me."
+        },
+        {
+          "p": "What day do you get pay?",
+          "m": "Nói ngày trong tháng bạn nhận lương.",
+          "h": "Dùng: I get pay on + ngày.",
+          "s": "I get pay on the 25th."
+        },
+        {
+          "p": "Can I ask for more pay?",
+          "m": "Nói có hoặc không về việc xin tăng lương.",
+          "h": "Dùng: Yes, you can / No, you can't.",
+          "s": "Yes, you can."
+        }
+      ]
+    },
+    {
+      "t": "Thay đổi ca làm việc",
+      "e": [
+        {
+          "p": "Do you work the morning shift?",
+          "m": "Trả lời có hoặc không về ca sáng.",
+          "h": "Dùng: Yes, I do / No, I don't.",
+          "s": "No, I don't."
+        },
+        {
+          "p": "What shift do you work?",
+          "m": "Nói bạn làm ca nào (sáng/chiều/đêm).",
+          "h": "Dùng: I work the + loại shift.",
+          "s": "I work the morning shift."
+        },
+        {
+          "p": "Can you change your shift?",
+          "m": "Trả lời có hoặc không về thay ca.",
+          "h": "Dùng: Yes, I can / No, I can't.",
+          "s": "Yes, I can."
+        },
+        {
+          "p": "Who changes the schedule?",
+          "m": "Nói ai thay đổi lịch làm việc.",
+          "h": "Dùng: HR / The manager + V(s).",
+          "s": "HR changes the schedule."
+        },
+        {
+          "p": "Do you like your shift?",
+          "m": "Nói bạn có thích ca làm hiện tại không.",
+          "h": "Dùng: Yes, I do / No, I don't.",
+          "s": "Yes, I do."
+        }
+      ]
+    },
+    {
+      "t": "Nhiệm vụ công việc hàng ngày",
+      "e": [
+        {
+          "p": "What is your task today?",
+          "m": "Nói một nhiệm vụ bạn làm hôm nay.",
+          "h": "Dùng: I + V(s) + O.",
+          "s": "I clean the room."
+        },
+        {
+          "p": "Do you use a computer?",
+          "m": "Trả lời có hoặc không về việc dùng máy tính.",
+          "h": "Dùng: Yes, I do / No, I don't.",
+          "s": "Yes, I do."
+        },
+        {
+          "p": "How many tasks do you have?",
+          "m": "Nói số nhiệm vụ bạn có hôm nay.",
+          "h": "Dùng: I have + số + tasks.",
+          "s": "I have 3 tasks."
+        },
+        {
+          "p": "Where do you do your task?",
+          "m": "Nói nơi bạn làm nhiệm vụ đó.",
+          "h": "Dùng: I do my task at + place.",
+          "s": "I do my task at the office."
+        },
+        {
+          "p": "Who helps you at work?",
+          "m": "Nói người giúp bạn ở nơi làm việc.",
+          "h": "Dùng: My colleague / The manager helps me.",
+          "s": "My colleague helps me."
+        }
+      ]
+    },
+    {
+      "t": "Gặp vấn đề với đồng nghiệp",
+      "e": [
+        {
+          "p": "Is there a problem with your colleague?",
+          "m": "Trả lời có hoặc không về vấn đề với đồng nghiệp.",
+          "h": "Dùng: Yes, there is / No, there isn't.",
+          "s": "Yes, there is."
+        },
+        {
+          "p": "What is the problem?",
+          "m": "Nói một vấn đề ngắn (1 câu).",
+          "h": "Dùng: He / She + be + adj.",
+          "s": "He is late."
+        },
+        {
+          "p": "Do you talk to him?",
+          "m": "Trả lời có hoặc không về việc bạn nói chuyện với người đó.",
+          "h": "Dùng: Yes, I do / No, I don't.",
+          "s": "Yes, I do."
+        },
+        {
+          "p": "Who solves the problem?",
+          "m": "Nói ai giải quyết vấn đề.",
+          "h": "Dùng: The manager / HR + V(s).",
+          "s": "The manager solves the problem."
+        },
+        {
+          "p": "What do you say to fix it?",
+          "m": "Nói một câu ngắn bạn nói để giải quyết.",
+          "h": "Dùng: I + V + O.",
+          "s": "I talk to him."
+        }
+      ]
+    },
+    {
+      "t": "Huấn luyện và phát triển",
+      "e": [
+        {
+          "p": "Do you have training?",
+          "m": "Trả lời có hoặc không về việc có đào tạo.",
+          "h": "Dùng: Yes, I do / No, I don't.",
+          "s": "Yes, I do."
+        },
+        {
+          "p": "Where is the training?",
+          "m": "Nói nơi tổ chức đào tạo.",
+          "h": "Dùng: It is at + place.",
+          "s": "It is at the training room."
+        },
+        {
+          "p": "How long is the training?",
+          "m": "Nói thời lượng buổi đào tạo.",
+          "h": "Dùng: It is + số + hours.",
+          "s": "It is 2 hours."
+        },
+        {
+          "p": "Who gives the training?",
+          "m": "Nói ai là người dạy/huấn luyện.",
+          "h": "Dùng: The trainer / HR + V(s).",
+          "s": "The trainer gives the training."
+        },
+        {
+          "p": "Do you learn new skills?",
+          "m": "Trả lời có hoặc không về việc học kỹ năng mới.",
+          "h": "Dùng: Yes, I do / No, I don't.",
+          "s": "Yes, I do."
+        }
+      ]
+    },
+    {
+      "t": "Ôn tập: Giao tiếp cơ bản về công việc",
+      "e": [
+        {
+          "p": "What is your name and job?",
+          "m": "Nói tên và nghề của bạn trong 1 câu.",
+          "h": "Dùng: I am + [studentName] and I am + [studentJob].",
+          "s": "I am [studentName] and I am [studentJob]."
+        },
+        {
+          "p": "Where do you work?",
+          "m": "Nói nơi bạn làm việc.",
+          "h": "Dùng: I work at + place.",
+          "s": "I work at an office."
+        },
+        {
+          "p": "What time do you start work?",
+          "m": "Nói giờ bạn bắt đầu làm việc.",
+          "h": "Dùng: I start work at + giờ.",
+          "s": "I start work at 9."
+        },
+        {
+          "p": "Do you like your job?",
+          "m": "Trả lời có hoặc không về việc bạn có thích nghề không.",
+          "h": "Dùng: Yes, I do / No, I don't.",
+          "s": "Yes, I do."
+        },
+        {
+          "p": "Who is your boss?",
+          "m": "Nói tên hoặc vị trí của sếp.",
+          "h": "Dùng: My boss is + tên / vị trí.",
+          "s": "My boss is Mr. Lee."
+        }
+      ]
+    },
+    {
+      "t": "Ôn tập: Quy tắc, an toàn và nghỉ phép",
+      "e": [
+        {
+          "p": "Is there a rule about safety?",
+          "m": "Trả lời có hoặc không về quy tắc an toàn.",
+          "h": "Dùng: Yes, there is / No, there isn't.",
+          "s": "Yes, there is."
+        },
+        {
+          "p": "Can we use phones in the meeting?",
+          "m": "Trả lời có hoặc không về dùng điện thoại trong họp.",
+          "h": "Dùng: Yes, you can / No, you can't.",
+          "s": "No, you can't."
+        },
+        {
+          "p": "Who do you call for safety help?",
+          "m": "Nói người bạn gọi khi có vấn đề an toàn.",
+          "h": "Dùng: I call + person.",
+          "s": "I call the manager."
+        },
+        {
+          "p": "Can I take a sick day this week?",
+          "m": "Trả lời có hoặc không về xin nghỉ ốm tuần này.",
+          "h": "Dùng: Yes, you can / No, you can't.",
+          "s": "Yes, you can."
+        },
+        {
+          "p": "What do you do in an emergency?",
+          "m": "Nói một hành động ngắn trong trường hợp khẩn cấp.",
+          "h": "Dùng: We + V + O.",
+          "s": "We leave the area."
+        }
+      ]
+    },
+    {
+      "t": "Ôn tập: Lịch, lương và nhiệm vụ",
+      "e": [
+        {
+          "p": "Do you work on Monday?",
+          "m": "Trả lời có hoặc không về làm việc vào thứ Hai.",
+          "h": "Dùng: Yes, I do / No, I don't.",
+          "s": "Yes, I do."
+        },
+        {
+          "p": "How much is your pay a month?",
+          "m": "Nói số tiền bạn nhận mỗi tháng.",
+          "h": "Dùng: It is + số + a month.",
+          "s": "It is 500 a month."
+        },
+        {
+          "p": "What is your main task today?",
+          "m": "Nói một nhiệm vụ chính hôm nay.",
+          "h": "Dùng: I + V(s) + O.",
+          "s": "I answer calls."
+        },
+        {
+          "p": "Who helps you when you are busy?",
+          "m": "Nói người giúp khi bạn bận.",
+          "h": "Dùng: My colleague / The manager helps me.",
+          "s": "My colleague helps me."
+        },
+        {
+          "p": "When do you get your pay?",
+          "m": "Nói ngày bạn nhận lương trong tháng.",
+          "h": "Dùng: I get pay on + ngày.",
+          "s": "I get pay on the 25th."
+        }
+      ]
+    }
+  ]
+}

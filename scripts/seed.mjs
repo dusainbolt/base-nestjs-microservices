@@ -5,6 +5,7 @@ const seeds = {
   'content:levels': 'apps/content-service/src/prisma/seed-levels.ts',
   'content:categories': 'apps/content-service/src/prisma/seed-categories.ts',
   'content:lesson-packs': 'apps/content-service/src/prisma/seed-lesson-packs.ts',
+  'content:check-packs': 'apps/content-service/src/prisma/check-lesson-packs.ts',
 };
 
 const serviceKey = process.argv[2];

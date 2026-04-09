@@ -1,0 +1,530 @@
+{
+  "l": 2,
+  "d": [
+    {
+      "t": "Giới thiệu về quá trình deploy",
+      "e": [
+        {
+          "p": "What are you doing now?",
+          "m": "Nói bạn đang làm gì bây giờ. Nói bạn thường làm việc đó ở đâu.",
+          "h": "Dùng: I am + V-ing. Dùng: usually + V.",
+          "s": "I am deploying the app now. I usually deploy on the test server."
+        },
+        {
+          "p": "Do you deploy every day?",
+          "m": "Trả lời có hay không. Nói tần suất (always/often/sometimes/never).",
+          "h": "Dùng: I + (always/often/...) + V(s). Hoặc: I am + V-ing now.",
+          "s": "No, I do not deploy every day. I sometimes deploy."
+        },
+        {
+          "p": "How many steps are there in your deploy?",
+          "m": "Nói số bước (dùng số). Nói một bước đơn giản bạn làm.",
+          "h": "Dùng: There are + số + steps. Dùng: I + V (present simple).",
+          "s": "There are three steps. I check the code."
+        },
+        {
+          "p": "Where do you deploy the app?",
+          "m": "Nói nơi bạn deploy (server hoặc môi trường). Nói bạn đang deploy ở đâu bây giờ hoặc không.",
+          "h": "Dùng: I deploy on/in/at + nơi. Dùng: I am + V-ing (nếu đang làm).",
+          "s": "I deploy on the production server. I am not deploying now."
+        },
+        {
+          "p": "Who works with you on the release?",
+          "m": "Nói ai cùng bạn (một người đơn giản). Nói bạn thường làm việc với họ như thế nào (ví dụ: often).",
+          "h": "Dùng: My + role/name + is ... OR: I work with + someone. Dùng: often + V.",
+          "s": "My teammate is Tom. I often work with him during deploy."
+        }
+      ]
+    },
+    {
+      "t": "Thảo luận về pipeline đơn giản",
+      "e": [
+        {
+          "p": "What is a pipeline?",
+          "m": "Giải thích ngắn: pipeline là gì (1 câu đơn). Nói bạn có pipeline hay không (1 câu).",
+          "h": "Dùng: S + be + V-ing hoặc S + V(s).",
+          "s": "A pipeline is a set of tests and steps. I have a small pipeline."
+        },
+        {
+          "p": "Are tests running now?",
+          "m": "Trả lời có hay không. Nói bạn thường chạy test khi nào (often/sometimes).",
+          "h": "Dùng: Yes/No + I am + V-ing. Dùng: often/sometimes + V.",
+          "s": "No, tests are not running now. I often run tests after code push."
+        },
+        {
+          "p": "How many jobs run in your pipeline?",
+          "m": "Nói số job. Nói một job đơn giản tên gì.",
+          "h": "Dùng: There are + số + jobs. Dùng: It is + tên job hoặc I + V.",
+          "s": "There are two jobs. One job is the build job."
+        },
+        {
+          "p": "Do you watch the build now?",
+          "m": "Nói bạn có đang xem build bây giờ không. Nói bạn thường check build như thế nào (once/day hoặc often).",
+          "h": "Dùng: I am + V-ing. Dùng: I + often + V.",
+          "s": "I am not watching the build now. I often check the build on my laptop."
+        },
+        {
+          "p": "Can the pipeline stop on error?",
+          "m": "Trả lời có/không. Nói bạn làm gì khi pipeline dừng (một hành động).",
+          "h": "Dùng: Yes/No + it + can/cannot + V. Dùng: I + V (present simple).",
+          "s": "Yes, it can stop on error. I fix the error."
+        }
+      ]
+    },
+    {
+      "t": "Nói về thời gian release",
+      "e": [
+        {
+          "p": "When do you release the app?",
+          "m": "Nói thời gian thường release (ví dụ: at night/today). Nói bạn có thường release vào lúc đó không (often/sometimes).",
+          "h": "Dùng: I release + lúc OR I am releasing now. Dùng: often/sometimes.",
+          "s": "I release at night. I sometimes release at 10 pm."
+        },
+        {
+          "p": "How long does a release take?",
+          "m": "Nói thời gian ngắn (ví dụ: ten minutes). Nói bạn đang chờ release bây giờ hay không.",
+          "h": "Dùng: It + takes + time. Dùng: I am + V-ing (nếu đang chờ).",
+          "s": "It takes ten minutes. I am not waiting now."
+        },
+        {
+          "p": "Do you like fast releases?",
+          "m": "Nói bạn có thích release nhanh hay không. Nói lý do ngắn (một từ đơn giản như 'safe' hoặc 'good').",
+          "h": "Dùng: I like / I do not like + N. Dùng: because + adj (one word).",
+          "s": "Yes, I like fast releases. They are good."
+        },
+        {
+          "p": "Are you ready to release now?",
+          "m": "Trả lời có/không. Nói bạn đang làm gì để sẵn sàng (một hành động).",
+          "h": "Dùng: I am ready / I am not ready. Dùng: I am + V-ing.",
+          "s": "I am ready to release. I am checking the logs."
+        },
+        {
+          "p": "How many people help on release?",
+          "m": "Nói số người. Nói một công việc họ làm ngắn gọn.",
+          "h": "Dùng: There are + số + people. Dùng: They + V (present simple).",
+          "s": "There are three people. They check the code."
+        }
+      ]
+    },
+    {
+      "t": "Kiểm tra và test trước release",
+      "e": [
+        {
+          "p": "Do you run tests now?",
+          "m": "Trả lời có/không. Nói bạn thường chạy test lúc nào (before release/after push).",
+          "h": "Dùng: I am + V-ing. Dùng: I + often + V.",
+          "s": "No, I am not running tests now. I often run tests before release."
+        },
+        {
+          "p": "What tests do you run?",
+          "m": "Nói một test đơn giản (unit/test). Nói bạn có chạy test tự động hay không (yes/no).",
+          "h": "Dùng: I run + test name. Dùng: Yes/No + I + V.",
+          "s": "I run unit tests. Yes, I run them automatically."
+        },
+        {
+          "p": "How many tests fail now?",
+          "m": "Nói số test fail. Nói bạn làm gì với lỗi đó (one action).",
+          "h": "Dùng: There are + số + failing tests. Dùng: I + V (present simple).",
+          "s": "There are two failing tests. I fix the tests."
+        },
+        {
+          "p": "Are you checking logs at the moment?",
+          "m": "Trả lời có/không. Nói bạn thường kiểm tra logs bao lâu một lần (often/sometimes).",
+          "h": "Dùng: I am + V-ing now. Dùng: often/sometimes + V.",
+          "s": "Yes, I am checking logs now. I sometimes check them every hour."
+        },
+        {
+          "p": "Do tests stop the release on error?",
+          "m": "Trả lời có/không. Nói bạn làm gì tiếp theo nếu test fail (one action).",
+          "h": "Dùng: Yes/No + it + can + V. Dùng: I + V (present simple).",
+          "s": "Yes, tests stop the release. I fix the error after that."
+        }
+      ]
+    },
+    {
+      "t": "Xử lý lỗi nhỏ khi release",
+      "e": [
+        {
+          "p": "There is a small bug, what do you do?",
+          "m": "Nói hành động bạn làm ngay (1 câu). Nói bạn có dừng release không (yes/no).",
+          "h": "Dùng: I + V-ing or I + V. Dùng: Yes/No + I + V.",
+          "s": "I stop the release and check the bug. Yes, I stop the release."
+        },
+        {
+          "p": "Do you fix bugs now?",
+          "m": "Trả lời có/không. Nói bạn thường fix bug nhanh hay chậm (often/sometimes).",
+          "h": "Dùng: I am + V-ing. Dùng: often/sometimes + V.",
+          "s": "No, I am not fixing bugs now. I often fix bugs quickly."
+        },
+        {
+          "p": "How many bugs do you fix each week?",
+          "m": "Nói số bug. Nói bạn cảm thấy thế nào sau khi fix (one simple adjective).",
+          "h": "Dùng: There are + số. Dùng: I feel + adj.",
+          "s": "There are five bugs. I feel happy."
+        },
+        {
+          "p": "Can you test the fix now?",
+          "m": "Trả lời có/không. Nói bạn đang test hay sẽ test sau (now/often).",
+          "h": "Dùng: Yes/No + I am + V-ing or I will + V (avoid future, use present simple: I test later).",
+          "s": "Yes, I can test the fix now. I am testing it now."
+        },
+        {
+          "p": "Who helps you with bugs?",
+          "m": "Nói ai giúp bạn (one person). Nói họ thường giúp kiểu gì (one action).",
+          "h": "Dùng: My + role/name + is ... Dùng: They + V (present simple).",
+          "s": "My colleague is Anna. She often reviews my code."
+        }
+      ]
+    },
+    {
+      "t": "Thông báo release cho nhóm",
+      "e": [
+        {
+          "p": "Are you ready to tell the team?",
+          "m": "Trả lời có/không. Nói bạn thường thông báo bằng cách nào (chat/email).",
+          "h": "Dùng: I am ready / I am not ready. Dùng: I often + V.",
+          "s": "Yes, I am ready to tell the team. I often send a chat message."
+        },
+        {
+          "p": "What do you say to the team?",
+          "m": "Viết 1 câu ngắn thông báo release. Viết 1 câu nói bạn đang deploy bây giờ hay không.",
+          "h": "Dùng: We are + V-ing OR I am + V-ing. Dùng: present simple.",
+          "s": "We are releasing the new version. I am deploying now."
+        },
+        {
+          "p": "Do you update the release notes?",
+          "m": "Trả lời có/không. Nói bạn thường viết notes như thế nào (one short phrase).",
+          "h": "Dùng: Yes/No + I + V. Dùng: I + often + V.",
+          "s": "Yes, I update the release notes. I write a short list."
+        },
+        {
+          "p": "How many people read your message?",
+          "m": "Nói số người. Nói bạn có thường nhận phản hồi không (yes/no).",
+          "h": "Dùng: There are + số. Dùng: Yes/No + I + V.",
+          "s": "There are ten people. Yes, I often get feedback."
+        },
+        {
+          "p": "Where do you post the release info?",
+          "m": "Nói nơi bạn đăng (chat/email/board). Nói bạn đang đăng bây giờ hay không.",
+          "h": "Dùng: I post on + nơi. Dùng: I am + V-ing (nếu đang làm).",
+          "s": "I post on the team chat. I am not posting now."
+        }
+      ]
+    },
+    {
+      "t": "Lên lịch deploy",
+      "e": [
+        {
+          "p": "When do you schedule the deploy?",
+          "m": "Nói thời gian bạn đặt lịch. Nói bạn có thường thay đổi lịch không (yes/no).",
+          "h": "Dùng: I schedule at + time. Dùng: Yes/No + I + V.",
+          "s": "I schedule the deploy at midnight. No, I do not change the schedule often."
+        },
+        {
+          "p": "Do you set a reminder?",
+          "m": "Trả lời có/không. Nói bạn thường nhắc bao lâu trước (one short phrase).",
+          "h": "Dùng: Yes/No + I + V. Dùng: I + often + V.",
+          "s": "Yes, I set a reminder. I often set it one hour before."
+        },
+        {
+          "p": "How many deploys do you plan this week?",
+          "m": "Nói số deploy. Nói bạn đang theo dõi chúng hay không (yes/no).",
+          "h": "Dùng: There are + số. Dùng: Yes/No + I + V.",
+          "s": "There are two deploys. Yes, I am watching them."
+        },
+        {
+          "p": "Are you free to deploy tomorrow?",
+          "m": "Trả lời có/không. Nói bạn thường deploy vào ngày đó hay không (often/sometimes).",
+          "h": "Dùng: I am free / I am not free. Dùng: often/sometimes + V.",
+          "s": "Yes, I am free to deploy tomorrow. I sometimes deploy on that day."
+        },
+        {
+          "p": "Who approves the schedule?",
+          "m": "Nói ai duyệt (one person). Nói họ thường duyệt nhanh hay chậm (one adjective).",
+          "h": "Dùng: My + role/name + is ... Dùng: They + V and adj.",
+          "s": "My manager is John. He is usually quick."
+        }
+      ]
+    },
+    {
+      "t": "Mô tả bước trong pipeline",
+      "e": [
+        {
+          "p": "What is the first step?",
+          "m": "Nói bước đầu tiên ngắn gọn. Nói bạn đang làm bước đó hay không.",
+          "h": "Dùng: The first step is + N/V-ing. Dùng: I am + V-ing or I + do not + V.",
+          "s": "The first step is build. I am building now."
+        },
+        {
+          "p": "What is the second step?",
+          "m": "Nói bước thứ hai. Nói bạn thường kiểm tra bước đó often/sometimes.",
+          "h": "Dùng: The second step is + N. Dùng: I + often + V.",
+          "s": "The second step is test. I often run the tests."
+        },
+        {
+          "p": "Do you have a deploy step?",
+          "m": "Trả lời có/không. Nói deploy step làm gì (one action).",
+          "h": "Dùng: Yes/No + we + have. Dùng: It + V(s).",
+          "s": "Yes, we have a deploy step. It sends the app to the server."
+        },
+        {
+          "p": "How many steps fail often?",
+          "m": "Nói số bước hay fail. Nói bạn làm gì khi fail (one action).",
+          "h": "Dùng: There are + số. Dùng: I + V (present simple).",
+          "s": "There are one or two failing steps. I check the logs."
+        },
+        {
+          "p": "Are steps automatic or manual?",
+          "m": "Nói bước là tự động hay thủ công. Nói bạn có thích cách đó không (like/dislike).",
+          "h": "Dùng: They are + automatic/manual. Dùng: I like / I do not like.",
+          "s": "They are automatic. I like automatic steps."
+        }
+      ]
+    },
+    {
+      "t": "Khi có lỗi sau release",
+      "e": [
+        {
+          "p": "A user reports a bug, what do you do?",
+          "m": "Nói hành động bạn làm ngay (1 câu). Nói bạn có dừng dịch vụ không (yes/no).",
+          "h": "Dùng: I + V (present simple). Dùng: Yes/No + I + V.",
+          "s": "I check the report. No, I do not stop the service now."
+        },
+        {
+          "p": "Do you work on fixes now?",
+          "m": "Trả lời có/không. Nói bạn thường fix bug nhanh hay chậm (often/sometimes).",
+          "h": "Dùng: I am + V-ing. Dùng: often/sometimes + V.",
+          "s": "Yes, I am working on fixes now. I often fix bugs quickly."
+        },
+        {
+          "p": "How many users are affected?",
+          "m": "Nói số người. Nói bạn có thông báo cho họ hay không (yes/no).",
+          "h": "Dùng: There are + số. Dùng: Yes/No + I + V.",
+          "s": "There are five users affected. Yes, I notify them."
+        },
+        {
+          "p": "Can you change the release now?",
+          "m": "Trả lời có/không. Nói bạn làm gì tiếp theo (one short action).",
+          "h": "Dùng: Yes/No + I can + V. Dùng: I + V.",
+          "s": "No, I cannot change the release now. I prepare a fix for later."
+        },
+        {
+          "p": "Who helps you fix production bugs?",
+          "m": "Nói ai giúp (one person). Nói họ thường làm gì (one action).",
+          "h": "Dùng: My + role/name + is ... Dùng: They + V.",
+          "s": "My teammate is Mike. He checks the logs."
+        }
+      ]
+    },
+    {
+      "t": "Rollback và dừng release",
+      "e": [
+        {
+          "p": "Do you ever rollback a release?",
+          "m": "Trả lời có/không. Nói bạn thường rollback khi nào (one short phrase).",
+          "h": "Dùng: Yes/No + I + V. Dùng: when + clause (simple).",
+          "s": "Yes, I rollback a release sometimes. I rollback when tests fail."
+        },
+        {
+          "p": "Are you stopping the release now?",
+          "m": "Trả lời có/không. Nói hành động bạn làm sau khi dừng (one action).",
+          "h": "Dùng: I am + V-ing or I am not + V-ing. Dùng: I + V.",
+          "s": "Yes, I am stopping the release now. I check the error log after stop."
+        },
+        {
+          "p": "How many times did you rollback this month?",
+          "m": "Nói số lần. Nói bạn cảm thấy thế nào sau rollback (one adjective).",
+          "h": "Dùng: There are/There were + số. Dùng: I feel + adj.",
+          "s": "There are two rollbacks this month. I feel calm."
+        },
+        {
+          "p": "Can you redeploy after a rollback?",
+          "m": "Trả lời có/không. Nói bạn thường redeploy khi nào (one short phrase).",
+          "h": "Dùng: Yes/No + I + V. Dùng: after + phrase.",
+          "s": "Yes, I can redeploy after a fix. I redeploy after tests pass."
+        },
+        {
+          "p": "Who approves a rollback?",
+          "m": "Nói ai duyệt (one person). Nói họ thường duyệt nhanh hay chậm (one adjective).",
+          "h": "Dùng: My + role/name + is ... Dùng: He/She is + adj.",
+          "s": "My manager is Sara. She is usually fast."
+        }
+      ]
+    },
+    {
+      "t": "Công cụ CI đơn giản và thói quen",
+      "e": [
+        {
+          "p": "What CI tool do you use?",
+          "m": "Nói tên công cụ (một từ ngắn). Nói bạn đang dùng nó bây giờ hay không.",
+          "h": "Dùng: I use + tool. Dùng: I am + V-ing or I am not + V-ing.",
+          "s": "I use Jenkins. I am not using it now."
+        },
+        {
+          "p": "Do you like this CI tool?",
+          "m": "Trả lời có/không. Nói lý do ngắn (one adjective).",
+          "h": "Dùng: I like / I do not like + N. Dùng: because + adj.",
+          "s": "Yes, I like this tool. It is simple."
+        },
+        {
+          "p": "How often do you check CI status?",
+          "m": "Nói tần suất (always/often/sometimes/never). Nói bạn check bằng cách nào (one word: web/chat).",
+          "h": "Dùng: I + often/sometimes + V. Dùng: by + noun or on + noun.",
+          "s": "I often check CI status. I check it on the web."
+        },
+        {
+          "p": "Are builds automatic here?",
+          "m": "Trả lời có/không. Nói bạn thích build tự động không (yes/no).",
+          "h": "Dùng: They are + automatic/manual. Dùng: I like / I do not like.",
+          "s": "Yes, builds are automatic. Yes, I like automatic builds."
+        },
+        {
+          "p": "Who watches the CI alerts?",
+          "m": "Nói ai (one person). Nói họ thường phản hồi nhanh hay chậm (one adjective).",
+          "h": "Dùng: My + role/name + is ... Dùng: He/She + is + adj.",
+          "s": "My lead is Paul. He is quick."
+        }
+      ]
+    },
+    {
+      "t": "Ghi chú và báo cáo sau deploy",
+      "e": [
+        {
+          "p": "Do you write a report after release?",
+          "m": "Trả lời có/không. Nói bạn thường viết ngắn hay dài (short/long).",
+          "h": "Dùng: Yes/No + I + V. Dùng: It is + short/long.",
+          "s": "Yes, I write a report after release. It is short."
+        },
+        {
+          "p": "What do you put in the release notes?",
+          "m": "Nói một mục ngắn (fix/feature). Nói bạn đang viết notes hay không.",
+          "h": "Dùng: I put + N. Dùng: I am + V-ing or I am not + V-ing.",
+          "s": "I put new features and fixes. I am writing the notes now."
+        },
+        {
+          "p": "How many lines is your report?",
+          "m": "Nói số dòng (số nhỏ). Nói bạn có gửi báo cáo cho ai không (yes/no).",
+          "h": "Dùng: It has + number + lines. Dùng: Yes/No + I + V.",
+          "s": "It has five lines. Yes, I send the report to the team."
+        },
+        {
+          "p": "Do you keep a log after deploy?",
+          "m": "Trả lời có/không. Nói bạn thường giữ log ở đâu (one place).",
+          "h": "Dùng: Yes/No + I + V. Dùng: in/on + place.",
+          "s": "Yes, I keep a log after deploy. I keep it on the project server."
+        },
+        {
+          "p": "Who reads the report?",
+          "m": "Nói ai đọc (one group/person). Nói họ thường phản hồi không (yes/no).",
+          "h": "Dùng: The + group/person + read(s). Dùng: Yes/No + they + V.",
+          "s": "The team reads the report. Yes, they often give feedback."
+        }
+      ]
+    },
+    {
+      "t": "Ôn tập: Giao tiếp cơ bản về deploy",
+      "e": [
+        {
+          "p": "What are you doing now with the app?",
+          "m": "Nói bạn đang làm gì bây giờ (1 câu). Nói bạn thường làm điều đó khi nào (often/sometimes).",
+          "h": "Dùng: I am + V-ing. Dùng: I + often/sometimes + V.",
+          "s": "I am deploying the app now. I sometimes deploy at night."
+        },
+        {
+          "p": "How many steps are in your pipeline?",
+          "m": "Nói số bước. Nói bước quan trọng nhất là gì (one short word).",
+          "h": "Dùng: There are + số. Dùng: The most important step is + N.",
+          "s": "There are three steps. The most important step is test."
+        },
+        {
+          "p": "Do you check logs after release?",
+          "m": "Trả lời có/không. Nói bạn kiểm tra logs như thế nào (one action).",
+          "h": "Dùng: Yes/No + I + V. Dùng: I + V (present simple).",
+          "s": "Yes, I check logs after release. I read the error lines."
+        },
+        {
+          "p": "When do you schedule deploys?",
+          "m": "Nói thời gian bạn đặt lịch. Nói bạn có thường thông báo trước không (yes/no).",
+          "h": "Dùng: I schedule at + time. Dùng: Yes/No + I + V.",
+          "s": "I schedule deploys at midnight. Yes, I always notify the team."
+        },
+        {
+          "p": "Who helps during a release?",
+          "m": "Nói ai giúp (one person). Nói họ làm việc gì (one action).",
+          "h": "Dùng: My + role/name + is ... Dùng: He/She + V(s).",
+          "s": "My colleague is Lin. She checks the tests."
+        }
+      ]
+    },
+    {
+      "t": "Ôn tập: Xử lý sự cố release",
+      "e": [
+        {
+          "p": "A failure happens, what do you do first?",
+          "m": "Nói hành động đầu tiên bạn làm (1 câu). Nói bạn có dừng release không (yes/no).",
+          "h": "Dùng: I + V (present simple). Dùng: Yes/No + I + V.",
+          "s": "I check the error log first. Yes, I stop the release."
+        },
+        {
+          "p": "Do you fix the bug now?",
+          "m": "Trả lời có/không. Nói bạn thường cần bao lâu để fix (short time like 'ten minutes').",
+          "h": "Dùng: I am + V-ing or I do not + V. Dùng: It takes + time.",
+          "s": "No, I am not fixing it now. It takes ten minutes."
+        },
+        {
+          "p": "Can you rollback the change?",
+          "m": "Trả lời có/không. Nói bạn sẽ redeploy khi nào (after tests).",
+          "h": "Dùng: Yes/No + I can + V. Dùng: after + noun/phrase.",
+          "s": "Yes, I can rollback the change. I will redeploy after tests."
+        },
+        {
+          "p": "How many users report the issue?",
+          "m": "Nói số người. Nói bạn có gửi thông báo cho họ không (yes/no).",
+          "h": "Dùng: There are + số. Dùng: Yes/No + I + V.",
+          "s": "There are three users. Yes, I send them a note."
+        },
+        {
+          "p": "Who checks the fix with you?",
+          "m": "Nói ai cùng bạn (one person). Nói họ làm gì (one action).",
+          "h": "Dùng: My + role/name + is ... Dùng: He/She + V(s).",
+          "s": "My teammate is Amy. She runs the tests."
+        }
+      ]
+    },
+    {
+      "t": "Ôn tập: Kế hoạch và lịch release",
+      "e": [
+        {
+          "p": "Do you plan releases this month?",
+          "m": "Trả lời có/không. Nói số release bạn có (one number).",
+          "h": "Dùng: Yes/No + I + V. Dùng: There are + number.",
+          "s": "Yes, I plan releases this month. There are two releases."
+        },
+        {
+          "p": "When is the next release?",
+          "m": "Nói thời gian tiếp theo. Nói bạn có sẵn sàng không (yes/no).",
+          "h": "Dùng: It is + time/date. Dùng: Yes/No + I am + V-ing.",
+          "s": "It is tomorrow at midnight. Yes, I am ready."
+        },
+        {
+          "p": "How often do you release new versions?",
+          "m": "Nói tần suất (often/sometimes). Nói bạn thích tần suất đó không (like/dislike).",
+          "h": "Dùng: I + often/sometimes + V. Dùng: I like / I do not like.",
+          "s": "I release often. I like this frequency."
+        },
+        {
+          "p": "Do you share the schedule with users?",
+          "m": "Trả lời có/không. Nói bạn gửi bằng cách nào (one word: email/chat).",
+          "h": "Dùng: Yes/No + I + V. Dùng: by + noun.",
+          "s": "Yes, I share the schedule with users. I send it by email."
+        },
+        {
+          "p": "Who approves the plan?",
+          "m": "Nói ai duyệt (one person). Nói họ thường trả lời nhanh hay chậm (one adjective).",
+          "h": "Dùng: My + role/name + is ... Dùng: He/She + is + adj.",
+          "s": "My manager is Kevin. He is usually quick."
+        }
+      ]
+    }
+  ]
+}

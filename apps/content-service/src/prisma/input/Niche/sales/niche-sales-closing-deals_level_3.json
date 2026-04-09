@@ -1,0 +1,565 @@
+{
+  "l": 3,
+  "d": [
+    {
+      "t": "Gặp khách tại cửa hàng",
+      "e": [
+        {
+          "p": "Do you need help choosing a product?",
+          "m": "Nói rõ món bạn muốn mua. Nói bạn sẽ mua ngay hay sẽ suy nghĩ.",
+          "h": "Dùng 'I want' / 'I'm looking for' và 'I will' / 'I'm going to'.",
+          "s": "I'm looking for a new phone. I will decide today if the price is good."
+        },
+        {
+          "p": "This model is on sale today. Would you like to try it?",
+          "m": "Nói bạn có muốn thử sản phẩm không. Nói lý do (ví dụ nhu cầu hoặc giá).",
+          "h": "Dùng 'Yes/No, I will' hoặc 'I won't' và một lý do ngắn bằng Present Simple.",
+          "s": "Yes, I will try it because I need a better camera. The price is cheaper than other models."
+        },
+        {
+          "p": "We can deliver it tomorrow. Is that okay?",
+          "m": "Xác nhận thời gian giao hàng. Nói nếu bạn muốn giao sớm hơn hoặc muộn hơn.",
+          "h": "Dùng 'That is fine' hoặc 'I would like' / 'I need' + time.",
+          "s": "Tomorrow is fine for me. But I would like it earlier if possible."
+        },
+        {
+          "p": "How will you pay for it?",
+          "m": "Nói phương thức thanh toán bạn chọn. Nói nếu bạn cần hóa đơn.",
+          "h": "Dùng 'I will pay by' và 'I need' hoặc 'I don't need'.",
+          "s": "I will pay by card. I need a printed receipt, please."
+        },
+        {
+          "p": "Do you have any questions before we finish?",
+          "m": "Hỏi về điều bạn chưa rõ. Nói bạn có chấp nhận điều kiện mua hay không.",
+          "h": "Dùng 'I have' / 'I don't' và 'I accept' hoặc 'I need to know'.",
+          "s": "I have one question about the warranty period. I accept the terms if it has a two-year warranty."
+        }
+      ]
+    },
+    {
+      "t": "Xác nhận đơn hàng qua điện thoại",
+      "e": [
+        {
+          "p": "Hello, I'm calling to confirm your order.",
+          "m": "Xác nhận bạn có đặt hàng không. Nói sản phẩm bạn đã đặt.",
+          "h": "Dùng Past Simple: 'I ordered' và 'Yes, I did' or 'No, I didn't'.",
+          "s": "Yes, I ordered an office chair yesterday. I ordered the black model."
+        },
+        {
+          "p": "We will deliver on Friday. Is that date okay?",
+          "m": "Trả lời bạn có nhận hàng vào ngày đó không. Nếu không, đề xuất ngày khác.",
+          "h": "Dùng 'That's fine' hoặc 'I can't' + 'I would like' + alternative.",
+          "s": "Friday is fine. If not, I would like delivery on Monday instead."
+        },
+        {
+          "p": "The total is $150. Will you pay now or on delivery?",
+          "m": "Nói bạn sẽ thanh toán khi nào. Nói phương thức thanh toán.",
+          "h": "Dùng 'I will pay' hoặc 'I am going to pay' và 'by card/cash'.",
+          "s": "I will pay on delivery by cash. I don't want to pay now."
+        },
+        {
+          "p": "There is a small discount if you buy two. Do you want two chairs?",
+          "m": "Nói bạn có muốn mua hai cái hay chỉ một. Nêu lý do chọn số lượng.",
+          "h": "Dùng 'I want' hoặc 'I don't want' và 'because'.",
+          "s": "I want only one chair because my office has limited space. Two would be too large."
+        },
+        {
+          "p": "Do you need any assembly service after delivery?",
+          "m": "Nói nếu bạn cần dịch vụ lắp ráp. Nếu có, xác nhận bạn sẽ trả phí dịch vụ.",
+          "h": "Dùng 'Yes, I need' hoặc 'No, I don't need' và 'I will pay' nếu có phí.",
+          "s": "Yes, I need assembly service. I will pay the extra fee."
+        }
+      ]
+    },
+    {
+      "t": "Thảo luận giá và giảm giá",
+      "e": [
+        {
+          "p": "The price is $200, but we can offer a 10% discount.",
+          "m": "Nói bạn có chấp nhận mức giá sau giảm không. Nêu ngắn lý do.",
+          "h": "Dùng 'I will' hoặc 'I won't' và 'because'.",
+          "s": "I will accept the price after the discount because it fits my budget. The item is cheaper than I expected."
+        },
+        {
+          "p": "If you buy more, we can lower the price further.",
+          "m": "Nói bạn có mua thêm để được giá tốt hơn không. Nêu số lượng bạn nghĩ đến.",
+          "h": "Dùng 'I will buy' và số lượng (cardinal).",
+          "s": "I will buy three pieces to get a better price. Three is enough for my team."
+        },
+        {
+          "p": "We must confirm the final price now to hold the deal.",
+          "m": "Xác nhận bạn đồng ý giá cuối cùng hay muốn thương lượng thêm. Nêu điều kiện nếu cần thương lượng.",
+          "h": "Dùng 'I agree' hoặc 'I want' + điều kiện bằng 'if'.",
+          "s": "I agree to the final price if you include free delivery. Otherwise I want a lower price."
+        },
+        {
+          "p": "This offer ends today, but we can give it one more hour.",
+          "m": "Nói bạn có cần thêm thời gian để suy nghĩ không. Nếu cần, nói bạn sẽ trả lời lúc mấy giờ.",
+          "h": "Dùng 'I need' + time hoặc 'I will answer at' + time.",
+          "s": "I need one more hour to decide. I will answer at 3 pm."
+        },
+        {
+          "p": "Would you like to pay in full or in two installments?",
+          "m": "Chọn trả toàn bộ hay trả góp. Nếu trả góp, nói khi bạn sẽ trả lần hai.",
+          "h": "Dùng 'I will pay in full' hoặc 'I will pay in two installments' + 'on...'.",
+          "s": "I will pay in two installments. I will pay the second part next month."
+        }
+      ]
+    },
+    {
+      "t": "Đặt lịch giao hàng và lắp đặt",
+      "e": [
+        {
+          "p": "When can we schedule the delivery?",
+          "m": "Nói ngày hoặc buổi bạn muốn nhận hàng. Nói nếu bạn có giờ cụ thể.",
+          "h": "Dùng 'I want' hoặc 'I prefer' và 'in the morning/afternoon'.",
+          "s": "I prefer delivery on Wednesday morning. I need it between 9 and 11."
+        },
+        {
+          "p": "The installer will arrive and set up the product.",
+          "m": "Xác nhận bạn có cần người lắp đặt không. Nói nếu bạn sẽ ở nhà để đón.",
+          "h": "Dùng 'Yes, I need' hoặc 'No, I don't need' và 'I will be at home'.",
+          "s": "Yes, I need the installer to set it up. I will be at home during the afternoon."
+        },
+        {
+          "p": "Please check the delivery address one more time.",
+          "m": "Nói lại địa chỉ giao hàng đầy đủ. Nếu cần sửa, nêu phần bạn muốn thay đổi.",
+          "h": "Dùng 'The address is' và 'Please change' + chi tiết.",
+          "s": "The address is 12 Green Street, Apartment 4. Please change the phone number to 0912345678."
+        },
+        {
+          "p": "We will call you 30 minutes before delivery.",
+          "m": "Nói bạn có cần cuộc gọi trước không. Nói nếu bạn muốn tin nhắn thay vì gọi.",
+          "h": "Dùng 'Yes, call me' hoặc 'Please send' + 'a text message'.",
+          "s": "Yes, call me 30 minutes before delivery. If not, please send a text message."
+        },
+        {
+          "p": "If something is damaged, we will replace it within 7 days.",
+          "m": "Nói bạn sẽ làm gì nếu hàng hỏng. Xác nhận bạn hiểu chính sách này.",
+          "h": "Dùng 'I will' + hành động và 'I understand' hoặc 'I don't understand'.",
+          "s": "I will return the item if it is damaged. I understand the 7-day replacement policy."
+        }
+      ]
+    },
+    {
+      "t": "Giải quyết khiếu nại nhỏ trước khi chốt",
+      "e": [
+        {
+          "p": "I'm sorry the product has a small scratch.",
+          "m": "Nói bạn có muốn đổi hay sửa. Nói nếu bạn sẽ giữ sản phẩm với giảm giá.",
+          "h": "Dùng 'I want to' hoặc 'I will keep it' + 'if'.",
+          "s": "I want to exchange it for a new one. I won't keep it even with a small discount."
+        },
+        {
+          "p": "We can offer a 5% refund or a free accessory.",
+          "m": "Chọn nhận hoàn tiền hay phụ kiện. Nêu lý do chọn của bạn.",
+          "h": "Dùng 'I prefer' hoặc 'I choose' và 'because'.",
+          "s": "I prefer a 5% refund because I need money for shipping. The accessory is less useful for me."
+        },
+        {
+          "p": "If you contact customer service, they will help you quickly.",
+          "m": "Nói bạn sẽ làm gì tiếp theo. Nêu nếu bạn muốn nhân viên làm việc đó thay bạn.",
+          "h": "Dùng 'I will' hoặc 'Please' + 'do it for me'.",
+          "s": "I will contact customer service this afternoon. Please do it for me if it is faster."
+        },
+        {
+          "p": "We must inspect the item first, then we can decide.",
+          "m": "Nói bạn đồng ý kiểm tra hàng hay muốn đổi luôn. Nêu thời gian bạn có thể mang đến.",
+          "h": "Dùng 'I agree' hoặc 'I want to exchange now' và 'on...' cho thời gian.",
+          "s": "I agree to inspect the item first. I can bring it to the store tomorrow morning."
+        },
+        {
+          "p": "Can I get a written confirmation after we agree?",
+          "m": "Yêu cầu xác nhận bằng văn bản. Nói bạn muốn nhận qua email hay in ra.",
+          "h": "Dùng 'Please send' hoặc 'Please print' và 'to my email/for me'.",
+          "s": "Please send a written confirmation to my email. I will not need a printed copy."
+        }
+      ]
+    },
+    {
+      "t": "Xác nhận phương thức thanh toán",
+      "e": [
+        {
+          "p": "Do you prefer to pay by card or cash?",
+          "m": "Chọn phương thức thanh toán. Nếu bằng thẻ, nói 'card' và nếu bằng tiền mặt, nói 'cash'.",
+          "h": "Dùng 'I prefer' hoặc 'I will pay' + 'by card/cash'.",
+          "s": "I will pay by card. I prefer card because it is faster."
+        },
+        {
+          "p": "We accept bank transfer too, but it needs two business days.",
+          "m": "Nói nếu bạn sẽ chuyển khoản hay không. Nếu có, nói bạn sẽ chuyển khi nào.",
+          "h": "Dùng 'I will transfer' và 'today/tomorrow'.",
+          "s": "I will transfer today. The transfer is fine even if it needs two days."
+        },
+        {
+          "p": "If you pay by installment, you must sign this form.",
+          "m": "Nói bạn có muốn trả góp không. Nêu bạn có ký form hay cần xem thêm thông tin.",
+          "h": "Dùng 'I want' hoặc 'I don't want' và 'I will sign' hoặc 'I need'.",
+          "s": "I don't want to pay by installment. I will sign the form only after I see the contract."
+        },
+        {
+          "p": "We can invoice your company if you need that.",
+          "m": "Nói bạn có muốn công ty nhận hóa đơn không. Nếu có, nói tên công ty hoặc yêu cầu thông tin.",
+          "h": "Dùng 'Yes, invoice' hoặc 'No' và 'The company is' hoặc 'Please include'.",
+          "s": "Yes, invoice my company. The company is ABC Co., and please include the tax ID."
+        },
+        {
+          "p": "There is a small fee for card payments under $50.",
+          "m": "Nói bạn có đồng ý trả phí nhỏ đó không. Nếu không, đề xuất cách khác.",
+          "h": "Dùng 'I agree' hoặc 'I don't agree' và 'I will pay' hoặc 'I will pay by'.",
+          "s": "I agree to pay the small fee. If not, I will pay by cash to avoid the fee."
+        }
+      ]
+    },
+    {
+      "t": "Chốt đơn sau cuộc họp kinh doanh",
+      "e": [
+        {
+          "p": "Do you want to confirm the proposal we discussed?",
+          "m": "Nói bạn có muốn chấp nhận đề xuất không. Nêu điểm chính bạn đồng ý.",
+          "h": "Dùng 'I accept' hoặc 'I don't accept' và liệt kê 1-2 điểm.",
+          "s": "I accept the proposal. I agree with the price and the delivery date."
+        },
+        {
+          "p": "We had agreed on a 30-day payment term. Is that okay?",
+          "m": "Xác nhận điều khoản thanh toán 30 ngày. Nếu không, đề xuất thời hạn khác.",
+          "h": "Dùng 'That is fine' hoặc 'I prefer' + time.",
+          "s": "That is fine for me. I prefer 45 days only if we buy more next month."
+        },
+        {
+          "p": "The contract will be ready and we can sign it tomorrow.",
+          "m": "Nói bạn có thể ký hợp đồng vào ngày mai không. Nếu không, đề nghị ngày khác.",
+          "h": "Dùng 'I can' hoặc 'I can't' và 'I will sign on...'.",
+          "s": "I can sign the contract tomorrow afternoon. If not, I will sign on Friday morning."
+        },
+        {
+          "p": "We will provide training for your staff after delivery.",
+          "m": "Nói bạn có cần buổi đào tạo không. Nếu có, nêu số người tham gia.",
+          "h": "Dùng 'Yes, we need' hoặc 'No, we don't need' và 'for' + number of people.",
+          "s": "Yes, we need training for our staff. There will be five people attending."
+        },
+        {
+          "p": "Are there any final changes before we finalize?",
+          "m": "Nói nếu bạn còn muốn thay đổi điều gì. Nếu không, xác nhận bạn sẵn sàng chốt.",
+          "h": "Dùng 'I want to change' hoặc 'No changes' và 'I am ready'.",
+          "s": "No changes from our side. I am ready to finalize the deal."
+        }
+      ]
+    },
+    {
+      "t": "Thương lượng số lượng lớn cho doanh nghiệp",
+      "e": [
+        {
+          "p": "You need 100 units, right?",
+          "m": "Xác nhận số lượng bạn cần. Nói nếu số lượng có thể thay đổi.",
+          "h": "Dùng Past Simple or Present Simple: 'I need' và 'maybe' + change.",
+          "s": "Yes, I need 100 units at the moment. The number may increase next month."
+        },
+        {
+          "p": "For 100 units we can give a 12% discount.",
+          "m": "Nói bạn có chấp nhận mức giảm giá này không. Nêu nếu bạn muốn mức giảm cao hơn.",
+          "h": "Dùng 'I accept' hoặc 'I would like' + 'if'.",
+          "s": "I accept the 12% discount if delivery is free. Otherwise I would like a higher discount."
+        },
+        {
+          "p": "Large orders need a 50% deposit before production.",
+          "m": "Nói bạn có thể trả trước 50% không. Nếu không, đề xuất phương án khác.",
+          "h": "Dùng 'I can' hoặc 'I cannot' và 'I will' + alternative.",
+          "s": "I cannot pay a 50% deposit now. I will pay 30% first and the rest on delivery."
+        },
+        {
+          "p": "We must confirm the specifications before we start.",
+          "m": "Xác nhận bạn đã kiểm tra thông số kỹ thuật. Nếu cần thay đổi, nêu điểm muốn sửa.",
+          "h": "Dùng 'I have checked' hoặc 'I want to change' và điều cụ thể.",
+          "s": "I have checked the specifications and they are fine. I want to change the color of part B."
+        },
+        {
+          "p": "If you sign today, we can start production next week.",
+          "m": "Nói bạn có thể ký hôm nay không. Nếu không, nói khi bạn sẽ ký.",
+          "h": "Dùng 'I will sign' hoặc 'I can't sign' và 'on...'.",
+          "s": "I will sign today to start production next week. If I can't, I will sign on Monday."
+        }
+      ]
+    },
+    {
+      "t": "Giải thích điều khoản và cam kết giao hàng",
+      "e": [
+        {
+          "p": "The delivery time is 10 business days after payment.",
+          "m": "Xác nhận bạn hiểu thời gian giao hàng. Nếu bạn cần nhanh hơn, nói lý do.",
+          "h": "Dùng 'I understand' hoặc 'I need' và 'because'.",
+          "s": "I understand the 10 business days delivery time. I need faster delivery because my store opens soon."
+        },
+        {
+          "p": "We guarantee the product for one year.",
+          "m": "Hỏi rõ về bảo hành bạn cần. Nói bạn có chấp nhận 1 năm hay muốn dài hơn.",
+          "h": "Dùng 'I accept' hoặc 'I want' + duration.",
+          "s": "I accept a one-year guarantee. I would like two years if possible."
+        },
+        {
+          "p": "There is a restocking fee if you cancel after shipment.",
+          "m": "Nói bạn có chấp nhận phí lưu kho hay muốn thỏa thuận khác. Nêu quyết định của bạn.",
+          "h": "Dùng 'I accept' hoặc 'I want to negotiate' và 'because'.",
+          "s": "I want to negotiate the restocking fee because cancellation may happen. I do not accept a high fee."
+        },
+        {
+          "p": "We must sign this agreement to confirm both sides.",
+          "m": "Nói bạn có thể ký thỏa thuận không. Nếu cần đọc thêm, yêu cầu thời gian.",
+          "h": "Dùng 'I can sign' hoặc 'I need more time' và 'for'.",
+          "s": "I can sign the agreement today. If not, I need more time to read it, maybe two days."
+        },
+        {
+          "p": "Do you have any final questions about the terms?",
+          "m": "Đặt câu hỏi cuối nếu bạn còn thắc mắc. Nếu không, xác nhận bạn đồng ý các điều khoản.",
+          "h": "Dùng 'Yes, I have' hoặc 'No, I don't' và 'I agree'.",
+          "s": "No, I don't have any questions. I agree to the terms and conditions."
+        }
+      ]
+    },
+    {
+      "t": "Đề nghị nâng cấp sản phẩm để chốt thêm giá trị",
+      "e": [
+        {
+          "p": "We can add a premium package for $30 more. Interested?",
+          "m": "Nói bạn có hứng thú gói nâng cấp không. Nêu lý do chọn hoặc không chọn.",
+          "h": "Dùng 'I am interested' hoặc 'I am not interested' và 'because'.",
+          "s": "I am interested in the premium package because it has more features. The extra $30 is acceptable."
+        },
+        {
+          "p": "The upgraded version lasts longer and is more durable.",
+          "m": "So sánh phiên bản nâng cấp với bản thường. Nêu bạn có cần tính bền hay không.",
+          "h": "Dùng so sánh 'more... than' và 'I need' hoặc 'I don't need'.",
+          "s": "The upgraded version is more durable than the regular one. I need durability for heavy use."
+        },
+        {
+          "p": "If you add the package now, we will include free installation.",
+          "m": "Nói bạn có muốn thêm gói ngay bây giờ để được lắp đặt miễn phí không. Nếu không, nêu bạn sẽ làm khi nào.",
+          "h": "Dùng 'I will add' hoặc 'I won't' và 'I will do it on...'.",
+          "s": "I will add the package now to get free installation. If not, I will add it next month."
+        },
+        {
+          "p": "Some clients prefer the basic model because it is cheaper.",
+          "m": "Nói bạn chọn model cơ bản hay nâng cấp. Nêu lý do về giá hoặc tính năng.",
+          "h": "Dùng 'I prefer' và 'because' với so sánh ngắn.",
+          "s": "I prefer the upgraded model despite the price because it is the best for long-term use. The basic model is less expensive but less durable."
+        },
+        {
+          "p": "Would you like a demo of the premium features?",
+          "m": "Hỏi bạn có muốn xem demo không. Nếu có, nêu khi nào bạn rảnh để xem.",
+          "h": "Dùng 'Yes, I would' hoặc 'No, I wouldn't' và 'at/in' + time.",
+          "s": "Yes, I would like a demo tomorrow afternoon. I am free after 2 pm."
+        }
+      ]
+    },
+    {
+      "t": "Nhắc khách hàng về đơn chưa thanh toán",
+      "e": [
+        {
+          "p": "We noticed your invoice is still unpaid.",
+          "m": "Xác nhận bạn đã nhận hóa đơn. Nói khi bạn sẽ thanh toán.",
+          "h": "Dùng 'I have received' và 'I will pay' + time.",
+          "s": "I have received the invoice. I will pay it by Friday."
+        },
+        {
+          "p": "There is a late fee after 7 days. Can you pay soon?",
+          "m": "Nói bạn có thể thanh toán trước 7 ngày không. Nếu không, đề xuất thời gian khác.",
+          "h": "Dùng 'I can' hoặc 'I cannot' và 'on...' cho thời gian.",
+          "s": "I cannot pay before 7 days. I can pay next Tuesday instead."
+        },
+        {
+          "p": "We can accept a partial payment now if that helps.",
+          "m": "Nói bạn có thể trả một phần không và nêu số tiền hoặc tỷ lệ. Nói khi bạn sẽ trả phần còn lại.",
+          "h": "Dùng 'I will pay' + amount và 'I will pay the rest' + time.",
+          "s": "I will pay half of the invoice now. I will pay the rest in two weeks."
+        },
+        {
+          "p": "Please confirm the payment method you will use.",
+          "m": "Nói phương thức bạn sẽ dùng để thanh toán. Nếu cần thay đổi thông tin, nêu chi tiết.",
+          "h": "Dùng 'I will pay by' và 'Please change' nếu cần sửa.",
+          "s": "I will pay by bank transfer. Please change the account number to 12345678."
+        },
+        {
+          "p": "If you have any issue, our accounting team can contact you.",
+          "m": "Nói bạn có muốn kế toán gọi để hỗ trợ không. Nếu có, cho biết thời gian tiện gọi.",
+          "h": "Dùng 'Yes, please' hoặc 'No, thank you' và 'at...' cho thời gian.",
+          "s": "Yes, please have the accounting team call me. Call me in the morning after 9 am."
+        }
+      ]
+    },
+    {
+      "t": "Xử lý phản đối cuối cùng trước khi ký",
+      "e": [
+        {
+          "p": "You said the warranty is only one year, is that correct?",
+          "m": "Xác nhận thời gian bảo hành. Nếu bạn muốn dài hơn, nêu yêu cầu.",
+          "h": "Dùng 'Yes, it is' hoặc 'I want' + duration.",
+          "s": "Yes, the warranty is one year. I want two years if possible."
+        },
+        {
+          "p": "The delivery cost is included for orders over $200.",
+          "m": "Hỏi nếu đơn của bạn đủ điều kiện miễn phí giao. Nếu không, hỏi phí sẽ là bao nhiêu.",
+          "h": "Dùng 'Yes, it is' hoặc 'No, it is not' và 'the fee is...'.",
+          "s": "No, my order is under $200 so it is not included. The delivery fee is $15."
+        },
+        {
+          "p": "Some customers worry about after-sales support.",
+          "m": "Nói bạn có lo về dịch vụ sau bán hàng không. Nếu có, hỏi cách họ hỗ trợ.",
+          "h": "Dùng 'I am worried' hoặc 'I am not worried' và 'How do you...?'",
+          "s": "I am worried about after-sales support. How do you handle repairs and spare parts?"
+        },
+        {
+          "p": "We must get a signature to confirm the final order.",
+          "m": "Nói bạn có thể ký ngay không. Nếu cần xem lại hợp đồng, yêu cầu thời gian.",
+          "h": "Dùng 'I can sign' hoặc 'I need more time' và 'for'.",
+          "s": "I can sign now. If not, I need one more day to review the contract."
+        },
+        {
+          "p": "If everything is okay, shall we proceed to sign?",
+          "m": "Xác nhận bạn đồng ý tiến hành ký. Nêu bạn sẽ ký hôm nay hay ngày khác.",
+          "h": "Dùng 'Yes, let's' hoặc 'No, I will' + time.",
+          "s": "Yes, let's proceed to sign today. I will sign after I check the final page."
+        }
+      ]
+    },
+    {
+      "t": "Lên kế hoạch giao hàng nhiều điểm",
+      "e": [
+        {
+          "p": "Do you need delivery to multiple locations?",
+          "m": "Nói có hay không. Nếu có, nêu số điểm giao hàng.",
+          "h": "Dùng 'Yes, I need' hoặc 'No, I don't' và số lượng.",
+          "s": "Yes, I need delivery to three locations. The addresses are in the attached file."
+        },
+        {
+          "p": "Each location may have different delivery windows.",
+          "m": "Nêu thời gian nhận hàng cho mỗi điểm (ngắn). Nếu không chắc, nói bạn sẽ gửi sau.",
+          "h": "Dùng 'Location 1: ...' hoặc 'I will send' + info later.",
+          "s": "Location 1: morning, Location 2: afternoon, Location 3: evening. I will send the exact times later."
+        },
+        {
+          "p": "We charge an extra fee per stop. Is that acceptable?",
+          "m": "Nói bạn có đồng ý trả phí thêm cho mỗi điểm không. Nếu không, đề xuất giải pháp khác.",
+          "h": "Dùng 'I accept' hoặc 'I don't accept' và 'I suggest'.",
+          "s": "I don't accept the extra fee for each stop. I suggest a flat fee for all stops."
+        },
+        {
+          "p": "We will need a contact person at each delivery site.",
+          "m": "Cung cấp tên người liên hệ cho mỗi điểm hoặc nói bạn sẽ gửi danh sách.",
+          "h": "Dùng 'Contact 1 is' hoặc 'I will send' + list.",
+          "s": "Contact 1 is Mr. Nam, Contact 2 is Ms. Linh, Contact 3 is Mr. Quang. I will send full details by email."
+        },
+        {
+          "p": "If a location is closed, we can reschedule within two days.",
+          "m": "Nói bạn có thể nhận trong hai ngày đó không. Nếu không, đề xuất thời gian khác.",
+          "h": "Dùng 'I can' hoặc 'I cannot' và 'I prefer' + time.",
+          "s": "I can receive within two days if needed. If not, I prefer rescheduling for next week."
+        }
+      ]
+    },
+    {
+      "t": "Ôn tập: Quy trình chốt đơn",
+      "e": [
+        {
+          "p": "Can you summarize your final order for me?",
+          "m": "Nêu lại sản phẩm và số lượng bạn đã chốt. Xác nhận tổng giá hoặc điều khoản chính.",
+          "h": "Dùng Present Simple và 'The total is' hoặc 'We agreed on'.",
+          "s": "I ordered two printers and five toner cartridges. The total is $850 and delivery is next Thursday."
+        },
+        {
+          "p": "Do you remember the payment terms we agreed on?",
+          "m": "Nhắc lại điều khoản thanh toán (số ngày hoặc trả trước). Xác nhận bạn sẽ tuân theo.",
+          "h": "Dùng 'We agreed' hoặc 'I will' + thời hạn.",
+          "s": "We agreed on a 30-day payment term. I will pay within 30 days."
+        },
+        {
+          "p": "Who will receive the delivery at your place?",
+          "m": "Cho tên người nhận và mối quan hệ hoặc chức vụ. Nêu nếu bạn sẽ là người nhận.",
+          "h": "Dùng 'The receiver is' hoặc 'I will receive'.",
+          "s": "The receiver is Mr. Tan, he is the warehouse manager. I will not be there to receive it."
+        },
+        {
+          "p": "Please confirm the warranty and support again.",
+          "m": "Xác nhận thời hạn bảo hành. Nói bạn có cần hỗ trợ sau bán hàng không.",
+          "h": "Dùng 'The warranty is' và 'Yes/No, I need support'.",
+          "s": "The warranty is one year. Yes, I need after-sales support for installation."
+        },
+        {
+          "p": "Anything else before we finish this order?",
+          "m": "Nói nếu còn yêu cầu thêm. Nếu không, xác nhận bạn hoàn toàn đồng ý chốt đơn.",
+          "h": "Dùng 'No, nothing' hoặc 'Yes, I need' và 'I agree'.",
+          "s": "No, nothing else is needed. I agree to finalize the order now."
+        }
+      ]
+    },
+    {
+      "t": "Ôn tập: Xử lý phản đối và khiếu nại",
+      "e": [
+        {
+          "p": "The client says the product is different from the sample.",
+          "m": "Nói bạn sẽ làm gì ngay lập tức. Nêu có chấp nhận đổi hay trả hay sửa không.",
+          "h": "Dùng 'I will' và lựa chọn 'exchange/return/repair'.",
+          "s": "I will inspect the product immediately. I will exchange it if it is different from the sample."
+        },
+        {
+          "p": "They are worried about late delivery.",
+          "m": "Trấn an khách và đưa giải pháp cụ thể. Nêu bạn sẽ làm gì để giảm trễ.",
+          "h": "Dùng 'We will' hoặc 'I will' và 'to' + hành động.",
+          "s": "We will speed up the delivery and send a courier. I will update you with tracking information."
+        },
+        {
+          "p": "The price seems higher than a competitor's offer.",
+          "m": "So sánh ngắn và nêu lý do bạn lựa chọn sản phẩm này. Nếu cần, đề nghị điều chỉnh giá.",
+          "h": "Dùng 'It is more expensive than' và 'because' hoặc 'I can offer'.",
+          "s": "It is more expensive than the competitor's offer but the quality is better. I can offer a small discount to match the price."
+        },
+        {
+          "p": "They want proof of product quality before payment.",
+          "m": "Nêu bạn sẽ cung cấp bằng chứng gì (ví dụ: test report, video). Xác nhận khi bạn gửi.",
+          "h": "Dùng 'I will send' và loại tài liệu cùng thời gian.",
+          "s": "I will send a test report and a short video today. You will receive them by email this afternoon."
+        },
+        {
+          "p": "Customer asks if they should sign now or wait.",
+          "m": "Khuyên khách nên ký hay chờ. Nêu lý do ngắn cho lời khuyên của bạn.",
+          "h": "Dùng 'You should' hoặc 'You should wait' và 'because'.",
+          "s": "You should sign now to lock the current price. Prices may increase next week."
+        }
+      ]
+    },
+    {
+      "t": "Ôn tập: Xác nhận và giao hàng",
+      "e": [
+        {
+          "p": "We will ship the order after payment is received.",
+          "m": "Xác nhận bạn sẽ thanh toán khi nào. Nói bạn sẽ gửi biên lai hay không.",
+          "h": "Dùng 'I will pay' và 'I will send' hoặc 'I won't send'.",
+          "s": "I will pay by bank transfer tomorrow. I will send the payment receipt after the transfer."
+        },
+        {
+          "p": "Please prepare the items for pickup on Monday.",
+          "m": "Xác nhận bạn có thể nhận hàng thứ Hai không. Nếu không, nêu ngày khác.",
+          "h": "Dùng 'I can' hoặc 'I can't' và 'I will pick up on...'.",
+          "s": "I can pick up on Monday afternoon. If not, I will pick up on Wednesday."
+        },
+        {
+          "p": "We will send an email with tracking details once shipped.",
+          "m": "Nói bạn có muốn nhận tin qua email hay SMS. Nếu email, xác nhận địa chỉ.",
+          "h": "Dùng 'Please send' và 'to my email' hoặc 'to my phone'.",
+          "s": "Please send the tracking details to my email. My email is [studentName]@example.com."
+        },
+        {
+          "p": "If the package is delayed, we will notify you immediately.",
+          "m": "Nói bạn muốn được thông báo bằng cách nào. Nêu thời gian bạn mong nhận thông báo.",
+          "h": "Dùng 'Notify me' và 'by email/SMS' và 'within...'.",
+          "s": "Notify me by SMS as soon as possible. Please send updates within 24 hours."
+        },
+        {
+          "p": "All documents will be ready at delivery. Do you need copies now?",
+          "m": "Nói bạn có cần bản cứng ngay bây giờ không. Nếu cần, nêu số bản.",
+          "h": "Dùng 'Yes, I need' hoặc 'No, I don't' và số lượng.",
+          "s": "Yes, I need two printed copies of the documents. Please include them at delivery."
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,530 @@
+{
+  "l": 1,
+  "d": [
+    {
+      "t": "Tóm tắt tài chính tháng",
+      "e": [
+        {
+          "p": "What is the total income this month?",
+          "m": "Nói tổng thu trong tháng (một số).",
+          "h": "S + be + number",
+          "s": "The total income is 50 dollars."
+        },
+        {
+          "p": "Do we have a loss this month?",
+          "m": "Trả lời yes hoặc no và nói ngắn nếu có/không.",
+          "h": "Yes/No + S + V (present simple)",
+          "s": "No, we do not have a loss."
+        },
+        {
+          "p": "How many sales do we have?",
+          "m": "Nói số đơn hàng/bán trong tháng (một số).",
+          "h": "S + V + number",
+          "s": "We have 30 sales."
+        },
+        {
+          "p": "Is the report ready?",
+          "m": "Trả lời có/không ngắn và dùng 'ready' nếu có.",
+          "h": "Yes/No, S + be + adjective",
+          "s": "Yes, the report is ready."
+        },
+        {
+          "p": "Can you give a short sentence about this month?",
+          "m": "Nói một câu tóm tắt về tình hình (một ý).",
+          "h": "S + V (present simple) + N/Adj",
+          "s": "Income is more than expenses this month."
+        }
+      ]
+    },
+    {
+      "t": "Nói về doanh thu",
+      "e": [
+        {
+          "p": "How much is the sales revenue?",
+          "m": "Nói số doanh thu (một số).",
+          "h": "S + be + number",
+          "s": "The sales revenue is 70 dollars."
+        },
+        {
+          "p": "Is revenue steady?",
+          "m": "Trả lời có/không và nói một từ mô tả.",
+          "h": "Yes/No, S + be + Adj",
+          "s": "Yes, revenue is steady."
+        },
+        {
+          "p": "Where is most income from?",
+          "m": "Nói nguồn chính (một từ: store/online).",
+          "h": "S + be + N",
+          "s": "Most income is from online."
+        },
+        {
+          "p": "Do we have new customers?",
+          "m": "Trả lời yes/no và nói số nếu có.",
+          "h": "Yes/No, S + have + number",
+          "s": "Yes, we have 10 new customers."
+        },
+        {
+          "p": "Tell me one reason for higher revenue.",
+          "m": "Nói một lý do ngắn (một câu).",
+          "h": "S + V (present simple) + N",
+          "s": "More ads bring more customers."
+        }
+      ]
+    },
+    {
+      "t": "Nói về chi phí",
+      "e": [
+        {
+          "p": "What are the total costs this month?",
+          "m": "Nói tổng chi phí (một số).",
+          "h": "S + be + number",
+          "s": "The total costs are 40 dollars."
+        },
+        {
+          "p": "Are staff costs high?",
+          "m": "Trả lời yes/no và mô tả ngắn nếu có.",
+          "h": "Yes/No, S + be + Adj",
+          "s": "Yes, staff costs are high."
+        },
+        {
+          "p": "How much do we spend on rent?",
+          "m": "Nói số chi phí thuê (một số).",
+          "h": "S + V + number",
+          "s": "We spend 20 dollars on rent."
+        },
+        {
+          "p": "Is utility cost small?",
+          "m": "Trả lời yes/no và dùng 'small' hoặc 'big'.",
+          "h": "Yes/No, S + be + Adj",
+          "s": "Yes, utility cost is small."
+        },
+        {
+          "p": "Give one tip to lower costs.",
+          "m": "Nói một mẹo ngắn (một câu).",
+          "h": "S + V (present simple) + N",
+          "s": "We save money when we buy less paper."
+        }
+      ]
+    },
+    {
+      "t": "Lợi nhuận đơn giản",
+      "e": [
+        {
+          "p": "What is the profit this month?",
+          "m": "Nói lợi nhuận (số đơn giản).",
+          "h": "S + be + number",
+          "s": "The profit is 10 dollars."
+        },
+        {
+          "p": "Is profit good?",
+          "m": "Trả lời yes/no và mô tả ngắn.",
+          "h": "Yes/No, S + be + Adj",
+          "s": "Yes, profit is good."
+        },
+        {
+          "p": "Do we make a small profit every month?",
+          "m": "Trả lời yes/no ngắn và dùng 'every month' nếu có.",
+          "h": "Yes/No, S + V (present simple)",
+          "s": "Yes, we make a small profit every month."
+        },
+        {
+          "p": "How many dollars is the profit per sale?",
+          "m": "Nói số lợi nhuận trên mỗi bán (một số).",
+          "h": "S + be + number",
+          "s": "The profit per sale is 1 dollar."
+        },
+        {
+          "p": "Say one thing to increase profit.",
+          "m": "Nói một biện pháp ngắn (một câu).",
+          "h": "S + V (present simple) + N",
+          "s": "We raise price a little to increase profit."
+        }
+      ]
+    },
+    {
+      "t": "So sánh hai tháng",
+      "e": [
+        {
+          "p": "Is income higher this month or last month?",
+          "m": "Nói 'this month' hoặc 'last month' (một ý).",
+          "h": "This month / Last month + be + higher/lower",
+          "s": "This month is higher."
+        },
+        {
+          "p": "Which month has more sales?",
+          "m": "Nói tên tháng ngắn (this/last) và 'more'.",
+          "h": "This month / Last month + has + more",
+          "s": "Last month has more sales."
+        },
+        {
+          "p": "Do expenses change from last month?",
+          "m": "Trả lời yes/no và nói tăng hoặc giảm (một từ).",
+          "h": "Yes/No, then 'increase' or 'decrease'",
+          "s": "Yes, expenses increase."
+        },
+        {
+          "p": "How many more dollars now than last month?",
+          "m": "Nói số chênh lệch (một số).",
+          "h": "S + be + number",
+          "s": "We have 10 dollars more now."
+        },
+        {
+          "p": "Give one short comparison sentence about sales.",
+          "m": "Nói một câu so sánh ngắn (một ý).",
+          "h": "S + V + more/less + than",
+          "s": "Sales are more than last month."
+        }
+      ]
+    },
+    {
+      "t": "Dự báo cho tháng tới",
+      "e": [
+        {
+          "p": "Do you expect higher income next month?",
+          "m": "Trả lời yes/no và một từ nếu có/không.",
+          "h": "Yes/No, S + V (present simple)",
+          "s": "Yes, I expect higher income."
+        },
+        {
+          "p": "How much income do you expect?",
+          "m": "Nói một số dự báo cho thu (một số).",
+          "h": "S + expect + number",
+          "s": "I expect 60 dollars income."
+        },
+        {
+          "p": "Will expenses change next month?",
+          "m": "Trả lời yes/no và nói 'increase' hoặc 'decrease'.",
+          "h": "Yes/No, then 'increase' or 'decrease'",
+          "s": "No, expenses will not decrease."
+        },
+        {
+          "p": "Can we save money next month?",
+          "m": "Trả lời can/can't và một từ lý do nếu cần.",
+          "h": "S + can/can't + V",
+          "s": "Yes, we can save on water."
+        },
+        {
+          "p": "Give one plan for next month in one sentence.",
+          "m": "Nói một kế hoạch ngắn (một câu).",
+          "h": "S + V (present simple) + N",
+          "s": "We reduce paper use next month."
+        }
+      ]
+    },
+    {
+      "t": "Báo cáo ngắn cho sếp",
+      "e": [
+        {
+          "p": "What is the main number I should know?",
+          "m": "Nói một số chính (một ý).",
+          "h": "S + be + number",
+          "s": "The main number is 50 dollars income."
+        },
+        {
+          "p": "Do we need action now?",
+          "m": "Trả lời yes/no ngắn và nói lý do một từ.",
+          "h": "Yes/No, S + need + N",
+          "s": "Yes, we need cost control."
+        },
+        {
+          "p": "Is the team on budget?",
+          "m": "Trả lời yes/no và một từ mô tả.",
+          "h": "Yes/No, S + be + Adj",
+          "s": "No, the team is over budget."
+        },
+        {
+          "p": "How many days until next report?",
+          "m": "Nói số ngày (một số).",
+          "h": "S + be + number + days",
+          "s": "There are 7 days until next report."
+        },
+        {
+          "p": "Give one sentence with one recommendation.",
+          "m": "Nói một khuyến nghị ngắn (một câu).",
+          "h": "S + V (present simple) + N",
+          "s": "We check expenses weekly."
+        }
+      ]
+    },
+    {
+      "t": "Hỏi về số liệu chi tiết",
+      "e": [
+        {
+          "p": "Can you give the number for online sales?",
+          "m": "Nói số bán online (một số).",
+          "h": "S + V + number",
+          "s": "Online sales are 20."
+        },
+        {
+          "p": "Is the cost per item low?",
+          "m": "Trả lời yes/no và một từ mô tả.",
+          "h": "Yes/No, S + be + Adj",
+          "s": "Yes, the cost per item is low."
+        },
+        {
+          "p": "How many customers return?",
+          "m": "Nói số khách hàng quay lại (một số).",
+          "h": "S + V + number",
+          "s": "Five customers return."
+        },
+        {
+          "p": "Do we pay for delivery?",
+          "m": "Trả lời yes/no và nói số nếu có.",
+          "h": "Yes/No, S + pay + number",
+          "s": "Yes, we pay 5 dollars for delivery."
+        },
+        {
+          "p": "Tell one short fact about customers.",
+          "m": "Nói một sự thật ngắn (một câu).",
+          "h": "S + V (present simple) + N",
+          "s": "Most customers buy online."
+        }
+      ]
+    },
+    {
+      "t": "Vấn đề với chi tiêu",
+      "e": [
+        {
+          "p": "Is there a spending issue this month?",
+          "m": "Trả lời yes/no và một từ lý do.",
+          "h": "Yes/No, S + be + reason",
+          "s": "Yes, there is an issue: high rent."
+        },
+        {
+          "p": "How much extra do we spend?",
+          "m": "Nói số tiền thừa chi (một số).",
+          "h": "S + V + number",
+          "s": "We spend 15 dollars extra."
+        },
+        {
+          "p": "Who approves the extra spend?",
+          "m": "Nói người (một từ: manager).",
+          "h": "S + V + N",
+          "s": "The manager approves the extra spend."
+        },
+        {
+          "p": "Can we stop the extra spend now?",
+          "m": "Trả lời can/can't và một từ hành động.",
+          "h": "S + can/can't + V",
+          "s": "Yes, we can stop new orders."
+        },
+        {
+          "p": "Give one short fix sentence.",
+          "m": "Nói một biện pháp ngắn (một câu).",
+          "h": "S + V (present simple) + N",
+          "s": "We cut snack purchases."
+        }
+      ]
+    },
+    {
+      "t": "Kế hoạch cắt giảm chi phí",
+      "e": [
+        {
+          "p": "Do we need a cost plan?",
+          "m": "Trả lời yes/no ngắn.",
+          "h": "Yes/No + S + V",
+          "s": "Yes, we need a cost plan."
+        },
+        {
+          "p": "What is one item to cut?",
+          "m": "Nói một mục cắt (một từ).",
+          "h": "S + V + N",
+          "s": "We cut paper."
+        },
+        {
+          "p": "How much do we save if we cut it?",
+          "m": "Nói số tiết kiệm (một số).",
+          "h": "S + V + number",
+          "s": "We save 5 dollars."
+        },
+        {
+          "p": "Can the team follow this plan?",
+          "m": "Trả lời can/can't và một từ mô tả.",
+          "h": "S + can/can't + V",
+          "s": "Yes, the team can follow it."
+        },
+        {
+          "p": "Write one short plan sentence.",
+          "m": "Nói một câu kế hoạch ngắn.",
+          "h": "S + V (present simple) + N",
+          "s": "We stop new orders for one week."
+        }
+      ]
+    },
+    {
+      "t": "Báo cáo hàng tuần",
+      "e": [
+        {
+          "p": "How much money do we make each week?",
+          "m": "Nói số tiền hàng tuần (một số).",
+          "h": "S + make + number",
+          "s": "We make 12 dollars each week."
+        },
+        {
+          "p": "Is the weekly cost lower than monthly?",
+          "m": "Trả lời yes/no ngắn.",
+          "h": "Yes/No + S + V",
+          "s": "Yes, weekly cost is lower."
+        },
+        {
+          "p": "How many sales per week?",
+          "m": "Nói số bán mỗi tuần (một số).",
+          "h": "S + have + number",
+          "s": "We have 8 sales per week."
+        },
+        {
+          "p": "Do we report to the team leader weekly?",
+          "m": "Trả lời yes/no và nói ai nếu có.",
+          "h": "Yes/No, S + V + N",
+          "s": "Yes, we report to the leader."
+        },
+        {
+          "p": "Give one weekly action sentence.",
+          "m": "Nói một hành động hàng tuần (một câu).",
+          "h": "S + V (present simple) + N",
+          "s": "We check costs every Monday."
+        }
+      ]
+    },
+    {
+      "t": "Giao tiếp với kế toán",
+      "e": [
+        {
+          "p": "Can you send the invoice number?",
+          "m": "Trả lời và nêu một số hóa đơn (một số).",
+          "h": "S + can + V + number",
+          "s": "Yes, the invoice number is 12."
+        },
+        {
+          "p": "Is the expense recorded?",
+          "m": "Trả lời yes/no và nơi ghi (một từ).",
+          "h": "Yes/No, S + be + in/on + N",
+          "s": "Yes, the expense is in the book."
+        },
+        {
+          "p": "How much is the tax this month?",
+          "m": "Nói số thuế (một số).",
+          "h": "S + be + number",
+          "s": "The tax is 5 dollars."
+        },
+        {
+          "p": "Do you need a receipt?",
+          "m": "Trả lời yes/no và nói ngắn nếu cần.",
+          "h": "Yes/No, S + need + N",
+          "s": "No, I do not need a receipt."
+        },
+        {
+          "p": "Tell one thing you check in accounts.",
+          "m": "Nói một mục kiểm tra ngắn (một câu).",
+          "h": "S + V (present simple) + N",
+          "s": "I check all expense receipts."
+        }
+      ]
+    },
+    {
+      "t": "Ôn tập: Báo cáo tổng hợp 1",
+      "e": [
+        {
+          "p": "What is the income and cost this month?",
+          "m": "Nói thu và chi bằng hai số trong một câu.",
+          "h": "S + be + number + and + number",
+          "s": "Income is 60 dollars and cost is 40 dollars."
+        },
+        {
+          "p": "Is profit positive?",
+          "m": "Trả lời yes/no và nói số lợi nhuận ngắn.",
+          "h": "Yes/No, then 'profit is' + number",
+          "s": "Yes, profit is 20 dollars."
+        },
+        {
+          "p": "Which area has most spending?",
+          "m": "Nói một khu vực (một từ: rent/ads).",
+          "h": "S + be + N",
+          "s": "Most spending is rent."
+        },
+        {
+          "p": "Can we reduce cost this week?",
+          "m": "Trả lời can/can't và một hành động ngắn.",
+          "h": "S + can/can't + V",
+          "s": "Yes, we can reduce paper use."
+        },
+        {
+          "p": "Give one short summary sentence of the report.",
+          "m": "Nói một câu tóm tắt (một ý).",
+          "h": "S + V (present simple) + N",
+          "s": "This month income is higher than cost."
+        }
+      ]
+    },
+    {
+      "t": "Ôn tập: Báo cáo tổng hợp 2",
+      "e": [
+        {
+          "p": "How many sales and how much income?",
+          "m": "Nói số bán và số thu trong một câu (hai số).",
+          "h": "S + have + number and + number",
+          "s": "We have 25 sales and 50 dollars income."
+        },
+        {
+          "p": "Are expenses more than last month?",
+          "m": "Trả lời yes/no và nói 'more' hoặc 'less'.",
+          "h": "Yes/No, S + be + more/less",
+          "s": "No, expenses are less."
+        },
+        {
+          "p": "Do we pay for delivery every week?",
+          "m": "Trả lời yes/no ngắn.",
+          "h": "Yes/No + S + V",
+          "s": "Yes, we pay for delivery every week."
+        },
+        {
+          "p": "Can the team meet the budget?",
+          "m": "Trả lời can/can't và một từ mô tả.",
+          "h": "S + can/can't + V",
+          "s": "Yes, the team can meet it."
+        },
+        {
+          "p": "Write one final recommendation sentence.",
+          "m": "Nói một khuyến nghị ngắn (một câu).",
+          "h": "S + V (present simple) + N",
+          "s": "We watch costs every day."
+        }
+      ]
+    },
+    {
+      "t": "Ôn tập: Báo cáo tổng hợp 3",
+      "e": [
+        {
+          "p": "Give the income, cost, and profit numbers.",
+          "m": "Nói ba số theo thứ tự: thu, chi, lợi nhuận trong một câu.",
+          "h": "Income is X, cost is Y, profit is Z",
+          "s": "Income is 80 dollars, cost is 60 dollars, profit is 20 dollars."
+        },
+        {
+          "p": "Is the business growing?",
+          "m": "Trả lời yes/no và một từ mô tả.",
+          "h": "Yes/No, S + be + Adj",
+          "s": "Yes, the business is growing."
+        },
+        {
+          "p": "How many new customers this month?",
+          "m": "Nói số khách mới (một số).",
+          "h": "S + have + number",
+          "s": "We have 15 new customers."
+        },
+        {
+          "p": "Can we keep the same profit next month?",
+          "m": "Trả lời can/can't và một từ lý do.",
+          "h": "S + can/can't + V",
+          "s": "Yes, we can keep profit with sales."
+        },
+        {
+          "p": "Final short plan: say one sentence.",
+          "m": "Nói một câu kế hoạch ngắn (một ý).",
+          "h": "S + V (present simple) + N",
+          "s": "We increase online ads next month."
+        }
+      ]
+    }
+  ]
+}

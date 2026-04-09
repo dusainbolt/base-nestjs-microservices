@@ -1,0 +1,530 @@
+{
+  "l": 2,
+  "d": [
+    {
+      "t": "Gọi cứu thương",
+      "e": [
+        {
+          "p": "Is he breathing?",
+          "m": "Nói trạng thái thở của bệnh nhân.\nNói hành động cần làm ngay (gọi cấp cứu).",
+          "h": "Use S + be + V-ing; We need to + V",
+          "s": "He is not breathing and he is unconscious. We need to call an ambulance."
+        },
+        {
+          "p": "Where is the patient now?",
+          "m": "Nói vị trí hiện tại của bệnh nhân.\nNói hành động bạn sẽ làm để giúp ngay bây giờ.",
+          "h": "Use He/She is + vị trí; I am + V-ing / We need to + V",
+          "s": "He is on the floor near the door and he is lying still. We need to keep him still and wait for help."
+        },
+        {
+          "p": "Is there severe bleeding?",
+          "m": "Nói có đang chảy máu nhiều hay không.\nNói sơ cứu bạn đang làm hoặc cần làm (nhấn, băng).",
+          "h": "Use S + be + V-ing; We need to + V",
+          "s": "He is bleeding a lot from his head and the blood is heavy. We need to press the wound and call an ambulance."
+        },
+        {
+          "p": "Is anyone with him now?",
+          "m": "Nói có người bên cạnh hay không.\nNói hành động hiện tại của bạn để gọi giúp đỡ.",
+          "h": "Use There is/are; I am + V-ing",
+          "s": "There is a woman next to him and she is talking to him. I am asking her to call for help now."
+        },
+        {
+          "p": "Can you give your name and location?",
+          "m": "Nói tên của bạn và vị trí nơi bạn đang đứng.\nNói bạn đang gọi cấp cứu hay nhờ người khác gọi.",
+          "h": "Use My name is [studentName]; I am at/near + place; I am calling / We need to call",
+          "s": "My name is [studentName] and I am at the corner near the small shop. I am calling an ambulance now."
+        }
+      ]
+    },
+    {
+      "t": "Chảy máu nặng",
+      "e": [
+        {
+          "p": "Where is the cut?",
+          "m": "Nói vị trí vết thương (đầu, tay, chân).\nNói hành động sơ cứu bạn làm ngay (nhấn, băng).",
+          "h": "Use It is on / He has + N; We need to + V",
+          "s": "The cut is on his arm and the blood is coming out fast. We need to press the wound and wrap it with cloth."
+        },
+        {
+          "p": "How much blood is there?",
+          "m": "Mô tả lượng máu (nhiều/ít).\nNói bạn có cần thêm giúp đỡ hay không.",
+          "h": "Use There is + nhiều/ít; We need + help / call",
+          "s": "There is a lot of blood and it is on the floor. We need more help and we should call an ambulance."
+        },
+        {
+          "p": "Is the patient awake?",
+          "m": "Nói bệnh nhân tỉnh hay không.\nNói bạn đang làm gì để an toàn cho bệnh nhân.",
+          "h": "Use He/She is + tính từ; I am + V-ing",
+          "s": "He is not awake and he is very pale. I am keeping pressure on the wound and waiting for help."
+        },
+        {
+          "p": "Can you find a clean cloth?",
+          "m": "Cho biết bạn có tìm được khăn sạch hay không.\nNói bạn dùng khăn đó để làm gì ngay bây giờ.",
+          "h": "Use I have / I don't have; I am + V-ing / We need to + V",
+          "s": "I have a clean cloth and it is wet with water. I am pressing the cloth on the wound to stop the bleeding."
+        },
+        {
+          "p": "Do you need me to stay?",
+          "m": "Nói bạn có cần người đó ở lại với bệnh nhân không.\nNói hành động bạn muốn người đó làm (giữ áp lực, gọi giúp).",
+          "h": "Use Yes, I need / No, I don't need; Please + V / We need to + V",
+          "s": "Yes, I need you to stay and you are holding the cloth on the wound. We need you to call for an ambulance now."
+        }
+      ]
+    },
+    {
+      "t": "Bỏng nhẹ",
+      "e": [
+        {
+          "p": "Is the burn small or big?",
+          "m": "Nói độ lớn vết bỏng (nhỏ/ lớn).\nNói bạn đang làm gì ngay để làm mát vết bỏng.",
+          "h": "Use It is small/big; I am + V-ing (use cold water)",
+          "s": "The burn is small and it is on his hand. I am pouring cold water on the burn now."
+        },
+        {
+          "p": "Is the skin broken?",
+          "m": "Nói da có bị rách/cháy hay không.\nNói bạn có băng vết thương hay không và làm gì tiếp theo.",
+          "h": "Use The skin is/ is not + V-ed; I will not use future, use We need to + V",
+          "s": "The skin is not broken and the area is red. We need to keep it cool and put a clean cloth on it."
+        },
+        {
+          "p": "Is the person in pain?",
+          "m": "Nói họ có bị đau không.\nNói bạn làm gì để giảm đau ngay (làm mát, yên tâm).",
+          "h": "Use He/She is + feeling; I am + V-ing",
+          "s": "She is feeling a lot of pain and she is holding her hand. I am helping her sit and cooling the burn with water."
+        },
+        {
+          "p": "Do you have any cream or cloth?",
+          "m": "Nói bạn có kem/băng không.\nNói nếu có bạn sẽ dùng gì và làm sao.",
+          "h": "Use I have / I don't have; I am + V-ing / We need to + V",
+          "s": "I don't have cream but I have a clean cloth. I am using the cloth with cold water to cover the burn."
+        },
+        {
+          "p": "Should we go to the hospital?",
+          "m": "Nói bệnh nhân có cần đến bệnh viện hay không.\nNói lý do ngắn cho quyết định đó.",
+          "h": "Use We need to + V or We don't need to + V; Give a short reason",
+          "s": "We don't need to go to the hospital for a small burn and the skin is not broken. We need to watch it and go if the pain gets worse."
+        }
+      ]
+    },
+    {
+      "t": "Ngạt thở (choking)",
+      "e": [
+        {
+          "p": "Is the person coughing?",
+          "m": "Nói người đó có đang ho hay không.\nNói liệu họ có nói được hay không và hành động cần làm.",
+          "h": "Use He/She is + V-ing; We need to + V",
+          "s": "She is coughing loudly and she is making noise. We need to encourage her to keep coughing and call for help."
+        },
+        {
+          "p": "Can he breathe at all?",
+          "m": "Nói có thở được hay không.\nNói hành động bạn đang làm để giúp thở (đặt ở tư thế, vỗ lưng).",
+          "h": "Use He is/ is not + V-ing; I am + V-ing / We need to + V",
+          "s": "He is not breathing well and he is clutching his throat. I am giving firm back blows and asking someone to call an ambulance."
+        },
+        {
+          "p": "Is the person conscious?",
+          "m": "Nói người đó tỉnh hay mất ý thức.\nNói bạn sẽ làm gì ngay (gọi cấp cứu hoặc làm hô hấp).",
+          "h": "Use He/She is + tính từ; We need to + V",
+          "s": "She is conscious but she is very weak. We need to call an ambulance and keep her calm while she breathes."
+        },
+        {
+          "p": "Do you see the object in the mouth?",
+          "m": "Nói bạn có thấy vật gây nghẹt không.\nNói bạn có thể lấy ra hay bạn cần gọi giúp.",
+          "h": "Use I see / I don't see; I can / I can't + V; We need to + V",
+          "s": "I see a small piece of food and it is stuck in the throat. I can't remove it easily and we need to call for emergency help."
+        },
+        {
+          "p": "Can you stay with the person?",
+          "m": "Nói bạn có thể ở lại hỗ trợ không.\nNói việc bạn sẽ làm trong lúc chờ giúp (giữ yên, vỗ lưng).",
+          "h": "Use Yes, I can / No, I can't; I will not use future, use I am + V-ing / We need to + V",
+          "s": "Yes, I can stay with him and I am keeping him upright. We need to keep giving back blows and wait for help."
+        }
+      ]
+    },
+    {
+      "t": "Đau ngực và khó thở",
+      "e": [
+        {
+          "p": "Is the chest pain strong?",
+          "m": "Nói mức độ đau (mạnh/nhẹ).\nNói nếu bạn nghĩ đây là trường hợp cần gọi cấp cứu.",
+          "h": "Use He/She is + feeling; We need to + V",
+          "s": "He is feeling strong chest pain and he is breathing fast. We need to call an ambulance now."
+        },
+        {
+          "p": "Can the person talk?",
+          "m": "Nói họ có nói được không.\nNói hành động bạn làm để giúp họ thở (ngồi thẳng, mở cửa sổ).",
+          "h": "Use He/She can/cannot + V; I am + V-ing",
+          "s": "She cannot speak clearly and she is gasping. I am helping her sit up and opening the window for fresh air."
+        },
+        {
+          "p": "Is the face pale or blue?",
+          "m": "Nói mặt có tái hay xanh không.\nNói bạn đang làm gì để làm ấm hoặc an toàn người đó.",
+          "h": "Use He/She is + tính từ; I am + V-ing / We need to + V",
+          "s": "His face is pale and he is sweating a lot. I am loosening his clothes and we need to get emergency help."
+        },
+        {
+          "p": "Does the person have medicine?",
+          "m": "Nói họ có thuốc không (ví dụ nitro).\nNói bạn có cho họ thuốc đó hay không và lý do ngắn.",
+          "h": "Use He/She has / doesn't have; I will not use future, use I can / I can't + V",
+          "s": "He has a small pill and it is in his pocket. I can help him take it if he needs and we need to call emergency services."
+        },
+        {
+          "p": "Should we lie them down or sit them up?",
+          "m": "Chỉ rõ tư thế bạn chọn (nằm/ngồi) và lý do ngắn.\nNói hành động bạn sẽ làm để an toàn cho họ.",
+          "h": "Use We should + V; Give a short reason",
+          "s": "We should sit him up and keep him calm because sitting helps breathing. We need to stay with him and wait for the ambulance."
+        }
+      ]
+    },
+    {
+      "t": "Ngất / Xỉu",
+      "e": [
+        {
+          "p": "Is the person awake now?",
+          "m": "Nói người đó tỉnh hay không.\nNói bạn đang làm gì để an toàn cho họ (gọi giúp, nâng chân).",
+          "h": "Use He/She is / is not + V-ing; I am + V-ing / We need to + V",
+          "s": "He is not awake and he is lying still. I am calling for help and we need to lift his legs slightly."
+        },
+        {
+          "p": "Did they hit their head?",
+          "m": "Nói có va đầu hay không.\nNói bạn kiểm tra điều gì và làm gì nếu có va đầu.",
+          "h": "Use He/She has / has not + V-ed but avoid past; use He is + vị trí; We need to + V",
+          "s": "He is on the floor and his head is near the table. We need to keep his head still and wait for help."
+        },
+        {
+          "p": "Is the person breathing normally?",
+          "m": "Nói nhịp thở có bình thường không.\nNói hành động bạn làm để theo dõi họ.",
+          "h": "Use He/She is + V-ing (breathing); I am + V-ing",
+          "s": "She is breathing slowly and she is weak. I am watching her breathing and calling for an ambulance."
+        },
+        {
+          "p": "Can someone give water?",
+          "m": "Nói có cho nước được không.\nNói nếu có bạn sẽ cho hay không và lý do ngắn (ví dụ nếu họ tỉnh).",
+          "h": "Use I can / I can't + V; Because + short reason",
+          "s": "I can't give water now because he is not fully awake. We need to wait until he is conscious and breathing well."
+        },
+        {
+          "p": "Is the person sweating a lot?",
+          "m": "Nói họ có vã mồ hôi nhiều không.\nNói bạn điều chỉnh môi trường (mở cửa sổ, cởi áo) để giúp họ.",
+          "h": "Use He/She is + V-ing; I am + V-ing",
+          "s": "He is sweating a lot and he is pale. I am loosening his clothes and opening a window to help him cool down."
+        }
+      ]
+    },
+    {
+      "t": "Nghi gãy xương",
+      "e": [
+        {
+          "p": "Is the limb bent badly?",
+          "m": "Nói tay/chân có bị gập lệch không.\nNói hành động bạn làm để cố định hoặc giữ yên.",
+          "h": "Use It is + tính từ; I am + V-ing / We need to + V",
+          "s": "The leg is bent badly and it is swollen. I am keeping it still and we need to call for help."
+        },
+        {
+          "p": "Can the person move the limb?",
+          "m": "Nói họ có thể cử động phần bị đau không.\nNói bạn có cho họ cố gắng di chuyển hay không và lý do ngắn.",
+          "h": "Use He can / cannot + V; We should / should not + V",
+          "s": "He cannot move the arm and it is very painful. We should not move it and we need to wait for the ambulance."
+        },
+        {
+          "p": "Is there any open wound near the bone?",
+          "m": "Nói có vết thương hở không.\nNói bạn làm gì để che hoặc bảo vệ vết thương.",
+          "h": "Use There is / is not; I am + V-ing",
+          "s": "There is a small open wound and it is bleeding a little. I am covering it with a clean cloth and keeping the limb still."
+        },
+        {
+          "p": "Do you have something to make a splint?",
+          "m": "Nói bạn có đồ để nẹp không (gậy, ván).\nNói bạn dùng nó như thế nào để giữ yên phần gãy.",
+          "h": "Use I have / I don't have; I am + V-ing",
+          "s": "I have a wooden board and some cloth. I am tying the board beside the leg to make a simple splint."
+        },
+        {
+          "p": "Should we move the person to the car?",
+          "m": "Nói có nên di chuyển bệnh nhân ngay không.\nNói lý do ngắn cho quyết định (an toàn/không an toàn).",
+          "h": "Use We should / should not + V; Give a short reason",
+          "s": "We should not move him into the car because the limb may be worse. We need to wait for trained help."
+        }
+      ]
+    },
+    {
+      "t": "Phản ứng dị ứng nặng",
+      "e": [
+        {
+          "p": "Is the face or lips swollen?",
+          "m": "Nói môi/mặt có sưng không.\nNói hành động bạn làm ngay (theo dõi, gọi giúp).",
+          "h": "Use He/She is + V-ing; We need to + V",
+          "s": "Her lips are swollen and she is breathing quickly. We need to call an ambulance now."
+        },
+        {
+          "p": "Did the person eat something new?",
+          "m": "Nói người đó có ăn thứ lạ gần đây không.\nNói bạn có tìm thấy gói đồ ăn hay thuốc không để báo cho cấp cứu.",
+          "h": "Use He/She ate / avoid past; use I see / I don't see; We need to + V",
+          "s": "I see a snack wrapper near him and it is on the floor. We need to tell the ambulance what he ate and get help quickly."
+        },
+        {
+          "p": "Is there a rash on the skin?",
+          "m": "Nói có phát ban đỏ trên da không.\nNói bạn làm gì để giúp giảm ngứa hoặc theo dõi thêm.",
+          "h": "Use There is / is not; I am + V-ing",
+          "s": "There is a red rash on his arms and it is spreading. I am checking his breathing and calling for emergency help."
+        },
+        {
+          "p": "Does the person have an allergy pen (epi-pen)?",
+          "m": "Nói họ có bút tiêm dị ứng không.\nNói bạn có thể dùng nó hay bạn sẽ chờ nhân viên y tế.",
+          "h": "Use He/She has / doesn't have; I can / I can't + V; We need to + V",
+          "s": "He has an epi-pen in his bag and it is ready. I can help him use it and we need to call an ambulance after that."
+        },
+        {
+          "p": "Can you breathe better sitting or lying?",
+          "m": "Nói tư thế giúp thở tốt hơn (ngồi/nằm).\nNói bạn đặt họ ở tư thế nào và tại sao ngắn gọn.",
+          "h": "Use Sitting / lying + helps; I am + V-ing; Give a short reason",
+          "s": "Sitting up helps her breathe and she is more comfortable. I am helping her sit and we need to get emergency help."
+        }
+      ]
+    },
+    {
+      "t": "Người bị co giật",
+      "e": [
+        {
+          "p": "Is the person shaking a lot?",
+          "m": "Nói họ có co giật mạnh không.\nNói bạn làm gì để bảo vệ họ (đặt mềm, không giữ chặt đầu).",
+          "h": "Use He/She is + V-ing; I am + V-ing / We should + V",
+          "s": "He is shaking a lot and he is on the floor. I am moving hard objects away and we should put a soft cloth under his head."
+        },
+        {
+          "p": "Is the seizure stopping now?",
+          "m": "Nói co giật có giảm không.\nNói hành động tiếp theo của bạn (theo dõi, gọi cấp cứu nếu kéo dài).",
+          "h": "Use It is + stopping / continuing; We need to + V",
+          "s": "The seizure is stopping and he is breathing more normally. We need to stay with him and call an ambulance if he is still confused."
+        },
+        {
+          "p": "Is the person fully awake after the fit?",
+          "m": "Nói họ có tỉnh hoàn toàn không.\nNói bạn nói gì để an ủi và theo dõi họ.",
+          "h": "Use He/She is / is not + awake; I am + V-ing",
+          "s": "He is not fully awake and he is very sleepy. I am speaking softly to him and watching his breathing closely."
+        },
+        {
+          "p": "Did the person hurt themselves during the seizure?",
+          "m": "Nói có vết thương do co giật hay không.\nNói bạn xử lý vết thương thế nào (băng, giữ sạch).",
+          "h": "Use There is / is not; I am + V-ing",
+          "s": "There is a small cut on his lip and it is bleeding a little. I am cleaning it gently and putting a clean cloth on it."
+        },
+        {
+          "p": "Should we call an ambulance now?",
+          "m": "Nói có nên gọi cấp cứu ngay không.\nNói lý do ngắn cho quyết định (ví dụ: kéo dài, không tỉnh).",
+          "h": "Use We need to + V or We don't need to + V; Give a short reason",
+          "s": "We need to call an ambulance because the seizure lasted a long time. We need trained help to check him."
+        }
+      ]
+    },
+    {
+      "t": "Ngộ độc / Ăn phải thứ lạ",
+      "e": [
+        {
+          "p": "What did the person eat?",
+          "m": "Nói món/đồ họ ăn (tên đơn giản).\nNói liệu họ có nôn hay đau bụng ngay không.",
+          "h": "Use He ate / I see + N; He is + V-ing",
+          "s": "He ate some mushrooms and they are from the garden. He is vomiting and he is having stomach pain."
+        },
+        {
+          "p": "Is the person vomiting now?",
+          "m": "Nói họ có nôn hay không.\nNói hành động bạn đang làm để hỗ trợ (uống nước, gọi giúp).",
+          "h": "Use He/She is + V-ing; I am + V-ing / We need to + V",
+          "s": "She is vomiting now and she is weak. I am giving small sips of water and we need to call for medical help."
+        },
+        {
+          "p": "Did they eat a lot or a little?",
+          "m": "Nói họ ăn nhiều hay ít.\nNói điều bạn báo với nhân viên y tế (lượng ăn và tên thực phẩm).",
+          "h": "Use He ate a lot/a little; I will not use future, use I am telling / We need to + V",
+          "s": "He ate a little of the food and it is that mushroom dish. I am telling the ambulance what he ate and how much."
+        },
+        {
+          "p": "Is the person breathing normally?",
+          "m": "Nói nhịp thở có bình thường không.\nNói bạn có cần gọi cấp cứu hay không và lý do ngắn.",
+          "h": "Use He/She is + V-ing; We need to + V",
+          "s": "He is breathing slowly and he is drowsy. We need to call an ambulance because the breathing is weak."
+        },
+        {
+          "p": "Can you check the food package?",
+          "m": "Nói bạn có tìm thấy bao bì thực phẩm hay không.\nNói bạn sẽ làm gì với thông tin đó (báo cho cấp cứu).",
+          "h": "Use I have / I don't have; I am + V-ing / We need to + V",
+          "s": "I have the food package and it is empty. I am keeping it to show the ambulance and we need to tell them the name."
+        }
+      ]
+    },
+    {
+      "t": "Tai nạn giao thông",
+      "e": [
+        {
+          "p": "Is anyone trapped in the car?",
+          "m": "Nói có ai bị mắc kẹt trong xe không.\nNói bạn đang làm gì để an toàn (tắt máy, gọi cứu hộ).",
+          "h": "Use There is / is not; I am + V-ing; We need to + V",
+          "s": "There is a person trapped and he is stuck by the door. I am turning off the car engine and we need to call emergency services."
+        },
+        {
+          "p": "Is the road safe for helpers?",
+          "m": "Nói đường có an toàn cho người giúp không.\nNói bạn làm gì để bảo vệ hiện trường (đèn cảnh báo, đặt vật đỏ).",
+          "h": "Use It is / is not safe; I am + V-ing / We need to + V",
+          "s": "The road is not safe and cars are passing fast. I am putting a bright cloth on the road and we need to stop traffic."
+        },
+        {
+          "p": "Are there many injured people?",
+          "m": "Nói có nhiều người bị thương không.\nNói bạn ưu tiên giúp ai (người không thở, chảy máu nặng).",
+          "h": "Use There are + number or many/few; We should + V",
+          "s": "There are two injured people and one is not breathing. We should help the person who is not breathing first and call an ambulance."
+        },
+        {
+          "p": "Is the driver awake?",
+          "m": "Nói tài xế có tỉnh không.\nNói bạn đang làm gì để kiểm tra và an toàn họ.",
+          "h": "Use He/She is / is not + awake; I am + V-ing",
+          "s": "The driver is awake but very confused and he is talking slowly. I am keeping him still and asking simple questions."
+        },
+        {
+          "p": "Can you move anyone now?",
+          "m": "Nói có thể di chuyển ai đó không.\nNói quyết định của bạn và lý do ngắn (an toàn/không an toàn).",
+          "h": "Use We can / cannot + V; Give a short reason",
+          "s": "We cannot move the injured person because he may have a spinal injury. We need to wait for trained rescuers."
+        }
+      ]
+    },
+    {
+      "t": "Trợ giúp trẻ em",
+      "e": [
+        {
+          "p": "Is the child awake and crying?",
+          "m": "Nói trẻ có tỉnh và khóc không.\nNói bạn làm gì để an ủi và kiểm tra trẻ.",
+          "h": "Use He/She is + V-ing; I am + V-ing",
+          "s": "The child is awake and crying loudly. I am holding him gently and checking for any injuries."
+        },
+        {
+          "p": "Did the child fall from a height?",
+          "m": "Nói trẻ có té từ chỗ cao không.\nNói bạn kiểm tra chấn thương chính và hành động tiếp theo.",
+          "h": "Use He/She is + vị trí; I am + V-ing; We need to + V",
+          "s": "She is on the ground and she is holding her arm. I am checking for breaks and we need to call an ambulance if it is very painful."
+        },
+        {
+          "p": "Is the child breathing well after choking?",
+          "m": "Nói nhịp thở của trẻ sau khi nghẹt có bình thường không.\nNói bạn làm gì để an toàn (vỗ lưng nhẹ, gọi giúp).",
+          "h": "Use He/She is + V-ing; I am + V-ing / We need to + V",
+          "s": "He is breathing better and he is coughing softly. I am staying with him and we need to watch him closely."
+        },
+        {
+          "p": "Does the child have a fever?",
+          "m": "Nói trẻ có sốt không.\nNói bạn làm gì để hạ sốt tạm thời (làm mát, cho uống nước).",
+          "h": "Use He/She has + N; I am + V-ing; We need to + V",
+          "s": "She has a high fever and she is hot to touch. I am giving cool water and we need to see a doctor if it stays high."
+        },
+        {
+          "p": "Can you tell me the child's age?",
+          "m": "Nói tuổi trẻ ngắn gọn.\nNói nếu có thông tin khác bạn báo cho nhân viên y tế (bệnh, thuốc).",
+          "h": "Use He/She is + age; I am telling / We need to + V",
+          "s": "He is two years old and he is small. I am telling the ambulance that he has no known allergies."
+        }
+      ]
+    },
+    {
+      "t": "Ôn tập: Tình huống hỗ trợ nhanh 1",
+      "e": [
+        {
+          "p": "Is the patient breathing and conscious?",
+          "m": "Nói tình trạng thở và tỉnh táo của bệnh nhân.\nNói bước đầu bạn làm ngay (gọi cấp cứu hoặc giữ yên).",
+          "h": "Use He/She is + V-ing; We need to + V",
+          "s": "He is breathing but he is not fully conscious. We need to call an ambulance and keep him still."
+        },
+        {
+          "p": "Is there heavy bleeding from the wound?",
+          "m": "Nói có chảy máu nhiều không.\nNói sơ cứu bạn làm (nhấn, băng) và báo cấp cứu.",
+          "h": "Use He/She is + V-ing; I am + V-ing / We need to + V",
+          "s": "There is heavy bleeding and it is coming from the leg. I am pressing the wound firmly and we need to call an ambulance."
+        },
+        {
+          "p": "Can the person speak after the fall?",
+          "m": "Nói họ có nói được sau khi ngã không.\nNói bạn làm gì để kiểm tra dấu hiệu nghiêm trọng (theo dõi, gọi giúp).",
+          "h": "Use He/She can/cannot + V; I am + V-ing",
+          "s": "He cannot speak clearly and he is confused. I am watching him closely and calling for emergency help."
+        },
+        {
+          "p": "Is the child still vomiting after eating?",
+          "m": "Nói trẻ có còn nôn sau khi ăn không.\nNói bạn xử lý thế nào và có cần đi viện hay không.",
+          "h": "Use He/She is + V-ing; We need to + V or We don't need to + V",
+          "s": "The child is still vomiting and he is weak. We need to call medical help and tell them what he ate."
+        },
+        {
+          "p": "Do you see any breathing problem signs?",
+          "m": "Nói bạn có thấy dấu hiệu khó thở không (thở nhanh, tím).\nNói hành động bạn làm ngay để giúp thở.",
+          "h": "Use I see / I don't see; I am + V-ing; We need to + V",
+          "s": "I see fast breathing and he is making wheeze sounds. I am helping him sit up and we need to call an ambulance."
+        }
+      ]
+    },
+    {
+      "t": "Ôn tập: Tình huống hỗ trợ nhanh 2",
+      "e": [
+        {
+          "p": "Is the person choking and cannot speak?",
+          "m": "Nói họ có nghẹt và không nói được không.\nNói việc bạn làm ngay (vỗ lưng, gọi giúp).",
+          "h": "Use He/She is + V-ing; I am + V-ing / We need to + V",
+          "s": "He is choking and he is not talking. I am giving back blows and we need to call for emergency help."
+        },
+        {
+          "p": "Is the burn large and the skin broken?",
+          "m": "Nói vết bỏng có lớn và da có hở không.\nNói bạn sơ cứu ban đầu (làm mát, che phủ) và có cần cấp cứu không.",
+          "h": "Use It is + tính từ; I am + V-ing; We need to + V",
+          "s": "The burn is large and the skin is broken. I am cooling it with water and we need to get medical help."
+        },
+        {
+          "p": "Is the injured person trapped after a crash?",
+          "m": "Nói họ có bị mắc kẹt sau tai nạn không.\nNói bạn làm gì để an toàn và gọi cứu hộ.",
+          "h": "Use He/She is + V-ing; I am + V-ing; We need to + V",
+          "s": "She is trapped inside the car and she is calling for help. I am turning off the engine and we need to call rescue services."
+        },
+        {
+          "p": "Does the person have a known allergy?",
+          "m": "Nói họ có dị ứng đã biết không.\nNói bạn có sẵn epi-pen hay cần gọi cấp cứu.",
+          "h": "Use He/She has / doesn't have; I can / I can't + V; We need to + V",
+          "s": "He has a known allergy and he is carrying an epi-pen. I can use it for him and we need to call an ambulance afterwards."
+        },
+        {
+          "p": "Is the child responsive after fainting?",
+          "m": "Nói trẻ có phản ứng sau ngất không.\nNói bạn sẽ làm gì để giữ an toàn và theo dõi.",
+          "h": "Use He/She is / is not + V-ing; I am + V-ing",
+          "s": "The child is starting to wake and he is weak. I am keeping him lying down with legs up and watching his breathing."
+        }
+      ]
+    },
+    {
+      "t": "Ôn tập: Tình huống hỗ trợ nhanh 3",
+      "e": [
+        {
+          "p": "Is the bleeding from the head serious?",
+          "m": "Nói vết thương đầu có nghiêm trọng không (nhiều máu, mất ý thức).\nNói bạn làm gì để bảo vệ bệnh nhân trước khi cứu thương tới.",
+          "h": "Use He/She is + V-ing; I am + V-ing; We need to + V",
+          "s": "The head bleeding is heavy and he is not fully conscious. I am pressing the wound and we need to call an ambulance."
+        },
+        {
+          "p": "Is the person having chest pain now?",
+          "m": "Nói họ có đau ngực ngay lúc này không.\nNói hành động bạn làm để giúp họ và có gọi cấp cứu không.",
+          "h": "Use He/She is + V-ing; I am + V-ing; We need to + V",
+          "s": "He is having chest pain and he is breathing fast. I am helping him sit up and we need to call an ambulance."
+        },
+        {
+          "p": "Is someone unconscious after a fall?",
+          "m": "Nói có ai mất ý thức sau khi ngã không.\nNói bạn làm gì để bảo vệ cổ và đầu khi chờ cứu hộ.",
+          "h": "Use He/She is + V-ing; I am + V-ing; We should / should not + V",
+          "s": "She is unconscious and she is not moving. I am keeping her head still and we should not move her body."
+        },
+        {
+          "p": "Is there a sign of severe allergic reaction?",
+          "m": "Nói có dấu hiệu dị ứng nặng không (sưng, khó thở).\nNói bạn xử lý ban đầu và có cần dùng epi-pen hay không.",
+          "h": "Use There is / is not; I can / I can't + V; We need to + V",
+          "s": "There is severe swelling and she is having trouble breathing. I can use the epi-pen and we need to call an ambulance."
+        },
+        {
+          "p": "Can you give a short description of the scene?",
+          "m": "Mô tả ngắn hiện trường (vị trí, số nạn nhân).\nNói hành động chính bạn đã làm (gọi giúp, sơ cứu).",
+          "h": "Use There is/are; I am + V-ing; We need to + V",
+          "s": "There are two victims on the road and the car is damaged. I am giving first aid and we need to call emergency services now."
+        }
+      ]
+    }
+  ]
+}

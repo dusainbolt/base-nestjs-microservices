@@ -1,0 +1,565 @@
+{
+  "l": 3,
+  "d": [
+    {
+      "t": "Nhận thuốc mới",
+      "e": [
+        {
+          "p": "How should I take this pill?",
+          "m": "Nói rõ số lần uống mỗi ngày. Nói nếu phải uống sau ăn hoặc trước ăn.",
+          "h": "Use will/going to or Present Simple for routine (e.g., take twice a day, after meals).",
+          "s": "Take one pill twice a day. Take it after meals."
+        },
+        {
+          "p": "When will I finish the medicine?",
+          "m": "Nói tổng số ngày phải uống thuốc. Nói nếu cần uống thêm khi triệu chứng còn.",
+          "h": "Use will + verb or Present Simple for schedule.",
+          "s": "You will take it for seven days. Continue only if symptoms stay."
+        },
+        {
+          "p": "Can I drink alcohol with this medicine?",
+          "m": "Nói rõ có được uống rượu hay không. Giải thích ngắn vì sao nếu cấm.",
+          "h": "Use should/shouldn't + verb and because.",
+          "s": "You should not drink alcohol. It can make the medicine less effective."
+        },
+        {
+          "p": "I forgot a dose yesterday, what should I do?",
+          "m": "Nói nếu phải uống liều đã quên ngay. Nói nếu không nên uống gấp đôi lần sau.",
+          "h": "Use Past Simple + should have / should + V.",
+          "s": "You missed one dose yesterday and you should take it now. Do not take two doses at the same time."
+        },
+        {
+          "p": "Is there anything I must avoid while taking it?",
+          "m": "Liệt kê 2 điều cần tránh (thức ăn, hoạt động). Nói hậu quả ngắn nếu không tránh.",
+          "h": "Use must not / must + verb and will + verb for consequence.",
+          "s": "You must not eat grapefruit and you must avoid heavy exercise. If you do, you will feel worse or the medicine may not work."
+        }
+      ]
+    },
+    {
+      "t": "Chế độ ăn sau điều trị",
+      "e": [
+        {
+          "p": "Can I eat spicy food now?",
+          "m": "Nói có nên ăn cay hay không. Nếu không, gợi ý thay thế nhẹ nhàng.",
+          "h": "Use should/shouldn't + V and simple suggestion.",
+          "s": "You should not eat spicy food. Try mild soups and rice instead."
+        },
+        {
+          "p": "How much water should I drink?",
+          "m": "Nói số lượng nước mỗi ngày. Nói lý do ngắn gọn.",
+          "h": "Use should + number (e.g., about eight glasses) and because.",
+          "s": "You should drink about eight glasses a day. Water helps you recover faster."
+        },
+        {
+          "p": "Can I eat dairy after my treatment?",
+          "m": "Nói có thể ăn sữa hoặc không. Nói nếu cần tránh trong vài ngày.",
+          "h": "Use can/can't or should/shouldn't and time expressions (for a few days).",
+          "s": "You can eat dairy, but you should avoid it for two days if you feel nausea."
+        },
+        {
+          "p": "What should I eat to heal faster?",
+          "m": "Đưa ra hai loại thực phẩm tốt. Nói vì sao mỗi loại tốt ngắn gọn.",
+          "h": "Use Present Simple and because for short reasons.",
+          "s": "Eat fruits and lean protein. Fruits give vitamins and protein helps tissue heal."
+        },
+        {
+          "p": "I am allergic to eggs. Is that a problem with diet after surgery?",
+          "m": "Xác nhận có vấn đề hay không. Nếu có, gợi ý thay thế cho món chứa trứng.",
+          "h": "Use must/should + verb and offer alternative with or.",
+          "s": "It is a problem if a meal has eggs, so you must avoid it. Choose yogurt or beans instead."
+        }
+      ]
+    },
+    {
+      "t": "Chăm sóc vết thương nhỏ",
+      "e": [
+        {
+          "p": "How do I clean the wound?",
+          "m": "Nói bước đơn giản để rửa vết thương (1 câu). Nói tần suất làm sạch (1 câu).",
+          "h": "Use Imperatives or Present Simple for instructions and frequency words.",
+          "s": "Clean the wound with mild soap and water. Do this twice a day."
+        },
+        {
+          "p": "Can I shower with the bandage on?",
+          "m": "Nói có nên giữ băng khi tắm hay không. Nói nếu cần che chắn thì làm sao.",
+          "h": "Use should + V and if-clause for condition.",
+          "s": "You should keep the bandage dry. If you shower, cover it with plastic."
+        },
+        {
+          "p": "My wound is red and warm, what should I do?",
+          "m": "Nói nếu đó là dấu hiệu nhiễm trùng. Nói hành động cần làm ngay (gọi bác sĩ hoặc đến viện).",
+          "h": "Use may/might and must + verb for urgent action.",
+          "s": "A red and warm wound may be infected. You must call the clinic today."
+        },
+        {
+          "p": "When will the stitches be removed?",
+          "m": "Nói thời gian dự kiến tháo chỉ (số ngày). Nói nếu cần hẹn tái khám để kiểm tra.",
+          "h": "Use will + verb or Present Simple for schedule and have to + V.",
+          "s": "The stitches will be removed in seven days. You have to come for a check-up then."
+        },
+        {
+          "p": "Is it okay to exercise after a small cut?",
+          "m": "Nói có thể tập hay không. Nếu chưa, đề nghị thời gian nghỉ ngắn và lý do.",
+          "h": "Use should/shouldn't and for + duration.",
+          "s": "You should not exercise now. Rest for three days to avoid reopening the wound."
+        }
+      ]
+    },
+    {
+      "t": "Hướng dẫn sau xuất viện",
+      "e": [
+        {
+          "p": "When is my follow-up appointment?",
+          "m": "Nói ngày hoặc khoảng thời gian tái khám. Nói nếu cần mang đơn thuốc hoặc giấy tờ gì.",
+          "h": "Use will + verb or Present Simple for schedule and bring + noun.",
+          "s": "Your follow-up appointment is in two weeks. Bring your medication list."
+        },
+        {
+          "p": "Do I need to rest at home?",
+          "m": "Nói có nên nghỉ ngơi hay không. Nói thời gian nghỉ ngắn (vài ngày).",
+          "h": "Use should + V and for + period.",
+          "s": "Yes, you should rest at home. Rest for three days."
+        },
+        {
+          "p": "When can I go back to work?",
+          "m": "Nói thời điểm trở lại làm việc (số ngày). Nói nếu có việc nặng thì cần chờ lâu hơn.",
+          "h": "Use can/can't and comparatives (more) to compare heavy work.",
+          "s": "You can go back to work in five days. Do not do heavy work; heavy work needs more time."
+        },
+        {
+          "p": "What pain medicine should I take?",
+          "m": "Nói tên loại thuốc chung (ví dụ: painkiller) và liều đơn giản. Nói tần suất tối đa nếu cần.",
+          "h": "Use should/may + verb and every + time expression.",
+          "s": "Take a painkiller like paracetamol, 500 mg when needed. Do not take more than every six hours."
+        },
+        {
+          "p": "I live alone; what should I prepare at home?",
+          "m": "Đưa ra hai việc chuẩn bị (ví dụ: nước, số điện thoại cấp cứu). Nói ngắn lý do mỗi việc.",
+          "h": "Use have to/have got to and because.",
+          "s": "Have water and light meals ready at home. Also have the clinic phone number because you may need help."
+        }
+      ]
+    },
+    {
+      "t": "Tương tác thuốc và cảnh báo",
+      "e": [
+        {
+          "p": "Can I take two medicines together?",
+          "m": "Nói có nên hay không. Nói cần hỏi ai trước khi kết hợp thuốc.",
+          "h": "Use should/shouldn't and ask + person.",
+          "s": "You should not take two medicines together without advice. Ask the pharmacist or doctor first."
+        },
+        {
+          "p": "What if I feel dizzy after the medicine?",
+          "m": "Nói nếu chóng mặt là tác dụng phụ. Nói hành động cần làm ngay (ngồi hoặc gọi giúp).",
+          "h": "Use may/might for side effects and must/should for action.",
+          "s": "Dizziness may be a side effect. Sit down and call the clinic if it continues."
+        },
+        {
+          "p": "Is it safe to take this pill with my heart medication?",
+          "m": "Nói cần kiểm tra tương tác. Nói gửi thông tin thuốc tim cho bác sĩ.",
+          "h": "Use need to + V and present simple for instruction.",
+          "s": "We need to check for interactions. Give your heart medication list to the doctor."
+        },
+        {
+          "p": "I have an allergy to penicillin. Can I take this?",
+          "m": "Xác nhận có vấn đề hay không. Nói nếu phải dùng thuốc thay thế.",
+          "h": "Use must not / must + verb and can + V for alternatives.",
+          "s": "You must not take penicillin if you are allergic. We can give a different antibiotic."
+        },
+        {
+          "p": "Will this medicine make me sleepy?",
+          "m": "Nói có thể gây buồn ngủ hay không. Nói lời khuyên khi lái xe hoặc làm việc.",
+          "h": "Use may/might and should not + V for warning.",
+          "s": "This medicine may make you sleepy. You should not drive or operate machines."
+        }
+      ]
+    },
+    {
+      "t": "Đau và kiểm soát triệu chứng",
+      "e": [
+        {
+          "p": "My pain is mild. Do I need pain medicine?",
+          "m": "Nói có cần uống thuốc khi đau nhẹ hay không. Đưa ra gợi ý xử lý khác nếu không dùng thuốc.",
+          "h": "Use can/can't and should + V for suggestions.",
+          "s": "You can try rest and cold packs for mild pain. Take medicine only if pain gets worse."
+        },
+        {
+          "p": "I had strong pain last night, what did I do wrong?",
+          "m": "Kiểm tra hành động có thể gây đau (ví dụ: hoạt động nặng). Nói việc nên làm hôm nay để giảm đau.",
+          "h": "Use Past Simple for past action and should + V for advice.",
+          "s": "You probably did heavy activity yesterday and that caused pain. Today you should rest and avoid lifting."
+        },
+        {
+          "p": "Will the pain go away soon?",
+          "m": "Nói thời gian ước tính giảm đau. Nói nếu cần tái khám khi đau kéo dài.",
+          "h": "Use will + verb and if + present simple for condition.",
+          "s": "The pain will get better in a few days. If it continues, come back for a check."
+        },
+        {
+          "p": "Which is better, ice or heat for my pain?",
+          "m": "So sánh ice và heat cho loại đau thường gặp. Nói lựa chọn tốt hơn và ngắn lý do.",
+          "h": "Use comparatives (better) and because.",
+          "s": "Ice is better for swelling and new injuries. Heat is more comfortable for muscle stiffness."
+        },
+        {
+          "p": "I still have pain after taking medicine, what next?",
+          "m": "Nói bước tiếp theo (gọi bác sĩ hoặc tăng liều nếu được phép). Nói trong bao lâu nếu triệu chứng không giảm thì đi khám.",
+          "h": "Use should/must + V and time expressions.",
+          "s": "If pain continues after medicine, you should call the doctor. If it lasts more than two days, come in for review."
+        }
+      ]
+    },
+    {
+      "t": "Hướng dẫn tiêm và vết chích",
+      "e": [
+        {
+          "p": "Do I need a vaccination after discharge?",
+          "m": "Xác nhận có cần tiêm hay không. Nói thời gian tiêm nếu cần.",
+          "h": "Use need to + V or don't need to and time phrase.",
+          "s": "You do not need a vaccination after discharge. No injection is required now."
+        },
+        {
+          "p": "How will the injection feel?",
+          "m": "Mô tả cảm giác ngắn (nhói, đau nhẹ). Nói nếu cảm giác sẽ qua nhanh hay lâu.",
+          "h": "Use will + verb for future sensation and short adjectives.",
+          "s": "The injection will feel like a quick pinch. It will pass in a few seconds."
+        },
+        {
+          "p": "Can the injection cause redness?",
+          "m": "Nói có thể đỏ ở chỗ chích hay không. Nói khi nào đỏ là bình thường và khi nào cần chú ý.",
+          "h": "Use may + verb for possibility and if-clause for warning.",
+          "s": "The area may be slightly red and that is normal for a day. If redness grows or you have fever, call us."
+        },
+        {
+          "p": "Should I avoid exercise after an injection?",
+          "m": "Nói có nên tránh tập hay không. Đưa ra thời gian nghỉ ngắn.",
+          "h": "Use should/shouldn't and for + duration.",
+          "s": "You should avoid heavy exercise for 24 hours. Light walking is okay."
+        },
+        {
+          "p": "I fainted after an injection once. Is it safe next time?",
+          "m": "Xác nhận nguy cơ ngất và đề nghị biện pháp phòng ngừa. Nói nếu cần ở lại theo dõi sau tiêm.",
+          "h": "Use may/might for risk and should + V for precaution.",
+          "s": "You might faint again, so you should rest and eat before the next shot. Stay for 15 minutes after the injection for observation."
+        }
+      ]
+    },
+    {
+      "t": "Sốt và dấu hiệu cảnh báo",
+      "e": [
+        {
+          "p": "What is a high fever for an adult?",
+          "m": "Nói nhiệt độ được coi là sốt cao (độ C). Nói nên làm gì ngay khi sốt cao.",
+          "h": "Use Present Simple and should + V.",
+          "s": "A high fever is 38.5°C or above. You should take fever medicine and rest."
+        },
+        {
+          "p": "My child has fever after the shot, should I worry?",
+          "m": "Nói có thể là phản ứng bình thường. Nói khi nào cần gọi bác sĩ.",
+          "h": "Use may be and call + when condition.",
+          "s": "A fever after a shot may be normal for a day. Call the doctor if it lasts more than two days or is very high."
+        },
+        {
+          "p": "How long will the fever last?",
+          "m": "Ước lượng thời gian sốt có thể kéo dài. Nói khi cần tái khám nếu kéo dài quá thời gian đó.",
+          "h": "Use will + verb and if + present simple for condition.",
+          "s": "The fever will usually last one to two days. If it lasts longer, come back for a check."
+        },
+        {
+          "p": "Should I take antibiotics for a fever?",
+          "m": "Nói có nên dùng kháng sinh hay không. Nói khi nào cần dùng kháng sinh.",
+          "h": "Use should/shouldn't and when-clause.",
+          "s": "You should not take antibiotics for a simple fever. Take them only if the doctor prescribes for a bacterial infection."
+        },
+        {
+          "p": "I have fever and chest pain, what now?",
+          "m": "Nói đây có thể là tình trạng nghiêm trọng. Nói hành động khẩn cấp cần làm ngay.",
+          "h": "Use must + verb for urgent action and go to + place.",
+          "s": "Chest pain with fever may be serious. You must go to the emergency room now."
+        }
+      ]
+    },
+    {
+      "t": "Quản lý thuốc dài hạn và đơn tái cấp",
+      "e": [
+        {
+          "p": "How do I get a refill for my medicine?",
+          "m": "Nói cách xin tái cấp (gọi hoặc đến nhà thuốc). Nói nếu cần đơn của bác sĩ hay không.",
+          "h": "Use can/should and need to + V.",
+          "s": "You can call the clinic for a refill. You may need a doctor's prescription."
+        },
+        {
+          "p": "Can I stop the medicine when I feel better?",
+          "m": "Nói có nên dừng thuốc sớm hay không. Nói hậu quả nếu dừng sớm.",
+          "h": "Use should not + V and will + verb for consequence.",
+          "s": "You should not stop early. If you stop, the problem may come back."
+        },
+        {
+          "p": "What should I tell the pharmacist about my allergies?",
+          "m": "Liệt kê thông tin cần nói (tên thuốc dị ứng, phản ứng đã xảy ra). Nói ngắn vì sao thông tin này quan trọng.",
+          "h": "Use must + V and because.",
+          "s": "Tell the pharmacist your allergy to the medicine name and the reaction you had. This must be known because it keeps you safe."
+        },
+        {
+          "p": "I travel next week, can I take my meds on a plane?",
+          "m": "Xác nhận có thể mang thuốc trên máy bay hay không. Nói gợi ý bảo quản hoặc mang theo đơn thuốc.",
+          "h": "Use can + V and should + V for advice.",
+          "s": "You can take your medicines on a plane. You should keep them in the carry-on and bring your prescription."
+        },
+        {
+          "p": "Is it better to take this pill in the morning or at night?",
+          "m": "So sánh hai thời điểm (sáng/đêm). Nói thời điểm tốt hơn và lý do ngắn.",
+          "h": "Use comparatives (better) and because.",
+          "s": "It is better to take this pill in the morning. Morning doses fit your routine and reduce missed doses."
+        }
+      ]
+    },
+    {
+      "t": "Trợ giúp khẩn cấp và khi gọi cấp cứu",
+      "e": [
+        {
+          "p": "When should I call emergency services?",
+          "m": "Liệt kê hai dấu hiệu cần gọi cấp cứu (ví dụ: khó thở, mất ý thức). Nói làm gì tạm thời trước khi xe cứu thương đến.",
+          "h": "Use must + V for urgency and do + something for temporary action.",
+          "s": "Call emergency services for severe trouble like breathing problems or loss of consciousness. Stay calm and follow the operator's instructions until help arrives."
+        },
+        {
+          "p": "I have heavy bleeding from a wound, what do I do now?",
+          "m": "Nói bước sơ cứu ngắn (ấn băng, nâng cao). Nói nếu cần đến cấp cứu ngay.",
+          "h": "Use imperative sentences and must/go to + place.",
+          "s": "Press the wound with a clean cloth and raise the limb. You must go to the emergency room now."
+        },
+        {
+          "p": "Someone fainted at home, how long should I wait before seeking help?",
+          "m": "Nói thời gian chờ ngắn để xem người đó tỉnh lại. Nói khi nào phải gọi cấp cứu ngay.",
+          "h": "Use wait + time and if + present simple for condition.",
+          "s": "Wait one minute to see if they wake up. If they do not wake or do not breathe, call emergency services immediately."
+        },
+        {
+          "p": "Can I use over-the-counter medicine in an emergency?",
+          "m": "Nói nếu có thể dùng thuốc không kê đơn tạm thời. Nói cần đọc nhãn và liều tối đa.",
+          "h": "Use can/can't and should + V for caution.",
+          "s": "You can use over-the-counter medicine for short relief. Read the label and do not exceed the maximum dose."
+        },
+        {
+          "p": "Who should I call if I have a problem at night?",
+          "m": "Nêu hai số hoặc liên hệ nên gọi (bác sĩ trực, cấp cứu). Nói khi nào dùng số đó.",
+          "h": "Use should + V and when-clause.",
+          "s": "Call the on-call doctor or emergency services at night if you have severe symptoms. Use the emergency number for life-threatening problems."
+        }
+      ]
+    },
+    {
+      "t": "Vấn đề sau tiểu phẫu nhỏ",
+      "e": [
+        {
+          "p": "Is swelling after minor surgery normal?",
+          "m": "Xác nhận bình thường hay không. Nói thời gian sưng sẽ giảm.",
+          "h": "Use present simple and time phrases.",
+          "s": "Swelling is normal after minor surgery. It usually gets better in a few days."
+        },
+        {
+          "p": "My wound started bleeding a bit today, should I worry?",
+          "m": "Nói khi chảy máu là nhẹ và xử lý đơn giản. Nói dấu hiệu nào cần đến viện.",
+          "h": "Use can/should and if + clause for warning.",
+          "s": "A little bleeding can be normal; press the area and keep it clean. If bleeding is heavy or does not stop, go to the hospital."
+        },
+        {
+          "p": "Can I sleep on my side after the operation?",
+          "m": "Nói nếu được ngủ nghiêng hay không tùy vị trí vết thương. Đưa ra tư thế an toàn tương ứng.",
+          "h": "Use can/can't and depending on + noun.",
+          "s": "You can sleep on your side if the wound is not under pressure. Otherwise sleep on your back to protect the area."
+        },
+        {
+          "p": "Will I need physiotherapy after this operation?",
+          "m": "Nói có cần vật lý trị liệu hay không. Nếu cần, nói tần suất ngắn.",
+          "h": "Use may/might and should + V for schedule.",
+          "s": "You may need physiotherapy to regain strength. It should be once or twice a week."
+        },
+        {
+          "p": "I feel anxious after surgery, is that normal and what can I do?",
+          "m": "Xác nhận lo lắng là bình thường. Đưa ra hai cách giảm lo (thở sâu, nói chuyện với bác sĩ).",
+          "h": "Use present simple and should + V for advice.",
+          "s": "Feeling anxious is normal after surgery. Try deep breathing and talk to your doctor for reassurance."
+        }
+      ]
+    },
+    {
+      "t": "Thuốc cho trẻ em và cha mẹ",
+      "e": [
+        {
+          "p": "How much medicine should I give my child?",
+          "m": "Nói theo cân nặng hoặc tuổi đơn giản (ví dụ: theo hướng dẫn). Nói tần suất uống.",
+          "h": "Use should + V and per + time or every + time.",
+          "s": "Give the medicine as the guide says for your child's age. Give it every eight hours."
+        },
+        {
+          "p": "What if my child vomits after taking medicine?",
+          "m": "Nói nếu cần cho uống lại hoặc chờ. Nói khi phải gọi bác sĩ.",
+          "h": "Use should/shouldn't and if + clause.",
+          "s": "If your child vomits soon after, give the dose again. Call the doctor if vomiting continues."
+        },
+        {
+          "p": "Can my child eat normally after vaccination?",
+          "m": "Nói có thể ăn bình thường hay không. Nói tránh thức ăn gây dị ứng nếu có tiền sử.",
+          "h": "Use can/can't and have to + V for precautions.",
+          "s": "Your child can eat normally after vaccination. If they have known allergies, avoid those foods."
+        },
+        {
+          "p": "Should I give a fever medicine to make my child sleep?",
+          "m": "Nói không dùng thuốc hạ sốt chỉ để cho ngủ. Nói khi nên dùng thuốc hạ sốt.",
+          "h": "Use should not + V and when-clause.",
+          "s": "You should not give fever medicine just to make them sleep. Use it only when the child has a fever or is uncomfortable."
+        },
+        {
+          "p": "How long will my child's injection site be sore?",
+          "m": "Ước lượng thời gian đau tại chỗ (vài ngày). Nói cách giảm đau đơn giản.",
+          "h": "Use will + verb and use + noun for remedy.",
+          "s": "The injection site will be sore for a few days. Use a cool pack to reduce pain."
+        }
+      ]
+    },
+    {
+      "t": "Theo dõi sau điều trị tại nhà",
+      "e": [
+        {
+          "p": "What signs should I watch for at home?",
+          "m": "Liệt kê hai dấu hiệu cần chú ý (sốt, sưng nhiều). Nói nên làm gì nếu thấy các dấu hiệu đó.",
+          "h": "Use should + V and must + V for action.",
+          "s": "Watch for fever and increasing swelling. If you see them, you must call the clinic."
+        },
+        {
+          "p": "How often should I check my blood pressure at home?",
+          "m": "Nói tần suất kiểm tra (ví dụ: mỗi ngày hoặc theo hướng dẫn). Nói nếu số cao nên làm gì.",
+          "h": "Use should + V and if + present simple for action.",
+          "s": "Check your blood pressure once a day or as advised. If it is high, contact your doctor."
+        },
+        {
+          "p": "I feel better today, can I stop checking symptoms?",
+          "m": "Nói có nên dừng theo dõi hay không. Nói khoảng thời gian tiếp tục theo dõi nếu cần.",
+          "h": "Use should/shouldn't and for + period.",
+          "s": "You should not stop checking symptoms just because you feel better. Continue for at least three days."
+        },
+        {
+          "p": "How do I keep a symptom diary?",
+          "m": "Mô tả hai thông tin cần ghi (nhiệt độ, thuốc đã uống). Nói tần suất ghi nhật ký.",
+          "h": "Use Present Simple and every + time.",
+          "s": "Record your temperature and the medicines you take. Do this every morning and evening."
+        },
+        {
+          "p": "Who will call me about my test results?",
+          "m": "Nói ai sẽ gọi (bác sĩ, y tá). Nói trong bao lâu họ sẽ gọi (thời gian dự kiến).",
+          "h": "Use will + verb and in + time expression.",
+          "s": "The clinic nurse will call you with the results. They will call in three to five days."
+        }
+      ]
+    },
+    {
+      "t": "Ôn tập: Hướng dẫn uống thuốc và chế độ ăn",
+      "e": [
+        {
+          "p": "How do I take this antibiotic?",
+          "m": "Nói số lần uống mỗi ngày. Nói nếu phải uống sau ăn.",
+          "h": "Use take + frequency and after/before meals.",
+          "s": "Take the antibiotic twice a day. Take it after meals."
+        },
+        {
+          "p": "Can I drink tea with my medicine?",
+          "m": "Nói có ảnh hưởng hay không. Nói lời khuyên ngắn.",
+          "h": "Use should/shouldn't and because.",
+          "s": "You should not drink strong tea with this medicine. Tea can reduce absorption."
+        },
+        {
+          "p": "I missed two doses last week, what should I tell the doctor?",
+          "m": "Nói thành thật về liều đã quên (số lần). Nói nếu cần thay đổi liều hoặc tiếp tục như cũ.",
+          "h": "Use Past Simple and should + V.",
+          "s": "I missed two doses last week. The doctor should check if I need a new plan."
+        },
+        {
+          "p": "Which is better for recovery, soup or fried food?",
+          "m": "So sánh hai loại thức ăn. Nêu lựa chọn tốt hơn và lý do ngắn.",
+          "h": "Use comparatives (better) and because.",
+          "s": "Soup is better than fried food. Soup is light and easier to digest."
+        },
+        {
+          "p": "When should I stop the medicine if I have side effects?",
+          "m": "Nói có dừng thuốc ngay hay gọi bác sĩ trước. Nói hành động cụ thể nếu tác dụng phụ nghiêm trọng.",
+          "h": "Use should/shouldn't and must + V for urgent action.",
+          "s": "Do not stop the medicine without advice; call the doctor first. If the side effects are severe, you must seek urgent care."
+        }
+      ]
+    },
+    {
+      "t": "Ôn tập: Vết thương, nhiễm trùng và chăm sóc tại nhà",
+      "e": [
+        {
+          "p": "What should I do if the wound is wet after shower?",
+          "m": "Nói cách làm khô và bảo vệ vết thương. Nói nếu cần thay băng.",
+          "h": "Use imperative and should + V.",
+          "s": "Pat the wound dry and replace the bandage. You should change the dressing if it is wet."
+        },
+        {
+          "p": "My wound is small but painful, when should I see a doctor?",
+          "m": "Nói dấu hiệu cần khám (tăng đau, đỏ lan). Nói thời gian ngắn nếu xuất hiện dấu hiệu đó.",
+          "h": "Use if + present simple and must + V.",
+          "s": "See a doctor if pain increases or redness spreads. You must come within 24 hours in that case."
+        },
+        {
+          "p": "How to stop small bleeding at home?",
+          "m": "Mô tả hai bước sơ cứu đơn giản. Nói khi nào cần đến viện nếu không dừng.",
+          "h": "Use imperative and if + present simple.",
+          "s": "Press the wound firmly and raise it. If bleeding does not stop, go to the hospital."
+        },
+        {
+          "p": "Is it okay to apply cream on a stitched wound?",
+          "m": "Nói có nên bôi kem lên vết có chỉ hay không. Nói nếu có loại kem an toàn thì dùng khi nào.",
+          "h": "Use should/shouldn't and when-clause.",
+          "s": "You should not apply cream on a stitched wound unless the doctor says so. Use the cream only after stitches are removed."
+        },
+        {
+          "p": "How long until the scar looks better?",
+          "m": "Ước lượng thời gian lành sẹo. Nói cách làm để sẹo nhìn tốt hơn.",
+          "h": "Use will + verb and use + noun for method.",
+          "s": "The scar will look better in a few weeks. Use sunscreen and keep the area clean."
+        }
+      ]
+    },
+    {
+      "t": "Ôn tập: Khẩn cấp, theo dõi và liên hệ với bác sĩ",
+      "e": [
+        {
+          "p": "Who should I contact for non-urgent questions?",
+          "m": "Nêu người hoặc bộ phận phù hợp (y tá, phòng khám). Nói thời gian họ trả lời.",
+          "h": "Use should + V and will + verb for response time.",
+          "s": "Contact the clinic nurse for non-urgent questions. They will reply within two working days."
+        },
+        {
+          "p": "My child has a rash after medicine, what now?",
+          "m": "Nói đây có thể là dị ứng. Nói hành động cần làm (ngừng thuốc, gọi bác sĩ).",
+          "h": "Use may be and should + V for actions.",
+          "s": "A rash may be an allergy. Stop the medicine and call the doctor immediately."
+        },
+        {
+          "p": "Can I drive if I take this painkiller?",
+          "m": "Nói thuốc có thể gây buồn ngủ hay không. Đưa ra lời khuyên liên quan đến lái xe.",
+          "h": "Use may/might and should not + V for warning.",
+          "s": "This painkiller may make you sleepy. You should not drive until you know how it affects you."
+        },
+        {
+          "p": "When will the clinic call me about my results?",
+          "m": "Nói khoảng thời gian chờ kết quả. Nói nếu không nhận được thì phải làm gì.",
+          "h": "Use will + verb and if + present simple.",
+          "s": "The clinic will call in three to five days. If you do not get a call, please call us after five days."
+        },
+        {
+          "p": "What should I do if I run out of medicine on the weekend?",
+          "m": "Nói bước xử lý tạm thời (liên hệ nhà thuốc hoặc bác sĩ trực). Nói không nên làm gì (ví dụ: tự tăng liều).",
+          "h": "Use can/should and must not + V.",
+          "s": "Call the pharmacy or on-call doctor for weekend help. Do not increase or double your dose on your own."
+        }
+      ]
+    }
+  ]
+}

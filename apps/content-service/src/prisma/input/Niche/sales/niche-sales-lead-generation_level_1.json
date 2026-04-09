@@ -1,0 +1,600 @@
+{
+  "l": 1,
+  "d": [
+    {
+      "t": "Gặp khách tại hội chợ",
+      "e": [
+        {
+          "p": "Hi, what's your name?",
+          "m": "Nói tên của bạn.",
+          "h": "S + be + N",
+          "s": "My name is [studentName]."
+        },
+        {
+          "p": "Where do you live?",
+          "m": "Nói thành phố bạn sống.",
+          "h": "I live in + place",
+          "s": "I live in [studentCity]."
+        },
+        {
+          "p": "What is your job?",
+          "m": "Nói nghề của bạn.",
+          "h": "I am + job / I work as + job",
+          "s": "I am [studentJob]."
+        },
+        {
+          "p": "Do you want more information?",
+          "m": "Trả lời 'Yes' hoặc 'No' và một câu ngắn.",
+          "h": "Yes/No + I + V",
+          "s": "Yes, I want more information."
+        },
+        {
+          "p": "Can I call you later?",
+          "m": "Trả lời 'Yes' hoặc 'No'.",
+          "h": "Yes, you can / No, you can't",
+          "s": "Yes, you can call me."
+        }
+      ]
+    },
+    {
+      "t": "Tin nhắn quan tâm trên mạng",
+      "e": [
+        {
+          "p": "I like your photo, what is your name?",
+          "m": "Nói tên của bạn.",
+          "h": "S + be + N",
+          "s": "My name is [studentName]."
+        },
+        {
+          "p": "Do you like our post?",
+          "m": "Nói 'Yes' hoặc 'No'.",
+          "h": "Yes, I + V / No, I don't",
+          "s": "Yes, I like it."
+        },
+        {
+          "p": "Can we send you more info?",
+          "m": "Trả lời 'Yes' hoặc 'No'.",
+          "h": "Yes, please / No, thank you",
+          "s": "Yes, please send me more."
+        },
+        {
+          "p": "Where do you work?",
+          "m": "Nói tên chỗ bạn làm hoặc 'I don't work'.",
+          "h": "I work at / I don't work",
+          "s": "I work at a small shop."
+        },
+        {
+          "p": "Do you want a quick meet?",
+          "m": "Trả lời 'Yes' hoặc 'No' và nói khi nào.",
+          "h": "Yes, I can + time / No, I can't",
+          "s": "Yes, I can meet tomorrow."
+        }
+      ]
+    },
+    {
+      "t": "Cuộc gọi giới thiệu ngắn",
+      "e": [
+        {
+          "p": "Hello, may I have your name?",
+          "m": "Nói tên của bạn.",
+          "h": "S + be + N",
+          "s": "My name is [studentName]."
+        },
+        {
+          "p": "Do you have time now?",
+          "m": "Nói 'Yes' hoặc 'No'.",
+          "h": "Yes, I do / No, I don't",
+          "s": "Yes, I have time now."
+        },
+        {
+          "p": "Do you need help at work?",
+          "m": "Trả lời 'Yes' hoặc 'No'.",
+          "h": "Yes, I need / No, I don't",
+          "s": "Yes, I need help."
+        },
+        {
+          "p": "Can I come to your office?",
+          "m": "Trả lời 'Yes' hoặc 'No'.",
+          "h": "Yes, you can / No, you can't",
+          "s": "No, you can't come today."
+        },
+        {
+          "p": "When is good for a short meet?",
+          "m": "Nói thời gian (ví dụ: tomorrow, morning).",
+          "h": "Use: tomorrow / morning / night",
+          "s": "Tomorrow morning is good."
+        }
+      ]
+    },
+    {
+      "t": "Hẹn gặp tại quán cà phê",
+      "e": [
+        {
+          "p": "Do you like to meet at a cafe?",
+          "m": "Trả lời 'Yes' hoặc 'No'.",
+          "h": "Yes/No + I + V",
+          "s": "Yes, I like to meet at a cafe."
+        },
+        {
+          "p": "Where is a good cafe?",
+          "m": "Nói tên hoặc nơi ngắn gọn.",
+          "h": "Place name or 'near my house'",
+          "s": "There is a cafe near my house."
+        },
+        {
+          "p": "Are you free tomorrow morning?",
+          "m": "Trả lời 'Yes' hoặc 'No'.",
+          "h": "Yes, I am / No, I am not",
+          "s": "Yes, I am free tomorrow morning."
+        },
+        {
+          "p": "Can we meet at 9 am?",
+          "m": "Trả lời 'Yes' hoặc 'No'.",
+          "h": "Yes, I can / No, I can't",
+          "s": "Yes, I can meet at 9 am."
+        },
+        {
+          "p": "Do you want tea or coffee?",
+          "m": "Nói chọn một loại đơn giản.",
+          "h": "I want + tea/coffee",
+          "s": "I want coffee."
+        }
+      ]
+    },
+    {
+      "t": "Hỏi về nhu cầu đơn giản",
+      "e": [
+        {
+          "p": "Do you need a new service?",
+          "m": "Trả lời 'Yes' hoặc 'No'.",
+          "h": "Yes, I need / No, I don't",
+          "s": "Yes, I need help."
+        },
+        {
+          "p": "What problem do you have?",
+          "m": "Nói một vấn đề ngắn gọn (1-3 từ).",
+          "h": "Use simple noun (e.g., work, phone)",
+          "s": "I have a work problem."
+        },
+        {
+          "p": "Do you want a short demo?",
+          "m": "Trả lời 'Yes' hoặc 'No'.",
+          "h": "Yes, I want / No, I don't",
+          "s": "Yes, I want a demo."
+        },
+        {
+          "p": "Can you show your office on a map?",
+          "m": "Trả lời 'Yes' hoặc 'No'.",
+          "h": "Yes, I can / No, I can't",
+          "s": "Yes, I can show it."
+        },
+        {
+          "p": "Do you use a computer at work?",
+          "m": "Trả lời 'Yes' hoặc 'No'.",
+          "h": "Yes, I use / No, I don't",
+          "s": "Yes, I use a computer."
+        }
+      ]
+    },
+    {
+      "t": "Nói về lợi ích đơn giản",
+      "e": [
+        {
+          "p": "Do you want a faster work way?",
+          "m": "Trả lời 'Yes' hoặc 'No'.",
+          "h": "Yes, I want / No, I don't",
+          "s": "Yes, I want faster work."
+        },
+        {
+          "p": "Is saving time good for you?",
+          "m": "Trả lời 'Yes' hoặc 'No'.",
+          "h": "Yes, saving time is good / No, it is not",
+          "s": "Yes, saving time is good for me."
+        },
+        {
+          "p": "Do you like a simple plan?",
+          "m": "Trả lời 'Yes' hoặc 'No'.",
+          "h": "Yes, I like / No, I don't like",
+          "s": "Yes, I like a simple plan."
+        },
+        {
+          "p": "Can this help your team?",
+          "m": "Trả lời 'Yes' hoặc 'No'.",
+          "h": "Yes, it can / No, it can't",
+          "s": "Yes, it can help my team."
+        },
+        {
+          "p": "Do you want to try one week?",
+          "m": "Trả lời 'Yes' hoặc 'No'.",
+          "h": "Yes, I want / No, I don't",
+          "s": "Yes, I want to try one week."
+        }
+      ]
+    },
+    {
+      "t": "Tìm khách qua bạn bè",
+      "e": [
+        {
+          "p": "Do you know a friend who needs help?",
+          "m": "Trả lời 'Yes' hoặc 'No'.",
+          "h": "Yes, I know / No, I don't",
+          "s": "Yes, I know a friend."
+        },
+        {
+          "p": "Can you give a friend's name?",
+          "m": "Nói tên bạn hoặc nói 'I don't know'.",
+          "h": "My friend is + name / I don't know",
+          "s": "My friend is Nam."
+        },
+        {
+          "p": "Can I call your friend?",
+          "m": "Trả lời 'Yes' hoặc 'No'.",
+          "h": "Yes, you can / No, you can't",
+          "s": "No, you can't call my friend."
+        },
+        {
+          "p": "Do you want to get a small gift?",
+          "m": "Trả lời 'Yes' hoặc 'No'.",
+          "h": "Yes, I want / No, I don't",
+          "s": "Yes, I want a small gift."
+        },
+        {
+          "p": "Where is your friend now?",
+          "m": "Nói nơi ngắn (city, school, home).",
+          "h": "Use place word: school / home / city",
+          "s": "My friend is at school."
+        }
+      ]
+    },
+    {
+      "t": "Đăng ký dùng thử",
+      "e": [
+        {
+          "p": "Do you want a free test?",
+          "m": "Trả lời 'Yes' hoặc 'No'.",
+          "h": "Yes, I want / No, I don't",
+          "s": "Yes, I want a free test."
+        },
+        {
+          "p": "How many people in your team?",
+          "m": "Nói số lượng (1-100).",
+          "h": "Use a number",
+          "s": "We have 5 people."
+        },
+        {
+          "p": "Do you need help every day?",
+          "m": "Trả lời 'Yes' hoặc 'No'.",
+          "h": "Yes, I do / No, I don't",
+          "s": "No, I do not need help every day."
+        },
+        {
+          "p": "Can you start now?",
+          "m": "Trả lời 'Yes' hoặc 'No'.",
+          "h": "Yes, I can / No, I can't",
+          "s": "Yes, I can start now."
+        },
+        {
+          "p": "Do you pay at once or later?",
+          "m": "Nói 'at once' hoặc 'later'.",
+          "h": "I pay + at once / later",
+          "s": "I pay later."
+        }
+      ]
+    },
+    {
+      "t": "Theo dõi sau buổi gặp",
+      "e": [
+        {
+          "p": "Did you like our talk?",
+          "m": "Trả lời 'Yes' hoặc 'No'.",
+          "h": "Yes, I did / No, I did not",
+          "s": "Yes, I liked our talk."
+        },
+        {
+          "p": "Do you have one question?",
+          "m": "Nói một câu hỏi ngắn hoặc 'No'.",
+          "h": "Use a short question or 'No'",
+          "s": "How do I start?"
+        },
+        {
+          "p": "Can I send a short note to you?",
+          "m": "Trả lời 'Yes' hoặc 'No'.",
+          "h": "Yes, you can / No, you can't",
+          "s": "Yes, you can send me a note."
+        },
+        {
+          "p": "Are you happy with the plan?",
+          "m": "Trả lời 'Yes' hoặc 'No'.",
+          "h": "Yes, I am / No, I am not",
+          "s": "Yes, I am happy with the plan."
+        },
+        {
+          "p": "Do you want a next meet?",
+          "m": "Trả lời 'Yes' hoặc 'No'.",
+          "h": "Yes, I want / No, I don't",
+          "s": "Yes, I want a next meet."
+        }
+      ]
+    },
+    {
+      "t": "Khảo sát nhanh của khách hàng",
+      "e": [
+        {
+          "p": "Do you use our product now?",
+          "m": "Trả lời 'Yes' hoặc 'No'.",
+          "h": "Yes, I do / No, I don't",
+          "s": "No, I don't use it now."
+        },
+        {
+          "p": "Is the price good for you?",
+          "m": "Trả lời 'Yes' hoặc 'No'.",
+          "h": "Yes, it is / No, it is not",
+          "s": "Yes, the price is good for me."
+        },
+        {
+          "p": "Do you like the color options?",
+          "m": "Trả lời 'Yes' hoặc 'No'.",
+          "h": "Yes, I like / No, I don't",
+          "s": "Yes, I like the color options."
+        },
+        {
+          "p": "Do you tell a friend about us?",
+          "m": "Trả lời 'Yes' hoặc 'No'.",
+          "h": "Yes, I tell / No, I don't",
+          "s": "Yes, I tell a friend."
+        },
+        {
+          "p": "Would you give a star score (1-5)?",
+          "m": "Nói số từ 1 đến 5.",
+          "h": "Use number 1-5",
+          "s": "I give 5."
+        }
+      ]
+    },
+    {
+      "t": "Nói về thời gian rảnh",
+      "e": [
+        {
+          "p": "Are you free on Monday?",
+          "m": "Trả lời 'Yes' hoặc 'No'.",
+          "h": "Yes, I am / No, I am not",
+          "s": "No, I am not free on Monday."
+        },
+        {
+          "p": "Do you work every day?",
+          "m": "Trả lời 'Yes' hoặc 'No'.",
+          "h": "Yes, I do / No, I don't",
+          "s": "No, I do not work every day."
+        },
+        {
+          "p": "What time is good for you?",
+          "m": "Nói một thời gian ngắn (ví dụ: morning, night).",
+          "h": "Use: morning / night / now",
+          "s": "Morning is good for me."
+        },
+        {
+          "p": "Can you meet now?",
+          "m": "Trả lời 'Yes' hoặc 'No'.",
+          "h": "Yes, I can / No, I can't",
+          "s": "No, I can't meet now."
+        },
+        {
+          "p": "Do you prefer morning or night?",
+          "m": "Chọn 'morning' hoặc 'night'.",
+          "h": "I prefer + morning/night",
+          "s": "I prefer morning."
+        }
+      ]
+    },
+    {
+      "t": "Đàm phán mua hàng đơn giản",
+      "e": [
+        {
+          "p": "Do you want to buy this?",
+          "m": "Trả lời 'Yes' hoặc 'No'.",
+          "h": "Yes, I want / No, I don't",
+          "s": "Yes, I want to buy this."
+        },
+        {
+          "p": "Do you pay now?",
+          "m": "Trả lời 'Yes' hoặc 'No'.",
+          "h": "Yes, I pay / No, I don't",
+          "s": "No, I don't pay now."
+        },
+        {
+          "p": "Is the color red ok?",
+          "m": "Trả lời 'Yes' hoặc 'No'.",
+          "h": "Yes, it is / No, it is not",
+          "s": "Yes, red is ok."
+        },
+        {
+          "p": "Do you want a small gift with it?",
+          "m": "Trả lời 'Yes' hoặc 'No'.",
+          "h": "Yes, I want / No, I don't",
+          "s": "No, I don't want a gift."
+        },
+        {
+          "p": "Can I deliver to your house?",
+          "m": "Trả lời 'Yes' hoặc 'No'.",
+          "h": "Yes, you can / No, you can't",
+          "s": "Yes, you can deliver to my house."
+        }
+      ]
+    },
+    {
+      "t": "Chào hỏi và thu thập liên hệ nhanh",
+      "e": [
+        {
+          "p": "Hi, may I know your name?",
+          "m": "Nói tên của bạn.",
+          "h": "S + be + N",
+          "s": "My name is [studentName]."
+        },
+        {
+          "p": "Can I meet you this week?",
+          "m": "Trả lời 'Yes' hoặc 'No'.",
+          "h": "Yes, I can / No, I can't",
+          "s": "Yes, I can meet this week."
+        },
+        {
+          "p": "Do you use email?",
+          "m": "Trả lời 'Yes' hoặc 'No'.",
+          "h": "Yes, I do / No, I don't",
+          "s": "Yes, I use email."
+        },
+        {
+          "p": "Are you busy now?",
+          "m": "Trả lời 'Yes' hoặc 'No'.",
+          "h": "Yes, I am / No, I am not",
+          "s": "No, I am not busy now."
+        },
+        {
+          "p": "Do you want a short call later?",
+          "m": "Trả lời 'Yes' hoặc 'No'.",
+          "h": "Yes, I want / No, I don't",
+          "s": "Yes, I want a short call later."
+        }
+      ]
+    },
+    {
+      "t": "Hỏi ý kiến đơn giản về sản phẩm",
+      "e": [
+        {
+          "p": "Do you like this idea?",
+          "m": "Trả lời 'Yes' hoặc 'No'.",
+          "h": "Yes, I like / No, I don't",
+          "s": "Yes, I like this idea."
+        },
+        {
+          "p": "Is this easy to use?",
+          "m": "Trả lời 'Yes' hoặc 'No'.",
+          "h": "Yes, it is / No, it is not",
+          "s": "Yes, it is easy to use."
+        },
+        {
+          "p": "Do you want more color choices?",
+          "m": "Trả lời 'Yes' hoặc 'No'.",
+          "h": "Yes, I want / No, I don't",
+          "s": "No, I don't want more colors."
+        },
+        {
+          "p": "Can we help you now?",
+          "m": "Trả lời 'Yes' hoặc 'No'.",
+          "h": "Yes, you can / No, you can't",
+          "s": "Yes, you can help me now."
+        },
+        {
+          "p": "Do you tell friends about the idea?",
+          "m": "Trả lời 'Yes' hoặc 'No'.",
+          "h": "Yes, I tell / No, I don't",
+          "s": "Yes, I tell my friends."
+        }
+      ]
+    },
+    {
+      "t": "Ôn tập: Gặp khách và thu thập thông tin",
+      "e": [
+        {
+          "p": "Hello, what is your name?",
+          "m": "Nói tên của bạn.",
+          "h": "S + be + N",
+          "s": "My name is [studentName]."
+        },
+        {
+          "p": "Where do you live now?",
+          "m": "Nói thành phố bạn sống.",
+          "h": "I live in + place",
+          "s": "I live in [studentCity]."
+        },
+        {
+          "p": "What is your job now?",
+          "m": "Nói nghề của bạn.",
+          "h": "I am + job",
+          "s": "I am [studentJob]."
+        },
+        {
+          "p": "Can I call you later for info?",
+          "m": "Trả lời 'Yes' hoặc 'No'.",
+          "h": "Yes, you can / No, you can't",
+          "s": "Yes, you can call me later."
+        },
+        {
+          "p": "Do you want more information now?",
+          "m": "Trả lời 'Yes' hoặc 'No'.",
+          "h": "Yes, I want / No, I don't",
+          "s": "No, I don't want more now."
+        }
+      ]
+    },
+    {
+      "t": "Ôn tập: Hẹn gặp và xác nhận",
+      "e": [
+        {
+          "p": "Are you free this week?",
+          "m": "Trả lời 'Yes' hoặc 'No'.",
+          "h": "Yes, I am / No, I am not",
+          "s": "Yes, I am free this week."
+        },
+        {
+          "p": "Can we meet on Friday morning?",
+          "m": "Trả lời 'Yes' hoặc 'No'.",
+          "h": "Yes, I can / No, I can't",
+          "s": "No, I can't meet on Friday morning."
+        },
+        {
+          "p": "Where is good to meet?",
+          "m": "Nói một nơi ngắn (ví dụ: cafe).",
+          "h": "There is / at + place",
+          "s": "There is a cafe near my house."
+        },
+        {
+          "p": "Do you want a short meeting?",
+          "m": "Trả lời 'Yes' hoặc 'No'.",
+          "h": "Yes, I want / No, I don't",
+          "s": "Yes, I want a short meeting."
+        },
+        {
+          "p": "Can I bring a paper for you?",
+          "m": "Trả lời 'Yes' hoặc 'No'.",
+          "h": "Yes, you can / No, you can't",
+          "s": "Yes, you can bring a paper."
+        }
+      ]
+    },
+    {
+      "t": "Ôn tập: Theo dõi và giới thiệu bạn bè",
+      "e": [
+        {
+          "p": "Did you like our product?",
+          "m": "Trả lời 'Yes' hoặc 'No'.",
+          "h": "Yes, I did / No, I did not",
+          "s": "Yes, I liked the product."
+        },
+        {
+          "p": "Do you tell a friend about us?",
+          "m": "Trả lời 'Yes' hoặc 'No'.",
+          "h": "Yes, I tell / No, I don't",
+          "s": "No, I do not tell a friend."
+        },
+        {
+          "p": "Can we call you next week?",
+          "m": "Trả lời 'Yes' hoặc 'No'.",
+          "h": "Yes, you can / No, you can't",
+          "s": "Yes, you can call me next week."
+        },
+        {
+          "p": "Are you happy with our help?",
+          "m": "Trả lời 'Yes' hoặc 'No'.",
+          "h": "Yes, I am / No, I am not",
+          "s": "Yes, I am happy with your help."
+        },
+        {
+          "p": "Do you know a friend who needs this?",
+          "m": "Trả lời 'Yes' hoặc 'No'.",
+          "h": "Yes, I know / No, I don't",
+          "s": "Yes, I know a friend who needs this."
+        }
+      ]
+    }
+  ]
+}

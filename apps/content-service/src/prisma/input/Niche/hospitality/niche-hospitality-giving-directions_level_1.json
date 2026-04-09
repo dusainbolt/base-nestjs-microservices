@@ -1,0 +1,600 @@
+{
+  "l": 1,
+  "d": [
+    {
+      "t": "Tìm phòng từ quầy lễ tân",
+      "e": [
+        {
+          "p": "Where is room 305?",
+          "m": "Nói tầng và hướng ngắn gọn để tới phòng 305.",
+          "h": "Use 'You can' + place + 'then' + direction",
+          "s": "You can take the elevator to the third floor, then turn right; room 305 is on the left."
+        },
+        {
+          "p": "How do I get to my room from the lobby?",
+          "m": "Nói nên đi bằng thang máy hay cầu thang và nêu hướng.",
+          "h": "Use 'You can' + verb + 'then' + direction",
+          "s": "You can take the elevator, then turn left at the end of the hall."
+        },
+        {
+          "p": "Is there a lift near the lobby?",
+          "m": "Trả lời có hoặc không và nêu vị trí nếu có.",
+          "h": "Say 'Yes, there is...' or 'No, there isn't...'",
+          "s": "Yes, there is an elevator next to the reception desk."
+        },
+        {
+          "p": "Can I use the stairs to room 305?",
+          "m": "Nói có thể hay không và cho một lời khuyên ngắn.",
+          "h": "Use 'Yes, you can...' or 'No, you can't...'",
+          "s": "Yes, you can use the stairs, but the elevator is faster."
+        },
+        {
+          "p": "How long is the walk from the lobby to room 305?",
+          "m": "Nói thời gian đi bộ bằng phút (số).",
+          "h": "Use 'It takes' + number + 'minutes'",
+          "s": "It takes about three minutes from the lobby to room 305."
+        }
+      ]
+    },
+    {
+      "t": "Hướng đến nhà hàng khách sạn",
+      "e": [
+        {
+          "p": "Where is the hotel restaurant?",
+          "m": "Nói tầng và vị trí nhà hàng trong khách sạn.",
+          "h": "Use 'It is on the...' or 'It is next to...'",
+          "s": "The restaurant is on the first floor, next to the pool."
+        },
+        {
+          "p": "How do I get to the restaurant from my room?",
+          "m": "Cho hướng ngắn: xuống cầu thang/thang máy và hướng đi.",
+          "h": "Use 'Go to' or 'Take the elevator' + then + direction",
+          "s": "Take the elevator to the first floor and walk straight; the restaurant is on the right."
+        },
+        {
+          "p": "Is breakfast served in the restaurant?",
+          "m": "Trả lời có/không và nêu giờ nếu có (sử dụng giờ đơn giản).",
+          "h": "Use 'Yes, it is' + time",
+          "s": "Yes, breakfast is from 7 to 10 in the morning."
+        },
+        {
+          "p": "Can I have dinner at the restaurant tonight?",
+          "m": "Trả lời có thể hay không và nêu gợi ý đơn giản.",
+          "h": "Use 'Yes, you can' or 'No, you can't' + short reason",
+          "s": "Yes, you can eat there tonight; it opens at six."
+        },
+        {
+          "p": "Do I need a reservation for dinner?",
+          "m": "Nói có cần đặt chỗ không và cách đặt nếu cần.",
+          "h": "Use 'Yes, you need' or 'No, you don't need' + how",
+          "s": "Yes, you need a reservation; call the reception to book."
+        }
+      ]
+    },
+    {
+      "t": "Chỉ đường đến hồ bơi và phòng tập",
+      "e": [
+        {
+          "p": "Where is the pool?",
+          "m": "Nói vị trí hồ bơi (ví dụ: ngoài trời, tầng trệt).",
+          "h": "Use 'It is' + place",
+          "s": "The pool is outside on the ground floor near the garden."
+        },
+        {
+          "p": "How do I go to the gym?",
+          "m": "Nói cách đi ngắn: thang máy hoặc cầu thang và tầng.",
+          "h": "Use 'Take the elevator' or 'Go up' + floor",
+          "s": "Take the elevator to the second floor; the gym is on the left."
+        },
+        {
+          "p": "Is the pool open now?",
+          "m": "Trả lời có/không và nêu giờ mở nếu cần.",
+          "h": "Use 'Yes, it is' or 'No, it isn't' + time",
+          "s": "Yes, it is open; the pool is open from eight to eight."
+        },
+        {
+          "p": "Can I swim at night?",
+          "m": "Nói có thể hay không và nêu lý do ngắn nếu không.",
+          "h": "Use 'Yes, you can' or 'No, you can't' + short reason",
+          "s": "No, you can't swim at night; the pool closes at eight."
+        },
+        {
+          "p": "Where are the lockers for the gym?",
+          "m": "Nói vị trí tủ đồ trong phòng tập hoặc gần đó.",
+          "h": "Use 'They are' + place",
+          "s": "They are inside the gym, near the shower area."
+        }
+      ]
+    },
+    {
+      "t": "Đi ra bến taxi và bến xe",
+      "e": [
+        {
+          "p": "Where is the taxi stand?",
+          "m": "Nói vị trí bến taxi so với lối ra khách sạn.",
+          "h": "Use 'It is' + place + 'near/next to...'",
+          "s": "The taxi stand is outside the main exit, next to the bus stop."
+        },
+        {
+          "p": "How can I get to the bus stop?",
+          "m": "Cho hướng ngắn từ lối ra chính đến trạm xe buýt.",
+          "h": "Use 'Go out' + direction + 'then' + place",
+          "s": "Go out the main door, turn left, and walk two minutes to the bus stop."
+        },
+        {
+          "p": "Is there a taxi now?",
+          "m": "Trả lời có/không và nêu cách gọi taxi nếu không có.",
+          "h": "Use 'Yes, there is' or 'No, there isn't' + how to call",
+          "s": "No, there isn't a taxi now; the reception can call one for you."
+        },
+        {
+          "p": "Can I get a taxi at night from here?",
+          "m": "Nói có thể hay không và nêu gợi ý ngắn.",
+          "h": "Use 'Yes, you can' or 'No, you can't' + option",
+          "s": "Yes, you can get a taxi at night; ask reception to call one."
+        },
+        {
+          "p": "How long to walk to the bus station?",
+          "m": "Nói thời gian đi bộ bằng phút.",
+          "h": "Use 'It takes' + number + 'minutes'",
+          "s": "It takes about five minutes to the bus station on foot."
+        }
+      ]
+    },
+    {
+      "t": "Tìm phòng vệ sinh và tiện ích nhỏ",
+      "e": [
+        {
+          "p": "Where is the nearest restroom?",
+          "m": "Nói vị trí phòng vệ sinh gần nhất trong tầng hoặc khu vực.",
+          "h": "Use 'It is' + place + 'near/by...'",
+          "s": "The nearest restroom is next to the reception on the ground floor."
+        },
+        {
+          "p": "How do I find a vending machine?",
+          "m": "Nói hướng ngắn đến máy bán hàng tự động.",
+          "h": "Use 'Go to' + place + 'then' + location",
+          "s": "Go to the lobby, then walk straight; the vending machine is by the elevators."
+        },
+        {
+          "p": "Is there a laundry room?",
+          "m": "Trả lời có/không và nêu vị trí nếu có.",
+          "h": "Use 'Yes, there is...' or 'No, there isn't...'",
+          "s": "Yes, there is a laundry room on the basement floor."
+        },
+        {
+          "p": "Can I buy water at the hotel?",
+          "m": "Nói có thể hay không và nêu nơi mua nước trong khách sạn.",
+          "h": "Use 'Yes, you can' or 'No, you can't' + place",
+          "s": "Yes, you can buy water at the reception desk."
+        },
+        {
+          "p": "Where is the lost and found?",
+          "m": "Nói vị trí hoặc ai phụ trách đồ thất lạc.",
+          "h": "Use 'It is at' or 'Ask' + person",
+          "s": "It is at the reception; ask the front desk staff."
+        }
+      ]
+    },
+    {
+      "t": "Chỉ đường đến phòng hội nghị",
+      "e": [
+        {
+          "p": "Where is the conference room A?",
+          "m": "Nói tầng và vị trí phòng hội nghị A.",
+          "h": "Use 'It is on the...' + floor + 'near/next to...'",
+          "s": "Conference room A is on the second floor, next to the elevators."
+        },
+        {
+          "p": "How do I go to the meeting room from the lobby?",
+          "m": "Cho hướng ngắn: thang máy/cầu thang và hành lang.",
+          "h": "Use 'Take the elevator' or 'Go up' + then + direction",
+          "s": "Take the elevator to the second floor and turn right at the corridor."
+        },
+        {
+          "p": "Is the meeting room open now?",
+          "m": "Trả lời có/không và nêu thời gian nếu cần.",
+          "h": "Use 'Yes, it is' or 'No, it isn't' + time",
+          "s": "No, it isn't open now; it opens at nine o'clock."
+        },
+        {
+          "p": "Can I book the conference room for two hours?",
+          "m": "Trả lời có thể hay không và nêu cách đặt phòng.",
+          "h": "Use 'Yes, you can' or 'No, you can't' + how to book",
+          "s": "Yes, you can book it; please call reception to reserve two hours."
+        },
+        {
+          "p": "Where is the projector in the meeting room?",
+          "m": "Nói vị trí thiết bị trong phòng họp.",
+          "h": "Use 'It is' + place (e.g., 'on the ceiling', 'at the front')",
+          "s": "The projector is on the ceiling at the front of the room."
+        }
+      ]
+    },
+    {
+      "t": "Hỏi về lối thoát và cầu thang",
+      "e": [
+        {
+          "p": "Where is the emergency exit?",
+          "m": "Nói vị trí lối thoát khẩn cấp gần nhất.",
+          "h": "Use 'It is' + place + 'near/by...'",
+          "s": "The emergency exit is at the end of the corridor on the left."
+        },
+        {
+          "p": "How do I find the stairs?",
+          "m": "Cho hướng ngắn đến cầu thang từ vị trí hiện tại (ví dụ: reception).",
+          "h": "Use 'Go to' + place + 'then' + direction",
+          "s": "Go past the reception, then turn right; the stairs are there."
+        },
+        {
+          "p": "Is the fire exit open now?",
+          "m": "Trả lời có/không và nêu nếu có hạn chế.",
+          "h": "Use 'Yes, it is' or 'No, it isn't' + short reason",
+          "s": "Yes, it is open but use it only in an emergency."
+        },
+        {
+          "p": "Can I use the emergency exit to go outside?",
+          "m": "Nói có thể hay không và nêu lời khuyên ngắn.",
+          "h": "Use 'You can' or 'You can't' + reason",
+          "s": "No, you can't use it for regular exit; it is for emergencies only."
+        },
+        {
+          "p": "How long to walk to the stairs from room 210?",
+          "m": "Nói thời gian đi bộ bằng phút từ phòng 210 đến cầu thang.",
+          "h": "Use 'It takes' + number + 'minutes'",
+          "s": "It takes about two minutes from room 210 to the stairs."
+        }
+      ]
+    },
+    {
+      "t": "Hướng đi đến cửa hàng tạp hóa gần khách sạn",
+      "e": [
+        {
+          "p": "Is there a grocery store near the hotel?",
+          "m": "Trả lời có/không và nêu vị trí nếu có.",
+          "h": "Use 'Yes, there is...' or 'No, there isn't...'",
+          "s": "Yes, there is a small grocery store two blocks from the hotel."
+        },
+        {
+          "p": "How do I walk to the grocery store?",
+          "m": "Cho hướng ngắn từ khách sạn đến cửa hàng (đường, trái/phải).",
+          "h": "Use 'Go out' + direction + 'then' + place",
+          "s": "Go out the main door, turn right, and walk straight two minutes."
+        },
+        {
+          "p": "Is the store open on Sundays?",
+          "m": "Trả lời có/không và nêu giờ nếu mở.",
+          "h": "Use 'Yes, it is' or 'No, it isn't' + time",
+          "s": "Yes, it is open on Sundays from eight to five."
+        },
+        {
+          "p": "Can I buy snacks there late at night?",
+          "m": "Nói có thể hay không và gợi ý khác nếu không.",
+          "h": "Use 'Yes, you can' or 'No, you can't' + alternative",
+          "s": "No, you can't buy snacks there late; try the 24-hour shop two streets away."
+        },
+        {
+          "p": "How far is the supermarket from here?",
+          "m": "Nói khoảng cách bằng phút đi bộ.",
+          "h": "Use 'It takes' + number + 'minutes' or 'It is' + number + 'minutes away'",
+          "s": "It is about ten minutes away on foot."
+        }
+      ]
+    },
+    {
+      "t": "Đến trạm xe buýt và ga",
+      "e": [
+        {
+          "p": "Where is the train station?",
+          "m": "Nói hướng và khoảng cách đến ga tàu.",
+          "h": "Use 'It is' + place + 'from here' or 'It takes' + time",
+          "s": "The train station is two kilometers from here; it takes about ten minutes by taxi."
+        },
+        {
+          "p": "How do I get to the bus stop for the city center?",
+          "m": "Cho hướng đến trạm xe buýt cụ thể cho trung tâm thành phố.",
+          "h": "Use 'Go to' + place + 'then' + direction",
+          "s": "Go out, turn left, and take the second right; the bus stop is there."
+        },
+        {
+          "p": "Is there a direct bus to the airport?",
+          "m": "Trả lời có/không và nêu nếu có tuyến trực tiếp.",
+          "h": "Use 'Yes, there is' or 'No, there isn't' + short detail",
+          "s": "Yes, there is a direct bus to the airport from the main bus stop."
+        },
+        {
+          "p": "Can I buy a ticket at the bus stop?",
+          "m": "Nói có thể hay không và nêu cách mua vé nếu không.",
+          "h": "Use 'Yes, you can' or 'No, you can't' + how",
+          "s": "No, you can't buy a ticket at the stop; buy it on the bus or at the station."
+        },
+        {
+          "p": "How long to walk to the central station?",
+          "m": "Nói thời gian đi bộ bằng phút hoặc nói không thể đi bộ nếu quá xa.",
+          "h": "Use 'It takes' + number + 'minutes' or 'It is too far to walk'",
+          "s": "It takes about twenty minutes to walk to the central station."
+        }
+      ]
+    },
+    {
+      "t": "Hướng dẫn đến điểm tham quan gần khách sạn",
+      "e": [
+        {
+          "p": "Is there a museum near here?",
+          "m": "Trả lời có/không và nêu khoảng cách nếu có.",
+          "h": "Use 'Yes, there is...' or 'No, there isn't...'",
+          "s": "Yes, there is a small museum ten minutes from the hotel."
+        },
+        {
+          "p": "How do I walk to the park?",
+          "m": "Cho hướng đi bộ đến công viên gần nhất.",
+          "h": "Use 'Go straight' + number + 'minutes' + 'then' + direction",
+          "s": "Go straight for five minutes, then turn left; the park is on your right."
+        },
+        {
+          "p": "Is the museum open today?",
+          "m": "Trả lời có/không và nêu giờ mở cửa nếu có.",
+          "h": "Use 'Yes, it is' or 'No, it isn't' + time",
+          "s": "No, it isn't open today; it opens at ten in the morning."
+        },
+        {
+          "p": "Can I walk to the old town from here?",
+          "m": "Nói có thể đi bộ không và nêu thời gian nếu có thể.",
+          "h": "Use 'Yes, you can' + time or 'No, you can't'",
+          "s": "Yes, you can walk; it takes about fifteen minutes."
+        },
+        {
+          "p": "Where is the nearest souvenir shop?",
+          "m": "Nói vị trí hoặc hướng ngắn đến cửa hàng quà lưu niệm.",
+          "h": "Use 'It is' + place or 'Go to' + place",
+          "s": "It is near the museum, just across the street."
+        }
+      ]
+    },
+    {
+      "t": "Gửi khách tới bệnh viện/nhà thuốc",
+      "e": [
+        {
+          "p": "Is there a pharmacy nearby?",
+          "m": "Trả lời có/không và nêu vị trí nếu có.",
+          "h": "Use 'Yes, there is...' or 'No, there isn't...'",
+          "s": "Yes, there is a pharmacy two blocks away on Main Street."
+        },
+        {
+          "p": "How do I get to the hospital?",
+          "m": "Cho hướng ngắn hoặc cách gọi phương tiện để đến bệnh viện.",
+          "h": "Use 'Take a taxi' or 'Go to' + place",
+          "s": "Take a taxi from the taxi stand; the hospital is ten minutes by car."
+        },
+        {
+          "p": "Is the pharmacy open 24 hours?",
+          "m": "Trả lời có/không và nêu giờ nếu không phải 24h.",
+          "h": "Use 'Yes, it is' or 'No, it isn't' + hours",
+          "s": "No, it isn't open 24 hours; it is open from nine to nine."
+        },
+        {
+          "p": "Can the reception call a doctor?",
+          "m": "Trả lời có thể hay không và nêu bước tiếp theo nếu có.",
+          "h": "Use 'Yes, we can' or 'No, we can't' + what to do",
+          "s": "Yes, we can call a doctor; please tell reception your room number."
+        },
+        {
+          "p": "How long to walk to the pharmacy from the hotel?",
+          "m": "Nói thời gian đi bộ bằng phút.",
+          "h": "Use 'It takes' + number + 'minutes'",
+          "s": "It takes about five minutes to walk to the pharmacy."
+        }
+      ]
+    },
+    {
+      "t": "Hướng dẫn thanh toán và trả phòng",
+      "e": [
+        {
+          "p": "Where do I pay my bill?",
+          "m": "Nói nơi thanh toán trong khách sạn (ví dụ: reception).",
+          "h": "Use 'You pay' or 'At' + place",
+          "s": "You pay at the reception desk on the ground floor."
+        },
+        {
+          "p": "Can I check out at noon?",
+          "m": "Trả lời có/không và nêu giờ trả phòng chuẩn nếu khác.",
+          "h": "Use 'Yes, you can' or 'No, you can't' + time",
+          "s": "No, check-out is at eleven, but you can request a late check-out."
+        },
+        {
+          "p": "Is luggage storage available after check-out?",
+          "m": "Trả lời có/không và nêu vị trí gửi hành lý nếu có.",
+          "h": "Use 'Yes, we have...' or 'No, we don't...'",
+          "s": "Yes, we have luggage storage at the reception."
+        },
+        {
+          "p": "Can I pay by card?",
+          "m": "Nói có thể hay không và nêu loại thanh toán nếu cần.",
+          "h": "Use 'Yes, you can' or 'No, you can't' + payment type",
+          "s": "Yes, you can pay by card or cash at reception."
+        },
+        {
+          "p": "How do I get my taxi after check-out?",
+          "m": "Nêu cách gọi taxi hoặc vị trí bến taxi sau khi trả phòng.",
+          "h": "Use 'Call' + person or 'Go to' + place",
+          "s": "Call reception to request a taxi; the taxi will wait at the main exit."
+        }
+      ]
+    },
+    {
+      "t": "Giúp khách hỏi thông tin chung về khu vực",
+      "e": [
+        {
+          "p": "Where can I buy a SIM card?",
+          "m": "Nói vị trí cửa hàng bán SIM hoặc cách mua.",
+          "h": "Use 'You can buy' + place",
+          "s": "You can buy a SIM card at the shop near the train station."
+        },
+        {
+          "p": "How do I get to the nearest bank?",
+          "m": "Cho hướng ngắn đến ngân hàng gần nhất.",
+          "h": "Use 'Go straight' + then + 'turn' + direction",
+          "s": "Go straight for three minutes, then turn right; the bank is there."
+        },
+        {
+          "p": "Is there a post office nearby?",
+          "m": "Trả lời có/không và nêu vị trí nếu có.",
+          "h": "Use 'Yes, there is...' or 'No, there isn't...'",
+          "s": "Yes, there is a post office next to the city hall."
+        },
+        {
+          "p": "Can I walk to the market from here?",
+          "m": "Nói có thể đi bộ không và nêu thời gian nếu có thể.",
+          "h": "Use 'Yes, you can' + time or 'No, you can't'",
+          "s": "Yes, you can walk; it takes about twelve minutes."
+        },
+        {
+          "p": "Where is the tourist information desk?",
+          "m": "Nói vị trí quầy thông tin du lịch gần nhất.",
+          "h": "Use 'It is' + place",
+          "s": "It is in the lobby next to the reception desk."
+        }
+      ]
+    },
+    {
+      "t": "Hỏi và hướng dẫn về dịch vụ phụ trợ (đổi tiền, gửi đồ)",
+      "e": [
+        {
+          "p": "Can I exchange money here?",
+          "m": "Trả lời có/không và nêu vị trí đổi tiền nếu có.",
+          "h": "Use 'Yes, you can' or 'No, you can't' + place",
+          "s": "Yes, you can exchange money at the reception desk."
+        },
+        {
+          "p": "How do I send a package?",
+          "m": "Nói cách gửi bưu phẩm hoặc nơi gửi gần nhất.",
+          "h": "Use 'Take it to' or 'Ask' + person",
+          "s": "Take your package to the post office or ask reception to help."
+        },
+        {
+          "p": "Is there a safe for valuables?",
+          "m": "Trả lời có/không và nêu cách dùng két an toàn nếu có.",
+          "h": "Use 'Yes, there is' or 'No, there isn't' + how to use",
+          "s": "Yes, there is a safe at reception; leave your items and sign a form."
+        },
+        {
+          "p": "Can I get a wake-up call?",
+          "m": "Trả lời có/không và nêu cách đặt cuộc gọi đánh thức.",
+          "h": "Use 'Yes, you can' + how to request",
+          "s": "Yes, you can; tell reception your room number and time."
+        },
+        {
+          "p": "Where do I leave my luggage for a day trip?",
+          "m": "Nói nơi gửi hành lý ngắn gọn.",
+          "h": "Use 'Leave it at' + place",
+          "s": "Leave your luggage at the reception storage room."
+        }
+      ]
+    },
+    {
+      "t": "Ôn tập: Đi từ lễ tân tới nhiều nơi",
+      "e": [
+        {
+          "p": "How do I get to the restaurant and then to the pool?",
+          "m": "Nói thứ tự và hướng đi ngắn: tới nhà hàng rồi hồ bơi.",
+          "h": "Use 'First' + action, 'then' + action",
+          "s": "First go to the first floor for the restaurant, then walk outside to the pool."
+        },
+        {
+          "p": "Can I walk to the museum and then take a bus to the station?",
+          "m": "Trả lời có/không và nêu cách đi nếu có thể.",
+          "h": "Use 'Yes, you can' or 'No, you can't' + short plan",
+          "s": "Yes, you can walk to the museum, then take the bus from the stop near the museum."
+        },
+        {
+          "p": "Where is the nearest restroom and the vending machine?",
+          "m": "Nêu vị trí cả hai tiện ích ngắn gọn.",
+          "h": "List with 'and' or commas: 'It is' + place",
+          "s": "The restroom is next to reception, and the vending machine is by the elevators."
+        },
+        {
+          "p": "How long to walk to the bus stop and to the grocery store?",
+          "m": "Nói thời gian đi bộ cho cả hai nơi (phút).",
+          "h": "Use 'It takes' + number + 'minutes' for each",
+          "s": "It takes five minutes to the bus stop and ten minutes to the grocery store."
+        },
+        {
+          "p": "Can reception call a taxi and a doctor for me?",
+          "m": "Nói có thể hay không cho cả hai yêu cầu và cách làm.",
+          "h": "Use 'Yes, we can' or 'No, we can't' + what to do",
+          "s": "Yes, we can call both; tell reception your room number and needs."
+        }
+      ]
+    },
+    {
+      "t": "Ôn tập: Tình huống ngoài khách sạn",
+      "e": [
+        {
+          "p": "How do I go to the old town and buy a SIM card there?",
+          "m": "Nói hướng tới phố cổ và nơi mua SIM ngắn gọn.",
+          "h": "Use 'Go' + direction, then 'You can buy' + place",
+          "s": "Go straight to the main road to reach the old town; you can buy a SIM card at the small shop there."
+        },
+        {
+          "p": "Is the market open on Sundays and can I walk there?",
+          "m": "Trả lời cả hai: mở cửa vào chủ nhật và có thể đi bộ không.",
+          "h": "Use two short sentences: 'Yes/No' + details",
+          "s": "Yes, the market is open on Sundays, and you can walk there in about ten minutes."
+        },
+        {
+          "p": "Where is the nearest bank and how long by foot?",
+          "m": "Nêu vị trí ngân hàng và thời gian đi bộ.",
+          "h": "Use 'It is' + place and 'It takes' + minutes",
+          "s": "The nearest bank is on Main Street, and it takes five minutes on foot."
+        },
+        {
+          "p": "Can I take a direct bus to the airport from the hotel area?",
+          "m": "Trả lời có/không và nêu điểm đón nếu có.",
+          "h": "Use 'Yes, there is' or 'No, there isn't' + where",
+          "s": "Yes, there is a direct bus from the main bus stop near the hotel."
+        },
+        {
+          "p": "How do I find a pharmacy and a post office in town?",
+          "m": "Nêu hướng ngắn cho cả hai địa điểm.",
+          "h": "Use 'Go to' + place, then 'then' + place",
+          "s": "Go to the city center; the pharmacy is on the left and the post office is next to the city hall."
+        }
+      ]
+    },
+    {
+      "t": "Ôn tập: Xử lý yêu cầu nhanh",
+      "e": [
+        {
+          "p": "I need a taxi and I need water, please.",
+          "m": "Nói cách gọi taxi và nơi mua nước trong khách sạn.",
+          "h": "Use two short commands/info: 'Call' and 'Buy' or 'At'",
+          "s": "Call a taxi at the reception; you can buy water at the reception desk."
+        },
+        {
+          "p": "My room is on the first floor; where is the nearest exit?",
+          "m": "Nêu vị trí lối thoát gần phòng tầng một.",
+          "h": "Use 'The exit is' + location",
+          "s": "The nearest exit is at the end of the hall on the right."
+        },
+        {
+          "p": "Can I get a wake-up call and store my luggage after check-out?",
+          "m": "Trả lời cả hai yêu cầu và nêu cách thực hiện.",
+          "h": "Use 'Yes, we can' + actions",
+          "s": "Yes, we can arrange a wake-up call and store your luggage at reception."
+        },
+        {
+          "p": "Is there someone to help me with directions to the museum now?",
+          "m": "Trả lời có/không và nêu ai hỗ trợ nếu có.",
+          "h": "Use 'Yes, the reception can' or 'No, but' + alternative",
+          "s": "Yes, the reception can help you with directions and a map."
+        },
+        {
+          "p": "How do I get both the restaurant and the pharmacy today?",
+          "m": "Nêu lộ trình ngắn để tới nhà hàng rồi nhà thuốc trong cùng một chuyến.",
+          "h": "Use 'First' + action, 'then' + action",
+          "s": "First go to the restaurant on the first floor, then walk outside and turn left to find the pharmacy two blocks away."
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,530 @@
+{
+  "l": 2,
+  "d": [
+    {
+      "t": "Gặp khách hàng mới",
+      "e": [
+        {
+          "p": "What's your name and how old are you?",
+          "m": "1. Nêu tên bằng placeholder. 2. Nêu tuổi bằng placeholder.",
+          "h": "My name is [studentName]. I am [studentAge] years old.",
+          "s": "My name is [studentName]. I am [studentAge] years old."
+        },
+        {
+          "p": "Where do you live and what do you like to do?",
+          "m": "1. Nêu nơi sống bằng placeholder. 2. Nêu một sở thích ngắn.",
+          "h": "I live in [studentCity]. I like + V-ing / I like + N.",
+          "s": "I live in [studentCity]. I like cooking."
+        },
+        {
+          "p": "Do you often shop and where do you shop?",
+          "m": "1. Nói tần suất mua sắm (always/often/sometimes/never). 2. Nói địa điểm mua sắm ngắn gọn.",
+          "h": "Use adverb of frequency + simple present. Use at/in + place.",
+          "s": "I often shop. I shop at the local market."
+        },
+        {
+          "p": "What do you need now and why?",
+          "m": "1. Nói bạn cần gì (I need + N / to V). 2. Nói lý do ngắn gọn.",
+          "h": "Use I need + N / to V. Use because / for + reason.",
+          "s": "I need a new bag. I need it for work."
+        },
+        {
+          "p": "Are you happy with our service and what is one problem?",
+          "m": "1. Nói bạn có hài lòng hay không (I am / I am not + adjective). 2. Nêu một vấn đề ngắn.",
+          "h": "Use I am / I am not + happy/satisfied. Use a simple problem sentence.",
+          "s": "I am happy with your service. The delivery is slow."
+        }
+      ]
+    },
+    {
+      "t": "Hỏi về thói quen mua sắm",
+      "e": [
+        {
+          "p": "How often do you buy clothes and where?",
+          "m": "1. Nói tần suất (every week/month, often, sometimes). 2. Nói nơi mua sắm.",
+          "h": "Use Present Simple + adverb of frequency. Use at/in + place.",
+          "s": "I buy clothes every month. I buy them at the mall."
+        },
+        {
+          "p": "Do you prefer online shopping and why?",
+          "m": "1. Nói thích hay không (I prefer / I don't prefer). 2. Nói lý do ngắn.",
+          "h": "Use I prefer + -ing or I don't prefer + reason.",
+          "s": "I prefer online shopping. It is faster."
+        },
+        {
+          "p": "How much do you spend on shopping each month and do you compare prices?",
+          "m": "1. Nói số tiền chung (use 'about' + amount word). 2. Nói có so sánh giá hay không.",
+          "h": "Use About + number + dollars/vnd. Use Yes/No + short reason.",
+          "s": "I spend about fifty dollars each month. I sometimes compare prices."
+        },
+        {
+          "p": "Who do you shop with and when?",
+          "m": "1. Nói người đi cùng (alone/friend/family). 2. Nói thời gian thường đi (every weekend / in the evening).",
+          "h": "Use I go alone / with my friend. Use every/each + time phrase.",
+          "s": "I shop with my sister. We go every weekend."
+        },
+        {
+          "p": "What do you like to buy and why?",
+          "m": "1. Nêu một loại hàng bạn thích mua. 2. Nêu lý do ngắn gọn.",
+          "h": "Use I like + N / I like + V-ing. Use because + reason.",
+          "s": "I like to buy shoes. I buy them because they are comfortable."
+        }
+      ]
+    },
+    {
+      "t": "Tìm hiểu nhu cầu sản phẩm",
+      "e": [
+        {
+          "p": "What do you need in a phone and how often do you use it?",
+          "m": "1. Nói một tính năng cần thiết. 2. Nói tần suất sử dụng (often/sometimes).",
+          "h": "Use I need + N / to V. Use I use it + adverb of frequency.",
+          "s": "I need a good camera. I use it every day."
+        },
+        {
+          "p": "Do you want a cheap product and why?",
+          "m": "1. Nói muốn rẻ hay không (I want / I don't want). 2. Nói lý do ngắn.",
+          "h": "Use I want / I don't want + adjective. Use because + reason.",
+          "s": "I don't want a cheap product. I want good quality."
+        },
+        {
+          "p": "How many features do you need and name one?",
+          "m": "1. Nói số lượng tính năng (There are + number). 2. Nêu một tính năng ngắn.",
+          "h": "Use There are + number + features. Use simple feature phrase.",
+          "s": "There are two main features I need. One is long battery life."
+        },
+        {
+          "p": "Who uses the product and for what?",
+          "m": "1. Nói người sử dụng (I / my family / students). 2. Nói mục đích sử dụng ngắn.",
+          "h": "Use My + family / I + use it for + activity.",
+          "s": "My family uses the product. We use it for study."
+        },
+        {
+          "p": "Would you like a simple design and what color?",
+          "m": "1. Nói thích thiết kế đơn giản hay không. 2. Nói màu sắc ưa thích.",
+          "h": "Use I like / I don't like + simple design. Use I like + color.",
+          "s": "I like a simple design. I like the blue color."
+        }
+      ]
+    },
+    {
+      "t": "Thói quen dùng thiết bị",
+      "e": [
+        {
+          "p": "Do you use a smartphone and how many hours per day?",
+          "m": "1. Nói có dùng smartphone hay không. 2. Nói số giờ/ngày (short).",
+          "h": "Use I use / I don't use. Use I use it + number + hours.",
+          "s": "I use a smartphone. I use it three hours a day."
+        },
+        {
+          "p": "Which app do you use the most and why?",
+          "m": "1. Nêu app. 2. Nêu lý do ngắn.",
+          "h": "Use I use + app name. Use because + reason.",
+          "s": "I use a messaging app the most. I use it because I talk to friends."
+        },
+        {
+          "p": "Do you buy on your phone and how often?",
+          "m": "1. Nói có mua hàng trên điện thoại không. 2. Nói tần suất (often/sometimes).",
+          "h": "Use I buy / I don't buy on my phone. Use adverb of frequency.",
+          "s": "I buy on my phone sometimes. I buy online twice a month."
+        },
+        {
+          "p": "Are you comfortable with online payments and why?",
+          "m": "1. Nói có thoải mái với thanh toán online hay không. 2. Nói lý do ngắn.",
+          "h": "Use I am comfortable / I am not comfortable. Use because + reason.",
+          "s": "I am comfortable with online payments. It is quick and easy."
+        },
+        {
+          "p": "Do you change devices often and when?",
+          "m": "1. Nói có đổi thiết bị thường không. 2. Nói thời điểm hoặc lý do ngắn.",
+          "h": "Use I change devices often/sometimes. Use when / because + reason.",
+          "s": "I don't change devices often. I change when the old one breaks."
+        }
+      ]
+    },
+    {
+      "t": "Thông tin độ tuổi và gia đình",
+      "e": [
+        {
+          "p": "How old are you and do you have children?",
+          "m": "1. Nêu tuổi bằng placeholder. 2. Nói có con hay không (Yes/No).",
+          "h": "Use I am [studentAge] years old. Use I have / I don't have children.",
+          "s": "I am [studentAge] years old. I don't have children."
+        },
+        {
+          "p": "Do you live with family and who?",
+          "m": "1. Nói sống với gia đình hay không. 2. Nói người cụ thể (parents/sibling).",
+          "h": "Use I live with + family member / alone.",
+          "s": "I live with my parents. My mother and father live with me."
+        },
+        {
+          "p": "What is your age group and what do you like?",
+          "m": "1. Nói nhóm tuổi ngắn (young/middle/old). 2. Nêu một sở thích phù hợp.",
+          "h": "Use I am young / middle-aged. Use I like + activity.",
+          "s": "I am young. I like watching movies."
+        },
+        {
+          "p": "Does your family buy this product and why?",
+          "m": "1. Nói gia đình có mua sản phẩm này hay không. 2. Nêu lý do ngắn.",
+          "h": "Use My family buys / doesn't buy. Use because + reason.",
+          "s": "My family buys this product. We buy it because it is useful."
+        },
+        {
+          "p": "Who makes the buying decision at home and how?",
+          "m": "1. Nói ai quyết định (I / my parents). 2. Nói cách quyết định ngắn (discuss / decide).",
+          "h": "Use My + family member + decides. Use we discuss / we decide together.",
+          "s": "My mother makes the buying decision. We discuss it together."
+        }
+      ]
+    },
+    {
+      "t": "Thói quen giải trí của khách hàng",
+      "e": [
+        {
+          "p": "What do you do for fun and how often?",
+          "m": "1. Nêu một hoạt động giải trí. 2. Nói tần suất (often/sometimes).",
+          "h": "Use I watch/play/read. Use adverb of frequency.",
+          "s": "I watch TV for fun. I watch TV often."
+        },
+        {
+          "p": "Do you go out with friends and where?",
+          "m": "1. Nói có đi chơi với bạn hay không. 2. Nói địa điểm thường đi.",
+          "h": "Use I go out with friends / I don't. Use at/to + place.",
+          "s": "I go out with friends. We go to the cafe."
+        },
+        {
+          "p": "Do you enjoy online videos and why?",
+          "m": "1. Nói có thích video trực tuyến không. 2. Nói lý do ngắn.",
+          "h": "Use I enjoy / I don't enjoy. Use because + reason.",
+          "s": "I enjoy online videos. They are fun and fast."
+        },
+        {
+          "p": "How much time do you spend on hobbies and which one?",
+          "m": "1. Nói thời gian cho sở thích (about X hours). 2. Nêu sở thích cụ thể.",
+          "h": "Use I spend about + number + hours. Use I like + activity.",
+          "s": "I spend about two hours on my hobby. I play the guitar."
+        },
+        {
+          "p": "Do you prefer solo activities or group and why?",
+          "m": "1. Nói thích hoạt động cá nhân hay nhóm. 2. Nói lý do ngắn.",
+          "h": "Use I prefer solo/group activities. Use because + reason.",
+          "s": "I prefer group activities. I like talking with friends."
+        }
+      ]
+    },
+    {
+      "t": "Phản hồi về giá cả",
+      "e": [
+        {
+          "p": "Is price important to you and why?",
+          "m": "1. Nói giá có quan trọng không. 2. Nêu lý do ngắn.",
+          "h": "Use Price is important / not important. Use because + reason.",
+          "s": "Price is important to me. I have a small budget."
+        },
+        {
+          "p": "How much do you pay for this service and is it good value?",
+          "m": "1. Nói số tiền chung (about + amount). 2. Nói có xứng đáng hay không (Yes/No + reason).",
+          "h": "Use About + number. Use Yes/No + it is + adjective.",
+          "s": "I pay about twenty dollars. It is good value."
+        },
+        {
+          "p": "Do you prefer cheap or high quality and which?",
+          "m": "1. Nói thích rẻ hay chất lượng cao. 2. Nêu lựa chọn ngắn.",
+          "h": "Use I prefer cheap / I prefer quality. Use because + reason.",
+          "s": "I prefer high quality. I want items that last."
+        },
+        {
+          "p": "When do you buy sale items and where?",
+          "m": "1. Nói khi nào bạn mua hàng giảm giá. 2. Nói nơi mua hàng giảm giá.",
+          "h": "Use I buy sale items when + time. Use at/in + place.",
+          "s": "I buy sale items in December. I buy them at the mall."
+        },
+        {
+          "p": "Do you check reviews before buying and how?",
+          "m": "1. Nói có đọc đánh giá trước khi mua không. 2. Nói cách bạn đọc (online/recommendation).",
+          "h": "Use I check reviews / I don't. Use online / ask friends.",
+          "s": "I check reviews before buying. I read them online."
+        }
+      ]
+    },
+    {
+      "t": "Kênh thông tin và quảng cáo",
+      "e": [
+        {
+          "p": "Where do you see ads and how often?",
+          "m": "1. Nói kênh thấy quảng cáo (TV/social media). 2. Nói tần suất (often/sometimes).",
+          "h": "Use I see ads on + channel. Use adverb of frequency.",
+          "s": "I see ads on social media. I see them often."
+        },
+        {
+          "p": "Do you like email offers and do you open them?",
+          "m": "1. Nói có thích email khuyến mãi không. 2. Nói có mở email hay không.",
+          "h": "Use I like / I don't like. Use I open them sometimes/never.",
+          "s": "I like email offers. I open them sometimes."
+        },
+        {
+          "p": "Which social app do you use and what for?",
+          "m": "1. Nêu ứng dụng xã hội. 2. Nói mục đích sử dụng ngắn.",
+          "h": "Use I use + app name. Use I use it for + activity.",
+          "s": "I use Facebook. I use it to see news."
+        },
+        {
+          "p": "Do you trust online ads and why?",
+          "m": "1. Nói có tin quảng cáo trực tuyến hay không. 2. Nêu lý do ngắn.",
+          "h": "Use I trust / I don't trust. Use because + reason.",
+          "s": "I don't trust online ads. They sometimes lie."
+        },
+        {
+          "p": "How do you prefer to hear about new products and from whom?",
+          "m": "1. Nói kênh ưa thích (friend/online/email). 2. Nói nguồn cụ thể (friends/company).",
+          "h": "Use I prefer to hear from + source. Use by + channel.",
+          "s": "I prefer to hear from friends. I hear from them by messages."
+        }
+      ]
+    },
+    {
+      "t": "Sự hài lòng và vấn đề",
+      "e": [
+        {
+          "p": "Are you satisfied and what do you like?",
+          "m": "1. Nói có hài lòng hay không. 2. Nêu một điểm bạn thích.",
+          "h": "Use I am satisfied / I am not satisfied. Use I like + N.",
+          "s": "I am satisfied. I like the fast support."
+        },
+        {
+          "p": "Do you have any problem and describe one?",
+          "m": "1. Nói có vấn đề hay không. 2. Mô tả một vấn đề ngắn.",
+          "h": "Use I have a problem / I don't. Describe problem in one sentence.",
+          "s": "I have a problem. The app closes quickly."
+        },
+        {
+          "p": "How do you solve problems and who helps?",
+          "m": "1. Nói cách bạn giải quyết (call/ask). 2. Nói ai giúp bạn (support/friend).",
+          "h": "Use I call / I ask. Use support team / a friend.",
+          "s": "I call customer support. They help me by phone."
+        },
+        {
+          "p": "Would you recommend us and why?",
+          "m": "1. Nói có giới thiệu hay không. 2. Nêu lý do ngắn.",
+          "h": "Use I would recommend / I would not recommend. Use because + reason.",
+          "s": "I would recommend you. Because your service is quick."
+        },
+        {
+          "p": "What change do you want and when?",
+          "m": "1. Nêu sự thay đổi mong muốn ngắn. 2. Nói thời gian mong muốn (now/soon).",
+          "h": "Use I want + N / to V. Use now / soon.",
+          "s": "I want better battery life. I want it soon."
+        }
+      ]
+    },
+    {
+      "t": "Lựa chọn theo tính năng",
+      "e": [
+        {
+          "p": "Do you like small or big products and why?",
+          "m": "1. Nói thích nhỏ hay lớn. 2. Nêu lý do ngắn.",
+          "h": "Use I like small / I like big. Use because + reason.",
+          "s": "I like small products. They are easy to carry."
+        },
+        {
+          "p": "Is color important and which color do you choose?",
+          "m": "1. Nói màu có quan trọng không. 2. Nói màu bạn chọn.",
+          "h": "Use Color is important / not important. Use I choose + color.",
+          "s": "Color is important to me. I choose black."
+        },
+        {
+          "p": "Do you prefer simple features and name one needed?",
+          "m": "1. Nói có thích tính năng đơn giản không. 2. Nêu một tính năng cần.",
+          "h": "Use I prefer simple features. Use One feature is + phrase.",
+          "s": "I prefer simple features. One feature is easy setup."
+        },
+        {
+          "p": "How many options do you want and give an example?",
+          "m": "1. Nói số lựa chọn mong muốn (There are/ I want). 2. Đưa ví dụ ngắn.",
+          "h": "Use I want + number + options / There are + number. Give simple example.",
+          "s": "I want three options. For example, small, medium, large."
+        },
+        {
+          "p": "Would you pay more for a feature and which feature?",
+          "m": "1. Nói có trả thêm tiền không. 2. Nêu tính năng bạn sẵn sàng trả.",
+          "h": "Use I would pay more / I would not. Use feature name simply.",
+          "s": "I would pay more for fast delivery. Fast delivery is important."
+        }
+      ]
+    },
+    {
+      "t": "Phân khúc theo nghề nghiệp",
+      "e": [
+        {
+          "p": "What is your job and do you need this product at work?",
+          "m": "1. Nêu nghề bằng placeholder. 2. Nói có cần sản phẩm tại nơi làm việc hay không.",
+          "h": "Use I am a [studentJob]. Use I need / I don't need at work.",
+          "s": "I am a [studentJob]. I need this product at work."
+        },
+        {
+          "p": "How many hours do you work and do you use tools?",
+          "m": "1. Nói số giờ làm việc/ngày (about X hours). 2. Nói có dùng công cụ liên quan không.",
+          "h": "Use I work about + number + hours. Use I use / I don't use + tools.",
+          "s": "I work about eight hours. I use simple tools at work."
+        },
+        {
+          "p": "Does your job need online access and why?",
+          "m": "1. Nói công việc có cần mạng không. 2. Nói lý do ngắn.",
+          "h": "Use My job needs online access / doesn't. Use because + reason.",
+          "s": "My job needs online access. Because I send emails."
+        },
+        {
+          "p": "Do your co-workers buy the same product and who?",
+          "m": "1. Nói đồng nghiệp có mua không. 2. Nêu ai nếu có.",
+          "h": "Use My co-workers buy / don't buy. Use one example person.",
+          "s": "My co-workers buy the same product. My manager buys it too."
+        },
+        {
+          "p": "Would a cheaper product help your job and how?",
+          "m": "1. Nói sản phẩm rẻ hơn có giúp không. 2. Nói cách giúp ngắn.",
+          "h": "Use Yes/No + simple reason. Use it helps by + verb-ing.",
+          "s": "Yes, a cheaper product would help. It helps by saving money."
+        }
+      ]
+    },
+    {
+      "t": "Mua hàng trực tuyến",
+      "e": [
+        {
+          "p": "Do you order online and how often?",
+          "m": "1. Nói có đặt hàng trực tuyến không. 2. Nói tần suất ngắn.",
+          "h": "Use I order online / I don't. Use adverb of frequency.",
+          "s": "I order online. I order twice a month."
+        },
+        {
+          "p": "Which payment method do you use and is it safe?",
+          "m": "1. Nêu phương thức thanh toán. 2. Nói có an toàn hay không.",
+          "h": "Use I use + payment method. Use It is safe / not safe.",
+          "s": "I use a credit card. It is safe."
+        },
+        {
+          "p": "Do you like fast delivery and how many days is OK?",
+          "m": "1. Nói có thích giao nhanh không. 2. Nói số ngày chấp nhận được.",
+          "h": "Use I like fast delivery / I don't. Use about + number + days.",
+          "s": "I like fast delivery. Two days is OK."
+        },
+        {
+          "p": "Do you read product descriptions and what do you check?",
+          "m": "1. Nói có đọc mô tả sản phẩm không. 2. Nói một điều bạn kiểm tra (size/price).",
+          "h": "Use I read / I don't read. Use I check + size/price.",
+          "s": "I read product descriptions. I check the price."
+        },
+        {
+          "p": "Would you use cash on delivery and why?",
+          "m": "1. Nói có dùng trả tiền khi nhận hàng không. 2. Nêu lý do ngắn.",
+          "h": "Use I would use / I would not use. Use because + reason.",
+          "s": "I would use cash on delivery. Because I feel safer."
+        }
+      ]
+    },
+    {
+      "t": "Ôn tập: Phỏng vấn khách hàng",
+      "e": [
+        {
+          "p": "What's your name and what city are you from?",
+          "m": "1. Nêu tên bằng placeholder. 2. Nói thành phố bằng placeholder.",
+          "h": "My name is [studentName]. I am from [studentCity].",
+          "s": "My name is [studentName]. I am from [studentCity]."
+        },
+        {
+          "p": "How old are you and do you work or study?",
+          "m": "1. Nêu tuổi bằng placeholder. 2. Nói bạn làm việc hay học (work/study).",
+          "h": "Use I am [studentAge] years old. Use I work / I study.",
+          "s": "I am [studentAge] years old. I study at [studentSchool]."
+        },
+        {
+          "p": "Do you often buy this and where do you buy it?",
+          "m": "1. Nói tần suất (often/sometimes). 2. Nói nơi mua (online/store).",
+          "h": "Use I often / sometimes. Use I buy at + place.",
+          "s": "I sometimes buy this. I buy it online."
+        },
+        {
+          "p": "What problem do you have and how do you solve it?",
+          "m": "1. Nêu một vấn đề ngắn. 2. Nêu cách bạn giải quyết (call/support/ask friend).",
+          "h": "Use short problem sentence. Use I call / I ask / I use support.",
+          "s": "I have a slow internet problem. I call customer support."
+        },
+        {
+          "p": "Would you recommend us and who would you tell?",
+          "m": "1. Nói có giới thiệu hay không. 2. Nói với ai (friend/family).",
+          "h": "Use I would recommend / I would not. Use I tell my + person.",
+          "s": "I would recommend you. I would tell my friend."
+        }
+      ]
+    },
+    {
+      "t": "Ôn tập: Phân loại theo độ tuổi và hành vi",
+      "e": [
+        {
+          "p": "How old are you and what do you like to buy?",
+          "m": "1. Nêu tuổi bằng placeholder. 2. Nêu loại hàng thường mua.",
+          "h": "Use I am [studentAge] years old. Use I like to buy + N.",
+          "s": "I am [studentAge] years old. I like to buy books."
+        },
+        {
+          "p": "Do you shop online and how often per month?",
+          "m": "1. Nói có mua online không. 2. Nói tần suất (number per month).",
+          "h": "Use I shop online / I don't. Use I shop + number + times a month.",
+          "s": "I shop online. I buy online three times a month."
+        },
+        {
+          "p": "What is one need for your age group and why?",
+          "m": "1. Nêu một nhu cầu ngắn. 2. Nói lý do ngắn.",
+          "h": "Use I need + N / to V. Use because + reason.",
+          "s": "I need easy payment. Because it saves time."
+        },
+        {
+          "p": "Do you like simple products and who in your group agrees?",
+          "m": "1. Nói có thích sản phẩm đơn giản không. 2. Nói ai đồng ý (friends/family).",
+          "h": "Use I like / I don't like. Use My friend / family agrees.",
+          "s": "I like simple products. My friends agree."
+        },
+        {
+          "p": "How do you learn about new items and where?",
+          "m": "1. Nói cách bạn biết về sản phẩm mới. 2. Nói nơi (social media/email).",
+          "h": "Use I learn from + source. Use on + platform.",
+          "s": "I learn from social media. I see them on Facebook."
+        }
+      ]
+    },
+    {
+      "t": "Ôn tập: Đề xuất giải pháp cho nhu cầu",
+      "e": [
+        {
+          "p": "What do you need and can this product help?",
+          "m": "1. Nêu nhu cầu ngắn. 2. Nói sản phẩm có giúp không (Yes/No).",
+          "h": "Use I need + N / to V. Use Yes/No + short reason.",
+          "s": "I need a fast charger. Yes, this product can help."
+        },
+        {
+          "p": "How much would you pay and do you want warranty?",
+          "m": "1. Nói số tiền chung (about + amount). 2. Nói có muốn bảo hành không.",
+          "h": "Use About + number. Use I want / I don't want warranty.",
+          "s": "I would pay about twenty dollars. I want a warranty."
+        },
+        {
+          "p": "Do you prefer delivery or pick-up and why?",
+          "m": "1. Nói thích giao hàng hay tự lấy. 2. Nêu lý do ngắn.",
+          "h": "Use I prefer delivery / pick-up. Use because + reason.",
+          "s": "I prefer delivery. Because it is convenient."
+        },
+        {
+          "p": "Will you try a free sample and when?",
+          "m": "1. Nói có thử mẫu miễn phí không. 2. Nói khi nào (now/this week).",
+          "h": "Use I will try / I won't try. Use now / this week / soon.",
+          "s": "I will try a free sample. I will try it this week."
+        },
+        {
+          "p": "Do you need help to choose and who helps?",
+          "m": "1. Nói có cần giúp chọn không. 2. Nói ai sẽ giúp (staff/friend).",
+          "h": "Use I need help / I don't need help. Use staff / my friend.",
+          "s": "I need help to choose. A staff member will help me."
+        }
+      ]
+    }
+  ]
+}

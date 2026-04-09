@@ -1,0 +1,600 @@
+{
+  "l": 3,
+  "d": [
+    {
+      "t": "Thanh toán khi trả phòng",
+      "e": [
+        {
+          "p": "Good morning. Are you ready to check out?",
+          "m": "Nói số phòng bạn đang ở. Nói bạn sẽ trả bằng tiền mặt hay bằng thẻ.",
+          "h": "My room is... / I will pay by...",
+          "s": "My room is 204. I will pay by card."
+        },
+        {
+          "p": "Here's your bill. Would you like me to explain the charges?",
+          "m": "Nói nếu bạn cần giải thích (Yes/No). Nếu cần, nêu 1 mục bạn muốn hỏi (ví dụ: minibar).",
+          "h": "Use 'Yes/No' and name the item (Past Simple if needed).",
+          "s": "Yes, please explain the minibar charge. I didn't use any snacks from the minibar."
+        },
+        {
+          "p": "We need your signature here. Do you agree with the total?",
+          "m": "Xác nhận bạn đồng ý hay không. Nếu không, nói mục bạn muốn kiểm tra.",
+          "h": "I agree / I don't agree + Please check ...",
+          "s": "I don't agree with the total. Please check the room service charge."
+        },
+        {
+          "p": "Do you want a printed receipt or an email copy?",
+          "m": "Nói bạn muốn nhận bản in hay email. Nếu chọn email, nói bạn sẽ đưa email ở quầy.",
+          "h": "I want... / I will give...",
+          "s": "I want an email copy. I will give my email at the desk."
+        },
+        {
+          "p": "Would you like help with your luggage or a taxi?",
+          "m": "Nói nếu bạn cần giúp mang hành lý hay không. Nói nếu bạn cần lễ tân gọi taxi.",
+          "h": "Yes, please... / No, thanks... + Please call...",
+          "s": "Yes, please help with my luggage. Also, please call a taxi for me."
+        }
+      ]
+    },
+    {
+      "t": "Hỏi về phương thức thanh toán",
+      "e": [
+        {
+          "p": "Do you prefer to pay in cash or by card?",
+          "m": "Nói bạn muốn trả tiền mặt hay thẻ. Nếu thẻ, nói 'by card' hoặc 'by debit/credit'.",
+          "h": "I will pay by... or I will pay in cash.",
+          "s": "I will pay by credit card. I will use the debit card later."
+        },
+        {
+          "p": "We accept Visa, MasterCard and cash. Which one will you use?",
+          "m": "Nói loại thẻ bạn sẽ dùng. Nếu dùng tiền mặt, nói bạn có đủ tiền hay không.",
+          "h": "I will use... / I have enough cash...",
+          "s": "I will use MasterCard. I have enough cash if the card doesn't work."
+        },
+        {
+          "p": "The card machine is asking for a PIN. Do you know your PIN?",
+          "m": "Nói nếu bạn biết PIN hay không. Nếu không, nói bạn sẽ làm gì (call bank/try another card).",
+          "h": "Yes, I know... / No, I will...",
+          "s": "No, I don't remember my PIN. I will call my bank now."
+        },
+        {
+          "p": "Would you like to put the remaining charge on your room or pay now?",
+          "m": "Nói bạn muốn trả bây giờ hay để tính vào phòng. Nếu để vào phòng, nói 'please charge my room.'",
+          "h": "I will pay now / Please charge my room.",
+          "s": "I will pay now. Please charge the minibar to my room if needed."
+        },
+        {
+          "p": "Do you want to add a tip to the card payment?",
+          "m": "Nói nếu bạn muốn thêm tip hay không. Nếu có, nêu số/percentage hoặc 'please add $X'.",
+          "h": "Yes, add... / No, thank you.",
+          "s": "Yes, add five dollars to the card. No need for cash tip."
+        }
+      ]
+    },
+    {
+      "t": "Yêu cầu hóa đơn/biên lai",
+      "e": [
+        {
+          "p": "Would you like an invoice for your company?",
+          "m": "Nói nếu bạn cần hóa đơn cho công ty hay không. Nếu có, nói bạn sẽ cung cấp thông tin công ty sau.",
+          "h": "Yes, I need... / No, thanks.",
+          "s": "Yes, I need an invoice for my company. I will give the company details at the desk."
+        },
+        {
+          "p": "Do you want the receipt in your name or the company name?",
+          "m": "Nói rõ tên trên hóa đơn (cá nhân hoặc công ty). Nếu công ty, nói 'company name'.",
+          "h": "Put it in my name / Put it in the company name...",
+          "s": "Put it in my name, please. My personal name is fine for the receipt."
+        },
+        {
+          "p": "We can email the invoice. Is that OK?",
+          "m": "Nói có đồng ý nhận hóa đơn qua email hay không. Nếu đồng ý, nói bạn sẽ cung cấp email sau tại quầy.",
+          "h": "Yes, please email it / No, I want a printed copy.",
+          "s": "Yes, please email it to me. I will give my email address at the desk."
+        },
+        {
+          "p": "Do you need a breakdown of room and service charges?",
+          "m": "Nói nếu bạn cần chi tiết các loại phí hay không. Nếu có, nêu bạn muốn xem mục nào (room/service/minibar).",
+          "h": "Yes, I need... / No, it's fine.",
+          "s": "Yes, I need a breakdown of room and service charges. Please show the minibar and laundry items."
+        },
+        {
+          "p": "Should we send a copy to your travel agency too?",
+          "m": "Nói nếu bạn muốn gửi hóa đơn cho đại lý hay không. Nếu có, nói bạn sẽ cung cấp tên đại lý.",
+          "h": "Yes, send it to... / No, don't send it.",
+          "s": "No, don't send it to the agency. I will keep the invoice myself."
+        }
+      ]
+    },
+    {
+      "t": "Hoàn trả tiền đặt cọc",
+      "e": [
+        {
+          "p": "You paid a deposit on arrival. Shall we refund it now?",
+          "m": "Xác nhận bạn muốn hoàn tiền đặt cọc bây giờ hay giữ lại. Nếu hoàn, nói bạn muốn nhận bằng card hay tiền mặt.",
+          "h": "Yes, refund now / Keep it and... / I want cash/card.",
+          "s": "Yes, refund it now. Please refund to my card."
+        },
+        {
+          "p": "There was a small damage fee. Do you want us to explain it?",
+          "m": "Nói nếu bạn muốn giải thích phí hư hỏng hay không. Nếu có, nêu bạn nghĩ hư hỏng đó là gì.",
+          "h": "Yes, explain... / No, thanks.",
+          "s": "Yes, please explain the damage fee. I think it is for the broken glass in the room."
+        },
+        {
+          "p": "We can process the refund now but it may take a few days to reach your bank.",
+          "m": "Nói bạn đồng ý chờ vài ngày hay muốn tiền mặt ngay. Nếu muốn tiền mặt, nói 'I want cash'.",
+          "h": "I agree / I want cash now.",
+          "s": "I agree to wait a few days. I don't need cash now."
+        },
+        {
+          "p": "Do you want a printed note to confirm the refund?",
+          "m": "Nói có cần giấy xác nhận hoàn tiền hay không. Nếu có, nói bạn sẽ lấy ở quầy.",
+          "h": "Yes, please print... / No, it's ok.",
+          "s": "Yes, please print a confirmation note. I will collect it at the desk."
+        },
+        {
+          "p": "If the refund fails, can we call you later?",
+          "m": "Nói bạn có đồng ý được gọi lại hay không. Nếu đồng ý, nói bạn sẽ ở khách sạn hay đưa số điện thoại.",
+          "h": "Yes, call me / No, I will check later.",
+          "s": "Yes, call me if it fails. I will be at the hotel for the next hour."
+        }
+      ]
+    },
+    {
+      "t": "Phí minibar và dịch vụ trong phòng",
+      "e": [
+        {
+          "p": "We noticed a minibar charge. Did you use anything?",
+          "m": "Nói bạn có dùng minibar hay không. Nếu có, nêu 1 món bạn đã dùng.",
+          "h": "I used... / I didn't use...",
+          "s": "I used one bottle of water. I did not take any snacks."
+        },
+        {
+          "p": "The guest before you left items in the minibar, so we charged them. Is that OK?",
+          "m": "Nói bạn có đồng ý bị tính phí vì đồ của khách trước hay không. Nếu không, yêu cầu kiểm tra.",
+          "h": "I don't agree / Please check...",
+          "s": "I don't agree with that charge. Please check the minibar list again."
+        },
+        {
+          "p": "We can remove minibar charges if you didn't use them. Should we do that?",
+          "m": "Nói bạn muốn nhân viên xóa phí hay giữ lại. Nếu xóa, cảm ơn ngắn gọn.",
+          "h": "Yes, please remove... / No, keep it.",
+          "s": "Yes, please remove the minibar charge. Thank you for checking."
+        },
+        {
+          "p": "Some services are billed to the room after checkout. Do you want to wait for the final bill?",
+          "m": "Nói bạn muốn chờ hóa đơn cuối cùng hay thanh toán ngay. Nếu chờ, nói bạn sẽ quay lại nhận hóa đơn.",
+          "h": "I will wait... / I will pay now...",
+          "s": "I will wait for the final bill. I will come back later to check it."
+        },
+        {
+          "p": "We recommend checking the minibar before you leave to avoid mistakes.",
+          "m": "Nói bạn sẽ kiểm tra minibar hay không. Nếu có, nói bạn sẽ làm gì (open and check).",
+          "h": "I will check... / I will not check...",
+          "s": "I will check the minibar now. I will open the fridge and look at the items."
+        }
+      ]
+    },
+    {
+      "t": "Thanh toán nhóm / chia hóa đơn",
+      "e": [
+        {
+          "p": "Are you paying for the whole group or splitting the bill?",
+          "m": "Nói bạn trả toàn bộ hay chia hóa đơn. Nếu chia, nói bạn sẽ trả phần của mình.",
+          "h": "I will pay... / I will pay my share.",
+          "s": "We will split the bill. I will pay my share."
+        },
+        {
+          "p": "Do you want us to split by room or split evenly among guests?",
+          "m": "Chọn chia theo phòng hay chia đều. Nói rõ bạn chọn cách nào.",
+          "h": "Split by room / Split evenly",
+          "s": "Split by room, please. That's easier for us."
+        },
+        {
+          "p": "One card can cover the group's payment. Shall we charge this card?",
+          "m": "Nói bạn muốn dùng 1 thẻ hay nhiều thẻ. Nếu 1 thẻ, xác nhận dùng thẻ đó.",
+          "h": "Yes, charge this card / No, we will use multiple cards.",
+          "s": "Yes, charge this card for the group. We will send you the card now."
+        },
+        {
+          "p": "If someone pays cash, do you want change back to be given to the leader?",
+          "m": "Nói bạn muốn nhận tiền thối cho trưởng nhóm hay cho từng người. Nói ai sẽ nhận.",
+          "h": "Give change to the leader / Give change to each person",
+          "s": "Give the change to the leader, please. He will divide it later."
+        },
+        {
+          "p": "We can provide separate receipts for each guest. Do you need that?",
+          "m": "Nói có cần hóa đơn riêng cho từng người hay không. Nếu có, nói số lượng hóa đơn bạn cần.",
+          "h": "Yes, provide... receipts / No, one is fine",
+          "s": "Yes, provide five separate receipts. We need one for each guest."
+        }
+      ]
+    },
+    {
+      "t": "Trả phòng muộn (Late checkout)",
+      "e": [
+        {
+          "p": "Would you like a late checkout today?",
+          "m": "Nói bạn có muốn trả phòng muộn hay không. Nếu muốn, nêu thời gian bạn muốn rời phòng.",
+          "h": "I would like a late checkout until... / No, thanks.",
+          "s": "Yes, I would like a late checkout until 2 PM. I need more time to pack."
+        },
+        {
+          "p": "There is an extra fee for late checkout after noon. Do you accept the fee?",
+          "m": "Nói bạn đồng ý trả phí hay không. Nếu đồng ý, nói bạn sẽ trả bằng gì (card/cash).",
+          "h": "I accept the fee / I don't accept",
+          "s": "I accept the fee. I will pay by card."
+        },
+        {
+          "p": "If your room is needed by another guest, we may not allow late checkout. Should we hold your luggage?",
+          "m": "Nói bạn muốn gửi hành lý lại hay không. Nếu có, nói bạn sẽ lấy hành lý vào khi nào.",
+          "h": "Yes, please hold my luggage / No, I will keep it",
+          "s": "Yes, please hold my luggage. I will pick it up at 5 PM."
+        },
+        {
+          "p": "Would you like to use the lounge after checkout while you wait?",
+          "m": "Nói bạn có muốn dùng phòng chờ hay không. Nếu có, nêu bạn sẽ ở đó bao lâu.",
+          "h": "Yes, I will use... / No, thank you",
+          "s": "Yes, I will use the lounge. I will stay for about one hour."
+        },
+        {
+          "p": "We can extend your checkout to 3 PM for a reduced fee. Do you want that option?",
+          "m": "Chọn có nhận ưu đãi trả phòng muộn đến 3 PM hay không. Nếu có, xác nhận bạn muốn chọn gói này.",
+          "h": "Yes, I want the option / No, I prefer 2 PM",
+          "s": "Yes, I want the option to 3 PM. That price is better for me."
+        }
+      ]
+    },
+    {
+      "t": "Phát hiện hư hỏng và phí bồi thường",
+      "e": [
+        {
+          "p": "We found a broken lamp in your room. Did this happen during your stay?",
+          "m": "Nói nếu bạn biết về hư hỏng hay không. Nếu biết, mô tả ngắn bạn đã làm gì.",
+          "h": "Yes, it happened and I... / No, I don't know",
+          "s": "No, I didn't break the lamp. I did not touch it."
+        },
+        {
+          "p": "There may be a small charge for repairs. Would you like an explanation?",
+          "m": "Nói bạn có muốn giải thích khoản phí hay không. Nếu có, hỏi giá ước tính.",
+          "h": "Yes, explain it / No, thanks",
+          "s": "Yes, please explain the repair charge. How much is the estimated cost?"
+        },
+        {
+          "p": "If you accept responsibility, we will charge your card. Do you agree?",
+          "m": "Nói bạn có chịu trách nhiệm hay không. Nếu không, yêu cầu kiểm tra camera hoặc báo cáo.",
+          "h": "I accept / I don't accept + Please check...",
+          "s": "I don't accept responsibility. Please check the camera or the housekeeping report."
+        },
+        {
+          "p": "You can pay the fee now or we can add it to your bill. Which do you prefer?",
+          "m": "Chọn trả ngay hay tính vào hóa đơn. Nói phương thức thanh toán bạn sẽ dùng.",
+          "h": "I will pay now by... / Add it to my bill",
+          "s": "Add it to my bill, please. I will pay with my card at checkout."
+        },
+        {
+          "p": "We will send a photo of the damage to your email. Is that OK?",
+          "m": "Nói bạn có đồng ý nhận ảnh qua email hay không. Nếu có, nói bạn sẽ kiểm tra email sau.",
+          "h": "Yes, send it / No, show me now",
+          "s": "Yes, send the photo to my email. I will check it later."
+        }
+      ]
+    },
+    {
+      "t": "Thanh toán bằng thẻ nước ngoài",
+      "e": [
+        {
+          "p": "Is your card issued outside the country?",
+          "m": "Nói có hay không. Nếu có, nói bạn có thể dùng nó hay bạn muốn đổi sang tiền mặt.",
+          "h": "Yes, it is / No, it is local",
+          "s": "Yes, my card is from another country. I can use it if you accept foreign cards."
+        },
+        {
+          "p": "There may be a foreign transaction fee. Do you want to continue?",
+          "m": "Nói bạn có muốn tiếp tục thanh toán qua thẻ có phí hay chuyển sang tiền mặt. Nếu tiếp tục, xác nhận.",
+          "h": "I will continue / I will pay cash",
+          "s": "I will continue with the card. I accept the foreign transaction fee."
+        },
+        {
+          "p": "Some banks block cards for international payments. Should we try now?",
+          "m": "Nói bạn đồng ý thử hay muốn gọi bank trước. Nếu gọi bank, nói bạn sẽ gọi ngay.",
+          "h": "Try now / I will call the bank",
+          "s": "Try now, please. If it fails, I will call my bank immediately."
+        },
+        {
+          "p": "Would you like us to show the amount in your currency before you pay?",
+          "m": "Nói bạn có muốn xem số tiền quy đổi sang tiền của bạn hay không. Nếu có, nói bạn sẽ quyết định sau khi xem.",
+          "h": "Yes, show in... / No, it's fine",
+          "s": "Yes, show the amount in my currency first. I will decide after I see it."
+        },
+        {
+          "p": "If the card is declined, do you have another card or cash?",
+          "m": "Nói bạn có thẻ khác hay tiền mặt hay không. Nếu có, nêu bạn sẽ dùng thẻ khác hoặc tiền mặt.",
+          "h": "I have another card / I have cash",
+          "s": "I have another card and I will try that. If it fails, I have cash."
+        }
+      ]
+    },
+    {
+      "t": "Sai sót trên hóa đơn",
+      "e": [
+        {
+          "p": "There is a charge for laundry that you didn't request. Do you see it?",
+          "m": "Xác nhận bạn có thấy mục phí giặt ủi trên hóa đơn hay không. Nếu có, nói bạn không sử dụng dịch vụ đó.",
+          "h": "Yes, I see it / I didn't use that service",
+          "s": "Yes, I see the laundry charge. I didn't use the laundry service."
+        },
+        {
+          "p": "Would you like us to remove incorrect charges now?",
+          "m": "Nói bạn muốn nhân viên xóa các mục sai hay bạn muốn kiểm tra kỹ hơn trước. Nếu muốn xóa, yêu cầu xóa ngay.",
+          "h": "Please remove... / I want to check more",
+          "s": "Please remove the incorrect charges now. I want the corrected bill before I leave."
+        },
+        {
+          "p": "We will reprint the bill after corrections. Is that okay?",
+          "m": "Nói bạn đồng ý nhận hóa đơn in lại hay muốn một bản email. Nếu muốn email, nói bạn sẽ cung cấp email sau.",
+          "h": "Print it / Email it",
+          "s": "Print the corrected bill, please. I prefer a printed copy now."
+        },
+        {
+          "p": "Sometimes items are billed to the wrong room. Should we check the room number?",
+          "m": "Nói bạn muốn nhân viên kiểm tra số phòng hay không. Nếu có, xác nhận số phòng bạn đang ở.",
+          "h": "Please check room number... / My room is...",
+          "s": "Yes, please check the room number. My room is 307."
+        },
+        {
+          "p": "If we made a mistake, we will refund immediately. Do you want us to proceed?",
+          "m": "Nói bạn muốn nhân viên hoàn tiền ngay hay chờ xác nhận. Nếu muốn ngay, nói 'Please refund now.'",
+          "h": "Please refund now / I will wait",
+          "s": "Please refund now if it's a mistake. I need the money before I leave."
+        }
+      ]
+    },
+    {
+      "t": "Yêu cầu taxi và thanh toán thêm",
+      "e": [
+        {
+          "p": "Do you need us to book a taxi for you?",
+          "m": "Nói bạn có cần đặt taxi hay không. Nếu có, nêu thời gian bạn cần taxi.",
+          "h": "Yes, please book... / No, thank you",
+          "s": "Yes, please book a taxi for 3 PM. I will be ready at the lobby."
+        },
+        {
+          "p": "The taxi fare is estimated at $20. Will you pay the driver or charge it to the room?",
+          "m": "Chọn trả cho tài xế hay tính vào phòng. Nếu tính vào phòng, nói 'Charge it to my room.'",
+          "h": "I will pay the driver / Charge it to my room",
+          "s": "Charge it to my room, please. I don't want to pay cash to the driver."
+        },
+        {
+          "p": "If the taxi takes a card, do you want us to give your card details?",
+          "m": "Nói bạn có muốn khách sạn gửi thông tin thẻ thay bạn hay bạn sẽ trả trực tiếp. Nếu gửi, xác nhận.",
+          "h": "No, I will pay directly / Yes, you can use my card",
+          "s": "No, I will pay the driver directly. Thank you."
+        },
+        {
+          "p": "Would you like the driver to wait for you or just pick you up?",
+          "m": "Nói bạn muốn tài xế đợi hay chỉ đón. Nếu đợi, nêu khoảng thời gian.",
+          "h": "Have the driver wait for... / Just pick me up",
+          "s": "Have the driver wait for 15 minutes, please. I might finish packing."
+        },
+        {
+          "p": "Do you need a receipt from the taxi for expense purposes?",
+          "m": "Nói bạn có cần biên lai taxi hay không. Nếu cần, nói bạn sẽ lấy biên lai từ tài xế.",
+          "h": "Yes, I need a receipt / No, it's fine",
+          "s": "Yes, I need a receipt from the taxi. I will get it from the driver."
+        }
+      ]
+    },
+    {
+      "t": "Phản hồi dịch vụ khi trả phòng",
+      "e": [
+        {
+          "p": "How was your stay with us?",
+          "m": "Nói ngắn bạn có hài lòng hay không. Nêu 1 điểm bạn thích nhất.",
+          "h": "I was satisfied / I liked ...",
+          "s": "I was very satisfied with my stay. I liked the friendly staff the most."
+        },
+        {
+          "p": "Did any staff member help you particularly well?",
+          "m": "Nói có hay không. Nếu có, nêu tên hoặc vị trí (reception/housekeeping) và hành động họ làm.",
+          "h": "Yes, the receptionist helped... / No, not really",
+          "s": "Yes, the receptionist helped with my late checkout. She was very helpful and kind."
+        },
+        {
+          "p": "Is there anything we should improve?",
+          "m": "Nói một điều bạn nghĩ khách sạn nên cải thiện. Đưa ra đề xuất ngắn.",
+          "h": "We should... / Improve ...",
+          "s": "The breakfast could be more varied. Please add more fruit options."
+        },
+        {
+          "p": "Would you recommend our hotel to friends?",
+          "m": "Nói bạn có khuyên bạn bè ở đây hay không. Nếu có, nói lý do ngắn (clean/close to city).",
+          "h": "I would recommend / I would not recommend",
+          "s": "I would recommend this hotel to friends. It is clean and close to the city center."
+        },
+        {
+          "p": "May we use your feedback on our website?",
+          "m": "Nói bạn đồng ý hay không. Nếu đồng ý, bạn có muốn tên bạn xuất hiện không (yes/no)?",
+          "h": "Yes, you may / No, please don't use my name",
+          "s": "Yes, you may use my feedback. Please do not publish my name."
+        }
+      ]
+    },
+    {
+      "t": "Thanh toán cho dịch vụ bổ sung (ăn sáng, giặt ủi)",
+      "e": [
+        {
+          "p": "You ordered breakfast and used laundry. Do you want to add these to your bill?",
+          "m": "Nói bạn muốn cộng các dịch vụ này vào hóa đơn hay trả riêng. Nếu trả riêng, nói bạn sẽ trả khi nào.",
+          "h": "Add to my bill / I will pay separately",
+          "s": "Add these services to my bill, please. I will pay everything at checkout."
+        },
+        {
+          "p": "Breakfast was charged per person. How many guests ate breakfast?",
+          "m": "Nói số khách đã dùng bữa sáng. Nếu có trẻ em, nêu họ miễn phí hay tính phí.",
+          "h": "Two guests / Children are free / One child paid",
+          "s": "Two guests had breakfast. The child ate for free."
+        },
+        {
+          "p": "Laundry took two days to return. Do you want compensation or a discount?",
+          "m": "Chọn bạn muốn bồi thường/giảm giá hay không. Nếu muốn giảm giá, nói 'I want a discount.'",
+          "h": "I want a discount / No, it's fine",
+          "s": "I want a small discount for the delay. It was inconvenient for me."
+        },
+        {
+          "p": "We offer to charge these small extras to the same card. Is that okay?",
+          "m": "Nói bạn đồng ý dùng cùng thẻ hay muốn dùng thẻ khác/cash. Nếu khác, nêu phương án.",
+          "h": "Charge the same card / Use another card / Pay cash",
+          "s": "Charge the same card, please. I don't want to use another card."
+        },
+        {
+          "p": "If you paid for breakfast already, we will remove the charge. Should we do that?",
+          "m": "Nói bạn có trả trước hay không. Nếu đã trả, yêu cầu xóa chi phí khỏi hóa đơn.",
+          "h": "I already paid / Please remove it",
+          "s": "I already paid for breakfast at the restaurant. Please remove the breakfast charge from my bill."
+        }
+      ]
+    },
+    {
+      "t": "Thanh toán cho đồ thất lạc và phục hồi",
+      "e": [
+        {
+          "p": "You reported a lost item. Did you lose it in the room or the lobby?",
+          "m": "Nói bạn mất đồ ở đâu. Nếu ở phòng, nêu tên món đồ ngắn (phone/wallet).",
+          "h": "In the room / In the lobby + item name",
+          "s": "I lost it in the room. The missing item is a small black wallet."
+        },
+        {
+          "p": "If we find your item, do you want us to send it by courier?",
+          "m": "Nói bạn muốn gửi đồ qua chuyển phát hay bạn sẽ lấy tại quầy. Nếu gửi, nói bạn sẽ trả phí hay muốn khách sạn trả.",
+          "h": "Send by courier / I will pick up / I will pay the fee",
+          "s": "Yes, please send it by courier. I will pay the shipping fee."
+        },
+        {
+          "p": "There may be a small processing fee to return lost items. Do you accept this?",
+          "m": "Nói bạn chấp nhận phí xử lý hay không. Nếu không, yêu cầu tự đến lấy.",
+          "h": "I accept the fee / No, I will pick it up",
+          "s": "I accept the processing fee. Please add it to my bill."
+        },
+        {
+          "p": "We can charge the replacement cost to your card if the item is damaged. Is that OK?",
+          "m": "Nói bạn đồng ý bị tính phí thay thế nếu đồ bị hỏng hay bạn muốn kiểm tra trước. Nếu muốn kiểm tra, yêu cầu báo lại.",
+          "h": "I agree / I want to check first",
+          "s": "I want to check first before any charge. Please call me with the photo."
+        },
+        {
+          "p": "Should we keep looking for the item for another day?",
+          "m": "Nói bạn muốn nhân viên tiếp tục tìm hay không. Nếu có, nói bạn sẽ ở lại bao lâu để nhận cuộc gọi.",
+          "h": "Yes, keep looking / No, stop",
+          "s": "Yes, please keep looking for one more day. I will be at the hotel until tomorrow noon."
+        }
+      ]
+    },
+    {
+      "t": "Ôn tập: Thanh toán và hóa đơn",
+      "e": [
+        {
+          "p": "Your total is $150 including taxes. How would you like to pay?",
+          "m": "Nói bạn muốn thanh toán bằng gì. Nói nếu bạn cần hóa đơn in hay email.",
+          "h": "I will pay by... / I want a printed/email invoice",
+          "s": "I will pay by card. I would like a printed invoice, please."
+        },
+        {
+          "p": "There is a minibar charge of $10 and room service $20. Do you accept these?",
+          "m": "Xác nhận bạn đồng ý hay không. Nếu không, yêu cầu kiểm tra mục cụ thể.",
+          "h": "I accept / I don't accept + Please check ...",
+          "s": "I don't accept the minibar charge. Please check the minibar list again."
+        },
+        {
+          "p": "Do you want your deposit refunded now to the card or later?",
+          "m": "Chọn hoàn tiền ngay hay sau. Nếu ngay, nói 'refund to my card'.",
+          "h": "Refund now to my card / Refund later",
+          "s": "Refund to my card now, please. I will check my account later."
+        },
+        {
+          "p": "Would you like to split the bill between two cards?",
+          "m": "Nói có hay không. Nếu có, nói bạn sẽ trả phần nào (half/amount).",
+          "h": "Yes, split half on each card / No, one card",
+          "s": "Yes, split the bill in half on two cards. I'll give both cards now."
+        },
+        {
+          "p": "Any comments about your stay before we finish?",
+          "m": "Nói bạn hài lòng hay không. Nêu 1 điều bạn muốn khách sạn cải thiện.",
+          "h": "I was satisfied / Improve ...",
+          "s": "I was satisfied overall. Please improve the breakfast variety."
+        }
+      ]
+    },
+    {
+      "t": "Ôn tập: Vấn đề thanh toán và giải pháp",
+      "e": [
+        {
+          "p": "Your card was declined. Would you like to try another card?",
+          "m": "Nói bạn có thẻ khác hay không. Nếu có, nói bạn sẽ thử ngay.",
+          "h": "I have another card / I will try it now",
+          "s": "I have another card and I will try it now. Please retry the payment."
+        },
+        {
+          "p": "We found an extra charge for minibar. Should we remove it?",
+          "m": "Chọn xóa hay giữ. Nếu xóa, yêu cầu hóa đơn sửa lại.",
+          "h": "Please remove it / Keep it",
+          "s": "Please remove the extra minibar charge. Reprint the corrected bill, please."
+        },
+        {
+          "p": "If the refund doesn't appear, we can send a confirmation email. Is that okay?",
+          "m": "Nói bạn đồng ý nhận email xác nhận hay muốn gọi điện. Nếu email, nói bạn sẽ kiểm tra sau.",
+          "h": "Yes, email me / No, call me",
+          "s": "Yes, email the refund confirmation to me. I will check my inbox later."
+        },
+        {
+          "p": "Do you prefer a printed receipt or digital copy for expenses?",
+          "m": "Chọn in hay digital. Nếu digital, nói bạn sẽ cho email tại quầy.",
+          "h": "Printed receipt / Email it",
+          "s": "I prefer a printed receipt for expenses. I will collect it now."
+        },
+        {
+          "p": "We can hold your luggage while you sort payment. Would you like that?",
+          "m": "Nói bạn có muốn gửi hành lý hay không. Nếu có, nói bạn sẽ quay lại lấy khi nào.",
+          "h": "Yes, hold it / No, I will keep it",
+          "s": "Yes, please hold my luggage. I will pick it up in two hours."
+        }
+      ]
+    },
+    {
+      "t": "Ôn tập: Trả phòng, hoàn tiền và phản hồi",
+      "e": [
+        {
+          "p": "You are checking out now. Any final requests?",
+          "m": "Nói nếu bạn cần dịch vụ cuối cùng (taxi/luggage). Nếu có, nêu 1 yêu cầu.",
+          "h": "I need... / No, thanks",
+          "s": "I need a taxi to the airport. Please book it for 12 PM."
+        },
+        {
+          "p": "We will refund the deposit in 3–5 days. Is that acceptable?",
+          "m": "Xác nhận bạn chấp nhận thời gian chờ hay muốn tiền mặt. Nếu muốn tiền mặt, yêu cầu ngay.",
+          "h": "I accept / I want cash now",
+          "s": "I accept the 3–5 day refund. No, I don't need cash now."
+        },
+        {
+          "p": "Please rate our service from 1 to 5.",
+          "m": "Đưa điểm bạn chấm (1–5). Nói 1 điểm bạn hài lòng nhất về điều gì nếu chấm cao.",
+          "h": "I give ... because ...",
+          "s": "I give 5 because the staff were friendly. The room was clean and comfortable."
+        },
+        {
+          "p": "Would you like to leave a comment for the manager?",
+          "m": "Nói có muốn gửi lời nhắn cho quản lý không. Nếu có, để lại 1 câu khen hoặc góp ý ngắn.",
+          "h": "Yes, say... / No, thanks",
+          "s": "Yes, please tell the manager thank you. The service was excellent."
+        },
+        {
+          "p": "Can we help with future bookings or a loyalty program?",
+          "m": "Nói bạn muốn đăng ký chương trình khách hàng thân thiết hay cần đặt phòng cho lần tới. Nếu muốn, nói 'I want to join' hoặc 'Please book'.",
+          "h": "I want to join / Please book ...",
+          "s": "I want to join the loyalty program. Please book a room for me next month."
+        }
+      ]
+    }
+  ]
+}

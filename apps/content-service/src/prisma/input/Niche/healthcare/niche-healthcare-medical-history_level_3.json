@@ -1,0 +1,600 @@
+{
+  "l": 3,
+  "d": [
+    {
+      "t": "Khai bệnh ban đầu",
+      "e": [
+        {
+          "p": "What is your main problem today?",
+          "m": "Nói triệu chứng chính. Nói khi triệu chứng bắt đầu.",
+          "h": "Present Simple + Past Simple (when it started)",
+          "s": "I have a sore throat and a fever. It started two days ago."
+        },
+        {
+          "p": "Are you feeling pain anywhere?",
+          "m": "Nói vị trí đau. Nói mức độ đau (nhẹ/ vừa/ nặng).",
+          "h": "Use 'in/at' + adjective (mild/severe)",
+          "s": "I have pain in my stomach. It is quite mild now."
+        },
+        {
+          "p": "Do you have any other symptoms?",
+          "m": "Liệt kê 2 triệu chứng phụ. Nói nếu triệu chứng thay đổi theo thời gian.",
+          "h": "Use simple list and Past Simple for change",
+          "s": "I also have a headache and runny nose. The headache was worse yesterday."
+        },
+        {
+          "p": "When did you first notice these symptoms?",
+          "m": "Nói rõ ngày hoặc số ngày. Nói điều bạn đã làm khi nó bắt đầu.",
+          "h": "Past Simple + went/did",
+          "s": "I noticed them three days ago. I stayed home and rested."
+        },
+        {
+          "p": "Has anything made the symptoms better or worse?",
+          "m": "Nói điều đã làm giúp bớt hoặc làm nặng. Nói kết quả (có hiệu quả hay không).",
+          "h": "Use 'made' + adjective and 'but' for result",
+          "s": "Taking paracetamol made the fever lower, but my cough did not get better."
+        }
+      ]
+    },
+    {
+      "t": "Tiền sử dị ứng",
+      "e": [
+        {
+          "p": "Do you have any allergies?",
+          "m": "Nói có/không. Nếu có, nêu loại dị ứng (thức ăn, thuốc, môi trường).",
+          "h": "Use 'Yes, I am allergic to...' or 'No, I don't have...'",
+          "s": "Yes, I am allergic to penicillin and dust. I have a food allergy to peanuts."
+        },
+        {
+          "p": "What happens when you have that allergy?",
+          "m": "Mô tả triệu chứng dị ứng. Nói mức độ nghiêm trọng (mild/serious).",
+          "h": "Use Present Simple (symptoms) + adjective",
+          "s": "I get a rash and itchy eyes. The reaction is usually mild."
+        },
+        {
+          "p": "Did you ever need medical help for an allergy?",
+          "m": "Nói nếu đã đi khám hoặc nhập viện. Nêu khi nào (khoảng thời gian).",
+          "h": "Past Simple + time phrase",
+          "s": "I went to the clinic last year for a bad reaction. The doctor gave me medicine."
+        },
+        {
+          "p": "Do you carry an allergy medicine with you?",
+          "m": "Nói có/không. Nếu có, nêu loại thuốc bạn mang.",
+          "h": "Use 'Yes, I carry...' or 'No, I don't carry...'",
+          "s": "Yes, I carry an antihistamine and an Epipen. I keep them in my bag."
+        },
+        {
+          "p": "Have you ever had a severe allergic reaction like trouble breathing?",
+          "m": "Trả lời có/không. Nếu có, mô tả ngắn hành động bạn đã làm.",
+          "h": "Use Past Simple and 'so' or 'and' for result",
+          "s": "No, I have not had trouble breathing. I only had skin reactions before."
+        }
+      ]
+    },
+    {
+      "t": "Thuốc đang dùng",
+      "e": [
+        {
+          "p": "Are you taking any medicines now?",
+          "m": "Nói có/không. Nếu có, nêu 1-2 tên thuốc đơn giản hoặc 'painkiller'.",
+          "h": "Present Continuous or Present Simple for routines",
+          "s": "Yes, I am taking a painkiller and a vitamin. I take them every day."
+        },
+        {
+          "p": "How often do you take your medicine?",
+          "m": "Nói tần suất (daily, twice a day). Nói mục đích ngắn (giảm đau, bổ sung).",
+          "h": "Use 'once twice three times a day' + purpose",
+          "s": "I take it twice a day for pain relief. It helps me sleep better."
+        },
+        {
+          "p": "Did a doctor prescribe these medicines?",
+          "m": "Nói có/không. Nếu có, nêu khi nào bác sĩ kê đơn.",
+          "h": "Past Simple + time phrase",
+          "s": "Yes, my doctor prescribed them last week. I followed the instructions."
+        },
+        {
+          "p": "Have you missed any doses recently?",
+          "m": "Nói có/không. Nếu có, nêu lý do ngắn (quên, hết thuốc).",
+          "h": "Use Present Perfect or Past Simple with reason",
+          "s": "I missed one dose yesterday because I forgot. I took the next dose on time."
+        },
+        {
+          "p": "Do you use any herbal or over-the-counter remedies?",
+          "m": "Nói có/không. Nếu có, nêu loại và mục đích ngắn.",
+          "h": "Use 'Yes, I use...' + simple purpose",
+          "s": "Yes, I use herbal tea for my stomach. It makes me feel better."
+        }
+      ]
+    },
+    {
+      "t": "Tiền sử phẫu thuật",
+      "e": [
+        {
+          "p": "Have you ever had surgery?",
+          "m": "Nói có/không. Nếu có, nêu loại phẫu thuật ngắn gọn.",
+          "h": "Past Simple: 'I had...' ",
+          "s": "Yes, I had my appendix removed five years ago."
+        },
+        {
+          "p": "When was your last operation?",
+          "m": "Nêu thời gian (năm/tháng). Nói nếu có biến chứng sau mổ.",
+          "h": "Use Past Simple + mention complication with 'but' or 'and'",
+          "s": "My last operation was three years ago. I had no complications after it."
+        },
+        {
+          "p": "Did you stay in hospital after the surgery?",
+          "m": "Nói số ngày nghỉ viện. Nói nếu cần người chăm sóc khi về nhà.",
+          "h": "Past Simple + 'for' + number of days",
+          "s": "I stayed in the hospital for two days. My sister looked after me at home."
+        },
+        {
+          "p": "Do you have any scars or problems from past surgeries?",
+          "m": "Trả lời có/không. Nếu có, mô tả vấn đề ngắn.",
+          "h": "Present Simple for current condition",
+          "s": "Yes, I have a small scar on my belly. It does not cause pain."
+        },
+        {
+          "p": "Would you like to add any details about past operations?",
+          "m": "Nêu 1 điều quan trọng liên quan đến phẫu thuật (ví dụ: dị ứng thuốc, biến chứng). Nói nếu bạn cần ghi chú đặc biệt.",
+          "h": "Use Past Simple + 'so' for result",
+          "s": "I reacted to an antibiotic after surgery, so the doctor changed my medicine."
+        }
+      ]
+    },
+    {
+      "t": "Tiền sử bệnh mãn tính",
+      "e": [
+        {
+          "p": "Do you have any long-term health conditions?",
+          "m": "Nói có/không. Nếu có, nêu 1 bệnh (e.g., asthma, diabetes).",
+          "h": "Present Simple: 'I have...' ",
+          "s": "Yes, I have asthma and I use an inhaler regularly."
+        },
+        {
+          "p": "How do you manage that condition daily?",
+          "m": "Nói 1-2 hành động hàng ngày (thuốc, máy đo). Nói tần suất.",
+          "h": "Use Present Simple + frequency words",
+          "s": "I take my inhaler twice a day. I also avoid smoke."
+        },
+        {
+          "p": "Have you seen a specialist for this condition?",
+          "m": "Trả lời có/không. Nếu có, nêu khi nào bạn gặp bác sĩ.",
+          "h": "Past Simple + time phrase",
+          "s": "Yes, I saw a specialist last month. They gave me new advice."
+        },
+        {
+          "p": "Did your condition get worse or better recently?",
+          "m": "Nói thay đổi (worse/better). Nêu lý do ngắn nếu có.",
+          "h": "Use 'got' + comparative or 'has been' + adjective",
+          "s": "My condition got better after I changed medicine. I feel less short of breath."
+        },
+        {
+          "p": "Do you have to avoid anything because of this condition?",
+          "m": "Nêu 1-2 điều cần tránh (thức ăn, hoạt động). Nói lý do ngắn.",
+          "h": "Use 'avoid' + noun and 'because' + reason",
+          "s": "I avoid cold places because cold can trigger my asthma. I also avoid heavy exercise."
+        }
+      ]
+    },
+    {
+      "t": "Triệu chứng hiện tại và mức độ",
+      "e": [
+        {
+          "p": "On a scale of 1 to 10, how bad is your pain?",
+          "m": "Nêu một số từ như '5/10'. Nói nếu đau tăng hay giảm so với trước.",
+          "h": "Use number + 'out of 10' and 'more/less than before'",
+          "s": "My pain is about 5 out of 10. It is less than yesterday."
+        },
+        {
+          "p": "Is the pain constant or does it come and go?",
+          "m": "Nói 'constant' hay 'comes and goes'. Nêu thời gian (ví dụ: all day, sometimes at night).",
+          "h": "Use Present Simple: 'It is' or 'It comes and goes' + time",
+          "s": "The pain comes and goes during the day. Sometimes it is worse at night."
+        },
+        {
+          "p": "Does anything make the pain worse?",
+          "m": "Liệt kê 1-2 tác nhân làm nặng (movement, food). Nêu ví dụ ngắn.",
+          "h": "Use 'makes' + noun/verb-ing",
+          "s": "Moving quickly makes it worse. Eating spicy food also increases the pain."
+        },
+        {
+          "p": "Have you measured your temperature or blood pressure?",
+          "m": "Trả lời có/không. Nếu có, cho biết số liệu ngắn (e.g., 38°C, 120/80).",
+          "h": "Past Simple for action + give simple result",
+          "s": "Yes, I measured my temperature and it was 38°C. I have not checked my blood pressure."
+        },
+        {
+          "p": "Are your symptoms getting better with the treatment?",
+          "m": "Trả lời yes/no. Nếu có, mô tả cải thiện ngắn. Nếu không, nói điều bạn sẽ làm tiếp.",
+          "h": "Use Present Continuous or 'will' for future plan",
+          "s": "Yes, they are getting better after the medicine. If not, I will see the doctor again."
+        }
+      ]
+    },
+    {
+      "t": "Hoạt động hàng ngày và sức khỏe",
+      "e": [
+        {
+          "p": "Can you do your usual activities today?",
+          "m": "Nói có/không. Nêu 1 ví dụ bạn không thể làm nếu không thể.",
+          "h": "Use 'Yes, I can' or 'No, I can't' + example",
+          "s": "No, I can't go to work today. I feel too tired to leave the house."
+        },
+        {
+          "p": "Did you sleep well last night?",
+          "m": "Nói có/không. Nêu số giờ ngủ hoặc vấn đề khi ngủ.",
+          "h": "Past Simple: 'I slept' or 'I did not sleep' + hours",
+          "s": "I did not sleep well and I slept only four hours. I woke up several times."
+        },
+        {
+          "p": "Are you eating and drinking normally?",
+          "m": "Trả lời có/không. Nếu không, nêu thay đổi ngắn (ăn ít, nôn).",
+          "h": "Use Present Simple for habits",
+          "s": "I am not eating much and I feel nauseous. I drink water but avoid heavy meals."
+        },
+        {
+          "p": "Do you exercise regularly?",
+          "m": "Nói có/không. Nếu có, nêu loại tập và tần suất ngắn.",
+          "h": "Present Simple + frequency words",
+          "s": "Yes, I walk every day for thirty minutes. It helps my health."
+        },
+        {
+          "p": "Has your illness changed your daily routine?",
+          "m": "Nói 1-2 thay đổi chính (nghỉ làm, giảm hoạt động). Nêu thời gian bạn đã thay đổi.",
+          "h": "Use Past Simple for change and Present Simple for current routine",
+          "s": "I stopped going to the gym last week. Now I rest more and work from home."
+        }
+      ]
+    },
+    {
+      "t": "Gia đình và bệnh di truyền",
+      "e": [
+        {
+          "p": "Does anyone in your family have similar health problems?",
+          "m": "Trả lời có/không. Nếu có, nêu quan hệ (mother, father) và bệnh ngắn.",
+          "h": "Use 'Yes, my...' + relation + 'has/ had' + condition",
+          "s": "Yes, my father has high blood pressure. He has had it for years."
+        },
+        {
+          "p": "Has anyone in your family had serious illnesses?",
+          "m": "Nói có/không. Nếu có, nêu 1 bệnh nghiêm trọng và khi nào.",
+          "h": "Past Simple + family relation",
+          "s": "My grandmother had diabetes and she passed away five years ago."
+        },
+        {
+          "p": "Are there inherited conditions you are worried about?",
+          "m": "Trả lời có/không. Nếu có, nêu ngắn nỗi lo và lý do.",
+          "h": "Use 'I am worried about...' + reason",
+          "s": "Yes, I am worried about heart disease because my family had it young."
+        },
+        {
+          "p": "Do family members take any long-term medicines?",
+          "m": "Trả lời có/không. Nếu có, nêu ví dụ ngắn (blood pressure pills).",
+          "h": "Present Simple + example",
+          "s": "Yes, my mother takes blood pressure pills every day. It controls her numbers."
+        },
+        {
+          "p": "Would you like us to check for family risk factors?",
+          "m": "Trả lời có/không. Nếu có, nêu bạn muốn kiểm tra gì (blood pressure, sugar).",
+          "h": "Use 'Yes, I would like to check...' or 'No, thank you.'",
+          "s": "Yes, I would like to check my blood pressure and blood sugar."
+        }
+      ]
+    },
+    {
+      "t": "Tiêm chủng và bệnh truyền nhiễm",
+      "e": [
+        {
+          "p": "Are your vaccinations up to date?",
+          "m": "Trả lời có/không. Nếu không, nêu loại vắc xin bạn thiếu.",
+          "h": "Use 'Yes, I have' or 'No, I haven't' + vaccine name",
+          "s": "Yes, my vaccinations are up to date. I had the flu shot last year."
+        },
+        {
+          "p": "Have you had any recent infections?",
+          "m": "Nói có/không. Nếu có, nêu bệnh và khi nào.",
+          "h": "Past Simple + time phrase",
+          "s": "I had a chest infection two months ago. I finished the antibiotics then."
+        },
+        {
+          "p": "Did you travel recently to a place with infections?",
+          "m": "Trả lời có/không. Nếu có, nêu nơi và khi nào ngắn.",
+          "h": "Past Simple + place",
+          "s": "Yes, I traveled to a country with an outbreak last month. I returned home after one week."
+        },
+        {
+          "p": "Do you live with anyone who is sick now?",
+          "m": "Trả lời có/không. Nếu có, nêu quan hệ và triệu chứng họ có.",
+          "h": "Use Present Simple for current situation",
+          "s": "Yes, my roommate has a cough and fever. I am trying to stay apart from them."
+        },
+        {
+          "p": "Would you like a vaccine or a test today?",
+          "m": "Trả lời có/không. Nếu có, nêu loại test hoặc vaccine bạn muốn.",
+          "h": "Use 'I would like...' or 'No, I don't want...'",
+          "s": "Yes, I would like a COVID test today. I also want a flu vaccine if possible."
+        }
+      ]
+    },
+    {
+      "t": "Thói quen dùng thuốc và tuân thủ",
+      "e": [
+        {
+          "p": "Do you take your medicines as prescribed?",
+          "m": "Trả lời có/không. Nếu không, nêu lý do ngắn (quên, không muốn).",
+          "h": "Use 'Yes, I take...' or 'No, I sometimes...' + reason",
+          "s": "No, I sometimes forget to take my pills. I try to set an alarm."
+        },
+        {
+          "p": "Who helps you manage your medicines?",
+          "m": "Nói người giúp (family, nurse) hoặc 'I manage myself'.",
+          "h": "Present Simple: 'My mother helps me' or 'I manage myself'",
+          "s": "My husband helps me organize the medication. He fills a pill box every week."
+        },
+        {
+          "p": "Have you stopped any medicine recently?",
+          "m": "Trả lời có/không. Nếu có, nêu tên thuốc và lý do ngắn.",
+          "h": "Past Simple + reason",
+          "s": "Yes, I stopped a painkiller last month because it upset my stomach."
+        },
+        {
+          "p": "Do you understand the side effects of your medicines?",
+          "m": "Trả lời có/không. Nếu có, nêu 1 tác dụng phụ bạn biết.",
+          "h": "Use 'Yes, I know...' or 'No, I don't know...'",
+          "s": "Yes, I know the medicine can cause drowsiness. I avoid driving after taking it."
+        },
+        {
+          "p": "Would you like advice on how to take your medicines correctly?",
+          "m": "Trả lời có/không. Nếu có, nêu bạn muốn biết gì (liều, thời gian).",
+          "h": "Use 'Yes, I would like to know...' or 'No, thank you.'",
+          "s": "Yes, I would like to know the right dose and when to take it each day."
+        }
+      ]
+    },
+    {
+      "t": "Tác dụng phụ và phản ứng thuốc",
+      "e": [
+        {
+          "p": "Have you noticed any side effects from your medicines?",
+          "m": "Trả lời có/không. Nếu có, nêu 1-2 triệu chứng.",
+          "h": "Present Perfect or Present Simple + symptoms",
+          "s": "Yes, I feel dizzy and sleepy after the medicine. It started this week."
+        },
+        {
+          "p": "When did the side effects begin?",
+          "m": "Nêu thời điểm bắt đầu. Nói nếu nó xảy ra ngay sau khi dùng thuốc.",
+          "h": "Past Simple + 'after' phrase",
+          "s": "They began two days after I started the new pill. The dizziness was immediate."
+        },
+        {
+          "p": "Did you stop taking the medicine because of side effects?",
+          "m": "Trả lời có/không. Nếu có, nêu lý do ngắn và hành động bạn làm.",
+          "h": "Past Simple + reason",
+          "s": "Yes, I stopped because I felt very faint. I called the clinic and they advised me to stop."
+        },
+        {
+          "p": "Have you reported these side effects to a doctor or pharmacist?",
+          "m": "Trả lời có/không. Nếu có, nêu khi nào bạn báo cáo.",
+          "h": "Past Simple: 'I reported...' ",
+          "s": "No, I have not reported them yet. I plan to call my doctor today."
+        },
+        {
+          "p": "Would you like a change of medicine or more advice?",
+          "m": "Trả lời lựa chọn (change/advice/no). Nếu chọn thay đổi, nêu lý do ngắn.",
+          "h": "Use 'I would like...' + reason or 'No, thank you.'",
+          "s": "I would like a change because the side effects are strong. I need a safer option."
+        }
+      ]
+    },
+    {
+      "t": "Báo cáo với y tá khi khám",
+      "e": [
+        {
+          "p": "Can you tell me your name and age, please?",
+          "m": "Nêu tên và tuổi (dùng placeholder cho tên/tuổi).",
+          "h": "Use placeholders [studentName], [studentAge]",
+          "s": "[studentName], I am [studentAge] years old."
+        },
+        {
+          "p": "Do you have any current medications I should note?",
+          "m": "Liệt kê 1-2 thuốc bạn đang dùng. Nói tần suất ngắn.",
+          "h": "Present Simple: 'I take...' + frequency",
+          "s": "I take a painkiller once a day and a vitamin every morning."
+        },
+        {
+          "p": "Have you had any recent tests or hospital visits?",
+          "m": "Trả lời có/không. Nếu có, nêu nơi và khi nào ngắn.",
+          "h": "Past Simple + place/time",
+          "s": "Yes, I had a blood test at the clinic last month. I did not stay in hospital."
+        },
+        {
+          "p": "Do you smoke or drink alcohol?",
+          "m": "Nói có/không cho cả hai. Nếu có, nêu tần suất ngắn.",
+          "h": "Use 'I smoke/drink' + frequency or 'I don't'",
+          "s": "I do not smoke, but I drink alcohol occasionally on weekends."
+        },
+        {
+          "p": "Is there anything else I should write in your notes?",
+          "m": "Nêu 1 điều quan trọng (dị ứng, phẫu thuật). Nói lý do ngắn.",
+          "h": "Use 'Please note that...' or 'I want to add...'",
+          "s": "Please note that I am allergic to penicillin. It is important for future treatment."
+        }
+      ]
+    },
+    {
+      "t": "Chuẩn bị cho cuộc hẹn với bác sĩ",
+      "e": [
+        {
+          "p": "What do you want to discuss with the doctor today?",
+          "m": "Nêu 1 vấn đề chính bạn muốn hỏi. Nói mục tiêu ngắn (diagnosis, medicine).",
+          "h": "Use 'I want to talk about...' + reason",
+          "s": "I want to talk about my constant cough. I want a diagnosis and medicine."
+        },
+        {
+          "p": "Do you have any questions about your treatment?",
+          "m": "Nêu 1 câu hỏi bạn muốn hỏi (liều, thời gian). Nói vì sao bạn lo.",
+          "h": "Use 'How often/when should I...' + reason",
+          "s": "How often should I take the new pill? I am worried about taking too much."
+        },
+        {
+          "p": "Would you like to bring someone to the appointment?",
+          "m": "Trả lời có/không. Nếu có, nêu người và lý do ngắn.",
+          "h": "Use 'Yes, I will bring...' or 'No, I will go alone'",
+          "s": "Yes, I will bring my sister for support. She can help me explain my history."
+        },
+        {
+          "p": "Do you need an interpreter or special help?",
+          "m": "Trả lời có/không. Nếu có, nêu loại trợ giúp bạn cần.",
+          "h": "Use 'I need...' or 'I don't need...'",
+          "s": "No, I don't need an interpreter. I can speak enough English."
+        },
+        {
+          "p": "Are you ready to follow the doctor's advice after the visit?",
+          "m": "Trả lời có/không. Nếu có, nêu 1 điều bạn sẽ làm (start medicine, rest).",
+          "h": "Use 'Yes, I will...' or 'No, I will...' + action",
+          "s": "Yes, I will start the medicine and rest at home for two days."
+        }
+      ]
+    },
+    {
+      "t": "Ghi nhận tiền sử dùng kháng sinh",
+      "e": [
+        {
+          "p": "Have you taken antibiotics recently?",
+          "m": "Trả lời có/không. Nếu có, nêu khi nào và loại ngắn nếu biết.",
+          "h": "Past Simple + time phrase",
+          "s": "Yes, I took antibiotics three months ago for a chest infection."
+        },
+        {
+          "p": "Did you finish the full course of antibiotics?",
+          "m": "Trả lời có/không. Nếu không, nêu lý do ngắn.",
+          "h": "Use 'I finished' or 'I stopped' + reason",
+          "s": "No, I stopped early because I felt better. I regret stopping it."
+        },
+        {
+          "p": "Have you had antibiotics that did not work?",
+          "m": "Trả lời có/không. Nếu có, mô tả ngắn.",
+          "h": "Past Simple + short result",
+          "s": "Yes, one antibiotic did not improve my infection. The doctor changed it."
+        },
+        {
+          "p": "Do you think you are overusing antibiotics?",
+          "m": "Trả lời ý kiến ngắn. Nêu 1 hành động bạn sẽ làm (ask doctor, avoid).",
+          "h": "Use 'I think...' + 'I will...' ",
+          "s": "I think we should avoid unnecessary antibiotics. I will ask the doctor before taking them."
+        },
+        {
+          "p": "Would you like advice on when to use antibiotics?",
+          "m": "Trả lời có/không. Nếu có, nêu điều bạn muốn biết (when necessary, side effects).",
+          "h": "Use 'Yes, I would like to know...' or 'No, thank you.'",
+          "s": "Yes, I would like to know when antibiotics are necessary and their side effects."
+        }
+      ]
+    },
+    {
+      "t": "Ôn tập: Khai bệnh tổng hợp 1",
+      "e": [
+        {
+          "p": "Tell me your main symptoms and when they started.",
+          "m": "Nêu 2 triệu chứng chính. Nói khi chúng bắt đầu (ngày or số ngày trước).",
+          "h": "Present Simple + Past Simple for start time",
+          "s": "I have a high temperature and a bad cough. They started three days ago."
+        },
+        {
+          "p": "List any medicines you are taking now and how often.",
+          "m": "Liệt kê 1-2 thuốc. Nói tần suất cho mỗi thuốc.",
+          "h": "Present Simple: 'I take...' + frequency",
+          "s": "I take a painkiller once a day and a vitamin every morning."
+        },
+        {
+          "p": "Do you have any allergies or past surgeries we should know?",
+          "m": "Trả lời có/không. Nếu có, nêu 1 dị ứng và 1 phẫu thuật ngắn.",
+          "h": "Use 'Yes, I am allergic to...' and 'I had...' ",
+          "s": "Yes, I am allergic to penicillin. I had my appendix removed five years ago."
+        },
+        {
+          "p": "Has your condition changed since it began?",
+          "m": "Nói nó khá hơn hay xấu đi. Nêu 1 lý do nếu có (medicine, rest).",
+          "h": "Use 'got better/worse' + reason",
+          "s": "It got better after I took medicine, but the cough stayed. Rest helped a little."
+        },
+        {
+          "p": "Is there anything else you want the doctor to know before the exam?",
+          "m": "Nêu 1 điều quan trọng (dị ứng, thuốc, gia đình). Nói lý do ngắn.",
+          "h": "Use 'Please note that...' or 'Also...' ",
+          "s": "Please note that I am allergic to penicillin and I use an inhaler. This is important for the treatment."
+        }
+      ]
+    },
+    {
+      "t": "Ôn tập: Lịch sử thuốc và dị ứng",
+      "e": [
+        {
+          "p": "Tell me about any allergies and what happens when you react.",
+          "m": "Nêu dị ứng (1). Mô tả triệu chứng dị ứng (1).",
+          "h": "Present Simple for condition and symptoms",
+          "s": "I am allergic to peanuts. I get a rash and my throat feels itchy."
+        },
+        {
+          "p": "List current medicines and any side effects you have.",
+          "m": "Liệt kê 1-2 thuốc. Nêu 1 tác dụng phụ nếu có.",
+          "h": "Present Simple + 'causes' for side effects",
+          "s": "I take a blood pressure pill and vitamin D. The pill causes some dizziness."
+        },
+        {
+          "p": "Have you missed doses or stopped medicines recently?",
+          "m": "Trả lời có/không. Nếu có, nêu tên thuốc và lý do ngắn.",
+          "h": "Past Simple + reason",
+          "s": "Yes, I stopped a painkiller last month because it upset my stomach."
+        },
+        {
+          "p": "Did you ever have a bad reaction that needed medical help?",
+          "m": "Trả lời có/không. Nếu có, nêu hành động bạn đã làm (clinic, hospital).",
+          "h": "Past Simple + short action",
+          "s": "No, I have not needed hospital care, only clinic treatment for rashes."
+        },
+        {
+          "p": "Would you like advice about your medications and allergies now?",
+          "m": "Trả lời có/không. Nếu có, nêu 1 điều bạn muốn biết (interactions, alternatives).",
+          "h": "Use 'Yes, I would like to know...' or 'No, thank you.'",
+          "s": "Yes, I would like to know about interactions and safer alternatives."
+        }
+      ]
+    },
+    {
+      "t": "Ôn tập: Tình huống khám bệnh",
+      "e": [
+        {
+          "p": "Describe your problem in two sentences for the doctor.",
+          "m": "Nêu triệu chứng chính. Nêu khi bắt đầu và 1 thay đổi gần đây.",
+          "h": "Present Simple + Past Simple for start/change",
+          "s": "I have chest pain and shortness of breath. It started yesterday and got worse tonight."
+        },
+        {
+          "p": "Give your name, age and one chronic condition you have.",
+          "m": "Nêu tên và tuổi (dùng placeholder). Nêu 1 bệnh mãn tính.",
+          "h": "Use placeholders [studentName], [studentAge] + 'I have...'",
+          "s": "[studentName], I am [studentAge] years old. I have asthma."
+        },
+        {
+          "p": "List current medicines and any allergies briefly.",
+          "m": "Liệt kê 1-2 thuốc. Nêu dị ứng nếu có.",
+          "h": "Present Simple list + 'allergic to' ",
+          "s": "I take an inhaler twice daily and a vitamin. I am allergic to penicillin."
+        },
+        {
+          "p": "Say what you want from this visit (test, medicine, advice).",
+          "m": "Nêu 1 mục tiêu chính cho lần khám. Nói ngắn lý do.",
+          "h": "Use 'I want...' + reason",
+          "s": "I want a chest x-ray and medicine for my pain. I am worried about my breathing."
+        },
+        {
+          "p": "Confirm you understand the next steps the doctor will give.",
+          "m": "Nói bạn sẽ làm gì tiếp theo (follow advice, take test). Nói chắc chắn hay cần thêm info.",
+          "h": "Use 'I will...' or 'I need more information about...'",
+          "s": "I will follow the doctor's advice and take the tests. I need no more information right now."
+        }
+      ]
+    }
+  ]
+}

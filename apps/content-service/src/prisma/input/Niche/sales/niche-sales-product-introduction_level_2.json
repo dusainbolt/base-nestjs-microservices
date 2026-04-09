@@ -1,0 +1,600 @@
+{
+  "l": 2,
+  "d": [
+    {
+      "t": "Gặp khách hàng lần đầu",
+      "e": [
+        {
+          "p": "Do you like this product?",
+          "m": "Nói bạn có thích sản phẩm hay không. Nói một tính năng bạn thích.",
+          "h": "Use 'I like / I don't like' + 'It is + adj' or 'It has + N'.",
+          "s": "Yes, I like this product. It is small and easy to use."
+        },
+        {
+          "p": "What's your name?",
+          "m": "Nói tên của bạn. Nói bạn sống ở thành phố nào.",
+          "h": "My name is [studentName]. I am from [studentCity].",
+          "s": "My name is [studentName]. I am from [studentCity]."
+        },
+        {
+          "p": "How old are you?",
+          "m": "Nói tuổi của bạn. Nói nếu bạn cần sản phẩm này.",
+          "h": "I am [studentAge] years old. Use 'I need / I want'.",
+          "s": "I am [studentAge] years old. I need this product."
+        },
+        {
+          "p": "Do you use a product like this every day?",
+          "m": "Nói tần suất bạn dùng sản phẩm tương tự. Nói lý do ngắn.",
+          "h": "Use frequency adverb (always/often/sometimes) + because + reason.",
+          "s": "I often use a product like this. It helps me at work."
+        },
+        {
+          "p": "Is there anything you don't like?",
+          "m": "Nói một điều bạn không thích. Đề xuất một thay đổi đơn giản.",
+          "h": "Use 'I don't like...' and 'I want...' or 'I would like...'.",
+          "s": "I don't like its color. I want a blue version."
+        }
+      ]
+    },
+    {
+      "t": "Giới thiệu sản phẩm mới",
+      "e": [
+        {
+          "p": "This is our new model. Do you like it?",
+          "m": "Nói bạn có thích mẫu mới không. Nói một tính năng chính.",
+          "h": "Use 'I like / I don't like' and 'It has...' or 'It is...'.",
+          "s": "Yes, I like the new model. It has a big screen."
+        },
+        {
+          "p": "What is the product made of?",
+          "m": "Nói vật liệu đơn giản. Nói có tốt cho bạn không.",
+          "h": "Use 'It is made of...' and 'It is good / not good for me.'",
+          "s": "It is made of plastic and metal. It is good for me."
+        },
+        {
+          "p": "How much does it cost?",
+          "m": "Nói giá chung (dùng 'about' nếu không chắc). Nói nếu giá hợp lý với bạn.",
+          "h": "Use 'It costs about...' and 'It is / is not expensive.'",
+          "s": "It costs about twenty dollars. It is not expensive for me."
+        },
+        {
+          "p": "How many colors do we have?",
+          "m": "Nói số màu có sẵn. Nói bạn thích màu nào.",
+          "h": "Use 'There are + number + colors' and 'I like + color'.",
+          "s": "There are three colors. I like the red color."
+        },
+        {
+          "p": "Are you interested in buying?",
+          "m": "Nói bạn có muốn mua hay không. Nói lý do ngắn (need/want).",
+          "h": "Use 'I want / I don't want' and a short reason with 'because'.",
+          "s": "I want to buy this product. I need it for daily use."
+        }
+      ]
+    },
+    {
+      "t": "Hỏi về nhu cầu của khách hàng",
+      "e": [
+        {
+          "p": "What do you need from a product like this?",
+          "m": "Nói một nhu cầu chính. Nói nếu bạn cần nhiều hay ít.",
+          "h": "Use 'I need + N' and 'I often / sometimes / never'.",
+          "s": "I need a small and light product. I often use it every morning."
+        },
+        {
+          "p": "Do you want a simple model or a full model?",
+          "m": "Chọn simple hoặc full. Nói một lý do ngắn.",
+          "h": "Use 'I want a simple/full model' and 'because...'.",
+          "s": "I want a simple model. It is easy to use."
+        },
+        {
+          "p": "How often will you use it?",
+          "m": "Nói tần suất dùng (always/often/sometimes). Nói khi nào bạn dùng.",
+          "h": "Use frequency adverb and 'in the morning / at night / every day'.",
+          "s": "I usually use it every day. I use it in the morning."
+        },
+        {
+          "p": "Do you need it for home or work?",
+          "m": "Nói bạn dùng ở đâu (home/work). Nói một lợi ích ngắn cho nơi đó.",
+          "h": "Use 'for home / for work' and 'It helps me + V'.",
+          "s": "I need it for work. It helps me finish tasks faster."
+        },
+        {
+          "p": "Would you like to try it now?",
+          "m": "Nói bạn có muốn thử ngay không. Nói nếu bạn cần hướng dẫn ngắn.",
+          "h": "Use 'I would like to try' or 'I don't want to try' + 'I need...' ",
+          "s": "I would like to try it now. I need a short guide, please."
+        }
+      ]
+    },
+    {
+      "t": "Mô tả tính năng đơn giản",
+      "e": [
+        {
+          "p": "What does this button do?",
+          "m": "Nói chức năng của nút. Nói nếu nút dễ dùng hay không.",
+          "h": "Use 'It turns on / It opens / It makes...' and 'It is easy / not easy'.",
+          "s": "This button turns on the device. It is easy to press."
+        },
+        {
+          "p": "Is the screen big?",
+          "m": "Nói màn hình có lớn không. Nói bạn thích kích thước đó hay không.",
+          "h": "Use 'It is big / small' and 'I like / I don't like + reason'.",
+          "s": "Yes, the screen is big. I like the big screen for reading."
+        },
+        {
+          "p": "Does it have Wi‑Fi?",
+          "m": "Nói có Wi‑Fi hay không. Nói nếu bạn cần Wi‑Fi.",
+          "h": "Use 'It has / It does not have' and 'I need / I don't need'.",
+          "s": "It has Wi‑Fi. I need Wi‑Fi at home."
+        },
+        {
+          "p": "How long does the battery last?",
+          "m": "Nói thời lượng pin ngắn gọn. Nói nếu thời lượng đủ cho bạn.",
+          "h": "Use 'It lasts + time' and 'It is enough / not enough for me'.",
+          "s": "The battery lasts for eight hours. It is enough for my day."
+        },
+        {
+          "p": "Can you list two main features?",
+          "m": "Nêu hai tính năng chính (mỗi tính năng một câu).",
+          "h": "Make two short sentences with 'It has...' or 'It is...'.",
+          "s": "It has a long battery and a big screen. It is light and easy to carry."
+        }
+      ]
+    },
+    {
+      "t": "Nói về lợi ích khi dùng",
+      "e": [
+        {
+          "p": "How does the product help you?",
+          "m": "Nói một lợi ích chính. Nói một ví dụ ngắn khi bạn dùng.",
+          "h": "Use 'It helps me + V' and 'For example, ...'.",
+          "s": "It helps me work faster. For example, I finish tasks in less time."
+        },
+        {
+          "p": "Does it save your time?",
+          "m": "Trả lời có/không. Nói một ví dụ ngắn.",
+          "h": "Use 'Yes, it does / No, it doesn't' and a short reason.",
+          "s": "Yes, it does save my time. I use it to do my job quickly."
+        },
+        {
+          "p": "Is it good for travel?",
+          "m": "Nói nếu sản phẩm tốt cho đi du lịch. Nói một lý do ngắn.",
+          "h": "Use 'It is good / It is not good for travel' + reason.",
+          "s": "It is good for travel. It is small and light."
+        },
+        {
+          "p": "Will it make work easier?",
+          "m": "Trả lời có/không. Nói một nhiệm vụ bạn làm dễ hơn.",
+          "h": "Use 'Yes, it will / No, it won't' and 'It helps me + V'.",
+          "s": "Yes, it will make work easier. It helps me organize files."
+        },
+        {
+          "p": "Why should someone buy it?",
+          "m": "Nói một lý do chính để mua. Nói một lợi ích phụ.",
+          "h": "Two short sentences: main reason and an extra benefit.",
+          "s": "People should buy it because it is cheap and useful. It also lasts a long time."
+        }
+      ]
+    },
+    {
+      "t": "Hỏi về giá và số lượng",
+      "e": [
+        {
+          "p": "How much is one unit?",
+          "m": "Nói giá mỗi đơn vị. Nói nếu giá đó rẻ hay đắt với bạn.",
+          "h": "Use 'It costs + amount' and 'It is cheap / expensive / okay'.",
+          "s": "It costs ten dollars. It is cheap for me."
+        },
+        {
+          "p": "Do you want two or three?",
+          "m": "Chọn số bạn muốn (two/three). Nói lý do ngắn.",
+          "h": "Use 'I want two/three' and 'because...'.",
+          "s": "I want two units. I need one for home and one for work."
+        },
+        {
+          "p": "How many do you need?",
+          "m": "Nói số lượng bạn cần. Nói nếu bạn will buy now or later.",
+          "h": "Use 'I need + number' and 'I will buy now / later'.",
+          "s": "I need three pieces. I will buy them now."
+        },
+        {
+          "p": "Is there a discount for many units?",
+          "m": "Trả lời có/không. Nói ngắn bạn sẽ mua nếu có giảm giá.",
+          "h": "Use 'Yes, there is / No, there isn't' and 'I will buy if...' ",
+          "s": "Yes, there is a small discount. I will buy more if the price is lower."
+        },
+        {
+          "p": "Can you pay now or later?",
+          "m": "Nói bạn thanh toán ngay hay trả sau. Nói một lý do ngắn.",
+          "h": "Use 'I will pay now / later' and 'because...'.",
+          "s": "I will pay now. I want to get the product today."
+        }
+      ]
+    },
+    {
+      "t": "Nói về màu sắc và kích thước",
+      "e": [
+        {
+          "p": "Which color do you like?",
+          "m": "Nói màu bạn thích. Nói vì sao bạn thích màu đó.",
+          "h": "Use 'I like + color' and 'because + reason'.",
+          "s": "I like blue color. I like it because it is calm."
+        },
+        {
+          "p": "Is the product big or small?",
+          "m": "Nói kích thước sản phẩm. Nói nếu kích thước phù hợp với bạn.",
+          "h": "Use 'It is big / small' and 'It is suitable / not suitable for me'.",
+          "s": "It is small. It is suitable for my bag."
+        },
+        {
+          "p": "Do you want a smaller model?",
+          "m": "Trả lời có/không. Nói một lý do ngắn.",
+          "h": "Use 'I want / I don't want' and 'because...'.",
+          "s": "I want a smaller model. It fits in my pocket."
+        },
+        {
+          "p": "Are there many sizes?",
+          "m": "Nói có nhiều kích thước không (There are...). Nói bạn thích kích thước nào.",
+          "h": "Use 'There are + number + sizes' and 'I like + size'.",
+          "s": "There are two sizes. I like the small size."
+        },
+        {
+          "p": "Can you imagine the product in a new color?",
+          "m": "Nói bạn có thể tưởng tượng màu mới không. Nói màu bạn muốn.",
+          "h": "Use 'I can imagine' or 'I cannot imagine' and 'I want + color'.",
+          "s": "I can imagine it in green. I want a green model, please."
+        }
+      ]
+    },
+    {
+      "t": "So sánh nhanh với đối thủ",
+      "e": [
+        {
+          "p": "Is our product better than the old one?",
+          "m": "Nói có/không. Nói một điểm tốt hơn.",
+          "h": "Use 'Yes, it is / No, it isn't' and 'It is better because...'.",
+          "s": "Yes, it is better. It is faster than the old one."
+        },
+        {
+          "p": "Which one is cheaper?",
+          "m": "Nói sản phẩm nào rẻ hơn. Nói nếu bạn sẽ chọn sản phẩm đó.",
+          "h": "Use 'X is cheaper' and 'I will / will not choose it'.",
+          "s": "The other model is cheaper. I will not choose it because it is slow."
+        },
+        {
+          "p": "Do you like our design more?",
+          "m": "Trả lời có/không. Nêu một lý do ngắn.",
+          "h": "Use 'I like / I don't like' and 'because...'.",
+          "s": "I like your design more. It looks modern and clean."
+        },
+        {
+          "p": "Is the competitor's product bigger?",
+          "m": "Trả lời có/không. Nói nếu đó là tốt hay xấu cho bạn.",
+          "h": "Use 'Yes, it is / No, it isn't' and 'It is good/bad for me'.",
+          "s": "Yes, it is bigger. It is not good for travel."
+        },
+        {
+          "p": "Will you buy ours or theirs?",
+          "m": "Nói bạn sẽ mua sản phẩm nào. Nói một lý do ngắn.",
+          "h": "Use 'I will buy ours/theirs' and 'because...'.",
+          "s": "I will buy ours. It is faster and lighter."
+        }
+      ]
+    },
+    {
+      "t": "Giải thích cách dùng",
+      "e": [
+        {
+          "p": "How do I turn it on?",
+          "m": "Nói bước đơn giản để bật. Nói nếu dễ hay khó.",
+          "h": "Use present simple: 'You press / You hold' and 'It is easy / not easy'.",
+          "s": "You press the power button for two seconds. It is easy to do."
+        },
+        {
+          "p": "How do I connect to Wi‑Fi?",
+          "m": "Nói hai bước ngắn để kết nối. Nói nếu cần mật khẩu hay không.",
+          "h": "Use 'You go to... then you select...' and 'You need / do not need a password'.",
+          "s": "You go to settings and select Wi‑Fi. You need a password."
+        },
+        {
+          "p": "Can I charge it with any cable?",
+          "m": "Trả lời có/không. Nói loại cáp bạn cần.",
+          "h": "Use 'Yes, you can / No, you cannot' and 'You need a ... cable'.",
+          "s": "No, you cannot use any cable. You need a USB‑C cable."
+        },
+        {
+          "p": "How do I clean it?",
+          "m": "Nói cách lau đơn giản. Nói nếu có thứ không nên làm.",
+          "h": "Use 'You clean with...' and 'Do not + V' for warnings.",
+          "s": "You clean it with a soft cloth. Do not use water."
+        },
+        {
+          "p": "Is it easy to learn?",
+          "m": "Nói nếu dễ học. Nói bạn muốn hướng dẫn thêm hay không.",
+          "h": "Use 'It is easy / not easy' and 'I want / don't want more help'.",
+          "s": "It is easy to learn. I want a short guide, please."
+        }
+      ]
+    },
+    {
+      "t": "Trả lời phản hồi của khách hàng",
+      "e": [
+        {
+          "p": "I don't like the sound. What can you do?",
+          "m": "Trả lời bạn nghe và hiểu phàn nàn. Nêu một hành động đơn giản bạn sẽ làm.",
+          "h": "Use 'I understand' and 'I will...' or 'We will...' in simple present.",
+          "s": "I understand your problem. I will check the sound settings."
+        },
+        {
+          "p": "The product is too heavy for me.",
+          "m": "Thừa nhận và đề nghị giải pháp (ví dụ model nhỏ).",
+          "h": "Use 'I am sorry' or 'I understand' and 'You can try...' ",
+          "s": "I am sorry it is heavy. You can try the smaller model."
+        },
+        {
+          "p": "It is slow sometimes.",
+          "m": "Nói bạn biết vấn đề. Nêu một bước đơn giản để cải thiện tốc độ.",
+          "h": "Use 'It can be...' and 'Try to...' or 'Please...' ",
+          "s": "It can be slow sometimes. Try closing other apps."
+        },
+        {
+          "p": "I lost the cable. Can I buy one?",
+          "m": "Trả lời có/không bạn bán cáp. Nói giá hoặc nơi mua ngắn gọn.",
+          "h": "Use 'Yes, you can buy' and 'It costs...' or 'At our shop'.",
+          "s": "Yes, you can buy a new cable. It costs five dollars at our shop."
+        },
+        {
+          "p": "The battery dies fast. Any idea?",
+          "m": "Thừa nhận và đưa một lời khuyên ngắn. Nói nếu cần bảo hành.",
+          "h": "Use 'It may be...' and 'Please check...' or 'You can ask for warranty'.",
+          "s": "It may be a battery issue. Please ask for a warranty check."
+        }
+      ]
+    },
+    {
+      "t": "Kể về trải nghiệm sử dụng",
+      "e": [
+        {
+          "p": "When did you start using it?",
+          "m": "Nói thời gian ngắn (yesterday/last week). Nói bạn dùng lúc nào.",
+          "h": "Use 'I started using it + time' and 'I use it in the morning / at night'.",
+          "s": "I started using it last week. I use it every morning."
+        },
+        {
+          "p": "Do you enjoy using it?",
+          "m": "Trả lời có/không. Nói một lý do ngắn.",
+          "h": "Use 'I enjoy / I don't enjoy' and 'because...'.",
+          "s": "Yes, I enjoy using it. It makes my work easy."
+        },
+        {
+          "p": "Have you recommended it to friends?",
+          "m": "Trả lời có/không. Nói ai bạn đã nói (friend/family).",
+          "h": "Use 'Yes, I have / No, I haven't' and 'I told my friend/family'.",
+          "s": "Yes, I have recommended it. I told my friend at work."
+        },
+        {
+          "p": "Do you still use the old product?",
+          "m": "Trả lời có/không. Nói lý do ngắn nếu có.",
+          "h": "Use 'I still use / I don't use' and 'because...'.",
+          "s": "I don't use the old product anymore. It was slow and heavy."
+        },
+        {
+          "p": "Would you buy it again?",
+          "m": "Trả lời có/không. Nói một lý do ngắn.",
+          "h": "Use 'Yes, I would / No, I wouldn't' and 'because...'.",
+          "s": "Yes, I would buy it again. It is useful every day."
+        }
+      ]
+    },
+    {
+      "t": "Chuẩn bị mua hàng",
+      "e": [
+        {
+          "p": "Do you want a receipt?",
+          "m": "Trả lời có/không. Nói nếu bạn cần nó cho công việc hoặc cá nhân.",
+          "h": "Use 'Yes, I want / No, I don't want' and 'for work / for personal use'.",
+          "s": "Yes, I want a receipt. It is for work."
+        },
+        {
+          "p": "Will you pick it up or deliver?",
+          "m": "Chọn pick up hoặc deliver. Nói bạn sẽ đến đâu hoặc địa chỉ ngắn.",
+          "h": "Use 'I will pick it up / I will have it delivered' and 'to [studentCity]' if needed.",
+          "s": "I will have it delivered. Send it to my address in [studentCity]."
+        },
+        {
+          "p": "Do you need a box for gift?",
+          "m": "Trả lời có/không. Nói nếu bạn muốn một hộp màu cụ thể.",
+          "h": "Use 'I need / I don't need' and 'I want + color'.",
+          "s": "Yes, I need a box for a gift. I want a red box."
+        },
+        {
+          "p": "Can you choose a payment method?",
+          "m": "Nói phương thức thanh toán (cash/card). Nói nếu bạn muốn trả sau.",
+          "h": "Use 'I will pay by cash / card' and 'I will pay now / later'.",
+          "s": "I will pay by card. I will pay now."
+        },
+        {
+          "p": "Do you want a warranty?",
+          "m": "Trả lời có/không. Nói thời gian bảo hành bạn cần (ví dụ: one year).",
+          "h": "Use 'Yes, I want / No, I don't want' and 'one year / two years'.",
+          "s": "Yes, I want a warranty. I need a one year warranty."
+        }
+      ]
+    },
+    {
+      "t": "Ưu đãi và chương trình khuyến mãi",
+      "e": [
+        {
+          "p": "We have a discount today. Interested?",
+          "m": "Trả lời có/không. Nói bạn sẽ mua ngay hay suy nghĩ.",
+          "h": "Use 'Yes, I am interested / No, I'm not' and 'I will buy now / later'.",
+          "s": "Yes, I am interested. I will buy now."
+        },
+        {
+          "p": "Buy two get one free. Do you want this deal?",
+          "m": "Trả lời có/không. Nói nếu bạn cần hai hay ba cái.",
+          "h": "Use 'Yes, I want / No, I don't want' and 'I need two/three'.",
+          "s": "Yes, I want this deal. I need three items."
+        },
+        {
+          "p": "We offer free shipping for orders over $50.",
+          "m": "Nói nếu tổng đơn hàng của bạn trên $50. Nói bạn có cần free shipping không.",
+          "h": "Use 'My order is + amount' and 'I need / don't need free shipping'.",
+          "s": "My order is sixty dollars. I need free shipping."
+        },
+        {
+          "p": "There is a 10% student discount.",
+          "m": "Nói bạn có phải student không. Nói nếu bạn muốn dùng giảm giá.",
+          "h": "Use 'I am a student / I am not a student' and 'I want the discount'.",
+          "s": "I am a student. I want the discount, please."
+        },
+        {
+          "p": "Do you prefer cash back or gift voucher?",
+          "m": "Chọn cashback hoặc voucher. Nói lý do ngắn.",
+          "h": "Use 'I prefer + N' and 'because...'.",
+          "s": "I prefer a gift voucher. It is easier to use for gifts."
+        }
+      ]
+    },
+    {
+      "t": "Hẹn gặp và thử sản phẩm",
+      "e": [
+        {
+          "p": "Can you come to try the product tomorrow?",
+          "m": "Trả lời có/không. Nói thời gian bạn rảnh (morning/afternoon).",
+          "h": "Use 'Yes, I can / No, I can't' and 'in the morning / in the afternoon'.",
+          "s": "Yes, I can come tomorrow. I am free in the morning."
+        },
+        {
+          "p": "Do you want a staff to help you?",
+          "m": "Trả lời có/không. Nói nếu bạn cần hướng dẫn ngắn.",
+          "h": "Use 'Yes, I want / No, I don't want' and 'I need help with...'.",
+          "s": "Yes, I want a staff to help me. I need help with setup."
+        },
+        {
+          "p": "Will you bring a friend to test it?",
+          "m": "Trả lời có/không. Nói nếu bạn cần một chỗ ngồi thêm.",
+          "h": "Use 'Yes, I will / No, I won't' and 'I need + seat/space'.",
+          "s": "Yes, I will bring a friend. We need two seats, please."
+        },
+        {
+          "p": "Is next week good for you?",
+          "m": "Nói nếu tuần tới phù hợp. Nói ngày bạn thích (day of week).",
+          "h": "Use 'Next week is good / not good' and 'I prefer + day'.",
+          "s": "Next week is good for me. I prefer Tuesday."
+        },
+        {
+          "p": "Do you want to test it for 30 minutes?",
+          "m": "Trả lời có/không. Nói nếu 30 phút đủ cho bạn.",
+          "h": "Use 'Yes, 30 minutes is enough / No, it's not enough' and 'because...'.",
+          "s": "Yes, 30 minutes is enough. I can test main features."
+        }
+      ]
+    },
+    {
+      "t": "Ôn tập: Giới thiệu sản phẩm - phần 1",
+      "e": [
+        {
+          "p": "Can you tell me the main feature?",
+          "m": "Nêu một tính năng chính. Nói nếu tính năng đó quan trọng với bạn.",
+          "h": "Use 'It has...' and 'It is important because...'.",
+          "s": "It has a long battery life. It is important because I travel a lot."
+        },
+        {
+          "p": "How many units will you buy now?",
+          "m": "Nói số lượng bạn mua bây giờ. Nói nếu bạn sẽ mua thêm sau.",
+          "h": "Use 'I will buy + number' and 'I will buy more later / not'.",
+          "s": "I will buy two units now. I will buy one more later."
+        },
+        {
+          "p": "Do you want a demo today?",
+          "m": "Trả lời có/không. Nói bạn cần bao lâu cho demo (ví dụ: 10 minutes).",
+          "h": "Use 'Yes, I want / No, I don't want' and 'It takes + time'.",
+          "s": "Yes, I want a demo today. It takes ten minutes."
+        },
+        {
+          "p": "Is this product new to you?",
+          "m": "Trả lời có/không. Nói nếu bạn đã thấy sản phẩm tương tự trước đây.",
+          "h": "Use 'Yes, it is / No, it isn't' and 'I have / haven't seen similar one'.",
+          "s": "Yes, this product is new to me. I haven't seen a similar one."
+        },
+        {
+          "p": "Will you recommend it to friends?",
+          "m": "Trả lời có/không. Nói một lý do ngắn.",
+          "h": "Use 'Yes, I will / No, I won't' and 'because...'.",
+          "s": "Yes, I will recommend it. It is useful and cheap."
+        }
+      ]
+    },
+    {
+      "t": "Ôn tập: Giới thiệu sản phẩm - phần 2",
+      "e": [
+        {
+          "p": "What color and size do you need?",
+          "m": "Nói màu bạn cần. Nói kích thước bạn chọn.",
+          "h": "Use 'I need + color' and 'I want the + size'.",
+          "s": "I need a black color. I want the small size."
+        },
+        {
+          "p": "Does the product meet your needs?",
+          "m": "Trả lời có/không. Nói một nhu cầu cụ thể được đáp ứng.",
+          "h": "Use 'Yes, it meets my needs / No, it doesn't' and 'It helps me with...'.",
+          "s": "Yes, it meets my needs. It helps me study at night."
+        },
+        {
+          "p": "Can you give a short feedback?",
+          "m": "Nói một điều bạn thích. Nói một điều cần cải thiện.",
+          "h": "Two short sentences: 'I like...' and 'I don't like...' or 'I want...'.",
+          "s": "I like the battery life. I don't like the small buttons."
+        },
+        {
+          "p": "Would you like a warranty and why?",
+          "m": "Trả lời có/không. Nói lý do ngắn.",
+          "h": "Use 'Yes, I want / No, I don't want' and 'because...'.",
+          "s": "Yes, I want a warranty. It gives me peace of mind."
+        },
+        {
+          "p": "Are you ready to pay today?",
+          "m": "Trả lời có/không. Nói phương thức thanh toán bạn chọn.",
+          "h": "Use 'Yes, I am ready / No, I'm not' and 'I will pay by...' ",
+          "s": "Yes, I am ready to pay today. I will pay by card."
+        }
+      ]
+    },
+    {
+      "t": "Ôn tập: Giới thiệu sản phẩm - phần 3",
+      "e": [
+        {
+          "p": "Please describe two benefits.",
+          "m": "Nói hai lợi ích, mỗi lợi ích một câu.",
+          "h": "Make two sentences starting with 'It helps...' or 'It is...'.",
+          "s": "It helps me save time. It is easy to carry."
+        },
+        {
+          "p": "Do you need help with setup or use?",
+          "m": "Chọn setup hoặc use. Nói bạn cần bao lâu cho trợ giúp.",
+          "h": "Use 'I need help with...' and 'It takes + time'.",
+          "s": "I need help with setup. It takes about ten minutes."
+        },
+        {
+          "p": "Will you buy for home or work?",
+          "m": "Nói bạn mua cho home hay work. Nói một lý do ngắn.",
+          "h": "Use 'for home / for work' and 'because...'.",
+          "s": "I will buy it for home. It is useful for daily chores."
+        },
+        {
+          "p": "Do you want to test and give feedback later?",
+          "m": "Trả lời có/không. Nói khi nào bạn sẽ phản hồi (ví dụ: tomorrow).",
+          "h": "Use 'Yes, I will / No, I won't' and 'I will give feedback + time'.",
+          "s": "Yes, I will give feedback later. I will tell you tomorrow."
+        },
+        {
+          "p": "Any final questions before purchase?",
+          "m": "Nói một câu hỏi cuối nếu có. Nếu không, nói bạn sẽ mua.",
+          "h": "One sentence question or one sentence decision: 'I will buy.'",
+          "s": "No more questions. I will buy the product now."
+        }
+      ]
+    }
+  ]
+}

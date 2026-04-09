@@ -1,0 +1,565 @@
+{
+  "l": 1,
+  "d": [
+    {
+      "t": "Tìm quầy thông tin",
+      "e": [
+        {
+          "p": "Where is the information desk?",
+          "m": "Nói vị trí ngắn của quầy thông tin.",
+          "h": "Use: S + be + (place).",
+          "s": "It is near the gate."
+        },
+        {
+          "p": "Can you help me with a map?",
+          "m": "Nói bạn có thể giúp hay không bằng 'I can...' hoặc 'I can't...'.",
+          "h": "Use: I can / I can't + V.",
+          "s": "I can help with a map."
+        },
+        {
+          "p": "Is there a restroom here?",
+          "m": "Nói có hoặc không; nếu có, cho vị trí ngắn.",
+          "h": "Use: There is / There isn't + place.",
+          "s": "Yes, there is a restroom near the exit."
+        },
+        {
+          "p": "Do I need a ticket to go to the city center?",
+          "m": "Trả lời cần hay không bằng 'Yes, you need...' hoặc 'No, you don't need...'.",
+          "h": "Use: Yes/No + S + need/ don't need + O.",
+          "s": "Yes, you need a ticket for the bus."
+        },
+        {
+          "p": "What can I do to stay safe here?",
+          "m": "Cho một lời khuyên ngắn về an toàn dùng 'You can...'.",
+          "h": "Use: You can + V.",
+          "s": "You can keep your bag close."
+        }
+      ]
+    },
+    {
+      "t": "Nhờ giúp đỡ trên đường",
+      "e": [
+        {
+          "p": "Excuse me, I am lost. Where is the hotel?",
+          "m": "Cho hướng ngắn tới khách sạn (ví dụ: 'It is near...').",
+          "h": "Use: It is + place.",
+          "s": "It is near the big park."
+        },
+        {
+          "p": "Can you watch my bag for a minute?",
+          "m": "Nói bạn có thể giúp trông túi hay không bằng 'I can...' hoặc 'I can't...'.",
+          "h": "Use: I can / I can't + V.",
+          "s": "I can watch your bag for a minute."
+        },
+        {
+          "p": "There is a man running away with my phone!",
+          "m": "Nói bạn có thể giúp gọi người lớn / tìm giúp hay không (một câu).",
+          "h": "Use: I will / I can't + V (short).",
+          "s": "I will call for help."
+        },
+        {
+          "p": "Is this street safe at night?",
+          "m": "Trả lời 'Yes' hoặc 'No' và một lý do ngắn.",
+          "h": "Use: Yes/No + S + be + Adj + because...",
+          "s": "No, this street is dark at night because there are few lights."
+        },
+        {
+          "p": "What should I do if I lose my keys?",
+          "m": "Cho một hành động đơn giản để làm (một câu).",
+          "h": "Use: You can + V.",
+          "s": "You can ask at the shop for help."
+        }
+      ]
+    },
+    {
+      "t": "Trong khách sạn",
+      "e": [
+        {
+          "p": "Where is my room?",
+          "m": "Nói tầng hoặc vị trí phòng ngắn (một câu).",
+          "h": "Use: It is on + floor / It is in + place.",
+          "s": "It is on the third floor."
+        },
+        {
+          "p": "Can I leave my bag at the desk?",
+          "m": "Trả lời cho phép hay không bằng 'Yes, you can' hoặc 'No, you can't'.",
+          "h": "Use: Yes/No + S + can / can't + V.",
+          "s": "Yes, you can leave your bag at the desk."
+        },
+        {
+          "p": "Is the door locked now?",
+          "m": "Trả lời có hoặc không (một câu).",
+          "h": "Use: S + be + Adj.",
+          "s": "Yes, the door is locked now."
+        },
+        {
+          "p": "I think someone is in my room.",
+          "m": "Nói bạn sẽ làm gì ngắn gọn (một câu).",
+          "h": "Use: I will + V.",
+          "s": "I will call the front desk."
+        },
+        {
+          "p": "How can I keep my money safe in the hotel?",
+          "m": "Cho một lời khuyên đơn giản để giữ tiền an toàn (một câu).",
+          "h": "Use: You can + V.",
+          "s": "You can put money in the safe."
+        }
+      ]
+    },
+    {
+      "t": "An toàn ở sân bay",
+      "e": [
+        {
+          "p": "Where do I check in?",
+          "m": "Nói vị trí quầy làm thủ tục ngắn (một câu).",
+          "h": "Use: It is + place.",
+          "s": "It is at counter five."
+        },
+        {
+          "p": "Can I keep my bag with me on the plane?",
+          "m": "Trả lời có hoặc không (một câu).",
+          "h": "Use: Yes/No + S + can / can't + V.",
+          "s": "Yes, you can keep a small bag with you."
+        },
+        {
+          "p": "Is my passport safe in my pocket?",
+          "m": "Trả lời có hoặc không và đưa lời khuyên ngắn.",
+          "h": "Use: No, you should / You can + V.",
+          "s": "No, you should keep it in a bag."
+        },
+        {
+          "p": "Someone takes my boarding pass!",
+          "m": "Nói hành động bạn làm ngay (một câu).",
+          "h": "Use: I will + V.",
+          "s": "I will tell the staff."
+        },
+        {
+          "p": "How do I stay safe in a busy airport?",
+          "m": "Cho một lời khuyên ngắn (một câu).",
+          "h": "Use: You can + V.",
+          "s": "You can keep your bag close and watch your things."
+        }
+      ]
+    },
+    {
+      "t": "Vấn đề với hành lý",
+      "e": [
+        {
+          "p": "My bag is heavy. Can you help me?",
+          "m": "Trả lời bạn có thể giúp hay không bằng 'I can...' hoặc 'I can't...'.",
+          "h": "Use: I can / I can't + V.",
+          "s": "I can help carry your bag."
+        },
+        {
+          "p": "There is a hole in my bag.",
+          "m": "Nói bạn sẽ làm gì ngắn (một câu).",
+          "h": "Use: I will + V.",
+          "s": "I will check for the lost things."
+        },
+        {
+          "p": "Do you have a safe place for luggage?",
+          "m": "Trả lời có hoặc không; nếu có, cho vị trí ngắn.",
+          "h": "Use: Yes/No + There is / There isn't + place.",
+          "s": "Yes, there is a luggage room near the entrance."
+        },
+        {
+          "p": "Can I lock my bag here?",
+          "m": "Nói có thể hoặc không (một câu).",
+          "h": "Use: Yes/No + S + can / can't + V.",
+          "s": "Yes, you can lock your bag with a small lock."
+        },
+        {
+          "p": "What do I do if my bag is gone?",
+          "m": "Cho một hành động ngắn bạn nên làm (một câu).",
+          "h": "Use: You should / You can + V (use 'You can' to stay level).",
+          "s": "You can tell the staff and look at CCTV."
+        }
+      ]
+    },
+    {
+      "t": "Khi lạc đường trong thành phố",
+      "e": [
+        {
+          "p": "Excuse me, where is the main square?",
+          "m": "Nói vị trí gần nhất của quảng trường (một câu).",
+          "h": "Use: It is near + place.",
+          "s": "It is near the old church."
+        },
+        {
+          "p": "Can you show me on the map?",
+          "m": "Trả lời bạn có thể chỉ trên bản đồ hay không (một câu).",
+          "h": "Use: I can / I can't + V.",
+          "s": "I can show it on the map."
+        },
+        {
+          "p": "Is it safe to walk here alone?",
+          "m": "Trả lời có hoặc không và cho lý do ngắn.",
+          "h": "Use: Yes/No + S + be + Adj + because...",
+          "s": "No, it is not safe because it is dark and quiet."
+        },
+        {
+          "p": "I have no phone battery.",
+          "m": "Nói một nơi bạn có thể sạc (một câu).",
+          "h": "Use: You can + V + place.",
+          "s": "You can charge your phone at the cafe."
+        },
+        {
+          "p": "What is the safe way home from here?",
+          "m": "Cho một cách an toàn đơn giản (một câu).",
+          "h": "Use: You can + V.",
+          "s": "You can take a taxi and sit in the back seat."
+        }
+      ]
+    },
+    {
+      "t": "An toàn khi đi bộ buổi tối",
+      "e": [
+        {
+          "p": "Is this park safe at night?",
+          "m": "Trả lời có hoặc không (một câu).",
+          "h": "Use: Yes/No + S + be + Adj.",
+          "s": "No, the park is not safe at night."
+        },
+        {
+          "p": "Can I walk home now?",
+          "m": "Trả lời bạn có thể hay không (một câu).",
+          "h": "Use: Yes/No + S + can / can't + V.",
+          "s": "No, you can't walk alone now."
+        },
+        {
+          "p": "I am scared to walk alone.",
+          "m": "Nói bạn sẽ làm gì để giúp (một câu).",
+          "h": "Use: I will / I can + V.",
+          "s": "I will walk with you to the bus stop."
+        },
+        {
+          "p": "Where is a well-lit street?",
+          "m": "Cho tên hoặc vị trí ngắn của đường có đèn (một câu).",
+          "h": "Use: It is + place.",
+          "s": "It is on Main Street near the shop."
+        },
+        {
+          "p": "How can I stay safe at night?",
+          "m": "Cho một lời khuyên an toàn ngắn (một câu).",
+          "h": "Use: You can + V.",
+          "s": "You can walk with a friend and keep lights on."
+        }
+      ]
+    },
+    {
+      "t": "Giao tiếp với người quản lý/nhân viên",
+      "e": [
+        {
+          "p": "Hello, I need help with my room key.",
+          "m": "Nói bạn có thể giúp hay không (một câu).",
+          "h": "Use: I can / I can't + V.",
+          "s": "I can help with your room key."
+        },
+        {
+          "p": "Someone takes my money in the lobby.",
+          "m": "Nói bạn sẽ làm gì ngay (một câu).",
+          "h": "Use: I will + V.",
+          "s": "I will check the camera and call security."
+        },
+        {
+          "p": "Do you have a first aid kit?",
+          "m": "Trả lời có hoặc không và nơi để lấy ngắn (một câu).",
+          "h": "Use: Yes/No + There is + place.",
+          "s": "Yes, there is a first aid kit at the front desk."
+        },
+        {
+          "p": "Can I leave my car here overnight?",
+          "m": "Trả lời có hoặc không (một câu).",
+          "h": "Use: Yes/No + S + can / can't + V.",
+          "s": "Yes, you can leave your car in our parking lot."
+        },
+        {
+          "p": "What is the emergency number here?",
+          "m": "Nói một số khẩn cấp ngắn (một câu).",
+          "h": "Use: The number is + digits (use short number).",
+          "s": "The number is 100."
+        }
+      ]
+    },
+    {
+      "t": "Giữ tiền và đồ giá trị",
+      "e": [
+        {
+          "p": "Where can I put my money?",
+          "m": "Nói một nơi an toàn để để tiền (một câu).",
+          "h": "Use: You can + V + place.",
+          "s": "You can put your money in the safe."
+        },
+        {
+          "p": "Can I keep my watch in the bag?",
+          "m": "Trả lời có hoặc không (một câu).",
+          "h": "Use: Yes/No + S + can / can't + V.",
+          "s": "Yes, you can keep your watch in the bag."
+        },
+        {
+          "p": "I lost my wallet.",
+          "m": "Nói hành động bạn làm để giúp (một câu).",
+          "h": "Use: I will + V.",
+          "s": "I will help you look in the shop."
+        },
+        {
+          "p": "Do you lock the safe at night?",
+          "m": "Trả lời có hoặc không (một câu).",
+          "h": "Use: Yes/No + S + be + V-ed or use 'We lock...'.",
+          "s": "Yes, we lock the safe at night."
+        },
+        {
+          "p": "How can I keep my phone safe on the beach?",
+          "m": "Cho một lời khuyên ngắn để giữ phone an toàn (một câu).",
+          "h": "Use: You can + V.",
+          "s": "You can put the phone in a small bag and keep it close."
+        }
+      ]
+    },
+    {
+      "t": "Sức khỏe khi du lịch",
+      "e": [
+        {
+          "p": "I have a headache after travel.",
+          "m": "Nói một hành động đơn giản bạn làm để giúp (một câu).",
+          "h": "Use: I will / I can + V.",
+          "s": "I will get you some water and rest."
+        },
+        {
+          "p": "Can I have some water, please?",
+          "m": "Trả lời có thể cho nước hay không (một câu).",
+          "h": "Use: Yes/No + S + can / can't + V.",
+          "s": "Yes, you can have water from the lobby."
+        },
+        {
+          "p": "Is there a doctor near here?",
+          "m": "Trả lời có hoặc không và vị trí ngắn nếu có (một câu).",
+          "h": "Use: Yes/No + There is + place.",
+          "s": "Yes, there is a clinic near the main street."
+        },
+        {
+          "p": "I feel sick after the food.",
+          "m": "Nói bạn sẽ làm gì để giúp (một câu).",
+          "h": "Use: I will + V.",
+          "s": "I will call a doctor and get help."
+        },
+        {
+          "p": "How to stay healthy when I travel?",
+          "m": "Cho một lời khuyên ngắn về giữ sức khỏe (một câu).",
+          "h": "Use: You can + V.",
+          "s": "You can drink water and eat simple food."
+        }
+      ]
+    },
+    {
+      "t": "Đi cùng bạn hoặc gia đình",
+      "e": [
+        {
+          "p": "Can we walk together to the station?",
+          "m": "Trả lời có thể đi cùng hay không (một câu).",
+          "h": "Use: Yes/No + S + can / can't + V.",
+          "s": "Yes, we can walk together to the station."
+        },
+        {
+          "p": "Who watches the kids at the hotel?",
+          "m": "Nói ai trông trẻ (một câu).",
+          "h": "Use: S + V + N (simple).",
+          "s": "The staff watches the kids."
+        },
+        {
+          "p": "Is my child safe here?",
+          "m": "Trả lời có hoặc không và một lý do ngắn (một câu).",
+          "h": "Use: Yes/No + S + be + Adj + because...",
+          "s": "Yes, the child is safe because the staff help."
+        },
+        {
+          "p": "I need help with a stroller.",
+          "m": "Nói bạn có thể giúp đẩy/stay with stroller hay không (một câu).",
+          "h": "Use: I can / I can't + V.",
+          "s": "I can help with the stroller."
+        },
+        {
+          "p": "What can we do if someone is sick in the group?",
+          "m": "Cho một hành động ngắn để giúp người bệnh (một câu).",
+          "h": "Use: You can / I will + V.",
+          "s": "You can find a doctor and rest in the room."
+        }
+      ]
+    },
+    {
+      "t": "Thời tiết xấu và an toàn",
+      "e": [
+        {
+          "p": "Is it safe to go outside? It is raining.",
+          "m": "Trả lời an toàn hay không (một câu).",
+          "h": "Use: Yes/No + S + be + Adj.",
+          "s": "No, it is not safe to go outside now."
+        },
+        {
+          "p": "Can we use an umbrella here?",
+          "m": "Trả lời có thể dùng ô hay không (một câu).",
+          "h": "Use: Yes/No + S + can / can't + V.",
+          "s": "Yes, you can use an umbrella."
+        },
+        {
+          "p": "There is wind and a tree fell near the road.",
+          "m": "Nói bạn sẽ làm gì ngắn để an toàn (một câu).",
+          "h": "Use: I will / I can + V.",
+          "s": "I will move to a safe place and call help."
+        },
+        {
+          "p": "Do we need to stay in the room?",
+          "m": "Trả lời có hoặc không (một câu).",
+          "h": "Use: Yes/No + S + need + to + V (use simple).",
+          "s": "Yes, we need to stay in the room."
+        },
+        {
+          "p": "How can I protect my bag from rain?",
+          "m": "Cho một cách đơn giản để bảo vệ túi (một câu).",
+          "h": "Use: You can + V.",
+          "s": "You can put the bag in a plastic bag."
+        }
+      ]
+    },
+    {
+      "t": "Gặp người lạ và an toàn",
+      "e": [
+        {
+          "p": "A person asks for money, what can I say?",
+          "m": "Cho một câu lịch sự nói 'I don't have' hoặc 'I can't help'.",
+          "h": "Use: I don't have / I can't + V.",
+          "s": "I don't have money, sorry."
+        },
+        {
+          "p": "Can I go with a stranger to find the place?",
+          "m": "Trả lời có nên hay không (một câu).",
+          "h": "Use: No, you should not / You can't (keep simple).",
+          "s": "No, you should not go with a stranger."
+        },
+        {
+          "p": "Who can I trust here?",
+          "m": "Nói một người tin cậy ngắn (một câu).",
+          "h": "Use: S + V + O (simple).",
+          "s": "You can trust the hotel staff."
+        },
+        {
+          "p": "Someone offers a ride for free.",
+          "m": "Nói bạn có nên nhận hay không và lý do ngắn (một câu).",
+          "h": "Use: No, you should not + because...",
+          "s": "No, you should not accept because it is not safe."
+        },
+        {
+          "p": "How to say no politely?",
+          "m": "Cho một câu ngắn từ chối lịch sự (một câu).",
+          "h": "Use: I am sorry, I can't + V.",
+          "s": "I am sorry, I can't go with you."
+        }
+      ]
+    },
+    {
+      "t": "Ôn tập: Tình huống chung về an toàn",
+      "e": [
+        {
+          "p": "Where is the nearest help desk?",
+          "m": "Nói vị trí ngắn nơi có thể nhận giúp đỡ.",
+          "h": "Use: It is near / There is + place.",
+          "s": "It is near the main entrance."
+        },
+        {
+          "p": "My phone is stolen, what can I do?",
+          "m": "Cho một hành động đơn giản bạn nên làm (một câu).",
+          "h": "Use: You can / I will + V.",
+          "s": "You can tell the staff and lock your cards."
+        },
+        {
+          "p": "Can I sleep in the lobby if I miss my bus?",
+          "m": "Trả lời có hoặc không và một lý do ngắn (một câu).",
+          "h": "Use: Yes/No + S + can / can't + V + because...",
+          "s": "No, you can't sleep in the lobby because it is not safe."
+        },
+        {
+          "p": "Someone offers to help with my bag, is it okay?",
+          "m": "Nói bạn có thể nhận giúp hay không và cách an toàn (một câu).",
+          "h": "Use: You can / You should + V.",
+          "s": "You can accept help from a staff member."
+        },
+        {
+          "p": "How to keep children safe in a busy place?",
+          "m": "Cho một lời khuyên ngắn về giữ trẻ an toàn (một câu).",
+          "h": "Use: You can + V.",
+          "s": "You can hold their hand and keep them close."
+        }
+      ]
+    },
+    {
+      "t": "Ôn tập: Khách sạn, sân bay và người giúp",
+      "e": [
+        {
+          "p": "Is the luggage room open now?",
+          "m": "Trả lời có hoặc không (một câu).",
+          "h": "Use: Yes/No + S + be + Adj.",
+          "s": "Yes, the luggage room is open now."
+        },
+        {
+          "p": "Can you show me the exit on the map?",
+          "m": "Nói bạn có thể chỉ trên bản đồ hay không (một câu).",
+          "h": "Use: I can / I can't + V.",
+          "s": "I can show the exit on the map."
+        },
+        {
+          "p": "What do I do if I feel sick at the airport?",
+          "m": "Cho một hành động ngắn bạn nên làm (một câu).",
+          "h": "Use: You can / I will + V.",
+          "s": "You can tell the staff and find a clinic."
+        },
+        {
+          "p": "Someone takes my bag in the hall!",
+          "m": "Nói việc bạn làm ngay (một câu).",
+          "h": "Use: I will + V.",
+          "s": "I will call the staff and follow him."
+        },
+        {
+          "p": "How to ask help at the desk?",
+          "m": "Cho một câu ngắn hỏi giúp (một câu).",
+          "h": "Use: Can you + V + O ?",
+          "s": "Can you help me with my bag?"
+        }
+      ]
+    },
+    {
+      "t": "Ôn tập: Các lời khuyên và phản ứng khẩn cấp",
+      "e": [
+        {
+          "p": "Where is the safe place now?",
+          "m": "Nói nơi an toàn ngắn (một câu).",
+          "h": "Use: It is + place.",
+          "s": "It is inside the main building."
+        },
+        {
+          "p": "I need help, can you call someone?",
+          "m": "Nói bạn sẽ làm gì ngắn (một câu).",
+          "h": "Use: I will + V.",
+          "s": "I will call the staff and the guard."
+        },
+        {
+          "p": "Is it okay to give my address to a stranger?",
+          "m": "Trả lời có hay không và lý do ngắn (một câu).",
+          "h": "Use: No, you should not / You shouldn't because...",
+          "s": "No, you should not give your address because it is private."
+        },
+        {
+          "p": "What can I do if I feel unsafe now?",
+          "m": "Cho một hành động đơn giản để làm ngay (một câu).",
+          "h": "Use: You can / I will + V.",
+          "s": "You can go to a shop and ask for help."
+        },
+        {
+          "p": "How to say you cannot go with someone?",
+          "m": "Cho một câu từ chối ngắn (một câu).",
+          "h": "Use: I am sorry, I can't + V.",
+          "s": "I am sorry, I can't go with you."
+        }
+      ]
+    }
+  ]
+}

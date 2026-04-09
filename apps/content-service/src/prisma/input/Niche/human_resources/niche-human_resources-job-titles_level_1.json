@@ -1,0 +1,530 @@
+{
+  "l": 1,
+  "d": [
+    {
+      "t": "Gặp đồng nghiệp mới",
+      "e": [
+        {
+          "p": "What's your name?",
+          "m": "Nói tên của bạn.",
+          "h": "Dùng 'My name is ...' hoặc 'I am ...'.",
+          "s": "My name is [studentName]."
+        },
+        {
+          "p": "What is your job?",
+          "m": "Nói nghề nghiệp của bạn.",
+          "h": "Dùng 'I am a ...' hoặc 'I work as a ...'.",
+          "s": "I am a [studentJob]."
+        },
+        {
+          "p": "Where do you work?",
+          "m": "Nói phòng ban hoặc nơi bạn làm việc.",
+          "h": "Dùng 'I work in the ...' hoặc 'I work at ...'.",
+          "s": "I work in the HR department."
+        },
+        {
+          "p": "Who is the manager here?",
+          "m": "Nói chức danh hoặc vị trí người quản lý.",
+          "h": "Dùng 'He/She is the ...' hoặc 'The ... is ...'.",
+          "s": "She is the manager."
+        },
+        {
+          "p": "Do you work here every day?",
+          "m": "Trả lời có hoặc không và nêu tần suất ngắn.",
+          "h": "Dùng 'Yes, I ...' hoặc 'No, I don't ...'.",
+          "s": "Yes, I work here every day."
+        }
+      ]
+    },
+    {
+      "t": "Giới thiệu phòng ban",
+      "e": [
+        {
+          "p": "What is this room?",
+          "m": "Nói đây là phòng gì (ví dụ: phòng họp, văn phòng).",
+          "h": "Dùng 'This is the ...'.",
+          "s": "This is the meeting room."
+        },
+        {
+          "p": "Where is the sales department?",
+          "m": "Nói vị trí hoặc nơi của phòng ban.",
+          "h": "Dùng 'The ... is on/in ...' hoặc 'It is ...'.",
+          "s": "The sales department is on the first floor."
+        },
+        {
+          "p": "How many people work in HR?",
+          "m": "Nói số người (dùng số nhỏ).",
+          "h": "Dùng 'There are ... people in ...'.",
+          "s": "There are three people in HR."
+        },
+        {
+          "p": "Who works in the IT team?",
+          "m": "Nói tên chức danh người làm IT (chỉ 1 vị trí).",
+          "h": "Dùng 'The ... is ...' hoặc 'He/She is a ...'.",
+          "s": "He is the IT support."
+        },
+        {
+          "p": "Do you work in the marketing or sales team?",
+          "m": "Trả lời và nêu phòng ban bạn làm việc.",
+          "h": "Dùng 'I work in ...'.",
+          "s": "I work in the sales team."
+        }
+      ]
+    },
+    {
+      "t": "Nói về sếp và quản lý",
+      "e": [
+        {
+          "p": "Who is the boss?",
+          "m": "Nói chức danh người làm sếp.",
+          "h": "Dùng 'The boss is ...' hoặc 'He/She is the ...'.",
+          "s": "The boss is the company director."
+        },
+        {
+          "p": "Is Tom the manager?",
+          "m": "Trả lời yes/no ngắn và xác nhận nếu có.",
+          "h": "Dùng 'Yes, he is.' hoặc 'No, he isn't.'",
+          "s": "Yes, he is the manager."
+        },
+        {
+          "p": "What does the manager do?",
+          "m": "Nói một việc đơn giản mà quản lý làm.",
+          "h": "Dùng 'He/She manages ...' hoặc 'He/She is in charge of ...'.",
+          "s": "She manages the sales team."
+        },
+        {
+          "p": "Where is the director today?",
+          "m": "Nói vị trí đơn giản (ở văn phòng hoặc ra ngoài).",
+          "h": "Dùng 'He/She is in the ...' hoặc 'He/She is out.'",
+          "s": "He is in the office."
+        },
+        {
+          "p": "Do managers work every day?",
+          "m": "Trả lời có hoặc không, dùng câu đơn.",
+          "h": "Dùng 'Yes, they ...' hoặc 'No, they don't ...'.",
+          "s": "Yes, managers work every day."
+        }
+      ]
+    },
+    {
+      "t": "Chức danh trong văn phòng",
+      "e": [
+        {
+          "p": "Who is the secretary?",
+          "m": "Nói ai là thư ký (dùng 'He/She is ...').",
+          "h": "Dùng 'He/She is the secretary.'",
+          "s": "She is the secretary."
+        },
+        {
+          "p": "Is Anna an accountant?",
+          "m": "Trả lời có hoặc không, kèm chức danh nếu có.",
+          "h": "Dùng 'Yes, she is.' hoặc 'No, she isn't.'",
+          "s": "No, she isn't the accountant."
+        },
+        {
+          "p": "What is Jane's job?",
+          "m": "Nói chức danh của Jane ngắn gọn.",
+          "h": "Dùng 'She is a ...' hoặc 'She works as a ...'.",
+          "s": "She is an accountant."
+        },
+        {
+          "p": "Where does the cleaner work?",
+          "m": "Nói nơi làm việc của lao công ngắn gọn.",
+          "h": "Dùng 'He/She works in/on/at ...'.",
+          "s": "He works in the office."
+        },
+        {
+          "p": "Do you have a driver in the company?",
+          "m": "Trả lời và nêu có hay không.",
+          "h": "Dùng 'Yes, we have ...' hoặc 'No, we don't.'",
+          "s": "Yes, we have a driver."
+        }
+      ]
+    },
+    {
+      "t": "Ở quầy lễ tân",
+      "e": [
+        {
+          "p": "Who do you want to see?",
+          "m": "Nói tên hoặc chức danh người bạn muốn gặp.",
+          "h": "Dùng 'I want to see ...' hoặc 'I want to see the ...'.",
+          "s": "I want to see the manager."
+        },
+        {
+          "p": "What is your appointment for?",
+          "m": "Nói lý do ngắn (ví dụ: meeting, job).",
+          "h": "Dùng 'It is for ...' hoặc 'I have a ...'.",
+          "s": "It is for a job interview."
+        },
+        {
+          "p": "Where is the HR office?",
+          "m": "Nói vị trí ngắn gọn của phòng nhân sự.",
+          "h": "Dùng 'The HR office is ...' hoặc 'It is ...'.",
+          "s": "The HR office is on the second floor."
+        },
+        {
+          "p": "Do you have an ID?",
+          "m": "Trả lời yes hoặc no ngắn gọn.",
+          "h": "Dùng 'Yes, I do.' hoặc 'No, I don't.'",
+          "s": "Yes, I have an ID."
+        },
+        {
+          "p": "Can I meet the director now?",
+          "m": "Trả lời có thể gặp hay không (ngắn).",
+          "h": "Dùng 'Yes, you can.' hoặc 'No, you can't.'",
+          "s": "No, you can't meet the director now."
+        }
+      ]
+    },
+    {
+      "t": "Phòng IT và hỗ trợ",
+      "e": [
+        {
+          "p": "Who fixes the computers here?",
+          "m": "Nói chức danh người sửa máy tính.",
+          "h": "Dùng 'The ... fixes ...' hoặc 'He/She is the ...'.",
+          "s": "The IT technician fixes the computers."
+        },
+        {
+          "p": "Can you fix my computer?",
+          "m": "Trả lời có thể hoặc không (ngắn).",
+          "h": "Dùng 'Yes, I can.' hoặc 'No, I can't.'",
+          "s": "Yes, I can fix your computer."
+        },
+        {
+          "p": "Where is the IT room?",
+          "m": "Nói vị trí ngắn của phòng IT.",
+          "h": "Dùng 'It is on/in ...' hoặc 'The IT room is ...'.",
+          "s": "The IT room is on the third floor."
+        },
+        {
+          "p": "Do technicians work at night?",
+          "m": "Trả lời có hoặc không bằng câu đơn.",
+          "h": "Dùng 'Yes, they ...' hoặc 'No, they don't ...'.",
+          "s": "No, technicians do not work at night."
+        },
+        {
+          "p": "What does the IT person do?",
+          "m": "Nêu một việc họ làm.",
+          "h": "Dùng 'He/She repairs ...' hoặc 'He/She helps ...'.",
+          "s": "He repairs computers."
+        }
+      ]
+    },
+    {
+      "t": "Bộ phận bán hàng",
+      "e": [
+        {
+          "p": "Who sells products here?",
+          "m": "Nói ai là người bán hàng.",
+          "h": "Dùng 'The sales person / The sales team ...'.",
+          "s": "The sales team sells products."
+        },
+        {
+          "p": "Do you sell online?",
+          "m": "Trả lời yes/no ngắn và nêu nếu có.",
+          "h": "Dùng 'Yes, we do.' hoặc 'No, we don't.'",
+          "s": "Yes, we sell online."
+        },
+        {
+          "p": "Where is the sales office?",
+          "m": "Nói vị trí ngắn của phòng bán hàng.",
+          "h": "Dùng 'It is ...' hoặc 'The sales office is ...'.",
+          "s": "The sales office is next to reception."
+        },
+        {
+          "p": "What does a sales person do?",
+          "m": "Nói một việc đơn giản của nhân viên bán hàng.",
+          "h": "Dùng 'They sell ...' hoặc 'They talk to ...'.",
+          "s": "They sell products to customers."
+        },
+        {
+          "p": "Do sales people work with customers every day?",
+          "m": "Trả lời và nêu tần suất nếu cần.",
+          "h": "Dùng 'Yes, they ...' hoặc 'No, they don't ...'.",
+          "s": "Yes, they work with customers every day."
+        }
+      ]
+    },
+    {
+      "t": "Kế toán và tiền lương",
+      "e": [
+        {
+          "p": "Who counts the money?",
+          "m": "Nói chức danh người làm công việc đó.",
+          "h": "Dùng 'The accountant / The cashier ...'.",
+          "s": "The accountant counts the money."
+        },
+        {
+          "p": "Is the accountant here today?",
+          "m": "Trả lời có hoặc không ngắn gọn.",
+          "h": "Dùng 'Yes, he/she is.' hoặc 'No, he/she isn't.'",
+          "s": "No, the accountant isn't here today."
+        },
+        {
+          "p": "Where does the accountant work?",
+          "m": "Nói nơi làm việc của kế toán.",
+          "h": "Dùng 'He/She works in the ...'.",
+          "s": "She works in the accounting office."
+        },
+        {
+          "p": "Do accountants check bills?",
+          "m": "Trả lời và nêu hành động nếu có.",
+          "h": "Dùng 'Yes, they check ...' hoặc 'No, they don't ...'.",
+          "s": "Yes, accountants check bills."
+        },
+        {
+          "p": "What does the accountant do every month?",
+          "m": "Nói một việc lặp lại hàng tháng (câu đơn).",
+          "h": "Dùng 'He/She prepares ...' hoặc 'He/She pays ...'.",
+          "s": "She prepares the payroll every month."
+        }
+      ]
+    },
+    {
+      "t": "Nhân sự (HR) hỏi nhân viên mới",
+      "e": [
+        {
+          "p": "What is your job here?",
+          "m": "Nói chức danh của bạn trong công ty.",
+          "h": "Dùng 'I am a ...' hoặc 'I work as a ...'.",
+          "s": "I am a receptionist."
+        },
+        {
+          "p": "Do you start work at nine?",
+          "m": "Trả lời yes/no và nêu giờ nếu cần.",
+          "h": "Dùng 'Yes, I start at ...' hoặc 'No, I start at ...'.",
+          "s": "Yes, I start work at nine."
+        },
+        {
+          "p": "Where do you sit in the office?",
+          "m": "Nói vị trí chỗ ngồi ngắn gọn.",
+          "h": "Dùng 'I sit near ...' hoặc 'I sit in ...'.",
+          "s": "I sit near the reception."
+        },
+        {
+          "p": "Can you answer phones?",
+          "m": "Trả lời có hoặc không ngắn gọn về khả năng.",
+          "h": "Dùng 'Yes, I can.' hoặc 'No, I can't.'",
+          "s": "Yes, I can answer phones."
+        },
+        {
+          "p": "Who is your team leader?",
+          "m": "Nói chức danh hoặc tên người lãnh đội ngắn.",
+          "h": "Dùng 'My team leader is ...' hoặc 'He/She is ...'.",
+          "s": "My team leader is the sales manager."
+        }
+      ]
+    },
+    {
+      "t": "Công nhân và nhà máy",
+      "e": [
+        {
+          "p": "Who works in the factory?",
+          "m": "Nêu một chức danh làm việc ở nhà máy.",
+          "h": "Dùng 'Workers / The worker ...'.",
+          "s": "The factory workers work in the production hall."
+        },
+        {
+          "p": "Is the driver at the gate?",
+          "m": "Trả lời có hoặc không ngắn gọn.",
+          "h": "Dùng 'Yes, he is.' hoặc 'No, he isn't.'",
+          "s": "Yes, the driver is at the gate."
+        },
+        {
+          "p": "Where do cleaners work?",
+          "m": "Nói nơi làm việc của lao công.",
+          "h": "Dùng 'They work in ...' hoặc 'They clean ...'.",
+          "s": "They work in the office and factory."
+        },
+        {
+          "p": "Do workers wear uniforms?",
+          "m": "Trả lời có hoặc không và nêu ngắn nếu có.",
+          "h": "Dùng 'Yes, they do.' hoặc 'No, they don't.'",
+          "s": "Yes, workers wear uniforms."
+        },
+        {
+          "p": "What does a driver do every day?",
+          "m": "Nêu một việc lái xe làm hàng ngày (câu đơn).",
+          "h": "Dùng 'He drives ...' hoặc 'He delivers ...'.",
+          "s": "He delivers packages every day."
+        }
+      ]
+    },
+    {
+      "t": "Họp đội nhóm",
+      "e": [
+        {
+          "p": "Who takes notes in the meeting?",
+          "m": "Nói ai phụ trách ghi chép (chức danh).",
+          "h": "Dùng 'The secretary / The assistant ...'.",
+          "s": "The secretary takes notes."
+        },
+        {
+          "p": "Do you join the team meeting?",
+          "m": "Trả lời có hoặc không ngắn gọn.",
+          "h": "Dùng 'Yes, I join.' hoặc 'No, I don't join.'",
+          "s": "Yes, I join the team meeting."
+        },
+        {
+          "p": "Where is the team meeting now?",
+          "m": "Nói nơi họp ngắn gọn.",
+          "h": "Dùng 'It is in the ...' hoặc 'We are in the ...'.",
+          "s": "We are in the meeting room."
+        },
+        {
+          "p": "What does the team leader say?",
+          "m": "Tóm tắt một câu đơn nội dung leader nói (ví dụ: plan).",
+          "h": "Dùng 'He/She says ...' hoặc 'He/She plans ...'.",
+          "s": "He says we start the project next week."
+        },
+        {
+          "p": "Who speaks to the client?",
+          "m": "Nói ai nói chuyện với khách hàng (chức danh).",
+          "h": "Dùng 'The sales person / The manager ...'.",
+          "s": "The sales person speaks to the client."
+        }
+      ]
+    },
+    {
+      "t": "Tìm việc làm đơn giản",
+      "e": [
+        {
+          "p": "Do you want a job?",
+          "m": "Trả lời có hoặc không ngắn gọn.",
+          "h": "Dùng 'Yes, I want a job.' hoặc 'No, I don't want ...'.",
+          "s": "Yes, I want a job."
+        },
+        {
+          "p": "What job do you want?",
+          "m": "Nói nghề bạn muốn (chức danh ngắn).",
+          "h": "Dùng 'I want to be a ...' hoặc 'I want a ... job.'",
+          "s": "I want to be a receptionist."
+        },
+        {
+          "p": "Where do you want to work?",
+          "m": "Nói nơi làm việc mong muốn ngắn gọn.",
+          "h": "Dùng 'I want to work in ...' hoặc 'I want to work at ...'.",
+          "s": "I want to work in an office."
+        },
+        {
+          "p": "Can you start next Monday?",
+          "m": "Trả lời có hoặc không ngắn gọn.",
+          "h": "Dùng 'Yes, I can.' hoặc 'No, I can't.'",
+          "s": "Yes, I can start next Monday."
+        },
+        {
+          "p": "Who is the contact for the job?",
+          "m": "Nói chức danh hoặc tên người liên hệ ngắn.",
+          "h": "Dùng 'The contact is ...' hoặc 'Contact the ...'.",
+          "s": "Contact the HR manager."
+        }
+      ]
+    },
+    {
+      "t": "Ôn tập: Gặp và giới thiệu",
+      "e": [
+        {
+          "p": "What's your name and job?",
+          "m": "Nói tên và nghề nghiệp của bạn (1 câu hoặc 2 phần trong 1 câu).",
+          "h": "Dùng 'My name is ... and I am a ...'.",
+          "s": "My name is [studentName] and I am a [studentJob]."
+        },
+        {
+          "p": "Where do you work and what is your role?",
+          "m": "Nói nơi làm việc và chức danh ngắn gọn.",
+          "h": "Dùng 'I work in ... and I am the ...'.",
+          "s": "I work in the HR department and I am the HR assistant."
+        },
+        {
+          "p": "Do you work every day and start at nine?",
+          "m": "Trả lời yes/no cho cả hai ý ngắn gọn.",
+          "h": "Dùng 'Yes, I do.' hoặc 'No, I don't.' cho mỗi ý.",
+          "s": "Yes, I work every day and I start at nine."
+        },
+        {
+          "p": "Who is your manager and where is he?",
+          "m": "Nói tên/chức danh quản lý và vị trí ngắn gọn.",
+          "h": "Dùng 'My manager is ... and he/she is ...'.",
+          "s": "My manager is the sales manager and he is in the office."
+        },
+        {
+          "p": "Can you answer phones and help customers?",
+          "m": "Trả lời có hoặc không cho hai khả năng.",
+          "h": "Dùng 'Yes, I can.' hoặc 'No, I can't.' cho mỗi ý.",
+          "s": "Yes, I can answer phones and yes, I can help customers."
+        }
+      ]
+    },
+    {
+      "t": "Ôn tập: Phòng ban và chức năng",
+      "e": [
+        {
+          "p": "What departments are in the company?",
+          "m": "Liệt kê hai phòng ban đơn giản.",
+          "h": "Dùng 'There is the ... and the ...'.",
+          "s": "There is HR and the sales department."
+        },
+        {
+          "p": "Who works in HR and who works in IT?",
+          "m": "Nói chức danh ngắn cho mỗi phòng ban (2 ý).",
+          "h": "Dùng 'The ... works in HR. The ... works in IT.'",
+          "s": "The HR assistant works in HR. The IT technician works in IT."
+        },
+        {
+          "p": "Where is the accounting office and the meeting room?",
+          "m": "Nói vị trí ngắn cho hai nơi.",
+          "h": "Dùng 'The ... is on/next to ...'.",
+          "s": "The accounting office is on the second floor and the meeting room is on the first floor."
+        },
+        {
+          "p": "Do sales people talk to customers and sell products?",
+          "m": "Trả lời yes/no cho cả hai ý ngắn.",
+          "h": "Dùng 'Yes, they ...' hoặc 'No, they don't ...'.",
+          "s": "Yes, they talk to customers and yes, they sell products."
+        },
+        {
+          "p": "What does HR do for employees?",
+          "m": "Nói một việc đơn giản HR làm (ví dụ: hire, help).",
+          "h": "Dùng 'They hire ...' hoặc 'They help ...'.",
+          "s": "They hire new employees."
+        }
+      ]
+    },
+    {
+      "t": "Ôn tập: Trò chuyện tại văn phòng",
+      "e": [
+        {
+          "p": "Who are you calling?",
+          "m": "Nói ai bạn đang gọi (chức danh hoặc tên).",
+          "h": "Dùng 'I am calling the ...' hoặc 'I am calling ...'.",
+          "s": "I am calling the manager."
+        },
+        {
+          "p": "Do you have a meeting today and who leads it?",
+          "m": "Trả lời có/không cho meeting và nêu người dẫn nếu có.",
+          "h": "Dùng 'Yes, we have ...' và 'The leader is ...'.",
+          "s": "Yes, we have a meeting today and the leader is the team leader."
+        },
+        {
+          "p": "Where is the receptionist and can you find her?",
+          "m": "Nói vị trí của lễ tân và trả lời có thể tìm hay không.",
+          "h": "Dùng 'She is ...' và 'Yes, I can.' / 'No, I can't.'",
+          "s": "She is at reception and yes, I can find her."
+        },
+        {
+          "p": "What does the cleaner do and when?",
+          "m": "Nói một việc lao công làm và thời gian ngắn.",
+          "h": "Dùng 'They clean ... in the ...'.",
+          "s": "They clean the office in the morning."
+        },
+        {
+          "p": "Can you describe your job in one sentence?",
+          "m": "Mô tả ngắn công việc của bạn trong một câu.",
+          "h": "Dùng 'I ...' hoặc 'I work as a ... and ...'.",
+          "s": "I work as a receptionist and I answer phones."
+        }
+      ]
+    }
+  ]
+}

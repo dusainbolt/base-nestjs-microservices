@@ -5,10 +5,10 @@
       "t": "Gặp bạn cùng lớp",
       "e": [
         {
-          "p": "Excuse me, is this seat free?",
-          "m": "Nói chỗ trống và mời ngồi.",
-          "h": "Yes, it is free. You can sit here.",
-          "s": "Yes, it is free. You can sit here."
+          "p": "What's your name?",
+          "m": "Nói tên của bạn.",
+          "h": "My name is + [studentName]",
+          "s": "My name is [studentName]."
         },
         {
           "p": "How old are you?",
@@ -355,16 +355,16 @@
       "t": "Khi thầy cô kiểm tra thông tin học sinh",
       "e": [
         {
-          "p": "What is your student ID number?",
-          "m": "Nói số học sinh của bạn.",
-          "h": "My student ID is + số.",
-          "s": "My student ID is 2024-001."
+          "p": "What is your full name?",
+          "m": "Nói tên đầy đủ của bạn.",
+          "h": "My name is + [studentName]",
+          "s": "My name is [studentName]."
         },
         {
-          "p": "What class are you in?",
-          "m": "Nói lớp bạn đang học.",
-          "h": "I am in class + tên lớp.",
-          "s": "I am in class 5B."
+          "p": "How old are you?",
+          "m": "Nói tuổi của bạn.",
+          "h": "I am + [studentAge] years old",
+          "s": "I am [studentAge] years old."
         },
         {
           "p": "Where are you from?",
@@ -425,22 +425,22 @@
       "t": "Ôn tập: Giới thiệu bản thân",
       "e": [
         {
-          "p": "Do you like your classroom?",
-          "m": "Nói bạn có thích lớp học hay không.",
-          "h": "Yes, I like it. / No, I don't like it.",
-          "s": "Yes, I like my classroom."
+          "p": "What's your name?",
+          "m": "Nói tên của bạn.",
+          "h": "My name is + [studentName]",
+          "s": "My name is [studentName]."
         },
         {
-          "p": "How many students are in your class?",
-          "m": "Nói số học sinh trong lớp.",
-          "h": "There are + số + students.",
-          "s": "There are 30 students in my class."
+          "p": "How old are you?",
+          "m": "Nói tuổi của bạn.",
+          "h": "I am + [studentAge] years old",
+          "s": "I am [studentAge] years old."
         },
         {
-          "p": "Can you sit next to your friend?",
-          "m": "Nói có thể ngồi cạnh bạn hay không.",
-          "h": "Yes, I can. / No, I can't.",
-          "s": "Yes, I can sit next to my friend."
+          "p": "Where do you live?",
+          "m": "Nói thành phố bạn sống.",
+          "h": "I live in + [studentCity]",
+          "s": "I live in [studentCity]."
         },
         {
           "p": "Do you study at school?",

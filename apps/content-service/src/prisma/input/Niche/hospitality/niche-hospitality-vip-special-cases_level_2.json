@@ -1,0 +1,530 @@
+{
+  "l": 2,
+  "d": [
+    {
+      "t": "Đón VIP ở cửa",
+      "e": [
+        {
+          "p": "Good morning. Can I help you?",
+          "m": "Nói bạn sẵn sàng giúp. Hỏi họ cần gì.",
+          "h": "Use: I am here to... / What do you need?",
+          "s": "I am here to help you. What do you need?"
+        },
+        {
+          "p": "Are you coming for the meeting?",
+          "m": "Xác nhận họ đến để họp. Nói bạn sẽ dẫn họ vào.",
+          "h": "Use Present Simple and will for plan: I will ...",
+          "s": "You are here for the meeting. I will take you to the room."
+        },
+        {
+          "p": "Do you have a badge?",
+          "m": "Trả lời có hoặc không. Nói bạn sẽ lấy giúp họ nếu cần.",
+          "h": "Use: Yes, I have / No, I don't and I will ...",
+          "s": "No, I don't have a badge. I will get one for you."
+        },
+        {
+          "p": "Would you like a seat while you wait?",
+          "m": "Nói bạn muốn ngồi hay đứng. Nói lý do ngắn gọn.",
+          "h": "Use: I would like / I prefer + reason (short)",
+          "s": "I would like a seat. I am tired after my trip."
+        },
+        {
+          "p": "We need to escort you to the VIP lounge. Is that okay?",
+          "m": "Xác nhận có đồng ý. Nói bạn cần gì ở lounge (ví dụ: nước).",
+          "h": "Use: Yes, I do / I need + noun or to + verb",
+          "s": "Yes, that is okay. I need some water."
+        }
+      ]
+    },
+    {
+      "t": "Giới thiệu quầy dịch vụ VIP",
+      "e": [
+        {
+          "p": "Welcome to the VIP desk. How can I help?",
+          "m": "Nói bạn cần thông tin gì. Nói bạn muốn tài liệu hoặc trợ giúp.",
+          "h": "Use: I need + noun / I want to + verb",
+          "s": "I need information about my schedule. I want some help with my bookings."
+        },
+        {
+          "p": "We offer fast check-in and luggage help.",
+          "m": "Nói bạn muốn check-in nhanh hay không. Nói bạn cần giúp hành lý hay tự mang.",
+          "h": "Use: I want / I will or I need help with ...",
+          "s": "I want fast check-in. I need help with my luggage."
+        },
+        {
+          "p": "There is a private lounge here. Do you want to use it?",
+          "m": "Trả lời có/không. Nói bạn sẽ làm gì ở lounge.",
+          "h": "Use: Yes, I do / I will + verb",
+          "s": "Yes, I do. I will wait and work there."
+        },
+        {
+          "p": "We can call a car for you. Do you need one now?",
+          "m": "Trả lời bạn cần xe ngay hay không. Nói điểm đến ngắn gọn.",
+          "h": "Use: I need / No, I don't / to + verb for destination",
+          "s": "I need a car now. I am going to the hotel."
+        },
+        {
+          "p": "Do you prefer tea or coffee while you wait?",
+          "m": "Chọn trà hoặc cà phê. Nói bạn thích nóng hay lạnh.",
+          "h": "Use: I prefer / I like + hot/cold",
+          "s": "I prefer coffee. I like it hot."
+        }
+      ]
+    },
+    {
+      "t": "Hỏi về nhu cầu ăn uống",
+      "e": [
+        {
+          "p": "Would you like something to eat?",
+          "m": "Nói bạn muốn ăn hay không. Nói món bạn muốn (ví dụ: salad).",
+          "h": "Use: Yes, I want / No, I don't / I want + noun",
+          "s": "Yes, I want something. I want a salad."
+        },
+        {
+          "p": "Do you have any food allergies?",
+          "m": "Nói có hay không. Nói loại bạn tránh nếu có.",
+          "h": "Use: I have / I don't have / I am allergic to ...",
+          "s": "I don't have allergies. I am not allergic to anything."
+        },
+        {
+          "p": "We have a set menu for VIPs. Do you prefer meat or veggies?",
+          "m": "Chọn meat hoặc veggies. Nói lý do ngắn (ví dụ: healthy).",
+          "h": "Use: I prefer + noun / because + short reason",
+          "s": "I prefer veggies. I want something healthy."
+        },
+        {
+          "p": "Can we bring food to your room?",
+          "m": "Trả lời có/không. Nói giờ bạn muốn ăn ngắn gọn.",
+          "h": "Use: Yes, please / No, thank you / at + time",
+          "s": "Yes, please. I want food at 7 pm."
+        },
+        {
+          "p": "Do you want coffee now or later?",
+          "m": "Chọn now hoặc later. Nói bạn thích nhiều hay ít đường.",
+          "h": "Use: Now / Later + I like + no/ a little/ much sugar",
+          "s": "Later is fine. I like a little sugar."
+        }
+      ]
+    },
+    {
+      "t": "Xác nhận thông tin cá nhân nhanh",
+      "e": [
+        {
+          "p": "May I have your name, please?",
+          "m": "Nói tên của bạn. Nói bạn đi cùng ai nếu có.",
+          "h": "Use: My name is [studentName]. I am with ...",
+          "s": "My name is [studentName]. I am with my assistant."
+        },
+        {
+          "p": "What city are you from?",
+          "m": "Nói thành phố bạn sống. Nói bạn đang ở khách sạn hay đi tiếp.",
+          "h": "Use: I am from [studentCity] / I am staying at / I am going to ...",
+          "s": "I am from [studentCity]. I am staying at the hotel."
+        },
+        {
+          "p": "Can you show your ID?",
+          "m": "Nói bạn có ID hay không. Nói bạn sẽ đưa ID hay để ở chỗ khác.",
+          "h": "Use: Yes, I have it / No, I don't / I will bring it",
+          "s": "Yes, I have it. I will show it now."
+        },
+        {
+          "p": "Do you need a receipt for your service?",
+          "m": "Trả lời có/không. Nói bạn muốn gửi bằng email hay giấy.",
+          "h": "Use: Yes, please / No, thank you / by email / on paper",
+          "s": "Yes, please. Send it by email."
+        },
+        {
+          "p": "Would you like us to call your assistant?",
+          "m": "Trả lời có/không. Nói số điện thoại hoặc nơi họ đang ở ngắn.",
+          "h": "Use: Yes, call + number/place / No, I will call",
+          "s": "Yes, call +123456789. He is at the meeting room."
+        }
+      ]
+    },
+    {
+      "t": "Xử lý yêu cầu phòng đặc biệt",
+      "e": [
+        {
+          "p": "You asked for a quiet room. Is that right?",
+          "m": "Xác nhận yêu cầu phòng yên tĩnh. Nói bạn muốn gần thang máy hay xa.",
+          "h": "Use: Yes, I did / I want + near/far",
+          "s": "Yes, I asked for a quiet room. I want a room far from the elevator."
+        },
+        {
+          "p": "We have a room with a view or a suite. Which do you prefer?",
+          "m": "Chọn view hoặc suite. Nói lý do ngắn.",
+          "h": "Use: I prefer + noun / because + short reason",
+          "s": "I prefer the suite. It is more comfortable."
+        },
+        {
+          "p": "The special room needs cleaning now. Can you wait five minutes?",
+          "m": "Trả lời có thể chờ hay không. Nói bạn sẽ làm gì khi chờ.",
+          "h": "Use: Yes, I can wait / No, I can't / I will + verb",
+          "s": "Yes, I can wait. I will sit in the lounge."
+        },
+        {
+          "p": "Do you need extra pillows or a baby cot?",
+          "m": "Nói bạn cần gối thêm hoặc cũi hay không. Nói số lượng nếu cần.",
+          "h": "Use: I need + noun / I need + number + noun",
+          "s": "I need extra pillows. I need two pillows."
+        },
+        {
+          "p": "We can change the room now. Do you want help with your bags?",
+          "m": "Trả lời có/không. Nói bạn sẽ mang hay họ mang giúp.",
+          "h": "Use: Yes, please / No, thank you / I will / You can",
+          "s": "Yes, please. I will let you carry them."
+        }
+      ]
+    },
+    {
+      "t": "Sắp xếp cuộc họp ngắn cho VIP",
+      "e": [
+        {
+          "p": "What time is your meeting?",
+          "m": "Nói giờ họp. Nói bạn cần bao nhiêu phút để đến phòng họp.",
+          "h": "Use: It is at + time / I need + minutes",
+          "s": "It is at 10 am. I need ten minutes to get there."
+        },
+        {
+          "p": "Do you want water in the meeting room?",
+          "m": "Trả lời có/không. Nói số chai hay cốc bạn muốn.",
+          "h": "Use: Yes, please / No, thank you / I want + number + bottles/cups",
+          "s": "Yes, please. I want two bottles of water."
+        },
+        {
+          "p": "Shall I prepare a projector?",
+          "m": "Trả lời có/không. Nói bạn sẽ dùng máy chiếu hay không.",
+          "h": "Use: Yes, prepare it / No, I don't need it / I will use ...",
+          "s": "Yes, prepare the projector. I will use it for slides."
+        },
+        {
+          "p": "Do you need a translator in the meeting?",
+          "m": "Trả lời có/không. Nói bạn muốn ngôn ngữ nào nếu có.",
+          "h": "Use: Yes, I need / No, I don't / in + language",
+          "s": "No, I don't need a translator. I speak both languages."
+        },
+        {
+          "p": "Can we start the meeting five minutes early?",
+          "m": "Trả lời có/không. Nói bạn có sẵn sàng hay cần chuẩn bị thêm.",
+          "h": "Use: Yes, we can / No, we need + time / I need to + verb",
+          "s": "Yes, we can start early. I am ready now."
+        }
+      ]
+    },
+    {
+      "t": "Hỗ trợ đi lại cho khách VIP",
+      "e": [
+        {
+          "p": "Do you want us to book a car for you?",
+          "m": "Trả lời có/không. Nói bạn muốn đi lúc mấy giờ.",
+          "h": "Use: Yes, please / No, thanks / at + time",
+          "s": "Yes, please. Book the car at 3 pm."
+        },
+        {
+          "p": "Do you prefer a driver who speaks English?",
+          "m": "Trả lời có/không. Nói bạn có cần người nói tiếng địa phương hay không.",
+          "h": "Use: Yes, I prefer / No, I don't / I need + language",
+          "s": "Yes, I prefer an English driver. I do not need a local language driver."
+        },
+        {
+          "p": "The traffic is heavy now. Do you want to leave earlier?",
+          "m": "Trả lời có/không. Nói bạn muốn rời đi sớm hơn hay giữ giờ cũ.",
+          "h": "Use: Yes, leave earlier / No, keep the time",
+          "s": "Yes, leave earlier. I will leave thirty minutes before."
+        },
+        {
+          "p": "We can provide a van for your team. How many people?",
+          "m": "Nói số người. Nói nếu có hành lý nhiều hay ít.",
+          "h": "Use: There are + number + people / we have + many/few bags",
+          "s": "There are five people. We have many bags."
+        },
+        {
+          "p": "Do you want a receipt for the transportation?",
+          "m": "Trả lời có/không. Nói bạn muốn gửi biên lai qua email hay giấy.",
+          "h": "Use: Yes, send by email / No, paper please",
+          "s": "Yes, send it by email. I will check my inbox."
+        }
+      ]
+    },
+    {
+      "t": "Giải quyết khiếu nại nhỏ",
+      "e": [
+        {
+          "p": "I am not happy with my room. The AC is noisy.",
+          "m": "Xin lỗi ngắn. Nói bạn sẽ kiểm tra AC hay đổi phòng.",
+          "h": "Use: I'm sorry. I will check / I will change the room",
+          "s": "I'm sorry for the problem. I will check the AC now."
+        },
+        {
+          "p": "My food is cold. I want a new dish.",
+          "m": "Xin lỗi. Nói bạn sẽ yêu cầu bếp làm lại.",
+          "h": "Use: I'm sorry. I will ask the kitchen to ...",
+          "s": "I'm sorry about the food. I will ask the kitchen to make a new dish."
+        },
+        {
+          "p": "The meeting room is too small for us.",
+          "m": "Xin lỗi và đề nghị phòng khác. Nói bạn sẽ sắp xếp phòng lớn hơn.",
+          "h": "Use: I am sorry. I will arrange a bigger room",
+          "s": "I am sorry. I will arrange a bigger room now."
+        },
+        {
+          "p": "I waited too long at the desk.",
+          "m": "Xin lỗi ngắn. Nói bạn sẽ làm gì để giúp họ ngay.",
+          "h": "Use: Sorry. I will help you now / I will speed up",
+          "s": "Sorry for the wait. I will help you now."
+        },
+        {
+          "p": "I lost my key card. Can you help?",
+          "m": "Xin lỗi và đồng cảm. Nói bạn sẽ cấp thẻ mới hoặc hướng dẫn tiếp theo.",
+          "h": "Use: I am sorry. I will give a new card / Please do ...",
+          "s": "I am sorry you lost it. I will give you a new card."
+        }
+      ]
+    },
+    {
+      "t": "Dịch vụ an ninh riêng",
+      "e": [
+        {
+          "p": "Do you need security during your stay?",
+          "m": "Trả lời có/không. Nói bạn cần bảo vệ ngày hay đêm.",
+          "h": "Use: Yes, I need / No, I don't / day / night",
+          "s": "Yes, I need security. I need it at night."
+        },
+        {
+          "p": "We can escort you to the car. Would you like that?",
+          "m": "Trả lời có/không. Nói bạn muốn đi ngay hay sau.",
+          "h": "Use: Yes, escort me / No, I will go later / now / later",
+          "s": "Yes, escort me. I will go now."
+        },
+        {
+          "p": "Do you want a private entrance to the event?",
+          "m": "Trả lời có/không. Nói bạn muốn riêng tư hay chung.",
+          "h": "Use: I want a private entrance / I prefer common entrance",
+          "s": "Yes, I want a private entrance. I prefer privacy."
+        },
+        {
+          "p": "Is someone with you who needs protection?",
+          "m": "Nói có hay không. Nói họ là ai ngắn (ví dụ: assistant).",
+          "h": "Use: Yes, there is + person / No, there is not",
+          "s": "Yes, there is. He is my assistant."
+        },
+        {
+          "p": "We can set up a safe room. Do you want this setup?",
+          "m": "Trả lời có/không. Nói bạn cần sẵn sàng ngay hay trong ngày.",
+          "h": "Use: Yes, set it up / I need it now / today",
+          "s": "Yes, set it up. I need it now."
+        }
+      ]
+    },
+    {
+      "t": "Giải thích quy tắc sự kiện đặc biệt",
+      "e": [
+        {
+          "p": "There is a no-photography rule here.",
+          "m": "Xác nhận bạn hiểu. Nói bạn sẽ tuân theo hay cần miễn trừ.",
+          "h": "Use: I understand / I will follow / I need an exception",
+          "s": "I understand the rule. I will follow it."
+        },
+        {
+          "p": "Guests must wear badges inside.",
+          "m": "Xác nhận bạn có badge. Nói nếu bạn cần một badge mới.",
+          "h": "Use: I have a badge / I need a new badge",
+          "s": "I have a badge. I do not need a new one."
+        },
+        {
+          "p": "Only staff can enter the back area.",
+          "m": "Nói bạn có cần vào hay không. Nói bạn sẽ chờ hoặc xin phép.",
+          "h": "Use: I need to enter / I will wait / I will ask permission",
+          "s": "I do not need to enter. I will wait here."
+        },
+        {
+          "p": "Please keep your phone on silent.",
+          "m": "Xác nhận bạn sẽ tắt chuông. Nói bạn có cần tắt hoàn toàn hay rung.",
+          "h": "Use: I will turn it off / I will put it on silent",
+          "s": "I will put my phone on silent. I will not turn it off."
+        },
+        {
+          "p": "We have a special entrance for VIPs.",
+          "m": "Hỏi bạn có muốn lối vào riêng không. Nói bạn sẽ dùng lối đó hay bình thường.",
+          "h": "Use: Yes, I will use it / No, I will use the normal entrance",
+          "s": "Yes, I will use the VIP entrance. I like a quick entry."
+        }
+      ]
+    },
+    {
+      "t": "Giúp VIP tìm đồ bị mất",
+      "e": [
+        {
+          "p": "You said you lost a phone in the lounge.",
+          "m": "Xác nhận bạn mất điện thoại. Nói màu hoặc loại ngắn để mô tả.",
+          "h": "Use: I lost my phone / It is + color + model (short)",
+          "s": "I lost my phone. It is a black smartphone."
+        },
+        {
+          "p": "Did you check the reception desk?",
+          "m": "Trả lời bạn có kiểm tra hay chưa. Nói bạn sẽ làm gì tiếp theo.",
+          "h": "Use: Yes, I checked / No, I didn't / I will ...",
+          "s": "No, I didn't check. I will go to the reception now."
+        },
+        {
+          "p": "We found a small bag. Is it yours?",
+          "m": "Mô tả túi bạn bị mất. Nói bạn có muốn nhân viên mang túi đến hay bạn đến lấy.",
+          "h": "Use: It is + color/size / Bring it to me / I will come",
+          "s": "My bag is small and blue. Please bring it to my room."
+        },
+        {
+          "p": "We can call your phone. Do you want us to call now?",
+          "m": "Trả lời có/không. Nói số hoặc bạn sẽ nghe điện thoại ở đâu.",
+          "h": "Use: Yes, call it / No, don't / I will answer in the lounge",
+          "s": "Yes, call it now. I will answer in the lounge."
+        },
+        {
+          "p": "If we cannot find it, we can make a report.",
+          "m": "Trả lời bạn muốn báo mất hay không. Nói bạn cần giấy tờ gì để làm báo cáo.",
+          "h": "Use: Yes, make a report / I need + ID / No, thanks",
+          "s": "Yes, please make a report. I will bring my ID."
+        }
+      ]
+    },
+    {
+      "t": "Chuẩn bị quà chào mừng cho VIP",
+      "e": [
+        {
+          "p": "We have a welcome gift for you.",
+          "m": "Nói bạn muốn nhận quà hay không. Nói bạn muốn mở ngay hay để phòng.",
+          "h": "Use: Yes, I want it / No, thanks / I will open it now / later",
+          "s": "Yes, I want the gift. I will open it now."
+        },
+        {
+          "p": "Do you prefer a gift with snacks or with local items?",
+          "m": "Chọn snacks hoặc local items. Nói bạn thích điều gì về món quà.",
+          "h": "Use: I prefer + noun / because + short reason",
+          "s": "I prefer local items. I like local culture."
+        },
+        {
+          "p": "We can wrap the gift in special paper.",
+          "m": "Trả lời có/không. Nói bạn muốn gói đẹp hay đơn giản.",
+          "h": "Use: Yes, wrap it / No, keep it simple / I want + adjective",
+          "s": "Yes, wrap it nicely. I want a nice presentation."
+        },
+        {
+          "p": "Would you like a card with your name?",
+          "m": "Trả lời có/không. Nói bạn muốn tên đầy đủ hay chỉ họ.",
+          "h": "Use: Yes, full name / No, just family name / I want + name form",
+          "s": "Yes, full name please. Use my full name on the card."
+        },
+        {
+          "p": "Can we deliver the gift to your meeting room?",
+          "m": "Trả lời có/không. Nói bạn muốn giao ngay hay sau.",
+          "h": "Use: Yes, deliver now / deliver later / at + time",
+          "s": "Yes, deliver it now. I want it before the meeting."
+        }
+      ]
+    },
+    {
+      "t": "Ôn tập: Tiếp đón và thông tin cá nhân",
+      "e": [
+        {
+          "p": "Welcome back. Do you need the same room as before?",
+          "m": "Trả lời có/không. Nói bạn muốn giữ phòng cũ hay đổi phòng mới.",
+          "h": "Use: Yes, keep it / No, change to + noun",
+          "s": "Yes, keep the same room. I like that room."
+        },
+        {
+          "p": "Can I confirm your details from last time?",
+          "m": "Nói tên của bạn. Nói bạn còn cùng số điện thoại hay đã đổi.",
+          "h": "Use: My name is [studentName]. I still have / I changed my number",
+          "s": "My name is [studentName]. I still have the same phone number."
+        },
+        {
+          "p": "Do you want us to note any special requests from before?",
+          "m": "Trả lời có/không. Nói yêu cầu bạn muốn giữ (ví dụ: no-smoke).",
+          "h": "Use: Yes, note + request / No, nothing",
+          "s": "Yes, note no-smoking. I prefer a non-smoking room."
+        },
+        {
+          "p": "Would you like the same breakfast arrangement?",
+          "m": "Trả lời có/không. Nói bạn muốn tại phòng hay ăn ở nhà hàng.",
+          "h": "Use: Yes, same / No, change to + place",
+          "s": "Yes, same breakfast. I will eat in my room."
+        },
+        {
+          "p": "Is there anything else we should know about your visit?",
+          "m": "Nói một điểm quan trọng (ví dụ: early flight). Nói bạn cần hỗ trợ gì ngắn.",
+          "h": "Use: I have + noun / I need + help with ...",
+          "s": "I have an early flight. I need help with check-out."
+        }
+      ]
+    },
+    {
+      "t": "Ôn tập: Yêu cầu dịch vụ và xử lý vấn đề",
+      "e": [
+        {
+          "p": "We can arrange a private dinner. Do you want that?",
+          "m": "Trả lời có/không. Nói bạn muốn ở nhà hàng hay phòng.",
+          "h": "Use: Yes, I want / No, I don't / in + place",
+          "s": "Yes, I want a private dinner. I prefer it in my room."
+        },
+        {
+          "p": "Your room TV is not working. Shall we send someone?",
+          "m": "Trả lời có/không. Nói bạn muốn kỹ thuật đến ngay hay sau.",
+          "h": "Use: Yes, send now / send later / I will wait",
+          "s": "Yes, send someone now. I will wait in the room."
+        },
+        {
+          "p": "Do you want breakfast at 7 or 8 am?",
+          "m": "Chọn 7 hoặc 8. Nói bạn muốn ăn nhanh hay từ tốn.",
+          "h": "Use: At 7 / At 8 / I want to eat + quickly/slowly",
+          "s": "At 7 am is fine. I want to eat quickly."
+        },
+        {
+          "p": "We can give you a discount for the next service.",
+          "m": "Trả lời có chấp nhận hay không. Nói bạn sẽ dùng hay giữ cho lần sau.",
+          "h": "Use: Yes, accept / No, thank you / I will use it later",
+          "s": "Yes, I accept the discount. I will use it next time."
+        },
+        {
+          "p": "Is it okay if we record your feedback for quality?",
+          "m": "Trả lời có/không. Nói bạn muốn nói ngắn ngay hay trả lời sau.",
+          "h": "Use: Yes, you can / No, I prefer to + verb / now / later",
+          "s": "Yes, you can record it. I will speak now."
+        }
+      ]
+    },
+    {
+      "t": "Ôn tập: Quy tắc sự kiện và an ninh",
+      "e": [
+        {
+          "p": "For VIPs, we have a private check-in lane.",
+          "m": "Nói bạn có dùng lane đó không. Nói bạn muốn nhân viên dẫn hay tự đi.",
+          "h": "Use: Yes, use it / No, I will go / I want staff to ...",
+          "s": "Yes, I will use the private lane. I want staff to lead me."
+        },
+        {
+          "p": "All VIPs must show ID at the gate.",
+          "m": "Xác nhận bạn có ID. Nói bạn sẽ đưa ngay hay cần lấy từ phòng.",
+          "h": "Use: I have my ID / I will get it from my room",
+          "s": "I have my ID. I will show it now."
+        },
+        {
+          "p": "Security can hold items at the desk for you.",
+          "m": "Trả lời bạn có muốn gửi đồ không. Nói bạn sẽ lấy lại khi nào.",
+          "h": "Use: Yes, hold it / No, thank you / I will pick it up at + time",
+          "s": "Yes, hold my bag. I will pick it up at 6 pm."
+        },
+        {
+          "p": "We ask VIPs to follow event dress code.",
+          "m": "Xác nhận bạn hiểu. Nói bạn sẽ mặc trang phục nào ngắn gọn.",
+          "h": "Use: I understand / I will wear + clothing",
+          "s": "I understand. I will wear a suit."
+        },
+        {
+          "p": "Do you want a security brief before the event?",
+          "m": "Trả lời có/không. Nói bạn muốn brief bây giờ hay trước sự kiện.",
+          "h": "Use: Yes, I want it now / before the event / No, thanks",
+          "s": "Yes, I want a brief now. I need a short update."
+        }
+      ]
+    }
+  ]
+}

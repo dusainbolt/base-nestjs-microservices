@@ -1,0 +1,530 @@
+{
+  "l": 3,
+  "d": [
+    {
+      "t": "Quầy làm thủ tục",
+      "e": [
+        {
+          "p": "Good morning. Can I see your passport and ticket, please?",
+          "m": "1) Nói tên. 2) Đưa hộ chiếu và xác nhận mã chuyến bay.",
+          "h": "My name is... / Here is my passport. / My flight number is...",
+          "s": "My name is [studentName]. Here is my passport and my flight number is VN123."
+        },
+        {
+          "p": "Do you have any checked bags today?",
+          "m": "1) Nói có hay không. 2) Nếu có, cho biết số kiện và trọng lượng nếu biết.",
+          "h": "I have / I don't have + number; If have: They weigh...",
+          "s": "Yes, I have one checked bag. It weighs about 20 kilograms."
+        },
+        {
+          "p": "Would you like a window or an aisle seat?",
+          "m": "1) Chọn cửa sổ hoặc lối đi. 2) Nói lý do ngắn (ví dụ: muốn ngủ hoặc chân dài).",
+          "h": "I would like a... because...",
+          "s": "I'd like a window seat because I want to sleep on the plane."
+        },
+        {
+          "p": "Your bag is a bit heavy; there may be an extra fee.",
+          "m": "1) Thừa nhận hoặc hỏi về cân nặng. 2) Hỏi phải trả bao nhiêu hoặc xin cách khác (ví dụ: chuyển đồ lên hành lý xách tay).",
+          "h": "It is/It isn't... / How much is... / Can I...?",
+          "s": "I understand, it is about 25 kg. How much is the extra fee, or can I move some items to my carry-on?"
+        },
+        {
+          "p": "Boarding will start at gate 12 in about 30 minutes.",
+          "m": "1) Xác nhận bạn đã hiểu. 2) Hỏi cách đi tới cổng (ví dụ: cần đi thẳng hay rẽ). 3) Nói bạn sẽ làm gì tiếp theo.",
+          "h": "I understand. / Is it straight ahead or... / I will...",
+          "s": "I understand. Is gate 12 straight ahead from here? I will go to the gate now."
+        }
+      ]
+    },
+    {
+      "t": "Kiểm tra an ninh",
+      "e": [
+        {
+          "p": "Please put your liquids in a clear bag and place laptops in the tray.",
+          "m": "1) Xác nhận bạn đã đưa chất lỏng và laptop. 2) Nói nếu bạn quên hay cần giúp.",
+          "h": "I have put... / I forgot... / Could you help me...",
+          "s": "I have put my liquids in a clear bag and my laptop is in the tray."
+        },
+        {
+          "p": "Do you have any metal objects in your pockets?",
+          "m": "1) Nói có hay không. 2) Nếu có, liệt kê đồ vật và nói bạn sẽ làm gì (ví dụ: bỏ vào khay).",
+          "h": "No, I don't. / Yes, I have... I will...",
+          "s": "Yes, I have my keys and a coin. I will put them in the tray now."
+        },
+        {
+          "p": "The scanner shows an item in your bag. Could you open it, please?",
+          "m": "1) Mở túi và mô tả vật trong túi. 2) Giải thích ngắn nếu đó là vật cá nhân quan trọng.",
+          "h": "It's a... / It's for... / I'm sorry, it's because...",
+          "s": "It's a small bottle of lotion. It's for personal use, I'm sorry I forgot it in my bag."
+        },
+        {
+          "p": "Please take off your shoes and walk through the scanner.",
+          "m": "1) Xác nhận bạn sẽ bỏ giày. 2) Hỏi nếu bạn cần mang lại giày để đi tiếp (nếu có người giúp).",
+          "h": "Okay, I will... / Do I need to...?",
+          "s": "Okay, I will take off my shoes. Do I need to put them in the tray as well?"
+        },
+        {
+          "p": "If the alarm sounds again, we may need a secondary check.",
+          "m": "1) Hỏi liệu bạn có thể yêu cầu kiểm tra riêng tư hay không. 2) Nói bạn sẽ làm theo hay bạn cần hỗ trợ y tế nếu lo lắng.",
+          "h": "Can I request... / I will... / I need...",
+          "s": "Can I request a private secondary check if possible? I will follow the procedure, and I need assistance because I'm a bit nervous."
+        }
+      ]
+    },
+    {
+      "t": "Thông tin chuyến bay",
+      "e": [
+        {
+          "p": "Which gate is flight AB456 departing from?",
+          "m": "1) Hỏi số cổng. 2) Hỏi liệu cổng có thể thay đổi hay không.",
+          "h": "The gate is... / Will it change?",
+          "s": "Do you mean flight AB456? Its gate is 18. Will the gate change?"
+        },
+        {
+          "p": "Flight CD789 is delayed by one hour.",
+          "m": "1) Xác nhận bạn hiểu. 2) Hỏi liệu hãng có hỗ trợ (ví dụ: phiếu ăn hoặc chỗ ngồi chờ).",
+          "h": "I understand. / Do you provide...?",
+          "s": "I understand the delay. Do you provide any meal vouchers or a waiting area?"
+        },
+        {
+          "p": "Boarding for flight EF321 will begin in 15 minutes at gate 9.",
+          "m": "1) Hỏi liệu có ưu tiên boarding cho hành khách cần hỗ trợ. 2) Nói nếu bạn cần ưu tiên và lý do ngắn.",
+          "h": "Is there priority boarding? / I need it because...",
+          "s": "Is there priority boarding for passengers who need help? I need it because I have a knee injury."
+        },
+        {
+          "p": "There are changes for connecting flights today.",
+          "m": "1) Hỏi liệu thay đổi có ảnh hưởng đến chuyến nối của bạn. 2) Nếu có, hỏi phương án đề xuất (ví dụ: chuyển sang chuyến khác).",
+          "h": "Will it affect my connection? / Can you rebook me on...",
+          "s": "Will this change affect my connection to flight GH200? If yes, can you rebook me on the next available flight?"
+        },
+        {
+          "p": "We recommend passengers arrive at the gate at least 30 minutes before departure.",
+          "m": "1) Xác nhận bạn sẽ tới sớm hay muộn. 2) Nếu muộn, hỏi hậu quả và giải pháp (ví dụ: latch hoặc đổi vé).",
+          "h": "I will arrive... / If I'm late, will...",
+          "s": "I will arrive 20 minutes before departure. If I'm late, will I be allowed to board or can I change my flight?"
+        }
+      ]
+    },
+    {
+      "t": "Lên máy bay và chỗ ngồi",
+      "e": [
+        {
+          "p": "Please show your boarding pass for scanning.",
+          "m": "1) Đưa boarding pass. 2) Xác nhận số ghế.",
+          "h": "Here is my boarding pass. My seat is...",
+          "s": "Here is my boarding pass. My seat is 12A."
+        },
+        {
+          "p": "You are in the middle seat. Would you like to move if there's an empty aisle seat?",
+          "m": "1) Trả lời có hay không. 2) Nếu có, hỏi thủ tục để đổi chỗ ngồi.",
+          "h": "Yes, I would like... / How can I change seats?",
+          "s": "Yes, I would like to move to an aisle seat if possible. How can I change seats?"
+        },
+        {
+          "p": "The overhead bin is almost full; do you have a smaller bag for the shelf below?",
+          "m": "1) Nói bạn có túi nhỏ hay không. 2) Nếu không, hỏi nhân viên giúp đặt hành lý.",
+          "h": "I have a small bag / I don't have... / Could you help me...",
+          "s": "I don't have a smaller bag. Could you help me put my bag in the bin?"
+        },
+        {
+          "p": "We are offering pre-boarding for families and passengers who need help.",
+          "m": "1) Hỏi bạn có thuộc diện ưu tiên hay không. 2) Nếu có, yêu cầu hỗ trợ cụ thể.",
+          "h": "I am/I'm not... / I need help with...",
+          "s": "I'm not traveling with family, but I am a passenger who needs help. I need assistance boarding with my carry-on."
+        },
+        {
+          "p": "There is a passenger in your assigned seat. How would you like to handle it?",
+          "m": "1) Yêu cầu bạn nói cách bạn sẽ giải quyết (như nói với họ, báo tiếp viên). 2) Nếu cần, nhờ tiếp viên can thiệp.",
+          "h": "I'll... / Please call the flight attendant to...",
+          "s": "I'll politely tell the passenger that this is my seat. Please call the flight attendant if they refuse to move."
+        }
+      ]
+    },
+    {
+      "t": "Hành lý ký gửi",
+      "e": [
+        {
+          "p": "Please keep your baggage claim tag; you'll need it after landing.",
+          "m": "1) Xác nhận bạn sẽ giữ thẻ. 2) Hỏi nơi nhận hành lý sau khi xuống máy bay.",
+          "h": "I will keep it. / Where do I pick up...?",
+          "s": "I will keep the baggage claim tag. Where do I pick up my luggage after landing?"
+        },
+        {
+          "p": "If your luggage is delayed, report it at the lost baggage desk.",
+          "m": "1) Hỏi vị trí quầy báo hành lý thất lạc. 2) Nói bạn sẽ làm gì (ví dụ: báo ngay và để lại số điện thoại).",
+          "h": "Where is... / I will report and leave...",
+          "s": "Where is the lost baggage desk? I will report the delay and leave my phone number."
+        },
+        {
+          "p": "Your bag has no tag; it might be unclaimed. Do you have any ID inside?",
+          "m": "1) Trả lời có hay không. 2) Nếu có, mô tả ID để nhân viên kiểm tra.",
+          "h": "No, I don't. / Yes, there is a... inside with my name.",
+          "s": "Yes, there is an ID card with my name inside the bag. It has my city and phone number."
+        },
+        {
+          "p": "There is an extra charge for oversized baggage.",
+          "m": "1) Hỏi mức phí cụ thể. 2) Nói bạn sẽ trả hoặc cần giải pháp khác (ví dụ: bỏ bớt đồ).",
+          "h": "How much is... / I will pay / Can I...",
+          "s": "How much is the oversized baggage fee? I will pay it now, or can I remove some items to avoid the charge?"
+        },
+        {
+          "p": "We found a damaged tag on your suitcase during handling.",
+          "m": "1) Hỏi hậu quả (hành lý có an toàn không). 2) Yêu cầu theo dõi hoặc phiếu biên nhận nếu cần khiếu nại.",
+          "h": "Is the bag okay? / Can I get a receipt for...",
+          "s": "Is the suitcase still okay after handling? Can I get a receipt in case I need to file a complaint?"
+        }
+      ]
+    },
+    {
+      "t": "Thay đổi vé và hủy chuyến",
+      "e": [
+        {
+          "p": "Would you like to change your flight to an earlier time?",
+          "m": "1) Trả lời có hay không. 2) Nếu có, yêu cầu chuyến sớm nhất hoặc hỏi phí đổi vé.",
+          "h": "Yes, I would like... / Is there a fee?",
+          "s": "Yes, I would like the earliest available flight. Is there a change fee for that?"
+        },
+        {
+          "p": "Your ticket is refundable with a fee.",
+          "m": "1) Hỏi mức phí hoàn vé. 2) Nếu đồng ý, yêu cầu hoàn tiền vào phương thức thanh toán ban đầu.",
+          "h": "How much is... / Please refund to...",
+          "s": "How much is the refund fee? Please refund the rest to my original card."
+        },
+        {
+          "p": "We can rebook you on the next flight if seats are available.",
+          "m": "1) Hỏi chuyến tiếp theo là khi nào. 2) Nếu đông, yêu cầu chỗ trên danh sách chờ hoặc đề nghị phương án khác.",
+          "h": "When is the next flight? / Can I be on the waitlist or...",
+          "s": "When is the next flight to my city? If it's full, can you put me on the waitlist or suggest another route?"
+        },
+        {
+          "p": "Some fares are non-changeable unless you pay extra.",
+          "m": "1) Xác nhận vé của bạn có thay đổi được không. 2) Nếu không, hỏi lựa chọn tốt nhất (ví dụ: mua vé mới hoặc xin hoàn một phần).",
+          "h": "Is my fare changeable? / What are my options?",
+          "s": "Is my fare changeable? If not, what are my options: buy a new ticket or get a partial refund?"
+        },
+        {
+          "p": "You must check the new itinerary within 24 hours.",
+          "m": "1) Xác nhận bạn sẽ kiểm tra lịch trình mới. 2) Nói nếu bạn muốn hãng giữ chỗ tạm thời cho bạn.",
+          "h": "I will check... / Please hold the booking if possible.",
+          "s": "I will check the new itinerary within 24 hours. Please hold the booking temporarily if you can."
+        }
+      ]
+    },
+    {
+      "t": "Hải quan và nhập cảnh",
+      "e": [
+        {
+          "p": "Do you have anything to declare?",
+          "m": "1) Nói có hay không. 2) Nếu có, mô tả ngắn món đồ và giá trị nếu cần.",
+          "h": "No, I don't. / Yes, I have... worth...",
+          "s": "No, I don't have anything to declare."
+        },
+        {
+          "p": "Please fill out this arrival form with your address in the country.",
+          "m": "1) Nói địa chỉ nơi bạn sẽ ở. 2) Nếu chưa biết, hỏi có thể ghi khách sạn sau hay không.",
+          "h": "I will stay at... / Can I write the hotel later?",
+          "s": "I will stay at Sunshine Hotel, 12 Main Street. If I don't know, can I write the hotel later?"
+        },
+        {
+          "p": "Do you have a visa for this country?",
+          "m": "1) Trả lời có hay không. 2) Nếu cần, nêu loại visa hoặc kế hoạch xin tại chỗ.",
+          "h": "Yes, I have a... visa. / I will apply for...",
+          "s": "Yes, I have a tourist visa for this country."
+        },
+        {
+          "p": "We need to search your bags for restricted items.",
+          "m": "1) Hỏi nghiên cứu có thể được thực hiện riêng tư không. 2) Nói bạn sẽ hợp tác và mong muốn được giải thích nếu có vấn đề.",
+          "h": "Can it be private? / I will cooperate and please explain if...",
+          "s": "Can the search be done in private? I will cooperate and please explain if you find anything."
+        },
+        {
+          "p": "Some travelers were stopped for undeclared goods earlier.",
+          "m": "1) Hỏi hậu quả nếu không khai báo (phạt, tịch thu). 2) Nói bạn sẽ khai báo nếu có nghi ngờ.",
+          "h": "What are the consequences? / I will declare if...",
+          "s": "What are the consequences for not declaring items, fines or confiscation? I will declare any item if I'm unsure."
+        }
+      ]
+    },
+    {
+      "t": "Dịch vụ sân bay: phòng chờ và tiện ích",
+      "e": [
+        {
+          "p": "Is there a lounge I can use with my ticket?",
+          "m": "1) Hỏi có quyền vào lounge với loại vé của bạn. 2) Nếu không, hỏi chi phí vào cửa.",
+          "h": "Do I have access? / How much is the fee?",
+          "s": "Does my ticket give lounge access? If not, how much is the entrance fee?"
+        },
+        {
+          "p": "Free Wi-Fi is available throughout the terminal.",
+          "m": "1) Hỏi tên mạng hoặc cách đăng nhập. 2) Hỏi thời gian miễn phí nếu có giới hạn.",
+          "h": "What is the network name? / Is it free for...?",
+          "s": "What is the Wi-Fi network name and how do I sign in? Is it free for two hours?"
+        },
+        {
+          "p": "We have a family room and baby care facilities near gate 5.",
+          "m": "1) Hỏi vị trí chính xác. 2) Nói bạn cần sử dụng và khoảng bao lâu.",
+          "h": "Where exactly? / I need it for... minutes.",
+          "s": "Where exactly is the family room near gate 5? I need it for about 30 minutes."
+        },
+        {
+          "p": "Charging stations are limited during busy hours.",
+          "m": "1) Hỏi có chỗ khác để sạc không (ví dụ: quầy cà phê). 2) Nói bạn sẽ làm gì nếu không có chỗ (ví dụ: mua pin sạc).",
+          "h": "Is there another place? / I'll... (buy power bank)",
+          "s": "Is there another place to charge my phone, like the café? If not, I'll buy a power bank."
+        },
+        {
+          "p": "Some shops offer tax-free refunds for tourists.",
+          "m": "1) Hỏi thủ tục hoàn thuế đơn giản. 2) Nói bạn có cần giữ biên lai và hộ chiếu không.",
+          "h": "How do I claim tax-free? / Do I need my receipts and passport?",
+          "s": "How do I claim the tax-free refund? Do I need to keep receipts and show my passport?"
+        }
+      ]
+    },
+    {
+      "t": "Sức khỏe và an toàn",
+      "e": [
+        {
+          "p": "Are you feeling unwell on board?",
+          "m": "1) Nói bạn có triệu chứng hay không (ví dụ: đau đầu, chóng mặt). 2) Yêu cầu trợ giúp y tế nếu cần.",
+          "h": "I have... / I need medical assistance.",
+          "s": "I feel dizzy and have a headache. I need medical assistance, please."
+        },
+        {
+          "p": "We can call a medic to the gate if necessary.",
+          "m": "1) Hỏi bạn có muốn nhân viên y tế tới không. 2) Nói bạn sẽ chờ ở đâu hoặc ai sẽ đi cùng.",
+          "h": "Yes, please come. / I will wait at... / Someone will go with me.",
+          "s": "Yes, please send a medic. I will wait near gate 4, and my companion will come with me."
+        },
+        {
+          "p": "Passengers with severe allergies should inform the crew.",
+          "m": "1) Nói nếu bạn có dị ứng nghiêm trọng. 2) Nêu biện pháp bạn cần (ví dụ: đồ ăn thay thế, tránh phun thuốc).",
+          "h": "I have an allergy to... / I need...",
+          "s": "I have a severe peanut allergy. I need a nut-free meal and please avoid serving snacks with nuts near me."
+        },
+        {
+          "p": "In case of emergency, follow the crew's instructions and the signs.",
+          "m": "1) Xác nhận bạn sẽ làm theo. 2) Hỏi nếu cần huấn luyện an toàn đặc biệt (ví dụ: ngồi xe lăn).",
+          "h": "I will follow... / Do I need special instructions for...",
+          "s": "I will follow the crew's instructions and the signs. Do I need special safety instructions for traveling with a wheelchair?"
+        },
+        {
+          "p": "We can provide oxygen if a passenger has breathing problems.",
+          "m": "1) Nói nếu bạn cần oxy. 2) Nếu có, mô tả tình trạng ngắn và đồng ý các bước tiếp theo (ví dụ: đi tới phòng y tế).",
+          "h": "I need oxygen. / I have... / I will go to...",
+          "s": "I need oxygen because I have trouble breathing. I will go to the medical room now."
+        }
+      ]
+    },
+    {
+      "t": "Nhân viên mặt đất và hỗ trợ đặc biệt",
+      "e": [
+        {
+          "p": "How can I get a wheelchair from the gate to the plane?",
+          "m": "1) Hỏi quy trình lấy xe lăn. 2) Nói bạn cần xe lăn từ khi nào (ví dụ: từ cửa vào đến chỗ ngồi).",
+          "h": "Please arrange... / I need it from... to...",
+          "s": "Please arrange a wheelchair for me. I need it from the entrance to my seat on the plane."
+        },
+        {
+          "p": "We can help passengers with reduced mobility board first.",
+          "m": "1) Hỏi bạn có cần boarding ưu tiên hay không. 2) Nếu cần, nêu lý do ngắn.",
+          "h": "Yes, I need... because...",
+          "s": "Yes, I need priority boarding because I cannot walk long distances."
+        },
+        {
+          "p": "There was a report of a missing child in the terminal.",
+          "m": "1) Hỏi bạn có nhìn thấy trẻ nào không (mô tả ngắn). 2) Nếu có, mô tả vị trí và báo nhân viên.",
+          "h": "I saw a child wearing... / I will tell staff at...",
+          "s": "I saw a child wearing a red jacket near café 3. I will notify the staff at information desk 2."
+        },
+        {
+          "p": "If you miss your connection, we will assist with accommodation and rebooking.",
+          "m": "1) Hỏi chính sách hỗ trợ nếu chuyến nối bị bỏ lỡ. 2) Nói nếu bạn cần chỗ ngủ hoặc bữa ăn ngay lập tức.",
+          "h": "Do you provide... / I need...",
+          "s": "Do you provide hotel and meal vouchers if I miss my connection? I need a place to sleep tonight if possible."
+        },
+        {
+          "p": "A shuttle bus to the city leaves every 30 minutes from exit B.",
+          "m": "1) Hỏi thời gian chuyến tiếp theo. 2) Nói nếu bạn cần vé hoặc ưu tiên và bạn sẽ làm gì tiếp theo.",
+          "h": "When is the next bus? / Do I need a ticket? / I will...",
+          "s": "When is the next shuttle bus? Do I need to buy a ticket in advance? I will wait at exit B."
+        }
+      ]
+    },
+    {
+      "t": "Chuyến nối và đổi tuyến",
+      "e": [
+        {
+          "p": "You have 45 minutes to make your connection at the next airport.",
+          "m": "1) Hỏi liệu 45 phút có đủ cho thủ tục nối chuyến. 2) Nếu không đủ, hỏi cách rút ngắn thời gian (ví dụ: cửa ưu tiên).",
+          "h": "Is 45 minutes enough? / Can you help with priority?",
+          "s": "Is 45 minutes enough to make my connection? If not, can you arrange priority transfer for me?"
+        },
+        {
+          "p": "Do you need to recheck your bags for the next flight?",
+          "m": "1) Hỏi liệu bạn phải nhận và gửi lại hành lý hay hãng sẽ tự chuyển. 2) Nếu cần, hỏi quy trình tại sân bay nối chuyến.",
+          "h": "Do I need to collect and recheck? / What is the procedure?",
+          "s": "Do I need to collect my luggage and recheck it? If so, what is the procedure at the transfer airport?"
+        },
+        {
+          "p": "We recommend allowing more time when switching between terminals.",
+          "m": "1) Hỏi khoảng thời gian an toàn để chuyển tiếp. 2) Nói bạn sẽ làm gì nếu thời gian ngắn (ví dụ: yêu cầu trợ giúp chạy qua).",
+          "h": "How much time is safe? / I will ask for assistance to...",
+          "s": "How much time is safe to transfer between terminals? If it's short, I will ask for assistance to get there faster."
+        },
+        {
+          "p": "If your first flight is delayed and you miss the connection, we'll rebook you.",
+          "m": "1) Hỏi bạn có thể được chuyển sang chuyến sớm nhất không. 2) Nếu không, hỏi về chỗ trên chuyến sau hoặc hoàn tiền.",
+          "h": "Can you book me on the earliest? / Or give refund?",
+          "s": "Can you book me on the earliest available flight to my destination? If not, can I get a seat on the next flight or a refund?"
+        },
+        {
+          "p": "Customs and immigration can cause long waiting times during peak hours.",
+          "m": "1) Hỏi cách rút ngắn thời gian (ví dụ: cửa ưu tiên hoặc làm thủ tục trực tuyến). 2) Nói bạn sẽ làm gì để tránh trễ chuyến.",
+          "h": "Is there priority lane? / I will...",
+          "s": "Is there a priority lane or online check to speed up immigration? I will use those options to avoid missing my flight."
+        }
+      ]
+    },
+    {
+      "t": "Yêu cầu đặc biệt: chỗ ngồi và bữa ăn",
+      "e": [
+        {
+          "p": "Do you have any meal preference or dietary restrictions?",
+          "m": "1) Nói bạn có yêu cầu ăn uống đặc biệt hay không. 2) Nếu có, nêu rõ (ví dụ: không ăn thịt, dị ứng hải sản).",
+          "h": "I prefer... / I'm allergic to...",
+          "s": "I prefer a vegetarian meal. I'm allergic to shellfish."
+        },
+        {
+          "p": "Would you like an extra legroom seat for more comfort?",
+          "m": "1) Trả lời có hay không. 2) Nếu có, hỏi phí nâng cấp hoặc cách đặt.",
+          "h": "Yes, I would like... / How much is the upgrade?",
+          "s": "Yes, I would like an extra legroom seat. How much is the upgrade?"
+        },
+        {
+          "p": "We can note your allergy so crew can avoid serving certain items.",
+          "m": "1) Xác nhận bạn muốn nhân viên ghi chú. 2) Nêu chính xác thứ cần tránh và hỏi xác nhận đã được ghi.",
+          "h": "Please note... / Have you recorded it?",
+          "s": "Please note my peanut allergy and avoid serving nuts. Have you recorded this on my booking?"
+        },
+        {
+          "p": "Some passengers prefer window seats for the view.",
+          "m": "1) So sánh window và aisle; nói cái nào bạn thích hơn và vì sao. 2) Dùng câu so sánh ngắn (more/er).",
+          "h": "I prefer... because it's more... / I find... more than...",
+          "s": "I prefer a window seat because it's more peaceful and I like the view. I find window seats more comfortable than aisle seats."
+        },
+        {
+          "p": "We can request a special meal up to 24 hours before departure.",
+          "m": "1) Hỏi liệu bạn có thể đặt bữa ăn đặc biệt bây giờ không. 2) Nói bạn sẽ làm gì nếu không kịp (ví dụ: mang thức ăn riêng).",
+          "h": "Can I request now? / If not, I will...",
+          "s": "Can I request the special meal now if it's within 24 hours? If it's too late, I will bring my own food."
+        }
+      ]
+    },
+    {
+      "t": "Ôn tập: Từ lúc đến sân bay đến an ninh",
+      "e": [
+        {
+          "p": "Welcome. Can I see your passport and boarding pass?",
+          "m": "1) Nói tên và đưa hộ chiếu. 2) Xác nhận số ghế trên boarding pass.",
+          "h": "My name is... / My seat is...",
+          "s": "My name is [studentName]. My seat number is 14C."
+        },
+        {
+          "p": "Please place your liquids and electronics in the tray.",
+          "m": "1) Xác nhận bạn đã làm theo. 2) Nói nếu bạn quên một đồ và cần trợ giúp.",
+          "h": "I have placed... / I forgot..., can you help?",
+          "s": "I have placed my liquids and laptop in the tray. I forgot my keys in my pocket; can you help me remove them?"
+        },
+        {
+          "p": "There's a delay for your flight; the new boarding time is 30 minutes later.",
+          "m": "1) Xác nhận bạn hiểu và liệu bạn có cần hỗ trợ. 2) Hỏi có phiếu ăn hay chỗ chờ có điều hòa không.",
+          "h": "I understand. / Do you provide...?",
+          "s": "I understand the delay. Do you provide a meal voucher or a comfortable waiting area?"
+        },
+        {
+          "p": "Do you have any checked luggage to drop at the counter?",
+          "m": "1) Nói số kiện nếu có. 2) Hỏi về phí hành lý nếu quá cân.",
+          "h": "I have... bags. / How much is the overweight fee?",
+          "s": "I have two checked bags. How much is the overweight fee if they are heavy?"
+        },
+        {
+          "p": "Security may do a secondary check if the alarm goes off.",
+          "m": "1) Hỏi có thể yêu cầu kiểm tra riêng tư không. 2) Nói bạn sẽ hợp tác và cần ai đó đi cùng nếu lo lắng.",
+          "h": "Can it be private? / I will cooperate and need...",
+          "s": "Can the secondary check be done in private? I will cooperate and I need someone to accompany me because I'm anxious."
+        }
+      ]
+    },
+    {
+      "t": "Ôn tập: Trục trặc chuyến bay và giải pháp",
+      "e": [
+        {
+          "p": "Your flight was cancelled due to technical issues.",
+          "m": "1) Hỏi hãng sẽ sắp xếp như thế nào (rebook, hoàn tiền, khách sạn). 2) Nói ưu tiên của bạn (ví dụ: về nhà sớm hoặc bồi thường).",
+          "h": "Will you rebook/refund/offer hotel? / I prefer...",
+          "s": "Will the airline rebook me on the next flight or offer a refund and hotel? I prefer to be rebooked on the earliest flight home."
+        },
+        {
+          "p": "We can place you on standby for the next flight.",
+          "m": "1) Hỏi tỉ lệ đậu danh sách chờ hoặc thời gian chờ trung bình. 2) Nói bạn có chấp nhận đứng chờ hay muốn phương án khác.",
+          "h": "What is the chance? / I will wait or I prefer...",
+          "s": "What is the chance of getting a seat from standby? I will wait if the chance is good, otherwise I prefer another flight."
+        },
+        {
+          "p": "Your luggage will arrive on the next flight; we will deliver it to your hotel.",
+          "m": "1) Xác nhận bạn đồng ý nhận hành lý tại khách sạn. 2) Để lại địa chỉ và số điện thoại liên lạc.",
+          "h": "I agree. / My hotel is... / My phone is...",
+          "s": "I agree to have my luggage delivered to my hotel. My hotel is Sunrise Hotel, 5 Lake Road and my phone number is 0123456789."
+        },
+        {
+          "p": "Passengers affected by delays may be offered meal vouchers.",
+          "m": "1) Hỏi bạn được nhận phiếu ăn không. 2) Nói bạn sẽ dùng phiếu ăn ở đâu hoặc xin tiền hoàn lại.",
+          "h": "Do I get a voucher? / I will use it at... / Or refund?",
+          "s": "Will I receive a meal voucher for this delay? I will use it at the terminal café, or can I get a refund instead?"
+        },
+        {
+          "p": "We apologize for the inconvenience and will do our best to help.",
+          "m": "1) Nói bạn cảm ơn và kết luận bạn sẽ làm gì tiếp theo (ví dụ: chờ thông báo, đi ra khu chờ). 2) Hỏi cách liên hệ nếu có thay đổi mới.",
+          "h": "Thank you. / I will... / How can I be contacted?",
+          "s": "Thank you for the help. I will wait in the seating area and please contact me by phone if there is an update."
+        }
+      ]
+    },
+    {
+      "t": "Ôn tập: Toàn bộ trải nghiệm sân bay",
+      "e": [
+        {
+          "p": "Welcome to the airport. How can I help you today?",
+          "m": "1) Nói mục đích bạn đến sân bay (ví dụ: check-in, đón người). 2) Nêu tên chuyến hoặc người bạn đến đón.",
+          "h": "I'm here to... / It's for flight... / I'm picking up...",
+          "s": "I'm here to check in for my flight to Hanoi. My flight number is VN123."
+        },
+        {
+          "p": "Do you have your passport and visa ready?",
+          "m": "1) Xác nhận bạn có passport/visa. 2) Nếu thiếu, hỏi cách xử lý (ví dụ: nhân viên có giúp được không).",
+          "h": "I have... / I don't have... Can you help?",
+          "s": "I have my passport and visa ready. If something is missing, can you tell me what to do?"
+        },
+        {
+          "p": "There is a long queue at security; would you like to use the priority lane?",
+          "m": "1) Trả lời có hay không. 2) Nếu có, nêu lý do bạn cần ưu tiên (ví dụ: thời gian ít, cần xe lăn).",
+          "h": "Yes, I would like... because...",
+          "s": "Yes, I would like to use the priority lane because I have very little time to catch my connection."
+        },
+        {
+          "p": "Your gate might change; please check the screens regularly.",
+          "m": "1) Hỏi bạn sẽ làm gì để theo dõi thay đổi cổng (ví dụ: nhìn bảng, nhận tin nhắn). 2) Nói bạn có muốn nhận thông báo qua điện thoại không.",
+          "h": "I will... / Please send notifications to my phone.",
+          "s": "I will check the screens regularly. Please send gate change notifications to my phone if possible."
+        },
+        {
+          "p": "Safe travels. If you need anything, ask airport staff.",
+          "m": "1) Nói cảm ơn. 2) Kết luận bạn sẽ đi đâu ngay bây giờ (ví dụ: vào cửa an ninh, ra quầy check-in).",
+          "h": "Thank you. / I'm going to...",
+          "s": "Thank you. I'm going to the security checkpoint now."
+        }
+      ]
+    }
+  ]
+}

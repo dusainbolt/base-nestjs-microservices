@@ -1,0 +1,530 @@
+{
+  "l": 1,
+  "d": [
+    {
+      "t": "Gặp khách hàng ở cửa hàng",
+      "e": [
+        {
+          "p": "Can I help you?",
+          "m": "Nói tên sản phẩm bạn muốn (1 câu).",
+          "h": "I want + a/an + N",
+          "s": "I want a blue bag."
+        },
+        {
+          "p": "What is this?",
+          "m": "Nói tên sản phẩm này (1 câu).",
+          "h": "This is + a/an + N",
+          "s": "This is a water bottle."
+        },
+        {
+          "p": "How many do you need?",
+          "m": "Nói số lượng bạn cần (1 câu).",
+          "h": "I need + number + N",
+          "s": "I need two bottles."
+        },
+        {
+          "p": "Do you have a small size?",
+          "m": "Trả lời có hoặc không và nêu kích thước trong 1 câu.",
+          "h": "Yes/No + it is/it is not + adj",
+          "s": "Yes, it is small."
+        },
+        {
+          "p": "What color do you like?",
+          "m": "Nói một màu bạn thích (1 câu).",
+          "h": "I like + color",
+          "s": "I like red."
+        }
+      ]
+    },
+    {
+      "t": "Giới thiệu sản phẩm mới",
+      "e": [
+        {
+          "p": "Do you like the new phone?",
+          "m": "Nói bạn thích hay không (1 câu).",
+          "h": "I like / I don't like + it",
+          "s": "I like it."
+        },
+        {
+          "p": "What is one feature?",
+          "m": "Nói một tính năng đơn giản của sản phẩm (1 câu).",
+          "h": "It has + N / It is + Adj",
+          "s": "It has a big screen."
+        },
+        {
+          "p": "Is it new?",
+          "m": "Trả lời có/không và dùng 'new' hoặc 'old' (1 câu).",
+          "h": "Yes, it is / No, it is not",
+          "s": "Yes, it is new."
+        },
+        {
+          "p": "Who can use this phone?",
+          "m": "Nói loại người dùng (1 câu).",
+          "h": "It is for + people",
+          "s": "It is for students."
+        },
+        {
+          "p": "Why is it good?",
+          "m": "Nêu một lý do ngắn về lợi ích (1 câu).",
+          "h": "It is good because + simple reason",
+          "s": "It is good because it is light."
+        }
+      ]
+    },
+    {
+      "t": "Nói về màu và kích thước",
+      "e": [
+        {
+          "p": "What color is the bag?",
+          "m": "Nói màu của túi (1 câu).",
+          "h": "It is + color",
+          "s": "It is black."
+        },
+        {
+          "p": "Is the chair big?",
+          "m": "Trả lời có/không và nói kích thước (1 câu).",
+          "h": "Yes, it is / No, it is not + small/big",
+          "s": "No, it is not big."
+        },
+        {
+          "p": "Do you want a red one?",
+          "m": "Trả lời có/không và nói màu bạn muốn (1 câu).",
+          "h": "Yes, I want + color / No, I want + color",
+          "s": "No, I want blue."
+        },
+        {
+          "p": "Which size do you need?",
+          "m": "Nói kích thước bạn cần (1 câu).",
+          "h": "I need + small/medium/large",
+          "s": "I need small."
+        },
+        {
+          "p": "Can you see the small lamp?",
+          "m": "Xác nhận và nói màu hoặc vị trí (1 câu).",
+          "h": "Yes, I can see + it / No, I can't",
+          "s": "Yes, I can see it on the table."
+        }
+      ]
+    },
+    {
+      "t": "Hỏi về giá và số lượng",
+      "e": [
+        {
+          "p": "How much is the toy?",
+          "m": "Nói giá của món đồ (1 câu).",
+          "h": "It is + number + dollars",
+          "s": "It is ten dollars."
+        },
+        {
+          "p": "Do you want one or two?",
+          "m": "Nói bạn muốn 1 hay 2 (1 câu).",
+          "h": "I want + one/two",
+          "s": "I want one."
+        },
+        {
+          "p": "Is it cheap?",
+          "m": "Trả lời có/không và nói cảm nhận (1 câu).",
+          "h": "Yes, it is / No, it is not + cheap/expensive",
+          "s": "Yes, it is cheap."
+        },
+        {
+          "p": "Can I buy three?",
+          "m": "Trả lời có/không và nói số nếu có (1 câu).",
+          "h": "Yes, you can / No, you can't",
+          "s": "Yes, you can buy three."
+        },
+        {
+          "p": "How many do you have in stock?",
+          "m": "Nói số lượng còn trong kho (1 câu).",
+          "h": "We have + number + N",
+          "s": "We have five bags."
+        }
+      ]
+    },
+    {
+      "t": "Mô tả chức năng đơn giản",
+      "e": [
+        {
+          "p": "What does this watch do?",
+          "m": "Nói một chức năng của đồng hồ (1 câu).",
+          "h": "It + V(s) + O / It can + V",
+          "s": "It shows time."
+        },
+        {
+          "p": "Can it call?",
+          "m": "Trả lời có/không (1 câu).",
+          "h": "Yes, it can / No, it can't",
+          "s": "No, it can't."
+        },
+        {
+          "p": "Does the lamp have a light?",
+          "m": "Trả lời có/không (1 câu).",
+          "h": "Yes, it has / No, it does not have",
+          "s": "Yes, it has light."
+        },
+        {
+          "p": "What can the phone do?",
+          "m": "Nói một việc phone có thể làm (1 câu).",
+          "h": "It can + V",
+          "s": "It can take photos."
+        },
+        {
+          "p": "Is it easy to use?",
+          "m": "Trả lời có/không và nêu lý do ngắn (1 câu).",
+          "h": "Yes, it is because + simple reason",
+          "s": "Yes, it is because it is simple."
+        }
+      ]
+    },
+    {
+      "t": "Nói về lợi ích cho người dùng",
+      "e": [
+        {
+          "p": "Who is this product for?",
+          "m": "Nói một nhóm người sử dụng (1 câu).",
+          "h": "It is for + people",
+          "s": "It is for children."
+        },
+        {
+          "p": "How does it help you?",
+          "m": "Nói một lợi ích đơn giản (1 câu).",
+          "h": "It helps me + V / It is + Adj",
+          "s": "It helps me save time."
+        },
+        {
+          "p": "Do you like this service?",
+          "m": "Nói bạn thích hay không (1 câu).",
+          "h": "I like it / I don't like it",
+          "s": "I like it."
+        },
+        {
+          "p": "Is the product safe?",
+          "m": "Trả lời có/không (1 câu).",
+          "h": "Yes, it is / No, it is not",
+          "s": "Yes, it is safe."
+        },
+        {
+          "p": "Why do people buy it?",
+          "m": "Nói một lý do ngắn người ta mua (1 câu).",
+          "h": "People buy it because + reason",
+          "s": "People buy it because it is cheap."
+        }
+      ]
+    },
+    {
+      "t": "Hỏi cách sử dụng",
+      "e": [
+        {
+          "p": "How do I use the lamp?",
+          "m": "Nói một bước đơn giản để dùng (1 câu).",
+          "h": "You + V (simple) / Turn on + N",
+          "s": "You press the button."
+        },
+        {
+          "p": "Do I need a battery?",
+          "m": "Trả lời có/không (1 câu).",
+          "h": "Yes, you need / No, you don't need",
+          "s": "Yes, you need one battery."
+        },
+        {
+          "p": "Can I wash it?",
+          "m": "Trả lời có/không (1 câu).",
+          "h": "Yes, you can / No, you can't",
+          "s": "No, you can't wash it."
+        },
+        {
+          "p": "Where do I put the phone?",
+          "m": "Nói nơi đặt đơn giản (1 câu).",
+          "h": "Put it on + place",
+          "s": "Put it on the table."
+        },
+        {
+          "p": "Is it easy to clean?",
+          "m": "Trả lời có/không và nói cách đơn giản (1 câu).",
+          "h": "Yes, it is / No, it is not + because + reason",
+          "s": "Yes, it is because it has a cover."
+        }
+      ]
+    },
+    {
+      "t": "So sánh hai sản phẩm",
+      "e": [
+        {
+          "p": "Which is bigger, A or B?",
+          "m": "Nói sản phẩm lớn hơn (1 câu).",
+          "h": "A is bigger than B / B is bigger than A",
+          "s": "A is bigger than B."
+        },
+        {
+          "p": "Is B cheaper than A?",
+          "m": "Trả lời có/không (1 câu).",
+          "h": "Yes, it is / No, it is not",
+          "s": "Yes, it is."
+        },
+        {
+          "p": "Which one do you like?",
+          "m": "Nói bạn thích sản phẩm nào (1 câu).",
+          "h": "I like + A/B",
+          "s": "I like B."
+        },
+        {
+          "p": "Is A new or old?",
+          "m": "Nói mới hay cũ (1 câu).",
+          "h": "It is new / It is old",
+          "s": "It is new."
+        },
+        {
+          "p": "Why do you choose B?",
+          "m": "Nói một lý do ngắn (1 câu).",
+          "h": "I choose it because + reason",
+          "s": "I choose it because it is small."
+        }
+      ]
+    },
+    {
+      "t": "Giúp khách hàng chọn sản phẩm",
+      "e": [
+        {
+          "p": "What do you need the bag for?",
+          "m": "Nói mục đích dùng túi (1 câu).",
+          "h": "I need it for + use",
+          "s": "I need it for school."
+        },
+        {
+          "p": "Do you want a big or small bag?",
+          "m": "Chọn big hoặc small (1 câu).",
+          "h": "I want + big/small",
+          "s": "I want a big bag."
+        },
+        {
+          "p": "Do you like this color?",
+          "m": "Trả lời và nêu màu khác nếu không (1 câu).",
+          "h": "Yes, I like it / No, I want + color",
+          "s": "No, I want blue."
+        },
+        {
+          "p": "Is this bag for a child?",
+          "m": "Trả lời có/không (1 câu).",
+          "h": "Yes, it is / No, it is not",
+          "s": "No, it is not."
+        },
+        {
+          "p": "Which bag is cheaper?",
+          "m": "Nói túi nào rẻ hơn (1 câu).",
+          "h": "The + N + is cheaper",
+          "s": "The small bag is cheaper."
+        }
+      ]
+    },
+    {
+      "t": "Giải quyết vấn đề đơn giản",
+      "e": [
+        {
+          "p": "My phone does not turn on.",
+          "m": "Nói một việc bạn làm (1 câu).",
+          "h": "I + V (simple) / I will + V",
+          "s": "I charge the phone."
+        },
+        {
+          "p": "It is broken.",
+          "m": "Nói bạn muốn đổi hay sửa (1 câu).",
+          "h": "I want to + V / I want a new + N",
+          "s": "I want a new phone."
+        },
+        {
+          "p": "Can you help me?",
+          "m": "Trả lời có/không và một hành động (1 câu).",
+          "h": "Yes, I can + V / No, I can't",
+          "s": "Yes, I can fix it."
+        },
+        {
+          "p": "Where is the repair shop?",
+          "m": "Nói nơi ngắn gọn (1 câu).",
+          "h": "It is at/on + place",
+          "s": "It is at the shop."
+        },
+        {
+          "p": "How long is the repair?",
+          "m": "Nói khoảng thời gian đơn giản (1 câu).",
+          "h": "It takes + number + days/hours",
+          "s": "It takes two days."
+        }
+      ]
+    },
+    {
+      "t": "Mua hàng và thanh toán",
+      "e": [
+        {
+          "p": "I want to buy this.",
+          "m": "Xác nhận bạn muốn mua một món (1 câu).",
+          "h": "I want to buy + N",
+          "s": "I want to buy this bag."
+        },
+        {
+          "p": "How will you pay?",
+          "m": "Nói cách bạn trả tiền (1 câu).",
+          "h": "I will pay by + cash/card",
+          "s": "I will pay by cash."
+        },
+        {
+          "p": "Can I have your name?",
+          "m": "Nói tên bạn (1 câu) dùng placeholder nếu cần.",
+          "h": "My name is + [studentName]",
+          "s": "My name is [studentName]."
+        },
+        {
+          "p": "Do you need a bag?",
+          "m": "Trả lời có/không (1 câu).",
+          "h": "Yes, please / No, thank you",
+          "s": "Yes, please."
+        },
+        {
+          "p": "Do you want a receipt?",
+          "m": "Trả lời có/không (1 câu).",
+          "h": "Yes, I want / No, I don't want",
+          "s": "Yes, I want a receipt."
+        }
+      ]
+    },
+    {
+      "t": "Hỏi về bảo hành và dịch vụ",
+      "e": [
+        {
+          "p": "Is there a warranty?",
+          "m": "Trả lời có/không và thời gian ngắn (1 câu).",
+          "h": "Yes, there is + for + time",
+          "s": "Yes, there is for one year."
+        },
+        {
+          "p": "Can I return it?",
+          "m": "Trả lời có/không (1 câu).",
+          "h": "Yes, you can / No, you can't",
+          "s": "Yes, you can return it."
+        },
+        {
+          "p": "Where is the service center?",
+          "m": "Nói vị trí ngắn (1 câu).",
+          "h": "It is at/on + place",
+          "s": "It is at the main shop."
+        },
+        {
+          "p": "Do you have support by phone?",
+          "m": "Trả lời có/không (1 câu).",
+          "h": "Yes, we have / No, we don't",
+          "s": "Yes, we have phone support."
+        },
+        {
+          "p": "How long is the warranty?",
+          "m": "Nói thời gian bảo hành (1 câu).",
+          "h": "It is + number + year(s)/month(s)",
+          "s": "It is one year."
+        }
+      ]
+    },
+    {
+      "t": "Ôn tập: Giới thiệu và mô tả",
+      "e": [
+        {
+          "p": "What is this product?",
+          "m": "Nói tên sản phẩm (1 câu).",
+          "h": "This is + a/an + N",
+          "s": "This is a watch."
+        },
+        {
+          "p": "What color is it?",
+          "m": "Nói màu (1 câu).",
+          "h": "It is + color",
+          "s": "It is white."
+        },
+        {
+          "p": "What does it do?",
+          "m": "Nói một chức năng (1 câu).",
+          "h": "It + V(s) / It can + V",
+          "s": "It tells time."
+        },
+        {
+          "p": "Who can use it?",
+          "m": "Nói người dùng (1 câu).",
+          "h": "It is for + people",
+          "s": "It is for adults."
+        },
+        {
+          "p": "Do you like this product?",
+          "m": "Nói bạn thích hay không (1 câu).",
+          "h": "I like it / I don't like it",
+          "s": "I like it."
+        }
+      ]
+    },
+    {
+      "t": "Ôn tập: Mua hàng và hỏi giá",
+      "e": [
+        {
+          "p": "How much is this lamp?",
+          "m": "Nói giá (1 câu).",
+          "h": "It is + number + dollars",
+          "s": "It is twenty dollars."
+        },
+        {
+          "p": "Can I buy two lamps?",
+          "m": "Trả lời có/không và số nếu có (1 câu).",
+          "h": "Yes, you can + buy + number / No, you can't",
+          "s": "Yes, you can buy two."
+        },
+        {
+          "p": "Do you want a bag for the lamp?",
+          "m": "Trả lời có/không (1 câu).",
+          "h": "Yes, please / No, thank you",
+          "s": "No, thank you."
+        },
+        {
+          "p": "How will you pay?",
+          "m": "Nói cách trả (1 câu).",
+          "h": "I will pay by + cash/card",
+          "s": "I will pay by card."
+        },
+        {
+          "p": "Can I have your name for the bill?",
+          "m": "Nói tên dùng placeholder (1 câu).",
+          "h": "My name is + [studentName]",
+          "s": "My name is [studentName]."
+        }
+      ]
+    },
+    {
+      "t": "Ôn tập: Hỏi và trả lời về chức năng",
+      "e": [
+        {
+          "p": "Can this phone take photos?",
+          "m": "Trả lời có/không (1 câu).",
+          "h": "Yes, it can / No, it can't",
+          "s": "Yes, it can."
+        },
+        {
+          "p": "Does it have a camera?",
+          "m": "Trả lời có/không (1 câu).",
+          "h": "Yes, it has / No, it does not have",
+          "s": "Yes, it has a camera."
+        },
+        {
+          "p": "Is it easy to carry?",
+          "m": "Trả lời có/không (1 câu).",
+          "h": "Yes, it is / No, it is not",
+          "s": "Yes, it is easy to carry."
+        },
+        {
+          "p": "How long is the battery?",
+          "m": "Nói thời gian ngắn (1 câu).",
+          "h": "It lasts + number + hours",
+          "s": "It lasts eight hours."
+        },
+        {
+          "p": "Why do you like this phone?",
+          "m": "Nói một lý do ngắn (1 câu).",
+          "h": "I like it because + reason",
+          "s": "I like it because it is light."
+        }
+      ]
+    }
+  ]
+}

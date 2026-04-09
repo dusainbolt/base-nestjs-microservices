@@ -1,0 +1,530 @@
+{
+  "l": 1,
+  "d": [
+    {
+      "t": "Giới thiệu trang mạng xã hội",
+      "e": [
+        {
+          "p": "What's your page name?",
+          "m": "Viết 1 câu cho biết tên trang.",
+          "h": "S + be + N",
+          "s": "My page is FoodPage."
+        },
+        {
+          "p": "What is your page about?",
+          "m": "Viết 1 câu cho biết chủ đề trang (ví dụ: food, art).",
+          "h": "S + be + N",
+          "s": "My page is about food."
+        },
+        {
+          "p": "How often do you post?",
+          "m": "Viết 1 câu nói tần suất đăng.",
+          "h": "S + V(s) + time",
+          "s": "I post every day."
+        },
+        {
+          "p": "Can you post a photo now?",
+          "m": "Viết 1 câu nói bạn có thể hay không.",
+          "h": "S + can/can't + V",
+          "s": "I can post a photo now."
+        },
+        {
+          "p": "Where are you from?",
+          "m": "Viết 1 câu nói nơi bạn sống.",
+          "h": "S + be + N (city)",
+          "s": "I am from [studentCity]."
+        }
+      ]
+    },
+    {
+      "t": "Nói về lịch đăng bài",
+      "e": [
+        {
+          "p": "Do you post in the morning?",
+          "m": "Viết 1 câu trả lời có/không.",
+          "h": "Do + S + V? -> Yes/No + S + V",
+          "s": "Yes, I post in the morning."
+        },
+        {
+          "p": "What day do you post most?",
+          "m": "Viết 1 câu cho biết ngày bạn đăng nhiều nhất.",
+          "h": "S + V + on + day",
+          "s": "I post on Monday."
+        },
+        {
+          "p": "How many posts do you make in a week?",
+          "m": "Viết 1 câu cho biết số bài mỗi tuần.",
+          "h": "I + V + number + times a week",
+          "s": "I post two times a week."
+        },
+        {
+          "p": "Can you post tonight?",
+          "m": "Viết 1 câu nói bạn có thể hay không.",
+          "h": "S + can/can't + V",
+          "s": "I can't post tonight."
+        },
+        {
+          "p": "Where do you post from?",
+          "m": "Viết 1 câu nói nơi bạn đăng (ví dụ: home).",
+          "h": "S + V + from + N",
+          "s": "I post from home."
+        }
+      ]
+    },
+    {
+      "t": "Loại bài đăng",
+      "e": [
+        {
+          "p": "Do you post photos?",
+          "m": "Viết 1 câu trả lời có/không.",
+          "h": "Do + S + V? -> Yes/No + S + V",
+          "s": "Yes, I post photos."
+        },
+        {
+          "p": "Do you post videos?",
+          "m": "Viết 1 câu trả lời có/không.",
+          "h": "Do + S + V? -> Yes/No + S + V",
+          "s": "No, I don't post videos."
+        },
+        {
+          "p": "What is your favorite post?",
+          "m": "Viết 1 câu cho biết loại bài bạn thích.",
+          "h": "S + be + N",
+          "s": "My favorite post is a photo."
+        },
+        {
+          "p": "Can you make a short video?",
+          "m": "Viết 1 câu nói bạn có thể hay không.",
+          "h": "S + can/can't + V",
+          "s": "I can make a short video."
+        },
+        {
+          "p": "Which post do you plan today?",
+          "m": "Viết 1 câu cho biết kế hoạch bài hôm nay.",
+          "h": "S + V + O",
+          "s": "I plan a photo post today."
+        }
+      ]
+    },
+    {
+      "t": "Nói về lượt thích và người theo dõi",
+      "e": [
+        {
+          "p": "How many likes do you get?",
+          "m": "Viết 1 câu cho biết số like.",
+          "h": "S + V + number",
+          "s": "I get ten likes."
+        },
+        {
+          "p": "Are there many followers?",
+          "m": "Viết 1 câu trả lời có/không.",
+          "h": "There are / There aren't + N",
+          "s": "There are many followers."
+        },
+        {
+          "p": "Who likes your posts most?",
+          "m": "Viết 1 câu cho biết ai thích bài của bạn nhất.",
+          "h": "Who + V + O? -> S + V",
+          "s": "My friend likes my posts most."
+        },
+        {
+          "p": "Do you like to reply to comments?",
+          "m": "Viết 1 câu trả lời có/không.",
+          "h": "Do + S + V? -> Yes/No + S + V",
+          "s": "Yes, I like to reply to comments."
+        },
+        {
+          "p": "Can you grow followers?",
+          "m": "Viết 1 câu nói bạn có thể hay không.",
+          "h": "S + can/can't + V",
+          "s": "I can grow followers."
+        }
+      ]
+    },
+    {
+      "t": "Nội dung hàng ngày",
+      "e": [
+        {
+          "p": "What do you post today?",
+          "m": "Viết 1 câu cho biết bài hôm nay (photo/video/text).",
+          "h": "S + V + O",
+          "s": "I post a photo today."
+        },
+        {
+          "p": "Do you write a caption?",
+          "m": "Viết 1 câu trả lời có/không.",
+          "h": "Do + S + V? -> Yes/No + S + V",
+          "s": "Yes, I write a caption."
+        },
+        {
+          "p": "How long is your caption?",
+          "m": "Viết 1 câu cho biết ngắn hay dài.",
+          "h": "It + be + Adj",
+          "s": "It is short."
+        },
+        {
+          "p": "Can you add a location?",
+          "m": "Viết 1 câu nói bạn có thể hay không.",
+          "h": "S + can/can't + V",
+          "s": "I can add a location."
+        },
+        {
+          "p": "Where do you get ideas?",
+          "m": "Viết 1 câu nói nguồn ý tưởng (friend, home).",
+          "h": "S + V + from + N",
+          "s": "I get ideas from friends."
+        }
+      ]
+    },
+    {
+      "t": "Thời gian tốt để đăng",
+      "e": [
+        {
+          "p": "Is morning a good time?",
+          "m": "Viết 1 câu trả lời có/không.",
+          "h": "S + be + Adj",
+          "s": "Yes, morning is a good time."
+        },
+        {
+          "p": "Do people see posts at night?",
+          "m": "Viết 1 câu trả lời có/không.",
+          "h": "Do + S + V? -> Yes/No + S + V",
+          "s": "No, people don't see posts at night."
+        },
+        {
+          "p": "What time do you post?",
+          "m": "Viết 1 câu cho biết thời gian bạn đăng.",
+          "h": "I + V + in/at + time",
+          "s": "I post in the morning."
+        },
+        {
+          "p": "Can you post at noon?",
+          "m": "Viết 1 câu nói bạn có thể hay không.",
+          "h": "S + can/can't + V",
+          "s": "I can post at noon."
+        },
+        {
+          "p": "Where do you check post time?",
+          "m": "Viết 1 câu nói nơi bạn kiểm tra thời gian (phone).",
+          "h": "S + V + on + N",
+          "s": "I check time on my phone."
+        }
+      ]
+    },
+    {
+      "t": "Mục tiêu trang",
+      "e": [
+        {
+          "p": "What is your page goal?",
+          "m": "Viết 1 câu cho biết mục tiêu nhỏ (share photo).",
+          "h": "S + be + N",
+          "s": "My page goal is to share photos."
+        },
+        {
+          "p": "Do you want more likes?",
+          "m": "Viết 1 câu trả lời có/không.",
+          "h": "Do + S + V? -> Yes/No + S + V",
+          "s": "Yes, I want more likes."
+        },
+        {
+          "p": "How many followers do you want?",
+          "m": "Viết 1 câu cho biết số bạn muốn.",
+          "h": "I want + number + followers",
+          "s": "I want fifty followers."
+        },
+        {
+          "p": "Can you reach this goal?",
+          "m": "Viết 1 câu nói bạn có thể hay không.",
+          "h": "S + can/can't + V",
+          "s": "I can reach this goal."
+        },
+        {
+          "p": "Who helps you reach the goal?",
+          "m": "Viết 1 câu cho biết ai giúp bạn.",
+          "h": "S + V + O",
+          "s": "My friend helps me."
+        }
+      ]
+    },
+    {
+      "t": "Ai quản lý trang?",
+      "e": [
+        {
+          "p": "Who manages the page?",
+          "m": "Viết 1 câu cho biết người quản lý (I, friend).",
+          "h": "Who + V + N? -> S + V",
+          "s": "I manage the page."
+        },
+        {
+          "p": "Does your friend help?",
+          "m": "Viết 1 câu trả lời có/không.",
+          "h": "Does + S + V? -> Yes/No + S + V",
+          "s": "Yes, my friend helps."
+        },
+        {
+          "p": "What can helpers do?",
+          "m": "Viết 1 câu nêu 1 việc họ làm (post).",
+          "h": "S + can + V",
+          "s": "They can post photos."
+        },
+        {
+          "p": "Can your family see the page?",
+          "m": "Viết 1 câu trả lời có/không.",
+          "h": "S + can/can't + V",
+          "s": "Yes, my family can see the page."
+        },
+        {
+          "p": "Where do helpers work?",
+          "m": "Viết 1 câu cho biết nơi họ làm (home).",
+          "h": "S + V + at + place",
+          "s": "They work at home."
+        }
+      ]
+    },
+    {
+      "t": "Phản hồi đơn giản",
+      "e": [
+        {
+          "p": "Nice post!",
+          "m": "Viết 1 câu trả lời cảm ơn.",
+          "h": "Thank you.",
+          "s": "Thank you."
+        },
+        {
+          "p": "Where is this photo from?",
+          "m": "Viết 1 câu nói nơi ảnh.",
+          "h": "It + be + from + place",
+          "s": "It is from the park."
+        },
+        {
+          "p": "Can you share tips?",
+          "m": "Viết 1 câu nói bạn có thể hay không.",
+          "h": "S + can/can't + V",
+          "s": "I can share one tip."
+        },
+        {
+          "p": "Do you post every day?",
+          "m": "Viết 1 câu trả lời có/không.",
+          "h": "Do + S + V? -> Yes/No + S + V",
+          "s": "Yes, I post every day."
+        },
+        {
+          "p": "Who creates the posts?",
+          "m": "Viết 1 câu cho biết ai tạo bài.",
+          "h": "Who + V? -> S + V",
+          "s": "My friend creates the posts."
+        }
+      ]
+    },
+    {
+      "t": "Yêu cầu giúp đỡ",
+      "e": [
+        {
+          "p": "I need help with my post. Can you help?",
+          "m": "Viết 1 câu nói bạn có thể giúp hay không.",
+          "h": "S + can/can't + V",
+          "s": "I can help you."
+        },
+        {
+          "p": "How do I post a photo?",
+          "m": "Viết 1 câu nêu cách ngắn (from phone).",
+          "h": "You + V + from + N",
+          "s": "You post from your phone."
+        },
+        {
+          "p": "Do you edit photos?",
+          "m": "Viết 1 câu trả lời có/không.",
+          "h": "Do + S + V? -> Yes/No + S + V",
+          "s": "No, I don't edit photos."
+        },
+        {
+          "p": "Can you write a short caption?",
+          "m": "Viết 1 câu nói bạn có thể hay không.",
+          "h": "S + can/can't + V",
+          "s": "I can write a short caption."
+        },
+        {
+          "p": "Where can I get an image?",
+          "m": "Viết 1 câu cho biết nơi lấy ảnh.",
+          "h": "I + get + N + from + N",
+          "s": "I get an image from my phone."
+        }
+      ]
+    },
+    {
+      "t": "Sử dụng hình ảnh và video",
+      "e": [
+        {
+          "p": "Do you use images?",
+          "m": "Viết 1 câu trả lời có/không.",
+          "h": "Do + S + V? -> Yes/No + S + V",
+          "s": "Yes, I use images."
+        },
+        {
+          "p": "Are videos long?",
+          "m": "Viết 1 câu trả lời có/không.",
+          "h": "S + be + Adj",
+          "s": "No, videos are short."
+        },
+        {
+          "p": "What is in your photo?",
+          "m": "Viết 1 câu mô tả 1 vật trong ảnh (food, dog).",
+          "h": "There is + N",
+          "s": "There is a dog in my photo."
+        },
+        {
+          "p": "Can you make a video with music?",
+          "m": "Viết 1 câu nói bạn có thể hay không.",
+          "h": "S + can/can't + V",
+          "s": "I can make a video with music."
+        },
+        {
+          "p": "Where do you save images?",
+          "m": "Viết 1 câu nói nơi bạn lưu ảnh (phone).",
+          "h": "S + V + on/in + N",
+          "s": "I save images on my phone."
+        }
+      ]
+    },
+    {
+      "t": "Kế hoạch tuần",
+      "e": [
+        {
+          "p": "Do you have a weekly plan?",
+          "m": "Viết 1 câu trả lời có/không.",
+          "h": "Do/Does -> Yes/No + S + V",
+          "s": "Yes, I have a weekly plan."
+        },
+        {
+          "p": "What do you plan for Monday?",
+          "m": "Viết 1 câu cho biết nội dung cho thứ Hai.",
+          "h": "I plan + N",
+          "s": "I plan a photo for Monday."
+        },
+        {
+          "p": "How many posts this week?",
+          "m": "Viết 1 câu cho biết số bài trong tuần.",
+          "h": "I post + number + times this week",
+          "s": "I post three times this week."
+        },
+        {
+          "p": "Can you change the plan?",
+          "m": "Viết 1 câu nói bạn có thể hay không.",
+          "h": "S + can/can't + V",
+          "s": "I can change the plan."
+        },
+        {
+          "p": "Where do you write the plan?",
+          "m": "Viết 1 câu cho biết nơi bạn ghi kế hoạch (notes).",
+          "h": "S + V + in/on + N",
+          "s": "I write the plan in my notes."
+        }
+      ]
+    },
+    {
+      "t": "Ôn tập: Giới thiệu và lịch",
+      "e": [
+        {
+          "p": "What's your page name?",
+          "m": "Viết 1 câu cho biết tên trang.",
+          "h": "S + be + N",
+          "s": "My page is FoodPage."
+        },
+        {
+          "p": "Do you post on Friday?",
+          "m": "Viết 1 câu trả lời có/không.",
+          "h": "Do + S + V? -> Yes/No + S + V",
+          "s": "No, I don't post on Friday."
+        },
+        {
+          "p": "What type of post do you like?",
+          "m": "Viết 1 câu cho biết 1 loại bạn thích.",
+          "h": "S + V + N",
+          "s": "I like photo posts."
+        },
+        {
+          "p": "Who likes your posts?",
+          "m": "Viết 1 câu cho biết ai thích bài của bạn.",
+          "h": "Who + V? -> S + V",
+          "s": "My family likes my posts."
+        },
+        {
+          "p": "Can you post three times a week?",
+          "m": "Viết 1 câu nói bạn có thể hay không.",
+          "h": "S + can/can't + V",
+          "s": "I can post three times a week."
+        }
+      ]
+    },
+    {
+      "t": "Ôn tập: Nội dung và loại bài",
+      "e": [
+        {
+          "p": "Do you use video or photo?",
+          "m": "Viết 1 câu nêu 1 loại bạn dùng.",
+          "h": "I use + N",
+          "s": "I use photos."
+        },
+        {
+          "p": "Are your captions long?",
+          "m": "Viết 1 câu trả lời có/không.",
+          "h": "S + be + Adj",
+          "s": "No, my captions are short."
+        },
+        {
+          "p": "Where do you get ideas?",
+          "m": "Viết 1 câu nói nguồn ý tưởng.",
+          "h": "I get ideas from + N",
+          "s": "I get ideas from home."
+        },
+        {
+          "p": "Do you post a story?",
+          "m": "Viết 1 câu trả lời có/không.",
+          "h": "Do + S + V? -> Yes/No + S + V",
+          "s": "No, I don't post a story."
+        },
+        {
+          "p": "Can you add music to a video?",
+          "m": "Viết 1 câu nói bạn có thể hay không.",
+          "h": "S + can/can't + V",
+          "s": "I can add music to a video."
+        }
+      ]
+    },
+    {
+      "t": "Ôn tập: Tương tác và mục tiêu",
+      "e": [
+        {
+          "p": "What is your page goal?",
+          "m": "Viết 1 câu cho biết mục tiêu trang.",
+          "h": "S + be + N",
+          "s": "My page goal is to get likes."
+        },
+        {
+          "p": "Do you reply to comments?",
+          "m": "Viết 1 câu trả lời có/không.",
+          "h": "Do + S + V? -> Yes/No + S + V",
+          "s": "Yes, I reply to comments."
+        },
+        {
+          "p": "Who helps you with the page?",
+          "m": "Viết 1 câu cho biết ai giúp bạn.",
+          "h": "S + V + O",
+          "s": "My friend helps me with the page."
+        },
+        {
+          "p": "How many followers do you have?",
+          "m": "Viết 1 câu cho biết số followers.",
+          "h": "I have + number + followers",
+          "s": "I have twenty followers."
+        },
+        {
+          "p": "Can you make a plan for the week?",
+          "m": "Viết 1 câu nói bạn có thể hay không.",
+          "h": "S + can/can't + V",
+          "s": "I can make a plan for the week."
+        }
+      ]
+    }
+  ]
+}

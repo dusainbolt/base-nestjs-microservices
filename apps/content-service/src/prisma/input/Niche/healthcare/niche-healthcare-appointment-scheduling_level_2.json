@@ -1,0 +1,565 @@
+{
+  "l": 2,
+  "d": [
+    {
+      "t": "Đặt lịch khám lần đầu",
+      "e": [
+        {
+          "p": "How can I help you?",
+          "m": "Nói bạn cần đặt lịch khám. Nói ngày hoặc buổi bạn muốn.",
+          "h": "Dùng 'I need/want' và 'on/this morning/afternoon'.",
+          "s": "I need to make an appointment. I want it on Monday morning."
+        },
+        {
+          "p": "What time do you prefer?",
+          "m": "Chọn một khung giờ cụ thể. Nói nếu bạn thích sáng hay chiều.",
+          "h": "Dùng số giờ + 'AM/PM' và 'I prefer' hoặc 'I like'.",
+          "s": "I prefer 9 AM. I like mornings."
+        },
+        {
+          "p": "Who is the appointment for?",
+          "m": "Nói tên người đến khám. Nói tuổi hoặc 'for myself'.",
+          "h": "Dùng 'It is for me' hoặc 'It is for [name]'.",
+          "s": "It is for me, [studentName]. I am [studentAge] years old."
+        },
+        {
+          "p": "Do you have any health problems now?",
+          "m": "Nói một triệu chứng ngắn nếu có. Nếu không, nói 'no'.",
+          "h": "Dùng 'I have' hoặc 'No, I don't'.",
+          "s": "I have a cough. I also feel tired."
+        },
+        {
+          "p": "We have 9 AM or 2 PM tomorrow. Which one works?",
+          "m": "Chọn một trong hai giờ. Xác nhận bạn sẽ đến đúng giờ.",
+          "h": "Dùng '9 AM is fine' và 'I will' + động từ.",
+          "s": "9 AM is fine. I will come on time."
+        }
+      ]
+    },
+    {
+      "t": "Xác nhận giờ hẹn qua điện thoại",
+      "e": [
+        {
+          "p": "This is a reminder call for your appointment.",
+          "m": "Xác nhận bạn có đến hẹn không. Nói nếu bạn sẽ đến hoặc không.",
+          "h": "Dùng 'I will' hoặc 'I cannot / I can't'.",
+          "s": "I will come to the appointment. I will arrive at 9 AM."
+        },
+        {
+          "p": "Your appointment is on Friday at 3 PM. Is that correct?",
+          "m": "Xác nhận ngày và giờ. Sửa nếu cần giờ khác.",
+          "h": "Dùng 'Yes, that's correct' hoặc 'No, it is on...'.",
+          "s": "Yes, that is correct. I will be there at 3 PM."
+        },
+        {
+          "p": "Can you come 30 minutes earlier?",
+          "m": "Nói bạn có thể đến sớm không. Nếu không, đề xuất thời gian khác.",
+          "h": "Dùng 'I can' / 'I can't' và 'I can come at...'.",
+          "s": "I can't come 30 minutes earlier. I can come at 3 PM."
+        },
+        {
+          "p": "Do you need a phone reminder the day before?",
+          "m": "Nói bạn muốn nhận lời nhắc hay không. Nói cách nhận (call/text).",
+          "h": "Dùng 'Yes, please' + 'by call/text' hoặc 'No, thanks'.",
+          "s": "Yes, please, I want a text. I usually read messages."
+        },
+        {
+          "p": "Please confirm your full name.",
+          "m": "Nói rõ tên đầy đủ. Lặp lại ngày giờ hẹn để xác nhận.",
+          "h": "Dùng 'My name is...' và 'My appointment is on...'.",
+          "s": "My name is [studentName]. My appointment is on Friday at 3 PM."
+        }
+      ]
+    },
+    {
+      "t": "Hẹn khám định kỳ",
+      "e": [
+        {
+          "p": "Do you want a regular check-up?",
+          "m": "Nói bạn muốn khám định kỳ hay không. Nói tần suất (every week/month).",
+          "h": "Dùng 'I want' và 'every + time'.",
+          "s": "I want a regular check-up. I want it every six months."
+        },
+        {
+          "p": "Which day of the week is best for you?",
+          "m": "Chọn một ngày trong tuần. Nói sáng hay chiều nếu cần.",
+          "h": "Dùng 'on Monday/Tuesday' và 'in the morning/in the afternoon'.",
+          "s": "On Tuesday is best. I prefer the afternoon."
+        },
+        {
+          "p": "Do you see the same doctor every time?",
+          "m": "Nói có hay không. Nếu có, nói tên bác sĩ hoặc 'the same doctor'.",
+          "h": "Dùng 'Yes, I usually see' hoặc 'No, I don't'.",
+          "s": "Yes, I usually see the same doctor. I like her."
+        },
+        {
+          "p": "We can set an appointment now for next month.",
+          "m": "Chấp nhận hoặc yêu cầu thay đổi. Nếu thay đổi, nêu lý do ngắn.",
+          "h": "Dùng 'Okay, set it' hoặc 'Can we change because...'.",
+          "s": "Okay, set it for next month. I will be free then."
+        },
+        {
+          "p": "Do you have any medicine now that we should note?",
+          "m": "Nói tên thuốc nếu có. Nói bạn dùng thường xuyên hay không.",
+          "h": "Dùng 'I take' và 'every day/sometimes'.",
+          "s": "I take one medicine for my heart. I take it every day."
+        }
+      ]
+    },
+    {
+      "t": "Hỏi lý do và triệu chứng ngắn",
+      "e": [
+        {
+          "p": "What is the reason for your visit?",
+          "m": "Nói một lý do ngắn (check-up, cough...). Nói thời gian bạn bị triệu chứng.",
+          "h": "Dùng 'I have' hoặc 'I need' và 'for + time'.",
+          "s": "I have a cough. I have had it for three days."
+        },
+        {
+          "p": "Is the problem getting better or worse?",
+          "m": "Nói tình trạng: tốt hơn hay xấu hơn. Nói một mô tả ngắn.",
+          "h": "Dùng 'It is getting better/worse' và 'because...'.",
+          "s": "It is getting worse. I sleep less and I feel tired."
+        },
+        {
+          "p": "Do you have a fever now?",
+          "m": "Trả lời có hoặc không. Nếu có, cho biết số hoặc 'a high fever'.",
+          "h": "Dùng 'Yes, I have' hoặc 'No, I don't'.",
+          "s": "No, I don't have a fever now. I only have a slight cough."
+        },
+        {
+          "p": "Are you taking any medicine for this?",
+          "m": "Nói bạn có dùng thuốc không. Nếu có, nói tên thuốc ngắn.",
+          "h": "Dùng 'I am taking' hoặc 'No, I am not'.",
+          "s": "I am taking a cough syrup. I take it twice a day."
+        },
+        {
+          "p": "Do you have allergies we should know?",
+          "m": "Nói có hay không. Nếu có, liệt kê 1-2 vật gây dị ứng.",
+          "h": "Dùng 'I am allergic to...' và 'and'.",
+          "s": "I am allergic to penicillin. I am also allergic to dust."
+        }
+      ]
+    },
+    {
+      "t": "Hỏi về giấy tờ cần mang",
+      "e": [
+        {
+          "p": "What documents do I need to bring?",
+          "m": "Hỏi loại giấy tờ cần mang. Hỏi có cần bảo hiểm hay không.",
+          "h": "Dùng 'Do I need to bring...' và 'Do I need insurance?'.",
+          "s": "You need to bring your ID. You also need to bring your insurance card."
+        },
+        {
+          "p": "Do I need to bring past test results?",
+          "m": "Hỏi có cần mang kết quả cũ không. Nếu có, nói loại kết quả.",
+          "h": "Dùng 'Yes/No' và 'test results' hoặc 'blood test'.",
+          "s": "Yes, please bring past test results. Bring any blood test or X-ray."
+        },
+        {
+          "p": "Can I bring a family member?",
+          "m": "Hỏi có thể đi cùng người thân không. Nói nếu cần giúp ghi chép hay dịch.",
+          "h": "Dùng 'Can I' và 'to help with...'.",
+          "s": "Yes, you can bring a family member. They can help with notes."
+        },
+        {
+          "p": "Do I need a referral from my doctor?",
+          "m": "Hỏi có cần giấy giới thiệu không. Nếu cần, hỏi ai viết giấy đó.",
+          "h": "Dùng 'Do I need' và 'from my doctor'.",
+          "s": "Yes, you need a referral. Ask your family doctor to write it."
+        },
+        {
+          "p": "Is a photo ID enough?",
+          "m": "Hỏi ID ảnh có đủ không. Nếu không, hỏi cần thêm gì.",
+          "h": "Dùng 'Is ... enough' và 'or do I need...'.",
+          "s": "A photo ID is enough for registration. You also need your insurance card."
+        }
+      ]
+    },
+    {
+      "t": "Hướng dẫn trước khi xét nghiệm",
+      "e": [
+        {
+          "p": "Please fast for 8 hours before the test.",
+          "m": "Xác nhận bạn có thể nhịn ăn không. Nói nếu bạn cần thuốc sáng.",
+          "h": "Dùng 'I can' / 'I can't' và 'I take medicine'.",
+          "s": "I can fast for 8 hours. I take my medicine with water."
+        },
+        {
+          "p": "Avoid coffee and soda before the test.",
+          "m": "Nói bạn có uống đồ uống đó không. Nếu có, nói khi dừng uống.",
+          "h": "Dùng 'I don't drink' hoặc 'I will stop at...'.",
+          "s": "I don't drink coffee today. I stopped this morning."
+        },
+        {
+          "p": "Wear loose clothes for the exam.",
+          "m": "Nói bạn sẽ mặc gì. Nói bạn có cần giúp thay đồ không.",
+          "h": "Dùng 'I will wear' và 'Do I need help?'.",
+          "s": "I will wear loose clothes. I don't need help to change."
+        },
+        {
+          "p": "Do you need to stop your medicine?",
+          "m": "Hỏi nếu bạn phải dừng thuốc. Nói bạn sẽ làm theo hay hỏi bác sĩ.",
+          "h": "Dùng 'I will' hoặc 'I need to ask the doctor'.",
+          "s": "I need to ask the doctor about my medicine. I will call before the test."
+        },
+        {
+          "p": "Please arrive 15 minutes earlier for paperwork.",
+          "m": "Xác nhận bạn sẽ đến sớm hay không. Nói nếu bạn cần thời gian thêm.",
+          "h": "Dùng 'I will arrive' và 'I need more time'.",
+          "s": "I will arrive 15 minutes early. I do not need more time."
+        }
+      ]
+    },
+    {
+      "t": "Nhắc lịch qua tin nhắn",
+      "e": [
+        {
+          "p": "You have an appointment tomorrow at 10 AM.",
+          "m": "Xác nhận bạn nhận tin nhắn. Nói bạn sẽ đến hay không.",
+          "h": "Dùng 'I will' hoặc 'I won't'.",
+          "s": "I got the message. I will come tomorrow at 10 AM."
+        },
+        {
+          "p": "Reply YES to confirm or NO to cancel.",
+          "m": "Trả lời có hoặc không. Nếu không, nói lý do ngắn.",
+          "h": "Dùng 'Yes' hoặc 'No, because...'.",
+          "s": "Yes, I confirm my appointment. I will be there on time."
+        },
+        {
+          "p": "Do you want a reminder two hours before?",
+          "m": "Nói bạn muốn nhắc trước 2 giờ hay không. Nói cách nhận (call/text).",
+          "h": "Dùng 'Yes, please' + 'by text' hoặc 'No, thanks'.",
+          "s": "Yes, please send a text two hours before. I usually read texts quickly."
+        },
+        {
+          "p": "Change time? Reply with a new time.",
+          "m": "Nếu muốn đổi, nêu giờ mới. Nếu không, xác nhận giờ hiện tại.",
+          "h": "Dùng 'Change to 2 PM' hoặc 'Keep 10 AM'.",
+          "s": "Change to 2 PM, please. I cannot come at 10 AM."
+        },
+        {
+          "p": "You can check-in via our app when you arrive.",
+          "m": "Nói bạn có dùng app để check-in không. Nói bạn sẽ đến quầy nếu không dùng app.",
+          "h": "Dùng 'I will' hoặc 'I will go to the desk'.",
+          "s": "I will use the app to check in. If not, I will go to the desk."
+        }
+      ]
+    },
+    {
+      "t": "Tới quầy đăng ký",
+      "e": [
+        {
+          "p": "Welcome, do you have an appointment?",
+          "m": "Trả lời có hoặc không. Nếu có, cho biết tên hoặc giờ hẹn.",
+          "h": "Dùng 'Yes, I have' và 'My name is...'.",
+          "s": "Yes, I have an appointment. My name is [studentName]."
+        },
+        {
+          "p": "Please fill this form and sign here.",
+          "m": "Xác nhận bạn sẽ điền và ký. Nói nếu bạn cần giúp.",
+          "h": "Dùng 'I will' và 'I need help'.",
+          "s": "I will fill the form and sign. I don't need help."
+        },
+        {
+          "p": "Do you have your insurance card?",
+          "m": "Nói có hay không. Nếu có, đưa thẻ hoặc nói sẽ gửi sau.",
+          "h": "Dùng 'Yes, here it is' hoặc 'No, I will bring it later'.",
+          "s": "Yes, here is my insurance card. I also have my ID."
+        },
+        {
+          "p": "Please wait in room 2. The doctor is running late.",
+          "m": "Hỏi bạn có muốn đợi hay hẹn lại lịch. Nếu đợi, xác nhận bạn chờ.",
+          "h": "Dùng 'I will wait' hoặc 'Can we reschedule?'.",
+          "s": "I will wait in room 2. I don't want to reschedule."
+        },
+        {
+          "p": "We need a signature for consent.",
+          "m": "Xác nhận bạn sẽ ký hay không. Nói nếu bạn muốn đọc trước.",
+          "h": "Dùng 'I will sign' hoặc 'I want to read it first'.",
+          "s": "I will sign the form. I read it already."
+        }
+      ]
+    },
+    {
+      "t": "Hủy và dời lịch",
+      "e": [
+        {
+          "p": "Do you want to cancel your appointment?",
+          "m": "Trả lời có hoặc không. Nếu có, nói lý do ngắn.",
+          "h": "Dùng 'Yes, I want to cancel because...' hoặc 'No'.",
+          "s": "Yes, I want to cancel my appointment. I am sick today."
+        },
+        {
+          "p": "Would you like to reschedule instead?",
+          "m": "Nói bạn muốn dời không. Nếu có, đề xuất ngày mới.",
+          "h": "Dùng 'Yes, please' và 'on + day' hoặc 'No, thanks'.",
+          "s": "Yes, please reschedule. I want it on next Tuesday."
+        },
+        {
+          "p": "We can move it to next week at 10 AM.",
+          "m": "Chấp nhận hoặc đề xuất giờ khác. Nói bạn sẽ đến đúng giờ.",
+          "h": "Dùng '10 AM is fine' hoặc 'Can we do...' và 'I will'.",
+          "s": "10 AM next week is fine. I will be there on time."
+        },
+        {
+          "p": "Do you need a written confirmation of the change?",
+          "m": "Nói bạn có cần xác nhận viết không. Nếu có, cho biết cách nhận (email/text).",
+          "h": "Dùng 'Yes, please by...' hoặc 'No, thanks'.",
+          "s": "Yes, please send an email confirmation. I check my email often."
+        },
+        {
+          "p": "If you cancel late, there is a small fee.",
+          "m": "Xác nhận bạn hiểu về phí hay hỏi mức phí. Nếu hỏi, yêu cầu số tiền.",
+          "h": "Dùng 'I understand' hoặc 'How much is the fee?'.",
+          "s": "I understand the late fee. How much is the fee?"
+        }
+      ]
+    },
+    {
+      "t": "Hỏi về chi phí và thanh toán",
+      "e": [
+        {
+          "p": "How much is the consultation fee?",
+          "m": "Hỏi số tiền cho buổi khám. Nói bạn có bảo hiểm hay không.",
+          "h": "Dùng 'How much' và 'I have / I don't have insurance'.",
+          "s": "How much is the consultation fee? I have insurance."
+        },
+        {
+          "p": "Do you accept cash or card?",
+          "m": "Hỏi phương thức thanh toán. Nói bạn sẽ trả bằng cách nào.",
+          "h": "Dùng 'I will pay by...' hoặc 'Do you accept...'.",
+          "s": "I will pay by card. Do you accept debit cards?"
+        },
+        {
+          "p": "Insurance covers part of the test.",
+          "m": "Hỏi bảo hiểm của bạn có trả hay không. Nói bạn cần biết phần phải trả.",
+          "h": "Dùng 'Does my insurance cover...' và 'How much do I pay?'.",
+          "s": "Does my insurance cover the test? How much do I have to pay?"
+        },
+        {
+          "p": "You need to pay a co-pay at the desk.",
+          "m": "Xác nhận bạn sẽ trả co-pay. Nói nếu bạn cần hóa đơn.",
+          "h": "Dùng 'I will pay' và 'I need a receipt'.",
+          "s": "I will pay the co-pay at the desk. I need a receipt, please."
+        },
+        {
+          "p": "We can give a simple cost estimate now.",
+          "m": "Yêu cầu ước tính chi phí. Nói bạn chấp nhận ước tính hay muốn chính xác.",
+          "h": "Dùng 'Please estimate' và 'I accept' hoặc 'I want exact'.",
+          "s": "Please give a simple cost estimate. I accept the estimate."
+        }
+      ]
+    },
+    {
+      "t": "Hỏi bác sĩ cụ thể",
+      "e": [
+        {
+          "p": "Do you want to see Dr. Tran or any doctor?",
+          "m": "Chọn bác sĩ cụ thể hay không. Nếu có, nói tên bác sĩ.",
+          "h": "Dùng 'I want to see Dr. ...' hoặc 'Any doctor is fine'.",
+          "s": "I want to see Dr. Tran. I like her care."
+        },
+        {
+          "p": "Dr. Lin is available in the afternoon.",
+          "m": "Hỏi bạn có thể vào buổi chiều không. Nói nếu bạn ưu tiên sáng hay chiều.",
+          "h": "Dùng 'I can' / 'I prefer'.",
+          "s": "I can come in the afternoon. I prefer the afternoon."
+        },
+        {
+          "p": "Do you prefer a male or female doctor?",
+          "m": "Nói bạn thích bác sĩ nam hay nữ hay không quan trọng. Nói lý do ngắn nếu có.",
+          "h": "Dùng 'I prefer a female/male doctor' hoặc 'No preference'.",
+          "s": "I prefer a female doctor. She makes me feel calm."
+        },
+        {
+          "p": "Dr. Nguyen usually sees patients quickly.",
+          "m": "Hỏi bạn có muốn xếp với bác sĩ đó không. Nói nếu bạn muốn chờ lâu.",
+          "h": "Dùng 'Yes, I want' hoặc 'No, I don't want to wait'.",
+          "s": "Yes, I want to see Dr. Nguyen. I don't mind waiting."
+        },
+        {
+          "p": "The specialist needs a referral first.",
+          "m": "Hỏi bạn có giấy giới thiệu không. Nói bạn sẽ xin hay không.",
+          "h": "Dùng 'I will get' hoặc 'I don't have'.",
+          "s": "I don't have a referral now. I will get one from my doctor."
+        }
+      ]
+    },
+    {
+      "t": "Hỏi đường đến phòng khám",
+      "e": [
+        {
+          "p": "How do I get to the clinic from the station?",
+          "m": "Hỏi cách đi từ ga đến phòng khám. Nói bạn đi bộ hay đi xe.",
+          "h": "Dùng 'I will walk' hoặc 'I will take a taxi'.",
+          "s": "I will walk from the station. It is near the big park."
+        },
+        {
+          "p": "Are there parking spaces for patients?",
+          "m": "Hỏi có chỗ đậu xe không. Nói bạn sẽ lái xe hay đi xe công cộng.",
+          "h": "Dùng 'Is there' và 'I will drive / I will take bus'.",
+          "s": "Is there parking for patients? I will drive my car."
+        },
+        {
+          "p": "Turn left at the bakery, then go straight 200 meters.",
+          "m": "Xác nhận bạn hiểu đường hay hỏi chỗ dễ tìm. Nếu lạ, hỏi điểm mốc.",
+          "h": "Dùng 'I understand' hoặc 'What is a landmark?'.",
+          "s": "I understand the directions. The bakery is an easy landmark."
+        },
+        {
+          "p": "The clinic is on the second floor without an elevator.",
+          "m": "Hỏi bạn có thể leo cầu thang không. Nói nếu cần giúp hoặc muốn phòng ở tầng trệt.",
+          "h": "Dùng 'I can' / 'I need help' và 'a ground floor room'.",
+          "s": "I can climb stairs. I don't need a ground floor room."
+        },
+        {
+          "p": "Do you need a map sent to your phone?",
+          "m": "Nói bạn có muốn nhận bản đồ qua điện thoại không. Nói nếu nhận bằng email hay text.",
+          "h": "Dùng 'Yes, send by...' hoặc 'No, thanks'.",
+          "s": "Yes, send the map to my phone by text. I will check it."
+        }
+      ]
+    },
+    {
+      "t": "Khi bạn đến sớm hoặc trễ",
+      "e": [
+        {
+          "p": "You arrived 30 minutes early. Please wait in the lobby.",
+          "m": "Xác nhận bạn sẽ đợi hay muốn đến sớm hơn để làm gì. Nói nếu bạn muốn lấy số.",
+          "h": "Dùng 'I will wait' hoặc 'I want to get a number'.",
+          "s": "I will wait in the lobby. I want to take a queue number."
+        },
+        {
+          "p": "You are 15 minutes late. Can we still see you?",
+          "m": "Trả lời bạn có thể vào khám không. Nếu không, hỏi dời lịch.",
+          "h": "Dùng 'Yes, I can' hoặc 'No, can we reschedule?'.",
+          "s": "Yes, I can still be seen. If not, can we reschedule?"
+        },
+        {
+          "p": "If you are late, we may shorten the visit.",
+          "m": "Xác nhận bạn hiểu việc khám có thể ngắn hơn. Nói bạn chấp nhận hay muốn hẹn khác.",
+          "h": "Dùng 'I understand' hoặc 'I want to reschedule'.",
+          "s": "I understand the visit may be short. I accept a short visit."
+        },
+        {
+          "p": "Please check in at the desk if you are early.",
+          "m": "Nói bạn sẽ làm thủ tục hay ngồi đợi. Nói nếu cần giúp để làm thủ tục.",
+          "h": "Dùng 'I will check in' và 'I need help' nếu cần.",
+          "s": "I will check in at the desk. I don't need help with the forms."
+        },
+        {
+          "p": "We can give you a new slot in two hours.",
+          "m": "Chấp nhận slot mới hay hỏi ngày khác. Nói bạn sẽ đợi hay hẹn lại.",
+          "h": "Dùng 'I will take' hoặc 'Can we do another day?'.",
+          "s": "I will take the slot in two hours. I can wait."
+        }
+      ]
+    },
+    {
+      "t": "Ôn tập: Đặt và xác nhận lịch",
+      "e": [
+        {
+          "p": "Hello, do you want to book an appointment?",
+          "m": "Nói bạn muốn đặt lịch hay không. Nói ngày và buổi bạn chọn.",
+          "h": "Dùng 'I want' và 'on + day / in the morning'.",
+          "s": "I want to book an appointment. I want it on Wednesday morning."
+        },
+        {
+          "p": "We have 10 AM, 1 PM, or 4 PM. Which do you prefer?",
+          "m": "Chọn một giờ. Xác nhận bạn sẽ đến giờ đó.",
+          "h": "Dùng 'I prefer' và 'I will come'.",
+          "s": "I prefer 1 PM. I will come at 1 PM."
+        },
+        {
+          "p": "Do you need a reminder call one day before?",
+          "m": "Nói có hoặc không. Nếu có, nói cách nhận (call/text).",
+          "h": "Dùng 'Yes, by...' hoặc 'No, thanks'.",
+          "s": "Yes, please call me one day before. I usually answer calls."
+        },
+        {
+          "p": "Can you give your name and age to confirm?",
+          "m": "Nói tên đầy đủ. Nói tuổi.",
+          "h": "Dùng 'My name is...' và 'I am ... years old'.",
+          "s": "My name is [studentName]. I am [studentAge] years old."
+        },
+        {
+          "p": "Please arrive 10 minutes early to fill forms.",
+          "m": "Xác nhận bạn sẽ đến sớm. Nói nếu bạn cần gửi thông tin trước.",
+          "h": "Dùng 'I will arrive' và 'Can I send info?'.",
+          "s": "I will arrive 10 minutes early. Can I send my information before?"
+        }
+      ]
+    },
+    {
+      "t": "Ôn tập: Thay đổi và hủy lịch",
+      "e": [
+        {
+          "p": "Do you want to change your appointment time?",
+          "m": "Nói bạn muốn đổi giờ hay không. Nếu có, đề xuất giờ mới.",
+          "h": "Dùng 'I want to change to...' hoặc 'No, I don't'.",
+          "s": "Yes, I want to change to 2 PM. I cannot come at the old time."
+        },
+        {
+          "p": "If you cancel less than 24 hours, there is a fee.",
+          "m": "Hỏi bạn có hiểu về phí không. Nói bạn chấp nhận hay muốn hẹn lại.",
+          "h": "Dùng 'I understand' hoặc 'Can I reschedule?'.",
+          "s": "I understand the late cancellation fee. Can I reschedule instead?"
+        },
+        {
+          "p": "We moved your slot to next Monday at 11 AM.",
+          "m": "Xác nhận bạn đồng ý slot mới hay muốn thời gian khác. Nói bạn sẽ đến.",
+          "h": "Dùng 'That's fine' hoặc 'Can we change it?'.",
+          "s": "That's fine, I agree with the new slot. I will come at 11 AM."
+        },
+        {
+          "p": "Do you want written confirmation of the change?",
+          "m": "Nói bạn muốn xác nhận viết hay không. Nói nhận bằng email hay text.",
+          "h": "Dùng 'Yes, please by...' hoặc 'No, thanks'.",
+          "s": "Yes, please send a text confirmation. I will keep it."
+        },
+        {
+          "p": "We can hold the appointment for 24 hours before cancel.",
+          "m": "Hỏi bạn có muốn giữ chỗ hay hủy ngay. Nói bạn sẽ giữ hay hủy.",
+          "h": "Dùng 'I will hold' hoặc 'I will cancel'.",
+          "s": "I will hold the appointment for 24 hours. I will decide soon."
+        }
+      ]
+    },
+    {
+      "t": "Ôn tập: Ngày khám - giấy tờ và chuẩn bị",
+      "e": [
+        {
+          "p": "On your visit day, bring ID and any test results.",
+          "m": "Xác nhận bạn sẽ mang ID và kết quả nếu có. Nói bạn cần in hay mang bản mềm.",
+          "h": "Dùng 'I will bring' và 'I will bring printed/soft copy'.",
+          "s": "I will bring my ID and past test results. I will bring printed copies."
+        },
+        {
+          "p": "Do you need to fast or stop medication?",
+          "m": "Xác nhận bạn cần nhịn ăn hay dừng thuốc. Nói bạn sẽ làm theo hay hỏi bác sĩ.",
+          "h": "Dùng 'I will fast' hoặc 'I need to ask the doctor'.",
+          "s": "I will fast for eight hours. I will ask the doctor about my medicine."
+        },
+        {
+          "p": "Please wear comfortable clothes for the check-up.",
+          "m": "Nói bạn sẽ mặc đồ thoải mái hay không. Nói nếu bạn cần đồ thay.",
+          "h": "Dùng 'I will wear' và 'I need a change of clothes'.",
+          "s": "I will wear comfortable clothes. I don't need a change of clothes."
+        },
+        {
+          "p": "You may need to pay a co-pay at the desk.",
+          "m": "Xác nhận bạn sẽ thanh toán hay hỏi phương thức. Nói bạn trả tiền mặt hay thẻ.",
+          "h": "Dùng 'I will pay' và 'by cash/card'.",
+          "s": "I will pay the co-pay at the desk. I will pay by card."
+        },
+        {
+          "p": "If you have questions, ask the nurse when you arrive.",
+          "m": "Nói bạn sẽ hỏi y tá khi đến hay không. Nói câu hỏi chính bạn muốn hỏi (1 câu ngắn).",
+          "h": "Dùng 'I will ask' và đặt câu hỏi ngắn.",
+          "s": "I will ask the nurse when I arrive. My question is about the test time."
+        }
+      ]
+    }
+  ]
+}

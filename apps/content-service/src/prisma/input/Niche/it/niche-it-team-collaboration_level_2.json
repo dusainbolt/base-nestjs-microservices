@@ -1,0 +1,530 @@
+{
+  "l": 2,
+  "d": [
+    {
+      "t": "Họp nhóm ngắn",
+      "e": [
+        {
+          "p": "What's your task now?",
+          "m": "Nói công việc bạn đang làm. Nói một từ về tiến độ (ví dụ: half/done/starting).",
+          "h": "S + be + V-ing. Hoặc S + V (present simple).",
+          "s": "I am writing the report. It is half done."
+        },
+        {
+          "p": "Any blockers for your task?",
+          "m": "Nói nếu bạn có vấn đề. Nếu có, nói vấn đề chính trong một cụm từ.",
+          "h": "S + have/has; short phrase for problem.",
+          "s": "I have a blocker. The test data is missing."
+        },
+        {
+          "p": "Can you finish this today?",
+          "m": "Trả lời có thể hay không. Nếu không, nêu thời gian bạn sẽ xong.",
+          "h": "S + can/can't + V; S + will/finish (or present continuous for near plan).",
+          "s": "I can't finish today. I will finish tomorrow."
+        },
+        {
+          "p": "Do you need help from someone?",
+          "m": "Nói bạn có cần giúp hay không. Nếu cần, nói ai hoặc việc gì bạn cần help.",
+          "h": "I need / I don't need + N / to V.",
+          "s": "I need help. I need a review from Anna."
+        },
+        {
+          "p": "How often do you update the report?",
+          "m": "Nói tần suất bạn cập nhật. Nói nơi bạn lưu file (ví dụ: drive, repo).",
+          "h": "Use adverbs of frequency + S + V(s/es). Use 'in/on/at' for location.",
+          "s": "I usually update it every morning. The file is on the team drive."
+        }
+      ]
+    },
+    {
+      "t": "Báo cáo công việc hàng ngày",
+      "e": [
+        {
+          "p": "What did you do this morning?",
+          "m": "Nói một việc bạn đã làm sáng nay. Nói một kết quả ngắn.",
+          "h": "Past not allowed—use present perfect style? Use simple past-like present simple: 'I finished...' allowed. Keep simple.",
+          "s": "I finished the task list. The report is ready."
+        },
+        {
+          "p": "Are you working on the bug now?",
+          "m": "Nói bạn có đang làm bug này không. Nêu bước tiếp theo bạn làm.",
+          "h": "S + be + V-ing; S + will + V or S + V (present).",
+          "s": "I am fixing the bug now. I will test it after."
+        },
+        {
+          "p": "How many tasks do you have today?",
+          "m": "Nói số lượng task bạn có. Nói công việc quan trọng nhất.",
+          "h": "There are + number + N. Or I have + number + tasks. Use 'The main task is ...'.",
+          "s": "I have three tasks today. The main task is writing tests."
+        },
+        {
+          "p": "Do you usually finish tasks on time?",
+          "m": "Nói tần suất bạn hoàn thành đúng hạn. Nói lý do ngắn nếu không luôn luôn đúng.",
+          "h": "Use adverb of frequency + S + V(s/es); short reason with 'because'.",
+          "s": "I usually finish on time. Sometimes I need more time because of bugs."
+        },
+        {
+          "p": "Where do you keep your notes?",
+          "m": "Nói nơi bạn lưu ghi chú. Nói nếu bạn chia sẻ với team hay không.",
+          "h": "S + V(s/es) + location; Use 'with' or 'on' for sharing.",
+          "s": "I keep notes on Google Drive. I share them with the team."
+        }
+      ]
+    },
+    {
+      "t": "Chia sẻ tiến độ task",
+      "e": [
+        {
+          "p": "How is the UI task going?",
+          "m": "Nói tiến độ ngắn (ví dụ: 20%, half, done). Nói bạn đang làm phần nào.",
+          "h": "S + be + V-ing; use simple percent words or 'half/done'.",
+          "s": "The UI task is half done. I am working on the buttons."
+        },
+        {
+          "p": "Who is testing your feature?",
+          "m": "Nói người kiểm thử (tên hoặc 'QA'). Nói khi họ sẽ test (ngày hoặc 'today/tomorrow').",
+          "h": "Use 'X is testing' or 'The QA will test'. Use time words.",
+          "s": "Anna is testing my feature. She will test it tomorrow."
+        },
+        {
+          "p": "Do you need more time for design?",
+          "m": "Trả lời có hoặc không. Nếu có, nêu thêm bao lâu bạn cần.",
+          "h": "Use can/can't or will + V for plan; use time expressions.",
+          "s": "I need more time. I need two more days."
+        },
+        {
+          "p": "Is the task blocking other work?",
+          "m": "Nói nếu task bạn làm gây cản trở người khác. Nếu có, nêu ai bị ảnh hưởng.",
+          "h": "S + is/are + V-ing or S + cause(s) + N; name person or role.",
+          "s": "Yes, it is blocking the QA. The QA cannot start tests."
+        },
+        {
+          "p": "Can you update the ticket now?",
+          "m": "Trả lời bạn có thể cập nhật hay không. Nói bạn sẽ viết gì ngắn (progress or note).",
+          "h": "S + can/can't + V; short noun phrase for note.",
+          "s": "I can update the ticket now. I will add the progress note."
+        }
+      ]
+    },
+    {
+      "t": "Nói về blockers",
+      "e": [
+        {
+          "p": "What is the main blocker?",
+          "m": "Nói vấn đề chính ngay. Nói một lý do ngắn cho vấn đề đó.",
+          "h": "Use 'The main blocker is ...' and 'because ...'.",
+          "s": "The main blocker is missing data. It is missing because the API is down."
+        },
+        {
+          "p": "Can you describe the error?",
+          "m": "Mô tả lỗi ngắn. Nói khi lỗi xảy ra (now / after deploy).",
+          "h": "S + V(s/es) + short description; use 'after' or 'now' for time.",
+          "s": "The app shows a blank page. It happens after the deploy."
+        },
+        {
+          "p": "Do you need third-party help?",
+          "m": "Nói bạn có cần người ngoài team hay không. Nếu cần, nêu ai hoặc bộ phận.",
+          "h": "I need / I don't need + N; name team or person.",
+          "s": "I need third-party help. I need support from the infra team."
+        },
+        {
+          "p": "How long will the blocker last?",
+          "m": "Ước tính thời gian ngắn. Nói bạn làm gì trong thời gian đó.",
+          "h": "Use 'about' + time or 'a few' + days. Use present continuous for action.",
+          "s": "The blocker will last about two days. I am working on a workaround."
+        },
+        {
+          "p": "Should we skip this feature now?",
+          "m": "Đưa ý kiến có nên bỏ qua hay không. Nếu nên, nêu lý do ngắn.",
+          "h": "Use 'Yes, we should' or 'No, we should not' + reason with because.",
+          "s": "Yes, we should skip it now. It delays the release."
+        }
+      ]
+    },
+    {
+      "t": "Phối hợp với đồng nghiệp",
+      "e": [
+        {
+          "p": "Can you pair with me on this?",
+          "m": "Trả lời bạn có thể pair hay không. Nếu có, nói khi nào ngắn (today/tomorrow).",
+          "h": "S + can/can't + V; use time words.",
+          "s": "I can pair with you. I am free tomorrow morning."
+        },
+        {
+          "p": "Who will review my code?",
+          "m": "Nói người review. Nói khi họ sẽ review (soon/today).",
+          "h": "Use 'X will review' or 'The reviewer is ...' + time.",
+          "s": "Anna will review your code. She will review it today."
+        },
+        {
+          "p": "Do you want me to join the call?",
+          "m": "Trả lời đồng ý hay không. Nếu đồng ý, nói bạn sẽ chuẩn bị gì ngắn.",
+          "h": "Use Yes/No + I will + V; short preparation phrase.",
+          "s": "Yes, I want you to join. I will prepare the slides."
+        },
+        {
+          "p": "Can we split the tasks?",
+          "m": "Nói bạn đồng ý hay không. Nếu đồng ý, đề xuất phần việc ngắn cho bạn.",
+          "h": "Use I agree/I don't agree; then 'I will do ...' or 'I can take ...'.",
+          "s": "I agree to split the tasks. I can take the frontend part."
+        },
+        {
+          "p": "How do we share progress?",
+          "m": "Nói cách bạn muốn chia sẻ (chat/email/meeting). Nói tần suất ngắn.",
+          "h": "Use 'We share on ...' and 'every/usually/...'.",
+          "s": "We share progress on Slack. We update it every morning."
+        }
+      ]
+    },
+    {
+      "t": "Yêu cầu giúp đỡ",
+      "e": [
+        {
+          "p": "I need help with the test. Can you assist?",
+          "m": "Trả lời bạn có thể giúp hay không. Nếu có, nói bạn sẽ làm gì ngắn.",
+          "h": "Use I can/I can't + V; short verb phrase for action.",
+          "s": "I can assist with the test. I will write one test case."
+        },
+        {
+          "p": "What exact help do you need?",
+          "m": "Nói việc cụ thể bạn cần help. Nói bạn muốn ai giúp (tên hoặc role).",
+          "h": "Use 'I need help with ...' and 'Please ask ...' or 'from ...'.",
+          "s": "I need help with the API call. Please ask the backend dev."
+        },
+        {
+          "p": "Can I pair now?",
+          "m": "Cho biết bạn có sẵn sàng hay không. Nêu bước đầu bạn muốn làm cùng.",
+          "h": "Use I am ready/I am not ready; 'Let's' for suggestion.",
+          "s": "I am ready to pair now. Let's write the test together."
+        },
+        {
+          "p": "Do you prefer video or chat help?",
+          "m": "Chọn video hoặc chat. Nói lý do ngắn.",
+          "h": "Use Either 'video' or 'chat' with a short reason 'because ...'.",
+          "s": "I prefer video help. It is faster to explain."
+        },
+        {
+          "p": "Will this help delay your work?",
+          "m": "Nói nếu việc nhận help làm bạn chậm. Nếu có, nêu bao lâu hoặc 'no'.",
+          "h": "Use Yes/No + short time or 'no' with brief reason.",
+          "s": "No, it will not delay my work. It will save time."
+        }
+      ]
+    },
+    {
+      "t": "Phân công nhiệm vụ",
+      "e": [
+        {
+          "p": "Can you take the frontend task?",
+          "m": "Trả lời bạn nhận hay không. Nếu nhận, nêu khi bạn bắt đầu.",
+          "h": "S + can/can't + V; use start time 'today/tomorrow'.",
+          "s": "I can take the frontend task. I will start tomorrow."
+        },
+        {
+          "p": "Who can do the testing?",
+          "m": "Đề xuất người hoặc role. Nói khi họ có thể làm.",
+          "h": "Use 'Anna can' or 'The QA can' + time word.",
+          "s": "The QA can do the testing. They can start today."
+        },
+        {
+          "p": "Do you have time for documentation?",
+          "m": "Nói có hay không. Nếu có, nêu bạn làm khi nào.",
+          "h": "Use I have/I don't have + time; give a time word.",
+          "s": "I have time for documentation. I will do it this afternoon."
+        },
+        {
+          "p": "Can someone review the design?",
+          "m": "Yêu cầu ai review. Nói bạn đề xuất người nào ngắn.",
+          "h": "Use 'Please ask ... to review' or 'I suggest ...'.",
+          "s": "Please ask Tom to review the design. He knows the style."
+        },
+        {
+          "p": "Should we assign a backup?",
+          "m": "Trả lời có hay không. Nếu có, nêu ai là backup.",
+          "h": "Yes/No + name; use 'backup is ...'.",
+          "s": "Yes, we should assign a backup. Anna is the backup."
+        }
+      ]
+    },
+    {
+      "t": "Cập nhật deadline",
+      "e": [
+        {
+          "p": "Is the deadline still Friday?",
+          "m": "Xác nhận deadline có giữ hay không. Nếu không, nêu deadline mới.",
+          "h": "Use Yes/No + new date or 'it is' + date.",
+          "s": "No, the deadline is not Friday. The new deadline is next Monday."
+        },
+        {
+          "p": "Can we move the deadline one day?",
+          "m": "Trả lời đồng ý hay không. Nếu đồng ý, nêu lý do ngắn.",
+          "h": "Use I agree/I don't agree + reason with because.",
+          "s": "I agree to move the deadline. We need more time for testing."
+        },
+        {
+          "p": "How much time do you need?",
+          "m": "Nói bạn cần thêm bao lâu (hours/days). Nói bạn sẽ làm gì trong thời gian đó.",
+          "h": "Use 'I need ...' and 'I will ...' for action.",
+          "s": "I need two days. I will finish the integration."
+        },
+        {
+          "p": "Will the delay affect release?",
+          "m": "Nói có hay không. Nếu có, nêu một ảnh hưởng ngắn.",
+          "h": "Yes/No + short effect with 'because'.",
+          "s": "Yes, the delay will affect the release. We may release later."
+        },
+        {
+          "p": "Who approves the new deadline?",
+          "m": "Nói người phê duyệt. Nói bạn sẽ liên hệ với họ hay không.",
+          "h": "Use 'X approves' or 'Please contact ...'; state action with will.",
+          "s": "The manager approves the new deadline. I will contact her."
+        }
+      ]
+    },
+    {
+      "t": "Chia sẻ tài liệu",
+      "e": [
+        {
+          "p": "Can you share the design file?",
+          "m": "Trả lời bạn có thể chia sẻ hay không. Nếu có, nêu nơi bạn sẽ chia sẻ (drive/link).",
+          "h": "Use I can/I can't + 'on' or 'via' + place.",
+          "s": "I can share the design file. I will put it on Google Drive."
+        },
+        {
+          "p": "Is the document public to the team?",
+          "m": "Nói document có công khai cho team không. Nếu không, nêu ai được truy cập.",
+          "h": "Use Yes/No + 'It is' or 'Only ... can access'.",
+          "s": "Yes, the document is public to the team. Everyone can access it."
+        },
+        {
+          "p": "Do you need a template?",
+          "m": "Trả lời bạn có cần template hay không. Nếu cần, nêu loại template ngắn.",
+          "h": "I need/I don't need + noun; name template type.",
+          "s": "I need a template. I need a meeting notes template."
+        },
+        {
+          "p": "How do you name the file?",
+          "m": "Nói cách bạn đặt tên file ngắn (project_task_date). Nói nơi lưu.",
+          "h": "Use a short example name and 'on' + location.",
+          "s": "I name the file project_report_2026. It is on the team drive."
+        },
+        {
+          "p": "Can you send the link in chat?",
+          "m": "Trả lời bạn sẽ làm hay không. Nếu có, nói khi nào (now/after meeting).",
+          "h": "Use I will/I won't + V and time word.",
+          "s": "I will send the link in chat now. It is ready."
+        }
+      ]
+    },
+    {
+      "t": "Phản hồi code/review",
+      "e": [
+        {
+          "p": "I left comments on your PR. Did you see them?",
+          "m": "Trả lời bạn có thấy comment không. Nói bạn sẽ làm gì với comment (fix/ask).",
+          "h": "Use I saw/I did not see + I will + V or I will ask ...",
+          "s": "I saw the comments. I will fix the issues."
+        },
+        {
+          "p": "Can you explain this change?",
+          "m": "Giải thích ngắn thay đổi. Nói mục đích của thay đổi.",
+          "h": "Use S + V(s/es) + short phrase and 'to' + purpose.",
+          "s": "I changed the function name. It is to make it clearer."
+        },
+        {
+          "p": "Do you prefer small PRs or one big PR?",
+          "m": "Chọn small hoặc big. Nói lý do ngắn.",
+          "h": "Use I prefer ... + because ...",
+          "s": "I prefer small PRs. They are easier to review."
+        },
+        {
+          "p": "When can you address the comments?",
+          "m": "Nêu khi bạn sửa xong (today/tomorrow). Nói bạn cần bao lâu nếu cần.",
+          "h": "Use I will + V + time and 'I need' + duration if needed.",
+          "s": "I will address the comments tomorrow. I need one morning."
+        },
+        {
+          "p": "Should we merge after tests pass?",
+          "m": "Trả lời có hay không. Nếu có, nêu ai sẽ merge.",
+          "h": "Yes/No + 'we should' and 'X will merge' or 'I will merge'.",
+          "s": "Yes, we should merge after tests pass. I will merge it."
+        }
+      ]
+    },
+    {
+      "t": "Thay đổi ưu tiên",
+      "e": [
+        {
+          "p": "We need to change priorities. Can you pause your task?",
+          "m": "Trả lời bạn có thể tạm dừng hay không. Nếu có, nói bạn sẽ làm gì thay vào đó.",
+          "h": "Use I can/I can't + then 'I will ...' for alternative.",
+          "s": "I can pause my task. I will help the urgent bug instead."
+        },
+        {
+          "p": "Which task is more important now?",
+          "m": "Nêu task quan trọng hơn. Nói lý do ngắn (release/customer).",
+          "h": "Use 'The ... task is more important' + reason 'because ...'.",
+          "s": "The bug fix task is more important now. It affects the release."
+        },
+        {
+          "p": "Do you agree with the new priority list?",
+          "m": "Trả lời đồng ý hay không. Nếu không, nêu đề xuất ngắn.",
+          "h": "I agree/I don't agree + 'I suggest ...' for proposal.",
+          "s": "I agree with the new priority list. I have no changes."
+        },
+        {
+          "p": "Can we delay the low priority tasks?",
+          "m": "Trả lời có thể hay không. Nếu được, nêu khoảng thời gian tạm dừng.",
+          "h": "Use Yes/No + time phrase like 'a week' or 'two days'.",
+          "s": "Yes, we can delay low priority tasks. Delay them for one week."
+        },
+        {
+          "p": "Who decides the priorities?",
+          "m": "Nói người hoặc nhóm quyết định. Nói bạn sẽ liên hệ với họ hay không.",
+          "h": "Use 'The manager decides' or 'Product team decides' and 'I will contact'.",
+          "s": "The product manager decides the priorities. I will contact her."
+        }
+      ]
+    },
+    {
+      "t": "Hoàn thành nhiệm vụ và bàn giao",
+      "e": [
+        {
+          "p": "I finished the task. Ready for handover?",
+          "m": "Trả lời bạn đã sẵn sàng nhận hay không. Nếu sẵn sàng, nói bạn sẽ kiểm tra điều gì đầu tiên.",
+          "h": "Use I am ready/I am not ready; 'I will check ...' for first step.",
+          "s": "I am ready to take it. I will check the documentation first."
+        },
+        {
+          "p": "Can you accept the handover now?",
+          "m": "Trả lời bạn có thể nhận bây giờ hay không. Nếu không, nêu khi nào bạn nhận.",
+          "h": "Use I can/I can't + time word 'now/tomorrow'.",
+          "s": "I can't accept it now. I can accept it this afternoon."
+        },
+        {
+          "p": "Is everything in the ticket?",
+          "m": "Xác nhận ticket có đủ thông tin hay không. Nếu thiếu, nêu phần thiếu ngắn.",
+          "h": "Yes/No + 'It has' or 'It misses ...'.",
+          "s": "No, it is not complete. It misses the test steps."
+        },
+        {
+          "p": "Do you want a quick demo?",
+          "m": "Trả lời có muốn demo hay không. Nếu có, nêu khi nào ngắn.",
+          "h": "Yes/No + 'I want' or 'I don't want' and time word.",
+          "s": "Yes, I want a quick demo. Please do it after lunch."
+        },
+        {
+          "p": "Who will monitor this feature after handover?",
+          "m": "Nói ai sẽ giám sát. Nói bạn có liên quan theo dõi hay không.",
+          "h": "Use 'X will monitor' and 'I will also ...' or 'I will not ...'.",
+          "s": "The QA will monitor this feature. I will also check logs."
+        }
+      ]
+    },
+    {
+      "t": "Ôn tập: Báo cáo và giải pháp",
+      "e": [
+        {
+          "p": "Please give a short report on your task and one solution for a blocker.",
+          "m": "Nói task bạn đang làm. Nói một giải pháp ngắn cho blocker.",
+          "h": "S + be + V-ing; 'One solution is ...' or 'I will ...'.",
+          "s": "I am developing the login page. One solution is to add fallback data."
+        },
+        {
+          "p": "How often do you report progress and how?",
+          "m": "Nói tần suất bạn báo cáo. Nói kênh bạn dùng (chat/meeting).",
+          "h": "Use adverbs of frequency + S + V(s/es); 'on' or 'via' for channel.",
+          "s": "I usually report every morning. I report on Slack."
+        },
+        {
+          "p": "Describe a blocker and say who to ask for help.",
+          "m": "Nói blocker chính. Nói người bạn sẽ hỏi (tên/role).",
+          "h": "Use 'The blocker is ...' and 'Ask ...' or 'I will ask ...'.",
+          "s": "The blocker is missing credentials. I will ask the backend dev."
+        },
+        {
+          "p": "Can you give a quick fix and its time estimate?",
+          "m": "Nêu sửa nhanh (one sentence). Nói ước tính thời gian ngắn.",
+          "h": "Short action sentence; 'It takes ...' or 'about ...'.",
+          "s": "A quick fix is to use mock data. It takes about two hours."
+        },
+        {
+          "p": "Should we document the solution and where?",
+          "m": "Trả lời có nên hay không. Nếu có, nêu nơi lưu tài liệu.",
+          "h": "Yes/No + 'We should' and 'on' + location.",
+          "s": "Yes, we should document the solution. Put it on the team wiki."
+        }
+      ]
+    },
+    {
+      "t": "Ôn tập: Phối hợp và hỗ trợ",
+      "e": [
+        {
+          "p": "Who will help with the integration and when?",
+          "m": "Nêu ai giúp. Nói khi họ có thể giúp (today/tomorrow).",
+          "h": "Use 'X will help' and time word.",
+          "s": "Tom will help with the integration. He can help tomorrow."
+        },
+        {
+          "p": "Can you offer support and what will you do?",
+          "m": "Trả lời bạn có hỗ trợ không. Nói việc bạn sẽ làm ngắn.",
+          "h": "I can/I can't + 'I will ...' for action.",
+          "s": "I can offer support. I will pair test with you."
+        },
+        {
+          "p": "Do you prefer to chat or call for support?",
+          "m": "Chọn chat hoặc call. Nói lý do ngắn.",
+          "h": "Use I prefer ... + because ...",
+          "s": "I prefer chat for quick questions. It is faster."
+        },
+        {
+          "p": "If you help, will it delay your task?",
+          "m": "Nói nếu giúp sẽ làm bạn chậm hay không. Nếu có, nêu bao lâu.",
+          "h": "Yes/No + 'it will' and time phrase.",
+          "s": "Yes, it will delay my task. It will take one afternoon."
+        },
+        {
+          "p": "How do you follow up after giving help?",
+          "m": "Nói bạn sẽ làm gì sau khi giúp (update ticket/email). Nói tần suất follow-up ngắn.",
+          "h": "Use 'I will ...' and adverb of frequency or time.",
+          "s": "I will update the ticket after help. I do a follow-up the next day."
+        }
+      ]
+    },
+    {
+      "t": "Ôn tập: Lịch họp và deadline",
+      "e": [
+        {
+          "p": "When is the next team meeting and can you attend?",
+          "m": "Nêu thời gian họp. Trả lời bạn có thể tham dự hay không.",
+          "h": "Use time words and I can/I can't + V.",
+          "s": "The next team meeting is on Monday. I can attend."
+        },
+        {
+          "p": "We moved the deadline. Can you still deliver?",
+          "m": "Trả lời bạn có thể giao theo deadline mới không. Nếu không, nêu khi nào bạn giao được.",
+          "h": "I can/I can't + V; give new time when possible.",
+          "s": "I can't deliver by the new deadline. I can deliver next Wednesday."
+        },
+        {
+          "p": "Should we have a quick sync today?",
+          "m": "Trả lời đồng ý hay không. Nếu đồng ý, nêu thời gian ngắn.",
+          "h": "Yes/No + 'Let's' or 'I am free at ...'.",
+          "s": "Yes, let's have a quick sync today. I am free at 3 pm."
+        },
+        {
+          "p": "Who sets the meeting agenda and will you add items?",
+          "m": "Nói ai đặt agenda. Nói bạn có thêm mục hay không.",
+          "h": "Use 'X sets' and I will/I won't + add item.",
+          "s": "The team lead sets the meeting agenda. I will add one item."
+        },
+        {
+          "p": "How do we handle missed deadlines in future?",
+          "m": "Đề xuất một cách ngắn để xử lý. Nói bạn sẽ làm gì để tránh lặp lại.",
+          "h": "Use 'We should ...' and 'I will ...' for personal action.",
+          "s": "We should set smaller milestones. I will update progress daily."
+        }
+      ]
+    }
+  ]
+}

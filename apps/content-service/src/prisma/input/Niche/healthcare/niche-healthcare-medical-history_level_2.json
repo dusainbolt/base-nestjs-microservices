@@ -1,0 +1,495 @@
+{
+  "l": 2,
+  "d": [
+    {
+      "t": "Lần đầu khám bệnh",
+      "e": [
+        {
+          "p": "Can you tell me your name and age?",
+          "m": "Nói tên của bạn. Nói tuổi của bạn.",
+          "h": "Dùng 'My name is ...' và 'I am ... years old.'",
+          "s": "My name is [studentName]. I am [studentAge] years old."
+        },
+        {
+          "p": "What brought you to the clinic today?",
+          "m": "Nói lý do chính bạn đến khám. Nói nếu bạn có triệu chứng khác.",
+          "h": "Dùng 'I have ...' và 'I also have ...' (Present Simple).",
+          "s": "I have a sore throat. I also have a little fever."
+        },
+        {
+          "p": "Do you live near the clinic?",
+          "m": "Nói nơi bạn sống (gần/xa). Nói nếu bạn can đi khám hôm nay hoặc không.",
+          "h": "Dùng 'I live in/near ...' và 'I can / I cannot ...'.",
+          "s": "I live near the clinic in [studentCity]. I can come here today."
+        },
+        {
+          "p": "Are you available for a quick check now?",
+          "m": "Nói bạn có rảnh lúc này hay không. Nói bạn đang ở chỗ nào (home/clinic).",
+          "h": "Dùng 'I am available / I am not available' và 'I am at ...'.",
+          "s": "I am available now. I am at home."
+        },
+        {
+          "p": "Do you prefer a male or female doctor?",
+          "m": "Nói giới tính bác sĩ bạn thích. Nói nếu bạn không quan tâm.",
+          "h": "Dùng 'I prefer ...' hoặc 'I do not mind'.",
+          "s": "I prefer a female doctor. I do not mind if she is busy."
+        }
+      ]
+    },
+    {
+      "t": "Triệu chứng hiện tại",
+      "e": [
+        {
+          "p": "What symptoms are you feeling now?",
+          "m": "Nói triệu chứng chính (1 câu). Nói đã bắt đầu bao lâu (1 câu).",
+          "h": "Dùng 'I have ...' và 'for + time' hoặc 'since + day'.",
+          "s": "I have a headache and a cough. I have had them for three days."
+        },
+        {
+          "p": "Is your fever high now?",
+          "m": "Nói có sốt hay không (1 câu). Nói mức độ hoặc cảm giác (1 câu).",
+          "h": "Dùng 'I have a fever' hoặc 'I do not have a fever' và 'It feels ...'.",
+          "s": "I have a fever now. It feels hot and weak."
+        },
+        {
+          "p": "Are you breathing normally?",
+          "m": "Nói thở bình thường hay khó thở (1 câu). Nói nếu bạn ho nhiều hay không (1 câu).",
+          "h": "Dùng 'I am breathing ...' và 'I cough ...' (Present Continuous/Simple).",
+          "s": "I am breathing a little fast. I cough often."
+        },
+        {
+          "p": "Do you feel pain when you move?",
+          "m": "Nói có đau khi cử động hay không (1 câu). Nói vị trí đau (1 câu).",
+          "h": "Dùng 'I feel pain' và 'in my ...'.",
+          "s": "I feel pain when I move. The pain is in my right shoulder."
+        },
+        {
+          "p": "Is the pain getting better or worse?",
+          "m": "Nói tình trạng đau đang thay đổi (tốt hơn/ xấu hơn/ không đổi). Nói tần suất đau (often/sometimes/never).",
+          "h": "Dùng 'It is getting ...' hoặc 'It is not changing' và trạng từ tần suất.",
+          "s": "The pain is getting a little better. I still feel it sometimes."
+        }
+      ]
+    },
+    {
+      "t": "Các loại thuốc đang dùng",
+      "e": [
+        {
+          "p": "Are you taking any medicine now?",
+          "m": "Nói có thuốc đang dùng hay không (1 câu). Nói tên thuốc hoặc loại thuốc (1 câu).",
+          "h": "Dùng 'I take ...' hoặc 'I do not take ...'.",
+          "s": "I take medicine now. I take pain medicine for my headache."
+        },
+        {
+          "p": "How often do you take your medicine?",
+          "m": "Nói tần suất dùng thuốc (1 câu). Nói giờ cụ thể nếu có (1 câu).",
+          "h": "Dùng 'I take ... every ...' hoặc 'twice a day'.",
+          "s": "I take it twice a day. I take it in the morning and at night."
+        },
+        {
+          "p": "Do you use any creams or drops?",
+          "m": "Nói nếu bạn dùng kem/dung dịch (1 câu). Nói mục đích dùng (1 câu).",
+          "h": "Dùng 'I use ...' và 'for ...'.",
+          "s": "I use a skin cream. I use it for my rash."
+        },
+        {
+          "p": "Who gives you your medicine?",
+          "m": "Nói ai kê hoặc đưa thuốc cho bạn (1 câu). Nói bạn có tự mua thuốc không (1 câu).",
+          "h": "Dùng 'My doctor/ pharmacist gives ...' và 'I buy ...' or 'I do not buy ...'.",
+          "s": "My doctor gives my medicine. I do not buy medicine by myself."
+        },
+        {
+          "p": "Do you stop any medicine when you feel better?",
+          "m": "Nói bạn có ngừng thuốc khi khá hơn không. Nói bạn luôn theo toa bác sĩ hay không.",
+          "h": "Dùng 'I stop ...' và 'I always follow ...' hoặc 'I do not always follow'.",
+          "s": "I sometimes stop medicine when I feel better. I usually follow the doctor's advice."
+        }
+      ]
+    },
+    {
+      "t": "Dị ứng và phản ứng thuốc",
+      "e": [
+        {
+          "p": "Do you have any allergies?",
+          "m": "Nói có hay không. Nếu có, nêu chất bạn dị ứng (1 câu).",
+          "h": "Dùng 'I am allergic to ...' hoặc 'I am not allergic'.",
+          "s": "I am allergic to penicillin. I get a rash when I take it."
+        },
+        {
+          "p": "What happens when you have an allergic reaction?",
+          "m": "Mô tả một triệu chứng khi dị ứng (1 câu). Nói bạn có cần cấp cứu không (1 câu).",
+          "h": "Dùng 'I get ...' và 'I need / I do not need emergency help'.",
+          "s": "I get a red itchy rash. I do not need emergency help."
+        },
+        {
+          "p": "Do you have food allergies?",
+          "m": "Nói có dị ứng thức ăn hay không (1 câu). Nói ví dụ loại thực phẩm nếu có (1 câu).",
+          "h": "Dùng 'I am allergic to ...' cho thức ăn.",
+          "s": "I am not allergic to food. I eat most foods."
+        },
+        {
+          "p": "Have you ever had a bad reaction to a vaccine?",
+          "m": "Nói có hay không. Nói triệu chứng nếu có (1 câu).",
+          "h": "Dùng 'I had ...' is past but avoid—use current state: 'I have ... after a vaccine'.",
+          "s": "I have a mild fever after a vaccine. It goes away in one day."
+        },
+        {
+          "p": "Do you carry any allergy medicine with you?",
+          "m": "Nói bạn có mang thuốc dị ứng theo không (1 câu). Nói nơi bạn để thuốc (bag/pocket) (1 câu).",
+          "h": "Dùng 'I carry ...' và 'in my ...'.",
+          "s": "I carry an allergy tablet with me. It is in my bag."
+        }
+      ]
+    },
+    {
+      "t": "Tiền sử phẫu thuật và vết sẹo",
+      "e": [
+        {
+          "p": "Do you have any scars from surgery?",
+          "m": "Nói có sẹo hay không. Nói vị trí sẹo.",
+          "h": "Dùng 'I have a scar' và 'on my ...' (Present Simple).",
+          "s": "I have a scar from appendix surgery. The scar is on my lower right belly."
+        },
+        {
+          "p": "Do you still have pain from old operations?",
+          "m": "Nói có đau từ phẫu thuật trước không (1 câu). Nói tần suất đau (1 câu).",
+          "h": "Dùng 'I have pain' và trạng từ tần suất.",
+          "s": "I do not have pain from old operations. I never feel pain there."
+        },
+        {
+          "p": "Was your operation planned or an emergency?",
+          "m": "Nói loại phẫu thuật hiện có dấu vết: đã lập kế hoạch hay khẩn cấp. Nói bạn có giấy tờ về phẫu thuật không.",
+          "h": "Dùng 'It was ...' but avoid past—use present state: 'It is from a planned / emergency operation' and 'I have / I do not have documents'.",
+          "s": "It is from a planned operation. I have the paper in my home."
+        },
+        {
+          "p": "Do you have problems with wounds healing?",
+          "m": "Nói có vấn đề lành vết thương hay không (1 câu). Nói nếu bạn vẫn chăm sóc vết thương (1 câu).",
+          "h": "Dùng 'I have problems' hoặc 'I do not have problems' và 'I am caring for ...'.",
+          "s": "I do not have problems with healing. I am caring for the scar at home."
+        },
+        {
+          "p": "Do you fear going into surgery again?",
+          "m": "Nói bạn có sợ phẫu thuật không (1 câu). Nói lý do ngắn gọn (1 câu).",
+          "h": "Dùng 'I am afraid / I am not afraid' và 'because ...' (đơn giản).",
+          "s": "I am a little afraid of surgery. I worry about pain."
+        }
+      ]
+    },
+    {
+      "t": "Bệnh mãn tính và quản lý",
+      "e": [
+        {
+          "p": "Do you have any long-term illnesses?",
+          "m": "Nói có bệnh mãn tính hay không. Nếu có, nêu bệnh.",
+          "h": "Dùng 'I have ...' (Present Simple).",
+          "s": "I have high blood pressure. I take medicine every morning."
+        },
+        {
+          "p": "How often do you see a doctor for your condition?",
+          "m": "Nói tần suất khám bác sĩ. Nói bạn có theo dõi tại bệnh viện hay không.",
+          "h": "Dùng 'I see my doctor ...' và 'I go to the hospital / I do not go'.",
+          "s": "I see my doctor every three months. I go to the hospital for a check."
+        },
+        {
+          "p": "Do you check your blood pressure at home?",
+          "m": "Nói có kiểm tra tại nhà hay không. Nói tần suất kiểm tra.",
+          "h": "Dùng 'I check ...' và 'every ...'.",
+          "s": "I check my blood pressure at home. I check it every morning."
+        },
+        {
+          "p": "Do you feel your condition affects daily life?",
+          "m": "Nói có ảnh hưởng hay không. Nói ví dụ ngắn (sleep/work).",
+          "h": "Dùng 'It affects ...' và 'for example ...'.",
+          "s": "It affects my sleep a little. For example, I wake up tired."
+        },
+        {
+          "p": "Do you follow a special diet for your illness?",
+          "m": "Nói bạn có ăn kiêng không. Nói một điều bạn ăn hoặc tránh.",
+          "h": "Dùng 'I follow a diet' hoặc 'I do not follow' và 'I avoid / I eat'.",
+          "s": "I follow a low-salt diet. I avoid salty food."
+        }
+      ]
+    },
+    {
+      "t": "Tiền sử gia đình và bệnh lý di truyền",
+      "e": [
+        {
+          "p": "Does anyone in your family have diabetes or heart disease?",
+          "m": "Nói có hay không. Nói người là ai (mother/father).",
+          "h": "Dùng 'My mother/father has ...' hoặc 'No one in my family has ...'.",
+          "s": "My mother has diabetes. My father has no heart disease."
+        },
+        {
+          "p": "Is there a family history of allergies?",
+          "m": "Nói có hay không. Nói ai bị dị ứng nếu có.",
+          "h": "Dùng 'My brother/sister has ...' hoặc 'No family member has ...'.",
+          "s": "My sister has hay fever. No one else in my family has allergies."
+        },
+        {
+          "p": "Do you know about any genetic diseases in your family?",
+          "m": "Nói bạn có biết bệnh di truyền không. Nói tên bệnh nếu biết.",
+          "h": "Dùng 'I know ...' hoặc 'I do not know'.",
+          "s": "I do not know about genetic diseases. My family does not talk about it."
+        },
+        {
+          "p": "Did your parents have similar health problems?",
+          "m": "Nói cha mẹ có vấn đề sức khỏe tương tự không. Nói ví dụ ngắn.",
+          "h": "Dùng 'My parents have / do not have ...' và ví dụ.",
+          "s": "My parents do not have the same problem. They are mostly healthy."
+        },
+        {
+          "p": "Do you have children with health issues?",
+          "m": "Nói bạn có con bệnh không. Nói ngắn nếu có vấn đề cụ thể.",
+          "h": "Dùng 'I have / I do not have children with ...' và 'They have ...'.",
+          "s": "I do not have children with health issues. My children are healthy."
+        }
+      ]
+    },
+    {
+      "t": "Tiêm chủng và phòng bệnh",
+      "e": [
+        {
+          "p": "Are your vaccinations up to date?",
+          "m": "Nói có hay không. Nói vắc-xin gần nhất nếu có.",
+          "h": "Dùng 'I am up to date' hoặc 'I am not up to date' và 'My last vaccine is ...'.",
+          "s": "I am up to date with my vaccines. My last vaccine is the flu vaccine."
+        },
+        {
+          "p": "Do you get a flu shot every year?",
+          "m": "Nói bạn có tiêm phòng cúm hằng năm không. Nói tần suất nếu không hàng năm.",
+          "h": "Dùng 'I get ... every year' hoặc 'I get it sometimes'.",
+          "s": "I do not get a flu shot every year. I get it sometimes."
+        },
+        {
+          "p": "Do you take vitamins or supplements?",
+          "m": "Nói có dùng vitamin hay không. Nói loại vitamin nếu có.",
+          "h": "Dùng 'I take ...' và 'for ...' ngắn gọn.",
+          "s": "I take vitamin D. I take it every morning."
+        },
+        {
+          "p": "Do you have regular health check-ups?",
+          "m": "Nói bạn có khám sức khoẻ định kỳ không. Nói tần suất.",
+          "h": "Dùng 'I have check-ups' và 'every ...'.",
+          "s": "I have regular check-ups. I go every year."
+        },
+        {
+          "p": "Do you use any prevention for infections now?",
+          "m": "Nói bạn có biện pháp phòng ngừa (mask, hand wash) không. Nói bạn làm việc đó thường xuyên hay không.",
+          "h": "Dùng 'I use ...' và trạng từ tần suất.",
+          "s": "I use a mask in crowded places. I wash my hands often."
+        }
+      ]
+    },
+    {
+      "t": "Hút thuốc, rượu và thói quen",
+      "e": [
+        {
+          "p": "Do you smoke cigarettes?",
+          "m": "Nói bạn có hút thuốc không. Nói tần suất nếu có.",
+          "h": "Dùng 'I smoke' hoặc 'I do not smoke' và 'sometimes/often'.",
+          "s": "I sometimes smoke cigarettes. I do not smoke every day."
+        },
+        {
+          "p": "Do you drink alcohol?",
+          "m": "Nói có uống không. Nói tần suất uống.",
+          "h": "Dùng 'I drink / I do not drink' và trạng từ tần suất.",
+          "s": "I drink alcohol rarely. I drink at parties only."
+        },
+        {
+          "p": "Do you exercise regularly?",
+          "m": "Nói bạn có tập thể dục đều không. Nói loại hoặc tần suất tập.",
+          "h": "Dùng 'I exercise' và 'every ...' hoặc 'sometimes'.",
+          "s": "I exercise three times a week. I walk and do light exercise."
+        },
+        {
+          "p": "How many hours do you sleep each night?",
+          "m": "Nói số giờ ngủ trung bình. Nói bạn có ngủ ngon hay không.",
+          "h": "Dùng 'I sleep ... hours' và 'I sleep well / I do not sleep well'.",
+          "s": "I sleep about seven hours each night. I sleep well most nights."
+        },
+        {
+          "p": "Do you drink coffee or tea often?",
+          "m": "Nói bạn có uống cà phê/trà thường xuyên không. Nói tần suất.",
+          "h": "Dùng 'I drink coffee/tea' và trạng từ tần suất.",
+          "s": "I drink coffee every morning. I sometimes drink tea in the afternoon."
+        }
+      ]
+    },
+    {
+      "t": "Mô tả cơn đau",
+      "e": [
+        {
+          "p": "Where do you feel the pain?",
+          "m": "Nói vị trí đau chính. Nói nếu đau lan ra chỗ khác.",
+          "h": "Dùng 'My pain is in ...' và 'It goes to ...' (simple).",
+          "s": "My pain is in my lower back. It goes to my right leg sometimes."
+        },
+        {
+          "p": "Is the pain sharp or dull?",
+          "m": "Mô tả kiểu đau (sharp/dull). Nói mức độ (mild/strong).",
+          "h": "Dùng 'It is ...' và 'It is ...' (adjective).",
+          "s": "The pain is dull and constant. It is mild most of the time."
+        },
+        {
+          "p": "Does the pain get worse at night?",
+          "m": "Nói đau có nặng hơn ban đêm không. Nói bạn có ngủ được không.",
+          "h": "Dùng 'It gets worse' và 'I can / I cannot sleep'.",
+          "s": "The pain gets worse at night. I cannot sleep well because of it."
+        },
+        {
+          "p": "What makes the pain better?",
+          "m": "Nói điều gì làm giảm đau (rest/medicine). Nói bạn làm điều đó thường xuyên không.",
+          "h": "Dùng 'Rest/medicine helps' và 'I do it ...'.",
+          "s": "Rest helps my pain. I rest and it gets better."
+        },
+        {
+          "p": "Do you have numbness or tingling with the pain?",
+          "m": "Nói có tê/kim châm hay không. Nói vị trí tê nếu có.",
+          "h": "Dùng 'I have numbness' và 'in my ...'.",
+          "s": "I have numbness sometimes. It is in my left foot."
+        }
+      ]
+    },
+    {
+      "t": "Tình trạng hiện tại khi khám",
+      "e": [
+        {
+          "p": "How are you feeling today?",
+          "m": "Nói cảm giác chung (tired/happy/sick). Nói bạn có nghỉ làm/nghỉ học hôm nay không.",
+          "h": "Dùng 'I feel ...' và 'I am ... today'.",
+          "s": "I feel tired and weak. I am resting at home today."
+        },
+        {
+          "p": "Are you able to eat and drink?",
+          "m": "Nói bạn có thể ăn uống bình thường không. Nói nếu bạn bị nôn hoặc không muốn ăn.",
+          "h": "Dùng 'I can / I cannot eat' và 'I vomit / I do not want to eat'.",
+          "s": "I can eat small meals. I do not want heavy food now."
+        },
+        {
+          "p": "Do you have trouble walking or moving?",
+          "m": "Nói có khó đi lại/cử động không. Nói bạn cần giúp đỡ hay không.",
+          "h": "Dùng 'I have trouble' và 'I need / I do not need help'.",
+          "s": "I have trouble walking a long distance. I need a little help sometimes."
+        },
+        {
+          "p": "Are you taking time off work because of this?",
+          "m": "Nói bạn có nghỉ việc vì vấn đề này không. Nói bạn nghỉ bao lâu nếu có.",
+          "h": "Dùng 'I am off work' và 'for ... days' hoặc 'I am not off work'.",
+          "s": "I am off work today. I will rest for two days."
+        },
+        {
+          "p": "Do you feel anxious or calm about your health?",
+          "m": "Nói bạn cảm thấy lo lắng hay bình tĩnh. Nói nếu bạn muốn nói chuyện thêm với bác sĩ.",
+          "h": "Dùng 'I feel ...' và 'I want / I do not want to talk more'.",
+          "s": "I feel a little anxious about my health. I want to talk more with the doctor."
+        }
+      ]
+    },
+    {
+      "t": "Ôn tập: Khai thác tổng quát",
+      "e": [
+        {
+          "p": "Please tell me your name and main complaint.",
+          "m": "Nói tên của bạn. Nói triệu chứng chính bạn đang gặp.",
+          "h": "Dùng 'My name is ...' và 'I have ...'.",
+          "s": "My name is [studentName]. I have a bad cough."
+        },
+        {
+          "p": "Do you take any regular medicine?",
+          "m": "Nói có thuốc định kỳ không. Nói tên hoặc loại thuốc nếu có.",
+          "h": "Dùng 'I take ...' hoặc 'I do not take ...'.",
+          "s": "I take blood pressure medicine. I take it every morning."
+        },
+        {
+          "p": "Are you allergic to anything?",
+          "m": "Nói có dị ứng không. Nói ví dụ nếu có.",
+          "h": "Dùng 'I am allergic to ...' hoặc 'I am not allergic'.",
+          "s": "I am allergic to dust. I sneeze and get a runny nose."
+        },
+        {
+          "p": "Does your family have similar health problems?",
+          "m": "Nói có hay không. Nói người và bệnh nếu có.",
+          "h": "Dùng 'My mother/father has ...' hoặc 'No one in my family has ...'.",
+          "s": "My father has high blood pressure. No one else has the same problem."
+        },
+        {
+          "p": "Are you up to date with vaccines?",
+          "m": "Nói có hay không. Nói vắc-xin gần nhất nếu có.",
+          "h": "Dùng 'I am up to date' và 'My last vaccine is ...'.",
+          "s": "I am up to date with vaccines. My last vaccine is the flu shot."
+        }
+      ]
+    },
+    {
+      "t": "Ôn tập: Thuốc và dị ứng",
+      "e": [
+        {
+          "p": "What medicines do you take every day?",
+          "m": "Nói các thuốc bạn dùng hằng ngày. Nói tần suất dùng mỗi loại.",
+          "h": "Dùng 'I take ...' và 'every ...' hoặc 'in the morning'.",
+          "s": "I take one blood pressure tablet every morning. I take vitamin D every evening."
+        },
+        {
+          "p": "Have you ever had a bad reaction to a medicine?",
+          "m": "Nói có hay không. Nói triệu chứng nếu có.",
+          "h": "Dùng 'I had ...' is past but use present state: 'I have ... after ...'.",
+          "s": "I have a rash after one antibiotic. I avoid that medicine now."
+        },
+        {
+          "p": "Do you stop medicines when you feel better?",
+          "m": "Nói bạn có ngừng thuốc khi thấy khá hơn không. Nói bạn luôn hỏi bác sĩ trước không.",
+          "h": "Dùng 'I stop ...' và 'I always / I do not always ask the doctor'.",
+          "s": "I sometimes stop medicine when I feel better. I do not always ask the doctor first."
+        },
+        {
+          "p": "Do you carry an allergy card or note?",
+          "m": "Nói có mang thẻ dị ứng không. Nói nơi bạn để thẻ nếu có.",
+          "h": "Dùng 'I carry ...' và 'in my ...'.",
+          "s": "I carry an allergy card in my wallet. It says I am allergic to penicillin."
+        },
+        {
+          "p": "Who helps you manage your medicines?",
+          "m": "Nói ai giúp bạn (doctor/family). Nói cách họ giúp (remind/buy).",
+          "h": "Dùng 'My doctor / My family helps me' và 'they ...'.",
+          "s": "My family helps me with my medicines. They remind me every morning."
+        }
+      ]
+    },
+    {
+      "t": "Ôn tập: Tổng hợp trước khám",
+      "e": [
+        {
+          "p": "Do you smoke or drink and how often?",
+          "m": "Nói bạn có hút thuốc không và tần suất. Nói bạn có uống rượu không và tần suất.",
+          "h": "Dùng 'I smoke / I do not smoke' và 'I drink / I do not drink' với trạng từ tần suất.",
+          "s": "I do not smoke. I drink alcohol rarely at parties."
+        },
+        {
+          "p": "Do you have any chronic diseases we should know?",
+          "m": "Nói có bệnh mãn tính hay không. Nói tên bệnh nếu có.",
+          "h": "Dùng 'I have ...' và tên bệnh ngắn gọn.",
+          "s": "I have asthma. I use an inhaler sometimes."
+        },
+        {
+          "p": "Have you had operations or hospital stays before?",
+          "m": "Nói có hay không. Nói loại phẫu thuật hoặc lý do nhập viện ngắn.",
+          "h": "Dùng 'I have a scar from ...' hoặc 'I was in hospital for ...' (present-state).",
+          "s": "I have a scar from gallbladder surgery. I was in the hospital for two days."
+        },
+        {
+          "p": "Are your vaccinations complete for travel?",
+          "m": "Nói có đầy đủ vắc-xin cho đi du lịch không. Nói vắc-xin cụ thể nếu có.",
+          "h": "Dùng 'I am up to date for ...' và 'My last vaccine is ...'.",
+          "s": "I am up to date for travel. My last vaccine is the flu shot."
+        },
+        {
+          "p": "Do you have pain now and where?",
+          "m": "Nói có đau không. Nói vị trí đau nếu có.",
+          "h": "Dùng 'I have pain in ...' hoặc 'I do not have pain'.",
+          "s": "I have pain in my stomach. It is under my ribs."
+        }
+      ]
+    }
+  ]
+}

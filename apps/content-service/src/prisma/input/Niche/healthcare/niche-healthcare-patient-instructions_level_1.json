@@ -1,0 +1,530 @@
+{
+  "l": 1,
+  "d": [
+    {
+      "t": "Nhận đơn thuốc",
+      "e": [
+        {
+          "p": "How many pills should I take?",
+          "m": "Nói số viên bạn phải uống.",
+          "h": "S + V (take) + number",
+          "s": "I take two pills."
+        },
+        {
+          "p": "When do I take them?",
+          "m": "Nói lúc nào bạn uống thuốc (morning/night).",
+          "h": "S + V + time",
+          "s": "I take them in the morning."
+        },
+        {
+          "p": "Can you take the pills with water?",
+          "m": "Nói bạn có thể uống thuốc với nước hay không.",
+          "h": "S + can/can't + V",
+          "s": "I can take them with water."
+        },
+        {
+          "p": "Is it okay to take pills before sleep?",
+          "m": "Nói bạn có thể uống trước khi ngủ hay không.",
+          "h": "S + can/can't + V",
+          "s": "I can't take them before sleep."
+        },
+        {
+          "p": "The nurse says: Take two pills after food. Say you understand.",
+          "m": "Nói bạn hiểu và bạn sẽ uống sau khi ăn.",
+          "h": "S + can + V",
+          "s": "I can take two pills after food."
+        }
+      ]
+    },
+    {
+      "t": "Thuốc lỏng và muỗng đo",
+      "e": [
+        {
+          "p": "How many teaspoons do you take?",
+          "m": "Nói số muỗng bạn uống.",
+          "h": "S + V + number + 'teaspoons'",
+          "s": "I take one teaspoon."
+        },
+        {
+          "p": "Do you take the medicine before food?",
+          "m": "Nói bạn uống thuốc trước ăn hay không.",
+          "h": "S + do/does + not + V",
+          "s": "I don't take it before food."
+        },
+        {
+          "p": "Can you use the spoon in the box?",
+          "m": "Nói bạn có thể dùng muỗng trong hộp hay không.",
+          "h": "S + can/can't + V",
+          "s": "I can use the spoon in the box."
+        },
+        {
+          "p": "Where do you keep the liquid medicine?",
+          "m": "Nói nơi bạn để thuốc lỏng.",
+          "h": "S + V + place",
+          "s": "I keep it in the box."
+        },
+        {
+          "p": "The label says: Shake well before use. Say you do this.",
+          "m": "Nói bạn lắc thuốc trước khi dùng.",
+          "h": "S + V + before + N",
+          "s": "I shake it before use."
+        }
+      ]
+    },
+    {
+      "t": "Chế độ ăn sau mổ",
+      "e": [
+        {
+          "p": "Can you eat solid food today?",
+          "m": "Nói bạn có thể ăn thức ăn cứng hôm nay hay không.",
+          "h": "S + can/can't + V",
+          "s": "I can't eat solid food today."
+        },
+        {
+          "p": "What food is easy to eat?",
+          "m": "Nói một loại đồ ăn mềm bạn có thể ăn.",
+          "h": "S + V + N",
+          "s": "I eat soft rice."
+        },
+        {
+          "p": "Do you drink water after food?",
+          "m": "Nói bạn có uống nước sau khi ăn hay không.",
+          "h": "S + V + time",
+          "s": "I drink water after food."
+        },
+        {
+          "p": "Are you allowed to eat spicy food?",
+          "m": "Nói bạn có được phép ăn đồ cay hay không.",
+          "h": "S + can/can't + V",
+          "s": "I can't eat spicy food."
+        },
+        {
+          "p": "The doctor says: Eat soft food for three days. Say you understand.",
+          "m": "Nói bạn hiểu và bạn ăn đồ mềm trong ba ngày.",
+          "h": "S + V + duration",
+          "s": "I eat soft food for three days."
+        }
+      ]
+    },
+    {
+      "t": "Lưu ý khi xuất viện",
+      "e": [
+        {
+          "p": "Do you need help at home?",
+          "m": "Nói bạn có cần giúp ở nhà hay không.",
+          "h": "S + need + N / S + do/does",
+          "s": "I need help at home."
+        },
+        {
+          "p": "Can you go to work tomorrow?",
+          "m": "Nói bạn có thể đi làm ngày mai hay không.",
+          "h": "S + can/can't + V",
+          "s": "I can't go to work tomorrow."
+        },
+        {
+          "p": "Is there a follow-up appointment?",
+          "m": "Nói có hay không có lịch tái khám.",
+          "h": "There is / There are",
+          "s": "There is an appointment next week."
+        },
+        {
+          "p": "Where is the clinic for check-up?",
+          "m": "Nói nơi phòng khám để tái khám.",
+          "h": "Where + be + ...?",
+          "s": "The clinic is near the hospital."
+        },
+        {
+          "p": "The nurse says: Rest and take medicine. Say you follow this.",
+          "m": "Nói bạn sẽ nghỉ ngơi và uống thuốc.",
+          "h": "S + can + V",
+          "s": "I can rest and take medicine."
+        }
+      ]
+    },
+    {
+      "t": "Quên uống thuốc",
+      "e": [
+        {
+          "p": "You missed a dose. Do you take it now?",
+          "m": "Nói bạn có uống liều bị quên ngay bây giờ hay không.",
+          "h": "S + can/can't + V",
+          "s": "I can take it now."
+        },
+        {
+          "p": "Do you call the clinic?",
+          "m": "Nói bạn có gọi phòng khám hay không.",
+          "h": "S + do/does + V",
+          "s": "I call the clinic."
+        },
+        {
+          "p": "Do you take the pill every day?",
+          "m": "Nói bạn có uống thuốc mỗi ngày hay không.",
+          "h": "S + V every day",
+          "s": "I take the pill every day."
+        },
+        {
+          "p": "Can you set a phone alarm?",
+          "m": "Nói bạn có thể đặt báo thức điện thoại hay không.",
+          "h": "S + can/can't + V",
+          "s": "I can set a phone alarm."
+        },
+        {
+          "p": "The nurse says: If you miss a dose, take it now. Say you agree.",
+          "m": "Nói bạn đồng ý và bạn sẽ uống liều bây giờ.",
+          "h": "S + can + V",
+          "s": "I can take the missed dose now."
+        }
+      ]
+    },
+    {
+      "t": "Thức ăn tương tác với thuốc",
+      "e": [
+        {
+          "p": "Do you drink milk with this medicine?",
+          "m": "Nói bạn có uống sữa với thuốc này hay không.",
+          "h": "S + do/does + not + V",
+          "s": "I don't drink milk with this medicine."
+        },
+        {
+          "p": "Can you eat fruit with the medicine?",
+          "m": "Nói bạn có thể ăn trái cây khi uống thuốc hay không.",
+          "h": "S + can/can't + V",
+          "s": "I can eat fruit with the medicine."
+        },
+        {
+          "p": "Avoid alcohol while on medicine. Say you agree.",
+          "m": "Nói bạn tránh rượu khi uống thuốc.",
+          "h": "S + can/can't + V",
+          "s": "I can't drink alcohol with the medicine."
+        },
+        {
+          "p": "What food do you avoid?",
+          "m": "Nói một đồ ăn bạn tránh.",
+          "h": "S + don't + V + N",
+          "s": "I don't eat spicy food."
+        },
+        {
+          "p": "The doctor says: Do not drink milk with this pill. Say you understand.",
+          "m": "Nói bạn hiểu và bạn không uống sữa với viên thuốc.",
+          "h": "S + don't + V",
+          "s": "I don't drink milk with this pill."
+        }
+      ]
+    },
+    {
+      "t": "Tác dụng phụ",
+      "e": [
+        {
+          "p": "Do you have a headache?",
+          "m": "Nói bạn có bị đau đầu hay không.",
+          "h": "S + have + N",
+          "s": "I have a headache."
+        },
+        {
+          "p": "Are you sick after the medicine?",
+          "m": "Nói bạn có bị buồn nôn sau khi uống thuốc hay không.",
+          "h": "S + be + Adj",
+          "s": "I am sick after the medicine."
+        },
+        {
+          "p": "Do you have a rash?",
+          "m": "Nói bạn có nổi phát ban hay không.",
+          "h": "S + have + N",
+          "s": "I have a rash."
+        },
+        {
+          "p": "Do you feel hot or cold?",
+          "m": "Nói bạn cảm thấy nóng hoặc lạnh.",
+          "h": "S + feel + Adj",
+          "s": "I feel hot."
+        },
+        {
+          "p": "If you have a severe reaction, call us. Say you will call.",
+          "m": "Nói bạn sẽ gọi nếu bạn có phản ứng nặng.",
+          "h": "S + can + V + if ...",
+          "s": "I can call the clinic if I have a severe reaction."
+        }
+      ]
+    },
+    {
+      "t": "Thuốc hạ sốt",
+      "e": [
+        {
+          "p": "Do you have a fever?",
+          "m": "Nói bạn có bị sốt hay không.",
+          "h": "S + have + N",
+          "s": "I have a fever."
+        },
+        {
+          "p": "How many pills do you take for fever?",
+          "m": "Nói số viên bạn uống khi sốt.",
+          "h": "S + take + number + pills",
+          "s": "I take one pill."
+        },
+        {
+          "p": "Do you drink water with the fever pill?",
+          "m": "Nói bạn có uống nước khi uống thuốc hạ sốt hay không.",
+          "h": "S + do/does + V",
+          "s": "I drink water with the fever pill."
+        },
+        {
+          "p": "Can you rest when you have fever?",
+          "m": "Nói bạn có thể nghỉ khi bị sốt hay không.",
+          "h": "S + can/can't + V",
+          "s": "I can rest when I have a fever."
+        },
+        {
+          "p": "The doctor says: Take one pill every six hours. Say you follow this.",
+          "m": "Nói bạn theo hướng dẫn: uống một viên mỗi sáu giờ.",
+          "h": "S + take + every + number + hours",
+          "s": "I take one pill every six hours."
+        }
+      ]
+    },
+    {
+      "t": "Chăm sóc vết thương nhỏ",
+      "e": [
+        {
+          "p": "Can you wash the wound with water?",
+          "m": "Nói bạn có thể rửa vết thương bằng nước hay không.",
+          "h": "S + can/can't + V",
+          "s": "I can wash the wound with water."
+        },
+        {
+          "p": "Do you change the bandage daily?",
+          "m": "Nói bạn có thay băng hàng ngày hay không.",
+          "h": "S + V every day",
+          "s": "I change the bandage every day."
+        },
+        {
+          "p": "Is the wound red?",
+          "m": "Nói vết thương có đỏ hay không.",
+          "h": "S + be + Adj",
+          "s": "The wound is red."
+        },
+        {
+          "p": "Keep the wound dry. Say you will keep it dry.",
+          "m": "Nói bạn sẽ giữ vết thương khô.",
+          "h": "S + can + V",
+          "s": "I can keep the wound dry."
+        },
+        {
+          "p": "If you see more redness, call the clinic. Say you will call.",
+          "m": "Nói bạn sẽ gọi phòng khám nếu có nhiều đỏ hơn.",
+          "h": "S + can + V + if ...",
+          "s": "I can call the clinic if I see more redness."
+        }
+      ]
+    },
+    {
+      "t": "Hẹn tái khám",
+      "e": [
+        {
+          "p": "When is your follow-up?",
+          "m": "Nói ngày hẹn tái khám.",
+          "h": "S + be + day",
+          "s": "My follow-up is on Monday."
+        },
+        {
+          "p": "What time is the appointment?",
+          "m": "Nói giờ hẹn.",
+          "h": "S + be + time",
+          "s": "The appointment is at two o'clock."
+        },
+        {
+          "p": "Where is the clinic?",
+          "m": "Nói vị trí phòng khám.",
+          "h": "S + be + place",
+          "s": "The clinic is near my house."
+        },
+        {
+          "p": "Do you bring your ID?",
+          "m": "Nói bạn có mang giấy tờ hay không.",
+          "h": "S + do/does + V",
+          "s": "I bring my ID."
+        },
+        {
+          "p": "I tell you: Come back in one week. Say you can come.",
+          "m": "Nói bạn có thể đến tái khám sau một tuần.",
+          "h": "S + can + V + time",
+          "s": "I can come in one week."
+        }
+      ]
+    },
+    {
+      "t": "Hoạt động hàng ngày sau điều trị",
+      "e": [
+        {
+          "p": "Can you drive today?",
+          "m": "Nói bạn có thể lái xe hôm nay hay không.",
+          "h": "S + can/can't + V",
+          "s": "I can't drive today."
+        },
+        {
+          "p": "Do you go to work now?",
+          "m": "Nói bạn có đi làm bây giờ hay không.",
+          "h": "S + do/does + V",
+          "s": "I don't go to work now."
+        },
+        {
+          "p": "Can you do light exercise?",
+          "m": "Nói bạn có thể tập nhẹ hay không.",
+          "h": "S + can/can't + V",
+          "s": "I can do light exercise."
+        },
+        {
+          "p": "Do you lift heavy objects?",
+          "m": "Nói bạn có nâng đồ nặng hay không.",
+          "h": "S + do/does + not + V",
+          "s": "I don't lift heavy objects."
+        },
+        {
+          "p": "The nurse says: Avoid hard work for two weeks. Say you understand.",
+          "m": "Nói bạn hiểu và tránh làm việc nặng hai tuần.",
+          "h": "S + don't + V + time",
+          "s": "I don't do hard work for two weeks."
+        }
+      ]
+    },
+    {
+      "t": "Nước và uống thuốc",
+      "e": [
+        {
+          "p": "Do you drink water with medicine?",
+          "m": "Nói bạn có uống nước với thuốc hay không.",
+          "h": "S + do/does + V",
+          "s": "I drink water with medicine."
+        },
+        {
+          "p": "How much water do you drink?",
+          "m": "Nói bạn uống bao nhiêu cốc nước.",
+          "h": "S + V + number + cups",
+          "s": "I drink two cups of water."
+        },
+        {
+          "p": "Do you drink soda with medicine?",
+          "m": "Nói bạn có uống nước ngọt khi uống thuốc hay không.",
+          "h": "S + do/does + not + V",
+          "s": "I don't drink soda with medicine."
+        },
+        {
+          "p": "Can you take the pill with a full glass of water?",
+          "m": "Nói bạn có thể uống thuốc với một ly nước đầy hay không.",
+          "h": "S + can/can't + V",
+          "s": "I can take the pill with a full glass of water."
+        },
+        {
+          "p": "The nurse says: Drink water after the pill. Say you will.",
+          "m": "Nói bạn sẽ uống nước sau khi uống viên thuốc.",
+          "h": "S + can + V",
+          "s": "I can drink water after the pill."
+        }
+      ]
+    },
+    {
+      "t": "Ôn tập: Thuốc & Ăn uống",
+      "e": [
+        {
+          "p": "How many pills do you take every day?",
+          "m": "Nói số viên bạn uống mỗi ngày.",
+          "h": "S + take + number + every day",
+          "s": "I take two pills every day."
+        },
+        {
+          "p": "Can you eat fruit after medicine?",
+          "m": "Nói bạn có thể ăn trái cây sau khi uống thuốc hay không.",
+          "h": "S + can/can't + V",
+          "s": "I can eat fruit after medicine."
+        },
+        {
+          "p": "Do you drink milk with this pill?",
+          "m": "Nói bạn có uống sữa với viên này hay không.",
+          "h": "S + don't + V",
+          "s": "I don't drink milk with this pill."
+        },
+        {
+          "p": "Is it okay to skip a dose?",
+          "m": "Nói bạn có được phép bỏ liều hay không.",
+          "h": "S + can/can't + V",
+          "s": "I can't skip a dose."
+        },
+        {
+          "p": "The doctor says: Take two pills after food and rest. Say you follow.",
+          "m": "Nói bạn sẽ uống hai viên sau ăn và nghỉ ngơi.",
+          "h": "S + can + V + and + V",
+          "s": "I can take two pills after food and rest."
+        }
+      ]
+    },
+    {
+      "t": "Ôn tập: Sau xuất viện",
+      "e": [
+        {
+          "p": "Do you need help at home with food?",
+          "m": "Nói bạn có cần giúp đỡ ở nhà với đồ ăn hay không.",
+          "h": "S + need + N",
+          "s": "I need help at home with food."
+        },
+        {
+          "p": "Can you cook now?",
+          "m": "Nói bạn có thể nấu ăn bây giờ hay không.",
+          "h": "S + can/can't + V",
+          "s": "I can't cook now."
+        },
+        {
+          "p": "Do you have a follow-up next week?",
+          "m": "Nói bạn có lịch tái khám tuần tới hay không.",
+          "h": "S + have + N",
+          "s": "I have a follow-up next week."
+        },
+        {
+          "p": "Who helps you at home?",
+          "m": "Nói người giúp bạn ở nhà (mother, father, friend).",
+          "h": "Who + V + ...",
+          "s": "My mother helps me at home."
+        },
+        {
+          "p": "The nurse says: If you feel bad, come to the clinic. Say you will come.",
+          "m": "Nói bạn sẽ đến phòng khám nếu bạn thấy tệ.",
+          "h": "S + can + V + if ...",
+          "s": "I can come to the clinic if I feel bad."
+        }
+      ]
+    },
+    {
+      "t": "Ôn tập: Tình huống khẩn cấp",
+      "e": [
+        {
+          "p": "Do you know your name and age?",
+          "m": "Nói tên và tuổi của bạn.",
+          "h": "My name is [studentName] and I am [studentAge] years old.",
+          "s": "My name is [studentName] and I am [studentAge] years old."
+        },
+        {
+          "p": "Can you call for help?",
+          "m": "Nói bạn có thể gọi người giúp hay không.",
+          "h": "S + can/can't + V",
+          "s": "I can call for help."
+        },
+        {
+          "p": "Where is the pain?",
+          "m": "Nói vị trí đau (head, stomach).",
+          "h": "S + have + pain in + N",
+          "s": "I have pain in my stomach."
+        },
+        {
+          "p": "Do you take any medicine now?",
+          "m": "Nói bạn có đang uống thuốc hay không.",
+          "h": "S + do/does + V",
+          "s": "I take medicine now."
+        },
+        {
+          "p": "If you have severe pain, call the clinic and come. Say you will do this.",
+          "m": "Nói bạn sẽ gọi và đến phòng khám nếu đau nặng.",
+          "h": "S + can + V and + V",
+          "s": "I can call the clinic and come if I have severe pain."
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,530 @@
+{
+  "l": 1,
+  "d": [
+    {
+      "t": "Báo phòng bẩn",
+      "e": [
+        {
+          "p": "Is your room clean?",
+          "m": "Nói rằng phòng bẩn.",
+          "h": "S + be + adj (dirty).",
+          "s": "The room is dirty."
+        },
+        {
+          "p": "What is dirty in the room?",
+          "m": "Nói rằng sàn bẩn.",
+          "h": "The + noun + be + adj.",
+          "s": "The floor is dirty."
+        },
+        {
+          "p": "Do you want cleaning now?",
+          "m": "Nói rằng bạn cần dọn ngay.",
+          "h": "I need / I want + noun.",
+          "s": "I need cleaning now."
+        },
+        {
+          "p": "Can the staff enter to clean?",
+          "m": "Nói rằng đồng ý cho nhân viên vào phòng.",
+          "h": "Yes, you can + V.",
+          "s": "Yes, you can enter the room."
+        },
+        {
+          "p": "Do you want the sheets changed?",
+          "m": "Nói rằng bạn muốn thay ga.",
+          "h": "I want + noun.",
+          "s": "I want new sheets."
+        }
+      ]
+    },
+    {
+      "t": "Thiếu đồ dùng trong phòng",
+      "e": [
+        {
+          "p": "Is there a towel in your room?",
+          "m": "Nói rằng không có khăn.",
+          "h": "There is / There are + not.",
+          "s": "There is no towel."
+        },
+        {
+          "p": "Do you need extra towels?",
+          "m": "Nói rằng bạn cần khăn thêm.",
+          "h": "I need + noun.",
+          "s": "I need an extra towel."
+        },
+        {
+          "p": "Is the remote control on the table?",
+          "m": "Nói rằng điều khiển không có trên bàn.",
+          "h": "The + noun + be + not + place.",
+          "s": "The remote is not on the table."
+        },
+        {
+          "p": "Can we bring a kettle to your room?",
+          "m": "Nói rằng bạn muốn một ấm nước.",
+          "h": "I want / I need + noun.",
+          "s": "I want a kettle."
+        },
+        {
+          "p": "Do you need more pillows?",
+          "m": "Nói rằng bạn muốn một gối thêm.",
+          "h": "I want + one/more + noun.",
+          "s": "I want one more pillow."
+        }
+      ]
+    },
+    {
+      "t": "Báo thiết bị hỏng",
+      "e": [
+        {
+          "p": "Is the lamp working?",
+          "m": "Nói rằng đèn hỏng.",
+          "h": "The + noun + be + adj (broken).",
+          "s": "The lamp is broken."
+        },
+        {
+          "p": "Does the TV turn on?",
+          "m": "Nói rằng TV không bật được.",
+          "h": "The + noun + does not + V.",
+          "s": "The TV does not turn on."
+        },
+        {
+          "p": "Is the shower hot?",
+          "m": "Nói rằng nước tắm lạnh.",
+          "h": "The + noun + be + adj (cold).",
+          "s": "The shower is cold."
+        },
+        {
+          "p": "Can we send maintenance?",
+          "m": "Yêu cầu sửa đèn hỏng.",
+          "h": "Please fix + noun / The + noun + is broken.",
+          "s": "Please fix the lamp."
+        },
+        {
+          "p": "Do you need a repair now?",
+          "m": "Nói rằng bạn cần sửa ngay.",
+          "h": "I need + noun / now.",
+          "s": "I need a repair now."
+        }
+      ]
+    },
+    {
+      "t": "Hỏi dịch vụ dọn phòng",
+      "e": [
+        {
+          "p": "Do you want daily cleaning?",
+          "m": "Nói rằng bạn muốn dọn mỗi ngày.",
+          "h": "I want + frequency (every day).",
+          "s": "I want cleaning every day."
+        },
+        {
+          "p": "What time is good for cleaning?",
+          "m": "Nói giờ bạn muốn dọn (ví dụ: morning).",
+          "h": "In the + time / morning/night.",
+          "s": "In the morning is good."
+        },
+        {
+          "p": "Can we clean while you are out?",
+          "m": "Nói rằng bạn không ở phòng bây giờ.",
+          "h": "I am not + place / I am out.",
+          "s": "I am not in the room now."
+        },
+        {
+          "p": "Do you want fresh towels daily?",
+          "m": "Nói rằng bạn không cần khăn mỗi ngày.",
+          "h": "I do not need + noun every day.",
+          "s": "I do not need fresh towels every day."
+        },
+        {
+          "p": "Would you like a quick clean now?",
+          "m": "Chấp nhận dọn nhanh bây giờ.",
+          "h": "Yes, please + V / I want + noun.",
+          "s": "Yes, please clean now."
+        }
+      ]
+    },
+    {
+      "t": "Thay khăn và ga",
+      "e": [
+        {
+          "p": "Do you want clean towels?",
+          "m": "Nói rằng bạn muốn khăn sạch.",
+          "h": "I want + adjective + noun.",
+          "s": "I want clean towels."
+        },
+        {
+          "p": "How many towels do you need?",
+          "m": "Nói số lượng khăn bạn cần (1-5).",
+          "h": "I need + number + towels.",
+          "s": "I need two towels."
+        },
+        {
+          "p": "Do you want new sheets today?",
+          "m": "Nói rằng bạn muốn thay ga hôm nay.",
+          "h": "I want + noun + today.",
+          "s": "I want new sheets today."
+        },
+        {
+          "p": "Can we change your towels now?",
+          "m": "Cho phép nhân viên thay khăn bây giờ.",
+          "h": "Yes, you can + V.",
+          "s": "Yes, you can change the towels now."
+        },
+        {
+          "p": "Do you want a blanket change?",
+          "m": "Nói rằng bạn không cần thay chăn.",
+          "h": "I do not need + noun.",
+          "s": "I do not need a blanket change."
+        }
+      ]
+    },
+    {
+      "t": "Yêu cầu thêm gối và chăn",
+      "e": [
+        {
+          "p": "Do you have enough pillows?",
+          "m": "Nói rằng không đủ gối.",
+          "h": "There are not enough + noun / I do not have enough + noun.",
+          "s": "There are not enough pillows."
+        },
+        {
+          "p": "Would you like an extra pillow?",
+          "m": "Yêu cầu một gối thêm.",
+          "h": "I want + one extra + noun.",
+          "s": "I want one extra pillow."
+        },
+        {
+          "p": "Is the blanket warm enough?",
+          "m": "Nói rằng chăn lạnh bạn cần chăn thêm.",
+          "h": "The + noun + be + adj / I need + noun.",
+          "s": "The blanket is cold. I need another blanket."
+        },
+        {
+          "p": "Can we bring a small pillow?",
+          "m": "Nói rằng bạn chỉ cần một gối nhỏ.",
+          "h": "I need + one + small + noun.",
+          "s": "I need one small pillow."
+        },
+        {
+          "p": "Do you want more blankets now?",
+          "m": "Nói rằng bạn muốn chăn thêm ngay.",
+          "h": "I want + noun + now.",
+          "s": "I want another blanket now."
+        }
+      ]
+    },
+    {
+      "t": "Mùi và vệ sinh không tốt",
+      "e": [
+        {
+          "p": "Is there a bad smell in the room?",
+          "m": "Xác nhận có mùi khó chịu.",
+          "h": "There is + adj + smell / There is a bad smell.",
+          "s": "Yes, there is a bad smell."
+        },
+        {
+          "p": "Where is the smell from?",
+          "m": "Nói rằng mùi từ thùng rác.",
+          "h": "The smell is from + noun.",
+          "s": "The smell is from the trash."
+        },
+        {
+          "p": "Can we open the window?",
+          "m": "Yêu cầu mở cửa sổ để thoáng.",
+          "h": "Please open + the + noun / I want + to + V (but avoid phrasal verbs).",
+          "s": "Please open the window."
+        },
+        {
+          "p": "Do you want air freshener?",
+          "m": "Nói rằng bạn muốn bình thơm phòng.",
+          "h": "I want + noun.",
+          "s": "I want an air freshener."
+        },
+        {
+          "p": "Will cleaning remove the smell?",
+          "m": "Nói rằng dọn phòng sẽ giúp giảm mùi.",
+          "h": "Cleaning + will not (avoid future?), use simple present: Cleaning helps.",
+          "s": "Cleaning helps with the smell."
+        }
+      ]
+    },
+    {
+      "t": "Hẹn giờ dọn phòng",
+      "e": [
+        {
+          "p": "What time do you want cleaning?",
+          "m": "Nói giờ cụ thể (ví dụ: 10 AM).",
+          "h": "At + time / In the + morning.",
+          "s": "At 10 AM is good."
+        },
+        {
+          "p": "Do you want cleaning in the morning or evening?",
+          "m": "Chọn morning hoặc evening.",
+          "h": "I want + morning / I want + evening.",
+          "s": "I want the morning."
+        },
+        {
+          "p": "Can we come at noon?",
+          "m": "Nói rằng bạn không ở phòng ở giữa trưa.",
+          "h": "I am not + place / I am out at noon.",
+          "s": "I am not in the room at noon."
+        },
+        {
+          "p": "Is 2 PM OK for cleaning?",
+          "m": "Chấp nhận giờ 2 giờ chiều.",
+          "h": "Yes, 2 PM is OK / Yes, that is OK.",
+          "s": "Yes, 2 PM is OK."
+        },
+        {
+          "p": "Do you want a fixed time every day?",
+          "m": "Nói rằng bạn muốn giờ cố định mỗi ngày.",
+          "h": "I want + fixed time + every day.",
+          "s": "I want 10 AM every day."
+        }
+      ]
+    },
+    {
+      "t": "Đổi phòng",
+      "e": [
+        {
+          "p": "Is your room OK?",
+          "m": "Nói rằng bạn muốn đổi phòng.",
+          "h": "I want + to + V (simpler: I want + noun).",
+          "s": "I want a different room."
+        },
+        {
+          "p": "Why do you want to change the room?",
+          "m": "Nói một lý do ngắn (ví dụ: noisy).",
+          "h": "The room is + adj.",
+          "s": "The room is noisy."
+        },
+        {
+          "p": "Do you want the same floor?",
+          "m": "Nói rằng bạn muốn tầng khác.",
+          "h": "I want + another + floor.",
+          "s": "I want another floor."
+        },
+        {
+          "p": "Can we show you a new room?",
+          "m": "Chấp nhận xem phòng mới.",
+          "h": "Yes, I will + V / (Beginner simple) Yes, I want to see.",
+          "s": "Yes, I want to see the new room."
+        },
+        {
+          "p": "Do you want to move now?",
+          "m": "Nói rằng bạn muốn dọn ngay bây giờ.",
+          "h": "I want + now.",
+          "s": "I want to move now."
+        }
+      ]
+    },
+    {
+      "t": "Yêu cầu sửa chữa nhanh",
+      "e": [
+        {
+          "p": "Is the sink leaking?",
+          "m": "Nói rằng bồn rửa đang rò rỉ.",
+          "h": "The + noun + is + V-ing (but use simple: The sink is leaking).",
+          "s": "The sink is leaking."
+        },
+        {
+          "p": "Do you want immediate repair?",
+          "m": "Yêu cầu sửa ngay.",
+          "h": "I need + immediate repair / I need help now.",
+          "s": "I need a repair now."
+        },
+        {
+          "p": "Can maintenance come now?",
+          "m": "Cho phép nhân viên vào sửa ngay.",
+          "h": "Yes, you can + V.",
+          "s": "Yes, you can come now."
+        },
+        {
+          "p": "Is the door jammed?",
+          "m": "Nói rằng cửa kẹt và không mở được.",
+          "h": "The door is + adj / cannot + V (avoid complex).",
+          "s": "The door is stuck. I cannot open it."
+        },
+        {
+          "p": "Do you have a key for the room?",
+          "m": "Nói rằng bạn có chìa khóa hay không (one sentence).",
+          "h": "I have / I do not have + noun.",
+          "s": "I do not have the key."
+        }
+      ]
+    },
+    {
+      "t": "Kiểm tra đồ bị mất",
+      "e": [
+        {
+          "p": "Do you miss any item?",
+          "m": "Nói rằng bạn mất một đồ (ví dụ: phone).",
+          "h": "I lost + noun / My + noun + is missing.",
+          "s": "I lost my phone."
+        },
+        {
+          "p": "Where did you see it last?",
+          "m": "Nói nơi cuối cùng bạn thấy đồ (ví dụ: on the bed).",
+          "h": "It was on the + noun.",
+          "s": "It was on the bed."
+        },
+        {
+          "p": "Do you want us to check cleaning staff?",
+          "m": "Yêu cầu họ kiểm tra nhân viên dọn phòng.",
+          "h": "Please check + noun / staff.",
+          "s": "Please check the cleaning staff."
+        },
+        {
+          "p": "Can we look in the lost and found?",
+          "m": "Yêu cầu họ kiểm tra đồ thất lạc.",
+          "h": "Please check + place.",
+          "s": "Please check the lost and found."
+        },
+        {
+          "p": "Do you have a serial or description?",
+          "m": "Mô tả đồ một câu ngắn (màu, loại).",
+          "h": "My + noun + is + color + and + type.",
+          "s": "My phone is black and small."
+        }
+      ]
+    },
+    {
+      "t": "Phản hồi khi trả phòng",
+      "e": [
+        {
+          "p": "How was your stay?",
+          "m": "Nói rằng phòng sạch nhưng có vấn đề nhỏ.",
+          "h": "The room is + adj; but there is + noun.",
+          "s": "The room is clean but there is a small problem."
+        },
+        {
+          "p": "Did you like the cleaning service?",
+          "m": "Nói rằng bạn hài lòng với dịch vụ dọn phòng.",
+          "h": "I am + adj / I like + noun.",
+          "s": "I am happy with the cleaning service."
+        },
+        {
+          "p": "Was anything wrong in the room?",
+          "m": "Nói rằng một thiết bị hỏng (ví dụ: TV).",
+          "h": "The + noun + is broken.",
+          "s": "The TV is broken."
+        },
+        {
+          "p": "Do you want to leave a comment?",
+          "m": "Nói một câu khen hoặc góp ý ngắn.",
+          "h": "It is + adj / Please fix + noun.",
+          "s": "It is good but please fix the TV."
+        },
+        {
+          "p": "Will you come back to our hotel?",
+          "m": "Trả lời có hoặc không một câu ngắn.",
+          "h": "Yes, I will / No, I will not (but use simple).",
+          "s": "Yes, I will come back."
+        }
+      ]
+    },
+    {
+      "t": "Ôn tập: Báo lỗi và yêu cầu",
+      "e": [
+        {
+          "p": "Is everything OK in your room?",
+          "m": "Nói rằng đèn hỏng.",
+          "h": "The + noun + is broken.",
+          "s": "The light is broken."
+        },
+        {
+          "p": "Do you want us to repair it?",
+          "m": "Yêu cầu sửa ngay.",
+          "h": "I need + repair / now.",
+          "s": "I need a repair now."
+        },
+        {
+          "p": "Is there any missing item?",
+          "m": "Nói rằng bạn mất chìa khóa.",
+          "h": "I lost + noun.",
+          "s": "I lost the key."
+        },
+        {
+          "p": "Can we check the lost and found?",
+          "m": "Yêu cầu họ kiểm tra giúp.",
+          "h": "Please check + place.",
+          "s": "Please check the lost and found."
+        },
+        {
+          "p": "Do you want to change the room because of noise?",
+          "m": "Nói rằng bạn muốn đổi phòng vì ồn.",
+          "h": "I want + a different room because + reason (short).",
+          "s": "I want a different room because it is noisy."
+        }
+      ]
+    },
+    {
+      "t": "Ôn tập: Dọn phòng và đồ dùng",
+      "e": [
+        {
+          "p": "Do you want fresh towels now?",
+          "m": "Yêu cầu khăn tươi ngay.",
+          "h": "I want + noun + now.",
+          "s": "I want fresh towels now."
+        },
+        {
+          "p": "How many towels do you need?",
+          "m": "Nói số lượng khăn.",
+          "h": "I need + number + towels.",
+          "s": "I need three towels."
+        },
+        {
+          "p": "Do you want sheets changed today?",
+          "m": "Yêu cầu thay ga hôm nay.",
+          "h": "I want + noun + today.",
+          "s": "I want the sheets changed today."
+        },
+        {
+          "p": "Can we clean the room at 9 AM?",
+          "m": "Đồng ý hoặc không với giờ 9h.",
+          "h": "Yes, 9 AM is OK / No, I want another time.",
+          "s": "Yes, 9 AM is OK."
+        },
+        {
+          "p": "Do you need extra pillows and blankets?",
+          "m": "Yêu cầu một gối và một chăn thêm.",
+          "h": "I need + number + noun.",
+          "s": "I need one pillow and one blanket."
+        }
+      ]
+    },
+    {
+      "t": "Ôn tập: Hoàn tất khi trả phòng",
+      "e": [
+        {
+          "p": "Is the room clean now?",
+          "m": "Xác nhận phòng đã sạch.",
+          "h": "Yes, the room is + adj.",
+          "s": "Yes, the room is clean."
+        },
+        {
+          "p": "Do you have your personal items?",
+          "m": "Xác nhận bạn có đồ cá nhân của mình.",
+          "h": "I have / I do not have + my + noun.",
+          "s": "I have my personal items."
+        },
+        {
+          "p": "Did you pay for the minibar?",
+          "m": "Nói rằng bạn không dùng minibar.",
+          "h": "I did not use + noun.",
+          "s": "I did not use the minibar."
+        },
+        {
+          "p": "Do you want a receipt?",
+          "m": "Yêu cầu hóa đơn khi trả phòng.",
+          "h": "I want + a + receipt.",
+          "s": "I want a receipt."
+        },
+        {
+          "p": "Will you come again next time?",
+          "m": "Nói rằng bạn sẽ quay lại.",
+          "h": "I will / I will not + V (simple).",
+          "s": "I will come again."
+        }
+      ]
+    }
+  ]
+}

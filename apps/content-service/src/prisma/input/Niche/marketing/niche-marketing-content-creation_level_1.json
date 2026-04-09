@@ -1,0 +1,530 @@
+{
+  "l": 1,
+  "d": [
+    {
+      "t": "Gặp gỡ cộng tác viên mới",
+      "e": [
+        {
+          "p": "What's your name?",
+          "m": "Nói tên của bạn.",
+          "h": "S + be + N",
+          "s": "My name is [studentName]."
+        },
+        {
+          "p": "How old are you?",
+          "m": "Nói tuổi của bạn.",
+          "h": "S + am + number",
+          "s": "I am [studentAge] years old."
+        },
+        {
+          "p": "Where do you live?",
+          "m": "Nói nơi bạn sống (thành phố).",
+          "h": "S + live + in + place",
+          "s": "I live in [studentCity]."
+        },
+        {
+          "p": "What is your job?",
+          "m": "Nói nghề nghiệp của bạn.",
+          "h": "S + am/is/are + job",
+          "s": "I am a [studentJob]."
+        },
+        {
+          "p": "Do you post every day?",
+          "m": "Trả lời 'Yes' hoặc 'No'.",
+          "h": "Do + S + V? → Yes, I do / No, I don't",
+          "s": "No, I don't."
+        }
+      ]
+    },
+    {
+      "t": "Nói về một bài đăng đơn giản",
+      "e": [
+        {
+          "p": "What do you post?",
+          "m": "Nói loại nội dung (photo, video, text).",
+          "h": "S + V(s) + O",
+          "s": "I post photos."
+        },
+        {
+          "p": "Where do you make your posts?",
+          "m": "Nói nơi bạn làm bài đăng (home, office...).",
+          "h": "S + make + posts + at/in + place",
+          "s": "I make posts at home."
+        },
+        {
+          "p": "Do you use a phone or a camera?",
+          "m": "Nói công cụ chính (phone hoặc camera).",
+          "h": "S + use + phone/camera",
+          "s": "I use my phone."
+        },
+        {
+          "p": "How many photos do you post each week?",
+          "m": "Nói một số (1-100).",
+          "h": "S + V + number (use words)",
+          "s": "I post three photos a week."
+        },
+        {
+          "p": "Who likes your posts most?",
+          "m": "Nói người (family, friend...).",
+          "h": "Who + V + ...? → My + person + V",
+          "s": "My friend likes my posts most."
+        }
+      ]
+    },
+    {
+      "t": "Hỏi về ý tưởng nội dung",
+      "e": [
+        {
+          "p": "Do you have an idea?",
+          "m": "Trả lời 'Yes' hoặc 'No'.",
+          "h": "Do + S + have + ...? → Yes, I have / No, I don't",
+          "s": "Yes, I have an idea."
+        },
+        {
+          "p": "What is the idea?",
+          "m": "Nói ý tưởng ngắn (một từ hoặc cụm ngắn).",
+          "h": "What + be + ...? → The idea is + N",
+          "s": "The idea is food photos."
+        },
+        {
+          "p": "Who helps you with ideas?",
+          "m": "Nói người giúp bạn.",
+          "h": "Who + V + ...? → My + person + V",
+          "s": "My sister helps me."
+        },
+        {
+          "p": "Can you make this idea today?",
+          "m": "Trả lời 'can' hoặc 'can't'.",
+          "h": "S + can/can't + V",
+          "s": "I can make it today."
+        },
+        {
+          "p": "Where do you get new ideas?",
+          "m": "Nói nguồn ý tưởng (internet, friend, walk...).",
+          "h": "S + get + from + place",
+          "s": "I get ideas from the internet."
+        }
+      ]
+    },
+    {
+      "t": "Nói về tần suất đăng bài",
+      "e": [
+        {
+          "p": "Do you post every day?",
+          "m": "Trả lời 'Yes' hoặc 'No'.",
+          "h": "Do + S + V? → Yes, I do / No, I don't",
+          "s": "No, I don't."
+        },
+        {
+          "p": "How often do you post?",
+          "m": "Nói tần suất (every day / every week / twice a week).",
+          "h": "How often + do + S + V? → every ... / twice ...",
+          "s": "I post every week."
+        },
+        {
+          "p": "What time do you post?",
+          "m": "Nói thời điểm (morning/night).",
+          "h": "S + V + in the morning / at night",
+          "s": "I post in the morning."
+        },
+        {
+          "p": "Do you prepare posts before you post?",
+          "m": "Trả lời 'Yes' hoặc 'No'.",
+          "h": "Do + S + V? → Yes, I do / No, I don't",
+          "s": "Yes, I prepare posts before."
+        },
+        {
+          "p": "Who checks your posts before you post?",
+          "m": "Nói người kiểm tra bài đăng.",
+          "h": "Who + V + ...? → My + person + V",
+          "s": "My friend checks my posts."
+        }
+      ]
+    },
+    {
+      "t": "Chia sẻ về thiết bị đơn giản",
+      "e": [
+        {
+          "p": "Do you have a phone?",
+          "m": "Trả lời 'Yes' hoặc 'No'.",
+          "h": "Do + S + have + N? → Yes, I have / No, I don't",
+          "s": "Yes, I have a phone."
+        },
+        {
+          "p": "Is there a camera on your desk?",
+          "m": "Trả lời 'Yes' hoặc 'No' với 'There is/are'.",
+          "h": "There is / There are + N",
+          "s": "There is a camera on my desk."
+        },
+        {
+          "p": "What color is your phone?",
+          "m": "Nói màu của điện thoại (red, black...).",
+          "h": "S + be + color",
+          "s": "My phone is black."
+        },
+        {
+          "p": "Can you take a photo now?",
+          "m": "Trả lời 'can' hoặc 'can't'.",
+          "h": "S + can/can't + V",
+          "s": "I can take a photo now."
+        },
+        {
+          "p": "How many apps do you use for posts?",
+          "m": "Nói số app bạn dùng.",
+          "h": "S + use + number + apps",
+          "s": "I use two apps."
+        }
+      ]
+    },
+    {
+      "t": "Viết blog hoặc ghi chú đơn giản",
+      "e": [
+        {
+          "p": "Do you write a blog?",
+          "m": "Trả lời 'Yes' hoặc 'No'.",
+          "h": "Do + S + V? → Yes, I do / No, I don't",
+          "s": "No, I don't write a blog."
+        },
+        {
+          "p": "What is your blog about?",
+          "m": "Nói chủ đề ngắn (food, travel...).",
+          "h": "S + be + about + N",
+          "s": "My blog is about food."
+        },
+        {
+          "p": "Who reads your blog?",
+          "m": "Nói người đọc (family, friends...).",
+          "h": "Who + V + ...? → My + person + V",
+          "s": "My family reads my blog."
+        },
+        {
+          "p": "Do you write long text or short text?",
+          "m": "Chọn 'long' hoặc 'short'.",
+          "h": "S + V + long/short",
+          "s": "I write short text."
+        },
+        {
+          "p": "Where do you write your blog?",
+          "m": "Nói nơi bạn viết (phone, computer...).",
+          "h": "S + write + on + place",
+          "s": "I write on my phone."
+        }
+      ]
+    },
+    {
+      "t": "Tạo quảng cáo đơn giản",
+      "e": [
+        {
+          "p": "Do you make ads?",
+          "m": "Trả lời 'Yes' hoặc 'No'.",
+          "h": "Do + S + V? → Yes, I do / No, I don't",
+          "s": "No, I don't make ads."
+        },
+        {
+          "p": "What is the ad for?",
+          "m": "Nói sản phẩm ngắn (coffee, cake...).",
+          "h": "The ad is for + N",
+          "s": "The ad is for coffee."
+        },
+        {
+          "p": "Who buys the product?",
+          "m": "Nói khách hàng (people, friends...).",
+          "h": "Who + V + ...? → People / My + person + V",
+          "s": "People buy the product."
+        },
+        {
+          "p": "Can you show the ad on social media?",
+          "m": "Trả lời 'Yes' hoặc 'No'.",
+          "h": "S + can/can't + V",
+          "s": "Yes, I can show it on social media."
+        },
+        {
+          "p": "How much time do you spend on one ad?",
+          "m": "Nói thời gian ngắn (số giờ hoặc số phút).",
+          "h": "S + spend + number + hour(s)/minute(s)",
+          "s": "I spend one hour."
+        }
+      ]
+    },
+    {
+      "t": "Lên lịch đăng bài đơn giản",
+      "e": [
+        {
+          "p": "Do you plan your posts?",
+          "m": "Trả lời 'Yes' hoặc 'No'.",
+          "h": "Do + S + V? → Yes, I do / No, I don't",
+          "s": "Yes, I plan my posts."
+        },
+        {
+          "p": "What day do you post this week?",
+          "m": "Nói một ngày trong tuần.",
+          "h": "I post on + day",
+          "s": "I post on Monday."
+        },
+        {
+          "p": "Do you post at night or in the morning?",
+          "m": "Chọn 'night' hoặc 'in the morning'.",
+          "h": "S + V + in the morning / at night",
+          "s": "I post in the morning."
+        },
+        {
+          "p": "Who helps you with the plan?",
+          "m": "Nói người giúp bạn lập kế hoạch.",
+          "h": "Who + V + ...? → My + person + V",
+          "s": "My friend helps me with the plan."
+        },
+        {
+          "p": "Can you post two times this week?",
+          "m": "Trả lời 'Yes' hoặc 'No'.",
+          "h": "S + can/can't + V",
+          "s": "Yes, I can."
+        }
+      ]
+    },
+    {
+      "t": "Phản hồi bình luận của khán giả",
+      "e": [
+        {
+          "p": "Nice photo!",
+          "m": "Hỏi trả lời lời khen: nói 'Thank you'.",
+          "h": "Say 'Thank you'.",
+          "s": "Thank you."
+        },
+        {
+          "p": "Where is this?",
+          "m": "Nói nơi ngắn của bức ảnh.",
+          "h": "This is in + place / I am in + place",
+          "s": "This is in [studentCity]."
+        },
+        {
+          "p": "Do you sell this?",
+          "m": "Trả lời 'Yes' hoặc 'No'.",
+          "h": "Do + S + V? → Yes, I do / No, I don't",
+          "s": "No, I don't sell this."
+        },
+        {
+          "p": "How many do you have?",
+          "m": "Nói số lượng bạn có.",
+          "h": "S + have + number",
+          "s": "I have five."
+        },
+        {
+          "p": "Thanks for your help!",
+          "m": "Đáp lại: 'You are welcome' hoặc 'Welcome'.",
+          "h": "Say 'You are welcome' or 'Welcome'.",
+          "s": "You are welcome."
+        }
+      ]
+    },
+    {
+      "t": "Giải thích công cụ và ứng dụng",
+      "e": [
+        {
+          "p": "What app do you use?",
+          "m": "Nói tên app bạn dùng (một từ).",
+          "h": "I use + app",
+          "s": "I use Instagram."
+        },
+        {
+          "p": "Is the app free?",
+          "m": "Trả lời 'Yes' hoặc 'No'.",
+          "h": "S + be + free / not free",
+          "s": "Yes, it is free."
+        },
+        {
+          "p": "Do you edit photos in the app?",
+          "m": "Trả lời 'Yes' hoặc 'No'.",
+          "h": "Do + S + V? → Yes, I do / No, I don't",
+          "s": "Yes, I edit photos in the app."
+        },
+        {
+          "p": "Who helps you edit?",
+          "m": "Nói người giúp bạn chỉnh ảnh.",
+          "h": "Who + V + ...? → My + person + V",
+          "s": "My friend helps me."
+        },
+        {
+          "p": "Can you post from your phone?",
+          "m": "Trả lời 'Yes' hoặc 'No'.",
+          "h": "S + can/can't + V",
+          "s": "I can post from my phone."
+        }
+      ]
+    },
+    {
+      "t": "Phản hồi và ý kiến từ khách hàng",
+      "e": [
+        {
+          "p": "Do people like your posts?",
+          "m": "Trả lời 'Yes' hoặc 'No'.",
+          "h": "Do + S + V? → Yes, people like / No, they don't",
+          "s": "Yes, people like my posts."
+        },
+        {
+          "p": "Who gives good feedback?",
+          "m": "Nói người cho phản hồi tốt.",
+          "h": "Who + V + ...? → My + person + V",
+          "s": "My customers give good feedback."
+        },
+        {
+          "p": "Is the feedback short or long?",
+          "m": "Chọn 'short' hoặc 'long'.",
+          "h": "The feedback is + short/long",
+          "s": "The feedback is short."
+        },
+        {
+          "p": "Do you change posts after feedback?",
+          "m": "Trả lời 'Yes' hoặc 'No'.",
+          "h": "Do + S + V? → Yes, I do / No, I don't",
+          "s": "Yes, I change posts after feedback."
+        },
+        {
+          "p": "How many comments do you get?",
+          "m": "Nói số bình luận bạn nhận được.",
+          "h": "I get + number + comments",
+          "s": "I get ten comments."
+        }
+      ]
+    },
+    {
+      "t": "Kể về một ngày làm việc với nội dung",
+      "e": [
+        {
+          "p": "Do you work today?",
+          "m": "Trả lời 'Yes' hoặc 'No'.",
+          "h": "Do + S + V? → Yes, I do / No, I don't",
+          "s": "Yes, I work today."
+        },
+        {
+          "p": "What time do you start work?",
+          "m": "Nói giờ bắt đầu đơn giản (ví dụ: nine).",
+          "h": "I start work at + time",
+          "s": "I start work at nine."
+        },
+        {
+          "p": "Do you make content in the morning?",
+          "m": "Trả lời 'Yes' hoặc 'No'.",
+          "h": "Do + S + V? → Yes, I do / No, I don't",
+          "s": "Yes, I make content in the morning."
+        },
+        {
+          "p": "What do you do in the evening?",
+          "m": "Nói một hoạt động đơn giản buổi tối.",
+          "h": "S + V + O",
+          "s": "I edit photos in the evening."
+        },
+        {
+          "p": "Do you rest after work?",
+          "m": "Trả lời 'Yes' hoặc 'No'.",
+          "h": "Do + S + V? → Yes, I do / No, I don't",
+          "s": "Yes, I rest after work."
+        }
+      ]
+    },
+    {
+      "t": "Ôn tập: Giới thiệu và công việc",
+      "e": [
+        {
+          "p": "What's your name?",
+          "m": "Nói tên của bạn.",
+          "h": "S + be + N",
+          "s": "My name is [studentName]."
+        },
+        {
+          "p": "Where do you live?",
+          "m": "Nói nơi bạn sống.",
+          "h": "S + live + in + place",
+          "s": "I live in [studentCity]."
+        },
+        {
+          "p": "What is your job?",
+          "m": "Nói nghề nghiệp của bạn.",
+          "h": "S + am/is/are + job",
+          "s": "I am a [studentJob]."
+        },
+        {
+          "p": "Do you make posts every day?",
+          "m": "Trả lời 'Yes' hoặc 'No'.",
+          "h": "Do + S + V? → Yes, I do / No, I don't",
+          "s": "No, I don't."
+        },
+        {
+          "p": "Can you make a photo now?",
+          "m": "Trả lời 'Yes' hoặc 'No'.",
+          "h": "S + can/can't + V",
+          "s": "Yes, I can."
+        }
+      ]
+    },
+    {
+      "t": "Ôn tập: Ý tưởng, thiết bị và lịch",
+      "e": [
+        {
+          "p": "Do you have an idea for a post?",
+          "m": "Trả lời 'Yes' hoặc 'No'.",
+          "h": "Do + S + have + ...? → Yes, I have / No, I don't",
+          "s": "Yes, I have an idea."
+        },
+        {
+          "p": "What tool do you use?",
+          "m": "Nói công cụ (phone, camera...).",
+          "h": "I use + tool",
+          "s": "I use my phone."
+        },
+        {
+          "p": "How many photos do you make each week?",
+          "m": "Nói số lượng ảnh mỗi tuần.",
+          "h": "S + V + number",
+          "s": "I make three photos each week."
+        },
+        {
+          "p": "Do you plan posts on Monday?",
+          "m": "Trả lời 'Yes' hoặc 'No' và nói ngày nếu có.",
+          "h": "Do + S + V + on + day? → Yes, I do / No, I don't",
+          "s": "I plan posts on Monday."
+        },
+        {
+          "p": "Who helps you with ideas?",
+          "m": "Nói người giúp bạn nghĩ ý tưởng.",
+          "h": "Who + V + ...? → My + person + V",
+          "s": "My friend helps me."
+        }
+      ]
+    },
+    {
+      "t": "Ôn tập: Tương tác với khán giả",
+      "e": [
+        {
+          "p": "Nice post!",
+          "m": "Đáp lời khen: nói 'Thank you'.",
+          "h": "Say 'Thank you'.",
+          "s": "Thank you."
+        },
+        {
+          "p": "Do you sell this?",
+          "m": "Trả lời 'Yes' hoặc 'No'.",
+          "h": "Do + S + V? → Yes, I do / No, I don't",
+          "s": "No, I don't sell this."
+        },
+        {
+          "p": "Where are you?",
+          "m": "Nói nơi bạn đang ở.",
+          "h": "I am in + place",
+          "s": "I am in [studentCity]."
+        },
+        {
+          "p": "Can you help me?",
+          "m": "Trả lời 'Yes' hoặc 'No'.",
+          "h": "S + can/can't + V",
+          "s": "Yes, I can help you."
+        },
+        {
+          "p": "Good job!",
+          "m": "Đáp lời khen ngắn: 'Thank you'.",
+          "h": "Say 'Thank you'.",
+          "s": "Thank you."
+        }
+      ]
+    }
+  ]
+}

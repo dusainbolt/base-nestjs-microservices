@@ -1,0 +1,530 @@
+{
+  "l": 2,
+  "d": [
+    {
+      "t": "Gặp khách hàng mới",
+      "e": [
+        {
+          "p": "What do you do?",
+          "m": "Nói nghề hoặc công việc của bạn. Nói bạn cần khách hàng mới hay không.",
+          "h": "S + V(s) và I need / I want + N",
+          "s": "I work in sales. I need new customers."
+        },
+        {
+          "p": "How do you find customers now?",
+          "m": "Nói một kênh bạn thường dùng. Nói bạn đang dùng kênh đó bây giờ hay không.",
+          "h": "adv of freq + V, S + be + V-ing",
+          "s": "I often use social media. I am using it now."
+        },
+        {
+          "p": "How many new customers do you get each week?",
+          "m": "Nêu số khách mới mỗi tuần (dùng There are + số + N). Nói nơi họ đến (ví dụ: online, shop).",
+          "h": "There are + số + N; S + V + from + place",
+          "s": "There are five new customers each week. They come from online ads."
+        },
+        {
+          "p": "Do you want more customers?",
+          "m": "Trả lời có hoặc không. Nói lý do ngắn gọn (ví dụ: tăng doanh số).",
+          "h": "I want / I need + to V or + N",
+          "s": "Yes, I want more customers. I need more sales."
+        },
+        {
+          "p": "Can we meet to talk about finding more customers?",
+          "m": "Chấp nhận hoặc từ chối ngắn. Đề xuất một thời gian gặp dùng thì tiếp diễn cho kế hoạch.",
+          "h": "I am + V-ing cho kế hoạch, or I can / I cannot",
+          "s": "Yes, I can meet next Monday. I am free at 10."
+        }
+      ]
+    },
+    {
+      "t": "Tin nhắn giới thiệu dịch vụ",
+      "e": [
+        {
+          "p": "Hi, can you tell me about your service?",
+          "m": "Nói ngắn gọn dịch vụ bạn làm. Nói bạn có giúp khách tìm khách mới hay không.",
+          "h": "S + V(s) ; I can / I cannot + help + to V",
+          "s": "I help small shops sell online. I can help you find new customers."
+        },
+        {
+          "p": "How often do you run ads?",
+          "m": "Nói tần suất bạn chạy quảng cáo (adv of freq). Nói kênh bạn dùng.",
+          "h": "adv of freq + V(s); use + kênh",
+          "s": "We often run ads. We use Facebook and email."
+        },
+        {
+          "p": "Do you have a short price list?",
+          "m": "Nói có hay không. Nếu có, nêu một mức giá đơn giản (ví dụ: dollars).",
+          "h": "I have / I do not have; use numbers",
+          "s": "I have a small price list. One plan costs 100 dollars."
+        },
+        {
+          "p": "Can you start this week?",
+          "m": "Trả lời có hoặc không. Nói bạn đang bận hay rảnh (dùng present continuous).",
+          "h": "I am + V-ing cho trạng thái hiện tại; I can / I cannot",
+          "s": "Yes, I can start this week. I am free on Thursday."
+        },
+        {
+          "p": "What results do you get for small shops?",
+          "m": "Nói kết quả ngắn (ví dụ: số khách mới). Nói tần suất kết quả xuất hiện (ví dụ: mỗi tuần).",
+          "h": "There are + số + N; adv of freq + V",
+          "s": "There are two new customers a week. We often get good results."
+        }
+      ]
+    },
+    {
+      "t": "Hỏi về nhu cầu khách hàng",
+      "e": [
+        {
+          "p": "What do you need now?",
+          "m": "Nói một điều bạn cần ngay (I need + N/to V). Nói lý do ngắn cho nhu cầu đó.",
+          "h": "I need + N / to V",
+          "s": "I need more customers. I want more sales this month."
+        },
+        {
+          "p": "Who are your main customers?",
+          "m": "Nói loại khách hàng (ví dụ: young people, families). Nói họ ở đâu (in [city] / online).",
+          "h": "They are + nhóm; in / online",
+          "s": "They are young people. They buy online."
+        },
+        {
+          "p": "How much do you spend on ads each month?",
+          "m": "Nói số tiền ngắn (dùng numbers). Nói bạn có muốn tăng chi tiêu hay không.",
+          "h": "Use number; I want / I do not want",
+          "s": "I spend 200 dollars each month. I want to spend more."
+        },
+        {
+          "p": "Do you like online meetings?",
+          "m": "Trả lời thích hay không (I like / I do not like). Nói bạn muốn gặp ở đâu (online/on-site).",
+          "h": "I like / I do not like; use in/on",
+          "s": "I like online meetings. I prefer to meet on Zoom."
+        },
+        {
+          "p": "Can you tell me one problem with your customers?",
+          "m": "Nói một vấn đề ngắn. Nói bạn muốn giải quyết vấn đề đó hay không.",
+          "h": "S + V(s); I want / I need + to V",
+          "s": "Customers buy less often. I want to fix this problem."
+        }
+      ]
+    },
+    {
+      "t": "Nói về quy mô và mục tiêu",
+      "e": [
+        {
+          "p": "How many employees do you have?",
+          "m": "Nói số nhân viên (There are + số + N). Nói công ty nhỏ hay lớn (small/large).",
+          "h": "There are + số + N; use small/large",
+          "s": "There are five employees. We are a small company."
+        },
+        {
+          "p": "What is your sales goal this month?",
+          "m": "Nói một mục tiêu số (dùng number). Nói bạn thường đo lường kết quả như thế nào (short).",
+          "h": "Use number; we measure with simple phrase",
+          "s": "Our goal is 100 sales this month. We check sales every week."
+        },
+        {
+          "p": "Do you usually sell online or in a shop?",
+          "m": "Nói nơi bán chính (online/in a shop). Nói bạn muốn thay đổi hay không.",
+          "h": "use usually; I want / I do not want",
+          "s": "We usually sell online. I want to sell more in the shop."
+        },
+        {
+          "p": "Are you happy with your current customer number?",
+          "m": "Trả lời có hoặc không. Nói ngắn lý do (vì tốt/xấu).",
+          "h": "I am happy / I am not happy; give reason",
+          "s": "I am not happy. Sales are too low."
+        },
+        {
+          "p": "Can we work to reach your goal together?",
+          "m": "Trả lời đồng ý hoặc không. Nêu cách đơn giản bạn muốn làm (ví dụ: chạy ads).",
+          "h": "I can / I cannot; use to V",
+          "s": "Yes, I can work with you. I will run ads for your shop."
+        }
+      ]
+    },
+    {
+      "t": "Lên lịch demo sản phẩm",
+      "e": [
+        {
+          "p": "Would you like a demo?",
+          "m": "Trả lời muốn hay không (Yes/No). Nói thời gian bạn rảnh (ngày/giờ).",
+          "h": "Yes, I would like / No, I would not; use on/at",
+          "s": "Yes, I would like a demo. I am free on Tuesday at 2."
+        },
+        {
+          "p": "How long should the demo be?",
+          "m": "Nói thời lượng (ví dụ: 30 minutes). Nói bạn có thể tham gia từ đầu tới cuối hay không.",
+          "h": "Use numbers + minutes; I can / I cannot",
+          "s": "Thirty minutes is fine. I can join the whole demo."
+        },
+        {
+          "p": "Do you prefer morning or afternoon?",
+          "m": "Chọn morning hoặc afternoon. Nói bạn thường rảnh vào thời điểm nào.",
+          "h": "I prefer + morning/afternoon; adv of freq",
+          "s": "I prefer the morning. I am usually free before 10."
+        },
+        {
+          "p": "Can you join online?",
+          "m": "Trả lời có hoặc không. Nói bạn có thiết bị hay không (phone/computer).",
+          "h": "I can / I cannot; use phone/computer",
+          "s": "Yes, I can join online. I will use my computer."
+        },
+        {
+          "p": "Shall we confirm the demo time now?",
+          "m": "Xác nhận thời gian cụ thể. Nói bạn sẽ đến muộn hay đúng giờ (short).",
+          "h": "Use confirm + time; I will be + late/on time",
+          "s": "Let's confirm at 2 on Tuesday. I will be on time."
+        }
+      ]
+    },
+    {
+      "t": "Theo dõi sau cuộc gọi",
+      "e": [
+        {
+          "p": "Thank you for the call. Any questions?",
+          "m": "Trả lời có hay không. Nếu có, nêu một câu hỏi ngắn.",
+          "h": "Yes/No + I have a question; Wh- question",
+          "s": "Yes, I have a question. How many customers can we get?"
+        },
+        {
+          "p": "Can we send you a plan by email?",
+          "m": "Trả lời đồng ý hoặc không. Nói bạn thường kiểm tra email thường xuyên hay không (adv of freq).",
+          "h": "I can / I cannot; adv of freq + V",
+          "s": "Yes, you can send the plan. I often check my email."
+        },
+        {
+          "p": "Do you want a short contract?",
+          "m": "Nói bạn muốn hợp đồng ngắn hay không. Nói bạn cần thời gian bao lâu để quyết định.",
+          "h": "I want / I do not want; I need + time",
+          "s": "I want a short contract. I need three days to decide."
+        },
+        {
+          "p": "Should we call again next week?",
+          "m": "Trả lời có hoặc không. Nếu có, nêu ngày bạn rảnh (present continuous).",
+          "h": "I am + V-ing for plan; Yes/No",
+          "s": "Yes, please call next week. I am free on Wednesday."
+        },
+        {
+          "p": "Is there anything else we can do?",
+          "m": "Nêu một điều thêm bạn muốn họ làm. Nói bạn có cần tài liệu hay không.",
+          "h": "I want / I need + N/to V; Yes/No",
+          "s": "I want a sample report. I do not need other documents."
+        }
+      ]
+    },
+    {
+      "t": "Hỏi về kênh quảng cáo",
+      "e": [
+        {
+          "p": "Which channel brings most customers?",
+          "m": "Nói một kênh chính (social media, shop). Nói ngắn tần suất kênh đó hiệu quả (always/often/sometimes).",
+          "h": "Use a channel name; adv of freq + V",
+          "s": "Social media brings most customers. It often works well."
+        },
+        {
+          "p": "Do you use email marketing?",
+          "m": "Trả lời có hoặc không. Nói bạn thường gửi email mấy lần (use adv of freq or number).",
+          "h": "Yes/No; adv of freq or number",
+          "s": "Yes, we use email marketing. We send emails twice a week."
+        },
+        {
+          "p": "Are you running any offline ads?",
+          "m": "Trả lời có hay không. Nếu có, nêu ví dụ ngắn (radio, poster).",
+          "h": "I have / I do not have; give simple example",
+          "s": "No, we do not run offline ads. We only use online ads."
+        },
+        {
+          "p": "Do you want to try new channels?",
+          "m": "Trả lời muốn hay không. Nói kênh bạn muốn thử (ngắn).",
+          "h": "I want / I do not want; name a channel",
+          "s": "Yes, I want to try Instagram. I think it can help."
+        },
+        {
+          "p": "Can we help set up one ad for you?",
+          "m": "Đồng ý hoặc không. Nói bạn có thể trả tiền cho ad không (short).",
+          "h": "I can / I cannot; I can pay / I cannot pay",
+          "s": "Yes, I can agree. I can pay a small budget."
+        }
+      ]
+    },
+    {
+      "t": "Báo giá đơn giản",
+      "e": [
+        {
+          "p": "Our plan costs 100 dollars per month. Is that OK?",
+          "m": "Trả lời có phù hợp hay không. Nếu không, đề xuất một mức giá khác (number).",
+          "h": "Yes/No; give number",
+          "s": "Yes, that price is OK. I can pay 100 dollars."
+        },
+        {
+          "p": "We offer a trial for two weeks. Do you want it?",
+          "m": "Trả lời có hoặc không. Nói bạn sẽ dùng trial thường xuyên hay chỉ thử một lần.",
+          "h": "Yes/No; adv of freq or once",
+          "s": "Yes, I want the trial. I will use it every day."
+        },
+        {
+          "p": "Do you prefer monthly or yearly payment?",
+          "m": "Chọn monthly hoặc yearly. Nói bạn thường trả như thế nào (short).",
+          "h": "I prefer + monthly/yearly; I usually + V",
+          "s": "I prefer monthly payment. I usually pay by card."
+        },
+        {
+          "p": "Can you pay now or later?",
+          "m": "Nói bạn trả ngay hay sau. Nói bạn cần hoá đơn hay không.",
+          "h": "I can pay now / later; I need / I do not need",
+          "s": "I can pay later. I need an invoice."
+        },
+        {
+          "p": "Would you like a simple contract at $100 per month?",
+          "m": "Trả lời đồng ý hay không. Nói bạn muốn bắt đầu ngay hay sau (present continuous).",
+          "h": "I agree / I do not agree; I am + V-ing",
+          "s": "I agree to the contract. I am ready to start now."
+        }
+      ]
+    },
+    {
+      "t": "Hỏi về tần suất mua hàng",
+      "e": [
+        {
+          "p": "How often do customers buy from you?",
+          "m": "Nói tần suất (always/often/sometimes/never). Nói một lý do ngắn cho tần suất đó.",
+          "h": "adv of freq + V; give short reason",
+          "s": "Customers often buy from us. Prices are low and simple."
+        },
+        {
+          "p": "Do customers come back after one month?",
+          "m": "Trả lời có hay không. Nói tỷ lệ ngắn (use words: many, few).",
+          "h": "Yes/No; use many/few",
+          "s": "No, few customers come back after one month. We need better service."
+        },
+        {
+          "p": "Can you tell a common buying time (morning/evening)?",
+          "m": "Nói thời gian phổ biến. Nói ngắn lý do vì sao (ví dụ: họ rảnh buổi tối).",
+          "h": "Use morning/evening; give simple reason",
+          "s": "Evening is common. People are free after work."
+        },
+        {
+          "p": "Do you run sales every month?",
+          "m": "Trả lời có hoặc không. Nói bạn chạy sale thường xuyên hay thỉnh thoảng.",
+          "h": "I run / I do not run; adv of freq",
+          "s": "I run sales sometimes. We have a sale every two months."
+        },
+        {
+          "p": "Would you like regular customers every week?",
+          "m": "Trả lời muốn hay không. Nói bạn có kế hoạch giữ họ hay không (short).",
+          "h": "I want / I do not want; I have / I do not have a plan",
+          "s": "Yes, I want regular customers. I have a simple loyalty plan."
+        }
+      ]
+    },
+    {
+      "t": "Yêu cầu giới thiệu và referral",
+      "e": [
+        {
+          "p": "Do you know other shops who need help?",
+          "m": "Trả lời có hoặc không. Nếu có, nói bạn có thể giới thiệu họ hay không.",
+          "h": "Yes/No; I can / I cannot",
+          "s": "Yes, I know two shops. I can introduce them."
+        },
+        {
+          "p": "Can you share our info with friends?",
+          "m": "Đồng ý hay không. Nói bạn thường chia sẻ qua kênh nào (in person/online).",
+          "h": "I will / I will not; in person / online",
+          "s": "I will share your info. I usually share online."
+        },
+        {
+          "p": "Would you give a short review after work?",
+          "m": "Trả lời có hoặc không. Nói bạn sẽ viết review dài hay ngắn (short).",
+          "h": "I will / I will not; short/long",
+          "s": "Yes, I will give a review. It will be short."
+        },
+        {
+          "p": "Do you like a small reward for a referral?",
+          "m": "Trả lời có hay không. Nói bạn muốn phần thưởng như thế nào (ví dụ: discount).",
+          "h": "I like / I do not like; name a simple reward",
+          "s": "Yes, I like a small reward. A discount is good."
+        },
+        {
+          "p": "Can we call your friend next week?",
+          "m": "Đồng ý hay không. Nói bạn có thể cho số điện thoại hay không (short).",
+          "h": "I can / I cannot; I can give / I cannot give",
+          "s": "Yes, you can call them next week. I can give the phone number."
+        }
+      ]
+    },
+    {
+      "t": "Xử lý phản hồi tiêu cực",
+      "e": [
+        {
+          "p": "I had a bad experience with a service. Sorry.",
+          "m": "Nói bạn xin lỗi ngắn (I am sorry). Nói bạn muốn giúp bằng cách nào (short).",
+          "h": "I am sorry; I can + to V",
+          "s": "I am sorry to hear that. I can fix the problem."
+        },
+        {
+          "p": "The ads did not bring customers.",
+          "m": "Thừa nhận vấn đề ngắn (I know / I see). Nói bạn sẽ làm gì (short plan).",
+          "h": "I know / I see; I will + V",
+          "s": "I see the ads did not work. I will change the ad text."
+        },
+        {
+          "p": "I want to stop the service now.",
+          "m": "Trả lời chấp nhận hay đề nghị khác. Nói bạn có thể dừng ngay hay cần thời gian.",
+          "h": "I can stop / I suggest + to V",
+          "s": "I can stop the service now. You will get a refund soon."
+        },
+        {
+          "p": "Can you make a small change to the plan?",
+          "m": "Trả lời có hoặc không. Nói bạn sẽ thay đổi điều gì (short).",
+          "h": "I can / I cannot; I will + V",
+          "s": "Yes, I can change the plan. I will lower the price."
+        },
+        {
+          "p": "Will you use our service again?",
+          "m": "Trả lời có hay không. Nói một điều bạn muốn họ làm để quay lại (ví dụ: giảm giá).",
+          "h": "Yes/No; I want + N / to V",
+          "s": "Yes, I will use it again. I want a small discount."
+        }
+      ]
+    },
+    {
+      "t": "Tìm khách tại sự kiện",
+      "e": [
+        {
+          "p": "Are you at the event today?",
+          "m": "Trả lời có hoặc không. Nói bạn ở vị trí nào (near/next to/at).",
+          "h": "Yes/No; use prepositions",
+          "s": "Yes, I am at the event today. I am near the main stage."
+        },
+        {
+          "p": "Can I show you a short demo here?",
+          "m": "Đồng ý hay từ chối. Nói bạn có thể xem bây giờ hay muốn hẹn lại.",
+          "h": "I can / I cannot; I want to + V",
+          "s": "Yes, I can watch a demo now. I want a short demo."
+        },
+        {
+          "p": "How many shops do you work with?",
+          "m": "Nêu số shop (There are + số + N). Nói bạn có mở rộng được không.",
+          "h": "There are + số + N; I can / I cannot",
+          "s": "There are ten shops now. I can work with more."
+        },
+        {
+          "p": "Do you want a paper brochure?",
+          "m": "Trả lời có hay không. Nói bạn thường đọc brochure hay không (adv of freq).",
+          "h": "Yes/No; adv of freq + V",
+          "s": "No, I do not want a paper brochure. I rarely read paper info."
+        },
+        {
+          "p": "Shall we meet after the event to talk more?",
+          "m": "Đồng ý hay không. Nói thời gian bạn rảnh (use on/at).",
+          "h": "I can / I cannot; use on/at",
+          "s": "Yes, let's meet after the event. I am free at 5 PM."
+        }
+      ]
+    },
+    {
+      "t": "Ôn tập: Giao tiếp ban đầu",
+      "e": [
+        {
+          "p": "Hi, I want to know your service. Can you tell me?",
+          "m": "Giải thích dịch vụ ngắn. Nói bạn có thể giúp tìm khách mới hay không.",
+          "h": "S + V(s); I can / I cannot",
+          "s": "We run online ads for shops. We can help find new customers."
+        },
+        {
+          "p": "How often do you speak with customers?",
+          "m": "Nói tần suất bạn nói chuyện với khách (adv of freq). Nói bạn dùng kênh nào để nói (phone/online).",
+          "h": "adv of freq + V; use phone/online",
+          "s": "I often speak with customers. I use phone and online chat."
+        },
+        {
+          "p": "Can you show a simple price?",
+          "m": "Nêu một mức giá ngắn. Nói bạn có cần thời gian để trả lời hay không.",
+          "h": "Use number; I need / I do not need time",
+          "s": "One plan costs 100 dollars. I do not need time to decide."
+        },
+        {
+          "p": "Do you want to meet this week?",
+          "m": "Trả lời có hay không. Nói ngày bạn rảnh (present continuous).",
+          "h": "I can / I cannot; I am + V-ing",
+          "s": "Yes, I can meet this week. I am free on Friday."
+        },
+        {
+          "p": "Thank you. Can you send details by email?",
+          "m": "Đồng ý gửi hay không. Nói bạn kiểm tra email thường xuyên hay không.",
+          "h": "I will / I will not; adv of freq",
+          "s": "I will send the details by email. You often check your email."
+        }
+      ]
+    },
+    {
+      "t": "Ôn tập: Thỏa thuận lịch và nhu cầu",
+      "e": [
+        {
+          "p": "We can do a demo on Monday at 10. Good?",
+          "m": "Xác nhận hay đề xuất thay đổi. Nói bạn có thể tham gia online hay cần gặp trực tiếp.",
+          "h": "Yes/No; I can / I need to meet in person",
+          "s": "Yes, that time is good. I can join online."
+        },
+        {
+          "p": "What do you need from us first?",
+          "m": "Nói một điều bạn cần trước (ví dụ: sample, price). Nói bạn muốn nhận nó bằng cách nào (email/in person).",
+          "h": "I need + N / to V; use email/in person",
+          "s": "I need a sample report. Send it by email."
+        },
+        {
+          "p": "Do you have a budget for ads?",
+          "m": "Nói có hay không. Nếu có, nêu số tiền ngắn.",
+          "h": "Yes/No; use number",
+          "s": "Yes, I have a budget. It is 300 dollars."
+        },
+        {
+          "p": "Can you decide in three days?",
+          "m": "Trả lời có hoặc không. Nói bạn cần thêm thời gian hay không.",
+          "h": "I can / I cannot; I need + time",
+          "s": "I can decide in three days. I do not need more time."
+        },
+        {
+          "p": "Shall we start a small trial then?",
+          "m": "Đồng ý hay không. Nói bạn sẽ dùng trial thường xuyên hay không.",
+          "h": "I agree / I do not agree; adv of freq",
+          "s": "Yes, I agree to a trial. I will use it every day."
+        }
+      ]
+    },
+    {
+      "t": "Ôn tập: Kịch bản follow-up",
+      "e": [
+        {
+          "p": "It was good to talk. Any decision?",
+          "m": "Trả lời đã quyết định hay chưa. Nếu đã, nêu quyết định ngắn.",
+          "h": "I have decided / I have not decided; give short decision",
+          "s": "I have decided to try your plan. I will start next week."
+        },
+        {
+          "p": "We can lower the price to help. Is that OK?",
+          "m": "Chấp nhận hay không. Nói bạn có thể trả mức giá mới hay không.",
+          "h": "Yes/No; I can / I cannot pay",
+          "s": "Yes, that price is OK. I can pay the new price."
+        },
+        {
+          "p": "Do you need more information before sign?",
+          "m": "Trả lời có hoặc không. Nếu có, nêu gì bạn cần (ví dụ: sample, meeting).",
+          "h": "Yes/No; I need + N / to V",
+          "s": "Yes, I need a sample report. I also want one short meeting."
+        },
+        {
+          "p": "When can we start the service?",
+          "m": "Nói ngày bạn muốn bắt đầu. Nói bạn có thể chuẩn bị gì trước.",
+          "h": "Use on + day; I can prepare + N",
+          "s": "We can start on Monday. I can prepare product photos."
+        },
+        {
+          "p": "Thank you. Will you recommend us later?",
+          "m": "Trả lời có hay không. Nói bạn sẽ viết review hay giới thiệu bạn bè hay không.",
+          "h": "Yes/No; I will + V (review/introduce)",
+          "s": "Yes, I will recommend you. I will write a short review."
+        }
+      ]
+    }
+  ]
+}

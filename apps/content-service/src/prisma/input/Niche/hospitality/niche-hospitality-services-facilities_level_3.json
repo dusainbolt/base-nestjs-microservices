@@ -1,0 +1,530 @@
+{
+  "l": 3,
+  "d": [
+    {
+      "t": "Đặt phòng khách sạn",
+      "e": [
+        {
+          "p": "I'd like to book a room.",
+          "m": "Nói loại phòng bạn muốn. Nói ngày nhận và số đêm.",
+          "h": "Use 'I would like...' + dates.",
+          "s": "I would like a double room for two nights from June 10 to June 12. I will arrive at about 3 PM."
+        },
+        {
+          "p": "Do you need any personal details?",
+          "m": "Cho biết tên của bạn. Nói bạn sẽ đến lúc mấy giờ.",
+          "h": "Use 'My name is...' and 'I will arrive at...'.",
+          "s": "My name is [studentName]. I will arrive at around 2 PM."
+        },
+        {
+          "p": "Would you like breakfast included?",
+          "m": "Nói có hoặc không. Nếu có, nói giờ bạn muốn ăn.",
+          "h": "Use 'Yes, please' or 'No, thanks' + time.",
+          "s": "Yes, please. I would like breakfast at 8 AM."
+        },
+        {
+          "p": "We need a credit card to hold the booking.",
+          "m": "Nói bạn sẽ thanh toán khi nào. Nói cách thanh toán bạn dùng.",
+          "h": "Use 'I will pay...' or 'I can pay...' + method.",
+          "s": "I will pay at the hotel. I can pay by credit card."
+        },
+        {
+          "p": "Your room is ready. Do you have any special requests?",
+          "m": "Nêu một yêu cầu cụ thể. Giải thích lý do ngắn gọn.",
+          "h": "Use 'Could I have... because...'.",
+          "s": "Could I have a quiet room. I need it because I will work in the morning."
+        }
+      ]
+    },
+    {
+      "t": "Hỏi về wifi",
+      "e": [
+        {
+          "p": "Is there Wi‑Fi in the room?",
+          "m": "Trả lời có hoặc không. Nếu có, nói bạn sẽ dùng để làm gì.",
+          "h": "Use 'Yes, there is...' + purpose.",
+          "s": "Yes, there is free Wi‑Fi in the room. I will use it to check my email."
+        },
+        {
+          "p": "What's the Wi‑Fi password?",
+          "m": "Cho biết bạn cần mật khẩu. Nói bạn sẽ kết nối ở đâu.",
+          "h": "Use 'Can I have...' and 'I will connect...' ",
+          "s": "Can I have the Wi‑Fi password, please? I will connect my laptop in the room."
+        },
+        {
+          "p": "Is there a fee for high speed internet?",
+          "m": "Hỏi có phí hay không. Hỏi giá nếu có phí.",
+          "h": "Use 'Is there...?' and 'How much is...?'",
+          "s": "Is there a fee for high speed internet? If yes, how much is it per day?"
+        },
+        {
+          "p": "The Wi‑Fi is slow in my room.",
+          "m": "Mô tả vấn đề ngắn. Yêu cầu giải pháp (ví dụ: đổi phòng hoặc kỹ thuật).",
+          "h": "Use 'The Wi‑Fi is...' and 'Could you...?'",
+          "s": "The Wi‑Fi is slow in my room. Could you please check it or move me to a better room?"
+        },
+        {
+          "p": "Do you have a business center with internet?",
+          "m": "Hỏi có trung tâm kinh doanh hay phòng máy. Nói bạn cần dùng máy tính hay in tài liệu.",
+          "h": "Use 'Do you have...' and 'I need to...'.",
+          "s": "Do you have a business center with internet? I need to use a computer and print a boarding pass."
+        }
+      ]
+    },
+    {
+      "t": "Bữa sáng ở khách sạn",
+      "e": [
+        {
+          "p": "When do you serve breakfast?",
+          "m": "Hỏi giờ phục vụ. Nói giờ bạn định ăn.",
+          "h": "Use 'When do you...' and 'I will...' ",
+          "s": "When do you serve breakfast? I will come at 7:30 AM."
+        },
+        {
+          "p": "Do you have a buffet or a la carte?",
+          "m": "Hỏi hình thức bữa sáng. Nói bạn thích loại nào.",
+          "h": "Use 'Do you have...' and 'I prefer...'.",
+          "s": "Do you have a buffet or a la carte? I prefer a buffet because I like many choices."
+        },
+        {
+          "p": "I have a food allergy.",
+          "m": "Nói bạn dị ứng với gì. Yêu cầu món ăn phù hợp.",
+          "h": "Use 'I am allergic to...' and 'Can I have...?'",
+          "s": "I am allergic to nuts. Can I have a breakfast without nuts, please?"
+        },
+        {
+          "p": "Is breakfast included in my booking?",
+          "m": "Hỏi có bao gồm hay không. Hỏi chi phí nếu không bao gồm.",
+          "h": "Use 'Is ... included?' and 'How much is...?'",
+          "s": "Is breakfast included in my booking? If not, how much is it per person?"
+        },
+        {
+          "p": "Can you prepare a packed breakfast?",
+          "m": "Hỏi khách sạn có thể chuẩn bị hộp bữa sáng không. Nói lý do ngắn (ví dụ: sáng bay sớm).",
+          "h": "Use 'Can you...' and 'because...'.",
+          "s": "Can you prepare a packed breakfast for me, please? I need it because I have an early flight."
+        }
+      ]
+    },
+    {
+      "t": "Hồ bơi và spa",
+      "e": [
+        {
+          "p": "What time does the pool open?",
+          "m": "Hỏi giờ mở hồ bơi. Nói bạn muốn đến lúc mấy giờ.",
+          "h": "Use 'What time...' and 'I want to come at...'.",
+          "s": "What time does the pool open? I want to come at 9 AM."
+        },
+        {
+          "p": "Do you provide towels at the pool?",
+          "m": "Hỏi có khăn tắm hay không. Nói bạn có cần mượn hay muốn dùng khăn riêng.",
+          "h": "Use 'Do you provide...' and 'I need...'.",
+          "s": "Do you provide towels at the pool? I will borrow one if you have extras."
+        },
+        {
+          "p": "Is the spa open for booking today?",
+          "m": "Hỏi spa còn chỗ không. Hỏi giờ trống nếu có.",
+          "h": "Use 'Is ... available?' and 'What time is...?'",
+          "s": "Is the spa available for booking today? If yes, what time slots do you have after 2 PM?"
+        },
+        {
+          "p": "The pool looks cold to me.",
+          "m": "Nói cảm nhận về nước. Hỏi họ có điều chỉnh nhiệt độ hay không.",
+          "h": "Use 'It feels...' and 'Can you...?'",
+          "s": "The pool feels cold to me. Can you please check the temperature?"
+        },
+        {
+          "p": "Are there rules for children at the pool?",
+          "m": "Hỏi quy định cho trẻ em. Nói bạn có trẻ em và cần biết gì.",
+          "h": "Use 'Are there...' and 'I have...' ",
+          "s": "Are there rules for children at the pool? I have a six-year-old and I need to know if an adult must stay with them."
+        }
+      ]
+    },
+    {
+      "t": "Dịch vụ phòng (room service)",
+      "e": [
+        {
+          "p": "Can I order room service now?",
+          "m": "Hỏi có thể gọi dịch vụ phòng ngay không. Nói bạn muốn món gì ngắn gọn.",
+          "h": "Use 'Can I order...' and 'I would like...'.",
+          "s": "Can I order room service now? I would like a club sandwich and coffee."
+        },
+        {
+          "p": "How long is the delivery time?",
+          "m": "Hỏi thời gian phục vụ. Nói bạn cần trong bao lâu.",
+          "h": "Use 'How long...' and 'I need it in...'.",
+          "s": "How long is the delivery time? I need it within 20 minutes, please."
+        },
+        {
+          "p": "There is a service charge for late-night orders.",
+          "m": "Hỏi phí dịch vụ nếu đặt khuya. Nói bạn có đồng ý trả hay không.",
+          "h": "Use 'Is there a fee?' and 'I will / I won't...' ",
+          "s": "Is there a fee for late-night orders? I will pay the fee if needed."
+        },
+        {
+          "p": "I want to cancel my room service order.",
+          "m": "Nói bạn muốn hủy. Nói lý do ngắn (ví dụ: thay đổi kế hoạch).",
+          "h": "Use 'I would like to cancel...' and 'because...'.",
+          "s": "I would like to cancel my room service order. I changed my plans and will eat outside."
+        },
+        {
+          "p": "Can you recommend a light dinner for me?",
+          "m": "Yêu cầu gợi ý món nhẹ. Nói bạn có yêu cầu về ăn kiêng nếu có.",
+          "h": "Use 'Can you recommend...' and 'I prefer / I can't eat...'.",
+          "s": "Can you recommend a light dinner? I prefer vegetarian food and no dairy."
+        }
+      ]
+    },
+    {
+      "t": "Tiện ích cho gia đình",
+      "e": [
+        {
+          "p": "Do you have baby cots or cribs?",
+          "m": "Hỏi có cũi cho bé không. Nói bạn cần cũi cho bao nhiêu trẻ.",
+          "h": "Use 'Do you have...' and 'We need...' ",
+          "s": "Do you have baby cots or cribs? We need one cot for a two-year-old."
+        },
+        {
+          "p": "Is there a kids' club at the hotel?",
+          "m": "Hỏi liệu có câu lạc bộ trẻ em. Nói bạn muốn biết giờ hoạt động.",
+          "h": "Use 'Is there...' and 'What time does...' ",
+          "s": "Is there a kids' club at the hotel? What time does it open in the morning?"
+        },
+        {
+          "p": "We need a connecting room for our family.",
+          "m": "Yêu cầu phòng thông nhau. Nói số phòng hoặc ngày cần.",
+          "h": "Use 'We need...' and 'for...' ",
+          "s": "We need a connecting room for our family. It's for three nights from July 1 to July 4."
+        },
+        {
+          "p": "Are there child safety measures near the pool?",
+          "m": "Hỏi về an toàn trẻ em quanh hồ bơi. Nói bạn lo lắng điều gì.",
+          "h": "Use 'Are there...' and 'I am worried about...'.",
+          "s": "Are there child safety measures near the pool? I am worried about slippery floors and no fence."
+        },
+        {
+          "p": "Can you arrange a baby-sitting service?",
+          "m": "Hỏi có thể đặt người trông trẻ không. Hỏi giá hoặc thời gian tối thiểu.",
+          "h": "Use 'Can you arrange...' and 'How much is...' ",
+          "s": "Can you arrange a baby-sitting service tonight? How much is it per hour?"
+        }
+      ]
+    },
+    {
+      "t": "Thanh toán và phí",
+      "e": [
+        {
+          "p": "What is included in the bill?",
+          "m": "Hỏi điều khoản đã gồm trong hóa đơn. Nói bạn muốn biết về thuế hoặc phí dịch vụ.",
+          "h": "Use 'What is included...' and 'Does it include...?'",
+          "s": "What is included in the bill? Does it include tax and service charge?"
+        },
+        {
+          "p": "Did you use the minibar?",
+          "m": "Trả lời có hoặc không. Nếu có, nêu món đã lấy.",
+          "h": "Use 'Yes, I did...' or 'No, I didn't...' ",
+          "s": "Yes, I did use the minibar. I took one bottle of water and a snack."
+        },
+        {
+          "p": "Do you require a deposit at check-in?",
+          "m": "Hỏi có đặt cọc không. Hỏi số tiền hoặc cách giữ tiền.",
+          "h": "Use 'Do you require...' and 'How much is...?'",
+          "s": "Do you require a deposit at check-in? If yes, how much is the deposit?"
+        },
+        {
+          "p": "I think there is an extra charge on my bill.",
+          "m": "Nêu bạn thấy phí lạ. Yêu cầu họ kiểm tra và giải thích.",
+          "h": "Use 'I think...' and 'Could you please check...?'",
+          "s": "I think there is an extra charge on my bill. Could you please check and explain it?"
+        },
+        {
+          "p": "Can I pay with cash at checkout?",
+          "m": "Hỏi có thể trả tiền mặt không. Nói bạn muốn thanh toán tại quầy hay trong phòng.",
+          "h": "Use 'Can I pay...' and 'I want to pay...'.",
+          "s": "Can I pay with cash at checkout? I want to pay at the front desk."
+        }
+      ]
+    },
+    {
+      "t": "Giờ nhận và trả phòng",
+      "e": [
+        {
+          "p": "What time is check‑in and check‑out?",
+          "m": "Hỏi giờ nhận phòng và trả phòng. Nói bạn sẽ tới lúc mấy giờ để họ biết.",
+          "h": "Use 'What time...' and 'I will arrive at...'.",
+          "s": "What time is check‑in and check‑out? I will arrive at 1 PM."
+        },
+        {
+          "p": "Can I have an early check‑in?",
+          "m": "Hỏi có thể nhận phòng sớm không. Nói giờ bạn cần và hỏi phí nếu có.",
+          "h": "Use 'Can I have...' and 'Is there a fee?'",
+          "s": "Can I have an early check‑in at 10 AM? Is there a fee for that?"
+        },
+        {
+          "p": "Do you offer luggage storage after check‑out?",
+          "m": "Hỏi có lưu hành lý không. Nói bạn sẽ lấy lại lúc mấy giờ.",
+          "h": "Use 'Do you offer...' and 'I will pick up at...'.",
+          "s": "Do you offer luggage storage after check‑out? I will pick up my bags at 6 PM."
+        },
+        {
+          "p": "I want to request a late check‑out.",
+          "m": "Yêu cầu trả phòng muộn. Nói bạn cần muộn đến mấy giờ và lý do ngắn.",
+          "h": "Use 'I would like...' and 'because...'.",
+          "s": "I would like a late check‑out until 2 PM. I need it because my flight is in the afternoon."
+        },
+        {
+          "p": "What happens if I leave late?",
+          "m": "Hỏi hậu quả nếu trả phòng muộn. Nói bạn muốn biết phí hoặc cách xử lý.",
+          "h": "Use 'What happens if...' and 'Will I be charged...?'",
+          "s": "What happens if I leave late? Will I be charged an extra fee?"
+        }
+      ]
+    },
+    {
+      "t": "Yêu cầu thêm đồ trong phòng",
+      "e": [
+        {
+          "p": "Can I get extra towels?",
+          "m": "Yêu cầu thêm khăn. Nói bạn cần bao nhiêu cái.",
+          "h": "Use 'Can I get...' and a number.",
+          "s": "Can I get extra towels, please? I need two more towels."
+        },
+        {
+          "p": "Is there an iron and ironing board available?",
+          "m": "Hỏi có bàn là không. Nói bạn muốn dùng ngay hay sau.",
+          "h": "Use 'Is there...' and 'I want to use...' ",
+          "s": "Is there an iron and ironing board available? I want to use it this evening."
+        },
+        {
+          "p": "I need a power adapter for my phone.",
+          "m": "Yêu cầu adapter. Nói bạn dùng loại cắm nào (ví dụ: two‑pin).",
+          "h": "Use 'I need...' and 'for a...' ",
+          "s": "I need a power adapter for my phone. It's a two‑pin plug."
+        },
+        {
+          "p": "Can you bring extra toiletries?",
+          "m": "Yêu cầu đồ vệ sinh thêm. Nói bạn cần gì cụ thể (xà phòng, bàn chải...).",
+          "h": "Use 'Can you bring...' and list one or two items.",
+          "s": "Can you bring extra toiletries, please? I need a toothbrush and shower gel."
+        },
+        {
+          "p": "We need an extra bed in the room.",
+          "m": "Yêu cầu giường phụ. Hỏi có phí và thời gian đặt trước cần thiết.",
+          "h": "Use 'We need...' and 'Is there a fee?'",
+          "s": "We need an extra bed in the room. Is there a fee and how soon can you bring it?"
+        }
+      ]
+    },
+    {
+      "t": "Phàn nàn về dịch vụ",
+      "e": [
+        {
+          "p": "There is a lot of noise in the hallway.",
+          "m": "Nêu vấn đề cụ thể. Yêu cầu họ giải quyết (ví dụ: nhắc khách khác, đổi phòng).",
+          "h": "Use 'There is...' and 'Could you...?'",
+          "s": "There is a lot of noise in the hallway. Could you please ask other guests to be quiet or move me to another room?"
+        },
+        {
+          "p": "My room was not cleaned today.",
+          "m": "Nói việc dọn phòng chưa làm. Yêu cầu dọn ngay hoặc bồi thường.",
+          "h": "Use 'My room...' and 'Please...'.",
+          "s": "My room was not cleaned today. Please send housekeeping now or give a small discount."
+        },
+        {
+          "p": "The Wi‑Fi dropped during my meeting.",
+          "m": "Mô tả sự cố. Yêu cầu cách khắc phục hoặc hoàn tiền nếu cần.",
+          "h": "Use past tense and 'Could you...' ",
+          "s": "The Wi‑Fi dropped during my meeting. Could you please fix it or offer a partial refund?"
+        },
+        {
+          "p": "I was charged for something I didn't use.",
+          "m": "Nói bạn bị tính phí không đúng. Yêu cầu họ kiểm tra hóa đơn và hoàn tiền nếu sai.",
+          "h": "Use 'I was charged...' and 'Please check...'.",
+          "s": "I was charged for something I didn't use. Please check my bill and refund the incorrect charge."
+        },
+        {
+          "p": "I lost an item in my room.",
+          "m": "Mô tả món đồ bị mất. Yêu cầu nhân viên giúp tìm và liên hệ nếu tìm thấy.",
+          "h": "Use 'I lost...' and 'Please contact me if...'.",
+          "s": "I lost a black wallet in my room. Please contact me if you find it."
+        }
+      ]
+    },
+    {
+      "t": "Phương tiện đi lại & đỗ xe",
+      "e": [
+        {
+          "p": "Do you have a shuttle to the airport?",
+          "m": "Hỏi có xe đưa đón sân bay không. Nói bạn cần xe lúc mấy giờ.",
+          "h": "Use 'Do you have...' and 'I need it at...'.",
+          "s": "Do you have a shuttle to the airport? I need it at 5 AM."
+        },
+        {
+          "p": "How much is parking per day?",
+          "m": "Hỏi phí đỗ xe mỗi ngày. Nói bạn sẽ đậu bao nhiêu ngày.",
+          "h": "Use 'How much is...' and 'I will park for...'.",
+          "s": "How much is parking per day? I will park for three days."
+        },
+        {
+          "p": "Can you book a taxi for 7 AM tomorrow?",
+          "m": "Yêu cầu đặt taxi cho thời gian cụ thể. Nói địa điểm đón.",
+          "h": "Use 'Can you book...' and 'pick up at...'.",
+          "s": "Can you book a taxi for 7 AM tomorrow? Please pick me up at the hotel entrance."
+        },
+        {
+          "p": "Is there a shuttle schedule to the city center?",
+          "m": "Hỏi lịch trình xe buýt/xe đưa đón. Nói bạn muốn đi vào buổi sáng hay chiều.",
+          "h": "Use 'Is there a schedule...' and 'I want to go in...'.",
+          "s": "Is there a shuttle schedule to the city center? I want to go in the morning."
+        },
+        {
+          "p": "Do you offer airport pickup with a child seat?",
+          "m": "Hỏi có chỗ ngồi trẻ em không. Nói tuổi hoặc cân nặng trẻ nếu cần.",
+          "h": "Use 'Do you offer...' and 'for a child...' ",
+          "s": "Do you offer airport pickup with a child seat? It's for a three-year-old child."
+        }
+      ]
+    },
+    {
+      "t": "Dịch vụ giặt ủi",
+      "e": [
+        {
+          "p": "Do you offer laundry service?",
+          "m": "Hỏi có dịch vụ giặt ủi không. Nói bạn muốn giặt bao nhiêu đồ.",
+          "h": "Use 'Do you offer...' and 'I want to wash...'.",
+          "s": "Do you offer laundry service? I want to wash three shirts and two pairs of pants."
+        },
+        {
+          "p": "How long does same‑day service take?",
+          "m": "Hỏi thời gian giặt trong ngày. Nói bạn cần đồ khi nào.",
+          "h": "Use 'How long...' and 'I need it by...'.",
+          "s": "How long does same‑day service take? I need the clothes by 6 PM today."
+        },
+        {
+          "p": "Can you clean a delicate dress?",
+          "m": "Hỏi có thể giặt đồ mỏng, nhạy cảm không. Nói chất liệu hoặc ghi nhãn 'delicate'.",
+          "h": "Use 'Can you clean...' and 'It is...' ",
+          "s": "Can you clean a delicate dress? It is silk and labeled 'hand wash only.'"
+        },
+        {
+          "p": "When will you pick up the laundry?",
+          "m": "Hỏi thời gian nhân viên đến lấy đồ. Nói bạn ở phòng lúc nào.",
+          "h": "Use 'When will...' and 'I will be in the room at...'.",
+          "s": "When will you pick up the laundry? I will be in the room at 10 AM."
+        },
+        {
+          "p": "One of my shirts was damaged after cleaning.",
+          "m": "Nói đồ bị hỏng. Yêu cầu họ kiểm tra và bồi thường hoặc sửa chữa.",
+          "h": "Use past tense and 'Please check...'.",
+          "s": "One of my shirts was damaged after cleaning. Please check and let me know about compensation."
+        }
+      ]
+    },
+    {
+      "t": "Ôn tập: Đặt dịch vụ trong khách sạn",
+      "e": [
+        {
+          "p": "I want to book a spa and breakfast package.",
+          "m": "Xác nhận loại gói bạn muốn. Nói ngày và giờ bạn muốn dùng spa và ăn sáng.",
+          "h": "Use 'I would like...' and 'on... at...'.",
+          "s": "I would like the spa and breakfast package for July 5. Please book the spa at 4 PM and breakfast at 8 AM."
+        },
+        {
+          "p": "Can you arrange airport pickup and a late check‑in?",
+          "m": "Yêu cầu đón sân bay và nhận phòng muộn. Nói giờ hạ cánh và lúc bạn muốn nhận phòng.",
+          "h": "Use 'Can you arrange...' and 'I will arrive at...'.",
+          "s": "Can you arrange airport pickup and a late check‑in? My flight lands at 11 PM and I want to check in at midnight."
+        },
+        {
+          "p": "I need faster Wi‑Fi and extra towels for my room.",
+          "m": "Yêu cầu Wi‑Fi nhanh hơn. Yêu cầu số khăn cần thêm.",
+          "h": "Use 'I need...' and a number.",
+          "s": "I need faster Wi‑Fi for my laptop. I also need two extra towels, please."
+        },
+        {
+          "p": "Please add breakfast for one more guest to my booking.",
+          "m": "Yêu cầu thêm bữa sáng cho khách phụ. Nói ngày và số khách mới.",
+          "h": "Use 'Please add...' and 'for...'.",
+          "s": "Please add breakfast for one more guest to my booking. It's for tomorrow morning, two people total."
+        },
+        {
+          "p": "Can I have an invoice for all services at check‑out?",
+          "m": "Yêu cầu hóa đơn cho tất cả dịch vụ. Nói bạn muốn nhận hóa đơn khi trả phòng.",
+          "h": "Use 'Can I have...' and 'at check‑out.'",
+          "s": "Can I have an invoice for all services at check‑out? Please prepare it when I leave tomorrow."
+        }
+      ]
+    },
+    {
+      "t": "Ôn tập: Giải quyết vấn đề dịch vụ",
+      "e": [
+        {
+          "p": "My room is cold and the heater is noisy.",
+          "m": "Mô tả hai vấn đề. Yêu cầu giải pháp (ví dụ: sửa chữa hoặc đổi phòng).",
+          "h": "Use 'The room is...' and 'Could you...?'",
+          "s": "The room is cold and the heater is noisy. Could you please fix it or move me to another room?"
+        },
+        {
+          "p": "I was double charged for the minibar.",
+          "m": "Nói vấn đề tính phí đôi. Yêu cầu họ kiểm tra và hoàn tiền.",
+          "h": "Use past tense and 'Please check...'.",
+          "s": "I was double charged for the minibar. Please check my bill and refund the extra charge."
+        },
+        {
+          "p": "The shuttle didn't arrive at the scheduled time.",
+          "m": "Mô tả việc trễ. Yêu cầu họ sắp xếp phương tiện khác và xin lỗi hoặc giải thích.",
+          "h": "Use past tense and 'Could you arrange...?'",
+          "s": "The shuttle didn't arrive at the scheduled time. Could you arrange another car and explain why it was late?"
+        },
+        {
+          "p": "My laundry was lost after pickup.",
+          "m": "Báo mất đồ giặt. Yêu cầu tìm và nói bạn muốn bồi thường hay không.",
+          "h": "Use 'My ... was lost' and 'Please find...' ",
+          "s": "My laundry was lost after pickup. Please find it and tell me about compensation if it cannot be located."
+        },
+        {
+          "p": "I am unhappy with the meal quality last night.",
+          "m": "Nêu lý do bạn không hài lòng. Yêu cầu họ đổi món, hoàn tiền hoặc bồi thường phù hợp.",
+          "h": "Use 'I am unhappy...' and 'Please...' ",
+          "s": "I am unhappy with the meal quality last night because it was cold. Please offer a replacement or a partial refund."
+        }
+      ]
+    },
+    {
+      "t": "Ôn tập: Tóm tắt trải nghiệm lưu trú",
+      "e": [
+        {
+          "p": "How was your stay with us?",
+          "m": "Tóm tắt cảm nhận tổng quan (tốt/không tốt). Nêu một dịch vụ bạn thích nhất.",
+          "h": "Use two short sentences: overall + favorite service.",
+          "s": "My stay was very comfortable. I liked the breakfast the most."
+        },
+        {
+          "p": "Would you recommend our hotel to friends?",
+          "m": "Nói có giới thiệu hay không. Nêu lý do ngắn cho quyết định của bạn.",
+          "h": "Use 'Yes/No' + reason with 'because...'.",
+          "s": "Yes, I would recommend your hotel. The staff were helpful and the location is convenient."
+        },
+        {
+          "p": "Do you have any suggestions for improvement?",
+          "m": "Nêu một điều cần cải thiện. Đề xuất cách cải thiện ngắn gọn.",
+          "h": "Use 'You could...' or 'Please consider...' ",
+          "s": "You could improve the Wi‑Fi speed in some rooms. Please consider upgrading the router."
+        },
+        {
+          "p": "What was the best part of your stay?",
+          "m": "Chỉ ra phần tốt nhất. Giải thích ngắn vì sao.",
+          "h": "Use 'The best part was...' and 'because...'.",
+          "s": "The best part was the friendly staff. They helped me with all my requests quickly."
+        },
+        {
+          "p": "Any final comments before you check out?",
+          "m": "Cho lời khen hoặc phàn nàn ngắn. Nói bạn sẽ quay lại hay không.",
+          "h": "Use one positive or negative sentence and 'I will/won't come back.'",
+          "s": "The room was clean but the elevator was slow. I will come back next time because the service was good."
+        }
+      ]
+    }
+  ]
+}

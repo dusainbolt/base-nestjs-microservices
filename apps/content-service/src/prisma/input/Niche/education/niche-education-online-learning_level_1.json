@@ -5,22 +5,22 @@
       "t": "Gặp giáo viên online",
       "e": [
         {
-          "p": "Are you ready for the lesson today?",
-          "m": "Nói bạn đã sẵn sàng và có đồ dùng học tập.",
-          "h": "Yes, I am ready. I have my + đồ dùng.",
-          "s": "Yes, I am ready. I have my notebook."
+          "p": "What is your name?",
+          "m": "Nói tên của bạn.",
+          "h": "My name is + tên",
+          "s": "My name is [studentName]."
         },
         {
-          "p": "Can you hear me clearly?",
-          "m": "Nói bạn có nghe rõ hay không.",
-          "h": "Yes, I can hear you clearly. / No, I can't hear well.",
-          "s": "Yes, I can hear you clearly."
+          "p": "How old are you?",
+          "m": "Nói tuổi của bạn.",
+          "h": "I am + tuổi / I am [studentAge] years old",
+          "s": "I am [studentAge] years old."
         },
         {
-          "p": "Can you turn on your microphone?",
-          "m": "Nói bạn có thể bật mic hay không.",
-          "h": "Yes, my microphone is on. / No, I can't.",
-          "s": "Yes, my microphone is on."
+          "p": "Where do you live?",
+          "m": "Nói thành phố bạn sống.",
+          "h": "I live in + nơi",
+          "s": "I live in [studentCity]."
         },
         {
           "p": "Can you turn on your camera?",

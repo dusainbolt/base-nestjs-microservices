@@ -1,0 +1,530 @@
+{
+  "l": 1,
+  "d": [
+    {
+      "t": "Gặp khách hàng mới qua email",
+      "e": [
+        {
+          "p": "Who sent this email?",
+          "m": "Nói tên công ty gửi email (một câu).",
+          "h": "S + V(s) + O (Our company / We send).",
+          "s": "Our company sends the email."
+        },
+        {
+          "p": "Do you read our email?",
+          "m": "Nói bạn có đọc email không (một câu).",
+          "h": "I + V (I read / I do not read).",
+          "s": "I read the email."
+        },
+        {
+          "p": "Where do you live?",
+          "m": "Nói thành phố bạn sống (một câu).",
+          "h": "I live in + place.",
+          "s": "I live in [studentCity]."
+        },
+        {
+          "p": "Do you want more news?",
+          "m": "Nói có hoặc không (một câu).",
+          "h": "Use 'I want' or 'I do not want'.",
+          "s": "I do not want more news."
+        },
+        {
+          "p": "Can we help you by email?",
+          "m": "Nói một nhu cầu đơn giản (một câu).",
+          "h": "I need / I want + noun.",
+          "s": "I need help with my order."
+        }
+      ]
+    },
+    {
+      "t": "Kêu gọi đăng ký nhận tin",
+      "e": [
+        {
+          "p": "Do you want to join our email list?",
+          "m": "Trả lời có hoặc không (một câu).",
+          "h": "I want / I do not want.",
+          "s": "I want to join the list."
+        },
+        {
+          "p": "What is your job?",
+          "m": "Nói nghề nghiệp (một câu).",
+          "h": "I am + job hoặc I work as + job.",
+          "s": "I work as a teacher."
+        },
+        {
+          "p": "How often do you want emails?",
+          "m": "Nói tần suất ngắn (một câu), ví dụ 'one time a week'.",
+          "h": "Use 'I want' + time (I want one email a week).",
+          "s": "I want one email a week."
+        },
+        {
+          "p": "Where do we send the email?",
+          "m": "Nói bạn muốn nhận ở đâu (một câu).",
+          "h": "I receive / I want + at / in.",
+          "s": "I receive email at my work."
+        },
+        {
+          "p": "Can I sign up now?",
+          "m": "Trả lời có/không + lý do ngắn nếu cần (một câu).",
+          "h": "Yes / No + I + V...",
+          "s": "Yes, I can sign up now."
+        }
+      ]
+    },
+    {
+      "t": "Email chào mừng",
+      "e": [
+        {
+          "p": "Welcome! Do you like our emails?",
+          "m": "Nói bạn có thích email không (một câu).",
+          "h": "I like / I do not like.",
+          "s": "I like your emails."
+        },
+        {
+          "p": "What is your name?",
+          "m": "Nói tên bạn (một câu).",
+          "h": "I am + name.",
+          "s": "I am [studentName]."
+        },
+        {
+          "p": "Are you new here?",
+          "m": "Trả lời có hoặc không (một câu).",
+          "h": "I am / I am not.",
+          "s": "I am new here."
+        },
+        {
+          "p": "Do you read the welcome message?",
+          "m": "Nói bạn có đọc tin chào không (một câu).",
+          "h": "I read / I do not read.",
+          "s": "I read the welcome message."
+        },
+        {
+          "p": "Can we send tips by email?",
+          "m": "Nói có/không + một lý do ngắn (một câu).",
+          "h": "Use 'Yes, please' or 'No, thank you' then short reason.",
+          "s": "Yes, please send me tips."
+        }
+      ]
+    },
+    {
+      "t": "Giới thiệu sản phẩm qua email",
+      "e": [
+        {
+          "p": "We have a new product. Do you want it?",
+          "m": "Nói bạn có muốn sản phẩm không (một câu).",
+          "h": "I want / I do not want.",
+          "s": "I want the new product."
+        },
+        {
+          "p": "What is the product name?",
+          "m": "Nói tên sản phẩm bạn muốn (một câu).",
+          "h": "Use 'The product is...' or 'It is...'.",
+          "s": "It is a new phone."
+        },
+        {
+          "p": "Do you see the product image in the email?",
+          "m": "Trả lời có hoặc không (một câu).",
+          "h": "I see / I do not see.",
+          "s": "I see the product image."
+        },
+        {
+          "p": "How much is the product?",
+          "m": "Nói giá ngắn (một câu), dùng 'It is' + số hoặc 'It is cheap/expensive'.",
+          "h": "It is + adjective or It is + number.",
+          "s": "It is cheap."
+        },
+        {
+          "p": "Can we send more product info?",
+          "m": "Nói có/không (một câu).",
+          "h": "I want more info / I do not want more info.",
+          "s": "I want more product info."
+        }
+      ]
+    },
+    {
+      "t": "Gửi ưu đãi và giảm giá",
+      "e": [
+        {
+          "p": "We have a sale today. Do you like a sale?",
+          "m": "Nói bạn có thích khuyến mãi không (một câu).",
+          "h": "I like / I do not like.",
+          "s": "I like the sale."
+        },
+        {
+          "p": "What discount do you want?",
+          "m": "Nói phần trăm hoặc 'a small discount' (một câu).",
+          "h": "Use 'I want' + number% or 'a small/large discount'.",
+          "s": "I want a 20% discount."
+        },
+        {
+          "p": "Do you open the sale email?",
+          "m": "Nói bạn có mở email khuyến mãi không (một câu).",
+          "h": "I open / I do not open.",
+          "s": "I open the sale email."
+        },
+        {
+          "p": "Where do you buy after the email?",
+          "m": "Nói nơi bạn mua hàng (một câu).",
+          "h": "I buy at + place or I buy online.",
+          "s": "I buy online."
+        },
+        {
+          "p": "Can we send a coupon now?",
+          "m": "Nói có hoặc không (một câu).",
+          "h": "Yes, please / No, thank you + short reason optional.",
+          "s": "Yes, please send a coupon."
+        }
+      ]
+    },
+    {
+      "t": "Hỏi thói quen nhận email",
+      "e": [
+        {
+          "p": "Do you check your email every day?",
+          "m": "Nói tần suất bạn kiểm tra email (một câu).",
+          "h": "I check every day / I check once a week.",
+          "s": "I check my email every day."
+        },
+        {
+          "p": "What time do you read emails?",
+          "m": "Nói lúc bạn đọc email (một câu).",
+          "h": "Use 'I read emails in the morning/at night'.",
+          "s": "I read emails in the morning."
+        },
+        {
+          "p": "Do you use phone or computer for email?",
+          "m": "Nói bạn dùng phone hoặc computer (một câu).",
+          "h": "I use + phone/computer.",
+          "s": "I use my phone."
+        },
+        {
+          "p": "Can we send emails on Sunday?",
+          "m": "Nói có thể hay không (một câu).",
+          "h": "Use 'Yes, you can' or 'No, you cannot'.",
+          "s": "No, you cannot send on Sunday."
+        },
+        {
+          "p": "Do you want short messages?",
+          "m": "Nói bạn muốn tin ngắn hay dài (một câu).",
+          "h": "I want short messages / I want long messages.",
+          "s": "I want short messages."
+        }
+      ]
+    },
+    {
+      "t": "Kiểm tra danh sách khách hàng",
+      "e": [
+        {
+          "p": "Is John on our email list?",
+          "m": "Trả lời có hoặc không (một câu).",
+          "h": "Yes, he is / No, he is not.",
+          "s": "No, he is not on the list."
+        },
+        {
+          "p": "How many customers are on the list?",
+          "m": "Nói số lượng ngắn (một câu).",
+          "h": "Use a number (Twenty / Fifty).",
+          "s": "There are fifty customers."
+        },
+        {
+          "p": "Do we send email to all customers?",
+          "m": "Nói có/không (một câu).",
+          "h": "We send / We do not send.",
+          "s": "We send email to all customers."
+        },
+        {
+          "p": "Can you add a new customer?",
+          "m": "Nói bạn có thể thêm hay không (một câu).",
+          "h": "I can / I cannot.",
+          "s": "I can add a new customer."
+        },
+        {
+          "p": "Where is the customer list?",
+          "m": "Nói nơi lưu trữ danh sách (một câu).",
+          "h": "It is on the computer / in a file.",
+          "s": "The list is on the computer."
+        }
+      ]
+    },
+    {
+      "t": "Lên lịch gửi email",
+      "e": [
+        {
+          "p": "When do you send the email?",
+          "m": "Nói ngày hoặc thời gian đơn giản (một câu).",
+          "h": "We send on + day or at + time.",
+          "s": "We send the email on Monday."
+        },
+        {
+          "p": "Do you send one email or many?",
+          "m": "Trả lời số lượng ngắn (một câu).",
+          "h": "We send one email / We send many emails.",
+          "s": "We send one email."
+        },
+        {
+          "p": "Can we send at 9 AM?",
+          "m": "Nói có thể hay không (một câu).",
+          "h": "Yes, you can / No, you cannot.",
+          "s": "Yes, you can send at 9 AM."
+        },
+        {
+          "p": "What day is best for you?",
+          "m": "Nói ngày tốt nhất (một câu).",
+          "h": "I prefer + day (I prefer Monday).",
+          "s": "I prefer Friday."
+        },
+        {
+          "p": "Do you stop emails on holidays?",
+          "m": "Nói có hoặc không (một câu).",
+          "h": "We stop / We do not stop.",
+          "s": "We stop emails on holidays."
+        }
+      ]
+    },
+    {
+      "t": "Phản hồi khi không nhận được email",
+      "e": [
+        {
+          "p": "I did not get the email. Can you check?",
+          "m": "Nói bạn có nhận email hay không (một câu).",
+          "h": "I did not get / I get the email. Use present: I do not get.",
+          "s": "I do not get the email."
+        },
+        {
+          "p": "Is your email address correct?",
+          "m": "Xác nhận địa chỉ email bằng một câu (một câu).",
+          "h": "My email is not allowed; say 'My address is correct' or 'No, it is not'.",
+          "s": "My address is correct."
+        },
+        {
+          "p": "Can we resend the email?",
+          "m": "Nói có hoặc không (một câu).",
+          "h": "Yes, resend / No, do not resend.",
+          "s": "Yes, please resend the email."
+        },
+        {
+          "p": "Do you check the spam folder?",
+          "m": "Nói có hoặc không (một câu).",
+          "h": "I check / I do not check.",
+          "s": "I check the spam folder."
+        },
+        {
+          "p": "Where do you want the email sent now?",
+          "m": "Nói nơi nhận (một câu).",
+          "h": "I want it at work/home/on my phone.",
+          "s": "Send it to my work email."
+        }
+      ]
+    },
+    {
+      "t": "Hỏi ý kiến khách hàng",
+      "e": [
+        {
+          "p": "Do you like our email design?",
+          "m": "Nói bạn thích hay không (một câu).",
+          "h": "I like / I do not like.",
+          "s": "I like the email design."
+        },
+        {
+          "p": "What part do you like?",
+          "m": "Nói một phần bạn thích (một câu).",
+          "h": "I like the images / the price / the text.",
+          "s": "I like the images."
+        },
+        {
+          "p": "Do you find the email clear?",
+          "m": "Trả lời có hoặc không (một câu).",
+          "h": "It is clear / It is not clear.",
+          "s": "It is clear."
+        },
+        {
+          "p": "Can we change the color?",
+          "m": "Nói có hoặc không (một câu).",
+          "h": "Yes, change / No, do not change.",
+          "s": "No, do not change the color."
+        },
+        {
+          "p": "Would you recommend our emails to a friend?",
+          "m": "Nói có hoặc không (một câu).",
+          "h": "I would / I would not (use 'I will' for simple).",
+          "s": "I will recommend the emails."
+        }
+      ]
+    },
+    {
+      "t": "Câu hỏi về giá và mua hàng",
+      "e": [
+        {
+          "p": "How much is this product in the email?",
+          "m": "Nói giá ngắn (một câu).",
+          "h": "It is + number or It is cheap/expensive.",
+          "s": "It is twenty dollars."
+        },
+        {
+          "p": "Do you want to buy now?",
+          "m": "Nói có hoặc không (một câu).",
+          "h": "I want to buy / I do not want to buy.",
+          "s": "I want to buy now."
+        },
+        {
+          "p": "Where do you pay for the product?",
+          "m": "Nói nơi bạn trả tiền (một câu).",
+          "h": "I pay online / at the shop.",
+          "s": "I pay online."
+        },
+        {
+          "p": "Can we add your order to the email?",
+          "m": "Trả lời có hoặc không (một câu).",
+          "h": "Yes, add it / No, do not add.",
+          "s": "Yes, add my order to the email."
+        },
+        {
+          "p": "Do you want a price list in email?",
+          "m": "Nói có hoặc không (một câu).",
+          "h": "I want / I do not want.",
+          "s": "I want a price list in the email."
+        }
+      ]
+    },
+    {
+      "t": "Hỗ trợ đơn hàng qua email",
+      "e": [
+        {
+          "p": "My order is late. Can you help?",
+          "m": "Nói bạn có vấn đề với đơn hàng (một câu).",
+          "h": "I have a problem / My order is late.",
+          "s": "My order is late."
+        },
+        {
+          "p": "What is the order number?",
+          "m": "Nói số đơn hàng ngắn (một câu).",
+          "h": "It is + number or I do not know.",
+          "s": "It is order number 123."
+        },
+        {
+          "p": "Do you want a refund?",
+          "m": "Nói có hoặc không (một câu).",
+          "h": "I want a refund / I do not want a refund.",
+          "s": "I want a refund."
+        },
+        {
+          "p": "Can we call you about the order?",
+          "m": "Nói bạn có thể nhận cuộc gọi không (một câu).",
+          "h": "I can / I cannot.",
+          "s": "I can receive a call."
+        },
+        {
+          "p": "Where is the delivery address?",
+          "m": "Nói địa chỉ giao hàng ngắn (một câu).",
+          "h": "It is in + place or My address is + place.",
+          "s": "My address is [studentCity]."
+        }
+      ]
+    },
+    {
+      "t": "Ôn tập: Giao tiếp cơ bản qua email",
+      "e": [
+        {
+          "p": "Who sends our newsletter?",
+          "m": "Nói người hoặc công ty gửi (một câu).",
+          "h": "Use 'We send' or 'Our company sends'.",
+          "s": "Our company sends the newsletter."
+        },
+        {
+          "p": "Do you read the newsletter every week?",
+          "m": "Trả lời có hoặc không (một câu).",
+          "h": "I read / I do not read + time.",
+          "s": "I read the newsletter every week."
+        },
+        {
+          "p": "Can we add you to the list?",
+          "m": "Trả lời có/không (một câu).",
+          "h": "I want to be added / I do not want.",
+          "s": "I want to be added to the list."
+        },
+        {
+          "p": "What is your preferred time for email?",
+          "m": "Nói thời gian bạn thích (một câu).",
+          "h": "I prefer + morning/afternoon/evening.",
+          "s": "I prefer the morning."
+        },
+        {
+          "p": "Do you like our weekly offers?",
+          "m": "Nói có hoặc không (một câu).",
+          "h": "I like / I do not like.",
+          "s": "I like the weekly offers."
+        }
+      ]
+    },
+    {
+      "t": "Ôn tập: Ưu đãi và phản hồi",
+      "e": [
+        {
+          "p": "We send a coupon. Do you use it?",
+          "m": "Nói bạn có dùng coupon không (một câu).",
+          "h": "I use / I do not use.",
+          "s": "I use the coupon."
+        },
+        {
+          "p": "What do you like in our emails?",
+          "m": "Nói một điều bạn thích (một câu).",
+          "h": "I like the images / the price / the text.",
+          "s": "I like the price."
+        },
+        {
+          "p": "Can we send a short email next time?",
+          "m": "Trả lời có hoặc không (một câu).",
+          "h": "Yes, send short / No, send long.",
+          "s": "Yes, send a short email next time."
+        },
+        {
+          "p": "Do you share our email with a friend?",
+          "m": "Nói có hoặc không (một câu).",
+          "h": "I share / I do not share.",
+          "s": "I share the email with a friend."
+        },
+        {
+          "p": "Where do you click in the email?",
+          "m": "Nói vị trí bạn thường bấm (một câu).",
+          "h": "I click the link / the image / the button.",
+          "s": "I click the link."
+        }
+      ]
+    },
+    {
+      "t": "Ôn tập: Vấn đề và hỗ trợ",
+      "e": [
+        {
+          "p": "I have a delivery problem. Can you email me?",
+          "m": "Nói bạn có vấn đề và cần email hỗ trợ (một câu).",
+          "h": "I have a problem and I need support by email.",
+          "s": "I have a delivery problem and I need email support."
+        },
+        {
+          "p": "Do you get order emails?",
+          "m": "Nói có hoặc không (một câu).",
+          "h": "I get / I do not get.",
+          "s": "I do not get order emails."
+        },
+        {
+          "p": "Can we resend the invoice by email?",
+          "m": "Trả lời có hoặc không (một câu).",
+          "h": "Yes, resend / No, do not resend.",
+          "s": "Yes, please resend the invoice by email."
+        },
+        {
+          "p": "What is the issue with the email content?",
+          "m": "Nói một vấn đề ngắn (một câu).",
+          "h": "It is wrong / It is missing info / It is unclear.",
+          "s": "The email is missing price info."
+        },
+        {
+          "p": "Do you want a phone call too?",
+          "m": "Nói có hoặc không (một câu).",
+          "h": "I want a call / I do not want a call.",
+          "s": "I want a phone call too."
+        }
+      ]
+    }
+  ]
+}

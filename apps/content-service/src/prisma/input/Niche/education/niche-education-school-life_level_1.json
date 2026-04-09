@@ -1,0 +1,530 @@
+{
+  "l": 1,
+  "d": [
+    {
+      "t": "Gặp gỡ bạn học mới",
+      "e": [
+        {
+          "p": "Hi! My name is Alex. What is your name?",
+          "m": "Giới thiệu tên của bạn.",
+          "h": "Sử dụng 'My name is [tên của bạn]'.",
+          "s": "My name is [studentName]."
+        },
+        {
+          "p": "Nice to meet you, [studentName]! Are you a student here?",
+          "m": "Xác nhận bạn là học sinh.",
+          "h": "Trả lời 'Có' và dùng 'I am a student'.",
+          "s": "Yes, I am a student."
+        },
+        {
+          "p": "Great! What school do you go to?",
+          "m": "Nói tên trường của bạn.",
+          "h": "Sử dụng 'I go to [tên trường]'.",
+          "s": "I go to [studentSchool]."
+        },
+        {
+          "p": "Oh, that's a good school. Do you like your school?",
+          "m": "Nói bạn thích trường của bạn.",
+          "h": "Sử dụng 'Yes, I like my school'.",
+          "s": "Yes, I like my school."
+        },
+        {
+          "p": "Me too! What is your favorite subject?",
+          "m": "Nói tên môn học yêu thích của bạn.",
+          "h": "Sử dụng 'My favorite subject is [môn học]'.",
+          "s": "My favorite subject is Math."
+        }
+      ]
+    },
+    {
+      "t": "Nói về lớp học của bạn",
+      "e": [
+        {
+          "p": "Hi! How many students are in your class?",
+          "m": "Nói số lượng học sinh trong lớp bạn.",
+          "h": "Sử dụng 'There are [số lượng] students'.",
+          "s": "There are twenty students."
+        },
+        {
+          "p": "Is your classroom big or small?",
+          "m": "Mô tả lớp học của bạn là to hay nhỏ.",
+          "h": "Sử dụng 'My classroom is [tính từ]'.",
+          "s": "My classroom is big."
+        },
+        {
+          "p": "What do you see in your classroom? Is there a board?",
+          "m": "Xác nhận có bảng trong lớp.",
+          "h": "Sử dụng 'Yes, there is a board'.",
+          "s": "Yes, there is a board."
+        },
+        {
+          "p": "Are there many books in your class?",
+          "m": "Xác nhận có nhiều sách trong lớp.",
+          "h": "Sử dụng 'Yes, there are many books'.",
+          "s": "Yes, there are many books."
+        },
+        {
+          "p": "Do you have a good teacher?",
+          "m": "Xác nhận bạn có một giáo viên giỏi.",
+          "h": "Sử dụng 'Yes, I have a good teacher'.",
+          "s": "Yes, I have a good teacher."
+        }
+      ]
+    },
+    {
+      "t": "Các môn học và bạn bè",
+      "e": [
+        {
+          "p": "What subject do you study today?",
+          "m": "Nói tên một môn học bạn học hôm nay.",
+          "h": "Sử dụng 'I study [môn học] today'.",
+          "s": "I study English today."
+        },
+        {
+          "p": "Do you like to read books for English class?",
+          "m": "Nói bạn thích đọc sách cho lớp tiếng Anh.",
+          "h": "Sử dụng 'Yes, I like to read books'.",
+          "s": "Yes, I like to read books."
+        },
+        {
+          "p": "Who is your best friend at school?",
+          "m": "Nói tên một người bạn thân ở trường.",
+          "h": "Sử dụng 'My best friend is [tên bạn]'.",
+          "s": "My best friend is Anna."
+        },
+        {
+          "p": "Does your friend like to play games?",
+          "m": "Xác nhận bạn của bạn thích chơi trò chơi.",
+          "h": "Sử dụng 'Yes, he/she likes to play games'.",
+          "s": "Yes, she likes to play games."
+        },
+        {
+          "p": "Can you study with your friends?",
+          "m": "Xác nhận bạn có thể học cùng bạn bè.",
+          "h": "Sử dụng 'Yes, I can study with my friends'.",
+          "s": "Yes, I can study with my friends."
+        }
+      ]
+    },
+    {
+      "t": "Một ngày học của tôi",
+      "e": [
+        {
+          "p": "What time do you go to school every day?",
+          "m": "Nói bạn đi học lúc mấy giờ mỗi ngày.",
+          "h": "Sử dụng 'I go to school at [giờ]'.",
+          "s": "I go to school at 7 o'clock."
+        },
+        {
+          "p": "What do you do in the morning at school?",
+          "m": "Nói bạn học bài vào buổi sáng ở trường.",
+          "h": "Sử dụng 'I study in the morning'.",
+          "s": "I study in the morning."
+        },
+        {
+          "p": "Do you eat lunch at school?",
+          "m": "Xác nhận bạn ăn trưa ở trường.",
+          "h": "Sử dụng 'Yes, I eat lunch at school'.",
+          "s": "Yes, I eat lunch at school."
+        },
+        {
+          "p": "What do you do after lunch?",
+          "m": "Nói bạn chơi với bạn bè sau bữa trưa.",
+          "h": "Sử dụng 'I play with friends after lunch'.",
+          "s": "I play with friends after lunch."
+        },
+        {
+          "p": "When do you go home from school?",
+          "m": "Nói bạn về nhà vào buổi chiều.",
+          "h": "Sử dụng 'I go home in the afternoon'.",
+          "s": "I go home in the afternoon."
+        }
+      ]
+    },
+    {
+      "t": "Hoạt động trong giờ ra chơi",
+      "e": [
+        {
+          "p": "What can you do during break time at school?",
+          "m": "Nói bạn có thể chơi thể thao.",
+          "h": "Sử dụng 'I can play sports'.",
+          "s": "I can play sports."
+        },
+        {
+          "p": "Where do you play sports?",
+          "m": "Nói bạn chơi thể thao ở sân trường.",
+          "h": "Sử dụng 'I play sports in the yard'.",
+          "s": "I play sports in the yard."
+        },
+        {
+          "p": "Can you read books in the library?",
+          "m": "Xác nhận bạn có thể đọc sách trong thư viện.",
+          "h": "Sử dụng 'Yes, I can read books'.",
+          "s": "Yes, I can read books."
+        },
+        {
+          "p": "Do you like to draw pictures in art class?",
+          "m": "Nói bạn thích vẽ tranh trong giờ mỹ thuật.",
+          "h": "Sử dụng 'Yes, I like to draw pictures'.",
+          "s": "Yes, I like to draw pictures."
+        },
+        {
+          "p": "Who do you play with at school?",
+          "m": "Nói bạn chơi với bạn bè của bạn.",
+          "h": "Sử dụng 'I play with my friends'.",
+          "s": "I play with my friends."
+        }
+      ]
+    },
+    {
+      "t": "Môn học yêu thích và không thích",
+      "e": [
+        {
+          "p": "What is your favorite subject?",
+          "m": "Nói môn học yêu thích của bạn là Toán.",
+          "h": "Sử dụng 'My favorite subject is Math'.",
+          "s": "My favorite subject is Math."
+        },
+        {
+          "p": "Do you like History?",
+          "m": "Nói bạn không thích môn Lịch sử.",
+          "h": "Sử dụng 'No, I do not like History'.",
+          "s": "No, I do not like History."
+        },
+        {
+          "p": "Is English class fun for you?",
+          "m": "Nói lớp tiếng Anh vui.",
+          "h": "Sử dụng 'Yes, English class is fun'.",
+          "s": "Yes, English class is fun."
+        },
+        {
+          "p": "Do you study Science every week?",
+          "m": "Xác nhận bạn học Khoa học mỗi tuần.",
+          "h": "Sử dụng 'Yes, I study Science every week'.",
+          "s": "Yes, I study Science every week."
+        },
+        {
+          "p": "What color is your favorite school bag?",
+          "m": "Nói màu sắc của cặp sách yêu thích của bạn.",
+          "h": "Sử dụng 'My favorite school bag is [màu]'.",
+          "s": "My favorite school bag is blue."
+        }
+      ]
+    },
+    {
+      "t": "Mô tả giáo viên và bạn cùng lớp",
+      "e": [
+        {
+          "p": "Who is your English teacher?",
+          "m": "Nói tên giáo viên tiếng Anh của bạn.",
+          "h": "Sử dụng 'My English teacher is Mr. Smith'.",
+          "s": "My English teacher is Mr. Smith."
+        },
+        {
+          "p": "Is your teacher nice?",
+          "m": "Xác nhận giáo viên của bạn tốt bụng.",
+          "h": "Sử dụng 'Yes, he/she is nice'.",
+          "s": "Yes, she is nice."
+        },
+        {
+          "p": "How many girls are in your class?",
+          "m": "Nói số lượng bạn nữ trong lớp bạn.",
+          "h": "Sử dụng 'There are [số lượng] girls'.",
+          "s": "There are ten girls."
+        },
+        {
+          "p": "Are your classmates smart?",
+          "m": "Xác nhận các bạn cùng lớp của bạn thông minh.",
+          "h": "Sử dụng 'Yes, they are smart'.",
+          "s": "Yes, they are smart."
+        },
+        {
+          "p": "Do you like to talk to your classmates?",
+          "m": "Nói bạn thích nói chuyện với các bạn cùng lớp.",
+          "h": "Sử dụng 'Yes, I like to talk to my classmates'.",
+          "s": "Yes, I like to talk to my classmates."
+        }
+      ]
+    },
+    {
+      "t": "Vật dụng trong lớp học",
+      "e": [
+        {
+          "p": "What is on your desk?",
+          "m": "Nói có một cuốn sách và một cây bút trên bàn của bạn.",
+          "h": "Sử dụng 'There is a book and a pen'.",
+          "s": "There is a book and a pen."
+        },
+        {
+          "p": "What color is the board in your classroom?",
+          "m": "Nói bảng trong lớp có màu trắng.",
+          "h": "Sử dụng 'The board is white'.",
+          "s": "The board is white."
+        },
+        {
+          "p": "Are there many chairs in your class?",
+          "m": "Xác nhận có nhiều ghế trong lớp.",
+          "h": "Sử dụng 'Yes, there are many chairs'.",
+          "s": "Yes, there are many chairs."
+        },
+        {
+          "p": "Is your classroom clean?",
+          "m": "Xác nhận lớp học của bạn sạch sẽ.",
+          "h": "Sử dụng 'Yes, my classroom is clean'.",
+          "s": "Yes, my classroom is clean."
+        },
+        {
+          "p": "Do you have a big window in your classroom?",
+          "m": "Xác nhận bạn có một cửa sổ lớn trong lớp.",
+          "h": "Sử dụng 'Yes, I have a big window'.",
+          "s": "Yes, I have a big window."
+        }
+      ]
+    },
+    {
+      "t": "Kể về buổi sáng đi học",
+      "e": [
+        {
+          "p": "What do you do first in the morning before school?",
+          "m": "Nói bạn ăn sáng trước khi đi học.",
+          "h": "Sử dụng 'I eat breakfast'.",
+          "s": "I eat breakfast."
+        },
+        {
+          "p": "Is your breakfast good?",
+          "m": "Xác nhận bữa sáng của bạn ngon.",
+          "h": "Sử dụng 'Yes, my breakfast is good'.",
+          "s": "Yes, my breakfast is good."
+        },
+        {
+          "p": "Do you take your school bag every day?",
+          "m": "Xác nhận bạn mang cặp sách mỗi ngày.",
+          "h": "Sử dụng 'Yes, I take my school bag every day'.",
+          "s": "Yes, I take my school bag every day."
+        },
+        {
+          "p": "Do you walk to school or go by car?",
+          "m": "Nói bạn đi bộ đến trường.",
+          "h": "Sử dụng 'I walk to school'.",
+          "s": "I walk to school."
+        },
+        {
+          "p": "Is your school far from your house?",
+          "m": "Nói trường của bạn không xa nhà.",
+          "h": "Sử dụng 'No, my school is not far'.",
+          "s": "No, my school is not far."
+        }
+      ]
+    },
+    {
+      "t": "Giờ học tiếng Anh",
+      "e": [
+        {
+          "p": "What do you learn in English class?",
+          "m": "Nói bạn học từ mới trong giờ tiếng Anh.",
+          "h": "Sử dụng 'I learn new words'.",
+          "s": "I learn new words."
+        },
+        {
+          "p": "Can you speak English well?",
+          "m": "Nói bạn có thể nói tiếng Anh một chút.",
+          "h": "Sử dụng 'Yes, I can speak a little English'.",
+          "s": "Yes, I can speak a little English."
+        },
+        {
+          "p": "Do you like to sing English songs?",
+          "m": "Nói bạn thích hát những bài hát tiếng Anh.",
+          "h": "Sử dụng 'Yes, I like to sing English songs'.",
+          "s": "Yes, I like to sing English songs."
+        },
+        {
+          "p": "Does your teacher read stories in English?",
+          "m": "Xác nhận giáo viên của bạn đọc truyện tiếng Anh.",
+          "h": "Sử dụng 'Yes, she reads stories'.",
+          "s": "Yes, she reads stories."
+        },
+        {
+          "p": "Do you write in your notebook in English class?",
+          "m": "Xác nhận bạn viết vào vở trong giờ tiếng Anh.",
+          "h": "Sử dụng 'Yes, I write in my notebook'.",
+          "s": "Yes, I write in my notebook."
+        }
+      ]
+    },
+    {
+      "t": "Hoạt động sau giờ học",
+      "e": [
+        {
+          "p": "What do you do after school?",
+          "m": "Nói bạn học bài tập về nhà.",
+          "h": "Sử dụng 'I do my homework'.",
+          "s": "I do my homework."
+        },
+        {
+          "p": "Do you play sports after school?",
+          "m": "Nói bạn chơi thể thao sau giờ học.",
+          "h": "Sử dụng 'Yes, I play sports'.",
+          "s": "Yes, I play sports."
+        },
+        {
+          "p": "Can you meet your friends after school?",
+          "m": "Xác nhận bạn có thể gặp bạn bè sau giờ học.",
+          "h": "Sử dụng 'Yes, I can meet my friends'.",
+          "s": "Yes, I can meet my friends."
+        },
+        {
+          "p": "Do you watch TV in the evening?",
+          "m": "Nói bạn xem TV vào buổi tối.",
+          "h": "Sử dụng 'Yes, I watch TV in the evening'.",
+          "s": "Yes, I watch TV in the evening."
+        },
+        {
+          "p": "When do you sleep every night?",
+          "m": "Nói bạn ngủ lúc 9 giờ tối.",
+          "h": "Sử dụng 'I sleep at 9 o'clock'.",
+          "s": "I sleep at 9 o'clock."
+        }
+      ]
+    },
+    {
+      "t": "Kể về một ngày cuối tuần",
+      "e": [
+        {
+          "p": "Do you go to school on Saturday?",
+          "m": "Nói bạn không đi học vào thứ Bảy.",
+          "h": "Sử dụng 'No, I do not go to school'.",
+          "s": "No, I do not go to school."
+        },
+        {
+          "p": "What do you do on the weekend?",
+          "m": "Nói bạn chơi trò chơi vào cuối tuần.",
+          "h": "Sử dụng 'I play games on the weekend'.",
+          "s": "I play games on the weekend."
+        },
+        {
+          "p": "Does your family go to the park?",
+          "m": "Xác nhận gia đình bạn đi công viên.",
+          "h": "Sử dụng 'Yes, my family goes to the park'.",
+          "s": "Yes, my family goes to the park."
+        },
+        {
+          "p": "Do you read books at home?",
+          "m": "Xác nhận bạn đọc sách ở nhà.",
+          "h": "Sử dụng 'Yes, I read books at home'.",
+          "s": "Yes, I read books at home."
+        },
+        {
+          "p": "Is your weekend happy?",
+          "m": "Xác nhận cuối tuần của bạn vui vẻ.",
+          "h": "Sử dụng 'Yes, my weekend is happy'.",
+          "s": "Yes, my weekend is happy."
+        }
+      ]
+    },
+    {
+      "t": "Ôn tập: Cuộc sống học đường của tôi",
+      "e": [
+        {
+          "p": "Tell me about your school. What is its name?",
+          "m": "Nói tên trường của bạn.",
+          "h": "Sử dụng 'My school is [tên trường]'.",
+          "s": "My school is [studentSchool]."
+        },
+        {
+          "p": "What time do you usually start school?",
+          "m": "Nói bạn bắt đầu học lúc 8 giờ sáng.",
+          "h": "Sử dụng 'I start school at 8 o'clock'.",
+          "s": "I start school at 8 o'clock."
+        },
+        {
+          "p": "Who is your favorite teacher?",
+          "m": "Nói giáo viên yêu thích của bạn là Ms. Hoa.",
+          "h": "Sử dụng 'My favorite teacher is Ms. Hoa'.",
+          "s": "My favorite teacher is Ms. Hoa."
+        },
+        {
+          "p": "What is one fun activity you do at school?",
+          "m": "Nói bạn chơi bóng đá ở trường.",
+          "h": "Sử dụng 'I play soccer at school'.",
+          "s": "I play soccer at school."
+        },
+        {
+          "p": "Do you like to study Math or English more?",
+          "m": "Nói bạn thích học tiếng Anh hơn.",
+          "h": "Sử dụng 'I like to study English more'.",
+          "s": "I like to study English more."
+        }
+      ]
+    },
+    {
+      "t": "Ôn tập: Lớp học và bạn bè",
+      "e": [
+        {
+          "p": "Is your classroom bright?",
+          "m": "Xác nhận lớp học của bạn sáng.",
+          "h": "Sử dụng 'Yes, my classroom is bright'.",
+          "s": "Yes, my classroom is bright."
+        },
+        {
+          "p": "How many desks are in your classroom?",
+          "m": "Nói có 20 cái bàn trong lớp bạn.",
+          "h": "Sử dụng 'There are twenty desks'.",
+          "s": "There are twenty desks."
+        },
+        {
+          "p": "Do you have good friends at school?",
+          "m": "Xác nhận bạn có những người bạn tốt ở trường.",
+          "h": "Sử dụng 'Yes, I have good friends'.",
+          "s": "Yes, I have good friends."
+        },
+        {
+          "p": "What do you do with your friends during lunch break?",
+          "m": "Nói bạn ăn trưa với bạn bè.",
+          "h": "Sử dụng 'I eat lunch with my friends'.",
+          "s": "I eat lunch with my friends."
+        },
+        {
+          "p": "Can you help your friends with homework?",
+          "m": "Xác nhận bạn có thể giúp bạn bè làm bài tập về nhà.",
+          "h": "Sử dụng 'Yes, I can help my friends'.",
+          "s": "Yes, I can help my friends."
+        }
+      ]
+    },
+    {
+      "t": "Ôn tập: Thói quen và sở thích",
+      "e": [
+        {
+          "p": "What do you always take to school?",
+          "m": "Nói bạn luôn mang theo sách và bút.",
+          "h": "Sử dụng 'I always take books and pens'.",
+          "s": "I always take books and pens."
+        },
+        {
+          "p": "Do you like to learn new things every day?",
+          "m": "Xác nhận bạn thích học những điều mới mỗi ngày.",
+          "h": "Sử dụng 'Yes, I like to learn new things'.",
+          "s": "Yes, I like to learn new things."
+        },
+        {
+          "p": "What is your favorite color for a school uniform?",
+          "m": "Nói màu xanh là màu yêu thích của bạn.",
+          "h": "Sử dụng 'My favorite color is blue'.",
+          "s": "My favorite color is blue."
+        },
+        {
+          "p": "Does your school have a big library?",
+          "m": "Xác nhận trường của bạn có một thư viện lớn.",
+          "h": "Sử dụng 'Yes, my school has a big library'.",
+          "s": "Yes, my school has a big library."
+        },
+        {
+          "p": "What do you want to be when you finish school?",
+          "m": "Nói bạn muốn trở thành một bác sĩ.",
+          "h": "Sử dụng 'I want to be a doctor'.",
+          "s": "I want to be a doctor."
+        }
+      ]
+    }
+  ]
+}

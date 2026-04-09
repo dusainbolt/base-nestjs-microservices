@@ -1,0 +1,530 @@
+{
+  "l": 1,
+  "d": [
+    {
+      "t": "Gặp gỡ chủ cửa hàng",
+      "e": [
+        {
+          "p": "What is your brand name?",
+          "m": "Nói tên thương hiệu.",
+          "h": "S + be + N",
+          "s": "The brand name is Sunny."
+        },
+        {
+          "p": "Is the product new?",
+          "m": "Nói sản phẩm mới hay cũ.",
+          "h": "S + be + new/old",
+          "s": "The product is new."
+        },
+        {
+          "p": "How much is it?",
+          "m": "Nói giá (dùng số).",
+          "h": "It is + number",
+          "s": "It is 10 dollars."
+        },
+        {
+          "p": "Where is the logo?",
+          "m": "Nói vị trí logo ngắn.",
+          "h": "The logo is on + N",
+          "s": "The logo is on the box."
+        },
+        {
+          "p": "Who is this brand for?",
+          "m": "Nói nhóm khách hàng (kids/adults).",
+          "h": "This brand is for + N",
+          "s": "This brand is for kids."
+        }
+      ]
+    },
+    {
+      "t": "Xem nhãn hàng mới",
+      "e": [
+        {
+          "p": "Do you have this item today?",
+          "m": "Nói có hay không có hôm nay.",
+          "h": "Yes/No + S + V",
+          "s": "Yes, we have it today."
+        },
+        {
+          "p": "What color is it?",
+          "m": "Nói một màu có sẵn.",
+          "h": "It is + color",
+          "s": "It is red."
+        },
+        {
+          "p": "Does the brand have a phone number?",
+          "m": "Nói có số điện thoại hay không.",
+          "h": "Yes/No, it does/does not",
+          "s": "No, it does not have a phone number."
+        },
+        {
+          "p": "Where is your shop?",
+          "m": "Nói nơi cửa hàng (ví dụ: market).",
+          "h": "The shop is in/at + place",
+          "s": "The shop is in the market."
+        },
+        {
+          "p": "Why do people buy this brand?",
+          "m": "Nói 1 lý do ngắn (ví dụ: cheap).",
+          "h": "People like it because it is + Adj",
+          "s": "People buy it because it is cheap."
+        }
+      ]
+    },
+    {
+      "t": "So sánh giá",
+      "e": [
+        {
+          "p": "Is Brand A cheap?",
+          "m": "Trả lời có hay không ngắn.",
+          "h": "Yes/No + S + be + Adj",
+          "s": "Yes, it is cheap."
+        },
+        {
+          "p": "Is Brand B expensive?",
+          "m": "Trả lời có hay không ngắn.",
+          "h": "Yes/No + S + be + Adj",
+          "s": "No, it is not expensive."
+        },
+        {
+          "p": "Which brand is cheap?",
+          "m": "Nói tên thương hiệu rút gọn.",
+          "h": "Brand X is cheap.",
+          "s": "Brand A is cheap."
+        },
+        {
+          "p": "Do you like the cheap brand?",
+          "m": "Nói thích hay không (một câu).",
+          "h": "I like / I do not like",
+          "s": "I like the cheap brand."
+        },
+        {
+          "p": "Can I buy the cheaper one now?",
+          "m": "Nói có thể mua hay không.",
+          "h": "Yes/No + can + V",
+          "s": "Yes, you can buy the cheaper one now."
+        }
+      ]
+    },
+    {
+      "t": "Chọn màu và kiểu",
+      "e": [
+        {
+          "p": "Do you want a blue one?",
+          "m": "Nói có muốn màu xanh hay không.",
+          "h": "I want / I do not want",
+          "s": "I want the blue one."
+        },
+        {
+          "p": "Is the style simple?",
+          "m": "Nói kiểu đơn giản hay không.",
+          "h": "S + be + simple",
+          "s": "Yes, the style is simple."
+        },
+        {
+          "p": "Which color do you like?",
+          "m": "Nói một màu.",
+          "h": "I like + color",
+          "s": "I like blue."
+        },
+        {
+          "p": "Can you make a small size?",
+          "m": "Nói có thể làm size nhỏ không.",
+          "h": "Yes/No + can + V",
+          "s": "No, we cannot make a small size."
+        },
+        {
+          "p": "Where do you put the logo?",
+          "m": "Nói vị trí đặt logo ngắn.",
+          "h": "I put the logo on + N",
+          "s": "I put the logo on the bag."
+        }
+      ]
+    },
+    {
+      "t": "Khách hàng nói về thương hiệu",
+      "e": [
+        {
+          "p": "Do you like our brand?",
+          "m": "Nói thích hay không (1 câu).",
+          "h": "I like / I do not like",
+          "s": "I like your brand."
+        },
+        {
+          "p": "What do you like about it?",
+          "m": "Nói 1 điểm bạn thích (màu/giá).",
+          "h": "I like + N/Adj",
+          "s": "I like the color."
+        },
+        {
+          "p": "Is the price good for you?",
+          "m": "Nói giá có phù hợp hay không.",
+          "h": "Yes/No + It is + Adj",
+          "s": "Yes, the price is good."
+        },
+        {
+          "p": "Can you buy it again?",
+          "m": "Nói có thể mua lại hay không.",
+          "h": "Yes/No + I can / I cannot",
+          "s": "Yes, I can buy it again."
+        },
+        {
+          "p": "Who do you tell about the brand?",
+          "m": "Nói một người (friend/family).",
+          "h": "I tell + N",
+          "s": "I tell my friend."
+        }
+      ]
+    },
+    {
+      "t": "Thói quen mua hàng",
+      "e": [
+        {
+          "p": "Do you buy this brand every day?",
+          "m": "Nói có mua mỗi ngày hay không.",
+          "h": "I do / I do not + V every day",
+          "s": "No, I do not buy it every day."
+        },
+        {
+          "p": "When do you buy it?",
+          "m": "Nói thời điểm ngắn (morning/today).",
+          "h": "I buy it + time",
+          "s": "I buy it in the morning."
+        },
+        {
+          "p": "How often do you buy it?",
+          "m": "Nói tần suất ngắn (every week).",
+          "h": "I buy it every + time",
+          "s": "I buy it every week."
+        },
+        {
+          "p": "Where do you buy this brand?",
+          "m": "Nói nơi mua (shop/market).",
+          "h": "I buy it at + place",
+          "s": "I buy it at the market."
+        },
+        {
+          "p": "Do you pay with cash or card?",
+          "m": "Nói một cách thanh toán.",
+          "h": "I pay + cash/card",
+          "s": "I pay cash."
+        }
+      ]
+    },
+    {
+      "t": "Quảng cáo đơn giản",
+      "e": [
+        {
+          "p": "Is your ad short?",
+          "m": "Nói quảng cáo ngắn hay không.",
+          "h": "Yes/No + S + be + Adj",
+          "s": "Yes, the ad is short."
+        },
+        {
+          "p": "What is the ad word?",
+          "m": "Nói 1 từ quảng cáo (new/cheap).",
+          "h": "It is + word",
+          "s": "It is new."
+        },
+        {
+          "p": "Do people see the ad?",
+          "m": "Nói có người thấy quảng cáo không.",
+          "h": "Yes/No + people + V",
+          "s": "Yes, people see the ad."
+        },
+        {
+          "p": "Where is the ad placed?",
+          "m": "Nói vị trí đặt quảng cáo ngắn.",
+          "h": "The ad is in/on + place",
+          "s": "The ad is in the shop."
+        },
+        {
+          "p": "Can the ad make people buy?",
+          "m": "Nói quảng cáo có làm người mua hay không.",
+          "h": "Yes/No + S + can + V",
+          "s": "Yes, the ad can make people buy."
+        }
+      ]
+    },
+    {
+      "t": "Thương hiệu cho trẻ em",
+      "e": [
+        {
+          "p": "Is this toy for kids?",
+          "m": "Nói có dành cho trẻ em hay không.",
+          "h": "Yes/No + S + be + for kids",
+          "s": "Yes, it is for kids."
+        },
+        {
+          "p": "Do parents like this brand?",
+          "m": "Nói cha mẹ có thích hay không.",
+          "h": "Yes/No + parents + V",
+          "s": "Yes, parents like this brand."
+        },
+        {
+          "p": "Is it safe for children?",
+          "m": "Nói an toàn hay không.",
+          "h": "S + be + safe / not safe",
+          "s": "It is safe."
+        },
+        {
+          "p": "What age is it for?",
+          "m": "Nói tuổi (số).",
+          "h": "It is for + number",
+          "s": "It is for five."
+        },
+        {
+          "p": "Can the child use it alone?",
+          "m": "Nói có thể sử dụng một mình hay không.",
+          "h": "Yes/No + S + can + V",
+          "s": "No, the child cannot use it alone."
+        }
+      ]
+    },
+    {
+      "t": "Vấn đề với sản phẩm",
+      "e": [
+        {
+          "p": "Do you see a problem?",
+          "m": "Nói có thấy vấn đề hay không.",
+          "h": "Yes/No + I + V",
+          "s": "Yes, I see a problem."
+        },
+        {
+          "p": "Is the color right?",
+          "m": "Nói màu có đúng hay không.",
+          "h": "Yes/No + S + be + right",
+          "s": "No, the color is not right."
+        },
+        {
+          "p": "Can you change the product?",
+          "m": "Nói có thể đổi sản phẩm hay không.",
+          "h": "Yes/No + S + can + V",
+          "s": "Yes, I can change the product."
+        },
+        {
+          "p": "Where is the receipt?",
+          "m": "Nói nơi để biên lai ngắn.",
+          "h": "The receipt is in/on + N",
+          "s": "The receipt is in the bag."
+        },
+        {
+          "p": "Who can help you now?",
+          "m": "Nói một người có thể giúp (shop staff).",
+          "h": "The + person + can + V",
+          "s": "The shop staff can help you."
+        }
+      ]
+    },
+    {
+      "t": "Tặng quà theo thương hiệu",
+      "e": [
+        {
+          "p": "Do you want a branded gift?",
+          "m": "Nói có muốn quà có thương hiệu hay không.",
+          "h": "Yes/No + I + want",
+          "s": "Yes, I want a branded gift."
+        },
+        {
+          "p": "Is the gift for a friend?",
+          "m": "Nói quà có dành cho bạn bè hay không.",
+          "h": "Yes/No + It is + for + N",
+          "s": "Yes, it is for a friend."
+        },
+        {
+          "p": "Which brand do you choose?",
+          "m": "Nói tên thương hiệu bạn chọn.",
+          "h": "I choose + Brand",
+          "s": "I choose Brand A."
+        },
+        {
+          "p": "Do you like the red gift?",
+          "m": "Nói có thích màu đỏ hay không.",
+          "h": "Yes/No + I + like",
+          "s": "No, I do not like red."
+        },
+        {
+          "p": "Can you wrap the gift now?",
+          "m": "Nói có thể gói quà ngay hay không.",
+          "h": "Yes/No + I + can + V",
+          "s": "Yes, I can wrap the gift now."
+        }
+      ]
+    },
+    {
+      "t": "Thương hiệu ở thành phố",
+      "e": [
+        {
+          "p": "Is this brand from [studentCity]?",
+          "m": "Nói có từ thành phố [studentCity] hay không.",
+          "h": "Yes/No + S + be + from + place",
+          "s": "No, it is not from [studentCity]."
+        },
+        {
+          "p": "Do many shops sell this brand?",
+          "m": "Nói có nhiều cửa hàng bán hay không.",
+          "h": "Yes/No + many shops + V",
+          "s": "Yes, many shops sell this brand."
+        },
+        {
+          "p": "Where do you see this brand in the city?",
+          "m": "Nói một nơi (market/shop).",
+          "h": "I see it in + place",
+          "s": "I see it in the market."
+        },
+        {
+          "p": "Is it a local brand?",
+          "m": "Nói có phải thương hiệu địa phương hay không.",
+          "h": "Yes/No + S + be + local",
+          "s": "No, it is not a local brand."
+        },
+        {
+          "p": "Do tourists buy this brand?",
+          "m": "Nói khách du lịch có mua hay không.",
+          "h": "Yes/No + tourists + V",
+          "s": "Yes, tourists buy this brand."
+        }
+      ]
+    },
+    {
+      "t": "Bảo hành và dịch vụ",
+      "e": [
+        {
+          "p": "Is there a return?",
+          "m": "Nói có chính sách trả hàng hay không.",
+          "h": "Yes/No + there is/there is not",
+          "s": "Yes, there is a return."
+        },
+        {
+          "p": "How long is the return period?",
+          "m": "Nói thời gian ngắn (số ngày).",
+          "h": "It is + number + days",
+          "s": "It is 30 days."
+        },
+        {
+          "p": "Can I call for help?",
+          "m": "Nói có thể gọi để được giúp hay không.",
+          "h": "Yes/No + you + can + V",
+          "s": "Yes, you can call for help."
+        },
+        {
+          "p": "Who fixes the product?",
+          "m": "Nói người sửa (shop staff).",
+          "h": "The + person + V + the product",
+          "s": "The shop staff fixes the product."
+        },
+        {
+          "p": "Do you give a free check?",
+          "m": "Nói có kiểm tra miễn phí hay không.",
+          "h": "Yes/No + we + give + free + N",
+          "s": "Yes, we give a free check."
+        }
+      ]
+    },
+    {
+      "t": "Ôn tập: Gọi và hỏi thông tin",
+      "e": [
+        {
+          "p": "What is the brand name?",
+          "m": "Nói tên thương hiệu.",
+          "h": "The brand name is + N",
+          "s": "The brand name is Sun."
+        },
+        {
+          "p": "How much is it now?",
+          "m": "Nói giá hiện tại.",
+          "h": "It is + number",
+          "s": "It is 10 dollars."
+        },
+        {
+          "p": "What color do you want?",
+          "m": "Nói màu bạn muốn.",
+          "h": "I want + color",
+          "s": "I want blue."
+        },
+        {
+          "p": "Where is the shop in the city?",
+          "m": "Nói vị trí cửa hàng ngắn.",
+          "h": "The shop is + place",
+          "s": "The shop is near the market."
+        },
+        {
+          "p": "Do you have one for kids?",
+          "m": "Nói có hàng cho trẻ em hay không.",
+          "h": "Yes/No + we + have",
+          "s": "No, we do not have one for kids."
+        }
+      ]
+    },
+    {
+      "t": "Ôn tập: So sánh và chọn",
+      "e": [
+        {
+          "p": "Which is cheap, Brand A or Brand B?",
+          "m": "Nói chọn thương hiệu rẻ.",
+          "h": "Brand X is cheap",
+          "s": "Brand A is cheap."
+        },
+        {
+          "p": "Which brand do you buy?",
+          "m": "Nói tên brand bạn mua.",
+          "h": "I buy + Brand",
+          "s": "I buy Brand A."
+        },
+        {
+          "p": "Do you like the cheap or the good brand?",
+          "m": "Nói bạn chọn loại nào (cheap/good).",
+          "h": "I like + the + Adj + brand",
+          "s": "I like the good brand."
+        },
+        {
+          "p": "Can you buy the cheap one today?",
+          "m": "Nói có thể mua hôm nay hay không.",
+          "h": "Yes/No + I + can + V",
+          "s": "Yes, I can buy the cheap one today."
+        },
+        {
+          "p": "Who do you tell about your choice?",
+          "m": "Nói một người bạn sẽ kể.",
+          "h": "I tell + N",
+          "s": "I tell my friend."
+        }
+      ]
+    },
+    {
+      "t": "Ôn tập: Giải quyết vấn đề khách hàng",
+      "e": [
+        {
+          "p": "Is the product wrong?",
+          "m": "Nói có vấn đề với sản phẩm hay không.",
+          "h": "Yes/No + S + be",
+          "s": "Yes, the product is wrong."
+        },
+        {
+          "p": "Do you have the receipt?",
+          "m": "Nói có giữ biên lai hay không.",
+          "h": "Yes/No + I/We + have",
+          "s": "No, I do not have the receipt."
+        },
+        {
+          "p": "Can we change the product today?",
+          "m": "Nói có thể đổi hôm nay hay không.",
+          "h": "Yes/No + we + can + V",
+          "s": "Yes, we can change the product today."
+        },
+        {
+          "p": "Where do you want the new one?",
+          "m": "Nói nơi bạn muốn nhận sản phẩm mới.",
+          "h": "I want it + place",
+          "s": "I want the new one at home."
+        },
+        {
+          "p": "Who brings the new product?",
+          "m": "Nói người sẽ mang sản phẩm mới.",
+          "h": "The + person + V + it",
+          "s": "The shop staff brings it."
+        }
+      ]
+    }
+  ]
+}

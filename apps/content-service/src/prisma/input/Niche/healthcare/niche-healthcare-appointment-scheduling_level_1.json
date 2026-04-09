@@ -1,0 +1,530 @@
+{
+  "l": 1,
+  "d": [
+    {
+      "t": "Đặt lịch khám cơ bản",
+      "e": [
+        {
+          "p": "Do you want to make an appointment?",
+          "m": "Nói rằng bạn muốn đặt lịch.",
+          "h": "Use: I want + an appointment.",
+          "s": "I want an appointment."
+        },
+        {
+          "p": "Which day do you prefer?",
+          "m": "Cho biết ngày bạn muốn (today/tomorrow hoặc day).",
+          "h": "Use: on + day / today / tomorrow.",
+          "s": "I want an appointment on Monday."
+        },
+        {
+          "p": "What time is good for you?",
+          "m": "Nói giờ bạn muốn (ví dụ: 9 am hoặc morning).",
+          "h": "Use: at + time / in the morning/afternoon.",
+          "s": "I want the appointment at 9 am."
+        },
+        {
+          "p": "Do you have any symptoms?",
+          "m": "Nói một triệu chứng ngắn (I have ...).",
+          "h": "Use: I have + noun.",
+          "s": "I have a cough."
+        },
+        {
+          "p": "Can you come tomorrow?",
+          "m": "Trả lời có hoặc không; nếu có, nói 'I can'.",
+          "h": "Use: I can / I can't + come.",
+          "s": "I can come tomorrow."
+        }
+      ]
+    },
+    {
+      "t": "Xác nhận ngày và giờ",
+      "e": [
+        {
+          "p": "Do you confirm Monday at 9 am?",
+          "m": "Xác nhận ngày và giờ (Yes hoặc No + khác nếu cần).",
+          "h": "Use: Yes, I confirm / No, I need + another time.",
+          "s": "Yes, I confirm Monday at 9 am."
+        },
+        {
+          "p": "Is 10 am better for you?",
+          "m": "Trả lời chọn 10 am hoặc giữ giờ khác.",
+          "h": "Use: Yes, 10 am is fine / No, I prefer + time.",
+          "s": "No, I prefer 2 pm."
+        },
+        {
+          "p": "Do you need the morning or afternoon?",
+          "m": "Nói chọn morning hoặc afternoon.",
+          "h": "Use: I need + the morning / the afternoon.",
+          "s": "I need the morning."
+        },
+        {
+          "p": "Can you come at 2 pm on Tuesday?",
+          "m": "Trả lời có hoặc không; nếu không, nói một thời gian khác ngắn gọn.",
+          "h": "Use: I can / I can't + at + time.",
+          "s": "I can't at 2 pm; I can at 4 pm."
+        },
+        {
+          "p": "Do you want a reminder call?",
+          "m": "Nói Yes hoặc No ngắn gọn.",
+          "h": "Use: Yes / No.",
+          "s": "Yes, please."
+        }
+      ]
+    },
+    {
+      "t": "Thông tin bệnh nhân đơn giản",
+      "e": [
+        {
+          "p": "What is your name?",
+          "m": "Nói tên của bạn ngắn gọn (dùng placeholder nếu cần).",
+          "h": "Use: My name is + name.",
+          "s": "My name is [studentName]."
+        },
+        {
+          "p": "How old are you?",
+          "m": "Nói tuổi của bạn bằng số.",
+          "h": "Use: I am + number + years old.",
+          "s": "I am 30 years old."
+        },
+        {
+          "p": "Where do you live?",
+          "m": "Nói tên thành phố nơi bạn sống (ngắn).",
+          "h": "Use: I live in + city.",
+          "s": "I live in [studentCity]."
+        },
+        {
+          "p": "What is your job?",
+          "m": "Nói nghề nghiệp ngắn (hoặc 'I am a student').",
+          "h": "Use: I am a + job / I am + student.",
+          "s": "I am a teacher."
+        },
+        {
+          "p": "Do you have any allergies?",
+          "m": "Nói Yes hoặc No; nếu Yes, ghi một từ tên dị ứng.",
+          "h": "Use: Yes, I am allergic to + noun / No.",
+          "s": "No."
+        }
+      ]
+    },
+    {
+      "t": "Hỏi về dịch vụ khám",
+      "e": [
+        {
+          "p": "Do you need a general check or a specialist?",
+          "m": "Nói chọn 'general check' hoặc 'specialist'.",
+          "h": "Use: I need + general check / a specialist.",
+          "s": "I need a general check."
+        },
+        {
+          "p": "Do you need a blood test?",
+          "m": "Trả lời Yes hoặc No ngắn.",
+          "h": "Use: Yes / No.",
+          "s": "Yes."
+        },
+        {
+          "p": "Do you want a female doctor?",
+          "m": "Trả lời Yes hoặc No ngắn.",
+          "h": "Use: Yes / No.",
+          "s": "No."
+        },
+        {
+          "p": "Do you need a fast test now?",
+          "m": "Nói bạn muốn 'now' hoặc 'later'.",
+          "h": "Use: I want + now / later.",
+          "s": "I want the test now."
+        },
+        {
+          "p": "Do you have an insurance card?",
+          "m": "Nói Yes hoặc No ngắn gọn.",
+          "h": "Use: Yes / No.",
+          "s": "No."
+        }
+      ]
+    },
+    {
+      "t": "Chuẩn bị trước khi đến viện",
+      "e": [
+        {
+          "p": "Please bring your ID.",
+          "m": "Nói rằng bạn sẽ mang theo ID (Yes/No).",
+          "h": "Use: I will bring + ID / I will not.",
+          "s": "I will bring my ID."
+        },
+        {
+          "p": "Please come with an empty stomach for the test.",
+          "m": "Nói bạn có thể nhịn ăn trước khi đến (I can / I can't).",
+          "h": "Use: I can / I can't + fast.",
+          "s": "I can fast."
+        },
+        {
+          "p": "Do you need to stop medicine?",
+          "m": "Trả lời Yes hoặc No ngắn (ở level này chỉ nói Yes/No).",
+          "h": "Use: Yes / No.",
+          "s": "Yes."
+        },
+        {
+          "p": "Bring your medical records.",
+          "m": "Nói bạn có mang hồ sơ y tế hay không.",
+          "h": "Use: I have / I don't have + records.",
+          "s": "I have my medical records."
+        },
+        {
+          "p": "Do you need a check instruction in writing?",
+          "m": "Nói Yes hoặc No ngắn.",
+          "h": "Use: Yes / No.",
+          "s": "Yes."
+        }
+      ]
+    },
+    {
+      "t": "Hủy hoặc hoãn lịch",
+      "e": [
+        {
+          "p": "Do you want to cancel your appointment?",
+          "m": "Nói Yes nếu bạn muốn hủy hoặc No nếu không.",
+          "h": "Use: Yes / No.",
+          "s": "Yes, I want to cancel."
+        },
+        {
+          "p": "When do you want to reschedule?",
+          "m": "Cho biết một ngày khác ngắn gọn.",
+          "h": "Use: on + day / tomorrow.",
+          "s": "I want to reschedule on Wednesday."
+        },
+        {
+          "p": "Can you come next week?",
+          "m": "Trả lời có hoặc không ngắn gọn.",
+          "h": "Use: I can / I can't + come.",
+          "s": "I can't come next week."
+        },
+        {
+          "p": "Do you need help to change the time?",
+          "m": "Nói Yes hoặc No ngắn.",
+          "h": "Use: Yes / No.",
+          "s": "Yes, please."
+        },
+        {
+          "p": "Do you want a refund?",
+          "m": "Trả lời Yes hoặc No ngắn.",
+          "h": "Use: Yes / No.",
+          "s": "No."
+        }
+      ]
+    },
+    {
+      "t": "Yêu cầu giờ sớm hơn",
+      "e": [
+        {
+          "p": "Do you need an earlier time?",
+          "m": "Nói Yes hoặc No ngắn.",
+          "h": "Use: Yes / No.",
+          "s": "Yes."
+        },
+        {
+          "p": "What is the earliest day for you?",
+          "m": "Cho biết ngày sớm nhất bạn có thể đến.",
+          "h": "Use: on + day / tomorrow.",
+          "s": "The earliest day is tomorrow."
+        },
+        {
+          "p": "Can you come in the morning?",
+          "m": "Nói bạn có thể vào buổi sáng hay không.",
+          "h": "Use: I can / I can't + in the morning.",
+          "s": "I can come in the morning."
+        },
+        {
+          "p": "Do you accept a short notice slot?",
+          "m": "Trả lời Yes hoặc No ngắn.",
+          "h": "Use: Yes / No.",
+          "s": "No."
+        },
+        {
+          "p": "If a slot opens at 8 am, do you take it?",
+          "m": "Trả lời có hoặc không; nếu có, nói 'I can'.",
+          "h": "Use: I can / I can't + take it.",
+          "s": "I can take it."
+        }
+      ]
+    },
+    {
+      "t": "Hỏi về chi phí đơn giản",
+      "e": [
+        {
+          "p": "How much is the visit?",
+          "m": "Nói một mức giá đơn giản (use 'dollars' or 'VND').",
+          "h": "Use: It is + number + dollars/VND.",
+          "s": "It is 20 dollars."
+        },
+        {
+          "p": "Is there an extra cost for tests?",
+          "m": "Trả lời Yes hoặc No ngắn.",
+          "h": "Use: Yes / No.",
+          "s": "Yes."
+        },
+        {
+          "p": "Do you pay with cash?",
+          "m": "Nói Yes nếu bạn trả tiền mặt hoặc No.",
+          "h": "Use: Yes / No.",
+          "s": "No, I pay by card."
+        },
+        {
+          "p": "Is insurance accepted?",
+          "m": "Trả lời Yes hoặc No ngắn.",
+          "h": "Use: Yes / No.",
+          "s": "Yes."
+        },
+        {
+          "p": "Do you need a receipt?",
+          "m": "Nói Yes hoặc No ngắn.",
+          "h": "Use: Yes / No.",
+          "s": "Yes."
+        }
+      ]
+    },
+    {
+      "t": "Hướng dẫn đến bệnh viện",
+      "e": [
+        {
+          "p": "Where is the clinic?",
+          "m": "Nói một vị trí ngắn (ví dụ: near the park).",
+          "h": "Use: It is + near / next to + place.",
+          "s": "It is near the park."
+        },
+        {
+          "p": "How do I get there by bus?",
+          "m": "Nói một hướng dẫn ngắn: bus number hoặc 'take the bus'.",
+          "h": "Use: Take bus number + X / take the bus.",
+          "s": "Take bus number 5."
+        },
+        {
+          "p": "Is there parking?",
+          "m": "Trả lời Yes hoặc No ngắn.",
+          "h": "Use: Yes / No.",
+          "s": "Yes, there is parking."
+        },
+        {
+          "p": "Is it near the main road?",
+          "m": "Nói Yes hoặc No ngắn.",
+          "h": "Use: Yes / No.",
+          "s": "No, it is next to a small road."
+        },
+        {
+          "p": "Do I need to go to the second floor?",
+          "m": "Trả lời Yes hoặc No ngắn.",
+          "h": "Use: Yes / No.",
+          "s": "Yes, go to the second floor."
+        }
+      ]
+    },
+    {
+      "t": "Hỏi về xét nghiệm",
+      "e": [
+        {
+          "p": "Do I need a blood test?",
+          "m": "Trả lời Yes hoặc No ngắn.",
+          "h": "Use: Yes / No.",
+          "s": "Yes."
+        },
+        {
+          "p": "Do I need to fast before the test?",
+          "m": "Trả lời Yes hoặc No ngắn.",
+          "h": "Use: Yes / No.",
+          "s": "Yes, you need to fast."
+        },
+        {
+          "p": "How long is the test?",
+          "m": "Nói thời gian ngắn (minutes/hours).",
+          "h": "Use: It is + number + minutes/hours.",
+          "s": "It is 15 minutes."
+        },
+        {
+          "p": "Do I need to stop my medicine?",
+          "m": "Trả lời Yes hoặc No ngắn.",
+          "h": "Use: Yes / No.",
+          "s": "No."
+        },
+        {
+          "p": "When will I get the results?",
+          "m": "Nói một thời gian ngắn (today/tomorrow/in X days).",
+          "h": "Use: You get + results + in + time.",
+          "s": "You get the results tomorrow."
+        }
+      ]
+    },
+    {
+      "t": "Hỗ trợ ngôn ngữ",
+      "e": [
+        {
+          "p": "Do you need an interpreter?",
+          "m": "Trả lời Yes hoặc No ngắn.",
+          "h": "Use: Yes / No.",
+          "s": "Yes."
+        },
+        {
+          "p": "Which language do you speak?",
+          "m": "Nói tên một ngôn ngữ ngắn (English/Vietnamese).",
+          "h": "Use: I speak + language.",
+          "s": "I speak Vietnamese."
+        },
+        {
+          "p": "Do you understand English?",
+          "m": "Trả lời Yes hoặc No ngắn.",
+          "h": "Use: Yes / No.",
+          "s": "No."
+        },
+        {
+          "p": "Do you need a written note in your language?",
+          "m": "Trả lời Yes hoặc No ngắn.",
+          "h": "Use: Yes / No.",
+          "s": "Yes."
+        },
+        {
+          "p": "Can a family member come with you?",
+          "m": "Trả lời Yes hoặc No ngắn.",
+          "h": "Use: Yes / No.",
+          "s": "Yes."
+        }
+      ]
+    },
+    {
+      "t": "Nhắc nhở và xác nhận cuối",
+      "e": [
+        {
+          "p": "We will call you one day before.",
+          "m": "Nói bạn nhận cuộc gọi nhắc nhớ (Yes).",
+          "h": "Use: Yes / I will / I can.",
+          "s": "Yes, I will get the call."
+        },
+        {
+          "p": "Please arrive 10 minutes early.",
+          "m": "Xác nhận bạn sẽ đến sớm (Yes/No).",
+          "h": "Use: I will / I can't.",
+          "s": "I will arrive 10 minutes early."
+        },
+        {
+          "p": "Do you confirm your appointment now?",
+          "m": "Xác nhận Yes hoặc No ngắn.",
+          "h": "Use: Yes / No.",
+          "s": "Yes, I confirm."
+        },
+        {
+          "p": "Do you have questions about preparation?",
+          "m": "Trả lời Yes hoặc No ngắn; nếu No, trả lời 'No'.",
+          "h": "Use: Yes / No.",
+          "s": "No."
+        },
+        {
+          "p": "Do you need a text reminder?",
+          "m": "Trả lời Yes hoặc No ngắn.",
+          "h": "Use: Yes / No.",
+          "s": "Yes."
+        }
+      ]
+    },
+    {
+      "t": "Ôn tập: Đặt và xác nhận",
+      "e": [
+        {
+          "p": "I can book you for Tuesday at 3 pm. Is this OK?",
+          "m": "Xác nhận ngày và giờ bằng Yes hoặc No; nếu Yes, lặp lại ngày và giờ.",
+          "h": "Use: Yes, I confirm + on + day + at + time / No.",
+          "s": "Yes, I confirm on Tuesday at 3 pm."
+        },
+        {
+          "p": "Do you want morning or afternoon?",
+          "m": "Chọn morning hoặc afternoon ngắn gọn.",
+          "h": "Use: I want + the morning/the afternoon.",
+          "s": "I want the afternoon."
+        },
+        {
+          "p": "Please bring your ID and insurance card.",
+          "m": "Nói bạn sẽ mang cả hai hay không (I will / I will not).",
+          "h": "Use: I will + bring / I will not.",
+          "s": "I will bring both."
+        },
+        {
+          "p": "Can you come at 8 am instead?",
+          "m": "Trả lời có hoặc không; nếu có, nói 'I can', nếu không, nói 'I can't'.",
+          "h": "Use: I can / I can't + come.",
+          "s": "I can't come at 8 am."
+        },
+        {
+          "p": "Do you need a reminder call or text?",
+          "m": "Chọn call hoặc text hoặc No ngắn gọn.",
+          "h": "Use: I need + a call / a text / No.",
+          "s": "I need a text."
+        }
+      ]
+    },
+    {
+      "t": "Ôn tập: Thay đổi lịch và hủy",
+      "e": [
+        {
+          "p": "You have an appointment on Friday at 10 am. Do you want to change?",
+          "m": "Nói Yes nếu muốn đổi hoặc No nếu không.",
+          "h": "Use: Yes / No.",
+          "s": "Yes, I want to change."
+        },
+        {
+          "p": "What day do you want instead?",
+          "m": "Cho biết một ngày khác ngắn gọn.",
+          "h": "Use: on + day.",
+          "s": "On Monday."
+        },
+        {
+          "p": "Do you want to cancel now?",
+          "m": "Nói Yes nếu hủy hoặc No nếu không.",
+          "h": "Use: Yes / No.",
+          "s": "No."
+        },
+        {
+          "p": "Can we offer you a new slot next week?",
+          "m": "Trả lời Yes hoặc No; nếu Yes, nói 'I can'.",
+          "h": "Use: I can / I can't.",
+          "s": "I can."
+        },
+        {
+          "p": "Do you need a confirmation email after change?",
+          "m": "Trả lời Yes hoặc No ngắn.",
+          "h": "Use: Yes / No.",
+          "s": "Yes."
+        }
+      ]
+    },
+    {
+      "t": "Ôn tập: Chuẩn bị và hỏi dịch vụ",
+      "e": [
+        {
+          "p": "For this test, you must fast for 8 hours.",
+          "m": "Xác nhận bạn sẽ nhịn ăn (I will / I won't).",
+          "h": "Use: I will / I won't + fast.",
+          "s": "I will fast for 8 hours."
+        },
+        {
+          "p": "Do you want a general doctor or a specialist?",
+          "m": "Chọn general doctor hoặc specialist ngắn gọn.",
+          "h": "Use: I want + a general doctor / a specialist.",
+          "s": "I want a specialist."
+        },
+        {
+          "p": "Is payment due at the visit?",
+          "m": "Trả lời Yes hoặc No ngắn.",
+          "h": "Use: Yes / No.",
+          "s": "Yes."
+        },
+        {
+          "p": "Do you need translation help on the visit?",
+          "m": "Trả lời Yes hoặc No ngắn.",
+          "h": "Use: Yes / No.",
+          "s": "No."
+        },
+        {
+          "p": "Please arrive 15 minutes before the test.",
+          "m": "Xác nhận bạn sẽ đến sớm (I will / I can't).",
+          "h": "Use: I will / I can't + arrive.",
+          "s": "I will arrive 15 minutes early."
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,530 @@
+{
+  "l": 2,
+  "d": [
+    {
+      "t": "Gặp HR lần đầu",
+      "e": [
+        {
+          "p": "What's your name and job?",
+          "m": "Nói tên của bạn. Nói nghề nghiệp của bạn.",
+          "h": "My name is [studentName]. I am + nghề (S + be + N).",
+          "s": "My name is [studentName]. I am [studentJob]."
+        },
+        {
+          "p": "Where do you live and where do you work?",
+          "m": "Nói nơi bạn sống. Nói nơi bạn làm việc.",
+          "h": "I live in [studentCity]. / I work at + place.",
+          "s": "I live in [studentCity]. I work at a small office."
+        },
+        {
+          "p": "How many hours do you work every day?",
+          "m": "Nói số giờ bạn làm mỗi ngày. Nói bạn có nghỉ giữa ca không.",
+          "h": "I work + số + hours. I sometimes / usually + V.",
+          "s": "I work eight hours every day. I sometimes have a short break."
+        },
+        {
+          "p": "Do you like your job and why?",
+          "m": "Nói bạn có thích công việc không. Nói lý do ngắn (1 lý do).",
+          "h": "I like / I do not like + N. Use because + adj.",
+          "s": "I like my job. It is good and I am happy."
+        },
+        {
+          "p": "What are your main work days and time?",
+          "m": "Nói các ngày bạn làm. Nói giờ bắt đầu và kết thúc đơn giản.",
+          "h": "I work on + days. I start at + giờ and finish at + giờ.",
+          "s": "I work from Monday to Friday. I start at eight and finish at four."
+        }
+      ]
+    },
+    {
+      "t": "Hỏi về giờ làm và ca",
+      "e": [
+        {
+          "p": "What time do you start work?",
+          "m": "Nói giờ bạn bắt đầu. Nói bạn có đến sớm không.",
+          "h": "I start at + giờ. I usually / sometimes + V.",
+          "s": "I start work at nine. I usually arrive early."
+        },
+        {
+          "p": "Do you work in the morning or evening?",
+          "m": "Nói bạn làm ca sáng hay chiều. Nói nếu bạn làm ca đêm.",
+          "h": "I work in the morning / I do not work at night.",
+          "s": "I work in the morning. I do not work at night."
+        },
+        {
+          "p": "How many breaks do you have?",
+          "m": "Nói số lần nghỉ trong ngày. Nói thời gian mỗi lần nghỉ.",
+          "h": "There are + số + breaks. Each break is + thời lượng.",
+          "s": "There are two breaks every day. Each break is fifteen minutes."
+        },
+        {
+          "p": "Are you working today and tomorrow?",
+          "m": "Nói bạn có làm việc hôm nay. Nói bạn có làm việc ngày mai.",
+          "h": "I am working / I am not working (present continuous).",
+          "s": "I am working today. I am not working tomorrow."
+        },
+        {
+          "p": "Who covers if you are late?",
+          "m": "Nói ai thay bạn khi bạn đến muộn. Nói nếu bạn báo cho ai.",
+          "h": "My colleague covers. I tell my manager.",
+          "s": "My colleague covers my work. I tell my manager when I am late."
+        }
+      ]
+    },
+    {
+      "t": "Thời gian nghỉ và ngày phép",
+      "e": [
+        {
+          "p": "How many days off do you have each year?",
+          "m": "Nói số ngày phép của bạn. Nói bạn có dùng hết không.",
+          "h": "There are + số + days. I usually / sometimes + V.",
+          "s": "I have ten days off each year. I usually use all days."
+        },
+        {
+          "p": "Can you take a day off next week?",
+          "m": "Nói có thể nghỉ ngày tới không. Nói lý do ngắn nếu có.",
+          "h": "Yes, I can / No, I can't + because + lý do.",
+          "s": "I can take a day off next week. I need rest."
+        },
+        {
+          "p": "Who approves your leave?",
+          "m": "Nói ai duyệt đơn nghỉ. Nói cách bạn xin phép (email hoặc nói trực tiếp).",
+          "h": "My manager approves. I send an email / I talk to him.",
+          "s": "My manager approves my leave. I send an email to ask."
+        },
+        {
+          "p": "Do you still have sick days?",
+          "m": "Nói bạn còn ngày ốm không. Nói bạn có đi khám không.",
+          "h": "I have + số + sick days. I sometimes go to the doctor.",
+          "s": "I still have three sick days. I sometimes go to the doctor."
+        },
+        {
+          "p": "How do you ask for leave in your company?",
+          "m": "Nói cách xin phép ở công ty. Nói liệu có form hay không.",
+          "h": "We ask by email or form. Use 'There is' or 'We use'.",
+          "s": "We ask for leave by email. There is a simple form to fill."
+        }
+      ]
+    },
+    {
+      "t": "Hỏi về lương cơ bản",
+      "e": [
+        {
+          "p": "When do you get paid?",
+          "m": "Nói ngày nhận lương. Nói lương có hàng tháng không.",
+          "h": "I get paid on + ngày. I get paid monthly / sometimes weekly.",
+          "s": "I get paid on the 25th. I get paid monthly."
+        },
+        {
+          "p": "How much is your basic pay?",
+          "m": "Nói mức lương cơ bản (dùng số đơn giản). Nói lương có thay đổi không.",
+          "h": "My basic pay is + number. It usually does not change.",
+          "s": "My basic pay is 500 dollars. It usually does not change."
+        },
+        {
+          "p": "Do you get extra pay for overtime?",
+          "m": "Nói có nhận thêm tiền làm thêm giờ không. Nói khi nào có.",
+          "h": "I get extra pay for overtime. Use 'when' for time.",
+          "s": "I get extra pay for overtime. I get it when I work late."
+        },
+        {
+          "p": "Is your pay always on time?",
+          "m": "Nói lương luôn đúng hạn không. Nói nếu công ty trả trễ thì bạn làm gì.",
+          "h": "Use 'always/sometimes' and 'If ... I ...'.",
+          "s": "My pay is usually on time. If it is late, I tell HR."
+        },
+        {
+          "p": "Who can you ask about a pay problem?",
+          "m": "Nói ai bạn hỏi khi có vấn đề lương. Nói cách liên hệ.",
+          "h": "Ask HR or manager. 'I contact HR by email.'",
+          "s": "I ask HR about pay problems. I contact them by email."
+        }
+      ]
+    },
+    {
+      "t": "Ký hợp đồng lao động",
+      "e": [
+        {
+          "p": "Do you have a written contract?",
+          "m": "Nói bạn có hợp đồng viết không. Nói hợp đồng dài hay ngắn.",
+          "h": "Yes, I have / No, I do not. It is + short/long.",
+          "s": "Yes, I have a written contract. It is short."
+        },
+        {
+          "p": "Are you signing the contract now?",
+          "m": "Nói bạn có ký hợp đồng bây giờ không. Nói bạn có đọc kỹ không.",
+          "h": "Use present continuous: I am signing / I am not signing. I read it.",
+          "s": "I am not signing the contract now. I read the contract carefully."
+        },
+        {
+          "p": "What rules are in your contract?",
+          "m": "Nói 1-2 quy tắc chính (ví dụ giờ làm, ngày nghỉ). Nói một điều bạn nhớ.",
+          "h": "There are + rules. It says + short detail.",
+          "s": "There are rules about work hours and days off. It says I have ten days off."
+        },
+        {
+          "p": "Do you understand all terms?",
+          "m": "Nói bạn có hiểu các điều khoản không. Nói bạn cần giúp từ ai.",
+          "h": "I understand / I do not understand. I ask HR for help.",
+          "s": "I do not understand all terms. I ask HR for help."
+        },
+        {
+          "p": "Can you ask for a change in the contract?",
+          "m": "Nói bạn có thể yêu cầu thay đổi không. Nói bạn sẽ hỏi ai.",
+          "h": "I can / I cannot. I ask my manager.",
+          "s": "I can ask for a change in the contract. I ask my manager."
+        }
+      ]
+    },
+    {
+      "t": "Nội quy an toàn nơi làm việc",
+      "e": [
+        {
+          "p": "Is there a safety rule at your workplace?",
+          "m": "Nói có quy tắc an toàn không. Nói một quy tắc đơn giản.",
+          "h": "There is + a safety rule. Use 'You must ...'.",
+          "s": "There is a safety rule at my workplace. You must wear a hat."
+        },
+        {
+          "p": "Do you wear safety gear?",
+          "m": "Nói bạn có mặc đồ bảo hộ không. Nói khi nào bạn mặc.",
+          "h": "I wear safety gear. Say when: every day / sometimes.",
+          "s": "I wear safety gear at work. I wear it every day."
+        },
+        {
+          "p": "Who checks safety in your team?",
+          "m": "Nói ai kiểm tra an toàn. Nói họ làm gì khi kiểm tra.",
+          "h": "My supervisor checks. He checks and talks to workers.",
+          "s": "The supervisor checks safety in my team. He checks the area and talks to workers."
+        },
+        {
+          "p": "What do you do if you see danger?",
+          "m": "Nói bạn làm gì khi thấy nguy hiểm. Nói bạn báo cho ai.",
+          "h": "I stop work. I tell the supervisor.",
+          "s": "I stop work if I see danger. I tell the supervisor."
+        },
+        {
+          "p": "Are safety meetings regular?",
+          "m": "Nói cuộc họp an toàn có thường xuyên không. Nói khi họp.",
+          "h": "They are + frequency. Use 'every + time'.",
+          "s": "Safety meetings are regular. They are every month."
+        }
+      ]
+    },
+    {
+      "t": "Báo cáo vấn đề tại chỗ làm",
+      "e": [
+        {
+          "p": "Is there a problem now?",
+          "m": "Nói có vấn đề bây giờ không. Nói vấn đề nhỏ hay lớn.",
+          "h": "There is / There is not + a small / big problem.",
+          "s": "There is a small problem now. It is a broken light."
+        },
+        {
+          "p": "Who do you tell about a problem?",
+          "m": "Nói bạn báo cho ai. Nói cách báo (nói trực tiếp hoặc email).",
+          "h": "I tell + person. I tell them in person / by email.",
+          "s": "I tell the supervisor about a problem. I tell him in person."
+        },
+        {
+          "p": "Do you still have the problem?",
+          "m": "Nói vấn đề còn không. Nói bạn làm gì để sửa.",
+          "h": "We still have / do not have. I ask maintenance to fix it.",
+          "s": "We still have the problem. I ask maintenance to fix it."
+        },
+        {
+          "p": "Can you write a short report?",
+          "m": "Nói bạn có thể viết báo cáo ngắn không. Nói bạn gửi cho ai.",
+          "h": "I can / I cannot. I send it to HR.",
+          "s": "I can write a short report. I send it to HR."
+        },
+        {
+          "p": "How do you fix small problems by yourself?",
+          "m": "Nói bạn tự sửa vấn đề nhỏ bằng cách nào. Nói nếu bạn cần giúp.",
+          "h": "I fix by + action. I need help for big problems.",
+          "s": "I fix small problems by cleaning or replacing a bulb. I need help for big problems."
+        }
+      ]
+    },
+    {
+      "t": "Tuyển dụng và điều kiện làm việc",
+      "e": [
+        {
+          "p": "Are you hiring new people?",
+          "m": "Nói công ty có tuyển không. Nói vị trí đơn giản.",
+          "h": "We are hiring / We are not. Say a job name.",
+          "s": "We are hiring new people. We need an office assistant."
+        },
+        {
+          "p": "What are the basic hours for new staff?",
+          "m": "Nói giờ làm cho nhân viên mới. Nói có thay đổi không.",
+          "h": "They work + giờ. Use 'usually'.",
+          "s": "New staff work eight hours a day. Their hours usually do not change."
+        },
+        {
+          "p": "Do you need a school certificate?",
+          "m": "Nói công ty có cần bằng cấp cho vị trí không. Nói ai kiểm tra giấy tờ.",
+          "h": "We need / We do not need. HR checks the documents.",
+          "s": "We do not need a school certificate for this job. HR checks the documents."
+        },
+        {
+          "p": "How do people apply?",
+          "m": "Nói cách ứng tuyển (email/form). Nói có phỏng vấn không.",
+          "h": "People apply by email. They have an interview or not.",
+          "s": "People apply by email. They have a short interview."
+        },
+        {
+          "p": "Do new staff read the company rules?",
+          "m": "Nói nhân viên mới có đọc nội quy không. Nói ai hướng dẫn họ.",
+          "h": "They read the rules. HR shows the rules.",
+          "s": "New staff read the company rules. HR shows the rules in a short meeting."
+        }
+      ]
+    },
+    {
+      "t": "Nghỉ ốm và giấy chứng bệnh",
+      "e": [
+        {
+          "p": "Are you sick today?",
+          "m": "Nói bạn có bị ốm hôm nay không. Nói bạn đi làm hay nghỉ.",
+          "h": "I am sick / I am not sick. I stay home / I go to work.",
+          "s": "I am sick today. I stay home."
+        },
+        {
+          "p": "Do you have a doctor's note?",
+          "m": "Nói bạn có giấy bác sĩ không. Nói bạn gửi cho ai.",
+          "h": "I have / I do not have. I send it to HR.",
+          "s": "I do not have a doctor's note. I send it to HR later."
+        },
+        {
+          "p": "How many sick days do you use?",
+          "m": "Nói bạn đã dùng bao nhiêu ngày ốm. Nói bạn còn bao nhiêu.",
+          "h": "I use + số + sick days. I have + số + left.",
+          "s": "I use two sick days this month. I have three left."
+        },
+        {
+          "p": "Who checks your sick note?",
+          "m": "Nói ai kiểm tra giấy nghỉ ốm. Nói cách họ kiểm tra.",
+          "h": "HR checks. They check by email or in person.",
+          "s": "HR checks my sick note. They check it by email."
+        },
+        {
+          "p": "Can you work from home when sick?",
+          "m": "Nói bạn có thể làm việc ở nhà khi ốm không. Nói bạn có nhiều việc không.",
+          "h": "I can / I cannot. I have much / little work.",
+          "s": "I can work from home sometimes. I do not have much work when I am sick."
+        }
+      ]
+    },
+    {
+      "t": "Nộp đơn xin nghỉ việc",
+      "e": [
+        {
+          "p": "Are you thinking of leaving your job?",
+          "m": "Nói bạn có nghĩ rời việc không. Nói lý do ngắn.",
+          "h": "I am thinking of + V-ing. Use because + short reason.",
+          "s": "I am thinking of leaving my job. I am tired."
+        },
+        {
+          "p": "Do you tell your manager first?",
+          "m": "Nói bạn báo manager trước không. Nói bạn nói như thế nào.",
+          "h": "I tell my manager. I talk to him in person.",
+          "s": "I tell my manager first. I talk to him in person."
+        },
+        {
+          "p": "How much notice do you give?",
+          "m": "Nói bạn cho biết trước bao nhiêu ngày. Nói bạn làm tiếp hay nghỉ luôn.",
+          "h": "I give + thời gian + notice. I work during the notice / I leave.",
+          "s": "I give two weeks' notice. I work during the notice."
+        },
+        {
+          "p": "Do you need an exit form?",
+          "m": "Nói có cần form không. Nói bạn nộp cho ai.",
+          "h": "There is an exit form. I give it to HR.",
+          "s": "There is an exit form. I give it to HR."
+        },
+        {
+          "p": "Can you say a short resignation now?",
+          "m": "Viết 2 câu: 1) Nói bạn xin nghỉ việc. 2) Nói ngày cuối cùng bạn làm việc.",
+          "h": "Use 'I resign' and 'My last day is + date.'",
+          "s": "I resign from my job. My last day is the 30th."
+        }
+      ]
+    },
+    {
+      "t": "Đánh giá hiệu suất đơn giản",
+      "e": [
+        {
+          "p": "Do you like your work this month?",
+          "m": "Nói bạn có thích công việc tháng này không. Nói một điều bạn làm tốt.",
+          "h": "I like / I do not like. I do well at + task.",
+          "s": "I like my work this month. I do well at filing papers."
+        },
+        {
+          "p": "Are you always on time?",
+          "m": "Nói bạn luôn đúng giờ không. Nói tần suất (always/sometimes).",
+          "h": "Use adverbs: usually, sometimes, never.",
+          "s": "I am usually on time. I sometimes arrive late."
+        },
+        {
+          "p": "How many tasks do you finish daily?",
+          "m": "Nói bạn hoàn thành bao nhiêu việc mỗi ngày. Nói nếu bạn cần giúp.",
+          "h": "I finish + số + tasks. I need help with + cái.",
+          "s": "I finish three tasks every day. I need help with big tasks."
+        },
+        {
+          "p": "Who gives you feedback?",
+          "m": "Nói ai đánh giá bạn. Nói họ nói điều gì ngắn.",
+          "h": "My manager gives feedback. He says + short comment.",
+          "s": "My manager gives me feedback. He says I work well."
+        },
+        {
+          "p": "Can you set a simple goal for next month?",
+          "m": "Viết 2 câu: 1) Nói mục tiêu nhỏ. 2) Nói cách bạn làm để đạt được nó.",
+          "h": "My goal is + N. I work / I am + V-ing to reach it.",
+          "s": "My goal is to finish five tasks. I work more in the morning."
+        }
+      ]
+    },
+    {
+      "t": "Cập nhật thông tin cá nhân trong hồ sơ nhân sự",
+      "e": [
+        {
+          "p": "What is your city and job?",
+          "m": "Nói nơi bạn sống. Nói nghề nghiệp của bạn.",
+          "h": "I live in [studentCity]. I am [studentJob].",
+          "s": "I live in [studentCity]. I am [studentJob]."
+        },
+        {
+          "p": "Do you have a new address?",
+          "m": "Nói bạn có địa chỉ mới không. Nói bạn đã báo ai.",
+          "h": "I have / I do not have. I tell HR if I change it.",
+          "s": "I do not have a new address. I tell HR if I change it."
+        },
+        {
+          "p": "Can you update your emergency contact?",
+          "m": "Nói bạn có thể cập nhật không. Nói bạn có số liên hệ không.",
+          "h": "I can / I cannot. I have a phone number.",
+          "s": "I can update my emergency contact. I have a phone number."
+        },
+        {
+          "p": "Who helps with personal info?",
+          "m": "Nói ai giúp cập nhật thông tin. Nói cách họ giúp (form/email).",
+          "h": "HR helps. They give a form or ask by email.",
+          "s": "HR helps with personal info. They give a form to fill."
+        },
+        {
+          "p": "Do you want to change your job title?",
+          "m": "Nói bạn có muốn thay đổi chức danh không. Nói vì sao ngắn.",
+          "h": "I want / I do not want. Use because + short reason.",
+          "s": "I do not want to change my job title. I like my current job."
+        }
+      ]
+    },
+    {
+      "t": "Ôn tập: Phỏng vấn HR",
+      "e": [
+        {
+          "p": "Tell me your name and city.",
+          "m": "Nói tên. Nói nơi bạn sống.",
+          "h": "My name is [studentName]. I live in [studentCity].",
+          "s": "My name is [studentName]. I live in [studentCity]."
+        },
+        {
+          "p": "Say your job and work hours.",
+          "m": "Nói nghề nghiệp. Nói giờ làm.",
+          "h": "I am [studentJob]. I work from nine to five.",
+          "s": "I am [studentJob]. I work from nine to five."
+        },
+        {
+          "p": "Do you follow company rules and why?",
+          "m": "Nói bạn có tuân theo nội quy không. Nói lý do ngắn.",
+          "h": "I follow / I do not follow + because + short reason.",
+          "s": "I follow company rules. They keep us safe."
+        },
+        {
+          "p": "How do you ask for a day off?",
+          "m": "Nói cách bạn xin nghỉ. Nói bạn xin ai.",
+          "h": "I ask for leave by email. I ask my manager.",
+          "s": "I ask for a day off by email. I ask my manager."
+        },
+        {
+          "p": "Can you give a short sentence about pay and a safety rule?",
+          "m": "Viết 2 câu: 1) Nói về lương (ngắn). 2) Nói 1 quy tắc an toàn.",
+          "h": "Use 'I get paid' and 'You must ...'.",
+          "s": "I get paid monthly. You must wear safe shoes."
+        }
+      ]
+    },
+    {
+      "t": "Ôn tập: Vấn đề ca làm và lương",
+      "e": [
+        {
+          "p": "Do you work mornings and do you get breaks?",
+          "m": "Nói bạn làm ca sáng không. Nói bạn có nghỉ không.",
+          "h": "I work in the morning. I have + breaks.",
+          "s": "I work in the morning. I have two breaks."
+        },
+        {
+          "p": "How much is your pay and who to ask if late?",
+          "m": "Nói mức lương. Nói hỏi ai nếu lương trễ.",
+          "h": "My pay is + number. I ask HR if late.",
+          "s": "My pay is 500 dollars. I ask HR if the pay is late."
+        },
+        {
+          "p": "Are overtime rules clear and who approves extra pay?",
+          "m": "Nói quy tắc làm thêm có rõ không. Nói ai duyệt trả thêm.",
+          "h": "They are clear / not clear. HR approves extra pay.",
+          "s": "Overtime rules are clear. HR approves extra pay."
+        },
+        {
+          "p": "Say two steps to report a pay problem.",
+          "m": "Viết 2 câu: 1) Nói bước đầu (ai báo). 2) Nói bước tiếp theo (gửi email).",
+          "h": "I tell + person. I send + method.",
+          "s": "I tell my supervisor about the problem. I send an email to HR."
+        },
+        {
+          "p": "How do you fix a small pay mistake and do you still work?",
+          "m": "Nói cách bạn sửa lỗi lương nhỏ. Nói bạn có tiếp tục làm việc không.",
+          "h": "I fix by talking to HR. I still work / I do not work.",
+          "s": "I fix a small pay mistake by talking to HR. I still work while they fix it."
+        }
+      ]
+    },
+    {
+      "t": "Ôn tập: Quy tắc và xin nghỉ",
+      "e": [
+        {
+          "p": "Are safety rules easy and do you read them?",
+          "m": "Nói quy tắc có dễ hiểu không. Nói bạn có đọc không.",
+          "h": "They are easy / not easy. I read them / I do not read them.",
+          "s": "Safety rules are easy. I read them."
+        },
+        {
+          "p": "Can you take sick leave and do you have a doctor's note?",
+          "m": "Nói bạn có thể nghỉ ốm không. Nói có giấy bác sĩ không.",
+          "h": "I can / I cannot. I have / I do not have a doctor's note.",
+          "s": "I can take sick leave. I do not have a doctor's note now."
+        },
+        {
+          "p": "Who signs your exit form and do you give notice?",
+          "m": "Nói ai ký form nghỉ việc. Nói bạn có báo trước không.",
+          "h": "HR signs. I give + thời gian + notice.",
+          "s": "HR signs my exit form. I give two weeks' notice."
+        },
+        {
+          "p": "Ask for a small change in contract and say who to ask.",
+          "m": "Viết 2 câu: 1) Nói bạn muốn thay đổi. 2) Nói bạn hỏi ai.",
+          "h": "I want + change. I ask my manager.",
+          "s": "I want a small change in my contract. I ask my manager."
+        },
+        {
+          "p": "Give two simple rules for workers.",
+          "m": "Viết 2 câu: 1) Rule 1. 2) Rule 2.",
+          "h": "Use short imperatives: You must / Do not.",
+          "s": "You must wear a helmet. Do not run at work."
+        }
+      ]
+    }
+  ]
+}

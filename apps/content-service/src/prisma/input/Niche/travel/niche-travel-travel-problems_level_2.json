@@ -1,0 +1,530 @@
+{
+  "l": 2,
+  "d": [
+    {
+      "t": "Chuyến bay trễ",
+      "e": [
+        {
+          "p": "I'm sorry, your flight is delayed until 5 PM.",
+          "m": "Nói bạn đang ở sân bay và chờ chuyến bay. Hỏi khi nào máy bay khởi hành.",
+          "h": "Use 'I am' + V-ing; 'When will...' hoặc 'What time...?'",
+          "s": "I am at the airport and I am waiting for my flight. When will the plane leave?"
+        },
+        {
+          "p": "We don't have a new departure time yet.",
+          "m": "Nói bạn lo lắng vì có chuyến nối. Hỏi hãng có hỗ trợ (ví dụ: phòng chờ hoặc phiếu ăn).",
+          "h": "Use 'I am' + adjective; 'Do you/Can you...' hoặc 'Is there...?'",
+          "s": "I am worried because I have a connecting flight. Is there any help like a meal voucher?"
+        },
+        {
+          "p": "There is a gate change for your flight.",
+          "m": "Nói bạn đang đi đến cổng mới. Hỏi cổng số mấy và liệu bạn có cần đi đâu thêm không.",
+          "h": "Use 'I am going to...' and 'What gate is it? / Do I need to...?'",
+          "s": "I am going to the new gate now. What gate is it and do I need to go anywhere else?"
+        },
+        {
+          "p": "We offer hotel for long delays.",
+          "m": "Nói bạn muốn một phòng nếu chuyến bay hoãn qua đêm. Hỏi cách nhận phòng/phiếu khách sạn.",
+          "h": "Use 'I want/need' + noun or 'How do I...?'",
+          "s": "I need a hotel room because the flight is overnight. How do I get the hotel voucher?"
+        },
+        {
+          "p": "Please confirm your contact details for updates.",
+          "m": "Cho biết bạn đang dùng điện thoại hay email để nhận thông báo. Hỏi họ có gửi tin nhắn ngay không.",
+          "h": "Use 'I am using...' and 'Will you send...?'",
+          "s": "I am using my phone to get updates. Will you send a text message now?"
+        }
+      ]
+    },
+    {
+      "t": "Mất hành lý ở sân bay",
+      "e": [
+        {
+          "p": "I'm sorry, we can't find your bag on the belt.",
+          "m": "Nói rằng bạn không thấy hành lý và bạn đang đứng ở quầy. Hỏi bước tiếp theo là gì.",
+          "h": "Use 'I don't see...' or 'I am at...' and 'What do I do next?'",
+          "s": "I don't see my luggage and I am at the counter now. What do I do next?"
+        },
+        {
+          "p": "Do you have your baggage tag number?",
+          "m": "Cho biết bạn có hoặc không có số tag. Nếu có, nói số; nếu không, hỏi họ có thể tìm bằng tên không.",
+          "h": "Use 'I have' or 'I don't have' + noun; ask 'Can you find it by my name?'",
+          "s": "I have the baggage tag and the number is 12345. Can you find it by my name?"
+        },
+        {
+          "p": "We will register a lost luggage report for you.",
+          "m": "Nói bạn cần biết khi nào có tin tức. Hỏi họ sẽ gọi hay nhắn tin và bạn có thể chờ ở đâu.",
+          "h": "Use 'When will...' and 'Will you call/text me?'",
+          "s": "When will you contact me with news about my bag? Will you call or text me?"
+        },
+        {
+          "p": "Sometimes bags come later the same day.",
+          "m": "Nói bạn hy vọng nhận hành lý trong ngày. Hỏi họ có đưa hành lý tới khách sạn được không.",
+          "h": "Use 'I hope' + to-infinitive and 'Can you deliver...' or 'Will you deliver...?'",
+          "s": "I hope to get my luggage today. Can you deliver it to my hotel?"
+        },
+        {
+          "p": "We can give you a small kit for essentials.",
+          "m": "Nói bạn cần đồ vệ sinh hoặc quần áo sơ bộ. Hỏi bạn lấy kit ở đâu và họ có cho mượn gì khác không.",
+          "h": "Use 'I need' + noun and 'Where can I get...?'",
+          "s": "I need basic toiletries and a change of clothes. Where can I get the kit and do you lend anything else?"
+        }
+      ]
+    },
+    {
+      "t": "Đặt chỗ sai thông tin",
+      "e": [
+        {
+          "p": "Your booking shows the wrong name spelling.",
+          "m": "Nói bạn thấy tên bị sai trên vé. Yêu cầu sửa tên đúng.",
+          "h": "Use 'My name is...' or 'The correct name is...' and 'Please correct...' ",
+          "s": "My name is Nguyen Van A and the booking has a mistake. Please correct the name."
+        },
+        {
+          "p": "We can change the email on the reservation.",
+          "m": "Cho biết bạn muốn đổi email. Nói email mới và hỏi họ đã cập nhật chưa.",
+          "h": "Use 'I want to change my email to...' and 'Have you updated it?'",
+          "s": "I want to change my email to example@mail.com. Have you updated it?"
+        },
+        {
+          "p": "The seat class on your ticket is economy, not business.",
+          "m": "Nói bạn đã đặt business nhưng thấy economy. Hỏi họ có thể kiểm tra đặt chỗ không và giải thích bạn muốn business.",
+          "h": "Use 'I booked...' and 'Can you check...' or 'I want...'",
+          "s": "I booked a business seat but the ticket shows economy. Can you check my reservation and change it to business?"
+        },
+        {
+          "p": "We need ID to change a name on a ticket.",
+          "m": "Nói bạn có ID và cho biết loại ID (passport). Hỏi họ cần bản gốc hay bản copy.",
+          "h": "Use 'I have' + noun and ask 'Do you need...?'",
+          "s": "I have my passport with me. Do you need the original or a copy?"
+        },
+        {
+          "p": "There may be a small fee for changes.",
+          "m": "Hỏi phí là bao nhiêu và bạn muốn biết họ có thể sửa miễn phí do lỗi hãng không.",
+          "h": "Use 'How much is...' and 'Can you change it for free because...?'",
+          "s": "How much is the change fee? Can you change it for free because the mistake is from the airline?"
+        }
+      ]
+    },
+    {
+      "t": "Hủy chuyến bay",
+      "e": [
+        {
+          "p": "We regret to inform you the flight is cancelled.",
+          "m": "Nói bạn đang ở sân bay và thất vọng. Hỏi họ sẽ làm gì cho hành khách bây giờ.",
+          "h": "Use 'I am' + feeling and 'What will you do...' or 'What can you do...?'.",
+          "s": "I am at the airport and I am upset about the cancellation. What can you do for passengers now?"
+        },
+        {
+          "p": "We can rebook you on the next available flight.",
+          "m": "Nói bạn muốn chuyến sớm nhất. Hỏi họ có chỗ trên chuyến tiếp theo hôm nay không.",
+          "h": "Use 'I want' + noun or 'I want to be rebooked on...' and 'Is there a seat today?'",
+          "s": "I want the earliest available flight. Is there a seat on the next flight today?"
+        },
+        {
+          "p": "You can also choose a refund instead.",
+          "m": "Nói bạn muốn biết về hoàn tiền. Hỏi thủ tục hoàn tiền và thời gian nhận tiền.",
+          "h": "Use 'I want to' + verb and ask 'How long will...' or 'How do I...?'",
+          "s": "I want to ask about a refund. How do I get the refund and how long will it take?"
+        },
+        {
+          "p": "We provide hotel or food for long cancellations.",
+          "m": "Nói bạn cần ngủ qua đêm. Hỏi họ có khách sạn và cách nhận phiếu hay hướng dẫn.",
+          "h": "Use 'I need' + noun and 'How do I get...?'",
+          "s": "I need a hotel because I must stay overnight. How do I get the hotel voucher?"
+        },
+        {
+          "p": "Please confirm your contact details for rebooking.",
+          "m": "Cho số điện thoại hoặc email để nhận thông báo. Hỏi họ có thể giữ chỗ cho bạn tạm thời không.",
+          "h": "Use 'My phone number is...' and 'Can you hold a seat for me?'",
+          "s": "My phone number is 0912345678. Can you hold a seat for me temporarily?"
+        }
+      ]
+    },
+    {
+      "t": "Lỡ chuyến nối",
+      "e": [
+        {
+          "p": "You missed your connecting flight because of the delay.",
+          "m": "Nói bạn buồn vì lỡ chuyến. Hỏi họ có chuyến tiếp theo trong ngày không.",
+          "h": "Use 'I am' + feeling and 'Is there...' or 'Do you have...?'",
+          "s": "I am sad because I missed my connection. Is there another flight today?"
+        },
+        {
+          "p": "We can try to put you on the next flight.",
+          "m": "Nói bạn muốn được chuyển ngay. Hỏi họ có chỗ ở hạng thường hay cao hơn không.",
+          "h": "Use 'I want' + to-infinitive and 'Do you have...' or 'Can you put me on...?'",
+          "s": "I want to be rebooked on the next flight right away. Do you have a seat available?"
+        },
+        {
+          "p": "Sometimes we give a voucher for food when you wait.",
+          "m": "Nói bạn đói và hỏi cách lấy phiếu ăn. Hỏi họ có thể đưa bạn phiếu ngay không.",
+          "h": "Use 'I am' + hungry and 'How can I get...' or 'Can you give...?'",
+          "s": "I am hungry and I need a food voucher. Can you give me the voucher now?"
+        },
+        {
+          "p": "We can also send your bags on the next flight.",
+          "m": "Nói bạn quan tâm hành lý. Hỏi hành lý có đến cùng chuyến mới không và khi nào.",
+          "h": "Use 'Will my luggage...' and 'When will it arrive?'",
+          "s": "Will my luggage go on the next flight? When will it arrive?"
+        },
+        {
+          "p": "You can speak to our desk for a personal plan.",
+          "m": "Yêu cầu họ giúp lập kế hoạch thay thế: chọn chuyến, nhận khách sạn hoặc hoàn tiền. Nói bạn muốn nhân viên làm điều đó cho bạn.",
+          "h": "Use 'I want you to...' and list simple actions.",
+          "s": "I want you to book the next flight and arrange a hotel if needed. Please also check if I can get a refund."
+        }
+      ]
+    },
+    {
+      "t": "Khách sạn có vấn đề",
+      "e": [
+        {
+          "p": "The room is not clean as we promised.",
+          "m": "Nói bạn không hài lòng với phòng. Yêu cầu dọn lại hoặc đổi phòng.",
+          "h": "Use 'I am not happy' and 'Please clean/change...' ",
+          "s": "I am not happy with my room because it is not clean. Please clean it or give me another room."
+        },
+        {
+          "p": "We can move you to a different room.",
+          "m": "Nói bạn muốn phòng yên tĩnh hơn. Hỏi phòng mới ở tầng mấy và có cửa sổ không.",
+          "h": "Use 'I want' + adjective or noun and ask 'Is the new room on...?'",
+          "s": "I want a quieter room, please. Is the new room on a higher floor and does it have a window?"
+        },
+        {
+          "p": "Breakfast is served from 6 to 10 AM.",
+          "m": "Nói bạn sẽ dùng bữa sáng hay không. Hỏi liệu bữa sáng có trong giá phòng hay phải trả thêm.",
+          "h": "Use 'I will' or 'I won't' and 'Is breakfast included?'",
+          "s": "I will have breakfast tomorrow. Is breakfast included in the room price?"
+        },
+        {
+          "p": "We can send housekeeping now if you need.",
+          "m": "Nói bạn cần khăn mới và chăn thêm. Hỏi khi nào họ đến và bạn có cần trả thêm không.",
+          "h": "Use 'I need' + noun and 'When will...' or 'Do I pay extra?'",
+          "s": "I need new towels and an extra blanket. When will housekeeping come and do I pay extra?"
+        },
+        {
+          "p": "Please sign here to confirm the change.",
+          "m": "Xác nhận bạn đồng ý đổi phòng / nhận dịch vụ. Nói bạn sẽ ký và hỏi họ có cần hộ chiếu hay thẻ không.",
+          "h": "Use 'I will' + verb and ask 'Do you need...?'",
+          "s": "I will sign to confirm the room change. Do you need my passport or card?"
+        }
+      ]
+    },
+    {
+      "t": "Vấn đề với taxi",
+      "e": [
+        {
+          "p": "The taxi is late to pick you up.",
+          "m": "Nói bạn đang chờ taxi và bực mình. Hỏi tài xế ở đâu và khi nào đến.",
+          "h": "Use 'I am waiting' and 'Where is the driver?' or 'When will he arrive?'",
+          "s": "I am waiting for my taxi and I am annoyed. Where is the driver and when will he arrive?"
+        },
+        {
+          "p": "The driver says there is heavy traffic.",
+          "m": "Nói bạn có việc gấp và hỏi có đường khác nhanh hơn không. Hỏi tài xế có thể đổi đường được không.",
+          "h": "Use 'I have' + noun (urgent) and 'Can you take a different route?'",
+          "s": "I have an urgent meeting and I need a faster route. Can you take a different road?"
+        },
+        {
+          "p": "We accept card or cash for payment.",
+          "m": "Nói bạn chỉ có thẻ hoặc chỉ có tiền mặt. Hỏi tài xế có nhận thẻ không hoặc có máy POS không.",
+          "h": "Use 'I only have...' and ask 'Do you accept...?'",
+          "s": "I only have a card with me. Do you accept cards or have a POS machine?"
+        },
+        {
+          "p": "The meter shows a higher fare because of the route.",
+          "m": "Nói bạn thấy giá cao và hỏi vì sao. Hỏi có phí thêm hay tắc đường không.",
+          "h": "Use 'Why is the price...' and 'Is there an extra fee?'",
+          "s": "Why is the fare so high for this trip? Is there an extra fee or heavy traffic?"
+        },
+        {
+          "p": "We can call another taxi for you.",
+          "m": "Nói bạn muốn taxi mới nhanh. Yêu cầu họ đặt xe và cho bạn biết thời gian đến.",
+          "h": "Use 'Please call...' and 'How long will it take?'",
+          "s": "Please call another taxi for me quickly. How long will it take to arrive?"
+        }
+      ]
+    },
+    {
+      "t": "Hộ chiếu hoặc giấy tờ bị giữ",
+      "e": [
+        {
+          "p": "The officer took your passport for a check.",
+          "m": "Nói bạn lo lắng vì mất passport. Hỏi khi nào bạn nhận lại được.",
+          "h": "Use 'I am' + feeling and 'When will I get...' ",
+          "s": "I am worried because my passport was taken. When will I get it back?"
+        },
+        {
+          "p": "We need to check your visa details.",
+          "m": "Nói bạn có visa hay không và bạn đang ở đâu. Hỏi họ có thể giải thích vấn đề cụ thể không.",
+          "h": "Use 'I have' or 'I don't have' and ask 'Can you explain...?'",
+          "s": "I have a valid visa and I am in the arrival hall. Can you explain what is the problem?"
+        },
+        {
+          "p": "Please wait at the desk while we check.",
+          "m": "Nói bạn sẽ đợi và hỏi họ có thể gọi ai giúp bạn không (đại sứ quán hoặc người thân).",
+          "h": "Use 'I will wait' and 'Can you call...?'",
+          "s": "I will wait at the desk. Can you call my embassy or my family for help?"
+        },
+        {
+          "p": "We may return the documents in a few hours.",
+          "m": "Hỏi họ có giấy tờ tạm thời để đi hay cần ở lại. Nói nếu bạn cần giấy tờ tạm thời.",
+          "h": "Use 'Do you have...' and 'I need...'",
+          "s": "Do you have a temporary document to travel? I need a temporary ID if possible."
+        },
+        {
+          "p": "You can contact the consulate for fast support.",
+          "m": "Nói bạn muốn thông tin liên hệ đại sứ quán. Hỏi số điện thoại hoặc địa chỉ họ có thể gọi.",
+          "h": "Use 'Can you give...' and 'What is the phone number/address?'",
+          "s": "Can you give me the consulate contact details? What is the phone number and address?"
+        }
+      ]
+    },
+    {
+      "t": "Đồ bị hỏng trong hành lý",
+      "e": [
+        {
+          "p": "You reported a broken item in your bag.",
+          "m": "Nói món đồ bị hỏng là gì. Nói bạn thấy hỏng khi mở hành lý.",
+          "h": "Use 'My ... is broken' and 'I saw it when...' ",
+          "s": "My camera is broken and I saw it when I opened my luggage. It was working before the flight."
+        },
+        {
+          "p": "Do you have a receipt or proof of value?",
+          "m": "Nói bạn có hoặc không có hóa đơn. Nếu có, nói bạn sẽ cho họ xem; nếu không, nói khi nào bạn mua.",
+          "h": "Use 'I have' or 'I don't have' and 'I bought it in...' or 'I can show...'",
+          "s": "I have the receipt and I can show it at the desk. I bought it last year."
+        },
+        {
+          "p": "We can file a damage claim for you.",
+          "m": "Nói bạn muốn nộp đơn khiếu nại. Hỏi quá trình và khi nào có trả lời.",
+          "h": "Use 'I want to' + verb and 'How long will...' or 'When will...?'",
+          "s": "I want to file a damage claim. How long will the process take and when will I get an answer?"
+        },
+        {
+          "p": "Sometimes we offer partial compensation.",
+          "m": "Hỏi họ bồi thường bao nhiêu hoặc theo hình thức nào. Nói bạn muốn biết số tiền hoặc đổi mới.",
+          "h": "Use 'How much' and 'Will you...' or 'Can you...?'",
+          "s": "How much compensation do you offer for this damage? Can you replace or pay for a new item?"
+        },
+        {
+          "p": "Please give details and photos if you have them.",
+          "m": "Nói bạn có ảnh và mô tả vết hỏng. Hỏi họ muốn gửi qua email hay nộp trực tiếp.",
+          "h": "Use 'I have' + noun and ask 'Should I send it by email or give it now?'",
+          "s": "I have photos and a short description of the damage. Should I send them by email or give them here now?"
+        }
+      ]
+    },
+    {
+      "t": "Yêu cầu hoàn tiền hoặc đền bù",
+      "e": [
+        {
+          "p": "You can request a refund at our counter.",
+          "m": "Nói bạn muốn hoàn tiền cho vé/hành lý. Hỏi thủ tục cần gì.",
+          "h": "Use 'I want a refund for...' and 'What do I need to do?'",
+          "s": "I want a refund for my ticket due to cancellation. What documents do I need?"
+        },
+        {
+          "p": "Refunds usually take time to process.",
+          "m": "Hỏi mất bao lâu để tiền về tài khoản. Nói bạn muốn biết thời gian cụ thể.",
+          "h": "Use 'How long' and 'Will it take...' or 'When will...?'",
+          "s": "How long will the refund take to reach my account? I want a specific time."
+        },
+        {
+          "p": "We may need your bank details.",
+          "m": "Cho biết bạn có thể cung cấp số tài khoản hay không. Nếu có, nói bạn sẵn sàng; nếu không, hỏi cách khác.",
+          "h": "Use 'I can' or 'I cannot' and 'Can I provide...?'",
+          "s": "I can provide my bank account details. Do you need IBAN or another number?"
+        },
+        {
+          "p": "We also handle compensation for delays.",
+          "m": "Hỏi bạn có đủ điều kiện nhận bồi thường không và bạn cần làm gì tiếp theo. Nói bạn muốn biết yêu cầu.",
+          "h": "Use 'Am I eligible for...' and 'What do I need to do?'",
+          "s": "Am I eligible for compensation for this delay? What do I need to do to apply?"
+        },
+        {
+          "p": "Please sign here to confirm your claim.",
+          "m": "Xác nhận bạn đồng ý nộp đơn hoàn tiền/bồi thường. Nói bạn sẽ ký và hỏi khi nào có kết quả.",
+          "h": "Use 'I will sign' and 'When will I get the result?'",
+          "s": "I will sign to confirm my claim. When will I get the result?"
+        }
+      ]
+    },
+    {
+      "t": "Nhầm chỗ ngồi trên máy bay",
+      "e": [
+        {
+          "p": "Your boarding pass shows seat 12A, but someone is sitting there.",
+          "m": "Nói bạn đã có ghế 12A. Yêu cầu nhân viên giúp bạn lấy lại ghế hoặc đổi ghế.",
+          "h": "Use 'I have' + noun and 'Please help me...' or 'Can I have...?'",
+          "s": "I have seat 12A on my boarding pass. Please help me to get my seat or change to another one."
+        },
+        {
+          "p": "The other passenger says they have the same seat.",
+          "m": "Nói bạn muốn nhân viên kiểm tra vé người kia. Hỏi họ có thể xem hệ thống không.",
+          "h": "Use 'Can you check...' and 'Does the system show...?'",
+          "s": "Can you check the other passenger's ticket? Does the system show two people with the same seat?"
+        },
+        {
+          "p": "We can move you to seat 14C or offer an upgrade if available.",
+          "m": "Nói bạn thích ngồi lối đi hoặc cửa sổ. Yêu cầu ghế cụ thể hoặc hỏi về nâng hạng.",
+          "h": "Use 'I prefer' + noun and 'Can I have...' or 'Is there an upgrade?'",
+          "s": "I prefer an aisle seat if possible. Can I have seat 14C or is there an upgrade available?"
+        },
+        {
+          "p": "Upgrades may cost extra unless the airline pays.",
+          "m": "Hỏi họ có thể nâng cấp miễn phí do lỗi hay bạn cần trả bao nhiêu. Nói bạn muốn biết giá.",
+          "h": "Use 'Can you upgrade me for free?' and 'How much will it cost?'",
+          "s": "Can you upgrade me for free because it is not my mistake? How much will an upgrade cost?"
+        },
+        {
+          "p": "We will check and return with a solution.",
+          "m": "Yêu cầu họ cho bạn biết ngay khi có giải pháp. Nói bạn sẵn sàng đổi ghế hoặc chờ hỗ trợ.",
+          "h": "Use 'I am ready to...' and 'Please tell me when...' ",
+          "s": "I am ready to change my seat or wait for help. Please tell me when you have a solution."
+        }
+      ]
+    },
+    {
+      "t": "Thủ tục hải quan chậm",
+      "e": [
+        {
+          "p": "Customs checks are busy today and lines are long.",
+          "m": "Nói bạn đang xếp hàng và mệt. Hỏi họ có hàng ưu tiên cho người cần gấp không.",
+          "h": "Use 'I am' + feeling and 'Is there a priority line?'",
+          "s": "I am standing in line and I am tired. Is there a priority line for urgent cases?"
+        },
+        {
+          "p": "We need to inspect your bag for food items.",
+          "m": "Nói bạn không biết có đồ ăn trong hành lý. Hỏi họ muốn bạn mở hành lý hay họ mở giúp.",
+          "h": "Use 'I don't know' and 'Do you want me to...' or 'Will you...?'",
+          "s": "I don't know if there is food in my bag. Do you want me to open it or will you open it?"
+        },
+        {
+          "p": "Sometimes checks take 30 minutes or more.",
+          "m": "Hỏi quá lâu bạn có thể làm gì: gọi việc, đổi chuyến, hay xin giấy tờ tạm thời. Nói bạn cần lời khuyên.",
+          "h": "Use 'What can I do if...' and 'Can I...?'",
+          "s": "What can I do if the check takes too long? Can I call my work or ask for temporary papers?"
+        },
+        {
+          "p": "We can let you through quickly if you have documentation.",
+          "m": "Cho biết bạn có giấy tờ liên quan (bill, giấy phép). Hỏi họ cần xem cái gì để qua nhanh.",
+          "h": "Use 'I have' and 'What do you need to see?'",
+          "s": "I have the receipts and permits with me. What do you need to see for a faster check?"
+        },
+        {
+          "p": "Please follow the officer's instructions to avoid delay.",
+          "m": "Xác nhận bạn sẽ hợp tác và hỏi nếu cần đi đến chỗ khác để kiểm tra thêm. Nói bạn sẵn sàng di chuyển.",
+          "h": "Use 'I will' + verb and 'Do I need to go to...?'",
+          "s": "I will follow the officer's instructions. Do I need to go to another room for more checks?"
+        }
+      ]
+    },
+    {
+      "t": "Ôn tập: Chuyến bay và hành lý",
+      "e": [
+        {
+          "p": "Your flight is delayed and your luggage is not on the belt.",
+          "m": "Nói bạn đang chờ chuyến và không thấy hành lý. Hỏi khi nào chuyến tiếp và cách tìm hành lý.",
+          "h": "Use 'I am' + V-ing and 'When will...' / 'How can I find...?'",
+          "s": "I am waiting for my delayed flight and I don't see my luggage. When is the next flight and how can I find my bag?"
+        },
+        {
+          "p": "We will register a missing bag and rebook your flight.",
+          "m": "Cảm ơn họ và cho biết bạn muốn nhận hành lý ở khách sạn nếu có. Hỏi họ sẽ liên lạc bằng cách nào.",
+          "h": "Use 'Thank you' + 'I want...' and 'Will you contact me by...?'",
+          "s": "Thank you, I want the bag delivered to my hotel if possible. Will you contact me by phone or email?"
+        },
+        {
+          "p": "There may be a fee for some changes.",
+          "m": "Hỏi rõ phí và nói bạn muốn biết có được miễn phí không vì đây là lỗi hãng. Nói bạn muốn quyết định nhanh.",
+          "h": "Use 'How much is...' and 'Can you waive the fee because...?'",
+          "s": "How much is the fee for the change? Can you waive the fee because this is the airline's mistake?"
+        },
+        {
+          "p": "We can give you a small kit while you wait.",
+          "m": "Nói bạn cần một bộ đồ dùng cá nhân. Hỏi lấy ở đâu và họ có thể gửi hành lý đến chỗ bạn không.",
+          "h": "Use 'I need' and 'Where can I get...' and 'Can you send...?'",
+          "s": "I need a basic personal kit. Where can I get it and can you send my luggage to me later?"
+        },
+        {
+          "p": "Please leave your contact and we will update you.",
+          "m": "Để lại số điện thoại hoặc email và xác nhận bạn muốn cập nhật qua tin nhắn. Nói bạn muốn tin nhắn.",
+          "h": "Use 'My phone number is...' and 'Please send me a text.'",
+          "s": "My phone number is 0912345678. Please send me a text message with updates."
+        }
+      ]
+    },
+    {
+      "t": "Ôn tập: Đặt chỗ và khách sạn",
+      "e": [
+        {
+          "p": "Your booking name is different from your passport.",
+          "m": "Nói tên đúng như trong hộ chiếu. Yêu cầu họ sửa tên trên đặt chỗ.",
+          "h": "Use 'My name is...' and 'Please correct...' ",
+          "s": "My name is Nguyen Van A as on my passport. Please correct the booking name."
+        },
+        {
+          "p": "We can change your hotel reservation.",
+          "m": "Nói bạn cần đổi ngày check-in. Cho biết ngày mới và hỏi họ đã cập nhật chưa.",
+          "h": "Use 'I want to change' and 'Have you updated...?'",
+          "s": "I want to change my check-in date to May 10. Have you updated the reservation?"
+        },
+        {
+          "p": "The room type you requested is full today.",
+          "m": "Hỏi họ có phòng khác tương tự hoặc nâng cấp không. Nói bạn ưu tiên yên tĩnh.",
+          "h": "Use 'Do you have...' and 'I prefer...' ",
+          "s": "Do you have a similar room or an upgrade? I prefer a quiet room, please."
+        },
+        {
+          "p": "We can give you a refund for extra charges.",
+          "m": "Hỏi thủ tục hoàn tiền và thời gian nhận. Nói bạn muốn hoàn tiền vào thẻ.",
+          "h": "Use 'How do I get...' and 'I want the refund to...'",
+          "s": "How do I get the refund and how long will it take? I want the refund to my card."
+        },
+        {
+          "p": "Please sign here to confirm the new booking.",
+          "m": "Xác nhận bạn sẽ ký và hỏi họ có cần hộ chiếu hay thẻ để xác minh. Nói bạn sẽ đưa ngay.",
+          "h": "Use 'I will sign' and 'Do you need...?'",
+          "s": "I will sign to confirm the change. Do you need my passport or card for verification?"
+        }
+      ]
+    },
+    {
+      "t": "Ôn tập: Xử lý sự cố trên đường",
+      "e": [
+        {
+          "p": "Your taxi is delayed and security stops you for a check.",
+          "m": "Nói bạn đang chờ taxi và bị kiểm tra. Hỏi tài xế khi nào tới và hỏi nhân viên kiểm tra cần gì.",
+          "h": "Use 'I am waiting' and 'When will...' and 'What do you need?'",
+          "s": "I am waiting for my taxi and I am being checked by security. When will the taxi arrive and what do you need from me?"
+        },
+        {
+          "p": "You have two options: wait or change to another transport.",
+          "m": "Nói bạn muốn đổi sang phương tiện khác hoặc chờ. Nói bạn ưu tiên nhanh nhất.",
+          "h": "Use 'I prefer' and 'I want to...' ",
+          "s": "I prefer to switch to another transport if it is faster. I want the quickest option."
+        },
+        {
+          "p": "We can call another taxi or arrange a shuttle.",
+          "m": "Yêu cầu họ gọi xe khác và hỏi giá hoặc thời gian đến. Nói bạn đồng ý trả thêm nếu nhanh.",
+          "h": "Use 'Please call...' and 'How much/time...?'",
+          "s": "Please call another taxi for me and tell me the price and arrival time. I will pay extra if it is faster."
+        },
+        {
+          "p": "If you miss your check-in, we can help contact the airline.",
+          "m": "Nói bạn sợ lỡ check-in. Yêu cầu họ gọi hãng và hỏi họ có thể giữ chỗ tạm cho bạn không.",
+          "h": "Use 'Please call' and 'Can you hold...' ",
+          "s": "Please call the airline for me because I may miss check-in. Can you hold a seat for me temporarily?"
+        },
+        {
+          "p": "We will arrange everything and update you soon.",
+          "m": "Yêu cầu họ cập nhật qua tin nhắn hoặc gọi. Nói bạn muốn tin nhắn vì bạn đang ở ngoài.",
+          "h": "Use 'Please send me...' and 'I prefer...' ",
+          "s": "Please send me updates by text message. I prefer texts because I am outside."
+        }
+      ]
+    }
+  ]
+}

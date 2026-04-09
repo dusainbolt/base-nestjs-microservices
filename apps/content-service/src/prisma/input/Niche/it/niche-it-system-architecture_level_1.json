@@ -1,0 +1,530 @@
+{
+  "l": 1,
+  "d": [
+    {
+      "t": "Gặp đội phát triển",
+      "e": [
+        {
+          "p": "What's your name?",
+          "m": "Nói tên của bạn.",
+          "h": "S + be + name",
+          "s": "My name is [studentName]."
+        },
+        {
+          "p": "What is your job?",
+          "m": "Nói nghề nghiệp của bạn.",
+          "h": "S + be + N (job)",
+          "s": "I am a [studentJob]."
+        },
+        {
+          "p": "Where do you work?",
+          "m": "Nói thành phố bạn làm việc.",
+          "h": "I work in + place",
+          "s": "I work in [studentCity]."
+        },
+        {
+          "p": "Do you work on the system?",
+          "m": "Trả lời có hoặc không.",
+          "h": "Do + S + V? → Yes/No",
+          "s": "Yes, I do."
+        },
+        {
+          "p": "How many people are in your team?",
+          "m": "Nói số người trong đội.",
+          "h": "There are + number",
+          "s": "There are five people in my team."
+        }
+      ]
+    },
+    {
+      "t": "Mô tả phần cứng",
+      "e": [
+        {
+          "p": "Is there a server in the room?",
+          "m": "Trả lời có hoặc không về server.",
+          "h": "There is / There is not",
+          "s": "Yes, there is a server in the room."
+        },
+        {
+          "p": "What color is the server?",
+          "m": "Nói màu của server.",
+          "h": "S + be + color",
+          "s": "The server is black."
+        },
+        {
+          "p": "Where is the computer?",
+          "m": "Nói vị trí đơn giản của máy tính.",
+          "h": "S + be + in/on/at",
+          "s": "The computer is on the desk."
+        },
+        {
+          "p": "How many computers do you have?",
+          "m": "Nói số máy tính.",
+          "h": "There are + number",
+          "s": "There are two computers."
+        },
+        {
+          "p": "Can the server connect to the network?",
+          "m": "Trả lời khả năng kết nối (can/can't).",
+          "h": "S + can/can't + V",
+          "s": "Yes, it can connect."
+        }
+      ]
+    },
+    {
+      "t": "Nói về ứng dụng",
+      "e": [
+        {
+          "p": "What is the app name?",
+          "m": "Nói tên app.",
+          "h": "S + be + N",
+          "s": "The app is MyApp."
+        },
+        {
+          "p": "What does the app do?",
+          "m": "Nói một chức năng chính của app.",
+          "h": "S + V(s) + O",
+          "s": "It shows data."
+        },
+        {
+          "p": "Is the app on the phone?",
+          "m": "Trả lời có hoặc không.",
+          "h": "S + be + on the phone",
+          "s": "Yes, it is on the phone."
+        },
+        {
+          "p": "How often do you use the app?",
+          "m": "Nói tần suất sử dụng (ví dụ every day).",
+          "h": "Use 'every day' or 'sometimes'",
+          "s": "I use the app every day."
+        },
+        {
+          "p": "Can users send data with the app?",
+          "m": "Trả lời can/can't cho hành động gửi data.",
+          "h": "S + can/can't + V",
+          "s": "Yes, users can send data."
+        }
+      ]
+    },
+    {
+      "t": "Bố trí hệ thống",
+      "e": [
+        {
+          "p": "Where is the server?",
+          "m": "Nói vị trí đơn giản của server.",
+          "h": "S + be + in/on/at",
+          "s": "The server is in the main room."
+        },
+        {
+          "p": "Are the computers in one place?",
+          "m": "Trả lời có hoặc không về vị trí máy tính.",
+          "h": "S + be + in one place",
+          "s": "No, they are in two rooms."
+        },
+        {
+          "p": "How many cables are there?",
+          "m": "Nói số cáp có trong hệ thống.",
+          "h": "There are + number",
+          "s": "There are ten cables."
+        },
+        {
+          "p": "What color are the cables?",
+          "m": "Nói màu của các cáp.",
+          "h": "S + be + color",
+          "s": "The cables are red."
+        },
+        {
+          "p": "Can the server send data to the computer?",
+          "m": "Trả lời can/can't cho hành động gửi data.",
+          "h": "S + can/can't + V + O",
+          "s": "Yes, it can send data to the computer."
+        }
+      ]
+    },
+    {
+      "t": "Quyền truy cập",
+      "e": [
+        {
+          "p": "Do you have access?",
+          "m": "Trả lời có hoặc không về quyền truy cập.",
+          "h": "Do + S + have? → Yes/No",
+          "s": "Yes, I have access."
+        },
+        {
+          "p": "Who has admin access?",
+          "m": "Nói tên người có quyền admin.",
+          "h": "The + role + is + name",
+          "s": "The admin is Tom."
+        },
+        {
+          "p": "Can I change the settings?",
+          "m": "Trả lời can/can't cho việc thay đổi cài đặt.",
+          "h": "S + can/can't + V",
+          "s": "No, you can't change the settings."
+        },
+        {
+          "p": "What settings can you change?",
+          "m": "Nói một cài đặt bạn có thể thay đổi.",
+          "h": "S + can + V + O",
+          "s": "I can change the password."
+        },
+        {
+          "p": "Are the files safe?",
+          "m": "Trả lời có hoặc không về an toàn file.",
+          "h": "S + be + safe",
+          "s": "Yes, the files are safe."
+        }
+      ]
+    },
+    {
+      "t": "Kiểm tra hằng ngày",
+      "e": [
+        {
+          "p": "Do you check the system today?",
+          "m": "Trả lời có hoặc không về việc kiểm tra hôm nay.",
+          "h": "Do + S + V? → Yes/No",
+          "s": "Yes, I check it today."
+        },
+        {
+          "p": "When do you check logs?",
+          "m": "Nói thời điểm bạn kiểm tra logs.",
+          "h": "Use 'in the morning' or 'every day'",
+          "s": "I check logs in the morning."
+        },
+        {
+          "p": "How often do you check the server?",
+          "m": "Nói tần suất kiểm tra server.",
+          "h": "Use 'every day'",
+          "s": "I check the server every day."
+        },
+        {
+          "p": "Do you see errors?",
+          "m": "Trả lời có hoặc không về lỗi.",
+          "h": "S + see / Do + S + V?",
+          "s": "Yes, I see one error."
+        },
+        {
+          "p": "Can you fix the error?",
+          "m": "Trả lời can/can't cho việc sửa lỗi.",
+          "h": "S + can/can't + V",
+          "s": "Yes, I can fix it."
+        }
+      ]
+    },
+    {
+      "t": "Giao tiếp với khách hàng",
+      "e": [
+        {
+          "p": "What is the system for?",
+          "m": "Nói mục đích chính của hệ thống.",
+          "h": "S + V(s) + O",
+          "s": "The system stores data."
+        },
+        {
+          "p": "Is the system easy to use?",
+          "m": "Trả lời có hoặc không về tính dễ dùng.",
+          "h": "S + be + easy",
+          "s": "Yes, it is easy to use."
+        },
+        {
+          "p": "Who uses the system?",
+          "m": "Nói ai sử dụng hệ thống.",
+          "h": "The + people + use + the + system",
+          "s": "The users use the system."
+        },
+        {
+          "p": "Can the client see the data?",
+          "m": "Trả lời can/can't cho khách xem data.",
+          "h": "S + can/can't + V + O",
+          "s": "No, the client can't see the data."
+        },
+        {
+          "p": "How many users are there?",
+          "m": "Nói số người dùng.",
+          "h": "There are + number",
+          "s": "There are twenty users."
+        }
+      ]
+    },
+    {
+      "t": "Lựa chọn công nghệ",
+      "e": [
+        {
+          "p": "Do you use a database?",
+          "m": "Trả lời có hoặc không về việc dùng database.",
+          "h": "Do + S + V? → Yes/No",
+          "s": "Yes, we use a database."
+        },
+        {
+          "p": "Which database do you use?",
+          "m": "Nói tên cơ sở dữ liệu ngắn.",
+          "h": "We use + name",
+          "s": "We use SQL."
+        },
+        {
+          "p": "Is the database small or big?",
+          "m": "Chọn 'small' hoặc 'big'.",
+          "h": "S + be + small/big",
+          "s": "The database is big."
+        },
+        {
+          "p": "Can the database store many files?",
+          "m": "Trả lời can/can't cho lưu file.",
+          "h": "S + can/can't + V",
+          "s": "Yes, it can store many files."
+        },
+        {
+          "p": "Where is the database?",
+          "m": "Nói vị trí database đơn giản.",
+          "h": "S + be + on/in/at",
+          "s": "The database is on the server."
+        }
+      ]
+    },
+    {
+      "t": "Sự cố đơn giản",
+      "e": [
+        {
+          "p": "Is the system slow?",
+          "m": "Trả lời có hoặc không về độ chậm.",
+          "h": "S + be + slow",
+          "s": "Yes, the system is slow."
+        },
+        {
+          "p": "How many minutes is it slow?",
+          "m": "Nói số phút hệ thống chậm.",
+          "h": "It is + number + minutes",
+          "s": "It is slow for ten minutes."
+        },
+        {
+          "p": "Can you restart the server?",
+          "m": "Trả lời can/can't cho restart.",
+          "h": "S + can/can't + V",
+          "s": "Yes, I can restart it."
+        },
+        {
+          "p": "What do you do first?",
+          "m": "Nói một hành động đầu tiên đơn giản.",
+          "h": "S + V(s) + O",
+          "s": "I check the logs."
+        },
+        {
+          "p": "Are users happy now?",
+          "m": "Trả lời có hoặc không về trạng thái người dùng.",
+          "h": "S + be + happy",
+          "s": "No, the users are not happy."
+        }
+      ]
+    },
+    {
+      "t": "Sao lưu dữ liệu",
+      "e": [
+        {
+          "p": "Do you have a backup?",
+          "m": "Trả lời có hoặc không về backup.",
+          "h": "Do + S + have? → Yes/No",
+          "s": "Yes, we have a backup."
+        },
+        {
+          "p": "How often do you make a backup?",
+          "m": "Nói tần suất tạo backup.",
+          "h": "Use 'every day'",
+          "s": "We make a backup every day."
+        },
+        {
+          "p": "Where is the backup?",
+          "m": "Nói vị trí backup đơn giản.",
+          "h": "S + be + on/in",
+          "s": "The backup is on the server."
+        },
+        {
+          "p": "Can users get the backup?",
+          "m": "Trả lời can/can't cho người dùng lấy backup.",
+          "h": "S + can/can't + V",
+          "s": "No, users can't get the backup."
+        },
+        {
+          "p": "Are the backups safe?",
+          "m": "Trả lời có hoặc không về an toàn backup.",
+          "h": "S + be + safe",
+          "s": "Yes, the backups are safe."
+        }
+      ]
+    },
+    {
+      "t": "Mô tả sơ đồ",
+      "e": [
+        {
+          "p": "Is the server at the center?",
+          "m": "Trả lời có hoặc không về vị trí trung tâm.",
+          "h": "S + be + at the center",
+          "s": "Yes, the server is at the center."
+        },
+        {
+          "p": "What is next to the server?",
+          "m": "Nói một đồ vật bên cạnh server.",
+          "h": "S + be + next to + O",
+          "s": "The computer is next to the server."
+        },
+        {
+          "p": "How many connections are there?",
+          "m": "Nói số kết nối trong sơ đồ.",
+          "h": "There are + number",
+          "s": "There are four connections."
+        },
+        {
+          "p": "What color is the line?",
+          "m": "Nói màu của đường trong sơ đồ.",
+          "h": "S + be + color",
+          "s": "The line is blue."
+        },
+        {
+          "p": "Can the line carry data?",
+          "m": "Trả lời can/can't cho việc truyền data.",
+          "h": "S + can/can't + V",
+          "s": "Yes, the line can carry data."
+        }
+      ]
+    },
+    {
+      "t": "Báo cáo đơn giản",
+      "e": [
+        {
+          "p": "Do you write a report?",
+          "m": "Trả lời có hoặc không về viết báo cáo.",
+          "h": "Do + S + V? → Yes/No",
+          "s": "Yes, I write a report."
+        },
+        {
+          "p": "What is in the report?",
+          "m": "Nói một nội dung có trong báo cáo.",
+          "h": "The report has + O",
+          "s": "The report has errors."
+        },
+        {
+          "p": "How many pages is the report?",
+          "m": "Nói số trang của báo cáo.",
+          "h": "The report has + number + pages",
+          "s": "The report has five pages."
+        },
+        {
+          "p": "Can the boss read the report?",
+          "m": "Trả lời can/can't cho sếp đọc báo cáo.",
+          "h": "S + can/can't + V",
+          "s": "Yes, the boss can read it."
+        },
+        {
+          "p": "Is the report good?",
+          "m": "Trả lời có hoặc không về chất lượng báo cáo.",
+          "h": "S + be + good",
+          "s": "Yes, the report is good."
+        }
+      ]
+    },
+    {
+      "t": "Ôn tập: Kiểm tra nhanh hệ thống",
+      "e": [
+        {
+          "p": "Who is [studentName]?",
+          "m": "Nói nghề nghiệp của bạn.",
+          "h": "S + be + N (job)",
+          "s": "I am a [studentJob]."
+        },
+        {
+          "p": "How many servers are there?",
+          "m": "Nói số server.",
+          "h": "There are + number",
+          "s": "There are three servers."
+        },
+        {
+          "p": "Can the server send data now?",
+          "m": "Trả lời can/can't cho việc gửi data ngay bây giờ.",
+          "h": "S + can/can't + V",
+          "s": "Yes, it can send data now."
+        },
+        {
+          "p": "Where is the backup?",
+          "m": "Nói vị trí backup.",
+          "h": "S + be + on/in",
+          "s": "The backup is on the server."
+        },
+        {
+          "p": "Is the system safe?",
+          "m": "Trả lời có hoặc không về an toàn hệ thống.",
+          "h": "S + be + safe",
+          "s": "Yes, the system is safe."
+        }
+      ]
+    },
+    {
+      "t": "Ôn tập: Giao tiếp với khách và kỹ thuật",
+      "e": [
+        {
+          "p": "What does the app do?",
+          "m": "Nói một chức năng chính của app.",
+          "h": "S + V(s) + O",
+          "s": "It sends messages."
+        },
+        {
+          "p": "Are the users happy?",
+          "m": "Trả lời có hoặc không về người dùng.",
+          "h": "S + be + happy",
+          "s": "No, the users are not happy."
+        },
+        {
+          "p": "How often do you make a backup?",
+          "m": "Nói tần suất tạo backup.",
+          "h": "Use 'every day'",
+          "s": "We make a backup every day."
+        },
+        {
+          "p": "Can I change the password?",
+          "m": "Trả lời can/can't cho việc đổi mật khẩu.",
+          "h": "S + can/can't + V",
+          "s": "No, you can't change the password."
+        },
+        {
+          "p": "Where is the server?",
+          "m": "Nói vị trí server.",
+          "h": "S + be + in/on",
+          "s": "The server is in the main room."
+        }
+      ]
+    },
+    {
+      "t": "Ôn tập: Xử lý sự cố và báo cáo",
+      "e": [
+        {
+          "p": "Is the system slow now?",
+          "m": "Trả lời có hoặc không về độ chậm hiện tại.",
+          "h": "S + be + slow",
+          "s": "Yes, the system is slow now."
+        },
+        {
+          "p": "How many errors are there?",
+          "m": "Nói số lỗi hiện có.",
+          "h": "There are + number",
+          "s": "There are two errors."
+        },
+        {
+          "p": "Can you fix the errors?",
+          "m": "Trả lời can/can't cho việc sửa lỗi.",
+          "h": "S + can/can't + V",
+          "s": "Yes, I can fix them."
+        },
+        {
+          "p": "What is in your report?",
+          "m": "Nói một nội dung trong báo cáo.",
+          "h": "The report has + O",
+          "s": "The report has errors."
+        },
+        {
+          "p": "Is the report good?",
+          "m": "Trả lời có hoặc không về báo cáo.",
+          "h": "S + be + good",
+          "s": "Yes, the report is good."
+        }
+      ]
+    }
+  ]
+}

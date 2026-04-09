@@ -1,0 +1,600 @@
+{
+  "l": 1,
+  "d": [
+    {
+      "t": "Gặp người quan tâm đến hàng",
+      "e": [
+        {
+          "p": "Who are you?",
+          "m": "Nói tên của bạn.",
+          "h": "S + be + N",
+          "s": "I am [studentName]."
+        },
+        {
+          "p": "How old are you?",
+          "m": "Nói tuổi của bạn.",
+          "h": "S + be + số",
+          "s": "I am [studentAge] years old."
+        },
+        {
+          "p": "Do you like this thing?",
+          "m": "Nói bạn có thích món hàng này hay không.",
+          "h": "S + like / S + don't like",
+          "s": "I like this thing."
+        },
+        {
+          "p": "Can you buy it today?",
+          "m": "Nói bạn có thể mua hôm nay hay không.",
+          "h": "S + can / can't + V",
+          "s": "I can buy it today."
+        },
+        {
+          "p": "What do you want now?",
+          "m": "Nói một món bạn muốn mua bây giờ.",
+          "h": "S + want + O",
+          "s": "I want a small blue bag."
+        }
+      ]
+    },
+    {
+      "t": "Nói về một món hàng",
+      "e": [
+        {
+          "p": "What is this?",
+          "m": "Nói tên đồ vật này.",
+          "h": "This is + N",
+          "s": "This is a red shirt."
+        },
+        {
+          "p": "Is it new?",
+          "m": "Nói đồ mới hay cũ.",
+          "h": "It is + Adj",
+          "s": "It is new."
+        },
+        {
+          "p": "How much is it?",
+          "m": "Nói giá món đồ (dùng số).",
+          "h": "It costs + số / It is + số",
+          "s": "It costs ten."
+        },
+        {
+          "p": "Who likes this item?",
+          "m": "Nói một người thích món đồ.",
+          "h": "S + like(s) + O",
+          "s": "My friend likes this shirt."
+        },
+        {
+          "p": "Where can I buy it?",
+          "m": "Nói nơi bạn có thể mua món đồ.",
+          "h": "at the + place / in the + place",
+          "s": "You can buy it at the shop."
+        }
+      ]
+    },
+    {
+      "t": "Hỏi về giá và trả lời",
+      "e": [
+        {
+          "p": "How much is the bag?",
+          "m": "Nói giá của túi.",
+          "h": "It costs + số",
+          "s": "It costs twenty."
+        },
+        {
+          "p": "Is the price low?",
+          "m": "Nói giá thấp hay cao.",
+          "h": "It is + Adj",
+          "s": "The price is low."
+        },
+        {
+          "p": "Do you want a cheap one?",
+          "m": "Nói bạn có muốn món rẻ hay không.",
+          "h": "S + want / S + don't want",
+          "s": "I want a cheap one."
+        },
+        {
+          "p": "Can you pay cash?",
+          "m": "Nói bạn có thể trả tiền mặt hay không.",
+          "h": "S + can / can't + V",
+          "s": "I can pay cash."
+        },
+        {
+          "p": "What do you think about the price?",
+          "m": "Nói ý chính về giá (thích hoặc không).",
+          "h": "I think + clause hoặc S + like / don't like",
+          "s": "I think the price is good."
+        }
+      ]
+    },
+    {
+      "t": "Hỏi nơi bán và kênh đơn giản",
+      "e": [
+        {
+          "p": "Where is the shop?",
+          "m": "Nói nơi có cửa hàng.",
+          "h": "It is in/near + place",
+          "s": "The shop is near the school."
+        },
+        {
+          "p": "Do you buy online?",
+          "m": "Nói bạn có mua hàng trực tuyến hay không.",
+          "h": "S + buy / S + don't buy",
+          "s": "I buy online."
+        },
+        {
+          "p": "Is there an ad on the radio?",
+          "m": "Nói có quảng cáo trên radio hay không.",
+          "h": "There is / There is not",
+          "s": "There is an ad on the radio."
+        },
+        {
+          "p": "Where do people see this ad?",
+          "m": "Nói một nơi người ta thấy quảng cáo.",
+          "h": "People see it on/at + place",
+          "s": "People see it on TV."
+        },
+        {
+          "p": "Who sells this thing?",
+          "m": "Nói người bán (ví dụ: shop, friend, online).",
+          "h": "S + sell(s) + O / The + place + sells",
+          "s": "The shop sells this thing."
+        }
+      ]
+    },
+    {
+      "t": "Nói về lợi ích của sản phẩm",
+      "e": [
+        {
+          "p": "What does the thing do?",
+          "m": "Nói một chức năng đơn giản của sản phẩm.",
+          "h": "It + V(s) + O",
+          "s": "It keeps your books."
+        },
+        {
+          "p": "Is it easy to use?",
+          "m": "Nói sản phẩm dùng dễ hay khó.",
+          "h": "It is + Adj",
+          "s": "It is easy to use."
+        },
+        {
+          "p": "Can children use it?",
+          "m": "Nói trẻ em có thể dùng sản phẩm hay không.",
+          "h": "S + can / can't + V",
+          "s": "Children can use it."
+        },
+        {
+          "p": "Who needs this thing?",
+          "m": "Nói một nhóm người cần món đồ.",
+          "h": "People who + V / Students need it",
+          "s": "Students need this thing."
+        },
+        {
+          "p": "Why do people buy it?",
+          "m": "Nói lý do đơn giản để mua (1 ý).",
+          "h": "People buy it because + clause",
+          "s": "People buy it because it is cheap."
+        }
+      ]
+    },
+    {
+      "t": "Giờ mở cửa và giờ bán hàng",
+      "e": [
+        {
+          "p": "What time is the shop open?",
+          "m": "Nói giờ mở cửa (dùng số đơn giản).",
+          "h": "It opens at + số giờ",
+          "s": "The shop opens at nine."
+        },
+        {
+          "p": "Is the shop open now?",
+          "m": "Nói cửa hàng đang mở hay đóng.",
+          "h": "It is + open/closed",
+          "s": "It is open now."
+        },
+        {
+          "p": "Do you go to the shop in the morning?",
+          "m": "Nói bạn có đi cửa hàng sáng hay không.",
+          "h": "S + go / S + don't go",
+          "s": "I go to the shop in the morning."
+        },
+        {
+          "p": "Who works at the shop?",
+          "m": "Nói một người làm ở cửa hàng.",
+          "h": "S + work(s) at the shop",
+          "s": "My father works at the shop."
+        },
+        {
+          "p": "Where do you buy food usually?",
+          "m": "Nói nơi bạn thường mua đồ ăn (1 ý).",
+          "h": "I buy + O + at/in + place",
+          "s": "I buy food at the market."
+        }
+      ]
+    },
+    {
+      "t": "Thói quen mua hàng hàng ngày",
+      "e": [
+        {
+          "p": "Do you buy every day?",
+          "m": "Nói bạn có mua hàng mỗi ngày hay không.",
+          "h": "S + buy / S + don't buy",
+          "s": "I don't buy every day."
+        },
+        {
+          "p": "What time do you shop?",
+          "m": "Nói giờ bạn mua sắm (sáng/chiều).",
+          "h": "I shop in the + morning/afternoon",
+          "s": "I shop in the morning."
+        },
+        {
+          "p": "Who goes with you to buy things?",
+          "m": "Nói một người đi cùng khi bạn mua hàng.",
+          "h": "S + go(es) with + person",
+          "s": "My mother goes with me."
+        },
+        {
+          "p": "Do you like to see ads before you buy?",
+          "m": "Nói bạn có thích xem quảng cáo trước khi mua hay không.",
+          "h": "S + like / S + don't like",
+          "s": "I like to see ads."
+        },
+        {
+          "p": "Why do you buy this every week?",
+          "m": "Nói lý do đơn giản bạn mua món đó mỗi tuần.",
+          "h": "I buy it because + lý do ngắn",
+          "s": "I buy it because I need it."
+        }
+      ]
+    },
+    {
+      "t": "Người bán và dịch vụ đơn giản",
+      "e": [
+        {
+          "p": "Who is the seller?",
+          "m": "Nói người bán (ví dụ: a man, a woman, my friend).",
+          "h": "He/She is + N",
+          "s": "He is a shop worker."
+        },
+        {
+          "p": "Does the seller help you?",
+          "m": "Nói người bán có giúp bạn hay không.",
+          "h": "S + help(s) / S + does not help",
+          "s": "The seller helps me."
+        },
+        {
+          "p": "Can the seller give information?",
+          "m": "Nói người bán có thể cho thông tin hay không.",
+          "h": "S + can / can't + V",
+          "s": "The seller can give information."
+        },
+        {
+          "p": "What does the seller say about the thing?",
+          "m": "Nói một câu ngắn người bán nói về sản phẩm.",
+          "h": "S + say(s) + clause (present)",
+          "s": "The seller says it is good."
+        },
+        {
+          "p": "Where does the seller work?",
+          "m": "Nói nơi người bán làm việc (1 ý).",
+          "h": "He/She works at + place",
+          "s": "He works at the small shop."
+        }
+      ]
+    },
+    {
+      "t": "Hỏi về số lượng và tồn kho",
+      "e": [
+        {
+          "p": "How many are there?",
+          "m": "Nói số lượng đơn giản (1 số).",
+          "h": "There are + số",
+          "s": "There are ten."
+        },
+        {
+          "p": "Is there more in the back?",
+          "m": "Nói có thêm hàng ở sau hay không.",
+          "h": "There is / There is not",
+          "s": "There is more in the back."
+        },
+        {
+          "p": "Do you have one for me?",
+          "m": "Nói cửa hàng có một cái cho bạn hay không.",
+          "h": "We have / We don't have",
+          "s": "We have one for you."
+        },
+        {
+          "p": "Who buys many items?",
+          "m": "Nói một nhóm người mua nhiều hàng.",
+          "h": "People + V + many items",
+          "s": "Families buy many items."
+        },
+        {
+          "p": "Where are the extra items?",
+          "m": "Nói nơi để hàng thêm (1 ý).",
+          "h": "They are in the + place",
+          "s": "They are in the stock room."
+        }
+      ]
+    },
+    {
+      "t": "Phản hồi khách hàng đơn giản",
+      "e": [
+        {
+          "p": "Do you like the product?",
+          "m": "Nói bạn thích hay không.",
+          "h": "S + like / S + don't like",
+          "s": "I like the product."
+        },
+        {
+          "p": "Is it OK for you?",
+          "m": "Nói sản phẩm có ổn với bạn hay không.",
+          "h": "It is + Adj",
+          "s": "It is OK for me."
+        },
+        {
+          "p": "Can you give a small review?",
+          "m": "Viết một câu khen hay không thích (1 ý).",
+          "h": "I like / I don't like + O",
+          "s": "I like the quality."
+        },
+        {
+          "p": "Who will buy it again?",
+          "m": "Nói một người sẽ mua lại (1 ý).",
+          "h": "S + will not / will + buy again (but use present simple: 'S + buy again')",
+          "s": "My mother will buy it again."
+        },
+        {
+          "p": "Why do you not like it?",
+          "m": "Nói lý do đơn giản bạn không thích (1 ý).",
+          "h": "I do not like it because + short reason",
+          "s": "I do not like it because it is small."
+        }
+      ]
+    },
+    {
+      "t": "Quy trình mua hàng đơn giản",
+      "e": [
+        {
+          "p": "Where do you pay?",
+          "m": "Nói nơi bạn trả tiền (1 ý).",
+          "h": "I pay at the + place",
+          "s": "I pay at the counter."
+        },
+        {
+          "p": "Do you take the thing now?",
+          "m": "Nói bạn có lấy đồ ngay hay không.",
+          "h": "S + take / S + don't take",
+          "s": "I take the thing now."
+        },
+        {
+          "p": "Is there a bag for the item?",
+          "m": "Nói có túi cho hàng hay không.",
+          "h": "There is / There is not",
+          "s": "There is a bag for the item."
+        },
+        {
+          "p": "Who helps you at the counter?",
+          "m": "Nói người giúp bạn ở quầy (1 ý).",
+          "h": "He/She helps me / My friend helps me",
+          "s": "A woman helps me at the counter."
+        },
+        {
+          "p": "Do you come back to buy more?",
+          "m": "Nói bạn có quay lại mua thêm hay không.",
+          "h": "S + come back / S + don't come back",
+          "s": "I come back to buy more."
+        }
+      ]
+    },
+    {
+      "t": "Thông tin đơn giản cho quảng cáo",
+      "e": [
+        {
+          "p": "What is the ad about?",
+          "m": "Nói chủ đề quảng cáo (1 ý).",
+          "h": "It is about + N",
+          "s": "It is about a new bag."
+        },
+        {
+          "p": "Is the ad short?",
+          "m": "Nói quảng cáo ngắn hay dài.",
+          "h": "It is + Adj",
+          "s": "The ad is short."
+        },
+        {
+          "p": "Do people like the ad?",
+          "m": "Nói người ta có thích quảng cáo hay không.",
+          "h": "People like / don't like",
+          "s": "People like the ad."
+        },
+        {
+          "p": "Where is the ad now?",
+          "m": "Nói quảng cáo ở đâu (TV, radio, shop).",
+          "h": "It is on + place",
+          "s": "It is on TV."
+        },
+        {
+          "p": "Who sees the ad every day?",
+          "m": "Nói một nhóm người thấy quảng cáo hàng ngày.",
+          "h": "People + see + it every day",
+          "s": "Many people see the ad every day."
+        }
+      ]
+    },
+    {
+      "t": "Hỏi và trả lời về khách hàng",
+      "e": [
+        {
+          "p": "Who buys this most?",
+          "m": "Nói người mua nhiều nhất (1 nhóm/người).",
+          "h": "S + buy(s) most / Families buy most",
+          "s": "Families buy this most."
+        },
+        {
+          "p": "Are the buyers young?",
+          "m": "Nói người mua có trẻ hay không.",
+          "h": "They are + young / old",
+          "s": "They are young."
+        },
+        {
+          "p": "Do buyers like a cheap price?",
+          "m": "Nói người mua có thích giá rẻ hay không.",
+          "h": "They like / don't like",
+          "s": "Buyers like a cheap price."
+        },
+        {
+          "p": "Where do buyers come from?",
+          "m": "Nói nơi người mua đến (1 ý).",
+          "h": "They come from + place",
+          "s": "They come from the town."
+        },
+        {
+          "p": "What do buyers want now?",
+          "m": "Nói một điều người mua muốn ngay bây giờ.",
+          "h": "They want + O",
+          "s": "They want a good price."
+        }
+      ]
+    },
+    {
+      "t": "Thực hành bán hàng ngắn",
+      "e": [
+        {
+          "p": "Can I help you?",
+          "m": "Nói bạn có cần giúp hay không.",
+          "h": "I need / I don't need",
+          "s": "I need help."
+        },
+        {
+          "p": "What do you look for?",
+          "m": "Nói bạn tìm món gì (1 ý).",
+          "h": "I look for + O",
+          "s": "I look for a small bag."
+        },
+        {
+          "p": "Do you like this color?",
+          "m": "Nói bạn có thích màu này hay không.",
+          "h": "I like / I don't like",
+          "s": "I like this color."
+        },
+        {
+          "p": "Is this for a gift?",
+          "m": "Nói món đồ có phải để tặng hay không.",
+          "h": "It is / It is not",
+          "s": "It is for a gift."
+        },
+        {
+          "p": "How do you pay?",
+          "m": "Nói cách bạn trả tiền (cash/card).",
+          "h": "I pay by + cash/card",
+          "s": "I pay by cash."
+        }
+      ]
+    },
+    {
+      "t": "Ôn tập: Giao tiếp khi bán hàng",
+      "e": [
+        {
+          "p": "Who is buying today?",
+          "m": "Nói ai đang mua hôm nay (1 ý).",
+          "h": "He/She is + N / My friend is buying",
+          "s": "My mother is buying today."
+        },
+        {
+          "p": "Do you need a bag?",
+          "m": "Nói bạn có cần túi hay không.",
+          "h": "I need / I don't need",
+          "s": "I need a bag."
+        },
+        {
+          "p": "Where is the price tag?",
+          "m": "Nói nơi có nhãn giá (1 ý).",
+          "h": "It is on + the + item/place",
+          "s": "The price tag is on the shelf."
+        },
+        {
+          "p": "Can I pay by card?",
+          "m": "Nói bạn có thể trả bằng thẻ hay không.",
+          "h": "Yes, you can / No, you can't",
+          "s": "Yes, you can pay by card."
+        },
+        {
+          "p": "What do you tell the seller?",
+          "m": "Nói một câu ngắn bạn nói với người bán.",
+          "h": "I say + clause (present)",
+          "s": "I say I want the red shirt."
+        }
+      ]
+    },
+    {
+      "t": "Ôn tập: Mô tả sản phẩm và nơi bán",
+      "e": [
+        {
+          "p": "What is the size?",
+          "m": "Nói kích thước đơn giản (small/large).",
+          "h": "It is + small/large",
+          "s": "It is small."
+        },
+        {
+          "p": "Is the shop near you?",
+          "m": "Nói cửa hàng có gần bạn hay không.",
+          "h": "It is near / It is not near",
+          "s": "The shop is near me."
+        },
+        {
+          "p": "Do you see the product online?",
+          "m": "Nói bạn có thấy sản phẩm trên mạng hay không.",
+          "h": "I see / I don't see",
+          "s": "I see the product online."
+        },
+        {
+          "p": "Who sells the red shirt?",
+          "m": "Nói ai bán chiếc áo đỏ (1 ý).",
+          "h": "The + place + sells / He sells",
+          "s": "The small shop sells the red shirt."
+        },
+        {
+          "p": "Where do customers wait?",
+          "m": "Nói nơi khách hàng chờ (1 ý).",
+          "h": "They wait at/in + place",
+          "s": "Customers wait at the counter."
+        }
+      ]
+    },
+    {
+      "t": "Ôn tập: Câu hỏi và trả lời về khách hàng",
+      "e": [
+        {
+          "p": "Who likes cheap things?",
+          "m": "Nói ai thích đồ rẻ (1 ý).",
+          "h": "People like / Children like",
+          "s": "Children like cheap things."
+        },
+        {
+          "p": "Do buyers ask for a discount?",
+          "m": "Nói người mua có hỏi giảm giá hay không.",
+          "h": "They ask / They do not ask",
+          "s": "Buyers ask for a discount."
+        },
+        {
+          "p": "Why do customers come here?",
+          "m": "Nói lý do đơn giản khách đến (1 ý).",
+          "h": "They come because + short reason",
+          "s": "They come because the price is low."
+        },
+        {
+          "p": "Where are the customers now?",
+          "m": "Nói vị trí hiện tại của khách (1 ý).",
+          "h": "They are in/at + place",
+          "s": "They are in the shop now."
+        },
+        {
+          "p": "What do customers want today?",
+          "m": "Nói một nhu cầu chính của khách hôm nay.",
+          "h": "They want + O",
+          "s": "They want a new bag."
+        }
+      ]
+    }
+  ]
+}

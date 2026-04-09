@@ -1,0 +1,600 @@
+{
+  "l": 1,
+  "d": [
+    {
+      "t": "Đăng tin tuyển dụng",
+      "e": [
+        {
+          "p": "What job is open?",
+          "m": "Nói tên vị trí tuyển dụng trong một câu.",
+          "h": "Use 'We need' + job noun.",
+          "s": "We need a cashier."
+        },
+        {
+          "p": "How many people do you need?",
+          "m": "Nói số người cần tuyển trong một câu.",
+          "h": "Use 'We need' + number.",
+          "s": "We need two people."
+        },
+        {
+          "p": "Where is the job?",
+          "m": "Nói nơi làm việc (thành phố hoặc chỗ) trong một câu.",
+          "h": "Use 'The job is in' + place.",
+          "s": "The job is in Hanoi."
+        },
+        {
+          "p": "When do you want them to start?",
+          "m": "Nói ngày bắt đầu trong một câu.",
+          "h": "Use 'They start' + time.",
+          "s": "They start next Monday."
+        },
+        {
+          "p": "How can people apply?",
+          "m": "Nói cách nộp hồ sơ trong một câu.",
+          "h": "Use 'Send' + 'CV' or 'resume'.",
+          "s": "Send your CV by email."
+        }
+      ]
+    },
+    {
+      "t": "Nộp đơn xin việc",
+      "e": [
+        {
+          "p": "What is your name?",
+          "m": "Nói tên của bạn trong một câu.",
+          "h": "Use 'My name is' + [studentName].",
+          "s": "My name is [studentName]."
+        },
+        {
+          "p": "Which job do you apply for?",
+          "m": "Nói vị trí bạn nộp trong một câu.",
+          "h": "Use 'I apply for' + job.",
+          "s": "I apply for the cashier job."
+        },
+        {
+          "p": "Can you start now?",
+          "m": "Trả lời có/không và nói thời gian ngắn nếu có thể.",
+          "h": "Use 'Yes, I can' or 'No, I can't'.",
+          "s": "Yes, I can start tomorrow."
+        },
+        {
+          "p": "Do you have work experience?",
+          "m": "Nói có hoặc không trong một câu.",
+          "h": "Use 'I have' or 'I don't have'.",
+          "s": "I have one year experience."
+        },
+        {
+          "p": "How do you send your resume?",
+          "m": "Nói cách bạn gửi hồ sơ trong một câu.",
+          "h": "Use 'I send' + method.",
+          "s": "I send my resume by email."
+        }
+      ]
+    },
+    {
+      "t": "Sàng lọc hồ sơ",
+      "e": [
+        {
+          "p": "Do you speak English?",
+          "m": "Trả lời có hoặc không trong một câu.",
+          "h": "Use 'Yes, I can' or 'No, I can't'.",
+          "s": "Yes, I can speak English."
+        },
+        {
+          "p": "What is your age?",
+          "m": "Nói tuổi của bạn trong một câu.",
+          "h": "Use 'I am' + [studentAge] + 'years old'.",
+          "s": "I am [studentAge] years old."
+        },
+        {
+          "p": "Where do you live?",
+          "m": "Nói nơi bạn sống trong một câu.",
+          "h": "Use 'I live in' + [studentCity].",
+          "s": "I live in [studentCity]."
+        },
+        {
+          "p": "Do you have a degree?",
+          "m": "Trả lời 'Yes' hoặc 'No' trong một câu.",
+          "h": "Use 'Yes, I do' or 'No, I don't'.",
+          "s": "Yes, I do."
+        },
+        {
+          "p": "How do you send your certificate?",
+          "m": "Nói cách bạn gửi giấy tờ trong một câu.",
+          "h": "Use 'I send by' + method.",
+          "s": "I send by email."
+        }
+      ]
+    },
+    {
+      "t": "Phỏng vấn qua điện thoại",
+      "e": [
+        {
+          "p": "Can you speak now?",
+          "m": "Trả lời có hoặc không trong một câu.",
+          "h": "Use 'Yes, I can' or 'No, I can't'.",
+          "s": "Yes, I can."
+        },
+        {
+          "p": "Are you at home?",
+          "m": "Nói nơi bạn đang ở trong một câu.",
+          "h": "Use 'I am at' + place.",
+          "s": "I am at home."
+        },
+        {
+          "p": "What is your job now?",
+          "m": "Nói công việc hiện tại trong một câu.",
+          "h": "Use 'I am a' + job.",
+          "s": "I am a shop assistant."
+        },
+        {
+          "p": "Can you work on weekends?",
+          "m": "Trả lời có hoặc không trong một câu.",
+          "h": "Use 'Yes, I can' or 'No, I can't'.",
+          "s": "Yes, I can work on weekends."
+        },
+        {
+          "p": "When can we meet for interview?",
+          "m": "Nói một ngày hoặc thời gian trong một câu.",
+          "h": "Use 'I can come on' + day.",
+          "s": "I can come on Monday."
+        }
+      ]
+    },
+    {
+      "t": "Lên lịch phỏng vấn trực tiếp",
+      "e": [
+        {
+          "p": "What day is good for you?",
+          "m": "Nói một ngày phù hợp trong một câu.",
+          "h": "Use day name (Monday, Tuesday...).",
+          "s": "Monday is good for me."
+        },
+        {
+          "p": "What time can you come?",
+          "m": "Nói thời gian bạn đến trong một câu.",
+          "h": "Use 'I can come at' + hour.",
+          "s": "I can come at 10."
+        },
+        {
+          "p": "Where is the office?",
+          "m": "Nói địa điểm ngắn gọn trong một câu.",
+          "h": "Use 'The office is at' + place.",
+          "s": "The office is at the main street."
+        },
+        {
+          "p": "What do you bring to the interview?",
+          "m": "Nói một món đồ bạn mang trong một câu.",
+          "h": "Use 'I bring' + object.",
+          "s": "I bring my CV."
+        },
+        {
+          "p": "Who do you meet at the office?",
+          "m": "Nói người bạn sẽ gặp trong một câu.",
+          "h": "Use 'I meet' + person.",
+          "s": "I meet the manager."
+        }
+      ]
+    },
+    {
+      "t": "Nội dung công việc",
+      "e": [
+        {
+          "p": "What do you do at work?",
+          "m": "Nói một hành động hàng ngày trong một câu.",
+          "h": "Use 'I' + verb (base form or -s).",
+          "s": "I answer the phone."
+        },
+        {
+          "p": "Do you use a computer?",
+          "m": "Trả lời có hoặc không trong một câu.",
+          "h": "Use 'Yes, I do' or 'No, I don't'.",
+          "s": "Yes, I do."
+        },
+        {
+          "p": "How many hours do you work?",
+          "m": "Nói số giờ làm việc trong một câu.",
+          "h": "Use 'I work' + number + 'hours'.",
+          "s": "I work eight hours."
+        },
+        {
+          "p": "Do you work alone?",
+          "m": "Trả lời có hoặc không trong một câu.",
+          "h": "Use 'Yes, I do' or 'No, I don't'.",
+          "s": "No, I work with others."
+        },
+        {
+          "p": "Can you do this task?",
+          "m": "Trả lời có hoặc không trong một câu.",
+          "h": "Use 'Yes, I can' or 'No, I can't'.",
+          "s": "Yes, I can do this task."
+        }
+      ]
+    },
+    {
+      "t": "Kiểm tra kỹ năng",
+      "e": [
+        {
+          "p": "Can you type?",
+          "m": "Trả lời có hoặc không trong một câu.",
+          "h": "Use 'Yes, I can' or 'No, I can't'.",
+          "s": "Yes, I can type."
+        },
+        {
+          "p": "Can you use Excel?",
+          "m": "Trả lời có hoặc không trong một câu.",
+          "h": "Use 'Yes, I can' or 'No, I can't'.",
+          "s": "No, I can't use Excel."
+        },
+        {
+          "p": "Do you speak another language?",
+          "m": "Nói tên ngôn ngữ hoặc 'No' trong một câu.",
+          "h": "Use 'I speak' + language or 'No'.",
+          "s": "I speak English."
+        },
+        {
+          "p": "Can you work with people?",
+          "m": "Trả lời có hoặc không trong một câu.",
+          "h": "Use 'Yes, I can' or 'No, I can't'.",
+          "s": "Yes, I can work with people."
+        },
+        {
+          "p": "What skill do you have?",
+          "m": "Nói một kỹ năng ngắn trong một câu.",
+          "h": "Use 'I can' + verb or 'I have' + skill.",
+          "s": "I can use a computer."
+        }
+      ]
+    },
+    {
+      "t": "Xem xét hồ sơ ứng viên",
+      "e": [
+        {
+          "p": "Is the CV complete?",
+          "m": "Trả lời 'Yes' hoặc 'No' trong một câu.",
+          "h": "Use 'Yes, it is' or 'No, it isn't'.",
+          "s": "Yes, it is complete."
+        },
+        {
+          "p": "Does the candidate have experience?",
+          "m": "Trả lời có hoặc không trong một câu.",
+          "h": "Use 'Yes, they do' or 'No, they don't'.",
+          "s": "Yes, they have experience."
+        },
+        {
+          "p": "Is the candidate in the city?",
+          "m": "Trả lời có hoặc không trong một câu.",
+          "h": "Use 'Yes, they are' or 'No, they are not'.",
+          "s": "Yes, they are in the city."
+        },
+        {
+          "p": "Can this person do the job?",
+          "m": "Trả lời có hoặc không trong một câu.",
+          "h": "Use 'Yes, they can' or 'No, they can't'.",
+          "s": "Yes, they can do the job."
+        },
+        {
+          "p": "Do we call them for interview?",
+          "m": "Trả lời có hoặc không trong một câu.",
+          "h": "Use 'Yes' or 'No' + short verb.",
+          "s": "Yes, we call them for interview."
+        }
+      ]
+    },
+    {
+      "t": "Gọi ứng viên phỏng vấn",
+      "e": [
+        {
+          "p": "Hello, are you [studentName]?",
+          "m": "Trả lời 'Yes' hoặc 'No' ngắn trong một câu.",
+          "h": "Use 'Yes, I am' or 'No, I'm not'.",
+          "s": "Yes, I am [studentName]."
+        },
+        {
+          "p": "We invite you to interview on Tuesday.",
+          "m": "Trả lời đồng ý hoặc không trong một câu.",
+          "h": "Use 'Yes, I can' or 'No, I can't'.",
+          "s": "Yes, I can come on Tuesday."
+        },
+        {
+          "p": "Can you bring your CV?",
+          "m": "Trả lời có hoặc không trong một câu.",
+          "h": "Use 'Yes, I can' or 'No, I can't'.",
+          "s": "Yes, I can bring my CV."
+        },
+        {
+          "p": "Do you need a taxi?",
+          "m": "Trả lời có hoặc không trong một câu.",
+          "h": "Use 'Yes, I do' or 'No, I don't'.",
+          "s": "No, I don't need a taxi."
+        },
+        {
+          "p": "What time do you arrive?",
+          "m": "Nói thời gian đến trong một câu.",
+          "h": "Use 'I arrive at' + time.",
+          "s": "I arrive at 9."
+        }
+      ]
+    },
+    {
+      "t": "Phỏng vấn trực tiếp",
+      "e": [
+        {
+          "p": "How are you today?",
+          "m": "Trả lời trạng thái cảm xúc ngắn trong một câu.",
+          "h": "Use 'I am' + adjective.",
+          "s": "I am fine."
+        },
+        {
+          "p": "Why do you want this job?",
+          "m": "Nói một lý do ngắn trong một câu.",
+          "h": "Use 'I want this job because' + reason.",
+          "s": "I want this job because I like to help people."
+        },
+        {
+          "p": "Do you work well with others?",
+          "m": "Trả lời có hoặc không trong một câu.",
+          "h": "Use 'Yes, I do' or 'No, I don't'.",
+          "s": "Yes, I do."
+        },
+        {
+          "p": "What hours can you work?",
+          "m": "Nói giờ bạn có thể làm trong một câu.",
+          "h": "Use 'I can work in the' + time period.",
+          "s": "I can work in the morning."
+        },
+        {
+          "p": "Do you have any questions for us?",
+          "m": "Hỏi một câu ngắn hoặc nói 'No' trong một câu.",
+          "h": "Use 'What' question or 'No'.",
+          "s": "What is the work time?"
+        }
+      ]
+    },
+    {
+      "t": "Đưa ra quyết định tuyển dụng",
+      "e": [
+        {
+          "p": "Do you want to hire them?",
+          "m": "Trả lời 'Yes' hoặc 'No' trong một câu.",
+          "h": "Use 'Yes, we do' or 'No, we don't'.",
+          "s": "Yes, we want to hire them."
+        },
+        {
+          "p": "When do they start?",
+          "m": "Nói ngày bắt đầu trong một câu.",
+          "h": "Use 'They start on' + day.",
+          "s": "They start on Monday."
+        },
+        {
+          "p": "Is the pay good?",
+          "m": "Trả lời có hoặc không trong một câu.",
+          "h": "Use 'Yes, it is' or 'No, it isn't'.",
+          "s": "Yes, it is good."
+        },
+        {
+          "p": "Do they sign the contract?",
+          "m": "Trả lời có hoặc không trong một câu.",
+          "h": "Use 'Yes, they do' or 'No, they don't'.",
+          "s": "Yes, they sign the contract."
+        },
+        {
+          "p": "Can they start next week?",
+          "m": "Trả lời có hoặc không trong một câu.",
+          "h": "Use 'Yes, they can' or 'No, they can't'.",
+          "s": "Yes, they can start next week."
+        }
+      ]
+    },
+    {
+      "t": "Đề nghị công việc và phản hồi",
+      "e": [
+        {
+          "p": "We give you the job. Do you accept?",
+          "m": "Trả lời 'Yes' hoặc 'No' trong một câu.",
+          "h": "Use 'Yes, I accept' or 'No, I don't'.",
+          "s": "Yes, I accept the job."
+        },
+        {
+          "p": "When can you start?",
+          "m": "Nói ngày bắt đầu trong một câu.",
+          "h": "Use 'I can start on' + day.",
+          "s": "I can start on Monday."
+        },
+        {
+          "p": "Do you need time to think?",
+          "m": "Trả lời có hoặc không trong một câu.",
+          "h": "Use 'Yes, I need' or 'No, I don't'.",
+          "s": "No, I don't need time."
+        },
+        {
+          "p": "Can you sign the paper today?",
+          "m": "Trả lời có hoặc không trong một câu.",
+          "h": "Use 'Yes, I can' or 'No, I can't'.",
+          "s": "Yes, I can sign today."
+        },
+        {
+          "p": "Do you want to ask about salary?",
+          "m": "Hỏi một câu ngắn về tiền lương hoặc nói 'No' trong một câu.",
+          "h": "Use 'How much' question or 'No'.",
+          "s": "How much do I get?"
+        }
+      ]
+    },
+    {
+      "t": "Bắt đầu công việc",
+      "e": [
+        {
+          "p": "What time is your first day?",
+          "m": "Nói thời gian bắt đầu trong một câu.",
+          "h": "Use 'My first day is at' + time.",
+          "s": "My first day is at 9."
+        },
+        {
+          "p": "Where do you meet on the first day?",
+          "m": "Nói nơi gặp trong một câu.",
+          "h": "Use 'I meet at' + place.",
+          "s": "I meet at the main door."
+        },
+        {
+          "p": "Who is your manager?",
+          "m": "Nói người quản lý trong một câu.",
+          "h": "Use 'My manager is' + role.",
+          "s": "My manager is the store manager."
+        },
+        {
+          "p": "Do you know your task?",
+          "m": "Trả lời có hoặc không trong một câu.",
+          "h": "Use 'Yes, I do' or 'No, I don't'.",
+          "s": "Yes, I know my task."
+        },
+        {
+          "p": "Can you work today?",
+          "m": "Trả lời có hoặc không trong một câu.",
+          "h": "Use 'Yes, I can' or 'No, I can't'.",
+          "s": "Yes, I can work today."
+        }
+      ]
+    },
+    {
+      "t": "Vấn đề khi làm việc",
+      "e": [
+        {
+          "p": "Are you late?",
+          "m": "Trả lời có hoặc không trong một câu.",
+          "h": "Use 'Yes, I am' or 'No, I am not'.",
+          "s": "Yes, I am late."
+        },
+        {
+          "p": "Can you come tomorrow?",
+          "m": "Trả lời có hoặc không trong một câu.",
+          "h": "Use 'Yes, I can' or 'No, I can't'.",
+          "s": "No, I can't come tomorrow."
+        },
+        {
+          "p": "The machine is not working.",
+          "m": "Nói bạn báo cho ai trong một câu.",
+          "h": "Use 'I tell' + person.",
+          "s": "I tell the manager."
+        },
+        {
+          "p": "We need help now.",
+          "m": "Trả lời bạn giúp được hay không trong một câu.",
+          "h": "Use 'Yes, I can help' or 'No, I can't'.",
+          "s": "Yes, I can help."
+        },
+        {
+          "p": "I am sick today.",
+          "m": "Nói bạn không thể làm việc trong một câu.",
+          "h": "Use 'I can't work today'.",
+          "s": "I can't work today."
+        }
+      ]
+    },
+    {
+      "t": "Ôn tập: Đăng tin và nộp đơn",
+      "e": [
+        {
+          "p": "What job do you apply for?",
+          "m": "Nói vị trí bạn nộp trong một câu.",
+          "h": "Use 'I apply for' + job.",
+          "s": "I apply for the cashier job."
+        },
+        {
+          "p": "Where is the job located?",
+          "m": "Nói nơi làm việc trong một câu.",
+          "h": "Use 'The job is in' + place.",
+          "s": "The job is in Hanoi."
+        },
+        {
+          "p": "How many people do they need?",
+          "m": "Nói số người cần tuyển trong một câu.",
+          "h": "Use 'They need' + number.",
+          "s": "They need two people."
+        },
+        {
+          "p": "How do you send your CV?",
+          "m": "Nói cách bạn gửi hồ sơ trong một câu.",
+          "h": "Use 'I send my CV by' + method.",
+          "s": "I send my CV by email."
+        },
+        {
+          "p": "What is your full name?",
+          "m": "Nói tên đầy đủ của bạn trong một câu.",
+          "h": "Use 'My name is' + [studentName].",
+          "s": "My name is [studentName]."
+        }
+      ]
+    },
+    {
+      "t": "Ôn tập: Phỏng vấn và lịch",
+      "e": [
+        {
+          "p": "When can you come for interview?",
+          "m": "Nói một ngày bạn có thể đến trong một câu.",
+          "h": "Use 'I can come on' + day.",
+          "s": "I can come on Tuesday."
+        },
+        {
+          "p": "What time is the interview?",
+          "m": "Nói thời gian buổi phỏng vấn trong một câu.",
+          "h": "Use 'The interview is at' + time.",
+          "s": "The interview is at 10."
+        },
+        {
+          "p": "Who will you meet at the interview?",
+          "m": "Nói người bạn gặp trong một câu.",
+          "h": "Use 'I meet' + person.",
+          "s": "I meet the manager."
+        },
+        {
+          "p": "Do you need a ride?",
+          "m": "Trả lời có hoặc không trong một câu.",
+          "h": "Use 'Yes, I do' or 'No, I don't'.",
+          "s": "No, I don't need a ride."
+        },
+        {
+          "p": "Can you bring your ID?",
+          "m": "Trả lời có hoặc không trong một câu.",
+          "h": "Use 'Yes, I can' or 'No, I can't'.",
+          "s": "Yes, I can bring my ID."
+        }
+      ]
+    },
+    {
+      "t": "Ôn tập: Offer, start và làm việc",
+      "e": [
+        {
+          "p": "We offer you the job. Do you accept?",
+          "m": "Trả lời 'Yes' hoặc 'No' trong một câu.",
+          "h": "Use 'Yes, I accept' or 'No, I don't'.",
+          "s": "Yes, I accept the job."
+        },
+        {
+          "p": "When do you start work?",
+          "m": "Nói ngày bạn bắt đầu trong một câu.",
+          "h": "Use 'I start on' + day.",
+          "s": "I start on Monday."
+        },
+        {
+          "p": "How many hours do you work per day?",
+          "m": "Nói số giờ làm trong một câu.",
+          "h": "Use 'I work' + number + 'hours'.",
+          "s": "I work eight hours."
+        },
+        {
+          "p": "Can you work on Sunday?",
+          "m": "Trả lời có hoặc không trong một câu.",
+          "h": "Use 'Yes, I can' or 'No, I can't'.",
+          "s": "No, I can't work on Sunday."
+        },
+        {
+          "p": "Do you have a question about the job?",
+          "m": "Hỏi một câu ngắn hoặc nói 'No' trong một câu.",
+          "h": "Use 'What' question or 'No'.",
+          "s": "What time do I finish?"
+        }
+      ]
+    }
+  ]
+}

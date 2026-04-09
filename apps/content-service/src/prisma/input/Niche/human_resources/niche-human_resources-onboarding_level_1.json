@@ -1,0 +1,530 @@
+{
+  "l": 1,
+  "d": [
+    {
+      "t": "Gặp đồng nghiệp mới",
+      "e": [
+        {
+          "p": "Hi, what's your name?",
+          "m": "Nói tên của bạn.",
+          "h": "S + be + N",
+          "s": "I am [studentName]."
+        },
+        {
+          "p": "What is your job here?",
+          "m": "Cho biết nghề/nghề nghiệp của bạn.",
+          "h": "S + be + N",
+          "s": "I am a [studentJob]."
+        },
+        {
+          "p": "Which team do you work in?",
+          "m": "Nói tên đội bạn làm việc.",
+          "h": "S + V + O",
+          "s": "I work in the sales team."
+        },
+        {
+          "p": "Where do you live?",
+          "m": "Nói thành phố bạn sống.",
+          "h": "S + live + in + place",
+          "s": "I live in [studentCity]."
+        },
+        {
+          "p": "Do you like your job?",
+          "m": "Nói một câu thích hoặc không thích về công việc.",
+          "h": "S + like / S + don't + V",
+          "s": "I like my job."
+        }
+      ]
+    },
+    {
+      "t": "Nói về giờ làm",
+      "e": [
+        {
+          "p": "What time do you start work?",
+          "m": "Nói giờ bạn bắt đầu làm việc.",
+          "h": "S + V(s) + time",
+          "s": "I start work at 9."
+        },
+        {
+          "p": "When do you finish work?",
+          "m": "Nói giờ bạn kết thúc làm việc.",
+          "h": "S + V(s) + time",
+          "s": "I finish work at 6."
+        },
+        {
+          "p": "Do you have a lunch break?",
+          "m": "Nói có nghỉ trưa hay không.",
+          "h": "There is / There isn't or S + have",
+          "s": "Yes, I have a lunch break."
+        },
+        {
+          "p": "How many days do you work in a week?",
+          "m": "Nói số ngày bạn làm việc mỗi tuần.",
+          "h": "S + work + number + days",
+          "s": "I work five days a week."
+        },
+        {
+          "p": "Can you come early on Monday?",
+          "m": "Nói có thể đến sớm vào thứ hai hay không.",
+          "h": "S + can / S + can't + V",
+          "s": "I can come early on Monday."
+        }
+      ]
+    },
+    {
+      "t": "Giới thiệu nơi làm việc",
+      "e": [
+        {
+          "p": "Where is your office?",
+          "m": "Nói vị trí văn phòng của bạn (ví dụ: tầng, bên trái...).",
+          "h": "There is/are or S + be + place",
+          "s": "My office is on the third floor."
+        },
+        {
+          "p": "Is there a meeting room near you?",
+          "m": "Nói có phòng họp gần chỗ bạn hay không.",
+          "h": "There is / There isn't",
+          "s": "Yes, there is a meeting room near me."
+        },
+        {
+          "p": "Do you have a desk?",
+          "m": "Nói có bàn làm việc hay không.",
+          "h": "S + have / S + don't have",
+          "s": "I have a desk."
+        },
+        {
+          "p": "What is on your desk?",
+          "m": "Nói một vật bạn có trên bàn.",
+          "h": "S + have + O",
+          "s": "I have a computer on my desk."
+        },
+        {
+          "p": "Is the office quiet?",
+          "m": "Nói ngắn về không khí trong văn phòng (yên tĩnh hay ồn).",
+          "h": "S + be + Adj",
+          "s": "The office is quiet."
+        }
+      ]
+    },
+    {
+      "t": "Gặp sếp và đồng nghiệp",
+      "e": [
+        {
+          "p": "Who is your boss?",
+          "m": "Nói tên hoặc vị trí của sếp.",
+          "h": "S + be + N",
+          "s": "My boss is Mr. Tran."
+        },
+        {
+          "p": "Do you work with Anna?",
+          "m": "Nói có làm việc với người tên Anna hay không.",
+          "h": "S + work + with + O / S + don't + V",
+          "s": "Yes, I work with Anna."
+        },
+        {
+          "p": "How many people are in your team?",
+          "m": "Nói số người trong đội của bạn.",
+          "h": "There are + number",
+          "s": "There are five people in my team."
+        },
+        {
+          "p": "Can your team help me?",
+          "m": "Nói liệu đội bạn có thể giúp hay không.",
+          "h": "S + can / S + can't + V",
+          "s": "My team can help you."
+        },
+        {
+          "p": "Do you meet your boss every day?",
+          "m": "Nói bạn có gặp sếp hàng ngày hay không.",
+          "h": "Do/Does + S + V?  S + don't/doesn't + V",
+          "s": "No, I don't meet my boss every day."
+        }
+      ]
+    },
+    {
+      "t": "Quy tắc cơ bản ở công ty",
+      "e": [
+        {
+          "p": "Is it ok to use a phone in the meeting?",
+          "m": "Nói ngắn có được dùng điện thoại khi họp hay không.",
+          "h": "S + can / S + can't + V",
+          "s": "No, you can't use a phone in the meeting."
+        },
+        {
+          "p": "Do we wear a badge here?",
+          "m": "Nói có phải đeo thẻ ra vào hay không.",
+          "h": "Do/Does + S + V?  S + do/does + V",
+          "s": "Yes, we wear a badge."
+        },
+        {
+          "p": "Are visitors allowed in the office?",
+          "m": "Nói có cho phép khách vào văn phòng hay không.",
+          "h": "Are + there? / S + be + allowed",
+          "s": "Visitors are allowed with a badge."
+        },
+        {
+          "p": "Do you eat at your desk?",
+          "m": "Nói bạn có ăn tại bàn làm việc hay không.",
+          "h": "S + V(s) + O / S + don't + V",
+          "s": "I don't eat at my desk."
+        },
+        {
+          "p": "What should you do if you are late?",
+          "m": "Nói một hành động ngắn khi bạn đến muộn.",
+          "h": "S + should + V (use 'should') or S + call",
+          "s": "I call my manager."
+        }
+      ]
+    },
+    {
+      "t": "Công cụ và máy tính",
+      "e": [
+        {
+          "p": "Do you have a computer?",
+          "m": "Nói có máy tính làm việc hay không.",
+          "h": "S + have / S + don't have",
+          "s": "I have a computer."
+        },
+        {
+          "p": "Can you log in to the system?",
+          "m": "Nói bạn có thể đăng nhập hệ thống hay không.",
+          "h": "S + can / S + can't + V",
+          "s": "I can log in to the system."
+        },
+        {
+          "p": "What is your computer password?",
+          "m": "Nói ngắn (nói 'I don't know' nếu bạn không biết).",
+          "h": "S + know / S + don't know",
+          "s": "I don't know my password."
+        },
+        {
+          "p": "Do you check your email every morning?",
+          "m": "Nói có kiểm tra email mỗi sáng hay không.",
+          "h": "S + V(s) + time / S + don't + V",
+          "s": "Yes, I check my email every morning."
+        },
+        {
+          "p": "Can IT help you with a computer problem?",
+          "m": "Nói IT có thể giúp bạn hay không.",
+          "h": "S + can + V",
+          "s": "IT can help me."
+        }
+      ]
+    },
+    {
+      "t": "Lịch họp đơn giản",
+      "e": [
+        {
+          "p": "Is there a meeting today?",
+          "m": "Nói có buổi họp hôm nay hay không.",
+          "h": "There is / There isn't",
+          "s": "Yes, there is a meeting today."
+        },
+        {
+          "p": "What time is the meeting?",
+          "m": "Nói giờ họp.",
+          "h": "It is at + time",
+          "s": "The meeting is at 10."
+        },
+        {
+          "p": "Do you join the meeting online?",
+          "m": "Nói bạn có tham gia họp trực tuyến hay không.",
+          "h": "S + join / S + don't + V",
+          "s": "I join the meeting online."
+        },
+        {
+          "p": "Who leads the meeting?",
+          "m": "Nói ai dẫn dắt cuộc họp (tên hoặc vị trí).",
+          "h": "S + be + N",
+          "s": "Mr. Le leads the meeting."
+        },
+        {
+          "p": "Do you bring notes to the meeting?",
+          "m": "Nói bạn có mang ghi chú tới họp hay không.",
+          "h": "S + bring / S + don't + V",
+          "s": "I bring notes to the meeting."
+        }
+      ]
+    },
+    {
+      "t": "Ăn trưa và giải lao",
+      "e": [
+        {
+          "p": "Where do you eat lunch?",
+          "m": "Nói nơi bạn ăn trưa (ví dụ: canteen, outside).",
+          "h": "S + eat + at/in/place",
+          "s": "I eat lunch at the canteen."
+        },
+        {
+          "p": "Do you go out for lunch?",
+          "m": "Nói bạn có ra ngoài ăn trưa hay không.",
+          "h": "S + V(s) / S + don't + V",
+          "s": "No, I don't go out for lunch."
+        },
+        {
+          "p": "What time is your lunch break?",
+          "m": "Nói giờ nghỉ trưa của bạn.",
+          "h": "S + have + break + at + time",
+          "s": "My lunch break is at 12."
+        },
+        {
+          "p": "Can you take a short break now?",
+          "m": "Nói bạn có thể nghỉ ngắn bây giờ hay không.",
+          "h": "S + can / S + can't + V",
+          "s": "I can take a short break now."
+        },
+        {
+          "p": "Do you like the food in the canteen?",
+          "m": "Nói bạn có thích đồ ăn ở căng tin hay không.",
+          "h": "S + like / S + don't + V",
+          "s": "I like the food in the canteen."
+        }
+      ]
+    },
+    {
+      "t": "Hỏi khi cần giúp đỡ",
+      "e": [
+        {
+          "p": "Can you help me with this form?",
+          "m": "Trả lời có thể giúp hay không.",
+          "h": "S + can / S + can't + V",
+          "s": "I can help you with the form."
+        },
+        {
+          "p": "Who can I ask for IT help?",
+          "m": "Nói người bạn liên hệ khi cần trợ giúp IT.",
+          "h": "S + be + N",
+          "s": "You can ask the IT team."
+        },
+        {
+          "p": "Do you have time to help now?",
+          "m": "Nói bạn có thời gian giúp ngay bây giờ hay không.",
+          "h": "S + have / S + don't have",
+          "s": "I have time now."
+        },
+        {
+          "p": "How do I get a visitor badge?",
+          "m": "Nói một bước ngắn để lấy thẻ khách.",
+          "h": "Use 'You + V' hoặc 'I + V'",
+          "s": "You go to reception."
+        },
+        {
+          "p": "Can I call you if I have a problem?",
+          "m": "Trả lời có thể gọi khi có vấn đề hay không.",
+          "h": "S + can / S + can't + V",
+          "s": "Yes, you can call me."
+        }
+      ]
+    },
+    {
+      "t": "Giải quyết sự cố nhỏ",
+      "e": [
+        {
+          "p": "I can't open this file. Can you help?",
+          "m": "Nói bạn có thể mở file hay không.",
+          "h": "S + can / S + can't + V",
+          "s": "I can open the file."
+        },
+        {
+          "p": "My computer is slow. What do you do?",
+          "m": "Nói một hành động ngắn bạn làm khi máy chậm.",
+          "h": "S + restart / S + clean",
+          "s": "I restart my computer."
+        },
+        {
+          "p": "Is the printer working?",
+          "m": "Nói máy in có hoạt động hay không.",
+          "h": "S + be + Adj or There is/are",
+          "s": "The printer is working."
+        },
+        {
+          "p": "Do you have a spare pen?",
+          "m": "Nói có bút dự phòng hay không.",
+          "h": "S + have / S + don't have",
+          "s": "I have a spare pen."
+        },
+        {
+          "p": "Who fixes office problems?",
+          "m": "Nói ai sửa các vấn đề trong văn phòng.",
+          "h": "S + be + N",
+          "s": "The facilities team fixes office problems."
+        }
+      ]
+    },
+    {
+      "t": "Quy trình công việc đơn giản",
+      "e": [
+        {
+          "p": "What is your main task today?",
+          "m": "Nói một nhiệm vụ chính bạn làm hôm nay.",
+          "h": "S + V(s) + O",
+          "s": "I write the daily report."
+        },
+        {
+          "p": "Do you send weekly reports?",
+          "m": "Nói bạn có gửi báo cáo hàng tuần hay không.",
+          "h": "S + V(s) + O / S + don't + V",
+          "s": "Yes, I send weekly reports."
+        },
+        {
+          "p": "Who approves your work?",
+          "m": "Nói người duyệt công việc của bạn.",
+          "h": "S + be + N",
+          "s": "My manager approves my work."
+        },
+        {
+          "p": "Do you finish tasks on time?",
+          "m": "Nói bạn có hoàn thành đúng hạn hay không.",
+          "h": "S + do/does + V? S + don't/doesn't + V",
+          "s": "Yes, I finish tasks on time."
+        },
+        {
+          "p": "Can you start a new task now?",
+          "m": "Nói bạn có thể bắt đầu nhiệm vụ mới hay không.",
+          "h": "S + can / S + can't + V",
+          "s": "I can start a new task now."
+        }
+      ]
+    },
+    {
+      "t": "Thông báo và email cơ bản",
+      "e": [
+        {
+          "p": "Do you check email now?",
+          "m": "Nói bạn có kiểm tra email ngay bây giờ hay không.",
+          "h": "S + V(s) / S + don't + V",
+          "s": "Yes, I check my email now."
+        },
+        {
+          "p": "Can you send the report by email?",
+          "m": "Trả lời có thể gửi báo cáo qua email hay không.",
+          "h": "S + can / S + can't + V",
+          "s": "I can send the report by email."
+        },
+        {
+          "p": "Who sends the team email?",
+          "m": "Nói ai gửi email cho cả đội.",
+          "h": "S + be + N",
+          "s": "The team lead sends the team email."
+        },
+        {
+          "p": "Do you write short emails?",
+          "m": "Nói bạn có viết email ngắn hay không.",
+          "h": "S + do/does + V? S + do/does + V",
+          "s": "Yes, I write short emails."
+        },
+        {
+          "p": "What do you write in the email subject?",
+          "m": "Nói một ví dụ ngắn cho chủ đề email.",
+          "h": "S + write + O",
+          "s": "I write 'Daily Report'."
+        }
+      ]
+    },
+    {
+      "t": "Ôn tập: Gặp và làm quen",
+      "e": [
+        {
+          "p": "What's your name and job?",
+          "m": "Nói tên và nghề của bạn (mỗi thông tin một câu hoặc ghép ngắn).",
+          "h": "S + be + N; S + be + N",
+          "s": "I am [studentName]. I am a [studentJob]."
+        },
+        {
+          "p": "Where do you work and which team?",
+          "m": "Nói nơi làm việc (ví dụ: office) và tên đội.",
+          "h": "S + work + in + team; S + be + place",
+          "s": "I work in the sales team. My office is on the third floor."
+        },
+        {
+          "p": "Do you like your team?",
+          "m": "Nói có thích đội hay không.",
+          "h": "S + like / S + don't + V",
+          "s": "I like my team."
+        },
+        {
+          "p": "Who is your manager?",
+          "m": "Nói tên hoặc vị trí người quản lý.",
+          "h": "S + be + N",
+          "s": "My manager is Ms. Hoa."
+        },
+        {
+          "p": "Can your team help new staff?",
+          "m": "Nói đội bạn có thể giúp nhân viên mới hay không.",
+          "h": "S + can + V",
+          "s": "My team can help new staff."
+        }
+      ]
+    },
+    {
+      "t": "Ôn tập: Giờ làm và quy tắc",
+      "e": [
+        {
+          "p": "What time do you start and finish work?",
+          "m": "Nói giờ bắt đầu và kết thúc làm việc (hai ý trong một câu có thể dùng 'and').",
+          "h": "S + start + at + time and S + finish + at + time",
+          "s": "I start at 9 and finish at 6."
+        },
+        {
+          "p": "Do you have a lunch break and when?",
+          "m": "Nói có nghỉ trưa không và giờ nghỉ.",
+          "h": "S + have + break at + time / S + don't + V",
+          "s": "I have a lunch break at 12."
+        },
+        {
+          "p": "Is phone use allowed in meetings?",
+          "m": "Nói có được dùng điện thoại khi họp hay không.",
+          "h": "S + can / S + can't + V",
+          "s": "You can't use a phone in meetings."
+        },
+        {
+          "p": "Do you wear a badge every day?",
+          "m": "Nói có phải đeo thẻ mỗi ngày hay không.",
+          "h": "S + do/does + V? S + do/does + V",
+          "s": "Yes, I wear a badge every day."
+        },
+        {
+          "p": "What do you do if you are late?",
+          "m": "Nói một hành động khi bạn đến muộn.",
+          "h": "S + call / S + inform",
+          "s": "I call my manager."
+        }
+      ]
+    },
+    {
+      "t": "Ôn tập: Hỏi giúp và giải quyết vấn đề",
+      "e": [
+        {
+          "p": "Can you help me with my computer?",
+          "m": "Trả lời có thể giúp hay không.",
+          "h": "S + can / S + can't + V",
+          "s": "I can help you with your computer."
+        },
+        {
+          "p": "Who do you ask for a visitor badge?",
+          "m": "Nói người bạn liên hệ để lấy thẻ khách.",
+          "h": "S + ask + N",
+          "s": "You ask reception."
+        },
+        {
+          "p": "The printer does not work. What do you do?",
+          "m": "Nói một hành động ngắn khi máy in hỏng.",
+          "h": "S + report / S + call",
+          "s": "I call facilities."
+        },
+        {
+          "p": "Do you send email for help?",
+          "m": "Nói có gửi email khi cần giúp hay không.",
+          "h": "S + do/does + V? S + do/does + V",
+          "s": "Yes, I send an email for help."
+        },
+        {
+          "p": "Can the team solve a small problem?",
+          "m": "Nói đội có thể giải quyết vấn đề nhỏ hay không.",
+          "h": "S + can + V",
+          "s": "The team can solve small problems."
+        }
+      ]
+    }
+  ]
+}

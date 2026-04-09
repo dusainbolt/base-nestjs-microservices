@@ -1,0 +1,565 @@
+{
+  "l": 3,
+  "d": [
+    {
+      "t": "Đặt bàn nhà hàng",
+      "e": [
+        {
+          "p": "I'd like to book a table for two.",
+          "m": "Hỏi ngày và giờ. Hỏi là ăn trưa hay tối.",
+          "h": "Dùng 'What date/time' và 'Is it for...?'",
+          "s": "What date and time would you like? Is it for lunch or dinner?"
+        },
+        {
+          "p": "Can you reserve a window seat for our table?",
+          "m": "Xác nhận yêu cầu chỗ ngồi. Nếu không được, đề xuất lựa chọn khác.",
+          "h": "Dùng 'We can' hoặc 'We don't have..., we can...'",
+          "s": "We can reserve a window seat for you. If it's full, we can offer a table near the window."
+        },
+        {
+          "p": "I have a food allergy. Can the chef avoid nuts?",
+          "m": "Xác nhận bạn sẽ ghi chú yêu cầu. Hỏi tên hoặc số đặt chỗ để kiểm tra.",
+          "h": "Dùng 'I will note' và 'Can I have...?'",
+          "s": "I will note the nut allergy. Can I have your name or reservation number?"
+        },
+        {
+          "p": "We need to change our reservation time from 7 to 8 PM.",
+          "m": "Xác nhận đã thay đổi thời gian. Nói nếu còn bàn hoặc không.",
+          "h": "Dùng 'I've changed' hoặc 'I'm sorry, we don't have...'",
+          "s": "I've changed your reservation to 8 PM. We still have a table at that time."
+        },
+        {
+          "p": "I might be late. Can you hold the table for 15 minutes?",
+          "m": "Trả lời đồng ý hoặc không. Nếu đồng ý, nêu thời gian giữ; nếu không, đề xuất điều kiện khác.",
+          "h": "Dùng 'Yes, we will hold' hoặc 'Sorry, we can only hold...'",
+          "s": "Yes, we will hold the table for 15 minutes. If you are later, we may release it."
+        }
+      ]
+    },
+    {
+      "t": "Đặt phòng khách sạn cơ bản",
+      "e": [
+        {
+          "p": "I want to book a room for two nights.",
+          "m": "Hỏi ngày nhận và trả phòng (check-in/check-out). Hỏi số khách.",
+          "h": "Dùng 'When is your check-in/check-out?' và 'How many guests?'",
+          "s": "When is your check-in and check-out date? How many guests will stay?"
+        },
+        {
+          "p": "Do you have any single rooms available tomorrow?",
+          "m": "Trả lời có/không. Nếu có, nêu giá cơ bản; nếu không, đề xuất ngày khác.",
+          "h": "Dùng 'Yes, we have' hoặc 'No, we don't have... but we can...'",
+          "s": "Yes, we have a single room for tomorrow. The rate is $60 per night."
+        },
+        {
+          "p": "Can I have an extra bed in the room?",
+          "m": "Nói có thể hay không. Nếu có, nêu thêm phí hoặc điều kiện.",
+          "h": "Dùng 'We can add' hoặc 'We cannot but...'",
+          "s": "We can add an extra bed for an extra $20 per night. Please confirm if you want it."
+        },
+        {
+          "p": "Is breakfast included with the room?",
+          "m": "Trả lời có/không. Nếu không, nêu giá bữa sáng.",
+          "h": "Dùng 'Yes, breakfast is included' hoặc 'No, it's not included. It costs...'",
+          "s": "No, breakfast is not included. It costs $10 per person."
+        },
+        {
+          "p": "I would like to cancel my booking for next week.",
+          "m": "Xác nhận thông tin hủy. Nói về phí hủy nếu có hoặc hoàn tiền.",
+          "h": "Dùng 'Your booking is cancelled' hoặc 'There is a cancellation fee of...'",
+          "s": "Your booking for next week is cancelled. There is no cancellation fee and you'll get a refund."
+        }
+      ]
+    },
+    {
+      "t": "Đặt vé máy bay đơn giản",
+      "e": [
+        {
+          "p": "I need a ticket to Da Nang next Monday.",
+          "m": "Hỏi giờ bay hoặc chiều khứ hồi/1 chiều. Hỏi số hành khách.",
+          "h": "Dùng 'One-way or round-trip?' và 'How many passengers?'",
+          "s": "Is it a one-way or round-trip ticket? How many passengers are travelling?"
+        },
+        {
+          "p": "Are there any morning flights to Hanoi?",
+          "m": "Trả lời có/không. Nếu có, nêu giờ khởi hành tiếp theo.",
+          "h": "Dùng 'Yes, there is a flight at...' hoặc 'No, the next flight is at...'",
+          "s": "Yes, there's a morning flight at 8:15 AM. The next one is at 9:40 AM."
+        },
+        {
+          "p": "Can I choose my seat now?",
+          "m": "Nói có thể hay không. Nếu có, hướng dẫn chọn chỗ hoặc phí nếu có.",
+          "h": "Dùng 'You can choose' hoặc 'Seat selection costs...'",
+          "s": "You can choose your seat now online. Seat selection costs $5 per seat."
+        },
+        {
+          "p": "I want to change my flight to an earlier time.",
+          "m": "Hỏi ngày và giờ mới. Nói nếu có phí đổi vé hoặc cần làm gì tiếp theo.",
+          "h": "Dùng 'We can change' hoặc 'There is a change fee of...'",
+          "s": "What new date and time do you want? There's a $30 change fee for earlier flights."
+        },
+        {
+          "p": "My flight was cancelled. What can I do?",
+          "m": "Đề xuất hai lựa chọn: đổi chuyến khác hoặc hoàn tiền. Hỏi lựa chọn của khách.",
+          "h": "Dùng 'We can rebook' và 'or we can refund you'",
+          "s": "We can rebook you on the next flight or we can refund your ticket. Which option do you prefer?"
+        }
+      ]
+    },
+    {
+      "t": "Đặt xe đưa đón và cho thuê",
+      "e": [
+        {
+          "p": "I need a taxi from the airport to my hotel.",
+          "m": "Hỏi thời gian đến sân bay. Hỏi điểm đến cụ thể (tên khách sạn).",
+          "h": "Dùng 'What time will you arrive?' và 'Which hotel, please?'",
+          "s": "What time will you arrive at the airport? Which hotel will you go to?"
+        },
+        {
+          "p": "Can I rent a car for three days?",
+          "m": "Xác nhận ngày bắt đầu và kết thúc. Hỏi loại xe mong muốn.",
+          "h": "Dùng 'From... to...' và 'What type of car?'",
+          "s": "From which date to which date do you need the car? What type of car do you prefer?"
+        },
+        {
+          "p": "Do you offer airport pickup for late-night flights?",
+          "m": "Nói có/không. Nếu có, nêu thời gian phục vụ; nếu không, đề xuất phương án khác.",
+          "h": "Dùng 'Yes, we operate until...' hoặc 'Sorry, we only operate until...'",
+          "s": "Yes, we offer airport pickup until midnight. After that, we can arrange a private taxi."
+        },
+        {
+          "p": "I want to cancel my car rental for Sunday.",
+          "m": "Xác nhận việc hủy. Nói về phí hủy nếu có và cách hoàn tiền.",
+          "h": "Dùng 'Your rental is cancelled' hoặc 'There is a cancellation fee of...'",
+          "s": "Your car rental for Sunday is cancelled. There is a $15 cancellation fee and we'll refund the rest."
+        },
+        {
+          "p": "Can you add a child seat to the rental?",
+          "m": "Trả lời có/không. Nếu có, nêu phí thêm; nếu không, đề xuất giải pháp.",
+          "h": "Dùng 'We can add' hoặc 'We don't have..., but we can...'",
+          "s": "We can add a child seat for $8 per day. Please confirm if you want it."
+        }
+      ]
+    },
+    {
+      "t": "Yêu cầu đặc biệt (ăn chay, sinh nhật...)",
+      "e": [
+        {
+          "p": "It's my wife's birthday. Can you prepare a cake?",
+          "m": "Xác nhận có hay không. Hỏi kích thước hoặc loại bánh nếu cần.",
+          "h": "Dùng 'We can prepare' và 'What size/type?'",
+          "s": "We can prepare a birthday cake. What size or type would you like?"
+        },
+        {
+          "p": "I am vegetarian. Can you offer vegetarian meals?",
+          "m": "Xác nhận có sẵn món chay. Hỏi có dị ứng hay yêu cầu thêm không.",
+          "h": "Dùng 'Yes, we have' và 'Do you have any allergies?'",
+          "s": "Yes, we have vegetarian meals. Do you have any allergies or special requests?"
+        },
+        {
+          "p": "Can you arrange a quiet room away from the street?",
+          "m": "Xác nhận có thể hay không. Nếu có, nêu vị trí phòng; nếu không, đề xuất khác.",
+          "h": "Dùng 'We can place you' hoặc 'We cannot guarantee... but...'",
+          "s": "We can place you in a quiet room facing the garden. Please confirm your booking to hold it."
+        },
+        {
+          "p": "I need a room with wheelchair access.",
+          "m": "Xác nhận phòng phù hợp. Hỏi nếu cần thêm hỗ trợ khi đến.",
+          "h": "Dùng 'We have accessible rooms' và 'Do you need assistance?'",
+          "s": "We have accessible rooms available. Do you need any assistance on arrival?"
+        },
+        {
+          "p": "Can you prepare a late check-out at 2 PM?",
+          "m": "Nói có thể hay không. Nếu có, nói về phí; nếu miễn phí, xác nhận.",
+          "h": "Dùng 'We can offer' hoặc 'There is a late check-out fee of...'",
+          "s": "We can offer a late check-out at 2 PM for a $20 fee. Would you like to confirm it?"
+        }
+      ]
+    },
+    {
+      "t": "Đặt dịch vụ spa và tiện ích",
+      "e": [
+        {
+          "p": "I'd like to book a 60-minute massage on Saturday.",
+          "m": "Hỏi giờ mong muốn. Hỏi liệu khách có ưu tiên nhân viên nam/nữ.",
+          "h": "Dùng 'What time' và 'Do you prefer...?'",
+          "s": "What time on Saturday would you like? Do you prefer a male or female therapist?"
+        },
+        {
+          "p": "Do you have a sauna and pool access with the spa package?",
+          "m": "Trả lời có/không. Nếu có, nêu thời gian truy cập; nếu không, đề xuất gói khác.",
+          "h": "Dùng 'Yes, it includes' hoặc 'No, but we have...'",
+          "s": "Yes, it includes sauna and pool access for two hours. You can use them before your treatment."
+        },
+        {
+          "p": "Can I change my spa booking to Sunday?",
+          "m": "Xác nhận ngày mới có hoặc không. Nói nếu có phí thay đổi.",
+          "h": "Dùng 'We can change' hoặc 'There is a change fee of...'",
+          "s": "We can change your booking to Sunday. There is no change fee for this request."
+        },
+        {
+          "p": "Is there a discount for couples?",
+          "m": "Trả lời có/không. Nếu có, nêu mức giảm phần trăm hoặc giá trọn gói.",
+          "h": "Dùng 'Yes, we offer' hoặc 'No, but we can...'",
+          "s": "Yes, we offer a 10% discount for couples on selected packages."
+        },
+        {
+          "p": "I want to cancel my spa appointment tomorrow.",
+          "m": "Xác nhận hủy và nói về chính sách hủy (phí hay không). Hỏi nếu muốn đặt lại.",
+          "h": "Dùng 'Your appointment is cancelled' và 'Do you want to reschedule?'",
+          "s": "Your spa appointment for tomorrow is cancelled. There is no cancellation fee; would you like to reschedule?"
+        }
+      ]
+    },
+    {
+      "t": "Đặt chỗ cho nhóm / sự kiện nhỏ",
+      "e": [
+        {
+          "p": "We want to reserve a private room for 12 people.",
+          "m": "Hỏi ngày và thời gian của sự kiện. Hỏi có cần ăn uống hay chỉ chỗ ngồi.",
+          "h": "Dùng 'When and what time?' và 'Do you need catering?'",
+          "s": "When is the event and what time? Do you need catering or just seating?"
+        },
+        {
+          "p": "Can you arrange a projector and microphone?",
+          "m": "Xác nhận có thể hay không. Nếu có, nêu phí hoặc miễn phí và yêu cầu trước bao lâu.",
+          "h": "Dùng 'We can provide' và 'We need... notice'",
+          "s": "We can provide a projector and microphone. We need 24 hours' notice and it's free."
+        },
+        {
+          "p": "Is there a group discount for 20 people?",
+          "m": "Nói có/không. Nếu có, nêu mức giảm hoặc điều kiện áp dụng.",
+          "h": "Dùng 'Yes, we give' hoặc 'No, but we can...'",
+          "s": "Yes, we give a 15% discount for groups of 20 or more with a deposit."
+        },
+        {
+          "p": "We will arrive late. Can the event time start later?",
+          "m": "Trả lời có thể điều chỉnh hay không. Nếu có, nêu khoảng thời gian được dời và ảnh hưởng phí nếu có.",
+          "h": "Dùng 'We can postpone to...' hoặc 'We cannot but...'",
+          "s": "We can start the event 30 minutes later. There is no extra fee for this change."
+        },
+        {
+          "p": "How do we confirm the group booking?",
+          "m": "Nêu hai bước: đặt cọc hoặc cung cấp thông tin; xác nhận qua email hoặc gọi điện.",
+          "h": "Dùng 'Please pay/deposit' và 'We will send a confirmation email.'",
+          "s": "Please pay a deposit to confirm the booking and provide your contact details. We will send a confirmation email."
+        }
+      ]
+    },
+    {
+      "t": "Thay đổi ngày và thời gian đặt chỗ",
+      "e": [
+        {
+          "p": "Can I move my hotel booking from June 10 to June 12?",
+          "m": "Xác nhận ngày mới có phòng hay không. Nêu nếu có sự khác biệt giá.",
+          "h": "Dùng 'We have' hoặc 'The new dates cost...'",
+          "s": "We have rooms available from June 12. The rate for the new dates is $80 per night."
+        },
+        {
+          "p": "I need to change my restaurant reservation to an earlier time.",
+          "m": "Hỏi giờ mới. Xác nhận nếu còn chỗ và nêu nếu cần trả phí.",
+          "h": "Dùng 'Is ___ okay?' và 'We can confirm if available.'",
+          "s": "Is 6 PM okay instead? We can confirm now and there is no fee for the change."
+        },
+        {
+          "p": "I want to postpone my flight by two days.",
+          "m": "Nói về phí chuyển đổi và hỏi có muốn giữ chỗ hay hoàn tiền.",
+          "h": "Dùng 'There is a change fee' và 'Do you want to keep or refund?'",
+          "s": "There is a $50 change fee to postpone the flight. Do you want to keep the booking or get a refund?"
+        },
+        {
+          "p": "Can I reschedule my spa appointment to a different day?",
+          "m": "Xác nhận ngày mới. Nếu không có, đề xuất thời gian khác.",
+          "h": "Dùng 'We can reschedule to...' hoặc 'If not, how about...?'",
+          "s": "We can reschedule your appointment to Tuesday at 3 PM. If that doesn't work, how about Wednesday morning?"
+        },
+        {
+          "p": "Is it possible to change the car rental pick-up time?",
+          "m": "Hỏi giờ mới. Nói nếu có sự khác biệt phí hoặc cần thông báo trước.",
+          "h": "Dùng 'We can change' và 'We need ... notice' ",
+          "s": "What new pick-up time do you need? We can change it with 12 hours' notice and no extra fee."
+        }
+      ]
+    },
+    {
+      "t": "Hủy đặt chỗ và hoàn tiền",
+      "e": [
+        {
+          "p": "I want to cancel my hotel room and get a refund.",
+          "m": "Hỏi thông tin đặt phòng (tên hoặc số). Nói về chính sách hoàn tiền (có/không).",
+          "h": "Dùng 'Can I have your name/reservation number?' và 'You will get a refund if...'",
+          "s": "Can I have your reservation number? You will get a full refund if you cancel 48 hours before check-in."
+        },
+        {
+          "p": "Can I get a refund for my concert ticket?",
+          "m": "Hỏi khi nào mua và lý do hủy. Nói liệu vé có hoàn tiền theo điều kiện hay không.",
+          "h": "Dùng 'When did you buy it?' và 'Tickets are refundable if...'",
+          "s": "When did you buy the ticket and why do you cancel? Tickets are refundable only with proof of illness."
+        },
+        {
+          "p": "I cancelled late. Will I be charged?",
+          "m": "Nói có/không có phí. Nếu có, nêu số tiền hoặc phần trăm.",
+          "h": "Dùng 'Yes, there is a late fee of...' hoặc 'No fee if...'",
+          "s": "Yes, there is a late cancellation fee of $30. If you cancel 24 hours before, there is no fee."
+        },
+        {
+          "p": "How long does a refund take?",
+          "m": "Nói khoảng thời gian xử lý. Nêu nếu tiền trả về thẻ hoặc bằng tiền mặt.",
+          "h": "Dùng 'It takes...' và 'It will be refunded to...'",
+          "s": "Refunds take 5–7 business days to process. It will be refunded to your credit card."
+        },
+        {
+          "p": "I changed my mind and want to rebook instead of refund.",
+          "m": "Hỏi ngày mới. Nói nếu phí đổi áp dụng hoặc miễn phí.",
+          "h": "Dùng 'What new date?' và 'There is a change fee of... or no fee.'",
+          "s": "What new date do you want to rebook? There is a $20 change fee or we can waive it for the same rate."
+        }
+      ]
+    },
+    {
+      "t": "Xác nhận đặt chỗ qua email/điện thoại",
+      "e": [
+        {
+          "p": "I called earlier and reserved a room. Can you confirm my booking?",
+          "m": "Hỏi họ tên hoặc số đặt phòng. Xác nhận ngày và loại phòng.",
+          "h": "Dùng 'Can I have your name/reservation number?' và 'Yes, your booking is for...'",
+          "s": "Can I have your reservation number? Your booking is confirmed for July 5–7 in a double room."
+        },
+        {
+          "p": "Did you receive my payment for the reservation?",
+          "m": "Kiểm tra số tiền đã trả. Xác nhận đã nhận hay chưa và nêu số tiền nếu cần.",
+          "h": "Dùng 'Yes, we received' hoặc 'No, we haven't received...'",
+          "s": "Yes, we received your $50 deposit. Your reservation is confirmed."
+        },
+        {
+          "p": "Can you send me the booking details by email?",
+          "m": "Hỏi email khách hàng. Nói sẽ gửi và nêu thời gian gửi.",
+          "h": "Dùng 'What's your email?' và 'We will send it in...'",
+          "s": "What's your email address? We will send the booking details within an hour."
+        },
+        {
+          "p": "I want to double-check my reservation dates.",
+          "m": "Lặp lại ngày check-in và check-out. Hỏi nếu cần thay đổi.",
+          "h": "Dùng 'Your check-in is...' và 'Do you want to change it?'",
+          "s": "Your check-in is August 10 and check-out is August 13. Do you want to change these dates?"
+        },
+        {
+          "p": "Please confirm my dinner reservation for tomorrow at 7 PM.",
+          "m": "Xác nhận có đặt và nêu số người. Nếu không, đề xuất thời gian khác.",
+          "h": "Dùng 'Yes, it's confirmed for...' hoặc 'We are full at..., but...'",
+          "s": "Yes, it's confirmed for tomorrow at 7 PM for four people. See you then."
+        }
+      ]
+    },
+    {
+      "t": "Vấn đề khi đến nơi (overbooking, phòng chưa sẵn sàng)",
+      "e": [
+        {
+          "p": "My room is not ready but my flight arrived early.",
+          "m": "Xin lỗi và thông báo tình trạng. Đề xuất chỗ giữ hành lý hoặc khu vực chờ.",
+          "h": "Dùng 'We are sorry' và 'We can store your luggage' hoặc 'Please wait in...'",
+          "s": "We are sorry your room is not ready yet. We can store your luggage and you may wait in the lounge."
+        },
+        {
+          "p": "There is no table for our reservation — what happened?",
+          "m": "Xin lỗi và giải thích ngắn (ví dụ: overbooking). Đề xuất giải pháp như bàn khác hoặc ưu đãi.",
+          "h": "Dùng 'We apologize' và 'We can offer...'",
+          "s": "We apologize — we had an overbooking issue. We can offer another table or a free drink."
+        },
+        {
+          "p": "The car I booked is not available at pick-up.",
+          "m": "Xin lỗi và nêu lý do ngắn. Đề xuất xe thay thế hoặc hoàn tiền.",
+          "h": "Dùng 'We are sorry' và 'We can offer...' hoặc 'We will refund...'",
+          "s": "We are sorry the car is unavailable due to maintenance. We can offer a similar car or refund you."
+        },
+        {
+          "p": "My booked spa service started late and I lost time.",
+          "m": "Thể hiện sự thông cảm; nêu bồi thường hoặc lời xin lỗi và đề nghị khắc phục.",
+          "h": "Dùng 'We are sorry' và 'We can offer a...' ",
+          "s": "We are sorry for the delay. We can extend your treatment or offer a discount on your next visit."
+        },
+        {
+          "p": "The hotel gave my room to someone else by mistake.",
+          "m": "Xin lỗi, nêu giải pháp ngay (phòng khác, nâng cấp, hoàn tiền). Hỏi khách chấp nhận giải pháp nào.",
+          "h": "Dùng 'We apologize' và 'We can offer...' ",
+          "s": "We apologize for the mistake. We can assign another room, give you an upgrade, or refund the night — which do you prefer?"
+        }
+      ]
+    },
+    {
+      "t": "Thanh toán và chính sách đặt cọc",
+      "e": [
+        {
+          "p": "Do I need to pay a deposit to hold the booking?",
+          "m": "Trả lời có/không. Nếu có, nêu số tiền hoặc phần trăm đặt cọc.",
+          "h": "Dùng 'Yes, a deposit of...' hoặc 'No, you don't need a deposit.'",
+          "s": "Yes, a deposit of $30 is required to hold the booking."
+        },
+        {
+          "p": "Can I pay by card or only cash?",
+          "m": "Nêu các phương thức thanh toán chấp nhận. Nếu hạn chế, giải thích ngắn.",
+          "h": "Dùng 'We accept...' hoặc 'We only accept...'",
+          "s": "We accept card and cash payments. You can pay by Visa or Mastercard."
+        },
+        {
+          "p": "If I pay now, can I cancel later for a full refund?",
+          "m": "Nêu chính sách hoàn tiền khi đã trả trước (điều kiện). Hỏi nếu khách muốn trả ngay.",
+          "h": "Dùng 'You will get a full refund if...' và 'Do you want to pay now?'",
+          "s": "You will get a full refund if you cancel 48 hours before arrival. Do you want to pay now?"
+        },
+        {
+          "p": "Is tax included in the price?",
+          "m": "Trả lời có/không. Nếu không, nêu mức thuế hoặc tổng cộng gồm thuế.",
+          "h": "Dùng 'Yes, it includes' hoặc 'No, tax is...' ",
+          "s": "No, tax is not included. Tax is 10% of the total price."
+        },
+        {
+          "p": "Can I use a voucher to pay for my booking?",
+          "m": "Xác nhận có chấp nhận voucher hay không. Nếu có, nêu cách dùng voucher.",
+          "h": "Dùng 'Yes, you can use' hoặc 'No, vouchers are not valid for...'",
+          "s": "Yes, you can use the voucher at checkout. Please present it at payment or enter the code online."
+        }
+      ]
+    },
+    {
+      "t": "Xử lý khiếu nại liên quan đến đặt chỗ",
+      "e": [
+        {
+          "p": "The room is dirty and not as described.",
+          "m": "Xin lỗi ngắn. Nêu bước đầu sẽ làm (gửi dọn, đổi phòng) và hỏi khách muốn gì.",
+          "h": "Dùng 'We are sorry' và 'We will...'",
+          "s": "We are sorry about that. We will send housekeeping immediately or arrange another room — which do you prefer?"
+        },
+        {
+          "p": "My reservation was lost and I have no confirmation.",
+          "m": "Xin lỗi và kiểm tra lại thông tin khách. Hỏi tên hoặc email để tìm đặt chỗ.",
+          "h": "Dùng 'We apologize' và 'Can I have your name/email?'",
+          "s": "We apologize for the inconvenience. Can I have your name or email to find your reservation?"
+        },
+        {
+          "p": "I was charged twice for the same booking.",
+          "m": "Xin lỗi và hứa kiểm tra. Hỏi ngày giao dịch hoặc cung cấp bằng chứng đơn giản (ví dụ: số giao dịch).",
+          "h": "Dùng 'We will check' và 'Can you give the transaction date/number?'",
+          "s": "We will check this issue and refund any duplicate charge. Can you give the transaction date or number?"
+        },
+        {
+          "p": "The staff was rude when I arrived.",
+          "m": "Xin lỗi, ghi nhận phàn nàn và nêu sẽ báo bộ phận quản lý; hỏi khách muốn bồi thường nhỏ hay chỉ xin lỗi.",
+          "h": "Dùng 'We are sorry' và 'We will report to management' ",
+          "s": "We are sorry you experienced this. We will report it to management and offer a small voucher or a formal apology — which do you prefer?"
+        },
+        {
+          "p": "My booking shows a different price than advertised.",
+          "m": "Xin lỗi và kiểm tra giá. Nếu lỗi, nêu sẽ điều chỉnh và hoàn tiền phần chênh; hỏi khách chấp nhận giải pháp.",
+          "h": "Dùng 'We will correct' và 'We will refund the difference' ",
+          "s": "We will correct the mistake and refund the difference. Do you accept this solution?"
+        }
+      ]
+    },
+    {
+      "t": "Ôn tập: Giao tiếp xác nhận & thay đổi",
+      "e": [
+        {
+          "p": "I called to change my reservation time and I want to confirm it.",
+          "m": "Hỏi tên hoặc số đặt chỗ. Xác nhận ngày và giờ mới.",
+          "h": "Dùng 'Can I have your name?' và 'Your new time is...'",
+          "s": "Can I have your reservation name? Your new reservation is confirmed for May 20 at 8 PM."
+        },
+        {
+          "p": "Can I add one more person to my group booking?",
+          "m": "Hỏi số người mới. Nêu nếu còn chỗ và thay đổi giá/nội dung nếu có.",
+          "h": "Dùng 'How many now?' và 'The new total is...'",
+          "s": "How many people now in the group? We have space and the new total cost is $180."
+        },
+        {
+          "p": "I need to cancel and rebook for a later date.",
+          "m": "Hỏi ngày muốn đặt lại. Nêu phí hủy và phí đặt lại nếu có.",
+          "h": "Dùng 'What new date?' và 'There is a cancellation fee of...' ",
+          "s": "What new date would you like to rebook? There is a $20 cancellation fee and a $10 rebooking fee."
+        },
+        {
+          "p": "Please confirm my payment and booking status.",
+          "m": "Kiểm tra khoản thanh toán đã nhận hay chưa. Xác nhận tình trạng đặt chỗ (confirmed/waiting).",
+          "h": "Dùng 'We received' và 'Your booking is confirmed' ",
+          "s": "We received your payment of $120. Your booking is confirmed."
+        },
+        {
+          "p": "Can you remind me of the cancellation policy?",
+          "m": "Nêu điều kiện hủy và thời hạn (ví dụ: trước 48 giờ). Nói về hoàn tiền nếu đủ điều kiện.",
+          "h": "Dùng 'You can cancel if...' và 'You will get a refund if...'",
+          "s": "You can cancel up to 48 hours before arrival. You will get a full refund if you cancel within that time."
+        }
+      ]
+    },
+    {
+      "t": "Ôn tập: Xử lý sự cố & bồi thường",
+      "e": [
+        {
+          "p": "My table was given away and we waited outside.",
+          "m": "Xin lỗi và đề xuất giải pháp (bàn khác, ưu đãi). Hỏi khách chọn giải pháp nào.",
+          "h": "Dùng 'We are sorry' và 'We can offer...' ",
+          "s": "We are sorry about that. We can offer another table now or a free drink — which do you prefer?"
+        },
+        {
+          "p": "I booked a non-smoking room but the room smells of smoke.",
+          "m": "Xin lỗi và đề nghị đổi phòng hoặc làm sạch. Nói nếu có nâng cấp miễn phí.",
+          "h": "Dùng 'We will change your room' và 'We can upgrade...' ",
+          "s": "We will change your room immediately and arrange cleaning. We can also upgrade you for free."
+        },
+        {
+          "p": "I paid a deposit but my booking is not in the system.",
+          "m": "Xin lỗi, hỏi thông tin thanh toán đơn giản (ngày/amount). Hứa kiểm tra và trả lời trong thời gian ngắn.",
+          "h": "Dùng 'Can you tell the payment date/amount?' và 'We will check and reply in...'",
+          "s": "Can you tell me the payment date and amount? We will check and reply within 24 hours."
+        },
+        {
+          "p": "I waited for the shuttle but it never came.",
+          "m": "Xin lỗi, giải thích ngắn (trễ/hủy). Đề nghị đền bù nhỏ hoặc sắp xếp ngay phương án khác.",
+          "h": "Dùng 'We are sorry' và 'We can offer...' ",
+          "s": "We are sorry the shuttle didn't come due to traffic. We can offer a voucher or arrange a taxi right away."
+        },
+        {
+          "p": "I received the wrong booking confirmation email.",
+          "m": "Xin lỗi và yêu cầu email đúng. Hứa gửi lại xác nhận chính xác.",
+          "h": "Dùng 'Can you give your email?' và 'We will resend...' ",
+          "s": "We are sorry for the mistake. Can you give your email? We will resend the correct confirmation now."
+        }
+      ]
+    },
+    {
+      "t": "Ôn tập: Tình huống thực tế hỗn hợp",
+      "e": [
+        {
+          "p": "We need a last-minute dinner reservation for six people.",
+          "m": "Hỏi thời gian mong muốn. Nêu nếu còn chỗ hoặc đề xuất thời gian khác.",
+          "h": "Dùng 'What time?' và 'We have/We can offer...'",
+          "s": "What time would you like the reservation? We have a table at 8 PM or we can offer 8:30 PM."
+        },
+        {
+          "p": "I want to upgrade my room and pay the difference.",
+          "m": "Hỏi loại nâng cấp mong muốn. Nói giá chênh lệch và hỏi xác nhận.",
+          "h": "Dùng 'Which upgrade?' và 'The difference is... Do you confirm?'",
+          "s": "Which upgrade would you like — a suite or a deluxe room? The difference is $40 per night. Do you confirm?"
+        },
+        {
+          "p": "Can you hold my luggage after check-out for a few hours?",
+          "m": "Trả lời có/không. Nếu có, nêu thời gian giữ và yêu cầu nhận lại.",
+          "h": "Dùng 'We can hold' và 'Please pick up by...'",
+          "s": "We can hold your luggage for up to 6 hours. Please pick it up by 6 PM."
+        },
+        {
+          "p": "Is breakfast served early for an early flight?",
+          "m": "Nói giờ phục vụ sớm nhất. Nếu không, đề xuất hộp ăn sáng hoặc takeaway.",
+          "h": "Dùng 'Breakfast is served from...' hoặc 'We can provide...'",
+          "s": "Breakfast is served from 6 AM. If you need earlier, we can prepare a takeaway box."
+        },
+        {
+          "p": "I booked two rooms but need one room only now.",
+          "m": "Hỏi muốn hủy phòng nào hoặc ngày. Nêu phí hủy nếu có và hỏi xác nhận.",
+          "h": "Dùng 'Which room/date?' và 'There is a fee of... Do you confirm?'",
+          "s": "Which room or date would you like to cancel? There is a $25 cancellation fee. Do you confirm?"
+        }
+      ]
+    }
+  ]
+}

@@ -5,16 +5,16 @@
       "t": "Gặp bạn mới trong lớp",
       "e": [
         {
-          "p": "Are you new to this class?",
-          "m": "Xác nhận bạn mới vào lớp và bắt đầu khi nào.",
-          "h": "Yes, I am new. I started + time.",
-          "s": "Yes, I am new. I started today."
+          "p": "What's your name?",
+          "m": "Nói tên của bạn.",
+          "h": "My name is + name",
+          "s": "My name is [studentName]."
         },
         {
-          "p": "What grade are you in?",
-          "m": "Nói lớp/khối bạn đang học.",
-          "h": "I am in grade + số.",
-          "s": "I am in grade 5."
+          "p": "How old are you?",
+          "m": "Nói tuổi của bạn.",
+          "h": "I am + age",
+          "s": "I am [studentAge] years old."
         },
         {
           "p": "Which school do you go to?",
@@ -425,10 +425,10 @@
       "t": "Ôn tập: Giới thiệu & Lớp học",
       "e": [
         {
-          "p": "What is on your desk right now?",
-          "m": "Nói đồ vật trên bàn học của bạn.",
-          "h": "A + đồ vật + is/are on my desk.",
-          "s": "A book and a pencil are on my desk."
+          "p": "Tell me your name.",
+          "m": "Nói tên của bạn.",
+          "h": "My name is + name",
+          "s": "My name is [studentName]."
         },
         {
           "p": "Where is your classroom?",

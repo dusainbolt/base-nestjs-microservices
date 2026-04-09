@@ -1,0 +1,565 @@
+{
+  "l": 1,
+  "d": [
+    {
+      "t": "Nhận hàng tại cửa hàng",
+      "e": [
+        {
+          "p": "Is the order ready?",
+          "m": "Nói nếu hàng sẵn (Yes/No).",
+          "h": "Dùng 'Yes, it is.' hoặc 'No, it isn't.'",
+          "s": "Yes, it is."
+        },
+        {
+          "p": "How many items do you take?",
+          "m": "Nói số lượng bạn lấy (1-100).",
+          "h": "Dùng 'I take' + số.",
+          "s": "I take two."
+        },
+        {
+          "p": "Can you come to the shop?",
+          "m": "Nói nếu bạn có thể đến (I can / I can't).",
+          "h": "Dùng 'I can...' hoặc 'I can't...'.",
+          "s": "I can come."
+        },
+        {
+          "p": "Where do you take the order?",
+          "m": "Nói nơi bạn lấy hàng (ví dụ: at the shop).",
+          "h": "Dùng 'I take at...' hoặc 'I take in...'.",
+          "s": "I take it at the shop."
+        },
+        {
+          "p": "Do you need help with the box?",
+          "m": "Nói nếu bạn cần giúp (Yes/No).",
+          "h": "Dùng 'I need' hoặc 'I don't need'.",
+          "s": "I don't need help."
+        }
+      ]
+    },
+    {
+      "t": "Xác nhận số lượng đơn hàng",
+      "e": [
+        {
+          "p": "How many do you want?",
+          "m": "Nói số bạn muốn mua (1-100).",
+          "h": "Dùng 'I want' + số.",
+          "s": "I want three."
+        },
+        {
+          "p": "Is two enough for you?",
+          "m": "Trả lời Có hoặc Không về số lượng.",
+          "h": "Dùng 'Yes, two is enough.' hoặc 'No, two is not enough.'",
+          "s": "No, two is not enough."
+        },
+        {
+          "p": "Do you have more money for five?",
+          "m": "Nói nếu bạn có đủ tiền cho số đó (Yes/No).",
+          "h": "Dùng 'Yes, I have.' hoặc 'No, I don't.'",
+          "s": "Yes, I have."
+        },
+        {
+          "p": "Can you take all five now?",
+          "m": "Nói nếu bạn có thể lấy cả năm (I can / I can't).",
+          "h": "Dùng 'I can...' hoặc 'I can't...'.",
+          "s": "I can't take five."
+        },
+        {
+          "p": "Do you want one more item?",
+          "m": "Nói nếu bạn muốn thêm một cái (Yes/No).",
+          "h": "Dùng 'Yes, I want one more.' hoặc 'No, I don't want.'",
+          "s": "Yes, I want one more."
+        }
+      ]
+    },
+    {
+      "t": "Xác nhận giá và thanh toán",
+      "e": [
+        {
+          "p": "What is the price?",
+          "m": "Nói giá đơn giản (dùng số và 'dollars').",
+          "h": "Dùng số + 'dollars'.",
+          "s": "It is twenty dollars."
+        },
+        {
+          "p": "Can you pay now?",
+          "m": "Nói nếu bạn có thể trả bây giờ (I can / I can't).",
+          "h": "Dùng 'I can pay now.' hoặc 'I can't pay now.'",
+          "s": "I can pay now."
+        },
+        {
+          "p": "Do you have cash?",
+          "m": "Nói nếu bạn có tiền mặt (Yes/No).",
+          "h": "Dùng 'Yes, I have.' hoặc 'No, I don't.'",
+          "s": "No, I don't have cash."
+        },
+        {
+          "p": "Is card OK for payment?",
+          "m": "Nói nếu thẻ được chấp nhận (Yes/No).",
+          "h": "Dùng 'Yes, it is.' hoặc 'No, it isn't.'",
+          "s": "Yes, card is OK."
+        },
+        {
+          "p": "Do you want a bill?",
+          "m": "Nói nếu bạn muốn hóa đơn (Yes/No).",
+          "h": "Dùng 'I want a bill.' hoặc 'I don't want a bill.'",
+          "s": "I want a bill."
+        }
+      ]
+    },
+    {
+      "t": "Hẹn ngày giao nhận",
+      "e": [
+        {
+          "p": "When do you want the goods?",
+          "m": "Nói ngày ngắn gọn (today/tomorrow).",
+          "h": "Dùng 'today' hoặc 'tomorrow'.",
+          "s": "I want it tomorrow."
+        },
+        {
+          "p": "Can you come on Monday?",
+          "m": "Nói nếu bạn có thể đến vào ngày đó (I can / I can't).",
+          "h": "Dùng 'I can...' hoặc 'I can't...'.",
+          "s": "I can't come on Monday."
+        },
+        {
+          "p": "Is morning good for you?",
+          "m": "Nói nếu buổi sáng phù hợp (Yes/No).",
+          "h": "Dùng 'Yes, morning is good.' hoặc 'No, it is not.'",
+          "s": "Yes, morning is good."
+        },
+        {
+          "p": "Do you come at ten o'clock?",
+          "m": "Trả lời Có hoặc Không về thời gian.",
+          "h": "Dùng 'Yes, I come at ten.' hoặc 'No, I do not.'",
+          "s": "Yes, I come at ten."
+        },
+        {
+          "p": "Can you wait one day?",
+          "m": "Nói nếu bạn có thể chờ (I can / I can't).",
+          "h": "Dùng 'I can wait.' hoặc 'I can't wait.'",
+          "s": "I can wait one day."
+        }
+      ]
+    },
+    {
+      "t": "Hình thức nhận và giao hàng",
+      "e": [
+        {
+          "p": "Do you want home delivery?",
+          "m": "Nói nếu bạn muốn giao tới nhà (Yes/No).",
+          "h": "Dùng 'Yes, I want.' hoặc 'No, I don't.'",
+          "s": "No, I don't want home delivery."
+        },
+        {
+          "p": "Can you pick up at the shop?",
+          "m": "Nói nếu bạn có thể đến lấy (I can / I can't).",
+          "h": "Dùng 'I can pick up.' hoặc 'I can't pick up.'",
+          "s": "I can pick up at the shop."
+        },
+        {
+          "p": "Do you need the driver to bring it up?",
+          "m": "Nói nếu bạn cần người mang lên (Yes/No).",
+          "h": "Dùng 'Yes, I need.' hoặc 'No, I don't need.'",
+          "s": "Yes, I need help."
+        },
+        {
+          "p": "Is the shop near your home?",
+          "m": "Nói nếu cửa hàng gần nhà bạn (Yes/No).",
+          "h": "Dùng 'Yes, it is near.' hoặc 'No, it isn't.'",
+          "s": "Yes, it is near my home."
+        },
+        {
+          "p": "Do you come to the shop by car?",
+          "m": "Nói phương tiện bạn đến (car/bus/walk).",
+          "h": "Dùng 'I come by...' hoặc 'I walk.'",
+          "s": "I come by car."
+        }
+      ]
+    },
+    {
+      "t": "Kiểm tra hàng trước khi nhận",
+      "e": [
+        {
+          "p": "Is the box OK?",
+          "m": "Nói nếu hộp OK (Yes/No).",
+          "h": "Dùng 'Yes, it is OK.' hoặc 'No, it isn't.'",
+          "s": "Yes, the box is OK."
+        },
+        {
+          "p": "Do you like the color?",
+          "m": "Nói nếu bạn thích màu (Yes/No).",
+          "h": "Dùng 'Yes, I like it.' hoặc 'No, I don't.'",
+          "s": "Yes, I like the color."
+        },
+        {
+          "p": "Is the product good?",
+          "m": "Nói nếu sản phẩm tốt (Yes/No).",
+          "h": "Dùng 'It is good.' hoặc 'It is not good.'",
+          "s": "It is good."
+        },
+        {
+          "p": "Do you have a problem?",
+          "m": "Nói nếu bạn có vấn đề (Yes/No).",
+          "h": "Dùng 'I have a problem.' hoặc 'I don't have a problem.'",
+          "s": "I don't have a problem."
+        },
+        {
+          "p": "Can we change one item?",
+          "m": "Nói nếu bạn muốn đổi (Yes/No).",
+          "h": "Dùng 'Yes, I want to change.' hoặc 'No, I don't.'",
+          "s": "Yes, I want to change one."
+        }
+      ]
+    },
+    {
+      "t": "Yêu cầu thêm hoặc giảm hàng",
+      "e": [
+        {
+          "p": "Do you want one more?",
+          "m": "Nói nếu bạn muốn thêm một cái (Yes/No).",
+          "h": "Dùng 'Yes, I want one more.' hoặc 'No, I don't.'",
+          "s": "Yes, I want one more."
+        },
+        {
+          "p": "Can you take fewer items?",
+          "m": "Nói nếu bạn có thể lấy ít hơn (I can / I can't).",
+          "h": "Dùng 'I can take' hoặc 'I can't take'.",
+          "s": "I can take fewer."
+        },
+        {
+          "p": "Do you want a small box?",
+          "m": "Nói nếu bạn muốn hộp nhỏ (Yes/No).",
+          "h": "Dùng 'Yes, I want.' hoặc 'No, I don't.'",
+          "s": "No, I want a big box."
+        },
+        {
+          "p": "Is one enough for you?",
+          "m": "Nói nếu một cái đủ (Yes/No).",
+          "h": "Dùng 'Yes, one is enough.' hoặc 'No, it is not.'",
+          "s": "No, one is not enough."
+        },
+        {
+          "p": "Can you pay less?",
+          "m": "Nói nếu bạn có thể trả ít hơn (I can / I can't).",
+          "h": "Dùng 'I can pay less.' hoặc 'I can't pay less.'",
+          "s": "I can't pay less."
+        }
+      ]
+    },
+    {
+      "t": "Thay đổi hoặc hủy đơn hàng",
+      "e": [
+        {
+          "p": "Do you want to cancel the order?",
+          "m": "Nói nếu bạn muốn hủy (Yes/No).",
+          "h": "Dùng 'Yes, I want to cancel.' hoặc 'No, I don't.'",
+          "s": "No, I don't want to cancel."
+        },
+        {
+          "p": "Can you change the color?",
+          "m": "Nói nếu bạn có thể đổi màu (I can / I can't).",
+          "h": "Dùng 'I can change.' hoặc 'I can't change.'",
+          "s": "I can change the color."
+        },
+        {
+          "p": "Do you want to change the date?",
+          "m": "Nói nếu bạn muốn đổi ngày (Yes/No).",
+          "h": "Dùng 'Yes, I want to change.' hoặc 'No, I don't.'",
+          "s": "Yes, I want to change the date."
+        },
+        {
+          "p": "Is it OK to return one item?",
+          "m": "Nói nếu bạn muốn trả lại một món (Yes/No).",
+          "h": "Dùng 'Yes, it is OK.' hoặc 'No, it is not.'",
+          "s": "Yes, it is OK."
+        },
+        {
+          "p": "Can you tell the reason for change?",
+          "m": "Nói lý do ngắn (một câu đơn).",
+          "h": "Dùng 'I don't like' hoặc 'I need'.",
+          "s": "I don't like the color."
+        }
+      ]
+    },
+    {
+      "t": "Ký nhận đơn hàng đơn giản",
+      "e": [
+        {
+          "p": "Do you sign here?",
+          "m": "Nói nếu bạn ký (Yes/No).",
+          "h": "Dùng 'Yes, I sign.' hoặc 'No, I don't.'",
+          "s": "Yes, I sign here."
+        },
+        {
+          "p": "Can you write your name?",
+          "m": "Nói nếu bạn có thể viết tên (I can / I can't).",
+          "h": "Dùng 'I can write my name.' hoặc 'I can't write.'",
+          "s": "I can write my name."
+        },
+        {
+          "p": "Do you agree with the note?",
+          "m": "Nói nếu bạn đồng ý (Yes/No).",
+          "h": "Dùng 'Yes, I agree.' hoặc 'No, I don't.'",
+          "s": "Yes, I agree."
+        },
+        {
+          "p": "Is your name on the paper?",
+          "m": "Nói nếu tên bạn có trên giấy (Yes/No).",
+          "h": "Dùng 'My name is...' hoặc 'My name is not...'.",
+          "s": "My name is on the paper."
+        },
+        {
+          "p": "Do you give a phone number?",
+          "m": "Nói nếu bạn đưa số điện thoại (Yes/No).",
+          "h": "Dùng 'Yes, I give.' hoặc 'No, I don't.'",
+          "s": "Yes, I give my phone number."
+        }
+      ]
+    },
+    {
+      "t": "Hoàn tất giao dịch và cảm ơn",
+      "e": [
+        {
+          "p": "Is everything OK now?",
+          "m": "Nói nếu mọi thứ ổn (Yes/No).",
+          "h": "Dùng 'Yes, everything is OK.' hoặc 'No, it isn't.'",
+          "s": "Yes, everything is OK."
+        },
+        {
+          "p": "Do you like our service?",
+          "m": "Nói nếu bạn thích dịch vụ (Yes/No).",
+          "h": "Dùng 'Yes, I like it.' hoặc 'No, I don't.'",
+          "s": "Yes, I like your service."
+        },
+        {
+          "p": "Can we see you again?",
+          "m": "Nói nếu bạn sẽ quay lại (I can / I can't).",
+          "h": "Dùng 'I can come again.' hoặc 'I can't.'",
+          "s": "I can come again."
+        },
+        {
+          "p": "Do you want a receipt?",
+          "m": "Nói nếu bạn muốn biên lai (Yes/No).",
+          "h": "Dùng 'Yes, I want.' hoặc 'No, I don't.'",
+          "s": "Yes, I want a receipt."
+        },
+        {
+          "p": "Thank you. Any last question?",
+          "m": "Nói nếu bạn có câu hỏi khác (Yes/No).",
+          "h": "Dùng 'Yes, I have.' hoặc 'No, I don't.'",
+          "s": "No, I don't have any question."
+        }
+      ]
+    },
+    {
+      "t": "Gặp khách hàng lần đầu",
+      "e": [
+        {
+          "p": "Do you want to buy today?",
+          "m": "Nói nếu bạn muốn mua hôm nay (Yes/No).",
+          "h": "Dùng 'Yes, I want.' hoặc 'No, I don't.'",
+          "s": "Yes, I want to buy today."
+        },
+        {
+          "p": "What do you need?",
+          "m": "Nói một món bạn cần bằng một từ (book/box...).",
+          "h": "Dùng 'I need...' + danh từ đơn giản.",
+          "s": "I need a box."
+        },
+        {
+          "p": "Can you pay now or later?",
+          "m": "Nói nếu bạn trả now hoặc later bằng 'I can' hoặc 'I can't'.",
+          "h": "Dùng 'I can pay now.' hoặc 'I can't pay now.'",
+          "s": "I can't pay now."
+        },
+        {
+          "p": "Do you have time to talk?",
+          "m": "Nói nếu bạn có thời gian (Yes/No).",
+          "h": "Dùng 'Yes, I have time.' hoặc 'No, I don't.'",
+          "s": "Yes, I have time."
+        },
+        {
+          "p": "Is this your first order with us?",
+          "m": "Nói nếu đây là lần đầu của bạn (Yes/No).",
+          "h": "Dùng 'Yes, it is.' hoặc 'No, it is not.'",
+          "s": "Yes, it is my first order."
+        }
+      ]
+    },
+    {
+      "t": "Bàn giao cho người khác nhận hàng",
+      "e": [
+        {
+          "p": "Will someone pick up for you?",
+          "m": "Nói nếu người khác lấy hộ (Yes/No).",
+          "h": "Dùng 'Yes, someone will.' hoặc 'No, I will.'",
+          "s": "Yes, someone will pick up."
+        },
+        {
+          "p": "Who will take the order?",
+          "m": "Nói tên người nhận hoặc 'my friend' ngắn gọn.",
+          "h": "Dùng 'My friend' hoặc 'My brother'.",
+          "s": "My friend will take it."
+        },
+        {
+          "p": "Can the person pay?",
+          "m": "Nói nếu người đó có thể trả (Yes/No).",
+          "h": "Dùng 'Yes, they can.' hoặc 'No, they can't.'",
+          "s": "Yes, they can pay."
+        },
+        {
+          "p": "Do they have ID?",
+          "m": "Nói nếu họ có giấy tờ (Yes/No).",
+          "h": "Dùng 'Yes, they have.' hoặc 'No, they don't.'",
+          "s": "Yes, they have ID."
+        },
+        {
+          "p": "Is the person ready now?",
+          "m": "Nói nếu họ đã sẵn sàng (Yes/No).",
+          "h": "Dùng 'Yes, they are ready.' hoặc 'No, they are not.'",
+          "s": "Yes, they are ready now."
+        }
+      ]
+    },
+    {
+      "t": "Giải quyết lỗi nhỏ sau giao hàng",
+      "e": [
+        {
+          "p": "Is there a small problem?",
+          "m": "Nói nếu có vấn đề nhỏ (Yes/No).",
+          "h": "Dùng 'Yes, there is.' hoặc 'No, there isn't.'",
+          "s": "Yes, there is a small problem."
+        },
+        {
+          "p": "Can you show the problem?",
+          "m": "Nói nếu bạn có thể cho xem (I can / I can't).",
+          "h": "Dùng 'I can show.' hoặc 'I can't show.'",
+          "s": "I can show the problem."
+        },
+        {
+          "p": "Do you want a new one?",
+          "m": "Nói nếu bạn muốn cái mới (Yes/No).",
+          "h": "Dùng 'Yes, I want a new one.' hoặc 'No, I don't.'",
+          "s": "Yes, I want a new one."
+        },
+        {
+          "p": "Is the damage big?",
+          "m": "Nói nếu hư hại lớn (Yes/No).",
+          "h": "Dùng 'Yes, it is big.' hoặc 'No, it is small.'",
+          "s": "No, it is small."
+        },
+        {
+          "p": "Can we fix it now?",
+          "m": "Nói nếu bạn cho phép sửa ngay (Yes/No).",
+          "h": "Dùng 'Yes, fix it.' hoặc 'No, do not.'",
+          "s": "Yes, fix it now."
+        }
+      ]
+    },
+    {
+      "t": "Ôn tập: Xác nhận đơn và thanh toán",
+      "e": [
+        {
+          "p": "Do you confirm the order?",
+          "m": "Nói nếu bạn xác nhận đơn (Yes/No).",
+          "h": "Dùng 'Yes, I confirm.' hoặc 'No, I do not.'",
+          "s": "Yes, I confirm the order."
+        },
+        {
+          "p": "Can you pay by card now?",
+          "m": "Nói nếu bạn có thể trả thẻ bây giờ (I can / I can't).",
+          "h": "Dùng 'I can pay by card.' hoặc 'I can't pay by card.'",
+          "s": "I can pay by card now."
+        },
+        {
+          "p": "How many items do you buy?",
+          "m": "Nói số lượng bạn mua (1-100).",
+          "h": "Dùng 'I buy' + số.",
+          "s": "I buy four."
+        },
+        {
+          "p": "Do you want a bill and receipt?",
+          "m": "Nói nếu bạn muốn biên lai (Yes/No).",
+          "h": "Dùng 'Yes, I want.' hoặc 'No, I don't.'",
+          "s": "Yes, I want a bill and a receipt."
+        },
+        {
+          "p": "Is everything correct now?",
+          "m": "Nói nếu mọi thứ đúng (Yes/No).",
+          "h": "Dùng 'Yes, everything is correct.' hoặc 'No, it is not.'",
+          "s": "Yes, everything is correct now."
+        }
+      ]
+    },
+    {
+      "t": "Ôn tập: Giao nhận và thay đổi đơn",
+      "e": [
+        {
+          "p": "Can you change one item now?",
+          "m": "Nói nếu bạn có thể đổi ngay (I can / I can't).",
+          "h": "Dùng 'I can change now.' hoặc 'I can't change now.'",
+          "s": "I can change one item now."
+        },
+        {
+          "p": "Do you want delivery or pick up?",
+          "m": "Nói lựa chọn 'delivery' hoặc 'pick up'.",
+          "h": "Dùng 'I want delivery.' hoặc 'I want pick up.'",
+          "s": "I want pick up."
+        },
+        {
+          "p": "Is the new date OK for you?",
+          "m": "Nói nếu ngày mới phù hợp (Yes/No).",
+          "h": "Dùng 'Yes, it is OK.' hoặc 'No, it is not.'",
+          "s": "Yes, the new date is OK."
+        },
+        {
+          "p": "Do you need a small or big box?",
+          "m": "Chọn 'small' hoặc 'big' một từ.",
+          "h": "Dùng 'small' hoặc 'big' sau 'I want a'.",
+          "s": "I want a small box."
+        },
+        {
+          "p": "Can we return one item next week?",
+          "m": "Nói nếu bạn có thể trả lại tuần sau (Yes/No).",
+          "h": "Dùng 'Yes, I can.' hoặc 'No, I can't.'",
+          "s": "Yes, I can return it next week."
+        }
+      ]
+    },
+    {
+      "t": "Ôn tập: Kết thúc giao dịch và dịch vụ",
+      "e": [
+        {
+          "p": "Are you happy with the product?",
+          "m": "Nói nếu bạn hài lòng (Yes/No).",
+          "h": "Dùng 'Yes, I am happy.' hoặc 'No, I am not.'",
+          "s": "Yes, I am happy with the product."
+        },
+        {
+          "p": "Do you come back to our shop?",
+          "m": "Nói nếu bạn sẽ quay lại (I can / I can't).",
+          "h": "Dùng 'I can come back.' hoặc 'I can't come back.'",
+          "s": "I can come back to your shop."
+        },
+        {
+          "p": "Can we call you for feedback?",
+          "m": "Nói nếu bạn đồng ý gọi (Yes/No).",
+          "h": "Dùng 'Yes, you can call.' hoặc 'No, you can't.'",
+          "s": "Yes, you can call me for feedback."
+        },
+        {
+          "p": "Do you want a discount next time?",
+          "m": "Nói nếu bạn muốn giảm giá lần sau (Yes/No).",
+          "h": "Dùng 'Yes, I want.' hoặc 'No, I don't.'",
+          "s": "Yes, I want a discount next time."
+        },
+        {
+          "p": "Thank you. Any final note?",
+          "m": "Nói một ý ngắn nếu bạn có ghi chú, hoặc 'No'.",
+          "h": "Dùng 'No' hoặc 'I need...' một câu đơn.",
+          "s": "No, I have no final note."
+        }
+      ]
+    }
+  ]
+}

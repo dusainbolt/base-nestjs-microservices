@@ -1,0 +1,530 @@
+{
+  "l": 1,
+  "d": [
+    {
+      "t": "Gặp đồng nghiệp mới",
+      "e": [
+        {
+          "p": "What's your name?",
+          "m": "Nói tên của bạn.",
+          "h": "My name is + tên.",
+          "s": "My name is [studentName]."
+        },
+        {
+          "p": "How old are you?",
+          "m": "Nói tuổi của bạn.",
+          "h": "I am + tuổi + years old.",
+          "s": "I am [studentAge] years old."
+        },
+        {
+          "p": "What is your job?",
+          "m": "Nói nghề nghiệp của bạn.",
+          "h": "I am a + nghề nghiệp.",
+          "s": "I am a [studentJob]."
+        },
+        {
+          "p": "Where do you live?",
+          "m": "Nói thành phố nơi bạn sống.",
+          "h": "I live in + thành phố.",
+          "s": "I live in [studentCity]."
+        },
+        {
+          "p": "Do you work on a project now?",
+          "m": "Nói có hoặc không bạn có dự án hiện tại.",
+          "h": "Yes, I work on a project. / No, I don't work on a project.",
+          "s": "Yes, I work on a project."
+        }
+      ]
+    },
+    {
+      "t": "Giới thiệu vai trò trong đội",
+      "e": [
+        {
+          "p": "What do you do in the team?",
+          "m": "Nói công việc chính của bạn trong đội (một câu đơn).",
+          "h": "I + work + as a + job / I + test / I + develop.",
+          "s": "I work as a developer."
+        },
+        {
+          "p": "Are you a tester?",
+          "m": "Trả lời có hoặc không.",
+          "h": "Yes, I am. / No, I am not.",
+          "s": "No, I am not."
+        },
+        {
+          "p": "Do you work with the BA?",
+          "m": "Trả lời có hoặc không.",
+          "h": "Yes, I work with the BA. / No, I don't.",
+          "s": "Yes, I work with the BA."
+        },
+        {
+          "p": "Who tests the app?",
+          "m": "Nói ai làm việc kiểm thử (ví dụ: I or a tester).",
+          "h": "I / A tester + tests the app.",
+          "s": "A tester tests the app."
+        },
+        {
+          "p": "What is your job title now?",
+          "m": "Nói rõ chức danh công việc của bạn.",
+          "h": "I am a + job title.",
+          "s": "I am a tester."
+        }
+      ]
+    },
+    {
+      "t": "Nói về dự án",
+      "e": [
+        {
+          "p": "What is the project name?",
+          "m": "Nói tên dự án (một cụm từ ngắn).",
+          "h": "The project name is + tên.",
+          "s": "The project name is Alpha."
+        },
+        {
+          "p": "Is the project a web app?",
+          "m": "Trả lời có hoặc không.",
+          "h": "Yes, it is. / No, it is not.",
+          "s": "Yes, it is."
+        },
+        {
+          "p": "How many people are in your team?",
+          "m": "Nói số thành viên trong nhóm.",
+          "h": "There are + số + people.",
+          "s": "There are 5 people in my team."
+        },
+        {
+          "p": "Do you start work at nine?",
+          "m": "Trả lời có hoặc không về giờ bắt đầu.",
+          "h": "Yes, I start at nine. / No, I don't.",
+          "s": "Yes, I start at nine."
+        },
+        {
+          "p": "Where is the project office?",
+          "m": "Nói địa điểm văn phòng dự án (thành phố).",
+          "h": "The office is in + thành phố.",
+          "s": "The office is in [studentCity]."
+        }
+      ]
+    },
+    {
+      "t": "Công việc hàng ngày",
+      "e": [
+        {
+          "p": "What do you do every day at work?",
+          "m": "Nói một việc bạn làm mỗi ngày.",
+          "h": "I + work / I + test / I + code.",
+          "s": "I test the app every day."
+        },
+        {
+          "p": "Do you go to the office every day?",
+          "m": "Trả lời có hoặc không.",
+          "h": "Yes, I go to the office. / No, I don't.",
+          "s": "No, I don't."
+        },
+        {
+          "p": "When do you finish work?",
+          "m": "Nói giờ bạn kết thúc (ví dụ: five).",
+          "h": "I finish work at + giờ.",
+          "s": "I finish work at five."
+        },
+        {
+          "p": "Do you have meetings today?",
+          "m": "Trả lời có hoặc không.",
+          "h": "Yes, I have a meeting. / No, I don't.",
+          "s": "Yes, I have a meeting."
+        },
+        {
+          "p": "Who writes the code?",
+          "m": "Nói người viết mã (ví dụ: I or the developer).",
+          "h": "I / The developer + writes the code.",
+          "s": "The developer writes the code."
+        }
+      ]
+    },
+    {
+      "t": "Kỹ năng cơ bản trong công việc",
+      "e": [
+        {
+          "p": "Can you code?",
+          "m": "Trả lời có hoặc không bằng can/can't.",
+          "h": "Yes, I can. / No, I can't.",
+          "s": "Yes, I can."
+        },
+        {
+          "p": "Can you test the app?",
+          "m": "Trả lời có hoặc không bằng can/can't.",
+          "h": "Yes, I can. / No, I can't.",
+          "s": "Yes, I can."
+        },
+        {
+          "p": "Can you speak English at work?",
+          "m": "Trả lời có hoặc không bằng can/can't.",
+          "h": "Yes, I can. / No, I can't.",
+          "s": "No, I can't."
+        },
+        {
+          "p": "What can you do on the team?",
+          "m": "Nói một kỹ năng bạn có (một câu đơn).",
+          "h": "I can + động từ (code/test/help).",
+          "s": "I can test software."
+        },
+        {
+          "p": "Do you need help with the task?",
+          "m": "Trả lời có hoặc không.",
+          "h": "Yes, I need help. / No, I don't.",
+          "s": "No, I don't."
+        }
+      ]
+    },
+    {
+      "t": "Công cụ và thiết bị đơn giản",
+      "e": [
+        {
+          "p": "Do you use a computer at work?",
+          "m": "Trả lời có hoặc không.",
+          "h": "Yes, I use a computer. / No, I don't.",
+          "s": "Yes, I use a computer."
+        },
+        {
+          "p": "Is there a laptop on your desk?",
+          "m": "Trả lời có hoặc không bằng There is/There are.",
+          "h": "There is a laptop. / There is not a laptop.",
+          "s": "There is a laptop on my desk."
+        },
+        {
+          "p": "Do you have a phone for work?",
+          "m": "Trả lời có hoặc không.",
+          "h": "Yes, I have a phone. / No, I don't.",
+          "s": "Yes, I have a phone for work."
+        },
+        {
+          "p": "Where is your computer?",
+          "m": "Nói nơi để máy tính (ví dụ: on the desk).",
+          "h": "The computer is on + nơi.",
+          "s": "The computer is on the desk."
+        },
+        {
+          "p": "Do you check email every day?",
+          "m": "Trả lời có hoặc không.",
+          "h": "Yes, I check email every day. / No, I don't.",
+          "s": "Yes, I check email every day."
+        }
+      ]
+    },
+    {
+      "t": "Giao tiếp với BA",
+      "e": [
+        {
+          "p": "Are you the BA?",
+          "m": "Trả lời có hoặc không.",
+          "h": "Yes, I am. / No, I am not.",
+          "s": "No, I am not."
+        },
+        {
+          "p": "What does the BA do?",
+          "m": "Nói một việc BA làm (một câu đơn).",
+          "h": "The BA writes documents / The BA talks with users.",
+          "s": "The BA writes documents."
+        },
+        {
+          "p": "Do you meet the BA this week?",
+          "m": "Trả lời có hoặc không.",
+          "h": "Yes, I meet the BA. / No, I don't.",
+          "s": "Yes, I meet the BA this week."
+        },
+        {
+          "p": "Who writes the requirements?",
+          "m": "Nói người viết yêu cầu (một câu đơn).",
+          "h": "The BA writes the requirements. / I write them.",
+          "s": "The BA writes the requirements."
+        },
+        {
+          "p": "Where is the BA now?",
+          "m": "Nói vị trí hiện tại của BA (ví dụ: in the office).",
+          "h": "The BA is in + nơi.",
+          "s": "The BA is in the office."
+        }
+      ]
+    },
+    {
+      "t": "Làm việc với Tester",
+      "e": [
+        {
+          "p": "Do you test the new feature?",
+          "m": "Trả lời có hoặc không.",
+          "h": "Yes, I test the new feature. / No, I don't.",
+          "s": "Yes, I test the new feature."
+        },
+        {
+          "p": "Who finds bugs?",
+          "m": "Nói ai tìm lỗi trong phần mềm.",
+          "h": "A tester / I + finds bugs.",
+          "s": "A tester finds bugs."
+        },
+        {
+          "p": "Is there a bug in the app?",
+          "m": "Trả lời có hoặc không bằng There is/There are.",
+          "h": "There is a bug. / There is not a bug.",
+          "s": "There is a bug in the app."
+        },
+        {
+          "p": "Do you report the bug now?",
+          "m": "Trả lời có hoặc không.",
+          "h": "Yes, I report the bug. / No, I don't.",
+          "s": "No, I don't report the bug now."
+        },
+        {
+          "p": "How many bugs do you see?",
+          "m": "Nói số lỗi bạn thấy (một số từ 1-100).",
+          "h": "I see + số + bugs.",
+          "s": "I see 2 bugs."
+        }
+      ]
+    },
+    {
+      "t": "Làm việc với Developer",
+      "e": [
+        {
+          "p": "Do you work with the developer?",
+          "m": "Trả lời có hoặc không.",
+          "h": "Yes, I work with the developer. / No, I don't.",
+          "s": "Yes, I work with the developer."
+        },
+        {
+          "p": "Who fixes the bug?",
+          "m": "Nói ai sửa lỗi.",
+          "h": "The developer fixes the bug. / I fix the bug.",
+          "s": "The developer fixes the bug."
+        },
+        {
+          "p": "Can the developer fix it today?",
+          "m": "Trả lời có hoặc không bằng can/can't.",
+          "h": "Yes, he can. / No, he can't.",
+          "s": "Yes, he can."
+        },
+        {
+          "p": "What does the developer do now?",
+          "m": "Nói một việc hiện tại của developer (một câu đơn).",
+          "h": "The developer fixes code / The developer tests.",
+          "s": "The developer fixes code."
+        },
+        {
+          "p": "Do you help the developer?",
+          "m": "Trả lời có hoặc không.",
+          "h": "Yes, I help. / No, I don't.",
+          "s": "No, I don't help the developer."
+        }
+      ]
+    },
+    {
+      "t": "Hỏi về nơi làm việc và thời gian",
+      "e": [
+        {
+          "p": "Where is your office?",
+          "m": "Nói nơi làm việc (thành phố hoặc 'in the office').",
+          "h": "My office is in + nơi.",
+          "s": "My office is in [studentCity]."
+        },
+        {
+          "p": "Do you work from home?",
+          "m": "Trả lời có hoặc không.",
+          "h": "Yes, I work from home. / No, I don't.",
+          "s": "No, I don't work from home."
+        },
+        {
+          "p": "What time do you start work?",
+          "m": "Nói giờ bạn bắt đầu (một từ số hoặc 'nine').",
+          "h": "I start work at + giờ.",
+          "s": "I start work at nine."
+        },
+        {
+          "p": "Do you have lunch at noon?",
+          "m": "Trả lời có hoặc không.",
+          "h": "Yes, I have lunch at noon. / No, I don't.",
+          "s": "Yes, I have lunch at noon."
+        },
+        {
+          "p": "Where do you meet your team?",
+          "m": "Nói nơi gặp nhóm (ví dụ: in the meeting room).",
+          "h": "We meet in + nơi.",
+          "s": "We meet in the meeting room."
+        }
+      ]
+    },
+    {
+      "t": "Thói quen khi làm dự án",
+      "e": [
+        {
+          "p": "Do you write code every day?",
+          "m": "Trả lời có hoặc không.",
+          "h": "Yes, I write code every day. / No, I don't.",
+          "s": "No, I don't write code every day."
+        },
+        {
+          "p": "Do you check the app after work?",
+          "m": "Trả lời có hoặc không.",
+          "h": "Yes, I check the app. / No, I don't.",
+          "s": "Yes, I check the app after work."
+        },
+        {
+          "p": "What do you do in the morning at work?",
+          "m": "Nói một việc bạn làm buổi sáng (một câu đơn).",
+          "h": "I + check email / I + join meeting.",
+          "s": "I check email in the morning."
+        },
+        {
+          "p": "Do you write a report every week?",
+          "m": "Trả lời có hoặc không.",
+          "h": "Yes, I write a report every week. / No, I don't.",
+          "s": "Yes, I write a report every week."
+        },
+        {
+          "p": "Who leads the daily meeting?",
+          "m": "Nói người dẫn họp (ví dụ: the manager).",
+          "h": "The manager leads the meeting. / I lead the meeting.",
+          "s": "The manager leads the daily meeting."
+        }
+      ]
+    },
+    {
+      "t": "Kết thúc và chuyển giao công việc",
+      "e": [
+        {
+          "p": "Do you finish the task today?",
+          "m": "Trả lời có hoặc không.",
+          "h": "Yes, I finish the task today. / No, I don't.",
+          "s": "Yes, I finish the task today."
+        },
+        {
+          "p": "Who gives the task to you?",
+          "m": "Nói người giao việc (một câu đơn).",
+          "h": "The manager gives the task. / The BA gives the task.",
+          "s": "The manager gives the task."
+        },
+        {
+          "p": "Is the report ready?",
+          "m": "Trả lời có hoặc không bằng There is/There are hoặc có/không.",
+          "h": "Yes, it is ready. / No, it is not ready.",
+          "s": "No, it is not ready."
+        },
+        {
+          "p": "Do you hand over the project today?",
+          "m": "Trả lời có hoặc không.",
+          "h": "Yes, I hand over the project. / No, I don't.",
+          "s": "No, I don't hand over the project today."
+        },
+        {
+          "p": "Where do you leave the documents?",
+          "m": "Nói nơi bạn để tài liệu (ví dụ: on the desk).",
+          "h": "I leave the documents on + nơi.",
+          "s": "I leave the documents on the desk."
+        }
+      ]
+    },
+    {
+      "t": "Ôn tập: Giao tiếp cơ bản về vai trò",
+      "e": [
+        {
+          "p": "What is your name and job?",
+          "m": "Nói tên và nghề nghiệp, một câu cho mỗi thông tin (tập trung vào tên hoặc nghề, chọn một).",
+          "h": "My name is ... / I am a ...",
+          "s": "My name is [studentName]."
+        },
+        {
+          "p": "Do you work in a team now?",
+          "m": "Trả lời có hoặc không.",
+          "h": "Yes, I work in a team. / No, I don't.",
+          "s": "Yes, I work in a team."
+        },
+        {
+          "p": "Can you test and can you code?",
+          "m": "Trả lời bằng can/can't về một khả năng (chọn một khả năng để trả lời).",
+          "h": "Yes, I can. / No, I can't.",
+          "s": "Yes, I can."
+        },
+        {
+          "p": "Where is your office and where do you live?",
+          "m": "Nói một nơi (chọn office hoặc home).",
+          "h": "My office is in ... / I live in ...",
+          "s": "I live in [studentCity]."
+        },
+        {
+          "p": "How many people are in your team and do you work with BA?",
+          "m": "Nói số thành viên hoặc trả lời có/không về làm việc với BA (chọn một).",
+          "h": "There are + số. / Yes, I work with the BA.",
+          "s": "There are 5 people in my team."
+        }
+      ]
+    },
+    {
+      "t": "Ôn tập: Công việc và dự án",
+      "e": [
+        {
+          "p": "What is the project and is it a web app?",
+          "m": "Nói tên dự án hoặc trả lời có/không về web app (chọn một).",
+          "h": "The project name is ... / Yes, it is.",
+          "s": "The project name is Alpha."
+        },
+        {
+          "p": "Do you have a meeting and when do you finish work?",
+          "m": "Trả lời có/không về họp hoặc nói giờ kết thúc (chọn một).",
+          "h": "Yes, I have a meeting. / I finish work at ...",
+          "s": "I finish work at five."
+        },
+        {
+          "p": "Is there a bug and who fixes it?",
+          "m": "Trả lời có/không về lỗi hoặc nói ai sửa lỗi (chọn một).",
+          "h": "There is a bug. / The developer fixes it.",
+          "s": "There is a bug in the app."
+        },
+        {
+          "p": "Do you use a computer and where is it?",
+          "m": "Trả lời có hoặc không về việc dùng máy tính hoặc nói nơi để máy (chọn một).",
+          "h": "Yes, I use a computer. / The computer is on ...",
+          "s": "The computer is on the desk."
+        },
+        {
+          "p": "Who leads the team and do you work from home?",
+          "m": "Nói người dẫn hoặc trả lời có/không về làm ở nhà (chọn một).",
+          "h": "The manager leads the team. / No, I don't work from home.",
+          "s": "The manager leads the team."
+        }
+      ]
+    },
+    {
+      "t": "Ôn tập: Tình huống thực tế ngắn",
+      "e": [
+        {
+          "p": "A teammate asks: 'Can you help me?'",
+          "m": "Trả lời có hoặc không bằng can/can't.",
+          "h": "Yes, I can. / No, I can't.",
+          "s": "Yes, I can."
+        },
+        {
+          "p": "A manager asks: 'What time do you start?'",
+          "m": "Nói giờ bạn bắt đầu làm việc.",
+          "h": "I start work at + giờ.",
+          "s": "I start work at nine."
+        },
+        {
+          "p": "A tester says: 'There is a bug.'",
+          "m": "Trả lời có hoặc không hoặc nói ai sửa (chọn một hành động đơn giản).",
+          "h": "The developer fixes the bug. / Yes, there is a bug.",
+          "s": "The developer fixes the bug."
+        },
+        {
+          "p": "A BA asks: 'Where is the document?'",
+          "m": "Nói nơi bạn để tài liệu.",
+          "h": "I leave the documents on + nơi.",
+          "s": "I leave the documents on the desk."
+        },
+        {
+          "p": "A colleague asks: 'Do you work on weekends?'",
+          "m": "Trả lời có hoặc không.",
+          "h": "Yes, I work on weekends. / No, I don't.",
+          "s": "No, I don't work on weekends."
+        }
+      ]
+    }
+  ]
+}

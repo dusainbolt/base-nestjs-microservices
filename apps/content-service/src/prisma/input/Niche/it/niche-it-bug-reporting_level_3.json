@@ -1,0 +1,600 @@
+{
+  "l": 3,
+  "d": [
+    {
+      "t": "Phát hiện lỗi lần đầu",
+      "e": [
+        {
+          "p": "What did you notice?",
+          "m": "1. Nói rõ bạn thấy lỗi gì (1 câu). 2. Nói khi nào bạn phát hiện (1 câu). 3. Nói nơi lỗi xuất hiện (1 câu).",
+          "h": "Past Simple + where",
+          "s": "I saw the app crash and close suddenly. I noticed it yesterday afternoon. It happened on the login page."
+        },
+        {
+          "p": "When did you find that problem?",
+          "m": "1. Thời gian cụ thể bạn phát hiện (1 câu). 2. Điều bạn đã làm lúc đó (1 câu). 3. Kết quả bạn thấy (1 câu).",
+          "h": "Past Simple, then/when",
+          "s": "I found the problem this morning. I tried to upload a photo to my profile. The upload failed and showed an error message."
+        },
+        {
+          "p": "Can you tell me where it happened?",
+          "m": "1. Nói rõ màn hình hay trang (1 câu). 2. Nói thao tác bạn đã làm (1 câu). 3. Nói kết quả không đúng (1 câu).",
+          "h": "Use 'on'/'in' + Past Simple",
+          "s": "It happened on the settings page. I changed my notification preference and pressed Save. The app did not save the change."
+        },
+        {
+          "p": "Did anything unusual occur before the crash?",
+          "m": "1. Nói việc bất thường (1 câu). 2. Nói bạn có thử lại không (1 câu). 3. Nói kết quả khi thử lại (1 câu).",
+          "h": "Past Simple, and/but",
+          "s": "Yes, the screen froze for a few seconds. I tried to reopen the app. It crashed again when I opened the messages tab."
+        },
+        {
+          "p": "Can you give a short note for the log?",
+          "m": "1. Tóm tắt lỗi trong một câu (1 câu). 2. Thời điểm xảy ra (1 câu). 3. Nơi lỗi xuất hiện (1 câu).",
+          "h": "One short Past Simple sentence each",
+          "s": "App crashed when opening messages. It happened at 10:30 AM today. The crash occurred in the messages tab."
+        }
+      ]
+    },
+    {
+      "t": "Mô tả lỗi cho đồng nghiệp",
+      "e": [
+        {
+          "p": "How would you describe the bug to a teammate?",
+          "m": "1. Mô tả hành vi lỗi (1 câu). 2. Nói điều bạn mong đợi thay vì lỗi (1 câu). 3. Nêu ngắn cách tái hiện (1 câu).",
+          "h": "Use Present Simple for expectation, Past Simple for event",
+          "s": "The button did nothing when I tapped it. I expected the new page to open. To reproduce, tap the button on the home screen."
+        },
+        {
+          "p": "Can you explain what exactly failed?",
+          "m": "1. Nói phần chức năng bị hỏng (1 câu). 2. Nói lỗi hiển thị hay lỗi chức năng (1 câu). 3. Nêu bước ngắn để thấy lỗi (1 câu).",
+          "h": "Use 'was'/'were' + adjective and to + V",
+          "s": "The checkout process failed at payment. It showed an error message instead of confirming the order. Try to buy an item and enter card details to see it."
+        },
+        {
+          "p": "Do you think this is a new bug?",
+          "m": "1. Nói bạn có thấy lần đầu không (1 câu). 2. Nếu có, nói trước đó hoạt động thế nào (1 câu). 3. Nói bạn có log hay ảnh không (1 câu).",
+          "h": "Use Past Simple + 'used to' or 'before'",
+          "s": "Yes, I saw it for the first time today. Before, the feature worked and saved my changes. I have a screenshot to show the error."
+        },
+        {
+          "p": "Should we block this feature for users?",
+          "m": "1. Nói ý kiến của bạn (1 câu). 2. Giải thích lý do ngắn (1 câu). 3. Đề xuất bước tiếp theo (1 câu).",
+          "h": "Use Should + V / because / then",
+          "s": "We should disable the feature temporarily. It causes user data loss if it runs. Then the team can fix it and test again."
+        },
+        {
+          "p": "Can you write a short summary for the ticket?",
+          "m": "1. Viết tiêu đề lỗi ngắn (1 câu). 2. Nêu kết quả thực tế (1 câu). 3. Nêu kết quả mong đợi (1 câu).",
+          "h": "Past Simple + Present Simple for expectation",
+          "s": "Login button causes app crash. The app closed when I pressed Login with a blank email. The app should show a validation message instead of crashing."
+        }
+      ]
+    },
+    {
+      "t": "Ghi lại các bước tái hiện",
+      "e": [
+        {
+          "p": "Please list the steps to reproduce.",
+          "m": "1. Bắt đầu từ đâu (1 câu). 2. Các bước chính (1 câu). 3. Kết quả khi làm xong các bước (1 câu).",
+          "h": "Use imperative or Past Simple for steps",
+          "s": "Open the app and go to the profile page. Tap Edit, change your photo, and press Save. The profile did not update and showed an error."
+        },
+        {
+          "p": "How many steps did you take?",
+          "m": "1. Nêu số bước (1 câu). 2. Mô tả bước quan trọng nhất (1 câu). 3. Nói điều xảy ra sau bước đó (1 câu).",
+          "h": "Use Past Simple and number words",
+          "s": "I took three steps to reproduce it. The important step was pressing Save after changing the photo. After that the app showed a failure message."
+        },
+        {
+          "p": "Can you make the steps short for a ticket?",
+          "m": "1. Bắt đầu hành động đầu tiên (1 câu). 2. Hành động tiếp theo (1 câu). 3. Hành động cuối cùng và kết quả (1 câu).",
+          "h": "Short imperative sentences or 'Then' connectors",
+          "s": "Open Settings and select Account. Change the display name and click Save. Then the name did not change and an error appeared."
+        },
+        {
+          "p": "Did you repeat the steps?",
+          "m": "1. Nói bạn có thử lại không (1 câu). 2. Nếu có, nêu kết quả khi thử lại (1 câu). 3. Ghi khác biệt nếu có (1 câu).",
+          "h": "Use Past Simple and but/so",
+          "s": "Yes, I tried the steps twice. The app failed both times with the same error. There was no difference between the two attempts."
+        },
+        {
+          "p": "Can you add a note about timing in the steps?",
+          "m": "1. Nói mất bao lâu cho một bước chính (1 câu). 2. Nêu khi lỗi xuất hiện trong thời gian đó (1 câu). 3. Đề xuất thời gian chờ nếu cần (1 câu).",
+          "h": "Use 'took' and 'when' + Past Simple",
+          "s": "The upload step took about ten seconds. The error appeared after the progress bar finished. Try waiting fifteen seconds before retrying."
+        }
+      ]
+    },
+    {
+      "t": "Mô tả kết quả mong đợi và thực tế",
+      "e": [
+        {
+          "p": "What did you expect to happen?",
+          "m": "1. Nói kết quả mong đợi (1 câu). 2. Nói kết quả thực tế (1 câu). 3. So sánh ngắn: tốt/hỏng (1 câu).",
+          "h": "Use 'should' for expectation and Past Simple for result",
+          "s": "I expected the message to send immediately. Instead, the app showed a send error. The actual result is worse than expected."
+        },
+        {
+          "p": "Can you tell the difference between expected and actual?",
+          "m": "1. Mô tả chi tiết mong đợi (1 câu). 2. Mô tả chi tiết thực tế (1 câu). 3. Nói tại sao điều đó là vấn đề (1 câu).",
+          "h": "Comparatives and 'because'",
+          "s": "I expected the photo to upload and appear in my gallery. Actually, the photo did not upload and an error was shown. This is a problem because users cannot save new photos."
+        },
+        {
+          "p": "Should we mark this as a regression?",
+          "m": "1. Nêu ý kiến có phải regression không (1 câu). 2. Giải thích ngắn vì sao (1 câu). 3. Đề xuất kiểm tra phiên bản trước (1 câu).",
+          "h": "Use Should + because / check + Past Simple",
+          "s": "Yes, it looks like a regression. The feature worked in the previous version but fails now. We should test the older version to confirm."
+        },
+        {
+          "p": "How bad is the difference for users?",
+          "m": "1. Mô tả mức độ ảnh hưởng (1 câu). 2. Nêu số người có thể bị ảnh hưởng (1 câu). 3. Đề xuất ưu tiên sửa (1 câu).",
+          "h": "Use 'more/less' and should/must",
+          "s": "The issue is quite serious because users lose data. Many users will be affected during checkout. We should fix it with high priority."
+        },
+        {
+          "p": "Can you write a one-line expected vs actual for the ticket?",
+          "m": "1. Một câu: expected (1 câu). 2. Một câu: actual (1 câu). 3. Một câu: short impact (1 câu).",
+          "h": "Short Present Simple and Past Simple",
+          "s": "Expected: The app should save profile changes. Actual: The app failed to save and showed an error. Impact: Users cannot update their profiles."
+        }
+      ]
+    },
+    {
+      "t": "Gửi báo cáo lỗi qua email",
+      "e": [
+        {
+          "p": "Can you write a short email subject for the bug?",
+          "m": "1. Viết tiêu đề email ngắn (1 câu). 2. Nêu module/khung nơi lỗi (1 câu). 3. Nêu mức độ khẩn (1 câu).",
+          "h": "Use concise nouns and 'urgent' if needed",
+          "s": "Subject: Login crash on Android. It occurred in the Login module. Priority: urgent."
+        },
+        {
+          "p": "What details will you put in the first line?",
+          "m": "1. Mô tả ngắn lỗi (1 câu). 2. Thời gian phát hiện (1 câu). 3. Nêu hệ điều hành/phiên bản (1 câu).",
+          "h": "Past Simple + OS/version",
+          "s": "The app crashed when logging in with invalid email. I found it this morning. It happened on Android 11, app version 2.3.1."
+        },
+        {
+          "p": "How will you ask for a quick fix in the email?",
+          "m": "1. Yêu cầu sửa nhanh (1 câu). 2. Giải thích vì sao cần gấp (1 câu). 3. Đề xuất người nhận liên hệ lại (1 câu).",
+          "h": "Use 'Please' and 'because' and 'contact me'",
+          "s": "Please fix this issue quickly. It blocks user login and causes many complaints. Contact me if you need more details."
+        },
+        {
+          "p": "Should you attach logs or screenshots?",
+          "m": "1. Nói bạn có đính kèm gì (1 câu). 2. Nêu tên tệp hoặc loại ảnh (1 câu). 3. Ghi ngắn cách mở file (1 câu).",
+          "h": "Use 'I attached' and file names",
+          "s": "I attached a screenshot and the crash log. The files are screenshot1.png and crashlog.txt. Open screenshot1.png to see the error message."
+        },
+        {
+          "p": "How will you close the email?",
+          "m": "1. Lời kết ngắn (1 câu). 2. Cung cấp thời gian chờ trả lời (1 câu). 3. Nhắc người liên hệ khi cần thêm thông tin (1 câu).",
+          "h": "Use 'Please reply' and 'if you need'",
+          "s": "Thanks for your help. Please reply within one day if possible. Contact me if you need more information."
+        }
+      ]
+    },
+    {
+      "t": "Đánh giá mức độ nghiêm trọng",
+      "e": [
+        {
+          "p": "How would you rate this bug?",
+          "m": "1. Đánh giá mức độ (low/medium/high) (1 câu). 2. Giải thích ngắn vì sao (1 câu). 3. Nêu ảnh hưởng chính (1 câu).",
+          "h": "Use 'high/medium/low' and because",
+          "s": "I would rate it high. It stops users from completing purchases. The main impact is lost sales."
+        },
+        {
+          "p": "Is this issue blocking users?",
+          "m": "1. Trả lời có/không (1 câu). 2. Nếu có, nêu ví dụ ngắn (1 câu). 3. Đề xuất hành động ngay (1 câu).",
+          "h": "Use 'Yes/No' and then because/so",
+          "s": "Yes, it is blocking users. They cannot proceed to payment and finish orders. We must disable the payment button until a fix is ready."
+        },
+        {
+          "p": "Does it affect a small group or all users?",
+          "m": "1. Nói phạm vi ảnh hưởng (1 câu). 2. Nêu cơ sở (1 câu). 3. Đề xuất ưu tiên theo phạm vi (1 câu).",
+          "h": "Use 'most users'/'only some users' and because",
+          "s": "It affects most Android users. I reproduced it on different devices and accounts. We should prioritize it for all users."
+        },
+        {
+          "p": "Will it cause data loss?",
+          "m": "1. Trả lời có/không (1 câu). 2. Nêu ví dụ dữ liệu bị mất (1 câu). 3. Đề xuất lưu ý cho người dùng (1 câu).",
+          "h": "Use 'may/might' and must/should",
+          "s": "Yes, it may cause data loss. Users can lose their profile photo when saving. Users should avoid changing photos until we fix it."
+        },
+        {
+          "p": "Can this be worked around?",
+          "m": "1. Nói có cách tạm khắc phục không (1 câu). 2. Mô tả bước tạm thời (1 câu). 3. Nói ai nên biết về workaround (1 câu).",
+          "h": "Use 'You can' or 'Try' and should notify",
+          "s": "Yes, there is a workaround. You can use the web version to update your profile. Inform customer support to guide users."
+        }
+      ]
+    },
+    {
+      "t": "Đính kèm bằng chứng (ảnh/log)",
+      "e": [
+        {
+          "p": "Do you have a screenshot?",
+          "m": "1. Trả lời có/không (1 câu). 2. Mô tả ngắn nội dung ảnh (1 câu). 3. Nêu tên file hoặc cách xem (1 câu).",
+          "h": "Use 'I have' or 'I do not have' + file name",
+          "s": "Yes, I have a screenshot. It shows the error message 'Upload failed'. The file name is error_upload.png."
+        },
+        {
+          "p": "Can you attach the app log?",
+          "m": "1. Nói bạn có log không (1 câu). 2. Nêu đoạn log quan trọng ngắn (1 câu). 3. Hướng dẫn mở log (1 câu).",
+          "h": "Use 'I attached' and short quote",
+          "s": "I attached the app log. The important line is 'NullPointerException at UploadService'. Open crashlog.txt to read it."
+        },
+        {
+          "p": "Is the screenshot clear?",
+          "m": "1. Xác nhận độ rõ ràng (1 câu). 2. Mô tả phần quan trọng trong ảnh (1 câu). 3. Nếu mờ, đề xuất làm lại (1 câu).",
+          "h": "Use 'Yes/No' and 'It shows' / 'If not'",
+          "s": "Yes, the screenshot is clear. It shows the error dialog with the code 500. If needed, I can take another screenshot with a timestamp."
+        },
+        {
+          "p": "Should we include device info with screenshots?",
+          "m": "1. Trả lời có/không (1 câu). 2. Nêu thông tin cần thêm (1 câu). 3. Hướng dẫn nơi viết thông tin (1 câu).",
+          "h": "Use 'Yes' and list items with and",
+          "s": "Yes, include device info. Add device model and OS version. Put this info in the ticket description."
+        },
+        {
+          "p": "How will you name the files?",
+          "m": "1. Đề xuất tên file ngắn (1 câu). 2. Nêu format (1 câu). 3. Ghi vị trí đính kèm (1 câu).",
+          "h": "Use simple file name and extension",
+          "s": "Name the screenshot as profile_error_2026.png. Use PNG format for images. Attach files in the ticket attachments section."
+        }
+      ]
+    },
+    {
+      "t": "Yêu cầu thêm thông tin từ người dùng",
+      "e": [
+        {
+          "p": "Can you ask the user for the app version?",
+          "m": "1. Hỏi phiên bản app (1 câu). 2. Hỏi hệ điều hành (1 câu). 3. Hỏi nếu họ dùng wifi hoặc dữ liệu di động (1 câu).",
+          "h": "Use 'What is' and 'Are you using'",
+          "s": "What is your app version? Which OS are you using, Android or iOS? Are you on Wi-Fi or mobile data?"
+        },
+        {
+          "p": "Please ask the user to describe steps they took.",
+          "m": "1. Yêu cầu mô tả các bước họ làm (1 câu). 2. Hỏi có lặp lại lỗi không (1 câu). 3. Hỏi họ có log hoặc ảnh không (1 câu).",
+          "h": "Use 'Please' and Past Simple questions",
+          "s": "Please describe the steps you took before the error. Did the issue happen more than once? Do you have a screenshot or log to share?"
+        },
+        {
+          "p": "Can you request permission to access their account for testing?",
+          "m": "1. Hỏi họ có cho phép test không (1 câu). 2. Nói thời gian bạn sẽ dùng (1 câu). 3. Đưa hướng dẫn bảo mật ngắn (1 câu).",
+          "h": "Use 'Can we' and will/going to",
+          "s": "Can we access your account to test the issue? We will only use it for a short time today. Please change your password after testing for security."
+        },
+        {
+          "p": "Ask if they tried a different device.",
+          "m": "1. Hỏi họ đã thử thiết bị khác chưa (1 câu). 2. Nếu có, hỏi kết quả (1 câu). 3. Nếu chưa, hướng dẫn thử (1 câu).",
+          "h": "Use 'Did you' and 'If not, try'",
+          "s": "Did you try the feature on another device? If you did, what happened there? If not, please try on a different device and tell us the result."
+        },
+        {
+          "p": "How will you ask for a screen recording?",
+          "m": "1. Yêu cầu ghi màn hình ngắn (1 câu). 2. Hướng dẫn thời lượng tối đa (1 câu). 3. Nói cách gửi file (1 câu).",
+          "h": "Use 'Please send' and time limits",
+          "s": "Please send a short screen recording of the issue. Keep it under 30 seconds. Upload the file to the ticket or send via email."
+        }
+      ]
+    },
+    {
+      "t": "Thảo luận về môi trường và phiên bản",
+      "e": [
+        {
+          "p": "What device did you use?",
+          "m": "1. Nói tên thiết bị (1 câu). 2. Nói hệ điều hành và phiên bản (1 câu). 3. Nói phiên bản app (1 câu).",
+          "h": "Use 'I used' and 'Android/iOS' + version",
+          "s": "I used a Samsung Galaxy S10. It runs Android 11. The app version is 2.3.1."
+        },
+        {
+          "p": "Does the bug occur on the web version too?",
+          "m": "1. Trả lời có/không (1 câu). 2. Nêu kết quả trên web nếu có (1 câu). 3. Đề xuất kiểm tra thêm (1 câu).",
+          "h": "Use Yes/No and then Past Simple",
+          "s": "No, it does not occur on the web. The web version saved the changes correctly. We should test the beta app to compare."
+        },
+        {
+          "p": "Ask about network conditions.",
+          "m": "1. Hỏi họ có dùng VPN hay không (1 câu). 2. Hỏi mạng ổn định hay không (1 câu). 3. Đề nghị thử trên mạng khác (1 câu).",
+          "h": "Use 'Are you using' and 'Please try'",
+          "s": "Are you using a VPN when the error happened? Was your network stable at that time? Please try on another network and report the result."
+        },
+        {
+          "p": "Should we test on older OS versions?",
+          "m": "1. Trả lời ý kiến (1 câu). 2. Nêu phiên bản cụ thể đề xuất (1 câu). 3. Đề xuất ai sẽ test (1 câu).",
+          "h": "Use Should + V and version numbers",
+          "s": "Yes, we should test older OS versions. Test on Android 9 and Android 10. Ask the QA team to run these tests."
+        },
+        {
+          "p": "How will you record environment details in the ticket?",
+          "m": "1. Nêu các thông tin sẽ ghi (device, OS, app) (1 câu). 2. Nói format ghi (short list) (1 câu). 3. Nói vị trí trong ticket (1 câu).",
+          "h": "Use 'Include' and 'in the ticket' phrasing",
+          "s": "Include device model, OS version, and app version. Write them as a short list at the top. Put this list in the ticket environment section."
+        }
+      ]
+    },
+    {
+      "t": "Cung cấp giải pháp tạm thời (workaround)",
+      "e": [
+        {
+          "p": "Is there a quick fix for users?",
+          "m": "1. Nói có/không (1 câu). 2. Mô tả bước tạm thời (1 câu). 3. Nói ai nên biết về workaround (1 câu).",
+          "h": "Use 'Yes/No' and imperative",
+          "s": "Yes, there is a quick fix. Users can log in via the website instead of the app. Inform customer support to share this workaround."
+        },
+        {
+          "p": "How will you tell users about the workaround?",
+          "m": "1. Viết hướng dẫn ngắn cho người dùng (1 câu). 2. Nêu nơi họ có thể đọc (1 câu). 3. Đề nghị họ thử và phản hồi (1 câu).",
+          "h": "Use simple imperatives and 'please'",
+          "s": "Open the website and sign in there to avoid the app crash. Post the steps in the help center. Please try it and tell us if it works."
+        },
+        {
+          "p": "Can we make a temporary setting change?",
+          "m": "1. Trả lời có/không (1 câu). 2. Mô tả cài đặt nên thay đổi (1 câu). 3. Nêu cách hoàn nguyên sau khi sửa xong (1 câu).",
+          "h": "Use 'You can' or 'Do not' and will/going to",
+          "s": "Yes, you can disable the auto-upload setting. Change Settings > Media > Auto-upload to Off. Remember to turn it on again after the fix."
+        },
+        {
+          "p": "Who should we tell about the workaround inside the company?",
+          "m": "1. Nêu nhóm cần biết (1 câu). 2. Nói cách thông báo (1 câu). 3. Nêu nội dung tóm tắt thông báo (1 câu).",
+          "h": "Use 'Notify' and short summary",
+          "s": "Notify customer support and the QA team. Send a short message in the support channel. Summary: use web sign-in until app fix is ready."
+        },
+        {
+          "p": "How long can users use the workaround?",
+          "m": "1. Đưa khoảng thời gian tạm (1 câu). 2. Nêu rủi ro nếu dùng lâu (1 câu). 3. Đề xuất thông báo khi lỗi được sửa (1 câu).",
+          "h": "Use 'for' and should/must",
+          "s": "Use the workaround for up to one week. If used longer, users may miss new notifications. We must notify users when the bug is fixed."
+        }
+      ]
+    },
+    {
+      "t": "Xác nhận lỗi đã được sửa",
+      "e": [
+        {
+          "p": "Has the fix resolved the issue?",
+          "m": "1. Trả lời có/không (1 câu). 2. Mô tả kết quả sau sửa (1 câu). 3. Nêu bước tiếp theo (1 câu).",
+          "h": "Use Past Simple and then/so",
+          "s": "Yes, the fix resolved the issue. The app now saves profile changes correctly. Next, we should monitor for new reports."
+        },
+        {
+          "p": "Can you retest and report back?",
+          "m": "1. Nói bạn đã retest chưa (1 câu). 2. Mô tả kết quả retest (1 câu). 3. Nêu nếu vấn đề còn xuất hiện (1 câu).",
+          "h": "Use Past Simple and 'if' for follow-up",
+          "s": "I retested the feature this afternoon. The profile updated without errors. If the issue appears again, I will reopen the ticket."
+        },
+        {
+          "p": "Should we close the ticket now?",
+          "m": "1. Đưa ý kiến có đóng không (1 câu). 2. Nêu điều kiện để đóng (1 câu). 3. Nêu ai nên xác nhận trước khi đóng (1 câu).",
+          "h": "Use Should + because / if",
+          "s": "Yes, we should close the ticket if no new reports arrive. Close it after 48 hours of no incidents. The QA lead should confirm before closing."
+        },
+        {
+          "p": "How will you note the fix in the ticket?",
+          "m": "1. Viết dòng ngắn mô tả bản vá (1 câu). 2. Nêu phiên bản chứa fix (1 câu). 3. Ghi ai đã triển khai (1 câu).",
+          "h": "Use Past Simple and version numbers",
+          "s": "Fixed: Prevented crash when saving profile. The fix is in app version 2.3.2. Deployment was done by the backend team."
+        },
+        {
+          "p": "Can you tell users the fix is live?",
+          "m": "1. Viết câu thông báo cho người dùng (1 câu). 2. Nêu hành động họ nên làm (1 câu). 3. Mời họ phản hồi nếu còn lỗi (1 câu).",
+          "h": "Use Present Simple and imperatives",
+          "s": "The issue is fixed in the latest app update. Please update the app and try again. Tell us if you still experience any problems."
+        }
+      ]
+    },
+    {
+      "t": "Lên kế hoạch kiểm tra lại (retest)",
+      "e": [
+        {
+          "p": "When will you retest the fix?",
+          "m": "1. Nêu thời gian bạn sẽ kiểm tra lại (1 câu). 2. Nêu các bước ngắn bạn sẽ thử (1 câu). 3. Nêu ai sẽ giúp nếu cần (1 câu).",
+          "h": "Use 'I will' or 'We will' + time",
+          "s": "I will retest tomorrow morning. I will change the profile photo, save, and check for errors. The QA team will help if needed."
+        },
+        {
+          "p": "What test cases will you run?",
+          "m": "1. Liệt kê 2-3 trường hợp kiểm tra (1 câu). 2. Nêu dữ liệu bạn dùng (1 câu). 3. Nêu kỳ vọng cho mỗi case (1 câu).",
+          "h": "Use simple commas to list cases and Present Simple for expectation",
+          "s": "Test cases: upload photo, change name, and toggle notifications. I will use account A with a small photo file. Each action should complete without errors."
+        },
+        {
+          "p": "How long should we monitor after the fix?",
+          "m": "1. Đưa khoảng thời gian giám sát (1 câu). 2. Nêu cách thu thập báo cáo (1 câu). 3. Nêu ai báo cáo tổng hợp (1 câu).",
+          "h": "Use 'for' and 'collect' and 'report to'",
+          "s": "Monitor for three days after the fix. Collect user reports in the support channel. The QA lead will report the summary."
+        },
+        {
+          "p": "Should we add automated tests?",
+          "m": "1. Trả lời có/không (1 câu). 2. Nêu loại test ngắn (1 câu). 3. Nêu người làm test (1 câu).",
+          "h": "Use 'Yes/No' and 'add' + noun",
+          "s": "Yes, we should add automated tests. Add a UI test for saving profile changes. The automation team will create these tests."
+        },
+        {
+          "p": "Where will you record retest results?",
+          "m": "1. Nêu nơi ghi kết quả (ticket, doc...) (1 câu). 2. Nêu thông tin cần có trong báo cáo (1 câu). 3. Nêu format ngắn (1 câu).",
+          "h": "Use 'Record' and short list",
+          "s": "Record results in the ticket comments and the test document. Include steps, device, and result for each test. Use a short table format with pass/fail."
+        }
+      ]
+    },
+    {
+      "t": "Giao tiếp với nhóm phát triển",
+      "e": [
+        {
+          "p": "Can you tell the dev what you observed?",
+          "m": "1. Mô tả hành vi lỗi ngắn (1 câu). 2. Nêu log hoặc mã lỗi nếu có (1 câu). 3. Nêu môi trường tái hiện (1 câu).",
+          "h": "Use Past Simple and file names",
+          "s": "The app crashed when saving profile changes. The log shows 'NullPointerException'. Reproduction environment: Android 11, app v2.3.1."
+        },
+        {
+          "p": "Ask the dev if they need more info.",
+          "m": "1. Hỏi họ có cần gì thêm không (1 câu). 2. Nêu bạn có thể cung cấp gì (1 câu). 3. Hỏi thời gian ước tính sửa (1 câu).",
+          "h": "Use 'Do you need' and 'I can provide' and 'How long will'",
+          "s": "Do you need any more information to debug this? I can provide logs and screen recordings. How long will the fix take?"
+        },
+        {
+          "p": "How will you prioritize this with devs?",
+          "m": "1. Đề xuất mức ưu tiên (1 câu). 2. Giải thích vì sao ngắn (1 câu). 3. Nêu deadline đề xuất (1 câu).",
+          "h": "Use 'We should' and because and date/time",
+          "s": "We should prioritize this as high. It affects user payments and causes revenue loss. Please target a fix by end of this week."
+        },
+        {
+          "p": "Can you confirm the cause if you know it?",
+          "m": "1. Nếu biết, nêu nguyên nhân ngắn (1 câu). 2. Nêu file hoặc module liên quan (1 câu). 3. Nêu khuyến nghị sửa nhanh (1 câu).",
+          "h": "Use Past Simple for discovered cause",
+          "s": "The cause seems to be a null value in user data. It is in the UploadService module. I recommend adding a null check and retry logic."
+        },
+        {
+          "p": "How will you update the ticket after dev fixes code?",
+          "m": "1. Nêu bạn sẽ làm gì sau khi dev báo xong (1 câu). 2. Nêu ai sẽ test (1 câu). 3. Nêu khi nào đóng ticket (1 câu).",
+          "h": "Use Future Simple 'will' and then/after",
+          "s": "After devs fix the code, I will run retests and add results to the ticket. The QA team will perform testing. We will close the ticket after 48 hours with no issues."
+        }
+      ]
+    },
+    {
+      "t": "Theo dõi và cập nhật trạng thái",
+      "e": [
+        {
+          "p": "Can you give a status update?",
+          "m": "1. Nêu trạng thái hiện tại (1 câu). 2. Nêu việc đã làm gần nhất (1 câu). 3. Nêu bước tiếp theo (1 câu).",
+          "h": "Use Present Simple and Past Simple",
+          "s": "Current status: in progress. I reported logs to the dev team. Next, QA will retest after the fix."
+        },
+        {
+          "p": "How will you inform stakeholders about progress?",
+          "m": "1. Nêu kênh thông báo (1 câu). 2. Nêu nội dung tóm tắt ngắn (1 câu). 3. Nêu tần suất cập nhật (1 câu).",
+          "h": "Use 'We will' and simple nouns",
+          "s": "We will inform stakeholders via email and Slack. Summary: bug identified, fix in progress. Provide daily updates until resolution."
+        },
+        {
+          "p": "What will you do if the fix is delayed?",
+          "m": "1. Nêu hành động bạn sẽ làm (1 câu). 2. Nêu thông báo cho ai (1 câu). 3. Nêu giải pháp tạm thời nếu có (1 câu).",
+          "h": "Use 'If' and 'will' + should/must",
+          "s": "If the fix is delayed, I will escalate to the product manager. I will notify customer support. We will provide the temporary workaround to users."
+        },
+        {
+          "p": "Can you log the time you spent on this ticket?",
+          "m": "1. Nêu thời gian bạn đã làm (1 câu). 2. Nêu các hoạt động chính bạn làm (1 câu). 3. Nêu bạn sẽ tiếp tục bao lâu nữa (1 câu).",
+          "h": "Use Past Simple and 'I will' for future",
+          "s": "I spent two hours on this ticket today. I reproduced the bug, collected logs, and contacted devs. I will spend another hour tomorrow for retesting."
+        },
+        {
+          "p": "How will you close the communication after fix?",
+          "m": "1. Nêu câu ngắn bạn sẽ gửi cho user (1 câu). 2. Nêu bạn sẽ làm gì trong ticket (1 câu). 3. Nêu việc cần làm sau khi đóng (1 câu).",
+          "h": "Use Present Simple and 'will' future",
+          "s": "We fixed the issue and it is now live; please update your app. I will add the final result to the ticket. After closing, monitor support for any new reports."
+        }
+      ]
+    },
+    {
+      "t": "Ôn tập: Viết báo cáo lỗi đầy đủ",
+      "e": [
+        {
+          "p": "Write a complete bug report summary.",
+          "m": "1. Viết tiêu đề ngắn (1 câu). 2. Viết mô tả ngắn gồm expected vs actual (1 câu). 3. Nêu các bước tái hiện tóm tắt (1 câu).",
+          "h": "Use Past Simple for actual and 'should' for expected",
+          "s": "Title: Crash on saving profile. Expected: The app should save changes; Actual: The app crashed and did not save. Steps: Open profile, change photo, press Save to reproduce."
+        },
+        {
+          "p": "Add environment and attachments to the report.",
+          "m": "1. Ghi thiết bị/OS/app version (1 câu). 2. Ghi tên file ảnh/log đính kèm (1 câu). 3. Ghi mức độ ưu tiên (1 câu).",
+          "h": "Use short list style sentences",
+          "s": "Environment: Samsung Galaxy S10, Android 11, app v2.3.1. Attachments: screenshot1.png, crashlog.txt. Priority: High."
+        },
+        {
+          "p": "Include reproduction steps in one line.",
+          "m": "1. Viết bước 1 (1 câu). 2. Viết bước 2 (1 câu). 3. Viết bước 3 và kết quả (1 câu).",
+          "h": "Imperatives or short phrases",
+          "s": "Step 1: Open the app and go to Profile. Step 2: Change the profile photo and click Save. Step 3: App crashes and shows an error."
+        },
+        {
+          "p": "Suggest a short fix or cause.",
+          "m": "1. Nêu nguyên nhân khả dĩ (1 câu). 2. Đề xuất thay đổi mã ngắn (1 câu). 3. Nêu ai nên làm việc này (1 câu).",
+          "h": "Use 'seems to' and 'should' + V",
+          "s": "The cause seems to be a null pointer when saving images. The code should check for null before upload. The backend team should implement this change."
+        },
+        {
+          "p": "Finish the report with next steps.",
+          "m": "1. Nêu hành động tiếp theo (1 câu). 2. Nêu ai theo dõi (1 câu). 3. Nêu khi nào đóng ticket (1 câu).",
+          "h": "Use 'Next' and 'will' and 'after'",
+          "s": "Next: Devs will implement a fix and QA will retest. QA lead will follow the retest. Close the ticket after 48 hours with no new incidents."
+        }
+      ]
+    },
+    {
+      "t": "Ôn tập: Hỏi đáp với người dùng",
+      "e": [
+        {
+          "p": "Ask the user for basic error details.",
+          "m": "1. Hỏi lỗi xảy ra khi làm gì (1 câu). 2. Hỏi họ thấy thông báo nào (1 câu). 3. Hỏi họ có ảnh hay không (1 câu).",
+          "h": "Use 'What' and 'Did you see' questions",
+          "s": "What were you doing when the error happened? Did you see any error message or code? Do you have a screenshot to share?"
+        },
+        {
+          "p": "Confirm time and frequency with the user.",
+          "m": "1. Hỏi khi nào lỗi xuất hiện (1 câu). 2. Hỏi lỗi lặp lại hay chỉ 1 lần (1 câu). 3. Hỏi họ có thay đổi gì trước đó (1 câu).",
+          "h": "Use 'When' and 'Did it happen' and 'Did you change'",
+          "s": "When did the issue occur? Did it happen more than once or only once? Did you change any settings before it happened?"
+        },
+        {
+          "p": "Ask for permission to access more info.",
+          "m": "1. Hỏi có thể dùng tài khoản họ để test không (1 câu). 2. Nêu cam kết bảo mật ngắn (1 câu). 3. Hỏi họ có sẵn logs hay không (1 câu).",
+          "h": "Use 'Can we' and 'We will' promises",
+          "s": "Can we access your account briefly to reproduce the issue? We will only use it for testing and keep it secure. Do you have any logs to share?"
+        },
+        {
+          "p": "Offer the workaround to the user.",
+          "m": "1. Nêu workaround ngắn (1 câu). 2. Nêu lợi ích của workaround (1 câu). 3. Hỏi họ có muốn thử không (1 câu).",
+          "h": "Use 'You can' and simple benefits",
+          "s": "You can use the web version to avoid the app crash. This lets you complete actions until we fix the app. Would you like to try this now?"
+        },
+        {
+          "p": "Close the conversation politely.",
+          "m": "1. Cảm ơn họ (1 câu). 2. Nêu thời gian chờ trả lời hoặc fix (1 câu). 3. Mời họ liên hệ lại nếu còn vấn đề (1 câu).",
+          "h": "Use 'Thank you' and 'Please contact' phrases",
+          "s": "Thank you for reporting the issue. We expect a fix within two days. Please contact us again if the problem continues."
+        }
+      ]
+    },
+    {
+      "t": "Ôn tập: Giao tiếp với nhóm phát triển",
+      "e": [
+        {
+          "p": "Summarize the bug and priority for devs.",
+          "m": "1. Viết một câu tóm tắt bug (1 câu). 2. Ghi mức ưu tiên (1 câu). 3. Nêu đặt mục tiêu thời gian sửa (1 câu).",
+          "h": "Use short Present/Past Simple and 'Priority'",
+          "s": "Summary: App crashes when saving profile changes. Priority: High. Target: fix by end of this week."
+        },
+        {
+          "p": "Ask devs if they need test data.",
+          "m": "1. Hỏi họ có cần dữ liệu test không (1 câu). 2. Nêu bạn có thể cung cấp loại nào (1 câu). 3. Hỏi cách họ muốn nhận dữ liệu (1 câu).",
+          "h": "Use 'Do you need' and 'I can provide' and 'How do you want'",
+          "s": "Do you need test data for debugging? I can provide sample accounts and replay logs. How do you want me to send them?"
+        },
+        {
+          "p": "Confirm who will fix and who will test.",
+          "m": "1. Hỏi ai chịu trách nhiệm sửa (1 câu). 2. Hỏi ai sẽ test sau sửa (1 câu). 3. Nêu bạn sẽ làm gì (1 câu).",
+          "h": "Use 'Who will' and 'I will' statements",
+          "s": "Who will be responsible for the fix? Who will perform QA testing afterwards? I will retest and update the ticket."
+        },
+        {
+          "p": "Provide a short reproduction log for devs.",
+          "m": "1. Viết một câu log chính (1 câu). 2. Ghi mã lỗi nếu có (1 câu). 3. Nêu file log đính kèm (1 câu).",
+          "h": "Quote log line and file name",
+          "s": "Reproduction log: NullPointerException at UploadService.handleSave. Error code: 500. Attached file: crashlog.txt."
+        },
+        {
+          "p": "Close the loop after the fix.",
+          "m": "1. Nói bạn đã test và kết luận (1 câu). 2. Nêu bạn đã cập nhật ticket (1 câu). 3. Mời devs kiểm tra nếu cần thêm (1 câu).",
+          "h": "Use Past Simple and 'I have' statements",
+          "s": "I tested the fix and the bug is resolved. I updated the ticket with test results. Please check if you need additional changes."
+        }
+      ]
+    }
+  ]
+}

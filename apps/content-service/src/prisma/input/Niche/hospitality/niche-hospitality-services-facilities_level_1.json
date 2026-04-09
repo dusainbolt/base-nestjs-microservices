@@ -1,0 +1,530 @@
+{
+  "l": 1,
+  "d": [
+    {
+      "t": "Đặt phòng nhanh",
+      "e": [
+        {
+          "p": "Do you want a room with breakfast?",
+          "m": "Trả lời có hoặc không và nói nếu bạn muốn bữa sáng.",
+          "h": "Yes, I want / No, I don't want",
+          "s": "Yes, I want breakfast."
+        },
+        {
+          "p": "Do you need free wifi?",
+          "m": "Nói có hoặc không nếu bạn cần wifi miễn phí.",
+          "h": "Yes, I need / No, I don't need",
+          "s": "Yes, I need free wifi."
+        },
+        {
+          "p": "How many beds do you want?",
+          "m": "Nói số giường bạn cần (một câu).",
+          "h": "I want + number + bed(s)",
+          "s": "I want one bed."
+        },
+        {
+          "p": "Do you need parking for your car?",
+          "m": "Nói nếu bạn có xe và cần chỗ đỗ.",
+          "h": "I have a car and I need / I don't need",
+          "s": "I have a car and I need parking."
+        },
+        {
+          "p": "What time do you arrive?",
+          "m": "Nói thời gian bạn đến (sử dụng nói chung: morning/afternoon/night hoặc giờ).",
+          "h": "I arrive in the morning / at + time",
+          "s": "I arrive in the morning."
+        }
+      ]
+    },
+    {
+      "t": "Hỏi về wifi",
+      "e": [
+        {
+          "p": "Is the wifi free?",
+          "m": "Trả lời có hoặc không về wifi miễn phí.",
+          "h": "Yes, it is / No, it isn't",
+          "s": "Yes, the wifi is free."
+        },
+        {
+          "p": "What is the wifi name?",
+          "m": "Nói tên wifi (một cụm từ ngắn).",
+          "h": "The wifi name is + name",
+          "s": "The wifi name is Hotel_Wifi."
+        },
+        {
+          "p": "Can I use wifi in my room?",
+          "m": "Nói có hoặc không nếu wifi hoạt động trong phòng.",
+          "h": "Yes, you can / No, you can't",
+          "s": "Yes, you can use wifi in your room."
+        },
+        {
+          "p": "How many devices can I use?",
+          "m": "Nói số thiết bị bạn có thể dùng (một câu).",
+          "h": "You can use + number + devices",
+          "s": "You can use two devices."
+        },
+        {
+          "p": "Where is the wifi password?",
+          "m": "Nói nơi để lấy mật khẩu wifi.",
+          "h": "The wifi password is + place",
+          "s": "The wifi password is at the reception desk."
+        }
+      ]
+    },
+    {
+      "t": "Giờ ăn sáng",
+      "e": [
+        {
+          "p": "What time is breakfast?",
+          "m": "Nói giờ ăn sáng (một câu ngắn).",
+          "h": "Breakfast is at + time / in the morning",
+          "s": "Breakfast is at 7 am."
+        },
+        {
+          "p": "Is breakfast free?",
+          "m": "Trả lời có hoặc không về bữa sáng miễn phí.",
+          "h": "Yes, it is / No, it isn't",
+          "s": "No, breakfast is not free."
+        },
+        {
+          "p": "Do you like the breakfast?",
+          "m": "Nói nếu bạn thích bữa sáng (có hoặc không).",
+          "h": "I like / I don't like",
+          "s": "I like the breakfast."
+        },
+        {
+          "p": "What do you eat for breakfast?",
+          "m": "Nói một món bạn ăn sáng (một từ).",
+          "h": "I eat + food",
+          "s": "I eat bread."
+        },
+        {
+          "p": "Can I have breakfast in my room?",
+          "m": "Trả lời có hoặc không nếu bạn có thể ăn sáng trong phòng.",
+          "h": "Yes, you can / No, you can't",
+          "s": "Yes, you can have breakfast in your room."
+        }
+      ]
+    },
+    {
+      "t": "Hỏi về hồ bơi",
+      "e": [
+        {
+          "p": "Is the pool open now?",
+          "m": "Trả lời có hoặc không nếu hồ bơi đang mở.",
+          "h": "Yes, it is / No, it isn't",
+          "s": "Yes, the pool is open now."
+        },
+        {
+          "p": "Where is the pool?",
+          "m": "Nói vị trí ngắn gọn của hồ bơi.",
+          "h": "The pool is + place",
+          "s": "The pool is on the second floor."
+        },
+        {
+          "p": "Can children use the pool?",
+          "m": "Trả lời có hoặc không nếu trẻ em được dùng hồ bơi.",
+          "h": "Yes, children can / No, children can't",
+          "s": "Yes, children can use the pool."
+        },
+        {
+          "p": "Do you need a towel for the pool?",
+          "m": "Nói có hoặc không nếu bạn cần khăn.",
+          "h": "I need / I don't need",
+          "s": "I need a towel."
+        },
+        {
+          "p": "What time does the pool close?",
+          "m": "Nói giờ đóng cửa hồ bơi (một câu).",
+          "h": "It closes at + time",
+          "s": "The pool closes at 9 pm."
+        }
+      ]
+    },
+    {
+      "t": "Dịch vụ phòng",
+      "e": [
+        {
+          "p": "Do you want room service?",
+          "m": "Nói có hoặc không nếu bạn muốn dịch vụ phòng.",
+          "h": "Yes, I want / No, I don't want",
+          "s": "No, I don't want room service."
+        },
+        {
+          "p": "What do you order?",
+          "m": "Nói một món bạn gọi (một từ).",
+          "h": "I want + food/drink",
+          "s": "I want tea."
+        },
+        {
+          "p": "How many items do you need?",
+          "m": "Nói số món bạn cần (một câu).",
+          "h": "I need + number + items",
+          "s": "I need two items."
+        },
+        {
+          "p": "Can you pay now?",
+          "m": "Trả lời có hoặc không nếu bạn trả ngay.",
+          "h": "Yes, I can / No, I can't",
+          "s": "Yes, I can pay now."
+        },
+        {
+          "p": "Where do you leave the room key?",
+          "m": "Nói nơi bạn để chìa khóa (một câu).",
+          "h": "I leave it on/in + place",
+          "s": "I leave the key on the table."
+        }
+      ]
+    },
+    {
+      "t": "Tiện nghi trong phòng",
+      "e": [
+        {
+          "p": "Is there a TV in the room?",
+          "m": "Trả lời có hoặc không nếu có TV trong phòng.",
+          "h": "There is / There is not",
+          "s": "Yes, there is a TV in the room."
+        },
+        {
+          "p": "Do you have a small fridge?",
+          "m": "Nói có hoặc không nếu bạn có tủ lạnh nhỏ.",
+          "h": "I have / I don't have",
+          "s": "I don't have a small fridge."
+        },
+        {
+          "p": "Is the shower hot?",
+          "m": "Trả lời có hoặc không nếu vòi sen có nước nóng.",
+          "h": "It is / It is not",
+          "s": "The shower is hot."
+        },
+        {
+          "p": "Can you use the air conditioner?",
+          "m": "Trả lời có hoặc không nếu bạn có thể dùng máy lạnh.",
+          "h": "You can / You can't",
+          "s": "Yes, you can use the air conditioner."
+        },
+        {
+          "p": "Where is the extra blanket?",
+          "m": "Nói nơi để chăn phụ (một câu).",
+          "h": "It is in/on + place",
+          "s": "The extra blanket is in the closet."
+        }
+      ]
+    },
+    {
+      "t": "An ninh và thẻ phòng",
+      "e": [
+        {
+          "p": "Do you have your room key?",
+          "m": "Trả lời có hoặc không nếu bạn có chìa khóa phòng.",
+          "h": "I have / I don't have",
+          "s": "Yes, I have my room key."
+        },
+        {
+          "p": "Is your door locked?",
+          "m": "Trả lời có hoặc không nếu cửa bạn đã khóa.",
+          "h": "It is / It is not",
+          "s": "Yes, my door is locked."
+        },
+        {
+          "p": "Can I get a new key?",
+          "m": "Trả lời có hoặc không nếu bạn có thể nhận chìa khóa mới.",
+          "h": "Yes, you can / No, you can't",
+          "s": "Yes, you can get a new key at the desk."
+        },
+        {
+          "p": "Where do you keep your key?",
+          "m": "Nói nơi bạn để chìa khóa (một câu).",
+          "h": "I keep it in/on + place",
+          "s": "I keep it in my bag."
+        },
+        {
+          "p": "Do you need help with the key?",
+          "m": "Nói có hoặc không nếu bạn cần giúp về chìa khóa.",
+          "h": "Yes, I need / No, I don't need",
+          "s": "No, I don't need help with the key."
+        }
+      ]
+    },
+    {
+      "t": "Phòng tập và thể dục",
+      "e": [
+        {
+          "p": "Is there a gym in the hotel?",
+          "m": "Trả lời có hoặc không nếu khách sạn có phòng tập.",
+          "h": "There is / There is not",
+          "s": "Yes, there is a gym in the hotel."
+        },
+        {
+          "p": "What time is the gym open?",
+          "m": "Nói giờ mở cửa phòng tập (một câu).",
+          "h": "The gym is open at + time",
+          "s": "The gym is open at 6 am."
+        },
+        {
+          "p": "Can you use the gym now?",
+          "m": "Trả lời có hoặc không nếu bạn có thể dùng phòng tập ngay.",
+          "h": "Yes, I can / No, I can't",
+          "s": "Yes, I can use the gym now."
+        },
+        {
+          "p": "Do you bring gym shoes?",
+          "m": "Nói có hoặc không nếu bạn mang giày tập.",
+          "h": "I bring / I don't bring",
+          "s": "I bring gym shoes."
+        },
+        {
+          "p": "Do you want a short class?",
+          "m": "Nói có hoặc không nếu bạn muốn một lớp ngắn.",
+          "h": "I want / I don't want",
+          "s": "No, I don't want a class."
+        }
+      ]
+    },
+    {
+      "t": "Giặt ủi",
+      "e": [
+        {
+          "p": "Do you need laundry service?",
+          "m": "Trả lời có hoặc không nếu bạn cần giặt ủi.",
+          "h": "Yes, I need / No, I don't",
+          "s": "Yes, I need laundry service."
+        },
+        {
+          "p": "How many shirts do you have?",
+          "m": "Nói số áo bạn có (một câu).",
+          "h": "I have + number + shirts",
+          "s": "I have three shirts."
+        },
+        {
+          "p": "Can you wait one day?",
+          "m": "Trả lời có hoặc không nếu bạn có thể chờ một ngày.",
+          "h": "Yes, I can / No, I can't",
+          "s": "Yes, I can wait one day."
+        },
+        {
+          "p": "Where do you leave the clothes?",
+          "m": "Nói nơi bạn để quần áo để giặt (một câu).",
+          "h": "I leave them in/on + place",
+          "s": "I leave the clothes in the bag."
+        },
+        {
+          "p": "Do you pay now or later?",
+          "m": "Nói bạn trả bây giờ hay sau (chọn một).",
+          "h": "I pay now / I pay later",
+          "s": "I pay later."
+        }
+      ]
+    },
+    {
+      "t": "Bãi đỗ xe",
+      "e": [
+        {
+          "p": "Is parking free?",
+          "m": "Trả lời có hoặc không nếu bãi đỗ miễn phí.",
+          "h": "Yes, it is / No, it isn't",
+          "s": "No, parking is not free."
+        },
+        {
+          "p": "Where do I park my car?",
+          "m": "Nói vị trí bạn đậu xe (một câu ngắn).",
+          "h": "You park at + place",
+          "s": "You park at the hotel parking."
+        },
+        {
+          "p": "Do you need a parking space?",
+          "m": "Nói có hoặc không nếu bạn cần chỗ đậu.",
+          "h": "I need / I don't need",
+          "s": "I need a parking space."
+        },
+        {
+          "p": "Can I leave the car here all day?",
+          "m": "Trả lời có hoặc không nếu bạn được để xe cả ngày.",
+          "h": "Yes, you can / No, you can't",
+          "s": "Yes, you can leave the car here all day."
+        },
+        {
+          "p": "How much is parking per day?",
+          "m": "Nói giá đậu xe mỗi ngày (một câu).",
+          "h": "It is + number + dollars",
+          "s": "Parking is five dollars per day."
+        }
+      ]
+    },
+    {
+      "t": "Yêu cầu thêm đồ dùng",
+      "e": [
+        {
+          "p": "Do you need an extra towel?",
+          "m": "Trả lời có hoặc không nếu bạn cần khăn thêm.",
+          "h": "Yes, I need / No, I don't",
+          "s": "Yes, I need an extra towel."
+        },
+        {
+          "p": "How many pillows do you want?",
+          "m": "Nói số gối bạn muốn (một câu).",
+          "h": "I want + number + pillows",
+          "s": "I want two pillows."
+        },
+        {
+          "p": "Can you bring a small fan?",
+          "m": "Trả lời có hoặc không nếu bạn muốn quạt nhỏ.",
+          "h": "Yes, please bring / No, I don't need",
+          "s": "Yes, please bring a small fan."
+        },
+        {
+          "p": "Where do you want the extra towel?",
+          "m": "Nói nơi bạn muốn để khăn thêm (một câu).",
+          "h": "I want it on/in + place",
+          "s": "I want it on the bed."
+        },
+        {
+          "p": "Do you need a baby cot?",
+          "m": "Trả lời có hoặc không nếu bạn cần cũi cho em bé.",
+          "h": "Yes, I need / No, I don't need",
+          "s": "No, I don't need a baby cot."
+        }
+      ]
+    },
+    {
+      "t": "Phản ánh vấn đề nhỏ",
+      "e": [
+        {
+          "p": "Is the shower working?",
+          "m": "Trả lời có hoặc không nếu vòi sen đang hoạt động.",
+          "h": "Yes, it is / No, it isn't",
+          "s": "No, the shower is not working."
+        },
+        {
+          "p": "Do you have hot water?",
+          "m": "Trả lời có hoặc không nếu bạn có nước nóng.",
+          "h": "I have / I don't have",
+          "s": "I don't have hot water."
+        },
+        {
+          "p": "Can we fix the light now?",
+          "m": "Trả lời có hoặc không nếu có thể sửa đèn ngay.",
+          "h": "Yes, you can / No, you can't",
+          "s": "Yes, you can fix the light now."
+        },
+        {
+          "p": "Where is the leak?",
+          "m": "Nói vị trí rò nước (một câu).",
+          "h": "It is in/on + place",
+          "s": "The leak is in the bathroom."
+        },
+        {
+          "p": "Do you want a new room?",
+          "m": "Trả lời có hoặc không nếu bạn muốn đổi phòng.",
+          "h": "Yes, I want / No, I don't",
+          "s": "Yes, I want a new room."
+        }
+      ]
+    },
+    {
+      "t": "Ôn tập: Hỏi‑đáp nhanh về tiện nghi",
+      "e": [
+        {
+          "p": "Do you have free water?",
+          "m": "Trả lời có hoặc không nếu có nước miễn phí.",
+          "h": "Yes, we have / No, we do not",
+          "s": "Yes, we have free water."
+        },
+        {
+          "p": "Where is breakfast?",
+          "m": "Nói nơi ăn sáng ngắn gọn.",
+          "h": "It is in + place",
+          "s": "Breakfast is in the dining room."
+        },
+        {
+          "p": "Can I swim now?",
+          "m": "Trả lời có hoặc không nếu bạn có thể bơi ngay.",
+          "h": "Yes, you can / No, you can't",
+          "s": "No, you can't swim now."
+        },
+        {
+          "p": "Is there a safe in the room?",
+          "m": "Trả lời có hoặc không nếu có két an toàn trong phòng.",
+          "h": "There is / There is not",
+          "s": "Yes, there is a safe in the room."
+        },
+        {
+          "p": "How much is a towel?",
+          "m": "Nói giá một chiếc khăn (một câu ngắn).",
+          "h": "It is + number + dollars",
+          "s": "A towel is two dollars."
+        }
+      ]
+    },
+    {
+      "t": "Ôn tập: Xử lý yêu cầu",
+      "e": [
+        {
+          "p": "Can you pick up my laundry?",
+          "m": "Trả lời có hoặc không nếu khách sạn có thể nhận đồ giặt.",
+          "h": "Yes, we can / No, we cannot",
+          "s": "Yes, we can pick up your laundry."
+        },
+        {
+          "p": "Do you want food now?",
+          "m": "Trả lời có hoặc không nếu bạn muốn ăn ngay.",
+          "h": "Yes, I want / No, I don't",
+          "s": "Yes, I want food now."
+        },
+        {
+          "p": "Where is your car key?",
+          "m": "Nói nơi bạn để chìa khóa xe (một câu).",
+          "h": "It is in/on + place",
+          "s": "The car key is in my bag."
+        },
+        {
+          "p": "Do you have a child with you?",
+          "m": "Trả lời có hoặc không nếu bạn có trẻ em đi cùng.",
+          "h": "I have / I don't have",
+          "s": "No, I don't have a child with me."
+        },
+        {
+          "p": "Can you pay by card?",
+          "m": "Trả lời có hoặc không nếu bạn có thể trả bằng thẻ.",
+          "h": "Yes, I can / No, I can't",
+          "s": "Yes, I can pay by card."
+        }
+      ]
+    },
+    {
+      "t": "Ôn tập: Vấn đề và giải pháp",
+      "e": [
+        {
+          "p": "Is the air warm?",
+          "m": "Trả lời có hoặc không nếu không khí ấm.",
+          "h": "It is / It is not",
+          "s": "No, the air is not warm."
+        },
+        {
+          "p": "Can we move you to a new room now?",
+          "m": "Trả lời có hoặc không nếu bạn muốn chuyển phòng ngay.",
+          "h": "Yes, please / No, thank you",
+          "s": "Yes, please move me to a new room now."
+        },
+        {
+          "p": "What do you need?",
+          "m": "Nói một thứ bạn cần (một từ).",
+          "h": "I need + item",
+          "s": "I need my bag."
+        },
+        {
+          "p": "Do you want a towel or a new key?",
+          "m": "Chọn một: khăn hoặc chìa khóa mới (một câu).",
+          "h": "I want + towel / new key",
+          "s": "I want a towel."
+        },
+        {
+          "p": "Is the problem small?",
+          "m": "Trả lời có hoặc không nếu vấn đề nhỏ.",
+          "h": "Yes, it is / No, it is not",
+          "s": "Yes, the problem is small."
+        }
+      ]
+    }
+  ]
+}

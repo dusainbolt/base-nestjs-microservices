@@ -1,0 +1,530 @@
+{
+  "l": 1,
+  "d": [
+    {
+      "t": "Kiểm tra đơn hàng mới",
+      "e": [
+        {
+          "p": "Did you get your order?",
+          "m": "Nói rằng bạn chưa nhận hàng.",
+          "h": "I do not have / I do not have the order",
+          "s": "I do not have the order yet."
+        },
+        {
+          "p": "Is the product OK?",
+          "m": "Nói rằng sản phẩm tốt.",
+          "h": "S + be + adj",
+          "s": "The product is good."
+        },
+        {
+          "p": "Do you need help with setup?",
+          "m": "Nói rằng bạn cần giúp.",
+          "h": "I need + noun / I need + to + verb",
+          "s": "I need help."
+        },
+        {
+          "p": "Does it work well now?",
+          "m": "Nói rằng sản phẩm hoạt động tốt.",
+          "h": "It + V(s) + adverb",
+          "s": "It works well."
+        },
+        {
+          "p": "Can I call you to help?",
+          "m": "Nói rằng bạn đồng ý được gọi.",
+          "h": "Yes, you can... / No, you cannot...",
+          "s": "Yes, you can call me."
+        }
+      ]
+    },
+    {
+      "t": "Hẹn lịch bảo trì",
+      "e": [
+        {
+          "p": "When is a good time to call you?",
+          "m": "Nói một thời điểm đơn giản (sáng/chiều/tối).",
+          "h": "Use: morning / afternoon / night",
+          "s": "In the morning."
+        },
+        {
+          "p": "Can you come to the shop tomorrow?",
+          "m": "Nói rằng bạn không thể tới cửa hàng.",
+          "h": "I cannot / I can't + V",
+          "s": "I cannot come to the shop."
+        },
+        {
+          "p": "Do you want a technician visit?",
+          "m": "Nói rằng bạn muốn người đến nhà.",
+          "h": "I want + noun / I want + someone to + V",
+          "s": "I want someone to come."
+        },
+        {
+          "p": "Which day is OK for you?",
+          "m": "Nói rằng thứ Hai là được.",
+          "h": "Say a day name or 'Monday is ok'",
+          "s": "Monday is ok."
+        },
+        {
+          "p": "Do you need a reminder call?",
+          "m": "Nói rằng bạn cần nhắc nhở.",
+          "h": "I need / I do not need",
+          "s": "I need a reminder."
+        }
+      ]
+    },
+    {
+      "t": "Hỏi về hài lòng dịch vụ",
+      "e": [
+        {
+          "p": "Are you happy with our service?",
+          "m": "Nói rằng bạn hài lòng.",
+          "h": "I am + adj",
+          "s": "I am happy with the service."
+        },
+        {
+          "p": "Is the price OK for you?",
+          "m": "Nói rằng giá hợp lý.",
+          "h": "The price + be + adj",
+          "s": "The price is good."
+        },
+        {
+          "p": "Do you use the product every day?",
+          "m": "Nói rằng bạn dùng sản phẩm hàng ngày.",
+          "h": "Use 'every day' + present simple",
+          "s": "I use the product every day."
+        },
+        {
+          "p": "Can we improve something for you?",
+          "m": "Nói một điều bạn muốn cải thiện.",
+          "h": "Please + verb / Please + V + noun",
+          "s": "Please make the product better."
+        },
+        {
+          "p": "Do you tell friends about our shop?",
+          "m": "Nói rằng bạn giới thiệu cho một người.",
+          "h": "I tell / I recommend + object",
+          "s": "I tell my friend about you."
+        }
+      ]
+    },
+    {
+      "t": "Đổi trả và vấn đề nhỏ",
+      "e": [
+        {
+          "p": "Is the item damaged?",
+          "m": "Nói rằng nó không hỏng.",
+          "h": "The item + be + not + adj",
+          "s": "The item is not damaged."
+        },
+        {
+          "p": "Do you want to return the product?",
+          "m": "Nói rằng bạn muốn trả hàng.",
+          "h": "I want + to + verb / I want + noun",
+          "s": "I want to return it."
+        },
+        {
+          "p": "Is the size too small?",
+          "m": "Nói rằng kích thước nhỏ.",
+          "h": "The size + be + adj",
+          "s": "The size is small."
+        },
+        {
+          "p": "Can we exchange it for a different color?",
+          "m": "Nói rằng bạn đồng ý đổi màu.",
+          "h": "Yes, you can... / I want...",
+          "s": "Yes, you can exchange it."
+        },
+        {
+          "p": "Do you want a refund or an exchange?",
+          "m": "Chọn một: hoàn tiền hoặc đổi hàng.",
+          "h": "I want a refund / I want an exchange",
+          "s": "I want a refund."
+        }
+      ]
+    },
+    {
+      "t": "Hỗ trợ kỹ thuật qua điện thoại",
+      "e": [
+        {
+          "p": "Can I guide you by phone?",
+          "m": "Nói rằng bạn đồng ý nghe hướng dẫn qua điện thoại.",
+          "h": "Yes, you can... / I can... / I want...",
+          "s": "Yes, I can hear your guidance."
+        },
+        {
+          "p": "Do you have the manual?",
+          "m": "Nói rằng bạn có sách hướng dẫn.",
+          "h": "I have / I do not have",
+          "s": "I have the manual."
+        },
+        {
+          "p": "Is the problem a sound issue?",
+          "m": "Nói rằng đúng hoặc sai (chọn một).",
+          "h": "Yes, it is. / No, it is not.",
+          "s": "No, it is not a sound issue."
+        },
+        {
+          "p": "Can you test the device now?",
+          "m": "Nói rằng bạn đang thử ngay bây giờ.",
+          "h": "I am + V-ing is not allowed; use 'I test now' or 'I try now'",
+          "s": "I test the device now."
+        },
+        {
+          "p": "Do you want a follow-up call later?",
+          "m": "Nói rằng bạn muốn cuộc gọi tiếp theo.",
+          "h": "I want / I do not want",
+          "s": "I want a follow-up call."
+        }
+      ]
+    },
+    {
+      "t": "Nhắc về bảo hành",
+      "e": [
+        {
+          "p": "Is your warranty still valid?",
+          "m": "Nói rằng bảo hành còn hiệu lực.",
+          "h": "My warranty + is + adj / valid",
+          "s": "My warranty is valid."
+        },
+        {
+          "p": "Do you have the warranty card?",
+          "m": "Nói rằng bạn có phiếu bảo hành.",
+          "h": "I have / I do not have",
+          "s": "I have the warranty card."
+        },
+        {
+          "p": "Can we use the warranty for this repair?",
+          "m": "Nói rằng bạn muốn dùng bảo hành.",
+          "h": "I want / I do not want",
+          "s": "I want to use the warranty."
+        },
+        {
+          "p": "Is there a cost for this service?",
+          "m": "Nói rằng không có chi phí.",
+          "h": "There is / There is not",
+          "s": "There is no cost."
+        },
+        {
+          "p": "Do you need a paper receipt for warranty?",
+          "m": "Nói rằng bạn cần biên lai.",
+          "h": "I need / I do not need",
+          "s": "I need a paper receipt."
+        }
+      ]
+    },
+    {
+      "t": "Ưu đãi cho khách hàng cũ",
+      "e": [
+        {
+          "p": "Do you like a 10% discount for your next order?",
+          "m": "Nói rằng bạn thích ưu đãi.",
+          "h": "I like / I do not like",
+          "s": "I like the discount."
+        },
+        {
+          "p": "Can we send you a promo code?",
+          "m": "Nói rằng bạn đồng ý nhận mã khuyến mãi.",
+          "h": "Yes, you can... / I want...",
+          "s": "Yes, you can send me a promo code."
+        },
+        {
+          "p": "Do you shop with us often?",
+          "m": "Nói rằng bạn mua hàng thường xuyên.",
+          "h": "Use 'often' + present simple",
+          "s": "I shop with you often."
+        },
+        {
+          "p": "Are you interested in new products?",
+          "m": "Nói rằng bạn quan tâm.",
+          "h": "I am + adj / I am interested",
+          "s": "I am interested in new products."
+        },
+        {
+          "p": "Do you want a phone reminder for sales?",
+          "m": "Nói rằng bạn muốn nhận nhắc nhở.",
+          "h": "I want / I do not want",
+          "s": "I want a phone reminder."
+        }
+      ]
+    },
+    {
+      "t": "Nhắc thanh toán đơn hàng",
+      "e": [
+        {
+          "p": "Do you pay now or later?",
+          "m": "Nói rằng bạn trả sau.",
+          "h": "I pay now / I pay later",
+          "s": "I pay later."
+        },
+        {
+          "p": "Can we send an invoice by email?",
+          "m": "Nói rằng bạn muốn hóa đơn qua email.",
+          "h": "I want / I do not want",
+          "s": "I want the invoice by email."
+        },
+        {
+          "p": "Is the payment method card or cash?",
+          "m": "Nói rằng bạn dùng thẻ.",
+          "h": "I use + card / cash",
+          "s": "I use a card."
+        },
+        {
+          "p": "Do you have a problem with payment?",
+          "m": "Nói rằng không có vấn đề.",
+          "h": "Use 'I have' or 'I do not have'",
+          "s": "I do not have a problem with payment."
+        },
+        {
+          "p": "Can we set a payment date?",
+          "m": "Nói một ngày đơn giản (ví dụ: Friday).",
+          "h": "Say a day name or 'Friday'",
+          "s": "Friday is the payment day."
+        }
+      ]
+    },
+    {
+      "t": "Đặt hàng lại (Reorder)",
+      "e": [
+        {
+          "p": "Do you want the same product again?",
+          "m": "Nói rằng bạn muốn đặt lại cùng sản phẩm.",
+          "h": "I want + the same + noun",
+          "s": "I want the same product again."
+        },
+        {
+          "p": "How many do you need?",
+          "m": "Nói một số đơn giản (ví dụ: 2).",
+          "h": "Use numbers 1-100",
+          "s": "I need two."
+        },
+        {
+          "p": "Do you want delivery or pick up?",
+          "m": "Nói rằng bạn muốn giao hàng.",
+          "h": "I want delivery / I want pick up",
+          "s": "I want delivery."
+        },
+        {
+          "p": "Is your address the same?",
+          "m": "Nói rằng địa chỉ giống trước.",
+          "h": "My address + is + same / not same",
+          "s": "My address is the same."
+        },
+        {
+          "p": "Can we confirm your order now?",
+          "m": "Nói rằng bạn đồng ý xác nhận đơn.",
+          "h": "I agree / I do not agree",
+          "s": "I agree to confirm the order."
+        }
+      ]
+    },
+    {
+      "t": "Tư vấn thêm sản phẩm",
+      "e": [
+        {
+          "p": "Do you want a small or big size?",
+          "m": "Chọn một: nhỏ hoặc lớn.",
+          "h": "Use 'small' or 'big'",
+          "s": "I want the small size."
+        },
+        {
+          "p": "Are you looking for a gift?",
+          "m": "Nói rằng bạn không tìm quà.",
+          "h": "I am looking / I am not looking (use simple form)",
+          "s": "I am not looking for a gift."
+        },
+        {
+          "p": "Do you like red or blue?",
+          "m": "Chọn một màu.",
+          "h": "I like + color",
+          "s": "I like blue."
+        },
+        {
+          "p": "Can we add a small accessory to your order?",
+          "m": "Nói rằng bạn muốn phụ kiện nhỏ.",
+          "h": "I want + noun",
+          "s": "I want a small accessory."
+        },
+        {
+          "p": "Do you need product advice now?",
+          "m": "Nói rằng bạn cần tư vấn.",
+          "h": "I need / I do not need",
+          "s": "I need product advice now."
+        }
+      ]
+    },
+    {
+      "t": "Xác nhận thông tin giao hàng",
+      "e": [
+        {
+          "p": "Is your name on the order [studentName]?",
+          "m": "Xác nhận tên đúng hoặc sai.",
+          "h": "Yes, it is. / No, it is not.",
+          "s": "No, it is not my name."
+        },
+        {
+          "p": "Do you live in [studentCity]?",
+          "m": "Nói rằng bạn sống ở thành phố đó.",
+          "h": "I live in + city",
+          "s": "I live in [studentCity]."
+        },
+        {
+          "p": "Is your phone number still the same?",
+          "m": "Nói rằng số điện thoại vẫn giống.",
+          "h": "My phone number + is + the same",
+          "s": "My phone number is the same."
+        },
+        {
+          "p": "Can the driver ring the bell?",
+          "m": "Nói rằng được rung chuông.",
+          "h": "Yes, you can... / No, you cannot...",
+          "s": "Yes, the driver can ring the bell."
+        },
+        {
+          "p": "Do you have a safe place for delivery?",
+          "m": "Nói rằng có nơi an toàn.",
+          "h": "I have / I do not have",
+          "s": "I have a safe place for delivery."
+        }
+      ]
+    },
+    {
+      "t": "Cảm ơn và mời đánh giá",
+      "e": [
+        {
+          "p": "Thank you for your purchase.",
+          "m": "Nói rằng bạn cảm ơn họ.",
+          "h": "I + V + you",
+          "s": "I thank you."
+        },
+        {
+          "p": "Can you give a short review?",
+          "m": "Nói một câu khen ngắn về sản phẩm.",
+          "h": "Use 'It is' or 'This is' + adj",
+          "s": "It is a good product."
+        },
+        {
+          "p": "Do you want to write a review online?",
+          "m": "Nói rằng bạn sẽ viết đánh giá.",
+          "h": "I write / I will not write (use present simple as habit)",
+          "s": "I write a review online."
+        },
+        {
+          "p": "Can we post your comment on our page?",
+          "m": "Cho phép hoặc không cho phép đăng bình luận.",
+          "h": "Yes, you can / No, you cannot",
+          "s": "Yes, you can post my comment."
+        },
+        {
+          "p": "Do you want a thank you message next time?",
+          "m": "Nói rằng bạn muốn nhận tin nhắn cảm ơn.",
+          "h": "I want / I do not want",
+          "s": "I want a thank you message."
+        }
+      ]
+    },
+    {
+      "t": "Ôn tập: Tổng hợp liên lạc sau bán",
+      "e": [
+        {
+          "p": "Did you receive your package?",
+          "m": "Nói rằng bạn đã nhận được hàng.",
+          "h": "I have / I do not have",
+          "s": "I have the package."
+        },
+        {
+          "p": "Are you happy with the product quality?",
+          "m": "Nói rằng bạn hài lòng với chất lượng.",
+          "h": "I am + adj",
+          "s": "I am happy with the quality."
+        },
+        {
+          "p": "Do you want help with the product setup?",
+          "m": "Nói rằng bạn cần giúp cài đặt.",
+          "h": "I need + noun / I need + to + verb",
+          "s": "I need help with setup."
+        },
+        {
+          "p": "Can we call you for a quick check?",
+          "m": "Nói rằng bạn đồng ý được gọi.",
+          "h": "Yes, you can... / No, you cannot...",
+          "s": "Yes, you can call me."
+        },
+        {
+          "p": "Do you want to order the same item again?",
+          "m": "Nói rằng bạn muốn đặt lại.",
+          "h": "I want + the same + noun",
+          "s": "I want the same item again."
+        }
+      ]
+    },
+    {
+      "t": "Ôn tập: Xử lý vấn đề & bảo hành",
+      "e": [
+        {
+          "p": "Is there a problem with the item?",
+          "m": "Nói rằng có một vấn đề nhỏ.",
+          "h": "I have / There is",
+          "s": "There is a small problem."
+        },
+        {
+          "p": "Do you have the receipt?",
+          "m": "Nói rằng bạn có biên lai.",
+          "h": "I have / I do not have",
+          "s": "I have the receipt."
+        },
+        {
+          "p": "Can we use warranty for repair?",
+          "m": "Nói rằng bạn muốn dùng bảo hành.",
+          "h": "I want to + verb",
+          "s": "I want to use the warranty."
+        },
+        {
+          "p": "Do you prefer refund or repair?",
+          "m": "Chọn một: hoàn tiền hoặc sửa chữa.",
+          "h": "I want a refund / I want a repair",
+          "s": "I want a repair."
+        },
+        {
+          "p": "Can the technician come on Monday?",
+          "m": "Nói rằng thứ Hai phù hợp.",
+          "h": "Day name + is ok",
+          "s": "Monday is ok."
+        }
+      ]
+    },
+    {
+      "t": "Ôn tập: Mời phản hồi và ưu đãi",
+      "e": [
+        {
+          "p": "Would you like a discount on your next order?",
+          "m": "Nói rằng bạn muốn ưu đãi.",
+          "h": "I want / I do not want",
+          "s": "I want the discount."
+        },
+        {
+          "p": "Can we send you a promo by email?",
+          "m": "Nói rằng bạn đồng ý nhận email.",
+          "h": "Yes, you can / No, you cannot",
+          "s": "Yes, you can send me a promo by email."
+        },
+        {
+          "p": "Do you write reviews often?",
+          "m": "Nói rằng bạn viết đánh giá thường xuyên.",
+          "h": "I write often / I do not write often",
+          "s": "I write reviews often."
+        },
+        {
+          "p": "Is it OK to call for feedback next week?",
+          "m": "Nói rằng bạn đồng ý được gọi tuần tới.",
+          "h": "I agree / I do not agree",
+          "s": "I agree to a call next week."
+        },
+        {
+          "p": "Do you want product tips by message?",
+          "m": "Nói rằng bạn muốn nhận mẹo qua tin nhắn.",
+          "h": "I want / I do not want",
+          "s": "I want product tips by message."
+        }
+      ]
+    }
+  ]
+}

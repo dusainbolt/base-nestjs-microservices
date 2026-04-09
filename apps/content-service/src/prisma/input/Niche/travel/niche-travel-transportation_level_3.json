@@ -1,0 +1,530 @@
+{
+  "l": 3,
+  "d": [
+    {
+      "t": "Lấy taxi đến điểm hẹn",
+      "e": [
+        {
+          "p": "Can you tell me where to go?",
+          "m": "Nêu điểm đến cụ thể. Nói bạn sẽ đi bằng taxi hoặc không (2 ý).",
+          "h": "Dùng 'I will...' hoặc 'I'm going to...' — 2 câu.",
+          "s": "Go to the museum. I will take a taxi there."
+        },
+        {
+          "p": "Do you want me to wait while you go in?",
+          "m": "Trả lời có/không. Nêu lý do ngắn gọn (2 ý).",
+          "h": "Dùng 'Yes, please' hoặc 'No' + vì sao — 2 câu.",
+          "s": "No, thanks. I need only five minutes and I will be quick."
+        },
+        {
+          "p": "How long will the ride take?",
+          "m": "Ước lượng thời gian. Nói vì sao (giao thông hoặc khoảng cách) (2 ý).",
+          "h": "Dùng 'It will take...' và 'because...' — 2 câu.",
+          "s": "It will take about twenty minutes. There is light traffic on this street."
+        },
+        {
+          "p": "Do you prefer a meter taxi or fixed price?",
+          "m": "Chọn meter hoặc giá cố định. Giải thích ngắn (2 ý).",
+          "h": "Dùng comparatives hoặc 'because' — 2 câu.",
+          "s": "I prefer the meter taxi because it is usually cheaper. It is more fair in short trips."
+        },
+        {
+          "p": "Can you give the driver your address?",
+          "m": "Nói địa chỉ hoặc tên điểm. Nói bạn có hành lý hay không (2 ý).",
+          "h": "Dùng Present Simple cho địa chỉ và 'I have...' hoặc 'I don't have...' — 2 câu.",
+          "s": "Please go to 12 Maple Street near the station. I have one small suitcase."
+        }
+      ]
+    },
+    {
+      "t": "Lên xe buýt lần đầu",
+      "e": [
+        {
+          "p": "Which bus do you need?",
+          "m": "Nói số/tên tuyến. Nói điểm đón bạn đứng ở đâu (2 ý).",
+          "h": "Dùng Present Simple + 'at/on' cho nơi — 2 câu.",
+          "s": "I need bus number 5. I'm standing at the main stop by the supermarket."
+        },
+        {
+          "p": "Do you have exact change?",
+          "m": "Trả lời có/không. Nêu bạn sẽ trả bằng tiền mặt hay thẻ (2 ý).",
+          "h": "Dùng 'Yes, I have...' hoặc 'No, I will...' — 2 câu.",
+          "s": "No, I don't have exact change. I will pay by card when I get on."
+        },
+        {
+          "p": "This bus is crowded today.",
+          "m": "Nói cảm xúc ngắn. Nêu bạn sẽ làm gì (chọn đứng/đợi chuyến sau) (2 ý).",
+          "h": "Dùng 'I'm...' và 'I will...' — 2 câu.",
+          "s": "I'm a bit uncomfortable with the crowd. I will wait for the next bus."
+        },
+        {
+          "p": "Please tell me when we reach Oak Street.",
+          "m": "Xác nhận bạn nghe hiểu. Nói bạn sẽ xuống ở đâu tiếp theo (2 ý).",
+          "h": "Dùng 'Okay, I will...' và 'I will get off at...' — 2 câu.",
+          "s": "Okay, I will tell you. I will get off at Oak Street and walk two blocks."
+        },
+        {
+          "p": "Have you ever missed your stop?",
+          "m": "Nói có/không. Nếu có, mô tả ngắn việc bạn làm sau đó (2 ý).",
+          "h": "Dùng Past Simple cho quá khứ và 'then' cho hành động tiếp (2 câu).",
+          "s": "Yes, I missed my stop last week. I got off at the next stop and walked back."
+        }
+      ]
+    },
+    {
+      "t": "Mua vé và hỏi giờ tàu",
+      "e": [
+        {
+          "p": "What time is the next train?",
+          "m": "Nói giờ tàu tiếp theo. Nói liệu bạn sẽ đi tàu đó hay chờ chuyến sau (2 ý).",
+          "h": "Dùng 'The next train is at...' và 'I will...' hoặc 'I will wait...' — 2 câu.",
+          "s": "The next train is at 3:15. I will take that train."
+        },
+        {
+          "p": "One-way or return?",
+          "m": "Chọn một chiều hay khứ hồi. Nói điểm đến (2 ý).",
+          "h": "Dùng Present Simple: 'One-way to...' hoặc 'Return to...' — 2 câu.",
+          "s": "One-way to Central Station. I don't need a return ticket today."
+        },
+        {
+          "p": "Do you want a window seat?",
+          "m": "Trả lời có/không. Giải thích lý do ngắn (2 ý).",
+          "h": "Dùng 'Yes, please' hoặc 'No' + 'because...' — 2 câu.",
+          "s": "Yes, please. I like to look outside during the trip."
+        },
+        {
+          "p": "There is a delay of 20 minutes.",
+          "m": "Nói cảm xúc ngắn. Nói bạn sẽ làm gì trong lúc đợi (2 ý).",
+          "h": "Dùng 'I'm...' và 'I will...' hoặc 'I am going to...' — 2 câu.",
+          "s": "I'm a little annoyed by the delay. I will buy a drink and wait on the bench."
+        },
+        {
+          "p": "Do you have any luggage to store?",
+          "m": "Nói có/không. Nếu có, mô tả ngắn kích thước/hình thức (2 ý).",
+          "h": "Dùng Present Simple: 'I have...' và 'It is...' — 2 câu.",
+          "s": "Yes, I have a medium suitcase. It is just one bag and it fits under the seat."
+        }
+      ]
+    },
+    {
+      "t": "Hỏi đường tới ga/nhà chờ",
+      "e": [
+        {
+          "p": "Excuse me, how do I get to the station?",
+          "m": "Hướng ngắn cách đi (1-2 bước). Nói thời gian ước tính (2 ý).",
+          "h": "Dùng imperatives hoặc 'Go...' và 'It takes...' — 2 câu.",
+          "s": "Go straight for two blocks and turn left at the bakery. It takes about ten minutes on foot."
+        },
+        {
+          "p": "Is there a faster way by transport?",
+          "m": "Nêu phương tiện nhanh hơn. So sánh ngắn về thời gian (2 ý).",
+          "h": "Dùng comparatives: 'faster' và 'shorter' + 'than' — 2 câu.",
+          "s": "Taking a taxi is faster than walking. It is about ten minutes shorter in heavy traffic."
+        },
+        {
+          "p": "Are there trains from this station to the airport?",
+          "m": "Trả lời có/không. Nêu thời gian chuyến hoặc gợi ý nếu không có (2 ý).",
+          "h": "Dùng Present Simple và 'If not...' — 2 câu.",
+          "s": "Yes, there are trains to the airport every hour. If you miss one, buses run every 30 minutes."
+        },
+        {
+          "p": "Should I buy a ticket before boarding?",
+          "m": "Trả lời nên hay không. Nêu lý do ngắn (2 ý).",
+          "h": "Dùng 'You should...' hoặc 'No, you can...' + 'because' — 2 câu.",
+          "s": "You should buy a ticket before boarding because inspectors check often. It is less stressful that way."
+        },
+        {
+          "p": "Can I walk from here to the platform?",
+          "m": "Nói có/không. Nếu không, nói cách nào đi tới platform (2 ý).",
+          "h": "Dùng 'No, you must...' hoặc 'Yes, you can...' — 2 câu.",
+          "s": "No, you must use the pedestrian bridge to reach the platform. Go up the stairs and cross the bridge."
+        }
+      ]
+    },
+    {
+      "t": "So sánh phương tiện: taxi, bus, tàu",
+      "e": [
+        {
+          "p": "Which is cheaper, taxi or bus?",
+          "m": "Nói phương tiện rẻ hơn. Nêu lý do ngắn (2 ý).",
+          "h": "Dùng comparatives: 'cheaper than' và 'because' — 2 câu.",
+          "s": "Bus is cheaper than a taxi. It costs less and there are no extra fares for traffic."
+        },
+        {
+          "p": "Which is more comfortable for long trips?",
+          "m": "Chọn phương tiện thoải mái hơn. Giải thích ngắn (2 ý).",
+          "h": "Dùng 'more comfortable' và 'because' — 2 câu.",
+          "s": "Train is more comfortable for long trips because seats are bigger. It is quieter too."
+        },
+        {
+          "p": "Is a taxi faster at rush hour?",
+          "m": "Trả lời có/không. Nêu điều kiện hoặc khuyến nghị ngắn (2 ý).",
+          "h": "Dùng Present Simple + 'if' hoặc 'when' — 2 câu.",
+          "s": "Not always; a taxi is slower if there is heavy traffic. If it's rush hour, take the train instead."
+        },
+        {
+          "p": "Do you prefer public transport or private car?",
+          "m": "Nói sở thích của bạn. Đưa ra lý do ngắn (2 ý).",
+          "h": "Dùng Present Simple và 'because' — 2 câu.",
+          "s": "I prefer public transport because it is cheaper and I can relax. It also helps me avoid parking problems."
+        },
+        {
+          "p": "What would you recommend for a short trip downtown?",
+          "m": "Đề xuất phương tiện. Nêu một lợi ích ngắn (2 ý).",
+          "h": "Dùng 'I would recommend...' và 'because' — 2 câu.",
+          "s": "I would recommend taking a bus. It's cheap and you can save time in traffic."
+        }
+      ]
+    },
+    {
+      "t": "Kế hoạch đi lại cuối tuần",
+      "e": [
+        {
+          "p": "Where are you going this weekend?",
+          "m": "Nêu điểm đến. Nói bạn sẽ đi bằng phương tiện gì (2 ý).",
+          "h": "Dùng 'I'm going to...' và 'by...' — 2 câu.",
+          "s": "I'm going to the beach this weekend. I will go by train."
+        },
+        {
+          "p": "Will you travel with friends?",
+          "m": "Trả lời có/không. Nói số lượng hoặc ai sẽ đi (2 ý).",
+          "h": "Dùng 'Yes, I will...' hoặc 'No, I will...' — 2 câu.",
+          "s": "Yes, I will travel with two friends. We are planning to share a taxi from the station."
+        },
+        {
+          "p": "Do you need to buy tickets in advance?",
+          "m": "Trả lời cần hay không. Nêu lý do ngắn (2 ý).",
+          "h": "Dùng 'Yes, you should...' hoặc 'No, you can...' — 2 câu.",
+          "s": "Yes, you should buy tickets in advance because trains are busy on weekends. It's more convenient that way."
+        },
+        {
+          "p": "How long will you stay there?",
+          "m": "Nói thời gian ở lại (số ngày). Nói kế hoạch về phương tiện đi về (2 ý).",
+          "h": "Dùng 'for...' và 'we will...' hoặc 'I will...' — 2 câu.",
+          "s": "We will stay there for two days. We will return by bus on Sunday evening."
+        },
+        {
+          "p": "Is there anything you must remember before leaving?",
+          "m": "Nêu một việc quan trọng cần nhớ. Giải thích ngắn lý do (2 ý).",
+          "h": "Dùng 'must' hoặc 'have to' và 'because' — 2 câu.",
+          "s": "You must charge your phone before leaving because navigation needs battery. It will help avoid getting lost."
+        }
+      ]
+    },
+    {
+      "t": "Xử lý trễ tàu/xe",
+      "e": [
+        {
+          "p": "The train is delayed. What will you do?",
+          "m": "Nói hành động bạn sẽ làm ngay (1 ý). Nói nếu bạn cần thông báo cho ai (1 ý).",
+          "h": "Dùng 'I will...' và 'I will tell...' — 2 câu.",
+          "s": "I will check the next train time. I will tell my friend about the delay."
+        },
+        {
+          "p": "Can I get a refund for the ticket?",
+          "m": "Hỏi hoặc nêu bạn sẽ làm gì để lấy tiền hoàn (2 ý).",
+          "h": "Dùng 'I will ask...' và 'If yes, I will...' — 2 câu.",
+          "s": "I will ask the ticket office for a refund. If they accept, I will get my money back."
+        },
+        {
+          "p": "There is heavy traffic. Do you want to change plans?",
+          "m": "Nêu bạn sẽ thay đổi hay không. Nếu thay đổi, nói kế hoạch mới (2 ý).",
+          "h": "Dùng 'I will...' hoặc 'I am going to...' — 2 câu.",
+          "s": "Yes, I will change plans. I am going to take the train instead of a taxi."
+        },
+        {
+          "p": "Should we wait here or move to the cafe?",
+          "m": "Đưa ra lời khuyên ngắn. Nêu lý do cho lời khuyên (2 ý).",
+          "h": "Dùng 'You should...' hoặc 'We should...' + 'because...' — 2 câu.",
+          "s": "We should move to the cafe because it's warmer and has seats. It will be more comfortable to wait there."
+        },
+        {
+          "p": "How did you handle a delay before?",
+          "m": "Kể ngắn một ví dụ quá khứ. Nói kết quả/giải pháp bạn làm (2 ý).",
+          "h": "Dùng Past Simple và 'then' hoặc 'so' — 2 câu.",
+          "s": "I missed a bus last month and I took the next one. Then I arrived thirty minutes late but it was okay."
+        }
+      ]
+    },
+    {
+      "t": "Hành lý và chỗ ngồi trên tàu/xe",
+      "e": [
+        {
+          "p": "Can I put my bag here?",
+          "m": "Trả lời có/không. Nêu nơi an toàn để để túi nếu không (2 ý).",
+          "h": "Dùng 'Yes, you can...' hoặc 'No, please...' — 2 câu.",
+          "s": "Yes, you can put your bag here on the rack. If not, put it under your seat."
+        },
+        {
+          "p": "Is this seat taken?",
+          "m": "Trả lời có/không. Nêu bạn sẽ làm gì nếu chỗ đã bị đặt (2 ý).",
+          "h": "Dùng Present Simple và 'I will...' — 2 câu.",
+          "s": "No, this seat is free. If someone comes, I will offer to move."
+        },
+        {
+          "p": "I have a large suitcase. Where should I store it?",
+          "m": "Gợi ý vị trí cất hành lý. Nói nếu cần trả phí hoặc không (2 ý).",
+          "h": "Dùng 'You can...' và 'It may/doesn't...' — 2 câu.",
+          "s": "You can store it in the luggage area near the carriage door. It doesn't usually cost extra on this route."
+        },
+        {
+          "p": "Please watch my bag for a moment.",
+          "m": "Trả lời đồng ý hay không. Nêu thời gian hoặc điều kiện ngắn (2 ý).",
+          "h": "Dùng 'Okay, I will...' hoặc 'Sorry, I can't...' — 2 câu.",
+          "s": "Okay, I will watch your bag for five minutes. I will sit near it until you return."
+        },
+        {
+          "p": "Do you prefer aisle or window seat?",
+          "m": "Nói sở thích của bạn. Giải thích ngắn (2 ý).",
+          "h": "Dùng Present Simple và 'because' — 2 câu.",
+          "s": "I prefer the window seat because I like the view. It is more relaxing on long trips."
+        }
+      ]
+    },
+    {
+      "t": "Khi gặp sự cố trên taxi/bus/rail",
+      "e": [
+        {
+          "p": "The driver says there is a problem with the vehicle.",
+          "m": "Nói bạn sẽ làm gì ngay (2 ý).",
+          "h": "Dùng 'I will...' và 'I am going to...' — 2 câu.",
+          "s": "I will ask how long the repair will take. I am going to look for another transport if it will be long."
+        },
+        {
+          "p": "My bag was stolen on the bus.",
+          "m": "Nói bạn đã làm gì sau đó (1 ý). Nói việc bạn dự định làm tiếp (1 ý).",
+          "h": "Dùng Past Simple cho việc đã làm và 'I will...' cho kế hoạch — 2 câu.",
+          "s": "I reported it to the driver and the police immediately. I will check the lost and found tomorrow."
+        },
+        {
+          "p": "The taxi driver took a wrong route.",
+          "m": "Nói bạn đã phản hồi ra sao. Nêu bạn có ý định làm gì tiếp theo (2 ý).",
+          "h": "Dùng Past Simple và 'so' hoặc 'then' — 2 câu.",
+          "s": "I told him it was the wrong way and asked him to stop. Then I called another taxi."
+        },
+        {
+          "p": "There is no announcement for the next stop.",
+          "m": "Nói bạn sẽ làm gì để biết nơi xuống (2 ý).",
+          "h": "Dùng 'I will ask...' hoặc 'I will look...' — 2 câu.",
+          "s": "I will ask the conductor about the stops. I will also check the map on my phone."
+        },
+        {
+          "p": "Should I call customer service now?",
+          "m": "Đưa lời khuyên ngắn. Nêu lý do (2 ý).",
+          "h": "Dùng 'You should...' và 'because' — 2 câu.",
+          "s": "You should call customer service now because they can help quickly. They may arrange a replacement or refund."
+        }
+      ]
+    },
+    {
+      "t": "Đặt taxi trước và dịch vụ chia sẻ",
+      "e": [
+        {
+          "p": "Do you want to book a taxi now?",
+          "m": "Trả lời có/không. Nói thời gian bạn cần xe (2 ý).",
+          "h": "Dùng 'Yes, please' hoặc 'No, thank you' + 'at...' — 2 câu.",
+          "s": "Yes, please book a taxi for 6 p.m. I need to leave then for a meeting."
+        },
+        {
+          "p": "Are you OK with a shared ride?",
+          "m": "Trả lời có/không. Nêu lý do ngắn (2 ý).",
+          "h": "Dùng 'I am fine with...' hoặc 'I prefer...' — 2 câu.",
+          "s": "I prefer a private ride because I need privacy. Shared rides are cheaper but less private."
+        },
+        {
+          "p": "We can pick you up at your house or at the corner.",
+          "m": "Chọn điểm đón. Nói vì sao (2 ý).",
+          "h": "Dùng Present Simple và 'because' — 2 câu.",
+          "s": "Please pick me up at the corner store. It is easier because parking is difficult near my house."
+        },
+        {
+          "p": "The app says the driver will arrive in 10 minutes.",
+          "m": "Xác nhận bạn sẽ sẵn sàng. Nói bạn cần chuẩn bị gì (2 ý).",
+          "h": "Dùng 'I will be ready' và 'I need to...' — 2 câu.",
+          "s": "I will be ready in ten minutes. I need to grab my bag and lock the door."
+        },
+        {
+          "p": "Do you want to cancel or wait if the driver is late?",
+          "m": "Nói bạn sẽ làm gì. Nêu lý do ngắn (2 ý).",
+          "h": "Dùng 'I will cancel...' hoặc 'I will wait...' và 'because' — 2 câu.",
+          "s": "I will wait five more minutes because the traffic is bad. If he is still late, I will cancel and book another car."
+        }
+      ]
+    },
+    {
+      "t": "Thanh toán, vé và hoàn tiền",
+      "e": [
+        {
+          "p": "Do you pay by cash or card?",
+          "m": "Nói phương thức thanh toán bạn dùng. Nói nếu cần biên lai hay không (2 ý).",
+          "h": "Dùng Present Simple và 'I would like...' — 2 câu.",
+          "s": "I will pay by card. I would like a receipt, please."
+        },
+        {
+          "p": "Can I get a student discount?",
+          "m": "Trả lời có/không. Nêu điều kiện ngắn để được giảm (2 ý).",
+          "h": "Dùng 'Yes, if...' hoặc 'No, because...' — 2 câu.",
+          "s": "Yes, if you show a valid student ID. You must present it at the counter."
+        },
+        {
+          "p": "The ticket machine didn't give me change.",
+          "m": "Nói bạn đã làm gì ngay. Nêu bạn sẽ làm tiếp (2 ý).",
+          "h": "Dùng Past Simple và 'then I will...' — 2 câu.",
+          "s": "I reported it to the station staff right away. Then I will ask for a refund at customer service."
+        },
+        {
+          "p": "Is there an extra fee for luggage?",
+          "m": "Trả lời có/không. Nêu mức phí ngắn hoặc điều kiện (2 ý).",
+          "h": "Dùng Present Simple và 'if' hoặc 'for' — 2 câu.",
+          "s": "There is no extra fee for one small bag. For large suitcases, there may be a small charge."
+        },
+        {
+          "p": "Would you like to buy a day pass?",
+          "m": "Chọn có/không. Nêu lợi ích ngắn nếu mua (2 ý).",
+          "h": "Dùng 'Yes, I will...' hoặc 'No, I will...' và 'because' — 2 câu.",
+          "s": "Yes, I will buy a day pass because it's cheaper for many trips. It saves time buying single tickets."
+        }
+      ]
+    },
+    {
+      "t": "Giao tiếp với nhân viên phục vụ (tài xế, nhân viên soát vé)",
+      "e": [
+        {
+          "p": "Could you help me with my ticket?",
+          "m": "Nói bạn cần giúp gì cụ thể. Nói bạn có vé loại nào (2 ý).",
+          "h": "Dùng 'I need help with...' và 'I have...' — 2 câu.",
+          "s": "I need help with changing my ticket time. I have a one-way ticket for this afternoon."
+        },
+        {
+          "p": "The driver asked for my ID for the discount.",
+          "m": "Trả lời bạn có ID hay không. Nêu bạn sẽ làm gì nếu không có (2 ý).",
+          "h": "Dùng Present Simple và 'I will...' — 2 câu.",
+          "s": "I don't have my ID with me. I will pay full fare and show it next time."
+        },
+        {
+          "p": "We need to report a lost item. Can you help?",
+          "m": "Nói bạn mất vật gì. Nêu nơi/ thời gian khả nghi (2 ý).",
+          "h": "Dùng Past Simple và 'at/on/near...' — 2 câu.",
+          "s": "I lost a black backpack on the 2 p.m. train. It was near the third carriage."
+        },
+        {
+          "p": "Please move to the back to let others sit.",
+          "m": "Phản hồi lịch sự. Nêu nếu bạn sẽ làm hay không và lý do (2 ý).",
+          "h": "Dùng 'Okay, I will...' hoặc 'Sorry, I can't...' — 2 câu.",
+          "s": "Okay, I will move to the back. I need to keep my bag close, but I can still sit there."
+        },
+        {
+          "p": "Do you understand the new route changes?",
+          "m": "Trả lời bạn hiểu hay cần giải thích. Nếu cần, yêu cầu nói lại ngắn (2 ý).",
+          "h": "Dùng 'I understand' hoặc 'Please explain...' — 2 câu.",
+          "s": "I understand the main changes. Please explain the times again for the express trains."
+        }
+      ]
+    },
+    {
+      "t": "Ôn tập: Tình huống đi lại trong thành phố",
+      "e": [
+        {
+          "p": "I missed my bus and now I'm late. What should I do?",
+          "m": "Đưa lời khuyên ngắn (1 ý). Nêu một hành động cụ thể để giảm trễ (1 ý).",
+          "h": "Dùng 'You should...' và 'then...' — 2 câu.",
+          "s": "You should call the person you are meeting to explain the delay. Then take a taxi or the next fast bus."
+        },
+        {
+          "p": "Which is better for work commute, train or bus?",
+          "m": "So sánh ngắn hai phương tiện. Nêu một lý do bạn thích phương án chọn (2 ý).",
+          "h": "Dùng comparatives và 'because' — 2 câu.",
+          "s": "Train is better for commute because it is usually faster. It is also more comfortable during rush hour."
+        },
+        {
+          "p": "There is no seat and I have heavy luggage. What can I do?",
+          "m": "Nêu hành động bạn sẽ làm (1 ý). Nêu nơi cất an toàn cho hành lý (1 ý).",
+          "h": "Dùng 'I will...' và 'You can...' — 2 câu.",
+          "s": "I will stand near the luggage area and hold my bag. You can place the suitcase in the luggage rack for safety."
+        },
+        {
+          "p": "Do you think booking a taxi is necessary for airport trips?",
+          "m": "Nói có/không. Nêu một lợi ích khi đặt trước (2 ý).",
+          "h": "Dùng 'Yes, because...' hoặc 'No, because...' — 2 câu.",
+          "s": "Yes, because booking a taxi ensures timely pickup. It reduces stress and waiting time at the airport."
+        },
+        {
+          "p": "How did you go to work yesterday?",
+          "m": "Nói phương tiện bạn đã đi. Nêu thời gian mất bao lâu (2 ý).",
+          "h": "Dùng Past Simple và 'took...' hoặc 'it took...' — 2 câu.",
+          "s": "I took the bus yesterday. It took about forty minutes because of traffic."
+        }
+      ]
+    },
+    {
+      "t": "Ôn tập: Vấn đề và giải pháp khi di chuyển",
+      "e": [
+        {
+          "p": "My train was cancelled. What can I do now?",
+          "m": "Nêu một giải pháp ngay (1 ý). Nêu cách liên hệ hoặc yêu cầu hỗ trợ (1 ý).",
+          "h": "Dùng 'You can...' và 'Contact...' — 2 câu.",
+          "s": "You can take the next available train or a replacement bus. Contact customer service for a refund or rebooking."
+        },
+        {
+          "p": "I paid but didn't get my ticket.",
+          "m": "Nêu việc bạn đã làm ngay (1 ý). Nêu kế hoạch tiếp theo để lấy vé hoặc tiền (1 ý).",
+          "h": "Dùng Past Simple và 'then I will...' — 2 câu.",
+          "s": "I reported the issue to the ticket office immediately. Then I will ask for a receipt and a refund."
+        },
+        {
+          "p": "There is a long queue for taxis.",
+          "m": "Đề xuất phương án khác. Nêu một lợi ích của phương án đó (2 ý).",
+          "h": "Dùng 'You could...' và 'because' — 2 câu.",
+          "s": "You could use a ride-hailing app to book a car. It's faster because a driver can pick you up nearby."
+        },
+        {
+          "p": "I am worried about leaving my phone on the train.",
+          "m": "Nói bạn nên làm gì để an toàn (1 ý). Nêu hành động nếu mất đồ (1 ý).",
+          "h": "Dùng modals: 'should' và 'will' — 2 câu.",
+          "s": "You should keep your phone in a zipped bag or front pocket. If you lose it, report to lost and found and block your number."
+        },
+        {
+          "p": "How can I avoid traffic when I travel?",
+          "m": "Đưa hai gợi ý ngắn (2 ý).",
+          "h": "Dùng 'Try to...' và 'Consider...' — 2 câu.",
+          "s": "Try to travel outside rush hours, like mid-morning. Consider taking the train which is usually faster."
+        }
+      ]
+    },
+    {
+      "t": "Ôn tập: Lên kế hoạch chuyến đi",
+      "e": [
+        {
+          "p": "We need a plan to go to the museum tomorrow.",
+          "m": "Đề xuất giờ đi. Nêu phương tiện phù hợp (2 ý).",
+          "h": "Dùng 'Let's...' và 'by...' — 2 câu.",
+          "s": "Let's leave at 9 a.m. and go by bus to avoid traffic."
+        },
+        {
+          "p": "Should we buy tickets online or at the station?",
+          "m": "Chọn mua online hay trực tiếp. Nêu lý do ngắn (2 ý).",
+          "h": "Dùng 'We should...' hoặc 'We can...' và 'because' — 2 câu.",
+          "s": "We should buy tickets online because it's faster and often cheaper. It saves time at the station."
+        },
+        {
+          "p": "How many people are coming?",
+          "m": "Nêu số người. Nói nếu cần đặt xe lớn hơn (2 ý).",
+          "h": "Dùng Present Simple và 'so we need...' — 2 câu.",
+          "s": "Four people are coming. So we need a bigger taxi or two regular cars."
+        },
+        {
+          "p": "Is it better to take an early train?",
+          "m": "Trả lời có/không. Nêu một lợi ích nếu có (2 ý).",
+          "h": "Dùng 'Yes, because...' hoặc 'No, because...' — 2 câu.",
+          "s": "Yes, because early trains are less crowded and usually on time. It gives us more time at the museum."
+        },
+        {
+          "p": "Do you have a backup plan if the train is late?",
+          "m": "Nêu một phương án dự phòng. Nói ai sẽ liên hệ nếu kế hoạch thay đổi (2 ý).",
+          "h": "Dùng 'We will...' và 'I will call...' — 2 câu.",
+          "s": "We will take a bus or taxi as a backup. I will call everyone if plans change."
+        }
+      ]
+    }
+  ]
+}

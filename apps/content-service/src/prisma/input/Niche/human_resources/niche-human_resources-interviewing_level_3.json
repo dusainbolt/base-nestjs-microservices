@@ -1,0 +1,635 @@
+{
+  "l": 3,
+  "d": [
+    {
+      "t": "Gặp ứng viên lần đầu",
+      "e": [
+        {
+          "p": "Can you tell me about yourself?",
+          "m": "Nêu tên và nghề hiện tại. Nói 1 câu về kinh nghiệm chính (số năm hoặc lĩnh vực).",
+          "h": "Present Simple: I am [studentName]. I work as [studentJob]. / I have X years in ...",
+          "s": "I am [studentName] and I work as [studentJob]. I have two years of experience in customer service."
+        },
+        {
+          "p": "Why did you apply for this position?",
+          "m": "Nói lý do chính bạn ứng tuyển. Nói kỹ năng nào của bạn phù hợp với vị trí.",
+          "h": "because + reason. Present Simple for skills.",
+          "s": "I applied because I like this field and the job fits my goals. I have good communication skills that match the role."
+        },
+        {
+          "p": "What did you do at your last job?",
+          "m": "Mô tả một nhiệm vụ chính bạn đã làm. Nói kết quả ngắn của nhiệm vụ đó.",
+          "h": "Past Simple: I organized / I managed + result in Past Simple.",
+          "s": "I organized the daily schedule for a small team. As a result, we met deadlines more often."
+        },
+        {
+          "p": "What are your strengths?",
+          "m": "Nêu một điểm mạnh. Cho ví dụ ngắn về khi bạn dùng điểm mạnh đó.",
+          "h": "Present Simple + Past Simple example: I am organized. I met deadlines.",
+          "s": "I am organized. I always met deadlines and my manager praised my work."
+        },
+        {
+          "p": "Do you have any questions for me?",
+          "m": "Hỏi về bước tiếp theo trong tuyển dụng. Hỏi thêm về giờ làm việc hoặc môi trường làm việc.",
+          "h": "What are ...? / Also, what are ...?",
+          "s": "What are the next steps in the interview process? Also, what are the usual working hours?"
+        }
+      ]
+    },
+    {
+      "t": "Sắp xếp lịch phỏng vấn",
+      "e": [
+        {
+          "p": "Are you available for an interview tomorrow at 10 AM?",
+          "m": "Xác nhận bạn có thể tham gia không. Nếu không, đưa ra một thời gian khác.",
+          "h": "Yes, I am available. / No, I am not. I am free at ...",
+          "s": "No, I am not available at 10 AM. I am free tomorrow at 2 PM."
+        },
+        {
+          "p": "Would you prefer an online or in-person interview?",
+          "m": "Nói sở thích (online hoặc in-person). Nói lý do ngắn cho lựa chọn đó.",
+          "h": "I prefer ... because ...",
+          "s": "I prefer an online interview because I live far from the office."
+        },
+        {
+          "p": "Can you send your CV before the meeting?",
+          "m": "Xác nhận bạn sẽ gửi CV hay không. Nói thời gian bạn sẽ gửi.",
+          "h": "I will send my CV by / I am going to send it by ...",
+          "s": "I will send my CV by this evening."
+        },
+        {
+          "p": "Do you need any special time because of work now?",
+          "m": "Nói nếu bạn cần lịch buổi tối hoặc ngày khác. Nói lý do ngắn (ví dụ: đang đi làm).",
+          "h": "I need ... because I am working / I work until ...",
+          "s": "I need an evening time because I am working until 6 PM."
+        },
+        {
+          "p": "Is a 30-minute interview enough for you?",
+          "m": "Nói nếu 30 phút đủ hay không. Nếu không đủ, đề xuất thời lượng hợp lý.",
+          "h": "30 minutes is enough / Not enough, I need ... minutes.",
+          "s": "Thirty minutes is not enough. I need forty-five minutes for the interview."
+        }
+      ]
+    },
+    {
+      "t": "Nói về kinh nghiệm làm việc",
+      "e": [
+        {
+          "p": "Tell me about your last job title and company.",
+          "m": "Nêu chức danh và tên công ty (hoặc loại công ty). Nói 1 câu về nhiệm vụ chính.",
+          "h": "I was a ... at a ... / I did ...",
+          "s": "I was a sales assistant at a small retail company. I helped customers and managed stock."
+        },
+        {
+          "p": "How long did you work there?",
+          "m": "Nói thời gian làm việc (số năm/tháng). Nói nếu bạn còn làm hay đã nghỉ.",
+          "h": "I worked there for ... / I am still working there.",
+          "s": "I worked there for two years and I left last month."
+        },
+        {
+          "p": "What was your biggest achievement at that job?",
+          "m": "Mô tả một thành tựu ngắn. Nói kết quả cụ thể nếu có.",
+          "h": "Past Simple: I improved / I reduced / I increased ...",
+          "s": "I improved customer satisfaction by helping faster. As a result, sales increased a little."
+        },
+        {
+          "p": "Did you ever have a gap between jobs?",
+          "m": "Nói có hay không có khoảng nghỉ. Nếu có, giải thích ngắn lý do.",
+          "h": "I had a gap because ... / I did not have a gap.",
+          "s": "I had a gap for three months because I studied a short course."
+        },
+        {
+          "p": "Did you work more in a team or alone?",
+          "m": "Nói phần lớn bạn làm việc theo nhóm hay độc lập. Cho ví dụ ngắn.",
+          "h": "I worked mostly in a team / alone. Example: I ...",
+          "s": "I worked mostly in a team. For example, we planned weekly tasks together."
+        }
+      ]
+    },
+    {
+      "t": "Trình bày kỹ năng",
+      "e": [
+        {
+          "p": "Do you know how to use Excel?",
+          "m": "Nói bạn biết hay không. Nêu 1 ví dụ đơn giản về cách bạn dùng Excel.",
+          "h": "I can use Excel. I use it to ... (Present Simple).",
+          "s": "I can use Excel. I use it to make simple tables and sums."
+        },
+        {
+          "p": "Can you speak any foreign languages?",
+          "m": "Nói ngôn ngữ bạn biết. Nói trình độ ngắn (basic, good).",
+          "h": "I speak ... at a ... level.",
+          "s": "I speak English at a good level and basic Spanish."
+        },
+        {
+          "p": "How do you rate your communication skills?",
+          "m": "Đưa mức độ ngắn (better/worse or good/bad). Nêu ví dụ khi bạn dùng kỹ năng đó.",
+          "h": "I am good / I am better at ... / Example in Past Simple.",
+          "s": "I am good at communication. I often led customer calls and solved problems."
+        },
+        {
+          "p": "Have you learned any technical skill recently?",
+          "m": "Nói kỹ năng mới bạn học gần đây. Nói cách bạn học (course, practice).",
+          "h": "I learned ... by ... (Past Simple or Present Perfect).",
+          "s": "I learned basic coding skills by taking an online course last month."
+        },
+        {
+          "p": "Which skill will help you most in this job?",
+          "m": "Nêu 1 kỹ năng quan trọng cho vị trí. Giải thích ngắn vì sao nó quan trọng.",
+          "h": "Present Simple: This skill is important because ...",
+          "s": "Good communication is most important because this job needs contact with customers."
+        }
+      ]
+    },
+    {
+      "t": "Thái độ và tác phong",
+      "e": [
+        {
+          "p": "Are you usually on time for work?",
+          "m": "Trả lời có hay không. Nếu có, nêu ví dụ ngắn khi bạn đúng giờ.",
+          "h": "I am usually on time. / I am not usually on time. + example Past Simple.",
+          "s": "I am usually on time. Last week I arrived early for an important meeting."
+        },
+        {
+          "p": "How do you handle stress at work?",
+          "m": "Mô tả ngắn một cách bạn xử lý stress. Nói kết quả khi dùng cách đó.",
+          "h": "I stay calm and ... / I take a short break and then ... (Present Simple).",
+          "s": "I take a short break and make a simple list. Then I finish tasks step by step."
+        },
+        {
+          "p": "Do you accept feedback from managers?",
+          "m": "Nói bạn có chấp nhận phản hồi không. Nói ngắn bạn đã cải thiện gì nhờ phản hồi.",
+          "h": "Yes, I accept feedback. Past Simple example of improvement.",
+          "s": "Yes, I accept feedback and I improved my reports after my manager's advice."
+        },
+        {
+          "p": "How do you behave with colleagues you disagree with?",
+          "m": "Nói cách bạn nói chuyện khi bất đồng. Nêu kết quả mong muốn.",
+          "h": "I talk calmly and listen. I try to find a solution (Present Simple).",
+          "s": "I talk calmly and listen to their view. I try to find a practical solution."
+        },
+        {
+          "p": "What is your work style: fast but careful, or slow and very careful?",
+          "m": "Chọn một phong cách. Giải thích ngắn vì sao bạn chọn như vậy.",
+          "h": "I prefer ... because ...",
+          "s": "I prefer fast but careful because meeting deadlines is important for the team."
+        }
+      ]
+    },
+    {
+      "t": "Câu hỏi tình huống đơn giản",
+      "e": [
+        {
+          "p": "A client is unhappy. What do you do first?",
+          "m": "Nói hành động đầu tiên bạn làm. Nói hành động tiếp theo để giải quyết.",
+          "h": "First I ... Then I ... (Present Simple).",
+          "s": "First I listen to the client's problem. Then I apologize and offer a solution."
+        },
+        {
+          "p": "You miss a deadline. What happened and what do you say?",
+          "m": "Nói nguyên nhân ngắn (ví dụ: workload). Xin lỗi ngắn và nêu cách bạn sửa lỗi.",
+          "h": "Past Simple for reason. I am sorry and I will ... (Future Simple).",
+          "s": "I missed the deadline because I had too much work. I am sorry and I will finish it by tomorrow."
+        },
+        {
+          "p": "A coworker takes credit for your work. How do you react?",
+          "m": "Nói phản ứng ngắn và hành động tiếp theo để giải quyết.",
+          "h": "I talk to them / I tell my manager (Present Simple).",
+          "s": "I talk to the coworker calmly. If it continues, I will tell my manager."
+        },
+        {
+          "p": "A task is new and hard. What will you do?",
+          "m": "Nói bạn sẽ làm gì để học việc. Nói nếu bạn sẽ xin giúp hay tự học.",
+          "h": "I will ask for help / I will practice and learn (Future Simple).",
+          "s": "I will ask a colleague for help and I will practice after work."
+        },
+        {
+          "p": "You have two urgent tasks. Which do you choose first?",
+          "m": "Nói cách bạn ưu tiên (deadline / impact). Nói ngắn lý do.",
+          "h": "I choose ... because ... (comparative optional).",
+          "s": "I choose the task with the closer deadline because it affects the client more."
+        }
+      ]
+    },
+    {
+      "t": "Hỏi về mục tiêu nghề nghiệp",
+      "e": [
+        {
+          "p": "Where do you see yourself in one year?",
+          "m": "Nói mục tiêu ngắn hạn của bạn (1 năm). Nói cách bạn đạt mục tiêu đó.",
+          "h": "I want to ... I will ... (Future Simple).",
+          "s": "I want to improve my skills in this role. I will learn from the team and practice every week."
+        },
+        {
+          "p": "What is your long-term career goal?",
+          "m": "Nói mục tiêu dài hạn (2-5 năm). Nói một bước bạn sẽ làm để đến đó.",
+          "h": "I hope to ... I plan to ... (Present Simple / Future Simple).",
+          "s": "I hope to be a team leader in a few years. I plan to gain experience and take small projects."
+        },
+        {
+          "p": "Why is this position good for your goals?",
+          "m": "Nói điểm phù hợp giữa vị trí và mục tiêu. Nói lợi ích bạn sẽ nhận được.",
+          "h": "This position is good because ... I will ...",
+          "s": "This position is good because I can learn project work. I will gain practical experience."
+        },
+        {
+          "p": "Are you willing to learn new skills for this job?",
+          "m": "Trả lời có hay không. Nêu ví dụ bạn sẽ học gì.",
+          "h": "Yes, I am willing. I will learn ...",
+          "s": "Yes, I am willing to learn. I will study basic data analysis for the role."
+        },
+        {
+          "p": "Do you prefer stable work or fast promotion?",
+          "m": "Chọn một sở thích. Giải thích ngắn lý do.",
+          "h": "I prefer ... because ...",
+          "s": "I prefer stable work because I want steady learning and good results."
+        }
+      ]
+    },
+    {
+      "t": "Lương và điều kiện làm việc",
+      "e": [
+        {
+          "p": "What are your salary expectations?",
+          "m": "Nêu mức lương mong muốn hoặc khoảng. Nói ngắn nếu bạn có thể thương lượng.",
+          "h": "I expect ... / I hope for ... I can be flexible.",
+          "s": "I expect a salary around $500 per month. I can be flexible for the right position."
+        },
+        {
+          "p": "When can you start if you get the job?",
+          "m": "Nói thời gian bạn có thể bắt đầu (immediately / after notice). Nêu thời gian ngắn nếu cần báo trước.",
+          "h": "I can start immediately. / I need X weeks notice.",
+          "s": "I can start in two weeks because I need to give notice to my current employer."
+        },
+        {
+          "p": "Do you prefer full-time or part-time?",
+          "m": "Nói lựa chọn của bạn. Giải thích ngắn lý do.",
+          "h": "I prefer ... because ...",
+          "s": "I prefer full-time because I want steady work and learning."
+        },
+        {
+          "p": "Are you okay with overtime when needed?",
+          "m": "Trả lời có / không. Nếu có, nêu giới hạn ngắn (ví dụ: once a week).",
+          "h": "Yes, I am okay. / No, I am not. I can work ...",
+          "s": "Yes, I am okay with overtime, but only once a week if possible."
+        },
+        {
+          "p": "Do you need any special benefits (transport, lunch)?",
+          "m": "Nói nếu bạn cần lợi ích đặc biệt. Nói ngắn lý do nếu cần.",
+          "h": "I need ... because ... / I don't need ...",
+          "s": "I would appreciate transport support because I travel far to work."
+        }
+      ]
+    },
+    {
+      "t": "Phản hồi sau phỏng vấn",
+      "e": [
+        {
+          "p": "How did the interview go from your view?",
+          "m": "Mô tả 1 câu về cảm nhận chung. Nói 1 câu về điểm mạnh bạn thể hiện.",
+          "h": "Past Simple and Present Simple: It went well. I showed ...",
+          "s": "The interview went well and I felt confident. I showed my good communication skills."
+        },
+        {
+          "p": "What can you improve for next time?",
+          "m": "Nêu 1 điều bạn muốn cải thiện. Nói cách bạn sẽ thay đổi lần sau.",
+          "h": "I will ... / I need to ... (Future Simple / Present Simple).",
+          "s": "I need to prepare better answers. I will practice common questions this week."
+        },
+        {
+          "p": "Did you get any positive feedback from the interviewer?",
+          "m": "Trả lời có hay không. Nếu có, nêu nội dung phản hồi ngắn.",
+          "h": "Yes, they said ... / No, they did not say ...",
+          "s": "Yes, the interviewer said my experience was useful for the role."
+        },
+        {
+          "p": "Would you like a second interview?",
+          "m": "Trả lời có hay không. Nếu có, nêu lý do bạn muốn vòng 2.",
+          "h": "Yes, I would like ... because ...",
+          "s": "Yes, I would like a second interview because I can show more of my skills."
+        },
+        {
+          "p": "How soon can you provide additional information if asked?",
+          "m": "Nói thời gian bạn có thể gửi thêm thông tin (ví dụ: CV, bằng cấp). Nói bạn sẽ gửi bằng cách nào.",
+          "h": "I can send ... by ... (email).",
+          "s": "I can send additional certificates by email today."
+        }
+      ]
+    },
+    {
+      "t": "Từ chối hoặc nhận lời",
+      "e": [
+        {
+          "p": "We would like to offer you the job. Do you accept?",
+          "m": "Trả lời nhận hay từ chối. Nếu nhận, nêu thời gian bắt đầu. Nếu từ chối, nói lý do ngắn.",
+          "h": "I accept and I can start ... / I decline because ...",
+          "s": "I accept the job and I can start in two weeks."
+        },
+        {
+          "p": "Can you give us a decision in two days?",
+          "m": "Trả lời bạn có thể quyết định trong 2 ngày không. Nếu không, nêu thời gian bạn cần.",
+          "h": "Yes, I can. / No, I need ... days.",
+          "s": "No, I need five days to decide because I must discuss with my family."
+        },
+        {
+          "p": "We cannot increase the salary. Do you still want the role?",
+          "m": "Trả lời có hay không. Nếu có, nêu điều khác bạn quan tâm (ví dụ: training).",
+          "h": "Yes, I still want it and I care about ... / No, I cannot accept.",
+          "s": "Yes, I still want the role and I care about training opportunities."
+        },
+        {
+          "p": "If you decline, can we contact you for future jobs?",
+          "m": "Chấp nhận hay không. Nói cách họ có thể liên lạc (email/phone).",
+          "h": "Yes, you can contact me by ... / No, I prefer not.",
+          "s": "Yes, you can contact me by email."
+        },
+        {
+          "p": "Please confirm your start date in writing.",
+          "m": "Xác nhận ngày bắt đầu bằng văn bản. Nói bạn sẽ gửi qua email hay không.",
+          "h": "I confirm ... I will send an email to ...",
+          "s": "I confirm I will start on May 1st. I will send an email to confirm."
+        }
+      ]
+    },
+    {
+      "t": "So sánh hai ứng viên",
+      "e": [
+        {
+          "p": "Candidate A has more experience than Candidate B. Who is better for a fast role?",
+          "m": "Chọn ứng viên phù hợp cho công việc nhanh. Nói lý do ngắn (kinh nghiệm/khả năng thích nghi).",
+          "h": "Candidate A/B is better because ... (comparative).",
+          "s": "Candidate A is better for a fast role because they have more experience."
+        },
+        {
+          "p": "One candidate is a great communicator; the other is very technical. Who fits customer service?",
+          "m": "Chọn ứng viên cho customer service. Giải thích ngắn vì sao.",
+          "h": "The communicator fits because ...",
+          "s": "The communicator fits customer service because the job needs clear talks with clients."
+        },
+        {
+          "p": "Both candidates are similar. How do you choose?",
+          "m": "Nêu một tiêu chí bạn sẽ dùng để quyết định. Nói cách xét tiêu chí đó.",
+          "h": "I choose by ... I check ... (Present Simple).",
+          "s": "I choose by checking who has better teamwork skills. I ask for examples from both."
+        },
+        {
+          "p": "If one candidate is cheaper but less experienced, what do you recommend?",
+          "m": "Đưa khuyến nghị: chọn rẻ hay kinh nghiệm. Nói ngắn lý do.",
+          "h": "I recommend ... because ...",
+          "s": "I recommend the more experienced candidate because they will need less training."
+        },
+        {
+          "p": "Which candidate would you invite for a second interview?",
+          "m": "Chọn một ứng viên cho vòng 2. Nói hai lý do ngắn hỗ trợ lựa chọn.",
+          "h": "I would invite ... because ... and ...",
+          "s": "I would invite Candidate A because they have direct experience and strong communication."
+        }
+      ]
+    },
+    {
+      "t": "Báo cáo kết quả phỏng vấn cho quản lý",
+      "e": [
+        {
+          "p": "I need a short summary of the interview with Candidate X.",
+          "m": "Tóm tắt 1 câu về ấn tượng tổng quan. Nêu 1 điểm mạnh chính.",
+          "h": "Past Simple and Present Simple: The candidate was ... They are strong at ...",
+          "s": "The candidate made a good overall impression. Their main strength is communication."
+        },
+        {
+          "p": "What weaknesses did you notice?",
+          "m": "Nêu 1 điểm yếu chính. Nói nếu điểm đó có thể cải thiện hay không.",
+          "h": "They had trouble with ... It can be improved by ...",
+          "s": "They had little technical knowledge. It can be improved with training."
+        },
+        {
+          "p": "Would you recommend hiring this person?",
+          "m": "Nói có hay không. Nêu 1 lý do ngắn hỗ trợ ý kiến.",
+          "h": "I recommend / I do not recommend because ...",
+          "s": "I recommend hiring them because they fit the team and learn quickly."
+        },
+        {
+          "p": "Is this candidate better than the last hire?",
+          "m": "So sánh ngắn: tốt hơn hay kém hơn. Nêu 1 điểm so sánh cụ thể.",
+          "h": "They are better/worse because ... (comparative).",
+          "s": "They are better because they have more customer experience."
+        },
+        {
+          "p": "Any final note for HR about this candidate?",
+          "m": "Đưa 1 ghi chú cuối (ví dụ: yêu cầu kiểm tra tham chiếu). Nói hành động tiếp theo.",
+          "h": "I suggest ... Please ... (Present Simple).",
+          "s": "I suggest we check references. Please schedule a second interview if HR agrees."
+        }
+      ]
+    },
+    {
+      "t": "Phỏng vấn qua điện thoại",
+      "e": [
+        {
+          "p": "Can we do a quick phone interview now?",
+          "m": "Trả lời có thể gọi ngay hay không. Nếu không, đề xuất thời gian khác.",
+          "h": "Yes, I can now. / No, I cannot now. I can at ...",
+          "s": "No, I cannot now. I can do a phone interview at 4 PM today."
+        },
+        {
+          "p": "Are you in a quiet place to talk?",
+          "m": "Xác nhận bạn đang ở nơi yên tĩnh hay không. Nếu không, nói bạn sẽ chuyển đến đâu.",
+          "h": "I am in a quiet place. / I will move to ...",
+          "s": "I am not in a quiet place. I will move to my car for a quiet call."
+        },
+        {
+          "p": "Can you speak about your recent project in two minutes?",
+          "m": "Tóm tắt dự án trong 1 câu. Nói vai trò chính của bạn trong dự án.",
+          "h": "Past Simple: I worked on ... I was responsible for ...",
+          "s": "I worked on a sales project to improve customer calls. I was responsible for training new staff."
+        },
+        {
+          "p": "Do you have a CV file to email after this call?",
+          "m": "Xác nhận bạn sẽ gửi CV. Nói khi bạn sẽ gửi (ví dụ: trong ngày).",
+          "h": "I will send it today / by email now.",
+          "s": "I will send my CV by email today after the call."
+        },
+        {
+          "p": "Would you like a longer interview at our office?",
+          "m": "Trả lời có muốn buổi phỏng vấn dài hơn không. Nêu 1 lý do nếu bạn đồng ý.",
+          "h": "Yes, I would like because ... / No, I prefer ...",
+          "s": "Yes, I would like a longer interview because I can explain my projects better."
+        }
+      ]
+    },
+    {
+      "t": "Phỏng vấn tình huống nhóm nhỏ",
+      "e": [
+        {
+          "p": "How do you share tasks in a small team?",
+          "m": "Mô tả 1 cách bạn phân công công việc. Nói 1 lợi ích của cách đó.",
+          "h": "We/ I divide tasks by ... This helps ...",
+          "s": "We divide tasks by skill and time. This helps the team finish work faster."
+        },
+        {
+          "p": "What role do you take in group work?",
+          "m": "Nói vai trò thường của bạn (leader/support). Nêu ví dụ ngắn khi bạn làm vai đó.",
+          "h": "I usually ... For example, I ... (Past Simple).",
+          "s": "I usually support the team by organizing tasks. For example, I made the weekly plan last month."
+        },
+        {
+          "p": "If two members disagree, what do you do?",
+          "m": "Nói cách bạn giải quyết xung đột. Nêu mục tiêu khi giải quyết.",
+          "h": "I listen and help them find a solution. The goal is ...",
+          "s": "I listen to both and help find a compromise. The goal is to keep the project on track."
+        },
+        {
+          "p": "How do you report team progress to the manager?",
+          "m": "Mô tả cách bạn báo cáo (email/meeting). Nói tần suất báo cáo.",
+          "h": "I report by ... every ... (Present Simple).",
+          "s": "I report by email every Friday with a short update."
+        },
+        {
+          "p": "What will you do if the team misses a target?",
+          "m": "Nói bước bạn sẽ thực hiện để khắc phục. Nói cách tránh lặp lại lỗi.",
+          "h": "We will ... and then we will ... (Future Simple).",
+          "s": "We will analyze the reasons and then set clearer tasks. We will meet more often to avoid repeat mistakes."
+        }
+      ]
+    },
+    {
+      "t": "Ứng phó với câu hỏi khó",
+      "e": [
+        {
+          "p": "Can you explain a gap in your resume?",
+          "m": "Nêu lý do ngắn cho khoảng nghỉ. Nói bạn đã làm gì trong thời gian đó.",
+          "h": "I had a gap because ... I did ... (Past Simple).",
+          "s": "I had a gap because I needed family time. I used the time to take a short course."
+        },
+        {
+          "p": "How do you answer if you don't know a technical question?",
+          "m": "Nói phản ứng bạn sẽ làm (thành thật, tìm hiểu). Nêu hành động kế tiếp.",
+          "h": "I say I don't know and I will learn / I will check and reply.",
+          "s": "I will say I don't know and offer to learn it. I will check and send an answer later."
+        },
+        {
+          "p": "What do you say if salary is lower than you expected?",
+          "m": "Nói phản hồi ngắn (thương lượng hoặc từ chối lịch sự). Nêu lý do nếu bạn thương lượng.",
+          "h": "I can accept if ... / I need ... because ...",
+          "s": "I can accept if there is training or growth. I need a small increase for basic costs."
+        },
+        {
+          "p": "If asked about a mistake you made, what will you say?",
+          "m": "Trình bày lỗi ngắn bạn đã mắc. Nói bạn đã học gì từ lỗi đó.",
+          "h": "I made a mistake when ... I learned to ... (Past Simple).",
+          "s": "I made a mistake by missing a small detail in a report. I learned to check twice before sending."
+        },
+        {
+          "p": "How do you handle a question you disagree with the interviewer on?",
+          "m": "Nói cách trả lời lịch sự và rõ ràng. Nêu mục tiêu của phản hồi.",
+          "h": "I explain my view politely and give an example. The goal is ...",
+          "s": "I explain my view politely and give a short example. The goal is to show my thinking and respect theirs."
+        }
+      ]
+    },
+    {
+      "t": "Ôn tập: Tổng hợp phỏng vấn 1",
+      "e": [
+        {
+          "p": "Describe the interview process you had yesterday.",
+          "m": "Kể ngắn 2-3 bước chính của buổi phỏng vấn theo thứ tự thời gian. Nói 1 ấn tượng chung.",
+          "h": "Past Simple sequence: First ..., Then ..., Finally ... + general impression.",
+          "s": "First the HR called me and asked some questions. Then I had a short test and a manager interview. Overall, I felt positive about the meeting."
+        },
+        {
+          "p": "Summarize your strongest skill from the interview and give an example.",
+          "m": "Nêu kỹ năng mạnh nhất. Cho ví dụ ngắn khi bạn dùng kỹ năng đó.",
+          "h": "Present Simple + Past Simple example: I am good at ... I used it when ...",
+          "s": "My strongest skill is communication. I used it when I helped a client and solved their problem."
+        },
+        {
+          "p": "What will you do next after the interview?",
+          "m": "Nói bước tiếp theo bạn sẽ làm (ví dụ: gửi email, chờ phản hồi). Nói thời gian bạn sẽ làm điều đó.",
+          "h": "I will ... by ... (Future Simple / Present Simple).",
+          "s": "I will send a thank-you email by tomorrow morning."
+        },
+        {
+          "p": "Give one piece of feedback about the interview to HR.",
+          "m": "Nói một góp ý ngắn (tích cực hoặc cần cải thiện). Nói lý do ngắn.",
+          "h": "I suggest ... because ...",
+          "s": "I suggest clearer time info because the schedule changed at short notice."
+        },
+        {
+          "p": "How would you prepare differently for the next interview?",
+          "m": "Nêu 2 việc bạn sẽ làm để chuẩn bị tốt hơn.",
+          "h": "I will ... and I will ... (Future Simple).",
+          "s": "I will practice common answers and I will review the company website."
+        }
+      ]
+    },
+    {
+      "t": "Ôn tập: Tổng hợp phỏng vấn 2",
+      "e": [
+        {
+          "p": "Explain why you are a good fit for this role in two sentences.",
+          "m": "Nêu 1 lý do kỹ năng. Nêu 1 lý do thái độ hoặc kinh nghiệm.",
+          "h": "Present Simple: I am a good fit because ... and I have ...",
+          "s": "I am a good fit because I have strong customer service skills. I also have experience working in small teams."
+        },
+        {
+          "p": "How did you show teamwork in the interview examples?",
+          "m": "Mô tả 1 ví dụ bạn đã đưa ra về teamwork. Nói kết quả ngắn của ví dụ đó.",
+          "h": "Past Simple: I worked with ... and we ...",
+          "s": "I worked with two colleagues on a project and we finished it on time."
+        },
+        {
+          "p": "Name one weakness and how you will improve it.",
+          "m": "Nêu 1 điểm yếu. Nói 1 hành động bạn sẽ làm để cải thiện.",
+          "h": "I am not good at ... I will ... (Future Simple).",
+          "s": "I am not strong in Excel. I will take an online course this month."
+        },
+        {
+          "p": "If you get the job, what will you contribute in the first month?",
+          "m": "Nói 1 việc bạn sẽ làm trong tháng đầu. Nói mục tiêu bạn muốn đạt được.",
+          "h": "I will ... My goal is to ...",
+          "s": "I will learn the team's process and help with daily tasks. My goal is to be productive quickly."
+        },
+        {
+          "p": "Ask HR one final question about the job.",
+          "m": "Viết 1 câu hỏi bạn muốn hỏi HR (về training, giờ làm, hoặc lộ trình).",
+          "h": "What is ...? / Also, ...?",
+          "s": "What training do new employees receive in the first month?"
+        }
+      ]
+    },
+    {
+      "t": "Ôn tập: Kịch bản phỏng vấn hoàn chỉnh",
+      "e": [
+        {
+          "p": "Start the interview by introducing your relevant experience in two sentences.",
+          "m": "Nói 1 câu về kinh nghiệm chính. Nói 1 câu về kết quả hoặc vai trò cụ thể.",
+          "h": "Present Simple / Past Simple: I have ... I did ...",
+          "s": "I have experience in customer support for two years. I improved response time and helped increase satisfaction."
+        },
+        {
+          "p": "Answer why you left your last job in one sentence.",
+          "m": "Nói lý do ngắn và lịch sự (ví dụ: tìm cơ hội mới).",
+          "h": "Past Simple: I left because ...",
+          "s": "I left to find a new opportunity to grow my skills."
+        },
+        {
+          "p": "Describe one challenge you faced and how you solved it.",
+          "m": "Mô tả vấn đề ngắn. Nói hành động bạn làm và kết quả.",
+          "h": "Past Simple sequence: The problem was ... I did ... and ...",
+          "s": "The problem was slow customer replies. I organized a simple FAQ and the replies became faster."
+        },
+        {
+          "p": "State your salary expectation and availability in one sentence.",
+          "m": "Nói mức lương mong muốn (hoặc khoảng). Nói khi bạn có thể bắt đầu.",
+          "h": "I expect ... and I can start ...",
+          "s": "I expect about $500 per month and I can start in two weeks."
+        },
+        {
+          "p": "Finish by asking about the next step in the process.",
+          "m": "Hỏi về bước tiếp theo và thời gian bạn sẽ nhận phản hồi.",
+          "h": "What are the next steps and when will I hear back? (Future Simple)",
+          "s": "What are the next steps and when will I hear back from you?"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,530 @@
+{
+  "l": 1,
+  "d": [
+    {
+      "t": "Gặp gỡ khách du lịch",
+      "e": [
+        {
+          "p": "What is your name?",
+          "m": "Nói tên của bạn.",
+          "h": "I am / My name is ...",
+          "s": "I am [studentName]."
+        },
+        {
+          "p": "Where do you live?",
+          "m": "Nói thành phố bạn sống.",
+          "h": "I live in ...",
+          "s": "I live in [studentCity]."
+        },
+        {
+          "p": "Do you like to visit new places?",
+          "m": "Nói bạn có thích đi tham quan nơi mới hay không.",
+          "h": "Use 'I like' or 'I don't like'.",
+          "s": "I like to visit new places."
+        },
+        {
+          "p": "What place do you visit often?",
+          "m": "Nói một nơi bạn thường đi tham quan.",
+          "h": "I often visit + place.",
+          "s": "I often visit the park."
+        },
+        {
+          "p": "Can you show me a photo of a place?",
+          "m": "Nói bạn có thể làm điều đó hay không.",
+          "h": "Use 'I can' or 'I can't'.",
+          "s": "I can show a photo."
+        }
+      ]
+    },
+    {
+      "t": "Tham quan công viên",
+      "e": [
+        {
+          "p": "Where is the park?",
+          "m": "Nói nơi công viên (gần gì hoặc ở đâu).",
+          "h": "The park is near / The park is in ...",
+          "s": "The park is near my house."
+        },
+        {
+          "p": "What do you see in the park?",
+          "m": "Nói một vật bạn thấy ở công viên.",
+          "h": "I see ...",
+          "s": "I see trees."
+        },
+        {
+          "p": "Do you go to the park in the morning?",
+          "m": "Nói bạn có đi công viên vào buổi sáng hay không.",
+          "h": "Use 'Yes, I go' or 'No, I don't'.",
+          "s": "Yes, I go in the morning."
+        },
+        {
+          "p": "Can you play ball in the park?",
+          "m": "Nói bạn có thể chơi bóng ở công viên hay không.",
+          "h": "I can / I can't + verb",
+          "s": "I can play ball in the park."
+        },
+        {
+          "p": "How do you go to the park?",
+          "m": "Nói cách bạn đi tới công viên (walk, bus, car).",
+          "h": "I go by + walk/bus/car.",
+          "s": "I go by bus."
+        }
+      ]
+    },
+    {
+      "t": "Ngắm biển và bãi biển",
+      "e": [
+        {
+          "p": "Do you like the beach?",
+          "m": "Nói bạn có thích bãi biển hay không.",
+          "h": "I like / I don't like ...",
+          "s": "I like the beach."
+        },
+        {
+          "p": "What do you do at the beach?",
+          "m": "Nói một hoạt động bạn làm ở bãi biển.",
+          "h": "I + verb (play, swim, walk).",
+          "s": "I walk on the sand."
+        },
+        {
+          "p": "Can you swim in the sea?",
+          "m": "Nói bạn có thể bơi ở biển hay không.",
+          "h": "I can / I can't + swim.",
+          "s": "I can swim in the sea."
+        },
+        {
+          "p": "Is the beach clean?",
+          "m": "Nói bãi biển có sạch hay không.",
+          "h": "Use 'It is' or 'It is not'.",
+          "s": "It is clean."
+        },
+        {
+          "p": "Where do you sit at the beach?",
+          "m": "Nói nơi bạn ngồi (sand, chair, near water).",
+          "h": "I sit on / near ...",
+          "s": "I sit on the sand."
+        }
+      ]
+    },
+    {
+      "t": "Thăm bảo tàng",
+      "e": [
+        {
+          "p": "Is the museum open today?",
+          "m": "Nói bảo tàng có mở cửa hôm nay hay không.",
+          "h": "Use 'Yes, it is' or 'No, it is not'.",
+          "s": "Yes, it is open today."
+        },
+        {
+          "p": "What do you see in the museum?",
+          "m": "Nói một thứ bạn thấy trong bảo tàng.",
+          "h": "I see ...",
+          "s": "I see old books."
+        },
+        {
+          "p": "Do you like the history in the museum?",
+          "m": "Nói bạn có thích phần lịch sử trong bảo tàng hay không.",
+          "h": "I like / I don't like ...",
+          "s": "I like the history."
+        },
+        {
+          "p": "How long do you stay in the museum?",
+          "m": "Nói bạn ở trong bảo tàng bao lâu (short time).",
+          "h": "I stay for ... (minutes/hours) or I stay a short time.",
+          "s": "I stay for one hour."
+        },
+        {
+          "p": "Can children enter the museum?",
+          "m": "Nói trẻ em có thể vào bảo tàng hay không.",
+          "h": "Children can / can't + verb",
+          "s": "Children can enter."
+        }
+      ]
+    },
+    {
+      "t": "Mua vé và hỏi giờ",
+      "e": [
+        {
+          "p": "How much is a ticket?",
+          "m": "Nói giá vé (dùng từ 'it is' kèm số đơn giản).",
+          "h": "It is + number + dollars/units.",
+          "s": "It is five dollars."
+        },
+        {
+          "p": "What time does the place open?",
+          "m": "Nói giờ mở cửa đơn giản (use numbers and 'open').",
+          "h": "It opens at + time.",
+          "s": "It opens at nine."
+        },
+        {
+          "p": "What time does it close?",
+          "m": "Nói giờ đóng cửa đơn giản.",
+          "h": "It closes at + time.",
+          "s": "It closes at five."
+        },
+        {
+          "p": "Can I buy a ticket now?",
+          "m": "Trả lời có thể mua vé ngay hay không.",
+          "h": "Use 'Yes, you can' or 'No, you can't'.",
+          "s": "Yes, you can buy a ticket now."
+        },
+        {
+          "p": "Do students get a small price?",
+          "m": "Nói học sinh có giá vé nhỏ hơn hay không.",
+          "h": "Use 'Yes, they do' or 'No, they don't'.",
+          "s": "Yes, students get a small price."
+        }
+      ]
+    },
+    {
+      "t": "Hỏi đường đến địa điểm",
+      "e": [
+        {
+          "p": "Where is the museum?",
+          "m": "Nói nơi bảo tàng (near something).",
+          "h": "The museum is near / in ...",
+          "s": "The museum is near the station."
+        },
+        {
+          "p": "How do I go to the beach?",
+          "m": "Hướng dẫn cách đi (walk, bus, go straight).",
+          "h": "Go by + walk/bus or Go straight then ...",
+          "s": "Go by bus and stop at the beach."
+        },
+        {
+          "p": "Is the park far from here?",
+          "m": "Nói công viên có xa hay không.",
+          "h": "Use 'It is' + far/near.",
+          "s": "It is near here."
+        },
+        {
+          "p": "Can I walk to the museum?",
+          "m": "Nói bạn có thể đi bộ tới bảo tàng hay không.",
+          "h": "I can / I can't + walk",
+          "s": "I can walk to the museum."
+        },
+        {
+          "p": "Where is the ticket office?",
+          "m": "Nói nơi quầy vé (near entrance, next to ...).",
+          "h": "It is near / next to ...",
+          "s": "It is near the entrance."
+        }
+      ]
+    },
+    {
+      "t": "Ăn uống khi đi tham quan",
+      "e": [
+        {
+          "p": "Do you want a drink?",
+          "m": "Nói bạn có muốn đồ uống hay không.",
+          "h": "I want / I don't want ...",
+          "s": "I want water."
+        },
+        {
+          "p": "Where do you eat near the park?",
+          "m": "Nói nơi bạn ăn gần công viên (a shop, a cafe).",
+          "h": "I eat at + place.",
+          "s": "I eat at a cafe near the park."
+        },
+        {
+          "p": "Can you eat there now?",
+          "m": "Nói bạn có thể ăn ở đó ngay hay không.",
+          "h": "I can / I can't + eat",
+          "s": "I can eat there now."
+        },
+        {
+          "p": "What food do you like on a trip?",
+          "m": "Nói một món bạn thích khi đi tham quan.",
+          "h": "I like + food.",
+          "s": "I like fruits."
+        },
+        {
+          "p": "Do you buy food at the beach?",
+          "m": "Nói bạn có mua đồ ăn ở bãi biển hay không.",
+          "h": "Use 'Yes, I do' or 'No, I don't'.",
+          "s": "Yes, I buy food at the beach."
+        }
+      ]
+    },
+    {
+      "t": "Mua quà lưu niệm",
+      "e": [
+        {
+          "p": "Do you want a souvenir?",
+          "m": "Nói bạn có muốn mua quà lưu niệm hay không.",
+          "h": "I want / I don't want ...",
+          "s": "I want a small gift."
+        },
+        {
+          "p": "What gift do you like?",
+          "m": "Nói một món quà bạn thích.",
+          "h": "I like + noun.",
+          "s": "I like a keychain."
+        },
+        {
+          "p": "How much is this gift?",
+          "m": "Nói giá của món quà (dùng số đơn giản).",
+          "h": "It is + number + dollars/units.",
+          "s": "It is three dollars."
+        },
+        {
+          "p": "Can you pay by card?",
+          "m": "Nói bạn có thể trả bằng thẻ hay không.",
+          "h": "Use 'Yes, we can' or 'No, we can't'.",
+          "s": "No, we can't pay by card."
+        },
+        {
+          "p": "Do you buy gifts for friends?",
+          "m": "Nói bạn có mua quà cho bạn bè hay không.",
+          "h": "Use 'Yes, I do' or 'No, I don't'.",
+          "s": "Yes, I buy gifts for friends."
+        }
+      ]
+    },
+    {
+      "t": "Lên kế hoạch chuyến đi ngắn",
+      "e": [
+        {
+          "p": "Where do you go this weekend?",
+          "m": "Nói nơi bạn đi cuối tuần.",
+          "h": "I go to + place.",
+          "s": "I go to the beach this weekend."
+        },
+        {
+          "p": "Who goes with you?",
+          "m": "Nói một người đi cùng (friend, family).",
+          "h": "My + family/friend goes with me or I go with ...",
+          "s": "My friend goes with me."
+        },
+        {
+          "p": "Do you go by car or bus?",
+          "m": "Nói phương tiện bạn dùng (car/bus/walk).",
+          "h": "I go by + car/bus/walk.",
+          "s": "I go by car."
+        },
+        {
+          "p": "Can you stay one night?",
+          "m": "Nói bạn có thể ở lại một đêm hay không.",
+          "h": "I can / I can't + stay.",
+          "s": "I can stay one night."
+        },
+        {
+          "p": "What time do you leave?",
+          "m": "Nói giờ bạn rời đi (dùng số đơn giản).",
+          "h": "I leave at + time.",
+          "s": "I leave at seven."
+        }
+      ]
+    },
+    {
+      "t": "Nói về địa điểm yêu thích",
+      "e": [
+        {
+          "p": "What is your favorite place?",
+          "m": "Nói nơi bạn thích nhất.",
+          "h": "My favorite place is ...",
+          "s": "My favorite place is the park."
+        },
+        {
+          "p": "Why do you like it?",
+          "m": "Nói lý do ngắn bạn thích nơi đó.",
+          "h": "Use 'because' + short reason.",
+          "s": "I like it because it is quiet."
+        },
+        {
+          "p": "Do you go there alone?",
+          "m": "Nói bạn có đi một mình hay không.",
+          "h": "I go alone / with someone.",
+          "s": "I go with my family."
+        },
+        {
+          "p": "Can you go there every week?",
+          "m": "Nói bạn có thể đi mỗi tuần hay không.",
+          "h": "Use 'I can' or 'I can't'.",
+          "s": "I can go every week."
+        },
+        {
+          "p": "What do you do there?",
+          "m": "Nói một hoạt động bạn làm ở đó.",
+          "h": "I + verb (walk, play, see).",
+          "s": "I walk and see birds."
+        }
+      ]
+    },
+    {
+      "t": "Mời bạn cùng đi",
+      "e": [
+        {
+          "p": "Do you want to come with me?",
+          "m": "Trả lời bạn có muốn đi cùng hay không.",
+          "h": "I want to / I don't want to ...",
+          "s": "I want to come with you."
+        },
+        {
+          "p": "What day is good for you?",
+          "m": "Nói một ngày phù hợp (today, tomorrow).",
+          "h": "Say 'today' or 'tomorrow' or a day name.",
+          "s": "Tomorrow is good."
+        },
+        {
+          "p": "Can you come at nine?",
+          "m": "Nói bạn có thể đến lúc chín hay không.",
+          "h": "I can / I can't + come at ...",
+          "s": "I can come at nine."
+        },
+        {
+          "p": "Do you have a car?",
+          "m": "Nói bạn có xe hay không.",
+          "h": "Use 'I have' or 'I don't have'.",
+          "s": "I don't have a car."
+        },
+        {
+          "p": "Where do we meet?",
+          "m": "Nói nơi hai người gặp nhau.",
+          "h": "We meet at + place.",
+          "s": "We meet at the bus stop."
+        }
+      ]
+    },
+    {
+      "t": "Kể về một trải nghiệm du lịch",
+      "e": [
+        {
+          "p": "Where did you go yesterday?",
+          "m": "Nói nơi bạn đi hôm qua (dùng dạng đơn giản giới thiệu).",
+          "h": "I went to ... (can use 'I go' for simple present)",
+          "s": "I went to the museum."
+        },
+        {
+          "p": "Who did you go with?",
+          "m": "Nói người bạn đi cùng (friend, family).",
+          "h": "I went with + friend/family.",
+          "s": "I went with my friend."
+        },
+        {
+          "p": "What did you see there?",
+          "m": "Nói một thứ bạn nhìn thấy (simple noun).",
+          "h": "I saw / I see ... (use simple form)",
+          "s": "I saw old art."
+        },
+        {
+          "p": "Did you like the place?",
+          "m": "Nói bạn có thích nơi đó hay không.",
+          "h": "Use 'Yes, I did' or 'No, I did not' or 'I like / don't like'.",
+          "s": "Yes, I liked the place."
+        },
+        {
+          "p": "Can you go again next week?",
+          "m": "Nói bạn có thể đi lần nữa tuần sau hay không.",
+          "h": "I can / I can't + go again.",
+          "s": "I can go again next week."
+        }
+      ]
+    },
+    {
+      "t": "Ôn tập: Tham quan cơ bản",
+      "e": [
+        {
+          "p": "What place do you like to visit?",
+          "m": "Nói một nơi bạn thích tham quan.",
+          "h": "I like + place.",
+          "s": "I like the park."
+        },
+        {
+          "p": "How do you go to that place?",
+          "m": "Nói phương tiện bạn dùng để đến nơi đó.",
+          "h": "I go by + car/bus/walk.",
+          "s": "I go by bus."
+        },
+        {
+          "p": "Do you go there every week?",
+          "m": "Nói tần suất bạn đến nơi đó.",
+          "h": "Use 'every day/week' or 'sometimes'.",
+          "s": "I go there every week."
+        },
+        {
+          "p": "Can you take photos there?",
+          "m": "Nói bạn có thể chụp ảnh ở đó hay không.",
+          "h": "I can / I can't + take photos.",
+          "s": "I can take photos there."
+        },
+        {
+          "p": "Who do you go with?",
+          "m": "Nói người bạn đi cùng.",
+          "h": "I go with + friend/family.",
+          "s": "I go with my family."
+        }
+      ]
+    },
+    {
+      "t": "Ôn tập: Kế hoạch và hoạt động",
+      "e": [
+        {
+          "p": "Where do you go this holiday?",
+          "m": "Nói nơi bạn đi trong kỳ nghỉ.",
+          "h": "I go to + place.",
+          "s": "I go to the beach."
+        },
+        {
+          "p": "What time do you leave home?",
+          "m": "Nói giờ bạn rời nhà.",
+          "h": "I leave at + time.",
+          "s": "I leave at eight."
+        },
+        {
+          "p": "Do you buy food on the trip?",
+          "m": "Nói bạn có mua đồ ăn khi đi hay không.",
+          "h": "Use 'Yes, I do' or 'No, I don't'.",
+          "s": "Yes, I buy food on the trip."
+        },
+        {
+          "p": "Can you sleep in a tent?",
+          "m": "Nói bạn có thể ngủ lều hay không.",
+          "h": "Use 'I can' or 'I can't'.",
+          "s": "I can't sleep in a tent."
+        },
+        {
+          "p": "What do you do in the morning there?",
+          "m": "Nói một hoạt động bạn làm buổi sáng.",
+          "h": "I + verb (walk, eat, see).",
+          "s": "I walk on the beach in the morning."
+        }
+      ]
+    },
+    {
+      "t": "Ôn tập: Tổng hợp",
+      "e": [
+        {
+          "p": "What is your plan for today?",
+          "m": "Nói kế hoạch hôm nay (một việc cụ thể).",
+          "h": "I will / I go to ... (use simple present)",
+          "s": "I go to the park today."
+        },
+        {
+          "p": "Do you need a map?",
+          "m": "Nói bạn có cần bản đồ hay không.",
+          "h": "Use 'Yes, I need' or 'No, I don't need'.",
+          "s": "No, I don't need a map."
+        },
+        {
+          "p": "Where is the best view here?",
+          "m": "Nói nơi có cảnh đẹp nhất (short).",
+          "h": "The best view is at / in ...",
+          "s": "The best view is at the top of the hill."
+        },
+        {
+          "p": "Can you buy water at the place?",
+          "m": "Nói bạn có thể mua nước ở đó hay không.",
+          "h": "I can / I can't + buy + water",
+          "s": "I can buy water there."
+        },
+        {
+          "p": "Who do you tell about your trip?",
+          "m": "Nói người bạn kể về chuyến đi (friend/family).",
+          "h": "I tell + friend/family.",
+          "s": "I tell my friend about my trip."
+        }
+      ]
+    }
+  ]
+}

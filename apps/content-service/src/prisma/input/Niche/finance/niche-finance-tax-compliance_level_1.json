@@ -1,0 +1,530 @@
+{
+  "l": 1,
+  "d": [
+    {
+      "t": "Gặp cán bộ thuế",
+      "e": [
+        {
+          "p": "Can I have your name for the form?",
+          "m": "Viết tên của bạn.",
+          "h": "Use 'My name is ...'.",
+          "s": "My name is [studentName]."
+        },
+        {
+          "p": "How old are you?",
+          "m": "Nói tuổi của bạn.",
+          "h": "Use 'I am ... years old.'.",
+          "s": "I am [studentAge] years old."
+        },
+        {
+          "p": "Where do you live?",
+          "m": "Nói nơi bạn sống.",
+          "h": "Use 'I live in ...'.",
+          "s": "I live in [studentCity]."
+        },
+        {
+          "p": "Do you work?",
+          "m": "Nói bạn có làm việc hay không.",
+          "h": "Use 'I work.' or 'I don't work.'.",
+          "s": "I work."
+        },
+        {
+          "p": "What is your job?",
+          "m": "Nói nghề nghiệp của bạn.",
+          "h": "Use 'I am a ...' or 'I am ...'.",
+          "s": "I am a [studentJob]."
+        }
+      ]
+    },
+    {
+      "t": "Nộp hồ sơ đơn giản",
+      "e": [
+        {
+          "p": "Do you have the tax form?",
+          "m": "Nói bạn có form thuế không.",
+          "h": "Use 'Yes, I have it.' or 'No, I don't.'.",
+          "s": "Yes, I have it."
+        },
+        {
+          "p": "Is the form complete?",
+          "m": "Nói form đã đầy đủ hay chưa.",
+          "h": "Use 'It is complete.' or 'It is not complete.'.",
+          "s": "It is complete."
+        },
+        {
+          "p": "Do you have your ID card?",
+          "m": "Nói bạn có CMND/ID không.",
+          "h": "Use 'I have ...' or 'I don't have ...'.",
+          "s": "I have my ID."
+        },
+        {
+          "p": "Is there an error on the form?",
+          "m": "Nói có lỗi trên form hay không.",
+          "h": "Use 'There is ...' or 'There are no ...'.",
+          "s": "There is an error."
+        },
+        {
+          "p": "Can you sign here?",
+          "m": "Nói bạn có thể ký ở đây hay không.",
+          "h": "Use 'Yes, I can.' or 'No, I can't.'.",
+          "s": "Yes, I can sign."
+        }
+      ]
+    },
+    {
+      "t": "Nói về nghề nghiệp và thuế",
+      "e": [
+        {
+          "p": "Do you pay tax at work?",
+          "m": "Nói bạn có nộp thuế ở chỗ làm không.",
+          "h": "Use 'I pay ...' or 'I don't pay ...'.",
+          "s": "I pay tax at work."
+        },
+        {
+          "p": "How much tax do you pay?",
+          "m": "Nói số tiền thuế bạn trả (một từ số).",
+          "h": "Use 'I pay ...'.",
+          "s": "I pay 10."
+        },
+        {
+          "p": "Do you get a tax receipt?",
+          "m": "Nói bạn có nhận biên lai thuế không.",
+          "h": "Use 'I get ...' or 'I don't get ...'.",
+          "s": "I get a tax receipt."
+        },
+        {
+          "p": "Where do you pay tax?",
+          "m": "Nói nơi bạn nộp thuế.",
+          "h": "Use 'I pay at ...'.",
+          "s": "I pay at the tax office."
+        },
+        {
+          "p": "Does your company follow rules?",
+          "m": "Nói công ty bạn có tuân thủ quy định không.",
+          "h": "Use 'My company ...s' or 'My company does not ...'.",
+          "s": "My company follows rules."
+        }
+      ]
+    },
+    {
+      "t": "Hỏi về số tiền phải trả",
+      "e": [
+        {
+          "p": "How much is the tax?",
+          "m": "Nói số tiền thuế.",
+          "h": "Use 'It is ...' or 'I pay ...'.",
+          "s": "It is 20."
+        },
+        {
+          "p": "Do you have money to pay?",
+          "m": "Nói bạn có tiền để trả không.",
+          "h": "Use 'I have ...' or 'I don't have ...'.",
+          "s": "I have money."
+        },
+        {
+          "p": "Can you pay now?",
+          "m": "Nói bạn có thể trả bây giờ không.",
+          "h": "Use 'I can ...' or 'I can't ...'.",
+          "s": "I can pay now."
+        },
+        {
+          "p": "Do you need a receipt?",
+          "m": "Nói bạn có cần biên lai không.",
+          "h": "Use 'I need ...' or 'I don't need ...'.",
+          "s": "I need a receipt."
+        },
+        {
+          "p": "Where do you get the money?",
+          "m": "Nói nguồn tiền của bạn.",
+          "h": "Use 'My money is in ...' or 'I have money in ...'.",
+          "s": "My money is in the bank."
+        }
+      ]
+    },
+    {
+      "t": "Hẹn ngày nộp thuế",
+      "e": [
+        {
+          "p": "When is the due date?",
+          "m": "Nói ngày hạn (ví dụ: today).",
+          "h": "Use 'It is ...' or 'It is on ...'.",
+          "s": "It is today."
+        },
+        {
+          "p": "Can you come on Friday?",
+          "m": "Nói bạn có thể đến vào thứ Sáu không.",
+          "h": "Use 'I can ...' or 'I can't ...'.",
+          "s": "I can't come on Friday."
+        },
+        {
+          "p": "Do you want to reschedule?",
+          "m": "Nói bạn có muốn đổi lịch không.",
+          "h": "Use 'I want ...' or 'I don't want ...'.",
+          "s": "I want to reschedule."
+        },
+        {
+          "p": "What time is good for you?",
+          "m": "Nói thời gian tốt cho bạn (morning/afternoon).",
+          "h": "Use 'Morning is good.' or 'Afternoon is good.'.",
+          "s": "Morning is good."
+        },
+        {
+          "p": "Do you need a reminder?",
+          "m": "Nói bạn có cần nhắc nhở không.",
+          "h": "Use 'I need ...' or 'I don't need ...'.",
+          "s": "I need a reminder."
+        }
+      ]
+    },
+    {
+      "t": "Nhận biên lai",
+      "e": [
+        {
+          "p": "Do you want the receipt now?",
+          "m": "Nói bạn có muốn biên lai ngay bây giờ không.",
+          "h": "Use 'Yes, I want ...' or 'No, I don't ...'.",
+          "s": "Yes, I want it now."
+        },
+        {
+          "p": "Is the receipt correct?",
+          "m": "Nói biên lai có đúng không.",
+          "h": "Use 'It is correct.' or 'It is not correct.'.",
+          "s": "It is correct."
+        },
+        {
+          "p": "Do you need a paper copy?",
+          "m": "Nói bạn có cần bản giấy không.",
+          "h": "Use 'I need ...' or 'I don't need ...'.",
+          "s": "I need a paper copy."
+        },
+        {
+          "p": "Can you sign the receipt?",
+          "m": "Nói bạn có thể ký biên lai không.",
+          "h": "Use 'I can ...' or 'I can't ...'.",
+          "s": "I can sign the receipt."
+        },
+        {
+          "p": "Do you want to keep the receipt?",
+          "m": "Nói bạn giữ biên lai hay cán bộ giữ.",
+          "h": "Use 'I keep ...' or 'You keep ...'.",
+          "s": "I keep the receipt."
+        }
+      ]
+    },
+    {
+      "t": "Hỏi về mã số thuế",
+      "e": [
+        {
+          "p": "Do you have a tax ID?",
+          "m": "Nói bạn có mã số thuế không.",
+          "h": "Use 'I have ...' or 'I don't have ...'.",
+          "s": "I have a tax ID."
+        },
+        {
+          "p": "What is your tax ID number?",
+          "m": "Nói mã số thuế của bạn.",
+          "h": "Use 'My tax ID is ...'.",
+          "s": "My tax ID is 123."
+        },
+        {
+          "p": "Where do you write the ID on the form?",
+          "m": "Nói nơi bạn viết mã số trên form.",
+          "h": "Use 'I write it on ...' or 'On the ...'.",
+          "s": "I write it on the top of the form."
+        },
+        {
+          "p": "Is the tax ID correct?",
+          "m": "Xác nhận mã số thuế đúng hay không.",
+          "h": "Use 'It is correct.' or 'It is not correct.'.",
+          "s": "It is correct."
+        },
+        {
+          "p": "Can I check your tax ID number?",
+          "m": "Trả lời đồng ý hoặc không đồng ý cho kiểm tra mã số.",
+          "h": "Use 'Yes, you can.' or 'No, you can't.'.",
+          "s": "Yes, you can check it."
+        }
+      ]
+    },
+    {
+      "t": "Tuân thủ quy định cơ bản",
+      "e": [
+        {
+          "p": "Do you follow tax rules?",
+          "m": "Nói bạn có tuân thủ quy định thuế không.",
+          "h": "Use 'I follow ...' or 'I don't follow ...'.",
+          "s": "I follow tax rules."
+        },
+        {
+          "p": "Are your records correct?",
+          "m": "Nói sổ sách của bạn có đúng không.",
+          "h": "Use 'They are ...' or 'They are not ...'.",
+          "s": "They are correct."
+        },
+        {
+          "p": "Do you keep receipts?",
+          "m": "Nói bạn có giữ biên lai không.",
+          "h": "Use 'I keep ...' or 'I don't keep ...'.",
+          "s": "I keep receipts."
+        },
+        {
+          "p": "Can you show your papers?",
+          "m": "Nói bạn có thể trình giấy tờ không.",
+          "h": "Use 'I can ...' or 'I can't ...'.",
+          "s": "I can show the papers."
+        },
+        {
+          "p": "Do you read the tax rules?",
+          "m": "Nói bạn có đọc quy định thuế không.",
+          "h": "Use 'I read ...' or 'I don't read ...'.",
+          "s": "I read the rules."
+        }
+      ]
+    },
+    {
+      "t": "Câu hỏi về tiền lương và thuế",
+      "e": [
+        {
+          "p": "Do you get a salary?",
+          "m": "Nói bạn có nhận lương không.",
+          "h": "Use 'I get ...' or 'I don't get ...'.",
+          "s": "I get a salary."
+        },
+        {
+          "p": "How much is your salary?",
+          "m": "Nói số tiền lương của bạn.",
+          "h": "Use 'My salary is ...' or 'It is ...'.",
+          "s": "My salary is 100."
+        },
+        {
+          "p": "Do you pay tax on your salary?",
+          "m": "Nói bạn có nộp thuế từ lương không.",
+          "h": "Use 'I pay ...' or 'I don't pay ...'.",
+          "s": "I pay tax on my salary."
+        },
+        {
+          "p": "Does your employer pay tax?",
+          "m": "Nói công ty/chủ có nộp thuế không.",
+          "h": "Use 'They pay ...' or 'They do not pay ...'.",
+          "s": "They pay tax."
+        },
+        {
+          "p": "Do you get a payslip?",
+          "m": "Nói bạn có nhận phiếu lương không.",
+          "h": "Use 'I get ...' or 'I don't get ...'.",
+          "s": "I get a pay slip."
+        }
+      ]
+    },
+    {
+      "t": "Công ty nhỏ và thuế",
+      "e": [
+        {
+          "p": "Is your company small?",
+          "m": "Nói công ty bạn có nhỏ không.",
+          "h": "Use 'It is ...' or 'It is not ...'.",
+          "s": "My company is small."
+        },
+        {
+          "p": "Is the company registered?",
+          "m": "Nói công ty đã đăng ký chưa.",
+          "h": "Use 'It is registered.' or 'It is not registered.'.",
+          "s": "It is registered."
+        },
+        {
+          "p": "Do you pay company tax?",
+          "m": "Nói công ty bạn có nộp thuế công ty không.",
+          "h": "Use 'We pay ...' or 'We don't pay ...'.",
+          "s": "We pay company tax."
+        },
+        {
+          "p": "Do you keep company bills?",
+          "m": "Nói bạn có giữ hóa đơn công ty không.",
+          "h": "Use 'I keep ...' or 'I don't keep ...'.",
+          "s": "I keep company bills."
+        },
+        {
+          "p": "Do you pay taxes every year?",
+          "m": "Nói công ty có nộp thuế hàng năm không.",
+          "h": "Use 'We pay ...' or 'We don't pay ...'.",
+          "s": "We pay taxes every year."
+        }
+      ]
+    },
+    {
+      "t": "Thanh toán trực tuyến",
+      "e": [
+        {
+          "p": "Do you pay online?",
+          "m": "Nói bạn có thanh toán trực tuyến không.",
+          "h": "Use 'I pay online.' or 'I don't pay online.'.",
+          "s": "I pay online."
+        },
+        {
+          "p": "Is the payment website safe?",
+          "m": "Nói trang web thanh toán có an toàn không.",
+          "h": "Use 'It is safe.' or 'It is not safe.'.",
+          "s": "It is safe."
+        },
+        {
+          "p": "Do you need help to pay online?",
+          "m": "Nói bạn có cần giúp khi trả tiền trực tuyến không.",
+          "h": "Use 'I need help.' or 'I don't need help.'.",
+          "s": "I need help to pay."
+        },
+        {
+          "p": "Can you enter your card number now?",
+          "m": "Nói bạn có thể nhập số thẻ ngay bây giờ không.",
+          "h": "Use 'I can ...' or 'I can't ...'.",
+          "s": "I can enter my card number."
+        },
+        {
+          "p": "Do you get an email confirmation?",
+          "m": "Nói bạn có nhận email xác nhận không.",
+          "h": "Use 'I get ...' or 'I don't get ...'.",
+          "s": "I get an email confirmation."
+        }
+      ]
+    },
+    {
+      "t": "Phát hiện lỗi trên mẫu",
+      "e": [
+        {
+          "p": "Is the name wrong here?",
+          "m": "Nói tên ở đây có sai không.",
+          "h": "Use 'It is wrong.' or 'It is right.'.",
+          "s": "It is wrong."
+        },
+        {
+          "p": "Do you see a missing number?",
+          "m": "Nói bạn có thấy thiếu số không.",
+          "h": "Use 'I see ...' or 'I don't see ...'.",
+          "s": "I see a missing number."
+        },
+        {
+          "p": "Can you correct the date?",
+          "m": "Nói bạn có thể sửa ngày không.",
+          "h": "Use 'I can ...' or 'I can't ...'.",
+          "s": "I can correct the date."
+        },
+        {
+          "p": "Do you sign after correction?",
+          "m": "Nói bạn có ký sau khi sửa không.",
+          "h": "Use 'I sign.' or 'I don't sign.'.",
+          "s": "I sign after correction."
+        },
+        {
+          "p": "Is the form ready now?",
+          "m": "Xác nhận form đã sẵn sàng.",
+          "h": "Use 'It is ready.'",
+          "s": "It is ready now."
+        }
+      ]
+    },
+    {
+      "t": "Ôn tập: Giao tiếp với cơ quan thuế",
+      "e": [
+        {
+          "p": "Please give your name.",
+          "m": "Nói tên của bạn.",
+          "h": "Use 'My name is ...'.",
+          "s": "My name is [studentName]."
+        },
+        {
+          "p": "Tell me your tax ID.",
+          "m": "Nói mã số thuế của bạn.",
+          "h": "Use 'My tax ID is ...'.",
+          "s": "My tax ID is 123."
+        },
+        {
+          "p": "Do you pay tax?",
+          "m": "Nói bạn có nộp thuế không.",
+          "h": "Use 'I pay ...' or 'I don't pay ...'.",
+          "s": "I pay tax."
+        },
+        {
+          "p": "Do you have a receipt?",
+          "m": "Nói bạn có biên lai không.",
+          "h": "Use 'I have ...' or 'I don't have ...'.",
+          "s": "I have a receipt."
+        },
+        {
+          "p": "Is the form complete?",
+          "m": "Nói form đã đầy đủ không.",
+          "h": "Use 'It is complete.' or 'It is not complete.'.",
+          "s": "It is complete."
+        }
+      ]
+    },
+    {
+      "t": "Ôn tập: Nộp tiền và biên lai",
+      "e": [
+        {
+          "p": "How much do you pay?",
+          "m": "Nói số tiền bạn trả.",
+          "h": "Use 'I pay ...' or 'It is ...'.",
+          "s": "I pay 50."
+        },
+        {
+          "p": "Can you pay now?",
+          "m": "Nói bạn có thể trả bây giờ không.",
+          "h": "Use 'I can ...' or 'I can't ...'.",
+          "s": "I can pay now."
+        },
+        {
+          "p": "Do you want a paper receipt?",
+          "m": "Nói bạn có muốn biên lai giấy không.",
+          "h": "Use 'I want ...' or 'I don't want ...'.",
+          "s": "I want a paper receipt."
+        },
+        {
+          "p": "Do you need help online to pay?",
+          "m": "Nói bạn có cần giúp trực tuyến để thanh toán không.",
+          "h": "Use 'I need ...' or 'I don't need ...'.",
+          "s": "I need help online."
+        },
+        {
+          "p": "Is the payment complete now?",
+          "m": "Xác nhận thanh toán đã hoàn tất.",
+          "h": "Use 'It is complete.'",
+          "s": "It is complete."
+        }
+      ]
+    },
+    {
+      "t": "Ôn tập: Quy tắc và mã số thuế",
+      "e": [
+        {
+          "p": "Do you follow the tax rules?",
+          "m": "Nói bạn có tuân thủ quy tắc thuế không.",
+          "h": "Use 'I follow ...' or 'I don't follow ...'.",
+          "s": "I follow tax rules."
+        },
+        {
+          "p": "Where do you write your tax ID on the form?",
+          "m": "Nói nơi bạn viết mã số thuế trên form.",
+          "h": "Use 'I write it on ...' or 'On the ...'.",
+          "s": "I write it on the top of the form."
+        },
+        {
+          "p": "Do you keep receipts every month?",
+          "m": "Nói bạn có giữ biên lai mỗi tháng không.",
+          "h": "Use 'I keep ...' or 'I don't keep ...'.",
+          "s": "I keep receipts every month."
+        },
+        {
+          "p": "Is your company registered?",
+          "m": "Nói công ty bạn đã đăng ký chưa.",
+          "h": "Use 'It is registered.' or 'It is not registered.'.",
+          "s": "It is registered."
+        },
+        {
+          "p": "Do you file or pay taxes every year?",
+          "m": "Nói bạn có nộp thuế hàng năm không.",
+          "h": "Use 'I file ...' or 'I pay ...'.",
+          "s": "I file taxes every year."
+        }
+      ]
+    }
+  ]
+}

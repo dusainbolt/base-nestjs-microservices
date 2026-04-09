@@ -1,0 +1,530 @@
+{
+  "l": 1,
+  "d": [
+    {
+      "t": "Tại quầy hàng",
+      "e": [
+        {
+          "p": "How much is this?",
+          "m": "Nói giá của món hàng (một câu).",
+          "h": "It is + price.",
+          "s": "It is 50 dollars."
+        },
+        {
+          "p": "Can you lower the price?",
+          "m": "Trả lời có thể giảm hay không và nêu số tiền giảm (một câu).",
+          "h": "I can/can't + give + amount + off.",
+          "s": "I can give 5 dollars off."
+        },
+        {
+          "p": "I only have 40 dollars.",
+          "m": "Nói bạn có thể bán với giá bao nhiêu (một câu).",
+          "h": "I can sell it for + price.",
+          "s": "I can sell it for 45 dollars."
+        },
+        {
+          "p": "Do you accept 40 dollars?",
+          "m": "Nói chấp nhận hay không (một câu).",
+          "h": "I accept / I can't accept + amount.",
+          "s": "I can't accept 40 dollars."
+        },
+        {
+          "p": "If I buy now, can you give a free bag?",
+          "m": "Trả lời có cho quà hay không và nêu quà (một câu).",
+          "h": "Yes, I can give / No, I can't give + item.",
+          "s": "Yes, I can give a free bag."
+        }
+      ]
+    },
+    {
+      "t": "Gặp khách hàng mới",
+      "e": [
+        {
+          "p": "Are you interested in our product?",
+          "m": "Nói bạn quan tâm hay không (một câu).",
+          "h": "Yes, I am / No, I am not + reason (tùy chọn).",
+          "s": "Yes, I am interested."
+        },
+        {
+          "p": "What price do you want?",
+          "m": "Nói giá bạn muốn trả (một câu).",
+          "h": "I want + price.",
+          "s": "I want 40 dollars."
+        },
+        {
+          "p": "Do you have a budget?",
+          "m": "Nói ngân sách của bạn (một câu).",
+          "h": "My budget is + number + dollars.",
+          "s": "My budget is 45 dollars."
+        },
+        {
+          "p": "Can you meet next week to sign?",
+          "m": "Nói bạn có thể gặp hay không (một câu).",
+          "h": "I can / I can't + meet + time.",
+          "s": "I can meet next week."
+        },
+        {
+          "p": "How many do you want to buy?",
+          "m": "Nói số lượng bạn muốn (một câu).",
+          "h": "I want + number + items.",
+          "s": "I want two items."
+        }
+      ]
+    },
+    {
+      "t": "Đàm phán qua điện thoại",
+      "e": [
+        {
+          "p": "Hello, can we talk about price?",
+          "m": "Trả lời đồng ý nói chuyện bây giờ hay không (một câu).",
+          "h": "Yes, we can / No, we can't.",
+          "s": "Yes, we can talk now."
+        },
+        {
+          "p": "The price is 60 dollars. Is it OK?",
+          "m": "Nói bạn chấp nhận hay không (một câu).",
+          "h": "I accept / I don't accept + price.",
+          "s": "I don't accept 60 dollars."
+        },
+        {
+          "p": "Can you pay by card?",
+          "m": "Nói bạn có thể trả bằng thẻ hay không (một câu).",
+          "h": "I can / I can't + pay by card.",
+          "s": "I can pay by card."
+        },
+        {
+          "p": "I need fast delivery. Is this possible?",
+          "m": "Nói có giao nhanh được hay không (một câu).",
+          "h": "We can / We can't + deliver + quickly.",
+          "s": "We can deliver in two days."
+        },
+        {
+          "p": "Can you send an email with the price?",
+          "m": "Trả lời bạn có gửi email hay không (một câu).",
+          "h": "I will / I can't + send + email.",
+          "s": "I will send the price by email."
+        }
+      ]
+    },
+    {
+      "t": "Thương lượng giá sỉ",
+      "e": [
+        {
+          "p": "Do you buy many pieces?",
+          "m": "Nói số lượng bạn mua (một câu).",
+          "h": "I buy + number + items.",
+          "s": "I buy ten pieces."
+        },
+        {
+          "p": "We give discount for many pieces. Do you want a discount?",
+          "m": "Nói bạn muốn giảm giá hay không (một câu).",
+          "h": "Yes, I want / No, I don't want + discount.",
+          "s": "Yes, I want a discount."
+        },
+        {
+          "p": "What price per piece do you want?",
+          "m": "Nói giá mỗi cái bạn muốn (một câu).",
+          "h": "I want + price + per piece.",
+          "s": "I want 8 dollars per piece."
+        },
+        {
+          "p": "If you buy 20, we lower the price. Do you accept?",
+          "m": "Nói bạn có chấp nhận mua 20 hay không (một câu).",
+          "h": "I accept / I don't accept + condition.",
+          "s": "I accept to buy 20 pieces."
+        },
+        {
+          "p": "Can you pay now for a lower price?",
+          "m": "Trả lời bạn có thể trả ngay hay không (một câu).",
+          "h": "I can / I can't + pay now.",
+          "s": "I can pay now."
+        }
+      ]
+    },
+    {
+      "t": "Thỏa thuận về giao hàng",
+      "e": [
+        {
+          "p": "When can you deliver?",
+          "m": "Nói thời gian giao hàng (một câu).",
+          "h": "We deliver + time.",
+          "s": "We deliver in three days."
+        },
+        {
+          "p": "Do you want home delivery?",
+          "m": "Nói bạn muốn giao tận nhà hay không (một câu).",
+          "h": "Yes, I want / No, I don't want + delivery.",
+          "s": "Yes, I want home delivery."
+        },
+        {
+          "p": "Is delivery free?",
+          "m": "Trả lời phí giao hàng có miễn hay không (một câu).",
+          "h": "Delivery is free / Delivery is not free.",
+          "s": "Delivery is free."
+        },
+        {
+          "p": "Can you set a delivery time?",
+          "m": "Nói bạn có thể chọn giờ giao hay không (một câu).",
+          "h": "Yes, we can / No, we can't + set time.",
+          "s": "Yes, we can set a delivery time."
+        },
+        {
+          "p": "I need delivery on Monday. Is it OK?",
+          "m": "Trả lời có thể giao vào thứ Hai hay không (một câu).",
+          "h": "We can / We can't + deliver on + day.",
+          "s": "We can deliver on Monday."
+        }
+      ]
+    },
+    {
+      "t": "Điều khoản thanh toán",
+      "e": [
+        {
+          "p": "How do you want to pay?",
+          "m": "Nói cách bạn muốn thanh toán (một câu).",
+          "h": "I want to pay by + card/cash.",
+          "s": "I want to pay by card."
+        },
+        {
+          "p": "Is a deposit needed?",
+          "m": "Trả lời cần đặt cọc hay không (một câu).",
+          "h": "Yes, a deposit is needed / No, it is not needed.",
+          "s": "Yes, a deposit is needed."
+        },
+        {
+          "p": "How much is the deposit?",
+          "m": "Nói số tiền đặt cọc (một câu).",
+          "h": "The deposit is + amount + dollars.",
+          "s": "The deposit is 20 dollars."
+        },
+        {
+          "p": "Can I pay later?",
+          "m": "Nói bạn có thể trả sau hay không (một câu).",
+          "h": "You can / You can't + pay later.",
+          "s": "You can pay later."
+        },
+        {
+          "p": "Do you accept cash only?",
+          "m": "Nói chấp nhận chỉ tiền mặt hay không (một câu).",
+          "h": "We accept + payment methods.",
+          "s": "We accept card and cash."
+        }
+      ]
+    },
+    {
+      "t": "Bảo hành và đổi trả",
+      "e": [
+        {
+          "p": "Is there a warranty?",
+          "m": "Trả lời có bảo hành hay không (một câu).",
+          "h": "Yes, there is / No, there is not.",
+          "s": "Yes, there is a one month warranty."
+        },
+        {
+          "p": "How long is the warranty?",
+          "m": "Nói thời gian bảo hành (một câu).",
+          "h": "The warranty is + time.",
+          "s": "The warranty is one month."
+        },
+        {
+          "p": "Can I return a broken item?",
+          "m": "Trả lời có thể đổi trả hàng hỏng hay không (một câu).",
+          "h": "You can / You can't + return + broken item.",
+          "s": "You can return a broken item."
+        },
+        {
+          "p": "Do you give a refund?",
+          "m": "Nói có trả lại tiền hay không (một câu).",
+          "h": "We give / We don't give + refund.",
+          "s": "We give a refund."
+        },
+        {
+          "p": "What is the return time?",
+          "m": "Nói thời gian trả hàng (một câu).",
+          "h": "You can return within + number + days.",
+          "s": "You can return within 7 days."
+        }
+      ]
+    },
+    {
+      "t": "Giảm giá đặc biệt",
+      "e": [
+        {
+          "p": "We have a special discount today.",
+          "m": "Bắt đầu bằng câu đồng ý nhận tin (một câu).",
+          "h": "Yes, I hear / Okay, I hear.",
+          "s": "Okay, I hear the special discount."
+        },
+        {
+          "p": "The discount is 10 dollars off.",
+          "m": "Nói bạn có lấy giảm giá này không (một câu).",
+          "h": "I take it / I don't take it.",
+          "s": "I take the discount."
+        },
+        {
+          "p": "Is the discount for one item only?",
+          "m": "Trả lời có hay không (một câu).",
+          "h": "Yes, it is / No, it is not.",
+          "s": "No, it is not for one item only."
+        },
+        {
+          "p": "Can I use the discount with other offers?",
+          "m": "Trả lời có thể dùng với chương trình khác không (một câu).",
+          "h": "You can / You can't + use + with other offers.",
+          "s": "You can't use it with other offers."
+        },
+        {
+          "p": "Do you want to buy now for the discount?",
+          "m": "Nói bạn có mua ngay hay không (một câu).",
+          "h": "Yes, I want to buy now / No, I don't.",
+          "s": "Yes, I want to buy now."
+        }
+      ]
+    },
+    {
+      "t": "Vấn đề về hợp đồng đơn giản",
+      "e": [
+        {
+          "p": "Do you read the contract?",
+          "m": "Nói bạn có đọc hợp đồng hay không (một câu).",
+          "h": "I read / I don't read + the contract.",
+          "s": "I read the contract."
+        },
+        {
+          "p": "Is the contract clear?",
+          "m": "Nói hợp đồng có rõ ràng hay không (một câu).",
+          "h": "Yes, it is clear / No, it is not clear.",
+          "s": "Yes, it is clear."
+        },
+        {
+          "p": "Do you agree with the terms?",
+          "m": "Nói bạn có đồng ý các điều khoản hay không (một câu).",
+          "h": "I agree / I don't agree + with the terms.",
+          "s": "I agree with the terms."
+        },
+        {
+          "p": "Can we change one clause?",
+          "m": "Trả lời có thể thay điều khoản hay không (một câu).",
+          "h": "We can / We can't + change + clause.",
+          "s": "We can change one clause."
+        },
+        {
+          "p": "Will you sign the contract today?",
+          "m": "Nói bạn có ký hôm nay hay không (một câu).",
+          "h": "I will / I won't + sign + today.",
+          "s": "I will sign the contract today."
+        }
+      ]
+    },
+    {
+      "t": "Thuyết phục khách hàng mua thêm",
+      "e": [
+        {
+          "p": "Do you need accessories?",
+          "m": "Nói bạn có cần phụ kiện hay không (một câu).",
+          "h": "Yes, I need / No, I don't need + accessories.",
+          "s": "Yes, I need accessories."
+        },
+        {
+          "p": "We give a small gift with this item.",
+          "m": "Trả lời bạn có muốn quà hay không (một câu).",
+          "h": "I want / I don't want + the gift.",
+          "s": "I want the small gift."
+        },
+        {
+          "p": "If you buy one more, you get 5 dollars off.",
+          "m": "Nói bạn có mua thêm hay không (một câu).",
+          "h": "I will / I won't + buy one more.",
+          "s": "I will buy one more."
+        },
+        {
+          "p": "Do you like this color?",
+          "m": "Nói bạn có thích màu này hay không (một câu).",
+          "h": "I like / I don't like + this color.",
+          "s": "I like this color."
+        },
+        {
+          "p": "Can I show another product?",
+          "m": "Trả lời có cho xem sản phẩm khác hay không (một câu).",
+          "h": "Yes, you can / No, you can't + show.",
+          "s": "Yes, you can show another product."
+        }
+      ]
+    },
+    {
+      "t": "So sánh giá với đối thủ",
+      "e": [
+        {
+          "p": "The competitor sells this for 40 dollars.",
+          "m": "Bình luận về giá đối thủ (một câu).",
+          "h": "Our price is / Their price is + number.",
+          "s": "Their price is 40 dollars."
+        },
+        {
+          "p": "Is our price better?",
+          "m": "Nói giá của chúng ta có tốt hơn hay không (một câu).",
+          "h": "Yes, it is / No, it is not + better.",
+          "s": "No, our price is not better."
+        },
+        {
+          "p": "Can we give a lower price than them?",
+          "m": "Nói có thể giảm giá thấp hơn đối thủ hay không (một câu).",
+          "h": "We can / We can't + give + lower price.",
+          "s": "We can give a lower price."
+        },
+        {
+          "p": "What is our final price?",
+          "m": "Nói giá cuối cùng của chúng ta (một câu).",
+          "h": "Our final price is + number.",
+          "s": "Our final price is 38 dollars."
+        },
+        {
+          "p": "Do you choose us or them?",
+          "m": "Nói bạn chọn bên nào (một câu).",
+          "h": "I choose + us/them.",
+          "s": "I choose us."
+        }
+      ]
+    },
+    {
+      "t": "Đặt lịch hẹn để ký hợp đồng",
+      "e": [
+        {
+          "p": "Can we meet to sign the contract?",
+          "m": "Đáp lời có thể gặp hay không (một câu).",
+          "h": "I can / I can't + meet.",
+          "s": "I can meet to sign the contract."
+        },
+        {
+          "p": "Which day is good for you?",
+          "m": "Nói ngày phù hợp (một câu).",
+          "h": "I am free on + day.",
+          "s": "I am free on Friday."
+        },
+        {
+          "p": "What time do you prefer?",
+          "m": "Nói giờ bạn muốn gặp (một câu).",
+          "h": "I prefer + time.",
+          "s": "I prefer 10 a.m."
+        },
+        {
+          "p": "Do you bring the ID and documents?",
+          "m": "Trả lời bạn có mang giấy tờ hay không (một câu).",
+          "h": "Yes, I bring / No, I don't bring + documents.",
+          "s": "Yes, I bring the documents."
+        },
+        {
+          "p": "Can we meet at your office?",
+          "m": "Nói bạn có thể gặp tại văn phòng họ hay không (một câu).",
+          "h": "Yes, we can / No, we can't + meet at + place.",
+          "s": "Yes, we can meet at your office."
+        }
+      ]
+    },
+    {
+      "t": "Ôn tập: Thương lượng bán lẻ",
+      "e": [
+        {
+          "p": "How much is this item?",
+          "m": "Nêu giá của món hàng (một câu).",
+          "h": "It is + price.",
+          "s": "It is 30 dollars."
+        },
+        {
+          "p": "Can you give a discount if I buy two?",
+          "m": "Nói bạn có thể giảm giá khi mua hai cái hay không (một câu).",
+          "h": "I can / I can't + give + discount.",
+          "s": "I can give 5 dollars off."
+        },
+        {
+          "p": "Do you accept card payment?",
+          "m": "Trả lời có chấp nhận thẻ hay không (một câu).",
+          "h": "We accept / We don't accept + card.",
+          "s": "We accept card payment."
+        },
+        {
+          "p": "Is delivery free for two items?",
+          "m": "Nói giao hàng có miễn cho hai món không (một câu).",
+          "h": "Delivery is free / Delivery is not free.",
+          "s": "Delivery is free for two items."
+        },
+        {
+          "p": "Can I return if the item is bad?",
+          "m": "Trả lời có thể trả lại khi hàng hư hay không (một câu).",
+          "h": "You can / You can't + return + bad item.",
+          "s": "You can return the item if it is bad."
+        }
+      ]
+    },
+    {
+      "t": "Ôn tập: Hợp đồng và giao hàng",
+      "e": [
+        {
+          "p": "Do you read the terms in the contract?",
+          "m": "Nói bạn có đọc điều khoản hay không (một câu).",
+          "h": "I read / I don't read + the terms.",
+          "s": "I read the terms in the contract."
+        },
+        {
+          "p": "Can you deliver on Friday?",
+          "m": "Nói có thể giao vào thứ Sáu hay không (một câu).",
+          "h": "We can / We can't + deliver on + day.",
+          "s": "We can deliver on Friday."
+        },
+        {
+          "p": "Is a deposit needed for the order?",
+          "m": "Trả lời cần đặt cọc hay không (một câu).",
+          "h": "Yes, a deposit is needed / No, it is not needed.",
+          "s": "Yes, a deposit is needed."
+        },
+        {
+          "p": "Do you sign the contract now?",
+          "m": "Nói bạn có ký hợp đồng ngay hay không (một câu).",
+          "h": "I will sign now / I won't sign now.",
+          "s": "I will sign the contract now."
+        },
+        {
+          "p": "Can we change the delivery address?",
+          "m": "Trả lời có thể thay địa chỉ giao hàng hay không (một câu).",
+          "h": "We can / We can't + change + address.",
+          "s": "We can change the delivery address."
+        }
+      ]
+    },
+    {
+      "t": "Ôn tập: Thuyết phục và trả lời phản đối",
+      "e": [
+        {
+          "p": "I think the price is high.",
+          "m": "Phản hồi ngắn gọn để thuyết phục (một câu).",
+          "h": "We offer / We can + reason or offer.",
+          "s": "We offer good quality for the price."
+        },
+        {
+          "p": "I need a lower price.",
+          "m": "Đề xuất một mức giá thấp hơn (một câu).",
+          "h": "I can give + lower price.",
+          "s": "I can give 5 dollars off."
+        },
+        {
+          "p": "I am not sure about the payment.",
+          "m": "Trấn an về hình thức thanh toán (một câu).",
+          "h": "You can pay by + method.",
+          "s": "You can pay by card or cash."
+        },
+        {
+          "p": "I want a short warranty.",
+          "m": "Nói thời gian bảo hành bạn có thể cho (một câu).",
+          "h": "We give + time + warranty.",
+          "s": "We give a one month warranty."
+        },
+        {
+          "p": "I need time to think.",
+          "m": "Trả lời bạn đồng ý cho thời gian hay không (một câu).",
+          "h": "You can / You can't + take + time.",
+          "s": "You can take time to think."
+        }
+      ]
+    }
+  ]
+}

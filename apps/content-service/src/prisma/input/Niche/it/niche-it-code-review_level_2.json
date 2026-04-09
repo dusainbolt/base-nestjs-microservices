@@ -1,0 +1,530 @@
+{
+  "l": 2,
+  "d": [
+    {
+      "t": "Giới thiệu người mới trong nhóm",
+      "e": [
+        {
+          "p": "Can you tell the team your name and job?",
+          "m": "Nói tên của bạn. Nói nghề/nghiệp bạn làm.",
+          "h": "I am + [name]. / I am a + job.",
+          "s": "I am [studentName]. I am a [studentJob]."
+        },
+        {
+          "p": "How often do you review code here?",
+          "m": "Nói tần suất bạn review code. Nói một việc bạn làm khi review.",
+          "h": "Use adv of frequency + present simple; short action in present simple.",
+          "s": "I often review code. I check functions and tests."
+        },
+        {
+          "p": "What are you doing now in the project?",
+          "m": "Nói phần code bạn đang xem bây giờ (V-ing). Nói mục đích bạn xem nó.",
+          "h": "Use: I am + V-ing; say purpose.",
+          "s": "I am reading the login function. I am finding small bugs."
+        },
+        {
+          "p": "Do you enjoy code review?",
+          "m": "Nói bạn có thích việc review code không. Nói lý do ngắn.",
+          "h": "Use: I like / I don't like + V-ing or noun.",
+          "s": "I sometimes like code review. It helps me learn code."
+        },
+        {
+          "p": "Can you suggest one simple change to this file?",
+          "m": "Nói một điểm cần cải thiện. Nói bạn sẽ làm gì để sửa.",
+          "h": "Use present simple for fact + will or present for plan.",
+          "s": "The variable names are not clear. I will rename them to be simple."
+        }
+      ]
+    },
+    {
+      "t": "Hỏi về phần code cụ thể",
+      "e": [
+        {
+          "p": "What does this function do?",
+          "m": "Mô tả ngắn chức năng. Nói bạn có thấy lỗi không.",
+          "h": "Use present simple: It + V + O; I + V + not/see.",
+          "s": "This function checks user input. I do not see a big error."
+        },
+        {
+          "p": "Is this loop necessary?",
+          "m": "Nói có hay không. Nói lý do ngắn.",
+          "h": "Use: Yes, it is / No, it is not + reason.",
+          "s": "No, it is not necessary. It repeats work and slows code."
+        },
+        {
+          "p": "How many tests cover this feature?",
+          "m": "Nói số tests hiện có. Nói nếu bạn cần thêm test hay không.",
+          "h": "Use: There are + number + tests; I need / do not need + more.",
+          "s": "There are two tests for this feature. I need one more test."
+        },
+        {
+          "p": "Are you fixing this bug now?",
+          "m": "Nói bạn có đang sửa lỗi này bây giờ không. Nói bước tiếp theo bạn làm.",
+          "h": "Use: I am + V-ing; I will + V / I check + N.",
+          "s": "I am fixing the bug now. I will run tests after fix."
+        },
+        {
+          "p": "Can you explain one risk if we change this line?",
+          "m": "Nói một rủi ro khi thay dòng đó. Nói cách giảm rủi ro.",
+          "h": "Use present simple for risk; use I will or we can + verb.",
+          "s": "Changing the line may break login. We can add a test to avoid it."
+        }
+      ]
+    },
+    {
+      "t": "Nói về lỗi nhỏ (small bugs)",
+      "e": [
+        {
+          "p": "I found a tiny bug in your file.",
+          "m": "Xác nhận bạn thấy bug. Nói bạn sẽ làm gì tiếp theo.",
+          "h": "Use: I see / I don't see; I will + V.",
+          "s": "I see the bug in line 20. I will fix it and push a change."
+        },
+        {
+          "p": "Is the UI broken on mobile?",
+          "m": "Nói nó có bị hỏng không. Nói bạn thường kiểm tra ở đâu.",
+          "h": "Use: It is / It is not + V-ing; I usually + V.",
+          "s": "It is broken on small screens. I usually check on my phone."
+        },
+        {
+          "p": "How often do these bugs appear?",
+          "m": "Nói tần suất bug xảy ra. Nói một ví dụ tình huống.",
+          "h": "Use adv of frequency + present simple; give short example.",
+          "s": "These bugs sometimes appear. They happen when users enter empty data."
+        },
+        {
+          "p": "Can you write one test now?",
+          "m": "Nói bạn có thể viết test không. Nói test kiểm tra gì.",
+          "h": "Use: I can + V; It checks + noun.",
+          "s": "I can write a simple test. It checks the input and output."
+        },
+        {
+          "p": "Do you fix this after review or now?",
+          "m": "Nói bạn sẽ sửa bây giờ hay sau review. Nói lý do ngắn.",
+          "h": "Use present simple for plan; give reason with because.",
+          "s": "I will fix it now. I want to prevent more bugs."
+        }
+      ]
+    },
+    {
+      "t": "Thảo luận thay đổi mã đơn giản",
+      "e": [
+        {
+          "p": "Can you add one comment to this function?",
+          "m": "Nói bạn có thể thêm comment không. Nói comment sẽ mô tả gì.",
+          "h": "Use: I can + V; It describes + noun.",
+          "s": "I can add a short comment. It describes the function purpose."
+        },
+        {
+          "p": "Do we need this if statement?",
+          "m": "Nói có cần hay không. Nói bạn làm gì nếu không cần.",
+          "h": "Use: It is/ is not needed; I will remove/keep it.",
+          "s": "It is not needed now. I will remove it to make code simple."
+        },
+        {
+          "p": "How many lines will you change?",
+          "m": "Nói số dòng bạn sẽ thay. Nói nếu thay đổi nhỏ hay lớn.",
+          "h": "Use: I will change + number + lines; It is small/large.",
+          "s": "I will change three lines. It is a small change."
+        },
+        {
+          "p": "Are you committing now or later?",
+          "m": "Nói bạn đang commit bây giờ hay sau. Nói lý do ngắn.",
+          "h": "Use: I am committing now / I will commit later; give reason.",
+          "s": "I am committing now. I want to finish the fix today."
+        },
+        {
+          "p": "What will you name the new variable?",
+          "m": "Nói tên biến bạn sẽ dùng. Nói vì sao tên đó tốt.",
+          "h": "Use present simple to state name and reason: It is + adjective.",
+          "s": "I will name it userId. The name is clear and short."
+        }
+      ]
+    },
+    {
+      "t": "Gợi ý cải thiện hàm",
+      "e": [
+        {
+          "p": "Can you suggest a better name for this function?",
+          "m": "Nói tên mới cho hàm. Nói lý do ngắn vì sao tốt.",
+          "h": "Use: I will / I suggest + name; reason with because or short phrase.",
+          "s": "I suggest name checkUser. It is clear and simple."
+        },
+        {
+          "p": "Should we split this long function?",
+          "m": "Nói có nên tách không. Nói lợi ích ngắn.",
+          "h": "Use: Yes/No + it is + reason.",
+          "s": "Yes, we should split it. It makes code easier to read."
+        },
+        {
+          "p": "How often do you refactor code?",
+          "m": "Nói tần suất bạn refactor. Nói một ví dụ việc refactor gần đây.",
+          "h": "Use adv of frequency + present simple; short example in past simple allowed? Keep present: I usually + V.",
+          "s": "I often refactor code. I clean functions and rename variables."
+        },
+        {
+          "p": "Are you changing logic now?",
+          "m": "Nói bạn có đang đổi logic bây giờ không. Nói bước tiếp theo.",
+          "h": "Use present continuous and plan in present simple.",
+          "s": "I am changing logic now. I will run tests after changes."
+        },
+        {
+          "p": "What one rule can improve readability?",
+          "m": "Nói một quy tắc đơn giản. Nói cách bạn áp dụng nó.",
+          "h": "Use present simple to state rule and I + V to say action.",
+          "s": "Use clear names for variables. I always rename unclear names."
+        }
+      ]
+    },
+    {
+      "t": "Hỏi về thói quen viết code",
+      "e": [
+        {
+          "p": "Do you write tests before code?",
+          "m": "Nói bạn có viết test trước không. Nói lý do ngắn.",
+          "h": "Use: I usually / I do not + V; give short reason.",
+          "s": "I usually write tests first. It helps me find errors early."
+        },
+        {
+          "p": "How do you name your variables?",
+          "m": "Nói cách bạn đặt tên biến. Nói ví dụ ngắn.",
+          "h": "Use present simple: I + V + noun; give short example.",
+          "s": "I use short clear names. For example I use userId."
+        },
+        {
+          "p": "Are you using a style guide now?",
+          "m": "Nói bạn có dùng style guide không. Nói tên guide nếu có.",
+          "h": "Use: I use / I do not use + guide name or general phrase.",
+          "s": "I use a simple style guide. It says use two spaces and clear names."
+        },
+        {
+          "p": "What do you usually check in review?",
+          "m": "Nói hai việc bạn thường kiểm tra (1 per sentence).",
+          "h": "Use present simple for habits: I check + noun.",
+          "s": "I check function names and tests. I check code style and comments."
+        },
+        {
+          "p": "Can you show one habit you want to change?",
+          "m": "Nói một thói quen bạn muốn thay. Nói bạn sẽ làm gì khác.",
+          "h": "Use: I often / I sometimes + V; I will + V for change.",
+          "s": "I sometimes skip tests. I will write tests every time."
+        }
+      ]
+    },
+    {
+      "t": "Thảo luận về hiệu suất đơn giản",
+      "e": [
+        {
+          "p": "Is this code slow now?",
+          "m": "Nói code có chậm không. Nói phần bạn nghi ngờ gây chậm.",
+          "h": "Use: It is / It is not + adjective; name part with present simple.",
+          "s": "It is a bit slow now. The loop in search is the problem."
+        },
+        {
+          "p": "How many users use this feature now?",
+          "m": "Nói số lượng người dùng hiện tại (ước lượng). Nói nếu nó nhiều hay ít.",
+          "h": "Use: There are + number + users; say many/ few.",
+          "s": "There are about ten users now. It is a few users."
+        },
+        {
+          "p": "Are you testing speed locally?",
+          "m": "Nói bạn có đang test tốc độ không. Nói bạn làm gì khi test.",
+          "h": "Use present continuous and simple verb for action.",
+          "s": "I am testing speed locally. I run a small script and measure time."
+        },
+        {
+          "p": "Can you change one thing to make it faster?",
+          "m": "Nói một thay đổi bạn làm. Nói kết quả bạn mong đợi.",
+          "h": "Use: I will + V; It will + V for result.",
+          "s": "I will cache the result. It will make the function faster."
+        },
+        {
+          "p": "Do you always check performance after changes?",
+          "m": "Nói tần suất bạn kiểm tra performance. Nói cách kiểm tra ngắn.",
+          "h": "Use adv of frequency + present simple; short method phrase.",
+          "s": "I usually check performance. I run the script and watch time."
+        }
+      ]
+    },
+    {
+      "t": "Quy ước đặt tên biến",
+      "e": [
+        {
+          "p": "Can you give a clear name for this var?",
+          "m": "Nói tên biến mới. Nói vì sao rõ ràng.",
+          "h": "Use present simple: I name it + reason.",
+          "s": "I name it userEmail. It shows the value and is short."
+        },
+        {
+          "p": "Do you use camelCase or snake_case?",
+          "m": "Nói bạn dùng kiểu nào. Nói ví dụ ngắn.",
+          "h": "Use present simple to state choice and example.",
+          "s": "I use camelCase. For example userEmail is camelCase."
+        },
+        {
+          "p": "How often do you rename bad names?",
+          "m": "Nói tần suất bạn đổi tên. Nói khi nào bạn đổi.",
+          "h": "Use adv of frequency + present simple; state condition.",
+          "s": "I often rename bad names. I do it during code cleanup."
+        },
+        {
+          "p": "Are there many unclear names here?",
+          "m": "Nói có nhiều tên không rõ không. Nói bạn làm gì với chúng.",
+          "h": "Use: There are + number + N; I will + V to action.",
+          "s": "There are three unclear names here. I will rename them."
+        },
+        {
+          "p": "Can you teach one rule for naming?",
+          "m": "Nói một quy tắc đơn giản. Nói bạn áp dụng nó sao.",
+          "h": "Use present simple to state rule and I + V for action.",
+          "s": "Use short meaningful names. I always choose clear words."
+        }
+      ]
+    },
+    {
+      "t": "Xử lý phản hồi từ code review",
+      "e": [
+        {
+          "p": "I left a comment about a typo.",
+          "m": "Xác nhận bạn thấy comment. Nói bạn sẽ làm gì với typo.",
+          "h": "Use: I see / I will + V for action.",
+          "s": "I see your comment. I will fix the typo now."
+        },
+        {
+          "p": "Can you accept this change in the PR?",
+          "m": "Nói bạn có thể approve không. Nói bạn làm gì trước khi approve.",
+          "h": "Use: I can / I cannot + V; state short check with I + V-ing.",
+          "s": "I can approve the PR. I will run tests first."
+        },
+        {
+          "p": "How many comments are unresolved?",
+          "m": "Nói số comment chưa giải quyết. Nói bạn có đang làm việc trên chúng không.",
+          "h": "Use: There are + number; I am + V-ing for current action.",
+          "s": "There are two unresolved comments. I am working on them now."
+        },
+        {
+          "p": "Are you okay with the suggested change?",
+          "m": "Nói bạn đồng ý hay không. Nói lý do ngắn.",
+          "h": "Use: I agree / I do not agree + reason.",
+          "s": "I agree with the suggestion. It makes code simpler."
+        },
+        {
+          "p": "What will you do after review?",
+          "m": "Nói hành động tiếp theo bạn sẽ làm. Nói khi nào bạn làm.",
+          "h": "Use: I will + V; say time with today/after review.",
+          "s": "I will update the code after review. I will finish it today."
+        }
+      ]
+    },
+    {
+      "t": "Lập kế hoạch sửa lỗi",
+      "e": [
+        {
+          "p": "Can you fix this bug today?",
+          "m": "Nói bạn có thể sửa hôm nay không. Nói nếu không, nói khi nào.",
+          "h": "Use: I can / I cannot + V; give time with tomorrow/today.",
+          "s": "I can fix it today. I will push changes this afternoon."
+        },
+        {
+          "p": "What is your first step to fix?",
+          "m": "Nói bước đầu bạn làm. Nói mục đích của bước đó.",
+          "h": "Use present simple: I will / I + V; say purpose.",
+          "s": "I will run the failing test. It shows the exact error."
+        },
+        {
+          "p": "Do you need help from others?",
+          "m": "Nói bạn có cần giúp đỡ không. Nói ai bạn cần giúp.",
+          "h": "Use: I need / I do not need + help; name role if needed.",
+          "s": "I do not need help now. I will ask QA if the bug stays."
+        },
+        {
+          "p": "How long will the fix take?",
+          "m": "Ước lượng thời gian ngắn. Nói bước tiếp theo sau fix.",
+          "h": "Use: It will take + time; I will + V next.",
+          "s": "It will take about one hour. I will run tests after fix."
+        },
+        {
+          "p": "Are you making a small or big change?",
+          "m": "Nói thay đổi nhỏ hay lớn. Nói lý do ngắn.",
+          "h": "Use present simple to state size and give short reason.",
+          "s": "I am making a small change. The fix updates one function only."
+        }
+      ]
+    },
+    {
+      "t": "Kiểm tra tính đúng chức năng",
+      "e": [
+        {
+          "p": "Does the login work now?",
+          "m": "Nói login có hoạt động không. Nói bạn kiểm tra như thế nào.",
+          "h": "Use: It works / It does not work; I + V to say test action.",
+          "s": "It works now. I tested with a sample account."
+        },
+        {
+          "p": "How many steps to reproduce the bug?",
+          "m": "Nói số bước. Nói bước đầu bạn làm để bắt đầu.",
+          "h": "Use: There are + number + steps; describe first step simply.",
+          "s": "There are three steps to reproduce. First, open the login page."
+        },
+        {
+          "p": "Are users still seeing the error?",
+          "m": "Nói người dùng có thấy lỗi không. Nói bạn có theo dõi không.",
+          "h": "Use present simple and present continuous for action.",
+          "s": "Users are not seeing the error now. I am monitoring the logs."
+        },
+        {
+          "p": "Can you check one case quickly?",
+          "m": "Nói bạn có thể kiểm tra trường hợp không. Nói kết quả ngắn.",
+          "h": "Use: I can + V; It returns / It shows + result.",
+          "s": "I can check the empty input case. It returns an error message."
+        },
+        {
+          "p": "What do you do if test fails?",
+          "m": "Nói hành động bạn làm khi test fail. Nói bạn có thông báo ai không.",
+          "h": "Use present simple: I debug and I notify + person/role.",
+          "s": "I debug the code first. I notify the team lead if needed."
+        }
+      ]
+    },
+    {
+      "t": "Giữ cuộc họp code review ngắn",
+      "e": [
+        {
+          "p": "Can we have a short review now?",
+          "m": "Nói bạn có thể tham gia không. Nói bạn sẽ nói điều gì ngắn gọn.",
+          "h": "Use: I can / I cannot + V; state one point with present simple.",
+          "s": "I can join the short review. I will mention the tests."
+        },
+        {
+          "p": "What is one main point to discuss?",
+          "m": "Nói một điểm chính. Nói bạn muốn kết luận gì.",
+          "h": "Use present simple to state point and conclusion.",
+          "s": "The main point is variable names. We should rename unclear names."
+        },
+        {
+          "p": "Are you ready to approve after meeting?",
+          "m": "Nói bạn có sẵn sàng approve không. Nói điều bạn cần trước khi approve.",
+          "h": "Use: I am ready / I am not ready; say short condition.",
+          "s": "I am ready to approve. I need one test to pass first."
+        },
+        {
+          "p": "How long will the meeting take?",
+          "m": "Ước lượng thời gian. Nói bạn có thể ở lại đủ thời gian không.",
+          "h": "Use: It will take + time; I can / cannot + V.",
+          "s": "It will take ten minutes. I can stay for the meeting."
+        },
+        {
+          "p": "Do you often join quick reviews?",
+          "m": "Nói tần suất bạn tham gia. Nói lợi ích ngắn khi tham gia.",
+          "h": "Use adv of frequency + present simple; short benefit sentence.",
+          "s": "I often join quick reviews. They help me find bugs fast."
+        }
+      ]
+    },
+    {
+      "t": "Ôn tập: Nhận xét chung về PR",
+      "e": [
+        {
+          "p": "Can you give a short PR summary?",
+          "m": "Tóm tắt PR trong một câu. Nói bạn có approve hay không trong câu thứ hai.",
+          "h": "Use present simple: It + does/changes; I will / I will not approve.",
+          "s": "The PR fixes the login bug. I will approve after tests pass."
+        },
+        {
+          "p": "Are there many changes in files?",
+          "m": "Nói số file thay đổi. Nói chúng là thay đổi nhỏ hay lớn.",
+          "h": "Use: There are + number; It is small/large change.",
+          "s": "There are five changed files. It is a small change overall."
+        },
+        {
+          "p": "Do you see any style issues here?",
+          "m": "Nói có style issue không. Nói bạn làm gì với nó.",
+          "h": "Use present simple and I will + V for action.",
+          "s": "I see a few style issues. I will fix them before merge."
+        },
+        {
+          "p": "Can you test the main flow quickly?",
+          "m": "Xác nhận bạn có thể test. Nói kết quả test ngắn.",
+          "h": "Use: I can + V; It works / It does not work.",
+          "s": "I can test the main flow. It works on my machine."
+        },
+        {
+          "p": "What is one risk to merge now?",
+          "m": "Nói một rủi ro ngắn. Nói bạn sẽ làm gì để giảm rủi ro.",
+          "h": "Use present simple for risk; I will + V for mitigation.",
+          "s": "The risk is breaking a rare case. I will add a test to reduce it."
+        }
+      ]
+    },
+    {
+      "t": "Ôn tập: Giao tiếp về lỗi và sửa chữa",
+      "e": [
+        {
+          "p": "Did you fix the bug I reported?",
+          "m": "Nói bạn đã sửa hay chưa. Nói bạn đã làm gì để sửa.",
+          "h": "Use: I fixed / I did not fix + reason or action.",
+          "s": "I fixed the bug. I updated the function and ran tests."
+        },
+        {
+          "p": "How many tests did you add?",
+          "m": "Nói số test bạn thêm. Nói test kiểm tra gì.",
+          "h": "Use: I added + number; It checks + noun.",
+          "s": "I added two tests. They check empty input and edge case."
+        },
+        {
+          "p": "Are you running tests now?",
+          "m": "Nói bạn có đang chạy test không. Nói nếu có lỗi hiện ra hay không.",
+          "h": "Use present continuous and present simple for result.",
+          "s": "I am running tests now. No errors appear so far."
+        },
+        {
+          "p": "Can you push the fix after tests?",
+          "m": "Nói bạn có thể push không. Nói khi nào bạn push.",
+          "h": "Use: I can / I will + V; give time.",
+          "s": "I can push the fix soon. I will push after tests pass."
+        },
+        {
+          "p": "What will you tell the reporter?",
+          "m": "Nói bạn sẽ nói ngắn cho người báo lỗi. Nói bạn có cần họ kiểm tra lại không.",
+          "h": "Use present simple and will for next action.",
+          "s": "I will tell them the bug is fixed. I will ask them to test again."
+        }
+      ]
+    },
+    {
+      "t": "Ôn tập: Quy tắc và thói quen khi review",
+      "e": [
+        {
+          "p": "What rule do you follow for commits?",
+          "m": "Nói một quy tắc commit bạn theo. Nói bạn thường làm gì trong message.",
+          "h": "Use present simple to state rule and habit.",
+          "s": "I write short clear commit messages. I include the change reason."
+        },
+        {
+          "p": "Do you often review with a checklist?",
+          "m": "Nói bạn có dùng checklist không. Nói một mục trong checklist.",
+          "h": "Use adv of frequency and present simple; list one item.",
+          "s": "I usually use a checklist. I check tests and code style."
+        },
+        {
+          "p": "Are you sharing feedback with the author?",
+          "m": "Nói bạn có chia sẻ feedback không. Nói cách bạn nói ngắn (văn bản/miệng).",
+          "h": "Use present simple and short method phrase.",
+          "s": "I share feedback in the PR comments. I write clear and kind notes."
+        },
+        {
+          "p": "How do you keep reviews short?",
+          "m": "Nói cách bạn giữ review ngắn. Nói một ví dụ hành động.",
+          "h": "Use present simple and action example.",
+          "s": "I focus on main issues first. I leave small style notes for later."
+        },
+        {
+          "p": "Will you keep improving your review skill?",
+          "m": "Nói bạn có tiếp tục cải thiện không. Nói một việc bạn sẽ làm.",
+          "h": "Use: I will + V; simple plan.",
+          "s": "I will keep improving my review skill. I will read code daily."
+        }
+      ]
+    }
+  ]
+}

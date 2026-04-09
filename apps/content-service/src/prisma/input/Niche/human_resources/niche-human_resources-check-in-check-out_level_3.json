@@ -1,0 +1,565 @@
+{
+  "l": 3,
+  "d": [
+    {
+      "t": "Nhận phòng tại lễ tân",
+      "e": [
+        {
+          "p": "Welcome to our hotel. Do you have a reservation?",
+          "m": "Cho biết tên đặt phòng. Nói ngày đến và số đêm bạn ở.",
+          "h": "Present Simple: My reservation is for / I am staying for",
+          "s": "The reservation is under [studentName]. My reservation is for tonight and I will stay for two nights."
+        },
+        {
+          "p": "Can I see your ID and a credit card, please?",
+          "m": "Nói bạn có mang ID hay không. Nói bạn sẽ trả bằng thẻ hay tiền mặt.",
+          "h": "Present Simple: I have / I will pay with",
+          "s": "I have my ID with me. I will pay with my credit card."
+        },
+        {
+          "p": "Would you like a non-smoking or a smoking room?",
+          "m": "Chọn loại phòng. Nói lý do ngắn cho lựa chọn.",
+          "h": "Present Simple: I want / because",
+          "s": "I want a non-smoking room because I don't like smoke."
+        },
+        {
+          "p": "We only have a standard room available, is that OK?",
+          "m": "Nói bạn có chấp nhận phòng standard hay muốn hỏi nâng cấp. Nếu muốn nâng cấp, hỏi cách làm.",
+          "h": "Present Simple / can: That's OK / Can I have",
+          "s": "That's OK, I will take the standard room. Can I have a room on a high floor?"
+        },
+        {
+          "p": "Your room is ready. Do you need help with your luggage?",
+          "m": "Nói có cần giúp hay không. Nếu cần, nói số phòng hoặc tầng để phục vụ mang hành lý.",
+          "h": "Use will or Please + verb",
+          "s": "Yes, please help with my luggage. Please bring it to room 305 on the third floor. Thank you."
+        }
+      ]
+    },
+    {
+      "t": "Xác nhận đặt phòng qua điện thoại",
+      "e": [
+        {
+          "p": "Hello, do you have a booking with us for next week?",
+          "m": "Xác nhận tên đặt phòng. Nói ngày đến và ngày đi.",
+          "h": "Past Simple/Present Simple: The booking is under / is from ... to ...",
+          "s": "The booking is under [studentName]. It is from June 12 to June 15."
+        },
+        {
+          "p": "Can you tell me the number of guests for the room?",
+          "m": "Nói số khách. Nói nếu có trẻ em.",
+          "h": "Present Simple: There are / There is",
+          "s": "There are two guests. There is one child with us."
+        },
+        {
+          "p": "Do you need an airport pickup?",
+          "m": "Nói có cần đón hay không. Nếu có, cho biết giờ đến.",
+          "h": "Use will / Present Simple: I need / My flight arrives at",
+          "s": "Yes, I need an airport pickup. My flight arrives at 3 pm."
+        },
+        {
+          "p": "Would you like to add breakfast to your booking?",
+          "m": "Nói có muốn bữa sáng hay không. Nếu có, nói số người cần bữa sáng.",
+          "h": "Present Simple: I want / for two people",
+          "s": "Yes, I want breakfast. Please add it for two people."
+        },
+        {
+          "p": "Can I confirm your contact phone number?",
+          "m": "Nói số điện thoại hiện tại. Nói nếu cần thay đổi số.",
+          "h": "Present Simple: My phone number is / I need to change to",
+          "s": "My phone number is 0912345678. I don't need to change it."
+        }
+      ]
+    },
+    {
+      "t": "Yêu cầu loại phòng và tiện nghi",
+      "e": [
+        {
+          "p": "Do you prefer a double bed or twin beds?",
+          "m": "Chọn loại giường. Nói lý do ngắn nếu cần.",
+          "h": "Present Simple: I prefer / because",
+          "s": "I prefer a double bed because we are a couple."
+        },
+        {
+          "p": "Do you need a room with a view or a quiet room?",
+          "m": "Chọn giữa phòng có view hoặc yên tĩnh. Nói ưu tiên của bạn.",
+          "h": "Use I would like / I prefer",
+          "s": "I prefer a quiet room because I need to sleep early."
+        },
+        {
+          "p": "We can provide a room with a bathtub or a shower. Which do you want?",
+          "m": "Chọn bồn tắm hoặc vòi sen. Giải thích nhanh nếu cần.",
+          "h": "Present Simple: I want a bathtub / because",
+          "s": "I want a shower because I prefer quick showers."
+        },
+        {
+          "p": "Do you need a baby cot or an extra bed?",
+          "m": "Nói nếu bạn cần cot hoặc giường phụ. Nói số lượng nếu cần nhiều hơn một.",
+          "h": "Present Simple / will: I need / one extra bed",
+          "s": "I need one extra bed. We have three people."
+        },
+        {
+          "p": "Are you allergic to anything we should know about?",
+          "m": "Nói có bị dị ứng không. Nếu có, nêu loại dị ứng ngắn gọn.",
+          "h": "Present Simple: I am allergic to / I have allergy to",
+          "s": "I am allergic to dust. Please give a clean room."
+        }
+      ]
+    },
+    {
+      "t": "Nhận phòng sớm và trả phòng trễ",
+      "e": [
+        {
+          "p": "Our standard check-in is at 2 pm. Will you arrive earlier?",
+          "m": "Nói bạn có đến sớm hay không. Nếu có, cho biết giờ ước tính.",
+          "h": "Use will / Present Simple: I will arrive at / I arrive at",
+          "s": "Yes, I will arrive earlier. I will arrive at 11 am."
+        },
+        {
+          "p": "We can store your luggage if your room is not ready. Do you want that?",
+          "m": "Nói có muốn gửi hành lý không. Nói bạn sẽ quay lại khi nào lấy.",
+          "h": "Present Simple: Yes, I want / I will come back at",
+          "s": "Yes, I want to store my luggage. I will come back at 2 pm."
+        },
+        {
+          "p": "Check-out time is 12 pm. Do you need a late check-out?",
+          "m": "Nói có cần trả phòng muộn không. Nếu cần, nói đến mấy giờ.",
+          "h": "Use will or can: I need / until",
+          "s": "Yes, I need a late check-out. I need it until 3 pm."
+        },
+        {
+          "p": "Late check-out may have an extra fee. Is that OK?",
+          "m": "Nói bạn có đồng ý trả phí hay muốn hỏi phí là bao nhiêu. Nếu hỏi, yêu cầu mức phí.",
+          "h": "Present Simple / Question: That is OK / How much is the fee?",
+          "s": "That is OK. How much is the fee?"
+        },
+        {
+          "p": "If you leave early, should we arrange a taxi for you?",
+          "m": "Nói có cần sắp xếp taxi không. Nếu có, cho biết giờ bạn rời khách sạn.",
+          "h": "Use will: I will need / at 6 am",
+          "s": "Yes, I will need a taxi. I will leave at 6 am."
+        }
+      ]
+    },
+    {
+      "t": "Yêu cầu dịch vụ thêm trong phòng",
+      "e": [
+        {
+          "p": "Would you like extra pillows or blankets?",
+          "m": "Nói bạn có cần gối/chanh thêm hay không. Nếu có, nói số lượng.",
+          "h": "Present Simple: I need / two pillows",
+          "s": "I need two extra pillows. Thank you."
+        },
+        {
+          "p": "Do you want daily housekeeping during your stay?",
+          "m": "Nói có muốn dọn phòng hàng ngày hay không. Nếu không, đề xuất tần suất khác.",
+          "h": "Present Simple: I would like / every two days",
+          "s": "I don't want daily housekeeping. Please clean the room every two days."
+        },
+        {
+          "p": "We can provide an extra towel or toiletries. Which do you need?",
+          "m": "Chọn khăn tắm hoặc đồ dùng. Nói số lượng nếu cần nhiều hơn một.",
+          "h": "Present Simple: I need / two towels",
+          "s": "I need two towels and one extra soap."
+        },
+        {
+          "p": "The minibar is stocked. Do you want us to remove it from your room?",
+          "m": "Nói bạn có muốn bỏ minibar hay giữ. Nêu lý do nếu muốn bỏ.",
+          "h": "Use Present Simple: Please remove / because",
+          "s": "Please remove the minibar because I don't drink alcohol."
+        },
+        {
+          "p": "Would you like us to set up the iron or a small table in the room?",
+          "m": "Nói có cần bàn/ban ủi không. Nếu cần, yêu cầu đặt ở chỗ nào trong phòng.",
+          "h": "Present Simple: I need / Please put it near the window",
+          "s": "I need an iron. Please put it near the window."
+        }
+      ]
+    },
+    {
+      "t": "Vấn đề khi nhận phòng",
+      "e": [
+        {
+          "p": "I'm sorry, but the air conditioner in your room is not working. Can we move you?",
+          "m": "Nói bạn có muốn đổi phòng hay ở lại. Nếu đổi, hỏi phòng mới có yên tĩnh không.",
+          "h": "Use will / Present Simple: I will move / Is the new room",
+          "s": "I will move to another room. Is the new room quiet?"
+        },
+        {
+          "p": "There is a strange smell in the room. Would you like us to clean it or change the room?",
+          "m": "Chọn làm sạch hay đổi phòng. Nói lý do lựa chọn ngắn.",
+          "h": "Present Simple: I want / because",
+          "s": "I want to change the room because the smell is strong."
+        },
+        {
+          "p": "The Wi-Fi is slow in that area. Do you need a stronger signal?",
+          "m": "Nói nếu bạn cần wifi mạnh. Nếu cần, đề nghị di chuyển hoặc dùng cable.",
+          "h": "Use need / can: I need / Can I move",
+          "s": "Yes, I need a stronger signal. Can I move to a room near the lobby?"
+        },
+        {
+          "p": "We apologize for the noise from construction. Would you like a discount or a different room?",
+          "m": "Chọn nhận giảm giá hay đổi phòng. Nói lựa chọn của bạn ngắn gọn.",
+          "h": "Present Simple: I prefer / I would like",
+          "s": "I prefer a different room. Please move me away from construction."
+        },
+        {
+          "p": "If we cannot fix the problem, can we offer a refund for the night?",
+          "m": "Nói bạn muốn nhận hoàn tiền hay một đêm miễn phí. Nói rõ lựa chọn.",
+          "h": "Use would like / I want",
+          "s": "I would like a refund for the night. That will be fair."
+        }
+      ]
+    },
+    {
+      "t": "Hỏi giờ trả phòng và thủ tục",
+      "e": [
+        {
+          "p": "What time is check-out tomorrow?",
+          "m": "Nói giờ trả phòng tiêu chuẩn. Nếu muốn trả muộn, hỏi có được không.",
+          "h": "Present Simple: Check-out is at / Can I have a late check-out",
+          "s": "Check-out is at 12 pm. Can I have a late check-out?"
+        },
+        {
+          "p": "Do you need to settle the bill now or at check-out?",
+          "m": "Nói bạn sẽ thanh toán lúc nào. Nếu thanh toán bây giờ, nói phương thức.",
+          "h": "Use will / Present Simple: I will pay now / by card",
+          "s": "I will pay at check-out. I will pay by credit card."
+        },
+        {
+          "p": "Would you like us to call a taxi for your check-out time?",
+          "m": "Nói bạn có muốn đặt taxi không. Nếu có, cho biết giờ cần taxi.",
+          "h": "Present Simple / will: Yes, please / at 11 am",
+          "s": "Yes, please call a taxi. I need it at 11 am."
+        },
+        {
+          "p": "Can I leave the key at the desk when I check out?",
+          "m": "Nói bạn có muốn trả chìa khóa ở quầy hay bỏ vào hộp trả phòng. Chỉ rõ lựa chọn.",
+          "h": "Present Simple: I will leave it at / I will put it in",
+          "s": "I will leave the key at the desk. Thank you."
+        },
+        {
+          "p": "Do you want a later bill or a detailed receipt for your stay?",
+          "m": "Nói bạn muốn hóa đơn chi tiết hay hóa đơn đơn giản. Nói nếu cần gửi qua email.",
+          "h": "I want / Please send to my email",
+          "s": "I want a detailed receipt. Please send it to my email."
+        }
+      ]
+    },
+    {
+      "t": "Thanh toán và phương thức",
+      "e": [
+        {
+          "p": "Will you pay by cash or card?",
+          "m": "Nói bạn sẽ trả bằng thẻ hay tiền mặt. Nếu thẻ, nói nếu là thẻ tín dụng hay ghi nợ.",
+          "h": "Present Simple: I will pay by / credit card",
+          "s": "I will pay by card. It is a credit card."
+        },
+        {
+          "p": "There is a city tax of $2 per night. Shall we add it to your bill?",
+          "m": "Đồng ý hay hỏi về số tiền thuế. Nói bạn có chấp nhận thêm phí không.",
+          "h": "Present Simple: Yes, add it / How much is the total",
+          "s": "Yes, add it to my bill. How much is the total?"
+        },
+        {
+          "p": "Do you need a receipt now or emailed later?",
+          "m": "Chọn nhận biên lai ngay hay gửi email. Nếu gửi email, cung cấp địa chỉ email.",
+          "h": "Present Simple: Please email it to / I need it now",
+          "s": "Please email it to my address. I will check it later."
+        },
+        {
+          "p": "We require a pre-authorization on your card for incidentals. Is that OK?",
+          "m": "Đồng ý hay hỏi về số tiền block. Nếu hỏi, yêu cầu số tiền block.",
+          "h": "Present Simple / Question: That is OK / How much will be held",
+          "s": "That is OK. How much will be held on my card?"
+        },
+        {
+          "p": "Would you like to split the bill between two cards?",
+          "m": "Nói có muốn chia bill hay không. Nếu có, nói tỉ lệ hoặc số tiền cho mỗi thẻ.",
+          "h": "Present Simple: Yes, split / $50 on one card and $30 on the other",
+          "s": "Yes, split the bill. Put $100 on one card and the rest on another card."
+        }
+      ]
+    },
+    {
+      "t": "Gửi hành lý và giữ đồ",
+      "e": [
+        {
+          "p": "Can we store your luggage after check-out?",
+          "m": "Nói bạn có muốn gửi hành lý sau khi trả phòng không. Nói bạn sẽ lấy lại khi nào.",
+          "h": "Present Simple / will: Yes, I will pick it up at",
+          "s": "Yes, please store my luggage. I will pick it up at 6 pm."
+        },
+        {
+          "p": "Do you need long-term storage during your trip?",
+          "m": "Nói có cần gửi lâu ngày không. Nếu có, cho biết số ngày dự kiến.",
+          "h": "Present Simple: I need it for / days",
+          "s": "I need long-term storage for three days."
+        },
+        {
+          "p": "We can deliver your luggage to the airport for a fee. Would you like that?",
+          "m": "Nói có muốn giao hành lý tới sân bay không. Nếu có, nói giờ bay hoặc thời gian cần giao.",
+          "h": "Use will / Present Simple: Yes, deliver at / My flight is at",
+          "s": "Yes, please deliver it to the airport. My flight is at 9 pm."
+        },
+        {
+          "p": "Is any item fragile or valuable that we should note?",
+          "m": "Nói nếu có đồ dễ vỡ/giá trị. Nêu một ví dụ ngắn (ví dụ: laptop).",
+          "h": "Present Simple: I have / a laptop",
+          "s": "I have a laptop and a camera. Please handle them carefully."
+        },
+        {
+          "p": "Please leave a contact number so we can call when your luggage is ready.",
+          "m": "Đưa số điện thoại liên lạc. Nói nếu muốn nhận SMS hay gọi điện.",
+          "h": "Present Simple: My number is / Please call or text",
+          "s": "My number is 0912345678. Please call me when it's ready."
+        }
+      ]
+    },
+    {
+      "t": "Trả phòng và phản hồi về lưu trú",
+      "e": [
+        {
+          "p": "How was your stay with us?",
+          "m": "Nói chung về trải nghiệm: tốt hay không. Nêu 1 điểm bạn thích.",
+          "h": "Past Simple: It was / I liked",
+          "s": "My stay was good. I liked the friendly staff."
+        },
+        {
+          "p": "Was the room clean and comfortable?",
+          "m": "Trả lời có/không. Nếu không, nêu vấn đề ngắn gọn.",
+          "h": "Past Simple: It was / It was not because",
+          "s": "The room was clean and comfortable."
+        },
+        {
+          "p": "Did you have any problem during your stay?",
+          "m": "Nói có gặp vấn đề không. Nếu có, mô tả ngắn 1 vấn đề và nói nó đã được giải quyết hay chưa.",
+          "h": "Past Simple: I had / It was fixed or not fixed",
+          "s": "I had a problem with the Wi-Fi. It was fixed on the second day."
+        },
+        {
+          "p": "Would you recommend our hotel to your friends?",
+          "m": "Nói bạn có đề xuất khách sạn không. Nói lý do ngắn cho quyết định.",
+          "h": "Present Simple: I would recommend / because",
+          "s": "I would recommend this hotel because it is clean and near the station."
+        },
+        {
+          "p": "Can we add your feedback to our guest book?",
+          "m": "Cho biết bạn đồng ý hay không. Nếu đồng ý, viết 1 câu khen ngợi ngắn để nhân viên ghi vào sổ.",
+          "h": "Present Simple: Yes, add / One sentence praise",
+          "s": "Yes, add my feedback. The staff were helpful and the room was comfortable."
+        }
+      ]
+    },
+    {
+      "t": "Yêu cầu hóa đơn và giấy tờ liên quan",
+      "e": [
+        {
+          "p": "Do you need an invoice for your company?",
+          "m": "Nói có cần hóa đơn công ty không. Nếu có, cho biết tên công ty ngắn (dùng placeholder nếu là tên bạn).",
+          "h": "Present Simple: Yes, for / company name",
+          "s": "Yes, I need an invoice for my company. The company name is [studentName] Ltd."
+        },
+        {
+          "p": "Would you like a paper receipt or an emailed copy?",
+          "m": "Chọn nhận bản giấy hay email. Nếu email, cung cấp địa chỉ email.",
+          "h": "Present Simple: Please email to / or I want paper",
+          "s": "Please email the receipt to my address. Thank you."
+        },
+        {
+          "p": "Do you need VAT details on the bill?",
+          "m": "Nói bạn có cần chi tiết VAT không. Nếu có, cho biết mã số thuế hoặc ghi 'no' nếu không.",
+          "h": "Present Simple: Yes, add VAT number / or No",
+          "s": "Yes, please add the VAT number. The number is 123456789."
+        },
+        {
+          "p": "Can we prepare the invoice now or after check-out?",
+          "m": "Chọn làm ngay hay sau trả phòng. Nói bạn muốn nhận khi nào.",
+          "h": "Present Simple / will: I want it now / after check-out",
+          "s": "I want the invoice now. Please give it at the desk."
+        },
+        {
+          "p": "Should we include room service charges on the same bill?",
+          "m": "Nói có muốn gộp dịch vụ phòng vào hóa đơn chính không. Nếu không, nói muốn tách.",
+          "h": "Present Simple: Yes, include / No, keep separate",
+          "s": "Yes, include room service charges on the same bill."
+        }
+      ]
+    },
+    {
+      "t": "Sự cố mất chìa khóa và an ninh",
+      "e": [
+        {
+          "p": "I lost my key card. Can you issue a new one?",
+          "m": "Nói bạn có mất thẻ chìa khóa hay không. Yêu cầu làm thẻ mới hoặc hỏi phí thay thế.",
+          "h": "Present Simple / Question: I lost / How much is the replacement",
+          "s": "I lost my key card. Please issue a new one and tell me the replacement fee."
+        },
+        {
+          "p": "For safety, we need to check your ID before we give a new key. Can you show it?",
+          "m": "Cho biết bạn có ID không. Nói bạn sẽ đưa ID ngay hay cần thời gian.",
+          "h": "Present Simple: I have my ID / I will bring it in five minutes",
+          "s": "I have my ID with me. I will bring it in five minutes."
+        },
+        {
+          "p": "We can deactivate the lost card to protect your room. Is that OK?",
+          "m": "Đồng ý hoặc hỏi nếu bạn vẫn cần thẻ cũ hoạt động. Nói lựa chọn ngắn.",
+          "h": "Present Simple: Yes, deactivate / No, keep it active",
+          "s": "Yes, deactivate the lost card. I want the room to be secure."
+        },
+        {
+          "p": "Would you like us to send security to check the room now?",
+          "m": "Nói bạn muốn bảo vệ kiểm tra phòng hay tự kiểm tra. Nếu muốn bảo vệ, đồng ý hoặc không.",
+          "h": "Use will / Present Simple: Yes, please / I will check myself",
+          "s": "Yes, please send security to check the room now."
+        },
+        {
+          "p": "If the lost item is valuable, we can help file a report. Do you want that?",
+          "m": "Nói có muốn báo mất tài sản không. Nếu có, nêu đồ quan trọng bạn mất (ví dụ: phone).",
+          "h": "Present Simple: I want to file a report / I lost my phone",
+          "s": "Yes, I want to file a report. I lost my phone."
+        }
+      ]
+    },
+    {
+      "t": "Đổi phòng do tiếng ồn hoặc sự cố",
+      "e": [
+        {
+          "p": "We are sorry, there is loud noise near your room. Would you like to move?",
+          "m": "Nói bạn có muốn đổi phòng hay ở lại. Nếu đổi, hỏi phòng mới có gần thang máy không.",
+          "h": "Present Simple / Question: I will move / Is it near the elevator",
+          "s": "I will move to another room. Is the new room far from the elevator?"
+        },
+        {
+          "p": "The new room will be on a higher floor. Is that acceptable?",
+          "m": "Chấp nhận hay hỏi có vấn đề về leo cầu thang. Nếu có, yêu cầu thang máy.",
+          "h": "Present Simple: That's acceptable / I need an elevator",
+          "s": "That's acceptable. I need a room with elevator access."
+        },
+        {
+          "p": "We can give a complimentary welcome drink in the new room. Do you want it?",
+          "m": "Nói bạn có muốn đồ uống chào mừng hay không. Nếu có, chọn trà hoặc nước trái cây.",
+          "h": "Present Simple: Yes, I want / tea or juice",
+          "s": "Yes, I want the welcome drink. I prefer juice."
+        },
+        {
+          "p": "If you move rooms, we will transfer your luggage. Will you be ready now?",
+          "m": "Nói bạn sẵn sàng chuyển phòng ngay hay cần thời gian. Nếu cần, cho biết khi nào.",
+          "h": "Use will: I will be ready / in 20 minutes",
+          "s": "I will be ready in 20 minutes."
+        },
+        {
+          "p": "Do you want any compensation for the inconvenience?",
+          "m": "Nói bạn muốn hoàn tiền, giảm giá hay không. Nói rõ lựa chọn ngắn.",
+          "h": "Present Simple: I want / a discount or a refund",
+          "s": "I want a small discount for one night. That would be fair."
+        }
+      ]
+    },
+    {
+      "t": "Ôn tập: Toàn bộ quy trình nhận phòng",
+      "e": [
+        {
+          "p": "Welcome. Do you have a reservation and your ID?",
+          "m": "Cho biết tên đặt phòng (sử dụng placeholder nếu cần). Nói bạn có mang ID không.",
+          "h": "Present Simple: The reservation is under / I have my ID",
+          "s": "The reservation is under [studentName]. I have my ID with me."
+        },
+        {
+          "p": "Would you like a smoking or non-smoking room and which bed type?",
+          "m": "Chọn loại phòng (smoking/non-smoking). Chọn loại giường (double/twin).",
+          "h": "Present Simple: I prefer / I want",
+          "s": "I prefer a non-smoking room. I want a double bed."
+        },
+        {
+          "p": "Do you need an extra bed or breakfast added?",
+          "m": "Nói có cần giường phụ hay bữa sáng. Nếu có, cho số lượng.",
+          "h": "Present Simple: I need / for two people",
+          "s": "I need an extra bed. Please add breakfast for two people."
+        },
+        {
+          "p": "Our check-in is at 2 pm. Will you arrive earlier and need luggage storage?",
+          "m": "Nói bạn có đến sớm không. Nếu có, hỏi gửi hành lý và khi nào bạn sẽ lấy.",
+          "h": "Use will / Present Simple: I will arrive / I will pick it up at",
+          "s": "I will arrive early at noon. I will pick up my luggage at 3 pm."
+        },
+        {
+          "p": "We need a card pre-authorization. Will you use a card or cash?",
+          "m": "Nói bạn sẽ dùng thẻ hay tiền mặt. Nếu dùng thẻ, đồng ý để block tiền hay hỏi số tiền block.",
+          "h": "Present Simple / Question: I will pay by card / How much will be held",
+          "s": "I will pay by card. How much will be held for pre-authorization?"
+        }
+      ]
+    },
+    {
+      "t": "Ôn tập: Toàn bộ quy trình trả phòng",
+      "e": [
+        {
+          "p": "Good morning. Are you ready to check out?",
+          "m": "Nói bạn có sẵn sàng trả phòng không. Nếu chưa, hỏi về thời gian bạn cần.",
+          "h": "Present Simple / will: I am ready / I need 30 minutes",
+          "s": "I am ready to check out now. Thank you."
+        },
+        {
+          "p": "Will you settle the bill now or charge to your card on file?",
+          "m": "Chọn thanh toán lúc này hay dùng thẻ đã lưu. Nói rõ lựa chọn.",
+          "h": "Present Simple: I will pay now / charge to my card",
+          "s": "I will pay now by credit card."
+        },
+        {
+          "p": "Do you want a printed receipt or an emailed invoice?",
+          "m": "Chọn nhận in hay email. Nếu email, cung cấp địa chỉ hoặc nói 'yes' nếu đã có.",
+          "h": "Present Simple: Please email to / I want printed",
+          "s": "Please email the invoice to my address. Thank you."
+        },
+        {
+          "p": "Was everything OK during your stay and any items left in the room?",
+          "m": "Nói ngắn về trải nghiệm có tốt không. Nói nếu bạn để quên đồ và nêu món đồ đó.",
+          "h": "Past Simple: My stay was / I left my phone",
+          "s": "My stay was pleasant. I left my charger in the room."
+        },
+        {
+          "p": "Would you like to store luggage after check-out or have it delivered?",
+          "m": "Nói bạn muốn gửi hành lý hay giao tới sân bay. Nếu giao, cho biết giờ bay.",
+          "h": "Use will / Present Simple: I will store / My flight is at",
+          "s": "I will store my luggage here. My flight is at 8 pm."
+        }
+      ]
+    },
+    {
+      "t": "Ôn tập: Xử lý vấn đề và khiếu nại",
+      "e": [
+        {
+          "p": "We apologize for the inconvenience. What is the main issue?",
+          "m": "Nói vấn đề chính bạn gặp phải ngắn gọn. Nói nó xảy ra khi nào.",
+          "h": "Past Simple: The issue was / It happened when",
+          "s": "The main issue was noisy air conditioner. It happened last night."
+        },
+        {
+          "p": "Would you like us to fix it now or move you to another room?",
+          "m": "Chọn sửa ngay hay đổi phòng. Nói lựa chọn và lý do ngắn.",
+          "h": "Present Simple / will: I will move / because",
+          "s": "I will move to another room because I need quiet."
+        },
+        {
+          "p": "We can offer a discount or a free night. Which do you prefer?",
+          "m": "Chọn nhận giảm giá hay một đêm miễn phí. Nói lựa chọn của bạn.",
+          "h": "Present Simple: I prefer / a discount",
+          "s": "I prefer a small discount on my bill."
+        },
+        {
+          "p": "Do you want us to follow up by email after we handle this?",
+          "m": "Nói có muốn nhận phản hồi qua email không. Nếu có, xác nhận địa chỉ email.",
+          "h": "Present Simple: Yes, email to / or No",
+          "s": "Yes, please email me the follow-up. My email is guest@example.com."
+        },
+        {
+          "p": "Is there anything else we can do to make your stay better?",
+          "m": "Nói một yêu cầu thêm nếu cần (ví dụ: extra towel). Hoặc nói không cần nếu ổn.",
+          "h": "Present Simple: I need / No, thank you",
+          "s": "I need an extra towel. Thank you for your help."
+        }
+      ]
+    }
+  ]
+}

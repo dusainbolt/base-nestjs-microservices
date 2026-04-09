@@ -1,0 +1,530 @@
+{
+  "l": 2,
+  "d": [
+    {
+      "t": "Đăng tin tuyển dụng",
+      "e": [
+        {
+          "p": "What is the job title?",
+          "m": "Nói rõ tên công việc. Nói nơi làm việc (thành phố hoặc văn phòng).",
+          "h": "Use: It is a + job. / It is in + place.",
+          "s": "It is a sales assistant job. It is in Hanoi."
+        },
+        {
+          "p": "Is this a full-time or part-time job?",
+          "m": "Nói loại công việc (full-time / part-time). Nói giờ bắt đầu làm việc (ví dụ: 9 am).",
+          "h": "Use present simple: It is / It starts at ...",
+          "s": "It is a full-time job. It starts at 9 am."
+        },
+        {
+          "p": "What skills do you want?",
+          "m": "Nêu một kỹ năng đơn giản. Nói tần suất dùng kỹ năng đó (often/sometimes).",
+          "h": "Use: We need + skill. / We often/sometimes + V.",
+          "s": "We need good English. We often use English at work."
+        },
+        {
+          "p": "Is the job new in your company?",
+          "m": "Trả lời yes hoặc no. Nói lý do ngắn gọn (ví dụ: mở cửa hàng mới).",
+          "h": "Use: Yes, it is. / No, it is not. + short reason.",
+          "s": "Yes, it is. The company opens a new shop."
+        },
+        {
+          "p": "How can people apply for this job?",
+          "m": "Nói cách nộp hồ sơ (ví dụ: gửi email). Nói thêm cách liên hệ (ví dụ: gọi số).",
+          "h": "Use: Send your CV by ... / Call ...",
+          "s": "Send your CV by email. Call the office to ask."
+        }
+      ]
+    },
+    {
+      "t": "Nộp hồ sơ xin việc",
+      "e": [
+        {
+          "p": "Can I send my CV now?",
+          "m": "Trả lời có hoặc không. Nói nơi gửi hồ sơ (email hoặc trực tiếp).",
+          "h": "Use: Yes, you can. / No, you can't. + Send to ...",
+          "s": "Yes, you can. Send your CV to our email."
+        },
+        {
+          "p": "What is your name?",
+          "m": "Nói tên (dùng placeholder nếu cần). Nói tuổi của bạn.",
+          "h": "Use: My name is [studentName]. / I am [studentAge] years old.",
+          "s": "My name is [studentName]. I am [studentAge] years old."
+        },
+        {
+          "p": "Where do you live?",
+          "m": "Nói thành phố nơi bạn sống. Nói bạn can đi làm từ đó không (yes/no).",
+          "h": "Use: I live in [studentCity]. / I can / cannot go to work.",
+          "s": "I live in [studentCity]. I can go to work."
+        },
+        {
+          "p": "Do you have a CV or paper copy?",
+          "m": "Nói có hay không. Nói bạn sẽ mang nó vào lúc phỏng vấn hay gửi email.",
+          "h": "Use: I have / I don't have. / I will bring / I will send.",
+          "s": "I have a CV. I will bring it to the interview."
+        },
+        {
+          "p": "What job do you want?",
+          "m": "Nói tên công việc bạn muốn. Nói bạn muốn làm toàn thời gian hay bán thời gian.",
+          "h": "Use: I want the + job. / I want to work full-time / part-time.",
+          "s": "I want the sales assistant job. I want to work full-time."
+        }
+      ]
+    },
+    {
+      "t": "Sàng lọc hồ sơ",
+      "e": [
+        {
+          "p": "Do you have work experience?",
+          "m": "Nói có hay không. Nói nghề hoặc công việc trước đây (một từ đơn giản).",
+          "h": "Use: I have / I don't have. / I worked as + job.",
+          "s": "I have work experience. I worked as a shop clerk."
+        },
+        {
+          "p": "How many years did you work there?",
+          "m": "Nói số năm. Nói bạn còn làm ở đó hay không (still / not).",
+          "h": "Use: I worked for + number + years. / I still work there / I left.",
+          "s": "I worked for two years. I left last year."
+        },
+        {
+          "p": "Do you know how to use a computer?",
+          "m": "Trả lời có hay không. Nói bạn dùng máy tính ở mức nào (basic/simple).",
+          "h": "Use: Yes, I can / No, I can't. / I use it for ...",
+          "s": "Yes, I can use a computer. I use it for simple tasks."
+        },
+        {
+          "p": "Are you free to start next week?",
+          "m": "Trả lời có hoặc không. Nói rõ ngày bạn bắt đầu nếu có.",
+          "h": "Use: Yes, I am free. / No, I am not free. + I can start on ...",
+          "s": "Yes, I am free. I can start on Monday."
+        },
+        {
+          "p": "Why do you leave your old job?",
+          "m": "Nói lý do ngắn gọn (ví dụ: need more pay, not happy). Nói bạn muốn cái gì ở công việc mới.",
+          "h": "Use: I left because ... / I want ...",
+          "s": "I left because I needed more pay. I want a better work time."
+        }
+      ]
+    },
+    {
+      "t": "Gọi điện hẹn phỏng vấn",
+      "e": [
+        {
+          "p": "Hello, can you come on Monday for an interview?",
+          "m": "Trả lời có hoặc không. Nói ngày bạn có thể đến nếu không phải Monday.",
+          "h": "Use: Yes, I can. / No, I cannot. + I can come on ...",
+          "s": "Yes, I can. I can come on Monday."
+        },
+        {
+          "p": "What time is good for you?",
+          "m": "Nói thời gian phù hợp (ví dụ: 10 am). Nói bạn có trễ hay không (can arrive on time).",
+          "h": "Use: Ten am is good. / I can arrive on time.",
+          "s": "Ten am is good. I can arrive on time."
+        },
+        {
+          "p": "Do you need directions to our office?",
+          "m": "Trả lời có hay không. Nói bạn muốn hướng dẫn qua email hay điện thoại.",
+          "h": "Use: Yes, please. / No, thank you. + Send by ...",
+          "s": "Yes, please. Send directions by email."
+        },
+        {
+          "p": "Can you bring your ID and CV?",
+          "m": "Trả lời có hay không. Nói bạn sẽ mang theo giấy tờ nào.",
+          "h": "Use: Yes, I will. / No, I will not. + I will bring ...",
+          "s": "Yes, I will. I will bring my ID and CV."
+        },
+        {
+          "p": "Who will you meet in the interview?",
+          "m": "Nói tên hoặc chức danh người phỏng vấn (ví dụ: manager). Nói họ ở phòng nào (ví dụ: office 2).",
+          "h": "Use: You will meet + person. / They are in + place.",
+          "s": "You will meet the manager. They are in office 2."
+        }
+      ]
+    },
+    {
+      "t": "Chuẩn bị cho phỏng vấn",
+      "e": [
+        {
+          "p": "What should I wear to the interview?",
+          "m": "Nói trang phục phù hợp (ví dụ: smart clothes). Nói bạn có cần mặc đồ đặc biệt hay không.",
+          "h": "Use: Wear + clothes. / You do / do not need to ...",
+          "s": "Wear smart clothes. You do not need special shoes."
+        },
+        {
+          "p": "What documents do I need?",
+          "m": "Liệt kê 1 giấy tờ chính. Liệt kê 1 giấy tờ phụ.",
+          "h": "Use: Bring + document. / Also bring + document.",
+          "s": "Bring your ID. Also bring your CV."
+        },
+        {
+          "p": "Should I prepare answers about my skills?",
+          "m": "Trả lời có hoặc không. Nói bạn sẽ nói về kỹ năng nào (một kỹ năng).",
+          "h": "Use: Yes, you should. / I will talk about + skill.",
+          "s": "Yes, you should. I will talk about my English skill."
+        },
+        {
+          "p": "Will there be more than one person in the interview?",
+          "m": "Trả lời có hoặc không. Nói có bao nhiêu người nếu có (ví dụ: two people).",
+          "h": "Use: Yes, there will be + number. / No, there will be one person.",
+          "s": "Yes, there will be two people. They are the manager and HR."
+        },
+        {
+          "p": "How long is the interview?",
+          "m": "Nói thời gian ước lượng (ví dụ: 30 minutes). Nói bạn có nên đến sớm hay đúng giờ.",
+          "h": "Use: It is about + time. / Come early / Come on time.",
+          "s": "It is about thirty minutes. Come ten minutes early."
+        }
+      ]
+    },
+    {
+      "t": "Ngày phỏng vấn",
+      "e": [
+        {
+          "p": "I am at the building. Where is your office?",
+          "m": "Nói vị trí văn phòng ngắn gọn (floor/room). Nói họ đi thẳng hay rẽ trái etc.",
+          "h": "Use: It is on + floor / It is in + room. / Go straight / Turn left.",
+          "s": "It is on the second floor. Go straight and turn left."
+        },
+        {
+          "p": "I am a bit late. Is it okay?",
+          "m": "Trả lời chấp nhận hay không. Nói họ còn có thể phỏng vấn hôm nay hay hẹn lại ngày khác.",
+          "h": "Use: It is okay / It is not okay. + We can / cannot interview today.",
+          "s": "It is okay. We can interview today."
+        },
+        {
+          "p": "Where can I wait?",
+          "m": "Nói nơi chờ (reception/waiting area). Nói có ghế hay không.",
+          "h": "Use: Wait at + place. / There is / is not a + noun.",
+          "s": "Wait at the reception. There is a chair."
+        },
+        {
+          "p": "Can I have water before the interview?",
+          "m": "Trả lời có hoặc không. Nói bạn sẽ chuẩn bị nước cho họ hay không.",
+          "h": "Use: Yes, you can. / No, you cannot. + We will / will not prepare.",
+          "s": "Yes, you can. We will bring water."
+        },
+        {
+          "p": "Who is the interviewer now?",
+          "m": "Nói tên hoặc chức danh người phỏng vấn. Nói họ có hay không có đồng nghiệp cùng phỏng vấn.",
+          "h": "Use: The interviewer is + name/role. / There is / is not a colleague.",
+          "s": "The interviewer is the manager. There is also an HR colleague."
+        }
+      ]
+    },
+    {
+      "t": "Trong phòng phỏng vấn",
+      "e": [
+        {
+          "p": "Tell me about your daily work.",
+          "m": "Nói hai câu về công việc hàng ngày (một nhiệm vụ mỗi câu).",
+          "h": "Use present simple: I + V(s) + object.",
+          "s": "I answer customer questions. I help with sales."
+        },
+        {
+          "p": "Do you speak English?",
+          "m": "Trả lời có hay không. Nói bạn dùng English trong công việc như thế nào (một ví dụ).",
+          "h": "Use: Yes, I do / No, I don't. / I use it to ...",
+          "s": "Yes, I do. I use English to talk with customers."
+        },
+        {
+          "p": "Can you work on weekends?",
+          "m": "Trả lời có hoặc không. Nói bạn thường làm cuối tuần hay không (always/sometimes).",
+          "h": "Use: Yes, I can / No, I cannot. / I often / sometimes work on weekends.",
+          "s": "Yes, I can. I sometimes work on weekends."
+        },
+        {
+          "p": "What is your strongest skill?",
+          "m": "Nói kỹ năng mạnh nhất. Nói một ví dụ ngắn về cách bạn dùng nó.",
+          "h": "Use: My strongest skill is + noun. / I use it to ...",
+          "s": "My strongest skill is communication. I use it when I help customers."
+        },
+        {
+          "p": "Do you want this job?",
+          "m": "Trả lời có hoặc không. Nói lý do ngắn gọn vì sao bạn muốn (one simple reason).",
+          "h": "Use: Yes, I want it. / Because + reason.",
+          "s": "Yes, I want this job. Because I like helping people."
+        }
+      ]
+    },
+    {
+      "t": "Hỏi về kinh nghiệm làm việc đơn giản",
+      "e": [
+        {
+          "p": "What tasks did you do before?",
+          "m": "Nói một nhiệm vụ bạn làm trước đây. Nói một nhiệm vụ khác bạn đã làm.",
+          "h": "Use past simple: I + V (ed) + object.",
+          "s": "I served customers. I counted money."
+        },
+        {
+          "p": "Did you work with a team?",
+          "m": "Trả lời có hoặc không. Nói bạn làm việc cùng bao nhiêu người (số nhỏ).",
+          "h": "Use: Yes, I did / No, I didn't. / I worked with + number + people.",
+          "s": "Yes, I did. I worked with three people."
+        },
+        {
+          "p": "How often did you use a computer?",
+          "m": "Nói tần suất (always/often/sometimes). Nói việc bạn làm trên máy tính.",
+          "h": "Use: I always / often / sometimes + V. / I use it for ...",
+          "s": "I often used a computer. I used it to write reports."
+        },
+        {
+          "p": "Were you on time at your old job?",
+          "m": "Trả lời có hoặc không. Nói bạn đến muộn hay đúng giờ thường xuyên hay không.",
+          "h": "Use: Yes, I was / No, I was not. / I was always / sometimes on time.",
+          "s": "Yes, I was. I was always on time."
+        },
+        {
+          "p": "Did you train new staff before?",
+          "m": "Trả lời có hoặc không. Nói bạn làm việc đó như thế nào ngắn gọn.",
+          "h": "Use: Yes, I did / No, I didn't. / I showed them how to ...",
+          "s": "Yes, I did. I showed them how to use the cash register."
+        }
+      ]
+    },
+    {
+      "t": "Thảo luận về lương và giờ làm",
+      "e": [
+        {
+          "p": "What is the pay for this job?",
+          "m": "Nói số tiền đơn giản hoặc 'not high'. Nói liệu nó trả hàng tháng hay theo giờ.",
+          "h": "Use: It is + amount / It is not high. / It is per month / per hour.",
+          "s": "The pay is 300 dollars per month. It is a monthly pay."
+        },
+        {
+          "p": "Do you want full-time hours?",
+          "m": "Trả lời có hoặc không. Nói bạn muốn làm bao nhiêu giờ mỗi ngày (ví dụ: 8 hours).",
+          "h": "Use: Yes, I do / No, I don't. / I want + number + hours.",
+          "s": "Yes, I do. I want eight hours a day."
+        },
+        {
+          "p": "Are breaks paid here?",
+          "m": "Trả lời có hoặc không. Nói ngắn về thời gian nghỉ (ví dụ: 30 minutes).",
+          "h": "Use: Yes, breaks are paid / No, they are not. / A break is ...",
+          "s": "No, breaks are not paid. A break is thirty minutes."
+        },
+        {
+          "p": "Do you give salary on time?",
+          "m": "Trả lời có hoặc không. Nói lương trả hàng tháng hay hàng tuần.",
+          "h": "Use: Yes, we do / No, we don't. / We pay monthly / weekly.",
+          "s": "Yes, we do. We pay monthly."
+        },
+        {
+          "p": "Can we talk about more pay later?",
+          "m": "Trả lời có hoặc không. Nói khi nào có thể bàn thêm (ví dụ: after three months).",
+          "h": "Use: Yes, we can / No, we cannot. / After + time.",
+          "s": "Yes, we can. After three months we talk."
+        }
+      ]
+    },
+    {
+      "t": "Thông báo kết quả tuyển dụng",
+      "e": [
+        {
+          "p": "We want to offer you the job.",
+          "m": "Trả lời bạn có nhận hay không (yes/no). Nói bạn muốn bắt đầu khi nào.",
+          "h": "Use: Yes, I accept / No, I don't. / I can start on ...",
+          "s": "Yes, I accept. I can start next Monday."
+        },
+        {
+          "p": "We cannot hire you this time.",
+          "m": "Trả lời cảm xúc ngắn (sad/understand). Nói bạn có muốn ứng tuyển lần sau không.",
+          "h": "Use: I am + feeling. / I will apply again / I do not want to.",
+          "s": "I am sad. I will apply again."
+        },
+        {
+          "p": "Please sign the offer and send it back.",
+          "m": "Trả lời bạn sẽ làm gì (sign/send). Nói bạn sẽ gửi bằng email hay bưu điện.",
+          "h": "Use: I will sign it. / I will send by email / by post.",
+          "s": "I will sign it. I will send it by email."
+        },
+        {
+          "p": "Do you accept the start date we give?",
+          "m": "Trả lời có hoặc không. Nói ngày bạn muốn nếu không chấp nhận.",
+          "h": "Use: Yes, I accept. / No, I do not accept. / I want to start on ...",
+          "s": "No, I do not accept. I want to start on May 10."
+        },
+        {
+          "p": "Can you bring documents on your first day?",
+          "m": "Trả lời có hoặc không. Nói bạn sẽ mang giấy tờ nào (ID/CV).",
+          "h": "Use: Yes, I will / No, I will not. / I will bring ...",
+          "s": "Yes, I will. I will bring my ID and signed offer."
+        }
+      ]
+    },
+    {
+      "t": "Chấp nhận đề nghị và bắt đầu làm việc",
+      "e": [
+        {
+          "p": "Do you accept our job offer?",
+          "m": "Trả lời rõ yes hoặc no. Nói bạn sẽ bắt đầu vào ngày nào.",
+          "h": "Use: Yes, I accept / No, I do not accept. + I will start on ...",
+          "s": "Yes, I accept. I will start on Monday."
+        },
+        {
+          "p": "When is your first day?",
+          "m": "Nói ngày đầu làm việc. Nói bạn có gặp ai vào ngày đó.",
+          "h": "Use: My first day is + date. / I will meet + person.",
+          "s": "My first day is May 10. I will meet the manager."
+        },
+        {
+          "p": "Do you need training?",
+          "m": "Trả lời có hoặc không. Nói bạn muốn học điều gì ngắn gọn.",
+          "h": "Use: Yes, I need / No, I do not need. / I want to learn ...",
+          "s": "Yes, I need training. I want to learn the computer system."
+        },
+        {
+          "p": "Who will help you on your first day?",
+          "m": "Nói tên hoặc chức danh người giúp (mentor/manager). Nói họ làm gì để giúp bạn.",
+          "h": "Use: The + role will help. / They will show / teach ...",
+          "s": "The manager will help. They will show me the work steps."
+        },
+        {
+          "p": "Do you sign the contract now?",
+          "m": "Trả lời có hoặc không. Nói bạn ký hôm nay hay ký vào ngày đầu.",
+          "h": "Use: Yes, I sign now / No, I sign on my first day.",
+          "s": "No, I sign on my first day. I will sign at the office."
+        }
+      ]
+    },
+    {
+      "t": "Thay đổi lịch phỏng vấn và vấn đề nhỏ",
+      "e": [
+        {
+          "p": "We need to change your interview time.",
+          "m": "Trả lời bạn có thể thay đổi hay không. Nói thời gian mới bạn thích.",
+          "h": "Use: Yes, I can / No, I cannot. + I prefer + time.",
+          "s": "Yes, I can. I prefer three pm."
+        },
+        {
+          "p": "The interviewer is sick today.",
+          "m": "Trả lời bạn muốn hẹn lại hay phỏng vấn qua phone. Nói chọn phương án nào.",
+          "h": "Use: I want to reschedule / I want a phone interview.",
+          "s": "I want to reschedule. I will come another day."
+        },
+        {
+          "p": "We lost your CV. Can you send it again?",
+          "m": "Trả lời bạn có thể gửi lại không. Nói bạn sẽ gửi qua email hay mang trực tiếp.",
+          "h": "Use: Yes, I can / No, I cannot. + I will send by ...",
+          "s": "Yes, I can. I will send it by email."
+        },
+        {
+          "p": "There is a small problem with the office door.",
+          "m": "Trả lời bạn có thể đến nơi khác để phỏng vấn không. Nói bạn có thể đi hay không.",
+          "h": "Use: Yes, I can go / No, I cannot. + I can go to ...",
+          "s": "Yes, I can go. I can go to the other office."
+        },
+        {
+          "p": "We must cancel your interview today.",
+          "m": "Trả lời bạn có hiểu và muốn hẹn ngày khác hay không. Nói bạn muốn ngày nào.",
+          "h": "Use: I understand. / I want to reschedule to ...",
+          "s": "I understand. I want to reschedule for next Tuesday."
+        }
+      ]
+    },
+    {
+      "t": "Ôn tập: Quy trình tuyển dụng từ đăng tin đến nhận việc",
+      "e": [
+        {
+          "p": "What job do we post and where?",
+          "m": "Nói tên công việc. Nói nơi đăng tin (online/office).",
+          "h": "Use: It is a + job. / We post it online / at the office.",
+          "s": "It is a sales assistant job. We post it online."
+        },
+        {
+          "p": "How can a candidate apply?",
+          "m": "Nói một cách nộp hồ sơ. Nói nếu họ cần mang giấy tờ đến phỏng vấn hay không.",
+          "h": "Use: Send your CV by ... / Bring + document.",
+          "s": "Send your CV by email. Bring your ID to the interview."
+        },
+        {
+          "p": "When do we call a candidate?",
+          "m": "Nói thời điểm gọi (after CV review). Nói chúng ta hẹn phỏng vấn khi nào (give a day).",
+          "h": "Use: We call after ... / We schedule on + day.",
+          "s": "We call after we review the CV. We schedule the interview on Monday."
+        },
+        {
+          "p": "What do we ask in the interview?",
+          "m": "Nêu một câu hỏi về kỹ năng. Nói một câu hỏi về giờ làm.",
+          "h": "Use: Do you + V? / Can you + V?",
+          "s": "Do you speak English? Can you work on weekends?"
+        },
+        {
+          "p": "How do we give the result?",
+          "m": "Nói cách thông báo (phone/email). Nói nội dung ngắn (offer or reject).",
+          "h": "Use: We call / We email. / We offer / We cannot hire.",
+          "s": "We call by phone. We offer the job."
+        }
+      ]
+    },
+    {
+      "t": "Ôn tập: Tương tác trong phỏng vấn",
+      "e": [
+        {
+          "p": "Please tell me about yourself.",
+          "m": "Nói hai câu ngắn: nghề hoặc học. Nói một điểm mạnh đơn giản.",
+          "h": "Use: I am a + job/student. / My strength is + noun.",
+          "s": "I am a shop assistant. My strength is communication."
+        },
+        {
+          "p": "Why do you want this job?",
+          "m": "Nói một lý do ngắn. Nói bạn sẽ làm tốt vị trí này như thế nào.",
+          "h": "Use: Because + reason. / I will + V.",
+          "s": "Because I like customer work. I will help customers well."
+        },
+        {
+          "p": "Can you start next week?",
+          "m": "Trả lời có hoặc không. Nói ngày bạn có thể bắt đầu.",
+          "h": "Use: Yes, I can / No, I cannot. + I can start on ...",
+          "s": "Yes, I can. I can start on Monday."
+        },
+        {
+          "p": "Do you have any questions for us?",
+          "m": "Hỏi 1 câu về công việc. Hỏi 1 câu về giờ làm.",
+          "h": "Use: What + ...? / When + ...?",
+          "s": "What are my work hours? When do I start training?"
+        },
+        {
+          "p": "Thank you, we will call you soon.",
+          "m": "Trả lời bạn cảm ơn ngắn. Nói bạn mong chờ phản hồi hay không.",
+          "h": "Use: Thank you. / I look forward to + noun/verb.",
+          "s": "Thank you. I look forward to your call."
+        }
+      ]
+    },
+    {
+      "t": "Ôn tập: Vấn đề và thông báo trong tuyển dụng",
+      "e": [
+        {
+          "p": "We need more CVs for this job.",
+          "m": "Trả lời bạn sẽ làm gì (share/post). Nói bạn làm khi nào (today/now).",
+          "h": "Use: I will + V. / I will do it today/now.",
+          "s": "I will share the job. I will do it now."
+        },
+        {
+          "p": "A candidate asks for a later start date.",
+          "m": "Trả lời bạn đồng ý hay không. Nói ngày bạn đề nghị nếu đồng ý.",
+          "h": "Use: Yes, we can / No, we cannot. + Start on ...",
+          "s": "Yes, we can. Start on May 15 is fine."
+        },
+        {
+          "p": "The office is closed for a holiday.",
+          "m": "Nói bạn sẽ thông báo điều này cho ứng viên như thế nào. Nói họ có cần hẹn lại hay không.",
+          "h": "Use: We will + V. / We will reschedule / we will not.",
+          "s": "We will send an email to candidates. We will reschedule the interviews."
+        },
+        {
+          "p": "We found a better candidate for one job.",
+          "m": "Nói bạn sẽ thông báo cho ứng viên hiện tại ngắn gọn. Nói bạn có lời khuyên cho họ không.",
+          "h": "Use: We are sorry. / We advise you to + V.",
+          "s": "We are sorry. We advise you to apply again."
+        },
+        {
+          "p": "Can we offer a phone interview instead?",
+          "m": "Trả lời có hoặc không. Nói bạn thích phone hay face-to-face.",
+          "h": "Use: Yes, we can / No, we cannot. / I prefer + phone / face-to-face.",
+          "s": "Yes, we can. I prefer a phone interview."
+        }
+      ]
+    }
+  ]
+}

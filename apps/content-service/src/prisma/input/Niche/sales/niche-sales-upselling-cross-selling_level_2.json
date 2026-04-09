@@ -1,0 +1,635 @@
+{
+  "l": 2,
+  "d": [
+    {
+      "t": "Quán cà phê: Gợi ý thêm đồ uống",
+      "e": [
+        {
+          "p": "Would you like a slice of cake with your coffee?",
+          "m": "1) Nói có hoặc không bạn muốn bánh. 2) Nói kích thước cà phê bạn muốn (small/medium/large).",
+          "h": "Use 'I want' or 'No, thank you.' + size word.",
+          "s": "Yes, I want a chocolate cake. I want a medium coffee."
+        },
+        {
+          "p": "We also have a larger coffee for $1 more. Do you want it?",
+          "m": "1) Nói có hoặc không bạn muốn nâng cấp. 2) Nếu có, nói 'large'. Nếu không, nói 'regular'.",
+          "h": "Use 'Yes, I want...' or 'No, I want...'.",
+          "s": "Yes, I want the larger coffee. I want a large coffee."
+        },
+        {
+          "p": "Do you want whipped cream on your drink?",
+          "m": "1) Nói muốn hay không. 2) Nếu muốn, nói vị (vanilla/chocolate) hoặc nói 'no'.",
+          "h": "Use 'I want' or 'No, thank you.'",
+          "s": "No, I do not want whipped cream. I want my coffee plain."
+        },
+        {
+          "p": "We often sell a coffee + cake combo. Do you prefer combo?",
+          "m": "1) Nói thường xuyên bạn mua combo hay không (always/often/sometimes/never). 2) Nói bạn có muốn mua hôm nay không (yes/no).",
+          "h": "Use frequency adverb + 'I buy' and 'Yes/No'.",
+          "s": "I sometimes buy a combo. No, I do not want a combo today."
+        },
+        {
+          "p": "How many cakes do you want with your order?",
+          "m": "1) Nói số lượng bạn muốn. 2) Nói bạn also want extra napkins or not (yes/no).",
+          "h": "Use 'There are' or 'I want' + number; use 'Yes/No'.",
+          "s": "I want two cakes. Yes, I want extra napkins."
+        }
+      ]
+    },
+    {
+      "t": "Tiệm bánh: Đề xuất combo bánh và nước",
+      "e": [
+        {
+          "p": "Would you like a drink with your pastry?",
+          "m": "1) Nói bạn có muốn đồ uống không. 2) Nói loại đồ uống bạn muốn (tea/juice).",
+          "h": "Use 'I want' or 'No, thank you.' + drink word.",
+          "s": "Yes, I want a drink. I want a cup of tea."
+        },
+        {
+          "p": "We have a cake box for two. Do you want it?",
+          "m": "1) Nói có hoặc không. 2) Nói bạn want single cake or box (single/box).",
+          "h": "Use 'Yes/No' and 'I want a ...'.",
+          "s": "No, I do not want the box. I want a single cake."
+        },
+        {
+          "p": "Would you like your pastry warmed?",
+          "m": "1) Nói đang muốn bánh nóng hay không. 2) Nói cảm giác bạn (hot/cold/ok).",
+          "h": "Use 'I am' + V-ing or 'No, thank you.'",
+          "s": "Yes, I am warming the pastry please. I feel happy with warm pastry."
+        },
+        {
+          "p": "Do you want to add a small juice for $1?",
+          "m": "1) Nói bạn có muốn thêm nước ép không. 2) Nói bạn muốn orange or apple.",
+          "h": "Use 'I want' and choice words.",
+          "s": "Yes, I want the juice. I want orange juice."
+        },
+        {
+          "p": "How much is the combo with a drink?",
+          "m": "1) Hỏi giá combo (How much is ...?). 2) Nói bạn sẽ mua hay không (yes/no).",
+          "h": "Use 'How much' + 'I will buy' or 'I will not buy'.",
+          "s": "How much is the combo with a drink? I will buy it if it is cheap."
+        }
+      ]
+    },
+    {
+      "t": "Quầy đồ ăn nhanh: Thêm topping và kích thước",
+      "e": [
+        {
+          "p": "Do you want cheese on your burger?",
+          "m": "1) Nói có hoặc không bạn muốn phô mai. 2) Nói bạn want single or double cheese.",
+          "h": "Use 'Yes, I want...' or 'No, thank you.' + 'single/double'.",
+          "s": "Yes, I want cheese. I want double cheese."
+        },
+        {
+          "p": "We can make your fries large for $0.5 more. Do you want that?",
+          "m": "1) Nói có hoặc không bạn nâng cấp. 2) Nói 'large' hoặc 'regular'.",
+          "h": "Use 'Yes, I want...' or 'No, I want...'.",
+          "s": "No, I do not want the upgrade. I want regular fries."
+        },
+        {
+          "p": "Would you like a drink with your meal?",
+          "m": "1) Nói bạn có muốn đồ uống. 2) Nói soda hoặc water.",
+          "h": "Use 'I want' + drink choice.",
+          "s": "Yes, I want a drink. I want water."
+        },
+        {
+          "p": "Would you like sauce with your meal?",
+          "m": "1) Nói có hoặc không. 2) Nói loại sauce (ketchup/mayo).",
+          "h": "Use 'Yes' or 'No' and name sauce.",
+          "s": "Yes, I want sauce. I want ketchup."
+        },
+        {
+          "p": "How many burgers do you want today?",
+          "m": "1) Nói số burger bạn muốn. 2) Nói bạn want to add fries or not (yes/no).",
+          "h": "Use number with 'I want' and 'Yes/No'.",
+          "s": "I want two burgers. Yes, I want fries too."
+        }
+      ]
+    },
+    {
+      "t": "Cửa hàng quần áo: Gợi ý phụ kiện",
+      "e": [
+        {
+          "p": "Would you like a belt with that dress?",
+          "m": "1) Nói có hoặc không bạn muốn dây lưng. 2) Nói màu bạn thích (black/brown).",
+          "h": "Use 'Yes, I want' or 'No, thank you.' + color word.",
+          "s": "Yes, I want a belt. I want a black belt."
+        },
+        {
+          "p": "We also have matching shoes. Do you want to try them?",
+          "m": "1) Nói có hoặc không bạn muốn thử áo giày. 2) Nói size bạn cần (small/medium/large).",
+          "h": "Use 'I want to try' or 'No' + size word.",
+          "s": "Yes, I want to try the shoes. I need size medium."
+        },
+        {
+          "p": "Do you need a bag for your items?",
+          "m": "1) Nói bạn cần túi hay không. 2) Nếu cần, nói loại (small/big).",
+          "h": "Use 'I need' or 'No, thanks.' + size.",
+          "s": "I need a bag. I want a small bag."
+        },
+        {
+          "p": "Would you like to add a scarf for $5?",
+          "m": "1) Nói có hoặc không bạn muốn thêm khăn. 2) Nói màu khăn (red/blue) hoặc 'no'.",
+          "h": "Use 'Yes, I want...' or 'No, thank you.'",
+          "s": "No, I do not want the scarf. I want only the dress."
+        },
+        {
+          "p": "How many items do you buy today?",
+          "m": "1) Nói số món bạn mua. 2) Nói bạn often buy clothes here or not (always/often/sometimes/never).",
+          "h": "Use 'There are' or 'I buy' + frequency adverb.",
+          "s": "There are three items I buy today. I sometimes buy clothes here."
+        }
+      ]
+    },
+    {
+      "t": "Rạp chiếu phim: Bán combo bắp/đồ uống",
+      "e": [
+        {
+          "p": "Would you like a popcorn and drink combo?",
+          "m": "1) Nói có hoặc không bạn muốn combo. 2) Nói small or large.",
+          "h": "Use 'Yes/No' and size word.",
+          "s": "Yes, I want the combo. I want a small combo."
+        },
+        {
+          "p": "We can add extra butter to the popcorn. Do you want it?",
+          "m": "1) Nói muốn hay không. 2) Nói 'yes' and 'extra' or 'no'.",
+          "h": "Use 'Yes, I want...' or 'No, thank you.'",
+          "s": "Yes, I want extra butter. I want extra, please."
+        },
+        {
+          "p": "Do you want a refill for your drink later?",
+          "m": "1) Nói thường bạn refill hay không (always/often/sometimes/never). 2) Nói bạn will buy refill today (yes/no).",
+          "h": "Use frequency adverb and 'I will' or 'I will not'.",
+          "s": "I often buy a refill. Yes, I will buy a refill today."
+        },
+        {
+          "p": "How many tickets do you need?",
+          "m": "1) Nói số vé bạn cần. 2) Nói bạn want seats together or not (yes/no).",
+          "h": "Use number with 'I need' and 'Yes/No'.",
+          "s": "I need two tickets. Yes, I want seats together."
+        },
+        {
+          "p": "Do you want a souvenir cup with your drink?",
+          "m": "1) Nói có hoặc không. 2) Nếu có, nói color (red/blue) or 'no'.",
+          "h": "Use 'Yes, I want' or 'No, thank you.'",
+          "s": "No, I do not want the souvenir cup. I want only the drink."
+        }
+      ]
+    },
+    {
+      "t": "Cửa hàng điện thoại: Bán ốp lưng và bảo hành",
+      "e": [
+        {
+          "p": "Would you like a phone case with that phone?",
+          "m": "1) Nói có hoặc không bạn muốn ốp lưng. 2) Nói màu bạn thích (black/white).",
+          "h": "Use 'Yes, I want...' or 'No, thank you.' + color.",
+          "s": "Yes, I want a phone case. I want a black case."
+        },
+        {
+          "p": "We offer one-year extra warranty. Do you want it?",
+          "m": "1) Nói có hoặc không bạn muốn bảo hành. 2) Nói you often buy warranty or not (always/often/sometimes/never).",
+          "h": "Use 'Yes/No' and frequency adverb.",
+          "s": "No, I do not want the extra warranty. I sometimes buy warranty."
+        },
+        {
+          "p": "Do you want screen protection for $10?",
+          "m": "1) Nói bạn có muốn protect screen. 2) Nếu có, nói 'yes' and 'please'.",
+          "h": "Use 'Yes, I want...' or 'No, thank you.'",
+          "s": "Yes, I want screen protection. Yes, please add it."
+        },
+        {
+          "p": "How many accessories do you need today?",
+          "m": "1) Nói số phụ kiện bạn muốn. 2) Nói bạn need charger or headphones (yes/no).",
+          "h": "Use number + 'I need' and 'Yes/No'.",
+          "s": "I need two accessories. Yes, I need headphones."
+        },
+        {
+          "p": "Do you want to buy a matching case and screen protector together?",
+          "m": "1) Nói bạn có muốn mua chung không. 2) Nói bạn like this deal (yes/no).",
+          "h": "Use 'I want' and 'I like' with yes/no.",
+          "s": "Yes, I want to buy them together. Yes, I like this deal."
+        }
+      ]
+    },
+    {
+      "t": "Siêu thị: Gợi ý mua số lượng lớn",
+      "e": [
+        {
+          "p": "We have a discount if you buy three bottles. Do you want three?",
+          "m": "1) Nói bạn có muốn ba chai không. 2) Nói you often buy in bulk or not (always/often/sometimes/never).",
+          "h": "Use 'Yes/No' and frequency adverb.",
+          "s": "Yes, I want three bottles. I sometimes buy in bulk."
+        },
+        {
+          "p": "Would you like a reusable bag for your items?",
+          "m": "1) Nói có hoặc không bạn muốn túi. 2) Nói màu túi (green/blue) hoặc 'no'.",
+          "h": "Use 'I want' or 'No, thank you.' + color.",
+          "s": "No, I do not want the bag. I have my own bag."
+        },
+        {
+          "p": "Do you want this fruit box for a cheaper price?",
+          "m": "1) Nói bạn có muốn hộp trái cây rẻ hơn không. 2) Nói bạn will buy today (yes/no).",
+          "h": "Use 'I will buy' or 'I will not buy'.",
+          "s": "Yes, I want the fruit box. I will buy it today."
+        },
+        {
+          "p": "How many packs of rice do you need?",
+          "m": "1) Nói số gói gạo bạn cần. 2) Nói bạn need delivery or not (yes/no).",
+          "h": "Use number + 'I need' and 'Yes/No'.",
+          "s": "I need four packs of rice. No, I do not need delivery."
+        },
+        {
+          "p": "We also sell cooking oil with a small discount. Do you want it?",
+          "m": "1) Nói có hoặc không. 2) Nếu có, nói quantity (one/two).",
+          "h": "Use 'Yes, I want...' or 'No, thank you.' + number word.",
+          "s": "Yes, I want cooking oil. I want two bottles."
+        }
+      ]
+    },
+    {
+      "t": "Nhà hàng: Đề xuất món tráng miệng hoặc đồ uống",
+      "e": [
+        {
+          "p": "Would you like dessert after your meal?",
+          "m": "1) Nói có hoặc không bạn muốn tráng miệng. 2) Nói bạn prefer cake or ice cream.",
+          "h": "Use 'Yes/No' and 'I prefer...'.",
+          "s": "Yes, I want dessert. I prefer ice cream."
+        },
+        {
+          "p": "We can add a side salad for $2. Do you want it?",
+          "m": "1) Nói có hoặc không bạn muốn thêm salad. 2) Nói size salad (small/large).",
+          "h": "Use 'Yes, I want...' or 'No, thank you.' + size.",
+          "s": "No, I do not want the salad. I want only the main dish."
+        },
+        {
+          "p": "Do you want a bottle of water or a soft drink?",
+          "m": "1) Chọn nước hoặc đồ uống. 2) Nói bạn often drink water at restaurants or not.",
+          "h": "Use 'I want' and frequency adverb.",
+          "s": "I want a bottle of water. I often drink water at restaurants."
+        },
+        {
+          "p": "How much is the dessert menu item you want?",
+          "m": "1) Hỏi giá món tráng miệng (How much is ...?). 2) Nói bạn will order it or not (yes/no).",
+          "h": "Use 'How much' and 'I will' or 'I will not'.",
+          "s": "How much is the chocolate cake? I will order it if the price is fine."
+        },
+        {
+          "p": "Would you like coffee after the meal?",
+          "m": "1) Nói bạn có muốn cà phê hay không. 2) Nói bạn like coffee hot or iced.",
+          "h": "Use 'I want' and 'hot/iced'.",
+          "s": "Yes, I want coffee. I like hot coffee."
+        }
+      ]
+    },
+    {
+      "t": "Hiệu thuốc: Bán sản phẩm bổ sung",
+      "e": [
+        {
+          "p": "Do you want vitamin C with your purchase?",
+          "m": "1) Nói có hoặc không bạn muốn vitamin. 2) Nói bạn take vitamins often or not (always/often/sometimes/never).",
+          "h": "Use 'Yes/No' and frequency adverb.",
+          "s": "Yes, I want vitamin C. I sometimes take vitamins."
+        },
+        {
+          "p": "We have a first-aid kit. Do you want one?",
+          "m": "1) Nói bạn có cần không. 2) Nói số lượng needed (one/two).",
+          "h": "Use 'I need' and number word.",
+          "s": "No, I do not need the first-aid kit. I only need medicine."
+        },
+        {
+          "p": "Would you like a discount if you buy two packs?",
+          "m": "1) Nói có hoặc không bạn muốn mua hai gói. 2) Nói bạn will buy today or not (yes/no).",
+          "h": "Use 'Yes/No' and 'I will' or 'I will not'.",
+          "s": "Yes, I want two packs. I will buy them today."
+        },
+        {
+          "p": "How many boxes of bandages do you need?",
+          "m": "1) Nói số hộp bạn cần. 2) Nói bạn want regular or large box.",
+          "h": "Use number + 'I need' and size word.",
+          "s": "I need one box of bandages. I want a regular box."
+        },
+        {
+          "p": "Do you want a small cooler bag for your medicines?",
+          "m": "1) Nói có hoặc không. 2) Nói màu bag (white/blue) hoặc 'no'.",
+          "h": "Use 'Yes, I want' or 'No, thank you.' + color.",
+          "s": "Yes, I want a cooler bag. I want a blue bag."
+        }
+      ]
+    },
+    {
+      "t": "Dịch vụ spa: Đề xuất liệu trình thêm",
+      "e": [
+        {
+          "p": "Would you like a foot massage with your facial?",
+          "m": "1) Nói có hoặc không bạn muốn thêm foot massage. 2) Nói duration you want (15/30 minutes).",
+          "h": "Use 'Yes, I want' or 'No, thank you.' + time.",
+          "s": "Yes, I want the foot massage. I want 30 minutes."
+        },
+        {
+          "p": "We can add a mask for extra care. Do you want it?",
+          "m": "1) Nói có hoặc không. 2) Nói bạn often use masks or not (always/often/sometimes/never).",
+          "h": "Use 'Yes/No' and frequency adverb.",
+          "s": "No, I do not want the mask. I sometimes use masks at home."
+        },
+        {
+          "p": "Do you want to upgrade to a deluxe package?",
+          "m": "1) Nói bạn có muốn nâng cấp không. 2) Nói bạn will pay more or not (yes/no).",
+          "h": "Use 'Yes, I want' or 'No, thank you.' and 'I will pay'.",
+          "s": "Yes, I want the upgrade. I will pay more."
+        },
+        {
+          "p": "How many sessions do you want this month?",
+          "m": "1) Nói số buổi bạn muốn. 2) Nói you usually come weekly or not (yes/no).",
+          "h": "Use number with 'I want' and 'Yes/No'.",
+          "s": "I want two sessions this month. Yes, I usually come weekly."
+        },
+        {
+          "p": "Would you like a gift voucher for a friend?",
+          "m": "1) Nói có hoặc không. 2) Nếu có, nói recipient is male or female (male/female).",
+          "h": "Use 'Yes, I want' or 'No, thank you.' + male/female.",
+          "s": "Yes, I want a gift voucher. The recipient is female."
+        }
+      ]
+    },
+    {
+      "t": "Gara rửa xe: Bán gói wax và chăm sóc",
+      "e": [
+        {
+          "p": "Would you like a wax with the car wash?",
+          "m": "1) Nói có hoặc không bạn muốn wax. 2) Nói bạn want basic or premium wax.",
+          "h": "Use 'Yes, I want' or 'No, thank you.' + 'basic/premium'.",
+          "s": "Yes, I want a wax. I want premium wax."
+        },
+        {
+          "p": "We also clean the interior for $5. Do you want it?",
+          "m": "1) Nói có hoặc không. 2) Nói you often clean interior or not (always/often/sometimes/never).",
+          "h": "Use 'Yes/No' and frequency adverb.",
+          "s": "No, I do not want the interior cleaning. I sometimes clean it myself."
+        },
+        {
+          "p": "Do you want tire shine after the wash?",
+          "m": "1) Nói có hoặc không. 2) Nói bạn want one or two tires treated (one/two/all).",
+          "h": "Use 'Yes, I want' or 'No' and number word.",
+          "s": "Yes, I want tire shine. I want all tires treated."
+        },
+        {
+          "p": "How many cars are you bringing today?",
+          "m": "1) Nói số xe bạn mang. 2) Nói bạn will wait or come back later (I will wait/I will come back).",
+          "h": "Use number with 'I am bringing' and 'I will...'.",
+          "s": "I am bringing one car today. I will wait for the service."
+        },
+        {
+          "p": "Would you like a monthly wash subscription?",
+          "m": "1) Nói bạn có muốn đăng ký hàng tháng không. 2) Nói bạn often wash your car or not (always/often/sometimes/never).",
+          "h": "Use 'Yes/No' and frequency adverb.",
+          "s": "Yes, I want the monthly subscription. I often wash my car."
+        }
+      ]
+    },
+    {
+      "t": "Cửa hàng hoa: Gợi ý gói quà và thẻ",
+      "e": [
+        {
+          "p": "Would you like a gift box with the bouquet?",
+          "m": "1) Nói có hoặc không bạn muốn hộp quà. 2) Nói màu hộp (red/white).",
+          "h": "Use 'Yes, I want' or 'No, thank you.' + color.",
+          "s": "Yes, I want a gift box. I want a red box."
+        },
+        {
+          "p": "We can add a small card. Do you want a card?",
+          "m": "1) Nói có hoặc không. 2) Nếu có, viết một câu ngắn trên thẻ (I love you/Happy day).",
+          "h": "Use 'Yes, I want' and short sentence.",
+          "s": "Yes, I want a card. The message is 'Happy day'."
+        },
+        {
+          "p": "Do you want delivery for the flowers?",
+          "m": "1) Nói có hoặc không bạn muốn giao hàng. 2) Nói morning or afternoon delivery.",
+          "h": "Use 'I want' or 'No' and time phrase.",
+          "s": "Yes, I want delivery. I want morning delivery."
+        },
+        {
+          "p": "How many bouquets do you need?",
+          "m": "1) Nói số bó bạn cần. 2) Nói you often buy flowers here or not (always/often/sometimes/never).",
+          "h": "Use number with 'I need' and frequency adverb.",
+          "s": "I need three bouquets. I sometimes buy flowers here."
+        },
+        {
+          "p": "Would you like to add a small chocolate with the flowers?",
+          "m": "1) Nói có hoặc không. 2) Nói you want milk or dark chocolate.",
+          "h": "Use 'Yes/No' and chocolate type.",
+          "s": "Yes, I want the chocolate. I want dark chocolate."
+        }
+      ]
+    },
+    {
+      "t": "Mua sắm online: Gợi ý mua thêm khi thanh toán",
+      "e": [
+        {
+          "p": "Would you like to add a charger before checkout?",
+          "m": "1) Nói có hoặc không bạn muốn thêm sạc. 2) Nói color bạn muốn (white/black).",
+          "h": "Use 'Yes, I want' or 'No, thank you.' + color.",
+          "s": "No, I do not want the charger. I want only the phone."
+        },
+        {
+          "p": "We often suggest related items. Do you want suggestions?",
+          "m": "1) Nói bạn có muốn gợi ý không. 2) Nói bạn often buy related items or not (always/often/sometimes/never).",
+          "h": "Use 'Yes/No' and frequency adverb.",
+          "s": "Yes, I want suggestions. I often buy related items online."
+        },
+        {
+          "p": "Do you want fast shipping for $3 more?",
+          "m": "1) Nói có hoặc không bạn muốn giao nhanh. 2) Nói you will pay or not (I will/I will not).",
+          "h": "Use 'Yes/No' and 'I will' or 'I will not'.",
+          "s": "Yes, I want fast shipping. I will pay the extra $3."
+        },
+        {
+          "p": "How many items are in your cart now?",
+          "m": "1) Nói số món trong giỏ. 2) Nói bạn will add warranty or not (yes/no).",
+          "h": "Use number with 'There are' and 'Yes/No'.",
+          "s": "There are four items in my cart. No, I do not want warranty."
+        },
+        {
+          "p": "Would you like gift wrap for this order?",
+          "m": "1) Nói có hoặc không. 2) Nếu có, nói 'yes' and color (red/blue).",
+          "h": "Use 'Yes, I want' or 'No, thank you.' + color.",
+          "s": "Yes, I want gift wrap. I want red wrap."
+        }
+      ]
+    },
+    {
+      "t": "Dịch vụ đồ điện tử: Gợi ý bảo trì và phụ kiện",
+      "e": [
+        {
+          "p": "Would you like a cleaning service for your laptop?",
+          "m": "1) Nói có hoặc không bạn muốn dịch vụ. 2) Nói bạn want quick or full cleaning.",
+          "h": "Use 'Yes, I want' or 'No, thank you.' + quick/full.",
+          "s": "Yes, I want the cleaning service. I want full cleaning."
+        },
+        {
+          "p": "We sell a mouse and keyboard set. Do you want the set?",
+          "m": "1) Nói có hoặc không. 2) Nói you often use these accessories or not (always/often/sometimes/never).",
+          "h": "Use 'Yes/No' and frequency adverb.",
+          "s": "No, I do not want the set. I sometimes use accessories."
+        },
+        {
+          "p": "Do you want on-site support for $10 more?",
+          "m": "1) Nói có hoặc không. 2) Nói you will pay extra or not (I will/I will not).",
+          "h": "Use 'Yes/No' and 'I will' / 'I will not'.",
+          "s": "Yes, I want on-site support. I will pay the extra $10."
+        },
+        {
+          "p": "How many devices do you bring for repair?",
+          "m": "1) Nói số thiết bị bạn mang. 2) Nói bạn need fast repair or not (yes/no).",
+          "h": "Use number with 'I bring' and 'Yes/No'.",
+          "s": "I bring one device for repair. Yes, I need a fast repair."
+        },
+        {
+          "p": "Would you like a protective case for your tablet?",
+          "m": "1) Nói có hoặc không. 2) Nói màu case (black/gray) hoặc 'no'.",
+          "h": "Use 'Yes, I want' or 'No, thank you.' + color.",
+          "s": "Yes, I want a protective case. I want a gray case."
+        }
+      ]
+    },
+    {
+      "t": "Dịch vụ giao hàng: Gợi ý bảo hiểm đơn hàng",
+      "e": [
+        {
+          "p": "Do you want insurance for your package?",
+          "m": "1) Nói có hoặc không bạn muốn bảo hiểm. 2) Nói you often buy insurance or not (always/often/sometimes/never).",
+          "h": "Use 'Yes/No' and frequency adverb.",
+          "s": "Yes, I want insurance. I sometimes buy insurance."
+        },
+        {
+          "p": "We can deliver in the morning or afternoon. Which do you prefer?",
+          "m": "1) Chọn morning hoặc afternoon. 2) Nói bạn will be at home or not (yes/no).",
+          "h": "Use 'I prefer...' and 'Yes/No'.",
+          "s": "I prefer morning delivery. Yes, I will be at home."
+        },
+        {
+          "p": "Would you like contactless delivery?",
+          "m": "1) Nói có hoặc không. 2) Nói you often choose contactless or not.",
+          "h": "Use 'Yes/No' and frequency adverb.",
+          "s": "No, I do not want contactless delivery. I usually meet the driver."
+        },
+        {
+          "p": "How many packages do you send today?",
+          "m": "1) Nói số gói bạn gửi. 2) Nói you want same-day service or not (yes/no).",
+          "h": "Use number with 'I send' and 'Yes/No'.",
+          "s": "I send three packages today. No, I do not want same-day service."
+        },
+        {
+          "p": "Do you want to add a gift note to the package?",
+          "m": "1) Nói có hoặc không. 2) Nếu có, viết một câu ngắn trên note.",
+          "h": "Use 'Yes, I want' and short sentence.",
+          "s": "Yes, I want a gift note. The note says 'Happy birthday'."
+        }
+      ]
+    },
+    {
+      "t": "Ôn tập: Đề nghị thêm ở quán và cửa hàng",
+      "e": [
+        {
+          "p": "Would you like to add a side item with your order?",
+          "m": "1) Nói có hoặc không bạn muốn món phụ. 2) Nói you want small or large side.",
+          "h": "Use 'Yes/No' and size word.",
+          "s": "Yes, I want the side item. I want a small side."
+        },
+        {
+          "p": "We also offer a combo. Do you prefer combo or single item?",
+          "m": "1) Chọn combo hoặc single. 2) Nói you often buy combo or not (always/often/sometimes/never).",
+          "h": "Use 'I prefer...' and frequency adverb.",
+          "s": "I prefer the combo. I often buy combos."
+        },
+        {
+          "p": "Do you want a warranty for the product?",
+          "m": "1) Nói có hoặc không. 2) Nói you will pay extra or not (I will/I will not).",
+          "h": "Use 'Yes/No' and 'I will' / 'I will not'.",
+          "s": "No, I do not want the warranty. I will not pay extra."
+        },
+        {
+          "p": "How many extras do you want to add?",
+          "m": "1) Nói số extras bạn muốn. 2) Nói bạn will use them soon or later (soon/later).",
+          "h": "Use number with 'I want' and 'soon/later'.",
+          "s": "I want one extra. I will use it soon."
+        },
+        {
+          "p": "Would you like a receipt emailed to you?",
+          "m": "1) Nói có hoặc không. 2) Nếu có, đưa email placeholder.",
+          "h": "Use 'Yes, please' and write email format or placeholder.",
+          "s": "Yes, please email the receipt. My email is [studentName]@example.com."
+        }
+      ]
+    },
+    {
+      "t": "Ôn tập: Gợi ý phụ kiện, bảo hành và nâng cấp",
+      "e": [
+        {
+          "p": "Would you like accessories with your device?",
+          "m": "1) Nói có hoặc không bạn muốn phụ kiện. 2) Nói bạn want one or two items.",
+          "h": "Use 'Yes/No' and number word.",
+          "s": "Yes, I want accessories. I want two items."
+        },
+        {
+          "p": "We can add extra warranty for one year. Do you want it?",
+          "m": "1) Nói có hoặc không. 2) Nói you often buy warranty or not (always/often/sometimes/never).",
+          "h": "Use 'Yes/No' and frequency adverb.",
+          "s": "No, I do not want extra warranty. I sometimes buy warranty."
+        },
+        {
+          "p": "Do you want premium support for faster help?",
+          "m": "1) Nói có hoặc không. 2) Nói bạn will pay monthly or yearly (monthly/yearly).",
+          "h": "Use 'Yes/No' and 'monthly/yearly'.",
+          "s": "Yes, I want premium support. I will pay monthly."
+        },
+        {
+          "p": "How many add-ons do you choose today?",
+          "m": "1) Nói số add-on bạn chọn. 2) Nói bạn like bundled deals or not (yes/no).",
+          "h": "Use number with 'I choose' and 'Yes/No'.",
+          "s": "I choose two add-ons. Yes, I like bundled deals."
+        },
+        {
+          "p": "Would you like a demo for the new feature?",
+          "m": "1) Nói có hoặc không. 2) Nói you prefer live demo or video (live/video).",
+          "h": "Use 'Yes/No' and 'live/video'.",
+          "s": "Yes, I want a demo. I prefer a live demo."
+        }
+      ]
+    },
+    {
+      "t": "Ôn tập: Đặt dịch vụ & thêm món (đa ngữ cảnh)",
+      "e": [
+        {
+          "p": "Would you like to add a service today?",
+          "m": "1) Nói có hoặc không. 2) Nói tên dịch vụ ngắn (cleaning/repair).",
+          "h": "Use 'Yes, I want' or 'No, thank you.' + service word.",
+          "s": "Yes, I want to add a service. I want cleaning."
+        },
+        {
+          "p": "We offer a discount for two services. Do you want two?",
+          "m": "1) Nói có hoặc không. 2) Nói you will use both services today or later (today/later).",
+          "h": "Use 'Yes/No' and 'today/later'.",
+          "s": "No, I do not want two services. I will use one today."
+        },
+        {
+          "p": "Do you want extra packaging for your gift?",
+          "m": "1) Nói có hoặc không. 2) Nói color or style (simple/fancy).",
+          "h": "Use 'Yes/No' and 'simple/fancy' or color.",
+          "s": "Yes, I want extra packaging. I want a fancy style."
+        },
+        {
+          "p": "How many extras do you want on your order?",
+          "m": "1) Nói số extras bạn muốn. 2) Nói bạn pay now or later (now/later).",
+          "h": "Use number with 'I want' and 'now/later'.",
+          "s": "I want one extra on my order. I will pay now."
+        },
+        {
+          "p": "Would you like a reminder email for your service date?",
+          "m": "1) Nói có hoặc không. 2) Nếu có, dùng placeholder email or say 'no'.",
+          "h": "Use 'Yes, please' and provide email placeholder.",
+          "s": "Yes, please send a reminder. My email is [studentName]@example.com."
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,530 @@
+{
+  "l": 1,
+  "d": [
+    {
+      "t": "Gặp đồng nghiệp mới",
+      "e": [
+        {
+          "p": "What's your name?",
+          "m": "Nói tên của bạn.",
+          "h": "Use: My name is [studentName].",
+          "s": "My name is [studentName]."
+        },
+        {
+          "p": "What is your job in the team?",
+          "m": "Nói nghề hoặc vai trò của bạn.",
+          "h": "Use: I am a / I work as a [studentJob].",
+          "s": "I am [studentJob]."
+        },
+        {
+          "p": "Where do you work from?",
+          "m": "Nói thành phố nơi bạn làm việc.",
+          "h": "Use: I work in / I live in [studentCity].",
+          "s": "I work in [studentCity]."
+        },
+        {
+          "p": "How many people are in your team?",
+          "m": "Nói số thành viên trong team.",
+          "h": "Use: There are + number.",
+          "s": "There are five people in my team."
+        },
+        {
+          "p": "Can you join our small meeting?",
+          "m": "Nói bạn có thể tham gia hay không.",
+          "h": "Use: I can / I can't + V.",
+          "s": "I can join."
+        }
+      ]
+    },
+    {
+      "t": "Nói về nhiệm vụ đang làm",
+      "e": [
+        {
+          "p": "What is your main task now?",
+          "m": "Nói nhiệm vụ chính hiện tại của bạn.",
+          "h": "Use: I + V(s) + O or I am + V-ing (simple idea).",
+          "s": "I write the project report."
+        },
+        {
+          "p": "Do you work on the design or code?",
+          "m": "Nói bạn làm phần thiết kế hay phần code.",
+          "h": "Use: I work on + design/code.",
+          "s": "I work on the code."
+        },
+        {
+          "p": "How often do you update the task status?",
+          "m": "Nói tần suất bạn cập nhật tiến độ.",
+          "h": "Use: I + V(s) + adverb (every day/week).",
+          "s": "I update the status every day."
+        },
+        {
+          "p": "Is this task easy?",
+          "m": "Nói nhiệm vụ có dễ hay không.",
+          "h": "Use: It is + adjective or It is not + adjective.",
+          "s": "It is not easy."
+        },
+        {
+          "p": "Who helps you with this task?",
+          "m": "Nói tên người giúp (hoặc 'my friend').",
+          "h": "Use: [Name] or He/She helps me.",
+          "s": "My friend helps me."
+        }
+      ]
+    },
+    {
+      "t": "Hỏi về tiến độ đơn giản",
+      "e": [
+        {
+          "p": "Do you finish the task?",
+          "m": "Nói bạn đã xong task hay chưa.",
+          "h": "Use: I finish / I don't finish.",
+          "s": "I don't finish the task."
+        },
+        {
+          "p": "What is the task status?",
+          "m": "Nói trạng thái: done, in progress, or not start.",
+          "h": "Use: It is + done / in progress / not started.",
+          "s": "It is in progress."
+        },
+        {
+          "p": "How many tasks do you have today?",
+          "m": "Nói số task bạn có hôm nay.",
+          "h": "Use: I have + number + tasks.",
+          "s": "I have two tasks today."
+        },
+        {
+          "p": "Do you need more time?",
+          "m": "Nói bạn có cần thêm thời gian hay không.",
+          "h": "Use: I need / I don't need + more time.",
+          "s": "I need more time."
+        },
+        {
+          "p": "When do you finish this task?",
+          "m": "Nói thời gian hoàn thành (ví dụ: today/tomorrow).",
+          "h": "Use: I finish + today / tomorrow.",
+          "s": "I finish it tomorrow."
+        }
+      ]
+    },
+    {
+      "t": "Nói về trở ngại (blocker)",
+      "e": [
+        {
+          "p": "Do you have a problem?",
+          "m": "Nói bạn có vấn đề hay không.",
+          "h": "Use: I have a problem / I don't have a problem.",
+          "s": "I have a problem."
+        },
+        {
+          "p": "What is the problem?",
+          "m": "Nói vấn đề ngắn gọn (ví dụ: no access, error).",
+          "h": "Use: I have + a + problem or There is + an + error.",
+          "s": "There is an error in the app."
+        },
+        {
+          "p": "Can you fix the problem now?",
+          "m": "Nói bạn có thể sửa ngay hay không.",
+          "h": "Use: I can / I can't + V.",
+          "s": "I can't fix it now."
+        },
+        {
+          "p": "Who can help with this issue?",
+          "m": "Nói ai có thể giúp (một từ hoặc tên).",
+          "h": "Use: [Name] can help or My friend can help.",
+          "s": "My friend can help."
+        },
+        {
+          "p": "Do we need a new plan?",
+          "m": "Nói có cần kế hoạch mới hay không.",
+          "h": "Use: We need / We don't need + noun.",
+          "s": "We need a new plan."
+        }
+      ]
+    },
+    {
+      "t": "Yêu cầu và cho phép giúp đỡ",
+      "e": [
+        {
+          "p": "Can you help me?",
+          "m": "Nói bạn có thể giúp hay không.",
+          "h": "Use: I can / I can't + V.",
+          "s": "I can help you."
+        },
+        {
+          "p": "What help do you need?",
+          "m": "Nói một việc cần giúp (một câu).",
+          "h": "Use: I need help with + noun/verb-ing.",
+          "s": "I need help with the report."
+        },
+        {
+          "p": "How long can you help?",
+          "m": "Nói thời gian bạn giúp (short phrase).",
+          "h": "Use: I can help for + time (one hour).",
+          "s": "I can help for one hour."
+        },
+        {
+          "p": "Do you want me to do the test?",
+          "m": "Trả lời có muốn bạn kia làm test hay không.",
+          "h": "Use: Yes, please / No, thank you or I want / I don't want.",
+          "s": "Yes, please, I want that."
+        },
+        {
+          "p": "Who gives the final check?",
+          "m": "Nói người kiểm tra cuối cùng (one word/name).",
+          "h": "Use: [Name] or The manager checks.",
+          "s": "The manager checks."
+        }
+      ]
+    },
+    {
+      "t": "Phối hợp chia task nhỏ",
+      "e": [
+        {
+          "p": "Can you take task A?",
+          "m": "Nói bạn có nhận task A hay không.",
+          "h": "Use: I take it / I don't take it.",
+          "s": "I take task A."
+        },
+        {
+          "p": "I do task B. You do task C. OK?",
+          "m": "Xác nhận bạn đồng ý hay không.",
+          "h": "Use: Yes, I agree / No, I don't agree.",
+          "s": "Yes, I agree."
+        },
+        {
+          "p": "Who does task D?",
+          "m": "Nói ai làm task D (một từ hoặc tên).",
+          "h": "Use: [Name] does it or I do it.",
+          "s": "I do task D."
+        },
+        {
+          "p": "Do you need the file now?",
+          "m": "Nói bạn có cần file ngay hay không.",
+          "h": "Use: I need it now / I don't need it now.",
+          "s": "I need the file now."
+        },
+        {
+          "p": "When do you send your part?",
+          "m": "Nói thời điểm bạn gửi phần của mình (today/tomorrow).",
+          "h": "Use: I send it + today / tomorrow.",
+          "s": "I send it today."
+        }
+      ]
+    },
+    {
+      "t": "Cập nhật hàng ngày ngắn gọn",
+      "e": [
+        {
+          "p": "What did you do today?",
+          "m": "Nói một việc bạn làm hôm nay (present simple allowed).",
+          "h": "Use: I + V(s) + O (one sentence).",
+          "s": "I test the new page."
+        },
+        {
+          "p": "Do you finish your part?",
+          "m": "Nói bạn đã xong phần của mình hay chưa.",
+          "h": "Use: I finish / I don't finish.",
+          "s": "I finish my part."
+        },
+        {
+          "p": "Is the task ready for review?",
+          "m": "Nói task có sẵn cho review hay không.",
+          "h": "Use: It is ready / It is not ready.",
+          "s": "It is ready for review."
+        },
+        {
+          "p": "Do you have a blocker today?",
+          "m": "Nói hôm nay bạn có blocker hay không.",
+          "h": "Use: I have a blocker / I don't have a blocker.",
+          "s": "I don't have a blocker today."
+        },
+        {
+          "p": "Who will review the work?",
+          "m": "Nói người review (one word/name).",
+          "h": "Use: [Name] reviews or The manager reviews.",
+          "s": "The manager reviews the work."
+        }
+      ]
+    },
+    {
+      "t": "Thảo luận thời hạn đơn giản",
+      "e": [
+        {
+          "p": "What is the deadline?",
+          "m": "Nói hạn chót (today/tomorrow).",
+          "h": "Use: The deadline is + today/tomorrow/date.",
+          "s": "The deadline is tomorrow."
+        },
+        {
+          "p": "Can you meet the deadline?",
+          "m": "Nói bạn có thể hoàn thành đúng hạn hay không.",
+          "h": "Use: I can / I can't + meet the deadline.",
+          "s": "I can meet the deadline."
+        },
+        {
+          "p": "Do we need more time?",
+          "m": "Nói có cần thêm thời gian hay không.",
+          "h": "Use: We need / We don't need + more time.",
+          "s": "We need more time."
+        },
+        {
+          "p": "Who decides the new date?",
+          "m": "Nói ai quyết định ngày mới (one word/name).",
+          "h": "Use: The manager or [Name] decides.",
+          "s": "The manager decides the new date."
+        },
+        {
+          "p": "When do you send the final file?",
+          "m": "Nói khi nào bạn gửi file cuối (today/tomorrow).",
+          "h": "Use: I send it + today / tomorrow.",
+          "s": "I send the final file tomorrow."
+        }
+      ]
+    },
+    {
+      "t": "Thống nhất công việc và ưu tiên",
+      "e": [
+        {
+          "p": "Which task is important?",
+          "m": "Nói task quan trọng (one name/word).",
+          "h": "Use: Task A is important or The report is important.",
+          "s": "The report is important."
+        },
+        {
+          "p": "Do you start task A or B first?",
+          "m": "Nói bạn bắt đầu task nào trước (A or B).",
+          "h": "Use: I start with + A/B.",
+          "s": "I start with task A."
+        },
+        {
+          "p": "Can you do two tasks today?",
+          "m": "Nói bạn có thể làm hai task hôm nay hay không.",
+          "h": "Use: I can / I can't + do two tasks.",
+          "s": "I can do two tasks today."
+        },
+        {
+          "p": "Who has time for the urgent task?",
+          "m": "Nói ai có thời gian (one word/name).",
+          "h": "Use: [Name] has time or I have time.",
+          "s": "I have time for the urgent task."
+        },
+        {
+          "p": "Is task A more important than task B?",
+          "m": "So sánh đơn giản: có hay không.",
+          "h": "Use: Yes, it is / No, it is not.",
+          "s": "Yes, task A is more important."
+        }
+      ]
+    },
+    {
+      "t": "Họp ngắn: cập nhật và hỏi",
+      "e": [
+        {
+          "p": "Do you have an update?",
+          "m": "Nói bạn có cập nhật hay không.",
+          "h": "Use: I have an update / I don't have an update.",
+          "s": "I have an update."
+        },
+        {
+          "p": "What is the main change?",
+          "m": "Nói một thay đổi chính ngắn gọn.",
+          "h": "Use: The change is + short phrase.",
+          "s": "The change is a new layout."
+        },
+        {
+          "p": "Do you need a short test?",
+          "m": "Nói bạn có cần test ngắn hay không.",
+          "h": "Use: I need / I don't need + a test.",
+          "s": "I need a short test."
+        },
+        {
+          "p": "Who speaks next?",
+          "m": "Nói ai nói tiếp (one name/word).",
+          "h": "Use: [Name] speaks next or I speak next.",
+          "s": "I speak next."
+        },
+        {
+          "p": "Do we finish the meeting now?",
+          "m": "Nói có kết thúc họp ngay hay không.",
+          "h": "Use: Yes, we finish / No, we don't finish.",
+          "s": "Yes, we finish the meeting now."
+        }
+      ]
+    },
+    {
+      "t": "Thay đổi kế hoạch đơn giản",
+      "e": [
+        {
+          "p": "Do we change the plan?",
+          "m": "Nói có thay đổi kế hoạch hay không.",
+          "h": "Use: We change the plan / We don't change it.",
+          "s": "We change the plan."
+        },
+        {
+          "p": "Why do we change it?",
+          "m": "Nói lý do ngắn gọn (one reason).",
+          "h": "Use: We change because + short reason.",
+          "s": "We change because of a client request."
+        },
+        {
+          "p": "Who makes the new plan?",
+          "m": "Nói ai làm kế hoạch mới (one name).",
+          "h": "Use: [Name] makes the new plan or The manager does.",
+          "s": "The manager makes the new plan."
+        },
+        {
+          "p": "Do you agree with the change?",
+          "m": "Nói bạn có đồng ý hay không.",
+          "h": "Use: I agree / I don't agree.",
+          "s": "I agree with the change."
+        },
+        {
+          "p": "When is the new start date?",
+          "m": "Nói ngày bắt đầu mới (today/tomorrow).",
+          "h": "Use: The new start date is + today/tomorrow.",
+          "s": "The new start date is tomorrow."
+        }
+      ]
+    },
+    {
+      "t": "Phối hợp với team khác",
+      "e": [
+        {
+          "p": "Do you meet the other team?",
+          "m": "Nói bạn có gặp team khác hay không.",
+          "h": "Use: I meet them / I don't meet them.",
+          "s": "I meet the other team."
+        },
+        {
+          "p": "Who talks with them?",
+          "m": "Nói ai nói chuyện với team khác (one name/role).",
+          "h": "Use: [Name] talks or The manager talks.",
+          "s": "The manager talks with them."
+        },
+        {
+          "p": "Do they share the file?",
+          "m": "Nói họ có chia sẻ file hay không.",
+          "h": "Use: They share the file / They don't share it.",
+          "s": "They share the file."
+        },
+        {
+          "p": "Can we use their data?",
+          "m": "Nói có thể dùng data của họ hay không.",
+          "h": "Use: We can / We can't + use their data.",
+          "s": "We can use their data."
+        },
+        {
+          "p": "When do we meet next?",
+          "m": "Nói khi nào gặp lại (today/tomorrow).",
+          "h": "Use: We meet + today / tomorrow.",
+          "s": "We meet again tomorrow."
+        }
+      ]
+    },
+    {
+      "t": "Ôn tập: Cập nhật và blocker",
+      "e": [
+        {
+          "p": "Do you have any blocker now?",
+          "m": "Nói có blocker hiện tại hay không.",
+          "h": "Use: I have / I don't have a blocker.",
+          "s": "I have a blocker."
+        },
+        {
+          "p": "What is the blocker?",
+          "m": "Nói vấn đề ngắn gọn.",
+          "h": "Use: There is + a + problem or I have + a problem.",
+          "s": "There is a server error."
+        },
+        {
+          "p": "Can you fix it today?",
+          "m": "Nói bạn có thể sửa hôm nay hay không.",
+          "h": "Use: I can / I can't + V.",
+          "s": "I can't fix it today."
+        },
+        {
+          "p": "Who helps with this blocker?",
+          "m": "Nói ai giúp (one name/role).",
+          "h": "Use: [Name] helps or The manager helps.",
+          "s": "The manager helps."
+        },
+        {
+          "p": "When is the blocker clear?",
+          "m": "Nói khi nào vấn đề được giải quyết (today/tomorrow).",
+          "h": "Use: It is clear + today / tomorrow.",
+          "s": "It is clear tomorrow."
+        }
+      ]
+    },
+    {
+      "t": "Ôn tập: Phân công và thời hạn",
+      "e": [
+        {
+          "p": "Who does task X?",
+          "m": "Nói ai làm task X (one name).",
+          "h": "Use: [Name] does it or I do it.",
+          "s": "I do task X."
+        },
+        {
+          "p": "Do you finish by the deadline?",
+          "m": "Nói bạn có hoàn thành đúng hạn hay không.",
+          "h": "Use: I finish by the deadline / I don't finish.",
+          "s": "I finish by the deadline."
+        },
+        {
+          "p": "Can you change your task day?",
+          "m": "Nói bạn có thể đổi ngày làm hay không.",
+          "h": "Use: I can / I can't + change the day.",
+          "s": "I can change the day."
+        },
+        {
+          "p": "What is the new deadline?",
+          "m": "Nói hạn chót mới (today/tomorrow).",
+          "h": "Use: The new deadline is + today / tomorrow.",
+          "s": "The new deadline is tomorrow."
+        },
+        {
+          "p": "Do we confirm the plan now?",
+          "m": "Nói có xác nhận kế hoạch ngay hay không.",
+          "h": "Use: Yes, we confirm / No, we don't confirm.",
+          "s": "Yes, we confirm the plan now."
+        }
+      ]
+    },
+    {
+      "t": "Ôn tập: Họp, hỏi & trả lời",
+      "e": [
+        {
+          "p": "Do you have an update for the team?",
+          "m": "Nói bạn có cập nhật cho team hay không.",
+          "h": "Use: I have an update / I don't have an update.",
+          "s": "I have an update for the team."
+        },
+        {
+          "p": "What do you need from the team?",
+          "m": "Nói một điều bạn cần từ team (short).",
+          "h": "Use: I need + noun or I need + help.",
+          "s": "I need help with testing."
+        },
+        {
+          "p": "Can you join the review at 3pm?",
+          "m": "Nói bạn có thể tham gia review lúc 3 giờ hay không.",
+          "h": "Use: I can / I can't + join at 3pm.",
+          "s": "I can join at 3pm."
+        },
+        {
+          "p": "Who sends the report after the meeting?",
+          "m": "Nói ai gửi báo cáo (one name/role).",
+          "h": "Use: [Name] sends or The manager sends.",
+          "s": "I send the report after the meeting."
+        },
+        {
+          "p": "Do we finish all tasks today?",
+          "m": "Nói chúng ta có hoàn thành tất cả task hôm nay hay không.",
+          "h": "Use: We finish all tasks / We don't finish all tasks.",
+          "s": "We don't finish all tasks today."
+        }
+      ]
+    }
+  ]
+}

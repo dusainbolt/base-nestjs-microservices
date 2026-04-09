@@ -1,0 +1,530 @@
+{
+  "l": 1,
+  "d": [
+    {
+      "t": "Buổi đánh giá đầu tiên",
+      "e": [
+        {
+          "p": "What's your job?",
+          "m": "Nói nghề nghiệp hiện tại trong một câu.",
+          "h": "I am + job / S + be + N",
+          "s": "I am a [studentJob]."
+        },
+        {
+          "p": "Do you work here?",
+          "m": "Nói rõ bạn có làm ở đây hay không (yes/no) trong một câu.",
+          "h": "Yes/No + S + V",
+          "s": "Yes, I work here."
+        },
+        {
+          "p": "What is your main task?",
+          "m": "Nói công việc chính bạn làm trong một câu.",
+          "h": "S + V(s/es) + O",
+          "s": "I do office work."
+        },
+        {
+          "p": "Can you finish tasks on time?",
+          "m": "Nói khả năng hoàn thành nhiệm vụ (can/can't) trong một câu.",
+          "h": "S + can/can't + V",
+          "s": "I can finish tasks on time."
+        },
+        {
+          "p": "What is one good point about your work?",
+          "m": "Nói một điểm mạnh liên quan đến công việc trong một câu.",
+          "h": "S + V + O / S + be + Adj",
+          "s": "I work well with the team."
+        }
+      ]
+    },
+    {
+      "t": "Nói về nhiệm vụ hàng ngày",
+      "e": [
+        {
+          "p": "What do you do every day at work?",
+          "m": "Nói một việc bạn làm mỗi ngày tại nơi làm việc trong một câu.",
+          "h": "S + V(s/es) + O",
+          "s": "I answer phone calls every day."
+        },
+        {
+          "p": "Do you arrive on time?",
+          "m": "Nói có đến đúng giờ hay không (yes/no) trong một câu.",
+          "h": "Yes/No + S + V",
+          "s": "Yes, I arrive on time."
+        },
+        {
+          "p": "How many tasks do you do each day?",
+          "m": "Nói số nhiệm vụ bạn làm mỗi ngày (một số) trong một câu.",
+          "h": "S + V + number",
+          "s": "I do three tasks each day."
+        },
+        {
+          "p": "Is your work easy or hard?",
+          "m": "Nói công việc của bạn là dễ hay khó trong một câu.",
+          "h": "S + be + Adj",
+          "s": "My work is easy."
+        },
+        {
+          "p": "Can you help your team?",
+          "m": "Nói khả năng giúp đồng nghiệp (can/can't) trong một câu.",
+          "h": "S + can/can't + V",
+          "s": "I can help my team."
+        }
+      ]
+    },
+    {
+      "t": "Phản hồi về thái độ làm việc",
+      "e": [
+        {
+          "p": "Are you happy at work?",
+          "m": "Nói bạn có vui ở công việc hay không (yes/no) trong một câu.",
+          "h": "Yes/No + S + be",
+          "s": "Yes, I am happy at work."
+        },
+        {
+          "p": "Do you work with others?",
+          "m": "Nói có làm việc cùng người khác hay không (yes/no) trong một câu.",
+          "h": "Yes/No + S + V",
+          "s": "Yes, I work with others."
+        },
+        {
+          "p": "Who helps you at work?",
+          "m": "Nói một người giúp bạn ở nơi làm việc trong một câu.",
+          "h": "S + V + O / Name or role",
+          "s": "My manager helps me."
+        },
+        {
+          "p": "What is one bad habit at work?",
+          "m": "Nói một thói xấu của bạn liên quan công việc trong một câu.",
+          "h": "S + V + O / S + be + Adj",
+          "s": "I am sometimes late."
+        },
+        {
+          "p": "Can you change this habit?",
+          "m": "Nói liệu bạn có thể thay đổi thói quen đó hay không (can/can't) trong một câu.",
+          "h": "S + can/can't + V",
+          "s": "I can come early."
+        }
+      ]
+    },
+    {
+      "t": "Nhận xét từ quản lý",
+      "e": [
+        {
+          "p": "Your work is good.",
+          "m": "Trả lời ngắn gọn đồng ý hoặc cảm ơn trong một câu.",
+          "h": "Thank you + short comment",
+          "s": "Thank you, I work hard."
+        },
+        {
+          "p": "You are late this week.",
+          "m": "Thừa nhận hoặc nêu một câu trả lời ngắn trong một câu.",
+          "h": "S + be + Adj / I am + reason",
+          "s": "I am late this week."
+        },
+        {
+          "p": "Can you do more work?",
+          "m": "Nói khả năng làm thêm công việc (can/can't) trong một câu.",
+          "h": "S + can/can't + V",
+          "s": "Yes, I can do more work."
+        },
+        {
+          "p": "What time do you leave work?",
+          "m": "Nói giờ bạn về trong một câu.",
+          "h": "S + V + time",
+          "s": "I leave work at five o'clock."
+        },
+        {
+          "p": "Do you need training?",
+          "m": "Nói có cần đào tạo hay không (yes/no) trong một câu.",
+          "h": "Yes/No + S + V",
+          "s": "Yes, I need training."
+        }
+      ]
+    },
+    {
+      "t": "Mục tiêu công việc",
+      "e": [
+        {
+          "p": "Do you have a work goal?",
+          "m": "Nói có mục tiêu công việc hay không (yes/no) trong một câu.",
+          "h": "Yes/No + S + V",
+          "s": "Yes, I have a goal."
+        },
+        {
+          "p": "What is your main goal?",
+          "m": "Nói mục tiêu chính của bạn trong một câu.",
+          "h": "My main goal is + N / to + V",
+          "s": "My main goal is to learn more."
+        },
+        {
+          "p": "Can you reach this goal?",
+          "m": "Nói khả năng đạt mục tiêu (can/can't) trong một câu.",
+          "h": "S + can/can't + V",
+          "s": "I can reach this goal."
+        },
+        {
+          "p": "How many months do you need?",
+          "m": "Nói số tháng bạn cần (một số) trong một câu.",
+          "h": "S + V + number + months",
+          "s": "I need six months."
+        },
+        {
+          "p": "Who helps you with the goal?",
+          "m": "Nói một người giúp bạn với mục tiêu trong một câu.",
+          "h": "S + V + O",
+          "s": "My manager helps me."
+        }
+      ]
+    },
+    {
+      "t": "Kỹ năng và đào tạo",
+      "e": [
+        {
+          "p": "What skill do you have?",
+          "m": "Nói một kỹ năng bạn có trong một câu.",
+          "h": "S + have + N",
+          "s": "I have computer skills."
+        },
+        {
+          "p": "Can you use a computer well?",
+          "m": "Nói khả năng dùng máy tính (can/can't) trong một câu.",
+          "h": "S + can/can't + V",
+          "s": "Yes, I can use a computer well."
+        },
+        {
+          "p": "Do you need more training?",
+          "m": "Nói có cần thêm đào tạo không (yes/no) trong một câu.",
+          "h": "Yes/No + S + V",
+          "s": "No, I do not need more training."
+        },
+        {
+          "p": "How often do you learn new skills?",
+          "m": "Nói tần suất bạn học kỹ năng mới trong một câu.",
+          "h": "S + V + time phrase",
+          "s": "I learn new skills every week."
+        },
+        {
+          "p": "Can you teach others?",
+          "m": "Nói khả năng dạy người khác (can/can't) trong một câu.",
+          "h": "S + can/can't + V",
+          "s": "I can teach others."
+        }
+      ]
+    },
+    {
+      "t": "Giao tiếp với đồng nghiệp",
+      "e": [
+        {
+          "p": "Do you talk with your team?",
+          "m": "Nói có nói chuyện với nhóm không (yes/no) trong một câu.",
+          "h": "Yes/No + S + V",
+          "s": "Yes, I talk with my team."
+        },
+        {
+          "p": "Who do you speak with?",
+          "m": "Nói một người bạn thường nói chuyện cùng trong một câu.",
+          "h": "S + V + with + O",
+          "s": "I speak with my friend at work."
+        },
+        {
+          "p": "Do you speak clearly?",
+          "m": "Nói bạn có nói rõ ràng không (yes/no) trong một câu.",
+          "h": "Yes/No + S + V(adv) or be + Adj",
+          "s": "Yes, I speak clearly."
+        },
+        {
+          "p": "Do you write emails?",
+          "m": "Nói có viết email không (yes/no) trong một câu.",
+          "h": "Yes/No + S + V",
+          "s": "Yes, I write emails."
+        },
+        {
+          "p": "Can you write a short report?",
+          "m": "Nói khả năng viết báo cáo ngắn (can/can't) trong một câu.",
+          "h": "S + can/can't + V",
+          "s": "I can write a short report."
+        }
+      ]
+    },
+    {
+      "t": "Thói quen giờ làm",
+      "e": [
+        {
+          "p": "What time do you start work?",
+          "m": "Nói giờ bạn bắt đầu làm việc trong một câu.",
+          "h": "S + V + time",
+          "s": "I start work at nine o'clock."
+        },
+        {
+          "p": "Do you have a break?",
+          "m": "Nói có giờ nghỉ không (yes/no) trong một câu.",
+          "h": "Yes/No + S + V",
+          "s": "Yes, I have a break."
+        },
+        {
+          "p": "How long is your break?",
+          "m": "Nói thời gian nghỉ của bạn (số phút) trong một câu.",
+          "h": "S + V + number + minutes",
+          "s": "My break is thirty minutes."
+        },
+        {
+          "p": "Are you late many times?",
+          "m": "Nói có thường xuyên trễ không (yes/no) trong một câu.",
+          "h": "Yes/No + S + V",
+          "s": "No, I am not late many times."
+        },
+        {
+          "p": "Can you come early on Monday?",
+          "m": "Trả lời khả năng đến sớm vào thứ Hai (can/can't) trong một câu.",
+          "h": "S + can/can't + V",
+          "s": "Yes, I can come early on Monday."
+        }
+      ]
+    },
+    {
+      "t": "Xử lý lỗi công việc",
+      "e": [
+        {
+          "p": "There is a mistake in your report.",
+          "m": "Trả lời ngắn gọn nhận lỗi hoặc xin lỗi trong một câu.",
+          "h": "I am sorry / S + be + sorry",
+          "s": "I am sorry for the mistake."
+        },
+        {
+          "p": "Can you fix the mistake?",
+          "m": "Nói khả năng sửa lỗi (can/can't) trong một câu.",
+          "h": "S + can/can't + V",
+          "s": "Yes, I can fix the mistake."
+        },
+        {
+          "p": "How long to fix it?",
+          "m": "Nói thời gian bạn cần để sửa lỗi (một con số) trong một câu.",
+          "h": "S + need(s) + number + hours/days",
+          "s": "I need two hours to fix it."
+        },
+        {
+          "p": "Do you need help?",
+          "m": "Nói có cần giúp đỡ không (yes/no) trong một câu.",
+          "h": "Yes/No + S + V",
+          "s": "No, I do not need help."
+        },
+        {
+          "p": "Who checks your work?",
+          "m": "Nói một người kiểm tra công việc của bạn trong một câu.",
+          "h": "S + V + O",
+          "s": "My manager checks my work."
+        }
+      ]
+    },
+    {
+      "t": "Phản hồi về hiệu suất",
+      "e": [
+        {
+          "p": "Your sales are good.",
+          "m": "Trả lời cảm ơn hoặc đồng ý trong một câu.",
+          "h": "Thank you + short comment",
+          "s": "Thank you, I work hard."
+        },
+        {
+          "p": "You need to work faster.",
+          "m": "Nói liệu bạn có thể làm nhanh hơn không (can/can't) trong một câu.",
+          "h": "S + can/can't + V",
+          "s": "I can work faster."
+        },
+        {
+          "p": "Do you meet your targets?",
+          "m": "Trả lời có đạt mục tiêu hay không (yes/no) trong một câu.",
+          "h": "Yes/No + S + V",
+          "s": "Yes, I meet my targets."
+        },
+        {
+          "p": "What is one thing to improve?",
+          "m": "Nói một điều bạn cần cải thiện trong một câu.",
+          "h": "I need to + V / S + need(s) + to + V",
+          "s": "I need to plan my work."
+        },
+        {
+          "p": "Can you set a new target?",
+          "m": "Nói khả năng đặt mục tiêu mới (can/can't) trong một câu.",
+          "h": "S + can/can't + V",
+          "s": "Yes, I can set a new target."
+        }
+      ]
+    },
+    {
+      "t": "Thảo luận về tiền thưởng",
+      "e": [
+        {
+          "p": "Do you get a bonus?",
+          "m": "Nói có nhận thưởng hay không (yes/no) trong một câu.",
+          "h": "Yes/No + S + V",
+          "s": "No, I do not get a bonus."
+        },
+        {
+          "p": "Are you happy with your pay?",
+          "m": "Nói bạn có hài lòng với lương không (yes/no) trong một câu.",
+          "h": "Yes/No + S + be",
+          "s": "No, I am not happy with my pay."
+        },
+        {
+          "p": "Can more work give more pay?",
+          "m": "Trả lời ý tưởng làm nhiều hơn có được trả nhiều hơn không (yes/no) trong một câu.",
+          "h": "Yes/No + S + V",
+          "s": "Yes, more work can give more pay."
+        },
+        {
+          "p": "Who decides the bonus?",
+          "m": "Nói ai quyết định tiền thưởng trong một câu.",
+          "h": "S + V + O",
+          "s": "The manager decides the bonus."
+        },
+        {
+          "p": "Do you want a raise?",
+          "m": "Trả lời bạn có muốn tăng lương hay không (yes/no) trong một câu.",
+          "h": "Yes/No + S + V",
+          "s": "Yes, I want a raise."
+        }
+      ]
+    },
+    {
+      "t": "Kế hoạch cải thiện",
+      "e": [
+        {
+          "p": "Do you make a plan to improve?",
+          "m": "Nói có lập kế hoạch cải thiện hay không (yes/no) trong một câu.",
+          "h": "Yes/No + S + V",
+          "s": "Yes, I make a plan to improve."
+        },
+        {
+          "p": "What is one step in your plan?",
+          "m": "Nói một bước đơn giản trong kế hoạch của bạn trong một câu.",
+          "h": "S + V + O",
+          "s": "I learn more about my job."
+        },
+        {
+          "p": "Can you do this step every day?",
+          "m": "Nói khả năng làm bước đó mỗi ngày (can/can't) trong một câu.",
+          "h": "S + can/can't + V",
+          "s": "Yes, I can do this every day."
+        },
+        {
+          "p": "How long do you practice?",
+          "m": "Nói thời lượng bạn thực hành mỗi lần (một số giờ) trong một câu.",
+          "h": "S + V + number + hours",
+          "s": "I practice one hour every day."
+        },
+        {
+          "p": "Who supports your improvement?",
+          "m": "Nói ai hỗ trợ bạn cải thiện trong một câu.",
+          "h": "S + V + O",
+          "s": "My team supports my improvement."
+        }
+      ]
+    },
+    {
+      "t": "Ôn tập: Tổng hợp phản hồi cơ bản",
+      "e": [
+        {
+          "p": "What is your job?",
+          "m": "Nói nghề nghiệp của bạn trong một câu.",
+          "h": "I am + job",
+          "s": "I am a [studentJob]."
+        },
+        {
+          "p": "Do you work in a team?",
+          "m": "Nói có làm việc theo nhóm hay không (yes/no) trong một câu.",
+          "h": "Yes/No + S + V",
+          "s": "Yes, I work in a team."
+        },
+        {
+          "p": "What is one good point?",
+          "m": "Nói một điểm mạnh của bạn trong một câu.",
+          "h": "S + V + O / S + be + Adj",
+          "s": "I work well with others."
+        },
+        {
+          "p": "Can you fix work errors?",
+          "m": "Nói khả năng sửa lỗi công việc (can/can't) trong một câu.",
+          "h": "S + can/can't + V",
+          "s": "Yes, I can fix work errors."
+        },
+        {
+          "p": "Do you need training to improve?",
+          "m": "Nói có cần đào tạo để cải thiện hay không (yes/no) trong một câu.",
+          "h": "Yes/No + S + V",
+          "s": "Yes, I need training to improve."
+        }
+      ]
+    },
+    {
+      "t": "Ôn tập: Giao tiếp và thời gian",
+      "e": [
+        {
+          "p": "What time do you start?",
+          "m": "Nói giờ bạn bắt đầu trong một câu.",
+          "h": "S + V + time",
+          "s": "I start at nine o'clock."
+        },
+        {
+          "p": "Do you have a break?",
+          "m": "Nói có giờ nghỉ không (yes/no) trong một câu.",
+          "h": "Yes/No + S + V",
+          "s": "Yes, I have a break."
+        },
+        {
+          "p": "Who do you speak with?",
+          "m": "Nói một người bạn thường nói chuyện cùng trong một câu.",
+          "h": "S + V + with + O",
+          "s": "I speak with my manager."
+        },
+        {
+          "p": "Can you write a short email?",
+          "m": "Nói khả năng viết email ngắn (can/can't) trong một câu.",
+          "h": "S + can/can't + V",
+          "s": "Yes, I can write a short email."
+        },
+        {
+          "p": "Are you on time usually?",
+          "m": "Nói bạn có thường đúng giờ không (yes/no) trong một câu.",
+          "h": "Yes/No + S + be / S + V",
+          "s": "Yes, I am usually on time."
+        }
+      ]
+    },
+    {
+      "t": "Ôn tập: Mục tiêu và kế hoạch cải thiện",
+      "e": [
+        {
+          "p": "Do you have a work goal?",
+          "m": "Nói có mục tiêu công việc hay không (yes/no) trong một câu.",
+          "h": "Yes/No + S + V",
+          "s": "Yes, I have a work goal."
+        },
+        {
+          "p": "What is your step to improve?",
+          "m": "Nói một bước trong kế hoạch cải thiện trong một câu.",
+          "h": "S + V + O",
+          "s": "I practice my task every day."
+        },
+        {
+          "p": "How many months for your goal?",
+          "m": "Nói số tháng bạn cần cho mục tiêu trong một câu.",
+          "h": "S + V + number + months",
+          "s": "I need six months."
+        },
+        {
+          "p": "Can your team help?",
+          "m": "Nói khả năng đội ngũ giúp đỡ (can/can't) trong một câu.",
+          "h": "S + can/can't + V",
+          "s": "Yes, my team can help."
+        },
+        {
+          "p": "Who checks your work?",
+          "m": "Nói người kiểm tra công việc của bạn trong một câu.",
+          "h": "S + V + O",
+          "s": "My manager checks my work."
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,565 @@
+{
+  "l": 2,
+  "d": [
+    {
+      "t": "Giới thiệu thu nhập cá nhân",
+      "e": [
+        {
+          "p": "How much do you earn each month?",
+          "m": "Nói số tiền bạn kiếm mỗi tháng. Nói bạn tiết kiệm hay không.",
+          "h": "S + earn + số tiền. + adv of frequency + save + money.",
+          "s": "I earn 400 dollars a month. I sometimes save money."
+        },
+        {
+          "p": "What is your job and do you get paid every month?",
+          "m": "Nói nghề nghiệp. Nói tần suất bạn nhận lương.",
+          "h": "S + be + job. + I + get paid + adv of frequency.",
+          "s": "I am a cashier. I get paid every month."
+        },
+        {
+          "p": "Do you like to save or spend your money?",
+          "m": "Nói bạn thích tiết kiệm hay tiêu tiền. Nói lý do ngắn (1 cụm từ).",
+          "h": "I like / I prefer + V-ing or N. + because + short phrase.",
+          "s": "I like to save money. Because I want to buy a big phone."
+        },
+        {
+          "p": "How much do you save each month?",
+          "m": "Nói số tiền bạn để dành mỗi tháng. Nói bạn thường để ở đâu (ví dụ: bank, at home).",
+          "h": "I save + số tiền. There are + nơi (in the bank / at home).",
+          "s": "I save 50 dollars each month. I keep it in the bank."
+        },
+        {
+          "p": "Do you get any extra money sometimes?",
+          "m": "Nói bạn có tiền thêm không. Nói tiền thêm đó từ đâu.",
+          "h": "I sometimes + get + extra money. + from + source.",
+          "s": "I sometimes get extra money. It comes from small jobs."
+        }
+      ]
+    },
+    {
+      "t": "Chi tiêu hàng ngày",
+      "e": [
+        {
+          "p": "How much do you spend on food every day?",
+          "m": "Nói số tiền bạn tiêu cho thức ăn mỗi ngày. Nói bạn ăn ở nhà hay ngoài.",
+          "h": "I spend + số tiền + on food. + I usually / sometimes + eat + at home / out.",
+          "s": "I spend 5 dollars on food every day. I usually eat at home."
+        },
+        {
+          "p": "Do you buy coffee often?",
+          "m": "Nói tần suất bạn mua cà phê. Nói giá một ly cà phê.",
+          "h": "I + adv of frequency + buy coffee. + A coffee costs + số tiền.",
+          "s": "I sometimes buy coffee. A coffee costs 2 dollars."
+        },
+        {
+          "p": "What do you need to buy this week?",
+          "m": "Nói một món bạn cần mua. Nói vì sao bạn cần nó (1 cụm).",
+          "h": "I need + a/an + N. + because + short reason.",
+          "s": "I need a new bag. Because my old bag is broken."
+        },
+        {
+          "p": "Are you buying anything now?",
+          "m": "Nói bạn có đang mua gì lúc này không. Nói số lượng nếu có.",
+          "h": "I am / I am not + buying + N. + There are + số + N (if any).",
+          "s": "I am buying some fruit now. There are three apples."
+        },
+        {
+          "p": "Do you spend more on food or clothes?",
+          "m": "Nói bạn tiêu nhiều hơn vào thức ăn hay quần áo. Nói một ví dụ ngắn.",
+          "h": "I spend more on + food / clothes. + For example + short phrase.",
+          "s": "I spend more on food. For example I buy lunch every day."
+        }
+      ]
+    },
+    {
+      "t": "Mua sắm ở cửa hàng",
+      "e": [
+        {
+          "p": "How much is this shirt?",
+          "m": "Nói giá chiếc áo. Nói bạn có mua nó hay không.",
+          "h": "It costs + số tiền. + I will / I will not buy it.",
+          "s": "It costs 20 dollars. I will not buy it."
+        },
+        {
+          "p": "Do you pay by cash or card?",
+          "m": "Nói bạn trả tiền bằng tiền mặt hay thẻ. Nói bạn thường làm gì.",
+          "h": "I pay by + cash / card. + I usually + verb.",
+          "s": "I pay by card. I usually use my card."
+        },
+        {
+          "p": "Can you afford this bag?",
+          "m": "Nói bạn có đủ tiền mua cái túi không. Nói bạn cần bao nhiêu thêm (nếu không đủ).",
+          "h": "I can / cannot afford it. + I need + số tiền + more.",
+          "s": "I cannot afford it. I need 30 dollars more."
+        },
+        {
+          "p": "How many items do you buy today?",
+          "m": "Nói số món bạn mua hôm nay. Nói một món bạn mua (tên).",
+          "h": "There are + số + items. + I buy + a/an + item.",
+          "s": "There are two items. I buy a hat."
+        },
+        {
+          "p": "Do you like sales and discounts?",
+          "m": "Nói bạn có thích giảm giá không. Nói bạn đi mua khi có giảm giá thường hay không.",
+          "h": "I like / I don't like + sales. + I often / sometimes + go shopping + when + there is a sale.",
+          "s": "I like sales. I often go shopping when there is a sale."
+        }
+      ]
+    },
+    {
+      "t": "Trả tiền hóa đơn",
+      "e": [
+        {
+          "p": "How much is your electricity bill this month?",
+          "m": "Nói tiền điện tháng này. Nói bạn có trả nó rồi hay chưa.",
+          "h": "My electricity bill is + số tiền. + I have / have not paid it.",
+          "s": "My electricity bill is 30 dollars. I have not paid it."
+        },
+        {
+          "p": "Do you pay bills online or in person?",
+          "m": "Nói bạn trả hóa đơn online hay trực tiếp. Nói bạn thường trả ở đâu.",
+          "h": "I pay bills + online / in person. + I usually pay at + place.",
+          "s": "I pay bills online. I usually pay at my bank app."
+        },
+        {
+          "p": "When do you pay your rent?",
+          "m": "Nói thời điểm bạn trả tiền thuê nhà. Nói số tiền thuê mỗi tháng.",
+          "h": "I pay my rent + every + month / on + date. + It is + số tiền.",
+          "s": "I pay my rent every month. It is 200 dollars."
+        },
+        {
+          "p": "Do you need help to pay a bill now?",
+          "m": "Nói bạn có cần giúp trả hóa đơn không. Nói lý do ngắn (1 cụm).",
+          "h": "I need / do not need help. + because + short reason.",
+          "s": "I need help to pay a bill. Because I have little money now."
+        },
+        {
+          "p": "How do you save money for bills?",
+          "m": "Nói cách bạn tiết kiệm cho hóa đơn. Nói bạn làm điều đó thường xuyên hay không.",
+          "h": "I save money by + V-ing. + I + adv of frequency + do this.",
+          "s": "I save money by cooking at home. I usually do this."
+        }
+      ]
+    },
+    {
+      "t": "Lập kế hoạch tiết kiệm",
+      "e": [
+        {
+          "p": "How much do you want to save this year?",
+          "m": "Nói số tiền bạn muốn tiết kiệm trong năm. Nói bạn sẽ tiết kiệm bằng cách nào (1 cụm).",
+          "h": "I want to save + số tiền + this year. + I will + V (e.g., cut costs).",
+          "s": "I want to save 600 dollars this year. I will eat at home more."
+        },
+        {
+          "p": "Do you put money in a savings account?",
+          "m": "Nói bạn có gửi tiền vào tài khoản tiết kiệm không. Nói tần suất bạn gửi.",
+          "h": "I do / do not put money in a savings account. + I + adv of frequency + put money.",
+          "s": "I put money in a savings account. I usually put money every month."
+        },
+        {
+          "p": "What do you save for — a trip or a thing?",
+          "m": "Nói bạn tiết kiệm cho chuyến đi hay món đồ. Nói tên chuyến đi hoặc món đồ.",
+          "h": "I save for + a trip / a thing. + It is + name or short phrase.",
+          "s": "I save for a trip. It is a trip to the beach."
+        },
+        {
+          "p": "Are you saving more this month than last month?",
+          "m": "So sánh tiết kiệm tháng này và tháng trước. Nói số tiền ngắn (ví dụ: more/less and amount).",
+          "h": "I am saving more / less this month. + I save + số tiền + (this month) vs + số tiền.",
+          "s": "I am saving more this month. I save 100 dollars now and 50 last month."
+        },
+        {
+          "p": "How do you feel about saving money?",
+          "m": "Nói cảm xúc của bạn về việc tiết kiệm (1 từ). Nói bạn có kế hoạch nhỏ nào không.",
+          "h": "I feel + adjective. + I have a small plan + to + V.",
+          "s": "I feel happy about saving. I have a plan to save weekly."
+        }
+      ]
+    },
+    {
+      "t": "Thu nhập thêm và việc làm thêm",
+      "e": [
+        {
+          "p": "Do you have a part-time job?",
+          "m": "Nói bạn có việc làm bán thời gian không. Nói bạn làm công việc gì ngắn gọn.",
+          "h": "I do / I don't. + I work as + a/an + job.",
+          "s": "I have a part-time job. I work as a tutor."
+        },
+        {
+          "p": "How much do you earn from this job per week?",
+          "m": "Nói số tiền bạn kiếm từ việc đó mỗi tuần. Nói bạn làm mấy giờ (short).",
+          "h": "I earn + số tiền + per week. + I work + số giờ + hours.",
+          "s": "I earn 80 dollars per week. I work ten hours."
+        },
+        {
+          "p": "Do you like extra work?",
+          "m": "Nói bạn có thích làm thêm không. Nói lý do ngắn (1 cụm).",
+          "h": "I like / I don't like + extra work. + because + short reason.",
+          "s": "I like extra work. Because I can save more."
+        },
+        {
+          "p": "What do you do with extra money?",
+          "m": "Nói bạn làm gì với tiền thêm. Nói một ví dụ (save or spend) ngắn.",
+          "h": "I + save / spend + extra money. + For example + short phrase.",
+          "s": "I save extra money. For example I save for a new phone."
+        },
+        {
+          "p": "Do you often look for new small jobs online?",
+          "m": "Nói tần suất bạn tìm việc nhỏ trên mạng. Nói bạn tìm ở đâu (ví dụ: app, website).",
+          "h": "I + adv of frequency + look for jobs online. + I use + app / website.",
+          "s": "I sometimes look for new jobs online. I use a job app."
+        }
+      ]
+    },
+    {
+      "t": "Quản lý ngân sách hàng tuần",
+      "e": [
+        {
+          "p": "How much is your weekly budget?",
+          "m": "Nói số tiền ngân sách hàng tuần. Nói bạn chia tiền cho gì (1 danh mục).",
+          "h": "My weekly budget is + số tiền. + I spend it on + category.",
+          "s": "My weekly budget is 70 dollars. I spend it on food."
+        },
+        {
+          "p": "Do you plan your spending every week?",
+          "m": "Nói bạn có lập kế hoạch không. Nói bạn làm điều đó khi nào (thời gian ngắn).",
+          "h": "I do / I don't plan. + I plan + on + day or time.",
+          "s": "I plan my spending. I plan every Sunday."
+        },
+        {
+          "p": "How many days do you cook to save money?",
+          "m": "Nói số ngày bạn nấu ăn để tiết kiệm. Nói bạn nấu món gì (1 từ).",
+          "h": "I cook + số days + days. + I cook + a + dish.",
+          "s": "I cook four days. I cook rice."
+        },
+        {
+          "p": "Do you write down your expenses?",
+          "m": "Nói bạn có ghi chép chi tiêu không. Nói bạn ghi bằng sổ hoặc app.",
+          "h": "I do / I don't write down expenses. + I use + a notebook / an app.",
+          "s": "I write down my expenses. I use a small notebook."
+        },
+        {
+          "p": "What do you cut to save money this week?",
+          "m": "Nói một thứ bạn cắt giảm để tiết kiệm. Nói bạn cắt giảm bao nhiêu (short).",
+          "h": "I cut + N. + I save + số tiền.",
+          "s": "I cut snacks. I save 10 dollars."
+        }
+      ]
+    },
+    {
+      "t": "Cho vay và mượn tiền",
+      "e": [
+        {
+          "p": "Do you ever borrow money from friends?",
+          "m": "Nói bạn có mượn tiền bạn bè không. Nói tần suất (adv of frequency).",
+          "h": "I do / I don't. + I + adv of frequency + borrow money.",
+          "s": "I sometimes borrow money from friends. I do this rarely."
+        },
+        {
+          "p": "How much did you borrow last time?",
+          "m": "Nói số tiền bạn mượn lần trước. Nói bạn trả lại khi nào.",
+          "h": "I borrowed + số tiền. + I paid it back + time phrase.",
+          "s": "I borrowed 30 dollars. I paid it back last week."
+        },
+        {
+          "p": "Do you lend money to family?",
+          "m": "Nói bạn có cho gia đình vay không. Nói bạn thường cho bao nhiêu (short).",
+          "h": "I do / I don't lend money. + I usually lend + số tiền.",
+          "s": "I lend money to my family. I usually lend 20 dollars."
+        },
+        {
+          "p": "If a friend asks for money now, what do you say?",
+          "m": "Nói bạn sẽ nói cho bạn bè biết gì (đồng ý hoặc không). Nói lý do ngắn.",
+          "h": "I will say + yes / no + short reason.",
+          "s": "I will say yes. Because I want to help."
+        },
+        {
+          "p": "Do you write a note when you lend money?",
+          "m": "Nói bạn có ghi chú khi cho vay không. Nói bạn ghi ở đâu (sổ, phone).",
+          "h": "I do / I don't write a note. + I write it in + notebook / phone.",
+          "s": "I write a note when I lend money. I write it in my phone."
+        }
+      ]
+    },
+    {
+      "t": "Tiền thưởng và quà tặng",
+      "e": [
+        {
+          "p": "Do you get gift money from family?",
+          "m": "Nói bạn có nhận tiền mừng từ gia đình không. Nói khi nào (occasion).",
+          "h": "I do / I don't get gift money. + I get it on + occasion.",
+          "s": "I get gift money from my family. I get it on my birthday."
+        },
+        {
+          "p": "How much was your last gift?",
+          "m": "Nói số tiền quà bạn nhận lần trước. Nói bạn dùng nó cho gì.",
+          "h": "My last gift was + số tiền. + I used it for + short purpose.",
+          "s": "My last gift was 50 dollars. I used it for shoes."
+        },
+        {
+          "p": "Do you give money as a gift to others?",
+          "m": "Nói bạn có tặng tiền không. Nói bạn thường tặng bao nhiêu.",
+          "h": "I do / I don't give money. + I usually give + số tiền.",
+          "s": "I give money as a gift. I usually give 20 dollars."
+        },
+        {
+          "p": "Are you saving a gift for something special?",
+          "m": "Nói bạn có giữ tiền quà cho mục đích đặc biệt không. Nói mục đích đó.",
+          "h": "I am / I am not saving it. + I save it for + purpose.",
+          "s": "I am saving my gift money. I save it for a new bag."
+        },
+        {
+          "p": "Do you prefer a gift or a bought item?",
+          "m": "Nói bạn thích tiền quà hay món đồ được mua. Nói lý do ngắn.",
+          "h": "I prefer + gift / a bought item. + because + short reason.",
+          "s": "I prefer a bought item. Because I like new things."
+        }
+      ]
+    },
+    {
+      "t": "Tiền đi lại và chi phí di chuyển",
+      "e": [
+        {
+          "p": "How much do you spend on transport each week?",
+          "m": "Nói số tiền bạn tiêu cho đi lại mỗi tuần. Nói bạn đi bằng gì.",
+          "h": "I spend + số tiền + per week. + I go by + bus / bike / car.",
+          "s": "I spend 15 dollars on transport each week. I go by bus."
+        },
+        {
+          "p": "Do you usually walk to work or take transport?",
+          "m": "Nói bạn đi bộ hay đi phương tiện. Nói tần suất (always/sometimes).",
+          "h": "I usually + walk / take + transport. + I + adv of frequency + do this.",
+          "s": "I usually take transport. I always take the bus."
+        },
+        {
+          "p": "How many times do you use a taxi each month?",
+          "m": "Nói số lần bạn đi taxi mỗi tháng. Nói giá một lần (short).",
+          "h": "I use a taxi + number + times. + A taxi costs + số tiền each time.",
+          "s": "I use a taxi two times each month. A taxi costs 10 dollars."
+        },
+        {
+          "p": "Do you buy a transport card?",
+          "m": "Nói bạn có mua thẻ đi lại không. Nói bạn nạp tiền vào thẻ bao lâu một lần.",
+          "h": "I do / I don't buy a transport card. + I top up it + every + time.",
+          "s": "I have a transport card. I top it up every month."
+        },
+        {
+          "p": "Would you spend more to travel faster?",
+          "m": "Nói bạn có chi nhiều hơn để đi nhanh hơn không. Nói lý do ngắn.",
+          "h": "I would / would not spend more. + because + short reason.",
+          "s": "I would spend more to travel faster. Because I save time."
+        }
+      ]
+    },
+    {
+      "t": "Ăn uống ngoài và chi phí giải trí",
+      "e": [
+        {
+          "p": "How often do you eat out?",
+          "m": "Nói tần suất bạn ăn ngoài. Nói một nơi bạn hay đi (cafe, restaurant).",
+          "h": "I + adv of frequency + eat out. + I go to + place.",
+          "s": "I sometimes eat out. I go to a small cafe."
+        },
+        {
+          "p": "How much do you spend on movies or games each month?",
+          "m": "Nói số tiền bạn tiêu cho giải trí mỗi tháng. Nói bạn thích xem phim hay chơi game.",
+          "h": "I spend + số tiền + per month. + I like + watching movies / playing games.",
+          "s": "I spend 20 dollars on entertainment each month. I like watching movies."
+        },
+        {
+          "p": "Do you buy snacks at the cinema?",
+          "m": "Nói bạn có mua đồ ăn vặt khi xem phim không. Nói bạn tiêu bao nhiêu cho một lần.",
+          "h": "I do / I don't buy snacks. + I spend + số tiền + per visit.",
+          "s": "I buy snacks at the cinema. I spend 5 dollars each time."
+        },
+        {
+          "p": "Would you save to go on a trip with friends?",
+          "m": "Nói bạn có tiết kiệm để đi chơi với bạn không. Nói bạn sẽ tiết kiệm bằng cách nào.",
+          "h": "I would / would not save. + I will + V (e.g., cut spending).",
+          "s": "I would save to go on a trip with friends. I will cut coffee spending."
+        },
+        {
+          "p": "Do you prefer cheap fun or expensive fun?",
+          "m": "Nói bạn thích vui rẻ hay vui đắt. Nói lý do ngắn (1 cụm).",
+          "h": "I prefer + cheap fun / expensive fun. + because + short reason.",
+          "s": "I prefer cheap fun. Because it is easy to do."
+        }
+      ]
+    },
+    {
+      "t": "Mua sắm online và thanh toán",
+      "e": [
+        {
+          "p": "Do you shop online?",
+          "m": "Nói bạn có mua sắm trực tuyến không. Nói bạn mua cái gì ngắn gọn.",
+          "h": "I do / I don't shop online. + I buy + N.",
+          "s": "I shop online. I buy clothes."
+        },
+        {
+          "p": "How much did you spend on your last online order?",
+          "m": "Nói số tiền bạn tiêu cho đơn hàng gần nhất. Nói bạn nhận hàng ở đâu (home/pickup).",
+          "h": "I spent + số tiền. + I received it at + home / pickup point.",
+          "s": "I spent 25 dollars on my last online order. I received it at home."
+        },
+        {
+          "p": "Do you check reviews before buying?",
+          "m": "Nói bạn có đọc đánh giá trước khi mua không. Nói bạn đọc ở đâu (website/app).",
+          "h": "I do / I don't check reviews. + I read them on + website / app.",
+          "s": "I check reviews before buying. I read them on the shop app."
+        },
+        {
+          "p": "Do you often return items you buy online?",
+          "m": "Nói tần suất bạn trả hàng online. Nói lý do ngắn (size, quality).",
+          "h": "I + adv of frequency + return items. + because + short reason.",
+          "s": "I sometimes return items I buy online. Because the size is wrong."
+        },
+        {
+          "p": "How do you pay for online orders?",
+          "m": "Nói cách bạn thanh toán khi mua online. Nói bạn có lưu thẻ không (yes/no).",
+          "h": "I pay by + card / app / cash on delivery. + I do / do not save my card.",
+          "s": "I pay by card for online orders. I do not save my card details."
+        }
+      ]
+    },
+    {
+      "t": "Ứng dụng ngân hàng cơ bản",
+      "e": [
+        {
+          "p": "Do you use a bank app?",
+          "m": "Nói bạn có dùng ứng dụng ngân hàng không. Nói bạn dùng để làm gì (1 việc).",
+          "h": "I do / I don't use a bank app. + I use it to + V.",
+          "s": "I use a bank app. I use it to check my balance."
+        },
+        {
+          "p": "How often do you check your account balance?",
+          "m": "Nói tần suất bạn kiểm tra số dư. Nói bạn kiểm tra bằng app hay SMS.",
+          "h": "I + adv of frequency + check my balance. + I check by + app / SMS.",
+          "s": "I often check my account balance. I check by the app."
+        },
+        {
+          "p": "Do you transfer money to friends?",
+          "m": "Nói bạn có chuyển tiền cho bạn bè không. Nói bạn chuyển qua app hay không.",
+          "h": "I do / I don't transfer money. + I transfer via + app / bank.",
+          "s": "I transfer money to friends. I transfer via a bank app."
+        },
+        {
+          "p": "Is your phone secure for banking?",
+          "m": "Nói điện thoại bạn có an toàn để dùng ngân hàng không. Nói bạn làm gì để an toàn (1 hành động).",
+          "h": "It is / is not secure. + I + do action (use a password).",
+          "s": "My phone is secure for banking. I use a password."
+        },
+        {
+          "p": "Do you set a limit on spending in your app?",
+          "m": "Nói bạn có đặt giới hạn chi tiêu không. Nói mức giới hạn nếu có.",
+          "h": "I do / I don't set a limit. + The limit is + số tiền (if yes).",
+          "s": "I set a limit on spending in my app. The limit is 100 dollars."
+        }
+      ]
+    },
+    {
+      "t": "Ôn tập: Tổng hợp tình huống thu chi",
+      "e": [
+        {
+          "p": "Tell me your monthly income and one main expense.",
+          "m": "Nói số tiền bạn kiếm mỗi tháng. Nói một chi phí chính và số tiền cho nó.",
+          "h": "I earn + số tiền. + I spend + số tiền + on + category.",
+          "s": "I earn 400 dollars each month. I spend 200 dollars on rent."
+        },
+        {
+          "p": "Do you save weekly and how much?",
+          "m": "Nói bạn có tiết kiệm hàng tuần không. Nói số tiền bạn tiết kiệm mỗi tuần.",
+          "h": "I do / I don't save weekly. + I save + số tiền + per week.",
+          "s": "I save weekly. I save 25 dollars per week."
+        },
+        {
+          "p": "Name one thing you cut to save money and how often.",
+          "m": "Nói một thứ bạn cắt giảm. Nói tần suất bạn cắt giảm đó.",
+          "h": "I cut + N. + I do this + adv of frequency.",
+          "s": "I cut buying coffee. I do this every day."
+        },
+        {
+          "p": "How do you pay bills and do you pay on time?",
+          "m": "Nói cách bạn trả hóa đơn. Nói bạn có trả đúng hạn không.",
+          "h": "I pay bills by + method. + I + do / do not pay on time.",
+          "s": "I pay bills by the bank app. I pay on time."
+        },
+        {
+          "p": "Do you plan a budget and where do you write it?",
+          "m": "Nói bạn có lập ngân sách không. Nói bạn ghi ngân sách ở đâu.",
+          "h": "I do / I don't plan a budget. + I write it in + place.",
+          "s": "I plan a budget. I write it in a small notebook."
+        }
+      ]
+    },
+    {
+      "t": "Ôn tập: Tình huống mua sắm và trả tiền",
+      "e": [
+        {
+          "p": "If a shirt costs 30, will you buy it?",
+          "m": "Nói bạn có mua áo nếu giá 30 không. Nói vì sao ngắn.",
+          "h": "I will / will not buy it. + because + short reason.",
+          "s": "I will not buy it. Because it is expensive."
+        },
+        {
+          "p": "You have 50 dollars, what do you buy now?",
+          "m": "Nói bạn sẽ mua gì với 50. Nói giá của món bạn mua.",
+          "h": "I will buy + a/an + N. + It costs + số tiền.",
+          "s": "I will buy a new hat. It costs 30 dollars."
+        },
+        {
+          "p": "Do you prefer to pay by cash or card for small items?",
+          "m": "Nói bạn thích trả tiền mặt hay thẻ cho món nhỏ. Nói lý do ngắn.",
+          "h": "I prefer + cash / card. + because + short reason.",
+          "s": "I prefer cash for small items. Because it is quick."
+        },
+        {
+          "p": "How many items can you buy with 20 dollars?",
+          "m": "Nói số món bạn có thể mua với 20. Nói một món bạn sẽ mua.",
+          "h": "I can buy + number + items. + I will buy + a/an + item.",
+          "s": "I can buy four items. I will buy a sandwich."
+        },
+        {
+          "p": "Do you check price and quality before buying?",
+          "m": "Nói bạn có check giá và chất lượng không. Nói bạn làm việc đó ở đâu (store/online).",
+          "h": "I do / I don't check. + I check at + store / online.",
+          "s": "I check price and quality before buying. I check online."
+        }
+      ]
+    },
+    {
+      "t": "Ôn tập: Quản lý tiền hàng ngày",
+      "e": [
+        {
+          "p": "What is your daily spending and one way to save?",
+          "m": "Nói số tiền bạn chi mỗi ngày. Nói một cách bạn dùng để tiết kiệm.",
+          "h": "I spend + số tiền + per day. + I save by + V-ing.",
+          "s": "I spend 10 dollars per day. I save by cooking at home."
+        },
+        {
+          "p": "Do you use a bank app and do you find it easy?",
+          "m": "Nói bạn có dùng app ngân hàng không. Nói bạn thấy nó dễ hay không.",
+          "h": "I do / I don't use a bank app. + It is easy / not easy.",
+          "s": "I use a bank app. It is easy to use."
+        },
+        {
+          "p": "How often do you buy snacks and how much per time?",
+          "m": "Nói tần suất bạn mua đồ ăn vặt. Nói số tiền mỗi lần.",
+          "h": "I + adv of frequency + buy snacks. + I spend + số tiền + each time.",
+          "s": "I often buy snacks. I spend 2 dollars each time."
+        },
+        {
+          "p": "Do you keep a small emergency fund?",
+          "m": "Nói bạn có giữ quỹ khẩn cấp nhỏ không. Nói bạn để bao nhiêu tiền.",
+          "h": "I do / I don't keep an emergency fund. + I keep + số tiền.",
+          "s": "I keep a small emergency fund. I keep 100 dollars."
+        },
+        {
+          "p": "Will you change one habit to save more?",
+          "m": "Nói bạn có thay đổi thói quen nào để tiết kiệm không. Nói thói quen đó.",
+          "h": "I will / will not change a habit. + I will + V (habit).",
+          "s": "I will change a habit to save more. I will stop buying coffee."
+        }
+      ]
+    }
+  ]
+}

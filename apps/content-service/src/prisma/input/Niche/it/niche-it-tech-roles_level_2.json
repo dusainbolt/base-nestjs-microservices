@@ -1,0 +1,530 @@
+{
+  "l": 2,
+  "d": [
+    {
+      "t": "Gặp đồng nghiệp mới",
+      "e": [
+        {
+          "p": "What's your name?",
+          "m": "Nói tên của bạn. Nói tuổi của bạn.",
+          "h": "Dùng 'I am' và '[age] years old'.",
+          "s": "I am [studentName]. I am [studentAge] years old."
+        },
+        {
+          "p": "Where do you live?",
+          "m": "Nói thành phố bạn sống. Nói nghề nghiệp của bạn.",
+          "h": "Dùng 'I live in' và 'I am a ...'.",
+          "s": "I live in [studentCity]. I am a [studentJob]."
+        },
+        {
+          "p": "What is your job here?",
+          "m": "Nói vai trò công việc. Nói một việc bạn làm hàng ngày.",
+          "h": "Dùng 'I am a ...' và 'I + V(s)'.",
+          "s": "I am a developer. I write code every day."
+        },
+        {
+          "p": "Do you work on the same project as me?",
+          "m": "Trả lời có hoặc không. Nói tên hoặc mô tả ngắn dự án nếu có.",
+          "h": "Dùng 'Yes, I do' hoặc 'No, I don't' + câu bổ sung.",
+          "s": "Yes, I do. I work on the mobile app project."
+        },
+        {
+          "p": "How often do you come to the office?",
+          "m": "Nói tần suất bạn đến văn phòng. Nói một hoạt động bạn làm ở văn phòng.",
+          "h": "Dùng trạng từ tần suất + 'I' + V(s) hoặc 'I am' + V-ing.",
+          "s": "I usually come to the office. I join team meetings there."
+        }
+      ]
+    },
+    {
+      "t": "Nói về vai trò Developer",
+      "e": [
+        {
+          "p": "What do developers do?",
+          "m": "Nói một việc chính của developer. Nói một công cụ hoặc ngôn ngữ họ dùng.",
+          "h": "Dùng 'They' hoặc 'Developers' + V(s).",
+          "s": "Developers write code. They use JavaScript or Python."
+        },
+        {
+          "p": "Are you coding now?",
+          "m": "Trả lời đang làm hay không. Nói việc bạn đang làm nếu có.",
+          "h": "Dùng 'I am' + V-ing hoặc 'No, I am not' + bổ sung.",
+          "s": "I am coding now. I am fixing a small bug."
+        },
+        {
+          "p": "How many developers are in your team?",
+          "m": "Nói số lượng developer trong team. Nói một tính từ mô tả team.",
+          "h": "Dùng 'There are' + số + N và một tính từ ngắn.",
+          "s": "There are four developers in my team. The team is busy."
+        },
+        {
+          "p": "Do you like coding?",
+          "m": "Nói có thích hay không. Nêu một lý do ngắn (vì sao).",
+          "h": "Dùng 'I like' hoặc 'I don't like' + lý do ngắn.",
+          "s": "Yes, I like coding. It is fun and creative."
+        },
+        {
+          "p": "What time do you usually start work?",
+          "m": "Nói giờ bạn bắt đầu làm việc. Nói một thói quen buổi sáng của bạn.",
+          "h": "Dùng 'I start' hoặc 'I usually start' + thời gian; dùng 'I' + V(s).",
+          "s": "I usually start work at nine. I drink coffee every morning."
+        }
+      ]
+    },
+    {
+      "t": "Nói về vai trò Tester",
+      "e": [
+        {
+          "p": "What does a tester do?",
+          "m": "Nói một nhiệm vụ chính của tester. Nói một công cụ họ dùng (ví dụ: test).",
+          "h": "Dùng 'They' + V(s) và 'They use' + N.",
+          "s": "A tester checks the app. They use simple test tools."
+        },
+        {
+          "p": "Are you testing the new feature?",
+          "m": "Trả lời đang kiểm thử hay không. Nói một bước bạn làm khi test.",
+          "h": "Dùng 'I am' + V-ing hoặc 'No, I am not' + bổ sung.",
+          "s": "Yes, I am testing the new feature. I run a few quick tests."
+        },
+        {
+          "p": "How often do you report bugs?",
+          "m": "Nói tần suất bạn báo cáo bug. Nói một ví dụ ngắn về bug bạn thấy.",
+          "h": "Dùng trạng từ tần suất + 'I' + V(s); mô tả ngắn.",
+          "s": "I often report bugs. I found a layout bug yesterday."
+        },
+        {
+          "p": "Do you work with developers?",
+          "m": "Trả lời có hoặc không. Nói một việc bạn làm cùng developer.",
+          "h": "Dùng 'Yes, I do' hoặc 'No, I don't' + hành động đi kèm.",
+          "s": "Yes, I do. I discuss bugs with developers."
+        },
+        {
+          "p": "What time are you free for a quick test?",
+          "m": "Nói thời gian bạn rảnh. Nói bạn muốn test điều gì.",
+          "h": "Dùng 'I am free at' hoặc 'I am free from' + thời gian; 'I want to test ...'.",
+          "s": "I am free at two. I want to test the login page."
+        }
+      ]
+    },
+    {
+      "t": "Nói về vai trò BA (Business Analyst)",
+      "e": [
+        {
+          "p": "What does a BA do in a project?",
+          "m": "Nói một công việc chính của BA. Nói một việc BA làm với khách hàng.",
+          "h": "Dùng 'They' + V(s) và 'They' + V + with + N.",
+          "s": "A BA gathers needs. They talk with the client."
+        },
+        {
+          "p": "Are you writing the requirements now?",
+          "m": "Trả lời đang viết hay không. Nói một phần bạn viết (ví dụ: user story).",
+          "h": "Dùng 'I am' + V-ing; nói phần cụ thể.",
+          "s": "No, I am not writing now. I wrote a user story this morning."
+        },
+        {
+          "p": "How many meetings do you have each week?",
+          "m": "Nói số cuộc họp mỗi tuần. Nói liệu bạn có thường xuyên họp không.",
+          "h": "Dùng 'I have' + số; dùng trạng từ tần suất.",
+          "s": "I have three meetings each week. I usually have them on Monday."
+        },
+        {
+          "p": "Do you work with testers and developers?",
+          "m": "Trả lời có hoặc không. Nói một hoạt động bạn làm với họ.",
+          "h": "Dùng 'Yes, I do' hoặc 'No, I don't' + mô tả ngắn.",
+          "s": "Yes, I do. I check features with testers and developers."
+        },
+        {
+          "p": "What is one problem in the project now?",
+          "m": "Nói một vấn đề đơn giản hiện tại. Nói một bước bạn muốn làm để giải quyết.",
+          "h": "Dùng 'There is' hoặc 'We have' + vấn đề; 'I want to' + hành động.",
+          "s": "There is a delay in design. I want to ask for a quick meeting."
+        }
+      ]
+    },
+    {
+      "t": "Một ngày làm việc điển hình",
+      "e": [
+        {
+          "p": "What do you do in the morning at work?",
+          "m": "Nói một việc bạn làm buổi sáng. Nói một cảm nhận ngắn về sáng hôm đó.",
+          "h": "Dùng 'I' + V(s) và một tính từ đơn giản.",
+          "s": "I check emails in the morning. I feel a bit busy today."
+        },
+        {
+          "p": "Do you have lunch with your team?",
+          "m": "Trả lời có hoặc không. Nói một địa điểm hoặc hoạt động khi ăn trưa.",
+          "h": "Dùng 'Yes, I do' hoặc 'No, I don't' + 'We' + V(s).",
+          "s": "Yes, I do. We eat near the office."
+        },
+        {
+          "p": "Are you coding after lunch?",
+          "m": "Trả lời có đang làm hay không. Nói việc cụ thể bạn làm nếu có.",
+          "h": "Dùng 'I am' + V-ing hoặc 'No, I am not' + bổ sung.",
+          "s": "I am coding after lunch. I fix small errors in the app."
+        },
+        {
+          "p": "How often do you attend stand-up meetings?",
+          "m": "Nói tần suất bạn tham gia stand-up. Nói thời lượng ngắn của cuộc họp.",
+          "h": "Dùng trạng từ tần suất + 'I' + V(s) và 'for' + thời gian.",
+          "s": "I attend the stand-up every morning. It lasts for ten minutes."
+        },
+        {
+          "p": "What time do you finish work?",
+          "m": "Nói giờ bạn kết thúc làm việc. Nói một việc bạn làm sau giờ làm.",
+          "h": "Dùng 'I finish at' + giờ; 'I' + V(s) sau giờ làm.",
+          "s": "I finish work at six. I go home and rest."
+        }
+      ]
+    },
+    {
+      "t": "Cuộc họp ngắn trong dự án",
+      "e": [
+        {
+          "p": "Can you join a quick meeting now?",
+          "m": "Trả lời có thể tham gia hay không. Nói thời gian bạn có thể tham gia nếu không ngay.",
+          "h": "Dùng 'Yes, I can' hoặc 'No, I can't' + thời gian thay thế.",
+          "s": "Yes, I can. I am free in ten minutes."
+        },
+        {
+          "p": "What is your issue for the meeting?",
+          "m": "Nói vấn đề ngắn bạn muốn nói. Nói một mong muốn từ cuộc họp.",
+          "h": "Dùng 'My issue is...' và 'I want...' cho mong muốn.",
+          "s": "My issue is a slow page. I want a solution from the team."
+        },
+        {
+          "p": "Who will take notes?",
+          "m": "Nói ai ghi chú (nếu bạn là người đó, nói 'I'). Nói một việc bạn sẽ làm với ghi chú.",
+          "h": "Dùng 'I will' hoặc 'He/She will' + V. Nói hành động với ghi chú.",
+          "s": "I will take notes. I will share the notes by email."
+        },
+        {
+          "p": "Do we need a follow-up meeting?",
+          "m": "Trả lời có hoặc không. Nói khi nào bạn nghĩ cần họp lại.",
+          "h": "Dùng 'Yes, we do' hoặc 'No, we don't' + thời gian đề xuất.",
+          "s": "Yes, we do. We should meet next Tuesday."
+        },
+        {
+          "p": "Can you give a short status now?",
+          "m": "Nói trạng thái hiện tại của công việc. Nói một bước tiếp theo ngắn.",
+          "h": "Dùng 'I am' hoặc 'We are' + V-ing; 'Next' + hành động.",
+          "s": "I am finishing the login page. Next I will test it."
+        }
+      ]
+    },
+    {
+      "t": "Công cụ và ngôn ngữ lập trình",
+      "e": [
+        {
+          "p": "Which language do you use?",
+          "m": "Nói ngôn ngữ bạn dùng. Nói một câu ngắn vì sao bạn dùng nó.",
+          "h": "Dùng 'I use' + ngôn ngữ; 'because' + lý do ngắn.",
+          "s": "I use JavaScript. I use it because it is easy for web apps."
+        },
+        {
+          "p": "Do you use Git for code?",
+          "m": "Trả lời có hoặc không. Nói một hành động bạn làm với Git.",
+          "h": "Dùng 'Yes, I do' hoặc 'No, I don't' + hành động.",
+          "s": "Yes, I do. I push code and pull updates with Git."
+        },
+        {
+          "p": "Are you learning a new tool now?",
+          "m": "Trả lời đang học hay không. Nói tên công cụ nếu có.",
+          "h": "Dùng 'I am' + V-ing hoặc 'No, I am not' + bổ sung.",
+          "s": "I am learning a new testing tool. It helps me find bugs."
+        },
+        {
+          "p": "How often do you use the tool?",
+          "m": "Nói tần suất bạn dùng công cụ. Nói một tác vụ bạn làm với nó.",
+          "h": "Dùng trạng từ tần suất + 'I' + V(s) và mô tả hành động.",
+          "s": "I often use the tool. I run tests and write reports."
+        },
+        {
+          "p": "Can you teach me a simple command?",
+          "m": "Nói một lệnh đơn giản bạn sẽ dạy. Nói cách dùng ngắn.",
+          "h": "Dùng câu mệnh lệnh ngắn hoặc 'You can' + V.",
+          "s": "You can use 'git status'. It shows the current changes."
+        }
+      ]
+    },
+    {
+      "t": "Thói quen kiểm thử và giao tiếp",
+      "e": [
+        {
+          "p": "When do you test your code?",
+          "m": "Nói thời điểm bạn kiểm thử. Nói một lý do ngắn cho thời điểm đó.",
+          "h": "Dùng 'I test' + thời gian; 'because' + lý do.",
+          "s": "I test my code after I finish a feature. Because I want to find bugs early."
+        },
+        {
+          "p": "Do you report issues by chat or email?",
+          "m": "Nói phương thức bạn báo cáo (chat hoặc email). Nói một ưu điểm ngắn của cách đó.",
+          "h": "Dùng 'I report by' + N và 'It is' + tính từ ngắn.",
+          "s": "I report by chat. It is fast and easy."
+        },
+        {
+          "p": "Who do you ask when you need help?",
+          "m": "Nói người bạn hỏi (ví dụ: developer, tester). Nói một câu ngắn bạn sẽ nói để hỏi.",
+          "h": "Dùng 'I ask' + người; dùng câu hỏi ngắn trong tiếng Anh.",
+          "s": "I ask a developer. I say, 'Can you help me with this bug?'"
+        },
+        {
+          "p": "How often do you update the team?",
+          "m": "Nói tần suất bạn cập nhật. Nói một kênh bạn dùng để cập nhật.",
+          "h": "Dùng trạng từ tần suất + 'I' + V(s) và 'by' + kênh.",
+          "s": "I usually update the team every day. I update them by chat."
+        },
+        {
+          "p": "Can you describe one bug in one sentence?",
+          "m": "Mô tả một bug đơn giản trong một câu tiếng Anh. Nói bạn muốn ai sửa (developer/tester).",
+          "h": "Dùng câu đơn với 'There is' hoặc 'The' + vấn đề; 'Please' + yêu cầu.",
+          "s": "There is a login error on the mobile app. Please ask a developer to fix it."
+        }
+      ]
+    },
+    {
+      "t": "Xử lý vấn đề đơn giản",
+      "e": [
+        {
+          "p": "The app is slow. What do you do first?",
+          "m": "Nói bước đầu bạn làm. Nói một công cụ hoặc cách bạn dùng để kiểm tra.",
+          "h": "Dùng 'I' + V(s) và 'I use' + N.",
+          "s": "I check the server status first. I use simple logs to see errors."
+        },
+        {
+          "p": "Can you fix a small UI bug now?",
+          "m": "Trả lời bạn có thể sửa ngay hay không. Nói bước bạn sẽ làm để sửa.",
+          "h": "Dùng 'Yes, I can' hoặc 'No, I can't' + 'I will' + hành động.",
+          "s": "Yes, I can. I will change the CSS and test again."
+        },
+        {
+          "p": "Who do you tell if there is a big problem?",
+          "m": "Nói người bạn báo cáo cho (ví dụ: manager). Nói một cách bạn báo cáo (gọi/nhắn).",
+          "h": "Dùng 'I tell' + người và 'by' + cách.",
+          "s": "I tell the manager. I tell them by message or call."
+        },
+        {
+          "p": "How often do you check for errors?",
+          "m": "Nói tần suất bạn kiểm tra lỗi. Nói một hành động bạn làm khi thấy lỗi.",
+          "h": "Dùng trạng từ tần suất + 'I' + V(s) và 'I' + V(s) khi thấy lỗi.",
+          "s": "I check for errors every morning. I write a bug report when I see one."
+        },
+        {
+          "p": "Can you explain one simple fix in two steps?",
+          "m": "Nói bước 1 của cách sửa. Nói bước 2 của cách sửa.",
+          "h": "Dùng hai câu ngắn bắt đầu bằng 'First' và 'Then' hoặc 'Next'.",
+          "s": "First, find the broken code line. Then, change the code and test it."
+        }
+      ]
+    },
+    {
+      "t": "Đặt lịch họp và nhắc nhở",
+      "e": [
+        {
+          "p": "Can we meet tomorrow at 10?",
+          "m": "Trả lời có hoặc không. Nêu thời gian khác nếu không được.",
+          "h": "Dùng 'Yes, I can' hoặc 'No, I can't' + thời gian thay thế.",
+          "s": "No, I can't. I am free at three in the afternoon."
+        },
+        {
+          "p": "Please remind me about the demo.",
+          "m": "Đồng ý hoặc từ chối nhắc. Nói cách bạn sẽ nhắc (chat/email) và thời gian.",
+          "h": "Dùng 'I will' + hành động và 'by' + kênh, 'at' + thời gian.",
+          "s": "I will remind you by chat. I will remind you one hour before."
+        },
+        {
+          "p": "Who will prepare the slides?",
+          "m": "Nói người sẽ chuẩn bị. Nói một điều ngắn họ cần làm cho slide.",
+          "h": "Dùng 'I will' hoặc 'He/She will' + V và 'They need to' + V.",
+          "s": "I will prepare the slides. I need to add the project status."
+        },
+        {
+          "p": "Are you available for a short call today?",
+          "m": "Trả lời có hoặc không. Nói thời gian bạn rảnh nếu không ngay.",
+          "h": "Dùng 'Yes, I am' hoặc 'No, I am not' + thời gian khác.",
+          "s": "Yes, I am available now. I can call in five minutes."
+        },
+        {
+          "p": "Can you join the demo and show a feature?",
+          "m": "Trả lời bạn có thể tham gia hay không. Nói một tính năng bạn sẽ trình bày.",
+          "h": "Dùng 'Yes, I can' hoặc 'No, I can't' + 'I will show' + N.",
+          "s": "Yes, I can. I will show the new login feature."
+        }
+      ]
+    },
+    {
+      "t": "Mô tả dự án ngắn gọn",
+      "e": [
+        {
+          "p": "What is your project about?",
+          "m": "Nói mục đích chính của dự án (một câu). Nói một tính năng chính (một câu).",
+          "h": "Dùng 'It is' hoặc 'The project' + V; 'It has' + N.",
+          "s": "The project is a shopping app. It has a fast search feature."
+        },
+        {
+          "p": "Is the project big or small?",
+          "m": "Trả lời lớn hay nhỏ. Nói một lý do ngắn cho nhận định đó.",
+          "h": "Dùng 'It is big/small' và 'because' + lý do ngắn.",
+          "s": "It is small. Because we have a small team."
+        },
+        {
+          "p": "How many people work on it?",
+          "m": "Nói số người trong dự án. Nói vai trò chính trong nhóm.",
+          "h": "Dùng 'There are' + số; 'We have' + vai trò.",
+          "s": "There are six people on it. We have developers, a tester, and a BA."
+        },
+        {
+          "p": "Is the project live now?",
+          "m": "Trả lời có hay không. Nói trạng thái ngắn nếu chưa live.",
+          "h": "Dùng 'Yes, it is' hoặc 'No, it isn't' + trạng thái.",
+          "s": "No, it isn't live yet. We are testing the final features."
+        },
+        {
+          "p": "What is one next step for the project?",
+          "m": "Nói một bước tiếp theo. Nói ai sẽ làm bước đó.",
+          "h": "Dùng 'Next' hoặc 'We will' + hành động; 'by' + người.",
+          "s": "Next, we will finish the tests. The tester will do it."
+        }
+      ]
+    },
+    {
+      "t": "Yêu cầu công việc và ưu tiên",
+      "e": [
+        {
+          "p": "Can you do this task today?",
+          "m": "Trả lời có thể hay không. Nói một lý do ngắn hoặc thời gian khác bạn làm được.",
+          "h": "Dùng 'Yes, I can' hoặc 'No, I can't' + thời gian/ lý do.",
+          "s": "Yes, I can. I will finish it this afternoon."
+        },
+        {
+          "p": "Which task is more important?",
+          "m": "Nói nhiệm vụ ưu tiên. Nói một lý do ngắn cho ưu tiên đó.",
+          "h": "Dùng 'This task is' + tính từ và 'because' + lý do.",
+          "s": "The login fix is more important. Because users cannot sign in."
+        },
+        {
+          "p": "Do you need help with this task?",
+          "m": "Trả lời có hoặc không. Nói ai có thể giúp bạn nếu cần.",
+          "h": "Dùng 'Yes, I do' hoặc 'No, I don't' + người giúp.",
+          "s": "Yes, I do. A developer can help me."
+        },
+        {
+          "p": "How long will the task take?",
+          "m": "Nói thời gian ước tính (ngắn). Nói bạn sẽ báo lại khi xong.",
+          "h": "Dùng 'About' + thời gian và 'I will' + hành động.",
+          "s": "About two hours. I will tell you when it is done."
+        },
+        {
+          "p": "Can you change the priority to high?",
+          "m": "Trả lời có thể thay đổi hay không. Nói một lý do ngắn nếu thay được.",
+          "h": "Dùng 'Yes, I can' hoặc 'No, I can't' + lý do.",
+          "s": "Yes, I can. It is urgent for the release."
+        }
+      ]
+    },
+    {
+      "t": "Ôn tập: Giới thiệu vai trò",
+      "e": [
+        {
+          "p": "Tell me who you are in two sentences.",
+          "m": "Nói tên và vai trò của bạn. Nói nơi bạn làm việc hoặc dự án bạn tham gia.",
+          "h": "Dùng 'I am [name]' và 'I am a ...' hoặc 'I work on ...'.",
+          "s": "I am [studentName]. I am a developer on a web project."
+        },
+        {
+          "p": "Say what you do every day.",
+          "m": "Nói một hoạt động bạn làm hàng ngày. Nói một cảm xúc ngắn về công việc.",
+          "h": "Dùng 'I' + V(s) và một tính từ đơn giản.",
+          "s": "I write code every day. I feel happy to learn."
+        },
+        {
+          "p": "Describe your team in two sentences.",
+          "m": "Nói số người trong team. Nói một tính từ mô tả team.",
+          "h": "Dùng 'There are' + số và 'The team is' + tính từ.",
+          "s": "There are five people in my team. The team is busy and friendly."
+        },
+        {
+          "p": "Say how you work with others.",
+          "m": "Nói bạn làm việc với ai (developer/tester/BA). Nói một việc bạn làm cùng họ.",
+          "h": "Dùng 'I work with' + N và 'We' + V(s).",
+          "s": "I work with a tester and a BA. We test features and write notes."
+        },
+        {
+          "p": "Tell a short plan for today.",
+          "m": "Nói một việc bạn sẽ làm đầu tiên hôm nay. Nói một việc bạn sẽ làm sau đó.",
+          "h": "Dùng 'First' và 'Then' hoặc 'Next' + hành động.",
+          "s": "First, I will fix a bug. Then, I will test the update."
+        }
+      ]
+    },
+    {
+      "t": "Ôn tập: Công việc hàng ngày",
+      "e": [
+        {
+          "p": "What do you do in the morning?",
+          "m": "Nói một việc bạn làm buổi sáng. Nói nơi bạn làm việc buổi sáng.",
+          "h": "Dùng 'I' + V(s) và 'at' hoặc 'in' + nơi.",
+          "s": "I check emails in the morning. I work in the office."
+        },
+        {
+          "p": "How do you report a bug?",
+          "m": "Nói phương thức bạn dùng để báo lỗi. Nói một chi tiết bạn ghi trong báo cáo.",
+          "h": "Dùng 'I report by' + kênh và 'I include' + chi tiết.",
+          "s": "I report by chat. I include the error steps."
+        },
+        {
+          "p": "When do you join the stand-up?",
+          "m": "Nói thời gian bạn tham gia. Nói một điều bạn nói ở stand-up.",
+          "h": "Dùng 'I join at' + thời gian và 'I say' + nội dung ngắn.",
+          "s": "I join at nine. I say my small tasks for the day."
+        },
+        {
+          "p": "Do you fix bugs or write features first?",
+          "m": "Nói bạn ưu tiên sửa bug hay viết tính năng. Nói một lý do ngắn.",
+          "h": "Dùng 'I fix' hoặc 'I write' + lý do 'because'.",
+          "s": "I fix bugs first. Because bugs block users."
+        },
+        {
+          "p": "Tell one simple task for today.",
+          "m": "Nói một nhiệm vụ ngắn bạn có hôm nay. Nói bạn cần bao lâu cho nó.",
+          "h": "Dùng 'I will' + V và 'about' + thời gian.",
+          "s": "I will update the login page. It will take about one hour."
+        }
+      ]
+    },
+    {
+      "t": "Ôn tập: Giao tiếp trong dự án",
+      "e": [
+        {
+          "p": "Who do you message when you need help?",
+          "m": "Nói người bạn nhắn. Nói một câu ngắn bạn sẽ viết cho họ.",
+          "h": "Dùng 'I message' + người và 'Can you help me...' cho câu.",
+          "s": "I message a developer. I write, 'Can you help me with this bug?'"
+        },
+        {
+          "p": "How do you tell the team about a delay?",
+          "m": "Nói cách bạn thông báo (chat/email). Nói một câu ngắn thông báo.",
+          "h": "Dùng 'I tell' + team + 'by' + kênh và một câu ngắn.",
+          "s": "I tell the team by email. I write, 'We have a small delay in design.'"
+        },
+        {
+          "p": "Can you ask for a review?",
+          "m": "Viết một câu hỏi ngắn bằng tiếng Anh để xin review. Viết một câu ngắn cảm ơn sau đó.",
+          "h": "Dùng 'Can you review...' và 'Thank you' ngắn.",
+          "s": "Can you review my code, please? Thank you for your time."
+        },
+        {
+          "p": "What do you say in a short status update?",
+          "m": "Nói một câu trạng thái hiện tại. Nói một câu về bước tiếp theo.",
+          "h": "Dùng 'I am' hoặc 'We are' + V-ing; 'Next' + hành động.",
+          "s": "I am testing the new page. Next, I will fix the found bugs."
+        },
+        {
+          "p": "How do you close a short chat politely?",
+          "m": "Viết một câu ngắn để kết thúc cuộc trò chuyện. Viết một câu chào tạm biệt ngắn.",
+          "h": "Dùng 'Thanks' hoặc 'Okay' và 'Bye' ngắn.",
+          "s": "Thanks, that helps a lot. Bye and see you later."
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,530 @@
+{
+  "l": 1,
+  "d": [
+    {
+      "t": "Gặp bác sĩ về đơn thuốc",
+      "e": [
+        {
+          "p": "What is this medicine for?",
+          "m": "Nói mục đích chính của thuốc trong một câu.",
+          "h": "It + is + for + N",
+          "s": "It is for pain."
+        },
+        {
+          "p": "How often do I take it?",
+          "m": "Nói số lần dùng mỗi ngày bằng một câu (dùng 'I').",
+          "h": "I + take + ...",
+          "s": "I take it twice a day."
+        },
+        {
+          "p": "Are there any bad effects?",
+          "m": "Nói một tác dụng phụ ngắn trong một câu.",
+          "h": "It + can + V / I + have + N",
+          "s": "It can make me tired."
+        },
+        {
+          "p": "Can this help my sleep?",
+          "m": "Nói 'Yes' hoặc 'No' trong một câu.",
+          "h": "Yes/No + it + can/can't + V",
+          "s": "Yes, it can help sleep."
+        },
+        {
+          "p": "Which food is bad with this medicine?",
+          "m": "Nói một thức ăn và dùng 'is bad' trong một câu.",
+          "h": "N + is + bad",
+          "s": "Milk is bad."
+        }
+      ]
+    },
+    {
+      "t": "Thảo luận về lợi ích thuốc",
+      "e": [
+        {
+          "p": "What does the medicine do?",
+          "m": "Nói lợi ích chính của thuốc trong một câu.",
+          "h": "It + V + O",
+          "s": "It helps my pain."
+        },
+        {
+          "p": "Can this pill help my pain?",
+          "m": "Trả lời 'Yes' hoặc 'No' trong một câu.",
+          "h": "Yes/No + it + can/can't + V",
+          "s": "Yes, it can help my pain."
+        },
+        {
+          "p": "How does it work?",
+          "m": "Nói một hành động ngắn của thuốc trong một câu.",
+          "h": "It + V + O",
+          "s": "It reduces pain."
+        },
+        {
+          "p": "Will this make me feel better?",
+          "m": "Trả lời 'Yes' hoặc 'No' trong một câu.",
+          "h": "Yes/No + it + can + V",
+          "s": "Yes, it can make me feel better."
+        },
+        {
+          "p": "Is the effect quick or slow?",
+          "m": "Nói 'quick' hoặc 'slow' trong một câu.",
+          "h": "The + N + is + Adj",
+          "s": "The effect is quick."
+        }
+      ]
+    },
+    {
+      "t": "Hỏi về tác dụng phụ",
+      "e": [
+        {
+          "p": "Do I have side effects?",
+          "m": "Trả lời 'Yes' hoặc 'No' và một triệu chứng trong một câu.",
+          "h": "Yes/No + I + have + N",
+          "s": "Yes, I have a headache."
+        },
+        {
+          "p": "What bad effect do you feel?",
+          "m": "Nói một tác dụng phụ ngắn trong một câu.",
+          "h": "I + feel + Adj",
+          "s": "I feel dizzy."
+        },
+        {
+          "p": "Is there a rash?",
+          "m": "Trả lời 'Yes' hoặc 'No' trong một câu.",
+          "h": "Yes/No + there + is/are + N",
+          "s": "No, there is no rash."
+        },
+        {
+          "p": "Can the medicine make me tired?",
+          "m": "Trả lời có hoặc không trong một câu.",
+          "h": "It + can/can't + V",
+          "s": "It can make me tired."
+        },
+        {
+          "p": "What should I do for a bad effect?",
+          "m": "Nói một việc nên làm khi có tác dụng phụ trong một câu.",
+          "h": "Call/Stop + N",
+          "s": "Call the doctor."
+        }
+      ]
+    },
+    {
+      "t": "Hỏi cách dùng thuốc",
+      "e": [
+        {
+          "p": "When do I take this?",
+          "m": "Nói thời điểm dùng thuốc trong một câu.",
+          "h": "I + take + it + in/at + time",
+          "s": "I take it in the morning."
+        },
+        {
+          "p": "How many pills each time?",
+          "m": "Nói số viên mỗi lần trong một câu.",
+          "h": "I + take + number + pill(s)",
+          "s": "I take one pill."
+        },
+        {
+          "p": "Do I take it with food?",
+          "m": "Trả lời 'Yes' hoặc 'No' trong một câu.",
+          "h": "Yes/No + I + take + it + before/after + food",
+          "s": "No, I take it before food."
+        },
+        {
+          "p": "How long is the treatment?",
+          "m": "Nói số ngày hoặc tuần trong một câu.",
+          "h": "It + is + number + days/weeks",
+          "s": "It is seven days."
+        },
+        {
+          "p": "Can I stop early?",
+          "m": "Nói 'No' trong một câu.",
+          "h": "No + do not + V",
+          "s": "No, do not stop early."
+        }
+      ]
+    },
+    {
+      "t": "Trao đổi về dị ứng và rủi ro",
+      "e": [
+        {
+          "p": "Are you allergic to any medicine?",
+          "m": "Nói 'Yes' hoặc 'No' trong một câu.",
+          "h": "I + am + not/yes + allergic",
+          "s": "No, I am not allergic."
+        },
+        {
+          "p": "What happens if I am allergic?",
+          "m": "Nói một phản ứng đơn giản trong một câu.",
+          "h": "I + get + N",
+          "s": "I get a rash."
+        },
+        {
+          "p": "Is there a risk of a bad reaction?",
+          "m": "Trả lời 'Yes' hoặc 'No' và dùng 'small' hoặc 'big' trong một câu.",
+          "h": "Yes/No + the + risk + is + Adj",
+          "s": "Yes, the risk is small."
+        },
+        {
+          "p": "Can this medicine harm my liver?",
+          "m": "Trả lời 'Yes' hoặc 'No' trong một câu.",
+          "h": "It + can/can't + V + N",
+          "s": "It can harm my liver."
+        },
+        {
+          "p": "Do I need a test before treatment?",
+          "m": "Trả lời 'Yes' hoặc 'No' trong một câu.",
+          "h": "Yes/No + you + need + N",
+          "s": "Yes, you need a test."
+        }
+      ]
+    },
+    {
+      "t": "Nói về thời gian điều trị",
+      "e": [
+        {
+          "p": "How long is the plan?",
+          "m": "Nói thời gian ngắn (tuần/ngày) trong một câu.",
+          "h": "It + is + number + weeks/days",
+          "s": "It is two weeks."
+        },
+        {
+          "p": "When do I see the doctor again?",
+          "m": "Nói thời điểm tái khám trong một câu.",
+          "h": "I + see + the + doctor + in + time",
+          "s": "I see the doctor in one week."
+        },
+        {
+          "p": "Do I need a follow-up visit?",
+          "m": "Trả lời 'Yes' hoặc 'No' trong một câu.",
+          "h": "Yes/No + I + need + a + visit",
+          "s": "Yes, I need a next visit."
+        },
+        {
+          "p": "Will the plan stop pain fast?",
+          "m": "Trả lời 'Yes' hoặc 'No' trong một câu.",
+          "h": "Yes/No + it + can + V",
+          "s": "Yes, it can stop pain fast."
+        },
+        {
+          "p": "Do I need to rest during treatment?",
+          "m": "Nói một việc đơn giản bạn làm trong một câu.",
+          "h": "I + V + at + place",
+          "s": "I rest at home."
+        }
+      ]
+    },
+    {
+      "t": "Nói về thuốc thay thế",
+      "e": [
+        {
+          "p": "Is there another medicine?",
+          "m": "Trả lời 'Yes' hoặc 'No' trong một câu.",
+          "h": "Yes/No + there + is/are + another + N",
+          "s": "Yes, there is another medicine."
+        },
+        {
+          "p": "Can I use a natural treatment?",
+          "m": "Trả lời 'Yes' hoặc 'No' trong một câu.",
+          "h": "Yes/No + it + can/can't + V",
+          "s": "No, it cannot work."
+        },
+        {
+          "p": "Which is better, pill or cream?",
+          "m": "Chọn 'pill' hoặc 'cream' trong một câu.",
+          "h": "The + N + is + better",
+          "s": "The pill is better."
+        },
+        {
+          "p": "Do I need a shot?",
+          "m": "Trả lời 'Yes' hoặc 'No' trong một câu.",
+          "h": "Yes/No + you + need + a + shot",
+          "s": "No, you do not need a shot."
+        },
+        {
+          "p": "Can I stop the pill and try a new plan?",
+          "m": "Nói 'No' trong một câu.",
+          "h": "No + do not + V",
+          "s": "No, do not stop the plan."
+        }
+      ]
+    },
+    {
+      "t": "Hỏi người nhà về chăm sóc",
+      "e": [
+        {
+          "p": "Can you help me take medicine?",
+          "m": "Trả lời 'Yes' hoặc 'No' trong một câu.",
+          "h": "Yes/No + I + can",
+          "s": "Yes, I can help you."
+        },
+        {
+          "p": "Will you remind me to take the pill?",
+          "m": "Trả lời 'Yes' hoặc 'No' trong một câu (dùng hiện tại đơn).",
+          "h": "Yes/No + I + remind",
+          "s": "Yes, I remind you."
+        },
+        {
+          "p": "Do I need help at home?",
+          "m": "Trả lời 'Yes' hoặc 'No' trong một câu.",
+          "h": "Yes/No + I + need + help",
+          "s": "Yes, I need help at home."
+        },
+        {
+          "p": "Can you watch for bad effects?",
+          "m": "Trả lời 'Yes' hoặc 'No' trong một câu.",
+          "h": "Yes/No + I + can + V",
+          "s": "Yes, I can watch for bad effects."
+        },
+        {
+          "p": "What to do if I faint?",
+          "m": "Nói một hành động khẩn cấp ngắn trong một câu.",
+          "h": "Call + the + N / Get + help",
+          "s": "Call the doctor."
+        }
+      ]
+    },
+    {
+      "t": "Quầy thuốc: hỏi và mua thuốc",
+      "e": [
+        {
+          "p": "Do you have this medicine?",
+          "m": "Trả lời 'Yes' hoặc 'No' trong một câu.",
+          "h": "Yes/No + we + have + it",
+          "s": "Yes, we have it."
+        },
+        {
+          "p": "How much is one box?",
+          "m": "Nói giá ngắn trong một câu (dùng số đơn giản).",
+          "h": "It + is + number",
+          "s": "It is five."
+        },
+        {
+          "p": "Do I need a prescription?",
+          "m": "Trả lời 'Yes' hoặc 'No' trong một câu.",
+          "h": "Yes/No + you + need + a + paper",
+          "s": "Yes, you need a paper from the doctor."
+        },
+        {
+          "p": "Can I pay by card?",
+          "m": "Trả lời 'Yes' hoặc 'No' trong một câu.",
+          "h": "Yes/No + we + accept",
+          "s": "No, we only take cash."
+        },
+        {
+          "p": "Do I need to store the medicine in the fridge?",
+          "m": "Trả lời 'Yes' hoặc 'No' trong một câu.",
+          "h": "Yes/No + it + needs + the + N",
+          "s": "No, it does not need the fridge."
+        }
+      ]
+    },
+    {
+      "t": "Chọn giữa hai phương pháp",
+      "e": [
+        {
+          "p": "Which is safer, pill or cream?",
+          "m": "Chọn 'pill' hoặc 'cream' trong một câu.",
+          "h": "The + N + is + safer",
+          "s": "The cream is safer."
+        },
+        {
+          "p": "Can I use both pill and cream?",
+          "m": "Trả lời 'Yes' hoặc 'No' trong một câu.",
+          "h": "Yes/No + you + can/can't + V",
+          "s": "No, you cannot use both."
+        },
+        {
+          "p": "Is home care OK with the pill?",
+          "m": "Trả lời 'Yes' hoặc 'No' trong một câu.",
+          "h": "Yes/No + it + is + OK",
+          "s": "Yes, home care is OK."
+        },
+        {
+          "p": "Which gives fast help?",
+          "m": "Chọn 'pill' hoặc 'injection' trong một câu.",
+          "h": "The + N + gives + Adj + N",
+          "s": "The injection gives fast help."
+        },
+        {
+          "p": "I am afraid of injection. What can I do?",
+          "m": "Nói một lựa chọn đơn giản trong một câu.",
+          "h": "You + can + V",
+          "s": "You can choose the pill."
+        }
+      ]
+    },
+    {
+      "t": "Phản ứng với tác dụng phụ",
+      "e": [
+        {
+          "p": "I feel sleepy after medicine.",
+          "m": "Nói một hành động bạn làm khi buồn ngủ (một câu).",
+          "h": "I + V",
+          "s": "I rest."
+        },
+        {
+          "p": "I have a stomach pain.",
+          "m": "Nói bạn gọi ai trong một câu.",
+          "h": "I + call + the + N",
+          "s": "I call the doctor."
+        },
+        {
+          "p": "I see a rash on my arm.",
+          "m": "Nói bạn dừng thuốc hay không trong một câu.",
+          "h": "I + stop + the + N",
+          "s": "I stop the medicine."
+        },
+        {
+          "p": "The side effect is small.",
+          "m": "Nói bạn tiếp tục hay dừng điều trị trong một câu.",
+          "h": "I + continue/stop + the + N",
+          "s": "I continue the treatment."
+        },
+        {
+          "p": "I faint after a pill.",
+          "m": "Nói hành động khẩn cấp ngắn trong một câu.",
+          "h": "Call + for + help / Get + help",
+          "s": "Call for help."
+        }
+      ]
+    },
+    {
+      "t": "Kế hoạch theo dõi điều trị",
+      "e": [
+        {
+          "p": "When is the next test?",
+          "m": "Nói thời gian ngắn trong một câu.",
+          "h": "It + is + in + time",
+          "s": "It is in one week."
+        },
+        {
+          "p": "Do I need daily notes?",
+          "m": "Trả lời 'Yes' hoặc 'No' trong một câu.",
+          "h": "Yes/No + you + need + N",
+          "s": "Yes, you need daily notes."
+        },
+        {
+          "p": "Who checks my treatment?",
+          "m": "Nói nghề (doctor hoặc nurse) trong một câu.",
+          "h": "The + N + checks",
+          "s": "The doctor checks my treatment."
+        },
+        {
+          "p": "Do I report side effects?",
+          "m": "Trả lời 'Yes' hoặc 'No' trong một câu.",
+          "h": "Yes/No + I + report + N",
+          "s": "Yes, I report side effects."
+        },
+        {
+          "p": "How do I give a daily note?",
+          "m": "Nói một cách đơn giản (viết hoặc gọi) trong một câu.",
+          "h": "I + write/call + a + N",
+          "s": "I write a short note."
+        }
+      ]
+    },
+    {
+      "t": "Ôn tập: Kế hoạch điều trị đơn giản 1",
+      "e": [
+        {
+          "p": "What is the plan?",
+          "m": "Nói mục đích chính của kế hoạch trong một câu.",
+          "h": "It + is + for + N",
+          "s": "It is for my pain."
+        },
+        {
+          "p": "How often do you take medicine?",
+          "m": "Nói số lần mỗi ngày trong một câu.",
+          "h": "I + take + ... + a + day",
+          "s": "I take it twice a day."
+        },
+        {
+          "p": "Do you have any bad effects?",
+          "m": "Nói một tác dụng phụ trong một câu.",
+          "h": "I + have + N",
+          "s": "I have a headache."
+        },
+        {
+          "p": "Who will check the treatment?",
+          "m": "Nói nghề kiểm tra trong một câu.",
+          "h": "The + N + checks",
+          "s": "The doctor checks my treatment."
+        },
+        {
+          "p": "Should I stop if I feel bad?",
+          "m": "Trả lời 'Yes' hoặc 'No' trong một câu.",
+          "h": "No + do not + V",
+          "s": "No, do not stop the medicine."
+        }
+      ]
+    },
+    {
+      "t": "Ôn tập: Tác dụng phụ và rủi ro",
+      "e": [
+        {
+          "p": "Can the medicine make me sick?",
+          "m": "Trả lời một câu về khả năng gây buồn nôn hoặc mệt.",
+          "h": "It + can/can't + V",
+          "s": "It can make me sick."
+        },
+        {
+          "p": "What is one bad effect?",
+          "m": "Nói một ví dụ tác dụng phụ trong một câu.",
+          "h": "I + have + N",
+          "s": "I have a rash."
+        },
+        {
+          "p": "Is the risk big?",
+          "m": "Trả lời 'Yes' hoặc 'No' trong một câu.",
+          "h": "Yes/No + the + risk + is + Adj",
+          "s": "No, the risk is small."
+        },
+        {
+          "p": "What do you do for a bad effect?",
+          "m": "Nói một hành động ngắn trong một câu.",
+          "h": "I + call/stop/go",
+          "s": "I call the doctor."
+        },
+        {
+          "p": "Do I need a test before a risky medicine?",
+          "m": "Trả lời 'Yes' hoặc 'No' trong một câu.",
+          "h": "Yes/No + you + need + a + N",
+          "s": "Yes, you need a test."
+        }
+      ]
+    },
+    {
+      "t": "Ôn tập: Quy trình điều trị và chăm sóc",
+      "e": [
+        {
+          "p": "Who is in your care team?",
+          "m": "Nói một nghề trong một câu.",
+          "h": "The + N + helps",
+          "s": "The nurse helps me."
+        },
+        {
+          "p": "Do you take medicine at night?",
+          "m": "Trả lời 'Yes' hoặc 'No' trong một câu.",
+          "h": "Yes/No + I + take + it + at + night",
+          "s": "No, I do not take it at night."
+        },
+        {
+          "p": "How long do you rest each day?",
+          "m": "Nói thời gian (giờ) trong một câu.",
+          "h": "I + rest + for + number + hours",
+          "s": "I rest for two hours."
+        },
+        {
+          "p": "Who to call in an emergency?",
+          "m": "Nói một người hoặc 'help' trong một câu.",
+          "h": "Call + the + N",
+          "s": "Call the doctor."
+        },
+        {
+          "p": "Do you follow the plan?",
+          "m": "Trả lời 'Yes' hoặc 'No' trong một câu.",
+          "h": "Yes/No + I + follow + the + plan",
+          "s": "Yes, I follow the plan."
+        }
+      ]
+    }
+  ]
+}

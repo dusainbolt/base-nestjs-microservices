@@ -1,0 +1,530 @@
+{
+  "l": 2,
+  "d": [
+    {
+      "t": "Gặp người quản lý mới",
+      "e": [
+        {
+          "p": "What's your name and where are you from?",
+          "m": "Nói tên của bạn. Nói nơi bạn sống (thành phố).",
+          "h": "Dùng 'I am [studentName].' và 'I live in [studentCity].'",
+          "s": "I am [studentName]. I live in [studentCity]."
+        },
+        {
+          "p": "How old are you and what is your job?",
+          "m": "Nói tuổi của bạn. Nói nghề nghiệp của bạn.",
+          "h": "Dùng 'I am [studentAge] years old.' và 'I work as a [studentJob].'",
+          "s": "I am [studentAge] years old. I work as a [studentJob]."
+        },
+        {
+          "p": "Do you like social media and how often do you use it?",
+          "m": "Nói bạn có thích mạng xã hội không. Nói tần suất bạn sử dụng (always/often/sometimes/never).",
+          "h": "Dùng 'I like / I don't like.' và trạng từ tần suất + 'I use it.'",
+          "s": "I like social media. I often use it."
+        },
+        {
+          "p": "What are you doing now and what do you usually do for content?",
+          "m": "Nói bạn đang làm gì ngay bây giờ (present continuous). Nói thói quen bạn làm để tạo nội dung (present simple).",
+          "h": "Dùng 'I am V-ing.' và 'I V(s) ...' (ví dụ: I am writing. I usually take photos.)",
+          "s": "I am writing a post now. I usually take photos."
+        },
+        {
+          "p": "How many apps do you use and which one do you like?",
+          "m": "Nói số lượng app bạn dùng. Nói tên app bạn thích.",
+          "h": "Dùng 'There are + number + apps.' và 'I like + app name.'",
+          "s": "There are two apps I use. I like Instagram."
+        }
+      ]
+    },
+    {
+      "t": "Lên lịch đăng bài hàng tuần",
+      "e": [
+        {
+          "p": "When do you post each week and how many posts?",
+          "m": "Nói ngày bạn đăng bài trong tuần. Nói tổng số bài mỗi tuần.",
+          "h": "Dùng 'I post on ...' và 'There are + number + posts each week.'",
+          "s": "I post on Monday and Friday. There are three posts each week."
+        },
+        {
+          "p": "Do you schedule posts and who helps you?",
+          "m": "Nói bạn có lên lịch đăng không. Nói ai giúp bạn (hoặc bạn tự làm).",
+          "h": "Dùng 'I schedule posts.' hoặc 'I don't schedule posts.' và 'My friend helps me.' hoặc 'I do it myself.'",
+          "s": "I schedule posts. My friend helps me."
+        },
+        {
+          "p": "How long do you spend and what do you do in that time?",
+          "m": "Nói bạn dành bao lâu cho việc đó. Nói bạn làm gì trong thời gian đó (ví dụ: edit, chụp).",
+          "h": "Dùng 'I spend + time.' và câu miêu tả hành động (I edit photos.).",
+          "s": "I spend one hour. I edit photos."
+        },
+        {
+          "p": "Are you busy this week and what time are you free?",
+          "m": "Nói bạn có bận tuần này hay không. Nói thời gian bạn rảnh (dùng giới từ như at/on).",
+          "h": "Dùng 'I am busy / I am not busy.' và 'I am free at ... on ...'.",
+          "s": "I am busy this week. I am free at 4 pm on Friday."
+        },
+        {
+          "p": "How often do you check comments and what do you reply?",
+          "m": "Nói tần suất bạn kiểm tra bình luận. Nói câu trả lời bạn thường dùng (ngắn).",
+          "h": "Dùng trạng từ tần suất + 'I check comments.' và 'I reply ...' (ví dụ: Thank you).",
+          "s": "I often check comments. I reply 'Thank you' and say I will check it."
+        }
+      ]
+    },
+    {
+      "t": "Ý tưởng nội dung hàng ngày",
+      "e": [
+        {
+          "p": "What content do you like and why?",
+          "m": "Nói chủ đề nội dung bạn thích. Nói lý do đơn giản.",
+          "h": "Dùng 'I like + N.' và 'Because + reason.'",
+          "s": "I like food posts. Because they are fun."
+        },
+        {
+          "p": "Do you want more likes and what do you need?",
+          "m": "Nói bạn có muốn nhiều lượt thích hơn không. Nói bạn cần gì để có nhiều like hơn.",
+          "h": "Dùng 'I want + N.' và 'I need + N/to V.'",
+          "s": "I want more likes. I need better photos."
+        },
+        {
+          "p": "How much text do you write and do you use emojis?",
+          "m": "Nói bạn viết nhiều hay ít chữ trong bài. Nói bạn có dùng emoji hay không.",
+          "h": "Dùng 'I write a little / I write much.' và 'I use emojis / I don't use emojis.'",
+          "s": "I write a little text. I use emojis."
+        },
+        {
+          "p": "Are you making video now and do you usually make videos?",
+          "m": "Nói bạn đang làm video ngay bây giờ hay không. Nói thói quen bạn có thường làm video không.",
+          "h": "Dùng 'I am making a video now.' và 'I usually make ...' ",
+          "s": "I am making a short video now. I usually make photos."
+        },
+        {
+          "p": "How many ideas do you have and which idea do you like most?",
+          "m": "Nói số ý tưởng bạn có. Nói ý bạn thích nhất là gì.",
+          "h": "Dùng 'There are + number + ideas.' và 'I like the + idea.'",
+          "s": "There are five ideas. I like the food idea most."
+        }
+      ]
+    },
+    {
+      "t": "Viết chú thích đơn giản",
+      "e": [
+        {
+          "p": "Write a short caption for this photo and how many words?",
+          "m": "Viết một câu chú thích ngắn. Nói có bao nhiêu từ trong chú thích đó.",
+          "h": "Viết caption ngắn. Nói 'It has + number + words.'",
+          "s": "Nice morning coffee. It has three words."
+        },
+        {
+          "p": "Do you use an emoji in a caption and which one?",
+          "m": "Nói bạn có dùng emoji trong chú thích không. Nói emoji bạn dùng (tên hoặc biểu tượng).",
+          "h": "Dùng 'I use an emoji.' hoặc 'I don't use an emoji.' và nói emoji.",
+          "s": "I use a smile emoji. I use 🙂."
+        },
+        {
+          "p": "Do you write a question in caption and why?",
+          "m": "Nói bạn có đặt câu hỏi trong chú thích không. Nói lý do đơn giản.",
+          "h": "Dùng 'I ask a question.' và 'Because + reason.'",
+          "s": "I ask a question. Because it gets more comments."
+        },
+        {
+          "p": "What time do you post a caption and do you change it later?",
+          "m": "Nói giờ bạn đăng chú thích. Nói bạn có sửa chú thích sau khi đăng không.",
+          "h": "Dùng 'I post at ...' và 'I sometimes edit it later.'",
+          "s": "I post at 6 pm. I sometimes edit it later."
+        },
+        {
+          "p": "How much text do you add and do you add a call to action?",
+          "m": "Nói bạn thêm nhiều hay ít chữ. Nói bạn có thêm câu kêu gọi hành động (ví dụ: Please like) không.",
+          "h": "Dùng 'I add a little / a lot of text.' và 'I say \"Please like\" or I don't.'",
+          "s": "I add a little text. I say 'Please like my post.'"
+        }
+      ]
+    },
+    {
+      "t": "Phản hồi bình luận",
+      "e": [
+        {
+          "p": "A follower says 'Nice post'. Reply and say you appreciate it.",
+          "m": "Trả lời lời khen. Nói bạn cảm ơn và trân trọng điều đó.",
+          "h": "Dùng 'Thank you.' và 'I am glad / I appreciate it.'",
+          "s": "Thank you. I am glad you like it."
+        },
+        {
+          "p": "They ask 'Where did you buy this?' Answer and say the store location.",
+          "m": "Nói nơi bạn mua (tên cửa hàng). Nói thành phố nơi cửa hàng ở (dùng placeholder nếu cần).",
+          "h": "Dùng 'I bought it at ...' và 'It is in [studentCity].'",
+          "s": "I bought it at a small shop. It is in [studentCity]."
+        },
+        {
+          "p": "A follower asks 'How much is it?' Answer price and say if you need to add shipping.",
+          "m": "Cho biết giá. Nói bạn có cần thêm phí ship hay không.",
+          "h": "Dùng 'It is + number.' và 'I need / I do not need to add shipping.'",
+          "s": "It is ten dollars. I need to add shipping."
+        },
+        {
+          "p": "Someone says 'I love this idea'. Reply and ask them a question to get more comments.",
+          "m": "Cảm ơn họ. Hỏi một câu ngắn để họ trả lời tiếp (kích thích bình luận).",
+          "h": "Dùng 'Thank you.' và câu hỏi 'Do you ...?'",
+          "s": "Thank you. Do you want to try it?"
+        },
+        {
+          "p": "A follower says 'Can you make a tutorial?' Reply saying you will and give time (next week).",
+          "m": "Nói bạn sẽ làm tutorial. Nói thời gian bạn dự định (dùng present continuous để nói kế hoạch).",
+          "h": "Dùng present continuous: 'I am making ...' và 'I am posting it next week.'",
+          "s": "I am making a tutorial. I am posting it next week."
+        }
+      ]
+    },
+    {
+      "t": "Hợp tác với người khác",
+      "e": [
+        {
+          "p": "Do you want to work with me and what do you want to do?",
+          "m": "Nói bạn có muốn hợp tác hay không. Nói hoạt động bạn muốn làm cùng (ví dụ: video).",
+          "h": "Dùng 'I want to + V.' hoặc 'I don't want to.'",
+          "s": "Yes, I want to work with you. I want to make a video."
+        },
+        {
+          "p": "How many people are in your team and who is the main person?",
+          "m": "Cho biết số người trong nhóm. Nói ai là người chính (tên hoặc vai trò).",
+          "h": "Dùng 'There are + number + people.' và 'The main person is ...'.",
+          "s": "There are three people in my team. The main person is Anna."
+        },
+        {
+          "p": "Are you recording now and do you need help?",
+          "m": "Nói bạn đang quay hay không (present continuous). Nói bạn có cần giúp đỡ hay không.",
+          "h": "Dùng 'I am recording now.' và 'I need help / I do not need help.'",
+          "s": "I am recording now. I need help."
+        },
+        {
+          "p": "What do you bring to the collab and do you share the post?",
+          "m": "Nói bạn mang gì cho sự hợp tác (tài nguyên, ý tưởng). Nói bạn có chia sẻ bài đăng không.",
+          "h": "Dùng 'I bring + N.' và 'I share the post / I do not share.'",
+          "s": "I bring photos and ideas. I share the post."
+        },
+        {
+          "p": "How often do you meet to plan and where do you meet?",
+          "m": "Nói tần suất bạn gặp nhau để lên kế hoạch. Nói nơi gặp (dùng 'at/in/on').",
+          "h": "Dùng trạng từ tần suất + 'We meet' và 'We meet at/in ...'.",
+          "s": "We usually meet once a week. We meet at the cafe."
+        }
+      ]
+    },
+    {
+      "t": "Chụp ảnh sản phẩm",
+      "e": [
+        {
+          "p": "What are you photographing and how many photos do you take?",
+          "m": "Nói bạn đang chụp gì. Nói số ảnh bạn chụp.",
+          "h": "Dùng 'I am photographing ...' và 'There are + number + photos.'",
+          "s": "I am photographing a new bag. There are five photos."
+        },
+        {
+          "p": "Do you use natural light and what time is best?",
+          "m": "Nói bạn có dùng ánh sáng tự nhiên không. Nói thời gian tốt nhất (sáng/chiều).",
+          "h": "Dùng 'I use natural light.' và 'In the morning / In the afternoon.'",
+          "s": "I use natural light. Morning is best."
+        },
+        {
+          "p": "How close do you put the camera and do you use a tripod?",
+          "m": "Nói bạn đặt máy gần hay xa chủ thể. Nói bạn có dùng tripod hay không.",
+          "h": "Dùng 'I put the camera close / far.' và 'I use a tripod / I do not use a tripod.'",
+          "s": "I put the camera close. I use a tripod."
+        },
+        {
+          "p": "Are you editing photos now and how long do you edit each?",
+          "m": "Nói bạn đang chỉnh ảnh ngay bây giờ hay không. Nói bạn dành bao lâu cho mỗi ảnh.",
+          "h": "Dùng 'I am editing photos now.' và 'I spend + time.'",
+          "s": "I am editing photos now. I spend thirty minutes on each."
+        },
+        {
+          "p": "Do you add text on photos and what text do you add?",
+          "m": "Nói bạn có thêm chữ lên ảnh không. Nói ví dụ chữ bạn thêm (ngắn).",
+          "h": "Dùng 'I add text on photos.' và cho ví dụ ngắn như 'New!'.",
+          "s": "I add text on photos. I add 'New!'."
+        }
+      ]
+    },
+    {
+      "t": "Sử dụng video ngắn",
+      "e": [
+        {
+          "p": "Do you make short videos and why?",
+          "m": "Nói bạn có làm video ngắn không. Nói lý do đơn giản.",
+          "h": "Dùng 'I make short videos.' và 'Because + reason.'",
+          "s": "I make short videos. Because they are easy to watch."
+        },
+        {
+          "p": "How long is your video and what do you show?",
+          "m": "Nói độ dài video của bạn. Nói bạn cho khán giả thấy gì trong video.",
+          "h": "Dùng 'My video is + length.' và 'I show + N.'",
+          "s": "My video is 30 seconds. I show a simple recipe."
+        },
+        {
+          "p": "Are you filming now and who is in the video?",
+          "m": "Nói bạn đang quay hay không. Nói ai có trong video.",
+          "h": "Dùng 'I am filming now.' và 'My friend is in the video.'",
+          "s": "I am filming now. My friend is in the video."
+        },
+        {
+          "p": "How often do you post videos and where do you post them?",
+          "m": "Nói tần suất bạn đăng video. Nói nền tảng bạn đăng (ví dụ: Instagram).",
+          "h": "Dùng trạng từ tần suất + 'I post videos.' và 'I post them on ...'.",
+          "s": "I sometimes post videos. I post them on Instagram."
+        },
+        {
+          "p": "Do you add music and do you edit the sound?",
+          "m": "Nói bạn có thêm nhạc cho video không. Nói bạn có chỉnh âm thanh không.",
+          "h": "Dùng 'I add music.' và 'I edit the sound / I do not edit.'",
+          "s": "I add music. I edit the sound."
+        }
+      ]
+    },
+    {
+      "t": "Đo lường đơn giản: like và comment",
+      "e": [
+        {
+          "p": "How many likes did you get today and how many comments?",
+          "m": "Nói số like bạn nhận hôm nay. Nói số comment bạn nhận.",
+          "h": "Dùng 'There are + number + likes.' và 'There are + number + comments.'",
+          "s": "There are 50 likes today. There are five comments."
+        },
+        {
+          "p": "Do you check likes now and what do you feel?",
+          "m": "Nói bạn có đang kiểm tra like ngay bây giờ không. Nói cảm xúc của bạn (ví dụ: happy).",
+          "h": "Dùng 'I am checking likes now.' và 'I feel + adjective.'",
+          "s": "I am checking likes now. I feel happy."
+        },
+        {
+          "p": "Are likes important and why or why not?",
+          "m": "Nói like có quan trọng không. Nói lý do ngắn.",
+          "h": "Dùng 'I think likes are important / not important.' và 'Because + reason.'",
+          "s": "I think likes are important. Because they show people like the post."
+        },
+        {
+          "p": "How often do you look at comments and do you reply fast?",
+          "m": "Nói tần suất bạn đọc bình luận. Nói bạn trả lời nhanh hay không (always/often/sometimes).",
+          "h": "Dùng 'I usually look at comments.' và 'I reply often / sometimes / never.'",
+          "s": "I usually look at comments. I often reply fast."
+        },
+        {
+          "p": "Do you share the post with many people and how do you share?",
+          "m": "Nói bạn có chia sẻ bài với nhiều người không. Nói cách bạn chia sẻ (gửi link, message...).",
+          "h": "Dùng 'I share with many people.' và 'I send the link / I do not share.'",
+          "s": "I share with many people. I send the link."
+        }
+      ]
+    },
+    {
+      "t": "Giữ an toàn cá nhân",
+      "e": [
+        {
+          "p": "Do you put your address in posts and why?",
+          "m": "Nói bạn có đăng địa chỉ lên bài không. Nói lý do ngắn (an toàn).",
+          "h": "Dùng 'I do not put my address.' và 'Because + reason.'",
+          "s": "I do not put my address. Because it is not safe."
+        },
+        {
+          "p": "Are you using a private account and who can see it?",
+          "m": "Nói bạn có dùng tài khoản riêng tư không. Nói ai có thể thấy (bạn bè, followers).",
+          "h": "Dùng 'I use a private account.' và 'Only my followers / friends can see it.'",
+          "s": "I use a private account. Only my followers can see it."
+        },
+        {
+          "p": "Do you share personal photos and which photos do you avoid?",
+          "m": "Nói bạn có chia sẻ ảnh cá nhân không. Nói bạn tránh chia sẻ ảnh loại gì (ví dụ: nhà riêng).",
+          "h": "Dùng 'I share some photos.' và 'I avoid photos of my home / ID.'",
+          "s": "I share some photos. I avoid photos of my home."
+        },
+        {
+          "p": "Are you using a strong password and do you change it often?",
+          "m": "Nói bạn có dùng mật khẩu mạnh không. Nói bạn có đổi mật khẩu thường xuyên không.",
+          "h": "Dùng 'I use a strong password.' và 'I change it sometimes.'",
+          "s": "I use a strong password. I change it sometimes."
+        },
+        {
+          "p": "How do you block a bad user and do you report them?",
+          "m": "Nói bạn chặn người xấu như thế nào (hành động). Nói bạn có báo cáo họ không.",
+          "h": "Dùng 'I block the user.' và 'I report them / I do not report.'",
+          "s": "I block the user. I report them."
+        }
+      ]
+    },
+    {
+      "t": "Sử dụng hashtag",
+      "e": [
+        {
+          "p": "Do you use hashtags and which one do you use?",
+          "m": "Nói bạn có dùng hashtag không. Nói một hashtag bạn dùng.",
+          "h": "Dùng 'I use hashtags.' và 'I use #food / #happy.'",
+          "s": "I use hashtags. I use #food."
+        },
+        {
+          "p": "How many hashtags do you add and are they in the caption?",
+          "m": "Nói bạn thêm bao nhiêu hashtag. Nói bạn đặt chúng ở đâu (caption hoặc comment).",
+          "h": "Dùng 'There are + number + hashtags.' và 'They are in the caption / comment.'",
+          "s": "There are three hashtags. They are in the caption."
+        },
+        {
+          "p": "Do you use a popular hashtag and what is it?",
+          "m": "Nói bạn có dùng hashtag phổ biến không. Nói tên hashtag đó.",
+          "h": "Dùng 'I use a popular hashtag.' và 'It is #happy.'",
+          "s": "I use a popular hashtag. It is #happy."
+        },
+        {
+          "p": "Are hashtags important and do you change them for each post?",
+          "m": "Nói hashtag có quan trọng không. Nói bạn có thay đổi cho mỗi bài không.",
+          "h": "Dùng 'Hashtags are important / not important.' và 'I change them sometimes / I change them for each post.'",
+          "s": "Hashtags are important. I change them for each post."
+        },
+        {
+          "p": "How much time do you spend finding hashtags and do you have a list?",
+          "m": "Nói bạn dành bao nhiêu thời gian tìm hashtag. Nói bạn có danh sách hashtag hay không.",
+          "h": "Dùng 'I spend + time.' và 'I have a list / I do not have a list.'",
+          "s": "I spend ten minutes. I have a list."
+        }
+      ]
+    },
+    {
+      "t": "Câu hỏi thường gặp từ người theo dõi",
+      "e": [
+        {
+          "p": "A follower asks 'Do you sell this?' Answer and say yes/no.",
+          "m": "Trả lời có bán hay không. Nói thêm thông tin ngắn (ví dụ: bán online).",
+          "h": "Dùng 'Yes, I sell it.' hoặc 'No, I do not sell it.' và thêm 'I sell online.'",
+          "s": "Yes, I sell it. I sell online."
+        },
+        {
+          "p": "They ask 'How much time to make it?' Answer time and say if you can make faster.",
+          "m": "Nói thời gian để làm sản phẩm. Nói bạn có thể làm nhanh hơn không.",
+          "h": "Dùng 'It takes + time.' và 'I can / cannot make it faster.'",
+          "s": "It takes two days. I can make it faster."
+        },
+        {
+          "p": "Someone asks 'Do you give a discount?' Answer and say how much.",
+          "m": "Nói có giảm giá không. Nói mức giảm (số phần trăm hoặc đơn vị đơn giản).",
+          "h": "Dùng 'Yes, I give a discount.' và 'I give ten percent.'",
+          "s": "Yes, I give a discount. I give ten percent."
+        },
+        {
+          "p": "Follower asks 'Can you make a custom color?' Answer and say colors you have.",
+          "m": "Nói có thể làm màu theo yêu cầu hay không. Liệt kê màu bạn có (ngắn).",
+          "h": "Dùng 'Yes, I can.' và 'I have red, blue, and green.'",
+          "s": "Yes, I can. I have red, blue, and green."
+        },
+        {
+          "p": "They ask 'How do I order?' Explain one step and say where to send a message.",
+          "m": "Giải thích một bước để đặt hàng. Nói nơi gửi tin nhắn (ví dụ: DM).",
+          "h": "Dùng 'First, you send a message.' và 'Send it to my DM.'",
+          "s": "First, you send a message. Send it to my DM."
+        }
+      ]
+    },
+    {
+      "t": "Ôn tập: Tổng hợp cơ bản 1",
+      "e": [
+        {
+          "p": "Hi, what's your name and do you post every day?",
+          "m": "Nói tên của bạn. Nói bạn có đăng mỗi ngày không.",
+          "h": "Dùng 'I am [studentName].' và 'I post every day / sometimes.'",
+          "s": "I am [studentName]. I post every day."
+        },
+        {
+          "p": "Where do you live and how many apps do you use?",
+          "m": "Nói nơi bạn sống (thành phố). Nói số app bạn dùng.",
+          "h": "Dùng 'I live in [studentCity].' và 'There are + number + apps I use.'",
+          "s": "I live in [studentCity]. There are three apps I use."
+        },
+        {
+          "p": "What are you doing now and do you reply to comments?",
+          "m": "Nói bạn đang làm gì ngay bây giờ. Nói bạn có trả lời bình luận không (tần suất).",
+          "h": "Dùng 'I am V-ing now.' và 'I reply often / sometimes.'",
+          "s": "I am writing a post now. I reply often."
+        },
+        {
+          "p": "How many posts a week and do you use hashtags?",
+          "m": "Nói số bài mỗi tuần. Nói bạn có dùng hashtag hay không và một ví dụ.",
+          "h": "Dùng 'There are + number + posts.' và 'I use #...'.",
+          "s": "There are five posts a week. I use #food."
+        },
+        {
+          "p": "Do you make videos and how long is one video?",
+          "m": "Nói bạn có làm video không. Nói độ dài một video của bạn.",
+          "h": "Dùng 'I make videos.' và 'My video is + length.'",
+          "s": "I make videos. My video is 30 seconds."
+        }
+      ]
+    },
+    {
+      "t": "Ôn tập: Tương tác với người theo dõi",
+      "e": [
+        {
+          "p": "A follower says 'Nice' Reply and ask one question.",
+          "m": "Cảm ơn họ. Hỏi một câu đơn để họ trả lời tiếp.",
+          "h": "Dùng 'Thank you.' và 'Do you ...?'",
+          "s": "Thank you. Do you like this style?"
+        },
+        {
+          "p": "They ask price and do you add shipping?",
+          "m": "Nói giá sản phẩm. Nói bạn có cần thêm phí ship không.",
+          "h": "Dùng 'It is + number.' và 'I need to add shipping / I do not.'",
+          "s": "It is twenty dollars. I need to add shipping."
+        },
+        {
+          "p": "Follower asks 'Can you teach?' Say you will and when (use present continuous).",
+          "m": "Nói bạn sẽ làm bài dạy. Nói thời gian bạn dự định (dùng present continuous).",
+          "h": "Dùng present continuous: 'I am making / I am posting next week.'",
+          "s": "I am making a lesson. I am posting it next week."
+        },
+        {
+          "p": "Someone says 'I want to collab.' Say how many people are in your team and what you bring.",
+          "m": "Nói số người trong đội bạn. Nói bạn đóng góp gì cho collab.",
+          "h": "Dùng 'There are + number.' và 'I bring + N.'",
+          "s": "There are three people. I bring photos and ideas."
+        },
+        {
+          "p": "Do you share personal info and why?",
+          "m": "Nói bạn có chia sẻ thông tin cá nhân không. Nói lý do (an toàn).",
+          "h": "Dùng 'I do not share personal info.' và 'Because + reason.'",
+          "s": "I do not share personal info. Because it is not safe."
+        }
+      ]
+    },
+    {
+      "t": "Ôn tập: Chiến lược và kế hoạch",
+      "e": [
+        {
+          "p": "What is your main content and do you want more followers?",
+          "m": "Nói chủ đề chính bạn làm nội dung. Nói bạn có muốn thêm follower không.",
+          "h": "Dùng 'I make + topic.' và 'I want more followers.'",
+          "s": "I make food content. I want more followers."
+        },
+        {
+          "p": "How many ideas each week and do you plan new posts now?",
+          "m": "Nói số ý tưởng mỗi tuần. Nói bạn có đang lên kế hoạch bài mới không (present continuous).",
+          "h": "Dùng 'There are + number + ideas.' và 'I am planning new posts now.'",
+          "s": "There are four ideas each week. I am planning new posts now."
+        },
+        {
+          "p": "Do you check likes daily and how do you feel when likes go up?",
+          "m": "Nói bạn có kiểm tra like mỗi ngày không. Nói cảm xúc khi like tăng lên.",
+          "h": "Dùng 'I check likes daily.' và 'I feel + adjective.'",
+          "s": "I check likes daily. I feel happy when likes go up."
+        },
+        {
+          "p": "Are you safe online and do you use a strong password?",
+          "m": "Nói bạn có an toàn khi online không. Nói bạn có dùng mật khẩu mạnh không.",
+          "h": "Dùng 'I am safe online.' và 'I use a strong password.'",
+          "s": "I am safe online. I use a strong password."
+        },
+        {
+          "p": "How often do you change hashtags and where do you put them?",
+          "m": "Nói tần suất bạn đổi hashtag. Nói bạn đặt hashtag ở đâu (caption/comment).",
+          "h": "Dùng 'I change hashtags sometimes.' và 'I put them in the caption.'",
+          "s": "I change hashtags sometimes. I put them in the caption."
+        }
+      ]
+    }
+  ]
+}

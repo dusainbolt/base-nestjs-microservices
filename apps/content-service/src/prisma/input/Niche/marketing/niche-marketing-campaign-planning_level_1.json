@@ -1,0 +1,530 @@
+{
+  "l": 1,
+  "d": [
+    {
+      "t": "Gặp khách hàng lần đầu",
+      "e": [
+        {
+          "p": "What is your role in the project?",
+          "m": "Nói 1 câu: Vai trò của bạn trong chiến dịch.",
+          "h": "S + be + N",
+          "s": "I am a team member."
+        },
+        {
+          "p": "What is the campaign goal?",
+          "m": "Nói 1 câu: Mục tiêu chính của chiến dịch.",
+          "h": "The goal is + N",
+          "s": "The goal is more sales."
+        },
+        {
+          "p": "Who is the target audience?",
+          "m": "Nói 1 câu: Đối tượng khách hàng.",
+          "h": "The target is + N",
+          "s": "The target is young people."
+        },
+        {
+          "p": "Do you need a poster for the campaign?",
+          "m": "Nói 1 câu: Có hoặc không và vật bạn cần.",
+          "h": "Yes/No + we need/don't need + N",
+          "s": "Yes, we need a poster."
+        },
+        {
+          "p": "When does the campaign start?",
+          "m": "Nói 1 câu: Thời gian bắt đầu chiến dịch.",
+          "h": "S + be + time (next week / today)",
+          "s": "The campaign starts next week."
+        }
+      ]
+    },
+    {
+      "t": "Nói về mục tiêu chiến dịch",
+      "e": [
+        {
+          "p": "Is the goal to sell more products?",
+          "m": "Nói 1 câu: Trả lời yes hoặc no.",
+          "h": "Yes/No + S + V",
+          "s": "Yes, the goal is to sell more."
+        },
+        {
+          "p": "How many customers do you want?",
+          "m": "Nói 1 câu: Số khách hàng bạn muốn (dùng số).",
+          "h": "We want + number + customers",
+          "s": "We want 50 customers."
+        },
+        {
+          "p": "What is the main message?",
+          "m": "Nói 1 câu: Thông điệp chính ngắn gọn.",
+          "h": "The message is + short noun",
+          "s": "The message is new product."
+        },
+        {
+          "p": "Can this goal be simple?",
+          "m": "Nói 1 câu: Trả lời dùng can/can't.",
+          "h": "S + can/can't + V",
+          "s": "Yes, we can keep it simple."
+        },
+        {
+          "p": "Where is the main sale area?",
+          "m": "Nói 1 câu: Nơi chính của chiến dịch.",
+          "h": "The area is + place (city or 'online')",
+          "s": "The area is online."
+        }
+      ]
+    },
+    {
+      "t": "Thảo luận đội nhóm",
+      "e": [
+        {
+          "p": "Who is the team leader?",
+          "m": "Nói 1 câu: Tên hoặc vai trò người dẫn đội (dùng vai trò).",
+          "h": "S + be + N",
+          "s": "The leader is the manager."
+        },
+        {
+          "p": "How many people work in the team?",
+          "m": "Nói 1 câu: Số người trong đội (dùng số).",
+          "h": "There are + number + people",
+          "s": "There are 5 people."
+        },
+        {
+          "p": "What do you do in the team?",
+          "m": "Nói 1 câu: Nhiệm vụ chính của bạn.",
+          "h": "I + V(s) + O",
+          "s": "I make the plan."
+        },
+        {
+          "p": "Do you need help from others?",
+          "m": "Nói 1 câu: Có hoặc không, dùng can/can't nếu cần.",
+          "h": "Yes/No + we can/can't + V",
+          "s": "Yes, we can ask for help."
+        },
+        {
+          "p": "Where does the team meet?",
+          "m": "Nói 1 câu: Nơi họp nhóm.",
+          "h": "We meet at/in + place",
+          "s": "We meet at the office."
+        }
+      ]
+    },
+    {
+      "t": "Lựa chọn phương tiện quảng cáo",
+      "e": [
+        {
+          "p": "Do you use posters or online ads?",
+          "m": "Nói 1 câu: Chọn một phương tiện.",
+          "h": "We use + N",
+          "s": "We use online ads."
+        },
+        {
+          "p": "Is social media important?",
+          "m": "Nói 1 câu: Trả lời yes hoặc no.",
+          "h": "Yes/No + S + V",
+          "s": "Yes, social media is important."
+        },
+        {
+          "p": "How many posts do you need?",
+          "m": "Nói 1 câu: Số bài viết cần dùng.",
+          "h": "We need + number + posts",
+          "s": "We need 10 posts."
+        },
+        {
+          "p": "Who writes the post text?",
+          "m": "Nói 1 câu: Người viết nội dung.",
+          "h": "S + V(s) + O",
+          "s": "The writer writes the text."
+        },
+        {
+          "p": "Can you use email for the campaign?",
+          "m": "Nói 1 câu: Trả lời dùng can/can't.",
+          "h": "S + can/can't + V",
+          "s": "Yes, we can use email."
+        }
+      ]
+    },
+    {
+      "t": "Lên lịch hoạt động",
+      "e": [
+        {
+          "p": "When is the first meeting?",
+          "m": "Nói 1 câu: Thời gian họp đầu.",
+          "h": "The meeting is + time",
+          "s": "The meeting is today."
+        },
+        {
+          "p": "Do you meet every day?",
+          "m": "Nói 1 câu: Trả lời yes hoặc no.",
+          "h": "Yes/No + S + V",
+          "s": "No, we meet every week."
+        },
+        {
+          "p": "How long is the campaign?",
+          "m": "Nói 1 câu: Thời gian chiến dịch (ví dụ: one week).",
+          "h": "The campaign is + duration",
+          "s": "The campaign is one week."
+        },
+        {
+          "p": "Where do you check the plan?",
+          "m": "Nói 1 câu: Nơi kiểm tra kế hoạch.",
+          "h": "We check the plan on/in + place",
+          "s": "We check the plan online."
+        },
+        {
+          "p": "Who sets the schedule?",
+          "m": "Nói 1 câu: Người đặt lịch.",
+          "h": "S + V(s) + O",
+          "s": "The manager sets the schedule."
+        }
+      ]
+    },
+    {
+      "t": "Xác định đối tượng khách hàng",
+      "e": [
+        {
+          "p": "Who is the customer?",
+          "m": "Nói 1 câu: Mô tả khách hàng ngắn gọn.",
+          "h": "The customer is + short noun",
+          "s": "The customer is young people."
+        },
+        {
+          "p": "Is the customer a student?",
+          "m": "Nói 1 câu: Trả lời yes hoặc no.",
+          "h": "Yes/No + S + V",
+          "s": "No, the customer is not a student."
+        },
+        {
+          "p": "Where do customers live?",
+          "m": "Nói 1 câu: Nơi sống chung của khách hàng.",
+          "h": "Customers live in + place",
+          "s": "Customers live in the city."
+        },
+        {
+          "p": "Do customers use phones a lot?",
+          "m": "Nói 1 câu: Trả lời yes hoặc no.",
+          "h": "Yes/No + S + V",
+          "s": "Yes, customers use phones a lot."
+        },
+        {
+          "p": "What time do customers see ads?",
+          "m": "Nói 1 câu: Thời gian phù hợp (morning/ night).",
+          "h": "They see ads in the + time",
+          "s": "They see ads in the evening."
+        }
+      ]
+    },
+    {
+      "t": "Ngân sách đơn giản",
+      "e": [
+        {
+          "p": "Do you have a budget?",
+          "m": "Nói 1 câu: Có hoặc không.",
+          "h": "Yes/No + S + V",
+          "s": "Yes, we have a budget."
+        },
+        {
+          "p": "How much do you spend?",
+          "m": "Nói 1 câu: Số tiền (dùng số đơn giản).",
+          "h": "We spend + number",
+          "s": "We spend 100 dollars."
+        },
+        {
+          "p": "Is money for ads or events?",
+          "m": "Nói 1 câu: Nêu mục tiêu dùng tiền.",
+          "h": "Money is for + N",
+          "s": "Money is for ads."
+        },
+        {
+          "p": "Can you reduce the cost?",
+          "m": "Nói 1 câu: Trả lời dùng can/can't.",
+          "h": "S + can/can't + V",
+          "s": "Yes, we can reduce cost."
+        },
+        {
+          "p": "Who approves the budget?",
+          "m": "Nói 1 câu: Người duyệt ngân sách.",
+          "h": "S + V(s) + O",
+          "s": "The manager approves the budget."
+        }
+      ]
+    },
+    {
+      "t": "Nội dung quảng cáo",
+      "e": [
+        {
+          "p": "What is the ad image?",
+          "m": "Nói 1 câu: Hình ảnh quảng cáo ngắn gọn.",
+          "h": "The image is + short noun",
+          "s": "The image is a product photo."
+        },
+        {
+          "p": "Do you write a short text?",
+          "m": "Nói 1 câu: Trả lời yes hoặc no.",
+          "h": "Yes/No + S + V",
+          "s": "Yes, we write a short text."
+        },
+        {
+          "p": "Who makes the ad?",
+          "m": "Nói 1 câu: Người làm quảng cáo.",
+          "h": "S + V(s) + O",
+          "s": "The team makes the ad."
+        },
+        {
+          "p": "Can the ad show the price?",
+          "m": "Nói 1 câu: Trả lời dùng can/can't.",
+          "h": "S + can/can't + V",
+          "s": "Yes, the ad can show the price."
+        },
+        {
+          "p": "Where do you put the ad?",
+          "m": "Nói 1 câu: Nơi đặt quảng cáo (online/print).",
+          "h": "We put the ad on/in + place",
+          "s": "We put the ad online."
+        }
+      ]
+    },
+    {
+      "t": "Chuẩn bị sự kiện",
+      "e": [
+        {
+          "p": "Is there an event for the campaign?",
+          "m": "Nói 1 câu: Có hoặc không.",
+          "h": "Yes/No + S + V",
+          "s": "Yes, there is an event."
+        },
+        {
+          "p": "When is the event day?",
+          "m": "Nói 1 câu: Ngày tổ chức (ví dụ: tomorrow).",
+          "h": "The event is + time",
+          "s": "The event is tomorrow."
+        },
+        {
+          "p": "Who brings the posters?",
+          "m": "Nói 1 câu: Người mang poster.",
+          "h": "S + V(s) + O",
+          "s": "The team brings the posters."
+        },
+        {
+          "p": "Do we need a room?",
+          "m": "Nói 1 câu: Trả lời yes hoặc no.",
+          "h": "Yes/No + S + V",
+          "s": "Yes, we need a room."
+        },
+        {
+          "p": "Where is the event place?",
+          "m": "Nói 1 câu: Nơi tổ chức sự kiện.",
+          "h": "The place is + place",
+          "s": "The place is the school hall."
+        }
+      ]
+    },
+    {
+      "t": "Theo dõi kết quả",
+      "e": [
+        {
+          "p": "Do you check the result today?",
+          "m": "Nói 1 câu: Trả lời yes hoặc no.",
+          "h": "Yes/No + S + V",
+          "s": "Yes, we check the result today."
+        },
+        {
+          "p": "How many sales do you have now?",
+          "m": "Nói 1 câu: Số bán hiện tại (dùng số).",
+          "h": "We have + number + sales",
+          "s": "We have 20 sales."
+        },
+        {
+          "p": "Is the campaign successful?",
+          "m": "Nói 1 câu: Trả lời yes hoặc no.",
+          "h": "Yes/No + S + be + Adj",
+          "s": "No, the campaign is not successful."
+        },
+        {
+          "p": "Who checks the data?",
+          "m": "Nói 1 câu: Người kiểm tra dữ liệu.",
+          "h": "S + V(s) + O",
+          "s": "The analyst checks the data."
+        },
+        {
+          "p": "Where do you see the report?",
+          "m": "Nói 1 câu: Nơi xem báo cáo.",
+          "h": "I see the report on/in + place",
+          "s": "I see the report online."
+        }
+      ]
+    },
+    {
+      "t": "Phản hồi từ khách hàng",
+      "e": [
+        {
+          "p": "Do customers like the product?",
+          "m": "Nói 1 câu: Trả lời yes hoặc no.",
+          "h": "Yes/No + S + V",
+          "s": "Yes, customers like the product."
+        },
+        {
+          "p": "What do customers say?",
+          "m": "Nói 1 câu: Một ý phản hồi ngắn.",
+          "h": "They say + simple phrase",
+          "s": "They say the product is good."
+        },
+        {
+          "p": "Is the feedback positive?",
+          "m": "Nói 1 câu: Trả lời yes hoặc no.",
+          "h": "Yes/No + S + be + Adj",
+          "s": "Yes, the feedback is positive."
+        },
+        {
+          "p": "Who answers customer questions?",
+          "m": "Nói 1 câu: Người trả lời khách hàng.",
+          "h": "S + V(s) + O",
+          "s": "The team answers questions."
+        },
+        {
+          "p": "Can we change the ad from feedback?",
+          "m": "Nói 1 câu: Trả lời dùng can/can't.",
+          "h": "S + can/can't + V",
+          "s": "Yes, we can change the ad."
+        }
+      ]
+    },
+    {
+      "t": "Phân công công việc",
+      "e": [
+        {
+          "p": "Who writes the schedule?",
+          "m": "Nói 1 câu: Người viết lịch.",
+          "h": "S + V(s) + O",
+          "s": "The manager writes the schedule."
+        },
+        {
+          "p": "Do you assign tasks today?",
+          "m": "Nói 1 câu: Trả lời yes hoặc no.",
+          "h": "Yes/No + S + V",
+          "s": "Yes, we assign tasks today."
+        },
+        {
+          "p": "How many tasks do you give?",
+          "m": "Nói 1 câu: Số nhiệm vụ giao.",
+          "h": "We give + number + tasks",
+          "s": "We give 3 tasks."
+        },
+        {
+          "p": "Who does the design work?",
+          "m": "Nói 1 câu: Người làm thiết kế.",
+          "h": "S + V(s) + O",
+          "s": "The designer does the design work."
+        },
+        {
+          "p": "Can one person do two tasks?",
+          "m": "Nói 1 câu: Trả lời dùng can/can't.",
+          "h": "S + can/can't + V",
+          "s": "Yes, one person can do two tasks."
+        }
+      ]
+    },
+    {
+      "t": "Ôn tập: Tổng hợp 1",
+      "e": [
+        {
+          "p": "What is the campaign goal and target?",
+          "m": "Nói 1 câu: Nêu mục tiêu và đối tượng (ngắn).",
+          "h": "The goal is + N; the target is + N",
+          "s": "The goal is more sales; the target is young people."
+        },
+        {
+          "p": "Do you use online ads and posters?",
+          "m": "Nói 1 câu: Trả lời yes hoặc no và nêu lựa chọn.",
+          "h": "Yes/No + we use + N",
+          "s": "Yes, we use online ads."
+        },
+        {
+          "p": "Who is in the team and how many people?",
+          "m": "Nói 1 câu: Nêu vai trò chính và số người.",
+          "h": "The team has + number; the leader is + role",
+          "s": "The team has 5 people; the leader is the manager."
+        },
+        {
+          "p": "When does the campaign start and how long?",
+          "m": "Nói 1 câu: Nêu ngày bắt đầu và thời gian (ngắn).",
+          "h": "It starts + time; it is + duration",
+          "s": "It starts next week and it is one week."
+        },
+        {
+          "p": "Can you use email and check results?",
+          "m": "Nói 1 câu: Trả lời dùng can/can't cho hai hành động.",
+          "h": "S + can + V and can + V",
+          "s": "Yes, we can use email and can check results."
+        }
+      ]
+    },
+    {
+      "t": "Ôn tập: Tổng hợp 2",
+      "e": [
+        {
+          "p": "Who writes the ad and who approves it?",
+          "m": "Nói 1 câu: Nêu người viết và người duyệt.",
+          "h": "The writer + V(s); the manager + V(s)",
+          "s": "The writer writes the ad and the manager approves it."
+        },
+        {
+          "p": "Do customers like the ad and the product?",
+          "m": "Nói 1 câu: Trả lời yes hoặc no cho cả hai.",
+          "h": "Yes/No + S + V and S + V",
+          "s": "Yes, customers like the ad and the product."
+        },
+        {
+          "p": "Where do you put the ad and where do customers see it?",
+          "m": "Nói 1 câu: Nêu nơi đặt và nơi khách xem (ngắn).",
+          "h": "We put the ad + place; customers see it + place",
+          "s": "We put the ad online; customers see it online."
+        },
+        {
+          "p": "How many posts and how many sales now?",
+          "m": "Nói 1 câu: Nêu hai số (posts và sales).",
+          "h": "We have + number + posts and + number + sales",
+          "s": "We have 10 posts and 20 sales."
+        },
+        {
+          "p": "Can the team change the plan after feedback?",
+          "m": "Nói 1 câu: Trả lời dùng can/can't.",
+          "h": "S + can/can't + V",
+          "s": "Yes, the team can change the plan."
+        }
+      ]
+    },
+    {
+      "t": "Ôn tập: Tổng hợp 3",
+      "e": [
+        {
+          "p": "Is there a budget and how much is it?",
+          "m": "Nói 1 câu: Trả lời có và nêu số tiền.",
+          "h": "Yes/No + we have + number",
+          "s": "Yes, we have 100 dollars."
+        },
+        {
+          "p": "Who sets the schedule and who brings posters?",
+          "m": "Nói 1 câu: Nêu hai người/nhóm (ngắn).",
+          "h": "The manager + V(s); the team + V(s)",
+          "s": "The manager sets the schedule and the team brings posters."
+        },
+        {
+          "p": "Do you meet every week and check the report online?",
+          "m": "Nói 1 câu: Trả lời yes hoặc no cho cả hai hành động.",
+          "h": "Yes/No + we + V and we + V",
+          "s": "Yes, we meet every week and check the report online."
+        },
+        {
+          "p": "What is the main message and where is the area?",
+          "m": "Nói 1 câu: Nêu thông điệp chính và nơi thực hiện.",
+          "h": "The message is + N; the area is + place",
+          "s": "The message is new product; the area is online."
+        },
+        {
+          "p": "Can one person do two tasks and can you reduce cost?",
+          "m": "Nói 1 câu: Trả lời dùng can/can't cho hai ý.",
+          "h": "Yes/No + S + can/can't + V and can/can't + V",
+          "s": "Yes, one person can do two tasks and we can reduce cost."
+        }
+      ]
+    }
+  ]
+}

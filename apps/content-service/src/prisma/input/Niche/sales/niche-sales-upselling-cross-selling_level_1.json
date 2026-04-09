@@ -1,0 +1,565 @@
+{
+  "l": 1,
+  "d": [
+    {
+      "t": "Tại quầy cà phê",
+      "e": [
+        {
+          "p": "Do you want milk with your coffee?",
+          "m": "Nói có hoặc không.",
+          "h": "Yes, I want... / No, thank you.",
+          "s": "Yes, I want milk."
+        },
+        {
+          "p": "Would you like sugar?",
+          "m": "Nói bạn muốn một hay hai muỗng.",
+          "h": "I want one/two.",
+          "s": "I want one spoon."
+        },
+        {
+          "p": "Do you want a larger size for one more?",
+          "m": "Nói có hoặc không.",
+          "h": "Yes, I want... / No, thank you.",
+          "s": "No, thank you."
+        },
+        {
+          "p": "Would you like a pastry with that?",
+          "m": "Nói bạn muốn bánh gì hoặc không.",
+          "h": "I want a ... / No, thank you.",
+          "s": "I want a cookie."
+        },
+        {
+          "p": "We have vanilla syrup. Do you want it?",
+          "m": "Nói có hoặc không.",
+          "h": "Yes, I want... / No, thank you.",
+          "s": "Yes, I want vanilla syrup."
+        }
+      ]
+    },
+    {
+      "t": "Tại cửa hàng đồ ăn nhanh",
+      "e": [
+        {
+          "p": "Do you want fries with your burger?",
+          "m": "Nói có hoặc không.",
+          "h": "Yes, I want... / No, thank you.",
+          "s": "Yes, I want fries."
+        },
+        {
+          "p": "Would you like a drink?",
+          "m": "Nói bạn muốn nước gì (cola or water).",
+          "h": "I want ...",
+          "s": "I want water."
+        },
+        {
+          "p": "Do you want cheese on your burger?",
+          "m": "Nói có hoặc không.",
+          "h": "Yes, I want... / No, thank you.",
+          "s": "Yes, I want cheese."
+        },
+        {
+          "p": "Make it a meal for one more, okay?",
+          "m": "Nói có hoặc không.",
+          "h": "Yes, I want... / No, thank you.",
+          "s": "No, thank you."
+        },
+        {
+          "p": "Do you want ketchup?",
+          "m": "Nói có hoặc không.",
+          "h": "Yes, I want... / No, thank you.",
+          "s": "Yes, I want ketchup."
+        }
+      ]
+    },
+    {
+      "t": "Tại cửa hàng điện thoại",
+      "e": [
+        {
+          "p": "Do you want a phone case?",
+          "m": "Nói có hoặc không.",
+          "h": "Yes, I want... / No, thank you.",
+          "s": "Yes, I want a phone case."
+        },
+        {
+          "p": "Would you like a screen protector?",
+          "m": "Nói có hoặc không.",
+          "h": "Yes, I want... / No, thank you.",
+          "s": "No, thank you."
+        },
+        {
+          "p": "Do you want a charger cable?",
+          "m": "Nói có hoặc không.",
+          "h": "Yes, I want... / No, thank you.",
+          "s": "Yes, I want a charger cable."
+        },
+        {
+          "p": "We sell earphones too; do you want them?",
+          "m": "Nói có hoặc không.",
+          "h": "Yes, I want... / No, thank you.",
+          "s": "No, thank you."
+        },
+        {
+          "p": "Would you like help to set up your phone?",
+          "m": "Nói có hoặc không.",
+          "h": "Yes, I want help / No, thank you.",
+          "s": "Yes, I want help."
+        }
+      ]
+    },
+    {
+      "t": "Khi mua quần áo",
+      "e": [
+        {
+          "p": "Do you want a bag for your clothes?",
+          "m": "Nói có hoặc không.",
+          "h": "Yes, I want... / No, thank you.",
+          "s": "Yes, I want a bag."
+        },
+        {
+          "p": "Would you like a matching belt?",
+          "m": "Nói có hoặc không.",
+          "h": "Yes, I want... / No, thank you.",
+          "s": "No, thank you."
+        },
+        {
+          "p": "Do you want to try a different size?",
+          "m": "Nói có hoặc không.",
+          "h": "Yes, I want... / No, thank you.",
+          "s": "Yes, I want a larger size."
+        },
+        {
+          "p": "Would you like gift wrap?",
+          "m": "Nói có hoặc không.",
+          "h": "Yes, I want... / No, thank you.",
+          "s": "No, thank you."
+        },
+        {
+          "p": "Do you want to buy matching socks?",
+          "m": "Nói có hoặc không.",
+          "h": "Yes, I want... / No, thank you.",
+          "s": "Yes, I want socks."
+        }
+      ]
+    },
+    {
+      "t": "Mua sách ở hiệu sách",
+      "e": [
+        {
+          "p": "Do you want a bookmark?",
+          "m": "Nói có hoặc không.",
+          "h": "Yes, I want... / No, thank you.",
+          "s": "Yes, I want a bookmark."
+        },
+        {
+          "p": "Would you like a book light?",
+          "m": "Nói có hoặc không.",
+          "h": "Yes, I want... / No, thank you.",
+          "s": "No, thank you."
+        },
+        {
+          "p": "Do you want a second book with a discount?",
+          "m": "Nói có hoặc không.",
+          "h": "Yes, I want... / No, thank you.",
+          "s": "Yes, I want a second book."
+        },
+        {
+          "p": "Would you like a gift bag for the book?",
+          "m": "Nói có hoặc không.",
+          "h": "Yes, I want... / No, thank you.",
+          "s": "No, thank you."
+        },
+        {
+          "p": "Do you want a pen with the book?",
+          "m": "Nói có hoặc không.",
+          "h": "Yes, I want... / No, thank you.",
+          "s": "Yes, I want a pen."
+        }
+      ]
+    },
+    {
+      "t": "Tại cửa hàng tạp hóa",
+      "e": [
+        {
+          "p": "Do you want a bag for your items?",
+          "m": "Nói có hoặc không.",
+          "h": "Yes, I want... / No, thank you.",
+          "s": "Yes, I want a bag."
+        },
+        {
+          "p": "Would you like to add milk?",
+          "m": "Nói có hoặc không.",
+          "h": "Yes, I want... / No, thank you.",
+          "s": "Yes, I want milk."
+        },
+        {
+          "p": "Do you want fresh fruit with your order?",
+          "m": "Nói bạn muốn trái cây nào (apple or banana) hoặc không.",
+          "h": "I want an apple / No, thank you.",
+          "s": "I want a banana."
+        },
+        {
+          "p": "Would you like to buy bread too?",
+          "m": "Nói có hoặc không.",
+          "h": "Yes, I want... / No, thank you.",
+          "s": "No, thank you."
+        },
+        {
+          "p": "Do you want to add eggs to your cart?",
+          "m": "Nói có hoặc không.",
+          "h": "Yes, I want... / No, thank you.",
+          "s": "Yes, I want eggs."
+        }
+      ]
+    },
+    {
+      "t": "Đặt vé xem phim",
+      "e": [
+        {
+          "p": "Do you want popcorn with your ticket?",
+          "m": "Nói có hoặc không.",
+          "h": "Yes, I want... / No, thank you.",
+          "s": "Yes, I want popcorn."
+        },
+        {
+          "p": "Would you like a drink?",
+          "m": "Nói bạn muốn nước gì (cola or juice).",
+          "h": "I want ...",
+          "s": "I want cola."
+        },
+        {
+          "p": "Do you want a large popcorn for one more?",
+          "m": "Nói có hoặc không.",
+          "h": "Yes, I want... / No, thank you.",
+          "s": "No, thank you."
+        },
+        {
+          "p": "Would you like 3D glasses?",
+          "m": "Nói có hoặc không.",
+          "h": "Yes, I want... / No, thank you.",
+          "s": "Yes, I want 3D glasses."
+        },
+        {
+          "p": "Do you want a combo ticket with snack?",
+          "m": "Nói có hoặc không.",
+          "h": "Yes, I want... / No, thank you.",
+          "s": "No, thank you."
+        }
+      ]
+    },
+    {
+      "t": "Đặt phòng khách sạn",
+      "e": [
+        {
+          "p": "Do you want breakfast with your room?",
+          "m": "Nói có hoặc không.",
+          "h": "Yes, I want... / No, thank you.",
+          "s": "Yes, I want breakfast."
+        },
+        {
+          "p": "Would you like a view room?",
+          "m": "Nói có hoặc không.",
+          "h": "Yes, I want... / No, thank you.",
+          "s": "No, thank you."
+        },
+        {
+          "p": "Do you want an extra bed?",
+          "m": "Nói có hoặc không.",
+          "h": "Yes, I want... / No, thank you.",
+          "s": "No, thank you."
+        },
+        {
+          "p": "Would you like airport pick-up?",
+          "m": "Nói có hoặc không.",
+          "h": "Yes, I want... / No, thank you.",
+          "s": "Yes, I want airport pick-up."
+        },
+        {
+          "p": "Do you want late checkout?",
+          "m": "Nói có hoặc không.",
+          "h": "Yes, I want... / No, thank you.",
+          "s": "No, thank you."
+        }
+      ]
+    },
+    {
+      "t": "Dịch vụ sửa xe nhanh",
+      "e": [
+        {
+          "p": "Do you want a car wash today?",
+          "m": "Nói có hoặc không.",
+          "h": "Yes, I want... / No, thank you.",
+          "s": "Yes, I want a car wash."
+        },
+        {
+          "p": "Would you like oil change?",
+          "m": "Nói có hoặc không.",
+          "h": "Yes, I want... / No, thank you.",
+          "s": "No, thank you."
+        },
+        {
+          "p": "Do you want tire check?",
+          "m": "Nói có hoặc không.",
+          "h": "Yes, I want... / No, thank you.",
+          "s": "Yes, I want a tire check."
+        },
+        {
+          "p": "Would you like a drink while you wait?",
+          "m": "Nói có hoặc không.",
+          "h": "Yes, I want... / No, thank you.",
+          "s": "No, thank you."
+        },
+        {
+          "p": "Do you want a receipt by email?",
+          "m": "Nói có hoặc không.",
+          "h": "Yes, I want... / No, thank you.",
+          "s": "Yes, I want a receipt by email."
+        }
+      ]
+    },
+    {
+      "t": "Mua đồ chơi cho trẻ",
+      "e": [
+        {
+          "p": "Do you want batteries with the toy?",
+          "m": "Nói có hoặc không.",
+          "h": "Yes, I want... / No, thank you.",
+          "s": "Yes, I want batteries."
+        },
+        {
+          "p": "Would you like to add a gift bag?",
+          "m": "Nói có hoặc không.",
+          "h": "Yes, I want... / No, thank you.",
+          "s": "No, thank you."
+        },
+        {
+          "p": "Do you want a small toy or a big toy?",
+          "m": "Chọn small hoặc big.",
+          "h": "I want a small / I want a big.",
+          "s": "I want a small toy."
+        },
+        {
+          "p": "Would you like to buy a set with the toy?",
+          "m": "Nói có hoặc không.",
+          "h": "Yes, I want... / No, thank you.",
+          "s": "Yes, I want the set."
+        },
+        {
+          "p": "Do you want a card with the gift?",
+          "m": "Nói có hoặc không.",
+          "h": "Yes, I want... / No, thank you.",
+          "s": "No, thank you."
+        }
+      ]
+    },
+    {
+      "t": "Mua giày",
+      "e": [
+        {
+          "p": "Do you want shoe polish?",
+          "m": "Nói có hoặc không.",
+          "h": "Yes, I want... / No, thank you.",
+          "s": "Yes, I want shoe polish."
+        },
+        {
+          "p": "Would you like a shoe box wrap?",
+          "m": "Nói có hoặc không.",
+          "h": "Yes, I want... / No, thank you.",
+          "s": "No, thank you."
+        },
+        {
+          "p": "Do you want socks with the shoes?",
+          "m": "Nói có hoặc không.",
+          "h": "Yes, I want... / No, thank you.",
+          "s": "Yes, I want socks."
+        },
+        {
+          "p": "Would you like a larger size to try?",
+          "m": "Nói có hoặc không.",
+          "h": "Yes, I want... / No, thank you.",
+          "s": "Yes, I want a larger size."
+        },
+        {
+          "p": "Do you want a discount card?",
+          "m": "Nói có hoặc không.",
+          "h": "Yes, I want... / No, thank you.",
+          "s": "No, thank you."
+        }
+      ]
+    },
+    {
+      "t": "Tại tiệm bánh",
+      "e": [
+        {
+          "p": "Do you want a box for the cake?",
+          "m": "Nói có hoặc không.",
+          "h": "Yes, I want... / No, thank you.",
+          "s": "Yes, I want a box."
+        },
+        {
+          "p": "Would you like candles?",
+          "m": "Nói có hoặc không.",
+          "h": "Yes, I want... / No, thank you.",
+          "s": "No, thank you."
+        },
+        {
+          "p": "Do you want a slice or whole cake?",
+          "m": "Chọn slice hoặc whole.",
+          "h": "I want a slice / I want a whole cake.",
+          "s": "I want a slice."
+        },
+        {
+          "p": "Would you like a napkin pack?",
+          "m": "Nói có hoặc không.",
+          "h": "Yes, I want... / No, thank you.",
+          "s": "Yes, I want a napkin pack."
+        },
+        {
+          "p": "Do you want a drink with the cake?",
+          "m": "Nói có hoặc không.",
+          "h": "Yes, I want... / No, thank you.",
+          "s": "No, thank you."
+        }
+      ]
+    },
+    {
+      "t": "Tư vấn dịch vụ gia hạn",
+      "e": [
+        {
+          "p": "Do you want to extend your warranty?",
+          "m": "Nói có hoặc không.",
+          "h": "Yes, I want... / No, thank you.",
+          "s": "Yes, I want to extend warranty."
+        },
+        {
+          "p": "Would you like home service?",
+          "m": "Nói có hoặc không.",
+          "h": "Yes, I want... / No, thank you.",
+          "s": "No, thank you."
+        },
+        {
+          "p": "Do you want a partner plan with your product?",
+          "m": "Nói có hoặc không.",
+          "h": "Yes, I want... / No, thank you.",
+          "s": "No, thank you."
+        },
+        {
+          "p": "Would you like a yearly plan?",
+          "m": "Nói có hoặc không.",
+          "h": "Yes, I want... / No, thank you.",
+          "s": "Yes, I want a yearly plan."
+        },
+        {
+          "p": "Do you want notification by phone?",
+          "m": "Nói có hoặc không.",
+          "h": "Yes, I want... / No, thank you.",
+          "s": "Yes, I want phone notifications."
+        }
+      ]
+    },
+    {
+      "t": "Ôn tập: Chào bán thêm tại cửa hàng",
+      "e": [
+        {
+          "p": "Do you want a bag with your items?",
+          "m": "Nói có hoặc không.",
+          "h": "Yes, I want... / No, thank you.",
+          "s": "Yes, I want a bag."
+        },
+        {
+          "p": "Would you like to add batteries to this toy?",
+          "m": "Nói có hoặc không.",
+          "h": "Yes, I want... / No, thank you.",
+          "s": "No, thank you."
+        },
+        {
+          "p": "Do you want a box for the cake and a napkin pack?",
+          "m": "Nói có hoặc không cho cả hai (one idea: có hoặc không cả gói).",
+          "h": "Yes, I want both / No, thank you.",
+          "s": "Yes, I want both."
+        },
+        {
+          "p": "Would you like a drink with your meal and a dessert?",
+          "m": "Nói có hoặc không cho cả hai (one idea: có hoặc không cả gói).",
+          "h": "Yes, I want both / No, thank you.",
+          "s": "No, thank you."
+        },
+        {
+          "p": "Do you want a phone case and screen protector?",
+          "m": "Nói có hoặc không cho cả hai (one idea: có hoặc không cả gói).",
+          "h": "Yes, I want both / No, thank you.",
+          "s": "Yes, I want both."
+        }
+      ]
+    },
+    {
+      "t": "Ôn tập: Gợi ý dịch vụ thêm khi đặt hàng",
+      "e": [
+        {
+          "p": "Do you want breakfast with your room and airport pick-up?",
+          "m": "Nói có hoặc không cho cả hai (một ý).",
+          "h": "Yes, I want both / No, thank you.",
+          "s": "No, thank you."
+        },
+        {
+          "p": "Would you like a combo ticket with snack and drink?",
+          "m": "Nói có hoặc không (một ý).",
+          "h": "Yes, I want the combo / No, thank you.",
+          "s": "Yes, I want the combo."
+        },
+        {
+          "p": "Do you want oil change and tire check today?",
+          "m": "Nói có hoặc không cho cả hai (một ý).",
+          "h": "Yes, I want both / No, thank you.",
+          "s": "Yes, I want both."
+        },
+        {
+          "p": "Would you like gift wrap and a card for the book?",
+          "m": "Nói có hoặc không cho cả hai (một ý).",
+          "h": "Yes, I want both / No, thank you.",
+          "s": "No, thank you."
+        },
+        {
+          "p": "Do you want a larger fries and a drink?",
+          "m": "Nói có hoặc không cho cả hai (một ý).",
+          "h": "Yes, I want both / No, thank you.",
+          "s": "Yes, I want both."
+        }
+      ]
+    },
+    {
+      "t": "Ôn tập: Giải quyết phản hồi khách hàng",
+      "e": [
+        {
+          "p": "Do you want a refund or an exchange?",
+          "m": "Chọn refund hoặc exchange (một ý).",
+          "h": "I want a refund / I want an exchange.",
+          "s": "I want an exchange."
+        },
+        {
+          "p": "Would you like a new product or a discount?",
+          "m": "Chọn new product hoặc discount (một ý).",
+          "h": "I want a new product / I want a discount.",
+          "s": "I want a discount."
+        },
+        {
+          "p": "Do you want us to call you or send an email?",
+          "m": "Chọn call hoặc email (một ý).",
+          "h": "Call me / Email me.",
+          "s": "Call me, please."
+        },
+        {
+          "p": "Would you like a free service next time?",
+          "m": "Nói có hoặc không.",
+          "h": "Yes, I want... / No, thank you.",
+          "s": "Yes, I want a free service next time."
+        },
+        {
+          "p": "Do you want us to fix it now or later?",
+          "m": "Chọn now hoặc later (một ý).",
+          "h": "Now / Later.",
+          "s": "Fix it now."
+        }
+      ]
+    }
+  ]
+}

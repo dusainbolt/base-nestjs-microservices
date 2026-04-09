@@ -1,0 +1,530 @@
+{
+  "l": 2,
+  "d": [
+    {
+      "t": "Yêu cầu dọn phòng",
+      "e": [
+        {
+          "p": "Can you clean my room, please?",
+          "m": "Nói bạn có cần dọn phòng hay không. Nói khi bạn cần (ví dụ: now/tomorrow morning).",
+          "h": "Use 'I need / I want + my room + past participle' and time (now/tomorrow).",
+          "s": "I need my room cleaned now. Please come this morning."
+        },
+        {
+          "p": "Do you want housekeeping today?",
+          "m": "Trả lời có hoặc không. Nói giờ bạn muốn dọn (ví dụ: at 3 pm).",
+          "h": "Start with 'Yes, please' or 'No, thank you.' Then 'I want + housekeeping + at + time.'",
+          "s": "Yes, please. I want housekeeping at 3 pm."
+        },
+        {
+          "p": "How often do you want cleaning?",
+          "m": "Nói tần suất (always/often/sometimes). Nói lý do ngắn (ví dụ: room is messy / I am busy).",
+          "h": "Use an adverb of frequency and a short reason ('because' optional).",
+          "s": "I usually want cleaning every day. I am busy."
+        },
+        {
+          "p": "The cleaner will come in 10 minutes. Is that OK?",
+          "m": "Chấp nhận hoặc từ chối việc này. Nếu từ chối, đề nghị thời gian khác.",
+          "h": "Use 'Yes/No' + short time proposal (in an hour, later).",
+          "s": "No, not now. Please come in an hour."
+        },
+        {
+          "p": "We need your permission to enter your room.",
+          "m": "Cho biết bạn cho phép hay không. Nói lý do ngắn nếu không cho phép (ví dụ: sleeping).",
+          "h": "Use 'You can / You cannot enter' and a short reason.",
+          "s": "You can enter now. I am not in the room."
+        }
+      ]
+    },
+    {
+      "t": "Đổi ga trải giường",
+      "e": [
+        {
+          "p": "Can you change the bed sheets?",
+          "m": "Trả lời có hoặc không. Nói khi bạn muốn họ thay (now/tomorrow).",
+          "h": "Use 'Yes, please' or 'No, thank you' and 'I want you to + V'.",
+          "s": "Yes, please. I want you to change them now."
+        },
+        {
+          "p": "Are the sheets dirty?",
+          "m": "Trả lời có/không. Nói lý do ngắn nếu bẩn (ví dụ: I spilled coffee).",
+          "h": "Use 'Yes, they are' or 'No, they are not' and short reason.",
+          "s": "Yes, they are dirty. I spilled coffee."
+        },
+        {
+          "p": "Do you want fresh sheets every day?",
+          "m": "Nói tần suất bạn muốn (every day/sometimes). Nói lý do ngắn.",
+          "h": "Use 'I usually / I want' + frequency and short reason.",
+          "s": "I usually want clean sheets every two days. My bed gets dirty."
+        },
+        {
+          "p": "We can change sheets now or after lunch. Which do you prefer?",
+          "m": "Chọn now hoặc after lunch. Nói lý do ngắn cho lựa chọn.",
+          "h": "Use 'Please change now' or 'Please change after lunch' and a reason.",
+          "s": "Please change them after lunch. I will go out now."
+        },
+        {
+          "p": "We ran out of extra sheets. Can you wait until tomorrow?",
+          "m": "Cho biết bạn có thể chờ không. Nói khi bạn muốn nếu chờ (tomorrow morning).",
+          "h": "Use 'Yes, I can wait' or 'No, I cannot wait' and a time.",
+          "s": "No, I cannot wait. I want them tomorrow morning."
+        }
+      ]
+    },
+    {
+      "t": "Thiết bị tắm hỏng",
+      "e": [
+        {
+          "p": "The shower is not working. Do you want maintenance?",
+          "m": "Nói có/không bạn muốn sửa. Nói lúc bạn có thể để họ vào phòng.",
+          "h": "Use 'Yes/No' and 'I can / I cannot' + time.",
+          "s": "Yes, please fix it. I can be in the room at 2 pm."
+        },
+        {
+          "p": "Is the tap leaking?",
+          "m": "Trả lời có/không. Mô tả ngắn chỗ rò (sink/shower).",
+          "h": "Use 'Yes, it is' or 'No, it is not' and location 'in the sink'.",
+          "s": "Yes, it is leaking. The tap is in the bathroom sink."
+        },
+        {
+          "p": "Do you need hot water now?",
+          "m": "Nói bạn cần nước nóng hay không. Nói bạn có sử dụng bồn tắm hay vòi sen.",
+          "h": "Use 'I need / I don't need' and 'I will use the shower / bath.'",
+          "s": "I need hot water now. I will use the shower."
+        },
+        {
+          "p": "We can send a technician today. Is this okay?",
+          "m": "Cho biết có đồng ý hay không. Nếu không, đề nghị thời gian khác.",
+          "h": "Use 'Yes, that's OK' or 'No, please' + time suggestion.",
+          "s": "No, that's not OK. Please send him tomorrow morning."
+        },
+        {
+          "p": "The bathroom light is out. Do you want a lamp?",
+          "m": "Nói có muốn đèn tạm hay không. Nói vị trí bạn cần đèn (near the sink/bed).",
+          "h": "Use 'Yes/No' and 'near the sink / by the bed'.",
+          "s": "Yes, I want a lamp. Please put it near the sink."
+        }
+      ]
+    },
+    {
+      "t": "Không có khăn tắm",
+      "e": [
+        {
+          "p": "We are missing towels in your room. Do you need new ones?",
+          "m": "Trả lời bạn có cần khăn mới không. Nói số khăn bạn cần.",
+          "h": "Use 'Yes, I need' or 'No, I do not need' and a number.",
+          "s": "Yes, I need two towels. One for shower and one for hands."
+        },
+        {
+          "p": "Do you want bath towels or hand towels?",
+          "m": "Chọn loại khăn bạn muốn. Nói số lượng ngắn.",
+          "h": "Use 'I want + bath towels / hand towels' and number.",
+          "s": "I want two bath towels. I also want one hand towel."
+        },
+        {
+          "p": "We can bring towels now or in 30 minutes. What do you prefer?",
+          "m": "Chọn now hoặc in 30 minutes. Nói lý do nếu cần (ví dụ: I am showering).",
+          "h": "Use 'Please bring now' or 'Please bring in 30 minutes' and reason.",
+          "s": "Please bring them now. I am showering soon."
+        },
+        {
+          "p": "Are you still missing a towel after housekeeping?",
+          "m": "Trả lời có/không. Nếu còn thiếu, nêu bạn cần bao nhiêu.",
+          "h": "Use 'Yes/No' and a number if yes.",
+          "s": "Yes, I am still missing one towel. I need one more towel."
+        },
+        {
+          "p": "Do you want extra clean towels every day?",
+          "m": "Nói tần suất bạn muốn (every day/sometimes). Nói một lý do ngắn.",
+          "h": "Use 'I usually want' or 'I want' + frequency and reason.",
+          "s": "I usually want extra towels every day. I like clean towels each morning."
+        }
+      ]
+    },
+    {
+      "t": "Điện và đèn trong phòng",
+      "e": [
+        {
+          "p": "The light in your room is flickering. Do you see it?",
+          "m": "Xác nhận có nhìn thấy không. Nói bạn có muốn sửa ngay không.",
+          "h": "Use 'Yes, I see it / No, I don't' and 'I want it fixed now.'",
+          "s": "Yes, I see it. I want it fixed now."
+        },
+        {
+          "p": "Is the power outlet working in your room?",
+          "m": "Trả lời có/không. Nói vị trí ổ (near bed/desk).",
+          "h": "Use 'Yes, it is' or 'No, it is not' and location.",
+          "s": "No, it is not working. The outlet is near the desk."
+        },
+        {
+          "p": "Do you want a fan or extra blanket tonight?",
+          "m": "Chọn fan hoặc blanket. Nói lý do (hot/cold).",
+          "h": "Use 'I want a fan / I want an extra blanket' and a reason.",
+          "s": "I want a fan tonight. The room is hot."
+        },
+        {
+          "p": "We can turn off the main power for a short time. Is it OK?",
+          "m": "Chấp nhận hoặc từ chối việc tắt điện. Nếu không, nói lý do ngắn.",
+          "h": "Use 'Yes, OK' or 'No, not OK' and a short reason.",
+          "s": "No, not OK. I am charging my phone."
+        },
+        {
+          "p": "The lamp bulb is broken. Do you want a new bulb now?",
+          "m": "Nói có muốn thay ngay hay muốn chờ. Nếu chờ, nói khi nào.",
+          "h": "Use 'Yes, please' or 'No, thank you' and time.",
+          "s": "Yes, please replace it now. I need light to read."
+        }
+      ]
+    },
+    {
+      "t": "Nhiệt độ phòng",
+      "e": [
+        {
+          "p": "Is the air conditioning working?",
+          "m": "Trả lời có/không. Nói bạn có muốn bật/tắt không.",
+          "h": "Use 'Yes/No' and 'Please turn it on/off'.",
+          "s": "No, it is not working. Please turn it on now."
+        },
+        {
+          "p": "The room is too cold. Do you want a heater?",
+          "m": "Nói có/không bạn muốn heater. Nói mức ấm bạn cần (a little/more).",
+          "h": "Use 'Yes, I want' and 'a little / more warm'.",
+          "s": "Yes, I want a heater. I need it a little warmer."
+        },
+        {
+          "p": "Do you like the temperature now?",
+          "m": "Trả lời thích hay không. Nếu không, nói bạn muốn nóng hoặc lạnh hơn.",
+          "h": "Use 'Yes, I like it' or 'No, I want it warmer/colder.'",
+          "s": "No, I do not like it. I want it warmer."
+        },
+        {
+          "p": "We can set the AC to 24°C. Is that good?",
+          "m": "Chấp nhận hoặc đề nghị nhiệt độ khác. Nói số nếu thay đổi.",
+          "h": "Use 'Yes, that's good' or 'No, set to + number°C'.",
+          "s": "No, please set it to 26°C. That is better."
+        },
+        {
+          "p": "Would you like the window open for fresh air?",
+          "m": "Nói có muốn mở cửa sổ không. Nếu có, nói bạn sẽ đóng khi nào.",
+          "h": "Use 'Yes/No' and 'I will close it at + time' or 'after a while'.",
+          "s": "Yes, open the window. I will close it in one hour."
+        }
+      ]
+    },
+    {
+      "t": "Thiếu đồ dùng trong phòng",
+      "e": [
+        {
+          "p": "Are you missing any items in your room?",
+          "m": "Nói có thiếu đồ hay không. Nếu có, liệt kê một món chính bạn thiếu.",
+          "h": "Use 'Yes, I am missing' and name one item (towel, remote, soap).",
+          "s": "Yes, I am missing the TV remote. Please bring it."
+        },
+        {
+          "p": "Do you need a hair dryer?",
+          "m": "Trả lời có/không. Nếu có, nói bạn cần nó ngay hay sau.",
+          "h": "Use 'Yes, I need' or 'No, I don't need' and time.",
+          "s": "Yes, I need a hair dryer now. Please bring it to my room."
+        },
+        {
+          "p": "We can give you a toothbrush kit. Do you want one?",
+          "m": "Chọn có/không. Nói bạn cần kit for one person or more.",
+          "h": "Use 'I want' or 'I don't want' and number (one/two).",
+          "s": "Yes, I want one toothbrush kit. It is for me."
+        },
+        {
+          "p": "Is there no soap in the bathroom?",
+          "m": "Xác nhận có hay không. Nếu không có, nói bạn muốn loại soap (liquid/ bar).",
+          "h": "Use 'Yes, there is no' or 'No, there is' and soap type.",
+          "s": "Yes, there is no soap. I want liquid soap."
+        },
+        {
+          "p": "Do you want extra hangers in the closet?",
+          "m": "Nói có/không. Nói số lượng bạn cần ngắn gọn.",
+          "h": "Use 'Yes, I want' or 'No, thank you' and a number.",
+          "s": "Yes, I want three extra hangers. Thank you."
+        }
+      ]
+    },
+    {
+      "t": "Giờ dọn phòng",
+      "e": [
+        {
+          "p": "When do you prefer housekeeping to come?",
+          "m": "Nói lúc bạn thích (morning/afternoon). Nói vì sao chọn giờ đó (ví dụ: I am out).",
+          "h": "Use 'I prefer' + time and a short reason.",
+          "s": "I prefer afternoon. I am out in the morning."
+        },
+        {
+          "p": "Can housekeeping come every morning?",
+          "m": "Trả lời có/không. Nói bạn muốn mỗi ngày hay chỉ some days.",
+          "h": "Use 'Yes, please, every day' or 'No, only on + days'.",
+          "s": "No, please only on weekdays. I do not need it on weekends."
+        },
+        {
+          "p": "We will clean at 10 am. Is that good for you?",
+          "m": "Chấp nhận hoặc từ chối. Nếu từ chối, đề nghị giờ khác.",
+          "h": "Use 'Yes, good' or 'No, please' + other time.",
+          "s": "No, please come at 2 pm. I have a meeting at 10 am."
+        },
+        {
+          "p": "Do you want privacy sign on the door during cleaning?",
+          "m": "Nói có muốn hay không. Nói lý do ngắn nếu bạn muốn (ví dụ: sleep).",
+          "h": "Use 'Yes, please' or 'No, thank you' and a reason.",
+          "s": "Yes, please put the privacy sign. I like to sleep late."
+        },
+        {
+          "p": "Would you like us to clean when you leave the room?",
+          "m": "Nói có muốn dọn khi bạn ra ngoài không. Nói bạn thường ra ngoài vào giờ nào.",
+          "h": "Use 'Yes, please' or 'No' and a usual time.",
+          "s": "Yes, please clean when I leave. I usually leave at 9 am."
+        }
+      ]
+    },
+    {
+      "t": "Tiếng ồn trong phòng",
+      "e": [
+        {
+          "p": "There is noise from the next room. Do you hear it?",
+          "m": "Xác nhận bạn có nghe tiếng không. Nói tiếng ồn làm bạn khó chịu hay không.",
+          "h": "Use 'Yes, I hear it' or 'No' and 'It is bothering me' or not.",
+          "s": "Yes, I hear it. It is bothering me."
+        },
+        {
+          "p": "Do you want us to call reception about the noise?",
+          "m": "Nói có/không bạn muốn họ gọi. Nói bạn muốn họ làm gì ngắn (ask to be quiet).",
+          "h": "Use 'Yes, please call' or 'No, I will' and action.",
+          "s": "Yes, please call reception. Ask them to be quiet."
+        },
+        {
+          "p": "Is the noise loud at night or day?",
+          "m": "Nói time (night/day). Nói một ví dụ ngắn khi bạn nghe (at 11 pm).",
+          "h": "Use 'It is loud at night/day' and a short time.",
+          "s": "It is loud at night. I hear it at 11 pm."
+        },
+        {
+          "p": "We can move you to a quiet room. Do you want to move?",
+          "m": "Trả lời có/không bạn muốn chuyển. Nếu có, nói khi bạn muốn chuyển (now/tomorrow).",
+          "h": "Use 'Yes, I want to move' or 'No, I will stay' and time.",
+          "s": "Yes, I want to move now. Please help me with my bags."
+        },
+        {
+          "p": "Would you like earplugs for sleeping?",
+          "m": "Chọn có/không và nếu có, nói bạn cần 1 hay 2 cặp.",
+          "h": "Use 'Yes, I want' or 'No, thank you' and number.",
+          "s": "Yes, I want one pair of earplugs. I sleep lightly."
+        }
+      ]
+    },
+    {
+      "t": "Yêu cầu thêm gối và mền",
+      "e": [
+        {
+          "p": "Do you need an extra pillow?",
+          "m": "Trả lời có/không. Nếu có, nói bạn muốn 1 hay 2 cái.",
+          "h": "Use 'Yes, I need' or 'No, thank you' and a number.",
+          "s": "Yes, I need one extra pillow. Thank you."
+        },
+        {
+          "p": "Is the blanket enough for you?",
+          "m": "Trả lời đủ hay không. Nếu không, nói bạn muốn thêm mền hay chăn dày hơn.",
+          "h": "Use 'Yes, it is enough' or 'No, I want' + item.",
+          "s": "No, it is not enough. I want a thicker blanket."
+        },
+        {
+          "p": "We can bring pillows now or later. When do you want them?",
+          "m": "Chọn now hoặc later. Nói lý do ngắn nếu chọn later.",
+          "h": "Use 'Please bring now' or 'Please bring later' and reason.",
+          "s": "Please bring them now. I will sleep soon."
+        },
+        {
+          "p": "Do you prefer soft or firm pillow?",
+          "m": "Chọn soft hoặc firm. Nói một lý do ngắn cho sở thích.",
+          "h": "Use 'I prefer soft/firm' and short reason (sleep comfort).",
+          "s": "I prefer a soft pillow. It is more comfortable for me."
+        },
+        {
+          "p": "Would you like an extra blanket every night?",
+          "m": "Nói tần suất bạn muốn (every night/sometimes). Nói lý do ngắn.",
+          "h": "Use 'I usually want' or 'I want' + frequency and reason.",
+          "s": "I usually want an extra blanket every night. The room is cold."
+        }
+      ]
+    },
+    {
+      "t": "Vấn đề với cửa và cửa sổ",
+      "e": [
+        {
+          "p": "The door does not close well. Do you notice that?",
+          "m": "Xác nhận bạn có thấy không. Nói bạn có muốn sửa ngay không.",
+          "h": "Use 'Yes, I notice' or 'No' and 'Please fix it now.'",
+          "s": "Yes, I notice it. Please fix it now."
+        },
+        {
+          "p": "Is the window stuck when you open it?",
+          "m": "Trả lời có/không. Nếu có, mô tả ngắn (it is hard to move).",
+          "h": "Use 'Yes, it is' or 'No, it is not' and short description.",
+          "s": "Yes, it is stuck. It is hard to move."
+        },
+        {
+          "p": "Do you want the lock checked now?",
+          "m": "Nói có/không bạn muốn kiểm tra. Nói bạn có ở trong phòng hay ra ngoài.",
+          "h": "Use 'Yes, check it now' or 'No, check it later' and location.",
+          "s": "Yes, check it now. I am in the room."
+        },
+        {
+          "p": "We can close the balcony for safety. Do you agree?",
+          "m": "Cho biết đồng ý hay không. Nói lý do ngắn nếu không đồng ý.",
+          "h": "Use 'Yes, I agree' or 'No, I don't agree' and reason.",
+          "s": "Yes, I agree. The balcony is dangerous for children."
+        },
+        {
+          "p": "Would you like curtains replaced because of light?",
+          "m": "Cho biết có muốn thay curtain hay không. Nói bạn muốn darker or lighter curtains.",
+          "h": "Use 'I want' + 'darker / lighter curtains' and short reason.",
+          "s": "Yes, I want darker curtains. The room is too bright in the morning."
+        }
+      ]
+    },
+    {
+      "t": "Thanh toán và đồ bị mất",
+      "e": [
+        {
+          "p": "Did you pay for the minibar items?",
+          "m": "Trả lời có/không. Nếu không, nói bạn sẽ trả ngay hay later.",
+          "h": "Use 'Yes, I paid' or 'No, I will pay now/later.'",
+          "s": "No, I did not pay. I will pay now."
+        },
+        {
+          "p": "I cannot find my watch. Is it in your room?",
+          "m": "Trả lời có/không. Nếu có, nêu vị trí ngắn gọn (on the bed/desk).",
+          "h": "Use 'Yes, it is' or 'No, it is not' and location.",
+          "s": "No, it is not here. I checked on the desk."
+        },
+        {
+          "p": "We found a small bag. Is it yours?",
+          "m": "Trả lời có/không. Nếu là của bạn, mô tả ngắn màu hoặc vị trí nó nằm.",
+          "h": "Use 'Yes, it is mine' or 'No, it is not' and a short description.",
+          "s": "Yes, it is mine. It is a small black bag."
+        },
+        {
+          "p": "Do you want us to check lost and found?",
+          "m": "Nói có/không bạn muốn họ kiểm tra. Nếu có, nói bạn muốn họ gọi bạn khi tìm được.",
+          "h": "Use 'Yes, please check' and 'call me' or 'no, thank you.'",
+          "s": "Yes, please check lost and found. Call me if you find it."
+        },
+        {
+          "p": "Would you like a receipt for your room charge?",
+          "m": "Chọn có/không. Nếu có, nói bạn muốn email hay giấy.",
+          "h": "Use 'Yes, I want' and 'by email / on paper.'",
+          "s": "Yes, I want a receipt by email. Please send it now."
+        }
+      ]
+    },
+    {
+      "t": "Ôn tập: Yêu cầu dọn và thay đồ",
+      "e": [
+        {
+          "p": "Can housekeeping clean my room and change the sheets now?",
+          "m": "Nói bạn có muốn cả dọn và thay ga không. Nói khi bạn muốn họ làm (now/tomorrow).",
+          "h": "Use 'I want / I need' + both actions and time.",
+          "s": "Yes, I want cleaning and sheet change now. Please come this morning."
+        },
+        {
+          "p": "Do you want fresh towels and new pillows today?",
+          "m": "Trả lời có/không. Nói số khăn và gối bạn cần.",
+          "h": "Use 'Yes, I want' or 'No' and numbers for items.",
+          "s": "Yes, I want two towels and one pillow. Thank you."
+        },
+        {
+          "p": "We will clean at 11 am. Is that OK for sheet change too?",
+          "m": "Chấp nhận hoặc từ chối. Nếu từ chối, đề nghị giờ khác.",
+          "h": "Use 'Yes, OK' or 'No, please' + other time.",
+          "s": "No, please come at 2 pm. I will be out at 11 am."
+        },
+        {
+          "p": "Are your sheets stained or just a little dirty?",
+          "m": "Nói sheets bị bẩn nặng hay nhẹ. Nói bạn muốn thay mỗi ngày hay không.",
+          "h": "Use 'They are stained / a little dirty' and frequency.",
+          "s": "They are a little dirty. I do not want them changed every day."
+        },
+        {
+          "p": "Would you like housekeeping to come while you are out?",
+          "m": "Chọn có/không. Nếu có, nói giờ bạn thường đi ra ngoài.",
+          "h": "Use 'Yes, please' or 'No' and a usual time.",
+          "s": "Yes, please come while I am out. I usually leave at 9 am."
+        }
+      ]
+    },
+    {
+      "t": "Ôn tập: Thiết bị hỏng và thiếu đồ",
+      "e": [
+        {
+          "p": "The shower has low water pressure. Do you want us to check?",
+          "m": "Nói có/không bạn muốn họ kiểm tra. Nói khi bạn có thể chờ họ (now/tomorrow).",
+          "h": "Use 'Yes, please check' or 'No, please' + time.",
+          "s": "Yes, please check it now. I am in the bathroom."
+        },
+        {
+          "p": "My lamp is broken and there is no spare bulb. Can you help?",
+          "m": "Nói bạn có muốn họ mang bóng đèn không. Nói bạn cần lighting for reading hay not.",
+          "h": "Use 'Yes, please bring' and reason (to read).",
+          "s": "Yes, please bring a new bulb. I need light to read."
+        },
+        {
+          "p": "We do not have a hair dryer in your room. Do you want one now?",
+          "m": "Trả lời có/không. Nếu có, nói bạn cần ngay hay sau.",
+          "h": "Use 'Yes, I need it now' or 'No, later' and time.",
+          "s": "Yes, I need a hair dryer now. Please bring it."
+        },
+        {
+          "p": "Is the TV remote missing from your room?",
+          "m": "Trả lời có/không. Nếu có, nêu bạn muốn chúng tìm ngay hay bạn tự tìm.",
+          "h": "Use 'Yes, it is missing' and 'please find it' or 'I will look'.",
+          "s": "Yes, it is missing. Please check in lost and found."
+        },
+        {
+          "p": "Would you like replacement towels and a new soap now?",
+          "m": "Cho biết có muốn thay toàn bộ hay chỉ một món. Nói bạn cần bao nhiêu khăn.",
+          "h": "Use 'I want replacement towels' and a number or 'only soap'.",
+          "s": "I want replacement towels now. Please bring two towels and new soap."
+        }
+      ]
+    },
+    {
+      "t": "Ôn tập: Các vấn đề chung trong phòng",
+      "e": [
+        {
+          "p": "I hear a strange smell in the room. Do you smell it too?",
+          "m": "Xác nhận bạn có ngửi thấy không. Nói bạn muốn họ xử lý ngay hay later.",
+          "h": "Use 'Yes, I smell it' or 'No' and 'please handle now/later'.",
+          "s": "Yes, I smell it. Please handle it now."
+        },
+        {
+          "p": "The room is messy after the last guest. Do you want a full clean?",
+          "m": "Trả lời có/không. Nói bạn muốn họ dọn kỹ (full clean) bây giờ hay ngày mai.",
+          "h": "Use 'Yes, I want a full clean' and time.",
+          "s": "Yes, I want a full clean now. Please clean the floor and bed."
+        },
+        {
+          "p": "There is no hot water and no towels. Which do you want us to fix first?",
+          "m": "Chọn ưu tiên (hot water hoặc towels). Nói lý do ngắn.",
+          "h": "Use 'Fix hot water first' or 'Fix towels first' and reason.",
+          "s": "Fix hot water first. I need a shower."
+        },
+        {
+          "p": "We can move your booking to another room or give a discount. Which do you prefer?",
+          "m": "Chọn move or discount. Nói lý do ngắn cho lựa chọn.",
+          "h": "Use 'I prefer to move' or 'I prefer a discount' and a reason.",
+          "s": "I prefer to move to a quiet room. I cannot sleep here."
+        },
+        {
+          "p": "If we fix small issues now, would you like daily checks?",
+          "m": "Trả lời có/không bạn muốn kiểm tra hàng ngày. Nói một lý do ngắn.",
+          "h": "Use 'Yes, I want daily checks' or 'No, thank you' and reason.",
+          "s": "Yes, I want daily checks. I want everything to work well."
+        }
+      ]
+    }
+  ]
+}

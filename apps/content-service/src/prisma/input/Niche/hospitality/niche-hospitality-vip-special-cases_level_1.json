@@ -1,0 +1,530 @@
+{
+  "l": 1,
+  "d": [
+    {
+      "t": "Đón tiếp khách VIP",
+      "e": [
+        {
+          "p": "Welcome. Who are you?",
+          "m": "Nói tên của bạn.",
+          "h": "I + be + name",
+          "s": "I am [studentName]."
+        },
+        {
+          "p": "Are you a VIP guest today?",
+          "m": "Trả lời có hoặc không.",
+          "h": "Yes, I am. / No, I am not.",
+          "s": "Yes, I am."
+        },
+        {
+          "p": "Which room do you want?",
+          "m": "Nói số phòng bạn muốn.",
+          "h": "I want + room + number",
+          "s": "I want room 101."
+        },
+        {
+          "p": "Do you need help with your luggage?",
+          "m": "Nói nếu bạn cần giúp mang hành lý.",
+          "h": "Use 'Yes, please.' or 'No, thank you.'",
+          "s": "Yes, please."
+        },
+        {
+          "p": "Do you prefer a quiet room or a view?",
+          "m": "Nói bạn thích phòng yên tĩnh hoặc phòng có view.",
+          "h": "I prefer + a/an + noun",
+          "s": "I prefer a quiet room."
+        }
+      ]
+    },
+    {
+      "t": "Xác nhận đặt phòng VIP",
+      "e": [
+        {
+          "p": "Do you have a reservation?",
+          "m": "Trả lời có hoặc không.",
+          "h": "Yes, I have. / No, I do not.",
+          "s": "Yes, I have."
+        },
+        {
+          "p": "What is your arrival date?",
+          "m": "Nói ngày bạn đến (ví dụ: today, tomorrow).",
+          "h": "Use 'I arrive + today/tomorrow' or 'on + day'",
+          "s": "I arrive today."
+        },
+        {
+          "p": "How many nights do you stay?",
+          "m": "Nói số đêm bạn ở.",
+          "h": "I stay + number + nights",
+          "s": "I stay two nights."
+        },
+        {
+          "p": "Do you want a king bed?",
+          "m": "Nói nếu bạn muốn giường king.",
+          "h": "I want / I do not want",
+          "s": "I want a king bed."
+        },
+        {
+          "p": "Will you pay now or later?",
+          "m": "Nói bạn trả tiền bây giờ hay sau.",
+          "h": "I will pay now. / I will pay later.",
+          "s": "I will pay now."
+        }
+      ]
+    },
+    {
+      "t": "Hướng dẫn VIP đến phòng",
+      "e": [
+        {
+          "p": "The elevator is here.",
+          "m": "Nói bạn đi lên bằng thang máy.",
+          "h": "I + go + by + elevator",
+          "s": "I go by the elevator."
+        },
+        {
+          "p": "Which floor is your room?",
+          "m": "Nói tầng phòng bạn.",
+          "h": "My room is on + floor",
+          "s": "My room is on the third floor."
+        },
+        {
+          "p": "Do you want me to show the way?",
+          "m": "Nói bạn có muốn người hướng dẫn đi cùng không.",
+          "h": "Yes, please. / No, thank you.",
+          "s": "Yes, please."
+        },
+        {
+          "p": "Here is your key card.",
+          "m": "Nói bạn nhận thẻ chìa khóa.",
+          "h": "I + take + the + key card",
+          "s": "I take the key card."
+        },
+        {
+          "p": "Is your room OK now?",
+          "m": "Nói nếu phòng ổn ngay bây giờ.",
+          "h": "It is + adj / It is OK",
+          "s": "It is OK now."
+        }
+      ]
+    },
+    {
+      "t": "Giải quyết yêu cầu đặc biệt",
+      "e": [
+        {
+          "p": "Do you need an extra bed?",
+          "m": "Nói nếu bạn cần giường thêm.",
+          "h": "I need / I do not need",
+          "s": "I need an extra bed."
+        },
+        {
+          "p": "Do you want flowers in the room?",
+          "m": "Nói bạn có muốn hoa trong phòng không.",
+          "h": "Yes, please. / No, thank you.",
+          "s": "Yes, please."
+        },
+        {
+          "p": "Can we do early check-in?",
+          "m": "Trả lời nếu bạn muốn check-in sớm.",
+          "h": "I want + early check-in / I do not",
+          "s": "I want early check-in."
+        },
+        {
+          "p": "Do you need late check-out?",
+          "m": "Nói nếu bạn cần trả phòng muộn.",
+          "h": "I need + late check-out",
+          "s": "I need late check-out."
+        },
+        {
+          "p": "Do you want a quiet floor?",
+          "m": "Nói nếu bạn muốn tầng yên tĩnh.",
+          "h": "I prefer + a quiet floor",
+          "s": "I prefer a quiet floor."
+        }
+      ]
+    },
+    {
+      "t": "Ăn uống cho khách VIP",
+      "e": [
+        {
+          "p": "Do you want breakfast now?",
+          "m": "Nói nếu bạn muốn ăn sáng bây giờ.",
+          "h": "Yes, please. / No, thank you.",
+          "s": "Yes, please."
+        },
+        {
+          "p": "Are you vegetarian?",
+          "m": "Trả lời có hoặc không.",
+          "h": "Yes, I am. / No, I am not.",
+          "s": "No, I am not."
+        },
+        {
+          "p": "Do you have a food allergy?",
+          "m": "Nói nếu bạn có dị ứng thực phẩm.",
+          "h": "I have + an allergy / I do not",
+          "s": "I do not have an allergy."
+        },
+        {
+          "p": "Do you want room service?",
+          "m": "Nói nếu bạn muốn dịch vụ phòng.",
+          "h": "I want / I do not want",
+          "s": "I want room service."
+        },
+        {
+          "p": "Do you want tea or coffee?",
+          "m": "Chọn trà hoặc cà phê.",
+          "h": "I want + tea / coffee",
+          "s": "I want coffee."
+        }
+      ]
+    },
+    {
+      "t": "Khách VIP gặp vấn đề sức khỏe nhẹ",
+      "e": [
+        {
+          "p": "Are you OK?",
+          "m": "Nói nếu bạn ổn hay không.",
+          "h": "I am OK. / I am not OK.",
+          "s": "I am not OK."
+        },
+        {
+          "p": "Do you need water?",
+          "m": "Nói nếu bạn cần nước.",
+          "h": "Yes, please. / No, thank you.",
+          "s": "Yes, please."
+        },
+        {
+          "p": "Do you want a doctor?",
+          "m": "Nói nếu bạn muốn bác sĩ.",
+          "h": "I want / I do not want",
+          "s": "I want a doctor."
+        },
+        {
+          "p": "Do you need to rest now?",
+          "m": "Nói nếu bạn cần nghỉ ngay bây giờ.",
+          "h": "I need + to rest / I do not",
+          "s": "I need to rest now."
+        },
+        {
+          "p": "Can we call someone for you?",
+          "m": "Nói nếu bạn muốn gọi người thân hoặc đồng nghiệp.",
+          "h": "Yes, call + person / No, do not",
+          "s": "Yes, call my friend."
+        }
+      ]
+    },
+    {
+      "t": "Quản lý thời gian cho khách VIP",
+      "e": [
+        {
+          "p": "What time is your meeting?",
+          "m": "Nói giờ cuộc họp của bạn.",
+          "h": "My meeting is at + time",
+          "s": "My meeting is at 10 am."
+        },
+        {
+          "p": "Do you want a wake-up call?",
+          "m": "Nói nếu bạn muốn gọi thức dậy.",
+          "h": "Yes, please. / No, thank you.",
+          "s": "Yes, please."
+        },
+        {
+          "p": "Do you need a car at 9?",
+          "m": "Trả lời nếu bạn cần xe lúc 9 giờ.",
+          "h": "I need / I do not need",
+          "s": "I need a car at 9."
+        },
+        {
+          "p": "What time do you check out?",
+          "m": "Nói giờ bạn trả phòng.",
+          "h": "I check out at + time",
+          "s": "I check out at 12 pm."
+        },
+        {
+          "p": "Do you want a reminder for your meeting?",
+          "m": "Nói nếu bạn muốn nhắc về cuộc họp.",
+          "h": "Yes, please. / No, thank you.",
+          "s": "Yes, please."
+        }
+      ]
+    },
+    {
+      "t": "Khách VIP và trẻ em",
+      "e": [
+        {
+          "p": "Do you have a child with you?",
+          "m": "Trả lời có hoặc không.",
+          "h": "Yes, I do. / No, I do not.",
+          "s": "Yes, I do."
+        },
+        {
+          "p": "Do you need a baby crib?",
+          "m": "Nói nếu bạn cần cũi cho bé.",
+          "h": "I need / I do not need",
+          "s": "I need a baby crib."
+        },
+        {
+          "p": "Do you want a child meal?",
+          "m": "Nói nếu bạn muốn suất ăn cho trẻ.",
+          "h": "I want / I do not want",
+          "s": "I want a child meal."
+        },
+        {
+          "p": "Do you need a babysitter?",
+          "m": "Nói nếu bạn cần người trông trẻ.",
+          "h": "I need / I do not need",
+          "s": "I do not need a babysitter."
+        },
+        {
+          "p": "Is your child OK?",
+          "m": "Nói nếu con bạn ổn.",
+          "h": "He/She is OK. / He/She is not OK.",
+          "s": "He is OK."
+        }
+      ]
+    },
+    {
+      "t": "Khách VIP đến muộn",
+      "e": [
+        {
+          "p": "Are you late today?",
+          "m": "Trả lời có hoặc không.",
+          "h": "Yes, I am. / No, I am not.",
+          "s": "Yes, I am."
+        },
+        {
+          "p": "What time will you arrive?",
+          "m": "Nói giờ bạn đến.",
+          "h": "I arrive at + time",
+          "s": "I arrive at 11 pm."
+        },
+        {
+          "p": "Do you want us to hold your room?",
+          "m": "Nói nếu bạn muốn giữ phòng.",
+          "h": "Yes, please. / No, thank you.",
+          "s": "Yes, please."
+        },
+        {
+          "p": "Do you have a late fee?",
+          "m": "Trả lời nếu bạn có phí muộn (có/không).",
+          "h": "Yes, I have. / No, I do not.",
+          "s": "No, I do not."
+        },
+        {
+          "p": "Do you want help at arrival?",
+          "m": "Nói nếu bạn cần giúp khi đến.",
+          "h": "I need / I do not need",
+          "s": "I need help at arrival."
+        }
+      ]
+    },
+    {
+      "t": "Phản ánh và xin lỗi khách VIP",
+      "e": [
+        {
+          "p": "We are sorry for the noise.",
+          "m": "Nói bạn nhận lời xin lỗi (như 'đã nghe').",
+          "h": "I accept / I do not",
+          "s": "I accept your apology."
+        },
+        {
+          "p": "Do you want a room change?",
+          "m": "Nói nếu bạn muốn đổi phòng.",
+          "h": "I want / I do not want",
+          "s": "I want a room change."
+        },
+        {
+          "p": "Can we give you a small gift?",
+          "m": "Nói nếu bạn nhận quà.",
+          "h": "Yes, I accept. / No, thank you.",
+          "s": "Yes, I accept."
+        },
+        {
+          "p": "Do you want a refund?",
+          "m": "Nói nếu bạn muốn hoàn tiền.",
+          "h": "I want / I do not want",
+          "s": "I want a refund."
+        },
+        {
+          "p": "Is the problem OK now?",
+          "m": "Nói nếu vấn đề đã ổn.",
+          "h": "It is OK. / It is not OK.",
+          "s": "It is OK now."
+        }
+      ]
+    },
+    {
+      "t": "Vật phẩm bị mất của khách VIP",
+      "e": [
+        {
+          "p": "Did you lose an item?",
+          "m": "Trả lời có hoặc không.",
+          "h": "Yes, I did. / No, I did not.",
+          "s": "Yes, I did."
+        },
+        {
+          "p": "Where did you see it last?",
+          "m": "Nói nơi bạn thấy đồ lần cuối.",
+          "h": "I saw it in + place",
+          "s": "I saw it in the lobby."
+        },
+        {
+          "p": "Can you describe the item?",
+          "m": "Mô tả ngắn món đồ (màu, loại).",
+          "h": "It is a + color + noun",
+          "s": "It is a black wallet."
+        },
+        {
+          "p": "Do you want us to check the room?",
+          "m": "Nói nếu bạn muốn nhân viên kiểm tra phòng.",
+          "h": "Yes, please. / No, thank you.",
+          "s": "Yes, please."
+        },
+        {
+          "p": "Do you want a call if we find it?",
+          "m": "Nói nếu bạn muốn nhận cuộc gọi khi tìm thấy đồ.",
+          "h": "Yes, please. / No, thank you.",
+          "s": "Yes, please."
+        }
+      ]
+    },
+    {
+      "t": "Ngôn ngữ và dịch vụ cho khách VIP",
+      "e": [
+        {
+          "p": "Do you speak English?",
+          "m": "Trả lời nếu bạn nói tiếng Anh.",
+          "h": "Yes, I do. / No, I do not.",
+          "s": "Yes, I do."
+        },
+        {
+          "p": "Do you need a translator?",
+          "m": "Nói nếu bạn cần phiên dịch.",
+          "h": "I need / I do not need",
+          "s": "I need a translator."
+        },
+        {
+          "p": "Please speak slowly.",
+          "m": "Nói bạn muốn họ nói chậm.",
+          "h": "Use 'Please speak slowly.' or 'Speak slowly.'",
+          "s": "Please speak slowly."
+        },
+        {
+          "p": "Do you want a written note?",
+          "m": "Nói nếu bạn muốn ghi chú bằng giấy.",
+          "h": "I want / I do not want",
+          "s": "I want a written note."
+        },
+        {
+          "p": "Can we call your office?",
+          "m": "Nói nếu bạn muốn gọi văn phòng bạn.",
+          "h": "Yes, call / No, do not",
+          "s": "Yes, call my office."
+        }
+      ]
+    },
+    {
+      "t": "Ôn tập: Đón tiếp & Yêu cầu",
+      "e": [
+        {
+          "p": "Welcome. Are you a VIP guest?",
+          "m": "Trả lời nếu bạn là khách VIP.",
+          "h": "Yes, I am. / No, I am not.",
+          "s": "Yes, I am."
+        },
+        {
+          "p": "Which room do you want?",
+          "m": "Nói số phòng bạn muốn.",
+          "h": "I want room + number",
+          "s": "I want room 202."
+        },
+        {
+          "p": "Do you need help with luggage?",
+          "m": "Nói nếu bạn cần giúp hành lý.",
+          "h": "Yes, please. / No, thank you.",
+          "s": "No, thank you."
+        },
+        {
+          "p": "Do you prefer a quiet room or a view?",
+          "m": "Nói lựa chọn của bạn (yên tĩnh hoặc view).",
+          "h": "I prefer + a/an + noun",
+          "s": "I prefer a room with a view."
+        },
+        {
+          "p": "Do you want early check-in?",
+          "m": "Nói nếu bạn muốn check-in sớm.",
+          "h": "I want / I do not want",
+          "s": "I want early check-in."
+        }
+      ]
+    },
+    {
+      "t": "Ôn tập: Vấn đề & Giải pháp",
+      "e": [
+        {
+          "p": "We are sorry for the noise.",
+          "m": "Nói nếu bạn nhận lời xin lỗi.",
+          "h": "I accept / I do not",
+          "s": "I accept the apology."
+        },
+        {
+          "p": "Do you want a room change now?",
+          "m": "Trả lời nếu bạn muốn đổi phòng ngay.",
+          "h": "Yes, please. / No, thank you.",
+          "s": "Yes, please."
+        },
+        {
+          "p": "Did you lose something?",
+          "m": "Trả lời có hoặc không.",
+          "h": "Yes, I did. / No, I did not.",
+          "s": "No, I did not."
+        },
+        {
+          "p": "Can we give you a small gift?",
+          "m": "Nói nếu bạn nhận quà.",
+          "h": "Yes, I accept. / No, thank you.",
+          "s": "No, thank you."
+        },
+        {
+          "p": "Is the problem OK now?",
+          "m": "Nói nếu vấn đề đã được giải quyết.",
+          "h": "It is OK now. / It is not OK.",
+          "s": "It is OK now."
+        }
+      ]
+    },
+    {
+      "t": "Ôn tập: Dịch vụ & Trẻ em",
+      "e": [
+        {
+          "p": "Do you have a child with you?",
+          "m": "Trả lời có hoặc không.",
+          "h": "Yes, I do. / No, I do not.",
+          "s": "Yes, I do."
+        },
+        {
+          "p": "Do you need a baby crib?",
+          "m": "Nói nếu bạn cần cũi.",
+          "h": "I need / I do not need",
+          "s": "I need a baby crib."
+        },
+        {
+          "p": "Do you want a child meal now?",
+          "m": "Nói nếu bạn muốn suất ăn cho trẻ.",
+          "h": "I want / I do not want",
+          "s": "I want a child meal now."
+        },
+        {
+          "p": "Do you want a babysitter tonight?",
+          "m": "Nói nếu bạn cần người trông trẻ tối nay.",
+          "h": "Yes, please. / No, thank you.",
+          "s": "No, thank you."
+        },
+        {
+          "p": "Do you need a translator for your child?",
+          "m": "Trả lời nếu bạn cần phiên dịch cho con.",
+          "h": "I need / I do not need",
+          "s": "I do not need a translator."
+        }
+      ]
+    }
+  ]
+}

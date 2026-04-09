@@ -1,0 +1,565 @@
+{
+  "l": 3,
+  "d": [
+    {
+      "t": "Gặp đồng nghiệp mới",
+      "e": [
+        {
+          "p": "What's your name?",
+          "m": "Nói tên; Nói vị trí công việc (ngắn gọn).",
+          "h": "My name is + [studentName]. I am a/an + job.",
+          "s": "My name is [studentName]. I am a nurse."
+        },
+        {
+          "p": "Where do you work in the hospital?",
+          "m": "Nói khoa/phòng; Nói ca làm việc (morning/afternoon/night).",
+          "h": "I work in + department. I work the + shift + shift.",
+          "s": "I work in the emergency department. I work the morning shift."
+        },
+        {
+          "p": "How long have you worked here?",
+          "m": "Nói khi bắt đầu (Past Simple); Nói cảm giác về công việc hiện tại (one short feeling).",
+          "h": "I started + time (Past Simple). I + feel + adjective.",
+          "s": "I started two years ago. I feel proud of my work."
+        },
+        {
+          "p": "Who is your supervisor?",
+          "m": "Nói chức danh người quản lý; Nói một việc bạn làm cho họ (ngắn).",
+          "h": "I report to the + position. I + verb + task.",
+          "s": "I report to the head nurse. I update her about patients."
+        },
+        {
+          "p": "What are your main tasks here?",
+          "m": "Nêu 2 nhiệm vụ chính, mỗi nhiệm vụ 1 câu.",
+          "h": "Use simple present: I check/I give/I assist...",
+          "s": "I check patients' vital signs. I give medicines and record notes."
+        }
+      ]
+    },
+    {
+      "t": "Giới thiệu trước bệnh nhân",
+      "e": [
+        {
+          "p": "Hello, who are you?",
+          "m": "Nói tên; Nói nghề nghiệp (ví dụ: nurse/doctor).",
+          "h": "My name is + [studentName]. I am a + job.",
+          "s": "My name is [studentName]. I am a nurse."
+        },
+        {
+          "p": "Which department are you from?",
+          "m": "Nói khoa/phòng; Nói lý do ngắn bạn đến thăm (one short reason).",
+          "h": "I am from + department. I am here to + verb.",
+          "s": "I am from pediatrics. I am here to check your child."
+        },
+        {
+          "p": "What will you do now?",
+          "m": "Mô tả 2 hành động sắp làm (dùng will/going to).",
+          "h": "I will/I'm going to + verb; then + verb.",
+          "s": "I will check your temperature. Then I will prepare the medicine."
+        },
+        {
+          "p": "Do you have any allergies?",
+          "m": "Hỏi lại và nói bạn sẽ ghi chú nếu có (tập phản hồi ngắn).",
+          "h": "Use short question response + I will note it.",
+          "s": "Do you have any allergies? I will write them in your file."
+        },
+        {
+          "p": "How often will you visit?",
+          "m": "Nói tần suất thăm (daily/once a day); Nói một điều bạn sẽ làm mỗi lần thăm.",
+          "h": "I will visit + frequency. I will + verb each time.",
+          "s": "I will visit once a day. I will check your wounds each time."
+        }
+      ]
+    },
+    {
+      "t": "Hỏi đường trong bệnh viện",
+      "e": [
+        {
+          "p": "Excuse me, where is the radiology?",
+          "m": "Chỉ vị trí ngắn (floor/direction); Nói liệu bạn có thể dẫn họ đến đó hay không.",
+          "h": "It's on + floor/direction. I can/ can't + lead/help.",
+          "s": "It's on the second floor near the elevator. I can show you the way."
+        },
+        {
+          "p": "Is the pharmacy open now?",
+          "m": "Trả lời tình trạng mở/đóng (short); Nói giờ mở/đóng hoặc khi mở lại.",
+          "h": "It is/It isn't open. It opens/closes at + time.",
+          "s": "It is open now. It closes at 6 pm."
+        },
+        {
+          "p": "How can I get to the outpatient clinic?",
+          "m": "Hướng dẫn 2 bước ngắn (ví dụ: go to X then turn Y).",
+          "h": "Use 'Go to' and 'then turn'.",
+          "s": "Go to the main lobby. Then turn left and walk past the information desk."
+        },
+        {
+          "p": "Where is the nearest restroom?",
+          "m": "Nói vị trí ngắn và cho biết nếu có biển chỉ dẫn (yes/no).",
+          "h": "It's + location. There is/there isn't a sign.",
+          "s": "It's beside the cafe on the ground floor. There is a sign near the door."
+        },
+        {
+          "p": "Can I park near the emergency entrance?",
+          "m": "Trả lời được phép hay không; Nêu lựa chọn khác nếu không được phép.",
+          "h": "Use must/mustn't or can/can't and give alternative.",
+          "s": "You can't park there; it's for ambulances. You can park in the visitor lot across the street."
+        }
+      ]
+    },
+    {
+      "t": "Mô tả khoa/phòng làm việc",
+      "e": [
+        {
+          "p": "What does the ICU look like?",
+          "m": "Mô tả 1-2 chi tiết quan sát (ví dụ: máy móc, yên tĩnh).",
+          "h": "Simple present: It has/It is + adjective.",
+          "s": "It has many monitors and oxygen machines. It is quiet and clean."
+        },
+        {
+          "p": "How many beds are in your ward?",
+          "m": "Nói số giường (short); Nói xem nó crowded hơn hay less crowded than others (comparative).",
+          "h": "There are + number + beds. It is more/less + adjective + than + place.",
+          "s": "There are ten beds. It is more crowded than the clinic."
+        },
+        {
+          "p": "Do you have a nurses' station?",
+          "m": "Trả lời có/không; Mô tả 1 việc bạn làm ở đó.",
+          "h": "Use There is/There isn't and I + verb.",
+          "s": "There is a nurses' station near the entrance. I update patient charts there."
+        },
+        {
+          "p": "Is there a waiting area for families?",
+          "m": "Nói có/không; Nêu một tiện ích ở đó (ví dụ: chairs, water).",
+          "h": "It has + noun(s).",
+          "s": "Yes, there is a waiting area. It has chairs and a water dispenser."
+        },
+        {
+          "p": "Describe the pharmacy area briefly.",
+          "m": "Nói 2 điều: nơi để thuốc và nhiệm vụ của nhân viên ở đó.",
+          "h": "Use present simple: It stores/They check/They prepare.",
+          "s": "It stores medicines on shelves. Staff prepare and check prescriptions."
+        }
+      ]
+    },
+    {
+      "t": "Vai trò và công việc hàng ngày",
+      "e": [
+        {
+          "p": "What is your job here?",
+          "m": "Nói chức danh; Nói 1 nhiệm vụ chính (short).",
+          "h": "I am a + job. I + verb + noun.",
+          "s": "I am a lab technician. I run tests for patients."
+        },
+        {
+          "p": "Tell me one routine you do every morning.",
+          "m": "Nói một hành động lặp lại; Nói mục đích của hành động đó (short).",
+          "h": "Use present simple: I + verb + to + verb.",
+          "s": "I check patient charts every morning. I do it to track their progress."
+        },
+        {
+          "p": "Do you give medicines to patients?",
+          "m": "Trả lời có/không; Nếu có, mô tả ngắn bạn sẽ làm gì (one action).",
+          "h": "Yes, I + verb. / No, I don't + verb.",
+          "s": "Yes, I give medicines at scheduled times. I record each dose in the chart."
+        },
+        {
+          "p": "Who helps you with heavy tasks?",
+          "m": "Nêu người/nhóm hỗ trợ; Nói một ví dụ công việc họ làm.",
+          "h": "Use They/He/She + help(s) + verb.",
+          "s": "Orderlies help me with heavy tasks. They move patients and push beds."
+        },
+        {
+          "p": "What should you do if a patient feels worse?",
+          "m": "Nói 2 bước ngắn bạn sẽ làm (alert/report/treat).",
+          "h": "Use should + base verb and then + verb (Past/Present).",
+          "s": "I should call the nurse in charge. I should monitor vital signs and report changes."
+        }
+      ]
+    },
+    {
+      "t": "Thiết bị và vật tư y tế",
+      "e": [
+        {
+          "p": "What is this machine used for?",
+          "m": "Nói tên máy (simple) hoặc chức năng ngắn; Nói ai dùng nó.",
+          "h": "It is a + machine. It is used for + verb-ing.",
+          "s": "It is a ventilator. It is used for helping patients breathe."
+        },
+        {
+          "p": "Do you have enough gloves and masks?",
+          "m": "Trả lời đủ/không; Nêu nơi lưu trữ ngắn (where).",
+          "h": "We have/We don't have. They are stored in + place.",
+          "s": "We have enough gloves and masks. They are stored in the supply room."
+        },
+        {
+          "p": "How do you check a blood pressure device?",
+          "m": "Mô tả 2 bước đơn giản để kiểm tra (each a sentence).",
+          "h": "Use imperative or I + verb: Check/Make sure...",
+          "s": "I check the cuff for damage. I make sure the device is calibrated."
+        },
+        {
+          "p": "Who orders new supplies?",
+          "m": "Nói vị trí chịu trách nhiệm; Nói một hành động họ làm để đặt hàng.",
+          "h": "Use present simple: The + position + orders + supplies.",
+          "s": "The inventory manager orders new supplies. They call the vendor or place an online order."
+        },
+        {
+          "p": "What must staff do with expired medicines?",
+          "m": "Nói bắt buộc (must) và mô tả hành động xử lý (one short action).",
+          "h": "Use must + verb and then + verb phrase.",
+          "s": "Staff must remove expired medicines immediately. They must return them to pharmacy for disposal."
+        }
+      ]
+    },
+    {
+      "t": "Lịch làm việc và ca trực",
+      "e": [
+        {
+          "p": "When is your next shift?",
+          "m": "Nói ngày/ca ngắn; Nói bạn sẽ làm gì chính trong ca đó.",
+          "h": "My next shift is on + day or tomorrow at + time. I will + main task.",
+          "s": "My next shift is tomorrow morning. I will check patients and give medications."
+        },
+        {
+          "p": "Can you swap a shift with me?",
+          "m": "Trả lời đồng ý/không; Nêu điều kiện nếu có (one short điều kiện).",
+          "h": "I can/I can't + unless/if + condition.",
+          "s": "I can swap a shift with you if the manager approves. I will ask her today."
+        },
+        {
+          "p": "How often do you work night shifts?",
+          "m": "Nói tần suất (e.g., once a week); Nói một khó khăn nhỏ khi làm night shift.",
+          "h": "I work + frequency. It is + adjective + because + reason.",
+          "s": "I work night shifts once a week. It is tiring because I sleep less."
+        },
+        {
+          "p": "What will you do before your shift starts?",
+          "m": "Nêu 2 việc chuẩn bị bạn làm (each one sentence).",
+          "h": "Use I will + verb and then + verb.",
+          "s": "I will review patient notes before my shift. I will check my supplies and equipment."
+        },
+        {
+          "p": "Who covers if someone is sick?",
+          "m": "Nói ai thay thế; Nói quy trình ngắn để báo cáo vắng mặt.",
+          "h": "Use The + position + covers. We call/text + person/manager.",
+          "s": "Another nurse covers the shift. We call the supervisor and update the roster."
+        }
+      ]
+    },
+    {
+      "t": "Xử lý tình huống bệnh nhân",
+      "e": [
+        {
+          "p": "A patient is vomiting, what do you do first?",
+          "m": "Nói hành động đầu tiên; Nói việc báo cáo (cho ai) sau đó.",
+          "h": "I + verb first. Then I inform + person.",
+          "s": "I help the patient sit up and give a basin. Then I inform the nurse in charge."
+        },
+        {
+          "p": "The patient has a fever, how will you record it?",
+          "m": "Nói cách đo (one sentence); Nói nơi bạn ghi kết quả (second sentence).",
+          "h": "I will measure + with. I will record it in + place.",
+          "s": "I will measure temperature with a digital thermometer. I will record it in the patient chart."
+        },
+        {
+          "p": "Someone fell in the ward, what should you do?",
+          "m": "Nói 2 bước cần làm ngay (immediate actions).",
+          "h": "Use should + verb and then + verb.",
+          "s": "You should call for help immediately. You should check for injuries and keep the patient still."
+        },
+        {
+          "p": "A family asks for a visiting time, how do you respond?",
+          "m": "Nêu visiting hours; Nói một quy tắc ngắn (e.g., number of visitors).",
+          "h": "Visiting hours are + time. Only + number + visitors allowed.",
+          "s": "Visiting hours are from 2 pm to 5 pm. Only two visitors are allowed at a time."
+        },
+        {
+          "p": "If a device alarm sounds, what will you do?",
+          "m": "Nói việc bạn sẽ làm ngay (one action); Nói ai bạn sẽ báo cáo nếu cần (second).",
+          "h": "I will + verb. I will report to + position.",
+          "s": "I will check the patient and the device immediately. I will report to the doctor if needed."
+        }
+      ]
+    },
+    {
+      "t": "Giao tiếp qua điện thoại trong bệnh viện",
+      "e": [
+        {
+          "p": "Hello, is this the admissions desk?",
+          "m": "Trả lời có/không; Nói bạn có thể giúp gì (one short offer).",
+          "h": "Yes, this is + place. I can help with + noun/verb.",
+          "s": "Yes, this is admissions. I can help you with registration."
+        },
+        {
+          "p": "I need to make an appointment, can I book now?",
+          "m": "Nói có thể/không; Nêu ngày khả dụng ngắn (one option).",
+          "h": "You can/You can't. We have an opening on + day/time.",
+          "s": "Yes, you can book now. We have an opening on Monday morning."
+        },
+        {
+          "p": "Please call me back about test results.",
+          "m": "Xác nhận bạn sẽ gọi lại; Nói khi nào bạn sẽ gọi (short).",
+          "h": "I will call you back + time. I will check results before calling.",
+          "s": "I will call you back this afternoon. I will check the results first."
+        },
+        {
+          "p": "Who can I speak to about a bill?",
+          "m": "Chỉ người/đơn vị phụ trách; Nói một hành động họ sẽ làm (one action).",
+          "h": "Contact the + department/person. They will + verb.",
+          "s": "Contact the billing department. They will check your invoice and explain charges."
+        },
+        {
+          "p": "Can I bring medication from home?",
+          "m": "Trả lời yes/no; Nêu điều kiện ngắn nếu được phép.",
+          "h": "You can/You cannot + unless/if + condition.",
+          "s": "You can bring medication if the doctor approves. Please bring the original packaging."
+        }
+      ]
+    },
+    {
+      "t": "Báo cáo ngắn cho bác sĩ",
+      "e": [
+        {
+          "p": "The patient's pulse is 110, what do you tell the doctor?",
+          "m": "Nói con số nhịp tim; Nói một quan sát khác (ví dụ: fever or breathing).",
+          "h": "Use present simple: The pulse is + number. The patient also has + detail.",
+          "s": "The pulse is 110 beats per minute. The patient also has a fever."
+        },
+        {
+          "p": "I observed low oxygen levels, how will you report it?",
+          "m": "Nêu số O2% nếu biết; Nói bạn đã làm gì ngay (one action).",
+          "h": "Spoken: The O2 is + number%. I have + past action.",
+          "s": "The oxygen level is 88%. I have given oxygen and notified the nurse."
+        },
+        {
+          "p": "Any change in patient's pain level?",
+          "m": "Nói tăng/giảm và mức độ (short); Nói thuốc bạn đã cho nếu có.",
+          "h": "Use increased/decreased + to + level. I gave + medicine.",
+          "s": "The pain has increased to 7 out of 10. I gave the prescribed painkiller."
+        },
+        {
+          "p": "The wound looks infected, what will you say?",
+          "m": "Mô tả dấu hiệu (one); Đề nghị một hành động (second).",
+          "h": "It looks + adjective. We should + verb.",
+          "s": "The wound looks red and swollen. We should start antibiotics and inform the doctor."
+        },
+        {
+          "p": "Patient is ready for discharge, how do you report?",
+          "m": "Nói bệnh nhân ổn (short); Nêu kế hoạch xuất viện (place/time).",
+          "h": "Use present simple: The patient is + adjective. They will be discharged to + place/time.",
+          "s": "The patient is stable and alert. They will be discharged home this afternoon."
+        }
+      ]
+    },
+    {
+      "t": "Chuẩn bị hồ sơ và giấy tờ",
+      "e": [
+        {
+          "p": "Do you have the patient's ID card?",
+          "m": "Trả lời có/không; Nói bạn sẽ làm gì nếu không có (one short action).",
+          "h": "Yes, I have it. / No, I don't have it and I will + verb.",
+          "s": "No, I don't have it right now. I will ask the family to bring it."
+        },
+        {
+          "p": "What information do we need for registration?",
+          "m": "Nêu 2 thông tin cần thiết (name, DOB, etc.).",
+          "h": "Use simple nouns: name; date of birth; address.",
+          "s": "We need the patient's full name. We also need date of birth and contact number."
+        },
+        {
+          "p": "Where do you file the consent forms?",
+          "m": "Nói vị trí lưu trữ; Nói ai ký trước (patient/guardian).",
+          "h": "They are filed in + place. The + person + signs first.",
+          "s": "They are filed in the patient records cabinet. The patient or guardian signs first."
+        },
+        {
+          "p": "Can a relative sign for the patient?",
+          "m": "Trả lời yes/no; Nêu điều kiện ngắn (if guardian/ID).",
+          "h": "Yes, if + condition. / No, unless + condition.",
+          "s": "Yes, if they are the legal guardian and show ID. Otherwise the patient must sign."
+        },
+        {
+          "p": "Do we keep copies of test results?",
+          "m": "Trả lời có/không; Nói nơi lưu bản sao (short).",
+          "h": "We keep copies in + place.",
+          "s": "Yes, we keep copies of test results. They are stored in the patient's file."
+        }
+      ]
+    },
+    {
+      "t": "Giao tiếp với người nhà bệnh nhân",
+      "e": [
+        {
+          "p": "Is my mother improving?",
+          "m": "Trả lời ngắn về tình trạng (better/worse/stable); Nói một dấu hiệu cho biết (one sign).",
+          "h": "She is + adjective. She shows + sign.",
+          "s": "She is stable today. She shows less pain and better breathing."
+        },
+        {
+          "p": "Can we stay overnight with the patient?",
+          "m": "Trả lời có/không; Nêu điều kiện ngắn (one rule).",
+          "h": "You can/You cannot + unless/if + condition.",
+          "s": "You cannot stay overnight in the ward. Visiting is allowed during visiting hours only."
+        },
+        {
+          "p": "Who can I contact for updates?",
+          "m": "Nói vị trí/người liên hệ; Nói thời gian tốt nhất để gọi.",
+          "h": "Contact the + position. Best time to call is + time.",
+          "s": "Contact the nurse station for updates. The best time to call is after rounds at 10 am."
+        },
+        {
+          "p": "Do you recommend any home care after discharge?",
+          "m": "Nêu 1 khuyến nghị cụ thể; Nói nếu họ should follow-up (yes/no).",
+          "h": "Recommend: You should + verb. Follow-up: Yes/No, + when.",
+          "s": "You should keep the wound clean and dry. Yes, please have a follow-up visit in one week."
+        },
+        {
+          "p": "Can we bring food for the patient?",
+          "m": "Trả lời allowed/not allowed; Nói một lưu ý ngắn (e.g., hospital diet).",
+          "h": "You can/You cannot + because + reason.",
+          "s": "You can bring food, but follow the hospital diet. Please avoid strong-smelling or raw foods."
+        }
+      ]
+    },
+    {
+      "t": "Tranh thủ thông tin chuyên môn ngắn",
+      "e": [
+        {
+          "p": "What is the patient's diagnosis?",
+          "m": "Nói ngắn bệnh/chẩn đoán; Nói một hướng điều trị ngắn (one).",
+          "h": "The diagnosis is + short phrase. Treatment is + noun/verb-ing.",
+          "s": "The diagnosis is community-acquired pneumonia. Treatment is antibiotics and oxygen support."
+        },
+        {
+          "p": "Is the patient on any medication now?",
+          "m": "Trả lời có/không; Nêu tên 1 thuốc nếu có (simple).",
+          "h": "Yes, they are on + medicine. / No, they are not on medication.",
+          "s": "Yes, they are on paracetamol for fever. They also take a prescribed antibiotic."
+        },
+        {
+          "p": "Will the patient need surgery?",
+          "m": "Trả lời will/ won't; Nêu thời gian dự kiến hoặc ghi chú short.",
+          "h": "They will/They won't + verb. The surgery is planned for + time or not planned.",
+          "s": "They will need minor surgery next week. The surgeon scheduled it for Monday."
+        },
+        {
+          "p": "How long is the recovery expected?",
+          "m": "Nói khoảng thời gian (short); Nói một điều bệnh nhân should do during recovery.",
+          "h": "Recovery is about + time. They should + verb.",
+          "s": "Recovery is about two weeks. They should rest and avoid heavy work."
+        },
+        {
+          "p": "Who will review the lab results?",
+          "m": "Nêu người chịu trách nhiệm; Nói khi họ sẽ xem (short).",
+          "h": "The + position + will review. They will check them + time.",
+          "s": "The attending doctor will review the lab results. He will check them after morning rounds."
+        }
+      ]
+    },
+    {
+      "t": "Ôn tập: Giới thiệu và định vị trong bệnh viện",
+      "e": [
+        {
+          "p": "Can you introduce yourself and your department?",
+          "m": "Nói tên (placeholder); Nói vị trí công việc; Nói khoa/phòng (total 2 câu: name+job/department combined).",
+          "h": "My name is + [studentName]. I am a + job in + department.",
+          "s": "My name is [studentName]. I am a nurse in the emergency department."
+        },
+        {
+          "p": "Where is the cardiology clinic and when is it open?",
+          "m": "Chỉ vị trí ngắn; Nêu giờ mở/đóng (2 ý, 2 câu).",
+          "h": "It's on + location. It opens at + time and closes at + time.",
+          "s": "It's on the third floor next to the elevator. It opens at 8 am and closes at 4 pm."
+        },
+        {
+          "p": "How do you tell a visitor about visiting rules?",
+          "m": "Nêu visiting hours; Nói một quy tắc về số người (2 ý).",
+          "h": "Visiting hours are + time. Only + number + visitors allowed.",
+          "s": "Visiting hours are from 2 pm to 5 pm. Only two visitors are allowed at once."
+        },
+        {
+          "p": "Introduce a short daily routine at work.",
+          "m": "Nói 2 hoạt động chính bạn làm mỗi ngày (2 câu).",
+          "h": "Use present simple: I + verb and I + verb.",
+          "s": "I check patients' vital signs every morning. I update the charts and hand over to the doctor."
+        },
+        {
+          "p": "Give directions from main entrance to pediatrics.",
+          "m": "Hướng dẫn 2 bước (go to X, then turn Y).",
+          "h": "Use 'Go to' and 'then turn'.",
+          "s": "Go to the main lobby and take the stairs to the second floor. Then turn right and follow the signs to pediatrics."
+        }
+      ]
+    },
+    {
+      "t": "Ôn tập: Xử lý tình huống và báo cáo",
+      "e": [
+        {
+          "p": "A patient has chest pain, what will you do?",
+          "m": "Nói hai hành động ngay lập tức (2 câu).",
+          "h": "Use should/ will: I should/I will + verb.",
+          "s": "I should call the doctor immediately. I will give oxygen and monitor the vital signs."
+        },
+        {
+          "p": "Report a high temperature to the doctor.",
+          "m": "Nêu số nhiệt độ; Nói hành động bạn đã làm (2 ý).",
+          "h": "The temperature is + number. I have + past action.",
+          "s": "The temperature is 39°C. I have given paracetamol and informed the nurse."
+        },
+        {
+          "p": "Family asks about discharge time, what do you say?",
+          "m": "Cho biết tình trạng ổn/không; Nói thời gian dự kiến (2 ý).",
+          "h": "The patient is + adjective. They will be discharged + time.",
+          "s": "The patient is stable now. They will be discharged tomorrow afternoon."
+        },
+        {
+          "p": "How do you handle missing supplies?",
+          "m": "Nói bạn sẽ làm gì (report/order); Nói ai chịu trách nhiệm (2 ý).",
+          "h": "I will report to + position. They will order + supplies.",
+          "s": "I will report the missing items to the inventory manager. They will order new supplies today."
+        },
+        {
+          "p": "Summarize a patient's current status in two sentences.",
+          "m": "Nêu tình trạng tổng quát; Nói một kế hoạch tiếp theo (2 câu).",
+          "h": "Use present simple and will: The patient is + adjective. We will + verb.",
+          "s": "The patient is stable and breathing well. We will continue monitoring and give medication as planned."
+        }
+      ]
+    },
+    {
+      "t": "Ôn tập: Giao tiếp qua điện thoại và hồ sơ",
+      "e": [
+        {
+          "p": "Can I book an appointment for my child?",
+          "m": "Xác nhận có thể/không; Nêu ngày giờ khả dụng (2 ý).",
+          "h": "You can/You can't. We have an opening on + day/time.",
+          "s": "Yes, you can book an appointment. We have an opening on Thursday at 9 am."
+        },
+        {
+          "p": "What documents are needed for admission?",
+          "m": "Nêu 2 loại giấy tờ cần thiết (2 items).",
+          "h": "Use simple nouns: ID card; insurance; referral.",
+          "s": "We need the patient's ID card and insurance documents. A referral letter is helpful if available."
+        },
+        {
+          "p": "How do you notify a family about test results?",
+          "m": "Nói cách liên lạc (phone/in person); Nói thời gian bạn sẽ gọi (2 ý).",
+          "h": "I will call/by + method. I will call at + time.",
+          "s": "I will call the family by phone. I will call after the doctor reviews the results this afternoon."
+        },
+        {
+          "p": "A relative wants to change visiting time, what do you say?",
+          "m": "Trả lời có đổi được không; Nêu điều kiện hoặc thời gian thay thế (2 ý).",
+          "h": "We can/can't change it. We can offer + alternative.",
+          "s": "We cannot change the official visiting hours. We can offer a short meeting with the doctor at 5:30 pm."
+        },
+        {
+          "p": "Confirming discharge paperwork is ready, what do you tell the family?",
+          "m": "Xác nhận ready/not ready; Nêu một bước họ cần làm (2 ý).",
+          "h": "The paperwork is ready/not ready. Please + verb as next step.",
+          "s": "The discharge paperwork is ready. Please come to the front desk to sign and pick up the documents."
+        }
+      ]
+    }
+  ]
+}

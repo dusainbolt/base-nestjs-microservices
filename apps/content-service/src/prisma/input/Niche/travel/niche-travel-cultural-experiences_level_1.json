@@ -1,0 +1,600 @@
+{
+  "l": 1,
+  "d": [
+    {
+      "t": "Gặp người địa phương",
+      "e": [
+        {
+          "p": "What's your name?",
+          "m": "Nói tên của bạn.",
+          "h": "My name is + name",
+          "s": "My name is [studentName]."
+        },
+        {
+          "p": "How old are you?",
+          "m": "Nói tuổi của bạn.",
+          "h": "I am + age",
+          "s": "I am [studentAge] years old."
+        },
+        {
+          "p": "Where do you live?",
+          "m": "Nói thành phố nơi bạn sống.",
+          "h": "I live in + place",
+          "s": "I live in [studentCity]."
+        },
+        {
+          "p": "Do you have a family here?",
+          "m": "Nói có hoặc không (một câu).",
+          "h": "I have / I don't have",
+          "s": "I have a family here."
+        },
+        {
+          "p": "What is your job?",
+          "m": "Nói nghề nghiệp của bạn.",
+          "h": "I am a + job",
+          "s": "I am a [studentJob]."
+        }
+      ]
+    },
+    {
+      "t": "Thử món ăn địa phương",
+      "e": [
+        {
+          "p": "What is this local food?",
+          "m": "Nói tên món ăn (một từ hoặc hai từ).",
+          "h": "It is + food name",
+          "s": "It is rice and fish."
+        },
+        {
+          "p": "Do you like this food?",
+          "m": "Nói thích hoặc không thích (một câu).",
+          "h": "I like / I don't like",
+          "s": "I like this food."
+        },
+        {
+          "p": "Is the food hot?",
+          "m": "Nói món ăn có nóng (spicy/hot) hay không.",
+          "h": "It is hot / It is not hot",
+          "s": "It is not hot."
+        },
+        {
+          "p": "Where do you buy the food?",
+          "m": "Nói nơi mua (market/restaurant).",
+          "h": "I buy it at the + place",
+          "s": "I buy it at the market."
+        },
+        {
+          "p": "How often do you eat it?",
+          "m": "Nói tần suất (every day / sometimes).",
+          "h": "I eat it + frequency",
+          "s": "I eat it every day."
+        }
+      ]
+    },
+    {
+      "t": "Lễ hội ở đây",
+      "e": [
+        {
+          "p": "When is the festival?",
+          "m": "Nói nếu lễ hội diễn ra mỗi năm hay một lần.",
+          "h": "It is every year / It is once",
+          "s": "It is every year."
+        },
+        {
+          "p": "What do people do at the festival?",
+          "m": "Nói một hoạt động (ví dụ: sing, dance).",
+          "h": "People + V(s)",
+          "s": "People dance."
+        },
+        {
+          "p": "Is there music at the festival?",
+          "m": "Nói có hoặc không (một câu).",
+          "h": "There is / There is not",
+          "s": "There is music."
+        },
+        {
+          "p": "Do you go to the festival?",
+          "m": "Nói bạn có đi hay không (một câu).",
+          "h": "I go / I don't go",
+          "s": "I go to the festival."
+        },
+        {
+          "p": "What do you wear at the festival?",
+          "m": "Nói một đồ bạn mặc và màu nếu có (một câu).",
+          "h": "I wear a + color + item",
+          "s": "I wear a red shirt."
+        }
+      ]
+    },
+    {
+      "t": "Trang phục truyền thống",
+      "e": [
+        {
+          "p": "Do people wear traditional clothes here?",
+          "m": "Nói có hoặc không (một câu).",
+          "h": "Yes, they wear / No, they don't",
+          "s": "Yes, people wear traditional clothes."
+        },
+        {
+          "p": "What is the cloth color?",
+          "m": "Nói một màu của trang phục.",
+          "h": "It is + color",
+          "s": "It is white."
+        },
+        {
+          "p": "When do people wear it?",
+          "m": "Nói một thời điểm (festival, special day).",
+          "h": "People wear it on + day",
+          "s": "People wear it on special days."
+        },
+        {
+          "p": "Do you wear it sometimes?",
+          "m": "Nói bạn có mặc đôi khi hay không (một câu).",
+          "h": "I wear it sometimes / I don't wear it",
+          "s": "I wear it sometimes."
+        },
+        {
+          "p": "Can you show me the clothes?",
+          "m": "Nói bạn có thể làm việc đó hay không (một câu).",
+          "h": "I can / I can't",
+          "s": "I can show the clothes."
+        }
+      ]
+    },
+    {
+      "t": "Chợ và mua thức ăn",
+      "e": [
+        {
+          "p": "Is there a market near here?",
+          "m": "Nói có hoặc không (một câu).",
+          "h": "There is / There is not",
+          "s": "There is a market near here."
+        },
+        {
+          "p": "What do people sell at the market?",
+          "m": "Nói một món (ví dụ: fruit, fish).",
+          "h": "They sell + item",
+          "s": "They sell fruit."
+        },
+        {
+          "p": "How much is one kilo of fruit?",
+          "m": "Nói một số hoặc giá đơn giản (dùng số).",
+          "h": "It is + number",
+          "s": "It is five."
+        },
+        {
+          "p": "Do you go to the market every morning?",
+          "m": "Nói có hoặc không (một câu).",
+          "h": "I go / I don't go",
+          "s": "I go to the market every morning."
+        },
+        {
+          "p": "Can I buy local snacks here?",
+          "m": "Nói có thể mua hay không (một câu).",
+          "h": "You can / You cannot",
+          "s": "You can buy local snacks here."
+        }
+      ]
+    },
+    {
+      "t": "Phong tục chào hỏi",
+      "e": [
+        {
+          "p": "How do people say hello here?",
+          "m": "Nói một từ hoặc câu chào (một câu).",
+          "h": "People say + greeting",
+          "s": "People say hello and smile."
+        },
+        {
+          "p": "Do people shake hands?",
+          "m": "Nói có hoặc không (một câu).",
+          "h": "Yes, they do / No, they don't",
+          "s": "Yes, people shake hands."
+        },
+        {
+          "p": "Is it polite to bow?",
+          "m": "Nói có hoặc không (một câu).",
+          "h": "It is polite / It is not polite",
+          "s": "It is polite to bow."
+        },
+        {
+          "p": "When do people greet elders?",
+          "m": "Nói thời điểm (ví dụ: morning, festival).",
+          "h": "People greet elders in the + time",
+          "s": "People greet elders in the morning."
+        },
+        {
+          "p": "Can I greet with a smile?",
+          "m": "Nói bạn có thể làm điều đó hay không (một câu).",
+          "h": "You can / You cannot",
+          "s": "You can greet with a smile."
+        }
+      ]
+    },
+    {
+      "t": "Thói quen ăn uống hàng ngày",
+      "e": [
+        {
+          "p": "What do you eat for breakfast?",
+          "m": "Nói một món ăn sáng đơn giản.",
+          "h": "I eat + food",
+          "s": "I eat bread and fruit."
+        },
+        {
+          "p": "Do you drink tea or coffee?",
+          "m": "Nói bạn uống gì (tea/coffee/water).",
+          "h": "I drink + drink",
+          "s": "I drink tea."
+        },
+        {
+          "p": "Where do you eat lunch?",
+          "m": "Nói nơi bạn ăn trưa (home/school/restaurant).",
+          "h": "I eat at + place",
+          "s": "I eat lunch at home."
+        },
+        {
+          "p": "How many meals do you eat a day?",
+          "m": "Nói số bữa (one/two/three).",
+          "h": "I eat + number meals",
+          "s": "I eat three meals a day."
+        },
+        {
+          "p": "Do you share food with family?",
+          "m": "Nói có hoặc không (một câu).",
+          "h": "I share / I don't share",
+          "s": "I share food with my family."
+        }
+      ]
+    },
+    {
+      "t": "Âm nhạc và múa địa phương",
+      "e": [
+        {
+          "p": "Do you like local music?",
+          "m": "Nói thích hoặc không (một câu).",
+          "h": "I like / I don't like",
+          "s": "I like local music."
+        },
+        {
+          "p": "Is the music loud?",
+          "m": "Nói to hoặc không to (một câu).",
+          "h": "It is loud / It is not loud",
+          "s": "It is loud."
+        },
+        {
+          "p": "Do people dance at the music?",
+          "m": "Nói có hoặc không (một câu).",
+          "h": "People dance / People don't dance",
+          "s": "People dance at the music."
+        },
+        {
+          "p": "Where do people play music?",
+          "m": "Nói nơi (market, house, festival).",
+          "h": "They play at the + place",
+          "s": "They play music at festivals."
+        },
+        {
+          "p": "Can you play an instrument?",
+          "m": "Nói bạn có thể hay không (một câu).",
+          "h": "I can / I can't",
+          "s": "I can play a small drum."
+        }
+      ]
+    },
+    {
+      "t": "Thăm nhà một gia đình",
+      "e": [
+        {
+          "p": "May I come to your home?",
+          "m": "Nói có thể mời khách vào nhà hay không (một câu).",
+          "h": "Yes, you may / No, you may not",
+          "s": "Yes, you may come to my home."
+        },
+        {
+          "p": "Do you remove shoes at the door?",
+          "m": "Nói có hoặc không (một câu).",
+          "h": "We remove shoes / We don't remove shoes",
+          "s": "We remove shoes at the door."
+        },
+        {
+          "p": "Can I eat your food inside?",
+          "m": "Nói có thể ăn trong nhà hay không (một câu).",
+          "h": "You can / You cannot",
+          "s": "You can eat inside the house."
+        },
+        {
+          "p": "Is it polite to bring a gift?",
+          "m": "Nói có hoặc không (một câu).",
+          "h": "It is polite / It is not polite",
+          "s": "It is polite to bring a gift."
+        },
+        {
+          "p": "What time do you visit friends?",
+          "m": "Nói một thời gian đơn giản (morning/night).",
+          "h": "I visit in the + time",
+          "s": "I visit friends in the evening."
+        }
+      ]
+    },
+    {
+      "t": "Lời mời đi ăn",
+      "e": [
+        {
+          "p": "Would you like to eat local food?",
+          "m": "Trả lời có thích hay không (một câu).",
+          "h": "I would like / I would not like (I like / I don't like)",
+          "s": "I would like to eat local food."
+        },
+        {
+          "p": "Where do you want to eat?",
+          "m": "Nói nơi bạn muốn ăn (restaurant, market).",
+          "h": "I want to eat at the + place",
+          "s": "I want to eat at the restaurant."
+        },
+        {
+          "p": "What time is good for you?",
+          "m": "Nói một thời gian đơn giản (morning/evening).",
+          "h": "It is good at + time",
+          "s": "Evening is good for me."
+        },
+        {
+          "p": "Can you pay for the food?",
+          "m": "Nói bạn có thể thanh toán hay không (một câu).",
+          "h": "I can / I can't",
+          "s": "I can pay for the food."
+        },
+        {
+          "p": "Do you like to try new dishes?",
+          "m": "Nói có hoặc không (một câu).",
+          "h": "I like / I don't like",
+          "s": "I like to try new dishes."
+        }
+      ]
+    },
+    {
+      "t": "Nói về món ăn yêu thích của trẻ em",
+      "e": [
+        {
+          "p": "What food do children like here?",
+          "m": "Nói một món trẻ em hay thích.",
+          "h": "Children like + food",
+          "s": "Children like fried rice."
+        },
+        {
+          "p": "Do kids eat sweets?",
+          "m": "Nói có hoặc không (một câu).",
+          "h": "Yes, they do / No, they don't",
+          "s": "Yes, kids eat sweets sometimes."
+        },
+        {
+          "p": "Where do children eat after school?",
+          "m": "Nói nơi (home/school).",
+          "h": "They eat at + place",
+          "s": "They eat at home after school."
+        },
+        {
+          "p": "Can children help cook?",
+          "m": "Nói có thể hay không (một câu).",
+          "h": "They can / They can't",
+          "s": "Children can help cook."
+        },
+        {
+          "p": "Do children like spicy food?",
+          "m": "Nói có hoặc không (một câu).",
+          "h": "They like / They don't like",
+          "s": "Children don't like hot food."
+        }
+      ]
+    },
+    {
+      "t": "Hỏi đường đến địa điểm văn hóa",
+      "e": [
+        {
+          "p": "Where is the temple?",
+          "m": "Nói vị trí đơn giản (near/far).",
+          "h": "It is near / It is far",
+          "s": "The temple is near the market."
+        },
+        {
+          "p": "Is the museum open now?",
+          "m": "Nói mở hay đóng (một câu).",
+          "h": "It is open / It is closed",
+          "s": "The museum is closed now."
+        },
+        {
+          "p": "How do I go to the market?",
+          "m": "Nói cách đơn giản (walk/go by bus).",
+          "h": "You walk / You go by bus",
+          "s": "You walk to the market."
+        },
+        {
+          "p": "Is the square big?",
+          "m": "Nói lớn hay nhỏ (một câu).",
+          "h": "It is big / It is small",
+          "s": "The square is big."
+        },
+        {
+          "p": "Can I see the local show there?",
+          "m": "Nói có thể xem hay không (một câu).",
+          "h": "You can / You cannot",
+          "s": "You can see the local show there."
+        }
+      ]
+    },
+    {
+      "t": "Phong tục gia đình",
+      "e": [
+        {
+          "p": "Do families eat together?",
+          "m": "Nói có hoặc không (một câu).",
+          "h": "We eat together / We don't eat together",
+          "s": "Families eat together."
+        },
+        {
+          "p": "Who cooks in your family?",
+          "m": "Nói một người (mother/father).",
+          "h": "My + person cooks",
+          "s": "My mother cooks."
+        },
+        {
+          "p": "Do grandparents live with you?",
+          "m": "Nói có hoặc không (một câu).",
+          "h": "They live with us / They don't",
+          "s": "Grandparents live with us."
+        },
+        {
+          "p": "What time do you eat dinner?",
+          "m": "Nói thời gian đơn giản (evening/night).",
+          "h": "We eat dinner in the + time",
+          "s": "We eat dinner in the evening."
+        },
+        {
+          "p": "Can children help at home?",
+          "m": "Nói có thể hay không (một câu).",
+          "h": "Children can / Children can't",
+          "s": "Children can help at home."
+        }
+      ]
+    },
+    {
+      "t": "Ẩm thực đường phố",
+      "e": [
+        {
+          "p": "Is there street food here?",
+          "m": "Nói có hoặc không (một câu).",
+          "h": "There is / There is not",
+          "s": "There is street food here."
+        },
+        {
+          "p": "What food do street vendors sell?",
+          "m": "Nói một món đơn giản (bread, noodles).",
+          "h": "They sell + food",
+          "s": "They sell noodles."
+        },
+        {
+          "p": "Do people eat on the street?",
+          "m": "Nói có hoặc không (một câu).",
+          "h": "People eat on the street / They don't",
+          "s": "People eat on the street."
+        },
+        {
+          "p": "Is the food cheap?",
+          "m": "Nói rẻ hoặc không (một câu).",
+          "h": "It is cheap / It is not cheap",
+          "s": "The food is cheap."
+        },
+        {
+          "p": "Can tourists try street food?",
+          "m": "Nói có thể hay không (một câu).",
+          "h": "Tourists can / They can't",
+          "s": "Tourists can try street food."
+        }
+      ]
+    },
+    {
+      "t": "Ôn tập: Giao tiếp cơ bản về văn hóa",
+      "e": [
+        {
+          "p": "What is your city's special food?",
+          "m": "Nói tên món đặc sản của thành phố bạn.",
+          "h": "My city's special food is + food",
+          "s": "My city's special food is rice and fish."
+        },
+        {
+          "p": "Do people wear special clothes at festivals?",
+          "m": "Nói có hoặc không (một câu).",
+          "h": "Yes, they wear / No, they don't",
+          "s": "Yes, people wear special clothes at festivals."
+        },
+        {
+          "p": "Where do people meet in your town?",
+          "m": "Nói một nơi gặp gỡ (market/square).",
+          "h": "People meet at the + place",
+          "s": "People meet at the market."
+        },
+        {
+          "p": "Can you tell me one custom at home?",
+          "m": "Nói một phong tục gia đình đơn giản.",
+          "h": "We + V (e.g., eat together)",
+          "s": "We eat together at home."
+        },
+        {
+          "p": "Do you like local festivals?",
+          "m": "Nói thích hoặc không (một câu).",
+          "h": "I like / I don't like",
+          "s": "I like local festivals."
+        }
+      ]
+    },
+    {
+      "t": "Ôn tập: Ẩm thực và phong tục",
+      "e": [
+        {
+          "p": "What do you eat at a festival?",
+          "m": "Nói một món bạn ăn khi đi lễ hội.",
+          "h": "I eat + food",
+          "s": "I eat sweet rice at the festival."
+        },
+        {
+          "p": "Do families cook special food for guests?",
+          "m": "Nói có hoặc không (một câu).",
+          "h": "Families do / Families don't",
+          "s": "Families cook special food for guests."
+        },
+        {
+          "p": "How do people welcome guests?",
+          "m": "Nói một cách chào (smile, say hello).",
+          "h": "People + V (e.g., smile)",
+          "s": "People smile and say hello."
+        },
+        {
+          "p": "Can you eat with your hands here?",
+          "m": "Nói có thể hay không (một câu).",
+          "h": "I can / I can't",
+          "s": "I can eat with my hands here."
+        },
+        {
+          "p": "Do children like festival food?",
+          "m": "Nói có hoặc không (một câu).",
+          "h": "Children like / Children don't like",
+          "s": "Children like festival food."
+        }
+      ]
+    },
+    {
+      "t": "Ôn tập: Thực tế - hỏi và trả lời",
+      "e": [
+        {
+          "p": "Can you tell me a place to see local art?",
+          "m": "Nói một nơi đơn giản (museum, market).",
+          "h": "You can go to the + place",
+          "s": "You can go to the market to see local art."
+        },
+        {
+          "p": "Do people dance every weekend?",
+          "m": "Nói có hoặc không (một câu).",
+          "h": "Yes, they do / No, they don't",
+          "s": "No, people dance at festivals, not every weekend."
+        },
+        {
+          "p": "What do you want to try here?",
+          "m": "Nói một hoạt động hoặc món ăn bạn muốn thử.",
+          "h": "I want to try + activity/food",
+          "s": "I want to try the local noodles."
+        },
+        {
+          "p": "Is it easy to learn the local dance?",
+          "m": "Nói dễ hay khó (một câu).",
+          "h": "It is easy / It is difficult",
+          "s": "It is easy to learn a little."
+        },
+        {
+          "p": "Can I meet friendly people here?",
+          "m": "Nói có thể hay không (một câu).",
+          "h": "You can / You cannot",
+          "s": "You can meet friendly people here."
+        }
+      ]
+    }
+  ]
+}

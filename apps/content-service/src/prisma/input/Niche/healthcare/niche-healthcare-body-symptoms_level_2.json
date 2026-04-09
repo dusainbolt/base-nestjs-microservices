@@ -1,0 +1,530 @@
+{
+  "l": 2,
+  "d": [
+    {
+      "t": "Gặp bác sĩ lần đầu",
+      "e": [
+        {
+          "p": "What is your main problem today?",
+          "m": "Nói triệu chứng chính bạn đang gặp. Nói nếu triệu chứng vẫn đang diễn ra bây giờ.",
+          "h": "S + V (have) / S + be + V-ing",
+          "s": "I have a bad headache and a fever. They are happening now."
+        },
+        {
+          "p": "When did the pain start?",
+          "m": "Nói thời điểm hoặc ngày bắt đầu. Nói nếu nó còn đau hay đã giảm.",
+          "h": "Time words (today/this morning) + S + V (be) / still",
+          "s": "The pain started this morning. It is still a little pain now."
+        },
+        {
+          "p": "Do you take any medicine now?",
+          "m": "Nói tên thuốc nếu đang dùng hoặc nói không. Nói tần suất bạn uống thuốc (always/often/sometimes).",
+          "h": "I take / I don't take + adv of freq",
+          "s": "I take paracetamol sometimes. I do not take any other medicine."
+        },
+        {
+          "p": "Can you point to the place that hurts?",
+          "m": "Nói vị trí đau bằng một từ (head, stomach, throat...). Nói nếu đau nhiều hay ít (bad/good/little).",
+          "h": "There is/It is + place + and + adjective",
+          "s": "It is my stomach that hurts. The pain is a little bad."
+        },
+        {
+          "p": "Do you have any allergies to drugs?",
+          "m": "Nói nếu bạn có dị ứng thuốc hay không. Nói tên thuốc nếu có dị ứng.",
+          "h": "I am allergic to / I am not allergic to",
+          "s": "I am not allergic to any medicine. I have no medicine allergies."
+        }
+      ]
+    },
+    {
+      "t": "Mô tả cơn đau",
+      "e": [
+        {
+          "p": "How does the pain feel?",
+          "m": "Dùng một từ mô tả (sharp/dull/ache). Nói cấp độ đau đơn giản (bad/little).",
+          "h": "It is + adjective / It is + a + noun",
+          "s": "It is a sharp pain. The pain is quite bad."
+        },
+        {
+          "p": "Is the pain constant or does it come and go?",
+          "m": "Nói nó liên tục hay ngắt quãng. Nói thêm tần suất nếu ngắt quãng (often/sometimes).",
+          "h": "It is constant / It comes and goes + adv of freq",
+          "s": "It comes and goes sometimes. It is not constant."
+        },
+        {
+          "p": "Does anything make the pain worse?",
+          "m": "Nói một hành động làm đau nặng hơn (move/eat). Nói nếu hành động đó luôn làm nặng hơn.",
+          "h": "When I + V, it + gets + worse / always",
+          "s": "When I eat, the pain gets worse. It often hurts after food."
+        },
+        {
+          "p": "Do you feel pain more at night or during the day?",
+          "m": "Chọn night hoặc day. Nói tần suất (usually/sometimes).",
+          "h": "I feel it + at night/day + adv of freq",
+          "s": "I feel it more at night. It usually hurts after 10 pm."
+        },
+        {
+          "p": "Can you move that part of your body?",
+          "m": "Nói bạn có thể di chuyển được hay không. Nói nếu di chuyển gây đau.",
+          "h": "I can / I cannot + V + and + it + hurts",
+          "s": "I can move it a little. It hurts when I move."
+        }
+      ]
+    },
+    {
+      "t": "Triệu chứng sốt và cảm",
+      "e": [
+        {
+          "p": "Do you have a fever?",
+          "m": "Nói có bị sốt hay không. Nói mức độ (high/low) hoặc cảm giác nóng/khó chịu.",
+          "h": "I have / I do not have + fever / it is + adjective",
+          "s": "I have a fever. I feel very hot."
+        },
+        {
+          "p": "Are you shivering or sweating?",
+          "m": "Nói nếu bạn run hoặc đổ mồ hôi. Nói tần suất (often/sometimes).",
+          "h": "I am + V-ing / I often / sometimes + V",
+          "s": "I am sweating a lot. I sometimes feel cold and shiver."
+        },
+        {
+          "p": "Do you have a runny nose?",
+          "m": "Nói có hay không. Nói nếu nước mũi nhiều hay ít (a little/a lot).",
+          "h": "I have a runny nose / a little / a lot",
+          "s": "Yes, I have a runny nose. It is a little now."
+        },
+        {
+          "p": "Are you eating and drinking well?",
+          "m": "Nói nếu bạn ăn uống bình thường hay không. Nói nếu bạn cảm thấy buồn nôn.",
+          "h": "I eat/drink + well/not well + and + I feel + adjective",
+          "s": "I am not eating well. I feel a little sick and I do not drink much."
+        },
+        {
+          "p": "Have you checked your temperature?",
+          "m": "Nói nếu bạn đã đo thân nhiệt hay chưa. Nói kết quả đơn giản nếu có (high/normal).",
+          "h": "I have / I did not + check + and + it is + adjective",
+          "s": "I did not check yet. I feel it is high."
+        }
+      ]
+    },
+    {
+      "t": "Ho và đau họng",
+      "e": [
+        {
+          "p": "Do you have a sore throat?",
+          "m": "Nói có đau họng hay không. Nói cảm giác (dry/painful).",
+          "h": "I have a sore throat / It is + adjective",
+          "s": "I have a sore throat. It feels dry and painful."
+        },
+        {
+          "p": "Is your cough dry or productive?",
+          "m": "Chọn dry hoặc productive (có đờm). Nói nếu ho thường xuyên.",
+          "h": "It is dry / It has phlegm + and + adv of freq",
+          "s": "My cough is dry. I cough often at night."
+        },
+        {
+          "p": "Can you swallow food easily?",
+          "m": "Nói có nuốt dễ hay không. Nói nếu nuốt làm đau.",
+          "h": "I can / cannot + swallow + and + it + hurts",
+          "s": "I cannot swallow easily. It hurts when I swallow."
+        },
+        {
+          "p": "Have you lost your voice?",
+          "m": "Nói nếu bạn mất tiếng hay nói được. Nói mức độ mất tiếng (a little/a lot).",
+          "h": "I have lost my voice / I can still speak + a little/a lot",
+          "s": "I have lost my voice a little. I can still speak but it is weak."
+        },
+        {
+          "p": "Do you use lozenges or warm drinks?",
+          "m": "Nói nếu bạn đang dùng viên ngậm hay đồ uống ấm. Nói tần suất dùng (often/sometimes).",
+          "h": "I use + item + often/sometimes / I drink + warm drink",
+          "s": "I drink warm tea sometimes. I do not use lozenges now."
+        }
+      ]
+    },
+    {
+      "t": "Đau bụng và ăn uống",
+      "e": [
+        {
+          "p": "Where exactly does your stomach hurt?",
+          "m": "Nói vị trí (upper/lower/right/left). Nói nếu đau lan ra chỗ khác.",
+          "h": "It hurts in the + place + and + it + spreads",
+          "s": "It hurts in my lower stomach. The pain does not spread to other places."
+        },
+        {
+          "p": "Do you have nausea or vomiting?",
+          "m": "Nói có buồn nôn/ nôn hay không. Nói tần suất (sometimes/often).",
+          "h": "I have nausea / I vomit + sometimes/often",
+          "s": "I have nausea sometimes. I did not vomit yet."
+        },
+        {
+          "p": "Did you eat anything unusual recently?",
+          "m": "Nói nếu bạn ăn thức ăn lạ hoặc khác thường. Nói khi nào (today/yesterday).",
+          "h": "I ate + food + (today/yesterday) / I did not eat",
+          "s": "I ate street food yesterday. I think it may be the cause."
+        },
+        {
+          "p": "Are you having diarrhea or constipation?",
+          "m": "Nói có tiêu chảy hay táo bón hay không. Nói tần suất (often/sometimes).",
+          "h": "I have diarrhea/constipation + often/sometimes",
+          "s": "I have diarrhea today. It is happening several times."
+        },
+        {
+          "p": "Do you need advice on what to eat?",
+          "m": "Nói nếu bạn muốn lời khuyên ăn uống. Nói loại thức ăn bạn thích hoặc tránh.",
+          "h": "I want / I do not want + advice + and + I like/avoid + food",
+          "s": "I want advice on soft food. I usually avoid spicy food."
+        }
+      ]
+    },
+    {
+      "t": "Đau đầu và mệt mỏi",
+      "e": [
+        {
+          "p": "How bad is your headache on a scale of 1 to 10?",
+          "m": "Nói số từ 1 đến 10. Nói nếu đau làm bạn không thể làm việc.",
+          "h": "It is + number + and + I can/cannot + V",
+          "s": "My headache is a 6 out of 10. I cannot work well now."
+        },
+        {
+          "p": "Are you feeling tired all day?",
+          "m": "Nói nếu bạn mệt cả ngày hay chỉ một phần. Nói hoạt động bạn làm ít vì mệt.",
+          "h": "I am tired all day / I only + V + sometimes",
+          "s": "I am tired all day today. I only rest and do little work."
+        },
+        {
+          "p": "Do bright lights make it worse?",
+          "m": "Nói nếu ánh sáng làm nặng hơn. Nói bạn tránh ánh sáng hay không.",
+          "h": "Bright lights make it worse / I avoid + noun",
+          "s": "Yes, bright lights make it worse. I avoid bright rooms now."
+        },
+        {
+          "p": "How often do you sleep well at night?",
+          "m": "Nói tần suất bạn ngủ ngon (always/often/sometimes/never). Nói nếu thiếu ngủ làm triệu chứng nặng.",
+          "h": "I always/often/sometimes/never + sleep well + and + it + makes + symptom",
+          "s": "I often sleep poorly. Lack of sleep makes the headache worse."
+        },
+        {
+          "p": "Do you drink coffee or tea every day?",
+          "m": "Nói bạn uống cà phê/ trà hàng ngày hay không. Nói lượng (a little/a lot).",
+          "h": "I drink + coffee/tea + every day + a little/a lot",
+          "s": "I drink coffee every morning. I drink a little only."
+        }
+      ]
+    },
+    {
+      "t": "Dị ứng và mẩn da",
+      "e": [
+        {
+          "p": "Do you have any skin rash?",
+          "m": "Nói có mẩn đỏ hay không. Nói vị trí mẩn (arm/leg/face).",
+          "h": "I have a rash on + place / It is + red",
+          "s": "I have a red rash on my arm. It is a little itchy."
+        },
+        {
+          "p": "Is the rash itchy or painful?",
+          "m": "Nói cảm giác chính (itchy/painful). Nói mức độ (a little/a lot).",
+          "h": "It is itchy/painful + and + adv",
+          "s": "The rash is itchy. It is a lot itchy at night."
+        },
+        {
+          "p": "Did you use a new soap or cream?",
+          "m": "Nói bạn có dùng sản phẩm mới hay không. Nói khi nào nếu có (today/yesterday).",
+          "h": "I used a new soap/cream + today/yesterday / I did not use",
+          "s": "I used a new soap yesterday. I think it caused the rash."
+        },
+        {
+          "p": "Do you have any swelling?",
+          "m": "Nói có sưng hay không. Nói vị trí và nếu sưng lớn hay nhỏ.",
+          "h": "There is swelling on + place + and + it is + small/large",
+          "s": "There is swelling on my face. The swelling is small."
+        },
+        {
+          "p": "Have you tried an antihistamine?",
+          "m": "Nói nếu bạn đã thử thuốc kháng histamine hay không. Nói hiệu quả (yes/no or helps/doesn't help).",
+          "h": "I tried / I did not try + and + it + helps/doesn't help",
+          "s": "I tried an antihistamine today. It helps a little."
+        }
+      ]
+    },
+    {
+      "t": "Chấn thương nhẹ",
+      "e": [
+        {
+          "p": "How did you get this injury?",
+          "m": "Nói cách bạn bị thương (fall/hit). Nói khi nào (today/yesterday).",
+          "h": "I fell / I hit + (today/yesterday)",
+          "s": "I fell down the stairs yesterday. I hit my knee."
+        },
+        {
+          "p": "Is there any bleeding?",
+          "m": "Nói có chảy máu hay không. Nói lượng (a little/a lot).",
+          "h": "There is bleeding / There is no bleeding + and + a little/a lot",
+          "s": "There is a little bleeding. It is not a lot."
+        },
+        {
+          "p": "Can you walk normally?",
+          "m": "Nói có thể đi bình thường không. Nói nếu bạn cần giúp đỡ khi đi.",
+          "h": "I can / I cannot + walk + and + I need help",
+          "s": "I cannot walk well now. I need help to move."
+        },
+        {
+          "p": "Do you have a bruise or swelling?",
+          "m": "Nói có bầm tím hoặc sưng hay không. Nói màu sắc hoặc to nhỏ.",
+          "h": "There is a bruise / swelling + and + it is + color/size",
+          "s": "There is a big bruise on my leg. The bruise is dark blue."
+        },
+        {
+          "p": "Did you clean the wound?",
+          "m": "Nói nếu bạn đã rửa vết thương hay chưa. Nói bạn đã dùng băng hay không.",
+          "h": "I cleaned it / I did not clean it + and + I used a bandage",
+          "s": "I cleaned the wound with water. I put a small bandage on it."
+        }
+      ]
+    },
+    {
+      "t": "Thuốc và liều dùng",
+      "e": [
+        {
+          "p": "What medicine do you usually take for pain?",
+          "m": "Nói tên thuốc bạn dùng cho đau. Nói tần suất bạn dùng (often/sometimes).",
+          "h": "I take + medicine + often/sometimes",
+          "s": "I take paracetamol for pain. I take it sometimes."
+        },
+        {
+          "p": "How many pills do you take each time?",
+          "m": "Nói số viên mỗi lần. Nói nếu bạn đọc hướng dẫn trên hộp.",
+          "h": "I take + number + pills + each time / I read + the label",
+          "s": "I take two pills each time. I read the box before I take them."
+        },
+        {
+          "p": "Do you take medicine with food or on empty stomach?",
+          "m": "Nói bạn uống thuốc cùng thức ăn hay khi đói. Nói nếu đó tốt cho bạn.",
+          "h": "I take it with food / on an empty stomach + and + it is good/bad",
+          "s": "I take medicine with food. It is better for my stomach."
+        },
+        {
+          "p": "Do you stop medicine when you feel better?",
+          "m": "Nói bạn dừng thuốc khi thấy khỏe hay tiếp tục. Nói tần suất bạn dừng sớm (sometimes/often).",
+          "h": "I stop it when I feel better / I sometimes stop early",
+          "s": "I stop medicine when I feel better. I sometimes stop it early."
+        },
+        {
+          "p": "Are you using any herbal or home remedies?",
+          "m": "Nói nếu bạn dùng thuốc nam/biện pháp nhà hay không. Nói loại đơn giản (tea/honey).",
+          "h": "I use + tea/honey + sometimes / I do not use",
+          "s": "I drink honey and lemon tea. I use it sometimes for my throat."
+        }
+      ]
+    },
+    {
+      "t": "Hẹn khám và thời gian nghỉ",
+      "e": [
+        {
+          "p": "When can you come for an appointment?",
+          "m": "Nói ngày hoặc thời gian bạn rảnh (today/tomorrow/morning). Nói nếu bạn cần sớm hoặc có thể chờ.",
+          "h": "I can come + today/tomorrow + in the morning/afternoon / I need soon",
+          "s": "I can come tomorrow morning. I need an appointment soon."
+        },
+        {
+          "p": "Do you need time off work or school?",
+          "m": "Nói bạn cần nghỉ làm/học hay không. Nói số ngày dự kiến nếu cần (one/two).",
+          "h": "I need time off / I do not need + and + for + number + days",
+          "s": "I need time off from work. I think I need two days."
+        },
+        {
+          "p": "Are you able to rest at home?",
+          "m": "Nói bạn có thể nghỉ ngơi ở nhà không. Nói ai sẽ giúp bạn nếu cần.",
+          "h": "I can rest at home / I cannot + and + someone helps me",
+          "s": "I can rest at home today. My friend helps me if I need help."
+        },
+        {
+          "p": "Do you prefer a morning or afternoon visit?",
+          "m": "Nói bạn thích buổi sáng hay chiều. Nói lý do ngắn (less busy/easier).",
+          "h": "I prefer morning/afternoon + because + short reason",
+          "s": "I prefer a morning visit. It is less busy then."
+        },
+        {
+          "p": "Can you call if your symptoms get worse?",
+          "m": "Nói nếu bạn có thể gọi khi nặng hơn. Nói bạn sẽ gọi ngay hay chờ.",
+          "h": "I can call / I will call + immediately/if needed",
+          "s": "I can call if my symptoms get worse. I will call immediately."
+        }
+      ]
+    },
+    {
+      "t": "Tình trạng hàng ngày",
+      "e": [
+        {
+          "p": "Do you exercise every day?",
+          "m": "Nói bạn có tập thể dục hàng ngày hay không. Nói loại hoạt động ngắn (walk/run).",
+          "h": "I exercise every day / I do not + and + I + walk/run",
+          "s": "I do not exercise every day. I walk sometimes."
+        },
+        {
+          "p": "How many hours do you sleep at night?",
+          "m": "Nói số giờ ngủ trung bình. Nói nếu bạn ngủ tốt hay không.",
+          "h": "I sleep + number + hours + and + I sleep well/not well",
+          "s": "I sleep six hours a night. I do not sleep well."
+        },
+        {
+          "p": "Do you drink enough water?",
+          "m": "Nói bạn có uống đủ nước không. Nói lượng (a little/a lot).",
+          "h": "I drink a lot/a little + water + every day",
+          "s": "I drink a little water every day. I need to drink more."
+        },
+        {
+          "p": "Do you feel stressed at work or school?",
+          "m": "Nói bạn có cảm thấy căng thẳng không. Nói nếu stress ảnh hưởng sức khỏe.",
+          "h": "I feel stressed / I do not + and + it + affects + my health",
+          "s": "I feel stressed at work. The stress affects my sleep."
+        },
+        {
+          "p": "Do you wash your hands often?",
+          "m": "Nói bạn rửa tay thường xuyên hay không. Nói nếu bạn rửa trước khi ăn.",
+          "h": "I wash my hands often / before eating + yes/no",
+          "s": "I wash my hands often. I wash them before I eat."
+        }
+      ]
+    },
+    {
+      "t": "Ở nhà với bệnh",
+      "e": [
+        {
+          "p": "Are you staying at home today?",
+          "m": "Nói bạn ở nhà hay ra ngoài. Nói lý do ngắn (sick/rest).",
+          "h": "I am staying at home / I am going out + because",
+          "s": "I am staying at home today. I need to rest because I am sick."
+        },
+        {
+          "p": "Who is taking care of you at home?",
+          "m": "Nói ai chăm sóc bạn (family/friend). Nói họ giúp việc gì (cook/help).",
+          "h": "My + family/friend + helps me + to + V",
+          "s": "My mother is taking care of me. She cooks and brings medicine."
+        },
+        {
+          "p": "Do you need help with food or medicine?",
+          "m": "Nói bạn có cần giúp mua đồ ăn hoặc thuốc hay không. Nói bạn tự lo được hay cần người khác.",
+          "h": "I need help / I do not need help + I can/cannot + do it",
+          "s": "I need help with medicine. I cannot go out to buy it."
+        },
+        {
+          "p": "Are you isolating from others at home?",
+          "m": "Nói bạn có tách riêng hay không. Nói vì lý do an toàn hay không.",
+          "h": "I am isolating / I am not + because + safety reason",
+          "s": "I am isolating in my room. It is for safety to protect others."
+        },
+        {
+          "p": "Do you check your symptoms every day?",
+          "m": "Nói bạn có kiểm tra triệu chứng hàng ngày hay không. Nói bạn ghi lại hay chỉ nhớ.",
+          "h": "I check them every day / I only remember + and + I write/not write",
+          "s": "I check my temperature every day. I write the numbers in a small notebook."
+        }
+      ]
+    },
+    {
+      "t": "Ôn tập: Khám nhanh",
+      "e": [
+        {
+          "p": "What symptoms do you have now?",
+          "m": "Nói 2 triệu chứng chính hiện tại (ví dụ fever, cough). Nói nếu chúng đang diễn ra bây giờ.",
+          "h": "I have + symptom1 and + symptom2 / they are happening now",
+          "s": "I have a fever and a cough. They are happening now."
+        },
+        {
+          "p": "Where is the pain and how is it?",
+          "m": "Nói vị trí đau. Nói cảm giác đau (sharp/dull).",
+          "h": "It hurts in + place + and + it is + adjective",
+          "s": "It hurts in my throat. The pain is sharp."
+        },
+        {
+          "p": "Do you take any medicine and how often?",
+          "m": "Nói tên thuốc nếu có. Nói tần suất dùng (sometimes/often).",
+          "h": "I take + medicine + sometimes/often",
+          "s": "I take paracetamol sometimes. I take it every six hours."
+        },
+        {
+          "p": "Can you do your normal activities?",
+          "m": "Nói có thể làm việc hay học bình thường không. Nói nếu bạn cần nghỉ ngơi.",
+          "h": "I can / I cannot + and + I need + rest",
+          "s": "I cannot do my normal work. I need to rest today."
+        },
+        {
+          "p": "Do you want a sick note or a prescription?",
+          "m": "Nói bạn muốn giấy nghỉ hay đơn thuốc hoặc cả hai. Nói lựa chọn ngắn.",
+          "h": "I want + sick note/prescription/both",
+          "s": "I want a prescription only. I do not need a sick note."
+        }
+      ]
+    },
+    {
+      "t": "Ôn tập: Mô tả triệu chứng",
+      "e": [
+        {
+          "p": "Is your pain constant or does it come and go?",
+          "m": "Nói loại đau (constant/comes and goes). Nói tần suất nếu ngắt quãng.",
+          "h": "It is constant / It comes and goes + sometimes/often",
+          "s": "It comes and goes sometimes. It is not constant."
+        },
+        {
+          "p": "Does the fever make you sweat or shiver?",
+          "m": "Nói bạn đổ mồ hôi hay run. Nói nếu cả hai thì nói cả hai.",
+          "h": "I sweat / I shiver / I both + and + adv",
+          "s": "I sweat a lot when I have fever. I sometimes shiver too."
+        },
+        {
+          "p": "Can you describe your cough in one word?",
+          "m": "Dùng một từ mô tả (dry/productive). Nói thêm tần suất ho.",
+          "h": "It is + dry/productive + and + I cough + often/sometimes",
+          "s": "It is a dry cough. I cough often at night."
+        },
+        {
+          "p": "Do lights or noise make your headache worse?",
+          "m": "Nói nếu ánh sáng hoặc tiếng ồn làm nặng hơn. Nói bạn tránh chúng hay không.",
+          "h": "Light/noise makes it worse + and + I avoid + them",
+          "s": "Bright light makes my headache worse. I avoid it by closing the curtains."
+        },
+        {
+          "p": "Is your stomach pain related to eating?",
+          "m": "Nói có liên quan tới ăn hay không. Nói nếu ăn làm đau nặng hơn.",
+          "h": "Yes/No + and + when I eat + it gets worse",
+          "s": "Yes, it is related to eating. When I eat spicy food it gets worse."
+        }
+      ]
+    },
+    {
+      "t": "Ôn tập: Hành động và lời khuyên",
+      "e": [
+        {
+          "p": "Should you rest more or keep working?",
+          "m": "Nói bạn nên nghỉ ngơi hay tiếp tục công việc. Nói lý do ngắn (recover/need money).",
+          "h": "I should rest / I should keep working + because",
+          "s": "I should rest to recover. I cannot work well now."
+        },
+        {
+          "p": "Is it better to drink warm water or cold water now?",
+          "m": "Chọn warm hoặc cold. Nói lý do ngắn (soothe/help digestion).",
+          "h": "Warm water is better / Cold water is better + because",
+          "s": "Warm water is better for my sore throat. It soothes the pain."
+        },
+        {
+          "p": "Should you see a doctor if symptoms get worse?",
+          "m": "Nói có nên đi khám khi nặng hơn hay không. Nói bạn sẽ làm gì (call/visit).",
+          "h": "Yes, I should + call/visit + if it gets worse",
+          "s": "Yes, I should see a doctor if it gets worse. I will call first."
+        },
+        {
+          "p": "Is salt water gargle helpful for sore throat?",
+          "m": "Nói có hữu ích hay không. Nói bạn sẽ thử không.",
+          "h": "It is helpful / It is not + and + I will try",
+          "s": "Salt water gargle is helpful. I will try it tonight."
+        },
+        {
+          "p": "Can you check your temperature twice a day?",
+          "m": "Nói bạn có thể đo hai lần mỗi ngày hay không. Nói bạn sẽ ghi lại kết quả hay chỉ nhớ.",
+          "h": "I can check twice a day + and + I will write/remember",
+          "s": "I can check my temperature twice a day. I will write the results in a notebook."
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,530 @@
+{
+  "l": 1,
+  "d": [
+    {
+      "t": "Chào khách tại cửa hàng",
+      "e": [
+        {
+          "p": "Welcome! What's your name?",
+          "m": "Nói tên của bạn.",
+          "h": "My name is + tên.",
+          "s": "My name is [studentName]."
+        },
+        {
+          "p": "How are you today?",
+          "m": "Nói bạn cảm thấy thế nào (một từ).",
+          "h": "I am + tính từ (one word).",
+          "s": "I am fine."
+        },
+        {
+          "p": "Do you want help?",
+          "m": "Nói 'Yes, please.' hoặc 'No, thank you.'",
+          "h": "Yes, please. / No, thank you.",
+          "s": "Yes, please."
+        },
+        {
+          "p": "Where are you from?",
+          "m": "Nói thành phố bạn sống.",
+          "h": "I am from + city.",
+          "s": "I am from [studentCity]."
+        },
+        {
+          "p": "Do you have a reservation?",
+          "m": "Trả lời 'Yes' hoặc 'No'.",
+          "h": "Yes / No.",
+          "s": "No."
+        }
+      ]
+    },
+    {
+      "t": "Gặp khách đến văn phòng",
+      "e": [
+        {
+          "p": "Good morning. Do you have an appointment?",
+          "m": "Nói 'Yes' hoặc 'No'.",
+          "h": "Yes / No.",
+          "s": "Yes."
+        },
+        {
+          "p": "Who is your host?",
+          "m": "Nói tên người bạn gặp (một từ tên).",
+          "h": "My host is + tên.",
+          "s": "My host is Anna."
+        },
+        {
+          "p": "Where is the meeting room?",
+          "m": "Nói vị trí đơn giản (ví dụ: floor).",
+          "h": "It is on / It is next to + nơi.",
+          "s": "It is on the second floor."
+        },
+        {
+          "p": "Do you work here?",
+          "m": "Nói 'Yes' hoặc 'No'.",
+          "h": "Yes / No.",
+          "s": "No."
+        },
+        {
+          "p": "Can I help you with your bags?",
+          "m": "Nói 'Yes, please.' hoặc 'No, thank you.'",
+          "h": "Yes, please. / No, thank you.",
+          "s": "No, thank you."
+        }
+      ]
+    },
+    {
+      "t": "Tiếp khách ở nhà riêng",
+      "e": [
+        {
+          "p": "Welcome! Come in.",
+          "m": "Nói 'Thank you'.",
+          "h": "Thank you.",
+          "s": "Thank you."
+        },
+        {
+          "p": "Would you like some tea?",
+          "m": "Nói 'Yes, please.' hoặc 'No, thank you.'",
+          "h": "Yes, please. / No, thank you.",
+          "s": "Yes, please."
+        },
+        {
+          "p": "Please sit here.",
+          "m": "Nói 'Thank you' hoặc 'Ok'.",
+          "h": "Thank you. / Ok.",
+          "s": "Thank you."
+        },
+        {
+          "p": "Is this your first visit?",
+          "m": "Trả lời 'Yes' hoặc 'No'.",
+          "h": "Yes / No.",
+          "s": "No."
+        },
+        {
+          "p": "Where do you live?",
+          "m": "Nói thành phố bạn sống.",
+          "h": "I live in + city.",
+          "s": "I live in [studentCity]."
+        }
+      ]
+    },
+    {
+      "t": "Giới thiệu bản thân nhanh",
+      "e": [
+        {
+          "p": "What's your job?",
+          "m": "Nói nghề nghiệp của bạn.",
+          "h": "I am + job.",
+          "s": "I am [studentJob]."
+        },
+        {
+          "p": "How old are you?",
+          "m": "Nói tuổi của bạn (một số).",
+          "h": "I am + số + years old.",
+          "s": "I am [studentAge] years old."
+        },
+        {
+          "p": "Do you study or work?",
+          "m": "Nói 'I study' hoặc 'I work'.",
+          "h": "I study / I work.",
+          "s": "I study."
+        },
+        {
+          "p": "Where do you study?",
+          "m": "Nói tên trường bạn học.",
+          "h": "I study at + tên trường.",
+          "s": "I study at [studentSchool]."
+        },
+        {
+          "p": "Do you like your school?",
+          "m": "Nói 'Yes' hoặc 'No'.",
+          "h": "Yes / No.",
+          "s": "Yes."
+        }
+      ]
+    },
+    {
+      "t": "Xác nhận đặt bàn nhà hàng",
+      "e": [
+        {
+          "p": "Hello, do you have a reservation?",
+          "m": "Nói 'Yes' hoặc 'No'.",
+          "h": "Yes / No.",
+          "s": "Yes."
+        },
+        {
+          "p": "Under what name is the reservation?",
+          "m": "Nói tên đặt chỗ.",
+          "h": "My name is + tên.",
+          "s": "My name is [studentName]."
+        },
+        {
+          "p": "How many people?",
+          "m": "Nói số người (một câu).",
+          "h": "There are + số + of us.",
+          "s": "There are four of us."
+        },
+        {
+          "p": "Do you want a window table?",
+          "m": "Trả lời 'Yes' hoặc 'No'.",
+          "h": "Yes / No.",
+          "s": "No."
+        },
+        {
+          "p": "Do you have any food allergies?",
+          "m": "Trả lời 'Yes' hoặc 'No'.",
+          "h": "Yes / No.",
+          "s": "No."
+        }
+      ]
+    },
+    {
+      "t": "Check-in tại khách sạn",
+      "e": [
+        {
+          "p": "Welcome. Do you have a reservation?",
+          "m": "Nói 'Yes' hoặc 'No'.",
+          "h": "Yes / No.",
+          "s": "Yes."
+        },
+        {
+          "p": "What's your family name?",
+          "m": "Nói họ hoặc tên gia đình.",
+          "h": "My family name is + tên.",
+          "s": "My family name is [studentName]."
+        },
+        {
+          "p": "How many nights will you stay?",
+          "m": "Nói số đêm (một câu).",
+          "h": "I stay + số + nights.",
+          "s": "I stay two nights."
+        },
+        {
+          "p": "Do you need help with bags?",
+          "m": "Trả lời 'Yes' hoặc 'No'.",
+          "h": "Yes, please. / No, thank you.",
+          "s": "Yes, please."
+        },
+        {
+          "p": "Do you want breakfast?",
+          "m": "Trả lời 'Yes' hoặc 'No'.",
+          "h": "Yes / No.",
+          "s": "Yes."
+        }
+      ]
+    },
+    {
+      "t": "Nhận đặt chỗ qua điện thoại",
+      "e": [
+        {
+          "p": "Hello, may I help you?",
+          "m": "Nói bạn muốn đặt bàn.",
+          "h": "I want to + V (book).",
+          "s": "I want to book a table."
+        },
+        {
+          "p": "When is the date?",
+          "m": "Nói 'today' hoặc 'tomorrow' (một từ).",
+          "h": "today / tomorrow / a date word.",
+          "s": "Today."
+        },
+        {
+          "p": "How many people is the booking?",
+          "m": "Nói số người (một câu).",
+          "h": "There are + số + of us.",
+          "s": "There are two of us."
+        },
+        {
+          "p": "Smoking or non-smoking?",
+          "m": "Chọn 'smoking' hoặc 'non-smoking'.",
+          "h": "Say the word smoking / non-smoking.",
+          "s": "Non-smoking."
+        },
+        {
+          "p": "Can I have your name?",
+          "m": "Nói tên của bạn.",
+          "h": "My name is + tên.",
+          "s": "My name is [studentName]."
+        }
+      ]
+    },
+    {
+      "t": "Hỏi sở thích đơn giản",
+      "e": [
+        {
+          "p": "Do you like coffee?",
+          "m": "Trả lời 'Yes' hoặc 'No'.",
+          "h": "Yes / No.",
+          "s": "No."
+        },
+        {
+          "p": "What is your favorite color?",
+          "m": "Nói một màu (một từ).",
+          "h": "My favorite color is + color.",
+          "s": "My favorite color is blue."
+        },
+        {
+          "p": "Do you like music?",
+          "m": "Trả lời 'Yes' hoặc 'No'.",
+          "h": "Yes / No.",
+          "s": "Yes."
+        },
+        {
+          "p": "Do you play sports?",
+          "m": "Trả lời 'Yes' hoặc 'No'.",
+          "h": "Yes / No.",
+          "s": "No."
+        },
+        {
+          "p": "What is your hobby?",
+          "m": "Nói một sở thích đơn giản (một cụm).",
+          "h": "I like + V-ing hoặc a noun.",
+          "s": "I like reading."
+        }
+      ]
+    },
+    {
+      "t": "Thay đổi giờ hẹn",
+      "e": [
+        {
+          "p": "Can we move the meeting to 3 pm?",
+          "m": "Trả lời 'Yes' hoặc 'No'.",
+          "h": "Yes / No.",
+          "s": "No."
+        },
+        {
+          "p": "Is 4 pm OK?",
+          "m": "Trả lời 'Yes' hoặc 'No'.",
+          "h": "Yes / No.",
+          "s": "Yes."
+        },
+        {
+          "p": "What time can you come?",
+          "m": "Nói giờ bạn có thể đến (một cụm).",
+          "h": "I can come at + time.",
+          "s": "I can come at 4 pm."
+        },
+        {
+          "p": "Do you prefer the morning?",
+          "m": "Trả lời 'Yes' hoặc 'No'.",
+          "h": "Yes / No.",
+          "s": "No."
+        },
+        {
+          "p": "Please confirm the new time.",
+          "m": "Nói thời gian mới (một câu).",
+          "h": "The new time is + time.",
+          "s": "The new time is 4 pm."
+        }
+      ]
+    },
+    {
+      "t": "Khách đến muộn",
+      "e": [
+        {
+          "p": "Are you late?",
+          "m": "Trả lời 'Yes' hoặc 'No'.",
+          "h": "Yes / No.",
+          "s": "Yes."
+        },
+        {
+          "p": "What time did you arrive?",
+          "m": "Nói giờ bạn đến (một câu).",
+          "h": "I arrived at + time.",
+          "s": "I arrived at 9 am."
+        },
+        {
+          "p": "Do you need a seat now?",
+          "m": "Trả lời 'Yes' hoặc 'No'.",
+          "h": "Yes / No.",
+          "s": "Yes."
+        },
+        {
+          "p": "It's OK, thank you for coming.",
+          "m": "Nói 'Thank you'.",
+          "h": "Thank you.",
+          "s": "Thank you."
+        },
+        {
+          "p": "Can you wait five minutes?",
+          "m": "Trả lời 'Yes' hoặc 'No'.",
+          "h": "Yes / No.",
+          "s": "Yes."
+        }
+      ]
+    },
+    {
+      "t": "Yêu cầu đặc biệt đơn giản",
+      "e": [
+        {
+          "p": "Do you need a quiet table?",
+          "m": "Trả lời 'Yes' hoặc 'No'.",
+          "h": "Yes / No.",
+          "s": "Yes."
+        },
+        {
+          "p": "Do you have a child seat?",
+          "m": "Trả lời 'Yes' hoặc 'No'.",
+          "h": "Yes / No.",
+          "s": "No."
+        },
+        {
+          "p": "I need a room with a view.",
+          "m": "Nói 'I want' hoặc 'I don't want' (một câu).",
+          "h": "I want / I don't want + noun.",
+          "s": "I want a room with a view."
+        },
+        {
+          "p": "Are you allergic to nuts?",
+          "m": "Trả lời 'Yes' hoặc 'No'.",
+          "h": "Yes / No.",
+          "s": "No."
+        },
+        {
+          "p": "Can we add a birthday cake?",
+          "m": "Trả lời 'Yes' hoặc 'No'.",
+          "h": "Yes / No.",
+          "s": "Yes."
+        }
+      ]
+    },
+    {
+      "t": "Hỏi đường trong tòa nhà",
+      "e": [
+        {
+          "p": "Excuse me, where is the restroom?",
+          "m": "Nói vị trí ngắn (ví dụ: next to the lobby).",
+          "h": "It is + vị trí.",
+          "s": "It is next to the lobby."
+        },
+        {
+          "p": "Where is the elevator?",
+          "m": "Nói vị trí đơn giản.",
+          "h": "The elevator is + vị trí.",
+          "s": "The elevator is near the stairs."
+        },
+        {
+          "p": "Is the meeting room on this floor?",
+          "m": "Trả lời 'Yes' hoặc 'No'.",
+          "h": "Yes / No.",
+          "s": "Yes."
+        },
+        {
+          "p": "How do I go to the reception?",
+          "m": "Nói hướng đơn giản (một câu).",
+          "h": "Go + left/right/straight.",
+          "s": "Go left and then straight."
+        },
+        {
+          "p": "Is there a café here?",
+          "m": "Trả lời 'Yes' hoặc 'No'.",
+          "h": "Yes / No.",
+          "s": "Yes."
+        }
+      ]
+    },
+    {
+      "t": "Ôn tập: Gặp và chào",
+      "e": [
+        {
+          "p": "Hello, what's your name?",
+          "m": "Nói tên của bạn.",
+          "h": "My name is + tên.",
+          "s": "My name is [studentName]."
+        },
+        {
+          "p": "Where do you live?",
+          "m": "Nói thành phố bạn sống.",
+          "h": "I live in + city.",
+          "s": "I live in [studentCity]."
+        },
+        {
+          "p": "Do you work or study?",
+          "m": "Nói 'I work' hoặc 'I study'.",
+          "h": "I work / I study.",
+          "s": "I study."
+        },
+        {
+          "p": "Do you like coffee?",
+          "m": "Trả lời 'Yes' hoặc 'No'.",
+          "h": "Yes / No.",
+          "s": "No."
+        },
+        {
+          "p": "Can you come tomorrow?",
+          "m": "Trả lời 'Yes' hoặc 'No'.",
+          "h": "Yes / No.",
+          "s": "Yes."
+        }
+      ]
+    },
+    {
+      "t": "Ôn tập: Đặt chỗ và xác nhận",
+      "e": [
+        {
+          "p": "I have a table for four.",
+          "m": "Xác nhận 'Ok' hoặc 'No'.",
+          "h": "Ok / No.",
+          "s": "Ok."
+        },
+        {
+          "p": "What name is the reservation under?",
+          "m": "Nói tên đặt chỗ.",
+          "h": "My name is + tên.",
+          "s": "My name is [studentName]."
+        },
+        {
+          "p": "How many nights do you stay?",
+          "m": "Nói số đêm (một câu).",
+          "h": "I stay + số + nights.",
+          "s": "I stay two nights."
+        },
+        {
+          "p": "Do you want breakfast?",
+          "m": "Trả lời 'Yes' hoặc 'No'.",
+          "h": "Yes / No.",
+          "s": "Yes."
+        },
+        {
+          "p": "Please show your ID.",
+          "m": "Nói 'Here it is'.",
+          "h": "Here it is.",
+          "s": "Here it is."
+        }
+      ]
+    },
+    {
+      "t": "Ôn tập: Vấn đề và giải pháp",
+      "e": [
+        {
+          "p": "Sorry, we don't have your table now.",
+          "m": "Trả lời 'Ok' hoặc 'No'.",
+          "h": "Ok / No.",
+          "s": "Ok."
+        },
+        {
+          "p": "Do you want to wait?",
+          "m": "Trả lời 'Yes' hoặc 'No'.",
+          "h": "Yes / No.",
+          "s": "Yes."
+        },
+        {
+          "p": "The elevator is broken.",
+          "m": "Nói bạn sẽ đi bằng cầu thang (một câu).",
+          "h": "I take + the stairs.",
+          "s": "I take the stairs."
+        },
+        {
+          "p": "We can change your reservation.",
+          "m": "Trả lời 'Yes' hoặc 'No'.",
+          "h": "Yes / No.",
+          "s": "Yes."
+        },
+        {
+          "p": "Can we give you a free drink?",
+          "m": "Trả lời 'Yes' hoặc 'No'.",
+          "h": "Yes / No.",
+          "s": "No."
+        }
+      ]
+    }
+  ]
+}

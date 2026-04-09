@@ -1,0 +1,530 @@
+{
+  "l": 1,
+  "d": [
+    {
+      "t": "Gọi giúp khẩn cấp",
+      "e": [
+        {
+          "p": "What is the emergency?",
+          "m": "Nói 1 câu: vấn đề chính là gì.",
+          "h": "S + be + N/Adj hoặc S + V(s) + O",
+          "s": "A man is hurt."
+        },
+        {
+          "p": "Where are you now?",
+          "m": "Nói nơi bạn ở ngắn gọn.",
+          "h": "S + be + place",
+          "s": "I am at the house."
+        },
+        {
+          "p": "How many people are hurt?",
+          "m": "Nói số người bị thương.",
+          "h": "There is/There are + number",
+          "s": "There are two people hurt."
+        },
+        {
+          "p": "Can you move the injured person?",
+          "m": "Nói có hoặc không bạn có thể di chuyển người đó.",
+          "h": "S + can/can't + V",
+          "s": "I can't move him."
+        },
+        {
+          "p": "Do you need an ambulance?",
+          "m": "Trả lời có hoặc không.",
+          "h": "Yes/No + S + V",
+          "s": "Yes, we need an ambulance."
+        }
+      ]
+    },
+    {
+      "t": "Mô tả vết thương",
+      "e": [
+        {
+          "p": "Where is the wound?",
+          "m": "Nói vị trí vết thương trên cơ thể.",
+          "h": "S + be + place",
+          "s": "The wound is on his leg."
+        },
+        {
+          "p": "Is the wound bleeding?",
+          "m": "Trả lời có hoặc không, dùng 'bleeding' hoặc 'no'.",
+          "h": "S + be + V/Adj hoặc S + V(s) + O",
+          "s": "Yes, it is bleeding."
+        },
+        {
+          "p": "How big is the wound?",
+          "m": "Mô tả ngắn kích thước: small/large.",
+          "h": "S + be + small/large",
+          "s": "The wound is small."
+        },
+        {
+          "p": "Can you see any blood on clothes?",
+          "m": "Trả lời có/không ngắn gọn.",
+          "h": "S + can/can't + V or There is/are",
+          "s": "Yes, there is blood on his shirt."
+        },
+        {
+          "p": "Do you think the wound is serious?",
+          "m": "Nói có/không ngắn và lý do ngắn (1 cụm).",
+          "h": "S + think + S + be + Adj or S + can/can't + V",
+          "s": "Yes, I think it is serious."
+        }
+      ]
+    },
+    {
+      "t": "Tình trạng thở",
+      "e": [
+        {
+          "p": "Is the person breathing?",
+          "m": "Trả lời có/không ngắn gọn.",
+          "h": "S + can/can't + V hoặc S + be + Adj",
+          "s": "He can't breathe."
+        },
+        {
+          "p": "Can the person speak?",
+          "m": "Trả lời có/không ngắn gọn.",
+          "h": "S + can/can't + V",
+          "s": "He can't speak."
+        },
+        {
+          "p": "Is there any noise when he breathes?",
+          "m": "Trả lời có/không ngắn và nói loại tiếng (1 từ).",
+          "h": "Yes/No + there is/are + N or S + be + Adj",
+          "s": "Yes, there is a loud noise."
+        },
+        {
+          "p": "Do you see chest movement?",
+          "m": "Trả lời có/không ngắn.",
+          "h": "S + do/does + V? hoặc S + be + V-ing (hãy dùng S + V)",
+          "s": "No, I do not see movement."
+        },
+        {
+          "p": "Can you check the airway now?",
+          "m": "Trả lời bạn có thể làm việc đó hay không.",
+          "h": "S + can/can't + V",
+          "s": "I can check the airway."
+        }
+      ]
+    },
+    {
+      "t": "Người bất tỉnh",
+      "e": [
+        {
+          "p": "Is the person awake?",
+          "m": "Trả lời có hoặc không.",
+          "h": "S + be + Adj",
+          "s": "No, he is not awake."
+        },
+        {
+          "p": "Can you feel a pulse?",
+          "m": "Trả lời có hoặc không.",
+          "h": "S + can/can't + V",
+          "s": "I can't feel a pulse."
+        },
+        {
+          "p": "Is the person cold or hot?",
+          "m": "Chọn 1 từ: cold hoặc hot.",
+          "h": "S + be + cold/hot",
+          "s": "He is cold."
+        },
+        {
+          "p": "Do you see any injury on the head?",
+          "m": "Trả lời có/không ngắn gọn.",
+          "h": "There is/There are hoặc S + be + place",
+          "s": "Yes, there is a cut on his head."
+        },
+        {
+          "p": "Should we put him in recovery position?",
+          "m": "Trả lời có/không và hành động ngắn (1 câu).",
+          "h": "Yes/No + S + V",
+          "s": "Yes, we should turn him on his side."
+        }
+      ]
+    },
+    {
+      "t": "Đau ngực",
+      "e": [
+        {
+          "p": "Where is the pain?",
+          "m": "Nói vị trí đau ngắn gọn.",
+          "h": "S + have + N or S + feel + N",
+          "s": "He has pain in his chest."
+        },
+        {
+          "p": "Is the pain strong?",
+          "m": "Trả lời có hoặc không.",
+          "h": "S + be + strong/weak",
+          "s": "Yes, the pain is strong."
+        },
+        {
+          "p": "Can he breathe well?",
+          "m": "Trả lời có/không ngắn gọn.",
+          "h": "S + can/can't + V",
+          "s": "He can't breathe well."
+        },
+        {
+          "p": "Does he have nausea?",
+          "m": "Trả lời có/không ngắn gọn.",
+          "h": "S + have + N or S + be + Adj",
+          "s": "Yes, he has nausea."
+        },
+        {
+          "p": "Do you think this is an emergency?",
+          "m": "Nói có/không ngắn và lý do 1 cụm.",
+          "h": "S + think + S + be + Adj",
+          "s": "Yes, I think it is an emergency."
+        }
+      ]
+    },
+    {
+      "t": "Bị bỏng",
+      "e": [
+        {
+          "p": "Where is the burn?",
+          "m": "Nói vị trí bị bỏng ngắn gọn.",
+          "h": "S + be + place",
+          "s": "The burn is on his hand."
+        },
+        {
+          "p": "Is the skin red?",
+          "m": "Trả lời có hoặc không.",
+          "h": "S + be + Adj",
+          "s": "Yes, the skin is red."
+        },
+        {
+          "p": "Can you put cool water?",
+          "m": "Trả lời bạn có thể làm việc đó hay không.",
+          "h": "S + can/can't + V",
+          "s": "I can put cool water."
+        },
+        {
+          "p": "Is there blisters?",
+          "m": "Trả lời có/không ngắn gọn.",
+          "h": "There is/There are + N",
+          "s": "Yes, there are small blisters."
+        },
+        {
+          "p": "Do you need a doctor now?",
+          "m": "Trả lời có/không ngắn.",
+          "h": "Yes/No + S + V",
+          "s": "Yes, we need a doctor."
+        }
+      ]
+    },
+    {
+      "t": "Chảy máu nặng",
+      "e": [
+        {
+          "p": "Where is the bleeding?",
+          "m": "Nói vị trí chảy máu.",
+          "h": "S + be + place or There is + N",
+          "s": "The bleeding is from his arm."
+        },
+        {
+          "p": "Is the blood flowing a lot?",
+          "m": "Trả lời có/không ngắn gọn.",
+          "h": "S + be + a lot/ little or S + V(s) + O",
+          "s": "Yes, the blood is flowing a lot."
+        },
+        {
+          "p": "Can you press the wound?",
+          "m": "Nói bạn có thể ấn vết thương hay không.",
+          "h": "S + can/can't + V",
+          "s": "I can press the wound."
+        },
+        {
+          "p": "Do you have a cloth?",
+          "m": "Trả lời có/không ngắn gọn.",
+          "h": "S + have + N",
+          "s": "Yes, I have a clean cloth."
+        },
+        {
+          "p": "Should we raise the injured arm?",
+          "m": "Trả lời có/không và hành động ngắn.",
+          "h": "Yes/No + S + V",
+          "s": "Yes, raise the arm."
+        }
+      ]
+    },
+    {
+      "t": "Ngộ độc nhẹ (ăn phải đồ lạ)",
+      "e": [
+        {
+          "p": "What did the person eat?",
+          "m": "Nói 1 từ hoặc cụm: món đã ăn.",
+          "h": "S + V(s) + O",
+          "s": "He ate some fish."
+        },
+        {
+          "p": "Is he vomiting?",
+          "m": "Trả lời có/không ngắn gọn.",
+          "h": "S + be + V/Adj or S + can/can't + V",
+          "s": "Yes, he is vomiting."
+        },
+        {
+          "p": "Does he have stomach pain?",
+          "m": "Trả lời có/không ngắn gọn.",
+          "h": "S + have + N or S + be + Adj",
+          "s": "Yes, he has stomach pain."
+        },
+        {
+          "p": "Can you give water?",
+          "m": "Nói bạn có thể cho nước hay không.",
+          "h": "S + can/can't + V",
+          "s": "I can give water."
+        },
+        {
+          "p": "Do we need to call a doctor?",
+          "m": "Trả lời có/không ngắn.",
+          "h": "Yes/No + S + V",
+          "s": "Yes, we need a doctor."
+        }
+      ]
+    },
+    {
+      "t": "Tai nạn giao thông",
+      "e": [
+        {
+          "p": "Is the car damaged?",
+          "m": "Trả lời có/không ngắn gọn.",
+          "h": "S + be + Adj",
+          "s": "Yes, the car is damaged."
+        },
+        {
+          "p": "Are there injured people in the car?",
+          "m": "Trả lời có/không và số người nếu có.",
+          "h": "There is/There are + number",
+          "s": "Yes, there are three injured people."
+        },
+        {
+          "p": "Can you move the people from the road?",
+          "m": "Trả lời có/không ngắn.",
+          "h": "S + can/can't + V",
+          "s": "I can't move them now."
+        },
+        {
+          "p": "Is there fire near the car?",
+          "m": "Trả lời có/không ngắn gọn.",
+          "h": "There is/There are + N",
+          "s": "No, there is no fire."
+        },
+        {
+          "p": "Do you need police at the scene?",
+          "m": "Trả lời có/không ngắn.",
+          "h": "Yes/No + S + V",
+          "s": "Yes, we need police."
+        }
+      ]
+    },
+    {
+      "t": "Tai nạn ở nhà",
+      "e": [
+        {
+          "p": "What happened at home?",
+          "m": "Nói 1 câu: sự việc chính.",
+          "h": "S + V(s) + O",
+          "s": "He fell from the stairs."
+        },
+        {
+          "p": "Is anyone trapped?",
+          "m": "Trả lời có/không ngắn gọn.",
+          "h": "S + be + Adj or S + V(s) + O",
+          "s": "No, no one is trapped."
+        },
+        {
+          "p": "Can you open the door for help?",
+          "m": "Trả lời bạn có thể hay không.",
+          "h": "S + can/can't + V",
+          "s": "I can open the door."
+        },
+        {
+          "p": "Is there broken glass?",
+          "m": "Trả lời có/không ngắn gọn.",
+          "h": "There is/There are + N",
+          "s": "Yes, there is broken glass on the floor."
+        },
+        {
+          "p": "Do you need a first aid kit?",
+          "m": "Trả lời có/không ngắn.",
+          "h": "Yes/No + S + V",
+          "s": "Yes, we need a first aid kit."
+        }
+      ]
+    },
+    {
+      "t": "Trẻ em bị ốm",
+      "e": [
+        {
+          "p": "Is the child awake?",
+          "m": "Trả lời có hoặc không.",
+          "h": "S + be + Adj",
+          "s": "Yes, the child is awake."
+        },
+        {
+          "p": "Does the child have a fever?",
+          "m": "Trả lời có/không ngắn gọn.",
+          "h": "S + have + N or S + be + Adj",
+          "s": "Yes, the child has a fever."
+        },
+        {
+          "p": "Can the child drink water?",
+          "m": "Trả lời có/không ngắn.",
+          "h": "S + can/can't + V",
+          "s": "He can drink water."
+        },
+        {
+          "p": "Is the child breathing fast?",
+          "m": "Trả lời có/không ngắn gọn.",
+          "h": "S + be + Adv/Adj or S + V(s) + O",
+          "s": "Yes, he is breathing fast."
+        },
+        {
+          "p": "Should we call the doctor for the child?",
+          "m": "Trả lời có/không ngắn.",
+          "h": "Yes/No + S + V",
+          "s": "Yes, we should call the doctor."
+        }
+      ]
+    },
+    {
+      "t": "Giao tiếp với nhân viên cứu hộ",
+      "e": [
+        {
+          "p": "What is your name?",
+          "m": "Nói tên ngắn gọn (dùng placeholder nếu cần).",
+          "h": "S + be + name",
+          "s": "[studentName] is here."
+        },
+        {
+          "p": "How old is the patient?",
+          "m": "Nói tuổi ngắn gọn (dùng placeholder nếu cần).",
+          "h": "S + be + number",
+          "s": "He is [studentAge] years old."
+        },
+        {
+          "p": "Where do you live?",
+          "m": "Nói nơi sống ngắn gọn (dùng placeholder nếu cần).",
+          "h": "S + live + place or S + be + place",
+          "s": "I live in [studentCity]."
+        },
+        {
+          "p": "What is the main problem now?",
+          "m": "Nói 1 câu ngắn: vấn đề chính hiện tại.",
+          "h": "S + V(s) + O or S + be + Adj",
+          "s": "He is unconscious and not breathing."
+        },
+        {
+          "p": "Can you tell us the exact location?",
+          "m": "Nói địa điểm cụ thể ngắn gọn.",
+          "h": "S + be + place",
+          "s": "We are at the school gate."
+        }
+      ]
+    },
+    {
+      "t": "Ôn tập: Cuộc gọi cấp cứu",
+      "e": [
+        {
+          "p": "What is the problem?",
+          "m": "Nói 1 câu: vấn đề chính.",
+          "h": "S + be + N/Adj",
+          "s": "A woman is injured."
+        },
+        {
+          "p": "Where are you?",
+          "m": "Nói nơi bạn đang ở ngắn gọn.",
+          "h": "S + be + place",
+          "s": "I am at the bus stop."
+        },
+        {
+          "p": "How many people need help?",
+          "m": "Nói số người cần giúp.",
+          "h": "There is/There are + number",
+          "s": "There are two people."
+        },
+        {
+          "p": "Can you wait for the ambulance?",
+          "m": "Trả lời có/không ngắn.",
+          "h": "S + can/can't + V",
+          "s": "Yes, I can wait."
+        },
+        {
+          "p": "Do you have a phone number?",
+          "m": "Nói có/không và số nếu có (số ngắn).",
+          "h": "Yes/No + S + V or S + have + number",
+          "s": "Yes, I have number 091234567."
+        }
+      ]
+    },
+    {
+      "t": "Ôn tập: Mô tả triệu chứng",
+      "e": [
+        {
+          "p": "Is the person bleeding?",
+          "m": "Trả lời có/không ngắn.",
+          "h": "S + be + V/Adj or S + can/can't + V",
+          "s": "Yes, he is bleeding."
+        },
+        {
+          "p": "Where is the pain?",
+          "m": "Nói vị trí đau ngắn.",
+          "h": "S + have + N or S + feel + N",
+          "s": "She has pain in her stomach."
+        },
+        {
+          "p": "Can the person walk?",
+          "m": "Trả lời có/không ngắn.",
+          "h": "S + can/can't + V",
+          "s": "He can't walk."
+        },
+        {
+          "p": "Is the child sleeping a lot?",
+          "m": "Trả lời có/không ngắn.",
+          "h": "S + be + Adv/Adj",
+          "s": "Yes, the child is sleeping a lot."
+        },
+        {
+          "p": "Do you see any broken bone?",
+          "m": "Trả lời có/không ngắn.",
+          "h": "There is/There are + N or S + be + Adj",
+          "s": "No, I do not see a broken bone."
+        }
+      ]
+    },
+    {
+      "t": "Ôn tập: Hành động khẩn cấp",
+      "e": [
+        {
+          "p": "Can you stop the bleeding now?",
+          "m": "Trả lời có/không ngắn và hành động nếu có.",
+          "h": "S + can/can't + V",
+          "s": "I can press the wound."
+        },
+        {
+          "p": "Should we move the person to the shade?",
+          "m": "Trả lời có/không ngắn.",
+          "h": "Yes/No + S + V",
+          "s": "Yes, move him to the shade."
+        },
+        {
+          "p": "Do you have water for washing?",
+          "m": "Trả lời có/không ngắn.",
+          "h": "S + have + N",
+          "s": "No, I do not have water."
+        },
+        {
+          "p": "Is someone calling for help?",
+          "m": "Trả lời có/không ngắn.",
+          "h": "S + be + V-ing or Yes/No + S + V",
+          "s": "Yes, someone is calling for help."
+        },
+        {
+          "p": "Can you stay with the injured person?",
+          "m": "Trả lời có/không ngắn.",
+          "h": "S + can/can't + V",
+          "s": "I can stay with him."
+        }
+      ]
+    }
+  ]
+}

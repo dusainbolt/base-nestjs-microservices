@@ -1,0 +1,530 @@
+{
+  "l": 3,
+  "d": [
+    {
+      "t": "Gặp gỡ tại điểm hẹn",
+      "e": [
+        {
+          "p": "Are you here for the tour?",
+          "m": "1. Nói tên bằng placeholder. 2. Xác nhận bạn ở điểm hẹn.",
+          "h": "My name is [studentName]. + I am here (present simple).",
+          "s": "My name is [studentName]. I am here for the tour."
+        },
+        {
+          "p": "Do you need help with your luggage?",
+          "m": "1. Trả lời có hoặc không. 2. Nếu có, nói việc cần giúp ngắn gọn.",
+          "h": "Yes, please / No, thanks + because / I need ...",
+          "s": "Yes, please, I have one heavy bag and I need help. Please carry it to the bus."
+        },
+        {
+          "p": "The bus will leave in 10 minutes. Are you ready?",
+          "m": "1. Nói bạn sẵn sàng hay không. 2. Nếu không, cho biết lý do ngắn.",
+          "h": "I'm ready / I'm not ready + because ... (past/simple).",
+          "s": "I'm not ready because my bag is outside. I will bring it now."
+        },
+        {
+          "p": "Would you like a map of the city?",
+          "m": "1. Nói bạn có muốn bản đồ hay không. 2. Nếu có, nêu lý do ngắn.",
+          "h": "Yes, please + because ... / No, thanks + because ...",
+          "s": "Yes, please because I want to find places by myself. It will help me plan the afternoon."
+        },
+        {
+          "p": "Do you prefer walking or using the bus for the tour?",
+          "m": "1. Chọn walking hoặc bus. 2. Nói lý do so sánh ngắn.",
+          "h": "I prefer ... because it is more/less ... than ...",
+          "s": "I prefer walking because it is more comfortable than the bus. I can see more places on foot."
+        }
+      ]
+    },
+    {
+      "t": "Giới thiệu sở thích khi tham quan",
+      "e": [
+        {
+          "p": "What kind of places do you like to visit?",
+          "m": "1. Nói 1-2 loại địa điểm bạn thích. 2. Nêu lý do ngắn.",
+          "h": "I like ... because ... (present simple).",
+          "s": "I like beaches and markets because I enjoy the sea and local food. They are relaxed and fun."
+        },
+        {
+          "p": "Do you prefer busy markets or quiet museums?",
+          "m": "1. Chọn một trong hai. 2. Nêu lý do với so sánh ngắn.",
+          "h": "I prefer ... because it is more ... than ...",
+          "s": "I prefer busy markets because they are more interesting than museums. The markets have many colors and food."
+        },
+        {
+          "p": "How often do you travel in a year?",
+          "m": "1. Nói tần suất ngắn (once, twice...). 2. Nói khi bạn thường đi (mùa/thời gian).",
+          "h": "I travel ... a year. / I usually travel in ...",
+          "s": "I travel twice a year. I usually go during the summer."
+        },
+        {
+          "p": "Are you interested in trying local food today?",
+          "m": "1. Trả lời có/không. 2. Nếu có, nói nếu bạn có dị ứng ngắn hoặc yêu cầu.",
+          "h": "Yes, I'd like to ... / No, I can't ... + because ...",
+          "s": "Yes, I'd like to try local food but I am allergic to peanuts. Please tell me which dishes are safe."
+        },
+        {
+          "p": "Would you like me to arrange a slower walk for senior members?",
+          "m": "1. Trả lời có/không. 2. Nếu có, đề xuất điều chỉnh ngắn (more stops/less walking).",
+          "h": "Yes, please + we can ... / I will ...",
+          "s": "Yes, please, we can make more stops and walk shorter distances. That will be better for everyone."
+        }
+      ]
+    },
+    {
+      "t": "Hỏi về lịch trình (itinerary)",
+      "e": [
+        {
+          "p": "The tour includes a museum visit at 10 AM. Is that okay?",
+          "m": "1. Đồng ý hoặc đề nghị thay đổi. 2. Nếu đổi, đề xuất thời gian khác ngắn.",
+          "h": "Yes, that's fine. / Can we change it to ...?",
+          "s": "Yes, that's fine. I will be ready at 10 AM."
+        },
+        {
+          "p": "We will have lunch after the beach. Do you prefer packed lunch or a restaurant?",
+          "m": "1. Chọn packed lunch hoặc restaurant. 2. Nêu lý do ngắn.",
+          "h": "I prefer ... because ...",
+          "s": "I prefer a restaurant because I want a warm meal. It is more comfortable after the beach."
+        },
+        {
+          "p": "Yesterday the guide changed the plan, did you like the new stop?",
+          "m": "1. Nói bạn có thích hay không (past simple). 2. Giải thích lý do ngắn.",
+          "h": "I liked / I didn't like + because ... (past simple).",
+          "s": "I liked the new stop because it was quieter than the busy places. The view was beautiful."
+        },
+        {
+          "p": "If it rains tomorrow, we will go to the indoor market. Is that ok?",
+          "m": "1. Trả lời đồng ý/không. 2. Nếu không, đề xuất phương án khác ngắn.",
+          "h": "That's ok / But we can ... / I will ...",
+          "s": "That's ok, but we can visit the museum instead because I prefer indoor places when it rains. I will buy an umbrella if needed."
+        },
+        {
+          "p": "Do you want to add a free time slot in the afternoon?",
+          "m": "1. Chọn yes/no. 2. Nếu yes, nêu hoạt động bạn sẽ làm (shopping/rest/beach).",
+          "h": "Yes, I want ... + I will / I'm going to ...",
+          "s": "Yes, I want free time. I am going to walk in the market and buy some souvenirs."
+        }
+      ]
+    },
+    {
+      "t": "Vé, phí và phương thức thanh toán",
+      "e": [
+        {
+          "p": "How much is the entrance ticket for the temple?",
+          "m": "1. Nói giá ngắn. 2. Nói nếu bạn có giảm giá sinh viên hay không.",
+          "h": "It costs ... / I have / I don't have a student card.",
+          "s": "It costs $10 per person. I don't have a student card."
+        },
+        {
+          "p": "Do you pay by cash or card?",
+          "m": "1. Chỉ phương thức bạn dùng. 2. Nói nếu phương thức đó thường hoạt động ở đây.",
+          "h": "I will pay by ... / It usually works ...",
+          "s": "I will pay by card. It usually works at the ticket office."
+        },
+        {
+          "p": "There is a group discount for five people. Can you join with others?",
+          "m": "1. Trả lời có/không. 2. Nếu có, nói số người tham gia (bao gồm bạn).",
+          "h": "Yes, we can join. / There will be ... people including me.",
+          "s": "Yes, we can join the group. There will be six people including me."
+        },
+        {
+          "p": "You must keep your ticket until the end. Do you understand?",
+          "m": "1. Xác nhận hiểu dùng must/have to. 2. Nói sẽ cất vé ở đâu ngắn.",
+          "h": "I understand, I will ... / I must ...",
+          "s": "I understand and I will keep my ticket in my bag. I must show it when needed."
+        },
+        {
+          "p": "If you buy a city pass, you can visit more places cheaper. Do you want it?",
+          "m": "1. Chọn yes/no. 2. Nếu yes, nêu lợi ích ngắn dùng comparative.",
+          "h": "Yes, please + because it's cheaper than ... / It lets me ...",
+          "s": "Yes, please because the city pass is cheaper than single tickets. It lets me visit more places."
+        }
+      ]
+    },
+    {
+      "t": "Hướng dẫn đi bộ tham quan",
+      "e": [
+        {
+          "p": "Please stay behind the guide and keep the group together. Can you do that?",
+          "m": "1. Xác nhận bạn sẽ làm theo. 2. Nói nếu bạn cần tốc độ chậm hơn hoặc trợ giúp.",
+          "h": "I will ... / I need ... / I can ...",
+          "s": "I will stay behind the guide and keep with the group. I need a slower pace, please."
+        },
+        {
+          "p": "The path is steep here, be careful. Do you have proper shoes?",
+          "m": "1. Trả lời có/không. 2. Nếu không, nêu bạn sẽ làm gì để an toàn.",
+          "h": "Yes, I have ... / No, I don't + I will ...",
+          "s": "No, I don't have hiking shoes. I will walk slowly and hold the handrail."
+        },
+        {
+          "p": "We will stop for photos in five minutes. Would you like extra time?",
+          "m": "1. Trả lời yes/no. 2. Nếu yes, nói bạn sẽ làm gì trong thời gian đó.",
+          "h": "Yes, please + I will ... / I'm going to ...",
+          "s": "Yes, please, I will take more photos and rest for a short time. Then I will catch up."
+        },
+        {
+          "p": "There is a small fee to enter the old house. Can everyone pay now?",
+          "m": "1. Trả lời khả năng thanh toán. 2. Nếu không, đề xuất ai sẽ trả hoặc cách trả sau.",
+          "h": "We can pay now / I will pay / They can pay later",
+          "s": "We can pay now, I will give my card. If someone can't, they can pay later."
+        },
+        {
+          "p": "If you feel tired, you should tell me early. How will you tell the guide?",
+          "m": "1. Viết câu bạn sẽ nói ngắn. 2. Nói bạn sẽ làm gì sau đó (rest/sit/return to bus).",
+          "h": "I will say: '...' + I will ...",
+          "s": "I will say 'I am tired, I need a rest.' Then I will sit or return to the bus."
+        }
+      ]
+    },
+    {
+      "t": "Thời tiết và trang phục phù hợp",
+      "e": [
+        {
+          "p": "The forecast is sunny today. Do you have sunglasses?",
+          "m": "1. Trả lời có/không. 2. Nếu không, nói bạn sẽ làm gì (mua/mượn).",
+          "h": "Yes, I have ... / No, I don't + I will ...",
+          "s": "No, I don't have sunglasses. I will buy a cheap pair at the market."
+        },
+        {
+          "p": "It may be windy at the cliff. Would you prefer a jacket?",
+          "m": "1. Chọn jacket yes/no. 2. Nêu lý do ngắn với so sánh.",
+          "h": "I prefer ... because it is warmer than ...",
+          "s": "Yes, I prefer a jacket because it is warmer than a shirt. I will bring it to the cliff."
+        },
+        {
+          "p": "If it rains, we will stay inside the cafe. Do you have rain gear?",
+          "m": "1. Trả lời có/không. 2. Nếu không, nói bạn sẽ làm gì (mua/chia sẻ).",
+          "h": "I have ... / I don't have ... + I will ...",
+          "s": "I don't have rain gear, but I will buy an umbrella. We will share if needed."
+        },
+        {
+          "p": "The sun is strong at noon, you must use sunscreen. Do you understand?",
+          "m": "1. Xác nhận hiểu dùng must/have to. 2. Nói bạn sẽ làm gì ngay bây giờ.",
+          "h": "I understand, I must ... / I will ...",
+          "s": "I understand, I must use sunscreen. I will put it on now."
+        },
+        {
+          "p": "Which is better for this trip, light clothes or warm clothes?",
+          "m": "1. Chọn light hoặc warm. 2. Giải thích ngắn với so sánh.",
+          "h": "Light clothes are better because they are more ... than ...",
+          "s": "Light clothes are better because they are more comfortable than warm clothes in hot weather. I will wear light clothes."
+        }
+      ]
+    },
+    {
+      "t": "Ăn trưa, dị ứng và sở thích ăn uống",
+      "e": [
+        {
+          "p": "We have a vegetarian option for lunch. Do you want it?",
+          "m": "1. Chọn yes/no. 2. Nếu không, nói bạn sẽ ăn gì.",
+          "h": "Yes, I want ... / No, I will take ...",
+          "s": "No, I will take the chicken meal. I don't mind some meat."
+        },
+        {
+          "p": "Are you allergic to any food?",
+          "m": "1. Nói nếu bạn bị dị ứng (nói rõ thứ). 2. Yêu cầu hướng dẫn viên ghi chú hoặc tránh món đó.",
+          "h": "I am allergic to ... + Please don't serve ...",
+          "s": "I am allergic to peanuts. Please tell the chef and don't serve dishes with peanuts."
+        },
+        {
+          "p": "We can have lunch at a local home or a restaurant. Which do you prefer?",
+          "m": "1. Chọn home hoặc restaurant. 2. Nêu lý do ngắn.",
+          "h": "I prefer ... because ...",
+          "s": "I prefer a restaurant because it is cleaner and faster than a home meal. I feel more comfortable."
+        },
+        {
+          "p": "Do you want tea or coffee after lunch?",
+          "m": "1. Chọn tea hoặc coffee. 2. Nêu nếu bạn cần sugar hoặc milk.",
+          "h": "I want ... with ... / I don't need ...",
+          "s": "I want coffee with milk, please. I don't need sugar."
+        },
+        {
+          "p": "If you are full, you should stop eating. How will you tell the host politely?",
+          "m": "1. Viết 1 câu lịch sự để nói ngừng ăn. 2. Nói bạn sẽ làm gì tiếp theo (rest/walk).",
+          "h": "I'm full, thank you + I will ...",
+          "s": "I'm full, thank you, the food was excellent. I will rest for a while."
+        }
+      ]
+    },
+    {
+      "t": "Mua sắm tại chợ địa phương",
+      "e": [
+        {
+          "p": "Would you like to look at some handmade goods?",
+          "m": "1. Chọn yes/no. 2. Nếu có, nói loại hàng bạn muốn xem.",
+          "h": "Yes, I would like to see ... / No, thanks",
+          "s": "Yes, I would like to see handmade bags and textiles. They look interesting."
+        },
+        {
+          "p": "The seller asks for $20, can you offer a lower price?",
+          "m": "1. Nói bạn sẽ trả bao nhiêu. 2. Nêu lý do ngắn cho giá đó.",
+          "h": "I can pay $... because ... / It's too expensive",
+          "s": "I can pay $15 because it's a bit expensive for my budget. It is cheaper than the original price."
+        },
+        {
+          "p": "Do you want a plastic bag or will you use your own?",
+          "m": "1. Chọn plastic bag hay dùng túi riêng. 2. Nêu lý do ngắn (environment/convenience).",
+          "h": "I will use my own because ... / No thanks",
+          "s": "I will use my own bag because it's better for the environment. It is more comfortable to carry."
+        },
+        {
+          "p": "Try it on, does the shirt fit?",
+          "m": "1. Nói có vừa hay không. 2. Nếu không, nói size bạn cần hoặc hỏi màu khác.",
+          "h": "It fits. / It doesn't fit, I need size ...",
+          "s": "It doesn't fit, I need a larger size. Do you have it in blue?"
+        },
+        {
+          "p": "If you want a receipt, ask the seller. How will you ask politely?",
+          "m": "1. Viết 1 câu yêu cầu hóa đơn. 2. Nói bạn sẽ làm gì với hóa đơn (giữ cho khoản chi).",
+          "h": "Could I have a receipt, please? + I will keep it for ...",
+          "s": "Could I have a receipt, please? I will keep it for my expense record."
+        }
+      ]
+    },
+    {
+      "t": "Thay đổi phương tiện di chuyển",
+      "e": [
+        {
+          "p": "The train is delayed by one hour. Do you want to wait?",
+          "m": "1. Trả lời yes/no. 2. Nếu không, đề xuất phương án khác (bus/taxi).",
+          "h": "No, let's take a ... / Yes, I will wait",
+          "s": "No, let's take a bus because it is faster than waiting. I will buy tickets now."
+        },
+        {
+          "p": "We can take a taxi, but it's more expensive. Do you agree?",
+          "m": "1. Đồng ý hoặc không. 2. Nếu đồng ý, nói ai sẽ trả hoặc chia tiền.",
+          "h": "I agree + I will pay / We can split the cost",
+          "s": "I agree and I will pay for my share. We can split the cost among four people."
+        },
+        {
+          "p": "If the boat is full, we will go to the next harbor. Is that acceptable?",
+          "m": "1. Trả lời yes/no. 2. Nếu không, đề xuất phương án thay thế ngắn.",
+          "h": "Yes, that's fine / No, we can ...",
+          "s": "Yes, that's fine, we can wait or visit the nearby cafe. I will stay close to the group."
+        },
+        {
+          "p": "The bus seat is smaller than expected. Would you like to change?",
+          "m": "1. Trả lời yes/no. 2. Nếu yes, nêu bạn muốn chỗ nào (aisle/window) và lý do ngắn.",
+          "h": "I prefer an aisle/window seat because it is more ... than ...",
+          "s": "Yes, I prefer an aisle seat because it is more comfortable than a window seat for me. Please help me change."
+        },
+        {
+          "p": "You must show your ticket to the driver before boarding. How will you present it?",
+          "m": "1. Mô tả hành động (take ticket out, show). 2. Nói bạn sẽ cất vé ở đâu sau khi trình.",
+          "h": "I will take my ticket out and show it. Then I will keep it in ...",
+          "s": "I will take my ticket out and show it to the driver. Then I will keep it in my pocket."
+        }
+      ]
+    },
+    {
+      "t": "Quy tắc an toàn tại điểm tham quan",
+      "e": [
+        {
+          "p": "Please do not touch the artifacts. Can you follow this rule?",
+          "m": "1. Xác nhận bạn sẽ không chạm. 2. Nói bạn sẽ làm gì thay vì chạm (chụp ảnh, đọc biển).",
+          "h": "I won't ... / I will ...",
+          "s": "I won't touch the artifacts. I will take photos from a distance and read the signs."
+        },
+        {
+          "p": "Children must stay with an adult. Will you watch the child in your group?",
+          "m": "1. Trả lời có/không. 2. Nếu có, nêu cách bạn sẽ trông (hold hand, stay close).",
+          "h": "Yes, I will ... / I will ...",
+          "s": "Yes, I will watch the child and hold their hand. I will stay close during the visit."
+        },
+        {
+          "p": "Smoking is not allowed here. What will you do if you need to smoke?",
+          "m": "1. Nói bạn sẽ làm gì (đi chỗ quy định hoặc chờ). 2. Nêu khi nào bạn sẽ làm (after break).",
+          "h": "I will wait until ... / I will go to ...",
+          "s": "I will wait until the break and then go to the designated area. I will not smoke inside."
+        },
+        {
+          "p": "There is a low railing, be careful. If you fall, you must go to the first aid. Do you understand?",
+          "m": "1. Xác nhận hiểu dùng must/have to. 2. Nói bạn sẽ làm nếu thấy người bị thương.",
+          "h": "I understand, I must ... / I will ...",
+          "s": "I understand and I must go to the first aid if I fall. I will help others and call the guide."
+        },
+        {
+          "p": "For safety, we will split into two small groups. How will you communicate with group 2?",
+          "m": "1. Nói phương thức liên lạc (phone/meet point). 2. Nêu thời gian hoặc điểm gặp ngắn.",
+          "h": "We will meet at ... / I will call if ...",
+          "s": "We will meet group 2 at the old gate in ten minutes. I will call if we are late."
+        }
+      ]
+    },
+    {
+      "t": "Tiếp cận cho người có nhu cầu đặc biệt",
+      "e": [
+        {
+          "p": "Do you need wheelchair access at the museum?",
+          "m": "1. Trả lời có/không. 2. Nếu có, nêu yêu cầu ngắn (ramp/elevator) và yêu cầu sắp xếp.",
+          "h": "Yes, I need ... + Please arrange ...",
+          "s": "Yes, I need wheelchair access and an elevator. Please arrange it for me."
+        },
+        {
+          "p": "We can provide a quiet room for breaks. Would that help?",
+          "m": "1. Chọn yes/no. 2. Nếu có, nói tần suất bạn dùng (often/sometimes).",
+          "h": "Yes, it helps + I often / sometimes ...",
+          "s": "Yes, it helps and I will use it sometimes during the tour. I need short breaks often."
+        },
+        {
+          "p": "If you have hearing difficulty, I can speak slowly or use written notes. Which do you prefer?",
+          "m": "1. Chọn speak slowly hoặc written notes. 2. Nêu lý do ngắn.",
+          "h": "I prefer ... because ...",
+          "s": "I prefer written notes because I can read and understand better than listening. It is clearer for me."
+        },
+        {
+          "p": "We must know about medical needs before the trip. Do you have any medication?",
+          "m": "1. Trả lời có/không. 2. Nếu có, nêu tên thuốc ngắn và yêu cầu hướng dẫn viên hỗ trợ.",
+          "h": "Yes, I have ... + Please remind me to ... / keep it safe",
+          "s": "Yes, I have medicine for asthma. Please remind me to take it and keep it safe."
+        },
+        {
+          "p": "For service dogs, there are rules. Will your dog sit quietly or need breaks?",
+          "m": "1. Mô tả hành vi của chó (sit quietly/need breaks). 2. Nói bạn sẽ làm gì để chăm sóc (water/rest).",
+          "h": "It will ... + I will ...",
+          "s": "The dog will sit quietly most of the time. I will give it water and short breaks."
+        }
+      ]
+    },
+    {
+      "t": "Phản hồi và mẹo du lịch",
+      "e": [
+        {
+          "p": "Did you enjoy today's tour?",
+          "m": "1. Trả lời có/không (past simple). 2. Nếu có, nêu 1 điều bạn thích.",
+          "h": "I enjoyed / I didn't enjoy + because ...",
+          "s": "Yes, I enjoyed today's tour because the guide explained well. I liked the beach the most."
+        },
+        {
+          "p": "What could be better for the next tour?",
+          "m": "1. Nêu 1 đề xuất ngắn (more breaks/less walking). 2. Giải thích lý do ngắn.",
+          "h": "We should have ... because ... / It would be better if ...",
+          "s": "We should have more breaks because some places are tiring. That will help older people."
+        },
+        {
+          "p": "Would you recommend this tour to friends?",
+          "m": "1. Trả lời yes/no. 2. Nêu lý do ngắn.",
+          "h": "Yes, I would recommend ... because ...",
+          "s": "Yes, I would recommend this tour because it is affordable and interesting. Friends will enjoy the local food."
+        },
+        {
+          "p": "Please give one tip for new visitors to this city.",
+          "m": "1. Viết 1 tip ngắn (bring cash/use public transport). 2. Nêu lý do ngắn.",
+          "h": "Bring ... / Use ... because ...",
+          "s": "Bring cash for small shops because cards are not always accepted. Cash helps you buy local goods."
+        },
+        {
+          "p": "If you had a problem, you must tell the office. How would you describe a lost item?",
+          "m": "1. Mô tả món đồ mất (item, color). 2. Nói nơi và thời gian bạn mất nó (place, time).",
+          "h": "I lost ... at ... this morning/yesterday",
+          "s": "I lost a small black camera at the market this morning. I think I left it near the blue stall."
+        }
+      ]
+    },
+    {
+      "t": "Ôn tập: Giao tiếp cơ bản với hướng dẫn viên",
+      "e": [
+        {
+          "p": "Your guide asks if you have any questions before the trip starts. What will you ask?",
+          "m": "1. Hỏi 1 câu về thời gian hoặc điểm dừng. 2. Hỏi 1 câu về an toàn hoặc phí.",
+          "h": "What time will ...? / Do we have to ...?",
+          "s": "What time will we return to the hotel? Do we have to pay extra for the boat?"
+        },
+        {
+          "p": "The guide offers two schedules: faster or relaxed. Which do you choose and why?",
+          "m": "1. Chọn faster hoặc relaxed. 2. Nêu 1 lý do dùng comparative.",
+          "h": "I choose ... because it is less/more ... than ...",
+          "s": "I choose the relaxed schedule because it is less tiring than the faster one. I can enjoy more stops."
+        },
+        {
+          "p": "Someone lost a bag on the bus. The guide asks who it belongs to. How will you respond?",
+          "m": "1. Nói sở hữu ngắn (It's mine/It's not mine). 2. Nếu của bạn, mô tả màu và một đặc điểm.",
+          "h": "It's mine / It's not mine + It's a ... with ...",
+          "s": "It's mine, it's a blue backpack with a small red tag. I left it on the seat."
+        },
+        {
+          "p": "You met a local who speaks little English. How do you ask for a restaurant recommendation?",
+          "m": "1. Hỏi tên nhà hàng hoặc món ăn. 2. Cảm ơn và nói bạn sẽ thử.",
+          "h": "Where can I find ...? / I will try it",
+          "s": "Where can I find a good local restaurant with seafood? Thank you, I will try it tonight."
+        },
+        {
+          "p": "Before leaving the site, the guide asks for quick feedback. Give one good point and one improvement.",
+          "m": "1. Nêu 1 điểm tốt. 2. Nêu 1 điều cần cải thiện.",
+          "h": "Use past simple for praise + suggestion 'more ...' or 'less ...'",
+          "s": "The guide explained the history well and we enjoyed it. It would be better to have more breaks."
+        }
+      ]
+    },
+    {
+      "t": "Ôn tập: Xử lý vấn đề khi đi tour",
+      "e": [
+        {
+          "p": "The bus broke down and the guide says we will wait. What will you do?",
+          "m": "1. Nói hành động bạn sẽ làm trong lúc chờ. 2. Nói nếu bạn sẽ giúp gì (carry bags).",
+          "h": "I will ... / I can ...",
+          "s": "I will read my book and wait with the group. I can help carry small bags if needed."
+        },
+        {
+          "p": "A member feels sick and needs a doctor. How will you tell the office?",
+          "m": "1. Mô tả triệu chứng ngắn (nausea, headache). 2. Yêu cầu gọi bác sĩ hoặc đưa tới phòng khám.",
+          "h": "He/She has ... + Please call ... / take to ...",
+          "s": "She has a headache and feels dizzy. Please call a doctor or take her to the clinic."
+        },
+        {
+          "p": "The guide says the museum is closed today. How will you ask for an alternative plan?",
+          "m": "1. Hỏi kế hoạch thay thế. 2. Đề nghị một hoạt động khác ngắn.",
+          "h": "What will we do instead? / We can ...",
+          "s": "What will we do instead of the museum? We can visit the local market or a cafe."
+        },
+        {
+          "p": "You paid by card but the machine failed. The seller asks if you can pay cash. What do you say?",
+          "m": "1. Nói bạn có cash hay không. 2. Nếu không, đề nghị phương án khác (ATM/pay later).",
+          "h": "I have cash / I don't have cash, I will ...",
+          "s": "I don't have cash, but I will go to the ATM and return soon. Or I can pay by card later."
+        },
+        {
+          "p": "If someone loses their passport, the guide asks for immediate steps. What will you suggest?",
+          "m": "1. Nêu bước báo cảnh sát. 2. Nói liên hệ đại sứ quán hoặc văn phòng và ai sẽ làm.",
+          "h": "We should ... and then ... / I will ...",
+          "s": "We should report it to the police first and then contact the embassy. I will help call and make the report."
+        }
+      ]
+    },
+    {
+      "t": "Ôn tập: Giao tiếp nâng cao với hướng dẫn viên",
+      "e": [
+        {
+          "p": "You want a slower pace because of the heat. How will you ask the guide?",
+          "m": "1. Yêu cầu chậm lại (Can we/Should we). 2. Nêu lý do và gợi ý (more water breaks).",
+          "h": "Can we ... because ... / We should ...",
+          "s": "Can we slow the pace because it is too hot? We should have more water breaks."
+        },
+        {
+          "p": "Compare two sites: the old temple and the new museum. Which one is better for photos?",
+          "m": "1. Chọn nơi tốt hơn dùng comparative. 2. Giải thích ngắn lý do.",
+          "h": "X is better for photos than Y because ... / more ... than ...",
+          "s": "The old temple is better for photos than the museum because it has more traditional colors and views. The light is nicer there."
+        },
+        {
+          "p": "The guide reminds everyone to respect local customs. How will you promise to follow?",
+          "m": "1. Dùng must/should để khẳng định. 2. Nêu 1 hành động cụ thể bạn sẽ làm.",
+          "h": "I must/should ... + I will ...",
+          "s": "I must respect local customs and I will cover my shoulders in the temple. I will also remove my shoes when asked."
+        },
+        {
+          "p": "You want the guide to recommend a cheaper restaurant. How do you ask and compare prices?",
+          "m": "1. Hỏi nhà hàng rẻ hơn. 2. Nói ngân sách ngắn và yêu cầu so sánh.",
+          "h": "Is there a restaurant cheaper than ...? My budget is ...",
+          "s": "Is there a restaurant cheaper than the one near the market? My budget is about $10 per person."
+        },
+        {
+          "p": "At the end, you must give a short review: mention one strong point and one thing they must improve. Write it.",
+          "m": "1. Nêu 1 điểm mạnh (past simple). 2. Nêu 1 điều họ must cải thiện.",
+          "h": "Praise in past simple + 'They must ...'",
+          "s": "The guide explained places clearly and everyone enjoyed the stories. They must provide more water and rest stops."
+        }
+      ]
+    }
+  ]
+}

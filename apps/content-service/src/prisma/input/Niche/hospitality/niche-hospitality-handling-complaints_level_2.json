@@ -1,0 +1,565 @@
+{
+  "l": 2,
+  "d": [
+    {
+      "t": "Phàn nàn về món ăn",
+      "e": [
+        {
+          "p": "This soup is cold.",
+          "m": "Xin lỗi khách. Nói bạn đang làm món mới hoặc đem món nóng.",
+          "h": "I am sorry. We are + V-ing (Present Continuous).",
+          "s": "I am sorry. We are making a hot soup now."
+        },
+        {
+          "p": "There is hair in my salad.",
+          "m": "Xin lỗi khách. Nói bạn sẽ đổi đĩa mới cho khách.",
+          "h": "Say sorry + We are + V-ing.",
+          "s": "I am sorry. We are bringing a new salad now."
+        },
+        {
+          "p": "The steak is too salty.",
+          "m": "Xin lỗi. Hỏi khách muốn đổi món hay ăn ít muối hơn.",
+          "h": "I am sorry. Do you + want + N / to V? (Present Simple)",
+          "s": "I am sorry. Do you want a new steak or a different dish?"
+        },
+        {
+          "p": "The waiter is late and we waited 30 minutes.",
+          "m": "Xin lỗi về việc phục vụ chậm. Nói bạn sẽ mang món ra ngay và cho khách một món uống miễn phí.",
+          "h": "I am sorry. We are + V-ing + now / We are giving + N.",
+          "s": "I am sorry. We are bringing your food now and giving free drinks."
+        },
+        {
+          "p": "I want to complain. The food is bad and the service is slow.",
+          "m": "Xin lỗi về cả hai vấn đề. Nói bạn sẽ đổi món và kiểm tra nhân viên ngay.",
+          "h": "I am sorry for + N. We are + V-ing (fix).",
+          "s": "I am sorry for the bad food and slow service. We are replacing your meal and talking to the staff."
+        }
+      ]
+    },
+    {
+      "t": "Hàng hóa bị lỗi khi mở hộp",
+      "e": [
+        {
+          "p": "My phone screen is cracked when I open the box.",
+          "m": "Xin lỗi khách. Nói bạn sẽ đổi sản phẩm hoặc đưa hướng xử lý.",
+          "h": "I am sorry. We are + V-ing / We replace + N (Present Simple).",
+          "s": "I am sorry. We are replacing your phone now."
+        },
+        {
+          "p": "The toy is broken.",
+          "m": "Xin lỗi. Hỏi khách muốn đổi hay trả tiền lại.",
+          "h": "I am sorry. Do you want + N or a refund? (Present Simple)",
+          "s": "I am sorry. Do you want a new toy or a refund?"
+        },
+        {
+          "p": "The lamp does not work.",
+          "m": "Xin lỗi về lỗi. Nói bạn sẽ kiểm tra và sửa hoặc đổi mới.",
+          "h": "I am sorry. We are + V-ing / We are giving a new + N.",
+          "s": "I am sorry. We are checking the lamp and giving a new one."
+        },
+        {
+          "p": "I paid for two and one item is missing.",
+          "m": "Xin lỗi và kiểm tra đơn hàng. Nói bạn sẽ gửi món thiếu ngay hoặc hoàn tiền.",
+          "h": "I am sorry. We are sending / We are giving a refund.",
+          "s": "I am sorry. We are sending the missing item now and we are giving a refund if needed."
+        },
+        {
+          "p": "The product is not the same as the picture online.",
+          "m": "Xin lỗi vì sai mô tả. Nói bạn sẽ đổi sản phẩm hoặc trả tiền lại.",
+          "h": "I am sorry. We are replacing it or giving a refund (Present Continuous / Present Simple).",
+          "s": "I am sorry for the mistake. We are replacing the product or giving a refund."
+        }
+      ]
+    },
+    {
+      "t": "Giao hàng chậm",
+      "e": [
+        {
+          "p": "My package is late.",
+          "m": "Xin lỗi vì giao hàng trễ. Nói bạn sẽ kiểm tra đơn hàng.",
+          "h": "I am sorry. I am + V-ing (checking).",
+          "s": "I am sorry. I am checking your order now."
+        },
+        {
+          "p": "I need the parcel today but it is not here.",
+          "m": "Xin lỗi. Hỏi khách họ cần ngày nào và đề nghị giải pháp (gửi nhanh).",
+          "h": "I am sorry. Do you need + N? We are + V-ing.",
+          "s": "I am sorry. Do you need it today? We are arranging fast delivery."
+        },
+        {
+          "p": "The tracking shows delivered but I don't have it.",
+          "m": "Xin lỗi. Nói bạn sẽ kiểm tra vị trí và gọi giao hàng lại.",
+          "h": "I am sorry. We are + V-ing (check) and we are + V-ing (call).",
+          "s": "I am sorry. We are checking the delivery location and we are calling the courier."
+        },
+        {
+          "p": "I paid extra for fast delivery but it is late.",
+          "m": "Xin lỗi. Nói bạn sẽ hoàn phí vận chuyển hoặc gửi lại miễn phí.",
+          "h": "I am sorry. We are giving a refund or we are sending again.",
+          "s": "I am sorry for the delay. We are refunding your delivery fee or sending the package again."
+        },
+        {
+          "p": "This late delivery causes a problem for me.",
+          "m": "Xin lỗi và thể hiện đồng cảm. Nói bạn sẽ làm gì để giúp ngay.",
+          "h": "I am sorry. We are + V-ing to help now (Present Continuous).",
+          "s": "I am sorry for the problem. We are arranging a fast replacement and we are paying postage."
+        }
+      ]
+    },
+    {
+      "t": "Thanh toán sai số tiền",
+      "e": [
+        {
+          "p": "I was charged twice.",
+          "m": "Xin lỗi. Nói bạn sẽ kiểm tra thanh toán và trả lại tiền nếu cần.",
+          "h": "I am sorry. We are + V-ing / We are giving a refund.",
+          "s": "I am sorry. We are checking the payment and we are giving a refund."
+        },
+        {
+          "p": "The price at the store is higher than online.",
+          "m": "Xin lỗi. Hỏi khách họ muốn giá online hoặc hoàn tiền chênh lệch.",
+          "h": "I am sorry. Do you want + N? We are + V-ing.",
+          "s": "I am sorry. Do you want the online price or a refund for the difference?"
+        },
+        {
+          "p": "My card failed but you took the money.",
+          "m": "Xin lỗi. Nói bạn sẽ liên hệ bộ phận thanh toán và xử lý ngay.",
+          "h": "I am sorry. We are contacting the payment team now.",
+          "s": "I am sorry. We are contacting the payment team and we are fixing your charge."
+        },
+        {
+          "p": "I gave cash but the receipt shows no payment.",
+          "m": "Xin lỗi. Nói bạn sẽ kiểm tra camera/nhân viên và cập nhật cho khách.",
+          "h": "I am sorry. We are checking and we are updating you.",
+          "s": "I am sorry. We are checking with staff and we are updating you now."
+        },
+        {
+          "p": "I want my money back for this mistake.",
+          "m": "Xin lỗi. Nói bạn sẽ hoàn tiền và mô tả thời gian xử lý (ngay/bây giờ).",
+          "h": "I am sorry. We are giving a refund now (Present Continuous).",
+          "s": "I am sorry for the mistake. We are giving a refund now."
+        }
+      ]
+    },
+    {
+      "t": "Dịch vụ kém trong cửa hàng",
+      "e": [
+        {
+          "p": "The staff was rude to me.",
+          "m": "Xin lỗi khách. Nói bạn sẽ nói chuyện với nhân viên và xin lỗi thay.",
+          "h": "I am sorry. We are + V-ing (talking) to the staff.",
+          "s": "I am sorry. We are talking to the staff and apologizing to you."
+        },
+        {
+          "p": "The room is dirty and not clean.",
+          "m": "Xin lỗi. Nói bạn sẽ dọn ngay và làm sạch cho khách.",
+          "h": "I am sorry. We are cleaning it now (Present Continuous).",
+          "s": "I am sorry. We are cleaning the room now."
+        },
+        {
+          "p": "I waited but no one helped me.",
+          "m": "Xin lỗi. Nói bạn sẽ giúp ngay và thay đổi thủ tục dịch vụ nếu cần.",
+          "h": "I am sorry. We are helping you now / We always try to + V. (Present Simple)",
+          "s": "I am sorry. We are helping you now and we always try to improve service."
+        },
+        {
+          "p": "My appointment was canceled without notice.",
+          "m": "Xin lỗi vì không báo. Nói bạn sẽ đặt lại lịch ngay và hỗ trợ khách.",
+          "h": "I am sorry. We are setting a new time and we are helping you.",
+          "s": "I am sorry for no notice. We are booking a new appointment and we are helping you today."
+        },
+        {
+          "p": "I am upset about the bad service and I want action.",
+          "m": "Xin lỗi và tỏ ra đồng cảm. Nói bạn sẽ báo quản lý và làm theo yêu cầu khách.",
+          "h": "I am sorry. We are telling the manager and we are helping you now.",
+          "s": "I am sorry for the bad service. We are telling the manager and we are helping you now."
+        }
+      ]
+    },
+    {
+      "t": "Yêu cầu đổi hàng tại quầy",
+      "e": [
+        {
+          "p": "I want to exchange this shirt for a larger size.",
+          "m": "Xác nhận yêu cầu. Nói bạn có size lớn hơn và bạn sẽ đổi ngay.",
+          "h": "I have / We have + N. We are + V-ing (exchange).",
+          "s": "We have a larger size. We are exchanging it now."
+        },
+        {
+          "p": "The color is different from what I wanted.",
+          "m": "Xin lỗi vì màu sai. Hỏi khách muốn đổi màu hay trả tiền lại.",
+          "h": "I am sorry. Do you want + N or a refund? (Present Simple)",
+          "s": "I am sorry. Do you want a different color or a refund?"
+        },
+        {
+          "p": "I bought this yesterday and now it is too small.",
+          "m": "Xin lỗi. Hỏi khách có hóa đơn không và nói bạn sẽ kiểm tra chính sách đổi hàng.",
+          "h": "I am sorry. Do you have the receipt? We are checking policy.",
+          "s": "I am sorry. Do you have the receipt? We are checking the exchange policy."
+        },
+        {
+          "p": "I need the new size today.",
+          "m": "Nói bạn sẽ tìm kho hoặc cửa hàng khác để đổi ngay. Xác nhận hành động.",
+          "h": "We are looking in the store / We are calling another shop (Present Continuous).",
+          "s": "We are checking our stock and we are calling the other store now."
+        },
+        {
+          "p": "What if you do not have my size?",
+          "m": "Trả lời phương án nếu không có hàng (đặt trước hoặc hoàn tiền). Nói bạn sẽ làm gì ngay.",
+          "h": "If no stock: We are ordering it or we are giving a refund. (Present Continuous/Simple)",
+          "s": "If we have no size, we are ordering it for you or we are giving a refund."
+        }
+      ]
+    },
+    {
+      "t": "Yêu cầu hoàn tiền",
+      "e": [
+        {
+          "p": "I want a refund for this item.",
+          "m": "Xác nhận yêu cầu hoàn tiền. Nói bạn sẽ kiểm tra và hoàn tiền.",
+          "h": "I understand. We are checking and we are giving a refund.",
+          "s": "I understand. We are checking your order and we are giving a refund."
+        },
+        {
+          "p": "How long does a refund take?",
+          "m": "Trả lời thời gian xử lý ngắn gọn (hiện tại), dùng cấu trúc hiện tại.",
+          "h": "We usually + V (Present Simple) / It takes + time (simple).",
+          "s": "We usually process refunds in three days. It takes about three days."
+        },
+        {
+          "p": "I returned the item but I have no money yet.",
+          "m": "Xin lỗi. Nói bạn đang kiểm tra trả tiền và khi nào khách nhận được tiền.",
+          "h": "I am sorry. We are checking and you will get money soon (avoid 'will' — use present).",
+          "s": "I am sorry. We are checking the return and you get the money in three days."
+        },
+        {
+          "p": "I paid by card. Can you refund to my card?",
+          "m": "Xác nhận có thể hoàn vào thẻ. Nói bạn đang làm thao tác hoàn tiền vào thẻ khách.",
+          "h": "Yes: We are refunding to your card now. (Present Continuous)",
+          "s": "Yes, we are refunding to your card now."
+        },
+        {
+          "p": "I am not happy with this process.",
+          "m": "Xin lỗi và tỏ ra đồng cảm. Nói bạn đang làm nhanh hơn và theo dõi cho khách.",
+          "h": "I am sorry. We are speeding up the process and we are following up.",
+          "s": "I am sorry for the trouble. We are speeding up the refund and we are following up with you."
+        }
+      ]
+    },
+    {
+      "t": "Sản phẩm không giống quảng cáo",
+      "e": [
+        {
+          "p": "This item is smaller than the picture.",
+          "m": "Xin lỗi. Nói bạn sẽ đổi hoặc hoàn tiền.",
+          "h": "I am sorry. We are replacing it or we are giving a refund.",
+          "s": "I am sorry. We are replacing the item or we are giving a refund."
+        },
+        {
+          "p": "The color is different from the online photo.",
+          "m": "Xin lỗi. Hỏi khách muốn đổi màu hay hoàn tiền.",
+          "h": "I am sorry. Do you want + N or a refund? (Present Simple)",
+          "s": "I am sorry. Do you want a different color or a refund?"
+        },
+        {
+          "p": "The material feels cheap, not as described.",
+          "m": "Xin lỗi. Nói bạn sẽ trả tiền lại hoặc gửi sản phẩm mới với chất liệu đúng.",
+          "h": "I am sorry. We are giving a refund or we are sending a correct item.",
+          "s": "I am sorry. We are giving a refund or we are sending the correct product."
+        },
+        {
+          "p": "I bought many items and some are wrong.",
+          "m": "Xin lỗi và hỏi khách số lượng sai. Nói bạn sẽ đổi các món sai.",
+          "h": "I am sorry. How many are wrong? We are replacing them.",
+          "s": "I am sorry. How many items are wrong? We are replacing those items."
+        },
+        {
+          "p": "I want good quality or my money back.",
+          "m": "Đồng ý quyền lợi. Nói bạn sẽ đổi sản phẩm sang loại tốt hơn hoặc hoàn tiền.",
+          "h": "We agree. We are giving a better product or a refund.",
+          "s": "You are right. We are sending a better product or we are giving a refund."
+        }
+      ]
+    },
+    {
+      "t": "Phàn nàn về nhân viên",
+      "e": [
+        {
+          "p": "The staff ignored me at the counter.",
+          "m": "Xin lỗi. Nói bạn sẽ kiểm tra và dạy lại nhân viên.",
+          "h": "I am sorry. We are checking and we are training staff.",
+          "s": "I am sorry. We are checking this and we are training our staff."
+        },
+        {
+          "p": "The receptionist was rude on the phone.",
+          "m": "Xin lỗi. Nói bạn sẽ nghe lại cuộc gọi và xử lý.",
+          "h": "I am sorry. We are listening to the call and we are acting now.",
+          "s": "I am sorry. We are listening to the call and we are acting now."
+        },
+        {
+          "p": "A worker damaged my bag while cleaning.",
+          "m": "Xin lỗi và hỏi chi tiết (một câu). Nói bạn sẽ sửa hoặc trả tiền.",
+          "h": "I am sorry. What happened? We are repairing or we are giving money.",
+          "s": "I am sorry. What happened to the bag? We are repairing it or we are giving money."
+        },
+        {
+          "p": "I want to speak to a manager about this staff.",
+          "m": "Xác nhận và nói bạn sẽ gọi quản lý ngay. Hẹn quản lý liên hệ.",
+          "h": "We are calling the manager now. The manager is coming / calling.",
+          "s": "I understand. We are calling the manager now and the manager is coming."
+        },
+        {
+          "p": "This treatment made me want to leave a bad review.",
+          "m": "Xin lỗi và đề nghị giải pháp để sửa mối quan hệ (đổi hàng/hoàn tiền).",
+          "h": "I am sorry. We are offering a replacement or a refund to help.",
+          "s": "I am sorry. We are offering a replacement or a refund to help."
+        }
+      ]
+    },
+    {
+      "t": "Hẹn gặp quản lý xử lý khiếu nại",
+      "e": [
+        {
+          "p": "I want to see the manager.",
+          "m": "Xác nhận yêu cầu. Nói bạn sẽ gọi quản lý ngay.",
+          "h": "I understand. We are calling the manager now (Present Continuous).",
+          "s": "I understand. We are calling the manager now."
+        },
+        {
+          "p": "Can I meet the manager today?",
+          "m": "Trả lời có/không ngắn gọn. Nếu có, nói thời gian/ngay bây giờ.",
+          "h": "Yes: We are available at + time / No: We are available tomorrow. (Present Simple/Continuous)",
+          "s": "Yes, the manager is available now. We are meeting you in five minutes."
+        },
+        {
+          "p": "I want a solution from the manager, not an employee.",
+          "m": "Đồng ý và nói manager sẽ đưa giải pháp (đổi/hoàn tiền...).",
+          "h": "We are telling the manager and he/she is making a decision (Present Continuous).",
+          "s": "I agree. We are telling the manager and the manager is making a decision now."
+        },
+        {
+          "p": "The manager is not here. What can I do?",
+          "m": "Xin lỗi và nói bạn sẽ để lại thông tin để manager liên hệ hoặc sắp xếp cuộc hẹn.",
+          "h": "I am sorry. We are taking your details and we are arranging a call.",
+          "s": "I am sorry. We are taking your details and we are arranging a call with the manager."
+        },
+        {
+          "p": "I want quick action from the manager.",
+          "m": "Hứa xử lý nhanh. Nói manager đang xem hồ sơ và sẽ xử lý ngay.",
+          "h": "We are acting now. The manager is reviewing and we are fixing the problem.",
+          "s": "We are acting now. The manager is reviewing your case and we are fixing the problem."
+        }
+      ]
+    },
+    {
+      "t": "Theo dõi khiếu nại sau xử lý",
+      "e": [
+        {
+          "p": "You said you fixed my order yesterday.",
+          "m": "Xác nhận đã xử lý. Nói bạn đang theo dõi và kiểm tra tình trạng.",
+          "h": "We did / We are checking (Present Simple / Present Continuous).",
+          "s": "We fixed your order yesterday. We are checking the status now."
+        },
+        {
+          "p": "I have not received any update.",
+          "m": "Xin lỗi và nói bạn sẽ gửi thông tin cập nhật ngay bây giờ.",
+          "h": "I am sorry. We are sending an update now (Present Continuous).",
+          "s": "I am sorry. We are sending an update now."
+        },
+        {
+          "p": "The problem is back after one day.",
+          "m": "Xin lỗi. Nói bạn sẽ kiểm tra kỹ hơn và sửa lại ngay.",
+          "h": "I am sorry. We are checking again and we are fixing it now.",
+          "s": "I am sorry. We are checking again and we are fixing it now."
+        },
+        {
+          "p": "Who can I contact if the issue returns?",
+          "m": "Cho thông tin liên hệ ngắn gọn. Nói ai và cách liên hệ (phone/email).",
+          "h": "Contact: Name + We are + V-ing (answer). Use Present Simple/Continuous.",
+          "s": "Contact the support team. We are answering calls at the number on your receipt."
+        },
+        {
+          "p": "I want to close this complaint if it is okay now.",
+          "m": "Hỏi xác nhận khách hài lòng. Nếu có, nói bạn đóng hồ sơ và cảm ơn.",
+          "h": "Are you + adjective? We are closing the case and thanking. (Present Simple/Continuous)",
+          "s": "Are you happy with the solution? We are closing the case and thanking you."
+        }
+      ]
+    },
+    {
+      "t": "Xử lý khiếu nại cho dịch vụ trực tuyến",
+      "e": [
+        {
+          "p": "The online class link does not work.",
+          "m": "Xin lỗi. Nói bạn đang kiểm tra link và gửi link mới.",
+          "h": "I am sorry. We are checking and we are sending a new link. (Present Continuous)",
+          "s": "I am sorry. We are checking the link and we are sending a new link now."
+        },
+        {
+          "p": "My video is always poor quality.",
+          "m": "Xin lỗi. Hỏi khách họ có wifi tốt và đề nghị hướng dẫn kiểm tra.",
+          "h": "I am sorry. Do you have good wifi? We are giving simple tips. (Present Simple/Continuous)",
+          "s": "I am sorry. Do you have good wifi? We are giving simple tips to improve the video."
+        },
+        {
+          "p": "I paid but I can not access the course.",
+          "m": "Xin lỗi. Nói bạn đang kiểm tra thanh toán và mở quyền truy cập cho khách.",
+          "h": "I am sorry. We are checking payment and we are opening access. (Present Continuous)",
+          "s": "I am sorry. We are checking your payment and we are opening access now."
+        },
+        {
+          "p": "The platform logs me out every 5 minutes.",
+          "m": "Xin lỗi. Nói bạn sẽ báo kỹ thuật và theo dõi vấn đề.",
+          "h": "I am sorry. We are telling tech and we are monitoring the issue.",
+          "s": "I am sorry. We are telling the technical team and we are monitoring the issue."
+        },
+        {
+          "p": "I want compensation for the lost lesson.",
+          "m": "Xác nhận yêu cầu. Nói bạn sẽ tặng buổi bù hoặc hoàn tiền một phần.",
+          "h": "We are offering a free make-up lesson or partial refund (Present Continuous/Simple).",
+          "s": "We understand. We are offering a free make-up lesson or a partial refund."
+        }
+      ]
+    },
+    {
+      "t": "Gọi điện chăm sóc khách hàng",
+      "e": [
+        {
+          "p": "I call about my complaint number 123.",
+          "m": "Xác nhận số khiếu nại. Nói bạn đang xem hồ sơ đó.",
+          "h": "I am checking complaint number + N. Use Present Continuous.",
+          "s": "I am checking complaint number 123 now."
+        },
+        {
+          "p": "I want an update on my refund.",
+          "m": "Xin lỗi nếu chậm. Nói bạn đang kiểm tra tiến trình và báo thời gian.",
+          "h": "I am sorry. We are checking and it takes + time (Present Simple).",
+          "s": "I am sorry for the delay. We are checking and it takes two days."
+        },
+        {
+          "p": "Can you confirm my address for delivery?",
+          "m": "Xác nhận địa chỉ. Nói địa chỉ theo thông tin khách cung cấp.",
+          "h": "Use: Your address is + ... (Present Simple).",
+          "s": "Your address is 12 Green Street. We are sending the package there."
+        },
+        {
+          "p": "I want faster help, please.",
+          "m": "Thể hiện đồng cảm. Nói bạn đang ưu tiên hồ sơ này và làm ngay.",
+          "h": "I am sorry. We are prioritizing your case and we are acting now.",
+          "s": "I am sorry. We are prioritizing your case and we are acting now."
+        },
+        {
+          "p": "Thank you. Please call me after you fix it.",
+          "m": "Xác nhận yêu cầu gọi lại. Nói bạn sẽ gọi khi xong (bằng hiện tại liên tục).",
+          "h": "We are calling you when we fix it (use Present Continuous for action in progress).",
+          "s": "Thank you. We are calling you after we fix the problem."
+        }
+      ]
+    },
+    {
+      "t": "Ôn tập: Xử lý khiếu nại tại nhà hàng",
+      "e": [
+        {
+          "p": "The soup is cold and the waiter is rude.",
+          "m": "Xin lỗi cho cả hai vấn đề. Nói bạn sẽ đổi món và nói chuyện với nhân viên.",
+          "h": "I am sorry for + N. We are + V-ing and we are + V-ing.",
+          "s": "I am sorry for the cold soup and rude service. We are replacing your meal and we are talking to the waiter."
+        },
+        {
+          "p": "I paid for fast delivery but the food is late.",
+          "m": "Xin lỗi. Nói bạn sẽ hoàn phí vận chuyển và gửi món mới.",
+          "h": "I am sorry. We are refunding and we are sending new food. (Present Continuous)",
+          "s": "I am sorry. We are refunding the delivery fee and we are sending new food."
+        },
+        {
+          "p": "The dessert has a fly in it.",
+          "m": "Xin lỗi. Nói bạn sẽ bỏ món đó và mang món khác miễn phí.",
+          "h": "I am sorry. We are removing it and we are bringing a free dessert.",
+          "s": "I am sorry. We are removing the dessert and we are bringing a free one."
+        },
+        {
+          "p": "I want to speak to the manager now.",
+          "m": "Xác nhận và nói bạn sẽ gọi quản lý ngay.",
+          "h": "We are calling the manager now. (Present Continuous)",
+          "s": "I understand. We are calling the manager now."
+        },
+        {
+          "p": "Will I get any discount for this bad meal?",
+          "m": "Trả lời ngắn gọn phương án: giảm giá hoặc hoàn tiền. Nói bạn đang áp dụng giảm cho khách.",
+          "h": "We are giving a discount or a refund (Present Continuous/Simple).",
+          "s": "We are giving you a discount or a refund for the bad meal."
+        }
+      ]
+    },
+    {
+      "t": "Ôn tập: Mua hàng online và khiếu nại",
+      "e": [
+        {
+          "p": "My order is wrong and I need help.",
+          "m": "Xin lỗi. Nói bạn sẽ kiểm tra đơn và đổi hàng ngay.",
+          "h": "I am sorry. We are checking and we are replacing. (Present Continuous)",
+          "s": "I am sorry. We are checking your order and we are replacing the wrong item."
+        },
+        {
+          "p": "I returned the product but I have no refund.",
+          "m": "Xin lỗi. Nói bạn đang kiểm tra trả hàng và hoàn tiền trong vài ngày.",
+          "h": "I am sorry. We are checking and it takes + time (Present Simple).",
+          "s": "I am sorry. We are checking the return and it takes three days for the refund."
+        },
+        {
+          "p": "The picture is different from the product I received.",
+          "m": "Xin lỗi. Nói bạn sẽ đổi hoặc hoàn tiền và gửi hướng dẫn trả hàng.",
+          "h": "I am sorry. We are replacing or refunding and we are sending return instructions.",
+          "s": "I am sorry. We are replacing the product or refunding you and we are sending return instructions."
+        },
+        {
+          "p": "I paid extra for gift wrap but it is not wrapped.",
+          "m": "Xin lỗi. Nói bạn sẽ bù dịch vụ hoặc hoàn tiền phần gói quà.",
+          "h": "I am sorry. We are giving the gift wrap service now or we are giving a refund.",
+          "s": "I am sorry. We are wrapping the gift now or we are giving a refund for the service."
+        },
+        {
+          "p": "I want quick return and refund.",
+          "m": "Nói bạn sẽ ưu tiên hồ sơ và gửi cập nhật khi xong.",
+          "h": "We are prioritizing your return and we are updating you. (Present Continuous)",
+          "s": "We are prioritizing your return and we are updating you when it is done."
+        }
+      ]
+    },
+    {
+      "t": "Ôn tập: Tổng hợp chăm sóc khách hàng",
+      "e": [
+        {
+          "p": "My experience was bad in many ways.",
+          "m": "Xin lỗi chung. Nói bạn sẽ xem toàn bộ vấn đề và báo giải pháp sớm.",
+          "h": "I am sorry. We are reviewing and we are preparing a solution now.",
+          "s": "I am sorry for your bad experience. We are reviewing all issues and we are preparing a solution."
+        },
+        {
+          "p": "I need a clear answer and quick fix.",
+          "m": "Hứa xử lý nhanh. Nói bạn sẽ làm ngay và liên hệ khách khi xong.",
+          "h": "We are acting now and we are calling you after. (Present Continuous)",
+          "s": "We are acting now and we are calling you after we fix it."
+        },
+        {
+          "p": "Who is responsible for this problem?",
+          "m": "Trả lời ngắn gọn: bộ phận nào/ai chịu trách nhiệm và bạn sẽ thông báo họ.",
+          "h": "Use: The team/manager is responsible. We are telling them now. (Present Simple/Continuous)",
+          "s": "The manager is responsible. We are telling the manager now."
+        },
+        {
+          "p": "I want confirmation by email.",
+          "m": "Xác nhận và nói bạn sẽ gửi email khi hoàn tất.",
+          "h": "We are sending an email when we finish. (Present Continuous)",
+          "s": "We are sending a confirmation email when we finish the process."
+        },
+        {
+          "p": "Thank you, I hope you fix it well.",
+          "m": "Cảm ơn và cam kết theo dõi. Nói bạn sẽ làm kỹ và theo dõi khách.",
+          "h": "Thank you. We are doing it carefully and we are following up. (Present Continuous)",
+          "s": "Thank you. We are fixing it carefully and we are following up with you."
+        }
+      ]
+    }
+  ]
+}
