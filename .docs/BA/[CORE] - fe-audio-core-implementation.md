@@ -31,6 +31,7 @@
 ```
 
 **Lý do tách 2 tầng:**
+
 - Whisper per exercise → user thấy transcript ngay, UX tự nhiên
 - Scoring 1 lần cuối → AI có đủ context toàn pack → chấm chính xác hơn + giảm API cost từ N calls xuống còn 1
 
@@ -210,23 +211,24 @@ FE cần tích lũy dữ liệu suốt quá trình làm pack — không được
 
 ```typescript
 interface PackSession {
-  packId       : string;
-  levelId      : number;
-  currentSeq   : number;      // bài đang làm (1-indexed)
+  packId: string;
+  levelId: number;
+  currentSeq: number; // bài đang làm (1-indexed)
   totalExercises: number;
 
   // Tích lũy sau mỗi bài submit thành công
   attempts: Array<{
-    exerciseId  : string;
-    seq         : number;
-    attemptId   : string;     // từ BE
-    transcript  : string;     // từ Whisper
-    audioBlob   : Blob;       // giữ để playback, xóa sau khi next
+    exerciseId: string;
+    seq: number;
+    attemptId: string; // từ BE
+    transcript: string; // từ Whisper
+    audioBlob: Blob; // giữ để playback, xóa sau khi next
   }>;
 }
 ```
 
 **Lưu ý quan trọng:**
+
 - `audioBlob` chỉ cần giữ cho bài hiện tại (playback). Sau khi Next → có thể `URL.revokeObjectURL` và xóa blob khỏi session để tiết kiệm memory.
 - Nếu user thoát giữa chừng → session mất, không cần persist (pack sẽ bắt đầu lại).
 
@@ -317,13 +319,13 @@ POST /packs/{id}/score đang chạy (~3–6s):
 
 ## 8. ERROR HANDLING
 
-| Tình huống | Xử lý |
-|:-----------|:------|
-| Whisper fail (bài lẻ) | Retry tự động 1 lần. Vẫn fail → cho phép "Bỏ qua bài này" (transcript = null) |
-| Scoring model fail | Retry 1 lần. Vẫn fail → "Chưa chấm được, thử lại sau" + không mất credit |
-| User thoát giữa pack | Session mất, pack reset về đầu. Credit chưa trừ hoặc refund |
-| Network drop khi upload audio | Toast lỗi + cho phép ghi lại. Audio blob vẫn còn trong memory |
-| Whisper trả transcript trống | Hiện "Không nhận được giọng nói rõ" → user ghi lại, không tiếp tục |
+| Tình huống                    | Xử lý                                                                         |
+| :---------------------------- | :---------------------------------------------------------------------------- |
+| Whisper fail (bài lẻ)         | Retry tự động 1 lần. Vẫn fail → cho phép "Bỏ qua bài này" (transcript = null) |
+| Scoring model fail            | Retry 1 lần. Vẫn fail → "Chưa chấm được, thử lại sau" + không mất credit      |
+| User thoát giữa pack          | Session mất, pack reset về đầu. Credit chưa trừ hoặc refund                   |
+| Network drop khi upload audio | Toast lỗi + cho phép ghi lại. Audio blob vẫn còn trong memory                 |
+| Whisper trả transcript trống  | Hiện "Không nhận được giọng nói rõ" → user ghi lại, không tiếp tục            |
 
 ---
 
@@ -392,11 +394,11 @@ FE              API GW        Content Svc      Whisper      Scoring Model
 
 ## 11. ĐIỂM TỐI ƯU CHÍNH
 
-| Điểm | Cách tối ưu |
-|:-----|:------------|
-| Whisper latency | Audio nhỏ (WebM/Opus ~20KB/5s) → Whisper xử lý nhanh ~1s |
-| Scoring context | Gửi 1 lần toàn pack → model có đủ context → chính xác hơn per-exercise |
-| Cost | 1 scoring call/pack thay vì N calls → giảm chi phí N lần |
+| Điểm             | Cách tối ưu                                                                |
+| :--------------- | :------------------------------------------------------------------------- |
+| Whisper latency  | Audio nhỏ (WebM/Opus ~20KB/5s) → Whisper xử lý nhanh ~1s                   |
+| Scoring context  | Gửi 1 lần toàn pack → model có đủ context → chính xác hơn per-exercise     |
+| Cost             | 1 scoring call/pack thay vì N calls → giảm chi phí N lần                   |
 | UX trong lúc chờ | Mỗi bài chỉ chờ Whisper ~1–2s (nhanh) — chờ scoring chỉ 1 lần cuối (~4–6s) |
-| Memory | Revoke audio Blob URL sau khi Next → không giữ N blobs trong RAM |
-| Prefetch | Fetch toàn bộ exercise data của pack khi mở pack — không fetch từng bài |
+| Memory           | Revoke audio Blob URL sau khi Next → không giữ N blobs trong RAM           |
+| Prefetch         | Fetch toàn bộ exercise data của pack khi mở pack — không fetch từng bài    |
