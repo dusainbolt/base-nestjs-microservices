@@ -103,42 +103,42 @@ Khi gọi AI, BE thay thế các placeholder `{...}` trong system prompt bằng 
 
 ### Level 1 — BEGINNER
 
-| Placeholder | Giá trị |
-| :--- | :--- |
-| `{level}` | `1` |
-| `{levelCode}` | `BEGINNER` |
-| `{grammarFloor}` | `Complete sentence with Subject + Verb. Single words or fragments are NOT acceptable.` |
-| `{referenceStructures}` | `S + be (am/is/are) + N/Adj, S + V(s/es) + O, S + can/can't + V, There is/are, What/Who/Where + be...?, Do/Does + S + V?` |
-| `{tenses}` | `Present Simple` |
-| `{connectors}` | `None required` |
-| `{vocabScope}` | `CEFR A1 — basic nouns (family, objects, food), common verbs (be, have, go, like, want), simple adjectives (big, small, good, bad), numbers, colors, simple time words (today, now, every day). Max ~300 words.` |
-| `{complexityHint}` | `Very low — single idea, 1 sentence expected.` |
+| Placeholder             | Giá trị                                                                                                                                                                                                          |
+| :---------------------- | :--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| `{level}`               | `1`                                                                                                                                                                                                              |
+| `{levelCode}`           | `BEGINNER`                                                                                                                                                                                                       |
+| `{grammarFloor}`        | `Complete sentence with Subject + Verb. Single words or fragments are NOT acceptable.`                                                                                                                           |
+| `{referenceStructures}` | `S + be (am/is/are) + N/Adj, S + V(s/es) + O, S + can/can't + V, There is/are, What/Who/Where + be...?, Do/Does + S + V?`                                                                                        |
+| `{tenses}`              | `Present Simple`                                                                                                                                                                                                 |
+| `{connectors}`          | `None required`                                                                                                                                                                                                  |
+| `{vocabScope}`          | `CEFR A1 — basic nouns (family, objects, food), common verbs (be, have, go, like, want), simple adjectives (big, small, good, bad), numbers, colors, simple time words (today, now, every day). Max ~300 words.` |
+| `{complexityHint}`      | `Very low — single idea, 1 sentence expected.`                                                                                                                                                                   |
 
 ### Level 2 — ELEMENTARY
 
-| Placeholder | Giá trị |
-| :--- | :--- |
-| `{level}` | `2` |
-| `{levelCode}` | `ELEMENTARY` |
-| `{grammarFloor}` | `Sentence with at least 2 ideas OR 1 sentence with modifier (adjective, frequency adverb, or extra info). Bare S+V+O like Level 1 is below floor.` |
-| `{referenceStructures}` | `All L1 + S + be + V-ing, S + V + adv of freq (always/often/sometimes), How much/many...?, I like/want/need + N/to V, There are + number + N, Prepositions (in/on/at/to)` |
-| `{tenses}` | `Present Simple, Present Continuous` |
-| `{connectors}` | `and, but` |
-| `{vocabScope}` | `CEFR A1–A2 — all L1 vocab + 2-syllable adjectives (happy, hungry, tired, busy), frequency adverbs (always, often, usually, sometimes, never), common phrasal verbs (get up, go out, come back, wake up), emotion words (love, hate, enjoy, miss, feel), time words (yesterday, tomorrow, last week). Max ~600 words.` |
-| `{complexityHint}` | `Low — 2 connected sentences or 1 sentence with details.` |
+| Placeholder             | Giá trị                                                                                                                                                                                                                                                                                                                |
+| :---------------------- | :--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| `{level}`               | `2`                                                                                                                                                                                                                                                                                                                    |
+| `{levelCode}`           | `ELEMENTARY`                                                                                                                                                                                                                                                                                                           |
+| `{grammarFloor}`        | `Sentence with at least 2 ideas OR 1 sentence with modifier (adjective, frequency adverb, or extra info). Bare S+V+O like Level 1 is below floor.`                                                                                                                                                                     |
+| `{referenceStructures}` | `All L1 + S + be + V-ing, S + V + adv of freq (always/often/sometimes), How much/many...?, I like/want/need + N/to V, There are + number + N, Prepositions (in/on/at/to)`                                                                                                                                              |
+| `{tenses}`              | `Present Simple, Present Continuous`                                                                                                                                                                                                                                                                                   |
+| `{connectors}`          | `and, but`                                                                                                                                                                                                                                                                                                             |
+| `{vocabScope}`          | `CEFR A1–A2 — all L1 vocab + 2-syllable adjectives (happy, hungry, tired, busy), frequency adverbs (always, often, usually, sometimes, never), common phrasal verbs (get up, go out, come back, wake up), emotion words (love, hate, enjoy, miss, feel), time words (yesterday, tomorrow, last week). Max ~600 words.` |
+| `{complexityHint}`      | `Low — 2 connected sentences or 1 sentence with details.`                                                                                                                                                                                                                                                              |
 
 ### Level 3 — PRE-INTERMEDIATE
 
-| Placeholder | Giá trị |
-| :--- | :--- |
-| `{level}` | `3` |
-| `{levelCode}` | `PRE_INTERMEDIATE` |
-| `{grammarFloor}` | `Must use correct tense matching context — past events require Past Simple. Sentences must show logical sequence or cause-and-effect. Using present tense for past events is a serious floor violation.` |
-| `{referenceStructures}` | `All L1, L2 + Past Simple (regular/irregular), Future (will/going to), Comparatives (more/adj-er + than), Should/Must/Have to + V, Compound sentences with connectors` |
-| `{tenses}` | `Present Simple, Present Continuous, Past Simple, Future Simple (will/going to)` |
-| `{connectors}` | `and, but, so, because, then` |
-| `{vocabScope}` | `CEFR A2–B1 — all L1-L2 vocab + emotions (excited, nervous, disappointed, surprised), travel (airport, hotel, ticket, luggage), shopping (cheap, expensive, discount, price), work (office, meeting, deadline, project), weather (sunny, cloudy, rainy), common phrasal verbs (look for, find out, give up), comparatives (better, worse, more comfortable). Max ~1200 words.` |
-| `{complexityHint}` | `Medium-low — 2–3 sentences with time sequence, cause-effect, or comparison.` |
+| Placeholder             | Giá trị                                                                                                                                                                                                                                                                                                                                                                        |
+| :---------------------- | :----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| `{level}`               | `3`                                                                                                                                                                                                                                                                                                                                                                            |
+| `{levelCode}`           | `PRE_INTERMEDIATE`                                                                                                                                                                                                                                                                                                                                                             |
+| `{grammarFloor}`        | `Must use correct tense matching context — past events require Past Simple. Sentences must show logical sequence or cause-and-effect. Using present tense for past events is a serious floor violation.`                                                                                                                                                                       |
+| `{referenceStructures}` | `All L1, L2 + Past Simple (regular/irregular), Future (will/going to), Comparatives (more/adj-er + than), Should/Must/Have to + V, Compound sentences with connectors`                                                                                                                                                                                                         |
+| `{tenses}`              | `Present Simple, Present Continuous, Past Simple, Future Simple (will/going to)`                                                                                                                                                                                                                                                                                               |
+| `{connectors}`          | `and, but, so, because, then`                                                                                                                                                                                                                                                                                                                                                  |
+| `{vocabScope}`          | `CEFR A2–B1 — all L1-L2 vocab + emotions (excited, nervous, disappointed, surprised), travel (airport, hotel, ticket, luggage), shopping (cheap, expensive, discount, price), work (office, meeting, deadline, project), weather (sunny, cloudy, rainy), common phrasal verbs (look for, find out, give up), comparatives (better, worse, more comfortable). Max ~1200 words.` |
+| `{complexityHint}`      | `Medium-low — 2–3 sentences with time sequence, cause-effect, or comparison.`                                                                                                                                                                                                                                                                                                  |
 
 ---
 
@@ -326,11 +326,11 @@ interface SubScore {
 
 ### 5.2 Quy tắc cho `suggestedPhrases`
 
-| Level | `suggestedPhrases` | Ghi chú |
-| :--- | :--- | :--- |
-| Level 1 | `null` hoặc không trả | Người mới — tập trung nói đúng câu cơ bản trước. |
-| Level 2 | 2–3 câu | Câu dùng connector `and/but`, frequency adverb, Present Continuous. |
-| Level 3 | 2–3 câu | Câu dùng Past Simple, connectors `because/so/then`, comparatives. |
+| Level   | `suggestedPhrases`    | Ghi chú                                                             |
+| :------ | :-------------------- | :------------------------------------------------------------------ |
+| Level 1 | `null` hoặc không trả | Người mới — tập trung nói đúng câu cơ bản trước.                    |
+| Level 2 | 2–3 câu               | Câu dùng connector `and/but`, frequency adverb, Present Continuous. |
+| Level 3 | 2–3 câu               | Câu dùng Past Simple, connectors `because/so/then`, comparatives.   |
 
 `suggestedPhrases` phải liên quan đến chủ đề chung của pack (không phải random), và phải là những câu người học có thể dùng trong giao tiếp thực tế.
 
@@ -344,9 +344,7 @@ interface SubScore {
 {
   "overallScore": 63,
   "summary": {
-    "strongPoints": [
-      "Bài 1 trả lời đúng chủ đề, câu hoàn chỉnh"
-    ],
+    "strongPoints": ["Bài 1 trả lời đúng chủ đề, câu hoàn chỉnh"],
     "weakPoints": [
       "Bài 2 sai chia động từ 'be'",
       "Bài 3 chỉ nói từ rời rạc, chưa thành câu"
@@ -417,9 +415,7 @@ interface SubScore {
       "Bài 1 dùng Present Continuous đúng, có connector 'and'",
       "Bài 3 dùng 'because' đúng — vượt mức Level 2"
     ],
-    "weakPoints": [
-      "Bài 2 quá đơn giản, thiếu chi tiết — dưới floor Level 2"
-    ],
+    "weakPoints": ["Bài 2 quá đơn giản, thiếu chi tiết — dưới floor Level 2"],
     "nextFocus": [
       "Thêm trạng từ tần suất (usually, often, sometimes) vào câu",
       "Nối 2 ý bằng 'and' hoặc 'but' thay vì tách thành 2 câu cụt"
@@ -565,9 +561,15 @@ Các trường hợp sau được BE xử lý **trước khi gọi scoring model
 ```json
 {
   "score": 0,
-  "relevance": { "score": 0, "feedback": "Không nhận được câu trả lời đầy đủ." },
+  "relevance": {
+    "score": 0,
+    "feedback": "Không nhận được câu trả lời đầy đủ."
+  },
   "grammar": { "score": 0, "feedback": "Không có nội dung để đánh giá." },
-  "vocabulary": { "score": 0, "feedback": "Hãy nói to và rõ hơn, ít nhất 1 câu hoàn chỉnh." }
+  "vocabulary": {
+    "score": 0,
+    "feedback": "Hãy nói to và rõ hơn, ít nhất 1 câu hoàn chỉnh."
+  }
 }
 ```
 
@@ -579,7 +581,10 @@ Whisper trả `language` field — BE check trước khi score.
 {
   "score": 0,
   "relevance": { "score": 0, "feedback": "Câu trả lời không phải tiếng Anh." },
-  "grammar": { "score": 0, "feedback": "Không có nội dung tiếng Anh để đánh giá." },
+  "grammar": {
+    "score": 0,
+    "feedback": "Không có nội dung tiếng Anh để đánh giá."
+  },
   "vocabulary": { "score": 0, "feedback": "Vui lòng trả lời bằng tiếng Anh." }
 }
 ```
@@ -613,7 +618,7 @@ export const LEVEL_CONTEXTS: Record<number, LevelContext> = {
     grammarFloor:
       'Complete sentence with Subject + Verb. Single words or fragments are NOT acceptable.',
     referenceStructures:
-      'S + be (am/is/are) + N/Adj, S + V(s/es) + O, S + can/can\'t + V, There is/are, What/Who/Where + be...?, Do/Does + S + V?',
+      "S + be (am/is/are) + N/Adj, S + V(s/es) + O, S + can/can't + V, There is/are, What/Who/Where + be...?, Do/Does + S + V?",
     tenses: 'Present Simple',
     connectors: 'None required',
     vocabScope:
@@ -745,7 +750,7 @@ Return a valid JSON object matching the schema below. No markdown, no explanatio
 // scoring/build-user-message.ts
 
 interface ExerciseInput {
-  prompt: string;     // field `p` từ exercise data
+  prompt: string; // field `p` từ exercise data
   transcript: string; // từ Whisper STT
 }
 
@@ -854,16 +859,10 @@ export const FREE_MODE_RESPONSE_SCHEMA = {
       suggestedPhrases: {
         type: ['array', 'null'],
         items: { type: 'string' },
-        description:
-          'Gợi ý câu mẫu (Level 2 & 3 only, null cho Level 1)',
+        description: 'Gợi ý câu mẫu (Level 2 & 3 only, null cho Level 1)',
       },
     },
-    required: [
-      'overallScore',
-      'summary',
-      'exercises',
-      'suggestedPhrases',
-    ],
+    required: ['overallScore', 'summary', 'exercises', 'suggestedPhrases'],
     additionalProperties: false,
   },
 } as const;
@@ -908,8 +907,8 @@ interface FreeModeScoringResponse {
 interface ScoringInput {
   levelId: number;
   exercises: Array<{
-    prompt: string;      // field `p`
-    transcript: string;  // từ Whisper
+    prompt: string; // field `p`
+    transcript: string; // từ Whisper
   }>;
 }
 
@@ -928,14 +927,11 @@ export async function scoreFreeMode(
   }
 
   const systemPrompt = buildFreeModeScoringSystemPrompt(levelCtx);
-  const userMessage = buildFreeModeUserMessage(
-    input.levelId,
-    input.exercises,
-  );
+  const userMessage = buildFreeModeUserMessage(input.levelId, input.exercises);
 
   const response = await openai.chat.completions.create({
-    model: 'gpt-4o-mini',           // hoặc 'gpt-4o' nếu cần accuracy cao hơn
-    temperature: 0.3,                // thấp để scoring ổn định
+    model: 'gpt-4o-mini', // hoặc 'gpt-4o' nếu cần accuracy cao hơn
+    temperature: 0.3, // thấp để scoring ổn định
     max_tokens: 2048,
     messages: [
       { role: 'system', content: systemPrompt },
@@ -981,12 +977,13 @@ const result = await scoreFreeMode({
   ],
 });
 
-console.log(result.overallScore);       // 75
+console.log(result.overallScore); // 75
 console.log(result.exercises[0].score); // 92
-console.log(result.suggestedPhrases);   // ["I often go...", ...]
+console.log(result.suggestedPhrases); // ["I often go...", ...]
 ```
 
 > **Ghi chú về model:**
+>
 > - `gpt-4o-mini`: chi phí thấp, tốc độ nhanh (~2–3s), phù hợp cho scoring cơ bản.
 > - `gpt-4o`: chính xác hơn khi đánh giá grammar phức tạp (L3), chi phí cao hơn ~10x.
 > - `temperature: 0.3`: giữ scoring nhất quán giữa các lần gọi. Không dùng 0 để tránh repetitive.
