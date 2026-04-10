@@ -13,9 +13,7 @@ export class EmailServiceService {
   private readonly logger = new Logger(EmailServiceService.name);
   private readonly transporter: nodemailer.Transporter;
 
-  constructor(
-    private readonly config: ConfigService<EnvironmentVariables, true>,
-  ) {
+  constructor(private readonly config: ConfigService<EnvironmentVariables, true>) {
     this.transporter = nodemailer.createTransport({
       host: config.get('MAIL_HOST'),
       port: Number(config.get('MAIL_PORT')),
@@ -53,21 +51,14 @@ export class EmailServiceService {
     await this.send({
       to: payload.to,
       subject: `Welcome to ${this.config.get('MAIL_FROM_NAME')}!`,
-      html: this.welcomeTemplate(
-        payload.username,
-        payload.firstName ?? payload.username,
-      ),
+      html: this.welcomeTemplate(payload.username, payload.firstName ?? payload.username),
     });
     this.logger.log(`[WELCOME] Sent to ${payload.to}`);
   }
 
   // ─── Private helpers ──────────────────────────────────────────────────────
 
-  private async send(opts: {
-    to: string;
-    subject: string;
-    html: string;
-  }): Promise<void> {
+  private async send(opts: { to: string; subject: string; html: string }): Promise<void> {
     const from = `"${this.config.get('MAIL_FROM_NAME')}" <${this.config.get('MAIL_FROM')}>`;
     await this.transporter.sendMail({ from, ...opts });
   }

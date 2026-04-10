@@ -1,12 +1,7 @@
 import { ApiProperty } from '@nestjs/swagger';
 import { Transform, Type } from 'class-transformer';
 import { IsArray, IsEnum, IsInt, IsOptional, Max, Min } from 'class-validator';
-import {
-  DEFAULT_PAGE,
-  DEFAULT_TAKE,
-  MAX_TAKE,
-  SortOrder,
-} from '../constants/pagination.constants';
+import { DEFAULT_PAGE, DEFAULT_TAKE, MAX_TAKE, SortOrder } from '../constants/pagination.constants';
 import { SwaggerEnum, SwaggerNumber, SwaggerString } from './swagger.decorator';
 
 export class PageOptionsDto {

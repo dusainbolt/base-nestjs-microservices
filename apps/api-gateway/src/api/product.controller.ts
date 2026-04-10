@@ -50,10 +50,7 @@ export class ProductController {
   })
   create(@Body() body: CreateProductDto, @CurrentUser() user: JwtPayload) {
     return this.productClient
-      .send(
-        { cmd: PRODUCT_COMMANDS.CREATE },
-        { ...body, createdByUserId: user.sub },
-      )
+      .send({ cmd: PRODUCT_COMMANDS.CREATE }, { ...body, createdByUserId: user.sub })
       .pipe(rpcToHttp());
   }
 
@@ -70,9 +67,7 @@ export class ProductController {
       .send({ cmd: PRODUCT_COMMANDS.GET_LIST }, productQuery)
       .pipe(rpcToHttp());
 
-    return fields.length
-      ? products$.pipe(this.userEnrich.list(fields))
-      : products$;
+    return fields.length ? products$.pipe(this.userEnrich.list(fields)) : products$;
   }
 
   // ─── Get By Id ────────────────────────────────────────────────────────────
@@ -87,9 +82,7 @@ export class ProductController {
       .send({ cmd: PRODUCT_COMMANDS.GET_BY_ID }, { id })
       .pipe(rpcToHttp());
 
-    return fields.length
-      ? product$.pipe(this.userEnrich.single(fields))
-      : product$;
+    return fields.length ? product$.pipe(this.userEnrich.single(fields)) : product$;
   }
 
   // ─── Update ───────────────────────────────────────────────────────────────
@@ -99,16 +92,9 @@ export class ProductController {
     summary: 'Update product listing (Owner only)',
     type: ProductResponseDto,
   })
-  update(
-    @Param('id') id: string,
-    @Body() body: UpdateProductDto,
-    @CurrentUser() user: JwtPayload,
-  ) {
+  update(@Param('id') id: string, @Body() body: UpdateProductDto, @CurrentUser() user: JwtPayload) {
     return this.productClient
-      .send(
-        { cmd: PRODUCT_COMMANDS.UPDATE },
-        { id, ...body, requesterId: user.sub },
-      )
+      .send({ cmd: PRODUCT_COMMANDS.UPDATE }, { id, ...body, requesterId: user.sub })
       .pipe(rpcToHttp());
   }
 
@@ -128,26 +114,15 @@ export class ProductController {
   // ─── My Products ──────────────────────────────────────────────────────────
 
   @Get('me/list')
-  @ApiPaginatedResponse(
-    ProductResponseDto,
-    'Get list of products owned by current user',
-  )
-  getMyProducts(
-    @CurrentUser() user: JwtPayload,
-    @Query() query: ProductQueryDto,
-  ) {
+  @ApiPaginatedResponse(ProductResponseDto, 'Get list of products owned by current user')
+  getMyProducts(@CurrentUser() user: JwtPayload, @Query() query: ProductQueryDto) {
     const { include, ...productQuery } = query;
     const fields = resolveUserFields(include ?? []);
 
     const products$ = this.productClient
-      .send(
-        { cmd: PRODUCT_COMMANDS.GET_LIST },
-        { ...productQuery, createdByUserId: user.sub },
-      )
+      .send({ cmd: PRODUCT_COMMANDS.GET_LIST }, { ...productQuery, createdByUserId: user.sub })
       .pipe(rpcToHttp());
 
-    return fields.length
-      ? products$.pipe(this.userEnrich.list(fields))
-      : products$;
+    return fields.length ? products$.pipe(this.userEnrich.list(fields)) : products$;
   }
 }

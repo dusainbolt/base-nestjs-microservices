@@ -246,8 +246,7 @@ export class GetPacksByIdsDto {
   @ApiProperty({
     type: [String],
     example: ['uuid-1', 'uuid-2', 'uuid-3'],
-    description:
-      'Danh sách pack IDs (max 50). Thứ tự response giữ nguyên thứ tự IDs.',
+    description: 'Danh sách pack IDs (max 50). Thứ tự response giữ nguyên thứ tự IDs.',
     maxItems: 50,
   })
   @IsArray()
@@ -461,4 +460,117 @@ export class ExerciseListDto {
 
   @SwaggerNumber({ description: 'Tổng số exercise trong pack' })
   total: number;
+}
+
+// ─── START PACK PAYLOADS & RESPONSES ─────────────────────────────────────────
+
+/**
+ * Payload nội bộ RMQ: gateway → content-service.
+ * Khi user bấm "Bắt đầu" pack → tạo PackAttempt + N ExerciseAttempt (PENDING).
+ * TODO: logic trừ credit sẽ nằm ở đây sau.
+ */
+export class StartPackPayload {
+  @SwaggerString({ example: 'uuid-pack-123' })
+  packId: string;
+
+  @SwaggerString({ example: 'uuid-user-123' })
+  userId: string;
+}
+
+export class StartPackResponseDto {
+  @SwaggerString({ example: 'uuid-pack-attempt-123' })
+  packAttemptId: string;
+
+  @ApiProperty({
+    type: [Object],
+    description: 'Danh sách exercise attempts đã tạo sẵn (PENDING)',
+    example: [
+      {
+        exerciseAttemptId: 'uuid-1',
+        exerciseId: 'uuid-ex-1',
+        sequenceOrder: 1,
+      },
+    ],
+  })
+  exercises: Array<{
+    exerciseAttemptId: string;
+    exerciseId: string;
+    sequenceOrder: number;
+  }>;
+}
+
+// ─── EXERCISE ATTEMPT PAYLOADS ───────────────────────────────────────────────
+
+/**
+ * FE gửi lên gateway sau khi upload audio xong.
+ * audioId = Media record ID (từ media-service) → content-svc tự resolve URL.
+ */
+export class SubmitExerciseAudioDto {
+  @SwaggerString({ example: 'uuid-media-123' })
+  audioId: string;
+
+  @ApiProperty({ example: 3500, description: 'Thời lượng audio (ms)' })
+  @IsOptional()
+  @IsInt()
+  @IsPositive()
+  durationMs?: number;
+}
+
+/**
+ * Payload nội bộ RMQ: gateway → content-service.
+ * Gateway bổ sung exerciseId + userId từ route param + JWT.
+ */
+export class SubmitExerciseAudioPayload {
+  @SwaggerString({ example: 'uuid-exercise-123' })
+  exerciseId: string;
+
+  @SwaggerString({ example: 'uuid-user-123' })
+  userId: string;
+
+  @SwaggerString({ example: 'uuid-media-123' })
+  audioId: string;
+
+  @ApiProperty({ required: false, example: 3500 })
+  @IsOptional()
+  @IsInt()
+  durationMs?: number;
+}
+
+// ─── EXERCISE ATTEMPT RESPONSES ──────────────────────────────────────────────
+
+export class ExerciseAttemptResponseDto {
+  @SwaggerString({ example: 'uuid-attempt-123' })
+  attemptId: string;
+
+  @ApiProperty({ example: 'I work as a software engineer.' })
+  transcript: string;
+}
+
+// ─── PACK SCORING PAYLOADS ───────────────────────────────────────────────────
+
+export enum ScoringMode {
+  FREE = 'FREE',
+  GUIDED = 'GUIDED',
+}
+
+export class ScorePackDto {
+  @ApiProperty({
+    enum: ScoringMode,
+    example: ScoringMode.FREE,
+    description: 'Chế độ chấm điểm (FREE | GUIDED)',
+  })
+  @IsNotEmpty()
+  @IsEnum(ScoringMode)
+  mode: ScoringMode;
+}
+
+export class ScorePackPayload {
+  @SwaggerString({ example: 'uuid-pack-123' })
+  packId: string;
+
+  @SwaggerString({ example: 'uuid-user-123' })
+  userId: string;
+
+  @ApiProperty({ enum: ScoringMode, example: ScoringMode.FREE })
+  mode: ScoringMode;
 }

@@ -85,9 +85,7 @@ export class UserServiceService {
 
   // ─── GET PROFILE ──────────────────────────────────────────────────────────
 
-  async getProfile(payload: {
-    userId: string;
-  }): Promise<UserProfileResponseDto> {
+  async getProfile(payload: { userId: string }): Promise<UserProfileResponseDto> {
     const profile = await this.prisma.userProfile.findUnique({
       where: { id: payload.userId },
     });
@@ -122,9 +120,7 @@ export class UserServiceService {
 
   // ─── GET PROFILES BY IDS (batch — dùng cho relation enrichment) ──────────
 
-  async getProfilesByIds(payload: {
-    userIds: string[];
-  }): Promise<UserBasicInfoDto[]> {
+  async getProfilesByIds(payload: { userIds: string[] }): Promise<UserBasicInfoDto[]> {
     const { userIds } = payload;
 
     if (!userIds || userIds.length === 0) return [];
@@ -156,9 +152,7 @@ export class UserServiceService {
   // ─── DELETE PROFILE ───────────────────────────────────────────────────────
 
   async deleteProfile(userId: string): Promise<void> {
-    await this.prisma.userProfile
-      .delete({ where: { id: userId } })
-      .catch(() => {});
+    await this.prisma.userProfile.delete({ where: { id: userId } }).catch(() => {});
 
     this.logger.log(`Profile deleted for userId=${userId}`);
   }

@@ -26,17 +26,9 @@ export class RedisService {
 
   // ─── Refresh Token ───────────────────────────────────────────────────────────
 
-  async setRefreshToken(
-    tokenId: string,
-    data: RefreshTokenData,
-  ): Promise<void> {
+  async setRefreshToken(tokenId: string, data: RefreshTokenData): Promise<void> {
     const key = REDIS_KEYS.AUTH.REFRESH_TOKEN(tokenId);
-    await this.redis.set(
-      key,
-      JSON.stringify(data),
-      'EX',
-      REDIS_TTL.REFRESH_TOKEN,
-    );
+    await this.redis.set(key, JSON.stringify(data), 'EX', REDIS_TTL.REFRESH_TOKEN);
   }
 
   async getRefreshToken(tokenId: string): Promise<RefreshTokenData | null> {

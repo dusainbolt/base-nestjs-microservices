@@ -1,9 +1,4 @@
-import {
-  EnvironmentVariables,
-  RmqModule,
-  S3Module,
-  validateEnv,
-} from '@app/common';
+import { EnvironmentVariables, RmqModule, S3Module, validateEnv } from '@app/common';
 import { Module } from '@nestjs/common';
 import { ConfigModule } from '@nestjs/config';
 import { ScheduleModule } from '@nestjs/schedule';

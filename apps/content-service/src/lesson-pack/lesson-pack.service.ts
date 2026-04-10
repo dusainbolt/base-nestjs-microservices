@@ -29,8 +29,7 @@ export class LessonPackService {
   // ═══════════════════════════════════════════════════════════════════════════
 
   async getPacks(payload: GetPacksDto): Promise<PackListDto> {
-    const { categoryId, levelId, categoryType, status, limit = 20, offset = 0 } =
-      payload;
+    const { categoryId, levelId, categoryType, status, limit = 20, offset = 0 } = payload;
 
     // Build where clause
     const where: any = {
@@ -85,7 +84,9 @@ export class LessonPackService {
       where: { id: payload.id },
       include: {
         category: { select: { id: true, name: true, type: true } },
-        level: { select: { id: true, description: true, passThresholdScore: true } },
+        level: {
+          select: { id: true, description: true, passThresholdScore: true },
+        },
         _count: { select: { exercises: true } },
       },
     });
@@ -123,9 +124,7 @@ export class LessonPackService {
 
     // Giữ nguyên thứ tự theo ids truyền vào (user-service sort by lastPlayedAt)
     const packMap = new Map(packs.map((p) => [p.id, p]));
-    const ordered = ids
-      .map((id) => packMap.get(id))
-      .filter(Boolean);
+    const ordered = ids.map((id) => packMap.get(id)).filter(Boolean);
 
     this.logger.log(`getPacksByIds: requested=${ids.length}, found=${packs.length}`);
 
@@ -187,9 +186,7 @@ export class LessonPackService {
       orderBy: { order: 'asc' },
     });
 
-    this.logger.log(
-      `getPackExercises: packId=${payload.packId}, count=${exercises.length}`,
-    );
+    this.logger.log(`getPackExercises: packId=${payload.packId}, count=${exercises.length}`);
 
     return {
       items: exercises.map(this.toExerciseSummary),
@@ -208,7 +205,7 @@ export class LessonPackService {
       description: pack.description ?? null,
       categoryId: pack.categoryId,
       categoryName: pack.category?.name ?? null,
-      categoryType: pack.category?.type as CategoryType ?? null,
+      categoryType: (pack.category?.type as CategoryType) ?? null,
       levelId: pack.levelId,
       totalExercises: pack._count?.exercises ?? 0,
       status: pack.status,
@@ -222,7 +219,7 @@ export class LessonPackService {
       description: pack.description ?? null,
       categoryId: pack.categoryId,
       categoryName: pack.category?.name ?? null,
-      categoryType: pack.category?.type as CategoryType ?? null,
+      categoryType: (pack.category?.type as CategoryType) ?? null,
       levelId: pack.levelId,
       levelDescription: pack.level?.description ?? null,
       passThresholdScore: pack.level?.passThresholdScore ?? null,
@@ -241,7 +238,7 @@ export class LessonPackService {
       type: exercise.type,
       prompt: exercise.prompt,
       mediaUrl: exercise.mediaUrl ?? null,
-      options: exercise.options as any[] ?? [],
+      options: (exercise.options as any[]) ?? [],
       correctAnswer: exercise.correctAnswer,
       explanation: exercise.explanation ?? null,
     };

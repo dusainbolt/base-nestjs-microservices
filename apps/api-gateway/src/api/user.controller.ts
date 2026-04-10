@@ -8,20 +8,8 @@ import {
   USER_SERVICE,
 } from '@app/common';
 
-import {
-  UpdateAvatarDto,
-  UserProfileResponseDto,
-} from '@app/common/dto/user.dto';
-import {
-  Body,
-  Controller,
-  Get,
-  HttpCode,
-  HttpStatus,
-  Inject,
-  Param,
-  Patch,
-} from '@nestjs/common';
+import { UpdateAvatarDto, UserProfileResponseDto } from '@app/common/dto/user.dto';
+import { Body, Controller, Get, HttpCode, HttpStatus, Inject, Param, Patch } from '@nestjs/common';
 import { ClientProxy } from '@nestjs/microservices';
 import { ApiTags } from '@nestjs/swagger';
 
@@ -35,10 +23,7 @@ export class UserController {
     summary: 'Update current user avatar using an existing media ID',
     type: UserProfileResponseDto,
   })
-  async updateMyAvatar(
-    @Body() body: UpdateAvatarDto,
-    @CurrentUser() user: JwtPayload,
-  ) {
+  async updateMyAvatar(@Body() body: UpdateAvatarDto, @CurrentUser() user: JwtPayload) {
     return this.userClient
       .send(
         { cmd: USER_COMMANDS.UPDATE_AVATAR },
@@ -64,15 +49,9 @@ export class UserController {
   /** PATCH /users/me — cập nhật profile */
   @Patch('me')
   @HttpCode(HttpStatus.OK)
-  updateMyProfile(
-    @Body() body: UpdateProfileDto,
-    @CurrentUser() user: JwtPayload,
-  ) {
+  updateMyProfile(@Body() body: UpdateProfileDto, @CurrentUser() user: JwtPayload) {
     return this.userClient
-      .send(
-        { cmd: USER_COMMANDS.UPDATE_PROFILE },
-        { ...body, userId: user.sub },
-      )
+      .send({ cmd: USER_COMMANDS.UPDATE_PROFILE }, { ...body, userId: user.sub })
       .pipe(rpcToHttp());
   }
 

@@ -3,12 +3,7 @@ initTracing('user-service');
 
 import { NestFactory } from '@nestjs/core';
 import { MicroserviceOptions, Transport } from '@nestjs/microservices';
-import {
-  RmqService,
-  USER_SERVICE,
-  DOMAIN_EXCHANGE,
-  EnvironmentVariables,
-} from '@app/common';
+import { RmqService, USER_SERVICE, DOMAIN_EXCHANGE, EnvironmentVariables } from '@app/common';
 import { UserServiceModule } from './user-service.module';
 import { ConfigService } from '@nestjs/config';
 

@@ -26,15 +26,11 @@ async function main() {
   const dataPath = path.join(__dirname, 'data/category');
 
   // Đọc dữ liệu
-  const everyDayData = JSON.parse(
-    fs.readFileSync(path.join(dataPath, 'every_day.json'), 'utf-8'),
-  );
+  const everyDayData = JSON.parse(fs.readFileSync(path.join(dataPath, 'every_day.json'), 'utf-8'));
   const officeData = JSON.parse(
     fs.readFileSync(path.join(dataPath, 'office_foundation.json'), 'utf-8'),
   );
-  const nicheData = JSON.parse(
-    fs.readFileSync(path.join(dataPath, 'niche_master.json'), 'utf-8'),
-  );
+  const nicheData = JSON.parse(fs.readFileSync(path.join(dataPath, 'niche_master.json'), 'utf-8'));
 
   // Lấy danh sách Level hiện có
   const levels = await prisma.level.findMany();
@@ -44,9 +40,7 @@ async function main() {
     );
   }
 
-  console.log(
-    '--- 🌱 Seeding Categories & Topics (UUID Category / Int Level) ---',
-  );
+  console.log('--- 🌱 Seeding Categories & Topics (UUID Category / Int Level) ---');
 
   const processItems = async (
     items: any[],

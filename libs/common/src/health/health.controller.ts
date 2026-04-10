@@ -1,18 +1,11 @@
 import { Controller, Get, Inject, Optional, Res } from '@nestjs/common';
-import {
-  HealthCheckService,
-  MicroserviceHealthIndicator,
-} from '@nestjs/terminus';
+import { HealthCheckService, MicroserviceHealthIndicator } from '@nestjs/terminus';
 import { ClientProxy, Transport } from '@nestjs/microservices';
 import Redis from 'ioredis';
 import { REDIS_CLIENT } from '../redis/redis.constants';
 import { ConfigService } from '@nestjs/config';
 import { Public } from '../decorators/public.decorator';
-import {
-  AUTH_SERVICE,
-  PRODUCT_SERVICE,
-  USER_SERVICE,
-} from '../constants/services';
+import { AUTH_SERVICE, PRODUCT_SERVICE, USER_SERVICE } from '../constants/services';
 import { USER_COMMANDS } from '../constants/user.constants';
 import { AUTH_COMMANDS } from '../constants/auth.constants';
 import { PRODUCT_COMMANDS } from '../constants/product.constants';
@@ -57,7 +50,9 @@ export class CommonHealthController {
       checks.push(() => this.pingServiceRpc('user_service', this.userClient, USER_COMMANDS.PING));
     }
     if (this.productClient) {
-      checks.push(() => this.pingServiceRpc('product_service', this.productClient, PRODUCT_COMMANDS.PING));
+      checks.push(() =>
+        this.pingServiceRpc('product_service', this.productClient, PRODUCT_COMMANDS.PING),
+      );
     }
 
     try {
@@ -80,9 +75,7 @@ export class CommonHealthController {
 
   private async pingServiceRpc(key: string, client: ClientProxy, cmd: string) {
     try {
-      const response = await firstValueFrom(
-        client.send({ cmd }, {}).pipe(timeout(2000)),
-      );
+      const response = await firstValueFrom(client.send({ cmd }, {}).pipe(timeout(2000)));
       // Kết quả lồng đúng vào Key để Terminus hiển thị
       return { [key]: { status: 'up', db: response.db || 'up' } };
     } catch (err) {

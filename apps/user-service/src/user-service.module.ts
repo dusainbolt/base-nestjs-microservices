@@ -1,9 +1,4 @@
-import {
-  EnvironmentVariables,
-  MEDIA_SERVICE,
-  RmqModule,
-  validateEnv,
-} from '@app/common';
+import { EnvironmentVariables, MEDIA_SERVICE, RmqModule, validateEnv } from '@app/common';
 import { Module } from '@nestjs/common';
 import { ConfigModule } from '@nestjs/config';
 import { PrismaService } from './prisma/prisma.service';

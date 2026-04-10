@@ -15,11 +15,8 @@ function resolveDataPath(type: string, subCategory: string | null): string {
   const base = path.join(__dirname, 'input');
   if (type === 'EVERYDAY') return path.join(base, 'Everyday');
   if (type === 'OFFICE') return path.join(base, 'Office');
-  if (type === 'NICHE' && subCategory)
-    return path.join(base, 'Niche', subCategory.toLowerCase());
-  throw new Error(
-    `Cannot resolve data path for type=${type}, subCategory=${subCategory}`,
-  );
+  if (type === 'NICHE' && subCategory) return path.join(base, 'Niche', subCategory.toLowerCase());
+  throw new Error(`Cannot resolve data path for type=${type}, subCategory=${subCategory}`);
 }
 
 // ─── Seed một Category ─────────────────────────────────────────────────────
@@ -141,9 +138,7 @@ async function seedCategory(
 // ─── Main ──────────────────────────────────────────────────────────────────
 
 async function main() {
-  console.log(
-    '--- 🌱 Seeding Lesson Packs & Exercises (EVERYDAY · OFFICE · NICHE) ---',
-  );
+  console.log('--- 🌱 Seeding Lesson Packs & Exercises (EVERYDAY · OFFICE · NICHE) ---');
 
   const levels = await prisma.level.findMany({ orderBy: { id: 'asc' } });
   if (levels.length === 0) {
@@ -190,9 +185,7 @@ async function main() {
   }
 
   // Group by subCategory để log rõ hơn
-  const nicheGroups = nicheCategories.reduce<
-    Record<string, typeof nicheCategories>
-  >((acc, cat) => {
+  const nicheGroups = nicheCategories.reduce<Record<string, typeof nicheCategories>>((acc, cat) => {
     const key = cat.subCategory ?? 'unknown';
     if (!acc[key]) acc[key] = [];
     acc[key].push(cat);
@@ -203,12 +196,7 @@ async function main() {
     console.log(`\n  ▸ NICHE/${subCat} (${cats.length} categories)`);
     for (const cat of cats) {
       // Kiểm tra folder tồn tại trước khi seed
-      const folder = path.join(
-        __dirname,
-        'input',
-        'Niche',
-        subCat.toLowerCase(),
-      );
+      const folder = path.join(__dirname, 'input', 'Niche', subCat.toLowerCase());
       if (!fs.existsSync(folder)) {
         console.warn(`  ⏩ Folder không tồn tại: ${folder} — bỏ qua.`);
         continue;

@@ -17,8 +17,7 @@ export function rpcToHttp() {
     }),
     // Bắt các Exception thực sự được ném ra
     catchError((err: any) => {
-      const status =
-        err?.statusCode || err?.status || HttpStatus.INTERNAL_SERVER_ERROR;
+      const status = err?.statusCode || err?.status || HttpStatus.INTERNAL_SERVER_ERROR;
 
       // Reconstruct response body đầy đủ cho HttpException
       // eslint-disable-next-line @typescript-eslint/no-unused-vars

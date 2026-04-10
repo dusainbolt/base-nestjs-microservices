@@ -1,12 +1,6 @@
 import { Type as NestType, applyDecorators } from '@nestjs/common';
 import { Transform, Type, plainToInstance } from 'class-transformer';
-import {
-  IsBoolean,
-  IsNumber,
-  IsOptional,
-  IsString,
-  validateSync,
-} from 'class-validator';
+import { IsBoolean, IsNumber, IsOptional, IsString, validateSync } from 'class-validator';
 
 export type EnvType = 'development' | 'production' | 'staging' | 'test';
 

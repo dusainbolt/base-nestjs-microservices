@@ -9,17 +9,14 @@ export const initSwagger = (app: INestApplication<any>): void => {
 
   // Lấy các config từ Env hoặc dùng default
   const logoUrl =
-    configService.get('APP_LOGO_URL' as any) ||
-    'https://nestjs.com/img/logo-small.svg';
+    configService.get('APP_LOGO_URL' as any) || 'https://nestjs.com/img/logo-small.svg';
 
   const title = 'Microservices API Documentation';
   const swaggerEndpoint = 'api-docs';
 
   const config = new DocumentBuilder()
     .setTitle(title)
-    .setDescription(
-      'Hệ thống tài liệu API cho các Microservices (Auth, User, Product)',
-    )
+    .setDescription('Hệ thống tài liệu API cho các Microservices (Auth, User, Product)')
     .setVersion('1.0')
     .addBearerAuth(
       {

@@ -1,9 +1,4 @@
-import {
-  ForbiddenException,
-  Injectable,
-  Logger,
-  NotFoundException,
-} from '@nestjs/common';
+import { ForbiddenException, Injectable, Logger, NotFoundException } from '@nestjs/common';
 import {
   CreateProductDto,
   ProductQueryDto,
@@ -38,9 +33,7 @@ export class ProductServiceService {
       },
     });
 
-    this.logger.log(
-      `Product created: id=${product.id} by userId=${payload.createdByUserId}`,
-    );
+    this.logger.log(`Product created: id=${product.id} by userId=${payload.createdByUserId}`);
     return this.toResponse(product);
   }
 
@@ -108,9 +101,7 @@ export class ProductServiceService {
     if (!product) throw new NotFoundException('Product not found');
 
     if (product.createdByUserId !== payload.requesterId) {
-      throw new ForbiddenException(
-        'You do not have permission to update this product',
-      );
+      throw new ForbiddenException('You do not have permission to update this product');
     }
 
     const updated = await this.prisma.product.update({
@@ -141,9 +132,7 @@ export class ProductServiceService {
     if (!product) throw new NotFoundException('Product not found');
 
     if (product.createdByUserId !== payload.requesterId) {
-      throw new ForbiddenException(
-        'You do not have permission to delete this product',
-      );
+      throw new ForbiddenException('You do not have permission to delete this product');
     }
 
     await this.prisma.product.delete({

@@ -28,8 +28,7 @@ export class RmqInterceptor implements NestInterceptor {
       }),
       catchError((err) => {
         const statusCode = err instanceof HttpException ? err.getStatus() : 500;
-        const response =
-          err instanceof HttpException ? err.getResponse() : null;
+        const response = err instanceof HttpException ? err.getResponse() : null;
 
         // Lấy chi tiết lỗi đầy đủ (validation errors, custom message, v.v.)
         const errorBody =
@@ -39,9 +38,7 @@ export class RmqInterceptor implements NestInterceptor {
 
         this.logger.error(
           `${isRequestResponse ? 'RPC' : 'Event'} Error (${statusCode}): ${
-            typeof errorBody === 'object'
-              ? JSON.stringify(errorBody)
-              : errorBody
+            typeof errorBody === 'object' ? JSON.stringify(errorBody) : errorBody
           }`,
         );
 
@@ -55,9 +52,7 @@ export class RmqInterceptor implements NestInterceptor {
         return of({
           __isRpcError: true,
           statusCode,
-          ...(typeof errorBody === 'string'
-            ? { message: errorBody }
-            : errorBody),
+          ...(typeof errorBody === 'string' ? { message: errorBody } : errorBody),
         });
       }),
     );

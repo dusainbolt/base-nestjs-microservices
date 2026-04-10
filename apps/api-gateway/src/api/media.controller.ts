@@ -36,8 +36,6 @@ import { FileInterceptor, FilesInterceptor } from '@nestjs/platform-express';
 import { ApiBody, ApiConsumes, ApiTags } from '@nestjs/swagger';
 import { lastValueFrom } from 'rxjs';
 
-
-
 @ApiTags('Media')
 @Controller('media')
 export class MediaController {
@@ -107,9 +105,7 @@ export class MediaController {
     files.forEach(validateFileSize);
 
     // Upload song song lên S3
-    const uploadResults = await Promise.all(
-      files.map((file) => this.s3.upload(file, dto.type)),
-    );
+    const uploadResults = await Promise.all(files.map((file) => this.s3.upload(file, dto.type)));
 
     // Lưu metadata song song qua RabbitMQ
     const mediaResults = await Promise.all(
@@ -139,9 +135,7 @@ export class MediaController {
   @Get(':id')
   @ApiHandleResponse({ summary: 'Get media by ID', type: MediaResponseDto })
   getById(@Param('id') id: string) {
-    return this.mediaClient
-      .send({ cmd: MEDIA_COMMANDS.GET_BY_ID }, { id })
-      .pipe(rpcToHttp());
+    return this.mediaClient.send({ cmd: MEDIA_COMMANDS.GET_BY_ID }, { id }).pipe(rpcToHttp());
   }
 
   // ─── Get My Media List ──────────────────────────────────────────────────
@@ -155,10 +149,7 @@ export class MediaController {
     @Query('status') status?: string,
   ) {
     return this.mediaClient
-      .send(
-        { cmd: MEDIA_COMMANDS.GET_LIST },
-        { uploadedByUserId: user.sub, page, take, status },
-      )
+      .send({ cmd: MEDIA_COMMANDS.GET_LIST }, { uploadedByUserId: user.sub, page, take, status })
       .pipe(rpcToHttp());
   }
 
@@ -182,17 +173,13 @@ export class MediaController {
   async deleteMedia(@Param('id') id: string) {
     // Lấy metadata trước để có S3 key
     const media = await lastValueFrom(
-      this.mediaClient
-        .send({ cmd: MEDIA_COMMANDS.GET_BY_ID }, { id })
-        .pipe(rpcToHttp()),
+      this.mediaClient.send({ cmd: MEDIA_COMMANDS.GET_BY_ID }, { id }).pipe(rpcToHttp()),
     );
 
     // Xoá trên S3
     await this.s3.deleteByKey(media.path);
 
     // Xoá metadata
-    return this.mediaClient
-      .send({ cmd: MEDIA_COMMANDS.DELETE }, { id })
-      .pipe(rpcToHttp());
+    return this.mediaClient.send({ cmd: MEDIA_COMMANDS.DELETE }, { id }).pipe(rpcToHttp());
   }
 }

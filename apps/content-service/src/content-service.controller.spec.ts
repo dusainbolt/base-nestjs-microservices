@@ -11,9 +11,7 @@ describe('ContentServiceController', () => {
       providers: [ContentServiceService],
     }).compile();
 
-    contentServiceController = app.get<ContentServiceController>(
-      ContentServiceController,
-    );
+    contentServiceController = app.get<ContentServiceController>(ContentServiceController);
   });
 
   describe('root', () => {

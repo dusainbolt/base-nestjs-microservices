@@ -1,12 +1,7 @@
 import { initTracing } from '../../../libs/common/src/tracing/tracing';
 initTracing('product-service');
 
-import {
-  DOMAIN_EXCHANGE,
-  EnvironmentVariables,
-  PRODUCT_SERVICE,
-  RmqService,
-} from '@app/common';
+import { DOMAIN_EXCHANGE, EnvironmentVariables, PRODUCT_SERVICE, RmqService } from '@app/common';
 import { ConfigService } from '@nestjs/config';
 import { NestFactory } from '@nestjs/core';
 import { MicroserviceOptions, Transport } from '@nestjs/microservices';

@@ -82,10 +82,7 @@ export class JwtAuthGuard implements CanActivate {
     if (!userData) {
       try {
         userData = await firstValueFrom(
-          this.authClient.send(
-            { cmd: AUTH_COMMANDS.GET_PROFILE },
-            { userId: payload.sub },
-          ),
+          this.authClient.send({ cmd: AUTH_COMMANDS.GET_PROFILE }, { userId: payload.sub }),
         );
 
         // Lưu vào cache để những request sau không phải gọi nữa (TTL: 30 phút)

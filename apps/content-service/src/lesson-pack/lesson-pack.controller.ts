@@ -42,10 +42,10 @@ export class LessonPackController {
   // ── 3.4 GET /packs/stats (mẫu số cho Section 3 overview) ────────────────────
   // Đếm tổng packs + exercises trong một category × level.
   // Dùng để tính: completedPacks/totalPacks, completedExercises/totalExercises
-  @MessagePattern({ cmd: CONTENT_COMMANDS.GET_PACK_STATS_BY_CATEGORY_AND_LEVEL })
-  getPackStatsByCategoryAndLevel(
-    @Payload() payload: GetPackStatsByCategoryAndLevelDto,
-  ) {
+  @MessagePattern({
+    cmd: CONTENT_COMMANDS.GET_PACK_STATS_BY_CATEGORY_AND_LEVEL,
+  })
+  getPackStatsByCategoryAndLevel(@Payload() payload: GetPackStatsByCategoryAndLevelDto) {
     return this.lessonPackService.getPackStatsByCategoryAndLevel(payload);
   }
 

@@ -28,9 +28,7 @@ export class CategoryController {
 
   // ── 1.3 GET total exercises per category type (BR-05 mẫu số) ────────────────
   @MessagePattern({ cmd: CONTENT_COMMANDS.GET_TOTAL_EXERCISES_PER_CATEGORY })
-  getTotalExercisesPerCategory(
-    @Payload() payload: GetExerciseCountByCategoryTypeDto,
-  ) {
+  getTotalExercisesPerCategory(@Payload() payload: GetExerciseCountByCategoryTypeDto) {
     return this.categoryService.getTotalExercisesPerCategory(payload);
   }
 

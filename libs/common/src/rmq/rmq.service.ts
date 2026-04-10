@@ -7,9 +7,7 @@ import { EnvironmentVariables } from '../interfaces/env.interface';
 export class RmqService {
   private readonly logger = new Logger(RmqService.name);
 
-  constructor(
-    private readonly configService: ConfigService<EnvironmentVariables, true>,
-  ) {}
+  constructor(private readonly configService: ConfigService<EnvironmentVariables, true>) {}
 
   /**
    * Trả về cấu hình kết nối RabbitMQ
@@ -17,15 +15,9 @@ export class RmqService {
    * @param noAck Có tự động Ack không
    * @param prefetchCount Số lượng message xử lý song song (mặc định là 1)
    */
-  getOptions(
-    queueName: string,
-    noAck = false,
-    prefetchCount?: number,
-  ): RmqOptions {
+  getOptions(queueName: string, noAck = false, prefetchCount?: number): RmqOptions {
     // Luôn map từ hằng số sang giá trị thực trong .env
-    const resolvedQueue = this.configService.get<string>(
-      `RABBIT_MQ_${queueName}_QUEUE` as any,
-    );
+    const resolvedQueue = this.configService.get<string>(`RABBIT_MQ_${queueName}_QUEUE` as any);
 
     return {
       transport: Transport.RMQ,
@@ -34,9 +26,7 @@ export class RmqService {
         queue: resolvedQueue || queueName,
         noAck,
         prefetchCount:
-          prefetchCount ||
-          this.configService.get<number>('RABBIT_MQ_PREFETCH_COUNT') ||
-          1,
+          prefetchCount || this.configService.get<number>('RABBIT_MQ_PREFETCH_COUNT') || 1,
         persistent: true,
         queueOptions: {
           durable: true,

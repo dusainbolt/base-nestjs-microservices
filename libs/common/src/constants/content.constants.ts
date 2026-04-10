@@ -31,4 +31,19 @@ export const CONTENT_COMMANDS = {
 
   // Lấy tất cả exercises trong 1 pack — dùng khi bắt đầu làm bài
   GET_PACK_EXERCISES: 'get_pack_exercises',
+
+  // ── Pack Attempt ───────────────────────────────────────────────────────────
+  // User bấm "Bắt đầu" → tạo PackAttempt + N ExerciseAttempt (PENDING)
+  // TODO: logic trừ credit sẽ nằm ở đây sau
+  START_PACK: 'start_pack',
+
+  // ── ExerciseAttempt ───────────────────────────────────────────────────────
+  // Tầng 1: FE submit audioId sau khi upload xong → content-svc gọi ai-svc transcribe
+  SUBMIT_EXERCISE_AUDIO: 'submit_exercise_audio',
+
+  // ── Pack Scoring ──────────────────────────────────────────────────────────
+  // Tầng 2: FE yêu cầu AI chấm điểm toàn pack (sau khi hoàn thành pack)
+  SCORE_PACK: 'score_pack',
+  // Lấy kết quả scoring đã lưu (nếu đã chấm trước đó)
+  GET_PACK_SCORING: 'get_pack_scoring',
 };

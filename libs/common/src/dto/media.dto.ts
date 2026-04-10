@@ -1,10 +1,6 @@
 import { ApiProperty } from '@nestjs/swagger';
 import { IsEnum, IsOptional } from 'class-validator';
-import {
-  SwaggerDate,
-  SwaggerNumber,
-  SwaggerString,
-} from '../decorators/swagger.decorator';
+import { SwaggerDate, SwaggerNumber, SwaggerString } from '../decorators/swagger.decorator';
 
 // ─── ENUMS ──────────────────────────────────────────────────────────────────
 

@@ -19,8 +19,7 @@ export function initTracing(serviceName: string): NodeSDK {
   // Debug log để verify
   diag.setLogger(new DiagConsoleLogger(), DiagLogLevel.INFO);
 
-  const otlpEndpoint =
-    process.env.OTEL_EXPORTER_OTLP_ENDPOINT || 'http://localhost:4318';
+  const otlpEndpoint = process.env.OTEL_EXPORTER_OTLP_ENDPOINT || 'http://localhost:4318';
 
   const exporter = new OTLPTraceExporter({
     url: `${otlpEndpoint}/v1/traces`,
@@ -40,8 +39,7 @@ export function initTracing(serviceName: string): NodeSDK {
       new AmqplibInstrumentation() as any,
       new IORedisInstrumentation({
         requireParentSpan: true,
-        dbStatementSerializer: (cmdName, args) =>
-          `${cmdName} ${args.join(' ')}`,
+        dbStatementSerializer: (cmdName, args) => `${cmdName} ${args.join(' ')}`,
       } as any),
       new PgInstrumentation() as any,
       new PrismaInstrumentation(),
@@ -62,9 +60,7 @@ export function initTracing(serviceName: string): NodeSDK {
   process.on('SIGTERM', shutdown);
   process.on('SIGINT', shutdown);
 
-  console.log(
-    `[Tracing] Service: ${serviceName} is tracing to ${otlpEndpoint}`,
-  );
+  console.log(`[Tracing] Service: ${serviceName} is tracing to ${otlpEndpoint}`);
 
   return sdk;
 }

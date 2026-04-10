@@ -8,10 +8,7 @@ import {
 } from '@nestjs/swagger';
 import { PageDto } from './pagination.decorator';
 
-export const ApiPaginatedResponse = <TModel extends Type<any>>(
-  model: TModel,
-  summary = '',
-) => {
+export const ApiPaginatedResponse = <TModel extends Type<any>>(model: TModel, summary = '') => {
   return applyDecorators(
     ApiOperation({ summary }),
     HttpCode(HttpStatus.OK),

@@ -1,9 +1,4 @@
-import {
-  Injectable,
-  Logger,
-  OnModuleDestroy,
-  OnModuleInit,
-} from '@nestjs/common';
+import { Injectable, Logger, OnModuleDestroy, OnModuleInit } from '@nestjs/common';
 import { ConfigService } from '@nestjs/config';
 import * as amqp from 'amqplib';
 import { DOMAIN_EXCHANGE } from '../constants/product.constants';
@@ -24,9 +19,7 @@ export class DomainEventPublisher implements OnModuleInit, OnModuleDestroy {
   private channel: amqp.Channel | null = null;
   private connectingPromise: Promise<void> | null = null;
 
-  constructor(
-    private readonly config: ConfigService<EnvironmentVariables, true>,
-  ) {}
+  constructor(private readonly config: ConfigService<EnvironmentVariables, true>) {}
 
   async onModuleInit() {
     // Cố kết nối lúc khởi động — nếu fail thì log và tiếp tục (lazy retry khi publish)
@@ -78,9 +71,7 @@ export class DomainEventPublisher implements OnModuleInit, OnModuleDestroy {
   /** Đảm bảo channel sẵn sàng — idempotent, không connect 2 lần song song */
   private async ensureChannel(): Promise<void> {
     if (this.channel) return;
-    await this.connect().catch((err) =>
-      this.logger.error('Reconnect failed:', err?.message),
-    );
+    await this.connect().catch((err) => this.logger.error('Reconnect failed:', err?.message));
   }
 
   private async connect(): Promise<void> {
@@ -112,15 +103,11 @@ export class DomainEventPublisher implements OnModuleInit, OnModuleDestroy {
       this.connection = null;
     });
     this.connection.on('close', () => {
-      this.logger.warn(
-        'RabbitMQ connection closed, will reconnect on next publish',
-      );
+      this.logger.warn('RabbitMQ connection closed, will reconnect on next publish');
       this.channel = null;
       this.connection = null;
     });
 
-    this.logger.log(
-      `Connected to RabbitMQ exchange [${DOMAIN_EXCHANGE}] (topic)`,
-    );
+    this.logger.log(`Connected to RabbitMQ exchange [${DOMAIN_EXCHANGE}] (topic)`);
   }
 }

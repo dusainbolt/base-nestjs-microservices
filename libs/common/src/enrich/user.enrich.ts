@@ -30,9 +30,7 @@ export const resolveUserFields = (include: UserRelation[]): UserFieldMap[] =>
 
 const collectUserIds = (items: any[], fields: UserFieldMap[]): string[] =>
   [
-    ...new Set(
-      items.flatMap((item) => fields.map((f) => item[f.from])).filter(Boolean),
-    ),
+    ...new Set(items.flatMap((item) => fields.map((f) => item[f.from])).filter(Boolean)),
   ] as string[];
 
 const applyUserMap = (
@@ -42,9 +40,7 @@ const applyUserMap = (
 ): any => ({
   ...item,
   ...Object.fromEntries(
-    fields
-      .filter((f) => item[f.from])
-      .map((f) => [f.to, userMap.get(item[f.from])]),
+    fields.filter((f) => item[f.from]).map((f) => [f.to, userMap.get(item[f.from])]),
   ),
 });
 
@@ -71,12 +67,8 @@ export class UserEnrichService {
 
       return this.fetchUserMap(userIds).pipe(
         map((userMap) => {
-          const enriched = items.map((item) =>
-            applyUserMap(item, userMap, fields),
-          );
-          return Array.isArray(result)
-            ? enriched
-            : { ...result, items: enriched };
+          const enriched = items.map((item) => applyUserMap(item, userMap, fields));
+          return Array.isArray(result) ? enriched : { ...result, items: enriched };
         }),
       );
     });
@@ -93,9 +85,7 @@ export class UserEnrichService {
 
       if (userIds.length === 0) return of(item);
 
-      return this.fetchUserMap(userIds).pipe(
-        map((userMap) => applyUserMap(item, userMap, fields)),
-      );
+      return this.fetchUserMap(userIds).pipe(map((userMap) => applyUserMap(item, userMap, fields)));
     });
   }
 
@@ -105,9 +95,7 @@ export class UserEnrichService {
     return from(this.fetchUsersWithCache(userIds));
   }
 
-  private async fetchUsersWithCache(
-    userIds: string[],
-  ): Promise<Map<string, UserBasicInfoDto>> {
+  private async fetchUsersWithCache(userIds: string[]): Promise<Map<string, UserBasicInfoDto>> {
     // ── 1. Check Redis ────────────────────────────────────────────────────
     const keys = userIds.map((id) => REDIS_KEYS.ENRICH.USER_BASIC(id));
     const raw = await this.redis.mget(...keys);
@@ -124,10 +112,7 @@ export class UserEnrichService {
     if (missingIds.length > 0) {
       fetched = await new Promise<UserBasicInfoDto[]>((resolve) => {
         this.userClient
-          .send(
-            { cmd: USER_COMMANDS.GET_PROFILES_BY_IDS },
-            { userIds: missingIds },
-          )
+          .send({ cmd: USER_COMMANDS.GET_PROFILES_BY_IDS }, { userIds: missingIds })
           .pipe(rpcToHttp())
           .subscribe({
             next: (val) => resolve(val),

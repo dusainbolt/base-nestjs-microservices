@@ -122,8 +122,7 @@ model ExerciseAttempt {
   exerciseId    String
   userId        String
   packAttemptId String?
-  attemptSeq    Int           @default(1) // lần ghi thứ mấy (re-record)
-  audioUrl      String? // S3 URL
+  audioPath     String? // S3 key (path) — resolve từ media-service
   durationMs    Int?
   transcript    String? // text từ Whisper
   status        AttemptStatus @default(PENDING)

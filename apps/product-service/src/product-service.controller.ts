@@ -49,9 +49,7 @@ export class ProductServiceController {
   }
 
   @MessagePattern({ cmd: PRODUCT_COMMANDS.UPDATE })
-  update(
-    @Payload() data: UpdateProductDto & { requesterId: string; id: string },
-  ) {
+  update(@Payload() data: UpdateProductDto & { requesterId: string; id: string }) {
     return this.productService.update(data);
   }
 

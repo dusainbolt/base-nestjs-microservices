@@ -27,6 +27,7 @@ import { UserController } from './api/user.controller';
 import { ProductController } from './api/product.controller';
 import { MediaController } from './api/media.controller';
 import { CategoryController } from './api/category.controller';
+import { ExerciseAttemptController } from './api/exercise-attempt.controller';
 
 @Module({
   imports: [
@@ -58,6 +59,7 @@ import { CategoryController } from './api/category.controller';
     ProductController,
     MediaController,
     CategoryController,
+    ExerciseAttemptController,
     CommonHealthController, // <--- Register Aggregator here
   ],
   providers: [

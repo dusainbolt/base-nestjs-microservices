@@ -28,9 +28,7 @@ export class S3Service {
   private readonly region: string;
   private readonly endpoint?: string;
 
-  constructor(
-    private configService: ConfigService<EnvironmentVariables, true>,
-  ) {
+  constructor(private configService: ConfigService<EnvironmentVariables, true>) {
     this.bucket = configService.get('AWS_S3_BUCKET_NAME');
     this.region = configService.get('AWS_REGION');
     this.endpoint = configService.get('AWS_ENDPOINT') || undefined;
@@ -154,9 +152,7 @@ export class S3Service {
   // ═══════════════════════════════════════════════════════════════════════════
 
   async read(key: string): Promise<string> {
-    const res = await this.client.send(
-      new GetObjectCommand({ Bucket: this.bucket, Key: key }),
-    );
+    const res = await this.client.send(new GetObjectCommand({ Bucket: this.bucket, Key: key }));
     if (res.Body) {
       return res.Body.transformToString();
     }
@@ -165,15 +161,10 @@ export class S3Service {
 
   async exists(key: string): Promise<boolean> {
     try {
-      await this.client.send(
-        new HeadObjectCommand({ Bucket: this.bucket, Key: key }),
-      );
+      await this.client.send(new HeadObjectCommand({ Bucket: this.bucket, Key: key }));
       return true;
     } catch (error) {
-      if (
-        error.name === 'NotFound' ||
-        error.$metadata?.httpStatusCode === 404
-      ) {
+      if (error.name === 'NotFound' || error.$metadata?.httpStatusCode === 404) {
         return false;
       }
       throw error;

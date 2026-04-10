@@ -48,9 +48,7 @@ export class AuthController {
     httpStatus: HttpStatus.CREATED,
   })
   register(@Body() body: RegisterDto) {
-    return this.authClient
-      .send({ cmd: AUTH_COMMANDS.REGISTER }, body)
-      .pipe(rpcToHttp());
+    return this.authClient.send({ cmd: AUTH_COMMANDS.REGISTER }, body).pipe(rpcToHttp());
   }
 
   // ─── Email Verification ───────────────────────────────────────────────────
@@ -62,9 +60,7 @@ export class AuthController {
     type: Object,
   })
   verifyEmail(@Body() body: VerifyEmailDto) {
-    return this.authClient
-      .send({ cmd: AUTH_COMMANDS.VERIFY_EMAIL }, body)
-      .pipe(rpcToHttp());
+    return this.authClient.send({ cmd: AUTH_COMMANDS.VERIFY_EMAIL }, body).pipe(rpcToHttp());
   }
 
   @Public()
@@ -74,9 +70,7 @@ export class AuthController {
     type: Object,
   })
   resendVerification(@Body() body: ResendVerificationDto) {
-    return this.authClient
-      .send({ cmd: AUTH_COMMANDS.RESEND_VERIFICATION }, body)
-      .pipe(rpcToHttp());
+    return this.authClient.send({ cmd: AUTH_COMMANDS.RESEND_VERIFICATION }, body).pipe(rpcToHttp());
   }
 
   // ─── Login ────────────────────────────────────────────────────────────────
@@ -88,9 +82,7 @@ export class AuthController {
     type: LoginResponseDto,
   })
   login(@Body() body: LoginDto) {
-    return this.authClient
-      .send({ cmd: AUTH_COMMANDS.LOGIN }, body)
-      .pipe(rpcToHttp());
+    return this.authClient.send({ cmd: AUTH_COMMANDS.LOGIN }, body).pipe(rpcToHttp());
   }
 
   // ─── Token ────────────────────────────────────────────────────────────────
@@ -102,9 +94,7 @@ export class AuthController {
     type: Object,
   })
   refreshToken(@Body() body: RefreshTokenDto) {
-    return this.authClient
-      .send({ cmd: AUTH_COMMANDS.REFRESH_TOKEN }, body)
-      .pipe(rpcToHttp());
+    return this.authClient.send({ cmd: AUTH_COMMANDS.REFRESH_TOKEN }, body).pipe(rpcToHttp());
   }
 
   // ─── Logout  (gửi kèm accessToken để blacklist) ───────────────────────────
@@ -131,9 +121,7 @@ export class AuthController {
     type: Object,
   })
   forgotPassword(@Body() body: ForgotPasswordDto) {
-    return this.authClient
-      .send({ cmd: AUTH_COMMANDS.FORGOT_PASSWORD }, body)
-      .pipe(rpcToHttp());
+    return this.authClient.send({ cmd: AUTH_COMMANDS.FORGOT_PASSWORD }, body).pipe(rpcToHttp());
   }
 
   @Public()
@@ -143,9 +131,7 @@ export class AuthController {
     type: Object,
   })
   resetPassword(@Body() body: ResetPasswordDto) {
-    return this.authClient
-      .send({ cmd: AUTH_COMMANDS.RESET_PASSWORD }, body)
-      .pipe(rpcToHttp());
+    return this.authClient.send({ cmd: AUTH_COMMANDS.RESET_PASSWORD }, body).pipe(rpcToHttp());
   }
 
   @ApiBearerAuth('JWT')
@@ -154,10 +140,7 @@ export class AuthController {
     summary: 'Change password while logged in',
     type: Object,
   })
-  changePassword(
-    @Body() body: ChangePasswordDto,
-    @CurrentUser() user: JwtPayload,
-  ) {
+  changePassword(@Body() body: ChangePasswordDto, @CurrentUser() user: JwtPayload) {
     return this.authClient
       .send(
         { cmd: AUTH_COMMANDS.CHANGE_PASSWORD },

@@ -63,13 +63,7 @@ export class AuthServiceService {
   // ═══════════════════════════════════════════════════════════════════════════
 
   async register(payload: RegisterDto) {
-    const {
-      email,
-      password,
-      username,
-      firstName = '',
-      lastName = '',
-    } = payload;
+    const { email, password, username, firstName = '', lastName = '' } = payload;
 
     const existing = await this.prisma.user.findFirst({
       where: { OR: [{ email }, { username }] },
@@ -78,9 +72,7 @@ export class AuthServiceService {
 
     if (existing) {
       throw new ConflictException(
-        existing.email === email
-          ? 'Email already registered'
-          : 'Username already taken',
+        existing.email === email ? 'Email already registered' : 'Username already taken',
       );
     }
 
@@ -114,8 +106,7 @@ export class AuthServiceService {
     this.logger.log(`User registered: ${user.email} (id=${user.id})`);
 
     return {
-      message:
-        'Registration successful! Please check your email for the verification code.',
+      message: 'Registration successful! Please check your email for the verification code.',
       userId: user.id,
       email: user.email,
     };
@@ -134,18 +125,14 @@ export class AuthServiceService {
     });
 
     if (!user) throw new NotFoundException('User not found');
-    if (user.isEmailVerified)
-      throw new BadRequestException('Email is already verified');
+    if (user.isEmailVerified) throw new BadRequestException('Email is already verified');
 
     const storedOtp = await this.redis.getEmailVerifyOtp(user.id);
 
     if (!storedOtp)
-      throw new BadRequestException(
-        'Verification code has expired. Please request a new one.',
-      );
+      throw new BadRequestException('Verification code has expired. Please request a new one.');
 
-    if (storedOtp !== code)
-      throw new BadRequestException('Invalid verification code');
+    if (storedOtp !== code) throw new BadRequestException('Invalid verification code');
 
     await this.prisma.user.update({
       where: { id: user.id },
@@ -175,15 +162,12 @@ export class AuthServiceService {
     });
 
     if (!user) throw new NotFoundException('User not found');
-    if (user.isEmailVerified)
-      throw new BadRequestException('Email is already verified');
+    if (user.isEmailVerified) throw new BadRequestException('Email is already verified');
 
     // Rate-limit: Chỉ cho phép gửi lại sau 1 phút
     const ttl = await this.redis.getEmailVerifyTtl(user.id);
     if (ttl > REDIS_TTL.EMAIL_VERIFY - 60)
-      throw new BadRequestException(
-        'Please wait 1 minute before requesting another code.',
-      );
+      throw new BadRequestException('Please wait 1 minute before requesting another code.');
 
     const otp = this.generateOtp();
     await this.redis.setEmailVerifyOtp(user.id, otp);
@@ -209,9 +193,7 @@ export class AuthServiceService {
       throw new UnauthorizedException('Invalid email or password');
 
     if (!user.isActive)
-      throw new ForbiddenException(
-        'Account is disabled. Please contact support.',
-      );
+      throw new ForbiddenException('Account is disabled. Please contact support.');
 
     if (!user.isEmailVerified)
       throw new ForbiddenException(
@@ -279,8 +261,7 @@ export class AuthServiceService {
   // ═══════════════════════════════════════════════════════════════════════════
 
   async forgotPassword(payload: ForgotPasswordDto) {
-    const SAFE_MSG =
-      'If this email is registered, you will receive a password reset link shortly.';
+    const SAFE_MSG = 'If this email is registered, you will receive a password reset link shortly.';
 
     const user = await this.prisma.user.findUnique({
       where: { email: payload.email },
@@ -291,9 +272,7 @@ export class AuthServiceService {
 
     const isRateLimited = await this.redis.isForgotPasswordRateLimited(user.id);
     if (isRateLimited) {
-      throw new BadRequestException(
-        'Please wait a moment before requesting another link.',
-      );
+      throw new BadRequestException('Please wait a moment before requesting another link.');
     }
 
     const resetTokenId = randomUUID();
@@ -345,9 +324,7 @@ export class AuthServiceService {
     if (!(await bcrypt.compare(currentPassword, user.password)))
       throw new UnauthorizedException('Current password is incorrect');
     if (currentPassword === newPassword)
-      throw new BadRequestException(
-        'New password must be different from the current one',
-      );
+      throw new BadRequestException('New password must be different from the current one');
 
     const passwordHash = await bcrypt.hash(newPassword, BCRYPT_ROUNDS);
     await this.prisma.user.update({
@@ -373,9 +350,7 @@ export class AuthServiceService {
       timestamp: Date.now(),
     });
 
-    this.logger.log(
-      `Account deleted for userId=${userId}. Domain event [user.deleted] emitted.`,
-    );
+    this.logger.log(`Account deleted for userId=${userId}. Domain event [user.deleted] emitted.`);
     return { message: 'Account deleted successfully' };
   }
 

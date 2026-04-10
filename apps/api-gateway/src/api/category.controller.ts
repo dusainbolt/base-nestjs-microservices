@@ -19,9 +19,7 @@ import { ApiTags } from '@nestjs/swagger';
 @ApiTags('Categories')
 @Controller('categories')
 export class CategoryController {
-  constructor(
-    @Inject(CONTENT_SERVICE) private readonly contentClient: ClientProxy,
-  ) {}
+  constructor(@Inject(CONTENT_SERVICE) private readonly contentClient: ClientProxy) {}
 
   // ─── Get List ─────────────────────────────────────────────────────────────
 
@@ -42,8 +40,7 @@ export class CategoryController {
   @Public()
   @Get('content-summary')
   @ApiHandleResponse({
-    summary:
-      'Get content summary for all category types (dashboard denominator)',
+    summary: 'Get content summary for all category types (dashboard denominator)',
     type: CategoryContentSummaryListDto,
   })
   getContentSummary() {
@@ -62,10 +59,7 @@ export class CategoryController {
   })
   getExerciseCount(@Param('type') type: string) {
     return this.contentClient
-      .send(
-        { cmd: CONTENT_COMMANDS.GET_TOTAL_EXERCISES_PER_CATEGORY },
-        { type },
-      )
+      .send({ cmd: CONTENT_COMMANDS.GET_TOTAL_EXERCISES_PER_CATEGORY }, { type })
       .pipe(rpcToHttp());
   }
 

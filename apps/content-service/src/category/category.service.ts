@@ -33,9 +33,7 @@ export class CategoryService {
       this.prisma.category.count({ where }),
     ]);
 
-    this.logger.log(
-      `getCategories: type=${payload.type ?? 'ALL'}, found=${total}`,
-    );
+    this.logger.log(`getCategories: type=${payload.type ?? 'ALL'}, found=${total}`);
 
     return {
       items: items.map(this.toResponse),
@@ -47,9 +45,7 @@ export class CategoryService {
   //  1.2 — GET CATEGORY BY ID
   // ═══════════════════════════════════════════════════════════════════════════
 
-  async getCategoryById(
-    payload: GetCategoryByIdDto,
-  ): Promise<CategoryResponseDto> {
+  async getCategoryById(payload: GetCategoryByIdDto): Promise<CategoryResponseDto> {
     const category = await this.prisma.category.findUnique({
       where: { id: payload.id },
     });
@@ -104,33 +100,32 @@ export class CategoryService {
     }
 
     // Đếm exercises song song cho cả 3 types
-    const [everydayExercises, officeExercises, nicheExercises] =
-      await this.prisma.$transaction([
-        this.prisma.exercise.count({
-          where: {
-            lessonPack: {
-              categoryId: { in: categoryIdsByType[CategoryType.EVERYDAY] },
-              status: PackStatus.PUBLISHED,
-            },
+    const [everydayExercises, officeExercises, nicheExercises] = await this.prisma.$transaction([
+      this.prisma.exercise.count({
+        where: {
+          lessonPack: {
+            categoryId: { in: categoryIdsByType[CategoryType.EVERYDAY] },
+            status: PackStatus.PUBLISHED,
           },
-        }),
-        this.prisma.exercise.count({
-          where: {
-            lessonPack: {
-              categoryId: { in: categoryIdsByType[CategoryType.OFFICE] },
-              status: PackStatus.PUBLISHED,
-            },
+        },
+      }),
+      this.prisma.exercise.count({
+        where: {
+          lessonPack: {
+            categoryId: { in: categoryIdsByType[CategoryType.OFFICE] },
+            status: PackStatus.PUBLISHED,
           },
-        }),
-        this.prisma.exercise.count({
-          where: {
-            lessonPack: {
-              categoryId: { in: categoryIdsByType[CategoryType.NICHE] },
-              status: PackStatus.PUBLISHED,
-            },
+        },
+      }),
+      this.prisma.exercise.count({
+        where: {
+          lessonPack: {
+            categoryId: { in: categoryIdsByType[CategoryType.NICHE] },
+            status: PackStatus.PUBLISHED,
           },
-        }),
-      ]);
+        },
+      }),
+    ]);
 
     const exerciseCountByType: Record<string, number> = {
       [CategoryType.EVERYDAY]: everydayExercises,
@@ -138,13 +133,11 @@ export class CategoryService {
       [CategoryType.NICHE]: nicheExercises,
     };
 
-    const items: CategoryContentSummaryDto[] = Object.values(CategoryType).map(
-      (type) => ({
-        type,
-        totalPacks: packCountByType[type] ?? 0,
-        totalExercises: exerciseCountByType[type] ?? 0,
-      }),
-    );
+    const items: CategoryContentSummaryDto[] = Object.values(CategoryType).map((type) => ({
+      type,
+      totalPacks: packCountByType[type] ?? 0,
+      totalExercises: exerciseCountByType[type] ?? 0,
+    }));
 
     this.logger.log(
       `getCategoriesContentSummary: ${JSON.stringify(items.map((i) => ({ type: i.type, packs: i.totalPacks, exercises: i.totalExercises })))}`,
@@ -182,9 +175,7 @@ export class CategoryService {
       },
     });
 
-    this.logger.log(
-      `getTotalExercisesPerCategory: type=${type}, total=${totalExercises}`,
-    );
+    this.logger.log(`getTotalExercisesPerCategory: type=${type}, total=${totalExercises}`);
 
     return { type, totalExercises };
   }

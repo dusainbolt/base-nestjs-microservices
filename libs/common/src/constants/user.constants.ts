@@ -12,4 +12,3 @@ export const USER_COMMANDS = {
   UPDATE_AVATAR: 'UPDATE_AVATAR',
   DELETE_PROFILE: 'DELETE_PROFILE',
 } as const;
-

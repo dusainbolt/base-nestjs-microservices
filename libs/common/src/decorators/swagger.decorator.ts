@@ -34,9 +34,7 @@ const ApiPropType = (type: any, options: ApiPropertyOptions) => {
   );
 };
 
-export function SwaggerString(
-  options: ApiPropertyOptions & { trim?: boolean } = {},
-) {
+export function SwaggerString(options: ApiPropertyOptions & { trim?: boolean } = {}) {
   const isRequired = options?.required !== false;
   return applyDecorators(
     ApiPropType('string', options),
@@ -70,12 +68,7 @@ export function SwaggerBoolean(options: ApiPropertyOptions = {}) {
     IsBoolean(),
     Transform(({ value }: { value: unknown }) => {
       if (value === undefined || value === null) return value;
-      if (
-        value === false ||
-        value === 'false' ||
-        value === 0 ||
-        value === '0'
-      ) {
+      if (value === false || value === 'false' || value === 0 || value === '0') {
         return false;
       }
       if (value === true || value === 'true' || value === 1 || value === '1') {
@@ -87,10 +80,7 @@ export function SwaggerBoolean(options: ApiPropertyOptions = {}) {
 }
 
 export function SwaggerEnum(options: ApiPropertyOptions = {}) {
-  return applyDecorators(
-    ApiPropType('enum', options),
-    IsEnum(options.enum as any),
-  );
+  return applyDecorators(ApiPropType('enum', options), IsEnum(options.enum as any));
 }
 
 export function SwaggerInterface(type: any, options: ApiPropertyOptions = {}) {
@@ -148,9 +138,7 @@ export function SwaggerDate(options: ApiPropertyOptions = {}) {
  * Dùng cho field enum array (thường là query params).
  * Tự động parse chuỗi "a,b,c" thành array, validate từng phần tử theo enum.
  */
-export function SwaggerEnumArray(
-  options: ApiPropertyOptions & { enum: object },
-) {
+export function SwaggerEnumArray(options: ApiPropertyOptions & { enum: object }) {
   const isRequired = options?.required !== false;
   return applyDecorators(
     ApiProperty({

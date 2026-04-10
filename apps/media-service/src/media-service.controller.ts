@@ -1,8 +1,5 @@
 import { MEDIA_COMMANDS, RmqInterceptor } from '@app/common';
-import {
-  SaveMediaMetadataDto,
-  MarkMediaUsedDto,
-} from '@app/common/dto/media.dto';
+import { SaveMediaMetadataDto, MarkMediaUsedDto } from '@app/common/dto/media.dto';
 import { Controller, UseInterceptors } from '@nestjs/common';
 import { MessagePattern, Payload } from '@nestjs/microservices';
 import { MediaServiceService } from './media-service.service';
