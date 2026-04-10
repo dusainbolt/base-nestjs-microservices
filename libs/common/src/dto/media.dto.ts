@@ -1,6 +1,12 @@
 import { ApiProperty } from '@nestjs/swagger';
 import { IsEnum, IsOptional } from 'class-validator';
-import { SwaggerDate, SwaggerNumber, SwaggerString } from '../decorators/swagger.decorator';
+import {
+  SwaggerDate,
+  SwaggerEnum,
+  SwaggerFile,
+  SwaggerNumber,
+  SwaggerString,
+} from '../decorators/swagger.decorator';
 
 // ─── ENUMS ──────────────────────────────────────────────────────────────────
 
@@ -19,21 +25,16 @@ export enum ReferType {
 // ─── PAYLOADS ───────────────────────────────────────────────────────────────
 
 export class MediaUploadDto {
-  @ApiProperty({
-    type: 'string',
-    format: 'binary',
-    description: 'File to upload',
-  })
+  @SwaggerFile({ description: 'File to upload' })
   file: any;
 
-  @ApiProperty({
+  @SwaggerEnum({
     enum: ReferType,
     example: ReferType.TEMP,
     default: ReferType.TEMP,
+    required: false,
     description: 'Category of the media (for S3 path and organization)',
   })
-  @IsOptional()
-  @IsEnum(ReferType)
   type: ReferType;
 }
 
@@ -42,17 +43,17 @@ export class MediaBatchUploadDto {
     type: 'array',
     items: { type: 'string', format: 'binary' },
     description: 'Files to upload (max 10)',
+    required: true,
   })
   files: any[];
 
-  @ApiProperty({
+  @SwaggerEnum({
     enum: ReferType,
     example: ReferType.TEMP,
     default: ReferType.TEMP,
+    required: false,
     description: 'Category of the media (for S3 path and organization)',
   })
-  @IsOptional()
-  @IsEnum(ReferType)
   type: ReferType;
 }
 
@@ -77,7 +78,7 @@ export class MarkMediaUsedDto {
   @SwaggerString({ example: 'media-123' })
   id: string;
 
-  @ApiProperty({ enum: ReferType, example: ReferType.USER_AVATAR })
+  @SwaggerEnum({ enum: ReferType, example: ReferType.USER_AVATAR })
   referType: ReferType;
 
   @SwaggerString({ example: 'prod-123' })
@@ -102,10 +103,10 @@ export class MediaResponseDto {
   @SwaggerNumber({ example: 204800 })
   size: number;
 
-  @ApiProperty({ enum: MediaStatus, example: MediaStatus.PENDING })
+  @SwaggerEnum({ enum: MediaStatus, example: MediaStatus.PENDING })
   status: MediaStatus;
 
-  @ApiProperty({ enum: ReferType, example: ReferType.TEMP, required: false })
+  @SwaggerEnum({ enum: ReferType, example: ReferType.TEMP, required: false })
   referType?: ReferType;
 
   @SwaggerString({ required: false, example: 'prod-123' })

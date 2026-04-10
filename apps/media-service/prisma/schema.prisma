@@ -17,7 +17,7 @@ model Media {
   status       MediaStatus @default(PENDING)
 
   // Quan hệ với resource bên ngoài
-  referType ReferType?
+  referType String?
   referId   String?
 
   uploadedByUserId String
@@ -35,11 +35,4 @@ enum MediaStatus {
   PENDING
   USED
   UNUSED
-}
-
-enum ReferType {
-  USER_AVATAR
-  POST_THUMBNAIL
-  PRODUCT_IMAGE
-  TEMP
 }

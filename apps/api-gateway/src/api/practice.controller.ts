@@ -7,10 +7,12 @@ import {
 } from '@app/common';
 import { JwtPayload } from '@app/common/dto/auth.dto';
 import {
-  ExerciseAttemptResponseDto,
+  PackScoringResponseDto,
   ScorePackDto,
+  ScorePackResponseDto,
   StartPackResponseDto,
   SubmitExerciseAudioDto,
+  SubmitExerciseAudioResponseDto,
 } from '@app/common/dto/content.dto';
 import { Body, Controller, Get, Inject, Param, Post } from '@nestjs/common';
 import { ClientProxy } from '@nestjs/microservices';
@@ -40,7 +42,7 @@ export class PracticeController {
   @Post('exercise-attempts/:exerciseAttemptId/transcript')
   @ApiHandleResponse({
     summary: 'Submit audio for an exercise attempt → returns transcript from Whisper',
-    type: ExerciseAttemptResponseDto,
+    type: SubmitExerciseAudioResponseDto,
   })
   submitTranscript(
     @Param('exerciseAttemptId') exerciseAttemptId: string,
@@ -65,7 +67,7 @@ export class PracticeController {
   @Post('pack-attempts/:packAttemptId/score')
   @ApiHandleResponse({
     summary: 'Request AI scoring for a completed pack attempt (costs 5 credits)',
-    type: Object,
+    type: ScorePackResponseDto,
   })
   scorePackAttempt(
     @Param('packAttemptId') packAttemptId: string,
@@ -83,7 +85,7 @@ export class PracticeController {
   @Get('pack-attempts/:packAttemptId/score')
   @ApiHandleResponse({
     summary: 'Get scoring results for a specific pack attempt',
-    type: Object,
+    type: PackScoringResponseDto,
   })
   getScoring(@Param('packAttemptId') packAttemptId: string, @CurrentUser() user: JwtPayload) {
     return this.contentClient

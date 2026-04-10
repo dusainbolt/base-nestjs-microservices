@@ -1,9 +1,16 @@
 import { AI_COMMANDS, AI_SERVICE, isAudioFile, MEDIA_COMMANDS, MEDIA_SERVICE } from '@app/common';
 import {
+  PackScoringResponseDto,
   ScorePackPayload,
+  ScorePackResponseDto,
+  ScoringMode,
+  ScoringStatus,
   StartPackPayload,
+  StartPackResponseDto,
   SubmitExerciseAudioPayload,
+  SubmitExerciseAudioResponseDto,
 } from '@app/common/dto/content.dto';
+import { ReferType } from '@app/common/dto/media.dto';
 import {
   BadGatewayException,
   BadRequestException,
@@ -12,9 +19,9 @@ import {
   Logger,
   NotFoundException,
 } from '@nestjs/common';
-import { AttemptStatus, PackAttemptStatus, ScoringStatus } from '../generated/prisma/client';
 import { ClientProxy } from '@nestjs/microservices';
-import { catchError, firstValueFrom, timeout } from 'rxjs';
+import { catchError, firstValueFrom, lastValueFrom, timeout } from 'rxjs';
+import { AttemptStatus, PackAttemptStatus } from '../generated/prisma/client';
 import { PrismaService } from '../prisma/prisma.service';
 
 @Injectable()
@@ -31,7 +38,7 @@ export class PracticeService {
   // START PACK: tạo PackAttempt + N ExerciseAttempt (PENDING)
   // ─────────────────────────────────────────────────────────────────────────────
 
-  async startPackAttempt(payload: StartPackPayload) {
+  async startPackAttempt(payload: StartPackPayload): Promise<StartPackResponseDto> {
     const { packId, userId } = payload;
 
     // [1] Verify pack tồn tại + load exercises
@@ -64,11 +71,14 @@ export class PracticeService {
     if (existing) {
       this.logger.log(`Returning existing PackAttempt: id=${existing.id}, pack=${packId}`);
       return {
+        isNew: false,
         packAttemptId: existing.id,
         exercises: existing.attempts.map((a) => ({
           exerciseAttemptId: a.id,
           exerciseId: a.exerciseId,
           sequenceOrder: pack.exercises.find((e) => e.id === a.exerciseId)?.sequenceOrder ?? 0,
+          status: a.status as any,
+          audioPath: a.audioPath ?? undefined,
         })),
       };
     }
@@ -105,11 +115,14 @@ export class PracticeService {
     );
 
     return {
+      isNew: true,
       packAttemptId: packAttempt.packAttempt.id,
       exercises: packAttempt.exerciseAttempts.map((a) => ({
         exerciseAttemptId: a.id,
         exerciseId: a.exerciseId,
         sequenceOrder: pack.exercises.find((e) => e.id === a.exerciseId)?.sequenceOrder ?? 0,
+        status: a.status as any,
+        audioPath: a.audioPath ?? undefined,
       })),
     };
   }
@@ -118,14 +131,15 @@ export class PracticeService {
   // TẦNG 1: Submit Audio → find attempt by ID → update audioPath → Whisper
   // ─────────────────────────────────────────────────────────────────────────────
 
-  async submitExerciseAudio(payload: SubmitExerciseAudioPayload) {
+  async submitExerciseAudio(
+    payload: SubmitExerciseAudioPayload,
+  ): Promise<SubmitExerciseAudioResponseDto> {
     const { exerciseAttemptId, userId, audioId, durationMs } = payload;
 
     // [1] Tìm ExerciseAttempt theo ID (đã tạo từ startPack)
     const attempt = await this.prisma.exerciseAttempt.findUnique({
       where: { id: exerciseAttemptId },
     });
-    console.debug('attempt', attempt);
     if (!attempt || attempt.userId !== userId) {
       throw new NotFoundException(`ExerciseAttempt not found: id=${exerciseAttemptId}`);
     }
@@ -159,6 +173,22 @@ export class PracticeService {
 
     this.logger.log(`Updated ExerciseAttempt: id=${exerciseAttemptId}, audioPath=${audioPath}`);
 
+    // [3.5] Mark media as USED
+    try {
+      await lastValueFrom(
+        this.mediaClient.send(
+          { cmd: MEDIA_COMMANDS.MARK_USED },
+          {
+            id: audioId,
+            referType: ReferType.EXERCISE_AUDIO,
+            referId: exerciseAttemptId,
+          },
+        ),
+      );
+    } catch (err) {
+      // Không throw lỗi ở đây để tránh làm gián đoạn luồng chính (Whisper)
+    }
+
     // [4] Gọi ai-service transcribe (Whisper STT)
     try {
       const { transcript } = await firstValueFrom(
@@ -172,7 +202,11 @@ export class PracticeService {
         data: { transcript, status: AttemptStatus.TRANSCRIBED },
       });
 
-      return { exerciseAttemptId, transcript, audioPath };
+      return {
+        exerciseAttemptId,
+        transcript,
+        audioPath,
+      };
     } catch (error) {
       await this.prisma.exerciseAttempt.update({
         where: { id: exerciseAttemptId },
@@ -187,7 +221,7 @@ export class PracticeService {
   // TẦNG 2: AI Scoring — toàn pack
   // ─────────────────────────────────────────────────────────────────────────────
 
-  async scorePackAttempt(payload: ScorePackPayload) {
+  async scorePackAttempt(payload: ScorePackPayload): Promise<ScorePackResponseDto> {
     const { packAttemptId, userId, mode } = payload;
 
     // [1] Tìm PackAttempt
@@ -265,8 +299,8 @@ export class PracticeService {
 
     return {
       packAttemptId: packAttempt.id,
-      status: 'PROCESSING',
-      mode,
+      status: ScoringStatus.PROCESSING,
+      mode: mode as ScoringMode,
       exerciseCount: exercisesForAI.length,
     };
   }
@@ -275,7 +309,10 @@ export class PracticeService {
   // GET: Kết quả scoring của một PackAttempt cụ thể
   // ─────────────────────────────────────────────────────────────────────────────
 
-  async getScoringByAttemptId(packAttemptId: string, userId: string) {
+  async getScoringByAttemptId(
+    packAttemptId: string,
+    userId: string,
+  ): Promise<PackScoringResponseDto> {
     const packAttempt = await this.prisma.packAttempt.findUnique({
       where: {
         id: packAttemptId,
@@ -297,28 +334,28 @@ export class PracticeService {
 
     return {
       packAttemptId: packAttempt.id,
-      overallScore: packAttempt.overallScore,
-      passed: packAttempt.passed,
-      scoringMode: packAttempt.scoringMode,
-      scoredAt: packAttempt.scoredAt,
+      overallScore: packAttempt.overallScore ?? 0,
+      passed: packAttempt.passed ?? false,
+      scoringMode: packAttempt.scoringMode as ScoringMode,
+      scoredAt: packAttempt.scoredAt ?? new Date(),
       exercises: packAttempt.exerciseScores.map((es) => ({
         exerciseId: es.exerciseId,
         seq: es.sequenceOrder,
         score: es.score,
         criterion1: {
           score: es.criterion1Score,
-          feedback: es.criterion1Feedback,
+          feedback: es.criterion1Feedback ?? '',
         },
         grammar: {
           score: es.grammarScore,
-          feedback: es.grammarFeedback,
+          feedback: es.grammarFeedback ?? '',
         },
         vocabulary: {
           score: es.vocabScore,
-          feedback: es.vocabFeedback,
+          feedback: es.vocabFeedback ?? '',
         },
         tasks: es.tasks,
-        suggestedPhrases: es.suggestedPhrases,
+        suggestedPhrases: (es.suggestedPhrases as string[]) ?? [],
       })),
     };
   }

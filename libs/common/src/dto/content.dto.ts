@@ -10,7 +10,7 @@ import {
   MaxLength,
   Min,
 } from 'class-validator';
-import { SwaggerNumber, SwaggerString } from '../decorators/swagger.decorator';
+import { SwaggerEnum, SwaggerNumber, SwaggerString } from '../decorators/swagger.decorator';
 
 // ─── ENUMS ────────────────────────────────────────────────────────────────────
 
@@ -18,6 +18,37 @@ export enum CategoryType {
   EVERYDAY = 'EVERYDAY',
   OFFICE = 'OFFICE',
   NICHE = 'NICHE',
+}
+
+export enum PackStatus {
+  DRAFT = 'DRAFT',
+  PUBLISHED = 'PUBLISHED',
+  ARCHIVED = 'ARCHIVED',
+}
+
+export enum AttemptStatus {
+  PENDING = 'PENDING',
+  TRANSCRIBED = 'TRANSCRIBED',
+  TRANSCRIPT_FAILED = 'TRANSCRIPT_FAILED',
+}
+
+export enum PackAttemptStatus {
+  IN_PROGRESS = 'IN_PROGRESS',
+  COMPLETED = 'COMPLETED',
+  SCORING = 'SCORING',
+  SCORED = 'SCORED',
+}
+
+export enum ScoringStatus {
+  PENDING = 'PENDING',
+  PROCESSING = 'PROCESSING',
+  COMPLETED = 'COMPLETED',
+  FAILED = 'FAILED',
+}
+
+export enum ScoringMode {
+  FREE = 'FREE',
+  GUIDED = 'GUIDED',
 }
 
 // ─── PAYLOADS ─────────────────────────────────────────────────────────────────
@@ -29,26 +60,22 @@ export class GetCategoryByIdDto {
 
 /** Dùng cho getCategories — type là optional (filter) */
 export class GetCategoriesDto {
-  @ApiProperty({
+  @SwaggerEnum({
     enum: CategoryType,
     required: false,
     example: CategoryType.EVERYDAY,
     description: 'Lọc theo loại danh mục (EVERYDAY | OFFICE | NICHE)',
   })
-  @IsOptional()
-  @IsEnum(CategoryType)
   type?: CategoryType;
 }
 
 /** Dùng cho getTotalExercisesPerCategory — type là bắt buộc */
 export class GetExerciseCountByCategoryTypeDto {
-  @ApiProperty({
+  @SwaggerEnum({
     enum: CategoryType,
     example: CategoryType.EVERYDAY,
     description: 'Loại danh mục cần đếm (EVERYDAY | OFFICE | NICHE)',
   })
-  @IsNotEmpty()
-  @IsEnum(CategoryType)
   type: CategoryType;
 }
 
@@ -66,20 +93,16 @@ export class CategoryResponseDto {
   @SwaggerString({ example: 'Tiếng Anh Giao Tiếp' })
   name: string;
 
-  @ApiProperty({ enum: CategoryType, example: CategoryType.EVERYDAY })
+  @SwaggerEnum({ enum: CategoryType, example: CategoryType.EVERYDAY })
   type: CategoryType;
 
-  @ApiProperty({ required: false, example: 'HEALTHCARE' })
-  @IsOptional()
-  @IsString()
+  @SwaggerString({ required: false, example: 'HEALTHCARE' })
   subCategory: string | null;
 
   @SwaggerNumber({ example: 1, description: 'Thứ tự hiển thị' })
   order: number;
 
-  @ApiProperty({ required: false, example: 'Các chủ đề giao tiếp hàng ngày' })
-  @IsOptional()
-  @IsString()
+  @SwaggerString({ required: false, example: 'Các chủ đề giao tiếp hàng ngày' })
   description: string | null;
 }
 
@@ -96,7 +119,7 @@ export class CategoryListDto {
  * categoryProgress = passedExercises / totalExercises × 100
  */
 export class CategoryContentSummaryDto {
-  @ApiProperty({ enum: CategoryType, example: CategoryType.EVERYDAY })
+  @SwaggerEnum({ enum: CategoryType, example: CategoryType.EVERYDAY })
   type: CategoryType;
 
   @SwaggerNumber({ description: 'Tổng số LessonPack PUBLISHED thuộc type này' })
@@ -114,19 +137,15 @@ export class CategoryContentSummaryListDto {
 // ─── LEVEL PAYLOADS ───────────────────────────────────────────────────────────
 
 export class GetLevelByIdDto {
-  @ApiProperty({ example: 1, description: 'Level ID (1–4)' })
-  @IsNotEmpty()
+  @SwaggerNumber({ example: 1, description: 'Level ID (1–4)' })
   id: number;
 }
 
 export class GetTotalExercisesPerLevelDto {
-  @ApiProperty({ enum: CategoryType, example: CategoryType.EVERYDAY })
-  @IsNotEmpty()
-  @IsEnum(CategoryType)
+  @SwaggerEnum({ enum: CategoryType, example: CategoryType.EVERYDAY })
   categoryType: CategoryType;
 
-  @ApiProperty({ example: 1, description: 'Level ID (1–4)' })
-  @IsNotEmpty()
+  @SwaggerNumber({ example: 1, description: 'Level ID (1–4)' })
   levelId: number;
 }
 
@@ -136,9 +155,7 @@ export class LevelResponseDto {
   @SwaggerNumber({ example: 1, description: 'Level ID (1–4)' })
   id: number;
 
-  @ApiProperty({ required: false, example: 'Người mới bắt đầu' })
-  @IsOptional()
-  @IsString()
+  @SwaggerString({ required: false, example: 'Người mới bắt đầu' })
   description: string | null;
 
   @SwaggerNumber({ example: 60, description: 'Điểm tối thiểu để pass level' })
@@ -163,7 +180,7 @@ export class LevelListDto {
 }
 
 export class LevelExerciseCountDto {
-  @ApiProperty({ enum: CategoryType })
+  @SwaggerEnum({ enum: CategoryType })
   categoryType: CategoryType;
 
   @SwaggerNumber({ example: 2 })
@@ -201,14 +218,13 @@ export class GetPacksDto {
   @IsEnum(CategoryType)
   categoryType?: CategoryType;
 
-  @ApiProperty({
+  @SwaggerEnum({
+    enum: PackStatus,
     required: false,
-    example: 'PUBLISHED',
-    description: 'PackStatus — mặc định PUBLISHED',
+    example: PackStatus.PUBLISHED,
+    description: 'Trạng thái hiển thị của một bộ bài tập',
   })
-  @IsOptional()
-  @IsString()
-  status?: string;
+  status?: PackStatus;
 
   @ApiProperty({
     required: false,
@@ -314,8 +330,8 @@ export class LessonPackSummaryDto {
   @SwaggerNumber({ example: 5, description: 'Tổng số Exercise trong pack' })
   totalExercises: number;
 
-  @ApiProperty({ example: 'PUBLISHED', description: 'Trạng thái pack' })
-  status: string;
+  @SwaggerEnum({ enum: PackStatus, example: PackStatus.PUBLISHED, description: 'Trạng thái pack' })
+  status: PackStatus;
 }
 
 export class PackListDto {
@@ -372,8 +388,8 @@ export class LessonPackDetailDto {
   @SwaggerNumber({ example: 5, description: 'Tổng số Exercise trong pack' })
   totalExercises: number;
 
-  @ApiProperty({ example: 'PUBLISHED' })
-  status: string;
+  @SwaggerEnum({ enum: PackStatus, example: PackStatus.PUBLISHED })
+  status: PackStatus;
 
   @SwaggerNumber({ example: 120, description: 'Tổng số lần play' })
   totalPlays: number;
@@ -426,7 +442,7 @@ export class ExerciseSummaryDto {
   @SwaggerNumber({ example: 1, description: 'Thứ tự câu trong pack (1–5)' })
   order: number;
 
-  @ApiProperty({
+  @SwaggerString({
     example: 'SPEAKING',
     description: 'Loại exercise (SPEAKING | WRITING | ...)',
   })
@@ -435,7 +451,7 @@ export class ExerciseSummaryDto {
   @ApiProperty({ example: 'Describe your daily routine in 3 sentences.' })
   prompt: string;
 
-  @ApiProperty({
+  @SwaggerString({
     required: false,
     example: 'https://cdn.example.com/audio.mp3',
   })
@@ -478,17 +494,22 @@ export class StartPackPayload {
 }
 
 export class StartPackResponseDto {
+  @ApiProperty({ example: true, description: 'True nếu là phiên mới, False nếu resume phiên cũ' })
+  isNew: boolean;
+
   @SwaggerString({ example: 'uuid-pack-attempt-123' })
   packAttemptId: string;
 
   @ApiProperty({
     type: [Object],
-    description: 'Danh sách exercise attempts đã tạo sẵn (PENDING)',
+    description: 'Danh sách exercise attempts',
     example: [
       {
         exerciseAttemptId: 'uuid-1',
         exerciseId: 'uuid-ex-1',
         sequenceOrder: 1,
+        status: AttemptStatus.PENDING,
+        audioPath: 'path/to/audio.m4a',
       },
     ],
   })
@@ -496,6 +517,8 @@ export class StartPackResponseDto {
     exerciseAttemptId: string;
     exerciseId: string;
     sequenceOrder: number;
+    status: AttemptStatus;
+    audioPath?: string;
   }>;
 }
 
@@ -538,29 +561,25 @@ export class SubmitExerciseAudioPayload {
 
 // ─── EXERCISE ATTEMPT RESPONSES ──────────────────────────────────────────────
 
-export class ExerciseAttemptResponseDto {
+export class SubmitExerciseAudioResponseDto {
   @SwaggerString({ example: 'uuid-exercise-attempt-123' })
   exerciseAttemptId: string;
 
   @ApiProperty({ example: 'I work as a software engineer.' })
   transcript: string;
+
+  @ApiProperty({ example: 'exercise-audio/abc.m4a' })
+  audioPath: string;
 }
 
 // ─── PACK SCORING PAYLOADS ───────────────────────────────────────────────────
 
-export enum ScoringMode {
-  FREE = 'FREE',
-  GUIDED = 'GUIDED',
-}
-
 export class ScorePackDto {
-  @ApiProperty({
+  @SwaggerEnum({
     enum: ScoringMode,
     example: ScoringMode.FREE,
     description: 'Chế độ chấm điểm (FREE | GUIDED)',
   })
-  @IsNotEmpty()
-  @IsEnum(ScoringMode)
   mode: ScoringMode;
 }
 
@@ -571,6 +590,49 @@ export class ScorePackPayload {
   @SwaggerString({ example: 'uuid-user-123' })
   userId: string;
 
-  @ApiProperty({ enum: ScoringMode, example: ScoringMode.FREE })
+  @SwaggerEnum({ enum: ScoringMode, example: ScoringMode.FREE })
   mode: ScoringMode;
+}
+
+export class ScorePackResponseDto {
+  @SwaggerString({ example: 'uuid-pack-attempt-123' })
+  packAttemptId: string;
+
+  @SwaggerEnum({ enum: ScoringStatus, example: ScoringStatus.PROCESSING })
+  status: ScoringStatus;
+
+  @SwaggerEnum({ enum: ScoringMode, example: ScoringMode.FREE })
+  mode: ScoringMode;
+
+  @SwaggerNumber({ example: 5 })
+  exerciseCount: number;
+}
+
+export class PackScoringResponseDto {
+  @SwaggerString({ example: 'uuid-pack-attempt-123' })
+  packAttemptId: string;
+
+  @ApiProperty({ example: 85 })
+  overallScore: number;
+
+  @ApiProperty({ example: true })
+  passed: boolean;
+
+  @SwaggerEnum({ enum: ScoringMode })
+  scoringMode: ScoringMode;
+
+  @ApiProperty({ type: Date })
+  scoredAt: Date;
+
+  @ApiProperty({ type: [Object] })
+  exercises: Array<{
+    exerciseId: string;
+    seq: number;
+    score: number;
+    criterion1: { score: number; feedback: string };
+    grammar: { score: number; feedback: string };
+    vocabulary: { score: number; feedback: string };
+    tasks?: any;
+    suggestedPhrases?: string[];
+  }>;
 }
