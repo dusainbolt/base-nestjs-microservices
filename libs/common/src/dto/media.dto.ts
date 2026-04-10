@@ -1,6 +1,6 @@
 import { ApiProperty } from '@nestjs/swagger';
+import { IsEnum, IsOptional } from 'class-validator';
 import {
-  SwaggerBoolean,
   SwaggerDate,
   SwaggerNumber,
   SwaggerString,
@@ -14,16 +14,51 @@ export enum MediaStatus {
   UNUSED = 'UNUSED',
 }
 
-
 export enum ReferType {
   USER_AVATAR = 'USER_AVATAR',
-  POST_THUMBNAIL = 'POST_THUMBNAIL',
-  PRODUCT_IMAGE = 'PRODUCT_IMAGE',
+  EXERCISE_AUDIO = 'EXERCISE_AUDIO',
   TEMP = 'TEMP',
 }
 
-
 // ─── PAYLOADS ───────────────────────────────────────────────────────────────
+
+export class MediaUploadDto {
+  @ApiProperty({
+    type: 'string',
+    format: 'binary',
+    description: 'File to upload',
+  })
+  file: any;
+
+  @ApiProperty({
+    enum: ReferType,
+    example: ReferType.TEMP,
+    default: ReferType.TEMP,
+    description: 'Category of the media (for S3 path and organization)',
+  })
+  @IsOptional()
+  @IsEnum(ReferType)
+  type: ReferType;
+}
+
+export class MediaBatchUploadDto {
+  @ApiProperty({
+    type: 'array',
+    items: { type: 'string', format: 'binary' },
+    description: 'Files to upload (max 10)',
+  })
+  files: any[];
+
+  @ApiProperty({
+    enum: ReferType,
+    example: ReferType.TEMP,
+    default: ReferType.TEMP,
+    description: 'Category of the media (for S3 path and organization)',
+  })
+  @IsOptional()
+  @IsEnum(ReferType)
+  type: ReferType;
+}
 
 export class SaveMediaMetadataDto {
   @SwaggerString({ example: 'media/2026/04/abc123.jpg' })
@@ -42,8 +77,6 @@ export class SaveMediaMetadataDto {
   uploadedByUserId: string;
 }
 
-
-
 export class MarkMediaUsedDto {
   @SwaggerString({ example: 'media-123' })
   id: string;
@@ -54,7 +87,6 @@ export class MarkMediaUsedDto {
   @SwaggerString({ example: 'prod-123' })
   referId: string;
 }
-
 
 // ─── RESPONSES ──────────────────────────────────────────────────────────────
 
@@ -85,7 +117,6 @@ export class MediaResponseDto {
 
   @SwaggerString({ example: 'user-123' })
   uploadedByUserId: string;
-
 
   @SwaggerDate()
   createdAt: Date;

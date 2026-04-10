@@ -145,12 +145,12 @@ export class LevelResponseDto {
   passThresholdScore: number;
 
   @ApiProperty({
-    type: 'object',
+    type: Object,
     description: 'Cấu trúc yêu cầu đầu ra (ngữ pháp, từ vựng...)',
   })
   outputRequirements: Record<string, any>;
 
-  @ApiProperty({ type: 'array', description: 'Danh sách ví dụ minh họa' })
+  @ApiProperty({ type: [Object], description: 'Danh sách ví dụ minh họa' })
   examples: any[];
 }
 
@@ -210,13 +210,21 @@ export class GetPacksDto {
   @IsString()
   status?: string;
 
-  @ApiProperty({ required: false, example: 20, description: 'Số item mỗi trang' })
+  @ApiProperty({
+    required: false,
+    example: 20,
+    description: 'Số item mỗi trang',
+  })
   @IsOptional()
   @IsInt()
   @IsPositive()
   limit?: number;
 
-  @ApiProperty({ required: false, example: 0, description: 'Skip (pagination offset)' })
+  @ApiProperty({
+    required: false,
+    example: 0,
+    description: 'Skip (pagination offset)',
+  })
   @IsOptional()
   @IsInt()
   @Min(0)
@@ -238,7 +246,8 @@ export class GetPacksByIdsDto {
   @ApiProperty({
     type: [String],
     example: ['uuid-1', 'uuid-2', 'uuid-3'],
-    description: 'Danh sách pack IDs (max 50). Thứ tự response giữ nguyên thứ tự IDs.',
+    description:
+      'Danh sách pack IDs (max 50). Thứ tự response giữ nguyên thứ tự IDs.',
     maxItems: 50,
   })
   @IsArray()
@@ -281,7 +290,10 @@ export class LessonPackSummaryDto {
   @SwaggerString({ example: 'Daily Shopping' })
   title: string;
 
-  @ApiProperty({ required: false, example: 'Mua sắm trong cuộc sống hàng ngày' })
+  @ApiProperty({
+    required: false,
+    example: 'Mua sắm trong cuộc sống hàng ngày',
+  })
   description: string | null;
 
   @SwaggerString({ example: 'uuid-category-123' })
@@ -290,7 +302,11 @@ export class LessonPackSummaryDto {
   @ApiProperty({ required: false, example: 'Everyday - Daily Life' })
   categoryName: string | null;
 
-  @ApiProperty({ enum: CategoryType, required: false, example: CategoryType.EVERYDAY })
+  @ApiProperty({
+    enum: CategoryType,
+    required: false,
+    example: CategoryType.EVERYDAY,
+  })
   categoryType: CategoryType | null;
 
   @SwaggerNumber({ example: 2, description: 'Level ID (1–4)' })
@@ -322,7 +338,10 @@ export class LessonPackDetailDto {
   @SwaggerString({ example: 'Daily Shopping' })
   title: string;
 
-  @ApiProperty({ required: false, example: 'Mua sắm trong cuộc sống hàng ngày' })
+  @ApiProperty({
+    required: false,
+    example: 'Mua sắm trong cuộc sống hàng ngày',
+  })
   description: string | null;
 
   @SwaggerString({ example: 'uuid-category-123' })
@@ -331,7 +350,11 @@ export class LessonPackDetailDto {
   @ApiProperty({ required: false, example: 'Everyday - Daily Life' })
   categoryName: string | null;
 
-  @ApiProperty({ enum: CategoryType, required: false, example: CategoryType.EVERYDAY })
+  @ApiProperty({
+    enum: CategoryType,
+    required: false,
+    example: CategoryType.EVERYDAY,
+  })
   categoryType: CategoryType | null;
 
   @SwaggerNumber({ example: 2, description: 'Level ID (1–4)' })
@@ -340,7 +363,11 @@ export class LessonPackDetailDto {
   @ApiProperty({ required: false, example: 'Elementary' })
   levelDescription: string | null;
 
-  @ApiProperty({ required: false, example: 60, description: 'Điểm tối thiểu để pass pack' })
+  @ApiProperty({
+    required: false,
+    example: 60,
+    description: 'Điểm tối thiểu để pass pack',
+  })
   passThresholdScore: number | null;
 
   @SwaggerNumber({ example: 5, description: 'Tổng số Exercise trong pack' })
@@ -352,7 +379,11 @@ export class LessonPackDetailDto {
   @SwaggerNumber({ example: 120, description: 'Tổng số lần play' })
   totalPlays: number;
 
-  @ApiProperty({ required: false, example: 4.5, description: 'Điểm đánh giá TB (1–5)' })
+  @ApiProperty({
+    required: false,
+    example: 4.5,
+    description: 'Điểm đánh giá TB (1–5)',
+  })
   averageRating: number | null;
 }
 
@@ -367,10 +398,16 @@ export class PackStatsDto {
   @SwaggerNumber({ example: 2, description: 'Level ID (1–4)' })
   levelId: number;
 
-  @SwaggerNumber({ example: 8, description: 'Tổng số pack PUBLISHED trong category × level' })
+  @SwaggerNumber({
+    example: 8,
+    description: 'Tổng số pack PUBLISHED trong category × level',
+  })
   totalPacks: number;
 
-  @SwaggerNumber({ example: 40, description: 'Tổng số exercise PUBLISHED trong category × level' })
+  @SwaggerNumber({
+    example: 40,
+    description: 'Tổng số exercise PUBLISHED trong category × level',
+  })
   totalExercises: number;
 }
 
@@ -390,22 +427,31 @@ export class ExerciseSummaryDto {
   @SwaggerNumber({ example: 1, description: 'Thứ tự câu trong pack (1–5)' })
   order: number;
 
-  @ApiProperty({ example: 'SPEAKING', description: 'Loại exercise (SPEAKING | WRITING | ...)' })
+  @ApiProperty({
+    example: 'SPEAKING',
+    description: 'Loại exercise (SPEAKING | WRITING | ...)',
+  })
   type: string;
 
   @ApiProperty({ example: 'Describe your daily routine in 3 sentences.' })
   prompt: string;
 
-  @ApiProperty({ required: false, example: 'https://cdn.example.com/audio.mp3' })
+  @ApiProperty({
+    required: false,
+    example: 'https://cdn.example.com/audio.mp3',
+  })
   mediaUrl: string | null;
 
-  @ApiProperty({ type: 'array', description: 'Danh sách options (nếu có)' })
+  @ApiProperty({ type: [Object], description: 'Danh sách options (nếu có)' })
   options: any[];
 
   @ApiProperty({ example: 'I wake up at 7am every day.' })
   correctAnswer: string;
 
-  @ApiProperty({ required: false, example: 'Dùng Present Simple cho thói quen hàng ngày' })
+  @ApiProperty({
+    required: false,
+    example: 'Dùng Present Simple cho thói quen hàng ngày',
+  })
   explanation: string | null;
 }
 

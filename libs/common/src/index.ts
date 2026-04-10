@@ -42,6 +42,7 @@ export * from './decorators/swagger.decorator';
 
 // Utils
 export * from './utils/rpc-to-http.util';
+export * from './utils/file.util';
 
 // Prisma
 export * from './prisma/soft-delete';

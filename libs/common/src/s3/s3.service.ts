@@ -13,7 +13,6 @@ import * as path from 'path';
 import { EnvironmentVariables } from '../interfaces/env.interface';
 import { ReferType } from '../dto/media.dto';
 
-
 export interface UploadResult {
   path: string; // S3 key (không có URL)
   originalName: string;
@@ -106,11 +105,8 @@ export class S3Service {
       case ReferType.USER_AVATAR:
         key = `user-avatar/${uuid}${ext}`;
         break;
-      case ReferType.POST_THUMBNAIL:
-        key = `post-thumbnail/${uuid}${ext}`;
-        break;
-      case ReferType.PRODUCT_IMAGE:
-        key = `product-image/${uuid}${ext}`;
+      case ReferType.EXERCISE_AUDIO:
+        key = `exercise-audio/${uuid}${ext}`;
         break;
       default:
         // Nếu không thuộc các case trên thì đưa vào temp
@@ -128,7 +124,6 @@ export class S3Service {
           ACL: isPublic ? 'public-read' : undefined,
         }),
       );
-
     } catch (error) {
       this.logger.error(
         `S3 upload failed → bucket=${this.bucket}, key=${key}, endpoint=${this.endpoint ?? 'AWS S3'}`,

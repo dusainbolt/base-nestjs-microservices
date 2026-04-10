@@ -6,11 +6,18 @@ import {
   MEDIA_COMMANDS,
   MEDIA_SERVICE,
   rpcToHttp,
+  validateFileSize,
 } from '@app/common';
-import { MarkMediaUsedDto, MediaResponseDto, ReferType } from '@app/common/dto/media.dto';
+import {
+  MarkMediaUsedDto,
+  MediaBatchUploadDto,
+  MediaResponseDto,
+  MediaUploadDto,
+} from '@app/common/dto/media.dto';
 import { S3Service, UploadResult } from '@app/common/s3/s3.service';
 import {
   BadRequestException,
+  Body,
   Controller,
   Delete,
   Get,
@@ -29,19 +36,7 @@ import { FileInterceptor, FilesInterceptor } from '@nestjs/platform-express';
 import { ApiBody, ApiConsumes, ApiTags } from '@nestjs/swagger';
 import { lastValueFrom } from 'rxjs';
 
-// ─── Size limits per MIME category ────────────────────────────────────────────
-const MAX_FILE_SIZE: Record<string, number> = {
-  image: 10 * 1024 * 1024, // 10 MB
-  video: 100 * 1024 * 1024, // 100 MB
-  audio: 50 * 1024 * 1024, // 50 MB
-  application: 20 * 1024 * 1024, // 20 MB (docs, pdf, ...)
-  default: 10 * 1024 * 1024, // 10 MB fallback
-};
 
-function getMaxSize(mimeType: string): number {
-  const category = mimeType.split('/')[0];
-  return MAX_FILE_SIZE[category] ?? MAX_FILE_SIZE.default;
-}
 
 @ApiTags('Media')
 @Controller('media')
@@ -60,31 +55,18 @@ export class MediaController {
     httpStatus: HttpStatus.CREATED,
   })
   @ApiConsumes('multipart/form-data')
-  @ApiBody({
-    schema: {
-      type: 'object',
-      properties: {
-        file: { type: 'string', format: 'binary' },
-      },
-    },
-  })
+  @ApiBody({ type: MediaUploadDto })
   @UseInterceptors(FileInterceptor('file'))
   async uploadFile(
     @UploadedFile() file: Express.Multer.File,
+    @Body() dto: MediaUploadDto,
     @CurrentUser() user: JwtPayload,
-    @Query('type') type: ReferType = ReferType.TEMP,
   ) {
-
     if (!file) throw new BadRequestException('File is required');
-    const maxSize = getMaxSize(file.mimetype);
-    if (file.size > maxSize) {
-      throw new BadRequestException(
-        `File size exceeds limit of ${Math.round(maxSize / 1024 / 1024)} MB for ${file.mimetype}`,
-      );
-    }
+    validateFileSize(file);
 
     // 1. Upload lên S3 với type cụ thể
-    const result: UploadResult = await this.s3.upload(file, type);
+    const result: UploadResult = await this.s3.upload(file, dto.type);
 
     // 2. Gửi metadata vào media-service qua RabbitMQ (không cần gửi type nữa vì DB không lưu)
     return this.mediaClient
@@ -99,7 +81,6 @@ export class MediaController {
         },
       )
       .pipe(rpcToHttp());
-
   }
 
   // ─── Upload Multiple Files ──────────────────────────────────────────────
@@ -111,41 +92,23 @@ export class MediaController {
     httpStatus: HttpStatus.CREATED,
   })
   @ApiConsumes('multipart/form-data')
-  @ApiBody({
-    schema: {
-      type: 'object',
-      properties: {
-        files: {
-          type: 'array',
-          items: { type: 'string', format: 'binary' },
-        },
-      },
-    },
-  })
+  @ApiBody({ type: MediaBatchUploadDto })
   @UseInterceptors(FilesInterceptor('files', 10))
   async uploadFiles(
     @UploadedFiles() files: Express.Multer.File[],
+    @Body() dto: MediaBatchUploadDto,
     @CurrentUser() user: JwtPayload,
-    @Query('type') type: ReferType = ReferType.TEMP,
   ) {
-
     if (!files || files.length === 0) {
       throw new BadRequestException('At least one file is required');
     }
 
     // Validate size cho từng file
-    for (const file of files) {
-      const maxSize = getMaxSize(file.mimetype);
-      if (file.size > maxSize) {
-        throw new BadRequestException(
-          `File "${file.originalname}" exceeds limit of ${Math.round(maxSize / 1024 / 1024)} MB`,
-        );
-      }
-    }
+    files.forEach(validateFileSize);
 
     // Upload song song lên S3
     const uploadResults = await Promise.all(
-      files.map((file) => this.s3.upload(file, type)),
+      files.map((file) => this.s3.upload(file, dto.type)),
     );
 
     // Lưu metadata song song qua RabbitMQ
@@ -167,7 +130,6 @@ export class MediaController {
         ),
       ),
     );
-
 
     return mediaResults;
   }
