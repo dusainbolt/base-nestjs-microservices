@@ -39,7 +39,7 @@ export const CONTENT_COMMANDS = {
 
   // ── ExerciseAttempt ───────────────────────────────────────────────────────
   // Tầng 1: FE submit audioId sau khi upload xong → content-svc gọi ai-svc transcribe
-  SUBMIT_EXERCISE_AUDIO: 'submit_exercise_audio',
+  SUBMIT_EXERCISE_ATTEMPT_AUDIO: 'submit_exercise_attempt_audio',
 
   // ── Pack Scoring ──────────────────────────────────────────────────────────
   // Tầng 2: FE yêu cầu AI chấm điểm toàn pack (sau khi hoàn thành pack)

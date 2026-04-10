@@ -131,7 +131,7 @@ export class PracticeService {
   // TẦNG 1: Submit Audio → find attempt by ID → update audioPath → Whisper
   // ─────────────────────────────────────────────────────────────────────────────
 
-  async submitExerciseAudio(
+  async submitExerciseAttemptAudio(
     payload: SubmitExerciseAudioPayload,
   ): Promise<SubmitExerciseAudioResponseDto> {
     const { exerciseAttemptId, userId, audioId, durationMs } = payload;
@@ -157,12 +157,24 @@ export class PracticeService {
 
     const audioPath: string = media.path; // S3 key
 
+    // [2.1] Idempotency: Nếu đã transcribe xong VÀ dùng đúng audio này -> Trả về luôn
+    if (attempt.status === AttemptStatus.TRANSCRIBED) {
+      this.logger.log(
+        `Idempotency trigger: Attempt ${exerciseAttemptId} already transcribed with same audio. Skipping Whisper.`,
+      );
+      return {
+        exerciseAttemptId,
+        transcript: attempt.transcript ?? '',
+        audioPath: attempt.audioPath ?? '',
+      };
+    }
+
     // [2.5] Validate file extension
     if (!isAudioFile(audioPath)) {
       throw new BadRequestException(`File is not a valid audio format: ${audioPath}`);
     }
 
-    // [3] Update ExerciseAttempt với audioPath + durationMs
+    // [3] Update ExerciseAttempt với audioPath + durationMs + status
     await this.prisma.exerciseAttempt.update({
       where: { id: exerciseAttemptId },
       data: {

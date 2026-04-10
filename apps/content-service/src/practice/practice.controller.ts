@@ -26,11 +26,11 @@ export class PracticeController {
 
   // ── Tầng 1: Submit audio → update audioPath → Whisper → transcript ────────
 
-  @MessagePattern({ cmd: CONTENT_COMMANDS.SUBMIT_EXERCISE_AUDIO })
-  submitExerciseAudio(
+  @MessagePattern({ cmd: CONTENT_COMMANDS.SUBMIT_EXERCISE_ATTEMPT_AUDIO })
+  submitExerciseAttemptAudio(
     @Payload() payload: SubmitExerciseAudioPayload,
   ): Promise<SubmitExerciseAudioResponseDto> {
-    return this.practiceService.submitExerciseAudio(payload);
+    return this.practiceService.submitExerciseAttemptAudio(payload);
   }
 
   // ── Tầng 2: AI Scoring toàn pack ──────────────────────────────────────────

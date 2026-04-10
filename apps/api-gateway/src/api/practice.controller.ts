@@ -51,7 +51,7 @@ export class PracticeController {
   ) {
     return this.contentClient
       .send(
-        { cmd: CONTENT_COMMANDS.SUBMIT_EXERCISE_AUDIO },
+        { cmd: CONTENT_COMMANDS.SUBMIT_EXERCISE_ATTEMPT_AUDIO },
         {
           exerciseAttemptId,
           userId: user.sub,
