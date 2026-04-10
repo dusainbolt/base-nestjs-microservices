@@ -10,6 +10,7 @@ import {
   StartPackResponseDto,
   SubmitExerciseAudioPayload,
   SubmitExerciseAudioResponseDto,
+  SuggestedCategoryResponseDto,
 } from '@app/common/dto/content.dto';
 import { ReferType } from '@app/common/dto/media.dto';
 import {
@@ -449,5 +450,115 @@ export class PracticeService {
     }));
 
     return { categories, levels };
+  }
+
+  // ─────────────────────────────────────────────────────────────────────────────
+  // SUGGESTED CATEGORY: category có nhiều pack SCORED nhất nhưng chưa 100%
+  // ─────────────────────────────────────────────────────────────────────────────
+
+  async getSuggestedCategory(
+    userId: string,
+    categoryType: CategoryType,
+    levelId: number,
+  ): Promise<SuggestedCategoryResponseDto> {
+    // [1] Tìm tất cả categories cùng type, đếm totalPacks (PUBLISHED) và scoredPacks per category
+    const categoryStats: {
+      categoryId: string;
+      categoryName: string;
+      categoryDescription: string | null;
+      totalPacks: number;
+      scoredPacks: number;
+      avgScore: number;
+    }[] = await this.prisma.$queryRaw`
+      SELECT
+        c.id             AS "categoryId",
+        c.name           AS "categoryName",
+        c.description    AS "categoryDescription",
+        COUNT(DISTINCT p.id)::int AS "totalPacks",
+        COUNT(DISTINCT CASE
+          WHEN CAST(pa.status AS text) = ${PackAttemptStatus.SCORED} THEN p.id
+        END)::int AS "scoredPacks",
+        COALESCE(AVG(
+          CASE WHEN CAST(pa.status AS text) = ${PackAttemptStatus.SCORED} THEN pa."overallScore" END
+        ), 0)::int AS "avgScore"
+      FROM categories c
+      JOIN lesson_packs p
+        ON p."categoryId" = c.id
+        AND CAST(p.status AS text) = ${PackStatus.PUBLISHED}
+        AND p."levelId" = ${levelId}
+      LEFT JOIN pack_attempts pa
+        ON pa."lessonPackId" = p.id
+        AND pa."userId" = ${userId}
+      WHERE CAST(c.type AS text) = ${categoryType}
+      GROUP BY c.id, c.name, c.description
+      HAVING COUNT(DISTINCT p.id) > 0
+      ORDER BY
+        COUNT(DISTINCT CASE WHEN CAST(pa.status AS text) = ${PackAttemptStatus.SCORED} THEN p.id END) DESC,
+        c.name ASC
+    `;
+
+    // [2] Tìm category có scoredPacks nhiều nhất nhưng < totalPacks (chưa hoàn thành hết)
+    const suggested = categoryStats.find((cat) => cat.scoredPacks < cat.totalPacks);
+
+    if (!suggested) {
+      throw new NotFoundException(
+        `No suggested category found for type=${categoryType}, levelId=${levelId}`,
+      );
+    }
+
+    // [3] Load danh sách packs trong category đó + trạng thái attempt của user
+    const packs = await this.prisma.lessonPack.findMany({
+      where: {
+        categoryId: suggested.categoryId,
+        levelId,
+        status: PackStatus.PUBLISHED,
+      },
+      orderBy: { createdAt: 'asc' },
+      select: {
+        id: true,
+        title: true,
+      },
+    });
+
+    // [4] Load pack attempts (SCORED) của user cho các packs này
+    const packIds = packs.map((p) => p.id);
+    const scoredAttempts = await this.prisma.packAttempt.findMany({
+      where: {
+        userId,
+        lessonPackId: { in: packIds },
+        status: PackAttemptStatus.SCORED,
+      },
+      orderBy: { scoredAt: 'desc' },
+      distinct: ['lessonPackId'],
+      select: {
+        lessonPackId: true,
+        overallScore: true,
+        status: true,
+      },
+    });
+
+    const attemptMap = new Map(scoredAttempts.map((a) => [a.lessonPackId, a]));
+
+    return {
+      categoryId: suggested.categoryId,
+      categoryName: suggested.categoryName,
+      categoryDescription: suggested.categoryDescription,
+      totalPacks: suggested.totalPacks,
+      scoredPacks: suggested.scoredPacks,
+      averageScore: suggested.avgScore,
+      completionPercent:
+        suggested.totalPacks > 0
+          ? Math.round((suggested.scoredPacks / suggested.totalPacks) * 100)
+          : 0,
+      packs: packs.map((p) => {
+        const attempt = attemptMap.get(p.id);
+        return {
+          packId: p.id,
+          title: p.title,
+          overallScore: attempt?.overallScore ?? null,
+          status: attempt?.status ?? null,
+        };
+      }),
+    };
   }
 }

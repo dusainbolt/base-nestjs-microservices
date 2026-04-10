@@ -1,5 +1,6 @@
 import { CONTENT_COMMANDS, RmqInterceptor } from '@app/common';
 import {
+  CategoryType,
   PackScoringResponseDto,
   ScorePackPayload,
   ScorePackResponseDto,
@@ -7,6 +8,7 @@ import {
   StartPackResponseDto,
   SubmitExerciseAudioPayload,
   SubmitExerciseAudioResponseDto,
+  SuggestedCategoryResponseDto,
   UserPracticeStatsResponseDto,
 } from '@app/common/dto/content.dto';
 import { Controller, UseInterceptors } from '@nestjs/common';
@@ -57,5 +59,18 @@ export class PracticeController {
     @Payload() payload: { userId: string },
   ): Promise<UserPracticeStatsResponseDto> {
     return this.practiceService.getUserPracticeStats(payload.userId);
+  }
+
+  // ── Suggested Category ────────────────────────────────────────────────────
+
+  @MessagePattern({ cmd: CONTENT_COMMANDS.GET_SUGGESTED_CATEGORY })
+  getSuggestedCategory(
+    @Payload() payload: { userId: string; categoryType: CategoryType; levelId: number },
+  ): Promise<SuggestedCategoryResponseDto> {
+    return this.practiceService.getSuggestedCategory(
+      payload.userId,
+      payload.categoryType,
+      payload.levelId,
+    );
   }
 }

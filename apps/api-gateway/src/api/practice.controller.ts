@@ -7,15 +7,17 @@ import {
 } from '@app/common';
 import { JwtPayload } from '@app/common/dto/auth.dto';
 import {
+  GetSuggestedCategoryDto,
   PackScoringResponseDto,
   ScorePackDto,
   ScorePackResponseDto,
   StartPackResponseDto,
   SubmitExerciseAudioDto,
   SubmitExerciseAudioResponseDto,
+  SuggestedCategoryResponseDto,
   UserPracticeStatsResponseDto,
 } from '@app/common/dto/content.dto';
-import { Body, Controller, Get, Inject, Param, Post } from '@nestjs/common';
+import { Body, Controller, Get, Inject, Param, Post, Query } from '@nestjs/common';
 import { ClientProxy } from '@nestjs/microservices';
 import { ApiTags } from '@nestjs/swagger';
 
@@ -104,6 +106,22 @@ export class PracticeController {
   getStats(@CurrentUser() user: JwtPayload) {
     return this.contentClient
       .send({ cmd: CONTENT_COMMANDS.GET_USER_PRACTICE_STATS }, { userId: user.sub })
+      .pipe(rpcToHttp());
+  }
+
+  // ── Suggested Category ────────────────────────────────────────────────────
+
+  @Get('suggested-category')
+  @ApiHandleResponse({
+    summary: 'Get the category with most scored packs (but not 100%) within categoryType + levelId',
+    type: SuggestedCategoryResponseDto,
+  })
+  getSuggestedCategory(@Query() dto: GetSuggestedCategoryDto, @CurrentUser() user: JwtPayload) {
+    return this.contentClient
+      .send(
+        { cmd: CONTENT_COMMANDS.GET_SUGGESTED_CATEGORY },
+        { userId: user.sub, categoryType: dto.categoryType, levelId: +dto.levelId },
+      )
       .pipe(rpcToHttp());
   }
 }

@@ -49,4 +49,6 @@ export const CONTENT_COMMANDS = {
 
   // ── Thống kê quá trình học của user ─────────────────────────────────────────
   GET_USER_PRACTICE_STATS: 'get_user_practice_stats',
+  // Category có nhiều pack hoàn thành nhất nhưng chưa hết, trong phạm vi categoryType + levelId
+  GET_SUGGESTED_CATEGORY: 'get_suggested_category',
 };

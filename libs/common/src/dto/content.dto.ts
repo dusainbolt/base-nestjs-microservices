@@ -677,3 +677,69 @@ export class UserPracticeStatsResponseDto {
   @ApiProperty({ type: [LevelStatsDto] })
   levels: LevelStatsDto[];
 }
+
+// ─── SUGGESTED CATEGORY ──────────────────────────────────────────────────────
+
+export class GetSuggestedCategoryDto {
+  @ApiProperty({
+    enum: CategoryType,
+    example: CategoryType.EVERYDAY,
+    description: 'Loại category đang chọn',
+  })
+  @IsNotEmpty()
+  @IsEnum(CategoryType)
+  categoryType: CategoryType;
+
+  @ApiProperty({ example: 1, description: 'Level ID đang chọn (1–3)' })
+  @IsNotEmpty()
+  @IsInt()
+  @IsPositive()
+  levelId: number;
+}
+
+export class SuggestedCategoryPackDto {
+  @SwaggerString({ example: 'uuid-pack-123' })
+  packId: string;
+
+  @SwaggerString({ example: 'Daily Shopping' })
+  title: string;
+
+  @SwaggerNumber({ example: 85, description: 'Điểm overallScore (null nếu chưa scored)' })
+  overallScore: number | null;
+
+  @ApiProperty({
+    example: 'SCORED',
+    description: 'Trạng thái: SCORED = hoàn thành, null = chưa làm',
+    required: false,
+  })
+  status: string | null;
+}
+
+export class SuggestedCategoryResponseDto {
+  @SwaggerString({ example: 'uuid-category-123' })
+  categoryId: string;
+
+  @SwaggerString({ example: 'Tiếng Anh Giao Tiếp' })
+  categoryName: string;
+
+  @ApiProperty({ required: false, example: 'Các chủ đề giao tiếp hàng ngày' })
+  categoryDescription: string | null;
+
+  @SwaggerNumber({ example: 8, description: 'Tổng số pack PUBLISHED trong category × level' })
+  totalPacks: number;
+
+  @SwaggerNumber({ example: 5, description: 'Số pack user đã hoàn thành (SCORED)' })
+  scoredPacks: number;
+
+  @SwaggerNumber({ example: 78, description: 'Điểm trung bình các pack đã scored' })
+  averageScore: number;
+
+  @SwaggerNumber({ example: 62, description: 'scoredPacks / totalPacks × 100' })
+  completionPercent: number;
+
+  @ApiProperty({
+    type: [SuggestedCategoryPackDto],
+    description: 'Danh sách pack trong category: đã scored + chưa làm',
+  })
+  packs: SuggestedCategoryPackDto[];
+}
