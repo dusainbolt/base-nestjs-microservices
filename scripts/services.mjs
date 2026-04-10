@@ -10,6 +10,7 @@ const services = {
   product: 'product-service',
   media: 'media-service',
   content: 'content-service',
+  ai: 'ai-service',
 };
 
 const serviceKey = process.argv[2];

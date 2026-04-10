@@ -1,10 +1,18 @@
-import { MEDIA_COMMANDS, MEDIA_SERVICE } from '@app/common';
+import { AI_COMMANDS, AI_SERVICE, isAudioFile, MEDIA_COMMANDS, MEDIA_SERVICE } from '@app/common';
 import {
   ScorePackPayload,
   StartPackPayload,
   SubmitExerciseAudioPayload,
 } from '@app/common/dto/content.dto';
-import { BadRequestException, Inject, Injectable, Logger, NotFoundException } from '@nestjs/common';
+import {
+  BadGatewayException,
+  BadRequestException,
+  Inject,
+  Injectable,
+  Logger,
+  NotFoundException,
+} from '@nestjs/common';
+import { AttemptStatus, PackAttemptStatus, ScoringStatus } from '../generated/prisma/client';
 import { ClientProxy } from '@nestjs/microservices';
 import { catchError, firstValueFrom, timeout } from 'rxjs';
 import { PrismaService } from '../prisma/prisma.service';
@@ -16,8 +24,7 @@ export class PracticeService {
   constructor(
     private readonly prisma: PrismaService,
     @Inject(MEDIA_SERVICE) private readonly mediaClient: ClientProxy,
-    // TODO: Inject AI_SERVICE khi ai-service được triển khai
-    // @Inject(AI_SERVICE) private readonly aiClient: ClientProxy,
+    @Inject(AI_SERVICE) private readonly aiClient: ClientProxy,
   ) {}
 
   // ─────────────────────────────────────────────────────────────────────────────
@@ -45,7 +52,7 @@ export class PracticeService {
 
     // [2] Kiểm tra nếu đã có PackAttempt IN_PROGRESS → trả lại (không tạo mới)
     const existing = await this.prisma.packAttempt.findFirst({
-      where: { userId, lessonPackId: packId, status: 'IN_PROGRESS' },
+      where: { userId, lessonPackId: packId, status: PackAttemptStatus.IN_PROGRESS },
       include: {
         attempts: {
           orderBy: { createdAt: 'desc' },
@@ -73,7 +80,7 @@ export class PracticeService {
         data: {
           userId,
           lessonPackId: packId,
-          status: 'IN_PROGRESS',
+          status: PackAttemptStatus.IN_PROGRESS,
         },
       });
 
@@ -84,7 +91,7 @@ export class PracticeService {
               exerciseId: ex.id,
               userId,
               packAttemptId: pa.id,
-              status: 'PENDING',
+              status: AttemptStatus.PENDING,
             },
           }),
         ),
@@ -136,6 +143,11 @@ export class PracticeService {
 
     const audioPath: string = media.path; // S3 key
 
+    // [2.5] Validate file extension
+    if (!isAudioFile(audioPath)) {
+      throw new BadRequestException(`File is not a valid audio format: ${audioPath}`);
+    }
+
     // [3] Update ExerciseAttempt với audioPath + durationMs
     await this.prisma.exerciseAttempt.update({
       where: { id: exerciseAttemptId },
@@ -148,15 +160,27 @@ export class PracticeService {
     this.logger.log(`Updated ExerciseAttempt: id=${exerciseAttemptId}, audioPath=${audioPath}`);
 
     // [4] Gọi ai-service transcribe (Whisper STT)
-    // TODO: Bật khi ai-service sẵn sàng
+    try {
+      const { transcript } = await firstValueFrom(
+        this.aiClient
+          .send({ cmd: AI_COMMANDS.TRANSCRIBE_AUDIO }, { audioPath })
+          .pipe(timeout(30000)), // Whisper transcription can take ~10-30s depending on audio length
+      );
 
-    // --- STUB: trả về attempt (chờ ai-service) ---
-    return {
-      exerciseAttemptId,
-      transcript: null,
-      status: 'PENDING',
-      audioPath,
-    };
+      await this.prisma.exerciseAttempt.update({
+        where: { id: exerciseAttemptId },
+        data: { transcript, status: AttemptStatus.TRANSCRIBED },
+      });
+
+      return { exerciseAttemptId, transcript, audioPath };
+    } catch (error) {
+      await this.prisma.exerciseAttempt.update({
+        where: { id: exerciseAttemptId },
+        data: { status: AttemptStatus.TRANSCRIPT_FAILED },
+      });
+      this.logger.error(`Transcription failed for attempt ${exerciseAttemptId}: ${error}`);
+      throw new BadGatewayException('Whisper transcription failed');
+    }
   }
 
   // ─────────────────────────────────────────────────────────────────────────────
@@ -171,7 +195,7 @@ export class PracticeService {
       where: {
         id: packAttemptId,
         userId,
-        status: { in: ['COMPLETED', 'IN_PROGRESS'] },
+        status: { in: [PackAttemptStatus.COMPLETED, PackAttemptStatus.IN_PROGRESS] },
       },
     });
 
@@ -195,7 +219,7 @@ export class PracticeService {
     const attempts = await this.prisma.exerciseAttempt.findMany({
       where: {
         packAttemptId: packAttempt.id,
-        status: 'TRANSCRIBED',
+        status: AttemptStatus.TRANSCRIBED,
       },
       orderBy: { createdAt: 'desc' },
       distinct: ['exerciseId'],
@@ -217,16 +241,27 @@ export class PracticeService {
     // [5] Update status → SCORING
     await this.prisma.packAttempt.update({
       where: { id: packAttempt.id },
-      data: { scoringStatus: 'PROCESSING', scoringMode: mode },
+      data: { scoringStatus: ScoringStatus.PROCESSING, scoringMode: mode },
     });
 
     // [6] Gọi ai-service scoring
-    // TODO: Bật khi ai-service sẵn sàng
-
-    // --- STUB ---
     this.logger.log(
       `Score pack requested: packAttempt=${packAttempt.id}, mode=${mode}, exercises=${exercisesForAI.length}`,
     );
+
+    // Send the task to AI Service. Note: Scoring can take ~30-60s for a full pack.
+    // We send without waiting for a direct sync response, using an event or long-polling pattern later,
+    // OR we wait for it if the FE needs it directly (adjust timeout).
+    // For now, let's trigger it asynchronously and return PROCESSING status.
+    this.aiClient
+      .emit(AI_COMMANDS.SCORE_PACK_ATTEMPT, {
+        packAttemptId: packAttempt.id,
+        exercises: exercisesForAI,
+        mode,
+      })
+      .subscribe({
+        error: (err) => this.logger.error(`Failed to trigger AI scoring: ${err}`),
+      });
 
     return {
       packAttemptId: packAttempt.id,
@@ -256,7 +291,7 @@ export class PracticeService {
       throw new NotFoundException(`PackAttempt not found: id=${packAttemptId}`);
     }
 
-    if (packAttempt.scoringStatus !== 'COMPLETED') {
+    if (packAttempt.scoringStatus !== ScoringStatus.COMPLETED) {
       throw new BadRequestException(`Scoring is not completed for attempt: id=${packAttemptId}`);
     }
 

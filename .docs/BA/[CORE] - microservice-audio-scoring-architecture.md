@@ -504,15 +504,15 @@ export const AI_SERVICE = 'AI_SERVICE';
 // libs/common/src/constants/ai.constants.ts — MỚI
 export const AI_COMMANDS = {
   TRANSCRIBE_AUDIO: 'transcribe_audio',
-  SCORE_PACK_FREE: 'score_pack_free',
-  SCORE_PACK_GUIDED: 'score_pack_guided',
+  SCORE_PACK_ATTEMPT: 'score_pack_attempt',
 } as const;
 
 // libs/common/src/constants/content.constants.ts — BỔ SUNG
 export const CONTENT_COMMANDS = {
   // ... existing
+  START_PACK_ATTEMPT: 'start_pack_attempt',
   SUBMIT_EXERCISE_AUDIO: 'submit_exercise_audio',
-  SCORE_PACK: 'score_pack',
+  SCORE_PACK_ATTEMPT: 'score_pack_attempt',
   GET_PACK_SCORING: 'get_pack_scoring',
 } as const;
 
@@ -528,72 +528,62 @@ export const PRODUCT_COMMANDS = {
 ### 8.2. Gateway Controller
 
 ```typescript
-// apps/api-gateway/src/api/exercise-attempt.controller.ts — MỚI
+// apps/api-gateway/src/api/practice.controller.ts
 
-@Controller('api/v1')
-@UseGuards(JwtAuthGuard)
-export class ExerciseAttemptController {
+@ApiTags('Practice')
+@Controller('practice')
+export class PracticeController {
   constructor(
-    @Inject(CONTENT_SERVICE) private contentClient: ClientProxy,
-    @Inject(PRODUCT_SERVICE) private productClient: ClientProxy,
-    @Inject(MEDIA_SERVICE) private mediaClient: ClientProxy,
+    @Inject(CONTENT_SERVICE) private readonly contentClient: ClientProxy,
+    // (Bổ sung PRODUCT_SERVICE credit checking tuỳ nhu cầu)
   ) {}
 
   /**
-   * Tầng 1: Submit audio URL (sau khi upload qua /media/upload)
+   * [STEP 0] Bắt đầu làm pack
    */
-  @Post('exercises/:exerciseId/transcript')
-  async submitTranscript(
-    @Param('exerciseId') exerciseId: string,
-    @Body() dto: SubmitTranscriptDto, // { audioUrl, durationMs, attemptSeq }
-    @User() user: JwtPayload,
+  @Post('packs/:packId/start')
+  startPackAttempt(@Param('packId') packId: string, @CurrentUser() user: JwtPayload) {
+    return this.contentClient
+      .send({ cmd: CONTENT_COMMANDS.START_PACK_ATTEMPT }, { packId, userId: user.sub })
+      .pipe(rpcToHttp());
+  }
+
+  /**
+   * Tầng 1: Submit audio URL đã qua S3
+   */
+  @Post('exercise-attempts/:exerciseAttemptId/transcript')
+  submitTranscript(
+    @Param('exerciseAttemptId') exerciseAttemptId: string,
+    @Body() dto: SubmitExerciseAudioDto,
+    @CurrentUser() user: JwtPayload,
   ) {
     return this.contentClient
       .send(
         { cmd: CONTENT_COMMANDS.SUBMIT_EXERCISE_AUDIO },
         {
-          exerciseId,
+          exerciseAttemptId,
           userId: user.sub,
-          audioUrl: dto.audioUrl,
+          audioId: dto.audioId,
           durationMs: dto.durationMs,
-          attemptSeq: dto.attemptSeq,
         },
       )
       .pipe(rpcToHttp());
   }
 
   /**
-   * Tầng 2: AI Scoring toàn pack
+   * Tầng 2: Require AI Scoring
    */
-  @Post('packs/:packId/score')
-  async scorePack(
-    @Param('packId') packId: string,
-    @Body() dto: ScorePackDto, // { mode: 'FREE' | 'GUIDED' }
-    @User() user: JwtPayload,
+  @Post('pack-attempts/:packAttemptId/score')
+  scorePackAttempt(
+    @Param('packAttemptId') packAttemptId: string,
+    @Body() dto: ScorePackDto,
+    @CurrentUser() user: JwtPayload,
   ) {
-    // [1] Deduct 5 credit cho AI feedback
-    await firstValueFrom(
-      this.productClient.send(
-        { cmd: PRODUCT_COMMANDS.DEDUCT_CREDIT },
-        {
-          userId: user.sub,
-          amount: 5,
-          type: 'DEDUCT_SCORING',
-          referenceType: 'pack',
-          referenceId: packId,
-        },
-      ),
-    );
-
-    // [2] Gọi content-service orchestrate scoring
+    // NOTE: Sẽ có thể trừ Credit ở Gateway / Product svc tại đây trước khi routing.
     return this.contentClient
       .send(
-        { cmd: CONTENT_COMMANDS.SCORE_PACK },
-        {
-          packId,
-          userId: user.sub,
-          mode: dto.mode,
-        },
+        { cmd: CONTENT_COMMANDS.SCORE_PACK_ATTEMPT },
+        { packAttemptId, userId: user.sub, mode: dto.mode },
       )
       .pipe(rpcToHttp());
   }
@@ -649,10 +639,7 @@ export class ExerciseAttemptService {
     // [2] Gọi ai-service transcribe
     try {
       const { transcript } = await firstValueFrom(
-        this.aiClient.send(
-          { cmd: AI_COMMANDS.TRANSCRIBE_AUDIO },
-          { audioUrl: payload.audioUrl },
-        ),
+        this.aiClient.send({ cmd: AI_COMMANDS.TRANSCRIBE_AUDIO }, { audioUrl: payload.audioUrl }),
       );
 
       // [3] Update transcript
@@ -673,105 +660,67 @@ export class ExerciseAttemptService {
 }
 ```
 
-### 9.2. Xử lý Tầng 2 (Scoring)
+### 9.2. Xử lý Tầng 2 (Scoring) — Bất đồng bộ
+
+Việc chấm điểm toàn bộ Pack thông qua ChatGPT tốn nhiều thời gian (~10 - 45s). Vì vậy, kiến trúc áp dụng mô hình Request-Acknowledge kết hợp Background Processing (thông qua `emit()`).
 
 ```typescript
-// apps/content-service/src/scoring/pack-scoring.service.ts
+// apps/content-service/src/practice/practice.service.ts
 
 @Injectable()
-export class PackScoringService {
+export class PracticeService {
   constructor(
     private prisma: PrismaService,
     @Inject(AI_SERVICE) private aiClient: ClientProxy,
-    @Inject(PRODUCT_SERVICE) private productClient: ClientProxy,
   ) {}
 
-  async scorePack(payload: ScorePackPayload) {
-    const { packId, userId, mode } = payload;
+  async scorePackAttempt(payload: ScorePackPayload) {
+    const { packAttemptId, userId, mode } = payload;
 
-    // [1] Load pack + exercises + attempts
-    const pack = await this.prisma.lessonPack.findUnique({
-      where: { id: packId },
-      include: {
-        exercises: { orderBy: { sequenceOrder: 'asc' } },
-      },
-    });
+    // [1] Tìm PackAttempt, Pack, Exercises và ExerciseAttempts (status: TRANSCRIBED)
+    // ...
 
-    const level = await this.prisma.level.findUnique({
-      where: { id: pack.levelId },
-    });
-
-    // [2] Load transcripts từ ExerciseAttempt (lấy attempt mới nhất mỗi exercise)
-    const attempts = await this.prisma.exerciseAttempt.findMany({
-      where: {
-        userId,
-        exerciseId: { in: pack.exercises.map((e) => e.id) },
-        status: 'TRANSCRIBED',
-      },
-      orderBy: { createdAt: 'desc' },
-      distinct: ['exerciseId'],
-    });
-
-    // [3] Build payload cho ai-service
+    // [2] Build payload cho ai-service
     const exercisesForAI = pack.exercises.map((ex) => {
       const attempt = attempts.find((a) => a.exerciseId === ex.id);
       return {
         seq: ex.sequenceOrder,
-        prompt: ex.previousPrompt, // p
+        prompt: ex.previousPrompt ?? '',
         ...(mode === 'GUIDED' && {
-          instruction: ex.myPrompt, // m
-          sample: ex.sampleAnswer, // s
+          instruction: ex.myPrompt,
         }),
-        transcript: attempt?.transcript || '',
+        transcript: attempt?.transcript ?? '',
       };
     });
 
-    // [4] Gọi ai-service scoring
-    const scoringCommand =
-      mode === 'FREE'
-        ? AI_COMMANDS.SCORE_PACK_FREE
-        : AI_COMMANDS.SCORE_PACK_GUIDED;
+    // [3] Update trạng thái sang PROCESSING để UI hiển thị màn hình Loading
+    await this.prisma.packAttempt.update({
+      where: { id: packAttempt.id },
+      data: { scoringStatus: ScoringStatus.PROCESSING, scoringMode: mode },
+    });
 
-    try {
-      // Update status
-      const packAttempt = await this.prisma.packAttempt.update({
-        where: { id: packId /* find the active one */ },
-        data: { scoringStatus: 'PROCESSING', scoringMode: mode },
+    // [4] Gọi ai-service qua Event Pattern thay vì Request/Response trực tiếp (tránh HTTP Gateway Timeout)
+    this.aiClient
+      .emit(AI_COMMANDS.SCORE_PACK_ATTEMPT, {
+        packAttemptId: packAttempt.id,
+        exercises: exercisesForAI,
+        mode,
+      })
+      .subscribe({
+        error: (err) => this.logger.error(`Failed to emit AI scoring event: ${err}`),
       });
 
-      const aiResult = await firstValueFrom(
-        this.aiClient.send(
-          { cmd: scoringCommand },
-          { levelId: pack.levelId, exercises: exercisesForAI },
-        ),
-      );
-
-      // [5] Lưu kết quả
-      await this.saveScores(packAttempt.id, aiResult, mode);
-
-      return aiResult;
-    } catch (error) {
-      // Scoring fail → refund credit
-      await firstValueFrom(
-        this.productClient.send(
-          { cmd: PRODUCT_COMMANDS.REFUND_CREDIT },
-          {
-            userId,
-            amount: 5,
-            type: 'REFUND',
-            referenceType: 'pack_scoring',
-            referenceId: packId,
-          },
-        ),
-      );
-      throw new RpcException({
-        code: 'SCORING_FAILED',
-        message: error.message,
-      });
-    }
+    // Gateway nhận "PROCESSING" ngay lập tức, UI sẽ liên tục Polling API "Get Pack Scoring"
+    return {
+      packAttemptId: packAttempt.id,
+      status: 'PROCESSING',
+      mode,
+      exerciseCount: exercisesForAI.length,
+    };
   }
 }
 ```
+> **Lưu ý UI:** Sau khi nhận `status: 'PROCESSING'`, Client (FE) sẽ gọi Polling định kỳ khoảng 3-5s một lần xuống API `GET /practice/pack-attempts/{id}/score` cho tới khi nhận được `status: 'COMPLETED'` hoặc bị timeout ở giao diện. Ít tác động tiêu cực hơn so với ngâm kết nối HTTP mở ròng rã suốt 1 phút chờ AI phản hồi.
 
 ---
 

@@ -37,3 +37,15 @@ export function validateFileSize(file: {
     );
   }
 }
+
+/**
+ * Checks if a filename or path has a valid audio extension.
+ */
+export function isAudioFile(fileNameOrPath: string): boolean {
+  if (!fileNameOrPath) return false;
+  
+  const audioExtensions = ['.mp3', '.wav', '.m4a', '.ogg', '.aac', '.flac'];
+  const lowerCasePath = fileNameOrPath.toLowerCase();
+  
+  return audioExtensions.some((ext) => lowerCasePath.endsWith(ext));
+}

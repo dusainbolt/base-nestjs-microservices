@@ -159,6 +159,16 @@ export class S3Service {
     return '';
   }
 
+  async getFileStream(key: string): Promise<any> {
+    const res = await this.client.send(new GetObjectCommand({ Bucket: this.bucket, Key: key }));
+    if (!res.Body) {
+      throw new Error(`File not found or empty body in S3 for key: ${key}`);
+    }
+    // We treat Body as a stream which is compatible with node stream.Readable in Node.js
+    // Required by OpenAI package for file uploads
+    return res.Body;
+  }
+
   async exists(key: string): Promise<boolean> {
     try {
       await this.client.send(new HeadObjectCommand({ Bucket: this.bucket, Key: key }));

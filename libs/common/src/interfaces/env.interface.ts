@@ -38,6 +38,7 @@ export class EnvironmentVariables {
   @IsOptional() @IsString() RABBIT_MQ_PRODUCT_SERVICE_QUEUE?: string;
   @IsOptional() @IsString() RABBIT_MQ_MEDIA_SERVICE_QUEUE?: string;
   @IsOptional() @IsString() RABBIT_MQ_CONTENT_SERVICE_QUEUE?: string;
+  @IsOptional() @IsString() RABBIT_MQ_AI_SERVICE_QUEUE?: string;
   @IsOptional() @IsNumberEnv() RABBIT_MQ_PREFETCH_COUNT?: number;
 
   // PostgreSQL
@@ -76,6 +77,9 @@ export class EnvironmentVariables {
   // Swagger and Branding
   @IsOptional() @IsString() APP_LOGO_URL?: string;
   @IsOptional() @IsBooleanEnv() ENABLE_SWAGGER?: boolean;
+
+  // OpenAI
+  @IsOptional() @IsString() OPENAI_API_KEY?: string;
 }
 
 /**
