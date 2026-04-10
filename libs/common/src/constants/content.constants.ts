@@ -35,7 +35,7 @@ export const CONTENT_COMMANDS = {
   // ── Pack Attempt ───────────────────────────────────────────────────────────
   // User bấm "Bắt đầu" → tạo PackAttempt + N ExerciseAttempt (PENDING)
   // TODO: logic trừ credit sẽ nằm ở đây sau
-  START_PACK: 'start_pack',
+  START_PACK_ATTEMPT: 'start_pack_attempt',
 
   // ── ExerciseAttempt ───────────────────────────────────────────────────────
   // Tầng 1: FE submit audioId sau khi upload xong → content-svc gọi ai-svc transcribe
@@ -43,7 +43,7 @@ export const CONTENT_COMMANDS = {
 
   // ── Pack Scoring ──────────────────────────────────────────────────────────
   // Tầng 2: FE yêu cầu AI chấm điểm toàn pack (sau khi hoàn thành pack)
-  SCORE_PACK: 'score_pack',
+  SCORE_PACK_ATTEMPT: 'score_pack_attempt',
   // Lấy kết quả scoring đã lưu (nếu đã chấm trước đó)
   GET_PACK_SCORING: 'get_pack_scoring',
 };

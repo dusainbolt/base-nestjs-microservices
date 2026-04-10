@@ -9,7 +9,6 @@ import {
   CategoryContentSummaryListDto,
   CategoryListDto,
   CategoryResponseDto,
-  CategoryType,
   GetCategoriesDto,
 } from '@app/common/dto/content.dto';
 import { Controller, Get, Inject, Param, Query } from '@nestjs/common';

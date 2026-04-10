@@ -4,7 +4,7 @@ import { ConfigModule } from '@nestjs/config';
 import { CategoryModule } from './category/category.module';
 import { LevelModule } from './level/level.module';
 import { LessonPackModule } from './lesson-pack/lesson-pack.module';
-import { ExerciseAttemptModule } from './exercise-attempt/exercise-attempt.module';
+import { PracticeModule } from './practice/practice.module';
 
 @Module({
   imports: [
@@ -17,7 +17,7 @@ import { ExerciseAttemptModule } from './exercise-attempt/exercise-attempt.modul
     CategoryModule,
     LevelModule,
     LessonPackModule,
-    ExerciseAttemptModule,
+    PracticeModule,
   ],
   controllers: [],
   providers: [],

@@ -1,8 +1,8 @@
 import { MEDIA_SERVICE, RmqModule } from '@app/common';
 import { Module } from '@nestjs/common';
 import { PrismaService } from '../prisma/prisma.service';
-import { ExerciseAttemptController } from './exercise-attempt.controller';
-import { ExerciseAttemptService } from './exercise-attempt.service';
+import { PracticeController } from './practice.controller';
+import { PracticeService } from './practice.service';
 
 @Module({
   imports: [
@@ -11,8 +11,8 @@ import { ExerciseAttemptService } from './exercise-attempt.service';
     // TODO: Register AI_SERVICE khi ai-service được triển khai
     // RmqModule.register({ name: AI_SERVICE }),
   ],
-  controllers: [ExerciseAttemptController],
-  providers: [ExerciseAttemptService, PrismaService],
-  exports: [ExerciseAttemptService],
+  controllers: [PracticeController],
+  providers: [PracticeService, PrismaService],
+  exports: [PracticeService],
 })
-export class ExerciseAttemptModule {}
+export class PracticeModule {}

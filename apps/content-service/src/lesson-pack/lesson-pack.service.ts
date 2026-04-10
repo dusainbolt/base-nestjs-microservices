@@ -183,7 +183,7 @@ export class LessonPackService {
 
     const exercises = await this.prisma.exercise.findMany({
       where: { lessonPackId: payload.packId },
-      orderBy: { order: 'asc' },
+      orderBy: { sequenceOrder: 'asc' },
     });
 
     this.logger.log(`getPackExercises: packId=${payload.packId}, count=${exercises.length}`);

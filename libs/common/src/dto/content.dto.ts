@@ -518,11 +518,11 @@ export class SubmitExerciseAudioDto {
 
 /**
  * Payload nội bộ RMQ: gateway → content-service.
- * Gateway bổ sung exerciseId + userId từ route param + JWT.
+ * Gateway bổ sung attemptId + userId từ route param + JWT.
  */
 export class SubmitExerciseAudioPayload {
-  @SwaggerString({ example: 'uuid-exercise-123' })
-  exerciseId: string;
+  @SwaggerString({ example: 'uuid-exercise-attempt-123' })
+  exerciseAttemptId: string;
 
   @SwaggerString({ example: 'uuid-user-123' })
   userId: string;
@@ -539,8 +539,8 @@ export class SubmitExerciseAudioPayload {
 // ─── EXERCISE ATTEMPT RESPONSES ──────────────────────────────────────────────
 
 export class ExerciseAttemptResponseDto {
-  @SwaggerString({ example: 'uuid-attempt-123' })
-  attemptId: string;
+  @SwaggerString({ example: 'uuid-exercise-attempt-123' })
+  exerciseAttemptId: string;
 
   @ApiProperty({ example: 'I work as a software engineer.' })
   transcript: string;
@@ -565,8 +565,8 @@ export class ScorePackDto {
 }
 
 export class ScorePackPayload {
-  @SwaggerString({ example: 'uuid-pack-123' })
-  packId: string;
+  @SwaggerString({ example: 'uuid-pack-attempt-123' })
+  packAttemptId: string;
 
   @SwaggerString({ example: 'uuid-user-123' })
   userId: string;

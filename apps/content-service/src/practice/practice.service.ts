@@ -10,8 +10,8 @@ import { catchError, firstValueFrom, timeout } from 'rxjs';
 import { PrismaService } from '../prisma/prisma.service';
 
 @Injectable()
-export class ExerciseAttemptService {
-  private readonly logger = new Logger(ExerciseAttemptService.name);
+export class PracticeService {
+  private readonly logger = new Logger(PracticeService.name);
 
   constructor(
     private readonly prisma: PrismaService,
@@ -24,7 +24,7 @@ export class ExerciseAttemptService {
   // START PACK: tạo PackAttempt + N ExerciseAttempt (PENDING)
   // ─────────────────────────────────────────────────────────────────────────────
 
-  async startPack(payload: StartPackPayload) {
+  async startPackAttempt(payload: StartPackPayload) {
     const { packId, userId } = payload;
 
     // [1] Verify pack tồn tại + load exercises
@@ -108,26 +108,19 @@ export class ExerciseAttemptService {
   }
 
   // ─────────────────────────────────────────────────────────────────────────────
-  // TẦNG 1: Submit Audio → tìm ExerciseAttempt → update audioPath → Whisper
+  // TẦNG 1: Submit Audio → find attempt by ID → update audioPath → Whisper
   // ─────────────────────────────────────────────────────────────────────────────
 
-  async submitAudio(payload: SubmitExerciseAudioPayload) {
-    const { exerciseId, userId, audioId, durationMs } = payload;
+  async submitExerciseAudio(payload: SubmitExerciseAudioPayload) {
+    const { exerciseAttemptId, userId, audioId, durationMs } = payload;
 
-    // [1] Tìm ExerciseAttempt đã tạo từ startPack
-    const attempt = await this.prisma.exerciseAttempt.findFirst({
-      where: {
-        exerciseId,
-        userId,
-        status: 'PENDING',
-      },
-      orderBy: { createdAt: 'desc' },
+    // [1] Tìm ExerciseAttempt theo ID (đã tạo từ startPack)
+    const attempt = await this.prisma.exerciseAttempt.findUnique({
+      where: { id: exerciseAttemptId },
     });
-
-    if (!attempt) {
-      throw new NotFoundException(
-        `No pending ExerciseAttempt found: exerciseId=${exerciseId}, userId=${userId}. Did you call startPack first?`,
-      );
+    console.debug('attempt', attempt);
+    if (!attempt || attempt.userId !== userId) {
+      throw new NotFoundException(`ExerciseAttempt not found: id=${exerciseAttemptId}`);
     }
 
     // [2] Resolve audioId → audioPath qua media-service
@@ -145,41 +138,21 @@ export class ExerciseAttemptService {
 
     // [3] Update ExerciseAttempt với audioPath + durationMs
     await this.prisma.exerciseAttempt.update({
-      where: { id: attempt.id },
+      where: { id: exerciseAttemptId },
       data: {
         audioPath,
         durationMs: durationMs ?? null,
       },
     });
 
-    this.logger.log(`Updated ExerciseAttempt: id=${attempt.id}, audioPath=${audioPath}`);
+    this.logger.log(`Updated ExerciseAttempt: id=${exerciseAttemptId}, audioPath=${audioPath}`);
 
     // [4] Gọi ai-service transcribe (Whisper STT)
     // TODO: Bật khi ai-service sẵn sàng
-    // try {
-    //   const { transcript } = await firstValueFrom(
-    //     this.aiClient
-    //       .send({ cmd: AI_COMMANDS.TRANSCRIBE_AUDIO }, { audioPath })
-    //       .pipe(timeout(10000)),
-    //   );
-    //
-    //   await this.prisma.exerciseAttempt.update({
-    //     where: { id: attempt.id },
-    //     data: { transcript, status: 'TRANSCRIBED' },
-    //   });
-    //
-    //   return { attemptId: attempt.id, transcript };
-    // } catch (error) {
-    //   await this.prisma.exerciseAttempt.update({
-    //     where: { id: attempt.id },
-    //     data: { status: 'TRANSCRIPT_FAILED' },
-    //   });
-    //   throw new BadGatewayException('Whisper transcription failed');
-    // }
 
     // --- STUB: trả về attempt (chờ ai-service) ---
     return {
-      attemptId: attempt.id,
+      exerciseAttemptId,
       transcript: null,
       status: 'PENDING',
       audioPath,
@@ -190,33 +163,32 @@ export class ExerciseAttemptService {
   // TẦNG 2: AI Scoring — toàn pack
   // ─────────────────────────────────────────────────────────────────────────────
 
-  async scorePack(payload: ScorePackPayload) {
-    const { packId, userId, mode } = payload;
+  async scorePackAttempt(payload: ScorePackPayload) {
+    const { packAttemptId, userId, mode } = payload;
 
     // [1] Tìm PackAttempt
     const packAttempt = await this.prisma.packAttempt.findFirst({
       where: {
-        lessonPackId: packId,
+        id: packAttemptId,
         userId,
         status: { in: ['COMPLETED', 'IN_PROGRESS'] },
       },
-      orderBy: { startedAt: 'desc' },
     });
 
     if (!packAttempt) {
-      throw new NotFoundException(`No active pack attempt found: packId=${packId}`);
+      throw new NotFoundException(`PackAttempt not found: id=${packAttemptId}`);
     }
 
     // [2] Load pack + exercises
     const pack = await this.prisma.lessonPack.findUnique({
-      where: { id: packId },
+      where: { id: packAttempt.lessonPackId },
       include: {
         exercises: { orderBy: { sequenceOrder: 'asc' } },
       },
     });
 
     if (!pack) {
-      throw new NotFoundException(`Pack not found: id=${packId}`);
+      throw new NotFoundException(`Pack not found for attempt: id=${packAttempt.lessonPackId}`);
     }
 
     // [3] Load transcripts (lấy attempt mới nhất của mỗi exercise)
@@ -265,17 +237,14 @@ export class ExerciseAttemptService {
   }
 
   // ─────────────────────────────────────────────────────────────────────────────
-  // GET: Kết quả scoring đã lưu
+  // GET: Kết quả scoring của một PackAttempt cụ thể
   // ─────────────────────────────────────────────────────────────────────────────
 
-  async getPackScoring(packId: string, userId: string) {
-    const packAttempt = await this.prisma.packAttempt.findFirst({
+  async getScoringByAttemptId(packAttemptId: string, userId: string) {
+    const packAttempt = await this.prisma.packAttempt.findUnique({
       where: {
-        lessonPackId: packId,
-        userId,
-        scoringStatus: 'COMPLETED',
+        id: packAttemptId,
       },
-      orderBy: { scoredAt: 'desc' },
       include: {
         exerciseScores: {
           orderBy: { sequenceOrder: 'asc' },
@@ -283,8 +252,12 @@ export class ExerciseAttemptService {
       },
     });
 
-    if (!packAttempt) {
-      throw new NotFoundException(`No scoring result found: packId=${packId}`);
+    if (!packAttempt || packAttempt.userId !== userId) {
+      throw new NotFoundException(`PackAttempt not found: id=${packAttemptId}`);
+    }
+
+    if (packAttempt.scoringStatus !== 'COMPLETED') {
+      throw new BadRequestException(`Scoring is not completed for attempt: id=${packAttemptId}`);
     }
 
     return {
