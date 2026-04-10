@@ -69,6 +69,7 @@ Dùng để nạp dữ liệu mẫu vào database.
 pnpm seed:svc content:levels
 pnpm seed:svc content:categories
 pnpm seed:svc content:lesson-packs
+pnpm seed:svc content:practice-data 31b45ff7-9c1d-47fb-8aca-f81074f42924
 ```
 
 ---

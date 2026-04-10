@@ -7,6 +7,7 @@ import {
   StartPackResponseDto,
   SubmitExerciseAudioPayload,
   SubmitExerciseAudioResponseDto,
+  UserPracticeStatsResponseDto,
 } from '@app/common/dto/content.dto';
 import { Controller, UseInterceptors } from '@nestjs/common';
 import { MessagePattern, Payload } from '@nestjs/microservices';
@@ -47,5 +48,14 @@ export class PracticeController {
     @Payload() payload: { packAttemptId: string; userId: string },
   ): Promise<PackScoringResponseDto> {
     return this.practiceService.getScoringByAttemptId(payload.packAttemptId, payload.userId);
+  }
+
+  // ── Thống kê user practice ────────────────────────────────────────────────
+
+  @MessagePattern({ cmd: CONTENT_COMMANDS.GET_USER_PRACTICE_STATS })
+  getUserPracticeStats(
+    @Payload() payload: { userId: string },
+  ): Promise<UserPracticeStatsResponseDto> {
+    return this.practiceService.getUserPracticeStats(payload.userId);
   }
 }

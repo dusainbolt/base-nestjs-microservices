@@ -46,4 +46,7 @@ export const CONTENT_COMMANDS = {
   SCORE_PACK_ATTEMPT: 'score_pack_attempt',
   // Lấy kết quả scoring đã lưu (nếu đã chấm trước đó)
   GET_PACK_SCORING: 'get_pack_scoring',
+
+  // ── Thống kê quá trình học của user ─────────────────────────────────────────
+  GET_USER_PRACTICE_STATS: 'get_user_practice_stats',
 };

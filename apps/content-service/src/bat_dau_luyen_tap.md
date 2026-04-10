@@ -25,16 +25,16 @@
 
 ## 2. Service Boundary — Nguyên tắc phân tách
 
-| Loại dữ liệu | Service | Lý do |
-|---|---|---|
-| Category (tên, type, order) | **content-service** | Dữ liệu tĩnh, không đổi theo user |
-| Level (id, passThreshold) | **content-service** | Dữ liệu tĩnh |
+| Loại dữ liệu                               | Service             | Lý do                              |
+| ------------------------------------------ | ------------------- | ---------------------------------- |
+| Category (tên, type, order)                | **content-service** | Dữ liệu tĩnh, không đổi theo user  |
+| Level (id, passThreshold)                  | **content-service** | Dữ liệu tĩnh                       |
 | LessonPack (title, totalExercises, status) | **content-service** | Nội dung học, không phụ thuộc user |
-| Exercise (nội dung câu hỏi) | **content-service** | Nội dung tĩnh |
-| User đã pass bao nhiêu exercise | **user-service** | Trạng thái tiến độ của từng user |
-| User đã hoàn thành bao nhiêu pack | **user-service** | Trạng thái tiến độ |
-| Điểm TB của user trong category/level | **user-service** | Dữ liệu hành vi user |
-| Danh sách pack user làm gần đây | **user-service** | Lịch sử học tập của user |
+| Exercise (nội dung câu hỏi)                | **content-service** | Nội dung tĩnh                      |
+| User đã pass bao nhiêu exercise            | **user-service**    | Trạng thái tiến độ của từng user   |
+| User đã hoàn thành bao nhiêu pack          | **user-service**    | Trạng thái tiến độ                 |
+| Điểm TB của user trong category/level      | **user-service**    | Dữ liệu hành vi user               |
+| Danh sách pack user làm gần đây            | **user-service**    | Lịch sử học tập của user           |
 
 ---
 
@@ -119,64 +119,69 @@ api-gateway      →  zip by packId → Section 4 list
 ### 4.1 LessonPack Controller
 
 #### `GET_PACKS`
+
 Lấy danh sách pack có filter. Dùng cho màn hình "Xem tất cả" trong level.
 
-| Param | Type | Required | Mô tả |
-|---|---|---|---|
-| `categoryId` | `string` | ✗ | Filter theo category |
-| `levelId` | `number` | ✗ | Filter theo level |
-| `categoryType` | `CategoryType` | ✗ | Filter theo type (EVERYDAY/OFFICE/NICHE) |
-| `status` | `PackStatus` | ✗ | Mặc định PUBLISHED |
-| `limit` | `number` | ✗ | Số item mỗi trang, default 20 |
-| `offset` | `number` | ✗ | Skip, default 0 |
+| Param          | Type           | Required | Mô tả                                    |
+| -------------- | -------------- | -------- | ---------------------------------------- |
+| `categoryId`   | `string`       | ✗        | Filter theo category                     |
+| `levelId`      | `number`       | ✗        | Filter theo level                        |
+| `categoryType` | `CategoryType` | ✗        | Filter theo type (EVERYDAY/OFFICE/NICHE) |
+| `status`       | `PackStatus`   | ✗        | Mặc định PUBLISHED                       |
+| `limit`        | `number`       | ✗        | Số item mỗi trang, default 20            |
+| `offset`       | `number`       | ✗        | Skip, default 0                          |
 
 Response: `{ items: LessonPackSummaryDto[], total: number }`
 
 ---
 
 #### `GET_PACK_BY_ID`
+
 Lấy chi tiết 1 pack (dùng khi user bấm vào play).
 
-| Param | Type | Required | Mô tả |
-|---|---|---|---|
-| `id` | `string` | ✓ | Pack ID |
+| Param | Type     | Required | Mô tả   |
+| ----- | -------- | -------- | ------- |
+| `id`  | `string` | ✓        | Pack ID |
 
 Response: `LessonPackDetailDto`
 
 ---
 
 #### `GET_PACKS_BY_IDS`
+
 Batch fetch nhiều pack theo danh sách IDs. Dùng cho Section 4 sau khi
 user-service trả về `[{ packId, ... }]`.
 
-| Param | Type | Required | Mô tả |
-|---|---|---|---|
-| `ids` | `string[]` | ✓ | Danh sách pack IDs (max 50) |
+| Param | Type       | Required | Mô tả                       |
+| ----- | ---------- | -------- | --------------------------- |
+| `ids` | `string[]` | ✓        | Danh sách pack IDs (max 50) |
 
 Response: `{ items: LessonPackSummaryDto[] }`
-*Chú ý: thứ tự items giữ nguyên theo thứ tự `ids` truyền vào.*
+_Chú ý: thứ tự items giữ nguyên theo thứ tự `ids` truyền vào._
 
 ---
 
 #### `GET_PACK_STATS_BY_CATEGORY_AND_LEVEL`
+
 Đếm tổng packs + exercises cho một category trong một level.
 Dùng làm mẫu số cho Section 3 overview.
 
-| Param | Type | Required | Mô tả |
-|---|---|---|---|
-| `categoryId` | `string` | ✓ | Category ID |
-| `levelId` | `number` | ✓ | Level ID (1–4) |
+| Param        | Type     | Required | Mô tả          |
+| ------------ | -------- | -------- | -------------- |
+| `categoryId` | `string` | ✓        | Category ID    |
+| `levelId`    | `number` | ✓        | Level ID (1–4) |
 
 Response: `{ categoryId, levelId, totalPacks, totalExercises }`
 
 ---
 
 #### `GET_PACK_EXERCISES`
+
 Lấy tất cả exercises trong một pack (dùng khi user bắt đầu làm bài).
 
-| Param | Type | Required | Mô tả |
-|---|---|---|---|
-| `packId` | `string` | ✓ | Pack ID |
+| Param    | Type     | Required | Mô tả   |
+| -------- | -------- | -------- | ------- |
+| `packId` | `string` | ✓        | Pack ID |
 
 Response: `{ items: ExerciseSummaryDto[], total: number }`
 
@@ -187,30 +192,38 @@ Response: `{ items: ExerciseSummaryDto[], total: number }`
 > **Scope tài liệu này**: Chỉ mô tả interface, không implement ở đây.
 
 ### `GET_USER_CATEGORY_TYPE_PROGRESS_SUMMARY`
+
 ```typescript
-Payload: { userId: string }
+Payload: {
+  userId: string;
+}
 Response: {
   items: Array<{
     categoryType: CategoryType;
-    passedExercises: number;   // tử số
-  }>
+    passedExercises: number; // tử số
+  }>;
 }
 ```
 
 ### `GET_USER_LEVEL_PROGRESS`
+
 ```typescript
-Payload: { userId: string; categoryType: CategoryType }
+Payload: {
+  userId: string;
+  categoryType: CategoryType;
+}
 Response: {
   items: Array<{
     levelId: number;
     passedExercises: number;
     completedPacks: number;
     isUnlocked: boolean;
-  }>
+  }>;
 }
 ```
 
 ### `GET_USER_MOST_PROGRESSED_CATEGORY`
+
 ```typescript
 Payload: { userId: string; categoryType: CategoryType; levelId: number }
 Response: {
@@ -222,16 +235,20 @@ Response: {
 ```
 
 ### `GET_USER_RECENT_PACKS`
+
 ```typescript
-Payload: { userId: string; limit: number }
+Payload: {
+  userId: string;
+  limit: number;
+}
 Response: {
   items: Array<{
     packId: string;
     score: number;
     status: 'IN_PROGRESS' | 'COMPLETED';
     completedExercises: number;
-    lastPlayedAt: string;   // ISO timestamp
-  }>
+    lastPlayedAt: string; // ISO timestamp
+  }>;
 }
 ```
 

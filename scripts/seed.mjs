@@ -6,6 +6,7 @@ const seeds = {
   'content:categories': 'apps/content-service/src/prisma/seed-categories.ts',
   'content:lesson-packs': 'apps/content-service/src/prisma/seed-lesson-packs.ts',
   'content:check-packs': 'apps/content-service/src/prisma/check-lesson-packs.ts',
+  'content:practice-data': 'apps/content-service/src/prisma/seed-practice-data.ts',
 };
 
 const serviceKey = process.argv[2];
@@ -19,7 +20,9 @@ if (!serviceKey || !seeds[serviceKey]) {
 const seedPath = seeds[serviceKey];
 console.log(`🌱 Seeding data for ${serviceKey}...`);
 
-const result = spawnSync('npx', ['ts-node', seedPath], {
+const extraArgs = process.argv.slice(3);
+
+const result = spawnSync('npx', ['ts-node', seedPath, ...extraArgs], {
   stdio: 'inherit',
   shell: true,
 });

@@ -13,6 +13,7 @@ import {
   StartPackResponseDto,
   SubmitExerciseAudioDto,
   SubmitExerciseAudioResponseDto,
+  UserPracticeStatsResponseDto,
 } from '@app/common/dto/content.dto';
 import { Body, Controller, Get, Inject, Param, Post } from '@nestjs/common';
 import { ClientProxy } from '@nestjs/microservices';
@@ -90,6 +91,19 @@ export class PracticeController {
   getScoring(@Param('packAttemptId') packAttemptId: string, @CurrentUser() user: JwtPayload) {
     return this.contentClient
       .send({ cmd: CONTENT_COMMANDS.GET_PACK_SCORING }, { packAttemptId, userId: user.sub })
+      .pipe(rpcToHttp());
+  }
+
+  // ── Thống kê quá trình học ────────────────────────────────────────────────
+
+  @Get('stats')
+  @ApiHandleResponse({
+    summary: 'Get user practice statistics per category/level',
+    type: UserPracticeStatsResponseDto,
+  })
+  getStats(@CurrentUser() user: JwtPayload) {
+    return this.contentClient
+      .send({ cmd: CONTENT_COMMANDS.GET_USER_PRACTICE_STATS }, { userId: user.sub })
       .pipe(rpcToHttp());
   }
 }

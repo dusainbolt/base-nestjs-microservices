@@ -1,5 +1,6 @@
 import { AI_COMMANDS, AI_SERVICE, isAudioFile, MEDIA_COMMANDS, MEDIA_SERVICE } from '@app/common';
 import {
+  CategoryType,
   PackScoringResponseDto,
   ScorePackPayload,
   ScorePackResponseDto,
@@ -21,7 +22,7 @@ import {
 } from '@nestjs/common';
 import { ClientProxy } from '@nestjs/microservices';
 import { catchError, firstValueFrom, lastValueFrom, timeout } from 'rxjs';
-import { AttemptStatus, PackAttemptStatus } from '../generated/prisma/client';
+import { AttemptStatus, PackAttemptStatus, PackStatus } from '../generated/prisma/client';
 import { PrismaService } from '../prisma/prisma.service';
 
 @Injectable()
@@ -370,5 +371,83 @@ export class PracticeService {
         suggestedPhrases: (es.suggestedPhrases as string[]) ?? [],
       })),
     };
+  }
+
+  // ─── GET USER STATISTICS (1 QUERY) ──────────────────────────────────────────
+
+  async getUserPracticeStats(userId: string) {
+    // 1 Query để lấy toàn bộ thống kê tổng số bài học và số lượng đã hoàn thành (theo user)
+    // GROUP BY c.type, p."levelId"
+    const rawStats: any[] = await this.prisma.$queryRaw`
+      SELECT 
+        CAST(c.type AS text) as "categoryType",
+        p."levelId" as "levelId",
+        COUNT(DISTINCT p.id)::int as "totalPacks",
+        COUNT(DISTINCT CASE WHEN pa.id IS NOT NULL THEN p.id END)::int as "completedPacks"
+      FROM lesson_packs p
+      JOIN categories c ON p."categoryId" = c.id
+      LEFT JOIN pack_attempts pa 
+        ON pa."lessonPackId" = p.id 
+        AND pa."userId" = ${userId} 
+        AND pa.passed = true
+      WHERE CAST(p.status AS text) = ${PackStatus.PUBLISHED}
+      GROUP BY c.type, p."levelId"
+    `;
+
+    const categoryMap = new Map<string, { type: CategoryType; total: number; completed: number }>();
+
+    // Khởi tạo các category mặc định để đảm bảo luôn trả về đủ 3 loại
+    categoryMap.set(CategoryType.EVERYDAY, {
+      type: CategoryType.EVERYDAY,
+      total: 0,
+      completed: 0,
+    });
+    categoryMap.set(CategoryType.OFFICE, {
+      type: CategoryType.OFFICE,
+      total: 0,
+      completed: 0,
+    });
+    categoryMap.set(CategoryType.NICHE, {
+      type: CategoryType.NICHE,
+      total: 0,
+      completed: 0,
+    });
+
+    const levels: {
+      id: number;
+      categoryType: string;
+      totalPacks: number;
+      passedPacks: number;
+      completionPercent: number;
+    }[] = [];
+
+    for (const row of rawStats) {
+      const type = row.categoryType as string;
+      const totalPacks = row.totalPacks || 0;
+      const passedPacks = row.completedPacks || 0;
+
+      const cat = categoryMap.get(type);
+      if (cat) {
+        cat.total += totalPacks;
+        cat.completed += passedPacks;
+      }
+
+      levels.push({
+        id: row.levelId,
+        categoryType: type,
+        totalPacks,
+        passedPacks,
+        completionPercent: totalPacks > 0 ? Math.round((passedPacks / totalPacks) * 100) : 0,
+      });
+    }
+
+    const categories = Array.from(categoryMap.values()).map((cat) => ({
+      type: cat.type,
+      totalPacks: cat.total,
+      passedPacks: cat.completed,
+      completionPercent: cat.total > 0 ? Math.round((cat.completed / cat.total) * 100) : 0,
+    }));
+
+    return { categories, levels };
   }
 }

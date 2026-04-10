@@ -636,3 +636,44 @@ export class PackScoringResponseDto {
     suggestedPhrases?: string[];
   }>;
 }
+
+// ─── USER PRACTICE STATS ──────────────────────────────────────────────────────
+
+export class CategoryStatsDto {
+  @SwaggerEnum({ enum: CategoryType, example: CategoryType.EVERYDAY })
+  type: CategoryType;
+
+  @SwaggerNumber({ example: 120, description: 'Tổng số pack PUBLISHED trong category' })
+  totalPacks: number;
+
+  @SwaggerNumber({ example: 2, description: 'Số pack user đã passed' })
+  passedPacks: number;
+
+  @SwaggerNumber({ example: 1, description: 'passedPacks / totalPacks × 100' })
+  completionPercent: number;
+}
+
+export class LevelStatsDto {
+  @SwaggerNumber({ example: 1 })
+  id: number;
+
+  @SwaggerString({ example: 'EVERYDAY' })
+  categoryType: string;
+
+  @SwaggerNumber({ example: 40, description: 'Tổng số pack PUBLISHED trong level × category' })
+  totalPacks: number;
+
+  @SwaggerNumber({ example: 2, description: 'Số pack user đã passed' })
+  passedPacks: number;
+
+  @SwaggerNumber({ example: 5, description: 'passedPacks / totalPacks × 100' })
+  completionPercent: number;
+}
+
+export class UserPracticeStatsResponseDto {
+  @ApiProperty({ type: [CategoryStatsDto] })
+  categories: CategoryStatsDto[];
+
+  @ApiProperty({ type: [LevelStatsDto] })
+  levels: LevelStatsDto[];
+}
