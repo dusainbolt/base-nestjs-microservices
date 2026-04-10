@@ -29,13 +29,13 @@
 
 ### 2.1. Tại sao tạo service mới thay vì mở rộng content-service?
 
-| Tiêu chí | Mở rộng content-service | Tạo ai-service mới |
-| :--- | :--- | :--- |
-| Tách biệt trách nhiệm | ❌ content-service vừa quản lý data CRUD, vừa gọi OpenAI | ✅ Rõ ràng: content = data, ai = external AI calls |
-| Scaling độc lập | ❌ Scale content kéo theo AI worker | ✅ AI calls chậm (3–6s) → scale riêng biệt |
-| API key management | ❌ OpenAI key nằm trong content-service | ✅ Tập trung 1 nơi, dễ quản lý rate limit |
-| Retry & circuit breaker | ❌ Retry AI ảnh hưởng content queries | ✅ Retry policy riêng cho AI, không ảnh hưởng CRUD |
-| Chi phí phát triển | ✅ Không thêm service mới | ❌ Thêm setup, deploy, DB |
+| Tiêu chí                | Mở rộng content-service                                  | Tạo ai-service mới                                 |
+| :---------------------- | :------------------------------------------------------- | :------------------------------------------------- |
+| Tách biệt trách nhiệm   | ❌ content-service vừa quản lý data CRUD, vừa gọi OpenAI | ✅ Rõ ràng: content = data, ai = external AI calls |
+| Scaling độc lập         | ❌ Scale content kéo theo AI worker                      | ✅ AI calls chậm (3–6s) → scale riêng biệt         |
+| API key management      | ❌ OpenAI key nằm trong content-service                  | ✅ Tập trung 1 nơi, dễ quản lý rate limit          |
+| Retry & circuit breaker | ❌ Retry AI ảnh hưởng content queries                    | ✅ Retry policy riêng cho AI, không ảnh hưởng CRUD |
+| Chi phí phát triển      | ✅ Không thêm service mới                                | ❌ Thêm setup, deploy, DB                          |
 
 **Kết luận:** Tạo `ai-service` mới — chịu trách nhiệm duy nhất: gọi OpenAI (Whisper + ChatGPT scoring).
 
@@ -106,6 +106,7 @@ app.connectMicroservice(rmqService.getOptions('AI_SERVICE', false));
 ```
 
 **Env config:**
+
 ```env
 RABBIT_MQ_AI_SERVICE_QUEUE=ai_queue
 OPENAI_API_KEY=sk-...
@@ -170,12 +171,12 @@ FE              API Gateway        media-svc          content-svc       ai-svc  
 
 ### 4.2. Phân chia trách nhiệm từng service
 
-| Service | Trách nhiệm | Tại sao |
-| :--- | :--- | :--- |
-| **API Gateway** | Route request, verify JWT, kiểm tra credit | Gateway là entry point, điều phối flow cơ bản |
-| **media-service** | Nhận file từ FE (qua Gateway), upload S3, trả `audioUrl` | Gateway upload file trực tiếp rồi báo media-svc lưu metadata |
-| **content-service** | Orchestrate luồng: gọi whisper → lưu ExerciseAttempt | Owns domain data (Exercise, Attempt); biết exerciseId thuộc pack nào |
-| **ai-service** | Gọi OpenAI Whisper API, trả transcript | Tách biệt AI calls; dễ retry/circuit-break; manage OpenAI rate limit |
+| Service             | Trách nhiệm                                              | Tại sao                                                              |
+| :------------------ | :------------------------------------------------------- | :------------------------------------------------------------------- |
+| **API Gateway**     | Route request, verify JWT, kiểm tra credit               | Gateway là entry point, điều phối flow cơ bản                        |
+| **media-service**   | Nhận file từ FE (qua Gateway), upload S3, trả `audioUrl` | Gateway upload file trực tiếp rồi báo media-svc lưu metadata         |
+| **content-service** | Orchestrate luồng: gọi whisper → lưu ExerciseAttempt     | Owns domain data (Exercise, Attempt); biết exerciseId thuộc pack nào |
+| **ai-service**      | Gọi OpenAI Whisper API, trả transcript                   | Tách biệt AI calls; dễ retry/circuit-break; manage OpenAI rate limit |
 
 ### 4.3. Tại sao content-service orchestrate, không phải gateway?
 
@@ -184,11 +185,13 @@ Gateway nên là "thin proxy" — chỉ verify auth và route. Nếu gateway orc
 ### 4.4. Upload Strategy — Two-Step (Khuyến nghị)
 
 Tại sao chọn Two-Step (Upload riêng, Transcribe riêng)?
+
 1. **Tránh lỗi RMQ:** Không gửi buffer file qua RabbitMQ.
 2. **Re-usability:** Endpoint `/media/upload` dùng chung cho toàn hệ thống (avatar, bài tập, v.v.).
 3. **Optimistic UI:** FE có thể thông báo "Upload xong, đang xử lý..." giúp trải nghiệm mượt hơn.
 
 **Luồng code FE:**
+
 ```javascript
 // Step 1: Upload file lấy URL
 const { url: audioUrl } = await api.post('/media/upload', formData);
@@ -244,11 +247,11 @@ FE              API Gateway        content-svc        ai-svc                Open
 
 ### 5.2. Phân chia trách nhiệm
 
-| Service | Trách nhiệm |
-| :--- | :--- |
-| **API Gateway** | Verify JWT, deduct 5 credit, gọi content-service |
-| **content-service** | Load exercise data + transcripts từ DB, gọi ai-service, lưu kết quả scoring |
-| **ai-service** | Build prompt (dựa vào mode FREE/GUIDED), gọi ChatGPT, parse structured output, trả scores |
+| Service             | Trách nhiệm                                                                               |
+| :------------------ | :---------------------------------------------------------------------------------------- |
+| **API Gateway**     | Verify JWT, deduct 5 credit, gọi content-service                                          |
+| **content-service** | Load exercise data + transcripts từ DB, gọi ai-service, lưu kết quả scoring               |
+| **ai-service**      | Build prompt (dựa vào mode FREE/GUIDED), gọi ChatGPT, parse structured output, trả scores |
 
 ### 5.3. Dữ liệu content-service gửi cho ai-service
 
@@ -256,13 +259,13 @@ FE              API Gateway        content-svc        ai-svc                Open
 // RPC payload: content-svc → ai-svc
 interface ScorePackPayload {
   mode: 'FREE' | 'GUIDED';
-  levelId: number;      // 1, 2, 3
+  levelId: number; // 1, 2, 3
   exercises: Array<{
     seq: number;
-    prompt: string;         // p — luôn gửi
-    instruction?: string;   // m — chỉ gửi khi GUIDED
-    sample?: string;        // s — chỉ gửi khi GUIDED
-    transcript: string;     // từ ExerciseAttempt
+    prompt: string; // p — luôn gửi
+    instruction?: string; // m — chỉ gửi khi GUIDED
+    sample?: string; // s — chỉ gửi khi GUIDED
+    transcript: string; // từ ExerciseAttempt
   }>;
 }
 ```
@@ -318,12 +321,12 @@ async scorePack(payload: ScorePackPayload) {
 
 ### 6.1. Ai kiểm tra credit?
 
-| Hành động | Service | Lý do |
-| :--- | :--- | :--- |
-| Kiểm tra đủ credit? | **API Gateway** hoặc **product-service** | Gateway verify trước khi cho phép gọi tiếp |
-| Trừ credit Tầng 1 (transcript) | **API Gateway** → product-service | Trừ khi seq=1 bài đầu pack |
-| Trừ credit Tầng 2 (AI feedback) | **API Gateway** → product-service | Trừ 5 credit khi user nhấn "Nhận đánh giá AI" |
-| Hoàn trả credit khi lỗi | **content-service** → product-service | content-service biết khi nào Whisper/Scoring fail |
+| Hành động                       | Service                                  | Lý do                                             |
+| :------------------------------ | :--------------------------------------- | :------------------------------------------------ |
+| Kiểm tra đủ credit?             | **API Gateway** hoặc **product-service** | Gateway verify trước khi cho phép gọi tiếp        |
+| Trừ credit Tầng 1 (transcript)  | **API Gateway** → product-service        | Trừ khi seq=1 bài đầu pack                        |
+| Trừ credit Tầng 2 (AI feedback) | **API Gateway** → product-service        | Trừ 5 credit khi user nhấn "Nhận đánh giá AI"     |
+| Hoàn trả credit khi lỗi         | **content-service** → product-service    | content-service biết khi nào Whisper/Scoring fail |
 
 ### 6.2. Credit service — mở rộng product-service
 
@@ -565,7 +568,7 @@ export class ExerciseAttemptController {
   @Post('packs/:packId/score')
   async scorePack(
     @Param('packId') packId: string,
-    @Body() dto: ScorePackDto,   // { mode: 'FREE' | 'GUIDED' }
+    @Body() dto: ScorePackDto, // { mode: 'FREE' | 'GUIDED' }
     @User() user: JwtPayload,
   ) {
     // [1] Deduct 5 credit cho AI feedback
@@ -600,6 +603,7 @@ export class ExerciseAttemptController {
 ### 8.3. Xử lý credit ở Gateway — tại sao?
 
 Credit check/deduct tại gateway vì:
+
 - Fail-fast: nếu không đủ credit, trả 402 ngay, không cần gọi downstream
 - Gateway đã có pattern này (verify JWT → check permissions → route)
 - Tránh race condition: deduct trước khi cho phép request đi tiếp
@@ -658,7 +662,6 @@ export class ExerciseAttemptService {
       });
 
       return { attemptId: attempt.id, transcript };
-
     } catch (error) {
       await this.prisma.exerciseAttempt.update({
         where: { id: attempt.id },
@@ -702,7 +705,7 @@ export class PackScoringService {
     const attempts = await this.prisma.exerciseAttempt.findMany({
       where: {
         userId,
-        exerciseId: { in: pack.exercises.map(e => e.id) },
+        exerciseId: { in: pack.exercises.map((e) => e.id) },
         status: 'TRANSCRIBED',
       },
       orderBy: { createdAt: 'desc' },
@@ -710,23 +713,24 @@ export class PackScoringService {
     });
 
     // [3] Build payload cho ai-service
-    const exercisesForAI = pack.exercises.map(ex => {
-      const attempt = attempts.find(a => a.exerciseId === ex.id);
+    const exercisesForAI = pack.exercises.map((ex) => {
+      const attempt = attempts.find((a) => a.exerciseId === ex.id);
       return {
         seq: ex.sequenceOrder,
-        prompt: ex.previousPrompt,                          // p
+        prompt: ex.previousPrompt, // p
         ...(mode === 'GUIDED' && {
-          instruction: ex.myPrompt,                         // m
-          sample: ex.sampleAnswer,                          // s
+          instruction: ex.myPrompt, // m
+          sample: ex.sampleAnswer, // s
         }),
         transcript: attempt?.transcript || '',
       };
     });
 
     // [4] Gọi ai-service scoring
-    const scoringCommand = mode === 'FREE'
-      ? AI_COMMANDS.SCORE_PACK_FREE
-      : AI_COMMANDS.SCORE_PACK_GUIDED;
+    const scoringCommand =
+      mode === 'FREE'
+        ? AI_COMMANDS.SCORE_PACK_FREE
+        : AI_COMMANDS.SCORE_PACK_GUIDED;
 
     try {
       // Update status
@@ -746,7 +750,6 @@ export class PackScoringService {
       await this.saveScores(packAttempt.id, aiResult, mode);
 
       return aiResult;
-
     } catch (error) {
       // Scoring fail → refund credit
       await firstValueFrom(
@@ -761,7 +764,10 @@ export class PackScoringService {
           },
         ),
       );
-      throw new RpcException({ code: 'SCORING_FAILED', message: error.message });
+      throw new RpcException({
+        code: 'SCORING_FAILED',
+        message: error.message,
+      });
     }
   }
 }
@@ -866,7 +872,7 @@ export class OpenAIService {
         // Retry on rate limit or server error
         if (error.status === 429 || error.status >= 500) {
           const delay = Math.pow(2, attempt) * 1000; // 1s, 2s
-          await new Promise(r => setTimeout(r, delay));
+          await new Promise((r) => setTimeout(r, delay));
           continue;
         }
         throw error; // Non-retryable error
@@ -881,8 +887,8 @@ export class OpenAIService {
 ```typescript
 // Scoring call có thể mất 3–8s → tăng timeout RMQ
 this.aiClient.send({ cmd: scoringCommand }, payload).pipe(
-  timeout(15000),   // 15s timeout
-  catchError(err => {
+  timeout(15000), // 15s timeout
+  catchError((err) => {
     if (err instanceof TimeoutError) {
       throw new RpcException({ code: 'SCORING_TIMEOUT' });
     }
@@ -893,14 +899,14 @@ this.aiClient.send({ cmd: scoringCommand }, payload).pipe(
 
 ### 11.3. Error Matrix
 
-| Lỗi | Service phát hiện | Xử lý | Credit |
-| :--- | :--- | :--- | :--- |
-| Audio quá ngắn (<1s) | Gateway (validate) | Reject 400, không gọi downstream | Không trừ |
-| Whisper fail | ai-service → content-service | Retry 1 lần. Vẫn fail → `TRANSCRIPT_FAILED` | Không hoàn (transcript free nếu bài 2+) |
-| Whisper trả rỗng | ai-service | Throw `EMPTY_TRANSCRIPT` → FE hiện "Không nhận được giọng nói" | Không hoàn |
-| Scoring fail | ai-service → content-service | Retry 1 lần. Vẫn fail → refund 5 credit | Hoàn 5 credit |
-| Scoring timeout | content-service | 15s timeout → refund | Hoàn 5 credit |
-| RMQ connection lost | Any service | Auto-reconnect (NestJS built-in) | N/A |
+| Lỗi                  | Service phát hiện            | Xử lý                                                          | Credit                                  |
+| :------------------- | :--------------------------- | :------------------------------------------------------------- | :-------------------------------------- |
+| Audio quá ngắn (<1s) | Gateway (validate)           | Reject 400, không gọi downstream                               | Không trừ                               |
+| Whisper fail         | ai-service → content-service | Retry 1 lần. Vẫn fail →`TRANSCRIPT_FAILED`                     | Không hoàn (transcript free nếu bài 2+) |
+| Whisper trả rỗng     | ai-service                   | Throw `EMPTY_TRANSCRIPT` → FE hiện "Không nhận được giọng nói" | Không hoàn                              |
+| Scoring fail         | ai-service → content-service | Retry 1 lần. Vẫn fail → refund 5 credit                        | Hoàn 5 credit                           |
+| Scoring timeout      | content-service              | 15s timeout → refund                                           | Hoàn 5 credit                           |
+| RMQ connection lost  | Any service                  | Auto-reconnect (NestJS built-in)                               | N/A                                     |
 
 ---
 
@@ -948,19 +954,19 @@ this.aiClient.send({ cmd: scoringCommand }, payload).pipe(
 
 ## 13. CHECKLIST TRIỂN KHAI
 
-| # | Task | Service | Priority |
-| :--- | :--- | :--- | :--- |
-| 1 | Tạo `ai-service` app mới + RMQ setup | ai-service | P0 |
-| 2 | OpenAI module (client singleton, retry, timeout) | ai-service | P0 |
-| 3 | Whisper handler + service | ai-service | P0 |
-| 4 | Scoring handler + prompt builders (copy từ doc 09, 10) | ai-service | P0 |
-| 5 | Bổ sung `ExerciseAttempt`, `PackAttempt`, `ExerciseScore` vào content-service schema | content-service | P0 |
-| 6 | Exercise attempt module (submit audio → transcribe) | content-service | P0 |
-| 7 | Pack scoring module (orchestrate scoring flow) | content-service | P0 |
-| 8 | Thêm `EXERCISE_AUDIO` vào media-service ReferType | media-service | P0 |
-| 9 | Credit module (balance, deduct, refund) | product-service | P0 |
-| 10 | Gateway endpoints mới + S3 upload tại gateway | api-gateway | P0 |
-| 11 | Register `AI_SERVICE` RMQ client trong gateway + content-service | api-gateway, content-svc | P0 |
-| 12 | Error handling, retry, timeout config | All | P1 |
-| 13 | Integration test: full flow Tầng 1 | E2E | P1 |
-| 14 | Integration test: full flow Tầng 2 | E2E | P1 |
+| #   | Task                                                                                 | Service                  | Priority |
+| :-- | :----------------------------------------------------------------------------------- | :----------------------- | :------- |
+| 1   | Tạo `ai-service` app mới + RMQ setup                                                 | ai-service               | P0       |
+| 2   | OpenAI module (client singleton, retry, timeout)                                     | ai-service               | P0       |
+| 3   | Whisper handler + service                                                            | ai-service               | P0       |
+| 4   | Scoring handler + prompt builders (copy từ doc 09, 10)                               | ai-service               | P0       |
+| 5   | Bổ sung `ExerciseAttempt`, `PackAttempt`, `ExerciseScore` vào content-service schema | content-service          | P0       |
+| 6   | Exercise attempt module (submit audio → transcribe)                                  | content-service          | P0       |
+| 7   | Pack scoring module (orchestrate scoring flow)                                       | content-service          | P0       |
+| 8   | Thêm `EXERCISE_AUDIO` vào media-service ReferType                                    | media-service            | P0       |
+| 9   | Credit module (balance, deduct, refund)                                              | product-service          | P0       |
+| 10  | Gateway endpoints mới + S3 upload tại gateway                                        | api-gateway              | P0       |
+| 11  | Register `AI_SERVICE` RMQ client trong gateway + content-service                     | api-gateway, content-svc | P0       |
+| 12  | Error handling, retry, timeout config                                                | All                      | P1       |
+| 13  | Integration test: full flow Tầng 1                                                   | E2E                      | P1       |
+| 14  | Integration test: full flow Tầng 2                                                   | E2E                      | P1       |
