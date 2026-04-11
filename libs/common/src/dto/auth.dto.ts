@@ -1,6 +1,5 @@
-import { SwaggerEmail, SwaggerString } from '../decorators/swagger.decorator';
-import { IsNotEmpty, IsString } from 'class-validator';
 import { ApiProperty } from '@nestjs/swagger';
+import { SwaggerEmail, SwaggerString } from '../decorators/swagger.decorator';
 
 // ─── ENUMS ───────────────────────────────────────────────────────────────────
 
@@ -52,11 +51,16 @@ export class RegisterDto {
 }
 
 export class LoginDto {
-  @SwaggerEmail()
-  email: string;
+  @SwaggerString({ example: 'johndoe@example.com', description: 'Email or username' })
+  identifier: string;
 
   @SwaggerString({ example: 'password123' })
   password: string;
+}
+
+export class GoogleLoginDto {
+  @SwaggerString({ description: 'Google ID token from frontend' })
+  idToken: string;
 }
 
 export class VerifyEmailDto {
@@ -105,23 +109,6 @@ export class LogoutDto {
 
 // ─── RESPONSES ───────────────────────────────────────────────────────────────
 
-export class LoginResponseDto {
-  @SwaggerString({ example: 'access-token-123' })
-  accessToken: string;
-
-  @SwaggerString({ example: 'refresh-token-123' })
-  refreshToken: string;
-
-  @ApiProperty({ example: 3600 })
-  expiresIn: number;
-
-  @SwaggerString({ example: 'Bearer' })
-  tokenType: string;
-
-  @SwaggerString({ example: 'user-id-123' })
-  userId: string;
-}
-
 export class AuthUserResponseDto {
   @SwaggerString({ example: 'user-123' })
   id: string;
@@ -131,12 +118,6 @@ export class AuthUserResponseDto {
 
   @SwaggerString({ example: 'johndoe' })
   username: string;
-
-  @SwaggerString({ example: 'John' })
-  firstName: string;
-
-  @SwaggerString({ example: 'Doe' })
-  lastName: string;
 
   @ApiProperty({ enum: UserRole })
   role: UserRole;
@@ -149,4 +130,52 @@ export class AuthUserResponseDto {
 
   @ApiProperty()
   createdAt: Date;
+}
+
+export class LoginResponseDto {
+  @SwaggerString({ example: 'access-token-123' })
+  accessToken: string;
+
+  @SwaggerString({ example: 'refresh-token-123' })
+  refreshToken: string;
+
+  @ApiProperty({ example: 3600 })
+  expiresIn: number;
+
+  @ApiProperty({ description: 'User profile data', type: () => AuthUserResponseDto })
+  user: AuthUserResponseDto;
+}
+
+/**
+ * DTO trả về cho Public API (Gateway).
+ * Loại bỏ refreshToken khỏi body để bảo mật (chỉ dùng Cookie).
+ */
+export class GatewayAuthResponseDto {
+  @SwaggerString({ example: 'user-123' })
+  userId: string;
+
+  @SwaggerString({ example: 'access-token-123' })
+  accessToken: string;
+
+  @SwaggerString({ example: 'refresh-token-123' })
+  refreshToken: string;
+
+  @SwaggerString({ example: 3600 })
+  expiresIn: number;
+}
+
+export class MessageResponseDto {
+  @SwaggerString({ example: 'Operation successful' })
+  message: string;
+}
+
+export class RegisterResponseDto {
+  @ApiProperty({ example: 'user-123' })
+  id: string;
+
+  @SwaggerEmail()
+  email: string;
+
+  @SwaggerString()
+  message: string;
 }

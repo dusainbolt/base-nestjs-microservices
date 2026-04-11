@@ -4,6 +4,7 @@ export const AUTH_COMMANDS = {
 
   // Core Auth
   LOGIN: 'LOGIN',
+  GOOGLE_LOGIN: 'GOOGLE_LOGIN',
   REGISTER: 'REGISTER',
   LOGOUT: 'LOGOUT',
 

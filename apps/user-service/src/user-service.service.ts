@@ -58,7 +58,7 @@ export class UserServiceService {
   // ─── CREATE PROFILE ───────────────────────────────────────────────────────
 
   async createProfile(payload: CreateProfileDto): Promise<void> {
-    const { id, email, username, firstName = '', lastName = '' } = payload;
+    const { id, email, username, firstName = '', lastName = '', avatar = null } = payload;
 
     const exists = await this.prisma.userProfile.findUnique({
       where: { id },
@@ -77,6 +77,7 @@ export class UserServiceService {
         username,
         firstName,
         lastName,
+        avatar,
       },
     });
 

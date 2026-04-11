@@ -26,9 +26,8 @@ model User {
   id              String   @id @default(uuid())
   email           String   @unique
   username        String   @unique
-  password        String
-  firstName       String   @default("")
-  lastName        String   @default("")
+  password        String?
+  provider        String   @default("local") // "local" | "google"
   role            UserRole @default(user)
   isEmailVerified Boolean  @default(false)
   isActive        Boolean  @default(true)

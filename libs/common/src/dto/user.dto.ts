@@ -51,6 +51,9 @@ export class CreateProfileDto {
 
   @SwaggerString({ required: false, example: 'Doe' })
   lastName?: string;
+
+  @SwaggerString({ required: false, example: 'https://example.com/avatar.png' })
+  avatar?: string;
 }
 
 export class UpdateProfileDto {

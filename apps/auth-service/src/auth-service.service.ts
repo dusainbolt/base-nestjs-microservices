@@ -4,25 +4,25 @@ import {
   EMAIL_COMMANDS,
   EMAIL_SERVICE,
   EnvironmentVariables,
+  REDIS_TTL,
   USER_COMMANDS,
   USER_SERVICE,
-  REDIS_KEYS,
-  REDIS_TTL,
 } from '@app/common';
 import {
-  RegisterDto,
-  LoginDto,
-  VerifyEmailDto,
-  ResendVerificationDto,
-  RefreshTokenDto,
-  LogoutDto,
-  ForgotPasswordDto,
-  ResetPasswordDto,
-  ChangePasswordDto,
-  LoginResponseDto,
   AuthUserResponseDto,
+  ChangePasswordDto,
+  ForgotPasswordDto,
+  GoogleLoginDto,
   JwtPayload,
+  LoginDto,
+  LoginResponseDto,
+  LogoutDto,
+  RefreshTokenDto,
+  RegisterDto,
+  ResendVerificationDto,
+  ResetPasswordDto,
   UserRole,
+  VerifyEmailDto,
 } from '@app/common/dto/auth.dto';
 import {
   BadRequestException,
@@ -39,6 +39,7 @@ import { JwtService } from '@nestjs/jwt';
 import { ClientProxy } from '@nestjs/microservices';
 import * as bcrypt from 'bcryptjs';
 import { randomUUID } from 'crypto';
+import { OAuth2Client } from 'google-auth-library';
 import { PrismaService } from './prisma/prisma.service';
 import { RedisService } from './redis/redis.service';
 
@@ -47,6 +48,7 @@ const BCRYPT_ROUNDS = 12;
 @Injectable()
 export class AuthServiceService {
   private readonly logger = new Logger(AuthServiceService.name);
+  private readonly googleClient: OAuth2Client;
 
   constructor(
     private readonly prisma: PrismaService,
@@ -56,7 +58,9 @@ export class AuthServiceService {
     @Inject(EMAIL_SERVICE) private readonly emailClient: ClientProxy,
     @Inject(USER_SERVICE) private readonly userClient: ClientProxy,
     private readonly domainEvents: DomainEventPublisher,
-  ) {}
+  ) {
+    this.googleClient = new OAuth2Client(this.config.get('GOOGLE_CLIENT_ID'));
+  }
 
   // ═══════════════════════════════════════════════════════════════════════════
   //  REGISTER
@@ -78,7 +82,7 @@ export class AuthServiceService {
 
     const passwordHash = await bcrypt.hash(password, BCRYPT_ROUNDS);
     const user = await this.prisma.user.create({
-      data: { email, username, password: passwordHash, firstName, lastName },
+      data: { email, username, password: passwordHash },
     });
 
     // Tạo OTP → Redis TTL 15m
@@ -185,12 +189,16 @@ export class AuthServiceService {
   // ═══════════════════════════════════════════════════════════════════════════
 
   async login(payload: LoginDto): Promise<LoginResponseDto> {
-    const { email, password } = payload;
+    const { identifier, password } = payload;
 
-    const user = await this.prisma.user.findUnique({ where: { email } });
+    const user = await this.prisma.user.findFirst({
+      where: {
+        OR: [{ email: identifier }, { username: identifier }],
+      },
+    });
 
-    if (!user || !(await bcrypt.compare(password, user.password)))
-      throw new UnauthorizedException('Invalid email or password');
+    if (!user || !user.password || !(await bcrypt.compare(password, user.password)))
+      throw new UnauthorizedException('Invalid credentials');
 
     if (!user.isActive)
       throw new ForbiddenException('Account is disabled. Please contact support.');
@@ -200,7 +208,64 @@ export class AuthServiceService {
         'Email not verified. Please check your inbox for the verification code.',
       );
 
-    this.logger.log(`User logged in: ${email}`);
+    this.logger.log(`User logged in: ${user.email}`);
+    return this.generateTokenPair(user);
+  }
+
+  // ═══════════════════════════════════════════════════════════════════════════
+  //  GOOGLE LOGIN
+  // ═══════════════════════════════════════════════════════════════════════════
+
+  async googleLogin(payload: GoogleLoginDto): Promise<LoginResponseDto> {
+    // 1. Verify Google ID token
+    const ticket = await this.googleClient.verifyIdToken({
+      idToken: payload.idToken,
+      audience: this.config.get('GOOGLE_CLIENT_ID'),
+    });
+
+    const googlePayload = ticket.getPayload();
+    if (!googlePayload?.email) throw new UnauthorizedException('Invalid Google token');
+
+    // 2. Find or create user
+    let user = await this.prisma.user.findUnique({
+      where: { email: googlePayload.email },
+    });
+
+    if (!user) {
+      // Auto-register: tạo username duy nhất từ email
+      const baseUsername = googlePayload.email.split('@')[0];
+      const username = `${baseUsername}_${Date.now().toString(36)}`;
+
+      user = await this.prisma.user.create({
+        data: {
+          email: googlePayload.email,
+          username,
+          provider: 'google',
+          isEmailVerified: true, // Google đã verify email
+          password: null,
+        },
+      });
+
+      // Emit event tạo profile ở user-service (bao gồm cả avatar từ Google)
+      this.userClient.emit(
+        { cmd: USER_COMMANDS.CREATE_PROFILE },
+        {
+          id: user.id,
+          email: user.email,
+          username,
+          firstName: googlePayload.given_name || '',
+          lastName: googlePayload.family_name || '',
+          avatar: googlePayload.picture,
+        },
+      );
+
+      this.logger.log(`Google user auto-registered: ${user.email} (id=${user.id})`);
+    }
+
+    if (!user.isActive)
+      throw new ForbiddenException('Account is disabled. Please contact support.');
+
+    this.logger.log(`Google login: ${user.email}`);
     return this.generateTokenPair(user);
   }
 
@@ -321,10 +386,17 @@ export class AuthServiceService {
     const user = await this.prisma.user.findUnique({ where: { id: userId } });
 
     if (!user) throw new NotFoundException('User not found');
-    if (!(await bcrypt.compare(currentPassword, user.password)))
-      throw new UnauthorizedException('Current password is incorrect');
-    if (currentPassword === newPassword)
+
+    // Nếu đã có password -> Kiểm tra password hiện tại
+    if (user.password) {
+      if (!(await bcrypt.compare(currentPassword, user.password))) {
+        throw new UnauthorizedException('Current password is incorrect');
+      }
+    }
+
+    if (user.password && currentPassword === newPassword) {
       throw new BadRequestException('New password must be different from the current one');
+    }
 
     const passwordHash = await bcrypt.hash(newPassword, BCRYPT_ROUNDS);
     await this.prisma.user.update({
@@ -332,8 +404,12 @@ export class AuthServiceService {
       data: { password: passwordHash },
     });
 
-    this.logger.log(`Password changed for userId=${userId}`);
-    return { message: 'Password changed successfully.' };
+    this.logger.log(`Password ${user.password ? 'changed' : 'initialized'} for userId=${userId}`);
+    return {
+      message: user.password
+        ? 'Password changed successfully.'
+        : 'Password initialized successfully.',
+    };
   }
 
   async deleteAccount(userId: string): Promise<{ message: string }> {
@@ -361,8 +437,6 @@ export class AuthServiceService {
         id: true,
         email: true,
         username: true,
-        firstName: true,
-        lastName: true,
         role: true,
         isEmailVerified: true,
         isActive: true,
@@ -376,8 +450,6 @@ export class AuthServiceService {
       id: user.id,
       email: user.email,
       username: user.username,
-      firstName: user.firstName,
-      lastName: user.lastName,
       role: user.role as unknown as UserRole,
       isEmailVerified: user.isEmailVerified,
       isActive: user.isActive,
@@ -403,6 +475,9 @@ export class AuthServiceService {
     email: string;
     username: string;
     role: string;
+    isEmailVerified: boolean;
+    isActive: boolean;
+    createdAt: Date;
   }): Promise<LoginResponseDto> {
     const jti = randomUUID();
 
@@ -430,8 +505,15 @@ export class AuthServiceService {
       accessToken,
       refreshToken: refreshTokenId,
       expiresIn: this.parseExpiresIn(this.config.get('JWT_EXPIRES_IN')),
-      tokenType: 'Bearer',
-      userId: user.id,
+      user: {
+        id: user.id,
+        email: user.email,
+        username: user.username,
+        role: user.role as unknown as UserRole,
+        isEmailVerified: user.isEmailVerified,
+        isActive: user.isActive,
+        createdAt: user.createdAt,
+      },
     };
   }
 

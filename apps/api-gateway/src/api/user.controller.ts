@@ -12,9 +12,11 @@ import { UpdateAvatarDto, UserProfileResponseDto } from '@app/common/dto/user.dt
 import { Body, Controller, Get, HttpCode, HttpStatus, Inject, Param, Patch } from '@nestjs/common';
 import { ClientProxy } from '@nestjs/microservices';
 import { ApiTags } from '@nestjs/swagger';
+import { Throttle } from '@nestjs/throttler';
 
 @ApiTags('User')
 @Controller('users')
+@Throttle({ default: { limit: 60, ttl: 60000 } })
 export class UserController {
   constructor(@Inject(USER_SERVICE) private readonly userClient: ClientProxy) {}
 

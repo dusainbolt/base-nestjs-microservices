@@ -78,8 +78,12 @@ export class EnvironmentVariables {
   @IsOptional() @IsString() APP_LOGO_URL?: string;
   @IsOptional() @IsBooleanEnv() ENABLE_SWAGGER?: boolean;
 
-  // OpenAI
+  // OpenAPI
   @IsOptional() @IsString() OPENAI_API_KEY?: string;
+
+  // Frontend & Auth 
+  @IsOptional() @IsString() FRONTEND_URL?: string;
+  @IsOptional() @IsString() GOOGLE_CLIENT_ID?: string;
 }
 
 /**

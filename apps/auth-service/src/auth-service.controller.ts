@@ -2,6 +2,7 @@ import { AUTH_COMMANDS, RmqInterceptor } from '@app/common';
 import {
   RegisterDto,
   LoginDto,
+  GoogleLoginDto,
   VerifyEmailDto,
   ResendVerificationDto,
   RefreshTokenDto,
@@ -44,6 +45,11 @@ export class AuthServiceController {
   @MessagePattern({ cmd: AUTH_COMMANDS.LOGIN })
   login(@Payload() data: LoginDto) {
     return this.authServiceService.login(data);
+  }
+
+  @MessagePattern({ cmd: AUTH_COMMANDS.GOOGLE_LOGIN })
+  googleLogin(@Payload() data: GoogleLoginDto) {
+    return this.authServiceService.googleLogin(data);
   }
 
   @MessagePattern({ cmd: AUTH_COMMANDS.LOGOUT })

@@ -4,10 +4,17 @@ initTracing('api-gateway');
 import { NestFactory } from '@nestjs/core';
 import { ApiGatewayModule } from './api-gateway.module';
 import { ValidationPipe } from '@nestjs/common';
+import * as cookieParser from 'cookie-parser';
 import { initSwagger } from './swagger/init-swagger';
 
 async function bootstrap() {
   const app = await NestFactory.create(ApiGatewayModule);
+
+  app.use(cookieParser());
+  app.enableCors({
+    origin: process.env.FRONTEND_URL || 'http://localhost:3001',
+    credentials: true,
+  });
 
   // Global Validation
   app.useGlobalPipes(

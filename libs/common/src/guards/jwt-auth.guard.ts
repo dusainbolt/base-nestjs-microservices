@@ -45,7 +45,7 @@ export class JwtAuthGuard implements CanActivate {
     if (isPublic) return true;
 
     const request = context.switchToHttp().getRequest<Request>();
-    const token = this.extractTokenFromHeader(request);
+    const token = this.extractToken(request);
 
     if (!token) {
       throw new UnauthorizedException('Access token is missing');
@@ -121,7 +121,8 @@ export class JwtAuthGuard implements CanActivate {
     return true;
   }
 
-  private extractTokenFromHeader(request: Request): string | undefined {
+  private extractToken(request: Request): string | undefined {
+    // Chỉ đọc từ Authorization header (Bearer token)
     const [type, token] = request.headers.authorization?.split(' ') ?? [];
     return type === 'Bearer' ? token : undefined;
   }

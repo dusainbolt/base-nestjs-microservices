@@ -20,6 +20,7 @@ import { Module } from '@nestjs/common';
 import { TerminusModule } from '@nestjs/terminus';
 import { ConfigModule } from '@nestjs/config';
 import { APP_FILTER, APP_GUARD } from '@nestjs/core';
+import { ThrottlerModule, ThrottlerGuard } from '@nestjs/throttler';
 import { ApiGatewayController } from './api-gateway.controller';
 import { ApiGatewayService } from './api-gateway.service';
 import { AuthController } from './api/auth.controller';
@@ -39,6 +40,14 @@ import { PracticeController } from './api/practice.controller';
 
     // JWT verify local — không gọi auth-service mỗi request
     CommonJwtModule,
+
+    // Rate Limiting toàn hệ thống mặc định (60 req / 1 phút)
+    ThrottlerModule.forRoot([
+      {
+        ttl: 60000,
+        limit: 100,
+      },
+    ]),
 
     // Khởi tạo Redis để Guard soi blacklist
     CommonRedisModule,
@@ -65,7 +74,8 @@ import { PracticeController } from './api/practice.controller';
   providers: [
     ApiGatewayService,
     UserEnrichService,
-    { provide: APP_GUARD, useClass: JwtAuthGuard },
+    { provide: APP_GUARD, useClass: ThrottlerGuard }, // Guard chống Spam
+    { provide: APP_GUARD, useClass: JwtAuthGuard }, // Guard kiểm tra JWT
     { provide: APP_FILTER, useClass: GlobalExceptionFilter },
   ],
 })
